@@ -6,7 +6,7 @@ For the apps written so far, it's probably not a big deal. As we progress to wri
 
 It is also safer to make sure the application development environment is as close to the production environment as possible. This helps to avoid problems that stem from using different tools in different environments.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 -  How to install PostgreSQL and set it up.
 -  How to set up a bare Rails application to use a specific database.
 
-### Environments and Pipelines
+### Environments and pipelines
 
 In the context of application development, an environment is the collection of tools, configurations and conventions that developers write and run code with. An environment usually consists of an operating system and other software packages on top of that operating system. Some of that software, like `code`, helps write software while others, like `rbenv`, provide tools and configurations to help run software.
 
@@ -34,7 +34,7 @@ For example, the local database server might have different credentials than the
 
 As applications get larger, setting up these different environments can help developers deliver their best work while making sure changes (or bugs) don't negatively affect users.
 
-### Environment Variables
+### Environment variables
 <span id="env_var">The foundation of any environment is the operating system, which provides ways to store local variables. Not surprisingly, these are known as environment variables.</span>
 
 Why are environment variables important? After all, the information could be added to the git repository (and by extension Github). While tools like git and Github are excellent for storing, versioning and sharing code; sensitive information like API keys or passwords should be kept private. Even if you remove the private data from the current commit, it may still live on in the commit history!
@@ -88,13 +88,13 @@ If `postgresql` is active, you can press `Q` to quit the status screen and move 
 ### Step 3: Setting up PostgreSQL
 PostgreSQL is now running, but we have to configure it in order to be able to use it with our local Rails applications.
 
-#### 3.1 PostgreSQL Roles
+#### 3.1 PostgreSQL roles
 PostgreSQL authenticates via roles. A role is like a user, which is how we interact with the service. The default PostgreSQL installation has set up a `postgres` role that we can use. This is great, but that would mean having to switch to that role every time we wanted to do something with the database server.
 
 Instead, we will set up our own role to avoid switching to the `postgres` role all the time.
 
 
-#### 3.2 Creating a New Role
+#### 3.2 Creating a new role
 We will be creating a new role with the same name as our Linux username.  If you're not sure of your Linux username, you can run the command `whoami` in your terminal to get it. Once you have that information ready, let's create a role in PostgreSQL. The command to do so is:
 
 ~~~bash
@@ -103,7 +103,7 @@ sudo -i -u postgres createuser --interactive
 
 Remember that we want the role name to be the same as our Linux user name and be sure to make that new role a superuser. Setting up a role like this means we can leverage "peer authentication" making using the local database very easy.
 
-#### 3.3 Creating the Role Database
+#### 3.3 Creating the role database
 One other important step in setting up PostgreSQL is that each role must have its own database of the same name. Without it, the role we just created will not be able to log in or interact with PostgreSQL.
 
 You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to resolve fix this:
@@ -118,7 +118,7 @@ sudo -i -u postgres createdb <linux_username>
 
 Now our role is fully set up: we've got `<role_name>` and that role has a database.
 
-#### 3.4 Securing Our New Role
+#### 3.4 Securing our new role
 One important thing that we have to do is to set up a password for our new role so that the data is protected. Now that our role is set up, we can actually use it to administer PostgreSQL. All you have to do is enter this command to get into the PostgreSQL prompt:
 
 ~~~bash
@@ -145,7 +145,7 @@ grant all privileges on database <role_database_name> to <role_name>;
 
 Remember that you should change the `<role_database_name>` and `<role_name>` (they should both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
 
-#### 3.5 Saving Access Information in the Environment
+#### 3.5 Saving access information in the environment
 After finishing our configuration, the last step is save it into the environment to access later.
 
 In order to save our password to the environment, we can run this command:
@@ -202,7 +202,7 @@ If the `postgresql` service is active, move on to the next step.
 ### Step 3: Setting up PostgreSQL
 PostgreSQL is now running, but we have to configure it in order to be able to use it with our local Rails applications.
 
-#### 3.1 PostgreSQL Roles
+#### 3.1 PostgreSQL roles
 PostgreSQL authenticates via roles. A role is like a user, and by default, the install on MacOS should have a role set up with your MacOS username. If you're not sure of your username, you can run the command `whoami` in your terminal to get it. To verify that you have a role in PostgreSQL matching your username, enter the following command:
 
 ~~~bash
@@ -220,7 +220,7 @@ postgres=#
 
 Input `\du`, hit Return, and check that your MacOS username is the listed role name.
 
-#### 3.2 Creating the Role Database
+#### 3.2 Creating the role database
 One other important step in setting up PostgreSQL is that each role must have its own database of the same name. We need this to login as the role matching our username. While still in the PostgreSQL session prompt, type the following command to create the new database. Make sure you include the semicolon.
 
 <div class="lesson-note" markdown="1">
@@ -233,7 +233,7 @@ CREATE DATABASE <username>;
 
 Now our role is fully set up: we've got `<role_name>` and that role has a database. Enter the command `\q` to exit the interactive terminal for `postgres`.
 
-#### 3.3 Securing Our New Role
+#### 3.3 Securing Our new role
 One important thing we have to do is set up a password for our new role to protect the data. Now that we have our role, we can use it to administer PostgreSQL. All you have to do is enter this command to get into the PostgreSQL prompt for the database matching your user:
 
 ~~~bash
@@ -260,7 +260,7 @@ grant all privileges on database <role_database_name> to <role_name>;
 
 Remember that you should change the `<role_database_name>` and `<role_name>` (they should both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
 
-#### 3.4 Saving Access Information in the Environment
+#### 3.4 Saving access information in the environment
 After finishing our configuration, the last step is save it into the environment to access later.
 
 In order to save our password to the environment, we can run this command:
@@ -278,10 +278,10 @@ Once that's done, we can move to testing it out!
 </details>
 
 
-### Creating a Rails Application Backed by PostgreSQL
+### Creating a Rails application backed by PostgreSQL
 Now that we've installed and configured our local PostgreSQL server, let's generate a new Rails application to make sure everything is working.
 
-#### Telling Rails What Database to Use
+#### Telling Rails what database to use
 Through the curriculum to this point, Rails has been using the `sqlite` gem in order to run and manage its database. As we just set up PostgreSQL, we will need to install the companion gem so that Rails knows how to interact with this database provider:
 
 ~~~bash
@@ -296,7 +296,7 @@ Navigate to where you keep your projects and enter:
 rails new <app_name> --database=postgresql
 ~~~
 
-#### Configuring Rails Using Environment Variables
+#### Configuring Rails using environment variables
 Let's navigate into the app directory and set up our database credentials.
 
 ~~~bash
@@ -331,7 +331,7 @@ rails s
 
 Open your browser, and head on over to `localhost:3000`. If you are greeted by the Rails splash page, then we did it! If you see an error, come to the [Discord](https://discord.gg/V75WSQG) community and get some help!
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -340,7 +340,7 @@ This section contains questions for you to check your understanding of this less
 -   <a class="knowledge-check-link" href="#privacy">Why should we use environment variables?</a>
 
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
