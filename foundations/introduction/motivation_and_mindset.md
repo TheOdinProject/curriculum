@@ -8,10 +8,10 @@ So before we get into the meat of the curriculum, we're going to go over the fol
 
 Take a moment to think about why you have decided to learn programming.
 
-*   Do you want to have a fulfilling career that pays well?
-*   Are you excited by the creative outlet programming provides? 
-*   Are you determined to develop the skills and abilities to build any app you can think of? 
-*   Do you want to start your own company by turning an app idea into reality?
+- Do you want to have a fulfilling career that pays well?
+- Are you excited by the creative outlet programming provides? 
+- Are you determined to develop the skills and abilities to build any app you can think of? 
+- Do you want to start your own company by turning an app idea into reality?
 
 Your motivation could be a combination of these reasons or something else entirely. Whatever it is, hold on tightly to your motivation - this will be what pulls you through to the end of this journey, giving you a definitive goal to aim towards.
 
@@ -37,9 +37,9 @@ When you find yourself questioning your abilities, reflect on the successes you 
 
 To learn more about the growth mindset, check out these resources:
 
-*   [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
-*   [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
-*   [You can learn anything](https://www.khanacademy.org/college-careers-more/talks-and-interviews/talks-and-interviews-unit/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
+- [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
+- [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
+- [You can learn anything](https://www.khanacademy.org/college-careers-more/talks-and-interviews/talks-and-interviews-unit/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
 
 ### The learning process
 
@@ -55,18 +55,18 @@ Teaching what you know to others is a great way to solidify what you have learne
 
 You can practice this method of learning by helping others in our community.
 
-*   To learn more about the best ways to learn, [learning how to learn on Coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
+- To learn more about the best ways to learn, [learning how to learn on Coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
 
-*   The Ruby Rogues have a [podcast on How to Learn](https://topenddevs.com/podcasts/ruby-rogues/episodes/131-rr-how-to-learn), which should be motivational and useful to you, so check it out for some useful thoughts on learning.
-*    100 Days of Code is a challenge that new developers often use to track their coding journey and showcase their work. Consider joining by checking out [their website](https://www.100daysofcode.com/) if you are looking for a way to stay motivated and inspire other developers.
+- The Ruby Rogues have a [podcast on How to Learn](https://topenddevs.com/podcasts/ruby-rogues/episodes/131-rr-how-to-learn), which should be motivational and useful to you, so check it out for some useful thoughts on learning.
+- 100 Days of Code is a challenge that new developers often use to track their coding journey and showcase their work. Consider joining by checking out [their website](https://www.100daysofcode.com/) if you are looking for a way to stay motivated and inspire other developers.
 
 ### What to do when you're stuck
 
 You will inevitably get stuck at some point in the curriculum, perhaps due to a concept that you are having difficulty understanding or perhaps due to something not working correctly in a project. Whatever it is, use the following tools to get unstuck:
 
-*   Google it: You can be certain someone else out there has encountered the same problem as you at some point. A quick Google search can often lead to a solution.
-*   Take a break: Allow your diffuse learning state to work on the problem.
-*   Ask for help in our [chat](https://discord.gg/fbFCkYabZB): Come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
+- Google it: You can be certain someone else out there has encountered the same problem as you at some point. A quick Google search can often lead to a solution.
+- Take a break: Allow your diffuse learning state to work on the problem.
+- Ask for help in our [chat](https://discord.gg/fbFCkYabZB): Come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
 ### A note on AI code generation
 
@@ -124,12 +124,12 @@ It may seem counterintuitive, but you will actually get more done if you regular
 
 What to do during your break:
 
-*   listen to music
-*   journal
-*   doodle
-*   meditate 
-*   play a quick game
-*   go for a short walk outside 
+- Listen to music.
+- Journal
+- Doodle
+- Meditate 
+- Play a quick game.
+- Go for a short walk outside.
 
 Read [this article](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/) for more information on breaks & productivity.
 
@@ -171,8 +171,8 @@ Learning any new skill is a journey full of speed bumps and obstacles to be over
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [Managing inspiration and motivation](https://markmanson.net/do-something)
-*   [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
-*   [Improve your typing skills with Keybr.com](https://www.keybr.com/). One excellent alternative is [typing.com](https://www.typing.com/). Use these keyboard trainer if you find your typing speed is holding you back. We recommend spending 5 mins every day after you start your PC.
-*   [Practice typing with Monkeytype!](https://monkeytype.com/) A minimalistic, customizable typing website. Test yourself in various modes, track your progress and improve your typing speed. It has a great community and frequently receives new features. Even though it has so many features, the experience is still very polished. 
-*   [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
+- [Managing inspiration and motivation](https://markmanson.net/do-something)
+- [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
+- [Improve your typing skills with Keybr.com](https://www.keybr.com/). One excellent alternative is [typing.com](https://www.typing.com/). Use these keyboard trainer if you find your typing speed is holding you back. We recommend spending 5 mins every day after you start your PC.
+- [Practice typing with Monkeytype!](https://monkeytype.com/) A minimalistic, customizable typing website. Test yourself in various modes, track your progress and improve your typing speed. It has a great community and frequently receives new features. Even though it has so many features, the experience is still very polished. 
+- [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
