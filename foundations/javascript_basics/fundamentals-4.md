@@ -52,6 +52,8 @@ Follow the steps below to get started. Once you complete Step 1, be sure to use 
     * tempConversion
 3. Once you have a working solution, see how it compares to the exercise's given solution. Solutions for the exercises can be found in the 'solution' folder of each exercise.
 
+(Note: if you get warnings that packages are out of date or contain vulnerabilities when running `npm install`, you can safely ignore them for these exercises.)
+
 </div>
 
 ### Knowledge check
