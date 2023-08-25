@@ -2,20 +2,20 @@
 
 In these projects, you'll be working to implement authentication systems so users can only access areas of a site they are authorized to.
 
-### Project: Members Only!
+### Project: Members only!
 
 In this project, you'll be building an exclusive clubhouse where your members can write anonymous posts. Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
 
 If you want to add your own stylistic flourishes, consider it extra credit.
 
-### Your Task
+### Your task
 
 The projects will be less and less explicit about how to achieve their goals, since we expect you to build on your previous knowledge.  If you don't know how to do something, feel free to check back in previous lessons or projects or Google the correct way to implement it (though be careful, because that may take you deeper down the road than we intended).
 
 If you'd like to challenge yourself, don't even follow the steps below, just go ahead and build the app!
 
 <div class="lesson-content__panel" markdown="1">
-#### Basic Setup
+#### Basic setup
 
 1. Think about and spec out how to set up your data models for this application.  You'll need users with the usual simple identification attributes like name, email and password.  They'll need to create posts as well.
 2. Create your new `members-only` Rails app and GitHub repo.  Update your README.
@@ -23,7 +23,7 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
 
 *note: For getting Devise to play nicely with Turbo Drive, be sure you read [this section](https://github.com/heartcombo/devise#hotwireturbo) of the Devise README. You’ll need to install the [Responders gem](https://github.com/heartcombo/responders). Make sure that in addition to adding the gem to your Gemfile that you also run the install generator. You’ll also need to specify delete requests on your links/buttons for signing the user out. More detailed information can be found in [Devise’s Guide for Hotwire Turbo Integration](https://github.com/heartcombo/devise/wiki/How-To:-Upgrade-to-Devise-4.9.0-%5BHotwire-Turbo-integration%5D).*
 
-#### Authentication and Posts
+#### Authentication and posts
 
 Let's build those secrets!  We'll need to make sure only signed in users can see the author of each post.  We're not going to worry about editing or deleting posts.
 
@@ -39,7 +39,7 @@ Let's build those secrets!  We'll need to make sure only signed in users can see
 
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Railscasts #250 Authentication from Scratch](http://railscasts.com/episodes/250-authentication-from-scratch-revised)

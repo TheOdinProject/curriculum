@@ -126,7 +126,7 @@ The last part of reset we want to touch upon is `git reset --hard`. What this do
 
 Thus far you've been working with remote repositories each time you've pushed or pulled from your own GitHub repository while working on the curriculum's various projects. In this section we're going to cover some slightly more advanced topics, which you might not have yet encountered or had to use.
 
-#### git push -\-force
+#### Git push -\-force
 
 Let's say you're no longer working on a project all by yourself, but with someone else. You want to push a branch you've made changes on to a remote repository. Normally Git will only let you push your changes if you've already updated your local branch with the latest commits from this remote.
 

@@ -2,7 +2,7 @@
 
 To really understand how Rails works, you need to have a solid base in the guts of the web.  You've already covered some of this in previous sections (and if you went through the Ruby curriculum you can just skim it), but this time you'll get a chance (in the project) to reach out and make some real web requests.
 
-### Lesson Overview
+### Lesson overview
 This section contains a general overview of topics that you will learn in this lesson.
 
 -   The basics of HTTP.
@@ -54,7 +54,7 @@ You may think you know what's in a URL, but which part is the host? protocol (ak
 
 Check out this [article by Matt Cutts](http://www.mattcutts.com/blog/seo-glossary-url-definitions/) on how Googlers pick apart URL components.
 
-**Quick Quiz:**
+**Quick quiz:**
 The URL is: https://www.google.com/search?q=what+is+a+url
 
 1.  What is the "Path"?
@@ -79,7 +79,7 @@ MVC is all about organization and Rails is all about MVC.  When you build a new 
 
 The point of MVC is that the functions of a web application can be broken down into more or less distinct parts.  Each part gets its own Ruby class.  That's great for you the developer because, when you want to tweak a specific part of the code base or fix a bug, you know exactly which file to modify and where it is.
 
-### The Path Through MVC
+### The path through MVC
 
 Once a request from a browser comes into your application, at the most basic level:
 
@@ -144,7 +144,7 @@ On the server side, you will end up writing (or using) methods which restrict ac
 
 We'll dig into this stuff a bit later, but it's good to understand in the context of what we talked about before in regards to how requests are made because it brings a couple of extra layers onto these formerly-independent HTTP requests.  Authentication systems allow you to establish sessions which preserve the user's state (like logged in status) across requests and helps you determine whether the user is authorized to do a particular thing.
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 -   <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177"> What do you call an HTTP message that goes from client to server? </a>
@@ -156,7 +156,7 @@ This section contains questions for you to check your understanding of this less
 -   <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/HTTP_cookie#Session_management"> Why do you need "cookies" to continue your "session"? </a>
 -   <a class="knowledge-check-link" href="#authorization"> What is the difference between "authentication" and "authorization"? </a>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 -   [HTTP explained by Harvard's David Malan](http://www.youtube.com/watch?v=8KuO4r5CHjM)
