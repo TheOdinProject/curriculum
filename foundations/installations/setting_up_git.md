@@ -199,6 +199,9 @@ cat ~/.ssh/id_ed25519.pub
 
 Highlight and copy the output, which starts with `ssh-ed25519` and ends with your email address.
 
+> [!NOTE]  
+> To copy from the VM to your host computer, you must enable the Shared Clipboard feature in your VM, which requires that you have Guest Additions installed. See "Additional resources" for guidance on installing Guest Additions.
+
 Now, go back to GitHub in your browser window and paste the key you copied into the key field. Keep the key type as `Authentication Key` and then, click `Add SSH key`. You're done! You've successfully added your SSH key!
 
 #### Step 2.5 Testing your key
@@ -217,3 +220,4 @@ This section contains helpful links to related content. It isn’t required, so 
 
 -   [Understanding SSH Key Pairs](https://winscp.net/eng/docs/ssh_keys) SSH is a secure network protocol that uses an implementation of public-key cryptography, also known as asymmetric cryptography. Having a basic understanding of how it works can help you understand what an SSH key is all about.
 -   [Asymmetric Encryption - Simply explained](https://www.youtube.com/watch?v=AQDCe585Lnc) a short video explaining Asymmetric Encryption.
+-   Installing Guest Additions: The Oracle VirtualBox documentation describes how to add [Guest Additions for Linux](https://docs.oracle.com/en/virtualization/virtualbox/7.0/user/guestadditions.html#additions-linux), but the instructions can be confusing. The following video tutorial provides a helpful demonstration of the installation and configuration: [VirtualBox tutorial - installing Guest additions CD image for Linux guests](https://youtu.be/ULSFaGmIaUo).
