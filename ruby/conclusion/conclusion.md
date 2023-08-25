@@ -10,6 +10,5 @@ Before you move on, we would like your feedback [here](https://docs.google.com/f
 ### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [Ruby Best Practices book by Gregory Brown](http://it-ebooks.info/book/178/).
 * [Why Ruby and Python are different](http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa?rq=1)
 * [Exercism](http://exercism.org/), a site where you can grow and improve your ability to **write code** by **reading others' code** and **commenting** on it.

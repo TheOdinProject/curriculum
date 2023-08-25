@@ -192,9 +192,9 @@ One thing to really stress is that one is not necessarily worse than the other a
 
 You may have heard of Webpacker or have come across it in the wild so it's worth mentioning as it was used for quite a few years for Rails 6.
 
-<span id='webpacker-introduction'>Webpacker was a Ruby gem created to work with webpack itself which allowed Rails to use ES6 (short for ECMAScript 6 which was introduced to standardize JavaScript) as it required transpilation for use with browsers at that time.
+<span id='webpacker-introduction'> </span>Webpacker was a Ruby gem created to work with webpack itself which allowed Rails to use ES6 (short for ECMAScript 6 which was introduced to standardize JavaScript) as it required transpilation for use with browsers at that time.
 
-In the context of Rails, Webpacker builds a map of your JavaScript code to build a dependency graph allowing it to generate bundles of code. Rails would grab a pack from app/javascript/packs and download it when that form is visited by the user. </span>
+In the context of Rails, Webpacker builds a map of your JavaScript code to build a dependency graph allowing it to generate bundles of code. Rails would grab a pack from app/javascript/packs and download it when that form is visited by the user.
 
 With Ruby gems we use a Gemfile and with Webpacker we use a package.json to manage your JavaScript libraries. The main difference is that with a Gemfile you need to open it and manually add the gem and version and then run bundle but with webpack we can use Yarn from the terminal to add a library like so.
 
