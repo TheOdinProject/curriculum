@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 - How to deploy to a PaaS provider.
 - How to troubleshoot common deployment issues.
 
-### What are gosting providers?
+### What are hosting providers?
 Hosting providers are like server landlords. They own servers and rent space on them to customers, who can then use the space to store their websites and make them accessible to anyone on the web.
 
 You've already had some experience using a hosting provider when you deployed projects to Github Pages earlier in the curriculum. GitHub Pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** Ruby on Rails apps. We're going to need something more powerful.
