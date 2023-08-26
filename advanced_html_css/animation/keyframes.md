@@ -132,4 +132,4 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-Great Youtube video series on CSS Animations from [DevTips](https://www.youtube.com/playlist?list=PLqGj3iMvMa4LvJ8VctoXnPI0dtE40wfid).
+[Video series on CSS Animations from DevTips](https://www.youtube.com/playlist?list=PLqGj3iMvMa4LvJ8VctoXnPI0dtE40wfid).
