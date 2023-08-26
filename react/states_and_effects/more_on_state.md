@@ -18,8 +18,7 @@ The assignment items go through the topic thoroughly, but as a general rule of t
 
 #### State should not be mutated
 
-Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference type values i.e. arrays and objects, never mutate them. According to React documentation, we should treat state as if it was _immutable_. For more information about state mutating check [Why is mutating state not recommended in React?](https://react.dev/learn/updating-objects-in-state#why-is-mutating-state-not-recommended-in-react)
-
+Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference type values i.e. arrays and objects, never mutate them. According to React documentation, we should treat state as if it was _immutable_.
 In order for us to change state, we should always use the `setState` function. Make sure to run the following example locally and see the difference for yourself.
 
 ~~~jsx
@@ -152,7 +151,7 @@ const handleIncreaseAge = () => {
 
 When a callback is passed to the `setState` function, it ensures that the latest state is passed in as an argument to the callback. 
 
-Using an updater is not always necessary. If you want to change the state using your previous state, and you prefer consistency over verbosity then you might consider using an updater. [is using an updater always preferred?](https://react.dev/reference/react/useState#is-using-an-updater-always-preferred)
+Using an updater is not always necessary. If you want to change the state using your previous state, and you prefer consistency over verbosity then you might consider using an updater.
 
 <div class="lesson-note" markdown=1>
 
@@ -216,3 +215,5 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - We intentionally skipped some of the articles pertaining to state from the React documentation. We are confident that the concepts covered thus far will equip you with enough knowledge to tackle the projects to come in the course. Though if you want to delve into the topic further, you can read all of the articles in the [Adding Interactivity](https://react.dev/learn/adding-interactivity) and the [Managing State](https://react.dev/learn/managing-state) section.
+- React tip [Why is mutating state not recommended in React?](https://react.dev/learn/updating-objects-in-state#why-is-mutating-state-not-recommended-in-react)
+- React tip [is using an updater always preferred?](https://react.dev/reference/react/useState#is-using-an-updater-always-preferred)
