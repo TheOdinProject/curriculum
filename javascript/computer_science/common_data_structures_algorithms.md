@@ -52,6 +52,7 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
+- [LeetCode](https://leetcode.com/) - platform to practice on Data Structures and Algorithms (DSA). Recommended study from the section Explore.
 - [Khan Academy's great Algorithms Course](https://www.khanacademy.org/computing/computer-science/algorithms)
 - [Stanford's Coursera 4-Part Algorithm Course](https://www.coursera.org/specializations/algorithms)
 - [Visualizing Algorithms from Mike Bostock](http://bost.ocks.org/mike/algorithms/)
