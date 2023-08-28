@@ -300,7 +300,7 @@ In order to make WSL2 work we'll first need to ensure both `Windows Subsystem fo
 
 #### Step 1.3.1: Install Windows Terminal (Windows 10 only)
 
-Windows Terminal is an terminal application that lets you more easily customize and run terminals, as well as supporting multiple tabs which can each run their own different terminals.
+Windows Terminal is a terminal application that lets you more easily customize and run terminals, as well as supporting multiple tabs which can each run their own different terminals.
 
 - [Install Window's Terminal](https://learn.microsoft.com/en-us/windows/terminal/install) by using the direct install option.
 
