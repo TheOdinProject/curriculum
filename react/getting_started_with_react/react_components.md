@@ -37,7 +37,7 @@ function Greeting() {
 
 This might look mostly familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file named `Greeting.jsx`, and in that file write your own handmade functional component. Name it whatever you wish, and have it return whatever JSX you wish. 
 
-Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind. **React components must be capitalized** or they will not function as expected. This is so that when JSX (more on that later) is parsed, React can tell the difference between a normal HTML tag and an instance of a React component. This is why we capitalized `Greeting()`.
+Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind. **React components must be capitalized** or they will not function as expected. This is so that when JSX (more on that later) is parsed, React can tell the difference between a normal HTML tag and an instance of a React component and is why we capitalized `Greeting()`.
 
 <div class="lesson-note">
   
