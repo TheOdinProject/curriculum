@@ -327,7 +327,7 @@ You might notice when you open WSL2 via Windows Terminal, you'll see a window wi
 </div>
 
 <div class="lesson-note lesson-note--warning">
-When opening your WSL2 terminal ensure that you do not see /mnt/c at the start of the line. /mnt/c is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences
+When opening your WSL2 terminal ensure that you do not see `/mnt/c` at the start of the line. `/mnt/c` is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences.
 </div>
 </details>
 
