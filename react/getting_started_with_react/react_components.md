@@ -37,7 +37,7 @@ function Greeting() {
 
 This might look mostly familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file named `Greeting.jsx`, and in that file write your own handmade functional component. Name it whatever you wish, and have it return whatever JSX you wish. 
 
-Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind, components that aren't capitalized might not run as expected - which is why we capitalized `Greeting()`.
+Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind. **React components must be capitalized** or they may not function as expected, which is why we capitalized `Greeting()`.
 
 <div class="lesson-note">
   
@@ -79,7 +79,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 ~~~
 
-And just like that, you've successfully imported and used your first custom-made component, congratulations!
+Remember that `<Greeting />` should be capitalized! Try using lower case for the import, function name and component and see what happens. Otherwise, just like that, you've successfully imported and used your first custom-made component, congratulations!
 
 ### Assignment
 
