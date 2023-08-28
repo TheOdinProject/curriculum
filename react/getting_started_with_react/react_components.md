@@ -6,9 +6,9 @@ In this lesson we'll be going over the basics of React components - what they do
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   What are components?
-*   How are components created?
-*   Where do components live?
+- What are components?
+- How are components created?
+- Where do components live?
 
 ### What are components?
 
@@ -86,19 +86,19 @@ Remember that `<Greeting />` should be capitalized! Try using lower case for the
 <div class="lesson-content__panel" markdown="1">
 
 1.  It's time to create some new components! Use the same project, but play around with it, try displaying something like your favorite food.
-    *   While components normally get exported as defaults, try using some named exports instead of default exports. If you're unsure how to do this, consult your best friend: [the MDN documentation about export statements](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export#description)
+    - While components normally get exported as defaults, try using some named exports instead of default exports. If you're unsure how to do this, consult your best friend: [the MDN documentation about export statements](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export#description)
 </div>
 
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#what-are-components">What does a React element look like?</a>
-*   <a class="knowledge-check-link" href="#how-to-create-components">How would you create a functional component?</a>
-*   <a class="knowledge-check-link" href="#where-do-components-live">How do you export and then import a component?</a>
+- <a class="knowledge-check-link" href="#what-are-components">What does a React element look like?</a>
+- <a class="knowledge-check-link" href="#how-to-create-components">How would you create a functional component?</a>
+- <a class="knowledge-check-link" href="#where-do-components-live">How do you export and then import a component?</a>
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   Geeks for Geeks has a quick [ReactJS Functional Components tutorial](https://www.geeksforgeeks.org/reactjs-functional-components/). It introduces some new ways of calling functional components you can play around with if you feel a burning desire to do so. For the time being don't worry too much about Class components, which the resource also goes into. 
+- Geeks for Geeks has a quick [ReactJS Functional Components tutorial](https://www.geeksforgeeks.org/reactjs-functional-components/). It introduces some new ways of calling functional components you can play around with if you feel a burning desire to do so. For the time being don't worry too much about Class components, which the resource also goes into. 
