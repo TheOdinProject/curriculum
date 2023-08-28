@@ -180,4 +180,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-- [Watch this video about ESS6 Modules by Web Dev Simplified](https://youtu.be/cRHQNNcYf6s) if you find video lessons easier to absorb. It covers the same topics as discussed in this lesson.
+- [Watch this video about ES6 Modules by Web Dev Simplified](https://youtu.be/cRHQNNcYf6s) if you find video lessons easier to absorb. It covers the same topics as discussed in this lesson.
