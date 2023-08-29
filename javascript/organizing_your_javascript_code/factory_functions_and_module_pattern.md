@@ -232,7 +232,7 @@ jeff.sayName(); // my name is jeff
 jeff.doSomethingNerdy(); // nerd stuff
 ~~~
 
-This pattern is _great_ because it allows you to pick and choose which functions you want to include in your new object. If you want to go ahead and lump ALL of another object in, you can certainly do that as well with `Object.assign` (read the docs for that one [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)).
+This pattern is _great_ because it allows you to pick and choose which functions you want to include in your new object. If you want to go ahead and lump ALL of another object in, you can certainly do that as well with `Object.assign` (read the docs for that one [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)). For more on `Object.assign` check the [Additional Resources](#additional-resources) section. 
 
 ~~~javascript
 const Nerd = (name) => {
@@ -303,5 +303,6 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This video explains Closures with a good example.](https://www.youtube.com/watch?v=80O6L2Ez3GM)
+- [A short video on Object.assign and how to use it](https://www.youtube.com/watch?v=JmGJUzNsGFs)
 - [Learning JavaScript Design Patterns by Addy Osmani and Lydia Hallie](https://www.patterns.dev/)
 - [Interactive Scrim on factory functions](https://scrimba.com/scrim/c2aaKzcV)
