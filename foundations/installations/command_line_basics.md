@@ -40,7 +40,9 @@ This section contains a general overview of topics that you will learn in this l
 <div class="lesson-content__panel" markdown="1">
 
 **Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites).
+<div class="lesson-note" markdown="1">
 **Note for WSL users**: You will have to use the `wget` command along with the link given in the `Download files` section in order to have the zip file in your WSL installation (`wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip`). You will also have to install unzip by using the command `sudo apt install unzip` and then `unzip shell-lesson-data.zip` to unzip the file. Keep in mind that throughout the course below, your terminal output may look slightly different to what is shown in the lessons. Anytime the course asks you to go to the Desktop, you will instead be going to the home directory which can be done by using the cd command (`cd ~`).
+</div>
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
 

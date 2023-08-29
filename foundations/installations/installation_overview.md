@@ -63,13 +63,17 @@ Modifying or dual booting a computer to work with the tools you'll need will mak
 
 Still not convinced? Here are a few great reasons to install Linux:
 
-- **Tested** - We've tested our directions with macOS, Ubuntu, and official Ubuntu flavors. We did the research so that you can get tools installed with as few issues as possible, getting you to coding sooner. Time spent wrestling with your operating system is time taken from learning how to code.
+- **Tested** - We've tested our directions with macOS, Ubuntu (and official Ubuntu flavors) and WSL2. We did the research so that you can get tools installed with as few issues as possible, getting you to coding sooner. Time spent wrestling with your operating system is time taken from learning how to code.
 - **Community Support** - Using the tools we recommend makes it easier for us to help when you run into trouble.
 - **Development Tools Are Built for Linux** - Ruby (on Rails) and Node.js, popular backend technologies covered by The Odin Project and widely used in the larger web development community, are open source projects that explicitly *expect* to run on an open-source (UNIX-based) platform like Linux.
 - **Work Like The Pros** - Many developers use a Unix-based operating system.
 - **Performance** - You are worried about installing Linux because your machine is slow/older and has limited space? When performance is a priority, Linux is a great choice. It uses fewer system resources than Windows and will occupy less hard drive space.
 
-Many learners come to our Discord channel to ask if the directions on this page need to be followed. The maintainers of our Discord server wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
+Many learners come to our Discord channel to ask if the directions on this page need to be followed. The moderators of our Discord server wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
+
+Before we can continue, we must first stress one detail of importance:
+
+**We can only support what is provided within the scope of our curriculum. We do not support native Windows as a development environment.** Using Windows has been discussed many times and it is not feasible to do so at this time. Please do not ask us to support Windows, and please **do not bring it up in the Discord**. We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows has not proven to be a path of low resistance
 
 With that out of the way, we need to set up an appropriate development environment!
 
