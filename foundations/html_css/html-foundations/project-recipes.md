@@ -112,5 +112,5 @@ Here is the answer:
 2- Your project should not look like that. Focus mainly on the requirements of the project.
 
 This applies for future projects too.
-For more information read Part 4 of [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
+For more information read [Part 5](https://dev.to/theodinproject/learning-code-f56) of [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
 </div>
