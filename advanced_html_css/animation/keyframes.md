@@ -132,4 +132,4 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-[Video series on CSS Animations from DevTips](https://www.youtube.com/playlist?list=PLqGj3iMvMa4LvJ8VctoXnPI0dtE40wfid).
+[Video from DevTips on CSS Animations and Keyframes](https://www.youtube.com/watch?v=f1WMjDx4snI&list=PLqGj3iMvMa4LvJ8VctoXnPI0dtE40wfid&index=2&t=439s&ab_channel=DevTips).
