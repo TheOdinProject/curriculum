@@ -242,7 +242,9 @@ const Nerd = (name) => {
 }
 ~~~
 
-- Before moving on have a look at [this](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9) article. In the second half of the article, the author goes into some things that we aren't really talking too much about here, but you'll be rewarded if you spend some time figuring out what he's talking about. Good stuff!
+- Before moving on have a look at this article. That's a tough one but you will get rewarded if you spend some time with it, Good Stuff!
+A notice about backbone.js, don't spend much time on it, [this video](https://www.youtube.com/watch?v=RBgm7Zgv2dM) should suffice.
+
 
 ### The module pattern
 
