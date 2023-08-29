@@ -269,7 +269,7 @@ Once you have successfully met both of these requirements, you should be able to
 
 Using WSL2 is an quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
 
-<div class="lesson-note">
+<div class="lesson-note" markdown="1">
 <h4>WSL2 and Linux instructions</h4>
 Because WSL2 is a full-fledged Linux distribution, almost everything that the curriculum teaches about Linux is also applicable to WSL2. In future lessons, whenever there are instructions that differ by OS, you should follow the Linux instructions, unless the lesson includes WSL2-specific instructions.
 </div>
@@ -322,11 +322,11 @@ On Windows there are three primary ways to open WSL2.
 - Otherwise you can open Windows Terminal, click the dropdown next to the new tab button (at the top of the windows), and select Ubuntu.
 - If you search for Ubuntu in the application search bar you should see a application titled Ubuntu; open it to start a new terminal session.
 
-<div class="lesson-note lesson-note--tip">
+<div class="lesson-note lesson-note--tip" markdown="1">
 You might notice when you open WSL2 via Windows Terminal, you'll see a window with a different color scheme and a different icon compared to opening a terminal through Ubuntu in your applications. This is because Windows Terminal comes with a default color scheme for Ubuntu meant to emulate how a real Ubuntu terminal looks. This difference is purely cosmetic, and there is no practical difference between the two.
 </div>
 
-<div class="lesson-note lesson-note--warning">
+<div class="lesson-note lesson-note--warning" markdown="1">
 When opening your WSL2 terminal ensure that you do not see `/mnt/c` at the start of the line. `/mnt/c` is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences.
 </div>
 </details>
