@@ -107,9 +107,8 @@ When you look at project submissions below, you might be asking:
 
 Here is the answer:
 
-1- The main reason they look that good is that they are not done by beginners. They were likely submitted by people who had some experience with programming, or who have completed The Odin Project before and are coming back to make better websites.
-
-2- Your project should not look like that. Focus mainly on the requirements of the project.
+1. The main reason they look that good is that they are not done by beginners. They were likely submitted by people who had some experience with programming, or who have completed The Odin Project before and are coming back to make better websites.
+1. Your project should not look like that. Focus mainly on the requirements of the project.
 
 This applies for future projects too.
 For more information read [Part 5](https://dev.to/theodinproject/learning-code-f56) of [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
