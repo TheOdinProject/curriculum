@@ -89,7 +89,5 @@ This section contains helpful links to other content. It isn't required, so cons
 
 - The best book we've ever read on the subject of loose coupling is [Practical Object-Oriented Design In Ruby](http://www.poodr.com/). Unfortunately, it is not free... and not JavaScript. We feel confident in recommending it anyway. If you don't know Ruby, it is a clear enough language that you don't really need to learn it to follow the examples and the content of the book is sincerely fantastic. Alternatively, [99 Bottles of OOP](https://sandimetz.com/products) is written in both JavaScript and Ruby. It is written by the same author and may be a better option if you are brand new to OOP (it is not free either).
 
-- A nice summary of [OOP's most common principles using JavaScript](https://medium.com/better-programming/object-oriented-programming-in-javascript-b3bda28d3e81)
-
 - [Building a house from the inside out](https://www.ayweb.dev/blog/building-a-house-from-the-inside-out) will walk you through the process of separating your core logic and DOM logic.
 
