@@ -262,6 +262,7 @@ This section contains questions for you to check your understanding of this less
 - [What additional function is required for 3D transforms?](#three-dimensional-transforms)
 
 ### Additional resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - Here's a good resource that summarizes [most common transform functions with some additional insight](https://www.joshwcomeau.com/css/transforms/) to how you may use them.
