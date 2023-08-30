@@ -17,6 +17,7 @@ _Finally_, feel free to substitute your own content into this design. The images
 You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image   you use is actually free for you to use, and make sure to credit the creator of the image in your project. An easy way to give credit is to put the creator's name and contact info in a README file in your repository.
 
 Some good places to find free-to-use images on the web include [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/).
+[svgrepo](https://svgrepo.com/) for svg icons you can use for logos.
 
 </div>
 
