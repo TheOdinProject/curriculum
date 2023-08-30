@@ -171,6 +171,7 @@ Learning any new skill is a journey full of speed bumps and obstacles to be over
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
+- [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
 - [Managing inspiration and motivation](https://markmanson.net/do-something)
 - [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 - [Improve your typing skills with Keybr.com](https://www.keybr.com/). One excellent alternative is [typing.com](https://www.typing.com/). Use these keyboard trainer if you find your typing speed is holding you back. We recommend spending 5 mins every day after you start your PC.
