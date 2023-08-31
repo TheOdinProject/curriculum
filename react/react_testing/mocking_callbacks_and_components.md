@@ -41,6 +41,7 @@ import { vi } from 'vitest'
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import CustomButton from "./FavoriteInput";
+import '@testing-library/jest-dom';
 
 describe("CustomButton", () => {
     it("should render a button with the text 'Click me'", () => {
