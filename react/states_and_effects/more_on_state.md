@@ -18,7 +18,7 @@ The assignment items go through the topic thoroughly, but as a general rule of t
 
 #### State is immutable
 
-<span id="state-is-immutable"></span>Mutating state is no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference type values i.e. arrays and objects, never mutate them. Instead always use the `setState` function to update state. 
+<span id="state-is-immutable"></span>Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference type values i.e. arrays and objects, never mutate them. Instead always use the `setState` function to update state. 
 
 Make sure to run the following example locally and see the difference for yourself.
 
@@ -61,7 +61,7 @@ In the above example, notice how we had to copy the existing state object. Herei
 
 ### How state updates
 
-State updates are asynchronous. What this implies is whenever you call the `setState` function, React will apply the update in the **next** component render. This concept takes a while to wrap your head around. With a lot of practice, you'll get the hang of it no time.
+State updates are asynchronous. What this implies is whenever you call the `setState` function, React will apply the update in the **next** component render. This concept takes a while to wrap your head around. With a lot of practice, you'll get the hang of it in no time.
 
 Remember, state variables aren't reactive, the component is. This can be understood by the fact that calling `setState` re-renders the entire component instead of just changing the state variable on the fly.
 
@@ -124,7 +124,7 @@ function Time() {
 
 #### State updater functions
 
-<span id="state-update-functions"></span>A trick question. Let's look another implementation of `handleIncreaseAge`; what do you think it does?
+<span id="state-update-functions"></span>A trick question. Let's look at another implementation of `handleIncreaseAge`; what do you think it does?
 
 ~~~jsx
 const handleIncreaseAge = () => {
@@ -133,7 +133,7 @@ const handleIncreaseAge = () => {
 }
 ~~~
 
-Surely, it increase the age by 2? Nope. The above code is saying to React:
+Surely, it will increase the age by 2? Nope. The above code is saying to React:
 
 > Hey, replace the current render's `person` with an increase in age by 1. Then, replace the current render's `person` with an increase in age by 1.
 
