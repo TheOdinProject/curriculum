@@ -334,7 +334,8 @@ The final piece of Turbo is something that you don't need to know much about for
 2. Skim through sections 1-4 of the [Turbo Handbook](https://turbo.hotwired.dev/handbook/introduction)
     * This Handbook is written to be backend-agnostic, meaning that the code you will see is pure HTML and not Rails tags, but it still
       is a useful resource for referencing how Turbo works.
-3. Take a quick glance at the Turbo-Rails gem [RubyDoc info page](https://www.rubydoc.info/gems/turbo-rails/1.0.0)
+3. Follow this tutorial [Turbo Frames and Turbo Stream](https://www.hotrails.dev/turbo-rails/turbo-frames-and-turbo-streams) to build a quotes editor
+4. Take a quick glance at the Turbo-Rails gem [RubyDoc info page](https://www.rubydoc.info/gems/turbo-rails/1.0.0)
     * This resource covers the Rails-specific syntaxes and tags you can use for Turbo. You don't need to read anything now, just know that
       it exists so you can come back to it when you need to figure out how to use a specific piece of Turbo in your applications.
 
