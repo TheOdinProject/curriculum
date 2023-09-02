@@ -56,7 +56,7 @@ function Person() {
 #### Objects and arrays in state
 
 In the above example, notice how we _create_ a new object, and then copy the existing state values into the new object while providing a new value for `age`.
-That is because, besides the unpredictability that comes up from changing the state manually, if we don't provide a new object to `setState` it is not guaranteed to re-render the page. Therefore we should always provide a new Object for `setState` to trigger a re-render. `setState` uses [Object.is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the previous state is the same.
+That is because if we don't provide a new object to `setState` it is not guaranteed to re-render the page. Therefore we should always provide a new Object for `setState` to trigger a re-render. `setState` uses [Object.is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the previous state is the same.
 
 As for nested objects and arrays, state can get tricky fast since you will have to copy the nested items as well. Be careful when using them.
 
@@ -215,5 +215,3 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - We intentionally skipped some of the articles pertaining to state from the React documentation. We are confident that the concepts covered thus far will equip you with enough knowledge to tackle the projects to come in the course. Though if you want to delve into the topic further, you can read all of the articles in the [Adding Interactivity](https://react.dev/learn/adding-interactivity) and the [Managing State](https://react.dev/learn/managing-state) section.
-- React tip [Why is mutating state not recommended in React?](https://react.dev/learn/updating-objects-in-state#why-is-mutating-state-not-recommended-in-react)
-- React tip [is using an updater always preferred?](https://react.dev/reference/react/useState#is-using-an-updater-always-preferred)
