@@ -65,6 +65,11 @@ This may not seem like a huge deal right now, but what if we had 10 buttons, eac
 
 Let's see how by using props, we can account for any number of variations with a *single* button component.
 
+<div class="lesson-note" markdown="1">
+<h4>"Missing in props validation"</h4>
+You may notice squiggly lines under your props (for example under `color` and `fontSize` inside the Button component below). Hovering over these will tell you they are `missing in props validation`. For now, this can safely be ignored as it is just a default ESLint rule warning about prop types, something that will be covered later in the course.
+</div>
+
 ~~~jsx
 function Button(props) {
 
