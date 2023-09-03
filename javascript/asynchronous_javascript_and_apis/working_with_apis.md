@@ -29,7 +29,7 @@ You'll probably get an error like this:
 {{"error":{"code":1002,"message":"API key is invalid or not provided."}}}
 ~~~
 
-This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints. Once obtained, an API key will usually have to be included with every data request, such as _another_ URL query string parameter:
+This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints (specific URLs that you use to access a particular function or data within the API). Once obtained, an API key will usually have to be included with every data request, such as _another_ URL query string parameter:
 
 ~~~
 https://api.weatherapi.com/v1/current.json?key=11111111111111111&q=london
