@@ -1,4 +1,4 @@
-### Introduction
+### Introduction .
 
 So here it is: it's time to actually start _making things_. This section will teach you the basics of HTML and CSS, the two foundational building blocks of pretty much everything on the web.
 
