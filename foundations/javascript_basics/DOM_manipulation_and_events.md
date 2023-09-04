@@ -173,9 +173,9 @@ div.innerHTML = '<span>Hello World!</span>';
 // renders the HTML inside div
 ~~~
 
-<div class="lesson-note--tip">
+<div class="lesson-note--tip" markdown="1">
 
-Note that textContent is preferable for adding text, and innerHTML should be used sparingly as it can create security risks if misused. Check out [this video](https://www.youtube.com/watch?v=ns1LX6mEvyM&ab_channel=WebDevSimplified) if you want to see an example of how.
+Note that textContent is preferable for adding text, and innerHTML should be used sparingly as it can create security risks if misused. Check out [this video](https://youtube.com/watch?v=ns1LX6mEvyM) if you want to see an example of how.
 
 </div>
 
@@ -330,7 +330,7 @@ btn.addEventListener('click', function (e) {
 });
 ~~~
 
-<div class="lesson-note--tip">
+<div class="lesson-note--tip" markdown="1">
 
 Note that `function (e)` is a callback from addEventListener. Further explanation of callbacks can be found [HERE](https://dev.to/i3uckwheat/understanding-callbacks-2o9e).
 
