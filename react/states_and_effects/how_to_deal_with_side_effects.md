@@ -222,7 +222,6 @@ Let us address a few cases where `useEffect` does not need to be used.
 
 1.  [This lesson of the React docs](https://react.dev/learn/lifecycle-of-reactive-effects) talks about the life of a component, the different stages at which rendering takes place, and the role of `useEffect` in it.
 2.  [Yet another article that explains a common mistake](https://dmitripavlutin.com/react-useeffect-infinite-loop) that beginners make, the infinite `useEffect` loop.
-3.  [This article](https://dev.to/colocodes/6-use-cases-of-the-useeffect-reactjs-hook-282o) goes over some examples of the `useEffect` hook being used.
 </div>
 
 ### Knowledge check
