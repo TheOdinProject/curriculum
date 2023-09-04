@@ -1,1 +1,1 @@
-a devious little file :)
+a devious little file
