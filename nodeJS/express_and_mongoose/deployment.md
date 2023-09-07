@@ -170,6 +170,24 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
+## Glitch
+
+- Glitch enables you to effortlessly deploy simple and small Express apps, much like the one you created in the previous lesson, in just a few easy steps.
+- Github import and export support 
+- The best part of this, you don't have to add your credit card *wink wink* info to deploy your apps freely here.
+  
+**Free Plan**
+
+- 1000 hours usage per month for each apps.
+- Unlimited static websites that are always on.
+- Full stack apps that will sleep after 5 mins of inactivity but gets back on if a user wants to access it.
+
+**Links**
+
+- [Homepage](https://glitch.com/)
+- [Guide: Blog explaining how to deploy your Node app](https://andrewlock.net/creating-my-first-github-app-with-probot-part-3-deploying-to-glitch/)
+
+
 ### Debugging and troubleshooting deployments
 
 Errors are an inevitable part of the software development process. They especially have a habit of popping up when deploying to a new environment like a hosting provider. When this happens, the key is not to panic and to follow a calm, step-by-step debugging process.
