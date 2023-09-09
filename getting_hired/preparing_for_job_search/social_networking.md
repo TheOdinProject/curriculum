@@ -42,7 +42,6 @@ Your time is limited and your options are endless. So, you should understand wha
 
 In-person networking opportunities will vary based on your location. Larger towns and cities will likely have well-established tech-related events and groups, whereas smaller communities may be more limited. To get a better sense of what’s going on around you, consider the following:
 
-* [Join the Odin community](https://www.theodinproject.com/lessons/foundations-join-the-odin-community) 
 * Check [MeetUp](https://www.meetup.com/) and/or Google for communities focused on a given technology
 * Scour local business publications for notices on local conferences and tech events
 * Talk to friends and family to see who might be a software developer you could be introduced to
@@ -52,6 +51,7 @@ In-person networking opportunities will vary based on your location. Larger town
 
 Your virtual networking options are much broader and there’s no shortage of platforms and communities to choose from. Consider the following to help you decide on where and how to focus your efforts:
 
+* [Join the Odin community](https://www.theodinproject.com/lessons/foundations-join-the-odin-community) 
 * [LinkedIn](https://www.linkedin.com/) - your profile acts like your virtual resume and first impressions are important. Put some time into [optimizing your profile](https://www.samanthaming.com/blog/tips-to-optimize-your-linkedin-profile-for-developers/). Then start following companies you would like to work at or find interesting, and individuals you can learn from. Engage with their content with questions and comments and consider creating your own content about your developer journey. Connect with people who engage with you and aim to make these connections genuine by looking at someone’s profile and finding something in common to talk about.
 * [X](https://twitter.com/) - this is a great platform to keep a finger on the pulse of a given domain. You can follow companies and individuals, engage with their posts, and create your own content. 
 * [Discord](https://discord.com/) - there’s likely a discord channel dedicated to a given language or framework where you can ask questions and get help. You can sign up for Discord and search for what you are interested in e.g., NodeJS, Ruby on Rails, and request to join.
