@@ -18,7 +18,7 @@ Just a quick overview of the process a typical tech company will go through when
 6. Offer Negotiation
 7. Offer Acceptance
 
-### The Phone Screen
+### The phone screen
 
 Congratulations! Your resume wasn't a total train-wreck and they've invited you for a phone screen (note -- sometimes you actually do the tech challenge first).  The real purpose of this screen, which is often roughly a half hour with someone from Human Resources (not the actual hiring manager), is to make sure you've got a good chance of passing their technical interview and fit interviews.  So consider it a light version of each of these.
 
@@ -28,15 +28,15 @@ FINAL NOTE -- this is not one-size-fits-all and many companies skip the light st
 
 * [Mastering the phone screen by Monster](http://career-advice.monster.com/job-interview/interview-preparation/mastering-the-phone-interview/article.aspx)
 * [7 Steps for Mastering the Telephone Interview](http://dorigan.com/how-to-interview/mastering-telephone-interview/)
-* [A much more technical phone screen from Coding Horror](http://www.codinghorror.com/blog/2008/01/getting-the-interview-phone-screen-right.html)
+* [A much more technical phone screen from Coding Horror](https://blog.codinghorror.com/getting-the-interview-phone-screen-right/)
 
-### The Tech Interview
+### The tech interview
 
 The technical interview is usually the most terrifying part of the interview process. It's where they will assess whether you've got the technical chops to make it.  That means you'll not only be asked very specifically about the work you've done, but also to solve logic problems or code live or whiteboard some new features.
 
 In fact, one point of the interview is often to push you to your limit just to see how you react to not knowing something.  If you do an exercise too easily, they'll go to a much harder one.  Especially as a beginner, you will hit a lot of stumbling points.  The biggest asset you have is honesty and intellectual curiosity.
 
-When solving a problem, make sure to do so in a clear and logical way, explaining out loud why you're doing each step.  Talk through your roadblocks and give examples of how you'd find the solution in the "real world".  Often, that answer would be to Google for some particular function.  Say so!  They know you're not a Ruby expert, but they need to know that you'll be able to seek out solutions to the problems you'll inevitably encounter on the job.
+When solving a problem, make sure to do so in a clear and logical way, explaining out loud why you're doing each step.  Talk through your roadblocks and give examples of how you'd find the solution in the "real world".  Often, that answer would be to Google for some particular function.  Say so!  They know you're not a Ruby/JavaScript expert, but they need to know that you'll be able to seek out solutions to the problems you'll inevitably encounter on the job.
 
 It's also totally okay to use a brute force (inefficient) solution to a coding problem. That's often the best place to start, just so you can be sure you've got the right feel for the problem.  You'll usually be asked how you can make the solution better, but that's much better than trying for a brilliant solution and running out of time with no work to show for it.  Again, your job isn't to be brilliant as much as to be adaptable and thoughtful in the face of challenges.
 
@@ -52,20 +52,20 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [How to Ace Your Technical Interview](http://insights.dice.com/2014/10/12/ace-technical-interview/)
 * [How You Can Stand Out in Your Next Web Developer Interview](http://blog.udacity.com/2015/01/how-to-stand-out-in-your-web-developer-interview.html)
 * [Post on The Interview](http://blog.martincmartin.com/2010/01/08/finding-a-job-youll-love-the-interview/)
-* Read [40 Key Computer Science Concepts Explained In Layman’s Terms](http://carlcheo.com/compsci)
+* Read [40 Key Computer Science Concepts Explained In Layman’s Terms](https://web.archive.org/web/20220901190653/http://carlcheo.com/compsci)
 * [Google's Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html) (advanced)
 * [Ruby on Rails Popular Job Interview Questions](https://www.nopio.com/blog/ruby-rails-popular-job-interview-questions/)
 * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/) is **OPTIONAL READING** and it has the potential to be your best friend. It comprehensively covers all the kinds of challenges you might face in a coding interview. It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.
 
-### Coding Test Questions:
+### Coding test questions:
 * [8 Queens](http://jetheis.com/blog/2013/12/01/programming-interview-question-eight-queens/) is a classic problem.
 * [Coding for Interviews: Know Thy Standard Libraries](http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
 * [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently (they can be very computationally intensive).
 * [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.
-* [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms & data scructures.
+* [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms & data structures.
 * [LeetCode](https://leetcode.com/explore/) also has some great resources, with problems, explanations, and challenges. Best of all, you don't have to create an account to view the questions.
 
-### Algorithms Training:
+### Algorithms training:
 
 * [Udacity course on Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215) (asynchronous)
 * [Coursera course on Algorithms](https://www.coursera.org/course/algo) (semi-synchronous)
@@ -81,16 +81,22 @@ The take-home tech challenge may occur before or after the in-person screen, dep
 
 They'll evaluate you on the completeness of your solution and the quality of your code.  If it occurred before the technical interview, it's a good mechanism for them to test your commitment (up to half of people never even turn in a solution).
 
-### The Final Step: "Fit"
+### The final step: "fit"
 
 The final step before the final decision is usually to meet the whole team and get put through the paces at their offices over the period of several hours.  They'll probably test you technically but the goal is also to make sure you'd be a good person to work with.  If any one member of the team doesn't think you'd be a good fit, you usually won't be hired.  Advice?  Don't be weird or awkward even if you are at home :)
 
 It's also a chance for you to test them out.  If you've gotten this far in the process, there's a reasonable likelihood that you've got a good match.  You'll need to figure out if this is the kind of company you want to work for so bring a list of questions and make sure they get answered.
 
-### A Note on Compensation
+### A note on compensation
 
-Do. Not. Provide. Compensation. Expectations.
+Be mindful when providing your salary expectations. Companies will always ask you "how much do you expect to get paid", often in the initial phone screen. Providing a single concrete number can be the opposite of beneficial, because you may offer a number higher than their range and thus be deemed too expensive, or you may have come in too low and they now know they may be able to cap your offered compensation at a lower number than they might have. It's safest to provide a range (e.g. "I am looking for something between $80,000 - $90,000.") in order to better meet their budget and also allow some wiggle room for negotiations. 
 
-Companies will always ask you "how much do you expect to get paid".  Your answer?  "I expect to get paid a fair market rate" (unless you're a bit cocky and decide you should get paid above market.  See how that goes.).  There's nothing you can possibly gain from providing an expectation for comp.  If it's lower than what they would have offered you, you just capped what they'll offer you.  If it's higher, they may just scuttle the process because you're too expensive.
+Once you have an offer, you can check it against fair market rate by asking other people (hopefully you've got some people by now who you might ask) or going to the below resources to compare. While "junior" doesn't equate to being underpaid, do be mindful to adjust for years of experience (0-1) as to get the most accurate picture.
 
-Once you have an offer, you can check it against fair market rate by asking other people (hopefully you've got some people by now who you might ask) or going to [Glassdoor](http://glassdoor.com) (just remember you're junior so won't get "average").  But the real point is to not shoot yourself in the foot when they ask.
+- [Levels.fyi](https://www.levels.fyi/)
+- [Glassdoor](https://www.glassdoor.com/Salaries/index.htm)
+- [Comparably](https://www.comparably.com/)
+- [Payscale](https://www.payscale.com/)
+- [Talent](https://www.talent.com/salary)
+
+Finally, if a recruiter has reached out to you, it can also be helpful to ask what the budget for the role is up front. However, this must be done tactfully. If you have not been asked your compensation expectations and have not been told the budget up front in the initial message, it can be a great way to understand if both parties are wasting each other's time, but do keep in mind that asking must be done in a respectful manner. It can be helpful to phrase this ask by saying, "Is there an allocated salary range for the role?". Sometimes they may reply that the salary is based on experience, so do keep in mind your range as you move through the interview process!  

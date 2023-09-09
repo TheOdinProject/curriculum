@@ -18,7 +18,7 @@ end
 
 Although you are familiar with how to write blocks in the context of enumerable methods, there are actually other interesting ways to use them in Ruby. For example, you can write your own methods that accept blocks and even store blocks as variables. By the end of this lesson, you'll have a newfound appreciation for the mighty block.
 
-### Learning Outcomes
+### Learning outcomes
 
 - What is a block?
 - How is a block like a method?
@@ -128,7 +128,7 @@ end
 def transaction_statement
   formatted_transactions = []
   @transactions.each do |transaction|
-    formatted_transactions << yield(transaction) # We've put () around transaction just for clarity here but they aren't required.
+    formatted_transactions << yield(transaction)
   end
 
   p formatted_transactions
@@ -224,7 +224,7 @@ maybe_block {} # {} is just an empty block
 # => executed regardless
 ~~~
 
-You may have already come across this in some of the enumerables. [#count](https://ruby-doc.org/core-3.0.3/Enumerable.html#method-i-count) is a method that can be called with or without a block. If called without an argument, it just returns the size of whatever it was called on. When called with an argument, it counts how many times that argument appears in the object it was called on. And with a block, it yields to the block and provides a count of how many times the block returns a truthy response. If you toggle to view the source code of `#count` on the Ruby-Docs site, you'll see it's written in C, but even glancing over the unfamiliar C syntax, you should be able to tell that it checks if a block has been given. With Ruby we just have a more elegant syntax.
+You may have already come across this in some of the enumerables. [#count](https://ruby-doc.org/core-3.1.2/Enumerable.html#method-i-count) is a method that can be called with or without a block. If called without an argument, it just returns the size of whatever it was called on. When called with an argument, it counts how many times that argument appears in the object it was called on. And with a block, it yields to the block and provides a count of how many times the block returns a truthy response. If you toggle to view the source code of `#count` on the Ruby-Docs site, you'll see it's written in C, but even glancing over the unfamiliar C syntax, you should be able to tell that it checks if a block has been given. With Ruby we just have a more elegant syntax.
 
 ### Lambdas
 
@@ -304,7 +304,7 @@ a_proc.call("tim", 80)
 #=> name: tim --- age: 80
 ~~~
 
-### Procs vs Lambdas
+### Procs vs lambdas
 
 There isn't much more to creating procs that you haven't already seen with lambdas. So why use one over the other? Well, there are some key differences between procs and lambdas that can make choosing one over the other more suitable.
 
@@ -329,19 +329,19 @@ nested_array.select {|a, b| a + b > 10 }
 ~~~
 
 As you can see, `#select` has two arguments specified `|a, b|`, on each iteration we pass a single element of nested_array into the block. On the first iteration this is: `[1, 2]`, this array now, is deconstructed automatically (into a = 1, b = 2) and its values compared as specified. So on to the next rounds of iteration in which we pass `[3, 4]` and `[5, 6]` one by one.
-This happens because the block `{|a, b| if a + b > 10 }` is treated as a non-lamda proc.
+This happens because the block `{|a, b| if a + b > 10 }` is treated as a non-lambda proc.
 This property is not limited to `#select` but also applies to other `enum` methods like `#map`, `#each` etc.
-You can read more about this here: [documentation](https://ruby-doc.org/core-3.0.3/Proc.html)
+You can read more about this here: [documentation](https://ruby-doc.org/core-3.1.2/Proc.html)
 
 A lambda, on the other hand, DOES care and will raise an error if you don't honor the number of parameters expected.
 
 ~~~ruby
-a_proc = lambda { |a, b| puts "a: #{a} --- b: #{b}" }
+a_lambda = lambda { |a, b| puts "a: #{a} --- b: #{b}" }
 
-a_proc.call("apple")
+a_lambda.call("apple")
 # => wrong number of Arguments (given 1, expected 2) (ArgumentError)
 
-a_proc.call("apple", "banana", "cake")
+a_lambda.call("apple", "banana", "cake")
 # => wrong number of Arguments (given 3, expected 2) (ArgumentError)
 ~~~
 
@@ -385,7 +385,7 @@ my_method
 
 Now that we've covered some big differences between procs and lambdas, there are some similarities we need to cover.
 
-#### Default Arguments
+#### Default arguments
 
 Both procs and lambdas support default arguments in the same way Ruby methods do:
 
@@ -451,11 +451,11 @@ arr.map(&:to_i)
 # => [1, 2, 3]
 ~~~
 
-What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. You can see what it does in the [ruby docs](https://ruby-doc.org/core-3.0.3/Symbol.html#method-i-to_proc). It returns a proc object which responds to the given method indicated by the symbol. So here, `#map` yields each value in the array to the proc object, which calls `#to_i` on it.
+What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. You can see what it does in the [ruby docs](https://ruby-doc.org/core-3.1.2/Symbol.html#method-i-to_proc). It returns a proc object which responds to the given method indicated by the symbol. So here, `#map` yields each value in the array to the proc object, which calls `#to_i` on it.
 
-(Yes, methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation](https://ruby-doc.org/core-3.0.3/Object.html#method-i-send) for `#send` if you're interested. And this Stack Overflow [article](https://stackoverflow.com/questions/14881125/what-does-to-proc-method-mean) on how `#send` and `#to_i` are used together for `arr.map(&:to_i)` to work.)
+(Yes, names of methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation](https://ruby-doc.org/core-3.1.2/Object.html#method-i-send) for `#send` if you're interested. And this Stack Overflow [article](https://stackoverflow.com/questions/14881125/what-does-to-proc-method-mean) on how `#send` and `#to_i` are used together for `arr.map(&:to_i)` to work.)
 
-<span id="proc-to-block">The `&` also works the other way. You can append it to a proc object and it converts it to a block, and passes the block to the method being called.</span>
+<span id="proc-to-block">The `&` also works the other way. You can prepend it to a proc object and it converts it to a block, and passes the block to the method being called.</span>
 
 ~~~ruby
 def cool_method
@@ -494,10 +494,10 @@ After coming to grips with the information in this lesson you'll be a block, pro
 <div class="lesson-content__panel" markdown="1">
 
 1. [This article](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/) provides quite a nice summary of much of what we've covered here.
-2. Read [this article](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we've used here. I really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
+2. Read [this article](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we've used here. We really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 

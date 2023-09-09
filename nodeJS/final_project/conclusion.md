@@ -1,10 +1,11 @@
+### Introduction
 You've reached the end of the scope of this course and should feel pretty good about your NodeJS skills. That doesn't mean you should understand everything quite yet, but now you can build a NodeJS application with the kind of functionality which is actually useful in the real world. After all, you just built Facebook!
 
 This isn't the last course in the curriculum, as there is a Getting Hired course remaining. But you're now at that period where you can consider yourself a "full stack" developer. You've learned how to write beautiful and intuitive front-ends for your applications and now back-end technologies to give those sites some cool features. Despite how far you've come, it's up to you to keep building stuff, ask questions, and dig deeper into both NodeJS and best practices of software engineering in general.
 
 Still, at this point you've got the NodeJS and Express building blocks. When you work your first six months on the job as a full stack Javascript dev, you will learn as much information as you just did. Because the point of this course has been to instill these building blocks in you, you're in a place to actually get that first job and build on what you know.
 
-### Next Steps
+### Next steps
 
 This final lesson isn't designed to explicitly teach new material, just point you in the right direction if you'd like to dig a bit deeper before moving on. Or maybe you'll bookmark it and come back when you want to see where to head next in your NodeJS journey.
 
@@ -27,11 +28,11 @@ Sometimes, having a little exposure to DevOps can help set you apart as a robust
 
 A platform we highly encourage you to begin looking into either way is [Amazon Web Services](https://aws.amazon.com/). This is a platform you will likely see on job postings and on the job itself, and can be an invaluable skill to have in your arsenal.
 
-#### Relational Data
+#### Relational data
 
 Now that you have exposure to non-relational databases with Mongo, you might be considering what other types of databases exist; namely relational databases. Understanding both types of databases and when to use them can set you up for success down the road. After all, not every problem requires a hammer. Our [database course](/paths/full-stack-ruby-on-rails/courses/databases) is a great place to start to digging into relational databases and SQL.
 
-### Other Resources
+### Other resources
 
 Here are a few extra resources that will take you a bit deeper into software architecture, Javascript and Node:
 
@@ -52,9 +53,11 @@ It's a great way to start learning about agile development methodologies and to 
 
 I want to emphasize again that the learning never really stops but also that you've come a long way. Keep up the good work, burn through the Getting Hired course, and get ready to start job hunting!
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
+- [Introduction to using React with Typescript](https://profy.dev/article/react-typescript)
 * [Additional frameworks](https://expressjs.com/en/resources/frameworks.html) built on Express for building specific apps (ie. Feathers for chat applications)
 * More on APIs with this [fantastic intro video](https://www.youtube.com/watch?v=oBW_VNg4qD0)
+* Learn More About DevOPs with [ this fantastic github repos](https://github.com/MichaelCade/90DaysOfDevOps)

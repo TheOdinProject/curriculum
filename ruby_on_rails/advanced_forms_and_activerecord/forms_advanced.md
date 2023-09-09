@@ -4,17 +4,17 @@ You learned about the basics of building forms in HTML and Rails in previous les
 
 In this section, we'll take a look at some of the options you have to make a form handle multiple model objects at once.  You'll also learn how to prepopulate a dropdown menu with objects.
 
-### Learning Outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-* Build dropdown menus
-* Work with model objects
-* Make nested forms
-* Whitelist nested parameters
-* Delete records via form fields
+- Working with model objects in forms.
+- How to build dropdown menus in forms.
+- How to make a nested form.
+- How to whitelist nested parameters.
+- How to delete records via form fields.
 
-### Prepopulating `select` Tags with Collections
+### Prepopulating `select` tags with collections
 
 Rails provides you with a few handy ways of making dropdown menus which already contain data when the form is loaded (otherwise they're not that useful).
 
@@ -94,7 +94,7 @@ You'll use dropdowns a lot to populate the association of a model, e.g. the auth
 
 *Note: If you've used the `simple_form` gem, it has its own way of handling collections of objects which is a bit different (supposedly `simpler`) than this.*
 
-### Nested Forms
+### Nested forms
 
 You've got a form for creating one of your User objects (say for your Amazon.com clone application) but you also want to make that form create one or more ShippingAddress objects (which a User can have many of).  How do you get that one form to create both so your user doesn't get stuck clicking a bunch of form submits?
 
@@ -104,15 +104,15 @@ As you can imagine, it's important to get the names and parameters properly list
 
 We'll do a broad overview of the process here:
 
-<span id='accepts_nested_attributes_for'>1. You will need to prepare the User model so that it knows to create one or more ShippingAddress objects if it receives their attributes when creating a normal User.  This is done by adding a method to your User model called `#accepts_nested_attributes_for` which accepts the name of an association, e.g:<span>
+1. {: #accepts_nested_attributes_for}You will need to prepare the User model so that it knows to create one or more ShippingAddress objects if it receives their attributes when creating a normal User.  This is done by adding a method to your User model called `#accepts_nested_attributes_for` which accepts the name of an association, e.g:
 
-~~~ruby
-  # app/models/user.rb
-  class User < ActiveRecord::Base
-    has_many :shipping_addresses
-    accepts_nested_attributes_for :shipping_addresses
-  end
-~~~
+   ~~~ruby
+     # app/models/user.rb
+     class User < ActiveRecord::Base
+       has_many :shipping_addresses
+       accepts_nested_attributes_for :shipping_addresses
+     end
+   ~~~
 
 2. Make sure you've allowed your `params` to include the nested attributes by appropriately including them in your Strong Parameters controller method.  See the reading for examples of how to do this.
 3. Build the form in the view.  Use the `#fields_for` method to effectively create a `#form_with` inside your existing `#form_with` form.
@@ -137,17 +137,17 @@ Note that we could (and should) also have built the new shipping_address objects
 
 The `#accepts_nested_attributes_for` method is fairly straightforward and the docs should be helpful.
 
-The reading will cover more about whitelisting the nested parameters.
+The reading will cover more about allowing the nested parameters.
 
-### Deleting Nested Form Objects
+### Deleting nested form objects
 
 You can also have your form destroy nested forms by first setting the `:allow_destroy` option to `true` for the `#accepts_nested_attributes_for` method, e.g. `accepts_nested_attributes_for :shipping_addresses, :allow_destroy => true`.  Now, any time you want to destroy a ShippingAddress object from a User's form, just include the key `_destroy => 1` in the submitted parameters for that ShippingAddress.
 
-### Many-to-Many Relationships
+### Many-to-many relationships
 
 If you've got a `has_many :through` relationship, you'll likely need to go one additional step further by specifying that each side of your relationship is the inverse of the other.  It's detailed in [this blog post from ThoughtBot](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through).
 
-### Designing Your Own Forms
+### Designing your own forms
 
 Sometimes, despite all the nice helpers Rails gives you, you just want to do something that's not standard.  You should first wonder whether this is the easiest and most straightforward way to do things.  If it passes the smell test, then go ahead and build your form.
 
@@ -155,13 +155,13 @@ It's often easiest (and good practice while you're learning) to start with the m
 
 Don't get discouraged if you get some real head-scratcher moments when building nonstandard forms.  It just takes some experience to feel comfortable.  And if things are too out of hand, you may need to re-evaluate your approach (what exactly are you hoping to accomplish with your complex form?) and start again.
 
-### Simple Form
+### Simple form
 
 `simple_form` is a gem by Platformatec which can really make your life easier (if you aren't doing anything too crazy).  It provides lots of user-friendly features for building forms and is in wide use today.
 
 It's up to you to check out [the documentation](https://github.com/plataformatec/simple_form) and start using it in your own applications as desired.
 
-### Miscellania: Blank Submissions That Mean Delete
+### Miscellania: blank submissions that mean delete
 
 Sometimes, for a record that already exists, you want to either deselect a dropdown or check none of your checkboxes but you want this to indicate that the associated fields should actually be set to `nil`.  Usually, though, if you submit the form it will include none of the fields and your back end won't know that you actually wanted to remove those fields so nothing will happen.  How do you get around it?
 
@@ -174,7 +174,7 @@ Sometimes Rails helper methods will do it for you, but make sure you know what y
   1. Read the [Rails Guide on Forms](https://guides.rubyonrails.org/form_helpers.html#choices-from-a-collection-of-arbitrary-objects) section 5, which covers populating a form with a collection of objects.
   2. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms) section 10, which covers accepting nested form data.
   3. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions) section 8, which covers the parameter conventions for nested forms.
-  4. Read [this blog post from Peter Rhoades](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html) on working with nested forms.  The example covers a lot of the things we've gone over so far, so follow along.  Also note how he does the whitelisting of nested attributes in Rails 4.
+  4. Read [this blog post from Peter Rhoades](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html) on working with nested forms.  The example covers a lot of the things we've gone over so far, so follow along.  Also note how he does the allowing of nested attributes in Rails 4.
 </div>
 
 ### Conclusion
@@ -183,7 +183,7 @@ We've covered two of the more common use cases for complex forms -- pre-populati
 
 The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferrable to every form you'll ever make.
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Simple Form Documentation on GitHub](https://github.com/plataformatec/simple_form)
@@ -193,7 +193,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Understanding Rails' form authenticity tokens](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token)
 * [Why not to hardcode your application's secret token in production](http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/)
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href='#prepopulating-select-tags-with-collections'>What does the `#select_tag` helper do?</a>
@@ -201,6 +201,6 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href='#select-helper'>When would you use the `#select` helper?</a>
 - <a class="knowledge-check-link" href='#nested-forms'>How can you prevent users from having to submit multiple forms?</a>
 - <a class="knowledge-check-link" href='#accepts_nested_attributes_for'>What do you add to the model that allows nested forms to create new objects?</a>
-- <a class="knowledge-check-link" href='https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html'>How do you whitelist the nested parameters in your controller?</a>
+- <a class="knowledge-check-link" href='https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html'>How do you allow the nested parameters in your controller?</a>
  - <a class="knowledge-check-link" href='#miscellania-blank-submissions-that-mean-delete'>How can you set up a dropdown or checkbox to delete a record that already exists?</a>
  

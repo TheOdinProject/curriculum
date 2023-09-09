@@ -10,16 +10,17 @@ In this lesson, we'll get into the more interesting and useful areas of Active R
 
 There's a lot of material to read and cover, but it basically follows the idea "anything you can do in SQL, you can do in Active Record".  They mostly use the same terminology as well.  Active Record just extends that functionality by giving you a suite of versatile methods (and concepts like Relations) to make it much more user-friendly along the way.
 
-### Learning Outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+### Lesson overview
 
-* What is an Active Record relation?
-* What is lazy evaluation?
-* What are some commonly used Rails query methods?
-* What are N+1 queries and why are they a concern?
-* What are scopes?
+This section contains a general overview of topics that you will learn in this lesson.
 
-### Relations and Lazy Evaluation
+- What an Active Record relation is.
+- What lazy evaluation is.
+- Commonly used Rails query methods.
+- N+1 queries and why they are a concern.
+- What scopes are.
+
+### Relations and lazy evaluation
 
 Using `User.find(1)` will return an unambiguous object -- it's going to find the user with ID = 1 and give it to you as a Ruby object.  But this behavior is actually unusual.  Most queries don't actually return a Ruby object, they just fake it.  For example:
 
@@ -41,13 +42,13 @@ Relations only get executed when it becomes absolutely necessary to know what's 
 
 This behaviour can be a bit tricky to observe if you use something like the Rails Console (`$ rails console`) to test them out, because the queries will actually be run right away in the console since it implicitly runs something like the `.inspect` method on the relation, which requires the query to be run.  But try playing with building a query like we did above and checking out its `#class`... you'll usually get back `ActiveRecord::Relation`.
 
-#### Chaining Queries
+#### Chaining queries
 
 Relations aren't just built for speed... they're also built for flexibility.  Let's say you want to grab the first 5 posts listed in descending order (`Post.limit(5).order(created_at: :desc)`).  Because `#limit` returns a Relation, `#order` takes that relation and adds its own criteria to it.  You can chain together a dozen methods this way, and, when it's finally time to execute, ActiveRecord and SQL (if that's what you're using for the DB) will figure out the optimal way to structure the query to achieve the desired result.
 
 This is the sort of behaviour that you just sort of expect to work, and Relations are what enables it to do so.
 
-#### Why Care?
+#### Why care?
 
 You should care that ActiveRecord queries usually return Relations because you'll run into them often when coding and debugging.  The knowledge should make you comfortable chaining query methods together to construct elaborate queries.
 
@@ -55,11 +56,11 @@ If you end up working with a Relation when you really want it to act like an Arr
 
 Methods implemented in `ActiveRecord::FinderMethods` do NOT return `ActiveRecord::Relation` objects. The `#find`, `#find_by`, `#first` and `#last` methods return a single record (a model instance). `#take` returns an array of model instances. Unlike the methods that return `Relation` objects, when called, these will run SQL queries immediately.
 
-### Beyond Basic Querying
+### Beyond basic querying
 
 You should be pretty comfortable now with simple queries like finding objects.  The reading you do for this section will cover the basics and then dive in a bit further than before.  There are a couple of new concepts worth mentioning.
 
-#### Checking for Existence
+#### Checking for existence
 
 The simplest new concept is how to check whether an object actually exists yet or not, which you may want to do before running a method which depends on the object actually having been saved already.  
 
@@ -82,7 +83,7 @@ The simplest new concept is how to check whether an object actually exists yet o
 
 #### Arguments
 
-There are multiple ways to submit arguments for most Rails query methods.  You can typically use either symbols or strings or both.  I prefer to stick with symbols and hashes wherever possible.  You can also use `?` parameters like in normal SQL.  When it's not ambiguous (e.g. if you aren't working with multiple tables) you can also choose to specify the table name or not (see #5 below).  All of the following are the same:
+There are multiple ways to submit arguments for most Rails query methods.  You can typically use either symbols or strings or both.  We prefer to stick with symbols and hashes wherever possible.  You can also use `?` parameters like in normal SQL.  When it's not ambiguous (e.g. if you aren't working with multiple tables) you can also choose to specify the table name or not (see #5 below).  All of the following are the same:
 
 1. `User.where(email: "foo@bar.com")`
 2. `User.where("email" => "foo@bar.com")`
@@ -90,7 +91,7 @@ There are multiple ways to submit arguments for most Rails query methods.  You c
 4. `User.where("email = ?", "foo@bar.com")`
 5. `User.where("users.email" => "foo@bar.com")`
 
-#### More Assorted Querying Knowledge
+#### More assorted querying knowledge
 
 Very large queries can actually be batched into lots of subqueries so they don't eat up tons of performance resources. `#find_each` does the trick. The basic principle is that it chunks the query into pieces, loading up the first piece and evaluating it before moving onto the next one.  This will be helpful for you when optimizing queries but isn't really something to worry too much about up front.
 
@@ -104,7 +105,7 @@ The key thing to note is that `#find` returns the actual record while `#where` r
 
 ### Aggregations
 
-Just like with SQL, you often want to group fields together (or "roll up" the values under one header).  For example, grouping blog posts written on a certain date.  This is most useful when you also apply mathematical operations to them like `#count` or `#max`.  An example (a bit more complex because it involves joining two tables) is if I want to get a count of all the blog posts categorized by each tag. I might write something like:
+Just like with SQL, you often want to group fields together (or "roll up" the values under one header).  For example, grouping blog posts written on a certain date.  This is most useful when you also apply mathematical operations to them like `#count` or `#max`.  An example (a bit more complex because it involves joining two tables) is if we want to get a count of all the blog posts categorized by each tag. We might write something like:
 
 ~~~bash
   Post.joins(:tags).group("tags.name").count
@@ -124,7 +125,7 @@ But if you're running queries like in the Post-Tag-count grouping example used a
   # => {"tag1" => 4, "tag2" => 2, "tag3" => 5}
 ~~~
 
-### N+1 Queries and Eager Loading
+### N+1 queries and eager loading
 
 If you want your application to run with any kind of efficiency at all, you should strive to reduce the number of queries that are run on your database as much as possible.  That means figuring out ahead of time exactly what you're looking for and then building the correct query to grab that thing one time only.
 
@@ -152,7 +153,11 @@ Rails is well aware of your distress and has provided a simple solution -- "eage
 
 `#includes` basically takes the name of one or more associations that you'd like to load at the same time as your original object and brings them into memory.  You can chain it onto other methods like `#where` or `#order` clauses.
 
-Note: One thing which can be a bit annoying from a development standpoint is that I haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server.  So don't be alarmed if they don't show up in the server output.
+<div class="lesson-note" markdown="1">
+
+Note: One thing which can be a bit annoying from a development standpoint is that we haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server.  So don't be alarmed if they don't show up in the server output.
+
+</div>
 
 Almost as useful is the `#pluck` method, which is covered in the Rails Guide.  `#pluck` lets you skip several steps in the process of pulling up a bunch of records, storing them in memory, then grabbing a specific column and placing it into an array.  `#pluck` just gives you the resulting array right away:
 
@@ -203,7 +208,7 @@ See the Additional Resources section for links to some posts that dig a bit deep
 
 How much do you need to understand or care about scopes?  In the early going, you probably won't run into them or see why to use them.  Keep them in the back of your mind for when you start working on some slightly more complicated projects that might need them.
 
-### Bare-Metal SQL
+### Bare-metal SQL
 
 Sometimes, you just can't get ActiveRecord to do what you want it to.  In that case, it gives you an interface to the bare metal SQL so you can just type in your query as desired.  This should really be a last resort -- it's basically hard-coding your application code.  Use the `#find_by_sql` method for this.
 
@@ -212,7 +217,7 @@ Sometimes, you just can't get ActiveRecord to do what you want it to.  In that c
 
 <div class="lesson-content__panel" markdown="1">
 
-### Querying Basics
+### Querying basics
 1. Read the first 6 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions. Don't worry too much about batching and `#find_each`.
 2. Read section 21 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects) for a brief look at using `exists?`, `any?` and `many?`.
 3. Read sections 7, 8 and 22 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#group) for an understanding of aggregate functions and the calculations you can run on them.
@@ -220,7 +225,7 @@ Sometimes, you just can't get ActiveRecord to do what you want it to.  In that c
 5. Read section 13 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#joining-tables) to see how Rails lets you play with joining tables together.
 6. Read section 19 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object) for a quick look at the helpful `find_or_create_by` methods.
 
-### Advanced Querying
+### Advanced querying
 1. Read section 15 in the [Rails Guide on Querying](https://guides.rubyonrails.org/active_record_querying.html#scopes) for a look at scopes. Again, you don't necessarily need to memorize all the details of scopes, but you should understand the concept and when it might be useful.
 2. Read section 20 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql) for a look at using SQL directly.
 </div>
@@ -229,7 +234,7 @@ Sometimes, you just can't get ActiveRecord to do what you want it to.  In that c
 
 This was a lot of material, but you should have a healthy appreciation for the breadth of things that you can do with Active Record.  At the most basic level, though, you can do pretty much anything you can in SQL by using Active Record query methods.  You'll get a chance to use some of these newfound query methods in future projects and others will come up when you're building things on your own.
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [SO post on Using Scopes vs Class Methods](http://stackoverflow.com/questions/5899765/activerecord-rails-3-scope-vs-class-method)
@@ -241,7 +246,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Speed up ActiveRecord with a little tweaking](https://blog.codeship.com/speed-up-activerecord/)
 * [A useful gem that identifies N+1 queries](https://github.com/flyerhzm/bullet)
 
-### Knowledge Check
+### Knowledge check
 
 * <a class='knowledge-check-link' href='#relations-and-lazy-evaluation'>How does lazy evaluation help make Active Record more efficient?</a>
 * <a class='knowledge-check-link' href='#checking-for-existence'>How do you check whether a database already contains a record?</a>

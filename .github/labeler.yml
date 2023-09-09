@@ -1,0 +1,35 @@
+'Content: Advanced HTML/CSS':
+  - 'advanced_html_css/**/*'
+
+'Content: Databases':
+  - 'databases/**/*'
+
+'Content: Getting Hired':
+  - 'getting_hired/**/*'
+
+'Content: Git':
+  - 'git/**/*'
+
+'Content: Intermediate HTML/CSS':
+  - 'intermediate_html_css/**/*'
+
+'Content: JavaScript':
+  - 'javascript/**/*'
+
+'Content: NodeJS':
+  - 'nodeJS/**/*'
+
+'Content: React':
+  - 'react/**/*'
+
+'Content: Ruby':
+  - 'ruby/**/*'
+
+'Content: Ruby on Rails':
+  - 'ruby_on_rails/**/*'
+
+'Content: Foundations':
+  - 'foundations/**/*'
+
+'Type: Chore':
+  - 'archive/**/*'

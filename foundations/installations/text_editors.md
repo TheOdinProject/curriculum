@@ -1,21 +1,22 @@
 ### Introduction
+
 A text editor is by far the most used developer tool regardless of what type of developer you are. A good text editor can help you write better code with real-time code checking, syntax highlighting, and automatic formatting.
 
 ### Why can't I use Microsoft Word?
 
 Rich text editors, such as Microsoft Word and Libre-Office Writer, are great for writing a paper, but the features that make them good at creating nicely formatted documents make them unsuitable for writing code. A document created with these rich text editors has more than just text embedded in the file. These files also contain information on how to display the text on the screen and data on how to display graphics embedded into the document. In contrast, plain text editors, such as VSCode and Sublime, don't save any additional information. Saving only the text allows other programs, like Ruby's interpreter, to read and execute the file as code.
 
-### Code Editors
+### Code editors
 
 You can think of code editors as specialized web development tools. They are highly customizable and offer many features that will make your life easier. There is nothing worse than spending 2 hours trying to figure out why your program isn't working only to realize that you missed a closing bracket. Plugins, syntax highlighting, auto-closing of brackets and braces, and linting are just a few of the benefits of using a code editor. There are many text editors out there to choose from, but we suggest starting with Visual Studio Code.
 
 **Visual Studio Code**, or just VSCode as it's commonly referred to, is an excellent free code editor. It has outstanding add-on support and great Git integration. VSCode is the most popular code editor among Odin's students and moderators, so support is easy to find in the community.
 
-Which editor you use is generally a matter of preference, but for the purposes of this course, we are going to assume you're using VSCode, mainly because it's free, it's easy to use, and it works pretty much the same on every operating system. Keep in mind that means you will not able to get help if you are using a different text editor than VSCode for the curriculum.
+Which editor you use is generally a matter of preference, but for the purposes of this course, we are going to assume you're using VSCode, mainly because it's free, it's easy to use, and it works pretty much the same on every operating system. Keep in mind that this means you will not be able to get help if you are using a different text editor other than VSCode for the curriculum.
 
 As a reminder, if you're using a **virtual machine**, you should install VSCode **on your VM**. You're welcome to also install it on your host (i.e., your Windows main OS), but you'll want to be sure that you have this critical tool inside your VM.
 
-### VSCode Installation
+### VSCode installation
 
 Choose your Operating System:
 
@@ -41,6 +42,8 @@ sudo apt install ./code-latest.deb
 
    - If prompted, enter your password
 
+   _(__note__: You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
+
 #### Step 3: Delete the installer file
 
 ~~~bash
@@ -48,6 +51,7 @@ rm code-latest.deb
 ~~~
 
 #### Step 4: Using VSCode
+   
 You can start VSCode in two ways,
 
    - Click **Visual Studio Code** from the Applications menu
@@ -56,9 +60,6 @@ You can start VSCode in two ways,
 ~~~bash
 code
 ~~~
-
-#### Alternative Installation
-More advanced users might want to install VSCode using the built-in `apt` package manager. This allows VSCode to be kept up to date automatically. Instructions on how to set this up can be found on [this webpage](https://code.visualstudio.com/docs/setup/linux).
 
 </details>
 
@@ -72,7 +73,7 @@ More advanced users might want to install VSCode using the built-in `apt` packag
 #### Step 2: Install VSCode
 
    - Open the **Downloads** folder
-   - Double click the file **VSCode-darwin-universal.zip** 
+   - Double click the file **VSCode-darwin-universal.zip**
    - Drag the **Visual Studio Code.app** icon to the **Applications** folder icon
 
 #### Step 3: Delete the installer file
@@ -89,13 +90,15 @@ More advanced users might want to install VSCode using the built-in `apt` packag
 </details>
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 
-  1. Familiarizing yourself with VSCode will allow you to save time and become more productive. Learn the basics of using this text editor by watching [these introductory videos](https://code.visualstudio.com/docs/introvideos/basics). Watch only the first video as the second involves installing Node.js which will not be needed at this stage.
+  1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
 </div>
 
 ### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 * [VSCode docs](https://code.visualstudio.com/docs) are a great place to refer to for any of your queries related to VSCode.
 * These handy little PDFs on VSCode's [shortcuts for linux](https://go.microsoft.com/fwlink/?linkid=832144) and [shortcuts for macOS](https://go.microsoft.com/fwlink/?linkid=832143) are a great resource to help make your VSCode experience smoother and more efficient.
