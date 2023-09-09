@@ -170,11 +170,11 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-## Glitch
+### Glitch
 
-- Glitch enables you to effortlessly deploy simple and small Express apps, much like the one you created in the previous lesson, in just a few easy steps.
-- Github import and export support 
-- The best part of this, you don't have to add your credit card *wink wink* info to deploy your apps freely here.
+- Glitch enables you to effortlessly deploy simple and small Express apps in just a few easy steps.
+- Github import and export support.
+- No credit card needed
   
 **Free Plan**
 
