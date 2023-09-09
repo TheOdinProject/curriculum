@@ -17,7 +17,7 @@ This project will give you a chance to take a relatively high level set of requi
 Keep the following requirements in mind.  We'll cover specific steps to get started below this list:
 
 <div class="lesson-content__panel" markdown="1">
-1. Use PostgreSQL for your database from the beginning (not SQLite3), that way your deployment to Heroku will go much more smoothly. See the [Heroku Docs](https://devcenter.heroku.com/articles/getting-started-with-rails4) for setup info.
+1. Use PostgreSQL for your database from the beginning (not SQLite3), that way your deployment will go much more smoothly.
 2. Users must sign in to see anything except the sign in page.
 3. User sign-in should use the [Devise](https://github.com/plataformatec/devise) gem. Devise gives you all sorts of helpful methods so you no longer have to write your own user passwords, sessions, and `#current_user` methods. See the [Railscast](http://railscasts.com/episodes/209-introducing-devise?view=asciicast) (which uses Rails 3) for a step-by-step introduction. The docs will be fully current.
 4. Users can send Friend Requests to other Users.
@@ -33,26 +33,30 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 14. The Users Index page lists all users and buttons for sending Friend Requests to those who are not already friends or who don't already have a pending request.
 15. Sign in should use [OmniAuth](https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview) to allow a user to sign in with their real Facebook account.  See the [RailsCast](http://railscasts.com/episodes/360-facebook-authentication?view=asciicast) on FB authentication with Devise for a step-by-step look at how it works.
 16. Set up a [mailer](http://guides.rubyonrails.org/action_mailer_basics.html) to send a welcome email when a new user signs up. Use the `letter_opener` gem ([see docs here](https://github.com/ryanb/letter_opener)) to test it in development mode.
-17. Deploy your App to Heroku.
-18. Set up the [SendGrid add-on](https://devcenter.heroku.com/articles/sendgrid) and start sending real emails. It's free for low usage tiers.
+17. Deploy your App to a hosting provider.
+18. Set up an email provider and start sending real emails.
 
-#### Extra Credit
+#### Extra credit
 
 1. Make posts also allow images (either just via a URL or, more complicated, by uploading one).
-2. Use the [Active Storage](https://edgeguides.rubyonrails.org/active_storage_overview.html) to allow users to upload a photo to their profile.
+2. Use [Active Storage](https://guides.rubyonrails.org/active_storage_overview.html) to allow users to upload a photo to their profile.
 3. Make your post able to be either a text OR a photo by using a polymorphic association (so users can still like or comment on it while being none-the-wiser).
 4. Style it up nicely! We'll dive into HTML/CSS in the next course.
 
-#### Getting Started
+#### Getting started
 
 1. Think through the data architecture required to make this work.  There are a lot of models and a lot of associations, so take the time to plan out your approach.
 2. Build the new PostgreSQL Rails app `$ rails new odin-facebook --database=postgresql`, initialize the Git repo and update the README to link back to this page.
 3. Work your way down the list above!  Each step will involve a new challenge but you've got the tools.
 4. You can populate data like users and posts using the [Faker](https://github.com/stympy/faker) gem, which is basically just a library of sample names and emails.  It may just be easier, though, for you to write your own seeds in the `db/seeds.rb` file, which gets run if you type `$ rake db:seed`.
 
+#### Final step
+
+1. Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLScrIWkh4Bm3Qv7FH7PuWjLRCryevoJGgpA4tTis4R7CpXp9oQ/viewform?usp=sf_link). Getting user(you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
+
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * For another take on this, here's a [gem-laden Facebook clone](https://github.com/vysakh0/railsbook).

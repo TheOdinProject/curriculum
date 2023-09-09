@@ -11,43 +11,43 @@ Before continuing, let's review a few best practices to keep in mind:
 Now, let's get started!
 
 <details markdown="block">
-<summary class="dropDown-header">Ubuntu / Xubuntu
+<summary class="dropDown-header">Linux
 </summary>
 
-### Step 1: Install Updates, Packages and Libraries
+### Step 1: Install updates, packages and libraries
 
 Before we can install Ruby, we need to install some base packages.
 
-#### Step 1.1: Open the Terminal
+#### Step 1.1: Open the terminal
 
 We'll use the terminal to install all of the programs.
 
-If you're using Ubuntu or Xubuntu, simply press `Ctrl + Alt + T` to open the terminal. (This may work in other Linux distributions; you'll have to try!)
+If you're using Ubuntu or Xubuntu, simply press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> to open the terminal. (This may work in other Linux distributions; you'll have to try!)
 
-**Quick tip:** In Linux, you can copy from the terminal with `ctrl + shift + c` and paste with `ctrl + shift + v`.
+**Quick tip:** In Linux, you can copy from the terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> and paste with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>.
 
 #### Step 1.2: Update Linux
 
-The rest of the installation will take place inside the terminal window.  
+The rest of the installation will take place inside the terminal window.
 
-First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press `enter`.
+First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press <kbd>Enter</kbd>.
 
 ~~~bash
 sudo apt update
 sudo apt upgrade
 ~~~
 
-When it prompts you, press `y` and then `enter`.
+When it prompts you, press <kbd>Y</kbd> and then <kbd>Enter</kbd>.
 
-#### Step 1.3: Install Packages and Libraries
+#### Step 1.3: Install packages and libraries
 
 Next, you need to install some required packages that do not come preinstalled. Be sure to copy and paste this command.
 
 ~~~bash
-sudo apt install gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev
+sudo apt install gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev libyaml-dev
 ~~~
 
-When it prompts you, press `y` and then `enter`. You may or may not have to type your password after pressing `enter`.
+When it prompts you, press <kbd>Y</kbd> and then <kbd>Enter</kbd>. You may or may not have to type your password after pressing <kbd>Enter</kbd>.
 
 ### Step 2: Install Ruby
 
@@ -80,7 +80,7 @@ mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 ~~~
 
-Finally, run 
+Finally, run
 
 ~~~bash
 rbenv -v
@@ -89,7 +89,7 @@ rbenv -v
  from your terminal to verify that `rbenv` has been installed correctly. You should get an output with a version number **similar** to this:
 
 ~~~bash
-rbenv 1.2.0-8-ga76c4aa
+rbenv 1.2.0-14-gc6cc0a1
 ~~~
 
 If you do not get a version number at all (anything not starting with `rbenv 1...`), please ask for help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916).
@@ -101,15 +101,33 @@ It's finally time to install Ruby using `rbenv`!
 Inside the terminal, run this command:
 
 ~~~bash
-rbenv install 3.0.3 --verbose
+rbenv install 3.2.2 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
 
-When the last command is finished, set the Ruby version and verify that it's working:
+You may get this error message:
 
 ~~~bash
-rbenv global 3.0.3
+ruby-build: definition not found: x.x.x
+
+See all available versions with `rbenv install --list'.
+
+If the version you need is missing, try upgrading ruby-build:
+
+  git -C /home/itorja/.rbenv/plugins/ruby-build pull
+~~~
+
+If so, we run the suggested command:
+
+~~~bash
+git -C "$(rbenv root)"/plugins/ruby-build pull
+~~~
+
+Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
+
+~~~bash
+rbenv global 3.2.2
 ~~~
 
 Then,
@@ -121,13 +139,12 @@ ruby -v
 The above command should return something similar to this:
 
 ~~~bash
-ruby 3.0.3pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
+ruby 3.2.2pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ~~~
 where x represents the version available at the time you installed Ruby.
 
+
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
-
-
 
 
 </details>
@@ -137,13 +154,13 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 <summary class="dropDown-header">MacOS
 </summary>
 
-### Step 1: Install Packages and Libraries
+### Step 1: Install packages and libraries
 
 Before we can install Ruby, we need to install some base packages. We will use the terminal to install all of the programs.
 
-#### Step 1.1: Open the Terminal
+#### Step 1.1: Open the terminal
 
-In your Applications folder, find "Utilities" and double click "Terminal". Alternatively, using Spotlight (`CMD + Space`) or Launchpad, type "Terminal".
+In your Applications folder, find "Utilities" and double click "Terminal". Alternatively, using Spotlight (<kbd>Cmd</kbd> + <kbd>Space</kbd>) or Launchpad, type "Terminal".
 
 The rest of the instructions are done inside this terminal window.
 
@@ -151,39 +168,35 @@ The rest of the instructions are done inside this terminal window.
 
 First, you need to install Xcode, which is a program provided by Apple for programming. Xcode will install many programs that are needed for Ruby and Git and should take 10-15 minutes to install.
 
-Type `xcode-select --install` in your terminal and press `enter`. You may need to click "Install" when prompted.
+Type `xcode-select --install` in your terminal and press <kbd>Enter</kbd>. You may need to click "Install" when prompted.
 
 #### Step 1.3: Install Homebrew
 
 The next program you need to install is [Homebrew](https://brew.sh/), which makes it easy to install other programs you'll need. From inside the terminal, type the following:
 
 ~~~bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ~~~
 
-You will be prompted to enter your password. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press `enter`.
+You will be prompted to enter your password. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press <kbd>Enter</kbd>.
 
 Congratulations! You've installed the prerequisites!
 
-### Step 2: Install Heroku
+### Step 2: Install Ruby
 
-Heroku is a place to host your Rails applications.
+Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to manage Ruby versions.
 
-#### Step 2.1: Install Heroku
+#### Step 2.1: Install ruby-build
 
-Next, install Heroku:
+First, let's install `ruby-build`:
 
 ~~~bash
-brew install heroku/brew/heroku
+brew install ruby-build
 ~~~
 
-This command will install the command line interface for Heroku, a free website that can host your Ruby on Rails applications. You'll learn more about this later.
+`ruby-build` will make it possible to install our Ruby version of choice.
 
-### Step 3: Install Ruby
-
-Now you're ready to install Ruby. We're going to use a tool called `rbenv`, which makes it easy to install and manage Ruby versions.
-
-#### Step 3.1: Install rbenv
+#### Step 2.2: Install rbenv
 
 To install `rbenv`, run the following in your terminal:
 
@@ -233,12 +246,20 @@ echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 
 You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, take note of the page and step number you are on, close everything, do a full reboot and log back into your profile. After logging back in, re-open the terminal (see Step 1.1).
 
-#### Step 3.3: Install Ruby
+#### Step 2.3: Install Ruby
 
-We can now (finally) install Ruby! Our curriculum currently uses version 3.0.3, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
+We can now (finally) install Ruby! Our curriculum currently uses version 3.2.2, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
+
+First, let's upgrade `ruby-build`:
 
 ~~~bash
-rbenv install 3.0.3 --verbose
+brew upgrade ruby-build
+~~~
+
+Now we're ready to install our desired version of Ruby:
+
+~~~bash
+rbenv install 3.2.2 --verbose
 ~~~
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
@@ -246,27 +267,25 @@ This command will take 10-15 minutes to complete. The `--verbose` flag will show
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ~~~bash
-rbenv global 3.0.3
+rbenv global 3.2.2
 ~~~
 
-You can double check that this worked by typing `ruby -v` and checking that the output says version 3.0.3:
+You can double check that this worked by typing `ruby -v` and checking that the output says version 3.2.2:
 
 ~~~bash
-$ ruby -v
-ruby 3.0.3pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
+ruby -v
+ruby 3.2.2pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
 ~~~
 
-If you don't see the output above, log off and log back on, then try again.
+If you don't see the output above, close and reopen the terminal window and then run the command again.
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
-
-
 
 
 </details>
 
 #### Extras
 
-If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (Ctrl+Shift+X), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
+If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
 
 If you are using a different IDE, a quick Google search such as "Ruby programming extensions for (your IDE here)" should provide you with the resources to get started. Free support extensions can help make your programming go more smoothly, and there are tons of extensions for all languages (not just Ruby).

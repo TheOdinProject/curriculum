@@ -2,7 +2,7 @@
 
 In the previous lesson, we established the utility of [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD) in maintaining your code and sanity. In this lesson, we'll introduce you to your new best friend, the [RSpec](http://rspec.info/) testing framework. It's one of the most popular testing frameworks, having been downloaded more than [480 million times](https://rubygems.org/gems/rspec), at the time of this writing, and having been ported for use in [Rails testing](https://rubygems.org/gems/rspec-rails).
 
-### Learning Outcomes
+### Learning outcomes
 
 _Look through these now and use them to guide your learning. By the end of this lesson, expect to:_
 
@@ -18,7 +18,7 @@ _Look through these now and use them to guide your learning. By the end of this 
 
 At the most basic level, RSpec is a Domain Specific Language written in Ruby, or, for the rest of us, a language specialized for a particular task. In this case, the task is testing Ruby code. The `rspec` gem comes packaged with all you need to get started, including five gems: `rspec`, `rspec-core`, `rspec-expectations`, `rspec-mocks`, and `rspec-support`.
 
-At this point, you may be wondering, _Why RSpec? Surely, there are other frameworks out there_, and you'd be right. There are. In fact, at one point, Ruby came bundled with [Test::Unit](https://github.com/test-unit/test-unit) and later [Minitest](https://github.com/seattlerb/minitest) as part of its standard library, the latter of which lives on in Rails. If you tend to be pessimistic (I'm sorry, I meant _realistic_), then the [Wrong](https://github.com/sconover/wrong) testing framework might be your cup of tea. Or perhaps you're hungry and in the mood for something more substantial, in which case a side of [Bacon](https://github.com/chneukirchen/bacon) might be what you need. At the end of the day, it doesn't matter which framework you choose as long as you cultivate your testing skills. RSpec's wider adoption, especially in the Rails community, is certainly reason enough to warrant familiarity with it, but implementing tests should be the end-all and be-all, rather than choosing a particular framework.
+At this point, you may be wondering, _Why RSpec? Surely, there are other frameworks out there_, and you'd be right. There are. In fact, at one point, Ruby came bundled with [Test::Unit](https://github.com/test-unit/test-unit) and later [Minitest](https://github.com/seattlerb/minitest) as part of its standard library, the latter of which lives on in Rails. If you tend to be pessimistic (Sorry, we meant _realistic_), then the [Wrong](https://github.com/sconover/wrong) testing framework might be your cup of tea. Or perhaps you're hungry and in the mood for something more substantial, in which case a side of [Bacon](https://github.com/chneukirchen/bacon) might be what you need. At the end of the day, it doesn't matter which framework you choose as long as you cultivate your testing skills. RSpec's wider adoption, especially in the Rails community, is certainly reason enough to warrant familiarity with it, but implementing tests should be the end-all and be-all, rather than choosing a particular framework.
 
 But enough [proselytizing](https://www.dictionary.com/browse/proselytizing). Strap your helmet and buckle up; we're going to jump right in.
 
@@ -94,7 +94,7 @@ describe Calculator do
 end
 ~~~
 
-<span id='keyword-it'>The `it` keyword defines an individual example (aka, test)</span>. `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of RSpec's equality [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), `eql`:
+<span id='keyword-it'>The `it` keyword defines an individual example (aka, test)</span>. `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of [RSpec's equality matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/), `eql`:
 
 ~~~ruby
   expect(calculator.add(5, 2)).to eql(7)
@@ -232,25 +232,25 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 
 2. Write a test for a new `Calculator` method (`#multiply`, `#subtract`, or `#divide`) using a new `describe` block. Include at least one `it` block with an appropriate expectation clause. Get it to pass, and refactor if necessary.
 3. In the terminal, try running your failing or passing tests with `rspec --format documentation`. What's different?
-4. RSpec reads command line configurations from `.rspec`, one of the two files generated when RSpec is initialized in a project. If you liked the output you got with `--format documentation`, you can use the `.rspec` file to hold that flag. In doing so, you won't have to type it in every time you run your test suite. Open the file in your text editor and, on a new line, add `--format documentation`. For more information on configuring RSpec, see the docs [here](https://relishapp.com/rspec/rspec-core/v/3-7/docs/configuration).
+4. RSpec reads command line configurations from `.rspec`, one of the two files generated when RSpec is initialized in a project. If you liked the output you got with `--format documentation`, you can use the `.rspec` file to hold that flag. In doing so, you won't have to type it in every time you run your test suite. Open the file in your text editor and, on a new line, add `--format documentation`. For more information on configuring RSpec, [see the docs here](http://rspec.info/features/3-12/rspec-core/configuration/).
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This Youtube video](https://www.youtube.com/watch?v=K6RPMhcRICE) gives an excellent overview of the fundamentals of Rspec, and gives a brief overview of some concepts that will be mentioned in the next lesson.
 - For a more thorough overview of RSpec, read through the [RSpec section](http://testing-for-beginners.rubymonstas.org/rspec.html) of Ruby Monsta's [Testing for Beginners book](http://testing-for-beginners.rubymonstas.org/index.html).
-- Briefly look over RSpec's other [matchers](https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers), if you haven't done so already.
+- Briefly look over [RSpec's other matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/) if you haven't done so already.
 - Briefly look over the RSpec styling and syntax recommended by [BetterSpecs](http://www.betterspecs.org/) and read through the first six guidelines.
-- The [RSpec Cheat Sheet](https://www.dropbox.com/s/mij3d0bhi29outc/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.
+- [This RSpec Cheat Sheet](https://devhints.io/rspec) should help you avoid Googling every new bit of syntax.
 - Solidify these concepts with a [shameless plug](https://medium.com/@mindovermiles262/getting-started-with-rspec-part-1-9418909f5e53) from another Odin Project contributor.
 
-### Knowledge Checks 
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class='knowledge-check-link' href='#tests-folder'>What do you name the folder that contains your test files?</a>
 - <a class='knowledge-check-link' href='#keyword-describe'>What does the keyword `describe` define?</a>
 - <a class='knowledge-check-link' href='#keyword-it'>What does the keyword `it` define?</a>
 - <a class='knowledge-check-link' href='#expect-clauses'>How many expect clauses can you write for one test case?</a>
-- <a class='knowledge-check-link' href='https://relishapp.com/rspec/rspec-expectations/v/3-7/docs/built-in-matchers/equality-matchers'>What are some of RSpec's equality matchers?</a>
+- <a class='knowledge-check-link' href='http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/'>What are some of RSpec's equality matchers?</a>
 - <a class='knowledge-check-link' href='#require'>How do we tell RSpec where to find the code to be tested?</a>

@@ -4,11 +4,13 @@ In a typical interaction between a client and website, a browser makes a request
 
 There are often times when you want to keep that connection open so that the server can update the client if there is something relevant for the user. For that we have WebSockets, and Action Cable brings WebSockets to Rails in an easy to use way.
 
-### Learning Outcomes
+### Lesson overview
 
-* What is a WebSocket?
-* What kinds of problems can WebSockets help you solve?
-* What is Action Cable?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What a WebSocket is.
+- What kinds of problems WebSockets can help you solve.
+- What an Action Cable is.
 
 ### What is a WebSocket?
 
@@ -79,7 +81,7 @@ So, if you are using devise, a neat way to verify a connection is to use the fol
 
 ~~~ruby
 def find_verified_user
-  if verified_user == env['warden'].user
+  if verified_user = env['warden'].user
     verified_user
   else
     reject_unauthorized_connection
@@ -301,10 +303,10 @@ The connection only remains active while the http request remains unbroken. Refr
 
 <div class="lesson-content__panel" markdown="1">
   1. Make sure you've read through all of the [Rails Guides on Action Cable](https://guides.rubyonrails.org/action_cable_overview.html). They even have some full stack examples which you may find useful.
-  2. Follow along with this [Simple Messaging App](https://github.com/TheOdinProject/curriculum/blob/main/rails_programming/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Action Cable to a project
+  2. Follow along with this [Simple Messaging App](https://github.com/TheOdinProject/curriculum/blob/main/ruby_on_rails/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Action Cable to a project
 </div>
 
-### Knowledge Checks
+### Knowledge checks
 
 * <a class='knowledge-check-link' href='#what-is-a-websocket'>What options did developers have before WebSockets to update a client without a user request?</a>
 * <a class='knowledge-check-link' href='#terminology'>How can you broadcast to a stream from the server?</a>

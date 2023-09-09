@@ -1,3 +1,4 @@
+### Introduction
 You've been figuring out this web development stuff and building apps for a long time now and it's finally time to get paid to keep learning by working for someone else.
 
 You're absolutely capable of getting a job but it's rarely easy to find one.  You'll have to be honest with yourself about what you want and what you can offer and tackle the challenge of getting hired with the same rigor and structure that has gotten you this far.

@@ -3,7 +3,7 @@ Ruby is a strongly object-oriented language, which means that absolutely everyth
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to do the following:
 
  - List the basic arithmetic operators and what they do.
@@ -38,7 +38,7 @@ You probably already know what numbers are, so there's no need to go into elabor
 10 % 4  #=> 2  (10 / 4 = 2 with a remainder of 2)
 ~~~
 
-#### Integers and Floats
+#### Integers and floats
 There are two main types of numbers in Ruby. **Integers** are whole numbers, such as 10. **Floats** are numbers that contain a decimal point, such as 10.5, 10.0, or 0.25.
 
 It's important to keep in mind that when doing arithmetic with two integers in Ruby, *the result will always be an integer*.
@@ -53,7 +53,7 @@ To obtain an accurate answer, just replace one of the integers in the expression
 17 / 5.0  #=> 3.4
 ~~~
 
-#### Converting Number Types
+#### Converting number types
 Ruby makes it very easy to convert floats to integers and vice versa.
 
 ~~~ruby
@@ -67,7 +67,7 @@ Ruby makes it very easy to convert floats to integers and vice versa.
 
 As shown in the last example above, when Ruby converts a float to an integer, the decimal places are simply cut off. Ruby doesn't do any rounding in this conversion.
 
-#### Some Useful Number Methods
+#### Some useful number methods
 There are many useful methods for numbers built into Ruby. For example,
 
 **#even?**
@@ -89,7 +89,7 @@ Strings, strings, wonderful things, use them well and...your app will...grow win
 
 At first glance, you might think that strings are just a bunch of characters that aren't very useful beyond getting user input and outputting some information to the screen, but like Burt Reynolds passing up the chance to play Han Solo, you'd be wrong. Very wrong. What were you thinking, Burt?
 
-#### Double and Single Quotation Marks
+#### Double and single quotation marks
 Strings can be formed with either double `""` or single`''` quotation marks, also known as *string literals*. They are pretty similar, but there are some differences. Specifically, string interpolation and the escape characters that we'll discuss soon both only work inside double quotation marks, not single quotation marks.
 
 #### Concatenation
@@ -108,7 +108,7 @@ In true Ruby style, there are plenty of ways to concatenate strings.
 Classic Ruby!
 
 #### Substrings
-You can access strings inside strings inside strings. Stringception! It's super easy, too.
+You can access strings inside strings. Stringception! It's super easy, too.
 
 ~~~ruby
 "hello"[0]      #=> "h"
@@ -119,6 +119,7 @@ You can access strings inside strings inside strings. Stringception! It's super 
 
 "hello"[-1]     #=> "o"
 ~~~
+In the above example we can access the individual characters of a string by referencing the index(es) of the character within the string using `[]`. For more information on the topic you can read the [method documentation](https://ruby-doc.org/3.2.2/String.html#class-String-label-String+Slices).
 
 #### Escape characters
 Escape characters allow you to type in representations of whitespace characters and to include quotation marks inside your string without accidentally ending it. As a reminder, escape characters only work inside double quotation marks.
@@ -154,10 +155,10 @@ puts "Hello, #{name}" #=> "Hello, Odin"
 puts 'Hello, #{name}' #=> "Hello, #{name}"
 ~~~
 
-#### Common String Methods
+#### Common string methods
 There are many useful string methods that are built into Ruby. You need to capitalize a word? No problem! Reverse a string? Easy peasy. Extract the binary subatomic algorithm from any regex grep? We don't know, but since this is Ruby, let's go with *YES*.
 
-Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](https://ruby-doc.org/core-3.0.3/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
+Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](https://ruby-doc.org/core-3.1.2/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
 
 Below is a quick recap of the more common string methods you might find yourself using:
 
@@ -257,15 +258,15 @@ One common application where symbols are preferred over strings are the keys in 
 
 You won't need to use symbols much in the beginning, but it's good to get familiar with what they are and what they look like so that you can recognize them.
 
-#### Create a Symbol
+#### Create a symbol
 To create a symbol, simply put a colon at the beginning of some text:
 
 ~~~ruby
 :my_symbol
 ~~~
 
-#### Symbols vs. Strings
-To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://ruby-doc.org/core-3.0.3/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember: in Ruby, *everything* is an object!)
+#### Symbols vs. strings
+To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://ruby-doc.org/core-3.1.2/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember: in Ruby, *everything* is an object!)
 
 ~~~ruby
 "string" == "string"  #=> true
@@ -278,7 +279,7 @@ To get a better idea of how symbols are stored in memory, give this a whirl in i
 ### Booleans
 You will learn about these data types in more detail in the Conditional Logic lesson later in this course. The goal of this lesson is for you to get a basic understanding of what Booleans are.
 
-#### True and False
+#### True and false
 The Boolean values `true` and `false` represent exactly what you think they do: `true` represents something that is true, and `false` represents something that is false.
 
 #### Nil
@@ -289,13 +290,15 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 <div class="lesson-content__panel" markdown="1">
 
 1. Read the [Basics chapter](https://launchschool.com/books/ruby/read/basics) of LaunchSchool's *Introduction to Programming With Ruby* for a different explanation of Ruby's data types.
-2. [Read Alex Chaffee’s brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
-3. Finally complete the basic data types exercises provided for this lesson:
-    * [Follow the instructions in the main README to set up the exercise repo](https://github.com/TheOdinProject/ruby-exercises)
-    * [Follow the instructions in the README here to complete the basic data types exercises](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics)
+2. [Read Alex Chaffee’s brief writeup on Objects](https://web.archive.org/web/20190205073042/http://codelikethis.com/lessons/learn_to_code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
+3. Now it is time to complete some test-driven exercises to practice what you have learned in this lesson.
+    * Follow the cloning and installation instructions in the main README to set up our [ruby-exercise repo](https://github.com/TheOdinProject/ruby-exercises).
+    * Then follow the instructions in the [ruby-basics README](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) to complete the `1_data_types` exercises.
+    * If you get stuck, ask questions in the #ruby-help channel in our Discord server.
+    * After you have completed the exercises, check out the solutions branch on GitHub to compare solutions.
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * If you want to go deeper into Ruby's numbers and string data types, read these chapters from the *Bastards Book of Ruby*:
@@ -307,7 +310,7 @@ This section contains helpful links to other content. It isn't required, so cons
     * [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
     * [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * Numbers

@@ -1,22 +1,21 @@
 ### Introduction
 
-In Computer Science one of the most basic and fundamental data structures is the
+In Computer Science, one of the most basic and fundamental data structures is the
 linked list, which functions similarly to an array. The principal benefit of a linked
 list over a conventional array is that the list elements can easily be inserted or
 removed without reallocation of any other elements.
 
-In some programming languages the size of an array is a concern and one of the ways
+In some programming languages, the size of an array is a concern and one of the ways
 to overcome that problem and allow dynamically allocated data is using linked lists.
 
-Luckily in **Ruby** arrays aren't limited to a certain size, so you don't have to think
-about overcoming that limitation.
+Luckily in **Ruby**, arrays aren't limited to a certain size, and both insertion and deletion can be done trivially at any index using the appropriate built in array method, so you don't have to think about overcoming those limitations.
 
-So if array size is not a limitation in Ruby, are linked lists really necessary?
+So if array size, array insertion and array deletion are not limitations in Ruby, are linked lists really necessary?
 The short answer to that is _no_; however, it's the simplest of the dynamic data
 structures and it will give you a solid foundation, so you can understand more
 complex data structures like graphs and binary trees with more ease.
 
-### Structure of a Linked List
+### Structure of a linked list
 
 A _linked list_ is a linear collection of data elements called nodes that "point"
 to the next node by means of a pointer.
@@ -56,10 +55,11 @@ Build the following methods in your linked list class:
 10. `#to_s` represent your LinkedList objects as strings, so you can print them out and preview them in the console.
     The format should be: `( value ) -> ( value ) -> ( value ) -> nil`
 
-### Extra Credit
+### Extra credit
 
 1. `#insert_at(value, index)` that inserts a new node with the provided `value` at the given `index`.
 2. `#remove_at(index)` that removes the node at the given `index`.
 
 **Extra Credit Tip:** When you insert or remove a node, consider how it will affect the existing nodes. Some of the nodes will need their `#next_node` link updated.
+
 </div>

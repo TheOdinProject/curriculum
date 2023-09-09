@@ -14,7 +14,7 @@ Remember to write some documentation for both technical and non-technical audien
 
 * [A Beginner’s Guide to Writing Documentation](http://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
 
-### Show Designs
+### Show designs
 A list of portfolios of professional developers. Students should analyze these sites to understand what should be on their portfolios and how it should be presented.
 
 <details markdown="block">
@@ -28,7 +28,6 @@ A list of portfolios of professional developers. Students should analyze these s
   * [Ben Adam](https://benadam.me/)
   * [Seb Kay](https://sebkay.com/)
   * [Jonny MacEachern](https://jonny.me/)
-  * [Jack Jeznach](https://jacekjeznach.com/)
   * [Andriy Chemerynskiy](https://andrewchmr.com/)
   * [Chris Ota's Portfolio](https://www.otadesigns.com/)
   * [Pierre Nel](https://pierre.io/)
@@ -41,5 +40,4 @@ A list of portfolios of professional developers. Students should analyze these s
   * [Patrick David](https://bepatrickdavid.com/)
   * [Luis Krötz](https://luiskr.com/)
   * [Leonid Kostetckyi](https://lk.emotion-agency.com/)
-  * [Alex Madeira](https://www.alexmadeira.com.br/)
 </details>
