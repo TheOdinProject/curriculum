@@ -178,9 +178,9 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
   
 **Free Plan**
 
-- 1000 hours usage per month for each apps.
+- 1000 hours usage per month for each app.
 - Unlimited static websites that are always on.
-- Full stack apps that will sleep after 5 mins of inactivity but gets back on if a user wants to access it.
+- Full stack apps will be put to sleep after 5 minutes of inactivity.
 
 **Links**
 
