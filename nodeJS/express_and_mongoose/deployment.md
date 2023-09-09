@@ -184,7 +184,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 **Links**
 
-- [Homepage](https://glitch.com/)
+- [Glitch](https://glitch.com/)
 - [Guide: Blog explaining how to deploy your Node app](https://andrewlock.net/creating-my-first-github-app-with-probot-part-3-deploying-to-glitch/)
 
 
