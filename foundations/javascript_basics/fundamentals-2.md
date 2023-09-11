@@ -84,6 +84,7 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions), commonly known as regex, is a tool that matches or locates patterns in strings for string validation. However, be [cautious](https://softwareengineering.stackexchange.com/questions/113237/when-you-should-not-use-regular-expressions) about relying on regex too heavily at this stage. There are other various methods to process strings, and regex can be slower in comparison. Regardless, familiarizing yourself with some of its [capabilities](https://www.freecodecamp.org/news/a-quick-and-simple-guide-to-javascript-regular-expressions-48b46a68df29/) can make it a worthwhile addition to your arsenal. 
-  - [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD).
+- [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions), commonly known as regex, is a tool that matches or locates patterns in strings for string validation. However, be [cautious](https://softwareengineering.stackexchange.com/questions/113237/when-you-should-not-use-regular-expressions) about relying on regex too heavily at this stage. There are other various methods to process strings, and regex can be slower in comparison. Regardless, familiarizing yourself with some of its [capabilities](https://www.freecodecamp.org/news/a-quick-and-simple-guide-to-javascript-regular-expressions-48b46a68df29/) can make it a worthwhile addition to your arsenal.
   - [Web Dev Simplified's Regular Expressions In 20 Minutes](https://www.youtube.com/watch?v=rhzKDrUiJVk).
+  - [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD).
+  
