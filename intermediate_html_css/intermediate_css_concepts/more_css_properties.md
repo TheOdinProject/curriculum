@@ -3,10 +3,12 @@ By now, you probably have a strong grasp of the important foundational concepts 
 
 There are a _lot_ of CSS properties. [A Recent CSS Tricks Article](https://css-tricks.com/how-many-css-properties-are-there/) says there are _hundreds_. Luckily, you don't have to memorize them all: the amount of properties you're actually going to use on a daily basis is much smaller. This lesson is going to cover most of the items you'll end up using on a regular basis. The format of this lesson is a little different since it's essentially just a list of CSS properties. We'll give a little description of the property and then link you to some documentation where you can see all the available options.
 
-### Learning Outcomes
+### Learning outcomes
+
 - You'll learn about a lot of useful CSS properties!
 
 #### Background
+
 You've likely already experimented with setting background colors on things, but the `background` property can do quite a bit more. The `background` property is actually a shorthand for 8 different background-related properties, all of which you can read about in the linked docs. Beyond changing background-colors, you can also specify background images, change the position and size of background images, and change how background images repeat or tile if they are too small to fill their container. It is also possible to have multiple background layers.
 
 One thing to note is that it _is_ possible to use these properties individually, and in some cases it might be easier and more clear to do that than defaulting to the shorthand. This is in contrast to some other shorthand properties where it is almost always preferable to default to using the shorthand (flex, margin, padding etc.)
@@ -39,7 +41,8 @@ Opacity is another easy one that can be very useful in some circumstances.
 
 Check out [`opacity`](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) for a definition and some examples.
 
-### Knowledge Check
+### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [Which property would you use to make an element transparent?](#opacity)
@@ -49,7 +52,8 @@ This section contains questions for you to check your understanding of this less
 - [Which property would you use to create rounded corners on an element?](#borders)
 - [How would you use border-radius to make a circular element?](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
 
-### Additional Resources
+### Additional resources
+
 Throughout this lesson we have linked primarily to the MDN docs for each property... however there are _many_ useful reference sites across the web that can be useful and that may show up when searching these items.
 
 * [CSS Tricks](https://css-tricks.com/almanac/properties) has some really great content. Some of it feels less formal and official than the MDN docs, but that means they can be easier to digest.  Sometimes their examples can be more useful. For example, check out their pages on the [background shorthand](https://css-tricks.com/almanac/properties/b/background/), or [overflow](https://css-tricks.com/almanac/properties/o/overflow).

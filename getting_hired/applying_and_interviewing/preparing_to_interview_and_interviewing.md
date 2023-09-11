@@ -18,7 +18,7 @@ Just a quick overview of the process a typical tech company will go through when
 6. Offer Negotiation
 7. Offer Acceptance
 
-### The Phone Screen
+### The phone screen
 
 Congratulations! Your resume wasn't a total train-wreck and they've invited you for a phone screen (note -- sometimes you actually do the tech challenge first).  The real purpose of this screen, which is often roughly a half hour with someone from Human Resources (not the actual hiring manager), is to make sure you've got a good chance of passing their technical interview and fit interviews.  So consider it a light version of each of these.
 
@@ -30,7 +30,7 @@ FINAL NOTE -- this is not one-size-fits-all and many companies skip the light st
 * [7 Steps for Mastering the Telephone Interview](http://dorigan.com/how-to-interview/mastering-telephone-interview/)
 * [A much more technical phone screen from Coding Horror](https://blog.codinghorror.com/getting-the-interview-phone-screen-right/)
 
-### The Tech Interview
+### The tech interview
 
 The technical interview is usually the most terrifying part of the interview process. It's where they will assess whether you've got the technical chops to make it.  That means you'll not only be asked very specifically about the work you've done, but also to solve logic problems or code live or whiteboard some new features.
 
@@ -57,15 +57,15 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [Ruby on Rails Popular Job Interview Questions](https://www.nopio.com/blog/ruby-rails-popular-job-interview-questions/)
 * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/) is **OPTIONAL READING** and it has the potential to be your best friend. It comprehensively covers all the kinds of challenges you might face in a coding interview. It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.
 
-### Coding Test Questions:
+### Coding test questions:
 * [8 Queens](http://jetheis.com/blog/2013/12/01/programming-interview-question-eight-queens/) is a classic problem.
 * [Coding for Interviews: Know Thy Standard Libraries](http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
 * [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently (they can be very computationally intensive).
 * [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.
-* [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms & data scructures.
+* [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms & data structures.
 * [LeetCode](https://leetcode.com/explore/) also has some great resources, with problems, explanations, and challenges. Best of all, you don't have to create an account to view the questions.
 
-### Algorithms Training:
+### Algorithms training:
 
 * [Udacity course on Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215) (asynchronous)
 * [Coursera course on Algorithms](https://www.coursera.org/course/algo) (semi-synchronous)
@@ -81,13 +81,13 @@ The take-home tech challenge may occur before or after the in-person screen, dep
 
 They'll evaluate you on the completeness of your solution and the quality of your code.  If it occurred before the technical interview, it's a good mechanism for them to test your commitment (up to half of people never even turn in a solution).
 
-### The Final Step: "Fit"
+### The final step: "fit"
 
 The final step before the final decision is usually to meet the whole team and get put through the paces at their offices over the period of several hours.  They'll probably test you technically but the goal is also to make sure you'd be a good person to work with.  If any one member of the team doesn't think you'd be a good fit, you usually won't be hired.  Advice?  Don't be weird or awkward even if you are at home :)
 
 It's also a chance for you to test them out.  If you've gotten this far in the process, there's a reasonable likelihood that you've got a good match.  You'll need to figure out if this is the kind of company you want to work for so bring a list of questions and make sure they get answered.
 
-### A Note on Compensation
+### A note on compensation
 
 Be mindful when providing your salary expectations. Companies will always ask you "how much do you expect to get paid", often in the initial phone screen. Providing a single concrete number can be the opposite of beneficial, because you may offer a number higher than their range and thus be deemed too expensive, or you may have come in too low and they now know they may be able to cap your offered compensation at a lower number than they might have. It's safest to provide a range (e.g. "I am looking for something between $80,000 - $90,000.") in order to better meet their budget and also allow some wiggle room for negotiations. 
 

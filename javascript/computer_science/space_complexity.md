@@ -6,7 +6,7 @@ In this lesson, we'll focus on space complexity and see how the same notations w
 
 When we talk about memory, we mean primary memory, which is the working memory available to your system to execute algorithms. You can read more about the topic in this [GeeksforGeeks Primary Memory article](https://www.geeksforgeeks.org/primary-memory/).
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -30,7 +30,7 @@ On the flip side, although memory is cheap, your hardware will usually have a fi
 
 On balance, you'll probably come across problems in which the time it takes to execute is more important than the space it uses, but knowing about measuring space complexity will mean when you do run into a situation where there are space constraints, you'll be prepared to handle it.
 
-### Measuring Space Complexity
+### Measuring space complexity
 
 The good news is that we measure space complexity in exactly the same way as time complexity. You already learned about Big O in the last lesson, so you already know how to measure the efficiency of your code. The difference is that you'll need to think about how your algorithm is utilizing memory rather than time.
 
@@ -49,7 +49,7 @@ As a reminder the Big O Notations are:
 
 Let's work through some examples. We won't go through every possible complexity because most don't apply for the data structures you'll be familiar with and use the most. We'll cover the most common ones.
 
-#### O(1) - Constant Complexity
+#### O(1) - Constant complexity
 
 Consider this example
 
@@ -61,7 +61,7 @@ function multiply(num1, num2) {
 
 Here it should hopefully be clear that no matter the arguments we enter when we call the function, only two variables are created. It doesn't change. Therefore, we can consider the space this takes is always O(1).
 
-#### O(N) - Linear Complexity
+#### O(N) - Linear complexity
 
 Most data structures you come across will have a space complexity of O(N). That makes sense - when you increase the number of items in your data structure, it increases the space that data structure occupies in a linear way.
 
@@ -142,7 +142,7 @@ On top of these considerations, you also need to balance the readability of your
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -150,6 +150,6 @@ This section contains questions for you to check your understanding of this less
 *   [How do we measure space complexity?](#measuring-space-complexity)
 *   [What are the main considerations we should consider before optimising code?](#other-considerations)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.

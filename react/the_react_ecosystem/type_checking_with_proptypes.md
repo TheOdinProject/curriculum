@@ -4,14 +4,14 @@ Type Checking is a process of verifying that a piece of code is using the correc
 
 PropTypes is a way to type check the props that a React component receives. It helps to catch potential type errors during development, making it easier to spot and fix bugs. If you have used a linter in your previous React projects, there's a good chance it ended up yelling at you about certain props missing in prop validation, however if that isn't the case- well, lucky you!
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Setting up PropTypes.
 - Using common PropTypes features.
 
-### Getting Started
+### Getting started
 
 To start using PropTypes in our React projects, we first need to install the corresponding library. We can do that with `npm`. In your React project run the following command:
 
@@ -44,11 +44,17 @@ RenderName.propTypes = {
 export default RenderName;
 ~~~
 
-In this example, the component RenderName expects to receive a prop called `name` which is a string. If this prop is not passed, or if it is not a string, a warning will be displayed.
+In this example, the component RenderName expects to receive a prop called `name` which is a string. If this prop is not a string, a warning will be displayed. If you want to make sure a prop is being passed in, use isRequired like so:
+
+~~~javascript
+RenderName.propTypes = {
+  name: PropTypes.string.isRequired,
+}
+~~~ 
 
 ### Using defaultProps
 
-Another cool thing we can do with PropTypes is passing in default props:
+Another cool thing we can do in combination with PropTypes is passing in default props:
 
 ~~~javascript
 import React from 'react';
@@ -73,7 +79,7 @@ In this example, with the help of the defaultProps property we are defining a de
 
 ### What about TypeScript?
 
-Now is also a good time to mention [TypeScript](typescriptlang.org) - a strongly typed language that builds on JavaScript. We don't cover it in our curriculum yet, but it's worth learning about it if you'd like more safety while writing your code.
+Now is also a good time to mention [TypeScript](https://www.typescriptlang.org/) - a strongly typed language that builds on JavaScript. We don't cover it in our curriculum yet, but it's worth learning about it if you'd like more safety while writing your code.
 
 Learning TypeScript can be a lot of overhead when you're already learning React. Although, once you're comfortable navigating the ins and outs of React, you'll have a better time learning and applying TypeScript to your projects. If you go in the direction of learning TypeScript, our recommendation would be picking up a previous project and refactoring the components one by one to TypeScript. Learn by doing!
 
@@ -87,7 +93,7 @@ Learning TypeScript can be a lot of overhead when you're already learning React.
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -95,7 +101,7 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="#using-defaultprops">If we pass in a prop to a component that has a defaultProp defined, what would happen?</a>
 - <a class="knowledge-check-link" href="https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application">What is the difference between PropTypes and TypeScript?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

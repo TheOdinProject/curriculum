@@ -2,7 +2,7 @@
 
 Throughout the lessons, we've learned how to manage state and pass data/props around components. However, as our application grows in size, not only will this process of managing states and passing data around become repetitive and inconvenient, but it will also be hard to manage. This lesson will cover how we can reduce these complexities in our application by using the Context API.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -16,7 +16,7 @@ The Context API in React is a feature that allows you to manage the global state
 
 To give a more concrete example, let's go back to a project that we've already built previously. In the Shopping Cart project, you might have a Product Detail Page that might or might not look like this very awesome shop:
 
-![](imgs/00.png)
+![Rough layout of a shopping website product page](https://cdn.statically.io/gh/TheOdinProject/curriculum/e6a43abb8ad6836796159e0ab6160045293e2a27/react/more-react-concepts/managing-state-with-context-api/imgs/00.png)
 
 You have a counter in the header that displays the number of items currently in the cart. You can add items to the cart through the "Add to Cart" button.
 
@@ -115,9 +115,9 @@ This is a very simple application, but imagine the application grows in size as 
 
 To simplify our application and reduce complexity, we can implement the Context API. There are three key elements in this API that we need to understand:
 
-1. `createContext` - This "creates the context" Duh... But yes, it's how we can create the context. It takes in any value, be it a number, string, or object, which can be referred to as the _default value_ of the context, and returns a Context object that can be used to pass down data to components
-2. `useContext` - This hook is used to consume data from a Context object created by `createContext`. We can use this hook inside our component to retrieve the data that we need. This hook accepts the Context object as an argument
-3. `ContextObject.Provider` - The Context object comes with the `Provider` component that accepts a prop called `value`, which is the context value that's going to be passed down to the components no matter how deeply they're nested. In other words, a way to "provide" the context value to these components
+1. `createContext` - This "creates the context" Duh... But yes, it's how we can create the context. It takes in any value, be it a number, string, or object, which can be referred to as the _default value_ of the context, and returns a context object that can be used to pass down data to components
+2. `useContext` - This hook is used to consume data from a context object created by `createContext`. We can use this hook inside our component to retrieve the data that we need. This hook accepts the context object as an argument
+3. `ContextObject.Provider` - The context object comes with the `Provider` component that accepts a prop called `value`, which is the context value that's going to be passed down to the components no matter how deeply they're nested. In other words, a way to "provide" the context value to these components
 
 We can start by using the `createContext` function that can be imported from the `react` module.
 
@@ -255,7 +255,7 @@ Although the Context API can be a powerful tool for managing state in larger Rea
 1. It can lead to performance issues: When you update the state in a context, it can cause all components that are consuming that context to re-render, even if the state that they are using hasn't changed. This can lead to performance issues, especially if you have a lot of components that are consuming the same context.
 2. It can make your code harder to follow: With the Context API, it's easier to access the state from any component in your application. However, this can also make your code harder to follow, especially if you have a lot of nested components that are consuming the same context. It's important to keep your code organized and well-structured to avoid confusion.
 
-### Potential Solutions
+### Potential solutions
 
 1. Use multiple smaller contexts instead of a single large context. Instead of using a single large context to manage all of your application states, consider using multiple smaller contexts to manage related pieces of state. This can help to reduce the number of components that are consuming the context and minimize unnecessary re-renders.
 2. Sometimes Context API might not even be the best solution for the problems that we want to deal with. Take a look at [React Component Composition](https://www.robinwieruch.de/react-component-composition/) article by Robin Wieruch.
@@ -265,8 +265,8 @@ Although the Context API can be a powerful tool for managing state in larger Rea
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  The React Docs provides more engaging examples and possible optimizations for the Context API. You can check it out by going through their [documentation for useContext](https://react.dev/reference/react/useContext). Be sure to try out each example!
-2.  Read the short article [Prop Drilling](https://kentcdodds.com/blog/prop-drilling) by Kent C. Dodds. This is a great article to get more understanding for prop drilling, it features digestible examples.
+1. The React Docs provides more engaging examples and possible optimizations for the Context API. You can check it out by going through their [documentation for useContext](https://react.dev/reference/react/useContext). Be sure to try out each example!
+2. Read the short article [Prop Drilling](https://kentcdodds.com/blog/prop-drilling) by Kent C. Dodds. This is a great article to get more understanding for prop drilling, it features digestible examples.
 
 </div>
 
@@ -283,4 +283,3 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - For some extra practice/review, check out [this content from the React Docs](https://react.dev/learn/passing-data-deeply-with-context)
-

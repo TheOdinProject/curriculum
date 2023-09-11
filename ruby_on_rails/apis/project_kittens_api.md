@@ -51,7 +51,7 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
 
 </div>
 
-### Building a Simple Kittens API
+### Building a simple kittens API
 
 This is a fast and straightforward project where you'll set up a Rails app to be a data-producing API... which is just a fancy way of saying that all your controller methods will render data instead of HTML.  Consider this a drill in quickly building a pure vanilla RESTful resource. We won't be working with an external API until the next project.
 
@@ -114,7 +114,7 @@ This project may seem simple, but now you've got a website that is both a normal
 
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 -   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

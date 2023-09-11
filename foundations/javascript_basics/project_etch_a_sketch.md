@@ -15,7 +15,7 @@ Don't forget to commit early & often! You can [reference the Commit Message less
 2.  Create a webpage with a 16x16 grid of square divs.
     *   Create the divs using JavaScript. Don't try making them by hand with copy and pasting in your HTML file!
     *   It's best to put your grid squares inside another "container" div \(which can go directly in your HTML\).
-    *   You need make the divs appear as a grid \(versus just one on each line\). This is a perfect opportunity to apply what you have learned about flexbox.
+    *   You need to make the divs appear as a grid \(versus just one on each line\). This is a perfect opportunity to apply what you have learned about flexbox.
     *   Be careful with borders and margins, as they can adjust the size of the squares!
     *   "OMG, why isn't my grid being created???"
         *   Did you link your CSS stylesheet?
@@ -34,7 +34,7 @@ Don't forget to commit early & often! You can [reference the Commit Message less
     *   You should be able to enter `64` and have a brand new 64x64 grid pop up without changing the total amount of pixels used.
 5.  Push your project to GitHub!
 
-#### Extra Credit
+#### Extra credit
 Transform the behavior of a square when interacting with the mouse by introducing a series of modifications. 
 
 1. Rather than a simple color change from black to white, each interaction should randomize the square's RGB value entirely. 

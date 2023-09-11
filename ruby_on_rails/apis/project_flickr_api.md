@@ -15,5 +15,5 @@ Remember the warm-up in the previous project when you played with the Flickr API
 8. Ask for your friends' flickr IDs or find random photofeeds on the web.  View them in your app and react appropriately.
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.

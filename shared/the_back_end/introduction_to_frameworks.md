@@ -6,7 +6,7 @@ In addition to preventing repetition, frameworks provide great organization.  Th
 
 There are often several different popular frameworks for a given language.  They can have exciting names like [Ember](http://emberjs.com/), [Meteor](http://www.meteor.com/), [Django](https://www.djangoproject.com/), [Rails](http://rubyonrails.org/), [Grok](http://grok.zope.org/), etc.  Wikipedia has a [comprehensive comparison of frameworks](http://en.wikipedia.org/wiki/Comparison_of_web_application_frameworks) that should give you an appreciation of the number of them.  For Ruby alone, though Rails is the most popular, there are also [Sinatra](http://www.sinatrarb.com/) and [Padrino](http://www.padrinorb.com/) and more.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -30,7 +30,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0">Name some popular front-end and back-end frameworks. </a>
 *   <a class="knowledge-check-link" href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks#how_to_select_a_web_framework">Describe the process of choosing a framework.</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

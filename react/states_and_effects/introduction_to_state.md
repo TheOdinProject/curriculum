@@ -4,7 +4,7 @@ Any exciting application you build is likely to change over the time the user is
 
 Read  [What is State? by Academind](https://academind.com/tutorials/what-is-state) before we get started.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 * How to use state in React.   
 * What happens when the state changes in React?
 
-### What is State in React? 
+### What is state in React? 
 
 We write components in React, A LOT of components, and many times we want them to undergo visual changes as a result of user or computer interactions. For this purpose, a component needs to "remember" things about itself. This is where state comes in. **State is a component's memory.** 
 
@@ -44,7 +44,7 @@ Adding more state variables should be as easy as adding more `useState` calls.
 
 Great, you can now use state! But, what's going on under the hood? 
 
-### How does State Work in React? 
+### How does state work in React? 
 
 Let's hit you with some theory.
 
@@ -52,7 +52,7 @@ In React, when a component's state or props change, the component is destroyed a
 
 <div class="lesson-note" markdown="1">
 
-#### React Reconciliation Algorithm
+#### React reconciliation algorithm
 
 The process of rerendering generates a new virtual DOM (Document Object Model) tree. The virtual DOM is a lightweight representation of the actual DOM that React uses to keep track of the current state of the UI. React then compares the new virtual DOM tree to the previous one and calculates the minimal set of changes needed to update the actual DOM. This is the reconciliation algorithm. 
 
@@ -85,7 +85,7 @@ Hooks are functions that let you use React features. All hooks are recognizable 
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -94,7 +94,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="#how-does-state-work-in-react">What happens to the component when one of its state is changed?</a>
 *   <a class="knowledge-check-link" href="#hooks">What are some of the rules of hooks?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

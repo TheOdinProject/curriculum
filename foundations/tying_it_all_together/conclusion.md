@@ -42,7 +42,7 @@ To help you make a decision, here are some perks of each technology:
 
 In the end, it doesn't matter which path you take. It's only important that you stick with it, and continue to hold onto the learner's mindset throughout your career. Not convinced? [Click here](https://medium.com/@bycdiaz/choosing-the-right-language-a-short-guide-on-how-not-to-ruin-your-career-2b353be1371).
 
-### Still Can’t Decide, Let the Spinner Settle Your Fate
+### Still can’t decide? Let the spinner settle your fate!
 
 <iframe src="https://wheeldecide.com/e.php?c1=Ruby+on+Rails&c2=Node&col=rgy&t=The+Odin+Project+Path+Wheel&time=7" sandbox="allow-scripts allow-same-origin" width="250" height="250" scrolling="no" frameborder="0"></iframe>
 
@@ -52,7 +52,7 @@ Get ready, because this is only the beginning. Now it's time to delve deeper int
 
 The journey has just begun!
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

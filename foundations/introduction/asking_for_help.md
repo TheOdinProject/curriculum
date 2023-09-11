@@ -6,9 +6,9 @@ Along your programming journey, you will inevitably need to ask questions in an 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   Explain techniques for asking programming questions
-*   Explain and avoid qualities of “bad” questions
-*   Ask effective and well formed questions
+- Explain techniques for asking programming questions.
+- Explain and avoid qualities of “bad” questions.
+- Ask effective and well formed questions.
 
 ### Tips for getting the best help possible
 
@@ -22,11 +22,11 @@ If your question does not provide any code or other relevant information, it wil
 
 A lot of learners ask exactly how to approach a given task or assignment in this curriculum, such as the below:
 
--   “How do I complete Step 5 of the Rock Paper Scissors Assignment”?
+- “How do I complete Step 5 of the Rock Paper Scissors Assignment”?
 
 Keep in mind that you’re actually supposed to figure out how to solve the assignments yourself, and figuring out an approach is essential to your learning journey. A much better question might look like this:
 
--   “Hey, I’m trying to return a string that displays the winner in Rock Paper Scissors, but I’m getting a syntax error on line 12. How can I fix this? Here’s my code.”
+- “Hey, I’m trying to return a string that displays the winner in Rock Paper Scissors, but I’m getting a syntax error on line 12. How can I fix this? Here’s my code.”
 
 In sharing your attempt, people know what you’ve tried and won’t suggest things that might not have worked out for you. It also allows them to debug your current iteration of code, rather than sending you down a path that has you start all over again when you might be very close to a solution.
 
@@ -39,20 +39,20 @@ People who volunteer in coding communities are here to help! But a question you 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1.  [Don't ask to ask, just ask](https://dontasktoask.com/) demonstrates the importance of just asking your question and not asking to ask your question.
-2.  Read about the [“XY Problem”](https://xyproblem.info/), which is a common pitfall both new and experienced programmers fall into when asking questions.
-3.  Read and bookmark our community guide [How to Ask Technical Questions](https://www.theodinproject.com/guides/community/how_to_ask). It is a great reference to refer to whenever you find yourself needing to ask for help, and you might find yourself solving your own problem as you think about the points listed in the article.
+1. [Don't ask to ask, just ask](https://dontasktoask.com/) demonstrates the importance of just asking your question and not asking to ask your question.
+2. Read about the [“XY Problem”](https://xyproblem.info/), which is a common pitfall both new and experienced programmers fall into when asking questions.
+3. Read and bookmark our community guide [How to Ask Technical Questions](https://www.theodinproject.com/guides/community/how_to_ask). It is a great reference to refer to whenever you find yourself needing to ask for help, and you might find yourself solving your own problem as you think about the points listed in the article.
 </div>
 
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   [Describe the “XY Problem”.](https://xyproblem.info/)
-*   [Name the 5 things your question should include.](https://www.theodinproject.com/guides/community/how_to_ask)
+- [Describe the “XY Problem”.](https://xyproblem.info/)
+- [Name the 5 things your question should include.](https://www.theodinproject.com/guides/community/how_to_ask)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

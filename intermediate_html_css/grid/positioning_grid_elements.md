@@ -2,15 +2,15 @@
 
 In this lesson we will examine the different parts of a grid and explore common properties that can be used to position grid items.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to:
 
-* Describe the differences between tracks, lines and cells
+* Describe the differences between tracks, lines, and cells
 * Position items by defining their start and end lines
 * Use shorthand notation
 
-### Reviewing Tracks
+### Reviewing tracks
 
 Before we dive straight into positioning, let's establish some terminology to better understand the different parts of a grid. In the previous lesson you learned that when you define a grid using `grid-template`, you are defining the *tracks* the grid will have. You can think of a grid track as any single row or column on a grid.
 
@@ -23,7 +23,7 @@ To give an example, if we wanted to create a 3x3 grid with 100 pixel rows and 10
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-You will notice two CSS lines have been commented out in this CodePen. Uncomment the property in the `.first-row` class selector to see the grid track between the first and second-row grid lines. 
+You will notice two CSS lines have been commented out in this CodePen. Uncomment the property in the `.first-row` class selector to see the grid track between the first and second-row grid lines.
 
 Next, uncomment the property in the `.last-column` class selector to see the grid track between the third and fourth-column grid lines.
 
@@ -35,7 +35,7 @@ Every track has a start line and an end line. The lines are numbered from left t
 
 Grid lines are what we use to position grid items. We'll get to that in a minute, but first let's take a deeper look at grid lines using our developer tools.
 
-If you open up developer tools in Chrome, you can navigate to the Layout pane and find the Grid overlay display settings. Make sure that _show line numbers_ is enabled. Select the correct element from the Grid overlays (e.g. this might be our `div.container` if you are inspecting our CodePen.) You should now see an overlay of the grid lines. 
+If you open up developer tools in Chrome, you can navigate to the Layout pane and find the Grid overlay display settings. Make sure that _show line numbers_ is enabled. Select the correct element from the Grid overlays (e.g. this might be our `div.container` if you are inspecting our CodePen.) You should now see an overlay of the grid lines.
 
 Notice that the developer tools also show negative lines opposite from the positive lines. You don't have to worry about the negative lines for now, but know that this gives you another option to use when positioning the grid items.
 
@@ -67,13 +67,13 @@ As it stands this is a pretty sad unit. To make it less of an empty box and more
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Most of our rooms represent a single grid cell. But we have given ourselves a large living room. (Yay!) We positioned this item using `grid-column-start` and `grid-column-end`. Their property values represent the column grid lines we wish it to start and end with. 
+Most of our rooms represent a single grid cell. But we have given ourselves a large living room. (Yay!) We positioned this item using `grid-column-start` and `grid-column-end`. Their property values represent the column grid lines we wish it to start and end with.
 
 You will also notice we have commented out property values for this item's grid row positioning. Uncomment the `grid-row-start` and `grid-row-end` properties to see how our living room can get even bigger by taking up the grid track between the first and third-row grid lines.
 
 These properties allow us to use our existing grid lines to tell items how many rows and columns each item should span across. Take a minute to play around with the property values here. If the line numbers are confusing, inspect the container using your dev tools to show the grid overlay.
 
-Next, we need to use our space more efficiently. We will make the rest of our rooms span multiple grid cells and fill out the rest of our apartment. 
+Next, we need to use our space more efficiently. We will make the rest of our rooms span multiple grid cells and fill out the rest of our apartment.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="jOGEbrX" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/jOGEbrX">
@@ -88,7 +88,7 @@ One problem with our floor plan is that the bathroom and kitchen are on opposite
 
 ### grid-area
 
-You now know how to position your grid items using row and column lines. But there are other ways to position items and this is where things can get a little confusing. 
+You now know how to position your grid items using row and column lines. But there are other ways to position items and this is where things can get a little confusing.
 
 There is an even shorter shorthand for positioning grid items with start and end lines. You can combine `grid-row-start` / `grid-column-start` / `grid-row-end` / `grid-column-end` into one line using `grid-area`.
 
@@ -102,7 +102,7 @@ Our living room above can be written out like this:
 }
 ~~~
 
-But `grid-area` can also refer to a few different things. 
+But `grid-area` can also refer to a few different things.
 
 Instead of using the grid lines to position all the items in a grid, we can create a visual layout of the grid in words. To do this we give each item on the grid a name using `grid-area`.
 
@@ -125,7 +125,7 @@ We could do this to all of our grid items and give each room a `grid-area` value
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Wow! You might want to open up the CodePen browser and make it large enough to really read the `grid-template-areas` layout line by line. But this tool gives us a completely different way to position items. 
+Wow! You might want to open up the CodePen browser and make it large enough to really read the `grid-template-areas` layout line by line. But this tool gives us a completely different way to position items.
 
 We can even use `.` to indicate empty cells. Say our apartment might be getting a water heater and washer/dryer. We might not be sure of the exact layout but we can visualize some space easily by removing more room in the bathroom and kitchen:
 
@@ -138,14 +138,14 @@ We can even use `.` to indicate empty cells. Say our apartment might be getting 
 
 So now you know two very different ways of using `grid-area` on a grid item. You might even see the term "grid area" refer to a group of cells. For example, all the grid cells of the living room together is a grid area. The apartment analogy should help. A grid item can take up multiple cells forming an area of the grid much like a room with four walls in an apartment.
 
-### Wrapping Up
+### Wrapping up
 
 As you go through the assignments you will come across more terminology like `span` and `auto` when positioning grid items across tracks. There are also properties to justify and align grid items similar to Flexbox. The best way to learn all this terminology and how to position items is with lots of practice!
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 - Read MDN's [Line-based Placement with CSS Grid.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Line-based_Placement_with_CSS_Grid)
-- Review [Part 4 on Grid Properties](https://css-tricks.com/snippets/css/complete-guide-grid/#grid-properties) from CSS-Tricks. 
+- Review [Part 4 on Grid Properties](https://css-tricks.com/snippets/css/complete-guide-grid/#grid-properties) from CSS-Tricks.
 </div>
 
 ### Practice
@@ -156,7 +156,7 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 
 1. grid-layout-1
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -166,10 +166,10 @@ This section contains questions for you to check your understanding of this less
 - [Which property can we use to combine all the start and end values for a grid item?](#grid-area)
 - [Which grid container property can map out a visual structure of grid items?](#grid-area)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 - Play through levels 1 - 17 of [CSS Grid Garden](https://cssgridgarden.com/) to practice positioning items. Note the rest of the levels go beyond the scope of this lesson.
-- If you want to know more about using `grid-template-areas` check out this [Smashing Magazine article from Rachel Andrew.](https://www.smashingmagazine.com/understanding-css-grid-template-areas) 
+- If you want to know more about using `grid-template-areas` check out this [Smashing Magazine article from Rachel Andrew.](https://www.smashingmagazine.com/understanding-css-grid-template-areas)
 - To learn more about alignment and centering items read through these MDN Docs on [Box Alignment in CSS Grid Layout.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout)

@@ -5,7 +5,7 @@ This isn't the last course in the curriculum and you've got quite a way to go be
 
 At this point, you've got the Rails building blocks but the learning is never finished.  Your first six months on the job as a Rails dev will involve learning at least as much information as you just did.  The point of this course has been to get you to a place where you can start thinking about actually getting that first job.  
 
-### Next Steps
+### Next steps
 
 This final lesson isn't designed to explicitly teach new material, just point you in the right direction if you'd like to dig a bit deeper before moving on.  Or maybe you'll bookmark it and come back when you want to see where to head next in your Rails journey.  
 
@@ -17,7 +17,7 @@ A good first step is to reread the [Rails Guides](http://guides.rubyonrails.org/
 
 If you start working on more public-facing applications, security will become more important.  Check out the [Rails Guide on Security](http://guides.rubyonrails.org/security.html) for more information.
 
-#### Rails Tasks
+#### Rails tasks
 
 Rails tasks are a special way of running scripts that can use your application.  You're already familiar with some like `$ rails db:migrate`, but you can also create your own.  This website uses a Rails task to populate the curriculum from its GitHub repo.  Check out the [Rails Guide on Command Line and bin/rails](http://guides.rubyonrails.org/command_line.html) for more information.
 
@@ -33,7 +33,7 @@ Here are a few books that will take you a bit deeper as well:
 * [Agile Web Development with Rails 6](https://pragprog.com/titles/rails6/agile-web-development-with-rails-6/) is sort of an in-depth guide combined with a tutorial that follows Agile practices along the way.
 * [Rails Antipatterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814) is a good best-practices guide.
 
-### Other Resources
+### Other resources
 
 * [RailsCasts by Ryan Bates](http://railscasts.com/) are incredibly valuable.  Great ways to actually see the implementation of various gems or practices.
 * [GoRails](https://gorails.com/) alternative to RailsCasts.
@@ -52,7 +52,7 @@ I want to emphasize again that the learning never really stops but also that you
 
 So there's a lot left to go but it gets better and better.  Stick with it!
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [How I Learned Ruby on Rails](https://medium.com/how-i-learned-ruby-rails/e08c94e2a51e) by Richardson Dackam

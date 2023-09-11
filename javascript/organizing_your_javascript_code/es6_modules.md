@@ -4,7 +4,7 @@ Separate from the __module pattern__ that we discussed in an earlier lesson, "mo
 
 Don't be fooled! We're going to cover much more than just the new module syntax in this lesson! Before we can really _use_ these modules, we're going to have to learn about __npm__ and __webpack__, which are both topics that will be _very_ useful to you even beyond this lesson. In the end, the modules themselves are simple to implement, so we're going to take this chance to learn about a few other things.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -20,7 +20,7 @@ This section contains a general overview of topics that you will learn in this l
 - Explain one of the main benefits of writing code in modules.
 - Explain "named" exports and "default" exports.
 
-### The History of JavaScript
+### The history of JavaScript
 
 Why do we even need or want this stuff? What do you gain from all of this added complexity? These are good questions... with good answers.
 
@@ -43,9 +43,17 @@ Read through the npm links below but don't worry about running any of the comman
 
 At some point, you will probably run into [Yarn](https://yarnpkg.com/en/) - a replacement for the default `npm`. For the most part, it does the same things, though it _does_ have a few more features. Recent versions of `npm` have incorporated some of the best features of Yarn, so using it won't offer you any real advantages at this point in your career. It _is_ a fine package manager, however, and may be worth your consideration in the future.
 
-### Webpack
+### Webpack and bundlers
 
-Webpack is simply a tool for bundling modules. There is a lot of talk across the net about how difficult and complex it is to set up and use, but at the moment our needs are few and the setup is simple enough. In fact, you can see an example of getting it up and running on the front page of [their website](https://webpack.js.org/).
+So far, your projects have had relatively simple file structures. As project complexity grows, so too will the benefits of well-organized code. A project consisting of a single, long file with lots of code can be made easier to navigate and maintain by being broken down into multiple smaller files (modules). Further benefits of writing code in modules will come below when we introduce ES6 modules.
+
+But there's a problem! The browser would need to make a separate HTTP request for each file. The more files you have, the more costly this becomes, particularly on slower networks and would only increase if you also imported third-party libraries into your app.
+
+What if we had a way to write multiple files and/or import multiple third-party libraries but eventually combine them all into fewer files at the end so the browser did not have to make so many requests?
+
+Enter bundlers. Give a bundler a starting file (an entry point) and it will build a dependency graph of the modules and dependencies starting from that file, then combine them into a single output file. Provide multiple entry points and it will do the same for each separately. You can read more about why we use bundlers and how they work in [this short article](https://snipcart.com/blog/javascript-module-bundler).
+
+Webpack is one such tool for bundling modules. There is a lot of talk across the net about how difficult and complex it is to set up and use, but at the moment our needs are few and the setup is simple enough. In fact, you can see an example of getting it up and running on the front page of [their website](https://webpack.js.org/).
 
 Webpack _is_ a very powerful tool, and with that power comes a decent amount of complexity. Don't let it scare you off! The basic configuration is not difficult and proficiency with webpack looks _amazing_ on resumes.
 
@@ -56,17 +64,15 @@ To get us started, we are going to refer to the official documentation.
 Let's discuss what's going on there. After installing webpack using npm, we set up a simple project that required an external library (lodash - check it out [here](https://lodash.com/) if it's new to you) using a simple `script` tag. The site lists a few reasons why this is probably _not_ ideal and then steps through using webpack to accomplish the same thing.
 
 <span id="webpack-knowledge-check"></span> 
-There are a couple of key concepts to understanding how webpack works - __entry__ and __output__. In this example, we rearranged the files into a `src` and `dist` folder. Technically we could have called those folders anything, but those names are typical. `src` is our _source_ directory. In other words, `src` is where we write all of the code that webpack is going to bundle up for us. When webpack runs, it goes through all of our files looking for any `import` statements and then compiles _all_ of the code we need to run our site into a single file inside of the `dist` folder (short for _distribution_). Our __entry__ file, then is the main application file that links (either directly or indirectly) to all of the other modules in our project. In this example, it is `/src/index.js`. The __output__ file is the compiled version - `dist/main.js`.
+Let us revisit two key words mentioned earlier - __entry__ and __output__. In the above link's example, we rearranged the files into a `src` and `dist` folder. Technically, we could have called those folders anything, but those names are typical. `src` is our _source_ directory. In other words, `src` is where we write all of the code that webpack is going to bundle up for us. When webpack runs, it goes through all of our files starting at any entry points we give it, looks for any `import` statements and then compiles _all_ of the code we need to run our site into a single file per entry point inside of the `dist` folder (short for _distribution_). In this example, we have a single entry point - `/src/index.js`. The __output__ file is the compiled version - `dist/main.js`.
 
 - Browse [this document](https://webpack.js.org/concepts/) for more details. We'll talk plugins and loaders in another lesson.
 
-### ES6 Modules (finally!)
+### ES6 modules (finally!)
 
 Now that we (sorta) understand what webpack is doing it's time to discuss the module syntax. There are only 2 components to it - __import__ and __export__.
 
-- Take a moment to look at the docs for [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
-
-Of course, the import statement is the same thing that you used during the webpack tutorial! These things are simple to use.
+The import statement is the same thing that you used during the webpack tutorial so it should be familiar by now.
 
 ~~~javascript
 // a file called functionOne.js
@@ -130,7 +136,9 @@ document.body.appendChild(component());
 Easy! Now, if you run `npx webpack` in your project directory, your page should show our new function being used.
 
 <span id="exports-knowledge-check"></span> 
-There are 2 different ways to use exports in your code: named exports and default exports. Which option you use depends on what you're exporting. As a general rule if you want to export multiple functions use named exports with this pattern:
+There are two different ways to use exports in your code: named exports and default exports. Which option you use depends on what you're exporting. Take a moment to look at the [MDN documentation about the export declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) and the [MDN documentation about the import declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) which give great examples for the different syntax on import and export.
+
+Here is an example with named exports, which you will most often use when you have multiple values to export in a module:
 
 ~~~javascript
 // a file called myModule.js
@@ -152,10 +160,7 @@ import {functionOne, functionTwo} from './myModule';
 
 Using this pattern gives you the freedom to only import the functions you need in the various files of your program. So it's perfectly fine to only import `functionOne` if that's the only one you need.
 
-The various import/export methods are best explained in the docs that we linked earlier - [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
-Additionally, you can checkout this [video on JavaScript ES6 Modules](https://youtu.be/cRHQNNcYf6s) to understand import and export.
-
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -170,3 +175,9 @@ This section contains questions for you to check your understanding of this less
 - [Describe how to write an npm automation script.](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
 - [Explain one of the main benefits of writing code in modules.](#module-knowledge-check)
 - [Explain "named exports" and "default exports".](#exports-knowledge-check)
+
+### Additional resources
+
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+
+- [Watch this video about ES6 Modules by Web Dev Simplified](https://youtu.be/cRHQNNcYf6s) if you find video lessons easier to absorb. It covers the same topics as discussed in this lesson.

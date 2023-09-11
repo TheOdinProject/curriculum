@@ -8,7 +8,7 @@ We can only support the operating systems indicated above. Our instructions have
 
 </div>
 
-### 1: OS Installation
+### 1: OS installation
 
 #### IMPORTANT
 
@@ -38,7 +38,7 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 There are thousands of distributions of Linux out there, but Xubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 22.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/22.04/release/). There are a few files listed here, download the one ending in `.iso`. Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. If you find the download speed slow, consider [using a different mirror](https://xubuntu.org/release/22-04/#show-all) as the one linked before is a US one. If you reach the download page and are unsure about what version to choose, it is recommended that you pick the latest Long-Term Support (LTS) version (22.04 at the time of writing). You may be tempted to choose a more recent non-LTS release, but LTS releases have the advantage of guaranteed support for up to 5 years, making them more secure, stable and hence reliable.  
 
-### Step 2: Install VirtualBox and Set Up Xubuntu
+### Step 2: Install VirtualBox and set up Xubuntu
 
 #### Step 2.1: Install VirtualBox
 
@@ -67,13 +67,13 @@ Click on the **New** button to create a virtual operating system. Give it a name
 
 Continue by pressing **Next** and follow the next steps:
 
-#### Step 2.2.1: Unattended Guest OS Install Setup
+#### Step 2.2.1: Unattended guest OS install setup
 
 You should see a window like this one now:
 
    ![No need to worry about the Product Key.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/05_unattended_install.png)
 
-You want to tick the **Guest Additions** and **Install in Background** options and also change your **Username** and **Password** fields to your liking. If you forget to change the default password, it will be `changeme`. Leave the **Guest Additions ISO**, **Hostname** and **Domain Name** as they are. Continue by pressing **Next**.
+You want to tick the **Guest Additions** and **Install in Background** options and also change your **Username** and **Password** fields to your liking. Note that your username must be all lower-case and no more than 32 characters. If you forget to change the default password, it will be `changeme`. Leave the **Guest Additions ISO**, **Hostname** and **Domain Name** as they are. Continue by pressing **Next**.
 
 
 #### Step 2.2.2: Hardware
@@ -88,14 +88,14 @@ _(__note:__ Difficulty converting your **G**iga**B**ytes into **M**ega**B**ytes?
 
 As for **Processors** you want this to be at 2 and no more. Leave **Enable EFI (special OSes only)** as it is - that is **unchecked** - and click **Next** to continue.
 
-#### Step 2.2.3: Virtual Hard Disk
+#### Step 2.2.3: Virtual hard disk
 
    ![Don't Pre-allocate Full Size.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/07_virtual_hard_disk.png)
 
 Now, you want to leave all the settings as they are besides the **Disk Size**, we recommend giving the VM **at least 30GB** of space. Reminder that this disk will be created in the folder that you've specified on the very first step of the VM creation process but nonetheless, the disk can be moved and resized in the future if needed.
 
 
-#### Step 2.2.4: Begin the Unattended Installation
+#### Step 2.2.4: Begin the unattended installation
 
 Click **Next** to be taken to a **Summary** page, on which you can simply click **Finish** to begin the process of unattended installation. The neat thing about it? It installs the OS and GuestAdditions on its own, without your input! Just let it do its own thing, you will know it is finished when you will see a login screen like this one in the **Preview** section:
 
@@ -112,23 +112,23 @@ It means you have to [enable virtualization in your computer’s BIOS/UEFI setti
    ![You can already make your VM full screen or just maximize the window.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/10_login_screen.png)
 
 
-### Step 3: Setting Correct sudo Permissions
+### Step 3: Setting correct sudo permissions
 
 Due to how the unattended installation is configured by VirtualBox, your account doesn't have proper `sudo` permissions. Think of them as the equivalent to `Run as administrator` on your Windows machine - you can imagine why it would be important to have them in order.
 
-#### Step 3.1: Navigate to Users and Group
+#### Step 3.1: Navigate to users and group
 
 First, click on the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> in top left of your window, afterwards type in `Users` and you should see `Users and Groups` show up. Click on it.
 
    ![It should be the top option you see. It is possible that due to localization it'll be called differently - try using the term in your language then.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/11_users_and_groups.png)
 
-#### Step 3.2: Manage Groups
+#### Step 3.2: Manage groups
 
 In the window that just came up you want to click on **Manage Groups**, click somewhere on the list and type `sudo` on your keyboard. That should bring you to the `sudo` entry like in the picture:
 
    ![You will find the search functionality like this in many corners of Xubuntu.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/12_sudo_group.png)
 
-#### Step 3.2: Add Yourself to sudo
+#### Step 3.2: Add yourself to sudo
 
 With `sudo` selected, click **Properties** and in the window that shows up tick your user's name like this:
 
@@ -136,7 +136,7 @@ With `sudo` selected, click **Properties** and in the window that shows up tick 
 
 And then click **OK**. You will be greeted with a password prompt - it's the same one you logged in with.
 
-#### Step 3.3: Reboot Your VM
+#### Step 3.3: Reboot your VM
 
 Now that this is all done, you can close those windows and reboot your VM. You can open a `Terminal` window by doing <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> and type in `reboot` and then press <kbd>Enter</kbd> to execute the command. Alternatively, you can click on the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> , then click on the power icon in bottom right and pick **Restart**.
 
@@ -144,7 +144,7 @@ Now that this is all done, you can close those windows and reboot your VM. You c
 
    ![Not the most exciting of menus, but take note of the Shut Down option.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/15_restart.png)
 
-#### Step 3.4: Test Your Newly Gained sudo Privileges
+#### Step 3.4: Test your newly gained sudo privileges
 
 Now that you have access to `sudo`, we can use this to update our Xubuntu through the `Terminal`. Open the `Terminal` and use these commands, one after another:
 
@@ -157,7 +157,7 @@ You will be asked for your password after using the first one - type it in and u
 
 After `sudo apt upgrade` runs for a while you will be asked whether you want to install things - do so to update your machine. If you have any issues, do not hesitate to come over to our [Discord server](https://discord.gg/V75WSQG) and ask for help in the `#virtualbox-help` channel.
 
-### Step 4: Understand Your New VM
+### Step 4: Understand your new VM
 
 Here are some tips to help you get started in a virtual environment:
 
@@ -173,7 +173,7 @@ Here are some tips to help you get started in a virtual environment:
 -   If you added additional monitors in the **Display** tab of your VM settings, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. **Make sure you enable your Virtual Screens in windowed mode before going fullscreen, otherwise they won't work.** Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
 
 
-#### Frequent Issues/Questions:
+#### Frequent issues/questions:
 
 -   If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
 -   Running out of space? Look at [these instructions on our Discord](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
@@ -186,19 +186,19 @@ Here are some tips to help you get started in a virtual environment:
   -   If your performance is still lacking, go for a dual boot as this will make sure you're using all of your specs for one OS only, thus improving your experience significantly.
 -   If your scroll wheel behaves oddly in Google Chrome and you have gone through VM performance tips to make sure your VM is working as intended, look into `imwheel`: [see these AskUbuntu instructions for more information](https://askubuntu.com/a/621140). If you have VSCode installed, use that instead of `gedit`, otherwise install it with `sudo apt install gedit` - if you install it with `snap`, it won't let you save the file. To make sure `imwheel` works every startup, you need to click the whisker <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> , type `Session` and click on `Session and Startup` that shows up, go to `Application Autostart`, click `Add` and put it `imwheel` for `Name` and `imwheel -b "4 5` for `Command`. Click `OK` and you should be all set.
 
-### Step 5: Safely Shutting Down Your VM
+### Step 5: Safely shutting down your VM
 
 You don't pull the plug on your everyday use computer, right? Why would you do the same to your virtual computer? When you click the X button and just close out your VM, you might as well say goodbye to your files. In this section, you'll understand three ways you can shut off your VM.
 
-#### Option 1 - Shutting Down from Inside the VM with UI
+#### Option 1 - Shutting down from inside the VM with UI
 
 Clicking on the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> and clicking the power icon will give you several options on how to modify your session, including **Shutting Down**. Yep, that's the same place you might've used to **Restart** before!
 
-#### Option 2 - Shutting Down from Inside the VM with the Terminal
+#### Option 2 - Shutting down from inside the VM with the terminal
 
 Simply enough, typing `poweroff` will do in this case. Your system will immediately shutdown.
 
-#### Option 3 - Shutting Down from Outside the VM
+#### Option 3 - Shutting down from outside the VM
 
 The last way to accomplish this goal of safely shutting down is by using the VM interface. Clicking on the File tab and hitting the close button (which also has a Power Icon) will bring up a popup titled **Close Virtual Machine**. This popup asks if you want to **Save the machine state**, **Send the shutdown signal**, or **Power off the machine**.
 
@@ -214,7 +214,7 @@ To be safe, click the **Send the shutdown signal** radio and hit OK. This will s
 <summary class="dropDown-header">Ubuntu/Windows Dual-Boot
 </summary>
 
-### Read This Entire Section Before Starting
+### Read this entire section before starting
 
 Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. Before you continue, be sure to back up any important data and to have a way to ask for help. If you get lost, scared, or stuck, we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi"!
 
@@ -222,7 +222,7 @@ Dual-booting provides two operating systems on your computer that you can switch
 
 First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/22.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/22-04/). Be sure to download the 64-bit version of [Ubuntu](https://releases.ubuntu.com/22.04/) or [Xubuntu](https://xubuntu.org/release/22-04/). If you reach the download page and are unsure about what version to choose, it is recommended that you pick the latest Long-Term Support (LTS) version (22.04 at the time of writing). You may be tempted to choose a more recent non-LTS release, but LTS releases have the advantage of guaranteed support for up to 5 years, making them more secure, stable and hence reliable.  
 
-### Step 2: Create a Bootable Flash Drive
+### Step 2: Create a bootable flash drive
 
 Next, follow [this guide](https://itsfoss.com/create-live-usb-of-ubuntu-in-windows/) to create a bootable flash drive so that you can install Ubuntu on your hard drive. If you don't have a flash drive, you can also use a CD or DVD.
 
@@ -230,7 +230,7 @@ Note: You can use this method to try out [different flavors of Ubuntu](https://w
 
 ### Step 3: Install Ubuntu
 
-#### Step 3.1: Boot from the Flash Drive
+#### Step 3.1: Boot from the flash drive
 
 First, you need to boot Ubuntu from your flash drive. The exact steps may vary, but in general, you will need to do the following:
 
@@ -269,7 +269,7 @@ Once you have successfully met both of these requirements, you should be able to
 
 </details>
 
-### 2: Google Chrome Installation
+### 2: Google Chrome installation
 
 #### Why Google Chrome?
 
@@ -302,7 +302,7 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
    _(__note__: You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
 
-#### Step 3: Delete the Installer File
+#### Step 3: Delete the installer file
 
 ~~~bash
 rm google-chrome-stable_current_amd64.deb
@@ -337,7 +337,7 @@ _(__note__: Chrome is going to use this terminal to output various messages and 
    -   Double click the file **googlechrome.dmg**
    -   Drag the Google Chrome icon to the **Applications** folder icon
 
-#### Step 3: Delete the Installer File
+#### Step 3: Delete the installer file
 
    -   Open **Finder**
    -   Click the **arrow** next to Google Chrome in the sidebar
@@ -351,7 +351,7 @@ _(__note__: Chrome is going to use this terminal to output various messages and 
 
 </details>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

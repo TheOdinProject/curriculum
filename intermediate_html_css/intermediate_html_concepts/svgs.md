@@ -4,7 +4,7 @@ SVGs are a very common image format on the web. They can be a little confusing a
 
 In this lesson, we will learn exactly what SVGs are, what they're used for, and how you can embed them in your websites.
 
-### Learning Outcomes
+### Learning outcomes
 
 -   What SVGs, Vector Graphics, and XML are
 -   How to create simple SVGs and add them to your websites
@@ -82,7 +82,7 @@ Some of the drawbacks of inlining SVG code can be avoided once you've learned a 
 
 For now, just do whichever works best for your use-case. Linking is generally cleaner and simpler, so prefer that unless you need to tweak the SVG code alongside your HTML.
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -90,7 +90,7 @@ This section contains questions for you to check your understanding of this less
 -   [What are some situations where you _wouldn't_ want to use SVG?](#drawbacks)
 -   [What are the benefits of "inlining" your SVGs? What are the drawbacks?](#embedding-svgs)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

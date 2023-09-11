@@ -4,7 +4,7 @@ Email is under-appreciated in its complexity on many levels. You certainly won't
 
 The actual production of the email is what we'll cover here... i.e. how do you make that special "thanks for signing up, userX" email.  Creating and sending email is actually conceptually similar to rendering views and shipping them to the web browser, at least from your point of view as a Rails dev.  In this lesson we'll cover that process and you'll get a chance to send your own emails in the projects.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -14,7 +14,7 @@ This section contains a general overview of topics that you will learn in this l
 - What an email provider is used for.
 - What the `letter_opener` gem is used for.
 
-### Brief Overview
+### Brief overview
 
 To send email, Rails uses the `ActionMailer` gem (one of the 7 core gems that make it up).  A mailer acts similar to a model and controller baked into one.  You will create a new mailer just like you would with a new controller (`$ rails generate mailer SomeName`).  You'll then set up methods for each email that you might want it to send (e.g. welcome email, followup email, thanks for purchasing email...).  Sounds a lot like controller actions, eh?
 
@@ -32,7 +32,7 @@ As long as your view files (the HTML and text) are named the same as your mailer
 
 Mailers allow you to use callbacks just like a normal controller, for instance the `after_action` callback.  They will run after the email is *generated*, not after it is *sent*, so you'll be able to modify parts of the email if you need to.  You get access to the instance variables of the mail instance, so you can use the `@user` variable as a part of your logic.
 
-### Email Providers
+### Email providers
 
 In the reading you'll see how to send mail using your Gmail account, but if you're building a real application you'll obviously want something a bit more robust. There are several leading players in the space of sending your email for you. Their whole job is to handle getting your mail delivered and opened so you can focus on building your application.
 
@@ -42,13 +42,13 @@ Pricing for this, as most things, is free up until a certain usage tier. While y
 
 You'll get a chance to play with mailers in the projects.
 
-### Letter Opener
+### Letter opener
 
 One key thing to note is that you don't want to fire off a bunch of emails when you're testing your app in the development environment.  That's not just bad practice, it can make your users pretty unhappy and get you put on SPAM lists.  No bueno.  But you do want to make sure the email function is working properly.  Luckily, there's a simple solution which is quite useful.
 
 The [Letter Opener gem (see docs)](https://github.com/ryanb/letter_opener), put in your `development` group of the Gemfile, will take your emails and display them in the web browser for you whenever they would otherwise be sent.  You just switch a config setting in your `config/environments/development.rb` file and you're good to go.  Sweet.
 
-### Email Wisdom
+### Email wisdom
 
 * Email is SLOW! It can take 1-2 seconds per email to send, so don't make your main application do it when you're serving a whole bunch of them because then anyone trying to access it will be shut out.
 * Make sure you use full URLs in any links in your mailer (so `_url` not `_path` helper methods), since the user will be opening the email and clicking the link at an external source.  In your `config/environments/production.rb` file you'll want to make sure to specify your website's host name using something like `config.action_mailer.default_url_options = { :host => 'yourapp.com' }`.  If it's not set, you may get an error message about your host or your links may look funny.
@@ -69,12 +69,12 @@ The [Letter Opener gem (see docs)](https://github.com/ryanb/letter_opener), put 
 
 Sending email is just a slightly different way of using the same patterns you've already been using for controllers and views, so it should be pretty straightforward to pick up.  You'll have to navigate the usual batch of errors when trying out new things (often related to the configuration or naming your files properly), but it'll come to you quickly.
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [How to Create, Preview, and Send Email From Your Rails App](https://www.youtube.com/watch?v=9eFXEzOPRNs)
 
-### Knowledge Check
+### Knowledge check
 
 * <a class='knowledge-check-link' href='#brief-overview'>How do you create a new mailer from the command line?</a>
 * <a class='knowledge-check-link' href='#brief-overview'>Where do you store the actual email in your application?</a>

@@ -52,7 +52,7 @@ const server = {
 };
 ~~~
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -62,10 +62,6 @@ This section contains a general overview of topics that you will learn in this l
  - Explain what an `async` function returns
  - Explain what happens when an error is thrown inside an `async` function
  - Explain how you can handle errors inside an `async` function
-
-For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
-
-<iframe src="https://scrimba.com/scrim/crd4eMc6?embed=odin,mini-header,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
 ### The async keyword
 
@@ -101,7 +97,7 @@ server.getPeople().then(async people => {
 
 `await` is pretty simple: it tells JavaScript to wait for an asynchronous action to finish before continuing the function. It's like a 'pause until done' keyword. The `await` keyword is used to get a value from a function where you would normally use `.then()`. Instead of calling `.then()` after the asynchronous function, you would simply assign a variable to the result using `await`. Then you can use the result in your code as you would in your synchronous code.
 
-### Error Handling
+### Error handling
 
 Handling errors in `async` functions is very easy. Promises have the `.catch()` method for handling rejected promises, and since async functions just return a promise, you can simply call the function, and append a `.catch()` method to the end.
 
@@ -217,7 +213,7 @@ This code will behave exactly like the code from the last lesson; it just looks 
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -228,9 +224,10 @@ This section contains questions for you to check your understanding of this less
  - [What happens when an error is thrown inside an `async` function?](https://javascript.info/async-await#error-handling)
  - [How can you handle errors inside an `async` function?](https://javascript.info/async-await#error-handling)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 1. This [Change promises to async/await video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await.
 2. This [Promises, Async and Await video](https://www.youtube.com/watch?v=vn3tm0quoqE) gives a comprehensive view of Promises, async, and await.
+3. For a more interactive explanation and example, try a [Scrim on async and await](https://scrimba.com/scrim/crd4eMc6?embed=odin,mini-header,no-next-up).

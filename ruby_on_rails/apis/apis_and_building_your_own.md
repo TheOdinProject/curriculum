@@ -10,7 +10,7 @@ When you build applications that have more dynamic front-end functionality (as c
 
 In this lesson, we'll cover how to build your own API.  In the following lesson, we'll cover how to interface with the APIs of other applications.  The lessons are meant to give you a good onramp to learning this stuff but couldn't possibly cover all the cases.  Much of working with APIs is learning to read their documentation and figure out what they want.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -19,7 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 - Creating custom error messages for responding to faulty requests.
 - What Service Oriented Architecture is.
 
-### API Basics
+### API basics
 
 Your Rails application is basically already an API, though you may not think of it that way.  The web browser your user is running is also a program, so it is effectively making an API request to your Rails app whenever you request a new page.  It just so happens that rendering HTML payloads is so common that we just bake that into our server-side programs as the default response type and consider everything else special.  
 
@@ -33,7 +33,7 @@ The same principle applies if you're talking to external APIs... say you want to
 
 You might want to make your Rails application entirely into an API backend for a front end webpage or you might just want to learn how to send out JSON when your front end requests it.  This section won't cover how to build a full featured RESTful API with authentication features... it is a gentle introduction to treating your application as an API.
 
-#### The Basics
+#### The basics
 
 If you want your Rails app to return JSON instead of HTML, you need to tell your controller to do so.  The cool thing is that the same controller action can return different things depending on whether your user is making a normal request from a browser or an API call from the command line. <span id="http-request-format">It determines which type of request is being made based on the extension of the file asked for, e.g. `example.xml` or `example.json`.</span>  
 
@@ -79,7 +79,7 @@ The `#render` function is smart enough to know how to render a wide range of for
 
 And just like that, you've got yourself an API.  Of course, things can get a bit more complicated if you want to do unusual things, but that's the basics.
 
-#### Specifying Attributes to Return
+#### Specifying attributes to return
 
 Let's say you want to make sure you don't return the user's email address with the User object.  In this case, you'll want to edit which User attributes get returned by modifying what the `#to_json` method does.  
 
@@ -123,7 +123,7 @@ Note that you don't need to call `#to_json` yourself when using `#render`... it 
 
 See the [as_json documentation](https://api.rubyonrails.org/classes/ActiveModel/Serializers/JSON.html#method-i-as_json) for details and more, like how to include associations.
 
-#### Rendering Nothing or Errors
+#### Rendering nothing or errors
 
 Sometimes you just want to send out an HTTP error code without any response body. [Rails guides](https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses) once again comes in really handy with an elegant solution for this problem. 
 Here's a simple example (again we are just rendering the error in all cases):
@@ -140,19 +140,19 @@ Here's a simple example (again we are just rendering the error in all cases):
 ~~~
 
 
-#### Creating Dynamic Error Pages
+#### Creating dynamic error pages
 
 You can create your own error pages. See [this post](https://web-crunch.com/posts/custom-error-page-ruby-on-rails).
 
 Sometimes Heroku can require additional steps to properly display your error pages.  See [their error page docs here](https://devcenter.heroku.com/articles/error-pages).  You might need to delete the static pages in the `app/public` directory first.
 
-#### External Facing Security
+#### External facing security
 
 Let's say you want to only allow an API call if your user is logged in.  Your existing controller authentication will work to cover this as well -- just make sure you've got the right `#before_action` set up (e.g. `before_action :require_login`).  This might be the case if both logged in and non-logged-in users will be viewing the page but each should see different data.  You don't want your not-logged-in-users to be able to make API requests for sensitive data just like you wouldn't want them to be able to visit an unauthorized HTML page.
 
 <span id="api-tokens">If you want to handle requests from an application that isn't a web browser (e.g. the command line), you can't rely on browser cookies to authenticate you.  That's why most APIs issue custom tokens to each authorized user which must be sent along with the request as part of the authentication process.</span>  We'll talk a bit more about tokens in the next lesson.
 
-#### Next Steps
+#### Next steps
 
 Right now you've got the ability to use your Rails app to serve up not just HTML but also whatever formats you want.  If you'd like to take this further and allow other developers to build on your platform (so they'll be making programmatic requests instead of logging in as users), you'll need to make your API system far more robust.  We won't cover it all here, but check out the following:
 
@@ -201,7 +201,7 @@ In the next lesson, we'll cover working with other people's APIs, which can add 
   2. They are not required viewing (because they get a bit deeper than we're scoped for), but if you're interested, go check out the Railscasts in the Additional Resources section at the bottom of this lesson for more API goodness.
 </div>
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="#http-request-format">How does Rails know which type of file you are expecting back when you make an HTTP request?</a>
@@ -213,7 +213,7 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#api-tokens">Why can't you use session-based controller authentication methods if you want people to access your API programmatically?</a>
 * <a class="knowledge-check-link" href="#service-oriented-architecture-soa">What is "Service Oriented Architecture?</a>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * Watch [this free Railscast on making your App into an API](http://railscasts.com/episodes/348-the-rails-api-gem)

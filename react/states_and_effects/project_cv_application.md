@@ -18,7 +18,7 @@ Congratulations, you have made it to the very first React project. In this proje
 
 </div>
 
-### Deploying a react app
+### Deploying a React app
 
 While we have been using GitHub Pages to deploy our **static webpages** till now, and we can definitely continue to do so with hacky ways, it's far easier to let a PaaS (Platform as a Service) do the same for us! There are a lot of options to host such sites, and the [Vite hosting docs](https://vitejs.dev/guide/static-deploy.html) go over the most popular ones among them.
 
@@ -58,7 +58,7 @@ Similar to Netlify, Vercel also offers a few ways to deploy, but we will be impo
 
 ---
 
-### Cloudflare Pages
+### Cloudflare pages
 
 1.  Yes, push your React application to GitHub.
 2.  Create a new Cloudflare account and log into it.

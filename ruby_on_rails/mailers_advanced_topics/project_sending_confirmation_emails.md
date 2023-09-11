@@ -1,4 +1,4 @@
-### Project: Sending Confirmation Emails
+### Project: Sending confirmation emails
 
 Setting up a mailer is a relatively straightforward task. It's very similar to building a new controller and views.  Once you've made a couple, it should come naturally.
 
@@ -24,7 +24,7 @@ You'll be dusting off your [Flight Booker project](/lessons/ruby-on-rails-flight
 (One heads up: in order to use an email provider you will probably have to give your credit card information, they do this to deter spammers. You don't have to pay for the service, but you do have to give your information.)
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [`letter_opener` docs](https://github.com/ryanb/letter_opener)

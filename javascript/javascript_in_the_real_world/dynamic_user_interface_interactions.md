@@ -8,13 +8,13 @@ We aren't presenting any new content in this lesson - just giving you the chance
 
 > Animations are typically handled by CSS which is a little out of the scope of this lesson, but interactive stuff like this is no fun without a little motion! If you want to take a break and learn more about making stuff move [go watch this video](https://www.youtube.com/watch?v=8kK-cA99SA0).
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 - General techniques that are used by JavaScript programmers everyday.
 
-### Drop-down Menus
+### Drop-down menus
 
 You know what we're talking about here. Picture a nav-bar or a button and when you click it the menu slides down nicely. As mentioned previously, you already know everything you need to create this element. Here are some things to keep in mind:
 
@@ -45,7 +45,7 @@ Don't spend too much time worrying about getting your images to display at the c
 6. Add a timeout which advances the slides every 5 seconds.
 7. Play around with your slideshow!
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

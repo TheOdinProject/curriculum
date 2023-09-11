@@ -2,7 +2,7 @@
 
 We're going to make a simple implementation of grade-school classic "rock paper scissors". If you don't know what that is check the [Wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or [this](https://www.wikihow.com/Play-Rock,-Paper,-Scissors) detailed step-by-step. For the moment we're just going to play the game from the browser console, but __we will revisit this project in a later lesson and add a Graphical User Interface with buttons and text,__ so don't forget to keep the code on GitHub! You might notice some 'Live Preview' links in the student solutions that have a GUI - this is coming in a later lesson. When you get there don't forget to come back and add your link!
 
-### Quick Exercises Before Starting
+### Quick exercises before starting
 
 1.  Identify three ways to include JavaScript in a page.
 2.  Test it out! Write `console.log("Hello World");` in JavaScript and check to see if it displays in the browser's console.
@@ -39,4 +39,11 @@ Don't forget to commit early & often! You can [reference the Commit Message less
     *   Feel free to re-work your previous functions if you need to. Specifically, you might want to change the return value to something more useful.
     *   Feel free to create more "helper" functions if you think it would be useful.
 
+</div>
+<div class="lesson-note" markdown="1">
+When making interactive projects, like this one, you might be tempted to add more features, improve interactivity, user experience, design and styling of your website, and so on.
+
+We recommend not doing that, and saving this effort for your portfolio projects.
+
+For more information on learning mindset and portfolio pieces read [Part 5](https://dev.to/theodinproject/learning-code-f56) and [Part 7](https://dev.to/theodinproject/strategically-building-your-portfolio-1km4) of [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
 </div>

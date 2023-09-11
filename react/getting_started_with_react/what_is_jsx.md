@@ -2,7 +2,7 @@
 
 You're likely somewhat familiar with JSX from previous React lessons, in this lesson we're going to explain _what_ it is, _why_ we use it, and _how_ to use it in your React apps.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -13,11 +13,11 @@ This section contains a general overview of topics that you will learn in this l
 
 JSX is a syntax extension for Javascript that lets you write HTML-like markup inside a Javascript file. It's not required to use JSX when writing React components, but it does make writing them more simple and concise.
 
-Essentially, JSX is syntactic sugar for the React [createElement](https://reactjs.org/docs/react-api.html#createelement) function. This function creates a React element, which is a plain object, so JSX compiles down to plain JavaScript objects.
+Essentially, JSX is syntactic sugar for the React [createElement](https://react.dev/reference/react/createElement) function. This function creates a React element, which is a plain object, so JSX compiles down to plain JavaScript objects.
 
 Here you can see the logged value of a div JSX element with some text:
 
-![JSX element's logged value](./imgs/00.png)
+![JSX element's logged value](https://cdn.statically.io/gh/TheOdinProject/curriculum/1100fab7884b195379664e41b62dfa95588f3a15/react/getting_started_with_react/what_is_jsx/imgs/00.png)
 
 ### Why do we use JSX?
 
@@ -31,7 +31,7 @@ If you were to take some valid HTML and copy it straight into your React compone
 
 1. Return a single root element.
 
-   If you wish to return multiple elements in a component, you can do so by wrapping them in a parent tag. This can be a `<div>`, or, if you don't want the elements to have a container, you could use a [React fragment](https://beta.reactjs.org/apis/react/Fragment), like so: `<>Children</>`
+   If you wish to return multiple elements in a component, you can do so by wrapping them in a parent tag. This can be a `<div>`, or, if you don't want the elements to have a container, you could use a [React fragment](https://react.dev/reference/react/Fragment), like so: `<>Children</>`
 
    Correct:
 
@@ -42,7 +42,7 @@ If you were to take some valid HTML and copy it straight into your React compone
          <h1>Example h1</h1>
          <h2>Example h2</h2>
        </>
-       // Could replace <></>with <div></div>
+       // Could replace <></> with <div></div>
      );
    }
    ~~~
@@ -143,7 +143,7 @@ Now that we've covered the Rules of JSX, we'll go through the conversion of a ch
 <form><input type="text"></form>
 ~~~
 
-If you try to return this from a React component, you would get many errors, so we are going to fix that! We would recommend following along with this in your own React environment.
+If you try to return this from a React component, you would get many errors, so we are going to fix that! 
 
  Make sure to follow along this example in your local environment. Alternatively, you can go to [react.new](https://react.new/) to have a quick React environment up and going in your web browser.
 
@@ -212,23 +212,23 @@ Now that we've applied all of the fixes to the errors that React gave us, this i
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through the React beta docs [Writing markup with JSX page](https://beta.reactjs.org/learn/writing-markup-with-jsx) to review the content we have covered here, and complete the challenge at the end.
+1.  Read through the React docs [Writing markup with JSX page](https://react.dev/learn/writing-markup-with-jsx) to review the content we have covered here, and complete the challenge at the end.
 
-2.  Read through the React beta docs [Javascript in JSX page](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing Javascript logic and referencing dynamic values inside of your markup. Make sure you go through the challenges at the end.
+2.  Read through the React docs [Javascript in JSX page](https://react.dev/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing Javascript logic and referencing dynamic values inside of your markup. Make sure you go through the challenges at the end.
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - <a class="knowledge-check-link" href="#what-is-jsx">What is JSX?</a>
 - <a class="knowledge-check-link" href="#why-do-we-use-jsx">Why do we use JSX?</a>
-- <a class="knowledge-check-link" href="#converting-html-to-jsx">What are the three rules of JSX?</a>
+- <a class="knowledge-check-link" href="#rules-of-jsx">What are the three rules of JSX?</a>
 - <a class="knowledge-check-link" href="https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces#using-curly-braces-a-window-into-the-javascript-world">How do you reference a dynamic value inside of your JSX?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- [JSX in depth](https://reactjs.org/docs/jsx-in-depth.html) is a good piece of documentation to read if you're interested more about the specifics of JSX, and what is going on in the background.
+* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

@@ -2,7 +2,7 @@
 
 You've learned about Models, Views, and Controllers.  That's the nuts and bolts, but we've got plenty of neat stuff to cover which makes Rails much more useful to you.  In this lesson, we'll talk about the Asset Pipeline and a few other topics that don't necessarily fit well in other lessons but are important to cover nonetheless.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 - Organization of stylesheets and images in your app.
 - How to display raw HTML-code in your app.
 
-### The Asset Pipeline
+### The asset pipeline
 
 Assets in your application are additional files that get called by the browser after your initial gob of HTML is received. Assets is used to mean things like CSS stylesheets, JavaScript files, images, videos etc... basically anything that requires an additional request to grab it. It used to be that the Asset Pipeline handled all assets, but it is now better practice to handle JavaScript assets through other JavaScript management tools that come with modern Rails applications. For Rails 7, the standard way to add and manage JavaScript is through import maps, which you will learn about in the next lesson. However, if you ever work on legacy applications that use older versions of Rails, you may well find JavaScript is still handled by the Asset Pipeline.
 
@@ -24,7 +24,7 @@ Rails' solution to these problems is to flatten everything out and mash all your
 
 JavaScript files are the same -- all of them get smooshed together and then uglified before being shipped to the browser as one single file.  It's better to have one slightly larger file than to make several full HTTP requests.
 
-#### Manifest Files
+#### Manifest files
 
 The below section on the JavaScript manifest isn't relevant to Rails 7 applications where import maps are used. That will be covered in the import maps lesson but just be aware you may come across this in older Rails projects so get an idea of how it works.
 
@@ -79,13 +79,13 @@ For example, you can create stylesheets corresponding to each of your Controller
 
 Reading the comments in the stylesheet manifest file above, you can also see that a couple other directories are assumed to be a "local directory" and can be easily referenced as well, like the `lib/assets` and `vendor/assets` files.  Sometimes, if you start using a new gem you manually need to add the new stylesheets and JavaScripts to the manifest files to make sure your application actually includes them in the final output. In a later lesson, you will learn how to use common CSS frameworks like Bootstrap and Tailwind with Rails applications.
 
-#### The Output
+#### The output
 
 Speaking of final output, what is it?  Well, Rails mashes all the specified files together and creates a new one called something like: `application-1fc71ddbb281c144b2ee4af31cf0e308.js`.  That nonsensical string of characters is meant to differentiate between files if you end up making any changes.  If they were just called something like `application.js`, then your browser would cache it and never know to ask you for the latest version because it's always named the same thing.
 
 But wait, how does the browser know to go looking for `application-1fc71ddbb281c144b2ee4af31cf0e308.js`?  That's what the asset tags we talked about in the previous lesson are useful for.  When you write in your application layout `<%= javascript_include_tag "application" %>`, Rails automatically knows which filename to request to get all your JavaScripts properly imported.
 
-#### Taking This Into Account in Your Code: Namespacing
+#### Taking this into account in your code: Namespacing
 
 This sounds great and wonderful and faster for your application, but does it change anything you do?  Oftentimes you can just forget about the manifest files and keep coding along your way.  For your initial applications, you might keep all the styles and JavaScripts in one file anyway, so it's not going to change anything on your end.
 
@@ -121,7 +121,7 @@ The same principle applies to JavaScript, though we won't cover it here because 
 
 So anytime you want to make only a portion of your stylesheets or JavaScript code available to a specific set of views, try namespacing it.
 
-#### Rails in Development
+#### Rails in development
 
 The asset pipeline functions a bit differently in development mode.  If you look at your Rails server output when you're working with a webpage in the local environment, it actually sends out a whole bunch of stylesheets and the like.  This is just to give you the ability to debug easier.
 
@@ -144,13 +144,13 @@ Some necessary and straightforward reading on the Asset Pipeline:
 
 The Asset Pipeline isn't something that you often think about, especially when just building little toy apps, but it becomes important to understand as soon as you want to deploy your application (because you'll need to take it into account, which we'll talk about in that lesson later) or work with anything but the vanilla asset structure.
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Ryan Bates' asset pipeline Railscast](http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciicast)
 * [Schneems on the Asset Pipeline](https://www.youtube.com/watch?v=FYdBpNUVxuI)
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#main-features">How does "asset concatenation" optimize loading of your app?</a>

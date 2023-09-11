@@ -10,7 +10,7 @@ Web developers are in high demand, generally have a good work/life balance, and 
 
 For more details, Wikipedia describes the breadth of the web development profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
 
-### Types of Web Developers
+### Types of web developers
 
 Earlier, we mentioned that web development work could be in the front end, the back end, or the full stack. What exactly do these terms mean?
 
@@ -24,7 +24,7 @@ Back-end developers use programming languages like Java, Python, Ruby, and JavaS
 
 For more detail, Udacity has a great blog post on this topic: [3 Web Dev Careers Decoded: Front-End vs Back-End vs Full Stack](https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
-### Types of Careers
+### Types of careers
 
 Now that you know about the different types of web developers, let's cover what we mentioned earlier about the different types of clients and employers you may work with.
 
@@ -38,17 +38,17 @@ As a consultant for a web consultancy, you would give up some of your freelancin
 
 Finally, large, older companies still need web developers. These companies offer a good work/life balance, pay, and benefits but often move slower than a company that is highly focused on tech.
 
-### Tools of the Trade
+### Tools of the trade
 
 These are some of the basic tools you will use regularly. You may not know what they are now, but you most certainly will going forward.
 
-*   **Computer**
-*   **[Google](https://www.google.com/)**
-*   **Text Editor**
-*   **Command Line Interface (CLI)**
-*   **[Stack Overflow](http://stackoverflow.com/)**
-*   **[Git](https://git-scm.com/)**
-*   **[GitHub](https://github.com/)**
+- **Computer**
+- **[Google](https://www.google.com/)**
+- **Text Editor**
+- **Command Line Interface (CLI)**
+- **[Stack Overflow](http://stackoverflow.com/)**
+- **[Git](https://git-scm.com/)**
+- **[GitHub](https://github.com/)**
 
 ### Motivation
 
@@ -89,13 +89,13 @@ And it might even be life changing, too.
 
 *What are you waiting for?*
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
-*   [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)
-*   [Jared the Nerd: What makes a good web developer?](http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/)
-*   [FreeCodeCamp: Things I Wish Someone Had Told Me When I Was Learning How To Code](https://www.freecodecamp.org/news/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329/)
-*   [TechCrunch: Don't Believe Anyone who Tells you Learning to Code is Easy](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/)
-*   [Code Quizzes: Deliberate Programming Practice](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)
+- [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
+- [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)
+- [Jared the Nerd: What makes a good Developer?](http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/)
+- [FreeCodeCamp: Things I Wish Someone Had Told Me When I Was Learning How To Code](https://www.freecodecamp.org/news/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329/)
+- [TechCrunch: Don't Believe Anyone who Tells you Learning to Code is Easy](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/)
+- [Code Quizzes: Deliberate Programming Practice](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)

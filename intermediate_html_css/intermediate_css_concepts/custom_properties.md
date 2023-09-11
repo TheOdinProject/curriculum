@@ -4,12 +4,12 @@ Custom properties (also known as CSS variables) can be a really useful and power
 
 We can even redefine custom properties under different contexts, which is incredibly useful for creating themes, such as the dark and light themes you see on many websites these days.
 
-### Learning Outcomes
+### Learning outcomes
 
 * You'll learn how to declare a custom property
 * You'll learn how to access a custom property in a rule declaration
 
-### Using Custom Properties
+### Using custom properties
 
 The syntax for declaring and accessing a custom property is really simple and not too different from how we write normal rule declarations:
 
@@ -29,7 +29,7 @@ That's it! First, we declare our custom property with a double hyphen followed b
 
 When we want to access a custom property, we use the `var()` function as the value of a CSS property, and then place our custom property inside of the parenthesis (including the double hyphen at the beginning).
 
-#### Fallback Values
+#### Fallback values
 
 The `var()` function actually accepts two parameters. The first parameter we've already gone over, which is the custom property we want to assign. The second parameter is an optional fallback value. When a fallback value is provided in addition to a custom property, the fallback value will be used if the custom property is invalid or hasn't been declared yet. We can even pass in *another* custom property as a fallback, which can have *its own* fallback value as well!
 
@@ -71,7 +71,7 @@ In the example below, only the element with the `cool-paragraph` class would get
 }
 ~~~
 
-#### The `:root` Selector
+#### The :root selector
 
 While there may be times where you will want to limit the scope of a custom property, you may want to be able to use other custom properties on many, unrelated selectors. One workaround would be declaring the same custom property on a bunch of selectors, but that defeats one of the purposes of using custom properties in the first place (the ease of changing multiple instances of a value at once).
 
@@ -98,7 +98,7 @@ A better solution is declaring those custom properties on the `:root` selector, 
 
 By declaring our custom property on the `:root` selector in the example above, we can access it on *any* other valid selector within our CSS file, since any other selector would be considered a descendant of the `:root` selector.
 
-### Creating Themes with Custom Properties
+### Creating themes with custom properties
 
 Beyond allowing us to access custom properties more globally, the `:root` selector gives us one way to add themes to our pages:
 
@@ -109,9 +109,9 @@ Beyond allowing us to access custom properties more globally, the `:root` select
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-First we added a `class` attribute on our `html` element so that our page has a default theme. Next in our CSS we created two scopes for our custom properties on the `:root` selector, one for when our `html` (or root) element has a class of `dark` and another for when it has a class of `light`. Our other selectors then use the values of any custom properties depending on which class is currently present on our root element.
+First we used JavaScript to add a `class` attribute on our `html` element (We don't have direct access to the `html` element in the HTML tab on codepen, but you should be able to see the class being applied in the browser's inspector) so that our page has a default theme. Next in our CSS we created two scopes for our custom properties on the `:root` selector, one for when our `html` (or root) element has a class of `dark` and another for when it has a class of `light`. Our other selectors then use the values of any custom properties depending on which class is currently present on our root element.
 
-#### Media Queries
+#### Media queries
 
 Giving users the ability to toggle a theme themselves is great, but there's another option for setting a theme that you may have come across on certain sites or applications: using the user's theme setting from their operating system or user agent (like a browser). This can be accomplished with the `prefers-color-scheme` media query, which simply checks whether a user has selected a theme preference on their OS/user agent. As you view the example below, try changing the theme settings on your OS/user agent to see how the example updates in real time!
 
@@ -138,7 +138,8 @@ Using the `prefers-color-scheme` media query can be pretty helpful for users sin
 3. Open the inspector on this page to inspect the styles and see how Odin uses some custom properties.
 </div>
 
-### Knowledge Check
+### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * [How would you declare a custom property with a name of `text-color`?](#using-custom-properties)
@@ -146,7 +147,8 @@ This section contains questions for you to check your understanding of this less
 * [Where would you declare a custom property to have its scope be global and accessible by all other selectors?](#scope)
 * [Where would you declare a custom property so that a user's theme setting from their OS or browser was taken into account?](#creating-themes-with-custom-properties)
 
-### Additional Resources
+### Additional resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 - It looks like this lesson doesn’t have any additional resources yet. Help us expand this section by contributing to our curriculum.

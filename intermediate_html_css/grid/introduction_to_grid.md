@@ -4,14 +4,14 @@ Over the next few lessons we will cover CSS Grid and make page layouts much easi
 
 The following lessons will show you how to create a grid, position grid items and use some advanced properties. Then we will take a deeper look between Flexbox and Grid. Ultimately we are working towards building a dashboard project using Grid.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to:
 
 * Compare the basics between Flexbox and Grid
 * Describe a situation for using Grid over Flexbox
 
-### A Look Back at Flex
+### A look back at flex
 
 In the Foundations course you learned a lot about Flexbox. If you’ve been using Flex here and there along the way, this section will be a quick refresher before we get into Grid. If you’re completely lost on Flex, then it might be helpful to go back through the [Flex lessons](https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox) again to get up to speed.
 
@@ -54,7 +54,7 @@ But setting up a two-dimensional layout of cards would be much simpler using CSS
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### What is Grid?
+### What is grid?
 
 Although Grid is a newer module to CSS, this layout tool has long been in development. Fun fact, CSS co-creator Dr. Bert Bos (no relation to Wes Bos) started working on this layout model in 1996. The idea was inspired by the use of grid-like layouts in other forms of media like newspapers and magazines. After years of thorough demonstrations and development, CSS Grid was finally introduced to all major browsers in 2017.
 
@@ -66,7 +66,7 @@ When reviewing older resources, keep in mind that differences between Flex and G
 
 While some people thought CSS Grid was here to replace Flexbox, you will learn by the end of these lessons that Grid is just another tool for the bag. In fact, not only do each of these modules have their own use cases, but you will also find it helpful to pair Flex and Grid together. But we’ll be covering all of that in the concluding lesson. First you will learn how to actually make a grid!
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -74,7 +74,7 @@ This section contains questions for you to check your understanding of this less
 - [Why was CSS Grid introduced?](#what-is-grid)
 - [Which CSS layout module would you use to easily make equal sized items in a container?](#what-is-grid)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 

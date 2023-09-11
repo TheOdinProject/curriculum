@@ -10,7 +10,7 @@ You've already had a brief introduction to **algorithms** over some of the other
 
 Luckily for you, these complex algorithmic problems have all been solved many times in the past. Understanding _how_ they are solved will give you some great tools to apply to other (similar) problems on your own. Algorithms are really just ways of solving problems systematically. In this brief introduction, we'll focus on a couple of algorithms that you may run into when coding on your own -- breadth-first-search and depth-first-search.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -37,7 +37,7 @@ This section contains a general overview of topics that you will learn in this l
      -  [Depth-first traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4)
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -48,7 +48,7 @@ This section contains questions for you to check your understanding of this less
 - [What abstract data type would you use to defer/store nodes in a breadth-first tree traversal?](https://youtu.be/86g8jAQug04?t=103)
 - [What abstract data type would you use to defer/store nodes in a depth-first tree traversal?](https://youtu.be/gm8DUJJhmY4?t=499)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 

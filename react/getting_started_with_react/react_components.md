@@ -1,8 +1,8 @@
 ### Introduction
 
-In this lesson we'll be going over the basics of React components - what they do, and how to write them. Make sure to use the project you set up in the [Setting Up A React Environment lesson](https://github.com/TheOdinProject/top-meta/issues/221), but try not to copy and paste any code while you're coding along. 
+In this lesson we'll be going over the basics of React components - what they do, and how to write them. Make sure to use the project you set up in the previous lesson, but try not to copy and paste any code while you're coding along. 
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -10,11 +10,11 @@ This section contains a general overview of topics that you will learn in this l
 *   How are components created?
 *   Where do components live?
 
-### What Are Components
+### What are components?
 
 The beauty of React is that it allows you to break a UI (User Interface) down into independent reusable chunks, which we will refer to as components. The following picture should give you an idea of how to do that when building a very basic app. 
 
-![Component Example](./imgs/00.png)
+![Component Example](https://cdn.statically.io/gh/TheOdinProject/curriculum/91485eec76445d86b29d35894e83324e2967f2fb/react/imgs/00.png)
 
 For example, this simple website could be broken into the following components:
 
@@ -25,27 +25,37 @@ For example, this simple website could be broken into the following components:
 
 Think of these reusable chunks as JavaScript functions which can take some kind of input and return a React element.
 
-### How To Create Components
+### How to create components
 
 To get the feel of working with components, we're going to practice creating functional components. What are functional components? Javascript functions! Is it really that simple? Let's have a look.
 
 ~~~jsx
 function Greeting() {
-  return <h1>"I swear by my pretty floral bonnet, I will end you."</h1>;
+  return <h1>&quot;I swear by my pretty floral bonnet, I will end you.&quot;</h1>;
 }
 ~~~
 
-This might look mostly familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file named `Greeting.jsx`, and in that file write your own handmade functional component. Name it whatever you wish, have it return whatever JSX you wish. 
+This might look mostly familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file named `Greeting.jsx`, and in that file write your own handmade functional component. Name it whatever you wish, and have it return whatever JSX you wish. 
 
 Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind, components that aren't capitalized might not run as expected - which is why we capitalized `Greeting()`.
 
-### Where Do Components Live
+<div class="lesson-note">
+  
+<h4>HTML escape code</h4>
 
-So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! Let's import React so the component in this file works as intended. Up next, we'll want to `export` our newly created component to that parent components can use it as a child throughout your project. 
+In the above example, <code>&amp;quot;</code> is an escape code we use to render <code>"</code>. Your linter will greet you with an error if you use regular quotes. You can use <a href="https://www.lambdatest.com/free-online-tools/html-escape">this LambdaTest tool for escaping HTML characters</a> if you run into such errors, or read more about <a href="https://www.w3.org/wiki/Common_HTML_entities_used_for_typography">escape codes on w3.org</a>
+
+</div>
+
+#### What is HTML doing in my JavaScript?
+
+It's JSX. It looks jarring at first, but soon we'll realize how cool it is. We'll learn all about it in the upcoming lessons! 
+
+### Where do components live
+
+So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! For a very long time in React development, it was necessary to `import` React in your JavaScript files that used React components, but since React v17.0 it is no longer required. Let's simply `export` our newly created component so that parent components can use it as a child throughout your project.
 
 ~~~jsx
-import React from 'react'
-
 function Greeting() {
   return <h1>"I swear by my pretty floral bonnet, I will end you."</h1>;
 }
@@ -53,7 +63,7 @@ function Greeting() {
 export default Greeting;
 ~~~
 
-Are we done? Well let's think about this - we're declared our component, and exported it, but does `main.jsx` know about it yet? Nope! Let's fix that. Let's look at `main.jsx`, we can see that `render()` is rendering the `App` component. Let's replace that `App` component with our newly creating greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
+Are we done? Well let's think about this - we've declared our component, and exported it, but does `main.jsx` know about it yet? Nope! Let's fix that. Let's look at `main.jsx`, we can see that `render()` is rendering the `App` component. Let's replace that `App` component with our newly created greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
 
 ~~~jsx
 import React from 'react'
@@ -76,10 +86,10 @@ And just like that, you've successfully imported and used your first custom-made
 <div class="lesson-content__panel" markdown="1">
 
 1.  It's time to create some new components! Use the same project, but play around with it, try displaying something like your favorite food.
-    *   While components normally get exported as defaults, try using some named exports instead of default exports. If unsure of how to do this, consult your best friend - [MDN its export documentation](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export#description)
+    *   While components normally get exported as defaults, try using some named exports instead of default exports. If you're unsure how to do this, consult your best friend: [the MDN documentation about export statements](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export#description)
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -87,7 +97,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="#how-to-create-components">How would you create a functional component?</a>
 *   <a class="knowledge-check-link" href="#where-do-components-live">How do you export and then import a component?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
