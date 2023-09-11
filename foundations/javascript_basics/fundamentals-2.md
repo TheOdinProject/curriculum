@@ -84,6 +84,6 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- Regular expressions, commonly known as regex, are a tool that matches or locates patterns in strings for string validation. Although it shouldn't be your immediate solution this early on, you can still use this resource to understand how websites know that `myemail@com` isn't a valid email address. On top of that, other solutions to filter out strings exist, and regex is considered a slow operation.
-- [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD).
-- [When to avoid regular expressions](https://softwareengineering.stackexchange.com/questions/113237/when-you-should-not-use-regular-expressions).
+- [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions), commonly known as regex, is a tool that matches or locates patterns in strings for string validation. However, be [cautious](https://softwareengineering.stackexchange.com/questions/113237/when-you-should-not-use-regular-expressions) about relying on regex too heavily at this stage. There are other various methods to process strings, and regex can be slower in comparison. Regardless, familiarizing yourself with some of its capabilities can make it a worthwhile addition to your arsenal. 
+  - [The Net Ninja's Regular Expressions Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD).
+  - [Web Dev Simplified's Regular Expressions In 20 Minutes](https://www.youtube.com/watch?v=rhzKDrUiJVk).
