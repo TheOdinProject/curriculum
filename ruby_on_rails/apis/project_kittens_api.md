@@ -8,7 +8,7 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
 
 1.  Head over to the [Flickr API Documentation Page](http://www.flickr.com/services/api/). You can just google `XYZ API docs` to locate these pages, which is usually much faster and easier than trying to find them by navigating the websites themselves.
 1.  Look around at the different methods available. They have a couple of different request formats, but check out the RESTful API format by clicking on the link on the left under "Request Formats" called [REST](http://www.flickr.com/services/api/request.rest.html).
-1.  This shows you the format that a typical API call would take -- you will make your request to the endpoint at `http://api.flickr.com/services/rest/` and include any required data in the GET query string or the POST body.
+1.  This shows you the format that a typical API call would take -- you will make your request to the endpoint at `https://www.flickr.com/services/rest/` and include any required data in the GET query string or the POST body.
 1.  Look around at the various methods. How would you upload a photo? How about getting your contacts list? Lots of these methods will require you to authenticate your application or user account first.
 1.  Check out the [Search method docs](http://www.flickr.com/services/api/flickr.photos.search.html). This request doesn't require you to authenticate, just provide an API key (which you would get by registering as a developer on their platform). Browse through all the arguments that can be used.
 1.  If you go to the bottom of the Search docs, you'll see a link to the [Search API Explorer](http://www.flickr.com/services/api/explore/flickr.photos.search). This tool lets you actually execute requests using Flickr's API key for illustrative purposes.  You just enter the options you want and it will make the request for you. Try entering "puppies" under the "tags" argument, then scroll to the bottom. Change the response "Output" dropdown to JSON then click "Call Method".
@@ -21,13 +21,14 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
     More interestingly, you can see the URL they used to make the request below that. Let's break it apart here to show the parameters more clearly:
 
     ~~~bash
-    http://api.flickr.com/services/rest/
+    https://www.flickr.com/services/rest/
     ?method=flickr.photos.search
-    &api_key=e0eb58bf4b3e29b253e86d6092e69dee
+    &api_key=7b427302f28e47cfbf74da7db99b823b
     &tags=puppies
     &format=json
     &nojsoncallback=1
-    &api_sig=200efb63cb01a3d141fff12585e1e20a
+    &auth_token=72157720893721539-d4bbe5496270bc2f
+    &api_sig=60ced132c8c35ab52607c26eac759023
     ~~~
 
 1.  The URL contains the REST endpoint we looked at before, along with our search query and some other options like the API key and format. If you copy and paste that into your browser, you'll see the same batch of output.
