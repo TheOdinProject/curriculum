@@ -7,7 +7,7 @@ This will be a chance for you to use the authentication skills we learned in the
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Begin by thinking about how to set up the database models you are going to need to accomplish your goal. You will need users with full-names (first and last), usernames (you can use email for this) passwords and membership-status. Users should be able to create messages that have a title, a timestamp and some text.  Your database should keep track of who created each message.
+1. Begin by thinking about how to set up the database models you are going to need to accomplish your goal. You will need users with full-names (first and last), usernames (you can use email for this), passwords and membership-status. Users should be able to create messages that have a title, a timestamp and some text.  Your database should keep track of who created each message.
 2. Setup your database on Mongo and generate or otherwise create your project skeleton, including the models you designed in the last step.
 3. Start with a sign-up form so you can get some users into your DB!  Don't forget to sanitize and validate the form fields and secure the passwords with `bcrypt`.  You should add a `confirmPassword` field to your sign-up form and then validate it using a custom validator. Read how to do that [here](https://express-validator.github.io/docs/guides/customizing).
 4. When users sign up, they should not be automatically given membership status! What fun is a private club if just anyone can join? Add a page where members can "join the club" by entering a secret passcode. If they enter the passcode correctly then update their membership status.
