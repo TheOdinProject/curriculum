@@ -192,7 +192,7 @@ When you download a file from the internet, Windows has a security feature that 
 
 1.  Create a new directory named `images` within the `odin-links-and-images` project.
 
-2.  Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640).
+2.  Next, [download the stock dog image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640).
 
 3.  Right click on the new download at the bottom of the chrome window and select "Show in folder".
 

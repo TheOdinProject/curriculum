@@ -94,7 +94,7 @@ You can start VSCode in two ways,
 
 #### Step 1: Install VSCode
 
-- Follow the instructions on [the Visual Studio Code website](https://code.visualstudio.com/docs/setup/windows) to install VSCode.
+- Follow the instructions for [Visual Studio Code on Windows](https://code.visualstudio.com/docs/setup/windows) to install VSCode.
 
 #### Step 2: Delete the installer file
 
@@ -106,7 +106,7 @@ You can start VSCode in two ways,
 
 - Open Visual Studio Code.
 - Navigate to the extensions tab.
-- Find and install the [WSL exstention](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl).
+- Find and install the [WSL extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl).
 
 #### Step 5: Ensure that WSL can correctly open VSCode
 

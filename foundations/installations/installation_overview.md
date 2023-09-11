@@ -41,7 +41,7 @@ Windows, by itself, **is not natively supported** by The Odin Project, or on our
 
 * A VirtualBox Virtual Machine
 * Dual-boot Ubuntu installation
-* Windows Subsystem for Linux
+* Windows Subsystem for Linux (WSL)
 
 A **virtual machine** is an emulation of a computer that runs within your existing OS. It allows you to use another operating system inside of a program on your current operating system (e.g. Running Linux inside of Windows). Virtual machines are as simple to install as any other program and are risk free. If you don't like Linux, you can easily remove the virtual machine. Virtual machines are a great way for new developers to get started quickly.
 
@@ -51,7 +51,7 @@ A **virtual machine** is an emulation of a computer that runs within your existi
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be overstated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
 
-**Windows Subsystem for Linux** (usually abbreviated as WSL) lets you run a full-fledged Linux environment from within an existing Windows installation, giving you all of the advantages of Linux without needing to run a virtual machine or dual boot. We'll be using version 2 of WSL, commonly known as WSL2, within the curriculum.
+**Windows Subsystem for Linux** lets you run a full-fledged Linux environment from within an existing Windows installation, giving you all of the advantages of Linux without needing to run a virtual machine or dual boot. We'll be using version 2 of WSL, commonly known as WSL2, within the curriculum.
 
 ### Concerned about installing a new OS?
 
@@ -73,7 +73,7 @@ Many learners come to our Discord channel to ask if the directions on this page 
 
 Before we can continue, we must first stress one detail of importance:
 
-**We can only support what is provided within the scope of our curriculum. We do not support native Windows as a development environment.** Using Windows has been discussed many times and it is not feasible to do so at this time. Please do not ask us to support Windows, and please **do not bring it up in the Discord**. We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows has not proven to be a path of low resistance
+**We can only support what is provided within the scope of our curriculum. We do not support native Windows as a development environment.** Using Windows has been discussed many times and it is not feasible to do so at this time. Please do not ask us to support Windows, and please **do not bring it up in the Discord**. We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows has not proven to be a path of low resistance.
 
 With that out of the way, we need to set up an appropriate development environment!
 
