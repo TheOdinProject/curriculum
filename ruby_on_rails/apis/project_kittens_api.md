@@ -23,12 +23,11 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
     ~~~bash
     https://www.flickr.com/services/rest/
     ?method=flickr.photos.search
-    &api_key=7b427302f28e47cfbf74da7db99b823b
+    &api_key=bbee7f1e3a3f9cb847b87964d50bf4bc
     &tags=puppies
     &format=json
     &nojsoncallback=1
-    &auth_token=72157720893721539-d4bbe5496270bc2f
-    &api_sig=60ced132c8c35ab52607c26eac759023
+    &api_sig=d207eb20abbce7c40437a01f759e1388
     ~~~
 
 1.  The URL contains the REST endpoint we looked at before, along with our search query and some other options like the API key and format. If you copy and paste that into your browser, you'll see the same batch of output.
