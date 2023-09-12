@@ -70,17 +70,17 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read [think-like-a-git](http://think-like-a-git.net/)
-    *   Take your time with this resource as well, it's very well written and will be very helpful in solidifying your understanding of Git.
-2. Read through [GitHub's documentation on merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)
+1.  Read through [GitHub's documentation on merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)
     *   It's only a matter of time until you run into one (if you haven't already)! While merge conflicts might seem intimidating, they're actually very simple. Take your time with this resource and make sure you look at the two different ways the documentation suggests resolving merge conflicts - on GitHub itself, and on your command line. While you might not need this right now, keeping the source of this documentation in the back of your mind will prove invaluable for when you eventually run into a merge conflict and aren't sure where to find a simple solution.
+
+2.  Read [think-like-a-git](http://think-like-a-git.net/)
+    *   Take your time with this resource as well, it's very well written and will be very helpful in solidifying your understanding of Git.
 </div>
 
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things'>How can you amend your last commit?</a>
 *   <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History'>What are some different ways to rewrite history?</a>
 *   <a class='knowledge-check-link' href='#force-with-lease'>What is a safe way to push history changes to a remote repository?</a>
 *   <a class='knowledge-check-link' href='#dangers'>What are the dangers of history-changing operations?</a>

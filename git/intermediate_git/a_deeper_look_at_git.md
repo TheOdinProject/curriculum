@@ -199,10 +199,10 @@ You might be feeling overwhelmed at this point, so let's recap what we've learne
 
 <div class="lesson-content__panel" markdown="1">
 
- 1.  Read [think-like-a-git](http://think-like-a-git.net/)
-    *   Take your time with this resource as well, it's very well written and will be very helpful in solidifying your understanding of Git.
-  2. 
-  
+1.  Read the chapter on [Rebasing covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
+
+2.  Read the chapter on [Reset covered by git-scm](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
+
 </div>
 
 ### Additional resources
@@ -217,3 +217,5 @@ This section contains helpful links to related content. It isn’t required, so 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 *   <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell'>Explain what it means for branches to be pointers.</a>
+*  <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things'>How can you amend your last commit?</a>
+*   <a class='knowledge-check-link' href='#dangers'>What are the dangers of history-changing operations?</a>
