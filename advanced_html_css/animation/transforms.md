@@ -252,17 +252,19 @@ The key benefit of using `transform` is that it occurs during **composition**. T
 
 Another benefit of `transform` is that it can be hardware-accelerated via a device's [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) (you don't have to understand how a GPU works but it is good to be aware of the term and what it means). This benefit is more prominent when it comes to transitions and animations which you will learn about in the following lessons.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-- Here's a good resource that summarizes [most common transform functions with some additional insight](https://www.joshwcomeau.com/css/transforms/) to how you may use them.
-- For a full reference, there's always [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
-- For more on the 3D transform functions, [W3Schools](https://www.w3schools.com/css/css3_3dtransforms.asp) has a good article demonstrating how they work.
-
 ### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [What are the four main functions of the `transform` property?](#two-dimensional-transforms)
 - [Which function can be used to move an object through space on the X, Y, or Z axis?](#translate)
 - [Which function can be used to make an object larger or smaller on the X, Y, or Z axis?](#scale)
 - [What additional function is required for 3D transforms?](#three-dimensional-transforms)
+
+### Additional resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- Here's a good resource that summarizes [most common transform functions with some additional insight](https://www.joshwcomeau.com/css/transforms/) to how you may use them.
+- For a full reference, there's always [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
+- For more on the 3D transform functions, [W3Schools](https://www.w3schools.com/css/css3_3dtransforms.asp) has a good article demonstrating how they work.

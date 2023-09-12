@@ -181,7 +181,7 @@ Now, to understand this code, let's use the three points from earlier:
 1. **All objects in JavaScript have a `prototype`**:
    - You can check the object's `prototype` by using the [`Object.getPrototypeOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf) function on the object, like `Object.getPrototypeOf(player1)`.
    - The return value (result) of this function refers to the `.prototype` property of the Object Constructor (i.e., `Player(name, marker)`) - `Object.getPrototypeOf(player1) === Player.prototype`.
-1. **The prototype is another object**:
+1. **The prototype is another object...**
    - The _value_ of the Object Constructor's `.prototype` property (i.e., `Player.prototype`) contains the `prototype` object.
    - The _reference_ to this value of `Player.prototype` is stored in every `Player` object, every time a `Player` object is created.
    - Hence, you get a `true` value returned when you check the Objects prototype - `Object.getPrototypeOf(player1) === Player.prototype`.

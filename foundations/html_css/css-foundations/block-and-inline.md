@@ -52,7 +52,12 @@ Span is an inline-level element by default. It can be used to group text content
 1.  The concept of "Normal flow" is implied in the box-model resources, but isn't laid out very specifically. Read ["Normal Flow" from MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow) to make sure you understand how elements lay themselves out by default.
 2.  W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
 3.  The Digital Ocean tutorial ["Inline vs Inline-block Display in CSS"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) has a couple of great examples that clarify the difference between `inline` and `inline-block`.
-4.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and do "01-margin-and-padding-1" and "02-margin-and-padding-2" in the `margin-and-padding` directory.
+4.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `margin-and-padding` directory. Review each README file prior to completing the following exercises in order:
+    - `01-margin-and-padding-1`
+    - `02-margin-and-padding-2`
+
+    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
+
 5.  Apply what you learned about the box model to improve the look of your Recipe page's index.html homepage. Currently, it's just a plain list, so get creative with layouts, colors, and styles to make your page uniquely captivating.
 
 </div>

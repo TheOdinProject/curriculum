@@ -56,8 +56,6 @@ If it's hard to see what's going on in the small embedded CodePen, feel free to 
 
 </div>
 
-For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
-
 #### Flex containers and flex items
 
 As you've seen, flexbox is not just a single CSS property but a whole toolbox of properties that you can use to put things where you need them. Some of these properties belong on the _flex container_, while some go on the _flex items_. This is a simple yet important concept.

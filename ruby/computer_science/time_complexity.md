@@ -10,7 +10,7 @@ In programming, there are two ways we can measure the efficiency of our code. We
 
 In this lesson, we'll introduce the core concepts around measuring the time efficiency of the code you write.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -20,7 +20,7 @@ This section contains a general overview of topics that you will learn in this l
 * How else can we measure an algorithm's efficiency.
 * What to do when two algorithms have the same complexity.
 
-### Efficiency Basics
+### Efficiency basics
 
 The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little program that prints out all odd numbers between 1 and 10.
 
@@ -84,7 +84,7 @@ So what we really want to be able to measure is how the number of steps of our a
 
 To do that, we need to delve into a new concept: Asymptotic Notations and, in particular, Big O.
 
-### Asymptotic Notations
+### Asymptotic notations
 
 Simply put, Asymptotic Notations are used to describe the running time of an algorithm. Because an algorithm's running time can differ depending on the input, there are several notations that measure that running time in different ways. The 3 most common are as follows:
 
@@ -96,7 +96,7 @@ Big O is the one you'll most commonly see referenced because you need to be sure
 
 It's also worth noting that the Notations given below for Big O also apply to Omega and Theta notations. The differences are in how they look to measure the efficiency of the algorithm and therefore which Notation should apply. This should become clearer as you read on.
 
-### What is Big O?
+### What is big O?
 
 Big O gives us a consistent way to measure the efficiency of an algorithm. It gives us a measurement for the time it takes for an algorithm to run as the input grows so that you can directly compare the performance of two algorithms and pick the best one.
 
@@ -104,7 +104,7 @@ Big O is not a piece of code you can put your algorithm into that tells you how 
 
 Firstly, we'll summarise the Big O Notations and then provide a little more context for each one. The reading materials will dive into greater detail.
 
-#### Big O Notation
+#### Big O notation
 
 The Big O Notations in the order of speed from fastest to slowest are:
 
@@ -117,7 +117,7 @@ The Big O Notations in the order of speed from fastest to slowest are:
 - O(2&#8319;) - Exponential Complexity
 - O(N!) - Factorial Complexity
 
-#### O(1) - Constant Complexity
+#### O(1) - constant complexity
 
 To understand Constant Complexity, let's use a simple array.
 
@@ -139,7 +139,7 @@ While we're looking at the simplest form of Big O, let's take a look at one of i
 
 Do the number of steps matter? Yes, they might. We'll touch on when this may be the case a little later.
 
-#### O(log N) - Logarithmic Complexity
+#### O(log N) - logarithmic complexity
 
 Logarithmic Complexity tells us that the numbers of steps an algorithm takes increases by 1 as the data doubles. That's still pretty efficient when you think about it. Going from 5,000 to 10,000 data elements and only taking one additional step can scale really well.
 
@@ -176,28 +176,28 @@ The below table summarises the size of an array doubling and how many steps in B
 
 Pretty impressive eh!
 
-#### O(N) - Linear Complexity
+#### O(N) - linear complexity
 
 This one is pretty easy to wrap your head around. Linear Complexity just tells us that as the number of items grows, the number of steps grows at exactly the same rate. Every time you iterate over an array is an example of Linear Complexity. If you have an array of 5 items, then we can iterate every element in 5 steps. An array of 10 items can be iterated in 10 steps. If you come across any algorithm with a Big O efficiency of `O(N)`, you know that the number of steps will increase in line with the number of elements in your data structure.
 
-#### O(N log N) - N x log N Complexity
+#### O(N log N) - N x log N complexity
 
 You can't say this one isn't appropriately named. This notation means we have an algorithm which initially is `O(log N)` such as our example earlier of Binary Search where it repeatedly breaks an array in half, but with `O(N log N)` each of those array halves is processed by another algorithm with a complexity of `O(N)`.
 
 One such algorithm is merge sort, and it just so happens you tackle this project in our course :)
 
-#### O(n&#178;) - Quadratic Complexity
+#### O(n&#178;) - quadratic complexity
 
 You've probably written code with a Quadratic Complexity on your programming journey. It's commonly seen when you loop over a data set and within each loop you loop over it again.  
 For example, if our array has 3 items, the nested loops require 3&#178; = 9 sub-steps. Adding just one more item to the array almost doubles this number to 4&#178; = 16. Adding a 5th item takes us to 5&#178; = 25 sub-steps. Then doubling the array size to 10 items increases the sub-steps from 25 to 100, so 4 times as much work needed!
 We hope you can see where we're going with this...
 
-#### O(n&#179;) - Cubic Complexity
+#### O(n&#179;) - cubic complexity
 
 Think triple nested loops baby. If looping over an array with n items, 1 extra item adds an extra outer loop, an extra middle loop, and an extra innermost loop. When using such triply nested loops on an array of size n, we require a total of n&#179; sub-steps.  
 For example, if our array has 3 items, the triply-nested loops require a total of 3&#179; = 27 sub-steps. Adding one more item more than doubles this number to 4&#179; = 64 sub-steps. The task almost doubles again for 5 items, with 5&#179; = 125 sub-steps. Doubling our array size to 10 items means we require 10&#179; = 1000 sub-steps in total, 8 times as many as before! 100 items in the array require a total of 1,000,000 sub-steps. Ouch!
 
-#### O(2&#8319;) - Exponential Complexity
+#### O(2&#8319;) - exponential complexity
 
 Exponential Complexity means that with each item added to the data size, the number of steps doubles from the previous number of steps. Let's provide a little table to see how quickly this can get out of hand.
 
@@ -216,7 +216,7 @@ Exponential Complexity means that with each item added to the data size, the num
 
 You want to avoid this if at all possible, otherwise you won't be processing much data quickly.
 
-#### O(N!) - Factorial Complexity
+#### O(N!) - factorial complexity
 
 A factorial is the product of the sequence of _n_ integers. For example, the factorial of 4 (written as 4!) is 4 * 3 * 2 * 1.
 
@@ -224,11 +224,11 @@ You will come across Factorial Complexity if you ever need to calculate permutat
 
 The factorial of 3 is 6 (3 * 2 * 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
 
-### Alternatives to Big O
+### Alternatives to big O
 
 If Big O gives us the worst-case scenario of how our algorithm will scale, what alternatives are there?
 
-#### Big &#937; (Omega Notation)
+#### Big &#937; (omega notation)
 
 Omega Notations gives us the best-case scenario for an algorithm. To understand where this might be, let's look at a method and discuss how we can measure its complexity.
 
@@ -246,7 +246,7 @@ However, in the best-case scenario the value we are looking for will be the firs
 
 Omega Notation isn't considered as useful because it is unlikely our item will often be the first item in our data structure search, so it doesn't give us any idea how well the algorithm will scale.
 
-#### Big-Θ (Big-Theta Notation)
+#### Big-Θ (big-theta notation)
 
 While Omega Notation measures the best-case scenario for an algorithm's efficiency, and Big O measures the worst case, Theta looks to give the exact value or a useful range between narrow upper and lower bounds.
 
@@ -254,7 +254,7 @@ If we had some code that looped every item in an array, then it doesn't matter t
 
 This is just a simplistic explanation to try to make the topic approachable. If you do happen to be mathematically minded, then you'll find more detailed explanations with a quick search online.
 
-### Why Big O
+### Why big O
 
 Now that we've touched on the different ways of quantifying an algorithm's efficiency, hopefully it's clear why we choose to use the worst-case scenario when measuring the efficiency of that algorithm.
 
@@ -312,7 +312,7 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -321,7 +321,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="#why-big-o">Why use Big O?</a>
 *   <a class="knowledge-check-link" href="#big-937-omega-notation">What is Big Omega and why isn't it as useful?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

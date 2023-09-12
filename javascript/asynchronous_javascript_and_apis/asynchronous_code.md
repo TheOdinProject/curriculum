@@ -73,7 +73,7 @@ Of course, there are many more occasions where one would want to use Promises be
 <div class="lesson-content__panel" markdown="1">
 
 1. Read this [Promises article](https://davidwalsh.name/promises). It's a good starting place and it's short and to the point.
-2. Watch this [Promises video](https://www.youtube.com/watch?v=2d7s3spWAzo).  It's a good place to get a feel for how one might actually use promises in the wild. Feel free to watch the other videos in the series, but they aren't strictly needed at this point.  The video also mentions the ES5/ES6 issue, don't worry about that at this point either.  All major browsers support Promises and we will teach you how to support older browsers in a later lesson.
+2. Watch this [Promises video](https://youtu.be/DHvZLI7Db8E).  It's a good place to get a feel for how one might actually use promises in the wild.
 3. Watch this [What is Event Loop? video](https://www.youtube.com/watch?v=8aGhZQkoFbQ) to understand how asynchronous code works in JavaScript.
 4. Read [Chapter 2: Callbacks](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch2.md) and [Chapter 3: Promises](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md) from `You Don't Know JS`. In _Chapter 2_, the author explains the problems with callbacks and why callback hell will be your worst enemy (hint: it's the inversion of control and non-linear nature of callbacks). In _Chapter 3_, you go __deep__ into the how and why of promises. This chapter is not the easiest read, but you'll be a promise professional if you take the time to properly digest it.  It's worth the effort.
 

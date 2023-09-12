@@ -8,7 +8,7 @@ If you find yourself needing to repeat an action more than once in your code, yo
 
 For all of the examples in this lesson, you should code along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to do the following:
 
  - Explain what a loop is and why it's useful.
@@ -33,7 +33,7 @@ end
 
 You won't see this loop used much in Ruby. If you find yourself using `loop`, know that there is probably a better loop for you out there, like one of the more specific loops below.
 
-### While Loop
+### While loop
 
 A `while` loop is similar to the `loop` loop except that you declare the condition that will break out of the loop up front.
 
@@ -57,7 +57,7 @@ end
 
 This example shows the flexibility advantage of a `while` loop: it will run until its break condition is met, which could be for a variable number of loops or a number of loops that is initially unknown. Who knows if your prospective prom date will say "yes" the first, fourth, or seventy-ninth time you ask? Of course, in real life, you should really just take "no" for an answer the first time.
 
-### Until Loop
+### Until loop
 
 The `until` loop is the opposite of the `while` loop. A `while` loop continues for as long as the condition is true, whereas an `until` loop continues for as long as the condition is false. These two loops can therefore be used pretty much interchangeably. Ultimately, what your break condition is will determine which one is more readable.
 
@@ -97,7 +97,7 @@ What if we know exactly how many times we want our loop to run? Ruby lets us use
 ('a'..'d')  # a, b, c, d
 ~~~
 
-### For Loop
+### For loop
 
 A `for` loop is used to iterate through a collection of information such as an array or range. These loops are useful if you need to do something a given number of times while also using an iterator.
 
@@ -109,7 +109,7 @@ end
 
 That's really all there is to it.
 
-### Times Loop
+### Times loop
 
 If you need to run a loop for a specified number of times, then look no further than the trusty `#times` loop. It works by iterating through a loop a specified number of times and even throws in the bonus of accessing the number it's currently iterating through.
 
@@ -129,7 +129,7 @@ end
 
 Remember, loops will start counting from a zero index unless specified otherwise, so the first loop iteration will output `Alternative fact number 0`.
 
-### Upto and Downto Loops
+### Upto and Downto loops
 
 The Ruby methods `#upto` and `#downto` do exactly what you'd think they do from their names. You can use these methods to iterate from a starting number either up to or down to another number, respectively.
 
@@ -149,13 +149,13 @@ If you need to step through a series of numbers (or even letters) within a speci
 2. Try re-writing the above examples using alternative loop methods to achieve the same results.
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
  - If you'd like another overview of loops, read this [Ruby Explained: Iteration](https://www.eriktrautman.com/posts/ruby-explained-iteration) article. (Don't worry about the `#each` method described here; we'll get to that in an upcoming lesson!)
  - If you want yet another take, read [Skork's article on loops](https://skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/). (Again, don't worry about the `#each` and `#each_with_index` methods here; they're coming up soon.)
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
  * <a class="knowledge-check-link" href="#introduction">What is a loop and why it is useful?</a>

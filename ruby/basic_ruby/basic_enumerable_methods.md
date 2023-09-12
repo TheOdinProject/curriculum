@@ -7,7 +7,7 @@ We will run through the enumerable methods that you will most commonly use and s
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to do the following:
 
  - Explain how the `#each` and `#each_with_index` methods work and how they differ.
@@ -17,7 +17,7 @@ By the end of this lesson, you should be able to do the following:
  - Describe the differences between using `do...end` and `{...}`.
  - Explain what a bang method is and why it is or is not considered best practice.
 
-### Life Before Enumerables
+### Life before enumerables
 Let's say that you wanted to make an invite list for your birthday using your `friends` array but that you don't want to invite your friend Brian because he's a bit of a nutcase at parties and always drinks way too much.
 
 With the loops you've learned so far, you might do something like this:
@@ -58,7 +58,7 @@ friends.reject { |friend| friend == 'Brian' }
 
 You just cut down what was previously an 8 line program down to 2 lines. Amazing! Imagine all the time you'll save sorting your invite lists now.
 
-### The each Method
+### The each method
 `#each` is the granddaddy of the enumerable methods. It's a bit like Chuck Norris: it can do anything. As you'll see throughout this lesson, though, just because you can use `#each` to do just about anything doesn't mean it's always the best or most efficient tool for the job.
 
 Calling `#each` on an array will iterate through that array and will yield each element to a code block, where a task can be performed:
@@ -132,7 +132,7 @@ friends.each { |friend| friend.upcase }
 
 You might expect this to return `['SHARON', 'LEO', 'LEILA', 'BRIAN', 'ARUN']`, but you'd be wrong---dead wrong. It actually returns the original array you called `#each` on. You're *still* not invited, Brian.
 
-### The each_with_index Method
+### The each_with_index method
 This method is nearly the same as `#each`, but it provides some additional functionality by yielding two **block variables** instead of one as it iterates through an array. The first variable's value is the element itself, while the second variable's value is the index of that element within the array. This allows you to do things that are a bit more complex.
 
 For example, if we only want to print every other word from an array of strings, we can achieve this like so:
@@ -149,7 +149,7 @@ fruits.each_with_index { |fruit, index| puts fruit if index.even? }
 
 Just like with the `#each` method, `#each_with_index` returns the original array it's called on.
 
-### The map Method
+### The map method
 Remember when we tried to use `#each` to write all of your friends' names in all caps? For reference, this is the code that we tried:
 
 ~~~ruby
@@ -211,7 +211,7 @@ salaries.map { |salary| salary - 700 }
 
 Whenever you want to return a new array with the results of running your block of code, `#map` is the method for you!
 
-### The select Method
+### The select method
 You've already seen the `#select` method in action at the beginning of this lesson in our quest to make Brian an outcast.
 
 The `#select` method (also called `#filter`) passes every item in an array to a block and returns a new array with only the items for which the condition you set in the block evaluated to `true`.
@@ -252,7 +252,7 @@ responses.select { |person, response| response == 'yes'}
 
 Looks like only Sharon and Arun can go. You're going to need more people for a good party. Sounds like it's time for you to reluctantly call Brian, who you know will bring a batch of his awful home-brewed IPA. Maybe his last batch has gotten better?
 
-### The reduce Method
+### The reduce method
 The `#reduce` method (also called `#inject`) is possibly the most difficult-to-grasp enumerable for new coders. The idea is simple enough, though: it reduces an array or hash down to a single object. You should use `#reduce` when you want to get an output of a single value.
 
 A classic example of when `#reduce` is useful is obtaining the sum of an array of numbers. First, let's explore how we would achieve this using `#each`:
@@ -346,7 +346,7 @@ Now that we know that this new hash with a default value of `0` is our accumulat
 
 Note that this example returns a hash with several `key => value` pairs. So even though the result is more complicated, `#reduce` still just returns one object, a hash.
 
-### Bang Methods
+### Bang methods
 Earlier, we mentioned that enumerables like `#map` and `#select` return new arrays but don't modify the arrays that they were called on. This is by design since we won't often want to modify the original array or hash and we don't want to accidentally lose that information. For example, if enumerables did mutate the original array, then using `#select` to filter out Brian from our invitation list would *permanently* remove him from our friends list. Whoa! That's a bit drastic. Brian may be a nutcase at parties, but he's still our friend.
 
 To see this principle in action, let's go back to an earlier example where we wrote each of our friends' names in all caps:
@@ -381,7 +381,7 @@ As you'll recall from the Methods lesson, **bang methods** can be easily identif
 
 It's best practice to avoid using these methods, however, as you or a future developer working on your code may need the original version. Remember that violent psychopath who you should expect will end up maintaining your code? Keep that in mind when making the decision to use bang methods.
 
-### Return Values of Enumerables
+### Return values of enumerables
 So if it's not a good idea to use bang methods but we need to re-use the result of an enumerable method throughout our program, what can we do instead?
 
 One option is to put the result of an enumerable method into a local variable:
@@ -423,14 +423,14 @@ invited_friends(friends)
   4. Complete the [basic enumerable](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * The Bastards Book of Ruby has a good section on [Enumerables](http://ruby.bastardsbook.com/chapters/enumerables/).
 * This tutorial on [codementor](https://www.codementor.io/ruby-on-rails/tutorial/rubys-swiss-army-knife-the-enumerable-module) is another good discussion of the versatility of enumerable methods.
 * There are many more enumerable methods than are covered in this lesson (e.g., `#reject`, `#drop`, `#uniq`). For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-3.1.2/Enumerable.html).
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
  * <a class="knowledge-check-link" href="#the-each-method">What does the `#each` method do? What does it return?</a>

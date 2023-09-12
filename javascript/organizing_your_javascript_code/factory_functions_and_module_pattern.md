@@ -300,5 +300,6 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
+- [This video explains Closures with a good example.](https://www.youtube.com/watch?v=80O6L2Ez3GM)
 - [Learning JavaScript Design Patterns by Addy Osmani and Lydia Hallie](https://www.patterns.dev/)
 - [Interactive Scrim on factory functions](https://scrimba.com/scrim/c2aaKzcV)

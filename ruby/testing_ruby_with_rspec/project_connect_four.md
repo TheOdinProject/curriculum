@@ -1,4 +1,4 @@
-### Warmup: Time Traveling
+### Warmup: time traveling
 
 A good way to get familiar with and begin contributing to a new project is to write tests for it.  It's also the best way to become familiar with a new code base, something you'll have to do when you start working.  It's pretty common for test code to ultimately take up twice as many lines of code as the actual project code!
 
@@ -32,7 +32,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
   1. Build Connect Four!  Just be sure to keep it TDD.
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [RSpec Mock example SO question](http://stackoverflow.com/questions/3622604/rspec-mock-object-example)

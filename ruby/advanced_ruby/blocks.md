@@ -18,7 +18,7 @@ end
 
 Although you are familiar with how to write blocks in the context of enumerable methods, there are actually other interesting ways to use them in Ruby. For example, you can write your own methods that accept blocks and even store blocks as variables. By the end of this lesson, you'll have a newfound appreciation for the mighty block.
 
-### Learning Outcomes
+### Learning outcomes
 
 - What is a block?
 - How is a block like a method?
@@ -304,7 +304,7 @@ a_proc.call("tim", 80)
 #=> name: tim --- age: 80
 ~~~
 
-### Procs vs Lambdas
+### Procs vs lambdas
 
 There isn't much more to creating procs that you haven't already seen with lambdas. So why use one over the other? Well, there are some key differences between procs and lambdas that can make choosing one over the other more suitable.
 
@@ -385,7 +385,7 @@ my_method
 
 Now that we've covered some big differences between procs and lambdas, there are some similarities we need to cover.
 
-#### Default Arguments
+#### Default arguments
 
 Both procs and lambdas support default arguments in the same way Ruby methods do:
 
@@ -497,7 +497,7 @@ After coming to grips with the information in this lesson you'll be a block, pro
 2. Read [this article](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we've used here. We really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
