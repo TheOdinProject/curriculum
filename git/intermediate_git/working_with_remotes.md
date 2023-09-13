@@ -81,7 +81,6 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History'>What are some different ways to rewrite history?</a>
 *   <a class='knowledge-check-link' href='#force-with-lease'>What is a safe way to push history changes to a remote repository?</a>
 *   <a class='knowledge-check-link' href='#dangers'>What are the dangers of history-changing operations?</a>
 *   <a class='knowledge-check-link' href='#best-practices'>What are best practices of history-changing operations?</a>
