@@ -21,14 +21,14 @@ When it comes to information gathering, search engines and AI can be very helpfu
 
 Your network can also help you make decisions. Have you ever had decision paralysis? This is when you are presented with so many options, you cannot choose. This happens a lot in tech, especially for newcomers, given the sheer number of languages, frameworks and tools to choose from. Sometimes it’s easier to canvas the people you trust and take their recommendations. By doing this we are gathering social proof. If someone we know recommends something, we are more likely to choose it (it’s also why you read reviews before buying stuff online!).
 
-When it comes to finding a job, your network can be the most valuable asset you have. Depending on the source, up to [80% of all jobs](https://www.forbes.com/sites/dianatsai/2017/10/02/80-of-jobs-are-not-on-job-boards-heres-how-to-find-them/?sh=29ada3fcd455) are not posted online. This means you are only seeing 20% of all open jobs when you are browsing job boards, and the rest are in the ‘hidden jobs market’. Now, these percentages may vary, but it’s a safe bet that the hidden jobs market is real, and likely significant. If your strategy does not attempt to tap into the hidden jobs market, you are undermining your chances of success and will be stuck competing with many applicants for fewer jobs.
+When it comes to finding a job, your network can be the most valuable asset you have. Depending on the source, up to [80% of all jobs are not posted online](https://www.forbes.com/sites/dianatsai/2017/10/02/80-of-jobs-are-not-on-job-boards-heres-how-to-find-them/?sh=29ada3fcd455). This means you are only seeing 20% of all open jobs when you are browsing job boards, and the rest are in the ‘hidden jobs market’. Now, these percentages may vary, but it’s a safe bet that the hidden jobs market is real, and likely significant. If your strategy does not attempt to tap into the hidden jobs market, you are undermining your chances of success and will be stuck competing with many applicants for fewer jobs.
 
 
 Think of it from the company’s perspective. Hiring is a pain. In a perfect world, a great candidate would show up instantly any time a new job opened up. This would save them going through the process of posting the job, screening applicants, marking technical assessments and conducting interviews. This all takes time and is very expensive. So it stands to reason why most companies would prefer to hire through the hidden jobs market. 
 
 So, how do you tap into the hidden jobs market? Through your network. If your network sees you as a trusted individual with a particular skill set, you can be sure they will think of you when matching opportunities arise. You might ask around about potential jobs and receive a heads up of a new opportunity at someone’s company. Better still, you could be recommended for a particular role. Many companies give bonuses to staff who refer a candidate that gets hired. So, the incentive to network and pass names along goes both ways.
 
-This is not all to say you should refrain entirely from applying on posted jobs. These can still be worthwhile to pursue, but we recommend quality over quantity and seeking companies that you find interesting and have core values you identify with. You will be better off sending fewer, tailored applications over hundreds of the same application in a shotgun-like approach. We cover more on this in the [Getting Hired](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/getting-hired) course.
+This is not all to say you should refrain entirely from applying on posted jobs. These can still be worthwhile to pursue, but we recommend quality over quantity and seeking companies that you find interesting and have core values you identify with. You will be better off sending fewer, tailored applications over hundreds of the same application in a shotgun-like approach. We cover more on this in the Getting Hired course.
 
 ### How to build a professional network
 
@@ -77,5 +77,5 @@ There is so much more to building a professional network, but this lesson should
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* How to use LinkedIn as a developer to get a job in tech - [video](https://www.youtube.com/watch?v=SG5Sb5WTV_g)
-* How to Network: a Guide for Remote Software Developers & Engineers - [blog post](https://arc.dev/developer-blog/how-to-network-as-remote-developer/)
+* [How to use LinkedIn as a developer to get a job in tech](https://www.youtube.com/watch?v=SG5Sb5WTV_g)
+* [How to Network: a Guide for Remote Software Developers & Engineers](https://arc.dev/developer-blog/how-to-network-as-remote-developer/)
