@@ -1,19 +1,19 @@
 ### Introduction
 
-A robust social network is an irreplaceable asset on your journey to becoming a web developer, and beyond. As social beings we are wired to connect with others, receive help, and give help. 
+A robust professional network is an irreplaceable asset on your journey to becoming a web developer, and beyond. As social beings we are wired to connect with others, receive help, and give help. 
 This is no different in the software ecosystem where countless communities take part in the mutually beneficial transactions of networking.
 
 One significant benefit of your network is that it might help land you your first job in software. This is not a guarantee, but it is the lived experience of many developers. As with all things, you get back what you put in, so the more developed your network is, the better your odds it will provide for you. 
 
 Building genuine connections with people takes time, however, so we recommend you start investing in this activity now.
 
-### What is a social network?
+### What is a professional network?
 
-Your social network is not the people you follow on social media, nor is it necessarily your friends. It is the people with whom you have made a genuine connection, whether in-person or online, because you have a mutual interest and can gain more value through being connected than you would otherwise have alone. These are the people you can ask for help, and in turn help out.
+Your professional network is not the people you follow on social media, nor is it necessarily your friends. It is the people with whom you have made a genuine connection, whether in-person or online, because you have a mutual interest and can gain more value through being connected than you would otherwise have alone. These are the people you can ask for help, and in turn help out.
 
 The network that will help you on your journey to becoming a software developer will mostly consist of people working in software development and adjacent roles, like recruitment or management. Take stock of your network in this field now. Chances are you might benefit from expanding it?
 
-### Why is a social network useful?
+### Why is a professional network useful?
 
 You can probably think of instances where you were stuck on a task and asked someone for help. This was you exercising your network. You can do the same with your software developer network to help you with many things like gather information, make decisions, and find a job.
 
@@ -30,7 +30,7 @@ So, how do you tap into the hidden jobs market? Through your network. If your ne
 
 This is not all to say you should refrain entirely from applying on posted jobs. These can still be worthwhile to pursue, but we recommend quality over quantity and seeking companies that you find interesting and have core values you identify with. You will be better off sending fewer, tailored applications over hundreds of the same application in a shotgun-like approach. We cover more on this in the [Getting Hired](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/getting-hired) course.
 
-### How to build a social network
+### How to build a professional network
 
 Just like building your technical skills, networking requires careful attention and a strategic approach. A local network allows you to build strong, in-person connections while a virtual network allows you to connect with people all over the world. Both are useful and a strategy that focuses on the two will be the most robust.
 
@@ -59,7 +59,7 @@ Your virtual networking options are much broader and there’s no shortage of pl
 
 ### Build Genuine Connections
 
-The economy of social networking rewards authenticity and mutual respect. If you are going to ask a favor of someone, you are far more likely to get help if you have developed a genuine connection. That is to say, please do not approach people ‘cold’ and ask them out of the blue to connect with you, or for a favor like ‘help me get this job in your company’ or ‘please be my mentor’. This may be perceived as disrespectful. People are busy, and they reserve their limited time for helping those they know and respect.
+The economy of professional networking rewards authenticity and mutual respect. If you are going to ask a favor of someone, you are far more likely to get help if you have developed a genuine connection. That is to say, please do not approach people ‘cold’ and ask them out of the blue to connect with you, or for a favor like ‘help me get this job in your company’ or ‘please be my mentor’. This may be perceived as disrespectful. People are busy, and they reserve their limited time for helping those they know and respect.
 
 Your best strategy is to start conversations with a genuine interest in the person and connect on a mutual interest. For example, you could review someone’s profile on LinkedIn and find something in common, or begin a conversation in-person with questions related to what the person does, how they got to where they are, and what challenges they face in their daily work. Make it about them, not you. Show that you are interested in them as a person, not that you want them to give you something. Actively listen to what they say and ask follow-up questions and even offer to help with something if you are in a position to do so. Think of the interaction like dating, you don’t ask someone to be your partner in the first question (do you? lol), so the same applies here. If your initial conversation goes well, then you can follow up with a request to connect.
 
@@ -69,9 +69,9 @@ If you’re still not sure how to get started virtually, find one or two people 
 
 ### Maintain Your Network
 
-Your social network is a dynamic and organic entity. Much like a garden, it will take some maintenance and attention to keep it in shape. You can do this by asking and answering questions in online communities, sending messages to your connections, and attending in-person events or scheduling periodic coffee-chats with your closest connections. Ideally, this does not feel like a chore. Rather, it’s something you naturally do because you enjoy it and get value from the interactions.
+Your professional network is a dynamic and organic entity. Much like a garden, it will take some maintenance and attention to keep it in shape. You can do this by asking and answering questions in online communities, sending messages to your connections, and attending in-person events or scheduling periodic coffee-chats with your closest connections. Ideally, this does not feel like a chore. Rather, it’s something you naturally do because you enjoy it and get value from the interactions.
 
-There is so much more to building a social network, but this lesson should give you a good start. Remember, it will take time, so start early and be genuine. Good luck!
+There is so much more to building a professional network, but this lesson should give you a good start. Remember, it will take time, so start early and be genuine. Good luck!
 
 ### Additional Resources
 
