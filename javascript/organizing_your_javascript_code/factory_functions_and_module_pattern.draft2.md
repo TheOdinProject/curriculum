@@ -12,9 +12,9 @@ This section contains a general overview of topics that you will learn in this l
 
 The word "scoping" essentially asks, "where is a certain variable available to me?" - it indicates the current context of a variable. When a variable is not declared within **any** functions, existing outside any `{ curly braces }`, they are said to be in the **global scope**, meaning that they are available everywhere. If they are within them, they are known to be **locally scoped**.
 
-Before 2016, Javascript had a single keyword to declare a variable, `var`. These variables can be **redefined** and **updated**, and are said to be defined within the **function scope**, meaning, they are only available within the function they are declared in.
+Before ECMAScript 6, Javascript had a single keyword to declare a variable, `var`. These variables can be **redefined** and **updated**, and are said to be defined within the **function scope**, meaning, they are only available within the function they are declared in.
 
-Post 2016, the keywords `let` and `const` were introduced. While `var` variables were function scoped, these allow you to defined variables that are **block scoped** - basically, scoping the variable to only be available within the closest set of `{ curly braces }` in which it was defined. These braces can be those of a `for` loop, `if-elseif` condition, or any other such construct, and are called, a block. Let's see an example to sum this all up.
+Post ECMAScript 6, the keywords `let` and `const` were introduced. While `var` variables were function scoped, these allow you to defined variables that are **block scoped** - basically, scoping the variable to only be available within the closest set of `{ curly braces }` in which it was defined. These braces can be those of a `for` loop, `if-elseif` condition, or any other such construct, and are called, a block. Let's see an example to sum this all up.
 
 ~~~javascript
 let globalAge = 23; // This is a global variable
@@ -170,6 +170,40 @@ function createPlayer (name, level) {
   return Object.assign({}, user, { increaseLevel });
 }
 ~~~
+
+### The `module` pattern - IIFEs
+
+<div class="lesson-note lesson-note--warning" markdown="1" >
+
+ECMAScript 6 itroduced a new JavaScript feature called "modules" - which are a set of syntax for importing and exporting code between different Javascript files. While they are important and powerful, they are covered a bit later in the curriculum. We are not talking about them in this section.
+
+</div>
+
+Often times, you do not need a factory to produce multiple objects - instead, you are using them to wrap sections of code together, hiding the variables and functions that you do not need elsewhere as private. This is easily achievable by wrapping your factory function in parentheses and immediately calling (invoking) it. This immediate function call is commonly refered to as an Immediately Invoked Function Expression (duh) or IIFE in short. This pattern of wrapping a factory function inside an IIFE is called the module pattern.
+
+~~~javascript
+const calculator = (function () {
+  const add = (a, b) => a + b;
+  const sub = (a, b) => a - b;
+  const mul = (a, b) => a * b;
+  const div = (a, b) => a / b;
+  return { add, sub, mul, div };
+})();
+
+calculator.add(3,5); // 8
+calculator.sub(6,2); // 4
+calculator.mul(14,5534); // 77476
+~~~
+
+In this example, we have a factory function creating some basic operations that we need only once. We can wrap it in parentheses and immediately call it by adding `()` - returning the result object that we store in `calculator`. In this way we can write code, wrapping away things that we do not need as private variables and functions inside our factory function and while they are tucked inside of our module, we can use the returned variables and functions outside the factory, as necessary.
+
+#### Encapsulating with the module pattern
+
+At first glance, this does not seem particularly useful. If we have some code that we use only once, why not simply write it in the main section of our JavaScript file itself? After all, the power of factory functions lies in being a, well, factory to make multiple objects, right?
+
+This is where we encounter the word **encapsulation** - bundling data, code, something into a single unit, with selective access to the things inside that unit itself. While it sounds general, this what happens when we wrap, or encapsulate our code into modules - we don't expose everything to the body of our program itself. This encapsulation leads to an effect called **namespacing**. Namespacing is a technique that is used to avoid naming collisions in our programs.
+
+Take the calculator example into consideration. It's very easy to imagine a scenario where you can accidentally create multiple functions with the name `add`. What does `add` do - does it simply add two numbers? Strings? Does it take it's input directly from the DOM and display the result? What would you name the functions that do these things? Instead, we can easily encapsulate them inside a module called `calculator` which generates an object with that name, allowing us to explicitly call `calculator.add(a, b)` or `calculator.sub(a, b)`.
 
 ### Assignment
 
