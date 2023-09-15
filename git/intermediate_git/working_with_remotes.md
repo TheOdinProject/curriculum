@@ -84,7 +84,7 @@ This section contains questions for you to check your understanding of this less
 *   <a class='knowledge-check-link' href='#force-with-lease'>What is a safe way to push history changes to a remote repository?</a>
 *   <a class='knowledge-check-link' href='#dangers'>What are the dangers of history-changing operations?</a>
 *   <a class='knowledge-check-link' href='#best-practices'>What are best practices of history-changing operations?</a>
-*  <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things'>How can you amend your last commit?</a>
+
 
 ### Additional resources
 
