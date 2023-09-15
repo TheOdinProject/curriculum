@@ -151,7 +151,7 @@ This section contains questions for you to check your understanding of this less
 - [In which situation would you use the `HAVING` function?](#having-function)
 - [Why can't I just use Ruby to process my database data?](#sql-is-faster-than-ruby)
 
- ### Additional Resources
+### Additional Resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 -   Odinite Hunter D made his excellent notes into a [Git Book on SQL](https://hunter-ducharme.gitbook.io/sql-basics) which you should totally check out if you want a decent resource.
