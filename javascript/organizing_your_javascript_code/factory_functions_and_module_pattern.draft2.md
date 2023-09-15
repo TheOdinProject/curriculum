@@ -70,7 +70,106 @@ While still seen in code, these problems led to use of a pattern that was simila
 
 ### Factory functions 🏭
 
-These fancy sounding functions work very similar to how constructors did, but with one key difference - they levy the power of closures. Instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function.
+These fancy sounding functions work very similar to how constructors did, but with one key difference - they levy the power of closures. Instead of using the `new` keyword to create an object, factory functions simply set up and return the new object when you call the function. Let's take a basic example to compare them to constructor functions.
+
+~~~javascript
+const User = function (name) {
+  this.name = name;
+  this.discordName = "@" + name;
+} // hey, this is a constructor - this can be refactored into a factory, then!
+
+function createUser (name) {
+  const discordName = "@" + name;
+  return { name, discordName };
+} // and that's very similar, except since it's just a function, we don't need a new keyword
+~~~
+
+<div class="lesson-note" markdown="1">
+
+### The object shorthand notation
+
+Some may get confused by the way the returned object is written in the factory function example. In 2015, a shortcut to creating objects was added to Javascript. Say we wanted to make an object with a name, age and color. We'd write it as the following:
+
+~~~javascript
+const name = "Bob";
+const age = 28;
+const color = "red";
+
+const thatObject = { name: name, age: age, color: color };
+~~~
+
+However, now, if we have a variable with the same name as that of the property to which we are assigning it to, we can simply write it once!
+
+~~~javascript
+const nowFancyObject = { name, age, color };
+~~~
+
+An added advantage to this is that it's now possible to console.log values neatly!
+
+~~~javascript
+// If you wanted to log these values, earlier, you would have done the following
+console.log(name, age, color);
+// which would have resulted in a mess - Bob 28 red
+
+// Try wrapping it in some { curly braces } now, which makes it an object!
+console.log({ name, age, color });
+// now it logs as - { name: "Bob", age: 28, color: "red" }
+~~~
+
+</div>
+
+### Private variables and functions
+
+Now you may be thinking - where does closure come into all of this? Factories seem to simply be returning an object. This is where we can extend our `User` factory to add a few more variables and introduce "private" ones. Take a look at this, now:
+
+~~~javascript
+function createUser (name) {
+  const discordName = "@" + name;
+
+  let reputation = 0;
+  const getReputation = () => reputation;
+  const giveReputation = () => reputation++;
+
+  return { name, discordName, getReputation, giveReputation };
+}
+
+const josh = createUser("josh");
+josh.giveReputation();
+josh.giveReputation();
+
+console.log({ name: josh.discordName, reputation: josh.getReputation }); 
+// logs { name: "josh", reputation: 2 }
+~~~
+
+We've introduced a new metric for a new user, a reputation, and in our returned object, added two new functions to control this reputation count. Sounds about right? But notice that we did not return the reputation count, *itself*. Instead, we used the power of closure to let it remain hidden, as a detail of implemenation, and offered a function to check it's value at any time and increase it's value by one. This, is what we call a "private" variable.
+
+With respect to factory functions, a private variable or function uses closures to create smaller, dedicated variables and functions within a factory function itself - things that we do not *need* to return in the object itself. This way we can create neater code, without polluting the returned object with unnecessary variables that we create while creating the object itself. Often, you do not need every single function within a factory to be returned with the object, or expose an internal variable. You can use them privately, since the property of closures allows you to do so.
+
+In this case, we did not need control of reputation itself. To avoid footguns, like accidentally setting the reputation count to `-18000`, we simply expose the necessary details in the form of `getReputation` and `giveReputation`.
+
+### Prototypal inhertance with factories
+
+In the lesson with constructors, we looked deeply into the concept of prototype and inheritance, how to give our objects access to the properties of another. With factory functions too, there are easy ways to do that. Take another hypothetical scenario into consideration. We need to extend the `User` factory into a `Player` factory that need to control some more metrics - there are some ways to do that:
+
+~~~javascript
+function createPlayer (name, level) {
+  const { discordName, getReputation } = createUser(name);
+
+  const increaseLevel = () => level++;
+  return { name, discordName, getReputation, increaseLevel };
+}
+~~~
+
+And there you go! You can simply create your own User, extract what you need from it, and re-return whatever you want to - hiding the rest as some private variables or functions! In case you want to simply extend on it, you can also use the [`Object.assign` method]() to add on the properties you want!
+
+~~~javascript
+function createPlayer (name, level) {
+  const user = createUser(name);
+
+  const increaseLevel = () => level++;
+  return Object.assign({}, user, { increaseLevel });
+}
+~~~
 
 ### Assignment
 
