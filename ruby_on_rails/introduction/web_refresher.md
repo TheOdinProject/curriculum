@@ -22,7 +22,7 @@ Check out these resources:
 
 1.  This [tutsplus post on HTTP](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177) describes what's going on with HTTP.
 2.  This [sniffer tool](http://testuri.org/sniffer) - try retrieving a couple of websites (like http://www.theodinproject.com) on your own.
-3.  This [great video](https://code.tutsplus.com/tutorials/how-the-web-works-http-and-the-web-server--cms-25971) on communications between http requests and the web server.
+3.  This [great video](https://code.tutsplus.com/how-to-become-a-web-developer--CRS-200371c/http-and-the-web-server) on communications between http requests and the web server.
 
 One key component to pay attention to is the fact that the request and response both have header and (usually) body components.  The header contains information about the request or response itself (meta data), including which website to send or return to and what the status of the response is.  The body of the request can contain things like data submitted by a form or cookies or authentication tokens while the response will usually contain the HTML page you're trying to access.
 
