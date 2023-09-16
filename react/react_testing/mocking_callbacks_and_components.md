@@ -30,7 +30,7 @@ const CustomButton = ({ onClick}) => {
 export default CustomButton;
 ~~~
 
-Nothing fancy. `CustomButton` is a simple component with a couple props passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user clicks the button. Let's test it.
+Nothing fancy. `CustomButton` is a simple component with a prop passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user clicks the button. Let's test it.
 
 <span id="testing-callback-handlers">Notice how we mock and test the `onClick` function</span>:
 
