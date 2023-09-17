@@ -227,6 +227,22 @@ This is how the The Odin Project logo example we used earlier looks with an alt 
 
 As a bit of practice, add an alt attribute to the dog image we added to the `odin-links-and-images` project.
 
+### Image size attributes
+
+While not strictly required, specifying height and width
+attributes in image tags helps the browser layout the page without causing the page to jump and flash. 
+
+It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it.
+
+Here is our Odin Project logo example with height and width tags included:
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PoXJKvy" data-user="FabulousPBB" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/FabulousPBB/pen/PoXJKvy">
+  Image Height and Width Attributes</a> by Brian Lister (<a href="https://codepen.io/FabulousPBB">@FabulousPBB</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
