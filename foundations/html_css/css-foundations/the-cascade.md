@@ -18,7 +18,6 @@ So if you end up with some unexpected behavior like this it's either because of 
 
 The cascade is what determines which rules actually get applied to our HTML. There are different factors that the cascade uses to determine this. We will examine three of these factors, which will hopefully help you avoid those frustrating "I hate CSS" moments.
 
-
 #### Specificity
 
 A CSS declaration that is more specific will take precedence over less specific ones. Inline styles, which we went over in the previous lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but we're focusing only on the ones we've gone over so far:
@@ -36,7 +35,7 @@ Consider the following HTML and CSS code:
 <!-- index.html -->
 
 <div class="main">
-  <div class="list subsection"></div>
+  <div class="list subsection">Red text</div>
 </div>
 ~~~
 
@@ -60,7 +59,7 @@ Now, let's change things a little bit:
 <!-- index.html -->
 
 <div class="main">
-  <div class="list" id="subsection"></div>
+  <div class="list" id="subsection">Blue text</div>
 </div>
 ~~~
 ~~~css
@@ -76,6 +75,16 @@ Now, let's change things a little bit:
 ~~~
 
 In the example above, despite rule 2 having more class selectors than ID selectors, rule 1 is more specific because ID beats class. In this case, the `color: blue;` declaration would take precedence.
+
+And a bit more complex:
+
+~~~html
+<!-- index.html -->
+
+<div class="main">
+  <div class="list" id="subsection">Red text on yellow background</div>
+</div>
+~~~
 
 ~~~css
 /* rule 1 */
