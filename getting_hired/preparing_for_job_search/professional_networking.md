@@ -2,9 +2,15 @@
 
 A robust professional network is an irreplaceable asset on your journey to becoming a web developer, and beyond. As social beings we are wired to connect with others, receive help, and give help. This is no different in the software ecosystem where countless communities take part in the mutually beneficial transactions of networking.
 
-One significant benefit of your network is that it might help land you your first job in software. This is not a guarantee, but it is the lived experience of many developers. As with all things, you get back what you put in, so the more developed your network is, the better your odds it will provide for you. 
+One significant benefit of your network is that it might help land you your first job in software. This is not a guarantee, but it is the lived experience of many developers. As with all things, you get back what you put in, so the more developed your network is, the better your odds it will provide for you. Making genuine connections with people takes time, however, so we recommend you start investing time and effort sooner than later.
 
-In this lesson we cover what a professional network is, how it might benefit you, and some strategies to consider when to building one. Making genuine connections with people takes time, however, so we recommend you start investing time and effort sooner than later.
+### Lesson overview
+
+This lesson covers the following topics:
+
+*   What a professional network is
+*   How a professional network might benefit you
+*   Strategies and actions to consider when building and maintaining your professional network
 
 ### What is a professional network?
 
