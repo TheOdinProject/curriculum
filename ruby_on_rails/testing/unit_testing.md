@@ -10,13 +10,13 @@ This section contains a general overview of topics that you will learn in this l
 *   Why are unit tests important?
 *   Unit tests in the context of Ruby on Rails.
 
-## What are unit tests?
+### What are unit tests?
 
 A unit test is testing a single unit of code to ensure that method/unit works as it is supposed to! In Ruby on Rails your models are one of the areas that should be covered with unit tests. These model tests specifically are used to test the logic behind your model objects. This can include validating user inputs from form submissions and other logic between models. Such as if you need to ensure your object method for generating discounts work properly. It's important as you scale your projects to ensure that the logic behind your models works as your project consistently expands. This helps make the project more maintainable as the tests provide a safety net to ensure existing functionality continues working as expected when models need to be expanded or modified. 
 
 Earlier you used RSpec for testing projects in the Ruby section. While Ruby on Rails comes with it's own testing framework. RSpec is a very popular framework for testing even in Ruby on Rail's. As such we will be using RSpec for the Ruby on Rails testing section. 
 
-## Setting up RSpec
+### Setting up RSpec
 
 Installing RSpec for rails is a relatively straightforward task.
 
@@ -34,7 +34,7 @@ Next visit the [rspec-rails installation guide](https://github.com/rspec/rspec-r
 
 There you will find different folders for different areas of your application such as controllers, models, system, etc. When you use the command to generate a model, controller, etc. The spec file will be created in the corresponding folder to the object that you created. If you create a spec file manually, make sure you're creating it in the correct folder, such as a controller spec file within the controller folder. There will also be a rails_helper and spec_helper files. These RSpec files are where you can configure your test environment.
 
-## Example test
+### Example test
 
 Each model should have it's own spec file within the spec/models folder. This will be created when you use the following command.
 
