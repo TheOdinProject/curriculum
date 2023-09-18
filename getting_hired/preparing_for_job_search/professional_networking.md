@@ -2,7 +2,7 @@
 
 A robust professional network is an irreplaceable asset on your journey to becoming a web developer, and beyond. As social beings we are wired to connect with others, receive help, and give help. This is no different in the software ecosystem where countless communities take part in the mutually beneficial transactions of networking.
 
-One significant benefit of your network is that it might help land you your first job in software. This is not a guarantee, but it is the lived experience of many developers. As with all things, you get back what you put in, so the more developed your network is, the better your odds it will provide for you. Making genuine connections with people takes time, however, so we recommend you start investing time and effort sooner than later.
+One significant benefit of your network is that it might help you land your first job in software. This is not a guarantee, but it is the lived experience of many developers. As with all things, you get back what you put in, so the more developed your network is, the better your odds it will provide a benefit for you. Making genuine connections with people takes time, however, so we recommend you start investing time and effort sooner than later.
 
 ### Lesson overview
 
@@ -14,7 +14,7 @@ This lesson covers the following topics:
 
 ### What is a professional network?
 
-Your professional network is not the people you follow on social media, nor is it necessarily your friends. It is the people with whom you have made a genuine connection, whether in-person or online, because you have a mutual interest and can gain more value through being connected than you would otherwise have alone. These are the people you can ask for help, and in turn help out.
+Your professional network is not the people you follow on social media, nor is it necessarily your friends. It is the people with whom you have made a genuine connection, whether in-person or online, because you have a mutual interest and can gain more value through being connected than you would otherwise have alone. These are the people you can ask for help, and in turn you can help out later.
 
 The network that will help you on your journey to becoming a software developer will mostly consist of people working in software development and adjacent roles, like recruitment or management. Take stock of your network in this field now. Chances are you might benefit from expanding it?
 
@@ -33,7 +33,7 @@ Think of it from the company’s perspective. Hiring is a pain. In a perfect wor
 
 So, how do you tap into the hidden jobs market? Through your network. If your network sees you as a trusted individual with a particular skill set, you can be sure they will think of you when matching opportunities arise. You might ask around about potential jobs and receive a heads up of a new opportunity at someone’s company. Better still, you could be recommended for a particular role. Many companies give bonuses to staff who refer a candidate that gets hired. So, the incentive to network and pass names along goes both ways.
 
-This is not all to say you should refrain entirely from applying on posted jobs. These can still be worthwhile to pursue, but we recommend quality over quantity and seeking companies that you find interesting and have core values you identify with. You will be better off sending fewer, tailored applications over hundreds of the same application in a shotgun-like approach. We cover more on this in the Getting Hired course.
+This is not all to say you should refrain entirely from applying to posted jobs. These can still be worthwhile to pursue, but we recommend quality over quantity and seeking companies that you find interesting and have core values you identify with. You will be better off sending fewer, tailored applications over hundreds of the same application in a shotgun-like approach. We cover more on this in the Getting Hired course.
 
 ### How to build a professional network
 
@@ -47,7 +47,7 @@ Your time is limited and your options are endless. So, you should understand wha
 
 In-person networking opportunities will vary based on your location. Larger towns and cities will likely have well-established tech-related events and groups, whereas smaller communities may be more limited. To get a better sense of what’s going on around you, consider the following:
 
-* Check [MeetUp](https://www.meetup.com/) and/or Google for communities focused on a given technology.
+* Check [MeetUp](https://www.meetup.com/), [LinkedIn](https://www.linkedin.com/), and/or Google for local communities focused on a given technology.
 * Scour local business publications for notices on local conferences and tech events.
 * Talk to friends and family to see who might be a software developer you could be introduced to.
 * Follow local tech companies on social media to learn about their in-person events.
