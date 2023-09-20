@@ -1,6 +1,6 @@
 ### Introduction
 
-Needless to say, whilst learning to code, you'll be spending most of your time on a computer. Hence, understanding how to work with your computer is crucial. In this lesson, we'll introduce a resource which will quickly get you up to speed with some computer basics. 
+Needless to say, while learning to code, you'll be spending most of your time on a computer. Hence, understanding how to work with your computer is crucial. In this lesson, we'll introduce a resource which will quickly get you up to speed with some computer basics. 
 
 ### Lesson overview
 
