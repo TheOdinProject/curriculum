@@ -244,6 +244,7 @@ Here is our Odin Project logo example with height and width tags included:
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Go ahead and update the `odin-links-and-images` project with width and height tags on the dog image.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
