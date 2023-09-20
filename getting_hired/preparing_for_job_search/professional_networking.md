@@ -47,7 +47,7 @@ Your time is limited and your options are endless. So, you should understand wha
 
 In-person networking opportunities will vary based on your location. Larger towns and cities will likely have well-established tech-related events and groups, whereas smaller communities may be more limited. To get a better sense of what’s going on around you, consider the following:
 
-* Check [MeetUp](https://www.meetup.com/), [LinkedIn](https://www.linkedin.com/), and/or Google for local communities focused on a given technology.
+* Check [Meetup](https://www.meetup.com/), [LinkedIn](https://www.linkedin.com/), and/or Google for local communities focused on a given technology.
 * Scour local business publications for notices on local conferences and tech events.
 * Talk to friends and family to see who might be a software developer you could be introduced to.
 * Follow local tech companies on social media to learn about their in-person events.
