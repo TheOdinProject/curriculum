@@ -24,10 +24,6 @@ This section contains a general overview of topics that you will learn in this l
 - Describe IIFE. What does it stand for?
 - Briefly explain namespacing and how it's useful.
 
-For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
-
-<iframe src="https://scrimba.com/scrim/c2aaKzcV?embed=odin,mini-header,no-sidebar,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
-
 ### Factory function introduction
 
 The factory function pattern is similar to constructors, but instead of using `new` to create an object, factory functions simply set up and return the new object when you call the function. Check out this example:
@@ -304,4 +300,6 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
+- [This video explains Closures with a good example.](https://www.youtube.com/watch?v=80O6L2Ez3GM)
 - [Learning JavaScript Design Patterns by Addy Osmani and Lydia Hallie](https://www.patterns.dev/)
+- [Interactive Scrim on factory functions](https://scrimba.com/scrim/c2aaKzcV)

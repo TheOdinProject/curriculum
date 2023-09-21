@@ -18,7 +18,7 @@ The window that opens will be mostly blank, with the exception of some text that
 
 It returns your username. Cool!
 
-Often guides and instructions for using the terminal will indicate commands by putting the symbol first, like `$ whoami`.  This tells you to type the command in your terminal, but don't enter the `$`. And remember if you are using a newer Mac the `%` is the the same as `$`
+Often guides and instructions for using the terminal will indicate commands by putting the symbol first, like `$ whoami`.  This tells you to type the command in your terminal, but don't enter the `$`. And remember if you are using a newer Mac the `%` is the same as `$`
 
 #### Why learn this now?
 

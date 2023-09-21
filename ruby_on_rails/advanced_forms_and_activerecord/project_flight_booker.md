@@ -1,4 +1,4 @@
-### Project: Flight Booker
+### Project: Flight booker
 
 In this project, you'll get a chance to tackle some more advanced forms.  This is the kind of thing you'll have to work with when handling user orders for anything more complicated than an e-book.  In this case, we'll build the first three steps of a typical checkout process for booking a one-way flight:
 
@@ -24,7 +24,7 @@ This project will require you to seed your database, so use your `db/seeds.rb` f
 2.  Create a new Rails app, e.g. `odin-flight-booker`, and a new Git repo
 3.  Modify the README to explain what you're doing and link back to the project here.
 
-#### Screen 1: Search
+#### Screen 1: search
 
 For the first screen, you will be creating 4 dropdown menus that will allow users to search for available flights -  departure airport, arrival airport, date, and number of passengers. This requires relatively vanilla forms that happen to be prepopulated with collections of data.  Working with dates will cover a bit of new ground for you.
 
@@ -36,7 +36,7 @@ For the first screen, you will be creating 4 dropdown menus that will allow user
 6.  Create your search form on the `/flights` index page to submit using a GET (not POST) request back to the same URL.
 7.  Add the four dropdown menus -- a list of departure airports, arrival airports, number of passengers (1-4), and a date dropdown for the flight date. The date dropdown should only include dates that have existing flights. Don't worry about restricting the contents of the airport dropdowns -- you'd normally use JavaScript -- so just allow the user to select any airport. See [this SO post on formatting date in dropdown lists](http://stackoverflow.com/questions/15720940/rails-format-date-in-drop-down-list-in-view), [this quickie SO post on selecting months/years](http://stackoverflow.com/questions/13001904/rails-drop-down-select-month-year) and the Rails [DateHelper API Docs](http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html) for some help with creating Date selects.
 
-#### Screen 2: Pick a Flight
+#### Screen 2: pick a flight
 
 Once search results are returned, the user just needs to choose from among the available flights.
 
@@ -45,7 +45,7 @@ Once search results are returned, the user just needs to choose from among the a
 3.  Don't get rid of the search dropdowns -- keep the search form active at the top so the user can try running a new search.
 4.  The search results will need to be in their own form -- this time for selecting which of the flights the user would like to choose.  Each returned flight should render with a radio button next to it.  The user will select which flight to submit and move onto the next step.  The form should submit to the `#new` action of the BookingsController you're about to create using another GET method.  You'll need to include a hidden field that contains the number of passengers.
 
-#### Screen 3: Passenger Information
+#### Screen 3: passenger information
 
 Once the user has submitted their chosen flight, it's time to take their booking information.  You'll need a form to submit the Booking and also create a Passenger object for each passenger who needs a ticket.  Don't worry about creating a separate "Ticket" object, we'll assume the airline will issue those once the booking is verified.
 
@@ -62,7 +62,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 -   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

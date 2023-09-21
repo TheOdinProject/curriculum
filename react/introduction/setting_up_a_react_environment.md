@@ -1,8 +1,8 @@
 ### Introduction
 
-You now know _what_ React is, you might even have an idea of _where_ to use it, it's time to start figuring out _how_. 
+You now know _what_ React is and you might even have an idea of _where_ to use it, it's time to start figuring out _how_. 
 
-This lesson is going to cover starting a new React project on your own machine, as well as some useful tools to help you along the way. We'll also explain some of the problems that may arise (and how to avoid them).
+This lesson is going to cover starting a new React project on your machine, as well as some useful tools to help you along the way. We'll also explain some of the problems that may arise (and how to avoid them).
 
 ### Lesson overview
 
@@ -91,7 +91,7 @@ Let's take a closer look at our new project. Inside you will find some folders, 
 
 The `public` folder is where all of the static assets related to your app will go. This could include images, icons, and information files for the browser.
 
-Inside of the `src` folder is where you will find the code that runs your app. The `main.jsx` file here serves as the entry point of the application. Let's open the `main.jsx` file and see if we can understand what's going on:
+Inside the `src` folder is where you will find the code that runs your app. The `main.jsx` file here serves as the entry point of the application. Let's open the `main.jsx` file and see if we can understand what's going on:
 
 ~~~jsx
 import React from 'react'
@@ -111,7 +111,7 @@ Whoa! There's quite a lot here. You are not expected to recognize much of this (
 1. We import `React` itself, and its fellow `ReactDOM` package.
 1. We import the `App` component from `App.jsx`, so that we may place (render) it within the DOM.
 1. We import some CSS styling (you may recognize this syntax from the Webpack material).
-1. We create a `root` object by invoking `React.createRoot` with an element from our `index.html`.
+1. We create a `root` object by invoking `ReactDOM.createRoot` with an element from our `index.html`.
 1. We invoke the `render` method which is attached to our `root` object, with some very interesting-looking syntax inside the parentheses.
 
 All of this may understandably look unlike anything you've seen up until now, but have no fear, once you've spent the time with this course, you'll know exactly what all of this does, and _much more_.
@@ -124,7 +124,7 @@ The starter project ships with [ESLint](https://eslint.org/). You could also set
 
 As you progress with React, your projects will undoubtedly become larger and larger and include more and more components, with increasing levels of functionality.
 
-When this happens, it becomes very useful to be able to track (and make live changes to) the moving parts inside of your app for the purposes of understanding and debugging your code. To this end, we can make use of a Chrome extension called [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en).
+When this happens, it becomes very useful to be able to track (and make live changes to) the moving parts inside of your app for understanding and debugging your code. To this end, we can make use of a Chrome extension called [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en).
 
 We recommend installing this and becoming comfortable with using it as early as possible as it is an invaluable tool for effective React development.
 
@@ -143,7 +143,7 @@ This section contains questions for you to check your understanding of this less
 
 * <a class="knowledge-check-link" href="#many-paths">What are some of the ways we can start a new React project?</a>
 * <a class="knowledge-check-link" href="#many-paths">Why should we initially be using pre-made toolchains instead of making our own?</a>
-* <a class="knowledge-check-link" href="#simplifying-the-process">What is Vite, why would we use it?</a>
+* <a class="knowledge-check-link" href="#simplifying-the-process">What is Vite and why would we use it?</a>
 * <a class="knowledge-check-link" href="#creating-a-react-app">What command can we run to scaffold a new React project using Vite?</a>
 * <a class="knowledge-check-link" href="#delving-deeper">What is in the `public` folder?</a>
 * <a class="knowledge-check-link" href="#delving-deeper">What is in the `src` folder?</a>

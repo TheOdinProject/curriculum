@@ -119,4 +119,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- The precise differences between `var` and `let` is explained in [javascript.info](https://javascript.info/var).
+- The differences between `var` and `let` are explained in [this javascript.info article titled the old "var"](https://javascript.info/var).

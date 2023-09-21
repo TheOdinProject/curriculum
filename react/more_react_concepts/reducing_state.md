@@ -7,9 +7,9 @@ learn _what_ they are, _when_ to use them and _how_ to use them in React with th
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* What are reducers.
-* When to use reducers.
-* What is the `useReducer` hook.
+- What are reducers.
+- When to use reducers.
+- What is the `useReducer` hook.
 
 ### What are reducers?
 
@@ -23,19 +23,19 @@ We can define a reducer that updates the state of a counter like this:
 ~~~js
 function reducer(state, action) {
   switch (action.type) {
-      case 'incremented_count': {
-        return { count: state.count + 1 }
-        }
-      case 'decremented_count': {
-          return { count: state.count - 1 }
-        }
-      case 'set_count': {
-          return { count: action.value }
-        }
-      default: {
-          throw error('unknown action: ' + action.type);
-        }
+    case "incremented_count": {
+      return { count: state.count + 1 };
     }
+    case "decremented_count": {
+      return { count: state.count - 1 };
+    }
+    case "set_count": {
+      return { count: action.value };
+    }
+    default: {
+      throw new error("unknown action: " + action.type);
+    }
+  }
 }
 ~~~
 
@@ -64,7 +64,7 @@ the returned value from it is used to update the state.
 const [state, dispatch] = useReducer(reducer, { count: 0 });
 
 function handleClick() {
-  dispatch({ type: 'incremented_count' });
+  dispatch({ type: "incremented_count" });
 }
 ~~~
 
@@ -78,10 +78,10 @@ Whether you use `useState` or `useReducer` is up to you, they're both equivalent
 <div class="lesson-content__panel" markdown="1">
 
 1. Read through the React docs [Extracting state logic into a reducer](https://react.dev/learn/extracting-state-logic-into-a-reducer) to learn more
-about how to use reducers in React and how to refactor `useState` into `useReducer`. Don't forget to complete the challenges at the end.
+   about how to use reducers in React and how to refactor `useState` into `useReducer`. Don't forget to complete the challenges at the end.
 
 2. Read the [useReducer](https://react.dev/reference/react/useReducer) React docs to learn more about this hook. Pay close attention to the
-[troubleshooting](https://react.dev/reference/react/useReducer#troubleshooting) section for common problems that you might encounter.
+   [troubleshooting](https://react.dev/reference/react/useReducer#troubleshooting) section for common problems that you might encounter.
 
 </div>
 

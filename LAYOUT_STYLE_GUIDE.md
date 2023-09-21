@@ -12,6 +12,8 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 
 **A note on language**: TOP follows American English and American style punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.
 
+**Using formatters**: Many projects have a standard in how their code is formatted which should always be followed when contributing. If you're using a formatter (such as Prettier), you should always be sure you aren't accidentally committing code that goes against that standard. This can be achieved by simply disabling the formatter, saving your files without formatting, or configuring your formatter to adhere to the project's standard.
+
 ## Table of Contents
 
 1. [Lesson layout](#lesson-layout)
@@ -223,6 +225,27 @@ Content before...
 
 ## Lists
 
+The Odin Project follows [Google's documentation style guide on lists](https://developers.google.com/style/lists#numbered-lettered-bulleted-lists).
+
+### Capitalization and end punctuation
+
+Capitalization and end punctuation depend on the type of list and the contents of the list.
+
+Generally, start each list item with a capital letter and end each list item with a period or other appropriate sentence-ending punctuation.
+
+~~~markdown
+- Use Git to make open-source contributions.
+- Understand how the web works.
+- Explain what OOP principles are.
+~~~
+
+Do not use end punctuation in the following cases:
+
+- If the item consists of a single word, don't use end punctuation.
+- If the item doesn't include a verb, don't use end punctuation.
+
+For more detailed examples of the exceptions, refer to [Google's style guide on lists](https://developers.google.com/style/lists#capitalization-and-end-punctuation)
+
 ### Lazy numbering
 
 Markdown is smart enough to let the resulting HTML render your numbered lists correctly. For longer lists that may change, especially long nested lists, use "lazy" numbering. The following Markdown:
@@ -388,6 +411,8 @@ Will result in the following output:
 
 Note boxes can be added by wrapping the content in a `div` with the class `lesson-note`. This will add styling to make the note stand out visually to users.
 
+For nested markdown inside note boxes to be displayed properly additional `markdown="1" attribute` is needed.
+
 A heading can be added to a note by using an `h4` element. When adding a heading, be sure to provide text that helps describe the note rather than "A note" or "Warning".
 
 ### Variations
@@ -398,13 +423,13 @@ Note boxes come in two variations, which can be set by adding an extra class tog
 
 ### Example
 ~~~markdown
-<div class="lesson-note">
+<div class="lesson-note" markdown="1">
 <h4>An optional title</h4>
 A sample note box.
 </div>
 ~~~
 ~~~markdown
-<div class="lesson-note lesson-note--tip">
+<div class="lesson-note lesson-note--tip" markdown="1">
 <h4>An optional title</h4>
 A sample note box, variation: tip.
 </div>

@@ -254,7 +254,7 @@ In the good example, no comments are needed at all. The use of descriptive funct
 
 _This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assignment section goes into more depth on this. We don't want you to avoid comments, just be mindful of how they are best used.
 
-Let's look at a one final example, where a comment serves a good purpose:
+Let's look at one final example, where a comment serves a good purpose:
 
 ~~~javascript
 
@@ -297,6 +297,5 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
-- THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)
 - [Airbnb style guide](https://github.com/airbnb/javascript)
 - [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)

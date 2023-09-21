@@ -10,7 +10,7 @@ To use an instance variable from your view, just call it the same way you would 
 
 As always, in this lesson we'll cover the high level stuff then have you read the Rails Guide for a more detailed understanding of how things work.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -31,7 +31,7 @@ So if a layout is basically just a shell around the individual page, how does th
 
 The other thing you've undoubtedly noticed is the odd HTML code that goes inside `<%=` and `%>` tags.  This is Embedded Ruby (ERB).  It's a special way of executing ruby code inside your HTML.  HTML is static, so you need to dial in some Ruby if you want to do anything dynamic like looping, `if` statements or working with variables.  ERB (and another similar language you might see called HAML) do exactly that.
 
-What those tags do is execute whatever you see inside them exactly as if it was normal Ruby.  So `<%= "<em>I am emphasized</em>" %>` will output an emphasized piece of text like <em>I am emphasized</em> and `<%= @user.first_name %>` might output `joe`.
+What those tags do is execute whatever you see inside them exactly as if it was normal Ruby.  So `<em><%= "I am emphasized" %></em>` will output an emphasized piece of text like <em>I am emphasized</em> and `<%= @user.first_name %>` might output `joe`.
 
 The difference between `<%` and `<%=` is that the `<%=` version actually displays whatever is returned inside the ERB tags.  If you use `<%`, it will execute the code but, no matter what is returned by that line, it will not actually display anything in your HTML template. `<%#` is used to comment and will not execute.
 
@@ -71,7 +71,7 @@ If the user isn't signed in, it'll be the much shorter:
 
 In the above code, if we had accidentally used `<%=` in the loop line, e.g. `<%= @users.each do |user| %>` it would run the code fine, but because `each` returns the original collection, we'd also see a dump of our `@users` variable on our page (not very professional).  It'll happen to you several times and you'll learn quick.
 
-### How Do Preprocessors Work?
+### How do preprocessors work?
 
 The important thing to note about the above code execution is that it is all done on the server BEFORE the final HTML file is shipped over to the browser (part of the Asset Pipeline, covered in the next lesson).  That's because, when you render your template in Rails, it first runs "preprocessors" like ERB.  It knows you want to preprocess the file because it has the extension `.html.erb`.  
 
@@ -81,7 +81,7 @@ There are other preprocessors you'll run into as well.  `.css.scss` files use th
 
 The point is, there are many different preprocessors.  They are usually gems that either already come with Rails or can easily be attached to it.  Rails then runs them automatically, so all you have to worry about is whether your file has the right extension(s) to tell the preprocessor to run.  
 
-### View Partials
+### View partials
 
 Another nice thing you can do in Rails is break apart your views into partials.  This helps you on several levels -- it makes your code more concise and easier to read, and also lets you reuse certain common patterns.  One example is the form for creating or editing users.  Both the `#new` and `#edit` actions need to render some sort of form for the user, and usually that form is almost exactly the same.  So often people will turn that form into a new file called something like `_user_form.html.erb` and then just call that in both the `new.html.erb` and `edit.html.erb` view templates where it's needed.
 
@@ -98,7 +98,7 @@ There are a couple of syntax oddities you need to pay attention to.  The view pa
 
 If there is no directory specified in partial's name, Rails will only look in the same folder as whichever view called it, e.g. `app/views/users`.  Sometimes it makes sense to share partials across multiple view templates that are in multiple controllers, so you save them in their own folder called `app/views/shared` and would then render them using the code `<%= render "shared/some_partial"%>`.
 
-### Passing Local Variables to Partials
+### Passing local variables to partials
 
 There's a lot you can do with partials and we won't dive into it all here, but one thing that you might find yourself doing a lot is passing variables to partials.  A partial has access to all the variables that the calling view template does, but do NOT rely on them!  What if your partial is used by a different controller that uses a different structure for its instance variables?  It's bad code to expect an instance variable like `@user` to be there in the partial all the time. That means you've got to explicitly pass the partial whichever variables you want it to have access to.  
 
@@ -117,7 +117,7 @@ There is a `render` shortcut that allows you to simply pass in variables without
 ~~~
 
 
-### Implicit Partials
+### Implicit partials
 
 As usual, there are some things you would end up doing so many times that Rails has given you a shortcut.  One of these is the act of rendering a model object like a User or a Post.  If you want a list of all your users, you could write out the HTML and ERB code for displaying a single user's first name, last name, email etc. many times directly in your `app/views/users/index.html.erb` file or you could keep that code in some sort of `each` loop.  
 
@@ -168,7 +168,7 @@ What if you want to render a whole bunch of users like we just did?  Rails also 
 
 In that situation, Rails not only finds the `_user.html.erb` file and passes it the correct `user` variable to use, it also loops over all the users in your `@user` collection for you.  Pretty handy.
 
-### Helper Methods
+### Helper methods
 
 `render`ing partials isn't the only method you can call from within a view.  Rails has a bunch of really handy helper methods that are available for you to use in the view.  A few of the most common:
 
@@ -188,7 +188,7 @@ You write:
 
 It's the Rails way.  And recall that `users_path` generates a relative URL like `/users` whereas `users_url` generates a full URL like `http://www.yourapp.com/users`.  In most cases, it isn't an important distinction because your browser can handle both, but make sure you understand the difference.
 
-### Asset Tags
+### Asset tags
 
 As you may have seen in the application layout file we talked about above, Rails gives you helper methods that output HTML tags to grab CSS or JavaScript files.  You can also grab images.  These are called Asset Tags.  We'll get into the "Asset Pipeline" a bit later, but basically these tags locate those files for you based on their name and render the proper HTML tag.
 
@@ -225,7 +225,7 @@ Now that you've got a taste of the high-level stuff, read through the Rails Guid
 
 Views in general make up the user-facing side of your app.  It can be a bit tricky at first to imagine how you choose which view to render, what to include in that view and how to use partials, but a few iterations of working with Rails will show you the conventions pretty quickly.  Views will become second nature to you.
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Stack Overflow Post on Views](https://stackoverflow.com/questions/14429910/an-alternate-explanation-to-rails-layouts-rendering-partials-templates-and-v)
@@ -233,7 +233,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Video on ERB Tags](https://www.youtube.com/watch?v=na28woOGPUw&ab_channel=NoobandTube) - (this video will require you to turn your volume up)
 * [Introduction to Ruby on Rails from freeCodeCamp](https://youtu.be/fmyvWz5TUWg) - If you'd like a deeper dive into routing, MVC, CRUD and partials watch the first 60 minutes of this video which provides a good wrap up for what we've been learning so far. You'll also get to create a simple Rails app from scratch if you'd like some extra practice.
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="#how-do-preprocessors-work">How do you make sure a preprocessor runs on your view file?</a>

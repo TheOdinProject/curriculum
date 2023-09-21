@@ -36,7 +36,7 @@ sudo apt update && sudo apt upgrade
 Simply run this command:
 
 ~~~bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
 ~~~
 
 This will install `nvm`
@@ -72,7 +72,7 @@ touch ~/.zshrc
 ~~~
 
 ~~~bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
 ~~~
 
 Restart your terminal, or copy and paste the following into your terminal and press <kbd>Enter</kbd>: 

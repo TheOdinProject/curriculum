@@ -29,17 +29,18 @@ Besides being a quick and handy way to store data, arrays also have a set of fun
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-At this point you just need a little more practice!  Go back to the [JavaScript exercises](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the Fundamentals 4 project and complete the following:
 
-* calculator
-* palindromes
-* fibonacci
-* getTheTitles
-* findTheOldest
+1. At this point you just need a little more practice!  Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Fundamentals Part 4](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4) assignment. Review each README file prior to completing the following exercises in order:
+    - `08_calculator`
+    - `09_palindromes`
+    - `10_fibonacci`
+    - `11_getTheTitles`
+    - `12_findTheOldest`
 
-Don't remember how to setup and test the exercises? No worries! Check out the [Fundamentals Part 4 lesson](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4#assignment) for a refresher. If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help on our Discord!
+    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
-Note: Solutions for these exercises can be found in the 'solutions' folder of each exercise.
+If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help on our [Discord](https://discord.gg/fbFCkYabZB)!
+
 </div>
 
 ### Knowledge check
