@@ -30,7 +30,7 @@ The CRUD operations roughly correlate to the HTTP methods that you can employ in
 
 MVC is another common concept in web development and also something that is likely to come up in an interview question.  MVC stands for _Model, View, Controller_ and refers to the architecture of your code. Basically, it is a way to organize your application by separating all of the actions into 3 main components: Models, Views and Controllers.
 
-<span id="model">**Models**</span> are the basic building blocks of your database. So for every entry in your DB (books, authors, etc. in our Library Project), you'll create a model that holds the details of that entry. Models define the types of information that get used by your views and controllers.
+<span id="model">**Models**</span> are the basic building blocks of your database. So for every type of entry in your DB (book, author, etc. in our Library Project), you'll create a model that will hold the details of that type of entry. Models define the types of information that get used by your views and controllers.
 
 <span id="view">**Views**</span> are, of course, the component that generates the UI for your application.  In our case, we've selected a templating engine that uses data supplied by a controller to display the desired information.
 

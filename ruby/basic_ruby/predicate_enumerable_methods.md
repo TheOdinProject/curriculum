@@ -164,7 +164,7 @@ fruits.all? { |fruit| fruit.length > 6 }
 Special note to keep in mind while debugging: `#all?` will return `true` by default unless the block returns `false` or `nil`. So if you call `#all?` on an empty array or hash (i.e., there are no elements  for the block to evaluate), it will return `true`.
 
 ### The none? method
-As you might expect, `#none?` performs the opposite function of `#all?`. It returns `true` only if the condition in the block matches *none* of the elements in your array or hash; otherwise, it returns `false`.
+As you might expect, `#none?` returns `true` only if the condition in the block matches *none* of the elements in your array or hash; otherwise, it returns `false`.
 
 First, let's see how this could be achieved using `#each`. You'll notice that this approach is very similar to what we did for `#all?`.
 

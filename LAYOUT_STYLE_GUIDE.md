@@ -411,6 +411,8 @@ Will result in the following output:
 
 Note boxes can be added by wrapping the content in a `div` with the class `lesson-note`. This will add styling to make the note stand out visually to users.
 
+For nested markdown inside note boxes to be displayed properly additional `markdown="1" attribute` is needed.
+
 A heading can be added to a note by using an `h4` element. When adding a heading, be sure to provide text that helps describe the note rather than "A note" or "Warning".
 
 ### Variations
@@ -421,13 +423,13 @@ Note boxes come in two variations, which can be set by adding an extra class tog
 
 ### Example
 ~~~markdown
-<div class="lesson-note">
+<div class="lesson-note" markdown="1">
 <h4>An optional title</h4>
 A sample note box.
 </div>
 ~~~
 ~~~markdown
-<div class="lesson-note lesson-note--tip">
+<div class="lesson-note lesson-note--tip" markdown="1">
 <h4>An optional title</h4>
 A sample note box, variation: tip.
 </div>

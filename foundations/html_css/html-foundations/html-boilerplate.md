@@ -49,6 +49,8 @@ Back in the `index.html` file, let's add the `<html>` element by typing out its 
 </html>
 ~~~
 
+Noticed the word `lang` here? It represents an HTML attribute which is associated with the given HTML tag i.e. `<html>` in this case.These attributes provide additional information about HTML elements.(More about `HTML attributes` in the following lesson)
+
 #### What is the lang attribute? 
 
 `lang` specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.

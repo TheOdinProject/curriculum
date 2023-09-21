@@ -366,8 +366,14 @@ If you need to add a _unique_ style for a _single_ element, this method can work
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises), read the README, and only do the exercises in the `foundations` directory in the order they're listed, starting with `01-css-methods` and ending with `05-descendant-combinator`.
+1.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `foundations` directory. Review each README file prior to completing the following exercises in order:
+    - `01-css-methods`
+    - `02-class-id-selectors`
+    - `03-group-selectors`
+    - `04-chain-selectors`
+    - `05-descendant-combinator`
 
+    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 </div>
 
 ### Knowledge check

@@ -43,7 +43,7 @@ This section contains a general overview of topics that you will learn in this l
 - How to write an object constructor and instantiate the object.
 - Describe what a prototype is and how it can be used.
 - Explain prototypal inheritance.
-- Understand the basic do's and don't's of prototypical inheritance.
+- Understand the basic do's and don't's of prototypal inheritance.
 - Explain what `Object.create` does.
 - Explain what the `this` keyword is.
 
@@ -373,7 +373,7 @@ This section contains questions for you to check your understanding of this less
 - [Write an object constructor and instantiate the object.](#object-constructors)
 - [Describe what a prototype is and how it can be used.](#the-prototype)
 - [Explain prototypal inheritance.](https://javascript.info/prototype-inheritance)
-- [Understand the basic do's and don't's of prototypical inheritance.](#recommended-method-for-prototypal-inheritance)
+- [Understand the basic do's and don't's of prototypal inheritance.](#recommended-method-for-prototypal-inheritance)
 - [Explain what `Object.create` does.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
 - [How does `this` behave in different situations?](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/)
 
