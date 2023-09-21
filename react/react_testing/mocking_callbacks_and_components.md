@@ -129,9 +129,9 @@ We only render the bare minimum to realize the validity of the component we're t
 
 <div class="lesson-note" markdown="1">
 
-#### Note
+#### Note - Vitest mocks
 
-The test here used `jest.mock()`. If you followed along and set up your test using vitest, you may use `vi.mock()` instead. See [vi.mock() API](https://vitest.dev/api/vi.html#vi-mock) 
+The test here used `jest.mock()`. If you followed along and set up your test using Vitest, you may use `vi.mock()` instead. See [`vi.mock()` API](https://vitest.dev/api/vi.html#vi-mock).
 
 </div>
 
