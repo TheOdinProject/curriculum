@@ -33,7 +33,7 @@ function reducer(state, action) {
       return { count: action.value };
     }
     default: {
-      throw new error("unknown action: " + action.type);
+      throw new Error("unknown action: " + action.type);
     }
   }
 }
