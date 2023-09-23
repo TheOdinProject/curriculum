@@ -1,6 +1,6 @@
 ### Why not constructors?
 
-We have discussed object constructors in the previous lesson. However, they are simply one of the many ways to organize your code. While they are fairly common in the code seen about the internet and a fundamental building block of the Javascript language, they have their flaws.
+We have discussed object constructors in the previous lesson. However, they are simply one of the many ways to organize your code. While they are fairly common in the code seen about the internet and a fundamental building block of the JavaScript language, they have their flaws.
 
 ### Lesson overview
 
@@ -19,7 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The word "scoping" essentially asks, "Where is a certain variable available to me?" - it indicates the current context of a variable. When a variable is not declared within **any** functions, existing outside any `{ curly braces }`, they are said to be in the **global scope**, meaning that they are available everywhere. If they are within a function or `{ curly braces }`, they are known to be **locally scoped**.
 
-Before ECMAScript 6, Javascript had a single keyword to declare a variable, `var`. These variables can be redefined and updated, and are said to be defined within the **function scope**, meaning, they are only available within the function they are declared in.
+Before ECMAScript 6, JavaScript had a single keyword to declare a variable, `var`. These variables can be redefined and updated, and are said to be defined within the **function scope**, meaning, they are only available within the function they are declared in.
 
 In ECMAScript 6, the keywords `let` and `const` were introduced. While `var` variables were function scoped, these allow you to define variables that are **block scoped** - basically, scoping the variable to only be available within the closest set of `{ curly braces }` in which it was defined. These braces can be those of a `for` loop, `if-else` condition, or any other similar construct, and are called, a block. Let's see an example to sum this all up.
 
@@ -30,15 +30,15 @@ function printAge (age) { // This is a function - and hey, a curly brace indicat
   var varAge = 34; // This is a function scoped variable
 
   if (age > 0) { // This is yet another curly brace, and thus a block
-    const constAge = age * 2; // This is a block scoped variable that exists in it's closest outer block, the if's in this case
+    const constAge = age * 2; // This is a block-scoped variable that exists within its nearest enclosing block, the if's block
     console.log(constAge);
   }
 
-  console.log(constAge); // ERROR! We tried to access a block scoped variable outside its scope
+  console.log(constAge); // ERROR! We tried to access a block scoped variable not within its scope
 }
 
 printAge(globalAge);
-console.log(varAge); // ERROR! We tried to access a function scoped outside the function it's defined in
+console.log(varAge); // ERROR! We tried to access a function scoped variable outside the function it's defined in
 ~~~
 
 Take a while to brew on that example. In the end, it's not some mind-blowing concept but there's a whole bunch of terms in there - it'll all help us understand the next mammoth - closures.
@@ -52,7 +52,7 @@ function makeAdding (first) { // "first" is scoped within the makeAdding functio
   return function resulting (second) { // "second" is scoped within the resulting function
     return first + second;
   }
-} // but we've not seen an example of a **function** being returned, thus far - how do we use it?
+} // but we've not seen an example of a "function" being returned, thus far - how do we use it?
 
 const add5 = makeAdding(5);
 console.log(add5(2)) // logs 7
@@ -65,13 +65,13 @@ A lot going on, so let's break it down:
 
 Now, while it may sound good at first glance, you can already be raising your eyebrows at the second statement. As we've learned, the `first` variable is scoped within the `makeAdding` function. When we declare and use `add5`, however, we're **outside** the `makeAdding` function. How does the `first` variable still exist, ready to be added when we pass an argument to the `add5` function? This is where we encounter the concept of closures.
 
-Functions in Javascript form closures. A closure refers to the combination of a function and the **surrounding state** within which a function was declared in. This surrounding state, also called its lexical environment, consists of any local variables that were in scope at the time the closure was made. Here, `add5` is a reference to the `resulting` function, created when the `makeAdding` function is executed, thus it has access to the lexical environment of the `resulting` function, which contains the `first` variable, making it available for use, rather than deleting it for being out of scope.
+Functions in JavaScript form closures. A closure refers to the combination of a function and the **surrounding state** within which a function was declared in. This surrounding state, also called its lexical environment, consists of any local variables that were in scope at the time the closure was made. Here, `add5` is a reference to the `resulting` function, created when the `makeAdding` function is executed, thus it has access to the lexical environment of the `resulting` function, which contains the `first` variable, making it available for use, rather than removing it from memory for being out of scope.
 
 This is a **crucial** behavior for function - which allows us to correlate things around a function and work on them anywhere outside it. If you're still confused, take a small detour to examine the [second question under the Knowledge check section](#knowledge-check) - no need to read the entire thing for now, anything from and after "Emulating private methods with closures" will be discussed further down this lesson, and you can come back to them when you encounter the article again after the lesson.
 
 ### So, what's wrong with constructors?
 
-One of the key arguments against constructors, in fact, the biggest argument is how they *look* like regular Javascript functions, even though they do not *behave* like regular functions. If you try to use a constructor function without the `new` keyword, not only does your program fail to work, but it also produces error messages that are hard to track down and understand.
+One of the key arguments against constructors, in fact, the biggest argument is how they *look* like regular JavaScript functions, even though they do not *behave* like regular functions. If you try to use a constructor function without the `new` keyword, not only does your program fail to work, but it also produces error messages that are hard to track down and understand.
 
 Yet another issue stems from the way the `instanceof` works. It checks the presence of a constructor's prototype in an object's *entire* prototype chain - which does nothing to confirm if an object was made with that constructor since the constructor's prototype can even be reassigned after the creation of an object.
 
@@ -97,7 +97,7 @@ function createUser (name) {
 
 ### The object shorthand notation
 
-Some may get confused by the way the returned object is written in the factory function example. In 2015, a shortcut to creating objects was added to Javascript. Say we wanted to make an object with a name, age, and color. We'd write it as the following:
+Some may get confused by the way the returned object is written in the factory function example. In 2015, a shortcut to creating objects was added to JavaScript. Say we wanted to make an object with a name, age, and color. We'd write it as the following:
 
 ~~~javascript
 const name = "Bob";
@@ -184,7 +184,7 @@ function createPlayer (name, level) {
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
 
-ECMAScript 6 introduced a new JavaScript feature called "modules" - which are a set of syntax for importing and exporting code between different Javascript files. While they are important and powerful, they are covered a bit later in the curriculum. We are not talking about them in this section.
+ECMAScript 6 introduced a new JavaScript feature called "modules" - which are a set of syntax for importing and exporting code between different JavaScript files. While they are important and powerful, they are covered a bit later in the curriculum. We are not talking about them in this section.
 
 </div>
 
