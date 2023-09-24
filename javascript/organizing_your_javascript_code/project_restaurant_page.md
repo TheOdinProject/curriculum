@@ -31,7 +31,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 
 
 1. Now remove those elements from the HTML (so leave only the `<html>` and `<body>`tags) and instead create them by using JavaScript only, e.g. by appending each new element to the body once the page is first loaded. 
-    1. If you're using the `HtmlWebpack`, you will need to edit your `src/index.js` file to insert the `div#content` into the body; the webpack creates a blank HTML page whic will remove your `div#content`
+    1. If you're using the `HtmlWebpackPlugin`, you will need to edit your `src/index.js` file to insert the `div#content` into the body; Webpack creates a new HTML page which will remove your `dist/index.html` file.
 
     1. Since we're all set up to write our code in multiple files, let's write this initial page-load function inside of its own module and then import and call it inside of `index.js`.
 
