@@ -157,7 +157,7 @@ Helping others solve a problem is not always easy. Remember to be patient as the
 
 #### 16. Duck out of the conversation if you get frustrated.
 
-Sometimes there are misunderstandings and interactions go poorly. You are a volunteer and are not obligated to help when things get out of hand. Politely duck out of the conversation and let someone else step up.
+Sometimes misunderstandings and interactions go poorly. You are a volunteer and are not obligated to help when things get out of hand. Politely duck out of the conversation and let someone else step up.
 
 
 ### Assignment
