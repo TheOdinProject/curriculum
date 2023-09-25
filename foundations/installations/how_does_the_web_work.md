@@ -51,7 +51,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 *   Listen to [Part 1](https://twit.tv/shows/security-now/episodes/25?autostart=false) (starts around 8:30) and [Part 2](https://twit.tv/shows/security-now/episodes/26?autostart=false) of Security Now Podcast's *How the web works* series.
 *   Watch [A packet's journey](https://www.youtube.com/watch?v=ewrBalT_eBM&feature).
-*   Consider buying the book [Tubes: Behind the Scenes at the Internet](https://www.amazon.co.uk/dp/B007TB5SKA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1).
+*   Consider buying the book [Tubes: Behind the Scenes at the Internet](https://www.amazon.co.uk/dp/B007TB5SKA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1). You can also try the Kindle edition; [Tubes: A Journey to the Center of the Internet](https://a.co/d/55ChNen)
 *   If you're in for a bit more reading, you can check out the [Introduction to HTTP](https://launchschool.com/books/http) online book at LaunchSchool. This book also touches on some topics covered later in the curriculum, such as developer tools and security. Additionally, you can learn about HTTP tools, which you may find helpful in the future.
 *   Explore how fiber optics uses light to transmit data over long distances, and with integrated photonics, expands our virtual world beyond the internet. [The hidden network that makes the internet possible](https://youtu.be/er3v4PVNQqE).
 *   Some advice on reading: We recommend that you only review the immediate links posted in our curriculum. You can always go deeper on any subject if you wish, but be careful not to overload yourself on information!
