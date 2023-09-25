@@ -1,6 +1,6 @@
 ### Introduction
 
-By now you should be starting to understand just how powerful React and reusable components can be, but you may be left wondering ‘How can I share information between components?’ or ‘Am I able to customize the behavior of my components each time I use them?'. In this lesson, we will learn about React props (short for properties) and how to use props to pass data between components. 
+By now you should be starting to understand just how powerful React and reusable components can be, but you may be left wondering ‘How can I share information between components?’ or ‘Am I able to customize the behavior of my components each time I use them?'. In this lesson, we will learn about React props (short for properties) and how to use props to pass data between components.
 
 ### Lesson overview
 
@@ -34,7 +34,7 @@ export default function App() {
   )
 }
 ~~~
-So far so good right? We have a beautiful reusable button that we can use as many times as we like, there is just one small problem. 
+So far so good right? We have a beautiful reusable button that we can use as many times as we like, there is just one small problem.
 
 What if we wanted the text within our second button to be “Don’t Click Me!’? Right now, we would have to create a second button component with this different text.
 
@@ -61,9 +61,14 @@ export default function App() {
   )
 }
 ~~~
-This may not seem like a huge deal right now, but what if we had 10 buttons, each one having different text, fonts, colors, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication. 
+This may not seem like a huge deal right now, but what if we had 10 buttons, each one having different text, fonts, colors, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication.
 
 Let's see how by using props, we can account for any number of variations with a *single* button component.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+<h4>"Missing in props validation"</h4>
+You may notice squiggly lines under your props (for example under `color` and `fontSize` inside the Button component below). Hovering over these will tell you they are `missing in props validation`. For now, this can safely be ignored as it is just a default ESLint rule warning about prop types, something that will be covered later in the course.
+</div>
 
 ~~~jsx
 function Button(props) {
@@ -149,7 +154,7 @@ export default function App() {
   );
 }
 ~~~
-As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined on `Button.defaultProps`. 
+As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined on `Button.defaultProps`.
 
 You can also combine default props and prop destructuring. Here's how it looks in action.
 

@@ -6,9 +6,9 @@ In this lesson, we'll cover common Git commands used to manage your projects and
 
 This section contains a general overview of topics that you will learn in this lesson.
 
--   How to create a repository on GitHub.
--   How to get files to and from GitHub.
--   How to take "snapshots" of your code.
+- How to create a repository on GitHub.
+- How to get files to and from GitHub.
+- How to take "snapshots" of your code.
 
 ### Assignment
 
@@ -16,11 +16,11 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Before you start!
 
--   Github recently updated the way it names the default branch. This means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
+- Github recently updated the way it names the default branch. This means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
   `git --version`
--   If you haven't already, set your <span id="main-push"></span>local default git branch to `main`. You can do so by running:
+- If you haven't already, set your <span id="main-push"></span>local default git branch to `main`. You can do so by running:
   `git config --global init.defaultBranch main`
--   For more information on the change from `master` to `main` see [GitHub's Renaming Repository](https://github.com/github/renaming).
+- For more information on the change from `master` to `main` see [GitHub's Renaming Repository](https://github.com/github/renaming).
 
 #### Create the repository
 
@@ -135,23 +135,23 @@ When trying to make simple changes to the files in your repo, such as attempting
 
 This is a reference list of the most commonly used Git commands. (You might consider bookmarking this handy page.) Try to familiarize yourself with the commands so that you can eventually remember them all:
 
--   Commands related to a remote repository:
-    -   `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
-    -   `git push` or `git push origin main` (Both accomplish the same goal in this context)
--   Commands related to the workflow:
-    -   `git add .`
-    -   `git commit -m "A message describing what you have done to make this snapshot different"`
--   Commands related to checking status or log history
-    -   `git status`
-    -   `git log`
+- Commands related to a remote repository:
+    - `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
+    - `git push` or `git push origin main` (Both accomplish the same goal in this context)
+- Commands related to the workflow:
+    - `git add .`
+    - `git commit -m "A message describing what you have done to make this snapshot different"`
+- Commands related to checking status or log history
+    - `git status`
+    - `git log`
 
 The basic Git syntax is `program | action | destination`.
 
 For example,
 
--   `git add .` is read as `git | add | .`, where the period represents everything in the current directory;
--   `git commit -m "message"` is read as `git | commit -m | "message"`; and
--   `git status` is read as `git | status | (no destination)`.
+- `git add .` is read as `git | add | .`, where the period represents everything in the current directory;
+- `git commit -m "message"` is read as `git | commit -m | "message"`; and
+- `git status` is read as `git | status | (no destination)`.
 
 ### Git best practices
 
@@ -195,22 +195,22 @@ For now, concentrate on using the basics of Git that you've learned here for all
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   [How do you create a new repository on GitHub?](#new-github-repo)
--   [How do you copy a repository onto your local machine from GitHub?](#github-to-local)
--   [What is the default name of your remote connection?](#default-remote)
--   [Explain what `origin` is in `git push origin main`.](#origin-push)
--   [Explain what `main` is in `git push origin main`.](#main-push)
--   [Explain the two-stage system that Git uses to save files.](#two-stages)
--   [How do you check the status of your current repository?](#git-status)
--   [How do you add files to the staging area in git?](#git-add)
--   [How do you commit the files in the staging area and add a descriptive message?](#git-commit)
--   [How do you push your changes to your repository on GitHub?](#git-push)
--   [How do you look at the history of your previous commits?](#git-log)
+- [How do you create a new repository on GitHub?](#new-github-repo)
+- [How do you copy a repository onto your local machine from GitHub?](#github-to-local)
+- [What is the default name of your remote connection?](#default-remote)
+- [Explain what `origin` is in `git push origin main`.](#origin-push)
+- [Explain what `main` is in `git push origin main`.](#main-push)
+- [Explain the two-stage system that Git uses to save files.](#two-stages)
+- [How do you check the status of your current repository?](#git-status)
+- [How do you add files to the staging area in git?](#git-add)
+- [How do you commit the files in the staging area and add a descriptive message?](#git-commit)
+- [How do you push your changes to your repository on GitHub?](#git-push)
+- [How do you look at the history of your previous commits?](#git-log)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--   [Complete Git and GitHub Tutorial from Basics to Advanced](https://www.youtube.com/watch?v=apGV9Kg7ics) -  by Kunal Kushwaha
--   [Git - Reference](https://git-scm.com/docs)
--   [This article about adding locally hosted code to GitHub](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github) will walk you through creating a git repository from a local folder and adding it to GitHub.
+- [Complete Git and GitHub Tutorial from Basics to Advanced](https://www.youtube.com/watch?v=apGV9Kg7ics) -  by Kunal Kushwaha
+- [Git - Reference](https://git-scm.com/docs)
+- [This article about adding locally hosted code to GitHub](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github) will walk you through creating a git repository from a local folder and adding it to GitHub.

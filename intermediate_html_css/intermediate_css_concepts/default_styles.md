@@ -22,7 +22,7 @@ You don't _have_ to use a CSS reset. In many cases, you're going to end up undoi
 <div class="lesson-content__panel" markdown="1">
 
 1.  [The Meyer Reset](https://meyerweb.com/eric/tools/css/reset/) is almost certainly the most popular. It's very simple and basically removes every default style.
-2.  [Normalize.css](http://nicolasgallagher.com/about-normalize-css/) is another popular one. It's a little different in that it doesn't remove all the default styles, but tweaks them slightly to ensure that browsers are consistent. Currently, the article's download link is dead. If you want to install normalize.css for your project, use the instructions found in the [normalize.css repository's](https://github.com/necolas/normalize.css) `README.md` file. If you are unsure which method to use, go with the NPM package install.
+2.  [Normalize.css](http://nicolasgallagher.com/about-normalize-css/) is another popular one. It's a little different in that it doesn't remove all the default styles, but tweaks them slightly to ensure that browsers are consistent. Currently, the article's download link is dead. If you want to install normalize.css for your project, download it from [normalize.css official website](https://necolas.github.io/normalize.css/) or use the instructions found in the [normalize.css repository's](https://github.com/necolas/normalize.css) `README.md` file. If you are unsure which method to use, go with the NPM package install.
 3.  [Reboot, Resets and Reasoning](https://css-tricks.com/reboot-resets-reasoning/) is a CSS tricks article that goes a little more in-depth, and mentions a few other popular resets.
 4.  Maybe more trivial than useful, this [Browser Default Styles](https://browserdefaultstyles.com/) site is fun to play with.
 
