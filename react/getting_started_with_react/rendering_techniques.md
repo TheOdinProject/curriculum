@@ -243,7 +243,7 @@ The first `if` statement will now execute and return a `<div>` with the text "Lo
 
 If none of those checks passed, then we have the data we need to render the list successfully. Try it out by adding items to the `animals` list and adding the property back.
 
-You can, Of course, also accomplish this with just the ternary and `&&` operators.
+You can, of course, also accomplish this with just the ternary and `&&` operators.
 
 ~~~javascript
 function List(props) {
