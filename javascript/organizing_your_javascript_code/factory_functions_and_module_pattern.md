@@ -125,6 +125,25 @@ console.log({ name, age, color });
 // now it logs as - { name: "Bob", age: 28, color: "red" }
 ~~~
 
+### Destructuring
+
+Yet another expression allows you to "unpack" or "extract" values from an object (or array). This is known as **destructuring**. When you have an object, you can extract a property of an object into a variable of the same name, or any named variable for an array. Take a look at the example below:
+
+~~~javascript
+const obj = { a: 1, b: 2 };
+const { a, b } = obj;
+// This creates two variables, a and b, which are equivalent to
+// const a = obj.a;
+// const b = obj.b;
+
+const array = [1, 2, 3, 4, 5];
+const [ zerothEle, firstEle ] = array;
+// This creates zerothEle and firstEle, both of which point
+// to the elements in the 0th and 1st indices of the array respectively
+~~~
+
+[The MDN article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) on this has some great examples and should be a good read for this concept.
+
 </div>
 
 ### Private variables and functions
