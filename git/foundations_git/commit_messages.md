@@ -33,11 +33,15 @@ Even though it describes what you did, the message is too vague, which leaves th
 Effective commits consist of two separate parts: a subject, and a body:
 
 #### Subject
-A brief summary of the change you made to the project.  **Note:** GitHub has a 72-character limit so we recommend keeping your commits' subject to within this amount.
+A brief summary of the change you made to the project. 
 
 ~~~
 This is the change I made to the codebase.
 ~~~
+
+<div class="lesson-note lesson-note--tip" markdown=1>
+GitHub has a 72-character limit so we recommend keeping your commits' subject to within this amount.
+</div>
 
 #### Body
 A concise yet clear description of what you did.
