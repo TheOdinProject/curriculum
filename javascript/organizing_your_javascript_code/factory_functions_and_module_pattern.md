@@ -1,6 +1,6 @@
 ### Why not constructors?
 
-We have discussed object constructors in the previous lesson. However, they are simply one of the many ways to organize your code. While they are fairly common in the code seen about the internet and a fundamental building block of the JavaScript language, they have their flaws.
+We have discussed object constructors in the previous lesson. However, they are simply one of the many ways to organize your code. While they are fairly common and a fundamental building block of the JavaScript language, they have their flaws.
 
 ### Lesson overview
 
@@ -48,7 +48,8 @@ Take a while to brew on that example. In the end, it's not some mind-blowing con
 The best way to approach this would be to start with an example - take a look at this piece of code below.
 
 ~~~javascript
-function makeAdding (first) { // "first" is scoped within the makeAdding function
+function makeAdding (firstNumber) { 
+  const first = firstNumber; // "first" is scoped within the makeAdding function
   return function resulting (second) { // "second" is scoped within the resulting function
     return first + second;
   }
