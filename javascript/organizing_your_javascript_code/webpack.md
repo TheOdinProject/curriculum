@@ -12,8 +12,6 @@ This section contains a general overview of topics that you will learn in this l
  - Manage output with webpack and HtmlWebpackPlugin.
  - Configure webpack with useful features for development.
 
- Just in case it helps for any further discussion, I thought I'd write up a quick draft for what I meant above by including our own lesson content in the webpack lesson (since currently it just introduces the lesson overview then dives straight into linking the official tutorials in the assignment with little other context).
-
 ### Bundling
 
 As briefly introduced in the previous lesson, if you give webpack a file as an entry point, it will build a dependency graph based on all the imports/exports starting there, before bundling everything into a single `.js` file in `dist`. If for whatever reason you needed it to output multiple bundles (e.g. you have multiple html pages that each need their own), then each entry point you give Webpack will produce its own output bundle.
@@ -51,10 +49,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 <div class="lesson-content__panel" markdown="1">
 
 1. Code along with [this tutorial](https://webpack.js.org/guides/asset-management/) to see examples of using webpack to manage your website's assets.
-2. Watch [this video](https://rapidevelop.org/webpack/setup-html-webpack-plugin) which demonstrates how to install `html-webpack-plugin` and set different options on it (note that some of the options shown are redundant as they are already the [default settings](https://github.com/jantimon/html-webpack-plugin#options)).
+2. [This short article and video](https://rapidevelop.org/webpack/setup-html-webpack-plugin) demonstrates how to install `html-webpack-plugin` and set different options on it (note that some of the options shown are redundant as they are already the [default settings](https://github.com/jantimon/html-webpack-plugin#options)). Whilst the written instructions do not show any code unlike the video, options are set just like the `template` option example shown above.
     1. The [webpack website's tutorial](https://webpack.js.org/guides/output-management/) on output management also gives an example of using `html-webpack-plugin` but does not demonstrate using the template option. It also starts by demonstrating how to configure multiple entry points - you are unlikely to need this feature for the projects in this part of the course.
 3. Finally, the first part of [this tutorial](https://webpack.js.org/guides/development/) talks about source maps, a handy way to track down which source file (index.js, a.js, b.js) an error is coming from when you use webpack to bundle them together. This is essential to debugging bundled code in your browser's DevTools. If the error comes from b.js the error will reference that file instead of the bundle. It also walks through an example of the `--watch` feature and `webpack-dev-server` package, either of which will prove invaluable when working with webpack.
-    1. Note that if you decide to use `webpack-dev-server`, the tutorial example sets it to serve from `dist`. If you are using `html-webpack-plugin`, you will want to change this to serve from `src` instead. This will make development much easier as all of your file paths and work can be kept within `src`.
+    1. Note that if you decide to use `webpack-dev-server`, the tutorial example sets it to serve from `dist`. If you are using `html-webpack-plugin`, you will want to change this to serve from `src` instead. This will make development much easier as all of your work and any file paths you use can be kept within `src` (Webpack will adjust all of these file paths when bundling if you set the correct loaders and asset rules).
     2. You can ignore the last option on `webpack-dev-middleware` as we will not be working with our own Express server for this part of the course.
 4. You don't need to do the rest of the webpack tutorials at this time, but take a look at what's offered on the sidebar of their [guides page](https://webpack.js.org/guides/). There are several sweet features that you may want to use in future projects such as code-splitting, lazy-loading, and tree-shaking, so being aware of some of these features can come in handy. Now that you have a handle on webpack's configuration system adding these features is as easy as using the right plugins and loaders!
 
@@ -67,5 +65,6 @@ This section contains questions for you to check your understanding of this less
 - [How do you load CSS using webpack?](https://webpack.js.org/guides/asset-management/#loading-css)
 - [How do you load images using webpack?](https://webpack.js.org/guides/asset-management/#loading-images)
 - [How do you load fonts using webpack?](https://webpack.js.org/guides/asset-management/#loading-fonts)
-- [How do you load data using webpack?](https://webpack.js.org/guides/asset-management/#loading-data)
+- [How do you automatically build HTML files in `dist` using webpack?](https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin)
+- [How do you automatically build an HTML file in `dist` using a custom template in `src`?](https://rapidevelop.org/webpack/setup-html-webpack-plugin)
 - [How would you track errors in bundled source code?](https://webpack.js.org/guides/development/)
