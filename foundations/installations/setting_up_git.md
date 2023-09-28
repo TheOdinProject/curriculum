@@ -58,9 +58,11 @@ First, you'll need to install Homebrew.  Make sure you have checked the requirem
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ~~~
 
-**Note:** On an Apple Silicon Mac you will have an extra step to take.
+<div class="lesson-note lesson-note--warning" markdown=1>
+On an Apple Silicon Mac you will have an extra step to take.
 If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal there will be a section called "Next steps".
 Reading the terminal may seem a bit intimidating, but this is a great chance to overcome those feelings. Follow the next steps as stated in your terminal (copy and paste the commands given) to add Homebrew to your PATH, which allows you to use the `brew` command prefix.
+</div>
 
 #### Step 1.1: Update Git
 
