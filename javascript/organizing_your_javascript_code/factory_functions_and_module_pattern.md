@@ -26,19 +26,27 @@ In ECMAScript 6, the keywords `let` and `const` were introduced. While `var` var
 ~~~javascript
 let globalAge = 23; // This is a global variable
 
-function printAge (age) { // This is a function - and hey, a curly brace indicating a block
+// This is a function - and hey, a curly brace indicating a block
+function printAge (age) {
   var varAge = 34; // This is a function scoped variable
 
-  if (age > 0) { // This is yet another curly brace, and thus a block
-    const constAge = age * 2; // This is a block-scoped variable that exists within its nearest enclosing block, the if's block
+  // This is yet another curly brace, and thus a block
+  if (age > 0) {
+    // This is a block-scoped variable that exists
+    // within its nearest enclosing block, the if's block
+    const constAge = age * 2;
     console.log(constAge);
   }
 
-  console.log(constAge); // ERROR! We tried to access a block scoped variable not within its scope
+  // ERROR! We tried to access a block scoped variable
+  // not within its scope
+  console.log(constAge);
 }
 
 printAge(globalAge);
-console.log(varAge); // ERROR! We tried to access a function scoped variable outside the function it's defined in
+// ERROR! We tried to access a function scoped variable
+// outside the function it's defined in
+console.log(varAge);
 ~~~
 
 Take a while to brew on that example. In the end, it's not some mind-blowing concept but there's a whole bunch of terms in there - it'll all help us understand the next mammoth - closures.
@@ -48,12 +56,17 @@ Take a while to brew on that example. In the end, it's not some mind-blowing con
 The best way to approach this would be to start with an example - take a look at this piece of code below.
 
 ~~~javascript
-function makeAdding (firstNumber) { 
-  const first = firstNumber; // "first" is scoped within the makeAdding function
-  return function resulting (second) { // "second" is scoped within the resulting function
+function makeAdding (firstNumber) {
+  // "first" is scoped within the makeAdding function
+  const first = firstNumber;
+  return function resulting (secondNumber) {
+    // "second" is scoped within the resulting function
+    const second = secondNumber;
     return first + second;
   }
-} // but we've not seen an example of a "function" being returned, thus far - how do we use it?
+}
+// but we've not seen an example of a "function"
+// being returned, thus far - how do we use it?
 
 const add5 = makeAdding(5);
 console.log(add5(2)) // logs 7
@@ -86,12 +99,16 @@ These fancy-sounding functions work very similar to how constructors did, but wi
 const User = function (name) {
   this.name = name;
   this.discordName = "@" + name;
-} // hey, this is a constructor - then this can be refactored into a factory!
+}
+// hey, this is a constructor - 
+// then this can be refactored into a factory!
 
 function createUser (name) {
   const discordName = "@" + name;
   return { name, discordName };
-} // and that's very similar, except since it's just a function, we don't need a new keyword
+}
+// and that's very similar, except since it's just a function,
+// we don't need a new keyword
 ~~~
 
 <div class="lesson-note" markdown="1">
@@ -117,11 +134,13 @@ const nowFancyObject = { name, age, color };
 An added advantage to this is that it's now possible to console.log values neatly!
 
 ~~~javascript
-// If you wanted to log these values, earlier, you would have done the following
+// If you wanted to log these values, earlier,
+// you would have done the following
 console.log(name, age, color);
 // which would have resulted in a mess - Bob 28 red
 
-// Try wrapping it in some { curly braces } now, which makes it an object!
+// Try wrapping it in some { curly braces } now,
+// which makes it an object!
 console.log({ name, age, color });
 // now it logs as - { name: "Bob", age: 28, color: "red" }
 ~~~
@@ -133,17 +152,18 @@ Yet another expression allows you to "unpack" or "extract" values from an object
 ~~~javascript
 const obj = { a: 1, b: 2 };
 const { a, b } = obj;
-// This creates two variables, a and b, which are equivalent to
+// This creates two variables, a and b,
+// which are equivalent to
 // const a = obj.a;
 // const b = obj.b;
 
 const array = [1, 2, 3, 4, 5];
 const [ zerothEle, firstEle ] = array;
 // This creates zerothEle and firstEle, both of which point
-// to the elements in the 0th and 1st indices of the array respectively
+// to the elements in the 0th and 1st indices of the array
 ~~~
 
-[The MDN article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) on this has some great examples and should be a good read for this concept.
+[The MDN article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) on destructuring has some great examples and should be a good read for this concept.
 
 </div>
 
@@ -166,7 +186,10 @@ const josh = createUser("josh");
 josh.giveReputation();
 josh.giveReputation();
 
-console.log({ name: josh.discordName, reputation: josh.getReputation }); 
+console.log({
+  name: josh.discordName,
+  reputation: josh.getReputation
+});
 // logs { name: "josh", reputation: 2 }
 ~~~
 
