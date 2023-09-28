@@ -178,7 +178,9 @@ To create a new SSH key, run the following command inside your terminal.
 ssh-keygen -t ed25519 -C "your@email.com"
 ~~~
 
-**Note:** The `-C` flag is to write a comment, otherwise the key will be generated with your computer's username. The convention is to use your email as a comment to indicate who generated that public key. For example if your email address is `odin@theodinproject.com`, then you would type `ssh-keygen -t ed25519 -C "odin@theodinproject.com"`.
+<div class="lesson-note lesson-note--tip" markdown="1">
+The `-C` flag is to write a comment, otherwise the key will be generated with your computer's username. The convention is to use your email as a comment to indicate who generated that public key. For example if your email address is `odin@theodinproject.com`, then you would type `ssh-keygen -t ed25519 -C "odin@theodinproject.com"`.
+</div>
 
 * When it prompts you for a location to save the generated key, just push <kbd>Enter</kbd>.
 * Next, it will ask you for a password; enter one if you wish, but it's not required.
