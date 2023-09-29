@@ -21,7 +21,7 @@ Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. S
 ~~~jsx
 // CustomButton.jsx
 
-const CustomButton = ({ onClick}) => {
+const CustomButton = ({ onClick }) => {
   return (
     <button onClick={onClick}>Click me</button> 
   );
