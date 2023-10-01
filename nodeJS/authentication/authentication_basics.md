@@ -311,7 +311,7 @@ Password hashes are the result of passing the user's password through a one-way 
 Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:
 
 ~~~javascript
-bcrypt.hash("somePassword", 10, async (err, hashedPassword) => {
+bcrypt.hash(req.body.password, 10, async (err, hashedPassword) => {
   // if err, do something
   // otherwise, store hashedPassword in DB
 });

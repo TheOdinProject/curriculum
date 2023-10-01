@@ -127,6 +127,14 @@ jest.mock('../submission', () => ({ submission, isDashboardView }) => (
 
 We only render the bare minimum to realize the validity of the component we're testing. Next, we set up our props with fake data and mocked functions.
 
+<div class="lesson-note" markdown="1">
+
+#### Note - Vitest mocks
+
+The test here used `jest.mock()`. If you followed along and set up your test using Vitest, you may use `vi.mock()` instead. See [`vi.mock()` API](https://vitest.dev/api/vi.html#vi-mock).
+
+</div>
+
 Let's move toward our first assertion. Don't worry too much about the `ProjectSubmissionContext.Provider`. In the context of this test, its purpose is to act as a route to pass in the `allSubmissionsPath` prop. We've already identified the three points of interest that we want to test. We divide them into three test suites for readability purposes using `describe`.
 
 In the first suite, we make some assertions if the user has a submission and then some assertions if the user does not. The other suites follow a similar pattern.

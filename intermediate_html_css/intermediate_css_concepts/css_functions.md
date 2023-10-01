@@ -58,7 +58,9 @@ Combined with CSS variables, `calc()` can save us from the headache of repeating
 
 You should be able to grasp how `calc()` is used in the above CodePen embed. We encourage you to play around with different units and sizes of the elements to see what results you get before moving on.
 
-**Note:** The above is just an example of how `calc()` can affect a layout, but keep in mind that `calc()` is likely not the best way to go about it. We will talk more about layouts in future lessons.
+<div class="lesson-note lesson-note--tip" markdown=1>
+The above is just an example of how `calc()` can affect a layout, but keep in mind that `calc()` is likely not the best way to go about it. We will talk more about layouts in future lessons.
+</div>
 
 #### min()
 
