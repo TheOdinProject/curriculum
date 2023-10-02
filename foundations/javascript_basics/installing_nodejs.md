@@ -102,7 +102,7 @@ Now that we have `nvm` installed, we can install Node.
 Run:
 
 ~~~bash
-nvm install --lts
+nvm install lts
 ~~~
 
 This will install the most recent stable version of Node in 'long-term support' (LTS), and you’ll see a lot of output in the terminal. If everything worked, you should see something similar to this somewhere in the lines of output (with the X's replaced with actual numbers):
@@ -111,14 +111,14 @@ This will install the most recent stable version of Node in 'long-term support' 
 Downloading and installing Node vXX.xx.x...
 ~~~
 
-If not, close the terminal, re-open it and run `nvm install --lts` again.
+If not, close the terminal, re-open it and run `nvm install lts` again.
 
 #### Step 2: Setting the Node version
 
 We need to tell `nvm` which version of Node to use when we run the `node` command. It's easy; just run the following command:
 
 ~~~bash
-nvm use --lts
+nvm use lts
 ~~~
 
 We have told `nvm` to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilities with packages we will be installing in future lessons. The LTS version of Node is simply a version that is guaranteed support for thirty months after its initial release. It is more stable and compatible with a variety of packages than a non-LTS version of Node.
