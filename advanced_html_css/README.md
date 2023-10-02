@@ -6,7 +6,7 @@ This folder contains lesson markdown files that make up the Advanced HTML and CS
 
 The following list represents how the lessons are divided into sections and presented on the website.
 
-**Disclaimer:** Given the ever updating nature of the curriculum, the outline might be outdated. See the [Advanced HTML and CSS course on the website](https://www.theodinproject.com/paths/full-stack-javascript/courses/advanced-html-and-css)
+**Disclaimer:** Given the ever-updating nature of the curriculum, the outline might be outdated. See the [Advanced HTML and CSS course on the website](https://www.theodinproject.com/paths/full-stack-javascript/courses/advanced-html-and-css)
 instead.
 
 ### Animation
