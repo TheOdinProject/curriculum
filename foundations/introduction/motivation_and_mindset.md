@@ -178,5 +178,4 @@ This section contains helpful links to related content. It isn’t required, so 
   * [typing.com](https://www.typing.com/)
   * [TypingClub.com](https://www.typingclub.com)
   * [Monkeytype](https://monkeytype.com/)
-*   [Practice typing with Monkeytype!](https://monkeytype.com/) A minimalistic, customizable typing website. Test yourself in various modes, track your progress and improve your typing speed. It has a great community and frequently receives new features. Even though it has so many features, the experience is still very polished. 
 *   [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
