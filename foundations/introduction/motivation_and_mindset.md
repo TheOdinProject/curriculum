@@ -173,9 +173,9 @@ This section contains helpful links to related content. It isn’t required, so 
 
 *   [Managing inspiration and motivation](https://markmanson.net/do-something)
 *   [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
-*   If you find your typing speed is holding you back, you can improve your typing skills by utilizing these keyboard trainers for at least 5 minutes every day:
-  * [Keybr.com](https://www.keybr.com/)
-  * [typing.com](https://www.typing.com/)
-  * [TypingClub.com](https://www.typingclub.com)
-  * [Monkeytype](https://monkeytype.com/)
+-   If you find your typing speed is holding you back, you can improve your typing skills by utilizing these keyboard trainers for at least 5 minutes every day:
+  - [Keybr.com](https://www.keybr.com/)
+  - [typing.com](https://www.typing.com/)
+  - [TypingClub.com](https://www.typingclub.com)
+  - [Monkeytype](https://monkeytype.com/)
 *   [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
