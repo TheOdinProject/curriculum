@@ -11,11 +11,6 @@ This section contains a general overview of topics that you will learn in this l
 *   You'll learn all about _the box model_.
 *   You'll learn how to make sure elements are just the right size with `margin`, `padding`, and `borders`
 
-
-For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
-
-<iframe src="https://scrimba.com/scrim/cof3d488184abe24ec6258ab4?embed=odin,mini-header,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
-
 ### The box model
 
 The first important concept that you need to understand to be successful in CSS is the box model. It isn't complicated, but skipping over it now will cause you much frustration down the line.
@@ -73,4 +68,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+*  For a more interactive explanation and example, try this [Scrim on the box model](https://scrimba.com/scrim/cof3d488184abe24ec6258ab4).

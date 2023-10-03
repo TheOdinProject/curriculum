@@ -247,8 +247,8 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="#handling-errors">Why should you manually throw errors in fetch requests?</a>
 - <a class="knowledge-check-link" href="#managing-multiple-fetch-requests">How can you avoid waterfalling requests?</a>
 
-## Additional resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- [TanStack Query documentation](https://tanstack.com/query/latest/docs/react/overview) is a library that handles all the necessary states and offers built-in support for major features, such as caching.
+- [TanStack Query](https://tanstack.com/query/latest/docs/react/overview) is a library that handles all the necessary states and offers built-in support for major features, such as caching.

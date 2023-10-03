@@ -10,10 +10,6 @@ This section contains a general overview of topics that you will learn in this l
 - Understand how to use the class and ID attributes.
 - Add styles to specific elements using the correct selectors.
 
-For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
-
-<iframe src="https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d?embed=odin,mini-header,no-sidebar,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
-
 ### Basic syntax
 
 At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on this in a bit) and a semi-colon separated list of declarations, with each of those declarations being made up of a property:value pair.
@@ -224,28 +220,6 @@ In the above example, the first two elements with the `contents` class (B and C)
 
 There's really no limit to how many combinators you can add to a rule, so `.one .two .three .four` would be totally valid. This would just select an element that has a class of `four` if it has an ancestor with a class of `three`, and if that ancestor has its own ancestor with a class of `two`, and so on. You generally want to avoid trying to select elements that need this level of nesting, though, as it can get pretty confusing and long, and it can cause issues when it comes to specificity.
 
-### Order matters!
-
-When two selectors have the same level of specificity, the rule that is defined last has the most precedence; that is, the last rule overrides any rules before it. Take a look at the following example:
-
-~~~css
-/* styles.css */
-.first_declared, .last_declared {
-  background-color: rgb(200, 50, 150);
-  font-weight: 800;
-}
-.first_declared {
-  color: rgb(50, 50, 200);
-  font-size: 32px;
-}
-.last_declared {
-  font-size: 14px;
-  font-weight: 800;
-}
-~~~
-
-In the above example, the selector last_declared would override the first_declared selector. Any html element with both of those classes would have the styles defined in .last_declared instead of .first_declared.
-
 ### Properties to get started with
 
 There are some CSS properties that you're going to be using all the time, or at the very least more often than not. We're going to introduce you to several of these properties, though this is by no means a complete list. Learning the following properties will simply be enough to help get you started.
@@ -392,8 +366,14 @@ If you need to add a _unique_ style for a _single_ element, this method can work
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises), read the README, and only do the exercises in the `foundations` directory in the order they're listed, starting with `01-css-methods` and ending with `05-descendant-combinator`.
+1.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `foundations` directory. Review each README file prior to completing the following exercises in order:
+    - `01-css-methods`
+    - `02-class-id-selectors`
+    - `03-group-selectors`
+    - `04-chain-selectors`
+    - `05-descendant-combinator`
 
+    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 </div>
 
 ### Knowledge check
@@ -412,3 +392,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - [Mozilla CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) can be used to learn the various types of values possible in absolute or relative terms.
+- [An interactive Scrim](https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d) which covers much of the material in the lesson in an interactive form.

@@ -4,13 +4,13 @@ Hopefully, you've been having fun developing in Ruby thus far. Perhaps one thing
 
 Folks, we're here to tell you there *IS* a better way. Hoping is for that exam you didn't study for and took by the seat of your pants. **Knowing** is test-driven development.
 
-### Learning Outcomes
+### Learning outcomes
 *Look through these now and use them to guide your learning. By the end of this lesson, expect to:*
 
 * Understand what test-driven development (TDD) is, and why it's important.
 * Understand the three stages of a TDD cycle.
 
-### What is Test-Driven Development?
+### What is test-driven development?
 
 [Test-Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development) is a process and technique of software development that relies on the repetition of a very short and specific development cycle. In each cycle, requirements (i.e., what you want your code to do) are turned into specific test cases first. These requirements could be anything from an entire feature that requires end-to-end (E2E) testing, such as tests that cover a user logging into your website successfully AND unsuccessfully, to a new Ruby class you've devised, for which unit tests might suffice. Either way, the test suite for these requirements fail initially, since actual code hasn't been written yet. 
 
@@ -18,7 +18,7 @@ Once the code is written and passes our test suite, you can move onto refactorin
 
 Colloquially, this process is often referred to as the "**red-green-refactor**" cycle. That's all it is, in a nutshell: automated tests **drive** the design of software. You don't need to know how the entire architecture of your sweet, new, industry-breaking application will work. Your application only has to be broken down, step-by-step, until small units are identified and covered by tests.
 
-### Why Is It Important?
+### Why is it important?
 
 Even if TDD intuitively seems like good practice, its utility is hotly debated even today. 
 
@@ -41,13 +41,13 @@ As usual, it depends. Still, here are some reasons we think it might be importan
 
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [This video](https://www.youtube.com/watch?v=PCEHRFHKZSk) that provides counter arguments for DHH’s [“TDD is Dead. Long Live Testing”](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html)
 * [This series of talks](https://martinfowler.com/articles/is-tdd-dead/) that provides an even more rounded take on TDD.
    
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

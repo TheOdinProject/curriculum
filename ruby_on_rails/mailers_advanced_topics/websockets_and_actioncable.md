@@ -4,7 +4,7 @@ In a typical interaction between a client and website, a browser makes a request
 
 There are often times when you want to keep that connection open so that the server can update the client if there is something relevant for the user. For that we have WebSockets, and Action Cable brings WebSockets to Rails in an easy to use way.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -306,7 +306,7 @@ The connection only remains active while the http request remains unbroken. Refr
   2. Follow along with this [Simple Messaging App](https://github.com/TheOdinProject/curriculum/blob/main/ruby_on_rails/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Action Cable to a project
 </div>
 
-### Knowledge Checks
+### Knowledge checks
 
 * <a class='knowledge-check-link' href='#what-is-a-websocket'>What options did developers have before WebSockets to update a client without a user request?</a>
 * <a class='knowledge-check-link' href='#terminology'>How can you broadcast to a stream from the server?</a>

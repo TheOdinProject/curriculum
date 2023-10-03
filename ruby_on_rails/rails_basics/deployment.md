@@ -5,7 +5,7 @@ Whether it's to share our creations with friends, create a portfolio for future 
 
 In this lesson, we will learn how to deploy our apps to a hosting provider, allowing us to run, build, and operate our web applications in the cloud.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -15,12 +15,12 @@ This section contains a general overview of topics that you will learn in this l
 - How to deploy to a PaaS provider.
 - How to troubleshoot common deployment issues.
 
-### What are Hosting Providers?
+### What are hosting providers?
 Hosting providers are like server landlords. They own servers and rent space on them to customers, who can then use the space to store their websites and make them accessible to anyone on the web.
 
 You've already had some experience using a hosting provider when you deployed projects to Github Pages earlier in the curriculum. GitHub Pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** Ruby on Rails apps. We're going to need something more powerful.
 
-#### Static vs Dynamic Sites
+#### Static vs dynamic sites
 Static websites consist of pre-written HTML pages. They are "static" because everyone who visits them will see the same content. To build static sites, you only need HTML, CSS and Javascript.
 
 Dynamic websites, on the other hand, are websites that can change content based on the user who is visiting them. Twitter is a good example; every Twitter user sees different content on their homepage feed based on who they follow. To build dynamic sites, you still need HTML, CSS and JS. But additionally, you need a server-side language such as Ruby and a database.
@@ -57,7 +57,7 @@ The peace of mind this affords you can't be overstated. You never want to be in 
 
 With Rails, we will be using PostgreSQL, a popular open-source database. Some PaaS providers like Heroku will automatically create a PostgreSQL database for our application when we first deploy. Others, like Fly.io, will have a few more manual steps involved, but it still beats having to set up a database from scratch.
 
-#### Domain Names
+#### Domain names
 PaaS providers will give you a random domain name when you first deploy. In Heroku's case, something zen-like "afternoon-falls-4209". If you want to visit the app, you can go directly to `http://afternoon-falls-4209.herokuapp.com` to see your app live on the web in all its glory.
 
 The domain name will always be yours on a PaaS provider. They give each app a unique domain name that's yours as long as your app lives on their platform.
@@ -68,7 +68,7 @@ To find a new domain, try using [Domainr](https://domainr.com/).
 
 Once you have your domain, you need to point it to your project. The provider you are using will have exhaustive documentation on using custom domain names on their platform.
 
-### Our Recommended PaaS Services
+### Our recommended PaaS services
 Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small apps as you wanted. Unfortunately, they discontinued their free tier in 2022.
 
 Luckily, there are still plenty of other great options out there. The downside is they all have very limited free tiers. For this reason, and to accommodate as many of our learners as possible, we're going to recommend a range of options instead of just one.
@@ -160,14 +160,14 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-### Debugging and Troubleshooting Deployments
+### Debugging and troubleshooting deployments
 Errors are an inevitable part of the software development process. They especially have a habit of popping up when deploying to a new environment like a hosting provider. When this happens, the key is not to panic and to follow a calm, step-by-step debugging process.
 
 In most cases, you'll be running into errors that thousands of developers have encountered before. These errors are well documented and often have simple solutions you can find with a little bit of Google-fu.
 
 There are two stages of the deployment process where you are most likely to encounter problems. These are during deployment and right after.
 
-#### On Deployment
+#### On deployment
 If you run into an error while deploying, the first thing to do is to check the build logs. Finding the build logs should be easy; it's the stream of output you'll see after kicking off a new deployment.
 
 Scroll through these logs and find the point where the deployment encountered the error. It should stand out from the rest of the output and will often look like the stack traces you've already seen with Ruby. The error output will tell you exactly what went wrong.
@@ -176,7 +176,7 @@ If you don't recognize the error or what might cause it, your next step will be 
 
 Most of the errors you'll face during this stage will be related to properly setting up your app with what your hosting provider needs. Double-checking the deployment guide for your hosting provider is always a good place to start. It's very easy to miss a step or mistype something.
 
-#### After Deployment
+#### After deployment
 You've just deployed your app successfully; everything is going your way, and this will be a great day! But then you visit your app... and are greeted with the dreaded 500 page.
 
 Nothing induces panic in a developer quite like a 500 page. It could mean just about anything. Error pages in production are deliberately vague to let users know something went wrong without all the overwhelming technical jargon. Another important reason is to prevent attackers from using errors in your system to their advantage.
@@ -191,13 +191,13 @@ If the logs tell you the application crashes before it even boots and give you n
 
 A common cause of 500 errors in Rails after deployment is forgetting to migrate the database. If you're getting a 500 error and have new database migrations in the latest changes, run `rails db:migrate` on your production database to get it up and running again.
 
-#### Going Further with Troubleshooting Tools
+#### Going further with troubleshooting tools
 As your application grows, you'll want to get more sophisticated with your error-tracking tools. For example, you can use services like [Sentry](https://sentry.io/) to track and monitor errors using a slick, easy-to-use interface and get notified when they happen.
 
 These services will give you more information about the error and the request that caused it, saving you a ton of time. But, setting up and using these services are out of the scope of this lesson. You can get by just fine with the logs and the Rails console for your first few apps.
 
 
-#### One Final Tip
+#### One final tip
 If something has broken in your latest deployment after successful deployments in the past, backtrack to the last working version to determine what changes you made and slowly reintroduce those changes again if you need to.
 
 This will be where the Git skills you've been learning will start to really pay off and save you an immense amount of time. You'll be able to use `git log` to see the history of your latest changes and `git checkout` to revert to a previous working version quickly.
@@ -212,7 +212,7 @@ This will be where the Git skills you've been learning will start to really pay 
 </div>
 
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you're having trouble answering a question, click it and review the material it links to.
 
@@ -223,7 +223,7 @@ This section contains questions for you to check your understanding of this less
 * [What steps can you take to diagnose an issue that arises during deployment?](#on-deployment)
 * [What steps can you take to diagnose an issue that only appears after deployment?](#after-deployment)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 

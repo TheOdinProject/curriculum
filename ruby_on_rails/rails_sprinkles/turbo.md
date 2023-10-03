@@ -2,9 +2,9 @@
 
 When a user makes a request to your application, your controller is the part of MVC that receives it and responds with the `.html.erb` view file. As you've been working on your applications so far, you may have been creating views with similar features and layouts. What if there was a way to only change the parts of our views that are different and not have to bother with updating content that we don't intend to change in the first place? We could cut down on loading times for the user and the amount of data our application has to send out.
 
-That's where the concept of a **single page application** comes in. This section will be about how we can use a framework known as **Turbo** to implement single page application behaviour in our very own Rails application. This section covers a lot of tools and you may not fully understand them as you read through the first time. That's okay, consider this lesson to be a resource that you can refer back to when you actually begin using the  tools mentioned and get more of a visual as to what exactly is going on in your views.
+That's where the concept of a **single-page application** comes in. This section will be about how we can use a framework known as **Turbo** to implement single-page application behaviour in our very own Rails application. This section covers a lot of tools and you may not fully understand them as you read through the first time. That's okay, consider this lesson to be a resource that you can refer back to when you actually begin using the  tools mentioned and get more of a visual as to what exactly is going on in your views.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -15,12 +15,12 @@ This section contains a general overview of topics that you will learn in this l
 - How to use Turbo Streams to update your pages.
 - What Turbo Native is used for.
 
-### Single Page Applications (SPAs)
+### Single-page applications (SPAs)
 
-Before getting into Turbo, it's important to understand the concept of a Single Page Application, or SPA. A SPA is an
+Before getting into Turbo, it's important to understand the concept of a single-page application, or SPA. A SPA is an
 implementation for web applications that loads only a single web document. Rather than constantly replacing this document with a brand new one on every request, the website dynamically rewrites the current page with new information so that the page loads faster and feels more like a native application. A page refresh never occurs. Think about websites such as Gmail or Facebook where you see a brand-new email or timeline post without needing to refresh your page.
 
-#### Creating a Single Page Application in Rails
+#### Creating a Single-page application in Rails
 
 There are various Javascript frameworks to help developers implement SPA functionality. You have possibly heard of some of them, such as AngularJS or ReactJS. However, Rails has its own solution to creating the experience of a SPA without writing Javascript. This solution is a collection of libraries that are under the umbrella of Hotwire.
 
@@ -47,7 +47,7 @@ Here is a quick summary of the four Turbo techniques together. As you continue t
 
 ### Turbo Frames
 
-#### Creating a Frame
+#### Creating a frame
 
 Imagine a piece of paper and cutting out a small square hole in it. You could change what you see through the hole by swapping out another piece of paper behind it, but the rest of the paper will always look the same. That's the idea of Turbo Frames. Turbo Frames allow us to predefine a portion of our page to be replaced during a request. Any links or forms inside of our frame will make a special request that results in only changing the frame. A page can also have multiple Turbo Frames.
 
@@ -82,7 +82,7 @@ With the Turbo Frame helper, you can substitute the ID for a variable. For insta
 
 The above example will generate a turbo frame for every article. Each frame will have a unique id like `article_1` or `article_2` and all we had to include was our article variable. 
 
-#### Connecting to Other Frames
+#### Connecting to other frames
 
 Now that we have our first frame, we can replace its content with a link that request new frame content. All we have to do is put a link inside of the Turbo Frame, where the requested view *also* includes a Turbo frame with the **same ID**.
 
@@ -122,7 +122,7 @@ Sometimes you may have a link inside of the Turbo Frame that you want to act as 
 <%= link_to "Return to Article", @article, data: { turbo_frame: "_top" } %>
 ~~~
 
-#### Targeting a Turbo Frame from Outside
+#### Targeting a Turbo Frame from outside
 
 We can also do the opposite. We can make a link that exists outside of our Turbo Frame act as if it was inside of the Frame and update it. This time, we set the `turbo-frame` data attribute to point to the ID of the specific frame. Lets say we want to designate a turbo frame to show either a list of posts or a list of images:
 
@@ -135,7 +135,7 @@ We can also do the opposite. We can make a link that exists outside of our Turbo
 
 Clicking either of the above links will send a request to the respective path and return the content inside of our `"list-region"` frame.
 
-#### Src & Lazy Loading
+#### Src & lazy loading
 
 Frames can be given a `src` attribute. When this is supplied, the frame will be populated after the initial page load by making a separate request to the associated path. We can also wrap placeholder content inside of this `src` frame to create a [skeleton placeholder](https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a).
 
@@ -178,7 +178,7 @@ Now we know how to set up our views to use Turbo Frames, but what about content 
 Turbo Streams are delivered by use of our controller. Just like how your users make `html` requests and receive `view.html.erb` files, your users can receive `view.turbo_stream.erb` files. These are not standalone view files as you know them, they only contain a few lines and are a way of sending the user a Stream response instead of a new page.
 
 
-#### Our First Turbo Stream
+#### Our first Turbo Stream
 
 Let's say that we have made a website where users can create posts. By adding a `turbo_frame` with a `src:` attribute that points to our `new_post_path`, and our `new` post view being wrapped in a `turbo_frame_tag` with a matching `id`, we can include our `new` action form on the same page as our `index` feed. It may look something like this.
 
@@ -255,7 +255,7 @@ However, if a user is to submit a post right now, something weird happens! The f
 All of this looks very scary and like something is wrong, but it's fine. All we have to do is set up our Turbo Stream and the pieces will all begin to work together again.
 
 
-#### Turbo Stream in the Controller
+#### Turbo Stream in the controller
 
 For starters, we tell our controller that we want to accept a Turbo Stream format. This is done in the same way as accepting a format such as JSON. Our create action may now look like:
 
@@ -281,7 +281,7 @@ We include the `422 Unprocessable Entity` error code with our response upon an u
 
 Now all we have to do is create our `create.turbo_stream.erb` file to respond with.
 
-#### Turbo Stream Template
+#### Turbo Stream template
 
 You create your Turbo Stream file inside of your `views` folder the same way as any other view. In this example, it would be located at `views/posts/create.turbo_stream.erb`. Our view file will look like this:
 
@@ -293,7 +293,7 @@ That line is all we need! What this does is create a Turbo Stream packet with th
 
 Now that we have added the `format.turbo_stream` response to our controller and our `create.turbo_stream.erb` file, we can now create a post and watch it append to the list.
 
-#### Additional Turbo Stream Tips
+#### Additional Turbo Stream tips
 
 There's no time to get more in-depth on how Turbo Stream works in this lesson, but here are some topics for you to begin your personal research
 if you would like to learn more:
@@ -319,9 +319,9 @@ The final piece of Turbo is something that you don't need to know much about for
 
 <div class="lesson-content__panel" markdown="1">
 
-#### Single Page Applications
+#### Single-page applications
 
-1. Read sections 1, 2, and 3 of Bloomreach's [What Is A Single Page Application](https://www.bloomreach.com/en/blog/2018/07/what-is-a-single-page-application.html#whatssingle-page-application)
+1. Read sections 1, 2, and 3 of Bloomreach's [What Are Single Page Applications and Why Do People Like Them So Much?](https://www.bloomreach.com/en/blog/2018/07/what-is-a-single-page-application.html#whatssingle-page-application)
    article
 
 #### Hotwire
@@ -340,22 +340,23 @@ The final piece of Turbo is something that you don't need to know much about for
 
 </div>
 
-### Additional Resources
+### Additional resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [Turbo Reference Information](https://turbo.hotwired.dev/reference/drive)
+* Check out this tutorial on [Turbo Frames and Turbo Stream](https://www.hotrails.dev/turbo-rails/turbo-frames-and-turbo-streams) to build a quotes editor.To get started right away, enter in command line `rails new quote-editor;rails scaffold g quotes` and in migration add `t.string :name` and then `rails db:migrate`.
 * [Official Hotwire Forums](https://discuss.hotwired.dev/)
 * Remember you can use your browser developer tools to [watch network activity](https://developer.chrome.com/docs/devtools/network/) and see what is happening with your Turbo requests and responses. If something doesn't work, check to see if your browser received a Rails error message. Look for a red font.
 
-### Knowledge Check
+### Knowledge check
 
 *This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.*
 
 <details markdown="block">
   <summary>What does SPA stand for & what is it?</summary>
 
-  *   A SPA is a Single Page Application.
+  *   A SPA is a single-page application.
   *   A SPA is a web-app that doesn't need to reload the page during use to update.
 
 </details>

@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 *   What are effects?
 *   How are effects used in React?
-*   What are the different parts of an `useEffect` hook?
+*   What are the different parts of a `useEffect` hook?
 *   When should I use an effect?
 
 ### Using effect saves the day
@@ -39,7 +39,7 @@ export default function Clock() {
 
 Alas, we see our counter going berserk. The reason this occurs is that we try to **manipulate the state during render**. As we know, the component gets torn down and re-rendered every time the state updates, and we are updating the state every second, thus incrementing rapidly.
 
-This is where the `useEffect` hook swoops in to save us. We can wrap this calculation inside an `useEffect` hook to move it outside the rendering calculation. It accepts a callback function with all the calculations.
+This is where the `useEffect` hook swoops in to save us. We can wrap this calculation inside a `useEffect` hook to move it outside the rendering calculation. It accepts a callback function with all the calculations.
 
 ~~~jsx
 import React, { useEffect, useState } from "react";
@@ -222,7 +222,6 @@ Let us address a few cases where `useEffect` does not need to be used.
 
 1.  [This lesson of the React docs](https://react.dev/learn/lifecycle-of-reactive-effects) talks about the life of a component, the different stages at which rendering takes place, and the role of `useEffect` in it.
 2.  [Yet another article that explains a common mistake](https://dmitripavlutin.com/react-useeffect-infinite-loop) that beginners make, the infinite `useEffect` loop.
-3.  [This article](https://dev.to/colocodes/6-use-cases-of-the-useeffect-reactjs-hook-282o) goes over some examples of the `useEffect` hook being used.
 </div>
 
 ### Knowledge check
@@ -230,7 +229,7 @@ Let us address a few cases where `useEffect` does not need to be used.
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 *   <a class="knowledge-check-link" href="#introduction">What is an effect?</a>
-*   <a class="knowledge-check-link" href="#body-of-an-useEffect">What constitutes an `useEffect` hook?</a>
+*   <a class="knowledge-check-link" href="#body-of-an-useEffect">What constitutes a `useEffect` hook?</a>
 *   <a class="knowledge-check-link" href="#but-do-we-need-the-effect">What is the one question we can ask to know when to use an effect?</a>
 *   <a class="knowledge-check-link" href="#lifting-the-state">What do we mean by lifting up the state?</a>
 

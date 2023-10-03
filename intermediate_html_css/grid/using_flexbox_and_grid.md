@@ -68,3 +68,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 - MDN wrote an in-depth article on the relationship between Grid and other layout methods [here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout)
+- If you are a visual learner, [Flexbox30](https://www.samanthaming.com/flexbox30/) is a great resource for quick visual reference. 

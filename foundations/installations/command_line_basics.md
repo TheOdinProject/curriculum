@@ -18,7 +18,7 @@ The window that opens will be mostly blank, with the exception of some text that
 
 It returns your username. Cool!
 
-Often guides and instructions for using the terminal will indicate commands by putting the symbol first, like `$ whoami`.  This tells you to type the command in your terminal, but don't enter the `$`. And remember if you are using a newer Mac the `%` is the the same as `$`
+Often guides and instructions for using the terminal will indicate commands by putting the symbol first, like `$ whoami`.  This tells you to type the command in your terminal, but don't enter the `$`. And remember if you are using a newer Mac the `%` is the same as `$`
 
 #### Why learn this now?
 
@@ -39,7 +39,9 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-**Note**: Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites).
+<div class="lesson-note lesson-note--warning" markdown=1>
+Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites).
+</div>
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
     

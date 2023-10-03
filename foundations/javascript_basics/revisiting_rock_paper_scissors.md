@@ -70,7 +70,7 @@ For example: if you have a bug in a new feature you’re working on that you can
     1. Now let's merge our `rps-ui` branch into `main`, our current branch, with `git merge rps-ui`.
     1. If everything goes fine, our `rps-ui` branch is now successfully merged with main! Use `git log` and you'll see all the commits you've made to your feature branch on top of the commits you made to the main branch. Now for our final step!
     1. Let's push our `main` branch into our remote repo by running `git push origin main` . Go to your GitHub repo and you'll see that our `main` branch will have all the changes and commits you made to the `rps-ui` branch. Congratulations! You've successfully pushed your first feature into your production branch!
-    1. Now that we have all our code in the main branch, we don't really need our `rps-ui` branch anymore. Let's do some cleanup, both locally and in the remote repo. Delete the branch from our local repo with `git branch -d rps-ui` and also delete it from the remote repo on GitHub with `git push --delete origin rps-ui`. Congrats, we're all done with our cleanup!
+    1. Now that we have all our code in the main branch, we don't really need our `rps-ui` branch anymore. Let's do some cleanup, both locally and in the remote repo. Delete the branch from our local repo with `git branch -d rps-ui` and also delete it from the remote repo on GitHub with `git push origin --delete rps-ui`. Congrats, we're all done with our cleanup!
 1. Make sure to publish the project on GitHub Pages and add a live preview link in the [project lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors).
 
 </div>

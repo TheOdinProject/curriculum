@@ -2,7 +2,7 @@
 
 There are some topics that we just haven't had a chance to get into yet but will prove useful for you to know.  In this section we'll cover advanced routing, layouts, and a brief introduction to metaprogramming.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -13,11 +13,11 @@ This section contains a general overview of topics that you will learn in this l
 - What metaprogramming is.
 - What design patterns are.
 
-### Advanced Routing
+### Advanced routing
 
 You should be quite familiar by now with the bread and butter of routing -- converting RESTful requests using the familiar HTTP verbs into mappings for specific controller actions (whether using the `#resources` method or explicitly specifying them using the `get` method).  That's 90% of what you'll use your routes file for... but that other 10% gives you some pretty neat options like redirecting directly from the routes file, nesting routes inside each other, or parsing parameters from the incoming request.
 
-#### Singular Resources
+#### Singular resources
 
 You might have already run into this at some point without necessarily understanding it.  Up until now, we've been talking about resources (like "posts" and "users") where there are a whole lot of them.  It seems fairly intuitive.  In your `config/routes.rb` file, you represent these simply with a single line like `resources :users`.
 
@@ -46,7 +46,7 @@ The `$ rails routes` for a singular resource would only contain 6 routes (since 
   edit_dashboard  GET /dashboards/:id/edit(.:format)  dashboards#edit
 ~~~
 
-### Nested Routes
+### Nested routes
 
 Sometimes it just makes sense for one resource to be nested inside of another.  For instance, a listing of lessons like this logically falls within a listing of courses -- so you'd expect a URL sort of like `http://example.com/courses/1/lessons/3`. The way to achieve this nesting is in the routes file by literally nesting one resource inside a block given to another, which might look something like:
 
@@ -84,7 +84,7 @@ Don't nest routes too deeply! If you're more than a layer or two deep, something
 
 If this seems a bit confusing at first, you'll pick it up quickly when you actually run into it in your own coding.  If you find yourself working inside your controller and needing the parent's ID, the route should have been nested.  If you find that you don't need the parent's ID, it doesn't need to be nested.  Easy enough.
 
-#### Member and Collection Routes
+#### Member and collection routes
 
 Sometimes you want to add another non-RESTful route to a resource. If you'd like to add a route to just a single member of that resource, use the `#member` method:
 
@@ -121,7 +121,7 @@ The `upcoming` route will map to the `courses#upcoming` action but will not take
 
 If any of this seems confusing, just play around with them and run `$ rails routes` to see what is happening behind the scenes.
 
-#### Redirects and Wildcard Routes
+#### Redirects and wildcard routes
 
 You might want to provide a URL out of convenience for your user but map it directly to another one you're already using.  Use a redirect:
 
@@ -136,7 +136,65 @@ Well, that got interesting fast.  The basic principle here is to just use the `#
 
 In the example above, we've also renamed the route for convenience by using an alias with the `:as` parameter.  This lets us use that name in methods like the `#_path` helpers.  Again, test out your `$ rails routes` with questions.
 
-### Advanced Layouts: Nesting Layouts and Passing Information
+### Controllers, models and keeping things RESTful
+
+Along with the advanced routing topics covered, it can also be helpful to think about controllers in Rails that don't necessarily have their own ActiveRecord model to work with. Consider that we have a request for the application so that a `lesson` can have accompanying `images`. That seems easy enough, so we can update our model:
+
+~~~ruby
+# app/models/lesson.rb
+class Lesson < ApplicationRecord
+  # other stuff
+  has_many_attached :images
+end
+~~~
+
+Then, we think about how we might want to manage these images from the route and controller side. We might think of something like this at first:
+
+~~~ruby
+# config/routes.rb
+resources :lessons do
+  member do
+    patch :attach_image
+    delete :remove_image
+  end
+end
+~~~
+
+Then we have accompanying methods in the `LessonsController` to process the images. This would work well enough, but when we think about Rails controllers as standalone concepts, we might choose to implement this feature differently. Consider this second approach to the implementation:
+
+~~~ruby
+# config/routes.rb
+resources :lessons do
+  resources :images, only: [:create, :delete]
+end
+~~~
+
+Along with a new controller `Lessons::ImagesController` which looks like this:
+
+~~~ruby
+# app/controllers/lessons/images_controller.rb
+module Lessons
+  class ImagesController < ApplicationController
+    def create
+      # logic to attach images to a course
+    end
+
+    def destroy
+      # logic to remove an image image from a course
+    end
+  end
+end
+~~~
+
+What we've done is made the implementation more RESTful, because we no longer have any custom non-RESTful actions. Instead, we have a whole new (RESTful) controller. This controller doesn't relate to its own model to handle these actions, but works on the `Lesson` model. Not only that, by using a new controller we are able to stick to the REST actions to describe what we are doing: *creating* a new image attachment, or *destroying* an image for a lesson.
+
+In fact, if you think about it, this was implicit in our original attempt: `attach_image` and `remove_image` both follow the `<action>_<noun>` pattern, which might be a signal we could use another resource. We've also used a nested controller here to provide a clue to the next developer of our intention. By keeping our actions in the RESTful realm, it can become easy to extend the application. Keeping things RESTful also makes it easier to understand what is happening without having to do a lot of digging around.
+
+When we can think beyond the controller/model coupling in Rails, it can open the door to many possibilities. You could have a controller tied to a specific attribute of a model, even!
+
+For more information and examples, there is an excellent talk by Derek Prior called "In Relentless Pursuit of REST" in the additional resources section that is highly recommended.
+
+### Advanced layouts: Nesting layouts and passing information
 
 We got pretty good coverage of view layouts in the lesson on Views but one other topic involves rendering multiple layouts for one page, which allows you to create unique sections that still reuse a lot of the stylings that you might want to keep consistent across your whole site (e.g. the footer).  For example, maybe the user pages should have a different styling than your home page.  The first thought might be to try and have a different stylesheet for each layout but remember that Rails' Asset Pipeline jams all your stylesheets together anyway.
 
@@ -253,7 +311,7 @@ Here's a good example of [simple metaprogramming to DRY up your code](http://rai
 
 Check out [Metaprogramming Ruby](http://www.amazon.com/Metaprogramming-Ruby-Program-Like-Pros/dp/1934356476) by Paolo Perrotta if you're really curious.
 
-### Design Patterns
+### Design patterns
 
 Design patterns have a mixed reputation among software developers.  On the one hand, they represent "best practices" for how to code past a given situation (not specific code, just a template for how to fix something).  On the other, they can be sort of needlessly prescriptive.  See the [Wikipedia article on Design Patterns](http://en.wikipedia.org/wiki/Software_design_pattern) for an overview.  We won't be covering specific patterns in this course.
 
@@ -295,17 +353,18 @@ In this lesson we covered some fairly random and intricate concepts but useful s
 
 The more general principles like SOLID design and metaprogramming will be useful to you regardless of whether you stick with Ruby and Rails or move on to better and brighter things.
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Stack Overflow question on the topic](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
+* [In Relentless Pursuit of REST by Derek Prior](https://www.youtube.com/watch?v=HctYHe-YjnE)
 * [A video from Yehuda Katz on Rails Security](http://youtu.be/2Ex8EEv-WPs)
 * See the first solution to [this SO question](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting) for a nice way to work with multiple layouts that use classes to trigger different CSS styling.
 * [Ruby Metaprogramming](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
 * [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)
 * [A longer explanation of SOLID principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="#singular-resources">What would the routes file line for a singular resource look like?</a>

@@ -1,6 +1,6 @@
 ### Introduction
 
-In this lesson we will cover keys in React. Keys are special props for our components and we'll learn why they are used.
+In this lesson, we will cover keys in React. Keys are special props for our components and we'll learn why they are used.
 
 ### Lesson overview
 
@@ -11,13 +11,13 @@ By the end of the lesson you should be able to answer the following:
 
 ### Why does React need keys?
 
-In the upcoming lessons as you learn more about the internal workings of React, more specifically the rerendering process, you will understand the importance of keys. For now we will keep it simple. 
+In the upcoming lessons as you learn more about the internal workings of React, more specifically the rerendering process, you will understand the importance of keys. For now, we will keep it simple. 
 
-In the previous lesson on rendering lists we used the `.map()` method to iterate over an array of data and return a list of elements. Now imagine, if any of the item in the list were to change, how would React know which item to update?
+In the previous lesson on rendering lists, we used the `.map()` method to iterate over an array of data and return a list of elements. Now imagine, if any of the items in the list were to change, how would React know which item to update?
 
 If the list were to change, one of two things _should_ happen:
 1. we completely re-render the entire list, or:
-2. we hunt down that specific items that were changed and only re-render those.
+2. we hunt down the specific items that were changed and only re-render those.
 
 Assuming we want to hunt down that one specific item that was changed and NOT re-render the entire list. We need something to track that specific item. We can track down a specific item by using a `key`.
 
@@ -35,7 +35,7 @@ Keys are passed into the component or a DOM element as a prop. You should alread
 <div key={keyValue} />
 ~~~
 
-<span id="keys-from-data">Now that we know the syntax, the next question is: what should be used as a key? Ideally they should be some identifier that is unique to each item in the list. Most databases assign a unique id to each entry, so you shouldn't have to worry about assigning an id yourself. If you are defining data yourself, it is good practice to assign a unique `id` to each item. You may use the [uuid](https://www.npmjs.com/package/uuid) package to generate a unique id. Let's look at an example:</span>
+<span id="keys-from-data">Now that we know the syntax, the next question is: what should be used as a key? Ideally, they should be some identifier that is unique to each item in the list. Most databases assign a unique id to each entry, so you shouldn't have to worry about assigning an id yourself. If you are defining data yourself, it is good practice to assign a unique `id` to each item. You may use the [uuid](https://www.npmjs.com/package/uuid) package to generate a unique id. Let's look at an example:</span>
 
 ~~~jsx
 // a list of todos, each todo object has a task and an id
@@ -57,7 +57,7 @@ function TodoList() {
 }
 ~~~
 
-<span id="index-as-key">Additionally, if the list is static and will remain unchanged throughout the application's life, we can use the array index as a key. Though you should be careful when working with `index` as key.</span>
+<span id="index-as-key">Additionally, if you're sure the list will remain unchanged throughout the application's life,  you can use the array index as a key. However, this is not recommended since it can lead to confusing bugs if the list changes when items are deleted, inserted, or rearranged. You will learn more about this in the assignment section's linked article.</span>
 
 ~~~jsx
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -65,7 +65,7 @@ const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
 function MonthList(){
   return (
     <ul>
-      {/* here we are using index as key */}
+      {/* here we are using the index as key */}
       {months.map((month, index) => (<li key={index}>{month}</li>))}
     </ul>
   )
@@ -95,7 +95,7 @@ function TodoList() {
 
 ### Conclusion
 
-Don't fret if some of the terms covered in the lesson don't make sense yet. What's crucial right now is knowing how to use keys effectively in React. As mentioned earlier, the more you learn about React, that's when you will realize why keys are so important. Furthermore, using keys is not limited to rendering lists. You might encounter use-cases where keys are needed, we'll leave that for you to discover.
+Don't fret if some of the terms covered in the lesson don't make sense yet. What's crucial right now is knowing how to use keys effectively in React. As mentioned earlier, the more you learn about React, that's when you will realize why keys are so important. Furthermore, using keys is not limited to rendering lists. You might encounter use cases where keys are needed, we'll leave that for you to discover.
 
 ### Assignment
 
@@ -114,7 +114,7 @@ This section contains questions for you to check your understanding of this less
 - [Why does React need keys?](#why-does-react-need-keys)
 - [How do you use keys?](#using-keys)
 - [Where should the key value ideally come from?](#keys-from-data)
-- [When can we use array index as the key value?](#index-as-key)
+- [When can we use an array index as the key value?](#index-as-key)
 - [What is an anti-pattern when using keys?](#anti-pattern)
 
 ### Additional resources

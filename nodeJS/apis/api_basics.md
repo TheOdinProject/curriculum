@@ -53,7 +53,7 @@ For now, it is acceptable to just allow access from any origin. This makes devel
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [This article](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design) is a good resource for understanding and [organizing](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths) RESTful APIs.
+1. [This article](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design) is a good resource for understanding and organizing RESTful APIs. If you want to code along with the first article, please note this includes the body-parser middleware to parse JSON data on the request body, however since Express 4.16.0 this parsing functionality has been incorporated directly into the express package itself.
 1. Read and code along with [this tutorial](https://www.robinwieruch.de/node-express-server-rest-api/) on setting up a REST API in Express. This is one of the best Express tutorials we've come across, it also talks about modular code organization, writing middleware, and links to some great extra info at the end.
 </div>
 

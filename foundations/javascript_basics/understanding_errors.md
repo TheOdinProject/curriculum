@@ -12,7 +12,11 @@ This section contains a general overview of topics that you will learn in this l
 
 ### The anatomy of an error
 
-An error is a type of object built into the JS language, consisting of a name/type and a message. Errors contain crucial information that can assist you in locating the code responsible for the error, determining why you have this error, and resolving the error. **Note**: For all examples in this lesson, you should run the code in the browser's console.
+An error is a type of object built into the JS language, consisting of a name/type and a message. Errors contain crucial information that can assist you in locating the code responsible for the error, determining why you have this error, and resolving the error.
+
+<div class="lesson-note lesson-note--tip" markdown=1>
+  For all examples in this lesson, you should run the code in the browser's console.
+</div>
 
 Let’s assume we have written the following code:
 
@@ -31,7 +35,7 @@ A `ReferenceError` is thrown when one refers to a variable that is not declared 
 
 The next part of an error gives us the name of the file in which you can find the error (in this case, our `script.js`), and also the line number. This allows you to easily navigate to the problematic line in your code. Here, the error originates from the fourth line of `script.js`, which is displayed as a link under the error message with the text `at script.js:4`. If you click this link, most browsers will navigate to the exact line of code and the rest of your script in the Sources tab of the Developer Tools. Sometimes your browser's console will also display the column (or character) in the line at which the error is occurring. In our example, this would be `at script.js:4:13`.
 
-Another important part of an error is the stack trace. This helps you understand when the error was thrown in your application, and what functions were called that led up to the error. So, for example, if we have the following code:
+Another important part of an error is the **stack trace**. This helps you understand when the error was thrown in your application, and what functions were called that led up to the error. So, for example, if we have the following code:
 
 ~~~javascript
 const a = 5;
@@ -106,7 +110,7 @@ const message = str1.push(str2);
 
 ![Type Error Example](https://cdn.statically.io/gh/TheOdinProject/curriculum/4ed59981b4ce2c60b5b83bf7415d3127b61821f5/foundations/javascript_basics/understanding_errors/imgs/03.png)
 
-Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners, because we know that `.push()` is certainly a function! You’ve probably used it to add items to _arrays_ before, but that’s the key- `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended! A good note to keep in mind when faced with a `TypeError` is to consider the data type you are trying to run a method or operation against. You'll likely find that it is not what you think, or the operation or method is not compatible with that type.
+Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners because you might know that `.push()` is certainly a function (for example, if you have used it to add items to _arrays_ before). But that’s the key - `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended! A good note to keep in mind when faced with a `TypeError` is to consider the data type you are trying to run a method or operation against. You'll likely find that it is not what you think, or the operation or method is not compatible with that type.
 
 [MDN - TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
 

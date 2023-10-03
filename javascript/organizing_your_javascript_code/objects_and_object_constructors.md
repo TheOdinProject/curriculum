@@ -43,13 +43,9 @@ This section contains a general overview of topics that you will learn in this l
 - How to write an object constructor and instantiate the object.
 - Describe what a prototype is and how it can be used.
 - Explain prototypal inheritance.
-- Understand the basic do's and don't's of prototypical inheritance.
+- Understand the basic do's and don't's of prototypal inheritance.
 - Explain what `Object.create` does.
 - Explain what the `this` keyword is.
-
-For a more interactive explanation and example, try the following Scrim (let us know what you think of these):
-
-<iframe src="https://scrimba.com/scrim/co2624f87981575448091d5a2?embed=odin,mini-header,no-sidebar,no-next-up" sandbox="allow-scripts allow-same-origin allow-popups" width="100%" height="400"></iframe>
 
 ### Objects as a design pattern
 
@@ -185,7 +181,7 @@ Now, to understand this code, let's use the three points from earlier:
 1. **All objects in JavaScript have a `prototype`**:
    - You can check the object's `prototype` by using the [`Object.getPrototypeOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf) function on the object, like `Object.getPrototypeOf(player1)`.
    - The return value (result) of this function refers to the `.prototype` property of the Object Constructor (i.e., `Player(name, marker)`) - `Object.getPrototypeOf(player1) === Player.prototype`.
-1. **The prototype is another object**:
+1. **The prototype is another object...**
    - The _value_ of the Object Constructor's `.prototype` property (i.e., `Player.prototype`) contains the `prototype` object.
    - The _reference_ to this value of `Player.prototype` is stored in every `Player` object, every time a `Player` object is created.
    - Hence, you get a `true` value returned when you check the Objects prototype - `Object.getPrototypeOf(player1) === Player.prototype`.
@@ -377,7 +373,7 @@ This section contains questions for you to check your understanding of this less
 - [Write an object constructor and instantiate the object.](#object-constructors)
 - [Describe what a prototype is and how it can be used.](#the-prototype)
 - [Explain prototypal inheritance.](https://javascript.info/prototype-inheritance)
-- [Understand the basic do's and don't's of prototypical inheritance.](#recommended-method-for-prototypal-inheritance)
+- [Understand the basic do's and don't's of prototypal inheritance.](#recommended-method-for-prototypal-inheritance)
 - [Explain what `Object.create` does.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
 - [How does `this` behave in different situations?](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/)
 
@@ -392,4 +388,6 @@ Nicholas C. Zakas is really great to understand OOP in javascript, which explain
 - [This stack overflow question](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) explains the difference between defining methods via the prototype vs defining them in the constructor.
 - [A Beginner’s Guide to JavaScript’s Prototype](https://medium.com/free-code-camp/a-beginners-guide-to-javascript-s-prototype-9c049fe7b34) and [JavaScript Inheritance and the Prototype Chain](https://medium.com/free-code-camp/javascript-inheritance-and-the-prototype-chain-d4298619bdae) from Tyler Mcginnis has great examples to help you understand Prototype and Prototype Chain better from the beginner's perspective.
 - [This video ](https://www.youtube.com/watch?v=wstwjQ1yqWQ) from Akshay Saini is an easy and simple way to understand the concept of Prototype, Prototype Chain and prototypal inheritance.
+- [Interactive Scrim on objects and object constructors.](https://scrimba.com/scrim/co2624f87981575448091d5a2)
+- [Check out this video explanation](https://www.youtube.com/watch?v=cwChC4BQF0Q) on the `this` keyword from DevSage that gives a different perspective on how its context changes, as well as scenarios in which `this` behaves unexpectedly.  
 

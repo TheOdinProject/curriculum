@@ -58,9 +58,11 @@ First, you'll need to install Homebrew.  Make sure you have checked the requirem
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ~~~
 
-**Note:** On an Apple Silicon Mac you will have an extra step to take.
+<div class="lesson-note lesson-note--warning" markdown=1>
+On an Apple Silicon Mac you will have an extra step to take.
 If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal there will be a section called "Next steps".
 Reading the terminal may seem a bit intimidating, but this is a great chance to overcome those feelings. Follow the next steps as stated in your terminal (copy and paste the commands given) to add Homebrew to your PATH, which allows you to use the `brew` command prefix.
+</div>
 
 #### Step 1.1: Update Git
 
@@ -172,13 +174,15 @@ ls ~/.ssh/id_ed25519.pub
 
 If a message appears in the console containing the text "No such file or directory", then you do not yet have an Ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.4.
 
-To create a new SSH key, run the following command inside your terminal. The `-C` flag followed by your email address ensures that GitHub knows who you are.
-
-**Note:** The angle brackets (`< >`) in the code snippet below indicate that you should replace that part of the command with the appropriate information. Do not include the brackets themselves in your command. For example, if your email address is `odin@theodinproject.com`, then you would type `ssh-keygen -t ed25519 -C odin@theodinproject.com`. You will see this convention of using angle brackets to indicate placeholder text used throughout The Odin Project's curriculum and other coding websites, so it's good to be familiar with what it means.
+To create a new SSH key, run the following command inside your terminal.
 
 ~~~bash
-ssh-keygen -t ed25519 -C <youremail>
+ssh-keygen -t ed25519 -C "your@email.com"
 ~~~
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+The `-C` flag is to write a comment, otherwise the key will be generated with your computer's username. The convention is to use your email as a comment to indicate who generated the public key. For example if your email address is `odin@theodinproject.com`, then you would type `ssh-keygen -t ed25519 -C "odin@theodinproject.com"`.
+</div>
 
 * When it prompts you for a location to save the generated key, just push <kbd>Enter</kbd>.
 * Next, it will ask you for a password; enter one if you wish, but it's not required.
