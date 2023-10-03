@@ -125,6 +125,7 @@ The HTML boilerplate in the `index.html` file is complete at this point, but how
 
     *   `Ubuntu` - Navigate to the directory containing the file and type `google-chrome index.html`
     *   `macOS` - Navigate to the directory containing the file and type `open ./index.html`
+    *   `WSL` - Navigate to the directory containing the file and type `wslview index.html`
 
 Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
 
