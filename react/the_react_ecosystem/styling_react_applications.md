@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 Vanilla CSS is the simplest way to style. In the previous courses, you've learned a lot of CSS and all of those skills are applicable to React. There are a couple of things we'd like to highlight.
 
 1. `CSS Modules` let you write CSS style declarations that are scoped locally.
-1. `CSS Preprocessors` like [SASS](https://sass-lang.com/) which we talked about in [this](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-frameworks-and-preprocessors) lesson, can still be used within React applications.
+1. `CSS Preprocessors` like [SASS](https://sass-lang.com/) which we talked about in [this](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-frameworks-and-preprocessors) lesson, can also be used to style React applications.
 1. `CSS Utility Frameworks` are a popular choice for styling React applications. They provide a set of pre-defined classes that you can directly use in your HTML, or JSX in our case. [Tailwind CSS](https://tailwindcss.com) is by far the most popular choice. 
 
 
