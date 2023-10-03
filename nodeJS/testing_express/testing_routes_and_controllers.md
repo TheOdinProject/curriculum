@@ -14,6 +14,7 @@ By the end of this lesson, you should be able to do or answer the following:
 - Explain and have a firm understanding of `.expect()` method's functionality.
 - Have familiarity with `supertest`'s documentation and methods.
 
+### Routes testing with supertest
 
 The most important, basic requirement for testing something in your code is that it must be in an exported module. This is true for both custom middleware and your routes/controllers, so the very first thing you need to do is separate those things into their own modules, if they aren't already.
 
