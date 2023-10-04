@@ -174,7 +174,7 @@ brew update
 brew upgrade
 ~~~~
 
-If your terminal doesn't recognize `brew`, then you'll need to go and install homebrew. You can find it and other installs in the [installation appendix](https://www.theodinproject.com/lessons/installation_lessons).
+If your terminal doesn't recognize `brew`, then you'll need to go and install homebrew. You can find it and other installs in the [installation appendix](https://www.theodinproject.com/guides/installations).
 
 ### Step 2: Install the PostgreSQL packages
 Now that we've ensured our packages are up to date, we will use brew to install PostgreSQL.
