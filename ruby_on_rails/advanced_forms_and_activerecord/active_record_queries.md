@@ -234,24 +234,27 @@ Sometimes, you just can't get ActiveRecord to do what you want it to.  In that c
 
 This was a lot of material, but you should have a healthy appreciation for the breadth of things that you can do with Active Record.  At the most basic level, though, you can do pretty much anything you can in SQL by using Active Record query methods.  You'll get a chance to use some of these newfound query methods in future projects and others will come up when you're building things on your own.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [SO post on Using Scopes vs Class Methods](http://stackoverflow.com/questions/5899765/activerecord-rails-3-scope-vs-class-method)
-* [Platformatec diving more into the use case of scopes vs class methods](http://blog.plataformatec.com.br/2013/02/active-record-scopes-vs-class-methods/)
-* [RailsCasts #22 Eager Loading](http://railscasts.com/episodes/22-eager-loading-revised)
-* [Introduction to the N+1 Problem](https://www.youtube.com/watch?v=Xr3hZdIwuSw)
-* [N+1 Problem: Eager Loading with Active Record](https://www.youtube.com/watch?v=wLMRzdOztUY)
-* [N+1 Problem: Optimized Counts with Joins and Custom Select](https://www.youtube.com/watch?v=rJg3I-leoo4)
-* [Speed up ActiveRecord with a little tweaking](https://blog.codeship.com/speed-up-activerecord/)
-* [A useful gem that identifies N+1 queries](https://github.com/flyerhzm/bullet)
-
 ### Knowledge check
 
-* <a class='knowledge-check-link' href='#relations-and-lazy-evaluation'>How does lazy evaluation help make Active Record more efficient?</a>
-* <a class='knowledge-check-link' href='#checking-for-existence'>How do you check whether a database already contains a record?</a>
-* <a class='knowledge-check-link' href='#more-assorted-querying-knowledge'>What is the difference between a `#where` query and a `#find` query?</a>
-* <a class='knowledge-check-link' href='#joins'>How do you join tables together in Rails?</a>
-* <a class='knowledge-check-link' href='#n1-queries-and-eager-loading'>What is an example of an N+1 query?</a>
-* <a class='knowledge-check-link' href='#n1-queries-and-eager-loading'>What method is used to deal with an N+1 query?</a>
-* <a class='knowledge-check-link' href='#scopes'>When would you use a class method in place of a scope?</a>
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+- <a class='knowledge-check-link' href='#relations-and-lazy-evaluation'>How does lazy evaluation help make Active Record more efficient?</a>
+- <a class='knowledge-check-link' href='#checking-for-existence'>How do you check whether a database already contains a record?</a>
+- <a class='knowledge-check-link' href='#more-assorted-querying-knowledge'>What is the difference between a `#where` query and a `#find` query?</a>
+- <a class='knowledge-check-link' href='#joins'>How do you join tables together in Rails?</a>
+- <a class='knowledge-check-link' href='#n1-queries-and-eager-loading'>What is an example of an N+1 query?</a>
+- <a class='knowledge-check-link' href='#n1-queries-and-eager-loading'>What method is used to deal with an N+1 query?</a>
+- <a class='knowledge-check-link' href='#scopes'>When would you use a class method in place of a scope?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- [SO post on Using Scopes vs Class Methods](http://stackoverflow.com/questions/5899765/activerecord-rails-3-scope-vs-class-method)
+- [Platformatec diving more into the use case of scopes vs class methods](http://blog.plataformatec.com.br/2013/02/active-record-scopes-vs-class-methods/)
+- [RailsCasts #22 Eager Loading](http://railscasts.com/episodes/22-eager-loading-revised)
+- [Introduction to the N+1 Problem](https://www.youtube.com/watch?v=Xr3hZdIwuSw)
+- [N+1 Problem: Eager Loading with Active Record](https://www.youtube.com/watch?v=wLMRzdOztUY)
+- [N+1 Problem: Optimized Counts with Joins and Custom Select](https://www.youtube.com/watch?v=rJg3I-leoo4)
+- [Speed up ActiveRecord with a little tweaking](https://blog.codeship.com/speed-up-activerecord/)
+- [A useful gem that identifies N+1 queries](https://github.com/flyerhzm/bullet)
