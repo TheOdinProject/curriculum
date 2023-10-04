@@ -250,7 +250,7 @@ Now where did this [`.hasOwnProperty` function](https://developer.mozilla.org/en
 Object.prototype.hasOwnProperty('hasOwnProperty'); // true
 ~~~
 
-Essentially, this is how JavaScript makes use of `prototype` - by having the objects contain a value - to point to `prototype`s and inheriting from those prototypes, and thus forming a chain. This kind of inheritance using prototypes is hence named as Prototypal inheritance. JavaScript figures out which properties exist (or do not exist) on the object and starts traversing the chain to find the property or function, like so:
+Essentially, this is how JavaScript makes use of `prototype` - by having the objects contain a value - to point to `prototypes` and inheriting from those prototypes, and thus forming a chain. This kind of inheritance using prototypes is hence named as Prototypal inheritance. JavaScript figures out which properties exist (or do not exist) on the object and starts traversing the chain to find the property or function, like so:
 
 1. Is the `.valueOf` function part of the `player1` object? No, it is not. (Remember, only the `name`, `marker` and `sayName` properties are part of the `Player` objects.)
 1. Is the function part of the `player1`'s prototype (the `Object.getPrototypeOf(player1)` value, i.e., `Player.prototype`)? No, only the `.sayHello` function is a part of it.
