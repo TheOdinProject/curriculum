@@ -69,7 +69,7 @@ export default Image;
 
 Working over the network is inherently unreliable. The API you're making a request to might be down, there could be network connectivity issues, or the response you receive could contain errors. A multitude of things can go wrong, and if you don't preemptively plan for errors, your website can break or appear unresponsive to users.
 
-To simulate a network error, scroll up to the previous code snippet and change the `fetch` URL to something random. The page will remain a blank white screen, without giving the user any indication that the page has finished loading or that there was an error.
+To simulate a network error, scroll up to the previous code snippet and change the `fetch` URL to something random. After a refresh of your browser window, the page will remain a blank white screen, without giving the user any indication that the page has finished loading or that there was an error. 
 
 To fix this, we need to check for _something_ before Image component returns JSX. We'll call it: `error`.
 
