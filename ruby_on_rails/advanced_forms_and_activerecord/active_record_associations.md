@@ -265,21 +265,23 @@ This is just the most common among several options to specify for `:dependent`. 
 
 In this lesson we covered some of the more advanced associations material.  Associations are all over the place in Rails and incredibly useful because of all the new methods they give you access to.  As long as you pause and think about what Rails is assuming when you set them up, you should be able to modify them to your liking without too much trouble.  Practice makes perfect, though, so keep building projects with associations in them and it'll eventually stick.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Brush up Your Knowledge of Rails Associations](https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/)
-* [Rails' Polymorphic Associations](https://dev.to/adjoa/rails-polymorphic-associations-511n)
-* [Understanding Polymorphic Associations in Rails](https://web.archive.org/web/20210507031450/https://launchschool.com/blog/understanding-polymorphic-associations-in-rails)
-* [RailsCasts #154 Polymorphic Association](http://railscasts.com/episodes/154-polymorphic-association-revised)
-* [Comments with Polymorphic Associations](https://gorails.com/episodes/comments-with-polymorphic-associations)
-* [RailsCasts Pro #394 STI and Polymorphic Associations](http://railscasts.com/episodes/394-sti-and-polymorphic-associations)
-
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * <a class='knowledge-check-link' href='#foreign-keys-and-class-names'>What two pieces of information will Rails assume by default for associations?</a>
- * <a class='knowledge-check-link' href='#source-option-knowledge-check'>Which type of association may require the `:source` option to be specified?</a>
- * <a class='knowledge-check-link' href='#automatic-foreign-key-knowledge-check'>What is populated automatically when an object is created by an association?</a>
- * <a class='knowledge-check-link' href='#polymorphic-column-knowledge-check'>Can a polymorphic association use a single column foreign key?</a>
- * <a class='knowledge-check-link' href='#self-joins'>Can a model have associations with instances of the same model?</a>
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+ - <a class='knowledge-check-link' href='#foreign-keys-and-class-names'>What two pieces of information will Rails assume by default for associations?</a>
+ - <a class='knowledge-check-link' href='#source-option-knowledge-check'>Which type of association may require the `:source` option to be specified?</a>
+ - <a class='knowledge-check-link' href='#automatic-foreign-key-knowledge-check'>What is populated automatically when an object is created by an association?</a>
+ - <a class='knowledge-check-link' href='#polymorphic-column-knowledge-check'>Can a polymorphic association use a single column foreign key?</a>
+ - <a class='knowledge-check-link' href='#self-joins'>Can a model have associations with instances of the same model?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- [Brush up Your Knowledge of Rails Associations](https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/)
+- [Rails' Polymorphic Associations](https://dev.to/adjoa/rails-polymorphic-associations-511n)
+- [Understanding Polymorphic Associations in Rails](https://web.archive.org/web/20210507031450/https://launchschool.com/blog/understanding-polymorphic-associations-in-rails)
+- [RailsCasts #154 Polymorphic Association](http://railscasts.com/episodes/154-polymorphic-association-revised)
+- [Comments with Polymorphic Associations](https://gorails.com/episodes/comments-with-polymorphic-associations)
+- [RailsCasts Pro #394 STI and Polymorphic Associations](http://railscasts.com/episodes/394-sti-and-polymorphic-associations)
