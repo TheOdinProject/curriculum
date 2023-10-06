@@ -123,15 +123,16 @@ When following the steps above, you created your first React app in a new direct
 Try it for yourself by following these steps:
 
 1. Create a new GitHub repository and clone it to your local machine. (Recall that we learned this process in the [Git Basics](https://www.theodinproject.com/lessons/foundations-git-basics) lesson.)
+
 2. In the terminal, `cd` into your new repo.
+
 3. Enter the following command:
 
-~~~
-npm create vite@latest .
-~~~
+        npm create vite@latest .
 
-The `.` at the end of the command creates a React environment inside the current directory, rather than inside a new directory.
-4. Follow along with the prompts given in the console, and viola! You're now ready to push your React project to GitHub.
+4. Notice that the `.` at the end of the command creates a React environment inside the current directory, rather than inside a new directory.
+
+5. Follow along with the prompts given in the console, and viola! You're now ready to push your React project to GitHub.
 
 ### Assignment
 
