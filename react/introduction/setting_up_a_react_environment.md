@@ -116,6 +116,23 @@ When this happens, it becomes very useful to be able to track (and make live cha
 
 We recommend installing this and becoming comfortable with using it as early as possible as it is an invaluable tool for effective React development.
 
+### Creating a React app in a pre-existing directory
+
+When following the steps above, you created your first React app in a new directory that only exists locally. It's good to know that you can also create a React app in any empty directory, including a repository cloned from GitHub. As your React projects get more complex, you'll want to keep using version control best practices and pushing changes to GitHub often.
+
+Try it for yourself by following these steps:
+
+1. Create a new GitHub repository and clone it to your local machine. (Recall that we learned this process in the [Git Basics](https://www.theodinproject.com/lessons/foundations-git-basics) lesson.)
+2. In the terminal, `cd` into your new repo.
+3. Enter the following command:
+
+~~~
+npm create vite@latest .
+~~~
+
+The `.` at the end of the command creates a React environment inside the current directory, rather than inside a new directory.
+4. Follow along with the prompts given in the console, and viola! You're now ready to push your React project to GitHub.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
