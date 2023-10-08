@@ -382,7 +382,7 @@ As you'll recall from the Methods lesson, **bang methods** can be easily identif
 It's best practice to avoid using these methods, however, as you or a future developer working on your code may need the original version. Remember that violent psychopath who you should expect will end up maintaining your code? Keep that in mind when making the decision to use bang methods.
 
 ### Return values of enumerables
-So if it's not a good idea to use bang methods but we need to re-use the result of an enumerable method throughout our program, what can we do instead?
+So if it's not a good idea to use bang methods but we need to reuse the result of an enumerable method throughout our program, what can we do instead?
 
 One option is to put the result of an enumerable method into a local variable:
 
