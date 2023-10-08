@@ -86,7 +86,7 @@ For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate 
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-Difficulty converting your <strong>G</strong>iga<strong>B</strong>ytes into <strong>M</strong>ega<strong>B</strong>ytes? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that <strong>8 GB = 8 x 1024 = 8192 MB.</strong>
+Difficulty converting your Gigabytes (GB) into Megabytes (MB)? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that <b>8 GB = 8 x 1024 = 8192 MB.</b>
 
 </div>
 
