@@ -28,12 +28,12 @@ You will be making heavy use of the command line throughout this curriculum, and
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Describe what the command line is.
-* Open the command line on your computer.
-* Use the command line to navigate directories and display directory contents.
-* Use the command line to create a new directory and a new file.
-* Use the command line to rename or destroy a directory and a file.
-* Use the command line to open a file or folder in a program.
+- Describe what the command line is.
+- Open the command line on your computer.
+- Use the command line to navigate directories and display directory contents.
+- Use the command line to create a new directory and a new file.
+- Use the command line to rename or destroy a directory and a file.
+- Use the command line to open a file or folder in a program.
 
 ### Assignment
 
