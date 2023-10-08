@@ -45,11 +45,11 @@ Many of these resources assume you're using a Mac or Linux environment. If you d
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
     
-    * Setup (Follow instructions in `Download files` section only, this is all you need as you have the required software already)
-    * Introducing the Shell
-    * Navigating Files and Directories
-    * Working With Files and Directories
-    * Pipes and Filters
+    - Setup (Follow instructions in `Download files` section only, this is all you need as you have the required software already).
+    - Introducing the Shell.
+    - Navigating Files and Directories.
+    - Working With Files and Directories.
+    - Pipes and Filters.
     
 2. With your newly discovered CLI super powers, practice creating a folder and a few files using the `mkdir`, `touch`, and `cd` commands introduced in the previous step. As an example, a basic website might have a main `index.html` file, a CSS stylesheet file called `style.css`, and a folder for `images`. Think about how you could create these files with the commands and put it into practice!
 
