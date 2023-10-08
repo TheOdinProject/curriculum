@@ -20,7 +20,7 @@ In your career, chances are, you will be dealing with legacy code, so there will
 
 ### Building a class component
 
-As we already know about functional components, let us build a class-based component from a functional one. Usually, you will want to divide the contents of a component, like the one we use, into smaller, re-usable components, but for the purposes of this exercise, we stick to one component. Below, we have a sample functional component:
+As we already know about functional components, let us build a class-based component from a functional one. Usually, you will want to divide the contents of a component, like the one we use, into smaller, reusable components, but for the purposes of this exercise, we stick to one component. Below, we have a sample functional component:
 
 ~~~jsx
 import React, { useState } from "react";
