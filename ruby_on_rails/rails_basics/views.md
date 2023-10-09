@@ -121,7 +121,7 @@ There is a `render` shortcut that allows you to simply pass in variables without
 
 As usual, there are some things you would end up doing so many times that Rails has given you a shortcut.  One of these is the act of rendering a model object like a User or a Post.  If you want a list of all your users, you could write out the HTML and ERB code for displaying a single user's first name, last name, email etc. many times directly in your `app/views/users/index.html.erb` file or you could keep that code in some sort of `each` loop.  
 
-But it's usually best to make the User into its own partial called `_user.html.erb` so you can re-use it in other cases as well.  The basic way of calling this might be something just like we saw above, which looks like:
+But it's usually best to make the User into its own partial called `_user.html.erb` so you can reuse it in other cases as well.  The basic way of calling this might be something just like we saw above, which looks like:
 
 ~~~erb
   # app/views/index.html.erb
