@@ -207,7 +207,7 @@ So that action did a fair bit of stuff -- grab the form data, make a new post, t
 That's really just a taste of the Rails controller, but you should have a pretty good idea of what's going on and what tricks you can use.
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.5.3 and 5.2.  We'll cover sessions (section 5.1) more in the future so don't worry about them now.
+  1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.6.3 and 5.2.  We'll cover sessions (section 5.1) more in the future so don't worry about them now.
 </div>
 
 ### Additional resources
