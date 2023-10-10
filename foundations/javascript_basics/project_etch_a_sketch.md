@@ -39,6 +39,8 @@ Transform the behavior of a square when interacting with the mouse by introducin
 
 1. Rather than a simple color change from black to white, each interaction should randomize the square's RGB value entirely. 
 2. Additionally, implement a progressive darkening effect where each interaction adds 10% more black or color to the square. The objective is to achieve a completely black square only after ten interactions.
+3. Replace the "hover" effect used for coloring the grid to "mouse click" and "hover" for better user experience.
+    *   Please refer to the [mouse events](https://javascript.info/mouse-events-basics) for more information.
 
 You can choose to do either one or both of these challenges, it's up to you.
 </div>
