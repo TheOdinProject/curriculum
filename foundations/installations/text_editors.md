@@ -68,7 +68,7 @@ code
 
 #### Step 1: Download VSCode
 
-   - Click [this link](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal) to automatically download the latest VSCode installer .zip file.
+- Click [this link](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal) to automatically download the latest VSCode installer .zip file.
 
 #### Step 2: Install VSCode
 
@@ -93,7 +93,7 @@ code
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
+1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
 </div>
 
 ### Additional resources
