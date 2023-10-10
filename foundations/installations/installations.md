@@ -333,9 +333,9 @@ _(__note__: Chrome is going to use this terminal to output various messages and 
 
 #### Step 2: Install Google Chrome
 
-   - Open the **Downloads** folder
-   - Double click the file **googlechrome.dmg**
-   - Drag the Google Chrome icon to the **Applications** folder icon
+- Open the **Downloads** folder
+- Double click the file **googlechrome.dmg**
+- Drag the Google Chrome icon to the **Applications** folder icon
 
 #### Step 3: Delete the installer file
 
