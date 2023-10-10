@@ -6,9 +6,9 @@ Needless to say, while learning to code, you'll be spending most of your time on
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Computer software and hardware
+- Computer software and hardware.
 - How to take screenshots.
-- The importance of strong passwords
+- The importance of strong passwords.
 
 ### Assignment
 
@@ -19,7 +19,7 @@ Goodwill Community Foundation (GCF) resources are excellent to get you acquainte
 1. [What is a computer?](https://edu.gcfglobal.org/en/computerbasics/what-is-a-computer/1/)
 1. [What is an operating system?](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
 1. [What is an application?](https://edu.gcfglobal.org/en/computerbasics/understanding-applications/1/)
-1. [Open source vs closed source software](https://edu.gcfglobal.org/en/basic-computer-skills/open-source-vs-closed-source-software/1/)
+1. [Open source vs closed source software.](https://edu.gcfglobal.org/en/basic-computer-skills/open-source-vs-closed-source-software/1/)
 1. [Taking screenshots](https://edu.gcfglobal.org/en/techsavvy/taking-screenshots/1/).
 1. [Creating strong passwords](https://edu.gcfglobal.org/en/techsavvy/password-tips/1/).
 
