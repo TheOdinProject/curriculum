@@ -18,11 +18,11 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
   1. Watch this [BBC short](https://www.youtube.com/watch?v=eHp1l73ztB8) for an overview of how the internet works.
-  2. Read this [article](https://developer.mozilla.org/en-US/Learn/Common_questions/How_does_the_Internet_work) from Mozilla on "How does the Internet work?".
-  3. Watch [How the Internet Works in 5 Minutes](https://youtu.be/7_LPdttKXPc?t=46s).
-  4. Read up on the [differences](https://developer.mozilla.org/en-US/Learn/Common_questions/Pages_sites_servers_and_search_engines) between a web page, a web server, and a search engine.
-  5. Watch this [Google short](https://youtu.be/BrXPcaRlBqo) explaining what a web browser is. Then, find out what web browser you are using right [now](https://www.whatsmybrowser.org/).
-  6. Read about how one part of the web [interacts with another](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/How_the_Web_works#Clients_and_servers) and [read about](https://developer.mozilla.org/en-US/Learn/Common_questions/What_is_a_domain_name#How_does_a_DNS_request_work) or [watch](https://www.youtube.com/watch?v=72snZctFFtA&feature=youtu.be&t=45s) a DNS request in action.
+  1. Read this [article](https://developer.mozilla.org/en-US/Learn/Common_questions/How_does_the_Internet_work) from Mozilla on "How does the Internet work?".
+  1. Watch [How the Internet Works in 5 Minutes](https://youtu.be/7_LPdttKXPc?t=46s).
+  1. Read up on the [differences](https://developer.mozilla.org/en-US/Learn/Common_questions/Pages_sites_servers_and_search_engines) between a web page, a web server, and a search engine.
+  1. Watch this [Google short](https://youtu.be/BrXPcaRlBqo) explaining what a web browser is. Then, find out what web browser you are using right [now](https://www.whatsmybrowser.org/).
+  1. Read about how one part of the web [interacts with another](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/How_the_Web_works#Clients_and_servers) and [read about](https://developer.mozilla.org/en-US/Learn/Common_questions/What_is_a_domain_name#How_does_a_DNS_request_work) or [watch](https://www.youtube.com/watch?v=72snZctFFtA&feature=youtu.be&t=45s) a DNS request in action.
 </div> 
 
 ### Knowledge check
