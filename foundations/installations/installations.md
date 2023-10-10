@@ -84,7 +84,11 @@ In the **Hardware** section of the installation you want to set your **Base Memo
 
 For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, [please run this Google query](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have) to learn how to find this out. If the VM runs a bit slow, try allocating more memory!
 
-_(__note:__ Difficulty converting your **G**iga**B**ytes into **M**ega**B**ytes? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**)_
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+Difficulty converting your Gigabytes (GB) into Megabytes (MB)? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that <b>8 GB = 8 x 1024 = 8192 MB.</b>
+
+</div>
 
 As for **Processors** you want this to be at 2 and no more. Leave **Enable EFI (special OSes only)** as it is - that is **unchecked** - and click **Next** to continue.
 
@@ -300,7 +304,11 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
    -   Enter your password, if needed
 
-   _(__note__: You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
+
+</div>
 
 #### Step 3: Delete the installer file
 
@@ -319,7 +327,11 @@ You can start chrome in two ways,
 google-chrome
 ~~~
 
-_(__note__: Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &` instead.)_
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &` instead.)_
+
+</div>
 
 </details>
 
