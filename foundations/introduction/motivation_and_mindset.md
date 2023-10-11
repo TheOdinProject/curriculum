@@ -143,7 +143,7 @@ Digital distractions are email and Facebook notifications and time-wasting websi
 
 Physical distractions are distractions from your environment, like a TV in the background or other people talking. These distractions can be just as damaging to your focus as digital distractions.
 
-**Solution:** Find a quiet place to study where you can go to focus in your home. If that's not an option, you can use noise cancelling headphones to block out noisy distractions in your environment.
+**Solution:** Find a quiet place to study where you can go to focus in your home. If that's not an option, you can use noise cancelling headphones to block out noisy distractions in your environment. There are also complimentary public and university libraries that are serene and comfortable. Some libraries even operate 24/7, uninterrupted. Beyond just providing a pleasant study space, the presence of others studying around you instills a sense of productivity.
 
 #### Rabbit holes
 
