@@ -66,8 +66,8 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='#rest'>What does REST stand for?</a>
-- <a class='knowledge-check-link' href='#rest'>What are HTTP verbs and why are they important to an API?</a>
-- <a class='knowledge-check-link' href='#cors'>What is the Same-Origin Policy?</a>
-- <a class='knowledge-check-link' href='https://expressjs.com/en/resources/middleware/cors.html'>How do you enable CORS in your Express app?</a>
-- <a class='knowledge-check-link' href='https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths'>Which HTTP verb does each letter in CRUD (Create, Read, Update, Delete) correspond to?</a>
+- [What does REST stand for?](#rest)
+- [What are HTTP verbs and why are they important to an API?](#rest)
+- [What is the Same-Origin Policy?](#cors)
+- [How do you enable CORS in your Express app?](https://expressjs.com/en/resources/middleware/cors.html)
+- [Which HTTP verb does each letter in CRUD (Create, Read, Update, Delete) correspond to?](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths)

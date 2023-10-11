@@ -174,6 +174,9 @@ This section contains helpful links to related content. It isn’t required, so 
 - [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
 - [Managing inspiration and motivation](https://markmanson.net/do-something)
 - [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
-- [Improve your typing skills with Keybr.com](https://www.keybr.com/). One excellent alternative is [typing.com](https://www.typing.com/). Use these keyboard trainer if you find your typing speed is holding you back. We recommend spending 5 mins every day after you start your PC.
-- [Practice typing with Monkeytype!](https://monkeytype.com/) A minimalistic, customizable typing website. Test yourself in various modes, track your progress and improve your typing speed. It has a great community and frequently receives new features. Even though it has so many features, the experience is still very polished. 
+- If you find your typing speed is holding you back, you can improve your typing skills by utilizing these keyboard trainers for at least 5 minutes every day:
+  - [Keybr.com](https://www.keybr.com/)
+  - [typing.com](https://www.typing.com/)
+  - [TypingClub.com](https://www.typingclub.com)
+  - [Monkeytype](https://monkeytype.com/)
 - [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)

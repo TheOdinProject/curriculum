@@ -10,7 +10,7 @@ const myObject = {
   otherProperty: 77,
   "obnoxious property": function() {
     // do stuff!
- }
+  }
 }
 ~~~
 

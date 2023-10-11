@@ -43,7 +43,7 @@ This section contains questions for you to check your understanding of this less
 *   [What is a search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
 *   [What is a DNS request?](https://www.youtube.com/watch?v=72snZctFFtA&t=45s)
 *   [Which browser are you currently using?](https://www.whatsmybrowser.org/)
-*   [In your own words, explain what happens when you run a search on google.com.](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
+*   [In your own words, describe the process that takes place when you initiate a search on google.com in terms of what we discussed on this section.](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
 
 ### Additional resources
 

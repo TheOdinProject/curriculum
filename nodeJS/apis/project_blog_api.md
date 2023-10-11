@@ -29,5 +29,5 @@ Why are we setting it up like this? Because we can! If you already have a portfo
 ### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- As mentioned earlier, the cli-tool `curl` and [Postman](https://www.postman.com/downloads) are popular choices for testing your routes. Alternatively, the [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) VS Code extension is another way of testing your API.
+- As mentioned earlier, the cli-tool `curl` and [Postman](https://www.postman.com/downloads) are popular choices for testing your routes. 
 
