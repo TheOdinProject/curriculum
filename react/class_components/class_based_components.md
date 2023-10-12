@@ -277,10 +277,10 @@ For the purposes of this assignment, we take the simple class-based component th
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#the-use-of-a-constructor-and-props">How do props get used in a class-based component?</a>
-- <a class="knowledge-check-link" href="#how-you-can-render-jsx">How does JSX get displayed?</a>
-- <a class="knowledge-check-link" href="#how-to-use-state-and-manage-context">How do we deal with state in a class-based component?</a>
-- <a class="knowledge-check-link" href="#the-importance-of-bind">How do you restore the context of `this` in a method?</a>
+- [How do props get used in a class-based component?](#the-use-of-a-constructor-and-props)
+- [How does JSX get displayed?](#how-you-can-render-jsx)
+- [How do we deal with state in a class-based component?](#how-to-use-state-and-manage-context)
+- [How do you restore the context of `this` in a method?](#the-importance-of-bind)
 
 ### Additional resources
 
