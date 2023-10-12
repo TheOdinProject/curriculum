@@ -163,6 +163,12 @@ The Odin Project does not recommend taking a lot of notes throughout your web de
 
 **Solution:** Instead of taking notes to use as direct references, make notes that can serve as prompts for further research. It is important to get comfortable with reading documentation, which essentially acts as pre-existing notes made by someone else.
 
+#### Sleep deprivation
+
+When you do not receive adequate sleep, your ability to understand new information is impaired. Specifically, your brain has difficulty processing new information, and the creation of new neural connections is much tougher than when you are well-rested. Receiving enough sleep is a highly personal necessity, but it usually involves 7 to 9 hours of nocturnal sleeping. The quality of your sleep improves if you go to bed early, since bedtime is important in ensuring a good night's sleep.
+
+**Solution:** It is just as important to develop a consistent sleep schedule and to get enough rest as it is to practice coding every day. Regular physical activity has a positive effect on both learning ability and overall health, and can help regulate sleep patterns. It's hard to stay awake in the evening after running for 5 kilometers during the day and it's an excellent way to take a break from studying. If running isn't your thing, you can pick any sport you like as long as you do some form of exercise every day and engage in more intense physical activity at least once a week. By maintaining this routine, you will keep both your body and mind in good shape.
+
 ### Conclusion
 
 Learning any new skill is a journey full of speed bumps and obstacles to be overcome. We hope that the principles laid out here will put you in a much better position to succeed and get the most out of The Odin Project.
