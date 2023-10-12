@@ -172,8 +172,8 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_basics.html#naming-conventions'>Should Active Record model classes be singular or plural?</a>
- * <a class='knowledge-check-link' href='#rollback-knowledge-check'>Which rails command will undo a database migration?</a>
- * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_validations.html#presence'>What does the validation helper `presence: true` enforce?</a>
- * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_validations.html#validations-overview-errors'>How can you see why an instance of a model class has failed validation?</a>
- * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/association_basics.html#choosing-between-belongs-to-and-has-one'>If class A has a `belongs_to` association with class B, which class's database table should contain a foreign key?</a>
+ * [Should Active Record model classes be singular or plural?](https://guides.rubyonrails.org/active_record_basics.html#naming-conventions)
+ * [Which rails command will undo a database migration?](#rollback-knowledge-check)
+ * [What does the validation helper `presence: true` enforce?](https://guides.rubyonrails.org/active_record_validations.html#presence)
+ * [How can you see why an instance of a model class has failed validation?](https://guides.rubyonrails.org/active_record_validations.html#validations-overview-errors)
+ * [If class A has a `belongs_to` association with class B, which class's database table should contain a foreign key?](https://guides.rubyonrails.org/association_basics.html#choosing-between-belongs-to-and-has-one)
