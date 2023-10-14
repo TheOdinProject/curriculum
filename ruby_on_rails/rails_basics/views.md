@@ -236,9 +236,9 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href="#how-do-preprocessors-work">How do you make sure a preprocessor runs on your view file?</a>
-* <a class="knowledge-check-link" href="#preprocessors">What is the difference between `<%`, `<%=` and `<%#`? </a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#understanding-yield">What does including `<%= yield %>` in a layout do?</a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-partials">Why do we use partials?</a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#rendering-collections">What is the shortcut for rendering a collection as a series of partials?</a>
-* <a class="knowledge-check-link" href="#linkto">How do you dynamically link to another page of your Rails app?</a>
+* [How do you make sure a preprocessor runs on your view file?](#how-do-preprocessors-work)
+* [What is the difference between `<%`, `<%=` and `<%#`?](#preprocessors)
+* [What does including `<%= yield %>` in a layout do?](https://guides.rubyonrails.org/layouts_and_rendering.html#understanding-yield)
+* [Why do we use partials?](https://guides.rubyonrails.org/layouts_and_rendering.html#using-partials)
+* [What is the shortcut for rendering a collection as a series of partials?](https://guides.rubyonrails.org/layouts_and_rendering.html#rendering-collections)
+* [How do you dynamically link to another page of your Rails app?](#linkto)
