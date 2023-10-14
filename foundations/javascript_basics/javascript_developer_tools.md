@@ -61,4 +61,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
+- Learn 14 tips and tricks in this [JavaScript 30 Video](https://youtu.be/xkzDaKwinA8?si=MirB8ueXJYqp3VWD) by Wes Bos
