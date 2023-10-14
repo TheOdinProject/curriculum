@@ -50,5 +50,5 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 -  [Efficient Recursion from U of Alberta](http://webdocs.cs.ualberta.ca/~holte/T26/efficient-rec.html)
--  [A good resources of recursion by example](https://www.javascripttutorial.net/javascript-recursive-function/)
+-  [A good resource of recursion by example](https://www.javascripttutorial.net/javascript-recursive-function/)
 - [Visualizing Recursion in the call stack](https://medium.com/swlh/visualizing-recursion-6a81d50d6c41) (Note: A free Medium account is required to read this article)
