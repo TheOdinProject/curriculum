@@ -44,6 +44,7 @@ function printAge (age) {
 }
 
 printAge(globalAge);
+
 // ERROR! We tried to access a function scoped variable
 // outside the function it's defined in
 console.log(varAge);

@@ -2,7 +2,7 @@
 
 Git is a crucial skill to have, whether you're just a hobbyist or you aim to become a professional web developer.  It's the "save" button on steroids and allows for seamless collaboration.  There really aren't all that many commands for you to learn, but sometimes the real difficulty of Git comes from visualizing what's happening.
 
-In this lesson, we'll help with the visualization by diving deeper than just the `$ git add .` and `$ git commit` and `$ git push` commands you've mostly been using. We'll cover topics such as Remotes, Pointers, and Changing Git History. This will expand your understanding of what's actually going on under the hood with Git.
+In this lesson, we'll help with the visualization by diving deeper than just the `git add` and `git commit` and `git push` commands you've mostly been using. We'll cover topics such as Remotes, Pointers, and Changing Git History. This will expand your understanding of what's actually going on under the hood with Git.
 
 It is **very important** to take a look at all of this before progressing any further with the curriculum. The project work is becoming more and more complex, so using a disciplined Git workflow is no longer optional. Hopefully, after going through this lesson, you'll be much more comfortable changing your Git history and have a better understanding of Git as a whole.
 
@@ -32,7 +32,7 @@ Let's look at some ways we can change recent and distant history to fit our need
 
 #### Getting set up
 
-Before we get started with the lesson, let's create a Git playground in which we can safely follow along with the code and perform history-changing operations. Go to GitHub, and as you have in the past, create a new repository. Call it whatever you'd like, and clone this repository to your local system. Now, let's `cd` into the repository we just cloned and create some new files! Once you're in the repository, follow along with the following commands(including the typo). Look them up if you're confused about anything that's happening.
+Before we get started with the lesson, let's create a Git playground in which we can safely follow along with the code and perform history-changing operations. Go to GitHub, and as you have in the past, create a new repository. Call it whatever you'd like, and clone this repository to your local system. Now, let's `cd` into the repository we just cloned and create some new files! Once you're in the repository, follow along with the following commands (including the typo). Look them up if you're confused about anything that's happening.
 
 ~~~bash
   $ touch test{1..4}.md
@@ -49,7 +49,7 @@ To set up your code editor properly, you can follow the instructions provided in
 
 #### Changing the last commit
 
-So if we look at the last commit we made *Uh-Oh!*, if you type in `git status` and `git log` you can see we forgot to add a file! Let's add our missing file and run `$ git commit --amend`
+So if we look at the last commit we made *Uh-Oh!*, if you type in `git status` and `git log` you can see we forgot to add a file! Let's add our missing file and run `git commit --amend`
 
 ~~~bash
   $ git add test4.md
@@ -62,16 +62,16 @@ Remember to **only amend commits that have not been pushed anywhere!** The reaso
 
 #### Changing multiple commits
 
-Now let's say we have commits further back in our history that we want to modify. This is where the beautiful command `rebase` comes into play! We're going to get deeper into the complexities of `rebase` later on in this lesson, but for now we're going to start out with some very basic usage.
+Now let's say we have commits further back in our history that we want to modify. This is where the beautiful command `git rebase` comes into play! We're going to get deeper into the complexities of `rebase` later on in this lesson, but for now we're going to start out with some very basic usage.
 
-`rebase -i` is a command which allows us to interactively stop after each commit we're trying to modify, and then make whatever changes we wish. We do have to tell this command which is the last commit we want to edit. For example, `git rebase -i HEAD~2` allows us to edit the last two commits. Let's see what this looks like in action, go ahead and type in:
+`git rebase -i` is a command which allows us to interactively stop after each commit we're trying to modify, and then make whatever changes we wish. We do have to tell this command which is the last commit we want to edit. For example, `git rebase -i HEAD~2` allows us to edit the last two commits. Let's see what this looks like in action, go ahead and type in:
 
 ~~~bash
   $ git log
   $ git rebase -i HEAD~2
 ~~~
 
-You should notice that when rebasing, the commits are listed in opposite order compared to how we see them when we use `log`. Take a minute to look through all of the options the interactive tool offers you. Now let's look at the commit messages at the top of the tool. If we wanted to edit one of these commits, we would change the word `pick` to be `edit` for the appropriate commit. If we wanted to remove a commit, we would simply remove it from the list, and if we wanted to change their order, we would change their position in the list. Let's see what an edit looks like!
+You should notice that when rebasing, the commits are listed in opposite order compared to how we see them when we use `git log`. Take a minute to look through all of the options the interactive tool offers you. Now let's look at the commit messages at the top of the tool. If we wanted to edit one of these commits, we would change the word `pick` to be `edit` for the appropriate commit. If we wanted to remove a commit, we would simply remove it from the list, and if we wanted to change their order, we would change their position in the list. Let's see what an edit looks like!
 
 ~~~bash
 edit eacf39d Create send file
@@ -106,7 +106,7 @@ Rename the commit to `Create first and second file`, then finish the rebase. Tha
 
 #### Splitting up a commit
 
-Before diving into Remotes, we're going to have a look at a handy Git command called `reset`. Let's have a look at the commit `Create third file and create fourth file`. At the moment we're using blank files for convenience, but let's say these files contained functionality and the commit was describing too much at once. In that case what we could do is split it up into two smaller commits by, once again, using the interactive `rebase` tool.
+Before diving into Remotes, we're going to have a look at a handy Git command called `git reset`. Let's have a look at the commit `Create third file and create fourth file`. At the moment we're using blank files for convenience, but let's say these files contained functionality and the commit was describing too much at once. In that case what we could do is split it up into two smaller commits by, once again, using the interactive `rebase` tool.
 
 We open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. Now, however, what we're going to do is run `git reset HEAD^`, which resets the commit to the one right before HEAD. This allows us to add the files individually, add, and commit them individually. All together it would look something like this:
 

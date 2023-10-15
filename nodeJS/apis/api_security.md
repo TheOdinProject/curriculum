@@ -37,6 +37,6 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='https://dev.to/_arpy/learn-using-jwt-with-passport-authentication-22n8'>What is a JSON web token?</a>
-- <a class='knowledge-check-link' href='#secure-token'>What are two things a secure token will do?</a>
-- <a class='knowledge-check-link' href='#pass-token'>Where in the code is a secure token passed?</a>
+- [What is a JSON web token?](https://dev.to/_arpy/learn-using-jwt-with-passport-authentication-22n8)
+- [What are two things a secure token will do?](#secure-token)
+- [Where in the code is a secure token passed?](#pass-token)

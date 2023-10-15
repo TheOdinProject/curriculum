@@ -25,7 +25,7 @@ Choose your Operating System:
 
 #### Step 1: Download VSCode
 
-- Open your **Terminal**
+- Open your **Terminal**.
 - Run the following command to download the latest **VSCode** `.deb` package:
 
   ~~~bash
@@ -40,7 +40,7 @@ Choose your Operating System:
   sudo apt install ./code-latest.deb
   ~~~
 
-- If prompted, enter your password
+- If prompted, enter your password.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -122,6 +122,7 @@ You can start VSCode in two ways,
   ~~~
 
 - After a few moments a new VSCode window should open, and VSCode should provide a notification that its opening in WSL.
+
 
 </details>
 
