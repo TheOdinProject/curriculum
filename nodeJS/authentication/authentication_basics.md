@@ -353,7 +353,7 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge checks
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='#strategy'>Which passportJS strategy did we use in this lesson?</a>
-- <a class='knowledge-check-link' href='#cookie'>Why does passportJS create a cookie?</a>
-- <a class='knowledge-check-link' href='#compare'>What does the `bcrypt.compare()` function do?</a>
-- <a class='knowledge-check-link' href='#bcrypt'>Why should we include bcrypt when we begin a project?</a>
+- [Which passportJS strategy did we use in this lesson?](#strategy)
+- [Why does passportJS create a cookie?](#cookie)
+- [What does the `bcrypt.compare()` function do?](#compare)
+- [Why should we include bcrypt when we begin a project?](#bcrypt)
