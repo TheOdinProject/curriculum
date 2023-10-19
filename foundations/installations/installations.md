@@ -36,7 +36,7 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 #### Step 1.2: Download Xubuntu
 
-There are thousands of distributions of Linux out there, but Xubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 22.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/22.04/release/). There are a few files listed here, download the one ending in `.iso`. Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. If you find the download speed slow, consider [using a different mirror](https://xubuntu.org/release/22-04/#show-all) as the one linked before is a US one. If you reach the download page and are unsure about what version to choose, it is recommended that you pick the latest Long-Term Support (LTS) version (22.04 at the time of writing). You may be tempted to choose a more recent non-LTS release, but LTS releases have the advantage of guaranteed support for up to 5 years, making them more secure, stable and hence reliable.  
+There are thousands of distributions of Linux out there, but Xubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 22.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/22.04/release/). There are a few files listed here, download the one ending in `.iso`. Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. If you find the download speed slow, consider [using a different mirror](https://xubuntu.org/release/22-04/#show-all) as the one linked before is a US one. If you reach the download page and are unsure about what version to choose, it is recommended that you pick the latest Long-Term Support (LTS) version (22.04 at the time of writing). You may be tempted to choose a more recent non-LTS release, but LTS releases have the advantage of guaranteed support for up to 5 years, making them more secure, stable and hence reliable.
 
 ### Step 2: Install VirtualBox and set up Xubuntu
 
@@ -46,11 +46,11 @@ Installing VirtualBox is very straightforward. It doesn’t require much technic
 
 During the installation, you’ll be presented with various options. We suggest dropping the Python Support as you don't need it by clicking on the drive icon with an arrow and choosing **Entire feature will be unavailable**:
 
-   ![The Python option is at the bottom of the list](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/01_turn_off_python.png)
+![The Python option is at the bottom of the list](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/01_turn_off_python.png)
 
 This is how your installation window should look like after turning it off:
 
-   ![You want the Python option to have a scarlet "X" on it](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/02_c_install.png)
+![You want the Python option to have a scarlet "X" on it](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/02_c_install.png)
 
 Make sure you install the application on `C:` drive, as it has tendency to error out otherwise. The virtual machine itself can be installed anywhere but we'll get to that soon.
 As the software installs, the progress bar might appear to be stuck; just wait for it to finish.
@@ -59,11 +59,11 @@ As the software installs, the progress bar might appear to be stuck; just wait f
 
 Now that you have VirtualBox installed, launch the program. Once open, you should see the start screen.
 
-   ![The VirtualBox start screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/03_start_screen.png)
+![The VirtualBox start screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/03_start_screen.png)
 
 Click on the **New** button to create a virtual operating system. Give it a name of **Xubuntu**, if you want the VM installed somewhere else than default `C:` location, change that accordingly in the **Folder** option. This is the place where your virtual disk will reside, so make sure that you've got at least 30GB for that. In **ISO Image** choose **Other** - you'll see a window open for you to find the `.iso` file on your PC. It most likely is in the `Downloads` folder. Leave **Skip Unattended Installation** as it is.
 
-   ![Half of the options being greyed out is normal. Don't worry about it.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/04_install_start.png)
+![Half of the options being greyed out is normal. Don't worry about it.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/04_install_start.png)
 
 Continue by pressing **Next** and follow the next steps:
 
@@ -71,14 +71,13 @@ Continue by pressing **Next** and follow the next steps:
 
 You should see a window like this one now:
 
-   ![No need to worry about the Product Key.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/05_unattended_install.png)
+![No need to worry about the Product Key.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/05_unattended_install.png)
 
 You want to tick the **Guest Additions** and **Install in Background** options and also change your **Username** and **Password** fields to your liking. Note that your username must be all lower-case and no more than 32 characters. If you forget to change the default password, it will be `changeme`. Leave the **Guest Additions ISO**, **Hostname** and **Domain Name** as they are. Continue by pressing **Next**.
 
-
 #### Step 2.2.2: Hardware
 
-   ![You might be tempted to give your VM more than 2 processors. Don't.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/06_hardware.png)
+![You might be tempted to give your VM more than 2 processors. Don't.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/06_hardware.png)
 
 In the **Hardware** section of the installation you want to set your **Base Memory** to at least 2048 MB or more if possible - the upper limit is half of your total RAM but 4096 MB with the settings we recommend should give you a smooth experience.
 
@@ -94,27 +93,25 @@ As for **Processors** you want this to be at 2 and no more. Leave **Enable EFI (
 
 #### Step 2.2.3: Virtual hard disk
 
-   ![Don't Pre-allocate Full Size.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/07_virtual_hard_disk.png)
+![Don't Pre-allocate Full Size.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/07_virtual_hard_disk.png)
 
 Now, you want to leave all the settings as they are besides the **Disk Size**, we recommend giving the VM **at least 30GB** of space. Reminder that this disk will be created in the folder that you've specified on the very first step of the VM creation process but nonetheless, the disk can be moved and resized in the future if needed.
-
 
 #### Step 2.2.4: Begin the unattended installation
 
 Click **Next** to be taken to a **Summary** page, on which you can simply click **Finish** to begin the process of unattended installation. The neat thing about it? It installs the OS and GuestAdditions on its own, without your input! Just let it do its own thing, you will know it is finished when you will see a login screen like this one in the **Preview** section:
 
-   ![The Preview section is in the top right of VirtualBox window.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/08_preview_login.png)
+![The Preview section is in the top right of VirtualBox window.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/08_preview_login.png)
 
 Just click the green arrow called **Show** and you'll be presented with a VM window and the login screen. Log in with the password you've set up during the installation process and we'll have one bit of configuration left to do.
 
 It is possible that you'll receive an error like this one after clicking **Finish**:
 
-   ![The error shows up on the right side of the VirtualBox window and can be a little differently worded.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/09_virtualization_error.png)
+![The error shows up on the right side of the VirtualBox window and can be a little differently worded.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/09_virtualization_error.png)
 
 It means you have to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). [Alternative set of instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968). If you have an AMD CPU, you're probably looking for something called `SVM` to enable, for Intel CPUs, `Intel Virtualization Technology`. The error should tell you what it is looking for. After you deal with it, just **Start** the machine and let things happen, you'll know that the process has finished when you see a login screen:
 
-   ![You can already make your VM full screen or just maximize the window.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/10_login_screen.png)
-
+![You can already make your VM full screen or just maximize the window.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/10_login_screen.png)
 
 ### Step 3: Setting correct sudo permissions
 
@@ -124,19 +121,19 @@ Due to how the unattended installation is configured by VirtualBox, your account
 
 First, click on the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> in top left of your window, afterwards type in `Users` and you should see `Users and Groups` show up. Click on it.
 
-   ![It should be the top option you see. It is possible that due to localization it'll be called differently - try using the term in your language then.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/11_users_and_groups.png)
+![It should be the top option you see. It is possible that due to localization it'll be called differently - try using the term in your language then.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/11_users_and_groups.png)
 
 #### Step 3.2: Manage groups
 
 In the window that just came up you want to click on **Manage Groups**, click somewhere on the list and type `sudo` on your keyboard. That should bring you to the `sudo` entry like in the picture:
 
-   ![You will find the search functionality like this in many corners of Xubuntu.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/12_sudo_group.png)
+![You will find the search functionality like this in many corners of Xubuntu.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/12_sudo_group.png)
 
 #### Step 3.2: Add yourself to sudo
 
 With `sudo` selected, click **Properties** and in the window that shows up tick your user's name like this:
 
-   ![No need to touch anything else.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/13_sudo_properties.png)
+![No need to touch anything else.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/13_sudo_properties.png)
 
 And then click **OK**. You will be greeted with a password prompt - it's the same one you logged in with.
 
@@ -144,18 +141,18 @@ And then click **OK**. You will be greeted with a password prompt - it's the sam
 
 Now that this is all done, you can close those windows and reboot your VM. You can open a `Terminal` window by doing <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> and type in `reboot` and then press <kbd>Enter</kbd> to execute the command. Alternatively, you can click on the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> , then click on the power icon in bottom right and pick **Restart**.
 
-   ![You might want to take note of other options that you see in this menu.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/14_logout.png)
+![You might want to take note of other options that you see in this menu.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/14_logout.png)
 
-   ![Not the most exciting of menus, but take note of the Shut Down option.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/15_restart.png)
+![Not the most exciting of menus, but take note of the Shut Down option.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/15_restart.png)
 
 #### Step 3.4: Test your newly gained sudo privileges
 
 Now that you have access to `sudo`, we can use this to update our Xubuntu through the `Terminal`. Open the `Terminal` and use these commands, one after another:
 
-~~~bash
+```bash
 sudo apt update
 sudo apt upgrade
-~~~
+```
 
 You will be asked for your password after using the first one - type it in and use <kbd>Enter</kbd> to provide your terminal with the password. There is no visual feedback about what you're typing in but you are indeed doing so.
 
@@ -165,30 +162,31 @@ After `sudo apt upgrade` runs for a while you will be asked whether you want to 
 
 Here are some tips to help you get started in a virtual environment:
 
--   Enable the toolbar in your VM settings - there are useful options there that you might want to play around with, especially the ones concerning full screen or multiple displays. To do so, click on **Settings** and then navigate to **User Interface** and finally tick **Show at Top of Screen**.
-    ![It's a good idea to look around the settings overall to get a feel of what's possible.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/16_toolbar.png)
--   All your work should happen in the VM. You will install everything you need for coding, including your text editor, language environments and various tools inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed but we'll be installing Chrome shortly.
--   To install software on your VM, you will follow the Linux (Ubuntu) installation instructions from inside the Xubuntu VM.
--   You might need to take screenshots when asking for help on our Discord, here's how depending on where you use it:
-    -   **Inside the VM:** you can use <kbd>Shift</kbd> + <kbd>PrtSrc</kbd> to take screenshots of portion of your screen. Alternatively, you can click the **Whisker Menu** and type in **Screenshot**, in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
-    -   **On your host (Windows):** you can use a shortcut of the Host Key (<kbd>Right Ctrl</kbd> + <kbd>E</kbd>) or click **View -> Take Screenshot** for a full screenshot. A different way would be unfocusing your VM window by clicking outside of it and then using the regular Windows shortcut of <kbd>Windows key</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> to take screenshots of portion of your screen.
--   **Remember:** all of the development that you'll do related to TOP should be done in the VM.
--   We recommend going full screen (**View -> Full-screen Mode**) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
--   If you added additional monitors in the **Display** tab of your VM settings, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. **Make sure you enable your Virtual Screens in windowed mode before going fullscreen, otherwise they won't work.** Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
-
+- Enable the toolbar in your VM settings - there are useful options there that you might want to play around with, especially the ones concerning full screen or multiple displays. To do so, click on **Settings** and then navigate to **User Interface** and finally tick **Show at Top of Screen**.
+  ![It's a good idea to look around the settings overall to get a feel of what's possible.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/16_toolbar.png)
+- All your work should happen in the VM. You will install everything you need for coding, including your text editor, language environments and various tools inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed but we'll be installing Chrome shortly.
+- To install software on your VM, you will follow the Linux (Ubuntu) installation instructions from inside the Xubuntu VM.
+- You might need to take screenshots when asking for help on our Discord, here's how depending on where you use it:
+  - **Inside the VM:** you can use <kbd>Shift</kbd> + <kbd>PrtSrc</kbd> to take screenshots of portion of your screen. Alternatively, you can click the **Whisker Menu** and type in **Screenshot**, in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
+  - **On your host (Windows):** you can use a shortcut of the Host Key (<kbd>Right Ctrl</kbd> + <kbd>E</kbd>) or click **View -> Take Screenshot** for a full screenshot. A different way would be unfocusing your VM window by clicking outside of it and then using the regular Windows shortcut of <kbd>Windows key</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> to take screenshots of portion of your screen.
+- **Remember:** all of the development that you'll do related to TOP should be done in the VM.
+- We recommend going full screen (**View -> Full-screen Mode**) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
+- If you added additional monitors in the **Display** tab of your VM settings, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. **Make sure you enable your Virtual Screens in windowed mode before going fullscreen, otherwise they won't work.** Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
+- Enable copy and past between your VM and your host(Windows) in your VM settings. Under the **General** tab, select the **Advanced** option, proceed to **Shared Clipboard** and select the option **Bidirectional**.
+  ![You might want to allow Drag'n'Drop also.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/21_shared_clipboard.png)
 
 #### Frequent issues/questions:
 
--   If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
--   Running out of space? Look at [these instructions on our Discord](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
--   Are you using a touchscreen? [Here's a video](https://www.youtube.com/watch?v=hW-iyHHoDy4) on how to enable touchscreen controls for VirtualBox.
--   **VM performance tips**:
-    -   When running the VM, minimize your Windows activity. You probably want to be plugged into power as well if you're using a laptop.
-    -   Make sure your processors are set to only 2 and the Memory you've given your VM is at most half of your total RAM but at least 2GB. If you can't spare the 2GB, dual boot.
-    -   If videos lag in the VM, make sure to max out Video Memory to whatever you can or alternatively play them on your Windows if your machine can handle it. Disable 3D Acceleration if you have it enabled.
-    -   Do look out for the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> icon in bottom right of your VM window, if you have it, here's a [VirtualBox forum thread on how to get rid of it](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390). You want to have the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> icon instead. If you don't see a <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> or a <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> in bottom right, you have to exit full screen mode to see them.
-  -   If your performance is still lacking, go for a dual boot as this will make sure you're using all of your specs for one OS only, thus improving your experience significantly.
--   If your scroll wheel behaves oddly in Google Chrome and you have gone through VM performance tips to make sure your VM is working as intended, look into `imwheel`: [see these AskUbuntu instructions for more information](https://askubuntu.com/a/621140). If you have VSCode installed, use that instead of `gedit`, otherwise install it with `sudo apt install gedit` - if you install it with `snap`, it won't let you save the file. To make sure `imwheel` works every startup, you need to click the whisker <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> , type `Session` and click on `Session and Startup` that shows up, go to `Application Autostart`, click `Add` and put it `imwheel` for `Name` and `imwheel -b "4 5` for `Command`. Click `OK` and you should be all set.
+- If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
+- Running out of space? Look at [these instructions on our Discord](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
+- Are you using a touchscreen? [Here's a video](https://www.youtube.com/watch?v=hW-iyHHoDy4) on how to enable touchscreen controls for VirtualBox.
+- **VM performance tips**:
+  - When running the VM, minimize your Windows activity. You probably want to be plugged into power as well if you're using a laptop.
+  - Make sure your processors are set to only 2 and the Memory you've given your VM is at most half of your total RAM but at least 2GB. If you can't spare the 2GB, dual boot.
+  - If videos lag in the VM, make sure to max out Video Memory to whatever you can or alternatively play them on your Windows if your machine can handle it. Disable 3D Acceleration if you have it enabled.
+  - Do look out for the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> icon in bottom right of your VM window, if you have it, here's a [VirtualBox forum thread on how to get rid of it](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390). You want to have the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> icon instead. If you don't see a <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> or a <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> in bottom right, you have to exit full screen mode to see them.
+- If your performance is still lacking, go for a dual boot as this will make sure you're using all of your specs for one OS only, thus improving your experience significantly.
+- If your scroll wheel behaves oddly in Google Chrome and you have gone through VM performance tips to make sure your VM is working as intended, look into `imwheel`: [see these AskUbuntu instructions for more information](https://askubuntu.com/a/621140). If you have VSCode installed, use that instead of `gedit`, otherwise install it with `sudo apt install gedit` - if you install it with `snap`, it won't let you save the file. To make sure `imwheel` works every startup, you need to click the whisker <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> , type `Session` and click on `Session and Startup` that shows up, go to `Application Autostart`, click `Add` and put it `imwheel` for `Name` and `imwheel -b "4 5` for `Command`. Click `OK` and you should be all set.
 
 ### Step 5: Safely shutting down your VM
 
@@ -224,7 +222,7 @@ Dual-booting provides two operating systems on your computer that you can switch
 
 ### Step 1: Download Ubuntu
 
-First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/22.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/22-04/). Be sure to download the 64-bit version of [Ubuntu](https://releases.ubuntu.com/22.04/) or [Xubuntu](https://xubuntu.org/release/22-04/). If you reach the download page and are unsure about what version to choose, it is recommended that you pick the latest Long-Term Support (LTS) version (22.04 at the time of writing). You may be tempted to choose a more recent non-LTS release, but LTS releases have the advantage of guaranteed support for up to 5 years, making them more secure, stable and hence reliable.  
+First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/22.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/22-04/). Be sure to download the 64-bit version of [Ubuntu](https://releases.ubuntu.com/22.04/) or [Xubuntu](https://xubuntu.org/release/22-04/). If you reach the download page and are unsure about what version to choose, it is recommended that you pick the latest Long-Term Support (LTS) version (22.04 at the time of writing). You may be tempted to choose a more recent non-LTS release, but LTS releases have the advantage of guaranteed support for up to 5 years, making them more secure, stable and hence reliable.
 
 ### Step 2: Create a bootable flash drive
 
@@ -238,9 +236,9 @@ Note: You can use this method to try out [different flavors of Ubuntu](https://w
 
 First, you need to boot Ubuntu from your flash drive. The exact steps may vary, but in general, you will need to do the following:
 
--  Insert the flash drive into the computer.
--  Reboot the computer.
--  Select the flash drive as the bootable device instead of the hard drive.
+- Insert the flash drive into the computer.
+- Reboot the computer.
+- Select the flash drive as the bootable device instead of the hard drive.
 
 For example, on a Dell computer, you would need to plug in the flash drive, reboot the computer, and press the F12 key while the computer is first booting up to bring up the boot menu. From there, you can select to boot from the flash drive. Your computer may not be exactly the same, but Google can help you figure it out.
 
@@ -265,8 +263,8 @@ If you encounter an error requesting you to disable **Intel RST** while attempti
 With the recent addition of being able to run a Linux terminal, the ChromeOS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
 
 1.  You have a supported Chromebook:
-    -   [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
-    -   [ChromeOS Flex Chromebooks](https://support.google.com/chromeosflex/answer/11513094)
+    - [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
+    - [ChromeOS Flex Chromebooks](https://support.google.com/chromeosflex/answer/11513094)
 2.  You can install Linux by following [these instructions](https://support.google.com/chromebook/answer/9145439?hl=en)
 
 Once you have successfully met both of these requirements, you should be able to follow along with the Linux instructions throughout the entire curriculum.
@@ -287,49 +285,49 @@ Choose your Operating System:
 
 #### Step 1: Download Google Chrome
 
-   -   Open your **Terminal**
-   -   Run the following command to download latest **Google Chrome** `.deb` package
+- Open your **Terminal**
+- Run the following command to download latest **Google Chrome** `.deb` package
 
-~~~bash
+```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-~~~
+```
 
 #### Step 2: Install Google Chrome
 
-   -   Enter the following command in your terminal to install **Google Chrome** `.deb` package
+- Enter the following command in your terminal to install **Google Chrome** `.deb` package
 
-       ~~~bash
-       sudo apt install ./google-chrome-stable_current_amd64.deb
-       ~~~
+  ```bash
+  sudo apt install ./google-chrome-stable_current_amd64.deb
+  ```
 
-   -   Enter your password, if needed
+- Enter your password, if needed
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
+You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))\_
 
 </div>
 
 #### Step 3: Delete the installer file
 
-~~~bash
+```bash
 rm google-chrome-stable_current_amd64.deb
-~~~
+```
 
 #### Step 4: Using Google Chrome
 
 You can start chrome in two ways,
 
-   -   Click **Google Chrome** from the Applications menu
-   -   **Or**, use the `google-chrome` command from the terminal
+- Click **Google Chrome** from the Applications menu
+- **Or**, use the `google-chrome` command from the terminal
 
-~~~bash
+```bash
 google-chrome
-~~~
+```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &` instead.)_
+Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &` instead.)\_
 
 </div>
 
@@ -340,26 +338,26 @@ Chrome is going to use this terminal to output various messages and won't let yo
 
 #### Step 1: Download Google Chrome
 
-   -   Visit [Google Chrome download page](https://www.google.com/chrome/)
-   -   Click **Download Chrome for Mac**
+- Visit [Google Chrome download page](https://www.google.com/chrome/)
+- Click **Download Chrome for Mac**
 
 #### Step 2: Install Google Chrome
 
-   -   Open the **Downloads** folder
-   -   Double click the file **googlechrome.dmg**
-   -   Drag the Google Chrome icon to the **Applications** folder icon
+- Open the **Downloads** folder
+- Double click the file **googlechrome.dmg**
+- Drag the Google Chrome icon to the **Applications** folder icon
 
 #### Step 3: Delete the installer file
 
-   -   Open **Finder**
-   -   Click the **arrow** next to Google Chrome in the sidebar
-   -   Go to the **Downloads** folder
-   -   Drag **googlechrome.dmg** to the trash
+- Open **Finder**
+- Click the **arrow** next to Google Chrome in the sidebar
+- Go to the **Downloads** folder
+- Drag **googlechrome.dmg** to the trash
 
 #### Step 4: Using Google Chrome
 
-   -   Go to your **Applications** folder
-   -   Double click **Google Chrome**
+- Go to your **Applications** folder
+- Double click **Google Chrome**
 
 </details>
 
@@ -367,4 +365,4 @@ Chrome is going to use this terminal to output various messages and won't let yo
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--  It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
