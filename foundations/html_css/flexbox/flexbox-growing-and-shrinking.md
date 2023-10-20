@@ -28,7 +28,8 @@ Very often you see the flex shorthand defined with only _one_ value. In that cas
 
 `flex-grow` expects a single number as its value, and that number is used as the flex-item's "growth factor". When we applied `flex: 1` to every div inside our container, we were telling every div to grow the same amount. The result of this is that every div ends up the exact same size. If we instead add `flex: 2` to just one of the divs, then that div would grow to 2x the size of the others.
 
-"grow-factor" is also applied if size of all flex items is smaller than their parent container. If after resizing parent container grows, the growth of flex items will depend on `flex-grow` number.
+"grow-factor" is also applied if size of all flex items is smaller than their parent container. Say, parent container's width is 300px and it has 3 flex-items, each having width 100px. When parent container is resized to say, 500px then, the distribution of extra 200px to flex-items will be directly proportional to their `flex-grow` number. So, if flex grow for each item is in the ratio _1:2:1_. Then, the 
+first and last flex item will get _(1/4)*200px_ each and the second flex item will get _(2/4)*200px_.
 
 In the following example the `flex` shorthand has values for `flex-shrink` and `flex-basis` specified with their default values.
 
