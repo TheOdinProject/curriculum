@@ -228,10 +228,10 @@ Let us address a few cases where `useEffect` does not need to be used.
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#introduction">What is an effect?</a>
-*   <a class="knowledge-check-link" href="#body-of-an-useEffect">What constitutes a `useEffect` hook?</a>
-*   <a class="knowledge-check-link" href="#but-do-we-need-the-effect">What is the one question we can ask to know when to use an effect?</a>
-*   <a class="knowledge-check-link" href="#lifting-the-state">What do we mean by lifting up the state?</a>
+*   [What is an effect?](#introduction)
+*   [What constitutes a `useEffect` hook?](#body-of-an-useEffect)
+*   [What is the one question we can ask to know when to use an effect?](#but-do-we-need-the-effect)
+*   [What do we mean by lifting up the state?](#lifting-the-state)
 
 ### Additional resources
 
