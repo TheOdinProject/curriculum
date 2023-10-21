@@ -501,17 +501,17 @@ After coming to grips with the information in this lesson you'll be a block, pro
 
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks">What is a block?</a>
-- <a class="knowledge-check-link" href="https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks">How is a block like a method?</a>
-- <a class="knowledge-check-link" href="#block-basics">What are the two ways to declare a block?</a>
-- <a class="knowledge-check-link" href="#return-value">How do you return data from a block?</a>
-- <a class="knowledge-check-link" href="#collect-return">How can your methods collect the return data from a block?</a>
-- <a class="knowledge-check-link" href="#explicit-return">What happens if you include a `return` statement in a block?</a>
-- <a class="knowledge-check-link" href="#yield">What does `yield` do?</a>
-- <a class="knowledge-check-link" href="#pass-arguments">How do you pass arguments to a block from within a method?</a>
-- <a class="knowledge-check-link" href="#block-given">How do you check whether a block was actually passed in?</a>
-- <a class="knowledge-check-link" href="#procs">What is a proc?</a>
-- <a class="knowledge-check-link" href="#lambdas">What is a lambda?</a>
-- <a class="knowledge-check-link" href="#procs-vs-lambdas">What's different between a lambda and a proc?</a>
-- <a class="knowledge-check-link" href="#proc-to-block">How do you convert a proc to a block?</a>
-- <a class="knowledge-check-link" href="#capturing-blocks">How do you convert a block to a proc?</a>
+- [What is a block?](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks)
+- [How is a block like a method?](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks)
+- [What are the two ways to declare a block?](#block-basics)
+- [How do you return data from a block?](#return-value)
+- [How can your methods collect the return data from a block?](#collect-return)
+- [What happens if you include a `return` statement in a block?](#explicit-return)
+- [What does `yield` do?](#yield)
+- [How do you pass arguments to a block from within a method?](#pass-arguments)
+- [How do you check whether a block was actually passed in?](#block-given)
+- [What is a proc?](#procs)
+- [What is a lambda?](#lambdas)
+- [What's different between a lambda and a proc?](#procs-vs-lambdas)
+- [How do you convert a proc to a block?](#proc-to-block)
+- [How do you convert a block to a proc?](#capturing-blocks)
