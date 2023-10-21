@@ -221,10 +221,10 @@ This section contains helpful links to other content. It isn't required, so cons
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://guides.rubyonrails.org/action_controller_overview.html#what-does-a-controller-do-questionmark">What does a controller do?</a>
-- <a class="knowledge-check-link" href="#naming-matters">Why is it important to adhere to the Rails naming convention for your controllers and all of its methods?</a>
-- <a class="knowledge-check-link" href="#rendering-and-redirecting">What is the difference between `render` and `redirect_to`?</a>
-- <a class="knowledge-check-link" href="https://guides.rubyonrails.org/action_controller_overview.html#parameters">Which variable in your controller contains all the data sent in by the user?</a>
-- <a class="knowledge-check-link" href="#strong-parameters">Data from a client can never be trusted. Which helper method should you incorporate in your controller to prevent malicious data injections?</a>
-- <a class="knowledge-check-link" href="https://guides.rubyonrails.org/action_controller_overview.html#the-flash">When is a flash message shown?</a>
-- <a class="knowledge-check-link" href="https://guides.rubyonrails.org/action_controller_overview.html#flash-now">How do we change when a flash is shown?</a>
+- [What does a controller do?](https://guides.rubyonrails.org/action_controller_overview.html#what-does-a-controller-do-questionmark)
+- [Why is it important to adhere to the Rails naming convention for your controllers and all of its methods?](#naming-matters)
+- [What is the difference between `render` and `redirect_to`?](#rendering-and-redirecting)
+- [Which variable in your controller contains all the data sent in by the user?](https://guides.rubyonrails.org/action_controller_overview.html#parameters)
+- [Data from a client can never be trusted. Which helper method should you incorporate in your controller to prevent malicious data injections?](#strong-parameters)
+- [When is a flash message shown?](https://guides.rubyonrails.org/action_controller_overview.html#the-flash)
+- [How do we change when a flash is shown?](https://guides.rubyonrails.org/action_controller_overview.html#flash-now)
