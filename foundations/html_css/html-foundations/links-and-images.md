@@ -243,6 +243,8 @@ Here is our Odin Project logo example with height and width tags included:
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+Here, the measurement units for the "height" and "width" attributes are not explicitly defined. When you specify dimensions in HTML without a unit, the values are assumed to be in pixels (px) by default.
+
 Go ahead and update the `odin-links-and-images` project with width and height tags on the dog image.
 
 ### Assignment
