@@ -121,7 +121,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 **Free plan**
 
-- You get 500 free, one-time-use hours on their free plan, and the applications are never put to sleep when inactive. With this in mind, the free allowance is only enough to host one app for 20 days, and thus isn't recommended.
+- You get a free one-time grant of 5$ on their free trial, and the applications are never put to sleep when inactive.
+- However, the longevity of your free allowance depends on how many resources you consume. Full usage of the resources available is only enough to host one app for about 30 days, and thus isn't recommended.
 
 **Links**
 
