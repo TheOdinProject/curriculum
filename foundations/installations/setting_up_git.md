@@ -86,10 +86,10 @@ git --version
 
 If the version number is less than 2.28, follow the instructions again. If you are encountering a `no formulae found in taps` error:
 
-1.  Run `brew doctor`
-2.  You will see an output like the one below. NOTE: The actual output of `brew doctor` may vary based on the version of MacOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` to repair your installation of Homebrew, including `brew cleanup` at the end.
+1. Run `brew doctor`.
+2. You will see an output like the one below. NOTE: The actual output of `brew doctor` may vary based on the version of MacOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` to repair your installation of Homebrew, including `brew cleanup` at the end.
 ![Brew Doctor Sample Output](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/installations/setting_up_git/imgs/00.png)
-3.  Run `brew install git`, **open a new terminal window**, and then check your version of Git, which should now be the latest.
+3. Run `brew install git`, **open a new terminal window**, and then check your version of Git, which should now be the latest.
 
 </details>
 
@@ -184,8 +184,8 @@ ssh-keygen -t ed25519 -C "your@email.com"
 The `-C` flag is to write a comment, otherwise the key will be generated with your computer's username. The convention is to use your email as a comment to indicate who generated the public key. For example if your email address is `odin@theodinproject.com`, then you would type `ssh-keygen -t ed25519 -C "odin@theodinproject.com"`.
 </div>
 
-* When it prompts you for a location to save the generated key, just push <kbd>Enter</kbd>.
-* Next, it will ask you for a password; enter one if you wish, but it's not required.
+- When it prompts you for a location to save the generated key, just push <kbd>Enter</kbd>.
+- Next, it will ask you for a password; enter one if you wish, but it's not required.
 
 #### Step 2.4: Link your SSH key with GitHub
 
@@ -219,5 +219,5 @@ You probably felt like you were way in over your head, and you probably didn't u
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--   [Understanding SSH Key Pairs](https://winscp.net/eng/docs/ssh_keys) SSH is a secure network protocol that uses an implementation of public-key cryptography, also known as asymmetric cryptography. Having a basic understanding of how it works can help you understand what an SSH key is all about.
--   [Asymmetric Encryption - Simply explained](https://www.youtube.com/watch?v=AQDCe585Lnc) a short video explaining Asymmetric Encryption.
+- [Understanding SSH Key Pairs](https://winscp.net/eng/docs/ssh_keys) SSH is a secure network protocol that uses an implementation of public-key cryptography, also known as asymmetric cryptography. Having a basic understanding of how it works can help you understand what an SSH key is all about.
+- [Asymmetric Encryption - Simply explained](https://www.youtube.com/watch?v=AQDCe585Lnc) a short video explaining Asymmetric Encryption.

@@ -335,9 +335,9 @@ Open your browser, and head on over to `localhost:3000`. If you are greeted by t
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   <a class="knowledge-check-link" href="#pipeline">What are the typical environments that make up a pipeline?</a>
--   <a class="knowledge-check-link" href="#env_var">What is an environment variable?</a>
--   <a class="knowledge-check-link" href="#privacy">Why should we use environment variables?</a>
+-   [What are the typical environments that make up a pipeline?](#pipeline)
+-   [What is an environment variable?](#env_var)
+-   [Why should we use environment variables?](#privacy)
 
 
 ### Additional resources

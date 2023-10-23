@@ -243,9 +243,9 @@ You've already tasted the complexity of data fetching in this lesson. Each reque
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#using-fetch-in-react-components">How can you fetch data from an API in React?</a>
-- <a class="knowledge-check-link" href="#handling-errors">Why should you manually throw errors in fetch requests?</a>
-- <a class="knowledge-check-link" href="#managing-multiple-fetch-requests">How can you avoid waterfalling requests?</a>
+- [How can you fetch data from an API in React?](#using-fetch-in-react-components)
+- [Why should you manually throw errors in fetch requests?](#handling-errors)
+- [How can you avoid waterfalling requests?](#managing-multiple-fetch-requests)
 
 ### Additional resources
 

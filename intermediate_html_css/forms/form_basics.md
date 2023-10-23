@@ -491,7 +491,7 @@ Certain aspects of other elements are downright impossible to style, for example
 
 #### Form basics
 
-1. Read and follow along to [MDN's Introductory Guides to Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_guides)
+1. Read and follow along to [MDN's Introductory Guides to Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_guides) - complete [Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form) and [How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form#test_your_skills!)
 2. Read and follow along to [MDN's The Different Form Controls Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#the_different_form_controls)
 
 #### Styling forms

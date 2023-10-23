@@ -44,6 +44,7 @@ function printAge (age) {
 }
 
 printAge(globalAge);
+
 // ERROR! We tried to access a function scoped variable
 // outside the function it's defined in
 console.log(varAge);
@@ -187,10 +188,10 @@ josh.giveReputation();
 josh.giveReputation();
 
 console.log({
-  name: josh.discordName,
-  reputation: josh.getReputation
+  discordName: josh.discordName,
+  reputation: josh.getReputation()
 });
-// logs { name: "josh", reputation: 2 }
+// logs { discordName: "@josh", reputation: 2 }
 ~~~
 
 We've introduced a new metric for a new user, a reputation, and in our returned object, added two new functions to control this reputation count. Sounds about right? But notice that we did not return the reputation count, *itself*. Instead, we used the power of closure to let it remain hidden, as a detail of implementation, and offered a function to check its value at any time and another one to increase its value by one. This is what we call a "private" variable.
