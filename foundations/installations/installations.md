@@ -165,30 +165,30 @@ After `sudo apt upgrade` runs for a while you will be asked whether you want to 
 
 Here are some tips to help you get started in a virtual environment:
 
--   Enable the toolbar in your VM settings - there are useful options there that you might want to play around with, especially the ones concerning full screen or multiple displays. To do so, click on **Settings** and then navigate to **User Interface** and finally tick **Show at Top of Screen**.
+- Enable the toolbar in your VM settings - there are useful options there that you might want to play around with, especially the ones concerning full screen or multiple displays. To do so, click on **Settings** and then navigate to **User Interface** and finally tick **Show at Top of Screen**.
     ![It's a good idea to look around the settings overall to get a feel of what's possible.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/16_toolbar.png)
--   All your work should happen in the VM. You will install everything you need for coding, including your text editor, language environments and various tools inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed but we'll be installing Chrome shortly.
--   To install software on your VM, you will follow the Linux (Ubuntu) installation instructions from inside the Xubuntu VM.
--   You might need to take screenshots when asking for help on our Discord, here's how depending on where you use it:
-    -   **Inside the VM:** you can use <kbd>Shift</kbd> + <kbd>PrtSrc</kbd> to take screenshots of portion of your screen. Alternatively, you can click the **Whisker Menu** and type in **Screenshot**, in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
-    -   **On your host (Windows):** you can use a shortcut of the Host Key (<kbd>Right Ctrl</kbd> + <kbd>E</kbd>) or click **View -> Take Screenshot** for a full screenshot. A different way would be unfocusing your VM window by clicking outside of it and then using the regular Windows shortcut of <kbd>Windows key</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> to take screenshots of portion of your screen.
--   **Remember:** all of the development that you'll do related to TOP should be done in the VM.
--   We recommend going full screen (**View -> Full-screen Mode**) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
--   If you added additional monitors in the **Display** tab of your VM settings, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. **Make sure you enable your Virtual Screens in windowed mode before going fullscreen, otherwise they won't work.** Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
+- All your work should happen in the VM. You will install everything you need for coding, including your text editor, language environments and various tools inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed but we'll be installing Chrome shortly.
+- To install software on your VM, you will follow the Linux (Ubuntu) installation instructions from inside the Xubuntu VM.
+- You might need to take screenshots when asking for help on our Discord, here's how depending on where you use it:
+  - **Inside the VM:** you can use <kbd>Shift</kbd> + <kbd>PrtSrc</kbd> to take screenshots of portion of your screen. Alternatively, you can click the **Whisker Menu** and type in **Screenshot**, in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
+  - **On your host (Windows):** you can use a shortcut of the Host Key (<kbd>Right Ctrl</kbd> + <kbd>E</kbd>) or click **View -> Take Screenshot** for a full screenshot. A different way would be unfocusing your VM window by clicking outside of it and then using the regular Windows shortcut of <kbd>Windows key</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> to take screenshots of portion of your screen.
+- **Remember:** all of the development that you'll do related to TOP should be done in the VM.
+- We recommend going full screen (**View -> Full-screen Mode**) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
+- If you added additional monitors in the **Display** tab of your VM settings, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. **Make sure you enable your Virtual Screens in windowed mode before going fullscreen, otherwise they won't work.** Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
 
 
 #### Frequent issues/questions:
 
--   If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
--   Running out of space? Look at [these instructions on our Discord](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
--   Are you using a touchscreen? [Here's a video](https://www.youtube.com/watch?v=hW-iyHHoDy4) on how to enable touchscreen controls for VirtualBox.
--   **VM performance tips**:
-    -   When running the VM, minimize your Windows activity. You probably want to be plugged into power as well if you're using a laptop.
-    -   Make sure your processors are set to only 2 and the Memory you've given your VM is at most half of your total RAM but at least 2GB. If you can't spare the 2GB, dual boot.
-    -   If videos lag in the VM, make sure to max out Video Memory to whatever you can or alternatively play them on your Windows if your machine can handle it. Disable 3D Acceleration if you have it enabled.
-    -   Do look out for the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> icon in bottom right of your VM window, if you have it, here's a [VirtualBox forum thread on how to get rid of it](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390). You want to have the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> icon instead. If you don't see a <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> or a <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> in bottom right, you have to exit full screen mode to see them.
-  -   If your performance is still lacking, go for a dual boot as this will make sure you're using all of your specs for one OS only, thus improving your experience significantly.
--   If your scroll wheel behaves oddly in Google Chrome and you have gone through VM performance tips to make sure your VM is working as intended, look into `imwheel`: [see these AskUbuntu instructions for more information](https://askubuntu.com/a/621140). If you have VSCode installed, use that instead of `gedit`, otherwise install it with `sudo apt install gedit` - if you install it with `snap`, it won't let you save the file. To make sure `imwheel` works every startup, you need to click the whisker <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> , type `Session` and click on `Session and Startup` that shows up, go to `Application Autostart`, click `Add` and put it `imwheel` for `Name` and `imwheel -b "4 5` for `Command`. Click `OK` and you should be all set.
+- If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
+- Running out of space? Look at [these instructions on our Discord](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
+- Are you using a touchscreen? [Here's a video](https://www.youtube.com/watch?v=hW-iyHHoDy4) on how to enable touchscreen controls for VirtualBox.
+- **VM performance tips**:
+  - When running the VM, minimize your Windows activity. You probably want to be plugged into power as well if you're using a laptop.
+  - Make sure your processors are set to only 2 and the Memory you've given your VM is at most half of your total RAM but at least 2GB. If you can't spare the 2GB, dual boot.
+  - If videos lag in the VM, make sure to max out Video Memory to whatever you can or alternatively play them on your Windows if your machine can handle it. Disable 3D Acceleration if you have it enabled.
+  - Do look out for the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> icon in bottom right of your VM window, if you have it, here's a [VirtualBox forum thread on how to get rid of it](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390). You want to have the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> icon instead. If you don't see a <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png" alt="Icon with a green turtle and a V" style="display: inline; margin: auto;"> or a <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png" alt="Icon of a chip with a V" style="display: inline; margin: auto;"> in bottom right, you have to exit full screen mode to see them.
+  - If your performance is still lacking, go for a dual boot as this will make sure you're using all of your specs for one OS only, thus improving your experience significantly.
+- If your scroll wheel behaves oddly in Google Chrome and you have gone through VM performance tips to make sure your VM is working as intended, look into `imwheel`: [see these AskUbuntu instructions for more information](https://askubuntu.com/a/621140). If you have VSCode installed, use that instead of `gedit`, otherwise install it with `sudo apt install gedit` - if you install it with `snap`, it won't let you save the file. To make sure `imwheel` works every startup, you need to click the whisker <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> , type `Session` and click on `Session and Startup` that shows up, go to `Application Autostart`, click `Add` and put it `imwheel` for `Name` and `imwheel -b "4 5` for `Command`. Click `OK` and you should be all set.
 
 ### Step 5: Safely shutting down your VM
 
@@ -238,9 +238,9 @@ Note: You can use this method to try out [different flavors of Ubuntu](https://w
 
 First, you need to boot Ubuntu from your flash drive. The exact steps may vary, but in general, you will need to do the following:
 
--  Insert the flash drive into the computer.
--  Reboot the computer.
--  Select the flash drive as the bootable device instead of the hard drive.
+- Insert the flash drive into the computer.
+- Reboot the computer.
+- Select the flash drive as the bootable device instead of the hard drive.
 
 For example, on a Dell computer, you would need to plug in the flash drive, reboot the computer, and press the F12 key while the computer is first booting up to bring up the boot menu. From there, you can select to boot from the flash drive. Your computer may not be exactly the same, but Google can help you figure it out.
 
@@ -264,10 +264,10 @@ If you encounter an error requesting you to disable **Intel RST** while attempti
 
 With the recent addition of being able to run a Linux terminal, the ChromeOS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
 
-1.  You have a supported Chromebook:
-    -   [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
-    -   [ChromeOS Flex Chromebooks](https://support.google.com/chromeosflex/answer/11513094)
-2.  You can install Linux by following [these instructions](https://support.google.com/chromebook/answer/9145439?hl=en)
+1. You have a supported Chromebook:
+   - [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
+   - [ChromeOS Flex Chromebooks](https://support.google.com/chromeosflex/answer/11513094)
+2. You can install Linux by following [these instructions](https://support.google.com/chromebook/answer/9145439?hl=en)
 
 Once you have successfully met both of these requirements, you should be able to follow along with the Linux instructions throughout the entire curriculum.
 
@@ -287,8 +287,8 @@ Choose your Operating System:
 
 #### Step 1: Download Google Chrome
 
-   -   Open your **Terminal**
-   -   Run the following command to download latest **Google Chrome** `.deb` package
+- Open your **Terminal**
+- Run the following command to download latest **Google Chrome** `.deb` package
 
 ~~~bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -296,13 +296,13 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 #### Step 2: Install Google Chrome
 
-   -   Enter the following command in your terminal to install **Google Chrome** `.deb` package
+- Enter the following command in your terminal to install **Google Chrome** `.deb` package
 
        ~~~bash
        sudo apt install ./google-chrome-stable_current_amd64.deb
        ~~~
 
-   -   Enter your password, if needed
+- Enter your password, if needed
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -320,8 +320,8 @@ rm google-chrome-stable_current_amd64.deb
 
 You can start chrome in two ways,
 
-   -   Click **Google Chrome** from the Applications menu
-   -   **Or**, use the `google-chrome` command from the terminal
+- Click **Google Chrome** from the Applications menu
+- **Or**, use the `google-chrome` command from the terminal
 
 ~~~bash
 google-chrome
@@ -340,26 +340,26 @@ Chrome is going to use this terminal to output various messages and won't let yo
 
 #### Step 1: Download Google Chrome
 
-   -   Visit [Google Chrome download page](https://www.google.com/chrome/)
-   -   Click **Download Chrome for Mac**
+- Visit [Google Chrome download page](https://www.google.com/chrome/)
+- Click **Download Chrome for Mac**
 
 #### Step 2: Install Google Chrome
 
-   -   Open the **Downloads** folder
-   -   Double click the file **googlechrome.dmg**
-   -   Drag the Google Chrome icon to the **Applications** folder icon
+- Open the **Downloads** folder
+- Double click the file **googlechrome.dmg**
+- Drag the Google Chrome icon to the **Applications** folder icon
 
 #### Step 3: Delete the installer file
 
-   -   Open **Finder**
-   -   Click the **arrow** next to Google Chrome in the sidebar
-   -   Go to the **Downloads** folder
-   -   Drag **googlechrome.dmg** to the trash
+- Open **Finder**
+- Click the **arrow** next to Google Chrome in the sidebar
+- Go to the **Downloads** folder
+- Drag **googlechrome.dmg** to the trash
 
 #### Step 4: Using Google Chrome
 
-   -   Go to your **Applications** folder
-   -   Double click **Google Chrome**
+- Go to your **Applications** folder
+- Double click **Google Chrome**
 
 </details>
 
@@ -367,4 +367,4 @@ Chrome is going to use this terminal to output various messages and won't let yo
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--  It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
