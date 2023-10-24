@@ -17,7 +17,6 @@ Keep track of how long it takes from when the photo is first loaded to when the 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Set up a GitHub Repo for this project. Follow the instructions atop the [Recipes project](https://www.theodinproject.com/lessons/foundations-recipes) if you need help.
 1. Think about what you'll need to do to get this all working together. This is where it's really helpful to think it completely through on paper or a whiteboard ahead of time! A few minutes of thought can save you from wasting an hour on coding.
 1. Build the front end functionality without actually using any calls to the back end yet. Specifically, create the functionality that pops the targeting box and dropdown menu on the screen when the user clicks on the photo and removes it when the user clicks away.
 1. Now hook up the functionality for validating with your backend whether or not the user has clicked the right place for the character they selected from the dropdown.
