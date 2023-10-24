@@ -42,7 +42,7 @@ React Router is a standard routing library for React applications. By using Reac
 
 Let's make a small app to understand how this router is implemented. Create a new React project and let's start by adding some mock pages as an example. Create a new `Profile.jsx` file with the following component:
 
-~~~jsx
+```jsx
 const Profile = () => {
   return (
     <div>
@@ -53,11 +53,11 @@ const Profile = () => {
 };
 
 export default Profile;
-~~~
+```
 
 Replace the `App.jsx` file with some basic content too:
 
-~~~jsx
+```jsx
 const App = () => {
   return (
     <div>
@@ -75,9 +75,9 @@ const App = () => {
 };
 
 export default App;
-~~~
+```
 
-Now it's time to add the router! There's a couple of ways of defining our app's routes, but in **React Router v6.7.0 or higher**, it is recommended to add routes as objects. 
+Now it's time to add the router! There's a couple of ways of defining our app's routes, but in **React Router v6.7.0 or higher**, it is recommended to add routes as objects.
 
 Let us install the React Router package:
 
@@ -85,7 +85,7 @@ Let us install the React Router package:
 
 Add the following to `Main.jsx`, we will talk about what is happening in a little bit.
 
-~~~jsx
+```jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -98,7 +98,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/profile",
+    path: "profile",
     element: <Profile />,
   },
 ]);
@@ -108,7 +108,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-~~~
+```
 
 Once this is done, go ahead and run `npm run dev` and check out both routes: the home route `/` and the profile route `/profile` It works! But what is happening here?
 
@@ -121,7 +121,7 @@ Once this is done, go ahead and run `npm run dev` and check out both routes: the
 
 But you may notice, when we click the links in the navbar, the browser is reloading for the next URL instead of using React Router. This isn't what was promised! To help with this, [React Router exports a custom `Link` element](https://reactrouter.com/en/main/components/link) to be used instead of the regular `a` tag. We can replace the `a` tag in our navbar with the `Link` element.
 
-~~~jsx
+```jsx
 import { Link } from "react-router-dom";
 
 const App = () => {
@@ -141,7 +141,7 @@ const App = () => {
 };
 
 export default App;
-~~~
+```
 
 And now, we don't get the browser reloading every time we click the link on the navbar!
 
@@ -149,7 +149,7 @@ And now, we don't get the browser reloading every time we click the link on the 
 
 Now, what if you want to render a section of a page differently, based on different URLs? This is where nested routes come into play! We can add routes nested as the children of one another to ensure that the child gets rendered alongside the parent. Create a couple of components, `Popeye.jsx` and `Spinach.jsx`.
 
-~~~jsx
+```jsx
 import { Link } from "react-router-dom";
 
 const Popeye = () => {
@@ -162,9 +162,9 @@ const Popeye = () => {
 };
 
 export default Popeye;
-~~~
+```
 
-~~~jsx
+```jsx
 import { Link } from "react-router-dom";
 
 const Spinach = () => {
@@ -177,11 +177,11 @@ const Spinach = () => {
 };
 
 export default Spinach;
-~~~
+```
 
 Now, we can rewrite the routes as given:
 
-~~~jsx
+```jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -210,11 +210,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-~~~
+```
 
 This allows us to render the child component alongside the parent, through an [`Outlet`](https://reactrouter.com/en/main/components/outlet)! We can rewrite the Profile component to add an `Outlet` which will get replaced by the various profiles when that route is visited!
 
-~~~jsx
+```jsx
 import { Outlet } from "react-router-dom";
 
 const Profile = () => {
@@ -230,25 +230,25 @@ const Profile = () => {
 };
 
 export default Profile;
-~~~
+```
 
 Check out the `/profile`, `/profile/popeye` and `/profile/spinach` pages. The `<Outlet />` component gets replaced with the children component when their paths are visited.
 
-If you want to render something as a default component when no path is added to Profile, you can add an index route to the children! 
+If you want to render something as a default component when no path is added to Profile, you can add an index route to the children!
 
 Create a default Profile component:
 
-~~~jsx
+```jsx
 const DefaultProfile = () => {
   return <p>Oh, nothing to see here!</p>;
 };
 
 export default DefaultProfile;
-~~~
+```
 
 Now, add an index tag with the DefaultProfile as a child to the `/profile` route.
 
-~~~jsx
+```jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -279,13 +279,13 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-~~~
+```
 
 If you visit the `/profile` path now, you should be able to see some default content where the `Outlet` is rendered when the index path is rendered!
 
 But this example brings another dillemma. Sometimes, we want to render content according to the URLs. That, here, would mean that we should be able to render content dynamically, from the component itself. Thankfully, you can do so with dynamic segments! Change the routes to be the following:
 
-~~~jsx
+```jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -308,11 +308,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-~~~
+```
 
 The colon (:) turns the path section after it into a <span id="dynamic-segments">"dynamic segment"</span>. Dynamic segments will match dynamic (changing) values in that position of the URL, like the `name`. These can also be called "URL params" or "params" in short. These can be used with the help of the `useParams` hook. We can thus rewrite the Profile component as the following:
 
-~~~jsx
+```jsx
 import { useParams } from "react-router-dom";
 import DefaultProfile from "./DefaultProfile";
 import Spinach from "./Spinach";
@@ -339,13 +339,13 @@ const Profile = () => {
 };
 
 export default Profile;
-~~~
+```
 
 ### Handling bad urls
 
 But alas, the index path doesn't work with this anymore, as in the `/profile` path, no params are actually passed. Actually, the `/profile` path doesn't make much sense without an actual name, else whose profile is it supposed to show, right? So, the application shows an error! This can't be good, so how do you show a default page in case the user visits a wrong or unused path? You can pass in an `errorElement` argument here! Create a basic "Not Found" page:
 
-~~~jsx
+```jsx
 import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
@@ -360,11 +360,11 @@ const ErrorPage = () => {
 };
 
 export default ErrorPage;
-~~~
+```
 
 Add the `errorElement` to the configuration, and verify that it renders an error page by going to the `/profile` path or any unmentioned paths.
 
-~~~jsx
+```jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -389,7 +389,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-~~~
+```
 
 ### Refactoring the routing
 
@@ -397,7 +397,7 @@ Let's refactor our routes to a component of their own. By refactoring, we can ad
 
 Create a new `Router.jsx` component and move your routes to it:
 
-~~~jsx
+```jsx
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import Profile from "./Profile";
@@ -420,11 +420,11 @@ const Router = () => {
 };
 
 export default Router;
-~~~
+```
 
 Simply add `Router.jsx` component to the `Main.jsx` file:
 
-~~~jsx
+```jsx
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Router from "./Router";
@@ -434,9 +434,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Router />
   </React.StrictMode>
 );
-~~~
+```
 
-Much nicer! 
+Much nicer!
 
 ### Protected routes and navigation
 
@@ -476,5 +476,5 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - Among the many ways to make protected routes, a few ways are provided below:
-    - [This Stack Overflow answer](https://stackoverflow.com/a/64347082/19051112) uses a function to generate the route config object passed to `createBrowserRouter`. The function conditionally generates the different paths.
-    - [This demonstration project](https://github.com/iammanishshrma/react-protected-routes/blob/master/src/routes/ProtectedRoute.jsx) creates a special Protected Route component that conditionally displays elements as necessary.
+  - [This Stack Overflow answer](https://stackoverflow.com/a/64347082/19051112) uses a function to generate the route config object passed to `createBrowserRouter`. The function conditionally generates the different paths.
+  - [This demonstration project](https://github.com/iammanishshrma/react-protected-routes/blob/master/src/routes/ProtectedRoute.jsx) creates a special Protected Route component that conditionally displays elements as necessary.
