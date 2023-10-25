@@ -60,10 +60,10 @@ By the end of this lesson, you should be able to do the following:
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md">What is a File System Module? How and why would you use it?</a>
-- <a class="knowledge-check-link" href="https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md">What is the command for installing a package locally in with npm?</a>
-- <a class="knowledge-check-link" href="https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md">What is the command for installing a package globally in with npm?</a>
-- <a class="knowledge-check-link" href="https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md">What is the difference between a global and local package install with npm?</a>
+- [What is a File System Module? How and why would you use it?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md)
+- [What is the command for installing a package locally in with npm?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md)
+- [What is the command for installing a package globally in with npm?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md)
+- [What is the difference between a global and local package install with npm?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md)
 
 ### Additional resources
 
