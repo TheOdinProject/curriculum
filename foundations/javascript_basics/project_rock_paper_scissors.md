@@ -39,29 +39,30 @@ You don't need to write any other code in the HTML file. This game is entirely p
 
 Your game will be played against the computer. Create a function `getComputerChoice` that randomly returns 'Rock', 'Paper' or 'Scissors':
 
-1. Create a new function `getComputerChoice`.
+1. Create a new function called `getComputerChoice`.
 1. Write the code to let `getComputerChoice` randomly `return` one of the following string values: "Rock", "Paper" or "Scissors". 
    1. **Hint**: The [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) method returns a random number that's greater than or equal to 0 and less than 1. Think about how to use this to pick one of the multiple choices conditionally.
 1. Test that your function returns what you expect using `console.log` or [the browser developer tools](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools) before advancing to the next step.
 
 #### Step 3: play round function
 
-Your game will be played round by round. Write a function named `playRound`, which takes the `playerSelection` and `computerSelection` to play a single round, and returns a winner announcement:
+Your game will be played round by round. Write a function named `playRound`, which takes the human and computer player choices as arguments to play a single round, and returns a winner announcement:
 
 1. Create a new function called `playRound`.
-1. Define two parameters on `playRound`: `playerSelection` and `computerSelection`. Use those two parameters to pass the human and computer choices as arguments.
+1. Define two parameters on `playRound`: `playerChoice` and `computerChoice`. Use those two parameters to take the human and computer choices as arguments.
 1. Make your function's `playerSelection` parameter case-insensitive. Players should be able to input "rock", "ROCK", "RocK" or other variations.
 1. Write the code for your `playRound` function to `return` a string value representing the round winner, such as: "You Lose! Paper beats Rock".
 
 Example code:
 
 ~~~javascript
-function playRound(playerSelection, computerSelection) {
+function playRound(playerChoice, computerChoice) {
 // your code here!
 }
 
 const playerSelection = "rock";
 const computerSelection = getComputerChoice();
+
 console.log(playRound(playerSelection, computerSelection));
 ~~~
 
@@ -72,6 +73,7 @@ Your game will play 5 rounds. Write a function called `game` which plays for 5 r
 1. Get the human player choice using the `prompt` method. Read [this MDN article about prompt method](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt) learn more about it.
 1. Put the previous `playRound` function inside `game`.
 1. Play 5 rounds by calling `playRound` 5 times.
+   1. **Hint**: When you assign a function call to a variable, the return value of that function is assigned to the variable. Accessing the variable afterward will only provide the assigned value; it doesn't recall the function. You need to recall the choice functions to get new choices for each round.
 
 Re-work your previous functions or create more helper functions if the need to. Specifically, you might want to change the return values to something more useful.
 
