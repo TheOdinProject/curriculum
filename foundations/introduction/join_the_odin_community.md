@@ -103,7 +103,7 @@ If somebody is already getting help, do not jump in the middle of the conversati
 
 If you do not have much time to help, please let someone else answer the question.
 
-#### 5. Adjust your expectations to their Level.
+#### 5. Adjust your expectations to their level.
 
 If the question does not reveal where they are in the curriculum, ask them so that you can adjust your expectations to their knowledge level.
 
