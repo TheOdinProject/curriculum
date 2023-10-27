@@ -69,7 +69,7 @@ It acknowledges that you need a wide variety of skill sets and languages to reac
 
 The Odin Project is constantly evolving because of people like you who get further along in the curriculum and pay it forward by incrementally improving our content over time.
 
-Once you start to feel comfortable with the tools, start hacking on open source projects [(like The Odin project itself)](/contributing). The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
+Once you start to feel comfortable with the tools, start hacking on open source projects [(like The Odin Project itself)](/contributing). The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
 
 ### Conclusion
 
