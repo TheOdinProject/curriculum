@@ -122,7 +122,7 @@ Due to how the unattended installation is configured by VirtualBox, your account
 
 #### Step 3.1: Navigate to users and group
 
-First, click on the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> in top left of your window, afterwards type in `Users` and you should see `Users and Groups` show up. Click on it.
+First, if you haven't already, login with the username and password created earlier, then click on the <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png" alt="The blue-white rodent Whisker Menu Icon" style="display: inline; margin: auto;"> in top left of your window, afterwards type in `Users` and you should see `Users and Groups` show up. Click on it.
 
    ![It should be the top option you see. It is possible that due to localization it'll be called differently - try using the term in your language then.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/11_users_and_groups.png)
 
