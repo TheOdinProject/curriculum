@@ -17,7 +17,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Paragraphs
 
-What would you expect the following text to output on a HTML page?
+What would you expect the following text to output on an HTML page?
 
 ~~~html
 <body>
