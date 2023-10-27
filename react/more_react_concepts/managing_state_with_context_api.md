@@ -180,7 +180,7 @@ export default function App() {
 }
 ~~~
 
-Great! Now let's try to look at our `Header` component again, we will also remove all the props that we've defined earlier, and to retrieve the data, we'll be using the `useContext` hook that can be imported in the `react` module
+Great! Now let's try to look at our `Header` component again, we will also remove all the props that we've defined earlier, and to retrieve the data, we'll be using the `useContext` hook that can be imported in the `react` module.
 
 ~~~jsx
 import { useContext } from "react";
