@@ -12,7 +12,7 @@ We have not yet discussed testing the appearance of a webpage.  Doing this requi
    1. Your 'ships' will be objects that include their length, the number of times they've been hit and whether or not they've been sunk.
    2. __REMEMBER__ you only have to test your object's public interface.  Only methods or properties that are used outside of your 'ship' object need unit tests.
    3. Ships should have a `hit()` function that increases the number of 'hits' in your ship.
-   4. `isSunk()` should be a function that calculates it based on their length and the number of 'hits'.
+   4. `isSunk()` should be a function that calculates whether a ship is considered sunk based on its length and the number of hits it has received.
 2. Create `Gameboard` class/factory.
    1. Note that we have not yet created any User Interface.  We should know our code is coming together by running the tests.  You shouldn't be relying on `console.log` or DOM methods to make sure your code is doing what you expect it to.
    2. Gameboards should be able to place ships at specific coordinates by calling the ship factory function.
