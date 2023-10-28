@@ -232,7 +232,7 @@ Let's now try to do the following:
 Object.getPrototypeOf(Player.prototype) === Object.prototype // true
 
 // Output may slightly differ based on the browser
-player1.valueOf() // Output: Object { name: "steve", marker: "X", sayName: sayName() }
+player1.valueOf() // Output: Player { name: "steve", marker: "X", sayName: sayName() }
 ~~~
 
 What's this `.valueOf` function, and where did it come from if we did not define it? It comes as a result of `Object.getPrototypeOf(Player.prototype)` having the value of `Object.prototype`! This means that `Player.prototype` is inheriting from `Object.prototype`. This `.valueOf` function is defined on `Object.prototype` just like `.sayHello` is defined on `Player.prototype`.
