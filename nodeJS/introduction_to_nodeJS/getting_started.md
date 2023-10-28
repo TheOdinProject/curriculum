@@ -30,22 +30,22 @@ By the end of this lesson, you should be able to do the following:
 
 - Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.dev](https://nodejs.dev/en/learn) docs which you should follow along.
   - Get Started
-    - Learn how to run Node.js scripts from the terminal in [this](https://nodejs.dev/en/learn/run-nodejs-scripts-from-the-command-line/) lesson.
-    - Learn quickly about .env files and how we use them [here](https://nodejs.dev/en/learn/how-to-read-environment-variables-from-nodejs/)! This will become very important in the future when working with databases and other sensitive credentials!
+    - Learn how to run Node.js scripts from the terminal in [this](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-run-cli.en.md) lesson.
+    - Learn quickly about .env files and how we use them [here](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-environment-variables.en.md)! This will become very important in the future when working with databases and other sensitive credentials!
   - HTTP Module
     - Learn [how to make HTTP requests with Node](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-web-server/node-make-http-requests.en.md).
   - File System
     - First, take a look at the [fs module](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md) that we use heavily for working with files in Node.
-    - Then, let's start [writing files](https://nodejs.dev/en/learn/writing-files-with-nodejs/) in Node.
-    - Finally, we'll learn how to [read files](https://nodejs.dev/en/learn/reading-files-with-nodejs/).
+    - Then, let's start [writing files](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/manipulating-files/node-writing-files.en.md) in Node.
+    - Finally, we'll learn how to [read files](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/manipulating-files/node-reading-files.en.md).
   - The URL Class
     - Check out this [documentation](https://nodejs.org/api/url.html#url_the_whatwg_url_api) on the URL class. Play with the code samples to see how it works!
   - NPM
-    - Let's get an [introduction](https://nodejs.dev/en/learn/an-introduction-to-the-npm-package-manager/) to NPM.
+    - Let's get an [introduction](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm.en.md) to NPM.
     - After that, it's time to quickly get introduced to the [package.json file](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/package-json.en.md).
     - And the differences between [NPM global and local packages](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md).
   - Events
-    - Follow along the [Event Emitter](https://nodejs.dev/en/learn/the-nodejs-event-emitter/) section.
+    - Follow along the [Event Emitter](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/asynchronous-work/node-event-emitter.en.md) section.
     - Look into [this](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-events.en.md) section to see the `events` module.
 - Optional Extra Credit!
   - Although a bit outdated, the W3 Schools introduction to Node.js is super useful! Go to the [W3 Schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious! 
