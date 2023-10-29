@@ -25,7 +25,7 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-- Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.dev](https://nodejs.dev/en/learn) docs which you should follow along.
+- Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.dev](https://nodejs.org/en/docs) docs which you should follow along.
   - Get Started
     - Learn how to run Node.js scripts from the terminal in [this](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-run-cli.en.md) lesson.
     - Learn quickly about .env files and how we use them [here](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-environment-variables.en.md)! This will become very important in the future when working with databases and other sensitive credentials!
