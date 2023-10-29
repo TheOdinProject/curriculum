@@ -55,7 +55,7 @@ my_array.find { |word| word.length > 5 && word.length < 10 }
 #=> "banana"
 ~~~
 
-`#find` is useful if you want to be able to use the results in somewhat advanced conditional logic, since `nil` is falsy while anything returned (other than `false`) would be truthy. Don't worry if you can't quite follow it, but an example would be:
+`#find` is useful if you want to be able to use the results in somewhat advanced conditional logic, since `nil` is false while anything returned (other than `false`) would be truthy. Don't worry if you can't quite follow it, but an example would be:
 
 ~~~ruby
 word = my_array.find { |word| word.length > 9 && word.length < 10 }
