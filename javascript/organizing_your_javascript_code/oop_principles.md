@@ -91,3 +91,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 - [Building a house from the inside out](https://www.ayweb.dev/blog/building-a-house-from-the-inside-out) will walk you through the process of separating your core logic and DOM logic.
 
+- This [brief video by Coderized](https://www.youtube.com/watch?v=q1qKv5TBaOA) covers the SOLID programming principles and more, within the context of embracing clean coding practices and establishing a maintainable code structure. You may find it helpful if you are still confused about why these principles exist and how they can work together to improve your code, code architecture, and your skills as a programmer!
