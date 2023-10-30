@@ -14,7 +14,7 @@ In this introductory lesson to the command line, you'll learn how to navigate ar
 
 - **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press <kbd>Cmd</kbd> + <kbd>Space</kbd> to open Spotlight, and search for "Terminal". Press <kbd>Enter</kbd> to open it.
 
-The window that opens will be mostly blank, with the exception of some text that will vary based on your operating system.  On Linux and older Macs the line will end with `$` and on newer Macs the line will end with `%`.  This symbol - called the prompt - indicates that the terminal is waiting for you to enter a command. Lets try that now. Type `whoami` and press <kbd>Enter</kbd>.
+The window that opens will be mostly blank, with the exception of some text that will vary based on your operating system.  On Linux and older Macs the line will end with `$` and on newer Macs the line will end with `%`.  This symbol - called the prompt - indicates that the terminal is waiting for you to enter a command. Let's try that now. Type `whoami` and press <kbd>Enter</kbd>.
 
 It returns your username. Cool!
 
@@ -40,7 +40,7 @@ This section contains a general overview of topics that you will learn in this l
 <div class="lesson-content__panel" markdown="1">
 
 <div class="lesson-note lesson-note--warning" markdown=1>
-Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites).
+Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using macOS. If you don't have macOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites).
 </div>
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
@@ -62,7 +62,7 @@ Many of these resources assume you're using a Mac or Linux environment. If you d
     1. Navigate back out of the `test` directory.
     1. Delete the `test` directory.
 
-    That's it--you're done with practice! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
+    That's it---you're done with practice! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
 
 </div>
 
