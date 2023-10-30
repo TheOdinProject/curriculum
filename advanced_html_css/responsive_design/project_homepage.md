@@ -6,6 +6,10 @@ Similarly to landing page and admin dashboard from previous projects, you are ta
 
 Feel free to pick your own fonts and colors and use something other than a stock-photo for your header. The main focus is on achieving the specified layouts and responsive behaviour.
 
+<div class="lesson-note" markdown="1">
+Many of the most liked submissions will have come from when this project used to be a bit more personal, and some people used it as an opportunity to make their own portfolio website. Many of these likely will have been updated over time and so no longer reflect the current state and goal of this project.
+</div>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
