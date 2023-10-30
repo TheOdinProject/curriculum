@@ -41,9 +41,9 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 1.  Write a `find` function which accepts a value and returns the node with the given value.
 
-1.  Write a `levelOrder` function which accepts another function as a parameter. `levelOrder` should traverse the tree in breadth-first level order and provide each node as the argument to the provided function. This function can be implemented using either iteration or recursion (try implementing both!). The method should return an array of values if no function is given. **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to traverse and to add new ones to the list (as you saw in the [video](https://www.youtube.com/watch?v=86g8jAQug04)).
+1.  Write a `levelOrder` function which accepts a random optional callback function as it's parameter. `levelOrder` should traverse the tree in breadth-first level order and provide each node as an argument to the callback. As a result, the callback will perform an operation on each node following the order in which they are traveresed. `levelOrder` may be implemented using either iteration or recursion (try implementing both!). The method should return an array of values if no callback is given as an argument. **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to traverse and to add new ones to the list (as you saw in the [video](https://www.youtube.com/watch?v=86g8jAQug04)).
 
-1.  Write `inorder`, `preorder`, and `postorder` functions that accept a function parameter. Each of these functions should traverse the tree in their respective depth-first order and yield each node to the provided function given as an argument. The functions should return an array of values if no function is given.
+1.  Write `inOrder`, `preOrder`, and `postOrder` functions that also accept a random optional callback as a parameter. Each of these functions should traverse the tree in their respective depth-first order and yield each node to the provided callback. The functions should return an array of values if no callback is given as an argument.
 
 1.  Write a `height` function which accepts a node and returns its height. Height is defined as the number of edges in longest path from a given node to a leaf node.
 
@@ -72,4 +72,4 @@ Write a simple driver script that does the following:
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Yicheng Gong has some excellent videos that help visualize the call stack when traversing binary search trees: [Inorder](https://www.youtube.com/watch?v=4_UDUj1j1KQ&t=1s), [Post-order](https://www.youtube.com/watch?v=4Xo-GtBiQN0), and [Pre-order](https://www.youtube.com/watch?v=8xue-ZBlTKQ&ab_channel=ygongcode) Traversal Algorithms.
+- Yicheng Gong has some excellent videos that help visualize the call stack when traversing binary search trees: [In-order](https://www.youtube.com/watch?v=4_UDUj1j1KQ&t=1s), [Post-order](https://www.youtube.com/watch?v=4Xo-GtBiQN0), and [Pre-order](https://www.youtube.com/watch?v=8xue-ZBlTKQ&ab_channel=ygongcode) Traversal Algorithms.
