@@ -238,13 +238,13 @@ This was a lot of material, but you should have a healthy appreciation for the b
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class='knowledge-check-link' href='#relations-and-lazy-evaluation'>How does lazy evaluation help make Active Record more efficient?</a>
-- <a class='knowledge-check-link' href='#checking-for-existence'>How do you check whether a database already contains a record?</a>
-- <a class='knowledge-check-link' href='#more-assorted-querying-knowledge'>What is the difference between a `#where` query and a `#find` query?</a>
-- <a class='knowledge-check-link' href='#joins'>How do you join tables together in Rails?</a>
-- <a class='knowledge-check-link' href='#n1-queries-and-eager-loading'>What is an example of an N+1 query?</a>
-- <a class='knowledge-check-link' href='#n1-queries-and-eager-loading'>What method is used to deal with an N+1 query?</a>
-- <a class='knowledge-check-link' href='#scopes'>When would you use a class method in place of a scope?</a>
+- [How does lazy evaluation help make Active Record more efficient?](#relations-and-lazy-evaluation)
+- [How do you check whether a database already contains a record?](#checking-for-existence)
+- [What is the difference between a `#where` query and a `#find` query?](#more-assorted-querying-knowledge)
+- [How do you join tables together in Rails?](#joins)
+- [What is an example of an N+1 query?](#n1-queries-and-eager-loading)
+- [What method is used to deal with an N+1 query?](#n1-queries-and-eager-loading)
+- [When would you use a class method in place of a scope?](#scopes)
 
 ### Additional resources
 
