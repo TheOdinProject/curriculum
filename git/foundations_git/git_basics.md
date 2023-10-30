@@ -176,7 +176,7 @@ git config --global core.editor "code --wait"
 
 There will be no confirmation or any output on the terminal after entering this command.
 
-With that done, you can now choose to use either `git commit -m <your message here>` or `git commit` to type your message with Visual Studio Code!
+With that done, you can now choose to use either `git commit -m "your message here"` or `git commit` to type your message with Visual Studio Code!
 
 To make a commit with Visual Studio Code as the text editor, just type `git commit`. After you hit <kbd>Enter</kbd> a new tab in VS Code will open for you to write your commit message. You may provide more details on multiple lines as part of your commit message. After typing your commit message, save it <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>) and close the tab. If you return to the command line, you will see your commit message and a summary of your changes.
 
