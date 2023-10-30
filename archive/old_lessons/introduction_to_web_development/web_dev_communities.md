@@ -26,7 +26,7 @@ Developers are passionate builders and they often enjoy taking part in various c
 
     A couple to check out:
 
-      * [Coding Horror](http://www.codinghorror.com/blog/)
+      * [Coding Horror](https://blog.codinghorror.com/)
       * [Joel on Software](http://www.joelonsoftware.com/)
       * [Code Simplicity](http://www.codesimplicity.com/)
 
