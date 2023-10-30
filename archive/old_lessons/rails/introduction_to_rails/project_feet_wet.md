@@ -6,7 +6,7 @@ Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.co
 
 ### Project: Starting The RoR Tutorial
 
-We will be using the Ruby on Rails Tutorial by Michael Hartl throughout this course.  It is a complete, step-by-step walkthrough of building and testing a Twitter-like microblogging application.  It covers a lot of material but so does this course, so we'll be spacing out the chapters along the way to go with the appropriate lesson material.
+We will be using the Ruby on Rails Tutorial by Michael Hartl throughout this course.  It is a complete, step-by-step walkthrough of building and testing a X(Twitter)-like microblogging application.  It covers a lot of material but so does this course, so we'll be spacing out the chapters along the way to go with the appropriate lesson material.
 
 Though this tutorial is a major common theme across all the coming lessons and serves to tie them together into one major project, we'll also be building plenty of independent projects along the way.
 

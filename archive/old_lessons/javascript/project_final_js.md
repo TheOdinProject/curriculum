@@ -7,7 +7,7 @@ This is a fantastic exercise because it allows you to build something meaningful
 
 ### Assignment
 
-Copy your favorite website as well as you can.  Pinterest, Facebook, Twitter... Just make sure it's got lots of interesting functionality.  You'll be integrating your full array of Rails and Javascript skills into this one.  This should prove to you that you now have all the tools you need to build a website just like the ones you use every day.
+Copy your favorite website as well as you can.  Pinterest, Facebook, X... Just make sure it's got lots of interesting functionality.  You'll be integrating your full array of Rails and Javascript skills into this one.  This should prove to you that you now have all the tools you need to build a website just like the ones you use every day.
 
 Of course, you can't copy every single feature and a lot of the user interface will be a bit clunkier, but you can get yourself 80% of the way there.  And that's darn impressive.
 

@@ -31,7 +31,7 @@ To ensure a good user experience and to meet accessibility guidelines, we should
 
 ### Text length validations
 
-Sometimes we will want users to enter a minimum or a maximum amount of text into a field. Real-world examples of using these validations would be the old 140 character limit that Twitter used to have in its status field or having minimum and maximum length constraints on a username field.
+Sometimes we will want users to enter a minimum or a maximum amount of text into a field. Real-world examples of using these validations would be the old 140 character limit that X (Twitter) used to have in its status field or having minimum and maximum length constraints on a username field.
 
 #### Minimum length validation
 

@@ -5,7 +5,7 @@ We hope you enjoyed this course and the projects you've completed.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-Replicate your favorite website as close as possible - Pinterest, Facebook, Twitter, etc. Just make sure it has lots of interesting functionality. You'll be integrating a full array of skills into this one. If you have completed a backend course, you may use that for this project, otherwise use Firebase. This should prove that you now have all the tools and knowledge needed to build a website, just like the ones you use every day.
+Replicate your favorite website as close as possible - Pinterest, Facebook, X, etc. Just make sure it has lots of interesting functionality. You'll be integrating a full array of skills into this one. If you have completed a backend course, you may use that for this project, otherwise use Firebase. This should prove that you now have all the tools and knowledge needed to build a website, just like the ones you use every day.
 
 Of course, you can't replicate every feature, and the user interface will probably be a bit clunkier. However, if you can get yourself 80% of the way there, that's darn impressive!
 
