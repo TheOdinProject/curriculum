@@ -172,7 +172,7 @@ For more details on how `perspective` works in regards to 3D transforms, [check 
 
 #### Rotate
 
-These are the additional transform function values to rotate an element on a 3D plane:
+These are the additional transform function values to rotate an element on a 3D space:
 
 ~~~css
 .element {
@@ -196,7 +196,7 @@ To learn about how `rotate3d` works, check out [this great demonstration](https:
 
 #### Scale
 
-These are the additional transform function values to scale an element on a 3D plane:
+These are the additional transform function values to scale an element on a 3D space:
 
 ~~~css
 .element {
@@ -209,7 +209,7 @@ See MDN's 3D cube in action with `scaleZ` [here](https://developer.mozilla.org/e
 
 #### Translate
 
-These are the additional transform function values to translate an element on a 3D plane:
+These are the additional transform function values to translate an element on a 3D space:
 
 ~~~css
 .element {
