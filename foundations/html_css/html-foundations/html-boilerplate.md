@@ -78,7 +78,7 @@ If we didn't include a `<title>` element, the webpage's title would default to i
 
 There are many more elements that can go within the head of an HTML document. However, for now it's only crucial to know about the two elements we have covered here. We will introduce more elements that go into the head throughout the rest of the curriculum.
 
-Back in our `index.html` file, let's add a `<head>` element with a `<meta charset>` element and a title within it. The `<head>` element goes within the `<html>` element and should always be the first element under the opening `<html>` tag:
+Back in our `index.html` file, let's add a `<head>` element with a `<meta>` element and a title within it. The `<head>` element goes within the `<html>` element and should always be the first element under the opening `<html>` tag:
 
 ~~~html
 <!DOCTYPE html>
