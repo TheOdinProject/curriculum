@@ -17,7 +17,7 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Continue where we left off with part 4 of the [Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
+1. Continue where we left off with part 4 of the [Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes).
 </div>
 
 ### Knowledge check
