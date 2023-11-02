@@ -172,7 +172,7 @@ For more details on how `perspective` works in regards to 3D transforms, [check 
 
 #### Rotate
 
-These are the additional transform function values to rotate an element on a 3D space:
+These are the additional transform function values to rotate an element in a 3D space:
 
 ~~~css
 .element {
