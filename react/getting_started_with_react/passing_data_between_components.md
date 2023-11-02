@@ -21,7 +21,7 @@ Now that we know *how* data transfers between components, let's explore *why* th
 function Button() {
   return (
     <button>Click Me!</button>
-  )
+  );
 }
 
 export default function App() {
@@ -31,7 +31,7 @@ export default function App() {
       <Button />
       <Button />
     </div>
-  )
+  );
 }
 ~~~
 So far so good right? We have a beautiful reusable button that we can use as many times as we like, there is just one small problem.
@@ -42,13 +42,13 @@ What if we wanted the text within our second button to be “Don’t Click Me!�
 function Button() {
   return (
     <button>Click Me!</button>
-  )
+  );
 }
 
 function Button2() {
   return (
     <button>Don't Click Me!</button>
-  )
+  );
 }
 
 export default function App() {
@@ -58,7 +58,7 @@ export default function App() {
       <Button2 />
       <Button />
     </div>
-  )
+  );
 }
 ~~~
 This may not seem like a huge deal right now, but what if we had 10 buttons, each one having different text, fonts, colors, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication.
@@ -72,7 +72,6 @@ You may notice squiggly lines under your props (for example under `color` and `f
 
 ~~~jsx
 function Button(props) {
-
   const buttonStyle = {
     color: props.color,
     fontSize: props.fontSize + 'px'
@@ -80,7 +79,7 @@ function Button(props) {
 
   return (
     <button style={buttonStyle}>{props.text}</button>
-  )
+  );
 }
 
 export default function App() {

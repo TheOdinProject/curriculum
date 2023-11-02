@@ -53,7 +53,7 @@ function TodoList() {
         <li key={todo.id}>{todo.task}</li>
       ))}
     </ul>
-  )
+  );
 }
 ~~~
 
@@ -68,7 +68,7 @@ function MonthList() {
       {/* here we are using the index as key */}
       {months.map((month, index) => (<li key={index}>{month}</li>))}
     </ul>
-  )
+  );
 }
 ~~~
 
@@ -89,7 +89,7 @@ function TodoList() {
         <li key={uuid()}>{todo.task}</li>
       ))}
     </ul>
-  )
+  );
 }
 ~~~
 
