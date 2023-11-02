@@ -209,7 +209,7 @@ See MDN's 3D cube in action with `scaleZ` [here](https://developer.mozilla.org/e
 
 #### Translate
 
-These are the additional transform function values to translate an element on a 3D space:
+These are the additional transform function values to translate an element in a 3D space:
 
 ~~~css
 .element {
