@@ -196,7 +196,7 @@ To learn about how `rotate3d` works, check out [this great demonstration](https:
 
 #### Scale
 
-These are the additional transform function values to scale an element on a 3D space:
+These are the additional transform function values to scale an element in a 3D space:
 
 ~~~css
 .element {
