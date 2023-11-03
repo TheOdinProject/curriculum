@@ -60,7 +60,7 @@ Noticed the word `lang` here? It represents an HTML attribute which is associate
 The `<head>` element is where we put important meta-information **about** our webpages, and stuff required for our webpages to render correctly in the browser.
 Inside the `<head>`, we **should not** use any element that displays content on the webpage.
 
-#### The meta element
+#### Meta element
 
 We should always have the `<meta>` tag with the charset encoding of the webpage in the `<head>` element: `<meta charset="utf-8">`.
 
