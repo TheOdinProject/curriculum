@@ -11,27 +11,27 @@ const myObject = {
   "obnoxious property": function() {
     // do stuff!
   }
-}
+};
 ~~~
 
 There are also 2 ways to get information out of an object: dot notation and bracket notation.
 
 ~~~javascript
 // dot notation
-myObject.property // 'Value!'
+myObject.property; // 'Value!'
 
 // bracket notation
-myObject["obnoxious property"] // [Function]
+myObject["obnoxious property"]; // [Function]
 ~~~
 
 Which method you use will depend on context. Dot notation is cleaner and is usually preferred, but there are plenty of circumstances when it is not possible to use it. For example, `myObject."obnoxious property"` won't work because that property is a string with a space in it. Likewise, you cannot use variables in dot notation:
 
 ~~~javascript
-const variable = 'property'
+const variable = 'property';
 
-myObject.variable // this gives us 'undefined' because it's looking for a property named 'variable' in our object
+myObject.variable; // this gives us 'undefined' because it's looking for a property named 'variable' in our object
 
-myObject[variable] // this is equivalent to myObject['property'] and returns 'Value!'
+myObject[variable]; // this is equivalent to myObject['property'] and returns 'Value!'
 ~~~
 
 If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/lessons/foundations-fundamentals-part-5) from our JavaScript Basics course.
@@ -53,44 +53,44 @@ One of the simplest ways you can begin to organize your code is by simply groupi
 
 ~~~javascript
 // example one
-const playerOneName = "tim"
-const playerTwoName = "jenn"
-const playerOneMarker = "X"
-const playerTwoMarker = "O"
+const playerOneName = "tim";
+const playerTwoName = "jenn";
+const playerOneMarker = "X";
+const playerTwoMarker = "O";
 
 // example two
 const playerOne = {
   name: "tim",
   marker: "X"
-}
+};
 
 const playerTwo = {
   name: "jenn",
   marker: "O"
-}
+};
 ~~~
 
 At first glance, the first doesn't seem so bad.. and it actually takes fewer lines to write than the example using objects, but the benefits of the second approach are huge! Let me demonstrate:
 
 ~~~javascript
 function printName(player) {
-  console.log(player.name)
+  console.log(player.name);
 }
 ~~~
 
 This is something that you just could NOT do with the example one setup. Instead, every time you wanted to print a specific player's name, you would have to remember the correct variable name and then manually `console.log` it:
 
 ~~~javascript
-console.log(playerOneName)
-console.log(playerTwoName)
+console.log(playerOneName);
+console.log(playerTwoName);
 ~~~
 
 Again, this isn't _that_ bad... but what if you _don't know_ which player's name you want to print?
 
 ~~~javascript
 function gameOver(winningPlayer){
-  console.log("Congratulations!")
-  console.log(winningPlayer.name + " is the winner!")
+  console.log("Congratulations!");
+  console.log(winningPlayer.name + " is the winner!");
 }
 ~~~
 
@@ -102,33 +102,33 @@ When you have a specific type of object that you need to duplicate like our play
 
 ~~~javascript
 function Player(name, marker) {
-  this.name = name
-  this.marker = marker
+  this.name = name;
+  this.marker = marker;
 }
 ~~~
 
 and which you use by calling the function with the keyword `new`.
 
 ~~~javascript
-const player = new Player('steve', 'X')
-console.log(player.name) // 'steve'
+const player = new Player('steve', 'X');
+console.log(player.name); // 'steve'
 ~~~
 
 Just like with objects created using the Object Literal method, you can add functions to the object:
 
 ~~~javascript
 function Player(name, marker) {
-  this.name = name
-  this.marker = marker
+  this.name = name;
+  this.marker = marker;
   this.sayName = function() {
     console.log(name)
-  }
+  };
 }
 
-const player1 = new Player('steve', 'X')
-const player2 = new Player('also steve', 'O')
-player1.sayName() // logs 'steve'
-player2.sayName() // logs 'also steve'
+const player1 = new Player('steve', 'X');
+const player2 = new Player('also steve', 'O');
+player1.sayName(); // logs 'steve'
+player2.sayName(); // logs 'also steve'
 ~~~
 
 
@@ -140,7 +140,7 @@ Write a constructor for making "Book" objects. We will revisit this in the proje
 Put a function into the constructor that can report the book info like so:
 
 ~~~javascript
-theHobbit.info() // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
+theHobbit.info(); // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
 ~~~
 
 Note: It is almost _always_ best to `return` things rather than putting `console.log()` directly into the function. In this case, return the `info` string and log it after the function has been called:
@@ -172,8 +172,8 @@ Here, the "original object" refers to an object like `player1` or `player2`. The
 Conceptually, you now might feel like you know, or at least have an idea of what a `prototype` of an object is. But how do you _know_ or actually _see_ what the prototype of an object is? Let's find out. You can try running the following code in the developer console of your browser. (Make sure you've created the `player1` and `player2` objects from before!)
 
 ~~~javascript
-Object.getPrototypeOf(player1) === Player.prototype // returns true
-Object.getPrototypeOf(player2) === Player.prototype // returns true
+Object.getPrototypeOf(player1) === Player.prototype; // returns true
+Object.getPrototypeOf(player2) === Player.prototype; // returns true
 ~~~
 
 Now, to understand this code, let's use the three points from earlier:
@@ -194,10 +194,10 @@ The last sub-item needs a little more explanation. What does defining 'on the `p
 ~~~javascript
 Player.prototype.sayHello = function() {
    console.log("Hello, I'm a player!");
-}
+};
 
-player1.sayHello() // logs "Hello, I'm a player!"
-player2.sayHello() // logs "Hello, I'm a player!"
+player1.sayHello(); // logs "Hello, I'm a player!"
+player2.sayHello(); // logs "Hello, I'm a player!"
 ~~~
 
 Here, we defined the `.sayHello` function 'on' the `Player.prototype` object. It then became available for the `player1` and the `player2` objects to use! Similarly, you can attach other properties or functions you want to use on all `Player` objects by defining them on the objects' prototype (`Player.prototype`).
@@ -208,8 +208,8 @@ Unlike what we have done so far using `Object.getPrototypeOf()` to access an obj
 
 ~~~javascript
 // Don't do this!
-player1.__proto__ === Player.prototype // returns true
-player2.__proto__ === Player.prototype // returns true
+player1.__proto__ === Player.prototype; // returns true
+player2.__proto__ === Player.prototype; // returns true
 ~~~
 
 In some places, like legacy code, you might also come across `[[Prototype]]`, which is just another way of talking about the `.__proto__` property of an object, like `player1.[[Prototype]]`.
@@ -229,10 +229,10 @@ Let's now try to do the following:
 
 ~~~javascript
 // Player.prototype.__proto__
-Object.getPrototypeOf(Player.prototype) === Object.prototype // true
+Object.getPrototypeOf(Player.prototype) === Object.prototype; // true
 
 // Output may slightly differ based on the browser
-player1.valueOf() // Output: Object { name: "steve", marker: "X", sayName: sayName() }
+player1.valueOf(); // Output: Object { name: "steve", marker: "X", sayName: sayName() }
 ~~~
 
 What's this `.valueOf` function, and where did it come from if we did not define it? It comes as a result of `Object.getPrototypeOf(Player.prototype)` having the value of `Object.prototype`! This means that `Player.prototype` is inheriting from `Object.prototype`. This `.valueOf` function is defined on `Object.prototype` just like `.sayHello` is defined on `Player.prototype`.
@@ -269,39 +269,39 @@ Now, how do you utilize Prototypal Inheritance? What do you need to do to use it
 
 ~~~javascript
 function Person(name) {
-  this.name = name
+  this.name = name;
 }
 
 Person.prototype.sayName = function() {
-  console.log(`Hello, I'm ${this.name}!`)
-}
+  console.log(`Hello, I'm ${this.name}!`);
+};
 
 function Player(name, marker) {
-  this.name = name
-  this.marker = marker
+  this.name = name;
+  this.marker = marker;
 }
 
 Player.prototype.getMarker = function() {
-  console.log(`My marker is '${this.marker}'`)
-}
+  console.log(`My marker is '${this.marker}'`);
+};
 
 // Object.getPrototypeOf(Player.prototype) should
 // return the value of "Person.prototype" instead
 // of "Object.prototype"
-Object.getPrototypeOf(Player.prototype) // returns Object.prototype
+Object.getPrototypeOf(Player.prototype); // returns Object.prototype
 
 // Now make `Player` objects inherit from `Person`
-Object.setPrototypeOf(Player.prototype, Person.prototype)
-Object.getPrototypeOf(Player.prototype) // returns Person.prototype
+Object.setPrototypeOf(Player.prototype, Person.prototype);
+Object.getPrototypeOf(Player.prototype); // returns Person.prototype
 
-const player1 = new Player('steve', 'X')
-const player2 = new Player('also steve', 'O')
+const player1 = new Player('steve', 'X');
+const player2 = new Player('also steve', 'O');
 
-player1.sayName() // Hello, I'm steve!
-player2.sayName() // Hello, I'm also steve!
+player1.sayName(); // Hello, I'm steve!
+player2.sayName(); // Hello, I'm also steve!
 
-player1.getMarker() // My marker is 'X'
-player2.getMarker() // My marker is 'O'
+player1.getMarker(); // My marker is 'X'
+player2.getMarker(); // My marker is 'O'
 ~~~
 
 From the code, we can see that we've defined a `Person` from whom a `Player` inherits properties and functions, and that the created `Player` objects are able to access both the `.sayName` and the `.getMarker` functions, in spite of them being defined on two separate `prototype` objects! This is enabled by the use of the `Object.setPrototypeOf()` function. It takes two arguments - the first is the one which inherits and the second argument is the one which you want the first argument to inherit from. This ensures that the created `Player` objects are able to access the `.sayName` and `.getMarker` functions through their prototype chain.
@@ -313,44 +313,44 @@ Though it seems to be an easy way to set up Prototypal Inheritance using `Object
 A warning... this doesn't work:
 
 ~~~javascript
-Player.prototype = Person.prototype
+Player.prototype = Person.prototype;
 ~~~
 
 because it will set `Player.prototype` to directly refer to `Person.prototype` (i.e. not a copy), which could cause problems if you want to edit something in the future. Consider one more example:
 
 ~~~javascript
 function Person(name) {
-  this.name = name
+  this.name = name;
 }
 
 Person.prototype.sayName = function() {
-  console.log(`Hello, I'm ${this.name}!`)
-}
+  console.log(`Hello, I'm ${this.name}!`);
+};
 
 function Player(name, marker) {
-  this.name = name
-  this.marker = marker
+  this.name = name;
+  this.marker = marker;
 }
 
 // Don't do this!
 // Use Object.setPrototypeOf(Player.prototype, Person.prototype)
-Player.prototype = Person.prototype
+Player.prototype = Person.prototype;
 
 function Enemy(name) {
-  this.name = name
-  this.marker = '^'
+  this.name = name;
+  this.marker = '^';
 }
 
 // Not again!
 // Use Object.setPrototypeOf(Enemy.prototype, Person.prototype)
-Enemy.prototype = Person.prototype
+Enemy.prototype = Person.prototype;
 
 Enemy.prototype.sayName = function() {
-  console.log('HAHAHAHAHAHA')
-}
+  console.log('HAHAHAHAHAHA');
+};
 
-const carl = new Player('carl', 'X')
-carl.sayName() // Uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName function!
+const carl = new Player('carl', 'X');
+carl.sayName(); // Uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName function!
 ~~~
 
 If we had used `Object.setPrototypeOf()` in this example, then we could safely edit the `Enemy.prototype.sayName` function without changing the function for `Player` as well.
@@ -389,5 +389,4 @@ Nicholas C. Zakas is really great to understand OOP in javascript, which explain
 - [A Beginner’s Guide to JavaScript’s Prototype](https://medium.com/free-code-camp/a-beginners-guide-to-javascript-s-prototype-9c049fe7b34) and [JavaScript Inheritance and the Prototype Chain](https://medium.com/free-code-camp/javascript-inheritance-and-the-prototype-chain-d4298619bdae) from Tyler Mcginnis has great examples to help you understand Prototype and Prototype Chain better from the beginner's perspective.
 - [This video ](https://www.youtube.com/watch?v=wstwjQ1yqWQ) from Akshay Saini is an easy and simple way to understand the concept of Prototype, Prototype Chain and prototypal inheritance.
 - [Interactive Scrim on objects and object constructors.](https://scrimba.com/scrim/co2624f87981575448091d5a2)
-- [Check out this video explanation](https://www.youtube.com/watch?v=cwChC4BQF0Q) on the `this` keyword from DevSage that gives a different perspective on how its context changes, as well as scenarios in which `this` behaves unexpectedly.  
-
+- [Check out this video explanation](https://www.youtube.com/watch?v=cwChC4BQF0Q) on the `this` keyword from DevSage that gives a different perspective on how its context changes, as well as scenarios in which `this` behaves unexpectedly.
