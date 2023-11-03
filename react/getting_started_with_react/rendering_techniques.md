@@ -34,6 +34,7 @@ It is perfectly acceptable, but what if we want to render more than just four? I
 ~~~javascript
 function App() {
   const animals = ["Lion", "Cow", "Snake", "Lizard"];
+
   return (
     <div>
       <h1>Animals: </h1>
@@ -47,13 +48,13 @@ function App() {
 }
 ~~~
 
-We define an array called `animals`. Now inside our JSX, we use `map` to return a new array of `li` elements, adding `animal` as its text. It should now render the same as the previous snippet we wrote. This is because JSX has the ability to automatically render arrays. The following code is identical: 
+We define an array called `animals`. Now inside our JSX, we use `map` to return a new array of `li` elements, adding `animal` as its text. It should now render the same as the previous snippet we wrote. This is because JSX has the ability to automatically render arrays. The following code is identical:
 
 ~~~javascript
 function App() {
   const animals = ["Lion", "Cow", "Snake", "Lizard"];
   const animalsList = animals.map((animal) => <li key={animal}>{animal}</li>)
-  
+
   return (
     <div>
       <h1>Animals: </h1>
@@ -104,7 +105,7 @@ We have moved our `<ul>` element to a different component called `<List />`. It 
 
 This component accepts a `props` which is an object containing the `animals` that we defined as a property when we wrote `<List animals={animals} />`. Do note that you can name it anything, for example, `<List animalList={animals} />`. You will still need to pass the animals to the property, but now you will use `props.animalList` instead of `props.animals`.
 
-We have also created a different component for the `<li>` element called `<ListItem />`, which also accepts `props`, and uses `props.animal` to render the text. It should now render the same thing. 
+We have also created a different component for the `<li>` element called `<ListItem />`, which also accepts `props`, and uses `props.animal` to render the text. It should now render the same thing.
 
 ### Conditionally rendering UI
 

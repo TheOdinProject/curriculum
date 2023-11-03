@@ -19,7 +19,7 @@ You're probably already familiar with a lot of different types of files, for exa
 
 To let the computer know we want to create an HTML file, we need to append the filename with the `.html` extension as we have done when creating the `index.html` file.
 
-It is worth noting that we named our HTML file `index`. We should always name the HTML file that will contain the homepage of our websites `index.html`. This is because web servers will by default look for an index.html page when users land on our websites - and not having one will cause big problems.
+It is worth noting that we named our HTML file `index`. We should always name the HTML file that will contain the homepage of our websites `index.html`. This is because web servers will by default look for an `index.html` page when users land on our websites -- and not having one will cause big problems.
 
 ### The DOCTYPE
 
@@ -39,7 +39,7 @@ Open the `index.html` file created earlier in your text editor and add `<!DOCTYP
 
 After we declare the doctype, we need to provide an `<html>` element. This is what's known as the root element of the document, meaning that every other element in the document will be a descendant of it.
 
-This becomes more important later on when we learn about manipulating HTML with JavaScript. For now, just know that the HTML element should be included on every HTML document.
+This becomes more important later on when we learn about manipulating HTML with JavaScript. For now, just know that the `<html>` element should be included on every HTML document.
 
 Back in the `index.html` file, let's add the `<html>` element by typing out its opening and closing tags, like so:
 
@@ -49,7 +49,7 @@ Back in the `index.html` file, let's add the `<html>` element by typing out its 
 </html>
 ~~~
 
-Noticed the word `lang` here? It represents an HTML attribute which is associated with the given HTML tag i.e. `<html>` in this case. These attributes provide additional information about HTML elements. (More about `HTML attributes` in the following lesson)
+Noticed the word `lang` here? It represents an HTML attribute which is associated with the given HTML tag i.e. `<html>` in this case. These attributes provide additional information about HTML elements. (More about `HTML attributes` in the following lesson.)
 
 #### What is the lang attribute? 
 
@@ -60,25 +60,25 @@ Noticed the word `lang` here? It represents an HTML attribute which is associate
 The `<head>` element is where we put important meta-information **about** our webpages, and stuff required for our webpages to render correctly in the browser.
 Inside the `<head>`, we **should not** use any element that displays content on the webpage.
 
-#### The charset meta element
+#### Meta element
 
-We should always have the meta tag for the charset encoding of the webpage in the head element: `<meta charset="utf-8">`.
+We should always have the `<meta>` tag with the charset encoding of the webpage in the `<head>` element: `<meta charset="utf-8">`.
 
 Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
 
 #### Title element
 
-Another element we should always include in the head of an HTML document is the title element:
+Another element we should always include in the head of an HTML document is the `<title>` element:
 
  `<title>My First Webpage</title>`
 
-The title element is used to give webpages a human-readable title which is displayed in our webpage's browser tab.
+The `<title>` element is used to give webpages a human-readable title which is displayed in our webpage's browser tab.
 
-If we didn't include a title element, the webpage's title would default to its file name. In our case that would be `index.html`, which isn't very meaningful for users; this would make it very difficult to find our webpage if the user has many browser tabs open.
+If we didn't include a `<title>` element, the webpage's title would default to its file name. In our case that would be `index.html`, which isn't very meaningful for users; this would make it very difficult to find our webpage if the user has many browser tabs open.
 
 There are many more elements that can go within the head of an HTML document. However, for now it's only crucial to know about the two elements we have covered here. We will introduce more elements that go into the head throughout the rest of the curriculum.
 
-Back in our `index.html` file, let's add a head element with a charset meta element and a title within it. The head element goes within the HTML element and should always be the first element under the opening `<html>` tag:
+Back in our `index.html` file, let's add a `<head>` element with a `<meta>` element and a title within it. The `<head>` element goes within the `<html>` element and should always be the first element under the opening `<html>` tag:
 
 ~~~html
 <!DOCTYPE html>
@@ -95,7 +95,7 @@ Back in our `index.html` file, let's add a head element with a charset meta elem
 
 The final element needed to complete the HTML boilerplate is the `<body>` element. This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on.
 
-To complete the boilerplate, add a body element to the `index.html` file. The body element also goes within the HTML element and is always below the head element, like so:
+To complete the boilerplate, add a `<body>` element to the `index.html` file. The `<body>` element also goes within the ` <html>` element and is always below the `<head>` element, like so:
 
 ~~~html
 <!DOCTYPE html>
@@ -126,7 +126,7 @@ The HTML boilerplate in the `index.html` file is complete at this point, but how
     *   `Ubuntu` - Navigate to the directory containing the file and type `google-chrome index.html`
     *   `macOS` - Navigate to the directory containing the file and type `open ./index.html`
 
-Using one of the methods above, open up the index.html file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
+Using one of the methods above, open up the `index.html` file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
 
 Back in the `index.html` file, let's add a heading (more on these later) to the body, and save the file:
 
@@ -148,9 +148,9 @@ Now, if you refresh the page in the browser, you should see the changes take eff
 
 ### VSCode shortcut
 
-VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. Please note that this shortcut only works while editing a file with the '.html' extension or a text file with the HTML language already selected. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the <kbd>Enter</kbd> key to choose the first one, and voila, you should have all the boilerplate populated for you.
+VSCode has a built-in shortcut you can use for generating all the boilerplate in one go. Please note that this shortcut only works while editing a file with the `.html` extension or a text file with the HTML language already selected. To trigger the shortcut, delete everything in the `index.html` file and just enter `!` on the first line. This will bring up a couple of options. Press the <kbd>Enter</kbd> key to choose the first one, and voila, you should have all the boilerplate populated for you.
 
-But it's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid) which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects, so you can build some muscle memory for writing the boilerplate code.
+But it's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid), which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects, so you can build some muscle memory for writing the boilerplate code.
 
 ### Assignment
 
@@ -177,9 +177,7 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   Read through this article about what [charsets you should use with your HTML pages](https://www.positioniseverything.net/html-encoding/).
-
-*   Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old-fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. This way, you can get used to that process and won't become reliant on extensions right away. One reason is that there may be subtle differences when using extensions. For example, live server will always use UTF-8 character encoding and not the value defined in your `meta-charset` attribute. This could potentially hide some characters on your site as they will not be encoded the way you expect.
+*   Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old-fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. This way, you can get used to that process and won't become reliant on extensions right away. One reason is that there may be subtle differences when using extensions. For example, live server will always use UTF-8 character encoding and not the charset value defined in your `<meta>` element. This could potentially hide some characters on your site as they will not be encoded the way you expect.
 
 *   If you wish, you can add the `lang` attribute to individual elements throughout the webpage. Read through [this doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) for a better understanding of the `lang` attribute.
 

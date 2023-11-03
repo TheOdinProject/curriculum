@@ -23,7 +23,7 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Let's get back to [the tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms)
+1. Let's get back to [the tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms).
 2. Read about deploying your app in the [last article](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment) in this tutorial.
 
 Reminder: Make sure to hide your MongoDB connection URL! Once you've hosted your app on Railway you'll be creating a new database with them and can use the instructions in the MDN tutorial to manage environment variables through the Railway dashboard.
