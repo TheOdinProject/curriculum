@@ -190,13 +190,13 @@ This pattern is extremely useful wherever you need user input i.e. typing in a t
 <div class="lesson-content__panel" markdown="1">
 
 1. Read the following articles from the React documentation:
-  - [State as a Snapshot](https://react.dev/learn/state-as-a-snapshot)
-  - [Choosing the State Structure](https://react.dev/learn/choosing-the-state-structure)
-  - [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
+   - [State as a Snapshot](https://react.dev/learn/state-as-a-snapshot)
+   - [Choosing the State Structure](https://react.dev/learn/choosing-the-state-structure)
+   - [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
 
 2. Update the `Person` component we've been using above.
-  - Add two separate input fields for first name and last name. The updated full name should be displayed on every keystroke on either of the two input fields.
-  - There are many ways you can do this. Keep in mind what you've learned in this lesson while coding it out.
+   - Add two separate input fields for first name and last name. The updated full name should be displayed on every keystroke on either of the two input fields.
+   - There are many ways you can do this. Keep in mind what you've learned in this lesson while coding it out.
 
 </div>
 
