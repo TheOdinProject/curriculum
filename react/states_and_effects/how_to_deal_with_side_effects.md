@@ -63,7 +63,7 @@ But, it still keeps growing too fast! This is where another argument of the `use
 
 #### The dependency array
 
-By default, `useEffect` hook runs on every render. Since setting state tears the component down, we still get multiple setter calls on every render, which doesn't help us. 
+By default, `useEffect` hook runs on every render. Since setting state tears the component down, we still get multiple setter calls on every render, which doesn't help us.
 
 Fortunately, the second argument accepts an array of dependencies allowing the hook to re-render **only when those dependencies are changed**. So if you have a state variable and want to have some side-effect occur any time the state changes, you can use this hook and mention the state variable in the dependency array.
 
@@ -126,7 +126,7 @@ export default function Clock() {
 
     return () => {
       clearInterval(key);
-    }
+    };
   }, [])
 
   return (
@@ -190,7 +190,7 @@ Let us address a few cases where `useEffect` does not need to be used.
 
       const handleInput = (e) => {
         setInput(e.target.value);
-      }
+      };
 
       // You should avoid direct manipulation when not necessary
 
@@ -200,7 +200,7 @@ Let us address a few cases where `useEffect` does not need to be used.
       //     document.getElementById("name").removeEventListener("change", handleInput);
       //   }
       // });
-      
+
       return (
         <>
           {/* <input id="name" /> */}
@@ -208,7 +208,7 @@ Let us address a few cases where `useEffect` does not need to be used.
           <input onChange={handleInput} value={input} />
           <p>{ input }</p>
         </>
-      )
+      );
     }
     ~~~
 
