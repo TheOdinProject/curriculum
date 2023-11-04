@@ -1,0 +1,22 @@
+name: MarkdownLint
+on: pull_request
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: tj-actions/changed-files@v37
+        id: changed-files
+        with:
+          files: |
+            !./*.md
+            !README.md
+            **.md
+          separator: ','
+      - uses: DavidAnson/markdownlint-cli2-action@v11
+        if: steps.changed-files.outputs.any_changed == 'true'
+        with:
+          config: './.markdownlint-cli2.jsonc'
+          globs: ${{ steps.changed-files.outputs.all_changed_files }}
+          separator: ','
