@@ -62,15 +62,9 @@ function hash(name, surname) {
 
 You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true, this would make it unique for each name, but there is a better one which is globally used, which is using a number. There are benefits by using a number as a hash code instead, let's explore them:
 
-- Memory usage If we are to save those hashes into memory, then saving them in a string would take more memory than it need to be. What if we turn the name into a number and save it to take only integer 4 bytes of memory, then we must utilize that. 
-
-<div class="lesson-notes lesson-notes--tips" markdown="1">
-A String can take up to 4 bytes of memory per character, depending on the character used. But let's assume we're only dealing with English letters [ASCII](https://en.wikipedia.org/wiki/ASCII), which is 1 Byte per letter then a name like "Carlos Smith" would cost 12 bytes, while an Integer number is only 4 bytes of memory.
-</div>
+- We save computation time. If we are to find where our hash is stored it would be much faster and easier for a computer to compare two numbers rather than a string (or objects) to find the bucket where we have to store our elements (you will learn more about buckets shortly). Finding a bucket using a number would allow us to use that number as our index, which means finding a bucket complexity would be `O(1)`
 
 - By using number as hash code, we can have a hash codes that is uniform across variables where it doesn't have to only be a string, we can even hash numbers, or objects we simply need an algorithm to generate a hash code number for our needs from an object, taking `class Person` object as an example, our hash code can be a combination of the `strinngToNummber(name) + age`.
-
-- We save computation time, if we are to find where our hash is stored it would be much faster and easier for a computer to compare two numbers rather than a string (or objects) to find the bucket where we have to store our elements (you will learn more about buckets shortly)
 
 ### Eliminating more duplication
 
@@ -119,7 +113,6 @@ How are we going to insert into those buckets when our hash function generates b
 </div>
 
 If we keep adding nodes into our buckets then the buckets will start filling up, but what is more important is we know for a fact that if almost all buckets filled up then some buckets will be guaranteed to have collisions in them. Remember we don't want collisions, in a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new array that is double the size of the old array, and we retrieve all nodes from the old array (buckets) and insert them into the new array (buckets).
-
 
 ### When do we know that it's time to grow our buckets size
 
