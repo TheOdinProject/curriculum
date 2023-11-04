@@ -251,20 +251,20 @@ For more detailed examples of the exceptions, refer to [Google's style guide on 
 Markdown is smart enough to let the resulting HTML render your numbered lists correctly. For longer lists that may change, especially long nested lists, use "lazy" numbering. The following Markdown:
 
 ~~~markdown
-1. Foo.
-1. Bar.
-1. Foofoo.
-1. Barbar.
-1. Baz.
+1. Foo
+1. Bar
+1. Foofoo
+1. Barbar
+1. Baz
 ~~~
 
 Will result in the following output:
 
-1. Foo.
-1. Bar.
-1. Foofoo.
-1. Barbar.
-1. Baz.
+1. Foo
+1. Bar
+1. Foofoo
+1. Barbar
+1. Baz
 
 ### Nested lists
 
