@@ -3,7 +3,7 @@ It's time to really flex your muscles.  Test Driven Development can certainly fe
 
 Since we're doing TDD, it's important that you don't get overwhelmed.  Simply take it one step at a time.  Write a test, then make it pass.
 
-We have not yet discussed testing the appearance of a webpage.  Doing this requires a separate set of tools, and it is outside the scope of this unit.  For this assignment do your best to isolate every bit of application functionality from the actual DOM manipulation bits.  You can use mocks to make sure that DOM methods like appendChild are being called, but try your best to keep those things outside of the app logic.
+We have not yet discussed testing the appearance of a webpage, which requires a separate set of tools and is outside the scope of this unit. Therefore, you should not test the DOM for this assignment. Instead, do your best to isolate every bit of application functionality from the actual DOM manipulation bits.
 
 ### Assignment
 
