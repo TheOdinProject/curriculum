@@ -75,7 +75,7 @@ console.log(add5(2)) // logs 7
 
 A lot going on, so let's break it down:
 
-1. The `makeAdding` function takes an argument, `first`, and returns another **function** (which we have named as `add5` while using).
+1. The `makeAdding` function takes an argument, `firstNumber`, declares a constant `first` with the value of `firstNumber` and returns another **function** (which we have named as `add5` while using).
 1. When an argument is passed to the returned function (in our case, `add5`), it returns the result of adding up the number passed earlier to the number passed now (`first` to `second`).
 
 Now, while it may sound good at first glance, you can already be raising your eyebrows at the second statement. As we've learned, the `first` variable is scoped within the `makeAdding` function. When we declare and use `add5`, however, we're **outside** the `makeAdding` function. How does the `first` variable still exist, ready to be added when we pass an argument to the `add5` function? This is where we encounter the concept of closures.
