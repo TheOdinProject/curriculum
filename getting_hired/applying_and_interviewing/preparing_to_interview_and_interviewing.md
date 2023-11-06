@@ -65,6 +65,16 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms & data structures.
 * [LeetCode](https://leetcode.com/explore/) also has some great resources, with problems, explanations, and challenges. Best of all, you don't have to create an account to view the questions.
 
+<div class="lesson-note" markdown="1">
+The real value of the sites mentioned above comes from engaging with them productively. A popular recommendation around the internet is to just "go grind Leetcode." As you're aware of by now, common algorithms typically have a "trick" or a specific set of steps in order to get to a solution. When you are preparing to interview, the value and utility of wrestling with a problem for hours/days is little. It is more productive to search for the algorithm/pseudocode, then practice problems that require awareness of that algorithm.
+
+This would be like being tasked with getting the length of a Hypotenuse in a triangle but having no awareness of the Pythagorean theorem. Without awareness of that theorom, that calculation can feel impossible. But just knowing the "trick" makes getting the result easy.
+
+A more practical programming example:
+
+If you arrived at a problem that required awareness of a Depth First Search of a Tree, but you had zero awareness of what a Depth First Search is, sitting there for days trying to arrive at a solution will yield little benefit. In that situation, it is more productive to just search common tree algorithms then return to the problem that was giving you difficulty.
+</div>
+
 ### Algorithms training:
 
 * [Udacity course on Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215) (asynchronous)
