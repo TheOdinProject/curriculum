@@ -298,9 +298,8 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 - Enter the following command in your terminal to install **Google Chrome** `.deb` package
 
-       ~~~bash
        sudo apt install ./google-chrome-stable_current_amd64.deb
-       ~~~
+       
 
 - Enter your password, if needed
 
