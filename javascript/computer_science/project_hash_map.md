@@ -71,7 +71,9 @@ You might be thinking, wouldn't it be just better to save the whole name as a ha
 
 ### Collisions
 
-So we fixed some of the problems, we have another one that we need to track down, hashing the name "Carlos" and the name "Clarso" will generate the same hash code. That is because the letters in both names are the same, just arranged differently. There is no way to eliminate duplication entirely, but we try to minimize them as much as possible, turn out we can rework our `stringToNumber` function so that it can give us unique hash codes depends on where the letters appear in the name.
+We have another problem that we need to track down, Collisions. A collision means two different values generating the exact same hash code.
+
+Let's take an example: hashing the name "Carlos" and the name "Clarso" will generate the same hash code. That is because the letters in both names are the same, just arranged differently. There is no way to eliminate collisions entirely, but we try to minimize them as much as possible, turn out we can rework our `stringToNumber` function so that it can give us unique hash codes which depends on where the letter appear in the name using an algorithm we can work on this.
 
 ~~~javascript
 function stringToNumber(string) {
