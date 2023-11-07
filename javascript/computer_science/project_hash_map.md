@@ -93,9 +93,13 @@ Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 th
 
 # Hash table
 
-If you ever saw JavaScript Objects (Which you should have), Set, and Map then you are already familiar with a hash table. It's basically a table of key value pairs, a key is the hash of your input while the value is what you assign it to. Let's see how it works:
+So far you have learnt about hash code, collisions and dealing with them, but how does all of this help us? Now it is time to learn about the data structure, a hash table aka a hash map.
 
-You have buckets each is assigned a hash, since our hash function now produce a number we're going to assign buckets into numbers. We receive a key "Fred" We hash it using our hash function it produce the number `508` we look which Bucket is labeled `508` we put "Fred" in the bucket. This is the simple form, but there are more mechanics that we need to deal with.
+If you worked before with JavaScript Objects (Which you should have), Set, and Map then you are already familiar with a hash table, but how do they work exactly under the hood, how can we save values using strings and symbols as keys and then retrieving those values.
+
+Let us explore them, An object has a key which gets hashed, and assigned a value to it:
+
+You have buckets each is assigned a hash, since our hash function now produce a number we're going to assign each bucket a number. We receive a key "Fred" We hash it using our hash function it produce the number `508` we look which Bucket is labeled `508` we put "Fred" in the bucket. This is the simple form, but there are more mechanics that we need to deal with.
 
 To get a value using a key, we simply have each entry inside a bucket as a Node item, which hold both the key and the value. To retrieve the value we simply hash a key, we find the bucket number, if the bucket is not empty then we go to that bucket we compare if the node's key in there is the same key we have, and we retrieve the Node's value otherwise we return null.
 
