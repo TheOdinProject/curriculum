@@ -62,6 +62,8 @@ function hash(name, surname) {
 
 You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true, this would make it unique for each name, but there is a better one which is globally used, which is using a number. There are benefits by using a number as a hash code instead, let's explore them:
 
+- Firstly we do not save the hash code, the hash code is a calculation to simply find out which bucket (storage) our value will have to go to. Think about it as a locker number for example.
+
 - We save computation time. If we are to find where our hash is stored it would be much faster and easier for a computer to compare two numbers rather than a string (or objects) to find the bucket where we have to store our elements (you will learn more about buckets shortly). Finding a bucket using a number would allow us to use that number as our index, which means finding a bucket complexity would be `O(1)`
 
 - By using number as hash code, we can have a hash codes that is uniform across variables where it doesn't have to only be a string, we can even hash numbers, or objects we simply need an algorithm to generate a hash code number for our needs from an object, taking `class Person` object as an example, our hash code can be a combination of the `strinngToNummber(name) + age`.
