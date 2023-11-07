@@ -68,7 +68,7 @@ You might be thinking, wouldn't it be just better to save the whole name as a ha
 
 - By using number as hash code, we can have a hash codes that is uniform across variables where it doesn't have to only be a string, we can even hash numbers, or objects we simply need an algorithm to generate a hash code number for our needs from an object, taking `class Person` object as an example, our hash code can be a combination of the `strinngToNummber(name) + age`.
 
-### Eliminating more duplication
+### Collisions
 
 So we fixed some of the problems, we have another one that we need to track down, hashing the name "Carlos" and the name "Clarso" will generate the same hash code. That is because the letters in both names are the same, just arranged differently. There is no way to eliminate duplication entirely, but we try to minimize them as much as possible, turn out we can rework our `stringToNumber` function so that it can give us unique hash codes depends on where the letters appear in the name.
 
