@@ -85,11 +85,14 @@ function stringToNumber(string) {
 }
 ~~~
 
-The hash number will be more unique if the name has the same letters, but they are arranged differently. You do not need to write your own hash functions, but understanding how they work is important. Writing a hash function is art and there are many ways to generate hashes with techniques that languages adopted over the years. Such as using prime numbers to multiply the character code.
+With our new function we will have different hash codes for the names "Carlos" and "Clarso" that is because even so both names have the same letters, some of the letters appear in different places. We take advantage of that by multiplying the letter code by the index of where that letter appeared.
+
+You do not need to write your own hash functions, but understanding how they work is important. Writing a hash function is art and there are many ways to generate hashes with techniques that languages adopted over the years. Such as using prime numbers to multiply the index with etc..
 
 Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 that explains the concept shortly with visualization
 
 # Hash table
+
 If you ever saw JavaScript Objects (Which you should have), Set, and Map then you are already familiar with a hash table. It's basically a table of key value pairs, a key is the hash of your input while the value is what you assign it to. Let's see how it works:
 
 You have buckets each is assigned a hash, since our hash function now produce a number we're going to assign buckets into numbers. We receive a key "Fred" We hash it using our hash function it produce the number `508` we look which Bucket is labeled `508` we put "Fred" in the bucket. This is the simple form, but there are more mechanics that we need to deal with.
