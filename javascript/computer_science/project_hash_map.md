@@ -61,7 +61,7 @@ function hash(name, surname) {
 }
 ~~~
 
-You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true, this would make it unique for each name, but there is a better one which is globally used, which is using a number. There are benefits by using a number as a hash code instead, let's explore them:
+You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true, this would make it unique for each name, but there is a better one that is globally used, which is using a number. There are benefits by using a number as a hash code instead, let's explore them:
 
 - Firstly we do not save the hash code, the hash code is a calculation to simply find out which bucket (storage) our value will have to go to. Think about it as a locker number for example.
 
