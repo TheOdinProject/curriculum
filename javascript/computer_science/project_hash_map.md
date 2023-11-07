@@ -111,7 +111,7 @@ But what if both a hash code and the item both already exist in a bucket? For ea
 
 Now you understand why we try to write a good hashing function which eliminate as much duplication as possible.
 
-# Growth of a hash table
+### Growth of a hash table
 
 Let's talk about the operation which require complexity O(n). Which is the growth of our buckets, we don't have infinite memory we can't have infinite amount of buckets. We need to start somewhere but starting too big is also waste of memory if we're only going to have a hash map that have "Bryan" in it. So to deal with this issue we simply start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
 
