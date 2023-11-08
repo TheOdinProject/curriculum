@@ -148,6 +148,10 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
 
   Secondly: Inside the class DO NOT use Objects to store your key value pairs, And DO NOT use the array method `push` to insert your nodes into the buckets, always use indexes.
 
+  Now comes the time for you to create a working HashMap!
+
+  1. Create the HashMap class or factory function, up to you.
+
 </div>
 
 ### Additional resources
