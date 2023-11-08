@@ -104,11 +104,11 @@ To get a value using a key, we simply have each entry inside a bucket as a Node 
 
 This is simply it, making this will result in a hash table with `search`, `set` and `add` which have the complexity O(1)
 
-But what about collisions? That is where Linked Lists becomes useful. What if each node inside the bucket is also a Linked List. Then we simply look for bucket `508` if it's empty we insert the head of Linked List node being, If a Node head exists in a bucket we simply follow that Linked List to add to the end of it.
+What about collisions? That is where Linked Lists becomes useful. If each node inside the bucket is also a Linked List, Then we simply look for bucket `508` if it's empty we insert the head of Linked List node being, If a Node head exists in a bucket we simply follow that Linked List to add to the end of it.
 
-But what if both a hash code and the item both already exist in a bucket? For each Linked List Node, we check if it's the same item by comparing the key, then we overwrite it with our new item. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have nodes with only keys and no values.
+What if we found the hash code, but also the key value is the same as what we already have in the bucket. For each Linked List Node, we check if it's the same item by comparing the key, then we overwrite it with our new item. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have nodes with only keys and no values.
 
-Now you understand why we try to write a good hashing function which eliminate as much duplication as possible.
+You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible.
 
 # Growth of a hash table
 
