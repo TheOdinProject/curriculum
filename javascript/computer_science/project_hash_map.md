@@ -7,11 +7,11 @@ In this project you will learn how it all works and you will implement your own 
 
 Let's tart by learning what does it mean to hash a value. Hashing means taking an input in and generating an output that represents this input. Hashing the same input should give us the same hash code, there should be no random generation that is happening. For example, let's work a hashing function that takes a name and gives us the first letter of that name:
 
-~~~javascript
+```javascript
 function hash(name) {
   return name.charAt(0);
 }
-~~~
+```
 
 We created our first basic hashing function, it takes a name and returns the first letter of that name.
 You might be familiar with this concept from your cipher exercise earlier in foundation, but there is a key difference between hashing and ciphering (encryption), which is reversibility.
@@ -22,7 +22,7 @@ Hashing is a one-way process. Here is an example given a name, you can get a has
 
 What can we do with those hashes, You have probably seen it in school where a folder is organized into smaller folders, each folder holds information about people with the same first letter, so we get something like this:
 
-~~~
+```
 C:
   carlos.txt
   carla.txt
@@ -33,24 +33,24 @@ B:
   bella.txt
   benjamin.txt
   bianca.txt
-~~~
+```
 
 If we get new student in our school system, with the name of `Carl` we can run our hash function to find out what folder do we assign for them `hash("Carl") -> C` so we put "Carl" in the directory `C`
 
 You might have spotted a problem, what if our school is populated with many people that share the same first letter "C"? Then we will have a directory with "C" that have too many names that start with "C" and other directories that are almost empty. We need to rework our hash function, to eliminate more duplication and separate our students, while keeping constant structure in folders.
 
-~~~javascript
+```javascript
 function hash(name, surname) {
   return name.charAt(0) + surname.charAt(0);
 }
-~~~
+```
 
 Instead of just taking the first name letter, we take the first name and last name letters. "Carlos Smith" will have a hash code of "CS" this will surely narrow down our directories, and it's much better now, it will eliminate many duplicate hash codes from our directories.
 ![Example of hashing a name using first name's first letter, and last name's first letter](./project_hash_map/imgs/00.png)
 
 But it still doesn't solve our problem, what if we have a very popular first name's first letter and surname's first letter? Then we are again with directories that are empty and other directories that are full, we need it easier for us to find the person we are looking for, so let's rework our hash code.
 
-~~~javascript
+```javascript
 function stringToNumber(string) {
   let hashNumber = 0;
   for (let i = 0; i < string.length; i++) {
@@ -63,7 +63,7 @@ function stringToNumber(string) {
 function hash(name, surname) {
   return stringToNumber(name) + stringToNumber(surname);
 }
-~~~
+```
 
 You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true, this would make it unique for each name, but there is a better one that is globally used, which is using a number. There are benefits by using a number as a hash code instead, let's explore them:
 
@@ -79,7 +79,7 @@ We have another problem that we need to track down, Collisions. A collision mean
 
 Let's take an example: hashing the name "Carlos" and the name "Clarso" will generate the same hash code. That is because the letters in both names are the same, just arranged differently. There is no way to eliminate collisions entirely, but we try to minimize them as much as possible, turn out we can rework our `stringToNumber` function so that it can give us unique hash codes which depends on where the letter appear in the name using an algorithm we can work on this.
 
-~~~javascript
+```javascript
 function stringToNumber(string) {
   let hashNumber = 0;
   for (let i = 0; i < string.length; i++) {
@@ -87,7 +87,7 @@ function stringToNumber(string) {
   }
   return hashNumber;
 }
-~~~
+```
 
 With our new function we will have different hash codes for the names "Carlos" and "Clarso" that is because even so both names have the same letters, some of the letters appear in different places. We take advantage of that by multiplying the letter code by the index of where that letter appeared.
 
@@ -140,11 +140,11 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
   Before we get started we need to lay down some ground rules. As we all know JavaScript is a dynamic language the restriction we have in other languages does not exist in JavaScript for example if you create an array of size `16` to be your buckets, nothing stopping you from storing items at index 500. This defeats the purpose we are trying to demonstrate so we need to put some self restriction to work around this.
 
   Firstly: When you create a function that takes a hash code value and returns the bucket index use this snippet before the function returns to make sure it's accessing inbound array indexes only.
-  ~~~javascript
+  ```javascript
   if (index < 0 || index >= buckets.length) {
     throw new Error("Trying to access index out of bound");
   }
-  ~~~
+  ```
 
   Secondly: Inside the class DO NOT use Objects to store your key value pairs, And DO NOT use the array method `push` to insert your nodes into the buckets, always use indexes.
 
