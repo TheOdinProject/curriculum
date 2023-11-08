@@ -1,9 +1,9 @@
-# Introduction
+### Introduction
 One of the most used data structure across all languages is a Hash Table, aka Hash Map. If you worked before with JavaScript Objects (Which you should have), Set, and Map then you are already familiar with a hash table, but how do they work exactly under the hood, how can we save values using strings and symbols as keys and then retrieving those values.
 
 In this project you will learn how it all works and you will implement your own Hash Map class! To start we need to learn few concepts one of which is a hash code, what does it mean, and how to use it. Let us get started and hope you are exited to finally know what is happening with an object when you put keys and values in them.
 
-# What is a hash code
+### What is a hash code
 
 Let's tart by learning what does it mean to hash a value. Hashing means taking an input in and generating an output that represents this input. Hashing the same input should give us the same hash code, there should be no random generation that is happening. For example, let's work a hashing function that takes a name and gives us the first letter of that name:
 
@@ -73,7 +73,7 @@ You might be thinking, wouldn't it be just better to save the whole name as a ha
 
 - By using number as hash code, we can have a hash codes that is uniform across variables where it doesn't have to only be a string, we can even hash numbers, or objects we simply need an algorithm to generate a hash code number for our needs from an object, taking `class Person` object as an example, our hash code can be a combination of the `strinngToNummber(name) + age`.
 
-# Collisions
+### Collisions
 
 We have another problem that we need to track down, Collisions. A collision means two different values generating the exact same hash code.
 
@@ -95,7 +95,7 @@ You do not need to write your own hash functions, but understanding how they wor
 
 Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 that explains the concept shortly with visualization
 
-# Buckets
+### Buckets
 
 Buckets are storage that we need to store our elements, simply it's an array from now on we will be referring to our storage as buckets. You have buckets each is assigned a hash, since our hash function now produce a number we're going to assign each bucket a number. We receive a key "Fred" We hash it using our hash function it produce the number `508` we look which Bucket is labeled `508` we put "Fred" in the bucket. This is the simple form, but there are more mechanics that we need to deal with.
 
@@ -109,7 +109,7 @@ What if we found the hash code, but also the key value is the same as what we al
 
 You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible.
 
-# Growth of a hash table
+### Growth of a hash table
 
 Let's talk about the operation which require complexity `O(n)`. Which is the growth of our buckets, we don't have infinite memory we can't have infinite amount of buckets. We need to start somewhere but starting too big is also waste of memory if we're only going to have a hash map that have "Bryan" in it. So to deal with this issue we simply start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
 
@@ -134,10 +134,10 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
 
 - The load factor is a number that we can assign our hash map to at the start. It's the factor that will determine when is it a good time to grow our buckets, for example a load factor of `0.75` means our hash map will need to grow its buckets when the capacity reaches 75% full. Setting it too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have collisions before we grow them. Usually a good balance of `0.75 to 1` is used.
 
-# assignment
+### Assignment
 
 Work in progress
 
-# Project
+### Additional resources
 
 Work in progress
