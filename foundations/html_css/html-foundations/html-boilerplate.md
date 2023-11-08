@@ -27,9 +27,9 @@ Every HTML page starts with a doctype declaration. The doctype's purpose is to t
 
 The doctypes for older versions of HTML were a bit more complicated. For example, this is the doctype declaration for HTML4:
 
-~~~html
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-~~~
+```html
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+```
 
 However, we probably won't ever want to be using an older version of HTML, and so we'll always use `<!DOCTYPE html>`.
 
@@ -43,15 +43,14 @@ This becomes more important later on when we learn about manipulating HTML with 
 
 Back in the `index.html` file, let's add the `<html>` element by typing out its opening and closing tags, like so:
 
-~~~html
+```html
 <!DOCTYPE html>
-<html lang="en">
-</html>
-~~~
+<html lang="en"></html>
+```
 
 Noticed the word `lang` here? It represents an HTML attribute which is associated with the given HTML tag i.e. `<html>` in this case. These attributes provide additional information about HTML elements. (More about `HTML attributes` in the following lesson.)
 
-#### What is the lang attribute? 
+#### What is the lang attribute?
 
 `lang` specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.
 
@@ -70,7 +69,7 @@ Setting the encoding is very important because it ensures that the webpage will 
 
 Another element we should always include in the head of an HTML document is the `<title>` element:
 
- `<title>My First Webpage</title>`
+`<title>My First Webpage</title>`
 
 The `<title>` element is used to give webpages a human-readable title which is displayed in our webpage's browser tab.
 
@@ -80,16 +79,16 @@ There are many more elements that can go within the head of an HTML document. Ho
 
 Back in our `index.html` file, let's add a `<head>` element with a `<meta>` element and a title within it. The `<head>` element goes within the `<html>` element and should always be the first element under the opening `<html>` tag:
 
-~~~html
+```html
 <!DOCTYPE html>
 
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>My First Webpage</title>
   </head>
 </html>
-~~~
+```
 
 ### Body element
 
@@ -97,25 +96,24 @@ The final element needed to complete the HTML boilerplate is the `<body>` elemen
 
 To complete the boilerplate, add a `<body>` element to the `index.html` file. The `<body>` element also goes within the ` <html>` element and is always below the `<head>` element, like so:
 
-~~~html
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>My First Webpage</title>
   </head>
 
-  <body>
-  </body>
+  <body></body>
 </html>
-~~~
+```
 
 ### Viewing HTML files in the browser
 
-The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  There are a couple of different options:
+The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser? There are a couple of different options:
 
 > A note:
-> In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to Google Chrome.  We **strongly** suggest that you use Google Chrome for all of your testing going forward.  
+> In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course. All references to the browser will pertain specifically to Google Chrome. We **strongly** suggest that you use Google Chrome for all of your testing going forward.
 
 1. You can drag and drop an HTML file from your text editor into the address bar of your browser.
 
@@ -123,18 +121,18 @@ The HTML boilerplate in the `index.html` file is complete at this point, but how
 
 3. You can use the terminal to open the file in your browser.
 
-    - `Ubuntu` - Navigate to the directory containing the file and type `google-chrome index.html`
-    - `macOS` - Navigate to the directory containing the file and type `open ./index.html`
+   - `Ubuntu` - Navigate to the directory containing the file and type `google-chrome index.html`
+   - `macOS` - Navigate to the directory containing the file and type `open ./index.html`
 
 Using one of the methods above, open up the `index.html` file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
 
 Back in the `index.html` file, let's add a heading (more on these later) to the body, and save the file:
 
-~~~html
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>My First Webpage</title>
   </head>
 
@@ -142,7 +140,7 @@ Back in the `index.html` file, let's add a heading (more on these later) to the 
     <h1>Hello World!</h1>
   </body>
 </html>
-~~~
+```
 
 Now, if you refresh the page in the browser, you should see the changes take effect, and the heading "Hello World!" will be displayed.
 
@@ -180,4 +178,3 @@ This section contains helpful links to related content. It isn’t required, so 
 - Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old-fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. This way, you can get used to that process and won't become reliant on extensions right away. One reason is that there may be subtle differences when using extensions. For example, live server will always use UTF-8 character encoding and not the charset value defined in your `<meta>` element. This could potentially hide some characters on your site as they will not be encoded the way you expect.
 
 - If you wish, you can add the `lang` attribute to individual elements throughout the webpage. Read through [this doc](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) for a better understanding of the `lang` attribute.
-
