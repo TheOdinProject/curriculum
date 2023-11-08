@@ -8,12 +8,12 @@ In this lesson, we will learn about the text-based elements you are likely to us
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   How to create paragraphs
-*   How to create headings
-*   How to create bold text
-*   How to create italicized text
-*   The relationships between nested elements
-*   How to create HTML comments
+- How to create paragraphs.
+- How to create headings.
+- How to create bold text.
+- How to create italicized text.
+- The relationships between nested elements.
+- How to create HTML comments.
 
 ### Paragraphs
 
@@ -172,27 +172,27 @@ If you find typing out the comments syntax tiring, the following shortcut will h
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
-2.  Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
-3.  To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) to generate dummy text, in place of real text as you build your sites. VS Code includes a shortcut to generate lorem ipsum for you. To trigger the shortcut, type `lorem` on the line where you want the dummy text, then press the <kbd>Enter</kbd> key, and voila, you have generated dummy text without a hitch.
+1. Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
+1. Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
+1. To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) to generate dummy text, in place of real text as you build your sites. VS Code includes a shortcut to generate lorem ipsum for you. To trigger the shortcut, type `lorem` on the line where you want the dummy text, then press the <kbd>Enter</kbd> key, and voila, you have generated dummy text without a hitch.
 </div>
 
 ### Knowledge check
   
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
  
-*   [How do you create a paragraph in HTML?](#create-paragraph-element)
-*   [How do you create a heading in HTML?](#headings)
-*   [How many different levels of headings are there and what is the difference between them?](#different-heading-levels)
-*   [What element should you use to make text bold and important?](#strong-element)
-*   [What element should you use to make text italicized to add emphasis to it?](#em-element)
-*   [What relationship does an element have with any nested elements within it?](#nested-relationship)
-*   [What relationship do two elements have if they are at the same level of nesting?](#elements-same-level)
-*   [How do you create HTML comments?](#html-comments)
+- [How do you create a paragraph in HTML?](#create-paragraph-element)
+- [How do you create a heading in HTML?](#headings)
+- [How many different levels of headings are there and what is the difference between them?](#different-heading-levels)
+- [What element should you use to make text bold and important?](#strong-element)
+- [What element should you use to make text italicized to add emphasis to it?](#em-element)
+- [What relationship does an element have with any nested elements within it?](#nested-relationship)
+- [What relationship do two elements have if they are at the same level of nesting?](#elements-same-level)
+- [How do you create HTML comments?](#html-comments)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [The semantic difference between &lt;strong> and &lt;b> or &lt;em> and &lt;i> tags and when to use them.](https://medium.com/@zac_heisey/when-to-use-strong-b-em-and-i-tags-in-your-markup-fa4d0af8affb)
-*   [An interactive HTML text formatting article](https://www.w3schools.com/html/html_formatting.asp)
+- [The semantic difference between &lt;strong> and &lt;b> or &lt;em> and &lt;i> tags and when to use them.](https://medium.com/@zac_heisey/when-to-use-strong-b-em-and-i-tags-in-your-markup-fa4d0af8affb)
+- [An interactive HTML text formatting article](https://www.w3schools.com/html/html_formatting.asp)

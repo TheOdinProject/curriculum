@@ -98,7 +98,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/profile",
+    path: "profile",
     element: <Profile />,
   },
 ]);

@@ -25,6 +25,7 @@ body:
     attributes:
       label: Path
       description: Which path does your suggestion affect?
+      multiple: true
       options:
         - Foundations
         - Ruby / Rails

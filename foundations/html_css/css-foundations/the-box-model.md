@@ -9,11 +9,11 @@ Learning to position elements on a webpage is not that difficult once you unders
 This section contains a general overview of topics that you will learn in this lesson.
 
 *   You'll learn all about _the box model_.
-*   You'll learn how to make sure elements are just the right size with `margin`, `padding`, and `borders`
+*   You'll learn how to make sure elements are just the right size with `margin`, `padding`, and `borders`.
 
 ### The box model
 
-The first important concept that you need to understand to be successful in CSS is the box model. It isn't complicated, but skipping over it now will cause you much frustration down the line.
+The first important concept that you need to understand to be successful in CSS is the box model. It isn't complicated, but skipping over it now would cause you much frustration down the line.
 
 Every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another. You can get a rough idea of how this works by sticking a border on every item on the page like this:
 
