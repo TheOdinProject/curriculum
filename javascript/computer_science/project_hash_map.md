@@ -22,7 +22,6 @@ Hashing is a one-way process. Here is an example given a name, you can get a has
 
 What can we do with those hashes, You have probably seen it in school where a folder is organized into smaller folders, each folder holds information about people with the same first letter, so we get something like this:
 
-TODO: Replace written explanation with an image
 ~~~
 C:
   carlos.txt
