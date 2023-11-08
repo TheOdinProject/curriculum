@@ -74,7 +74,7 @@ You might be thinking, wouldn't it be just better to save the whole name as a ha
 
 - By using number as hash code, we can have a hash codes that is uniform across variables where it doesn't have to only be a string, we can even hash numbers, or objects we simply need an algorithm to generate a hash code number for our needs from an object, taking `class Person` object as an example, our hash code can be a combination of the `strinngToNummber(name) + age`.
 
-### Collisions
+# Collisions
 
 We have another problem that we need to track down, Collisions. A collision means two different values generating the exact same hash code.
 
