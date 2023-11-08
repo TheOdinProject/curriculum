@@ -134,7 +134,7 @@ Here both rule 1 and rule 2 have the same specificity. Rule 1 uses a chaining se
 }
 ~~~
 
-This example shows the same thing. Even though rule 2 is using a child combinator (`>`), which will be discussed in more detail in the lesson [Advanced Selectors](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-advanced-selectors), this does not change the specificity value. Both rules still have two classes so they have the same specificity values.
+This example shows the same thing. Even though rule 2 is using a child combinator (`>`), this does not change the specificity value. Both rules still have two classes so they have the same specificity values.
 
 ~~~css
 /* rule 1 */
