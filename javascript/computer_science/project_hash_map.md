@@ -136,7 +136,21 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
 
 ### Assignment
 
-Work in progress
+<div class="lesson-content__panel" markdown="1">
+  Before we get started we need to lay down some ground rules. As we all know JavaScript is a dynamic language the restriction we have in other languages does not exist in JavaScript for example if you create an array of size `16` to be your buckets, nothing stopping you from storing items at index 500. This defeats the purpose we are trying to demonstrate so we need to put some self restriction to work around this.
+
+  Firsty: We can simply work around this by adding the snippet:
+  ~~~javascript
+  if (index >= array.length) {
+    throw new Error("Trying to access index out of bound");
+  }
+  ~~~
+  To the location where you retrieving the index of your bucket location.
+
+  Secondly: Inside the class DO NOT use Objects to store your key value pairs, And DO NOT use the array method `push` to insert your nodes into the buckets, always use indexes.
+
+
+</div>
 
 ### Additional resources
 
