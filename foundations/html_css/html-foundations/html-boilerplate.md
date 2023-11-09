@@ -95,7 +95,7 @@ Back in our `index.html` file, let's add a `<head>` element with a `<meta>` elem
 
 The final element needed to complete the HTML boilerplate is the `<body>` element. This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on.
 
-To complete the boilerplate, add a `<body>` element to the `index.html` file. The `<body>` element also goes within the ` <html>` element and is always below the `<head>` element, like so:
+To complete the boilerplate, add a `<body>` element to the `index.html` file. The `<body>` element also goes within the `<html>` element and is always below the `<head>` element, like so:
 
 ```html
 <!DOCTYPE html>
