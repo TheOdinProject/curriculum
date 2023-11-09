@@ -217,8 +217,8 @@ While you may come across this in the wild it is important to note that Rails 7 
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href='#bundle-options'>What are the three different options that jsbundling-rails provides?</a>
-- <a class="knowledge-check-link" href='#bundler-check'>What are the steps to including a bundler for a import map based project?</a>
-- <a class="knowledge-check-link" href='#jsbundling-module'>What is one downside to using JS bundling?</a>
-- <a class="knowledge-check-link" href='#webpacker-introduction'>Why was Webpacker introduced for Rails 6?</a>
-- <a class="knowledge-check-link" href='#yarn-build-command'>Why is the ```./bin/dev``` command useful in development mode?</a>
+- [What are the three different options that jsbundling-rails provides?](#bundle-options)
+- [What are the steps to including a bundler for an import map based project?](#bundler-check)
+- [What is one downside to using JS bundling?](#jsbundling-module)
+- [Why was Webpacker introduced for Rails 6?](#webpacker-introduction)
+- [Why is the `./bin/dev` command useful in development mode?](#yarn-build-command)

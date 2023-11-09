@@ -150,7 +150,7 @@ While you can generally chain multiple transforms in any order for various resul
 
 ### Three-dimensional transforms
 
-The `rotate`, `scale`, and `translate` transform functions aren't limited to just the 2D plane. They work for the 3D plane as well! However, to perceive a 3D effect on some of these function values, `perspective` is required.
+The `rotate`, `scale`, and `translate` transform functions aren't limited to just 2D planes. They also work for 3D planes as well! However, to perceive a 3D effect on some of these function values, `perspective` is required.
 
 From here on, the examples get more complicated, so there will be more links to external resources which do an excellent job describing how each property works. Play around with these properties until you feel comfortable with them, but be careful not to get too sidetracked with them.
 
@@ -172,7 +172,7 @@ For more details on how `perspective` works in regards to 3D transforms, [check 
 
 #### Rotate
 
-These are the additional transform function values to rotate an element on a 3D plane:
+These are the additional transform function values to rotate an element in a 3D space:
 
 ~~~css
 .element {
@@ -196,7 +196,7 @@ To learn about how `rotate3d` works, check out [this great demonstration](https:
 
 #### Scale
 
-These are the additional transform function values to scale an element on a 3D plane:
+These are the additional transform function values to scale an element in a 3D space:
 
 ~~~css
 .element {
@@ -209,7 +209,7 @@ See MDN's 3D cube in action with `scaleZ` [here](https://developer.mozilla.org/e
 
 #### Translate
 
-These are the additional transform function values to translate an element on a 3D plane:
+These are the additional transform function values to translate an element in a 3D space:
 
 ~~~css
 .element {

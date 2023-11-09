@@ -1,6 +1,6 @@
 ### Introduction
 
-In the previous lesson, we covered basic CSS syntax and selectors. Now, it's time to combine our knowledge of selectors with the *C* of CSS - the cascade.
+In the previous lesson, we covered basic CSS syntax and selectors. Now, it's time to combine our knowledge of selectors with the *C* of CSS -- the cascade.
 
 ### Lesson overview
 
@@ -51,7 +51,7 @@ Consider the following HTML and CSS code:
 }
 ~~~
 
-In the example above, both rules are using only class selectors, but rule 2 is more specific because it is using more class selectors, so the `color: red;` declaration would take precedence.
+In the example above, both rules are using only class selectors, but rule 2 is more specific because it is using more class selectors, so the `color: red` declaration would take precedence.
 
 Now, let's change things a little bit:
 
@@ -74,7 +74,7 @@ Now, let's change things a little bit:
 }
 ~~~
 
-In the example above, despite rule 2 having more class selectors than ID selectors, rule 1 is more specific because ID beats class. In this case, the `color: blue;` declaration would take precedence.
+In the example above, despite rule 2 having more class selectors than ID selectors, rule 1 is more specific because ID beats class. In this case, the `color: blue` declaration would take precedence.
 
 And a bit more complex:
 
@@ -152,7 +152,7 @@ In this example, rule 2 would have higher specificity and the `orange` value wou
 
 #### Inheritance
 
-Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't.
+Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't.
 
 The exception to this is when directly targeting an element, as this always beats inheritance:
 
@@ -179,7 +179,7 @@ Despite the `parent` element having a higher specificity with an ID, the `child`
 
 #### Rule order
 
-The final factor, the end of the line, the tie-breaker of the tie-breaker. Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
+The final factor, the end of the line, the tie-breaker of the tie-breakers. Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
 
 Really simply, actually. Whichever rule was the *last* defined is the winner.
 
