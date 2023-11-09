@@ -170,6 +170,7 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
   1. `values` method that will return an array containing all the values.
   1. `entries` method that will return an array that contains each a `key, value` pairs. Example: `[[firstKey, firstValue], [secondKey, secondValu]]`
 
+  Remember that a hash map does not preserve insertion order when you are retrieving your arrays data it is normal and expected for keys and values to appear out of the order you inserted them in.
 </div>
 
 ### Additional resources
