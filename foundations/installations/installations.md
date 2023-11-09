@@ -152,10 +152,10 @@ Now that this is all done, you can close those windows and reboot your VM. You c
 
 Now that you have access to `sudo`, we can use this to update our Xubuntu through the `Terminal`. Open the `Terminal` and use these commands, one after another:
 
-~~~bash
+```bash
 sudo apt update
 sudo apt upgrade
-~~~
+```
 
 You will be asked for your password after using the first one - type it in and use <kbd>Enter</kbd> to provide your terminal with the password. There is no visual feedback about what you're typing in but you are indeed doing so.
 
@@ -290,17 +290,17 @@ Choose your Operating System:
 - Open your **Terminal**
 - Run the following command to download latest **Google Chrome** `.deb` package
 
-~~~bash
+```bash
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-~~~
+```
 
 #### Step 2: Install Google Chrome
 
 - Enter the following command in your terminal to install **Google Chrome** `.deb` package
 
-       ~~~bash
-       sudo apt install ./google-chrome-stable_current_amd64.deb
-       ~~~
+    ```bash
+    sudo apt install ./google-chrome-stable_current_amd64.deb
+    ```
 
 - Enter your password, if needed
 
@@ -312,9 +312,9 @@ You might see a notice starting with `N: Download is performed unsandboxed (...)
 
 #### Step 3: Delete the installer file
 
-~~~bash
+```bash
 rm google-chrome-stable_current_amd64.deb
-~~~
+```
 
 #### Step 4: Using Google Chrome
 
@@ -323,9 +323,9 @@ You can start chrome in two ways,
 - Click **Google Chrome** from the Applications menu
 - **Or**, use the `google-chrome` command from the terminal
 
-~~~bash
+```bash
 google-chrome
-~~~
+```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 

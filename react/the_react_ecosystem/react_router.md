@@ -98,7 +98,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/profile",
+    path: "profile",
     element: <Profile />,
   },
 ]);
@@ -236,7 +236,7 @@ Check out the `/profile`, `/profile/popeye` and `/profile/spinach` pages. The `<
 
 If you want to render something as a default component when no path is added to Profile, you can add an index route to the children! 
 
-Create a default Profile component:
+Create a DefaultProfile component:
 
 ~~~jsx
 const DefaultProfile = () => {

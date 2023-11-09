@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### render()
 
-The render function is the most used lifecycle method, and one that you've come across in the last class components lesson. It is the only required lifecycle method in a class component. It runs on mount and update of a component. Render should be pure, meaning it doesn't modify component state, returns the same thing each time it's called (given the same inputs), and doesn't directly interact with the browser. 
+The render function is the most used lifecycle method, and one that you've come across in the last class components lesson. It is the only required lifecycle method in a class component. It runs on mount and update of a component. Render should be pure, meaning it doesn't modify component state, returns the same thing each time it's called (given the same inputs), and doesn't directly interact with the browser.
 
 ### componentDidMount()
 
@@ -40,10 +40,10 @@ Now that we've learnt about class lifecycle methods, it's useful to understand t
 For example:
 
 ~~~js
-    useEffect(() => {
-        placeholderFunction()
-        return () => cleanupFunction()
-    }, [])
+  useEffect(() => {
+    placeholderFunction();
+    return () => cleanupFunction();
+  }, [])
 ~~~
 
 In this snippet, the useEffect contains the functionality of `componentDidMount`, and `componentWillUnmount` via the return function. This example doesn't have the `componentDidUpdate` functionality because of an empty dependency array.
@@ -55,8 +55,8 @@ In this snippet, the useEffect contains the functionality of `componentDidMount`
 1.  Check out this [lifecycle diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) to see a good visual representation of a components lifecycle methods.
 
 2. Read this [component lifecycle documentation](https://reactjs.org/docs/react-component.html#the-component-lifecycle) by the people who made react!
-    *   You only have to worry about the methods in bold, but you can read up on the others if you're curious - they're uncommon and you likely won't need them in 
-        most of your apps. 
+    *   You only have to worry about the methods in bold, but you can read up on the others if you're curious - they're uncommon and you likely won't need them in
+        most of your apps.
 </div>
 
 ### Knowledge check

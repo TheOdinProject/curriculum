@@ -190,7 +190,7 @@ We know that a component renders whenever either state changes or prop changes. 
 
 We already know we can memoize a value using `useMemo`, right? Then we can just cache the function reference and use an empty dependency array so that it won't change. That seems very simple.
 
-Let's create a new function and name it `memoizedHandleClick`
+Let's create a new function and name it `memoizedHandleClick`:
 
 ~~~jsx
 const memoizedHandleClick = useMemo(() => handleClick, []);

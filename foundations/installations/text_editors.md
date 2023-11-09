@@ -28,17 +28,17 @@ Choose your Operating System:
 - Open your **Terminal**.
 - Run the following command to download the latest **VSCode** `.deb` package.
 
-~~~bash
+```bash
 wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
-~~~
+```
 
 #### Step 2: Install VSCode
 
 - Enter the following command in your terminal to install the **VSCode** `.deb` package.
 
-~~~bash
+```bash
 sudo apt install ./code-latest.deb
-~~~
+```
 
 - If prompted, enter your password.
 
@@ -50,9 +50,9 @@ You might see a notice starting with `N: Download is performed unsandboxed (...)
 
 #### Step 3: Delete the installer file
 
-~~~bash
+```bash
 rm code-latest.deb
-~~~
+```
 
 #### Step 4: Using VSCode
    
@@ -61,9 +61,9 @@ You can start VSCode in two ways,
 - Click **Visual Studio Code** from the Applications menu.
 - **Or**, use the `code` command from the terminal.
 
-~~~bash
+```bash
 code
-~~~
+```
 
 </details>
 

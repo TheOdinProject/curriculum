@@ -74,17 +74,16 @@ To simulate a network error, scroll up to the previous code snippet and change t
 To fix this, we need to check for _something_ before Image component returns JSX. We'll call it: `error`.
 
 ~~~jsx
-  if (error) return <p>A network error was encountered</p>
+if (error) return <p>A network error was encountered</p>
 
-  return (
-    imageURL && (
-      <>
-        <h1>An image</h1>
-        <img src={imageURL} alt={"placeholder text"} />
-      </>
-    )
-  );
-};
+return (
+  imageURL && (
+    <>
+      <h1>An image</h1>
+      <img src={imageURL} alt={"placeholder text"} />
+    </>
+  )
+);
 ~~~
 
 To set this `error`, we'll add it to the component's state.
