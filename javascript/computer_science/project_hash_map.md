@@ -152,6 +152,8 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
 
   1. Create the HashMap class or factory function, up to you.
   2. Create a hash function that will take a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing function, it is up to you if you want to do a research to find a really good hashing function but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
+  3. Create a `set` function that will take two arguments, the first is a key and the second is a value that is assigned to this key.
+  4. Create a `get` function that will take one argument as a key and returns the value that is assigned to this key.
 
 </div>
 
