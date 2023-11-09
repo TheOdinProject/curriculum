@@ -151,6 +151,7 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
   Now comes the time for you to create a working HashMap!
 
   1. Create the HashMap class or factory function, up to you.
+  2. Create a hash function that will take a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing function, it is up to you if you want to do a research to find a really good hashing function but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
 
 </div>
 
