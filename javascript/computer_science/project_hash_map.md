@@ -109,6 +109,12 @@ What if we found the hash code, but also the key value is the same as what we al
 
 You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible.
 
+<div class="lesson-notes--tips" markdown="1">
+  A Hash Map does not guarantee insertion order because of the buckets indexing nature of hash coding. That means if you are to retrieve the array of keys and values they will not be in order of when you inserted them.
+
+  For example if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]`
+</div>
+
 ### Growth of a hash table
 
 Let's talk about the operation which require complexity `O(n)`. Which is the growth of our buckets, we don't have infinite memory we can't have infinite amount of buckets. We need to start somewhere but starting too big is also waste of memory if we're only going to have a hash map that have "Bryan" in it. So to deal with this issue we simply start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
