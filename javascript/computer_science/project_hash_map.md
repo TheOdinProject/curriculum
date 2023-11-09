@@ -160,14 +160,9 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
   1. `remove` method that will take a key and remove it from the hash table.
   1. `length` method that will returns how many stored keys in the hash code.
   1. `clear` method that will remove all entries in the hash map.
-
-  <div class="lesson-notes--tips markdown="1">
-    A Hash Map does not care about insertion order, the following three methods will return arrays that are not in order of when you inserted them into the Map and that is to behaving as expected.
-  </div>
-  
   1. `keys` method that will return an array containing all the keys inside the hash map.
   1. `values` method that will return an array containing all the values.
-  1. `entries` method that will return an array that contains each a `key, value` pairs. Example: `[[firstKey, firstValue], secondKey, secondValu]]`
+  1. `entries` method that will return an array that contains each a `key, value` pairs. Example: `[[firstKey, firstValue], [secondKey, secondValu]]`
 
 </div>
 
