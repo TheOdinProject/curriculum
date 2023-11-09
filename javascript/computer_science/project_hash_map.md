@@ -154,12 +154,11 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
 
   Secondly: Inside the class DO NOT use Objects to store your key value pairs, And DO NOT use the array method `push` to insert your nodes into the buckets, always use indexes.
 
-  Now comes the time for you to create a working HashMap!
-  Start by Creating a HashMap class or factory function, up to you.
+  Now comes the time for you to create a working HashMap! Start by Creating a HashMap class or factory function, up to you.
 
   Create the following methods:
 
-  1. A Hash function that will take a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing function, it is up to you if you want to do a research to find a really good hashing function but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
+  1. `hash` function that will take a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing function, it is up to you if you want to do a research to find a really good hashing function but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
   1. `set` function that will take two arguments, the first is a key and the second is a value that is assigned to this key. Remember to grow your buckets size when it need to using the `load factor` and `capacity`.
   1. `get` function that will take one argument as a key and returns the value that is assigned to this key.
   1. `contain` method that takes a key and checks if your HashMap contains that key.
