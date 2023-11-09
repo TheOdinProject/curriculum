@@ -100,7 +100,7 @@ There are a few things going on here.
 
 ### Prop destructuring
 
-A very common pattern you will come across in React is prop [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment). Unpacking your props in the component arguments allows for more concise and readable code. Check out prop destructing in action in the example below.
+A very common pattern you will come across in React is prop [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment). Unpacking your props in the component arguments allows for more concise and readable code. Check out prop destructuring in action in the example below.
 
 ~~~jsx
 function Button({ text, color, fontSize }) {
