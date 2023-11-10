@@ -87,7 +87,7 @@ Maybe you are wondering, why are we comparing the keys if we already found the h
 
 This is it, making this will result in a hash table with `search`, `set` and `get`.
 
-What if we found the hash code, but also the key value is the same as what we already have in the bucket. We check if it's the same item by comparing the key, then we overwrite it with our new item. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have Nodes with only keys and no values.
+What if we found the hash code, but also the key value is the same as what we already have in the bucket. We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have Nodes with only keys and no values.
 
 <div class="lesson-notes--tips" markdown="1">
   A Hash Map does not guarantee insertion order because of the buckets indexing nature of hash coding. That means if you are to retrieve the array of keys and values they will not be in order of when you inserted them.
