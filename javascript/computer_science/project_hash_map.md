@@ -162,7 +162,7 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
   1. `set` method that will take two arguments, the first is a key and the second is a value that is assigned to this key. Remember to grow your buckets size when it need to using the `load factor` and `capacity`.
   1. `get` method that will take one argument as a key and returns the value that is assigned to this key.
   1. `has` method that takes a key as an argument and checks if your HashMap has that key.
-  1. `remove` method that will take a key and remove it from the hash table.
+  1. `remove` method that will take a key as argument and remove it from the hash table.
   1. `length` method that will returns how many stored keys in the hash code.
   1. `clear` method that will remove all entries in the hash map.
   1. `keys` method that will return an array containing all the keys inside the hash map.
