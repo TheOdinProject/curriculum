@@ -67,11 +67,11 @@ function hash(name, surname) {
 
 You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true, this would make it unique for each name, but there is a better one that is globally used, which is using a number. There are benefits by using a number as a hash code instead, let's explore them:
 
-- Firstly we do not save the hash code, the hash code is a calculation to simply find out which bucket (storage) our value will have to go to. Think about it as a locker number for example.
+- Firstly we do not save the hash code, the hash code is a calculation to find out which bucket (storage) our value will have to go to. Think about it as a locker number for example.
 
 - We save computation time. If we are to find where our hash is stored it would be much faster and easier for a computer to compare two numbers rather than a string (or objects) to find the bucket where we have to store our elements (you will learn more about buckets shortly). Finding a bucket using a number would allow us to use that number as our index, which means finding a bucket complexity would be `O(1)`
 
-- By using number as hash code, we can have a hash codes that is uniform across variables where it doesn't have to only be a string, we can even hash numbers, or objects we simply need an algorithm to generate a hash code number for our needs from an object, taking `class Person` object as an example, our hash code can be a combination of the `strinngToNummber(name) + age`.
+- By using number as hash code, we can have a hash codes that is uniform across variables where it doesn't have to only be a string, we can even hash numbers, or objects then we need an algorithm to generate a hash code number for our needs from an object, taking `class Person` object as an example, our hash code can be a combination of the `strinngToNummber(name) + age`.
 
 ### Buckets
 
@@ -111,7 +111,7 @@ function stringToNumber(string) {
 
 With our new function we will have different hash codes for the names "Carlos" and "Clarso" that is because even so both names have the same letters, some of the letters appear in different locations. We take advantage of that by multiplying the letter code by the index of where that letter appeared.
 
-Even tho we reworked our hash function, there are some times collisions still especially that we have a finite amount of buckets. That is where `Linked Lists` becomes useful. If each node inside the bucket is also a Linked List, Then we simply look for bucket `508` if it's empty we insert the head of Linked List node being, If a Node head exists in a bucket we simply follow that Linked List to add to the end of it.
+Even tho we reworked our hash function, there are some times collisions still especially that we have a finite amount of buckets. That is where `Linked Lists` becomes useful. If each node inside the bucket is also a Linked List, Then we look for bucket `508` if it's empty we insert the head of Linked List node being, If a Node head exists in a bucket we follow that Linked List to add to the end of it.
 
 You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible.
 
@@ -121,13 +121,13 @@ Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 th
 
 ### Growth of a hash table
 
-Let's talk about the operation which require complexity `O(n)`. Which is the growth of our buckets, we don't have infinite memory we can't have infinite amount of buckets. We need to start somewhere but starting too big is also a waste of memory if we're only going to have a hash map that have `"Bryan"` in it. So to deal with this issue we simply start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
+Let's talk about the operation which require complexity `O(n)`. Which is the growth of our buckets, we don't have infinite memory we can't have infinite amount of buckets. We need to start somewhere but starting too big is also a waste of memory if we're only going to have a hash map that have `"Bryan"` in it. So to deal with this issue we start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
 
 <div class="lesson-notes lesson-notes--tips" markdown="1">
   Most programming languages start with the default size of `16` because it's a power of 2, which help with some techniques for performance that require bit manipulation for indexes. But for this example, we will be using a starting size of 10.
 </div>
 
-How are we going to insert into those buckets when our hash function generates big numbers like 20353924? We simply make use of the modulo (%) operation `given any number modulo by 10 we will get a number in between 0 and 9`. For example, If are we to find where the value `"Manon"` gonna land, in what bucket, then we do the following:
+How are we going to insert into those buckets when our hash function generates big numbers like 20353924? We make use of the modulo (%) operation `given any number modulo by 10 we will get a number in between 0 and 9`. For example, If are we to find where the value `"Manon"` gonna land, in what bucket, then we do the following:
 ![hashing using hash code and modular operation example](./project_hash_map/imgs/01.png)
 
 <div class="lesson-notes lesson-notes--tips" markdown="1">
@@ -140,7 +140,7 @@ If we keep adding nodes into our buckets then the buckets will start filling up,
 
 To deal with this, our Hash Map class need to keep track of two new fields, the `capacity` and the `load factor`.
 
-- The Capacity is simply the amount of buckets we currently have. Keeping track of this will let us know if our map has reached the threshold, the threshold will depend on our factor variable as well.
+- The Capacity is the amount of buckets we currently have. Keeping track of this will let us know if our map has reached the threshold, the threshold will depend on our factor variable as well.
 
 - The load factor is a number that we can assign our hash map to at the start. It's the factor that will determine when is it a good time to grow our buckets, for example a load factor of `0.75` means our hash map will need to grow its buckets when the capacity reaches 75% full. Setting it too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have collisions before we grow them. Usually a good balance of `0.75 to 1` is used.
 
@@ -174,6 +174,8 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
   1. `entries` method that will return an array that contains each a `key, value` pairs. Example: `[[firstKey, firstValue], [secondKey, secondValu]]`
 
   Remember that a hash map does not preserve insertion order when you are retrieving your arrays data it is normal and expected for keys and values to appear out of the order you inserted them in.
+
+  Bonus Assignment: Create a class `HashSet` that behaves the same as a `HashMap` but only contains `keys` with no `values`.
 </div>
 
 ### Additional resources
