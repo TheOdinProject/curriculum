@@ -22,9 +22,9 @@ To get some practice using links and images throughout this lesson we need an HT
 3. Open the file in VS Code and fill in the usual HTML boilerplate.
 4. Finally, add the following h1 to the body:
 
-~~~html
+```html
 <h1>Homepage</h1>
-~~~
+```
 
 ### Anchor elements
 
@@ -32,9 +32,9 @@ To create a link in HTML, we use the anchor element. An anchor element is define
 
 Add the following to the body of the index.html page we created and open it in the browser:
 
-~~~html
+```html
 <a>click me</a>
-~~~
+```
 
 You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
 
@@ -42,9 +42,9 @@ You may have noticed that clicking this link doesn't do anything. This is becaus
 
 Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
-~~~html
+```html
 <a href="https://www.theodinproject.com/about">click me</a>
-~~~
+```
 
 By default, any text wrapped with an anchor tag without a `href` attribute will look like plain text. If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
 
@@ -56,9 +56,9 @@ The method shown above opens links in the same tab as the webpage containing the
 
 While `href` specifies the destination link, `target` specifies where the linked resource will be opened. If it is not present, then, by default, it will take on the `_self` value which opens the link in the current tab. To open the link in a new tab or window (depends on browser settings) you can set it to `_blank` as follows:
 
-~~~html
+```html
 <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">click me</a>
-~~~
+```
 
 <span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document. 
 
@@ -91,7 +91,7 @@ Relative links only include the file path to the other page, *relative* to the p
 
 Within the `odin-links-and-images` directory, create another HTML file named `about.html` and paste the following code into it:
 
-~~~html
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -103,18 +103,18 @@ Within the `odin-links-and-images` directory, create another HTML file named `ab
     <h1>About Page</h1>
   </body>
 </html>
-~~~
+```
 
 Back in the index page, add the following anchor element to create a link to the about page:
 
-~~~html
+```html
 <body>
   <h1>Homepage</h1>
 	<a href="https://www.theodinproject.com/about">click me</a>
 
 	<a href="about.html">About</a>
 </body>
-~~~
+```
 
 Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
 
@@ -128,23 +128,23 @@ Refresh the index page in the browser and then click on the about link. It will 
 
 To fix this, we just need to update the about link href value to include the `pages/` directory since that is the new location of the about file *relative* to the index file.
 
-~~~html
+```html
 <body>
   <h1>Homepage</h1>
   <a href="pages/about.html">About</a>
 </body>
-~~~
+```
 
 Refresh the index page in the browser and try clicking the about link again, it should now be back in working order.
 
 In many cases, this will work just fine; however, you can still run into unexpected issues with this approach. Prepending `./` before the link will in most cases prevent such issues. By adding  `./` you are specifying to your code that it should start looking for the file/directory *relative* to the `current` directory.
 
-~~~html
+```html
 <body>
   <h1>Homepage</h1>
   <a href="./pages/about.html">About</a>
 </body>
-~~~
+```
 
 
 #### A metaphor
@@ -180,7 +180,7 @@ To use images that we have on our own websites, we can use a relative path.
 
 Finally add the image to the `index.html` file:
 
-~~~html
+```html
 <body>
   <h1>Homepage</h1>
 	<a href="https://www.theodinproject.com/about">click me</a>
@@ -189,7 +189,7 @@ Finally add the image to the `index.html` file:
 
 	<img src="./images/dog.jpg">
 </body>
-~~~
+```
 
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
@@ -198,9 +198,9 @@ What if we want to use the dog image in the about page? We would first have to g
 
 <span id="parent-filepath"></span>To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Let's see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
 
-~~~html
+```html
 <img src="../images/dog.jpg">
-~~~
+```
 
 To break this down:
 
