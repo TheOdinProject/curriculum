@@ -36,9 +36,9 @@ B:
   bianca.txt
 ```
 
-If we get new student in our school system, with the name of `Carl` we can run our hash function to find out what folder do we assign for them `hash("Carl") -> C` so we put "Carl" in the directory `C`
+If we get new student in our school with the name `"Carlos"` we can run our hash function to find out what folder do we assign them in `hash("Carlos") -> "C"` so we put `"Carlos"` in the directory labeled `C`
 
-You might have spotted a problem, what if our school is populated with many people that share the same first letter "C"? Then we will have a directory with "C" that have too many names that start with "C" and other directories that are almost empty. We need to rework our hash function, to eliminate more duplication and separate our students, while keeping constant structure in folders.
+You might have spotted a problem, what if our school is populated with many people that share the same first letter `C`? Then we will have a directory with labeled `C` that have too many names that start with `"C"` and the other directories are empty. We need to rework our hash function, to eliminate more duplication and separate our students, while keeping constant structure in folders.
 
 ```javascript
 function hash(name, surname) {
@@ -46,7 +46,8 @@ function hash(name, surname) {
 }
 ```
 
-Instead of just taking the first name letter, we take the first name and last name letters. "Carlos Smith" will have a hash code of "CS" this will surely narrow down our directories, and it's much better now, it will eliminate many duplicate hash codes from our directories.
+Instead of just taking the first name letter, we take the first name and last name letters. `"Carlos Smith"` will have a hash code of `"CS"` this will surely spread our students in more directories, it will eliminate many duplicate hash codes from being generated.
+
 ![Example of hashing a name using first name's first letter, and last name's first letter](./project_hash_map/imgs/00.png)
 
 But it still doesn't solve our problem, what if we have a very popular first name's first letter and surname's first letter? Then we are again with directories that are empty and other directories that are full, we need it easier for us to find the person we are looking for, so let's rework our hash code.
