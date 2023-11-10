@@ -3,6 +3,14 @@ One of the most used data structure across all languages is a Hash Table, aka Ha
 
 In this project you will learn how it all works and you will implement your own Hash Map class! To start we need to learn few concepts one of which is a hash code, what does it mean, and how to use it. Let us get started and hope you are exited to finally know what is happening with an object when you put keys and values in them.
 
+#### Computation complexity
+A HashMap is very efficient in it's insertion, retrieving and removing operations. That is because we use array indexes to do those operations which you will learn about later in this lesson. Just like working with Array indexes, a HashMap has a complexity of `O(1)` for the following methods:
+- Insertion
+- Retrieving
+- Deletion
+Unfortunately the growth of our HashMap has the complexity of `O(n)` we can't have it all be perfect now can we.
+
+Let us dive deep into the lesson and learn why and how come is it this efficient when we have keys such as Strings to store our values.
 ### What is a hash code
 
 Let's tart by learning what does it mean to hash a value. Hashing means taking an input in and generating an output that represents this input. Hashing the same input should give us the same hash code, there should be no random generation that is happening. For example, let's work a hashing function that takes a name and gives us the first letter of that name:
