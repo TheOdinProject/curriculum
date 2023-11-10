@@ -161,7 +161,7 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
   1. `hash` function that will take a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing function, it is up to you if you want to do a research to find a really good hashing function but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
   1. `set` method that will take two arguments, the first is a key and the second is a value that is assigned to this key. Remember to grow your buckets size when it need to using the `load factor` and `capacity`.
   1. `get` method that will take one argument as a key and returns the value that is assigned to this key.
-  1. `contain` method that takes a key and checks if your HashMap contains that key.
+  1. `has` method that takes a key as an argument and checks if your HashMap has that key.
   1. `remove` method that will take a key and remove it from the hash table.
   1. `length` method that will returns how many stored keys in the hash code.
   1. `clear` method that will remove all entries in the hash map.
