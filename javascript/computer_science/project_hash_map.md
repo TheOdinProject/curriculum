@@ -6,7 +6,7 @@ In this project you will learn how it all works and you will implement your own 
 
 ### What is a hash code
 
-Let's tart by learning what does it mean to hash a value. Hashing means taking an input in and generating an output that represents this input. Hashing the same input should give us the same hash code, there should be no random generation that is happening. For example, let's work a hashing function that takes a name and gives us the first letter of that name:
+Let us start by learning what does it mean to hash a value. Hashing means taking an input in and generating an output that represents this input. A Hash function should be a pure function, hashing the same input should always return the same hash code, there should be no random generation that is happening. For example, let's work a hashing function that takes a name and gives us the first letter of that name:
 
 ```javascript
 function hash(name) {
