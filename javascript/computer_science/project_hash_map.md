@@ -115,13 +115,13 @@ function stringToNumber(string) {
 }
 ```
 
-With our new function we will have different hash codes for the names "Carlos" and "Clarso" that is because even so both names have the same letters, some of the letters appear in different locations. We take advantage of that by multiplying the letter code by the index of where that letter appeared.
+With our new function we will have different hash codes for the names `"Sara"` and `"Rasa"` that is because even so both names have the same letters, some of the letters appear in different locations. We take advantage of that by multiplying the letter code by the index of where that letter appeared.
 
-Even tho we reworked our hash function, there are some times collisions still especially that we have a finite amount of buckets. That is where `Linked Lists` becomes useful. If each node inside the bucket is also a Linked List, Then we look for bucket `508` if it's empty we insert the head of Linked List node being, If a Node head exists in a bucket we follow that Linked List to add to the end of it.
+Even tho we reworked our hash function, there is always the possibility for collisions, especially that we have a finite amount of buckets. That is where `Linked Lists` becomes useful. If each `Node` inside the bucket is also a Linked List, Then we look for bucket `508` if it's empty we insert the head of Linked List node being, If a Node head exists in a bucket we follow that Linked List to add to the end of it.
 
 You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible.
 
-You do not need to write your own hash functions, but understanding how they work is important. Writing a hash function is art and there are many ways to generate hashes with techniques that languages adopted over the years. Such as using prime numbers to multiply the index with etc..
+Most likely you will not be writing your own hash functions, as most languages have it built int. But understanding how hash functions work is important.
 
 Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 that explains the concept shortly with visualization
 
