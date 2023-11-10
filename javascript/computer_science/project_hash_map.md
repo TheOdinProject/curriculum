@@ -79,9 +79,11 @@ You might be thinking, wouldn't it be just better to save the whole name as a ha
 
 ### Buckets
 
-Buckets are storage that we need to store our elements. Simply it's an array. From now on we will be referring to our storage as buckets. You have buckets each is assigned a hash, since our hash function now produce a number we're going to assign each bucket a number. We receive a key "Fred" We hash it using our hash function it produce the number `508` we look which Bucket is labeled `508` we put "Fred" in the bucket. This is the simple form, but there are more mechanics that we need to deal with.
+Buckets are storage that we need to store our elements. Simply it's an array. From now on we will be referring to our storage as buckets. We have a set of buckets as our storage, since our hash function now produce a number we are going to find out which bucket we gonna use for storage using that number as index. We receive a key `"Fred"` We hash it using our hash function it produce the number `508` we look which Bucket has index `508` we put `"Fred"` in the bucket. This is the simple form, but there are more mechanics that we need to deal with.
 
-To get a value using a key, we put each entry inside a bucket as a Node item, which hold both the key and the value. To retrieve the value we hash a key, we find the bucket number, if the bucket is not empty then we go to that bucket we compare if the Node's key in there is the same key we have, and we retrieve the Node's value otherwise we return null.
+To get a value using a key, we put each entry inside a bucket as a `Node` item, which hold both the key and the value. To retrieve the value we hash a key, we find the bucket number, if the bucket is not empty then we go to that bucket we compare if the Node's key is the same key that is already in the bucket, if it is then retrieve the Node's value otherwise we return null.
+
+Maybe you are wondering, why are we comparing the keys if we already found the hash code of that bucket? that is because remember, hash code is just the location, different items might generate the same hash code. We need to make sure the key is the same by comparing both keys that is inside the bucket.
 
 This is it, making this will result in a hash table with `search`, `set` and `get`.
 
