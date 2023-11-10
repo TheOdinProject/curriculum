@@ -3,14 +3,6 @@ One of the most used data structure across all languages is a Hash Table, aka Ha
 
 In this project you will learn how it all works and you will implement your own Hash Map class! To start we need to learn few concepts one of which is a hash code, what does it mean, and how to use it. Let us get started and hope you are exited to finally know what is happening with an object when you put keys and values in them.
 
-#### Computation complexity
-A HashMap is very efficient in it's insertion, retrieving and removing operations. That is because we use array indexes to do those operations which you will learn about later in this lesson. Just like working with Array indexes, a HashMap has a complexity of `O(1)` for the following methods:
-- Insertion
-- Retrieving
-- Deletion
-Unfortunately the growth of our HashMap has the complexity of `O(n)` we can't have it all be perfect now can we.
-
-Let us dive deep into the lesson and learn why and how come is it this efficient when we have keys such as Strings to store our values.
 ### What is a hash code
 
 Let's tart by learning what does it mean to hash a value. Hashing means taking an input in and generating an output that represents this input. Hashing the same input should give us the same hash code, there should be no random generation that is happening. For example, let's work a hashing function that takes a name and gives us the first letter of that name:
@@ -151,6 +143,16 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
 - The Capacity is the amount of buckets we currently have. Keeping track of this will let us know if our map has reached the threshold, the threshold will depend on our factor variable as well.
 
 - The load factor is a number that we can assign our hash map to at the start. It's the factor that will determine when is it a good time to grow our buckets, for example a load factor of `0.75` means our hash map will need to grow its buckets when the capacity reaches 75% full. Setting it too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have collisions before we grow them. Usually a good balance of `0.75 to 1` is used.
+
+### Computation complexity
+A HashMap is very efficient in it's insertion, retrieving and removing operations. That is because we use array indexes to do those operations which you will learn about later in this lesson. Just like working with Array indexes, a HashMap has an average case complexity of `O(1)` for the following methods:
+- Insertion
+- Retrieving
+- Deletion
+
+Assuming we have a good HashMap written. The worst case of those operations would be `O(n)` and that happens when we have all our data hashes to the same exact bucket.
+
+The Growth of our HashMap has the complexity of `O(n)` at all times.
 
 ### Assignment
 
