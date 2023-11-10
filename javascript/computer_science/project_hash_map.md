@@ -172,16 +172,16 @@ The Growth of our HashMap has the complexity of `O(n)` at all times.
 
   Create the following methods:
 
-  1. `hash` function that will take a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing function, it is up to you if you want to do a research to find a really good hashing function but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
-  1. `set` method that will take two arguments, the first is a key and the second is a value that is assigned to this key. Remember to grow your buckets size when it need to using the `load factor` and `capacity`.
-  1. `get` method that will take one argument as a key and returns the value that is assigned to this key.
-  1. `has` method that takes a key as an argument and checks if your HashMap has that key.
-  1. `remove` method that will take a key as argument and remove it from the hash table.
-  1. `length` method that will returns how many stored keys in the hash code.
-  1. `clear` method that will remove all entries in the hash map.
-  1. `keys` method that will return an array containing all the keys inside the hash map.
-  1. `values` method that will return an array containing all the values.
-  1. `entries` method that will return an array that contains each a `key, value` pairs. Example: `[[firstKey, firstValue], [secondKey, secondValu]]`
+  1. `hash` takes a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing function, it is up to you if you want to do a research to find a really good hashing function but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
+  1. `set` takes two arguments, the first is a key and the second is a value that is assigned to this key. Remember to grow your buckets size when it need to using the `load factor` and `capacity`.
+  1. `get` takes one argument as a key and returns the value that is assigned to this key.
+  1. `has` takes a key as an argument and checks if your HashMap has that key.
+  1. `remove` takes a key as argument and remove it from the hash table.
+  1. `length` returns how many stored keys in the hash code.
+  1. `clear` removes all entries in the hash map.
+  1. `keys` returns an array containing all the keys inside the hash map.
+  1. `values` returns an array containing all the values.
+  1. `entries` returns an array that contains each a `key, value` pairs. Example: `[[firstKey, firstValue], [secondKey, secondValu]]`
 
   Remember that a hash map does not preserve insertion order when you are retrieving your arrays data it is normal and expected for keys and values to appear out of the order you inserted them in.
 
