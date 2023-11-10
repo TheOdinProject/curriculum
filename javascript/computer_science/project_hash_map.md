@@ -180,4 +180,4 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
 
 ### Additional resources
 
-Work in progress
+- Check out (What are Hash Functions and How to choose a good Hash Function)[https://www.geeksforgeeks.org/what-are-hash-functions-and-how-to-choose-a-good-hash-function] for more technical overview of a hash function if you are intersted in that.
