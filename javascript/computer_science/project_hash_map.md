@@ -1,4 +1,5 @@
 ### Introduction
+
 One of the most used data structure across all languages is a Hash Table, aka Hash Map. If you worked before with JavaScript Objects (Which you should have), Set, and Map then you are already familiar with a hash table, but how do they work exactly under the hood, how can we save values using strings and symbols as keys and then retrieving those values.
 
 In this project you will learn how it all works and you will implement your own Hash Map class! To start we need to learn few concepts one of which is a hash code, what does it mean, and how to use it. Let us get started and hope you are exited to finally know what is happening with an object when you put keys and values in them.
@@ -145,6 +146,7 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
 - The load factor is a number that we can assign our hash map to at the start. It's the factor that will determine when is it a good time to grow our buckets, for example a load factor of `0.75` means our hash map will need to grow its buckets when the capacity reaches 75% full. Setting it too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have collisions before we grow them. Usually a good balance of `0.75 to 1` is used.
 
 ### Computation complexity
+
 A HashMap is very efficient in it's insertion, retrieving and removing operations. That is because we use array indexes to do those operations. Just like working with Array indexes, a HashMap has an average case complexity of `O(1)` for the following methods:
 - Insertion
 - Retrieving
@@ -170,7 +172,6 @@ The Growth of our HashMap has the complexity of `O(n)` at all times.
   ```
 
   Secondly: Inside the class DO NOT use Objects to store your key value pairs, And DO NOT use the array method `push` to insert your nodes into the buckets, always use indexes.
-
 
   #### Time to create a real HashMap
 
