@@ -44,7 +44,7 @@ Because the `<button>` element has a semantic meaning and provides context, a sc
 
 When it comes to using semantic HTML correctly, you want to think about what your intent for users is and what context you want (or need) to provide to them. This can vary depending on the situation, but there are some things you should absolutely be checking for moving forward:
 
-* If a user is meant to click something, whether it's an actual button or not, you will usually want to use a `<button>` element. This will let the user know that they can interact with the element by clicking on it.
+* If a user is meant to click something, whether or not it's an actual button or if it's a clickable link, choose the appropriate HTML tag. For actions triggered by clicking, use the `<button>` element. For navigational links, use the `<a>` (anchor) element. This will let the user know that they can interact with the element by clicking on it.
 * If you want to provide some sort of tabular data to a user, use a `<table>` element along with the elements related to it. This will allow a user to more easily navigate and understand the data being presented.
 * When you use an input element, you should always create a relationship between it and a `<label>` element. A `<label>` provides context for what an input actually means to assistive technologies, announcing the label contents each time the input is announced. Not only that, but a proper `<label>` increases the clickable area of the input itself, which is useful for users who have trouble clicking on smaller items. There are two ways you can create this relationship:
 
