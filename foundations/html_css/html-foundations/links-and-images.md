@@ -260,22 +260,15 @@ Go ahead and update the `odin-links-and-images` project with width and height ta
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- [Introduction](#introduction)
-- [Lesson overview](#lesson-overview)
-- [Preparation](#preparation)
-- [Anchor elements](#anchor-elements)
-- [Opening links in a new tab](#opening-links-in-a-new-tab)
-- [Absolute and relative links](#absolute-and-relative-links)
-  - [Absolute links](#absolute-links)
-  - [Relative links](#relative-links)
-  - [A metaphor](#a-metaphor)
-- [Images](#images)
-- [Parent directories](#parent-directories)
-- [Alt attribute](#alt-attribute)
-- [Image size attributes](#image-size-attributes)
-- [Assignment](#assignment)
-- [Knowledge check](#knowledge-check)
-- [Additional resources](#additional-resources)
+- [What element is used to create a link?](#anchor-elements)
+- [What is an attribute?](#attribute)
+- [What attribute tells links where to go to?](#where-to-go)
+- [What security considerations must be taken if you wish to use the target attribute to open links in a new tab/window?](#target-security)
+- [What is the difference between an absolute and relative link?](#absolute-and-relative-links)
+- [Which element is used to display an image?](#images)
+- [What two attributes do images always need to have?](#two-attributes)
+- [How do you access a parent directory in a filepath?](#parent-filepath)
+- [What are the four main image formats that you can use for images on the web?](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats)
 
 ### Additional resources
 
