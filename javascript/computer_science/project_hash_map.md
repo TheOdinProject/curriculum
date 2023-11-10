@@ -109,7 +109,7 @@ Turn out we can rework our `stringToNumber` function so that it can give us uniq
 function stringToNumber(string) {
   let hashNumber = 0;
   for (let i = 0; i < string.length; i++) {
-    hashNumber += string.charcodeAt(i) * i;
+    hashNumber += string.charCodeAt(i) * i;
   }
   return hashNumber;
 }
