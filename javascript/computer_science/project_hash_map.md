@@ -77,21 +77,19 @@ You might be thinking, wouldn't it be just better to save the whole name as a ha
 
 Buckets are storage that we need to store our elements. Simply it's an array. From now on we will be referring to our storage as buckets. You have buckets each is assigned a hash, since our hash function now produce a number we're going to assign each bucket a number. We receive a key "Fred" We hash it using our hash function it produce the number `508` we look which Bucket is labeled `508` we put "Fred" in the bucket. This is the simple form, but there are more mechanics that we need to deal with.
 
-To get a value using a key, we simply have each entry inside a bucket as a Node item, which hold both the key and the value. To retrieve the value we simply hash a key, we find the bucket number, if the bucket is not empty then we go to that bucket we compare if the node's key in there is the same key we have, and we retrieve the Node's value otherwise we return null.
+To get a value using a key, we put each entry inside a bucket as a Node item, which hold both the key and the value. To retrieve the value we hash a key, we find the bucket number, if the bucket is not empty then we go to that bucket we compare if the Node's key in there is the same key we have, and we retrieve the Node's value otherwise we return null.
 
-This is simply it, making this will result in a hash table with `search`, `set` and `add` which have the complexity O(1)
+This is it, making this will result in a hash table with `search`, `set` and `get` which have the complexity `O(1)`
 
-
-What if we found the hash code, but also the key value is the same as what we already have in the bucket. For each Linked List Node, we check if it's the same item by comparing the key, then we overwrite it with our new item. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have nodes with only keys and no values.
-
-You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible.
+What if we found the hash code, but also the key value is the same as what we already have in the bucket. We check if it's the same item by comparing the key, then we overwrite it with our new item. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have Nodes with only keys and no values.
 
 <div class="lesson-notes--tips" markdown="1">
   A Hash Map does not guarantee insertion order because of the buckets indexing nature of hash coding. That means if you are to retrieve the array of keys and values they will not be in order of when you inserted them.
 
   For example if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]`
-</div>
 
+  If iterating over the hash map frequently is your goal, then this data structure is not the right choice for the job, a simple array would be better.
+</div>
 
 ### Collisions
 
@@ -114,6 +112,8 @@ function stringToNumber(string) {
 With our new function we will have different hash codes for the names "Carlos" and "Clarso" that is because even so both names have the same letters, some of the letters appear in different locations. We take advantage of that by multiplying the letter code by the index of where that letter appeared.
 
 Even tho we reworked our hash function, there are some times collisions still especially that we have a finite amount of buckets. That is where `Linked Lists` becomes useful. If each node inside the bucket is also a Linked List, Then we simply look for bucket `508` if it's empty we insert the head of Linked List node being, If a Node head exists in a bucket we simply follow that Linked List to add to the end of it.
+
+You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible.
 
 You do not need to write your own hash functions, but understanding how they work is important. Writing a hash function is art and there are many ways to generate hashes with techniques that languages adopted over the years. Such as using prime numbers to multiply the index with etc..
 
