@@ -19,7 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 
 What would you expect the following text to output on an HTML page?
 
-~~~html
+```html
 <body>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua.
@@ -27,7 +27,7 @@ What would you expect the following text to output on an HTML page?
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
   nisi ut aliquip ex ea commodo consequat.
 </body>
-~~~
+```
 
 It looks like two paragraphs of text, and so you might expect it to display in that way. However, that is not the case, as you can see in the output below:
 

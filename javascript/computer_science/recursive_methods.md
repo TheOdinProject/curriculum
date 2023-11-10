@@ -51,4 +51,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 -  [Efficient Recursion from U of Alberta](http://webdocs.cs.ualberta.ca/~holte/T26/efficient-rec.html)
 -  [A good resource of recursion by example](https://www.javascripttutorial.net/javascript-recursive-function/)
-- [Visualizing Recursion in the call stack](https://medium.com/swlh/visualizing-recursion-6a81d50d6c41) (Note: A free Medium account is required to read this article)
+- [Visualize how recursion works on factorials](https://pythontutor.com/render.html#code=function%20calcFactorial%28num%29%20%7B%0A%20%20%20%20if%20%28num%20%3D%3D%3D%201%29%20%7B%0A%20%20%20%20%20%20%20%20return%201%3B%0A%20%20%20%20%7D%0A%20%20%20%20return%20num%20*%20calcFactorial%28num%20-%201%29%3B%0A%7D%0A%0AcalcFactorial%285%29%3B&cumulative=false&curInstr=2&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
