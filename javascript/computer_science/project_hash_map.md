@@ -69,7 +69,7 @@ You might be thinking, wouldn't it be just better to save the whole name as a ha
 
 - Firstly we do not save the hash code, the hash code is a calculation to find out which bucket (storage) our value will have to go to. Think about it as a locker number for example.
 
-- We save computation time. If we are to find where our hash is stored it would be much faster and easier for a computer to compare two numbers rather than a string (or objects) to find the bucket where we have to store our elements (you will learn more about buckets shortly). Finding a bucket using a number would allow us to use that number as our index, which means finding a bucket complexity would be `O(1)`
+- We save computation time. If we are to find where our hash is stored it would be much faster and easier for a computer to compare two numbers rather than a string (or objects) to find the bucket where we have to store our elements (you will learn more about buckets shortly). Finding a bucket using a number would allow us to use that number as our index.
 
 - By using number as hash code, we can have a hash codes that is uniform across variables where it doesn't have to only be a string, we can even hash numbers, or objects then we need an algorithm to generate a hash code number for our needs from an object, taking `class Person` object as an example, our hash code can be a combination of the `strinngToNummber(name) + age`.
 
@@ -79,7 +79,7 @@ Buckets are storage that we need to store our elements. Simply it's an array. Fr
 
 To get a value using a key, we put each entry inside a bucket as a Node item, which hold both the key and the value. To retrieve the value we hash a key, we find the bucket number, if the bucket is not empty then we go to that bucket we compare if the Node's key in there is the same key we have, and we retrieve the Node's value otherwise we return null.
 
-This is it, making this will result in a hash table with `search`, `set` and `get` which have the complexity `O(1)`
+This is it, making this will result in a hash table with `search`, `set` and `get`.
 
 What if we found the hash code, but also the key value is the same as what we already have in the bucket. We check if it's the same item by comparing the key, then we overwrite it with our new item. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have Nodes with only keys and no values.
 
@@ -121,7 +121,7 @@ Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 th
 
 ### Growth of a hash table
 
-Let's talk about the operation which require complexity `O(n)`. Which is the growth of our buckets, we don't have infinite memory we can't have infinite amount of buckets. We need to start somewhere but starting too big is also a waste of memory if we're only going to have a hash map that have `"Bryan"` in it. So to deal with this issue we start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
+Let's talk the growth of our buckets. We don't have infinite memory we can't have infinite amount of buckets. We need to start somewhere but starting too big is also a waste of memory if we're only going to have a hash map that have `"Bryan"` in it. So to deal with this issue we start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
 
 <div class="lesson-notes lesson-notes--tips" markdown="1">
   Most programming languages start with the default size of `16` because it's a power of 2, which help with some techniques for performance that require bit manipulation for indexes. But for this example, we will be using a starting size of 10.
