@@ -157,6 +157,9 @@ The Growth of our HashMap has the complexity of `O(n)` at all times.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
+  #### Self restriction and limitation
+
   Before we get started we need to lay down some ground rules. As we all know JavaScript is a dynamic language the restriction we have in other languages does not exist in JavaScript for example if you create an array of size `16` to be your buckets size, nothing stopping you from storing items at index `500`. This defeats the purpose we are trying to demonstrate so we need to put some self restriction to work around this.
 
   Firstly: When you create a function that takes a hash code value and returns the bucket index use this snippet before the function returns to make sure it's accessing inbound array indexes only.
@@ -168,10 +171,10 @@ The Growth of our HashMap has the complexity of `O(n)` at all times.
 
   Secondly: Inside the class DO NOT use Objects to store your key value pairs, And DO NOT use the array method `push` to insert your nodes into the buckets, always use indexes.
 
-  Now comes the time for you to create a working HashMap! Start by Creating a HashMap class or factory function, up to you.
 
-  Create the following methods:
+  #### Time to create a real HashMap
 
+  1. Start by Creating a HashMap class or factory function, up to you. Then procceed to Create the following methods:
   1. `hash` takes a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing function, it is up to you if you want to do a research to find a really good hashing function but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
   1. `set` takes two arguments, the first is a key and the second is a value that is assigned to this key. Remember to grow your buckets size when it need to using the `load factor` and `capacity`.
   1. `get` takes one argument as a key and returns the value that is assigned to this key.
@@ -185,7 +188,9 @@ The Growth of our HashMap has the complexity of `O(n)` at all times.
 
   Remember that a hash map does not preserve insertion order when you are retrieving your arrays data it is normal and expected for keys and values to appear out of the order you inserted them in.
 
-  Bonus Assignment: Create a class `HashSet` that behaves the same as a `HashMap` but only contains `keys` with no `values`.
+  #### Extra Credit
+
+  - Create a class `HashSet` that behaves the same as a `HashMap` but only contains `keys` with no `values`.
 </div>
 
 ### Additional resources
