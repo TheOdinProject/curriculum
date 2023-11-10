@@ -75,9 +75,11 @@ You might be thinking, wouldn't it be just better to save the whole name as a ha
 
 ### Collisions
 
-We have another problem that we need to track down, Collisions. A collision means two different values generating the exact same hash code.
+We have another problem that we need to track down. Collisions. A collision means two different values generating the exact same hash code, and since they have the same hash code they need to land in the same exact bucket.
 
-Let's take an example: hashing the name "Carlos" and the name "Clarso" will generate the same hash code. That is because the letters in both names are the same, just arranged differently. There is no way to eliminate collisions entirely, but we try to minimize them as much as possible, turn out we can rework our `stringToNumber` function so that it can give us unique hash codes which depends on where the letter appear in the name using an algorithm we can work on this.
+Let's take an example: hashing the name "Carlos" and the name "Clarso" will generate the same hash code. That is because the letters in both names are the same, just arranged differently. There is no way to eliminate collisions entirely, but we try to minimize them as much as possible.
+
+Turn out we can rework our `stringToNumber` function so that it can give us unique hash codes which depends on where the letter appear in the name using an algorithm we can work on this.
 
 ```javascript
 function stringToNumber(string) {
@@ -89,7 +91,9 @@ function stringToNumber(string) {
 }
 ```
 
-With our new function we will have different hash codes for the names "Carlos" and "Clarso" that is because even so both names have the same letters, some of the letters appear in different places. We take advantage of that by multiplying the letter code by the index of where that letter appeared.
+With our new function we will have different hash codes for the names "Carlos" and "Clarso" that is because even so both names have the same letters, some of the letters appear in different locations. We take advantage of that by multiplying the letter code by the index of where that letter appeared.
+
+Even tho we reworked our hash function, there are some times collisions still especially that we have a finite amount of buckets. That is where `Linked Lists` becomes useful. If each node inside the bucket is also a Linked List, Then we simply look for bucket `508` if it's empty we insert the head of Linked List node being, If a Node head exists in a bucket we simply follow that Linked List to add to the end of it.
 
 You do not need to write your own hash functions, but understanding how they work is important. Writing a hash function is art and there are many ways to generate hashes with techniques that languages adopted over the years. Such as using prime numbers to multiply the index with etc..
 
@@ -103,7 +107,6 @@ To get a value using a key, we simply have each entry inside a bucket as a Node 
 
 This is simply it, making this will result in a hash table with `search`, `set` and `add` which have the complexity O(1)
 
-What about collisions? That is where Linked Lists becomes useful. If each node inside the bucket is also a Linked List, Then we simply look for bucket `508` if it's empty we insert the head of Linked List node being, If a Node head exists in a bucket we simply follow that Linked List to add to the end of it.
 
 What if we found the hash code, but also the key value is the same as what we already have in the bucket. For each Linked List Node, we check if it's the same item by comparing the key, then we overwrite it with our new item. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have nodes with only keys and no values.
 
@@ -117,20 +120,20 @@ You probably understand by this point why we must write a good hashing function 
 
 ### Growth of a hash table
 
-Let's talk about the operation which require complexity `O(n)`. Which is the growth of our buckets, we don't have infinite memory we can't have infinite amount of buckets. We need to start somewhere but starting too big is also waste of memory if we're only going to have a hash map that have "Bryan" in it. So to deal with this issue we simply start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
+Let's talk about the operation which require complexity `O(n)`. Which is the growth of our buckets, we don't have infinite memory we can't have infinite amount of buckets. We need to start somewhere but starting too big is also a waste of memory if we're only going to have a hash map that have `"Bryan"` in it. So to deal with this issue we simply start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
 
 <div class="lesson-notes lesson-notes--tips" markdown="1">
-  Most programming languages start with the default size of `16` because it's a power of 2, which help with some techniques for performance that require some bit manipulation for indexes. But for this example, we will be using a starting size of 10.
+  Most programming languages start with the default size of `16` because it's a power of 2, which help with some techniques for performance that require bit manipulation for indexes. But for this example, we will be using a starting size of 10.
 </div>
 
-How are we going to insert into those buckets when our hash function generates big numbers like 20353924? We simply make use of the modulo (%) operation `given any number modulo by 10 we will get a number in between 0 and 9`. For example, to find the bucket "Manon" going to land in, we do the following:
+How are we going to insert into those buckets when our hash function generates big numbers like 20353924? We simply make use of the modulo (%) operation `given any number modulo by 10 we will get a number in between 0 and 9`. For example, If are we to find where the value `"Manon"` gonna land, in what bucket, then we do the following:
 ![hashing using hash code and modular operation example](./project_hash_map/imgs/01.png)
 
 <div class="lesson-notes lesson-notes--tips" markdown="1">
   Duplicated hash code is known as collision, a collision happens when a hash function returns the same bucket location for two different keys
 </div>
 
-If we keep adding nodes into our buckets then the buckets will start filling up, but what is more important is we know for a fact that if almost all buckets filled up then some buckets will be guaranteed to have collisions in them. Remember we don't want collisions, in a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new array that is double the size of the old array, and we retrieve all nodes from the old array (buckets) and insert them into the new array (buckets).
+If we keep adding nodes into our buckets then the buckets will start filling up, but what is more important is we know for a fact that if almost all buckets guaranteed that some buckets will have collisions in them, It is Mathematically impossible not to. Remember we don't want collisions, in a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new array that is double the size of the old array, and we retrieve all nodes from the old array (buckets) and insert them into the new array (buckets).
 
 ### When do we know that it's time to grow our buckets size
 
