@@ -1,6 +1,6 @@
 ### Introduction
 
-One of the most used data structure across all languages is a Hash Table, aka Hash Map. If you worked before with JavaScript `Objects` (Which you should have), `Set`, and `Map` then you are already familiar with a hash table, but how do they work exactly under the hood, how can we save values using strings and symbols as keys and then retrieving those values.
+One of the most used data structure across all languages is a Hash Table, aka Hash Map. If you worked before with JavaScript `Objects` , `Set`, and `Map` then you are already familiar with a hash table, but how do they work exactly under the hood, how can we save values using strings and symbols as keys and then retrieving those values.
 
 In this project you will learn how it all works and you will implement your own Hash Map class! To start we need to learn few concepts one of which is a hash code, what does it mean, and how to use it. Let us get started and hope you are exited to finally know what is happening with an object when you put keys and values in them.
 
