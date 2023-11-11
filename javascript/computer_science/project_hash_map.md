@@ -159,7 +159,7 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
 
 ### Computation complexity
 
-A HashMap is very efficient in it's insertion, retrieving and removing operations. That is because we use array indexes to do those operations. Just like working with Array indexes, a HashMap has an average case complexity of `O(1)` for the following methods:
+A HashMap is very efficient in it's insertion, retrieving and removing operations. That is because we use array indexes to do those operations. A HashMap has an average case complexity of `O(1)` for the following methods:
 - Insertion
 - Retrieving
 - Deletion
