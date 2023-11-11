@@ -127,7 +127,7 @@ Even tho we reworked our hash function, there is always the possibility for coll
 
 #### Dealing with collisions
 
-Enters `Linked Lists`. If each `Node` inside the bucket is also a Linked List, Then we look for bucket `508` if it's empty we insert the head of Linked List node being, If a Node head exists in a bucket we follow that Linked List to add to the end of it.
+Enters `Linked Lists`. If each `Node` inside the bucket is also a Linked List, Then we look for bucket `508` if it's empty we insert the head of Linked List, If a Node head exists in a bucket we follow that Linked List to add to the end of it.
 
 You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible.
 
