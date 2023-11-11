@@ -135,18 +135,15 @@ Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 th
 
 ### Growth of a hash table
 
-Let's talk the growth of our buckets. We don't have infinite memory we can't have infinite amount of buckets. We need to start somewhere but starting too big is also a waste of memory if we're only going to have a hash map that have `"Bryan"` in it. So to deal with this issue we start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
+Let's talk about the growth of our buckets. We don't have infinite memory we can't have infinite amount of buckets. We need to start somewhere but starting too big is also a waste of memory if we're only going to have a hash map that have `"Bryan"` in it. So to deal with this issue we start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
   Most programming languages start with the default size of `16` because it's a power of 2, which help with some techniques for performance that require bit manipulation for indexes. But for this example, we will be using a starting size of 10.
 </div>
 
-How are we going to insert into those buckets when our hash function generates big numbers like 20353924? We make use of the modulo (%) operation `given any number modulo by 10 we will get a number in between 0 and 9`. For example, If are we to find where the value `"Manon"` gonna land, in what bucket, then we do the following:
+How are we going to insert into those buckets when our hash function generates big numbers like `20353924`? We make use of the modulo `%` operation `given any number modulo by 10 we will get a number between 0 and 9`.
+For example, If we are to find where the value `"Manon"` gonna land, in what bucket, then we do the following:
 ![hashing using hash code and modular operation example](./project_hash_map/imgs/01.png)
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-  Duplicated hash code is known as collision, a collision happens when a hash function returns the same bucket location for two different keys
-</div>
 
 If we keep adding nodes into our buckets then the buckets will start filling up, but what is more important is we know for a fact that if almost all buckets guaranteed that some buckets will have collisions in them, It is Mathematically impossible not to. Remember we don't want collisions, in a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new array that is double the size of the old array, and we retrieve all nodes from the old array (buckets) and insert them into the new array (buckets).
 
@@ -211,7 +208,7 @@ The Growth of our HashMap has the complexity of `O(n)` at all times.
 
   1. `values` returns an array containing all the values.
 
-  1. `entries` returns an array that contains each a `key, value` pairs. Example: `[[firstKey, firstValue], [secondKey, secondValu]]`
+  1. `entries` returns an array that contains each a `key, value` pairs. Example: `[[firstKey, firstValue], [secondKey, secondValue]]`
 
   Remember that a hash map does not preserve insertion order when you are retrieving your arrays data it is normal and expected for keys and values to appear out of the order you inserted them in.
 
