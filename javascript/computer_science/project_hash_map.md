@@ -101,8 +101,7 @@ What if we found the hash code, but also the key value is the same as what we al
 
 We have another problem that we need to track down. Collisions. A collision means two different values generating the exact same hash code, and since they have the same hash code they need to land in the same exact bucket.
 
-Let's take an example: hashing the name `"Sara"` and the name `"raSa"` will generate the same hash code. That is because the letters in both names are the same, just arranged differently. There is no way to eliminate collisions entirely, but we try to minimize them as much as possible.
-
+Let's take an example: hashing the name `"Sara"` and the name `"raSa"` will generate the same hash code. That is because the letters in both names are the same, just arranged differently.
 Turn out we can rework our `stringToNumber` function so that it can give us unique hash codes which depends on where the letter appear in the name using an algorithm.
 
 ```javascript
@@ -124,7 +123,11 @@ With our new function we will have different hash codes for the names `"Sara"` a
   Notice the usage of prime number. We could have chosen any number we wanted, but prime numbers are even better to introduce less hash codes that are divisible by the same bucket length which will make collisions less likely to happen.
 </div>
 
-Even tho we reworked our hash function, there is always the possibility for collisions, especially that we have a finite amount of buckets. That is where `Linked Lists` becomes useful. If each `Node` inside the bucket is also a Linked List, Then we look for bucket `508` if it's empty we insert the head of Linked List node being, If a Node head exists in a bucket we follow that Linked List to add to the end of it.
+Even tho we reworked our hash function, there is always the possibility for collisions, especially that we have a finite amount of buckets. There is no way to eliminate collisions entirely, but we try to minimize them as much as possible.
+
+#### Dealing with collisions
+
+Enters `Linked Lists`. If each `Node` inside the bucket is also a Linked List, Then we look for bucket `508` if it's empty we insert the head of Linked List node being, If a Node head exists in a bucket we follow that Linked List to add to the end of it.
 
 You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible.
 
