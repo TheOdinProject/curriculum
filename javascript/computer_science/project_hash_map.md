@@ -129,14 +129,14 @@ Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 th
 
 Let's talk the growth of our buckets. We don't have infinite memory we can't have infinite amount of buckets. We need to start somewhere but starting too big is also a waste of memory if we're only going to have a hash map that have `"Bryan"` in it. So to deal with this issue we start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
 
-<div class="lesson-note lesson-note--tips" markdown="1">
+<div class="lesson-note lesson-note--tip" markdown="1">
   Most programming languages start with the default size of `16` because it's a power of 2, which help with some techniques for performance that require bit manipulation for indexes. But for this example, we will be using a starting size of 10.
 </div>
 
 How are we going to insert into those buckets when our hash function generates big numbers like 20353924? We make use of the modulo (%) operation `given any number modulo by 10 we will get a number in between 0 and 9`. For example, If are we to find where the value `"Manon"` gonna land, in what bucket, then we do the following:
 ![hashing using hash code and modular operation example](./project_hash_map/imgs/01.png)
 
-<div class="lesson-note lesson-note--tips" markdown="1">
+<div class="lesson-note lesson-note--tip" markdown="1">
   Duplicated hash code is known as collision, a collision happens when a hash function returns the same bucket location for two different keys
 </div>
 
