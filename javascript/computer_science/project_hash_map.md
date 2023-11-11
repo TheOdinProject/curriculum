@@ -129,9 +129,7 @@ Even tho we reworked our hash function, there is always the possibility for coll
 
 Enters `Linked Lists`. If each `Node` inside the bucket is also a Linked List, Then we look for bucket `508` if it's empty we insert the head of Linked List, If a Node head exists in a bucket we follow that Linked List to add to the end of it.
 
-You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible.
-
-Most likely you will not be writing your own hash functions, as most languages have it built int. But understanding how hash functions work is important.
+You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible. Most likely you will not be writing your own hash functions, as most languages have it built in. But understanding how hash functions work is important.
 
 Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 that explains the concept shortly with visualization
 
