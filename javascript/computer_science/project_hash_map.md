@@ -118,7 +118,11 @@ function stringToNumber(string) {
 }
 ```
 
-With our new function we will have different hash codes for the names `"Sara"` and `"Rasa"` that is because even so both names have the same letters, some of the letters appear in different locations. We take advantage of that by multiplying the letter code by the index of where that letter appeared.
+With our new function we will have different hash codes for the names `"Sara"` and `"raSa"` that is because even if both names have the same letters, some of the letters appear in different locations. The hash code started to change because we are multiplying the old hash every new iteration and then adding the letter code.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+  Notice the usage of prime number. We could have chosen any number we wanted, but prime numbers are even better to introduce less hash codes that are divisible by the same bucket length which will make collisions less likely to happen.
+</div>
 
 Even tho we reworked our hash function, there is always the possibility for collisions, especially that we have a finite amount of buckets. That is where `Linked Lists` becomes useful. If each `Node` inside the bucket is also a Linked List, Then we look for bucket `508` if it's empty we insert the head of Linked List node being, If a Node head exists in a bucket we follow that Linked List to add to the end of it.
 
