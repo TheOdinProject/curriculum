@@ -145,7 +145,9 @@ How are we going to insert into those buckets when our hash function generates b
 For example, If we are to find where the value `"Manon"` gonna land, in what bucket, then we do the following:
 ![hashing using hash code and modular operation example](./project_hash_map/imgs/01.png)
 
-If we keep adding nodes into our buckets then the buckets will start filling up, but what is more important is we know for a fact that if almost all buckets guaranteed that some buckets will have collisions in them, It is Mathematically impossible not to. Remember we don't want collisions, in a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new array that is double the size of the old array, and we retrieve all nodes from the old array (buckets) and insert them into the new array (buckets).
+If we keep adding nodes into our buckets then the buckets will start filling up, but what is more important is we know for a fact that if almost all buckets have calues in them, then it is guaranteed that some buckets will have collisions, It is Mathematically impossible not to. 
+
+Remember we don't want collisions, in a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new buckets list that is double the size of the old buckets list, then we retrieve all nodes from the old buckets and insert them into the new buckets.
 
 ### When do we know that it's time to grow our buckets size
 
