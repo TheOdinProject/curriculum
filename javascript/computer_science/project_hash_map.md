@@ -2,7 +2,7 @@
 
 One of the most used data structure across all languages is a Hash Table, aka Hash Map. If you worked before with JavaScript Object Literal `{}`, `Set`, and `Map` then you are already familiar with a hash table. But how do they work exactly, how can we save values using strings and symbols as keys and then retrieving those values using the same keys.
 
-In this project you will learn how it all works and you will implement your own Hash Map! To start we need to learn few concepts one of which is a hash code, what does it mean, and how to use it. Let us get started and hope you are exited to finally know what is happening with an object when you put keys and values in them.
+In this project, you will learn how it all works, and you will implement your own Hash Map! To start we need to learn a few concepts, one of which is a hash code, what does it mean, and how to use it. Let us get started and hope you are exited to finally know what is happening with an object when you put keys and values in them.
 
 ### What is a hash code
 
@@ -17,7 +17,7 @@ function hash(name) {
 We created our first basic hashing function, it takes a name and returns the first letter of that name.
 You might be familiar with this concept from your cipher exercise earlier in foundation, but there is a key difference between hashing and ciphering (encryption), which is reversibility.
 
-Hashing is a one-way process. Here is an example given a name, you can get a hash out of it, but given a hash, you cannot revert it back to a name. If you have a name `"Carlos"` we can hash it to `"C"`. But it will not be possible to reverse it from `"C"` back to it's original form. You cannot know if it is `"Carlos"`, maybe it's `"Carla"` or `"Carrot"` we don't know. This is very good for security also, given a password you can save the hash of that password, but if someone steals your hashes they cannot know the original passwords since they are unable to reverse the hash back to the password. We are not going to dive deeper into hashing passwords, this is a subject for another lesson.
+Hashing is a one-way process. Here is an example given a name, you can get a hash out of it, but given a hash, you cannot revert it back to a name. If you have a name `"Carlos"` we can hash it to `"C"`. But it will not be possible to reverse it from `"C"` back to its original form. You cannot know if it is `"Carlos"`, maybe it's `"Carla"` or `"Carrot"` we don't know. This is very good for security also, given a password you can save the hash of that password, but if someone steals your hashes they cannot know the original passwords since they are unable to reverse the hash back to the password. We are not going to dive deeper into hashing passwords, this is a subject for another lesson.
 
 ### Use cases
 
@@ -67,32 +67,32 @@ function hash(name, surname) {
 }
 ```
 
-Using this technique we don't only take the first letters into considiration, now we take the whole name and convert it into numbers.
+Using this technique we don't only take the first letters into consideration, now we take the whole name and convert it into numbers.
 
 You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true, this would make it unique for each name, but there are other reasons that we have chosen a number:
 
 - We do not save the hash code, the hash code is a calculation to find out which bucket (storage) our value will have to go to. Think about it as a locker number for example.
 
-- We save computation time. If we are to find where our hash is stored it would be much faster and easier for a computer to compare two numbers rather than a string (or objects) to find the bucket where we have to store our elements (you will learn more about buckets shortly). Finding a bucket using a number would allow us to use that number as our index.
+- We save computation time. If we are to find where our hash is stored, it would be much faster and easier for a computer to compare two numbers rather than a string (or objects) to find the bucket where we have to store our elements (you will learn more about buckets shortly). Finding a bucket using a number would allow us to use that number as our index.
 
 - By using number as hash code, we can have hash codes that is uniform across variables where it doesn't have to only be a string, we can even hash numbers, or objects then we need an algorithm to generate a hash code number for our needs from an object, taking `class Person` object as an example, our hash code can be a combination of `strinngToNummber(name) + age`.
 
 ### Buckets
 
-Buckets are storage that we need to store our elements. Simply it's an array. From now on we will be referring to our storage as buckets. We have a set of buckets as our storage, since our hash function now produce a number we are going to find out which bucket we gonna use for storage using that number as index. We receive a key `"Fred"` We hash it using our hash function it produce the number `508` we look which Bucket has index `508` we put `"Fred"` in the bucket. This is the simple form, but there are more mechanics that we need to deal with.
+Buckets are storage that we need to store our elements. Simply, it's an array. From now on, we will be referring to our storage as buckets. We have a set of buckets as our storage, since our hash function now produce a number we are going to find out which bucket we gonna use for storage using that number as index. We receive a key `"Fred"` We hash it using our hash function, it produces the number `508` we look which Bucket has index `508` we put `"Fred"` in the bucket. This is the simple form, but there are more mechanics that we need to deal with.
 
-To get a value using a key, we put each entry inside a bucket as a `Node` item, which hold both the key and the value. To retrieve the value we hash a key, we find the bucket number, if the bucket is not empty then we go to that bucket we compare if the Node's key is the same key that is already in the bucket, if it is then retrieve the Node's value otherwise we return null.
+To get a value using a key, we put each entry inside a bucket as a `Node` item, which hold both the key and the value. To retrieve the value we hash a key, we find the bucket number, if the bucket is not empty then we go to that bucket we compare if the Node's key is the same key that is already in the bucket, if it is then we retrieve the Node's value otherwise we return null.
 
-Maybe you are wondering, why are we comparing the keys if we already found the hash code of that bucket? that is because remember, hash code is just the location, different items might generate the same hash code. We need to make sure the key is the same by comparing both keys that is inside the bucket.
+Maybe you are wondering, why are we comparing the keys if we already found the hash code of that bucket? That is because remember, hash code is just the location, different items might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
 
 This is it, making this will result in a hash table with `search`, `set` and `get`.
 
 What if we found the hash code, but also the key value is the same as what we already have in the bucket. We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have Nodes with only keys and no values.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
-  A Hash Map does not guarantee insertion order because of the buckets indexing nature of hash coding. That means if you are to retrieve the array of keys and values they will not be in order of when you inserted them.
+  A Hash Map does not guarantee insertion order because of the buckets indexing nature of hash coding. That means if you are to retrieve the array of keys and values, they will not be in order of when you inserted them.
 
-  For example if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]`
+  For example, if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]`
 
   If iterating over the hash map frequently is your goal, then this data structure is not the right choice for the job, a simple array would be better.
 </div>
