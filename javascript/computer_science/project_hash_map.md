@@ -102,7 +102,7 @@ What if we found the hash code, but also the key value is the same as what we al
 We have another problem that we need to track down. Collisions. A collision means two different values generating the exact same hash code, and since they have the same hash code they need to land in the same exact bucket.
 
 Let's take an example: hashing the name `"Sara"` and the name `"raSa"` will generate the same hash code. That is because the letters in both names are the same, just arranged differently.
-Turn out we can rework our `stringToNumber` function so that it can give us unique hash codes which depends on where the letter appear in the name using an algorithm.
+Turn out, we can rework our `stringToNumber` function so that it can give us unique hash codes which depends on where the letter appear in the name using an algorithm.
 
 ```javascript
 function stringToNumber(string) {
@@ -120,7 +120,7 @@ function stringToNumber(string) {
 With our new function we will have different hash codes for the names `"Sara"` and `"raSa"` that is because even if both names have the same letters, some of the letters appear in different locations. The hash code started to change because we are multiplying the old hash every new iteration and then adding the letter code.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
-  Notice the usage of prime number. We could have chosen any number we wanted, but prime numbers are even better to introduce less hash codes that are divisible by the same bucket length which will make collisions less likely to happen.
+  Notice the usage of prime number. We could have chosen any number we wanted, but prime numbers are even better to introduce less hash codes that are divisible by the same bucket length, which will make collisions less likely to happen.
 </div>
 
 Even tho we reworked our hash function, there is always the possibility for collisions, especially that we have a finite amount of buckets. There is no way to eliminate collisions entirely, but we try to minimize them as much as possible.
@@ -135,17 +135,17 @@ Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 th
 
 ### Growth of a hash table
 
-Let's talk about the growth of our buckets. We don't have infinite memory we can't have infinite amount of buckets. We need to start somewhere but starting too big is also a waste of memory if we're only going to have a hash map that have `"Bryan"` in it. So to deal with this issue we start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
+Let's talk about the growth of our buckets. We don't have infinite memory, we can't have infinite amount of buckets. We need to start somewhere but starting too big is also a waste of memory if we're only going to have a hash map that have `"Bryan"` in it. So to deal with this issue we start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
   Most programming languages start with the default size of `16` because it's a power of 2, which help with some techniques for performance that require bit manipulation for indexes. But for this example, we will be using a starting size of 10.
 </div>
 
 How are we going to insert into those buckets when our hash function generates big numbers like `20353924`? We make use of the modulo `%` operation `given any number modulo by 10 we will get a number between 0 and 9`.
-For example, If we are to find where the value `"Manon"` gonna land, in what bucket, then we do the following:
+For example, If we are to find where the value `"Manon"` going to land, in what bucket, then we do the following:
 ![hashing using hash code and modular operation example](./project_hash_map/imgs/01.png)
 
-If we keep adding nodes into our buckets then the buckets will start filling up, but what is more important is we know for a fact that if almost all buckets have calues in them, then it is guaranteed that some buckets will have collisions, It is Mathematically impossible not to. 
+If we keep adding nodes into our buckets then the buckets will start filling up, but what is more important is we know for a fact that if almost all buckets have items in them, then it is guaranteed that some buckets will have collisions, It is Mathematically impossible not to.
 
 Remember we don't want collisions, in a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new buckets list that is double the size of the old buckets list, then we retrieve all nodes from the old buckets and insert them into the new buckets.
 
@@ -159,7 +159,7 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
 
 ### Computation complexity
 
-A HashMap is very efficient in it's insertion, retrieving and removing operations. That is because we use array indexes to do those operations. A HashMap has an average case complexity of `O(1)` for the following methods:
+A HashMap is very efficient in its insertion, retrieving and removing operations. That is because we use array indexes to do those operations. A HashMap has an average case complexity of `O(1)` for the following methods:
 - Insertion
 - Retrieving
 - Deletion
@@ -174,9 +174,9 @@ The Growth of our HashMap has the complexity of `O(n)` at all times.
 
 #### Self restriction and limitation
 
-  Before we get started we need to lay down some ground rules. As we all know JavaScript is a dynamic language the restriction we have in other languages does not exist in JavaScript for example if you create an array of size `16` to be your buckets size, nothing stopping you from storing items at index `500`. This defeats the purpose we are trying to demonstrate so we need to put some self restriction to work around this.
+  Before we get started, we need to lay down some ground rules. As we all know JavaScript is a dynamic language the restriction we have in other languages does not exist in JavaScript for example if you create an array of size `16` to be your buckets size, nothing stopping you from storing items at index `500`. This defeats the purpose we are trying to demonstrate, so we need to put some self restriction to work around this.
 
-  1. When you create a function that takes a hash code value and returns the bucket index use this snippet before the function returns to make sure it's accessing inbound array indexes only.
+  1. When you create a function that takes a hash code value and returns the bucket index, use this snippet before the function returns to make sure it's accessing inbound array indexes only.
 
       ```javascript
       if (index < 0 || index >= buckets.length) {
@@ -188,13 +188,13 @@ The Growth of our HashMap has the complexity of `O(n)` at all times.
 
 #### Time to create a real HashMap
 
-  1. Start by Creating a HashMap class or factory function, up to you. Then procceed to Create the following methods:
+  1. Start by creating a HashMap class or factory function, up to you. Then proceed to create the following methods:
 
-  1. `hash` takes a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing function, it is up to you if you want to do a research to find a really good hashing function but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
+  1. `hash` takes a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing function, it is up to you if you want to do a research to find a good hashing function but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
 
   1. `set` takes two arguments, the first is a key and the second is a value that is assigned to this key.
 
-     - Remember to grow your buckets size when it needs to using the `load factor` and `capacity`.
+     - Remember to grow your buckets size when it needs to, by calculating the `load factor` and `capacity`.
 
   1. `get` takes one argument as a key and returns the value that is assigned to this key.
 
@@ -212,7 +212,7 @@ The Growth of our HashMap has the complexity of `O(n)` at all times.
 
   1. `entries` returns an array that contains each a `key, value` pairs. Example: `[[firstKey, firstValue], [secondKey, secondValue]]`
 
-  Remember that a hash map does not preserve insertion order when you are retrieving your arrays data it is normal and expected for keys and values to appear out of the order you inserted them in.
+  Remember that a hash map does not preserve insertion order when you are retrieving your arrays' data, it is normal and expected for keys and values to appear out of the order you inserted them in.
 
 #### Extra Credit
 
@@ -222,4 +222,4 @@ The Growth of our HashMap has the complexity of `O(n)` at all times.
 
 ### Additional resources
 
-- Check out [What are Hash Functions and How to choose a good Hash Function](https://www.geeksforgeeks.org/what-are-hash-functions-and-how-to-choose-a-good-hash-function) for more technical overview of a hash function if you are intersted in that.
+- Check out [What are Hash Functions and How to choose a good Hash Function](https://www.geeksforgeeks.org/what-are-hash-functions-and-how-to-choose-a-good-hash-function) for more technical overview of a hash function if you are interested in that.
