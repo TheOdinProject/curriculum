@@ -149,7 +149,7 @@ If we keep adding nodes into our buckets then the buckets will start filling up,
 
 Remember we don't want collisions, in a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new buckets list that is double the size of the old buckets list, then we retrieve all nodes from the old buckets and insert them into the new buckets.
 
-### When do we know that it's time to grow our buckets size
+#### When do we know that it's time to grow our buckets size
 
 To deal with this, our Hash Map class need to keep track of two new fields, the `capacity` and the `load factor`.
 
