@@ -68,7 +68,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 <div class="lesson-note" markdown="1">
 The real value of the sites mentioned above comes from engaging with them productively. A popular recommendation around the internet is to just "go grind Leetcode." As you're aware of by now, common algorithms typically have a "trick" or a specific set of steps in order to get to a solution. When you are preparing to interview, the value and utility of wrestling with a problem for hours/days is little. It is more productive to search for the algorithm/pseudocode, then practice problems that require awareness of that algorithm.
 
-This would be like being tasked with getting the length of a Hypotenuse in a triangle but having no awareness of the Pythagorean theorem. Without awareness of that theorom, that calculation can feel impossible. But just knowing the "trick" makes getting the result easy.
+This would be like being tasked with getting the length of a Hypotenuse in a triangle but having no awareness of the Pythagorean theorem. Without awareness of that theorem, that calculation can feel impossible. But just knowing the "trick" makes getting the result easy.
 
 A more practical programming example:
 
