@@ -194,11 +194,11 @@ console.log({
 // logs { discordName: "@josh", reputation: 2 }
 ~~~
 
-We've introduced a new metric for a new user, a reputation, and in our returned object, added two new functions to control this reputation count. Sounds about right? But notice that we did not return the reputation count, *itself*. Instead, we used the power of closure to let it remain hidden, as a detail of implementation, and offered a function to check its value at any time and another one to increase its value by one. This is what we call a "private" variable.
+We’ve introduced a new metric for a new user - a reputation. Notice that the object we return in the factory function does not contain the `reputation` variable itself, nor any copy of its value. Instead, the returned object contains two functions - one that reads the value of the `reputation` variable, and another that increases its value by one. The `reputation` variable is what we call a "private" variable, since we cannot access the variable directly in the object instance - it can only be accessed via the closures we defined.
 
 Concerning factory functions, a private variable or function uses closures to create smaller, dedicated variables and functions within a factory function itself - things that we do not *need* to return in the object itself. This way we can create neater code, without polluting the returned object with unnecessary variables that we create while creating the object itself. Often, you do not need every single function within a factory to be returned with the object, or expose an internal variable. You can use them privately since the property of closures allows you to do so.
 
-In this case, we did not need control of `reputation` itself. To avoid foot guns, like accidentally setting the reputation to `-18000`, we simply expose the necessary details in the form of `getReputation` and `giveReputation`.
+In this case, we did not need control of the `reputation` variable itself. To avoid foot guns, like accidentally setting the reputation to `-18000`, we simply expose the necessary details in the form of `getReputation` and `giveReputation`.
 
 ### Prototypal inheritance with factories
 
