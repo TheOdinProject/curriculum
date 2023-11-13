@@ -18,8 +18,8 @@ Ruby is a big language with lots of syntax, so we've broken the concepts up into
 * In the first section, you'll learn all about the basics of Ruby along with some classic programming basics.
 * In the second section, you'll learn about object-oriented programming, which will show you how to cleanly and neatly organize your code into reusable objects.
 * In the third section, you'll dive into some basic computer science, where you'll learn about recursion and common data structures.
-* In the fourth section, you'll learn the basics of test-driven development.
-* In the fifth section, you'll learn some more advanced features of Git and the Git workflow used by professional developers.
+* In the fourth section, you'll learn some more advanced features of Git and the Git workflow used by professional developers.
+* In the fifth section, you'll learn the basics of test-driven development.
 * In the sixth and final section, you'll tie everything together by building a fully fledged chess game.
 
 ### Assignment
