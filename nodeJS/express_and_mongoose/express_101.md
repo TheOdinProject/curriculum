@@ -82,11 +82,11 @@ As you work through this tutorial, make sure to put the `node_modules` folder in
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='#middleware'>What is middleware?</a>
-- <a class='knowledge-check-link' href='#req'>What is the `req` object?</a>
-- <a class='knowledge-check-link' href='#res'>What is the `res` object?</a>
-- <a class='knowledge-check-link' href='#next'>Why is `next` important?</a>
-- <a class='knowledge-check-link' href='#app-use'>What does `app.use` do?</a>
+- [What is middleware?](#middleware)
+- [What is the `req` object?](#req)
+- [What is the `res` object?](#res)
+- [Why is `next` important?](#next)
+- [What does `app.use` do?](#app-use)
 
 ### Additional resources
 

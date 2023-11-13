@@ -53,17 +53,21 @@ Take your time going through the reading. There will be some review of the items
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. This beautiful [Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) covers everything you need to know. It will help reinforce concepts we've already touched on with some really fun and creative examples. Spend some time here, some of it should be review at this point, but the foundations here are important!
+
+1.  This beautiful [Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) covers everything you need to know. It will help reinforce concepts we've already touched on with some really fun and creative examples. Spend some time here, some of it should be review at this point, but the foundations here are important!
 2.  [Typical use cases of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox) is an MDN article that covers some more practical tips. Don't skip the interactive sections! Playing around with this stuff is how you learn it!
 3.  The [CSS Tricks "Guide to Flexbox"](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) is a classic. There isn't any new information for you here, but the images and examples are super helpful. This one is a great cheat sheet that you'll probably return to often. (Keep it handy for the practice exercises!)
-4.  Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (don't forget that the instructions are in the README). Do the exercises in the 'flex' directory in the order that they are listed. It may take you a while to get through all of them, and the difficulty ramps up as you progress. Stick with it! If you can get through all of them, then you will be in _really_ good shape moving forward.
-    -   01-flex-center
-    -   02-flex-header
-    -   03-flex-header-2
-    -   04-flex-information
-    -   05-flex-modal
-    -   06-flex-layout
-    -   07-flex-layout-2
+4.  Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `flex` directory. Review each README file prior to completing the following exercises in order:
+    - `01-flex-center`
+    - `02-flex-header`
+    - `03-flex-header-2`
+    - `04-flex-information`
+    - `05-flex-modal`
+    - `06-flex-layout`
+    - `07-flex-layout-2`
+
+    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
+
 </div>
 
 ### Knowledge check

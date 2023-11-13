@@ -2,7 +2,7 @@
 
 In this project, you'll get to spend some quality time with models.  We will be doing some data modeling and putting your active record knowledge to practice by building your own light weight Reddit clone.
 
-### Warmup: Thinking Data First
+### Warmup: Thinking data first
 
 The first step to building a good data model is usually not on the computer.  You'll want to take a minute and think through what you're going to need.  You may not really know everything when you first start, but mapping out an approach path is crucial to avoiding costly mistakes later.
 
@@ -40,7 +40,7 @@ Note: We'll include the `:id`, `:created_at` and `:updated_at` columns but you c
 
 Use whatever format feels best to you.
 
-### Data Model Task
+### Data model task
 
 For each of the following scenarios, write down the models, columns, validations and associations you might use to implement it.  Some of these are more difficult than others and you'll have to use a bit of creativity to infer which columns might need to be present for the scenario to make sense in the real world.
 
@@ -67,18 +67,18 @@ Speaking of the console, here are a few convenient shortcut commands you can use
 
 Feel free to use whatever you feel more comfortable with. We'll still refer to the full commands in the following lessons for clarity.
 
-### Your Task
+### Your task
 
 <div class="lesson-content__panel" markdown="1">
 
-#### Get Started
+#### Get started
 
 1. Just like in the warmup, plan out what data models you would need to allow users to be on the site (don't worry about login/logout or securing the passwords right now), to submit links ("posts"), and to comment on links.  Users do NOT need to be able to comment on comments... each comment refers to a Post.
 2. Generate a new rails app from the command line (`$ rails new micro-reddit`) and open it up.  We'll use the default SQLite3 database so you shouldn't have to change anything on that front.
 3. Generate your User model and fill out the migration to get the columns you want.
 4. Run the migration with `$ rails db:migrate`.  You can use `$ rails db:rollback` if you realize you forgot anything or just create a new migration for the correction (which might involve the `#add_column` `#remove_column` or `#change_column` commands).  See the [Rails API Documentation](http://api.rubyonrails.org/classes/ActiveRecord/Migration.html) for details on syntax and available methods.
 
-#### Playing with Validations
+#### Playing with validations
 
 1. In a new tab, open up the `$ rails console` (you may use `rails c` for short).  Try asking for all the users with `> User.all`.  You should get back an empty array (no users yet!).  Now create a blank new user and store it to a variable with `> u = User.new`.  This user has been created in the ether of Ruby's memory but hasn't been saved to the database yet.  Remember, if you'd used the `#create` method instead of the `#new` method, it would have just gone ahead and tried to save the new user right off the bat.  Instead, we now get to play with it.
 2. Check whether your new user is actually valid (e.g. will it save if we tried?).  `> u.valid?` will run all the validations.  It comes up `true`... surprise! We haven't written any validations so that's to be expected.  It's also a problem because we don't want to have users running around with blank usernames.
@@ -87,7 +87,7 @@ Feel free to use whatever you feel more comfortable with. We'll still refer to t
 5. How do we find out what went wrong?  Rails is helpful because it actually attaches error messages directly onto your user object when you fail validations so you can read into them with the `#errors` method.  Try out `> u2.errors` to see the errors or, better, `> u2.errors.full_messages` to return a nice friendly array of messages.  If you wrote custom messages into your validations, they will show up here as well.
 6. Create a user who will actually save with `> u3 = User.new(your_attributes_here)` and run the validations.  They should come up true.  Save your user with the `#save` method so you've got your first user in the database.
 
-#### Playing with Associations
+#### Playing with associations
 
 1. Create your Post model by referencing your data plan from the first step above, migrate the database, and add its validations.
 2. Test your validations from the console, remembering to reload or relaunch it between changes.
@@ -97,7 +97,7 @@ Feel free to use whatever you feel more comfortable with. We'll still refer to t
 6. Now build another post using the association to the user -- substitute `#new` with `#build` and run through the association instead -- `p2 = User.first.posts.build`.  Don't fill in any fields yet.  Examine the object that was created and you'll see that the ID field already got filled out for you, cool! This is a neat trick you'll learn about in the lesson on associations.
 7. Save your original new post `p1` so your user has officially written something.  Test that you can use the other side of the association by trying `> Post.first.user`, which should return the original User object whose ID you pointed to when building the post.  All has come full circle!
 
-#### Add in Commenting
+#### Add in commenting
 
 1. You've now got a User and a Post and they've been linked. Commenting will look quite similar to your Post model but will be related not just to the post who is its "parent" but also to the user who has authored it.  Set up the migration and migrate the database for your Comment model.
 2. As before, add validations into your model and test them out in the console (refresh it!).  Make sure you've required the two foreign keys (for posts and users) to be submitted, otherwise you could potentially have an orphan comment.  You should not be able to save an invalid Comment and be able to save a valid Comment.
@@ -114,7 +114,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * The [Rails API](http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html) has good documentation for these things, in addition to the Edge Guides you've already read.  Often it can be easier to search Google for the proper API page than navigating the site, e.g. "rails api has_many".

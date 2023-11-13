@@ -12,16 +12,16 @@ In the following sections, we'll go over the steps for setting up your environme
 
 In the next few lessons, we will walk through these installation steps together:
 
-* Installing a supported [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS).
-* Installing Google Chrome web browser.
-* Installing a code editor.
-* Creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using).
+- Installing a supported [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS).
+- Installing Google Chrome web browser.
+- Installing a code editor.
+- Creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using).
 
 At the end of the next lesson, you'll be up and running with many of the tools you need to write and run code! It may seem like a lot of steps, but we'll get through it as painlessly as possible together! If anything goes wrong, remember to use these steps:
 
-* Examine the terminal output for the actual error.
-* Google, Google, Google.
-* Never be afraid to [ask for help](https://discord.gg/fbFCkYabZB)!
+- Examine the terminal output for the actual error.
+- Google, Google, Google.
+- Never be afraid to [ask for help](https://discord.gg/fbFCkYabZB)!
 
 For Chromebook users, your OS choice has effectively been made for you. However, if your device [supports](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux) the Linux Beta, there are instructions in the next lesson on how to set this up on your device.
 
@@ -75,4 +75,4 @@ With that out of the way, we need to set up an appropriate development environme
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

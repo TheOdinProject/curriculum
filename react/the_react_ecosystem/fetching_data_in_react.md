@@ -74,17 +74,16 @@ To simulate a network error, scroll up to the previous code snippet and change t
 To fix this, we need to check for _something_ before Image component returns JSX. We'll call it: `error`.
 
 ~~~jsx
-  if (error) return <p>A network error was encountered</p>
+if (error) return <p>A network error was encountered</p>
 
-  return (
-    imageURL && (
-      <>
-        <h1>An image</h1>
-        <img src={imageURL} alt={"placeholder text"} />
-      </>
-    )
-  );
-};
+return (
+  imageURL && (
+    <>
+      <h1>An image</h1>
+      <img src={imageURL} alt={"placeholder text"} />
+    </>
+  )
+);
 ~~~
 
 To set this `error`, we'll add it to the component's state.
@@ -243,12 +242,12 @@ You've already tasted the complexity of data fetching in this lesson. Each reque
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#using-fetch-in-react-components">How can you fetch data from an API in React?</a>
-- <a class="knowledge-check-link" href="#handling-errors">Why should you manually throw errors in fetch requests?</a>
-- <a class="knowledge-check-link" href="#managing-multiple-fetch-requests">How can you avoid waterfalling requests?</a>
+- [How can you fetch data from an API in React?](#using-fetch-in-react-components)
+- [Why should you manually throw errors in fetch requests?](#handling-errors)
+- [How can you avoid waterfalling requests?](#managing-multiple-fetch-requests)
 
-## Additional resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- [TanStack Query documentation](https://tanstack.com/query/latest/docs/react/overview) is a library that handles all the necessary states and offers built-in support for major features, such as caching.
+- [TanStack Query](https://tanstack.com/query/latest/docs/react/overview) is a library that handles all the necessary states and offers built-in support for major features, such as caching.

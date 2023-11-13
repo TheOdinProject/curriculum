@@ -33,7 +33,7 @@ function reducer(state, action) {
       return { count: action.value };
     }
     default: {
-      throw new error("unknown action: " + action.type);
+      throw new Error("unknown action: " + action.type);
     }
   }
 }
@@ -89,10 +89,10 @@ Whether you use `useState` or `useReducer` is up to you, they're both equivalent
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#what-are-reducers">What are reducers?</a>
-- <a class="knowledge-check-link" href="https://react.dev/reference/react/useReducer#writing-the-reducer-function">How would you declare a reducer?</a>
-- <a class="knowledge-check-link" href="#the-usereducer-hook">What does the dispatch function do?</a>
-- <a class="knowledge-check-link" href="https://react.dev/learn/extracting-state-logic-into-a-reducer#consolidate-state-logic-with-a-reducer">What steps can you follow to migrate from useState to useReducer?</a>
+- [What are reducers?](#what-are-reducers)
+- [How would you declare a reducer?](https://react.dev/reference/react/useReducer#writing-the-reducer-function)
+- [What does the dispatch function do?](#the-usereducer-hook)
+- [What steps can you follow to migrate from useState to useReducer?](https://react.dev/learn/extracting-state-logic-into-a-reducer#consolidate-state-logic-with-a-reducer)
 
 ### Additional resources
 

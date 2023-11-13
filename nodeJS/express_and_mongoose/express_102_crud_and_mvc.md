@@ -30,7 +30,7 @@ The CRUD operations roughly correlate to the HTTP methods that you can employ in
 
 MVC is another common concept in web development and also something that is likely to come up in an interview question.  MVC stands for _Model, View, Controller_ and refers to the architecture of your code. Basically, it is a way to organize your application by separating all of the actions into 3 main components: Models, Views and Controllers.
 
-<span id="model">**Models**</span> are the basic building blocks of your database. So for every entry in your DB (books, authors, etc. in our Library Project), you'll create a model that holds the details of that entry. Models define the types of information that get used by your views and controllers.
+<span id="model">**Models**</span> are the basic building blocks of your database. So for every type of entry in your DB (book, author, etc. in our Library Project), you'll create a model that will hold the details of that type of entry. Models define the types of information that get used by your views and controllers.
 
 <span id="view">**Views**</span> are, of course, the component that generates the UI for your application.  In our case, we've selected a templating engine that uses data supplied by a controller to display the desired information.
 
@@ -61,10 +61,10 @@ One final note before diving back into the tutorial.  Express does not care abou
 ### Knowledge checks 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='#crud'>What does CRUD stand for?</a>
-- <a class='knowledge-check-link' href='#model'>What does the Model in "MVC" refer to?</a>
-- <a class='knowledge-check-link' href='#view'>What does the View in "MVC" refer to?</a>
-- <a class='knowledge-check-link' href='#controller'>What does the Controller in "MVC" refer to?</a>
+- [What does CRUD stand for?](#crud)
+- [What does the Model in "MVC" refer to?](#model)
+- [What does the View in "MVC" refer to?](#view)
+- [What does the Controller in "MVC" refer to?](#controller)
 
 
 ### Additional resources

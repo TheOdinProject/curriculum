@@ -30,7 +30,7 @@ Just to name a few reasons on why to learn React:
 - React is not opinionated, which means that it won't force you to follow any specific design patterns, project organizational structure, or logic. It's all up to you.
 - A smaller learning curve, especially when you already have a good grasp of JavaScript and HTML/CSS from our previous lessons.
 
-If you need more convincing, the recent [2023 StackOverflow Developer Survey](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-web-frameworks-and-technologies) should be reason enough to get excited about learning React. Still unsure? Check out [this article on why you should learn React](https://laptrinhx.com/top-10-reasons-why-you-should-learn-react-right-now-3718263995/).
+If you need more convincing, the recent [2023 StackOverflow Developer Survey](https://survey.stackoverflow.co/2023/#section-most-popular-technologies-web-frameworks-and-technologies) should be reason enough to get excited about learning React. Still unsure? Check out [this article on why you should learn React](https://medium.com/@SilentHackz/top-10-reasons-why-you-should-learn-react-right-now-f7b0add7ec0d).
 
 ### Assignment
 
@@ -49,8 +49,8 @@ If you need more convincing, the recent [2023 StackOverflow Developer Survey](ht
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#what-is-react">What is the purpose of React?</a>
-- <a class="knowledge-check-link" href="#why-cover-react">What are the benefits of using React?</a>
+- [What is the purpose of React?](#what-is-react)
+- [What are the benefits of using React?](#why-cover-react)
 
 ### Additional resources
 

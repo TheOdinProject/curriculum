@@ -29,7 +29,7 @@ You'll probably get an error like this:
 {{"error":{"code":1002,"message":"API key is invalid or not provided."}}}
 ~~~
 
-This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints. Once obtained, an API key will usually have to be included with every data request, such as _another_ URL query string parameter:
+This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints (specific URLs that you use to access a particular function or data within the API). Once obtained, an API key will usually have to be included with every data request, such as _another_ URL query string parameter:
 
 ~~~
 https://api.weatherapi.com/v1/current.json?key=11111111111111111&q=london
@@ -221,7 +221,7 @@ While we are pushing this API key to the frontend, this isn't something you shou
 <div class="lesson-content__panel" markdown="1">
 
 1. Read this [Fetch documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). It's not all that complicated to use, but we've only really scratched the surface at this point.
-2. Check out this [list of Public APIs](https://github.com/abhishekbanthia/Public-APIs) and let your imagination go wild.
+2. Check out this [list of Public APIs](https://github.com/n0shake/Public-APIs) and let your imagination go wild.
 3. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
 4. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to manage most errors (i.e. invalid API key). Keep in mind that Giphy responds with a status code of 200 with an empty data array when it doesn't find any gifs with the searched keyword, in other words the `.catch()` won't be executed. Adjust your code to effectively handle such scenarios, displaying a default image or an error message if the search fails.
 

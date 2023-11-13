@@ -1,4 +1,4 @@
-### Enumerable Exercises
+### Enumerable exercises
 #### 1. Write a program that prints **each** item in a array to the console.
 
 Here are some sample arrays to test your code:

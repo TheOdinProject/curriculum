@@ -150,7 +150,7 @@ While you can generally chain multiple transforms in any order for various resul
 
 ### Three-dimensional transforms
 
-The `rotate`, `scale`, and `translate` transform functions aren't limited to just the 2D plane. They work for the 3D plane as well! However, to perceive a 3D effect on some of these function values, `perspective` is required.
+The `rotate`, `scale`, and `translate` transform functions aren't limited to just 2D planes. They also work for 3D planes as well! However, to perceive a 3D effect on some of these function values, `perspective` is required.
 
 From here on, the examples get more complicated, so there will be more links to external resources which do an excellent job describing how each property works. Play around with these properties until you feel comfortable with them, but be careful not to get too sidetracked with them.
 
@@ -172,7 +172,7 @@ For more details on how `perspective` works in regards to 3D transforms, [check 
 
 #### Rotate
 
-These are the additional transform function values to rotate an element on a 3D plane:
+These are the additional transform function values to rotate an element in a 3D space:
 
 ~~~css
 .element {
@@ -196,7 +196,7 @@ To learn about how `rotate3d` works, check out [this great demonstration](https:
 
 #### Scale
 
-These are the additional transform function values to scale an element on a 3D plane:
+These are the additional transform function values to scale an element in a 3D space:
 
 ~~~css
 .element {
@@ -209,7 +209,7 @@ See MDN's 3D cube in action with `scaleZ` [here](https://developer.mozilla.org/e
 
 #### Translate
 
-These are the additional transform function values to translate an element on a 3D plane:
+These are the additional transform function values to translate an element in a 3D space:
 
 ~~~css
 .element {
@@ -252,17 +252,19 @@ The key benefit of using `transform` is that it occurs during **composition**. T
 
 Another benefit of `transform` is that it can be hardware-accelerated via a device's [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) (you don't have to understand how a GPU works but it is good to be aware of the term and what it means). This benefit is more prominent when it comes to transitions and animations which you will learn about in the following lessons.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-- Here's a good resource that summarizes [most common transform functions with some additional insight](https://www.joshwcomeau.com/css/transforms/) to how you may use them.
-- For a full reference, there's always [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
-- For more on the 3D transform functions, [W3Schools](https://www.w3schools.com/css/css3_3dtransforms.asp) has a good article demonstrating how they work.
-
 ### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [What are the four main functions of the `transform` property?](#two-dimensional-transforms)
 - [Which function can be used to move an object through space on the X, Y, or Z axis?](#translate)
 - [Which function can be used to make an object larger or smaller on the X, Y, or Z axis?](#scale)
 - [What additional function is required for 3D transforms?](#three-dimensional-transforms)
+
+### Additional resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- Here's a good resource that summarizes [most common transform functions with some additional insight](https://www.joshwcomeau.com/css/transforms/) to how you may use them.
+- For a full reference, there's always [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
+- For more on the 3D transform functions, [W3Schools](https://www.w3schools.com/css/css3_3dtransforms.asp) has a good article demonstrating how they work.

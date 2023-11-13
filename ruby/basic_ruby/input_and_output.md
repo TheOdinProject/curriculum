@@ -1,13 +1,13 @@
 ### Introduction
 To create programs that are user friendly and interactive, you'll need to know how to **output** data to a screen and how to get **input** from a user. In this lesson, we'll cover the most common ways to achieve these tasks in Ruby. As with other lessons, and this one in particular, following along in irb or a REPL will be helpful.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to do the following:
 
  - Differentiate between the `print` and `puts` commands.
  - Describe the method used to get input from the user.
 
-### Output Commands
+### Output commands
 To output information, such as into your irb or REPL environment or into the command line, we can use the `print` command. To better show the differences between what Ruby is printing to the terminal and returning, the examples in this lesson use the full irb syntax, which is exactly what you'd see if you typed these commands into your own terminal irb session.
 
 ~~~ruby
@@ -51,7 +51,7 @@ I love drinking coffee
 => nil
 ~~~
 
-### Input Commands
+### Input commands
 To accept input from a user, we can use the `gets` command. When we use `gets`, program execution will stop and wait for user input. After the user presses <kbd>Enter</kbd>, the program will continue its execution.
 
 Let's give this a go. Open irb, type `gets`, and then type `The Odin Project`. You should see something like the following:
@@ -86,7 +86,7 @@ This is a sentence.
 3. [Read this article from Ruby Guides](https://www.rubyguides.com/2018/10/puts-vs-print/) which describes the differences between `puts`, `print` and `p`.
 </div>
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="#output-commands">What are the two methods we can use to output data to the user's screen? </a>

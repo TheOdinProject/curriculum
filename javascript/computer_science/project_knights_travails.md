@@ -8,7 +8,7 @@ A knight in chess can move to any square on the standard 8x8 chess board from an
 
 All the possible places you can end up after one move look like this:
 
-![Knights Travails board](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/computer_science/project_knights_travails/imgs/01.png)
+![Knights Travails board](https://cdn.statically.io/gh/TheOdinProject/curriculum/d30038e0aaca1f35e58e205e37a21b2c9d31053d/javascript/computer_science/project_knights_travails/imgs/01.png)
 
 ### Assignment
 Your task is to build a function `knightMoves` that shows the shortest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
@@ -16,8 +16,12 @@ Your task is to build a function `knightMoves` that shows the shortest possible 
 You can think of the board as having 2-dimensional coordinates.  Your function would therefore look like:
 
   * `knightMoves([0,0],[1,2]) == [[0,0],[1,2]]`
-  * `knightMoves([0,0],[3,3]) == [[0,0],[1,2],[3,3]]`
-  * `knightMoves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]`
+
+  Note: Sometimes _there is more than one fastest path_, an example of this is shown below. Either answer will work.
+
+  * `knightMoves([0,0],[3,3]) == [[0,0],[2,1],[3,3]]` or `knightMoves([0,0],[3,3]) == [[0,0],[1,2],[3,3]]`
+  * `knightMoves([3,3],[0,0]) == [[3,3],[2,1],[0,0]]` or `knightMoves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]`
+  * `knightMoves([0,0],[7,7]) == [[0,0],[2,1],[4,2],[6,3],[4,4],[6,5],[7,7]]` or `knightMoves([0,0],[7,7]) == [[0,0],[2,1],[4,2],[6,3],[7,5],[5,6],[7,7]]`
 
 <div class="lesson-content__panel" markdown="1">
 1. Put together a script that creates a game board and a knight.

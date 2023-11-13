@@ -25,41 +25,45 @@ Choose your Operating System:
 
 #### Step 1: Download VSCode
 
-   - Open your **Terminal**
-   - Run the following command to download the latest **VSCode** `.deb` package
+- Open your **Terminal**.
+- Run the following command to download the latest **VSCode** `.deb` package.
 
-~~~bash
+```bash
 wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
-~~~
+```
 
 #### Step 2: Install VSCode
 
-   - Enter the following command in your terminal to install the **VSCode** `.deb` package
+- Enter the following command in your terminal to install the **VSCode** `.deb` package.
 
-~~~bash
+```bash
 sudo apt install ./code-latest.deb
-~~~
+```
 
-   - If prompted, enter your password
+- If prompted, enter your password.
 
-   _(__note__: You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
+
+</div>
 
 #### Step 3: Delete the installer file
 
-~~~bash
+```bash
 rm code-latest.deb
-~~~
+```
 
 #### Step 4: Using VSCode
    
 You can start VSCode in two ways,
 
-   - Click **Visual Studio Code** from the Applications menu
-   - **Or**, use the `code` command from the terminal
+- Click **Visual Studio Code** from the Applications menu.
+- **Or**, use the `code` command from the terminal.
 
-~~~bash
+```bash
 code
-~~~
+```
 
 </details>
 
@@ -68,24 +72,24 @@ code
 
 #### Step 1: Download VSCode
 
-   - Click [this link](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal) to automatically download the latest VSCode installer .zip file.
+- Click [this link](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal) to automatically download the latest VSCode installer .zip file.
 
 #### Step 2: Install VSCode
 
-   - Open the **Downloads** folder
-   - Double click the file **VSCode-darwin-universal.zip**
-   - Drag the **Visual Studio Code.app** icon to the **Applications** folder icon
+- Open the **Downloads** folder.
+- Double click the file **VSCode-darwin-universal.zip**.
+- Drag the **Visual Studio Code.app** icon to the **Applications** folder icon.
 
 #### Step 3: Delete the installer file
 
-   - Open **Finder**
-   - Go to the **Downloads** folder
-   - Drag **VSCode-darwin-universal.zip** to the trash
+- Open **Finder**.
+- Go to the **Downloads** folder.
+- Drag **VSCode-darwin-universal.zip** to the trash.
 
 #### Step 4: Using VSCode
 
-   - Go to your **Applications** folder
-   - Double click **Visual Studio Code**
+- Go to your **Applications** folder.
+- Double click **Visual Studio Code**.
 
 </details>
 
@@ -93,12 +97,12 @@ code
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
+1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
 </div>
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* [VSCode docs](https://code.visualstudio.com/docs) are a great place to refer to for any of your queries related to VSCode.
-* These handy little PDFs on VSCode's [shortcuts for linux](https://go.microsoft.com/fwlink/?linkid=832144) and [shortcuts for macOS](https://go.microsoft.com/fwlink/?linkid=832143) are a great resource to help make your VSCode experience smoother and more efficient.
+- [VSCode docs](https://code.visualstudio.com/docs) are a great place to refer to for any of your queries related to VSCode.
+- These handy little PDFs on VSCode's [shortcuts for linux](https://go.microsoft.com/fwlink/?linkid=832144) and [shortcuts for macOS](https://go.microsoft.com/fwlink/?linkid=832143) are a great resource to help make your VSCode experience smoother and more efficient.

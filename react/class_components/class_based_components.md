@@ -1,6 +1,6 @@
 ### Introduction
 
-All the components by far, have been functional in style and syntax. This is common now, but you will see a different `class` based syntax too. In this lesson, we explore how a class-based component is written and how concepts like props and state are used in one.
+All the components so far have been functional in style and syntax. This is common now, but you will see a different `class` based syntax too. In this lesson, we explore how a class-based component is written and how concepts like props and state are used in one.
 
 ### Lesson overview
 
@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Historical React component patterns
 
-In your previous lessons, you have already been introduced to functional components, and the basic patterns in which components get written now a days. However, React components did not look this way when React was introduced.
+In your previous lessons, you have already been introduced to functional components, and the basic patterns in which components get written nowadays. However, React components did not look this way when React was introduced.
 
 If you look into any older React codebase, you'll notice a lot of classes. These are known as class-based components. Prior to February 2019, functional components were also called state-less, as there was no way to manage state in them. This was changed when hooks were introduced, leading to less verbose and 'neater' components.
 
@@ -20,7 +20,7 @@ In your career, chances are, you will be dealing with legacy code, so there will
 
 ### Building a class component
 
-As we already know about functional components, let us build a class-based component from a functional one. Usually, you will want to divide the contents of a component, like the one we use, into smaller, re-usable components, but for the purposes of this exercise, we stick to one component. Below, we have a sample functional component:
+As we already know about functional components, let us build a class-based component from a functional one. Usually, you will want to divide the contents of a component, like the one we use, into smaller, reusable components, but for the purposes of this exercise, we stick to one component. Below, we have a sample functional component:
 
 ~~~jsx
 import React, { useState } from "react";
@@ -256,7 +256,7 @@ And there we go, we have successfully made our first class-based component, as e
 
 <div class="lesson-content__panel" markdown="1">
 
-For the purposes of this assignment, we take the simple class-based component that we built. There is an interactive example provided at the end, where you can work on.
+For the purposes of this assignment, we take the simple class-based component that we built and add additional functionality. There is an interactive example provided at the end to build upon.
 
 1.  Implement a delete button for each task. The delete button should remove that specific task from the state array, thus deleting the task itself! Styling isn't a priority at this moment, but the button tag should be styled by default.
 
@@ -277,10 +277,10 @@ For the purposes of this assignment, we take the simple class-based component th
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="#the-use-of-a-constructor-and-props">How do props get used in a class-based component?</a>
-- <a class="knowledge-check-link" href="#way-to-render-jsx">How does JSX get displayed?</a>
-- <a class="knowledge-check-link" href="#how-to-use-state-and-manage-context">How do we deal with state in a class-based component?</a>
-- <a class="knowledge-check-link" href="#the-importance-of-bind">How do you restore the context of `this` in a method?</a>
+- [How do props get used in a class-based component?](#the-use-of-a-constructor-and-props)
+- [How does JSX get displayed?](#how-you-can-render-jsx)
+- [How do we deal with state in a class-based component?](#how-to-use-state-and-manage-context)
+- [How do you restore the context of `this` in a method?](#the-importance-of-bind)
 
 ### Additional resources
 

@@ -51,7 +51,7 @@ Vite builds frontend tools for developers and it leverages the latest technologi
 
 ### Creating a React app
 
-Fire up a terminal instance, `cd` over to the folder containing your projects, and enter the following command:
+Please make sure that you are using the _LTS version of Node_, otherwise errors may occur. Fire up a terminal instance, `cd` over to the folder containing your projects, and enter the following command:
 
 ~~~
 npm create vite@latest my-first-react-app -- --template react
@@ -141,13 +141,14 @@ We recommend installing this and becoming comfortable with using it as early as 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#many-paths">What are some of the ways we can start a new React project?</a>
-* <a class="knowledge-check-link" href="#many-paths">Why should we initially be using pre-made toolchains instead of making our own?</a>
-* <a class="knowledge-check-link" href="#simplifying-the-process">What is Vite and why would we use it?</a>
-* <a class="knowledge-check-link" href="#creating-a-react-app">What command can we run to scaffold a new React project using Vite?</a>
-* <a class="knowledge-check-link" href="#delving-deeper">What is in the `public` folder?</a>
-* <a class="knowledge-check-link" href="#delving-deeper">What is in the `src` folder?</a>
-* <a class="knowledge-check-link" href="#developer-tools">Why are the React Developer Tools useful?</a>
+
+* [What are some of the ways we can start a new React project?](#many-paths)
+* [Why should we initially be using pre-made toolchains instead of making our own?](#many-paths)
+* [What is Vite and why would we use it?](#simplifying-the-process)
+* [What command can we run to scaffold a new React project using Vite?](#creating-a-react-app)
+* [What is in the `public` folder?](#delving-deeper)
+* [What is in the `src` folder?](#delving-deeper)
+* [Why are the React Developer Tools useful?](#developer-tools)
 
 ### Additional resources
 

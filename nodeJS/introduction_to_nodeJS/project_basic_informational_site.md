@@ -1,6 +1,6 @@
 ### A simple Node website!
 
-By now you should know enough to be dangerous. There's *definitely* more to learn but you already know enough about Node to actually make something! So lets do it! You will be creating a very basic informational site that contains 4 pages: index, about, contact-me and 404. Keep in mind that the content of these pages isn't really all that important. So there's no need to spend a lot of time filling them up or trying to make them look pretty.
+By now you should know enough to be dangerous. There's *definitely* more to learn but you already know enough about Node to actually make something! So let's do it! You will be creating a very basic informational site that contains 4 pages: index, about, contact-me and 404. Keep in mind that the content of these pages isn't really all that important. So there's no need to spend a lot of time filling them up or trying to make them look pretty.
 
 If you get stuck at anytime, feel free to go back to the tutorial from the previous lesson.
 

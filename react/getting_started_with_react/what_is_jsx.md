@@ -52,8 +52,8 @@ If you were to take some valid HTML and copy it straight into your React compone
    ~~~jsx
    function App() {
      return (
-         <h1>Example h1</h1>
-         <h2>Example h2</h2>
+       <h1>Example h1</h1>
+       <h2>Example h2</h2>
      );
    }
    ~~~
@@ -82,10 +82,10 @@ If you were to take some valid HTML and copy it straight into your React compone
    ~~~jsx
    function App() {
      return (
-         <>
-          <input>
-          <li>
-         </>
+       <>
+         <input>
+         <li>
+       </>
      );
    }
    ~~~
@@ -143,7 +143,7 @@ Now that we've covered the Rules of JSX, we'll go through the conversion of a ch
 <form><input type="text"></form>
 ~~~
 
-If you try to return this from a React component, you would get many errors, so we are going to fix that! 
+If you try to return this from a React component, you would get many errors, so we are going to fix that!
 
  Make sure to follow along this example in your local environment. Alternatively, you can go to [react.new](https://react.new/) to have a quick React environment up and going in your web browser.
 
