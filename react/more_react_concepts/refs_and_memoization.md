@@ -234,7 +234,7 @@ const ButtonComponent = memo(({ children, onClick }) => {
 });
 ~~~
 
-Wrapping the component with a `memo` pretty much prevents the downward update that is triggered above the component. So, this component will only re-render when its `props` changes or if its own `state` changes *if any*.
+Wrapping the component with a `memo` prevents the downward update that is triggered above the component. So, this component will only re-render when its `props` change or if its own `state` changes.
 
 With all that said and done, test and break things in our interactive example:
 
