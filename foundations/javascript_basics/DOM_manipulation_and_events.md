@@ -232,7 +232,7 @@ Alternatively, you can link the JavaScript file in the `<head>` of your HTML doc
 </head>
 ~~~
 
-Read the second bullet point in [this MDN article](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#applying_css_and_javascript_to_html) for more information, which also includes a link to additional script loading strategies.
+Read the second bullet point (under the Applying CSS and JavaScript to HTML section) in [this MDN article](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#applying_css_and_javascript_to_html) for more information, which also includes a link to additional script loading strategies.
 
 </div>
 
