@@ -63,7 +63,7 @@ function Links({ cartItemsCount }) {
       <li>
         <Link to="Link to the cart">
           <span>Cart</span>
-          <div class="cart-icon">{cartItemsCount}</div>
+          <div className="cart-icon">{cartItemsCount}</div>
         </Link>
       </li>
     </ul>
@@ -196,7 +196,7 @@ function Links() {
       <li>
         <Link to="Link to the cart">
           <span>Cart</span>
-          <div class="cart-icon">{cartItems.length}</div>
+          <div className="cart-icon">{cartItems.length}</div>
         </Link>
       </li>
     </ul>
