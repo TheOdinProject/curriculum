@@ -175,7 +175,7 @@ We will leverage the return value of `startsWith` with the `&&` operator. If the
 
 #### Falsy values in JSX, a common pitfall
 
-In JSX, values like `null`, `undefined`, and `false` do not render anything, and you might ask aren't they falsy values? So you might think a value like `0` or an empty string does the same thing. It is a common pitfall. They are valid in JSX and will be rendered completely fine, so be sure to be aware of that!
+In JSX, there can be some confusion regarding which values render content and which do not, especially when it comes to falsy values. It's important to note that while values like `null`, `undefined`, and `false` don't render anything, other falsy values such as `0` or `''` (an empty string) are perfectly valid in JSX and will be rendered as expected. To avoid any pitfalls, it's essential to understand that certain falsy values behave differently in JSX when compared to JS. 
 
 </div>
 
