@@ -72,8 +72,8 @@ Note that you may be fine if you forget to add `rel="noopener noreferrer"` since
 
 Generally, there are two kinds of links we will create:
 
-1. Links to pages on other websites on the internet
-2. Links to pages located on our own websites
+- Links to pages on other websites on the internet
+- Links to pages located on our own websites
 
 #### Absolute links
 
