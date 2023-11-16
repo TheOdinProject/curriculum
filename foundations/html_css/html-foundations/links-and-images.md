@@ -8,10 +8,10 @@ In this lesson, we will learn how to create links and add some visual flair to o
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to create links to pages on other websites on the internet
-- How to create links to other pages on your own websites
-- The difference between absolute and relative links
-- How to display an image on a webpage using HTML
+- How to create links to pages on other websites on the internet.
+- How to create links to other pages on your own websites.
+- The difference between absolute and relative links.
+- How to display an image on a webpage using HTML.
 
 ### Preparation
 
@@ -72,8 +72,8 @@ Note that you may be fine if you forget to add `rel="noopener noreferrer"` since
 
 Generally, there are two kinds of links we will create:
 
-- Links to pages on other websites on the internet
-- Links to pages located on our own websites
+- Links to pages on other websites on the internet.
+- Links to pages located on our own websites.
 
 #### Absolute links
 
