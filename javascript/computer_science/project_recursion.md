@@ -13,7 +13,7 @@ In order to run these functions you'll need to run it from somewhere. You can ru
 
 #### Understanding recursive Fibonacci
 
-Did you figure it out? Congratulations! But do you really understand what is taking place? If you need some help understanding what's going on with this function, give [Khan Academy's Stepping Through Recursive Fibonacci Function video](https://www.youtube.com/watch?v=zg-ddPbzcKM) a watch. If you prefer to read, [Recursive Fibonacci Explained](https://medium.com/launch-school/recursive-fibonnaci-method-explained-d82215c5498e) is also very helpful!
+Did you figure it out? Congratulations! But do you really understand what is taking place? If you need some help understanding what's going on with this function, give [Khan Academy's Stepping Through Recursive Fibonacci Function video](https://www.youtube.com/watch?v=zg-ddPbzcKM) a watch. If you prefer to read, [Recursive Fibonacci Explained](https://www.scaler.com/topics/fibonacci-series-in-javascript/) is also very helpful!
 
 ### Project: merge sort
   

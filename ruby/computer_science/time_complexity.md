@@ -143,7 +143,7 @@ Do the number of steps matter? Yes, they might. We'll touch on when this may be 
 
 Logarithmic Complexity tells us that the numbers of steps an algorithm takes increases by 1 as the data doubles. That's still pretty efficient when you think about it. Going from 5,000 to 10,000 data elements and only taking one additional step can scale really well.
 
-One such algorithm that does this is Binary Search. It only works on sorted arrays, but if you have an array of 10 items in sorted order 
+One such algorithm that does this is Binary Search. It only works on sorted arrays, but if you have an array of 10 items in sorted order
 
 ~~~ruby
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -188,13 +188,13 @@ One such algorithm is merge sort, and it just so happens you tackle this project
 
 #### O(n&#178;) - quadratic complexity
 
-You've probably written code with a Quadratic Complexity on your programming journey. It's commonly seen when you loop over a data set and within each loop you loop over it again.  
+You've probably written code with a Quadratic Complexity on your programming journey. It's commonly seen when you loop over a data set and within each loop you loop over it again.
 For example, if our array has 3 items, the nested loops require 3&#178; = 9 sub-steps. Adding just one more item to the array almost doubles this number to 4&#178; = 16. Adding a 5th item takes us to 5&#178; = 25 sub-steps. Then doubling the array size to 10 items increases the sub-steps from 25 to 100, so 4 times as much work needed!
 We hope you can see where we're going with this...
 
 #### O(n&#179;) - cubic complexity
 
-Think triple nested loops baby. If looping over an array with n items, 1 extra item adds an extra outer loop, an extra middle loop, and an extra innermost loop. When using such triply nested loops on an array of size n, we require a total of n&#179; sub-steps.  
+Think triple nested loops baby. If looping over an array with n items, 1 extra item adds an extra outer loop, an extra middle loop, and an extra innermost loop. When using such triply nested loops on an array of size n, we require a total of n&#179; sub-steps.
 For example, if our array has 3 items, the triply-nested loops require a total of 3&#179; = 27 sub-steps. Adding one more item more than doubles this number to 4&#179; = 64 sub-steps. The task almost doubles again for 5 items, with 5&#179; = 125 sub-steps. Doubling our array size to 10 items means we require 10&#179; = 1000 sub-steps in total, 8 times as many as before! 100 items in the array require a total of 1,000,000 sub-steps. Ouch!
 
 #### O(2&#8319;) - exponential complexity
@@ -326,3 +326,5 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 1.  It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
+
+2. In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.

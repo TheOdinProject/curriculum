@@ -39,6 +39,6 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='#keep-it-secret-keep-it-safe'>What special kind of variable can be used on a server to store secrets?</a>
-- <a class='knowledge-check-link' href='#keep-it-secret-keep-it-safe'>What are two widely used packages that can be used to store and import these variables?</a>
-- <a class='knowledge-check-link' href='#keep-it-secret-keep-it-safe'>What is the name of the file `dotenv` looks for when injecting these variables into our app?</a>
+- [What special kind of variable can be used on a server to store secrets?](#keep-it-secret-keep-it-safe)
+- [What are two widely used packages that can be used to store and import these variables?](#keep-it-secret-keep-it-safe)
+- [What is the name of the file `dotenv` looks for when injecting these variables into our app?](#keep-it-secret-keep-it-safe)

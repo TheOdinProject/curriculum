@@ -30,7 +30,7 @@ This section contains a general overview of topics that you will learn in this l
 
     ![The GitHub Profile Screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/00.png)
 
-3.  Give your repository the name "git_test" in the repository name input field. Check "Add a README file". And then create the repository by clicking the "Create repository" button at the bottom of the page.
+3.  Give your repository the name "git-test" in the repository name input field. Check "Add a README file". And then create the repository by clicking the "Create repository" button at the bottom of the page.
 
     ![Create new repo using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/e6f531e5c65077fe5897d36c270a90f0b4d7da7b/git/foundations_git/git_basics/imgs/01.png)
 
@@ -64,13 +64,13 @@ This section contains a general overview of topics that you will learn in this l
 
     ![Stage hello_world and check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/08.png)
 
-4.  <span id="git-commit"></span>Type `git commit -m "Add hello_world.txt"` and then type `git status` once more. The output should now say: "*nothing to commit, working tree clean*", indicating your changes have been committed. Don't worry if you get a message that says "*upstream is gone*". This is normal and only shows when your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project.
+4.  <span id="git-commit"></span>Type `git commit -m "Add hello_world.txt"` and then type `git status` once more. The output should now say: "_nothing to commit, working tree clean_", indicating your changes have been committed. Don't worry if you get a message that says "_upstream is gone_". This is normal and only shows when your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project.
 
     The message, "_Your branch is ahead of 'origin/main' by 1 commit_" just means that you now have newer snapshots than what is on your remote repository. You will be uploading your snapshots further down in this lesson.
 
     ![Commit hello_world and check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/09.png)
 
-5.  <span id="git-log"></span>Type `git log` and look at the output. You should see an entry for your "*Add hello_world.txt*" commit. You will also see details on the author who made the commit and the date and time of when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press "q" to escape. You can configure settings for this later, but don't worry about it too much for now.
+5.  <span id="git-log"></span>Type `git log` and look at the output. You should see an entry for your "_Add hello_world.txt_" commit. You will also see details on the author who made the commit and the date and time of when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press "q" to escape. You can configure settings for this later, but don't worry about it too much for now.
 
     ![Commit hello_world and check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/10.png)
 
@@ -80,13 +80,14 @@ This section contains a general overview of topics that you will learn in this l
 
     ![Add text file and check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/11.png)
 
-    MacOS users: If your terminal reads *"command not found: code"*, you must head back to [Command Line Basics](https://www.theodinproject.com/lessons/foundations-command-line-basics#opening-files-in-vscode-from-the-command-line) and follow the instructions provided to allow this command to work.
+    MacOS users: If your terminal reads _"command not found: code"_, you must head back to [Command Line Basics](https://www.theodinproject.com/lessons/foundations-command-line-basics#opening-files-in-vscode-from-the-command-line) and follow the instructions provided to allow this command to work.
 
 2.  Add "Hello Odin!" to line 3 of README.md and save the file with <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>).
 
     ![Edit README using text editor](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/12.png)
 
 <!-- code element needed to not treat the backtick inside the kbd element as code markdown -->
+
 3.  Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing <kbd>Ctrl</kbd> + <kbd>`</kbd> (backtick). Then type <code>git status</code>. You'll notice that README.md is now shown as not staged or committed.
 
     ![Check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/13.png)
@@ -101,7 +102,7 @@ This section contains a general overview of topics that you will learn in this l
 
     ![Stage all other files in repo and check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/15.png)
 
-7.  Finally, let's commit all of the files that are in the staging area and add a descriptive commit message. `git commit -m "Edit README.md and hello_world.txt"`. Then, type `git status` once again, which will output "*nothing to commit*".
+7.  Finally, let's commit all of the files that are in the staging area and add a descriptive commit message. `git commit -m "Edit README.md and hello_world.txt"`. Then, type `git status` once again, which will output "_nothing to commit_".
 
     ![Commit repo changes again and check repo status again using CLI](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/16.png)
 
@@ -123,7 +124,7 @@ Finally, let's upload your work to the GitHub repository you created at the star
 
 3.  When you reload the repository on GitHub, you should see the README.md and hello_world.txt files that you just pushed there from your local machine.
 
-     ![Verify repo changes are on GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/20.png)
+    ![Verify repo changes are on GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/20.png)
 
 </div>
 
@@ -136,14 +137,14 @@ When trying to make simple changes to the files in your repo, such as attempting
 This is a reference list of the most commonly used Git commands. (You might consider bookmarking this handy page.) Try to familiarize yourself with the commands so that you can eventually remember them all:
 
 - Commands related to a remote repository:
-    - `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
-    - `git push` or `git push origin main` (Both accomplish the same goal in this context)
+  - `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
+  - `git push` or `git push origin main` (Both accomplish the same goal in this context)
 - Commands related to the workflow:
-    - `git add .`
-    - `git commit -m "A message describing what you have done to make this snapshot different"`
+  - `git add .`
+  - `git commit -m "A message describing what you have done to make this snapshot different"`
 - Commands related to checking status or log history
-    - `git status`
-    - `git log`
+  - `git status`
+  - `git log`
 
 The basic Git syntax is `program | action | destination`.
 
@@ -169,13 +170,13 @@ Changing the default message editor is a good idea in case you accidentally omit
 
 The following command will set this configuration. Type (or copy & paste) this command into your terminal and hit <kbd>Enter</kbd>.
 
-~~~bash
+```bash
 git config --global core.editor "code --wait"
-~~~
+```
 
-There will be no confirmation or any output on the terminal after entering this command. 
+There will be no confirmation or any output on the terminal after entering this command.
 
-With that done, you can now choose to use either `git commit -m <your message here>` or `git commit` to type your message with Visual Studio Code!
+With that done, you can now choose to use either `git commit -m "your message here"` or `git commit` to type your message with Visual Studio Code!
 
 To make a commit with Visual Studio Code as the text editor, just type `git commit`. After you hit <kbd>Enter</kbd> a new tab in VS Code will open for you to write your commit message. You may provide more details on multiple lines as part of your commit message. After typing your commit message, save it <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>) and close the tab. If you return to the command line, you will see your commit message and a summary of your changes.
 
@@ -211,6 +212,6 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- [Complete Git and GitHub Tutorial from Basics to Advanced](https://www.youtube.com/watch?v=apGV9Kg7ics) -  by Kunal Kushwaha
+- [Complete Git and GitHub Tutorial from Basics to Advanced](https://www.youtube.com/watch?v=apGV9Kg7ics) - by Kunal Kushwaha
 - [Git - Reference](https://git-scm.com/docs)
 - [This article about adding locally hosted code to GitHub](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github) will walk you through creating a git repository from a local folder and adding it to GitHub.

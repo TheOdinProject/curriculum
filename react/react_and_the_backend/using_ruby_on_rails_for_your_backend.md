@@ -26,7 +26,7 @@ Are you done? Good. Next, it's time to practice allowing your front end JavaScri
 
 2. [Refresh yourself on Rails AJAX from RailsGuides](https://guides.rubyonrails.org/v6.1/working_with_javascript_in_rails.html) (just skim the top few sections).
 
-3. Read [Bootstrapping JSON data into a Rails View](http://jfire.io/blog/2012/04/30/how-to-securely-bootstrap-json-in-a-rails-view) to learn about passing data to your front end.
+3. Read [Bootstrapping JSON data into a Rails View](https://web.archive.org/web/20221230234727/https://jfire.io/blog/2012/04/30/how-to-securely-bootstrap-json-in-a-rails-view/) to learn about passing data to your front end.
 
 </div>
 

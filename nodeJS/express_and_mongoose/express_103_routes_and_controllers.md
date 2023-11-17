@@ -17,16 +17,16 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Continue where we left off with part 4 of the [Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes)
+1. Continue where we left off with part 4 of the [Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes).
 </div>
 
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#defining_and_using_separate_route_modules'>How do you define a route function in Express?</a>
-- <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#http_verbs'>Name four HTTP verbs a route might need to handle.</a>
-- <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#route_parameters'>What is a route parameter, and what syntax is used to define one in a route handler?</a>
-- <a class='knowledge-check-link' href='https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#create_the_route-handler_callback_functions'>What is a route-handler callback function commonly called?</a>
+- [How do you define a route function in Express?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#defining_and_using_separate_route_modules)
+- [Name four HTTP verbs a route might need to handle.](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#http_verbs)
+- [What is a route parameter, and what syntax is used to define one in a route handler?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#route_parameters)
+- [What is a route-handler callback function commonly called?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#create_the_route-handler_callback_functions)
 
 
 ### Additional resources

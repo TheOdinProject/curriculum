@@ -216,7 +216,7 @@ To create a select dropdown, we use the `<select>` element. Any options we want 
 </select>
 ~~~
 
-All the option elements should(otherwise the text content inside is used) have a `value` attribute. This value will be sent to the server when the form is submitted.
+All the option elements should have a `value` attribute (otherwise the text content inside is used). This value will be sent to the server when the form is submitted.
 
 We can set one of the options to be the default selected element when the browser first renders the form by giving one of the options the `selected` attribute:
 
@@ -491,7 +491,7 @@ Certain aspects of other elements are downright impossible to style, for example
 
 #### Form basics
 
-1. Read and follow along to [MDN's Introductory Guides to Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_guides)
+1. Read and follow along to [MDN's Introductory Guides to Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_guides) - complete [Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form) and [How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form#test_your_skills!)
 2. Read and follow along to [MDN's The Different Form Controls Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#the_different_form_controls)
 
 #### Styling forms
