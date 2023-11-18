@@ -264,7 +264,7 @@ Now we're ready to install our desired version of Ruby:
 rbenv install 3.2.2 --verbose
 ~~~
 
-This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
+This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=E-6xk4W6N20) or to get a glass of water.
 
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
