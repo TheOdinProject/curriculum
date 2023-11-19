@@ -329,7 +329,7 @@ google-chrome
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &` instead.)_
+Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &` instead.
 
 </div>
 
