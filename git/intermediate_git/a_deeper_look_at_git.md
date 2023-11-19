@@ -35,7 +35,7 @@ Let's look at some ways we can change recent and distant history to fit our need
 Before we get started with the lesson, let's create a Git playground in which we can safely follow along with the code and perform history-changing operations. Go to GitHub, and as you have in the past, create a new repository. Call it whatever you'd like, and clone this repository to your local system. Now, let's `cd` into the repository we just cloned and create some new files! Once you're in the repository, follow along with the following commands (including the typo). Look them up if you're confused about anything that's happening.
 
 ~~~bash
-  $ touch test{1..4}.md
+  $ touch test{1..3}.md
   $ git add test1.md && git commit -m 'Create first file'
   $ git add test2.md && git commit -m 'Create send file'
   $ git add test3.md && git commit -m 'Create third file and create fourth file'
