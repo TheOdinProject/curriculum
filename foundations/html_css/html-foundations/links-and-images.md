@@ -8,19 +8,19 @@ In this lesson, we will learn how to create links and add some visual flair to o
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to create links to pages on other websites on the internet
-- How to create links to other pages on your own websites
-- The difference between absolute and relative links
-- How to display an image on a webpage using HTML
+- How to create links to pages on other websites on the internet.
+- How to create links to other pages on your own websites.
+- The difference between absolute and relative links.
+- How to display an image on a webpage using HTML.
 
 ### Preparation
 
 To get some practice using links and images throughout this lesson we need an HTML project to work with.
 
 1. Create a new directory named `odin-links-and-images`.
-2. Within that directory, create a new file named `index.html`.
-3. Open the file in VS Code and fill in the usual HTML boilerplate.
-4. Finally, add the following h1 to the body:
+1. Within that directory, create a new file named `index.html`.
+1. Open the file in VS Code and fill in the usual HTML boilerplate.
+1. Finally, add the following h1 to the body:
 
 ```html
 <h1>Homepage</h1>
@@ -72,8 +72,8 @@ Note that you may be fine if you forget to add `rel="noopener noreferrer"` since
 
 Generally, there are two kinds of links we will create:
 
-1. Links to pages on other websites on the internet
-2. Links to pages located on our own websites
+- Links to pages on other websites on the internet.
+- Links to pages located on our own websites.
 
 #### Absolute links
 
@@ -173,10 +173,8 @@ For example, using an absolute path we can display an image located on The Odin 
 To use images that we have on our own websites, we can use a relative path.
 
 1. Create a new directory named `images` within the `odin-links-and-images` project.
-
-2. Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
-
-3. Rename the image to `dog.jpg`.
+1. Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
+1. Rename the image to `dog.jpg`.
 
 Finally add the image to the `index.html` file:
 
@@ -205,8 +203,8 @@ What if we want to use the dog image in the about page? We would first have to g
 To break this down:
 
 1. First, we are going to the parent directory of the pages directory which is `odin-links-and-images`.
-2. Then, from the parent directory, we can go into the `images` directory.
-3. Finally, we can access the `dog.jpg` file.
+1. Then, from the parent directory, we can go into the `images` directory.
+1. Finally, we can access the `dog.jpg` file.
 
 Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
 
@@ -250,9 +248,9 @@ Go ahead and update the `odin-links-and-images` project with width and height ta
 <div class="lesson-content__panel" markdown="1">
 
 1. [Watch Kevin Powell's HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
-2. [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
-3. [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
-4. [Read about the four main image formats that can be used on the web](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
+1. [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
+1. [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
+1. [Read about the four main image formats that can be used on the web](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
 
 </div>
 
