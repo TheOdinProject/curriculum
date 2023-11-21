@@ -300,8 +300,8 @@ Nested ternaries and multiple `&&` operators can be intimidating to look at, so 
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  The React documentation has an excellent guide on rendering lists. Explore more on what you can do with lists on their [Rendering Lists article](https://react.dev/learn/rendering-lists). Do not worry about the last part on keys, since we will be learning about them in the next lesson.
-2.  From the same docs, strengthen your understanding of [conditional rendering](https://react.dev/learn/conditional-rendering). Be sure to test out all the examples!
+1.  The React documentation has an excellent guide to [conditional rendering](https://react.dev/learn/conditional-rendering). Strengthen your understanding by reading through it and tackling all of the examples!
+2.  From the same docs, explore more on what you can do with lists by working through the [Rendering Lists article](https://react.dev/learn/rendering-lists). You don't have to worry about the last part on keys, since we will be learning about them in the next lesson.
 
 </div>
 
