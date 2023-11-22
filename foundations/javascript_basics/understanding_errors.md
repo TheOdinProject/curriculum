@@ -20,12 +20,12 @@ An error is a type of object built into the JS language, consisting of a name/ty
 
 Let’s assume we have written the following code:
 
-~~~javascript
+```javascript
 const a = "Hello";
 const b = "World";
 
 console.log(c);
-~~~
+```
 
 This code will run, but it will generate an error. In technical terms, this is called "throwing" an error. The first part of an error displays the type of error. This provides the first clue as to what you're dealing with. We’ll learn more about the different error types later in the lesson. In this example, we have a `ReferenceError`.
 
@@ -37,7 +37,7 @@ The next part of an error gives us the name of the file in which you can find th
 
 Another important part of an error is the **stack trace**. This helps you understand when the error was thrown in your application, and what functions were called that led up to the error. So, for example, if we have the following code:
 
-~~~javascript
+```javascript
 const a = 5;
 const b = 10;
 
@@ -50,7 +50,7 @@ function print() {
 }
 
 print();
-~~~
+```
 
 Our function `print()` should call on `add()`, which returns a variable named `c`, which currently has not been declared. The corresponding error is as follows:
 
@@ -72,11 +72,11 @@ These are some of the most common errors you will encounter, so it’s important
 
 A syntax error occurs when the code you are trying to run is not written correctly, i.e., in accordance with the grammatical rules of JavaScript. For example this:
 
-~~~javascript
+```javascript
 function helloWorld() {
   console.log "Hello World!"
 }
-~~~
+```
 
 will throw the following error, because we forgot the parentheses for `console.log()`!
 
@@ -102,11 +102,11 @@ Per MDN, a `TypeError` may be thrown when:
 
 Say we have two strings that you would like to combine to create one message, such as below:
 
-~~~javascript
+```javascript
 const str1 = "Hello";
 const str2 = "World!";
 const message = str1.push(str2);
-~~~
+```
 
 ![Type Error Example](https://cdn.statically.io/gh/TheOdinProject/curriculum/4ed59981b4ce2c60b5b83bf7415d3127b61821f5/foundations/javascript_basics/understanding_errors/imgs/03.png)
 
