@@ -17,6 +17,8 @@ body:
       label: Checks
       description: Please fill out the following checkboxes
       options:
+        - label: This is not a duplicate of an existing issue (please have a look through our [open issues list](https://github.com/TheOdinProject/curriculum/issues) to make sure)
+          required: true
         - label: I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md)
           required: true
         - label: Would you like to work on this issue?
