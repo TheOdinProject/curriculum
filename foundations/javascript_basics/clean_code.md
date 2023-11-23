@@ -76,7 +76,7 @@ In our first example we already touched on the importance of naming things _mean
 
 In our good example we have a variable `sum`, to which each new `number` from the array is added. The function is named `sumArray` and the function does what the name suggests (if you're thinking "what even is an array", don't worry - you'll learn about them soon). Nice, clean and understandable.
 
-Now, try picturing a conversation with someone about the bad example. The function is named `x` with variables like `z`, `w` and `q`. Uuf, not nice.
+Now, try picturing a conversation with someone about the bad example. The function is named `x` with variables like `z`, `w` and `q`. Oof, not nice.
 
 #### Use a consistent vocabulary
 
