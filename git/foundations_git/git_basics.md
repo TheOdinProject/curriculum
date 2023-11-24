@@ -30,7 +30,7 @@ This section contains a general overview of topics that you will learn in this l
 
     ![The GitHub Profile Screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/00.png)
 
-3.  Give your repository the name "git-test" in the repository name input field. Check "Add a README file". And then create the repository by clicking the "Create repository" button at the bottom of the page.
+3.  Give your repository the name "git_test" in the repository name input field. Check "Add a README file". And then create the repository by clicking the "Create repository" button at the bottom of the page.
 
     ![Create new repo using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/e6f531e5c65077fe5897d36c270a90f0b4d7da7b/git/foundations_git/git_basics/imgs/01.png)
 
