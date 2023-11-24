@@ -1,4 +1,5 @@
 ### Introduction
+
 JavaScript is a very powerful language. It is capable of creating complex web applications that work _everywhere_. But it is just as often used on a smaller scale. JavaScript is the glue that holds even less flashy websites together- it makes drop-downs drop down and image sliders slide.  
 
 Fortunately, at this point, you already have all the tools you need to make these items without resorting to using a bloated framework like bootstrap. (Nothing against bootstrap... you just do _not_ need it! Good for you!)
@@ -7,11 +8,13 @@ We aren't presenting any new content in this lesson - just giving you the chance
 
 > Animations are typically handled by CSS which is a little out of the scope of this lesson, but interactive stuff like this is no fun without a little motion! If you want to take a break and learn more about making stuff move [go watch this video](https://www.youtube.com/watch?v=8kK-cA99SA0).
 
-### Learning Outcomes
+### Lesson overview
 
-- Practice everyday techniques used by JavaScript programmers.
+This section contains a general overview of topics that you will learn in this lesson.
 
-### Drop-down Menus
+- General techniques that are used by JavaScript programmers everyday.
+
+### Drop-down menus
 
 You know what we're talking about here. Picture a nav-bar or a button and when you click it the menu slides down nicely. As mentioned previously, you already know everything you need to create this element. Here are some things to keep in mind:
 
@@ -42,10 +45,10 @@ Don't spend too much time worrying about getting your images to display at the c
 6. Add a timeout which advances the slides every 5 seconds.
 7. Play around with your slideshow!
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://uxplanet.org/top-8-mobile-navigation-menu-design-for-your-inspiration-8a2d925bffc0">What are some different types of navigation menus?</a>
-- <a class="knowledge-check-link" href="https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/">What are the alternatives to hamburger menus?</a>
-- <a class="knowledge-check-link" href="https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/">What are the downsides of hamburger menus?</a>
+- [What are some different types of navigation menus?](https://uxplanet.org/top-8-mobile-navigation-menu-design-for-your-inspiration-8a2d925bffc0)
+- [What are the alternatives to hamburger menus?](https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/)
+- [What are the downsides of hamburger menus?](https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/)

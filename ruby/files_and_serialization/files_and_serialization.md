@@ -10,7 +10,7 @@ Luckily, Ruby again makes things pretty easy for you. There are some generally a
 
 Finally, files and serialization overlap in a lot of ways with the idea and purpose of databases -- they facilitate the ability to maintain state and permanence for your data.  We'll briefly look into some basic database connections that Ruby provides as well.
 
-### Learning Outcomes
+### Learning outcomes
 Look through these now and then use them to test yourself after doing the assignment.
 
 * What are two ways to store a file from your hard drive into a string or array in your Ruby script?
@@ -27,20 +27,20 @@ Look through these now and then use them to test yourself after doing the assign
   2. Watch [icc0612's introduction to serialization](https://www.youtube.com/watch?v=uS37TujnLRw). It will explain the concept of serialization before you implement it in Ruby.
   3. Read [Choosing the Right Serialization Format](https://www.sitepoint.com/choosing-right-serialization-format/) for more information about the various serialization options you can choose from.
   4. Skim [Alan Skorkin's](http://www.skorks.com/2010/04/serializing-and-deserializing-objects-with-ruby/) post about serialization. Some of the code examples are outdated, but this post still contains relevant information. If you want to follow along with the code examples, copy and paste them into your code editor and use word wrap.
-  5. Read the [Chapter on File I/O](http://ruby.bastardsbook.com/chapters/io/) of the Bastard's Book of Ruby.
+  5. Read [Everything You Need to know about Serialization in Ruby on Rails](https://blog.kiprosh.com/serialization_in_ruby_on_rails_part_one/) to understand the mechanisms for serializing objects that Ruby provides.
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Zetcode's section on Input/Output in Ruby](http://zetcode.com/lang/rubytutorial/io/) should be another useful perspective on the material.
 * [Ruby Monk's section on Serializing](https://web.archive.org/web/20160505174806/http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)
 * [Short Example of Serialization](https://web.archive.org/web/20200627063721/http://rubylearning.com/satishtalim/object_serialization.html) from Ruby Learning
 
-### Knowledge Check
+### Knowledge check
 
-  * <a class='knowledge-check-link' href='https://thoughtbot.com/blog/io-in-ruby'>How would you go through the lines of a file using the IO object in the command line?</a>
-  * <a class='knowledge-check-link' href='https://www.sitepoint.com/choosing-right-serialization-format/'>How would you take the Array `[1,2,3]` and serialize it into a JSON string format?</a>
-  * <a class='knowledge-check-link' href='https://www.sitepoint.com/choosing-right-serialization-format/'>What are the benefits of YAML vs JSON vs MessagePack serialization formats?</a>
-  * <a class='knowledge-check-link' href='http://ruby.bastardsbook.com/chapters/io/'>How would you check if a file exists using the File object in the command line?</a>
-  * <a class='knowledge-check-link' href='http://ruby.bastardsbook.com/chapters/io/'>In a Download directory containing 5 files, how would you count the number of files in that directory using the Dir object?</a>
+  * [How would you go through the lines of a file using the IO object in the command line?](https://thoughtbot.com/blog/io-in-ruby)
+  * [How would you take the Array `[1,2,3]` and serialize it into a JSON string format?](https://www.sitepoint.com/choosing-right-serialization-format/)
+  * [What are the benefits of YAML vs JSON vs MessagePack serialization formats?](https://www.sitepoint.com/choosing-right-serialization-format/)
+  * [How would you check if a file exists using the File object in the command line?](http://ruby.bastardsbook.com/chapters/io/)
+  * [In a Download directory containing 5 files, how would you count the number of files in that directory using the Dir object?](http://ruby.bastardsbook.com/chapters/io/)

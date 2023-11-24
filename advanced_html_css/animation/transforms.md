@@ -4,7 +4,7 @@ The `transform` property is a powerful tool to change the appearance of elements
 
 You have likely seen it in action on many of your favorite websites! Transforms are very commonly used for animated effects. While we are sure you'll like to create sleek animations of your own, we first need to understand how transforms work.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you will know:
 
@@ -13,13 +13,13 @@ By the end of this lesson, you will know:
 - How to chain multiple transforms.
 - The benefits of using the `transform` property.
 
-### Basics of Transforms
+### Basics of transforms
 
 The `transform` property takes in one or more CSS transform functions as its values, with those functions taking in their own value, usually an angle or a number.
 
 Almost all elements can have the `transform` property applied to it, with the exceptions being `<col>`, `<colgroup>`, and non-replaced inline elements. "Non-replaced" simply refers to elements whose content is contained within the HTML document (`<span>`, `<b>`, and `<em>`, for example), as opposed to a "replaced" element's content being contained outside of the document (`<a>`, `<iframe>`, and `<img>`, for example). You do not need to memorize every element that is non-replaced, but rather keep this knowledge in mind should you try to apply the `transform` property to an element and aren't sure why it isn't working.
 
-### Two-Dimensional Transforms
+### Two-dimensional transforms
 
 In this section, we'll go through 2D transforms with the following transform functions: `rotate`, `scale`, `skew`, and `translate`.
 
@@ -105,7 +105,7 @@ Below is a CodePen that shows how each value affects the target element.
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Chaining Multiple Transforms
+### Chaining multiple transforms
 
 Now that you have a grasp of 2D transforms, we will learn how to chain them. Chaining multiple transforms is as simple as adding more transform functions with a space between each one. Take a look at the code below:
 
@@ -148,9 +148,9 @@ To learn more about the "left to right" vs "right to left" interpretations, chec
 
 While you can generally chain multiple transforms in any order for various results, there is one exception: `perspective`. This brings us nicely to the next section where `perspective` is involved.
 
-### Three-Dimensional Transforms
+### Three-dimensional transforms
 
-The `rotate`, `scale`, and `translate` transform functions aren't limited to just the 2D plane. They work for the 3D plane as well! However, to perceive a 3D effect on some of these function values, `perspective` is required.
+The `rotate`, `scale`, and `translate` transform functions aren't limited to just 2D planes. They also work for 3D planes as well! However, to perceive a 3D effect on some of these function values, `perspective` is required.
 
 From here on, the examples get more complicated, so there will be more links to external resources which do an excellent job describing how each property works. Play around with these properties until you feel comfortable with them, but be careful not to get too sidetracked with them.
 
@@ -168,11 +168,11 @@ Essentially, by setting a `perspective` value, we are telling the object to rend
 
 Unlike other transform function values, `perspective` must be declared first (leftmost) when there are multiple transform function values. In the upcoming examples for `rotate`, `scale`, and `translate`, we will be able to see how it affects the target element.
 
-For more details on how `perspective` works in regards to 3D transforms, [check out this CSS Tricks article.](https://css-tricks.com/how-css-perspective-works/).
+For more details on how `perspective` works in regards to 3D transforms, [check out this CSS Tricks article](https://css-tricks.com/how-css-perspective-works/).
 
 #### Rotate
 
-These are the additional transform function values to rotate an element on a 3D plane:
+These are the additional transform function values to rotate an element in a 3D space:
 
 ~~~css
 .element {
@@ -196,7 +196,7 @@ To learn about how `rotate3d` works, check out [this great demonstration](https:
 
 #### Scale
 
-These are the additional transform function values to scale an element on a 3D plane:
+These are the additional transform function values to scale an element in a 3D space:
 
 ~~~css
 .element {
@@ -209,7 +209,7 @@ See MDN's 3D cube in action with `scaleZ` [here](https://developer.mozilla.org/e
 
 #### Translate
 
-These are the additional transform function values to translate an element on a 3D plane:
+These are the additional transform function values to translate an element in a 3D space:
 
 ~~~css
 .element {
@@ -227,7 +227,7 @@ These are the additional transform function values to translate an element on a 
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-For a great demonstration on `translate3d` checkout the the [MDN cube again](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d())!
+For a great demonstration on `translate3d` checkout the [MDN cube again](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d())!
 
 #### Matrix
 
@@ -244,25 +244,27 @@ Matrix is a way of combining all transform functions into one. It is seldom used
 
 It is enough for you to know *that* these functions exist and generally how they work. However, it is not important for you to feel comfortable building with them. Skim [this article](https://www.quackit.com/css/functions/css_matrix_function.cfm) to get the gist of `matrix`.
 
-### Benefits of Transforms
+### Benefits of transforms
 
-In order to understand why the `transform` property is great, you have to be aware of CSS triggers. You can learn about about it in [The Pixel Pipeline](https://developers.google.com/web/fundamentals/performance/rendering/#the_pixel_pipeline) section from Google's Web Fundamentals.
+In order to understand why the `transform` property is great, you have to be aware of CSS triggers. You can learn about it in [The Pixel Pipeline](https://developers.google.com/web/fundamentals/performance/rendering/#the_pixel_pipeline) section from Google's Web Fundamentals.
 
-The key benefit of using `transform` is that it occurs during **composition**. This makes it cheaper to use compared to many other CSS properties. You can see a table of what triggers are executed with each CSS property [here](https://csstriggers.com/).
+The key benefit of using `transform` is that it occurs during **composition**. This makes it cheaper to use compared to many other CSS properties. You can see a table of what triggers are executed with each CSS property [here](https://web.archive.org/web/20220727225220/https://csstriggers.com/).
 
 Another benefit of `transform` is that it can be hardware-accelerated via a device's [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) (you don't have to understand how a GPU works but it is good to be aware of the term and what it means). This benefit is more prominent when it comes to transitions and animations which you will learn about in the following lessons.
 
-### Additional Resources
+### Knowledge check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- [What are the four main functions of the `transform` property?](#two-dimensional-transforms)
+- [Which function can be used to move an object through space on the X, Y, or Z axis?](#translate)
+- [Which function can be used to make an object larger or smaller on the X, Y, or Z axis?](#scale)
+- [What additional function is required for 3D transforms?](#three-dimensional-transforms)
+
+### Additional resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - Here's a good resource that summarizes [most common transform functions with some additional insight](https://www.joshwcomeau.com/css/transforms/) to how you may use them.
 - For a full reference, there's always [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
 - For more on the 3D transform functions, [W3Schools](https://www.w3schools.com/css/css3_3dtransforms.asp) has a good article demonstrating how they work.
-
-### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
-
-- <a class="knowledge-check-link" href="#two-dimensional-transforms">What are the four main functions of the `transform` property?</a>
-- <a class="knowledge-check-link" href="#translate">Which function can be used to move an object through space on the X, Y, or Z axis?</a>
-- <a class="knowledge-check-link" href="#scale">Which function can be used to make an object larger or smaller on the X, Y, or Z axis?</a>
-- <a class="knowledge-check-link" href="#three-dimensional-transforms">What additional function is required for 3D transforms?</a>

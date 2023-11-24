@@ -1,11 +1,15 @@
-### Lesson Overview
+### Introduction
+
+Let's see how the orientation of items within a flex container can be controlled using the `flex-direction` property.
+
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- You'll learn about the 2 "axes" of a flex container.
-- You'll learn how to change those axes to arrange your content in columns instead of rows.
+-   You'll learn about the 2 "axes" of a flex container.
+-   You'll learn how to change those axes to arrange your content in columns instead of rows.
 
-The most confusing thing about flexbox is that it can work either horizontally or vertically, and the way some rules work changes a bit depending on which direction you are working with.
+The most confusing thing about flexbox is that it can work either horizontally or vertically, and some rules change a bit depending on which direction you are working with.
 
 The default direction for a flex container is horizontal, or `row`, <span id='flex-vertical'>but you can change the direction to vertical, or `column`. The direction can be specified in CSS like so:
 </span>
@@ -23,9 +27,8 @@ The default direction for a flex container is horizontal, or `row`, <span id='fl
 In other words, in our very first example, we put `display: flex` on a div and it arranged its children horizontally. This is a demonstration of `flex-direction: row`, the default setting. The following example is very similar. If you uncomment the line that says `flex-direction: column`, those divs will stack vertically.
 
 <p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="BaZKPdw" data-editable="true" data-user="TheOdinProjectExamples" style="height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/BaZKPdw">
-  flex-direction example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+  <span>See the Pen [flex-direction example](https://codepen.io/TheOdinProjectExamples/pen/BaZKPdw) by TheOdinProject ([@TheOdinProjectExamples](https://codepen.io/TheOdinProjectExamples))
+  on [CodePen](https://codepen.io).</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
@@ -41,11 +44,20 @@ We've strayed from the point slightly... We were talking about flex-direction an
 
 > There are situations where the behavior of flex-direction could change if you are using a language that is written top-to-bottom or right-to-left, but you should save worrying about that until you are ready to start making a website in Arabic or Hebrew.
 
-### Knowledge Check
+
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href='#flex-vertical'>How do you make flex items arrange themselves vertically instead of horizontally?</a>
-- <a class="knowledge-check-link" href='#column-flex-basis'>In a `column` flex-container, what does `flex-basis` refer to?</a>
-- <a class="knowledge-check-link" href='#row-flex-basis'>In a `row` flex-container, what does `flex-basis` refer to?</a>
-- <a class="knowledge-check-link" href='#flex-axes'>Why do the previous two questions have different answers?</a>
+-   [How do you make flex items arrange themselves vertically instead of horizontally?](#flex-vertical)
+-   [In a `column` flex-container, what does `flex-basis` refer to?](#column-flex-basis)
+-   [In a `row` flex-container, what does `flex-basis` refer to?](#row-flex-basis)
+-   [Why do the previous two questions have different answers?](#flex-axes)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+*   [This flexbox visual cheatsheet](https://flexbox.malven.co/) has some useful references to flex and its properties.
+
+* For an interactive demo, check out this [Scrim on Flexbox axes](https://scrimba.com/learn/flexbox/main-axis-and-cross-axis-flexbox-tutorial-cz94MT8). Note that this Scrim requires logging into Scrimba in order to view.

@@ -1,8 +1,6 @@
-### Welcome to The Odin Project
+### Introduction
 
 The Odin Project is an open-source community dedicated to providing the best information sources to take you from zero to a full-stack developer.  More information can be found at The Odin Project's [about page](https://www.theodinproject.com/about).
-
-### Introduction
 
 In this unit, we'll learn about how the web works and start thinking about the basics of computer and web programming.
 
@@ -14,7 +12,7 @@ By the end of this unit, you should not only understand how the web works but al
 
 This section intentionally covers a very broad range of topics. It's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).
 
-### How It Works
+### How it works
 
 This curriculum works by pulling together the best content from across the internet for learning a particular topic.  In each lesson, we'll introduce the topic and try to provide some useful context before pointing you to external resources made by others.
 
@@ -22,7 +20,7 @@ Most lessons will contain questions that you should be able to answer before mov
 
 Try not to think of The Odin Project, or programming, as a class in school. It's not material you learn all at once to take a test, and then pass or fail. You can think of it as a snowball. You, yourself, are a snowball. You're rolling down a hill full of snow; the further you roll, the more snow will stick to you. Sure, snow will also fall off you, and you'll forget things often, but that's just part of the process. Don't be scared if you get to a project and you feel like you haven't retained or memorized anything. That's natural and happens to everyone. The information will come back to you as you start solving your problems one at a time, relying on Google and the Odin Community for help.
 
-### A Note About Language
+### A note about language
 
 The Odin Project attracts people from all over the world who aspire to learn how to become developers. Please be aware that this curriculum is written in English and maintained by English speakers who are not able or expected to translate it for you. As you develop into a programmer, you will find that the world you are entering into is firmly rooted in the English language. This means that the syntax of your programming language, the documentation that teaches you how to use it, and the majority of the people in the community are all expecting to communicate with you in English.
 
@@ -32,7 +30,7 @@ As another part of this preparation, we *highly* recommend spending extra time o
 
 In addition to this, you might also consider using a translation dictionary in your own language alongside our curriculum so you can readily reference it as you go. We do not have any recommendations on these since there are such a wide variety of languages spoken throughout the world, finding one may perhaps be a good first step in learning how to find useful tools online by searching. This is a skill you will utilize and improve as you progress in your learning to be a developer.
 
-### What Comes Next
+### What comes next
 
 Once you've completed this course, you should feel comfortable with the building blocks of web programming but itching to dig deeper.  Though we spend a fair bit of time digging into each of the major topics in this course, it's really just a taste of what comes next (and all the cool stuff you can do with it).
 
@@ -41,14 +39,14 @@ to take the foundation built in this course and build it into an applied underst
 
 The Odin Project is maintained by professionals.  We have chosen some of the best resources available and curated a guide on how to go through them. If there are no good resources, we write our own. With that said, know that **everything** in the curriculum is intentionally included and vital for you to become a successful programmer. 
 
-As you move forward, in the curriculum each portion is built on everything that came before it, so skipping things will create pockets of non-understanding in your knowledge that start to affect your ability to solve problems and understand the task at hand. 
+As you move forward in the curriculum, each portion is built on everything that came before it, so skipping things will create pockets of non-understanding in your knowledge that start to affect your ability to solve problems and understand the task at hand. 
 
 Additional resources are the only thing that is considered optional unless explicitly stated. These are here in case you feel like you need or want to dive deeper into a topic to get a better understanding. 
 
 **DO NOT SKIP ANYTHING!** 
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
  
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

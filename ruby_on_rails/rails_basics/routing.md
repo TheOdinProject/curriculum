@@ -6,23 +6,24 @@ The Router is basically just a matching service.  It looks at the HTTP verb (GET
 
 The other handy thing that goes on when a request enters your application is that Rails grabs all the parameters that came with it and makes them available for you in a special hash called `params` that you can later use in your controller.  That's good for things like form submissions so that you later can use that form data to create or modify objects.
 
-If you open the routes file in your Rails app (located in `config/routes.rb`), you'll see a huge blob of comments that do a pretty good job of explaining how it works, so you're never in much danger of losing your way.
+If you open the routes file in your Rails app (located in `config/routes.rb`), you'll see a link to the Rails Guides routing section. This resource does a good job of explaining how it works, so you're never in much danger of losing your way.
 
-Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but I remember learning Rails and getting hung up on what exactly is going on. Luckily, typing `$ rails routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file.
+Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but when learning Rails it's easy to get hung up on what exactly is going on. Luckily, typing `$ rails routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file.
 
-### Learning Outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
 
-* Configure a root route.
-* Configure RESTful routes for a resource.
-* Configure customized routes for a resource.
-* Name and describe the 7 RESTful controller actions.
-* Obtain a list of all possible routes your current Rails application provides you with.
-* Apply helper methods to create a navigation link on your webpage.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Configuring a root route.
+- Configuring RESTful routes for a resource.
+- Configuring customized routes for a resource.
+- The 7 RESTful controller actions.
+- How to obtain a list of all possible routes for your current Rails application.
+- Helper methods to create a navigation link on your webpage.
 
 ### Root
 
-The most important (and simplest) route in your file is the root url... where should users be deposited when they land on `http://supercutekittenphotos.com`?  Just tell Rails which controller and action to map that route to, and it is so:
+The most important (and simplest) route in your file is the root URL... where should users be deposited when they land on `http://supercutekittenphotos.com`?  Just tell Rails which controller and action to map that route to, and it is so:
 
 ~~~ruby
   root to: "kittens#index"  #kittens controller, index action (method)
@@ -30,7 +31,7 @@ The most important (and simplest) route in your file is the root url... where sh
 
 Remember, when we say "action" we really mean "the method inside the controller that is called that", e.g. the `index` action is just the `index` method that's defined in the KittensController*
 
-### RESTful Routes
+### RESTful routes
 
 If you recall our earlier discussion about REST, there are basically seven main types of actions that you can (and should) do to a "resource", or an object like a blog post or user... something with its own database model.  From that discussion, they are:
 
@@ -68,7 +69,7 @@ Each of these routes is basically a Ruby method that matches that particular URL
 
 You will be able to access that ID directly from the controller by tapping into the params hash where it got stored.
 
-### The Rails Way to Write Restful Routes
+### The Rails way to write RESTful routes
 
 Rails knows you want to use those seven actions all the time... so they came up with a handy helper method which lets you do in one line what we just wrote in seven lines in our resources file:
 
@@ -81,9 +82,9 @@ Rails knows you want to use those seven actions all the time... so they came up 
 
 That's it.  That is a Ruby method which basically just outputs those seven routes we talked about before.  No magic.  You see it a whole lot, now you know what it does.
 
-### Rails Routes and Route Helpers
+### Rails routes and route helpers
 
-With that above line in my routes file, what do my routes look like?  If you type `$ rails routes` on the command line, it'll output all the routes your application knows, which look like:
+With that above line in our routes file, what do our routes look like?  If you type `$ rails routes` on the command line, it'll output all the routes your application knows, which look like:
 
 ~~~bash
   edit_post  GET  /posts/:id/edit(.:format)  posts#edit
@@ -109,12 +110,12 @@ Any routes which require you to specify an ID or other parameters will need you 
 
 Now the `:referral_link` parameter would be available in your `params` hash in your controller in addition to the normal set of parameters.
 
-### Routes go to Controller Actions!
+### Routes go to controller actions!
 
 Just to drive home that routes correspond directly to controller actions, a very simple sample controller which would fulfill the above routes generated by `resources :posts` might look like:
 
 ~~~ruby
-  # in app/controllers/posts
+  # in app/controllers/posts_controller.rb
   class PostsController < ApplicationController
 
     def index
@@ -141,13 +142,13 @@ Just to drive home that routes correspond directly to controller actions, a very
 
     def edit
       # very simple code to find the post we want and send the
-      # user to the Edit view for it(edit.html.erb), which has a
+      # user to the Edit view for it (edit.html.erb), which has a
       # form for editing the post
     end
 
     def update
       # code to figure out which post we're trying to update, then
-      # actually update the attributes of that post.  Once that's
+      # actually update the attributes of that post. Once that's
       # done, redirect us to somewhere like the Show page for that
       # post
     end
@@ -161,7 +162,7 @@ Just to drive home that routes correspond directly to controller actions, a very
 
 Remember that you can run `$ rails routes` in the project directory to see all of the routes with their corresponding controllers and actions.
 
-### I Don't Want All Seven Routes!
+### We don't want all seven routes!
 
 Sometimes you just don't want all seven of the RESTful routes that `resources` provides.  Easy, either specify just the ones you want using `only` or just the ones you DON'T want using `except`:
 
@@ -170,7 +171,7 @@ Sometimes you just don't want all seven of the RESTful routes that `resources` p
   resources :users, except: [:index]
 ~~~
 
-### Non-RESTful Routes
+### Non-RESTful routes
 
 Of course, you don't have to do everything the RESTful way.  You probably should, but there are times that you want to make up your own route and map it to your own controller action.  Just follow the examples we gave at the top for RESTful routes:
 
@@ -189,19 +190,17 @@ You should have a good sense of what's going on in the routes file by now but pr
 2. Watch this [Wonderful explanation of how REST and HTTP works](https://www.youtube.com/watch?v=Q-BpqyOT3a8). You can follow the tutorial using `curl https://api.github.com`.
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [CodeSchool's Surviving APIs with Rails](https://www.youtube.com/watch?v=99nZVo9amAQ) - Level 1 is free and gets into REST, Routes, Constraints, and Namespaces.
-* [Medium article](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5) on rails routing. It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest.
+* [Medium article](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5) on Rails routing. It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest.
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#the-purpose-of-the-rails-router">What is the purpose of the Rails router?</a>
-* <a class="knowledge-check-link" href="#root">How do you assign the root route of your application in the router?</a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#crud-verbs-and-actions">Assuming we have no knowledge of the HTTP-verb, which 3 RESTful controller actions could be triggered by the `/photos/:id` -route?</a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#restricting-the-routes-created">How can you assign all of the RESTful routes for a resource - excluding the destroy-route - in just one line?</a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/routing.html#path-and-url-helpers">How would you create a link in your app (without hardcoding), that directs you to `/photos/10/edit`?</a>
-* <a class="knowledge-check-link" href="https://youtu.be/Q-BpqyOT3a8?t=886">Which Chrome extension can you use to simulate HTTP-requests with an API?</a>
-
+* [What is the purpose of the Rails router?](https://guides.rubyonrails.org/routing.html#the-purpose-of-the-rails-router)
+* [How do you assign the root route of your application in the router?](#root)
+* [Assuming we have no knowledge of the HTTP-verb, which 3 RESTful controller actions could be triggered by the `/photos/:id` -route?](https://guides.rubyonrails.org/routing.html#crud-verbs-and-actions)
+* [How can you assign all of the RESTful routes for a resource - excluding the destroy-route - in just one line?](https://guides.rubyonrails.org/routing.html#restricting-the-routes-created)
+* [How would you create a link in your app (without hardcoding), that directs you to `/photos/10/edit`?](https://guides.rubyonrails.org/routing.html#path-and-url-helpers)
+* [Which Chrome extension can you use to simulate HTTP-requests with an API?](https://youtu.be/Q-BpqyOT3a8?t=886)

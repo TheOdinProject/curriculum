@@ -8,10 +8,10 @@ A knight in chess can move to any square on the standard 8x8 chess board from an
 
 All the possible places you can end up after one move look like this:
 
-<img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/ruby_programming/computer_science/project_knights_travails/imgs/01.png">
+![Knights Travails board](https://cdn.statically.io/gh/TheOdinProject/curriculum/d30038e0aaca1f35e58e205e37a21b2c9d31053d/ruby/computer_science/project_knights_travails/imgs/01.png)
 
 ### Assignment
-Your task is to build a function `knight_moves` that shows the simplest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
+Your task is to build a function `knight_moves` that shows the shortest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
 
 You can think of the board as having 2-dimensional coordinates.  Your function would therefore look like:
 
@@ -20,10 +20,10 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
   * `knight_moves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]`
 
 <div class="lesson-content__panel" markdown="1">
-1. Put together a script that creates a game board and a knight.
-2. Treat all possible moves the knight could make as children in a tree.  Don't allow any moves to go off the board.
-2. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
-3. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
+1. Think about the rules of the board and knight, make sure to follow them.
+2. For every square there is a number of possible moves, choose a data structure that will allow you to work with them .  Don't allow any moves to go off the board.
+3. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
+4. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
 
 ~~~bash
   > knight_moves([3,3],[4,3])

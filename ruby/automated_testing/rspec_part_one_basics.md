@@ -268,7 +268,7 @@ Finished in 0.00247 seconds (files took 0.1574 seconds to load)
 
 #### Test Order
 
-You may have noticed the tests are not displaying in order we wrote them in. When we set up the project earlier, we configired the tests to execute in a random order by adding the `--order rand` line to the `.rspec` file.
+You may have noticed the tests are not displaying in order we wrote them in. When we set up the project earlier, we configured the tests to execute in a random order by adding the `--order rand` line to the `.rspec` file.
 
 We did this because each of our tests should be deterministic, meaning that they should be independent of each other and execute the same way every-time no matter what order they are in.
 

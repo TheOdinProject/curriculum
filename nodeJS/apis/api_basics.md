@@ -1,4 +1,4 @@
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to do the following:
 
@@ -18,7 +18,7 @@ In recent years, a new pattern for developing websites has been gaining populari
 
 Organizing your project this way can be beneficial because it allows your project to be more modular instead of combining business logic with view logic. This also allows you to use a single backend source for multiple frontend applications, such as a website, a desktop app, or a mobile app. Other developers enjoy this pattern because they simply like using frontend frameworks such as React or Vue to create nice frontend-only, single-page applications.
 
-Frontend and backend applications usually talk to each other using JSON, which you have already encountered if you've gone through our frontend JavaScript course. So at this point, all you really need to learn is how to get your Express application to speak JSON instead of HTML, which fortunately for you is extremely simple! The assignment at the end of this lesson will take you through a tutorial, but essentially all you have to do is pass your information into [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of `res.send()` or `res.render()`. How easy is that?
+Frontend and backend applications usually talk to each other using JSON, which you have already encountered if you've gone through our frontend JavaScript course. So at this point, all you really need to learn is how to get your Express application to speak JSON instead of HTML, which fortunately for you is extremely simple! The assignment at the end of this lesson will take you through a tutorial, but essentially all you have to do is pass your information into [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render). How easy is that?
 
 It is also quite possible to have an Express app that both serves views and JSON by using the Express router to set up different routes. If you think back to the organization of the routes in our Library Tutorial ([here's a link to it](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#Create_the_catalog_route_module)). All of our routes were set up in a `catalog` module, so to get the view for our list of books you would access `/catalog/books`. Setting the Library project up to also serve JSON would be as easy as creating a different router module called `api` and then adjusting the controllers so that `/catalog/books` would serve up the HTML list of our books and `/api/books` would serve up the same information as JSON.
 
@@ -39,7 +39,7 @@ Typically this takes the form of 2 URI's per resource, one for the whole collect
 | PUT    | Update | `PUT /posts/:postid` Updates a single post         |
 | DELETE | Delete | `DELETE /posts/:postid` Deletes a single post      |
 
-Each part of an API URI specifies the resource. For example, `GET /posts` would return the entire list of blog posts while `GET /posts/:postid` specifies the exact blog post we want. We could nest further with `GET /posts/:postid/comments` to return a list of comments for that blog post or even `GET /posts/:id/comments/:commentid` for a very specific blog post comment.
+Each part of an API URI specifies the resource. For example, `GET /posts` would return the entire list of blog posts while `GET /posts/:postid` specifies the exact blog post we want. We could nest further with `GET /posts/:postid/comments` to return a list of comments for that blog post or even `GET /posts/:postid/comments/:commentid` for a very specific blog post comment.
 
 ### CORS
 
@@ -53,21 +53,21 @@ For now, it is acceptable to just allow access from any origin. This makes devel
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [This article](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design) is a good resource for understanding and [organizing](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths) RESTful APIs.
+1. [This article](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design) is a good resource for understanding and organizing RESTful APIs. If you want to code along with the first article, please note this includes the body-parser middleware to parse JSON data on the request body, however since Express 4.16.0 this parsing functionality has been incorporated directly into the express package itself.
 1. Read and code along with [this tutorial](https://www.robinwieruch.de/node-express-server-rest-api/) on setting up a REST API in Express. This is one of the best Express tutorials we've come across, it also talks about modular code organization, writing middleware, and links to some great extra info at the end.
 </div>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - A [simple](https://simple.wikipedia.org/wiki/Representational_state_transfer) example based definition of REST.
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='#rest'>What does REST stand for?</a>
-- <a class='knowledge-check-link' href='#rest'>What are HTTP verbs and why are they important to an API?</a>
-- <a class='knowledge-check-link' href='#cors'>What is the Same-Origin Policy?</a>
-- <a class='knowledge-check-link' href='https://expressjs.com/en/resources/middleware/cors.html'>How do you enable CORS in your Express app?</a>
-- <a class='knowledge-check-link' href='https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths'>Which HTTP verb does each letter in CRUD (Create, Read, Update, Delete) correspond to?</a>
+- [What does REST stand for?](#rest)
+- [What are HTTP verbs and why are they important to an API?](#rest)
+- [What is the Same-Origin Policy?](#cors)
+- [How do you enable CORS in your Express app?](https://expressjs.com/en/resources/middleware/cors.html)
+- [Which HTTP verb does each letter in CRUD (Create, Read, Update, Delete) correspond to?](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths)

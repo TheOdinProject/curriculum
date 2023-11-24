@@ -1,8 +1,9 @@
+### Introduction
 Creating users and allowing them to log in and out of your web apps is a crucial functionality that we are finally ready to learn! There is quite a bit of setup involved here, but thankfully none of it is too tricky. You'll be up and running in no time! In this lesson, we're going to be using [passportJS](https://www.passportjs.org), an excellent middleware to handle our authentication and sessions for us.
 
 We're going to be building a very minimal express app that will allow users to sign up, log in, and log out. For now, we're just going to keep everything except the views in one file to make for easier demonstration, but in a real-world project, it is best practice to split our concerns and functionality into separate modules.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to do the following:
 
@@ -12,16 +13,16 @@ By the end of this lesson, you should be able to do the following:
 - Describe what Strategies are.
 - Use the LocalStrategy to authenticate users.
 - Explain the purpose of cookies in authentication.
-- Refreshed on prior learning material (routes, templates, middleware).
+- Review prior learning material (routes, templates, middleware, async/await, and promises).
 - Use PassportJS to set up user authentication with Express.
 
-#### Data Security/Safety
+#### Data security/safety
 
 - Describe what bcrypt is and its use.
 - Describe what a hash is and explain the importance of password hashing.
 - Describe bcrypt's `compare` function.
 
-### Set Up
+### Set up
 
 We're going to be using another Mongo database, so before we begin log in to your mongo provider and create a new database and save its URL string somewhere handy.
 
@@ -30,6 +31,8 @@ To begin, let's set up a very minimal express app with a single MongoDB model fo
 ~~~
 npm install express express-session mongoose passport passport-local ejs
 ~~~
+
+**Mongoose Update**: With the new 7.0.1 version of Mongoose callbacks are no longer supported when querying a database. A promise will be returned instead, meaning that you will now have to use async/await or promises to achieve the same results. If you need a refresher on async/await you can find it in the [Async And Await Lesson](https://www.theodinproject.com/lessons/node-path-javascript-async-and-await) from the JavaScript Course. As you progress through this lesson you will see a blend of using async/await with try/catch blocks as well as other functions that use callbacks, which you've seen as you've progressed through the NodeJS course. You can read more about this change [here](https://mongoosejs.com/docs/migrating_to_7.html#dropped-callback-support).
 
 Next, let's create our `app.js`:
 
@@ -47,7 +50,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const mongoDb = "YOUR MONGO URL HERE";
-mongoose.connect(mongoDb, { useUnifiedTopology: true, useNewUrlParser: true });
+mongoose.connect(mongoDb);
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "mongo connection error"));
 
@@ -90,7 +93,7 @@ To keep things simple, our view engine is set up to just look in the main direct
 </html>
 ~~~
 
-### Creating Users
+### Creating users
 
 The first thing we need is a sign up form so we can actually create users to authenticate! In the Library Tutorial website, you learned about validating and sanitizing inputs. This is a _really good idea_, but for the sake of brevity, we're going to leave that out here. Don't forget to include sanitation and validation when you get to the project.
 
@@ -126,16 +129,17 @@ app.get("/sign-up", (req, res) => res.render("sign-up-form"));
 Next, create an `app.post` for the sign up form so that we can add users to our database (remember our notes about sanitation, and using plain text to store passwords...).
 
 ~~~javascript
-app.post("/sign-up", (req, res, next) => {
-  const user = new User({
-    username: req.body.username,
-    password: req.body.password
-  }).save(err => {
-    if (err) { 
-      return next(err);
-    }
+app.post("/sign-up", async (req, res, next) => {
+  try {
+    const user = new User({
+      username: req.body.username,
+      password: req.body.password
+    });
+    const result = await user.save();
     res.redirect("/");
-  });
+  } catch(err) {
+    return next(err);
+  };
 });
 ~~~
 
@@ -152,38 +156,41 @@ We need to add 3 functions to our app.js file, and then add an app.post for our 
 #### Function one : setting up the LocalStrategy
 ~~~javascript
 passport.use(
-  new LocalStrategy((username, password, done) => {
-    User.findOne({ username: username }, (err, user) => {
-      if (err) { 
-        return done(err);
-      }
+  new LocalStrategy(async (username, password, done) => {
+    try {
+      const user = await User.findOne({ username: username });
       if (!user) {
         return done(null, false, { message: "Incorrect username" });
-      }
+      };
       if (user.password !== password) {
         return done(null, false, { message: "Incorrect password" });
-      }
+      };
       return done(null, user);
-    });
+    } catch(err) {
+      return done(err);
+    };
   })
 );
 ~~~
 
 This function is what will be called when we use the `passport.authenticate()` function later.  Basically, it takes a username and password, tries to find the user in our DB, and then makes sure that the user's password matches the given password. If all of that works out (there's a user in the DB, and the passwords match) then it authenticates our user and moves on! We will not be calling this function directly, so you won't have to supply the `done` function.  This function acts a bit like a middleware and will be called for us when we ask passport to do the authentication later.
 
-### Functions two and three: Sessions and serialization
+### Functions two and three: sessions and serialization
 
 <span id='cookie'>To make sure our user is logged in, and to allow them to _stay_ logged in as they move around our app, passport will use some data to create a cookie which is stored in the user's browser</span>. These next two functions define what bit of information passport is looking for when it creates and then decodes the cookie.  The reason they require us to define these functions is so that we can make sure that whatever bit of data it's looking for actually exists in our Database! For our purposes, the functions that are listed in the passport docs will work just fine.
 
 ~~~javascript
-passport.serializeUser(function(user, done) {
+passport.serializeUser((user, done) => {
   done(null, user.id);
 });
 
-passport.deserializeUser(function(id, done) {
-  User.findById(id, function(err, user) {
-    done(err, user);
-  });
+passport.deserializeUser(async (id, done) => {
+  try {
+    const user = await User.findById(id);
+    done(null, user);
+  } catch(err) {
+    done(err);
+  };
 });
 ~~~
 
@@ -262,9 +269,13 @@ So, this code checks to see if there is a user defined... if so it offers a welc
 As one last step... let's make that log out link actually work for us. As you can see it's simply sending us to `/log-out` so all we need to do is add a route for that in our app.js.  Conveniently, the passport middleware adds a logout function to the `req` object, so logging out is as easy as this:
 
 ~~~javascript
-app.get("/log-out", (req, res) => {
-  req.logout();
-  res.redirect("/");
+app.get("/log-out", (req, res, next) => {
+  req.logout((err) => {
+    if (err) {
+      return next(err);
+    }
+    res.redirect("/");
+  });
 });
 ~~~
 
@@ -272,12 +283,12 @@ You should now be able to visit `/sign-up` to create a new user, then log-in usi
 
 #### A quick tip
 
-In express, you can set and access various local variables throughout your entire app (even in views) with the `locals` object. We can use this knowledge to write ourselves a custom middleware that will simplify how we access our current user in our views. 
+In express, you can set and access various local variables throughout your entire app (even in views) with the `locals` object. We can use this knowledge to write ourselves a custom middleware that will simplify how we access our current user in our views.
 
 Middleware functions are simply functions that take the `req` and `res` objects, manipulate them, and pass them on through the rest of the app.
 
 ~~~javascript
-app.use(function(req, res, next) {
+app.use((req, res, next) => {
   res.locals.currentUser = req.user;
   next();
 });
@@ -295,21 +306,21 @@ Once it's installed you need to require it at the top of your app.js and then we
 
 #### Storing hashed passwords:
 
-Password hashes are the result of passing the user's password through a one-way hash function, which maps variable sized inputs to fixed size pseudo-random outputs. 
+Password hashes are the result of passing the user's password through a one-way hash function, which maps variable sized inputs to fixed size pseudo-random outputs.
 
 Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:
 
 ~~~javascript
-bcrypt.hash("somePassword", 10, (err, hashedPassword) => {
+bcrypt.hash(req.body.password, 10, async (err, hashedPassword) => {
   // if err, do something
   // otherwise, store hashedPassword in DB
 });
 ~~~
 
-The second argument is the length of the "salt" to use in the hashing function; salting a password means adding extra random characters to it, the password plus the the extra random characters are then fed into the hashing function. Salting is used to make a password hash output unique, even for users who use the same password, and to protect against [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table) and [dictionary](https://en.wikipedia.org/wiki/Dictionary_attack) attacks.
+The second argument is the length of the "salt" to use in the hashing function; salting a password means adding extra random characters to it, the password plus the extra random characters are then fed into the hashing function. Salting is used to make a password hash output unique, even for users who use the same password, and to protect against [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table) and [dictionary](https://en.wikipedia.org/wiki/Dictionary_attack) attacks.
 
 Usually, the salt gets stored in the database in the clear next to the hashed value, but in our case, there is no need to do so because the hashing algorithm that `bcryptjs` uses includes the salt automatically with the hash.
- 
+
 The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a simple password, then go look at your DB entries to see how it's being stored.  If you've done it right, your password should have been transformed into a really long random string.
 
 It's important to note that _how_ hashing works is beyond the scope of this lesson. To learn more about the subject consider reading [This wikipedia article](https://en.wikipedia.org/wiki/Cryptographic_hash_function).
@@ -321,34 +332,30 @@ It's important to note that _how_ hashing works is beyond the scope of this less
 Inside your `LocalStrategy` function we need to replace the `user.password !== password` expression with the `bcrypt.compare()` function.
 
 ~~~javascript
-bcrypt.compare(password, user.password, (err, res) => {
-  if (res) {
-    // passwords match! log user in
-    return done(null, user)
-  } else {
-    // passwords do not match!
-    return done(null, false, { message: "Incorrect password" })
-  }
-})
+const match = await bcrypt.compare(password, user.password);
+if (!match) {
+  // passwords do not match!
+  return done(null, false, { message: "Incorrect password" })
+}
 ~~~
 
 You should now be able to log in using the new user you've created (the one with a hashed password).  <span id='bcrypt'>Unfortunately, users that were saved BEFORE you added bcrypt will no longer work, but that's a small price to pay for security</span>! (and a good reason to include bcrypt from the start on your next project)
 
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [This article](https://levelup.gitconnected.com/everything-you-need-to-know-about-the-passport-local-passport-js-strategy-633bbab6195) goes into great detail about the passport local strategy and brings the magic that happens behind the scenes into the light. It provides a comprehensive foundation for how session-based authentication works using browser cookies along with backend sessions to manage users.
+- If you like video content, watch this [Youtube Playlist](https://www.youtube.com/playlist?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK). You just need to watch the first 6 videos.
 
-- If you like video content, watch this [Youtube Playlist](https://www.youtube.com/playlist?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK) by the same author who wrote the article above. You just need to watch the first 6 videos.
+- [This video](https://www.youtube.com/watch?v=8ZtInClXe1Q) gives a broad overview of some of the different methods to store passwords in databases, and the risks of some of them.
 
-- [This video](https://www.youtube.com/watch?v=8ZtInClXe1Q) gives a broad overview of some of the different methods to store passwords in databases, and the risks of some of them. 
+- In [Passport: The Hidden Manual](https://github.com/jwalton/passport-api-docs), you can explore comprehensive explanations of Passport's functions, gaining a deeper understanding of what each function accomplishes.
 
 
-### Knowledge Checks 
+### Knowledge checks
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='#strategy'>Which passportJS strategy did we use in this lesson?</a>
-- <a class='knowledge-check-link' href='#cookie'>Why does passportJS create a cookie?</a>
-- <a class='knowledge-check-link' href='#compare'>What does the `bcrypt.compare()` function do?</a>
-- <a class='knowledge-check-link' href='#bcrypt'>Why should we include bcrypt when we begin a project?</a>
+- [Which passportJS strategy did we use in this lesson?](#strategy)
+- [Why does passportJS create a cookie?](#cookie)
+- [What does the `bcrypt.compare()` function do?](#compare)
+- [Why should we include bcrypt when we begin a project?](#bcrypt)
