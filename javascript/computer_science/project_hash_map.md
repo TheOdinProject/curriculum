@@ -1,12 +1,12 @@
 ### Introduction
 
-One of the most used data structure across all languages is a Hash Table, aka Hash Map. If you've worked with JavaScript Object Literal `{}`, `Set`, and `Map`, then you have used structures based on hash tables. But how do they work exactly? How can we save values using strings and symbols as keys and then retrieve those values using the same keys.
+One of the most used data structure across all languages is a hash table, aka hash map. If you've worked with JavaScript Object Literal `{}`, `Set`, and `Map`, then you have used structures based on hash tables. But how do they work exactly? How can we save values using strings and symbols as keys and then retrieve those values using the same keys.
 
-In this project, you will learn how it all works, and you will implement your own Hash Map! To start we need to learn a few concepts, one of which is a hash code, what does it mean, and how to use it. Let us get started and hope you are exited to finally know what is happening with an object when you put keys and values in them.
+In this project, you will learn how it all works, and you will implement your own hash map! To start we need to learn a few concepts, one of which is a hash code, what does it mean, and how to use it. Let us get started and hope you are exited to finally know what is happening with an object when you put keys and values in them.
 
 ### What is a hash code
 
-Let's start by learning what it means to hash a value. Hashing involves taking an input in and generating an output that represents the initial input. A Hash function should be a pure function. Hashing the same input should always return the same hash code, and there should be no random generation component. For example, let's look at a hashing function that takes a name and gives us the first letter of that name:
+Let's start by learning what it means to hash a value. Hashing involves taking an input in and generating an output that represents the initial input. A hash function should be a pure function. Hashing the same input should always return the same hash code, and there should be no random generation component. For example, let's look at a hashing function that takes a name and gives us the first letter of that name:
 
 ```javascript
 function hash(name) {
@@ -94,7 +94,7 @@ This is it, making this will result in a hash table with `search`, `set` and `ge
 What if we found the hash code, but also the key value is the same as what we already have in the bucket. We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have Nodes with only keys and no values.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
-A Hash Map does not guarantee insertion order, when you iterate over it. That is because of the buckets indexing nature of hash coding. That means if you are to retrieve the array of keys and values to iterate over them, then they will not be in order of when you inserted them.
+A hash map does not guarantee insertion order, when you iterate over it. That is because of the buckets indexing nature of hash coding. That means if you are to retrieve the array of keys and values to iterate over them, then they will not be in order of when you inserted them.
 For example, if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]`
 If iterating over the hash map frequently is your goal, then this data structure is not the right choice for the job, a simple array would be better.
 </div>
@@ -153,7 +153,7 @@ Remember we don't want collisions, in a perfect world each bucket will either ha
 
 #### When do we know that it's time to grow our buckets size
 
-To deal with this, our Hash Map class need to keep track of two new fields, the `capacity` and the `load factor`.
+To deal with this, our hash map class need to keep track of two new fields, the `capacity` and the `load factor`.
 
 - The `capacity` is the amount of buckets we currently have. Keeping track of this will let us know if our map has reached the threshold, the threshold will depend on our factor variable as well.
 
@@ -161,14 +161,14 @@ To deal with this, our Hash Map class need to keep track of two new fields, the 
 
 ### Computation complexity
 
-A HashMap is very efficient in its insertion, retrieving and removing operations. That is because we use array indexes to do those operations. A HashMap has an average case complexity of `O(1)` for the following methods:
+A hash map is very efficient in its insertion, retrieving and removing operations. That is because we use array indexes to do those operations. A hash map has an average case complexity of `O(1)` for the following methods:
 - Insertion
 - Retrieving
 - Deletion
 
-Assuming we have a good HashMap written. The worst case of those operations would be `O(n)` and that happens when we have all our data hashes to the same exact bucket.
+Assuming we have a good hash map written. The worst case of those operations would be `O(n)` and that happens when we have all our data hashes to the same exact bucket.
 
-The Growth of our HashMap has the complexity of `O(n)` at all times.
+The Growth of our hash map has the complexity of `O(n)` at all times.
 
 ### Assignment
 
@@ -188,7 +188,7 @@ The Growth of our HashMap has the complexity of `O(n)` at all times.
 
   1. Inside the class DO NOT use Objects to store your key value pairs, And DO NOT use the array method `push` to insert your nodes into the buckets, always use indexes.
 
-#### Time to create a real HashMap
+#### Time to create a real hash map
 
   1. Start by creating a HashMap class or factory function, up to you. Then proceed to create the following methods:
 
@@ -200,7 +200,7 @@ The Growth of our HashMap has the complexity of `O(n)` at all times.
 
   1. `get` takes one argument as a key and returns the value that is assigned to this key.
 
-  1. `has` takes a key as an argument and checks if your HashMap has that key.
+  1. `has` takes a key as an argument and checks if your hash map has that key.
 
   1. `remove` takes a key as argument and remove it from the hash table.
 
