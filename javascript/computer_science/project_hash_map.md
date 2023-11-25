@@ -6,7 +6,7 @@ In this project, you will learn how it all works, and you will implement your ow
 
 ### What is a hash code
 
-Let us start by learning what does it mean to hash a value. Hashing means taking an input in and generating an output that represents this input. A Hash function should be a pure function, hashing the same input should always return the same hash code, there should be no random generation that is happening. For example, let's work a hashing function that takes a name and gives us the first letter of that name:
+Let's start by learning what it means to hash a value. Hashing involves taking an input in and generating an output that represents the initial input. A Hash function should be a pure function. Hashing the same input should always return the same hash code, and there should be no random generation component. For example, let's look at a hashing function that takes a name and gives us the first letter of that name:
 
 ```javascript
 function hash(name) {
@@ -14,14 +14,14 @@ function hash(name) {
 }
 ```
 
-We created our first basic hashing function, it takes a name and returns the first letter of that name.
-You might be familiar with this concept from your cipher exercise earlier in foundation, but there is a key difference between hashing and ciphering (encryption), which is reversibility.
+We created our first basic hashing function. It takes a name and returns the first letter of that name.
+You might be familiar with this concept from your cipher exercise earlier in the foundations course, but there is a key difference between hashing and ciphering (encryption): reversibility.
 
 Hashing is a one-way process. Here is an example given a name, you can get a hash out of it, but given a hash, you cannot revert it back to a name. If you have a name `"Carlos"` we can hash it to `"C"`. But it will not be possible to reverse it from `"C"` back to its original form. You cannot know if it is `"Carlos"`, maybe it's `"Carla"` or `"Carrot"` we don't know. This is very good for security also, given a password you can save the hash of that password, but if someone steals your hashes they cannot know the original passwords since they are unable to reverse the hash back to the password. We are not going to dive deeper into hashing passwords, this is a subject for another lesson.
 
 ### Use cases
 
-What can we do with those hashes, You have probably seen it in school where a folder is organized into smaller folders, each folder holds information about people with the same first letter, so we get something like this:
+What can we do with those hashes? You have probably seen it in school where a folder is organized into smaller folders, and each folder holds information about people with the same first letter, so we get something like this:
 
 ```
 C:
@@ -36,9 +36,9 @@ B:
   bianca.txt
 ```
 
-If we get new student in our school with the name `"Carlos"` we can run our hash function to find out what folder do we assign them in `hash("Carlos") -> "C"` so we put `"Carlos"` in the directory labeled `C`
+If we get new student in our school with the name `"Carlos"`, we can run our hash function to find out which folder to place them in. `hash("Carlos") -> "C"` so we put `"Carlos"` in the directory labeled `C`
 
-You might have spotted a problem, what if our school is populated with many people that share the same first letter `C`? Then we will have a directory with labeled `C` that have too many names that start with `"C"` and the other directories are empty. We need to rework our hash function, to eliminate more duplication and separate our students, while keeping constant structure in folders.
+You might have spotted a problem: what if our school is populated with many people whose names share the same first letter `C`? Then we will have a directory labeled `C` that holds too many names that start with `"C"` while the other directories are empty. To eliminate this duplication and better separate our students, we need to rework our hash function while still maintaining a constant folder structure.
 
 ```javascript
 function hash(name, surname) {
@@ -46,11 +46,11 @@ function hash(name, surname) {
 }
 ```
 
-Instead of just taking the first name letter, we take the first name and last name letters. `"Carlos Smith"` will have a hash code of `"CS"` this will surely spread our students in more directories, it will eliminate many duplicate hash codes from being generated.
+Instead of just taking the first name letter, we take the first name and last name letters. `"Carlos Smith"` will have a hash code of `"CS"`. This will spread our students among more directories and will eliminate many duplicate hash codes from being generated.
 
 ![Example of hashing a name using first name's first letter, and last name's first letter](./project_hash_map/imgs/00.png)
 
-But it still doesn't solve our problem, what if we have a very popular first name's first letter and surname's first letter? Then we are again with directories that are empty and other directories that are full, we need it easier for us to find the person we are looking for, so let's rework our hash code.
+But it still doesn't solve our problem. What if we have a common combination of first letters in students' names? Then we will still have an imbalance in the size of the directories. We need to make it easier to find the person we're looking for, so let's rework our hash code.
 
 ```javascript
 function stringToNumber(string) {
@@ -67,11 +67,11 @@ function hash(name, surname) {
 }
 ```
 
-Using this technique we don't only take the first letters into consideration, now we take the whole name and convert it into numbers.
+We not only consider the first letters with this technique. Instead, we take the entire name and convert it into numbers.
 
-You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true, this would make it unique for each name, but there are other reasons that we have chosen a number:
+You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true. This would make it unique for each name, but there are some good reasons to choose a number:
 
-- We do not save the hash code, the hash code is a calculation to find out which bucket (storage) our value will have to go to. Think about it as a locker number for example.
+- We do not save the hash code. The hash code is a calculation to find out which bucket (storage) our value will be placed in. Think about it as a locker number for example.
 
 - We save computation time. If we are to find where our hash is stored, it would be much faster and easier for a computer to compare two numbers rather than a string (or objects) to find the bucket where we have to store our elements (you will learn more about buckets shortly). Finding a bucket using a number would allow us to use that number as our index.
 
@@ -97,7 +97,7 @@ If iterating over the hash map frequently is your goal, then this data structure
 
 ### Collisions
 
-We have another problem that we need to track down. Collisions. A collision means two different values generating the exact same hash code, and since they have the same hash code they need to land in the same exact bucket.
+We have another problem that we need to deal with: collisions. A collision occurs when two different values generate the exact same hash code. Because they have the same hash code, they will land in the same bucket.
 
 Let's take an example: hashing the name `"Sara"` and the name `"raSa"` will generate the same hash code. That is because the letters in both names are the same, just arranged differently.
 Turn out, we can rework our `stringToNumber` function so that it can give us unique hash codes which depends on where the letter appear in the name using an algorithm.
@@ -121,7 +121,7 @@ With our new function we will have different hash codes for the names `"Sara"` a
   Notice the usage of prime number. We could have chosen any number we wanted, but prime numbers are even better to introduce less hash codes that are divisible by the same bucket length, which will make collisions less likely to happen.
 </div>
 
-Even tho we reworked our hash function, there is always the possibility for collisions, especially that we have a finite amount of buckets. There is no way to eliminate collisions entirely, but we try to minimize them as much as possible.
+Even though we reworked our hash function to avoid the `"Sara"/"raSa"` collision, there is always the possibility for collisions. Because we have a finite number of buckets, there is no way to eliminate collisions entirely. But we can try to minimize them as much as possible.
 
 #### Dealing with collisions
 
@@ -133,14 +133,14 @@ Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 th
 
 ### Growth of a hash table
 
-Let's talk about the growth of our buckets. We don't have infinite memory, we can't have infinite amount of buckets. We need to start somewhere but starting too big is also a waste of memory if we're only going to have a hash map that have `"Bryan"` in it. So to deal with this issue we start with a small array as our buckets, `10 buckets` for a starter with indexes from 0 to 9.
+Let's talk about the growth of our buckets. We don't have infinite memory, so we can't have an infinite amount of buckets. We need to start somewhere, but starting too big is also a waste of memory if we're only going to have a hash map with a single value in it. So to deal with this issue, we should start with a small array for our buckets. We'll use an array with 10 elements and indexes from 0 to 9.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
   Most programming languages start with the default size of `16` because it's a power of 2, which help with some techniques for performance that require bit manipulation for indexes. But for this example, we will be using a starting size of 10.
 </div>
 
 How are we going to insert into those buckets when our hash function generates big numbers like `20353924`? We make use of the modulo `%` operation `given any number modulo by 10 we will get a number between 0 and 9`.
-For example, If we are to find where the value `"Manon"` going to land, in what bucket, then we do the following:
+For example, if we are to find the bucket where the value `"Manon"` will land, then we do the following:
 ![hashing using hash code and modular operation example](./project_hash_map/imgs/01.png)
 
 If we keep adding nodes into our buckets then the buckets will start filling up, but what is more important is we know for a fact that if almost all buckets have items in them, then it is guaranteed that some buckets will have collisions, It is Mathematically impossible not to.
