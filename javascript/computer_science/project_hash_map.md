@@ -17,7 +17,11 @@ function hash(name) {
 We created our first basic hashing function. It takes a name and returns the first letter of that name.
 You might be familiar with this concept from your cipher exercise earlier in the foundations course, but there is a key difference between hashing and ciphering (encryption): reversibility.
 
-Hashing is a one-way process. In the above example, you can get a hash code from a name, but when given a hash, you cannot revert it back to a name. If you have a name `"Carlos"` we can hash it to `"C"`. But it will not be possible to reverse it from `"C"` back to its original form. You cannot know if the original name was `"Carlos"`. Maybe it's `"Carla"` or `"Carrot"`. We can't know. This is very good for security. Given a password you can save the hash of that password, but if someone steals your hashes they cannot know the original passwords because they are unable to reverse the hash back to the password. We are not going to dive deeper into hashing passwords, and this is a subject for another lesson.
+Hashing is a one-way process. Here is an example given a name, you can get a hash out of it, but given a hash, you cannot revert it back to a name. If you have a name `"Carlos"` we can hash it to `"C"`. But it will not be possible to reverse it from `"C"` back to its original form. You cannot know if it is `"Carlos"`, maybe it's `"Carla"` or `"Carrot"` we don't know.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+Hashing is very good for security, given a password you can save the hash of that password, but if someone steals your hashes they cannot know the original passwords since they are unable to reverse the hash back to the password.
+</div>
 
 ### Use cases
 
