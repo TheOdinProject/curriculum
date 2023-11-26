@@ -190,7 +190,7 @@ The Growth of our hash map has the complexity of `O(n)` at all times.
 
 #### Time to create a real hash map
 
-  1. Start by creating a HashMap class or factory function, up to you. Then proceed to create the following methods:
+  1. Start by creating a `HashMap` class or factory function. It's up to you which you want to use. Then proceed to create the following methods:
 
   1. `hash` takes a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing function, it is up to you if you want to do a research to find a good hashing function but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
 
@@ -200,11 +200,11 @@ The Growth of our hash map has the complexity of `O(n)` at all times.
 
   1. `get` takes one argument as a key and returns the value that is assigned to this key.
 
-  1. `has` takes a key as an argument and checks if your hash map has that key.
+  1. `has` takes a key as an argument and returns `true` or `false` based on whether or not the key is in the hash map.
 
-  1. `remove` takes a key as argument and remove it from the hash table.
+  1. `remove` takes a key as argument and removes it from the hash table.
 
-  1. `length` returns how many stored keys in the hash code.
+  1. `length` returns the number of stored keys in the hash map.
 
   1. `clear` removes all entries in the hash map.
 
@@ -212,7 +212,7 @@ The Growth of our hash map has the complexity of `O(n)` at all times.
 
   1. `values` returns an array containing all the values.
 
-  1. `entries` returns an array that contains each a `key, value` pairs. Example: `[[firstKey, firstValue], [secondKey, secondValue]]`
+  1. `entries` returns an array that contains each `key, value` pair. Example: `[[firstKey, firstValue], [secondKey, secondValue]]`
 
   Remember that a hash map does not preserve insertion order when you are retrieving your arrays' data, it is normal and expected for keys and values to appear out of the order you inserted them in.
 
