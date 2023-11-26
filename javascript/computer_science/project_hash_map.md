@@ -194,7 +194,7 @@ The Growth of our hash map has the complexity of `O(n)` at all times.
 
   1. `hash` takes a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing function, it is up to you if you want to do a research to find a good hashing function but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
 
-  1. `set` takes two arguments, the first is a key and the second is a value that is assigned to this key.
+  1. `set` takes two arguments, the first is a key and the second is a value that is assigned to this key, if a key already exists then the old value is overwritten.
 
      - Remember to grow your buckets size when it needs to, by calculating the `load factor` and `capacity`.
 
