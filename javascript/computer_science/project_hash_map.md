@@ -198,7 +198,7 @@ The Growth of our hash map has the complexity of `O(n)` at all times.
 
      - Remember to grow your buckets size when it needs to, by calculating the `load factor` and `capacity`.
 
-  1. `get` takes one argument as a key and returns the value that is assigned to this key.
+  1. `get` takes one argument as a key and returns the value that is assigned to this key. If key is not found, return `null`.
 
   1. `has` takes a key as an argument and returns `true` or `false` based on whether or not the key is in the hash map.
 
