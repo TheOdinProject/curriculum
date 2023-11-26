@@ -55,7 +55,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - [Khan Academy's great Algorithms Course](https://www.khanacademy.org/computing/computer-science/algorithms)
 - [Stanford's Coursera 4-Part Algorithm Course](https://www.coursera.org/specializations/algorithms)
 - [Visualizing Algorithms from Mike Bostock](http://bost.ocks.org/mike/algorithms/)
-- [Another free course on algorithms by Udacity](https://www.udacity.com/course/cs215)
+- [Another free course on algorithms by Udacity](https://www.udacity.com/course/intro-to-algorithms--cs215)
 - [A more detailed video on stacks and queues](https://www.youtube.com/watch?v=idrrIMXXeHM)
 - [An article](https://web.archive.org/web/20221207000421/https://www.crondose.com/2016/06/create-a-binary-search-tree-array) that discusses how to construct a binary search tree from an unordered array.
 - [A stack overflow discussion](https://stackoverflow.com/questions/3332947/when-is-it-practical-to-use-depth-first-search-dfs-vs-breadth-first-search-bf) on the relative strengths of BFS and DFS.

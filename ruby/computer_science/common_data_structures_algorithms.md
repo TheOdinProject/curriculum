@@ -48,7 +48,7 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Khan Academy's great Algorithms Course](https://www.khanacademy.org/computing/computer-science/algorithms)
 * [Stanford's Coursera 4-Part Algorithm Course](https://www.coursera.org/specializations/algorithms)
 * [Visualizing Algorithms from Mike Bostock](http://bost.ocks.org/mike/algorithms/)
-* [Another free course on algorithms by Udacity](https://www.udacity.com/course/cs215)
+* [Another free course on algorithms by Udacity](https://www.udacity.com/course/intro-to-algorithms--cs215)
 * [A brief note on putting Sorting, Tries and Heaps into Ruby, by Ilya Grigorik](http://www.igvita.com/2009/03/26/ruby-algorithms-sorting-trie-heaps/)
 * [A more detailed video on stacks and queues](https://www.youtube.com/watch?v=idrrIMXXeHM)
 * [An article](https://web.archive.org/web/20221207000421/https://www.crondose.com/2016/06/create-a-binary-search-tree-array) that discusses how to construct a binary search tree from an unordered array.

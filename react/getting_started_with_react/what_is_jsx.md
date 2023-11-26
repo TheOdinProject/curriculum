@@ -212,9 +212,11 @@ Now that we've applied all of the fixes to the errors that React gave us, this i
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through the React docs [Writing markup with JSX page](https://react.dev/learn/writing-markup-with-jsx) to review the content we have covered here, and complete the challenge at the end.
+In the following lessons, you will spend some time reading the React documentation. Most of them will have small tasks at the end to test what you have read. We will not       mention them explicitly each time, but be sure to do them. Practice makes perfect!
 
-2.  Read through the React docs [Javascript in JSX page](https://react.dev/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing Javascript logic and referencing dynamic values inside of your markup. Make sure you go through the challenges at the end.
+1.  Read through the React docs [Writing markup with JSX page](https://react.dev/learn/writing-markup-with-jsx) to review the content we have covered here.
+
+2.  Read through the React docs [Javascript in JSX page](https://react.dev/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing Javascript logic and referencing dynamic values inside of your markup.
 
 </div>
 
