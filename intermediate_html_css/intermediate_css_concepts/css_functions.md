@@ -139,4 +139,5 @@ This section contains helpful links to other content. It isn’t required, so co
 
 - [This video](https://www.youtube.com/watch?v=6QwMvf1Jq0M) by Steve Griffith gives a good visual overview of these functions.
 - [This article](https://moderncss.dev/practical-uses-of-css-math-functions-calc-clamp-min-max/) contains some specific use cases for all four functions, including color palette generation, background size responsiveness, and accessibility settings.
+- [This article](https://ishadeed.com/article/css-min-max-clamp/), by Ahmad Shadeed gives a detailed explanation, and contains real world use cases.
 
