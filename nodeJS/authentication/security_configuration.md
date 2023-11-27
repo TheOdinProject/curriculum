@@ -20,6 +20,11 @@ A more robust option is the package [nconf](https://github.com/indexzero/nconf).
 
 Digging into this package can be useful when creating bigger projects where app configuration needs to be a little more involved. This package makes it easy to configure things such as separate production and development databases, logging and debugging options, or anything else.
 
+### Secrets and PaaS
+
+If you add secrets to a deployed project or a project that you plan on deploying, you'll have to research how to import environment variables to the PaaS you choose to use or else your deployment will fail.  For instance, when using Fly.io, you need to run `fly secrets import < .env` from the command line.
+
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
