@@ -109,14 +109,14 @@ Firstly, we'll summarise the Big O Notations and then provide a little more cont
 
 The Big O Notations in the order of speed from fastest to slowest are:
 
--   O(1) - Constant Complexity
--   O(log N) - Logarithmic Complexity
--   O(N) - Linear Complexity
--   O(N log N) - N x log N Complexity
--   O(n&#178;) - Quadratic Complexity
--   O(n&#179;) - Cubic Complexity
--   O(2&#8319;) - Exponential Complexity
--   O(N!) - Factorial Complexity
+- O(1) - Constant Complexity
+- O(log N) - Logarithmic Complexity
+- O(N) - Linear Complexity
+- O(N log N) - N x log N Complexity
+- O(n&#178;) - Quadratic Complexity
+- O(n&#179;) - Cubic Complexity
+- O(2&#8319;) - Exponential Complexity
+- O(N!) - Factorial Complexity
 
 #### O(1) - constant complexity
 
