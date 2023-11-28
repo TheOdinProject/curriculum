@@ -26,15 +26,15 @@ The very first step in mastering efficient code is to understand how to measure 
 
 ```js
 function oddNumbersLessThanTen() {
-	let currentNumber = 1;
+  let currentNumber = 1;
 
-	while (currentNumber < 10) {
-		if (currentNumber % 2 !== 0) {
-			console.log(currentNumber);
-		}
+  while (currentNumber < 10) {
+    if (currentNumber % 2 !== 0) {
+      console.log(currentNumber);
+    }
 
-		currentNumber += 1;
-	}
+    currentNumber += 1;
+  }
 }
 ```
 
@@ -65,15 +65,15 @@ While this is useful to know, it isn't actually helpful for comparing algorithms
 
 ```js
 function oddNumbers(maxNumber) {
-	let currentNumber = 1;
+  let currentNumber = 1;
 
-	while (currentNumber < maxNumber) {
-		if (currentNumber % 2 !== 0) {
-			console.log(currentNumber);
-		}
+  while (currentNumber < maxNumber) {
+    if (currentNumber % 2 !== 0) {
+      console.log(currentNumber);
+    }
 
-		currentNumber += 1;
-	}
+    currentNumber += 1;
+  }
 }
 ```
 
@@ -237,12 +237,12 @@ Omega Notations gives us the best-case scenario for an algorithm. To understand 
 
 ```js
 function findValue(arr) {
-	for (let i = 0; i < arr.length; i++) {
-		let item = arr[i];
-		if (item === 1) {
-			return item;
-		}
-	}
+  for (let i = 0; i < arr.length; i++) {
+    let item = arr[i];
+    if (item === 1) {
+      return item;
+    }
+  }
 }
 ```
 
@@ -274,15 +274,15 @@ The first example is some code we've seen already, our `oddNumbers` function.
 
 ```js
 function oddNumbers(maxNumber) {
-	let currentNumber = 1;
+  let currentNumber = 1;
 
-	while (currentNumber < maxNumber) {
-		if (currentNumber % 2 !== 0) {
-			console.log(currentNumber);
-		}
+  while (currentNumber < maxNumber) {
+    if (currentNumber % 2 !== 0) {
+      console.log(currentNumber);
+    }
 
-		currentNumber += 1;
-	}
+    currentNumber += 1;
+  }
 }
 ```
 
@@ -292,15 +292,15 @@ Let's look at another version:
 
 ```js
 function oddNumbers(maxNumber) {
-	let currentNumber = 1;
+  let currentNumber = 1;
 
-	while (currentNumber < maxNumber) {
-		if (currentNumber % 2 !== 0) {
-			console.log(currentNumber);
-		}
+  while (currentNumber < maxNumber) {
+    if (currentNumber % 2 !== 0) {
+      console.log(currentNumber);
+    }
 
-		currentNumber += 2;
-	}
+    currentNumber += 2;
+  }
 }
 ```
 
