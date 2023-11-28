@@ -69,7 +69,6 @@ If we had written this program with TDD it is very likely that it would have loo
 3. Now that you have some practice and context for TDD, [this section](https://jestjs.io/docs/setup-teardown) of the Jest docs will probably make good sense to you.
 4. Jest includes some _really_ handy mocking functions.  Read about them in the [official docs](https://jestjs.io/docs/mock-functions).
 5. Watch [this amazing video](https://www.youtube.com/watch?v=URSWYvyc42M) that covers _what_ to test in your codebase.  The video is specifically about testing the Ruby language, but that doesn't matter _at all_.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.
-6. And finally, if you wish, you can add Jest to your webpack setup.  Read about that process [here](https://jestjs.io/docs/webpack).
 </div>
 
 ### Knowledge check 
@@ -91,3 +90,5 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 1. This [jest cheat sheet](https://github.com/sapegin/jest-cheat-sheet) walks you quickly through all the frequently used methods.
+
+2. If you wish, you can add Jest to your webpack setup.  Read about that process [here](https://jestjs.io/docs/webpack).
