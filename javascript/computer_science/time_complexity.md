@@ -14,11 +14,11 @@ In this lesson, we'll introduce the core concepts around measuring the time effi
 
 This section contains a general overview of topics that you will learn in this lesson.
 
--   How the efficiency of an algorithm is measured.
--   What is Big O.
--   What are the Big O notations used to measure an algorithm's efficiency.
--   How else can we measure an algorithm's efficiency.
--   What to do when two algorithms have the same complexity.
+- How the efficiency of an algorithm is measured.
+- What is Big O.
+- What are the Big O notations used to measure an algorithm's efficiency.
+- How else can we measure an algorithm's efficiency.
+- What to do when two algorithms have the same complexity.
 
 ### Efficiency basics
 
