@@ -12,7 +12,7 @@ Think of your favorite messaging app - Discord, Telegram, WhatsApp, Facebook Mes
    1. Customizing a user profile
 1. Spend some time planning out your app. What will the user interface look like? What will the data model look like? What libraries will you need to use?
 1. Start building your app by implementing the core functionality in your backend and frontend.
-   1. You may have realised that a REST API backend cannot handle real time updates. It is "request-response", so the server can only respond to a request. If a user sends a message to another user, a REST API cannot automatically notify the recipient as the recipient will not have requested that data. Whilst there are ways to implement real time functionality (e.g. polling, server-sent events, websockets etc.), these methods have not been taught and so you are not expected to implement any in this app.
+   1. You may have realized that a REST API backend cannot handle real time updates. It is "request-response", so the server can only respond to a request. If a user sends a message to another user, a REST API cannot automatically notify the recipient as the recipient will not have requested that data. Methods for real time server-client updates (particularly when dealing with a split front/backend) have not been taught, so you are not expected to implement any in this app.
 1. Deploy your app to the web and showcase it in the submissions below as well as on our Discord. We'd love to see what you've built!
 
 #### Extra credit
