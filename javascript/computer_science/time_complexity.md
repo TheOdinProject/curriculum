@@ -322,10 +322,10 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   [What is Big O?](#what-is-big-o)
--   [What are the Big O Notations?](#big-o-notation)
--   [Why use Big O?](#why-big-o)
--   [What is Big Omega and why isn't it as useful?](#big--omega-notation)
+- [What is Big O?](#what-is-big-o)
+- [What are the Big O Notations?](#big-o-notation)
+- [Why use Big O?](#why-big-o)
+- [What is Big Omega and why isn't it as useful?](#big--omega-notation)
 
 ### Additional resources
 
