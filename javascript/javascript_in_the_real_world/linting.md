@@ -51,7 +51,7 @@ Another way to address the conflict is to use `eslint-plugin-prettier`. It lets 
 
 ### Template repositories
 
-With the last few projects, you have felt that setting up Webpack involved a fair few files and configuration, and that you may have had to look at what you configured before to copy and paste the configuration you want to reuse. You may also have noticed that whenever you create a new repository on Github, there is an option near the top for a `Repository template`.
+With the last few projects, you might have felt that setting up Webpack involved a fair few files and configuration, and that you may have had to look at what you configured before to copy and paste the configuration you want to reuse. You may also have noticed that whenever you create a new repository on Github, there is an option near the top for a `Repository template`.
 
 This is where template repositories can come very much in handy. Any of your existing repositories can be converted to a template in its settings (right under where you can rename the repository, there is a checkbox for whether the repository is a template or not). If you check this box, congratulations, that's all you need to do! Now when you go to create a new repository, the `Repository template` dropdown will have any templates listed for you to select. Selecting one will mean your new repository will be a copy of the chosen template, not an empty one!
 
