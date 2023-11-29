@@ -16,7 +16,7 @@ By the end of this lesson, you should be able to do the following:
 
 - Take the entire [MongoDB University "Introduction to MongoDB" course](https://learn.mongodb.com/learning-paths/introduction-to-mongodb). This course will teach you the basics of MongoDB and the mongo shell. You will need to make an account.
 
-    <em>Note</em>: When you get to the lesson that asks you to install MongoDB Compass you can skip the installation.
+  *Note*: When you get to the lesson that asks you to install MongoDB Compass you can skip the installation.
 
 </div>
 
