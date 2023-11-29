@@ -62,7 +62,7 @@ As you've seen, flexbox is not just a single CSS property but a whole toolbox of
 
 <span id="flex-container-item-knowledge-check">A flex container is any element that has `display: flex` on it. A flex item is any element that lives directly inside of a flex container.</span>
 
-<span id="how-to-create-flex-item-knowledge-check">![container-vs-child](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/03.png)</span>
+<span id="how-to-create-flex-item-knowledge-check">![container-vs-child](https://cdn.statically.io/gh/TheOdinProject/curriculum/8c0402439e1b0a9a156731bdab4ea64162688dab/foundations/html_css/flexbox/imgs/03.png)</span>
 
 Somewhat confusingly, any element can be both a flex container _and_ a flex item. Said another way, you can also put `display: flex` on a flex item and then use flexbox to arrange _its_ children.
 
