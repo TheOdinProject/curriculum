@@ -27,7 +27,7 @@ The following requirements are a very global list of features your app should ha
 1. Users can comment on posts.
 1. Posts should always display the post content, author, comments, and likes.
 1. There should be an index page for posts, which shows all the recent posts from the current user and users they are following.
-1. Users can create a profile with a profile picture. You may be able to get the profile picture when users sign in using passportJS.
+1. Users can create a profile with a profile picture. You may be able to get the profile picture when users sign in using Omniauth. If this isn't the case you can use [Gravatar](https://www.gravatar.com/) to generate them
 1. A user's profile page should contain their profile information, profile photo, and posts.
 1. There should be an index page for users, which shows all users and buttons for sending follow requests to users the user is not already following or have a pending request.
 1. Deploy your app to a hosting provider of your choice!
