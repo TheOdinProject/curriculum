@@ -275,4 +275,5 @@ This section contains helpful links to related content. It isn’t required, so 
 - [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
 - [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
 - [Chris Coyier's When to use target="_blank" on CSS-Tricks](https://css-tricks.com/use-target_blank/)
+- [A great article on why height and width on images is important](https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/)
 
