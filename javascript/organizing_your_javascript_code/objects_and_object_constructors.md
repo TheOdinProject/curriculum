@@ -121,7 +121,7 @@ function Player(name, marker) {
   this.name = name;
   this.marker = marker;
   this.sayName = function() {
-    console.log(name)
+    console.log(this.name)
   };
 }
 
@@ -165,7 +165,7 @@ This sentence also seems pretty straightforward! The `prototype` _is just anothe
 
 #### 3. ...that the original object _inherits_ from, and has access to all of its prototype's methods and properties
 
-Here, the "original object" refers to an object like `player1` or `player2`. These objects are said to "inherit", or simply said, these objects have access to the `prototype`'s properties or functions, if they have been defined. For example, if there was a `.sayHello()` function defined on the `prototype`, `player1` can access the function just as if it was it's own function - `player1.sayHello()`. But it's not just `player1` who can call the `.sayHello()` function, even `player2` can call it, since it's defined on the `prototype`! Read on to know the details of how it works and how you could do this yourself!
+Here, the "original object" refers to an object like `player1` or `player2`. These objects are said to "inherit", or simply said, these objects have access to the `prototype`'s properties or functions, if they have been defined. For example, if there was a `.sayHello()` function defined on the `prototype`, `player1` can access the function just as if it was its own function - `player1.sayHello()`. But it's not just `player1` who can call the `.sayHello()` function, even `player2` can call it, since it's defined on the `prototype`! Read on to know the details of how it works and how you could do this yourself!
 
 #### Accessing an object's prototype
 

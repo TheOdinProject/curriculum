@@ -5,15 +5,15 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 ### Assignment 1
 
 <div class="lesson-content__panel" markdown="1">
-  1. Using iteration, write a function `fibs` which takes a number and returns an array containing that many numbers from the fibonacci sequence. Using an example input of `8`, this function should return the array `[0, 1, 1, 2, 3, 5, 8, 13]`.
-  2. Now write another function `fibsRec` which solves the same problem recursively.  This can be done in just a couple of lines (or 1 if you're crazy, but don't consider either of these lengths a requirement... just get it done).
+  1. Using iteration, write a function `fibs` which takes a number and returns an array containing that many numbers from the Fibonacci sequence. Using an example input of `8`, this function should return the array `[0, 1, 1, 2, 3, 5, 8, 13]`.
+  2. Now write another function `fibsRec` which solves the same problem recursively.
 </div>
 
 In order to run these functions you'll need to run it from somewhere. You can run scripts from the command line using the node command installed with nodejs. You can read about the common ways to do this [here](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-run-cli.en.md).
 
 #### Understanding recursive Fibonacci
 
-Did you figure it out? Congratulations! But do you really understand what is taking place? If you need some help understanding what's going on with this function, give [Khan Academy's Stepping Through Recursive Fibonacci Function video](https://www.youtube.com/watch?v=zg-ddPbzcKM) a watch. If you prefer to read, [Recursive Fibonacci Explained](https://medium.com/launch-school/recursive-fibonnaci-method-explained-d82215c5498e) is also very helpful!
+Did you figure it out? Congratulations! But do you really understand what is taking place? If you need some help understanding what's going on with this function, give [Khan Academy's Stepping Through Recursive Fibonacci Function video](https://www.youtube.com/watch?v=zg-ddPbzcKM) a watch. If you prefer to read, [Recursive Fibonacci Explained](https://www.scaler.com/topics/fibonacci-series-in-javascript/) is also very helpful!
 
 ### Project: merge sort
   

@@ -57,7 +57,7 @@ So remember how our component is just hanging out in its own dedicated file? Thi
 
 ~~~jsx
 function Greeting() {
-  return <h1>"I swear by my pretty floral bonnet, I will end you."</h1>;
+  return <h1>&quot;I swear by my pretty floral bonnet, I will end you.&quot;</h1>;
 }
 
 export default Greeting;
