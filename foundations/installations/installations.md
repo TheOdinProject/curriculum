@@ -281,17 +281,7 @@ Because WSL2 is a full-fledged Linux distribution, almost everything that the cu
 
 ### Step 1: Installations
 
-#### Step 1.1: WSL2 and Virtual Machine Platform
-
-In order to make WSL2 work we'll first need to ensure both `Windows Subsystem for Linux` and `Virtual Machine Platform` are enabled on your system.
-
-- Search for Control Panel in your applications, and open it
-- Select **Programs**
-- Select **Turn Windows Features on or off** (under the Programs and Features header)
-- Ensure both `Windows Subsystem for Linux` and `Virtual Machine Platform` are toggled on, and if not toggle them on.
-- When prompted, restart your computer
-
-#### Step 1.2: Installing WSL2
+#### Step 1.1: Installing WSL2
 
 - Open PowerShell in administrator mode by searching for it in your applications, right clicking the top option, and then selecting run as administrator. You might get a prompt asking if you want to allow Windows Powershell to make changes to your device: click yes.
 - Enter the following command
@@ -303,13 +293,13 @@ In order to make WSL2 work we'll first need to ensure both `Windows Subsystem fo
 - You should see an open Powershell window, prompting you to enter a username and a password. Your username should be lowercase, but can otherwise be whatever suits you. You'll also need to enter a new password.
 - When entering your password you might notice that you aren't seeing any visual feedback. This is a standard security feature in Linux, and will also happen in all future cases where you need to enter a password. Just type your password and hit <kbd>Enter</kbd>.
 
-#### Step 1.3.1: Install Windows Terminal (Windows 10 only)
+#### Step 1.2.1: Install Windows Terminal (Windows 10 only)
 
 Windows Terminal is a terminal application that lets you more easily customize and run terminals, as well as supporting multiple tabs which can each run their own different terminals.
 
 - [Install Window's Terminal](https://learn.microsoft.com/en-us/windows/terminal/install) by using the direct install option.
 
-#### Step 1.3.2: Setting WSL2 as default (Optional)
+#### Step 1.2.2: Setting WSL2 as default (Optional)
 
 Unless you are regularly using other terminals on your computer we recommend that you set WSL2 as the default terminal program when you open Windows Terminal.
 
