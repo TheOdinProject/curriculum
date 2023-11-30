@@ -134,14 +134,14 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 ### Adaptable.io
 
 - Like Railway, has a simple deployment process. You simply link to your project's GitHub repo.
-- Free plan does not limit the number of apps you can deploy.
+- Free plan does not limit the number of applications you can deploy.
 - Also has fixed and usage-based payment plans.
 
 **Free plan**
 
-- No limits on the number of apps you can deploy on the free plan.
-- Monthly performance allowance is more than sufficient for course/personal projects (approx. 25,000 API requests per month).
-- Idle server wake up duration is quicker than Render.
+- No limits on the number of applications you can deploy on the free plan.
+- Monthly performance allowance is more than sufficient for course/personal projects (approximately 25,000 API requests per month).
+- Applications are put to sleep when inactive but wake up speed is quicker than Render.
 - No credit card required.
 
 **Links**
