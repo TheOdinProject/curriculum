@@ -286,7 +286,7 @@ Because WSL2 is a full-fledged Linux distribution, almost everything that the cu
 In order to make WSL2 work we'll first need to ensure both `Windows Subsystem for Linux` and `Virtual Machine Platform` are enabled on your system.
 
 - Search for Control Panel in your applications, and open it
-- Select **Programs**
+- Select **Programs and Features**
 - Select **Turn Windows Features on or off** (under the Programs and Features header)
 - Ensure both `Windows Subsystem for Linux` and `Virtual Machine Platform` are toggled on, and if not toggle them on.
 - When prompted, restart your computer
