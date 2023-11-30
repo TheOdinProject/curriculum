@@ -7,14 +7,14 @@ If you haven't finished our [front-end JavaScript course](https://www.theodinpro
 
 By the end of this lesson, you should be able to do or answer the following:
 
-- Use the `supertest` module to test Express routes/controllers.
+- Use the `supertest` and `jest` modules to test Express routes/controllers.
 - Describe how SuperTest handles our express application.
 - Explain the functionality `superagent` provides to SuperTest.
 - Describe what the `done` parameter is used for.
 - Explain and have a firm understanding of `.expect()` method's functionality.
 - Have familiarity with `supertest`'s documentation and methods.
 
-### Routes testing with supertest
+### Routes testing with supertest and jest
 
 The most important, basic requirement for testing something in your code is that it must be in an exported module. This is true for both custom middleware and your routes/controllers, so the very first thing you need to do is separate those things into their own modules, if they aren't already.
 
@@ -58,11 +58,14 @@ These two files, `app.js` and `index.js` simply define a couple of routes and th
 
 To facilitate actually testing these routes we're going to use a library called [SuperTest](https://github.com/visionmedia/supertest), so go ahead and `npm install supertest --save-dev` and while it's installing take a few minutes to look through the readme on their git repo (linked above).
 
+As well, you will need to install Jest and create a new npm script which runs Jest. If you've forgotten how to do this then this may be a good time to take a look [at the previous Javascript testing lessons](https://www.theodinproject.com/lessons/node-path-javascript-testing-basics).
+
 In the examples below we're going to use SuperTest inside of a Jest style describe/test block, but the syntax and use of these are common among most testing libraries, so the concepts should be easily replicated in Mocha with Chai or Jasmine or Tape or whatever testing library you prefer.
 
 Here's our test file:
 
 ~~~javascript
+//// index.test.js
 const index = require("../index");
 
 const request = require("supertest");
@@ -141,6 +144,8 @@ test("testing route works", done => {
     });
 });
 ~~~
+
+Now run your npm test script and check the results!
 
 If we were using a real database here, then we would want to do something similar using either a test or a mock database. We'll talk about setting something like that up in a separate lesson. Suffice it to say for now that you do not want to run test code on your production database!
 
