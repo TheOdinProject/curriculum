@@ -140,7 +140,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 **Free plan**
 
 - No limits on the number of apps you can deploy on the free plan.
-- App performance is limited but very similar to the other PaaS options and more than sufficient for our purposes.
+- Monthly performance allowance is more than sufficient for course/personal projects (approx. 25,000 API requests per month).
 - Idle server wake up duration is quicker than Render.
 - No credit card required.
 
