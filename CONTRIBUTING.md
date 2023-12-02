@@ -5,7 +5,7 @@ Welcome to the project! We appreciate your interest and contributions.
 
 ## Ways to Contribute
 
-1. **Report Bugs**: If you find any bugs or issues, please report them using the GitHub issue tracker.
+1. **Report Bugs**: If you find any bugs or issues, please report them using the [issue tracker](https://github.com/AlzyWelzy/YourRepo/issues).
 
 2. **Feature Requests**: If you have an idea for a new feature or enhancement, feel free to open an issue to discuss it.
 
@@ -33,5 +33,4 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 
 By contributing, you agree that your contributions will be licensed under the [GNU Affero General Public License v3.0](LICENSE). Please see the [LICENSE](LICENSE) file for more details.
 
-Thank you for your contribution!
 
