@@ -23,11 +23,11 @@ Before ECMAScript 6, JavaScript had a single keyword to declare a variable, `var
 
 In ECMAScript 6, the keywords `let` and `const` were introduced. While `var` variables were function scoped, these allow you to define variables that are **block scoped** - basically, scoping the variable to only be available within the closest set of `{ curly braces }` in which it was defined. These braces can be those of a `for` loop, `if-else` condition, or any other similar construct, and are called, a block. Let's see an example to sum this all up.
 
-~~~javascript
+```javascript
 let globalAge = 23; // This is a global variable
 
 // This is a function - and hey, a curly brace indicating a block
-function printAge (age) {
+function printAge(age) {
   var varAge = 34; // This is a function scoped variable
 
   // This is yet another curly brace, and thus a block
@@ -48,7 +48,7 @@ printAge(globalAge);
 // ERROR! We tried to access a function scoped variable
 // outside the function it's defined in
 console.log(varAge);
-~~~
+```
 
 Take a while to brew on that example. In the end, it's not some mind-blowing concept but there's a whole bunch of terms in there - it'll all help us understand the next mammoth - closures.
 
@@ -56,22 +56,22 @@ Take a while to brew on that example. In the end, it's not some mind-blowing con
 
 The best way to approach this would be to start with an example - take a look at this piece of code below.
 
-~~~javascript
-function makeAdding (firstNumber) {
+```javascript
+function makeAdding(firstNumber) {
   // "first" is scoped within the makeAdding function
   const first = firstNumber;
-  return function resulting (secondNumber) {
+  return function resulting(secondNumber) {
     // "second" is scoped within the resulting function
     const second = secondNumber;
     return first + second;
-  }
+  };
 }
 // but we've not seen an example of a "function"
 // being returned, thus far - how do we use it?
 
 const add5 = makeAdding(5);
-console.log(add5(2)) // logs 7
-~~~
+console.log(add5(2)); // logs 7
+```
 
 A lot going on, so let's break it down:
 
@@ -86,9 +86,9 @@ This is a **crucial** behavior for function - which allows us to correlate thing
 
 ### So, what's wrong with constructors?
 
-One of the key arguments against constructors, in fact, the biggest argument is how they *look* like regular JavaScript functions, even though they do not *behave* like regular functions. If you try to use a constructor function without the `new` keyword, not only does your program fail to work, but it also produces error messages that are hard to track down and understand.
+One of the key arguments against constructors, in fact, the biggest argument is how they _look_ like regular JavaScript functions, even though they do not _behave_ like regular functions. If you try to use a constructor function without the `new` keyword, not only does your program fail to work, but it also produces error messages that are hard to track down and understand.
 
-Yet another issue stems from the way the `instanceof` works. It checks the presence of a constructor's prototype in an object's *entire* prototype chain - which does nothing to confirm if an object was made with that constructor since the constructor's prototype can even be reassigned after the creation of an object.
+Yet another issue stems from the way the `instanceof` works. It checks the presence of a constructor's prototype in an object's _entire_ prototype chain - which does nothing to confirm if an object was made with that constructor since the constructor's prototype can even be reassigned after the creation of an object.
 
 While still seen in code, these problems led to the use of a pattern that was similar to constructors but addressed a ton of these problems: Factory Functions.
 
@@ -96,21 +96,21 @@ While still seen in code, these problems led to the use of a pattern that was si
 
 These fancy-sounding functions work very similar to how constructors did, but with one key difference - they levy the power of closures. Instead of using the `new` keyword to create an object, factory functions simply set up and return the new object when you call the function. They do not use the prototype, which incurs a performance penalty - but as a general rule, this penalty isn’t significant unless you’re creating thousands of objects. Let's take a basic example to compare them to constructor functions.
 
-~~~javascript
+```javascript
 const User = function (name) {
   this.name = name;
   this.discordName = "@" + name;
-}
-// hey, this is a constructor - 
+};
+// hey, this is a constructor -
 // then this can be refactored into a factory!
 
-function createUser (name) {
+function createUser(name) {
   const discordName = "@" + name;
   return { name, discordName };
 }
 // and that's very similar, except since it's just a function,
 // we don't need a new keyword
-~~~
+```
 
 <div class="lesson-note" markdown="1">
 
@@ -118,23 +118,23 @@ function createUser (name) {
 
 Some may get confused by the way the returned object is written in the factory function example. In 2015, a shortcut to creating objects was added to JavaScript. Say we wanted to make an object with a name, age, and color. We'd write it as the following:
 
-~~~javascript
+```javascript
 const name = "Bob";
 const age = 28;
 const color = "red";
 
 const thatObject = { name: name, age: age, color: color };
-~~~
+```
 
 However, now, if we have a variable with the same name as that of the property to which we are assigning it, we can simply write it once!
 
-~~~javascript
+```javascript
 const nowFancyObject = { name, age, color };
-~~~
+```
 
 An added advantage to this is that it's now possible to console.log values neatly!
 
-~~~javascript
+```javascript
 // If you wanted to log these values, earlier,
 // you would have done the following
 console.log(name, age, color);
@@ -144,13 +144,13 @@ console.log(name, age, color);
 // which makes it an object!
 console.log({ name, age, color });
 // now it logs as - { name: "Bob", age: 28, color: "red" }
-~~~
+```
 
 ### Destructuring
 
 Yet another expression allows you to "unpack" or "extract" values from an object (or array). This is known as **destructuring**. When you have an object, you can extract a property of an object into a variable of the same name, or any named variable for an array. Take a look at the example below:
 
-~~~javascript
+```javascript
 const obj = { a: 1, b: 2 };
 const { a, b } = obj;
 // This creates two variables, a and b,
@@ -159,10 +159,10 @@ const { a, b } = obj;
 // const b = obj.b;
 
 const array = [1, 2, 3, 4, 5];
-const [ zerothEle, firstEle ] = array;
+const [zerothEle, firstEle] = array;
 // This creates zerothEle and firstEle, both of which point
 // to the elements in the 0th and 1st indices of the array
-~~~
+```
 
 [The MDN article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) on destructuring has some great examples and should be a good read for this concept.
 
@@ -172,8 +172,8 @@ const [ zerothEle, firstEle ] = array;
 
 Now you may be thinking - where does closure come into all of this? Factories seem to simply be returning an object. This is where we can extend our `User` factory to add a few more variables and introduce "private" ones. Take a look at this, now:
 
-~~~javascript
-function createUser (name) {
+```javascript
+function createUser(name) {
   const discordName = "@" + name;
 
   let reputation = 0;
@@ -189,14 +189,14 @@ josh.giveReputation();
 
 console.log({
   discordName: josh.discordName,
-  reputation: josh.getReputation()
+  reputation: josh.getReputation(),
 });
 // logs { discordName: "@josh", reputation: 2 }
-~~~
+```
 
 We’ve introduced a new metric for a new user - a reputation. Notice that the object we return in the factory function does not contain the `reputation` variable itself, nor any copy of its value. Instead, the returned object contains two functions - one that reads the value of the `reputation` variable, and another that increases its value by one. The `reputation` variable is what we call a "private" variable, since we cannot access the variable directly in the object instance - it can only be accessed via the closures we defined.
 
-Concerning factory functions, a private variable or function uses closures to create smaller, dedicated variables and functions within a factory function itself - things that we do not *need* to return in the object itself. This way we can create neater code, without polluting the returned object with unnecessary variables that we create while creating the object itself. Often, you do not need every single function within a factory to be returned with the object, or expose an internal variable. You can use them privately since the property of closures allows you to do so.
+Concerning factory functions, a private variable or function uses closures to create smaller, dedicated variables and functions within a factory function itself - things that we do not _need_ to return in the object itself. This way we can create neater code, without polluting the returned object with unnecessary variables that we create while creating the object itself. Often, you do not need every single function within a factory to be returned with the object, or expose an internal variable. You can use them privately since the property of closures allows you to do so.
 
 In this case, we did not need control of the `reputation` variable itself. To avoid foot guns, like accidentally setting the reputation to `-18000`, we simply expose the necessary details in the form of `getReputation` and `giveReputation`.
 
@@ -204,25 +204,25 @@ In this case, we did not need control of the `reputation` variable itself. To av
 
 In the lesson with constructors, we looked deeply into the concept of prototype and inheritance, and how to give our objects access to the properties of another. With factory functions too, there are easy ways to do that. Take another hypothetical scenario into consideration. We need to extend the `User` factory into a `Player` factory that needs to control some more metrics - there are some ways to do that:
 
-~~~javascript
-function createPlayer (name, level) {
+```javascript
+function createPlayer(name, level) {
   const { discordName, getReputation } = createUser(name);
 
   const increaseLevel = () => level++;
   return { name, discordName, getReputation, increaseLevel };
 }
-~~~
+```
 
 And there you go! You can simply create your User, extract what you need from it, and re-return whatever you want to - hiding the rest as some private variables or functions! In case you want to simply extend it, you can also use the [`Object.assign` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) to add on the properties you want!
 
-~~~javascript
-function createPlayer (name, level) {
+```javascript
+function createPlayer(name, level) {
   const user = createUser(name);
 
   const increaseLevel = () => level++;
   return Object.assign({}, user, { increaseLevel });
 }
-~~~
+```
 
 ### The module pattern - IIFEs
 
@@ -234,8 +234,8 @@ ECMAScript 6 introduced a new JavaScript feature called "modules" - which are a 
 
 Oftentimes, you do not need a factory to produce multiple objects - instead, you are using it to wrap sections of code together, hiding the variables and functions that you do not need elsewhere as private. This is easily achievable by wrapping your factory function in parentheses and immediately calling (invoking) it. This immediate function call is commonly referred to as an Immediately Invoked Function Expression (duh) or IIFE in short. This pattern of wrapping a factory function inside an IIFE is called the module pattern.
 
-~~~javascript
-const calculator = (function () {
+```javascript
+const calculator = (() => {
   const add = (a, b) => a + b;
   const sub = (a, b) => a - b;
   const mul = (a, b) => a * b;
@@ -243,10 +243,10 @@ const calculator = (function () {
   return { add, sub, mul, div };
 })();
 
-calculator.add(3,5); // 8
-calculator.sub(6,2); // 4
-calculator.mul(14,5534); // 77476
-~~~
+calculator.add(3, 5); // 8
+calculator.sub(6, 2); // 4
+calculator.mul(14, 5534); // 77476
+```
 
 In this example, we have a factory function creating some basic operations that we need only once. We can wrap it in parentheses and immediately call it by adding `()` - returning the result object that we store in `calculator`. In this way we can write code, wrapping away things that we do not need as private variables and functions inside our factory function and while they are tucked inside of our module, we can use the returned variables and functions outside the factory, as necessary.
 
@@ -263,8 +263,10 @@ Take the calculator example into consideration. It's very easy to imagine a scen
 <div class="lesson-content__panel" markdown="1">
 
 1. WesBos has a beautiful and in-depth section on scopes and closures. Please check out these sections under "Module 3 - The Tricky Bits":
-  - [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
-  - [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
+
+- [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
+- [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
+
 1. [Tarek Sherif's article discussing the problems with constructors](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) goes into depth while suggesting factories as a solution.
 1. Read this article on [module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm) by Tomek Buszewski.
 1. In case you prefer video lessons, [this YouTube series on module pattern](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f) covers most of the content that we have discussed.
