@@ -179,7 +179,7 @@ The Growth of our hash map has the complexity of `O(n)` at all times.
 
 #### Self restriction and limitation
 
-  Before we get started, we need to lay down some ground rules. As we all know JavaScript is a dynamic language the restriction we have in other languages does not exist in JavaScript for example if you create an array of size `16` to be your buckets size, nothing stopping you from storing items at index `500`. This defeats the purpose we are trying to demonstrate, so we need to put some self restriction to work around this.
+  Before we get started, we need to lay down some ground rules. JavaScript's dynamic nature of array allow us to insert and retrieve indexes that is outside our array size range. Example: if we create an array of size `16` to be our buckets size, nothing stopping us from storing items at index `500`. This defeats the purpose we are trying to demonstrate, so we need to put some self restriction to work around this.
 
   1. When you create a function that takes a hash code value and returns the bucket index, use this snippet before the function returns to make sure it's accessing inbound array indexes only.
 
