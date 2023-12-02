@@ -94,8 +94,11 @@ This is it, making this will result in a hash table with `search`, `set` and `ge
 What if we found the hash code, but also the key value is the same as what we already have in the bucket. We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have Nodes with only keys and no values.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
-A hash map does not guarantee insertion order, when you iterate over it. That is because of the buckets indexing nature of hash coding. That means if you are to retrieve the array of keys and values to iterate over them, then they will not be in order of when you inserted them.
-For example, if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]`
+A hash map does not guarantee insertion order when you iterate over it, Because of the buckets indexing nature of hash coding. That means if you are to retrieve the array of keys and values to iterate over them, then they will not be in order of when you inserted them.
+
+Some libraries implement hash tables with insertion order in mind such as JavaScript's own `Map`. For this project however we will be implementing an unordered hash table.
+Example: if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]` when we call an iterator.
+
 If iterating over the hash map frequently is your goal, then this data structure is not the right choice for the job, a simple array would be better.
 </div>
 
