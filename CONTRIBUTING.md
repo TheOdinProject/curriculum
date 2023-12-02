@@ -5,7 +5,7 @@ Welcome to the project! We appreciate your interest and contributions.
 
 ## Ways to Contribute
 
-1. **Report Bugs**: If you find any bugs or issues, please report them using the [issue tracker](https://github.com/AlzyWelzy/YourRepo/issues).
+1. **Report Bugs**: If you find any bugs or issues, please report them using the [issue tracker](https://github.com/AlzyWelzy/{repo}/issues).
 
 2. **Feature Requests**: If you have an idea for a new feature or enhancement, feel free to open an issue to discuss it.
 
