@@ -83,7 +83,7 @@ This section contains questions for you to check your understanding of this less
 - [How should you test incoming query messages?](https://youtu.be/URSWYvyc42M?t=699)
 - [Why should you not test implementation?](https://youtu.be/URSWYvyc42M?t=792)
 - [Should you test private methods?](https://youtu.be/URSWYvyc42M?t=1102)
-- [Why should you not test messages with no side effects?](https://youtu.be/URSWYvyc42M?t=1370)
+- [Why should you not test outgoing messages with no side effects?](https://youtu.be/URSWYvyc42M?t=1370)
 
 ### Additional resources
 
