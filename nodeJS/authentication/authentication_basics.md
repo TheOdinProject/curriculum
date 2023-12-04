@@ -195,6 +195,9 @@ passport.deserializeUser(async (id, done) => {
   };
 });
 ~~~
+<div class="lesson-note" markdown="1">
+  `user.id` is a virtual getter provided by mongoose which returns the document's _id field cast to a string.  [Documentation](#strategy)
+</div>
 
 When a session is created, passport.serializeUser will receive the user object found from a successful login and store its .id property in the session data. Upon some other request, if it finds a matching session for that request, passport.deserializeUser will retrieve the id we stored in the session data. We then use that id to query our database for the specified user, then done(null, user) attaches that user object to req.user. Now in the rest of the request, we have access to that user object via req.user.
 
