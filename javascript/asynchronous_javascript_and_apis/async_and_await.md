@@ -9,7 +9,7 @@ function getPersonsInfo(name) {
   return server.getPeople().then(people => {
     return people.find(person => { return person.name === name });
   });
-}
+};
 ~~~
 
 ~~~javascript
@@ -17,7 +17,7 @@ async function getPersonsInfo(name) {
   const people = await server.getPeople();
   const person = people.find(person => { return person.name === name });
   return person;
-}
+};
 ~~~
 
 The second example looks much more like the kind of functions you are used to writing. However, did you notice the `async` keyword before the function declaration? How about the `await` keyword before `server.getPeople()`?
@@ -75,7 +75,7 @@ The `async` keyword can also be used with any of the ways a function can be crea
   const yourAsyncFunction = async () => {
     // do something asynchronously and return a promise
     return result;
-  }
+  };
 ~~~
 
 ~~~javascript
@@ -118,7 +118,7 @@ async function getPersonsInfo(name) {
   } catch (error) {
     // Handle the error any way you'd like
   }
-}
+};
 ~~~
 
 Doing this can look messy, but it is a very easy way to handle errors without appending `.catch()` after your function calls. How you handle the errors is up to you, and which method you use should be determined by how your code was written. You will get a feel for what needs to be done over time. The assignments will also help you understand how to handle your errors.
@@ -133,7 +133,7 @@ Remember the Giphy API practice project? (If not, you should go back and complet
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
     .then(function(response) {
       return response.json();
-    })
+    });
     .then(function(response) {
       img.src = response.data.images.original.url;
     });
@@ -147,14 +147,14 @@ Since `await` does not work on the global scope, we will have to create an `asyn
   const img = document.querySelector('img');
 
   async function getCats() {
-    fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
+    fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'});
       .then(function(response) {
         return response.json();
-      })
+      });
       .then(function(response) {
         img.src = response.data.images.original.url;
-      })
-  }
+      });
+  };
 </script>
 ~~~
 
@@ -169,7 +169,7 @@ Now that we have a function that is asynchronous, we can then start refactoring 
     response.json().then(function(response) {
       img.src = response.data.images.original.url;
     });
-  }
+  };
 </script>
 ~~~
 
@@ -183,7 +183,7 @@ Since `response` is still the same object we have passed to the `.then()` block 
     const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'});
     const catData = await response.json();
     img.src = catData.data.images.original.url;
-  }
+  };
 </script>
 ~~~
 
@@ -197,7 +197,7 @@ To use this function, we just simply need to call it with `getCats()` in our cod
     const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'});
     const catData = await response.json();
     img.src = catData.data.images.original.url;
-  }
+  };
   getCats();
 </script>
 ~~~
