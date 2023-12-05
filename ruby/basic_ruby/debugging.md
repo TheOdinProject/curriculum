@@ -109,19 +109,7 @@ p []
 ### Debugging with Pry-byebug
 [Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality. The recommended Ruby gem for debugging is [Pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) and it includes Pry as a dependency. Pry-byebug adds step-by-step debugging and stack navigation.
 
-To use Pry-byebug, you'll first need to install it in your terminal by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry-byebug'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program. If you encounter an error like this:
-
-~~~bash
-Error: while executing gem ... (Gem::Exception)
-    OpenSSL is not available. Install OpenSSL and rebuild Ruby (preferred) or us non-HTTPS sources
-~~~
-
-Ensure that Ubuntu is up to date and upgraded by using these commands in order (These commands will require user password input):
-
-~~~bash
-sudo apt update
-sudo apt upgrade
-~~~
+To use Pry-byebug, you'll first need to install it in your terminal by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry-byebug'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program.
 
 To follow along with these examples save the code into a Ruby file (e.g., `script.rb`) and then run the file in your terminal (e.g., `ruby script.rb`)
 
