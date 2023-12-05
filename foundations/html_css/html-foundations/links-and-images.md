@@ -153,6 +153,8 @@ Absolute and relative links are a tricky concept to build a good mental model of
 
 Links are merely locations for files. If somebody on the street asks you where the nearest cafe is, you would answer simply with the name of the street. You would not mention the name of the city you are in, or the name of the country or continent or planet. Relative links are similar - they are *relative* to the current location. However in situations where you are far away (E.g: when writing a letter), you mention your full address, including your city, country, and postal code. This is similar to the concept of an absolute link.
 
+In our code, this analogy would be applied as follows: Since the `pages` folder is in the same directory as `index.html` (akin to meeting someone on the street), we refer to `about.html` using `./pages/about.html`. Of course, we could always refer to it as `/home/users/top/Documents/code/pages/about.html` (the full address, or in this case, filepath), but that is extra information about the location that is sometimes helpful, but not required in this case.
+
 ### Images
 
 Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the image element.
