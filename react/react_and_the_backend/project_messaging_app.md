@@ -18,7 +18,7 @@ Think of your favorite messaging app - Discord, Telegram, WhatsApp, Facebook Mes
 #### Extra credit
 
 - Allow sending images in chat
-- Add a friends list that users can add other users to and see when someone is online (alternative: "Add a users list to show which user's are currently online"; same thing except maybe a step or two less since it doesn't require adding a friend)
+- Add a friends list that users can add other users to and see when someone is online (alternative: "Add a users list to show which users are currently online"; same thing except maybe a step or two less since it doesn't require adding a friend)
 - Allow users to create and send messages in group chats
 
 </div>
