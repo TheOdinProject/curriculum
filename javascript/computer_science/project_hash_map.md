@@ -89,7 +89,7 @@ To get a value using a key, we put each entry inside a bucket as a `Node` item, 
 
 Maybe you are wondering, why are we comparing the keys if we already found the hash code of that bucket? That is because remember, hash code is just the location, different items might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
 
-This is it, making this will result in a hash table with `search`, `set` and `get`.
+This is it, making this will result in a hash table with `has`, `set` and `get`.
 
 What if we found the hash code, but also the key value is the same as what we already have in the bucket. We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have Nodes with only keys and no values.
 
