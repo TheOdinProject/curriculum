@@ -87,7 +87,7 @@ Buckets are storage that we need to store our elements. Simply, it's an array. F
 
 To get a value using a key, we put each entry inside a bucket as a `Node` item, which hold both the key and the value. To retrieve the value we hash a key, we find the bucket number, if the bucket is not empty then we go to that bucket we compare if the Node's key is the same key that is already in the bucket, if it is then we retrieve the Node's value otherwise we return null.
 
-Maybe you are wondering, why are we comparing the keys if we already found the hash code of that bucket? That is because remember, hash code is just the location, different items might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
+Maybe you are wondering, why are we comparing the keys if we already found the index of that bucket? That is because remember, hash code is just the location, different items might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
 
 This is it, making this will result in a hash table with `has`, `set` and `get`.
 
