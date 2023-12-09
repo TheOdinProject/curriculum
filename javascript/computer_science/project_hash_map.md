@@ -136,8 +136,6 @@ Up until now, our hash map is a one-dimensional data structure. What if each `No
 
 You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible. Most likely you will not be writing your own hash functions, as most languages have it built in. But understanding how hash functions work is important.
 
-Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 that explains the concept shortly with visualization
-
 ### Growth of a hash table
 
 Let's talk about the growth of our buckets. We don't have infinite memory, so we can't have an infinite amount of buckets. We need to start somewhere, but starting too big is also a waste of memory if we're only going to have a hash map with a single value in it. So to deal with this issue, we should start with a small array for our buckets. We'll use an array with 10 elements and indexes from 0 to 9.
@@ -228,3 +226,5 @@ The Growth of our hash map has the complexity of `O(n)` at all times.
 ### Additional resources
 
 - Check out [What are Hash Functions and How to choose a good Hash Function](https://www.geeksforgeeks.org/what-are-hash-functions-and-how-to-choose-a-good-hash-function) for more technical overview of a hash function if you are interested in that.
+
+- Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 that explains the concept of buckets.
