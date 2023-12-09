@@ -15,8 +15,8 @@ function hash(name) {
 ```
 
 We created our first basic hashing function.
-You might be familiar with this concept from your cipher exercise earlier in the foundations course, but there is a key difference between hashing and ciphering (encryption): reversibility.
 
+There is a key difference between hashing and ciphering (encryption): reversibility.
 Hashing is a one-way process. Here is an example given a name, you can get a hash out of it, but given a hash, you cannot revert it back to a name. If you have a name `"Carlos"` we can hash it to `"C"`. But it will not be possible to reverse it from `"C"` back to its original form. You cannot know if it is `"Carlos"`, maybe it's `"Carla"` or `"Carrot"` we don't know.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
