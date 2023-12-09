@@ -169,7 +169,7 @@ A hash map is very efficient in its insertion, retrieving and removing operation
 - Retrieving
 - Deletion
 
-Assuming we have a good hash map written. The worst case of those operations would be `O(n)` and that happens when we have all our data hashes to the same exact bucket.
+Assuming we have a good hash map written. The worst case of those operations would be `O(n)` and that happens when we have all our data hashes to the same exact bucket. The complexity itself surfaces because of the linked list, and O(n) is because we are traversing the linked list to insert yet again another Node in the same bucket. Which happens specifically because of collisions.
 
 The Growth of our hash map has the complexity of `O(n)` at all times.
 
