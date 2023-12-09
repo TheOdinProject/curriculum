@@ -308,10 +308,26 @@ Note that all 3 of these methods can be used with named functions like so:
 ```
 
 ```javascript
-// the JavaScript file
+// the JavaScript file 
+// METHOD 1
 function alertFunction() {
   alert("YAY! YOU DID IT!");
 }
+```
+
+```html
+<!-- the HTML file -->
+<!-- METHODS 2 & 3 -->
+<button id="btn">CLICK ME BABY</button>
+```
+
+```javascript
+// the JavaScript file 
+// METHODS 2 & 3
+function alertFunction() {
+  alert("YAY! YOU DID IT!");
+}
+const btn = document.querySelector('#btn')
 
 // METHOD 2
 btn.onclick = alertFunction;
