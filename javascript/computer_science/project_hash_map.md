@@ -141,10 +141,10 @@ You probably understand by this point why we must write a good hashing function 
 Let's talk about the growth of our buckets. We don't have infinite memory, so we can't have an infinite amount of buckets. We need to start somewhere, but starting too big is also a waste of memory if we're only going to have a hash map with a single value in it. So to deal with this issue, we should start with a small array for our buckets. We'll use an array with 10 elements and indexes from 0 to 9.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
-  Most programming languages start with the default size of `16` because it's a power of 2, which help with some techniques for performance that require bit manipulation for indexes. But for this example, we will be using a starting size of 10.
+  Most programming languages start with the default size of `16` because it's a power of 2, which help with some techniques for performance that require bit manipulation for indexes.
 </div>
 
-How are we going to insert into those buckets when our hash function generates big numbers like `20353924`? We make use of the modulo `%` operation `given any number modulo by 10 we will get a number between 0 and 9`.
+How are we going to insert into those buckets when our hash function generates big numbers like `20353924`? We make use of the modulo `%` operation `given any number modulo by 16 we will get a number between 0 and 15`.
 For example, if we are to find the bucket where the value `"Manon"` will land, then we do the following:
 ![hashing using hash code and modular operation example](./project_hash_map/imgs/01.png)
 
