@@ -199,7 +199,7 @@ The Growth of our hash map has the complexity of `O(n)` at all times.
 
   1. `set` takes two arguments, the first is a key and the second is a value that is assigned to this key, if a key already exists then the old value is overwritten.
 
-     - Remember to grow your buckets size when it needs to, by calculating the `load factor` and `capacity`.
+     - Remember to grow your buckets size when it needs to, by calculating if your bucket has reached the `load factor`.
 
   1. `get` takes one argument as a key and returns the value that is assigned to this key. If key is not found, return `null`.
 
