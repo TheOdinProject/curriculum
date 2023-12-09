@@ -128,7 +128,7 @@ With our new function we will have different hash codes for the names `"Sara"` a
   Notice the usage of prime number. We could have chosen any number we wanted, but prime numbers are even better to introduce less hash codes that are divisible by the same bucket length, which will make collisions less likely to happen.
 </div>
 
-Even though we reworked our hash function to avoid the `"Sara"/"raSa"` collision, there is always the possibility for collisions. Since have a finite number of buckets, there is no way to eliminate collisions entirely. Let's try to minimize them.
+Even though we reworked our hash function to avoid the `"Sara"/"raSa"` collision, there is always the possibility for collisions. Since we have a finite number of buckets, there is no way to eliminate collisions entirely. Let's try to minimize them.
 
 #### Dealing with collisions
 
