@@ -1,12 +1,12 @@
 ### Introduction
 
-One of the most used data structure across all languages is a hash table, aka hash map. If you've worked with JavaScript Object Literal `{}`, `Set`, and `Map`, then you have used structures based on hash tables. But how do they work exactly? How can we save values using strings and symbols as keys and then retrieve those values using the same keys.
+One of the most used data structure across programming languages is a hash table, aka hash map. If you've worked with JavaScript Object Literal (`{}`), `Set`, or `Map`, then you have used structures based on hash tables. But how do they work internally? How can we save key value pairs and later retrieve them?
 
 In this project, you will learn how it all works, and you will implement your own hash map! To start we need to learn a few concepts, one of which is a hash code, what does it mean, and how to use it. Let us get started and hope you are exited to finally know what is happening with an object when you put keys and values in them.
 
 ### What is a hash code
 
-Let's start by learning what it means to hash a value. Hashing involves taking an input in and generating an output that represents the initial input. A hash function should be a pure function. Hashing the same input should always return the same hash code, and there should be no random generation component. For example, let's look at a hashing function that takes a name and gives us the first letter of that name:
+Let's start by learning what it means to hash a value. Hashing involves taking an input in and generating a corresponding output. A hash function should be a pure function. Hashing the same input should always return the same hash code, and there should be no random generation component. For example, let's look at a hashing function that takes a name and gives us the first letter of that name:
 
 ```javascript
 function hash(name) {
@@ -14,7 +14,7 @@ function hash(name) {
 }
 ```
 
-We created our first basic hashing function. It takes a name and returns the first letter of that name.
+We created our first basic hashing function.
 You might be familiar with this concept from your cipher exercise earlier in the foundations course, but there is a key difference between hashing and ciphering (encryption): reversibility.
 
 Hashing is a one-way process. Here is an example given a name, you can get a hash out of it, but given a hash, you cannot revert it back to a name. If you have a name `"Carlos"` we can hash it to `"C"`. But it will not be possible to reverse it from `"C"` back to its original form. You cannot know if it is `"Carlos"`, maybe it's `"Carla"` or `"Carrot"` we don't know.
@@ -25,7 +25,7 @@ Hashing is very good for security, given a password you can save the hash of tha
 
 ### Use cases
 
-What can we do with those hashes? You have probably seen it in school where a folder is organized into smaller folders, and each folder holds information about people with the same first letter, so we get something like this:
+What can we do with those hashes? You have probably seen it in school where a folder is organized into smaller folders, and each folder holds information about people with the same first letter:
 
 ```
 C:
@@ -40,9 +40,9 @@ B:
   bianca.txt
 ```
 
-If we get new student in our school with the name `"Carlos"`, we can run our hash function to find out which folder to place them in. `hash("Carlos") -> "C"` so we put `"Carlos"` in the directory labeled `C`
+If we get new student in our school with the name `"Carlos"`, we can run our hash function to find out which folder to place them in. `hash("Carlos") -> "C"` so we put `"Carlos"` in the directory labeled `C`.
 
-You might have spotted a problem: what if our school is populated with many people whose names share the same first letter `C`? Then we will have a directory labeled `C` that holds too many names that start with `"C"` while the other directories are empty. To eliminate this duplication and better separate our students, we need to rework our hash function while still maintaining a constant folder structure.
+You might have spotted a problem: what if our school is populated with many people whose names share the same first letter `C`? Then we will have a directory labeled `C` that holds too many names while other directories could be empty. To eliminate this duplication and better separate our students, we need to rework our hash function while still maintaining a constant folder structure.
 
 ```javascript
 function hash(name, surname) {
@@ -104,10 +104,10 @@ If iterating over the hash map frequently is your goal, then this data structure
 
 ### Collisions
 
-We have another problem that we need to deal with: collisions. A collision occurs when two different values generate the exact same hash code. Because they have the same hash code, they will land in the same bucket.
+We have another problem that we need to deal with: collisions. A collision occurs when two different keys generate the exact same hash code. Because they have the same hash code, they will land in the same bucket.
 
 Let's take an example: hashing the name `"Sara"` and the name `"raSa"` will generate the same hash code. That is because the letters in both names are the same, just arranged differently.
-Turn out, we can rework our `stringToNumber` function so that it can give us unique hash codes which depends on where the letter appear in the name using an algorithm.
+We can rework our `stringToNumber` function so that it can give us unique hash codes which depends on where the letter appear in the name using an algorithm.
 
 ```javascript
 function stringToNumber(string) {
@@ -128,11 +128,11 @@ With our new function we will have different hash codes for the names `"Sara"` a
   Notice the usage of prime number. We could have chosen any number we wanted, but prime numbers are even better to introduce less hash codes that are divisible by the same bucket length, which will make collisions less likely to happen.
 </div>
 
-Even though we reworked our hash function to avoid the `"Sara"/"raSa"` collision, there is always the possibility for collisions. Because we have a finite number of buckets, there is no way to eliminate collisions entirely. But we can try to minimize them as much as possible.
+Even though we reworked our hash function to avoid the `"Sara"/"raSa"` collision, there is always the possibility for collisions. Since have a finite number of buckets, there is no way to eliminate collisions entirely. Let's try to minimize them.
 
 #### Dealing with collisions
 
-Enters `Linked Lists`. If each `Node` inside the bucket is also a Linked List, Then we look for bucket `508` if it's empty we insert the head of Linked List, If a Node head exists in a bucket we follow that Linked List to add to the end of it.
+Up until now, our hash map is a one-dimensional data structure. What if each `Node` inside the bucket can store more than one value? Enters `Linked Lists`. Now, each `Node` inside the bucket is also a Linked List. When inserting to a bucket, if it's empty, we insert the head of Linked List. If a `Node` head exists in a bucket, we follow that Linked List to add to the end of it.
 
 You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible. Most likely you will not be writing your own hash functions, as most languages have it built in. But understanding how hash functions work is important.
 
@@ -150,17 +150,17 @@ How are we going to insert into those buckets when our hash function generates b
 For example, if we are to find the bucket where the value `"Manon"` will land, then we do the following:
 ![hashing using hash code and modular operation example](./project_hash_map/imgs/01.png)
 
-If we keep adding nodes into our buckets then the buckets will start filling up, but what is more important is we know for a fact that if almost all buckets have items in them, then it is guaranteed that some buckets will have collisions, It is Mathematically impossible not to.
+If we keep adding nodes into our buckets then the buckets will start filling up, but what is more important is we know for a fact that if almost all buckets have items in them, then collisions are guaranteed, it is mathematically impossible not to.
 
-Remember we don't want collisions, in a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new buckets list that is double the size of the old buckets list, then we retrieve all nodes from the old buckets and insert them into the new buckets.
+Remember we don't want collisions, in a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new buckets list that is double the size of the old buckets list, then we copy all nodes over to the new buckets.
 
 #### When do we know that it's time to grow our buckets size
 
 To deal with this, our hash map class need to keep track of two new fields, the `capacity` and the `load factor`.
 
-- The `capacity` is the amount of buckets we currently have. Keeping track of this will let us know if our map has reached the threshold, the threshold will depend on our factor variable as well.
+- The `capacity` is the total number of buckets we currently have. Keeping track of this will let us know if our map has reached a certain threshold aka `load factor`,
 
-- The `load factor` is a number that we can assign our hash map to at the start. It's the factor that will determine when is it a good time to grow our buckets, for example a load factor of `0.75` means our hash map will need to grow its buckets when the capacity reaches 75% full. Setting it too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have collisions before we grow them. Usually a good balance of `0.75 to 1` is used.
+- The `load factor` is a number that we can assign our hash map to at the start. It's the factor that will determine when is it a good time to grow our buckets, for example a load factor of `0.75` means our hash map will need to grow its buckets when the capacity reaches 75% full. Setting it too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have many collisions before we grow them. Usually a good balance of `0.75 to 1` is used.
 
 ### Computation complexity
 
@@ -189,7 +189,7 @@ The Growth of our hash map has the complexity of `O(n)` at all times.
       }
       ```
 
-  1. Inside the class DO NOT use Objects to store your key value pairs, And DO NOT use the array method `push` to insert your nodes into the buckets, always use indexes.
+  1. Inside the class DO NOT use Objects to store your key value pairs, and DO NOT use the array method `push()` to insert your nodes into the buckets. Always use indexes.
 
 #### Time to create a real hash map
 
