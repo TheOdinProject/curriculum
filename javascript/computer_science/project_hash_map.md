@@ -23,7 +23,7 @@ Hashing is a one-way process. Here is an example given a name, you can get a has
 Hashing is very good for security, given a password you can save the hash of that password, but if someone steals your hashes they cannot know the original passwords since they are unable to reverse the hash back to the password.
 </div>
 
-### Use cases
+#### Use cases
 
 What can we do with those hashes? You have probably seen it in school where a folder is organized into smaller folders, and each folder holds information about people with the same first letter:
 
