@@ -20,7 +20,7 @@ So to summarize, hiring managers are usually looking for 3 main things:
 
 You can learn a bit about the perspective of hiring managers by reading blog posts about how to hire developers.  No need to go crazy, but try to get a picture of why they're hiring you:
 
-1. [The Best Way to Hire Software Developers](http://insights.dice.com/2013/05/31/hiring-software-developers/)
+1. [The Best Way to Hire Software Developers](https://web.archive.org/web/20221204090114/http://insights.dice.com/2013/05/31/hiring-software-developers/)
 2. [How to Hire Talent](http://lifeofaprogrammanager.blogspot.com/2006/06/how-to-hire-talent.html)
 3. [Joel Spolsky has a lengthy diatribe on hiring developers](http://www.joelonsoftware.com/articles/FindingGreatDevelopers.html), which should give you an idea of the need and pain of hiring great engineers.
 4. [Joel Spolsky's Guerrilla Guide to Interviewing (version 3.0)](http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html).  Look for "people who are 1. Smart, and 2. Get things done".
