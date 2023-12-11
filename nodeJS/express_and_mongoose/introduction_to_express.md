@@ -45,8 +45,8 @@ This section contains helpful links to other content. It isn't required, so cons
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#introducing_express" title="Permalink to Introducing Node"> What is Express?</a>
-- <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#importing_and_creating_modules" title="Permalink to Importing and creating modules"> What is a module?</a>
-- <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction/#creating_route_handlers" title="Permalink to Creating route handlers"> Which are the four most used methods to define route handlers?</a>
-- <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction/#handling_errors" title="Permalink to Handling errors"> How do we handle errors?</a>
-- <a class='knowledge-check-link' href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment#adding_dependencies" title="Permalink to Adding dependencies"> How do you use the Express library with NPM in a project?</a>
+- [What is Express?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#introducing_express)
+- [What is a module?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#importing_and_creating_modules)
+- [Which are the four most used methods to define route handlers?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction/#creating_route_handlers)
+- [How do we handle errors?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction/#handling_errors)
+- [How do you use the Express library with NPM in a project?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment#adding_dependencies)

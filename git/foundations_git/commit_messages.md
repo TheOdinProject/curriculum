@@ -33,7 +33,7 @@ Even though it describes what you did, the message is too vague, which leaves th
 Effective commits consist of two separate parts: a subject, and a body:
 
 #### Subject
-A brief summary of the change you made to the project. 
+A brief summary of the change you made to the project.
 
 ```
 This is the change I made to the codebase.
@@ -106,4 +106,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 -   One way to formulate high-information commit messages is to follow a template. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) is one of many commit message templates that you can explore.
--   Explore this amazing tutorial video on Conventional Commits ➔ [Full Video Link](https://www.youtube.com/watch?v=OJqUWvmf4gg). The video showcases best commit message practices, including Yarn (a package manager) and creating releases. While the Yarn and creating releases information might not be immediately necessary for Foundations, you don't need to worry about it for now. So, feel free to explore and enhance your commit messages and development workflow.
+-   Explore this amazing tutorial video on Conventional Commits ➔ [Full Video Link](https://www.youtube.com/watch?v=OJqUWvmf4gg). The video showcases the Conventional Commits template from the resource above. It also mentions creating releases and shows using something called "Yarn". These two parts are out of scope for this part of the course, so don't worry about them and instead focus on the commit template.

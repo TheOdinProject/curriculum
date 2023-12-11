@@ -237,5 +237,5 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [This article, again from Epic React](https://epicreact.dev/myths-about-useeffect) goes over some common mistakes while using effects.
-*   [This article from Epic React](https://epicreact.dev/why-you-shouldnt-put-refs-in-a-dependency-array) goes into how dependency arrays are supposed to be used.
+*   [This article from Epic React](https://epicreact.dev/myths-about-useeffect) goes over some common mistakes while using effects.
+*   [This article, again from Epic React,](https://epicreact.dev/why-you-shouldnt-put-refs-in-a-dependency-array) goes into how dependency arrays are supposed to be used.

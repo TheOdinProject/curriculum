@@ -13,10 +13,10 @@ In this lesson, we’ll cover the basics of what a function is and some common w
 
 Similar to programming languages, functions in CSS are reusable pieces of code which perform specific tasks. Functions are passed “arguments” between parentheses, each of which is used by the function in a specific way. Some common examples are:
 
-~~~css
+```css
 color: rgb(0, 42, 255);
 background: linear-gradient(90deg, blue, red);
-~~~
+```
 
 Here, the value of `color` is the function `rgb()`, which accepts arguments in the form of numbers. It processes those numbers to calculate the rgb color corresponding to the three values given. Similarly, the `background` property has a value of `linear-gradient(90deg, blue, red)`. `linear-gradient` generates a gradient image using the parameters it's been given. It needs at least two color arguments: colors to transition between. Additionally, you can set the angle of direction of the gradient line (like we've done in the example), add more color values, etc.
 
@@ -42,13 +42,13 @@ The most powerful use cases for calc include:
 
 Take a look at how `calc()` is being used here:
 
-~~~css
+```css
 :root {
 --header: 3rem;
 --footer: 40px;
 --main: calc(100vh - calc(var(--header) + var(--footer)));
 }
-~~~
+```
 - `--header`, `--footer`, and `--main` are all examples of CSS variables. You will be learning about these in the next lesson.
   
 Setting main to equal the outcome of: `100vh - (3rem + 40px)`.
@@ -73,14 +73,14 @@ The above is just an example of how `calc()` can affect a layout, but keep in mi
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-~~~css
+```css
 #iconHolder {
   width: min(150px, 100%);
   height: min(150px, 100%);
   box-sizing: border-box;
   border: 6px solid blue;
 }
-~~~
+```
 
 Focus on this line `width: min(150px, 100%);` we can make several observations:
 If there are `150px` available to the image, it will take up all `150px`.
@@ -94,9 +94,9 @@ Max works the same way as min, only in reverse. It will select the largest possi
 
 Consider the following property of a given element:
 
-~~~css
+```css
 width: max(100px, 4em, 50%);
-~~~
+```
 
 From this list of given sizes, `max()` will select the largest one. As long as `4em` or `50%` result in lengths longer than `100px`, `max()` will select (the bigger) one of them. If they are smaller than `100px` (maybe as a cause of user's font size preferences, or their browser's window size or zoom level), then `100px` will win out as the largest. You can think of `100px` in this example as a guard value: `width` here won't ever be set to less than `100px`.
 
@@ -108,11 +108,11 @@ You may not find a lot of use for max at first, but it is a good tool to be awar
 `clamp()` is a great way to make elements fluid and responsive.
 `clamp()` takes 3 values:
 
-~~~css
+```css
 h1 {
   font-size: clamp(320px, 80vw, 60rem);
 }
-~~~
+```
 
 1. the smallest value (320px)
 2. the ideal value (80vw)
@@ -137,6 +137,7 @@ The `clamp()` CSS function uses these values to set the smallest value, ideal va
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-- [This video](https://www.youtube.com/watch?v=6QwMvf1Jq0M) by Steve Young gives a good visual overview of these functions.
+- [This video](https://www.youtube.com/watch?v=6QwMvf1Jq0M) by Steve Griffith gives a good visual overview of these functions.
 - [This article](https://moderncss.dev/practical-uses-of-css-math-functions-calc-clamp-min-max/) contains some specific use cases for all four functions, including color palette generation, background size responsiveness, and accessibility settings.
+- [This article](https://ishadeed.com/article/css-min-max-clamp/), by Ahmad Shadeed gives a detailed explanation, and contains real world use cases.
 
