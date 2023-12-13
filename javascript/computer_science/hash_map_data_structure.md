@@ -95,7 +95,7 @@ What if we found the hash code, but also the key value is the same as what we al
 
 #### Insertion order is not maintained
 
-A hash map does not guarantee insertion order when you iterate over it, Because of the buckets indexing nature of hash coding. That means if you are to retrieve the array of keys and values to iterate over them, then they will not be in order of when you inserted them.
+A hash map does not guarantee insertion order when you iterate over it. Hash codes translation to indexes does not go in linear fashion from first to last index, and rather more chaotic of where the index going to be no matter the insert order. That means if you are to retrieve the array of keys and values to iterate over them, then they will not be in order of when you inserted them.
 
 Some libraries implement hash tables with insertion order in mind such as JavaScript's own `Map`. For this project however we will be implementing an unordered hash table.
 Example: if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]` when we call an iterator.
