@@ -1,6 +1,6 @@
 ### Introduction
 
-Now that you're pro with DFS and BFS. Let's try using our search algorithms on a real problem.
+Now you're pro with DFS and BFS. Let's try using our search algorithms on a real problem.
 
 For this project, you'll need to use a data structure that's similar (but not identical) to a binary tree. For a summary of a few different examples, reference [this article](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs).
 
@@ -19,11 +19,13 @@ You can think of the board as having 2-dimensional coordinates. Your function wo
 
 - `knightMoves([0,0],[1,2]) == [[0,0],[1,2]]`
 
-Note: Sometimes _there is more than one fastest path_, an example of this is shown below. All the answers will work as long as they follow the rules and give the shortest path.
+<div class="lesson-note" markdown="1">
+Sometimes _there is more than one fastest path_. Examples of this are shown below. Any answer is correct as long as it follows the rules and gives the shortest possible path.
 
 - `knightMoves([0,0],[3,3]) == [[0,0],[2,1],[3,3]]` or `knightMoves([0,0],[3,3]) == [[0,0],[1,2],[3,3]]`
 - `knightMoves([3,3],[0,0]) == [[3,3],[2,1],[0,0]]` or `knightMoves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]`
 - `knightMoves([0,0],[7,7]) == [[0,0],[2,1],[4,2],[6,3],[4,4],[6,5],[7,7]]` or `knightMoves([0,0],[7,7]) == [[0,0],[2,1],[4,2],[6,3],[7,5],[5,6],[7,7]]`
+</div>
 
 <div class="lesson-content__panel" markdown="1">
 1. Think about the rules of the board and knight, and make sure to follow them.
