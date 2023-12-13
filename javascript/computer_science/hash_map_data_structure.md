@@ -2,7 +2,7 @@
 
 One of the most used data structure across programming languages is a hash table, aka hash map. If you've worked with JavaScript Object Literal (`{}`), `Set`, or `Map`, then you have used structures based on hash tables. But how do they work internally? How can we save key value pairs and later retrieve them?
 
-In this project, you will learn how it all works, and you will implement your own hash map! To start we need to learn a few concepts, one of which is a hash code, what does it mean, and how to use it. Let us get started and hope you are exited to finally know what is happening with an object when you put keys and values in them.
+In this lesson, you will learn how it all works, and even implement your own hash map in the next project! To start, here is a brief description of a hash map: a hash map takes in a key value pair, produces a hash code, and stores the pair in a bucket. Hash codes? Buckets? What? Don't fret, we'll learn all about these concepts and more. Buckle up and let's dive in!
 
 ### What is a hash code
 
@@ -93,14 +93,14 @@ This is it, making this will result in a hash table with `has`, `set` and `get`.
 
 What if we found the hash code, but also the key value is the same as what we already have in the bucket. We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have Nodes with only keys and no values.
 
-<div class="lesson-note lesson-note--warning" markdown="1">
+#### Insertion order is not maintained
+
 A hash map does not guarantee insertion order when you iterate over it, Because of the buckets indexing nature of hash coding. That means if you are to retrieve the array of keys and values to iterate over them, then they will not be in order of when you inserted them.
 
 Some libraries implement hash tables with insertion order in mind such as JavaScript's own `Map`. For this project however we will be implementing an unordered hash table.
 Example: if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]` when we call an iterator.
 
 If iterating over the hash map frequently is your goal, then this data structure is not the right choice for the job, a simple array would be better.
-</div>
 
 ### Collisions
 
@@ -179,3 +179,9 @@ The Growth of our hash map has the complexity of `O(n)` at all times.
 
 - Watch [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 that explains the concept of buckets.
 </div>
+
+### Additional resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- [This discussion goes through the usages of prime number](https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier/299748)
