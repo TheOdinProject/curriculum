@@ -1,7 +1,9 @@
 ### Introduction
+
 After setting up the skeleton for your project it's time to set up the database.  As usual, there's quite a bit of background information that you will find useful as you progress.
 
 ### Learning outcomes
+
 By the end of this lesson, you should be able to do the following:
 
 - Explain CRUD and how it correlates to HTTP methods in Express.
@@ -11,7 +13,7 @@ By the end of this lesson, you should be able to do the following:
 - Declare object schema and models.
 - Describe the main field types and basic validation.
 - List a few ways to access model data.
-- Test models by creating a number of instances (using a standalone script). 
+- Test models by creating a number of instances (using a standalone script).
 
 ### CRUD
 
@@ -50,15 +52,15 @@ If this is a little confusing at this point, don't worry about it too much.  You
 
 One final note before diving back into the tutorial.  Express does not care about which database you use.  The lesson lists a few options but ultimately uses MongoDB. In this case, the actual DB you use matters little.  If you later decide that you would rather use SQL or something else, you should be able to pick it up fairly easily by reading the documentation. At this point, Mongo is probably the most popular choice to use with Express so we recommend just sticking with that for now.
 
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Continue where we left off with the [MDN library tutorial (Part 3)!](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
+1. Complete part 3 of [the MDN Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose).
+
 </div>
 
-### Knowledge checks 
+### Knowledge checks
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [What does CRUD stand for?](#crud)
