@@ -45,9 +45,3 @@
   - Create a class `HashSet` that behaves the same as a `HashMap` but only contains `keys` with no `values`.
 
 </div>
-
-### Additional resources
-
-- Check out [What are Hash Functions and How to choose a good Hash Function](https://www.geeksforgeeks.org/what-are-hash-functions-and-how-to-choose-a-good-hash-function) for more technical overview of a hash function if you are interested in that.
-
-- Check out [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 that explains the concept of buckets.
