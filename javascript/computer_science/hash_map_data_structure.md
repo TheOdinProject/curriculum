@@ -52,7 +52,7 @@ function hash(name, surname) {
 
 Instead of just taking the first name letter, we take the first name and last name letters. `"Carlos Smith"` will have a hash code of `"CS"`. This will spread our students among more directories and will eliminate many duplicate hash codes from being generated.
 
-![Example of hashing a name using first name's first letter, and last name's first letter](./project_hash_map/imgs/00.png)
+![Example of hashing a name using first name's first letter, and last name's first letter](./hash_map_data_structure/imgs/00.png)
 
 But it still doesn't solve our problem. What if we have a common combination of first letters in students' names? Then we will still have an imbalance in the size of the directories. We need to make it easier to find the person we're looking for, so let's rework our hash code.
 
@@ -146,7 +146,7 @@ Let's talk about the growth of our buckets. We don't have infinite memory, so we
 
 How are we going to insert into those buckets when our hash function generates big numbers like `20353924`? We make use of the modulo `%` operation `given any number modulo by 16 we will get a number between 0 and 15`.
 For example, if we are to find the bucket where the value `"Manon"` will land, then we do the following:
-![hashing using hash code and modular operation example](./project_hash_map/imgs/01.png)
+![hashing using hash code and modular operation example](./hash_map_data_structure/imgs/01.png)
 
 If we keep adding nodes into our buckets then the buckets will start filling up, but what is more important is we know for a fact that if almost all buckets have items in them, then collisions are guaranteed, it is mathematically impossible not to.
 
