@@ -277,7 +277,7 @@ This section contains questions for you to check your understanding of this less
 
 - [Explain how scope works in JavaScript.](https://wesbos.com/javascript-scoping)
 - [Explain what closures are and how they help in creating private variables.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#closure)
-- [Describe the common issues that you can face when working with constructors.](#why-not-constructors)
+- [Describe the common issues that you can face when working with constructors.](#so-whats-wrong-with-constructors)
 - [Describe private variables in factory functions and how they can be useful.](#private-variables-and-functions)
 - [Describe how we can implement prototypal inheritance with factory functions.](#prototypal-inheritance-with-factories)
 - [Explain how the module pattern works.](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
