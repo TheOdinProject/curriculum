@@ -73,13 +73,7 @@ function hash(name, surname) {
 
 We not only consider the first letters with this technique. Instead, we take the entire name and convert it into numbers.
 
-You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true. This would make it unique for each name, but there are some good reasons to choose a number:
-
-- We do not save the hash code. The hash code is a calculation to find out which bucket (storage) our value will be placed in. Think about it as a locker number for example.
-
-- We save computation time. If we are to find where our hash is stored, it would be much faster and easier for a computer to compare two numbers rather than a string (or objects) to find the bucket where we have to store our elements (you will learn more about buckets shortly). Finding a bucket using a number would allow us to use that number as our index.
-
-- By using number as hash code, we can have hash codes that is uniform across variables where it doesn't have to only be a string, we can even hash numbers, or objects then we need an algorithm to generate a hash code number for our needs from an object, taking `class Person` object as an example, our hash code can be a combination of `strinngToNummber(name) + age`.
+You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true. This would make it unique for each name, but in the context of hash maps, we need hash code to be a number. This number will serve as the index to the bucket that will store the key value pair. More on buckets in the next section
 
 ### Buckets
 
