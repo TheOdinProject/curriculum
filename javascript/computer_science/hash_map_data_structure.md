@@ -180,6 +180,16 @@ The Growth of our hash map has the complexity of `O(n)` at all times.
 - Watch [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 that explains the concept of buckets.
 </div>
 
+### Knowledge check
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+- [What does it mean to hash](#what-is-a-hash-code)
+- [What are buckets](#buckets)
+- [What is a collision](#collisions)
+- [When is it a good time to grow our table](#when-do-we-know-that-its-time-to-grow-our-buckets-size)
+
+
 ### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
