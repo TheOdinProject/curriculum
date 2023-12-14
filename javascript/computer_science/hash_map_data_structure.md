@@ -4,6 +4,14 @@ One of the most used data structure across programming languages is a hash table
 
 In this lesson, you will learn how it all works, and even implement your own hash map in the next project! To start, here is a brief description of a hash map: a hash map takes in a key value pair, produces a hash code, and stores the pair in a bucket. Hash codes? Buckets? What? Don't fret, we'll learn all about these concepts and more. Buckle up and let's dive in!
 
+### Lesson overview
+
+By the end of this lesson, you will learn about:
+
+- Hash codes and how to generate them.
+- Hash maps and how they work internally.
+- Turning the concept of hashing into a data structure.
+
 ### What is a hash code
 
 Let's start by learning what it means to hash a value. Hashing involves taking an input in and generating a corresponding output. A hash function should be a pure function. Hashing the same input should always return the same hash code, and there should be no random generation component. For example, let's look at a hashing function that takes a name and gives us the first letter of that name:
