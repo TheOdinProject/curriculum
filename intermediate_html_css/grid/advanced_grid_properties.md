@@ -119,7 +119,9 @@ In this example, there's a lot going on in our `grid-template-columns`, but take
 grid-template-columns: repeat(2, 2fr) repeat(3, 1fr);
 ```
 
-> Quick note: We continue to use the `repeat()` function here, but this could be written the old-fashioned way too!
+<div class="lesson-note" markdown="1">
+We continue to use the `repeat()` function here, but this could be written the old-fashioned way too!
+</div>
 
 The key here is that the first two columns are assigned `2fr` units and the remaining three are assigned `1fr`. This means that as the grid grows and shrinks dynamically, the space will be distributed in different amounts between these columns, specifically, twice as many pixels to the first two columns as the remaining three.
 

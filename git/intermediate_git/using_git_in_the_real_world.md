@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Let's say you want to contribute to the [repo that houses our curriculum content](https://github.com/TheOdinProject/curriculum/)
 
-How do you contribute when you do not have write access to the repository? Below is a production-ready workflow that is actually used by contributors to this website. We'll assume here that you have commented on an [open issue on our repo](https://github.com/TheOdinProject/curriculum/issues) and that it has been assigned to you.
+How do you contribute when you do not have write access to the repository? Below is a production-ready workflow that is actually used by contributors to this website. We'll assume here that you have commented on an [open issue on our repo](https://github.com/TheOdinProject/curriculum/issues) and that it has been assigned to you. If you don't have an issue assigned to you, you can still follow along with some arbitrary updates, just stop before step 3 in the **Sending your pull request** section since your changes aren't legitimate.
 
 The key players in this story will be the `upstream` (the original GitHub repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`). Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push.
 
@@ -25,7 +25,11 @@ The key players in this story will be the `upstream` (the original GitHub reposi
 1. Read [the contributing guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md) for the project.
 2. Navigate to the curriculum repository and fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub.
 3. Clone your forked repository onto your local machine using something like `git clone git@github.com:your_user_name_here/curriculum.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on GitHub).
-4. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on GitHub.  You will use this to push changes back up to GitHub.  You'll also want to be able to pull directly from the original repository on GitHub, which we'll call `upstream`, by setting it up as another remote.  Do this by using `git remote add upstream git@github.com:TheOdinProject/curriculum.git` inside the project folder `curriculum`.
+4. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on GitHub.  You will use this to push changes back up to GitHub.  You'll also want to be able to pull directly from the original repository on GitHub, which we'll call `upstream`, by setting it up as another remote.  Do this by using the git command below inside the project folder `curriculum`:
+
+```
+git remote add upstream git@github.com:TheOdinProject/curriculum.git
+```
 
 #### Ongoing workflow
 
@@ -42,7 +46,7 @@ We've got one main branch -- `main`.  `main` is for production-ready code.  Any 
 
 1. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `main`, the hard part is all over. All that's left is to make the Pull Request (often abbreviated as PR) against our `upstream` repo on GitHub!
 2. Now you want to send your feature branch back up to your `origin` (your fork of the `upstream` repository). <span id="send-changes">You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request.</span>  Use `git push origin your_feature_name` to ship your feature branch up to your fork on GitHub.
-3. If you have been following along with the above steps to get familiar with this workflow, you should stop at this point. If you have completed an assigned issue, the final step is to submit a pull request to merge your feature branch into the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
+3. If you have been following along with the above steps to get familiar with this workflow, you should **stop at this point**. If you have completed an assigned issue, the final step is to submit a pull request to merge your feature branch into the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
 4. Shake your moneymaker, you're an OSS contributor!
 
 ### Knowledge check
