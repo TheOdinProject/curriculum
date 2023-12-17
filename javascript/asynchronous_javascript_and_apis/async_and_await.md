@@ -72,17 +72,17 @@ An important thing to understand is `async` functions are just syntactical sugar
 The `async` keyword can also be used with any of the ways a function can be created. Said differently: it is valid to use an `async` function anywhere you can use a normal function. Below you will see some examples that may not be intuitive. If you don't understand them, come back and take a look when you are done with the assignments.
 
 ```javascript
-  const yourAsyncFunction = async () => {
-    // do something asynchronously and return a promise
-    return result;
-  }
+const yourAsyncFunction = async () => {
+  // do something asynchronously and return a promise
+  return result;
+}
 ```
 
 ```javascript
- anArray.forEach(async item => {
-   // do something asynchronously for each item in 'anArray'
-   // one could also use .map here to return an array of promises to use with 'Promise.all()'
- });
+anArray.forEach(async item => {
+  // do something asynchronously for each item in 'anArray'
+  // one could also use .map here to return an array of promises to use with 'Promise.all()'
+});
 ```
 
 ```javascript
