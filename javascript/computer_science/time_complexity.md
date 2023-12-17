@@ -221,7 +221,7 @@ You want to avoid this if at all possible, otherwise you won't be processing muc
 
 #### O(N!) - Factorial complexity
 
-A factorial is the product of the sequence of _n_ integers. The factorial of 4(4!) is 4 \* 3 \* 2 \* 1.
+A factorial is the product of the sequence of _n_ integers. The factorial of 4(4!) is 4 * 3 * 2 * 1.
 
 You will come across Factorial Complexity if you ever need to calculate permutations or combinations. If you have an array and have to work out all the combinations you can make from the array, that is a Factorial complexity. It's manageable for a small number of items, but the leap with each new item in a dataset can be huge.
 
