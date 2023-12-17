@@ -223,7 +223,7 @@ A factorial is the product of the sequence of _n_ integers. For example, the fac
 
 You will come across Factorial Complexity if you ever need to calculate permutations or combinations. If you have an array and have to work out all the combinations you can make from the array, that is a Factorial complexity. It's manageable for a small number of items, but the leap with each new item in a dataset can be huge.
 
-The factorial of 3 is 6 (3 \* 2 \* 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
+The factorial of 3 is 6 (3 * 2 * 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
 
 ### Alternatives to big O
 
