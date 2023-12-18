@@ -17,7 +17,7 @@ Build a social media site! You'll build a large portion of the core user functio
 
 This project will give you the chance to take a relatively high-level set of requirements and turn it into a functioning website. You'll need to do some of your own research and read the documentation for a few of the modules you'll be using in this project.
 
-The following requirements are a very global list of features your app should have. Because of the open-ended nature of this project, it's possible that not all of them may apply to your chosen site, and that there might be core features of your site that aren't mentioned here. Keep in mind that the overall goal is to clone your site, not to tick off a list of requirements.
+The following requirements are a very global list of features your app should have. Because of the open-ended nature of this project, it's possible that not all of them may apply to your chosen site, and that there might be core features of your site that aren't mentioned here.
 
 1. Users must sign in to see anything except the sign-in page.
 1. Users should be able to sign in using your chosen authentication method.
@@ -43,7 +43,7 @@ The following requirements are a very global list of features your app should ha
 #### Extra credit
 
 1. Make posts also allow images (either just via a URL or by uploading one.)
-2. Allow Users to upload and update their profile photo.
+2. Allow users to upload and update their profile photo.
 3. Create a guest sign-in functionality that allows visitors to bypass the login screen without creating an account or supplying credentials. This is especially useful if you are planning on putting this project on your résumé - most recruiters, hiring managers, etc. will not take the time to create an account. This feature will allow them to look at your hard work without going through a tedious sign-up process.
 4. Make it pretty!
 
