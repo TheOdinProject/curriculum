@@ -121,13 +121,34 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 **Free plan**
 
-- You get a free one-time grant of 5$ on their free trial, and the applications are never put to sleep when inactive.
+- You get a free one-time grant of $5 on their free trial, and the applications are never put to sleep when inactive.
 - However, the longevity of your free allowance depends on how many resources you consume. Full usage of the resources available is only enough to host one app for about 30 days, and thus isn't recommended.
 
 **Links**
 
 - [Homepage](https://railway.app/)
 - [Documentation](https://docs.railway.app/)
+
+---
+
+### Adaptable.io
+
+- Like Railway, has a simple deployment process. You simply link to your project's GitHub repo.
+- Free plan does not limit the number of applications you can deploy.
+- Also has fixed and usage-based payment plans.
+
+**Free plan**
+
+- No limits on the number of applications you can deploy on the free plan.
+- Monthly performance allowance is more than sufficient for course/personal projects (approximately 25,000 API requests per month).
+- Applications are put to sleep when inactive but wake up speed is quicker than Render.
+- No credit card required.
+
+**Links**
+
+- [Homepage](https://adaptable.io/)
+- [Documentation](https://adaptable.io/docs/what-is-adaptable)
+- [Guide: Official getting started with deploying an Express app on Adaptable guide](https://adaptable.io/docs/app-guides/deploy-express-app)
 
 ---
 

@@ -37,7 +37,7 @@ If you're using a Mac, you're in great shape. The Odin Project instructions assu
 
 #### Windows
 
-Windows, by itself, **is not natively supported** by The Odin Project, or on our Discord server. Because many of the tools you'll be using were written with a Linux environment in mind, you'll need to have to one even if you plan to use Windows as your development OS. If you are currently using Windows you can use one of the following options to create your development environment:
+Windows, by itself, **is not natively supported** by The Odin Project, or on our Discord server. Because many of the tools you'll be using were written with a Linux environment in mind, you'll need to have one even if you plan to use Windows as your development OS. If you are currently using Windows you can use one of the following options to create your development environment:
 
 * A VirtualBox Virtual Machine
 * Dual-boot Ubuntu installation
