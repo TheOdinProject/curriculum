@@ -1,12 +1,12 @@
 ### Introduction
 
-It is time that you create your own hash map. You already know the magic of how it all works out from the previous lesson, now it is time for you to create your own magical implementation.
+You already know the magic behind hash maps, now it's time to write your own implementation!
 
 #### Self restriction and limitation
 
   Before we get started, we need to lay down some ground rules. JavaScript's dynamic nature of array allow us to insert and retrieve indexes that is outside our array size range. Example: if we create an array of size `16` to be our buckets size, nothing stopping us from storing items at index `500`. This defeats the purpose we are trying to demonstrate, so we need to put some self restriction to work around this.
 
-  1. When you create a function that takes a hash code value and returns the bucket index, use this snippet before the function returns to make sure it's accessing inbound array indexes only.
+  1. Use the following snippet whenever you access a bucket through an index. We want to throw an error if we try to access an out of bound index:
 
       ```javascript
       if (index < 0 || index >= buckets.length) {
@@ -44,7 +44,7 @@ It is time that you create your own hash map. You already know the magic of how 
 
   1. `entries` returns an array that contains each `key, value` pair. Example: `[[firstKey, firstValue], [secondKey, secondValue]]`
 
-  Remember that a hash map does not preserve insertion order when you are retrieving your arrays' data, it is normal and expected for keys and values to appear out of the order you inserted them in.
+  Remember that a hash map does not preserve insertion order when you are retrieving your hash map's data, it is normal and expected for keys and values to appear out of the order you inserted them in.
 
 #### Extra Credit
 

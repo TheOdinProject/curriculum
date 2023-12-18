@@ -25,10 +25,10 @@ function hash(name) {
 We created our first basic hashing function.
 
 There is a key difference between hashing and ciphering (encryption): reversibility.
-Hashing is a one-way process. Here is an example given a name, you can get a hash out of it, but given a hash, you cannot revert it back to a name. If you have a name `"Carlos"` we can hash it to `"C"`. But it will not be possible to reverse it from `"C"` back to its original form. You cannot know if it is `"Carlos"`, maybe it's `"Carla"` or `"Carrot"` we don't know.
+Hashing is a one-way process. Using the above example, you can make a hash code from a name, but you cannot take a hash code and revert it back to a name. If you have a name `"Carlos"`, we can hash it to `"C"`. But it's impossible to reverse it from `"C"` back to its original form. You cannot know if it's `"Carlos"`, maybe it's `"Carla"` or `"Carrot"`. We don't know.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
-Hashing is very good for security, given a password you can save the hash of that password, but if someone steals your hashes they cannot know the original passwords since they are unable to reverse the hash back to the password.
+Hashing is very good for security. Given a password, you can save the hash of that password rather than the password's plain text. If someone steals your hashes, they cannot know the original passwords since they are unable to reverse the hash back to the password.
 </div>
 
 #### Use cases
@@ -81,15 +81,21 @@ function hash(name, surname) {
 
 We not only consider the first letters with this technique. Instead, we take the entire name and convert it into numbers.
 
-You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true. This would make it unique for each name, but in the context of hash maps, we need hash code to be a number. This number will serve as the index to the bucket that will store the key value pair. More on buckets in the next section
+You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true. This would make it unique for each name, but in the context of hash maps, we need hash code to be a number. This number will serve as the index to the bucket that will store the key value pair. More on buckets in the next section.
 
 ### Buckets
 
-Buckets are storage that we need to store our elements. Simply, it's an array. From now on, we will be referring to our storage as buckets. We have a set of buckets as our storage, since our hash function now produce a number we are going to find out which bucket we gonna use for storage using that number as index. We receive a key `"Fred"` We hash it using our hash function, it produces the number `508` we look which Bucket has index `508` we put `"Fred"` in the bucket. This is the simple form, but there are more mechanics that we need to deal with.
+Buckets are storage that we need to store our elements. Simply, it's an array. For a specific key, we decide which bucket to use for storage through our hash function. Hash function returns a number which serves as the index of the array at which we store this specific key value pair. Let's say we need to store a key "Fred":
+
+1. Pass "Fred" into the hash function to get the hash code which is `508`
+1. Find the bucket at index `508`
+1. Store the key value pair in that bucket.
+
+This is an oversimplified explanation; we'll discuss more internal mechanics later in the lesson.
 
 To get a value using a key, we put each entry inside a bucket as a `Node` item, which hold both the key and the value. To retrieve the value we hash a key, we find the bucket number, if the bucket is not empty then we go to that bucket we compare if the Node's key is the same key that is already in the bucket, if it is then we retrieve the Node's value otherwise we return null.
 
-Maybe you are wondering, why are we comparing the keys if we already found the index of that bucket? That is because remember, hash code is just the location, different items might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
+Maybe you are wondering, why are we comparing the keys if we already found the index of that bucket? That is because remember, hash code is just the location, different keys might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
 
 This is it, making this will result in a hash table with `has`, `set` and `get`.
 
@@ -134,7 +140,7 @@ Even though we reworked our hash function to avoid the `"Sara"/"raSa"` collision
 
 #### Dealing with collisions
 
-Up until now, our hash map is a one-dimensional data structure. What if each `Node` inside the bucket can store more than one value? Enters `Linked Lists`. Now, each `Node` inside the bucket is also a Linked List. When inserting to a bucket, if it's empty, we insert the head of Linked List. If a `Node` head exists in a bucket, we follow that Linked List to add to the end of it.
+Up until now, our hash map is a one-dimensional data structure. What if each `Node` inside the bucket can store more than one value? Enters `Linked Lists`. Now, each bucket will be a Linked List. When inserting to a bucket, if it's empty, we insert the head of Linked List. If a head exists in a bucket, we follow that Linked List to add to the end of it.
 
 You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible. Most likely you will not be writing your own hash functions, as most languages have it built in. But understanding how hash functions work is important.
 
