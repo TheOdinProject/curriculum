@@ -13,15 +13,15 @@ In our Foundations lesson, we covered changing the `font-family` of an element, 
 
 #### The system font stack
 
- If you use the `font-family` property to change to a font like `impact` or `Times New Roman`, and those fonts do not happen to be installed on your user's computer, then a fallback font will be displayed.  If you have not defined a fallback, then the default HTML font will be used, which is often somewhat ugly. For this reason, it's common to see somewhat long stacks of fonts listed on projects. 
+ If you use the `font-family` property to change to a font like `impact` or `Times New Roman`, and those fonts do not happen to be installed on your user's computer, then a fallback font will be displayed.  If you have not defined a fallback, then the default HTML font will be used, which is often somewhat ugly. For this reason, it's common to see somewhat long stacks of fonts listed on projects.
 
 One popular stack is this 'system font' stack. [Source: CSS Tricks](https://css-tricks.com/snippets/css/system-font-stack/)
 
-~~~css
+```css
 body {
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-~~~
+```
 
 The point of this somewhat ridiculous string of font-families is to try using the default font of the system's user interface. It will go through each of those fonts until it finds one that is installed on the system, and then use that. Using a stack like this often produces pleasing results, especially if you're going for a somewhat 'neutral' font style.
 
@@ -31,25 +31,25 @@ One popular and easy method to get fonts that are _not_ installed on a user's co
 
 To use a font from one of these libraries, go to the website, select a font and then copy a snippet from the website to import that font from their server into your website. You'll be given either a `<link>` tag to put in your HTML like so....
 
-~~~html
+```html
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-~~~
+```
 
 ... or an `@import` tag that can be dropped at the top of a CSS file.
 
-~~~css
+```css
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-~~~
+```
 
 Either method will import that font and make it available for you to use in your CSS:
 
-~~~css
+```css
 body {
   font-family: 'Roboto', sans-serif;
 }
-~~~
+```
 
 Keep in mind that it's important to add a fallback font.  If you're linking to an external API, you have no guarantee that the URL won't change, or that the external API won't go down at some point. Having a reasonable fallback means that if something goes wrong, at least your site won't look completely broken.
 
@@ -57,7 +57,7 @@ Keep in mind that it's important to add a fallback font.  If you're linking to a
 
 It is also possible to use a font that you have downloaded from the web. In your CSS file, you import and define a custom font using the `@font-face` rule, and then use it as you would any other font-family. There are multiple types of font file formats and you can read more in depth about them on [fileinfo.com's page on Font File Formats](https://fileinfo.com/filetypes/font). Please take care when choosing a font file format however, because some are not universally supported by browsers. A list of browsers and the font formats they support can be found on [W3 Schools' page on CSS Web Fonts](https://www.w3schools.com/css/css3_fonts.asp).
 
-~~~css
+```css
 @font-face {
   font-family: my-cool-font;
   src: url(../fonts/the-font-file.woff);
@@ -66,7 +66,7 @@ It is also possible to use a font that you have downloaded from the web. In your
 h1 {
   font-family: my-cool-font, sans-serif;
 }
-~~~
+```
 
 This method _may_ be more reliable than relying on a third-party font API, but it is always wise to include a fallback.
 
@@ -82,19 +82,19 @@ For example, if you want all your header text to be italic you should use `font-
 
 We should use `font-style: italic;` if italics is required for styling purposes.
 
-~~~css
+```css
 h1 {
   font-style: italic;
 }
-~~~
+```
 
 We should use the `em` element if italics is required for emphasis.
 
-~~~html
+```html
 <p>I <em>never</em> said he stole your money</p>
 <p>I never said <em>he</em> stole your money</p>
 <p>I never said he stole <em>your</em> money</p>
-~~~
+```
 
 #### letter-spacing
 Letter spacing does what you would expect.... it changes the space between letters in a word. This can be useful for adjusting custom fonts that you feel have too much or too little space. It can also be aesthetically pleasing in some cases, like headers.
@@ -133,13 +133,13 @@ This one isn't a single property, but it's a useful trick to keep in your toolbo
 
 The full snippet is:
 
-~~~css
+```css
 .overflowing {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-~~~
+```
 
 You can see more detail and an example in [this CSS Tricks Article](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/).  (Be ready to go look that article up every time you want to use this.)
 
@@ -156,4 +156,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- [Modern CSS Techniques To Improve Legibility](https://www.smashingmagazine.com/2020/07/css-techniques-legibility/) by [Edoardo Cavazza](https://www.smashingmagazine.com/author/edoardo-cavazza/) is a great article that covers some additional text styles and techniques that can be utilized to improve websites legibility. 
+- [Modern CSS Techniques To Improve Legibility](https://www.smashingmagazine.com/2020/07/css-techniques-legibility/) by [Edoardo Cavazza](https://www.smashingmagazine.com/author/edoardo-cavazza/) is a great article that covers some additional text styles and techniques that can be utilized to improve websites legibility.

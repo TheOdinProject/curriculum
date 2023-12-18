@@ -72,7 +72,7 @@ Another element we should always include in the head of an HTML document is the 
 
  `<title>My First Webpage</title>`
 
-The `<title>` element is used to give webpages a human-readable title which is displayed in our webpage's browser tab.
+The `<title>` element is used to give webpages a human-readable title which is displayed in our webpage's browser tab. For example, if you look at the current tab's name of your browser, it will read "HTML Boilerplate &#124; The Odin Project"; this is the `<title>` of the current `.html` file.
 
 If we didn't include a `<title>` element, the webpage's title would default to its file name. In our case that would be `index.html`, which isn't very meaningful for users; this would make it very difficult to find our webpage if the user has many browser tabs open.
 

@@ -24,7 +24,7 @@ Here's a really common example. Most of our code has functions to update and wri
 
 Here we have a function that should check if a game over condition has been met.  There are two issues with this:
 
-~~~javascript
+```javascript
 function isGameOver() {
 
   // game over logic goes here!
@@ -36,11 +36,11 @@ function isGameOver() {
     document.body.appendChild(gameOverDiv);
   }
 }
-~~~
+```
 
 The first issue is that the function (and the module it's in) should not directly be the one to manipulate the DOM. You should extract all the DOM manipulation into its own module and use it like so:
 
-~~~javascript
+```javascript
 function isGameOver() {
 
   // game over logic goes here!
@@ -49,7 +49,7 @@ function isGameOver() {
     DOMStuff.gameOver(this.winner);
   }
 }
-~~~
+```
 
 The second issue remaining is that the `isGameOver` function should only be responsible for checking if the `gameOver` condition is met. Based on `isGameOver` return value, the function that handles the game loop should be responsible for deciding whether to call `DOMStuff.gameOver(this.winner)` or not.
 

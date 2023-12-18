@@ -91,3 +91,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * [How to use LinkedIn as a developer to get a job in tech](https://www.youtube.com/watch?v=SG5Sb5WTV_g)
 * [How to Network: a Guide for Remote Software Developers & Engineers](https://arc.dev/developer-blog/how-to-network-as-remote-developer/)
+* [First ruby friend](https://firstrubyfriend.org): people on the ruby path can find free mentorship from friendly volunteers here.
