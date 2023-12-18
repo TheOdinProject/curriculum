@@ -10,7 +10,6 @@ By the end of this lesson, you will learn about:
 
 - Hash codes and how to generate them.
 - Hash maps and how they work internally.
-- Turning the concept of hashing into a data structure.
 
 ### What is a hash code
 
