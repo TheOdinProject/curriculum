@@ -49,7 +49,7 @@ B:
 
 If we get new student in our school with the name `"Carlos"`, we can run our hash function to find out which folder to place them in. `hash("Carlos") -> "C"` so we put `"Carlos"` in the directory labeled `C`.
 
-You might have spotted a problem: what if our school is populated with many people whose names share the same first letter `C`? Then we will have a directory labeled `C` that holds too many names while other directories could be empty. To eliminate this duplication and better separate our students, we need to rework our hash function while still maintaining a constant folder structure.
+You might have spotted a problem: what if our school is populated with many people whose names share the same first letter `C`? Then we will have a directory labeled `C` that holds too many names while other directories could be empty. To eliminate this duplication and better separate our students, we need to rework our hash function.
 
 ```javascript
 function hash(name, surname) {
@@ -165,7 +165,7 @@ To deal with this, our hash map class need to keep track of two new fields, the 
 
 - The `capacity` is the total number of buckets we currently have. Keeping track of this will let us know if our map has reached a certain threshold aka `load factor`,
 
-- The `load factor` is a number that we can assign our hash map to at the start. It's the factor that will determine when is it a good time to grow our buckets, for example a load factor of `0.75` means our hash map will need to grow its buckets when the capacity reaches 75% full. Setting it too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have many collisions before we grow them. Usually a good balance of `0.75 to 1` is used.
+- The `load factor` is a number that we can assign our hash map to at the start. It's the factor that will determine when is it a good time to grow our buckets, for example a load factor of `0.75` means our hash map will need to grow its buckets when the capacity reaches 75% full. Setting it too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have many collisions before we grow them. Hash map implementations across various languages use a load factor between `0.75` and `1`.
 
 ### Computation complexity
 
