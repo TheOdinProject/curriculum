@@ -118,7 +118,7 @@ Back in the index page, add the following anchor element to create a link to the
 
 Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
 
-This works because the index and about page are in the same directory. That means we can simply use its name (`about.html`) as the link's href value.
+This works because the index and about page are in the same directory. That means we can use its name (`about.html`) as the link's href value.
 
 But we will usually want to organize our website directories a little better. Normally we would only have the index.html at the root directory and all other HTML files in their own directory.
 

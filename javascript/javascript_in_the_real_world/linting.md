@@ -26,7 +26,7 @@ The style guides we mentioned above are full of really helpful advice for format
 
 There are multiple options for linting your JavaScript, but the most popular (and most common in the industry) is [eslint](https://eslint.org/). Getting it installed and the initial set-up is fairly simple.
 
-1. [The official 'Getting Started' page](https://eslint.org/docs/user-guide/getting-started) is a good place to start. It covers installation and basic setup. The basic way to use this tool is to simply run the `eslint` command in your terminal with a specific file.
+1. [The official 'Getting Started' page](https://eslint.org/docs/user-guide/getting-started) is a good place to start. It covers installation and basic setup. The basic way to use this tool is to run the `eslint` command in your terminal with a specific file.
 2. Far more useful are linting plugins for your favorite text editor. Most editor plugins allow you to automatically lint your code as you are writing it, and will show the errors right in the editor, which makes resolving them _much_ simpler. We can't cover _every_ editor installation but some of the more popular are:
    1. Visual Studio Code - [The Plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [a tutorial](https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code).
    2. Sublime Text - [The Plugin](https://github.com/roadhump/SublimeLinter-eslint) and [a tutorial](http://jonathancreamer.com/setup-eslint-with-es6-in-sublime-text/).
@@ -55,7 +55,7 @@ With the last few projects, you might have felt that setting up Webpack involved
 
 This is where template repositories can come very much in handy. Any of your existing repositories can be converted to a template in its settings (right under where you can rename the repository, there is a checkbox for whether the repository is a template or not). If you check this box, congratulations, that's all you need to do! Now when you go to create a new repository, the `Repository template` dropdown will have any templates listed for you to select. Selecting one will mean your new repository will be a copy of the chosen template, not an empty one!
 
-If you find yourself reusing a lot of setup code for multiple projects, you can simply make a new repository with all of the setup code you need then mark it as a template. Now you can select that template when creating a new project repository to save time getting set up, letting you dive into working on the project itself sooner!
+If you find yourself reusing a lot of setup code for multiple projects, you can make a new repository with all of the setup code you need then mark it as a template. Now you can select that template when creating a new project repository to save time getting set up, letting you dive into working on the project itself sooner!
 
 ### Knowledge check
 

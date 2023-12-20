@@ -23,7 +23,7 @@ It is worth noting that we named our HTML file `index`. We should always name th
 
 ### The DOCTYPE
 
-Every HTML page starts with a doctype declaration. The doctype's purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5, and the doctype for that version is simply `<!DOCTYPE html>`.
+Every HTML page starts with a doctype declaration. The doctype's purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5, and the doctype for that version is `<!DOCTYPE html>`.
 
 The doctypes for older versions of HTML were a bit more complicated. For example, this is the doctype declaration for HTML4:
 

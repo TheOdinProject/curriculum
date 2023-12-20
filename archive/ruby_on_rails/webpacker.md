@@ -58,7 +58,7 @@ You may have already wondered what makes a pack file different from a regular Ja
 
 There's no real difference, pack files are just Javascript files. The difference really is in their intended use. A pack file should really just load in the Javascript code from elsewhere in your Javascript directory. If you take a look in your `application.js` pack file from the rails installation car project you can see it's only job is to require files from elsewhere and initialise them if necessary.
 
-Going back to our contact_form pack file we might create a directory such as `app/javascript/contact_form/` which contains the actual code we use to manage our contact form and then in our pack file we simply `import` or `require` a file such as `../contact_form/whatever_file_we_need`. Note we use `../` because from our pack directory we will need to move one directory up to find our `contact_form` directory.
+Going back to our contact_form pack file we might create a directory such as `app/javascript/contact_form/` which contains the actual code we use to manage our contact form and then in our pack file we `import` or `require` a file such as `../contact_form/whatever_file_we_need`. Note we use `../` because from our pack directory we will need to move one directory up to find our `contact_form` directory.
 
 #### Installing libraries
 

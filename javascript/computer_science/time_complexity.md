@@ -87,7 +87,7 @@ To do that, we need to delve into a new concept: Asymptotic Notations and, in pa
 
 ### Asymptotic notations
 
-Simply put, Asymptotic Notations are used to describe the running time of an algorithm. Because an algorithm's running time can differ depending on the input, there are several notations that measure that running time in different ways. The 3 most common are as follows:
+Asymptotic Notations are used to describe the running time of an algorithm. Because an algorithm's running time can differ depending on the input, there are several notations that measure that running time in different ways. The 3 most common are as follows:
 
 - Big O Notation - represents the upper bound of an algorithm. This means the worst-case scenario for how the algorithm will perform.
 - Omega Notation - represents the lower bound of an algorithm. This is the best-case scenario.

@@ -17,7 +17,7 @@ By the end of this lesson, you will know:
 
 The `transform` property takes in one or more CSS transform functions as its values, with those functions taking in their own value, usually an angle or a number.
 
-Almost all elements can have the `transform` property applied to it, with the exceptions being `<col>`, `<colgroup>`, and non-replaced inline elements. "Non-replaced" simply refers to elements whose content is contained within the HTML document (`<span>`, `<b>`, and `<em>`, for example), as opposed to a "replaced" element's content being contained outside of the document (`<a>`, `<iframe>`, and `<img>`, for example). You do not need to memorize every element that is non-replaced, but rather keep this knowledge in mind should you try to apply the `transform` property to an element and aren't sure why it isn't working.
+Almost all elements can have the `transform` property applied to it, with the exceptions being `<col>`, `<colgroup>`, and non-replaced inline elements. "Non-replaced" refers to elements whose content is contained within the HTML document (`<span>`, `<b>`, and `<em>`, for example), as opposed to a "replaced" element's content being contained outside of the document (`<a>`, `<iframe>`, and `<img>`, for example). You do not need to memorize every element that is non-replaced, but rather keep this knowledge in mind should you try to apply the `transform` property to an element and aren't sure why it isn't working.
 
 ### Two-dimensional transforms
 
@@ -107,7 +107,7 @@ Below is a CodePen that shows how each value affects the target element.
 
 ### Chaining multiple transforms
 
-Now that you have a grasp of 2D transforms, we will learn how to chain them. Chaining multiple transforms is as simple as adding more transform functions with a space between each one. Take a look at the code below:
+Now that you have a grasp of 2D transforms, we will learn how to chain them. Chaining multiple transforms is done by adding more transform functions with a space between each one. Take a look at the code below:
 
 ~~~html
 <div class="red-box"></div>

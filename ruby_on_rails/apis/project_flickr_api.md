@@ -1,6 +1,6 @@
 ### Introduction
 
-Remember the warm-up in the previous project when you played with the Flickr API?  Now it's time for you to actually use it.  Huzzah!  You'll create a simple photo widget that allows you to display photos from your Flickr feed (or someone else's). We'll rely on a tutorial for much of the heavy lifting but the principles of what you do here will be repeatable for use with other APIs.
+Remember the warm-up in the previous project when you played with the Flickr API?  Now it's time for you to actually use it.  Huzzah!  You'll create a basic photo widget that allows you to display photos from your Flickr feed (or someone else's). We'll rely on a tutorial for much of the heavy lifting but the principles of what you do here will be repeatable for use with other APIs.
 
 ### Assignment
 
@@ -11,7 +11,7 @@ Remember the warm-up in the previous project when you played with the Flickr API
 4. Upload a few photos to your photostream!
 5. Create a new Rails app and add a gem for the [Flickr API](http://lmgtfy.com/?q=flickr+api+gem). There are gems for pretty much every API out there. They will all require you to include your API keys and secret keys somehow. Look for gems that are maintained (have recent commits) and well-adopted (GitHub stars is one way to get a good gauge for how valuable a gem is). Alternatively, you can browse through [RubyGems](https://rubygems.org/) to see popular gems.
 6. One note is that it's not good practice to have your secret key hard coded into your app because then it's hardly a secret, especially if you're pushing to GitHub.  A better practice is to store the key in an [environment variable](http://railsapps.github.io/rails-environment-variables.html) or use a gem like [`figaro` (see docs)](https://github.com/laserlemon/figaro). You can use [`Rails credentials`(see this article)](https://web-crunch.com/posts/the-complete-guide-to-ruby-on-rails-encrypted-credentials)  as well (although not mentioned in the article, the value of each key can also be accessed by chaining keys as methods as shown in the [Rails Guides](https://guides.rubyonrails.org/security.html#custom-credentials) examples).  Environment variables allow you to push your key to your app directly from the command line when it fires up.  Figaro operates under the same principle, though it helps you out by allowing you to store the keys in an actual file that just doesn't get committed with the rest of your code. Rails credentials encrypts the keys using the master key. Use one of these techniques unless you're a cowboy.
-7. Build a simple StaticPagesController to display a home page with a simple form.  The form should just be a single text field which takes the ID for a Flickr user.  Once the form is submitted, the page should refresh and display the photos from that user.
+7. Build a basic StaticPagesController to display a home page with a basic form. The form should just be a single text field which takes the ID for a Flickr user.  Once the form is submitted, the page should refresh and display the photos from that user.
 8. Ask for your friends' flickr IDs or find random photofeeds on the web.  View them in your app and react appropriately.
 </div>
 

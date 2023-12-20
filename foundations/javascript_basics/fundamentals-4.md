@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Arrays
 
-Strings and numbers may be our building blocks, but as your scripts get more complex, you're going to need a way to deal with large quantities of them. Luckily, JavaScript has a couple of data types that are used for just that. An Array is simply an ordered collection of items (Strings, numbers, or other things).
+Strings and numbers may be our building blocks, but as your scripts get more complex, you're going to need a way to deal with large quantities of them. Luckily, JavaScript has a couple of data types that are used for just that. An Array is an ordered collection of items (Strings, numbers, or other things).
 
 1. [This tutorial](https://www.w3schools.com/js/js_arrays.asp) is a great introduction.
 2. [This article](https://www.w3schools.com/js/js_array_methods.asp) covers some of the most useful built-in array methods. These fundamentals are something you'll use every day, so don't rush too much and miss out!
@@ -32,7 +32,7 @@ Computers don't get tired, and they're really, _really_ fast! For that reason, t
 
 Test Driven Development \(TDD\) is a phrase you often hear in the dev world. It refers to the practice of writing automated tests that describe how your code should work before you actually write the code. For example, if you want to write a function that adds a couple of numbers, you would first write a test that uses the function and supplies the expected output. The test will fail before you write your code, and you should be able to know that your code works correctly when the test passes.
 
-In many ways, TDD is much more productive than writing code without tests. If we didn't have the test for the adding function above, we would have to run the code ourselves over and over, plugging in different numbers until we were sure that it was working... not a big deal for a simple `add(2, 2)`, but imagine having to do that for more complicated functions, like checking whether or not someone has won a game of tic tac toe: \(`game_win(["o", null,"x",null,"x",null,"x", "o", "o"])`). If you didn't do TDD, then you might actually have to play multiple games against yourself just to test if the function was working correctly!
+In many ways, TDD is much more productive than writing code without tests. If we didn't have the test for the adding function above, we would have to run the code ourselves over and over, plugging in different numbers until we were sure that it was working... not a big deal for a basic `add(2, 2)`, but imagine having to do that for more complicated functions, like checking whether or not someone has won a game of tic tac toe: \(`game_win(["o", null,"x",null,"x",null,"x", "o", "o"])`). If you didn't do TDD, then you might actually have to play multiple games against yourself just to test if the function was working correctly!
 
 We will teach you the art of actually writing these tests later in the course. The following practice has the tests already written out for you. All you have to do is set up the testing environment, read the specs, and write the code that makes them pass!
 
@@ -41,7 +41,7 @@ We will teach you the art of actually writing these tests later in the course. T
 <div class="lesson-content__panel" markdown="1">
 
 1.  Go to our [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) and review the [repository's README](https://github.com/TheOdinProject/javascript-exercises#readme) to set up your local environment. Once you have cloned the repository and installed Jest, review each README file prior to completing the following exercises in order:
-    - `01_helloWorld` (This exercise is intentionally very simple to ensure that you have set up everything properly!)
+    - `01_helloWorld` (This exercise is intentionally very beginner friendly to ensure that you have set up everything properly!)
     - `02_repeatString`
     - `03_reverseString`
     - `04_removeFromArray`

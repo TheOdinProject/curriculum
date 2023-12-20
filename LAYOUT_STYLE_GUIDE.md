@@ -12,7 +12,7 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 
 **A note on language**: TOP follows American English and American style punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.
 
-**Using formatters**: Many projects have a standard in how their code is formatted which should always be followed when contributing. If you're using a formatter (such as Prettier), you should always be sure you aren't accidentally committing code that goes against that standard. This can be achieved by simply disabling the formatter, saving your files without formatting, or configuring your formatter to adhere to the project's standard.
+**Using formatters**: Many projects have a standard in how their code is formatted which should always be followed when contributing. If you're using a formatter (such as Prettier), you should always be sure you aren't accidentally committing code that goes against that standard. This can be achieved by disabling the formatter, saving your files without formatting, or configuring your formatter to adhere to the project's standard.
 
 ## Table of Contents
 
@@ -148,13 +148,13 @@ OPTIONAL POST-ASSIGNMENT SECTION CONTENT.
 
 1. `### Introduction`: A brief summary on what the project is and an overview of what the user will be building. Replace the `A BRIEF INTRODUCTION.` text with your own project introduction.
 
-1. `### OPTIONAL PRE-ASSIGNMENT SECTION HEADING`: A section that contains content that should come before the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `OPTIONAL PRE-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `OPTIONAL PRE-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional pre-assignment sections. **If the project does not have a pre-assignment section, remove this entire section from the project.**
+1. `### OPTIONAL PRE-ASSIGNMENT SECTION HEADING`: A section that contains content that should come before the actual project assignment. This section will most likely not be needed for most projects, but when it is needed, then replace the `OPTIONAL PRE-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `OPTIONAL PRE-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional pre-assignment sections. **If the project does not have a pre-assignment section, remove this entire section from the project.**
 
 1. `### Assignment`: A numbered list of items that describe detailed requirements or user stories that must be followed in order to complete the project. Replace the `A REQUIREMENT/USER STORY.` with your own requirement, then add any additional numbered requirement items. If an assignment is intended to have multiple lists, each list should include a level 4 heading by replacing the `#### OPTIONAL CUSTOM ASSIGNMENT HEADING` with a proper level 4 heading, otherwise this custom heading can be omitted.
 
 1. `#### Extra credit`: A bulleted list of items that describe any optional add-ons or user stories that might make a user's project stand out. Replace the `AN OPTIONAL ADD-ON/USER STORY.` text with your own add-on, then add any additional bulleted add-on items. **If the project does not have any extra credit items, remove the extra credit section from the assignment.**
 
-1. `### OPTIONAL POST-ASSIGNMENT SECTION HEADING`: A section that contains content that should come after the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `OPTIONAL POST-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `OPTIONAL POST-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional post-assignment sections. **If the project does not have a post-assignment section, remove this entire section from the project.**
+1. `### OPTIONAL POST-ASSIGNMENT SECTION HEADING`: A section that contains content that should come after the actual project assignment. This section will most likely not be needed for most projects, but when it is needed, then replace the `OPTIONAL POST-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `OPTIONAL POST-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional post-assignment sections. **If the project does not have a post-assignment section, remove this entire section from the project.**
 
 ## Headings
 

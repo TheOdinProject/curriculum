@@ -19,7 +19,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What's the difference between a stack and a queue?
 * What is a stack useful for?
 * What is a queue useful for?
-* What's the best way to implement stacks and queues in Ruby (hint: think simple)?
+* What's the best way to implement stacks and queues in Ruby?
 * Why bother having many different search algorithms?
 * What is breadth-first-search (BFS)?
 * What is depth-first-search (DFS)?

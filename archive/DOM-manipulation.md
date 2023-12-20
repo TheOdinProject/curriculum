@@ -76,7 +76,7 @@ It's important to note that when using querySelectorAll, the return value is **n
 const div = document.createElement('div');
 ~~~
 
-This function does NOT put your new element into the DOM - it simply creates it in memory.  This is so that you can manipulate the element (by adding styles, classes, ids, text etc.) before placing it on the page. You can place the element into the DOM with one of the following methods.
+This function does NOT put your new element into the DOM - it creates it in memory.  This is so that you can manipulate the element (by adding styles, classes, ids, text etc.) before placing it on the page. You can place the element into the DOM with one of the following methods.
 
 #### Append Elements
 
@@ -340,7 +340,7 @@ pretty cool eh?
 
 #### Attaching listeners to groups of nodes
 
-This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There's a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we simply need to iterate through the whole list like so:
+This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There's a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we need to iterate through the whole list like so:
 
 ~~~HTML
 <div id="container">

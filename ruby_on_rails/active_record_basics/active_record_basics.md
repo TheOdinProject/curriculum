@@ -39,7 +39,7 @@ Very briefly, Active Record lets you create a Ruby object that represents a row 
 u = User.new(name: "Sven", email: "sven@theodinproject.com")
 ~~~
 
-If you don't pass a hash, you'll need to manually add the attributes by setting them like with any other Ruby object: `u.name = "Sven"`.  The second step is to actually save that model instance into the database.  Until now, it's just been sitting in memory and evaporates if you don't do anything with it.  To save, simply call `u.save`.  You can run both steps at once using the `#create` method:
+If you don't pass a hash, you'll need to manually add the attributes by setting them like with any other Ruby object: `u.name = "Sven"`.  The second step is to actually save that model instance into the database.  Until now, it's just been sitting in memory and evaporates if you don't do anything with it.  To save, call `u.save`.  You can run both steps at once using the `#create` method:
 
 ~~~bash
 u = User.create(name: "Sven", email: "sven@theodinproject.com")
@@ -68,7 +68,7 @@ The best part is that Rails knows that you want to do this and has given you a h
   create      spec/models/testmodel_spec.rb
 ~~~
 
-The model file that the generator creates is just a bare-bones model file in the `app/models` directory (which you could easily have created yourself).  The other main file is the migration file in the `db/migrate` folder, which starts with a complicated looking timestamp like `20130924230504_create_users.rb`. The number is simply the time that the migration was created so that Rails can keep track of different migration files.
+The model file that the generator creates is just a bare-bones model file in the `app/models` directory (which you could easily have created yourself).  The other main file is the migration file in the `db/migrate` folder, which starts with a complicated looking timestamp like `20130924230504_create_users.rb`. The number is the time that the migration was created so that Rails can keep track of different migration files.
 
 If you dive into that file, you'll see that there's not much in it except another bare-bones Ruby class that inherits from `ActiveRecord::Migration` and some timestamps. The timestamps just create `created_at` and `updated_at` columns for you so you can track when your database records were created or modified. These two columns are just helpful enough that they are included as standard practice.
 

@@ -12,7 +12,7 @@ Node is also very easy to install using nvm, so this should go quickly :)
   <summary><b>Installation on Linux</b></summary>
 
 #### Step 0: Prerequisites 
-To install nvm properly, you'll need `curl`. Simply run the command below:
+To install nvm properly, you'll need `curl`, which will be installed by running the command below:
 
 ~~~bash
 sudo apt install curl
@@ -20,13 +20,11 @@ sudo apt install curl
 
 #### Step 1: Downloading and Installing `nvm`
 
-Simply run this command:
+To install `nvm` run this command:
 
 ~~~bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ~~~
-
-This will install `nvm`
 
 #### Step 2: Initializing `nvm`
 

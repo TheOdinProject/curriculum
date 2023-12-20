@@ -19,7 +19,7 @@ You should be quite familiar by now with the bread and butter of routing -- conv
 
 #### Singular resources
 
-You might have already run into this at some point without necessarily understanding it.  Up until now, we've been talking about resources (like "posts" and "users") where there are a whole lot of them.  It seems fairly intuitive.  In your `config/routes.rb` file, you represent these simply with a single line like `resources :users`.
+You might have already run into this at some point without necessarily understanding it.  Up until now, we've been talking about resources (like "posts" and "users") where there are a whole lot of them.  It seems fairly intuitive.  In your `config/routes.rb` file, you represent these with a single line like `resources :users`.
 
 Sometimes there are also resources where it actually only makes sense for there to be one.  An example would be a User dashboard which displays interesting facts based on whichever user is logged in.  There is only one dashboard template, it just happens to be smart enough to display things that are relevant for the user who is currently logged in.
 
@@ -67,7 +67,7 @@ When you visit the URL, you'll have to specify the `:id` parameter for BOTH obje
   course_lesson  GET  /courses/:course_id/lessons/:id(.:format)  lessons#show
 ~~~
 
-It should also be noted that you're being taken to the controller of the deepest nested resource, and that's also the `:id` parameter which will be called simply `:id` (any parent resource parameters, as in the above, will be specifically called something like `:course_id`).
+It should also be noted that you're being taken to the controller of the deepest nested resource, and that's also the `:id` parameter which will be called `:id` (any parent resource parameters, as in the above, will be specifically called something like `:course_id`).
 
 View helpers are also automatically generated in a logical way (as you can see in your `$ rails routes` output).  When you use view helpers like `#course_lesson_path` you will need to specify both parameters in order, e.g. `course_lesson_path(1,3)`.
 
@@ -132,7 +132,7 @@ You might want to provide a URL out of convenience for your user but map it dire
   end
 ~~~
 
-Well, that got interesting fast.  The basic principle here is to just use the `#redirect` method to send one route to another route.  If your route is quite simple, it's a really straightforward method.  But if you want to also send the original parameters, you need to do a bit of gymnastics by capturing the parameter inside `%{here}`.  Note the single quotes around everything.
+Well, that got interesting fast.  The basic principle here is to just use the `#redirect` method to send one route to another route.  If your route is basic, it's a really straightforward method. But if you want to also send the original parameters, you need to do a bit of gymnastics by capturing the parameter inside `%{here}`.  Note the single quotes around everything.
 
 In the example above, we've also renamed the route for convenience by using an alias with the `:as` parameter.  This lets us use that name in methods like the `#_path` helpers.  Again, test out your `$ rails routes` with questions.
 
@@ -251,7 +251,7 @@ An example of metaprogramming in action in Rails is with the route helpers.  Whe
 
 The routes example almost isn't fair, though, because you wrote your `routes.rb` file and probably hard coded a bunch of `#home_path` or `#home_url` method calls based on what you knew would be in there.  What about more dynamic situations where you don't know ahead of time what the method is going to be called?
 
-Ruby provides the `#send` method to save the day.  If you want to run a method on an object, just *send* that object the method and any arguments you want.  A simple example you can do on your command line is `1+2`:
+Ruby provides the `#send` method to save the day.  If you want to run a method on an object, just *send* that object the method and any arguments you want. A basic example you can do on your command line is `1+2`:
 
 ~~~bash
   > 1 + 2
@@ -307,7 +307,7 @@ Basically, `#method_missing` is a method of Ruby's `BasicObject` class which get
 
 Metaprogramming is really nifty stuff and there are tons of interesting uses for it.  You don't need to master it to learn Rails, so only dive into it once you're comfortable with Rails, but it will certainly be useful to you in the real world.  There are all kinds of metaprogramming tricks and patterns and tips out there but it's beyond the scope of this course to dive into them.
 
-Here's a good example of [simple metaprogramming to DRY up your code](http://rails-bestpractices.com/posts/2010/07/24/dry-metaprogramming/).
+Here's a good example of [metaprogramming to DRY up your code](http://rails-bestpractices.com/posts/2010/07/24/dry-metaprogramming/).
 
 Check out [Metaprogramming Ruby](http://www.amazon.com/Metaprogramming-Ruby-Program-Like-Pros/dp/1934356476) by Paolo Perrotta if you're really curious.
 
