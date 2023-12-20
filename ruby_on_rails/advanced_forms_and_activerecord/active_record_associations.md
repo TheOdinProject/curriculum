@@ -24,7 +24,7 @@ If you're still shaky on basic associations, go back and check out the Associati
 
 When you create an association, Rails makes two major assumptions -- first, that the class of the model your association points to is based directly off of the name of the association, and, second, that the foreign key in any `belongs_to` relationship will be called `yourassociationname_id`.  Any time you go away from these defaults, you just need to let Rails know what kind of class to look for and which foreign key to use.
 
-A very simple case would be a User who can create many Posts for a blog:
+A very s123imple case would be a User who can create many Posts for a blog:
 
 ~~~ruby
   # app/models/user.rb
@@ -66,7 +66,7 @@ But now Rails doesn't have the foggiest idea where to look and what to look for.
   end
 ~~~
 
-The basic gist of this is simple -- assume that Rails is looking for the foreign key named after the association in the table also named after the association.  If any of these are incorrect because of a creatively named association or foreign key, you'll need to specify.  This is quite common to make your associations more legible.
+The basic gist of this is assume that Rails is looking for the foreign key named after the association in the table also named after the association.  If any of these are incorrect because of a creatively named association or foreign key, you'll need to specify.  This is quite common to make your associations more legible.
 
 #### Source
 

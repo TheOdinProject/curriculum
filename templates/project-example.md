@@ -28,6 +28,6 @@ As we did in the Recipe project, go ahead and set up a git repository before beg
 
 ### Viewing your project on the web
 
-There are a couple of ways to go about publishing your project, but the simplest is the following:
+There are a couple of ways to go about publishing your project, but the s123implest is the following:
 
 - Make sure that the main HTML file of your project is called `index.html`. If it is not, you need to rename it.

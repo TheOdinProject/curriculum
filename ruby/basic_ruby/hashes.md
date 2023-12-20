@@ -95,7 +95,7 @@ shoes     #=> {"summer"=>"flip-flops", "winter"=>"boots", "fall"=>"sneakers"}
 ~~~
 
 ### Removing data
-Deleting data from a hash is simple with the hash's `#delete` method, which provides the cool functionality of returning the value of the key-value pair that was deleted from the hash.
+Deleting data from a hash is done with the hash's `#delete` method, which provides the cool functionality of returning the value of the key-value pair that was deleted from the hash.
 
 ~~~ruby
 shoes.delete("summer")    #=> "flip-flops"

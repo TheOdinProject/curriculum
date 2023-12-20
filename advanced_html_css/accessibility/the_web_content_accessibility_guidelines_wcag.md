@@ -37,7 +37,7 @@ Conformance levels get mentioned at a couple of other points in these lessons, a
 
 ### (Before) implementing accessibility
 
-The lessons that follow dive into several concepts that can help you improve the accessibility of your websites, but they don't cover *every* facet of accessibility. The goal of these lessons is just to introduce you to some of the more common or simpler concepts that you should get into the habit of checking for moving forward.
+The lessons that follow dive into several concepts that can help you improve the accessibility of your websites, but they don't cover *every* facet of accessibility. The goal of these lessons is just to introduce you to some of the more common concepts that you should get into the habit of checking for moving forward.
 
 Even though we're only introducing you to some of these a11y concepts, you may still worry that your site isn't accessible enough. The first thing to keep in mind is that **no site will ever be 100% accessible**, so don't try to aim for such an impossible goal. Sometimes the purpose or concept of a site even requires some things to not be accessible in certain ways.
 
