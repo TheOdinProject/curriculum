@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 - Describe what `npm init` does and what `package.json` is.
 - Know how to install packages using npm.
 - Describe what a JavaScript module bundler like webpack is.
-- Explain what the concepts "entry" and "output" mean as relates to webpack.
+- Explain what the concepts "entry" and "output" mean in relation to webpack.
 - Briefly explain what a development dependency is.
 - Explain what "transpiling code" means and how it relates to front-end development.
 - Briefly describe what a task runner is and how it's used in front-end development.

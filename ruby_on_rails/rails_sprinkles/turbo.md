@@ -130,7 +130,7 @@ We can also do the opposite. We can make a link that exists outside of our Turbo
 <%= link_to "Show Posts", posts_path, data: { turbo_frame: "list-region" } %>
 <%= link_to "Show Images", images_path, data: { turbo_frame: "list-region" } %>
 
-<%= turbo_frame id="list-region" %>
+<%= turbo_frame_tag id="list-region" %>
 ~~~
 
 Clicking either of the above links will send a request to the respective path and return the content inside of our `"list-region"` frame.
