@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 - Describe what `npm init` does and what `package.json` is.
 - Know how to install packages using npm.
 - Describe what a JavaScript module bundler like webpack is.
-- Explain what the concepts "entry" and "output" mean as relates to webpack.
+- Explain what the concepts "entry" and "output" mean in relation to webpack.
 - Briefly explain what a development dependency is.
 - Explain what "transpiling code" means and how it relates to front-end development.
 - Briefly describe what a task runner is and how it's used in front-end development.
@@ -74,19 +74,19 @@ Now that we (sorta) understand what webpack is doing it's time to discuss the mo
 
 The import statement is the same thing that you used during the webpack tutorial so it should be familiar by now.
 
-~~~javascript
+```javascript
 // a file called functionOne.js
 const functionOne = () => console.log('FUNCTION ONE!');
 
 export { functionOne };
-~~~
+```
 
-~~~javascript
+```javascript
 // another JS file
 import { functionOne } from './functionOne';
 
 functionOne(); // this should work as expected!
-~~~
+```
 
 <span id="module-knowledge-check"></span> 
 There are _many_ benefits to writing your code in modules. One of the most compelling is code reuse. If, for instance, you have written some functions that manipulate the DOM in a specific way, putting all of those into their own file as a 'module' means that you can copy that file and reuse it very easily!
@@ -95,7 +95,7 @@ There are also the same benefits as when using factory functions or the module p
 
 To pull it all together, let's write a simple module and then include it in our code. We are going to continue from where the webpack tutorial left off. Before beginning, your file directory should look something like this:
 
-~~~
+```
 ├── dist
 │   ├── main.js
 │   └── index.html
@@ -104,21 +104,21 @@ To pull it all together, let's write a simple module and then include it in our 
 ├── package-lock.json
 ├── package.json
 └── webpack.config.js
-~~~
+```
 
 In addition, you should be able to bundle and run webpack by simply typing `npx webpack` in the terminal, (or `npm run build` if you're using the example project created on the previous section.) .
 
 Add a new file to the `src` directory called `myName.js` with the following contents:
 
-~~~ javascript
+``` javascript
 const myName = (name) => 'Hi! My name is ' + name;
 
 export default myName;
-~~~
+```
 
 Then, in `src/index.js`, import and use your new function:
 
-~~~javascript
+```javascript
 // import your function
 import myName from './myName';
 
@@ -131,7 +131,7 @@ function component() {
 }
 
 document.body.appendChild(component());
-~~~
+```
 
 Easy! Now, if you run `npx webpack` in your project directory, your page should show our new function being used.
 
@@ -140,7 +140,7 @@ There are two different ways to use exports in your code: named exports and defa
 
 Here is an example with named exports, which you will most often use when you have multiple values to export in a module:
 
-~~~javascript
+```javascript
 // a file called myModule.js
 const functionOne = () => 'ONE';
 const functionTwo = () => 'TWO';
@@ -149,14 +149,14 @@ export {
   functionOne,
   functionTwo
 };
-~~~
+```
 
 And to import them:
 
-~~~javascript
+```javascript
 // index.js in /src folder
 import {functionOne, functionTwo} from './myModule';
-~~~
+```
 
 Using this pattern gives you the freedom to only import the functions you need in the various files of your program. So it's perfectly fine to only import `functionOne` if that's the only one you need.
 

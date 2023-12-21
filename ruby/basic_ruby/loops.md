@@ -51,11 +51,11 @@ You can also use `while` loops to repeatedly ask a question of the user until th
 
 ~~~ruby
 while gets.chomp != "yes" do
-  puts "Will you go to prom with me?"
+  puts "Are we there yet?"
 end
 ~~~
 
-This example shows the flexibility advantage of a `while` loop: it will run until its break condition is met, which could be for a variable number of loops or a number of loops that is initially unknown. Who knows if your prospective prom date will say "yes" the first, fourth, or seventy-ninth time you ask? Of course, in real life, you should really just take "no" for an answer the first time.
+This example shows the flexibility advantage of a `while` loop: it will run until its break condition is met, which could be for a variable number of loops or a number of loops that is initially unknown. Who knows if you've arrived at your destination the first, fourth, or seventy-ninth time you ask?
 
 ### Until loop
 
@@ -145,7 +145,7 @@ If you need to step through a series of numbers (or even letters) within a speci
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [Loops & Iterators chapter](https://launchschool.com/books/ruby/read/loops_iterators) of LaunchSchool's *Introduction to Programming With Ruby*.
+1. Read the [Loops & Iterators chapter](https://launchschool.com/books/ruby/read/loops_iterators) of LaunchSchool's *Introduction to Programming With Ruby*. We recommend skipping the section on [recursion](https://launchschool.com/books/ruby/read/loops_iterators#recursion) since recursion will be covered later on.
 2. Try re-writing the above examples using alternative loop methods to achieve the same results.
 </div>
 

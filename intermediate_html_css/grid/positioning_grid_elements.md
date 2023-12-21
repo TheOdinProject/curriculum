@@ -94,13 +94,13 @@ There is an even shorter shorthand for positioning grid items with start and end
 
 Our living room above can be written out like this:
 
-~~~css
+```css
 /* styles.css */
 
 #living-room {
   grid-area: 1 / 1 / 3 / 6;
 }
-~~~
+```
 
 But `grid-area` can also refer to a few different things.
 
@@ -108,13 +108,13 @@ Instead of using the grid lines to position all the items in a grid, we can crea
 
 So our living room can be written just like this:
 
-~~~css
+```css
 /* styles.css */
 
 #living-room {
   grid-area: living-room;
 }
-~~~
+```
 
 We could do this to all of our grid items and give each room a `grid-area` value as a name. Then we can map out the whole structure with the grid container using `grid-template-areas`.
 

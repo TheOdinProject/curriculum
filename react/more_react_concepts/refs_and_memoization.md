@@ -190,7 +190,7 @@ We know that a component renders whenever either state changes or prop changes. 
 
 We already know we can memoize a value using `useMemo`, right? Then we can just cache the function reference and use an empty dependency array so that it won't change. That seems very simple.
 
-Let's create a new function and name it `memoizedHandleClick`
+Let's create a new function and name it `memoizedHandleClick`:
 
 ~~~jsx
 const memoizedHandleClick = useMemo(() => handleClick, []);
@@ -234,11 +234,11 @@ const ButtonComponent = memo(({ children, onClick }) => {
 });
 ~~~
 
-Wrapping the component with a `memo` pretty much prevents the downward update that is triggered above the component. So, this component will only re-render when its `props` changes or if its own `state` changes *if any*.
+Wrapping the component with a `memo` prevents the downward update that is triggered above the component. So, this component will only re-render when its `props` change or if its own `state` changes.
 
 With all that said and done, test and break things in our interactive example:
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="800" height="450" src="https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/memoization-lesson-example?embed=1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/memoization-lesson-example?embed=1" allowfullscreen></iframe>
 
 These are the scenarios that could happen:
 

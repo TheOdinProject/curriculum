@@ -14,7 +14,7 @@ In this introductory lesson to the command line, you'll learn how to navigate ar
 
 - **macOS**: Open your Applications > Utilities folder and find "Terminal". You can also use Spotlight search to open Terminal. Press <kbd>Cmd</kbd> + <kbd>Space</kbd> to open Spotlight, and search for "Terminal". Press <kbd>Enter</kbd> to open it.
 
-The window that opens will be mostly blank, with the exception of some text that will vary based on your operating system.  On Linux and older Macs the line will end with `$` and on newer Macs the line will end with `%`.  This symbol - called the prompt - indicates that the terminal is waiting for you to enter a command. Lets try that now. Type `whoami` and press <kbd>Enter</kbd>.
+The window that opens will be mostly blank, with the exception of some text that will vary based on your operating system.  On Linux and older Macs the line will end with `$` and on newer Macs the line will end with `%`.  This symbol - called the prompt - indicates that the terminal is waiting for you to enter a command. Let's try that now. Type `whoami` and press <kbd>Enter</kbd>.
 
 It returns your username. Cool!
 
@@ -28,41 +28,45 @@ You will be making heavy use of the command line throughout this curriculum, and
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Describe what the command line is.
-* Open the command line on your computer.
-* Use the command line to navigate directories and display directory contents.
-* Use the command line to create a new directory and a new file.
-* Use the command line to rename or destroy a directory and a file.
-* Use the command line to open a file or folder in a program.
+- Describe what the command line is.
+- Open the command line on your computer.
+- Use the command line to navigate directories and display directory contents.
+- Use the command line to create a new directory and a new file.
+- Use the command line to rename or destroy a directory and a file.
+- Use the command line to open a file or folder in a program.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
+<div class="lesson-note" markdown="1">
+**Note for WSL users**: You will have to use the `wget` command along with the link given in the `Download files` section in order to have the zip file in your WSL installation (`wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip`). You will also have to install unzip by using the command `sudo apt install unzip` and then `unzip shell-lesson-data.zip` to unzip the file. Keep in mind that throughout the course linked in the first step below, your terminal output may look slightly different to what is shown in the lessons. Anytime the course asks you to go to the Desktop, you will instead be going to the home directory which can be done by using the cd command (`cd ~`).
+</div>
+
 <div class="lesson-note lesson-note--warning" markdown=1>
-Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using MacOS. If you don't have MacOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites).
+Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using macOS. If you don't have macOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites).
 </div>
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
+   
+   - [Download files](https://swcarpentry.github.io/shell-novice/#download-files)
+   - [Introducing the Shell](https://swcarpentry.github.io/shell-novice/01-intro.html)
+   - [Navigating Files and Directories](https://swcarpentry.github.io/shell-novice/02-filedir.html)
+   - [Working With Files and Directories](https://swcarpentry.github.io/shell-novice/03-create.html)
+   - [Pipes and Filters](https://swcarpentry.github.io/shell-novice/04-pipefilter.html)
     
-    * Setup (Follow instructions in `Download files` section only, this is all you need as you have the required software already)
-    * Introducing the Shell
-    * Navigating Files and Directories
-    * Working With Files and Directories
-    * Pipes and Filters
-    
-2. With your newly discovered CLI super powers, practice creating a folder and a few files using the `mkdir`, `touch`, and `cd` commands introduced in the previous step. As an example, a basic website might have a main `index.html` file, a CSS stylesheet file called `style.css`, and a folder for `images`. Think about how you could create these files with the commands and put it into practice!
+1. With your newly discovered CLI super powers, practice creating a folder and a few files using the `mkdir`, `touch`, and `cd` commands introduced in the previous step. As an example, a basic website might have a main `index.html` file, a CSS stylesheet file called `style.css`, and a folder for `images`. Think about how you could create these files with the commands and put it into practice!
 
-3. Let's practice creating files and directories and deleting them! You'll need to enter the commands for the steps below in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
+1. Let's practice creating files and directories and deleting them! You'll need to enter the commands for the steps below in your terminal. If you can't recall how to open a terminal, scroll up for a reminder.
 
     1. Create a new directory in your home directory with the name `test`.
-    2. Navigate to the `test` directory.
-    3. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
-    4. Open your newly created file in VSCode and make some changes, save the file, and close it.
-    5. Navigate back out of the `test` directory.
-    6. Delete the `test` directory.
+    1. Navigate to the `test` directory.
+    1. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
+    1. Open your newly created file in VSCode and make some changes, save the file, and close it.
+    1. Navigate back out of the `test` directory.
+    1. Delete the `test` directory.
 
-    That's it--you're done with practice! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
+    That's it---you're done with practice! If you commit to doing most things from the command line from here on out, these commands will become second nature to you. Moving and copying files is much more efficiently done through the command line, even if it feels like more of a hassle at this point.
 
 </div>
 
@@ -89,6 +93,8 @@ Third, there's a really handy shortcut for opening everything within a project d
 - **Linux**: You can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
 
 - **macOS**: Some setup is required. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
+
+- **WSL**: Opening up VSCode from the command line in WSL is just as easy as it is in Linux. Just enter `code` which will open VSCode in WSL.
 
 ### Knowledge check
 

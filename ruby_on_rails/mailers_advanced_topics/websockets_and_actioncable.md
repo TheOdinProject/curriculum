@@ -104,11 +104,11 @@ Each channel you create can be subscribed to by one or more clients. Messages ca
 
 #### Connections
 
-Consumers of subscriptions require an instance of the connection on the client side also. This is so when the server broadcasts a message it can be picked up and handled by the browser. Rails generates this boilerplate for you by default and the files live in `app/javascript/channels`.
+Consumers of subscriptions require an instance of the connection on the client side also. This is so when the server broadcasts a message it can be picked up and handled by the browser. Rails generates this boilerplate for you when you create a channel and the files live in `app/javascript/channels`.
 
 #### Connect consumer
 
-This lives in `app/javascript/channels/consumer.js`
+This will be in `app/javascript/channels/consumer.js` when you create a channel
 
 ~~~javascript
 import { createConsumer } from "@rails/actioncable"

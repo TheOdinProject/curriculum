@@ -98,15 +98,24 @@ Before we talk about authentication, we need to cover controller filters.  The i
 ~~~ruby
   # app/controllers/users_controller
   before_action :require_login
+  before_action :do_something_cool
   ...
   private
 
   def require_login
-    # do stuff to check if user is logged in
+    if current_user.logged_in?
+    # allow the user to perform the action they wanted
+    else
+      redirect_to login_path
+    end
+  end
+
+  def do_something_cool
+    # do stuff here
   end
 ~~~
 
-The `before_action` method takes the symbol of the method to run before anything else gets run in the controller.  If it returns `false` or `nil`, the request will not succeed.
+The `before_action` method takes the symbol of the method to run before anything else gets run in the controller. In the case that this callback renders or redirects, the request, as well as any callbacks that are scheduled to run after that callback, are also cancelled. So in the case above, if the user was redirected to the login page, the `before_action :do_something_cool` callback wouldn't have been executed either.
 
 You can specify to only apply the filter for specific actions by specifying the `only` option, e.g. `before_action :require_login, only: [:edit, :update]`.  The opposite applies by using the `:except` option... it will run for all actions except those specified.
 

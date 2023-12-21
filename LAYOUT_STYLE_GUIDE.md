@@ -251,20 +251,20 @@ For more detailed examples of the exceptions, refer to [Google's style guide on 
 Markdown is smart enough to let the resulting HTML render your numbered lists correctly. For longer lists that may change, especially long nested lists, use "lazy" numbering. The following Markdown:
 
 ~~~markdown
-1. Foo.
-1. Bar.
-1. Foofoo.
-1. Barbar.
-1. Baz.
+1. Foo
+1. Bar
+1. Foofoo
+1. Barbar
+1. Baz
 ~~~
 
 Will result in the following output:
 
-1. Foo.
-1. Bar.
-1. Foofoo.
-1. Barbar.
-1. Baz.
+1. Foo
+1. Bar
+1. Foofoo
+1. Barbar
+1. Baz
 
 ### Nested lists
 
@@ -349,15 +349,15 @@ Create a new file named `styles.css` first.
 
 ### Codeblocks
 
-For code quotations longer than a single line, use a codeblock with 3 opening and closing tilde marks:
+For code quotations longer than a single line, use a codeblock with 3 opening and closing backticks:
 
 <pre>
-~~~javascript
+```javascript
 const obj = {
   name: "object",
   marker: "X"
 }
-~~~
+```
 </pre>
 
 #### Declare the language
@@ -384,12 +384,12 @@ If you need a codeblock within a list, you should follow the same indenting rule
 <pre>
 - Bullet.
 
-  ~~~javascript
+  ```javascript
   // We start indenting with 2 space for the codeblock
   function tester() {
     const yay = 'From here we can indent like we normally would'
   }
-  ~~~
+  ```
 
 - Next bullet.
 </pre>

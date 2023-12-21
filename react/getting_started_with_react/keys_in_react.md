@@ -11,7 +11,7 @@ By the end of the lesson you should be able to answer the following:
 
 ### Why does React need keys?
 
-In the upcoming lessons as you learn more about the internal workings of React, more specifically the rerendering process, you will understand the importance of keys. For now, we will keep it simple. 
+In the upcoming lessons as you learn more about the internal workings of React, more specifically the rerendering process, you will understand the importance of keys. For now, we will keep it simple.
 
 In the previous lesson on rendering lists, we used the `.map()` method to iterate over an array of data and return a list of elements. Now imagine, if any of the items in the list were to change, how would React know which item to update?
 
@@ -27,9 +27,13 @@ As long as `keys` remain consistent and unique, React can handle the DOM effecti
 
 ### Using keys
 
+<div class="lesson-note" markdown="1">
+We will be using `props` here, and you will learn more about them in the next lesson. For now, you just need to know that `props` are arguments that are passed into components. 
+</div>
+
 Keys are passed into the component or a DOM element as a prop. You should already be familiar with the syntax.
 
-~~~jsx  
+~~~jsx
 <Component key={keyValue} />
 //or
 <div key={keyValue} />
@@ -40,7 +44,7 @@ Keys are passed into the component or a DOM element as a prop. You should alread
 ~~~jsx
 // a list of todos, each todo object has a task and an id
 const todos = [
-  { task: "mow the yard", id: uuid() }, 
+  { task: "mow the yard", id: uuid() },
   { task: "Work on Odin Projects", id: uuid() },
   { task: "feed the cat", id: uuid() },
 ];
@@ -53,7 +57,7 @@ function TodoList() {
         <li key={todo.id}>{todo.task}</li>
       ))}
     </ul>
-  ) 
+  );
 }
 ~~~
 
@@ -62,13 +66,13 @@ function TodoList() {
 ~~~jsx
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-function MonthList(){
+function MonthList() {
   return (
     <ul>
       {/* here we are using the index as key */}
       {months.map((month, index) => (<li key={index}>{month}</li>))}
     </ul>
-  )
+  );
 }
 ~~~
 
@@ -76,20 +80,20 @@ function MonthList(){
 
 ~~~jsx
 const todos = [
-  { task: "mow the yard", id: uuid() }, 
+  { task: "mow the yard", id: uuid() },
   { task: "Work on Odin Projects", id: uuid() },
   { task: "feed the cat", id: uuid() },
 ];
 
 function TodoList() {
   return (
-      <ul>
-        {todos.map((todo) => (
-          // DON'T do the following i.e. generating keys during render    
-          <li key={uuid()}>{todo.task}</li>
-        ))}
-      </ul>
-  ) 
+    <ul>
+      {todos.map((todo) => (
+        // DON'T do the following i.e. generating keys during render
+        <li key={uuid()}>{todo.task}</li>
+      ))}
+    </ul>
+  );
 }
 ~~~
 

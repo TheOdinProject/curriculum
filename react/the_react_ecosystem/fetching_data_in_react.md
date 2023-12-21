@@ -74,17 +74,16 @@ To simulate a network error, scroll up to the previous code snippet and change t
 To fix this, we need to check for _something_ before Image component returns JSX. We'll call it: `error`.
 
 ~~~jsx
-  if (error) return <p>A network error was encountered</p>
+if (error) return <p>A network error was encountered</p>
 
-  return (
-    imageURL && (
-      <>
-        <h1>An image</h1>
-        <img src={imageURL} alt={"placeholder text"} />
-      </>
-    )
-  );
-};
+return (
+  imageURL && (
+    <>
+      <h1>An image</h1>
+      <img src={imageURL} alt={"placeholder text"} />
+    </>
+  )
+);
 ~~~
 
 To set this `error`, we'll add it to the component's state.
@@ -205,7 +204,7 @@ If we ever needed to fetch images in different components, instead of rewriting 
 
 In a full-scale web app, you're often going to be making more than one request, and you need to be careful with how you organize them. A common issue that new React developers face when their apps start making multiple requests is called a _waterfall of requests_. Let's look at an example.
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="800" height="450" src="https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/fetching-data-example?file=%2Fsrc%2FProfile.jsx%3A1%2C1&embed=1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/fetching-data-example?file=%2Fsrc%2FProfile.jsx%3A1%2C1&embed=1" allowfullscreen></iframe>
 
 We have two components making fetch requests: `Profile` and its child component `Bio`. The requests in `Profile` and `Bio` are both firing inside of their respective components. On the surface this looks like a well-organized separation of concerns, but in this case, it comes at a cost in performance.
 
