@@ -24,7 +24,7 @@ If you're still shaky on basic associations, go back and check out the Associati
 
 When you create an association, Rails makes two major assumptions -- first, that the class of the model your association points to is based directly off of the name of the association, and, second, that the foreign key in any `belongs_to` relationship will be called `yourassociationname_id`.  Any time you go away from these defaults, you just need to let Rails know what kind of class to look for and which foreign key to use.
 
-A very s123imple case would be a User who can create many Posts for a blog:
+A very simple case would be a User who can create many Posts for a blog:
 
 ~~~ruby
   # app/models/user.rb

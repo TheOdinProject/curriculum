@@ -45,7 +45,7 @@ Remember how much fun you had solving the card layout in this exercise?
 
 We know that was a frustrating one, but it's part of the point. While Flexbox allows you to build a layout of rows and columns together, it isn’t always easy.
 
-But setting up a two-dimensional layout of cards would be much simpler using CSS Grid:
+But setting up a two-dimensional layout of cards would be much easier using CSS Grid:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="KKXwpZR" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/KKXwpZR">

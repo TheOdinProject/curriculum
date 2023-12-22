@@ -1,5 +1,5 @@
 ### Introduction
-This lesson is all about controlling the flow of your code. The concept is pretty simple. You have some code that you only want to execute under specific conditions, so you need a way for the computer to check whether those conditions have been met. Conditional logic can be found everywhere in everyday life. Ever had to tidy your room before being allowed to play video games? That's your mother setting up a nice conditional statement that might look like this in a computer program...
+This lesson is all about controlling the flow of your code. You have some code that you only want to execute under specific conditions, so you need a way for the computer to check whether those conditions have been met. Conditional logic can be found everywhere in everyday life. Ever had to tidy your room before being allowed to play video games? That's your mother setting up a nice conditional statement that might look like this in a computer program...
 
 ~~~ruby
 if room_tidy == true
@@ -261,7 +261,7 @@ unless age < 18
 end
 ~~~
 
-Just like with `if` statements, you can write a simple `unless` statement on one line, and you can also add an `else` clause.
+Just like with `if` statements, you can write an `unless` statement on one line, and you can also add an `else` clause.
 
 ~~~ruby
 age = 19

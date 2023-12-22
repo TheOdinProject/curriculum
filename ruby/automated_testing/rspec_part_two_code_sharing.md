@@ -342,7 +342,7 @@ def retired?
 end
 ~~~
 
-This method looks simple enough, but there are 3 possible paths we need to cover with test cases:
+There are 3 possible paths we need to cover with test cases:
 
 1. When the users age is less than 65
 2. When the users age is equal to 65

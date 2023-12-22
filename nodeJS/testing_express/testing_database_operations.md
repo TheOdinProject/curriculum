@@ -20,7 +20,7 @@ There are cases, however, when you are going to want to test things that touch y
 
 We're going to use an npm package called `mongodb-memory-server`. You can see the specifics on their [github repo](https://github.com/nodkz/mongodb-memory-server), but basically this package will spin up a fresh in-memory mongoDB server that you can connect to with mongoose, and then use for your testing environment.  Since it's creating a fresh DB every time you don't have to worry about trying to keep your data in sync, or polluting your production database.
 
-Setting it up is straightforward, but there are a few things you need to do.  First, in your actual app, you need to move your mongo/mongoose setup into its own file as seen in the simple example below.
+Setting it up is straightforward, but there are a few things you need to do.  First, in your actual app, you need to move your mongo/mongoose setup into its own file as seen in the example below.
 
 ~~~javascript
 //// mongoConfig.js

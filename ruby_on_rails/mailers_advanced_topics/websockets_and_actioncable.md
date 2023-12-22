@@ -316,4 +316,4 @@ The connection only remains active while the http request remains unbroken. Refr
 
 ### Conclusion
 
-There is more to Action Cable but it's still quite a niche use case so it's not something you should seek to use on every app you build. Look to keep it simple and only introduce WebSockets when you see a real opportunity to add value to your site.
+There is more to Action Cable but it's still quite a niche use case so it's not something you should seek to use on every app you build. Look to only introduce WebSockets when you see a real opportunity to add value to your site.

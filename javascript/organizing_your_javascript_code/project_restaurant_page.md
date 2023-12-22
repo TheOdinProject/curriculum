@@ -1,5 +1,5 @@
 ### Introduction
-Let's use what we've learned and take a chance to continue practicing DOM manipulation by dynamically rendering a simple restaurant homepage! By the end, we are going to be using JavaScript alone to generate the entire contents of the website!
+Let's use what we've learned and take a chance to continue practicing DOM manipulation by dynamically rendering a restaurant homepage! By the end, we are going to be using JavaScript alone to generate the entire contents of the website!
 
 **Note: DOM elements should be created using JavaScript but styling can be done in a separate CSS file.**
 
@@ -23,7 +23,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
    
 1. Set up an HTML skeleton inside of `dist/index.html` with single `<div id="content">`.
 
-1. Inside of `src/index.js` write a simple console.log or alert statement and then run `npx webpack`. Load up `dist/index.html` in a browser to make sure everything is working correctly.
+1. Inside of `src/index.js` write a console.log or alert statement and then run `npx webpack`. Load up `dist/index.html` in a browser to make sure everything is working correctly.
 
     - Quick tip #2: if you run `npx webpack --watch` you will not have to rerun webpack every time you make a change.
    

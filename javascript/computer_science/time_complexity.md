@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Efficiency basics
 
-The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little program that prints out all odd numbers between 1 and 10.
+The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a little program that prints out all odd numbers between 1 and 10.
 
 ```js
 function oddNumbersLessThanTen() {
@@ -120,7 +120,7 @@ The Big O Notations in the order of speed from fastest to slowest are:
 
 #### O(1) - Constant complexity
 
-To understand Constant Complexity, let's use a simple array.
+To understand Constant Complexity, let's use an array.
 
 ```js
 arr = [1, 2, 3, 4, 5];

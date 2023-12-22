@@ -95,7 +95,7 @@ server.getPeople().then(async people => {
 
 ### The await keyword
 
-`await` is pretty simple: it tells JavaScript to wait for an asynchronous action to finish before continuing the function. It's like a 'pause until done' keyword. The `await` keyword is used to get a value from a function where you would normally use `.then()`. Instead of calling `.then()` after the asynchronous function, you would assign a variable to the result using `await`. Then you can use the result in your code as you would in your synchronous code.
+`await` does the following: it tells JavaScript to wait for an asynchronous action to finish before continuing the function. It's like a 'pause until done' keyword. The `await` keyword is used to get a value from a function where you would normally use `.then()`. Instead of calling `.then()` after the asynchronous function, you would assign a variable to the result using `await`. Then you can use the result in your code as you would in your synchronous code.
 
 ### Error handling
 

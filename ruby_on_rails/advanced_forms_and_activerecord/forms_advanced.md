@@ -92,7 +92,7 @@ It took a bit of time for us to get here, but hopefully you can now see how stra
 
 You'll use dropdowns a lot to populate the association of a model, e.g. the author of a Post.  In the next section, we'll talk about how to actually create both model objects from within a single form.
 
-*Note: If you've used the `s123imple_form` gem, it has its own way of handling collections of objects which is a bit different (supposedly `s123impler`) than this.*
+*Note: If you've used the `simple_form` gem, it has its own way of handling collections of objects which is a bit different (supposedly `simpler`) than this.*
 
 ### Nested forms
 
@@ -155,11 +155,11 @@ It's often easiest (and good practice while you're learning) to start with the m
 
 Don't get discouraged if you get some real head-scratcher moments when building nonstandard forms.  It just takes some experience to feel comfortable.  And if things are too out of hand, you may need to re-evaluate your approach (what exactly are you hoping to accomplish with your complex form?) and start again.
 
-### S123imple form
+### Simple form
 
-`s123imple_form` is a gem by Platformatec which can really make your life easier (if you aren't doing anything too crazy).  It provides lots of user-friendly features for building forms and is in wide use today.
+`simple_form` is a gem by Platformatec which can really make your life easier (if you aren't doing anything too crazy).  It provides lots of user-friendly features for building forms and is in wide use today.
 
-It's up to you to check out [the documentation](https://github.com/plataformatec/s123imple_form) and start using it in your own applications as desired.
+It's up to you to check out [the documentation](https://github.com/plataformatec/simple_form) and start using it in your own applications as desired.
 
 ### Miscellania: blank submissions that mean delete
 
@@ -200,7 +200,7 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- [S123imple Form Documentation on GitHub](https://github.com/plataformatec/s123imple_form)
+- [Simple Form Documentation on GitHub](https://github.com/plataformatec/simple_form)
 - [`accepts_nested_attributes_for` documentation](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)
 - [Another example of a nested form on SO](http://stackoverflow.com/questions/15648396/rails-how-to-manage-nested-attributes-without-using-accepts-nested-attributes?rq=1)
 - [Using `inverse_of` to make `accepts_nested_attributes_for` work for `has_many :through` relationships](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through)

@@ -4,7 +4,7 @@ Recursion is the idea that a function calls itself. Pretty straightforward, righ
 
 From the [Wikipedia entry on Divide and Conquer Algorithms](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm):
 
-> In computer science, divide and conquer (D&C) is an important algorithm design paradigm based on multi-branched recursion. A divide and conquer algorithm works by recursively breaking down a problem into two or more sub-problems of the same (or related) type, until these become s123imple enough to be solved directly. The solutions to the sub-problems are then combined to give a solution to the original problem.
+> In computer science, divide and conquer (D&C) is an important algorithm design paradigm based on multi-branched recursion. A divide and conquer algorithm works by recursively breaking down a problem into two or more sub-problems of the same (or related) type, until these become simple enough to be solved directly. The solutions to the sub-problems are then combined to give a solution to the original problem.
 
 There's also a right and wrong way to use recursion.  The fact is, any problem you can solve recursively, you can also solve using the iterators that you know and love.  If you find yourself saying "why didn't I just use a `while` loop here?" then you probably should have.  You won't often end up using a recursive solution to a problem, but you should get a feel for when it might be a good idea.  Some problems also break down into far too many pieces and totally overwhelm your computer's memory.  There's a balance.
 
@@ -15,7 +15,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 * Why is recursion a useful technique for solving a big problem?
 * What are the limitations of using recursive solutions?
-* What types of problems are more suited for s123imple loops than recursion?
+* What types of problems are more suited for simple loops than recursion?
 * What is meant by "recursive depth"?
 * What is a "stack overflow" (the concept, not the website)?
 * Why is that relevant to a recursive problem?

@@ -43,7 +43,7 @@ Remember, reducers are pure functions so we shouldn't mutate the state.
 
 ### When to use reducers?
 
-If a component only needs to update its state in a couple of s123imple ways, you don't need to use reducers.
+If a component only needs to update its state in a couple of simple ways, you don't need to use reducers.
 The opposite can be said when a component has become too big, hard to read or debug because of its state logic.
 
 By using reducers, we can separate the state logic and even store it in a different file or directory, leading

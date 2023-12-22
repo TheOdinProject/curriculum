@@ -24,7 +24,7 @@ The style guides we mentioned above are full of really helpful advice for format
 1. [This article](https://gomakethings.com/javascript-linters/) gets right to the point... start here!
 2. [This article](https://hackernoon.com/how-linting-and-eslint-improve-code-quality-fa83d2469efe) goes a little further by discussing exactly _how_ linters do what they do.
 
-There are multiple options for linting your JavaScript, but the most popular (and most common in the industry) is [eslint](https://eslint.org/). Getting it installed and the initial set-up is fairly simple.
+There are multiple options for linting your JavaScript, but the most popular (and most common in the industry) is [eslint](https://eslint.org/). Getting it installed and the initial set-up is straightforward.
 
 1. [The official 'Getting Started' page](https://eslint.org/docs/user-guide/getting-started) is a good place to start. It covers installation and basic setup. The basic way to use this tool is to run the `eslint` command in your terminal with a specific file.
 2. Far more useful are linting plugins for your favorite text editor. Most editor plugins allow you to automatically lint your code as you are writing it, and will show the errors right in the editor, which makes resolving them _much_ simpler. We can't cover _every_ editor installation but some of the more popular are:

@@ -36,7 +36,7 @@ Although you are familiar with how to write blocks in the context of enumerable 
 
 ### Yield
 
-`yield` is a keyword that can be called inside a method to relinquish execution to the accompanying block. Let's imagine you're writing a s123imple method for your library which allows users of that library to log some information to the terminal. The one key requirement you have is that users should be able to define how that information is presented. Sometimes they may just want to `puts` something, other times they may want to inspect something with `p`. If you tried to write this using only a method, it would actually be quite difficult. You'd have to account for every possible option the user of your library might want to call and then create the docs to explain it. With blocks, we can just relinquish control of the method to the block with `yield` and allow the user to define how they want to print it.
+`yield` is a keyword that can be called inside a method to relinquish execution to the accompanying block. Let's imagine you're writing a simple method for your library which allows users of that library to log some information to the terminal. The one key requirement you have is that users should be able to define how that information is presented. Sometimes they may just want to `puts` something, other times they may want to inspect something with `p`. If you tried to write this using only a method, it would actually be quite difficult. You'd have to account for every possible option the user of your library might want to call and then create the docs to explain it. With blocks, we can just relinquish control of the method to the block with `yield` and allow the user to define how they want to print it.
 
 ~~~ruby
 def logger

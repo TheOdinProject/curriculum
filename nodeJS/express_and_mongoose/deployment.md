@@ -81,7 +81,7 @@ Once you have your domain, you need to point it to your project. The provider yo
 
 ### Our recommended PaaS services
 
-Choosing a PaaS provider was once a s123imple decision. Heroku had a free tier that gave you everything needed to host as many small app's as you wanted, but they unfortunately discontinued it in 2022.
+Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small app's as you wanted, but they unfortunately discontinued it in 2022.
 
 Luckily, there are still plenty of other great options out there. The downside is that they all have very limited free tiers. For this reason, and to accommodate as many of our learners as possible, we're going to recommend a range of options instead of just one.
 

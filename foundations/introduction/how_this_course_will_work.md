@@ -8,7 +8,7 @@ Each of the following sections and lessons represents essential baseline knowled
 
 We will start by getting familiar with the internet and your own computer.  Next, we'll work on setting up a development environment and learning about Git and GitHub. Then, we'll go over the basics of front-end technologies like HTML, CSS, and Javascript before stepping into the back end with a brief foray that covers the basic concepts of back-end technologies.
 
-By the end of this unit, you should not only understand how the web works but also be able to identify and differentiate between all the technologies that you will use to build your own web applications.  You will be able to build a simple webpage, style it, and add minor elements of interactivity while working comfortably from the command line.
+By the end of this unit, you should not only understand how the web works but also be able to identify and differentiate between all the technologies that you will use to build your own web applications.  You will be able to build a webpage, style it, and add minor elements of interactivity while working comfortably from the command line.
 
 This section intentionally covers a very broad range of topics. It's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).
 
