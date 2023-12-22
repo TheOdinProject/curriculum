@@ -137,7 +137,7 @@ Remember the preprocessors we talked about in the previous lesson on Views?  Fil
 Some necessary and straightforward reading on the Asset Pipeline:
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read [Rails Guides on the Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html) sections 1 to 3.
+  1. Read [Rails Guides on the Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html) sections 1 to 4.
 </div>
 
 ### Conclusion
