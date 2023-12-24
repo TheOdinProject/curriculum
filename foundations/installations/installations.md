@@ -297,7 +297,7 @@ Because WSL2 is a full-fledged Linux distribution, almost everything that the cu
 
 Windows Terminal is a terminal application that lets you more easily customize and run terminals, as well as supporting multiple tabs which can each run their own different terminals.
 
-- [Install Window's Terminal](https://learn.microsoft.com/en-us/windows/terminal/install) by using the direct install option.
+- [Install Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install) by using the direct install option.
 
 #### Step 1.2.2: Setting WSL2 as default (Optional)
 
