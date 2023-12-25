@@ -16,7 +16,7 @@ Many of the most liked submissions will have come from when this project used to
 
 #### Step 1: Set up and planning
 
-1. Set up your HTML and CSS files with some simple dummy content, just to make sure you have everything linked correctly.
+1. Set up your HTML and CSS files with some dummy content, just to make sure you have everything linked correctly.
 2. Download a full-resolution copy of the design files ([desktop](https://cdn.statically.io/gh/TheOdinProject/curriculum/1c8b5c739efd263e8cc48703988b18d6e3afe034/advanced_html_css/responsive-design/project_personal_portfolio/imgs/portfolio.png), [tablet](https://cdn.statically.io/gh/TheOdinProject/curriculum/1c8b5c739efd263e8cc48703988b18d6e3afe034/advanced_html_css/responsive-design/project_personal_portfolio/imgs/portfolio%20tablet.png), [mobile](https://cdn.statically.io/gh/TheOdinProject/curriculum/1c8b5c739efd263e8cc48703988b18d6e3afe034/advanced_html_css/responsive-design/project_personal_portfolio/imgs/portfolio%20mobile.png)), and get a general idea for how you're going to need to lay things out in your HTML document.
 
 #### Step 2: Gather assets
