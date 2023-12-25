@@ -6,7 +6,7 @@ When does the controller get used? After an HTTP request comes into your applica
 
 It's pretty straightforward. Typical controllers are pretty lightweight and don't have a whole lot of code but are able to do a lot of work with that code. What if you want to show all your blog posts in your site's index page? Run the `#index` action of your Posts controller and it will grab all your posts and send them over to the `index.html.erb` view file, which figures out how you actually want them displayed (in a giant bulleted list? With slick looking panels?).
 
-The controller's `#index` action would actually look as simple as:
+The controller's `#index` action would actually look like:
 
 ~~~ruby
   PostsController < ApplicationController
@@ -18,7 +18,7 @@ The controller's `#index` action would actually look as simple as:
   end
 ~~~
 
-In this simple action, we have the controller asking the model for something ("Hey, give me all the posts!"), packaging them up in an instance variable `@posts` so the view can use them, then will automatically render the view at `app/views/posts/index.html.erb` (we'll talk about that in a minute).
+In this action, we have the controller asking the model for something ("Hey, give me all the posts!"), packaging them up in an instance variable `@posts` so the view can use them, then will automatically render the view at `app/views/posts/index.html.erb` (we'll talk about that in a minute).
 
 ### Lesson overview
 
