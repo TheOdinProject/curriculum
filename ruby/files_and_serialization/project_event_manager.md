@@ -483,8 +483,7 @@ contents.each do |row|
 
 * if the zip code is exactly five digits, assume that it is ok
 
-In the case when the zip code is five digits in length we have it easy. We
-simply want to do nothing.
+In the case when the zip code is five digits in length we have it easy. We want to do nothing.
 
 * if the zip code is more than five digits, truncate it to the first five digits
 
@@ -564,7 +563,7 @@ specified. CSV returns a `nil` value when no value has been specified in the
 column. All objects in Ruby respond to `#nil?`. All objects will return false
 except for a `nil`.
 
-We can update our implementation to handle this new case by simply adding a
+We can update our implementation to handle this new case by adding a
 check for `nil?`.
 
 ~~~ruby
@@ -757,7 +756,7 @@ Let's look for a solution before we attempt to build a solution.
 #### Installing the Google API Client
 
 Ruby comes packaged with the `gem` command. This tool allows you to download
-libraries by simply knowing the name of the library you want to install.
+libraries by knowing the name of the library you want to install.
 
 
 ~~~bash
@@ -975,7 +974,7 @@ implementation and ask ourselves:
 
 * Does the code clearly express what it is trying to accomplish?
 
-This code is fairly clear in its understanding. It is simply expressing its
+This code is fairly clear in its understanding. It is expressing its
 intent near so many other things. It is also expressing itself differently from
 how zip codes are handled. This dissimilarity breeds confusion when returning to
 the code.
@@ -1184,7 +1183,7 @@ Our current system has some flaws:
 
 Though not likely, imagine if a person's name contained the word 'LEGISLATORS'.
 When we perform the second replacement operation, that part of the person's name
-would also be replaced. This is unlikely in our simple template, but as our
+would also be replaced. This is unlikely in our basic template, but as our
 template grows, we may invite such disasters.
 
 * We cannot represent multiple items very easily if they are surrounded by HTML.
@@ -1299,8 +1298,7 @@ The use of the ERB tags to display the attendee's name is familiar from our prev
 
 If it is an array, we output the name and website url of each legislator. This is a departure from what we originally implemented. Before we had to build the names of all the representatives. We intend now to give the template direct access to the array of legislators. We will let the template ask and display what it wants from each legislator.
 
-If `legislators` is not an array, it means that the `legislators_by_zipcode` method entered the rescue clause, which outputs a string. We simply want to display that string.
-
+If `legislators` is not an array, it means that the `legislators_by_zipcode` method entered the rescue clause, which outputs a string. We want to display that string.
 
 #### Using ERB
 

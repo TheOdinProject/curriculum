@@ -24,7 +24,7 @@ The stack trace prints each line of code in your program that was executed befor
 
 <span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 31 of the file `bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://ruby-doc.org/core-3.1.2/NameError.html)). And yes, in Ruby, [errors](https://ruby-doc.org/core-3.1.2/Exception.html) are *also* objects.</span>
 
-There you have it. The stack trace really is that simple. At this point, you know where in your code the exception is being raised, and you know the type of error you're dealing with. You might even know what fixes need to be implemented in your code.
+There you have it. At this point, you know where in your code the exception is being raised, and you know the type of error you're dealing with. You might even know what fixes need to be implemented in your code.
 
 But what if you don't know how to fix your code? Then it's time to dive into debugging!
 
@@ -33,7 +33,7 @@ The debugging process is all about confirming assumptions about your code until 
 
 The easiest and quickest way to confirm your assumptions while debugging is by using `puts` statements to output the return value of variables, methods, calculations, iterations, or even entire lines of code to your terminal.
 
-Let's say that for *whatever* reason, we need to write a method that takes a string and checks if the string is an **isogram** (a word that has no repeating letters) or not. Perhaps it's a hostage situation that requires a pro debugger? Let's take a look at a (simple) first draft:
+Let's say that for *whatever* reason, we need to write a method that takes a string and checks if the string is an **isogram** (a word that has no repeating letters) or not. Perhaps it's a hostage situation that requires a pro debugger? Let's take a look at a first draft:
 
 ~~~ruby
 def isogram?(string)
