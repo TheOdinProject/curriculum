@@ -168,7 +168,7 @@ This section contains questions for you to check your understanding of this less
 - [Describe what `npm init` does and what `package.json` is.](https://docs.npmjs.com/creating-a-package-json-file)
 - [Know how to install packages using npm.](https://docs.npmjs.com/downloading-and-installing-packages-locally)
 - [Describe what a JavaScript module bundler like webpack is.](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
-- [Explain what the concepts "entry" and "output" mean as relates to webpack.](#webpack-knowledge-check)
+- [Explain what the concepts "entry" and "output" mean in relation to webpack.](#webpack-knowledge-check)
 - [Briefly explain what a development dependency is.](https://dev.to/moimikey/demystifying-devdependencies-and-dependencies-5ege)
 - [Explain what "transpiling code" means and how it relates to frontend development.](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
 - [Briefly describe what a task runner is and how it's used in frontend development.](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
