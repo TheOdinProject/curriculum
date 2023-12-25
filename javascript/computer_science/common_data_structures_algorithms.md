@@ -10,7 +10,7 @@ You've already had a brief introduction to **algorithms** over some of the other
 
 Luckily for you, these complex algorithmic problems have all been solved many times in the past. Understanding _how_ they are solved will give you some great tools to apply to other (similar) problems on your own. Algorithms are really just ways of solving problems systematically. In this brief introduction, we'll focus on a couple of algorithms that you may run into when coding on your own -- breadth-first-search and depth-first-search.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -37,25 +37,25 @@ This section contains a general overview of topics that you will learn in this l
      -  [Depth-first traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4)
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=6QS_Cup1YoI">What is the difference between a stack and a queue?</a>
-- <a class="knowledge-check-link" href="http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/">What are the enqueue and dequeue properties?</a>
-- <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Data_structure#Examples">What is a linked list? What is a node?</a>
-- <a class="knowledge-check-link" href="https://youtu.be/T98PIp4omUA?t=20">What type of algorithm would you use to perform a binary search?</a>
-- <a class="knowledge-check-link" href="https://youtu.be/86g8jAQug04?t=103">What abstract data type would you use to defer/store nodes in a breadth-first tree traversal?</a>
-- <a class="knowledge-check-link" href="https://youtu.be/gm8DUJJhmY4?t=499">What abstract data type would you use to defer/store nodes in a depth-first tree traversal?</a>
+- [What is the difference between a stack and a queue?](https://www.youtube.com/watch?v=6QS_Cup1YoI)
+- [What are the enqueue and dequeue properties?](http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/)
+- [What is a linked list? What is a node?](https://en.wikipedia.org/wiki/Data_structure#Examples)
+- [What type of algorithm would you use to perform a binary search?](https://youtu.be/T98PIp4omUA?t=20)
+- [What abstract data type would you use to defer/store nodes in a breadth-first tree traversal?](https://youtu.be/86g8jAQug04?t=103)
+- [What abstract data type would you use to defer/store nodes in a depth-first tree traversal?](https://youtu.be/gm8DUJJhmY4?t=499)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [Khan Academy's great Algorithms Course](https://www.khanacademy.org/computing/computer-science/algorithms)
 - [Stanford's Coursera 4-Part Algorithm Course](https://www.coursera.org/specializations/algorithms)
 - [Visualizing Algorithms from Mike Bostock](http://bost.ocks.org/mike/algorithms/)
-- [Another free course on algorithms by Udacity](https://www.udacity.com/course/cs215)
+- [Another free course on algorithms by Udacity](https://www.udacity.com/course/intro-to-algorithms--cs215)
 - [A more detailed video on stacks and queues](https://www.youtube.com/watch?v=idrrIMXXeHM)
 - [An article](https://web.archive.org/web/20221207000421/https://www.crondose.com/2016/06/create-a-binary-search-tree-array) that discusses how to construct a binary search tree from an unordered array.
 - [A stack overflow discussion](https://stackoverflow.com/questions/3332947/when-is-it-practical-to-use-depth-first-search-dfs-vs-breadth-first-search-bf) on the relative strengths of BFS and DFS.

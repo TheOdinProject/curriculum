@@ -16,7 +16,7 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
   6. When you're finished, push your code up to [GitHub](https://github.com/).
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * The [official Ruby on Rails guides](http://guides.rubyonrails.org/) are an excellent resource if you want to build on your knowledge.

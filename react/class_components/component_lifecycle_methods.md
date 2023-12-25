@@ -4,7 +4,7 @@ In the previous section, you've learned about a component's lifecycle. In functi
 
 We'll start with a short recap of what a components lifecycle is. There are three stages to a component's life: mounting, updating, and unmounting. Each of these have a method assigned to them within class components, which is what we are going to cover in this lesson.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### render()
 
-The render function is the most used lifecycle method, and one that you've come across in the last class components lesson. It is the only required lifecycle method in a class component. It runs on mount and update of a component. Render should be pure, meaning it doesn't modify component state, returns the same thing each time it's called (given the same inputs), and doesn't directly interact with the browser. 
+The render function is the most used lifecycle method, and one that you've come across in the last class components lesson. It is the only required lifecycle method in a class component. It runs on mount and update of a component. Render should be pure, meaning it doesn't modify component state, returns the same thing each time it's called (given the same inputs), and doesn't directly interact with the browser.
 
 ### componentDidMount()
 
@@ -28,7 +28,7 @@ In this method you should be updating anything that needs to be changed in respo
 
 This is the last lifecycle method, which is called before a component is unmounted and destroyed. In this method you should be performing cleanup actions, so that would be cancelling network requests, clearing timers, etc.
 
-### How useEffect() combines the Lifecycle Methods
+### How useEffect() combines the lifecycle methods
 
 Now that we've learnt about class lifecycle methods, it's useful to understand that the `useEffect` hook used in functional components is essentially a combination of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`. Which method/methods it relates to varies based on it's dependency array, and if it returns anything.
 
@@ -40,10 +40,10 @@ Now that we've learnt about class lifecycle methods, it's useful to understand t
 For example:
 
 ~~~js
-    useEffect(() => {
-        placeholderFunction()
-        return () => cleanupFunction()
-    }, [])
+  useEffect(() => {
+    placeholderFunction();
+    return () => cleanupFunction();
+  }, [])
 ~~~
 
 In this snippet, the useEffect contains the functionality of `componentDidMount`, and `componentWillUnmount` via the return function. This example doesn't have the `componentDidUpdate` functionality because of an empty dependency array.
@@ -55,21 +55,21 @@ In this snippet, the useEffect contains the functionality of `componentDidMount`
 1.  Check out this [lifecycle diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) to see a good visual representation of a components lifecycle methods.
 
 2. Read this [component lifecycle documentation](https://reactjs.org/docs/react-component.html#the-component-lifecycle) by the people who made react!
-    *   You only have to worry about the methods in bold, but you can read up on the others if you're curious - they're uncommon and you likely won't need them in 
-        most of your apps. 
+    *   You only have to worry about the methods in bold, but you can read up on the others if you're curious - they're uncommon and you likely won't need them in
+        most of your apps.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#render">What is the only required lifecycle method?</a>
-*   <a class="knowledge-check-link" href="#componentdidmount">What lifecycle method should you use for initial data fetching?</a>
-*   <a class="knowledge-check-link" href="#componentdidupdate">When you want to act upon change of the DOM, or of state, what lifecycle method would you use?</a>
-*   <a class="knowledge-check-link" href="#componentwillunmount">When performing cleanup actions, what lifecycle method should be used?</a>
-*   <a class="knowledge-check-link" href="#how-useeffect-combines-the-lifecycle-methods">How does the useEffect hook combine some of the lifecycle methods?</a>
+*   [What is the only required lifecycle method?](#render)
+*   [What lifecycle method should you use for initial data fetching?](#componentdidmount)
+*   [When you want to act upon change of the DOM, or of state, what lifecycle method would you use?](#componentdidupdate)
+*   [When performing cleanup actions, what lifecycle method should be used?](#componentwillunmount)
+*   [How does the useEffect hook combine some of the lifecycle methods?](#how-useeffect-combines-the-lifecycle-methods)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 

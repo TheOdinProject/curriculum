@@ -5,7 +5,7 @@ like hiding/showing a part of your page. Making a round trip to your server is i
 comes in: Rails suggests using the JS framework Stimulus to augment your HTML. Stimulus gives you a way of creating and using reusable 
 controllers that give you an extra little bit of interactivity.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -298,12 +298,12 @@ Go back to you **Flight Booker** project and improve it:
   * Allow to remove existing passengers by clicking a "Remove" button, which removes the one set of passenger fields (make sure submissions to the server still works as expected)
   * Prevent removing the last set of passenger details.
 
-### Additional Resources
+### Additional resources
 
 * [Better Stimulus](https://www.betterstimulus.com/), a good resource that shows best practices around Stimulus
 * [Stimulus Components](https://stimulus-components.netlify.app/), a collection of reusable Stimulus components
 
-### Knowledge Check
+### Knowledge check
 
 *This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering
 the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.*

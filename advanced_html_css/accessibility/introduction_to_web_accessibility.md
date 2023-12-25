@@ -4,13 +4,13 @@ At this point in the curriculum you've learned incredibly valuable concepts in w
 
 What you may not have too much an understanding of, though, is the topic of accessibility, often referred to as "a11y" (due to there being 11 letters between the first and last letters). Unfortunately, this is a topic that many people either don't know much about, or just don't take into account when developing websites. If you fit into either of those two categories, you may have adopted some habits that aren't exactly a11y friendly. Before we get into how you can break away from such habits and begin implementing a11y friendly concepts, it's important to first understand some basic information about web accessibility.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to:
 
 - Explain what web accessibility is.
 
-### What is Web Accessibility?
+### What is web accessibility?
 
 Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities and other circumstantial limitations can use them with as few barriers as possible.
 
@@ -18,7 +18,7 @@ There are different types of disabilities, including (but not limited to) audito
 
 Situational limitations are a little different. Using a phone outside on a bright day, browsing a site with one hand while you're busy doing something else with the other, or living in an area where the internet is slow or the bandwidth is expensive are all examples of situational limitations. These limitations, unlike a disability, occur to users only in specific situations, but are still important to keep in mind when developing a website.
 
-### Why Web Accessibility Matters
+### Why web accessibility matters
 
 Let's first look at a non-web example to gain a little perspective. Imagine being in a multi-storied building that has no elevator. For some people, this might only be an annoyance. "Huh, no elevator. I guess I'll walk up a few flights of stairs, then." A person that requires a wheelchair, however, would find it impossible, or at the very least much more difficult, to go anywhere beyond the first floor. Even if a person in a wheelchair had someone to lift the wheelchair up each step, it would be a much more difficult process. The point here is that an elevator would have made this building more accessible.
 
@@ -33,14 +33,14 @@ One other pretty big reason that accessibility matters is that, depending on the
 2. Watch the videos on [Web Accessibility Perspectives](https://www.w3.org/WAI/perspective-videos/) to see how (and which) users can benefit from accessibility features. Each video is pretty short and has audio descriptions and transcripts. If you prefer, the page also has a link to a compiled version of all of the videos on YouTube.
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href="#what-is-web-accessibility">What is web accessibility?</a>
-- <a class='knowledge-check-link' href="#benefits-knowledge-check">Who truly benefits from accessibility features?</a>
+- [What is web accessibility?](#what-is-web-accessibility)
+- [Who truly benefits from accessibility features?](#benefits-knowledge-check)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 

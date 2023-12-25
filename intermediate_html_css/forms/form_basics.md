@@ -6,14 +6,14 @@ You need to specify the proper types of inputs for each possible data item since
 
 In this lesson, we will explore the basics of HTML forms and some of the different types of inputs available to you.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to:
 
 - Create forms with HTML
 - Have a basic idea of how to style forms
 
-### The Form Element
+### The form element
 
 The form element is a container element like the div element we learned earlier in the curriculum. The form element wraps all of the inputs a user will interact with on a form.
 
@@ -29,27 +29,27 @@ POST is used when we want to change something on the server, for example, when a
 
 The markup for creating a form element looks like this:
 
-~~~html
+```html
 <form action="example.com/path" method="post">
 
 </form>
-~~~
+```
 
-### Form Controls
+### Form controls
 
 To start collecting user data, we need to use form control elements. These are all the elements users will interact with on the form, such as text boxes, dropdowns, checkboxes and buttons. In the following few sections, we will explore some of the form controls you will use most commonly.
 
-### The Input Element
+### The input element
 
 The input element is the most versatile of all the form control elements. It accepts a `type` attribute which tells the browser what *type* of data it should expect and how it should render the input element.
 
 A text input looks like this:
 
-~~~html
+```html
 <form action="example.com/path" method="post">
   <input type="text">
 </form>
-~~~
+```
 
 Text inputs accept any text input. For example, you would use it to collect things like users' first and last names.
 
@@ -59,41 +59,41 @@ An input on its own isn't very useful since the user will not know what kind of 
 
 To create a label, we use the `<label>` element. The text we want displayed in the label will go between its opening and closing tags:
 
-~~~html
+```html
 <form action="example.com/path" method="post">
   <label for="first_name">First Name:</label>
   <input type="text" id="first_name">
 </form>
-~~~
+```
 
-Labels accept a `for` attribute, which associates it with a particular input.  The input we want to associate with a label needs an `id` attribute with the same value as the label's `for` attribute.
+Labels accept a `for` attribute, which associates it with a particular input. The input we want to associate with a label needs an `id` attribute with the same value as the label's `for` attribute.
 
 When a label is associated with an input and is clicked, it will focus the cursor on that input, ready for the user to input some data. This helps make our forms more accessible to users who rely on assistive technologies.
 
-**Placeholder Attribute**
+**Placeholder attribute**
 
 To guide users on what to enter in form elements, we can include placeholder text in input fields.
 
 This is done by adding a `placeholder` attribute to an input. The value will be the *placeholder* text we want to display in the input:
 
-~~~html
+```html
 <label for="first_name">First Name:</label>
 <input type="text" id="first_name" placeholder="Bob...">
-~~~
+```
 
-Use placeholder text to demonstrate how text should be entered and formatted. 
+Use placeholder text to demonstrate how text should be entered and formatted.
 
 
-<span id="the-name-attribute">**The Name Attribute**</span>
+<span id="the-name-attribute">**The name attribute**</span>
 
 We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend, where we send our data, know what each piece of data represents.
 
 We do this by adding a `name` attribute to our inputs:
 
-~~~html
+```html
 <label for="first_name">First Name:</label>
 <input type="text" id="first_name" name="first_name">
-~~~
+```
 
 The `name` attribute serves as a reference to the data inputted into a form control after submitting it. You can think of it as a variable name for the input. Form input should always have a `name` attribute; otherwise, it will be ignored when the form is submitted.
 
@@ -108,17 +108,17 @@ To get a better understanding of what this looks like we can submit a form to [h
 
 The output we care about from the response is the "form" object. It should look something like this:
 
-~~~json
+```json
 "form": {
     "age": "33",
     "first_name": "John",
     "last_name": "Doe"
   },
-~~~
+```
 
 Try changing the `name` attributes of some of the input fields in the form and removing the attribute entirely, then submit the form again to see how the form data in the response changes.
 
-**Using Form Controls Outside of Forms**
+**Using form controls outside of forms**
 
 It's worth mentioning that you can use any of the form controls HTML provides outside of the `<form>` element, even when you don't have a backend server where you can send data.
 
@@ -133,7 +133,7 @@ For example you might want to have an input that gets some data from a user and 
 
 We will need to manipulate data from form controls like this in projects later in the curriculum.
 
-**The Type Attribute**
+**The type attribute**
 
 `Email inputs` are specialized text inputs just for email addresses. They are different from text inputs in that they will display a different keyboard which will include the @ symbol on mobile devices to make entering email addresses easier.
 
@@ -141,71 +141,71 @@ They also validate that the user has entered a correctly formatted email address
 
 To create an email input, we use an input element with `type` attribute of "email":
 
-~~~html
+```html
 <label for="user_email">Email Address:</label>
 <input type="email" id="user_email" name="email" placeholder="you@example.com">
-~~~
+```
 
 `Password inputs` are another specialized text input. They differ from regular text inputs in that they mask the inputted data with another character – usually an asterisk (*) or bullet point (•) – to prevent anyone from seeing what has been entered.
 
 A password input can be created using an input element with a type of "password":
 
-~~~html
+```html
 <label for="user_password">Password:</label>
 <input type="password" id="user_password" name="password">
-~~~
+```
 
 The `number input` only accepts number values and ignores any other characters the user tries to enter.
 
 We create a number input using the input element with a `type` attribute of "number":
 
-~~~html
+```html
 <label for="amount">Amount:</label>
 <input type="number" id="amount" name="amount">
-~~~
+```
 
 To collect dates from a user, we can use a `date input`. This input is unique because it provides a better user experience for choosing dates by rendering a simple date picker calendar.
 
 To create a date input, we use the input element with a `type` attribute of "date":
 
-~~~html
+```html
 <label for="dob">Date of Birth:</label>
 <input type="date" id="dob" name="dob">
-~~~
+```
 
-**Text Area**
+**Text area**
 
 While technically not an input element, the text area element provides an input box that can accept text that spans multiple lines like user comments and reviews. It can also be resized by clicking and dragging the bottom right corner to make it bigger or smaller.
 
 To create a text area, we use the `<textarea>` element:
 
-~~~html
+```html
 <textarea></textarea>
-~~~
+```
 
 Unlike input elements, Textarea elements do have a closing tag. This allows you to wrap some initial content you want the text area to display:
 
-~~~html
+```html
 <textarea>Some initial content</textarea>
-~~~
+```
 
 Text area elements accept a couple of unique attributes that other form controls do not. These are the `rows` and `cols` attributes. They allow you to control the initial height (rows) and width (cols) of the text area:
 
-~~~html
+```html
 <textarea rows="20" cols="60"></textarea>
-~~~
+```
 
-### Selection Elements
+### Selection elements
 
 Sometimes you will want users to select a value from a predefined list. This is where select elements will be useful.
 
-**Select Dropdown**
+**Select dropdown**
 
 The select element renders a dropdown list where users can select an option. Syntactically, select elements have similar markup to unordered lists. The select element wraps option elements which are the options that can be selected.
 
 To create a select dropdown, we use the `<select>` element. Any options we want to display within the select element are defined using `<option>` elements:
 
-~~~html
+```html
 <select name="Car">
   <option value="mercedes">Mercedes</option>
   <option value="tesla">Tesla</option>
@@ -214,14 +214,13 @@ To create a select dropdown, we use the `<select>` element. Any options we want 
   <option value="mini">Mini</option>
   <option value="ford">Ford</option>
 </select>
+```
 
-~~~
-
-All the option elements need to have a `value` attribute. This value will be sent to the server when the form is submitted.
+All the option elements should have a `value` attribute (otherwise the text content inside is used). This value will be sent to the server when the form is submitted.
 
 We can set one of the options to be the default selected element when the browser first renders the form by giving one of the options the `selected` attribute:
 
-~~~html
+```html
 <select name="Car">
   <option value="mercedes">Mercedes</option>
   <option value="tesla">Tesla</option>
@@ -230,11 +229,11 @@ We can set one of the options to be the default selected element when the browse
   <option value="mini">Mini</option>
   <option value="ford">Ford</option>
 </select>
-~~~
+```
 
 We may also split the list of options into groups using the `<optgroup>` element. The optgroup element takes a `label` attribute which the browser uses as the label for each group:
 
-~~~html
+```html
 <select name="fashion">
   <optgroup label="Clothing">
     <option value="t_shirt">T-Shirts</option>
@@ -247,15 +246,15 @@ We may also split the list of options into groups using the `<optgroup>` element
     <option value="sandals">Sandals</option>
   </optgroup>
 </select>
-~~~
+```
 
-**Radio Buttons**
+**Radio buttons**
 
 Select dropdowns are great for saving space on the page when we have an extensive list of options we want users to choose from. However, when we have a smaller list of 5 or fewer options to choose from, it is often a better user experience to have them displayed on the page instead of hidden behind a dropdown.
 
 In this case, we can use radio buttons. Radio buttons allow us to create multiple options that the user can choose one of. To create radio buttons, we use the ever adaptable input element again with a `type` attribute of "radio":
 
-~~~html
+```html
 <h1>Ticket Type</h1>
 <div>
   <input type="radio" id="child" name="ticket_type" value="child">
@@ -271,13 +270,13 @@ In this case, we can use radio buttons. Radio buttons allow us to create multipl
   <input type="radio" id="senior" name="ticket_type" value="senior">
   <label for="senior">Senior</label>
 </div>
-~~~
+```
 
 When we select one of the radio buttons and then select another, it will deselect the first one. Radio buttons know to do this because they have the same `name` attribute. This is how the browser knows these elements are part of the same group of options.
 
 We can set the default selected radio button by adding the `checked` attribute to it:
 
-~~~html
+```html
 <h1>Ticket Type</h1>
 <div>
   <input type="radio" id="child" name="ticket_type" value="child">
@@ -293,7 +292,7 @@ We can set the default selected radio button by adding the `checked` attribute t
   <input type="radio" id="senior" name="ticket_type" value="senior">
   <label for="senior">Senior</label>
 </div>
-~~~
+```
 
 **Checkboxes**
 
@@ -301,7 +300,7 @@ Checkboxes are similar to radio buttons in that they allow users to choose from 
 
 To create a checkbox, we use the input element with a `type` attribute of "checkbox":
 
-~~~html
+```html
 <h1>Pizza Toppings</h1>
 
 <div>
@@ -323,83 +322,85 @@ To create a checkbox, we use the input element with a `type` attribute of "check
   <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
   <label for="mushrooms">Mushrooms</label>
 </div>
-~~~
+```
 
 We can also have a single checkbox when we want users to toggle if they want something to be true or false. Like signing up to a newsletter when they create an account for example:
 
-~~~html
+```html
 <div>
   <input type="checkbox" id="newsletter" name="news_letter">
   <label for="newsletter">Send me the news letter</label>
 </div>
-~~~
+```
 
 We can set checkboxes to be checked by default on page load by giving them a `checked` attribute:
 
-~~~html
+```html
 <div>
   <input type="checkbox" id="newsletter" name="news_letter" checked>
   <label for="newsletter">Send me the news letter</label>
 </div>
-~~~
+```
 
 ### Buttons
 
 The button element creates clickable buttons that the user can interact with to submit forms and trigger other actions.
 
-To create a button, we use the `<button>`  element. The content or text we want to have displayed inside the button will go within the opening and closing tags:
+To create a button, we use the `<button>` element. The content or text we want to have displayed inside the button will go within the opening and closing tags:
 
-~~~html
+```html
 <button>Click Me</button>
-~~~
+```
 
 The button element also accepts a `type` attribute that tells the browser which kind of button it is dealing with. There are three types of buttons available to us.
 
-**Submit Buttons**
+**Submit buttons**
 
-Once a user is finished filling in a form, they will need a way to submit it.  There is a specialized button for this; the submit button. When a submit button is clicked, it will submit the form it is contained within. The `type` attribute has a value of submit by default, i.e. if the `type` is not specified or the value provided is invalid.
+Once a user is finished filling in a form, they will need a way to submit it. There is a specialized button for this; the submit button. When a submit button is clicked, it will submit the form it is contained within. The `type` attribute has a value of submit by default, i.e. if the `type` is not specified or the value provided is invalid.
 
 To create a submit button, we use the button element with a `type` attribute of "submit":
 
-~~~html
+```html
 <button type="submit">Submit</button>
-~~~
+```
 
-**Reset Button**
+**Reset button**
 
 A reset button clears all the data the user has entered into the form and sets all the inputs in the form back to what they were initially.
 
 To create a reset button, we use the button element with a `type` attribute of "reset":
 
-~~~html
+```html
 <button type="reset">Reset</button>
-~~~
+```
 
-**Generic Button**
+**Generic button**
 
 The third and final button type is simply a generic button that can be used for anything. It's commonly used with JS for creating interactive UI's.
 
 To create a generic button, we use the button element with a `type` attribute of "button":
 
-~~~html
+```html
 <button type="button">Click to Toggle</button>
-~~~
+```
 
-**Note**: It is important to remember that a button within a form with the `type` value of submit (which happens to be the default value) will always try to make a new request and submit data back to the server. Hence, for buttons that are used within a form for different purposes other than submitting the data, the `type` attribute should always be specified to avoid unwanted effects of submitting a form.
+<div class="lesson-note lesson-note--tip" markdown=1>
+It is important to remember that a button within a form with the `type` value of submit (which happens to be the default value) will always try to make a new request and submit data back to the server. Hence, for buttons that are used within a form for different purposes other than submitting the data, the `type` attribute should always be specified to avoid unwanted effects of submitting a form.
+</div>
 
-### Organizing Form Elements
+### Organizing form elements
 
 Using the correct inputs for the data we want users to enter goes a long way towards making our forms user friendly. However, in larger forms, users can easily get overwhelmed and discouraged if there are many inputs to fill in.
 
 Luckily, HTML provides a couple of elements that make it easy to organize forms into sections that are visually distinct and manageable to digest.
 
-**Fieldset Element**
+**Fieldset element**
 
 The fieldset element is a container element that allows us to group related form inputs into one logical unit.
 
 To create a fieldset, we use the `<fieldset>` element. Whatever form inputs we want to group together go within the opening and closing fieldset tags:
 
-~~~html
+```html
 <fieldset>
   <label for="first_name">First Name</label>
   <input type="text" id="first_name" name="first_name">
@@ -407,7 +408,7 @@ To create a fieldset, we use the `<fieldset>` element. Whatever form inputs we w
   <label for="last_name">Last Name</label>
   <input type="text" id="last_name" name="last_name">
 </fieldset>
-~~~
+```
 
 **Legend**
 
@@ -415,7 +416,7 @@ The legend element is used to give field sets a heading or caption so the user c
 
 To create a legend, we use the `<legend>` element with the text we want to display within its opening and closing tags. A legend should always come right after an opening fieldset tag:
 
-~~~html
+```html
 <fieldset>
   <legend>Contact Details</legend>
 
@@ -441,11 +442,11 @@ To create a legend, we use the `<legend>` element with the text we want to displ
   <label for="zip_code">Zip Code:</label>
   <input type="text" id="zip_code" name="zip_code">
 </fieldset>
-~~~
+```
 
 A common use-case for these elements is using a fieldset to group radio buttons and using a legend to communicate to the user what each of the options is ultimately for:
 
-~~~html
+```html
 <fieldset>
   <legend>What would you like to drink?</legend>
 
@@ -463,15 +464,14 @@ A common use-case for these elements is using a fieldset to group radio buttons 
     <input type="radio" name="drink" id="soda" value="soda">
     <label for="soda">Soda</label>
   </div>
-
 </fieldset>
-~~~
+```
 
-### A Note on Styling Forms
+### A note on styling forms
 
 We will provide resources that go deep into styling forms in the assignment section that comes next. However, before we get to the assignment, we should talk about some of the challenges with styling HTML forms and how we can get around them:
 
-**Default Browser Styles**
+**Default browser styles**
 
 Each browser has its own default styles for form controls, making your forms visually different for users depending on what browser they are using.
 
@@ -489,27 +489,29 @@ Certain aspects of other elements are downright impossible to style, for example
 
 <div class="lesson-content__panel" markdown="1">
 
-####Form Basics
+#### Form basics
 
-1. Read and follow along to [MDN's Introductory Guides to Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_guides)
+1. Read and follow along to [MDN's Introductory Guides to Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_guides) - complete [Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form) and [How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form#test_your_skills!)
 2. Read and follow along to [MDN's The Different Form Controls Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#the_different_form_controls)
 
-####Styling Forms
+#### Styling forms
 
 1. Read and follow along to [MDN's Form Styling Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_guides)
-2. Read and follow along to [the internetingishard guide to forms](https://www.internetingishard.com/html-and-css/forms/)
+2. Read and follow along to [the internetingishard guide to forms](https://internetingishard.netlify.app/html-and-css/forms/index.html)
 
 </div>
 
-### Additional Resources
+### Knowledge check
+
+- [Explain what the form element is for and what two attributes it should always include.](#the-form-element)
+- [Explain what form controls are at a high level.](#form-controls)
+- [What is the `name` attribute for?](#the-name-attribute)
+- [What are the three most common form controls you can use for allowing users to select predefined options?](#selection-elements)
+- [What are the three types of buttons in HTML?](#buttons)
+- [What are the two most challenging aspects of styling forms?](#a-note-on-styling-forms)
+
+### Additional resources
+
+This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 - [Web.dev's Form Course](https://web.dev/learn/forms/)
-
-### Knowledge Check
-
-- <a class="knowledge-check-link" href='#the-form-element'>Explain what the form element is for and what two attributes it should always include.</a>
-- <a class="knowledge-check-link" href='#form-controls'>Explain what form controls are at a high level.</a>
-- <a class="knowledge-check-link" href='#the-name-attribute'>What is the `name` attribute for?</a>
-- <a class="knowledge-check-link" href='#selection-elements'>What are the three most common form controls you can use for allowing users to select predefined options?</a>
-- <a class="knowledge-check-link" href='#buttons'>What are the three types of buttons in HTML?</a>
-- <a class="knowledge-check-link" href='#a-note-on-styling-forms'>What are the two most challenging aspects of styling forms?</a>

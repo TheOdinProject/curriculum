@@ -2,13 +2,13 @@
 
 As useful as `<div>` and `<span>` elements can be as generic containers, they're not always the most a11y friendly elements to use. While it may be tempting or easier to just use them for everything, from containers to interactive areas, you should not only check whether there is a more appropriate element to use in certain situations, but also whether you're using an element correctly.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to:
 
 * Explain why semantic HTML is important for accessibility.
 * Name the seven HTML elements that define landmarks on a page.
 
-### The Importance of Semantics
+### The importance of semantics
 
 In terms of web accessibility, using semantic HTML is important because it provides meaning and context. Some elements have a *semantic meaning*, but don't really provide any *context* when announced by assistive technologies, such as the `<p>` element. Then there are elements that have a semantic meaning *and* are announced with some sort of context to help users perceive or operate them, like a `<button>`. 
 
@@ -40,7 +40,7 @@ This issue can be easily fixed by using semantic HTML:
 
 Because the `<button>` element has a semantic meaning and provides context, a screen reader would announce the text content as well as the role of the element: "Rock, button".
 
-#### Using Semantic HTML Correctly
+#### Using semantic HTML correctly
 
 When it comes to using semantic HTML correctly, you want to think about what your intent for users is and what context you want (or need) to provide to them. This can vary depending on the situation, but there are some things you should absolutely be checking for moving forward:
 
@@ -60,10 +60,10 @@ When it comes to using semantic HTML correctly, you want to think about what you
 </label>
 ~~~
 
-* Continuing with inputs, you should always use the `type` that makes the most sense for its intended use. `type="text"`makes more sense for a name or address field, while `type="email"` or `type="tel"` would of course make more sense for an e-mail or telephone field, respectively. For certain devices, using the correct `type` may show only the required or additional characters on the keyboard. A `type="tel"` input, for example, might make it much easier for users to fill out their phone number by providing larger, numerical-only keys on mobile or tablet devices.
+* Continuing with inputs, you should always use the `type` that makes the most sense for its intended use. `type="text"` makes more sense for a name or address field, while `type="email"` or `type="tel"` would of course make more sense for an e-mail or telephone field, respectively. For certain devices, using the correct `type` may show only the required or additional characters on the keyboard. A `type="tel"` input, for example, might make it much easier for users to fill out their phone number by providing larger, numerical-only keys on mobile or tablet devices.
 * When you want to present a list of some sort to a user, you should use the appropriate list element (`<ol>`, `<ul>`, or `<dl>`) and their related list item elements. This will not only let the user know when they are entering or exiting a list, but also how many items are in the list.
 
-### Headings and Landmarks
+### Headings and landmarks
 
 Headings are the `<h1>` through `<h6>` elements, and like the name implies, these elements act as headings to sections of a page. Landmarks, on the other hand, are HTML elements that act as regions of a page. There are seven native HTML elements that define these landmark regions:
 
@@ -86,17 +86,17 @@ If you were to use only `<div>` elements to act as these landmarks and headings,
 2. Watch [Why headings and landmarks are so important](https://www.youtube.com/watch?v=vAAzdi1xuUY&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=19) to see how a screen reader interacts with the heading and landmark elements.
 </div>
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class='knowledge-check-link' href='#the-importance-of-semantics'>Why is semantic HTML important for accessibility?</a>
-* <a class='knowledge-check-link' href='#headings-and-landmarks'>What are the seven HTML elements that define landmarks on a page?</a>
+* [Why is semantic HTML important for accessibility?](#the-importance-of-semantics)
+* [What are the seven HTML elements that define landmarks on a page?](#headings-and-landmarks)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-* [NVAccess](https://www.nvaccess.org/download/) provides a download of the NVDA screen reader, one of the more popular (and free!) screen readers available, though it's only available for the Windows OS (this is the **only** time where we're saying it's okay to use Windows in the scope of this curriculum). If you're using a macOS device, you should have the VoiceOver screen reader available to you by default. While the lessons in this section will provide you with what a screen reader will generally announce, it can be invaluable to start using a screen reader yourself to test out your projects and see how they might be perceived.
+* [NVAccess](https://www.nvaccess.org/download/) provides a download of the NVDA screen reader, one of the more popular (and free!) screen readers available, though it's only available for the Windows OS. If you're using a macOS device, you should have the VoiceOver screen reader available to you by default. While the lessons in this section will provide you with what a screen reader will generally announce, it can be invaluable to start using a screen reader yourself to test out your projects and see how they might be perceived.
 * [Screen Reader Basics: VoiceOver](https://www.youtube.com/watch?v=5R-6WvAihms&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=8) and [Screen Reader Basics: NVDA](https://www.youtube.com/watch?v=Jao3s_CwdRU&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=9) go over some basics for getting started with both brands of screen readers. Both videos are worth watching regardless of which screen reader you choose/is available to you, as they contain some universal information as well.
 * [Screen reader basics: Orca](https://www.youtube.com/watch?v=UI76P-KPZec) is a good video to get you started using Orca, the Linux GUI screen reader.
 * [Screen reader basics: ChromeVox](https://www.youtube.com/watch?v=fpbIsN31hLM) is a starting place for learning to use ChromeVox, the screen reader on ChromeBooks.

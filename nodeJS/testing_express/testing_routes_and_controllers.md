@@ -3,7 +3,7 @@ Unit Testing is important for many reasons that we probably don't need to cover 
 
 If you haven't finished our [front-end JavaScript course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript), go back and take a look at those lessons before progressing.
 
-### Learning Outcomes
+### Learning outcomes
 
 By the end of this lesson, you should be able to do or answer the following:
 
@@ -14,6 +14,7 @@ By the end of this lesson, you should be able to do or answer the following:
 - Explain and have a firm understanding of `.expect()` method's functionality.
 - Have familiarity with `supertest`'s documentation and methods.
 
+### Routes testing with supertest
 
 The most important, basic requirement for testing something in your code is that it must be in an exported module. This is true for both custom middleware and your routes/controllers, so the very first thing you need to do is separate those things into their own modules, if they aren't already.
 
@@ -151,7 +152,7 @@ If we were using a real database here, then we would want to do something simila
 2. SuperTest actually pulls from another related project called SuperAgent.  Any method that you can call in SuperAgent you can also call from SuperTest, so you'll need to take a look through the [SuperAgent docs](https://ladjs.github.io/superagent/) as well.
 </div>
 
-### Knowledge Checks
+### Knowledge checks
  
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 

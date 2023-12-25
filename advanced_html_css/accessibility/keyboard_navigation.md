@@ -2,7 +2,7 @@
 
 Some users aren't able to use a mouse to navigate or operate their computer, and by extension the websites they visit. These users may instead rely on using a keyboard or another assistive technology that can simulate keyboard inputs, such as voice recognition software. Other users may even just prefer using a keyboard over a mouse, or may use a mix of both. These users require proper keyboard navigation, something that can easily be overlooked when developing a website.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to:
 
 * Know the two things that interactive elements must have for keyboard users.
@@ -38,11 +38,11 @@ buttons.forEach(button => {
 })
 ~~~
 
-Of course, this example then makes it *less* understandable for screen reader users (remember, these "buttons" won't provide any context). Not only does using the `<button>` element provide the context screen reader users need, but they're focusable and have event handling for keyboards *by default*: pressing the "space" or "enter" keys on a keyboard when a `<button>` has focus will trigger the "click" event.
+Of course, this example then makes it *less* understandable for screen reader users (remember, these "buttons" won't provide any context). Not only does using the `<button>` element provide the context screen reader users need, but they're focusable and have event handling for keyboards *by default*: pressing the <kbd>Space</kbd> or <kbd>Enter</kbd> keys on a keyboard when a `<button>` has focus will trigger the "click" event.
 
 <span id="interative-elements-keyboard">The point is that you need to make sure that any interactive elements are focusable by and have event handling for keyboards. Using the correct semantic HTML can make this a lot easier of a goal to accomplish, but if you ever need to use an element that isn't focusable or doesn't have any event handling by default, then you need to add both of those functionalities in manually.</span>
 
-### Focus Styles
+### Focus styles
 
 Another aspect of focusable elements is their focus styles, which are usually an outline or border surrounding the element when it receives focus. One of the things you may have done, or may still do, is completely remove these focus styles by using CSS rules similar to the example below:
 
@@ -58,9 +58,9 @@ You probably assume that you're about to be told not to do this. Well... **You s
 
 <span id="focus-never-remove">Why? Completely removing focus styles can make a page impossible for keyboard users to navigate and operate, as they have no visual indication what element actually has focus. It would force them to have to manually keep track of how many times they've pressed the Tab key while also trying to guess what elements are *actually* focusable. Imagine trying to browse a website with an invisible cursor and without any visual indication of when the cursor was hovering over interactive elements like links or buttons. Doesn't sound too fun, does it?</span>
 
-### Tab Order
+### Tab order
 
-The tab order is the order in which elements on the page will receive focus when pressing the Tab key, and is by default in the same order as the order of elements listed in the HTML file:
+The tab order is the order in which elements on the page will receive focus when pressing the <kbd>Tab</kbd> key, and is by default in the same order as the order of elements listed in the HTML file:
 
 ~~~html
 <!-- This element is first in the tab order. -->
@@ -74,7 +74,7 @@ Sometimes you may find it necessary to either change the visual order of element
 
 The best way to avoid this issue is to just place elements in your HTML file in the order that you want them to actually receive focus.
 
-### Hidden Content
+### Hidden content
 
 Sometimes you may want to hide some content until a specific event occurs, such as a user clicking on a button to open a menu or a modal box. When you want to hide content for this sort of purpose, you need to make sure the content is not only visually hidden, but also hidden from assistive technologies until that content is meant to be visible. 
 
@@ -90,16 +90,16 @@ One way to prevent this frustrating behavior is to give each individual item in 
 1. Watch [What is Focus?](https://www.youtube.com/watch?v=EFv9ubbZLKw&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=3) to see some issues that occur when trying to change the tab order, then watch [Controlling focus with tabindex](https://www.youtube.com/watch?v=Pe0Ce1WtnUM&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=4) to see how using the `tabindex` attribute can affect the tab order.
 </div>
 
-### Knowledge Check
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class='knowledge-check-link' href='#interative-elements-keyboard'>What are two things that interactive elements must have for keyboard users?</a>
-* <a class='knowledge-check-link' href='#focus-styles'>What are focus styles?</a>
-* <a class='knowledge-check-link' href='#focus-never-remove'>Why should you never completely remove focus styles from an element?</a>
-* <a class='knowledge-check-link' href='#tab-order'>What is the tab order?</a>
-* <a class='knowledge-check-link' href='#best-way-hide-content'>What is the best way to hide hidden content from assistive technologies?</a>
+* [What are two things that interactive elements must have for keyboard users?](#interative-elements-keyboard)
+* [What are focus styles?](#focus-styles)
+* [Why should you never completely remove focus styles from an element?](#focus-never-remove)
+* [What is the tab order?](#tab-order)
+* [What is the best way to hide hidden content from assistive technologies?](#best-way-hide-content)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 

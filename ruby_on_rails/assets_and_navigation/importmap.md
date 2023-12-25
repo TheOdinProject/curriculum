@@ -6,7 +6,7 @@ Rails 6 tried to fix this solution by creating a wrapper Gem around [webpack](ht
 
 With Rails 7 we have [importmap](https://github.com/rails/importmap-rails). This approach to managing JavaScript in your applications was chosen for a couple of reasons. First ES6 is now supported by all browsers that matter. Chrome, Edge, Safari, and Firefox. Secondly, HTTP/2 is now the norm meaning you can have a single connection that responds to the client with multiple small files. Now you can get rid of your bundler for JavaScript.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 - How to use Import maps.
 - What `pin`s are.
 
-### Import Maps
+### Import maps
 
 Import maps let you import JavaScript modules using logical names that map to versioned/digested files – directly from the browser. So you can build modern JavaScript applications using JavaScript libraries made for ES modules (ESM) without the need for [transpiling](https://en.wikipedia.org/wiki/Source-to-source_compiler) or [bundling](https://www.dottedsquirrel.com/bundling-javascript/). This frees you from needing Webpack, Yarn, npm, or any other part of the JavaScript toolchain. All you need is the asset pipeline that's already included in Rails.
 
@@ -47,26 +47,26 @@ pin "react", to: "https://ga.jspm.io/npm:react@17.0.2/index.js"
 
 This means that every time you see `import React from "react"` in the code it will actually be like writing `import React from "https://ga.jspm.io/npm:react@17.0.2/index.js"`.
 
-#### Using Import Maps
+#### Using import maps
 
 When creating a new Rails 7+ application `importmap-rails` will be automatically added to your Gemfile. `importmap-rails` is doing a few things for you. First the `<%= javascript_importmap_tags %>` line is added to `views/layouts/application.html.erb` which will set up the JSON configuration inside of a `<script type="importmap">` tag. Then the [es-module-shim](https://github.com/guybedford/es-module-shims) is loaded. Finally, the application entry point is imported via `<script type="module">import "application"</script>`. Inside your `app/javascript/application.js` you set up the application by importing any modules that have been defined in the import map. It is good to use logical names that match the package names used by NPM, that way if you want to start transpiling or bundling your code you won't have to change any module imports.
 
 You start the setup via the configuration file located `config/importmap.rb`. This file is automatically reloaded in development when anything changes. That being said, if you remove pins and need them gone from the rendered importmap or list of preloads you MUST restart the server.
 
-### Import Maps with NPM packages
+### Import maps with NPM packages
 
 `importmap-rails` is designed to be used with JavaScript CDNs for NPM package dependencies.
 
 You can use the `./bin/importmap` command that's added as part of the install to `pin`, `unpin`, or `update` npm packages in your import map. This command resolves the package dependencies and adds the pins to your `config/importmap.rb`.
 
 ~~~JS
-./bin/importmap pin react react-dom
+$ ./bin/importmap pin react react-dom
 Pinning "react" to https://ga.jspm.io/npm:react@17.0.2/index.js
 Pinning "react-dom" to https://ga.jspm.io/npm:react-dom@17.0.2/index.js
 Pinning "object-assign" to https://ga.jspm.io/npm:object-assign@4.1.1/index.js
 Pinning "scheduler" to https://ga.jspm.io/npm:scheduler@0.20.2/index.js
 
-./bin/importmap json
+$ ./bin/importmap json
 
 {
   "imports": {
@@ -97,7 +97,7 @@ pin "react", to: "https://cdn.skypack.dev/react"
 If you don't want to use a CDN in production, you can download vendored files from the CDN when you're setting up your pins. These packages are downloaded to the `vendor/javascript` directory
 
 ~~~bash
-./bin/importmap pin react --download
+$ ./bin/importmap pin react --download
 Pinning "react" to vendor/react.js via download from https://ga.jspm.io/npm:react@17.0.2/index.js
 Pinning "object-assign" to vendor/object-assign.js via download from https://ga.jspm.io/npm:object-assign@4.1.1/index.js
 ~~~
@@ -112,7 +112,7 @@ pin "object-assign" # https://ga.jspm.io/npm:object-assign@4.1.1/index.js
 If you want to remove a downloaded pin you can pass `--download` to the `unpin` command
 
 ~~~bash
-./bin/importmap unpin react --download
+$ ./bin/importmap unpin react --download
 Unpinning and removing "react"
 Unpinning and removing "object-assign"
 ~~~
@@ -156,7 +156,7 @@ Since Rails 7 is relatively new there aren't a ton of resources available yet. T
 
 </div>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
@@ -164,7 +164,7 @@ This section contains helpful links to related content. It isn’t required, so 
 2. [Blog post on using `importmap`](https://blog.kiprosh.com/rails-7-brings-import-maps-into-the-limelight/)
 3. [The import map specification](https://github.com/WICG/import-maps) should cover any other questions you may have on the subject.
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 

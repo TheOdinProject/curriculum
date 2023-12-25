@@ -4,7 +4,7 @@ JavaScript is the future of the web. More and more of the logic is making its wa
 
 You've already completed the [Foundations course](https://www.theodinproject.com/paths/foundations/courses/foundations), right? Good, because now we'll be moving at warp speed into new frontiers. This section will cover a lot of ground and your brain may melt down a few times, but don't worry, that's just a flesh wound. Patch 'er up and keep going! When in doubt, build something.
 
-### The Path
+### The path
 
 How is this course set up? It starts with a deeper look at the basics, just like the [Ruby Programming course](/paths/full-stack-ruby-on-rails/courses/ruby-programming) did with Ruby. You don't need to have completed the Ruby Programming course or [the Ruby on Rails course](/paths/full-stack-ruby-on-rails/courses/ruby-on-rails) to understand these basics. We won't be focusing deeply on the really basic coding items, so it will move quickly. You should, however, already have completed the [Foundations course](https://www.theodinproject.com/paths/foundations/courses/foundations) -- specifically, the [JavaScript Basics section ](https://www.theodinproject.com/paths/foundations/courses/foundations#javascript-basics) -- before starting this course. 
 

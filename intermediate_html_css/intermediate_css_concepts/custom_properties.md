@@ -4,16 +4,16 @@ Custom properties (also known as CSS variables) can be a really useful and power
 
 We can even redefine custom properties under different contexts, which is incredibly useful for creating themes, such as the dark and light themes you see on many websites these days.
 
-### Learning Outcomes
+### Learning outcomes
 
 * You'll learn how to declare a custom property
 * You'll learn how to access a custom property in a rule declaration
 
-### Using Custom Properties
+### Using custom properties
 
 The syntax for declaring and accessing a custom property is really simple and not too different from how we write normal rule declarations:
 
-~~~css
+```css
 .error-modal {
   --color-error-text: red;
   --modal-border: 1px solid black;
@@ -23,24 +23,24 @@ The syntax for declaring and accessing a custom property is really simple and no
   border: var(--modal-border);
   font-size: var(--modal-font-size);
 }
-~~~
+```
 
-That's it! First, we declare our custom property with a double hyphen followed by a case-sensitive, hyphen-separated property name (`color-error-text` wouldn't be the same as `Color-Error-Text`). The use of single hyphens to separate words is very important here because spaces are not valid (`--color error text` would not work). Then we can store any valid CSS value in our newly declared custom property, whether it be a simple color value, shorthand values, or even a more complex function, just to give you a few examples.
+That's it! First, we declare our custom property with a double hyphen followed by a case-sensitive, hyphen-separated property name (`color-error-text` wouldn't be the same as `Color-Error-Text`). The use of Kebab case (single hyphens to separate words) is very important here because spaces are not valid (`--color error text` would not work). Then we can store any valid CSS value in our newly declared custom property, whether it be a simple color value, shorthand values, or even a more complex function, just to give you a few examples.
 
 When we want to access a custom property, we use the `var()` function as the value of a CSS property, and then place our custom property inside of the parenthesis (including the double hyphen at the beginning).
 
-#### Fallback Values
+#### Fallback values
 
 The `var()` function actually accepts two parameters. The first parameter we've already gone over, which is the custom property we want to assign. The second parameter is an optional fallback value. When a fallback value is provided in addition to a custom property, the fallback value will be used if the custom property is invalid or hasn't been declared yet. We can even pass in *another* custom property as a fallback, which can have *its own* fallback value as well!
 
-~~~css
+```css
 .fallback {
   --color-text: white;
 
   background-color: var(--undeclared-property, black);
   color: var(--undeclared-again, var(--color-text, yellow));
 }
-~~~
+```
 
 In the above example, our `background-color` property would have a value of `black` and our `color` property would have a value of `white`. If the `--color-text` custom property was invalid or didn't exist, the fallback to our fallback would take over and the `color` property would have a value of `yellow`.
 
@@ -50,14 +50,14 @@ In the first example above, you may have noticed that we declared and then acces
 
 In the example below, only the element with the `cool-paragraph` class would get styled with a red background since it's a descendant of the element where our custom property is declared.
 
-~~~html
+```html
 <div class='cool-div'>
   <p class='cool-paragraph'>Check out my cool, red background!</p>
 </div>
 
 <p class='boring-paragraph'>I'm not in scope so I'm not cool.</p>
-~~~
-~~~css
+```
+```css
 .cool-div {
   --main-bg: red;
 }
@@ -69,20 +69,20 @@ In the example below, only the element with the `cool-paragraph` class would get
 .boring-paragraph {
   background-color: var(--main-bg);
 }
-~~~
+```
 
-#### The `:root` Selector
+#### The :root selector
 
 While there may be times where you will want to limit the scope of a custom property, you may want to be able to use other custom properties on many, unrelated selectors. One workaround would be declaring the same custom property on a bunch of selectors, but that defeats one of the purposes of using custom properties in the first place (the ease of changing multiple instances of a value at once).
 
 A better solution is declaring those custom properties on the `:root` selector, which is essentially the same thing as the `html` selector except it has a higher specificity.
 
-~~~html
+```html
 <p class='cool-paragraph'>Lorem ipsum dolor sit amet.</p>
 
 <p class='exciting-paragraph'>Lorem ipsum dolor sit amet.</p>
-~~~
-~~~css
+```
+```css
 :root {
   --main-color: red;
 }
@@ -94,11 +94,11 @@ A better solution is declaring those custom properties on the `:root` selector, 
 .exciting-paragraph {
   background-color: var(--main-color);
 }
-~~~
+```
 
 By declaring our custom property on the `:root` selector in the example above, we can access it on *any* other valid selector within our CSS file, since any other selector would be considered a descendant of the `:root` selector.
 
-### Creating Themes with Custom Properties
+### Creating themes with custom properties
 
 Beyond allowing us to access custom properties more globally, the `:root` selector gives us one way to add themes to our pages:
 
@@ -109,9 +109,9 @@ Beyond allowing us to access custom properties more globally, the `:root` select
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-First we added a `class` attribute on our `html` element so that our page has a default theme. Next in our CSS we created two scopes for our custom properties on the `:root` selector, one for when our `html` (or root) element has a class of `dark` and another for when it has a class of `light`. Our other selectors then use the values of any custom properties depending on which class is currently present on our root element.
+First we used JavaScript to add a `class` attribute on our `html` element (We don't have direct access to the `html` element in the HTML tab on codepen, but you should be able to see the class being applied in the browser's inspector) so that our page has a default theme. Next in our CSS we created two scopes for our custom properties on the `:root` selector, one for when our `html` (or root) element has a class of `dark` and another for when it has a class of `light`. Our other selectors then use the values of any custom properties depending on which class is currently present on our root element.
 
-#### Media Queries
+#### Media queries
 
 Giving users the ability to toggle a theme themselves is great, but there's another option for setting a theme that you may have come across on certain sites or applications: using the user's theme setting from their operating system or user agent (like a browser). This can be accomplished with the `prefers-color-scheme` media query, which simply checks whether a user has selected a theme preference on their OS/user agent. As you view the example below, try changing the theme settings on your OS/user agent to see how the example updates in real time!
 
@@ -133,18 +133,24 @@ Using the `prefers-color-scheme` media query can be pretty helpful for users sin
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read through MDN's [Using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) page starting at the "Inheritance of custom properties" section.
-2. Open the inspector on this page to inspect the styles and see how Odin uses some custom properties.
+1. This [video on CSS custom properties](https://www.youtube.com/watch?v=PHO6TBq_auI) is a great introduction. Go ahead and watch it.
+2. Read through MDN's [Using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties#inheritance_of_custom_properties) page starting at the "Inheritance of custom properties" section.
+3. Open the inspector on this page to inspect the styles and see how Odin uses some custom properties.
 </div>
 
-### Additional Resources
+### Knowledge check
 
-1. This [video on CSS custom properties](https://www.youtube.com/watch?v=PHO6TBq_auI) is a great introduction. Go ahead and watch it.
-
-### Knowledge Check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href='#using-custom-properties'>How would you declare a custom property with a name of `text-color`?</a>
-* <a class="knowledge-check-link" href='#using-custom-properties'>How would you access a custom property with a name of `background-color`?</a>
-* <a class="knowledge-check-link" href='#scope'>Where would you declare a custom property to have its scope be global and accessible by all other selectors?</a>
-* <a class="knowledge-check-link" href='#creating-themes-with-custom-properties'>Where would you declare a custom property so that a user's theme setting from their OS or browser was taken into account?</a>
+* [How would you declare a custom property with a name of `text-color`?](#using-custom-properties)
+* [How would you access a custom property with a name of `background-color`?](#using-custom-properties)
+* [Where would you declare a custom property to have its scope be global and accessible by all other selectors?](#scope)
+* [Where would you declare a custom property so that a user's theme setting from their OS or browser was taken into account?](#creating-themes-with-custom-properties)
+
+### Additional resources
+
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
+- It looks like this lesson doesn’t have any additional resources yet. Help us expand this section by contributing to our curriculum.
+
+

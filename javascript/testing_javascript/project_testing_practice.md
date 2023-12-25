@@ -3,24 +3,7 @@ Let's practice!  This testing thing really is not that difficult, but it _is_ qu
 
 ### Using ES6 import statements with Jest
 
-By default, the current version of Jest will not recognize ES6 import statements. In order for you to be able to use ES6 modules for this project you may do the following:
-
-1. Install the @babel/preset-env package
-
-
-    ```
-    npm i -D @babel/preset-env
-    ```
-
-2. Create a .babelrc file in the project's root with the following lines of code:
-
-    ``` 
-    {
-      "presets": ["@babel/preset-env"]
-     }
-    ```  
-
-This will allow you to use import statements. Note that in the Jest docs similar instructions are laid out [here](https://jestjs.io/docs/en/getting-started#using-babel).
+By default, the current version of Jest will not recognize ES6 import statements. In order for you to be able to use ES6 modules for this project you may follow the [Jest instructions for using Babel](https://jestjs.io/docs/en/getting-started#using-babel).
 
 ### Assignment
 
@@ -33,7 +16,7 @@ Write tests for the following, and then make the tests pass!
 
 3. A `calculator` object that contains functions for the basic operations: `add`, `subtract`, `divide`, and `multiply`. Each of these functions should take two numbers and return the correct calculation.
 
-4. A `caesarCipher` function that takes a string and a shift factor and returns it with each character "shifted". Read more about how a Caesar cipher works on [this website](http://practicalcryptography.com/ciphers/caesar-cipher/).
+4. A `caesarCipher` function that takes a string and a shift factor and returns it with each character "shifted". Read more about how a Caesar cipher works on [this website](https://crypto.interactive-maths.com/caesar-shift-cipher.html).
 
    1. Don’t forget to test wrapping from `z` to `a`.
    2. Don’t forget to test keeping the same case.
@@ -43,7 +26,7 @@ Write tests for the following, and then make the tests pass!
 
 5. An `analyzeArray` function that takes an array of numbers and returns an object with the following properties: `average`, `min`, `max`, and `length`.
 
-   ~~~javascript
+   ```javascript
    const object = analyzeArray([1,8,3,4,2,6]);
 
    object == {
@@ -52,5 +35,5 @@ Write tests for the following, and then make the tests pass!
      max: 8,
      length: 6
    };
-   ~~~
+   ```
 </div>

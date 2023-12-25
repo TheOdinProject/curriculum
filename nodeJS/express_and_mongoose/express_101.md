@@ -1,7 +1,7 @@
 ### Introduction
 In the last lesson, we set the stage by explaining quite a bit of the background information you'll need to really understand what's going on as we start to dive into Express. This lesson will actually start you on the project that you'll be completing as you follow the tutorial.
 
-### Learning Outcomes
+### Learning outcomes
 By the end of this lesson, you should be able to do the following:
 
  - Use `express-generator` to generate a basic express site.
@@ -10,7 +10,7 @@ By the end of this lesson, you should be able to do the following:
  - Understand what Middleware is.
  - Understand `req`, `res` and `next` in the context of middleware.
 
-### Templating Engines
+### Templating engines
 
 A templating engine is a tool that allows you to insert variables and simple logic into your views. For instance, you could have a header that updates with the actual user's name once they've logged in, something that is not possible with plain HTML. As the lesson mentions, there are several templating languages available for JavaScript.  The tutorial uses [Pug (formerly known as Jade)](https://pugjs.org) which has a bit of a learning curve because it looks and feels dramatically different from regular HTML. If you've ever worked with Ruby on Rails you might be more comfortable with [ejs](https://ejs.co), which is _very_ similar to `erb`.
 
@@ -18,11 +18,11 @@ It's up to you which you choose! If you choose not to use Pug you will still be 
 
 ### Middleware
 
-This step of the MDN tutorial mentions middleware, but does not clearly define it. Middleware is a complicated word for a simple concept. <span id='middleware'>A middleware is just a plain JavaScript function that Express will call for you between the time it receives a network request and the time it fires off a response (i.e. it's a function that sits in the _middle_)</span>. You will eventually be using several of these functions that will run in a specific sequence for every request. 
+This step of the MDN tutorial mentions middleware, but does not clearly define it. Middleware is a complicated word for a simple concept. <span id='middleware'>A middleware is just a plain JavaScript function that Express will call for you between the time it receives a network request and the time it fires off a response (i.e. it's a function that sits in the _middle_)</span>. You will eventually be using several of these functions that will run in a specific sequence for every request.
 
 For example, you might have a logger (that prints details of the request to the console), an authenticator (that checks to see if the user is logged in, or otherwise has permission to access whatever they're requesting) and a static-file server (if the user is requesting a static file then it will send it to them). All of these functions will be called in the order you specify every time there's a request on the way to your `app.get("/")` function.
 
-It is possible and common to write your own middleware functions (you'll be doing that later) so let's take a minute to demystify what they're actually doing. Middleware functions are just plain JavaScript functions with a specific function signature (that is, it takes a specific set of arguments in a specific order). You've actually already seen it! 
+It is possible and common to write your own middleware functions (you'll be doing that later) so let's take a minute to demystify what they're actually doing. Middleware functions are just plain JavaScript functions with a specific function signature (that is, it takes a specific set of arguments in a specific order). You've actually already seen it!
 
 The three middleware function arguments are: `req`, `res`, and `next`. Technically, these are just variables, so you could call them anything, but convention (and the express documentation) almost always give them these names.
 
@@ -35,7 +35,7 @@ function(req, res, next) {
 ~~~
 
 When someone visits your site, their web-browser sends a request to your server. Express takes that request and passes it through all of the middleware functions that you have defined and used in your project.  Each function is defined with these parameters which might seem familiar to you from the plain Node tutorial that you went through in the 'Getting Started' lesson.  Technically, `req` and `res` are _almost_ the same here as they are in vanilla Node, but Express enhances them by adding a few useful properties and methods to them.
- 
+
  <span id='req'>`req`</span> or `request` is an object that has data about the incoming request such as the exact URL that was visited, any parameters in the URL, the `body` of the request (useful if the user is submitting a form with some data in it) and many other things.
 
  - You can see everything it includes in the [express docs](https://expressjs.com/en/4x/api.html#req).
@@ -55,7 +55,7 @@ const myLogger = function(req, res, next) {
   console.log("Request IP: " + req.ip);
   console.log("Request Method: " + req.method);
   console.log("Request date: " + new Date());
-  
+
   next(); // THIS IS IMPORTANT!
 }
 
@@ -79,16 +79,16 @@ As you work through this tutorial, make sure to put the `node_modules` folder in
 3. For a little more detail on the nature of middleware read the official documentation [here](http://expressjs.com/en/guide/using-middleware.html).
 </div>
 
-### Knowledge Check 
+### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='#middleware'>What is middleware?</a>
-- <a class='knowledge-check-link' href='#req'>What is the `req` object?</a>
-- <a class='knowledge-check-link' href='#res'>What is the `res` object?</a>
-- <a class='knowledge-check-link' href='#next'>Why is `next` important?</a>
-- <a class='knowledge-check-link' href='#app-use'>What does `app.use` do?</a>
+- [What is middleware?](#middleware)
+- [What is the `req` object?](#req)
+- [What is the `res` object?](#res)
+- [Why is `next` important?](#next)
+- [What does `app.use` do?](#app-use)
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 

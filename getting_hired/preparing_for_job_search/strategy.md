@@ -24,7 +24,7 @@ A fantastic place to start your "getting hired" journey is this **[very thorough
 
 Now get your head out of the clouds, stop dreaming about how you'll get hired, and actually do it!
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
