@@ -28,11 +28,11 @@ The three middleware function arguments are: `req`, `res`, and `next`. Technical
 
 #### A middleware function:
 
-~~~javascript
+```javascript
 function(req, res, next) {
   // do stuff!
 }
-~~~
+```
 
 When someone visits your site, their web-browser sends a request to your server. Express takes that request and passes it through all of the middleware functions that you have defined and used in your project.  Each function is defined with these parameters which might seem familiar to you from the plain Node tutorial that you went through in the 'Getting Started' lesson.  Technically, `req` and `res` are _almost_ the same here as they are in vanilla Node, but Express enhances them by adding a few useful properties and methods to them.
 
@@ -50,7 +50,7 @@ When someone visits your site, their web-browser sends a request to your server.
 
 As a quick example, if you wanted to create a simple logging middleware you could write a function like this:
 
-~~~javascript
+```javascript
 const myLogger = function(req, res, next) {
   console.log("Request IP: " + req.ip);
   console.log("Request Method: " + req.method);
@@ -60,7 +60,7 @@ const myLogger = function(req, res, next) {
 }
 
 app.use(myLogger)
-~~~
+```
 
 <span id='app-use'>`app.use` is how you load your middleware function into Express so that it knows to use it</span>. If you stick this bit of code in any express application near the beginning of your `app.js` (after the part where you define `app = express()`) then it will write all of those details to your console every time you get a network request. When the logging is complete we call the `next()` function so that our app can continue.
 
