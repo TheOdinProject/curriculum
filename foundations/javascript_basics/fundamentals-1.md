@@ -23,7 +23,7 @@ This section contains a general overview of topics that you will learn in this l
 
 All JavaScript we will be writing in the majority of the Foundations course will be run via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment. Outside of these lessons, for now you should always default to running your JavaScript in the browser unless otherwise specified, otherwise you may run into unexpected errors.
 
-The simplest way to get started is to simply create an HTML file with the JavaScript code inside of it.  Type the basic HTML skeleton into a file on your computer somewhere:
+The simplest way to get started is create an HTML file with the JavaScript code inside of it.  Type the basic HTML skeleton into a file on your computer somewhere:
 
 ```html
 <!DOCTYPE html>
@@ -55,7 +55,7 @@ JavaScript files have the extension `.js` similar to `.css` for stylesheets. Ext
 
 ### Variables
 
-You can think of variables as simply "storage containers" for data in your code. 
+You can think of variables as "storage containers" for data in your code. 
 
 ![Variable Box Illustration](https://cdn.statically.io/gh/TheOdinProject/curriculum/d39eaf2ca95e80705f703bb218216c10508f5047/foundations/javascript_basics/fundamentals-1/imgs/00.png)
 
