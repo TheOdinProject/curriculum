@@ -126,7 +126,7 @@ const color = "red";
 const thatObject = { name: name, age: age, color: color };
 ```
 
-However, now, if we have a variable with the same name as that of the property to which we are assigning it, then can write it once!
+However, now, if we have a variable with the same name as that of the property to which we are assigning it, then we can write it once!
 
 ```javascript
 const nowFancyObject = { name, age, color };
