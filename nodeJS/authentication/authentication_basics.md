@@ -28,9 +28,9 @@ We're going to be using another Mongo database, so before we begin log in to you
 
 To begin, let's set up a very minimal express app with a single MongoDB model for our users. Create a new directory and use `npm init` to start the package.json file then run the following to install all the dependencies we need:
 
-~~~
+```
 npm install express express-session mongoose passport passport-local ejs
-~~~
+```
 
 **Mongoose Update**: With the new 7.0.1 version of Mongoose callbacks are no longer supported when querying a database. A promise will be returned instead, meaning that you will now have to use async/await or promises to achieve the same results. If you need a refresher on async/await you can find it in the [Async And Await Lesson](https://www.theodinproject.com/lessons/node-path-javascript-async-and-await) from the JavaScript Course. As you progress through this lesson you will see a blend of using async/await with try/catch blocks as well as other functions that use callbacks, which you've seen as you've progressed through the NodeJS course. You can read more about this change [here](https://mongoosejs.com/docs/migrating_to_7.html#dropped-callback-support).
 
@@ -38,7 +38,7 @@ Next, let's create our `app.js`:
 
 **IMPORTANT NOTE**: For the moment we are saving our users with just a plain text password.  This is a _really_ bad idea for any real-world project. At the end of this lesson, you will learn how to properly secure these passwords using bcrypt. Don't skip that part.
 
-~~~javascript
+```javascript
 /////// app.js
 
 const express = require("express");
@@ -74,13 +74,13 @@ app.use(express.urlencoded({ extended: false }));
 app.get("/", (req, res) => res.render("index"));
 
 app.listen(3000, () => console.log("app listening on port 3000!"));
-~~~
+```
 
 Most of this should look familiar to you by now, except for the new imported middleware for express-session and passport. We are not actually going to be using express-session directly, it is a dependency that is used in the background by passport.js. You can take a look at what it does [here](https://github.com/expressjs/session).
 
 To keep things simple, our view engine is set up to just look in the main directory, and it's looking for a template called `index.ejs` so go ahead and create that:
 
-~~~html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,7 +91,7 @@ To keep things simple, our view engine is set up to just look in the main direct
   <h1>hello world!</h1>
 </body>
 </html>
-~~~
+```
 
 ### Creating users
 
@@ -99,7 +99,7 @@ The first thing we need is a sign up form so we can actually create users to aut
 
 Create a new template called `sign-up-form`, and a route for `/sign-up` that points to it:
 
-~~~html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -117,18 +117,18 @@ Create a new template called `sign-up-form`, and a route for `/sign-up` that poi
   </form>
 </body>
 </html>
-~~~
+```
 
-~~~javascript
+```javascript
 //// app.js
 
 app.get("/sign-up", (req, res) => res.render("sign-up-form"));
 
-~~~
+```
 
 Next, create an `app.post` for the sign up form so that we can add users to our database (remember our notes about sanitation, and using plain text to store passwords...).
 
-~~~javascript
+```javascript
 app.post("/sign-up", async (req, res, next) => {
   try {
     const user = new User({
@@ -141,7 +141,7 @@ app.post("/sign-up", async (req, res, next) => {
     return next(err);
   };
 });
-~~~
+```
 
 Let's reiterate: this is not a particularly safe way to create users in your database... BUT you should now be able to visit `/sign-up`, and submit the form. If all goes well it'll redirect you to the index and you will be able to go see your newly created user inside your database.
 
@@ -154,7 +154,7 @@ Now that we have the ability to put users in our database, let's allow them to l
 We need to add 3 functions to our app.js file, and then add an app.post for our `/log-in` path. Add them somewhere before the line that initializes passport for us: `app.use(passport.initialize())`.
 
 #### Function one : setting up the LocalStrategy
-~~~javascript
+```javascript
 passport.use(
   new LocalStrategy(async (username, password, done) => {
     try {
@@ -171,7 +171,7 @@ passport.use(
     };
   })
 );
-~~~
+```
 
 This function is what will be called when we use the `passport.authenticate()` function later.  Basically, it takes a username and password, tries to find the user in our DB, and then makes sure that the user's password matches the given password. If all of that works out (there's a user in the DB, and the passwords match) then it authenticates our user and moves on! We will not be calling this function directly, so you won't have to supply the `done` function.  This function acts a bit like a middleware and will be called for us when we ask passport to do the authentication later.
 
@@ -179,7 +179,7 @@ This function is what will be called when we use the `passport.authenticate()` f
 
 <span id='cookie'>To make sure our user is logged in, and to allow them to _stay_ logged in as they move around our app, passport will use some data to create a cookie which is stored in the user's browser</span>. These next two functions define what bit of information passport is looking for when it creates and then decodes the cookie.  The reason they require us to define these functions is so that we can make sure that whatever bit of data it's looking for actually exists in our Database! For our purposes, the functions that are listed in the passport docs will work just fine.
 
-~~~javascript
+```javascript
 passport.serializeUser((user, done) => {
   done(null, user.id);
 });
@@ -192,7 +192,7 @@ passport.deserializeUser(async (id, done) => {
     done(err);
   };
 });
-~~~
+```
 
 Again, we aren't going to be calling these functions on our own, they're used in the background by passport.
 
@@ -200,7 +200,7 @@ Again, we aren't going to be calling these functions on our own, they're used in
 
 To keep things nice and simple let's go ahead and add the login form directly to our index template. The form will look just like our sign-up form, but instead of `POST`ing to `/sign-up` we'll add an `action` to it so that it `POST`s to `/log-in` instead. Add the following to your index template:
 
-~~~html
+```html
 <h1>please log in</h1>
 <form action="/log-in" method="POST">
   <label for="username">Username</label>
@@ -209,11 +209,11 @@ To keep things nice and simple let's go ahead and add the login form directly to
   <input name="password" type="password" />
   <button>Log In</button>
 </form>
-~~~
+```
 
 ... and now for the magical part! Add this route to your app.js file:
 
-~~~javascript
+```javascript
 app.post(
   "/log-in",
   passport.authenticate("local", {
@@ -221,7 +221,7 @@ app.post(
     failureRedirect: "/"
   })
 );
-~~~
+```
 
 As you can see, all we have to do is call `passport.authenticate()`. This middleware performs numerous functions behind the scenes. Among other things, it looks at the request body for parameters named `username` and `password` then runs the `LocalStrategy` function that we defined earlier to see if the username and password are in the database. It then creates a session cookie that gets stored in the user's browser, and that we can access in all future requests to see whether or not that user is logged in.  It can also redirect you to different routes based on whether the login is a success or a failure.  If we had a separate login page we might want to go back to that if the login failed, or we might want to take the user to their user dashboard if the login is successful.  Since we're keeping everything in the index we want to go back to "/" no matter what.
 
@@ -231,15 +231,15 @@ The passport middleware checks to see if there is a user logged in (by checking 
 
 Edit your `app.get("/")` to send the user object to our view like so:
 
-~~~javascript
+```javascript
 app.get("/", (req, res) => {
   res.render("index", { user: req.user });
 });
-~~~
+```
 
 and then edit your view to make use of that object like this:
 
-~~~html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -262,13 +262,13 @@ and then edit your view to make use of that object like this:
   <%}%>
 </body>
 </html>
-~~~
+```
 
 So, this code checks to see if there is a user defined... if so it offers a welcome message, and if NOT then it shows the login form.  Neat!
 
 As one last step... let's make that log out link actually work for us. As you can see it's simply sending us to `/log-out` so all we need to do is add a route for that in our app.js.  Conveniently, the passport middleware adds a logout function to the `req` object, so logging out is as easy as this:
 
-~~~javascript
+```javascript
 app.get("/log-out", (req, res, next) => {
   req.logout((err) => {
     if (err) {
@@ -277,7 +277,7 @@ app.get("/log-out", (req, res, next) => {
     res.redirect("/");
   });
 });
-~~~
+```
 
 You should now be able to visit `/sign-up` to create a new user, then log-in using that user's username and password, and then log out by clicking the log out button!
 
@@ -287,12 +287,12 @@ In express, you can set and access various local variables throughout your entir
 
 Middleware functions are simply functions that take the `req` and `res` objects, manipulate them, and pass them on through the rest of the app.
 
-~~~javascript
+```javascript
 app.use((req, res, next) => {
   res.locals.currentUser = req.user;
   next();
 });
-~~~
+```
 
 If you insert this code somewhere between where you instantiate the passport middleware and before you render your views, you will have access to the `currentUser` variable in all of your views, and you won't have to manually pass it into all of the controllers in which you need it.
 
@@ -310,12 +310,12 @@ Password hashes are the result of passing the user's password through a one-way 
 
 Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:
 
-~~~javascript
+```javascript
 bcrypt.hash(req.body.password, 10, async (err, hashedPassword) => {
   // if err, do something
   // otherwise, store hashedPassword in DB
 });
-~~~
+```
 
 The second argument is the length of the "salt" to use in the hashing function; salting a password means adding extra random characters to it, the password plus the extra random characters are then fed into the hashing function. Salting is used to make a password hash output unique, even for users who use the same password, and to protect against [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table) and [dictionary](https://en.wikipedia.org/wiki/Dictionary_attack) attacks.
 
@@ -331,13 +331,13 @@ It's important to note that _how_ hashing works is beyond the scope of this less
 
 Inside your `LocalStrategy` function we need to replace the `user.password !== password` expression with the `bcrypt.compare()` function.
 
-~~~javascript
+```javascript
 const match = await bcrypt.compare(password, user.password);
 if (!match) {
   // passwords do not match!
   return done(null, false, { message: "Incorrect password" })
 }
-~~~
+```
 
 You should now be able to log in using the new user you've created (the one with a hashed password).  <span id='bcrypt'>Unfortunately, users that were saved BEFORE you added bcrypt will no longer work, but that's a small price to pay for security</span>! (and a good reason to include bcrypt from the start on your next project)
 
