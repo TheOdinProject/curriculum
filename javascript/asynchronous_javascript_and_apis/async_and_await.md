@@ -95,11 +95,11 @@ server.getPeople().then(async people => {
 
 ### The await keyword
 
-`await` is pretty simple: it tells JavaScript to wait for an asynchronous action to finish before continuing the function. It's like a 'pause until done' keyword. The `await` keyword is used to get a value from a function where you would normally use `.then()`. Instead of calling `.then()` after the asynchronous function, you would simply assign a variable to the result using `await`. Then you can use the result in your code as you would in your synchronous code.
+`await` does the following: it tells JavaScript to wait for an asynchronous action to finish before continuing the function. It's like a 'pause until done' keyword. The `await` keyword is used to get a value from a function where you would normally use `.then()`. Instead of calling `.then()` after the asynchronous function, you would assign a variable to the result using `await`. Then you can use the result in your code as you would in your synchronous code.
 
 ### Error handling
 
-Handling errors in `async` functions is very easy. Promises have the `.catch()` method for handling rejected promises, and since async functions just return a promise, you can simply call the function, and append a `.catch()` method to the end.
+Handling errors in `async` functions is very easy. Promises have the `.catch()` method for handling rejected promises, and since async functions just return a promise, you can call the function, and append a `.catch()` method to the end.
 
 ```javascript
 asyncFunctionCall().catch(err => {
@@ -187,7 +187,7 @@ Since `response` is still the same object we have passed to the `.then()` block 
 </script>
 ```
 
-To use this function, we just simply need to call it with `getCats()` in our code.
+To use this function, we just need to call it with `getCats()` in our code.
 
 ```javascript
 <script>
