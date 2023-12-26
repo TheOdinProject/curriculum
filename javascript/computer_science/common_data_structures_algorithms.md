@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - What is a data structure?
 - What are stacks and queues?
-- What's the best way to implement stacks and queues in Javascript (hint: think simple)?
+- What's the best way to implement stacks and queues in JavaScript?
 - Why bother having many different search algorithms?
 - What are breadth-first-search (BFS) and depth-first-search (DFS)?
 - What situations would you want to use BFS?
