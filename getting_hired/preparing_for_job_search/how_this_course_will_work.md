@@ -9,7 +9,7 @@ This course will lay out a structured path to follow which should help you avoid
 
 ### Format
 
-This course is structured a bit differently than the others because it's much more about you getting out there than it is about learning a specific skill or building a specific project.  There are a couple projects which you'll be asked to do but most of the structure here exists simply to scaffold your job search process.
+This course is structured a bit differently than the others because it's much more about you getting out there than it is about learning a specific skill or building a specific project.  There are a couple projects which you'll be asked to do but most of the structure here exists to scaffold your job search process.
 
 ### In each lesson:
 
