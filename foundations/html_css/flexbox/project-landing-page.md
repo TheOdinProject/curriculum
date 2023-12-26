@@ -37,7 +37,7 @@ We know it may be tempting to look at the solutions when you get stuck or don't 
 
 Once you have completed your project, feel free to look at the other solutions to see alternative ways the project was completed.
 
-**DO NOT PEEK. Come ask for help in our Discord server!**
+**DO NOT PEEK. Come ask for help in our [Discord server!](https://discord.com/channels/505093832157691914/516751477306294273) (You need to [join the Discord server](https://discord.gg/fbFCkYabZB) first in order to see the channel).**
 
 ### Assignment
 
