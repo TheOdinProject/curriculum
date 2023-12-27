@@ -1,14 +1,16 @@
 ### Introduction
+
 In the last lesson, we set the stage by explaining quite a bit of the background information you'll need to really understand what's going on as we start to dive into Express. This lesson will actually start you on the project that you'll be completing as you follow the tutorial.
 
 ### Learning outcomes
+
 By the end of this lesson, you should be able to do the following:
 
- - Use `express-generator` to generate a basic express site.
- - Understand the basic parts of an express project.
- - Understand what a Templating Language is and be able to list a couple of popular ones.
- - Understand what Middleware is.
- - Understand `req`, `res` and `next` in the context of middleware.
+- Use `express-generator` to generate a basic express site.
+- Understand the basic parts of an express project.
+- Understand what a Templating Language is and be able to list a couple of popular ones.
+- Understand what Middleware is.
+- Understand `req`, `res` and `next` in the context of middleware.
 
 ### Templating engines
 
@@ -28,21 +30,21 @@ The three middleware function arguments are: `req`, `res`, and `next`. Technical
 
 #### A middleware function:
 
-~~~javascript
+```javascript
 function(req, res, next) {
   // do stuff!
 }
-~~~
+```
 
 When someone visits your site, their web-browser sends a request to your server. Express takes that request and passes it through all of the middleware functions that you have defined and used in your project.  Each function is defined with these parameters which might seem familiar to you from the plain Node tutorial that you went through in the 'Getting Started' lesson.  Technically, `req` and `res` are _almost_ the same here as they are in vanilla Node, but Express enhances them by adding a few useful properties and methods to them.
 
  <span id='req'>`req`</span> or `request` is an object that has data about the incoming request such as the exact URL that was visited, any parameters in the URL, the `body` of the request (useful if the user is submitting a form with some data in it) and many other things.
 
- - You can see everything it includes in the [express docs](https://expressjs.com/en/4x/api.html#req).
+- You can see everything it includes in the [express docs](https://expressjs.com/en/4x/api.html#req).
 
  <span id='res'>`res`</span> or `response` is an object that represents the response that Express is going to send back to the user. Typically, you use the information in the `req` to determine what you're going to do with the `res` by calling `res.send()` or another method on the object.
 
- - Check out the documentation for the response object [here!](https://expressjs.com/en/4x/api.html#res)
+- Check out the documentation for the response object [here!](https://expressjs.com/en/4x/api.html#res)
 
 <span id='next'>`next`</span> is a function that you see a little less often, but is _very_ important to the functioning of your app. If you are writing or using some middleware that does not send a response back to the user's client then you _must_ call the `next` function at the end of your middleware function.  The next function simply tells express to move to the next middleware in the stack, but if you forget to call it then your app will pause and nothing will happen!
 
@@ -50,7 +52,7 @@ When someone visits your site, their web-browser sends a request to your server.
 
 As a quick example, if you wanted to create a simple logging middleware you could write a function like this:
 
-~~~javascript
+```javascript
 const myLogger = function(req, res, next) {
   console.log("Request IP: " + req.ip);
   console.log("Request Method: " + req.method);
@@ -60,7 +62,7 @@ const myLogger = function(req, res, next) {
 }
 
 app.use(myLogger)
-~~~
+```
 
 <span id='app-use'>`app.use` is how you load your middleware function into Express so that it knows to use it</span>. If you stick this bit of code in any express application near the beginning of your `app.js` (after the part where you define `app = express()`) then it will write all of those details to your console every time you get a network request. When the logging is complete we call the `next()` function so that our app can continue.
 
@@ -74,12 +76,14 @@ As you work through this tutorial, make sure to put the `node_modules` folder in
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read this [intro article](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website) on MDN.
+1. Read the [intro article of the MDN Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website) on MDN.
 2. Begin the project by following [this lesson](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website).  Be sure to read everything carefully! There's quite a bit of important information in this article. You only have to do part 2 for now. We will continue where we leave off later.
 3. For a little more detail on the nature of middleware read the official documentation [here](http://expressjs.com/en/guide/using-middleware.html).
+
 </div>
 
 ### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [What is middleware?](#middleware)
@@ -92,4 +96,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
--   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

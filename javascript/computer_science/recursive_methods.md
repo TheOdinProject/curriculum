@@ -1,6 +1,6 @@
 ### Introduction
 
-Recursion is the idea that a function calls itself.  Pretty simple, right?  It's used to take a big problem and start breaking it down into smaller and smaller pieces ("Divide and Conquer") and continuing to feed their solutions back into the original function until some sort of answer is achieved and the whole chain unwinds.  
+Recursion is the idea that a function calls itself. That is all there is to it. It's used to take a big problem and start breaking it down into smaller and smaller pieces ("Divide and Conquer") and continuing to feed their solutions back into the original function until some sort of answer is achieved and the whole chain unwinds.
 
 From the [Wikipedia entry on Divide and Conquer Algorithms](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm):
 
@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 -  Why is recursion a useful technique for solving a big problem?
 -  What are the limitations of using recursive solutions?
--  What types of problems are more suited for simple loops than recursion?
+-  What types of problems are more suited for loops than recursion?
 -  What is meant by "recursive depth"?
 -  What is a "stack overflow" (the concept, not the website)?
 -  Why is that relevant to a recursive problem?

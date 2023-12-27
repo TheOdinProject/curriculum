@@ -22,7 +22,7 @@ Before we can install Ruby, we need to install some base packages.
 
 We'll use the terminal to install all of the programs.
 
-If you're using Ubuntu or Xubuntu, simply press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> to open the terminal. (This may work in other Linux distributions; you'll have to try!)
+If you're using Ubuntu or Xubuntu, press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> to open the terminal. (This may work in other Linux distributions; you'll have to try!)
 
 **Quick tip:** In Linux, you can copy from the terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> and paste with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>.
 
