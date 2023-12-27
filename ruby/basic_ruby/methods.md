@@ -63,7 +63,7 @@ Let's break this example down:
  * `my_name` is the name of your new method. You can name your methods almost anything you want, but there are some constraints and conventions, which are described in the next section.
  * `"Joe Smith"` is the code inside the method body. All of the logic for your method is contained in the indented lines of the method body. This particular method returns a string when the method is called.
  * `end` is a built-in keyword that tells Ruby that this is the end of the method definition.
- * <span id="calling-a-method">To call the method, you simply need to use its name, as shown in the last line of the example.</span>
+ * <span id="calling-a-method">To call the method, you need to use its name, as shown in the last line of the example.</span>
 
 ### Method names
 
@@ -101,7 +101,7 @@ If your method does so many things that you feel it requires a very long name, t
 
 ### Parameters and arguments
 
-Of course, not all methods are as simplistic as the `my_name` example method above. After all, what good are methods if you can't interact with them? When you want to return something other than a fixed result, you need to give your methods parameters. **Parameters** are variables that your method will receive when it is called. You can have more meaningful and useful interactions with your methods by using parameters to make them more versatile.
+Of course, not all methods are as basic as the `my_name` example method above. After all, what good are methods if you can't interact with them? When you want to return something other than a fixed result, you need to give your methods parameters. **Parameters** are variables that your method will receive when it is called. You can have more meaningful and useful interactions with your methods by using parameters to make them more versatile.
 
 ~~~ruby
 def greet(name)
@@ -117,7 +117,7 @@ If you're wondering what the differences are between an argument and a parameter
 
 #### Default parameters
 
-What if you don't always want to provide arguments for each parameter that your method accepts? That's where default parameters can be useful. Going back to our simple example above, what happens if we don't know the person's name? We can change our `greet` method to use a default `name` of "stranger":
+What if you don't always want to provide arguments for each parameter that your method accepts? That's where default parameters can be useful. Going back to our example above, what happens if we don't know the person's name? We can change our `greet` method to use a default `name` of "stranger":
 
 ~~~ruby
 def greet(name = "stranger")

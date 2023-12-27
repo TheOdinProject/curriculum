@@ -1,6 +1,6 @@
 ### Introduction
 
-Not to be confused with Fruit Loops, the addictive cereal that causes symptoms similar to ADHD in kids, loops in Ruby are simply blocks of code that are continually repeated until a certain condition is met.
+Not to be confused with Fruit Loops, the addictive cereal that causes symptoms similar to ADHD in kids, loops in Ruby are blocks of code that are continually repeated until a certain condition is met.
 
 Like me, you've probably experienced real-life loops when you were given detention in school and forced to repeatedly write the same line about not drawing small phallic shapes on your desk. Writing the same thing over and over and over is not only boring but also potentially error prone. You might have made a spelling mistake on one line and forgotten to dot an "i" on another line. It's the same with programming: the less code you have to write, the less chance you have of introducing bugs that can cause your program to crash and burn.
 

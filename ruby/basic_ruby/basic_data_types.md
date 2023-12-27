@@ -65,7 +65,7 @@ Ruby makes it very easy to convert floats to integers and vice versa.
 13.9.to_i #=> 13
 ~~~
 
-As shown in the last example above, when Ruby converts a float to an integer, the decimal places are simply cut off. Ruby doesn't do any rounding in this conversion.
+As shown in the last example above, when Ruby converts a float to an integer, the decimal places are cut off. Ruby doesn't do any rounding in this conversion.
 
 #### Some useful number methods
 There are many useful methods for numbers built into Ruby. For example,
@@ -259,7 +259,7 @@ One common application where symbols are preferred over strings are the keys in 
 You won't need to use symbols much in the beginning, but it's good to get familiar with what they are and what they look like so that you can recognize them.
 
 #### Create a symbol
-To create a symbol, simply put a colon at the beginning of some text:
+To create a symbol, put a colon at the beginning of some text:
 
 ~~~ruby
 :my_symbol

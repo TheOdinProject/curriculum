@@ -36,7 +36,7 @@ teacher_mailboxes = [
 ~~~
 
 ### Accessing elements
-You already know that every element in an array has an index. Accessing a specific element within a nested array is as simple as calling `array[x][y]`, where `x` is the index of the nested element and `y` is the index inside of the nested element.
+You already know that every element in an array has an index. Accessing a specific element within a nested array is done by calling `array[x][y]`, where `x` is the index of the nested element and `y` is the index inside of the nested element.
 
 ~~~ruby
 teacher_mailboxes[0][0]
@@ -222,7 +222,7 @@ vehicles = {
 ~~~
 
 ### Accessing data
-Accessing a specific element in a nested hash is very similar to a nested array. It is as simple as calling `hash[:x][:y]`, where `:x` is the key of the hash and `:y` is the key of the nested hash.
+Accessing a specific element in a nested hash is very similar to a nested array. It is done by calling `hash[:x][:y]`, where `:x` is the key of the hash and `:y` is the key of the nested hash.
 
 ~~~ruby
 vehicles[:alice][:year]
