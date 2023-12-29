@@ -25,7 +25,7 @@ By the end of this lesson, you should be able to do the following:
 
 ### Ruby's built-in methods
 
-One of Ruby's great advantages for new programmers is its large number of built-in methods. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. For example, the [`#times`](https://ruby-doc.org/core-3.1.2/Integer.html#method-i-times) and [`#upto`](https://ruby-doc.org/core-3.1.2/Integer.html#method-i-upto) loops that you learned about in the Loops lesson are both methods that are included as part of Ruby's [`Integer`](https://ruby-doc.org/core-3.1.2/Integer.html) class.
+One of Ruby's great advantages for new programmers is its large number of built-in methods. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. For example, the [`#times`](https://docs.ruby-lang.org/en/3.2/Integer.html#method-i-times) and [`#upto`](https://docs.ruby-lang.org/en/3.2/Integer.html#method-i-upto) loops that you learned about in the Loops lesson are both methods that are included as part of Ruby's [`Integer`](https://docs.ruby-lang.org/en/3.2/Integer.html) class.
 
 If you're wondering about all of the pound signs (`#`), they're just [the convention](https://stackoverflow.com/questions/736120/why-are-methods-in-ruby-documentation-preceded-by-a-hash-sign) for writing out Ruby instance methods. We can use them to write out the full name of an instance method, e.g., `Integer#upto`, or just the method name, e.g., `#upto`, depending on the context. Note that in the development world, you shouldn't call these ["hashtags"](https://help.x.com/en/using-twitter/how-to-use-hashtags). If you want to be super awesome, though, you can call them ["octothorpes"](https://en.wiktionary.org/wiki/octothorpe). That word is totally trending.
 
@@ -35,9 +35,9 @@ Methods are typically called by adding `.method_name` after an instance of the o
 "anything".reverse
 ~~~
 
-In this case, [`#reverse`](https://ruby-doc.org/core-3.1.2/String.html#method-i-reverse) is a built-in method for [String](https://ruby-doc.org/core-3.1.2/String.html) objects.
+In this case, [`#reverse`](https://docs.ruby-lang.org/en/3.2/String.html#method-i-reverse) is a built-in method for [String](https://docs.ruby-lang.org/en/3.2/String.html) objects.
 
-However, there are also some built-in methods that Ruby makes globally accessible, such as `print` and `puts`. These methods are called with just their name and any arguments. (If you're super curious, these methods are made globally available by the [Kernel module](https://ruby-doc.org/core-3.1.2/Kernel.html) through the [Object class](https://ruby-doc.org/core-3.1.2/Object.html), but that's far more than you need to know right now.)
+However, there are also some built-in methods that Ruby makes globally accessible, such as `print` and `puts`. These methods are called with just their name and any arguments. (If you're super curious, these methods are made globally available by the [Kernel module](https://docs.ruby-lang.org/en/3.2/Kernel.html) through the [Object class](https://docs.ruby-lang.org/en/3.2/Object.html), but that's far more than you need to know right now.)
 
 ~~~ruby
 puts "anything" #=> anything
@@ -63,7 +63,7 @@ Let's break this example down:
  * `my_name` is the name of your new method. You can name your methods almost anything you want, but there are some constraints and conventions, which are described in the next section.
  * `"Joe Smith"` is the code inside the method body. All of the logic for your method is contained in the indented lines of the method body. This particular method returns a string when the method is called.
  * `end` is a built-in keyword that tells Ruby that this is the end of the method definition.
- * <span id="calling-a-method">To call the method, you simply need to use its name, as shown in the last line of the example.</span>
+ * <span id="calling-a-method">To call the method, you need to use its name, as shown in the last line of the example.</span>
 
 ### Method names
 
@@ -101,7 +101,7 @@ If your method does so many things that you feel it requires a very long name, t
 
 ### Parameters and arguments
 
-Of course, not all methods are as simplistic as the `my_name` example method above. After all, what good are methods if you can't interact with them? When you want to return something other than a fixed result, you need to give your methods parameters. **Parameters** are variables that your method will receive when it is called. You can have more meaningful and useful interactions with your methods by using parameters to make them more versatile.
+Of course, not all methods are as basic as the `my_name` example method above. After all, what good are methods if you can't interact with them? When you want to return something other than a fixed result, you need to give your methods parameters. **Parameters** are variables that your method will receive when it is called. You can have more meaningful and useful interactions with your methods by using parameters to make them more versatile.
 
 ~~~ruby
 def greet(name)
@@ -117,7 +117,7 @@ If you're wondering what the differences are between an argument and a parameter
 
 #### Default parameters
 
-What if you don't always want to provide arguments for each parameter that your method accepts? That's where default parameters can be useful. Going back to our simple example above, what happens if we don't know the person's name? We can change our `greet` method to use a default `name` of "stranger":
+What if you don't always want to provide arguments for each parameter that your method accepts? That's where default parameters can be useful. Going back to our example above, what happens if we don't know the person's name? We can change our `greet` method to use a default `name` of "stranger":
 
 ~~~ruby
 def greet(name = "stranger")

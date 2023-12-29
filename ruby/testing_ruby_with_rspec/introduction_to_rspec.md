@@ -100,7 +100,7 @@ end
   expect(calculator.add(5, 2)).to eql(7)
 ~~~
 
-Simple, isn't it? One more time, from the top:
+That's basically it. One more time, from the top:
 
 1. `describe` the class
 2. `describe` the method example group. Conventionally, the string argument for instance methods are written as "#method", while string arguments for class methods are written as ".method".

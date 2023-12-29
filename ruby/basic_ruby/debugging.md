@@ -22,9 +22,9 @@ The stack trace prints each line of code in your program that was executed befor
 
 ![First line of stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/01.png)
 
-<span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 31 of the file `bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://ruby-doc.org/core-3.1.2/NameError.html)). And yes, in Ruby, [errors](https://ruby-doc.org/core-3.1.2/Exception.html) are *also* objects.</span>
+<span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 31 of the file `bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://docs.ruby-lang.org/en/3.2/NameError.html)). And yes, in Ruby, [errors](https://docs.ruby-lang.org/en/3.2/Exception.html) are *also* objects.</span>
 
-There you have it. The stack trace really is that simple. At this point, you know where in your code the exception is being raised, and you know the type of error you're dealing with. You might even know what fixes need to be implemented in your code.
+There you have it. At this point, you know where in your code the exception is being raised, and you know the type of error you're dealing with. You might even know what fixes need to be implemented in your code.
 
 But what if you don't know how to fix your code? Then it's time to dive into debugging!
 
@@ -33,7 +33,7 @@ The debugging process is all about confirming assumptions about your code until 
 
 The easiest and quickest way to confirm your assumptions while debugging is by using `puts` statements to output the return value of variables, methods, calculations, iterations, or even entire lines of code to your terminal.
 
-Let's say that for *whatever* reason, we need to write a method that takes a string and checks if the string is an **isogram** (a word that has no repeating letters) or not. Perhaps it's a hostage situation that requires a pro debugger? Let's take a look at a (simple) first draft:
+Let's say that for *whatever* reason, we need to write a method that takes a string and checks if the string is an **isogram** (a word that has no repeating letters) or not. Perhaps it's a hostage situation that requires a pro debugger? Let's take a look at a first draft:
 
 ~~~ruby
 def isogram?(string)
@@ -90,14 +90,14 @@ irb(main):013:0> isogram?("Odin")
 => false
 ~~~
 
-Indeed, we didn't use `#split` correctly, as this particular creates an array with the given string rather than creating an array of characters of the given string. Why? By default, if we didn't provide arguments, [#split](https://ruby-doc.org/core-3.1.2/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference.
+Indeed, we didn't use `#split` correctly, as this particular creates an array with the given string rather than creating an array of characters of the given string. Why? By default, if we didn't provide arguments, [#split](https://docs.ruby-lang.org/en/3.2/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference.
 
 Hostage situation resolved! That wasn't so bad, was it?
 
 #### Debugging with `puts` and `nil`
 Using `puts` is a great way to debug, but there's a **HUGE** caveat with using it: calling `puts` on anything that is `nil` or an empty string or collection will just print a blank line to your terminal.
 
-This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of `puts` and [#inspect](https://ruby-doc.org/core-3.1.2/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:
+This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of `puts` and [#inspect](https://docs.ruby-lang.org/en/3.2/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:
 
 ~~~ruby
 puts "Using puts:"

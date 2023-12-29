@@ -3,7 +3,7 @@ In previous lessons, you learned about loops as well as arrays and hashes. You w
 
 **Enumerables** are a set of convenient built-in methods in Ruby that are included as part of both arrays and hashes. There are some iteration patterns that you'll find yourself doing again and again, such as transforming, searching for, and selecting subsets of elements in your collections. Enumerables were designed to make implementing these iteration patterns (and therefore your life as a developer) much, much easier.
 
-We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://ruby-doc.org/core-3.1.2/) to see what else the [Enumerable module](https://ruby-doc.org/core-3.1.2/Enumerable.html) offers.
+We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://docs.ruby-lang.org/en/3.2/) to see what else the [Enumerable module](https://docs.ruby-lang.org/en/3.2/Enumerable.html) offers.
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
@@ -191,7 +191,7 @@ friends.map { |friend| friend.upcase }
 
 We're back down to two lines of code, baby! Isn't it beautiful?
 
-Maybe now you're getting hungry from all this intense learning and you want to change your McDonald's order from medium to extra large. With `#map` and [`#gsub`](https://ruby-doc.org/core-3.1.2/String.html#method-i-gsub), that's easy peasy:
+Maybe now you're getting hungry from all this intense learning and you want to change your McDonald's order from medium to extra large. With `#map` and [`#gsub`](https://docs.ruby-lang.org/en/3.2/String.html#method-i-gsub), that's easy peasy:
 
 ~~~ruby
 my_order = ['medium Big Mac', 'medium fries', 'medium milkshake']
@@ -253,7 +253,7 @@ responses.select { |person, response| response == 'yes'}
 Looks like only Sharon and Arun can go. You're going to need more people for a good party. Sounds like it's time for you to reluctantly call Brian, who you know will bring a batch of his awful home-brewed IPA. Maybe his last batch has gotten better?
 
 ### The reduce method
-The `#reduce` method (also called `#inject`) is possibly the most difficult-to-grasp enumerable for new coders. The idea is simple enough, though: it reduces an array or hash down to a single object. You should use `#reduce` when you want to get an output of a single value.
+The `#reduce` method (also called `#inject`) is possibly the most difficult-to-grasp enumerable for new coders. The general idea is that it takes an array or hash and reduces it down to a single object. You should use `#reduce` when you want to get an output of a single value.
 
 A classic example of when `#reduce` is useful is obtaining the sum of an array of numbers. First, let's explore how we would achieve this using `#each`:
 
@@ -428,7 +428,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 * The Bastards Book of Ruby has a good section on [Enumerables](http://ruby.bastardsbook.com/chapters/enumerables/).
 * This tutorial on [codementor](https://www.codementor.io/ruby-on-rails/tutorial/rubys-swiss-army-knife-the-enumerable-module) is another good discussion of the versatility of enumerable methods.
-* There are many more enumerable methods than are covered in this lesson (e.g., `#reject`, `#drop`, `#uniq`). For a full listing, you can check out the [Ruby Docs](https://ruby-doc.org/core-3.1.2/Enumerable.html).
+* There are many more enumerable methods than are covered in this lesson (e.g., `#reject`, `#drop`, `#uniq`). For a full listing, you can check out the [Ruby Docs](https://docs.ruby-lang.org/en/3.2/Enumerable.html).
 
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.

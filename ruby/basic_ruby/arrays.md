@@ -22,7 +22,7 @@ str_array = ["This", "is", "a", "small", "array"]
 
 Both arrays have five elements separated by commas. The first array contains integers, while the second array contains strings. 
 
-Arrays are commonly created with an **array literal**, which is simply a special syntax used to create instances of an array object. To create a new array using an array literal, use square brackets (`[]`).
+Arrays are commonly created with an **array literal**, which is a special syntax used to create instances of an array object. To create a new array using an array literal, use square brackets (`[]`).
 
 An array can also be created by calling the `Array.new` method. When you call this method, you can also include up to 2 optional arguments (initial size and default value):
 
@@ -34,7 +34,7 @@ Array.new(3, true)      #=> [true, true, true]
 ~~~
 
 ### Accessing elements
-Every element in an array has an **index**, which is a numerical representation of the element's position in the array. Like most other programming languages, Ruby arrays use **zero-based indexing**, which means that the index of the first element is 0, the index of the second element is 1, and so on. Accessing a specific element within an array is as simple as calling `myArray[x]`, where `x` is the index of the element you want. Calling an invalid position will result in `nil`. Ruby also allows the use of negative indices, which return elements starting from the *end* of an array, starting at [-1].
+Every element in an array has an **index**, which is a numerical representation of the element's position in the array. Like most other programming languages, Ruby arrays use **zero-based indexing**, which means that the index of the first element is 0, the index of the second element is 1, and so on. Accessing a specific element within an array is done by calling `myArray[x]`, where `x` is the index of the element you want. Calling an invalid position will result in `nil`. Ruby also allows the use of negative indices, which return elements starting from the *end* of an array, starting at [-1].
 
 ~~~ruby
 str_array = ["This", "is", "a", "small", "array"]
@@ -57,7 +57,7 @@ str_array.last(2)       #=> ["small", "array"]
 ~~~
 
 ### Adding and removing elements
-Adding an element to an existing array is as simple as using the `#push` method or the shovel operator `<<`. Both methods will add elements to the end of an array and return that array with the new elements. The `#pop` method will remove the element at the end of an array and return the element that was removed.
+Adding an element to an existing array is done by using the `#push` method or the shovel operator `<<`. Both methods will add elements to the end of an array and return that array with the new elements. The `#pop` method will remove the element at the end of an array and return the element that was removed.
 
 ~~~ruby
 num_array = [1, 2]
@@ -108,7 +108,7 @@ To find the difference between two arrays, you can subtract them using `-`. This
 ~~~
 
 ### Basic methods
-Ruby gives you many methods to manipulate arrays and their contents (over 150!), many of which are beyond the scope of this lesson. For the full documentation, go to [http://ruby-doc.org/](http://ruby-doc.org/), click on the "Current" tab in the top left corner, scroll down to the "Class and Module Index" section on the left sidebar, and click on "Array". There, you'll find the most up-to-date documentation on the various methods available to Ruby arrays along with explanations.
+Ruby gives you many methods to manipulate arrays and their contents (over 150!), many of which are beyond the scope of this lesson. To learn about other methods, go to the official documentation ([docs.ruby-lang.org](https://docs.ruby-lang.org/en/3.2/)) and browse the [Array](https://docs.ruby-lang.org/en/3.2/Array.html) page, where you can find methods listed alphabetically (by scrolling the left sidebar) or summarized and grouped by purpose (by reading under "[What's Here](https://docs.ruby-lang.org/en/3.2/Array.html#class-Array-label-What-27s+Here)").
 
 Calling the `#methods` method on an array will also yield a long list of the available methods.
 
@@ -139,14 +139,14 @@ Here is a brief look at some other common array methods you might run into:
 
 1. Read Launch School's chapter on [Arrays](https://launchschool.com/books/ruby/read/arrays), following along with the exercises using irb or any other REPL, such as [replit.com](https://replit.com/languages/ruby).
 2. Read [The Definitive Guide to Ruby Arrays](https://www.rubyguides.com/2015/05/ruby-arrays/) by Jesus Castello.
-3. Complete the [array](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned. 
-4. Let's get some practice reading documentation. You'll feel just like a real programmer! What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look these methods up in the [Array class documentation](https://ruby-doc.org/core/Array.html). Were you close?
+3. Complete the [array](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
+4. Let's get some practice reading documentation. You'll feel just like a real programmer! What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look these methods up in the [Array class documentation](https://docs.ruby-lang.org/en/3.2/Array.html). Were you close?
 </div>
 
 ### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* Look over the latest [Ruby API documentation](http://ruby-doc.org/) on arrays by clicking on the "Current" tab in the top left corner, scrolling down to the "Class and Module Index" section on the left sidebar, and clicking on "Array". There, you'll find the most up-to-date documentation on the various methods available to the Array object along with explanations and examples.
+* Read the official documentation on [class Array](https://docs.ruby-lang.org/en/3.2/Array.html).
 * If you need a different take on arrays, read through this article by [zetcode](http://zetcode.com/lang/rubytutorial/arrays/).
 * Arrays also allow for **set operations**, which you can read about [here](https://www.endpointdev.com/blog/2011/06/using-set-operators-with-ruby-arrays/). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!
 

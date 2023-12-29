@@ -1,5 +1,5 @@
 ### Introduction
-Let's use what we've learned and take a chance to continue practicing DOM manipulation by dynamically rendering a simple restaurant homepage! By the end, we are going to be using JavaScript alone to generate the entire contents of the website!
+Let's use what we've learned and take a chance to continue practicing DOM manipulation by dynamically rendering a restaurant homepage! By the end, we are going to be using JavaScript alone to generate the entire contents of the website!
 
 **Note: DOM elements should be created using JavaScript but styling can be done in a separate CSS file.**
 
@@ -23,7 +23,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
    
 1. Set up an HTML skeleton inside of `dist/index.html` with single `<div id="content">`.
 
-1. Inside of `src/index.js` write a simple console.log or alert statement and then run `npx webpack`. Load up `dist/index.html` in a browser to make sure everything is working correctly.
+1. Inside of `src/index.js` write a console.log or alert statement and then run `npx webpack`. Load up `dist/index.html` in a browser to make sure everything is working correctly.
 
     - Quick tip #2: if you run `npx webpack --watch` you will not have to rerun webpack every time you make a change.
    
@@ -40,13 +40,13 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
    
 1. If you are using GitHub pages to host your completed page you need to do a tiny bit more work to get it to show up. After running `webpack` the full bundled version of your site is available in the `dist` folder, but GH pages is looking for an index.html in the root directory of your project.
 
-    1. Simply follow the instructions on [this gist](https://gist.github.com/cobyism/4730490). EZPZ!
+    1. Follow the instructions on [this gist](https://gist.github.com/cobyism/4730490). EZPZ!
         - To prevent having to copy and paste the same lengthy git command each time, you can instead create an npm script to do the work for you!
             - Inside your project's `package.json` file, within the `scripts` section, add an additional entry named something of your choosing and paste in the command from the above gist surrounded by quotation marks. Follow the formatting of the already added `test` script.
             - For Example: <br>`  "scripts": {
     "YourScriptName": "git subtree push --prefix dist origin gh-pages"
   }`
-            - Now each  time you need to update your project's live preview, you can simply `npm run <YourScriptName>` in your project's terminal.
+            - Now each  time you need to update your project's live preview, you `npm run <YourScriptName>` in your project's terminal.
             - To learn more about this, here's a short tutorial video on [Node Package Manager Scripts](https://www.youtube.com/watch?v=REdzp64dijs).
     1. Recall that the __source branch__ for GitHub Pages is set in your repository's settings.
 </div>

@@ -1,6 +1,6 @@
 ### Introduction
 
-Remember Tic Tac Toe? See [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) if you can't remember the rules, or if you haven't ever played.  It involves a couple of players, a simple board, checking for victory in a game loop... all the conditions that make it a fun little problem to solve using our newfound OOP sea legs.  Let's build it!
+Remember Tic Tac Toe? See [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) if you can't remember the rules, or if you haven't ever played. It involves a couple of players, a board, checking for victory in a game loop... all the conditions that make it a fun little problem to solve using our newfound OOP sea legs. Let's build it!
 
 ### Assignment
 

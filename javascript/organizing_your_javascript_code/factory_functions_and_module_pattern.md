@@ -1,6 +1,6 @@
 ### Why not constructors?
 
-We have discussed object constructors in the previous lesson. However, they are simply one of the many ways to organize your code. While they are fairly common and a fundamental building block of the JavaScript language, they have their flaws.
+We have discussed object constructors in the previous lesson. However, they are one of the many ways to organize your code. While they are fairly common and a fundamental building block of the JavaScript language, they have their flaws.
 
 ### Lesson overview
 
@@ -94,7 +94,7 @@ While still seen in code, these problems led to the use of a pattern that was si
 
 ### Factory functions 🏭
 
-These fancy-sounding functions work very similar to how constructors did, but with one key difference - they levy the power of closures. Instead of using the `new` keyword to create an object, factory functions simply set up and return the new object when you call the function. They do not use the prototype, which incurs a performance penalty - but as a general rule, this penalty isn’t significant unless you’re creating thousands of objects. Let's take a basic example to compare them to constructor functions.
+These fancy-sounding functions work very similar to how constructors did, but with one key difference - they levy the power of closures. Instead of using the `new` keyword to create an object, factory functions set up and return the new object when you call the function. They do not use the prototype, which incurs a performance penalty - but as a general rule, this penalty isn’t significant unless you’re creating thousands of objects. Let's take a basic example to compare them to constructor functions.
 
 ```javascript
 const User = function (name) {
@@ -126,7 +126,7 @@ const color = "red";
 const thatObject = { name: name, age: age, color: color };
 ```
 
-However, now, if we have a variable with the same name as that of the property to which we are assigning it, we can simply write it once!
+However, now, if we have a variable with the same name as that of the property to which we are assigning it, then we can write it once!
 
 ```javascript
 const nowFancyObject = { name, age, color };
@@ -170,7 +170,7 @@ const [ zerothEle, firstEle ] = array;
 
 ### Private variables and functions
 
-Now you may be thinking - where does closure come into all of this? Factories seem to simply be returning an object. This is where we can extend our `User` factory to add a few more variables and introduce "private" ones. Take a look at this, now:
+Now you may be thinking - where does closure come into all of this? Factories seem to be returning an object. This is where we can extend our `User` factory to add a few more variables and introduce "private" ones. Take a look at this, now:
 
 ```javascript
 function createUser (name) {
@@ -198,7 +198,7 @@ We’ve introduced a new metric for a new user - a reputation. Notice that the o
 
 Concerning factory functions, a private variable or function uses closures to create smaller, dedicated variables and functions within a factory function itself - things that we do not *need* to return in the object itself. This way we can create neater code, without polluting the returned object with unnecessary variables that we create while creating the object itself. Often, you do not need every single function within a factory to be returned with the object, or expose an internal variable. You can use them privately since the property of closures allows you to do so.
 
-In this case, we did not need control of the `reputation` variable itself. To avoid foot guns, like accidentally setting the reputation to `-18000`, we simply expose the necessary details in the form of `getReputation` and `giveReputation`.
+In this case, we did not need control of the `reputation` variable itself. To avoid foot guns, like accidentally setting the reputation to `-18000`, we expose the necessary details in the form of `getReputation` and `giveReputation`.
 
 ### Prototypal inheritance with factories
 
@@ -213,7 +213,7 @@ function createPlayer (name, level) {
 }
 ```
 
-And there you go! You can simply create your User, extract what you need from it, and re-return whatever you want to - hiding the rest as some private variables or functions! In case you want to simply extend it, you can also use the [`Object.assign` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) to add on the properties you want!
+And there you go! You can create your User, extract what you need from it, and re-return whatever you want to - hiding the rest as some private variables or functions! In case you want to extend it, you can also use the [`Object.assign` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) to add on the properties you want!
 
 ```javascript
 function createPlayer (name, level) {
@@ -252,11 +252,11 @@ In this example, we have a factory function creating some basic operations that 
 
 #### Encapsulating with the module pattern
 
-At first glance, this does not seem particularly useful. If we have some code that we use only once, why not simply write it in the main section of our JavaScript file itself? After all, the power of factory functions lies in being, well, a factory to make multiple objects, right?
+At first glance, this does not seem particularly useful. If we have some code that we use only once, why not write it in the main section of our JavaScript file itself? After all, the power of factory functions lies in being, well, a factory to make multiple objects, right?
 
 This is where we encounter the word **encapsulation** - bundling data, code, or something into a single unit, with selective access to the things inside that unit itself. While it sounds general, this is what happens when we wrap, or encapsulate our code into modules - we don't expose everything to the body of our program itself. This encapsulation leads to an effect called **namespacing**. Namespacing is a technique that is used to avoid naming collisions in our programs.
 
-Take the calculator example into consideration. It's very easy to imagine a scenario where you can accidentally create multiple functions with the name `add`. What does `add` do - does it simply add two numbers? Strings? Does it take its input directly from the DOM and display the result? What would you name the functions that do these things? Instead, we can easily encapsulate them inside a module called `calculator` which generates an object with that name, allowing us to explicitly call `calculator.add(a, b)` or `calculator.sub(a, b)`.
+Take the calculator example into consideration. It's very easy to imagine a scenario where you can accidentally create multiple functions with the name `add`. What does `add` do - does it add two numbers? Strings? Does it take its input directly from the DOM and display the result? What would you name the functions that do these things? Instead, we can easily encapsulate them inside a module called `calculator` which generates an object with that name, allowing us to explicitly call `calculator.add(a, b)` or `calculator.sub(a, b)`.
 
 ### Assignment
 

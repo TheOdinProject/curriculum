@@ -65,7 +65,7 @@ Ruby makes it very easy to convert floats to integers and vice versa.
 13.9.to_i #=> 13
 ~~~
 
-As shown in the last example above, when Ruby converts a float to an integer, the decimal places are simply cut off. Ruby doesn't do any rounding in this conversion.
+As shown in the last example above, when Ruby converts a float to an integer, the decimal places are cut off. Ruby doesn't do any rounding in this conversion.
 
 #### Some useful number methods
 There are many useful methods for numbers built into Ruby. For example,
@@ -119,7 +119,7 @@ You can access strings inside strings. Stringception! It's super easy, too.
 
 "hello"[-1]     #=> "o"
 ~~~
-In the above example we can access the individual characters of a string by referencing the index(es) of the character within the string using `[]`. For more information on the topic you can read the [method documentation](https://ruby-doc.org/3.2.2/String.html#class-String-label-String+Slices).
+In the above example we can access the individual characters of a string by referencing the index(es) of the character within the string using `[]`. For more information on the topic you can read the [method documentation](https://docs.ruby-lang.org/en/3.2/String.html#class-String-label-String+Slices).
 
 #### Escape characters
 Escape characters allow you to type in representations of whitespace characters and to include quotation marks inside your string without accidentally ending it. As a reminder, escape characters only work inside double quotation marks.
@@ -158,7 +158,7 @@ puts 'Hello, #{name}' #=> "Hello, #{name}"
 #### Common string methods
 There are many useful string methods that are built into Ruby. You need to capitalize a word? No problem! Reverse a string? Easy peasy. Extract the binary subatomic algorithm from any regex grep? We don't know, but since this is Ruby, let's go with *YES*.
 
-Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](https://ruby-doc.org/3.2.2/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
+Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](https://docs.ruby-lang.org/en/3.2/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
 
 Below is a quick recap of the more common string methods you might find yourself using:
 
@@ -259,14 +259,14 @@ One common application where symbols are preferred over strings are the keys in 
 You won't need to use symbols much in the beginning, but it's good to get familiar with what they are and what they look like so that you can recognize them.
 
 #### Create a symbol
-To create a symbol, simply put a colon at the beginning of some text:
+To create a symbol, put a colon at the beginning of some text:
 
 ~~~ruby
 :my_symbol
 ~~~
 
 #### Symbols vs. strings
-To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://ruby-doc.org/3.2.2/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember: in Ruby, *everything* is an object!)
+To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://docs.ruby-lang.org/en/3.2/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember: in Ruby, *everything* is an object!)
 
 ~~~ruby
 "string" == "string"  #=> true

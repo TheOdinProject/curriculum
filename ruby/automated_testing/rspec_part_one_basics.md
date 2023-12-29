@@ -464,7 +464,7 @@ We'll cover a few matchers that you are likely to find the most useful here. But
 
 #### The Eq Matcher
 
-The `eq` matcher is the most versatile and commonly used matcher. It will likely be the matcher you use the most. It simply compares the actual value against the expected value and will return true if it **matches**. Otherwise it will return false.
+The `eq` matcher is the most versatile and commonly used matcher. It will likely be the matcher you use the most. It compares the actual value against the expected value and will return true if it **matches**. Otherwise it will return false.
 
 Lets see this matcher in action once again by finishing off the tests for the todo list name method:
 
