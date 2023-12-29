@@ -119,7 +119,7 @@ You can access strings inside strings. Stringception! It's super easy, too.
 
 "hello"[-1]     #=> "o"
 ~~~
-In the above example we can access the individual characters of a string by referencing the index(es) of the character within the string using `[]`. For more information on the topic you can read the [method documentation](https://ruby-doc.org/3.2.2/String.html#class-String-label-String+Slices).
+In the above example we can access the individual characters of a string by referencing the index(es) of the character within the string using `[]`. For more information on the topic you can read the [method documentation](https://docs.ruby-lang.org/en/3.2/String.html#class-String-label-String+Slices).
 
 #### Escape characters
 Escape characters allow you to type in representations of whitespace characters and to include quotation marks inside your string without accidentally ending it. As a reminder, escape characters only work inside double quotation marks.
@@ -158,7 +158,7 @@ puts 'Hello, #{name}' #=> "Hello, #{name}"
 #### Common string methods
 There are many useful string methods that are built into Ruby. You need to capitalize a word? No problem! Reverse a string? Easy peasy. Extract the binary subatomic algorithm from any regex grep? We don't know, but since this is Ruby, let's go with *YES*.
 
-Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](https://ruby-doc.org/3.2.2/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
+Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](https://docs.ruby-lang.org/en/3.2/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
 
 Below is a quick recap of the more common string methods you might find yourself using:
 
@@ -266,7 +266,7 @@ To create a symbol, put a colon at the beginning of some text:
 ~~~
 
 #### Symbols vs. strings
-To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://ruby-doc.org/3.2.2/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember: in Ruby, *everything* is an object!)
+To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://docs.ruby-lang.org/en/3.2/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember: in Ruby, *everything* is an object!)
 
 ~~~ruby
 "string" == "string"  #=> true
