@@ -36,7 +36,7 @@ The following requirements are a very global list of features your app should ha
 1. Users can comment on posts.
 1. Posts should always display the post content, author, comments, and likes.
 1. There should be an index page for posts, which shows all the recent posts from the current user and users they are following.
-1. Users can create a profile with a profile picture. You may be able to get the profile picture when users sign in using Omniauth. If this isn't the case you can use [Gravatar](https://www.gravatar.com/) to generate them
+1. Users can create a profile with a profile picture. Depending on how you handle authentication, for example via `passport-github2`, you may be able to use their account's existing profile picture. If this isn't the case you can use [Gravatar](https://www.gravatar.com/) to generate them.
 1. A user's profile page should contain their profile information, profile photo, and posts.
 1. There should be an index page for users, which shows all users and buttons for sending follow requests to users the user is not already following or have a pending request.
 1. Deploy your app to a hosting provider of your choice!
@@ -44,8 +44,8 @@ The following requirements are a very global list of features your app should ha
 #### Extra credit
 
 1. Make posts also allow images (either just via a URL or by uploading one.)
-2. Allow users to upload and update their profile photo.
-3. Create a guest sign-in functionality that allows visitors to bypass the login screen without creating an account or supplying credentials. This is especially useful if you are planning on putting this project on your résumé - most recruiters, hiring managers, etc. will not take the time to create an account. This feature will allow them to look at your hard work without going through a tedious sign-up process.
-4. Make it pretty!
+1. Allow users to update their profile photo.
+1. Create a guest sign-in functionality that allows visitors to bypass the login screen without creating an account or supplying credentials. This is especially useful if you are planning on putting this project on your résumé - most recruiters, hiring managers, etc. will not take the time to create an account. This feature will allow them to look at your hard work without going through a tedious sign-up process.
+1. Make it pretty!
 
 </div>
