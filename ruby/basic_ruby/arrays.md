@@ -34,7 +34,7 @@ Array.new(3, true)      #=> [true, true, true]
 ~~~
 
 ### Accessing elements
-Every element in an array has an **index**, which is a numerical representation of the element's position in the array. Like most other programming languages, Ruby arrays use **zero-based indexing**, which means that the index of the first element is 0, the index of the second element is 1, and so on. Accessing a specific element within an array is done by calling `myArray[x]`, where `x` is the index of the element you want. Calling an invalid position will result in `nil`. Ruby also allows the use of negative indices, which return elements starting from the *end* of an array, starting at [-1].
+Every element in an array has an **index**, which is a numerical representation of the element's position in the array. Like most other programming languages, Ruby arrays use **zero-based indexing**, which means that the index of the first element is 0, the index of the second element is 1, and so on. Accessing a specific element within an array is done by calling `my_array[x]`, where `x` is the index of the element you want. Calling an invalid position will result in `nil`. Ruby also allows the use of negative indices, which return elements starting from the *end* of an array, starting at [-1].
 
 ~~~ruby
 str_array = ["This", "is", "a", "small", "array"]
@@ -46,7 +46,7 @@ str_array[-1]           #=> "array"
 str_array[-2]           #=> "small"
 ~~~
 
-Finally, Ruby provides the `#first` and `#last` array methods, which should be self-explanatory. In addition, these methods can take an integer argument, e.g., `myArray.first(n)` or `myArray.last(n)`, which will return a new array that contains the first or last `n` elements of `myArray`, respectively.
+Finally, Ruby provides the `#first` and `#last` array methods, which should be self-explanatory. In addition, these methods can take an integer argument, e.g., `my_array.first(n)` or `my_array.last(n)`, which will return a new array that contains the first or last `n` elements of `my_array`, respectively.
 
 ~~~ruby
 str_array = ["This", "is", "a", "small", "array"]
