@@ -16,7 +16,7 @@ By the end of this lesson, you should be able to do the following:
 ### Numbers
 You probably already know what numbers are, so there's no need to go into elaborate metaphors here. Ruby has all the typical math operators you would expect:
 
-~~~ruby
+```ruby
 # Addition
 1 + 1   #=> 2
 
@@ -36,34 +36,34 @@ You probably already know what numbers are, so there's no need to go into elabor
 # Modulus (find the remainder of division)
 8 % 2   #=> 0  (8 / 2 = 4; no remainder)
 10 % 4  #=> 2  (10 / 4 = 2 with a remainder of 2)
-~~~
+```
 
 #### Integers and floats
 There are two main types of numbers in Ruby. **Integers** are whole numbers, such as 10. **Floats** are numbers that contain a decimal point, such as 10.5, 10.0, or 0.25.
 
 It's important to keep in mind that when doing arithmetic with two integers in Ruby, *the result will always be an integer*.
 
-~~~ruby
+```ruby
 17 / 5    #=> 3, not 3.4
-~~~
+```
 
 To obtain an accurate answer, just replace one of the integers in the expression with a float.
 
-~~~ruby
+```ruby
 17 / 5.0  #=> 3.4
-~~~
+```
 
 #### Converting number types
 Ruby makes it very easy to convert floats to integers and vice versa.
 
-~~~ruby
+```ruby
 # To convert an integer to a float:
 13.to_f   #=> 13.0
 
 # To convert a float to an integer:
 13.0.to_i #=> 13
 13.9.to_i #=> 13
-~~~
+```
 
 As shown in the last example above, when Ruby converts a float to an integer, the decimal places are cut off. Ruby doesn't do any rounding in this conversion.
 
@@ -72,17 +72,17 @@ There are many useful methods for numbers built into Ruby. For example,
 
 **#even?**
 
-~~~ruby
+```ruby
 6.even? #=> true
 7.even? #=> false
-~~~
+```
 
 **#odd?**
 
-~~~ruby
+```ruby
 6.odd? #=> false
 7.odd? #=> true
-~~~
+```
 
 ### Strings
 Strings, strings, wonderful things, use them well and...your app will...grow wings? Or something.
@@ -95,7 +95,7 @@ Strings can be formed with either double `""` or single`''` quotation marks, als
 #### Concatenation
 In true Ruby style, there are plenty of ways to concatenate strings.
 
-~~~ruby
+```ruby
 # With the plus operator:
 "Welcome " + "to " + "Odin!"    #=> "Welcome to Odin!"
 
@@ -104,13 +104,13 @@ In true Ruby style, there are plenty of ways to concatenate strings.
 
 # With the concat method:
 "Welcome ".concat("to ").concat("Odin!")  #=> "Welcome to Odin!"
-~~~
+```
 Classic Ruby!
 
 #### Substrings
 You can access strings inside strings. Stringception! It's super easy, too.
 
-~~~ruby
+```ruby
 "hello"[0]      #=> "h"
 
 "hello"[0..1]   #=> "he"
@@ -118,13 +118,13 @@ You can access strings inside strings. Stringception! It's super easy, too.
 "hello"[0, 4]   #=> "hell"
 
 "hello"[-1]     #=> "o"
-~~~
+```
 In the above example we can access the individual characters of a string by referencing the index(es) of the character within the string using `[]`. For more information on the topic you can read the [method documentation](https://docs.ruby-lang.org/en/3.2/String.html#class-String-label-String+Slices).
 
 #### Escape characters
 Escape characters allow you to type in representations of whitespace characters and to include quotation marks inside your string without accidentally ending it. As a reminder, escape characters only work inside double quotation marks.
 
-~~~ruby
+```ruby
 \\  #=> Need a backslash in your string?
 \b  #=> Backspace
 \r  #=> Carriage return, for those of you that love typewriters
@@ -133,27 +133,27 @@ Escape characters allow you to type in representations of whitespace characters 
 \t  #=> Tab
 \"  #=> Double quotation mark
 \'  #=> Single quotation mark
-~~~
+```
 
 The best thing to do is play around with them in irb or a REPL.
 
-~~~ruby
+```ruby
 irb(main):001:0> puts "Hello \n\nHello"
 Hello
 
 Hello
 => nil
-~~~
+```
 
 #### Interpolation
 String interpolation allows you to evaluate a string that contains placeholder variables. This is a very useful and common technique, so you will likely find yourself using this often. Be sure to use double quotes so that string interpolation will work!
 
-~~~ruby
+```ruby
 name = "Odin"
 
 puts "Hello, #{name}" #=> "Hello, Odin"
 puts 'Hello, #{name}' #=> "Hello, #{name}"
-~~~
+```
 
 #### Common string methods
 There are many useful string methods that are built into Ruby. You need to capitalize a word? No problem! Reverse a string? Easy peasy. Extract the binary subatomic algorithm from any regex grep? We don't know, but since this is Ruby, let's go with *YES*.
@@ -164,67 +164,67 @@ Below is a quick recap of the more common string methods you might find yourself
 
 **#capitalize**
 
-~~~ruby
+```ruby
 "hello".capitalize #=> "Hello"
-~~~
+```
 
 **#include?**
 
-~~~ruby
+```ruby
 "hello".include?("lo")  #=> true
 
 "hello".include?("z")   #=> false
-~~~
+```
 
 <span id="upcase">**#upcase**</span>
 
-~~~ruby
+```ruby
 "hello".upcase  #=> "HELLO"
-~~~
+```
 
 **#downcase**
 
-~~~ruby
+```ruby
 "Hello".downcase  #=> "hello"
-~~~
+```
 
 **#empty?**
 
-~~~ruby
+```ruby
 "hello".empty?  #=> false
 
 "".empty?       #=> true
-~~~
+```
 
 **#length**
 
-~~~ruby
+```ruby
 "hello".length  #=> 5
-~~~
+```
 
 **#reverse**
 
-~~~ruby
+```ruby
 "hello".reverse  #=> "olleh"
-~~~
+```
 
 <span id="split">**#split**</span>
 
-~~~ruby
+```ruby
 "hello world".split  #=> ["hello", "world"]
 
 "hello".split("")    #=> ["h", "e", "l", "l", "o"]
-~~~
+```
 
 **#strip**
 
-~~~ruby
+```ruby
 " hello, world   ".strip  #=> "hello, world"
-~~~
+```
 
 You'll read more about these methods and others in the assignment. The examples below are just to get your creative juices flowing with some of the awesome ways you can modify strings.
 
-~~~ruby
+```ruby
 "he77o".sub("7", "l")           #=> "hel7o"
 
 "he77o".gsub("7", "l")          #=> "hello"
@@ -234,20 +234,20 @@ You'll read more about these methods and others in the assignment. The examples 
 "hello world".delete("l")       #=> "heo word"
 
 "!".prepend("hello, ", "world") #=> "hello, world!"
-~~~
+```
 
 The assignments will go much deeper, so go through them thoroughly and be sure to play around in a REPL as you read.
 
 #### Converting other objects to strings
 Using the `to_s` method, you can convert pretty much anything to a string. Here are some examples:
 
-~~~ruby
+```ruby
 5.to_s        #=> "5"
 
 nil.to_s      #=> ""
 
 :symbol.to_s  #=> "symbol"
-~~~
+```
 
 ### Symbols
 Symbols are an interesting twist on the idea of a string. The full explanation can be a bit long, but here's the short version:
@@ -261,20 +261,20 @@ You won't need to use symbols much in the beginning, but it's good to get famili
 #### Create a symbol
 To create a symbol, put a colon at the beginning of some text:
 
-~~~ruby
+```ruby
 :my_symbol
-~~~
+```
 
 #### Symbols vs. strings
 To get a better idea of how symbols are stored in memory, give this a whirl in irb or a REPL. The [`#object_id` method](https://docs.ruby-lang.org/en/3.2/Object.html#method-i-object_id) returns an integer identifier for an object. (And remember: in Ruby, *everything* is an object!)
 
-~~~ruby
+```ruby
 "string" == "string"  #=> true
 
 "string".object_id == "string".object_id  #=> false
 
 :symbol.object_id == :symbol.object_id    #=> true
-~~~
+```
 
 ### Booleans
 You will learn about these data types in more detail in the Conditional Logic lesson later in this course. The goal of this lesson is for you to get a basic understanding of what Booleans are.
