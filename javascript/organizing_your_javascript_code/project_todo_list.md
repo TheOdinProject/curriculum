@@ -3,7 +3,7 @@ At this point you've already had a fair amount of practice using the various tec
 
 ### The todo list
 
-Todo lists are a staple in beginning webdev tutorials because they can be very simple.  There is, however, a lot of room for improvement and many features that can be added.
+Todo lists are a staple in beginning webdev tutorials, the implementation can be basic. There is, however, a lot of room for improvement and many features that can be added.
 
 Before diving into the code, take a minute to think about how you are going to want to organize your project.
 

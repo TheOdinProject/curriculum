@@ -8,7 +8,7 @@ All of those examples involve you engaging with your database.  Luckily, many da
 
 You will start with the questions like the ones above and then have to figure out how to ask them properly of your database, which likely has a bunch of different tables in it.  Everyone probably visualizes it a bit differently, but finding a way to visualize what's going on when you do SQL queries is pretty important. We actually think of Excel tables moving in our head and combining with each other and reshuffling as necessary. To each their own.
 
-We'll move beyond just the simple `SELECT "users".* FROM "users" LIMIT 1` queries and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
+We'll move beyond just the `SELECT "users".* FROM "users" LIMIT 1` queries and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
 
 All this stuff is being used by Rails behind the scenes so understanding it will make you much better at writing queries in Rails. This is why we're going over databases before learning Rails.
 
@@ -58,13 +58,13 @@ For "Destroy" queries, the classic mistake is typing `DELETE FROM users` without
 
 "Update" queries use `UPDATE` and you'll need to tell it what data to `SET` (using key="value" pairs) and which rows to do those updates for.  Be careful because if your `WHERE` clause finds multiple rows (e.g. if you've searched based on a common first name), they'll all get updated. A standard query for updating a user's email may look something like the following (though in the real world you'd search on ID because it's always unique):
 
-~~~sql
+```sql
   UPDATE users
   SET name='barfoo', email='bar@foo.com'
   WHERE email='foo@bar.com';
-~~~
+```
 
-<span id='sql-read'>"Read" queries, which use `SELECT`, are the most common, e.g. `SELECT * FROM users WHERE created_at < '2013-12-11 15:35:59 -0800'`</span>.  The `*` you see just says "all the columns".  Specify a column using both the table name and the column name.  You can get away with just the column name for simple queries but as soon as there are more than one table involved, SQL will yell at you so just always specify the table name: `SELECT users.id, users.name FROM users`.
+<span id='sql-read'>"Read" queries, which use `SELECT`, are the most common, e.g. `SELECT * FROM users WHERE created_at < '2013-12-11 15:35:59 -0800'`</span>.  The `*` you see just says "all the columns".  Specify a column using both the table name and the column name. You can get away with just the column name for queries of one table, but as soon as there are more than one table involved, SQL will yell at you so just always specify the table name: `SELECT users.id, users.name FROM users`.
 
 A close cousin of `SELECT`, for if you only want unique values of a column, is `SELECT DISTINCT`.  Say you want a list of all the different names of your users without any duplicates... try `SELECT DISTINCT users.name FROM users`.
 
@@ -97,24 +97,24 @@ You often see aliases (`AS`) used to rename columns or aggregate functions so yo
 
 Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which return just a single value for your whole dataset are nice, but they become really useful when you want to use them on very specific chunks of your data and then group them together, e.g. displaying the `COUNT` of posts for EACH user (as opposed to the count of all posts by all users).  That would look like:
 
-~~~sql
+```sql
   SELECT users.id, users.name, COUNT(posts.id) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
   GROUP BY users.id;
-~~~
+```
 
 See [W3 Schools' article](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and play around with the SQL in the window (try deleting the `GROUP BY` line) for an interactive visual.
 
 The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  <span id='having-function'>So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates</span>.  So say you only want to display users who have written more than 10 posts:
 
-~~~sql
+```sql
   SELECT users.id, users.name, COUNT(posts.id) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
   GROUP BY users.id
   HAVING posts_written >= 10;
-~~~
+```
 
 Try going back to [the W3 Schools' example](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and joining the `Customers` and the `Orders` tables to get the number of orders in each country and adding the line `HAVING COUNT(*) > 10;` after `GROUP BY` (and delete the extra semicolon in the previous line).
 

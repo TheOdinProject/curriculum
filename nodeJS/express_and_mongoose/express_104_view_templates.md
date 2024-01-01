@@ -22,7 +22,7 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Let's get back to [Express tutorial on MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data).
+1. Complete part 5 of [the MDN Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data).
 
 </div>
 
@@ -30,4 +30,4 @@ By the end of this lesson, you should be able to do the following:
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
--   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
