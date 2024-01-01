@@ -157,3 +157,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 - [Modern CSS Techniques To Improve Legibility](https://www.smashingmagazine.com/2020/07/css-techniques-legibility/) by [Edoardo Cavazza](https://www.smashingmagazine.com/author/edoardo-cavazza/) is a great article that covers some additional text styles and techniques that can be utilized to improve websites legibility.
+- Explore [Stop Stealing Sheep & Find Out How Type Works](https://static.googleusercontent.com/media/fonts.google.com/en//knowledge/stop_stealing_sheep.pdf) book 4th edition by Erik Spiekermann, for a deep dive into typography essentials. This book enhances your web development skills by providing insights into font choices, layout, and effective communication through type.
