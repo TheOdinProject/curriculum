@@ -4,7 +4,7 @@
 
 Lessons are structured through a combination of original written content and a compilation of carefully curated resources from the web. This is where the contributing happens!
 
-This repo contains the actual lesson files used on our website. For the actual TOP app that pulls in this lesson content and contains our front-end and back-end code, please go to the [main TOP repo](https://github.com/TheOdinProject/theodinproject).
+This repository contains the actual lesson files used on our website. For the actual TOP app that pulls in this lesson content and contains our front-end and back-end code, please go to the [main TOP repo](https://github.com/TheOdinProject/theodinproject).
 
 Our community can be found on the [TOP Discord server](https://discord.gg/fbFCkYabZB).
 
