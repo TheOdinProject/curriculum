@@ -49,7 +49,7 @@ Many of these resources assume you're using a Mac or Linux environment. If you d
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
    
-   - [Download files](https://swcarpentry.github.io/shell-novice/#download-files)
+   - [Download files](https://swcarpentry.github.io/shell-novice/#download-files) - only follow the instructions in this section, you don't need to install any software and can move onto the next bullet point in this list.
    - [Introducing the Shell](https://swcarpentry.github.io/shell-novice/01-intro.html)
    - [Navigating Files and Directories](https://swcarpentry.github.io/shell-novice/02-filedir.html)
    - [Working With Files and Directories](https://swcarpentry.github.io/shell-novice/03-create.html)
