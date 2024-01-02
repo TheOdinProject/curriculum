@@ -202,7 +202,7 @@ player2.sayHello(); // logs "Hello, I'm a player!"
 
 Here, we defined the `.sayHello` function 'on' the `Player.prototype` object. It then became available for the `player1` and the `player2` objects to use! Similarly, you can attach other properties or functions you want to use on all `Player` objects by defining them on the objects' prototype (`Player.prototype`).
 
-#### Object.getPrototypeOf() vs. .__proto__ vs. [[Prototype]]
+#### Object.getPrototypeOf() vs. .\_\_proto__ vs. [[Prototype]]
 
 Unlike what we have done so far using `Object.getPrototypeOf()` to access an object's `prototype`, the same thing can also be done using the `.__proto__` property of the object. However, this is a non-standard way of doing so, and [deprecated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto). Hence, it is not recommended to access an object's `prototype` by using this property. However, the same code can thus be rewritten to become:
 
