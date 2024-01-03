@@ -75,14 +75,14 @@ console.log(add5(2)) // logs 7
 
 A lot going on, so let's break it down:
 
-1. The `makeAdding` function takes an argument, `firstNumber`, declares a constant `first` with the value of `firstNumber` and returns another **function** (which we have named as `add5` while using).
-1. When an argument is passed to the returned function (in our case, `add5`), it returns the result of adding up the number passed earlier to the number passed now (`first` to `second`).
+1. The `makeAdding` function takes an argument, `firstNumber`, declares a constant `first` with the value of `firstNumber`, and returns another **function**.
+2. When an argument is passed to the returned function, which we have assigned to **add5**, it returns the result of adding up the number passed earlier to the number passed now (`first` to `second`).
 
-Now, while it may sound good at first glance, you can already be raising your eyebrows at the second statement. As we've learned, the `first` variable is scoped within the `makeAdding` function. When we declare and use `add5`, however, we're **outside** the `makeAdding` function. How does the `first` variable still exist, ready to be added when we pass an argument to the `add5` function? This is where we encounter the concept of closures.
+Now, while it may sound good at first glance, you may already be raising your eyebrows at the second statement. As we've learned, the `first` variable is scoped within the `makeAdding` function. When we declare and use `add5`, however, we're **outside** the `makeAdding` function. How does the `first` variable still exist, ready to be added when we pass an argument to the `add5` function? This is where we encounter the concept of closures.
 
-Functions in JavaScript form closures. A closure refers to the combination of a function and the **surrounding state** within which a function was declared in. This surrounding state, also called its lexical environment, consists of any local variables that were in scope at the time the closure was made. Here, `add5` is a reference to the `resulting` function, created when the `makeAdding` function is executed, thus it has access to the lexical environment of the `resulting` function, which contains the `first` variable, making it available for use, rather than removing it from memory for being out of scope.
+Functions in JavaScript form closures. A closure refers to the combination of a function and the **surrounding state** in which the function was declared. This surrounding state, also called its **lexical environment**, consists of any local variables that were in scope at the time the closure was made. Here, `add5` is a reference to the `resulting` function, created when the `makeAdding` function is executed, thus it has access to the lexical environment of the `resulting` function, which contains the `first` variable, making it available for use.
 
-This is a **crucial** behavior for function - which allows us to correlate things around a function and work on them anywhere outside it. If you're still confused, take a small detour to examine the [second question under the Knowledge check section](#knowledge-check) - no need to read the entire thing for now, anything from and after "Emulating private methods with closures" will be discussed further down this lesson, and you can come back to them when you encounter the article again after the lesson.
+This is a **crucial** behavior of functions - allowing us to associate data with functions and manipulate that data anywhere outside of the enclosing function. If you're still confused, take a small detour to examine the [second question under the Knowledge check section](#knowledge-check) - no need to read the entire thing for now, anything from "Emulating private methods with closures" onward will be discussed later in this lesson.
 
 ### So, what's wrong with constructors?
 
