@@ -150,7 +150,6 @@ We'll dig into this stuff a bit later, but it's good to understand in the contex
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 -   <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177"> What do you call an HTTP message that goes from client to server? </a>
--   <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177"> What do you call an HTTP message that goes from server to client? </a>
 -   <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177"> Which HTTP message would include a status code and which would include an action verb? </a>
 -   <a class="knowledge-check-link" href="https://www.mattcutts.com/blog/seo-glossary-url-definitions/"> What is the name of the additional information that is added after the path of a URL? </a>
 -   <a class="knowledge-check-link" href="https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/"> What does MVC stand for? </a>
