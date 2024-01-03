@@ -30,9 +30,9 @@ This section contains a general overview of topics that you will learn in this l
 
     ![The GitHub Profile Screen](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/00.png)
 
-3.  Give your repository the name "git-test" in the repository name input field. Check "Add a README file". And then create the repository by clicking the "Create repository" button at the bottom of the page.
+3.  Give your repository the name "git_test" in the repository name input field. Check "Add a README file". And then create the repository by clicking the "Create repository" button at the bottom of the page.
 
-    ![Create new repo using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/e6f531e5c65077fe5897d36c270a90f0b4d7da7b/git/foundations_git/git_basics/imgs/01.png)
+    ![Create new repo using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/d0579120dd641d26aaef6a601008e998f8a7c648/git/foundations_git/git_basics/imgs/01.png)
 
 4.  This will redirect you to your new repository on GitHub. To get ready to copy (clone) this repository onto your local machine, click the green "Code" button. Then select the SSH option, and copy the line below it. **NOTE: You MUST click the SSH option to get the correct URL.**
 
@@ -130,7 +130,7 @@ Finally, let's upload your work to the GitHub repository you created at the star
 
 ### Note/Warning
 
-When trying to make simple changes to the files in your repo, such as attempting to fix a typo in your README.md you might be tempted to make this change directly via Github. However, it is best to avoid this as it will cause issues that require more advanced Git knowledge than we want to go over at this stage (it is covered in a future lesson), for now it is advised to make any changes via your local files then commit and push them using Git commands in your terminal once ready.
+When trying to make quick changes to the files in your repo, such as attempting to fix a typo in your README.md you might be tempted to make this change directly via Github. However, it is best to avoid this as it will cause issues that require more advanced Git knowledge than we want to go over at this stage (it is covered in a future lesson), for now it is advised to make any changes via your local files then commit and push them using Git commands in your terminal once ready.
 
 ### Cheatsheet
 

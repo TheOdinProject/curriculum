@@ -27,9 +27,9 @@ Every HTML page starts with a doctype declaration. The doctype's purpose is to t
 
 The doctypes for older versions of HTML were a bit more complicated. For example, this is the doctype declaration for HTML4:
 
-~~~html
+```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-~~~
+```
 
 However, we probably won't ever want to be using an older version of HTML, and so we'll always use `<!DOCTYPE html>`.
 
@@ -43,11 +43,11 @@ This becomes more important later on when we learn about manipulating HTML with 
 
 Back in the `index.html` file, let's add the `<html>` element by typing out its opening and closing tags, like so:
 
-~~~html
+```html
 <!DOCTYPE html>
 <html lang="en">
 </html>
-~~~
+```
 
 Noticed the word `lang` here? It represents an HTML attribute which is associated with the given HTML tag i.e. `<html>` in this case. These attributes provide additional information about HTML elements. (More about `HTML attributes` in the following lesson.)
 
@@ -72,7 +72,7 @@ Another element we should always include in the head of an HTML document is the 
 
  `<title>My First Webpage</title>`
 
-The `<title>` element is used to give webpages a human-readable title which is displayed in our webpage's browser tab.
+The `<title>` element is used to give webpages a human-readable title which is displayed in our webpage's browser tab. For example, if you look at the current tab's name of your browser, it will read "HTML Boilerplate &#124; The Odin Project"; this is the `<title>` of the current `.html` file.
 
 If we didn't include a `<title>` element, the webpage's title would default to its file name. In our case that would be `index.html`, which isn't very meaningful for users; this would make it very difficult to find our webpage if the user has many browser tabs open.
 
@@ -80,7 +80,7 @@ There are many more elements that can go within the head of an HTML document. Ho
 
 Back in our `index.html` file, let's add a `<head>` element with a `<meta>` element and a title within it. The `<head>` element goes within the `<html>` element and should always be the first element under the opening `<html>` tag:
 
-~~~html
+```html
 <!DOCTYPE html>
 
 <html lang="en">
@@ -89,15 +89,15 @@ Back in our `index.html` file, let's add a `<head>` element with a `<meta>` elem
     <title>My First Webpage</title>
   </head>
 </html>
-~~~
+```
 
 ### Body element
 
 The final element needed to complete the HTML boilerplate is the `<body>` element. This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on.
 
-To complete the boilerplate, add a `<body>` element to the `index.html` file. The `<body>` element also goes within the ` <html>` element and is always below the `<head>` element, like so:
+To complete the boilerplate, add a `<body>` element to the `index.html` file. The `<body>` element also goes within the `<html>` element and is always below the `<head>` element, like so:
 
-~~~html
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -108,7 +108,7 @@ To complete the boilerplate, add a `<body>` element to the `index.html` file. Th
   <body>
   </body>
 </html>
-~~~
+```
 
 ### Viewing HTML files in the browser
 
@@ -130,7 +130,7 @@ Using one of the methods above, open up the `index.html` file we have been worki
 
 Back in the `index.html` file, let's add a heading (more on these later) to the body, and save the file:
 
-~~~html
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -142,7 +142,7 @@ Back in the `index.html` file, let's add a heading (more on these later) to the 
     <h1>Hello World!</h1>
   </body>
 </html>
-~~~
+```
 
 Now, if you refresh the page in the browser, you should see the changes take effect, and the heading "Hello World!" will be displayed.
 

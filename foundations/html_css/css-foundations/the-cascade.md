@@ -1,6 +1,6 @@
 ### Introduction
 
-In the previous lesson, we covered basic CSS syntax and selectors. Now, it's time to combine our knowledge of selectors with the *C* of CSS - the cascade.
+In the previous lesson, we covered basic CSS syntax and selectors. Now, it's time to combine our knowledge of selectors with the *C* of CSS -- the cascade.
 
 ### Lesson overview
 
@@ -26,20 +26,20 @@ A CSS declaration that is more specific will take precedence over less specific 
 2. Class selectors
 3. Type selectors
 
-Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, <span id="high-specificity-class-type">a class selector will always beat any number of type selectors</span>, and a type selector will always beat any number of less specific selectors. When no declaration has a selector with a higher specificity, a larger amount of a single selector will beat a smaller amount of that same selector.
+Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, <span id="high-specificity-class-type">a class selector will always beat any number of type selectors</span>, and a type selector will always beat any number of less specific selectors. When there is no declaration with a selector of higher specificity, a rule with a greater number of selectors of the same type will take precedence over another rule with fewer selectors of the same type.
 
-Let's take a look at a few quick examples to visualize how specificity works. 
+Let's take a look at a few quick examples to visualize how specificity works.
 Consider the following HTML and CSS code:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div class="main">
   <div class="list subsection">Red text</div>
 </div>
-~~~
+```
 
-~~~css
+```css
 /* rule 1 */
 .subsection {
   color: blue;
@@ -49,20 +49,20 @@ Consider the following HTML and CSS code:
 .main .list {
   color: red;
 }
-~~~
+```
 
-In the example above, both rules are using only class selectors, but rule 2 is more specific because it is using more class selectors, so the `color: red;` declaration would take precedence.
+In the example above, both rules are using only class selectors, but rule 2 is more specific because it is using more class selectors, so the `color: red` declaration would take precedence.
 
 Now, let's change things a little bit:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div class="main">
   <div class="list" id="subsection">Blue text</div>
 </div>
-~~~
-~~~css
+```
+```css
 /* rule 1 */
 #subsection {
   color: blue;
@@ -72,21 +72,21 @@ Now, let's change things a little bit:
 .main .list {
   color: red;
 }
-~~~
+```
 
-In the example above, despite rule 2 having more class selectors than ID selectors, rule 1 is more specific because ID beats class. In this case, the `color: blue;` declaration would take precedence.
+In the example above, despite rule 2 having more class selectors than ID selectors, rule 1 is more specific because ID beats class. In this case, the `color: blue` declaration would take precedence.
 
 And a bit more complex:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div class="main">
   <div class="list" id="subsection">Red text on yellow background</div>
 </div>
-~~~
+```
 
-~~~css
+```css
 /* rule 1 */
 #subsection {
   background-color: yellow;
@@ -97,7 +97,7 @@ And a bit more complex:
 .main #subsection {
  color: red;
 }
-~~~
+```
 
 In this final example, the first rule uses an ID selector, while the second rule combines an ID selector with a class selector. Therefore, neither rule is using a more specific selector than the other. The cascade then checks the number of each selector type. Both rules have only one ID selector, but rule 2 has a class selector in addition to the ID selector, so rule 2 has a higher specificity!
 
@@ -108,7 +108,7 @@ While the `color: red` declaration would take precedence, the `background-color:
 When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
 </div>
 
-~~~css
+```css
 /* rule 1 */
 .class.second-class {
   font-size: 12px;
@@ -118,11 +118,11 @@ When comparing selectors, you may come across special symbols for the universal 
 .class .second-class {
   font-size: 24px;
 }
-~~~
+```
 
 Here both rule 1 and rule 2 have the same specificity. Rule 1 uses a chaining selector (no space) and rule 2 uses a descendant combinator (the empty space). But both rules have two classes and the combinator symbol itself does not add to the specificity.
 
-~~~css
+```css
 /* rule 1 */
 .class.second-class {
   font-size: 12px;
@@ -132,11 +132,11 @@ Here both rule 1 and rule 2 have the same specificity. Rule 1 uses a chaining se
 .class > .second-class {
   font-size: 24px;
 }
-~~~
+```
 
 This example shows the same thing. Even though rule 2 is using a child combinator (`>`), this does not change the specificity value. Both rules still have two classes so they have the same specificity values.
 
-~~~css
+```css
 /* rule 1 */
 * {
   color: black;
@@ -146,24 +146,24 @@ This example shows the same thing. Even though rule 2 is using a child combinato
 h1 {
   color: orange;
 }
-~~~
+```
 
 In this example, rule 2 would have higher specificity and the `orange` value would take precedence for this element. Rule 2 uses a type selector, which has the lowest specificity value. But rule 1 uses the universal selector (`*`) which has no specificity value.
 
 #### Inheritance
 
-Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't.
+Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't.
 
 The exception to this is when directly targeting an element, as this always beats inheritance:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div id="parent">
   <div class="child"></div>
 </div>
-~~~
-~~~css
+```
+```css
 /* styles.css */
 
 #parent {
@@ -173,17 +173,17 @@ The exception to this is when directly targeting an element, as this always beat
 .child {
   color: blue;
 }
-~~~
+```
 
 Despite the `parent` element having a higher specificity with an ID, the `child` element would have the `color: blue` style applied since that declaration directly targets it, while `color: red` from the parent is only inherited.
 
 #### Rule order
 
-The final factor, the end of the line, the tie-breaker of the tie-breaker. Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
+The final factor, the end of the line, the tie-breaker of the tie-breakers. Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
 
 Really simply, actually. Whichever rule was the *last* defined is the winner.
 
-~~~css
+```css
 /* styles.css */
 
 .alert {
@@ -193,7 +193,7 @@ Really simply, actually. Whichever rule was the *last* defined is the winner.
 .warning {
   color: yellow;
 }
-~~~
+```
 
 For an element that has both the `alert` and `warning` classes, the cascade would run through every other factor, including inheritance (none here) and specificity (neither rule is more specific than the other). Since the `.warning` rule was the last one defined, and no other factor was able to determine which rule to apply, it's the one that gets applied to the element.
 

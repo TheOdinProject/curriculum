@@ -26,7 +26,7 @@ Choose your Operating System:
 #### Step 1: Download VSCode
 
 - Open your **Terminal**.
-- Run the following command to download the latest **VSCode** `.deb` package.
+- Run the following command to download the latest **VSCode** `.deb` package:
 
 ```bash
 wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
@@ -34,7 +34,7 @@ wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable
 
 #### Step 2: Install VSCode
 
-- Enter the following command in your terminal to install the **VSCode** `.deb` package.
+- Enter the following command in your terminal to install the **VSCode** `.deb` package:
 
 ```bash
 sudo apt install ./code-latest.deb
@@ -44,7 +44,7 @@ sudo apt install ./code-latest.deb
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
+You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
 
 </div>
 
@@ -55,7 +55,7 @@ rm code-latest.deb
 ```
 
 #### Step 4: Using VSCode
-   
+
 You can start VSCode in two ways,
 
 - Click **Visual Studio Code** from the Applications menu.
@@ -90,6 +90,39 @@ code
 
 - Go to your **Applications** folder.
 - Double click **Visual Studio Code**.
+
+</details>
+
+<details markdown="block">
+<summary class="dropDown-header">WSL</summary>
+
+#### Step 1: Install VSCode
+
+- Follow the instructions for [Visual Studio Code on Windows](https://code.visualstudio.com/docs/setup/windows) to install VSCode.
+
+#### Step 2: Delete the installer file
+
+- Open **File Explorer**.
+- Go to the **Downloads** folder.
+- Drag **VSCodeUserSetup-{version}.exe** to the trash.
+
+#### Step 4: Install WSL Extension
+
+- Open Visual Studio Code.
+- Navigate to the extensions tab.
+- Find and install the [WSL extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl).
+
+#### Step 5: Ensure that WSL can correctly open VSCode
+
+- Open a new WSL terminal.
+- Run the following command to open a new VSCode window.
+
+  ```bash
+  code
+  ```
+
+- After a few moments a new VSCode window should open, and VSCode should provide a notification that its opening in WSL.
+
 
 </details>
 

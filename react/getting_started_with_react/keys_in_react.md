@@ -27,6 +27,10 @@ As long as `keys` remain consistent and unique, React can handle the DOM effecti
 
 ### Using keys
 
+<div class="lesson-note" markdown="1">
+We will be using `props` here, and you will learn more about them in the next lesson. For now, you just need to know that `props` are arguments that are passed into components. 
+</div>
+
 Keys are passed into the component or a DOM element as a prop. You should already be familiar with the syntax.
 
 ~~~jsx

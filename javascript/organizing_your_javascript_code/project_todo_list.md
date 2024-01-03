@@ -3,7 +3,7 @@ At this point you've already had a fair amount of practice using the various tec
 
 ### The todo list
 
-Todo lists are a staple in beginning webdev tutorials because they can be very simple.  There is, however, a lot of room for improvement and many features that can be added.
+Todo lists are a staple in beginning webdev tutorials, the implementation can be basic. There is, however, a lot of room for improvement and many features that can be added.
 
 Before diving into the code, take a minute to think about how you are going to want to organize your project.
 
@@ -32,11 +32,3 @@ Before diving into the code, take a minute to think about how you are going to w
       - localStorage uses [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) to send and store data, and when you retrieve the data, it will also be in JSON format. You will learn more about this language in a later lesson, but it doesn't hurt to get your feet wet now. Keep in mind you *cannot store functions in JSON*, so you'll have to figure out how to add methods back to your object properties once you fetch them. Good luck!
 
 </div>
-
-###  Want MORE practice?
-
-There is plenty of content after this project but at this point you've been exposed to many foundational concepts. You really can't spend too much time reviewing and practicing the fundamentals that we've covered and luckily for you there are several websites that offer just this type of thing. Seriously, the better you grasp and the more fluently you can use the fundamental building blocks, the easier the hard stuff is going to come to you when we get to it. Take a minute to check out the following links.
-
-- [Exercism](http://exercism.io/) - an Odin favorite.  Uses a neat command-line interface to download and submit exercises and allows you to give and get feedback on your solutions.
-- [CodeWars](https://www.codewars.com/) - A neat gamified system with leveled exercises.  As you complete more exercises you level up and access more difficult ones. To join the TOP clan: go to your account settings on the codewars website and add "The Odin Project" in the `Clan` field. 
-- [HackerRank](https://www.hackerrank.com/) - Similar in setup to CodeWars, but this site is more focused on interview question type tasks.  Some companies even use this site to interview candidates.

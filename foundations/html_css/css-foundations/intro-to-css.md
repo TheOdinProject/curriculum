@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Basic syntax
 
-At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on this in a bit) and a semi-colon separated list of declarations, with each of those declarations being made up of a property:value pair.
+At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on this in a bit) and a semicolon-separated list of declarations, with each of those declarations being made up of a property–value pair.
 
 ![Basic CSS syntax](https://cdn.statically.io/gh/TheOdinProject/curriculum/05ce472eabf8e04eeb2cc9139e66db884074fd7d/foundations/html_css/css-foundations/imgs/00.jpg)
 
@@ -32,32 +32,32 @@ Selectors simply refer to the HTML elements to which CSS rules apply; they're wh
 
 The universal selector will select elements of any type, hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style applied to it.
 
-~~~css
+```css
 * {
   color: purple;
 }
-~~~
+```
 
 #### Type selectors
 
 A type selector (or element selector) will select all elements of the given element type, and the syntax is just the name of the element:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div>Hello, World!</div>
 <div>Hello again!</div>
 <p>Hi...</p>
 <div>Okay, bye.</div>
-~~~
+```
 
-~~~css
+```css
 /* styles.css */
 
 div {
   color: white;
 }
-~~~
+```
 
 Here, all three `<div>` elements would be selected, while the `<p>` element wouldn't be.
 
@@ -65,19 +65,19 @@ Here, all three `<div>` elements would be selected, while the `<p>` element woul
 
 Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element. Here's how you add a class to an HTML tag and select it in CSS:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div class="alert-text">Please agree to our terms of service.</div>
-~~~
+```
 
-~~~css
+```css
 /* styles.css */
 
 .alert-text {
   color: red;
 }
-~~~
+```
 
 Note the syntax for class selectors: a period immediately followed by the case-sensitive value of the class attribute. Classes aren't required to be specific to a particular element, so you can use the same class on as many elements as you want.
 
@@ -87,19 +87,19 @@ Another thing you can do with the class attribute is to add multiple classes to 
 
 ID selectors are similar to class selectors. They select an element with the given ID, which is another attribute you place on an HTML element. The major difference between classes and IDs is that an element can only have **one** ID. It cannot be repeated on a single page and should not contain any whitespace:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div id="title">My Awesome 90's Page</div>
-~~~
+```
 
-~~~css
+```css
 /* styles.css */
 
 #title {
   background-color: red;
 }
-~~~
+```
 
 For IDs, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
 
@@ -107,7 +107,7 @@ For IDs, instead of a period, we use a hashtag immediately followed by the case-
 
 What if we have two groups of elements that share some of their style declarations?
 
-~~~css
+```css
 .read {
   color: white;
   background-color: black;
@@ -119,11 +119,11 @@ What if we have two groups of elements that share some of their style declaratio
   background-color: black;
   /* several unique declarations */
 }
-~~~
+```
 
 Both our `.read` and `.unread` selectors share the `color: white;` and `background-color: black;` declarations, but otherwise have several of their own unique declarations. To cut down on the repetition, we can group these two selectors together as a comma-separated list:
 
-~~~css
+```css
 .read,
 .unread {
   color: white;
@@ -137,7 +137,7 @@ Both our `.read` and `.unread` selectors share the `color: white;` and `backgrou
 .unread {
   /* several unique declarations */
 }
-~~~
+```
 
 Both of the examples above (with and without grouping) will have the same result, but the second example reduces the repetition of declarations and makes it easier to edit either the `color` or `background-color` for both classes at once.
 
@@ -145,37 +145,37 @@ Both of the examples above (with and without grouping) will have the same result
 
 Another way to use selectors is to chain them as a list without any separation. Let's say we had the following HTML:
 
-~~~html
+```html
 <div>
   <div class="subsection header">Latest Posts</div>
   <p class="subsection preview">This is where a preview for a post might go.</p>
 </div>
-~~~
+```
 
 We have two elements with the `subsection` class that have some sort of unique styles, but what if we only want to apply a separate rule to the element that also has `header` as a second class? Well, we could chain both the class selectors together in our CSS like so:
 
-~~~css
+```css
 .subsection.header {
   color: red;
 }
-~~~
+```
 
 What `.subsection.header` does is it selects any element that has both the `subsection` _and_ `header` classes. Notice how there isn't any space between the `.subsection` and `.header` class selectors. This syntax basically works for chaining any combination of selectors, except for chaining more than one [type selector](#type-selectors).
 
 This can also be used to chain a class and an ID, as shown below:
 
-~~~html
+```html
 <div>
   <div class="subsection header">Latest Posts</div>
   <p class="subsection" id="preview">
     This is where a preview for a post might go.
   </p>
 </div>
-~~~
+```
 
 You can take the two elements above and combine them with the following:
 
-~~~css
+```css
 .subsection.header {
   color: red;
 }
@@ -183,7 +183,7 @@ You can take the two elements above and combine them with the following:
 .subsection#preview {
   color: blue;
 }
-~~~
+```
 
 In general, you can't chain more than one type selector since an element can’t be two different types at once. For example, chaining two type selectors like `div` and `p` would give us the selector `divp`, which wouldn't work since the selector would try to find a literal `<divp>` element, which doesn’t exist.
 
@@ -193,7 +193,7 @@ Combinators allow us to combine multiple selectors differently than either group
 
 So something like `.ancestor .child` would select an element with the class `child` if it has an ancestor with the class `ancestor`. Another way to think of it is that `child` will only be selected if it is nested inside `ancestor`, regardless of how deep that nesting is. Take a quick look at the example below and see if you can tell which elements would be selected based on the CSS rule provided:
 
-~~~html
+```html
 <!-- index.html -->
 
 <div class="ancestor">
@@ -206,15 +206,15 @@ So something like `.ancestor .child` would select an element with the class `chi
 
 <div class="contents"></div>
 <!-- D -->
-~~~
+```
 
-~~~css
+```css
 /* styles.css */
 
 .ancestor .contents {
   /* some declarations */
 }
-~~~
+```
 
 In the above example, the first two elements with the `contents` class (B and C) would be selected, but that last element (D) wouldn't be. Was your guess correct?
 
@@ -230,7 +230,7 @@ The `color` property sets an element's text color, while `background-color` sets
 
 Almost. Both of these properties can accept one of several kinds of values. A common one is a keyword, such as an actual color name like `red` or the `transparent` keyword. They also accept HEX, RGB, and HSL values, which you may be familiar with if you've ever used a photoshop program or a site where you could customize your profile colors.
 
-~~~css
+```css
 p {
   /* hex example: */
   color: #1100ff;
@@ -245,15 +245,15 @@ p {
   /* hsl example: */
   color: hsl(15, 82%, 56%);
 }
-~~~
+```
 
 Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
 
 #### Typography basics and text-align
 
-`font-family` can be a single value or a comma-separated list of values that determine what font an element uses. Each font will fall into one of two categories, either a "font family name" like `"Times New Roman"` (we use quotes due to the whitespace between words) or a "generic family name" like `sans-serif` (generic family names never use quotes).
+`font-family` can be a single value or a comma-separated list of values that determine what font an element uses. Each font will fall into one of two categories, either a "font family name" like `"Times New Roman"` (we use quotes due to the whitespace between words) or a "generic family name" like `serif` (generic family names never use quotes).
 
-If a browser cannot find or does not support the first font in a list, it will use the next one, then the next one and so on until it finds a supported and valid font. This is why it's best practice to include a list of values for this property, starting with the font you want to be used most and ending with a generic font family as a fallback, e.g. `font-family: "Times New Roman", sans-serif;`
+If a browser cannot find or does not support the first font in a list, it will use the next one, then the next one and so on until it finds a supported and valid font. This is why it's best practice to include a list of values for this property, starting with the font you want to be used most and ending with a generic font family as a fallback, e.g. `font-family: "Times New Roman", serif;`
 
 `font-size` will, as the property name suggests, set the size of the font. When giving a value to this property, the value should not contain any whitespace, e.g. `font-size: 22px` has no space between "22" and "px".
 
@@ -267,12 +267,12 @@ Images aren't the only elements that we can adjust the height and width on, but 
 
 By default, an `<img>` element's `height` and `width` values will be the same as the actual image file's height and width. If you wanted to adjust the size of the image without causing it to lose its proportions, you would use a value of "auto" for the `height` property and adjust the `width` value:
 
-~~~css
+```css
 img {
   height: auto;
   width: 500px;
 }
-~~~
+```
 
 For example, if an image's original size was 500px height and 1000px width, using the above CSS would result in a height of 250px.
 
@@ -286,15 +286,15 @@ Now that we've learned some basic syntax, you might be wondering _how_ to add al
 
 External CSS is the most common method you will come across, and it involves creating a separate file for the CSS and linking it inside of an HTML's opening and closing `<head>` tags with a self-closing `<link>` element:
 
-~~~html
+```html
 <!-- index.html -->
 
 <head>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
-~~~
+```
 
-~~~css
+```css
 /* styles.css */
 
 div {
@@ -305,7 +305,7 @@ div {
 p {
   color: red;
 }
-~~~
+```
 
 First, we add a self-closing `<link>` element inside of the opening and closing `<head>` tags of the HTML file. The `href` attribute is the location of the CSS file, either an absolute URL or, what you'll be utilizing, a URL relative to the location of the HTML file. In our example above, we are assuming both files are located in the same directory. The `rel` attribute is required, and it specifies the relationship between the HTML file and the linked file.
 
@@ -324,7 +324,7 @@ Internal CSS (or embedded CSS) involves adding the CSS within the HTML file itse
 
 Besides these differences, the syntax is exactly the same as the external method (selector, curly braces, declarations):
 
-~~~html
+```html
 <head>
   <style>
     div {
@@ -340,7 +340,7 @@ Besides these differences, the syntax is exactly the same as the external method
 <body>
   ...
 </body>
-~~~
+```
 
 This method can be useful for adding unique styles to a _single page_ of a website, but it doesn't keep things separate like the external method, and depending on how many rules and declarations there are it can cause the HTML file to get pretty big.
 
@@ -348,18 +348,18 @@ This method can be useful for adding unique styles to a _single page_ of a websi
 
 Inline CSS makes it possible to add styles directly to HTML elements, though this method isn't as recommended:
 
-~~~html
+```html
 <body>
   <div style="color: white; background-color: black;">...</div>
 </body>
-~~~
+```
 
 The first thing to note is that we don't actually use any selectors here, since the styles are being added directly to the opening `<div>` tag itself. Next, we have the `style=` attribute, with its value within the pair of quotation marks being the declarations.
 
 If you need to add a _unique_ style for a _single_ element, this method can work just fine. Generally, though, this isn't exactly a recommended way for adding CSS to HTML for a few reasons:
 
 - It can quickly become pretty messy once you start adding a _lot_ of declarations to a single element, causing your HTML file to become unnecessarily bloated.
-- If you want many elements to have the same style, you would have to copy + paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
+- If you want many elements to have the same style, you would have to copy and paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
 - Any inline CSS will override the other two methods, which can cause unexpected results. (While we won't dive into it here, this can actually be taken advantage of.)
 
 ### Assignment

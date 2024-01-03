@@ -22,7 +22,7 @@ We're going to use an npm package called `mongodb-memory-server`. You can see th
 
 Setting it up is actually pretty simple, but there are a few things you need to do.  First, in your actual app, you need to move your mongo/mongoose setup into its own file as seen in the simple example below.
 
-~~~javascript
+```javascript
 //// mongoConfig.js
 const mongoose = require("mongoose");
 
@@ -31,13 +31,13 @@ const mongoDb = `YOUR MONGO URL`;
 mongoose.connect(mongoDb, { useNewUrlParser: true });
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "mongo connection error"));
-~~~
+```
 
 The above code should look very familiar to you by now... it's the same setup code we've been using all along. The only difference is that we've moved it out to its own file so that in our test files we can use a _different_ config file that sets up mongodb-memory-server for us. All you have to do now is `require("./mongoConfig")` in your `app.js` file.
 
 Next we need to create a separate config for our testing environment. The config file that you can find on the `mongodb-memory-server` repo README should work just fine. Below is a slightly edited version of it. Copy this to a new file called `mongoConfigTesting.js`
 
-~~~javascript
+```javascript
 //// mongoConfigTesting.js 
 const mongoose = require("mongoose");
 const { MongoMemoryServer } = require("mongodb-memory-server");
@@ -62,7 +62,7 @@ async function initializeMongoServer() {
 }
 
 module.exports = initializeMongoServer;
-~~~
+```
 
 Now, if your tests are set up similarly to the tests in our last project, you can simply call this function in your testing file, and then any operations that work on your mongo database will use this testing one instead of your real one.
 

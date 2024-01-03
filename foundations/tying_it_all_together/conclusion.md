@@ -6,11 +6,11 @@ You should be fairly comfortable typing commands into your computer's command li
 
 With what you know already you could start putting together some basic websites, but we're here to help you get a lot further than that. We want to bring you to the point where you can confidently build a full-featured and scalable web application, either on your own, or working as a developer in a top-tier tech company.
 
-You've come a long way up the learning curve but there is so much more cool stuff that you'll learn to do, and now is the time to decide which path you want to take. Either Ruby with Ruby on Rails or JavaScript with Node/Express. Both paths will guide you in building skills, building up a portfolio of projects, and becoming a great developer. There is no right answer here on what is the best path. Learning multiple languages can help you become a well-rounded developer, but sticking with one could make you more of an expert in a particular language. Both paths will help you become a great developer. The important thing is to not switch halfway though; this will only set you back.
+You've come a long way up the learning curve but there is so much more cool stuff that you'll learn to do, and now is the time to decide which path you want to take. Either Ruby with Ruby on Rails or JavaScript with Node/Express. Both paths will guide you in building skills, building up a portfolio of projects, and becoming a great developer. There is no right answer here on what is the best path. Learning multiple languages can help you become a well-rounded developer, but sticking with one could make you more of an expert in a particular language. Both paths will help you become a great developer. The important thing is to not switch halfway through; this will only set you back.
 
-Learning how to program is **much** more than just learning a language. It's about learning how to research and solve difficult problems, building an engineering mindset, working on complex problems and codebases, communicating effectively with other developers, and **much** more. Luckily, all these skills are transferrable to other languages and domains of software and because most languages are similar in concept and structure, moving into a different language will be much easier than learning your first.
+Learning how to program is **much** more than just learning a language. It's about learning how to research and solve difficult problems, building an engineering mindset, working on complex problems and codebases, communicating effectively with other developers, and **much** more. Luckily, all these skills are transferable to other languages and domains of software and because most languages are similar in concept and structure, moving into a different language will be much easier than learning your first.
 
-Arguments about learning the languages used in your area may sound convincing, but because a _good_ developer can transfer skills easily, what you learn isn't going to massively change outcomes of getting a job. Though, if you cannot shake that fear, do whatever you need - even if that includes researching your area to see what jobs are available locally (don't forget about remote jobs, though). A good course is far more important than the language you learn first.
+Arguments about learning the languages used in your area may sound convincing, but because a _good_ developer can transfer skills easily, what you learn isn't going to massively change outcomes of getting a job. Though, if you cannot shake that fear, do whatever you need -- even if that includes researching your area to see what jobs are available locally (don't forget about remote jobs, though). A good course is far more important than the language you learn first.
 
 To help you make a decision, here are some perks of each technology:
 
@@ -21,7 +21,7 @@ To help you make a decision, here are some perks of each technology:
   - You will learn things "The Ruby Way", which can help you write clean code in other languages as well.
 - Elegant
   - Brings a lot of tools to help you develop things in a way that makes your code easy to read.
-  - Often times, solutions in Ruby are much more concise than other languages.
+  - Oftentimes solutions in Ruby are much more concise than in other languages.
 - Rapid development
   - Rails helps you build applications very quickly. This means you can make a greater number of interesting projects than others in the same time frame.
 - Single paradigm

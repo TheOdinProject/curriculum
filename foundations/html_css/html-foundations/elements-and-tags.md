@@ -19,17 +19,15 @@ Closing tags tell the browser where an element ends. They are almost the same as
 
 A full paragraph element looks like this:
 
-~~~html
+```html
 <p>some text content</p>
-~~~
-
+```
 
 Let's break this down:
 
 - `<p>` is the opening tag.
-- `some text content` represents content wrapped within the opening and closing tags. 
+- `some text content` represents content wrapped within the opening and closing tags.
 - `</p>` is the closing tag.
-
 
 You can think of elements as containers for content. The opening and closing tags tell the browser what content the element contains. The browser can then use that information to determine how it should interpret and format the content.
 
@@ -43,8 +41,8 @@ Using the correct elements for content is called semantic HTML. We will explore 
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. [Watch Kevin Powell's Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-)
-  
+1. [Watch Kevin Powell's Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-)
+
 </div>
 
 ### Knowledge check

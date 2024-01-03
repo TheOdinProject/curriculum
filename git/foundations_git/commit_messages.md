@@ -6,38 +6,38 @@ This lesson will explain the importance of good commit messages, how to write th
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   How to write a meaningful commit message
-*   Why meaningful commit messages are important
-*   When to commit
+- How to write a meaningful commit message.
+- Why meaningful commit messages are important
+- When to commit.
 
 ### Are commit messages so important they deserve their own lesson?
 
 Yes! Let me give you a quick list of reasons why:
 
--   When you are applying for jobs, employers will look through your projects on GitHub and they will look through your commit history. Having good commits as a novice developer will help you stand out.
+- When you are applying for jobs, employers will look through your projects on GitHub and they will look through your commit history. Having good commits as a novice developer will help you stand out.
 
--   Having a good commit message history will allow you (or other developers working on your code) to quickly see what changes were made and why. This is useful if a bug is found in the code that needs to be fixed!
+- Having a good commit message history will allow you (or other developers working on your code) to quickly see what changes were made and why. This is useful if a bug is found in the code that needs to be fixed!
 
--   Having a good commit message history will also be helpful if you come back to a project you were working on after stepping away from it for a while. You likely won't remember your thought process and changes made when initially writing out the code.
+- Having a good commit message history will also be helpful if you come back to a project you were working on after stepping away from it for a while. You likely won't remember your thought process and changes made when initially writing out the code.
 
 ### Bad vs. good commits
 
 When it comes to writing commits, it is crucial to know how to write them effectively. Here's an example of a bad commit message:
 
-~~~
+```
 fix a bug
-~~~
+```
 
 Even though it describes what you did, the message is too vague, which leaves the other developers on your team confused. A good commit message will explain the **why** behind your changes. In other words, a commit message describes what problem your changes solve and how it solves them.
 
 Effective commits consist of two separate parts: a subject, and a body:
 
 #### Subject
-A brief summary of the change you made to the project. 
+A brief summary of the change you made to the project.
 
-~~~
+```
 This is the change I made to the codebase.
-~~~
+```
 
 <div class="lesson-note lesson-note--tip" markdown=1>
 GitHub has a 72-character limit so we recommend keeping your commits' subject to within this amount.
@@ -46,24 +46,24 @@ GitHub has a 72-character limit so we recommend keeping your commits' subject to
 #### Body
 A concise yet clear description of what you did.
 
-~~~
+```
 Describe the problem your commit solves and how.
-~~~
+```
 
 
 Now that we learned the secret to creating a good commit message, let's try and fix the commit message from earlier:
 
-~~~git
+```git
 Add missing link and alt text to the company's logo
 
 Screen readers won't read the images to users with disabilities without this information
-~~~
+```
 
 Ahh, that's better! :) Now, developers can gain a better understanding of this commit message because it does the following:
 
-* Provides a subject that specifies your code's action (e.g., "Add missing link and alt text to the company's logo")
-* Contains a body that provides a concise yet clear description of why the commit needed to be made (e.g., "Screen readers won't read the images to users with disabilities without this information")
-* Separates the subject from the body with a new/blank line. This is a best practice we highly recommend following. It makes commit messages easier for other developers to read.
+- Provides a subject that specifies your code's action (e.g., "Add missing link and alt text to the company's logo").
+- Contains a body that provides a concise yet clear description of why the commit needed to be made (e.g., "Screen readers won't read the images to users with disabilities without this information").
+- Separates the subject from the body with a new/blank line. This is a best practice we highly recommend following. It makes commit messages easier for other developers to read.
 
 
 
@@ -89,10 +89,10 @@ There will come a time when you are working on a project and you FINALLY get som
 
 ### Tips and things to remember:
 
--   Using VSCode as your text editor (you should have set this up in the Git Basics section) will allow you to easily make multi-line commit messages, easily see the character length of each line, and will allow you to use [VSCode spell check extensions](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to make sure your spelling is correct
--   Use an active voice: "Fix card generator"
--   Avoid using vague commit messages such as "saved" or "updated"
--   Commit early and often!
+- Using VSCode as your text editor (you should have set this up in the Git Basics section) will allow you to easily make multi-line commit messages, easily see the character length of each line, and will allow you to use [VSCode spell check extensions](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to make sure your spelling is correct
+- Use an active voice: "Fix card generator".
+- Avoid using vague commit messages such as "saved" or "updated".
+- Commit early and often!.
 
 ### Knowledge check
 
@@ -105,5 +105,5 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--   One way to formulate high-information commit messages is to follow a template. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) is one of many commit message templates that you can explore.
--   Explore this amazing tutorial video on Conventional Commits ➔ [Full Video Link](https://www.youtube.com/watch?v=OJqUWvmf4gg). The video showcases best commit message practices, including Yarn (a package manager) and creating releases. While the Yarn and creating releases information might not be immediately necessary for Foundations, you don't need to worry about it for now. So, feel free to explore and enhance your commit messages and development workflow.
+- One way to formulate high-information commit messages is to follow a template. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) is one of many commit message templates that you can explore.
+- Explore this amazing tutorial video on Conventional Commits ➔ [Full Video Link](https://www.youtube.com/watch?v=OJqUWvmf4gg). The video showcases the Conventional Commits template from the resource above. It also mentions creating releases and shows using something called "Yarn". These two parts are out of scope for this part of the course, so don't worry about them and instead focus on the commit template.

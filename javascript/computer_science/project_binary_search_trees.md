@@ -18,7 +18,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
     **Tip:** If you would like to visualize your binary search tree, here is a `prettyPrint()` function that will `console.log` your tree in a structured format. This function will expect to receive the root of your tree as the value for the `node` parameter.
 
-    ~~~javascript
+    ```javascript
     const prettyPrint = (node, prefix = "", isLeft = true) => {
       if (node === null) {
         return;
@@ -31,7 +31,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
         prettyPrint(node.left, `${prefix}${isLeft ? "    " : "│   "}`, true);
       }
     };
-    ~~~ 
+    ```
 
 1.  Write `insert` and `delete` functions that accepts a value to insert/delete. You'll have to deal with several cases for delete, such as when a node has children or not. If you need additional resources, check out these two articles on [inserting](https://www.geeksforgeeks.org/insertion-in-binary-search-tree/?ref=lbp) and [deleting](https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/?ref=lbp), or [this video](https://youtu.be/wcIRPqTR3Kc) with several visual examples.
 
@@ -55,7 +55,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 #### Tie it all together
 
-Write a simple driver script that does the following:
+Write a driver script that does the following:
 
 1. Create a binary search tree from an array of random numbers < 100. You can create a function that returns an array of random numbers every time you call it if you wish.
 1. Confirm that the tree is balanced by calling `isBalanced`.

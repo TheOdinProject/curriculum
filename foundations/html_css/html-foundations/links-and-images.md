@@ -8,23 +8,23 @@ In this lesson, we will learn how to create links and add some visual flair to o
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to create links to pages on other websites on the internet
-- How to create links to other pages on your own websites
-- The difference between absolute and relative links
-- How to display an image on a webpage using HTML
+- How to create links to pages on other websites on the internet.
+- How to create links to other pages on your own websites.
+- The difference between absolute and relative links.
+- How to display an image on a webpage using HTML.
 
 ### Preparation
 
 To get some practice using links and images throughout this lesson we need an HTML project to work with.
 
 1. Create a new directory named `odin-links-and-images`.
-2. Within that directory, create a new file named `index.html`.
-3. Open the file in VS Code and fill in the usual HTML boilerplate.
-4. Finally, add the following h1 to the body:
+1. Within that directory, create a new file named `index.html`.
+1. Open the file in VS Code and fill in the usual HTML boilerplate.
+1. Finally, add the following h1 to the body:
 
-~~~html
+```html
 <h1>Homepage</h1>
-~~~
+```
 
 ### Anchor elements
 
@@ -32,9 +32,9 @@ To create a link in HTML, we use the anchor element. An anchor element is define
 
 Add the following to the body of the index.html page we created and open it in the browser:
 
-~~~html
+```html
 <a>click me</a>
-~~~
+```
 
 You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
 
@@ -42,9 +42,9 @@ You may have noticed that clicking this link doesn't do anything. This is becaus
 
 Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
-~~~html
+```html
 <a href="https://www.theodinproject.com/about">click me</a>
-~~~
+```
 
 By default, any text wrapped with an anchor tag without a `href` attribute will look like plain text. If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
 
@@ -52,19 +52,19 @@ It's worth noting you can use anchor tags to link to any kind of resource on the
 
 ### Opening links in a new tab
 
-The method shown above opens links in the same tab as the webpage containing them. This is the default behaviour of most browsers and it can be changed relatively easily. All we need is another attribute: the `target` attribute. 
+The method shown above opens links in the same tab as the webpage containing them. This is the default behaviour of most browsers and it can be changed relatively easily. All we need is another attribute: the `target` attribute.
 
 While `href` specifies the destination link, `target` specifies where the linked resource will be opened. If it is not present, then, by default, it will take on the `_self` value which opens the link in the current tab. To open the link in a new tab or window (depends on browser settings) you can set it to `_blank` as follows:
 
-~~~html
+```html
 <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">click me</a>
-~~~
+```
 
-<span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document. 
+<span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document.
 
 The `noopener` value prevents the opened link from gaining access to the webpage from which it was opened. The `noreferrer` value prevents the opened link from knowing which webpage or resource has a link (or 'reference') to it. It also includes the `noopener` behaviour and thus can be used by itself as well.
 
-Why do we need this added behaviour for opening links in new tabs? Security reasons. The prevention of access that is caused by `noopener` prevents [phishing attacks](https://www.ibm.com/topics/phishing) where the opened link may change the original webpage to a different one to trick users. This is referred to as [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Adding the `noreferrer` value can be done if you wish to not let the opened link know that your webpage links to it. 
+Why do we need this added behaviour for opening links in new tabs? Security reasons. The prevention of access that is caused by `noopener` prevents [phishing attacks](https://www.ibm.com/topics/phishing) where the opened link may change the original webpage to a different one to trick users. This is referred to as [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Adding the `noreferrer` value can be done if you wish to not let the opened link know that your webpage links to it.
 
 Note that you may be fine if you forget to add `rel="noopener noreferrer"` since more recent versions of browsers [provide this security](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy) if only `target="_blank"` is present. Nevertheless, in line with good coding practices and to err on the side of caution, it is recommended to always pair a `target="_blank"` with a `rel="noopener noreferrer"`.
 
@@ -72,8 +72,8 @@ Note that you may be fine if you forget to add `rel="noopener noreferrer"` since
 
 Generally, there are two kinds of links we will create:
 
-1. Links to pages on other websites on the internet
-2. Links to pages located on our own websites
+- Links to pages on other websites on the internet.
+- Links to pages located on our own websites.
 
 #### Absolute links
 
@@ -91,7 +91,7 @@ Relative links only include the file path to the other page, *relative* to the p
 
 Within the `odin-links-and-images` directory, create another HTML file named `about.html` and paste the following code into it:
 
-~~~html
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -103,18 +103,18 @@ Within the `odin-links-and-images` directory, create another HTML file named `ab
     <h1>About Page</h1>
   </body>
 </html>
-~~~
+```
 
 Back in the index page, add the following anchor element to create a link to the about page:
 
-~~~html
+```html
 <body>
   <h1>Homepage</h1>
 	<a href="https://www.theodinproject.com/about">click me</a>
 
 	<a href="about.html">About</a>
 </body>
-~~~
+```
 
 Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
 
@@ -128,23 +128,23 @@ Refresh the index page in the browser and then click on the about link. It will 
 
 To fix this, we just need to update the about link href value to include the `pages/` directory since that is the new location of the about file *relative* to the index file.
 
-~~~html
+```html
 <body>
   <h1>Homepage</h1>
   <a href="pages/about.html">About</a>
 </body>
-~~~
+```
 
 Refresh the index page in the browser and try clicking the about link again, it should now be back in working order.
 
 In many cases, this will work just fine; however, you can still run into unexpected issues with this approach. Prepending `./` before the link will in most cases prevent such issues. By adding  `./` you are specifying to your code that it should start looking for the file/directory *relative* to the `current` directory.
 
-~~~html
+```html
 <body>
   <h1>Homepage</h1>
   <a href="./pages/about.html">About</a>
 </body>
-~~~
+```
 
 
 #### A metaphor
@@ -172,15 +172,51 @@ For example, using an absolute path we can display an image located on The Odin 
 
 To use images that we have on our own websites, we can use a relative path.
 
+<details markdown="block">
+<summary class="dropDown-header">Linux, macOS, ChromeOS
+</summary>
+
 1. Create a new directory named `images` within the `odin-links-and-images` project.
+1. Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
+1. Rename the image to `dog.jpg`.
 
-2. Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
+</details>
 
-3. Rename the image to `dog.jpg`.
+<details markdown="block">
+<summary class="dropDown-header">WSL
+</summary>
+
+When you download a file from the internet, Windows has a security feature that creates a hidden `Zone.Identifier` file with the same name as your downloaded file and it looks like `mypicture.jpg:Zone.Identifier` This file is harmless, but we'd like to avoid copying it over and cluttering up our directories.
+
+1.  Create a new directory named `images` within the `odin-links-and-images` project.
+
+2.  Next, [download the stock dog image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640).
+
+3.  Right click on the new download at the bottom of the chrome window and select "Show in folder".
+
+  1. Alternatively, if you do not see anything at the bottom of the chrome window, open the "Customize and control Google Chrome kebab menu and select the "Downloads" item. This will show all of your downloads, each with its own "Show in folder" button.
+
+4.  Drag the file from your downloads folder to VSCode's file browser into your new `images` directory.
+
+    1. Alternatively, using your Ubuntu terminal, navigate to the folder you want to copy the image to (`cd ~/odin-links-and-images` for example)
+
+    2. Type `cp <space>`
+
+    3. Drag the `dog.jpg` image from a Windows Explorer window and drop it onto the terminal window, it should appear as `"/mnt/c/users/username/Downloads/dog.jpg"`
+
+    4. Type `<space> .` to tell cp that you want to copy the file to your current working directory.
+
+        1. The full command will look something like `cp "/mnt/c/users/username/Downloads/dog.jpg" .`
+
+    5. Hit <kbd>Enter</kbd> to complete the command, and use ls to confirm the file now exists.
+
+Dragging files from Windows into the VSCode file browser prevents the `Zone.Identifier` files from being copied over. From now on, any time you need to copy pictures or other downloaded files like this into WSL, you can do it in this way. If you ever accidentally copy these `Zone.Identifier` files into WSL, you can safely delete them without any issue.
+
+</details>
 
 Finally add the image to the `index.html` file:
 
-~~~html
+```html
 <body>
   <h1>Homepage</h1>
 	<a href="https://www.theodinproject.com/about">click me</a>
@@ -189,7 +225,7 @@ Finally add the image to the `index.html` file:
 
 	<img src="./images/dog.jpg">
 </body>
-~~~
+```
 
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
@@ -198,15 +234,15 @@ What if we want to use the dog image in the about page? We would first have to g
 
 <span id="parent-filepath"></span>To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Let's see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
 
-~~~html
+```html
 <img src="../images/dog.jpg">
-~~~
+```
 
 To break this down:
 
 1. First, we are going to the parent directory of the pages directory which is `odin-links-and-images`.
-2. Then, from the parent directory, we can go into the `images` directory.
-3. Finally, we can access the `dog.jpg` file.
+1. Then, from the parent directory, we can go into the `images` directory.
+1. Finally, we can access the `dog.jpg` file.
 
 Using the metaphor we used earlier, using `../` in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
 
@@ -230,7 +266,7 @@ As a bit of practice, add an alt attribute to the dog image we added to the `odi
 ### Image size attributes
 
 While not strictly required, specifying height and width
-attributes in image tags helps the browser layout the page without causing the page to jump and flash. 
+attributes in image tags helps the browser layout the page without causing the page to jump and flash.
 
 It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it.
 
@@ -250,9 +286,9 @@ Go ahead and update the `odin-links-and-images` project with width and height ta
 <div class="lesson-content__panel" markdown="1">
 
 1. [Watch Kevin Powell's HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
-2. [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
-3. [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
-4. [Read about the four main image formats that can be used on the web](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
+1. [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
+1. [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
+1. [Read about the four main image formats that can be used on the web](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
 
 </div>
 
