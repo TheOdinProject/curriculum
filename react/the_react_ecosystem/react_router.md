@@ -362,7 +362,7 @@ const ErrorPage = () => {
 export default ErrorPage;
 ~~~
 
-Add the `errorElement` to the configuration, and verify that it renders an error page by going to the `/profile` path or any unmentioned paths.
+Add the `errorElement` to the configuration, and verify that it renders an error page by going to the `/profile` path or any unmentioned paths. We'll wire this back up in the assignment.
 
 ~~~jsx
 import React from "react";
