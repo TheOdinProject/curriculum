@@ -112,14 +112,12 @@ The `person` state stays the same throughout the current render of the component
 The following is an infinite loop, can you guess why? Drop by in our [Discord chatroom](https://discord.com/invite/fbFCkYabZB), tell us why, and score a brownie point!
 
 ~~~jsx
-function Time() {
-  const [time, setTime] = useState(new Date());
+function Component() {
+  const [count, setCount] = useState(0);
 
-  setTime(new Date());
+  setCount(count + 1);
 
-  return (
-    <h1>{time.toLocaleTimeString()}</h1>
-  );
+  return <h1>{count}</h1>;
 }
 ~~~
 

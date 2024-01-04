@@ -90,4 +90,3 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 1. This [jest cheat sheet](https://github.com/sapegin/jest-cheat-sheet) walks you quickly through all the frequently used methods.
-2. If you wish, you can add Jest to your webpack setup.  Read about that process [here](https://jestjs.io/docs/webpack).
