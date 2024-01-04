@@ -22,7 +22,7 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
   1. Start by creating a `HashMap` class or factory function. It's up to you which you want to use. Then proceed to create the following methods:
 
-  1. `hash` takes a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing function, it is up to you if you want to do a research to find a good hashing function but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
+  1. `hash` takes a value and produces a hash code with it. We did implement a fairly good `hash` function in the previous lesson. You are free to use that, or if you wish, you can conduct your own research. Beware, this is a deep deep rabbit hole.
 
   1. `set` takes two arguments, the first is a key and the second is a value that is assigned to this key, if a key already exists then the old value is overwritten.
 
