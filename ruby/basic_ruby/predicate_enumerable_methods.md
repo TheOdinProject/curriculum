@@ -27,6 +27,7 @@ result = false
 numbers.each do |number|
   if number == element
     result = true
+    break
   end
 end
 
@@ -39,12 +40,14 @@ result = false
 numbers.each do |number|
   if number == element
     result = true
+    break
   end
 end
 
 result
 #=> false
 ```
+If you notice, there is a `break` statement in the `if` condition so that loop stops executing once the number is found. Otherwise it would still run over all numbers in the array which is not needed as we have already found the element
 
 Using `#include?`, this code can be greatly simplified:
 
@@ -81,6 +84,7 @@ result = false
 numbers.each do |number|
   if number > 500
     result = true
+    break
   end
 end
 
@@ -93,6 +97,7 @@ result = false
 numbers.each do |number|
   if number < 20
     result = true
+    break
   end
 end
 
@@ -115,39 +120,39 @@ numbers.any? { |number| number < 20 }
 ### The all? method
 The `all?` method is also fairly intuitive. It only returns `true` if *all* the elements in your array or hash match the condition you set within the block; otherwise, it will return `false`.
 
-Let's say that we want to check whether all the words in our list are more than 6 characters long. First,let's see how we could achieve this using `#each`:
+Let's say that we want to check whether all the words in our list are more than 3 characters or 6 characters long. First,let's see how we could achieve this using `#each`:
 
 ```ruby
 fruits = ["apple", "banana", "strawberry", "pineapple"]
-matches = []
 result = false
 
 fruits.each do |fruit|
-  if fruit.length > 3
-    matches.push(fruit)
+  if fruit.length <= 3
+    result = false
+    break
   end
-
-  result = fruits.length == matches.length
+  result = true
 end
 
 result
 #=> true
 
 fruits = ["apple", "banana", "strawberry", "pineapple"]
-matches = []
+
 result = false
 
 fruits.each do |fruit|
-  if fruit.length > 6
-    matches.push(fruit)
+  if fruit.length <= 6
+    result = false
+    break
   end
-
-  result = fruits.length == matches.length
+result = true
 end
 
 result
 #=> false
 ```
+Here we have used a reverse logic exiting the loop as soon as we find any element that doesn't match our condition. Again, this avoids our loop to not go over all the array when there isn't a match.
 
 Using `#all?`, this code can be greatly simplified:
 
@@ -170,30 +175,30 @@ First, let's see how this could be achieved using `#each`. You'll notice that th
 
 ```ruby
 fruits = ["apple", "banana", "strawberry", "pineapple"]
-matches = []
 result = false
 
 fruits.each do |fruit|
   if fruit.length > 10
-    matches.push(fruit)
+    result = false
+    break
   end
 
-  result = matches.length == 0
+  result = true
 end
 
 result
 #=> true
 
 fruits = ["apple", "banana", "strawberry", "pineapple"]
-matches = []
 result = false
 
 fruits.each do |fruit|
   if fruit.length > 6
-    matches.push(fruit)
+    result = false
+    break
   end
 
-  result = matches.length == 0
+  result = true
 end
 
 result
