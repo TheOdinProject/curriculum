@@ -14,8 +14,6 @@ You already know the magic behind hash maps, now it's time to write your own imp
       }
       ```
 
-  1. Inside the class DO NOT use the array method `push()` to insert your nodes into the buckets. Always use indexes.
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
