@@ -6,7 +6,7 @@ Backing up, if you're still unclear on what an API (Application Programming Inte
 
 "API" is an incredibly broad concept -- any time your application talks to another application, that's via some sort of API.  The components within your own application, e.g. the different pieces of Rails, also talk to each other via APIs... they are more or less independent sub-applications that pass along the data they each need to complete their particular task.  Everything's an API in application-land!
 
-When you build applications that have more dynamic front-end functionality (as complicated as single page JavaScript applications or as simple as individual AJAX calls), they will talk to your Rails backend via your own APIs... which is really just an extra line or two of code to tell your controllers how to spit out JSON or XML instead of HTML.  
+When you build applications that have more dynamic front-end functionality (as complicated as single page JavaScript applications or as basic as individual AJAX calls), they will talk to your Rails backend via your own APIs... which is really just an extra line or two of code to tell your controllers how to spit out JSON or XML instead of HTML.  
 
 In this lesson, we'll cover how to build your own API.  In the following lesson, we'll cover how to interface with the APIs of other applications.  The lessons are meant to give you a good onramp to learning this stuff but couldn't possibly cover all the cases.  Much of working with APIs is learning to read their documentation and figure out what they want.
 
@@ -25,7 +25,7 @@ Your Rails application is basically already an API, though you may not think of 
 
 Often, though, you want to make a request that doesn't need to go through all the headache of using a web browser.  You may not care how the page is structured (HTML), but instead just want to get straight to the data.  Say you want to get a list of all users.  You could go to something like `http://yourapplication.com/users` which will probably run the `#index` action and render a list of all the application's users.  
 
-But why bother with all that extra stuff if all you want is the user list?  The easiest thing to do would be to submit a request to that same URL asking for a JSON or XML response instead.  If you set up your Rails controller properly, you will get back a simple JSON array object containing all the users.  Sweet!
+But why bother with all that extra stuff if all you want is the user list?  The easiest thing to do would be to submit a request to that same URL asking for a JSON or XML response instead.  If you set up your Rails controller properly, you will get back a JSON array object containing all the users.  Sweet!
 
 The same principle applies if you're talking to external APIs... say you want to grab a user's recent tweets from Twitter.  You just need to tell your Rails app how to talk to Twitter's API (e.g. authenticate yourself), submit the request, and handle the bunch of tweets that get returned.  
 
@@ -126,7 +126,7 @@ See the [as_json documentation](https://api.rubyonrails.org/classes/ActiveModel/
 #### Rendering nothing or errors
 
 Sometimes you just want to send out an HTTP error code without any response body. [Rails guides](https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses) once again comes in really handy with an elegant solution for this problem. 
-Here's a simple example (again we are just rendering the error in all cases):
+Here's an example (again we are just rendering the error in all cases):
 
 ~~~ruby
   # app/controllers/users_controller.rb

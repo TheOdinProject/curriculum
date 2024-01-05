@@ -52,7 +52,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 
 #### Finishing touches
 1. Separate the past and upcoming events on the Event's Index page by creating two class methods on the Event model (e.g. `Event.past`).
-2. Refactor the past and upcoming class methods into simple [scopes](https://guides.rubyonrails.org/active_record_querying.html#scopes).
+2. Refactor the past and upcoming class methods into [scopes](https://guides.rubyonrails.org/active_record_querying.html#scopes).
 3. Put navigation links across the top to help you jump around.
 4. Extra Credit: Allow users to edit and delete the events they created.
 5. Extra Credit: Allow users to remove themselves as an attendee to their "attended_events".
