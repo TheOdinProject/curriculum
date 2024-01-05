@@ -124,35 +124,33 @@ Let's say that we want to check whether all the words in our list are more than 
 
 ```ruby
 fruits = ["apple", "banana", "strawberry", "pineapple"]
+matches = []
 result = false
 
 fruits.each do |fruit|
-  if fruit.length <= 3
-    result = false
-    break
+  if fruit.length > 3
+    matches.push(fruit)
   end
-  result = true
 end
 
+result = fruits.length == matches.length
 result
 #=> true
 
 fruits = ["apple", "banana", "strawberry", "pineapple"]
-
+matches = []
 result = false
 
 fruits.each do |fruit|
-  if fruit.length <= 6
-    result = false
-    break
+  if fruit.length > 6
+    matches.push(fruit)
   end
-result = true
 end
 
+result = fruits.length == matches.length
 result
 #=> false
 ```
-Here we have used a reverse logic exiting the loop as soon as we find any element that doesn't match our condition. Again, this avoids our loop to not go over all the array when there isn't a match.
 
 Using `#all?`, this code can be greatly simplified:
 
