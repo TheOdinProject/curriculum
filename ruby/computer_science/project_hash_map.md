@@ -12,15 +12,17 @@ You already know the magic behind hash maps, now it's time to write your own imp
       raise IndexError if index.negative? || index >= @buckets.length
       ```
 
-  1. Inside the class DO NOT use the array method `#push` to insert your nodes into the buckets. Always use indexes.
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
   1. Start by creating a `HashMap` class. Proceed to create the following methods:
 
-  1. `#hash` takes a value and produces a hash code with it. There are a lot of thought that goes into creating the most optimal hashing method, it is up to you if you want to do a research to find a good hashing method but do not dive too deep into the rabbit hole. Make sure to test that it's not producing too many similar hash codes that will lead to too many collisions.
+  1. `#hash` takes a value and produces a hash code with it. We did implement a fairly good `hash` method in the previous lesson. You are free to use that, or if you wish, you can conduct your own research. Beware this is a deep deep rabbit hole.
+
+    <div class="lesson-note lesson-note--tip" markdown="1">
+      Hash maps could accommodate various data types for keys like numbers, strings, and even other hashes. But for this project, only handle keys of type strings.
+    </div>
 
   1. `#set` takes two arguments, the first is a key and the second is a value that is assigned to this key, if a key already exists then the old value is overwritten.
 
