@@ -143,7 +143,7 @@ Dependency management also feeds into the next consideration. How do you manage 
 
 One other main consideration is when using importmaps you have much less control over asset bundling, so if you do require anything more complicated than just importing the third party package code to your app then importmaps won't work. It can't transpile or bundle any code. In that case you'll need another option which we cover in a later lesson.
 
-All of the above may have you wondering why you'd use importmaps all things considered. We'd say they actually reflect the Rails way really well. Have a simple default option that you can use for as long as possible and then when your requirements grow outside of that you have other options to reach for which will add another layer of complexity but will be justified. With Webpacker that complexity was thrown at you even if you didn't require it. So start with importmaps for all of your applications and only look to change that when you need to.
+All of the above may have you wondering why you'd use importmaps all things considered. We'd say they actually reflect the Rails way really well. Have a default option that you can use for as long as possible and then when your requirements grow outside of that you have other options to reach for which will add another layer of complexity but will be justified. With Webpacker that complexity was thrown at you even if you didn't require it. So start with importmaps for all of your applications and only look to change that when you need to.
 
 ### Assignment
 

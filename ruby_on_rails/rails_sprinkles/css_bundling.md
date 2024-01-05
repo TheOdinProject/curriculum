@@ -32,7 +32,7 @@ A utility-first CSS framework. It works similarly to Bootstrap in that you add C
 
 ### Installation
 
-For a new Rails 7 app installation is as simple as a command line argument when creating the app
+For a new Rails 7 app installation is as straightforward as a command line argument when creating the app
 
 ~~~bash
 rails new myapp --css [tailwind|bootstrap|bulma|postcss|sass]

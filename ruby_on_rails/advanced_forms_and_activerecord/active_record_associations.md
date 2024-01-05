@@ -66,13 +66,13 @@ But now Rails doesn't have the foggiest idea where to look and what to look for.
   end
 ~~~
 
-The basic gist of this is simple -- assume that Rails is looking for the foreign key named after the association in the table also named after the association.  If any of these are incorrect because of a creatively named association or foreign key, you'll need to specify.  This is quite common to make your associations more legible.
+The basic gist of this is assume that Rails is looking for the foreign key named after the association in the table also named after the association.  If any of these are incorrect because of a creatively named association or foreign key, you'll need to specify.  This is quite common to make your associations more legible.
 
 #### Source
 
 Now that it's clear you need to let Rails know when you've creatively named your associations or foreign keys, we should point out that there's one additional step required if you're using a creatively named `has_many :through` association.  Recall that has-many-through associations are where you create a "through table" to act as a go-between for two models that have a many-to-many relationship.
 
-For example, perhaps we change the example above so a Post actually can have multiple Authors (but still only one editor).  We'll need to create a new table, which we'll call `post_authorings`.  `post_authorings` joins these two models together and contains columns for `authored_post_id` and `post_author_id`.  You can probably see where this is going -- we've named our foreign keys something more descriptive and helpful than just simply `post_id` and `user_id` but it will require us to inform Rails of the change.  Our models look like:
+For example, perhaps we change the example above so a Post actually can have multiple Authors (but still only one editor).  We'll need to create a new table, which we'll call `post_authorings`.  `post_authorings` joins these two models together and contains columns for `authored_post_id` and `post_author_id`.  You can probably see where this is going -- we've named our foreign keys something more descriptive and helpful than just `post_id` and `user_id` but it will require us to inform Rails of the change.  Our models look like:
 
 ~~~ruby
   # app/models/post.rb
@@ -160,7 +160,7 @@ We have to call our foreign key something a bit different from the normal case s
   end
 ~~~
 
-"Commentable" will be used to refer to the associations as well.  You'll need to tell your Comment model that it is actually polymorphic so Rails knows to also check for a `commentable_type` column when using it.  This is done simply:
+"Commentable" will be used to refer to the associations as well.  You'll need to tell your Comment model that it is actually polymorphic so Rails knows to also check for a `commentable_type` column when using it.  This is done like:
 
 ~~~ruby
   # app/models/comment.rb
