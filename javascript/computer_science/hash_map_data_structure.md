@@ -84,7 +84,7 @@ You might be thinking, wouldn't it be just better to save the whole name as a ha
 
 ### Buckets
 
-Buckets are storage that we need to store our elements. Simply, it's an array. For a specific key, we decide which bucket to use for storage through our hash function. Hash function returns a number which serves as the index of the array at which we store this specific key value pair. Let's say we need to store a key "Fred":
+Buckets are storage that we need to store our elements. Simply, it's an array. For a specific key, we decide which bucket to use for storage through our hash function. The hash function returns a number that serves as the index of the array at which we store this specific key value pair. Let's say we need to store a key "Fred":
 
 1. Pass "Fred" into the hash function to get the hash code which is `508`
 1. Find the bucket at index `508`
@@ -92,7 +92,7 @@ Buckets are storage that we need to store our elements. Simply, it's an array. F
 
 This is an oversimplified explanation; we'll discuss more internal mechanics later in the lesson.
 
-To get a value using a key, we put each entry inside a bucket as a `Node` item, which hold both the key and the value. To retrieve the value we hash a key, we find the bucket number, if the bucket is not empty then we go to that bucket we compare if the Node's key is the same key that is already in the bucket, if it is then we retrieve the Node's value otherwise we return null.
+To get a value using a key, we put each entry inside a bucket as a `Node` item, which holds both the key and the value. To retrieve the value, we hash the key and calculate its bucket number. If the bucket is not empty, then we go to that bucket and compare if the Node's key is the same key that is already in the bucket. If it is, then we can return the Node's value. Otherwise, we return null.
 
 Maybe you are wondering, why are we comparing the keys if we already found the index of that bucket? That is because remember, hash code is just the location, different keys might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
 
@@ -102,7 +102,7 @@ What if we found the hash code, but also the key value is the same as what we al
 
 #### Insertion order is not maintained
 
-A hash map does not guarantee insertion order when you iterate over it. Hash codes translation to indexes does not go in linear fashion from first to last index, and rather more chaotic of where the index going to be no matter the insert order. That means if you are to retrieve the array of keys and values to iterate over them, then they will not be in order of when you inserted them.
+A hash map does not guarantee insertion order when you iterate over it. The translation of hash codes to indexes does not follow a linear progression from the first to the last index. Instead, it is more unpredictable, irrespective of the order in which items are inserted. That means if you are to retrieve the array of keys and values to iterate over them, then they will not be in order of when you inserted them.
 
 Some libraries implement hash tables with insertion order in mind such as JavaScript's own `Map`. For this project however we will be implementing an unordered hash table.
 Example: if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]` when we call an iterator.
@@ -114,7 +114,7 @@ If iterating over the hash map frequently is your goal, then this data structure
 We have another problem that we need to deal with: collisions. A collision occurs when two different keys generate the exact same hash code. Because they have the same hash code, they will land in the same bucket.
 
 Let's take an example: hashing the name `"Sara"` and the name `"raSa"` will generate the same hash code. That is because the letters in both names are the same, just arranged differently.
-We can rework our `stringToNumber` function so that it can give us unique hash codes which depends on where the letter appear in the name using an algorithm.
+We can rework our `stringToNumber` function so that it can give us unique hash codes that depend on where the letters appear in the name using an algorithm.
 
 ```javascript
 function stringToNumber(string) {
@@ -129,10 +129,10 @@ function stringToNumber(string) {
 }
 ```
 
-With our new function we will have different hash codes for the names `"Sara"` and `"raSa"` that is because even if both names have the same letters, some of the letters appear in different locations. The hash code started to change because we are multiplying the old hash every new iteration and then adding the letter code.
+With our new function we will have different hash codes for the names `"Sara"` and `"raSa"`. This is because even if both names have the same letters, some of the letters appear in different locations. The hash code started to change because we are multiplying the old hash every new iteration and then adding the letter code.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
-  Notice the usage of prime number. We could have chosen any number we wanted, but prime numbers are even better to introduce less hash codes that are divisible by the same bucket length, which will make collisions less likely to happen.
+  Notice the usage of a prime number. We could have chosen any number we wanted, but prime numbers are preferable. Multiplying by a prime number will reduce the likelihood of hash codes being evenly divisible by the bucket length, which helps minimize the occurrence of collisions.
 </div>
 
 Even though we reworked our hash function to avoid the `"Sara"/"raSa"` collision, there is always the possibility for collisions. Since we have a finite number of buckets, there is no way to eliminate collisions entirely. Let's try to minimize them.
@@ -148,7 +148,7 @@ You probably understand by this point why we must write a good hashing function 
 Let's talk about the growth of our buckets. We don't have infinite memory, so we can't have an infinite amount of buckets. We need to start somewhere, but starting too big is also a waste of memory if we're only going to have a hash map with a single value in it. So to deal with this issue, we should start with a small array for our buckets. We'll use an array size `16`.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
-  Most programming languages start with the default size of `16` because it's a power of 2, which help with some techniques for performance that require bit manipulation for indexes.
+  Most programming languages start with the default size of `16` because it's a power of 2, which helps with some techniques for performance that require bit manipulation for indexes.
 </div>
 
 How are we going to insert into those buckets when our hash function generates big numbers like `20353924`? We make use of the modulo `%` operation `given any number modulo by 16 we will get a number between 0 and 15`.
@@ -165,7 +165,7 @@ To deal with this, our hash map class need to keep track of two new fields, the 
 
 - The `capacity` is the total number of buckets we currently have. Keeping track of this will let us know if our map has reached a certain threshold aka `load factor`,
 
-- The `load factor` is a number that we can assign our hash map to at the start. It's the factor that will determine when is it a good time to grow our buckets, for example a load factor of `0.75` means our hash map will need to grow its buckets when the capacity reaches 75% full. Setting it too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have many collisions before we grow them. Hash map implementations across various languages use a load factor between `0.75` and `1`.
+- The `load factor` is a number that we can assign our hash map to at the start. It's the factor that will determine when is it a good time to grow our buckets. For example, a load factor of `0.75` means our hash map will need to grow its buckets when the capacity reaches 75% full. Setting it too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have many collisions before we grow them. Hash map implementations across various languages use a load factor between `0.75` and `1`.
 
 ### Computation complexity
 
