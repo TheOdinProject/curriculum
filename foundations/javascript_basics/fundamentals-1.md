@@ -1,5 +1,5 @@
 ### Introduction
-Let's dive right into JavaScript!
+In the previous sections you learnt how to structure webpages with HTML and style them with CSS. The next step is to make the webpage _interactive_, which is exactly what JavaScript is for. In this section, we will focus on the fundamentals of JavaScript and how you can use it to manipulate all the various interactions between the web page and user.
 
 ### Lesson overview
 
@@ -120,3 +120,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - The differences between `var` and `let` are explained in [this javascript.info article titled the old "var"](https://javascript.info/var).
+- [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) explains a bit more about JavaScript on a high-level.
