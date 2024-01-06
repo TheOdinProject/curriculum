@@ -31,11 +31,11 @@ There is a lot of reading in this lesson, so you are encouraged to code along wi
     * Read the [basic usage](https://docs.rubocop.org/rubocop/usage/basic_usage.html) of rubocop in the terminal.
     * To highlight the rubocop offenses in VSCode, you will need to have the 'Ruby' extension installed. In addition, you will need to update your settings.json file with the following lines:
 
-~~~bash
+```bash
 "ruby.lint": {
   "rubocop": true,
 },
-~~~
+```
 
 **If the above instructions do not work**, explore the initial configuration options in the extension's [documentation](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby). Another alternative is to try the [ruby-rubocop](https://marketplace.visualstudio.com/items?itemName=misogi.ruby-rubocop) extension, but be aware of the potential problems listed in their documentation.
 
