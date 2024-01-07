@@ -1,6 +1,6 @@
 ### Introduction
 
-One of the most used data structure across programming languages is a hash table, aka hash map. If you've worked with JavaScript Object Literal (`{}`), `Set`, or `Map`, then you have used structures based on hash tables. But how do they work internally? How can we save key value pairs and later retrieve them?
+One of the most used data structure across programming languages is a hash table, aka hash map. If you've worked with JavaScript Object Literals (`{}`), [`Set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), or [`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), then you have used structures based on hash tables. But how do they work internally? How can we save key value pairs and later retrieve them?
 
 In this lesson, you will learn how it all works, and even implement your own hash map in the next project! To start, here is a brief description of a hash map: a hash map takes in a key value pair, produces a hash code, and stores the pair in a bucket. Hash codes? Buckets? What? Don't fret, we'll learn all about these concepts and more. Buckle up and let's dive in!
 
@@ -86,28 +86,28 @@ You might be thinking, wouldn't it be just better to save the whole name as a ha
 
 Buckets are storage that we need to store our elements. Simply, it's an array. For a specific key, we decide which bucket to use for storage through our hash function. The hash function returns a number that serves as the index of the array at which we store this specific key value pair. Let's say we need to store a key "Fred":
 
-1. Pass "Fred" into the hash function to get the hash code which is `508`
-1. Find the bucket at index `508`
+1. Pass "Fred" into the hash function to get the hash code which is `508`.
+1. Find the bucket at index `508`.
 1. Store the key value pair in that bucket.
 
 This is an oversimplified explanation; we'll discuss more internal mechanics later in the lesson.
 
-To get a value using a key, we put each entry inside a bucket as a `Node` item, which holds both the key and the value. To retrieve the value, we hash the key and calculate its bucket number. If the bucket is not empty, then we go to that bucket and compare if the Node's key is the same key that is already in the bucket. If it is, then we can return the Node's value. Otherwise, we return null.
+To get a value using a key, we put each entry inside a bucket as a `Node` item, which holds both the key and the value. To retrieve the value, we hash the key and calculate its bucket number. If the bucket is not empty, then we go to that bucket and compare if the Node's key is the same key that is already in the bucket. If it is, then we can return the Node's value. Otherwise, we return `null`.
 
-Maybe you are wondering, why are we comparing the keys if we already found the index of that bucket? That is because remember, hash code is just the location, different keys might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
+Maybe you are wondering, why are we comparing the keys if we already found the index of that bucket? Remember, a hash code is just the location. Different keys might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
 
 This is it, making this will result in a hash table with `has`, `set` and `get`.
 
-What if we found the hash code, but also the key value is the same as what we already have in the bucket. We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`, `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have Nodes with only keys and no values.
+What if we found the hash code, but also the key value is the same as what we already have in the bucket? We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`. A `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have Nodes with only keys and no values.
 
 #### Insertion order is not maintained
 
 A hash map does not guarantee insertion order when you iterate over it. The translation of hash codes to indexes does not follow a linear progression from the first to the last index. Instead, it is more unpredictable, irrespective of the order in which items are inserted. That means if you are to retrieve the array of keys and values to iterate over them, then they will not be in order of when you inserted them.
 
-Some libraries implement hash tables with insertion order in mind such as JavaScript's own `Map`. For this project however we will be implementing an unordered hash table.
+Some libraries implement hash tables with insertion order in mind such as JavaScript's own `Map`. For the coming project however we will be implementing an unordered hash table.
 Example: if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]` when we call an iterator.
 
-If iterating over the hash map frequently is your goal, then this data structure is not the right choice for the job, a simple array would be better.
+If iterating over a hash map frequently is your goal, then this data structure is not the right choice for the job, a simple array would be better.
 
 ### Collisions
 
@@ -139,9 +139,9 @@ Even though we reworked our hash function to avoid the `"Sara"/"raSa"` collision
 
 #### Dealing with collisions
 
-Up until now, our hash map is a one-dimensional data structure. What if each `Node` inside the bucket can store more than one value? Enters `Linked Lists`. Now, each bucket will be a Linked List. When inserting to a bucket, if it's empty, we insert the head of Linked List. If a head exists in a bucket, we follow that Linked List to add to the end of it.
+Up until now, our hash map is a one-dimensional data structure. What if each `Node` inside the bucket can store more than one value? Enter `Linked Lists`. Now, each bucket will be a Linked List. When inserting to a bucket, if it's empty, we insert the head of Linked List. If a head exists in a bucket, we follow that Linked List to add to the end of it.
 
-You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible. Most likely you will not be writing your own hash functions, as most languages have it built in. But understanding how hash functions work is important.
+You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible. Most likely you will not be writing your own hash functions, as most languages have it built in, but understanding how hash functions work is important.
 
 ### Growth of a hash table
 
@@ -157,7 +157,7 @@ For example, if we are to find the bucket where the value `"Manon"` will land, t
 
 If we keep adding nodes into our buckets then the buckets will start filling up, but what is more important is we know for a fact that if almost all buckets have items in them, then collisions are guaranteed, it is mathematically impossible not to.
 
-Remember we don't want collisions, in a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new buckets list that is double the size of the old buckets list, then we copy all nodes over to the new buckets.
+Remember we don't want collisions. In a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new buckets list that is double the size of the old buckets list, then we copy all nodes over to the new buckets.
 
 #### When do we know that it's time to grow our buckets size
 
@@ -169,14 +169,14 @@ To deal with this, our hash map class need to keep track of two new fields, the 
 
 ### Computation complexity
 
-A hash map is very efficient in its insertion, retrieving and removing operations. That is because we use array indexes to do those operations. A hash map has an average case complexity of `O(1)` for the following methods:
+A hash map is very efficient in its insertion, retrieval and removal operations. This is because we use array indexes to do these operations. A hash map has an average case complexity of `O(1)` for the following methods:
 - Insertion
-- Retrieving
-- Deletion
+- Retrieval
+- Removal
 
-Assuming we have a good hash map written. The worst case of those operations would be `O(n)` and that happens when we have all our data hashes to the same exact bucket. The complexity itself surfaces because of the linked list, and O(n) is because we are traversing the linked list to insert yet again another Node in the same bucket. Which happens specifically because of collisions.
+Assuming we have a good hash map written. The worst case of those operations would be `O(n)` and that happens when we have all our data hashes to the same exact bucket. The complexity itself surfaces because of the linked list, and `O(n)` is because we are traversing the linked list to insert yet again another Node in the same bucket, which happens specifically because of collisions.
 
-The Growth of our hash map has the complexity of `O(n)` at all times.
+The growth of our hash map has the complexity of `O(n)` at all times.
 
 ### Assignment
 
