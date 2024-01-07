@@ -9,7 +9,7 @@ In this lesson, we’ll cover the basics of what a function is and some common w
 - Recognize the basic parts of a CSS function
 - Learn about the `calc()`, `min()`, `max()`, and `clamp()` functions and how to use each one
 
-#### What is a function and how are they used in CSS?
+### What is a function and how are they used in CSS?
 
 Similar to programming languages, functions in CSS are reusable pieces of code which perform specific tasks. Functions are passed “arguments” between parentheses, each of which is used by the function in a specific way. Some common examples are:
 
@@ -26,7 +26,7 @@ Besides defining colors, <span id='responsive-design-knowledge-check'>there are 
 
 Let’s go over a few of these functions: <span id='function-names-knowledge-check'>`calc()`, `min()`, `max()`, and `clamp()`.</span>
 
-#### calc()
+### calc()
 
 The most powerful use cases for calc include:
 
@@ -62,7 +62,7 @@ You should be able to grasp how `calc()` is used in the above CodePen embed. We 
 The above is just an example of how `calc()` can affect a layout, but keep in mind that `calc()` is likely not the best way to go about it. We will talk more about layouts in future lessons.
 </div>
 
-#### min()
+### min()
 
 `min()` does an excellent job of helping us create responsive websites. Take a look at this example:
 
@@ -88,7 +88,7 @@ If there are not `150px` available, the image will switch to `100%` of the paren
 In the first case `min()` selects `150px`, since `150px` is the smaller (the minimum) between `150px` and `100%` of the parent's width; in the second, it chooses `100%`. `min()` behaves as a boundary for the _maximum_ allowed value, which in this example is `150px`.
 <br>You are able to do basic math inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`
 
-#### max()
+### max()
 
 Max works the same way as min, only in reverse. It will select the largest possible value from within the parentheses. You can think of `max()` as ensuring a _minimum_ allowed value for a property.
 
@@ -103,7 +103,7 @@ From this list of given sizes, `max()` will select the largest one. As long as `
 The max function is most useful when the viewing window is either exceptionally small, or the user increases the content size by using the browser’s zoom feature.
 You may not find a lot of use for max at first, but it is a good tool to be aware of for projects where accessibility is important.
 
-#### clamp()
+### clamp()
 
 `clamp()` is a great way to make elements fluid and responsive.
 `clamp()` takes 3 values:
