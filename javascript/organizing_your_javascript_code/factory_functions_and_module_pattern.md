@@ -206,10 +206,10 @@ In the lesson with constructors, we looked deeply into the concept of prototype 
 
 ```javascript
 function createPlayer (name, level) {
-  const { discordName, getReputation } = createUser(name);
+  const { getReputation, giveReputation } = createUser(name);
 
   const increaseLevel = () => level++;
-  return { name, discordName, getReputation, increaseLevel };
+  return { name, getReputation, giveReputation, increaseLevel };
 }
 ```
 
