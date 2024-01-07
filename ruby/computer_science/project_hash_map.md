@@ -20,9 +20,9 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
   1. `#hash` takes a value and produces a hash code with it. We did implement a fairly good `hash` method in the previous lesson. You are free to use that, or if you wish, you can conduct your own research. Beware this is a deep deep rabbit hole.
 
-    <div class="lesson-note lesson-note--tip" markdown="1">
-      Hash maps could accommodate various data types for keys like numbers, strings, and even other hashes. But for this project, only handle keys of type strings.
-    </div>
+      <div class="lesson-note lesson-note--tip" markdown="1">
+        Hash maps could accommodate various data types for keys like numbers, strings, and even other hashes. But for this project, only handle keys of type strings.
+      </div>
 
   1. `#set` takes two arguments, the first is a key and the second is a value that is assigned to this key. If a key already exists, then the old value is overwritten.
 
