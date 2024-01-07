@@ -47,7 +47,9 @@ end
 result
 #=> false
 ```
-If you notice, there is a `break` statement in the `if` condition so that loop stops executing once the number is found. Otherwise it would still run over all numbers in the array which is not needed as we have already found the element
+<div class="lesson-note">
+If you notice, there is a `break` statement in the `if` condition so that loop stops executing once the number is found. Otherwise it would still run over all numbers in the array which is not needed as we have already found the element.
+</div>
 
 Using `#include?`, this code can be greatly simplified:
 
