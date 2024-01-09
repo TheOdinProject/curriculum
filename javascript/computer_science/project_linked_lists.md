@@ -35,7 +35,10 @@ For a more thorough explanation, use these resources:
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  You will need two classes or factories:
+
+If you wish to use multiple ES6 modules, you need to tell Node you are using them either by using the `.mjs` extension and running your script with `node file_name.mjs`, or by creating a `package.json` file in the root of the project that contains `"type": "module"` which will allow you to keep using `.js` i.e. `node file_name.js`. This is because by default, Node uses something called CommonJS modules instead which you can read more about [here](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/).
+
+You will need two classes or factories:
 
 1. `LinkedList` class / factory, which will represent the full list.
 2. `Node` class / factory, containing a `value` property and a link to the `nextNode`, set both as `null` by default.
