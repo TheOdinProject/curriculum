@@ -1,6 +1,6 @@
 ### Introduction
 
-Type Checking is a process of verifying that a piece of code is using the correct data types for variables, function parameters and return values. In the context of React applications, we are going to use PropTypes to do that job. 
+Type Checking is a process of verifying that a piece of code is using the correct data types for variables, function parameters and return values. In the context of React applications, we are going to use PropTypes to do that job.
 
 PropTypes is a way to type check the props that a React component receives. It helps to catch potential type errors during development, making it easier to spot and fix bugs. If you have used a linter in your previous React projects, there's a good chance it ended up yelling at you about certain props missing in prop validation, however if that isn't the case- well, lucky you!
 
@@ -50,7 +50,7 @@ In this example, the component RenderName expects to receive a prop called `name
 RenderName.propTypes = {
   name: PropTypes.string.isRequired,
 }
-~~~ 
+~~~
 
 ### Using defaultProps
 
@@ -79,17 +79,18 @@ In this example, with the help of the defaultProps property we are defining a de
 
 ### What about TypeScript?
 
-Now is also a good time to mention [TypeScript](https://www.typescriptlang.org/) - a strongly typed language that builds on JavaScript. We don't cover it in our curriculum yet, but it's worth learning about it if you'd like more safety while writing your code.
+Now is also a good time to mention [TypeScript](https://www.typescriptlang.org/) - a strongly typed language that builds on JavaScript. We do not cover it in our curriculum and thus do not recommend looking into it now, but in the future, it may be worth learning if you’d like more type safety while writing your code.
 
-Learning TypeScript can be a lot of overhead when you're already learning React. Although, once you're comfortable navigating the ins and outs of React, you'll have a better time learning and applying TypeScript to your projects. If you go in the direction of learning TypeScript, our recommendation would be picking up a previous project and refactoring the components one by one to TypeScript. Learn by doing!
+Learning TypeScript can be a lot of overhead when you’re already learning React and the best way to prepare for this is to continue developing your JavaScript fundamentals. [Even the TypeScript team advises this!](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html#learning-javascript-and-typescript) In the future however, if you do decide to go in the direction of learning TypeScript, our recommendation would be picking up a previous project and refactoring the components one by one to TypeScript.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. Read through the [PropTypes documentation](https://reactjs.org/docs/typechecking-with-proptypes.html). It shows all of the types you can specify and some other useful things that can be done with it!
-2. You can even set up custom validators in PropTypes. Read [this article on using PropTypes on LogRocket](https://blog.logrocket.com/validate-react-props-proptypes/) for a more in-depth look into the benefits and use cases of PropTypes.
-3. [This StackOverflow thread goes into the differences of TypeScript and PropTypes. ](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application)Give it a read!
+   - You may notice this resource suggests using TypeScript over PropTypes in modern React. This may well be true for production apps but for our purposes, we are solely interested in the concept of type checking within React, where TypeScript is out of scope.
+1. You can even set up custom validators in PropTypes. Read [this article on using PropTypes on LogRocket](https://blog.logrocket.com/validate-react-props-proptypes/) for a more in-depth look into the benefits and use cases of PropTypes.
+1. [This StackOverflow thread goes into the differences of TypeScript and PropTypes. ](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application)Give it a read!
 
 </div>
 

@@ -28,7 +28,7 @@ Similarly to how we will need loaders and rules for CSS and assets, we can use a
 
 By default, it will create this from a blank template, so the resulting HTML file will essentially be the usual boilerplate with our script and perhaps any other options we add in the configuration. If we had our own `dist/index.html` then it would be overwritten! In order to preserve our own HTML, we can tell it to use a template and provide a path to our own HTML file that is in `src`. You will see more examples of how to set up `html-webpack-plugin` appropriately in the assignment links below, but an example of how to set the template option within your webpack configuration file is as follows:
 
-~~~javascript
+```javascript
 // webpack.config.js
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -40,7 +40,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
         }),
     ],
 // ...
-~~~
+```
 
 ### Assignment
 

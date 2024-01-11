@@ -44,7 +44,7 @@ You'll get a chance to play with mailers in the projects.
 
 ### Letter opener
 
-One key thing to note is that you don't want to fire off a bunch of emails when you're testing your app in the development environment.  That's not just bad practice, it can make your users pretty unhappy and get you put on SPAM lists.  No bueno.  But you do want to make sure the email function is working properly.  Luckily, there's a simple solution which is quite useful.
+One key thing to note is that you don't want to fire off a bunch of emails when you're testing your app in the development environment. That's not just bad practice, it can make your users pretty unhappy and get you put on SPAM lists. No bueno. But you do want to make sure the email function is working properly. Luckily, there's a solution which is quite useful.
 
 The [Letter Opener gem (see docs)](https://github.com/ryanb/letter_opener), put in your `development` group of the Gemfile, will take your emails and display them in the web browser for you whenever they would otherwise be sent.  You just switch a config setting in your `config/environments/development.rb` file and you're good to go.  Sweet.
 

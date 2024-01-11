@@ -22,9 +22,9 @@ The stack trace prints each line of code in your program that was executed befor
 
 ![First line of stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/01.png)
 
-<span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 31 of the file `bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://ruby-doc.org/core-3.1.2/NameError.html)). And yes, in Ruby, [errors](https://ruby-doc.org/core-3.1.2/Exception.html) are *also* objects.</span>
+<span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 31 of the file `bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://docs.ruby-lang.org/en/3.2/NameError.html)). And yes, in Ruby, [errors](https://docs.ruby-lang.org/en/3.2/Exception.html) are *also* objects.</span>
 
-There you have it. The stack trace really is that simple. At this point, you know where in your code the exception is being raised, and you know the type of error you're dealing with. You might even know what fixes need to be implemented in your code.
+There you have it. At this point, you know where in your code the exception is being raised, and you know the type of error you're dealing with. You might even know what fixes need to be implemented in your code.
 
 But what if you don't know how to fix your code? Then it's time to dive into debugging!
 
@@ -33,9 +33,9 @@ The debugging process is all about confirming assumptions about your code until 
 
 The easiest and quickest way to confirm your assumptions while debugging is by using `puts` statements to output the return value of variables, methods, calculations, iterations, or even entire lines of code to your terminal.
 
-Let's say that for *whatever* reason, we need to write a method that takes a string and checks if the string is an **isogram** (a word that has no repeating letters) or not. Perhaps it's a hostage situation that requires a pro debugger? Let's take a look at a (simple) first draft:
+Let's say that for *whatever* reason, we need to write a method that takes a string and checks if the string is an **isogram** (a word that has no repeating letters) or not. Perhaps it's a hostage situation that requires a pro debugger? Let's take a look at a first draft:
 
-~~~ruby
+```ruby
 def isogram?(string)
   original_length = string.length
   string_array = string.downcase.split
@@ -46,13 +46,13 @@ end
 isogram?("Odin")
 
 #=> false
-~~~
+```
 
 Okay, that didn't work. We didn't expect that. Why? Because the string *Odin* is an isogram but we got `false`. The method didn't throw an exception, so we don't even have a line to start debugging at. Now what?
 
 We know that `original_length == unique_length` returns `false` since it's the last statement, so why not place a `puts` on the line before that to see what `unique_length` is. As an alternative to `puts`, `p` is also commonly used for debugging; `p` is a combination of `puts` and `inspect` (more on that below). To better show the differences between what Ruby is printing to the terminal and returning, the examples in this section use the full IRB syntax, which is exactly what you'd see if you typed these commands into your own terminal IRB session.
 
-~~~ruby
+```ruby
 irb(main):001:1* def isogram?(string)
 irb(main):002:1*   original_length = string.length
 irb(main):003:1*   string_array = string.downcase.split
@@ -66,11 +66,11 @@ irb(main):009:0> end
 irb(main):010:0> isogram?("Odin")
 1
 => false
-~~~
+```
 
 *INTERESTING*. Using `p` on `unique_length` prints it to the console and shows us something must be wrong with how we called `#uniq` on `string_array` because we know that we have `4` unique characters in our input but we got `1` as output. For verification, let's place another `p` statement before the `unique_length` statement:
 
-~~~ruby
+```ruby
 irb(main):001:1* def isogram?(string)
 irb(main):002:1*   original_length = string.length
 irb(main):003:1*   string_array = string.downcase.split
@@ -88,44 +88,32 @@ irb(main):013:0> isogram?("Odin")
 ["odin"]
 1
 => false
-~~~
+```
 
-Indeed, we didn't use `#split` correctly, as this particular creates an array with the given string rather than creating an array of characters of the given string. Why? By default, if we didn't provide arguments, [#split](https://ruby-doc.org/core-3.1.2/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference.
+Indeed, we didn't use `#split` correctly, as this particular creates an array with the given string rather than creating an array of characters of the given string. Why? By default, if we didn't provide arguments, [#split](https://docs.ruby-lang.org/en/3.2/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference.
 
 Hostage situation resolved! That wasn't so bad, was it?
 
 #### Debugging with `puts` and `nil`
 Using `puts` is a great way to debug, but there's a **HUGE** caveat with using it: calling `puts` on anything that is `nil` or an empty string or collection will just print a blank line to your terminal.
 
-This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of `puts` and [#inspect](https://ruby-doc.org/core-3.1.2/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:
+This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of `puts` and [#inspect](https://docs.ruby-lang.org/en/3.2/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:
 
-~~~ruby
+```ruby
 puts "Using puts:"
 puts []
 p "Using p:"
 p []
-~~~
+```
 
 ### Debugging with Pry-byebug
 [Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality. The recommended Ruby gem for debugging is [Pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) and it includes Pry as a dependency. Pry-byebug adds step-by-step debugging and stack navigation.
 
-To use Pry-byebug, you'll first need to install it in your terminal by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry-byebug'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program. If you encounter an error like this:
-
-~~~bash
-Error: while executing gem ... (Gem::Exception)
-    OpenSSL is not available. Install OpenSSL and rebuild Ruby (preferred) or us non-HTTPS sources
-~~~
-
-Ensure that Ubuntu is up to date and upgraded by using these commands in order (These commands will require user password input):
-
-~~~bash
-sudo apt update
-sudo apt upgrade
-~~~
+To use Pry-byebug, you'll first need to install it in your terminal by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry-byebug'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program.
 
 To follow along with these examples save the code into a Ruby file (e.g., `script.rb`) and then run the file in your terminal (e.g., `ruby script.rb`)
 
-~~~ruby
+```ruby
 require 'pry-byebug'
 
 def isogram?(string)
@@ -139,7 +127,7 @@ def isogram?(string)
 end
 
 isogram?("Odin")
-~~~
+```
 
 When your code executes and gets to `binding.pry`, it will open an IRB-like session in your terminal. You can then use that session to check the values of anything within the scope of where you included `binding.pry`. However, keep in mind that any code written *after* the `binding.pry` statement will not have been evaluated during the Pry session.
 
@@ -149,7 +137,7 @@ Thus, adding a `binding.pry` line in our code is similar to creating a breakpoin
 
 To see this point in action, try running the following:
 
-~~~ruby
+```ruby
 require 'pry-byebug'
 
 def yell_greeting(string)
@@ -163,13 +151,13 @@ def yell_greeting(string)
 end
 
 yell_greeting("bob")
-~~~
+```
 
 During the session, if you check for the value of `name`, you will notice that you get back the value `bob` instead of `BOB`. What value do you think `greeting` will return? Yup, it will be `nil`. This is because `name = name.upcase` and `greeting = "WASSAP, #{name}!"` occurred after the `binding.pry` call and were never evaluated.
 
 Using the same example above, you can use one of pry-byebug's commands to figure out what `name = name.upcase` will return. You won't need to quit the session or add another `binding.pry` beneath it. Enter `next` to step over to the next line.
 
-~~~ruby
+```ruby
 [1] pry(main)> name
 => "bob"
 [2] pry(main)> greeting
@@ -189,7 +177,7 @@ Using the same example above, you can use one of pry-byebug's commands to figure
 [4] pry(main)> name
 => "BOB"
 
-~~~
+```
 
 It stops after evaluating the next line. `name` now returns `BOB`. Calling `next` again will evaluate the following line. Try it out to know what `greeting` will return. Pry-byebug has a few more commands, play around with them to get a feel of what they do. You can find the commands with a short description of what they do [here](https://github.com/deivid-rodriguez/pry-byebug).
 

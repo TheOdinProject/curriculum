@@ -1,7 +1,7 @@
 ### Introduction
 It's time to really flex your muscles.  Test Driven Development can certainly feel uncomfortable at first, but becomes more natural with practice.  We're going to implement the classic game 'Battleship'.  If you've never played it, or need a refresher you can read about it [here](https://en.wikipedia.org/wiki/Battleship_(game)) and you can play an online version [here](http://en.battleship-game.org/).
 
-Since we're doing TDD, it's important that you don't get overwhelmed.  Simply take it one step at a time.  Write a test, then make it pass.
+Since we're doing TDD, it's important that you don't get overwhelmed. Take it one step at a time. Write a test, then make it pass.
 
 We have not yet discussed testing the appearance of a webpage, which requires a separate set of tools and is outside the scope of this unit. Therefore, you should not test the DOM for this assignment. Instead, do your best to isolate every bit of application functionality from the actual DOM manipulation bits.
 
@@ -30,7 +30,7 @@ We have not yet discussed testing the appearance of a webpage, which requires a 
    4. The game loop should step through the game turn by turn using only methods from other objects.  If at any point you are tempted to write a new function inside the game loop, step back and figure out which class or module that function should belong to.
    5. Create conditions so that the game ends once one player's ships have all been sunk.  This function is appropriate for the Game module.
 5. Finish it up
-   1. Implement the system that allows players to place their ships. There are several options available for letting users place their ships.  You can let them type coordinates for each ship, or investigate implementing drag and drop.
+   1. Implement the system that allows players to place their ships. There are several options available for letting users place their ships. You can let them type coordinates for each ship, have a button to cycle through random placements, or investigate implementing drag and drop.
    2. You can polish the intelligence of the computer player by having it try adjacent slots after getting a 'hit'.
    3. Optionally, create a 2 player option that lets users take turns by passing the device back and forth.  If you're going to go this route, make sure the game is playable on a mobile screen and implement a 'pass device' screen so that players don't see each others boards!
 </div>

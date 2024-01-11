@@ -17,7 +17,7 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
 <div class="lesson-content__panel" markdown="1">
 #### Basic setup
 
-1. Think about and spec out how to set up your data models for this application.  You'll need users with the usual simple identification attributes like name, email and password.  They'll need to create posts as well.
+1. Think about and spec out how to set up your data models for this application. You'll need users with the usual identification attributes like name, email and password. They'll need to create posts as well.
 2. Create your new `members-only` Rails app and GitHub repo.  Update your README.
 3. Add devise to your Gemfile and install it in your app using set up instructions on the devise [README](https://github.com/heartcombo/devise)
 
@@ -30,7 +30,7 @@ Let's build those secrets!  We'll need to make sure only signed in users can see
 1. Create a Post model and a Posts controller and a corresponding resource in your Routes file which allows the `[:new, :create, :index]` methods.
 2. Atop your Posts Controller, use a `#before_action` to restrict access to the `#new` and `#create` methods to only users who are signed in.
 3. For your Posts Controller, prepare your `#new` action.
-4. Write a very simple form in the `app/views/posts/new.html.erb` view which will create a new Post.
+4. Write a form in the `app/views/posts/new.html.erb` view which will create a new Post.
 5. Make your corresponding `#create` action build a post where the foreign key for the author (e.g. `user_id`) is automatically populated based on whichever user is signed in.  Redirect to the Index view if successful.
 6. Fill out the `#index` action of the PostsController and create the corresponding view.  The view should show a list of every post.
 7. Now add logic in your Index view to display the author's name, but only if a user is signed in.

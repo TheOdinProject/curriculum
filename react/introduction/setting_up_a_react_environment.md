@@ -61,7 +61,7 @@ If you see the following output, enter `y` and then press <kbd>enter</kbd>:
 
 ~~~
 Need to install the following packages:
-  create-vite@4.X.X
+  create-vite@5.X.X
 Ok to proceed? (y)
 ~~~
 
@@ -133,7 +133,7 @@ We recommend installing this and becoming comfortable with using it as early as 
 <div class="lesson-content__panel" markdown="1">
 
 1. Review this material by reading through [Vite's Getting Started Page](https://vitejs.dev/guide/).
-2. Check out this [guide for React Developer Tools](https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to utilize it effectively (don't worry if you can't yet understand some of the languages).
+2. Check out this [guide for React Developer Tools](https://web.archive.org/web/20230127083036/https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to utilize it effectively (don't worry if you can't yet understand some of the languages).
 3. Try to clean up your `my-first-react-app` project so that it no longer displays the default page, see if you can get it to display a "Hello, World!" message instead.
 </div>
 

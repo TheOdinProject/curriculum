@@ -14,7 +14,7 @@ By the end of this lesson, you should be able to do the following:
 
 - Watch [this video tutorial about Node.js debugging in VS Code](https://www.youtube.com/watch?v=2oFKNL7vYV8&ab_channel=VisualStudioCode) to see the process in action.
 - Check out the official [VS Code Node debugger documentation](https://code.visualstudio.com/docs/nodejs/nodejs-debugging). Take note of the Javascript Debug Terminal- this is an easy way to get the debugger running!
-- Read [this article](https://www.section.io/engineering-education/debug-node-devtools/) for a tutorial on how to debug Node with Chrome. NOTE: You can ignore anything that refers to debugging remote apps- you'll be debugging local apps.
+- Read [this article](https://web.archive.org/web/20230923074524/https://www.section.io/engineering-education/debug-node-devtools/) for a tutorial on how to debug Node with Chrome. NOTE: You can ignore anything that refers to debugging remote apps- you'll be debugging local apps.
 </div>
 
 ### Knowledge check

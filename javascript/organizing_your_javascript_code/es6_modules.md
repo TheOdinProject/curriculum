@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 - Describe what `npm init` does and what `package.json` is.
 - Know how to install packages using npm.
 - Describe what a JavaScript module bundler like webpack is.
-- Explain what the concepts "entry" and "output" mean as relates to webpack.
+- Explain what the concepts "entry" and "output" mean in relation to webpack.
 - Briefly explain what a development dependency is.
 - Explain what "transpiling code" means and how it relates to front-end development.
 - Briefly describe what a task runner is and how it's used in front-end development.
@@ -45,7 +45,7 @@ At some point, you will probably run into [Yarn](https://yarnpkg.com/en/) - a re
 
 ### Webpack and bundlers
 
-So far, your projects have had relatively simple file structures. As project complexity grows, so too will the benefits of well-organized code. A project consisting of a single, long file with lots of code can be made easier to navigate and maintain by being broken down into multiple smaller files (modules). Further benefits of writing code in modules will come below when we introduce ES6 modules.
+So far, your projects have had relatively basic file structures. As project complexity grows, so too will the benefits of well-organized code. A project consisting of a single, long file with lots of code can be made easier to navigate and maintain by being broken down into multiple smaller files (modules). Further benefits of writing code in modules will come below when we introduce ES6 modules.
 
 But there's a problem! The browser would need to make a separate HTTP request for each file. The more files you have, the more costly this becomes, particularly on slower networks and would only increase if you also imported third-party libraries into your app.
 
@@ -53,7 +53,7 @@ What if we had a way to write multiple files and/or import multiple third-party 
 
 Enter bundlers. Give a bundler a starting file (an entry point) and it will build a dependency graph of the modules and dependencies starting from that file, then combine them into a single output file. Provide multiple entry points and it will do the same for each separately. You can read more about why we use bundlers and how they work in [this short article](https://snipcart.com/blog/javascript-module-bundler).
 
-Webpack is one such tool for bundling modules. There is a lot of talk across the net about how difficult and complex it is to set up and use, but at the moment our needs are few and the setup is simple enough. In fact, you can see an example of getting it up and running on the front page of [their website](https://webpack.js.org/).
+Webpack is one such tool for bundling modules. There is a lot of talk across the net about how difficult and complex it is to set up and use, but at the moment our needs are few and the setup is basic enough. In fact, you can see an example of getting it up and running on the front page of [their website](https://webpack.js.org/).
 
 Webpack _is_ a very powerful tool, and with that power comes a decent amount of complexity. Don't let it scare you off! The basic configuration is not difficult and proficiency with webpack looks _amazing_ on resumes.
 
@@ -61,7 +61,7 @@ To get us started, we are going to refer to the official documentation.
 
 1. Code along with all of the steps of [this tutorial](https://webpack.js.org/guides/getting-started/) ("Basic Setup" through "Conclusion").
 
-Let's discuss what's going on there. After installing webpack using npm, we set up a simple project that required an external library (lodash - check it out [here](https://lodash.com/) if it's new to you) using a simple `script` tag. The site lists a few reasons why this is probably _not_ ideal and then steps through using webpack to accomplish the same thing.
+Let's discuss what's going on there. After installing webpack using npm, we set up a project that required an external library (lodash - check it out [here](https://lodash.com/) if it's new to you) using a `script` tag. The site lists a few reasons why this is probably _not_ ideal and then steps through using webpack to accomplish the same thing.
 
 <span id="webpack-knowledge-check"></span> 
 Let us revisit two key words mentioned earlier - __entry__ and __output__. In the above link's example, we rearranged the files into a `src` and `dist` folder. Technically, we could have called those folders anything, but those names are typical. `src` is our _source_ directory. In other words, `src` is where we write all of the code that webpack is going to bundle up for us. When webpack runs, it goes through all of our files starting at any entry points we give it, looks for any `import` statements and then compiles _all_ of the code we need to run our site into a single file per entry point inside of the `dist` folder (short for _distribution_). In this example, we have a single entry point - `/src/index.js`. The __output__ file is the compiled version - `dist/main.js`.
@@ -74,28 +74,28 @@ Now that we (sorta) understand what webpack is doing it's time to discuss the mo
 
 The import statement is the same thing that you used during the webpack tutorial so it should be familiar by now.
 
-~~~javascript
+```javascript
 // a file called functionOne.js
 const functionOne = () => console.log('FUNCTION ONE!');
 
 export { functionOne };
-~~~
+```
 
-~~~javascript
+```javascript
 // another JS file
 import { functionOne } from './functionOne';
 
 functionOne(); // this should work as expected!
-~~~
+```
 
 <span id="module-knowledge-check"></span> 
 There are _many_ benefits to writing your code in modules. One of the most compelling is code reuse. If, for instance, you have written some functions that manipulate the DOM in a specific way, putting all of those into their own file as a 'module' means that you can copy that file and reuse it very easily!
 
 There are also the same benefits as when using factory functions or the module pattern (the module pattern and ES6 modules are not the same things; this naming convention is frustrating). With the introduction of ES6 Modules, the module pattern (IIFEs) is not needed anymore, though you might still encounter them in the wild. When using ES6 modules, only what is exported can be accessed in other modules by importing. Additionally, any declarations made in a module are not automatically added to the global scope. By using ES6 modules, you can keep different parts of your code cleanly separated, which makes writing and maintaining your code much easier and less error-prone. Keep in mind that you can _definitely_ export constructors, classes and factory functions from your modules.
 
-To pull it all together, let's write a simple module and then include it in our code. We are going to continue from where the webpack tutorial left off. Before beginning, your file directory should look something like this:
+To pull it all together, let's write a module and then include it in our code. We are going to continue from where the webpack tutorial left off. Before beginning, your file directory should look something like this:
 
-~~~
+```
 ├── dist
 │   ├── main.js
 │   └── index.html
@@ -104,21 +104,21 @@ To pull it all together, let's write a simple module and then include it in our 
 ├── package-lock.json
 ├── package.json
 └── webpack.config.js
-~~~
+```
 
-In addition, you should be able to bundle and run webpack by simply typing `npx webpack` in the terminal, (or `npm run build` if you're using the example project created on the previous section.) .
+In addition, you should be able to bundle and run webpack by typing `npx webpack` in the terminal, (or `npm run build` if you're using the example project created on the previous section.) .
 
 Add a new file to the `src` directory called `myName.js` with the following contents:
 
-~~~ javascript
+``` javascript
 const myName = (name) => 'Hi! My name is ' + name;
 
 export default myName;
-~~~
+```
 
 Then, in `src/index.js`, import and use your new function:
 
-~~~javascript
+```javascript
 // import your function
 import myName from './myName';
 
@@ -131,7 +131,7 @@ function component() {
 }
 
 document.body.appendChild(component());
-~~~
+```
 
 Easy! Now, if you run `npx webpack` in your project directory, your page should show our new function being used.
 
@@ -140,7 +140,7 @@ There are two different ways to use exports in your code: named exports and defa
 
 Here is an example with named exports, which you will most often use when you have multiple values to export in a module:
 
-~~~javascript
+```javascript
 // a file called myModule.js
 const functionOne = () => 'ONE';
 const functionTwo = () => 'TWO';
@@ -149,14 +149,14 @@ export {
   functionOne,
   functionTwo
 };
-~~~
+```
 
 And to import them:
 
-~~~javascript
+```javascript
 // index.js in /src folder
 import {functionOne, functionTwo} from './myModule';
-~~~
+```
 
 Using this pattern gives you the freedom to only import the functions you need in the various files of your program. So it's perfectly fine to only import `functionOne` if that's the only one you need.
 
@@ -168,7 +168,7 @@ This section contains questions for you to check your understanding of this less
 - [Describe what `npm init` does and what `package.json` is.](https://docs.npmjs.com/creating-a-package-json-file)
 - [Know how to install packages using npm.](https://docs.npmjs.com/downloading-and-installing-packages-locally)
 - [Describe what a JavaScript module bundler like webpack is.](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
-- [Explain what the concepts "entry" and "output" mean as relates to webpack.](#webpack-knowledge-check)
+- [Explain what the concepts "entry" and "output" mean in relation to webpack.](#webpack-knowledge-check)
 - [Briefly explain what a development dependency is.](https://dev.to/moimikey/demystifying-devdependencies-and-dependencies-5ege)
 - [Explain what "transpiling code" means and how it relates to frontend development.](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)
 - [Briefly describe what a task runner is and how it's used in frontend development.](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html)

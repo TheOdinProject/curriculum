@@ -59,8 +59,8 @@ That looks a whole lot like what you normally see when Rails does it, right?
    ~~~
 
 6. Test this out -- can you now create users with your form? If so, you should see an INSERT SQL command in the server log.
-7. We're not done just yet... that looks too long and difficult to build a user with all those `params` calls.  It'd be a whole lot easier if we could just use a hash of the user's attributes so we could just say something like `User.new(user_params)`.  Let's build it... we need our form to submit a hash of attributes that will be used to create a user, just like we would with Rails' `form_with` method.  Remember, that method submits a top level `user` field which actually points to a hash of values.  This is simple to achieve, though -- just change the `name` attribute slightly.  Nest your three User fields inside the variable attribute using brackets in their names, e.g. `name="user[email]"`.
-8. Resubmit.  Now your user parameters should be nested under the `"user"` key like:
+7. We're not done just yet... that looks too long and difficult to build a user with all those `params` calls. It'd be a whole lot easier if we could just use a hash of the user's attributes so we could just say something like `User.new(user_params)`. Let's build it... we need our form to submit a hash of attributes that will be used to create a user, just like we would with Rails' `form_with` method. Remember, that method submits a top level `user` field which actually points to a hash of values. This is easy to achieve, though -- just change the `name` attribute slightly. Nest your three User fields inside the variable attribute using brackets in their names, e.g. `name="user[email]"`.
+8. Resubmit. Now your user parameters should be nested under the `"user"` key like:
 
    ~~~bash
    Parameters: {"authenticity_token" => "WUaJBOpLhFo3Mt2vlEmPQ93zMv53sDk6WFzZ2YJJQ0M=", "user" =>{ "username" => "foobar", "email" => "foo@bar.com", "password" => "[FILTERED]" } }

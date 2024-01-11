@@ -1,6 +1,6 @@
 ### Introduction
 
-Recursion is the idea that a function calls itself.  Pretty simple, right?  It's used to take a big problem and start breaking it down into smaller and smaller pieces ("Divide and Conquer") and continuing to feed their solutions back into the original function until some sort of answer is achieved and the whole chain unwinds.  
+Recursion is the idea that a function calls itself. That is all there is to it. It's used to take a big problem and start breaking it down into smaller and smaller pieces ("Divide and Conquer") and continuing to feed their solutions back into the original function until some sort of answer is achieved and the whole chain unwinds.
 
 From the [Wikipedia entry on Divide and Conquer Algorithms](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm):
 
@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 -  Why is recursion a useful technique for solving a big problem?
 -  What are the limitations of using recursive solutions?
--  What types of problems are more suited for simple loops than recursion?
+-  What types of problems are more suited for loops than recursion?
 -  What is meant by "recursive depth"?
 -  What is a "stack overflow" (the concept, not the website)?
 -  Why is that relevant to a recursive problem?
@@ -51,4 +51,7 @@ This section contains helpful links to other content. It isn't required, so cons
 
 -  [Efficient Recursion from U of Alberta](http://webdocs.cs.ualberta.ca/~holte/T26/efficient-rec.html)
 -  [A good resource of recursion by example](https://www.javascripttutorial.net/javascript-recursive-function/)
-- [Visualize how recursion works on factorials](https://pythontutor.com/render.html#code=function%20calcFactorial%28num%29%20%7B%0A%20%20%20%20if%20%28num%20%3D%3D%3D%201%29%20%7B%0A%20%20%20%20%20%20%20%20return%201%3B%0A%20%20%20%20%7D%0A%20%20%20%20return%20num%20*%20calcFactorial%28num%20-%201%29%3B%0A%7D%0A%0AcalcFactorial%285%29%3B&cumulative=false&curInstr=2&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
+-  [Visualize how recursion works on factorials](https://pythontutor.com/render.html#code=function%20calcFactorial%28num%29%20%7B%0A%20%20%20%20if%20%28num%20%3D%3D%3D%201%29%20%7B%0A%20%20%20%20%20%20%20%20return%201%3B%0A%20%20%20%20%7D%0A%20%20%20%20return%20num%20*%20calcFactorial%28num%20-%201%29%3B%0A%7D%0A%0AcalcFactorial%285%29%3B&cumulative=false&curInstr=2&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
+-  [You may want to watch this nice freecodecamp course. It explains the logic of recursion very well.](https://www.youtube.com/watch?v=IJDJ0kBx2LM&t=2333s)
+
+
