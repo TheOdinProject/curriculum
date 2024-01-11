@@ -92,7 +92,7 @@ There will come a time when you are working on a project and you FINALLY get som
 - Using VSCode as your text editor (you should have set this up in the Git Basics section) will allow you to easily make multi-line commit messages, easily see the character length of each line, and will allow you to use [VSCode spell check extensions](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to make sure your spelling is correct
 - Use an active voice: "Fix card generator".
 - Avoid using vague commit messages such as "saved" or "updated".
-- Commit early and often!.
+- Commit early and often!
 
 ### Knowledge check
 
