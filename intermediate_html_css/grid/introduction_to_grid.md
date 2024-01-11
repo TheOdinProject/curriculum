@@ -81,3 +81,4 @@ This section contains helpful links to other content. It isn’t required, so co
 - Watch [Flexbox vs. CSS Grid — Which is Better?](https://www.youtube.com/watch?v=hs3piaN4b5I) for a visual representation of the use cases for Flexbox vs CSS Grid
 - Read CSS Tricks [quick take](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/) on the differences between Flex and Grid
 - Check out [The Story of CSS Grid](https://alistapart.com/article/the-story-of-css-grid-from-its-creators/)
+- Read this [Interactive Guide to Flex Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/) by Josh Comeau for a comprehensive walk through CSS grid.
