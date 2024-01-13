@@ -59,7 +59,7 @@ function multiply(num1, num2) {
 }
 ```
 
-Here it should hopefully be clear that no matter the arguments we enter when we call the function, only two variables are created. It doesn't change. Therefore, we can consider the space this takes is always O(1).
+Here it should hopefully be clear that no matter the arguments we pass to the function call, only a single variable is created. It doesn't change. Therefore, we can consider the space this takes is always O(1).
 
 #### O(N) - Linear complexity
 
