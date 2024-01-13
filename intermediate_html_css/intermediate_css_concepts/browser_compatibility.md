@@ -1,6 +1,6 @@
 ### Introduction
 
-As you continue your web development journey, it is important to keep in mind that the end users of your work might be using a variety of browsers: Chrome, Internet Explorer, Firefox, and Safari to name a few. At the same time, the number of users using mobile operating systems is growing rapidly, therefore you should also consider the mobile versions of different browsers.
+As you continue your web development journey, it is important to keep in mind that the end users of your work might be using a variety of browsers: Chrome, Edge, Firefox, and Safari to name a few. At the same time, the number of users using mobile operating systems is growing rapidly, therefore you should also consider the mobile versions of different browsers.
 
 ### Learning outcomes
 
