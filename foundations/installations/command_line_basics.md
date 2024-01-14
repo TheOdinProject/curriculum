@@ -40,7 +40,7 @@ This section contains a general overview of topics that you will learn in this l
 <div class="lesson-content__panel" markdown="1">
 
 <div class="lesson-note" markdown="1">
-**Note for WSL users**: You will have to use the `wget` command along with the link given in the `Download files` section in order to have the zip file in your WSL installation (`wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip`). You will also have to install unzip by using the command `sudo apt install unzip` and then `unzip shell-lesson-data.zip` to unzip the file. Keep in mind that throughout the course linked in the first step below, your terminal output may look slightly different to what is shown in the lessons. Anytime the course asks you to go to the Desktop, you will instead be going to the home directory which can be done by using the cd command (`cd ~`).
+**Note for WSL2 users**: You will have to use the `wget` command along with the link given in the `Download files` section in order to have the zip file in your WSL2 installation (`wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip`). You will also have to install unzip by using the command `sudo apt install unzip` and then `unzip shell-lesson-data.zip` to unzip the file. Keep in mind that throughout the course linked in the first step below, your terminal output may look slightly different to what is shown in the lessons. Anytime the course asks you to go to the Desktop, you will instead be going to the home directory which can be done by using the cd command (`cd ~`).
 </div>
 
 <div class="lesson-note lesson-note--warning" markdown=1>
@@ -94,7 +94,7 @@ Third, there's a really handy shortcut for opening everything within a project d
 
 - **macOS**: Some setup is required. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
 
-- **WSL**: Opening up VSCode from the command line in WSL is just as easy as it is in Linux. Just enter `code` which will open VSCode in WSL.
+- **WSL2**: Opening up VSCode from the command line in WSL2 is just as easy as it is in Linux. Just enter `code` which will open VSCode in WSL2.
 
 ### Knowledge check
 

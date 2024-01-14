@@ -183,7 +183,7 @@ To use images that we have on our own websites, we can use a relative path.
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">WSL
+<summary class="dropDown-header">WSL2
 </summary>
 
 When you download a file from the internet, Windows has a security feature that creates a hidden `Zone.Identifier` file with the same name as your downloaded file and it looks like `mypicture.jpg:Zone.Identifier` This file is harmless, but we'd like to avoid copying it over and cluttering up our directories.
@@ -210,7 +210,7 @@ When you download a file from the internet, Windows has a security feature that 
 
     5. Hit <kbd>Enter</kbd> to complete the command, and use ls to confirm the file now exists.
 
-Dragging files from Windows into the VSCode file browser prevents the `Zone.Identifier` files from being copied over. From now on, any time you need to copy pictures or other downloaded files like this into WSL, you can do it in this way. If you ever accidentally copy these `Zone.Identifier` files into WSL, you can safely delete them without any issue.
+Dragging files from Windows into the VSCode file browser prevents the `Zone.Identifier` files from being copied over. From now on, any time you need to copy pictures or other downloaded files like this into WSL2, you can do it in this way. If you ever accidentally copy these `Zone.Identifier` files into WSL2, you can safely delete them without any issue.
 
 </details>
 

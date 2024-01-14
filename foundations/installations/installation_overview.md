@@ -41,7 +41,7 @@ Windows, by itself, **is not natively supported** by The Odin Project, or on our
 
 * A VirtualBox Virtual Machine
 * Dual-boot Ubuntu installation
-* Windows Subsystem for Linux (WSL)
+* Windows Subsystem for Linux (WSL2)
 
 A **virtual machine** is an emulation of a computer that runs within your existing OS. It allows you to use another operating system inside of a program on your current operating system (e.g. Running Linux inside of Windows). Virtual machines are as straightforward to install as any other program and are risk free. If you don't like Linux, you can easily remove the virtual machine. Virtual machines are a great way for new developers to get started quickly.
 
