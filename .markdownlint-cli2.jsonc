@@ -14,7 +14,7 @@
       "style": "dash"
     },
     // line-length
-    // Avoids erros related to line lengths in the MD files
+    // Avoids errors related to line lengths in the MD files
     "MD013": {
       "code_blocks": false,
       "headings": false,
@@ -24,10 +24,14 @@
     },
     // no-trailing-punctuation
     // Prevents most punctuation in headings, except for exclamation and question marks
-    "MD026": ".:,;",
+    "MD026": {
+      "punctuation": ".:,;"
+    },
     // ol-prefix
     // Enforces lazy numbering for ordered lists
-    "MD029": "one",
+    "MD029": {
+      "style": "one"
+    },
     // no-inline-html
     // Only allows specified HTML to be inline
     "MD033": {
@@ -57,15 +61,23 @@
     },
     // code-block-style
     // Prevents indented code blocks from being used
-    "MD046": "fenced",
+    "MD046": {
+      "style": "fenced"
+    },
     // code-fence-style
     // Enforces backticks for codeblocks
-    "MD048": "backtick",
+    "MD048": {
+      "style": "backtick"
+    },
     // emphasis-style
     // Enforces asterisk syntax instead of underscore syntax
-    "MD049": "asterisk",
+    "MD049": {
+      "style": "asterisk"
+    },
     // strong-style
     // Enforces asterisk syntax instead of underscore syntax
-    "MD050": "asterisk"
+    "MD050": {
+      "style": "asterisk"
+    }
   }
 }
