@@ -14,6 +14,8 @@ jobs:
             **/project*.md
             !./*.md
             !README.md
+            !./archive/**.md
+            !./templates/**.md
           separator: ','
       - uses: DavidAnson/markdownlint-cli2-action@v14
         if: steps.changed-files.outputs.any_changed == 'true'
@@ -34,6 +36,8 @@ jobs:
             !./*.md
             !README.md
             !**/project*.md
+            !./archive/**.md
+            !./templates/**.md
           separator: ','
       - uses: DavidAnson/markdownlint-cli2-action@v14
         if: steps.changed-files.outputs.any_changed == 'true'
