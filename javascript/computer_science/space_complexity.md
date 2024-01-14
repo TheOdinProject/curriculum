@@ -148,7 +148,7 @@ This section contains questions for you to check your understanding of this less
 
 *   [What is space complexity?](#what-do-we-mean-by-space-complexity)
 *   [How do we measure space complexity?](#measuring-space-complexity)
-*   [What are the main considerations we should consider before optimising code?](#other-considerations)
+*   [What are the main considerations we should take into account when optimising code?](#other-considerations)
 
 ### Additional resources
 
