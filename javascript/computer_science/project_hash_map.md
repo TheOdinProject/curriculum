@@ -34,7 +34,7 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
   1. `has` takes a key as an argument and returns `true` or `false` based on whether or not the key is in the hash map.
 
-  1. `remove` takes a key as argument and removes it from the hash table.
+  1. `remove` takes a key as an argument. If the given key is in the hash map, it should remove the entry with that key and return `true`. If the key isn't in the hash map, it should return `false`.
 
   1. `length` returns the number of stored keys in the hash map.
 
