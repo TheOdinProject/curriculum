@@ -283,7 +283,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 If you visit the `/profile` path now, you should be able to see some default content where the `Outlet` is rendered when the index path is rendered!
 
-But this example brings another dillemma. Sometimes, we want to render content according to the URLs. That, here, would mean that we should be able to render content dynamically, from the component itself. Thankfully, you can do so with dynamic segments! Change the routes to be the following:
+But this example brings another dilemma. Sometimes, we want to render content according to the URLs. That, here, would mean that we should be able to render content dynamically, from the component itself. Thankfully, you can do so with dynamic segments! Change the routes to be the following:
 
 ~~~jsx
 import React from "react";
