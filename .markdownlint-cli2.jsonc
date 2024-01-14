@@ -25,10 +25,23 @@
     // no-trailing-punctuation
     // Prevents most punctuation in headings, except for exclamation and question marks
     "MD026": ".:,;",
+    // ol-prefix
+    // Enforces lazy numbering for ordered lists
+    "MD029": "one",
     // no-inline-html
     // Only allows specified HTML to be inline
     "MD033": {
-      "allowed_elements": ["p", "a", "div", "span", "kbd", "script", "iframe"]
+      "allowed_elements": [
+        "p",
+        "a",
+        "div",
+        "span",
+        "kbd",
+        "script",
+        "iframe",
+        "details",
+        "summary"
+      ]
     },
     // first-line-heading/first-line-h1
     // Enforces the first heading on a lesson page to be an H3, since the page template renders an H1 and H2 automatically
