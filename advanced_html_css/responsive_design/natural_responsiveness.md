@@ -6,12 +6,12 @@ The first step to making responsive websites is using techniques that are _natur
 
 Plain HTML, with no CSS is responsive. [Check this out](https://codyloyd.github.io/responsive-html/), and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
 
-It's not realistic for every website you create to be as simple as plain text on a page, but it is important to keep in mind that most of the elements you're using to build your project are responsive until **you** change that with CSS. If you approach your project with this mindset and do your best to maintain that natural responsiveness, you might find that there isn't _that_ much extra you need to do to make your sites properly responsive.
+It's not realistic for every website you create to be as basic as plain text on a page, but it is important to keep in mind that most of the elements you're using to build your project are responsive until **you** change that with CSS. If you approach your project with this mindset and do your best to maintain that natural responsiveness, you might find that there isn't _that_ much extra you need to do to make your sites properly responsive.
 
 The rest of this lesson is a list of tips you can use to maintain natural responsiveness.
 
 ### The viewport meta tag
-When mobile phones first started getting web browsers, most websites were _not_ optimized for such small screen resolutions. To get around this, most phone browsers simply simulated a larger screen and displayed a zoomed-out version of the page. These days, however, we almost never want that behavior so we have to specify that we want our websites to be viewed at the actual non-zoomed screen resolution.
+When mobile phones first started getting web browsers, most websites were _not_ optimized for such small screen resolutions. To get around this, most phone browsers simulated a larger screen and displayed a zoomed-out version of the page. These days, however, we almost never want that behavior so we have to specify that we want our websites to be viewed at the actual non-zoomed screen resolution.
 
 For this reason, you should add this snippet into the `<head>` of your HTML file in just about every project you work on.
 
@@ -19,7 +19,7 @@ For this reason, you should add this snippet into the `<head>` of your HTML file
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ~~~
 
-It simply sets the initial width of the webpage to the size of the actual screen you're viewing it on, and telling it not to zoom in or out. Easy!
+It sets the initial width of the webpage to the size of the actual screen you're viewing it on, and telling it not to zoom in or out. Easy!
 
 ### Avoid fixed width and height
 
@@ -52,7 +52,7 @@ In _most_ cases, you should avoid setting a height altogether. There are some ex
 Obviously there are cases when a fixed width is appropriate. It's hard to make a universal rule, but in general the smaller your widths the more likely it's fine to make them fixed. For example, a `32px` icon on your page isn't going to benefit from using `max-width` because you probably _don't_ want it to shrink. Likewise a `250px` sidebar probably needs to _always_ be `250px`. As with anything you just need to consider your options and pick what seems to be the most appropriate.
 
 ### Use flex and grid
-Here's a statement so obvious that it sounds like a joke: flexbox was _created_ to enable the creation of flexible layouts. Simply using flex and grid doesn't necessarily guarantee perfect responsiveness, but they are really helpful tools. You've already learned about the relevant properties here, but things like `flex-wrap` and grid's `minmax`, `auto-fill` and similar properties can make some impressively responsive layouts without much extra work.
+Here's a statement so obvious that it sounds like a joke: flexbox was _created_ to enable the creation of flexible layouts. Using flex and grid doesn't necessarily guarantee perfect responsiveness, but they are really helpful tools. You've already learned about the relevant properties here, but things like `flex-wrap` and grid's `minmax`, `auto-fill` and similar properties can make some impressively responsive layouts without much extra work.
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
