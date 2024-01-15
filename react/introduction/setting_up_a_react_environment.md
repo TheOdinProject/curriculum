@@ -53,25 +53,25 @@ Vite builds frontend tools for developers and it leverages the latest technologi
 
 Please make sure that you are using the *LTS version of Node*, otherwise errors may occur. Fire up a terminal instance, `cd` into the folder containing your projects, and enter the following command:
 
-~~~bash
+```bash
 npm create vite@latest my-first-react-app -- --template react
-~~~
+```
 
 If you see the following output, enter `y` and then press <kbd>enter</kbd>:
 
-~~~bash
+```bash
 Need to install the following packages:
   create-vite@5.X.X
 Ok to proceed? (y)
-~~~
+```
 
 Once the command has executed, it should output the next steps for you to follow: 
 
-~~~bash
+```bash
 cd my-first-react-app
 npm install
 npm run dev
-~~~
+```
 
 Provided everything has gone according to plan, head over to `localhost:5173`, where you'll be greeted with the following page: 
 
@@ -93,7 +93,7 @@ The `public` folder is where all of the static assets related to your app will g
 
 Inside the `src` folder is where you will find the code that runs your app. The `main.jsx` file here serves as the entry point of the application. Let's open the `main.jsx` file and see if we can understand what's going on:
 
-~~~jsx
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
@@ -104,7 +104,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
-~~~
+```
 
 Whoa! There's quite a lot here. You are not expected to recognize much of this (if any) right now. Here's a brief rundown of what is happening:
 
