@@ -123,7 +123,6 @@ code
 
 - After a few moments a new VSCode window should open, and VSCode should provide a notification that its opening in WSL2.
 
-
 </details>
 
 ### Assignment
@@ -131,6 +130,7 @@ code
 <div class="lesson-content__panel" markdown="1">
 
 1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
+
 </div>
 
 ### Additional resources
