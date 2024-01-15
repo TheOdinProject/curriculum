@@ -10,11 +10,18 @@ But it's important to keep in mind that this project is just to build your HTML 
 
 As mentioned in the [introduction to Git](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
-If you do not know how to set up a repository, follow the instructions found in [Git Basics](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) to learn how.
+<div class="lesson-note lesson-note--warning" markdown="1">
+<h4>Be careful about creating files on GitHub</h4>
+GitHub allows us to make changes directly on its site. If you do this after you have cloned the repository to your machine, it will cause your local code to be a version behind the remote, creating extra challenges when you push your work. Most of the time you should be creating files locally. 
+
+ As you progress in the course, you'll learn how to handle these situations, but for now it's important to follow the instructions carefully to stay on the simple path.
+</div>
+
+If you do not know how to set up a repository, follow instruction steps 1 and 2 found in [Git Basics](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) to learn how, before carrying on with these steps:
 
 1. Create a new repo for this project on GitHub.com and call it `odin-recipes` and choose the `public` option instead of the default private.
 
-1. Move that repository onto your local machine, inside the `repos` folder that you previously created in the Git Basics lesson. The command should look like `git clone git@github.com:username/odin-recipes.git` (use SSH).
+1. Clone that repository onto your local machine, inside the `repos` folder that you previously created in the Git Basics lesson. The command should look like `git clone git@github.com:username/odin-recipes.git` (use SSH).
 
 1. Now `cd` into the `odin-recipes` project directory that is now on your local machine.
 
