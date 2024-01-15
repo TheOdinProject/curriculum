@@ -138,7 +138,7 @@ On top of these considerations, you also need to balance the readability of your
 <div class="lesson-content__panel" markdown="1">
 
 1. Read [this article on big O and space complexity](https://dev.to/mwong068/big-o-space-complexity-lcm). It isn't detail heavy but does a good job explaining things clearly, and does lightly cover recursive functions. The code examples are in Ruby, but you should be able to follow along.
-2. [This article on recursion and space complexity](https://dev.to/elmarshall/recursion-and-space-complexity-13gc) offers a little more context to recursive functions and their space complexity.
+1. [This article on recursion and space complexity](https://dev.to/elmarshall/recursion-and-space-complexity-13gc) offers a little more context to recursive functions and their space complexity.
 
 </div>
 
