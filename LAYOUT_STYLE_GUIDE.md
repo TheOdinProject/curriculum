@@ -424,13 +424,17 @@ Note boxes come in two variations, which can be set by adding an extra class tog
 ### Example
 ~~~markdown
 <div class="lesson-note" markdown="1">
-<h4>An optional title</h4>
+
+#### An optional title
+
 A sample note box.
 </div>
 ~~~
 ~~~markdown
 <div class="lesson-note lesson-note--tip" markdown="1">
-<h4>An optional title</h4>
+
+#### An optional title
+
 A sample note box, variation: tip.
 </div>
 ~~~
