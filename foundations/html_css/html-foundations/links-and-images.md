@@ -110,9 +110,9 @@ Back in the index page, add the following anchor element to create a link to the
 ```html
 <body>
   <h1>Homepage</h1>
-	<a href="https://www.theodinproject.com/about">click me</a>
+  <a href="https://www.theodinproject.com/about">click me</a>
 
-	<a href="about.html">About</a>
+  <a href="about.html">About</a>
 </body>
 ```
 
@@ -145,7 +145,6 @@ In many cases, this will work just fine; however, you can still run into unexpec
   <a href="./pages/about.html">About</a>
 </body>
 ```
-
 
 #### A metaphor
 
@@ -188,27 +187,27 @@ To use images that we have on our own websites, we can use a relative path.
 
 When you download a file from the internet, Windows has a security feature that creates a hidden `Zone.Identifier` file with the same name as your downloaded file and it looks like `mypicture.jpg:Zone.Identifier` This file is harmless, but we'd like to avoid copying it over and cluttering up our directories.
 
-1.  Create a new directory named `images` within the `odin-links-and-images` project.
+1. Create a new directory named `images` within the `odin-links-and-images` project.
 
-2.  Next, [download the stock dog image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640).
+1. Next, [download the stock dog image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640).
 
-3.  Right click on the new download at the bottom of the chrome window and select "Show in folder".
+1. Right click on the new download at the bottom of the chrome window and select "Show in folder".
 
-  1. Alternatively, if you do not see anything at the bottom of the chrome window, open the "Customize and control Google Chrome kebab menu and select the "Downloads" item. This will show all of your downloads, each with its own "Show in folder" button.
+   1. Alternatively, if you do not see anything at the bottom of the chrome window, open the "Customize and control Google Chrome kebab menu and select the "Downloads" item. This will show all of your downloads, each with its own "Show in folder" button.
 
-4.  Drag the file from your downloads folder to VSCode's file browser into your new `images` directory.
+1. Drag the file from your downloads folder to VSCode's file browser into your new `images` directory.
 
     1. Alternatively, using your Ubuntu terminal, navigate to the folder you want to copy the image to (`cd ~/odin-links-and-images` for example)
 
-    2. Type `cp <space>`
+    1. Type `cp <space>`
 
-    3. Drag the `dog.jpg` image from a Windows Explorer window and drop it onto the terminal window, it should appear as `"/mnt/c/users/username/Downloads/dog.jpg"`
+    1. Drag the `dog.jpg` image from a Windows Explorer window and drop it onto the terminal window, it should appear as `"/mnt/c/users/username/Downloads/dog.jpg"`
 
-    4. Type `<space> .` to tell cp that you want to copy the file to your current working directory.
+    1. Type `<space> .` to tell cp that you want to copy the file to your current working directory.
 
         1. The full command will look something like `cp "/mnt/c/users/username/Downloads/dog.jpg" .`
 
-    5. Hit <kbd>Enter</kbd> to complete the command, and use ls to confirm the file now exists.
+    1. Hit <kbd>Enter</kbd> to complete the command, and use ls to confirm the file now exists.
 
 Dragging files from Windows into the VSCode file browser prevents the `Zone.Identifier` files from being copied over. From now on, any time you need to copy pictures or other downloaded files like this into WSL2, you can do it in this way. If you ever accidentally copy these `Zone.Identifier` files into WSL2, you can safely delete them without any issue.
 
@@ -219,17 +218,18 @@ Finally add the image to the `index.html` file:
 ```html
 <body>
   <h1>Homepage</h1>
-	<a href="https://www.theodinproject.com/about">click me</a>
+  <a href="https://www.theodinproject.com/about">click me</a>
 
-	<a href="./pages/about.html">About</a>
+  <a href="./pages/about.html">About</a>
 
-	<img src="./images/dog.jpg">
+  <img src="./images/dog.jpg">
 </body>
 ```
 
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
 ### Parent directories
+
 What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
 
 <span id="parent-filepath"></span>To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Let's see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
@@ -296,15 +296,22 @@ Go ahead and update the `odin-links-and-images` project with width and height ta
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- [What element is used to create a link?](#anchor-elements)
-- [What is an attribute?](#attribute)
-- [What attribute tells links where to go to?](#where-to-go)
-- [What security considerations must be taken if you wish to use the target attribute to open links in a new tab/window?](#target-security)
-- [What is the difference between an absolute and relative link?](#absolute-and-relative-links)
-- [Which element is used to display an image?](#images)
-- [What two attributes do images always need to have?](#two-attributes)
-- [How do you access a parent directory in a filepath?](#parent-filepath)
-- [What are the four main image formats that you can use for images on the web?](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats)
+- [Introduction](#introduction)
+- [Lesson overview](#lesson-overview)
+- [Preparation](#preparation)
+- [Anchor elements](#anchor-elements)
+- [Opening links in a new tab](#opening-links-in-a-new-tab)
+- [Absolute and relative links](#absolute-and-relative-links)
+  - [Absolute links](#absolute-links)
+  - [Relative links](#relative-links)
+  - [A metaphor](#a-metaphor)
+- [Images](#images)
+- [Parent directories](#parent-directories)
+- [Alt attribute](#alt-attribute)
+- [Image size attributes](#image-size-attributes)
+- [Assignment](#assignment)
+- [Knowledge check](#knowledge-check)
+- [Additional resources](#additional-resources)
 
 ### Additional resources
 
@@ -313,4 +320,3 @@ This section contains helpful links to related content. It isn’t required, so 
 - [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
 - [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
 - [Chris Coyier's When to use target="_blank" on CSS-Tricks](https://css-tricks.com/use-target_blank/)
-
