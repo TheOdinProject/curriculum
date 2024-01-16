@@ -30,7 +30,7 @@ To get some practice using links and images throughout this lesson we need an HT
 
 To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
 
-Add the following to the body of the index.html page we created and open it in the browser:
+Add the following to the body of the `index.html` page we created and open it in the browser:
 
 ```html
 <a>click me</a>
@@ -120,7 +120,7 @@ Open the index file in a browser and click on the about link to make sure it is 
 
 This works because the index and about page are in the same directory. That means we can use its name (`about.html`) as the link's href value.
 
-But we will usually want to organize our website directories a little better. Normally we would only have the index.html at the root directory and all other HTML files in their own directory.
+But we will usually want to organize our website directories a little better. Normally we would only have the `index.html` at the root directory and all other HTML files in their own directory.
 
 Create a directory named `pages` within the `odin-links-and-images` directory and move the `about.html` file into this new directory.
 
