@@ -1,0 +1,83 @@
+// https://github.com/DavidAnson/markdownlint
+
+{
+  "config": {
+    "default": true,
+    // heading-style
+    // Enforces ATX style headings, e.g. ### A level 3 heading
+    "MD003": {
+      "style": "atx"
+    },
+    // ul-style
+    // Enforces dash syntax for unordered lists
+    "MD004": {
+      "style": "dash"
+    },
+    // line-length
+    // Avoids errors related to line lengths in the MD files
+    "MD013": {
+      "code_blocks": false,
+      "headings": false,
+      "tables": false,
+      // Arbitrary length - Revisit to possibly set a standard
+      "line_length": 9999
+    },
+    // no-trailing-punctuation
+    // Prevents most punctuation in headings, except for exclamation and question marks
+    "MD026": {
+      "punctuation": ".:,;"
+    },
+    // ol-prefix
+    // Enforces lazy numbering for ordered lists
+    "MD029": {
+      "style": "one"
+    },
+    // no-inline-html
+    // Only allows specified HTML to be inline
+    "MD033": {
+      "allowed_elements": [
+        "p",
+        "a",
+        "div",
+        "span",
+        "kbd",
+        "script",
+        "iframe",
+        "details",
+        "summary"
+      ]
+    },
+    // first-line-heading/first-line-h1
+    // Enforces the first heading on a lesson page to be an H3, since the page template renders an H1 and H2 automatically
+    "MD041": {
+      "level": 3
+    },
+    // proper-names
+    // Enforces proper spelling of the names array, except for code blocks and HTML elements
+    "MD044": {
+      "code_blocks": false,
+      "html_elements": false,
+      "names": ["CSS", "HTML", "JavaScript"]
+    },
+    // code-block-style
+    // Prevents indented code blocks from being used
+    "MD046": {
+      "style": "fenced"
+    },
+    // code-fence-style
+    // Enforces backticks for codeblocks
+    "MD048": {
+      "style": "backtick"
+    },
+    // emphasis-style
+    // Enforces asterisk syntax instead of underscore syntax
+    "MD049": {
+      "style": "asterisk"
+    },
+    // strong-style
+    // Enforces asterisk syntax instead of underscore syntax
+    "MD050": {
+      "style": "asterisk"
+    }
+  }
+}

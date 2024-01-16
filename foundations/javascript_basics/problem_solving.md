@@ -45,7 +45,7 @@ The last question is where you will write out an algorithm to solve the problem.
 ### Pseudocode
 <span id="pseudo">Pseudocode is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.</span>
 
-Here's an example of what the pseudocode for a simple program that prints all numbers up to an inputted number might look like:
+Here's an example of what the pseudocode for a program that prints all numbers up to an inputted number might look like:
 
 ```text
 When the user inputs a number
@@ -54,7 +54,7 @@ While counter is smaller than user inputted number increment the counter by one
 Print the value of the counter variable
 ```
 
-This is a very simple program to demonstrate how pseudocode looks. There will be more examples of pseudocode included in the assignments.
+This is a basic program to demonstrate how pseudocode looks. There will be more examples of pseudocode included in the assignments.
 
 ### Divide and conquer
 From your planning, you should have identified some subproblems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are subproblems. Pick the smallest or simplest one and start there with coding.
@@ -71,7 +71,7 @@ To demonstrate this workflow in action, let's solve [a common programming exerci
 #### Understanding the problem
 > Write a program that takes a user's input and prints the numbers from one to the number the user entered. However, for multiples of three print `Fizz` instead of the number and for the multiples of five print `Buzz`. For numbers which are multiples of both three and five print `FizzBuzz`.
 
-This is the big picture problem we will be solving. It's pretty simple so we may not need to reword it. But we can always make it clearer by rewording it.
+This is the big picture problem we will be solving. But we can always make it clearer by rewording it.
 
 Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by 3 without a remainder print `Fizz` instead. For numbers that divide by 5 without a remainder print `Buzz` and finally for numbers that divide by both 3 and 5 without a remainder print `FizzBuzz`.
 

@@ -18,7 +18,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Strings
 
-Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A __string__ is simply a piece of text... and is a fundamental building block of the language.
+Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A __string__ is a piece of text... and is a fundamental building block of the language.
 
 1. Read and code along with [yet another MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings) on the topic.
 2. Go through [this lesson](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings... be sure to take a peek at [the String Reference](https://www.w3schools.com/jsref/jsref_obj_string.asp) page near the bottom, and do the exercises at the end!
@@ -26,7 +26,7 @@ Depending on what kind of work you're doing, you might end up working more with 
 
 ### Conditionals
 
-Now it's time for the fun stuff...  So far, we haven't done much with our programming that you couldn't do with simple math skills. Sure, we've told our computer how to do the math, which makes it quicker, but the essence of programming is teaching the computer how to make decisions to do more involved things. Conditionals are how we do that.
+Now it's time for the fun stuff...  So far, we haven't done much with our programming that you couldn't do with basic math skills. Sure, we've told our computer how to do the math, which makes it quicker, but the essence of programming is teaching the computer how to make decisions to do more involved things. Conditionals are how we do that.
 
 1. Step one in learning about conditionals is making sure you have a good grasp on [comparisons](http://javascript.info/comparison).
 2. [This tutorial](https://www.w3schools.com/js/js_if_else.asp) is a great first glance at conditionals in JavaScript.

@@ -23,7 +23,7 @@ Installing a Virtual Machine (VM) is the easiest and most reliable way to get st
 
 ### Step 1: Download VirtualBox and Xubuntu
 
-Installing a VM is a simple process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and simple. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
+Installing a VM is a straightforward process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and easy to use. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
 
 #### IMPORTANT
 
@@ -99,7 +99,7 @@ Now, you want to leave all the settings as they are besides the **Disk Size**, w
 
 #### Step 2.2.4: Begin the unattended installation
 
-Click **Next** to be taken to a **Summary** page, on which you can simply click **Finish** to begin the process of unattended installation. The neat thing about it? It installs the OS and GuestAdditions on its own, without your input! Just let it do its own thing, you will know it is finished when you will see a login screen like this one in the **Preview** section:
+Click **Next** to be taken to a **Summary** page, on which you can click **Finish** to begin the process of unattended installation. The neat thing about it? It installs the OS and GuestAdditions on its own, without your input! Just let it do its own thing, you will know it is finished when you will see a login screen like this one in the **Preview** section:
 
 ![The Preview section is in the top right of VirtualBox window.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/08_preview_login.png)
 
@@ -196,7 +196,7 @@ Clicking on the **Whisker Menu** <img src="https://cdn.statically.io/gh/TheOdinP
 
 #### Option 2 - Shutting down from inside the VM with the terminal
 
-Simply enough, typing `poweroff` will do in this case. Your system will immediately shutdown.
+Typing `poweroff` inside the terminal will do in this case. Your system will immediately shutdown.
 
 #### Option 3 - Shutting down from outside the VM
 

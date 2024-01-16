@@ -20,7 +20,7 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Step 0: Prerequisites
 
-To install nvm properly, you'll need `curl`. Simply run the command below:
+To install nvm properly, you'll need `curl`. Run the command below to install `curl`:
 
 ```bash
 sudo apt install curl
@@ -34,13 +34,11 @@ sudo apt update && sudo apt upgrade
 
 #### Step 1: Downloading and installing NVM
 
-Simply run this command:
+Run this command to install `nvm`:
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
-
-This will install `nvm`
 
 #### Step 2: Initializing NVM
 
@@ -122,7 +120,7 @@ We need to tell `nvm` which version of Node to use when we run the `node` comman
 nvm use --lts
 ```
 
-We have told `nvm` to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilities with packages we will be installing in future lessons. The LTS version of Node is simply a version that is guaranteed support for thirty months after its initial release. It is more stable and compatible with a variety of packages than a non-LTS version of Node.
+We have told `nvm` to use the most recent LTS version of Node installed on our computer. You **must** use the LTS version of Node to avoid incompatibilities with packages we will be installing in future lessons. The LTS version of Node is a version that is guaranteed support for thirty months after its initial release. It is more stable and compatible with a variety of packages than a non-LTS version of Node.
 
 Now when you run `node -v`, you should see `vXX.xx.x` or something similar (with the X's replaced with actual numbers).
 
