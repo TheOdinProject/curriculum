@@ -4,10 +4,15 @@ Custom properties (also known as CSS variables) can be a really useful and power
 
 We can even redefine custom properties under different contexts, which is incredibly useful for creating themes, such as the dark and light themes you see on many websites these days.
 
-### Learning outcomes
+### Lesson overview
 
-- You'll learn how to declare a custom property
-- You'll learn how to access a custom property in a rule declaration
+This section contains a general overview of topics that you will learn in this lesson.
+
+- How to declare custom properties
+- How to use a custom property in a rule declaration
+- The scope of custom properties
+- The root selector
+- Using media queries
 
 ### Using custom properties
 
