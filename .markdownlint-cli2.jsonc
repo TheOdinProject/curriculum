@@ -79,5 +79,6 @@
     "MD050": {
       "style": "asterisk"
     }
-  }
+  },
+  "customRules": ["./markdownlint/descriptiveLinkText.js"]
 }
