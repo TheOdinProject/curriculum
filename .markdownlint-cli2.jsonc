@@ -80,5 +80,8 @@
       "style": "asterisk"
     }
   },
-  "customRules": ["./markdownlint/descriptiveLinkText.js"]
+  "customRules": [
+    "./markdownlint/descriptiveLinkText.js",
+    "./markdownlint/noCodeInHeadings.js"
+  ]
 }
