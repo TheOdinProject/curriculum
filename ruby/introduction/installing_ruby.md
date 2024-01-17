@@ -6,9 +6,9 @@ Before we start learning, we'll need to install Ruby first. This section is wher
 
 Before continuing, let's review a few best practices to keep in mind:
 
-* Copy and paste the commands to avoid typos.
-* Follow the directions closely, and don't skip over any sections.
-* **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this can cause a lot of headaches, and never run as the `root` user. In some instances, you might see a message in the terminal telling you to use sudo and install something with `apt`. Ignore that and follow _our_ instructions for now.
+- Copy and paste the commands to avoid typos.
+- Follow the directions closely, and don't skip over any sections.
+- **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this can cause a lot of headaches, and never run as the `root` user. In some instances, you might see a message in the terminal telling you to use sudo and install something with `apt`. Ignore that and follow *our* instructions for now.
 
 Now, let's get started!
 
@@ -145,14 +145,12 @@ The above command should return something similar to this:
 ```bash
 ruby 3.2.2pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ```
-where x represents the version available at the time you installed Ruby.
 
+where x represents the version available at the time you installed Ruby.
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
-
 </details>
-
 
 <details markdown="block">
 <summary class="dropDown-header">MacOS
@@ -284,7 +282,6 @@ ruby 3.2.2pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
 If you don't see the output above, close and reopen the terminal window and then run the command again.
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
-
 
 </details>
 

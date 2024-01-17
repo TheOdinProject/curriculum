@@ -5,7 +5,7 @@
 If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system and have **Google Chrome** as an installed browser, you can skip this lesson. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
-<h4>Be mindful of the OS you are using</h4>
+#### Be mindful of the OS you are using
 We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
 </div>
 
@@ -84,10 +84,9 @@ In the **Hardware** section of the installation you want to set your **Base Memo
 
 For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, [please run this Google query](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have) to learn how to find this out. If the VM runs a bit slow, try allocating more memory!
 
-
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-Difficulty converting your Gigabytes (GB) into Megabytes (MB)? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that <b>8 GB = 8 x 1024 = 8192 MB.</b>
+Difficulty converting your Gigabytes (GB) into Megabytes (MB)? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**
 
 </div>
 
@@ -175,7 +174,7 @@ Here are some tips to help you get started in a virtual environment:
 - We recommend going full screen (**View -> Full-screen Mode**) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
 - If you added additional monitors in the **Display** tab of your VM settings, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. **Make sure you enable your Virtual Screens in windowed mode before going fullscreen, otherwise they won't work.** Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
 
-#### Frequent issues/questions:
+#### Frequent issues/questions
 
 - If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
 - Running out of space? Look at [these instructions on our Discord](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
@@ -265,7 +264,7 @@ With the recent addition of being able to run a Linux terminal, the ChromeOS pla
 1. You have a supported Chromebook:
    - [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
    - [ChromeOS Flex Chromebooks](https://support.google.com/chromeosflex/answer/11513094)
-2. You can install Linux by following [these instructions](https://support.google.com/chromebook/answer/9145439?hl=en)
+1. You can install Linux by following [these instructions](https://support.google.com/chromebook/answer/9145439?hl=en)
 
 Once you have successfully met both of these requirements, you should be able to follow along with the Linux instructions throughout the entire curriculum.
 
@@ -277,7 +276,7 @@ Once you have successfully met both of these requirements, you should be able to
 Using WSL2 is an quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
 
 <div class="lesson-note" markdown="1">
-<h4>WSL2 and Linux instructions</h4>
+#### WSL2 and Linux instructions
 Because WSL2 is a full-fledged Linux distribution, almost everything that the curriculum teaches about Linux is also applicable to WSL2. In future lessons, whenever there are instructions that differ by OS, you should follow the Linux instructions, unless the lesson includes WSL2-specific instructions.
 </div>
 
@@ -291,6 +290,7 @@ Because WSL2 is a full-fledged Linux distribution, almost everything that the cu
   ```powershell
   wsl --install
   ```
+
 - After a few minutes you'll be prompted to reboot your computer; do so.
 - You should see an open Powershell window, prompting you to enter a username and a password. Your username should be lowercase, but can otherwise be whatever suits you. You'll also need to enter a new password.
 - When entering your password you might notice that you aren't seeing any visual feedback. This is a standard security feature in Linux, and will also happen in all future cases where you need to enter a password. Just type your password and hit <kbd>Enter</kbd>.
