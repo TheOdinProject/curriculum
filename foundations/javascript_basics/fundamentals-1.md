@@ -55,7 +55,7 @@ JavaScript files have the extension `.js` similar to `.css` for stylesheets. Ext
 
 ### Variables
 
-You can think of variables as "storage containers" for data in your code. 
+You can think of variables as "storage containers" for data in your code.
 
 ![Variable Box Illustration](https://cdn.statically.io/gh/TheOdinProject/curriculum/d39eaf2ca95e80705f703bb218216c10508f5047/foundations/javascript_basics/fundamentals-1/imgs/00.png)
 
