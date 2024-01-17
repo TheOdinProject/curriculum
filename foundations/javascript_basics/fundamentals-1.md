@@ -78,7 +78,7 @@ Numbers are the building blocks of programming logic!  In fact, it's hard to thi
 <div class="lesson-content__panel" markdown="1">
 Try the following exercises (and don't forget to use `console.log()`!):
 
-1. Add 2 numbers together! (just type  `console.log(23 + 97)`   into your html file)
+1. Add 2 numbers together! (just type  `console.log(23 + 97)`   into your HTML file)
 1. Add a sequence of 6 different numbers together.
 1. Print the solution to the following equation: `(4 + 6 + 9) / 77`
     - Answer should be approximately `0.24675`
