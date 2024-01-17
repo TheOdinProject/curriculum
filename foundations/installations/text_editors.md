@@ -94,7 +94,7 @@ code
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">WSL</summary>
+<summary class="dropDown-header">WSL2</summary>
 
 #### Step 1: Install VSCode
 
@@ -112,17 +112,16 @@ code
 - Navigate to the extensions tab.
 - Find and install the [WSL extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl).
 
-#### Step 5: Ensure that WSL can correctly open VSCode
+#### Step 5: Ensure that WSL2 can correctly open VSCode
 
-- Open a new WSL terminal.
+- Open a new WSL2 terminal.
 - Run the following command to open a new VSCode window.
 
   ```bash
   code
   ```
 
-- After a few moments a new VSCode window should open, and VSCode should provide a notification that its opening in WSL.
-
+- After a few moments a new VSCode window should open, and VSCode should provide a notification that its opening in WSL2.
 
 </details>
 
@@ -131,6 +130,7 @@ code
 <div class="lesson-content__panel" markdown="1">
 
 1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
+
 </div>
 
 ### Additional resources
