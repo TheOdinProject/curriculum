@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD024 MD043 -->
+
 ### Introduction
 
 Before we start learning, we'll need to install Ruby first. This section is where you could potentially encounter a lot of errors.
