@@ -4,7 +4,7 @@ The first step to making responsive websites is using techniques that are _natur
 ### Learning outcomes
 * You'll learn a few tips for keeping your sites naturally responsive
 
-Plain HTML, with no CSS is responsive. [Check this out](https://codyloyd.github.io/responsive-html/), and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
+Plain HTML, with no CSS is responsive. [Make sure to read the page](https://codyloyd.github.io/responsive-html/), and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
 
 It's not realistic for every website you create to be as basic as plain text on a page, but it is important to keep in mind that most of the elements you're using to build your project are responsive until **you** change that with CSS. If you approach your project with this mindset and do your best to maintain that natural responsiveness, you might find that there isn't _that_ much extra you need to do to make your sites properly responsive.
 
