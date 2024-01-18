@@ -19,7 +19,7 @@ At the most basic level, CSS is made up of various rules. These rules are made u
 <div class="lesson-note" markdown="1">
 
 #### Note
- 
+
 A `<div>` is one of the basic HTML elements. It is an empty container. In general, it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain`<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
 
 </div>
