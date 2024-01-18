@@ -1,6 +1,6 @@
 ### Introduction
 
-In the previous sections you learnt how to structure webpages with HTML and style them with CSS. The next step is to make the webpage _interactive_, which is exactly what JavaScript is for. In this section, we will focus on the fundamentals of JavaScript and how you can use it to manipulate all the various interactions between the web page and user.
+In the previous sections you learnt how to structure webpages with HTML and style them with CSS. The next step is to make the webpage *interactive*, which is exactly what JavaScript is for. In this section, we will focus on the fundamentals of JavaScript and how you can use it to manipulate all the various interactions between the web page and user.
 
 ### Lesson overview
 
@@ -62,9 +62,9 @@ You can think of variables as "storage containers" for data in your code.
 
 <span id="variable-declaration">Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.</span>
 
-1. [This variable tutorial](http://javascript.info/variables) will explain everything you need to know! Be sure to do the __Tasks__ at the end. Information won't stick without practice!
+1. [This variable tutorial](http://javascript.info/variables) will explain everything you need to know! Be sure to do the **Tasks** at the end. Information won't stick without practice!
 
-The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. <span id="avoid-var">In _many_ tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is _not_ what you would expect. Just stick to `let` (and `const`) for now.</span>
+The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. <span id="avoid-var">In *many* tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is *not* what you would expect. Just stick to `let` (and `const`) for now.</span>
 
 ### Numbers
 
@@ -95,7 +95,7 @@ Try the following exercises (and don't forget to use `console.log()`!):
     - If you type `percentage` in the console and press <kbd>Enter</kbd> you should see a value like `0.7719`
 1. Take a few minutes to keep playing around with various things in your script tag.  Eventually, we will learn how to actually make those numbers and things show up on the webpage, but all of this logic will remain the same, so make sure you're comfortable with it before moving on.
 
-_* As you might have noticed by running JavaScript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `let b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line._
+** As you might have noticed by running JavaScript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `let b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line.*
 </div>
 
 ### Knowledge check
@@ -120,5 +120,5 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- The differences between `var` and `let` are explained in [this javascript.info article titled the old "var"](https://javascript.info/var).
+- The differences between `var` and `let` are explained in [this JavaScript.info article titled the old "var"](https://javascript.info/var).
 - This [MDN article on what is JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) explains a bit more about it on a high-level.
