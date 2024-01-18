@@ -316,7 +316,7 @@ A note on file names: `styles.css` is just what we went with as the file name he
 A couple of the pros to this method are:
 
 1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and making things look cleaner.
-2. We only need to edit the CSS in _one_ place, which is especially handy for websites with many pages that all share similar styles.
+1. We only need to edit the CSS in _one_ place, which is especially handy for websites with many pages that all share similar styles.
 
 #### Internal CSS
 
