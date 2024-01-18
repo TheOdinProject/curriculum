@@ -375,6 +375,7 @@ If you need to add a *unique* style for a *single* element, this method can work
     - `05-descendant-combinator`
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
+    
 </div>
 
 ### Knowledge check
