@@ -2,7 +2,7 @@
 
 When the code that you are testing has to touch a database, the amount of setup that you have to do gets quite a bit more complicated. Obviously you don't want to run your testing code on your production database because of the risk of compromising your user's data. In this lesson we're going to set up a new in-memory version of a mongo database and then tell our app to use that when running our tests.
 
-### Learning outcomes
+### Lesson overview
 
 By the end of this lesson, you should be able to do the following:
 
