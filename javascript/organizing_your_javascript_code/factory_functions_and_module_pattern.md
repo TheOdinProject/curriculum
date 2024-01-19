@@ -92,7 +92,7 @@ Yet another issue stems from the way the `instanceof` works. It checks the prese
 
 While still seen in code, these problems led to the use of a pattern that was similar to constructors but addressed a ton of these problems: Factory Functions.
 
-### Factory functions 🏭
+### Factory functions
 
 These fancy-sounding functions work very similar to how constructors did, but with one key difference - they levy the power of closures. Instead of using the `new` keyword to create an object, factory functions set up and return the new object when you call the function. They do not use the prototype, which incurs a performance penalty - but as a general rule, this penalty isn’t significant unless you’re creating thousands of objects. Let's take a basic example to compare them to constructor functions.
 
