@@ -6,18 +6,18 @@ Knowing how to use the Developer Tools inside your browser is an important skill
 
 This section contains a general overview of topics that you will learn in this lesson.
 
--  Change screen size of a website with developer tools
--  View and change the DOM
--  Debug JavaScript
--  Use breakpoints
--  View and edit HTML in the Elements tab
--  View the Resources Panel to check the scripts running on a website
--  Add CSS Pseudostate to a Class
--  View CSS Properties in Alphabetical Order
--  View and edit the Box Model of any Element in Chrome DevTools
--  View a page in print mode
--  Enable or Disable CSS Classes
--  Simulate media queries in Device Mode
+- Change screen size of a website with developer tools
+- View and change the DOM
+- Debug JavaScript
+- Use breakpoints
+- View and edit HTML in the Elements tab
+- View the Resources Panel to check the scripts running on a website
+- Add CSS Pseudostate to a Class
+- View CSS Properties in Alphabetical Order
+- View and edit the Box Model of any Element in Chrome DevTools
+- View a page in print mode
+- Enable or Disable CSS Classes
+- Simulate media queries in Device Mode
 
 ### Opening DevTools
 
@@ -36,7 +36,7 @@ Google has updated some of the required sections in the below tutorials and some
 1. Head to the [Chrome DevTools Documentation](https://developer.chrome.com/docs/devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time.  Feel free to skip the elements you are already familiar with, and only read these:
     -  CSS
         1. [View and change CSS](https://developer.chrome.com/docs/devtools/css/)
-        2. [CSS features reference](https://developer.chrome.com/docs/devtools/css/reference/)
+        1. [CSS features reference](https://developer.chrome.com/docs/devtools/css/reference/)
     -  [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/)
     -  Mobile Simulation
         1. [Simulate mobile devices with Device Mode](https://developer.chrome.com/docs/devtools/device-mode/)
