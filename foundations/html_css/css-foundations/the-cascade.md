@@ -62,6 +62,7 @@ Now, let's change things a little bit:
   <div class="list" id="subsection">Blue text</div>
 </div>
 ```
+
 ```css
 /* rule 1 */
 #subsection {
@@ -163,6 +164,7 @@ The exception to this is when directly targeting an element, as this always beat
   <div class="child"></div>
 </div>
 ```
+
 ```css
 /* styles.css */
 
