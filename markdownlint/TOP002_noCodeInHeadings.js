@@ -1,8 +1,8 @@
 module.exports = {
-  names: ["MD102", "no-code-headings"],
+  names: ["TOP002", "no-code-headings"],
   description: "No inline code in headings",
   tags: ["headings"],
-  function: function MD102(params, onError) {
+  function: function TOP002(params, onError) {
     const headingsWithCode = params.parsers.markdownit.tokens?.filter(
       (token, currIndex, tokenArray) =>
         tokenArray[currIndex - 1]?.type === "heading_open" &&

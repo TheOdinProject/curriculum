@@ -1,8 +1,8 @@
 module.exports = {
-  names: ["MD101", "descriptive-link-text"],
+  names: ["TOP001", "descriptive-link-text"],
   description: "Links have descriptive text labels",
   tags: ["accessibility", "links"],
-  function: function MD101(params, onError) {
+  function: function TOP001(params, onError) {
     const linesWithLinks = params.parsers.markdownit.tokens?.filter((token) =>
       /\[.+?\]\(.+?\)/.test(token.content)
     );

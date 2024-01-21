@@ -81,7 +81,8 @@
     }
   },
   "customRules": [
-    "./markdownlint/descriptiveLinkText.js",
-    "./markdownlint/noCodeInHeadings.js"
+    "./markdownlint/TOP001_descriptiveLinkText.js",
+    "./markdownlint/TOP002_noCodeInHeadings.js",
+    "./markdownlint/TOP003_defaultSectionContent.js"
   ]
 }
