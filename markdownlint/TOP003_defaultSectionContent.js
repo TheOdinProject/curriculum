@@ -56,10 +56,14 @@ function getListSectionErrors(sectionTokens, section) {
     (token) => token.type === "bullet_list_open"
   );
   if (!bulletListOpenToken) {
+    const errorDetail =
+      section === sectionsWithDefaultContent.additionalResources
+        ? `Expected section to include unordered list item: "It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum."`
+        : `Must include an unordered list of ${listItemsName} in the "${section}" section`;
     listSectionErrors.push(
       createErrorObject(
         (tokensAfterFirstContent[0] || tokensAfterHeading[0]).lineNumber,
-        `Must include an unordered list of ${listItemsName} in the "${section}" section`
+        errorDetail
       )
     );
   }
