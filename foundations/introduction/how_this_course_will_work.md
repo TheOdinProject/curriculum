@@ -48,5 +48,23 @@ Additional resources are the only thing that is considered optional unless expli
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+There are several online platforms where you can practice coding exercises to improve your programming skills. Here are some popular ones:
+
+LeetCode (https://leetcode.com/): LeetCode is a widely used platform that offers a large collection of coding challenges. Problems cover a variety of topics and difficulty levels. LeetCode also provides a discussion forum where users can share solutions and discuss different approaches.
+
+HackerRank (https://www.hackerrank.com/): HackerRank is another popular platform that provides coding challenges in various domains such as algorithms, data structures, artificial intelligence, databases, and more. It also hosts coding competitions and offers interview preparation kits.
+
+CodeSignal (https://codesignal.com/): CodeSignal focuses on competitive programming and interview preparation. It includes a wide range of coding challenges and also offers a feature called Interview Practice, specifically designed for job interviews.
+
+Codewars (https://www.codewars.com/): Codewars is a platform that allows users to train on coding challenges called kata. Users can solve katas created by the community and improve their skills by reviewing and discussing solutions.
+
+Exercism (https://exercism.io/): Exercism provides coding exercises in various programming languages. The platform encourages users to solve problems and then receive feedback from mentors to improve their solutions.
+
+TopCoder (https://www.topcoder.com/): TopCoder is known for hosting competitive programming contests. It offers a variety of algorithmic challenges and competitions, allowing users to improve their problem-solving skills.
+
+GeeksforGeeks (https://www.geeksforgeeks.org/): GeeksforGeeks is a platform that not only provides coding challenges but also offers tutorials and articles on various computer science topics. It is a valuable resource for both learning and practicing coding.
+
+Project Euler (https://projecteuler.net/): Project Euler focuses on mathematical and computational problems. It's a great platform for those interested in combining programming with mathematical challenges.
  
 - It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
