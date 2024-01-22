@@ -77,8 +77,15 @@ Before we can continue, we must first stress one detail of importance:
 
 With that out of the way, we need to set up an appropriate development environment!
 
-### Additional resources
+## Additional Resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section now contains helpful links to related content, providing further guidance and support for setting up your development environment.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+1. **Setting Up Your First Development Environment**  
+   This beginner’s guide walks you through the essential steps to set up your first development environment. It covers setting up a physical workspace, choosing a text editor or IDE, understanding version control, and more.  
+   [How to set up your first development environment: A beginner’s guide](https://www.techeducators.co.uk/how-to-set-up-your-first-development-environment)
+
+2. **Web Development Environment Setup**
+   These guides teach you how to set up a minimal web development environment for MacOS or Windows. It includes instructions for HTML, CSS, JavaScript, and React setup, offering a practical approach for beginners.  
+   [Web Development Setup for Beginners](https://www.robinwieruch.de/developer-setup/)
+
