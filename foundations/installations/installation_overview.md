@@ -77,9 +77,9 @@ Before we can continue, we must first stress one detail of importance:
 
 With that out of the way, we need to set up an appropriate development environment!
 
-### Additional Resources
+### Additional resources
 
-This section now contains helpful links to related content, providing further guidance and support for setting up your development environment.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 1. **Setting Up Your First Development Environment**  
    This beginner’s guide walks you through the essential steps to set up your first development environment. It covers setting up a physical workspace, choosing a text editor or IDE, understanding version control, and more.  
