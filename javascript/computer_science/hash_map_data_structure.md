@@ -92,13 +92,13 @@ Buckets are storage that we need to store our elements. Simply, it's an array. F
 
 This is an oversimplified explanation; we'll discuss more internal mechanics later in the lesson.
 
-To get a value using a key, we put each entry inside a bucket as a `Node` item, which holds both the key and the value. To retrieve the value, we hash the key and calculate its bucket number. If the bucket is not empty, then we go to that bucket and compare if the Node's key is the same key that is already in the bucket. If it is, then we can return the Node's value. Otherwise, we return `null`.
+To get a value using a key, we put each entry inside a bucket as a `Node` item, which holds both the key and the value. To retrieve the value, we hash the key and calculate its bucket number. If the bucket is not empty, then we go to that bucket and compare if the node's key is the same key that is already in the bucket. If it is, then we can return the node's value. Otherwise, we return `null`.
 
 Maybe you are wondering, why are we comparing the keys if we already found the index of that bucket? Remember, a hash code is just the location. Different keys might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
 
 This is it, making this will result in a hash table with `has`, `set` and `get`.
 
-What if we found the hash code, but also the key value is the same as what we already have in the bucket? We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`. A `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have Nodes with only keys and no values.
+What if we found the hash code, but also the key value is the same as what we already have in the bucket? We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`. A `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have nodes with only keys and no values.
 
 #### Insertion order is not maintained
 
@@ -157,7 +157,7 @@ For example, if we are to find the bucket where the value `"Manon"` will land, t
 
 As we continue to add nodes into our buckets, collisions get more and more likely. Eventually, however, there will be more nodes than there are buckets, which guarantees a collision (check the additional resources section for an explanation of this fact if you're curious).
 
-Remember we don't want collisions. In a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new buckets list that is double the size of the old buckets list, then we copy all nodes over to the new buckets.
+Remember we don't want collisions. In a perfect world each bucket will either have 0 or 1 node only, so we grow our buckets to have more chance that our nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new buckets list that is double the size of the old buckets list, then we copy all nodes over to the new buckets.
 
 #### When do we know that it's time to grow our buckets size?
 
@@ -175,7 +175,7 @@ A hash map is very efficient in its insertion, retrieval and removal operations.
 - Retrieval
 - Removal
 
-Assuming we have a good hash map written. The worst case of those operations would be `O(n)` and that happens when we have all our data hashes to the same exact bucket. The complexity itself surfaces because of the linked list, and `O(n)` is because we are traversing the linked list to insert yet again another Node into the same bucket, which happens specifically because of collisions.
+Assuming we have a good hash map written. The worst case of those operations would be `O(n)` and that happens when we have all our data hashes to the same exact bucket. The complexity itself surfaces because of the linked list, and `O(n)` is because we are traversing the linked list to insert yet again another node into the same bucket, which happens specifically because of collisions.
 
 The growth of our hash map has the complexity of `O(n)` at all times.
 
