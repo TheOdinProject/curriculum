@@ -77,7 +77,7 @@ Before we can continue, we must first stress one detail of importance:
 
 With that out of the way, we need to set up an appropriate development environment!
 
-## Additional Resources
+### Additional Resources
 
 This section now contains helpful links to related content, providing further guidance and support for setting up your development environment.
 
