@@ -34,7 +34,7 @@ Hashing is very good for security. Given a password, you can save the hash of th
 
 What can we do with those hashes? You have probably seen it in school where a folder is organized into smaller folders, and each folder holds information about people with the same first letter:
 
-```
+```text
 C:
   carlos.txt
   carla.txt
@@ -165,6 +165,7 @@ To deal with this, our hash map class needs to keep track of two new fields, the
 ### Computation complexity
 
 A hash map is very efficient in its insertion, retrieval and removal operations. That is because we use array indexes to do those operations. A hash map has an average case complexity of `O(1)` for the following methods:
+
 - Insertion
 - Retrieving
 - Removal
@@ -178,8 +179,8 @@ The growth of our hash map has the complexity of `O(n)` at all times.
 <div class="lesson-content__panel" markdown="1">
 
 - Read [What are Hash Functions and How to choose a good Hash Function](https://www.geeksforgeeks.org/what-are-hash-functions-and-how-to-choose-a-good-hash-function) for a more technical overview of a hash function.
-
 - Watch [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 that explains the concept of hash maps using buckets.
+
 </div>
 
 ### Knowledge check
@@ -190,7 +191,6 @@ This section contains questions for you to check your understanding of this less
 - [What are buckets?](#buckets)
 - [What is a collision?](#collisions)
 - [When is it a good time to grow our table?](#when-do-we-know-that-its-time-to-grow-our-buckets-size)
-
 
 ### Additional resources
 
