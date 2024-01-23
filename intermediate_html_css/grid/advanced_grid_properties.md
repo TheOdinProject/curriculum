@@ -311,7 +311,8 @@ When doing the following exercises, please use all the documentation and resourc
 Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget that the instructions are in the README). Do the exercises in the 'grid' directory in the following order:
 
 1. grid-layout-2
-2. grid-layout-3
+1. grid-layout-3
+
 </div>
 
 ### Knowledge check
@@ -322,7 +323,7 @@ This section contains questions for you to check your understanding of this less
 - [What is the difference between a static and dynamic size value?](#fractional-units)
 - [How can you assign a grid track a flexible value that changes depending on the remaining space available in the grid?](#fractional-units)
 - [How can you assign grid tracks an uneven distribution of the remaining space in a grid?](#fractional-units)
-- [Which CSS functions will return the _smallest_ or _largest_ value supplied to them?](#minimum-and-maximum-track-sizes-min-and-max)
+- [Which CSS functions will return the *smallest* or *largest* value supplied to them?](#minimum-and-maximum-track-sizes-min-and-max)
 - [Which CSS Grid-only function allows you to supply a minimum and maximum track size that is calculated in realtime?](#dynamic-minimum-and-maximum-sizes)
 - [Which global CSS function allows you to supply a minimum, ideal, and maximum value that is calculated in realtime?](#dynamic-minimum-and-maximum-sizes)
 - [What attribute of `repeat()` can be used to fill in as many grid tracks as possible, given certain constraints?](#auto-fit-and-auto-fill)
