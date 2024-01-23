@@ -164,7 +164,7 @@ Of course, it's silly to give these functions static units because the calculati
 
 In this case, the grid row size will be calculated from the values `200px` and `50%` grid container's height. In realtime, the browser will compare both of these values and apply whichever is smallest to the size of our grid row. Essentially, what this tells this grid is that the track size should be 50% of the grid's total vertical space (because we are defining a row size), *unless* that number would exceed `200px`. Essentially, you're setting a max-height for the track.
 
-Conversely, the grid column size will be calculated based on the larger of the two values `120px` and `15%` of the grid container's width. In doing so, we are essentially setting a _minimum_ width of our grid column size at `120px`. Check out the example here, and try clicking and dragging to change the grid's dimensions to see how the grid items respond:
+Conversely, the grid column size will be calculated based on the larger of the two values `120px` and `15%` of the grid container's width. In doing so, we are essentially setting a *minimum* width of our grid column size at `120px`. Check out the example here, and try clicking and dragging to change the grid's dimensions to see how the grid items respond:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="PoJwwLq" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJwwLq">
@@ -187,9 +187,9 @@ Conversely, the grid column size will be calculated based on the larger of the t
 It is a relatively straightforward function that only takes in two arguments:
 
 1. The minimum size the grid track can be
-2. The maximum size the grid track can be
+1. The maximum size the grid track can be
 
-Unlike `min()` and `max()`, it _can_ make sense to use static values for both arguments. Here is an example of the grid we've been using written with `minmax()` and some static values:
+Unlike `min()` and `max()`, it *can* make sense to use static values for both arguments. Here is an example of the grid we've been using written with `minmax()` and some static values:
 
 ```css
 .grid-container {
@@ -215,7 +215,7 @@ Unlike `minmax()`, `clamp()` is a CSS function that can be used anywhere, not ju
 
 What this does is allow our item to resize itself until it reaches one of the minimum or maximum threshold values.
 
-Since `clamp()`'s purpose is to create a flexibly sized track with constraints, we want to use a dynamic value for the "ideal size" argument, and _typically_ a static size for the minimum and maximum size, although it is possible to use a dynamic value here too.
+Since `clamp()`'s purpose is to create a flexibly sized track with constraints, we want to use a dynamic value for the "ideal size" argument, and *typically* a static size for the minimum and maximum size, although it is possible to use a dynamic value here too.
 
 Here is a simple non-grid example. We will look back at our grid in a moment:
 
@@ -248,7 +248,7 @@ Using `clamp()` and `minmax()` are fantastic methods for making grids more respo
 
 ### auto-fit and auto-fill
 
-These two values are actually a part of the `repeat()` function specification, but they were saved for the end of the lesson because their usefulness is not apparent until after you understand the `minmax()` function. Here's the use case: You want to give your grid a number of columns that is flexible based on the size of the grid. For example, if our grid is only `200px` wide, we may only want one column. If it's `400px` wide, we may want two, and so on. Solving this problem with media queries would be a _lot_ of typing. Thankfully, `auto-fit` and `auto-fill` are here to save the day!
+These two values are actually a part of the `repeat()` function specification, but they were saved for the end of the lesson because their usefulness is not apparent until after you understand the `minmax()` function. Here's the use case: You want to give your grid a number of columns that is flexible based on the size of the grid. For example, if our grid is only `200px` wide, we may only want one column. If it's `400px` wide, we may want two, and so on. Solving this problem with media queries would be a *lot* of typing. Thankfully, `auto-fit` and `auto-fill` are here to save the day!
 
 According to the [W3 specification on auto-fill and auto-fit](https://www.w3.org/TR/css-grid-1/#auto-repeat), both of these functions will return "the largest possible positive integer" without the grid items overflowing their container. Here is a simple example:
 
@@ -277,7 +277,7 @@ The real magic of `auto-fit` and `auto-fill` comes when we incorporate `minmax()
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Notice how when we resize, the columns automagically know how many will fit across without any media queries whatsoever. If you don't think _that's_ cool, you better check your pulse!
+Notice how when we resize, the columns automagically know how many will fit across without any media queries whatsoever. If you don't think *that's* cool, you better check your pulse!
 
 So what's going on here specifically with `repeat(auto-fit, minmax(150px, 1fr));`? Simple! Remember that `auto-fit` will return the **highest positive integer** without overflowing the grid. So first, the browser has to know how wide our grid is: in this case, it's just the window's width (minus margins) because we didn't explicitly set it. For the sake of this example, let's pretend like our window is currently `500px` wide. Second, the browser needs to know how many grid column tracks could possibly fit in that width. To do this, it uses the minimum value in our `minmax()` function, since that will yield the highest number of items, which is `150px`. If our window is `500px` wide, this means our grid will render 3 columns. But wait, there's more! Once the browser has determined how many columns we can fit, it then resizes our columns up to the maximum value allowed by our `minmax()` function. In this case, our max size is `1fr`, so all three columns will be given an equal allotment of the space available. As we resize our window, these calculations happen in realtime and the result is what you see in the above example!
 
