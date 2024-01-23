@@ -93,4 +93,3 @@ This section contains helpful links to other content. It isn't required, so cons
 
 - [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions), commonly known as regex, is a tool that matches or locates patterns in strings for string validation. However, it's important to know [when you shouldn't use regular expressions](https://softwareengineering.stackexchange.com/questions/113237/when-you-should-not-use-regular-expressions). There are other various methods to process strings, and regex can be slower in comparison.
   - [Web Dev Simplified's Regular Expressions In 20 Minutes](https://www.youtube.com/watch?v=rhzKDrUiJVk)
-
