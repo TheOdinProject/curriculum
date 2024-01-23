@@ -1,4 +1,5 @@
 ### Introduction
+
 Let's use what we've learned and take a chance to continue practicing DOM manipulation by dynamically rendering a restaurant homepage! By the end, we are going to be using JavaScript alone to generate the entire contents of the website!
 
 **Note: DOM elements should be created using JavaScript but styling can be done in a separate CSS file.**
@@ -12,7 +13,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
     
     1. run `npm install webpack webpack-cli --save-dev` to install webpack to the node_modules directory of your project.
    
-        - Quick tip: the `node_modules` folder can get _really_ big. It is customary to   add a `.gitignore` file to your project so that you don't have to sync the contents of `node_modules` to github. The dependencies that are stored there can be installed from your package.json by running `npm install`, so you don't need to sync them.  
+        - Quick tip: the `node_modules` folder can get *really* big. It is customary to   add a `.gitignore` file to your project so that you don't have to sync the contents of `node_modules` to github. The dependencies that are stored there can be installed from your package.json by running `npm install`, so you don't need to sync them.  
       
     1. Create a `src` and `dist` directory with the following contents:
         1. an `index.js` file in `src`
