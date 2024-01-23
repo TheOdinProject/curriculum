@@ -335,3 +335,4 @@ This section contains helpful links to other content. It isn’t required, so co
 - More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
 - If videos are more your speed, check out [this one](https://www.youtube.com/watch?v=qjJR3qYCd54).
 - Another great video to summarize what you have learned so far is [this one](https://www.youtube.com/watch?v=EiNiSFIPIQE).
+- Check out this beautiful interactive guide to grid [here](https://www.joshwcomeau.com/css/interactive-guide-to-grid).
