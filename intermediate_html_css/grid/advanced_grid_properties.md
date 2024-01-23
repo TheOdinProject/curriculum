@@ -4,7 +4,7 @@ So far, you've learned how to create a grid, adjust the sizes of the tracks, and
 
 In this lesson, you will learn about some more advanced Grid properties that can help you do this.
 
-### Learning outcomes
+### Lesson overview
 
 By the end of this lesson, you will be able to:
 
@@ -25,7 +25,7 @@ We're going to approach this lesson hands-on. Let's set up a grid with five colu
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-In this example, the HTML is pretty straightforward, but let's talk really quick about some of the CSS being used that _isn't_ related to the lesson so you can understand why it is being used.
+In this example, the HTML is pretty straightforward, but let's talk really quick about some of the CSS being used that *isn't* related to the lesson so you can understand why it is being used.
 
 #### grid-item, p, img selectors
 
@@ -87,11 +87,11 @@ Check it out for yourself!
 
 ### Fractional units
 
-Now that we know how to quickly create many grid tracks, it's time to learn how to start making them _dynamic_. Dynamic, in this context, simply means "flexible" or "responsive in some way." The opposite of dynamic is _static_, or fixed at a certain defined height, like `150px`, which we used in the setup of this sample grid.
+Now that we know how to quickly create many grid tracks, it's time to learn how to start making them *dynamic*. Dynamic, in this context, simply means "flexible" or "responsive in some way." The opposite of dynamic is *static*, or fixed at a certain defined height, like `150px`, which we used in the setup of this sample grid.
 
 The most basic way to make our grid items dynamic is by using **fractional units**, also known as `fr`.
 
-The `fr` unit is a way of distributing whatever _remaining space_ is left in the grid. For example, if we have a four-column grid with a total width of `400px` and four grid items each on a column track assigned `1fr` as their size, all of the grid items should be given **one fraction** of that `400px` of space, which is 100 pixels.
+The `fr` unit is a way of distributing whatever *remaining space* is left in the grid. For example, if we have a four-column grid with a total width of `400px` and four grid items each on a column track assigned `1fr` as their size, all of the grid items should be given **one fraction** of that `400px` of space, which is 100 pixels.
 
 Let's take a look at what happens if we give our column and row tracks in the sample grid we created a dynamic width of `1fr` instead of a static width of 150px:
 
@@ -162,7 +162,7 @@ Of course, it's silly to give these functions static units because the calculati
 }
 ```
 
-In this case, the grid row size will be calculated from the values `200px` and `50%` grid container's height. In realtime, the browser will compare both of these values and apply whichever is smallest to the size of our grid row. Essentially, what this tells this grid is that the track size should be 50% of the grid's total vertical space (because we are defining a row size), _unless_ that number would exceed `200px`. Essentially, you're setting a max-height for the track.
+In this case, the grid row size will be calculated from the values `200px` and `50%` grid container's height. In realtime, the browser will compare both of these values and apply whichever is smallest to the size of our grid row. Essentially, what this tells this grid is that the track size should be 50% of the grid's total vertical space (because we are defining a row size), *unless* that number would exceed `200px`. Essentially, you're setting a max-height for the track.
 
 Conversely, the grid column size will be calculated based on the larger of the two values `120px` and `15%` of the grid container's width. In doing so, we are essentially setting a _minimum_ width of our grid column size at `120px`. Check out the example here, and try clicking and dragging to change the grid's dimensions to see how the grid items respond:
 
