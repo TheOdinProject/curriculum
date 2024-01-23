@@ -18,6 +18,7 @@ Some of the things you can do to contribute to our curriculum include:
 * Fix broken links.
 * Add new resource links you think would make a lesson better.
 * Work on entirely new lessons after getting approval.
+* This is a new feature! Trying out OSS contributing.
 
 **Happy Coding!**
 
