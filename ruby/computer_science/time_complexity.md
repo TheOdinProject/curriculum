@@ -185,7 +185,7 @@ This one is pretty easy to wrap your head around. Linear Complexity just tells u
 
 You can't say this one isn't appropriately named. This notation means we have an algorithm which initially is `O(log N)` such as our example earlier of Binary Search where it repeatedly breaks an array in half, but with `O(N log N)` each of those array halves is processed by another algorithm with a complexity of `O(N)`.
 
-One such algorithm is merge sort, and it just so happens you tackle this project in our course :)
+One such algorithm is the merge sort algorithm from our previous lesson. :)
 
 #### O(n&#178;) - quadratic complexity
 
