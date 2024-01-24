@@ -4,10 +4,10 @@ Custom properties (also known as CSS variables) can be a really useful and power
 
 We can even redefine custom properties under different contexts, which is incredibly useful for creating themes, such as the dark and light themes you see on many websites these days.
 
-### Learning outcomes
+### Lesson overview
 
-* You'll learn how to declare a custom property
-* You'll learn how to access a custom property in a rule declaration
+- You'll learn how to declare a custom property
+- You'll learn how to access a custom property in a rule declaration
 
 ### Using custom properties
 
@@ -57,6 +57,7 @@ In the example below, only the element with the `cool-paragraph` class would get
 
 <p class='boring-paragraph'>I'm not in scope so I'm not cool.</p>
 ```
+
 ```css
 .cool-div {
   --main-bg: red;
@@ -82,6 +83,7 @@ A better solution is declaring those custom properties on the `:root` selector, 
 
 <p class='exciting-paragraph'>Lorem ipsum dolor sit amet.</p>
 ```
+
 ```css
 :root {
   --main-color: red;
@@ -127,8 +129,8 @@ We first added custom properties on the `:root` element outside of the media que
 Using the `prefers-color-scheme` media query can be pretty helpful for users since it doesn't require them to manually change the theme to their preferred one. That said, you need to be aware of a few things when it comes to using this media query:
 
 1. Only `dark` and `light` are valid values for the media query, so you can't use it to implement any themes beyond these two basic ones.
-2. The `light` value for the media query is actually for when a user has a light theme specified *or* when they have no preference set.
-2. It doesn't allow users to change the theme themselves, which can still be important in cases where a user might want to use the theme opposite of their OS/user agent preferred one for whatever reason.
+1. The `light` value for the media query is actually for when a user has a light theme specified *or* when they have no preference set.
+1. It doesn't allow users to change the theme themselves, which can still be important in cases where a user might want to use the theme opposite of their OS/user agent preferred one for whatever reason.
 
 ### Assignment
 
@@ -142,15 +144,13 @@ Using the `prefers-color-scheme` media query can be pretty helpful for users sin
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* [How would you declare a custom property with a name of `text-color`?](#using-custom-properties)
-* [How would you access a custom property with a name of `background-color`?](#using-custom-properties)
-* [Where would you declare a custom property to have its scope be global and accessible by all other selectors?](#scope)
-* [Where would you declare a custom property so that a user's theme setting from their OS or browser was taken into account?](#creating-themes-with-custom-properties)
+- [How would you declare a custom property with a name of `text-color`?](#using-custom-properties)
+- [How would you access a custom property with a name of `background-color`?](#using-custom-properties)
+- [Where would you declare a custom property to have its scope be global and accessible by all other selectors?](#scope)
+- [Where would you declare a custom property so that a user's theme setting from their OS or browser was taken into account?](#creating-themes-with-custom-properties)
 
 ### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- It looks like this lesson doesn’t have any additional resources yet. Help us expand this section by contributing to our curriculum.
-
-
+- [Using CSS custom properties](https://www.youtube.com/watch?v=_2LwjfYc1x8) by Kevin Powell is a great video showing neat ways to use custom properties.
