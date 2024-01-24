@@ -187,7 +187,6 @@ You can't say this one isn't appropriately named. This notation means we have an
 
 One such algorithm is the merge sort algorithm from our previous lesson. :)
 
-
 #### O(n&#178;) - quadratic complexity
 
 You've probably written code with a Quadratic Complexity on your programming journey. It's commonly seen when you loop over a data set and within each loop you loop over it again.
