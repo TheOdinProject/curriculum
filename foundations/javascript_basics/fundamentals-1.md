@@ -1,10 +1,6 @@
-### Introduction
+# Introduction
 
-<<<<<<< HEAD
 In the previous sections you learnt how to structure webpages with HTML and style them with CSS. The next step is to make the webpage _interactive_, which is exactly what JavaScript is for. In this section, we will focus on the fundamentals of JavaScript and how you can use it to manipulate all the various interactions between the web page and user.
-=======
-In the previous sections you learnt how to structure webpages with HTML and style them with CSS. The next step is to make the webpage *interactive*, which is exactly what JavaScript is for. In this section, we will focus on the fundamentals of JavaScript and how you can use it to manipulate all the various interactions between the web page and user.
->>>>>>> ffae15f1c9a34cb43c26071a3ee2ddcdee6397b0
 
 ### Lesson overview
 
