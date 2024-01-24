@@ -55,12 +55,12 @@ For now, just write each function and test the output with `console.log`.
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   [What are functions useful for?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)
--   [How do you invoke a function?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#invoking_functions)
--   [What are anonymous functions?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#anonymous_functions_and_arrow_functions)
--   [What is function scope?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#function_scope_and_conflicts)
--   [What are return values?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)
--   [What are arrow functions?](https://javascript.info/arrow-functions-basics)
+- [What are functions useful for?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)
+- [How do you invoke a function?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#invoking_functions)
+- [What are anonymous functions?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#anonymous_functions_and_arrow_functions)
+- [What is function scope?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#function_scope_and_conflicts)
+- [What are return values?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)
+- [What are arrow functions?](https://javascript.info/arrow-functions-basics)
 
 ### Additional resources
 
