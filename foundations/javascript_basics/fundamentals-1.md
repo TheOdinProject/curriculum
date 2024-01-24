@@ -1,8 +1,8 @@
-# Introduction
+### Introduction
 
 In the previous sections you learnt how to structure webpages with HTML and style them with CSS. The next step is to make the webpage *interactive*, which is exactly what JavaScript is for. In this section, we will focus on the fundamentals of JavaScript and how you can use it to manipulate all the various interactions between the web page and user.
 
-## Lesson overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -74,7 +74,7 @@ Numbers are the building blocks of programming logic!  In fact, it's hard to thi
 1. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view, while also teaching you how to apply some basic math in JavaScript. There's much more that you can do with numbers, but this is all you need at the moment.
 1. Read through \(and code along with!\) [this article](http://javascript.info/operators) about operators in JavaScript.  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
 
-## Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 Try the following exercises (and don't forget to use `console.log()`!):
@@ -98,7 +98,7 @@ Try the following exercises (and don't forget to use `console.log()`!):
 ** As you might have noticed by running JavaScript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `let b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line.*
 </div>
 
-## Knowledge check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -116,7 +116,7 @@ This section contains questions for you to check your understanding of this less
 - [How do you log information to the console?](#console-log)
 - [What does unary plus operator do to string representations of integers? eg. +"10"](https://javascript.info/operators#numeric-conversion-unary)
 
-## Additional resources
+### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
