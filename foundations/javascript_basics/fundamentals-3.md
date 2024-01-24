@@ -12,8 +12,8 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Functions
 1.  [This lengthy MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) is a good place to start. Don't worry as there may be some functions that can be beyond the reach of this particular lesson, but do pay special attention to the sections on 'Function Scope'. Scope is a topic that commonly trips up both beginner and intermediate coders, so it pays to spend some time with it upfront. Note that this article also has its own exercises attached, which you should **not** do, as they involve knowledge we haven't touched yet.
-2.  Read this article about [return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values).
-3.  Let's discuss parameters and arguments in the context of the following example function:
+1.  Read this article about [return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values).
+1.  Let's discuss parameters and arguments in the context of the following example function:
 
     ```javascript
      function favoriteAnimal(animal) {
@@ -30,9 +30,9 @@ This section contains a general overview of topics that you will learn in this l
 
     Feel free to experiment with the code on your own and replace `'Goat'` with your favorite animal. Notice how we can change the argument to anything we like? Try changing `animal` in the function declaration and in the function body, too. What happens when you do?
 
-4.  Next, read [this article](http://javascript.info/function-basics) from Javascript.info. We've mentioned this before, but JavaScript has changed a bit over the years and functions have recently received some innovation. This article covers one of the more useful new abilities: 'default parameters'. \(NOTE: The last "task" at the end of this lesson uses loops, which you will learn about in the next lesson.  Don't worry about that one.\)
-5.  Now, read [this article](http://javascript.info/function-expressions) about functions in JavaScript to give you a little more context, and read [this article](http://javascript.info/arrow-functions-basics) for an introduction to a relatively new feature in modern JavaScript called the `arrow function`. Arrow functions are useful but not crucial, so don't worry about them too much just yet. We include them here because you are likely to encounter them as you move forward, and it's better that you have at least _some_ idea of what you're looking at whenever they crop up.
-6.  Finally, read [this article](https://www.javascripttutorial.net/javascript-call-stack/) about call stacks and how `return` works in the context of chained function calls. Don't worry if you don't fully understand this yet, but it's important to keep in mind where your `return`ed values are going. This doubles as a bit of early computer science as well.
+1.  Next, read [this article](http://javascript.info/function-basics) from Javascript.info. We've mentioned this before, but JavaScript has changed a bit over the years and functions have recently received some innovation. This article covers one of the more useful new abilities: 'default parameters'. \(NOTE: The last "task" at the end of this lesson uses loops, which you will learn about in the next lesson.  Don't worry about that one.\)
+1.  Now, read [this article](http://javascript.info/function-expressions) about functions in JavaScript to give you a little more context, and read [this article](http://javascript.info/arrow-functions-basics) for an introduction to a relatively new feature in modern JavaScript called the `arrow function`. Arrow functions are useful but not crucial, so don't worry about them too much just yet. We include them here because you are likely to encounter them as you move forward, and it's better that you have at least _some_ idea of what you're looking at whenever they crop up.
+1.  Finally, read [this article](https://www.javascripttutorial.net/javascript-call-stack/) about call stacks and how `return` works in the context of chained function calls. Don't worry if you don't fully understand this yet, but it's important to keep in mind where your `return`ed values are going. This doubles as a bit of early computer science as well.
 
 ### Assignment
 
@@ -43,9 +43,9 @@ Let's write some functions!  Write these in the `script` tag of a skeleton HTML 
 For now, just write each function and test the output with `console.log`.
 
 1.  Write a function called `add7` that takes one number and returns that number + 7.
-2.  Write a function called `multiply` that takes 2 numbers and returns their product.
-3.  Write a function called `capitalize` that takes a string and returns that string with _only_ the first letter capitalized.  Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
-4.  Write a function called `lastLetter` that takes a string and returns the very last letter of that string:
+1.  Write a function called `multiply` that takes 2 numbers and returns their product.
+1.  Write a function called `capitalize` that takes a string and returns that string with _only_ the first letter capitalized.  Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+1.  Write a function called `lastLetter` that takes a string and returns the very last letter of that string:
     -   `lastLetter("abcd")` should return `"d"`
 
 </div>
