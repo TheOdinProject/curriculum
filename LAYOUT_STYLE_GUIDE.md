@@ -545,3 +545,13 @@ While Markdown supports the use of both asterisks `*` and underscores `_` to mak
 
 __This__ is _not_ how we do things.
 ```
+
+If asterisks are needed for showing multiplication, wrap the math expression in single backticks to form [inline code](#inline).
+
+```markdown
+Correct:
+`4 * 3 * 2`
+
+Incorrect:
+4 * 3 * 2
+```
