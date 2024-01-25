@@ -36,7 +36,7 @@ This section contains a general overview of topics that you will learn in this l
   1. Solve each of the questions from this [Code Quiz](https://www.codingame.com/playgrounds/5422/js-interview-prep-recursion) on Recursion. It is not important to have recursive algorithms committed to memory at this point; just understand how to create and use them.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
-The solution for "Question 6: Search JS object" is incorrect. See the corrected solution [here](https://gist.github.com/JoshDevHub/b00125f483d4a1ecc257eaa030916973) after you solve it.
+The solution for "Question 6: Search JS object" is incorrect. See the [corrected solution](https://gist.github.com/JoshDevHub/b00125f483d4a1ecc257eaa030916973) after you solve it.
 </div>
 
 </div>
