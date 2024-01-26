@@ -50,6 +50,6 @@ if (index < 0 || index >= buckets.length) {
 
 #### Extra Credit
 
-  - Create a class `HashSet` that behaves the same as a `HashMap` but only contains `keys` with no `values`.
+- Create a class `HashSet` that behaves the same as a `HashMap` but only contains `keys` with no `values`.
 
 </div>
