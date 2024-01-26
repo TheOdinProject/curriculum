@@ -60,7 +60,7 @@ Span is an inline-level element by default. It can be used to group text content
 
    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
-1. Apply what you learned about the box model to improve the look of your Recipe page's index.html homepage. Currently, it's just a plain list, so get creative with layouts, colors, and styles to make your page uniquely captivating.
+1. Apply what you learned about the box model to improve the look of your Recipe page's `index.html` homepage. Currently, it's just a plain list, so get creative with layouts, colors, and styles to make your page uniquely captivating.
 
 </div>
 
