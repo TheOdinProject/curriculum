@@ -77,7 +77,7 @@ end
 
 We not only consider the first letters with this technique. Instead, we take the entire name and convert it into numbers.
 
-You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true. This would make it unique for each name, but in the context of hash maps, we need the hash code to be a number. This number will serve as the index to the bucket that will store the key value pair. More on buckets in the next section.
+You might be thinking, wouldn't it just be better to save the whole name as a hash code? That is true. This would make it unique for each name, but in the context of hash maps, we need the hash code to be a number. This number will serve as the index to the bucket that will store the key value pair. More on buckets in the next section.
 
 ### Buckets
 
