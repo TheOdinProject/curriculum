@@ -6,9 +6,9 @@ Reading and understanding error messages is a requirement as a developer. At fir
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Name at least three kinds of Javascript errors
-- Identify two parts of an error message that help you find where the error originates
-- Be able to understand how to research and resolve errors
+- Name at least three kinds of JavaScript errors.
+- Identify two parts of an error message that help you find where the error originates.
+- Be able to understand how to research and resolve errors.
 
 ### The anatomy of an error
 
@@ -17,6 +17,7 @@ An error is a type of object built into the JS language, consisting of a name/ty
 <div class="lesson-note lesson-note--tip" markdown=1>
 
 For all examples in this lesson, you should run the code in the browser's console.
+
 </div>
 
 Let’s assume we have written the following code:
@@ -59,9 +60,9 @@ Our function `print()` should call on `add()`, which returns a variable named `c
 
 The stack trace tells us that:
 
-1.  `c is not defined` in scope of `add()`, which is declared on line 5
-2.  `add()` was called by `print()`, which was declared on line 9
-3.  `print()` itself was called on line 12.
+1. `c is not defined` in scope of `add()`, which is declared on line 5.
+1. `add()` was called by `print()`, which was declared on line 9.
+1. `print()` itself was called on line 12.
 
 Thus the stack trace lets you trace the evolution of an error back to its origin, which here is the declaration of `add()`.
 
@@ -128,11 +129,12 @@ At this point, you might be wondering how we can resolve these errors.
 
 Lastly, many people are met with warnings and treat them as errors. Errors will stop the execution of your program or whatever process you may be attempting to run and prevent further action. Warnings, on the other hand, are messages that provide you insight on potential problems that may not necessarily crash your program at runtime, or at all! While you should address these warnings if possible and as soon as possible, warnings are not as significant as errors and are more likely to be informational. Warnings are typically shown in yellow, while errors are typically shown in red. Though these colors are not a rule, frequently there will be a visual differentiation between the two, regardless of the platform you are encountering them on.
 
-### Assignments
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
+1. Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
+
 </div>
 
 ### Knowledge check
@@ -147,4 +149,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [MDN Javascript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
+- [MDN JavaScript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
