@@ -48,7 +48,7 @@ This example shown below demonstrates the problem with <span id='fixed-height'>s
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-#### Avoid heights all together
+#### Avoid heights altogether
 
 In *most* cases, you should avoid setting a height altogether. There are some exceptions to this rule (headers and footers perhaps) but you should prefer using margin and padding to increase space around your content. Using margin and padding will keep your elements flexible no matter what the content inside does.
 
