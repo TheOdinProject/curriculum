@@ -15,7 +15,8 @@ This section contains a general overview of topics that you will learn in this l
 An error is a type of object built into the JS language, consisting of a name/type and a message. Errors contain crucial information that can assist you in locating the code responsible for the error, determining why you have this error, and resolving the error.
 
 <div class="lesson-note lesson-note--tip" markdown=1>
-  For all examples in this lesson, you should run the code in the browser's console.
+
+For all examples in this lesson, you should run the code in the browser's console.
 </div>
 
 Let’s assume we have written the following code:
@@ -110,7 +111,7 @@ const message = str1.push(str2);
 
 ![Type Error Example](https://cdn.statically.io/gh/TheOdinProject/curriculum/4ed59981b4ce2c60b5b83bf7415d3127b61821f5/foundations/javascript_basics/understanding_errors/imgs/03.png)
 
-Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners because you might know that `.push()` is certainly a function (for example, if you have used it to add items to _arrays_ before). But that’s the key - `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended! A good note to keep in mind when faced with a `TypeError` is to consider the data type you are trying to run a method or operation against. You'll likely find that it is not what you think, or the operation or method is not compatible with that type.
+Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners because you might know that `.push()` is certainly a function (for example, if you have used it to add items to *arrays* before). But that’s the key - `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended! A good note to keep in mind when faced with a `TypeError` is to consider the data type you are trying to run a method or operation against. You'll likely find that it is not what you think, or the operation or method is not compatible with that type.
 
 [MDN - TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
 
@@ -118,10 +119,10 @@ Here, we get a `TypeError` with a message stating that `str1.push is not a funct
 
 At this point, you might be wondering how we can resolve these errors.
 
-1.  Read the error _carefully_ and try to understand it on your own.
-2.  Next, Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
-3.  Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. [This tutorial dives into the Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/). Warning: In point 4 of step 3 of the tutorial, devtools will pause on the second line rather than at the declaration of the function. Don't worry this is expected.
-4.  Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more! You can find additional methods [here](https://www.w3schools.com/jsref/obj_console.asp).
+1. Read the error *carefully* and try to understand it on your own.
+1. Next, Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
+1. Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. [This tutorial dives into the Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/). Warning: In point 4 of step 3 of the tutorial, devtools will pause on the second line rather than at the declaration of the function. Don't worry this is expected.
+1. Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more! You can find additional methods [here](https://www.w3schools.com/jsref/obj_console.asp).
 
 ### Errors vs. warnings
 
