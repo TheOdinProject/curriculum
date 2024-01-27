@@ -337,7 +337,7 @@ The preferred way to create unordered lists for The Odin Project is by using hyp
 ### Inline
 
 &#96;Backticks&#96; designate `inline code`, and will render all wrapped content
-literally. Use them for short code quotations, field names, or file names:
+literally. Use them for short code quotations, math formulas/calculations, field names, or file names:
 
 ~~~markdown
 Write these in the `script` tag of a skeleton HTML file.
@@ -544,14 +544,4 @@ While Markdown supports the use of both asterisks `*` and underscores `_` to mak
 **This** is how *we* do things.
 
 __This__ is _not_ how we do things.
-```
-
-If asterisks are needed for showing multiplication, wrap the math expression in single backticks to form [inline code](#inline).
-
-```markdown
-Correct:
-`4 * 3 * 2`
-
-Incorrect:
-4 * 3 * 2
 ```
