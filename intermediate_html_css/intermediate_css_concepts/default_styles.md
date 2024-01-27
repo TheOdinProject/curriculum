@@ -39,3 +39,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 -   [A Look at CSS Resets in 2018](https://bitsofco.de/a-look-at-css-resets-in-2018/) is another article that talks about the various resets out there.
+-   [A (more) Modern CSS Reset](https://piccalil.li/blog/a-more-modern-css-reset/) is an article that gives a more up-to-date css reset and then goes on to explain each line of it.

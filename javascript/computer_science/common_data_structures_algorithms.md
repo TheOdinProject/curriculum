@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - What is a data structure?
 - What are stacks and queues?
-- What's the best way to implement stacks and queues in Javascript (hint: think simple)?
+- What's the best way to implement stacks and queues in JavaScript?
 - Why bother having many different search algorithms?
 - What are breadth-first-search (BFS) and depth-first-search (DFS)?
 - What situations would you want to use BFS?
@@ -44,7 +44,7 @@ This section contains questions for you to check your understanding of this less
 - [What is the difference between a stack and a queue?](https://www.youtube.com/watch?v=6QS_Cup1YoI)
 - [What are the enqueue and dequeue properties?](http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/)
 - [What is a linked list? What is a node?](https://en.wikipedia.org/wiki/Data_structure#Examples)
-- [What type of algorithm would you use to perform a binary search?](https://youtu.be/T98PIp4omUA?t=20)
+- [Which recursive problem-solving method/algorithm design principle does binary search implement?](https://youtu.be/T98PIp4omUA?t=20)
 - [What abstract data type would you use to defer/store nodes in a breadth-first tree traversal?](https://youtu.be/86g8jAQug04?t=103)
 - [What abstract data type would you use to defer/store nodes in a depth-first tree traversal?](https://youtu.be/gm8DUJJhmY4?t=499)
 

@@ -81,7 +81,7 @@ It's important to note that when using querySelectorAll, the return value is **n
 const div = document.createElement('div');
 ```
 
-This function does NOT put your new element into the DOM - it simply creates it in memory.  This is so that you can manipulate the element (by adding styles, classes, ids, text, etc.) before placing it on the page. You can place the element into the DOM with one of the following methods.
+This function does NOT put your new element into the DOM - it creates it in memory.  This is so that you can manipulate the element (by adding styles, classes, ids, text, etc.) before placing it on the page. You can place the element into the DOM with one of the following methods.
 
 #### Append elements
 
@@ -173,7 +173,7 @@ div.innerHTML = '<span>Hello World!</span>';
 // renders the HTML inside div
 ```
 
-<div class="lesson-note--tip" markdown="1">
+<div class="lesson-note lesson-note--tip" markdown="1">
 
 Note that textContent is preferable for adding text, and innerHTML should be used sparingly as it can create security risks if misused. Check out [this video](https://youtube.com/watch?v=ns1LX6mEvyM) if you want to see an example of how.
 
@@ -202,7 +202,7 @@ content.textContent = 'This is the glorious text-content!';
 container.appendChild(content);
 ```
 
-In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML.  Then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `container`.   All in all it's a simple process.  After the JavaScript code is run, our DOM tree will look like this:
+In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML. Then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `container`. After the JavaScript code is run, our DOM tree will look like this:
 
 ```html
 <!-- The DOM -->
@@ -346,7 +346,7 @@ btn.addEventListener('click', function (e) {
 });
 ```
 
-<div class="lesson-note--tip" markdown="1">
+<div class="lesson-note lesson-note--tip" markdown="1">
 
 Note that `function (e)` is a callback from addEventListener. Further explanation of callbacks can be found [HERE](https://dev.to/i3uckwheat/understanding-callbacks-2o9e).
 
@@ -374,7 +374,7 @@ Pretty cool, eh?
 
 #### Attaching listeners to groups of nodes
 
-This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There are a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we simply need to iterate through the whole list like so:
+This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There are a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we need to iterate through the whole list like so:
 
 ```HTML
 <div id="container">
@@ -448,7 +448,7 @@ This section contains helpful links to related content. It isn’t required, so 
 - [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
 - [DOM Enlightenment](http://domenlightenment.com/)
 - [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.
-- This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on the DOM.
+- This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers easy-to-understand lessons on the DOM.
 - [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.
 - [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by DigitalOcean.
 - [Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events) by MDN covers the same topics you learned in this lesson on events.
