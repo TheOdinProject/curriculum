@@ -81,7 +81,8 @@ To demonstrate this workflow in action, let's solve [a common programming exerci
 This is the big picture problem we will be solving. But we can always make it clearer by rewording it.
 
 Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by 3 without a remainder print `Fizz` instead. For numbers that divide by 5 without a remainder print `Buzz` and finally for numbers that divide by both 3 and 5 without a remainder print `FizzBuzz`.
-#### Plan
+
+### Plan
 
 Does your program have an interface? What will it look like?
 Our FizzBuzz solution will be a browser console program, so we don't need an interface. The only user interaction will be allowing users to enter a number.
@@ -91,7 +92,8 @@ The user will enter a number from a prompt (popup box).
 
 What's the desired output?
 The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output `Fizz`, each number that is divisible by 5 will output `Buzz` and each number that is divisible by both 3 and 5 will output `FizzBuzz`.
-#### Pseudocode
+
+### Pseudocode
 
 What are the steps necessary to return the desired output?
 Here is an algorithm in pseudocode for this problem:
@@ -107,13 +109,13 @@ Otherwise print the current number
 
 #### Divide and conquer (implement)
 
-As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.
+As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.[Expected: 0 or 2; Actual: 1]
 
 With JavaScript, we'll use the "prompt" method.
 
 ```javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
-```
+``` 
 
 The above code should create a little popup box that asks the user for a number. The input we get back will be stored in our variable `answer`. 
 
