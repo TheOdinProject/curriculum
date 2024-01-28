@@ -6,8 +6,7 @@ Problem solving is the core thing software developers do. The programming langua
 
 V. Anton Spraul defines problem solving in programming as:
 
-> Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints.
-<br> - Think Like a Programmer </br>
+> Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints. <br/>- Think Like a Programmer
 
 The set of tasks can range from solving small coding exercises all the way up to building a social network site like Facebook or a search engine like Google. Each problem has its own set of constraints, for example, high performance and scalability may not matter too much in a coding exercise but it will be vital in apps like Google that need to service billions of search queries each day.
 
@@ -93,7 +92,7 @@ The user will enter a number from a prompt (popup box).
 What's the desired output?
 The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output `Fizz`, each number that is divisible by 5 will output `Buzz` and each number that is divisible by both 3 and 5 will output `FizzBuzz`.
 
-### Pseudocode
+#### Pseudocode
 
 What are the steps necessary to return the desired output?
 Here is an algorithm in pseudocode for this problem:
@@ -109,15 +108,15 @@ Otherwise print the current number
 
 #### Divide and conquer (implement)
 
-As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.[Expected: 0 or 2; Actual: 1]
+As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number. 
 
 With JavaScript, we'll use the "prompt" method.
 
 ```javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
-``` 
+```
 
-The above code should create a little popup box that asks the user for a number. The input we get back will be stored in our variable `answer`. 
+The above code should create a little popup box that asks the user for a number. The input we get back will be stored in our variable `answer`.
 
 <div class="lesson-note lesson-note--tip" markdown=1>
 We wrapped the prompt call in a `parseInt` function so that a number is returned from the user's input.
