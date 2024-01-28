@@ -51,7 +51,7 @@ A **virtual machine** is an emulation of a computer that runs within your existi
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be overstated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
 
-**Windows Subsystem for Linux** lets you run a full-fledged Linux environment from within an existing Windows installation, giving you all of the advantages of Linux without needing to run a virtual machine or dual boot. We'll be using version 2 of WSL, commonly known as WSL2, within the curriculum.
+**Windows Subsystem for Linux** lets you run a full-fledged Linux environment from within an existing Windows installation, giving you all of the advantages of Linux through a simplified installation process. We'll be using version 2 of WSL, commonly known as WSL2, within the curriculum.
 
 ### Concerned about installing a new OS?
 
