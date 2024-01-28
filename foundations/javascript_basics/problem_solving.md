@@ -44,7 +44,7 @@ Some of the questions you should answer at this stage of the process:
 
 The last question is where you will write out an algorithm to solve the problem. <span id="algorithm">You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudocode.</span>
 
-#### Pseudocode
+### Pseudocode
 
 <span id="pseudo">Pseudocode is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.</span>
 
@@ -59,7 +59,7 @@ Print the value of the counter variable
 
 This is a basic program to demonstrate how pseudocode looks. There will be more examples of pseudocode included in the assignments.
 
-### Divide and conquer
+#### Divide and conquer
 
 From your planning, you should have identified some subproblems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are subproblems. Pick the smallest or simplest one and start there with coding.
 
@@ -108,7 +108,7 @@ Otherwise print the current number
 
 #### Divide and conquer (implement)
 
-As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number. 
+As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.
 
 With JavaScript, we'll use the "prompt" method.
 
