@@ -6,7 +6,7 @@ Problem solving is the core thing software developers do. The programming langua
 
 V. Anton Spraul defines problem solving in programming as:
 
-> Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints. <br/>- Think Like a Programmer
+> Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints. <br /> - Think Like a Programmer
 
 The set of tasks can range from solving small coding exercises all the way up to building a social network site like Facebook or a search engine like Google. Each problem has its own set of constraints, for example, high performance and scalability may not matter too much in a coding exercise but it will be vital in apps like Google that need to service billions of search queries each day.
 
@@ -31,7 +31,7 @@ The first step to solving a problem is understanding exactly what the problem is
 
 <span id="help-understand-problem">To gain clarity and understanding of the problem, write it down on paper, reword it in plain English until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain English, you understand it.</span>
 
-#### Plan
+### Plan
 
 Now that you know what you're aiming to solve, don't jump into coding just yet. It's time to plan out how you're going to solve it first.
 <span id="planning-stage"></span>
@@ -59,7 +59,7 @@ Print the value of the counter variable
 
 This is a basic program to demonstrate how pseudocode looks. There will be more examples of pseudocode included in the assignments.
 
-#### Divide and conquer
+### Divide and conquer
 
 From your planning, you should have identified some subproblems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are subproblems. Pick the smallest or simplest one and start there with coding.
 
@@ -92,7 +92,7 @@ The user will enter a number from a prompt (popup box).
 What's the desired output?
 The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output `Fizz`, each number that is divisible by 5 will output `Buzz` and each number that is divisible by both 3 and 5 will output `FizzBuzz`.
 
-#### Pseudocode
+### Pseudocode
 
 What are the steps necessary to return the desired output?
 Here is an algorithm in pseudocode for this problem:
