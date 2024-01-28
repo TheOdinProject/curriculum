@@ -108,13 +108,13 @@ code
 - Go to the **Downloads** folder.
 - Drag **VSCodeUserSetup-{version}.exe** to the trash.
 
-#### Step 4: Install WSL Extension
+#### Step 3: Install WSL Extension
 
 - Open Visual Studio Code.
 - Navigate to the extensions tab.
 - Find and install the [WSL extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl).
 
-#### Step 5: Ensure that WSL2 can correctly open VSCode
+#### Step 4: Ensure that WSL2 can correctly open VSCode
 
 - Open a new WSL2 terminal.
 - Run the following command to open a new VSCode window.
