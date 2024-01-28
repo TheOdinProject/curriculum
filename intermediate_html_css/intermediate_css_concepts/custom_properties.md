@@ -158,4 +158,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-- It looks like this lesson doesn’t have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [Using CSS custom properties](https://www.youtube.com/watch?v=_2LwjfYc1x8) by Kevin Powell is a great video showing neat ways to use custom properties.

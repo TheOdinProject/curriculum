@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD024 MD043 -->
+
 ### Introduction
 
 Node.js is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser. We will need this for some exercises in the upcoming lessons. To get started, there are some required tools we need before we can install Node on your system.
@@ -128,7 +130,7 @@ If you see that, you have successfully installed Node!
 
 ### Using Node console
 
-For convenience, Node provides an interactive console which lets you run and edit your javascript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.
+For convenience, Node provides an interactive console which lets you run and edit your JavaScript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.
 
 To run the Node console, open up your terminal and type `node`. Type `.exit` to quit the console.
 
