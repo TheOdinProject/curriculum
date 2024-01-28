@@ -6,8 +6,13 @@ We can even redefine custom properties under different contexts, which is incred
 
 ### Lesson overview
 
-- You'll learn how to declare a custom property
-- You'll learn how to access a custom property in a rule declaration
+This section contains a general overview of topics that you will learn in this lesson.
+
+- How to declare custom properties
+- How to use a custom property in a rule declaration
+- The scope of custom properties
+- The root selector
+- Using media queries
 
 ### Using custom properties
 
@@ -111,7 +116,7 @@ Beyond allowing us to access custom properties more globally, the `:root` select
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-First we used JavaScript to add a `class` attribute on our `html` element (We don't have direct access to the `html` element in the HTML tab on codepen, but you should be able to see the class being applied in the browser's inspector) so that our page has a default theme. Next in our CSS we created two scopes for our custom properties on the `:root` selector, one for when our `html` (or root) element has a class of `dark` and another for when it has a class of `light`. Our other selectors then use the values of any custom properties depending on which class is currently present on our root element.
+First, since we don’t have direct access to the root element in the HTML tab on codepen, we’ve applied a default class of `dark` using the settings menu. Feel free to open the pen and change this setting to see how it behaves! Next in our CSS we created two scopes for our custom properties on the `:root` selector, one for when our `html` (or root) element has a class of `dark` and another for when it has a class of `light`. Our other selectors then use the values of any custom properties depending on which class is currently present on our root element.
 
 #### Media queries
 
