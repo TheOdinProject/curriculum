@@ -6,11 +6,11 @@ Problem solving is the core thing software developers do. The programming langua
 
 V. Anton Spraul defines problem solving in programming as:
 
-> Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints. <br /> - Think Like a Programmer
+> Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints. <br/> - Think Like a Programmer
 
 The set of tasks can range from solving small coding exercises all the way up to building a social network site like Facebook or a search engine like Google. Each problem has its own set of constraints, for example, high performance and scalability may not matter too much in a coding exercise but it will be vital in apps like Google that need to service billions of search queries each day.
 
-New programmers often find problem solving the hardest skill to build. It's not uncommon for budding programmers to breeze through learning syntax and programming concepts, yet when trying to code something on their own, they find themselves staring blankly at their text editor not knowing where to start. 
+New programmers often find problem solving the hardest skill to build. It's not uncommon for budding programmers to breeze through learning syntax and programming concepts, yet when trying to code something on their own, they find themselves staring blankly at their text editor not knowing where to start.
 
 The best way to improve your problem solving ability is by building experience by making lots and lots of programs. The more practice you have the better you'll be prepared to solve real world problems.
 
@@ -31,7 +31,7 @@ The first step to solving a problem is understanding exactly what the problem is
 
 <span id="help-understand-problem">To gain clarity and understanding of the problem, write it down on paper, reword it in plain English until it makes sense to you, and draw diagrams if that helps. When you can explain the problem to someone else in plain English, you understand it.</span>
 
-### Plan
+#### Plan
 
 Now that you know what you're aiming to solve, don't jump into coding just yet. It's time to plan out how you're going to solve it first.
 <span id="planning-stage"></span>
@@ -44,7 +44,7 @@ Some of the questions you should answer at this stage of the process:
 
 The last question is where you will write out an algorithm to solve the problem. <span id="algorithm">You can think of an algorithm as a recipe for solving a particular problem. It defines the steps that need to be taken by the computer to solve a problem in pseudocode.</span>
 
-### Pseudocode
+#### Pseudocode
 
 <span id="pseudo">Pseudocode is writing out the logic for your program in natural language instead of code. It helps you slow down and think through the steps your program will have to go through to solve the problem.</span>
 
@@ -116,7 +116,7 @@ With JavaScript, we'll use the "prompt" method.
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
 ```
 
-The above code should create a little popup box that asks the user for a number. The input we get back will be stored in our variable `answer`. 
+The above code should create a little popup box that asks the user for a number. The input we get back will be stored in our variable `answer`.
 
 <div class="lesson-note lesson-note--tip" markdown=1>
 We wrapped the prompt call in a `parseInt` function so that a number is returned from the user's input.
