@@ -2,7 +2,7 @@
 
 Most content on the web is text-based, so you will find yourself needing to work with HTML text elements quite a bit.
 
-In this lesson, we will learn about the text-based elements you are likely to use the most.
+In this lesson, we will learn about the text-based elements you are most likely to use.
 
 ### Lesson overview
 
