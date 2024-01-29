@@ -18,6 +18,9 @@ Did you figure it out? Congratulations! But do you really understand what is tak
 We spent some time early on dealing with sorting (e.g. bubble sort).  Now it's time to take another look at sorting with [Merge Sort](http://en.wikipedia.org/wiki/Merge_sort), a type of sort that lends itself well to recursion and can be much faster than bubble sort on the right data sets.  You'll build a method which sorts a given array but uses a "merge sort" method for doing so.
 
 It can be a bit strange to wrap your head around, but just remember you're "dividing and conquering" the problem.
+<div class="lesson-note lesson-note--warning" markdown="1">
+  The Wikipedia article above uses merge sort examples written in C-like code, this code will likely look quite different than what you're used to. Don't waste time trying to understand the specifics of the language, just focus on the idea it is trying to get across.
+</div>
 
 ### Background viewing
 
