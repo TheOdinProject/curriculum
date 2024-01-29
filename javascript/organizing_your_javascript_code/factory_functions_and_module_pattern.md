@@ -116,7 +116,7 @@ function createUser (name) {
 
 ### The object shorthand notation
 
-Some may get confused by the way the returned object is written in the factory function example. In 2015, a shortcut to creating objects was added to JavaScript. Say we wanted to make an object with a name, age, and color. We'd write it as the following:
+Some may get confused by the way the returned object is written in the factory function example. In 2015, a shortcut to creating objects was added to JavaScript. Say we wanted to create an object with a name, age, and color, we would write it as follows:
 
 ```javascript
 const name = "Bob";
