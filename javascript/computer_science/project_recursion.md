@@ -20,7 +20,9 @@ Did you figure it out? Congratulations! But do you really understand what is tak
 Sorting algorithms are a great way to get to grips with recursion.  One such algorithm is [Merge Sort](http://en.wikipedia.org/wiki/Merge_sort), a type of sort that lends itself well to recursion and can be much faster than other algorithms such as bubble sort on the right data sets.  You'll build a function which sorts a given array but uses a "merge sort" function for doing so.
 
 It can be a bit strange to wrap your head around, but just remember you're "dividing and conquering" the problem.
-
+<div class="lesson-note lesson-note--warning" markdown="1">
+  The Wikipedia article above uses merge sort examples written in C-like code, this code will likely look quite different than what you're used to. Don't waste time trying to understand the specifics of the language, just focus on the idea it is trying to get across.
+</div>
 ### Background viewing
 
 The first step is to actually understand what the merge sort algorithm is doing:
