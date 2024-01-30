@@ -21,7 +21,7 @@ Sorting algorithms are a great way to get to grips with recursion.  One such alg
 
 It can be a bit strange to wrap your head around, but just remember you're "dividing and conquering" the problem.
 <div class="lesson-note lesson-note--warning" markdown="1">
-  The Wikipedia article above uses merge sort examples written in C-like code, this code will likely look quite different than what you're used to. Don't waste time trying to understand the specifics of the language, just focus on the idea it is trying to get across.
+  The Wikipedia article above uses merge sort examples written in C-like code. This code will likely look quite different from what you're used to. Don't waste time trying to understand the specifics of the language, and just focus on the idea it is trying to get across.
 </div>
 ### Background viewing
 
