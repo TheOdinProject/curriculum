@@ -139,10 +139,10 @@ export default class extends Controller {
 }
 ~~~
 
-You need to declare your targets, but once you do, you can get the DOM element by using `this.nameTarget`.
-If you need multiple targets of the same kind, you can get an array of DOM elements with `this.nameTargets`.
-If you need to make your controllers to be smart about targets, you can
-also ask whether certain targets are available in the HTML with `this.hasNameTarget`.
+You need to declare your targets, once you have Stimulus provides the following properties to you controller:
+* `this.nameTarget` - the first DOM element of matching target name.
+* `this.nameTargets` - An array of all targets matching name.
+* `this.hasNameTarget` - Boolean indicator of whether target of name is in scope.
 
 ### Keeping state
 
