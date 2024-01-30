@@ -65,7 +65,7 @@ Need to install the following packages:
 Ok to proceed? (y)
 ```
 
-Once the command had begun executing, it should output the next steps for you to follow: 
+Once the command had begun executing, it should output the next steps for you to follow:
 
 ```bash
 cd my-first-react-app
@@ -73,7 +73,7 @@ npm install
 npm run dev
 ```
 
-Provided that everything has gone according to plan, head over to `localhost:5173`, where you'll be greeted with the following page: 
+Provided that everything has gone according to plan, head over to `localhost:5173`, where you'll be greeted with the following page:
 
 ![Vite React template homepage](https://cdn.statically.io/gh/TheOdinProject/curriculum/73199c4e9e43e8d87f8759e026c13b63fcfe73c7/react/introduction/setting_up_a_react_environment/imgs/vite_react_homepage.png)
 
@@ -133,14 +133,14 @@ We recommend installing this and becoming comfortable with using it as early as 
 <div class="lesson-content__panel" markdown="1">
 
 1. Review this material by reading through [Vite's Getting Started Page](https://vitejs.dev/guide/).
-1. Check out this [guide for React Developer Tools](https://web.archive.org/web/20230127083036/https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to utilize it effectively (don't worry if you can't yet understand some of the languages).
-1. Try to clean up your `my-first-react-app` project so that it no longer displays the default page, see if you can get it to display a "Hello, World!" message instead.
+2. Check out this [guide for React Developer Tools](https://web.archive.org/web/20230127083036/https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to utilize it effectively (don't worry if you can't yet understand some of the languages).
+3. Try to clean up your `my-first-react-app` project so that it no longer displays the default page, see if you can get it to display a "Hello, World!" message instead.
+
 </div>
 
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
-
 
 - [What are some of the ways we can start a new React project?](#many-paths)
 - [Why should we initially be using pre-made toolchains instead of making our own?](#many-paths)
