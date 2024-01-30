@@ -22,6 +22,8 @@ if (index < 0 || index >= buckets.length) {
 
   1. `hash(key)` takes a key and produces a hash code with it. We did implement a fairly good `hash` function in the previous lesson. You are free to use that, or if you wish, you can conduct your own research. Beware, this is a deep deep rabbit hole.
 
+  You might find yourself confusing keys with hash codes while accessing key-value pairs later. We would like to stress that the key is what your `hash` function will take as an input. In a way, we could say that the key is important for us only inside the `hash` function. But we never access a bucket directly with the key. Instead we do so with the hash code. 
+
       <div class="lesson-note lesson-note--tip" markdown="1">
         Hash maps could accommodate various data types for keys like numbers, strings, objects. But for this project, only handle keys of type strings.
       </div>
