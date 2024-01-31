@@ -91,11 +91,11 @@ This creates a scope. All the following attributes will only work within the sco
 ### Triggering an action
 
 You learned how to trigger events with event listeners; in Stimulus, instead, you use `data-action` attributes to
-execute javascript to react to a user click or input.
+execute JavaScript to react to a user click or input.
 
 So instead of `document.querySelector("button").addEventListener("click", showAlert)` we write the following HTML:
 
-```html 
+```html
 <div data-controller="alert">
   <button data-action="click->alert#show">Alert me!</button>
 </div>
@@ -182,7 +182,7 @@ export default class extends Controller {
 ```
 
 So here we declare a count value that we then interact with: the `countValueChanged` function will automatically be
-called whenever the value changes. As we said Stimulus is HTML first. So the HTML actually shows the value on the 
+called whenever the value changes. As we said Stimulus is HTML first. So the HTML actually shows the value on the
 element where the controller lives:
 
 ```html
@@ -272,12 +272,12 @@ go into more depth.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-* Read the [Stimulus Handbook](https://stimulus.hotwired.dev/handbook/origin) to get an overview of how to code
+- Read the [Stimulus Handbook](https://stimulus.hotwired.dev/handbook/origin) to get an overview of how to code
 with Stimulus.
-* Watch this [Stimulus 2.0 Tutorial Video](https://www.driftingruby.com/episodes/the-stimulus-2-0-tutorial); it may give
+- Watch this [Stimulus 2.0 Tutorial Video](https://www.driftingruby.com/episodes/the-stimulus-2-0-tutorial); it may give
 you a bit of a feel on how to work with Stimulus controllers. You can ignore the part about installation with Webpacker as
 we will use the new Rails standard of using import maps.
-* Make sure to also read the [reference section](https://stimulus.hotwired.dev/reference/controllers), if you
+- Make sure to also read the [reference section](https://stimulus.hotwired.dev/reference/controllers), if you
 haven't already. Don't worry if not everything sticks, but you should know where to look up what you need.
 </div>
 
@@ -285,25 +285,25 @@ haven't already. Don't worry if not everything sticks, but you should know where
 
 To practice you need to create a new standard Rails application. Stimulus will be installed by default with Rails 7.0.
 
-* Write some HTML that uses the example controller in `app/javascript/controllers/hello_controller.js`
-* Create your own toggle controller and use it in your view. It should be able to show/hide elements upon clicking a
+- Write some HTML that uses the example controller in `app/javascript/controllers/hello_controller.js`
+- Create your own toggle controller and use it in your view. It should be able to show/hide elements upon clicking a
 button.
-* Make sure your toggle controller is reusable. Try to make it do the following things:
-  * Clicking a button will show another element (like a dropdown menu)
-  * Clicking an element will hide the clicked element and show another
-  * Clicking a checkbox will highlight the element containing the checkbox
-* Write a controller for text inputs with a limited length. Warn a user when they are close or over the maximum character
+- Make sure your toggle controller is reusable. Try to make it do the following things:
+  - Clicking a button will show another element (like a dropdown menu)
+  - Clicking an element will hide the clicked element and show another
+  - Clicking a checkbox will highlight the element containing the checkbox
+- Write a controller for text inputs with a limited length. Warn a user when they are close or over the maximum character
 count (imagine a user writing a tweet which has a maximum length of 280 characters)
-* **Project**: 
+- **Project**:
 Go back to you **Flight Booker** project and improve it:
-  * Add a controller that allows the user to add another passenger by clicking on an "Add passenger" button, which adds another set of fields to enter the passenger details (hint: have a look at the [\<template\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)) tag)
-  * Allow to remove existing passengers by clicking a "Remove" button, which removes the one set of passenger fields (make sure submissions to the server still works as expected)
-  * Prevent removing the last set of passenger details.
+  - Add a controller that allows the user to add another passenger by clicking on an "Add passenger" button, which adds another set of fields to enter the passenger details (hint: have a look at the [\<template\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)) tag)
+  - Allow to remove existing passengers by clicking a "Remove" button, which removes the one set of passenger fields (make sure submissions to the server still works as expected)
+  - Prevent removing the last set of passenger details.
 
 ### Additional resources
 
-* [Better Stimulus](https://www.betterstimulus.com/), a good resource that shows best practices around Stimulus
-* [Stimulus Components](https://stimulus-components.netlify.app/), a collection of reusable Stimulus components
+- [Better Stimulus](https://www.betterstimulus.com/), a good resource that shows best practices around Stimulus
+- [Stimulus Components](https://stimulus-components.netlify.app/), a collection of reusable Stimulus components
 
 ### Knowledge check
 
@@ -313,29 +313,32 @@ the questions below on your own, clicking the small arrow to the left of the que
 <details markdown="block">
   <summary>When do you use Stimulus?</summary>
 
-* When you want functionality, where a roundtrip to a server would not make sense
+- When you want functionality, where a roundtrip to a server would not make sense
+
 </details>
 
 <details markdown="block">
   <summary>How do you select a DOM element?</summary>
 
-* There are three aspects to it:
-  * add a `data-my-thing-target` to the HTML element
-  * declare it with `static targets = ["myThing"]` in your controller
-  * use it in the controller with `this.myThingTarget` or `this.myThingTargets`
+- There are three aspects to it:
+  - add a `data-my-thing-target` to the HTML element
+  - declare it with `static targets = ["myThing"]` in your controller
+  - use it in the controller with `this.myThingTarget` or `this.myThingTargets`
+
 </details>
 
 <details markdown="block">
   <summary>How do you make your Stimulus controllers reusable?</summary>
 
-* By using abstract controllers, like `toggle`, rather than one specific to the view, like `reveal-comments`
-* By making them configurable with `values` and `classes`
+- By using abstract controllers, like `toggle`, rather than one specific to the view, like `reveal-comments`
+- By making them configurable with `values` and `classes`
 </details>
 
 
 <details markdown="block">
   <summary>How do you trigger actions on an event?</summary>
 
-* By using `data-action="click->some-controller#someAction"` on a HTML element
-* Or by using `data-action="resize@window->gallery#layout"` for window events
+- By using `data-action="click->some-controller#someAction"` on a HTML element
+- Or by using `data-action="resize@window->gallery#layout"` for window events
+
 </details>
