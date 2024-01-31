@@ -332,8 +332,8 @@ the questions below on your own, clicking the small arrow to the left of the que
 
 - By using abstract controllers, like `toggle`, rather than one specific to the view, like `reveal-comments`
 - By making them configurable with `values` and `classes`
-</details>
 
+</details>
 
 <details markdown="block">
   <summary>How do you trigger actions on an event?</summary>
