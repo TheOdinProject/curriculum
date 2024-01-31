@@ -140,9 +140,10 @@ export default class extends Controller {
 ```
 
 You need to declare your targets, once you have Stimulus provides the following properties to you controller:
-* `this.nameTarget` - the first DOM element of matching target name.
-* `this.nameTargets` - An array of all targets matching name.
-* `this.hasNameTarget` - Boolean indicator of whether target of name is in scope.
+
+- `this.nameTarget` - the first DOM element of matching target name.
+- `this.nameTargets` - An array of all targets matching name.
+- `this.hasNameTarget` - Boolean indicator of whether target of name is in scope.
 
 ### Keeping state
 
@@ -188,7 +189,7 @@ element where the controller lives:
 <div data-controller="counter" data-counter-count-value="0"></div>
 ```
 
-So the above HTML will always reflect the value of `this.countValue`. If you change the value through an action in the 
+So the above HTML will always reflect the value of `this.countValue`. If you change the value through an action in the
 controller, the HTML value will be updated. But also if you change the value in the HTML, the `countValueChange`
 callback is called.
 
@@ -244,6 +245,7 @@ export default class extends Controller {
   }
 }
 ```
+
 So connect is a special function that gets called whenever an element with the `data-controller="controller-name"`
 appears in the DOM. So it's the perfect solution to change things about the HTML that just appeared on the page.
 
@@ -275,7 +277,7 @@ with Stimulus.
 * Watch this [Stimulus 2.0 Tutorial Video](https://www.driftingruby.com/episodes/the-stimulus-2-0-tutorial); it may give
 you a bit of a feel on how to work with Stimulus controllers. You can ignore the part about installation with Webpacker as
 we will use the new Rails standard of using import maps.
-* Make sure to also read the [reference section](https://stimulus.hotwired.dev/reference/controllers), if you 
+* Make sure to also read the [reference section](https://stimulus.hotwired.dev/reference/controllers), if you
 haven't already. Don't worry if not everything sticks, but you should know where to look up what you need.
 </div>
 
