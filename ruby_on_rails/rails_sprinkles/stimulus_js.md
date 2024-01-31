@@ -300,11 +300,6 @@ Go back to you **Flight Booker** project and improve it:
   - Allow to remove existing passengers by clicking a "Remove" button, which removes the one set of passenger fields (make sure submissions to the server still works as expected)
   - Prevent removing the last set of passenger details.
 
-### Additional resources
-
-- [Better Stimulus](https://www.betterstimulus.com/), a good resource that shows best practices around Stimulus
-- [Stimulus Components](https://stimulus-components.netlify.app/), a collection of reusable Stimulus components
-
 ### Knowledge check
 
 *This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering
@@ -342,3 +337,8 @@ the questions below on your own, clicking the small arrow to the left of the que
 - Or by using `data-action="resize@window->gallery#layout"` for window events
 
 </details>
+
+### Additional resources
+
+- [Better Stimulus](https://www.betterstimulus.com/), a good resource that shows best practices around Stimulus
+- [Stimulus Components](https://stimulus-components.netlify.app/), a collection of reusable Stimulus components
