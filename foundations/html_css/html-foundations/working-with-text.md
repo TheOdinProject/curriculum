@@ -95,7 +95,7 @@ Sometimes you will want to make text bold without giving it an important meaning
 
 ### Em element
 
-The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element we wrap text content in a `<em>` tag.
+The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element we wrap text content in an `<em>` tag.
 
 To use `<em>` on its own:
 
