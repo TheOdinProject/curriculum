@@ -34,7 +34,7 @@ Note: You may need to update the Ubuntu package lists to the latest version for 
 sudo apt update && sudo apt upgrade
 ```
 
-#### Step 1: Downloading and installing NVM
+#### Step 1: Downloading and Installing NVM
 
 Run this command to install `nvm`:
 
