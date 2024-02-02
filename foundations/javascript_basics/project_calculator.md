@@ -19,7 +19,7 @@ Don't forget to commit early & often! You can [reference the Commit Message less
 
 Here are some use cases (abilities your project needs to have):
 
-1.  Your calculator is going to contain functions for all of the basic math operators you typically find on simple calculators, so start by creating functions for the following items and testing them in your browser's console.
+1.  Your calculator is going to contain functions for all of the basic math operators you typically find on calculators, so start by creating functions for the following items and testing them in your browser's console.
     *   add
     *   subtract
     *   multiply

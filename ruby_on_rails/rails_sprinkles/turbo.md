@@ -84,7 +84,7 @@ The above example will generate a turbo frame for every article. Each frame will
 
 #### Connecting to other frames
 
-Now that we have our first frame, we can replace its content with a link that request new frame content. All we have to do is put a link inside of the Turbo Frame, where the requested view *also* includes a Turbo frame with the **same ID**.
+Now that we have our first frame, we can replace its content with a link that requests new frame content. All we have to do is put a link inside of the Turbo Frame, where the requested view *also* includes a Turbo frame with the **same ID**.
 
 Let us replace the `/show` view with the `/edit` view on an article:
 

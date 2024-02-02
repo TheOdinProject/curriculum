@@ -337,7 +337,7 @@ The preferred way to create unordered lists for The Odin Project is by using hyp
 ### Inline
 
 &#96;Backticks&#96; designate `inline code`, and will render all wrapped content
-literally. Use them for short code quotations, field names, or file names:
+literally. Use them for short code quotations, math formulas/calculations, field names, or file names:
 
 ~~~markdown
 Write these in the `script` tag of a skeleton HTML file.
@@ -413,7 +413,7 @@ Note boxes can be added by wrapping the content in a `div` with the class `lesso
 
 For nested markdown inside note boxes to be displayed properly additional `markdown="1" attribute` is needed.
 
-A heading can be added to a note by using an `h4` element. When adding a heading, be sure to provide text that helps describe the note rather than "A note" or "Warning".
+A heading can be added to a note by using a `####` heading. When adding a heading, be sure to provide text that helps describe the note rather than "A note" or "Warning".
 
 ### Variations
 
@@ -424,13 +424,17 @@ Note boxes come in two variations, which can be set by adding an extra class tog
 ### Example
 ~~~markdown
 <div class="lesson-note" markdown="1">
-<h4>An optional title</h4>
+
+#### An optional title
+
 A sample note box.
 </div>
 ~~~
 ~~~markdown
 <div class="lesson-note lesson-note--tip" markdown="1">
-<h4>An optional title</h4>
+
+#### An optional title
+
 A sample note box, variation: tip.
 </div>
 ~~~

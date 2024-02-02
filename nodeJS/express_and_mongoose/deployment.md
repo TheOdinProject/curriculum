@@ -81,7 +81,7 @@ Once you have your domain, you need to point it to your project. The provider yo
 
 ### Our recommended PaaS services
 
-Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small app's as you wanted, but they unfortunately discontinued it in 2022.
+Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small apps as you wanted, but they unfortunately discontinued it in 2022.
 
 Luckily, there are still plenty of other great options out there. The downside is that they all have very limited free tiers. For this reason, and to accommodate as many of our learners as possible, we're going to recommend a range of options instead of just one.
 
@@ -109,7 +109,6 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - [Homepage](https://fly.io/)
 - [Documentation](https://fly.io/docs/)
 - [Guide: Official getting started with NodeJS on Fly.io guide](https://fly.io/docs/languages-and-frameworks/node/)
-- [Guide: GoNodeJS video guide for deploying NodeJS applications to Fly.io](https://www.youtube.com/watch?v=6Zp9y8nF5rE&)
 
 ---
 

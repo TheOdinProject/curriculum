@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD024 MD043 -->
+
 ### Introduction
 
 One of the great things about the Rails' convention over configuration philosophy is it provides sensible defaults out of the box so that you can get started quickly. However, SQLite is typically not used for production. One major issue is that many hosting providers have ephemeral file systems which means your database can be deleted.
@@ -23,10 +25,10 @@ There are four basic types of environments that are typically set up together. T
 
 <span id="pipeline"></span>
 
-1.  The development environment is typically the developers local machine. Where they can safely make changes, add features and improve the code without impacting actual users.
-1.  The test environment is set up to facilitate testing of the application. This environment may use different tools and configuration settings (like more verbose logging) to validate a program's behavior and identify bugs with automated tests.
-1.  The staging environment usually mirrors the production environment but deployments are not meant to be public.
-1.  The production environment runs the application so that it is accessible by users.
+1. The development environment is typically the developers local machine. Where they can safely make changes, add features and improve the code without impacting actual users.
+1. The test environment is set up to facilitate testing of the application. This environment may use different tools and configuration settings (like more verbose logging) to validate a program's behavior and identify bugs with automated tests.
+1. The staging environment usually mirrors the production environment but deployments are not meant to be public.
+1. The production environment runs the application so that it is accessible by users.
 
 Because an environment is a collection of tools and configurations, they come in handy as a place to store secrets or other information that may change based on the application's intended use.
 
@@ -79,7 +81,7 @@ sudo systemctl start postgresql.service
 ```
 
 <div class="lesson-note lesson-note--warning">
-<h4>Systemctl and WSL2</h4>
+#### Systemctl and WSL2
 Systemctl is not supported on WSL2, and the above command won't work. Instead run sudo service postgresql start.
 </div>
 
@@ -139,19 +141,19 @@ psql
 
 You should see the PostgreSQL prompt come up with the new role we just created, like so:
 
-```
+```sql
 <role_name>=#
 ```
 
 If you don't see a similar prompt, then reach out on [Discord](https://discord.gg/V75WSQG) for some help. If you **do** see a similar prompt, then we can create a password for the role like so:
 
-```
+```sql
 \password <role_name>
 ```
 
 You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role:
 
-```
+```sql
 grant all privileges on database <role_database_name> to <role_name>;
 ```
 
@@ -228,7 +230,7 @@ psql postgres
 
 And you should see a prompt like this
 
-```
+```sql
 psql (14.x (Homebrew))
 Type "help" for help.
 
@@ -245,7 +247,7 @@ One other important step in setting up PostgreSQL is that each role must have it
   If your username has any capital letters, you must surround it in quotes when running the below command.
 </div>
 
-```
+```sql
 CREATE DATABASE <username>;
 ```
 
@@ -261,19 +263,19 @@ psql
 
 You should now see the PostgreSQL prompt come up like this:
 
-```
+```sql
 <role_name>=#
 ```
 
 If you don't see a similar prompt, then reach out on [Discord](https://discord.gg/V75WSQG) for some help. If you **do** see a similar prompt, then we can create a password for the role like so:
 
-```
+```sql
 \password <role_name>
 ```
 
 You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role:
 
-```
+```sql
 grant all privileges on database <role_database_name> to <role_name>;
 ```
 

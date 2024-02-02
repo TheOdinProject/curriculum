@@ -59,7 +59,7 @@ def multiply(num1, num2)
 end
 ```
 
-Here it should hopefully be clear that no matter the arguments we enter when we call the function, only two variables are created. It doesn't change. Therefore, we can consider the space this takes is always O(1).
+Here it should hopefully be clear that no matter the arguments we pass to the function call, only a single value is created (the product of the numbers). The value doesn't change. Therefore, we can consider the space this takes is always O(1).
 
 #### O(N) - linear complexity
 

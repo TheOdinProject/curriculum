@@ -30,7 +30,7 @@ To get some practice using links and images throughout this lesson we need an HT
 
 To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with an `<a>` tag.
 
-Add the following to the body of the index.html page we created and open it in the browser:
+Add the following to the body of the `index.html` page we created and open it in the browser:
 
 ```html
 <a>click me</a>
@@ -38,7 +38,7 @@ Add the following to the body of the index.html page we created and open it in t
 
 You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
 
-<span id="attribute"></span>An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a name, and a value; however, not all attributes require a value. <span id="where-to-go"></span>In our case, we need to add a href (hypertext reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
+<span id="attribute"></span>An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a name, and a value; however, not all attributes require a value. <span id="where-to-go"></span>In our case, we need to add an href (hypertext reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
 
 Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
@@ -46,7 +46,7 @@ Add the following href attribute to the anchor element we created previously and
 <a href="https://www.theodinproject.com/about">click me</a>
 ```
 
-By default, any text wrapped with an anchor tag without a `href` attribute will look like plain text. If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
+By default, any text wrapped with an anchor tag without an `href` attribute will look like plain text. If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
 
 It's worth noting you can use anchor tags to link to any kind of resource on the internet, not just other HTML documents. You can link to videos, pdf files, images, and so on, but for the most part, you will be linking to other HTML documents.
 
@@ -110,17 +110,17 @@ Back in the index page, add the following anchor element to create a link to the
 ```html
 <body>
   <h1>Homepage</h1>
-	<a href="https://www.theodinproject.com/about">click me</a>
+  <a href="https://www.theodinproject.com/about">click me</a>
 
-	<a href="about.html">About</a>
+  <a href="about.html">About</a>
 </body>
 ```
 
 Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
 
-This works because the index and about page are in the same directory. That means we can simply use its name (`about.html`) as the link's href value.
+This works because the index and about page are in the same directory. That means we can use its name (`about.html`) as the link's href value.
 
-But we will usually want to organize our website directories a little better. Normally we would only have the index.html at the root directory and all other HTML files in their own directory.
+But we will usually want to organize our website directories a little better. Normally we would only have the `index.html` at the root directory and all other HTML files in their own directory.
 
 Create a directory named `pages` within the `odin-links-and-images` directory and move the `about.html` file into this new directory.
 
@@ -145,7 +145,6 @@ In many cases, this will work just fine; however, you can still run into unexpec
   <a href="./pages/about.html">About</a>
 </body>
 ```
-
 
 #### A metaphor
 
@@ -183,34 +182,34 @@ To use images that we have on our own websites, we can use a relative path.
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">WSL
+<summary class="dropDown-header">WSL2
 </summary>
 
 When you download a file from the internet, Windows has a security feature that creates a hidden `Zone.Identifier` file with the same name as your downloaded file and it looks like `mypicture.jpg:Zone.Identifier` This file is harmless, but we'd like to avoid copying it over and cluttering up our directories.
 
-1.  Create a new directory named `images` within the `odin-links-and-images` project.
+1. Create a new directory named `images` within the `odin-links-and-images` project.
 
-2.  Next, [download the stock dog image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640).
+1. Next, [download the stock dog image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640).
 
-3.  Right click on the new download at the bottom of the chrome window and select "Show in folder".
+1. Right click on the new download at the bottom of the chrome window and select "Show in folder".
 
-  1. Alternatively, if you do not see anything at the bottom of the chrome window, open the "Customize and control Google Chrome kebab menu and select the "Downloads" item. This will show all of your downloads, each with its own "Show in folder" button.
+   1. Alternatively, if you do not see anything at the bottom of the chrome window, open the "Customize and control Google Chrome kebab menu and select the "Downloads" item. This will show all of your downloads, each with its own "Show in folder" button.
 
-4.  Drag the file from your downloads folder to VSCode's file browser into your new `images` directory.
+1. Drag the file from your downloads folder to VSCode's file browser into your new `images` directory.
 
     1. Alternatively, using your Ubuntu terminal, navigate to the folder you want to copy the image to (`cd ~/odin-links-and-images` for example)
 
-    2. Type `cp <space>`
+    1. Type `cp <space>`
 
-    3. Drag the `dog.jpg` image from a Windows Explorer window and drop it onto the terminal window, it should appear as `"/mnt/c/users/username/Downloads/dog.jpg"`
+    1. Drag the `dog.jpg` image from a Windows Explorer window and drop it onto the terminal window, it should appear as `"/mnt/c/users/username/Downloads/dog.jpg"`
 
-    4. Type `<space> .` to tell cp that you want to copy the file to your current working directory.
+    1. Type `<space> .` to tell cp that you want to copy the file to your current working directory.
 
         1. The full command will look something like `cp "/mnt/c/users/username/Downloads/dog.jpg" .`
 
-    5. Hit <kbd>Enter</kbd> to complete the command, and use ls to confirm the file now exists.
+    1. Hit <kbd>Enter</kbd> to complete the command, and use ls to confirm the file now exists.
 
-Dragging files from Windows into the VSCode file browser prevents the `Zone.Identifier` files from being copied over. From now on, any time you need to copy pictures or other downloaded files like this into WSL, you can do it in this way. If you ever accidentally copy these `Zone.Identifier` files into WSL, you can safely delete them without any issue.
+Dragging files from Windows into the VSCode file browser prevents the `Zone.Identifier` files from being copied over. From now on, any time you need to copy pictures or other downloaded files like this into WSL2, you can do it in this way. If you ever accidentally copy these `Zone.Identifier` files into WSL2, you can safely delete them without any issue.
 
 </details>
 
@@ -219,17 +218,18 @@ Finally add the image to the `index.html` file:
 ```html
 <body>
   <h1>Homepage</h1>
-	<a href="https://www.theodinproject.com/about">click me</a>
+  <a href="https://www.theodinproject.com/about">click me</a>
 
-	<a href="./pages/about.html">About</a>
+  <a href="./pages/about.html">About</a>
 
-	<img src="./images/dog.jpg">
+  <img src="./images/dog.jpg">
 </body>
 ```
 
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
 ### Parent directories
+
 What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
 
 <span id="parent-filepath"></span>To go to the parent directory we need to use two dots in the relative filepath like this: `../`. Let's see this in action, within the body of the `about.html` file, add the following image below the heading we added earlier:
@@ -313,4 +313,3 @@ This section contains helpful links to related content. It isn’t required, so 
 - [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
 - [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
 - [Chris Coyier's When to use target="_blank" on CSS-Tricks](https://css-tricks.com/use-target_blank/)
-
