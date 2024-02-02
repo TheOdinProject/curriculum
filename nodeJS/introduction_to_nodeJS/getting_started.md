@@ -1,76 +1,79 @@
 ### Introduction
 
-Like we learned in the introduction lesson, Node.js is really just JavaScript. So a basic understanding of JavaScript is necessary in order to understand Node. For this reason, it is highly recommended that you take our prerequisite [JavaScript course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript) before continuing with this course.
+NodeJS (or just 'Node') has been steadily gaining popularity since its creation in 2009. The internet is flooded with courses and articles about it, installing it is a prerequisite for pretty much any front-end development work, and of course the amount of jobs that require knowledge of it are also on the rise.
 
 ### Lesson overview
 
-This lesson will take you through a tutorial that will teach you the basic modules and functions that you need to get up and running with Node.js. The project that comes at the end of this section will ask you to use Node to create a basic website that will include an `Index`, `About` and `Contact Me` page. So while learning the topics in this lesson, be on the lookout for things that might help you complete the project.
-
-<div class="lesson-note" markdown="1">
-
-### Important notice
-
-Recently the NodeJS.dev team removed a large amount of content from their website. Several of those removed pages were linked to in this lesson. Until we find a replacement for that content we will be linking directly to the markdown files on their GitHub repository. The formatting may look a bit odd, but the content should still be just as good.
-
-</div>
-
-### Learning outcomes
-
 By the end of this lesson, you should be able to do the following:
 
-- Explain some things that Node.js is commonly used for.
-- Create and use modules in Node.js (both built-in and user created).
-- Set up a basic webserver with Node.js using the HTTP module.
-- Read, create, update, and delete files from Node.js.
-- Use the URL module to parse a url address and split it into readable parts.
-- Understand how to use NPM.
-- Create, fire and listen for your own events.
+- Describe the purpose of a server.
+- Describe the differences between static and dynamic sites.
+- Explain why you might need a back-end for your project.
+- Explain when you wouldn't need a back-end for a project.
+- Explain the event loop.
+- Understand the origin of the Node.js runtime.
+- Write a simple "hello world" application and run it in the console of your machine.
+- Understand what Node.js really is.
+### What is Node?
+The [Node.js website](https://nodejs.org/en/about/) declares:
+> <span id="what-is-node">As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.</span>
+This is a definition that requires a little unpacking.
 
+The important bit to understand right up front is that Node is a "JavaScript runtime". When JavaScript was first created, it was designed to run *in the browser*. This means that it was impossible to use JavaScript to write any kind of program that was not a website. Node brings JavaScript *out* of browser-land. This allows developers to use JavaScript to accomplish pretty much anything that other popular server-side languages such as Ruby, PHP, C#, and Python can do. So, at its most basic level, Node simply allows you to run JavaScript code on a machine such as your local computer or a server without having to go through a web browser.
+
+To facilitate this, Node has some added functionality that is not found in browser-based JavaScript, such as the ability to read and write local files, create HTTP connections, and listen to network requests.
+
+### Event driven
+
+Back to the definition from Node's website: Node is an **asynchronous event driven** JavaScript runtime. In this context **asynchronous** means that when you write your code you do not try to predict the exact sequence in which every line will run. Instead, you write your code as a collection of smaller functions that get called in response to specific events such as a network request (**event driven**).
+
+For example, let's say you are writing a program and you need it to do the following. It should read some text from a file, print that text to the console, query a database for a list of users, and filter the users based on their age.
+
+Instead of telling your code to do those steps sequentially like so:
+
+1. Read File
+1. Print File Contents
+1. Query Database
+1. Filter Database Query results
+
+You can break up the task like so:
+
+1. Read File *AND THEN* Print File Contents
+1. Query Database *AND THEN* Filter Database Query Results.
+
+When you run this program Node will start at the top and begin reading the file but since that is an action that takes some time it will immediately begin running the second step (querying the database) while it's waiting on the file to finish reading.
+
+While both of these processes are running, Node sits and waits on an *event*. In this case, it is waiting on the completion of both processes, the reading of a file and the database query. When either of these tasks are finished, Node will fire off an event that will run the next function we've defined. So if the read-file process finishes first, it will print the file contents. If the database query finishes first, it will start the filtering process. As the programmer, we don't know or care which order the two processes are going to be completed. If this code was processed synchronously (rather than asynchronously) we would have to wait for each step in the program before moving on to the next one, which could cause things to slow down considerably. If the file that we needed to read was really long then we might have to wait a few seconds before the database query could begin.
+
+This process is almost exactly like the way that you would use `addEventListener` in front-end JavaScript to wait for a user action such as a mouse-click or keyboard press. The main difference is that the events are going to be things such as network requests and database queries. This functionality is facilitated through the use of callbacks. Callbacks are incredibly important to Node, so take a minute to read through [this article](https://dev.to/i3uckwheat/understanding-callbacks-2o9e) to make sure you're up to speed.
+
+Let's look at a quick real-world example:
+```javascript
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.end('Hello World!');
+}).listen(8080);
+```
+
+This snippet is from the very first lesson in a tutorial that you'll be following very soon. Basically, this code is creating a server and saying, "any time we get a network request, run this callback function". This function happens to respond with the text 'Hello World!'. So if you go to a browser and navigate to the correct address and port, you will see that text on your screen.
+
+### A word of advice
+
+While you may have learned React (or any other frontend framework) before, either of your own volition or earlier in the path, it is not recommended to use it for this course right away. There are many topics that you must learn before you can combine these frameworks effectively. As you move forward through the Node course, you will learn more about how to integrate Node APIs with frontend frameworks. You should follow the course as it is written; deviating from the directions can make it more difficult than it needs to be. Your time spent learning those frameworks will not be wasted, don't worry!
 ### Assignment
-
 <div class="lesson-content__panel" markdown="1">
 
-- Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.org](https://nodejs.org/en/learn) docs which you should follow along.
-  - Get Started
-    - Learn how to run Node.js scripts from the terminal in [this](https://nodejs.org/en/learn/command-line/run-nodejs-scripts-from-the-command-line) lesson.
-    - Learn quickly about .env files and how we use them [here](https://nodejs.org/en/learn/command-line/how-to-read-environment-variables-from-nodejs)! This will become very important in the future when working with databases and other sensitive credentials!
-  - HTTP Module
-    - Learn [how to make HTTP requests with Node](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-web-server/node-make-http-requests.en.md).
-    - Checkout `http.createServer` from the [http module](https://nodejs.org/api/http.html). The documentation shows optional parameters it can accept which you may or may not use. For now, you just need to know that the `createServer` method creates an HTTP server that accepts handlers that will be executed every time we get a request.
-  - File System
-    - First, take a look at the [fs module](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md) that we use heavily for working with files in Node.
-    - Then, let's start [writing files](https://nodejs.org/en/learn/manipulating-files/writing-files-with-nodejs) in Node.
-    - Finally, we'll learn how to [read files](https://nodejs.org/en/learn/manipulating-files/reading-files-with-nodejs).
-  - The URL Class
-    - Check out this [documentation](https://nodejs.org/api/url.html#url_the_whatwg_url_api) on the URL class. Play with the code samples to see how it works!
-  - NPM
-    - Let's get an [introduction](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager) to NPM.
-    - After that, it's time to quickly get introduced to the [package.json file](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/package-json.en.md).
-    - And the differences between [NPM global and local packages](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md).
-  - Events
-    - Follow along the [Event Emitter](https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter) section.
-    - Look into [this](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-events.en.md) section to see the `events` module.
-- Optional Extra Credit!
-  - Although a bit outdated, the W3 Schools introduction to Node.js is super useful! Go to the [W3 Schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious!
-  
-  <div class="lesson-note lesson-note--warning" markdown=1>
-  The URL module is very outdated. Refer to the earlier link if you run into issues in the Node.js URL Module from W3.
-  </div>
+1. [This short module](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps) on "The Server Side" from MDN is a great source for the background knowledge you need. Read through at least the first two articles posted under the 'Guides' section: Introduction to the server side and Client-Server Overview. The other two are interesting and worth reviewing, but less relevant to our immediate concerns.
+1. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read [this article](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5).
+1. What is the Node Event Loop? Check out this long, but *really* [fantastic video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)... don't skip it!
+1. Take a few minutes to go through the "Getting Started" section of the new official [Node.js website](https://nodejs.org/en/docs/guides/getting-started-guide). Read up until, but not including, the TypeScript module.
+1. [This short video](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
 
 </div>
 
 ### Knowledge check
-
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
-
-- [What is a File System Module? How and why would you use it?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md)
-- [What is the command for installing a package locally in with npm?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md)
-- [What is the command for installing a package globally in with npm?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md)
-- [What is the difference between a global and local package install with npm?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md)
-
+- <a class="knowledge-check-link" href="#what-is-node">What is Node?</a>
 ### Additional resources
-
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-- This [crash course video](https://www.youtube.com/watch?v=fBNz5xF-Kx4) from TraversyMedia is a great code-along for getting into Node.js. It may seem repetitive after completing the assignment, but practice is repetition!
-- This [crash course playlist of 12 episodes](https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU) from Net Ninja is a great resource to learn Node.js. There are 12 videos in this playlist, you can consider them all.
+- Read this article on [7 awesome things you can build with Node.js](https://blog.teamtreehouse.com/7-awesome-things-can-build-node-js).
