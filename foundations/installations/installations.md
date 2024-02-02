@@ -23,11 +23,11 @@ This section contains a general overview of topics that you will learn in this l
 1. If you're not already running a supported environment, decide on which environment you're going to set up.
    - Look through the instructions so you know what to expect.
    - Choose and follow one of the instructions below.
-2. After you have your environment sorted, proceed to the Google Chrome installation instructions.
+1. After you have your environment sorted, proceed to the Google Chrome installation instructions.
 
 </div>
 
-### 1: OS installation
+### OS installation
 
 #### IMPORTANT
 
@@ -348,7 +348,7 @@ When opening your WSL2 terminal ensure that you do not see `/mnt/c` at the start
 </div>
 </details>
 
-### 2: Google Chrome installation
+### Google Chrome installation
 
 #### Why Google Chrome?
 
