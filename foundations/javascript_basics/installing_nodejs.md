@@ -57,7 +57,7 @@ You can verify `nvm` is installed by running the command:
 command -v nvm
 ```
 
-if this returns `nvm: command not found`, close the terminal and re-open it.
+If this returns `nvm: command not found`, close the terminal and re-open it.
 
 </details>
 
@@ -90,7 +90,7 @@ Test your nvm installation by running:
 nvm --version
 ```
 
-For more information, view [NVM's github documentation](https://github.com/nvm-sh/nvm#installation-and-update).
+For more information, view [NVM's GitHub Documentation](https://github.com/nvm-sh/nvm#installation-and-update).
 
 </details>
 
