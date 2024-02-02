@@ -40,7 +40,7 @@ We will teach you the art of actually writing these tests later in the course. T
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Go to our [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) and review the [repository's README](https://github.com/TheOdinProject/javascript-exercises#readme) to set up your local environment. Once you have cloned the repository and installed Jest, review each README file prior to completing the following exercises in order:
+1. Go to our [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) and review the [repository's README](https://github.com/TheOdinProject/javascript-exercises#readme) to set up your local environment. Once you have cloned the repository and installed Jest, review each README file prior to completing the following exercises in order:
     - `01_helloWorld` (This exercise is intentionally very beginner friendly to ensure that you have set up everything properly!)
     - `02_repeatString`
     - `03_reverseString`
