@@ -9,6 +9,24 @@ If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu
 We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
 </div>
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- How to set up a proper environment to follow The Odin Project curriculum.
+- Installing Google Chrome in your environment.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. If you're not already running a supported environment, decide on which environment you're going to set up.
+   - Look through the instructions so you know what to expect.
+   - Choose and follow one of the instructions below.
+2. After you have your environment sorted, proceed to the Google Chrome installation instructions.
+
+</div>
+
 ### 1: OS installation
 
 #### IMPORTANT
@@ -444,6 +462,13 @@ Chrome is going to use this terminal to output various messages and won't let yo
 - Double click **Google Chrome**.
 
 </details>
+
+### Knowledge check
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+- [What operating systems does The Odin Project support?](#os-installation)
+- [What browser does The Odin Project support?](#google-chrome-installation)
 
 ### Additional resources
 
