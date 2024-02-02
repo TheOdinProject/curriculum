@@ -337,7 +337,7 @@ The preferred way to create unordered lists for The Odin Project is by using hyp
 ### Inline
 
 &#96;Backticks&#96; designate `inline code`, and will render all wrapped content
-literally. Use them for short code quotations, field names, or file names:
+literally. Use them for short code quotations, math formulas/calculations, field names, or file names:
 
 ~~~markdown
 Write these in the `script` tag of a skeleton HTML file.
