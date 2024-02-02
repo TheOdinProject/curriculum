@@ -8,10 +8,10 @@ Luckily, there is a better way to handle this problem. In this lesson, you’ll 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Using arrays.
-* Using built-in array methods.
-* Using loops.
-* Getting your hands dirty with TDD exercises.
+- Using arrays.
+- Using built-in array methods.
+- Using loops.
+- Getting your hands dirty with TDD exercises.
 
 ### Arrays
 
