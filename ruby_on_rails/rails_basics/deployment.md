@@ -82,10 +82,6 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 ---
 
 ### Fly.io
-<div class="lesson-note lesson-note--warning" markdown="1">
- #### Fly's pricing model will be changing
- Fly will be changing their pricing model to charge users for stopped machines. On the free plan, invoices that total less than $5 USD will be waived. So though it may look like you're being charged, it's very unlikely you'll exceed that threshold and actually have to pay.
- </div>
 
 - Fly.io uses a CLI tool for deployment.
 - Pay for what you use with very reasonable rates. Each app should cost around $4 per month.
