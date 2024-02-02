@@ -36,7 +36,7 @@ For a more thorough explanation, use these resources:
 
 <div class="lesson-content__panel" markdown="1">
 
-If you wish to use multiple ES6 modules, you need to tell Node you are using them either by using the `.mjs` extension and running your script with `node file_name.mjs`, or by creating a `package.json` file in the root of the project that contains `"type": "module"` which will allow you to keep using `.js` i.e. `node file_name.js`. This is because by default, Node uses something called CommonJS modules instead which you can read more about [here](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/).
+If you wish to use multiple ES6 modules, remember that Node uses CommonJS modules by default and so you must [tell Node to use ES6 modules](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/) instead.
 
 You will need two classes or factories:
 
