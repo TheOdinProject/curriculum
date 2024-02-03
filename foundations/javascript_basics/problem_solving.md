@@ -4,9 +4,9 @@ Before we start digging into some pretty nifty JavaScript, we need to begin talk
 
 Problem solving is the core thing software developers do. The programming languages and tools they use are secondary to this fundamental skill.
 
-V. Anton Spraul defines problem solving in programming as:
+From his book, <cite>"Think Like a Programmer"</cite>, V. Anton Spraul defines problem solving in programming as:
 
-> Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints. <br /> - Think Like a Programmer
+> Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints.
 
 The set of tasks can range from solving small coding exercises all the way up to building a social network site like Facebook or a search engine like Google. Each problem has its own set of constraints, for example, high performance and scalability may not matter too much in a coding exercise but it will be vital in apps like Google that need to service billions of search queries each day.
 
@@ -81,7 +81,7 @@ This is the big picture problem we will be solving. But we can always make it cl
 
 Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by 3 without a remainder print `Fizz` instead. For numbers that divide by 5 without a remainder print `Buzz` and finally for numbers that divide by both 3 and 5 without a remainder print `FizzBuzz`.
 
-### Plan
+### Planning
 
 Does your program have an interface? What will it look like?
 Our FizzBuzz solution will be a browser console program, so we don't need an interface. The only user interaction will be allowing users to enter a number.
@@ -92,7 +92,7 @@ The user will enter a number from a prompt (popup box).
 What's the desired output?
 The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output `Fizz`, each number that is divisible by 5 will output `Buzz` and each number that is divisible by both 3 and 5 will output `FizzBuzz`.
 
-### Pseudocode
+### Writing the pseudocode
 
 What are the steps necessary to return the desired output?
 Here is an algorithm in pseudocode for this problem:
@@ -106,7 +106,7 @@ If the current number is divisible by 3 and 5 then print "FizzBuzz"
 Otherwise print the current number
 ```
 
-#### Divide and conquer (implement)
+#### Dividing and conquering
 
 As we can see from the algorithm we developed, the first subproblem we can solve is getting input from the user. So let's start there and verify it works by printing the entered number.
 
