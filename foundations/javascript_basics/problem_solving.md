@@ -4,7 +4,7 @@ Before we start digging into some pretty nifty JavaScript, we need to begin talk
 
 Problem solving is the core thing software developers do. The programming languages and tools they use are secondary to this fundamental skill.
 
-From his book, _"Think Like a Programmer"_, V. Anton Spraul defines problem solving in programming as:
+From his book, *"Think Like a Programmer"*, V. Anton Spraul defines problem solving in programming as:
 
 > Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints.
 
