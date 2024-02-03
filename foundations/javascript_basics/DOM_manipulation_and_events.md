@@ -211,7 +211,7 @@ In the JavaScript file, first we get a reference to the `container` div that alr
     THE TITLE OF YOUR WEBPAGE
   </h1>
   <div id="container">
-  	<div class="content">
+    <div class="content">
       This is the glorious text-content!
     </div>
   </div>
