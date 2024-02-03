@@ -4,7 +4,7 @@ Before we start digging into some pretty nifty JavaScript, we need to begin talk
 
 Problem solving is the core thing software developers do. The programming languages and tools they use are secondary to this fundamental skill.
 
-From his book, <cite>"Think Like a Programmer"</cite>, V. Anton Spraul defines problem solving in programming as:
+From his book, _"Think Like a Programmer"_, V. Anton Spraul defines problem solving in programming as:
 
 > Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints.
 
@@ -81,7 +81,7 @@ This is the big picture problem we will be solving. But we can always make it cl
 
 Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by 3 without a remainder print `Fizz` instead. For numbers that divide by 5 without a remainder print `Buzz` and finally for numbers that divide by both 3 and 5 without a remainder print `FizzBuzz`.
 
-### Planning
+#### Planning
 
 Does your program have an interface? What will it look like?
 Our FizzBuzz solution will be a browser console program, so we don't need an interface. The only user interaction will be allowing users to enter a number.
@@ -92,7 +92,7 @@ The user will enter a number from a prompt (popup box).
 What's the desired output?
 The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output `Fizz`, each number that is divisible by 5 will output `Buzz` and each number that is divisible by both 3 and 5 will output `FizzBuzz`.
 
-### Writing the pseudocode
+#### Writing the pseudocode
 
 What are the steps necessary to return the desired output?
 Here is an algorithm in pseudocode for this problem:
