@@ -3,7 +3,7 @@
 {
   "config": {
     "extends": "./.markdownlint-cli2.jsonc",
-    // required-headings
+    // lesson-headings
     // Enforces a heading order for lessons; can be disabled on a per file basis
     // See https://github.com/DavidAnson/markdownlint#configuration for details
     "TOP004": {
