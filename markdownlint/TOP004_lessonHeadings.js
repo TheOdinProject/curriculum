@@ -98,7 +98,9 @@ module.exports = {
         anyHeadings = true;
         const actual = levels[heading.tag] + " " + content;
         const expected = getExpected();
-        if (/^#*\s?\*$/.test(expected)) {
+        // https://regexr.com/7rf1o to test the following regex
+        const wildcardRegex = new RegExp(/^(#*\s)?\*$/);
+        if (wildcardRegex.test(expected)) {
           const nextExpected = getExpected();
           if (handleCase(nextExpected) !== handleCase(actual)) {
             if (expected.startsWith("#")) {
@@ -145,9 +147,9 @@ module.exports = {
     if (
       !hasError &&
       (extraHeadings > 1 ||
-        (extraHeadings === 1 && /^#*\s?\*$/.test(requiredHeadings[i]))) &&
+        (extraHeadings === 1 && wildcardRegex.test(requiredHeadings[i]))) &&
       (anyHeadings ||
-        !requiredHeadings.every((heading) => /^#*\s?\*$/.test(heading)))
+        !requiredHeadings.every((heading) => wildcardRegex.test(heading)))
     ) {
       addErrorContext(onError, params.lines.length, requiredHeadings[i]);
     }

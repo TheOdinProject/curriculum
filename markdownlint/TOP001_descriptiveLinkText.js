@@ -4,7 +4,8 @@ module.exports = {
   tags: ["accessibility", "links"],
   function: function TOP001(params, onError) {
     const linesWithLinks = params.parsers.markdownit.tokens?.filter((token) =>
-      /\[.+?\]\(.+?\)/.test(token.content)
+      // https://regexr.com/7rf16 to test the following regex
+      /(?<!\!)\[.+?\]\(.+?\)/.test(token.content)
     );
     const linkOpenTokens = linesWithLinks
       .map((line) =>
@@ -14,7 +15,8 @@ module.exports = {
 
     linkOpenTokens.forEach((token) => {
       const { line } = token;
-      const isInvalid = /\[(.+\s*)?(this|here)(\s*.+)?\]/i.test(line);
+      // https://regexr.com/7rf1l to test the following regex
+      const isInvalid = /\[.*?(?<!\w)(this|here)(?!\w).*?\]/i.test(line);
       if (isInvalid) {
         const linkUrl = token.attrs[0][1];
         const indexOfUrl = line.indexOf(linkUrl);
