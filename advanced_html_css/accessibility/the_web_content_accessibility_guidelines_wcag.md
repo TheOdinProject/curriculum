@@ -56,6 +56,4 @@ This section contains questions for you to check your understanding of this less
 - [What is the purpose of the Web Content Accessibility Guidelines?](#wcag-purpose)
 - [What are the 4 principles of the WCAG?](#the-four-principles)
 
-### Additional resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
