@@ -15,9 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### DOM - Document Object Model
 
-
 The DOM (or Document Object Model) is a tree-like representation of the contents of a webpage - a tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
-
 
 ```html
 <div id="container">
@@ -25,7 +23,6 @@ The DOM (or Document Object Model) is a tree-like representation of the contents
   <div class="controls"></div>
 </div>
 ```
-
 
 In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a family tree. `<div id="container"></div>`  is a **parent**, with its **children** on the next level, each on their own "branch".
 
