@@ -442,6 +442,7 @@ This section contains questions for you to check your understanding of this less
 - [Explain the difference between "capture" and "bubbling".](https://www.youtube.com/watch?v=F1anRyL37lE)
 
 ### Additional resources
+
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
