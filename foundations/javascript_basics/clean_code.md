@@ -1,5 +1,5 @@
-### Introduction
 
+### Introduction
 
 You might think that the majority of a developer's work involves writing code. However, in reality, a significant amount of time is spent on _reading_ code. This includes code written by other team members, code written by people who are no longer part of your team, and even code that you wrote two weeks ago but may not remember much about.
 
@@ -19,10 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What is clean code?
 
-
 Consider the following examples:
-
-
 
 Example A:
 
@@ -281,7 +278,7 @@ Learning to write clean code is a process of constant improvement. One that will
 <div class="lesson-content__panel" markdown="1">
 
 1.  [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
-2.  [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
+1.  [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
 </div>
 
 ### Knowledge check
