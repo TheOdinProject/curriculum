@@ -21,7 +21,7 @@ if (index < 0 || index >= buckets.length) {
   1. Start by creating a `HashMap` class or factory function. It's up to you which you want to use. Then proceed to create the following methods:
 
   1. `hash(key)` takes a key and produces a hash code with it. We did implement a fairly good `hash` function in the previous lesson. As a reminder:
-     
+
       ```javascript
       function hash(key) {
         let hashCode = 0;
@@ -34,7 +34,7 @@ if (index < 0 || index >= buckets.length) {
         return hashCode;
       }
       ```
-      
+
       You are free to use that, or if you wish, you can conduct your own research. Beware, this is a deep deep rabbit hole.
 
       <div class="lesson-note lesson-note--tip" markdown="1">
