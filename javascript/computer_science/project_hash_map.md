@@ -20,7 +20,20 @@ if (index < 0 || index >= buckets.length) {
 
   1. Start by creating a `HashMap` class or factory function. It's up to you which you want to use. Then proceed to create the following methods:
 
-  1. `hash(key)` takes a key and produces a hash code with it. We did implement a fairly good `hash` function in the previous lesson. You are free to use that, or if you wish, you can conduct your own research. Beware, this is a deep deep rabbit hole.
+  1. `hash(key)` takes a key and produces a hash code with it. We did implement a fairly good `hash` function in the previous lesson. As a reminder:
+      ```javascript
+      function hash(key) {
+        let hashCode = 0;
+      
+        const primeNumber = 31;
+        for (let i = 0; i < key.length; i++) {
+          hashCode = primeNumber * hashCode + key.charCodeAt(i);
+        }
+      
+        return hashCode;
+      }
+      ```
+      You are free to use that, or if you wish, you can conduct your own research. Beware, this is a deep deep rabbit hole.
 
       <div class="lesson-note lesson-note--tip" markdown="1">
         Hash maps could accommodate various data types for keys like numbers, strings, objects. But for this project, only handle keys of type strings.
