@@ -18,7 +18,7 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
   1. Start by creating a `HashMap` class. Proceed to create the following methods:
 
-  1. `#hash` takes a value and produces a hash code with it. We did implement a fairly good `hash` method in the previous lesson.
+  1. `#hash` takes a value and produces a hash code with it. We did implement a fairly good `hash` method in the previous lesson. As a reminder:
 
       ```ruby
       def hash(key)
