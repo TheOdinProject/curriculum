@@ -18,7 +18,7 @@ if (index < 0 || index >= buckets.length) {
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Start by creating a `HashMap` class or factory function. It's up to you which you want to use. Then proceed to create the following methods:
+  Start by creating a `HashMap` class or factory function. It's up to you which you want to use. Then proceed to create the following methods:
 
   1. `hash(key)` takes a key and produces a hash code with it. We did implement a fairly good `hash` function in the previous lesson. You are free to use that, or if you wish, you can conduct your own research. Beware, this is a deep deep rabbit hole.
 
@@ -32,7 +32,7 @@ if (index < 0 || index >= buckets.length) {
 
   In the meantime, a collision is when *TWO DIFFERENT* keys sit inside the same bucket, because they generate the same hash code (e.g. `Carlos` and `Carla` are both hashed to `3`, so `3` becomes a location for `Carlos` AND `Carla`. However, we know that it is the collision. It means we should find a way how to resolve it — how to *deal with collisions*, which was mentioned in the previous lesson).
 
-     - Remember to grow your buckets size when it needs to, by calculating if your bucket has reached the `load factor`.
+     - Remember to grow your buckets size when it needs to, by calculating if your bucket has reached the `load factor`. Some of the methods in this assignment that are mentioned later could be reused to help you handle that growth logic easier. So you may want to hold onto implementing your growing functionality just for now. However, the reason why we mention it now is because it's important to grow buckets exactly when they are being expanded. 
 
   1. `get(key)` takes one argument as a key and returns the value that is assigned to this key. If a key is not found, return `null`.
 
