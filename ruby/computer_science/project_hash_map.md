@@ -22,11 +22,11 @@ You already know the magic behind hash maps, now it's time to write your own imp
      As a reminder:
 
       ```ruby
-      def hash(key)
+      def hash(value)
         hash_code = 0
         prime_number = 31
       
-        key.each_char { |char| hash_code = prime_number * hash_code + char.ord }
+        value.each_char { |char| hash_code = prime_number * hash_code + char.ord }
       
         hash_code
       end
