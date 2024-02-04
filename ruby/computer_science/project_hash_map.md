@@ -62,6 +62,6 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
 #### Extra Credit
 
-  - Create a class `HashSet` that behaves the same as a `HashMap` but only contains `keys` with no `values`.
+- Create a class `HashSet` that behaves the same as a `HashMap` but only contains `keys` with no `values`.
 
 </div>
