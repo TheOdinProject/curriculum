@@ -23,9 +23,12 @@ You can think of the board as having 2-dimensional coordinates. Your function wo
 Sometimes _there is more than one fastest path_. Examples of this are shown below. Any answer is correct as long as it follows the rules and gives the shortest possible path.
 
 - `knightMoves([0,0],[3,3]) == [[0,0],[2,1],[3,3]]` or `knightMoves([0,0],[3,3]) == [[0,0],[1,2],[3,3]]`
+
 - `knightMoves([3,3],[0,0]) == [[3,3],[2,1],[0,0]]` or `knightMoves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]`
+
 - `knightMoves([0,0],[7,7]) == [[0,0],[2,1],[4,2],[6,3],[4,4],[6,5],[7,7]]` or `knightMoves([0,0],[7,7]) == [[0,0],[2,1],[4,2],[6,3],[7,5],[5,6],[7,7]]`
 </div>
+
 
 <div class="lesson-content__panel" markdown="1">
 1. Think about the rules of the board and knight, and make sure to follow them.
