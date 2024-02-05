@@ -82,3 +82,4 @@ Sometimes (okay, maybe a lot of times) when you're working with Git, something g
 - [Dangit, Git!?!](https://dangitgit.com/) is a quick reference to get you out of common Git problems.
 - This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of many options Git provides for undoing various mistakes.
 - If the problem you're facing is more advanced, you can click through [this more in-depth guide](https://sethrobertson.github.io/GitFixUm/fixup.html) to find the answer to your specific question.
+- [Excellent repo](https://github.com/firstcontributions/first-contributions) for beginners, contains a practical tutorial on how how to fork, clone, commit and create a pull request, plus a descriptive git cheatsheet.
