@@ -88,7 +88,7 @@ Buckets are storage that we need to store our elements. Simply, it's an array. F
 
 1. Pass "Fred" into the hash function to get the hash code which is `508`.
 1. Find the bucket at index `508`.
-1. Store the key value pair in that bucket, in this case the key would be "Fred" and the value we've not specified.
+1. Store the key value pair in that bucket, in this case the value would be `undefined` as we haven't specified it.
 
 This is an oversimplified explanation; we'll discuss more internal mechanics later in the lesson.
 
@@ -98,7 +98,7 @@ Now if we wanted to get a value using a key:
 1. To retrieve the value, we hash the key and calculate its bucket number.
 1. If the bucket is not empty, then we go to that bucket.
 1. Now we compare if the node's key is the same key that was used for the retrieval.
-1. If it is, then we can return the node's value. Otherwise, we return `null`. 
+1. If it is, then we can return the node's value. Otherwise, we return `null`.
 
 Maybe you are wondering, why are we comparing the keys if we already found the index of that bucket? Remember, a hash code is just the location. Different keys might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
 
