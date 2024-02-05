@@ -20,7 +20,7 @@ This has the required attributes on the div wrapper. The order of the attributes
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are on opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 ### Additional resources
 

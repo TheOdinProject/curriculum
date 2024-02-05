@@ -8,7 +8,7 @@ const listSectionsDefaultContent = {
   [sectionsWithDefaultContent.lessonOverview]:
     "This section contains a general overview of topics that you will learn in this lesson.",
   [sectionsWithDefaultContent.knowledgeCheck]:
-    "This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.",
+    "The following questions are on opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.",
   [sectionsWithDefaultContent.additionalResources]:
     "This section contains helpful links to related content. It isn’t required, so consider it supplemental.",
 };
