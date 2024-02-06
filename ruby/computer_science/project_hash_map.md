@@ -18,7 +18,21 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
   1. Start by creating a `HashMap` class. Proceed to create the following methods:
 
-  1. `#hash` takes a value and produces a hash code with it. We did implement a fairly good `hash` method in the previous lesson. You are free to use that, or if you wish, you can conduct your own research. Beware this is a deep deep rabbit hole.
+  1. `#hash` takes a value and produces a hash code with it. We did implement a fairly good `hash` method in the previous lesson.
+     As a reminder:
+
+      ```ruby
+      def hash(value)
+        hash_code = 0
+        prime_number = 31
+      
+        value.each_char { |char| hash_code = prime_number * hash_code + char.ord }
+      
+        hash_code
+      end
+      ```
+
+     You are free to use that, or if you wish, you can conduct your own research. Beware this is a deep deep rabbit hole.
 
       <div class="lesson-note lesson-note--tip" markdown="1">
         Hash maps could accommodate various data types for keys like numbers, strings, and even other hashes. But for this project, only handle keys of type strings.
@@ -48,6 +62,6 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
 #### Extra Credit
 
-  - Create a class `HashSet` that behaves the same as a `HashMap` but only contains `keys` with no `values`.
+- Create a class `HashSet` that behaves the same as a `HashMap` but only contains `keys` with no `values`.
 
 </div>
