@@ -47,6 +47,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 1. Write a `#rebalance` method which rebalances an unbalanced tree. **Tip:** You'll want to use a traversal method to provide a new array to the `#build_tree` method.
 
 #### Tie it all together
+
 Write a driver script that does the following:
 
 1. Create a binary search tree from an array of random numbers `(Array.new(15) { rand(1..100) })`
