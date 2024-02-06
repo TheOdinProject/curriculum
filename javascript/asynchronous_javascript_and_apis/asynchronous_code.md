@@ -97,3 +97,4 @@ This section contains helpful links to other content. It isn't required, so cons
 3. These [ES6 Promises video](https://www.youtube.com/watch?v=vQ3MoXnKfuQ), [Promises by The Net Ninja](https://www.youtube.com/watch?v=yswb4SkDoj0) and [Promises by ColorCode](https://www.youtube.com/watch?v=TnhCX0KkPqs) are nice introductions to Promises if you need more repetition and additional information.
 4. This [Understanding JavaScript Promises Tutorial](https://www.digitalocean.com/community/tutorials/understanding-javascript-promises) is another good introduction.
 5. For a more interactive explanation and example, try a [Scrim on asynchronous coding](https://scrimba.com/scrim/cof4e4fb797a2d0a236ea38ce?embed=odin,mini-header,no-next-up).
+6. This [Promises tutorial](https://www.youtube.com/watch?v=ap-6PPAuK1Y&list=PLlasXeu85E9eWOpw9jxHOQyGMRiBZ60aX&index=3) is good for understanding promises in depth
