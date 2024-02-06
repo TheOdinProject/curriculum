@@ -25,7 +25,7 @@ Now, it'd be nice to be able to also divide your Ruby work across multiple files
 
 If you are to split your code across multiple files, you first will need to know how to make sure code from one file and be used in another file. There are two main ways to do that:
 
-- `require_relative` which takes in a string of a relative path, like `require_relative 'lib/bogo_sort'` is going to look for `lib/bogo_sort.rb` relative to the location of the current file,
+- `require_relative` which takes in a string of a relative path, like `require_relative 'lib/bogo_sort'`, is going to look for `lib/bogo_sort.rb` relative to the location of the current file.
 - `require` is trickier - there are two ways of using it: one is providing a relative path which is recognized by using `../` or `./` at the start or an absolute path. This works like `require_relative`. Another way is by providing a file name without the extension, like `require 'csv'` is going to look for a `csv.rb` in the Ruby's `$LOAD_PATH` global variable which by default contains the Ruby standard library. There are other file extensions it might look for, but this is not important at this point. In addition to that, if it doesn't find that file in `$LOAD_PATH` it is going to look through installed gems (more on those later) to see if the file is there.
 
 Both of those approaches are going to execute the file, allowing you to use their contents. If you try to require something for the second time, nothing will happen, and the requires will return `false`.
