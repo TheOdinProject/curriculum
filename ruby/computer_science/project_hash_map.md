@@ -32,14 +32,19 @@ You already know the magic behind hash maps, now it's time to write your own imp
       ```
 
      You are free to use that, or if you wish, you can conduct your own research. Beware this is a deep deep rabbit hole.
+     
+     You might find yourself confusing keys with hash codes while accessing key-value pairs later. We would like to stress that the key is what your `hash` function will take as an input. In a way, we could say that the key is important for us only inside the `hash` function. But we never access a bucket directly with the key. Instead we do so with the hash code.
 
       <div class="lesson-note lesson-note--tip" markdown="1">
         Hash maps could accommodate various data types for keys like numbers, strings, and even other hashes. But for this project, only handle keys of type strings.
       </div>
 
-  1. `#set(key, value)` takes two arguments, the first is a key and the second is a value that is assigned to this key. If a key already exists, then the old value is overwritten.
+1. `set(key, value)` takes two arguments, the first is a key and the second is a value that is assigned to this key. If a key already exists, then the old value is overwritten or we can say that we *update* the key's value (e.g. `Carlos` is our key but it is called twice: once with value `I am the old value.`, and once with value `I am the new value.`. From the logic stated above, `Carlos` should contain only the latter value).
 
-     - Remember to grow your buckets size when it needs to, by calculating if your bucket has reached the `load factor`.
+      In the meantime, a collision is when *TWO DIFFERENT* keys sit inside the same bucket, because they generate the same hash code (e.g. `Carlos` and `Carla` are both hashed to `3`, so `3` becomes a location for `Carlos` AND `Carla`. However, we know that it is the collision. It means we should find a way how to resolve it — how to *deal with collisions*, which was mentioned in the previous lesson).
+
+      - Remember to grow your buckets size when it needs to, by calculating if your bucket has reached the `load factor`. Some of the methods in this assignment that are mentioned later could be reused to help you handle that growth logic more easily. So you may want to hold onto implementing your growing functionality just for now. However, the reason why we mention it with `set()` is because it's important to grow buckets exactly when they are being expanded.
+
 
   1. `#get(key)` takes one argument as a key and returns the value that is assigned to this key. If key is not found, return `nil`.
 
