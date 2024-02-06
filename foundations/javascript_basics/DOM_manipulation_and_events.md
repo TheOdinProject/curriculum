@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 - Explain the difference between a "nodelist" and an "array of nodes".
 - Explain what "bubbling" is and how it works.
 
-### DOM Document Object Model
+### Document Object Model
 
 The DOM (or Document Object Model) is a tree-like representation of the contents of a webpage - a tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
 
