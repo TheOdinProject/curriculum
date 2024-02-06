@@ -49,7 +49,7 @@ if (index < 0 || index >= buckets.length) {
 
   In the meantime, a collision is when *TWO DIFFERENT* keys sit inside the same bucket, because they generate the same hash code (e.g. `Carlos` and `Carla` are both hashed to `3`, so `3` becomes a location for `Carlos` AND `Carla`. However, we know that it is the collision. It means we should find a way how to resolve it — how to *deal with collisions*, which was mentioned in the previous lesson).
 
-     - Remember to grow your buckets size when it needs to, by calculating if your bucket has reached the `load factor`. Some of the methods in this assignment that are mentioned later could be reused to help you handle that growth logic easier. So you may want to hold onto implementing your growing functionality just for now. However, the reason why we mention it now is because it's important to grow buckets exactly when they are being expanded. 
+     - Remember to grow your buckets size when it needs to, by calculating if your bucket has reached the `load factor`. Some of the methods in this assignment that are mentioned later could be reused to help you handle that growth logic more easily. So you may want to hold onto implementing your growing functionality just for now. However, the reason why we mention it with `set()` is because it's important to grow buckets exactly when they are being expanded. 
 
   1. `get(key)` takes one argument as a key and returns the value that is assigned to this key. If a key is not found, return `null`.
 
