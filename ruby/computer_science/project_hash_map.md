@@ -8,25 +8,24 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
   Use the following snippet whenever you access a bucket through an index. We want to raise an error if we try to access an out of bound index:
 
-      ```ruby
-      raise IndexError if index.negative? || index >= @buckets.length
-      ```
+  ```ruby
+  raise IndexError if index.negative? || index >= @buckets.length
+  ```
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Start by creating a `HashMap` class. Proceed to create the following methods:
+  Start by creating a `HashMap` class. Proceed to create the following methods:
 
-  1. `#hash` takes a key and produces a hash code with it. We did implement a fairly good `hash` method in the previous lesson.
-     As a reminder:
+  1. `#hash(key)` takes a key and produces a hash code with it. We did implement a fairly good `hash` method in the previous lesson. As a reminder:
 
       ```ruby
-      def hash(value)
+      def hash(key)
         hash_code = 0
         prime_number = 31
       
-        value.each_char { |char| hash_code = prime_number * hash_code + char.ord }
+        key.each_char { |char| hash_code = prime_number * hash_code + char.ord }
       
         hash_code
       end
