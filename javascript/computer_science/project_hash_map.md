@@ -20,9 +20,22 @@ if (index < 0 || index >= buckets.length) {
 
   Start by creating a `HashMap` class or factory function. It's up to you which you want to use. Then proceed to create the following methods:
 
-  1. `hash(key)` takes a key and produces a hash code with it. We did implement a fairly good `hash` function in the previous lesson, see below. You are free to use that, or if you wish, you can conduct your own research. Beware, this is a deep deep rabbit hole. Also, there is one edge case with long keys that was not taken into consideration in the function or rather how we applied a modulo `%` operator. JavaScript is unable to hold large numbers precisely. At some point, calculations are going to be inacccurate, which significantly increases the chances of collisions. There are a few ways how we could handle it but we recommend that you apply the modulo operator on *each iteration* instead of outside the loop at the end. In that case, we prevent the output from becoming larger than our bucket's length. 
+  1. `hash(key)` takes a key and produces a hash code with it. We did implement a fairly good `hash` function in the previous lesson. As a reminder:
 
-  You might find yourself confusing keys with hash codes while accessing key-value pairs later. We would like to stress that the key is what your `hash` function will take as an input. In a way, we could say that the key is important for us only inside the `hash` function. But we never access a bucket directly with the key. Instead we do so with the hash code. 
+      ```javascript
+      function hash(key) {
+        let hashCode = 0;
+      
+        const primeNumber = 31;
+        for (let i = 0; i < key.length; i++) {
+          hashCode = primeNumber * hashCode + key.charCodeAt(i);
+        }
+      
+        return hashCode;
+      }
+      ```
+
+      You are free to use that, or if you wish, you can conduct your own research. Beware, this is a deep deep rabbit hole.
 
       <div class="lesson-note lesson-note--tip" markdown="1">
         Hash maps could accommodate various data types for keys like numbers, strings, objects. But for this project, only handle keys of type strings.
