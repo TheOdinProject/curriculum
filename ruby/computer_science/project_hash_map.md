@@ -18,7 +18,7 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
   1. Start by creating a `HashMap` class. Proceed to create the following methods:
 
-  1. `#hash` takes a value and produces a hash code with it. We did implement a fairly good `hash` method in the previous lesson.
+  1. `#hash` takes a key and produces a hash code with it. We did implement a fairly good `hash` method in the previous lesson.
      As a reminder:
 
       ```ruby
@@ -48,15 +48,15 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
   1. `#remove(key)` takes a key as an argument. If the given key is in the hash map, it should remove the entry with that key and return the deleted entry's value. If the key isn't in the hash map, it should return `nil`.
 
-  1. `#length()` returns the number of stored keys in the hash map.
+  1. `#length` returns the number of stored keys in the hash map.
 
-  1. `#clear()` removes all entries in the hash map.
+  1. `#clear` removes all entries in the hash map.
 
-  1. `#keys()` returns an array containing all the keys inside the hash map.
+  1. `#keys` returns an array containing all the keys inside the hash map.
 
-  1. `#values()` returns an array containing all the values.
+  1. `#values` returns an array containing all the values.
 
-  1. `#entries()` returns an array that contains each `key, value` pair. Example: `[[first_key, first_value], [second_key, second_value]]`
+  1. `#entries` returns an array that contains each `key, value` pair. Example: `[[first_key, first_value], [second_key, second_value]]`
 
   Remember that our hash map does not preserve insertion order when you are retrieving your hash map's data. It is normal and expected for keys and values to appear out of the order you inserted them in.
 
