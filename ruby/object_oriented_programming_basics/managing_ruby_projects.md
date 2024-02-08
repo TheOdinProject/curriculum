@@ -142,7 +142,13 @@ Another thing to keep in mind is that local variables do not get loaded, so if y
 
 ### Gems and you
 
-Now that you know how to work with your own files it is time to learn how to work with files of others. Gems are packages that contain Ruby library or an app that someone wrote - so basically, some code. Some of those gems are part of the Ruby standard library but most of them require installing them on your own. If you use a gem then you call such a gem a dependency - your code depends on that gem to function properly. Some dependencies are only used in particular contexts, for example you can have a set of gems that are used only in a development environment or in a test environment. Many gems depend upon other gems, sometimes the versions they depend on, differ. You *could* manage gems and their dependencies on your own, going through the process of installling, updating them and resolving whatever conflicts might arise but Rubyists have tools for that!
+Now that you know how to work with your own files, it is time to learn how to work with the files of others. 
+
+Gems are packages containing Ruby utility libraries that someone wrote - basically, some code. Some of those gems are part of the Ruby standard library, but most require installing independently. 
+
+If you use a gem then you call such a gem a dependency - your code depends on that gem to function properly. Some dependencies are only used in particular contexts; for example, you can have a set of gems used only in a development or test environment. 
+
+Many gems depend upon other gems, and sometimes, the versions they depend on differ. You *could* manage gems and their dependencies on your own, going through the process of installing, updating them and resolving whatever conflicts might arise, but Rubyists have tools for that!
 
 RubyGems has been part of Ruby standard library since version 1.9 and is used to get those amazing gems onto your computer. Remember that bit about `require` going through installed gems to potentially find a file you're looking for? That's the work of RubyGems. Another cool part about it? It is a gem itself! Let's give it a try.
 
