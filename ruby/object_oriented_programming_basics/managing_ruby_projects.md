@@ -233,7 +233,9 @@ Many other tools recognize this to figure out what Ruby version your project is 
 
 ### Ruby LSP in VSCode
 
-Earlier in the curriculum you've been instructed to choose the `Don't show again` option when `Ruby LSP` told you about not finding a lockfile - you might've also seen errors concerning `RuboCop`. In the next lesson we are going to go over `RuboCop` and how it should land in your project's `Gemfile`. After that, you are going to enjoy all the benefits of using `Ruby LSP` and its `RuboCop` integration and your projects are going to be set up like a real pro.
+Earlier in the curriculum, you were instructed to choose the `Don't show again` option when `Ruby LSP` told you about not finding a lock file - you might've also seen errors concerning `RuboCop`. In the next lesson, we will review `RuboCop` and how it should land in your project's `Gemfile`. 
+
+After that, you will enjoy all the benefits of using `Ruby LSP` and its `RuboCop` integration, and your projects will be set up like a real pro.
 
 ### Assignment
 
