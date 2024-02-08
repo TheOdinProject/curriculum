@@ -210,13 +210,6 @@ That's really just a taste of the Rails controller, but you should have a pretty
   1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.6.3 and 5.2. We'll cover sessions (section 5.1) more in the future so don't worry about them now.
 </div>
 
-### Additional resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-- [Controller & Routes Video Demo](https://vimeo.com/168501163)
-- [Rails 3 Rendering and Partials via YouTube](http://www.youtube.com/watch?v=m-tw2OCHPMI)
-
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
@@ -228,3 +221,10 @@ This section contains questions for you to check your understanding of this less
 - [Data from a client can never be trusted. Which helper method should you incorporate in your controller to prevent malicious data injections?](#strong-parameters)
 - [When is a flash message shown?](https://guides.rubyonrails.org/action_controller_overview.html#the-flash)
 - [How do we change when a flash is shown?](https://guides.rubyonrails.org/action_controller_overview.html#flash-now)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Controller & Routes Video Demo](https://vimeo.com/168501163)
+- [Rails 3 Rendering and Partials via YouTube](http://www.youtube.com/watch?v=m-tw2OCHPMI)
