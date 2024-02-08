@@ -340,5 +340,7 @@ the questions below on your own, clicking the small arrow to the left of the que
 
 ### Additional resources
 
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
 - [Better Stimulus](https://www.betterstimulus.com/), a good resource that shows best practices around Stimulus
 - [Stimulus Components](https://stimulus-components.netlify.app/), a collection of reusable Stimulus components
