@@ -227,7 +227,9 @@ So, if people behind a gem maintain it in line with semantic versioning, you can
 
 ### .ruby-version
 
-There's another one small bit that is important to give to folks that will run your code: the target Ruby version of your project. You can do it easily by running `rbenv local 3.2.2` as it creates a `.ruby-version` file with the version declared. This is recognized by many other tools to figure out what Ruby version your project is running - for example, `rbenv` will no longer use the `global` Ruby version and the `Ruby LSP` VSCode extension will also change its behavior.
+There's another important thing to give to folks that will run your code: the target Ruby version of your project. You can do it easily by running `rbenv local 3.2.2` as it creates a `.ruby-version` file with the version declared.
+
+Many other tools recognize this to figure out what Ruby version your project is running - for example, `rbenv` will no longer use the `global` Ruby version and the `Ruby LSP` VSCode extension will also change its behavior.
 
 ### Ruby LSP in VSCode
 
