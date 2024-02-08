@@ -81,3 +81,9 @@ This section contains questions for you to check your understanding of this less
 - [What is the purpose of using a separate database for testing?](#but-do-you-even-need-to-test-that)
 - [How would you create and setup a testing database using the npm package `mongodb-memory-server`?](#mongodb-memory-server)
 - [What is an alternative method of database setup for your testing environment?](https://jestjs.io/docs/en/mongodb)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
