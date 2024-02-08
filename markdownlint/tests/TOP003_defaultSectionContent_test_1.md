@@ -18,7 +18,7 @@ This section is missing the div wrapper with required attributes.
 
 ### Knowledge check
 
-The following questions are on opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 There's also some content before the unordererd list that should not be here.
 
