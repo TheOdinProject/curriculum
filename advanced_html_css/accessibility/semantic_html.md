@@ -16,27 +16,27 @@ The `<div>` and `<span>` elements, most likely two of the more common elements y
 
 Okay, let's look at an actual example to help better understand this whole semantics and context thing. Think of any project you may have completed so far that required a user to click on something: Rock, Paper, Scissors; Calculator; Tic-Tac-Toe. If you used `<div>` or `<span>` elements for any clickable areas, things most likely worked as intended for you. For example, perhaps you had something similar to the HTML below for your Rock, Paper, Scissors UI back in Foundations:
 
-~~~html
+```html
 <!-- These are buttons... right? -->
 <div class='button-container'>
   <div class='rock'>Rock</div>
   <div class='paper'>Paper</div>
   <div class='scissors'>Scissors</div>
 </div>
-~~~
+```
 
 A sighted user would most likely have no trouble playing the game if the elements looked like something to interact with. A screen reader user, however, would have no idea what any of these elements mean. The screen reader would announce the text contents of the element ("Rock", "Paper", or "Scissors"), and the user might think it's just plain text on the page and move on. There's no context to tell the user that they're supposed to, or that they even *can*, interact with these elements.
 
 This issue can be easily fixed by using semantic HTML:
 
-~~~html
+```html
 <!-- Okay, these are *definitely* buttons -->
 <div class='button-container'>
   <button class='rock'>Rock</button>
   <button class='paper'>Paper</button>
   <button class='scissors'>Scissors</button>
 </div>
-~~~
+```
 
 Because the `<button>` element has a semantic meaning and provides context, a screen reader would announce the text content as well as the role of the element: "Rock, button".
 
@@ -48,7 +48,7 @@ When it comes to using semantic HTML correctly, you want to think about what you
 * If you want to provide some sort of tabular data to a user, use a `<table>` element along with the elements related to it. This will allow a user to more easily navigate and understand the data being presented.
 * When you use an input element, you should always create a relationship between it and a `<label>` element. A `<label>` provides context for what an input actually means to assistive technologies, announcing the label contents each time the input is announced. Not only that, but a proper `<label>` increases the clickable area of the input itself, which is useful for users who have trouble clicking on smaller items. There are two ways you can create this relationship:
 
-~~~html
+```html
 <!-- Useful when you need the input itself to have an ID -->
 <label for='name'>Name</label>
 <input type='text' id='name' />
@@ -58,7 +58,7 @@ When it comes to using semantic HTML correctly, you want to think about what you
   Name
   <input type='text' />
 </label>
-~~~
+```
 
 * Continuing with inputs, you should always use the `type` that makes the most sense for its intended use. `type="text"` makes more sense for a name or address field, while `type="email"` or `type="tel"` would of course make more sense for an e-mail or telephone field, respectively. For certain devices, using the correct `type` may show only the required or additional characters on the keyboard. A `type="tel"` input, for example, might make it much easier for users to fill out their phone number by providing larger, numerical-only keys on mobile or tablet devices.
 * When you want to present a list of some sort to a user, you should use the appropriate list element (`<ol>`, `<ul>`, or `<dl>`) and their related list item elements. This will not only let the user know when they are entering or exiting a list, but also how many items are in the list.
