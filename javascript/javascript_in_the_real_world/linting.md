@@ -65,3 +65,9 @@ This section contains questions for you to check your understanding of this less
 - [Which problems can linting prevent?](https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/)
 - [Why should you use Prettier?](https://www.youtube.com/watch?v=hkfBvpEfWdA)
 - [What is a template repository?](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
