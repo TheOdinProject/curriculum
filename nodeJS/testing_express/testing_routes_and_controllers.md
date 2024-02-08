@@ -160,3 +160,9 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#done'>What is the purpose of `done`? What convenience does SuperTest provide concerning it?</a>
 - <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#example'>What is the difference in handling errors when using .end() method in conjunction with .expect() provided by SuperTest?</a>
 - <a class='knowledge-check-link' href='https://ladjs.github.io/superagent/#multipart-requests'>What are the methods provided by SuperAgent to handle multipart requests and how to use them?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
