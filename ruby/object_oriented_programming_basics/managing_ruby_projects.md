@@ -211,7 +211,17 @@ BUNDLED WITH
    2.5.4
 ```
 
-<span id="gemfile">There's not much in those but as you can see,</span> the `Gemfile` has information on where to get the gems from and what gems are required. The `"~> 1.1"` is something called a version constraint, particularly one called pessimistic constraint. It relies on semantic versioning - basically, the first number is the major version, second is the minor version and a third, if it exists is the patch number. Major versions can break things from previous versions - think changing method names for example. Minor versions can add and change things but they can't break anything. Patches happen when you introduce bug fixes that don't break anything. So, if people behind a gem maintain it in line with semantic versioning, you can rely on this pessimistic constraint never letting your project have a gem version that could potentially break your app - it is equivalent to `gem "colorize", ">= 1.1", "<2.0"`.
+<span id="gemfile">There's not much in those, but as you can see,</span> the `Gemfile` has information on where to get the gems from and what gems are required. 
+
+The `"~> 1.1"` is a version constraint, particularly a pessimistic constraint. It relies on semantic versioning.
+
+- The first number is the **major** version
+- The second is the **minor** version
+- the third, if it exists, is the **patch** number
+
+Major versions can break things from previous versions - for example, changing method names. Minor versions can add and change things but can't break anything. Patches happen when you introduce bug fixes that don't break anything. 
+
+So, if people behind a gem maintain it in line with semantic versioning, you can rely on this pessimistic constraint never letting your project have a gem version that could potentially break your app - it is equivalent to `gem "colorize", ">= 1.1", "<2.0"`.
 
 `Gemfile.lock` has information on what was the last environment that should be able to run your app. Bundler will use it to install the same versions of gems even if `Gemfile` could potentially allow for newer versions to be installed.
 
