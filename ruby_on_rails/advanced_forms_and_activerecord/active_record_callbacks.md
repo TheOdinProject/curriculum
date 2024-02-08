@@ -85,11 +85,6 @@ The `commit`ting of a transaction and its potential `rollback` if it fails are b
 
 Callbacks are useful and many, like `:after_create` and `:before_destroy`, are pretty common.  There's no rocket science here, just a helpful concept.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [WikiBooks Reference on Callbacks](http://en.wikibooks.org/wiki/Ruby_on_Rails/ActiveRecord/Callbacks)
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -97,3 +92,9 @@ This section contains questions for you to check your understanding of this less
   * <a class='knowledge-check-link' href='#the-life-cycle-of-an-active-record-object'>What events happen in an Active Record object's lifecycle?</a>
   * <a class='knowledge-check-link' href='#specifying-callback-characteristics'>How can you make a callback run under specific conditions?</a>
   * <a class='knowledge-check-link' href='https://guides.rubyonrails.org/active_record_callbacks.html#transaction-callbacks'>When are transaction callbacks most useful?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [WikiBooks Reference on Callbacks](http://en.wikibooks.org/wiki/Ruby_on_Rails/ActiveRecord/Callbacks)
