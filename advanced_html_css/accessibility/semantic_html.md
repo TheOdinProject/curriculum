@@ -3,6 +3,7 @@
 As useful as `<div>` and `<span>` elements can be as generic containers, they're not always the most a11y friendly elements to use. While it may be tempting or easier to just use them for everything, from containers to interactive areas, you should not only check whether there is a more appropriate element to use in certain situations, but also whether you're using an element correctly.
 
 ### Learning outcomes
+
 By the end of this lesson, you should be able to:
 
 - Explain why semantic HTML is important for accessibility.
@@ -87,6 +88,7 @@ If you were to use only `<div>` elements to act as these landmarks and headings,
 </div>
 
 ### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [Why is semantic HTML important for accessibility?](#the-importance-of-semantics)
