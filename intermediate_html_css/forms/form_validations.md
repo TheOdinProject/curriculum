@@ -193,6 +193,8 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 ### Additional resources
 
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
 - Check out [HTML5Pattern](https://www.html5pattern.com/) for a list of commonly used pattern regular expressions you may find helpful.
 - Look through [this Twitter thread](https://threadreaderapp.com/thread/1400388896136040454.html) of the do's and don'ts for form validation UX.
 - Check out these [10 Guidelines](https://www.nngroup.com/articles/errors-forms-design-guidelines/) for form validation design.
