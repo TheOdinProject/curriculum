@@ -671,11 +671,6 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 1. Read the [Ruby docs](https://docs.ruby-lang.org/en/3.2/syntax/pattern_matching_rdoc.html) on pattern matching. They cover quite a lot of ground.
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [An Introduction to Pattern Matching in Ruby](https://blog.appsignal.com/2021/07/28/introduction-to-pattern-matching-in-ruby.html) from AppSignal should be another useful perspective on the material.
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -684,3 +679,9 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="#variable-pattern">What is the variable pattern match?</a>
 - <a class="knowledge-check-link" href="#array-pattern-match">What are the different ways of pattern matching on an array?</a>
 - <a class="knowledge-check-link" href="#find-pattern">Explain the find pattern.</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- [An Introduction to Pattern Matching in Ruby](https://blog.appsignal.com/2021/07/28/introduction-to-pattern-matching-in-ruby.html) from AppSignal should be another useful perspective on the material.
