@@ -1,6 +1,8 @@
 ### Introduction
 
-Perhaps going through the curriculum you were wondering about how programmers structure their projects. Do they really just put their entire code in a single file? If they don't, how are they able to use code across multiple files? Are there agreed-upon rules? Common patterns? What are the Ruby ways of doing things? Maybe you haven't yet thought about that but very shortly knowing how to structure your project is going to help you and others navigate the code you've written.
+You may have been wondering how programmers structure their projects. Do they just put their entire code in a single file? If they don't, how can they use code across multiple files? Are there agreed-upon rules? Common patterns? What is the Ruby way of doing things? 
+
+In this lesson, we will show you how to structure your Ruby projects to keep them manageable and to help you and others easily navigate the code you've written.
 
 ### Lesson overview
 
