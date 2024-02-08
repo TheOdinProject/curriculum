@@ -43,6 +43,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 ```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
+#### A note if your fonts are not loading
+
+  If you have any issues loading fonts with webpack, the issue is not with webpack, but how you declare the css rule.
+
+  Check out the answer on this question from Stack Overflow if you get stuck: [Webpack can't load fonts (ttf)](https://stackoverflow.com/questions/49877149/webpack-cant-load-fonts-ttf/68838464#68838464)
+</div>
  <h4>A note if your fonts are not loading</h4>
  If you have any issues loading fonts with webpack, the issue is not with webpack, but how you declare the css rule.
 
