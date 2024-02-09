@@ -2,13 +2,13 @@
 
 The last lesson covered unit testing and now we will move into model testing. Here you will get an idea of how to test within Rails for model testing as well as a deeper dive of how to structure these tests.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   What are model tests?
-*   How do I run a model test?
-*   How to structure model testing?
+- What are model tests?
+- How do I run a model test?
+- How to structure model testing?
 
 ### What are model tests?
 
