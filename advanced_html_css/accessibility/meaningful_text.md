@@ -3,6 +3,7 @@
 Meaningful text is pretty straight forward: when a user reads text or has it announced to them, they should be able to immediately understand what it means even without any surrounding context. A lack of meaningful text can affect all users, but especially those who rely on assistive technologies. In this lesson we'll be going over a few instances where you should start making sure you provide meaningful text to users.
 
 ### Learning outcomes
+
 By the end of this lesson, you should be able to:
 
 * Know how to provide meaningful links.
@@ -10,6 +11,7 @@ By the end of this lesson, you should be able to:
 * Know how to provide meaningful `alt` attributes for images.
 
 ### Links
+
 Let's take a look at two different examples of a link:
 
 ```html
@@ -80,6 +82,7 @@ Believe it or not, both examples above are valid! While Example 1 doesn't actual
 For Example 2, the screen reader would announce, "Odin, graphic", making the user aware that there's an image and what it's an image of. What the alternative text should be for an image will ultimately depend on various factors, though. Read [Alternative Text - WebAIM](https://webaim.org/techniques/alttext) to learn about when and how you should be adding alternative text for images based on the function of the image and the context surrounding it.
 
 ### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * [What are three rules you should follow in order to provide meaningful links?](#meaningful-links-rules)
