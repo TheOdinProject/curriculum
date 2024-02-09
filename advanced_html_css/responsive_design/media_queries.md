@@ -1,8 +1,9 @@
 ### Introduction
 With media queries, it is possible to completely restyle your web projects based on the size of a user's screen. All of the lessons we've had so far have focused on making sure that the individual elements of your layout are as flexible as possible, but sometimes you will need to actually _change_ some of your CSS values to accommodate a specific screen size. These changes could be subtle shifts, such as adjusting margin, padding, or font-size to squeeze more content onto the screen, or they could be big obvious shifts in layout. The nature of the exact changes will depend on your design, but the underlying technique is the same.
 
-### Learning outcomes
-* You'll learn how to implement media queries to create fully responsive websites that look great on any device.
+### Lesson overview
+
+- You'll learn how to implement media queries to create fully responsive websites that look great on any device.
 
 ### Media query syntax
 
