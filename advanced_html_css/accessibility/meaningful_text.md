@@ -2,12 +2,13 @@
 
 Meaningful text is pretty straight forward: when a user reads text or has it announced to them, they should be able to immediately understand what it means even without any surrounding context. A lack of meaningful text can affect all users, but especially those who rely on assistive technologies. In this lesson we'll be going over a few instances where you should start making sure you provide meaningful text to users.
 
-### Learning outcomes
+### Lesson overview
+
 By the end of this lesson, you should be able to:
 
-* Know how to provide meaningful links.
-* Know how to provide meaningful text in forms.
-* Know how to provide meaningful `alt` attributes for images.
+- Know how to provide meaningful links.
+- Know how to provide meaningful text in forms.
+- Know how to provide meaningful `alt` attributes for images.
 
 ### Links
 Let's take a look at two different examples of a link:
