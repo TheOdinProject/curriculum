@@ -5,14 +5,15 @@ This time, we're focusing on a particular subset of enumerable methods: the **pr
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
 
- - Describe what a predicate enumerable method is.
- - Explain how the `#include?` method works.
- - Explain how the `#any?` method works.
- - Explain how the `#all?` method works.
- - Explain how the `#none?` method works.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Describe what a predicate enumerable method is.
+- Explain how the `#include?` method works.
+- Explain how the `#any?` method works.
+- Explain how the `#all?` method works.
+- Explain how the `#none?` method works.
 
 ### The include? method
 The `#include?` method works exactly like you think it should. If we want to know whether a particular element exists in an array, we can use the `#include?` method. This method will return `true` if the element you pass as an argument to `#include?` exists in the array or hash; otherwise, it will return `false`.
