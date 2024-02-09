@@ -2,13 +2,13 @@
 
 Some may tell you there is a debate on the use of Grid vs. Flexbox and whether or not one is superior to the other. The reality is much simpler - these are complementary tools that can work together, and each has its own place in the world of CSS.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-* Know when you might want to use Flexbox over Grid
-* Know when you might want to use Grid over Flexbox
-* Know when you might want to use the two together
+- Know when you might want to use Flexbox over Grid.
+- Know when you might want to use Grid over Flexbox.
+- Know when you might want to use the two together.
 
 ### Content first vs layout first design
 
