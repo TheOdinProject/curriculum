@@ -7,15 +7,16 @@ We will run through the enumerable methods that you will most commonly use and s
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
 
- - Explain how the `#each` and `#each_with_index` methods work and how they differ.
- - Explain how the `#map` method works.
- - Explain how the `#select` method works.
- - Explain how the `#reduce` method works.
- - Describe the differences between using `do...end` and `{...}`.
- - Explain what a bang method is and why it is or is not considered best practice.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Explain how the `#each` and `#each_with_index` methods work and how they differ.
+- Explain how the `#map` method works.
+- Explain how the `#select` method works.
+- Explain how the `#reduce` method works.
+- Describe the differences between using `do...end` and `{...}`.
+- Explain what a bang method is and why it is or is not considered best practice.
 
 ### Life before enumerables
 Let's say that you wanted to make an invite list for your birthday using your `friends` array but that you don't want to invite your friend Brian because he's a bit of a nutcase at parties and always drinks way too much.
