@@ -3,15 +3,16 @@ Ruby is a strongly object-oriented language, which means that absolutely everyth
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
 
- - List the basic arithmetic operators and what they do.
- - Describe the difference between an integer and a float and how to convert between the two.
- - Explain string interpolation and concatenation.
- - Describe what escape characters are, and list several examples.
- - Define what a symbol is and how it differs from a string.
- - Explain what the Booleans `true`, `false`, and `nil` represent.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- List the basic arithmetic operators and what they do.
+- Describe the difference between an integer and a float and how to convert between the two.
+- Explain string interpolation and concatenation.
+- Describe what escape characters are, and list several examples.
+- Define what a symbol is and how it differs from a string.
+- Explain what the Booleans `true`, `false`, and `nil` represent.
 
 ### Numbers
 You probably already know what numbers are, so there's no need to go into elaborate metaphors here. Ruby has all the typical math operators you would expect:
