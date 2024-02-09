@@ -69,6 +69,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional Resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - For an example of a model test and having a useful resource. You can visit [code with Jason](https://www.codewithjason.com/a-rails-model-test-hello-world/)
