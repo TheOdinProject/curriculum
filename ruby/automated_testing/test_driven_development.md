@@ -2,12 +2,13 @@
 
 So far you’ve been learning how to test code that you’ve written, but there’s a popular development process that flips that concept on its head. Rather than writing code, manually testing it until you get it working, then writing a test to make sure it stays working; you can write the test **before** the code, so that you don’t have to waste *any* time manually testing. Test Driven Development is the name of this inverted development process.
 
-### Learning Outcomes
-Look through these now and use them to guide your learning. By the end of this lesson, expect to:
+### Lesson overview
 
-- Learn what Test Driven Development is
-- Learn the advantages of Test Driven Development
-- Learn how to write code TDD style
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Learn what Test Driven Development is.
+- Learn the advantages of Test Driven Development.
+- Learn how to write code TDD style.
 
 ### What is TDD, and why do it?
 
