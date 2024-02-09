@@ -4,10 +4,10 @@ How can we do DOM manipulations that we usually do in vanilla JavaScript? Is it 
 
 ### Lesson overview
 
-This section contains a general overview of topics you will learn in this lesson.
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Explore `useRef` hook and its use cases
-- Explain memoization and how `useCallback` and `useMemo` can be used
+- Explore `useRef` hook and its use cases.
+- Explain memoization and how `useCallback` and `useMemo` can be used.
 
 ### The useRef hook
 
