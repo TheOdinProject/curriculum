@@ -94,7 +94,7 @@ One way to prevent this frustrating behavior is to give each individual item in 
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What are two things that interactive elements must have for keyboard users?](#interative-elements-keyboard)
 - [What are focus styles?](#focus-styles)
@@ -104,6 +104,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - [Skip Links](https://webaim.org/techniques/skipnav/) are another form of accessibility for keyboard users and can be especially helpful for those who require more effort to tab through the contents of a page.
