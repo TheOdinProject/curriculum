@@ -4,7 +4,7 @@ Some users aren't able to use a mouse to navigate or operate their computer, and
 
 ### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Know the two things that interactive elements must have for keyboard users.
 - Understand what focus styles are and why you shouldn't completely remove them.
