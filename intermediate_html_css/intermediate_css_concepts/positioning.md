@@ -6,10 +6,10 @@ By now you have had quite a bit of practice moving elements around the screen us
 
 This section contains a general overview of topics that you will learn in this lesson.
 
- - You'll learn how to use absolute positioning.
- - You'll learn how to use fixed positioning.
- - You'll learn how to use sticky positioning.
- - You'll know the difference between each property and how to combine them.
+- You'll learn how to use absolute positioning.
+- You'll learn how to use fixed positioning.
+- You'll learn how to use sticky positioning.
+- You'll know the difference between each property and how to combine them.
 
 ### Static and relative positioning
 
