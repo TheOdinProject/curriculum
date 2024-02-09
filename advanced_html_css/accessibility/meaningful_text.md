@@ -6,9 +6,9 @@ Meaningful text is pretty straight forward: when a user reads text or has it ann
 
 By the end of this lesson, you should be able to:
 
-* Know how to provide meaningful links.
-* Know how to provide meaningful text in forms.
-* Know how to provide meaningful `alt` attributes for images.
+- Know how to provide meaningful links.
+- Know how to provide meaningful text in forms.
+- Know how to provide meaningful `alt` attributes for images.
 
 ### Links
 
@@ -24,13 +24,13 @@ Visit <a href='...'>The Odin Project</a> to start your career in web development
 
 To a sighted user, the link in Example 1 makes perfect sense. However, in addition to being able to navigate a page via landmarks and headings (as mentioned in the Semantic HTML lesson), a screen reader may be able to navigate between each element of a specific type, such as links. If a user were to navigate between all of the links on a page, the only thing that would get announced in Example 1 is, "Click here, link." Where's "here" exactly? Without any surrounding context, the link is meaningless. Not only that, but if you have multiple links on a page with that same text content, then users will be told to "click here" many times.
 
-The link in Example 2, however, not only makes sense in context for all users, but it also makes sense *out of context* for screen reader users when it gets announced: "The Odin Project, link." 
+The link in Example 2, however, not only makes sense in context for all users, but it also makes sense *out of context* for screen reader users when it gets announced: "The Odin Project, link."
 
 <span id="meaningful-links-rules">When you add links to a page, there are a few rules you should be following:</span>
 
 1. Make sure that the text content of the `<a>` element somehow indicates where the link redirects to and that it's brief (around 100 characters). So avoid using phrases like "click here" or "this page".
-2. If a link would open or download a file, include text that tells the user what kind of file it is as well as the file size.
-3. If a link would automatically open in a new tab or window with the `target="_blank"` attribute, you should indicate this to the user in some way.
+1. If a link would open or download a file, include text that tells the user what kind of file it is as well as the file size.
+1. If a link would automatically open in a new tab or window with the `target="_blank"` attribute, you should indicate this to the user in some way.
 
 ```html
 <!-- Example 1: Now the user is aware that this link will open or download a PDF file. -->
@@ -85,13 +85,13 @@ For Example 2, the screen reader would announce, "Odin, graphic", making the use
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* [What are three rules you should follow in order to provide meaningful links?](#meaningful-links-rules)
-* [What information should you inform users of in order to provide meaningful error messages in forms?](#meaningful-error-msg)
-* [When should you use the empty string/null value for the `alt` attribute?](#empty-alt-attribute)
+- [What are three rules you should follow in order to provide meaningful links?](#meaningful-links-rules)
+- [What information should you inform users of in order to provide meaningful error messages in forms?](#meaningful-error-msg)
+- [When should you use the empty string/null value for the `alt` attribute?](#empty-alt-attribute)
 
 ### Additional resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-* [Making Accessible Links: 15 Golden Rules For Developers](https://www.sitepoint.com/15-rules-making-accessible-links/) is a little old, but is still a great list of 15 rules for creating, well, accessible links. Some of the rules the article goes over were mentioned in this lesson, but there are some other rules that can help make sure you're creating a11y friendly links.
-* [Usable and Accessible Form Validation and Error Recovery](https://webaim.org/techniques/formvalidation/) goes over a few different ways you can provide errors to users (using the `alert` in JavaScript, providing all errors at the top of the page, and using inline errors), as well as the pros and cons of each.
+- [Making Accessible Links: 15 Golden Rules For Developers](https://www.sitepoint.com/15-rules-making-accessible-links/) is a little old, but is still a great list of 15 rules for creating, well, accessible links. Some of the rules the article goes over were mentioned in this lesson, but there are some other rules that can help make sure you're creating a11y friendly links.
+- [Usable and Accessible Form Validation and Error Recovery](https://webaim.org/techniques/formvalidation/) goes over a few different ways you can provide errors to users (using the `alert` in JavaScript, providing all errors at the top of the page, and using inline errors), as well as the pros and cons of each.
