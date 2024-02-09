@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Using custom properties
 
-The syntax for declaring and accessing a custom property not too different from how we write normal rule declarations:
+The syntax for declaring and accessing a custom property is not too different from how we write normal rule declarations:
 
 ```css
 .error-modal {
