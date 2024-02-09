@@ -1,12 +1,13 @@
 ### Introduction
 An important basic concept in testing is isolation.  You should only test one method at a time, and your tests for one function should not depend upon an external function behaving correctly - especially if that function is being tested elsewhere.  The main reason for this is that when your tests fail, you want to be able to narrow down the cause of this failure as quickly as possible.  If you have a test that depends on several functions, it can be hard to tell exactly what is going wrong.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
 
-- Explain what tightly coupled code is
-- Describe a pure function and how it relates to TDD
-- Explain what mocking is
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Explain what tightly coupled code is.
+- Describe a pure function and how it relates to TDD.
+- Explain what mocking is.
   
 ### Pure functions
 
