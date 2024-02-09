@@ -3,6 +3,7 @@
 Some users aren't able to use a mouse to navigate or operate their computer, and by extension the websites they visit. These users may instead rely on using a keyboard or another assistive technology that can simulate keyboard inputs, such as voice recognition software. Other users may even just prefer using a keyboard over a mouse, or may use a mix of both. These users require proper keyboard navigation, something that can easily be overlooked when developing a website.
 
 ### Learning outcomes
+
 By the end of this lesson, you should be able to:
 
 * Know the two things that interactive elements must have for keyboard users.
@@ -92,6 +93,7 @@ One way to prevent this frustrating behavior is to give each individual item in 
 </div>
 
 ### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * [What are two things that interactive elements must have for keyboard users?](#interative-elements-keyboard)
