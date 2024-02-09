@@ -58,4 +58,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-Expand this section to have more resources on github
+ This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
