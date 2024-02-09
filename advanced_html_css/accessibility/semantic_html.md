@@ -4,7 +4,7 @@ As useful as `<div>` and `<span>` elements can be as generic containers, they're
 
 ### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain why semantic HTML is important for accessibility.
 - Name the seven HTML elements that define landmarks on a page.
