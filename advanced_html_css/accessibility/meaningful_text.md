@@ -12,13 +12,13 @@ By the end of this lesson, you should be able to:
 ### Links
 Let's take a look at two different examples of a link:
 
-~~~html
+```html
 <!-- Example 1: Where's "here"? -->
 <a href='...'>Click here</a> to start your career in web development!
 
 <!-- Example 2: I love that place! -->
 Visit <a href='...'>The Odin Project</a> to start your career in web development!
-~~~
+```
 
 To a sighted user, the link in Example 1 makes perfect sense. However, in addition to being able to navigate a page via landmarks and headings (as mentioned in the Semantic HTML lesson), a screen reader may be able to navigate between each element of a specific type, such as links. If a user were to navigate between all of the links on a page, the only thing that would get announced in Example 1 is, "Click here, link." Where's "here" exactly? Without any surrounding context, the link is meaningless. Not only that, but if you have multiple links on a page with that same text content, then users will be told to "click here" many times.
 
@@ -30,13 +30,13 @@ The link in Example 2, however, not only makes sense in context for all users, b
 2. If a link would open or download a file, include text that tells the user what kind of file it is as well as the file size.
 3. If a link would automatically open in a new tab or window with the `target="_blank"` attribute, you should indicate this to the user in some way.
 
-~~~html
+```html
 <!-- Example 1: Now the user is aware that this link will open or download a PDF file. -->
 <a href='...'>2021 Sign Up Statistics (PDF, 1MB)</a>
 
 <!-- Example 2: And now the user knows this link opens in a new tab! -->
 <a href='...'>GitHub (opens in new tab)</a>
-~~~
+```
 
 The next time you need to use links, try saying the contents of the element out loud to yourself. Does it reasonably indicate where that link would take you, such as the title of the page, article, or video? Are you aware whether it'll open in a new tab automatically or not, or that it'll open a download dialog? If you've been testing out using a screen reader up to this point, then an even better way to test whether a link has meaningful text is with the screen reader itself!
 
@@ -44,7 +44,7 @@ The next time you need to use links, try saying the contents of the element out 
 
 Providing meaningful errors to users when they are filling out or submitting a form can turn the experience from frustrating to... well, maybe not fun, but at the very least just a bit less frustrating. Let's take a look at a few error examples, ranging from not helpful at all to very helpful:
 
-~~~html
+```html
 <!-- Example 1: Huh? -->
 <div class='input-error'>Error: Invalid input.</div>
 
@@ -53,7 +53,7 @@ Providing meaningful errors to users when they are filling out or submitting a f
 
 <!-- Example 3: Even better! -->
 <div class='input-error'>Error: 'JohnSmith@@test.com' is not valid. Example of a valid email: example@yourdomain.com.</div>
-~~~
+```
 
 Even if you could tell what input caused the error in Example 1, which may not always be the case, the error doesn't provide any meaningful text. What input is invalid? Why is it invalid? How can you fix it? None of these questions are answered. Now imagine how meaningless this error must be to users of assistive technologies, who may not be able to see where an error is rendered on the page and may only have "invalid input" announced to them.
 
@@ -67,13 +67,13 @@ Another way to provide meaningful text in forms is with instructions, such as wh
 
 At this point you should be pretty familiar with the `alt` attribute on `img` elements. Whether you are or not, let's see if you can tell which of the following examples is valid:
 
-~~~html
+```html
 <!-- Example 1 -->
 <img src='...' alt='' />
 
 <!-- Example 2 -->
 <img src='...' alt='Odin' />
-~~~
+```
 
 Believe it or not, both examples above are valid! While Example 1 doesn't actually have any meaningful text (perhaps a meaningful *lack of* text), you should still understand its importance. <span id="empty-alt-attribute">When you're using an image purely for decoration, or the image just isn't really important for the user to be aware of, you generally don't want users of assistive technologies to be made aware of it.</span> In those cases, you should **always** use an empty string for the value of the `alt` attribute as seen in Example 1 (this is also known as a null value, not to be confused with the JavaScript data type). If you omitted the `alt` attribute, the presence of the image could still be announced, which may confuse the user (especially if the file name was a random string of letters and numbers).
 
