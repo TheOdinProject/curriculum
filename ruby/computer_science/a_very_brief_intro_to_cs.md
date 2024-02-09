@@ -10,12 +10,12 @@ We're taking a look at some more Computer Science-y concepts here because they a
 
 If that doesn't get you interested, remember that this curriculum is meant to prepare you for life beyond the web page. If you're interested in applying for a job, you'll be asked questions that directly touch on some of this stuff.  It's going to require you to put on your thinking cap (sorry, it had to happen sometime), but we won't be doing anything too crazy. We'll stick to the practical side of this material as opposed to getting too stuck in theory.
 
-### Learning outcomes
+### Lesson overview
 
-Look through these now and then use them to test yourself after doing the assignment:
+This section contains a general overview of topics that you will learn in this lesson.
 
-* What is an algorithm?
-* What is pseudo-code?
+- What is an algorithm?
+- What is pseudo-code?
 
 ### Assignment
 
