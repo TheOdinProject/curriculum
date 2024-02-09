@@ -1,9 +1,10 @@
 ### Introduction
 Images require special care on responsive websites. This lesson presents a few issues that arise when working with responsive images and the options you have when dealing with them.
 
-### Learning outcomes
-* You'll learn how to make your images behave properly when resizing them with CSS.
-* You'll learn how to serve up different images based on screen size.
+### Lesson overview
+
+- You'll learn how to make your images behave properly when resizing them with CSS.
+- You'll learn how to serve up different images based on screen size.
 
 ### The basics
 
