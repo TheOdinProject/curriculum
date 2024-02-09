@@ -6,9 +6,9 @@ You may remember testing from the Ruby section and the emphasis on the importanc
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   What are unit tests?
-*   Why are unit tests important?
-*   Unit tests in the context of Ruby on Rails.
+- What are unit tests?
+- Why are unit tests important?
+- Unit tests in the context of Ruby on Rails.
 
 ### What are unit tests?
 
