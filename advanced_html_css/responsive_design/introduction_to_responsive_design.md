@@ -3,6 +3,8 @@
 
 ### Lesson overview
 
+This section contains a general overview of topics that you will learn in this lesson.
+
 - You'll learn what "Responsive Design" is and why it's important.
 
 ### Terminology
