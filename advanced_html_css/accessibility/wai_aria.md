@@ -4,7 +4,7 @@ In the previous lessons, you learned several ways to make websites more accessib
 
 ### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Know the purpose of WAI-ARIA.
 - Know what ARIA can't do.
