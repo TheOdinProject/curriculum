@@ -56,12 +56,12 @@ const server = {
 
 This section contains a general overview of topics that you will learn in this lesson.
 
- - Explain how you declare an `async` function
- - Explain what the `async` keyword does
- - Explain what the `await` keyword does
- - Explain what an `async` function returns
- - Explain what happens when an error is thrown inside an `async` function
- - Explain how you can handle errors inside an `async` function
+ - Explain how you declare an `async` function.
+ - Explain what the `async` keyword does.
+ - Explain what the `await` keyword does.
+ - Explain what an `async` function returns.
+ - Explain what happens when an error is thrown inside an `async` function.
+ - Explain how you can handle errors inside an `async` function.
 
 ### The async keyword
 
