@@ -3,8 +3,9 @@ Tracking down and fixing both errors and unexpected behavior in your code is an 
 
 In this lesson, we'll cover all of the main techniques you can use to debug your code when you run into a problem.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
  - Describe what a stack trace is.
  - Explain how you can use a stack trace to debug your code.
