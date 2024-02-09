@@ -2,11 +2,11 @@
 
 It's time to dive into the exciting world of CSS transitions and give your HTML elements some slick transformations! 
 
-### Learning outcomes
+### Lesson overview
 
-* What a CSS transition is and when to use it
-* Know what CSS properties are animatable and which ones are not
-* How to make sure your transitions are smooth and performant
+- What a CSS transition is and when to use it
+- Know what CSS properties are animatable and which ones are not
+- How to make sure your transitions are smooth and performant
 
 ### Transitions
 
