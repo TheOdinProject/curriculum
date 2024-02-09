@@ -6,9 +6,9 @@ Throughout the lessons, we've learned how to manage state and pass data/props ar
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Using the Context API to pass state and data deep into React components
-- Real-world application of the Context API
-- Drawbacks of using the Context API
+- Using the Context API to pass state and data deep into React components.
+- Real-world application of the Context API.
+- Drawbacks of using the Context API.
 
 ### Why do we need Context API
 
