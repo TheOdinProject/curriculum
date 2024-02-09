@@ -4,7 +4,7 @@ Now that you are equipped with the necessary knowledge to make your websites mor
 
 ### Learning outcomes
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
 * Open the accessibility section within your browser's DevTools.
 * Audit a web page with a third-party auditing tool.
