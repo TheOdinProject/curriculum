@@ -218,7 +218,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [good mention of why JS bundling is still a valid option by David Heinemeier Hansson](https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755).
 - [high level look over jsbundling-rails versus webpacker if your interested in the differences](https://github.com/rails/jsbundling-rails/blob/main/docs/comparison_with_webpacker.md).
