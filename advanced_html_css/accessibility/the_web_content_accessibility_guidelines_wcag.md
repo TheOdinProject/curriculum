@@ -6,7 +6,7 @@ Another source, one that goes over many different ways to help make websites mor
 
 ### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain the purpose of the Web Content Accessibility Guidelines.
 - Name the 4 principles of the WCAG.
