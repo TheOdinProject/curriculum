@@ -2,7 +2,7 @@
 
 You may remember testing from the Ruby section and the emphasis on the importance of testing. Similar to that section, testing in Ruby on Rails is important to ensure your application is stable and to catch bugs before you expand your application even more! The first kind of testing that we will cover will be unit tests.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
