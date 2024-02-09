@@ -4,7 +4,7 @@ Although adding color to a page can make it more visually appealing, using the w
 
 ### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Understand what a contrast ratio is.
 - Know how to check contrast ratios.
