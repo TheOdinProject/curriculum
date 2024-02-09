@@ -6,10 +6,10 @@ Some users aren't able to use a mouse to navigate or operate their computer, and
 
 By the end of this lesson, you should be able to:
 
-* Know the two things that interactive elements must have for keyboard users.
-* Understand what focus styles are and why you shouldn't completely remove them.
-* Understand what the tab order is.
-* Know how to properly hide hidden content from assistive technologies.
+- Know the two things that interactive elements must have for keyboard users.
+- Understand what focus styles are and why you shouldn't completely remove them.
+- Understand what the tab order is.
+- Know how to properly hide hidden content from assistive technologies.
 
 ### Focus
 
@@ -96,14 +96,14 @@ One way to prevent this frustrating behavior is to give each individual item in 
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* [What are two things that interactive elements must have for keyboard users?](#interative-elements-keyboard)
-* [What are focus styles?](#focus-styles)
-* [Why should you never completely remove focus styles from an element?](#focus-never-remove)
-* [What is the tab order?](#tab-order)
-* [What is the best way to hide hidden content from assistive technologies?](#best-way-hide-content)
+- [What are two things that interactive elements must have for keyboard users?](#interative-elements-keyboard)
+- [What are focus styles?](#focus-styles)
+- [Why should you never completely remove focus styles from an element?](#focus-never-remove)
+- [What is the tab order?](#tab-order)
+- [What is the best way to hide hidden content from assistive technologies?](#best-way-hide-content)
 
 ### Additional resources
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-* [Skip Links](https://webaim.org/techniques/skipnav/) are another form of accessibility for keyboard users and can be especially helpful for those who require more effort to tab through the contents of a page.
+- [Skip Links](https://webaim.org/techniques/skipnav/) are another form of accessibility for keyboard users and can be especially helpful for those who require more effort to tab through the contents of a page.
