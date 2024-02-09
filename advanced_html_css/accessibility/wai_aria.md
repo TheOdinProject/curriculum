@@ -2,15 +2,16 @@
 
 In the previous lessons, you learned several ways to make websites more accessible. Those lessons, however, were just the tip of the accessible iceberg. WAI-ARIA introduces attributes that can help make websites even more accessible by modifying the semantics and context of elements, which can give you greater control over how those elements are perceived by assistive technologies. Because this subject can get so complicated, we're only going to cover two attributes that you can get *a lot* of use from.
 
-### Learning outcomes
+### Lesson overview
+
 By the end of this lesson, you should be able to:
 
-* Know the purpose of WAI-ARIA.
-* Know what ARIA can't do.
-* Understand the five rules of ARIA use.
-* Understand what the accessibility tree is.
-* Understand the three ARIA attributes that can add labels to elements.
-* Understand what the `aria-hidden` attribute does.
+- Know the purpose of WAI-ARIA.
+- Know what ARIA can't do.
+- Understand the five rules of ARIA use.
+- Understand what the accessibility tree is.
+- Understand the three ARIA attributes that can add labels to elements.
+- Understand what the `aria-hidden` attribute does.
 
 ### What is WAI-ARIA?
 
