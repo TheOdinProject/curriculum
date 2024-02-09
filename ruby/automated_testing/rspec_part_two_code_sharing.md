@@ -4,7 +4,9 @@ In this lesson we will be exploring some of the tools RSpec provides for sharing
 
 We will once again be working from the `odin_rspec` project we set up in the previous lesson. To get the most out this lesson, please follow along with all the examples.
 
-### Learning Outcomes
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - What is a before hook and what phase of a test should you use it for?
 - What is an after hook and phase of a test should you use it for?
