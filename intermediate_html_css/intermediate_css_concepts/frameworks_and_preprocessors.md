@@ -6,9 +6,9 @@ A useful reason to be aware about CSS frameworks and preprocessors is that they 
 
 You should be aware that at this point in your learning, it is advised to continue using vanilla CSS in your projects. All of these frameworks and preprocessors are based around CSS and so developing strong fundamentals makes it significantly easier to learn and switch between any framework or preprocessor in the future. Trying to learn one during this course will not be as productive or valuable in the long run as simply improving your fundamental CSS skills.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Know what a CSS framework is.
 - Know some of the available frameworks.
