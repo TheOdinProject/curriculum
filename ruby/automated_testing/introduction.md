@@ -50,9 +50,3 @@ But the benefits a well-tested project affords you far outweigh these costs and 
 For some extra incentive, automated tests have become an industry standard. Being able to write them will be a requirement for almost all the jobs you will apply for. Therefore it's also important to learn how to write them to improve your prospects with getting hired as a developer.
 
 Now that you know the why behind testing, the next few lessons will focus on the how. You will learn how to write tests using a testing framework called RSpec and how to use RSpec to write both unit and end-to-test (E2E) tests. Finally, we will explore test driven development, which is a workflow where you write tests first and use them to drive the design of your code.
-
-### Additional resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
