@@ -6,11 +6,11 @@ One significant benefit of your network is that it might help you land your firs
 
 ### Lesson overview
 
-This lesson covers the following topics:
+This section contains a general overview of topics that you will learn in this lesson.
 
-*   What a professional network is
-*   How a professional network might benefit you
-*   Strategies and actions to consider when building and maintaining your professional network
+-   What a professional network is.
+-   How a professional network might benefit you.
+-   Strategies and actions to consider when building and maintaining your professional network.
 
 ### What is a professional network?
 
