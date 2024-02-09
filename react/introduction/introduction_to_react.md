@@ -6,7 +6,7 @@ This lesson will provide you with information on what React is, its brief histor
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand what is React
+- Understand what is React.
 
 ### What is React?
 
