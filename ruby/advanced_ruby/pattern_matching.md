@@ -672,7 +672,7 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 </div>
 
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.2/syntax/pattern_matching_rdoc.html">What is pattern matching?</a>
 - <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.2/syntax/pattern_matching_rdoc.html#label-Patterns">What is the difference between array patterns and hash patterns?</a>
