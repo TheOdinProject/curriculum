@@ -8,9 +8,11 @@ RSpec's popularity is largely owed to its rich, expressive syntax which makes wr
 
 This lesson is designed to be a guide through all the basic RSpec features you will need to know to get started writing your own automated tests. To get the most out this lesson, please follow along with all the examples.
 
-### Learning Outcomes
+### Lesson overview
 
-- How to install RSpec
+This section contains a general overview of topics that you will learn in this lesson.
+
+- How to install RSpec.
 - What is an example group and how do you define one?
 - What is an `it` block for?
 - What is an expectation?
