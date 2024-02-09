@@ -72,13 +72,13 @@ The tab order is the order in which elements on the page will receive focus when
 <div tabindex='0'>This is the second element listed in the HTML.</div>
 ```
 
-Sometimes you may find it necessary to either change the visual order of elements on a page using CSS (the `float` or `order` properties, for example), or the tab order of elements themselves using the `tabindex` attribute. Regardless of which method you may use, you should make sure the tab order matches the visual order of elements. If the tab order is different from the visual order, users could be left confused or frustrated trying to navigate the page with a keyboard, expecting one element to receive focus based on the visual layout and instead another element receives focus. 
+Sometimes you may find it necessary to either change the visual order of elements on a page using CSS (the `float` or `order` properties, for example), or the tab order of elements themselves using the `tabindex` attribute. Regardless of which method you may use, you should make sure the tab order matches the visual order of elements. If the tab order is different from the visual order, users could be left confused or frustrated trying to navigate the page with a keyboard, expecting one element to receive focus based on the visual layout and instead another element receives focus.
 
 The best way to avoid this issue is to just place elements in your HTML file in the order that you want them to actually receive focus.
 
 ### Hidden content
 
-Sometimes you may want to hide some content until a specific event occurs, such as a user clicking on a button to open a menu or a modal box. When you want to hide content for this sort of purpose, you need to make sure the content is not only visually hidden, but also hidden from assistive technologies until that content is meant to be visible. 
+Sometimes you may want to hide some content until a specific event occurs, such as a user clicking on a button to open a menu or a modal box. When you want to hide content for this sort of purpose, you need to make sure the content is not only visually hidden, but also hidden from assistive technologies until that content is meant to be visible.
 
 If you don't properly hide such content, then keyboard users would be able to tab into that content before they're meant to, but in doing so they would lose track of any visual focus on the page. These users would be left confused or even frustrated when they're trying to tab through a page, only for their focus indicator to disappear into that hidden content.
 
