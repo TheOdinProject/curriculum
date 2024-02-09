@@ -3,9 +3,9 @@ Unit Testing is important for many reasons that we probably don't need to cover 
 
 If you haven't finished our [front-end JavaScript course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript), go back and take a look at those lessons before progressing.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do or answer the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Use the `supertest` module to test Express routes/controllers.
 - Describe how SuperTest handles our express application.
