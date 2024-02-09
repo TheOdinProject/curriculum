@@ -6,10 +6,10 @@ Congratulations on making it to one of the last lessons in Foundations! By this 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Creating objects.
-* Accessing object properties.
-* Being able to use multiple object operators.
-* Being able to use some powerful array functions.
+- Creating objects.
+- Accessing object properties.
+- Being able to use multiple object operators.
+- Being able to use some powerful array functions.
 
 ### Objects
 
