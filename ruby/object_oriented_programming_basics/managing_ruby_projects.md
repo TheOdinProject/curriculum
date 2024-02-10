@@ -19,7 +19,13 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Confusion, convention, convenience
 
-Recall how you've worked with the projects in Foundations: the HTML, CSS and JS all lived in separate files, becoming "one" thanks to linking CSS and JS in the HTML file(s). Being able to divide the type of work across multiple files hopefully organized your work better and prevented confusion. Moving forward you can imagine that your files are only going to get longer and more plentiful in number. Thus, having some kind of structure becomes necessary. Additionally, you might've already realized how useful git tracking changes per-file together with GitHub is by making it a lot easier to track down a bug if you know that your last commit only affected your JS file.
+Recall how the projects you worked on in Foundations were structured. The HTML, CSS and JS all lived in separate files and appeared to be "one" in the browser thanks to linking CSS and JS in the HTML file(s).
+
+Organizing your projects into different files has many practical benefits. Chief among them is making your code more modular, making it easier to adjust and understand the code as it gets more complex.
+
+Remember that old saying about how to keep your physical environment organized - "A place for everything and everything in its place". The same principle applies to software projects. 
+
+For Ruby projects, the rule of thumb is one class per file. Every time you create a new class, you should create a new file for it to live in.
 
 Now, it'd be nice to be able to also divide your Ruby work across multiple files since you're about to set out onto the more complicated OOP projects, where many distinct parts are going to work in unison. Not only is that possible, there are also some conventions around Ruby project structure that aim at making it easier for you and others to work with and navigate your project.
 
