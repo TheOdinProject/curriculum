@@ -62,15 +62,15 @@ The `aria-label` attribute overrides any native label of an element and modifies
 
 A common use for `aria-label` can be found in the "close" buttons of menus or modals:
 
-~~~html
+```html
 <button type='button' aria-label='Close menu'>X</button>
-~~~
+```
 
 Instead of a screen reader announcing, "X, button", which makes little sense to the user, it would announce, "Close menu, button". Another way you could use `aria-label` is on landmark elements (our [Semantic HTML](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-semantic-html) lesson gets another shoutout... again!):
 
-~~~html
+```html
 <nav aria-label='main navigation'>...</nav>
-~~~
+```
 
 Once a screen reader reaches the above HTML, it would announce "Main navigation, navigation landmark". If you had multiple navigation elements on a page, you could give each a different `aria-label` value in order to separate them from one another, making them more understandable for screen reader users. Pretty neat, huh?
 
@@ -82,13 +82,13 @@ The `aria-labelledby` attribute overrides both the native label and the `aria-la
 
 The great thing about `aria-labelledby` is that not only can you pass in any number of `id` references, but you can also have an element reference itself. Keep in mind that you can't pass in the same reference multiple times, because any subsequent references after the first will be ignored.
 
-~~~html
+```html
 <!-- Here's the labelling element -->
 <h2 id='label'>Shirts</h2>
 
 <!-- And here's the labelled element. Note the order of the ID references passed in -->
 <button type='button' id='shop-btn' aria-labelledby='label shop-btn'>Shop Now</button>
-~~~
+```
 
 The HTML above would be announced by a screen reader as, "Shirts, shop now, button". This can make multiple "shop now" buttons on a page unique from one another and thus provide additional context, making the page more understandable.
 
@@ -96,7 +96,7 @@ Another great thing about `aria-labelledby` is that even if a labeling element i
 
 Although it may work somewhat similarly to the native `<label>` element, `aria-labelledby` does not have the same event handling by default. This is functionality you would have to add in yourself via JavaScript.
 
-~~~html
+```html
 <!-- Clicking the <label> element gives focus to the input element -->
 <label for='name'>Name:</label>
 <input id='name' type='text' />
@@ -104,20 +104,20 @@ Although it may work somewhat similarly to the native `<label>` element, `aria-l
 <!-- Clicking the <div> element won't give focus to the input element -->
 <div id='label'>Name:</div>
 <input type='text' aria-labelledby='label' />
-~~~
+```
 
 #### `aria-describedby`
 
 The `aria-describedby` attribute modifies the description property in the accessibility tree. Similar to the `aria-labelledby` attribute, when you use this attribute you pass in the `id` values of other elements as the `aria-describedby` value, and the elements whose `id` value are passed in can also be visually hidden.
 
-~~~html
+```html
 <label>Password:
   <input type='password' aria-describedby='password-requirements' />
 </label>
 
 <!-- Meaningful text + ARIA! -->
 <span id='password-requirements'>Password must be at least 10 characters long.</span>
-~~~
+```
 
 When the `<input>` element receives focus, a screen reader would announce, "Password, edit protected, password must be at least ten characters long." This immediately notifies a screen reader user of any requirements for the password they want to choose, any time the input receives focus.
 
@@ -125,7 +125,7 @@ When the `<input>` element receives focus, a screen reader would announce, "Pass
 
 Similar to how you can visually hide elements with the `hidden` HTML attribute or the `display` and `visibility` CSS properties, you can use the `aria-hidden` attribute to hide certain elements, such as decorative images and icons, from the accessibility tree. The difference with `aria-hidden`, however, is that the element will remain visible to sighted users. This can be especially useful when you want to add an icon inside of another element. For example, if we were to use Material Icons inside of a button:
 
-~~~html
+```html
 <!-- Example 1 -->
 <button type='button'>
   <span class='material-icons'>add</span>
@@ -137,7 +137,7 @@ Similar to how you can visually hide elements with the `hidden` HTML attribute o
   <span class='material-icons' aria-hidden='true'>add</span>
   Add Book
 </button>
-~~~
+```
 
 While both of the above examples would look visually identical, the button in Example 1 would be announced by a screen reader as, "Add add book, button". The text content of the `<span>` and the text content of the button itself are concatenated as the accessible name of the button. The button in Example 2, however, hides the `<span>` from the accessibility tree so its text content *isn't* added to the button's accessible name, meaning a screen reader would correctly announce "Add book, button".
 
