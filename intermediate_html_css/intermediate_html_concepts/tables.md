@@ -45,4 +45,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--   Pencil & Paper published a great [article about things you can achieve with tables](https://pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables) if you dare to spend some time giving them some love. They suggest some good habits on how you should format your data which is pretty simple and makes a huge difference. These are not a list of must dos to a table, but ideas worth keeping in mind for the next time a table is bothering you with how it looks. 
+-   Pencil & Paper published a great [article about things you can achieve with tables](https://pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables) if you dare to spend some time giving them some love. They suggest some good habits on how you should format your data which makes a huge difference. These are not a list of must dos to a table, but ideas worth keeping in mind for the next time a table is bothering you with how it looks. 
