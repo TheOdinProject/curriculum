@@ -23,11 +23,9 @@ Recall how the projects you worked on in Foundations were structured. The HTML, 
 
 Organizing your projects into different files has many practical benefits. Chief among them is making your code more modular, making it easier to adjust and understand the code as it gets more complex.
 
-Remember that old saying about how to keep your physical environment organized - "A place for everything and everything in its place". The same principle applies to software projects. 
+Remember that old saying about how to keep your physical environment organized - "A place for everything and everything in its place". The same principle applies to software projects.
 
 For Ruby projects, the rule of thumb is one class per file. Every time you create a new class, you should create a new file for it to live in.
-
-Now, it'd be nice to be able to also divide your Ruby work across multiple files since you're about to set out onto the more complicated OOP projects, where many distinct parts are going to work in unison. Not only is that possible, there are also some conventions around Ruby project structure that aim at making it easier for you and others to work with and navigate your project.
 
 ### Making use of multiple files
 
