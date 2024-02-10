@@ -25,23 +25,111 @@ Now, it'd be nice to be able to also divide your Ruby work across multiple files
 
 ### Making use of multiple files
 
-If you are to split your code across multiple files, you first will need to know how to make sure code from one file can be used in another file. There are two main ways to do that:
+If you are to split your code across multiple files, you first will need to know how to make sure code from one file can be used in another file.
+Let's consider this file structure:
 
-- `require_relative` which takes in a string of a relative path, like `require_relative 'lib/bogo_sort'`, is going to look for `lib/bogo_sort.rb` relative to the location of the current file.
-- `require` is trickier - there are two ways of using it: one is providing a relative path which is recognized by using `../` or `./` at the start or an absolute path. This works like `require_relative`. Another way is by providing a file name without the extension, like `require 'csv'` is going to look for a `csv.rb` in the Ruby's `$LOAD_PATH` global variable which by default contains the Ruby standard library. There are other file extensions it might look for, but this is not important at this point. In addition to that, if it doesn't find that file in `$LOAD_PATH` it is going to look through installed gems (more on those later) to see if the file is there.
+```bash
+├── lib
+│   ├── sort
+│   │   ├── bogo_sort.rb
+│   │   ├── bubble_sort.rb
+│   │   └── merge_sort.rb
+│   └── sort.rb
+└── main.rb
+```
 
-Both of those approaches are going to execute the file, allowing you to use their contents. If you try to require something for the second time, nothing will happen, and the requires will return `false`.
+There are two main ways to do that: `require_relative` and `require`.
 
-Convention is that `require_relative` is used for your own code, while `require` is used for things outside of it, like gems that your app depend on. Now, there's couple of things that are important to know about requiring files in Ruby.
-
-First benefit of this approach is that you don't need to hold all the code for part of your app in one file:
+#### require_relative
 
 ```rb
+# You're in the root of the project, the directory that holds main.rb
+
+# main.rb
+require_relative 'lib/sort'
+
+# sort.rb
+require_relative 'sort/bubble_sort'
+require_relative 'sort/bogo_sort'
+require_relative 'sort/merge_sort'
+
+```
+
+Let's start with how the docs define its functionality:
+
+> require_relative(string) → true or false
+  Ruby tries to load the library named `string` relative to the directory containing the requiring file. If the file does not exist a `LoadError` is raised. Returns `true` if the file was loaded and `false` if the file was already loaded before.
+
+The important part here is *relative to the directory containing the requiring file*. This means that no matter where you execute the code from, `require_relative` looks for the file specified from the point of view of the file it has been written in. So `main.rb` is simply going to `lib` to find `sort` (the .rb is implicit), and `sort.rb` is going to `sort` to find those three different sorts. Simple enough, isn't it?
+
+#### require
+
+`require` is trickier. Let's grab *some* of the docs here:
+> If the  feature is an  absolute path (e.g.  starts with `'/'`),  the feature
+  will  be loaded  directly using  the absolute  path.  If  the feature  is an
+  explicit relative  path (e.g.  starts with `'./'`  or `'../'`),  the feature
+  will  be  loaded  using  the  relative  path  from  the  current  directory.
+  Otherwise,  the feature  will be  searched  for in  the library  directories
+  listed in the `$LOAD_PATH`.
+
+The absolute path bit seems self-explanatory. When you use a relative path the difference between using a relative path with `require` and doing `require_relative` is that `require`'s relative paths are resolved from the point of view of the directory you are running your code from. Let's change our example:
+
+```rb
+# You're in the root of the project, the directory that holds main.rb
+
+# main.rb
+require 'lib/sort'
+
+# sort.rb
+require 'sort/bubble_sort'
+require 'sort/bogo_sort'
+require 'sort/merge_sort'
+
+```
+
+Ah. Of course - an error - it can't find `lib/sort`! Those are not relative paths... Fancy schmancy `require_relative` and its implicitly assuming the paths are relative!
+
+```rb
+# You're in the root of the project, the directory that holds main.rb
+
+# main.rb
+require './lib/sort'
+
+# sort.rb
+require './sort/bubble_sort'
+require './sort/bogo_sort'
+require './sort/merge_sort'
+```
+
+Now it says it can't find `./sort/bubble_sort`! This is because it is not looking for it from the point of view of `sort.rb` but from the point of view of `main.rb`.
+
+What about the `$LOAD_PATH` part?
+
+```rb
+# You're in the root of the project, the directory that holds main.rb
+
+# main.rb
+require 'csv'
+
+require_relative 'lib/sort'
+```
+
+`require 'csv'` is going to look for a `csv.rb` in the Ruby's `$LOAD_PATH` global variable which by default contains the Ruby standard library. There are other file extensions it might look for, but this is not important at this point - just remember that the `require`s look for some extensions like `.rb` without the need to declare them explicitly. In addition to that, if it doesn't find that file in `$LOAD_PATH` it is going to look through installed gems (more on those later) to see if the file is there.
+
+Both of those approaches (`require` and `require_relative`) are going to execute the file, allowing you to use their contents. If you try to require something for the second time, nothing will happen, and the requires will return `false`.
+
+Convention is that `require_relative` is used for your own code, while `require` is used for things outside of it, like gems that your app depend on.
+
+Benefit of this approach is that you don't need to hold all the code for part of your app in one file:
+
+```rb
+# You're in the root of the project, the directory that holds main.rb
+
 # This is your file structure:
 ├── lib
-│    │--- flight.rb
-│    │---  hotel.rb
-│    └─ airport.rb
+│    ├── flight.rb
+│    ├── hotel.rb
+│    └── airport.rb
 └── main.rb
 
 # lib/airport.rb
@@ -80,11 +168,11 @@ Hotel.new.introduce
 #=> I'm at the hotel!
 ```
 
-So instead of defining both the `Flight` and `Hotel` classes inside `airport.rb`, we can do that in separate files. It is customary to require all the files in your topmost file, like `main.rb` here. This allows everyone to just do `require_relative 'main.rb'` and they get the entirety of your code where they need it.
+So instead of defining both the `Flight` and `Hotel` classes inside `airport.rb`, we can do that in separate files. It is customary to require all the files in your topmost file, like `main.rb` here. This allows everyone to just get hold of `main.rb` and they get the entirety of your code where they need it. Depending on their needs, they would use an appropriate way of loading that file.
 
 Another thing to keep in mind is that local variables do not get loaded, so if your `airport.rb` had a local variable `coolest_airports`, trying to access it in `main.rb` would raise an error. Constants do get loaded however, so you can access those.
 
-<span id="namespace">Second advantage is that all required code is put into the same namespace. This means that if you have the same names for methods, modules, classes and so on they will be added together in order they were required.</span> For example, let's say you and your friend have used the same method name and you're trying to use their code and yours:
+<span id="namespace">Something important to keep in mind is that all required code is put into the same namespace. This means that if you have the same names for methods, modules, classes and so on they will be added together in order they were required.</span> For example, let's say you and your friend have used the same method name and you're trying to use their code and yours:
 
 ```rb
 # all files are in the same directory for simplicity's sake
