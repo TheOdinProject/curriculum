@@ -190,11 +190,6 @@ You should have a good sense of what's going on in the routes file by now but pr
 2. Watch this [Wonderful explanation of how REST and HTTP works](https://www.youtube.com/watch?v=Q-BpqyOT3a8). You can follow the tutorial using `curl https://api.github.com`.
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Medium article](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5) on Rails routing. It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest.
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -204,3 +199,9 @@ This section contains questions for you to check your understanding of this less
 * [How can you assign all of the RESTful routes for a resource - excluding the destroy-route - in just one line?](https://guides.rubyonrails.org/routing.html#restricting-the-routes-created)
 * [How would you create a link in your app (without hardcoding), that directs you to `/photos/10/edit`?](https://guides.rubyonrails.org/routing.html#path-and-url-helpers)
 * [Which Chrome extension can you use to simulate HTTP-requests with an API?](https://youtu.be/Q-BpqyOT3a8?t=886)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Medium article](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5) on Rails routing. It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest.
