@@ -1,6 +1,6 @@
 ### Introduction
 
-You may have been wondering how programmers structure their projects. Do they just put their entire code in a single file? If they don't, how can they use code across multiple files? Are there agreed-upon rules? Common patterns? What is the Ruby way of doing things? 
+You may have been wondering how programmers structure their projects. Do they just put their entire code in a single file? If they don't, how can they use code across multiple files? Are there agreed-upon rules? Common patterns? What is the Ruby way of doing things?
 
 In this lesson, we will show you how to structure your Ruby projects to keep them manageable and to help you and others easily navigate the code you've written.
 
@@ -32,61 +32,11 @@ If you are to split your code across multiple files, you first will need to know
 
 Both of those approaches are going to execute the file, allowing you to use their contents. If you try to require something for the second time, nothing will happen, and the requires will return `false`.
 
-Convention is that `require_relative` is used for your own code, while `require` is used for things outside of it, like gems that your app depend on. Now, there's couple of things that are important to know about requiring files in Ruby. <span id="namespace">First is that all required code is put into the same namespace. This means that if you have the same names for methods, modules, classes and so on they will be added together in order they were required.</span> For example:
+Convention is that `require_relative` is used for your own code, while `require` is used for things outside of it, like gems that your app depend on. Now, there's couple of things that are important to know about requiring files in Ruby.
+
+First benefit of this approach is that you don't need to hold all the code for part of your app in one file:
 
 ```rb
-# all files are in the same directory for simplicity's sake
-
-# foo.rb
-def foo(bar)
-  `#{bar} is awesome!`
-end
-
-# footoo.rb
-def foo(bar)
-  `#{bar} is awful!`
-end
-
-# my_cool_project.rb
-require_relative 'foo'
-require_relative 'footoo'
-
-puts foo('Cereal')
-#=> Cereal is awful!
-# Since foo is defined twice, the last definition wins out.
-```
-
-To make sure code doesn't get overwritten, Rubyists wrap their code in modules which give them the benefits of a namespace:
-
-```rb
-# all files are in the same directory for simplicity's sake
-
-# foo.rb
-module Foo
-  def self.foo(bar)
-    `#{bar} is awesome!`
-  end
-end
-# footoo.rb
-module Footoo
-  def self.foo(bar)
-    `#{bar} is awful!`
-  end
-end
-# my_cool_project.rb
-require_relative 'foo'
-require_relative 'footoo'
-
-puts Foo.foo('Cereal')
-#=> Cereal is awesome!
-puts Footoo.foo('Marmite')
-#=> Marmite is awful!
-puts foo('Cereal')
-#=> Errors out - there's no longer a free floating foo method to use.
-```
-
-Another benefit of this approach is that you don't need to hold all the code for part of your app in one file:
-
 # This is your file structure:
 ├── lib
 │    │--- flight.rb
@@ -128,67 +78,72 @@ Flight.new.introduce
 
 Hotel.new.introduce
 #=> I'm at the hotel!
+```
 
 So instead of defining both the `Flight` and `Hotel` classes inside `airport.rb`, we can do that in separate files. It is customary to require all the files in your topmost file, like `main.rb` here. This allows everyone to just do `require_relative 'main.rb'` and they get the entirety of your code where they need it.
-# This is your file structure:
-├── lib
-│    ├── foo
-│    │    ├── bar.rb
-│    │    └── baz.rb
-│    └─ foo.rb
-└── main.rb
 
-# lib/foo.rb
-require_relative 'lib/foo'
-require_relative 'lib/foo/bar'
-require_relative 'lib/foo/baz'
+Another thing to keep in mind is that local variables do not get loaded, so if your `airport.rb` had a local variable `coolest_airports`, trying to access it in `main.rb` would raise an error. Constants do get loaded however, so you can access those.
 
-module Foo
-  def self.introduce
-    puts "I'm an awesome Foo module!"
-  end
+<span id="namespace">Second advantage is that all required code is put into the same namespace. This means that if you have the same names for methods, modules, classes and so on they will be added together in order they were required.</span> For example, let's say you and your friend have used the same method name and you're trying to use their code and yours:
+
+```rb
+# all files are in the same directory for simplicity's sake
+
+# not_so_green.rb
+def food_opinion(food)
+  `#{food} is awesome!`
 end
 
-# lib/foo/bar.rb
-module Foo
-  module Bar
-    def self.introduce
-      puts "I'm an awesome Foo::Bar module!"
-    end
-  end
-end
-
-# lib/foo/baz.rb
-module Foo
-  module Baz
-    def self.introduce
-      puts "I'm an awesome Foo::Baz module!"
-    end
-  end
+# scheals.rb
+def food_opinion(food)
+  `#{food} is awful!`
 end
 
 # main.rb
-require_relative 'lib/foo'
+require_relative 'not_so_green'
+require_relative 'scheals'
 
-Foo.introduce
-#=> I'm an awesome Foo module!
-Foo::Bar.introduce
-#=> I'm an awesome Foo::Bar module!
-Foo::Baz.introduce
-#=> I'm an awesome Foo::Baz module!
+puts food_opinion('Cereal')
+#=> Cereal is awful!
+# Since food_opinion is defined twice, the last definition wins out.
 ```
 
-So instead of defining both `module Bar` and `module Baz` inside `foo.rb`, we can do that in separate files and in the end, those two files will make it so our `module Foo` has them for us to use. Note that things that are part of `Foo` are put into a directory matching its name - this is intentional and is supposed to help you figure out the structure of the app. To make it easier to work with your code, it is customary to require all the files in your topmost file, like `foo.rb` here. This allows everyone to just do `require_relative 'foo.rb'` and they get the entirety of your code where they need it.
+To make sure code doesn't get overwritten, Rubyists wrap their code in modules which give them the benefits of a namespace:
 
-Another thing to keep in mind is that local variables do not get loaded, so if your `foo.rb` had a local variable `my_favourite_food`, trying to access it in `main.rb` would raise an error. Constants do get loaded however, so you can access those.
+```rb
+# all files are in the same directory for simplicity's sake
+
+# not_so_green.rb
+module NotSoGreen
+  def self.food_opinion(food)
+    `#{food} is awesome!`
+  end
+end
+# scheals.rb
+module Scheals
+  def self.food_opinion(food)
+    `#{food} is awful!`
+  end
+end
+# main.rb
+require_relative 'not_so_green'
+require_relative 'scheals'
+
+puts NotSoGreen.food_opinion('Cereal')
+#=> Cereal is awesome!
+puts Scheals.food_opinion('Marmite')
+#=> Marmite is awful!
+puts food_opinion('Cereal')
+#=> Errors out - there's no longer a free floating foo method to use.
+```
 
 ### Gems and you
 
-Now that you know how to work with your own files, it is time to learn how to work with the files of others. 
+Now that you know how to work with your own files, it is time to learn how to work with the files of others.
 
-Gems are packages containing Ruby utility libraries that someone wrote - basically, some code. Some of those gems are part of the Ruby standard library, but most require installing independently. 
+Gems are packages containing Ruby utility libraries that someone wrote - basically, some code. Some of those gems are part of the Ruby standard library, but most require installing independently.
 
-If you use a gem then you call such a gem a dependency - your code depends on that gem to function properly. Some dependencies are only used in particular contexts; for example, you can have a set of gems used only in a development or test environment. 
+If you use a gem then you call such a gem a dependency - your code depends on that gem to function properly. Some dependencies are only used in particular contexts; for example, you can have a set of gems used only in a development or test environment.
 
 Many gems depend upon other gems, and sometimes, the versions they depend on differ. You *could* manage gems and their dependencies on your own, going through the process of installing, updating them and resolving whatever conflicts might arise, but Rubyists have tools for that!
 
@@ -208,11 +163,11 @@ puts "It ain't easy bein' green...".colorize(:green)
 
 You're probably itching to see all those colours, so run your file with `ruby foo.rb` to see them... or rather, a LoadError. Right - you need to <span id="install-gem">install that gem first!</span> Do that with `gem install colorize` and you'll see RubyGems in action. Your system now has access to the `Colorize` gem!
 
-Wait, *your system* - what about others who would like to use your code? Yeah, they would also need to `gem install` it - no big deal. 
+Wait, *your system* - what about others who would like to use your code? Yeah, they would also need to `gem install` it - no big deal.
 
-But what if you have dozens of gems? How do you ensure that the versions you use are the same version others download? This sounds rather tedious. Enter: Bundler. It's another gem, part of RubyGems, but released independently. 
+But what if you have dozens of gems? How do you ensure that the versions you use are the same version others download? This sounds rather tedious. Enter: Bundler. It's another gem, part of RubyGems, but released independently.
 
-<span id="bundler">Bundler allows you to declare what gems your project needs - down to their version.</span> As for others, Bundler allows them to take that declaration, a simple file called `Gemfile`, and use it to install those gems in a quick `bundle install`. 
+<span id="bundler">Bundler allows you to declare what gems your project needs - down to their version.</span> As for others, Bundler allows them to take that declaration, a simple file called `Gemfile`, and use it to install those gems in a quick `bundle install`.
 
 Since gem installs are global, <span id="bundle-exec">you need a way to run only those particular gem versions that are declared in the `Gemfile`.</span> You can do that by using `bundle exec` followed by a command you want to execute - most likely `bundle exec ruby foo.rb`.
 
@@ -253,7 +208,7 @@ BUNDLED WITH
    2.5.4
 ```
 
-<span id="gemfile">There's not much in those, but as you can see,</span> the `Gemfile` has information on where to get the gems from and what gems are required. 
+<span id="gemfile">There's not much in those, but as you can see,</span> the `Gemfile` has information on where to get the gems from and what gems are required.
 
 The `"~> 1.1"` is a version constraint, particularly a pessimistic constraint. It relies on semantic versioning.
 
@@ -261,7 +216,7 @@ The `"~> 1.1"` is a version constraint, particularly a pessimistic constraint. I
 - The second is the **minor** version
 - the third, if it exists, is the **patch** number
 
-Major versions can break things from previous versions - for example, changing method names. Minor versions can add and change things but can't break anything. Patches happen when you introduce bug fixes that don't break anything. 
+Major versions can break things from previous versions - for example, changing method names. Minor versions can add and change things but can't break anything. Patches happen when you introduce bug fixes that don't break anything.
 
 So, if people behind a gem maintain it in line with semantic versioning, you can rely on this pessimistic constraint never letting your project have a gem version that could potentially break your app - it is equivalent to `gem "colorize", ">= 1.1", "<2.0"`.
 
@@ -275,7 +230,7 @@ Many other tools recognize this to figure out what Ruby version your project is 
 
 ### Ruby LSP in VSCode
 
-Earlier in the curriculum, you were instructed to choose the `Don't show again` option when `Ruby LSP` told you about not finding a lock file - you might've also seen errors concerning `RuboCop`. In the next lesson, we will review `RuboCop` and how it should land in your project's `Gemfile`. 
+Earlier in the curriculum, you were instructed to choose the `Don't show again` option when `Ruby LSP` told you about not finding a lock file - you might've also seen errors concerning `RuboCop`. In the next lesson, we will review `RuboCop` and how it should land in your project's `Gemfile`.
 
 After that, you will enjoy all the benefits of using `Ruby LSP` and its `RuboCop` integration, and your projects will be set up like a real pro.
 
