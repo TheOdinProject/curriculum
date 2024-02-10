@@ -129,9 +129,9 @@ Line height adjusts the space between lines in wrapped text. Adding a little lin
 
 #### text-transform
 
-Text transform simply changes the case of the given text. You can use this, for example, to force your heading tags to be all uppercase, or to capitalize every word.
+Text transform changes the case of the given text. You can use this, for example, to force your heading tags to be all uppercase, or to capitalize every word.
 
-Usage is simple, and can be seen in the clear example on these [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform).
+Usage can be seen in the clear example on these [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform).
 
 #### text-shadow
 
@@ -141,7 +141,7 @@ The examples on the [MDN reference page for text-shadow](https://developer.mozil
 
 #### ellipsis
 
-This one isn't a single property, but it's a useful trick to keep in your toolbox. With the `text-overflow` property, you can truncate overflowing text with an ellipsis. Making an overflow happen, however, requires the use of a couple other properties because the default behavior of text simply printing outside its container isn't technically considered an `overflow` (that's confusing, we know.  Sorry.)
+This one isn't a single property, but it's a useful trick to keep in your toolbox. With the `text-overflow` property, you can truncate overflowing text with an ellipsis. Making an overflow happen, however, requires the use of a couple other properties because the default behavior of text printing outside its container isn't technically considered an `overflow` (that's confusing, we know.  Sorry.)
 
 The full snippet is:
 
