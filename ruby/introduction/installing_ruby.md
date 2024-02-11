@@ -108,7 +108,7 @@ Inside the terminal, run this command:
 rbenv install 3.2.2 --verbose
 ```
 
-This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
+This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [funny jumping goats video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
 
 You may get this error message:
 
@@ -264,7 +264,7 @@ Now we're ready to install our desired version of Ruby:
 rbenv install 3.2.2 --verbose
 ```
 
-This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
+This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [funny jumping goats video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
 
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
@@ -292,4 +292,3 @@ If you are using Visual Studio Code as your IDE, you can install the "Ruby LSP" 
 Using the extension is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby LSP", and click install on the first one. Congratulations, the extension is now installed.
 
 The most important features Ruby LSP provides will work out of the box. But it may bug you about using a monorepo setup, missing lockfiles or rubocop - you can choose "Don't show again" for now. We will introduce these later.
-You are going to get the most important features without the full configuration, nonetheless it is going to bug you about using a monorepo setup - you can choose "Don't show again" for the time being. It might also complain about not finding a lockfile or rubocop. Disregard these for now. They will be introduced later.
