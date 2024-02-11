@@ -328,15 +328,19 @@ After that, you will enjoy all the benefits of using `Ruby LSP` and its `RuboCop
 
 ### Assignment
 
+<div class="lesson-content__panel" markdown="1">
+
 1. Read [Eric Mathison's Understanding require and Friends in Ruby](https://github.com/ericmathison/articles/blob/master/understaning-require-in-ruby.md).
 1. Check out the [RubyGems Basics](https://guides.rubygems.org/rubygems-basics/).
 1. Skim through [Patterns guide from RubyGems](https://guides.rubygems.org/patterns/), paying closer attention to `Semantic versioning`, `Declaring dependencies` and `Loading code`.
 1. Skim through [Bundler's Getting Started](https://bundler.io/guides/getting_started.html#what-is-bundler)and [Frequently Asked Questions](https://bundler.io/guides/faq.html).
 1. Check out [Ruby LSP VSCode extension's README](https://github.com/Shopify/vscode-ruby-lsp#ruby-lsp-vs-code-extension).
 
+</div>
+
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Why would you split your code across multiple files?](#confusion-convention-convenience)
 - [How can you make code from different files available?](#making-use-of-multiple-files)
@@ -349,7 +353,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Listen to one of Bundler's maintainers talk about managing dependencies in Ruby](https://www.youtube.com/watch?v=j2V-A8vvLP0) or alternatively, [read the talk](https://andre.arko.net/2015/04/28/how-does-bundler-work-anyway/).
 - [More on semantic versioning - perhaps conventional commits will make more sense to you now!](https://semver.org)
