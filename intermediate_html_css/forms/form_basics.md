@@ -164,7 +164,7 @@ We create a number input using the input element with a `type` attribute of "num
 <input type="number" id="amount" name="amount">
 ```
 
-To collect dates from a user, we can use a `date input`. This input is unique because it provides a better user experience for choosing dates by rendering a simple date picker calendar.
+To collect dates from a user, we can use a `date input`. This input is unique because it provides a better user experience for choosing dates by rendering a date picker calendar.
 
 To create a date input, we use the input element with a `type` attribute of "date":
 
@@ -376,7 +376,7 @@ To create a reset button, we use the button element with a `type` attribute of "
 
 **Generic button**
 
-The third and final button type is simply a generic button that can be used for anything. It's commonly used with JS for creating interactive UI's.
+The third and final button type is a generic button that can be used for anything. It's commonly used with JS for creating interactive UI's.
 
 To create a generic button, we use the button element with a `type` attribute of "button":
 
