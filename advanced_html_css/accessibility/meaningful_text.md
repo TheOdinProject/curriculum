@@ -6,9 +6,9 @@ Meaningful text is pretty straight forward: when a user reads text or has it ann
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Know how to provide meaningful links.
-* Know how to provide meaningful text in forms.
-* Know how to provide meaningful `alt` attributes for images.
+- Know how to provide meaningful links.
+- Know how to provide meaningful text in forms.
+- Know how to provide meaningful `alt` attributes for images.
 
 ### Links
 Let's take a look at two different examples of a link:
