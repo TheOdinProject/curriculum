@@ -6,10 +6,10 @@ Some users aren't able to use a mouse to navigate or operate their computer, and
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Know the two things that interactive elements must have for keyboard users.
-* Understand what focus styles are and why you shouldn't completely remove them.
-* Understand what the tab order is.
-* Know how to properly hide hidden content from assistive technologies.
+- Know the two things that interactive elements must have for keyboard users.
+- Understand what focus styles are and why you shouldn't completely remove them.
+- Understand what the tab order is.
+- Know how to properly hide hidden content from assistive technologies.
 
 ### Focus
 
