@@ -13,11 +13,9 @@ This section contains a general overview of topics that you will learn in this l
 - Explain the difference between a "nodelist" and an "array of nodes".
 - Explain what "bubbling" is and how it works.
 
-### DOM - Document Object Model
-
+### Document Object Model
 
 The DOM (or Document Object Model) is a tree-like representation of the contents of a webpage - a tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
-
 
 ```html
 <div id="container">
@@ -25,7 +23,6 @@ The DOM (or Document Object Model) is a tree-like representation of the contents
   <div class="controls"></div>
 </div>
 ```
-
 
 In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a family tree. `<div id="container"></div>`  is a **parent**, with its **children** on the next level, each on their own "branch".
 
@@ -211,7 +208,7 @@ In the JavaScript file, first we get a reference to the `container` div that alr
     THE TITLE OF YOUR WEBPAGE
   </h1>
   <div id="container">
-  	<div class="content">
+    <div class="content">
       This is the glorious text-content!
     </div>
   </div>
@@ -242,12 +239,12 @@ Copy the example above into files on your own computer.  To make it work you'll 
 
 Add the following elements to the container using ONLY JavaScript and the DOM methods shown above.
 
-1.  a `<p>` with red text that says "Hey I'm red!"
-2.  an `<h3>` with blue text that says  "I'm a blue h3!"
-3.  a `<div>` with a black border and pink background color with the following elements inside of it:
-    1.  another `<h1>` that says "I'm in a div"
-    2.  a `<p>` that says "ME TOO!"
-    3.  Hint for this one: after creating the `<div>` with createElement, append the `<h1>` and `<p>` to it before adding it to the container.
+1. a `<p>` with red text that says "Hey I'm red!"
+1. an `<h3>` with blue text that says  "I'm a blue h3!"
+1. a `<div>` with a black border and pink background color with the following elements inside of it:
+   - another `<h1>` that says "I'm in a div"
+   - a `<p>` that says "ME TOO!"
+   - Hint for this one: after creating the `<div>` with createElement, append the `<h1>` and `<p>` to it before adding it to the container.
 
 ### Events
 
@@ -424,7 +421,7 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- [What is the DOM?](#dom-document-object-model)
+- [What is the DOM?](#document-object-model)
 - [How do you target the nodes you want to work with?](#targeting-nodes-with-selectors)
 - [How do you create an element in the DOM?](#element-creation)
 - [How do you add an element to the DOM?](#append-elements)
@@ -442,6 +439,7 @@ This section contains questions for you to check your understanding of this less
 - [Explain the difference between "capture" and "bubbling".](https://www.youtube.com/watch?v=F1anRyL37lE)
 
 ### Additional resources
+
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)

@@ -298,18 +298,6 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
     * After you have completed the exercises, check out the solutions branch on GitHub to compare solutions.
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* If you want to go deeper into Ruby's numbers and string data types, read these chapters from the *Bastards Book of Ruby*:
-    * [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
-    * [Strings](http://ruby.bastardsbook.com/chapters/strings/)
-* Read through these Ruby Monstas sections about data types:
-    * [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
-    * [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
-    * [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
-    * [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -339,3 +327,16 @@ This section contains questions for you to check your understanding of this less
   * <a class="knowledge-check-link" href="#true-and-false">What does `true` represent?</a>
   * <a class="knowledge-check-link" href="#true-and-false">What does `false` represent?</a>
   * <a class="knowledge-check-link" href="#nil">What does `nil` represent?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+-  If you want to go deeper into Ruby's numbers and string data types, read these chapters from the *Bastards Book of Ruby*:
+    -  [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
+    -  [Strings](http://ruby.bastardsbook.com/chapters/strings/)
+-  Read through these Ruby Monstas sections about data types:
+    -  [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
+    -  [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
+    -  [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
+    -  [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)

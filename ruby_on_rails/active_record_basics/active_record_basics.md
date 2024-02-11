@@ -164,11 +164,6 @@ It's easiest to start thinking about concrete relationships in the real world an
 
 It's all about practice, so the projects from here on out will ask you to think through your model organization before getting started.  Taking a few minutes to think through your relationships ahead of time is essential for getting started in the right direction when you begin writing code.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Schneems on database backed models with Active Record](https://www.youtube.com/watch?v=EU98yHB-_7A).
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -177,3 +172,9 @@ This section contains questions for you to check your understanding of this less
  * [What does the validation helper `presence: true` enforce?](https://guides.rubyonrails.org/active_record_validations.html#presence)
  * [How can you see why an instance of a model class has failed validation?](https://guides.rubyonrails.org/active_record_validations.html#validations-overview-errors)
  * [If class A has a `belongs_to` association with class B, which class's database table should contain a foreign key?](https://guides.rubyonrails.org/association_basics.html#choosing-between-belongs-to-and-has-one)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Schneems on database backed models with Active Record](https://www.youtube.com/watch?v=EU98yHB-_7A).

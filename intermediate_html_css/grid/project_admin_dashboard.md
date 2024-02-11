@@ -10,7 +10,7 @@ Now that you've had plenty of practice using Grid, we are going to build a full 
 
 #### Step 1: Set up and planning
 
-1. Set up your HTML and CSS files with some simple dummy content, just to make sure you have everything linked correctly.
+1. Set up your HTML and CSS files with some dummy content, just to make sure you have everything linked correctly.
 2. Set up your Git repository (refer to past projects if you need a refresher).
 3. Download a full-resolution copy of the [project design file](https://cdn.statically.io/gh/TheOdinProject/curriculum/43cc6ab69fdfbef40d431a65677d2144668930ac/intermediate_html_css/grid/project_admin_dashboard/imgs/dashboard-project.png) and get a general idea for how you're going to need to lay things out in your HTML document.
 

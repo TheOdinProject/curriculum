@@ -191,7 +191,7 @@ Let's 😎 🥸 🤓 emojify 🤓 🥸 😎 this span!
 
 ### Attribute selectors
 
-The last tool we're going to add to the box is attribute selectors. Recall that an attribute is simply anything in the opening tag of an HTML element - such as `src='picture.jpg'` or `href="www.theodinproject.com"`.
+The last tool we're going to add to the box is attribute selectors. Recall that an attribute is anything in the opening tag of an HTML element - such as `src='picture.jpg'` or `href="www.theodinproject.com"`.
 
 Since we write our own values for attributes, we need a slightly more flexible system to be able to target specific values.
 

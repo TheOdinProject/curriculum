@@ -113,14 +113,6 @@ APIs are fundamental to making rich web applications and they're also a lot of f
 
 Working with external APIs can be incredibly rewarding because you're able to leverage functionality that others have spent a lot of time perfecting but also incredibly frustrating because they're all different and you have to rely on gems which are doing things behind the scenes that you're not entirely sure of.  Over time, you'll start to see a lot of similarities between APIs and the procedure for working with them will feel more and more comfortable.  To help get you there, the next project will have you working with an API and your final project will have you implementing signin via API as well.  
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* See [This SO Post on interfacing with third-party APIs](http://stackoverflow.com/questions/6228870/interfacing-with-a-third-party-api-in-rails-opeing-urls-and-parsing-xml-json) for tips.
-* [RailsConf 2016 - From Zero to API Hero: Consuming APIs like a Pro by Cecy Correa](https://www.youtube.com/watch?v=Af5HDgvGuXk)
-* Take a look at [this Medium article](https://revs.runtime-revolution.com/integrating-a-third-party-api-with-rails-5-134f960ddbba) over integrating a third party API with Rails 5.
-* See this other [Medium Article](https://medium.com/food4fluctuations/using-an-api-in-rails-for-noobs-5e02edb0e56b) on creating a basic rails app using the OMDB API, an open source movie database.
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -130,3 +122,12 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#versions">Why is it important to know which API version you're using?</a>
 * <a class="knowledge-check-link" href="#oauth-and-login-via-api">Why would a user prefer to sign into your site using Facebook instead of giving you a new password?</a>
 * <a class="knowledge-check-link" href="#api-rates-and-security-tokens">What are the different types of "security clearance" for the different types of API requests you can make?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- See [This SO Post on interfacing with third-party APIs](http://stackoverflow.com/questions/6228870/interfacing-with-a-third-party-api-in-rails-opeing-urls-and-parsing-xml-json) for tips.
+- [RailsConf 2016 - From Zero to API Hero: Consuming APIs like a Pro by Cecy Correa](https://www.youtube.com/watch?v=Af5HDgvGuXk)
+- Take a look at [this Medium article](https://revs.runtime-revolution.com/integrating-a-third-party-api-with-rails-5-134f960ddbba) over integrating a third party API with Rails 5.
+- See this other [Medium Article](https://medium.com/food4fluctuations/using-an-api-in-rails-for-noobs-5e02edb0e56b) on creating a basic rails app using the OMDB API, an open source movie database.

@@ -156,14 +156,6 @@ Since Rails 7 is relatively new there aren't a ton of resources available yet. T
 
 </div>
 
-### Additional resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-1. [Additional reading on Rails 7 `importmap`](https://noelrappin.com/blog/2021/09/rails-7-and-javascript/)
-2. [Blog post on using `importmap`](https://blog.kiprosh.com/rails-7-brings-import-maps-into-the-limelight/)
-3. [The import map specification](https://github.com/WICG/import-maps) should cover any other questions you may have on the subject.
-
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -171,3 +163,11 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="#import-maps-with-npm-packages">Can you use import maps with npm packages?</a>
 - <a class="knowledge-check-link" href="#downloading-vendor-files">How do you download vendor files using import maps?</a>
 - <a class="knowledge-check-link" href="#preloading-pinned-modules">How can you preload pinned modules?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Additional reading on Rails 7 `importmap`](https://noelrappin.com/blog/2021/09/rails-7-and-javascript/)
+- [Blog post on using `importmap`](https://blog.kiprosh.com/rails-7-brings-import-maps-into-the-limelight/)
+- [The import map specification](https://github.com/WICG/import-maps) should cover any other questions you may have on the subject.

@@ -8,7 +8,7 @@ If you remember from our earlier lessons, the controller is the code that sits b
 
 By the end of this lesson, you should be able to do the following:
 
-- Create simple routes.
+- Create routes.
 - Create route-handler callback functions.
 - Create a catalog route module.
 - Describe approaches for structuring routes and controllers.

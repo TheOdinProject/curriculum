@@ -42,7 +42,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
 - For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)

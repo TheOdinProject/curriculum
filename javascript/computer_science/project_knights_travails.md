@@ -1,6 +1,6 @@
 ### Introduction
 
-Now you're pro with DFS and BFS. Let's try using our search algorithms on a real problem.
+Now you're a pro with DFS and BFS. Let's try using our search algorithms on a real problem.
 
 For this project, you'll need to use a data structure that's similar (but not identical) to a binary tree. For a summary of a few different examples, reference [this article](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs).
 

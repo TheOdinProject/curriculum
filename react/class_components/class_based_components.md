@@ -69,7 +69,7 @@ That was a solid chunk of code. Take a while, sip some water and read it a coupl
 
 #### The start of a class-based component
 
-Now, let's try to recreate it as a class-based component. The first thing it should have is, _drumroll_, a class! But it cannot be just another class, it will need to have certain properties that qualifies it as a React component. React provides us with all those properties on a class called `Component`, and we can write our components by simply extending the given class, as shown below:
+Now, let's try to recreate it as a class-based component. The first thing it should have is, _drumroll_, a class! But it cannot be just another class, it will need to have certain properties that qualifies it as a React component. React provides us with all those properties on a class called `Component`, and we can write our components by extending the given class, as shown below:
 
 ~~~jsx
 import React, { Component } from "react";
@@ -256,7 +256,7 @@ And there we go, we have successfully made our first class-based component, as e
 
 <div class="lesson-content__panel" markdown="1">
 
-For the purposes of this assignment, we take the simple class-based component that we built and add additional functionality. There is an interactive example provided at the end to build upon.
+For the purposes of this assignment, we take the class-based component that we built and add additional functionality. There is an interactive example provided at the end to build upon.
 
 1.  Implement a delete button for each task. The delete button should remove that specific task from the state array, thus deleting the task itself! Styling isn't a priority at this moment, but the button tag should be styled by default.
 

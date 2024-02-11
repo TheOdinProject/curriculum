@@ -113,7 +113,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 Once this is done, go ahead and run `npm run dev` and check out both routes: the home route `/` and the profile route `/profile` It works! But what is happening here?
 
 1. We import `createBrowserRouter` and `RouterProvider` from React Router.
-2. `createBrowserRouter` is used to create the configuration for a router by simply passing arguments in the form of an array of routes.
+2. `createBrowserRouter` is used to create the configuration for a router by passing arguments in the form of an array of routes.
 3. The configuration array contains objects with two mandatory keys, the path and the corresponding element to be rendered.
 4. This generated configuration is then rendered in, by passing it to the `RouterProvider` component.
 
@@ -422,7 +422,7 @@ const Router = () => {
 export default Router;
 ~~~
 
-Simply add `Router.jsx` component to the `Main.jsx` file:
+Add `Router.jsx` component to the `Main.jsx` file:
 
 ~~~jsx
 import React from "react";

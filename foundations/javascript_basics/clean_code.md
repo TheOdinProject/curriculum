@@ -150,7 +150,7 @@ You might wonder why this variable is declared with all caps, when we have recom
 
 Now it's time to head to more controversial topics. The war between coders that use tabs and coders that use spaces to indent their code is [essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
 
-What actually matters is _consistency_. Choose a way to indent and stick to it. Various JS style-guides recommend different options, and one is not really superior to the other. Few popular ones are linked in the additional resources.
+What actually matters is _consistency_. Choose a way to indent and stick to it. Various JS style-guides recommend different options, and one is not really superior to the other. A few popular ones are linked in the additional resources.
 
 #### Line length
 

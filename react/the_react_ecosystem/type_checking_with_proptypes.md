@@ -27,7 +27,7 @@ import PropTypes from 'prop-types';
 
 ### Using propTypes
 
-Here is a very basic example of how we would use it in a simple component that renders out a name prop.
+Here is a very basic example of how we would use it in a component that renders out a name prop.
 
 ~~~javascript
 import PropTypes from 'prop-types';

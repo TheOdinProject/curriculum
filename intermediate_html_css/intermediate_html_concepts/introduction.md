@@ -16,3 +16,9 @@ You'll learn about animations, accessibility, and responsive design in the secon
 1. Read through this [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) to get an overview of what other HTML elements are available to you. No need to commit this to memory because you'll be learning the important parts as we go, but having a glance now will help the content stick later.
 2. Take a glance at a somewhat overwhelming looking [CSS Cheat Sheet](https://htmlcheatsheet.com/css/).  Again, we don't need you to learn anything specific, or memorize anything from this list. Just use it to get a feel for what you still have left to learn!
 </div>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

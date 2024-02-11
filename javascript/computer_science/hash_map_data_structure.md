@@ -84,15 +84,21 @@ You might be thinking, wouldn't it just be better to save the whole name as a ha
 
 ### Buckets
 
-Buckets are storage that we need to store our elements. Simply, it's an array. For a specific key, we decide which bucket to use for storage through our hash function. The hash function returns a number that serves as the index of the array at which we store this specific key value pair. Let's say we need to store a key "Fred":
+Buckets are storage that we need to store our elements. Simply, it's an array. For a specific key, we decide which bucket to use for storage through our hash function. The hash function returns a number that serves as the index of the array at which we store this specific key value pair. Let's say we wanted to store a person's full name as a key "Fred" with a value of "Smith":
 
-1. Pass "Fred" into the hash function to get the hash code which is `508`.
-1. Find the bucket at index `508`.
-1. Store the key value pair in that bucket.
+1. Pass "Fred" into the hash function to get the hash code which is `385`.
+1. Find the bucket at index `385`.
+1. Store the key value pair in that bucket. In this case, the key would be "Fred" and the value would be "Smith".
 
 This is an oversimplified explanation; we'll discuss more internal mechanics later in the lesson.
 
-To get a value using a key, we put each entry inside a bucket as a `Node` item, which holds both the key and the value. To retrieve the value, we hash the key and calculate its bucket number. If the bucket is not empty, then we go to that bucket and compare if the node's key is the same key that was used for the retrieval. If it is, then we can return the node's value. Otherwise, we return `null`.
+Now if we wanted to get a value using a key:
+
+1. Put each entry inside a bucket as a `Node` item, which holds both the key and the value.
+1. To retrieve the value, we hash the key and calculate its bucket number.
+1. If the bucket is not empty, then we go to that bucket.
+1. Now we compare if the node's key is the same key that was used for the retrieval.
+1. If it is, then we can return the node's value. Otherwise, we return `null`.
 
 Maybe you are wondering, why are we comparing the keys if we already found the index of that bucket? Remember, a hash code is just the location. Different keys might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
 

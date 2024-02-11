@@ -16,18 +16,18 @@ The beauty of React is that it allows you to break a UI (User Interface) down in
 
 ![Component Example](https://cdn.statically.io/gh/TheOdinProject/curriculum/91485eec76445d86b29d35894e83324e2967f2fb/react/imgs/00.png)
 
-For example, this simple website could be broken into the following components:
+For example, this website could be broken into the following components:
 
 - `App`, which represents your main application and will be the parent of all other components.
 - `Navbar`, which will be the navigation bar.
 - `MainArticle`, which will be the component that renders your main content.
-- `NewsletterForm`, which is a simple form that lets a user input their email to receive the weekly newsletter.
+- `NewsletterForm`, which is a form that lets a user input their email to receive the weekly newsletter.
 
 Think of these reusable chunks as JavaScript functions which can take some kind of input and return a React element.
 
 ### How to create components
 
-To get the feel of working with components, we're going to practice creating functional components. What are functional components? Javascript functions! Is it really that simple? Let's have a look.
+To get the feel of working with components, we're going to practice creating functional components. What are functional components? Javascript functions! Let's have a look.
 
 ~~~jsx
 function Greeting() {
@@ -35,7 +35,7 @@ function Greeting() {
 }
 ~~~
 
-This might look mostly familiar to you - it's a simple JavaScript function, which returns JSX. Open up the project you were working on, create a new file named `Greeting.jsx`, and in that file write your own handmade functional component. Name it whatever you wish, and have it return whatever JSX you wish.
+This might look mostly familiar to you - it's a JavaScript function, which returns JSX. Open up the project you were working on, create a new file named `Greeting.jsx`, and in that file write your own handmade functional component. Name it whatever you wish, and have it return whatever JSX you wish.
 
 Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind. **React components must be capitalized** or they will not function as expected, which is why we capitalized `Greeting()`. More about that later.
 
@@ -53,7 +53,7 @@ It's JSX. It looks jarring at first, but soon we'll realize how cool it is. We'l
 
 ### Where do components live
 
-So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! For a very long time in React development, it was necessary to `import` React in your JavaScript files that used React components, but since React v17.0 it is no longer required. Let's simply `export` our newly created component so that parent components can use it as a child throughout your project.
+So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! For a very long time in React development, it was necessary to `import` React in your JavaScript files that used React components, but since React v17.0 it is no longer required. Let's `export` our newly created component so that parent components can use it as a child throughout your project.
 
 ~~~jsx
 function Greeting() {
