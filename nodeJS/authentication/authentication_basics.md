@@ -78,7 +78,7 @@ app.listen(3000, () => console.log("app listening on port 3000!"));
 
 Most of this should look familiar to you by now, except for the new imported middleware for express-session and passport. We are not actually going to be using express-session directly, it is a dependency that is used in the background by passport.js. You can take a look at what it does [here](https://github.com/expressjs/session).
 
-To keep things simple, our view engine is set up to just look in the main directory, and it's looking for a template called `index.ejs` so go ahead and create that:
+Our view engine is set up to just look in the main directory, and it's looking for a template called `index.ejs` so go ahead and create that:
 
 ```html
 <!DOCTYPE html>
@@ -123,7 +123,6 @@ Create a new template called `sign-up-form`, and a route for `/sign-up` that poi
 //// app.js
 
 app.get("/sign-up", (req, res) => res.render("sign-up-form"));
-
 ```
 
 Next, create an `app.post` for the sign up form so that we can add users to our database (remember our notes about sanitation, and using plain text to store passwords...).
@@ -199,7 +198,7 @@ Again, we aren't going to be calling these functions on our own, they're used in
 
 ### Log in form
 
-To keep things nice and simple let's go ahead and add the login form directly to our index template. The form will look just like our sign-up form, but instead of `POST`ing to `/sign-up` we'll add an `action` to it so that it `POST`s to `/log-in` instead. Add the following to your index template:
+Let's go ahead and add the login form directly to our index template. The form will look just like our sign-up form, but instead of `POST`ing to `/sign-up` we'll add an `action` to it so that it `POST`s to `/log-in` instead. Add the following to your index template:
 
 ```html
 <h1>please log in</h1>
@@ -267,7 +266,7 @@ and then edit your view to make use of that object like this:
 
 So, this code checks to see if there is a user defined... if so it offers a welcome message, and if NOT then it shows the login form.  Neat!
 
-As one last step... let's make that log out link actually work for us. As you can see it's simply sending us to `/log-out` so all we need to do is add a route for that in our app.js.  Conveniently, the passport middleware adds a logout function to the `req` object, so logging out is as easy as this:
+As one last step... let's make that log out link actually work for us. As you can see it's sending us to `/log-out` so all we need to do is add a route for that in our app.js.  Conveniently, the passport middleware adds a logout function to the `req` object, so logging out is as easy as this:
 
 ```javascript
 app.get("/log-out", (req, res, next) => {
@@ -286,7 +285,7 @@ You should now be able to visit `/sign-up` to create a new user, then log-in usi
 
 In express, you can set and access various local variables throughout your entire app (even in views) with the `locals` object. We can use this knowledge to write ourselves a custom middleware that will simplify how we access our current user in our views.
 
-Middleware functions are simply functions that take the `req` and `res` objects, manipulate them, and pass them on through the rest of the app.
+Middleware functions are functions that take the `req` and `res` objects, manipulate them, and pass them on through the rest of the app.
 
 ```javascript
 app.use((req, res, next) => {
@@ -322,7 +321,7 @@ The second argument is the length of the "salt" to use in the hashing function; 
 
 Usually, the salt gets stored in the database in the clear next to the hashed value, but in our case, there is no need to do so because the hashing algorithm that `bcryptjs` uses includes the salt automatically with the hash.
 
-The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a simple password, then go look at your DB entries to see how it's being stored.  If you've done it right, your password should have been transformed into a really long random string.
+The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a password, then go look at your DB entries to see how it's being stored. If you've done it right, your password should have been transformed into a really long random string.
 
 It's important to note that *how* hashing works is beyond the scope of this lesson. To learn more about the subject consider reading [This wikipedia article](https://en.wikipedia.org/wiki/Cryptographic_hash_function).
 

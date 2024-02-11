@@ -58,7 +58,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/) is **OPTIONAL READING** and it has the potential to be your best friend. It comprehensively covers all the kinds of challenges you might face in a coding interview. It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.
 
 ### Coding test questions:
-* [8 Queens](http://jetheis.com/blog/2013/12/01/programming-interview-question-eight-queens/) is a classic problem.
+* [8 Queens](https://www.interviewbit.com/blog/8-queens-problem/#:~:text=Given%20a%208%20X%208,for%20the%208%20queens%20problem.) is a classic problem.
 * [Coding for Interviews: Know Thy Standard Libraries](http://web.archive.org/web/20210617041720/http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
 * [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently (they can be very computationally intensive).
 * [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.

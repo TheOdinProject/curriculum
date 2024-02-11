@@ -31,13 +31,6 @@ Look through these now and then use them to test yourself after doing the assign
   5. Read the sections 'Ruby files' and 'Ruby directories' from the [Input/Output chapter of Zetcode's Ruby Tutorial](http://zetcode.com/lang/rubytutorial/io/) for examples of how to manipulate files and directories using the `File` and `Dir` classes. 
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Everything You Need to know about Serialization in Ruby on Rails](https://blog.kiprosh.com/serialization_in_ruby_on_rails_part_one/) 
-* [Ruby Monk's section on Serializing](https://web.archive.org/web/20160505174806/http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)
-* [Short Example of Serialization](https://web.archive.org/web/20200627063721/http://rubylearning.com/satishtalim/object_serialization.html) from Ruby Learning
-
 ### Knowledge check
 
   * [How would you go through the lines of a file using an `IO` object?](https://thoughtbot.com/blog/io-in-ruby)
@@ -45,3 +38,11 @@ This section contains helpful links to other content. It isn't required, so cons
   * [What are the benefits of YAML vs JSON vs MessagePack serialization formats?](https://www.sitepoint.com/choosing-right-serialization-format/)
   * [How can you check if a file or directory exists?](http://zetcode.com/lang/rubytutorial/io/)
   * [How can you list a directory's contents in the form of an array?](http://zetcode.com/lang/rubytutorial/io/)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Everything You Need to know about Serialization in Ruby on Rails](https://blog.kiprosh.com/serialization_in_ruby_on_rails_part_one/) 
+- [Ruby Monk's section on Serializing](https://web.archive.org/web/20160505174806/http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)
+- [Short Example of Serialization](https://web.archive.org/web/20200627063721/http://rubylearning.com/satishtalim/object_serialization.html) from Ruby Learning
