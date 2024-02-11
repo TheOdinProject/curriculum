@@ -41,12 +41,6 @@ As usual, it depends. Still, here are some reasons we think it might be importan
 
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [This video](https://www.youtube.com/watch?v=PCEHRFHKZSk) that provides counter arguments for DHH’s [“TDD is Dead. Long Live Testing”](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html)
-* [This series of talks](https://martinfowler.com/articles/is-tdd-dead/) that provides an even more rounded take on TDD.
-   
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
@@ -55,3 +49,9 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://thoughtbot.com/blog/rails-test-types-and-the-testing-pyramid">What is the difference between unit and integration tests?</a>
 - <a class="knowledge-check-link" href="https://www.madetech.com/blog/9-benefits-of-test-driven-development">How does TDD help in code refactoring?</a>
 
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [This video](https://www.youtube.com/watch?v=PCEHRFHKZSk) that provides counter arguments for DHH’s [“TDD is Dead. Long Live Testing”](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html)
+- [This series of talks](https://martinfowler.com/articles/is-tdd-dead/) that provides an even more rounded take on TDD.

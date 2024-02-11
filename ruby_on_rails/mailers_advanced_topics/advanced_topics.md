@@ -353,17 +353,6 @@ In this lesson we covered some fairly random and intricate concepts but useful s
 
 The more general principles like SOLID design and metaprogramming will be useful to you regardless of whether you stick with Ruby and Rails or move on to better and brighter things.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Stack Overflow question on the topic](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
-* [In Relentless Pursuit of REST by Derek Prior](https://www.youtube.com/watch?v=HctYHe-YjnE)
-* [A video from Yehuda Katz on Rails Security](http://youtu.be/2Ex8EEv-WPs)
-* See the first solution to [this SO question](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting) for a nice way to work with multiple layouts that use classes to trigger different CSS styling.
-* [Ruby Metaprogramming](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
-* [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)
-* [A longer explanation of SOLID principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -374,3 +363,15 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#advanced-layouts-nesting-layouts-and-passing-information">What are some techniques for rendering multiple layouts for one page?</a>
 * <a class="knowledge-check-link" href="#metaprogramming-rails">What does the `#send` method do?</a>
 * <a class="knowledge-check-link" href="#design-patterns">What are the five design principles represented by the SOLID acronym?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Stack Overflow question on the topic](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
+- [In Relentless Pursuit of REST by Derek Prior](https://www.youtube.com/watch?v=HctYHe-YjnE)
+- [A video from Yehuda Katz on Rails Security](http://youtu.be/2Ex8EEv-WPs)
+- See the first solution to [this SO question](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting) for a nice way to work with multiple layouts that use classes to trigger different CSS styling.
+- [Ruby Metaprogramming](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
+- [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)
+- [A longer explanation of SOLID principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)
