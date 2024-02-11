@@ -6,12 +6,12 @@ In the previous lessons, you learned several ways to make websites more accessib
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Know the purpose of WAI-ARIA.
-* Know what ARIA can't do.
-* Understand the five rules of ARIA use.
-* Understand what the accessibility tree is.
-* Understand the three ARIA attributes that can add labels to elements.
-* Understand what the `aria-hidden` attribute does.
+- Know the purpose of WAI-ARIA.
+- Know what ARIA can't do.
+- Understand the five rules of ARIA use.
+- Understand what the accessibility tree is.
+- Understand the three ARIA attributes that can add labels to elements.
+- Understand what the `aria-hidden` attribute does.
 
 ### What is WAI-ARIA?
 
