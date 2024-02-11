@@ -2,11 +2,13 @@
 
 Now let's explore CSS animations using keyframes. This will expand upon your encounter with CSS transitions and delve into the differences between them.
 
-### Learning outcomes
+### Lesson overview
 
-* The differences between CSS transitions and CSS animations
-* How to configure animation sub-properties
-* How to sequence an animation using keyframes
+This section contains a general overview of topics that you will learn in this lesson.
+
+- The differences between CSS transitions and CSS animations.
+- How to configure animation sub-properties.
+- How to sequence an animation using keyframes.
 
 ### Animations vs transitions
 
