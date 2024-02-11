@@ -6,7 +6,7 @@ You have likely seen it in action on many of your favorite websites! Transforms 
 
 ### Learning outcomes
 
-This section contains a general overview of topics that you will learn in this lesson.
+By the end of this lesson, you will know:
 
 - How to use 2D transforms.
 - How to use 3D transforms.
