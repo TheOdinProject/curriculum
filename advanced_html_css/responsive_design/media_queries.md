@@ -3,6 +3,8 @@ With media queries, it is possible to completely restyle your web projects based
 
 ### Lesson overview
 
+This section contains a general overview of topics that you will learn in this lesson.
+
 - You'll learn how to implement media queries to create fully responsive websites that look great on any device.
 
 ### Media query syntax
