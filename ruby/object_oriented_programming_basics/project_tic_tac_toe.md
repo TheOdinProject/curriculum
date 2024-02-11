@@ -13,4 +13,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 </div>
 
 ### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

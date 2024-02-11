@@ -71,7 +71,7 @@ You may be curious as to what the `key` is in our `<li>` element. We will dive i
 ### Rendering a list of components in JSX
 
 <div class="lesson-note" markdown="1">
-We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are arguments that are passed into components. We will just be writing a simple implementation.
+We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are arguments that are passed into components. We will just be writing a short implementation.
 </div>
 
 ~~~javascript

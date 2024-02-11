@@ -10,7 +10,7 @@ const listSectionsDefaultContent = {
   [sectionsWithDefaultContent.knowledgeCheck]:
     "The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.",
   [sectionsWithDefaultContent.additionalResources]:
-    "This section contains helpful links to related content. It isn’t required, so consider it supplemental.",
+    "This section contains helpful links to related content. It isn't required, so consider it supplemental.",
 };
 
 function createErrorObject(lineNumber, detail) {
