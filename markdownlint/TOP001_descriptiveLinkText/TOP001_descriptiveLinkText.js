@@ -14,6 +14,9 @@ module.exports = {
       .flat();
 
     linkOpenTokens.forEach((token) => {
+      if (!token?.line) {
+        return;
+      }
       const { line } = token;
       // https://regexr.com/7rf1l to test the following regex
       const isInvalid = /\[.*?(?<!\w)(this|here)(?!\w).*?\]/i.test(line);

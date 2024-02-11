@@ -29,7 +29,7 @@ Read the MDN docs for [`border`](https://developer.mozilla.org/en-US/docs/Web/CS
 #### box-shadow
 As you might expect from the property name, `box-shadow` adds a shadow effect around an element. This is useful to create a sense of depth on your page and to add subtle separation between elements.
 
-In usage it's pretty simple, but keep in mind that it's best used sparingly, and subtly. Prefer lighter, barely visible shadows to darker or brighter colors.
+In usage it's straightforward, but keep in mind that it's best used sparingly, and subtly. Prefer lighter, barely visible shadows to darker or brighter colors.
 
 Read the [`box-shadow` docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow).
 
