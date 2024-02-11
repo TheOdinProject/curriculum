@@ -53,18 +53,19 @@ I want to emphasize again that the learning never really stops but also that you
 So there's a lot left to go but it gets better and better.  Stick with it!
 
 ### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [How I Learned Ruby on Rails](https://medium.com/how-i-learned-ruby-rails/e08c94e2a51e) by Richardson Dackam
-* A [listing of Rails tutorials](https://tutorials.railsapps.org/rails-tutorial) from Daniel Kehoe of RailsApps
-* A list of some slightly [longer Rails Tutorials by Jumpstart Lab](http://tutorials.jumpstartlab.com/)
-* The [University of Texas Rails Course Online](http://schneems.com/ut-rails) (incomplete/dated?)
-* [Rails Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html) by Tobias Pfeiffer
-* [Rails Best Practices list](http://rails-bestpractices.com/)
-* [Building a Simple CMS in Sinatra Tutorial](http://www.sitepoint.com/a-simple-content-management-system-in-sinatra/)
-* [Why not to hardcode your application's secret token in production](http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/)
-* [How I Test by Ryan Bates](http://railscasts.com/episodes/275-how-i-test)
-* [Why use the `%Q` methods?](http://stackoverflow.com/questions/10144543/what-is-the-use-case-for-rubys-q-q-quoting-methods)
-* [Build 10 Apps video series by Web-Crunch](https://www.youtube.com/watch?v=4ABesTeDKmQ&list=PL01nNIgQ4uxNkDZNMON-TrzDVNIk3cOz4)
-* [Mackenzie Child 12 apps in 12 weeks](https://medium.com/ruby-on-rails/how-i-finally-learned-rails-95e9b832675b#.mw99m5wat)
-* [Intro to API Video](https://www.youtube.com/watch?v=oBW_VNg4qD0)
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [How I Learned Ruby on Rails](https://medium.com/how-i-learned-ruby-rails/e08c94e2a51e) by Richardson Dackam
+- A [listing of Rails tutorials](https://tutorials.railsapps.org/rails-tutorial) from Daniel Kehoe of RailsApps
+- A list of some slightly [longer Rails Tutorials by Jumpstart Lab](http://tutorials.jumpstartlab.com/)
+- The [University of Texas Rails Course Online](http://schneems.com/ut-rails) (incomplete/dated?)
+- [Rails Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html) by Tobias Pfeiffer
+- [Rails Best Practices list](http://rails-bestpractices.com/)
+- [Building a Simple CMS in Sinatra Tutorial](http://www.sitepoint.com/a-simple-content-management-system-in-sinatra/)
+- [Why not to hardcode your application's secret token in production](http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/)
+- [How I Test by Ryan Bates](http://railscasts.com/episodes/275-how-i-test)
+- [Why use the `%Q` methods?](http://stackoverflow.com/questions/10144543/what-is-the-use-case-for-rubys-q-q-quoting-methods)
+- [Build 10 Apps video series by Web-Crunch](https://www.youtube.com/watch?v=4ABesTeDKmQ&list=PL01nNIgQ4uxNkDZNMON-TrzDVNIk3cOz4)
+- [Mackenzie Child 12 apps in 12 weeks](https://medium.com/ruby-on-rails/how-i-finally-learned-rails-95e9b832675b#.mw99m5wat)
+- [Intro to API Video](https://www.youtube.com/watch?v=oBW_VNg4qD0)

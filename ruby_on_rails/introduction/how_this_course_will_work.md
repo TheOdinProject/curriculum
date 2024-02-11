@@ -23,7 +23,8 @@ The Rails Guides are so comprehensive that they are essentially a completely ope
 
 
 ### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [StackOverflow: Summary of Ruby on Rails Fundamental Concepts](http://stackoverflow.com/questions/5205002/summary-of-ruby-on-rails-fundamental-concepts)
-* [How to study the Rails Guides](http://www.sihui.io/how-to-study-the-rails-guides/)
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [StackOverflow: Summary of Ruby on Rails Fundamental Concepts](http://stackoverflow.com/questions/5205002/summary-of-ruby-on-rails-fundamental-concepts)
+- [How to study the Rails Guides](http://www.sihui.io/how-to-study-the-rails-guides/)

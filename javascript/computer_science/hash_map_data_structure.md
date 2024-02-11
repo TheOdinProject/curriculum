@@ -86,8 +86,8 @@ You might be thinking, wouldn't it just be better to save the whole name as a ha
 
 Buckets are storage that we need to store our elements. Simply, it's an array. For a specific key, we decide which bucket to use for storage through our hash function. The hash function returns a number that serves as the index of the array at which we store this specific key value pair. Let's say we wanted to store a person's full name as a key "Fred" with a value of "Smith":
 
-1. Pass "Fred" into the hash function to get the hash code which is `508`.
-1. Find the bucket at index `508`.
+1. Pass "Fred" into the hash function to get the hash code which is `385`.
+1. Find the bucket at index `385`.
 1. Store the key value pair in that bucket. In this case, the key would be "Fred" and the value would be "Smith".
 
 This is an oversimplified explanation; we'll discuss more internal mechanics later in the lesson.

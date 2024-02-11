@@ -206,13 +206,6 @@ You would then be able to reference it within your pack file and now be able to 
 
 While you may come across this in the wild it is important to note that Rails 7 does not use it any longer and replaces it with jsbundling-rails. If you want to use bundling make sure to use one of the bundlers listed earlier in the lesson.
 
-### Additional resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.*
-
-* [good mention of why JS bundling is still a valid option by David Heinemeier Hansson](https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755).
-* [high level look over jsbundling-rails versus webpacker if your interested in the differences](https://github.com/rails/jsbundling-rails/blob/main/docs/comparison_with_webpacker.md).
-
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
@@ -222,3 +215,10 @@ This section contains questions for you to check your understanding of this less
 - [What is one downside to using JS bundling?](#jsbundling-module)
 - [Why was Webpacker introduced for Rails 6?](#webpacker-introduction)
 - [Why is the `./bin/dev` command useful in development mode?](#yarn-build-command)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [good mention of why JS bundling is still a valid option by David Heinemeier Hansson](https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755).
+- [high level look over jsbundling-rails versus webpacker if your interested in the differences](https://github.com/rails/jsbundling-rails/blob/main/docs/comparison_with_webpacker.md).
