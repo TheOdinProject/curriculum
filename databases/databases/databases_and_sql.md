@@ -22,14 +22,14 @@ Though the prevalence of web applications these days has grown the demand among 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
--   What a Primary Key is.
--   What Foreign Keys are.
--   What a Schema is.
--   How to use various SQL statements like `SELECT`, `CREATE TABLE`, `UPDATE`, `DELETE` and more.
--   How to use various SQL clauses like `WHERE`, `LIKE`, `DISTINCT` and more.
--   How to use various SQL functions like `AVG`, `COUNT`, `SUM` and more.
--   What Indexes are good for.
--   What the difference between `WHERE` and `HAVING` is.
+- What a Primary Key is.
+- What Foreign Keys are.
+- What a Schema is.
+- How to use various SQL statements like `SELECT`, `CREATE TABLE`, `UPDATE`, `DELETE` and more.
+- How to use various SQL clauses like `WHERE`, `LIKE`, `DISTINCT` and more.
+- How to use various SQL functions like `AVG`, `COUNT`, `SUM` and more.
+- What Indexes are good for.
+- What the difference between `WHERE` and `HAVING` is.
 
 ### The world's fastest semi-complete explanation of SQL
 
