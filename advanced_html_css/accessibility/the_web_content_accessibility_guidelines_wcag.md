@@ -4,7 +4,7 @@ After the previous lesson, you should now have a better understanding of how imp
 
 Another source, one that goes over many different ways to help make websites more accessible, is the Web Content Accessibility Guidelines (WCAG). In this lesson we're going to skim the surface of the WCAG, just to familiarize you with them at a more basic level.
 
-### Learning outcomes
+### Lesson overview
 
 By the end of this lesson, you should be able to:
 
