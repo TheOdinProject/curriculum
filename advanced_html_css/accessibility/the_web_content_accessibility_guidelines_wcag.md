@@ -4,14 +4,16 @@ After the previous lesson, you should now have a better understanding of how imp
 
 Another source, one that goes over many different ways to help make websites more accessible, is the Web Content Accessibility Guidelines (WCAG). In this lesson we're going to skim the surface of the WCAG, just to familiarize you with them at a more basic level.
 
-### Learning outcomes
+### Lesson overview;
+
 By the end of this lesson, you should be able to:
 
-* Explain the purpose of the Web Content Accessibility Guidelines.
-* Name the 4 principles of the WCAG.
+- Explain the purpose of the Web Content Accessibility Guidelines.
+- Name the 4 principles of the WCAG.
 
 ### Web Content Accessibility Guidelines
-<span id="wcag-purpose">The WCAG exist in order to help create a shared standard when it comes to web accessibility.</span> Think of web accessibility as the destination, and the WCAG as one of the tools that can help get us closer to it. 
+
+<span id="wcag-purpose">The WCAG exist in order to help create a shared standard when it comes to web accessibility.</span>Think of web accessibility as the destination, and the WCAG as one of the tools that can help get us closer to it. 
 
 It's important to understand that while the WCAG can be incredibly helpful for building an a11y foundation, they are not the finish line when it comes to accessibility. Like the name says, they are guidelines, and they will only help us make websites *more* accessible.
 
@@ -31,9 +33,9 @@ The WCAG are organized around four, core principles (POUR) that should be kept i
 
 Conformance levels get mentioned at a couple of other points in these lessons, and we're only mentioning them here to briefly explain what they are ahead of time. The WCAG has three different conformance levels, each of which is made up of various success criteria, or rules, that must be followed in order to successfully meet that level of conformance. You don't need to worry about meeting any of these conformance levels completely for the purposes of these lessons, you only need to know that they exist (luckily their naming is pretty easy to remember).
 
-* **Level A**, or essential support, is the minimum level of conformance for the WCAG.
-* **Level AA**, or ideal support, is the level many organizations strive for. Meeting this level also requires meeting Level A.
-* **Level AAA**, or specialized support, isn't recommended for entire sites to meet in full, as some content may make it impossible to meet this conformance level. Meeting this level would require also meeting both Level A and Level AA.
+- **Level A**, or essential support, is the minimum level of conformance for the WCAG.
+- **Level AA**, or ideal support, is the level many organizations strive for. Meeting this level also requires meeting Level A.
+- **Level AAA**, or specialized support, isn't recommended for entire sites to meet in full, as some content may make it impossible to meet this conformance level. Meeting this level would require also meeting both Level A and Level AA.
 
 ### (Before) implementing accessibility
 
@@ -51,6 +53,7 @@ The second thing to keep in mind is that just taking those first few steps towar
 </div>
 
 ### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [What is the purpose of the Web Content Accessibility Guidelines?](#wcag-purpose)
