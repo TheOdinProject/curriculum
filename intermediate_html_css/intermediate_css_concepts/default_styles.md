@@ -2,7 +2,7 @@
 
 Browsers, by default, inject a little bit of style into your web projects. You may not have thought about this specifically, but you have definitely encountered it.
 
-### Learning outcomes
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
