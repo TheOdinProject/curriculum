@@ -4,6 +4,8 @@ Now let's explore CSS animations using keyframes. This will expand upon your enc
 
 ### Lesson overview
 
+This section contains a general overview of topics that you will learn in this lesson.
+
 - The differences between CSS transitions and CSS animations.
 - How to configure animation sub-properties.
 - How to sequence an animation using keyframes.
