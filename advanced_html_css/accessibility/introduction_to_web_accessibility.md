@@ -6,7 +6,7 @@ What you may not have too much an understanding of, though, is the topic of acce
 
 ### Learning outcomes
 
-This section contains a general overview of topics that you will learn in this lesson.
+By the end of this lesson, you should be able to:
 
 - Explain what web accessibility is.
 

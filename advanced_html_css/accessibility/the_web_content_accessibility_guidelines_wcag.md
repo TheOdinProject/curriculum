@@ -4,9 +4,8 @@ After the previous lesson, you should now have a better understanding of how imp
 
 Another source, one that goes over many different ways to help make websites more accessible, is the Web Content Accessibility Guidelines (WCAG). In this lesson we're going to skim the surface of the WCAG, just to familiarize you with them at a more basic level.
 
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
+### Learning outcomes
+By the end of this lesson, you should be able to:
 
 * Explain the purpose of the Web Content Accessibility Guidelines.
 * Name the 4 principles of the WCAG.
