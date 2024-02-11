@@ -29,7 +29,7 @@ We're going to be using another Mongo database, so before we begin log in to you
 
 To begin, let's set up a very minimal express app with a single MongoDB model for our users. Create a new directory and use `npm init` to start the package.json file then run the following to install all the dependencies we need:
 
-```
+```bash
 npm install express express-session mongoose passport passport-local ejs
 ```
 
@@ -342,6 +342,15 @@ if (!match) {
 
 You should now be able to log in using the new user you've created (the one with a hashed password).  <span id='bcrypt'>Unfortunately, users that were saved BEFORE you added bcrypt will no longer work, but that's a small price to pay for security</span>! (and a good reason to include bcrypt from the start on your next project)
 
+### Knowledge check
+
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+- [Which passportJS strategy did we use in this lesson?](#strategy)
+- [Why does passportJS create a cookie?](#cookie)
+- [What does the `bcrypt.compare()` function do?](#compare)
+- [Why should we include bcrypt when we begin a project?](#bcrypt)
+
 ### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
@@ -351,12 +360,3 @@ This section contains helpful links to other content. It isn't required, so cons
 - [This video](https://www.youtube.com/watch?v=8ZtInClXe1Q) gives a broad overview of some of the different methods to store passwords in databases, and the risks of some of them.
 
 - In [Passport: The Hidden Manual](https://github.com/jwalton/passport-api-docs), you can explore comprehensive explanations of Passport's functions, gaining a deeper understanding of what each function accomplishes.
-
-### Knowledge checks
-
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
-
-- [Which passportJS strategy did we use in this lesson?](#strategy)
-- [Why does passportJS create a cookie?](#cookie)
-- [What does the `bcrypt.compare()` function do?](#compare)
-- [Why should we include bcrypt when we begin a project?](#bcrypt)
