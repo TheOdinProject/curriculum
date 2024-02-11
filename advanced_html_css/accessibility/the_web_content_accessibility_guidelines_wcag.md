@@ -4,7 +4,7 @@ After the previous lesson, you should now have a better understanding of how imp
 
 Another source, one that goes over many different ways to help make websites more accessible, is the Web Content Accessibility Guidelines (WCAG). In this lesson we're going to skim the surface of the WCAG, just to familiarize you with them at a more basic level.
 
-### Lesson overview;
+### Learning outcomes
 
 By the end of this lesson, you should be able to:
 
@@ -13,7 +13,7 @@ By the end of this lesson, you should be able to:
 
 ### Web Content Accessibility Guidelines
 
-<span id="wcag-purpose">The WCAG exist in order to help create a shared standard when it comes to web accessibility.</span>Think of web accessibility as the destination, and the WCAG as one of the tools that can help get us closer to it. 
+<span id="wcag-purpose">The WCAG exist in order to help create a shared standard when it comes to web accessibility.</span>Think of web accessibility as the destination, and the WCAG as one of the tools that can help get us closer to it.   
 
 It's important to understand that while the WCAG can be incredibly helpful for building an a11y foundation, they are not the finish line when it comes to accessibility. Like the name says, they are guidelines, and they will only help us make websites *more* accessible.
 
@@ -54,13 +54,13 @@ The second thing to keep in mind is that just taking those first few steps towar
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the purpose of the Web Content Accessibility Guidelines?](#wcag-purpose)
 - [What are the 4 principles of the WCAG?](#the-four-principles)
 
 ### Additional resources
 
- This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
