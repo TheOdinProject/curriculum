@@ -200,7 +200,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [This discussion goes through the usages of prime numbers](https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier/299748)
 - The [pigeonhole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle) mathematically guarantees collisions when there are more nodes than boxes.
