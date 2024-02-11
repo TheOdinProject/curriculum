@@ -4,8 +4,10 @@ Browsers, by default, inject a little bit of style into your web projects. You m
 
 ### Lesson overview
 
--   You'll learn about default browser styles
--   You'll learn how to use a CSS reset to remove or change those default styles
+This section contains a general overview of topics that you will learn in this lesson.
+
+- You'll learn about default browser styles.
+- You'll learn how to use a CSS reset to remove or change those default styles.
 
 ### Default styles
 
