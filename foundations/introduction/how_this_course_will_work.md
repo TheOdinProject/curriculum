@@ -43,7 +43,7 @@ As you move forward in the curriculum, each portion is built on everything that 
 
 Additional resources are the only thing that is considered optional unless explicitly stated. These are here in case you feel like you need or want to dive deeper into a topic to get a better understanding. 
 
-**DO NOT SKIP ANYTHING!** 
+**DO NOT SKIP ANYTHING!** or else!
 
 ### Additional resources
 
