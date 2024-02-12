@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Web Content Accessibility Guidelines
 
-<span id="wcag-purpose">The WCAG exist in order to help create a shared standard when it comes to web accessibility.</span>Think of web accessibility as the destination, and the WCAG as one of the tools that can help get us closer to it.   
+<span id="wcag-purpose">The WCAG exist in order to help create a shared standard when it comes to web accessibility.</span>Think of web accessibility as the destination, and the WCAG as one of the tools that can help get us closer to it.
 
 It's important to understand that while the WCAG can be incredibly helpful for building an a11y foundation, they are not the finish line when it comes to accessibility. Like the name says, they are guidelines, and they will only help us make websites *more* accessible.
 
