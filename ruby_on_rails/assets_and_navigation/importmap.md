@@ -42,7 +42,7 @@ Example
 
 ~~~Ruby
 # config/importmap.rb
-pin "react", to: "https://ga.jspm.io/npm:react@17.0.2/index.js"
+pin "react", to: "https://ga.jspm.io/npm:react@18.2.0/index.js"
 ~~~
 
 This means that every time you see `import React from "react"` in the code it will actually be like writing `import React from "https://ga.jspm.io/npm:react@17.0.2/index.js"`.
@@ -55,82 +55,54 @@ You start the setup via the configuration file located `config/importmap.rb`. Th
 
 ### Import maps with NPM packages
 
-`importmap-rails` is designed to be used with JavaScript CDNs for NPM package dependencies.
+`importmap-rails` downloads and vendors your npm package dependencies via JavaScript CDNs.
 
 You can use the `./bin/importmap` command that's added as part of the install to `pin`, `unpin`, or `update` npm packages in your import map. This command resolves the package dependencies and adds the pins to your `config/importmap.rb`.
 
-~~~JS
+~~~bash
 $ ./bin/importmap pin react react-dom
-Pinning "react" to https://ga.jspm.io/npm:react@17.0.2/index.js
-Pinning "react-dom" to https://ga.jspm.io/npm:react-dom@17.0.2/index.js
-Pinning "object-assign" to https://ga.jspm.io/npm:object-assign@4.1.1/index.js
-Pinning "scheduler" to https://ga.jspm.io/npm:scheduler@0.20.2/index.js
-
-$ ./bin/importmap json
-
-{
-  "imports": {
-    "application": "/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js",
-    "react": "https://ga.jspm.io/npm:react@17.0.2/index.js",
-    "react-dom": "https://ga.jspm.io/npm:react-dom@17.0.2/index.js",
-    "object-assign": "https://ga.jspm.io/npm:object-assign@4.1.1/index.js",
-    "scheduler": "https://ga.jspm.io/npm:scheduler@0.20.2/index.js"
-  }
-}
+Pinning "react" to vendor/javascript/react.js via download from https://ga.jspm.io/npm:react@18.2.0/index.js
+Pinning "react-dom" to vendor/javascript/react-dom.js via download from https://ga.jspm.io/npm:react-dom@18.2.0/index.js
+Pinning "scheduler" to vendor/javascript/scheduler.js via download from https://ga.jspm.io/npm:scheduler@0.23.0/index.js
 ~~~
 
-The two dependencies `react` and `react-dom` resolve to four total dependencies. Now you can import them in your JavaScript code.
+This will produce pins in your `config/importmap.rb` like this:
+~~~Ruby
+pin "react" # @18.2.0
+pin "react-dom" # @18.2.0
+pin "scheduler" # @0.23.0
+~~~
+
+The packages are downloaded to `vendor/javascript`, which you can check into your source control, and they will be available through your application's asset pipeline.
+
+Now you can import them in your JavaScript code.
 
 ~~~JS
 import React from "react"
 import ReactDOM from "react-dom"
 ~~~
 
-Using the `./bin/importmap` is just a convenience wrapper for resolving logical package names to CDN URLs. You can just look up the CDN URLs yourself and pin those in `config/importmap.rb`:
-
-~~~Ruby
-pin "react", to: "https://cdn.skypack.dev/react"
-~~~
-
-### Downloading vendor files
-
-If you don't want to use a CDN in production, you can download vendored files from the CDN when you're setting up your pins. These packages are downloaded to the `vendor/javascript` directory
+If you want to remove a downloaded pin:
 
 ~~~bash
-$ ./bin/importmap pin react --download
-Pinning "react" to vendor/react.js via download from https://ga.jspm.io/npm:react@17.0.2/index.js
-Pinning "object-assign" to vendor/object-assign.js via download from https://ga.jspm.io/npm:object-assign@4.1.1/index.js
-~~~
-
-This will produce pins in your `config/importmap.rb` like so
-
-~~~ruby
-pin "react" # https://ga.jspm.io/npm:react@17.0.2/index.js
-pin "object-assign" # https://ga.jspm.io/npm:object-assign@4.1.1/index.js
-~~~
-
-If you want to remove a downloaded pin you can pass `--download` to the `unpin` command
-
-~~~bash
-$ ./bin/importmap unpin react --download
+$ ./bin/importmap unpin react
 Unpinning and removing "react"
-Unpinning and removing "object-assign"
 ~~~
 
 #### Preloading pinned modules
 
-To avoid having the browser load one file after another before it can get to the deepest nested import, `importmap-rails` supports [modulepreload](https://developers.google.com/web/updates/2017/12/modulepreload) links. Pinned modules can be preloaded by appending `preload: true` to the pin.
+To avoid having the browser load one file after another before it can get to the deepest nested import, `importmap-rails` uses [modulepreload](https://developers.google.com/web/updates/2017/12/modulepreload) by default. If you don't want to preload a dependency, add `preload: false` to the pin.
 
 ~~~ruby
 # config/importmap.rb
-pin "@github/hotkey", to: "https://ga.jspm.io/npm:@github/hotkey@1.4.4/dist/index.js", preload: true
-pin "md5", to: "https://cdn.jsdelivr.net/npm/md5@2.3.0/md5.js"
+pin "@github/hotkey", to: "@github--hotkey.js" # file lives in vendor/javascript/@github--hotkey.js
+pin "md5", preload: false # file lives in vendor/javascript/md5.js
 
 # app/views/layouts/application.html.erb
 <%= javascript_importmap_tags %>
 
 # will include the following link before the importmap is setup:
-<link rel="modulepreload" href="https://ga.jspm.io/npm:@github/hotkey@1.4.4/dist/index.js">
+<link rel="modulepreload" href="/assets/javascript/@github--hotkey.js">
 ~~~
 
 ### Importmap considerations
