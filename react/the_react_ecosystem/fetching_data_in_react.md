@@ -155,7 +155,7 @@ const Image = () => {
 
 We can separate out the fetching logic altogether into a custom hook. This will allow us to make the logic reusable and easily testable.
 
-Hooks are really just React's term for a function that starts with `use` followed immediately by a capital letter (e.g. `useState` or `useEffect`), just like how React components must start with a capital letter. React will only let you use hooks in the top-level of a component or the top-level of another hook. If we defined our own helper function called `getImageURL` and tried to put `useEffect` in it, React would not be happy about that. Therefore, we just need to follow the hook naming convention e.g. `useImageURL`.
+Recall in the `Introduction to state` lesson we said that a React hook is just a function that lets you use features of React (like states, effects etc.) and that they follow a naming rule where they begin with `use` followed by a capital letter (e.g. `useState` or `useEffect`). If we tried to put a hook such as `useEffect` inside our own regular helper function like `getImageURL`, React would not be happy about this since it only wants hooks to be called in the top level of a component or another hook. Therefore, we can just turn our helper function into a custom hook by following the hook naming rule - `useImageURL`.
 
 Here's how we would do it for our example:
 
