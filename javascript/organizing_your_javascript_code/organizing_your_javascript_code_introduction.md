@@ -14,3 +14,9 @@ The patterns we'll be covering in this series are:
 - ES6 Modules
 
 Going through these will give us a chance to learn about a few other important concepts in JavaScript such as "closure", "prototypes", "IIFEs" and more! This series covers the most important parts of JavaScript after learning the basics of the language... are you ready?
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
