@@ -34,7 +34,7 @@ In order to be ESM compatible, you must provide one of the following specifiers 
     `import React from "./node_modules/react"`
 
 - HTTP path:
-    `import React from "https://ga.jspm.io/npm:react@17.0.1/index.js"`
+    `import React from "https://ga.jspm.io/npm:react@18.2.0/index.js"`
 
 The `importmap-rails` gem provides an API for mapping the "bare module specifiers" to 1 of the 3 ways of loading ESM JavaScript packages.
 
@@ -45,7 +45,7 @@ Example
 pin "react", to: "https://ga.jspm.io/npm:react@18.2.0/index.js"
 ~~~
 
-This means that every time you see `import React from "react"` in the code it will actually be like writing `import React from "https://ga.jspm.io/npm:react@17.0.2/index.js"`.
+This means that every time you see `import React from "react"` in the code it will actually be like writing `import React from "https://ga.jspm.io/npm:react@18.2.0/index.js"`.
 
 #### Using import maps
 
