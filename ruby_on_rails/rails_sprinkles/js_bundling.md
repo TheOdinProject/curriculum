@@ -69,25 +69,25 @@ gem 'jsbundling-rails'
 
 Then run the command below in the terminal within your Rails application folder.
 
-~~~bash
-./bin/bundle install
-~~~
+```bash
+bundle install
+```
 
 Remember the three options for the bundler are esbuild, rollup and webpack and you pick only one.
 
-~~~bash
-./bin/rails javascript:install:<replace the text and <> with your bundler choice>
-~~~
+```bash
+bin/rails javascript:install:<replace the text and <> with your bundler choice>
+```
 
-You should now see this error and a few other ones but don't fear!
+You'll see a few errors after running this, but don't fear! We'll look at them one-by-one.
 
-~~~bash
+```bash
 ✘ [ERROR] Could not resolve "@hotwired/turbo-rails"
 
 app/javascript/application.js:2:7:
 2 │ import "@hotwired/turbo-rails"
 ╵        ~~~~~~~~~~~~~~~~~~~~~~~
-~~~
+```
 
 It's quite explicit in the issue. Resolve is just a fancy word for saying the bundler wasn't able to do anything with this import. Which makes sense as our testapp was set up initially with import maps instead of with esbuild or another bundler.
 
@@ -95,39 +95,74 @@ Now let's see if we can resolve this in our `app/javascript/application.js`. It 
 
 Now let's run the command below.
 
-~~~bash
+```bash
 yarn add @hotwired/turbo-rails
-~~~
+```
 
 Next, run the build command.
 
-~~~bash
+```bash
 yarn run build
-~~~
+```
 
-The error is gone which means esbuild was able to resolve it since it was properly formatted. However that still leaves the `✘ [ERROR] Could not resolve "controllers"`.
+The error is gone which means the bundler was able to resolve it since it was properly formatted. Let's look at the next error:
 
-Let's see if we can solve that too! Remember what we said earlier about this error `✘ [ERROR] Could not resolve "@hotwired/turbo-rails"`. We need to download the appropriate package so that esbuild can bundle it. Go ahead and enter the command below!
+```bash
+✘ [ERROR] Could not resolve "controllers"
 
-~~~bash
-yarn add stimulus
-~~~
+    app/javascript/application.js:3:7:
+      3 │ import "controllers"
+        │        ~~~~~~~~~~~~~
+        ╵        "./controllers"
+```
 
-Now let's run `yarn run build` in the terminal. Woah! We still get the error below despite adding the stimulus package for esbuild. What gives?
+With this error, the bundler is wanting to look for a package name called `controllers`, but we're instead wanting to import code from the `javascript/controllers/` directory in our project. To properly handle this, we can do what it says and change this this to a relative path:
 
-~~~bash
+```javascript
+// app/javascript/application.js
 
-[ERROR] Could not resolve "@hotwired/stimulus-loading"
+import "@hotwired/turbo-rails"
+import "./controllers"
+```
 
-app/javascript/controllers/index.js:6:41:
-6 │ import { eagerLoadControllersFrom } from "@hotwired/stimulus-loading"
-~~~
+Now run the build command again, and you'll see the following error:
 
-_Remember we ran this with import maps_ so the setup is different. Let's go back into our `app/javascript/application.js` and change `import "./controllers"` to `import "./controllers/hello_controller.js"`.
+```bash
+✘ [ERROR] Could not resolve "@hotwired/stimulus-loading"
 
-Now when we run `yarn run build` we should get the proper outcome! Now that we have walked through how to install a Rails app with import maps let's make our life a little bit easier and set it up with jsbundling-rails!
+    app/javascript/controllers/index.js:6:41:
+      6 │ import { eagerLoadControllersFrom } from "@hotwired/stimulus-loading"
+        ╵                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
-Go ahead and enter the below command.
+This error is a bit more confusing than the others. If you try using `yarn add @hotwired/stimulus-loading`, you'll see that a package with that name can't be found. This package is only meant to be used with importmaps as a way to manage how stimulus controllers are loaded.
+
+To solve this and other problems within the `app/javascript/controllers/index.js` file, you can run the following command:
+
+```bash
+bin/rails stimulus:manifest:update
+```
+
+This command will automatically generate the proper code in `app/javascript/controllers/index.js`.
+
+Now if you run `yarn build`, you'll encounter one final error to resolve:
+
+```bash
+✘ [ERROR] Could not resolve "@hotwired/stimulus"
+
+    app/javascript/controllers/hello_controller.js:1:27:
+      1 │ import { Controller } from "@hotwired/stimulus"
+```
+
+The code from the stimulus controllers is being loaded properly now, but it references stimulus, a package we haven't installed. You can do the same thing you did with `turbo-rails` to resolve this error.
+
+```bash
+yarn add @hotwired/stimulus
+```
+
+Now when we run `yarn run build` we should get the proper outcome! You should also be able to run `bin/dev` and see the Rails splash page at `http://localhost:3000`.
+
+Now that we have walked through how to install a Rails app with import maps let's make our life a little bit easier and set it up with jsbundling-rails! Go ahead and enter the below command.
 
 ~~~bash
 rails new myapp -j <replace the text and <> with your bundler choice>
