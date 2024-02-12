@@ -194,7 +194,7 @@ For now, concentrate on using the basics of Git that you've learned here for all
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How do you create a new repository on GitHub?](#new-github-repo)
 - [How do you copy a repository onto your local machine from GitHub?](#github-to-local)
@@ -210,7 +210,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Complete Git and GitHub Tutorial from Basics to Advanced](https://www.youtube.com/watch?v=apGV9Kg7ics) - by Kunal Kushwaha
 - [Git - Reference](https://git-scm.com/docs)
