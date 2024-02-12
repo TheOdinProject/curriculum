@@ -4,9 +4,9 @@ The `transform` property is a powerful tool to change the appearance of elements
 
 You have likely seen it in action on many of your favorite websites! Transforms are very commonly used for animated effects. While we are sure you'll like to create sleek animations of your own, we first need to understand how transforms work.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you will know:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - How to use 2D transforms.
 - How to use 3D transforms.
