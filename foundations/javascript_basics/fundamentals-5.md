@@ -125,7 +125,7 @@ In the above function, we:
 - Pass in a callback function, which is `(total, currentItem) => total * currentItem`.
 - Initialise total to `1` in the second argument.
 
-So what `.reduce()` will do, is it will once again go through every element in `arr` and apply the `callback` function to it. It then **stores** the output in `total`, which is 1 at the beginning. 
+So what `.reduce()` will do, is it will once again go through every element in `arr` and apply the `callback` function to it. It then changes `total`, without actually changing the array itself. After it's done, it returns `total`.
 
 #### Summary 
 
