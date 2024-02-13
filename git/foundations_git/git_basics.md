@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Create the repository
 
-1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting Up Git](https://www.theodinproject.com/lessons/foundations-setting-up-git) lesson. If you haven't done that yet, you can sign up [here](https://github.com/).
+1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting Up Git](https://www.theodinproject.com/lessons/foundations-setting-up-git) lesson. If you haven't done that yet, you can sign up on [GitHub](https://github.com/).
 
 1. Create a new repository by clicking the button shown in the screenshot below.
 
@@ -214,4 +214,4 @@ This section contains helpful links to related content. It isn't required, so co
 
 - [Complete Git and GitHub Tutorial from Basics to Advanced](https://www.youtube.com/watch?v=apGV9Kg7ics) - by Kunal Kushwaha
 - [Git - Reference](https://git-scm.com/docs)
-- [This article about adding locally hosted code to GitHub](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github) will walk you through creating a git repository from a local folder and adding it to GitHub.
+- [GitHub guide on adding locally hosted code](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github) walks you through creating a git repository from a local folder and adding it to GitHub.
