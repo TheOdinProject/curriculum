@@ -45,6 +45,7 @@
         "iframe",
         "details",
         "summary",
+        "pre",
         "code"
       ]
     },
