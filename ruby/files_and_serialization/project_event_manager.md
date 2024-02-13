@@ -1,19 +1,19 @@
 ### Introduction
 Please note this tutorial has been adapted from The Turing School's and Jump Start Lab's [Event Manager](http://tutorials.jumpstartlab.com/projects/eventmanager.html) and updated to use GoogleCivic API
 
-### Learning goals
+### Lesson overview
 
-After completing this tutorial, you will be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-* manipulate [file](https://docs.ruby-lang.org/en/3.2/File.html) input and output
-* read content from a [CSV](https://docs.ruby-lang.org/en/3.2/CSV.html) (Comma Separated Value) file
-* transform it into a standardized format
-* utilize the data to contact a remote service
-* populate a template with user data
-* manipulate [strings](https://docs.ruby-lang.org/en/3.2/String.html)
-* access [Google's Civic Information API](https://developers.google.com/civic-information/) through
-  the [Google API Client Gem](https://github.com/google/google-api-ruby-client)
-* use [ERB](https://docs.ruby-lang.org/en/3.2/ERB.html) (Embedded Ruby) for templating
+- Manipulate [file](https://docs.ruby-lang.org/en/3.2/File.html) input and output.
+- Read content from a [CSV](https://docs.ruby-lang.org/en/3.2/CSV.html) (Comma Separated Value) file.
+- Transform it into a standardized format.
+- Utilize the data to contact a remote service.
+- Populate a template with user data.
+- Manipulate [strings](https://docs.ruby-lang.org/en/3.2/String.html).
+- Access [Google's Civic Information API](https://developers.google.com/civic-information/) through
+  the [Google API Client Gem](https://github.com/google/google-api-ruby-client).
+- Use [ERB](https://docs.ruby-lang.org/en/3.2/ERB.html) (Embedded Ruby) for templating.
 
 <div class="lesson-note" markdown="1">
   This tutorial is open source. If you notice errors, typos, or have questions/suggestions, please [submit them to the project on GitHub](https://github.com/TheOdinProject/curriculum/blob/main/ruby/files_and_serialization/project_event_manager.md).

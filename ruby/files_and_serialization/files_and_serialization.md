@@ -10,16 +10,17 @@ Luckily, Ruby again makes things pretty easy for you. There are some generally a
 
 Finally, files and serialization overlap in a lot of ways with the idea and purpose of databases -- they facilitate the ability to maintain state and permanence for your data.  We'll briefly look into some basic database connections that Ruby provides as well.
 
-### Learning outcomes
-Look through these now and then use them to test yourself after doing the assignment.
+### Lesson overview
 
-* What are two ways to store a file from your hard drive into a string or array in your Ruby script?
-* What are three things made possible or much easier by serialization?
-* What is JSON?
-* What is YAML?
-* How do you turn a Ruby object into JSON?
-* How do you turn JSON into a Ruby object?
-* What classes and methods can your Ruby script use to read and write to the hard drive?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What are two ways to store a file from your hard drive into a string or array in your Ruby script?
+- What are three things made possible or much easier by serialization?
+- What is JSON?
+- What is YAML?
+- How do you turn a Ruby object into JSON?
+- How do you turn JSON into a Ruby object?
+- What classes and methods can your Ruby script use to read and write to the hard drive?
 
 ### Assignment
 
