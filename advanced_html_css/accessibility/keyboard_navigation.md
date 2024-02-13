@@ -2,14 +2,13 @@
 
 Some users aren't able to use a mouse to navigate or operate their computer, and by extension the websites they visit. These users may instead rely on using a keyboard or another assistive technology that can simulate keyboard inputs, such as voice recognition software. Other users may even just prefer using a keyboard over a mouse, or may use a mix of both. These users require proper keyboard navigation, something that can easily be overlooked when developing a website.
 
-### Lesson overview
+### Learning outcomes
+By the end of this lesson, you should be able to:
 
-This section contains a general overview of topics that you will learn in this lesson.
-
-- Know the two things that interactive elements must have for keyboard users.
-- Understand what focus styles are and why you shouldn't completely remove them.
-- Understand what the tab order is.
-- Know how to properly hide hidden content from assistive technologies.
+* Know the two things that interactive elements must have for keyboard users.
+* Understand what focus styles are and why you shouldn't completely remove them.
+* Understand what the tab order is.
+* Know how to properly hide hidden content from assistive technologies.
 
 ### Focus
 
