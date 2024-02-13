@@ -224,11 +224,6 @@ fruits.none? { |fruit| fruit.length > 6 }
   2. Complete the [predicate enumerable](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* There are many more enumerable methods than are covered in this lesson (e.g., `#member?`). For a full listing, you can check out the [Ruby Docs](https://docs.ruby-lang.org/en/3.2/Enumerable.html).
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -237,3 +232,9 @@ This section contains questions for you to check your understanding of this less
  * <a class="knowledge-check-link" href="#the-any-method">What does the `#any?` method do?</a>
  * <a class="knowledge-check-link" href="#the-all-method">What does the `#all?` method do?</a>
  * <a class="knowledge-check-link" href="#the-none-method">What does the `#none?` method do?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- There are many more enumerable methods than are covered in this lesson (e.g., `#member?`). For a full listing, you can check out the [Ruby Docs](https://docs.ruby-lang.org/en/3.2/Enumerable.html).

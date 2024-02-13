@@ -144,13 +144,6 @@ Here is a brief look at some other common array methods you might run into:
 4. Let's get some practice reading documentation. You'll feel just like a real programmer! What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look these methods up in the [Array class documentation](https://docs.ruby-lang.org/en/3.2/Array.html). Were you close?
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* Read the official documentation on [class Array](https://docs.ruby-lang.org/en/3.2/Array.html).
-* If you need a different take on arrays, read through this article by [zetcode](http://zetcode.com/lang/rubytutorial/arrays/).
-* Arrays also allow for **set operations**, which you can read about [here](https://www.endpointdev.com/blog/2011/06/using-set-operators-with-ruby-arrays/). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -159,3 +152,11 @@ This section contains questions for you to check your understanding of this less
  * <a class='knowledge-check-link' href='#accessing-elements'>What are some ways of accessing the elements in an array?</a>
  * <a class='knowledge-check-link' href='#adding-and-removing-elements'>What are 3 ways to add data to an array?</a>
  * <a class='knowledge-check-link' href='#adding-and-removing-elements'>How can you remove elements from an array?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+-  Read the official documentation on [class Array](https://docs.ruby-lang.org/en/3.2/Array.html).
+-  If you need a different take on arrays, read through this article by [zetcode](http://zetcode.com/lang/rubytutorial/arrays/).
+-  Arrays also allow for **set operations**, which you can read about [here](https://www.endpointdev.com/blog/2011/06/using-set-operators-with-ruby-arrays/). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!

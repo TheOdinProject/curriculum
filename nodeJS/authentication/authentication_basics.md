@@ -78,7 +78,7 @@ app.listen(3000, () => console.log("app listening on port 3000!"));
 
 Most of this should look familiar to you by now, except for the new imported middleware for express-session and passport. We are not actually going to be using express-session directly, it is a dependency that is used in the background by passport.js. You can take a look at what it does [here](https://github.com/expressjs/session).
 
-To keep things simple, our view engine is set up to just look in the main directory, and it's looking for a template called `index.ejs` so go ahead and create that:
+Our view engine is set up to just look in the main directory, and it's looking for a template called `index.ejs` so go ahead and create that:
 
 ```html
 <!DOCTYPE html>
@@ -123,7 +123,6 @@ Create a new template called `sign-up-form`, and a route for `/sign-up` that poi
 //// app.js
 
 app.get("/sign-up", (req, res) => res.render("sign-up-form"));
-
 ```
 
 Next, create an `app.post` for the sign up form so that we can add users to our database (remember our notes about sanitation, and using plain text to store passwords...).
@@ -177,7 +176,9 @@ This function is what will be called when we use the `passport.authenticate()` f
 
 ### Functions two and three: sessions and serialization
 
-<span id='cookie'>To make sure our user is logged in, and to allow them to _stay_ logged in as they move around our app, passport will use some data to create a cookie which is stored in the user's browser</span>. These next two functions define what bit of information passport is looking for when it creates and then decodes the cookie.  The reason they require us to define these functions is so that we can make sure that whatever bit of data it's looking for actually exists in our Database! For our purposes, the functions that are listed in the passport docs will work just fine.
+<span id='cookie'>To make sure our user is logged in, and to allow them to _stay_ logged in as they move around our app, passport will use some data to create a cookie which is stored in the user's browser</span>. These next two functions define what bit of information passport is looking for when it creates and then decodes the cookie. The reason they require us to define these functions is so that we can make sure that whatever bit of data it’s looking for actually exists in our Database! passport.serializeUser takes a callback which contains the information we wish to store in the session data. passport.deserializeUser is called when retrieving a session, where it will extract the data we "serialized" in it then ultimately attach something to the .user property of the request object (req.user) for use in the rest of the request.
+
+For our purposes, the functions that are listed in the passport docs will work just fine:
 
 ```javascript
 passport.serializeUser((user, done) => {
@@ -193,12 +194,17 @@ passport.deserializeUser(async (id, done) => {
   };
 });
 ```
+<div class="lesson-note" markdown="1">
+  `user.id` is a virtual getter provided by mongoose which returns the document's _id field cast to a string.  [Documentation](#strategy)
+</div>
 
-Again, we aren't going to be calling these functions on our own, they're used in the background by passport.
+When a session is created, passport.serializeUser will receive the user object found from a successful login and store its .id property in the session data. Upon some other request, if it finds a matching session for that request, passport.deserializeUser will retrieve the id we stored in the session data. We then use that id to query our database for the specified user, then done(null, user) attaches that user object to req.user. Now in the rest of the request, we have access to that user object via req.user.
+
+Again, we aren’t going to be calling these functions on our own, they’re used in the background by passport.
 
 ### Log in form
 
-To keep things nice and simple let's go ahead and add the login form directly to our index template. The form will look just like our sign-up form, but instead of `POST`ing to `/sign-up` we'll add an `action` to it so that it `POST`s to `/log-in` instead. Add the following to your index template:
+Let's go ahead and add the login form directly to our index template. The form will look just like our sign-up form, but instead of `POST`ing to `/sign-up` we'll add an `action` to it so that it `POST`s to `/log-in` instead. Add the following to your index template:
 
 ```html
 <h1>please log in</h1>
@@ -266,7 +272,7 @@ and then edit your view to make use of that object like this:
 
 So, this code checks to see if there is a user defined... if so it offers a welcome message, and if NOT then it shows the login form.  Neat!
 
-As one last step... let's make that log out link actually work for us. As you can see it's simply sending us to `/log-out` so all we need to do is add a route for that in our app.js.  Conveniently, the passport middleware adds a logout function to the `req` object, so logging out is as easy as this:
+As one last step... let's make that log out link actually work for us. As you can see it's sending us to `/log-out` so all we need to do is add a route for that in our app.js.  Conveniently, the passport middleware adds a logout function to the `req` object, so logging out is as easy as this:
 
 ```javascript
 app.get("/log-out", (req, res, next) => {
@@ -285,7 +291,7 @@ You should now be able to visit `/sign-up` to create a new user, then log-in usi
 
 In express, you can set and access various local variables throughout your entire app (even in views) with the `locals` object. We can use this knowledge to write ourselves a custom middleware that will simplify how we access our current user in our views.
 
-Middleware functions are simply functions that take the `req` and `res` objects, manipulate them, and pass them on through the rest of the app.
+Middleware functions are functions that take the `req` and `res` objects, manipulate them, and pass them on through the rest of the app.
 
 ```javascript
 app.use((req, res, next) => {
@@ -298,7 +304,7 @@ If you insert this code somewhere between where you instantiate the passport mid
 
 ### Securing passwords with bcrypt
 
-Now, let's go back and learn how to securely store user passwords so that if anything ever goes wrong, or if someone gains access to our database, our user passwords will be safe.  This is _insanely_ important, even for the simplest apps, but luckily it's also really simple to set up.
+Now, let's go back and learn how to securely store user passwords so that if anything ever goes wrong, or if someone gains access to our database, our user passwords will be safe.  This is _insanely_ important, even for the most basic apps.
 
 First `npm install bcryptjs`. There is another module called `bcrypt` that does the same thing, but it is written in C++ and is sometimes a pain to get installed. The C++ `bcrypt` is technically faster, so in the future it might be worth getting it running, but for now, the modules work the same so we can just use `bcryptjs`.
 
@@ -321,7 +327,7 @@ The second argument is the length of the "salt" to use in the hashing function; 
 
 Usually, the salt gets stored in the database in the clear next to the hashed value, but in our case, there is no need to do so because the hashing algorithm that `bcryptjs` uses includes the salt automatically with the hash.
 
-The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a simple password, then go look at your DB entries to see how it's being stored.  If you've done it right, your password should have been transformed into a really long random string.
+The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a password, then go look at your DB entries to see how it's being stored. If you've done it right, your password should have been transformed into a really long random string.
 
 It's important to note that _how_ hashing works is beyond the scope of this lesson. To learn more about the subject consider reading [This wikipedia article](https://en.wikipedia.org/wiki/Cryptographic_hash_function).
 
