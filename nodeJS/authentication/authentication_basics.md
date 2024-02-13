@@ -176,7 +176,9 @@ This function is what will be called when we use the `passport.authenticate()` f
 
 ### Functions two and three: sessions and serialization
 
-<span id='cookie'>To make sure our user is logged in, and to allow them to _stay_ logged in as they move around our app, passport will use some data to create a cookie which is stored in the user's browser</span>. These next two functions define what bit of information passport is looking for when it creates and then decodes the cookie.  The reason they require us to define these functions is so that we can make sure that whatever bit of data it's looking for actually exists in our Database! For our purposes, the functions that are listed in the passport docs will work just fine.
+<span id='cookie'>To make sure our user is logged in, and to allow them to _stay_ logged in as they move around our app, passport will use some data to create a cookie which is stored in the user's browser</span>. These next two functions define what bit of information passport is looking for when it creates and then decodes the cookie. The reason they require us to define these functions is so that we can make sure that whatever bit of data it’s looking for actually exists in our Database! passport.serializeUser takes a callback which contains the information we wish to store in the session data. passport.deserializeUser is called when retrieving a session, where it will extract the data we "serialized" in it then ultimately attach something to the .user property of the request object (req.user) for use in the rest of the request.
+
+For our purposes, the functions that are listed in the passport docs will work just fine:
 
 ```javascript
 passport.serializeUser((user, done) => {
@@ -192,8 +194,13 @@ passport.deserializeUser(async (id, done) => {
   };
 });
 ```
+<div class="lesson-note" markdown="1">
+  `user.id` is a virtual getter provided by mongoose which returns the document's _id field cast to a string.  [Documentation](#strategy)
+</div>
 
-Again, we aren't going to be calling these functions on our own, they're used in the background by passport.
+When a session is created, passport.serializeUser will receive the user object found from a successful login and store its .id property in the session data. Upon some other request, if it finds a matching session for that request, passport.deserializeUser will retrieve the id we stored in the session data. We then use that id to query our database for the specified user, then done(null, user) attaches that user object to req.user. Now in the rest of the request, we have access to that user object via req.user.
+
+Again, we aren’t going to be calling these functions on our own, they’re used in the background by passport.
 
 ### Log in form
 
