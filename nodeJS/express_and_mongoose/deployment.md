@@ -95,7 +95,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ### Fly.io
 
-- Fly.io uses a simple CLI tool for deployment.
+- Fly.io uses a convenient CLI tool for deployment.
 - Pay for what you use with very reasonable rates. Each app should cost around $4 per month.
 - $20 a month should be enough to host eight apps (including three apps for free).
 
@@ -114,7 +114,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ### Railway.app
 
-- Railway has a simple deployment process. You link to your project's GitHub repo.
+- Railway has a convenient deployment process. You link to your project's GitHub repo.
 - Pay for what you use model.
 - $5 a month should be enough to host four applications.
 
@@ -132,7 +132,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ### Adaptable.io
 
-- Like Railway, has a simple deployment process. You simply link to your project's GitHub repo.
+- Like Railway, has a convenient deployment process. You link to your project's GitHub repo.
 - Free plan does not limit the number of applications you can deploy.
 - Also has fixed and usage-based payment plans.
 
@@ -153,7 +153,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ### Render
 
-- Render allows you to deploy using simple "Blueprints", which link to your project's GitHub repo.
+- Render allows you to deploy using "Blueprints", which link to your project's GitHub repo.
 - The free 750-hour allowance is enough to host a few apps without paying anything. However, databases are separate on Render, and the lowest spec databases cost $7 each. This is a good option to use in tandem with MongoDB Atlas.
 - $21 a month is enough to host three applications as each app's database will cost $7.
 
@@ -161,6 +161,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 - 750 hours of free usage per month.
 - Applications are put to sleep automatically after 15 minutes of inactivity, so the 750 free hours should be enough to host a few apps for the entire month.
+- Requires a credit card.
 
 **Links**
 
@@ -173,7 +174,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ### Heroku
 
-- Heroku has a straightforward deployment process using a combination of a simple and well-documented CLI tool and Git.
+- Heroku has a straightforward deployment process using a combination of a well-documented CLI tool and Git.
 - Heroku is a very mature platform which has been around for over a decade. Any problems you encounter are almost guaranteed to have a solution documented on Stack Overflow or elsewhere on the internet.
 - The $5 per month eco plan will give you 1000 free hours each month for all your applications. Applications are automatically put to sleep after 30 minutes of inactivity, so the 1000-hour allowance should last the entire month for several of your portfolio projects.
 - Heroku's lowest-tier Postgresql databases cost $5 per month, effectively costing each application $5 to host.
@@ -195,7 +196,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 Errors are an inevitable part of the software development process. They especially have a habit of popping up when deploying to a new environment like a hosting provider. When this happens, the key is not to panic and to follow a calm, step-by-step debugging process.
 
-In most cases, you'll be running into errors that thousands of developers have encountered before. These errors are well documented and often have simple solutions you can find with a little bit of Google-fu.
+In most cases, you'll be running into errors that thousands of developers have encountered before. These errors are well documented and often have solutions you can find with a little bit of Google-fu.
 
 There are two stages of the deployment process where you are most likely to encounter problems. These are during deployment and right after.
 

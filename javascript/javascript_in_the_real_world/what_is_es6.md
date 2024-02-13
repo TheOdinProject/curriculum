@@ -19,3 +19,9 @@ In all honesty, this is not something that you are going to _need_ to worry abou
 
 - Follow the instructions [here](https://github.com/babel/babel-loader) to install the babel-loader and use it with webpack. If you've already got webpack up and running in a project, adding babel is a cinch!
 - Read [this article](https://blog.jakoblind.no/babel-preset-env/) to better understand presets and plugins in Babel. It will also show you how to target specific browser versions you want to support.
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

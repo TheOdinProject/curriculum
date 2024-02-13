@@ -3,8 +3,9 @@ Tracking down and fixing both errors and unexpected behavior in your code is an 
 
 In this lesson, we'll cover all of the main techniques you can use to debug your code when you run into a problem.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
  - Describe what a stack trace is.
  - Explain how you can use a stack trace to debug your code.
@@ -206,14 +207,6 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 7. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* Read through [HOWTO debug your Ruby code](https://readysteadycode.com/howto-debug-your-ruby-code), especially the first section on `puts` debugging, by ReadySteadyCode.
-* Read the article on [Debugging without doom and gloom](https://practicingruby.com/articles/debugging-without-doom-and-gloom) by Practicing Ruby.
-* Poke around [Pry's wiki](https://github.com/pry/pry/wiki) for a collection of resources that will help you master this invaluable gem.
-* Read this brilliant article about [reading Ruby error messages](https://medium.com/@roni.shabo/overcoming-ruby-error-messages-ebf53928b64e).
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -224,3 +217,12 @@ This section contains questions for you to check your understanding of this less
  * <a class='knowledge-check-link' href='#debugging-with-puts-and-nil'>What should you use instead of `puts` for `nil` values?</a>
  * <a class='knowledge-check-link' href='#debugging-with-stack-trace'>Where should you start with debugging if you encounter a runtime error?</a>
  * <a class='knowledge-check-link' href='#debugging-without-stack-trace'>Where should you start with debugging if your program runs but does not work the way you expect?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- Read through [HOWTO debug your Ruby code](https://readysteadycode.com/howto-debug-your-ruby-code), especially the first section on `puts` debugging, by ReadySteadyCode.
+- Read the article on [Debugging without doom and gloom](https://practicingruby.com/articles/debugging-without-doom-and-gloom) by Practicing Ruby.
+- Poke around [Pry's wiki](https://github.com/pry/pry/wiki) for a collection of resources that will help you master this invaluable gem.
+- Read this brilliant article about [reading Ruby error messages](https://medium.com/@roni.shabo/overcoming-ruby-error-messages-ebf53928b64e).

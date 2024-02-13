@@ -1,8 +1,9 @@
 ### Introduction
 Now that you've learned about arrays, it's time to get into the array's supercharged cousin: **the hash**. Ruby hashes are more advanced collections of data and are similar to objects in JavaScript and dictionaries in Python if you're familiar with those.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
  - Explain what a hash is.
  - Describe how to create a new hash and how to add information to it.
@@ -165,12 +166,6 @@ japanese_cars[:honda]   #=> "Accord"
 2. Complete the [hash](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
-
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* Read the article [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes) by Erik Trautman. Note that one of the delete examples is incorrect: setting a value to `nil` does not delete the key-value pair.
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -182,3 +177,9 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#removing-data'>How can you delete existing data from a hash?</a>
 - <a class='knowledge-check-link' href='#merging-two-hashes'>How can you merge two hashes together?</a>
 - <a class='knowledge-check-link' href='#symbols-as-hash-keys'>Why is it preferred to use symbols as hash keys?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- Read the article [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes) by Erik Trautman. Note that one of the delete examples is incorrect: setting a value to `nil` does not delete the key-value pair.
