@@ -4,15 +4,15 @@ So far, you've learned how to create a grid, adjust the sizes of the tracks, and
 
 In this lesson, you will learn about some more advanced Grid properties that can help you do this.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you will be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Create multiple grid tracks more easily using the `repeat` function
-- Create grid tracks using `fr` units instead of an explicit size
-- Set minimum, maximum, and ideal track size boundaries
-- Use `auto-fit` and `auto-fill` to create a grid with a dynamic number of rows or columns
-- Use `auto-fit`/`auto-fill` along with `minmax()` to create responsive grids
+- Create multiple grid tracks more easily using the `repeat` function.
+- Create grid tracks using `fr` units instead of an explicit size.
+- Set minimum, maximum, and ideal track size boundaries.
+- Use `auto-fit` and `auto-fill` to create a grid with a dynamic number of rows or columns.
+- Use `auto-fit`/`auto-fill` along with `minmax()` to create responsive grids.
 
 ### Setup
 
