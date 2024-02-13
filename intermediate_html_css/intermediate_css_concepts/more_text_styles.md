@@ -4,6 +4,8 @@ You've already done a bit of text-manipulation in our Foundations lessons. This 
 
 ### Lesson overview
 
+This section contains a general overview of topics that you will learn in this lesson.
+
 - You'll learn how to use custom fonts on your web projects.
 - You'll learn some more text-related CSS properties.
 
