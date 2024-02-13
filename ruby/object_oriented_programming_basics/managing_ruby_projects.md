@@ -25,7 +25,17 @@ Organizing your projects into different files has many practical benefits. Chief
 
 Remember that old saying about how to keep your physical environment organized - "A place for everything and everything in its place". The same principle applies to software projects.
 
-For Ruby projects, the rule of thumb is one class per file. Every time you create a new class, you should create a new file for it to live in.
+For Ruby projects, the rule of thumbs are:
+
+- One class per file. Every time you create a new class, you should create a new file for it to live in.
+- It is convention to put all your Ruby files into a lib directory. For example:
+
+```bash
+project_name
+├── lib
+│   └── lovely_file_of_yours.rb
+└── main.rb
+```
 
 ### Making use of multiple files
 
