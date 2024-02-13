@@ -6,16 +6,16 @@ Congratulations on making it to one of the last lessons in Foundations! By this 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Creating objects.
-* Accessing object properties.
-* Being able to use multiple object operators.
-* Being able to use some powerful array functions.
+- Creating objects.
+- Accessing object properties.
+- Being able to use multiple object operators.
+- Being able to use some powerful array functions.
 
 ### Objects
 
-Objects are a _very_ important part of the JavaScript language, and while for the most part you can accomplish simple and even intermediate tasks without worrying about them, any real project that you're going to attempt is going to feature Objects. The uses of Objects in JavaScript can get deep relatively quickly, so for the moment we're only going to cover the basics.  There'll be an in-depth dive later.
+Objects are a *very* important part of the JavaScript language, and while for the most part you can accomplish simple and even intermediate tasks without worrying about them, any real project that you're going to attempt is going to feature Objects. The uses of Objects in JavaScript can get deep relatively quickly, so for the moment we're only going to cover the basics.  There'll be an in-depth dive later.
 
-1. [This JavaScript.info](https://javascript.info/object) article is the best place to get started with Objects.
+1. This javascript.info [article on objects](https://javascript.info/object) is the best place to get started.
 2. [The MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
 
 ### Intermediate/advanced array magic
@@ -23,6 +23,7 @@ Objects are a _very_ important part of the JavaScript language, and while for th
 Besides being a quick and handy way to store data, arrays also have a set of functions for manipulating that data in very powerful ways.  Once you begin to master these functions you will start to see ways to use them all over the place! There are really only a handful of these functions... but as you'll soon see, the possibilities of what you can do with them are near endless.
 
 As an example of what we mean, let's consider a `sumOfTripledEvens` function. It will:
+
 - Take in an array
 - For every even number, it will triple it
 - Then it will sum all those even numbers
@@ -61,7 +62,7 @@ In the above function we use 3 array methods that accomplish the same task. Let'
 - `.reduce` will take the result of `.map` and convert that array to a single value. The way it does this is by storing the sum in the `accumulator` variable, which we initialise to `0` as the second argument of the function. Then, it will iterate through the array returned by `.map` and add every element to `accumulator`, finally returning the accumulator.
 - Finally, it returns the output of `.reduce` from the function.
 
-In the end, we have a function that is more concise, readable and less prone to bugs. 
+In the end, we have a function that is more concise, readable and less prone to bugs.
 
 For a quick recap of these array methods, consider this picture which should visually explain them in terms of sandwiches:
 
