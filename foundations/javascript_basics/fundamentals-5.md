@@ -28,47 +28,116 @@ As an example of what we mean, let's consider a `sumOfTripledEvens` function. It
 - For every even number, it will triple it
 - Then it will sum all those even numbers
 
-Currently, if you wanted to implement a function like that you may write something similar to this:
+Can you try thinking of how you could implement a function like that using pseudocode?
+  
+1. We need to perform an operation only on the even numbers.
+1. We need to transform *those* numbers into triple numbers.
+1. Finally, we need to add the result up from the previous transformation.
+
+So using that logic, you may end up implementing something like this:
 
 ```javascript
 function sumOfTripledEvens(array) {
   let sum = 0;
   for (let i = 0; i < array.length; i++) {
+    // Step 1: If the element is an even number
     if (array[i] % 2 === 0) {
-      sum += array[i] * 3;
+      // Step 2: Multiply this number by three
+      const tripleEvenNumber = array[i] * 3;
+
+      // Step 3: Add the new number to the total
+      sum += tripleEvenNumber;
     }
   }
   return sum;
 }
 ```
 
-We have a function `sumOfTripledEvens` that takes in an `array`, it then iterates through the array and for every even number it adds triple that number to sum. After the `for` loop is complete, it returns the sum.
+In the above code, there are 3 important snippets to consider:
 
-So that works, but there are more elegant ways of going about this. For instance, you could re-write the above as follows:
+- `if (array[i] % 2 === 0)`: checks if a given number is even.
+- `array[i] * 3;`: multiply this number by three.
+- `sum += tripleEvenNumber`: add that number to the total.
 
-```javascript
-function sumOfTripledEvens(array) {
-  return array
-    .filter(x => x % 2 === 0)
-    .map(x => x * 3)
-    .reduce((accumulator, current) => accumulator + current, 0);
+Every single piece solves a cruicial problem with our code.
+But it is possible to make the function more concise and readable by using some built-in array methods. 
+These methods are slightly more complicated than you've been used to, so let's take a moment to understand how to use them.
+
+#### The .map() method
+
+`.map(callback)` is one such function. It expects a `callback` as an argument, which is a fancy way to say "I want to pass another function as an argument to my function".
+
+Let's say we had a function `addOne(num)`, which takes in `num` as an argument and outputs that `num` increased by 1. 
+And let's say we had an array of numbers, `const arr = [1, 2, 3, 4, 5]` and we'd like to increase all of these numbers by `+1` using our `addOne(num)` function.
+Instead of making a `for` loop and iterating over the above array, we could use our `.map(callback)` array method instead, which **automatically** iterates over an array for us. 
+We don't need to do any extra work aside from simply passing the function we want to use in:
+```js
+function addOne(num) {
+  return ++num;
 }
+const arr = [1, 2, 3, 4, 5];
+arr.map(addOne); // Outputs [2, 3, 4, 5, 6]
 ```
 
-In the above function we use 3 array methods that accomplish the same task. Let's assume we input the array `[4, 5, 1, 10, 2, 5, 9]`. To break it down:
+This is a much more elegant approach, what do you think? We could even go a step further and define a function right inside of `map()` like so:
 
-- `.filter` will take our `array` and remove all non-even numbers from it, so it the result will be `[4, 10, 2]`.
-- `.map` will take the result of `.filter` and then transform all those numbers into triple numbers, it's result will be `[12, 30, 6]`.
-- `.reduce` will take the result of `.map` and convert that array to a single value. The way it does this is by storing the sum in the `accumulator` variable, which we initialise to `0` as the second argument of the function. Then, it will iterate through the array returned by `.map` and add every element to `accumulator`, finally returning the accumulator.
-- Finally, it returns the output of `.reduce` from the function.
+```js
+const arr = [1, 2, 3, 4, 5];
+arr.map(num => num + 1); // Outputs [2, 3, 4, 5, 6]; 
+```
 
-In the end, we have a function that is more concise, readable and less prone to bugs.
+Can you try think of a way to multiply every number in the array by 3 instead of adding 1 to it?  
+We could do it like this:
+```js
+arr.map(num => num * 3); // Outputs [6, 9, 12, 15, 18];
+```
+
+#### The .filter() method
+
+`.filter(callback)` is very similar to `.map(callback)`, it still iterates through the array and applies the callback function on every item. However, now instead of simply transforming values, it evaluates them. 
+Let's say we had a function, `isOdd` that returns either `true` if a number is odd or `false` if it isn't. 
+
+The `.filter(callback)` expects the `callback` to return either `true` or `false`. If it returns `true`, the value is included in the output. Otherwise, it isn't.
+Consider the array from our previous example, `[1, 2, 3, 4, 5]`. 
+If we wanted to remove all even numbers from this array, we could use `.filter()` like this:
+
+```js
+arr.filter(isOdd); // Outputs [1, 3, 5];
+```
+
+- `.filter(isOdd)` will iterate through the `arr` and pass **every value** into the `isOdd()` callback. 
+- `.isOdd()` will return `true` when the value is odd, which means this value is included in the output.
+- If it's an even number, `isOdd()` will return `false` and not include it in the final output.
+
+#### The .reduce() method
+
+Finally, let's say that we wanted to multiply all of the numbers in our `arr` together like this: `1 * 2 * 3 * 4 * 5`.
+First, we'd have to declare a variable `total` and initialize it to 0. Then, we'd iterate through the array with a `for` loop and multiply the `total` by the current number.
+
+But we don't actually need to do all of that, we have our `.reduce(callback, initialValue)` method that will do the job for us. Just like `.map()` and `.reduce()` it expects a callback function.
+However, it also takes in an `initialValue` which makes our lives easier and we don't have to declare a variable like `const total = 1` and instead `.reduce()` does that for us.
+
+```js
+arr.reduce(((total, currentItem) => total * currentItem), 1); // Outputs [1, 2, 6, 24, 120];
+```
+
+In the above function, we: 
+- Pass in a callback function, which is `(total, currentItem) => total * currentItem`.
+- Initialise total to `1` in the second argument.
+
+So what `.reduce()` will do, is it will once again go through every element in `arr` and apply the `callback` function to it. It then **stores** the output in `total`, which is 1 at the beginning. 
+
+#### Summary 
+
+You've learnt about the three powerful array methods which are `.map()`, `.filter()` and `.reduce()`. They allow us to write shorter code that is more readable and less prone to bugs. 
 
 For a quick recap of these array methods, consider this picture which should visually explain them in terms of sandwiches:
 
 ![Alt text](https://static.observableusercontent.com/thumbnail/bea194824f0d5842addcb7910bb488795c6f80f143ab5332b28a317ebcecd603.jpg)
 
-Don't worry if you don't fully understand these methods at this point, the above example is just a teaser to demonstrate their power. The assignment material provided will go deeper into the specifics of these functions.
+Your task is now to rewrite the `sumOfTripledEvens(array)` function using these three methods. **Hint**: you don't need to declare any variables, just having a single `return` within the function will be enough.
+
+Once you are finished and you've tested that your function works correctly, check out the [solution in this gist](#).
 
 ### Assignment
 
