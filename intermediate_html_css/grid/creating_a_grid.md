@@ -2,14 +2,14 @@
 
 Now that you know what CSS Grid Layout is, you’ll learn how to create your own grid. This lesson will cover making a grid container, adding columns and rows, the explicit and implicit concept behind Grid and how to space out grid gaps.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Make a grid container
-- Define grid tracks
-- Explain the difference between an implicit and explicit grid
-- Set gaps between grid cells
+- Make a grid container.
+- Define grid tracks.
+- Explain the difference between an implicit and explicit grid.
+- Set gaps between grid cells.
 
 ### Setting up a grid
 
