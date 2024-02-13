@@ -134,7 +134,7 @@ You've learnt about the three powerful array methods which are `map`, `filter` a
 
 For a quick recap of these array methods, consider this picture which should visually explain them in terms of sandwiches:
 
-![Alt text](https://static.observableusercontent.com/thumbnail/bea194824f0d5842addcb7910bb488795c6f80f143ab5332b28a317ebcecd603.jpg)
+![example of filter, map and reduce methods being used to visually represent making a sandwich](https://static.observableusercontent.com/thumbnail/bea194824f0d5842addcb7910bb488795c6f80f143ab5332b28a317ebcecd603.jpg)
 
 Let's do some quick practice before your assignment! Rewrite the `sumOfTripledEvens(array)` function using these three methods.
 
