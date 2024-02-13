@@ -1,5 +1,6 @@
-### Learning outcomes
-By the end of this lesson, you should be able to do or answer the following:
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain how token authentication differs from session based authentication.
 - What are JSON Web Tokens? 
