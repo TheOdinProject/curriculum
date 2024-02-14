@@ -1,6 +1,6 @@
 ### Introduction
 
-You've come a long way. Now it's time to prove how much you've learned. 
+You've come a long way. Now it's time to prove how much you've learned.
 
 Chess is a classic game that appears very complicated at first but can be broken down into logical steps that make it a great Ruby capstone project.  If you've never played, be sure to read up on the rules (see the [Wikipedia Page](http://en.wikipedia.org/wiki/Chess)) first.
 
