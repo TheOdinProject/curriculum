@@ -135,7 +135,7 @@ For a quick recap of these array methods, consider this picture which should vis
 Let's do some quick practice before your assignment! Rewrite the `sumOfTripledEvens(array)` function using these three methods.
 
 Once you are finished and you've tested that your function works correctly, check out the solution below.
-<details><summary>Solution</summary>
+<details markdown="block"><summary>Solution</summary>
 
 ```javascript
 function sumOfTripledEvens(array) {
