@@ -1,4 +1,6 @@
-### You've come a long way.  Now it's time to prove how much you've learned
+### Introduction
+
+You've come a long way. Now it's time to prove how much you've learned. 
 
 Chess is a classic game that appears very complicated at first but can be broken down into logical steps that make it a great Ruby capstone project.  If you've never played, be sure to read up on the rules (see the [Wikipedia Page](http://en.wikipedia.org/wiki/Chess)) first.
 
@@ -32,4 +34,4 @@ This section contains helpful links to related content. It isn't required, so co
 - [Illustrated rules of Chess](http://www.chessvariants.org/d.chess/chess.html)
 - [Chess notation for humans and computers](https://en.wikipedia.org/wiki/Chess_notation)
 - If you're feeling stuck, you should visit the community Discord!
-- You don't need this...  resist the temptation! Here is [a discussion of this problem from RubyQuiz](http://rubyquiz.com/quiz35.html). Be warned, this resource contains a blueprint for how to complete this project. That means, if you decide to peruse it, you won't get the opportunity to dig into this problem.
+- Once you have completed the project, check out this [discussion](http://rubyquiz.com/quiz35.html) of the problem from RubyQuiz. **Warning**: this resource contains a blueprint for how to complete this project. That means, if you decide to peruse it, you won't get the opportunity to dig into this problem.
