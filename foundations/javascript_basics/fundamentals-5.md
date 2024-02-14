@@ -18,7 +18,7 @@ This section contains a general overview of topics that you will learn in this l
 Objects are a *very* important part of the JavaScript language, and while for the most part you can accomplish simple and even intermediate tasks without worrying about them, any real project that you're going to attempt is going to feature Objects. The uses of Objects in JavaScript can get deep relatively quickly, so for the moment we're only going to cover the basics.  There'll be an in-depth dive later.
 
 1. This javascript.info [article on objects](https://javascript.info/object) is the best place to get started.
-2. The [MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
+1. The [MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
 
 ### Intermediate/advanced array magic
 
@@ -26,9 +26,9 @@ Besides being a quick and handy way to store data, arrays also have a set of fun
 
 As an example of what we mean, let's consider a `sumOfTripledEvens` function. It will:
 
-- Take in an array
-- For every even number, it will triple it
-- Then it will sum all those even numbers
+1. Take in an array.
+1. For every even number, it will triple it.
+1. Then it will sum all those even numbers.
 
 Can you try thinking of how you could implement a function like that using pseudocode?
   
