@@ -61,7 +61,7 @@ In the above code, there are 3 important snippets to consider:
 - `array[i] * 3;`: multiply this number by three.
 - `sum += tripleEvenNumber`: add that number to the total.
 
-Every single piece solves a cruicial problem with our code.
+Every single piece solves a crucial problem with our code.
 But it is possible to make the function more concise and readable by using some built-in array methods. 
 These methods are slightly more complicated than you've been used to, so let's take a moment to understand how to use them.
 
