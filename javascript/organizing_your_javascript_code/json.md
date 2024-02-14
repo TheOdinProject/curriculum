@@ -4,6 +4,13 @@ JSON (JavaScript Object Notation) is a standardized format for structuring data.
 
 Fortunately, there isn't much to learn here. We're only including a lesson on it because some formatting rules can cause confusion if you aren't aware of them. Spend 10-15 minutes going through the following resources and you'll be good to go.
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What JSON is and why it is important.
+- Two important JSON methods, `parse` and `stringify`.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
