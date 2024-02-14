@@ -86,10 +86,6 @@ const arr = [1, 2, 3, 4, 5];
 arr.map(num => num + 1); // Outputs [2, 3, 4, 5, 6]; 
 ```
 
-Now, instead of passing a function that adds 1, let's pass a function that multiplies by 3:
-```js
-arr.map(num => num * 3); // Outputs [6, 9, 12, 15, 18];
-```
 
 #### The filter method
 
