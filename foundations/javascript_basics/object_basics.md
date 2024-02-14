@@ -15,9 +15,9 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Objects
 
-Objects are a _very_ important part of the JavaScript language, and while for the most part you can accomplish simple and even intermediate tasks without worrying about them, any real project that you're going to attempt is going to feature Objects. The uses of Objects in JavaScript can get deep relatively quickly, so for the moment we're only going to cover the basics. There'll be an in-depth dive later.
+Objects are a *very* important part of the JavaScript language, and while for the most part you can accomplish simple and even intermediate tasks without worrying about them, any real project that you're going to attempt is going to feature Objects. The uses of Objects in JavaScript can get deep relatively quickly, so for the moment we're only going to cover the basics. There'll be an in-depth dive later.
 
-1. This javascript.info [article on objects](https://javascript.info/object) is the best place to get started.
+1. This JavaScript.info [article on objects](https://javascript.info/object) is the best place to get started.
 1. The [MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
 
 ### Intermediate/advanced array magic
@@ -33,7 +33,7 @@ As an example of what we mean, let's consider a `sumOfTripledEvens` function. It
 Can you try thinking of how you could implement a function like that using pseudocode?
 
 1. We need to perform an operation only on the even numbers.
-1. We need to transform _those_ numbers by multiplying them by 3.
+1. We need to transform *those* numbers by multiplying them by 3.
 1. Finally, we need to add the result up from the previous transformation.
 
 So using that logic, you may end up implementing something like this:
@@ -114,7 +114,7 @@ First, we'd have to declare a variable `total` and initialize it to 1. Then, we'
 But we don't actually need to do all of that, we have our `reduce` method that will do the job for us. Just like `.map()` and `.reduce()` it expects a callback function.
 However, there are two key differences with this array method:
 
-- The callback function takes two arguments instead of one. The first argument is the `accumulator`, which is the current value of the result _at that point in the loop_. The first time through, this value will either be set to the `initialValue` (described in the next bullet point), or the first element in the array if no `initialValue` is provided. The second argument for the callback is the `current` value, which is the item currently being iterated on.
+- The callback function takes two arguments instead of one. The first argument is the `accumulator`, which is the current value of the result *at that point in the loop*. The first time through, this value will either be set to the `initialValue` (described in the next bullet point), or the first element in the array if no `initialValue` is provided. The second argument for the callback is the `current` value, which is the item currently being iterated on.
 - It also takes in an `initialValue` as a second argument (after the callback), which helps when we don't want our initial value to be the first element in the array. For instance, if we wanted to sum all numbers in an array, we could call reduce without an `initialValue`, but if we wanted to sum all numbers in an array and add 10, we could use 10 as our `initialValue`.
 
 ```js
@@ -174,7 +174,7 @@ If you feel yourself getting overwhelmed or stuck, don't be afraid to go back an
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the difference between objects and arrays?](https://javascript.info/object#summary)
 - [How do you access object properties?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation)
@@ -183,6 +183,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Learn about the `arguments` object on this [page about function parameters](https://www.w3schools.com/js/js_function_parameters.asp).
