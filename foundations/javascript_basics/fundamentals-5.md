@@ -31,7 +31,7 @@ As an example of what we mean, let's consider a `sumOfTripledEvens` function. It
 Can you try thinking of how you could implement a function like that using pseudocode?
   
 1. We need to perform an operation only on the even numbers.
-1. We need to transform *those* numbers into triple numbers.
+1. We need to transform *those* numbers by multiplying them by 3.
 1. Finally, we need to add the result up from the previous transformation.
 
 So using that logic, you may end up implementing something like this:
