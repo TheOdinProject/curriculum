@@ -98,11 +98,14 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - Fly.io uses a convenient CLI tool for deployment.
 - Pay for what you use with very reasonable rates. Each app should cost around $4 per month.
 - $20 a month should be enough to host eight apps (including three apps for free).
+- Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
 
 **Free plan**
 
 - You can host three apps for free before you need to start paying.
 - Requires a credit card.
+- Fly.io waives monthly invoices that total less than $5 USD. So, although it may look like
+  you are being charged, it's very unlikely that you will exceed $5 and actually have to pay.
 
 **Links**
 
