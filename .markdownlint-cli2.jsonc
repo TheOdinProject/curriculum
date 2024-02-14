@@ -44,7 +44,8 @@
         "script",
         "iframe",
         "details",
-        "summary"
+        "summary",
+        "pre"
       ]
     },
     // first-line-heading/first-line-h1

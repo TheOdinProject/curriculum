@@ -6,7 +6,8 @@ Databases are kind of hidden in the back of the web application, so people appro
 
 Compared to a normal programming language like you've already learned, SQL (Structured Query Language), which is used to query databases, has a very short syntax... with only a small handful of verbs to learn.  What trips people up is that you need to be able to visualize in your head what it's going to be doing.  We'll spend a fair bit of time on SQL and databases because they're so fundamental, but for now we'll just cover enough to get you familiar with what's going on in there.
 
-### Learning overview
+### Lesson overview
+
 This section contains a general overview of topics that you will learn in this lesson.
 
 -   What a database is.

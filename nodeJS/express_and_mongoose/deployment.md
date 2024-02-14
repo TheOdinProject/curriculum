@@ -10,11 +10,11 @@ In this lesson, we will learn how to deploy our apps to a hosting provider, allo
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand what a hosting provider is
-- Understand the difference between static and dynamic sites
-- Understand what a PaaS is and how they work
-- Know how to deploy to a PaaS provider
-- Know how to troubleshoot common deployment issues
+- Understand what a hosting provider is.
+- Understand the difference between static and dynamic sites.
+- Understand what a PaaS is and how they work.
+- Know how to deploy to a PaaS provider.
+- Know how to troubleshoot common deployment issues.
 
 ### What are hosting providers?
 
@@ -161,6 +161,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 - 750 hours of free usage per month.
 - Applications are put to sleep automatically after 15 minutes of inactivity, so the 750 free hours should be enough to host a few apps for the entire month.
+- Requires a credit card.
 
 **Links**
 
