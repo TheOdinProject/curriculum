@@ -1,6 +1,6 @@
 ### Introduction
 
-Prior to Rails 7, there was a long running issue with how Javascript third-party packages should be managed in a Rails application. The original approach was to wrap the Javascript in a Ruby Gem and release it. While this did bring about versioning and stability, it also made it slow to update to the latest releases of libraries as you needed to wait for the maintainers of the Ruby Gem to update it, test it, and release a new version of the Gem.
+Prior to Rails 7, there was a long running issue with how JavaScript third-party packages should be managed in a Rails application. The original approach was to wrap the JavaScript in a Ruby Gem and release it. While this did bring about versioning and stability, it also made it slow to update to the latest releases of libraries as you needed to wait for the maintainers of the Ruby Gem to update it, test it, and release a new version of the gem.
 
 Rails 6 tried to fix this solution by creating a wrapper Gem around [webpack](https://webpack.js.org/). The gem, called Webpacker, used Rails' famous convention over configuration to give the ability to use the latest JS libraries but with some sensible defaults. This wasn't without issue though, the main one being that you needed to have a deeper understanding of Webpacker if you wanted to move away from those conventions. Unfortunately it didn't solve the issues it was meant to and a new approach was needed.
 
@@ -34,18 +34,18 @@ In order to be ESM compatible, you must provide one of the following specifiers 
     `import React from "./node_modules/react"`
 
 - HTTP path:
-    `import React from "https://ga.jspm.io/npm:react@17.0.1/index.js"`
+    `import React from "https://ga.jspm.io/npm:react@18.2.0/index.js"`
 
 The `importmap-rails` gem provides an API for mapping the "bare module specifiers" to 1 of the 3 ways of loading ESM JavaScript packages.
 
 Example
 
-~~~Ruby
+```Ruby
 # config/importmap.rb
-pin "react", to: "https://ga.jspm.io/npm:react@17.0.2/index.js"
-~~~
+pin "react", to: "https://ga.jspm.io/npm:react@18.2.0/index.js"
+```
 
-This means that every time you see `import React from "react"` in the code it will actually be like writing `import React from "https://ga.jspm.io/npm:react@17.0.2/index.js"`.
+This means that every time you see `import React from "react"` in the code it will actually be like writing `import React from "https://ga.jspm.io/npm:react@18.2.0/index.js"`.
 
 #### Using import maps
 
@@ -55,83 +55,56 @@ You start the setup via the configuration file located `config/importmap.rb`. Th
 
 ### Import maps with NPM packages
 
-`importmap-rails` is designed to be used with JavaScript CDNs for NPM package dependencies.
+`importmap-rails` downloads and vendors your npm package dependencies via JavaScript CDNs.
 
 You can use the `./bin/importmap` command that's added as part of the install to `pin`, `unpin`, or `update` npm packages in your import map. This command resolves the package dependencies and adds the pins to your `config/importmap.rb`.
 
-~~~JS
+```bash
 $ ./bin/importmap pin react react-dom
-Pinning "react" to https://ga.jspm.io/npm:react@17.0.2/index.js
-Pinning "react-dom" to https://ga.jspm.io/npm:react-dom@17.0.2/index.js
-Pinning "object-assign" to https://ga.jspm.io/npm:object-assign@4.1.1/index.js
-Pinning "scheduler" to https://ga.jspm.io/npm:scheduler@0.20.2/index.js
+Pinning "react" to vendor/javascript/react.js via download from https://ga.jspm.io/npm:react@18.2.0/index.js
+Pinning "react-dom" to vendor/javascript/react-dom.js via download from https://ga.jspm.io/npm:react-dom@18.2.0/index.js
+Pinning "scheduler" to vendor/javascript/scheduler.js via download from https://ga.jspm.io/npm:scheduler@0.23.0/index.js
+```
 
-$ ./bin/importmap json
+This will produce pins in your `config/importmap.rb` like this:
 
-{
-  "imports": {
-    "application": "/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js",
-    "react": "https://ga.jspm.io/npm:react@17.0.2/index.js",
-    "react-dom": "https://ga.jspm.io/npm:react-dom@17.0.2/index.js",
-    "object-assign": "https://ga.jspm.io/npm:object-assign@4.1.1/index.js",
-    "scheduler": "https://ga.jspm.io/npm:scheduler@0.20.2/index.js"
-  }
-}
-~~~
+```Ruby
+pin "react" # @18.2.0
+pin "react-dom" # @18.2.0
+pin "scheduler" # @0.23.0
+```
 
-The two dependencies `react` and `react-dom` resolve to four total dependencies. Now you can import them in your JavaScript code.
+The packages are downloaded to `vendor/javascript`, which you can check into your source control, and they will be available through your application's asset pipeline.
 
-~~~JS
+Now you can import them in your JavaScript code.
+
+```JS
 import React from "react"
 import ReactDOM from "react-dom"
-~~~
+```
 
-Using the `./bin/importmap` is just a convenience wrapper for resolving logical package names to CDN URLs. You can just look up the CDN URLs yourself and pin those in `config/importmap.rb`:
+If you want to remove a downloaded pin:
 
-~~~Ruby
-pin "react", to: "https://cdn.skypack.dev/react"
-~~~
-
-### Downloading vendor files
-
-If you don't want to use a CDN in production, you can download vendored files from the CDN when you're setting up your pins. These packages are downloaded to the `vendor/javascript` directory
-
-~~~bash
-$ ./bin/importmap pin react --download
-Pinning "react" to vendor/react.js via download from https://ga.jspm.io/npm:react@17.0.2/index.js
-Pinning "object-assign" to vendor/object-assign.js via download from https://ga.jspm.io/npm:object-assign@4.1.1/index.js
-~~~
-
-This will produce pins in your `config/importmap.rb` like so
-
-~~~ruby
-pin "react" # https://ga.jspm.io/npm:react@17.0.2/index.js
-pin "object-assign" # https://ga.jspm.io/npm:object-assign@4.1.1/index.js
-~~~
-
-If you want to remove a downloaded pin you can pass `--download` to the `unpin` command
-
-~~~bash
-$ ./bin/importmap unpin react --download
+```bash
+$ ./bin/importmap unpin react
 Unpinning and removing "react"
-Unpinning and removing "object-assign"
-~~~
+```
 
 #### Preloading pinned modules
 
-To avoid having the browser load one file after another before it can get to the deepest nested import, `importmap-rails` supports [modulepreload](https://developers.google.com/web/updates/2017/12/modulepreload) links. Pinned modules can be preloaded by appending `preload: true` to the pin.
+To avoid having the browser load one file after another before it can get to the deepest nested import, `importmap-rails` uses [modulepreload](https://developers.google.com/web/updates/2017/12/modulepreload) by default. If you don't want to preload a dependency, add `preload: false` to the pin.
 
-~~~ruby
+```Ruby
 # config/importmap.rb
-pin "@github/hotkey", to: "https://ga.jspm.io/npm:@github/hotkey@1.4.4/dist/index.js", preload: true
-pin "md5", to: "https://cdn.jsdelivr.net/npm/md5@2.3.0/md5.js"
+pin "@github/hotkey", to: "@github--hotkey.js" # file lives in vendor/javascript/@github--hotkey.js
+pin "md5", preload: false # file lives in vendor/javascript/md5.js
 
 # app/views/layouts/application.html.erb
 <%= javascript_importmap_tags %>
 
 # will include the following link before the importmap is setup:
-<link rel="modulepreload" href="https://ga.jspm.io/npm:@github/hotkey@1.4.4/dist/index.js">
-~~~
+<link rel="modulepreload" href="/assets/javascript/@github--hotkey.js">
+```
 
 ### Importmap considerations
 
@@ -151,23 +124,23 @@ All of the above may have you wondering why you'd use importmaps all things cons
 Since Rails 7 is relatively new there aren't a ton of resources available yet. That being said here are some that are worth taking a look at:
 
 1. First things first. [Briefly look over the `importmap-rails` gem README on GitHub](https://github.com/rails/importmap-rails). This has A LOT of the information here plus more. Straight from the horse's mouth.
-2. Read [David Heinemeier Hansson's article](https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755) on Modern web apps without JavaScript bundling or transpiling. He describes the why and how of the `importmap` addition to Rails 7.
-3. Appsignal produce a good [Importmaps under the hood](https://blog.appsignal.com/2022/03/02/import-maps-under-the-hood-in-rails-7.html) article that is well worth a read to get a bit more information on what we covered above.
+1. Read [David Heinemeier Hansson's article](https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755) on Modern web apps without JavaScript bundling or transpiling. He describes the why and how of the `importmap` addition to Rails 7.
+1. Appsignal produce a good [Importmaps under the hood](https://blog.appsignal.com/2022/03/02/import-maps-under-the-hood-in-rails-7.html) article that is well worth a read to get a bit more information on what we covered above.
 
 </div>
 
-### Additional resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-1. [Additional reading on Rails 7 `importmap`](https://noelrappin.com/blog/2021/09/rails-7-and-javascript/)
-2. [Blog post on using `importmap`](https://blog.kiprosh.com/rails-7-brings-import-maps-into-the-limelight/)
-3. [The import map specification](https://github.com/WICG/import-maps) should cover any other questions you may have on the subject.
-
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - <a class="knowledge-check-link" href="#import-maps-with-npm-packages">Can you use import maps with npm packages?</a>
 - <a class="knowledge-check-link" href="#downloading-vendor-files">How do you download vendor files using import maps?</a>
 - <a class="knowledge-check-link" href="#preloading-pinned-modules">How can you preload pinned modules?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Additional reading on Rails 7 `importmap`](https://noelrappin.com/blog/2021/09/rails-7-and-javascript/)
+- [Blog post on using `importmap`](https://blog.kiprosh.com/rails-7-brings-import-maps-into-the-limelight/)
+- [The import map specification](https://github.com/WICG/import-maps) should cover any other questions you may have on the subject.

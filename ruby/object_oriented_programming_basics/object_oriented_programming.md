@@ -8,7 +8,9 @@ There are two projects in this Object Oriented Programming Basics section, but t
 
 There is a lot of reading in this lesson, so you are encouraged to code along with each example. If you find an example that does not make sense, ask for help in the `#ruby-help` channel in our [Discord](https://discord.gg/fbFCkYabZB) server. To get the most out of each example, try to apply what you learned by adding similar functionality on your own.
 
-### Learning outcomes
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - You will learn about classes.
 - You will learn about methods.
@@ -41,16 +43,6 @@ There is a lot of reading in this lesson, so you are encouraged to code along wi
 
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to Sandi Metz's book, in about 40 minutes.
-* If you need a variable refresher, check out [Zetcode's Variables section](https://zetcode.com/lang/rubytutorial/variables/).
-* If you want more examples to code along with, check out [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/) and [Zetcode's second OOP section](https://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down).
-* After you have completed several OOP projects, the following books by Sandi Metz are essential to build on the foundational concepts in this lesson.
-    * [99 Bottles of OOP](https://sandimetz.com/99bottles) is a hands-on workbook that you should code along with to get the most out of it. This is a great resource if you feel uncertain about OOP concepts and would like to guided through refactoring examples and explanations.
-    * [Practical Object-Oriented Design in Ruby](https://www.poodr.com/) is a traditional technical book with practical examples. This is a great resource after 99 Bottles or if you already feel like you fully understand OOP concepts.
-
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
@@ -62,3 +54,13 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope">When is a new scope defined?</a>
 - <a class="knowledge-check-link" href="https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1#instancevariables">What is the purpose of instance variables?</a>
 - <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What is the difference between class variables and instance variables?</a>
+
+### Additional resources
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to Sandi Metz's book, in about 40 minutes.
+- If you need a variable refresher, check out [Zetcode's Variables section](https://zetcode.com/lang/rubytutorial/variables/).
+- If you want more examples to code along with, check out [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/) and [Zetcode's second OOP section](https://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down).
+- After you have completed several OOP projects, the following books by Sandi Metz are essential to build on the foundational concepts in this lesson.
+    - [99 Bottles of OOP](https://sandimetz.com/99bottles) is a hands-on workbook that you should code along with to get the most out of it. This is a great resource if you feel uncertain about OOP concepts and would like to guided through refactoring examples and explanations.
+    - [Practical Object-Oriented Design in Ruby](https://www.poodr.com/) is a traditional technical book with practical examples. This is a great resource after 99 Bottles or if you already feel like you fully understand OOP concepts.

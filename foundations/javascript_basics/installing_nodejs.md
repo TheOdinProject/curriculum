@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD024 MD043 -->
+
 ### Introduction
 
 Node.js is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser. We will need this for some exercises in the upcoming lessons. To get started, there are some required tools we need before we can install Node on your system.
@@ -10,8 +12,8 @@ Node is also very easy to install using nvm, so this should go quickly :)
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Learn how to Install Node Version Manager and Node Package Manager
-- Learn how to run Node console
+- Learn how to Install Node Version Manager and Node Package Manager.
+- Learn how to run Node console.
 
 ### Installing NVM
 
@@ -32,7 +34,7 @@ Note: You may need to update the Ubuntu package lists to the latest version for 
 sudo apt update && sudo apt upgrade
 ```
 
-#### Step 1: Downloading and installing NVM
+#### Step 1: Downloading and Installing NVM
 
 Run this command to install `nvm`:
 
@@ -55,7 +57,7 @@ You can verify `nvm` is installed by running the command:
 command -v nvm
 ```
 
-if this returns `nvm: command not found`, close the terminal and re-open it.
+If this returns `nvm: command not found`, close the terminal and re-open it.
 
 </details>
 
@@ -88,7 +90,7 @@ Test your nvm installation by running:
 nvm --version
 ```
 
-For more information, view [NVM's github documentation](https://github.com/nvm-sh/nvm#installation-and-update).
+For more information, view [NVM's GitHub Documentation](https://github.com/nvm-sh/nvm#installation-and-update).
 
 </details>
 
@@ -128,7 +130,7 @@ If you see that, you have successfully installed Node!
 
 ### Using Node console
 
-For convenience, Node provides an interactive console which lets you run and edit your javascript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.
+For convenience, Node provides an interactive console which lets you run and edit your JavaScript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.
 
 To run the Node console, open up your terminal and type `node`. Type `.exit` to quit the console.
 

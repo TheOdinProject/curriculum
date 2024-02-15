@@ -4,12 +4,12 @@ Over the next few lessons we will cover CSS Grid and make page layouts much easi
 
 The following lessons will show you how to create a grid, position grid items and use some advanced properties. Then we will take a deeper look between Flexbox and Grid. Ultimately we are working towards building a dashboard project using Grid.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-* Compare the basics between Flexbox and Grid
-* Describe a situation for using Grid over Flexbox
+- Compare the basics between Flexbox and Grid.
+- Describe a situation for using Grid over Flexbox.
 
 ### A look back at flex
 
@@ -45,7 +45,7 @@ Remember how much fun you had solving the card layout in this exercise?
 
 We know that was a frustrating one, but it's part of the point. While Flexbox allows you to build a layout of rows and columns together, it isn’t always easy.
 
-But setting up a two-dimensional layout of cards would be much simpler using CSS Grid:
+But setting up a two-dimensional layout of cards would be much easier using CSS Grid:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="KKXwpZR" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/KKXwpZR">
@@ -58,7 +58,7 @@ But setting up a two-dimensional layout of cards would be much simpler using CSS
 
 Although Grid is a newer module to CSS, this layout tool has long been in development. Fun fact, CSS co-creator Dr. Bert Bos (no relation to Wes Bos) started working on this layout model in 1996. The idea was inspired by the use of grid-like layouts in other forms of media like newspapers and magazines. After years of thorough demonstrations and development, CSS Grid was finally introduced to all major browsers in 2017.
 
-As shown above, Grid is often praised for easy placement of items in a two-dimensional layout. But Grid can be used for one-dimensional layouts too. One advantage for developers is if they start off with only one row of items, they can simply add additional rows later.
+As shown above, Grid is often praised for easy placement of items in a two-dimensional layout. But Grid can be used for one-dimensional layouts too. One advantage for developers is if they start off with only one row of items, they can add additional rows later.
 
 You will notice a lot of similarities between Flex and Grid. Both use parent containers with child items. They have similar property names for alignment and positioning. But you will also come across a lot of differences between the two and opinions on how each module should be used. For example, if you’ve been struggling to get your Flex items to all match evenly in size, Grid can make this type of layout much easier.
 

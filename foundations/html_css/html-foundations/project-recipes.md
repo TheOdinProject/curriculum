@@ -10,11 +10,20 @@ But it's important to keep in mind that this project is just to build your HTML 
 
 As mentioned in the [introduction to Git](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
-If you do not know how to set up a repository, follow the instructions found in [Git Basics](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) to learn how.
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Be careful about creating files on GitHub
+
+GitHub allows us to make changes directly on its site. If you do this after you have cloned the repository to your machine, it will cause your local code to be a version behind the remote, creating extra challenges when you push your work. Most of the time you should be creating files locally.
+
+ As you progress in the course, you'll learn how to handle these situations, but for now it's important to follow the instructions carefully to stay on the simple path.
+</div>
+
+If you do not know how to set up a repository, follow instruction steps 1 and 2 found in [Git Basics](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) to learn how, before carrying on with these steps:
 
 1. Create a new repo for this project on GitHub.com and call it `odin-recipes` and choose the `public` option instead of the default private.
 
-1. Move that repository onto your local machine, inside the `repos` folder that you previously created in the Git Basics lesson. The command should look like `git clone git@github.com:username/odin-recipes.git` (use SSH).
+1. Clone that repository onto your local machine, inside the `repos` folder that you previously created in the Git Basics lesson. The command should look like `git clone git@github.com:username/odin-recipes.git` (use SSH).
 
 1. Now `cd` into the `odin-recipes` project directory that is now on your local machine.
 
@@ -29,6 +38,7 @@ If you are having trouble:
 - Refer to the [workflow](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
 
 #### Tips on when to commit
+
 Don't forget everything we went over in the [previous lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages) about commit messages!
 
 When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to GitHub with `git push origin main`.
@@ -70,11 +80,11 @@ Your new recipe page should have the following content:
 #### Iteration 4: add more recipes
 
 1. Add two more recipes with identical page structures to the recipe page you've already created.
-1. Don't forget to link to the new recipes on the index page. Also, consider putting all the links in an unordered list so they aren't all on one line. 
+1. Don't forget to link to the new recipes on the index page. Also, consider putting all the links in an unordered list so they aren't all on one line.
 
 Example:
 
-```html 
+```html
  <ul>
     <li><a href="recipes/yourrecipe.html">Recipe Title 1</a></li>
     <li><a href="recipes/yourrecipe.html">Recipe Title 2</a></li>
@@ -101,9 +111,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - Go to your GitHub repo on the web and click the **Settings** button as shown in the screenshot below.
     ![Screenshot pointing to the Settings located in an example repository](https://cdn.statically.io/gh/TheOdinProject/curriculum/90b1a362af0bb8635af9593cd8911c9aefb68569/foundations/html_css/html-foundations/imgs/01.png)
 - Click on **Pages** on the left side bar.
-- Change the **Branch** from _none_ to _main branch_ and click **Save**. 
+- Change the **Branch** from *none* to *main branch* and click **Save**.
 - It may take a few minutes (The GitHub website says up to 10, but we've seen it take up to an hour. Do not add a "theme" to your project, or you may have git conflicts, instead, be patient.) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
-- If your project does not publish after 1 hour, ensure that you have a file called `index.html` in the root of your repository and all the settings have been set correctly.  Go to your repo on GitHub and click on Actions, if there are no entries, then go back to the settings, change the **Branch** from _main branch_ to _none_ and click **Save**, then change the **Branch** from _none_ to _main branch_ and click **Save**.
+- If your project does not publish after 1 hour, ensure that you have a file called `index.html` in the root of your repository and all the settings have been set correctly.  Go to your repo on GitHub and click on Actions, if there are no entries, then go back to the settings, change the **Branch** from *main branch* to *none* and click **Save**, then change the **Branch** from *none* to *main branch* and click **Save**.
 
 <div class="lesson-note" markdown="1">
 When you look at project submissions below, you might be asking:

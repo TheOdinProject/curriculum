@@ -109,7 +109,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 **Free plan**
 
 - You get a free one-time grant of 5$ on their free trial, and the applications are never put to sleep when inactive.
-- However, the longevity of your free allowance depends on how many resources you consume. Full usage of the resources available is only enough to host one app for about 30 days, and thus isn't recommended.
+- However, the longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
 
 **Links**
 
@@ -228,4 +228,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

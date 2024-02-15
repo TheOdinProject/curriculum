@@ -84,7 +84,7 @@ The above example will generate a turbo frame for every article. Each frame will
 
 #### Connecting to other frames
 
-Now that we have our first frame, we can replace its content with a link that request new frame content. All we have to do is put a link inside of the Turbo Frame, where the requested view *also* includes a Turbo frame with the **same ID**.
+Now that we have our first frame, we can replace its content with a link that requests new frame content. All we have to do is put a link inside of the Turbo Frame, where the requested view *also* includes a Turbo frame with the **same ID**.
 
 Let us replace the `/show` view with the `/edit` view on an article:
 
@@ -340,15 +340,6 @@ The final piece of Turbo is something that you don't need to know much about for
 
 </div>
 
-### Additional resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-* [Turbo Reference Information](https://turbo.hotwired.dev/reference/drive)
-* Check out this tutorial on [Turbo Frames and Turbo Stream](https://www.hotrails.dev/turbo-rails/turbo-frames-and-turbo-streams) to build a quotes editor.To get started right away, enter in command line `rails new quote-editor;rails scaffold g quotes` and in migration add `t.string :name` and then `rails db:migrate`.
-* [Official Hotwire Forums](https://discuss.hotwired.dev/)
-* Remember you can use your browser developer tools to [watch network activity](https://developer.chrome.com/docs/devtools/network/) and see what is happening with your Turbo requests and responses. If something doesn't work, check to see if your browser received a Rails error message. Look for a red font.
-
 ### Knowledge check
 
 *This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.*
@@ -389,3 +380,12 @@ The final piece of Turbo is something that you don't need to know much about for
   *   Second, we create a `turbo_stream.erb` file in our views folder with the same name as the controller action (Rails conventions) that contains the Turbo Stream's action and target destination.
 
 </details>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Turbo Reference Information](https://turbo.hotwired.dev/reference/drive)
+- Check out this tutorial on [Turbo Frames and Turbo Stream](https://www.hotrails.dev/turbo-rails/turbo-frames-and-turbo-streams) to build a quotes editor.To get started right away, enter in command line `rails new quote-editor;rails scaffold g quotes` and in migration add `t.string :name` and then `rails db:migrate`.
+- [Official Hotwire Forums](https://discuss.hotwired.dev/)
+- Remember you can use your browser developer tools to [watch network activity](https://developer.chrome.com/docs/devtools/network/) and see what is happening with your Turbo requests and responses. If something doesn't work, check to see if your browser received a Rails error message. Look for a red font.

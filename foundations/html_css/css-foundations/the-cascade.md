@@ -23,8 +23,8 @@ The cascade is what determines which rules actually get applied to our HTML. The
 A CSS declaration that is more specific will take precedence over less specific ones. Inline styles, which we went over in the previous lesson, have the highest specificity compared to selectors, while each type of selector has its own specificity level that contributes to how specific a declaration is. Other selectors contribute to specificity, but we're focusing only on the ones we've gone over so far:
 
 1. ID selectors (most specific selector)
-2. Class selectors
-3. Type selectors
+1. Class selectors
+1. Type selectors
 
 Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it, sort of like a tie-breaker. An ID selector will always beat any number of class selectors, <span id="high-specificity-class-type">a class selector will always beat any number of type selectors</span>, and a type selector will always beat any number of less specific selectors. When there is no declaration with a selector of higher specificity, a rule with a greater number of selectors of the same type will take precedence over another rule with fewer selectors of the same type.
 
@@ -62,6 +62,7 @@ Now, let's change things a little bit:
   <div class="list" id="subsection">Blue text</div>
 </div>
 ```
+
 ```css
 /* rule 1 */
 #subsection {
@@ -163,6 +164,7 @@ The exception to this is when directly targeting an element, as this always beat
   <div class="child"></div>
 </div>
 ```
+
 ```css
 /* styles.css */
 
@@ -206,7 +208,7 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
-2. Remember the Recipe page you created as practice from the HTML Foundations section? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
+1. Remember the Recipe page you created as practice from the HTML Foundations section? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
    - How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the previous lesson (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
    - We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
 

@@ -8,25 +8,25 @@ Luckily, there is a better way to handle this problem. In this lesson, you’ll 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Using arrays.
-* Using built-in array methods.
-* Using loops.
-* Getting your hands dirty with TDD exercises.
+- Using arrays.
+- Using built-in array methods.
+- Using loops.
+- Getting your hands dirty with TDD exercises.
 
 ### Arrays
 
 Strings and numbers may be our building blocks, but as your scripts get more complex, you're going to need a way to deal with large quantities of them. Luckily, JavaScript has a couple of data types that are used for just that. An Array is an ordered collection of items (Strings, numbers, or other things).
 
 1. [This tutorial](https://www.w3schools.com/js/js_arrays.asp) is a great introduction.
-2. [This article](https://www.w3schools.com/js/js_array_methods.asp) covers some of the most useful built-in array methods. These fundamentals are something you'll use every day, so don't rush too much and miss out!
-3. [Web Dev Simplified video](https://www.youtube.com/watch?v=7W4pQQ20nJg) explains an overview of arrays in JavaScript in about 6 minutes.
+1. [This article](https://www.w3schools.com/js/js_array_methods.asp) covers some of the most useful built-in array methods. These fundamentals are something you'll use every day, so don't rush too much and miss out!
+1. [Web Dev Simplified video](https://www.youtube.com/watch?v=7W4pQQ20nJg) explains an overview of arrays in JavaScript in about 6 minutes.
 
 ### Loops
 
-Computers don't get tired, and they're really, _really_ fast! For that reason, they are well suited to solving problems that involve doing calculations multiple times. In some cases, a computer will be able to repeat a task _thousands_ or even _millions_ of times in just a few short seconds where it might take a human many hours. \(Obviously, speed here depends on the complexity of the calculation and the speed of the computer itself\). One way to make a computer do a repetitive task is using a **loop**.
+Computers don't get tired, and they're really, *really* fast! For that reason, they are well suited to solving problems that involve doing calculations multiple times. In some cases, a computer will be able to repeat a task *thousands* or even *millions* of times in just a few short seconds where it might take a human many hours. \(Obviously, speed here depends on the complexity of the calculation and the speed of the computer itself\). One way to make a computer do a repetitive task is using a **loop**.
 
 1. Read this [MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code). It's a longer one, but make sure you tackle the 'Active Learning' sections at the bottom of the page.
-2. Once again, same info, slightly different context from [JavaScript.info](http://javascript.info/while-for). \(Skim the info if you think you know it all, but **don't forget the tasks at the end of the page**. You learn best by _doing_.\)
+1. Once again, same info, slightly different context from [JavaScript.info](http://javascript.info/while-for). \(Skim the info if you think you know it all, but **don't forget the tasks at the end of the page**. You learn best by *doing*.\)
 
 ### Test Driven Development
 
@@ -40,7 +40,7 @@ We will teach you the art of actually writing these tests later in the course. T
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Go to our [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) and review the [repository's README](https://github.com/TheOdinProject/javascript-exercises#readme) to set up your local environment. Once you have cloned the repository and installed Jest, review each README file prior to completing the following exercises in order:
+1. Go to our [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) and review the [repository's README](https://github.com/TheOdinProject/javascript-exercises#readme) to set up your local environment. Once you have cloned the repository and installed Jest, review each README file prior to completing the following exercises in order:
     - `01_helloWorld` (This exercise is intentionally very beginner friendly to ensure that you have set up everything properly!)
     - `02_repeatString`
     - `03_reverseString`

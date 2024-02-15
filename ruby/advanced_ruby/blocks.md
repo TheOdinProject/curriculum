@@ -18,7 +18,9 @@ end
 
 Although you are familiar with how to write blocks in the context of enumerable methods, there are actually other interesting ways to use them in Ruby. For example, you can write your own methods that accept blocks and even store blocks as variables. By the end of this lesson, you'll have a newfound appreciation for the mighty block.
 
-### Learning outcomes
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - What is a block?
 - How is a block like a method?
@@ -32,7 +34,6 @@ Although you are familiar with how to write blocks in the context of enumerable 
 - What's the difference between a proc and a block?
 - When would you use a proc instead of a block?
 - What's different between a lambda and a proc?
-
 
 ### Yield
 
@@ -515,3 +516,9 @@ This section contains questions for you to check your understanding of this less
 - [What's different between a lambda and a proc?](#procs-vs-lambdas)
 - [How do you convert a proc to a block?](#proc-to-block)
 - [How do you convert a block to a proc?](#capturing-blocks)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

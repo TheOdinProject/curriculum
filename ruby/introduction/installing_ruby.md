@@ -1,12 +1,14 @@
+<!-- markdownlint-disable MD024 MD043 -->
+
 ### Introduction
 
 Before we start learning, we'll need to install Ruby first. This section is where you could potentially encounter a lot of errors.
 
 Before continuing, let's review a few best practices to keep in mind:
 
-* Copy and paste the commands to avoid typos.
-* Follow the directions closely, and don't skip over any sections.
-* **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this can cause a lot of headaches, and never run as the `root` user. In some instances, you might see a message in the terminal telling you to use sudo and install something with `apt`. Ignore that and follow _our_ instructions for now.
+- Copy and paste the commands to avoid typos.
+- Follow the directions closely, and don't skip over any sections.
+- **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this can cause a lot of headaches, and never run as the `root` user. In some instances, you might see a message in the terminal telling you to use sudo and install something with `apt`. Ignore that and follow *our* instructions for now.
 
 Now, let's get started!
 
@@ -143,14 +145,12 @@ The above command should return something similar to this:
 ```bash
 ruby 3.2.2pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ```
-where x represents the version available at the time you installed Ruby.
 
+where x represents the version available at the time you installed Ruby.
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
-
 </details>
-
 
 <details markdown="block">
 <summary class="dropDown-header">MacOS
@@ -283,7 +283,6 @@ If you don't see the output above, close and reopen the terminal window and then
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
-
 </details>
 
 #### Extras
@@ -291,3 +290,9 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 If you are using Visual Studio Code as your IDE, you can install the "Ruby LSP" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby LSP", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
 
 If you are using a different IDE, a quick Google search such as "Ruby programming extensions for (your IDE here)" should provide you with the resources to get started. Free support extensions can help make your programming go more smoothly, and there are tons of extensions for all languages (not just Ruby).
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

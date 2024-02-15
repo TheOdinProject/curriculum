@@ -4,13 +4,13 @@ So, you've now learned a lot of juicy JavaScript, enabling you to make various c
 
 While Local Storage is great, it's not ideal: it only stores data on the computer from which the user is accessing the page. This approach does not allow for the app to 'remember' anything when the same user tries to access it again from a different device. For that, you're going to need a real backend.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Explain how "unobtrusive JavaScript" works
-- Explain how to pass data from your Rails application to your JavaScript
-- Explain why you should use AJAX to load large batches of data
+- Explain how "unobtrusive JavaScript" works.
+- Explain how to pass data from your Rails application to your JavaScript.
+- Explain why you should use AJAX to load large batches of data.
 
 ### Building your own backend with Ruby on Rails
 
