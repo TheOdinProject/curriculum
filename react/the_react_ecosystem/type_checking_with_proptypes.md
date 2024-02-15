@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 To start using PropTypes in our React projects, we first need to install the corresponding library. We can do that with `npm`. In your React project run the following command:
 
-```
+```bash
 npm install --save prop-types
 ```
 
@@ -90,7 +90,7 @@ Learning TypeScript can be a lot of overhead when you’re already learning Reac
 1. Read through the [PropTypes documentation](https://reactjs.org/docs/typechecking-with-proptypes.html). It shows all of the types you can specify and some other useful things that can be done with it!
    - You may notice this resource suggests using TypeScript over PropTypes in modern React. This may well be true for production apps but for our purposes, we are solely interested in the concept of type checking within React, where TypeScript is out of scope.
 1. You can even set up custom validators in PropTypes. For a more in-depth look into the benefits and use cases of PropTypes, read this comprehensive guide [Validating React Props with PropTypes on LogRocket](https://blog.logrocket.com/validate-react-props-proptypes/).
-1. For an insightful discussion on the differences between TypeScript and PropTypes in React applications, give [this StackOverflow thread](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application) a read!
+1. For an insightful discussion on the differences between TypeScript and PropTypes in React applications, explore the detailed comparison in [this StackOverflow discussion on using PropTypes versus TypeScript for type checking in React](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application).
 
 </div>
 
@@ -107,4 +107,3 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - If you find video lessons easier to absorb, consider watching [Web Dev Simplified's video on understanding PropTypes in React](https://www.youtube.com/watch?v=cx0S8JyiVxc). This video covers many of the topics discussed in this lesson.
-
