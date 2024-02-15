@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The basic syntax for media queries is as follows:
 
-~~~css
+```css
 body {
   margin: 24px;
 }
@@ -22,7 +22,7 @@ body {
     margin: 8px;
   }
 }
-~~~
+```
 
 In the above example, the margin is changed based on screen size.  Specifically, on all screens *below or equal to* 600px, the margin will be `8px`, and on all screens *above* `600px`, it will be `24px`.
 
@@ -68,18 +68,18 @@ In most browsers, **zooming in on a webpage will change the effective resolution
 
 You'll often see media queries defined with the `screen` keyword like so:
 
-~~~css
+```css
 @media screen and (max-width: 480px) {
 }
-~~~
+```
 
 This is not necessary, but it *does* point toward another very useful capability of media queries: changing styles based on the media type. Everything we've covered so far has been specifically intended for viewing on some kind of screen so specifying `screen` is redundant. However, it is possible to create a different set of styles for your website when it is sent to your printer or viewed in print-preview mode by using the `print` keyword.
 
-~~~css
+```css
 @media print {
   /* print styles go here! */
 }
-~~~
+```
 
 This is not something we're going to focus on in our curriculum, but it may be something you want to consider taking advantage of in some cases. It's fairly common to change some colors (i.e. make things black/white), and add `display: none` to hide elements that are useless in a printed environment (buttons, nav links, etc).
 
