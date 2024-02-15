@@ -21,6 +21,15 @@ This section contains a general overview of topics that you will learn in this l
 
 </div>
 
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What is JSON?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON#no_really_what_is_json)
+- [What is the general structure of a JSON?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON#json_structure)
+- [What is JSON parse and how do we use it?](https://www.w3schools.com/js/js_json_parse.asp)
+- [What is JSON stringify and how do we use it?](https://www.w3schools.com/js/js_json_stringify.asp)
+
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
