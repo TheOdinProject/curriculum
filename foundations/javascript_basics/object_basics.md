@@ -166,7 +166,7 @@ function sumOfTripledEvens(array) {
     - `11_getTheTitles`
     - `12_findTheOldest`
 
-    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
+Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
 If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help on our [Discord](https://discord.gg/fbFCkYabZB)!
 
