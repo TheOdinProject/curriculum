@@ -8,7 +8,7 @@ Make sure you’ve completed our [JavaScript course](https://www.theodinproject.
 
 All the lessons follow a similar structure that you'll be accustomed to from prior courses: lesson content followed by assignments. We've also incorporated interactive examples via CodeSandbox to demonstrate the concepts you'll learn in those lessons.
 
-As always, we'll preface this by saying that learning a new technology can be a frustrating endeavor, but we're confident you can persevere. There might be times when you think to yourself, “I can do this with vanilla JavaScript, why am I even learning React?” and that's fine. As you work through the lessons, you'll soon realize how convenient React can be in front-end development. Remember the dreaded [Todo List project](https://www.theodinproject.com/lessons/node-path-javascript-todo-list) from the JavaScript course? In React, it would take just a few minutes to build the core functionality. That should get you excited. By the end of the course, you’ll be a React Guru!
+As always, we'll preface this by saying that learning a new technology can be a frustrating endeavor, but we're confident you can persevere. There might be times when you think to yourself, “I can do this with vanilla JavaScript, why am I even learning React?” and that's fine. As you work through the lessons, you'll soon realize how convenient React can be in front-end development. Remember the dreaded [Todo List project](https://www.theodinproject.com/lessons/node-path-javascript-todo-list) from the JavaScript course? In React, it would typically take less time to build the core functionality. That should get you excited. By the end of the course, you’ll be a React Guru!
 
 Now then,
 
