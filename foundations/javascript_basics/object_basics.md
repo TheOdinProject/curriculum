@@ -70,7 +70,7 @@ These methods are slightly more complicated than you've been used to, so let's t
 `map` is one such function. It expects a `callback` as an argument, which is a fancy way to say "I want you to pass another function as an argument to my function".
 
 Let's say we had a function `addOne`, which takes in `num` as an argument and outputs that `num` increased by 1.
-And let's say we had an array of numbers, `const arr = [1, 2, 3, 4, 5]` and we'd like to increment all of these numbers by 1 using our `addOne` function.
+And let's say we had an array of numbers, `[1, 2, 3, 4, 5]` and we'd like to increment all of these numbers by 1 using our `addOne` function.
 Instead of making a `for` loop and iterating over the above array, we could use our `map` array method instead, which **automatically** iterates over an array for us.
 We don't need to do any extra work aside from simply passing the function we want to use in:
 
