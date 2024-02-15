@@ -4,10 +4,12 @@ You may have noticed that some property values you’ve worked with in CSS have 
 
 In this lesson, we’ll cover the basics of what a function is and some common ways they’re used in CSS.
 
-### Learning outcomes
+### Lesson overview
 
-- Recognize the basic parts of a CSS function
-- Learn about the `calc()`, `min()`, `max()`, and `clamp()` functions and how to use each one
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Recognize the basic parts of a CSS function.
+- Learn about the `calc()`, `min()`, `max()`, and `clamp()` functions and how to use each one.
 
 ### What is a function and how are they used in CSS?
 

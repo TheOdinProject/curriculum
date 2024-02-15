@@ -6,7 +6,7 @@ In this lesson, you will learn how it all works, and even implement your own has
 
 ### Lesson overview
 
-By the end of this lesson, you will learn about:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Hash codes and how to generate them.
 - Hash maps and how they work internally.

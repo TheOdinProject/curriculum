@@ -10,11 +10,11 @@ In this lesson, we will learn how to deploy our apps to a hosting provider, allo
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand what a hosting provider is
-- Understand the difference between static and dynamic sites
-- Understand what a PaaS is and how they work
-- Know how to deploy to a PaaS provider
-- Know how to troubleshoot common deployment issues
+- Understand what a hosting provider is.
+- Understand the difference between static and dynamic sites.
+- Understand what a PaaS is and how they work.
+- Know how to deploy to a PaaS provider.
+- Know how to troubleshoot common deployment issues.
 
 ### What are hosting providers?
 
@@ -121,7 +121,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 **Free plan**
 
 - You get a free one-time grant of $5 on their free trial, and the applications are never put to sleep when inactive.
-- However, the longevity of your free allowance depends on how many resources you consume. Full usage of the resources available is only enough to host one app for about 30 days, and thus isn't recommended.
+- However, the longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
 
 **Links**
 

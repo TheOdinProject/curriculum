@@ -4,9 +4,9 @@ Ruby is a strongly object-oriented language, which means that absolutely everyth
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - List the basic arithmetic operators and what they do.
 - Describe the difference between an integer and a float and how to convert between the two.

@@ -14,9 +14,9 @@ Recently the NodeJS.dev team removed a large amount of content from their websit
 
 </div>
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain some things that Node.js is commonly used for.
 - Create and use modules in Node.js (both built-in and user created).

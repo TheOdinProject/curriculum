@@ -6,12 +6,12 @@ You need to specify the proper types of inputs for each possible data item since
 
 In this lesson, we will explore the basics of HTML forms and some of the different types of inputs available to you.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Create forms with HTML
-- Have a basic idea of how to style forms
+- Create forms with HTML.
+- Have a basic idea of how to style forms.
 
 ### The form element
 

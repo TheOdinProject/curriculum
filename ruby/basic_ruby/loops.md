@@ -8,8 +8,9 @@ If you find yourself needing to repeat an action more than once in your code, yo
 
 For all of the examples in this lesson, you should code along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
  - Explain what a loop is and why it's useful.
  - Explain what a `loop` loop is and how to use it.

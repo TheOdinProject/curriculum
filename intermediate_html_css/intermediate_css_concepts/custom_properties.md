@@ -8,11 +8,11 @@ We can even redefine custom properties under different contexts, which is incred
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to declare custom properties
-- How to use a custom property in a rule declaration
-- The scope of custom properties
-- The root selector
-- Using media queries
+- How to declare custom properties.
+- How to use a custom property in a rule declaration.
+- The scope of custom properties.
+- The root selector.
+- Using media queries.
 
 ### Using custom properties
 
