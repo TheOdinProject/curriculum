@@ -160,14 +160,11 @@ function sumOfTripledEvens(array) {
 1. Watch and code with [Part 2](https://www.youtube.com/watch?v=QNmRfyNg1lw) of Wes Bos's array series.
 1. For a more comprehensive and in-depth guide to array methods in JavaScript, you can also check out this [array method guide](https://javascript.info/array-methods). This resource covers each method in detail, with examples and explanations of their usage.
 1. At this point you just need a little more practice!  Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Fundamentals Part 4](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4) assignment. Review each README file prior to completing the following exercises in order:
-  
-    ```
-    - 08_calculator
-    - 09_palindromes
-    - 10_fibonacci
-    - 11_getTheTitles
-    - 12_findTheOldest
-    ```
+    - `08_calculator`
+    - `09_palindromes`
+    - `10_fibonacci`
+    - `11_getTheTitles`
+    - `12_findTheOldest`
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
