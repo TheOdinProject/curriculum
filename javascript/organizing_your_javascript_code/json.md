@@ -21,7 +21,7 @@ This section contains a general overview of topics that you will learn in this l
 
 </div>
 
-#### Additional resources
+### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
