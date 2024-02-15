@@ -15,21 +15,21 @@ This section contains a general overview of topics that you will learn in this l
 
 To start using PropTypes in our React projects, we first need to install the corresponding library. We can do that with `npm`. In your React project run the following command:
 
-~~~
+```
 npm install --save prop-types
-~~~
+```
 
 Next, we want to import the PropTypes package in the component whose props we want to validate.
 
-~~~javascript
+```javascript
 import PropTypes from 'prop-types';
-~~~
+```
 
 ### Using propTypes
 
 Here is a very basic example of how we would use it in a component that renders out a name prop.
 
-~~~javascript
+```javascript
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -42,21 +42,21 @@ RenderName.propTypes = {
 };
 
 export default RenderName;
-~~~
+```
 
 In this example, the component RenderName expects to receive a prop called `name` which is a string. If this prop is not a string, a warning will be displayed. If you want to make sure a prop is being passed in, use isRequired like so:
 
-~~~javascript
+```javascript
 RenderName.propTypes = {
   name: PropTypes.string.isRequired,
 }
-~~~
+```
 
 ### Using defaultProps
 
 Another cool thing we can do in combination with PropTypes is passing in default props:
 
-~~~javascript
+```javascript
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -73,7 +73,7 @@ RenderName.defaultProps = {
 };
 
 export default RenderName;
-~~~
+```
 
 In this example, with the help of the defaultProps property we are defining a default value for the `name` prop. This way, if the `RenderName` component is called without passing in the `name` prop, it will default to "Zach". When you do pass in props, they will take precedence over the default props.
 
@@ -81,7 +81,7 @@ In this example, with the help of the defaultProps property we are defining a de
 
 Now is also a good time to mention [TypeScript](https://www.typescriptlang.org/) - a strongly typed language that builds on JavaScript. We do not cover it in our curriculum and thus do not recommend looking into it now, but in the future, it may be worth learning if you’d like more type safety while writing your code.
 
-Learning TypeScript can be a lot of overhead when you’re already learning React and the best way to prepare for this is to continue developing your JavaScript fundamentals. [Even the TypeScript team advises this!](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html#learning-javascript-and-typescript) In the future however, if you do decide to go in the direction of learning TypeScript, our recommendation would be picking up a previous project and refactoring the components one by one to TypeScript.
+Learning TypeScript can be a lot of overhead when you’re already learning React and the best way to prepare for this is to continue developing your JavaScript fundamentals. The TypeScript documentation encourages enhancing JavaScript skills before tackling TypeScript complexities, as highlighted in their [discussion on the importance of JavaScript fundamentals](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html#learning-javascript-and-typescript). In the future however, if you do decide to go in the direction of learning TypeScript, our recommendation would be picking up a previous project and refactoring the components one by one to TypeScript.
 
 ### Assignment
 
@@ -89,14 +89,14 @@ Learning TypeScript can be a lot of overhead when you’re already learning Reac
 
 1. Read through the [PropTypes documentation](https://reactjs.org/docs/typechecking-with-proptypes.html). It shows all of the types you can specify and some other useful things that can be done with it!
    - You may notice this resource suggests using TypeScript over PropTypes in modern React. This may well be true for production apps but for our purposes, we are solely interested in the concept of type checking within React, where TypeScript is out of scope.
-1. You can even set up custom validators in PropTypes. Read [this article on using PropTypes on LogRocket](https://blog.logrocket.com/validate-react-props-proptypes/) for a more in-depth look into the benefits and use cases of PropTypes.
-1. [This StackOverflow thread goes into the differences of TypeScript and PropTypes. ](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application)Give it a read!
+1. You can even set up custom validators in PropTypes. For a more in-depth look into the benefits and use cases of PropTypes, read this comprehensive guide [Validating React Props with PropTypes on LogRocket](https://blog.logrocket.com/validate-react-props-proptypes/).
+1. For an insightful discussion on the differences between TypeScript and PropTypes in React applications, give [this StackOverflow thread](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application) a read!
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - <a class="knowledge-check-link" href="#using-proptypes">How would we set up a basic implementation of PropTypes?</a>
 - <a class="knowledge-check-link" href="#using-defaultprops">If we pass in a prop to a component that has a defaultProp defined, what would happen?</a>
@@ -104,6 +104,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Watch this video about PropTypes by Web Dev Simplified](https://www.youtube.com/watch?v=cx0S8JyiVxc) if you find video lessons easier to absorb. It covers many of the topics discussed in this lesson.
+- If you find video lessons easier to absorb, consider watching [Web Dev Simplified's video on understanding PropTypes in React](https://www.youtube.com/watch?v=cx0S8JyiVxc). This video covers many of the topics discussed in this lesson.
+
