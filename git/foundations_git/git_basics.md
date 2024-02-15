@@ -180,18 +180,6 @@ With that done, you can now choose to use either `git commit -m "your message he
 
 To make a commit with Visual Studio Code as the text editor, just type `git commit`. After you hit <kbd>Enter</kbd> a new tab in VS Code will open for you to write your commit message. You may provide more details on multiple lines as part of your commit message. After typing your commit message, save it <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>) and close the tab. If you return to the command line, you will see your commit message and a summary of your changes.
 
-#### Conclusion
-
-You may not feel completely comfortable with Git at this point, which is normal. It's a skill that you will get more comfortable with as you use it.
-
-The main thing to take away from this lesson is the **basic workflow**. The commands you've learned here are the ones you will be using the most often with Git.
-
-Don't worry if you don't know all the commands yet or if they aren't quite sticking in your memory yet. They will soon be seared into your brain as you use them over and over in future Odin projects.
-
-In later Git lessons, we will cover some of the more advanced Git features, such as branches. They will further expand your abilities and make you more productive.
-
-For now, concentrate on using the basics of Git that you've learned here for all of your projects from now on. You will soon know each of the basic Git commands from memory!
-
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
