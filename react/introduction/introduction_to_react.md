@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What is React?
 
-According to the [official website](https://react.dev/), React is "The library for web and native interfaces." However, let's break this down a bit further.
+According to the [React](https://react.dev/) website, React is "The library for web and native interfaces." However, let's break this down a bit further.
 
 Generally speaking, a JavaScript library is a collection of pre-written code that's designed to make development easier. This code can be reused/reimplemented in our own codebases to achieve complex tasks.
 
