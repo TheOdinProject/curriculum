@@ -91,14 +91,14 @@ This is not something we're going to focus on in our curriculum, but it may be s
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How do you define a media query to create a mobile layout for your site?](#media-query-syntax)
 - [What is the difference between `max-width` and `min-width` in a media query definition?](#tips)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - This [Media Query Tutorial](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/) on FreeCodeCamp covers the same items we've touched on here.
 - If you want more hands-on practice, this [Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts) course by Kevin Powell might interest you. You'll have to sign up.
