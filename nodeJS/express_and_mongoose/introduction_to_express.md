@@ -37,14 +37,6 @@ This section contains a general overview of topics that you will learn in this l
 3. Once you're all set up, take a look at the Node site you created in our first project. Rewrite it using express! You should be able to do this with just one app.js file and a few `app.get()`s.
 </div>
 
-
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-- The book [Express in Action](https://www.manning.com/books/express-in-action?a_bid=fe3fcff7&a_aid=express-in-action) by Evan M. Hahn is an incredible resource for Express beginners.
-- [This](https://www.youtube.com/watch?v=L72fhGm1tfE) video crash course provides you with all the basic concepts.
-- Web Dev Simplified's [Express JS crash course](https://www.youtube.com/watch?v=SccSCuHhOw0&ab_channel=WebDevSimplified) also packs a ton of great information into a 35 minute video.
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -53,3 +45,11 @@ This section contains questions for you to check your understanding of this less
 - [Which are the four most used methods to define route handlers?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction/#creating_route_handlers)
 - [How do we handle errors?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction/#handling_errors)
 - [How do you use the Express library with NPM in a project?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment#adding_dependencies)
+
+
+### Additional resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+- The book [Express in Action](https://www.manning.com/books/express-in-action?a_bid=fe3fcff7&a_aid=express-in-action) by Evan M. Hahn is an incredible resource for Express beginners.
+- [This](https://www.youtube.com/watch?v=L72fhGm1tfE) video crash course provides you with all the basic concepts.
+- Web Dev Simplified's [Express JS crash course](https://www.youtube.com/watch?v=SccSCuHhOw0&ab_channel=WebDevSimplified) also packs a ton of great information into a 35 minute video.
