@@ -180,17 +180,17 @@ rps.playRound('rock') // if we win a round, this function will return `'player'`
 rps.playerScore // ...and our score will be incremented to `1`
 ```
 
-Now, everything you need to play this game is oraganized and conveniantly available within this one `rps` object. This idea of grouping related functionality within an object is *extremely powerful*, and can often result in more organized, understandable code.
+Now, everything you need to play this game is oraganized and conveniently available within this one `rps` object. This idea of grouping related functionality within an object is *extremely powerful*, and can often result in more organized, understandable code.
 
 You may be wondering why some of the properties/methods of this object are prefixed by an underscore (`_`). This is just a convention to say "These things are meant to be used internally by this object, please interact with the other available methods and properties on this object's interface instead".
 
 These methods might also be called "private methods"/"private properties", and even though **object literal** syntax doesn't provide a way to truly make them private, you will learn about other methods of creating objects that *can*.
 
-Private properties aren't stricly required, but they can help make the intended use of the object more understandable, and when used thoughtfully, protect certain properties from being modified in ways that you may not have intended.
+Private properties aren't strictly required, but they can help make the intended use of the object more understandable, and when used thoughtfully, protect certain properties from being modified in ways that you may not have intended.
 
 ### Object constructors
 
-Manually typing out the contents of our objects with Object Literals is not always feasable. When you have a specific type of object that you need to duplicate like our player object, inventory items, or even the entire RPS game, a better way to create them is using an object constructor, which is a function that looks like this:
+Manually typing out the contents of our objects with Object Literals is not always feasible. When you have a specific type of object that you need to duplicate like our player object, inventory items, or even the entire RPS game, a better way to create them is using an object constructor, which is a function that looks like this:
 
 ```javascript
 function Player(name, marker) {
@@ -473,7 +473,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Lydia Hallie's article](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) and [Avelx' video](https://www.youtube.com/watch?v=sOrtAjyk4lQ) explains the Prototype concept with graphics and beginner friendly language. Try using these resources if you want another perspective to understand the concept.
+- [Lydia Hallie's article](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) and [Avelx's video](https://www.youtube.com/watch?v=sOrtAjyk4lQ) explains the Prototype concept with graphics and beginner friendly language. Try using these resources if you want another perspective to understand the concept.
 - [mpj's video](https://www.youtube.com/watch?v=CDFN1VatiJA) explains the `Object.create` method with great details about it, he walks through what it is, why `Object.create` exists in JavaScript, and how to use `Object.create`. Also you can check [techsith's video](https://www.youtube.com/watch?v=MACDGu96wrA) to understand another point of view of extending objects from others by `Object.create`.
 - [The Principles of Object-Oriented JavaScript](https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404) book by
 Nicholas C. Zakas is really great to understand OOP in JavaScript, which explains concepts in-depth, which explores JavaScript's object-oriented nature, revealing the language's unique implementation of inheritance and other key characteristics, it's not free but it's very valuable.
