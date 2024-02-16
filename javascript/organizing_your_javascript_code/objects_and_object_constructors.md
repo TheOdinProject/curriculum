@@ -40,18 +40,20 @@ If you are feeling rusty on using objects, now might be a good time to go back a
 
 This section contains a general overview of topics that you will learn in this lesson.
 
+- Explain how objects can be used to organize data
+- Explain how objects can be used to organize functionality
+- Explain what the `this` keyword is.
 - How to write an object constructor and instantiate the object.
 - Describe what a prototype is and how it can be used.
 - Explain prototypal inheritance.
 - Understand the basic do's and don't's of prototypal inheritance.
 - Explain what `Object.create` does.
-- Explain what the `this` keyword is.
 
-### Objects as a design pattern
+### Objects as a data structure
 
-One of the simplest ways you can begin to organize your code is by grouping things into objects. Take these examples from a 'tic tac toe' game:
+You've already been introduced to the basic use of a JavaScript object- storing related information with key/value pairs. This is one of the simplest ways you can begin to organize your code! Take these examples from a 'tic tac toe' game:
 
-```javascript
+```js
 // example one
 const playerOneName = "tim";
 const playerTwoName = "jenn";
@@ -60,45 +62,135 @@ const playerTwoMarker = "O";
 
 // example two
 const playerOne = {
-  name: "tim",
-  marker: "X"
+  name: "tim",
+  marker: "X"
 };
 
 const playerTwo = {
-  name: "jenn",
-  marker: "O"
+  name: "jenn",
+  marker: "O"
 };
 ```
 
-At first glance, the first doesn't seem so bad.. and it actually takes fewer lines to write than the example using objects, but the benefits of the second approach are huge! Let me demonstrate:
+At first glance, the first doesn’t seem so bad.. and it actually takes fewer lines to write than the example using objects, but the benefits of the second approach are huge! Grouping related data together into objects allows you to pass the data around easily. Let me demonstrate:
 
-```javascript
+```js
 function printName(player) {
-  console.log(player.name);
+  console.log(player.name);
 }
 ```
 
-This is something that you just could NOT do with the example one setup. Instead, every time you wanted to print a specific player's name, you would have to remember the correct variable name and then manually `console.log` it:
+This is something that you just could NOT do with the example one setup. Instead, every time you wanted to print a specific player’s name, you would have to remember the correct variable name and then manually console.log it:
 
-```javascript
+```js
 console.log(playerOneName);
 console.log(playerTwoName);
 ```
 
-Again, this isn't *that* bad... but what if you *don't know* which player's name you want to print?
+Again, this isn’t that bad… but what if you don’t know which player’s name you want to print?
 
-```javascript
+```js
 function gameOver(winningPlayer){
-  console.log("Congratulations!");
-  console.log(winningPlayer.name + " is the winner!");
+  console.log("Congratulations!");
+  console.log(winningPlayer.name + " is the winner!");
 }
 ```
 
-Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of an item's name, price, description and other things is the only way to go. Unfortunately, in that type of situation, manually typing out the contents of our objects is not feasible either. We need a cleaner way to create our objects, which brings us to...
+Or, what if we aren’t making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of each particular item’s name, price, description and other things is the only way to go. You will continue to use and see objects used in this way throughout the curriculum.
+
+### Objects as a design pattern
+
+The grouping power of objects isn't just useful for organizing data- it's useful for organizing *functionality* as well!
+
+One of the easiest ways to do this is to add ***methods*** to your objects in conjunction with JavaScript's `this` keyword.
+
+- A 'method' is just a fancy word for "a function that exists as a property of an object".
+- The `this` keyword is used to refer to an object a particular method is called from.
+
+Let's take a look at a basic example of adding some functionality to one of our player objects:
+
+```js
+const playerOne = {
+  name: "tim",
+  marker: "X",
+
+  // special, shorthand syntax for adding methods in object literals
+  greet() {
+    console.log("Hi, I'm " + this.name + '!')
+  }
+}
+
+playerOne.greet() // logs "Hi, I'm tim!" to the console
+```
+
+Our `greet()` method here uses the `this` keyword to look at it's parent object (`playerOne`), grab it's `name` property, then log that property to the console as a greeting.
+
+While that worked as a great example, this method isn't all that useful. Let's take this idea further and organize related code for the logic of a Rock Paper Scissors game into an object.
+
+Feel encouraged to copy this code into the developer console and experiment with how it works yourself!
+
+```js
+const rps = {
+  _options: ['rock', 'paper', 'scissors'],
+  _getRandomChoice() {
+    const randomIndex = Math.floor(Math.random() * 3)
+    return this._options[randomIndex]
+  },
+  _isTie(playerChoice, computerChoice) {return playerChoice === computerChoice},
+  _isPlayerWinner(playerChoice, computerChoice) {
+    if(
+      (playerChoice === 'rock' && computerChoice === 'scissors') ||
+      (playerChoice === 'paper' && computerChoice === 'rock') ||
+      (playerChoice === 'scissors' && computerChoice === 'paper')
+    ) {
+      return true
+    } else {
+      return false
+    }
+  },
+  playerScore: 0,
+  computerScore: 0,
+  playRound(playerChoice) {
+    // if an invalid choice is chosen, throw an error
+    if(!this._options.includes(playerChoice)) {
+      throw new Error(`Expected 'rock', 'paper', or 'scissors', but got ${playerChoice}`)
+    }
+    
+    // get the computer's choice
+    const computerChoice = this._getRandomChoice()
+
+    // determine the winner, apply points if necessary, and return who won
+    if(this._isTie(playerChoice, computerChoice)) {
+      return "tie"
+    } else if(this._isPlayerWinner(playerChoice, computerChoice)) {
+      this.playerScore++
+      return "player"
+    } else {
+      this.computerScore++
+      return 'computer'
+    }
+  },
+  reset() {
+    this.playerScore = 0;
+    this.computerScore = 0;
+  }
+}
+
+rps.playRound('rock') // if we win a round, this function will return `'player'`...
+rps.playerScore // ...and our score will be incremented to `1`
+```
+
+Now, everything you need to play this game is oraganized and conveniantly available within this one `rps` object. This idea of grouping related functionality within an object is *extremely powerful*, and can often result in more organized, understandable code.
+
+You may be wondering why some of the properties/methods of this object are prefixed by an underscore (`_`). This is just a convention to say "These things are meant to be used internally by this object, please interact with the other available methods and properties on this object's interface instead".
+
+These methods might also be called "private methods"/"private properties", and even though **object literal** syntax doesn't provide a way to truly make them private, you will learn about other methods of creating objects that *can*.
+
+Private properties aren't stricly required, but they can help make the intended use of the object more understandable, and when used thoughtfully, protect certain properties from being modified in ways that you may not have intended.
 
 ### Object constructors
 
-When you have a specific type of object that you need to duplicate like our player or inventory items, a better way to create them is using an object constructor, which is a function that looks like this:
+Manually typing out the contents of our objects with Object Literals is not always feasable. When you have a specific type of object that you need to duplicate like our player object, inventory items, or even the entire RPS game, a better way to create them is using an object constructor, which is a function that looks like this:
 
 ```javascript
 function Player(name, marker) {
@@ -369,6 +461,7 @@ If we had used `Object.setPrototypeOf()` in this example, then we could safely e
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
+- [Explain two ways you can use objects to organize code.](#objects-as-a-data-structure)
 - [Write an object constructor and instantiate the object.](#object-constructors)
 - [Describe what a prototype is and how it can be used.](#the-prototype)
 - [Explain prototypal inheritance.](https://javascript.info/prototype-inheritance)
@@ -381,7 +474,7 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Lydia Hallie's article](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) and [Avelx' video](https://www.youtube.com/watch?v=sOrtAjyk4lQ) explains the Prototype concept with graphics and beginner friendly language. Try using these resources if you want another perspective to understand the concept.
-- [mpj's video](https://www.youtube.com/watch?v=CDFN1VatiJA) explains `Object.create` method with great details about it, he walks through what it is, why `Object.create` exists in JavaScript, and how to use `Object.create`. Also you can check [techsith's video](https://www.youtube.com/watch?v=MACDGu96wrA) to understand another point of view of extending objects from others by `Object.create`.
+- [mpj's video](https://www.youtube.com/watch?v=CDFN1VatiJA) explains the `Object.create` method with great details about it, he walks through what it is, why `Object.create` exists in JavaScript, and how to use `Object.create`. Also you can check [techsith's video](https://www.youtube.com/watch?v=MACDGu96wrA) to understand another point of view of extending objects from others by `Object.create`.
 - [The Principles of Object-Oriented JavaScript](https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404) book by
 Nicholas C. Zakas is really great to understand OOP in JavaScript, which explains concepts in-depth, which explores JavaScript's object-oriented nature, revealing the language's unique implementation of inheritance and other key characteristics, it's not free but it's very valuable.
 - This [stack overflow question](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) explains the difference between defining methods via the prototype vs defining them in the constructor.
