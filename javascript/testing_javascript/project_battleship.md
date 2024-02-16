@@ -31,12 +31,13 @@ We have not yet discussed testing the appearance of a webpage, which requires a 
    5. Create conditions so that the game ends once one player's ships have all been sunk.  This function is appropriate for the Game module.
 5. Finish it up
    1. Implement the system that allows players to place their ships. You can let them type coordinates for each ship or have a button to cycle through random placements.
-   2. You can polish the intelligence of the computer player by having it try adjacent slots after getting a 'hit'.
-   3. Optionally, create a 2 player option that lets users take turns by passing the device back and forth.  If you're going to go this route, make sure the game is playable on a mobile screen and implement a 'pass device' screen so that players don't see each others boards!
 
 #### Extra credit
 
 1. Implement drag and drop to allow players to place their ships.
+1. Create a 2 player option that lets users take turns by passing the device back and forth.
+   1. Make sure the game is playable on a mobile screen and implement a 'pass device' screen so that players don't see each others boards!
+1. Polish the intelligence of the computer player by having it try adjacent slots after getting a 'hit'.
 
 </div>
 
