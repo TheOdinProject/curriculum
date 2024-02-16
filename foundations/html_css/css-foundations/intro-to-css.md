@@ -1,6 +1,6 @@
 ### Introduction
 
-In the previous lesson, you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some _style_, which is exactly what CSS is for. In the next few lessons, we're going to focus on what we believe are some foundational CSS concepts, things that everyone should know from the beginning — whether they are just starting out or simply need a refresher.
+In the previous lesson, you learned how to write the HTML that determines how a web page is structured. The next step is to make that structure look good with some *style*, which is exactly what CSS is for. In the next few lessons, we're going to focus on what we believe are some foundational CSS concepts, things that everyone should know from the beginning — whether they are just starting out or need a refresher.
 
 ### Lesson overview
 
@@ -19,14 +19,14 @@ At the most basic level, CSS is made up of various rules. These rules are made u
 <div class="lesson-note" markdown="1">
 
 #### Note
- 
-A `<div>` is one of the basic HTML elements. It is simply an empty container. In general, it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain`<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
+
+A `<div>` is one of the basic HTML elements. It is an empty container. In general, it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain`<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
 
 </div>
 
 ### Selectors
 
-Selectors simply refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
+Selectors refer to the HTML elements to which CSS rules apply; they're what is actually being "selected" for each rule. The following subsections don't cover every selector available, but they're by far the most common and the ones you should get comfortable using first.
 
 #### Universal selector
 
@@ -160,7 +160,7 @@ We have two elements with the `subsection` class that have some sort of unique s
 }
 ```
 
-What `.subsection.header` does is it selects any element that has both the `subsection` _and_ `header` classes. Notice how there isn't any space between the `.subsection` and `.header` class selectors. This syntax basically works for chaining any combination of selectors, except for chaining more than one [type selector](#type-selectors).
+What `.subsection.header` does is it selects any element that has both the `subsection` *and* `header` classes. Notice how there isn't any space between the `.subsection` and `.header` class selectors. This syntax basically works for chaining any combination of selectors, except for chaining more than one [type selector](#type-selectors).
 
 This can also be used to chain a class and an ID, as shown below:
 
@@ -222,7 +222,7 @@ There's really no limit to how many combinators you can add to a rule, so `.one 
 
 ### Properties to get started with
 
-There are some CSS properties that you're going to be using all the time, or at the very least more often than not. We're going to introduce you to several of these properties, though this is by no means a complete list. Learning the following properties will simply be enough to help get you started.
+There are some CSS properties that you're going to be using all the time, or at the very least more often than not. We're going to introduce you to several of these properties, though this is by no means a complete list. Learning the following properties will be enough to help get you started.
 
 #### Color and background-color
 
@@ -276,11 +276,11 @@ img {
 
 For example, if an image's original size was 500px height and 1000px width, using the above CSS would result in a height of 250px.
 
-It's best to include both of these properties for `<img>` elements, even if you don't plan on adjusting the values from the image file's original ones. When these values aren't included, if an image takes longer to load than the rest of the page contents, the image won't take up any space on the page at first, but will suddenly cause a drastic shift of the other page contents once it does load in. Explicitly stating a `height` and `width` prevents this from happening, as space will be "reserved" on the page and will just appear as a blank space until the image loads.
+These properties work in conjunction with the height and width attributes in the HTML. It’s best to include both of these properties and the HTML attributes for image elements, even if you don’t plan on adjusting the values from the image file’s original ones. When these values aren’t included, if an image takes longer to load than the rest of the page contents, it won’t take up any space on the page at first but will suddenly cause a drastic shift of the other page contents once it does load in. Explicitly stating a `height` and `width` prevents this from happening, as space will be “reserved” on the page and appear blank until the image loads.
 
 ### Adding CSS to HTML
 
-Now that we've learned some basic syntax, you might be wondering _how_ to add all this CSS to our HTML. There are three methods to do so.
+Now that we've learned some basic syntax, you might be wondering *how* to add all this CSS to our HTML. There are three methods to do so.
 
 #### External CSS
 
@@ -316,7 +316,7 @@ A note on file names: `styles.css` is just what we went with as the file name he
 A couple of the pros to this method are:
 
 1. It keeps our HTML and CSS separated, which results in the HTML file being smaller and making things look cleaner.
-2. We only need to edit the CSS in _one_ place, which is especially handy for websites with many pages that all share similar styles.
+1. We only need to edit the CSS in *one* place, which is especially handy for websites with many pages that all share similar styles.
 
 #### Internal CSS
 
@@ -342,7 +342,7 @@ Besides these differences, the syntax is exactly the same as the external method
 </body>
 ```
 
-This method can be useful for adding unique styles to a _single page_ of a website, but it doesn't keep things separate like the external method, and depending on how many rules and declarations there are it can cause the HTML file to get pretty big.
+This method can be useful for adding unique styles to a *single page* of a website, but it doesn't keep things separate like the external method, and depending on how many rules and declarations there are it can cause the HTML file to get pretty big.
 
 #### Inline CSS
 
@@ -356,9 +356,9 @@ Inline CSS makes it possible to add styles directly to HTML elements, though thi
 
 The first thing to note is that we don't actually use any selectors here, since the styles are being added directly to the opening `<div>` tag itself. Next, we have the `style=` attribute, with its value within the pair of quotation marks being the declarations.
 
-If you need to add a _unique_ style for a _single_ element, this method can work just fine. Generally, though, this isn't exactly a recommended way for adding CSS to HTML for a few reasons:
+If you need to add a *unique* style for a *single* element, this method can work just fine. Generally, though, this isn't exactly a recommended way for adding CSS to HTML for a few reasons:
 
-- It can quickly become pretty messy once you start adding a _lot_ of declarations to a single element, causing your HTML file to become unnecessarily bloated.
+- It can quickly become pretty messy once you start adding a *lot* of declarations to a single element, causing your HTML file to become unnecessarily bloated.
 - If you want many elements to have the same style, you would have to copy and paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
 - Any inline CSS will override the other two methods, which can cause unexpected results. (While we won't dive into it here, this can actually be taken advantage of.)
 
@@ -366,7 +366,8 @@ If you need to add a _unique_ style for a _single_ element, this method can work
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `foundations` directory. Review each README file prior to completing the following exercises in order:
+1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README. Then, once you know how to use the exercises, navigate to the `foundations` directory. Review each README file prior to completing the following exercises in order:
+
     - `01-css-methods`
     - `02-class-id-selectors`
     - `03-group-selectors`
@@ -374,6 +375,7 @@ If you need to add a _unique_ style for a _single_ element, this method can work
     - `05-descendant-combinator`
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
+
 </div>
 
 ### Knowledge check

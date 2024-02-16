@@ -37,7 +37,7 @@ We know it may be tempting to look at the solutions when you get stuck or don't 
 
 Once you have completed your project, feel free to look at the other solutions to see alternative ways the project was completed.
 
-**DO NOT PEEK. Come ask for help in our Discord server!**
+**DO NOT PEEK. Come ask for help in our [Discord server!](https://discord.com/channels/505093832157691914/516751477306294273) _(You need to [join the Discord server](https://discord.gg/fbFCkYabZB) first in order to see the channel)._**
 
 ### Assignment
 
@@ -56,7 +56,7 @@ Don't forget to commit early & often! You can [reference the Commit Message less
 
 ### Viewing your project on the web
 
-If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above), doing this is incredibly simple.
+If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine. The good news is that if you have your project on GitHub (as described above), then doing this is straightforward.
 
 GitHub allows you to publish web projects directly from a GitHub repository. Doing this will allow you to access your project from `your-github-username.github.io/your-github-repo-name`
 

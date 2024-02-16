@@ -8,7 +8,7 @@ In this lesson, we'll learn about mocking. Furthermore, we'll discuss a React co
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Carry out mocks in the context of React testing.
+- Carry out mocks in the context of React testing.
 
 ### What is mocking?
 
@@ -16,7 +16,7 @@ If you've been following along with our lessons so far, the concept of mocking h
 
 #### Testing callback handlers
 
-Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. Sometimes they're passed in as props to alter state of the parent component. Consider this simple button component:
+Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. Sometimes they're passed in as props to alter state of the parent component. Consider this button component:
 
 ~~~jsx
 // CustomButton.jsx
@@ -30,7 +30,7 @@ const CustomButton = ({ onClick }) => {
 export default CustomButton;
 ~~~
 
-Nothing fancy. `CustomButton` is a simple component with a prop passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user clicks the button. Let's test it.
+Nothing fancy. `CustomButton` is a component with a prop passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user clicks the button. Let's test it.
 
 <span id="testing-callback-handlers">Notice how we mock and test the `onClick` function</span>:
 
@@ -86,7 +86,7 @@ You might have come across the concept of mocking modules. In React, when the co
 
 ### React testing in the real world
 
-If you're logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components were written in React and tested with the React Testing Library. They have since been removed, but they still serve as great examples. This'll be fun. Your task is simple:
+If you're logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components were written in React and tested with the React Testing Library. They have since been removed, but they still serve as great examples. This'll be fun. Your task is:
 
 Read and try to comprehend the [submissions-list.jsx](https://github.com/TheOdinProject/theodinproject/blob/0886578d5b27a967e6bba2b31f212efe284d9413/app/javascript/components/project-submissions/components/submissions-list.jsx) component. It's okay if you don't understand everything. And the good news is that we don't have to understand it all to follow along with this lesson!
 

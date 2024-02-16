@@ -113,7 +113,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 Once this is done, go ahead and run `npm run dev` and check out both routes: the home route `/` and the profile route `/profile` It works! But what is happening here?
 
 1. We import `createBrowserRouter` and `RouterProvider` from React Router.
-2. `createBrowserRouter` is used to create the configuration for a router by simply passing arguments in the form of an array of routes.
+2. `createBrowserRouter` is used to create the configuration for a router by passing arguments in the form of an array of routes.
 3. The configuration array contains objects with two mandatory keys, the path and the corresponding element to be rendered.
 4. This generated configuration is then rendered in, by passing it to the `RouterProvider` component.
 
@@ -283,7 +283,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 If you visit the `/profile` path now, you should be able to see some default content where the `Outlet` is rendered when the index path is rendered!
 
-But this example brings another dillemma. Sometimes, we want to render content according to the URLs. That, here, would mean that we should be able to render content dynamically, from the component itself. Thankfully, you can do so with dynamic segments! Change the routes to be the following:
+But this example brings another dilemma. Sometimes, we want to render content according to the URLs. That, here, would mean that we should be able to render content dynamically, from the component itself. Thankfully, you can do so with dynamic segments! Change the routes to be the following:
 
 ~~~jsx
 import React from "react";
@@ -362,7 +362,7 @@ const ErrorPage = () => {
 export default ErrorPage;
 ~~~
 
-Add the `errorElement` to the configuration, and verify that it renders an error page by going to the `/profile` path or any unmentioned paths.
+Add the `errorElement` to the configuration, and verify that it renders an error page by going to the `/profile` path or any unmentioned paths. We'll wire this back up in the assignment.
 
 ~~~jsx
 import React from "react";
@@ -422,7 +422,7 @@ const Router = () => {
 export default Router;
 ~~~
 
-Simply add `Router.jsx` component to the `Main.jsx` file:
+Add `Router.jsx` component to the `Main.jsx` file:
 
 ~~~jsx
 import React from "react";
@@ -453,7 +453,7 @@ You should now have enough basics to get started with React routing. There are a
 <div class="lesson-content__panel" markdown="1">
 
 1.  [This article on SPAs and client-side routing by Ben Holmes](https://bholmes.dev/blog/spas-clientside-routing/) goes through a lot of the routing concepts concisely.
-2.  Go and add a few new routes to the application we created above; playing around with it is the best practice. Consider deleting it completely and rewriting it for practice.
+2.  Go and fix the `/profile` page to display something more useful than an error page. Then, add a few new routes to the application we created above; This was a dense lesson, so take some time to play with the new tools you've learned. Consider deleting it completely and rewriting it using what you know.
 3.  The [React Router tutorial](https://reactrouter.com/en/main/start/tutorial) goes through a lot of the stuff discussed in this lesson and much more. Have a read through the sections up to "Nested Routes".
 4.  Browse through the [React Router documentation](https://reactrouter.com/en/main). Again, you don't need to read through all of it, nor understand all of it. Just browse through the concepts we discussed here and re-read them. Look into the other features that React Router offers. This is a great resource to refer back to.
 

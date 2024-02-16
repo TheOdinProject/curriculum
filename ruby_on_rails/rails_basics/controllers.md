@@ -6,7 +6,7 @@ When does the controller get used? After an HTTP request comes into your applica
 
 It's pretty straightforward. Typical controllers are pretty lightweight and don't have a whole lot of code but are able to do a lot of work with that code. What if you want to show all your blog posts in your site's index page? Run the `#index` action of your Posts controller and it will grab all your posts and send them over to the `index.html.erb` view file, which figures out how you actually want them displayed (in a giant bulleted list? With slick looking panels?).
 
-The controller's `#index` action would actually look as simple as:
+The controller's `#index` action would actually look like:
 
 ~~~ruby
   PostsController < ApplicationController
@@ -18,7 +18,7 @@ The controller's `#index` action would actually look as simple as:
   end
 ~~~
 
-In this simple action, we have the controller asking the model for something ("Hey, give me all the posts!"), packaging them up in an instance variable `@posts` so the view can use them, then will automatically render the view at `app/views/posts/index.html.erb` (we'll talk about that in a minute).
+In this action, we have the controller asking the model for something ("Hey, give me all the posts!"), packaging them up in an instance variable `@posts` so the view can use them, then will automatically render the view at `app/views/posts/index.html.erb` (we'll talk about that in a minute).
 
 ### Lesson overview
 
@@ -210,13 +210,6 @@ That's really just a taste of the Rails controller, but you should have a pretty
   1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.6.3 and 5.2. We'll cover sessions (section 5.1) more in the future so don't worry about them now.
 </div>
 
-### Additional resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-- [Controller & Routes Video Demo](https://vimeo.com/168501163)
-- [Rails 3 Rendering and Partials via YouTube](http://www.youtube.com/watch?v=m-tw2OCHPMI)
-
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
@@ -228,3 +221,10 @@ This section contains questions for you to check your understanding of this less
 - [Data from a client can never be trusted. Which helper method should you incorporate in your controller to prevent malicious data injections?](#strong-parameters)
 - [When is a flash message shown?](https://guides.rubyonrails.org/action_controller_overview.html#the-flash)
 - [How do we change when a flash is shown?](https://guides.rubyonrails.org/action_controller_overview.html#flash-now)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Controller & Routes Video Demo](https://vimeo.com/168501163)
+- [Rails 3 Rendering and Partials via YouTube](http://www.youtube.com/watch?v=m-tw2OCHPMI)

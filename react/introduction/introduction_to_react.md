@@ -6,7 +6,7 @@ This lesson will provide you with information on what React is, its brief histor
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand what is React
+- Understand what is React.
 
 ### What is React?
 
@@ -42,7 +42,7 @@ If you need more convincing, the recent [2023 StackOverflow Developer Survey](ht
 
 3.  Read this [FreeCodeCamp article discussing the differences between a JavaScript library and a framework](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/).
 
-4.  Lastly, skim this [in-depth article which explains the major benefits of using React](https://www.peerbits.com/blog/reasons-to-choose-reactjs-for-your-web-development-project.html).
+4.  Lastly, skim [this article which explains the main advantages of using React](https://www.geeksforgeeks.org/what-are-the-advantages-of-react-js/).
 </div>
 
 ### Knowledge check

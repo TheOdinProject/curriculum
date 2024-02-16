@@ -2,15 +2,17 @@
 
 Now let's explore CSS animations using keyframes. This will expand upon your encounter with CSS transitions and delve into the differences between them.
 
-### Learning outcomes
+### Lesson overview
 
-* The differences between CSS transitions and CSS animations
-* How to configure animation sub-properties
-* How to sequence an animation using keyframes
+This section contains a general overview of topics that you will learn in this lesson.
+
+- The differences between CSS transitions and CSS animations.
+- How to configure animation sub-properties.
+- How to sequence an animation using keyframes.
 
 ### Animations vs transitions
 
-Animations let you animate elements from one style configuration to another. Does this sound familiar? You wouldn't be wrong for thinking, "Well, what's the point in learning animations if they are basically the same as transitions?", but animations greatly expand on some capabilities that transitions simply do not have. A few of the differences include:
+Animations let you animate elements from one style configuration to another. Does this sound familiar? You wouldn't be wrong for thinking, "Well, what's the point in learning animations if they are basically the same as transitions?", but animations greatly expand on some capabilities that transitions do not have. A few of the differences include:
 
 * Transitions were designed to animate an element from one state to another. They *can* loop, but they weren't designed for that. Animations, on the other hand, *were* designed with the purpose of explicitly enabling loops.
 
@@ -132,4 +134,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-[Video from DevTips on CSS Animations and Keyframes](https://www.youtube.com/watch?v=f1WMjDx4snI&list=PLqGj3iMvMa4LvJ8VctoXnPI0dtE40wfid&index=2&ab_channel=DevTips).
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Video from DevTips on CSS Animations and Keyframes](https://www.youtube.com/watch?v=f1WMjDx4snI&list=PLqGj3iMvMa4LvJ8VctoXnPI0dtE40wfid&index=2&ab_channel=DevTips).

@@ -4,24 +4,26 @@ By now you should be comfortable with basic CSS selectors and have no trouble gr
 
 These selectors can be especially useful when you can't (or don't want to) change your HTML markup.
 
-There are _a lot_ of advanced selectors, so going through every single one is outside the scope of this lesson. However, we'll go through some of the most useful and common ones, as well as arm you with the concepts and vocabulary to learn more on your own.
+There are *a lot* of advanced selectors, so going through every single one is outside the scope of this lesson. However, we'll go through some of the most useful and common ones, as well as arm you with the concepts and vocabulary to learn more on your own.
 
 As always feel free to open up your code editor and run your own experiments with these selectors - practice makes perfect!
 
-### Learning outcomes
+### Lesson overview
 
-* Understand how to use parent and sibling selectors
-* Recognize the difference between pseudo classes and pseudo elements
-* Learn about some of the most useful and common pseudo elements and pseudo classes
-* Learn about the different ways to select an attribute or its parts
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Understand how to use parent and sibling selectors.
+- Recognize the difference between pseudo classes and pseudo elements.
+- Learn about some of the most useful and common pseudo elements and pseudo classes.
+- Learn about the different ways to select an attribute or its parts.
 
 ### Child and sibling combinators
 
-Let's have a look at some more ways we can access different elements _without_ referring to their classes. Here are three new selectors to do just that.
+Let's have a look at some more ways we can access different elements *without* referring to their classes. Here are three new selectors to do just that.
 
-* `>` - the child combinator
-* `+` - the adjacent sibling combinator
-* `~` - the general sibling combinator
+- `>` - the child combinator
+- `+` - the adjacent sibling combinator
+- `~` - the general sibling combinator
 
 We'll tackle some practical examples using this sample markup.
 
@@ -47,7 +49,7 @@ main div {
 }
 ```
 
-But what if we wanted to be more specific and <span id="childvdesc-knowledge-check">select _only_ the `child` or `grand-child` divs?</span> That's where the child combinator `>` comes in handy. Unlike the descendant combinator, it will only select direct children.
+But what if we wanted to be more specific and <span id="childvdesc-knowledge-check">select *only* the `child` or `grand-child` divs?</span> That's where the child combinator `>` comes in handy. Unlike the descendant combinator, it will only select direct children.
 
 ```css
 /* This rule will only select divs with a class of child */
@@ -61,7 +63,7 @@ main > div > div {
 }
 ```
 
-Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is adjacent to our target, or on the same level of indentation, we can use the adjacent sibling combinator `+`.
+Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is adjacent (immediately following) to our target, or on the same level of indentation, we can use the adjacent sibling combinator `+`.
 
 ```css
 /* This rule will only select the div with the class child group2 */
@@ -75,7 +77,7 @@ Phrased another way, the child selector will select an element that is one level
 }
 ```
 
-Finally, if we want to select all of an element's siblings and not just the first one, we can use the general sibling combinator `~`.
+Finally, if we want to select all of the siblings following an element's and not just the first one, we can use the general sibling combinator `~`.
 
 ```css
 /* This rule will select all of .group1's siblings - in this case the 2nd and 3rd .child divs */
@@ -90,7 +92,7 @@ This [MDN article on combinators](https://developer.mozilla.org/en-US/docs/Learn
 
 ### Pseudo-selectors
 
-Before diving into pseudo-selectors, a quick note on the difference between [pseudo-elements and pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). <span id="syntax-exist-knowledge-check">Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that _don't_ normally exist in the markup.</span> If that doesn't make sense straight away, don't worry - we'll explore some examples below.
+Before diving into pseudo-selectors, a quick note on the difference between [pseudo-elements and pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). <span id="syntax-exist-knowledge-check">Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that *don't* normally exist in the markup.</span> If that doesn't make sense straight away, don't worry - we'll explore some examples below.
 
 ### Pseudo-classes
 
@@ -191,7 +193,7 @@ Let's 😎 🥸 🤓 emojify 🤓 🥸 😎 this span!
 
 ### Attribute selectors
 
-The last tool we're going to add to the box is attribute selectors. Recall that an attribute is simply anything in the opening tag of an HTML element - such as `src='picture.jpg'` or `href="www.theodinproject.com"`.
+The last tool we're going to add to the box is attribute selectors. Recall that an attribute is anything in the opening tag of an HTML element - such as `src='picture.jpg'` or `href="www.theodinproject.com"`.
 
 Since we write our own values for attributes, we need a slightly more flexible system to be able to target specific values.
 
@@ -199,9 +201,9 @@ Attribute selectors have the same specificity as classes and pseudo-classes (0, 
 
 Let's look at some examples for basic usage.
 
-* `[attribute]` - This general selector will select anything where the given attribute exists. Its value doesn't matter.
-* `selector[attribute]` - Optionally we can combine our attribute selectors with other types of selectors, such as class or element selectors.
-* `[attribute="value"]` -<span id="type-text-knowledge-check"> To get really specific, we can use `=` to match a specific attribute with a specific value.</span>
+- `[attribute]` - This general selector will select anything where the given attribute exists. Its value doesn't matter.
+- `selector[attribute]` - Optionally we can combine our attribute selectors with other types of selectors, such as class or element selectors.
+- `[attribute="value"]` -<span id="type-text-knowledge-check"> To get really specific, we can use `=` to match a specific attribute with a specific value.</span>
 
 ```css
   [src] {
@@ -219,10 +221,9 @@ Let's look at some examples for basic usage.
 
 Sometimes we need to be more general in how we access these attributes. For example, perhaps we're only interested in `img` elements where the `src` attribute's value ends in `.jpg`. For cases like this we have some attribute selectors that allow us to match a part of the attribute's value. If you've ever come across [regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) before, these attributes use a similar syntax.
 
-
-* `[attribute^="value"]` - `^=` <span id="thunder-knowledge-check">Will match strings from the start.</span>
-* `[attribute$="value"]` - `$=` Will match strings from the end.
-* `[attribute*="value"]` - `*=` The wildcard selector will match anywhere inside the string.
+- `[attribute^="value"]` - `^=` <span id="thunder-knowledge-check">Will match strings from the start.</span>
+- `[attribute$="value"]` - `$=` Will match strings from the end.
+- `[attribute*="value"]` - `*=` The wildcard selector will match anywhere inside the string.
 
 ```css
 [class^='aus'] {
@@ -252,7 +253,6 @@ Sometimes we need to be more general in how we access these attributes. For exam
 
 To see what other things you can achieve with attribute selectors, such as searching case insensitivity, or sub-strings separated by hyphens, have a browse through the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
 
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -264,23 +264,23 @@ To see what other things you can achieve with attribute selectors, such as searc
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* [What is the difference between the child combinator and the descendant combinator?](#childvdesc-knowledge-check)
-* [How does the syntax of pseudo-classes and pseudo-elements differ?](#syntax-exist-knowledge-check)
-* [Do pseudo-classes exist somewhere in HTML? Do pseudo-elements?](#syntax-exist-knowledge-check)
-* [Name two ways you could select every second child of an element, starting with the first.](#second-child-knowledge-check)
-* [What is the difference between `div:first-child` and `div:last-child`? What will each select?](#first-child-knowledge-check)
-* [What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?](#hover-active-knowledge-check)
-* [How could you select all input elements with a type of text?](#type-text-knowledge-check)
-* [How could you select all classes that begin with `thunder`?](#thunder-knowledge-check)
+- [What is the difference between the child combinator and the descendant combinator?](#childvdesc-knowledge-check)
+- [How does the syntax of pseudo-classes and pseudo-elements differ?](#syntax-exist-knowledge-check)
+- [Do pseudo-classes exist somewhere in HTML? Do pseudo-elements?](#syntax-exist-knowledge-check)
+- [Name two ways you could select every second child of an element, starting with the first.](#second-child-knowledge-check)
+- [What is the difference between `div:first-child` and `div:last-child`? What will each select?](#first-child-knowledge-check)
+- [What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?](#hover-active-knowledge-check)
+- [How could you select all input elements with a type of text?](#type-text-knowledge-check)
+- [How could you select all classes that begin with `thunder`?](#thunder-knowledge-check)
 
 ### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [Kevin Powell](https://www.youtube.com/kepowob/search?query=pseudo) has a variety of videos on several of these topics if you'd like a deeper dive.
-* [The CSS Tricks Almanac](https://css-tricks.com/almanac/selectors/) has a great reference for all pseudo-elements and selectors. It includes examples, extra resources and browser support charts.
-* [W3 Schools](https://www.w3schools.com/cssref/css_selectors.asp) also has a solid, more concise reference list. Includes an interactive selector tool if you'd like to play around with some hands on examples.
-* [The Free Code Camp Selector Cheat Sheet](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/) has a solid summary of some of the most common selectors.
-* [A nice concise article](https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html) on the differences between pseudo-classes and pseudo-elements. Also provides a solid summary of the different kinds of selectors.
-* [Smashing Magazine on Taming Advanced CSS Selectors](http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/)
-* [CSS Tricks on Attribute Selectors](https://css-tricks.com/attribute-selectors/) will help if you need a deeper look at attributes.
+- [Kevin Powell](https://www.youtube.com/kepowob/search?query=pseudo) has a variety of videos on several of these topics if you'd like a deeper dive.
+- [The CSS Tricks Almanac](https://css-tricks.com/almanac/selectors/) has a great reference for all pseudo-elements and selectors. It includes examples, extra resources and browser support charts.
+- [W3 Schools](https://www.w3schools.com/cssref/css_selectors.asp) also has a solid, more concise reference list. Includes an interactive selector tool if you'd like to play around with some hands on examples.
+- [The Free Code Camp Selector Cheat Sheet](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/) has a solid summary of some of the most common selectors.
+- [A nice concise article](https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html) on the differences between pseudo-classes and pseudo-elements. Also provides a solid summary of the different kinds of selectors.
+- [Smashing Magazine on Taming Advanced CSS Selectors](http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/)
+- [CSS Tricks on Attribute Selectors](https://css-tricks.com/attribute-selectors/) will help if you need a deeper look at attributes.
