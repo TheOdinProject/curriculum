@@ -1,6 +1,6 @@
 ### Introduction
 
-After the previous lesson, you should now have a better understanding of how important web accessibility can be for certain users, and how beneficial it can be for *all* users. But how do we know not only what should be a11y friendly, but how to make those things a11y friendly? Well, there are many sources available to tell us the what and how, those who actually rely on accessibility being one of the best sources we can consult.
+After the previous lesson, you should now have a better understanding of how important web accessibility can be for certain users, and how beneficial it can be for _all_ users. But how do we know not only what should be a11y friendly, but how to make those things a11y friendly? Well, there are many sources available to tell us the what and how, those who actually rely on accessibility being one of the best sources we can consult.
 
 Another source, one that goes over many different ways to help make websites more accessible, is the Web Content Accessibility Guidelines (WCAG). In this lesson we're going to skim the surface of the WCAG, just to familiarize you with them at a more basic level.
 
@@ -13,9 +13,9 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Web Content Accessibility Guidelines
 
-<span id="wcag-purpose">The WCAG exist in order to help create a shared standard when it comes to web accessibility.</span>Think of web accessibility as the destination, and the WCAG as one of the tools that can help get us closer to it.
+<span id="wcag-purpose">The WCAG exist in order to help create a shared standard when it comes to web accessibility.</span> Think of web accessibility as the destination, and the WCAG as one of the tools that can help get us closer to it.
 
-It's important to understand that while the WCAG can be incredibly helpful for building an a11y foundation, they are not the finish line when it comes to accessibility. Like the name says, they are guidelines, and they will only help us make websites *more* accessible.
+It's important to understand that while the WCAG can be incredibly helpful for building an a11y foundation, they are not the finish line when it comes to accessibility. Like the name says, they are guidelines, and they will only help us make websites _more_ accessible.
 
 ### The four principles
 
@@ -39,7 +39,7 @@ Conformance levels get mentioned at a couple of other points in these lessons, a
 
 ### (Before) implementing accessibility
 
-The lessons that follow dive into several concepts that can help you improve the accessibility of your websites, but they don't cover *every* facet of accessibility. The goal of these lessons is just to introduce you to some of the more common concepts that you should get into the habit of checking for moving forward.
+The lessons that follow dive into several concepts that can help you improve the accessibility of your websites, but they don't cover _every_ facet of accessibility. The goal of these lessons is just to introduce you to some of the more common concepts that you should get into the habit of checking for moving forward.
 
 Even though we're only introducing you to some of these a11y concepts, you may still worry that your site isn't accessible enough. The first thing to keep in mind is that **no site will ever be 100% accessible**, so don't try to aim for such an impossible goal. Sometimes the purpose or concept of a site even requires some things to not be accessible in certain ways.
 
