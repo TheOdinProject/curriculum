@@ -49,5 +49,5 @@ You can choose to do either one, two or all of these challenges, it's up to you.
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- This JavaScript.info article goes in-depth about [implementation of drag and drop](https://javascript.info/mouse-drag-and-drop).   
+- This JavaScript.info article goes in-depth about [implementation of drag and drop](https://javascript.info/mouse-drag-and-drop).
 - For more technical information, refer to the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API) on the drag and drop API.
