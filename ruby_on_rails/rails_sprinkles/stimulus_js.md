@@ -302,41 +302,12 @@ Go back to you **Flight Booker** project and improve it:
 
 ### Knowledge check
 
-*This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering
-the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.*
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-<details markdown="block">
-  <summary>When do you use Stimulus?</summary>
-
-- When you want functionality, where a roundtrip to a server would not make sense
-
-</details>
-
-<details markdown="block">
-  <summary>How do you select a DOM element?</summary>
-
-- There are three aspects to it:
-  - add a `data-my-thing-target` to the HTML element
-  - declare it with `static targets = ["myThing"]` in your controller
-  - use it in the controller with `this.myThingTarget` or `this.myThingTargets`
-
-</details>
-
-<details markdown="block">
-  <summary>How do you make your Stimulus controllers reusable?</summary>
-
-- By using abstract controllers, like `toggle`, rather than one specific to the view, like `reveal-comments`
-- By making them configurable with `values` and `classes`
-
-</details>
-
-<details markdown="block">
-  <summary>How do you trigger actions on an event?</summary>
-
-- By using `data-action="click->some-controller#someAction"` on a HTML element
-- Or by using `data-action="resize@window->gallery#layout"` for window events
-
-</details>
+- <a class='knowledge-check-link' href='#introduction'>When do you use Stimulus?</a>
+- <a class='knowledge-check-link' href='#selecting-targeting-elements'>How do you select a DOM element?</a>
+- <a class='knowledge-check-link' href='#use-class-attributes-to-make-your-controllers-more-configurable'>How do you make your Stimulus controllers reusable?</a>
+- <a class='knowledge-check-link' href='#triggering-an-action'>How do you trigger actions on an event?</a>
 
 ### Additional resources
 

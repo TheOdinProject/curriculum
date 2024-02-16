@@ -342,44 +342,12 @@ The final piece of Turbo is something that you don't need to know much about for
 
 ### Knowledge check
 
-*This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.*
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-<details markdown="block">
-  <summary>What does SPA stand for & what is it?</summary>
-
-  *   A SPA is a single-page application.
-  *   A SPA is a web-app that doesn't need to reload the page during use to update.
-
-</details>
-
-<details markdown="block">
-  <summary>What is Turbolinks?</summary>
-
-  *   Turbolinks is the now-deprecated predecessor to Turbo.
-
-</details>
-
-<details markdown="block">
-  <summary>What is Hotwire?</summary>
-
-  *   Hotwire is the umbrella term for the Rails SPA suite containing Turbo, Stimulus, & Strada.
-
-</details>
-
-<details markdown="block">
-  <summary>How do we use a Turbo Frame?</summary>
-
-  *   By creating a `<% turbo_frame_tag %>` region on the 2+ pages we would like to connect. When making a request to a page using a link inside of a Turbo Frame, Turbo will search for a Turbo Frame with the same `id` to replace the current page's Turbo Frame content with.
-
-</details>
-
-<details markdown="block">
-  <summary>How do we set up Turbo Streams?</summary>
-
-  *   First, we tell our controller to respond with a `turbo_stream` format, rather than a `html` format. 
-  *   Second, we create a `turbo_stream.erb` file in our views folder with the same name as the controller action (Rails conventions) that contains the Turbo Stream's action and target destination.
-
-</details>
+- <a class='knowledge-check-link' href='#single-page-applications-spas'>What does SPA stand for and what is it?</a>
+- <a class='knowledge-check-link' href='#hotwire'>What is Hotwire?</a>
+- <a class='knowledge-check-link' href='#turbo-frames'>How do we use a Turbo Frame?</a>
+- <a class='knowledge-check-link' href='#turbo-stream'>How do we set up Turbo Streams?</a>
 
 ### Additional resources
 
