@@ -335,5 +335,5 @@ This section contains helpful links to related content. It isn't required, so co
 
 - Learn more about the [differences](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/) between `auto-fit` and `auto-fill`.
 - If videos are more your speed, check out this video on [auto-fit and auto-fill](https://www.youtube.com/watch?v=qjJR3qYCd54) by Kevin Powell.
-- This video summarizes what you have learnt so far in a [concise format](https://www.youtube.com/watch?v=EiNiSFIPIQE).
+- This video summarizes what you have learned so far in a [concise format](https://www.youtube.com/watch?v=EiNiSFIPIQE).
 - Check out this beautiful [interactive guide to grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid).
