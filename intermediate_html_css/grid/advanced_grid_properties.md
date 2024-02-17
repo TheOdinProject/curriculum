@@ -25,7 +25,7 @@ We're going to approach this lesson hands-on. Let's set up a grid with five colu
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-In this example, the HTML is pretty straightforward, but let's talk really quick about some of the CSS being used that _isn't_ related to the lesson so you can understand why it is being used.
+In this example, the HTML is pretty straightforward, but let's talk really quick about some of the CSS being used that *isn't* related to the lesson so you can understand why it is being used.
 
 #### grid-item, p, img selectors
 
@@ -87,11 +87,11 @@ Check it out for yourself!
 
 ### Fractional units
 
-Now that we know how to quickly create many grid tracks, it's time to learn how to start making them _dynamic_. Dynamic, in this context means "flexible" or "responsive in some way." The opposite of dynamic is _static_, or fixed at a certain defined height, like `150px`, which we used in the setup of this sample grid.
+Now that we know how to quickly create many grid tracks, it's time to learn how to start making them *dynamic*. Dynamic, in this context means "flexible" or "responsive in some way." The opposite of dynamic is *static*, or fixed at a certain defined height, like `150px`, which we used in the setup of this sample grid.
 
 The most basic way to make our grid items dynamic is by using **fractional units**, also known as `fr`.
 
-The `fr` unit is a way of distributing whatever _remaining space_ is left in the grid. For example, if we have a four-column grid with a total width of `400px` and four grid items each on a column track assigned `1fr` as their size, all of the grid items should be given **one fraction** of that `400px` of space, which is 100 pixels.
+The `fr` unit is a way of distributing whatever *remaining space* is left in the grid. For example, if we have a four-column grid with a total width of `400px` and four grid items each on a column track assigned `1fr` as their size, all of the grid items should be given **one fraction** of that `400px` of space, which is 100 pixels.
 
 Let's take a look at what happens if we give our column and row tracks in the sample grid we created a dynamic width of `1fr` instead of a static width of 150px:
 
@@ -162,9 +162,9 @@ Of course, it's silly to give these functions static units because the calculati
 }
 ```
 
-In this case, the grid row size will be calculated from the values `200px` and `50%` grid container's height. In realtime, the browser will compare both of these values and apply whichever is smallest to the size of our grid row. Essentially, what this tells this grid is that the track size should be 50% of the grid's total vertical space (because we are defining a row size), _unless_ that number would exceed `200px`. Essentially, you're setting a max-height for the track.
+In this case, the grid row size will be calculated from the values `200px` and `50%` grid container's height. In realtime, the browser will compare both of these values and apply whichever is smallest to the size of our grid row. Essentially, what this tells this grid is that the track size should be 50% of the grid's total vertical space (because we are defining a row size), *unless* that number would exceed `200px`. Essentially, you're setting a max-height for the track.
 
-Conversely, the grid column size will be calculated based on the larger of the two values `120px` and `15%` of the grid container's width. In doing so, we are essentially setting a _minimum_ width of our grid column size at `120px`. Check out the example here, and try clicking and dragging to change the grid's dimensions to see how the grid items respond:
+Conversely, the grid column size will be calculated based on the larger of the two values `120px` and `15%` of the grid container's width. In doing so, we are essentially setting a *minimum* width of our grid column size at `120px`. Check out the example here, and try clicking and dragging to change the grid's dimensions to see how the grid items respond:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="PoJwwLq" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJwwLq">
@@ -187,9 +187,9 @@ Conversely, the grid column size will be calculated based on the larger of the t
 It is a relatively straightforward function that only takes in two arguments:
 
 1. The minimum size the grid track can be
-2. The maximum size the grid track can be
+1. The maximum size the grid track can be
 
-Unlike `min()` and `max()`, it _can_ make sense to use static values for both arguments. Here is an example of the grid we've been using written with `minmax()` and some static values:
+Unlike `min()` and `max()`, it *can* make sense to use static values for both arguments. Here is an example of the grid we've been using written with `minmax()` and some static values:
 
 ```css
 .grid-container {
@@ -215,7 +215,7 @@ Unlike `minmax()`, `clamp()` is a CSS function that can be used anywhere, not ju
 
 What this does is allow our item to resize itself until it reaches one of the minimum or maximum threshold values.
 
-Since `clamp()`'s purpose is to create a flexibly sized track with constraints, we want to use a dynamic value for the "ideal size" argument, and _typically_ a static size for the minimum and maximum size, although it is possible to use a dynamic value here too.
+Since `clamp()`'s purpose is to create a flexibly sized track with constraints, we want to use a dynamic value for the "ideal size" argument, and *typically* a static size for the minimum and maximum size, although it is possible to use a dynamic value here too.
 
 Here is a non-grid example. We will look back at our grid in a moment:
 
@@ -248,7 +248,7 @@ Using `clamp()` and `minmax()` are fantastic methods for making grids more respo
 
 ### auto-fit and auto-fill
 
-These two values are actually a part of the `repeat()` function specification, but they were saved for the end of the lesson because their usefulness is not apparent until after you understand the `minmax()` function. Here's the use case: You want to give your grid a number of columns that is flexible based on the size of the grid. For example, if our grid is only `200px` wide, we may only want one column. If it's `400px` wide, we may want two, and so on. Solving this problem with media queries would be a _lot_ of typing. Thankfully, `auto-fit` and `auto-fill` are here to save the day!
+These two values are actually a part of the `repeat()` function specification, but they were saved for the end of the lesson because their usefulness is not apparent until after you understand the `minmax()` function. Here's the use case: You want to give your grid a number of columns that is flexible based on the size of the grid. For example, if our grid is only `200px` wide, we may only want one column. If it's `400px` wide, we may want two, and so on. Solving this problem with media queries would be a *lot* of typing. Thankfully, `auto-fit` and `auto-fill` are here to save the day!
 
 According to the [W3 specification on auto-fill and auto-fit](https://www.w3.org/TR/css-grid-1/#auto-repeat), both of these functions will return "the largest possible positive integer" without the grid items overflowing their container. Here is an example:
 
@@ -277,13 +277,13 @@ The real magic of `auto-fit` and `auto-fill` comes when we incorporate `minmax()
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Notice how when we resize, the columns automagically know how many will fit across without any media queries whatsoever. If you don't think _that's_ cool, you better check your pulse!
+Notice how when we resize, the columns automagically know how many will fit across without any media queries whatsoever. If you don't think *that's* cool, you better check your pulse!
 
 So what's going on here specifically with `repeat(auto-fit, minmax(150px, 1fr));`? Remember that `auto-fit` will return the **highest positive integer** without overflowing the grid. So first, the browser has to know how wide our grid is: in this case, it's just the window's width (minus margins) because we didn't explicitly set it. For the sake of this example, let's pretend like our window is currently `500px` wide. Second, the browser needs to know how many grid column tracks could possibly fit in that width. To do this, it uses the minimum value in our `minmax()` function, since that will yield the highest number of items, which is `150px`. If our window is `500px` wide, this means our grid will render 3 columns. But wait, there's more! Once the browser has determined how many columns we can fit, it then resizes our columns up to the maximum value allowed by our `minmax()` function. In this case, our max size is `1fr`, so all three columns will be given an equal allotment of the space available. As we resize our window, these calculations happen in realtime and the result is what you see in the above example!
 
 #### What about auto-fill?
 
-In most cases, `auto-fill` is going to work exactly the same way as `auto-fit`. The difference is only noticeable when there are fewer items than can fill up the entirety of the grid row once. When the grid is expanded to a size where another grid item _could_ fit, but there aren't any left, `auto-fit` will keep the grid items at their `max` size. Using `auto-fill`, the grid items will snap back down to their `min` size once the space becomes available to add another grid item, even if there isn't one to be rendered. They will continue their pattern of growing to `max` and snapping back to their `min` as the grid expands and more room becomes available for new grid tracks.
+In most cases, `auto-fill` is going to work exactly the same way as `auto-fit`. The difference is only noticeable when there are fewer items than can fill up the entirety of the grid row once. When the grid is expanded to a size where another grid item *could* fit, but there aren't any left, `auto-fit` will keep the grid items at their `max` size. Using `auto-fill`, the grid items will snap back down to their `min` size once the space becomes available to add another grid item, even if there isn't one to be rendered. They will continue their pattern of growing to `max` and snapping back to their `min` as the grid expands and more room becomes available for new grid tracks.
 
 To see this in action, look at the following 2 examples, the first with `auto-fit` and the second with `auto-fill` and see what happens when you resize the grid horizontally:
 
@@ -311,18 +311,19 @@ When doing the following exercises, please use all the documentation and resourc
 Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget that the instructions are in the README). Do the exercises in the 'grid' directory in the following order:
 
 1. grid-layout-2
-2. grid-layout-3
+1. grid-layout-3
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How do you create several grid tracks of the same size without manually typing each one out?](#repeat)
 - [What is the difference between a static and dynamic size value?](#fractional-units)
 - [How can you assign a grid track a flexible value that changes depending on the remaining space available in the grid?](#fractional-units)
 - [How can you assign grid tracks an uneven distribution of the remaining space in a grid?](#fractional-units)
-- [Which CSS functions will return the _smallest_ or _largest_ value supplied to them?](#minimum-and-maximum-track-sizes-min-and-max)
+- [Which CSS functions will return the *smallest* or *largest* value supplied to them?](#minimum-and-maximum-track-sizes-min-and-max)
 - [Which CSS Grid-only function allows you to supply a minimum and maximum track size that is calculated in realtime?](#dynamic-minimum-and-maximum-sizes)
 - [Which global CSS function allows you to supply a minimum, ideal, and maximum value that is calculated in realtime?](#dynamic-minimum-and-maximum-sizes)
 - [What attribute of `repeat()` can be used to fill in as many grid tracks as possible, given certain constraints?](#auto-fit-and-auto-fill)
@@ -330,8 +331,9 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
-- If videos are more your speed, check out [this one](https://www.youtube.com/watch?v=qjJR3qYCd54).
-- Another great video to summarize what you have learned so far is [this one](https://www.youtube.com/watch?v=EiNiSFIPIQE).
+- Learn more about the [differences](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/) between `auto-fit` and `auto-fill`.
+- If videos are more your speed, check out this video on [auto-fit and auto-fill](https://www.youtube.com/watch?v=qjJR3qYCd54) by Kevin Powell.
+- This video summarizes what you have learned so far in a [concise format](https://www.youtube.com/watch?v=EiNiSFIPIQE).
+- Check out this beautiful [interactive guide to grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid).
