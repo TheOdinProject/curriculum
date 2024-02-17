@@ -67,6 +67,11 @@ Take your time going through the reading. There will be some review of the items
     - `07-flex-layout-2`
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
+     Note 2: If you're working through this course on the Ubuntu system, emojis might not show up correctly for you in the last exercise as this OS doesn't have the necessary font preinstalled. While emojis are not a crucial part of this task and can be disregarded, you also can get the necessary font on your system by following the steps below:
+1. Open your Terminal (Ctrl + Alt + T)  and run those commands one-by-one to install the font:
+        sudo apt-get update -y
+        sudo apt-get install -y fonts-noto-color-emoji
+2. Once those commands finish running, simply restart your VS Code program (if you had it open before) so that your code editor will be aware that this font exists on your system now. 
 
 </div>
 
