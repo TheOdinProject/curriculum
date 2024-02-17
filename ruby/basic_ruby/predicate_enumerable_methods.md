@@ -5,14 +5,15 @@ This time, we're focusing on a particular subset of enumerable methods: the **pr
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
 
- - Describe what a predicate enumerable method is.
- - Explain how the `#include?` method works.
- - Explain how the `#any?` method works.
- - Explain how the `#all?` method works.
- - Explain how the `#none?` method works.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Describe what a predicate enumerable method is.
+- Explain how the `#include?` method works.
+- Explain how the `#any?` method works.
+- Explain how the `#all?` method works.
+- Explain how the `#none?` method works.
 
 ### The include? method
 The `#include?` method works exactly like you think it should. If we want to know whether a particular element exists in an array, we can use the `#include?` method. This method will return `true` if the element you pass as an argument to `#include?` exists in the array or hash; otherwise, it will return `false`.
@@ -223,11 +224,6 @@ fruits.none? { |fruit| fruit.length > 6 }
   2. Complete the [predicate enumerable](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* There are many more enumerable methods than are covered in this lesson (e.g., `#member?`). For a full listing, you can check out the [Ruby Docs](https://docs.ruby-lang.org/en/3.2/Enumerable.html).
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -236,3 +232,9 @@ This section contains questions for you to check your understanding of this less
  * <a class="knowledge-check-link" href="#the-any-method">What does the `#any?` method do?</a>
  * <a class="knowledge-check-link" href="#the-all-method">What does the `#all?` method do?</a>
  * <a class="knowledge-check-link" href="#the-none-method">What does the `#none?` method do?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- There are many more enumerable methods than are covered in this lesson (e.g., `#member?`). For a full listing, you can check out the [Ruby Docs](https://docs.ruby-lang.org/en/3.2/Enumerable.html).

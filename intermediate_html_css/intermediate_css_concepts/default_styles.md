@@ -1,11 +1,13 @@
 ### Introduction
 
-Browsers, by default, inject a little bit of style into your web projects. You may not have thought about this specifically, but you  have definitely encountered it.
+Browsers, by default, inject a little bit of style into your web projects. You may not have thought about this specifically, but you have definitely encountered it.
 
-### Learning outcomes
+### Lesson overview
 
--   You'll learn about default browser styles
--   You'll learn how to use a CSS reset to remove or change those default styles
+This section contains a general overview of topics that you will learn in this lesson.
+
+- You'll learn about default browser styles.
+- You'll learn how to use a CSS reset to remove or change those default styles.
 
 ### Default styles
 
@@ -21,7 +23,7 @@ You don't _have_ to use a CSS reset. In many cases, you're going to end up undoi
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  [The Meyer Reset](https://meyerweb.com/eric/tools/css/reset/) is almost certainly the most popular. It's very simple and basically removes every default style.
+1.  [The Meyer Reset](https://meyerweb.com/eric/tools/css/reset/) is almost certainly the most popular. It basically removes every default style.
 2.  [Normalize.css](http://nicolasgallagher.com/about-normalize-css/) is another popular one. It's a little different in that it doesn't remove all the default styles, but tweaks them slightly to ensure that browsers are consistent. Currently, the article's download link is dead. If you want to install normalize.css for your project, download it from [normalize.css official website](https://necolas.github.io/normalize.css/) or use the instructions found in the [normalize.css repository's](https://github.com/necolas/normalize.css) `README.md` file. If you are unsure which method to use, go with the NPM package install.
 3.  [Reboot, Resets and Reasoning](https://css-tricks.com/reboot-resets-reasoning/) is a CSS tricks article that goes a little more in-depth, and mentions a few other popular resets.
 4.  Maybe more trivial than useful, this [Browser Default Styles](https://browserdefaultstyles.com/) site is fun to play with.
@@ -32,11 +34,11 @@ You don't _have_ to use a CSS reset. In many cases, you're going to end up undoi
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   [Why would you want to use a CSS reset?](#default-styles)
+- [Why would you want to use a CSS reset?](#default-styles)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--   [A Look at CSS Resets in 2018](https://bitsofco.de/a-look-at-css-resets-in-2018/) is another article that talks about the various resets out there.
--   [A (more) Modern CSS Reset](https://piccalil.li/blog/a-more-modern-css-reset/) is an article that gives a more up-to-date css reset and then goes on to explain each line of it.
+- [A Look at CSS Resets in 2018](https://bitsofco.de/a-look-at-css-resets-in-2018/) is another article that talks about the various resets out there.
+- [A (more) Modern CSS Reset](https://piccalil.li/blog/a-more-modern-css-reset/) is an article that gives a more up-to-date css reset and then goes on to explain each line of it.

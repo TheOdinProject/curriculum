@@ -13,8 +13,9 @@ Basically, because everything in Ruby is an object, Ruby only has methods, not f
 
 In this lesson, we're going to deconstruct what methods are, examine their behaviour, and learn how to use them.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
  - Explain how to create and call a new method.
  - Explain how to pass variables to a method and how to define default parameters.
@@ -304,12 +305,6 @@ Writing `whisper.downcase!` is the equivalent of writing `whisper = whisper.down
 4. Complete the [method](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-  - For a deeper look at methods, read the [Methods chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards Book of Ruby. Try to complete the exercises throughout the chapter.
-  - For more discussion on the subtle differences between methods and functions and how they can differ between programming languages, here is a [handy explanation on Stack Overflow](https://stackoverflow.com/questions/155609/difference-between-a-method-and-a-function).
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -325,3 +320,10 @@ This section contains questions for you to check your understanding of this less
  * <a class="knowledge-check-link" href="#reserved-words">What are some of Ruby's reserved words?</a>
  * <a class="knowledge-check-link" href="#predicate-methods">What do you call a method that returns `true` or `false`? What is their naming convention?</a>
  * <a class="knowledge-check-link" href="#bang-methods">What do bang methods do? What is their naming convention?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+  - For a deeper look at methods, read the [Methods chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards Book of Ruby. Try to complete the exercises throughout the chapter.
+  - For more discussion on the subtle differences between methods and functions and how they can differ between programming languages, here is a [handy explanation on Stack Overflow](https://stackoverflow.com/questions/155609/difference-between-a-method-and-a-function).

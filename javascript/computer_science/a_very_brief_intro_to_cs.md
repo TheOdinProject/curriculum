@@ -20,7 +20,7 @@ This section contains a general overview of topics that you will learn in this l
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Watch [Introduction to Algorithms by David Malan](http://ed.ted.com/lessons/your-brain-can-solve-algorithms-david-j-malan) on TedEd to see how to think about algorithms.
+  1. Watch [Introduction to Algorithms by David Malan](https://www.youtube.com/watch?v=6hfOvs8pY1k) on TedEd to see how to think about algorithms.
   2. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube for a more structured look at solving problems using algorithms.
   3. Read [this Quora answer about the importance of algorithms in web development](https://qr.ae/py3NAc) to get some context for why we're going over this stuff.
   4. Watch [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)

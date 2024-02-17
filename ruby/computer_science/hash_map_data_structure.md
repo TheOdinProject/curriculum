@@ -6,7 +6,7 @@ In this lesson, you will learn how it all works, and even implement your own has
 
 ### Lesson overview
 
-By the end of this lesson, you will learn about:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Hash codes and how to generate them.
 - Hash maps and how they work internally.
@@ -77,19 +77,25 @@ end
 
 We not only consider the first letters with this technique. Instead, we take the entire name and convert it into numbers.
 
-You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true. This would make it unique for each name, but in the context of hash maps, we need the hash code to be a number. This number will serve as the index to the bucket that will store the key value pair. More on buckets in the next section.
+You might be thinking, wouldn't it just be better to save the whole name as a hash code? That is true. This would make it unique for each name, but in the context of hash maps, we need the hash code to be a number. This number will serve as the index to the bucket that will store the key value pair. More on buckets in the next section.
 
 ### Buckets
 
-Buckets are storage that we need to store our elements. Simply, it's an array. For a specific key, we decide which bucket to use for storage through our hash method. The hash method returns a number that serves as the index of the array at which we store this specific key value pair. Let's say we need to store a key "Fred":
+Buckets are storage that we need to store our elements. Simply, it's an array. For a specific key, we decide which bucket to use for storage through our hash method. The hash method returns a number that serves as the index of the array at which we store this specific key value pair. Let's say we wanted to store a person's full name as a key "Fred" with a value of "Smith":
 
 1. Pass "Fred" into the hash method to get the hash code which is `508`.
 1. Find the bucket at index `508`.
-1. Store the key value pair in that bucket.
+1. Store the key value pair in that bucket. In this case, the key would be "Fred" and the value would be "Smith".
 
 This is an oversimplified explanation; we'll discuss more internal mechanics later in the lesson.
 
-To get a value using a key, we put each entry inside a bucket as a `Node` item, which holds both the key and the value. To retrieve the value, we hash the key and calculate the key's bucket number. If the bucket is not empty, then we go to that bucket and compare if the node's key is the same key that was used for the retrieval. If it is, then we can return the node's value. Otherwise, we return `nil`.
+Now if we wanted to get a value using a key:
+
+1. Put each entry inside a bucket as a `Node` item, which holds both the key and the value.
+1. To retrieve the value, we hash the key and calculate its bucket number.
+1. If the bucket is not empty, then we go to that bucket.
+1. Now we compare if the node's key is the same key that was used for the retrieval.
+1. If it is, then we can return the node's value. Otherwise, we return `nil`.
 
 Maybe you are wondering, why are we comparing the keys if we already found the index of that bucket? Remember, a hash code is just the location. Different keys might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
 
@@ -194,7 +200,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [This discussion goes through the usages of prime numbers](https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier/299748)
 - The [pigeonhole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle) mathematically guarantees collisions when there are more nodes than boxes.

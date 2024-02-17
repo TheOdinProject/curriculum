@@ -8,10 +8,10 @@ This lesson is going to cover starting a new React project on your machine, as w
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* How React projects can be created.
-* How to use Vite to create new React projects.
-* How to format the code in React projects.
-* What are React Developer Tools.
+- How React projects can be created.
+- How to use Vite to create new React projects.
+- How to format the code in React projects.
+- What are React Developer Tools.
 
 ### Many paths
 

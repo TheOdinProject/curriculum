@@ -6,10 +6,10 @@ In the previous lesson, we discovered that different display types have unique b
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   You'll learn about "Normal flow".
-*   You'll learn the difference between `block` and `inline` elements.
-*   You'll learn which elements default to `block` and which elements default to `inline`.
-*   You'll learn what divs and spans are.
+- You'll learn about "Normal flow".
+- You'll learn the difference between `block` and `inline` elements.
+- You'll learn which elements default to `block` and which elements default to `inline`.
+- You'll learn what divs and spans are.
 
 ### Block vs inline
 
@@ -27,13 +27,14 @@ We can't talk about block and inline elements without discussing divs and spans.
 
 Having elements like this available to us is a lot more useful than it may first appear. We will often need elements that serve no other purpose than to be "hook" elements. We can give an id or class to target them for styling with CSS. Another use case we will face regularly is grouping related elements under one parent element to correctly position them on the page. Divs and spans provide us with the ability to do this.
 
-Div is a block-level element by default. It is commonly used as a container element to group other elements. Divs allow us to _divide_ the page into different blocks and apply styling to those blocks.
+Div is a block-level element by default. It is commonly used as a container element to group other elements. Divs allow us to *divide* the page into different blocks and apply styling to those blocks.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="KKXXbwR" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/KKXXbwR">
   block-inline-lesson-div-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Span is an inline-level element by default. It can be used to group text content and inline HTML elements for styling and should only be used when no other semantic HTML element is appropriate.
@@ -43,22 +44,23 @@ Span is an inline-level element by default. It can be used to group text content
   Untitled</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  The concept of "Normal flow" is implied in the box-model resources, but isn't laid out very specifically. Read ["Normal Flow" from MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow) to make sure you understand how elements lay themselves out by default.
-2.  W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
-3.  The Digital Ocean tutorial ["Inline vs Inline-block Display in CSS"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) has a couple of great examples that clarify the difference between `inline` and `inline-block`.
-4.  Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `margin-and-padding` directory. Review each README file prior to completing the following exercises in order:
-    - `01-margin-and-padding-1`
-    - `02-margin-and-padding-2`
+1. The concept of "Normal flow" is implied in the box-model resources, but isn't laid out very specifically. Read ["Normal Flow" from MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow) to make sure you understand how elements lay themselves out by default.
+1. W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
+1. The Digital Ocean tutorial ["Inline vs Inline-block Display in CSS"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) has a couple of great examples that clarify the difference between `inline` and `inline-block`.
+1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `margin-and-padding` directory. Review each README file prior to completing the following exercises in order:
+   - `01-margin-and-padding-1`
+   - `02-margin-and-padding-2`
 
-    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
+   Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
-5.  Apply what you learned about the box model to improve the look of your Recipe page's index.html homepage. Currently, it's just a plain list, so get creative with layouts, colors, and styles to make your page uniquely captivating.
+1. Apply what you learned about the box model to improve the look of your Recipe page's `index.html` homepage. Currently, it's just a plain list, so get creative with layouts, colors, and styles to make your page uniquely captivating.
 
 </div>
 
@@ -66,17 +68,17 @@ Span is an inline-level element by default. It can be used to group text content
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   [What is the difference between a block element and an inline element?](#block-inline-difference)
-*   [What is the difference between an inline element and an inline-block element?](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block)
-*   [Is an `h1` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
-*   [Is `button` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
-*   [Is `div` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
-*   [Is `span` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
+- [What is the difference between a block element and an inline element?](#block-inline-difference)
+- [What is the difference between an inline element and an inline-block element?](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block)
+- [Is an `h1` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
+- [Is `button` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
+- [Is `div` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
+- [Is `span` block or inline?](https://www.w3schools.com/html/html_blocks.asp)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
-*   Watch ["this"](https://www.youtube.com/watch?v=nfXRw06FgK8) short video on What does the term "Normal Flow" Mean In CSS.
-*  For a more interactive explanation and example, try this [Scrim on block and inline display](https://scrimba.com/scrim/co5024997a7e46c232d9abe55).
+- [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
+- Watch [this](https://www.youtube.com/watch?v=nfXRw06FgK8) short video on what the term "Normal Flow" means in CSS.
+- For a more interactive explanation and example, try this [Scrim on block and inline display](https://scrimba.com/scrim/co5024997a7e46c232d9abe55).

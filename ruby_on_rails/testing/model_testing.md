@@ -2,13 +2,13 @@
 
 The last lesson covered unit testing and now we will move into model testing. Here you will get an idea of how to test within Rails for model testing as well as a deeper dive of how to structure these tests.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   What are model tests?
-*   How do I run a model test?
-*   How to structure model testing?
+- What are model tests?
+- How do I run a model test?
+- How to structure model testing?
 
 ### What are model tests?
 
@@ -111,8 +111,8 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional Resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-*   For an example of a model test and having a useful resource. You can visit [code with Jason](https://www.codewithjason.com/write-model-tests-part/).
-*   For an alternative if RSpecs built in database cleaner isn't working for testing. You can find it [here](https://thoughtbot.com/blog/how-we-test-rails-applications#database-cleaner).
-*   A [resource](https://www.betterspecs.org/#factories) for going over some of the best practices for tests.
+- For an example of a model test and having a useful resource. You can visit [code with Jason](https://www.codewithjason.com/write-model-tests-part/).
+- For an alternative if RSpecs built in database cleaner isn't working for testing. You can find it [here](https://thoughtbot.com/blog/how-we-test-rails-applications#database-cleaner).
+- A [resource](https://www.betterspecs.org/#factories) for going over some of the best practices for tests.

@@ -53,7 +53,7 @@ For example: if you have a bug in a new feature you’re working on that you can
 
 1. Set up a new branch on your previous Rock Paper Scissors repo
     1. Since we'll be making a UI for our Rock Paper Scissors game, make a new branch and change to it with the command `git checkout -b rps-ui`.
-    2. You are now working in the `rps-ui` branch, locally. However, this branch does not exist in your remote repo yet. If you go to your github repo page, you'll see that you only have 1 branch, which would be `main`. Let's push this new branch to your remote repo with the command `git push origin rps-ui`. Now, you'll see two branches in your GitHub repository! You can select the new branch on GitHub using the dropdown branch selector shown in the screenshot below.
+    1. You are now working in the `rps-ui` branch, locally. However, this branch does not exist in your remote repo yet. If you go to your github repo page, you'll see that you only have 1 branch, which would be `main`. Let's push this new branch to your remote repo with the command `git push origin rps-ui`. Now, you'll see two branches in your GitHub repository! You can select the new branch on GitHub using the dropdown branch selector shown in the screenshot below.
 
           ![Dropdown menu of branches on GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/46c18d8445051e016b1e415fe0227a0fa33cc825/foundations/javascript_basics/revisiting_rock_paper_scissors/imgs/00.png)
 
@@ -77,8 +77,8 @@ For example: if you have a bug in a new feature you’re working on that you can
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Actively learn the Git workflows discussed in this lesson with this [interactive **Visual Git Cheatsheet**](https://ndpsoftware.com/git-cheatsheet.html#loc=index;) by Andrew Peterson. **It's okay to be unfamiliar** with the variety of commands you'll interact with. You'll learn about them later in the curriculum.
-- Make pushing your local commits to remote branches **easier** with the command `git push -u origin <branch>`. It automatically links the local branch you push with the remote one. [Read this educative.io article](https://www.educative.io/edpresso/what-is-the-git-push--u-remote-branch-name-command) by Talha Ashar and commit faster to a remote branch with a `git push` command.
+- Make pushing your local commits to remote branches **easier** with the command `git push -u origin <branch>`. It automatically links the local branch you push with the remote one. [Read Talha Ashar's educative.io article](https://www.educative.io/edpresso/what-is-the-git-push--u-remote-branch-name-command) and commit faster to a remote branch with a `git push` command.
 - Learn Git Branching by going through this [interactive visualizer](https://learngitbranching.js.org/) by Peter Cottle. You can learn the substantial commands about branching while seeing how the commands you write affect your visually presented branch tree.

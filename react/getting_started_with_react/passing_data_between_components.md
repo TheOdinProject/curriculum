@@ -6,8 +6,8 @@ By now you should be starting to understand just how powerful React and reusable
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Passing data between components.
-* Using data to create customizable reusable components.
+- Passing data between components.
+- Using data to create customizable reusable components.
 
 ### Data transfer in React
 

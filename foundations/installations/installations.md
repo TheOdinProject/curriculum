@@ -9,7 +9,25 @@ If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu
 We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
 </div>
 
-### 1: OS installation
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- How to set up a proper environment to follow The Odin Project curriculum.
+- Installing Google Chrome in your environment.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. If you're not already running a supported environment, decide on which environment you're going to set up.
+   - Look through the instructions so you know what to expect.
+   - Choose and follow one of the instructions below.
+1. After you have your environment sorted, proceed to the Google Chrome installation instructions.
+
+</div>
+
+### OS installation
 
 #### IMPORTANT
 
@@ -185,7 +203,7 @@ Here are some tips to help you get started in a virtual environment:
   - If videos lag in the VM, make sure to max out Video Memory to whatever you can or alternatively play them on your Windows if your machine can handle it. Disable 3D Acceleration if you have it enabled.
   - Do look out for the ![Icon with a green turtle and a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png){: .inline-img} icon in bottom right of your VM window, if you have it, here's a [VirtualBox forum thread on how to get rid of it](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390). You want to have the ![Icon of a chip with a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png){: .inline-img} icon instead. If you don't see a ![Icon with a green turtle and a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png){: .inline-img} or a ![Icon of a chip with a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png){: .inline-img} in bottom right, you have to exit full screen mode to see them.
   - If your performance is still lacking, go for a dual boot as this will make sure you're using all of your specs for one OS only, thus improving your experience significantly.
-- If your scroll wheel behaves oddly in Google Chrome and you have gone through VM performance tips to make sure your VM is working as intended, look into `imwheel`: [see these AskUbuntu instructions for more information](https://askubuntu.com/a/621140). If you have VSCode installed, use that instead of `gedit`, otherwise install it with `sudo apt install gedit` - if you install it with `snap`, it won't let you save the file. To make sure `imwheel` works every startup, you need to click the whisker ![The blue-white rodent Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png){: .inline-img} , type `Session` and click on `Session and Startup` that shows up, go to `Application Autostart`, click `Add` and put it `imwheel` for `Name` and `imwheel -b "4 5` for `Command`. Click `OK` and you should be all set.
+- If your scroll wheel behaves oddly in Google Chrome and/or in other applications and you have gone through VM performance tips to make sure your VM is working as intended, look into [whether your version of Guest Additions is correct](https://discord.com/channels/505093832157691914/690588860085960734/1195697147123867668).
 
 ### Step 5: Safely shutting down your VM
 
@@ -271,9 +289,11 @@ Once you have successfully met both of these requirements, you should be able to
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">WSL2</summary>
+<summary class="dropDown-header">WSL2 (Advanced)</summary>
 
 Using WSL2 is an quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
+
+To make it clear: you are going to be using a different OS, this is not a way to avoid using Linux. Due to how WSL2 is integrated with Windows it often causes significant confusion to new learners. Use the Virtual Machine if you want a clear separation between your Windows and Linux so the curriculum is easier to follow.
 
 <div class="lesson-note" markdown="1">
 #### WSL2 and Linux instructions
@@ -328,7 +348,7 @@ When opening your WSL2 terminal ensure that you do not see `/mnt/c` at the start
 </div>
 </details>
 
-### 2: Google Chrome installation
+### Google Chrome installation
 
 #### Why Google Chrome?
 
@@ -442,6 +462,13 @@ Chrome is going to use this terminal to output various messages and won't let yo
 - Double click **Google Chrome**.
 
 </details>
+
+### Knowledge check
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+- [What operating systems does The Odin Project support?](#os-installation)
+- [What browser does The Odin Project support?](#google-chrome-installation)
 
 ### Additional resources
 

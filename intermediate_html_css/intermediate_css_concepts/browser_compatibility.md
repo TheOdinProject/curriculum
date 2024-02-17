@@ -2,9 +2,9 @@
 
 As you continue your web development journey, it is important to keep in mind that the end users of your work might be using a variety of browsers: Chrome, Internet Explorer, Firefox, and Safari to name a few. At the same time, the number of users using mobile operating systems is growing rapidly, therefore you should also consider the mobile versions of different browsers.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Understand browser compatibility and its history.
 - Know how new CSS features make their way into browsers.

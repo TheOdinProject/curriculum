@@ -185,7 +185,7 @@ This one is pretty easy to wrap your head around. Linear Complexity just tells u
 
 You can't say this one isn't appropriately named. This notation usually implies we have an algorithm which initially is `O(log N)` such as our example earlier of Binary Search where it repeatedly breaks an array in half, but with `O(N log N)` each of those array halves is processed by another algorithm with a complexity of `O(N)`.
 
-One such algorithm is merge sort, and it just so happens you tackle this project in our course :)
+One such algorithm is the merge sort algorithm from our previous lesson. :)
 
 However, not all `O(N log N)` situations are built this way. There are special cases, like constructing a [Cartesian tree](https://www.geeksforgeeks.org/cartesian-tree/), where the algorithm naturally behaves like `O(N log N)` without using smaller parts with `O(N)` or `O(log N)` complexities inside. The keen amongst you may wish to have a peek at how this algorithm works. This shows that while nested complexities can be common, they're not the only way an algorithm can achieve a particular time complexity.
 
@@ -329,8 +329,8 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-1.  It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
+-  It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
 
-2.  In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.
+-  In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.
