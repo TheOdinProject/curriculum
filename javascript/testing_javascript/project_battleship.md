@@ -44,10 +44,3 @@ Make your battleship project more impressive by introducing a series of modifica
 
 You can choose to do either one, two or all of these challenges, it's up to you.
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This DigitalOcean article goes in-depth about [implementation of drag and drop](https://www.digitalocean.com/community/tutorials/js-drag-and-drop-vanilla-js).
-- For more technical information, refer to the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API) on the drag and drop API.
