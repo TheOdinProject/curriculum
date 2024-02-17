@@ -87,7 +87,7 @@ Check it out for yourself!
 
 ### Fractional units
 
-Now that we know how to quickly create many grid tracks, it's time to learn how to start making them _dynamic_. Dynamic, in this context means "flexible" or "responsive in some way." The opposite of dynamic is _static_, or fixed at a certain defined height, like `150px`, which we used in the setup of this sample grid.
+Now that we know how to quickly create many grid tracks, it's time to learn how to start making them *dynamic*. Dynamic, in this context means "flexible" or "responsive in some way." The opposite of dynamic is *static*, or fixed at a certain defined height, like `150px`, which we used in the setup of this sample grid.
 
 The most basic way to make our grid items dynamic is by using **fractional units**, also known as `fr`.
 
@@ -317,7 +317,7 @@ Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How do you create several grid tracks of the same size without manually typing each one out?](#repeat)
 - [What is the difference between a static and dynamic size value?](#fractional-units)
@@ -331,7 +331,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - More on `auto-fit` and `auto-fill` [here](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
 - If videos are more your speed, check out [this one](https://www.youtube.com/watch?v=qjJR3qYCd54).
