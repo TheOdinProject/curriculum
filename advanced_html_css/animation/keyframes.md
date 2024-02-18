@@ -127,7 +127,7 @@ Hopefully, this gives you a glimpse into the power the `@keyframes` syntax provi
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What are the long and short-hand notations for CSS animations?](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 - [How do you add keyframes to an animation?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations#defining_the_animation_sequence_using_keyframes)
