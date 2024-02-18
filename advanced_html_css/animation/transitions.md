@@ -1,6 +1,6 @@
 ### Introduction
 
-It's time to dive into the exciting world of CSS transitions and give your HTML elements some slick transformations! 
+It's time to dive into the exciting world of CSS transitions and give your HTML elements some slick transformations!
 
 ### Lesson overview
 
