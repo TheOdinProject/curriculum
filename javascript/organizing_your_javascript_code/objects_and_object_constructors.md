@@ -100,34 +100,134 @@ Or, what if we aren’t making a 2 player game, but something more complicated s
 
 ### Objects as a design pattern
 
-The grouping power of objects isn't just useful for organizing data- it's useful for organizing *functionality* as well!
+The grouping power of objects isn't just useful for organizing data- it's useful for organizing *functionality* as well! Using objects for this purpose is one of the core tenants of Object Oriented Programming (OOP).
 
-One of the easiest ways to do this is to add ***methods*** to your objects in conjunction with JavaScript's `this` keyword.
+The inroductory paragraph for Object Oriented Programming on Wikipedia says this:
 
-- A 'method' is just a fancy word for "a function that exists as a property of an object".
-- The `this` keyword is used to refer to an object a particular method is called from.
+> Object-oriented programming (OOP) is a programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods). In OOP, computer programs are designed by making them out of objects that interact with one another.
 
-Let's take a look at a basic example of adding some functionality to one of our player objects:
+Essentially, what this means is that code can be organized into objects that contain not only data, but also **methods** (or functions on an object) that interact with that data.
+
+Nearly *anything* you can think about can be described as an object. To do so, all you have to do is ask yourself is "What properties (physical or conceptual) does my thing have?", and "How can I interact with it?". The properties or attributtes of a *thing* are expressed as properties, and the ways you can interact with a thing are expressed as methods.
+
+Let's take an example a thing- we'll choose a lightbulb. A lightbulb can have a color, and it can be in either an 'on' state, or an 'off' state. These might be expressed as properties of a lightbulb object:
 
 ```js
-const playerOne = {
-  name: "tim",
-  marker: "X",
+const lightbulb = {
+  lightColor: 'fluorescent white',  // this lightbulb is white,
+  lit: false                        // and is currently 'off'
+}
+```
 
-  // special, shorthand syntax for adding methods in object literals
-  greet() {
-    console.log("Hi, I'm " + this.name + '!')
+You may want to have the ability to switch a lightbulb to on from it's unlit state, or vice-versa. To do that, you might add methods to these objects to do that.
+
+The easiest way to get started using methods to interact with your objects might be combining Object Literal syntax with JavaScript's `this` keyword. The `this` keyword is used to refer to the object a particular method is called from.
+
+The following is an example of using the `this` keyword to add two methods to our object, `switchOn`, and `switchOff`:
+
+```js
+const lightbulb = {
+  lightColor: 'fluorescent white',
+  lit: false,
+
+  // shorthand syntax for adding methods to objects
+  switchOn() {
+    // return false to indicate the light was already on
+    if(this.lit === true) return false
+
+    // return true if the state of the light changed to be on
+    this.lit = true
+    return true
+  },
+  switchOff() {
+    // return true if the state of the light changed to be off
+    if (this.lit === false) return false
+    this.lit = false
+
+    // return false to indicate the light was already off
+    return true
   }
 }
 
-playerOne.greet() // logs "Hi, I'm tim!" to the console
+lightbulb.switchOn() // true - we switched it on
+lightbulb.lit // true - the object has changed to reflect that!
 ```
 
-Our `greet()` method here uses the `this` keyword to look at it's parent object (`playerOne`), grab it's `name` property, then log that property to the console as a greeting.
+These methods use the `this` keyword to refer to the object they get called from. The `this` keyword can be used to access and modify properties of an object in exactly the same way you would for any other object.
 
-While that worked as a great example, this method isn't all that useful. Let's take this idea further and organize related code for the logic of a Rock Paper Scissors game into an object.
+Feel free to copy this code in the console and experiment with it! If you're inclined, perhaps you could create a method to change the color of the light, as if it's one of those fancy RGB LEDs those gamer nerds and keyboard enthusiasts seem to like so much.
 
-Feel encouraged to copy this code into the developer console and experiment with how it works yourself!
+Moving past physical objects, we could also try to describe something like a game as an object. Since we've already explored Rock Paper Scissors in Foundations, let's use that as an example.
+
+A rock paper scissors game might involve a few things:
+
+- Properties that keep track of players' scores
+- A method that allows you to play a round with a computer player
+- A method that allows you to reset the game might also be a useful way to interact with the object.
+
+So, at it's most basic, an object that represents the game might look something like this:
+
+```js
+const rps = {
+  playerScore: 0,
+  computerScore: 0,
+  playRound(playerChoice) {
+    // code to play the round...
+  }
+}
+```
+
+If we wanted our game object to automatically keep score for us as we played the game, we might flesh this code out to look something like this:
+
+```js
+const rps = {
+  playerScore: 0,
+  computerScore: 0,
+  playRound(playerChoice) {
+    const options = ['rock', 'paper', 'scissors']
+
+    // if an invalid choice is chosen, throw an error
+    if(!options.includes(playerChoice.toLowerCase())) {
+      throw new Error(`Expected 'rock', 'paper', or 'scissors', but got ${playerChoice}`)
+    }
+    
+    // get the computer's choice
+    const computerChoice = options[Math.floor(Math.random() * 3)]
+
+
+    // determine the winner, apply points if necessary, and return who won
+    if(playerChoice.toLowerCase() === computerChoice) {
+      return "tie"
+    } else if(
+      (playerChoice === 'rock' && computerChoice === 'scissors') ||
+      (playerChoice === 'paper' && computerChoice === 'rock') ||
+      (playerChoice === 'scissors' && computerChoice === 'paper')
+    ) {
+      this.playerScore++
+      return "player"
+    } else {
+      this.computerScore++
+      return 'computer'
+    }
+  },
+  reset() {
+    this.playerScore = 0;
+    this.computerScore = 0;
+  }
+}
+
+rps.playRound('rock') // returns 'player' if we win...
+rps.playerScore       // ...and our score would have increased
+
+// We also have the ability to reset the game at any time
+rps.reset()           
+```
+
+You may be looking at this code and thinking that you personally prefer to split your code between more functions than you see here, but also recognize that those functions may not really be a useful interaction point for anyone using your object.
+
+But, there is no rule saying that you can't add those functions to your object as well! A common convention is to prefix methods and properties that you don't intend other people to use with an underscore (`_`). This convention conveys to others that "These things are meant to be used internally by this object, please interact with the other available methods and properties on this object's interface instead".
+
+Let's see what that looks like!
 
 ```js
 const rps = {
@@ -175,18 +275,29 @@ const rps = {
     this.computerScore = 0;
   }
 }
-
-rps.playRound('rock') // if we win a round, this function will return `'player'`...
-rps.playerScore // ...and our score will be incremented to `1`
 ```
 
-Now, everything you need to play this game is oraganized and conveniently available within this one `rps` object. This idea of grouping related functionality within an object is *extremely powerful*, and can often result in more organized, understandable code.
+Another name for these might also be **private properties**/**private methods**, and even though object literal syntax doesn't provide a way to truly make them private, you will later learn about other methods of creating objects that *can*.
 
-You may be wondering why some of the properties/methods of this object are prefixed by an underscore (`_`). This is just a convention to say "These things are meant to be used internally by this object, please interact with the other available methods and properties on this object's interface instead".
+Private properties/methods aren't strictly required, but they can help make the intended use of the object more understandable, and when used thoughtfully, even protect certain properties from being modified in ways that you may not have intended.
 
-These methods might also be called "private methods"/"private properties", and even though **object literal** syntax doesn't provide a way to truly make them private, you will learn about other methods of creating objects that *can*.
+The methods and properties you *do* intend for others to use on your objects might be considered your object's **public interface**. Having a good, well thought out interface on your objects is important- not only because it makes your object pleasant to use by you and others, but also to keep objects flexible and extensible in the future (we'll touch on this later, when we talk about object inheritance).
 
-Private properties aren't strictly required, but they can help make the intended use of the object more understandable, and when used thoughtfully, protect certain properties from being modified in ways that you may not have intended.
+This idea of grouping related functionality within an object is *extremely powerful*, and can often result in more organized, understandable code.
+
+Furthermore, with the various object creation methods you'll learn throughout this section of the curriculum, you'll be able to easily duplicate and reuse objects like these! Imagine you have a website where users can create and play *multiple* rock-paper-scissor games at once. Managing the data and interacting with each of those games would be no sweat with objects!
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Objects As Machines
+  
+When you want to organize some data and functionality together in this way, but you're having trouble figuring out what kinds of properties and methods an object might contain when it's not an actual, physical item, another way you might conceptualize this idea might be to imagine each object as a little 'machine' you're making out of code that does something useful.
+
+The properties of the object might have basic information about your machine (like it's color), and additional information about it's current 'state', such as if the machine is currently on or off, what the machine has counted for a player's score, or how many coins havebeen inserted into your machine.
+
+The buttons and and such that make your machine do specific things would be represented by the the objects methods. A method might turn your machine from on 'on' to 'off', allow you to input information to play a game, or give the machine a coin so it can keep running (maybe your object represents an arcade game!).
+
+Again, objects can be used to represent almost anything you can think of, the limit is your imagination! It's impossible for us to give a comprehensive list of examples.
 
 ### Object constructors
 
@@ -462,6 +573,8 @@ If we had used `Object.setPrototypeOf()` in this example, then we could safely e
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Explain two ways you can use objects to organize code.](#objects-as-a-data-structure)
+- [What is a 'method'](#objects-as-a-design-pattern)
+- [What is the `this` keyword used for?](#objects-as-a-design-pattern)
 - [Write an object constructor and instantiate the object.](#object-constructors)
 - [Describe what a prototype is and how it can be used.](#the-prototype)
 - [Explain prototypal inheritance.](https://javascript.info/prototype-inheritance)
