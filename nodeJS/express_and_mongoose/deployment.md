@@ -24,7 +24,7 @@ You've already had some experience using a hosting provider when you deployed pr
 
 ### Static vs dynamic sites
 
-Static websites consist of pre-written HTML pages. They are "static" because everyone who visits them will see the same content. To build static sites, you only need HTML, CSS and Javascript.
+Static websites consist of pre-written HTML pages. They are "static" because everyone who visits them will see the same content. To build static sites, you only need HTML, CSS and JavaScript.
 
 Dynamic websites, on the other hand, are websites that can change content based on the user who is visiting them. Twitter is a good example; every Twitter user sees different content on their homepage feed based on who they follow. To build dynamic sites, you still need HTML, CSS and JS. But additionally, you need a server-side application and a database.
 
@@ -98,11 +98,14 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - Fly.io uses a convenient CLI tool for deployment.
 - Pay for what you use with very reasonable rates. Each app should cost around $4 per month.
 - $20 a month should be enough to host eight apps (including three apps for free).
+- Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
 
 **Free plan**
 
 - You can host three apps for free before you need to start paying.
 - Requires a credit card.
+- Fly.io waives monthly invoices that total less than $5 USD. So, although it may look like
+  you are being charged, it's very unlikely that you will exceed $5 and actually have to pay.
 
 **Links**
 
@@ -204,7 +207,7 @@ There are two stages of the deployment process where you are most likely to enco
 
 If you run into an error while deploying, the first thing to do is to check the build logs. Finding the build logs should be easy; it's the stream of output you'll see after kicking off a new deployment.
 
-Scroll through these logs and find the point where the deployment encountered the error. It should stand out from the rest of the output and will often look like the stack traces you've already seen with Javascript/NodeJS. The error output will tell you exactly what went wrong.
+Scroll through these logs and find the point where the deployment encountered the error. It should stand out from the rest of the output and will often look like the stack traces you've already seen with JavaScript/NodeJS. The error output will tell you exactly what went wrong.
 
 If you don't recognize the error or what might cause it, your next step will be to copy and paste it into your favorite online search engine. You'll likely find a Stack Overflow post with a solution. You can get support in our Discord server if searching doesn't lead to anything conclusive.
 
