@@ -108,9 +108,9 @@ The inroductory paragraph for Object Oriented Programming on Wikipedia says this
 
 Essentially, what this means is that code can be organized into objects that contain not only data, but also **methods** (or functions on an object) that interact with that data.
 
-Nearly *anything* you can think about can be described as an object. To do so, all you have to do is ask yourself is "What properties (physical or conceptual) does my thing have?", and "How can I interact with it?". The properties or attributtes of a *thing* are expressed as properties, and the ways you can interact with a thing are expressed as methods.
+Nearly *anything* you can think about can be described as an object. To do so, all you have to do is ask yourself is "What properties (physical or conceptual) does my thing have?", and "How can I interact with it?". The properties or attributes of a *thing* are expressed as properties, and the ways you can interact with that thing are expressed as methods.
 
-Let's take an example a thing- we'll choose a lightbulb. A lightbulb can have a color, and it can be in either an 'on' state, or an 'off' state. These might be expressed as properties of a lightbulb object:
+Let's take an example of some thing- we'll choose a lightbulb. A lightbulb can have a color, and it can be in either an 'on' state, or an 'off' state. These might be expressed as properties of a lightbulb object:
 
 ```js
 const lightbulb = {
@@ -119,9 +119,9 @@ const lightbulb = {
 }
 ```
 
-You may want to have the ability to switch a lightbulb to on from it's unlit state, or vice-versa. To do that, you might add methods to these objects to do that.
+You may want to have the ability to switch a lightbulb from it's unlit state to it's lit state, or vice-versa. To do that, you might add a *method*.
 
-The easiest way to get started using methods to interact with your objects might be combining Object Literal syntax with JavaScript's `this` keyword. The `this` keyword is used to refer to the object a particular method is called from.
+The easiest way to get started creating methods to interact with your objects might be combining Object Literal syntax with JavaScript's `this` keyword. The `this` keyword is used to refer to the object a particular method is called from.
 
 The following is an example of using the `this` keyword to add two methods to our object, `switchOn`, and `switchOff`:
 
@@ -142,9 +142,9 @@ const lightbulb = {
   switchOff() {
     // return true if the state of the light changed to be off
     if (this.lit === false) return false
-    this.lit = false
 
     // return false to indicate the light was already off
+    this.lit = false
     return true
   }
 }
@@ -153,7 +153,7 @@ lightbulb.switchOn() // true - we switched it on
 lightbulb.lit // true - the object has changed to reflect that!
 ```
 
-These methods use the `this` keyword to refer to the object they get called from. The `this` keyword can be used to access and modify properties of an object in exactly the same way you would for any other object.
+These methods use the `this` keyword to refer to the object they get called from (`lightbulb`). The `this` keyword can be used to access and modify properties of an object in exactly the same way you would for any other variable that points to an object.
 
 Feel free to copy this code in the console and experiment with it! If you're inclined, perhaps you could create a method to change the color of the light, as if it's one of those fancy RGB LEDs those gamer nerds and keyboard enthusiasts seem to like so much.
 
@@ -279,9 +279,9 @@ const rps = {
 
 Another name for these might also be **private properties**/**private methods**, and even though object literal syntax doesn't provide a way to truly make them private, you will later learn about other methods of creating objects that *can*.
 
-Private properties/methods aren't strictly required, but they can help make the intended use of the object more understandable, and when used thoughtfully, even protect certain properties from being modified in ways that you may not have intended.
+Private properties/methods aren't strictly required, but they can help make the intended use of the object more understandable, and when used thoughtfully, even protect certain properties (like the player's scores) from being modified in ways that you may not have intended. Back off, cheaters!
 
-The methods and properties you *do* intend for others to use on your objects might be considered your object's **public interface**. Having a good, well thought out interface on your objects is important- not only because it makes your object pleasant to use by you and others, but also to keep objects flexible and extensible in the future (we'll touch on this later, when we talk about object inheritance).
+The methods and properties you *do* intend for others to use on your objects might be considered your object's **public interface**. Having a good, well thought out interface on your objects is important- not only because it makes your object pleasant to use by you and others, but also to keep objects flexible and extensible in the future.
 
 This idea of grouping related functionality within an object is *extremely powerful*, and can often result in more organized, understandable code.
 
@@ -300,6 +300,7 @@ The buttons and and such that make your machine do specific things would be repr
 Again, objects can be used to represent almost anything you can think of, the limit is your imagination! It's impossible for us to give a comprehensive list of examples.
 
 </div>
+
 ### Object constructors
 
 Manually typing out the contents of our objects with Object Literals is not always feasible. When you have a specific type of object that you need to duplicate like our player object, inventory items, or even the entire RPS game, a better way to create them is using an object constructor, which is a function that looks like this:
