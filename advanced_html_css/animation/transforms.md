@@ -162,7 +162,7 @@ This is the transform function value to set the distance from the user to the z 
 }
 ```
 
-Essentially, by setting a `perspective` value, we are telling the object to render as if we were viewing it from a specific distance on the z-axis. 
+Essentially, by setting a `perspective` value, we are telling the object to render as if we were viewing it from a specific distance on the z-axis.
 
 Unlike other transform function values, `perspective` must be declared first (leftmost) when there are multiple transform function values. In the upcoming examples for `rotate`, `scale`, and `translate`, we will be able to see how it affects the target element.
 
