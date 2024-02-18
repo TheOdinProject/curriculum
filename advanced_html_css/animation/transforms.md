@@ -261,7 +261,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Here's a good resource that summarizes [most common transform functions with some additional insight](https://www.joshwcomeau.com/css/transforms/) to how you may use them.
 - For a full reference, there's always [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
