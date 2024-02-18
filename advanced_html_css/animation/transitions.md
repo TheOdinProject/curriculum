@@ -93,7 +93,7 @@ What's important is that you have a solid understanding of these concepts and ca
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Are all CSS properties animatable?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
 - [What are the long and short-hand notations for transitions?](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
