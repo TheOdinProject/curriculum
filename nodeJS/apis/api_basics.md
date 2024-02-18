@@ -1,24 +1,24 @@
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Know what `REST` stands for.
 - Explain the purpose of using REST when structuring an API.
-- Detail the REST naming conventions for your API endpoints
-- Have a reinforced understanding of the HTTP Methods/Verbs
-- Describe the Same Origin Policy
-- Explain the purpose of CORS
-- Use CORS as middleware in Express (Globally and on a single route)
-- Configure CORS to only allow certain origins to access our API
-- Explain CORS headers
+- Detail the REST naming conventions for your API endpoints.
+- Have a reinforced understanding of the HTTP Methods/Verbs.
+- Describe the Same Origin Policy.
+- Explain the purpose of CORS.
+- Use CORS as middleware in Express (Globally and on a single route).
+- Configure CORS to only allow certain origins to access our API.
+- Explain CORS headers.
 
 ### Introduction
 
 In recent years, a new pattern for developing websites has been gaining popularity. Instead of creating an app that hosts both the database and view templates, many developers are separating these concerns into separate projects, hosting their backend and database on a server (either on something like [Heroku](https://www.heroku.com/) or on a VPS like [Digital Ocean](https://www.digitalocean.com/)), then using a service such as [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/) to host their frontend. This technique is sometimes referred to as the [Jamstack](https://jamstack.org/what-is-jamstack/).
 
-Organizing your project this way can be beneficial because it allows your project to be more modular instead of combining business logic with view logic. This also allows you to use a single backend source for multiple frontend applications, such as a website, a desktop app, or a mobile app. Other developers enjoy this pattern because they simply like using frontend frameworks such as React or Vue to create nice frontend-only, single-page applications.
+Organizing your project this way can be beneficial because it allows your project to be more modular instead of combining business logic with view logic. This also allows you to use a single backend source for multiple frontend applications, such as a website, a desktop app, or a mobile app. Other developers enjoy this pattern because they like using frontend frameworks such as React or Vue to create nice frontend-only, single-page applications.
 
-Frontend and backend applications usually talk to each other using JSON, which you have already encountered if you've gone through our frontend JavaScript course. So at this point, all you really need to learn is how to get your Express application to speak JSON instead of HTML, which fortunately for you is extremely simple! The assignment at the end of this lesson will take you through a tutorial, but essentially all you have to do is pass your information into [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render). How easy is that?
+Frontend and backend applications usually talk to each other using JSON, which you have already encountered if you've gone through our frontend JavaScript course. So at this point, all you really need to learn is how to get your Express application to speak JSON instead of HTML. The assignment at the end of this lesson will take you through a tutorial, but essentially all you have to do is pass your information into [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render). How easy is that?
 
 It is also quite possible to have an Express app that serves both views and JSON by using the Express router to set up different routes. If you think back to the organization of the routes in our Library Tutorial ([here's a link to it](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#Create_the_catalog_route_module)). All of our routes were set up in a `catalog` module, so to get the view for our list of books you would access `/catalog/books`. Setting the Library project up to also serve JSON would be as easy as creating a different router module called `api` and then adjusting the controllers so that `/catalog/books` would serve up the HTML list of our books and `/api/books` would serve up the same information as JSON.
 
@@ -30,7 +30,7 @@ _However_, it's conventional to follow REST (an acronym for Representational Sta
 The actual technical definition of REST is a little complicated (you can read about it on [wikipedia](https://en.wikipedia.org/wiki/Representational_state_transfer)), but for our purposes, most of the elements (statelessness, cacheability, etc.) are covered by default just by using Express to output JSON. The piece that we specifically want to think about is how to **organize our endpoint URIs** (Uniform Resource Identifier).
 
 REST APIs are resource based, which basically means that instead of having names like `/getPostComments` or `/savePostInDatabase` we refer **directly to the resource** (in this case, the blog post) and use HTTP verbs such as GET, POST, PUT, and DELETE to determine the action.
-Typically this takes the form of 2 URI's per resource, one for the whole collection and one for a single object in that collection, for example, you might get a list of blog-posts from `/posts` and then get a specific post from `/posts/:postid`. You can also nest collections in this way. To get the list of comments on a single post you would access `/posts/:postid/comments` and then to get a single comment: `/posts/:postid/comments/:commentid`. Below are some other simple examples of endpoints you could have.
+Typically this takes the form of 2 URI's per resource, one for the whole collection and one for a single object in that collection, for example, you might get a list of blog-posts from `/posts` and then get a specific post from `/posts/:postid`. You can also nest collections in this way. To get the list of comments on a single post you would access `/posts/:postid/comments` and then to get a single comment: `/posts/:postid/comments/:commentid`. Below are some other basic examples of endpoints you could have.
 
 | Verb   | Action | Example                                            |
 | ------ | ------ | -------------------------------------------------- |

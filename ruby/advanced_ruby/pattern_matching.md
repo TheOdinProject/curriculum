@@ -6,21 +6,21 @@ With Ruby 3.1, most parts of the pattern matching syntax are no longer considere
 
 If you want to play with the examples, make sure you're on at least Ruby 2.7 or use replit.com.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
- - Explain the syntax for implementing a pattern matching case statement.
- - Explain what types can be used in pattern matching.
- - Explain the possible return values from a pattern match.
- - Explain how to implement a guard condition in a pattern match statement.
- - Explain how to pattern match against an Array and Arrays within Arrays.
- - Explain how to pattern match against a Hash.
- - Explain the main differences between Hash and Array pattern matching.
- - Explain the use of the pin operator.
- - Explain the use of the alternative pattern.
- - Explain how to bind matches to a variable.
- - Explain how to match against your own custom classes.
+- Explain the syntax for implementing a pattern matching case statement.
+- Explain what types can be used in pattern matching.
+- Explain the possible return values from a pattern match.
+- Explain how to implement a guard condition in a pattern match statement.
+- Explain how to pattern match against an Array and Arrays within Arrays.
+- Explain how to pattern match against a Hash.
+- Explain the main differences between Hash and Array pattern matching.
+- Explain the use of the pin operator.
+- Explain the use of the alternative pattern.
+- Explain how to bind matches to a variable.
+- Explain how to match against your own custom classes.
 
 ### Basics
 
@@ -671,16 +671,17 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 1. Read the [Ruby docs](https://docs.ruby-lang.org/en/3.2/syntax/pattern_matching_rdoc.html) on pattern matching. They cover quite a lot of ground.
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [An Introduction to Pattern Matching in Ruby](https://blog.appsignal.com/2021/07/28/introduction-to-pattern-matching-in-ruby.html) from AppSignal should be another useful perspective on the material.
-
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.2/syntax/pattern_matching_rdoc.html">What is pattern matching?</a>
 - <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.2/syntax/pattern_matching_rdoc.html#label-Patterns">What is the difference between array patterns and hash patterns?</a>
 - <a class="knowledge-check-link" href="#variable-pattern">What is the variable pattern match?</a>
 - <a class="knowledge-check-link" href="#array-pattern-match">What are the different ways of pattern matching on an array?</a>
 - <a class="knowledge-check-link" href="#find-pattern">Explain the find pattern.</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- [An Introduction to Pattern Matching in Ruby](https://blog.appsignal.com/2021/07/28/introduction-to-pattern-matching-in-ruby.html) from AppSignal should be another useful perspective on the material.

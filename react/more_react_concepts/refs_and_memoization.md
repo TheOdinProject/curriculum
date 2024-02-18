@@ -4,10 +4,10 @@ How can we do DOM manipulations that we usually do in vanilla JavaScript? Is it 
 
 ### Lesson overview
 
-This section contains a general overview of topics you will learn in this lesson.
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Explore `useRef` hook and its use cases
-- Explain memoization and how `useCallback` and `useMemo` can be used
+- Explore `useRef` hook and its use cases.
+- Explain memoization and how `useCallback` and `useMemo` can be used.
 
 ### The useRef hook
 
@@ -188,7 +188,7 @@ We can see that the click handler is defined in the `Counter` component, and we'
 
 We know that a component renders whenever either state changes or prop changes. Anything inside that is not controlled by React is destroyed and re-executed. Functions, variables, etc. As a result, the function `handleClick` is re-created each time, and the prop `onClick` of the `ButtonComponent` also changes. Alright, so how can `useMemo` help in here?
 
-We already know we can memoize a value using `useMemo`, right? Then we can just cache the function reference and use an empty dependency array so that it won't change. That seems very simple.
+We already know we can memoize a value using `useMemo`, right? Then we can just cache the function reference and use an empty dependency array so that it won't change.
 
 Let's create a new function and name it `memoizedHandleClick`:
 
@@ -319,4 +319,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- The `memo` function is super simple that's why we didn't cover it too much, but if you want to know more about it, especially if you want to create your own logic for the `memo` function go to the [documentation for memo](https://react.dev/reference/react/memo).
+- The `memo` function is straightforward that's why we didn't cover it too much, but if you want to know more about it, especially if you want to create your own logic for the `memo` function go to the [documentation for memo](https://react.dev/reference/react/memo).

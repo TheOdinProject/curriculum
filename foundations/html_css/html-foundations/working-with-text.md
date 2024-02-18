@@ -58,7 +58,7 @@ Headings are different from other HTML text elements: they are displayed larger 
 
 <span id='different-heading-levels'>There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. The largest and most important heading is h1, while h6 is the tiniest heading at the lowest level.</span>
 
-Headings are defined much like paragraphs. For example, to create a h1 heading, we wrap our heading text in a `<h1>` tag.
+Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in an `<h1>` tag.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="LYLPLbg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/LYLPLbg">
@@ -67,7 +67,7 @@ Headings are defined much like paragraphs. For example, to create a h1 heading, 
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Using the correct level of heading is important as levels provide a hierarchy to the content. A h1 heading should always be used for the heading of the overall page, and the lower level headings should be used as the headings for content in smaller sections of the page.
+Using the correct level of heading is important as levels provide a hierarchy to the content. An h1 heading should always be used for the heading of the overall page, and the lower level headings should be used as the headings for content in smaller sections of the page.
 
 ### Strong element
 
@@ -95,7 +95,7 @@ Sometimes you will want to make text bold without giving it an important meaning
 
 ### Em element
 
-The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element we wrap text content in a `<em>` tag.
+The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element we wrap text content in an `<em>` tag.
 
 To use `<em>` on its own:
 

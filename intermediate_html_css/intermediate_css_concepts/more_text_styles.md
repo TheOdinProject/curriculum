@@ -131,7 +131,9 @@ Line height adjusts the space between lines in wrapped text. Adding a little lin
 
 Text transform simply changes the case of the given text. You can use this, for example, to force your heading tags to be all uppercase, or to capitalize every word.
 
-Usage is simple, and can be seen in the clear example on these [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform).
+Text transform changes the case of the given text. You can use this, for example, to force your heading tags to be all uppercase, or to capitalize every word.
+
+Usage can be seen in the clear example on these [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform).
 
 #### text-shadow
 

@@ -2,7 +2,7 @@
 
 This project will finally give you a chance to tie together everything you've learned so far. It's a project with a lot of complexity so take it one step at a time. Working with a backend is pretty straightforward, but you'll be juggling some of the front end functionality too. This is entirely within the realm of the kind of thing you might be asked to build on the job (though of course not exactly). Are you ready?
 
-Have you ever played [Where's Waldo](http://en.wikipedia.org/wiki/Where's_Wally%3F)? If not, that's okay! It's a pretty simple concept: you are presented with a busy and crowded illustration that contains many different people, objects, and places. Your task is to find a particular character named Waldo, who is hidden somewhere in the illustration.
+Have you ever played [Where's Waldo](http://en.wikipedia.org/wiki/Where's_Wally%3F)? If not, that's okay! Let us break it down: you are presented with a busy and crowded illustration that contains many different people, objects, and places. Your task is to find a particular character named Waldo, who is hidden somewhere in the illustration.
 
 ### Your task
 

@@ -4,20 +4,21 @@ In this lesson, we will cover keys in React. Keys are special props for our comp
 
 ### Lesson overview
 
-By the end of the lesson you should be able to answer the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - What are keys and why does React need them?
 - What are good and bad examples of keys?
 
 ### Why does React need keys?
 
-In the upcoming lessons as you learn more about the internal workings of React, more specifically the rerendering process, you will understand the importance of keys. For now, we will keep it simple.
+In the upcoming lessons as you learn more about the internal workings of React, more specifically the rerendering process, you will understand the importance of keys. For now, we will keep it short.
 
 In the previous lesson on rendering lists, we used the `.map()` method to iterate over an array of data and return a list of elements. Now imagine, if any of the items in the list were to change, how would React know which item to update?
 
-If the list were to change, one of two things _should_ happen:
+If the list were to change, one of two things *should* happen:
+
 1. we completely re-render the entire list, or:
-2. we hunt down the specific items that were changed and only re-render those.
+1. we hunt down the specific items that were changed and only re-render those.
 
 Assuming we want to hunt down that one specific item that was changed and NOT re-render the entire list. We need something to track that specific item. We can track down a specific item by using a `key`.
 
@@ -28,20 +29,20 @@ As long as `keys` remain consistent and unique, React can handle the DOM effecti
 ### Using keys
 
 <div class="lesson-note" markdown="1">
-We will be using `props` here, and you will learn more about them in the next lesson. For now, you just need to know that `props` are arguments that are passed into components. 
+We will be using `props` here, and you will learn more about them in the next lesson. For now, you just need to know that `props` are arguments that are passed into components.
 </div>
 
 Keys are passed into the component or a DOM element as a prop. You should already be familiar with the syntax.
 
-~~~jsx
+```jsx
 <Component key={keyValue} />
 //or
 <div key={keyValue} />
-~~~
+```
 
 <span id="keys-from-data">Now that we know the syntax, the next question is: what should be used as a key? Ideally, they should be some identifier that is unique to each item in the list. Most databases assign a unique id to each entry, so you shouldn't have to worry about assigning an id yourself. If you are defining data yourself, it is good practice to assign a unique `id` to each item. You may use the [uuid](https://www.npmjs.com/package/uuid) package to generate a unique id. Let's look at an example:</span>
 
-~~~jsx
+```jsx
 // a list of todos, each todo object has a task and an id
 const todos = [
   { task: "mow the yard", id: uuid() },
@@ -59,26 +60,26 @@ function TodoList() {
     </ul>
   );
 }
-~~~
+```
 
 <span id="index-as-key">Additionally, if you're sure the list will remain unchanged throughout the application's life,  you can use the array index as a key. However, this is not recommended since it can lead to confusing bugs if the list changes when items are deleted, inserted, or rearranged. You will learn more about this in the assignment section's linked article.</span>
 
-~~~jsx
+```jsx
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 function MonthList() {
   return (
     <ul>
-      {/* here we are using the index as key */}
+      // here we are using the index as key
       {months.map((month, index) => (<li key={index}>{month}</li>))}
     </ul>
   );
 }
-~~~
+```
 
-<span id="anti-pattern">Keys are straightforward to use, though there is an anti-pattern you should be aware of. Keys should never be generated on the fly. Using `key={Math.random()}` or `key={uuid()}` _while_ rendering the list defeats the purpose of the list, as now a new `key` will get created for every render of the list. As shown in the above example, `key` should be inferred from the data itself.</span>
+<span id="anti-pattern">Keys are straightforward to use, though there is an anti-pattern you should be aware of. Keys should never be generated on the fly. Using `key={Math.random()}` or `key={uuid()}` *while* rendering the list defeats the purpose of the list, as now a new `key` will get created for every render of the list. As shown in the above example, `key` should be inferred from the data itself.</span>
 
-~~~jsx
+```jsx
 const todos = [
   { task: "mow the yard", id: uuid() },
   { task: "Work on Odin Projects", id: uuid() },
@@ -95,7 +96,7 @@ function TodoList() {
     </ul>
   );
 }
-~~~
+```
 
 ### Conclusion
 
@@ -125,4 +126,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--  This article on [React key attribute by Nadia Makarevich](https://www.developerway.com/posts/react-key-attribute) takes an in-depth look into keys.
+- This article on [React key attribute by Nadia Makarevich](https://www.developerway.com/posts/react-key-attribute) takes an in-depth look into keys.
