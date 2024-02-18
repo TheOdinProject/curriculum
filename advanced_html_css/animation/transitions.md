@@ -25,7 +25,7 @@ When your mouse cursor is away from the button, the button is in the initial sta
 
 This was achieved using the `transition` property, which is actually a shorthand property for `transition-property`, `transition-duration`, `transition-timing-function` and `transition-delay`.
 
-~~~css
+```css
 button {
   /* ... other CSS properties ... */
   transition-property: background-color;
@@ -33,7 +33,7 @@ button {
   transition-timing-function: ease-out;
   transition-delay: 0.25s;
 }
-~~~
+```
 
 * `transition-property` - This determines what CSS property will be transitioned. In this case it is the `background-color`.
 
@@ -45,7 +45,7 @@ button {
 
 The shorthand property looks like this:
 
-~~~css
+```css
 button {
   /* ... other CSS properties ... */
   background-color: white;
@@ -55,7 +55,7 @@ button {
 button:hover {
   background-color: black;
 }
-~~~
+```
 
 The above transition will occur when the user hovers their mouse over the button as indicated by the `:hover` pseudo-class. In addition to `:hover`, or any of the other pseudo-classes, you can also trigger transitions by adding or removing classes with JavaScript. For example, clicking a button could append the "open" class to a dropdown menu, which would trigger the opening transition.
 
@@ -65,7 +65,7 @@ Generally, keeping your CSS transitions performant will not be an issue. However
 
 The first is the "stacking context". Basically, a stacking context is formed when certain element scenarios are in place. A relevant scenario for us would be to transition a `transform` property like below:
 
-~~~css
+```css
 div {
   width: 100px;
   height: 100px;
@@ -75,7 +75,7 @@ div {
 div:hover {
   transform: rotate(180deg);
 }
-~~~
+```
 
 This has created a stacking context. If we were to make a bunch more stacking contexts through various other means then, when it comes to rendering our initial transform, we would repaint not only our `div` element but also **every element that is stacked on top of it in the stack context**. If left unchecked, this can cause your once buttery-smooth transition to become slow and rough.
 
