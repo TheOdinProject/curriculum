@@ -299,6 +299,7 @@ The buttons and and such that make your machine do specific things would be repr
 
 Again, objects can be used to represent almost anything you can think of, the limit is your imagination! It's impossible for us to give a comprehensive list of examples.
 
+</div>
 ### Object constructors
 
 Manually typing out the contents of our objects with Object Literals is not always feasible. When you have a specific type of object that you need to duplicate like our player object, inventory items, or even the entire RPS game, a better way to create them is using an object constructor, which is a function that looks like this:
