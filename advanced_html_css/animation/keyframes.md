@@ -126,6 +126,7 @@ Hopefully, this gives you a glimpse into the power the `@keyframes` syntax provi
 </div>
 
 ### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [What are the long and short-hand notations for CSS animations?](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
