@@ -159,25 +159,29 @@ Feel free to copy this code in the console and experiment with it! If you're inc
 
 Moving past physical objects, we could also try to describe something like a game as an object. Since we've already explored Rock Paper Scissors in Foundations, let's use that as an example.
 
-A rock paper scissors game might involve a few things:
+A rock paper scissors game might involve a couple basic things:
 
-- Properties that keep track of players' scores
-- A method that allows you to play a round with a computer player
-- A method that allows you to reset the game might also be a useful way to interact with the object.
+- Players' scores
+- The ability to play a round (and playing a round should update a player's score)
 
-So, at it's most basic, an object that represents the game might look something like this:
+And might also include a couple nice-to-haves
+
+- The ability to determine the current winning player
+- The ability to restart the game
+
+So, at it's most basic, an object that represents the game might look something like this (assuming we're playing against a comuter player):
 
 ```js
 const rps = {
   playerScore: 0,
   computerScore: 0,
   playRound(playerChoice) {
-    // code to play the round...
+    // code to play the round... (and update the scores when a player wins)
   }
 }
 ```
 
-If we wanted our game object to automatically keep score for us as we played the game, we might flesh this code out to look something like this:
+And if we fleshed it out, our object may come out to look something like this:
 
 ```js
 const rps = {
@@ -210,6 +214,15 @@ const rps = {
       return 'computer'
     }
   },
+  getWinningPlayer() {
+    if(this.playerScore === this.computerScore) {
+      return 'tie'
+    } else if (this.playerScore > this.computerScore) {
+      return 'player'
+    } else {
+      return 'computer'
+    }
+  },
   reset() {
     this.playerScore = 0;
     this.computerScore = 0;
@@ -219,8 +232,9 @@ const rps = {
 rps.playRound('rock') // returns 'player' if we win...
 rps.playerScore       // ...and our score would have increased
 
-// We also have the ability to reset the game at any time
-rps.reset()           
+// We also have the ability to check the winner and reset the game at any time
+rps.getWinningPlayer() // 'player', if we won above round
+rps.reset()
 ```
 
 You may be looking at this code and thinking that you personally prefer to split your code between more functions than you see here, but also recognize that those functions may not really be a useful interaction point for anyone using your object.
@@ -270,6 +284,15 @@ const rps = {
       return 'computer'
     }
   },
+  getWinningPlayer() {
+    if(this.playerScore === this.computerScore) {
+      return 'tie'
+    } else if (this.playerScore > this.computerScore) {
+      return 'player'
+    } else {
+      return 'computer'
+    }
+  },
   reset() {
     this.playerScore = 0;
     this.computerScore = 0;
@@ -291,11 +314,11 @@ Furthermore, with the various object creation methods you'll learn throughout th
 
 #### Objects As Machines
   
-When you want to organize some data and functionality together in this way, but you're having trouble figuring out what kinds of properties and methods an object might contain when it's not an actual, physical item, another way you might conceptualize this idea might be to imagine each object as a little 'machine' you're making out of code that does something useful.
+When you want to organize some data and functionality together in this way, but you're having trouble figuring out what kinds of properties and methods an object might contain when it's not an actual, physical item, another way you might conceptualize this idea might be to imagine the object as a little 'machine' you're making out of code that does something useful.
 
-The properties of the object might have basic information about your machine (like it's color), and additional information about it's current 'state', such as if the machine is currently on or off, what the machine has counted for a player's score, or how many coins havebeen inserted into your machine.
+The properties of the machine could be thought of displays that might show information it's collected or been given to it so far, if it can currently be interacted with, what the machine has counted for a player's score... or about a billion other things, depending on what your object does.
 
-The buttons and and such that make your machine do specific things would be represented by the the objects methods. A method might turn your machine from on 'on' to 'off', allow you to input information to play a game, or give the machine a coin so it can keep running (maybe your object represents an arcade game!).
+The methods of your machine might be akin to buttons and such that make the machinde *do* a specific thing. A method might give your object new information to store in some way, turn your machine from on 'on' to 'off', allow you to input information to play a game, or switch between the turns of two different players.
 
 Again, objects can be used to represent almost anything you can think of, the limit is your imagination! It's impossible for us to give a comprehensive list of examples.
 
