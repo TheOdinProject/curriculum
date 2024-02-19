@@ -281,7 +281,7 @@ we will use the new Rails standard of using import maps.
 haven't already. Don't worry if not everything sticks, but you should know where to look up what you need.
 </div>
 
-### Exercises
+#### Exercises
 
 To practice you need to create a new standard Rails application. Stimulus will be installed by default with Rails 7.0.
 
