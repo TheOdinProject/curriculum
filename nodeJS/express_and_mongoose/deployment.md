@@ -250,7 +250,7 @@ This will be where the Git skills you've been learning will start to really pay 
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you're having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What's the difference between static and dynamic websites?](#static-vs-dynamic-sites)
 - [What does 'PaaS' stand for?](#what-is-a-paas)
