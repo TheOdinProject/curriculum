@@ -320,16 +320,12 @@ The final piece of Turbo is something that you don't need to know much about for
 1. Read sections 1, 2, and 3 of Bloomreach's [What Are Single Page Applications and Why Do People Like Them So Much?](https://www.bloomreach.com/en/blog/2018/07/what-is-a-single-page-application.html#whatssingle-page-application)
    article
 1. Watch the [Hotwire Demo Video](https://www.youtube.com/watch?v=eKY-QES1XQQ)
-    - We have only covered content up until the 5:40 mark, but you may continue watching past that point to become more familiar with
-      other aspects of Hotwire that we will be covering in upcoming lessons.
-    - The video is edited to be a very quick showcase. Don't worry about trying to pause and use this video as a tutorial. Just sit back
-      and use this demo to watch how Turbo Drive, Frames, & Streams come together visually.
+    - We have only covered content up until the 5:40 mark, but you may continue watching past that point to become more familiar with other aspects of Hotwire that we will be covering in upcoming lessons.
+    - The video is edited to be a very quick showcase. Don't worry about trying to pause and use this video as a tutorial. Just sit back and use this demo to watch how Turbo Drive, Frames, & Streams come together visually.
 1. Skim through sections 1-4 of the [Turbo Handbook](https://turbo.hotwired.dev/handbook/introduction)
-    - This Handbook is written to be backend-agnostic, meaning that the code you will see is pure HTML and not Rails tags, but it still
-      is a useful resource for referencing how Turbo works.
+    - This Handbook is written to be backend-agnostic, meaning that the code you will see is pure HTML and not Rails tags, but it still is a useful resource for referencing how Turbo works.
 1. Take a quick glance at the Turbo-Rails gem [RubyDoc info page](https://www.rubydoc.info/gems/turbo-rails/1.0.0)
-    - This resource covers the Rails-specific syntaxes and tags you can use for Turbo. You don't need to read anything now, just know that
-      it exists so you can come back to it when you need to figure out how to use a specific piece of Turbo in your applications.
+    - This resource covers the Rails-specific syntaxes and tags you can use for Turbo. You don't need to read anything now, just know that it exists so you can come back to it when you need to figure out how to use a specific piece of Turbo in your applications.
 
 </div>
 
