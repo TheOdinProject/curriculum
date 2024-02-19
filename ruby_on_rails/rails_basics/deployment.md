@@ -97,14 +97,14 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - $20 a month should be enough to host eight apps (including three apps for free).
 - Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
 
-**Free plan**
+#### Fly.io: Free Plan
 
 - You can host three apps for free before you need to start paying.
 - Requires a credit card.
 - Fly.io waives monthly invoices that total less than $5 USD. So, although it may look like
   you are being charged, it's very unlikely that you will exceed $5 and actually have to pay.
 
-**Links**
+#### Fly.io: Links
 
 - [Homepage](https://fly.io/)
 - [Documentation](https://fly.io/docs/)
@@ -119,12 +119,12 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - Pay for what you use model.
 - $5 a month should be enough to host four applications.
 
-**Free plan**
+#### Railway.app: Free Plan
 
 - You get a free one-time grant of 5$ on their free trial, and the applications are never put to sleep when inactive.
 - However, the longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
 
-**Links**
+#### Railway.app: Links
 
 - [Homepage](https://railway.app/)
 - [Documentation](https://docs.railway.app/)
@@ -138,13 +138,13 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - The free 750-hour allowance is enough to host a few apps without paying anything. However, databases are separate on Render, and the lowest spec databases cost $7 each.
 - $21 a month is enough to host three applications as each app's database will cost $7.
 
-**Free plan**
+#### Render: Free Plan
 
 - 750 hours of free usage per month.
 - Applications are put to sleep automatically after 15 minutes of inactivity, so the 750 free hours should be enough to host a few apps for the entire month.
 - You only get one free database at a time which lasts 90 days before being deleted. With this strict database allowance, the free tier is enough to host one free app for 90 days.
 
-**Links**
+#### Render: Links
 
 - [Homepage](https://render.com/)
 - [Documentation](https://render.com/docs/)
@@ -161,11 +161,11 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - Heroku's lowest-tier PostgreSQL databases cost $5 per month, effectively costing each application $5 to host.
 - $20 a month will be enough to host three applications. $5 Eco plan for 1000 server hours + an additional $5 for each app.
 
-**Free plan**
+#### Heroku: Free Plan
 
 - N/A
 
-**Links**
+#### Heroku: Links
 
 - [Homepage](https://www.heroku.com/)
 - [Documentation](https://devcenter.heroku.com/)
@@ -227,11 +227,12 @@ This will be where the Git skills you've been learning will start to really pay 
 1. Deploy your [Blog App project](https://www.theodinproject.com/lessons/ruby-on-rails-blog-app) to one of the hosting providers we've mentioned. If you need help deciding which one to use, we recommend Fly.io. The important thing to take away from this first deployment is getting experience deploying. Don't worry if you don't understand everything that's happening. That will come with time.
    - Use one of the linked deploy guides for your PaaS provider to help you through the process.
    - If you're having trouble deploying, check out the [Debugging and Troubleshooting Deployments](#debugging-and-troubleshooting-deployments) section for some tips.
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you're having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What's the difference between static and dynamic websites?](#static-vs-dynamic-sites)
 - [What does 'PaaS' stand for?](#what-is-a-paas)
