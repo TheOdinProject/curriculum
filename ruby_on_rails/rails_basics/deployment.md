@@ -227,11 +227,12 @@ This will be where the Git skills you've been learning will start to really pay 
 1. Deploy your [Blog App project](https://www.theodinproject.com/lessons/ruby-on-rails-blog-app) to one of the hosting providers we've mentioned. If you need help deciding which one to use, we recommend Fly.io. The important thing to take away from this first deployment is getting experience deploying. Don't worry if you don't understand everything that's happening. That will come with time.
    - Use one of the linked deploy guides for your PaaS provider to help you through the process.
    - If you're having trouble deploying, check out the [Debugging and Troubleshooting Deployments](#debugging-and-troubleshooting-deployments) section for some tips.
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you're having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What's the difference between static and dynamic websites?](#static-vs-dynamic-sites)
 - [What does 'PaaS' stand for?](#what-is-a-paas)
