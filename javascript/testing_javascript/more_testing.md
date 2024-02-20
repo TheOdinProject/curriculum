@@ -65,7 +65,7 @@ If we had written this program with TDD it is very likely that it would have loo
 ### Assignment 
 
 <div class="lesson-content__panel" markdown="1">
-1. If you haven't already, watch the 'mocking' videos from [this series](https://www.youtube.com/watch?v=3PjdxjWK0F0).
+1. If you haven't already, watch the 'mocking' videos from [this series](https://www.youtube.com/watch?v=3PjdxjWK0F0). The concept of dependency injection is mentioned quite a bit in this video, so if you are unfamiliar with the topic, you might want to read [this article](https://javascript.plainenglish.io/dependency-injection-in-javascript-539f7f6cfbee) first. If you prefer a video alternative, you can watch [this video](https://youtu.be/0X1Ns2NRfks?si=JrsXRvoe4FIHcOf0) until [03:50](https://youtu.be/0X1Ns2NRfks?si=-yQu7SvuFApoVhXw&t=230).
 2. Too much mocking can be a bad thing.  It _is_ sometimes necessary, but if you have to set up an elaborate system of mocks to test any bit of your code, that means your code is too tightly coupled.  [This article](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a) might be a little extreme, but it contains several really good points about program architecture and testing.
 3. Now that you have some practice and context for TDD, [this section](https://jestjs.io/docs/setup-teardown) of the Jest docs will probably make good sense to you.
 4. Jest includes some _really_ handy mocking functions.  Read about them in the [official docs](https://jestjs.io/docs/mock-functions).
