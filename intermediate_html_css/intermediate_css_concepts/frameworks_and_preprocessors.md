@@ -4,11 +4,11 @@ At this point, you have written quite a bit of vanilla HTML and CSS, and learned
 
 A useful reason to be aware about CSS frameworks and preprocessors is that they are commonly found in the workplace. Whilst interviewers for entry-level positions are likely to focus more on CSS fundamentals (even if the job uses a particular framework or preprocessor), it's helpful for you to know what these tools are, and where to look for them once you've determined you need to learn them.
 
-You should be aware that at this point in your learning, it is advised to continue using vanilla CSS in your projects. All of these frameworks and preprocessors are based around CSS and so developing strong fundamentals makes it significantly easier to learn and switch between any framework or preprocessor in the future. Trying to learn one during this course will not be as productive or valuable in the long run as simply improving your fundamental CSS skills.
+You should be aware that at this point in your learning, it is advised to continue using vanilla CSS in your projects. All of these frameworks and preprocessors are based around CSS and so developing strong fundamentals makes it significantly easier to learn and switch between any framework or preprocessor in the future. Trying to learn one during this course will not be as productive or valuable in the long run as improving your fundamental CSS skills.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Know what a CSS framework is.
 - Know some of the available frameworks.
@@ -17,7 +17,7 @@ By the end of this lesson, you should:
 
 ### Frameworks overview
 
-Different frameworks have different goals. Frameworks like [Bootstrap](https://getbootstrap.com/) do a lot of the heavy lifting of packaging up commonly used CSS code for you, even icons and interactions (like menu dropdowns). They are designed to abstract away the process of coding intuitive, reusable, and responsive elements. Things like [Tailwind](https://tailwindcss.com/) aim to simply change how we apply CSS through a different syntax, by supplying pre-named classes that typically only apply a single line of CSS each. A CSS framework is ultimately just a bundle of CSS that you can use and access, using the classes defined by the framework. For example, many frameworks provide a class called `.btn` that will add all the needed styles to your buttons, without you having to write any CSS. In general, to use a framework, you need to understand how it expects you to structure your website and which classes it uses to apply its specific set of styles.
+Different frameworks have different goals. Frameworks like [Bootstrap](https://getbootstrap.com/) do a lot of the heavy lifting of packaging up commonly used CSS code for you, even icons and interactions (like menu dropdowns). They are designed to abstract away the process of coding intuitive, reusable, and responsive elements. Things like [Tailwind](https://tailwindcss.com/) aim to change how we apply CSS through a different syntax, by supplying pre-named classes that typically only apply a single line of CSS each. A CSS framework is ultimately just a bundle of CSS that you can use and access, using the classes defined by the framework. For example, many frameworks provide a class called `.btn` that will add all the needed styles to your buttons, without you having to write any CSS. In general, to use a framework, you need to understand how it expects you to structure your website and which classes it uses to apply its specific set of styles.
 
 You should be aware that there are quite a few frameworks available. Two other frameworks you may come across are [Bulma](https://bulma.io/) and [Foundation](https://get.foundation) but there are many more out there.
 

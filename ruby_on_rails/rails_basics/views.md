@@ -225,14 +225,6 @@ Now that you've got a taste of the high-level stuff, read through the Rails Guid
 
 Views in general make up the user-facing side of your app.  It can be a bit tricky at first to imagine how you choose which view to render, what to include in that view and how to use partials, but a few iterations of working with Rails will show you the conventions pretty quickly.  Views will become second nature to you.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Stack Overflow Post on Views](https://stackoverflow.com/questions/14429910/an-alternate-explanation-to-rails-layouts-rendering-partials-templates-and-v)
-* [Video on the Relationship Between Views and Controllers](https://www.youtube.com/watch?v=mRJSovhdzWc&ab_channel=GoRails)
-* [Video on ERB Tags](https://www.youtube.com/watch?v=na28woOGPUw&ab_channel=NoobandTube) - (this video will require you to turn your volume up)
-* [Introduction to Ruby on Rails from freeCodeCamp](https://youtu.be/fmyvWz5TUWg) - If you'd like a deeper dive into routing, MVC, CRUD and partials watch the first 60 minutes of this video which provides a good wrap up for what we've been learning so far. You'll also get to create a basic Rails app from scratch if you'd like some extra practice.
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -242,3 +234,12 @@ This section contains questions for you to check your understanding of this less
 * [Why do we use partials?](https://guides.rubyonrails.org/layouts_and_rendering.html#using-partials)
 * [What is the shortcut for rendering a collection as a series of partials?](https://guides.rubyonrails.org/layouts_and_rendering.html#rendering-collections)
 * [How do you dynamically link to another page of your Rails app?](#linkto)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Stack Overflow Post on Views](https://stackoverflow.com/questions/14429910/an-alternate-explanation-to-rails-layouts-rendering-partials-templates-and-v)
+- [Video on the Relationship Between Views and Controllers](https://www.youtube.com/watch?v=mRJSovhdzWc&ab_channel=GoRails)
+- [Video on ERB Tags](https://www.youtube.com/watch?v=na28woOGPUw&ab_channel=NoobandTube) - (this video will require you to turn your volume up)
+- [Introduction to Ruby on Rails from freeCodeCamp](https://youtu.be/fmyvWz5TUWg) - If you'd like a deeper dive into routing, MVC, CRUD and partials watch the first 60 minutes of this video which provides a good wrap up for what we've been learning so far. You'll also get to create a basic Rails app from scratch if you'd like some extra practice.

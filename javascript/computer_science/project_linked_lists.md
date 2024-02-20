@@ -35,7 +35,10 @@ For a more thorough explanation, use these resources:
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  You will need two classes or factories:
+
+If you wish to use multiple ES6 modules, remember that Node uses CommonJS modules by default and so you must [tell Node to use ES6 modules](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/) instead.
+
+You will need two classes or factories:
 
 1. `LinkedList` class / factory, which will represent the full list.
 1. `Node` class / factory, containing a `value` property and a link to the `nextNode`, set both as `null` by default.

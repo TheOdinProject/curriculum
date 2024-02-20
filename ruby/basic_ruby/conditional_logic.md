@@ -13,16 +13,17 @@ Any conditional statement will always have an expression that evaluates to `true
 
 You'll write a lot of conditional statements on your road to programmer stardom. Although they are fundamentally simple, they are a big source of bugs in your code when something isn't working as expected. Make sure you understand the logic behind the expression being evaluated so you can step through it if you need to.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
 
- - Describe and list falsy values.
- - Explain how to use `if`, `elsif`, and `else`.
- - Explain the difference between `if` and `unless`.
- - Describe what `||`, `&&`, and `!` do.
- - Explain what short circuit evaluation is.
- - Describe what the ternary operator is and how to use it.
- - Explain what a `case` statement is and how it works.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Describe and list falsy values.
+- Explain how to use `if`, `elsif`, and `else`.
+- Explain the difference between `if` and `unless`.
+- Describe what `||`, `&&`, and `!` do.
+- Explain what short circuit evaluation is.
+- Describe what the ternary operator is and how to use it.
+- Explain what a `case` statement is and how it works.
 
 ### Truthy and falsy in Ruby
 You already know that conditional statements check expressions for a true or false value, so it follows that you need to understand what Ruby considers to be true or false. In typical Ruby fashion, it's very simple. The only false values in Ruby are the values `nil` and `false` themselves. That's it! Everything else is considered true. Even the string `"false"` is true in conditional expressions! If you have experience with other programming languages, you might be familiar with the number 0 or an empty string ("") being equivalent to false. This isn't the case with Ruby, so be careful when writing those expressions, or you'll have more bugs than a decomposing body.
@@ -311,13 +312,6 @@ However, if your conditional statements are complicated, then using an `if...els
 2. For an overview of flow control, read through this [Ruby Explained: Conditionals and Flow Control](https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control) article.
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
- - For more on the spaceship operator, see [this Stack Overflow post](https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator).
- - For more depth on flow control, read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/).
- - If you want some in-depth practice with these concepts, go through [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/) from [Exercise 27](https://learnrubythehardway.org/book/ex27.html) through Exercise 31.
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -331,3 +325,11 @@ This section contains questions for you to check your understanding of this less
   * <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control">What is returned by `puts("woah") || true`?</a>
   * <a class="knowledge-check-link" href="#ternary-operator">What is the ternary operator?</a>
   * <a class="knowledge-check-link" href="#case-statements">When should you use a case statement? </a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+ - For more on the spaceship operator, see [this Stack Overflow post](https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator).
+ - For more depth on flow control, read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/).
+ - If you want some in-depth practice with these concepts, go through [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/) from [Exercise 27](https://learnrubythehardway.org/book/ex27.html) through Exercise 31.

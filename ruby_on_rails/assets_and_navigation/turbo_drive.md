@@ -153,3 +153,9 @@ To reiterate, Turbolinks is the **predecessor** of Turbo, and **Turbo is not sho
 1. Read chapters 1 and 2 of the [Turbo handbook](https://turbo.hotwired.dev/handbook/introduction). Focus on ensuring you understand around link navigation and how that works as we'll cover forms later.
 
 </div>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

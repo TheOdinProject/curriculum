@@ -62,3 +62,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [This playlist](https://www.youtube.com/playlist?list=PLtwj5TTsiP7uTKfTQbcmb59mWXosLP_7S) from Stephen Mayeux, explains ES6 Classes and some of their methods with easy to follow examples.
+- [This article](https://blog.beezwax.net/composition-over-inheritance-with-javascript-examples) gives real-world examples to illustrate why composition is usually better than inheritance. 

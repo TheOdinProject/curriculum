@@ -144,6 +144,7 @@ You might wonder why this variable is declared with all caps, when we have recom
 
 Now it's time to head to more controversial topics. The war between coders that use tabs and coders that use spaces to indent their code is [essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
 
+
 What actually matters is *consistency*. Choose a way to indent and stick to it. Various JS style-guides recommend different options, and one is not really superior to the other. Few popular ones are linked in the additional resources.
 
 #### Line length
@@ -291,4 +292,5 @@ This section contains helpful links to related content. It isn’t required, so 
 - [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
 - [Airbnb style guide](https://github.com/airbnb/javascript)
 - [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)
+
 - [Clean code in Javascript](https://github.com/ryanmcdermott/clean-code-javascript)
