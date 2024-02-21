@@ -79,9 +79,10 @@ At this point you should be pretty familiar with the `alt` attribute on `img` el
 
 Believe it or not, both examples above are valid! While Example 1 doesn't actually have any meaningful text (perhaps a meaningful *lack of* text), you should still understand its importance. <span id="empty-alt-attribute">When you're using an image purely for decoration, or the image just isn't really important for the user to be aware of, you generally don't want users of assistive technologies to be made aware of it.</span> In those cases, you should **always** use an empty string for the value of the `alt` attribute as seen in Example 1 (this is also known as a null value, not to be confused with the JavaScript data type). If you omitted the `alt` attribute, the presence of the image could still be announced, which may confuse the user (especially if the file name was a random string of letters and numbers).
 
-For Example 2, the screen reader would announce, "Odin, graphic", making the user aware that there's an image and what it's an image of. What the alternative text should be for an image will ultimately depend on various factors, though. 
+For Example 2, the screen reader would announce, "Odin, graphic", making the user aware that there's an image and what it's an image of. What the alternative text should be for an image will ultimately depend on various factors, though.
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 
   1. Read [Alternative Text - WebAIM](https://webaim.org/techniques/alttext) to learn about when and how you should be adding alternative text for images based on the function of the image and the context surrounding it.
@@ -98,7 +99,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Making Accessible Links: 15 Golden Rules For Developers](https://www.sitepoint.com/15-rules-making-accessible-links/) is a little old, but is still a great list of 15 rules for creating, well, accessible links. Some of the rules the article goes over were mentioned in this lesson, but there are some other rules that can help make sure you're creating a11y friendly links.
 - [Usable and Accessible Form Validation and Error Recovery](https://webaim.org/techniques/formvalidation/) goes over a few different ways you can provide errors to users (using the `alert` in JavaScript, providing all errors at the top of the page, and using inline errors), as well as the pros and cons of each.
