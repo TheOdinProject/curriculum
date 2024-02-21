@@ -27,11 +27,11 @@ In this section, we'll go through 2D transforms with the following transform fun
 
 This is the transform function value to rotate an element on a 2D plane:
 
-~~~css
+```css
 .element {
   transform: rotate();
 }
-~~~
+```
 
 Below is a CodePen that shows how the value affects the target element.
 
@@ -46,13 +46,13 @@ Below is a CodePen that shows how the value affects the target element.
 
 These are the transform function values to scale an element on a 2D plane:
 
-~~~css
+```css
 .element {
   transform: scaleX();
   transform: scaleY();
   transform: scale();
 }
-~~~
+```
 
 Below is a CodePen that shows how each value affects the target element.
 
@@ -67,13 +67,13 @@ Below is a CodePen that shows how each value affects the target element.
 
 These are the transform function values to skew an element on a 2D plane:
 
-~~~css
+```css
 .element {
   transform: skewX();
   transform: skewY();
   transform: skew();
 }
-~~~
+```
 
 Below is a CodePen that shows how each value affects the target element.
 
@@ -162,11 +162,11 @@ This is the transform function value to set the distance from the user to the z 
 }
 ```
 
-Essentially, by setting a `perspective` value, we are telling the object to render as if we were viewing it from a specific distance on the z-axis. 
+Essentially, by setting a `perspective` value, we are telling the object to render as if we were viewing it from a specific distance on the z-axis.
 
 Unlike other transform function values, `perspective` must be declared first (leftmost) when there are multiple transform function values. In the upcoming examples for `rotate`, `scale`, and `translate`, we will be able to see how it affects the target element.
 
-#### Rotate
+#### Rotate specific axis
 
 These are the additional transform function values to rotate an element in a 3D space:
 
@@ -188,7 +188,7 @@ Below is a CodePen that shows how the first three values affects the target elem
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-#### Scale
+#### Scale specific axis
 
 These are the additional transform function values to scale an element in a 3D space:
 
@@ -199,18 +199,18 @@ These are the additional transform function values to scale an element in a 3D s
 }
 ```
 
-See MDN's 3D cube in action with `scaleZ` [here](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()) and `scale3d` [here](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d()).
+See MDN's 3D cube in action with [`scaleZ`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()) and [`scale3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d()).
 
-#### Translate
+#### Translate specific axis
 
 These are the additional transform function values to translate an element in a 3D space:
 
-~~~css
+```css
 .element {
   transform: translateZ();
   transform: translate3d();
 }
-~~~
+```
 
 `translateZ` doesn't do much without `perspective`. Instead, `perspective` and `translateZ` work together to create the illusion of 3-dimensional distance from the rendered object, as shown in the example below.
 
