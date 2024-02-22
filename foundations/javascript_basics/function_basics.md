@@ -39,7 +39,7 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-Let's write some functions!  Write these in the `script` tag of a skeleton HTML file. If you've forgotten how to set it up, review the instructions from [Variables and Operators](https://www.theodinproject.com/lessons/foundations-fundamentals-part-1#how-to-run-javascript-code).
+Let's write some functions!  Write these in the `script` tag of a skeleton HTML file. If you've forgotten how to set it up, review our instructions on [how to run JavaScript code](https://www.theodinproject.com/lessons/foundations-fundamentals-part-1#how-to-run-javascript-code).
 
 For now, just write each function and test the output with `console.log`.
 
