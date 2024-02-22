@@ -118,7 +118,7 @@ However, there are two key differences with this array method:
 - It also takes in an `initialValue` as a second argument (after the callback), which helps when we don't want our initial value to be the first element in the array. For instance, if we wanted to sum all numbers in an array, we could call reduce without an `initialValue`, but if we wanted to sum all numbers in an array and add 10, we could use 10 as our `initialValue`.
 
 ```js
-arr.reduce((total, currentItem) => total * currentItem, 1); // Outputs 120
+arr.reduce((total, currentItem) => total * currentItem, 1); // Outputs 120;
 ```
 
 In the above function, we:
