@@ -373,6 +373,7 @@ If you need to add a *unique* style for a *single* element, this method can work
     - `03-group-selectors`
     - `04-chain-selectors`
     - `05-descendant-combinator`
+    - `06-cascade-fix`
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
