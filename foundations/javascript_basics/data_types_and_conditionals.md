@@ -20,7 +20,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A **string** is a piece of text... and is a fundamental building block of the language.
 
-1. Read and code along with [yet another MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings) on the topic.
+1. Read and code along with [yet another MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings) on the topic. You do not need to code along to the `Concatenation in context` section as it involves DOM manipulation code which we have not yet covered, and not knowing some small details may run you into a confusing error. Do still read through that section as the example you can play with should help you understand how the template literal works.
 1. Go through [this lesson](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings... be sure to take a peek at [the String Reference](https://www.w3schools.com/jsref/jsref_obj_string.asp) page near the bottom, and do the exercises at the end!
 1. Vocabulary time: a **method** is a bit of functionality built into the language or specific data types. In [the previous W3Schools exercise](https://www.w3schools.com/js/js_string_methods.asp), you've learned about a few methods that can be used on strings, such as `replace` and `slice`. An exhaustive list of methods usable on strings can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).
 
