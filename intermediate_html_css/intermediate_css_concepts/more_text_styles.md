@@ -34,7 +34,7 @@ One popular and easy method to get fonts that are *not* installed on a user's co
 <div class="lesson-note lesson-note--warning" markdown="1">
 ### A warning about Google fonts
 
-As you look into online font libraries to use you may come across [Google Fonts](https://fonts.google.com/). We strongly advise against using them, as websites that use Google Fonts [violate the GDPR](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/). Do not follow the instructions on downloading fonts in that article, as we will be going over that in this lesson.
+As you look into online font libraries to use you may come across [Google Fonts](https://fonts.google.com/). We strongly advise against using them, as websites that use Google Fonts [violate the GDPR](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/). Do not follow the instructions on downloading fonts in that article, as we will be going over it in this lesson.
 
 </div>
 
