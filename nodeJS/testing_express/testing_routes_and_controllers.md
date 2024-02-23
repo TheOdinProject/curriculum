@@ -3,9 +3,9 @@ Unit Testing is important for many reasons that we probably don't need to cover 
 
 If you haven't finished our [front-end JavaScript course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript), go back and take a look at those lessons before progressing.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do or answer the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Use the `supertest` module to test Express routes/controllers.
 - Describe how SuperTest handles our express application.
@@ -160,3 +160,9 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#done'>What is the purpose of `done`? What convenience does SuperTest provide concerning it?</a>
 - <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#example'>What is the difference in handling errors when using .end() method in conjunction with .expect() provided by SuperTest?</a>
 - <a class='knowledge-check-link' href='https://ladjs.github.io/superagent/#multipart-requests'>What are the methods provided by SuperAgent to handle multipart requests and how to use them?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

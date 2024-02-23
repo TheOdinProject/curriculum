@@ -2,9 +2,9 @@
 
 In the last lesson, we set the stage by explaining quite a bit of the background information you'll need to really understand what's going on as we start to dive into Express. This lesson will actually start you on the project that you'll be completing as you follow the tutorial.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Use `express-generator` to generate a basic express site.
 - Understand the basic parts of an express project.

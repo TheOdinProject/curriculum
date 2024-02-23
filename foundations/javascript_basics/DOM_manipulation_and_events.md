@@ -413,7 +413,7 @@ You can find a more complete list with explanations of each event on [this page]
 Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with *every day* as a front-end developer, so let's practice!
 
 1. Complete the challenge in [this MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_a_dynamic_shopping_list) and test your skills!
-1. Work through the first 2 sections in this [JavaScript DOM Tutorial](https://www.javascripttutorial.net/javascript-dom/). Note that some of the methods like `getElementById` are older and see less use today. Then, work through section 7 to really get comfortable with events, bubbling, and propagation.
+1. Read the first 2 sections in this [JavaScript DOM Tutorial](https://www.javascripttutorial.net/javascript-dom/). Note that some of the methods like `getElementById` are older and see less use today. Then, read the section 7 to really get familiar with events, bubbling, and propagation.
 
 </div>
 

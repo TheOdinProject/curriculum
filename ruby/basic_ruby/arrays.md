@@ -3,14 +3,15 @@ At the beginning of this section, you learned how to create and manipulate numbe
 
 One way Ruby allows you to represent a collection of data is with **arrays**, which you can think of as ordered lists. Rather than working with individual variables, numbers, or strings, an array allows you to create and manipulate an ordered and indexed collection of these data. The individual variables, numbers, or strings within an array are known as **elements**. An array can contain any combination of variables, numbers, strings, or other Ruby objects (including other arrays), although it is advisable to keep similar data types in any one array.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
 
- - Describe what an array is, and explain why it's useful.
- - Describe two different ways of creating a new array.
- - Explain how to access array elements using different methods.
- - Explain three different ways to add data to an array.
- - Explain how to remove elements from an array.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Describe what an array is, and explain why it's useful.
+- Describe two different ways of creating a new array.
+- Explain how to access array elements using different methods.
+- Explain three different ways to add data to an array.
+- Explain how to remove elements from an array.
 
 ### Creating arrays
 Here are two basic arrays:

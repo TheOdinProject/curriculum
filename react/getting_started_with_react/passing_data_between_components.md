@@ -6,8 +6,8 @@ By now you should be starting to understand just how powerful React and reusable
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Passing data between components.
-* Using data to create customizable reusable components.
+- Passing data between components.
+- Using data to create customizable reusable components.
 
 ### Data transfer in React
 
@@ -64,11 +64,6 @@ export default function App() {
 This may not seem like a huge deal right now, but what if we had 10 buttons, each one having different text, fonts, colors, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication.
 
 Let's see how by using props, we can account for any number of variations with a *single* button component.
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-<h4>"Missing in props validation"</h4>
-You may notice squiggly lines under your props (for example under `color` and `fontSize` inside the Button component below). Hovering over these will tell you they are `missing in props validation`. For now, this can safely be ignored as it is just a default ESLint rule warning about prop types, something that will be covered later in the course.
-</div>
 
 ~~~jsx
 function Button(props) {

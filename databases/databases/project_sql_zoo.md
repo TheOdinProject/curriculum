@@ -11,6 +11,7 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 </div>
 
 ### Additional resources
+
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 -   [Explanation of SELF JOIN by Caleb Curry](https://www.youtube.com/watch?v=W0p8KP0o8g4). He covers many other topics on his [Database Design](https://www.youtube.com/watch?v=e7Pr1VgPK4w&list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID) series.

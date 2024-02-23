@@ -1,9 +1,9 @@
 ### Introduction
 This lesson is a small one, but it is _incredibly important_. Now that we are dealing with Authentication, sessions, cookies and user passwords, it is crucial that we do everything we can so that our authentication system or databases are not compromised.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Access environment variables using the [process](https://nodejs.org/api/process.html#process_process_env) object in node.
 - Use dotenv to store and make environment variables available to your application globally.
