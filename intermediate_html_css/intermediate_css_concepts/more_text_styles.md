@@ -31,9 +31,8 @@ The point of this somewhat ridiculous string of font-families is to try using th
 
 One popular and easy method to get fonts that are *not* installed on a user's computer is to use the online [Font Library](https://fontlibrary.org/), or the premium, but non-free, [Adobe Fonts](https://fonts.adobe.com/).
 
-### Warning
-
-<div class="lesson-note" markdown="1">
+<div class="lesson-note lesson-note--warning" markdown="1">
+### A warning about Google fonts
 
 As you look into online font libraries to use you may come across [Google Fonts](https://fonts.google.com/). We strongly advise against using them, as websites that use Google Fonts [violate the GDPR](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/).
 
