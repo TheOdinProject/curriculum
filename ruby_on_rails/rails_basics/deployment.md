@@ -90,7 +90,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-### Fly.io
+#### Fly.io
 
 - Fly.io uses a CLI tool for deployment.
 - Pay for what you use with very reasonable rates. Each app should cost around $4 per month.
@@ -113,7 +113,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-### Railway.app
+#### Railway.app
 
 - Railway has a straightforward deployment process. You link to your project's GitHub repo.
 - Pay for what you use model.
@@ -132,7 +132,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-### Render
+#### Render
 
 - Render allows you to deploy using "Blueprints", which link to your project's GitHub repo.
 - The free 750-hour allowance is enough to host a few apps without paying anything. However, databases are separate on Render, and the lowest spec databases cost $7 each.
@@ -153,7 +153,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-### Heroku
+#### Heroku
 
 - Heroku has a straightforward deployment process using a combination of a well-documented CLI tool and Git.
 - Heroku is a very mature platform which has been around for over a decade. Any problems you encounter are almost guaranteed to have a solution documented on Stack Overflow or elsewhere on the internet.
