@@ -118,7 +118,7 @@ All of this may understandably look unlike anything you've seen up until now, bu
 
 ### Keeping it clean
 
-The starter project ships with [ESLint](https://eslint.org/). You could also set up [Prettier](https://github.com/prettier/eslint-config-prettier) to help keep your React code as clean as can be.
+The starter project ships with [ESLint](https://eslint.org/). If you haven't been doing it or simply forgot about it from our [linting lesson](https://www.theodinproject.com/lessons/node-path-javascript-linting), be sure to also set up [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) to help keep your React code as clean as can be.
 
 ### Developer tools
 
