@@ -79,7 +79,7 @@ Headings are the `<h1>` through `<h6>` elements, and like the name implies, thes
 As an example, consider the following image which shows how this lesson in particular uses semantic HTML for the different areas in the page. If you want to examine the page in more detail, feel free to use the developer tools to do so.
 
 
-![example of how the typical odin lessons html is structured](https://github.com/TheOdinProject/curriculum/assets/154856872/232855c8-13cd-4119-a1f3-f1ebe05fd40c)
+![How a typical Odin lesson uses semantic HTML by including the nav, header, main, section, aside, and footer elements](https://github.com/TheOdinProject/curriculum/assets/154856872/232855c8-13cd-4119-a1f3-f1ebe05fd40c)
 
 By properly using landmarks and headings, you provide users of assistive technologies a more operable and understandable page: not only can screen reader users navigate a page via landmarks and headings by using navigation keyboard commands (or opening a menu in their screen reader), but these elements also have their roles announced to provide additional context.
 
