@@ -100,14 +100,14 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - $20 a month should be enough to host eight apps (including three apps for free).
 - Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
 
-#### Fly.io: Free Plan
+##### Fly.io: Free Plan
 
 - You can host three apps for free before you need to start paying.
 - Requires a credit card.
 - Fly.io waives monthly invoices that total less than $5 USD. So, although it may look like
   you are being charged, it's very unlikely that you will exceed $5 and actually have to pay.
 
-#### Fly.io: Links
+##### Fly.io: Links
 
 - [Homepage](https://fly.io/)
 - [Documentation](https://fly.io/docs/)
@@ -121,12 +121,12 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - Pay for what you use model.
 - $5 a month should be enough to host four applications.
 
-#### Railway.app: Free Plan
+##### Railway.app: Free Plan
 
 - You get a free one-time grant of $5 on their free trial, and the applications are never put to sleep when inactive.
 - However, the longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
 
-#### Railway.app: Links
+##### Railway.app: Links
 
 - [Homepage](https://railway.app/)
 - [Documentation](https://docs.railway.app/)
@@ -139,14 +139,14 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - Free plan does not limit the number of applications you can deploy.
 - Also has fixed and usage-based payment plans.
 
-#### Adaptable.io: Free Plan
+##### Adaptable.io: Free Plan
 
 - No limits on the number of applications you can deploy on the free plan.
 - Monthly performance allowance is more than sufficient for course/personal projects (approximately 25,000 API requests per month).
 - Applications are put to sleep when inactive but wake up speed is quicker than Render.
 - Requires a credit card.
 
-#### Adaptable.io: Links
+##### Adaptable.io: Links
 
 - [Homepage](https://adaptable.io/)
 - [Documentation](https://adaptable.io/docs/what-is-adaptable)
@@ -160,13 +160,13 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - The free 750-hour allowance is enough to host a few apps without paying anything. However, databases are separate on Render, and the lowest spec databases cost $7 each. This is a good option to use in tandem with MongoDB Atlas.
 - $21 a month is enough to host three applications as each app's database will cost $7.
 
-#### Render: Free Plan
+##### Render: Free Plan
 
 - 750 hours of free usage per month.
 - Applications are put to sleep automatically after 15 minutes of inactivity, so the 750 free hours should be enough to host a few apps for the entire month.
 - Requires a credit card.
 
-#### Render: Links
+##### Render: Links
 
 - [Homepage](https://render.com/)
 - [Documentation](https://render.com/docs/)
@@ -183,11 +183,11 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - Heroku's lowest-tier Postgresql databases cost $5 per month, effectively costing each application $5 to host.
 - $20 a month will be enough to host three applications. $5 eco plan for 1000 server hours + an additional $5 for each app.
 
-#### Heroku: Free Plan
+##### Heroku: Free Plan
 
 - N/A
 
-#### Heroku: Links
+##### Heroku: Links
 
 - [Homepage](https://www.heroku.com/)
 - [Documentation](https://devcenter.heroku.com/)
