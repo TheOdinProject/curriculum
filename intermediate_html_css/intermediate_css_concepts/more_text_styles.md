@@ -29,7 +29,7 @@ The point of this somewhat ridiculous string of font-families is to try using th
 
 #### Online font libraries
 
-One popular and easy method to get fonts that are *not* installed on a user's computer is to use an online [font library](https://fontlibrary.org/), or the premium, but non-free, [Adobe Fonts](https://fonts.adobe.com/).
+One popular and easy method to get fonts that are *not* installed on a user's computer is to use the online [Font Library](https://fontlibrary.org/), or the premium, but non-free, [Adobe Fonts](https://fonts.adobe.com/).
 
 ### Warning
 
