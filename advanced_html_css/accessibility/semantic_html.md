@@ -76,7 +76,7 @@ Headings are the `<h1>` through `<h6>` elements, and like the name implies, thes
 - `<nav>`
 - `<section>`
 
-As an example, consider this image which shows how this lesson in particular uses semantic HTML for the different areas in the page. If you want to examine the page in more detail, feel free to use the developer tools to do so.
+As an example, consider the following image which shows how this lesson in particular uses semantic HTML for the different areas in the page. If you want to examine the page in more detail, feel free to use the developer tools to do so.
 
 <img src='https://github.com/TheOdinProject/curriculum/assets/154856872/232855c8-13cd-4119-a1f3-f1ebe05fd40c' alt='example of how the typical odin lessons html is structured'>
 
