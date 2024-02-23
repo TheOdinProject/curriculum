@@ -108,7 +108,7 @@ function App() {
   you they are `missing in props validation`. For now, this can safely be
   ignored as it is just a default ESLint rule warning about prop types,
   something that will be covered later in the course.
-</div>;
+</div>
 
 We have moved our `<ul>` element to a different component called `<List />`. It still returns the `<ul>` element, but we can do a lot more with it as a component.
 
