@@ -289,6 +289,7 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - [This video explains closures with a good example.](https://www.youtube.com/watch?v=80O6L2Ez3GM)
+- [This video covers the revealing module pattern in another example.](https://www.youtube.com/watch?v=ndadGZuFTvI)
 - [Here is an interactive scrim on factory functions.](https://scrimba.com/scrim/c2aaKzcV)
 - [This article discusses three different kinds of prototypal inheritance with some good examples](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9)
 - [Learning JavaScript Design Patterns by Addy Osmani and Lydia Hallie](https://www.patterns.dev/)
