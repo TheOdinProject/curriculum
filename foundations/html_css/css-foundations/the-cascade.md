@@ -1,6 +1,6 @@
 ### Introduction
 
-In the previous lesson, we covered basic CSS syntax and selectors. Now, it's time to combine our knowledge of selectors with the *C* of CSS -- the cascade.
+In the previous lesson, we covered basic CSS syntax and selectors. Now, it's time to combine our knowledge of selectors with the _C_ of CSS -- the cascade.
 
 ### Lesson overview
 
@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### The cascade of CSS
 
-Sometimes we may have rules that conflict with one another, and we end up with some unexpected results. "But I wanted *these* paragraphs to be blue, why are they red like these other paragraphs?!" As frustrating as this can be, it's important to understand that CSS doesn't just *do* things against our wishes. CSS only does what we tell it to do. One exception to this is the default styles that are provided by a browser. These default styles vary from browser to browser, and they are why some elements create a large "gap" between themselves and other elements, or why buttons look the way they do, despite us not writing any CSS rules to style them that way.
+Sometimes we may have rules that conflict with one another, and we end up with some unexpected results. "But I wanted _these_ paragraphs to be blue, why are they red like these other paragraphs?!" As frustrating as this can be, it's important to understand that CSS doesn't just _do_ things against our wishes. CSS only does what we tell it to do. One exception to this is the default styles that are provided by a browser. These default styles vary from browser to browser, and they are why some elements create a large "gap" between themselves and other elements, or why buttons look the way they do, despite us not writing any CSS rules to style them that way.
 
 So if you end up with some unexpected behavior like this it's either because of these default styles, not understanding how a property works, or not understanding this little thing called the cascade.
 
@@ -96,7 +96,7 @@ And a bit more complex:
 
 /* rule 2 */
 .main #subsection {
- color: red;
+  color: red;
 }
 ```
 
@@ -183,7 +183,7 @@ Despite the `parent` element having a higher specificity with an ID, the `child`
 
 The final factor, the end of the line, the tie-breaker of the tie-breakers. Let's say that after every other factor has been taken into account, there are still multiple conflicting rules targeting an element. How does the cascade determine which rule to apply?
 
-Whichever rule was the *last* defined is the winner.
+Whichever rule was the _last_ defined is the winner.
 
 ```css
 /* styles.css */
@@ -204,29 +204,30 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 <div class="lesson-content__panel" markdown="1">
 
 1. Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `foundations` directory. Review the README and complete the final exercise:
+
    - `06-cascade-fix`
 
-    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
+   Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
-1. Remember the Recipe page you created as practice from the HTML Foundations section? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
-   - How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the previous lesson (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
+1. Remember the Recipe page you created as practice from the HTML Foundations section? Well, it's rather _plain_ looking, isn't it? Let's fix that by adding some CSS to it!
+   - How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the previous lesson (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look _good_. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
    - We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - <a class="knowledge-check-link" href="#high-specificity-class-type">Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?</a>
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [The CSS Cascade](https://wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied.
 - [Changing the Font Family](https://www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css#finding-and-loading-a-font-file-from-a-hosted-service) describes a few different approaches to using custom fonts.
 - [CSS Specificity Explained](https://www.youtube.com/watch?v=c0kfcP_nD9E) from Kevin Powell goes through various specificity examples and gives some advice on avoiding wrestling with specificity.
 - [CSS Specificity Calculator](https://specificity.keegan.st/) allows you to fill in your own selectors and have their specificity calculated and visualized.
-- [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) can be used to learn if a particular CSS property is inherited or not; look for the **Inherited** field inside the **Formal Definition** section. [Here's an example](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) for the CSS `color` property.
+- [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) can be used to learn if a particular CSS property is inherited or not; look for the **Inherited** field inside the **Formal Definition** section. Here's an [example](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) for the CSS `color` property.
 - [Interactive Scrim on the CSS Cascade.](https://scrimba.com/scrim/c9gwmnAR)
