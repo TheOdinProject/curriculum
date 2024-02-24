@@ -156,7 +156,7 @@ Let's break it down.
 
 Pretty straightforward sentence here! Every object in JavaScript has a `prototype`. So for example, the `player1` and `player2` objects from before, (created with the `Player(name, marker)` object constructor) also have a `prototype`. Now, what does having a `prototype` mean? What even is a `prototype` of an object?
 
-#### 2. The prototype is another object...
+#### 2. The prototype is another object
 
 This sentence also seems pretty straightforward! The `prototype` *is just another object* - again, like the `player1` and the `player2` objects. The `prototype` object can have properties and functions, just as these `Player` objects have properties like `.name`, `.marker`, and functions like `.sayName()` attached to them.
 
