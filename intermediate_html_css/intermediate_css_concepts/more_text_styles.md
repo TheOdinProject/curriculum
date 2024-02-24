@@ -29,7 +29,14 @@ The point of this somewhat ridiculous string of font-families is to try using th
 
 #### Online font libraries
 
-One popular and easy method to get fonts that are *not* installed on a user's computer is to use an online font library like [Google Fonts](https://fonts.google.com/), [Font Library](https://fontlibrary.org/), or the premium, but non-free, [Adobe Fonts](https://fonts.adobe.com/).
+One popular and easy method to get fonts that are *not* installed on a user's computer is to use the online [Font Library](https://fontlibrary.org/), or the premium, but non-free, [Adobe Fonts](https://fonts.adobe.com/).
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+### A warning about Google fonts
+
+As you look into online font libraries to use you may come across [Google Fonts](https://fonts.google.com/). We strongly advise against using them, as websites that use Google Fonts [violate the GDPR](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/). Do not follow the instructions in that article on how to make Google fonts compliant, as we will be going over downloading fonts in this lesson.
+
+</div>
 
 To use a font from one of these libraries, go to the website, select a font and then copy a snippet from the website to import that font from their server into your website. You'll be given either a `<link>` tag to put in your HTML like so....
 

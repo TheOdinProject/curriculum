@@ -101,6 +101,15 @@ function App() {
 }
 ~~~
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+  <h4>"Missing in props validation"</h4>
+  You may notice squiggly lines under your props (for example under `color` and
+  `fontSize` inside the Button component below). Hovering over these will tell
+  you they are `missing in props validation`. For now, this can safely be
+  ignored as it is just a default ESLint rule warning about prop types,
+  something that will be covered later in the course.
+</div>
+
 We have moved our `<ul>` element to a different component called `<List />`. It still returns the `<ul>` element, but we can do a lot more with it as a component.
 
 This component accepts a `props` which is an object containing the `animals` that we defined as a property when we wrote `<List animals={animals} />`. Do note that you can name it anything, for example, `<List animalList={animals} />`. You will still need to pass the animals to the property, but now you will use `props.animalList` instead of `props.animals`.

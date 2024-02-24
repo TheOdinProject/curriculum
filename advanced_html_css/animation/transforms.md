@@ -166,9 +166,7 @@ Essentially, by setting a `perspective` value, we are telling the object to rend
 
 Unlike other transform function values, `perspective` must be declared first (leftmost) when there are multiple transform function values. In the upcoming examples for `rotate`, `scale`, and `translate`, we will be able to see how it affects the target element.
 
-For more details on how `perspective` works in regards to 3D transforms, [check out this CSS Tricks article](https://css-tricks.com/how-css-perspective-works/).
-
-#### Rotate
+#### Rotate specific axis
 
 These are the additional transform function values to rotate an element in a 3D space:
 
@@ -190,9 +188,7 @@ Below is a CodePen that shows how the first three values affects the target elem
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-To learn about how `rotate3d` works, check out [this great demonstration](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) on MDN and [this one](https://www.quackit.com/css/functions/css_rotate3d_function.cfm) on Quackit.
-
-#### Scale
+#### Scale specific axis
 
 These are the additional transform function values to scale an element in a 3D space:
 
@@ -203,9 +199,9 @@ These are the additional transform function values to scale an element in a 3D s
 }
 ```
 
-See MDN's 3D cube in action with `scaleZ` [here](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()) and `scale3d` [here](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d()).
+See MDN's 3D cube in action with [`scaleZ`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()) and [`scale3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d()).
 
-#### Translate
+#### Translate specific axis
 
 These are the additional transform function values to translate an element in a 3D space:
 
@@ -225,8 +221,6 @@ These are the additional transform function values to translate an element in a 
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-For a great demonstration on `translate3d` checkout the [MDN cube again](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d())!
-
 #### Matrix
 
 While not strictly a 3D transform function, matrix is mentioned last in this lesson due to how uncommonly used it is. These are the transform function values for it.
@@ -240,7 +234,7 @@ While not strictly a 3D transform function, matrix is mentioned last in this les
 
 Matrix is a way of combining all transform functions into one. It is seldom used due to its poor readability, and almost never written by hand. Unless you have a very complex transformation to apply, you should use other transform function values instead.
 
-It is enough for you to know *that* these functions exist and generally how they work. However, it is not important for you to feel comfortable building with them. Skim [this article](https://www.quackit.com/css/functions/css_matrix_function.cfm) to get the gist of `matrix`.
+It is enough for you to know *that* these functions exist and generally how they work. However, it is not important for you to feel comfortable building with them.
 
 ### Benefits of transforms
 
@@ -249,6 +243,14 @@ In order to understand why the `transform` property is great, you have to be awa
 The key benefit of using `transform` is that it occurs during **composition**. This makes it cheaper to use compared to many other CSS properties. You can see a table of what triggers are executed with each CSS property [here](https://web.archive.org/web/20220727225220/https://csstriggers.com/).
 
 Another benefit of `transform` is that it can be hardware-accelerated via a device's [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) (you don't have to understand how a GPU works but it is good to be aware of the term and what it means). This benefit is more prominent when it comes to transitions and animations which you will learn about in the following lessons.
+
+### Assignment
+<div class="lesson-content__panel" markdown="1">
+1. To learn about how `rotate3d` works, check out [this great demonstration](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) on MDN and [this one](https://www.quackit.com/css/functions/css_rotate3d_function.cfm) on Quackit.
+1. For more details on how `perspective` works in regards to 3D transforms, [check out this CSS Tricks article](https://css-tricks.com/how-css-perspective-works/).
+1. For a great demonstration on `translate3d` checkout the [MDN cube again](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d())!
+1. Skim [this article](https://www.quackit.com/css/functions/css_matrix_function.cfm) to get the gist of `matrix`.
+</div>
 
 ### Knowledge check
 
