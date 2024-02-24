@@ -62,7 +62,7 @@ Generally, keeping your CSS transitions performant will not be an issue. However
 
 The first is the "stacking context". Basically, a stacking context is formed when certain element scenarios are in place. A relevant scenario for us would be to transition a `transform` property like below:
 
-~~~css
+```css
 div {
   width: 100px;
   height: 100px;
@@ -72,7 +72,7 @@ div {
 div:hover {
   transform: rotate(180deg);
 }
-~~~
+```
 
 This has created a stacking context. If we were to make a bunch more stacking contexts through various other means then, when it comes to rendering our initial transform, we would repaint not only our `div` element but also **every element that is stacked on top of it in the stack context**. If left unchecked, this can cause your once buttery-smooth transition to become slow and rough.
 
@@ -104,5 +104,5 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Up until now, you have only controlled the speed of your transitions with the help of keyword values like `ease` and `ease-in`. However, CSS allows you to define your own timing functions with the help of timing functions like `steps` and `cubic-bezier`. In specific, [the `cubic-bezier` function](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function#cubic_b%C3%A9zier_easing_function) is widely used.
-  - [This article](https://blog.maximeheckel.com/posts/cubic-bezier-from-math-to-motion/) discusses `cubic-bezier` functions in detail. While it has a ton of mathematics, you do not need to delve deep into it apart from a creating a basic idea about their purpose.
-  - You can play around with the [CSS Cubic Bezier Generator](https://www.cssportal.com/css-cubic-bezier-generator/) to not only view how the `cubic-bezier` value works in an editable demo, but also to compare the different `transition-timing-function` values side by side.
+- While the [`cubic-bezier`](https://blog.maximeheckel.com/posts/cubic-bezier-from-math-to-motion/) function has a ton of mathematics, you do not need to delve deep into it apart from a creating a basic idea about its purpose.
+- You can play around with the [CSS Cubic Bezier Generator](https://www.cssportal.com/css-cubic-bezier-generator/) to not only view how the `cubic-bezier` value works in an editable demo, but also to compare the different `transition-timing-function` values side by side.
