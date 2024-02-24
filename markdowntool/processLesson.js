@@ -15,7 +15,6 @@ const { getLesson, updateLesson } = require("./updateLesson");
 async function processLesson(filePath) {
   const lesson = getLesson(filePath);
   let lines = await lessonIntoArrayOfLines(lesson);
-  // 10 stages
   lines = blankLinesHeadings(lines);
   lines = correctCodeBlocks(lines);
   lines = correctOrderedList(lines);
