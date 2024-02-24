@@ -3,11 +3,8 @@ function boldAndItalic(lines) {
 
   let marker = true;
   lines.forEach((line) => {
-    if (line.content.includes("```" && !marker)) {
-      marker = true;
-    }
-    if (line.content.includes("```" && marker)) {
-      marker = false;
+    if (line.content.trim().startsWith("```")) {
+      marker = !marker;
     }
     if (
       !line.content.includes("`") &&
