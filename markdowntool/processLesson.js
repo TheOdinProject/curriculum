@@ -1,6 +1,7 @@
 const { blankLinesCode } = require("./blankLinesCode");
 const { blankLinesHeadings } = require("./blankLinesHeadings");
 const { blankLinesLists } = require("./blankLinesLists");
+const { boldAndItalic } = require("./correctBoldAndItalic");
 const { correctCodeBlocks } = require("./correctCodeBlocks");
 const { correctOrderedList } = require("./correctOrderedList");
 const { correctUnorderedList } = require("./correctUnorderedList");
@@ -24,6 +25,7 @@ async function processLesson(filePath) {
   lines = formatStartAndEnd(lines);
   lines = sectionsDefaultContent(lines);
   lines = blankLinesLists(lines);
+  lines = boldAndItalic(lines);
   lines = removeRepeatingNewlines(lines);
   updateLesson(lesson, lines);
 }
