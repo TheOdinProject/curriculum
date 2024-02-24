@@ -44,7 +44,6 @@ This section contains a general overview of topics that you will learn in this l
 - Describe what a prototype is and how it can be used.
 - Explain prototypal inheritance.
 - Understand the basic do's and don't's of prototypal inheritance.
-- Explain what `Object.create` does.
 - Explain what the `this` keyword is.
 
 ### Objects as a design pattern
