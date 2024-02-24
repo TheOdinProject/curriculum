@@ -22,4 +22,4 @@ const data = {
   },
 };
 
-export { data, legacyData };
+module.exports = { data, legacyData };

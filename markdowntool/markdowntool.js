@@ -3,21 +3,6 @@ const fs = require("fs").promises;
 const { processLesson } = require("./processLesson");
 const { processDirectory } = require("./processDirectory");
 
-// async function handleDirectory(path) {
-//   console.log(`Processing directory at ${directoryPath}`);
-//   const rootDirectory = path.resolve(process.env.HOME, "dt/curriculum/ruby");
-//   await processDirectory(rootDirectory);
-// }
-
-// async function handleLesson() {
-//   console.log(`Processing lesson at ${lessonPath}`);
-//   const testLesson = path.resolve(
-//     process.env.HOME,
-//     "dt/markdown-processor-test.md"
-//   );
-//   await processLesson(testLesson);
-// }
-
 const curriculumPath = path.resolve("../");
 
 async function main() {

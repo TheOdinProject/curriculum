@@ -1,5 +1,6 @@
 const fs = require("fs/promises");
 const path = require("path");
+const { processLesson } = require("./processLesson");
 
 async function processDirectory(directoryPath) {
   const entries = await fs.readdir(directoryPath, { withFileTypes: true });
