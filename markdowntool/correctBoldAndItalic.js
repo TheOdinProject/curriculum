@@ -18,8 +18,6 @@ function boldAndItalic(lines) {
     }
   });
 
-  console.log(arrayToExamine);
-
   arrayToExamine.forEach((line) => {
     line.content = line.content
       .split("")
