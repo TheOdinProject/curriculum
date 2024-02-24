@@ -2,13 +2,6 @@
 
 Let's see how the orientation of items within a flex container can be controlled using the `flex-direction` property.
 
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
-
--   You'll learn about the 2 "axes" of a flex container.
--   You'll learn how to change those axes to arrange your content in columns instead of rows.
-
 The most confusing thing about flexbox is that it can work either horizontally or vertically, and some rules change a bit depending on which direction you are working with.
 
 The default direction for a flex container is horizontal, or `row`, <span id='flex-vertical'>but you can change the direction to vertical, or `column`. The direction can be specified in CSS like so:
@@ -19,6 +12,13 @@ The default direction for a flex container is horizontal, or `row`, <span id='fl
   flex-direction: column;
 }
 ```
+
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- You'll learn about the 2 "axes" of a flex container.
+- You'll learn how to change those axes to arrange your content in columns instead of rows.
 
 ### Axes
 
@@ -44,20 +44,19 @@ We've strayed from the point slightly... We were talking about flex-direction an
 
 > There are situations where the behavior of flex-direction could change if you are using a language that is written top-to-bottom or right-to-left, but you should save worrying about that until you are ready to start making a website in Arabic or Hebrew.
 
-
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
--   [How do you make flex items arrange themselves vertically instead of horizontally?](#flex-vertical)
--   [In a `column` flex-container, what does `flex-basis` refer to?](#column-flex-basis)
--   [In a `row` flex-container, what does `flex-basis` refer to?](#row-flex-basis)
--   [Why do the previous two questions have different answers?](#flex-axes)
+- [How do you make flex items arrange themselves vertically instead of horizontally?](#flex-vertical)
+- [In a `column` flex-container, what does `flex-basis` refer to?](#column-flex-basis)
+- [In a `row` flex-container, what does `flex-basis` refer to?](#row-flex-basis)
+- [Why do the previous two questions have different answers?](#flex-axes)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-*   [This flexbox visual cheatsheet](https://flexbox.malven.co/) has some useful references to flex and its properties.
+- This [flexbox visual cheatsheet](https://flexbox.malven.co/) has some useful references to flex and its properties.
 
-* For an interactive demo, check out this [Scrim on Flexbox axes](https://scrimba.com/learn/flexbox/main-axis-and-cross-axis-flexbox-tutorial-cz94MT8). Note that this Scrim requires logging into Scrimba in order to view.
+- For an interactive demo, check out this [Scrim on Flexbox axes](https://scrimba.com/learn/flexbox/main-axis-and-cross-axis-flexbox-tutorial-cz94MT8). Note that this Scrim requires logging into Scrimba in order to view.
