@@ -1,5 +1,5 @@
-import { data } from "./api";
-import { Line } from "./line";
+const { data } = require("./api");
+const { Line } = require("./line");
 
 // Add blank lines above and below lists
 function blankLinesLists(lines) {
@@ -37,4 +37,4 @@ function blankLinesLists(lines) {
   return newLines;
 }
 
-export { blankLinesLists };
+module.exports = { blankLinesLists };

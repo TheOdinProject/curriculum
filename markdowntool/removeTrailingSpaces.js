@@ -5,4 +5,4 @@ function removeTrailingSpaces(lines) {
   return lines;
 }
 
-export default { removeTrailingSpaces };
+module.exports = { removeTrailingSpaces };

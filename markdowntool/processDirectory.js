@@ -1,5 +1,5 @@
-import fs from "fs/promises";
-import path from "path";
+const fs = require("fs/promises");
+const path = require("path");
 
 async function processDirectory(directoryPath) {
   const entries = await fs.readdir(directoryPath, { withFileTypes: true });
@@ -13,4 +13,4 @@ async function processDirectory(directoryPath) {
   }
 }
 
-export { processDirectory };
+module.exports = { processDirectory };

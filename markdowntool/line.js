@@ -4,4 +4,4 @@ class Line {
   }
 }
 
-export { Line };
+module.exports = { Line };

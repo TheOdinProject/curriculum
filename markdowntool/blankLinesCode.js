@@ -1,5 +1,5 @@
-import { Line } from "./line";
-import { data } from "./api";
+const { Line } = require("./line");
+const { data } = require("./api");
 
 // Add blank lines above and below code blocks
 function blankLinesCode(lines) {
@@ -22,4 +22,4 @@ function blankLinesCode(lines) {
   return lines;
 }
 
-export { blankLinesCode };
+module.exports = { blankLinesCode };

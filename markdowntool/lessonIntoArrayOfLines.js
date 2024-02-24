@@ -1,5 +1,5 @@
-import { Line } from "./line";
-import fs from "fs/promises";
+const { Line } = require("./line");
+const fs = require("fs/promises");
 
 async function lessonIntoArrayOfLines(lesson) {
   try {
@@ -10,4 +10,4 @@ async function lessonIntoArrayOfLines(lesson) {
   }
 }
 
-export { lessonIntoArrayOfLines };
+module.exports = { lessonIntoArrayOfLines };

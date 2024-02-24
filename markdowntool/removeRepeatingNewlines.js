@@ -8,4 +8,4 @@ function removeRepeatingNewlines(lines) {
   });
 }
 
-export { removeRepeatingNewlines };
+module.exports = { removeRepeatingNewlines };

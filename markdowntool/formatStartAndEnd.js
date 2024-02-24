@@ -1,4 +1,4 @@
-import { Line } from "./line";
+const { Line } = require("./line");
 
 function formatStartAndEnd(lines) {
   while (lines[0].content.trim().length === 0) {
@@ -11,4 +11,4 @@ function formatStartAndEnd(lines) {
   return lines;
 }
 
-export { formatStartAndEnd };
+module.exports = { formatStartAndEnd };

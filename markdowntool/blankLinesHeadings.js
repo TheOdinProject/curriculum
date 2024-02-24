@@ -1,5 +1,5 @@
-import { data } from "./api";
-import { Line } from "./line";
+const { data } = require("./api");
+const { Line } = require("./line");
 
 // Insert blank lines before and after: h3, h4, h5 headings.
 function blankLinesHeadings(lines) {
@@ -23,4 +23,4 @@ function blankLinesHeadings(lines) {
   return lines;
 }
 
-export { blankLinesHeadings };
+module.exports = { blankLinesHeadings };

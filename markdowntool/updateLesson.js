@@ -1,5 +1,5 @@
-import fs from "fs/promises";
-import path from "path";
+const fs = require("fs/promises");
+const path = require("path");
 
 function updateLesson(lesson, updatedContent) {
   const newContent = updatedContent.map((line) => line.content);
@@ -15,4 +15,4 @@ function getLesson(pathToLesson) {
   return file;
 }
 
-export { getLesson, updateLesson };
+module.exports = { getLesson, updateLesson };

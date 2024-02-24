@@ -10,4 +10,4 @@ function correctUnorderedList(lines) {
   return lines;
 }
 
-export { correctUnorderedList };
+module.exports = { correctUnorderedList };

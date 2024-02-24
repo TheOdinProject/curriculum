@@ -1,5 +1,5 @@
-import { data } from "./api";
-import { Line } from "./line";
+const { data } = require("./api");
+const { Line } = require("./line");
 
 function sectionsDefaultContent(lines) {
   Object.entries(data.defaultContent).forEach(([title, description]) => {
@@ -24,4 +24,4 @@ function sectionsDefaultContent(lines) {
   return lines;
 }
 
-export { sectionsDefaultContent };
+module.exports = { sectionsDefaultContent };

@@ -1,15 +1,15 @@
-import { blankLinesCode } from "./blankLinesCode";
-import { blankLinesHeadings } from "./blankLinesHeadings";
-import { blankLinesLists } from "./blankLinesLists";
-import { correctCodeBlocks } from "./correctCodeBlocks";
-import { correctOrderedList } from "./correctOrderedList";
-import { correctUnorderedList } from "./correctUnorderedList";
-import { sectionsDefaultContent } from "./defaultSectionContent";
-import { formatStartAndEnd } from "./formatStartAndEnd";
-import { lessonIntoArrayOfLines } from "./lessonIntoArrayOfLines";
-import { removeRepeatingNewlines } from "./removeRepeatingNewlines";
-import removeTrailingSpaces from "./removeTrailingSpaces";
-import { getLesson, updateLesson } from "./updateLesson";
+const { blankLinesCode } = require("./blankLinesCode");
+const { blankLinesHeadings } = require("./blankLinesHeadings");
+const { blankLinesLists } = require("./blankLinesLists");
+const { correctCodeBlocks } = require("./correctCodeBlocks");
+const { correctOrderedList } = require("./correctOrderedList");
+const { correctUnorderedList } = require("./correctUnorderedList");
+const { sectionsDefaultContent } = require("./defaultSectionContent");
+const { formatStartAndEnd } = require("./formatStartAndEnd");
+const { lessonIntoArrayOfLines } = require("./lessonIntoArrayOfLines");
+const { removeRepeatingNewlines } = require("./removeRepeatingNewlines");
+const { removeTrailingSpaces } = require("./removeTrailingSpaces");
+const { getLesson, updateLesson } = require("./updateLesson");
 
 async function processLesson(filePath) {
   const lesson = getLesson(filePath);
@@ -28,4 +28,4 @@ async function processLesson(filePath) {
   updateLesson(lesson, lines);
 }
 
-export { processLesson };
+module.exports = { processLesson };

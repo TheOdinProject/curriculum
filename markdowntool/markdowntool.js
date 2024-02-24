@@ -1,4 +1,5 @@
-import path from "path";
+const path = require("path");
+const fs = require("fs").promises;
 const { processLesson } = require("./processLesson");
 const { processDirectory } = require("./processDirectory");
 

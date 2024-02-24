@@ -16,4 +16,4 @@ function correctOrderedList(lines) {
   return lines;
 }
 
-export { correctOrderedList };
+module.exports = { correctOrderedList };

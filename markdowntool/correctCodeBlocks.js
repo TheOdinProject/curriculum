@@ -5,4 +5,4 @@ function correctCodeBlocks(lines) {
   return lines;
 }
 
-export { correctCodeBlocks };
+module.exports = { correctCodeBlocks };
