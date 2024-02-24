@@ -9,7 +9,8 @@ function boldAndItalic(lines) {
     if (
       !line.content.includes("`") &&
       marker &&
-      !line.content.includes("http")
+      !line.content.includes("http") &&
+      !lint.content.includes(`class="lesson-content`)
     ) {
       arrayToExamine.push(line);
     }
