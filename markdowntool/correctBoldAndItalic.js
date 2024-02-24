@@ -4,7 +4,7 @@ function boldAndItalic(lines) {
   let marker = false;
   lines.forEach((line) => {
     if (!marker) {
-      if (!line.includes("`")) {
+      if (!line.content.includes("`")) {
         arrayToExamine.push(line);
       }
     }
