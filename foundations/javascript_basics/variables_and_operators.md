@@ -100,7 +100,7 @@ Try the following exercises (and don't forget to use `console.log()`!):
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Name the three ways to declare a variable](#variable-declaration)
 - [Which of the three variable declarations should you avoid and why?](#avoid-var)
@@ -118,7 +118,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - The differences between `var` and `let` are explained in this JavaScript.info article titled the [old "var"](https://javascript.info/var).
 - This [MDN article on what is JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) explains a bit more about it on a high-level.
