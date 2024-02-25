@@ -6,7 +6,7 @@ function unindentLists(lines) {
     ) {
       const lengthOfLine = line.content.length;
       const lengthOfTrimmedLine = line.content.trimStart().length;
-      if (lengthOfLine - lengthOfTrimmedLine <= 2) {
+      if (lengthOfLine - lengthOfTrimmedLine === 1) {
         line.content = line.content.trimStart();
       }
     }
