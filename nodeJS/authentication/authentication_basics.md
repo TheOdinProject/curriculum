@@ -8,17 +8,12 @@ We're going to be building a very minimal express app that will allow users to s
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-#### PassportJS
-
-- Understand the use order for the required middleware.
-- Describe what Strategies are.
+- Understand the use order for the required middleware for PassportJS.
+- Describe what PassportJS Strategies are.
 - Use the LocalStrategy to authenticate users.
 - Explain the purpose of cookies in authentication.
 - Review prior learning material (routes, templates, middleware, async/await, and promises).
 - Use PassportJS to set up user authentication with Express.
-
-#### Data security/safety
-
 - Describe what bcrypt is and its use.
 - Describe what a hash is and explain the importance of password hashing.
 - Describe bcrypt's `compare` function.
@@ -351,7 +346,7 @@ You should now be able to log in using the new user you've created (the one with
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Which passportJS strategy did we use in the lesson?](#strategy)
 - [Why does passportJS create a cookie?](#cookie)
@@ -360,7 +355,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - If you like video content, watch this [Youtube Playlist](https://www.youtube.com/playlist?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK). You just need to watch the first 6 videos.
 - This video provides a broad overview of some of the [different methods to store passwords in databases and possible risks](https://www.youtube.com/watch?v=8ZtInClXe1Q).
