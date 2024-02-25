@@ -2,7 +2,7 @@
 
 You've learned how to build some cool stuff already and, frankly, you could probably make some decent websites without a crazy amount of additional formal education. However, just because you can write English at a grade school level doesn't mean you will be editing the New York Times anytime soon.
 
-In the world of programming, there's a difference between solving a problem the brute force way and solving a problem WELL. We touched on the first layer of this when we covered basic object-oriented programming and how you should break apart your code into well-organized chunks.
+In the world of programming, there's a difference between solving a problem the brute force way and solving a problem WELL. We touched on the first layer of this when we covered basic object-oriented programming and how you should break apart your code into well-organized chunks.  
 
 If you assume those lessons were all about learning how to write good code, these next few lessons are going to be about training yourself to figure out the best code to write -- the most elegant solution to the problem at hand. It becomes particularly important whenever you start working with large data sets, like when your website becomes highly successful.
 
@@ -20,21 +20,19 @@ This section contains a general overview of topics that you will learn in this l
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-
-1. Watch [Introduction to Algorithms by David Malan](https://www.youtube.com/watch?v=6hfOvs8pY1k) on TedEd to see how to think about algorithms.
-1. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube for a more structured look at solving problems using algorithms.
-1. Read [this Quora answer about the importance of algorithms in web development](https://qr.ae/py3NAc) to get some context for why we're going over this stuff.
-1. Watch [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
-
+  1. Watch [Introduction to Algorithms by David Malan](https://www.youtube.com/watch?v=6hfOvs8pY1k) on TedEd to see how to think about algorithms.
+  2. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube for a more structured look at solving problems using algorithms.
+  3. Read [this Quora answer about the importance of algorithms in web development](https://qr.ae/py3NAc) to get some context for why we're going over this stuff.
+  4. Watch [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
 </div>
 
 ### Knowledge check
 
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8)
-- [What is the importance of algorithms in web development?](https://qr.ae/py3NAc)
-- [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
+* <a class="knowledge-check-link" href="https://youtu.be/e_WfC8HwVB8">What is an Algorithm?</a>
+* <a class="knowledge-check-link" href="https://qr.ae/py3NAc">What is the importance of algorithms in web development?</a>
+* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=Rg-fO7rDsds">What is pseudocode?</a>
 
 ### Additional resources
 

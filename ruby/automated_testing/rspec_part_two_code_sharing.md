@@ -4,9 +4,7 @@ In this lesson we will be exploring some of the tools RSpec provides for sharing
 
 We will once again be working from the `odin_rspec` project we set up in the previous lesson. To get the most out this lesson, please follow along with all the examples.
 
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
+### Learning Outcomes
 
 - What is a before hook and what phase of a test should you use it for?
 - What is an after hook and phase of a test should you use it for?
@@ -23,7 +21,7 @@ Before hooks run **before** the tests are executed. We could put any code we wis
 
 To see this in action, create a new file in the lib directory of your `odin_rspec` project named `user.rb` and paste the following code into it:
 
-```ruby
+~~~ruby
 # lib/user.rb
 
 class User
@@ -39,11 +37,11 @@ class User
     age >= 65
   end
 end
-```
+~~~
 
 Next, create a test file for the user class in the spec directory named `user_spec.rb` and write the following tests for the `User` class to exercise the name, email and age attributes:
 
-```ruby
+~~~ruby
 # spec/user_spec.rb
 
 require "spec_helper"
@@ -76,7 +74,7 @@ RSpec.describe User do
   end
 
 end
-```
+~~~
 
 Run the tests to make sure everything is wired together correctly. We can run just the tests for this user class by passing the test file name to the `rspec` command: `$rspec spec/user_spec.rb` .
 
@@ -86,7 +84,7 @@ To reduce this duplication, we could instead use a before hook to execute the ar
 
 In our case, we can include a before hook that will create a new `User` instance and assign that instance to a `@user` instance variable that we can use in each of our tests:
 
-```ruby
+~~~ruby
 # spec/user_spec.rb
 
 require "spec_helper"
@@ -117,18 +115,18 @@ RSpec.describe User do
   end
 
 end
-```
+~~~
 
 By default, before hooks run *before* each test in the same example group. We can see this a bit more clearly by including a puts statement in our before hook:
 
-```ruby
+~~~ruby
 # spec/user_spec.rb
 
 before do
   puts "running the before hook"
   @user = User.new("David", "david@example.com", 30)
 end
-```
+~~~
 
 Now, when we run our tests again we should see "running the before hook" printed to the screen three times, once for each of our tests.
 
@@ -136,14 +134,14 @@ Alternatively, we can pass an `:all` argument to the before method. This will ma
 
 Change the before hook to the following and run the tests. The puts statement will only print once in the terminal, proving the before block was only executed once.
 
-```ruby
+~~~ruby
 # spec/user_spec.rb
 
 before(:all) do
   puts "running the before hook"
   @user = User.new("David", "david@example.com", 30)
 end
-```
+~~~
 
 However, it is a good rule of thumb to avoid using the `:all` argument and stick to the default before hook behaviour of running before each individual test.
 
@@ -157,7 +155,7 @@ Using the counter example we used to demonstrate the teardown phase in the previ
 
 We will also move the arrange phase code of creating the count into a before hook and assign it to an instance variable to show both hooks working together:
 
-```ruby
+~~~ruby
 
 # spec/counter_spec.rb
 
@@ -191,7 +189,7 @@ RSpec.describe Counter do
   end
 
 end
-```
+~~~
 
 Run the counter tests with `$ rspec spec/counter_spec.rb` to make sure everything is still working.
 
@@ -207,7 +205,7 @@ Thankfully RSpec provides a more idiomatic and safer way of creating variables t
 
 Returning to the user example we used to demonstrate before hooks earlier. Instead of using instance variables we could instead use a `let` variable. Remove the before block and create a let variable just under the top level example group. Also rename the instance variables in the tests from `@user` to just `user` :
 
-```ruby
+~~~ruby
 # spec/user_spec.rb
 
 require "spec_helper"
@@ -235,7 +233,7 @@ RSpec.describe User do
   end
 
 end
-```
+~~~
 
 Make sure everything is still passing by running the user tests with `$ rspec spec/user_spec.rb`.
 
@@ -255,7 +253,7 @@ Because this is such a common pattern, RSpec provides an even more specialised m
 
 Refactoring the previous user example to use a `subject` instead of a `let` variable is incredibly easy. We just replace the `let` method call with `subject`:
 
-```ruby
+~~~ruby
 # spec/user_spec.rb
 
 require "spec_helper"
@@ -266,7 +264,7 @@ RSpec.describe User do
 
   # omitted for brevity...
 end
-```
+~~~
 
 If we run our tests after making this change, they should all still  pass.
 
@@ -276,7 +274,7 @@ However there are some subtle differences. The name argument is optional, we cou
 
 Using a named subject makes our tests much more readable and is considered the best practice way of using subjects. The contrast between these two approaches is shown below:
 
-```ruby
+~~~ruby
 # Using an unnamed subject
 describe "age" do
   subject { User.new("David", "david@example.com", 30) }
@@ -294,7 +292,7 @@ describe "age" do
     expect(user.age).to eq(30)
   end
 end
-```
+~~~
 
 The main difference between subject and let is what they mean to the human reader.
 
@@ -310,7 +308,7 @@ One common use case is using let variables for the arguments we pass to the inst
 
 Back in our user tests, lets extract all the arguments we are passing into [`User.new`](http://user.new) in the subject out into let variables:
 
-```ruby
+~~~ruby
 # spec/user_spec.rb
 
 require "spec_helper"
@@ -326,7 +324,7 @@ RSpec.describe User do
 	# omitted for brevity...
 
 end
-```
+~~~
 
 Run the user tests with `$ rspec spec/user_spec.rb` and they should all still be passing.
 
@@ -336,23 +334,23 @@ But a far more interesting reason for making this refactor is that it allows us 
 
 An example is the best way of getting a clear understanding of this, we are going to write a test for the previously untested `retired?` method on the user class. As a reminder this is what that method looks like:
 
-```ruby
+~~~ruby
 # lib/user.rb
 
 def retired?
   age >= 65
 end
-```
+~~~
 
 There are 3 possible paths we need to cover with test cases:
 
 1. When the users age is less than 65
-1. When the users age is equal to 65
-1. When the users age is greater than 65
+2. When the users age is equal to 65
+3. When the users age is greater than 65
 
 To write these test cases, we are going to introduce a new piece of RSpec syntax. The `context` method:
 
-```ruby
+~~~ruby
 # spec/user_spec.rb
 
 require "spec_helper"
@@ -385,7 +383,7 @@ RSpec.describe User do
   end
 
 end
-```
+~~~
 
 The `context` method is just an alias for the `describe` method we have already gotten very familiar with. Meaning, both methods function the exact same and can be used interchangeably.  However they differ in what they represent to the human reader.
 
@@ -395,7 +393,7 @@ In other words, It gives *context* about certain conditions in our test so we ca
 
 Fill in the expectations for each of the test cases:
 
-```ruby
+~~~ruby
 # spec/user_spec.rb
 
 require "spec_helper"
@@ -431,11 +429,11 @@ RSpec.describe User do
   end
 
 end
-```
+~~~
 
 If we run our tests now with `$ rspec spec/user_spec.rb` we will get two failures:
 
-```bash
+~~~bash
 Failures:
 
   1) User retired? when the user is 65 returns true
@@ -451,13 +449,13 @@ Failures:
        expected true
             got false
      # ./spec/user_spec.rb:38:in `block (4 levels) in <top (required)>'
-```
+~~~
 
 This is because we are defaulting the users age to 30 in the age let variable defined in the top example group `let(:age) { 30 }` . Therefore only the test case for the user being younger than 65 is passing at the moment.
 
 However, we can override the age let variable in our contexts to create the correct conditions that will allow our failing tests to pass:
 
-```ruby
+~~~ruby
 # spec/user_spec.rb
 
 require "spec_helper"
@@ -497,7 +495,7 @@ RSpec.describe User do
   end
 
 end
-```
+~~~
 
 If we run our tests now everything will be passing 🎉
 
@@ -516,17 +514,13 @@ However, it is easy to overuse them and end up with test files that the reader w
 These code sharing tools are best only when they improve the overall readability and clarity of your tests. Most of the time, it is best for clarity sake to have the arrange and teardown code in the test block that uses it. Much like we did with the original todo list example.
 
 ### Assignment
-
 <div class="lesson-content__panel" markdown="1">
-
 1. TODO: Hook exercises in the testing repo
 1. TODO: Subject exercises in the testing repo
 1. TODO: Let exercises in the testing repo
-
 </div>
 
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [https://mixandgo.com/learn/let-vs-instance-variables-in-rspec](https://mixandgo.com/learn/let-vs-instance-variables-in-rspec)
