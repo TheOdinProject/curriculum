@@ -11,39 +11,22 @@ function sectionsDefaultContent(lines) {
         line.content = '### '.concat(title);
       }
       if (line.content === '### '.concat(title)) {
+        console.log('WAS: ', JSON.stringify(line.content));
         if (
           lines[index + 2].content.trim().startsWith("-") ||
           lines[index + 2].content.trim().startsWith("1")
-        ) {
-          lines.splice(index, 0, new Line());
-          lines.splice(index, 0, new Line());
-          lines[index + 2].content = description;
-        }
+          ) {
+            lines.splice(index, 0, new Line());
+            lines.splice(index, 0, new Line());
+            lines[index + 2].content = description;
+            lines[index].content = "### ".concat(title);
+          }
+        console.log('NOW: ', JSON.stringify(line.content));
         if (lines[index + 2].content !== description) {
           lines[index + 2].content = description;
           lines.splice(index + 3, 0, new Line());
         } 
       }
-      // if (
-      //   line.content.toLowerCase().includes("### ".concat(title.toLowerCase()))
-      // ) {
-      //   console.log(line.content);
-      //   if (
-      //     lines[index + 2].content.trim().startsWith("-") ||
-      //     lines[index + 2].content.trim().startsWith("1")
-      //   ) {
-      //     lines.splice(index, 0, new Line());
-      //     lines.splice(index, 0, new Line());
-      //     lines[index + 2].content = description;
-      //     lines[index].content = "### ".concat(title);
-      //   }
-      //   if (lines[index + 2].content !== description) {
-      //     lines[index + 2].content = description;
-      //     lines.splice(index + 3, 0, new Line());
-      //   }
-      // }
-
-
 
     });
   });
