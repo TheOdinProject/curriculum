@@ -1,5 +1,3 @@
-// If you want to customize the tool, you can do so here
-
 const legacyData = {
   codeBlock: "~~~",
   unorderedListFormat: ["*", " "],
