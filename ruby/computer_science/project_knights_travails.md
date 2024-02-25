@@ -11,7 +11,6 @@ All the possible places you can end up after one move look like this:
 ![Knights Travails board](https://cdn.statically.io/gh/TheOdinProject/curriculum/d30038e0aaca1f35e58e205e37a21b2c9d31053d/ruby/computer_science/project_knights_travails/imgs/01.png)
 
 ### Assignment
-
 Your task is to build a function `knight_moves` that shows the shortest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
 
 You can think of the board as having 2-dimensional coordinates.  Your function would therefore look like:
@@ -19,20 +18,18 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 - `knight_moves([0,0],[1,2]) == [[0,0],[1,2]]`
 
 <div class="lesson-note" markdown="1">
-Sometimes *there is more than one fastest path*. Examples of this are shown below. Any answer is correct as long as it follows the rules and gives the shortest possible path.
+Sometimes _there is more than one fastest path_. Examples of this are shown below. Any answer is correct as long as it follows the rules and gives the shortest possible path.
 
 - `knight_moves([0,0],[3,3]) == [[0,0],[2,1],[3,3]]` or `knight_moves([0,0],[3,3]) == [[0,0],[1,2],[3,3]]`
 - `knight_moves([3,3],[0,0]) == [[3,3],[2,1],[0,0]]` or `knight_moves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]`
 - `knight_moves([0,0],[7,7]) == [[0,0],[2,1],[4,2],[6,3],[4,4],[6,5],[7,7]]` or `knight_moves([0,0],[7,7]) == [[0,0],[2,1],[4,2],[6,3],[7,5],[5,6],[7,7]]`
-
 </div>
 
 <div class="lesson-content__panel" markdown="1">
-
 1. Think about the rules of the board and knight, make sure to follow them.
-1. For every square there is a number of possible moves, choose a data structure that will allow you to work with them .  Don't allow any moves to go off the board.
-1. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
-1. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
+2. For every square there is a number of possible moves, choose a data structure that will allow you to work with them .  Don't allow any moves to go off the board.
+3. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
+4. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
 
 ```bash
   > knight_moves([3,3],[4,3])
@@ -42,5 +39,4 @@ Sometimes *there is more than one fastest path*. Examples of this are shown belo
     [2,4]
     [4,3]
 ```
-
 </div>

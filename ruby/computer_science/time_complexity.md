@@ -48,14 +48,14 @@ Let's go back to our `odd_numbers_less_than_ten method`. How many steps does our
 
 1. We assign the number 1 to a variable. That's one step.
 
-1. We have a loop. For each iteration of the loop, we do the following:
+2. We have a loop. For each iteration of the loop, we do the following:
 
     1. Compare `current_number` to see if it is less than 10. That is 1 step.
-    1. We then check if current*number is odd. That is 1 step.
-    1. If it is then we output it to the terminal. That's 1 step every 2 iterations.
-    1. We increase `current_number` by 1. That is 1 step.
+    2. We then check if current_number is odd. That is 1 step.
+    3. If it is then we output it to the terminal. That's 1 step every 2 iterations.
+    4. We increase `current_number` by 1. That is 1 step.
 
-1. To exit the loop, we need to compare `current_number` one last time to see that it is not less than ten any more. That is one last step.
+3. To exit the loop, we need to compare `current_number` one last time to see that it is not less than ten any more. That is one last step.
 
 So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `current_number` and checking the exit condition of the loop is one step each. 27 + 5 + 1 + 1 = 34 steps.
 
@@ -219,7 +219,7 @@ You want to avoid this if at all possible, otherwise you won't be processing muc
 
 #### O(N!) - factorial complexity
 
-A factorial is the product of the sequence of *n* integers. For example, the factorial of 4 (written as 4!) is 4 * 3 * 2 * 1.
+A factorial is the product of the sequence of _n_ integers. For example, the factorial of 4 (written as 4!) is 4 * 3 * 2 * 1.
 
 You will come across Factorial Complexity if you ever need to calculate permutations or combinations. If you have an array and have to work out all the combinations you can make from the array, that is a Factorial complexity. It's manageable for a small number of items, but the leap with each new item in a dataset can be huge.
 
@@ -308,14 +308,14 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 <div class="lesson-content__panel" markdown="1">
 
 1.  Read through [A Rubyists Guide to Big-O Notation](https://www.honeybadger.io/blog/a-rubyist-s-guide-to-big-o-notation/). The last section talks about how this applies to database queries in a web app, which you won't have covered yet, but it's something to keep in mind as you move forward into the Rails materials.
-1.  The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
-1.  This [Guide to Time Complexity for Ruby Developers](https://www.rubyguides.com/2018/03/time-complexity-for-ruby-developers/) gives some more insight into applying a Big-O notation to your own code.
+2.  The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
+3.  This [Guide to Time Complexity for Ruby Developers](https://www.rubyguides.com/2018/03/time-complexity-for-ruby-developers/) gives some more insight into applying a Big-O notation to your own code.
 
 </div>
 
 ### Knowledge check
 
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - [What is Big O?](#what-is-big-o)
 - [What are the Big O Notations?](#big-o-notation)
@@ -324,8 +324,8 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 1.  It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
 
-1. In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.
+2. In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.
