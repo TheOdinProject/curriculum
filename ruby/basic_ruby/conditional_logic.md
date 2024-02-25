@@ -1,4 +1,5 @@
 ### Introduction
+
 This lesson is all about controlling the flow of your code. When you have some code that you only want to execute under specific conditions, you will need a way for the computer to check whether those conditions have been met. Conditional logic can be found everywhere in everyday life. Ever had to tidy your room before being allowed to play video games? That's your mother setting up a nice conditional statement that might look like this in a computer program...
 
 ```ruby
@@ -26,9 +27,11 @@ This section contains a general overview of topics that you will learn in this l
 - Explain what a `case` statement is and how it works.
 
 ### Truthy and falsy in Ruby
+
 You already know that conditional statements check expressions for a true or false value, so it follows that you need to understand what Ruby considers to be true or false. In typical Ruby fashion, it's very simple. The only false values in Ruby are the values `nil` and `false` themselves. That's it! Everything else is considered true. Even the string `"false"` is true in conditional expressions! If you have experience with other programming languages, you might be familiar with the number 0 or an empty string ("") being equivalent to false. This isn't the case with Ruby, so be careful when writing those expressions, or you'll have more bugs than a decomposing body.
 
 ### Basic conditional statement
+
 The simplest way to control the flow of your code using conditionals is with the `if` statement.
 
 The general syntax of an `if` statement is shown here:
@@ -55,6 +58,7 @@ You don't even need the `end` statement. Nice and concise!
 The statement to be evaluated can be anything that returns true or false. It could be a mathematical expression, a variable value, or a call to a method. Only if the expression evaluates to true does the code inside the block run.
 
 ### Adding else and elsif
+
 We often want to check a condition and run some code if it's true but then run some other code if it's false. This is done with an `if...else` statement.
 
 ```ruby
@@ -84,6 +88,7 @@ Ain't nobody pillaging our land!
 You can have as many `elsif` expressions as you want. The `else` clause is optional, but you usually want to provide some default value in case none of the previous expressions evaluate to `true`.
 
 ### Boolean logic
+
 To determine whether an expression evaluates to `true` or `false`, you'll need a comparison operator. There are several provided by Ruby:
 
 `==` (equals) returns `true` if the values compared are equal.
@@ -172,6 +177,7 @@ The spaceship operator is most commonly used in sorting functions, which we'll c
 All of the above operators also work on data types other than numbers, such as strings. Why not play around with this in a REPL?
 
 ### Logical operators
+
 Sometimes you'll want to write an expression that contains more than one condition. In Ruby, this is accomplished with logical operators, which are `&&` (and), `||` (or) and `!` (not).
 
 There are some differences between the word versions and their symbolic equivalents, particularly in the way they evaluate code. We recommend you read [this article](https://avdi.codes/how-to-use-rubys-english-andor-operators-without-going-nuts/) that explains the differences.
@@ -217,10 +223,10 @@ if !(10 < 5)  #=> true
 ```
 
 ### Case statements
+
 Case statements are a neat way of writing several conditional expressions that would normally result in a messy `if...elsif` statement. You can even assign the return value from a case statement to a variable for use later.
 
 Case statements process each condition in turn, and if the condition returns `false`, it will move onto the next one until a match is found. An `else` clause can be provided to serve as a default if no match is found.
-
 
 ```ruby
 grade = 'F'
@@ -253,6 +259,7 @@ end
 ```
 
 ### Unless statements
+
 An `unless` statement works in the opposite way as an `if` statement: it only processes the code in the block if the expression evaluates to `false`. There isn't much more to it.
 
 ```ruby
@@ -278,6 +285,7 @@ end
 You should use an `unless` statement when you want to **not** do something if a condition is `true`, because it can make your code more readable than using `if !true`.
 
 ### Ternary operator
+
 The ternary operator is a one-line `if...else` statement that can make your code much more concise.
 
 Its syntax is `conditional statement ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable.
@@ -306,30 +314,33 @@ puts response #=> "You're all grown up."
 However, if your conditional statements are complicated, then using an `if...else` statement can help to make your code more readable. Remember, **above all else, your code needs to be readable and understandable by other people**, especially in the development stage. You can always optimize your code for efficiency once it's finished and you're moving to a production environment where speed matters.
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 
 1. For more depth, read the [Flow Control](https://launchschool.com/books/ruby/read/flow_control#conditionals) chapter from LaunchSchool's *Introduction to Programming With Ruby*.
-2. For an overview of flow control, read through this [Ruby Explained: Conditionals and Flow Control](https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control) article.
+1. For an overview of flow control, read through this [Ruby Explained: Conditionals and Flow Control](https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control) article.
+
 </div>
 
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-  * <a class="knowledge-check-link" href="#boolean-logic">What is a Boolean?</a>
-  * <a class="knowledge-check-link" href="#truthy-and-falsy-in-ruby">What are "truthy" values?</a>
-  * <a class="knowledge-check-link" href="#truthy-and-falsy-in-ruby">Are the following considered true or false: `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1`?</a>
-  * <a class="knowledge-check-link" href="#adding-else-and-elsif">When do you use `elsif`?</a>
-  * <a class="knowledge-check-link" href="#unless-statements">When do you use `unless`?</a>
-  * <a class="knowledge-check-link" href="#logical-operators">What do `||` and `&&` and `!` do?</a>
-  * <a class="knowledge-check-link" href="#logical-operators">What is short circuit evaluation?</a>
-  * <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control">What is returned by `puts("woah") || true`?</a>
-  * <a class="knowledge-check-link" href="#ternary-operator">What is the ternary operator?</a>
-  * <a class="knowledge-check-link" href="#case-statements">When should you use a case statement? </a>
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+  - [What is a Boolean?](#boolean-logic)
+  - [What are "truthy" values?](#truthy-and-falsy-in-ruby)
+  - [Are the following considered true or false: `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1`?](#truthy-and-falsy-in-ruby)
+  - [When do you use `elsif`?](#adding-else-and-elsif)
+  - [When do you use `unless`?](#unless-statements)
+  - [What do `||` and `&&` and `!` do?](#logical-operators)
+  - [What is short circuit evaluation?](#logical-operators)
+  - [What is returned by `puts("woah") || true`?](https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
+  - [What is the ternary operator?](#ternary-operator)
+  - [When should you use a case statement? ](#case-statements)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
- - For more on the spaceship operator, see [this Stack Overflow post](https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator).
- - For more depth on flow control, read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/).
- - If you want some in-depth practice with these concepts, go through [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/) from [Exercise 27](https://learnrubythehardway.org/book/ex27.html) through Exercise 31.
+- For more on the spaceship operator, see [this Stack Overflow post](https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator).
+- For more depth on flow control, read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/).
+- If you want some in-depth practice with these concepts, go through [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/) from [Exercise 27](https://learnrubythehardway.org/book/ex27.html) through Exercise 31.
