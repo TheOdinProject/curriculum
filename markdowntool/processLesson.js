@@ -10,6 +10,7 @@ const { formatStartAndEnd } = require("./formatStartAndEnd");
 const { lessonIntoArrayOfLines } = require("./lessonIntoArrayOfLines");
 const { removeRepeatingNewlines } = require("./removeRepeatingNewlines");
 const { removeTrailingSpaces } = require("./removeTrailingSpaces");
+const { unindentLists } = require("./unindentLists");
 const { getLesson, updateLesson } = require("./updateLesson");
 
 async function processLesson(filePath) {
@@ -25,6 +26,7 @@ async function processLesson(filePath) {
   lines = sectionsDefaultContent(lines);
   lines = blankLinesLists(lines);
   lines = boldAndItalic(lines);
+  lines = unindentLists(lines);
   lines = removeRepeatingNewlines(lines);
   updateLesson(lesson, lines);
 }
