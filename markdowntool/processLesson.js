@@ -8,6 +8,7 @@ const { correctUnorderedList } = require("./correctUnorderedList");
 const { sectionsDefaultContent } = require("./defaultSectionContent");
 const { formatStartAndEnd } = require("./formatStartAndEnd");
 const { lessonIntoArrayOfLines } = require("./lessonIntoArrayOfLines");
+const { removeKnowledgeHtml } = require("./removeKnowledgeHtml");
 const { removeRepeatingNewlines } = require("./removeRepeatingNewlines");
 const { removeTrailingSpaces } = require("./removeTrailingSpaces");
 const { unindentLists } = require("./unindentLists");
@@ -28,6 +29,7 @@ async function processLesson(filePath) {
   lines = boldAndItalic(lines);
   lines = unindentLists(lines);
   lines = removeRepeatingNewlines(lines);
+  lines = removeKnowledgeHtml(lines);
   updateLesson(lesson, lines);
 }
 
