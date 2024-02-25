@@ -4,7 +4,7 @@ Hopefully, you’ve been having fun developing in Ruby so far. Perhaps one thing
 
 Automated tests are the alternative to manual testing. You've already seen them in action while doing the [Ruby basic exercises](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) earlier in this course. Those exercises tasked you with writing code to make a bunch of existing failing tests pass. Over the next few lessons you will learn how to write those tests yourself and integrate writing them into your workflow.
 
-### Learning Outcomes
+This section contains a general overview of topics that you will learn in this lesson.
 
 - What is automated testing?
 - What is a test suite?
