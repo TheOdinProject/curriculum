@@ -1,4 +1,5 @@
 ### Introduction
+
 To create programs that are user friendly and interactive, you'll need to know how to **output** data to a screen and how to get **input** from a user. In this lesson, we'll cover the most common ways to achieve these tasks in Ruby. As with other lessons, and this one in particular, following along in irb or a REPL will be helpful.
 
 ### Lesson overview
@@ -9,6 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 - Describe the method used to get input from the user.
 
 ### Output commands
+
 To output information, such as into your irb or REPL environment or into the command line, we can use the `print` command. To better show the differences between what Ruby is printing to the terminal and returning, the examples in this lesson use the full irb syntax, which is exactly what you'd see if you typed these commands into your own terminal irb session.
 
 ```ruby
@@ -53,6 +55,7 @@ I love drinking coffee
 ```
 
 ### Input commands
+
 To accept input from a user, we can use the `gets` command. When we use `gets`, program execution will stop and wait for user input. After the user presses <kbd>Enter</kbd>, the program will continue its execution.
 
 Let's give this a go. Open irb, type `gets`, and then type `The Odin Project`. You should see something like the following:
@@ -80,21 +83,24 @@ This is a sentence.
 ```
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 
 1. Read through the [Hello, World](https://www.learnrubyonline.org/en/Hello_World) lesson and exercise from [www.learnrubyonline.org](https://www.learnrubyonline.org).
-2. Read the first four sections of the [Ruby - File I/0](https://www.tutorialspoint.com/ruby/ruby_input_output.htm) from TutorialsPoint on `puts`, `gets`, `putc`, and `print`.
-3. [Read this article from Ruby Guides](https://www.rubyguides.com/2018/10/puts-vs-print/) which describes the differences between `puts`, `print` and `p`.
+1. Read the first four sections of the [Ruby - File I/0](https://www.tutorialspoint.com/ruby/ruby_input_output.htm) from TutorialsPoint on `puts`, `gets`, `putc`, and `print`.
+1. [Read this article from Ruby Guides](https://www.rubyguides.com/2018/10/puts-vs-print/) which describes the differences between `puts`, `print` and `p`.
+
 </div>
 
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href="#output-commands">What are the two methods we can use to output data to the user's screen? </a>
-* <a class="knowledge-check-link" href="#output-commands">What is similar between these two output methods? </a>
-* <a class="knowledge-check-link" href="#output-commands">What is different between these two output methods? </a>
-* <a class="knowledge-check-link" href="#input-commands">What is the method you can use to get input from the user? </a>
-* <a class="knowledge-check-link" href="#input-commands">What is at least one difference between the output and input methods? </a>
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What are the two methods we can use to output data to the user's screen?](#output-commands)
+- [What is similar between these two output methods?](#output-commands)
+- [What is different between these two output methods?](#output-commands)
+- [What is the method you can use to get input from the user?](#input-commands)
+- [What is at least one difference between the output and input methods?](#input-commands)
 
 ### Additional resources
 
