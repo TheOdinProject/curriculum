@@ -11,6 +11,7 @@ const { h3headings } = require("./h3headings");
 const { lessonIntoArrayOfLines } = require("./lessonIntoArrayOfLines");
 const { removeKnowledgeHtml } = require("./removeKnowledgeHtml");
 const { removeRepeatingNewlines } = require("./removeRepeatingNewlines");
+const { removeSpaceAfterListMarker } = require("./removeSpaceAfterListMarker");
 const { removeTrailingSpaces } = require("./removeTrailingSpaces");
 const { unindentLists } = require("./unindentLists");
 const { getLesson, updateLesson } = require("./updateLesson");
@@ -32,6 +33,7 @@ async function processLesson(filePath) {
   lines = removeRepeatingNewlines(lines);
   lines = removeKnowledgeHtml(lines);
   lines = h3headings(lines);
+  lines = removeSpaceAfterListMarker(lines);
   updateLesson(lesson, lines);
 }
 
