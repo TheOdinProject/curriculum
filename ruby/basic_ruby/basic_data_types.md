@@ -76,14 +76,14 @@ As shown in the last example above, when Ruby converts a float to an integer, th
 
 There are many useful methods for numbers built into Ruby. For example,
 
-##### even?
+**#even?**
 
 ```ruby
 6.even? #=> true
 7.even? #=> false
 ```
 
-##### odd?
+**#odd?**
 
 ```ruby
 6.odd? #=> false
@@ -182,13 +182,13 @@ Just remember, strings have loads of methods provided to you for free, and you c
 
 Below is a quick recap of the more common string methods you might find yourself using:
 
-##### capitalize
+**#capitalize**
 
 ```ruby
 "hello".capitalize #=> "Hello"
 ```
 
-##### include?
+**#include?**
 
 ```ruby
 "hello".include?("lo")  #=> true
@@ -202,13 +202,13 @@ Below is a quick recap of the more common string methods you might find yourself
 "hello".upcase  #=> "HELLO"
 ```
 
-##### downcase
+**#downcase**
 
 ```ruby
 "Hello".downcase  #=> "hello"
 ```
 
-##### empty?
+**#empty?**
 
 ```ruby
 "hello".empty?  #=> false
@@ -216,13 +216,13 @@ Below is a quick recap of the more common string methods you might find yourself
 "".empty?       #=> true
 ```
 
-##### length
+**#length**
 
 ```ruby
 "hello".length  #=> 5
 ```
 
-##### reverse
+**#reverse**
 
 ```ruby
 "hello".reverse  #=> "olleh"
@@ -236,7 +236,7 @@ Below is a quick recap of the more common string methods you might find yourself
 "hello".split("")    #=> ["h", "e", "l", "l", "o"]
 ```
 
-##### strip
+**#strip**
 
 ```ruby
 " hello, world   ".strip  #=> "hello, world"
@@ -332,47 +332,40 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - Numbers
-
-  - [What are the basic arithmetic operators you can use on numbers? ](#numbers)
-  - [What's the difference between an integer and a float?](#integers-and-floats)
-  - [What method would you use to convert a float to an integer?](#converting-number-types)
-  - [What method would you use to convert an integer to a float?](#converting-number-types)
+  - <a class="knowledge-check-link" href="#numbers">What are the basic arithmetic operators you can use on numbers? </a>
+  - <a class="knowledge-check-link" href="#integers-and-floats">What's the difference between an integer and a float?</a>
+  - <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert a float to an integer?</a>
+  - <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert an integer to a float?</a>
 
 - Strings
-
-  - [What is a string?](#strings)
-  - [What are the differences between single and double quotes?](#double-and-single-quotation-marks)
-  - [What is string interpolation?](#interpolation)
-  - [How do you concatenate strings?](#concatenation)
-  - [What method would you use to change all the characters in your string to upper case?](#upcase)
-  - [What method would you use to split up strings into arrays?](#split)
-  - [What are escape characters?](#escape-characters)
-  - [How do you access a specific character or substring?](#substrings)
-  - [How do you convert other data types into strings?](#converting-other-objects-to-strings)
+  - <a class="knowledge-check-link" href="#strings">What is a string?</a>
+  - <a class="knowledge-check-link" href="#double-and-single-quotation-marks">What are the differences between single and double quotes?</a>
+  - <a class="knowledge-check-link" href="#interpolation">What is string interpolation?</a>
+  - <a class="knowledge-check-link" href="#concatenation">How do you concatenate strings?</a>
+  - <a class="knowledge-check-link" href="#upcase">What method would you use to change all the characters in your string to upper case?</a>
+  - <a class="knowledge-check-link" href="#split">What method would you use to split up strings into arrays?</a>
+  - <a class="knowledge-check-link" href="#escape-characters">What are escape characters?</a>
+  - <a class="knowledge-check-link" href="#substrings">How do you access a specific character or substring?</a>
+  - <a class="knowledge-check-link" href="#converting-other-objects-to-strings">How do you convert other data types into strings?</a>
 
 - Symbols
-
-  - [What is a symbol?](#symbols)
-  - [How do you create a symbol?](#create-a-symbol)
-  - [What's the difference between a symbol and a string?](#symbols-vs-strings)
+  - <a class="knowledge-check-link" href="#symbols">What is a symbol?</a>
+  - <a class="knowledge-check-link" href="#create-a-symbol">How do you create a symbol?</a>
+  - <a class="knowledge-check-link" href="#symbols-vs-strings">What's the difference between a symbol and a string?</a>
 
 - Booleans
-
-  - [What does `true` represent?](#true-and-false)
-  - [What does `false` represent?](#true-and-false)
-  - [What does `nil` represent?](#nil)
+  - <a class="knowledge-check-link" href="#true-and-false">What does `true` represent?</a>
+  - <a class="knowledge-check-link" href="#true-and-false">What does `false` represent?</a>
+  - <a class="knowledge-check-link" href="#nil">What does `nil` represent?</a>
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - If you want to go deeper into Ruby's numbers and string data types, read these chapters from the *Bastards Book of Ruby*:
-
   - [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
   - [Strings](http://ruby.bastardsbook.com/chapters/strings/)
-
 - Read through these Ruby Monstas sections about data types:
-
   - [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
   - [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
   - [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)

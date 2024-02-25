@@ -1,5 +1,4 @@
 ### Introduction
-
 Tracking down and fixing both errors and unexpected behavior in your code is an inevitable part of being a developer. The art of finding the cause of problems and then fixing them in code is known as **debugging**. The [origin of the term](https://en.wikipedia.org/wiki/Debugging#Etymology) is a classic computer science tale worth reading if you haven't already.
 
 In this lesson, we'll cover all of the main techniques you can use to debug your code when you run into a problem.
@@ -8,13 +7,12 @@ In this lesson, we'll cover all of the main techniques you can use to debug your
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Describe what a stack trace is.
-- Explain how you can use a stack trace to debug your code.
-- Explain how you can use `puts` and Pry to debug your code.
-- Explain how you should decide to start with debugging.
+ - Describe what a stack trace is.
+ - Explain how you can use a stack trace to debug your code.
+ - Explain how you can use `puts` and Pry to debug your code.
+ - Explain how you should decide to start with debugging.
 
 ### Reading the stack trace
-
 When your Ruby program crashes after encountering a runtime error or exception, it will produce a wall of text known as a **stack trace** that is then output in your terminal. A stack trace looks something like this:
 
 ![Sample stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/00.png)
@@ -32,7 +30,6 @@ There you have it. At this point, you know where in your code the exception is b
 But what if you don't know how to fix your code? Then it's time to dive into debugging!
 
 ### Debugging with puts
-
 The debugging process is all about confirming assumptions about your code until you find something that goes against your assumptions. For example, does a variable or method return what you expect? Does a calculation or iteration over an array or hash give the output you expect?
 
 The easiest and quickest way to confirm your assumptions while debugging is by using `puts` statements to output the return value of variables, methods, calculations, iterations, or even entire lines of code to your terminal.
@@ -99,7 +96,6 @@ Indeed, we didn't use `#split` correctly, as this particular creates an array wi
 Hostage situation resolved! That wasn't so bad, was it?
 
 #### Debugging with `puts` and `nil`
-
 Using `puts` is a great way to debug, but there's a **HUGE** caveat with using it: calling `puts` on anything that is `nil` or an empty string or collection will just print a blank line to your terminal.
 
 This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of `puts` and [#inspect](https://docs.ruby-lang.org/en/3.2/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:
@@ -112,7 +108,6 @@ p []
 ```
 
 ### Debugging with Pry-byebug
-
 [Pry](https://github.com/pry/pry) is a Ruby gem that provides you with an interactive [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) while your program is running. The REPL provided by Pry is very similar to IRB but has added functionality. The recommended Ruby gem for debugging is [Pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) and it includes Pry as a dependency. Pry-byebug adds step-by-step debugging and stack navigation.
 
 To use Pry-byebug, you'll first need to install it in your terminal by running `gem install pry-byebug`. You can then make it available in your program by requiring it at the top of your file with `require 'pry-byebug'`. Finally, to use Pry-byebug, you just need to call `binding.pry` at any point in your program.
@@ -192,40 +187,36 @@ As you can see, using Pry-byebug for debugging achieves the same outcome as `put
 There is far, far more that you can do with Pry-byebug, but that's beyond the scope of this lesson. Check out the Assignments and Additional Resources to find out where you can learn more about this useful gem.
 
 ### How to start debugging
-
 Programs generally go wrong due to two main reasons:
 
 1. The program encounters an error and won't run. For example, a typo may cause a syntax error to be raised that causes the program to crash. In this case, Ruby provides a stack trace.
 
-1. The program runs but does not work the way you expect. For example, you expect a method to return a `2`, but it actually returns `6` when you run it. In this case, there is no stack trace.
+2. The program runs but does not work the way you expect. For example, you expect a method to return a `2`, but it actually returns `6` when you run it. In this case, there is no stack trace.
 
 Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace is the first place you should look when debugging.</span> <span id='debugging-without-stack-trace'>If there's no stack trace, then `puts` and Pry are the easiest and quickest tools you can use to get yourself back up and running.</span>
 
 ### Assignment
-
 <div class="lesson-content__panel" markdown="1">
 
 1. Go through the Ruby Guides [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers the same topics we went over, but in more depth.
-1. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
-1. Now that you're familiar with the basics, we're going to have some fun with VSCode! Follow the documentation in the [VSCode rdbg Ruby Debugger instructions](https://github.com/ruby/vscode-rdbg) to install the gem and adjust the configuration inside your VSCode's `launch.json` file. If you're having a hard time figuring out how to navigate to your `launch.json` file in order to change the configuration, read through this in-depth guide on [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging).
-1. Check your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and make sure the [Ruby Extension](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) and the [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) extensions are installed.
-1. Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the [Debugging with pry-byebug](#debugging-with-pry-byebug) Section. So include everything from `require 'pry-byebug'` to `isogram?("Odin")` in our new file. Save the file.
-1. Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the  [Javascript Developer Tools lesson](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools). But *whoa*, once we hit the `binding.pry` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging) if you get stuck.
-1. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
-
+2. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
+3. Now that you're familiar with the basics, we're going to have some fun with VSCode! Follow the documentation in the [VSCode rdbg Ruby Debugger instructions](https://github.com/ruby/vscode-rdbg) to install the gem and adjust the configuration inside your VSCode's `launch.json` file. If you're having a hard time figuring out how to navigate to your `launch.json` file in order to change the configuration, read through this in-depth guide on [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging).
+4. Check your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and make sure the [Ruby Extension](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) and the [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) extensions are installed.
+5. Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the [Debugging with pry-byebug](#debugging-with-pry-byebug) Section. So include everything from `require 'pry-byebug'` to `isogram?("Odin")` in our new file. Save the file.
+6. Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the  [Javascript Developer Tools lesson](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools). But *whoa*, once we hit the `binding.pry` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode](https://code.visualstudio.com/docs/editor/debugging) if you get stuck.
+7. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
 ### Knowledge check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is a stack trace?](#reading-the-stack-trace)
-- [What is generally the most useful line in a stack trace?](#most-useful-stack-trace-line)
-- [What are the two things you can learn from the first line of a stack trace?](#stack-trace-first-line-info)
-- [How do `puts` and Pry help you in the debugging process?](#debugging-with-puts)
-- [What should you use instead of `puts` for `nil` values?](#debugging-with-puts-and-nil)
-- [Where should you start with debugging if you encounter a runtime error?](#debugging-with-stack-trace)
-- [Where should you start with debugging if your program runs but does not work the way you expect?](#debugging-without-stack-trace)
+ * <a class='knowledge-check-link' href='#reading-the-stack-trace'>What is a stack trace?</a>
+ * <a class='knowledge-check-link' href='#most-useful-stack-trace-line'>What is generally the most useful line in a stack trace?</a>
+ * <a class='knowledge-check-link' href='#stack-trace-first-line-info'>What are the two things you can learn from the first line of a stack trace?</a>
+ * <a class='knowledge-check-link' href='#debugging-with-puts'>How do `puts` and Pry help you in the debugging process?</a>
+ * <a class='knowledge-check-link' href='#debugging-with-puts-and-nil'>What should you use instead of `puts` for `nil` values?</a>
+ * <a class='knowledge-check-link' href='#debugging-with-stack-trace'>Where should you start with debugging if you encounter a runtime error?</a>
+ * <a class='knowledge-check-link' href='#debugging-without-stack-trace'>Where should you start with debugging if your program runs but does not work the way you expect?</a>
 
 ### Additional resources
 
