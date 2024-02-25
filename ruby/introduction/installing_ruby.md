@@ -234,7 +234,7 @@ eval "$(rbenv init -)"
 
 You'll do as it suggests by running either of the following commands in the terminal.
 
-If the previous message stated you should append to your bash_profile then run:
+If the previous message stated you should append to your bash*profile then run:
 
 ```bash
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
