@@ -9,8 +9,9 @@ This section contains a general overview of topics that you will learn in this l
 - Know what RSpec is.
 - Know how to install RSpec.
 - Understand the basic RSpec syntax:
-  - `describe`.
-  - `it`.
+
+- `describe`.
+- `it`.
 
 ### Introduction to RSpec
 
@@ -43,7 +44,7 @@ That's it. Within two steps, you're up and running with RSpec. That wasn't so ha
 
 #### Basic syntax
 
-How 'bout a test to see the syntax? Let's create a brand new "project" to get going. Create a new directory called "ruby_testing", change into it, and initiate RSpec.
+How 'bout a test to see the syntax? Let's create a brand new "project" to get going. Create a new directory called "ruby*testing", change into it, and initiate RSpec.
 
 ```
 $ mkdir ruby_testing && cd ruby_testing
@@ -61,7 +62,6 @@ Run the tests from your terminal by using the `rspec` command, which will return
 
 ```bash
 No examples found.
-
 
 Finished in 0.00037 seconds (files took 0.21108 seconds to load)
 0 examples, 0 failures
@@ -103,9 +103,9 @@ end
 That's basically it. One more time, from the top:
 
 1. `describe` the class
-2. `describe` the method example group. Conventionally, the string argument for instance methods are written as "#method", while string arguments for class methods are written as ".method".
-3. Write your test case/example with `it`.
-4. Write your expectation using `expect`. The `expect` method is also chained with `.to` for positive expectations, or `.to_not`/`.not_to` for negative expectations. We prefer `.not_to`. <span id='expect-clauses'>Also, limit one expect clause per test case</span>.
+1. `describe` the method example group. Conventionally, the string argument for instance methods are written as "#method", while string arguments for class methods are written as ".method".
+1. Write your test case/example with `it`.
+1. Write your expectation using `expect`. The `expect` method is also chained with `.to` for positive expectations, or `.to_not`/`.not_to` for negative expectations. We prefer `.not_to`. <span id='expect-clauses'>Also, limit one expect clause per test case</span>.
 
 #### Passing code
 
@@ -127,7 +127,6 @@ NameError:
   uninitialized constant Calculator
 # ./spec/calculator_spec.rb:1:in `<top (required)>'
 No examples found.
-
 
 Finished in 0.0004 seconds (files took 0.16461 seconds to load)
 0 examples, 0 failures, 1 error occurred outside of examples
@@ -214,13 +213,13 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 
    ```ruby
    #spec/calculator_spec.rb
-   
+
    describe Calculator do
      describe "#add" do
        it "returns the sum of two numbers" do
          # removed for brevity
        end
-   
+
        # add this
        it "returns the sum of more than two numbers" do
          calculator = Calculator.new
@@ -230,20 +229,22 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
    end
    ```
 
-2. Write a test for a new `Calculator` method (`#multiply`, `#subtract`, or `#divide`) using a new `describe` block. Include at least one `it` block with an appropriate expectation clause. Get it to pass, and refactor if necessary.
-3. In the terminal, try running your failing or passing tests with `rspec --format documentation`. What's different?
-4. RSpec reads command line configurations from `.rspec`, one of the two files generated when RSpec is initialized in a project. If you liked the output you got with `--format documentation`, you can use the `.rspec` file to hold that flag. In doing so, you won't have to type it in every time you run your test suite. Open the file in your text editor and, on a new line, add `--format documentation`. For more information on configuring RSpec, [see the docs here](http://rspec.info/features/3-12/rspec-core/configuration/).
+1. Write a test for a new `Calculator` method (`#multiply`, `#subtract`, or `#divide`) using a new `describe` block. Include at least one `it` block with an appropriate expectation clause. Get it to pass, and refactor if necessary.
+1. In the terminal, try running your failing or passing tests with `rspec --format documentation`. What's different?
+1. RSpec reads command line configurations from `.rspec`, one of the two files generated when RSpec is initialized in a project. If you liked the output you got with `--format documentation`, you can use the `.rspec` file to hold that flag. In doing so, you won't have to type it in every time you run your test suite. Open the file in your text editor and, on a new line, add `--format documentation`. For more information on configuring RSpec, [see the docs here](http://rspec.info/features/3-12/rspec-core/configuration/).
+
 </div>
 
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='#tests-folder'>What do you name the folder that contains your test files?</a>
-- <a class='knowledge-check-link' href='#keyword-describe'>What does the keyword `describe` define?</a>
-- <a class='knowledge-check-link' href='#keyword-it'>What does the keyword `it` define?</a>
-- <a class='knowledge-check-link' href='#expect-clauses'>How many expect clauses can you write for one test case?</a>
-- <a class='knowledge-check-link' href='http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/'>What are some of RSpec's equality matchers?</a>
-- <a class='knowledge-check-link' href='#require'>How do we tell RSpec where to find the code to be tested?</a>
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What do you name the folder that contains your test files?](#tests-folder)
+- [What does the keyword `describe` define?](#keyword-describe)
+- [What does the keyword `it` define?](#keyword-it)
+- [How many expect clauses can you write for one test case?](#expect-clauses)
+- [What are some of RSpec's equality matchers?](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/)
+- [How do we tell RSpec where to find the code to be tested?](#require)
 
 ### Additional resources
 

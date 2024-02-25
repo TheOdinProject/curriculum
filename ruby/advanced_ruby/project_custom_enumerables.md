@@ -1,4 +1,5 @@
 ### Introduction
+
 You should be very familiar with the Enumerable module that gets mixed into the Array and Hash classes (among others) and provides you with lots of handy iterator methods. To prove that there's no magic to it, you're going to rebuild those methods.
 
 We will explain an example of how an enumerable works to give you an idea of how to start tackling these methods. Specifically we're going to break down the `#find` enumerable method. The `#find` method finds the first element that matches the given block's condition and returns it. If one isn't found, it returns `nil`.
@@ -37,11 +38,12 @@ With `self.each`, we're calling the `#each` method on the object instance that's
 If the block returns `true`/truthy for an element, we immediately `return` that element. If nothing is found, we'll iterate all the way through the array and end up executing the `nil` return at the very end. Pretty cool, huh? Now it's time for you to practice:
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 
 1. Fork and clone our [custom enumerables repo](https://github.com/TheOdinProject/custom_enumerable_project)
-2. Follow the [instructions in the README](https://github.com/TheOdinProject/custom_enumerable_project#installation) to get the repo setup locally
-3. Rebuild each of [the methods in this table](https://github.com/TheOdinProject/custom_enumerable_project#methods) and make sure they all pass the tests associated with them.
+1. Follow the [instructions in the README](https://github.com/TheOdinProject/custom_enumerable_project#installation) to get the repo setup locally
+1. Rebuild each of [the methods in this table](https://github.com/TheOdinProject/custom_enumerable_project#methods) and make sure they all pass the tests associated with them.
 
 </div>
 
