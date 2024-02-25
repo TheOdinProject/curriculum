@@ -3,8 +3,6 @@ const fs = require("fs").promises;
 const { processLesson } = require("./processLesson");
 const { processDirectory } = require("./processDirectory");
 
-const curriculumPath = path.resolve("../");
-
 async function main() {
   const args = process.argv.slice(2);
   if (args.length === 0) {
@@ -15,7 +13,7 @@ async function main() {
   }
 
   const inputPath = args[0];
-  const fullPath = path.resolve(curriculumPath, inputPath);
+  const fullPath = path.resolve(process.cwd(), inputPath);
 
   try {
     const stats = await fs.stat(fullPath);
