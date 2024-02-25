@@ -332,41 +332,48 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - Numbers
-  - <a class="knowledge-check-link" href="#numbers">What are the basic arithmetic operators you can use on numbers? </a>
-  - <a class="knowledge-check-link" href="#integers-and-floats">What's the difference between an integer and a float?</a>
-  - <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert a float to an integer?</a>
-  - <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert an integer to a float?</a>
+
+- <a class="knowledge-check-link" href="#numbers">What are the basic arithmetic operators you can use on numbers? </a>
+- <a class="knowledge-check-link" href="#integers-and-floats">What's the difference between an integer and a float?</a>
+- <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert a float to an integer?</a>
+- <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert an integer to a float?</a>
 
 - Strings
-  - <a class="knowledge-check-link" href="#strings">What is a string?</a>
-  - <a class="knowledge-check-link" href="#double-and-single-quotation-marks">What are the differences between single and double quotes?</a>
-  - <a class="knowledge-check-link" href="#interpolation">What is string interpolation?</a>
-  - <a class="knowledge-check-link" href="#concatenation">How do you concatenate strings?</a>
-  - <a class="knowledge-check-link" href="#upcase">What method would you use to change all the characters in your string to upper case?</a>
-  - <a class="knowledge-check-link" href="#split">What method would you use to split up strings into arrays?</a>
-  - <a class="knowledge-check-link" href="#escape-characters">What are escape characters?</a>
-  - <a class="knowledge-check-link" href="#substrings">How do you access a specific character or substring?</a>
-  - <a class="knowledge-check-link" href="#converting-other-objects-to-strings">How do you convert other data types into strings?</a>
+
+- <a class="knowledge-check-link" href="#strings">What is a string?</a>
+- <a class="knowledge-check-link" href="#double-and-single-quotation-marks">What are the differences between single and double quotes?</a>
+- <a class="knowledge-check-link" href="#interpolation">What is string interpolation?</a>
+- <a class="knowledge-check-link" href="#concatenation">How do you concatenate strings?</a>
+- <a class="knowledge-check-link" href="#upcase">What method would you use to change all the characters in your string to upper case?</a>
+- <a class="knowledge-check-link" href="#split">What method would you use to split up strings into arrays?</a>
+- <a class="knowledge-check-link" href="#escape-characters">What are escape characters?</a>
+- <a class="knowledge-check-link" href="#substrings">How do you access a specific character or substring?</a>
+- <a class="knowledge-check-link" href="#converting-other-objects-to-strings">How do you convert other data types into strings?</a>
 
 - Symbols
-  - <a class="knowledge-check-link" href="#symbols">What is a symbol?</a>
-  - <a class="knowledge-check-link" href="#create-a-symbol">How do you create a symbol?</a>
-  - <a class="knowledge-check-link" href="#symbols-vs-strings">What's the difference between a symbol and a string?</a>
+
+- <a class="knowledge-check-link" href="#symbols">What is a symbol?</a>
+- <a class="knowledge-check-link" href="#create-a-symbol">How do you create a symbol?</a>
+- <a class="knowledge-check-link" href="#symbols-vs-strings">What's the difference between a symbol and a string?</a>
 
 - Booleans
-  - <a class="knowledge-check-link" href="#true-and-false">What does `true` represent?</a>
-  - <a class="knowledge-check-link" href="#true-and-false">What does `false` represent?</a>
-  - <a class="knowledge-check-link" href="#nil">What does `nil` represent?</a>
+
+- <a class="knowledge-check-link" href="#true-and-false">What does `true` represent?</a>
+- <a class="knowledge-check-link" href="#true-and-false">What does `false` represent?</a>
+- <a class="knowledge-check-link" href="#nil">What does `nil` represent?</a>
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - If you want to go deeper into Ruby's numbers and string data types, read these chapters from the *Bastards Book of Ruby*:
-  - [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
-  - [Strings](http://ruby.bastardsbook.com/chapters/strings/)
+
+- [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
+- [Strings](http://ruby.bastardsbook.com/chapters/strings/)
+
 - Read through these Ruby Monstas sections about data types:
-  - [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
-  - [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
-  - [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
-  - [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
+
+- [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
+- [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
+- [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
+- [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)

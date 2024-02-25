@@ -7,14 +7,15 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 ### Assignment 1
 
 <div class="lesson-content__panel" markdown="1">
-  1. Go back to the [Caesar Cipher Project](/lessons/ruby-caesar-cipher) and write tests for your code.  It shouldn't take more than a half-dozen tests to cover all the possible cases. As always, use the git workflow you learned in [this foundations lesson](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) to work on a new feature so you can work on your new code without fear.
-  2. Clone [this repo](https://github.com/TheOdinProject/ruby_testing) and complete the lessons in the spec folder.
-  3. Write tests for your [Tic Tac Toe project](/lessons/ruby-tic-tac-toe). In this situation, it's not quite as straightforward as just coming up with inputs and making sure the method returns the correct thing. You'll need to make sure the tests that determine victory or loss conditions are correctly assessed.
-      1. Start by writing tests to make sure players win when they should, e.g. when the board reads X X X across the top row, your `#game_over` method (or its equivalent) should trigger.
-      2. Test each of your critical methods to make sure they function properly and handle edge cases.
-      3. Use mocks/doubles to isolate methods to make sure that they're sending back the right outputs.
-</div>
 
+1. Go back to the [Caesar Cipher Project](/lessons/ruby-caesar-cipher) and write tests for your code.  It shouldn't take more than a half-dozen tests to cover all the possible cases. As always, use the git workflow you learned in [this foundations lesson](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) to work on a new feature so you can work on your new code without fear.
+1. Clone [this repo](https://github.com/TheOdinProject/ruby_testing) and complete the lessons in the spec folder.
+1. Write tests for your [Tic Tac Toe project](/lessons/ruby-tic-tac-toe). In this situation, it's not quite as straightforward as just coming up with inputs and making sure the method returns the correct thing. You'll need to make sure the tests that determine victory or loss conditions are correctly assessed.
+
+      1. Start by writing tests to make sure players win when they should, e.g. when the board reads X X X across the top row, your `#game_over` method (or its equivalent) should trigger.
+      1. Test each of your critical methods to make sure they function properly and handle edge cases.
+      1. Use mocks/doubles to isolate methods to make sure that they're sending back the right outputs.
+</div>
 
 ### Project: TDD Connect Four
 
@@ -29,12 +30,15 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 ### Assignment 2
 
 <div class="lesson-content__panel" markdown="1">
-  1. Build Connect Four!  Just be sure to keep it TDD.
+
+1. Build Connect Four!  Just be sure to keep it TDD.
+
 </div>
 
 ### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [RSpec Mock example SO question](http://stackoverflow.com/questions/3622604/rspec-mock-object-example)
-* [Helpful video from Sandi Metz](https://www.youtube.com/watch?v=URSWYvyc42M)
-* [Tutorials Point RSpec Writing Specs](https://www.tutorialspoint.com/rspec/rspec_writing_specs.htm)
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [RSpec Mock example SO question](http://stackoverflow.com/questions/3622604/rspec-mock-object-example)
+- [Helpful video from Sandi Metz](https://www.youtube.com/watch?v=URSWYvyc42M)
+- [Tutorials Point RSpec Writing Specs](https://www.tutorialspoint.com/rspec/rspec_writing_specs.htm)

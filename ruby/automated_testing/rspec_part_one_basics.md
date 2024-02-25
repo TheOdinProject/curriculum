@@ -8,7 +8,9 @@ RSpec's popularity is largely owed to its rich, expressive syntax which makes wr
 
 This lesson is designed to be a guide through all the basic RSpec features you will need to know to get started writing your own automated tests. To get the most out this lesson, please follow along with all the examples.
 
-### Learning Outcomes
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - How to install RSpec
 - What is an example group and how do you define one?
@@ -24,20 +26,20 @@ To kick things off, we need to create a new project where we can install RSpec a
 
 Fire up a terminal, create a new directory and then navigate into it:
 
-~~~bash
+```bash
 $ mkdir odin_rspec
 $ cd odin_rspec
-~~~
+```
 
 Create a lib directory and `todo_list.rb` file
 
-~~~bash
+```bash
 $ mkdir lib && touch lib/todo_list.rb
-~~~
+```
 
 Open up the `todo_list.rb` file in your favourite text editor and paste the following code into it. This will be the code we will be writing tests for throughout the first part of this lesson.
 
-~~~ruby
+```ruby
 # lib/todo_list.rb
 
 class TodoList
@@ -76,69 +78,69 @@ class TodoList
   end
 
 end
-~~~
+```
 
 Now that we have the code we will write tests for in place, it's time to install and setup RSpec. Back in your terminal, make sure you are in the root directory of the `odin_rspec` project and create a `Gemfile`
 
-~~~ruby
+```ruby
 $ touch Gemfile
-~~~
+```
 
 Gems are Ruby libraries written by other other programmers and allow us to easily add ready made functionality to our projects. In our case we want to add RSpec to our project.
 
 Paste the following into the `Gemfile`:
 
-~~~ruby
+```ruby
 source 'https://rubygems.org'
 
 gem 'rspec', '3.10'
-~~~
+```
 
 Back in the terminal, we will run bundle install to make the RSpec gem available to our project:
 
-~~~ruby
+```ruby
 $ bundle install
-~~~
+```
 
 Next run the RSpec install script, which will create a couple of files for us. We will explain what these do a little later.
 
-~~~ruby
+```ruby
 $ rspec --init
   create   .rspec
   create   spec/spec_helper.rb
-~~~
+```
 
 Open up the `.rspec` file which was just created, it should only include this code at the moment:
 
-~~~ruby
+```ruby
 --require spec_helper
-~~~
+```
 
 Add the following to the file and then save it:
 
-~~~ruby
+```ruby
 --require spec_helper
 --format documentation
 --order rand
-~~~
+```
 
 The Last thing we need to do is create the file where the tests will live for our `TodoList` class.
 
 In RSpec these are commonly called *spec* files because their filename is appended with `_spec.rb`.
 
-~~~ruby
+```ruby
 $ touch spec/todo_list_spec.rb
-~~~
+```
 
 Finally, to verify everything is setup correctly, run `$ rspec` which should include the following in its output:
 
-~~~ruby
+```ruby
 0 examples, 0 failures
-~~~
+```
 
 That's it, we're up and running with RSpec. The final folder structure of the project looks like this:
 
-~~~bash
+```bash
 .
 ├── .rspec
 ├── Gemfile
@@ -148,7 +150,7 @@ That's it, we're up and running with RSpec. The final folder structure of the pr
 └── spec
     ├── todo_list_spec.rb
     └── spec_helper.rb
-~~~
+```
 
 The `Gemfile` is where we list the outside dependencies needed for our project to run correctly. In our project, we only need the RSpec gem so we can write and run RSpec tests.
 
@@ -170,12 +172,12 @@ Open up the `todo_list_spec.rb` file we created earlier. The first thing we need
 
 The second file is the `todo_list.rb` file in lib so we can create an instance of the `TodoList` class in the our test file so we can invoke its methods and test what they do.
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 require "spec_helper"
 require "todo_list"
-~~~
+```
 
 #### Example Groups
 
@@ -183,7 +185,7 @@ Now let's create the top level example group. Example groups serve two purposes,
 
 We define an example group using the `describe` method. In the case of the following example group we are creating an example group for all the tests related to the `TodoList` Class.
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 require "spec_helper"
@@ -192,11 +194,11 @@ require "todo_list"
 RSpec.describe TodoList do
 
 end
-~~~
+```
 
 Example groups can be nested within each other. This allows us to be more granular with grouping related tests together. We will see how that works by creating a nested example group where we can put all the tests for the `#name` method on the `TodoList` class.
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 require "spec_helper"
@@ -208,7 +210,7 @@ RSpec.describe TodoList do
 
   end
 end
-~~~
+```
 
 The describe method takes an argument that can either be a class name or a string. Typically you will pass the name of the class you are testing to the outer most example group and use strings for the nested example groups.
 
@@ -230,7 +232,7 @@ However unlike the `describe` method, the argument **must** always be a string a
 
 Let's create a few `it` blocks which we can use to test the `name` method of the todo list:
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 require "spec_helper"
@@ -249,13 +251,13 @@ RSpec.describe TodoList do
     end
   end
 end
-~~~
+```
 
 To see all the structuring we have been doing in action we need to execute our tests. To execute the tests, open the terminal and run the `$ rspec` command from the root directory of the `odin_rspec` project directory.
 
 The output, as shown in the code snippet below uses the arguments we passed to our example groups and `it` blocks to output the structure of our tests to the terminal.
 
-~~~bash
+```bash
 TodoList
   name
     returns the name with 1 task remaining
@@ -264,7 +266,7 @@ TodoList
 
 Finished in 0.00247 seconds (files took 0.1574 seconds to load)
 3 examples, 0 failures
-~~~
+```
 
 #### Test Order
 
@@ -282,7 +284,7 @@ By default RSpec will treat empty `it` blocks as passing tests. Let's instead se
 
 There are a [few different ways to set it blocks to pending in RSpec](https://relishapp.com/rspec/rspec-core/v/3-10/docs/pending-and-skipped-examples/skip-examples). But for our purposes we are going to add an x to the start of each it block to set them to pending:
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 require "spec_helper"
@@ -301,11 +303,11 @@ RSpec.describe TodoList do
     end
   end
 end
-~~~
+```
 
 Run the test suite once again using the `$ rspec` command. You should now get output that looks something like the following terminal output, with the `it` blocks output now colored in yellow. Yellow signals a test is pending and needs to be completed.
 
-~~~bash
+```bash
 Pending: (Failures listed here are expected and do not affect your suite's status)
 
   1) TodoList name returns the name with 0 tasks remaining
@@ -322,7 +324,7 @@ Pending: (Failures listed here are expected and do not affect your suite's statu
 
 Finished in 0.00179 seconds (files took 0.06131 seconds to load)
 3 examples, 0 failures, 3 pending
-~~~
+```
 
 ### Making Expectations
 
@@ -330,7 +332,7 @@ Now that we have the basic structure in place, its time to write some actual tes
 
 To demonstrate this, let's write the test for the first `it` block. Remove the x from the `it` method to stop it from being a pending test and put the following within the block:
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 it "returns the name with 0 tasks remaining" do
@@ -338,13 +340,13 @@ it "returns the name with 0 tasks remaining" do
 
   expect(todo_list.name).to eq("My List (0 tasks)")
 end
-~~~
+```
 
 You can probably guess what this does just from reading the code, it expects the the name of the todo list we created to equal `"My List (0 tasks)"`.
 
 Run the test suite with the `$ rspec` command in your terminal. You should see that the output for the test we just filled in is now green. That means we've just wrote our first proper passing test 🎉
 
-~~~bash
+```bash
 TodoList
   name
     returns the name with 2 tasks remaining (PENDING: Temporarily skipped with xit)
@@ -365,7 +367,7 @@ Finished in 0.00179 seconds (files took 0.06131 seconds to load)
 3 examples, 0 failures, 2 pending
 
 Randomized with seed 3657
-~~~
+```
 
 #### Parts of an Expectation
 
@@ -375,9 +377,9 @@ The second part is a matcher, which is used to verify that the actual value **ma
 
 These two parts together make up a full expectation in RSpec:
 
-~~~ruby
+```ruby
 expect(actual_value).to eq(expected_value)
-~~~
+```
 
 #### Negative Expectations
 
@@ -385,7 +387,7 @@ Suppose you want to expect something is not to equal to something else. RSpec ha
 
 To see this in action, let's add a negative expectation to the first test case we created for the name method. In this expectation we will expect the todo list name **not to** equal `"Barrys List (0 tasks)"`
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 it "returns the name with 0 tasks remaining" do
@@ -394,7 +396,7 @@ it "returns the name with 0 tasks remaining" do
   expect(todo_list.name).to eq("My List (0 tasks)")
   expect(todo_list.name).not_to eq("Barrys List (0 tasks)")
 end
-~~~
+```
 
 Run your tests once again with `$ rspec` .  The first test case should still be passing.
 
@@ -402,7 +404,7 @@ Run your tests once again with `$ rspec` .  The first test case should still be 
 
 So far we've seen pending and passing tests, but what does a failing test look like? to find out. Remove the `x` from the second test cases  `it` method we wrote earlier and put the following within its block:
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 it "returns the name with 1 task remaining" do
@@ -410,11 +412,11 @@ it "returns the name with 1 task remaining" do
 
   expect(todo_list.name).to eq("My List (1 task)")
 end
-~~~
+```
 
 We are expecting the todo list name to display that it has one task. Run the tests to find out if our expectation is correct: `$ rspec`
 
-~~~bash
+```bash
 1) TodoList name returns the name with 1 task remaining
      Failure/Error: expect(todo_list.name).to eq("My List (1 task)")
 
@@ -423,7 +425,7 @@ We are expecting the todo list name to display that it has one task. Run the tes
 
        (compared using ==)
      # ./spec/todo_list_spec.rb:15:in `block (3 levels) in <top (required)>'
-~~~
+```
 
 As you have probably been anticipating, this test did indeed fail. The output is coloured red which signifies a failing test.
 
@@ -431,20 +433,20 @@ The output also displays some useful information indicating what went wrong. The
 
 The first part, is the output showing what the test expected and what it got instead. This is usually enough to let you know what went wrong and where to start with fixing the test.
 
-~~~ruby
+```ruby
 expected: "My List (1 task)"
 got: "My List (0 tasks)"
-~~~
+```
 
 Another useful part of the output is the line number it failed on. In larger, more complicated test files where the expected and got output doesn't provide enough of a clue as to what went wrong. This will provide a useful place to start when tracking down why the test failed
 
-~~~ruby
+```ruby
 # ./spec/todo_list_spec.rb:16:in `block (3 levels) in <top (required)>'
-~~~
+```
 
 Let's quickly fix this test to get it working. We just need to pass in a tasks array which contains one task:
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 it "returns the name with 1 task remaining" do
@@ -452,7 +454,7 @@ it "returns the name with 1 task remaining" do
 
   expect(todo_list.name).to eq("My List (1 task)")
 end
-~~~
+```
 
 Run the tests again with `$ rspec`. We should now have 2 passing tests and one pending test remaining.
 
@@ -468,7 +470,7 @@ The `eq` matcher is the most versatile and commonly used matcher. It will likely
 
 Lets see this matcher in action once again by finishing off the tests for the todo list name method:
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 it "returns the name with 2 tasks remaining" do
@@ -476,7 +478,7 @@ it "returns the name with 2 tasks remaining" do
 
   expect(todo_list.name).to eq("My List (2 tasks)")
 end
-~~~
+```
 
 Run all the tests in the terminal once again with `$ rspec` to see all of our todo list name method tests now passing.
 
@@ -490,7 +492,7 @@ To demonstrate the `be` matcher, we are going write a test for another one of th
 
 First we need an example group where we can group the tests for the `completed?` method together.
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 require "spec_helper"
@@ -504,13 +506,13 @@ RSpec.describe TodoList do
 
   end
 end
-~~~
+```
 
 Next we will write the individual test cases for the `completed?` method. There are only two cases that we care about.
 
 What does the method return when the list is completed and what does it return when the list is not completed:
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 describe "completed?" do
@@ -520,11 +522,11 @@ describe "completed?" do
   it "returns false when all tasks are not completed" do
   end
 end
-~~~
+```
 
 Now lets see how to use that `be` matcher we have been hyping up by writing the expectation for the first test case:
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 it "returns true when all tasks are completed" do
@@ -532,11 +534,11 @@ it "returns true when all tasks are completed" do
 
   expect(todo_list.completed?).to be(true)
 end
-~~~
+```
 
 And to finish off the tests for the `completed?` method, we will write the test for when the todo list is not completed:
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 it "returns false when all tasks are not completed" do
@@ -544,7 +546,7 @@ it "returns false when all tasks are not completed" do
 
   expect(todo_list.completed?).to be(false)
 end
-~~~
+```
 
 Finally run all the tests once again with `$ rspec` and everything should still be passing.
 
@@ -556,7 +558,7 @@ To see how the include matcher works, we will write some tests for yet another o
 
 Write the following test and make sure it works by running the tests with the   `$ rspec` command in the terminal.
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 require "spec_helper"
@@ -576,7 +578,7 @@ RSpec.describe TodoList do
     end
   end
 end
-~~~
+```
 
 In this test, we are adding a new task to a todo list which already contains an existing task. However we don't care about the existing task. We only care that the list *includes* the new task we've added.
 
@@ -589,12 +591,12 @@ You've likely noticed that the tests for the `add_task` method look quite a bit 
 Each test is generally made up of three distinct phases, these are:
 
 1. **Arrange**
-2. **Act**
-3. **Assert**
+1. **Act**
+1. **Assert**
 
 Lets write a test for the `complete_task` method to examine each of these phases in more detail:
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 require "spec_helper"
@@ -617,19 +619,19 @@ RSpec.describe TodoList do
     end
   end
 end
-~~~
+```
 
 1. **Arrange** - First we need to arrange the right conditions in our example so we can test the correct behaviour. For the arrange phase In our `complete_task` test, we initialised a new todo list with an uncompleted task so we can test the complete behaviour on this task. This phase is also commonly known as the setup phase.
 
-2. **Act** - In the second phase we *act*, or in other words we invoke the behaviour that we are testing. In the act phase of our test we invoke the `complete_task` method, passing in the name of the task we created in the arrange phase to complete it.
+1. **Act** - In the second phase we *act*, or in other words we invoke the behaviour that we are testing. In the act phase of our test we invoke the `complete_task` method, passing in the name of the task we created in the arrange phase to complete it.
 
-3. **Assert** - In the final phase we assert that the behaviour did what we expected it to do. In the assert phase of our test we made an expectation that the todo list no longer included the task which we just completed.
+1. **Assert** - In the final phase we assert that the behaviour did what we expected it to do. In the assert phase of our test we made an expectation that the todo list no longer included the task which we just completed.
 
 #### Style
 
 Some of our earlier tests combined the act and assert phases. For instance, in our `completed?` method tests. We both acted and asserted in the expectation:
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 it "returns true when all tasks are completed" do
@@ -639,11 +641,11 @@ it "returns true when all tasks are completed" do
   # act and assert
   expect(todo_list.completed?).to be(true)
 end
-~~~
+```
 
 This test could be rewritten to make the different phases clearer:
 
-~~~ruby
+```ruby
 # spec/todo_list_spec.rb
 
 it "returns true when all tasks are completed" do
@@ -656,7 +658,7 @@ it "returns true when all tasks are completed" do
   # assert
   expect(result).to be(true)
 end
-~~~
+```
 
 Which version of these you use is up to you. Many find the terser syntax of the first version more readable. It's also a common practice to separate each phase using a newline so it is easy to distinguish the different phases from each other at a glance.
 
@@ -666,7 +668,7 @@ There is an extra phase which is sometimes needed when we need to undo something
 
 To see how this phase works, create a new file in the lib directory named `counter.rb` and paste the following code into it:
 
-~~~ruby
+```ruby
 # lib/counter.rb
 
 $global_counter = 0
@@ -686,11 +688,11 @@ class Counter
   end
 
 end
-~~~
+```
 
 Next, create a new test file for the `Counter` class in the spec directory named `counter_spec.rb` and enter the following test code into it:
 
-~~~ruby
+```ruby
 # spec/counter_spec.rb
 
 require "spec_helper"
@@ -718,7 +720,7 @@ RSpec.describe Counter do
   end
 
 end
-~~~
+```
 
 In the test file, we have two tests for the `increment!` method. One for asserting it increments the count by one, and another to assert it increments the count by 2.
 
@@ -726,23 +728,23 @@ If we run these tests now we will see one of two failures depending on the order
 
 If the increment by one test was run first, the increment by two test will fail for the following reason:
 
-~~~ruby
+```ruby
 1) Counter increment! increments the counter by two
      Failure/Error: expect(counter.count).to eq(2)
 
        expected: 2
             got: 3
-~~~
+```
 
  If the increment by two test was run first, then the increment by one test will fail for this reason:
 
-~~~ruby
+```ruby
 1) Counter increment! increments the counter by one
      Failure/Error: expect(counter.count).to eq(1)
 
        expected: 1
             got: 3
-~~~
+```
 
 If we run the tests a few times we will see both of these test failures eventually as the random order changes.
 
@@ -754,7 +756,7 @@ This is where the teardown phase comes into play, we need to clean up after each
 
 Luckily our counter class has a handy `reset!` method which we can use to do this. Add the following teardown phases to the counter tests:
 
-~~~ruby
+```ruby
 # spec/counter_spec.rb
 
 require "spec_helper"
@@ -794,7 +796,7 @@ RSpec.describe Counter do
   end
 
 end
-~~~
+```
 
 Now when we run the tests suite, both of these tests will pass every-time. No matter which order they are executed in.
 
@@ -811,11 +813,15 @@ But before that, in the next lesson we will explore a few more RSpec features th
 We will once again be using the `odin_rspec` project we set up in this lesson to demonstrate those features so make sure to keep that project around.
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
+
 1. TODO: Matcher exercises in the testing repo
+
 </div>
 
 ### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [https://www.rubyguides.com/2018/09/ruby-gems-gemfiles-bundler/](https://www.rubyguides.com/2018/09/ruby-gems-gemfiles-bundler/)
