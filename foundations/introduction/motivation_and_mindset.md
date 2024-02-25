@@ -112,7 +112,7 @@ The Pomodoro technique is great for avoiding procrastination as it forces you to
 
 To learn more about the Pomodoro Technique, read this [great article](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c#.hcqsv37u4).
 
-If you want to try it out, [TomatoTimer](http://tomato-timer.com/#) is an easy-to-use Pomodoro timer.
+If you want to try it out, [TomatoTimer](https://www.toptal.com/project-managers/tomato-timer) is an easy-to-use Pomodoro timer.
 
 #### Not taking breaks
 
