@@ -76,18 +76,18 @@ The case/in format is best used when there are multiple conditionals you could p
 
 There are multiple ways of potentially matching against an input. Patterns can be:
 
-- Any Ruby object which is matched using `===`. The Object Pattern.
-- A variable capture / Variable Pattern
-- An As Pattern
-- An Alternative Pattern
-- A Guard Condition
-- An Array Pattern
-- A Hash Pattern
+ - Any Ruby object which is matched using `===`. The Object Pattern.
+ - A variable capture / Variable Pattern
+ - An As Pattern
+ - An Alternative Pattern
+ - A Guard Condition
+ - An Array Pattern
+ - A Hash Pattern
 
 You can use the above patterns while also having the following experimental additions.
 
-- Rightward Assignment
-- A Find Pattern
+ - Rightward Assignment
+ - A Find Pattern
 
 Patterns can also be matched using many of the patterns above together. For example, you may have an array inside a hash, so you could use the hash and array patterns. We'll go through each of the various patterns in more detail below.
 
@@ -95,7 +95,7 @@ When we say "pattern", we aren't talking about design patterns which you may hav
 
 ### Return values
 
-There are two possible outcomes for a pattern match statement - either there is a match or there is no match. If there is a match, it will return the last evaluated value in the body of the matching branch.
+There are two possible outcomes for a pattern match statement - either there is a match or there is no match. If there is a match, it will return the last evaluated value in the body of the matching branch. 
 If there are no matches, the pattern matching statement will return `NoMatchingPatternError`.
 Consider the following example, where the variable `result` is assigned the value 3.
 
@@ -113,9 +113,9 @@ puts result
 #=> 3
 ```
 
-When we `puts` something inside a case statement, we'll use `#=>` to show what `puts` will print.
-In your terminal, however, you'll see the value printed followed by `=> nil`, since `puts` returns `nil`.
-We'll omit that because it's not relevant to what we're trying to show you.
+When we `puts` something inside a case statement, we'll use `#=>` to show what `puts` will print. 
+In your terminal, however, you'll see the value printed followed by `=> nil`, since `puts` returns `nil`. 
+We'll omit that because it's not relevant to what we're trying to show you. 
 Just be aware that the `nil` you see is just the return value of `puts`. Standard Ruby behaviour.
 
 As you'll see, though, the point of a pattern match usually is to not only match against a pattern, but also bind all or part of the match to one or more variables that you can then use outside of the pattern match expression.
@@ -143,16 +143,16 @@ It's important to note here that Ruby places the pattern to match on the left of
 
 With Ruby pattern matching, you can match against the following literal types.
 
-- Booleans
-- nil
-- Numbers
-- Strings
-- Symbols
-- Arrays
-- Hashes
-- Ranges
-- Regular Expressions
-- Procs
+ - Booleans
+ - nil
+ - Numbers
+ - Strings
+ - Symbols
+ - Arrays
+ - Hashes
+ - Ranges
+ - Regular Expressions
+ - Procs
 
 This isn't any different from what we can do with a case/when statement, but the power comes when you match these types within some of the other patterns as we'll see next.
 
@@ -666,25 +666,22 @@ With pattern matching, we do need to consider the case if there is no match. Wit
 Pattern Matching provides a powerful way to get at the data you need in a way that makes sense. But as with any tool, you don't need to reach for it in every use case. For data structures that are shallow, just think about whether you need to bring in a pattern match when you could just grab the value using the hash and array methods already available. If you do find yourself deep in a nested structure with many checks for `nil` and a lot of edge case handling, it might be time to see if pattern matching brings something to the table.
 
 ### Assignment
-
 <div class="lesson-content__panel" markdown="1">
 
 1. Read the [Ruby docs](https://docs.ruby-lang.org/en/3.2/syntax/pattern_matching_rdoc.html) on pattern matching. They cover quite a lot of ground.
-
 </div>
 
 ### Knowledge check
+This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
-
-- [What is pattern matching?](https://docs.ruby-lang.org/en/3.2/syntax/pattern_matching_rdoc.html)
-- [What is the difference between array patterns and hash patterns?](https://docs.ruby-lang.org/en/3.2/syntax/pattern_matching_rdoc.html#label-Patterns)
-- [What is the variable pattern match?](#variable-pattern)
-- [What are the different ways of pattern matching on an array?](#array-pattern-match)
-- [Explain the find pattern.](#find-pattern)
+- <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.2/syntax/pattern_matching_rdoc.html">What is pattern matching?</a>
+- <a class="knowledge-check-link" href="https://docs.ruby-lang.org/en/3.2/syntax/pattern_matching_rdoc.html#label-Patterns">What is the difference between array patterns and hash patterns?</a>
+- <a class="knowledge-check-link" href="#variable-pattern">What is the variable pattern match?</a>
+- <a class="knowledge-check-link" href="#array-pattern-match">What are the different ways of pattern matching on an array?</a>
+- <a class="knowledge-check-link" href="#find-pattern">Explain the find pattern.</a>
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - [An Introduction to Pattern Matching in Ruby](https://blog.appsignal.com/2021/07/28/introduction-to-pattern-matching-in-ruby.html) from AppSignal should be another useful perspective on the material.

@@ -2,9 +2,8 @@
 
 So far you’ve been learning how to test code that you’ve written, but there’s a popular development process that flips that concept on its head. Rather than writing code, manually testing it until you get it working, then writing a test to make sure it stays working; you can write the test **before** the code, so that you don’t have to waste *any* time manually testing. Test Driven Development is the name of this inverted development process.
 
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
+### Learning Outcomes
+Look through these now and use them to guide your learning. By the end of this lesson, expect to:
 
 - Learn what Test Driven Development is
 - Learn the advantages of Test Driven Development
@@ -31,7 +30,6 @@ This development cycle is known as red-green-refactor, and it’s at the heart o
 One key aspect of the red-green-refactor cycle that *isn’t* in the name, is that the code you write to go from `red` to `green` should be the **minimum** amount required to pass the test. If you find that the functionality you’re adding actually does *more* than is being tested, that is a sign that your method is likely doing too much, or possibly that your tests aren’t testing all of the right functionality.
 
 #### TDD Examples
-
 Let’s walk through a TDD approach to a basic class.
 
 Given the general problem:
@@ -40,7 +38,7 @@ Create a `Square` class that takes an integer on initialization for the length o
 
 Start by making a directory to house this example, and then `lib` and `spec` directories to house the class and the specs respectively. Next, create the spec and class files. Lastly, open the example directory in your text editor so that you can start this TDD style!
 
-``` bash
+~~~ bash
 mkdir tdd-lesson
 cd tdd-lesson
 mkdir lib
@@ -48,11 +46,11 @@ mkdir spec
 touch lib/square.rb
 touch spec/square_spec.rb
 code .
-```
+~~~
 
 Now, how might you want to TDD the creation of this class? Well, you know that you need to `describe` a class called `Square`, and that you'll need to describe its `#area` method, so start with setting all that up in a `square_spec.rb` file:
 
-```rb
+~~~rb
 require_relative '../lib/square'
 
 describe Square do
@@ -60,11 +58,11 @@ describe Square do
 
   end
 end
-```
+~~~
 
 Since `Square` will be initialized with a side length, do that initialization in a couple of different `context` blocks so that you can initialize differently sized squares to test the method:
 
-```rb
+~~~rb
 require_relative '../lib/square'
 
 describe Square do
@@ -78,11 +76,11 @@ describe Square do
     end
   end
 end
-```
+~~~
 
 Next add an `it` block to each of the contexts to actually test that the method works as you expect:
 
-```rb
+~~~rb
 require_relative '../lib/square'
 
 describe Square do
@@ -104,7 +102,7 @@ describe Square do
     end
   end
 end
-```
+~~~
 
 Alright, that should have you set up to test `#area`, now run the tests by entering `rspec` in the terminal!
 
@@ -112,7 +110,7 @@ Alright, that should have you set up to test `#area`, now run the tests by enter
 
 The result should be like the *red* failure/error above, since you haven’t implemented `Square` at all yet. This is the `red` stage of the red-green-refactor cycle mentioned earlier, so the next step is making it `green` by implementing the expected functionality! Do that in our `lib/square.rb` file now:
 
-```rb
+~~~rb
 class Square
   def initialize(side_length)
     @side_length = side_length
@@ -122,7 +120,7 @@ class Square
     @side_length * @side_length
   end
 end
-```
+~~~
 
 And now if you run the test suite again you should get a nice *green* output indicating no failures! Try it by entering `rspec` in the terminal again:
 
@@ -130,7 +128,7 @@ And now if you run the test suite again you should get a nice *green* output ind
 
 Success! You are now on the green stage of the red-green-refactor cycle! Now you can refactor knowing that you can use the test to make sure to keep the existing functionality that you’ve built, maybe do:
 
-```rb
+~~~rb
 class Square
   def initialize(side_length)
     @side_length = side_length
@@ -140,7 +138,7 @@ class Square
     @side_length ** 2
   end
 end
-```
+~~~
 
 Yeah, that’s a little cleaner! And you can run `rspec` again to make sure the tests still pass:
 
@@ -148,7 +146,7 @@ Yeah, that’s a little cleaner! And you can run `rspec` again to make sure the 
 
 Looks like you’re good! Now do the `#perimeter` method! First write the test:
 
-```rb
+~~~rb
 require_relative '../lib/square'
 
 describe Square do
@@ -173,7 +171,7 @@ describe Square do
     end
   end
 end
-```
+~~~
 
 Run the test to make sure it fails like you expect:
 
@@ -181,7 +179,7 @@ Run the test to make sure it fails like you expect:
 
 Now write the minimum functionality required to make the tests pass:
 
-```rb
+~~~rb
 class Square
   def initialize(side_length)
     @side_length = side_length
@@ -195,7 +193,7 @@ class Square
     @side_length * 4
   end
 end
-```
+~~~
 
 Then run the tests to make sure they pass:
 
@@ -212,14 +210,13 @@ TODO: Exercise: TDD a value object
 TODO: Exercise: TDD a class that has a collaborator which doesn't exist yet using mocks
 
 ### Additional Resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 Read ["TDD is Dead. Long Live Testing"](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html) by DHH for an anti-TDD viewpoint
 
 ### Knowledge Check
 
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - What does it mean for code to be test **driven**?
 - List four different advantages of TDD.
