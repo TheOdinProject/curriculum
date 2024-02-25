@@ -11,6 +11,11 @@ function correctOrderedList(lines) {
       const splitLine = line.content.split("");
       splitLine[index] = "1"; // This is the line where 2, 3 gets replaced with 1, 1 etc.
       line.content = splitLine.join("");
+      const lengthOfLine = line.content.length;
+      const lengthOfTrimmedLine = line.content.trimStart().length;
+      if (lengthOfLine - lengthOfTrimmedLine <= 2) {
+        line.content = line.content.trimStart();
+      }
     }
   });
   return lines;
