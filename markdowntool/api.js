@@ -3,6 +3,7 @@
 const legacyData = {
   codeBlock: "~~~",
   unorderedListFormat: ["*", " "],
+  defaultContentTitle: "learning outcomes",
 };
 
 const data = {

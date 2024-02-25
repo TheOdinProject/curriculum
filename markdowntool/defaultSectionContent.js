@@ -1,10 +1,15 @@
-const { data } = require("./api");
+const { data, legacyData } = require("./api");
 const { Line } = require("./line");
 
 function sectionsDefaultContent(lines) {
   Object.entries(data.defaultContent).forEach(([title, description]) => {
     lines.forEach((line, index) => {
-      if (line.content === "### ".concat(title)) {
+      if (line.content.includes("### Learning Outcomes")) {
+        line.content = "### Lesson overview";
+      }
+      if (
+        line.content.toLowerCase().includes("### ".concat(title.toLowerCase()))
+      ) {
         if (
           lines[index + 2].content.trim().startsWith("-") ||
           lines[index + 2].content.trim().startsWith("1")
