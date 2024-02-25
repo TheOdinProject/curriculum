@@ -246,8 +246,8 @@ Another benefit of `transform` is that it can be hardware-accelerated via a devi
 
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
-1. To learn about how `rotate3d` works, check out [this great demonstration](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) on MDN and [this one](https://www.quackit.com/css/functions/css_rotate3d_function.cfm) on Quackit.
-1. For more details on how `perspective` works in regards to 3D transforms, [check out this CSS Tricks article](https://css-tricks.com/how-css-perspective-works/).
+1. To learn about how `rotate3d` works, check out this great [demonstration on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) and this [Quackit article](https://www.quackit.com/css/functions/css_rotate3d_function.cfm).
+1. For more details on how `perspective` works in regards to 3D transforms, check out this [CSS Tricks article](https://css-tricks.com/how-css-perspective-works/).
 1. For a great demonstration on `translate3d` checkout the [MDN cube again](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d())!
 1. Skim [this article](https://www.quackit.com/css/functions/css_matrix_function.cfm) to get the gist of `matrix`.
 </div>
