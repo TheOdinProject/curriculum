@@ -22,19 +22,16 @@ This section contains a general overview of topics that you will learn in this l
 
 1. Read the [Object Oriented Programming with Ruby](https://launchschool.com/books/oo_ruby) online book, by Launch School.
 1. Read through these reinforcing posts by Erik Trautman to help you answer the questions in the "Learning Outcomes" section:
-
-    - [Ruby Explained: Classes](http://www.eriktrautman.com/posts/ruby-explained-classes)
-    - [Ruby Explained: Inheritance and Scope](http://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
-
+    * [Ruby Explained: Classes](http://www.eriktrautman.com/posts/ruby-explained-classes)
+    * [Ruby Explained: Inheritance and Scope](http://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
 1. Read the article [Object Relationships in Basic Ruby](https://medium.com/@marcellamaki/object-relationships-in-basic-ruby-1af5773fff48) to see an example of how two classes can interact.
 1. Read the [Bastard's Chapter on Error Handling](http://ruby.bastardsbook.com/chapters/exception-handling/) to reinforce your understanding of dealing with errors.
 1. Do [Quiz #5](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) and [Quiz #7](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) from Code Quizzes
 1. Every programming language community develops a style guide to help make code more maintainable and easier to read, therefore it is important to familiarize yourself with the [Ruby Style Guide](https://rubystyle.guide/).
-
-    - As you can see, there are a lot of guidelines. Instead of trying to remember everything, install [rubocop](https://docs.rubocop.org/rubocop/installation.html), a static code analyzer (linter) and formatter, which is based on this style guide.
-    - When it suggests a change that you don't understand, you can refer to this style guide to understand the reasons behind the rule. You will be inundated with offenses that seem minor, but we encourage you to make the recommended adjustments and trust the wisdom of the Ruby community that developed this style guide. If you feel strongly that you should ignore a particular rule, you can research ways to disable a particular rule or even ignore an entire file.
-    - Read the [basic usage](https://docs.rubocop.org/rubocop/usage/basic_usage.html) of rubocop in the terminal.
-    - To highlight the rubocop offenses in VSCode, you will need to have the 'Ruby' extension installed. In addition, you will need to update your settings.json file with the following lines:
+    * As you can see, there are a lot of guidelines. Instead of trying to remember everything, install [rubocop](https://docs.rubocop.org/rubocop/installation.html), a static code analyzer (linter) and formatter, which is based on this style guide.
+    * When it suggests a change that you don't understand, you can refer to this style guide to understand the reasons behind the rule. You will be inundated with offenses that seem minor, but we encourage you to make the recommended adjustments and trust the wisdom of the Ruby community that developed this style guide. If you feel strongly that you should ignore a particular rule, you can research ways to disable a particular rule or even ignore an entire file.
+    * Read the [basic usage](https://docs.rubocop.org/rubocop/usage/basic_usage.html) of rubocop in the terminal.
+    * To highlight the rubocop offenses in VSCode, you will need to have the 'Ruby' extension installed. In addition, you will need to update your settings.json file with the following lines:
 
 ```bash
 "ruby.lint": {
@@ -48,7 +45,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Knowledge check
 
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects">What is a class?</a>
 - <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What are getters and setters?</a>
@@ -59,13 +56,11 @@ The following questions are an opportunity to reflect on key topics in this less
 - <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-classes">What is the difference between class variables and instance variables?</a>
 
 ### Additional resources
-
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to Sandi Metz's book, in about 40 minutes.
 - If you need a variable refresher, check out [Zetcode's Variables section](https://zetcode.com/lang/rubytutorial/variables/).
 - If you want more examples to code along with, check out [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/) and [Zetcode's second OOP section](https://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down).
 - After you have completed several OOP projects, the following books by Sandi Metz are essential to build on the foundational concepts in this lesson.
-
     - [99 Bottles of OOP](https://sandimetz.com/99bottles) is a hands-on workbook that you should code along with to get the most out of it. This is a great resource if you feel uncertain about OOP concepts and would like to guided through refactoring examples and explanations.
     - [Practical Object-Oriented Design in Ruby](https://www.poodr.com/) is a traditional technical book with practical examples. This is a great resource after 99 Bottles or if you already feel like you fully understand OOP concepts.
