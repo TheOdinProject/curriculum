@@ -7,6 +7,7 @@ const { correctOrderedList } = require("./correctOrderedList");
 const { correctUnorderedList } = require("./correctUnorderedList");
 const { sectionsDefaultContent } = require("./defaultSectionContent");
 const { formatStartAndEnd } = require("./formatStartAndEnd");
+const { h3headings } = require("./h3headings");
 const { lessonIntoArrayOfLines } = require("./lessonIntoArrayOfLines");
 const { removeKnowledgeHtml } = require("./removeKnowledgeHtml");
 const { removeRepeatingNewlines } = require("./removeRepeatingNewlines");
@@ -30,6 +31,7 @@ async function processLesson(filePath) {
   lines = unindentLists(lines);
   lines = removeRepeatingNewlines(lines);
   lines = removeKnowledgeHtml(lines);
+  lines = h3headings(lines);
   updateLesson(lesson, lines);
 }
 
