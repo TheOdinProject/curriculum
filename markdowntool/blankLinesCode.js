@@ -1,12 +1,11 @@
 const { Line } = require("./line");
-const { data } = require("./api");
 
 // Add blank lines above and below code blocks
 function blankLinesCode(lines) {
   const abovesAndBelows = [];
   let lastIndex = null;
   lines.forEach((line, index) => {
-    if (line.content.trim().startsWith(data.codeBlock)) {
+    if (line.content.trim().startsWith('```')) {
       if (lastIndex !== null) {
         abovesAndBelows.unshift(lines[index + 1], lines[lastIndex]);
         lastIndex = null;

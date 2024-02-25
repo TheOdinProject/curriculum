@@ -1,4 +1,3 @@
-const { data } = require("./api");
 const { Line } = require("./line");
 
 // Add blank lines above and below lists
@@ -7,18 +6,11 @@ function blankLinesLists(lines) {
   const newLines = [];
   lines.forEach((line) => {
     if (
-      line.content.startsWith(
-        data.unorderedListFormat[0].concat(data.unorderedListFormat[1])
-      )
+      line.content.startsWith('- ')
     ) {
       listArray.push(line);
     } else if (
-      line.content.startsWith(
-        data.orderedListFormat[0].concat(
-          data.orderedListFormat[1],
-          data.orderedListFormat[2]
-        )
-      )
+      line.content.startsWith('1. ')
     ) {
       listArray.push(line);
     } else {

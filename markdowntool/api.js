@@ -1,18 +1,4 @@
-// If you want to customize the tool, you can do so here
-
-const legacyData = {
-  codeBlock: "~~~",
-  unorderedListFormat: ["*", " "],
-  defaultContentTitle: "learning outcomes",
-};
-
 const data = {
-  codeBlock: "```",
-  headingTypes: ["###", "####", "#####"],
-  unorderedListFormat: ["-", " "],
-  orderedListFormat: ["1", ".", " "],
-  fileType: ".md",
-  encoding: "utf8",
   defaultContent: {
     "Lesson overview":
       "This section contains a general overview of topics that you will learn in this lesson.",
@@ -23,4 +9,4 @@ const data = {
   },
 };
 
-module.exports = { data, legacyData };
+module.exports = { data };

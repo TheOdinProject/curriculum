@@ -1,10 +1,10 @@
-const { data } = require("./api");
 const { Line } = require("./line");
 
 // Insert blank lines before and after: h3, h4, h5 headings.
 function blankLinesHeadings(lines) {
+  const headingTypes = ['###', '####', '#####'];
   lines.forEach((line, lineNumber) => {
-    data.headingTypes.forEach((type) => {
+    headingTypes.forEach((type) => {
       if (line.content !== undefined && line.content.startsWith(type)) {
         const below = lines[lineNumber + 1];
         const above = lines[lineNumber - 1];
