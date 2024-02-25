@@ -245,6 +245,7 @@ The key benefit of using `transform` is that it occurs during **composition**. T
 Another benefit of `transform` is that it can be hardware-accelerated via a device's [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) (you don't have to understand how a GPU works but it is good to be aware of the term and what it means). This benefit is more prominent when it comes to transitions and animations which you will learn about in the following lessons.
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 1. To learn about how `rotate3d` works, check out this great [demonstration on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) and this [Quackit article](https://www.quackit.com/css/functions/css_rotate3d_function.cfm).
 1. For more details on how `perspective` works in regards to 3D transforms, check out this [CSS Tricks article](https://css-tricks.com/how-css-perspective-works/).
