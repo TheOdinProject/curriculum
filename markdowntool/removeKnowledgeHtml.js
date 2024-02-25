@@ -13,7 +13,8 @@ function removeKnowledgeHtml(lines) {
         .slice(indexOfHref + 6, indexTwo - 1);
       const knowledgeString = contentSplit
         .join("")
-        .slice(indexTwo + 1, indexOne);
+        .slice(indexTwo + 1, indexOne)
+        .trim();
       const listIndicator = line.content.slice(0, indexOfBracket);
       line.content = `${listIndicator}[${knowledgeString}](${hrefString})`;
     }
