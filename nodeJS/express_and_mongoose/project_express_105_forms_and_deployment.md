@@ -6,9 +6,9 @@ It's another long multi-part tutorial, with plenty of useful information scatter
 
 This is the last lesson on the MDN tutorial. The last step, listed below takes you through what you need to do to actually deploy your project so you can share it and show it off, so be sure to link it up in the student solutions below!
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Describe form handling process.
 - Describe validation and sanitization.

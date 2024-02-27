@@ -6,9 +6,9 @@ Throughout the lessons, we've learned how to manage state and pass data/props ar
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Using the Context API to pass state and data deep into React components
-- Real-world application of the Context API
-- Drawbacks of using the Context API
+- Using the Context API to pass state and data deep into React components.
+- Real-world application of the Context API.
+- Drawbacks of using the Context API.
 
 ### Why do we need Context API
 
@@ -109,7 +109,7 @@ So far, what we've done in the `App` component is:
 - Pass `products` and `addToCart` down to the `ProductDetail` component
 - Pass `cartItemsCount` down to the `Header` component and the `Links` component that is part of the `Header`
 
-This is a very simple application, but imagine the application grows in size as more features are added, say in the Product Detail Page. There will be a lot more components to nest, and potentially more nested props. What if we have a `Cart` component and a `ProductListing` component? What if we added more functionalities other than just `addToCart`? It can get repetitive and complex because, as we all know, more features equal more complexities. This is especially frequent in component-based frameworks since we're more inclined to create separate reusable components instead of inlining elements, which in turn creates more nesting and passing of props.
+This is a very basic application, but imagine the application grows in size as more features are added, say in the Product Detail Page. There will be a lot more components to nest, and potentially more nested props. What if we have a `Cart` component and a `ProductListing` component? What if we added more functionalities other than just `addToCart`? It can get repetitive and complex because, as we all know, more features equal more complexities. This is especially frequent in component-based frameworks since we're more inclined to create separate reusable components instead of inlining elements, which in turn creates more nesting and passing of props.
 
 ### Implementing Context API
 
@@ -244,7 +244,7 @@ export default function ProductDetail() {
 <a name="context-api-benefits"></a>
 In the `Header` component, we used `useContext()` to access `cartItems` from the `ShopContext`. Similarly, in the `ProductDetail` component, we can use the `products` and `addToCart` function.
 
-With this implementation, we no longer need to pass down props from the `App` component to the `Header` and `ProductDetail` components. The `Header` and `ProductDetail` components can simply access the `cartItems` state and `addToCart` function from the `ShopContext`.
+With this implementation, we no longer need to pass down props from the `App` component to the `Header` and `ProductDetail` components. The `Header` and `ProductDetail` components can access the `cartItems` state and `addToCart` function from the `ShopContext`.
 
 Overall, the implementation of the Context API has allowed for a more efficient, cleaner, and streamlined way of passing down data across multiple components. By using the `createContext()` function and the `useContext()` hook, we can easily pass down state and functions to child components without the need for prop drilling. It's also more centralized since we're keeping our data in a single location. All of these make our code easier to reason about.
 

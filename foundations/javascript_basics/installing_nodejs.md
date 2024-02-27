@@ -12,8 +12,8 @@ Node is also very easy to install using nvm, so this should go quickly :)
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Learn how to Install Node Version Manager and Node Package Manager
-- Learn how to run Node console
+- Learn how to Install Node Version Manager and Node Package Manager.
+- Learn how to run Node console.
 
 ### Installing NVM
 
@@ -34,7 +34,7 @@ Note: You may need to update the Ubuntu package lists to the latest version for 
 sudo apt update && sudo apt upgrade
 ```
 
-#### Step 1: Downloading and installing NVM
+#### Step 1: Downloading and Installing NVM
 
 Run this command to install `nvm`:
 
@@ -57,7 +57,7 @@ You can verify `nvm` is installed by running the command:
 command -v nvm
 ```
 
-if this returns `nvm: command not found`, close the terminal and re-open it.
+If this returns `nvm: command not found`, close the terminal and re-open it.
 
 </details>
 
@@ -90,7 +90,7 @@ Test your nvm installation by running:
 nvm --version
 ```
 
-For more information, view [NVM's github documentation](https://github.com/nvm-sh/nvm#installation-and-update).
+For more information, view [NVM's GitHub Documentation](https://github.com/nvm-sh/nvm#installation-and-update).
 
 </details>
 

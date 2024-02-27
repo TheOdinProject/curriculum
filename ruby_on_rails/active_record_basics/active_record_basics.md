@@ -112,7 +112,7 @@ So the only way to truly enforce constraints is on the database level, since you
 
 In the databases sections, you learned about how a relational database like SQLite3 or PostgreSQL lets you link two tables together using their primary keys (called a foreign key in the specific table that is referencing another one). It's the real power of relational databases that they let you leverage these, well, relationships. Active Record takes that feature and lets you use it in all kinds of useful ways. Do you want to get all of your first user's blog posts? Try `User.first.posts`. It's as simple as that.
 
-That functionality doesn't come out of the box -- you need to tell Rails that posts actually belong to a user.  On the database table level, this means that every row in the posts table will have column for `user_id` that tells you which user "owns" that post.  The users table doesn't need to acknowledge the posts at all... after all, a single user can have an infinite number of posts.  If we're interested in a user's posts, we just have to query the posts table for all posts that link back to that user's ID.  Rails makes these relationships very easy to specify.  What we just talked about is aptly named a "has many / belongs to" association (a User `has_many` Post objects associated with it and a Post `belongs_to` a single User).
+That functionality doesn't come out of the box -- you need to tell Rails that posts actually belong to a user.  On the database table level, this means that every row in the posts table will have a column for `user_id` that tells you which user "owns" that post.  The users table doesn't need to acknowledge the posts at all... after all, a single user can have an infinite number of posts.  If we're interested in a user's posts, we just have to query the posts table for all posts that link back to that user's ID.  Rails makes these relationships very easy to specify.  What we just talked about is aptly named a "has many / belongs to" association (a User `has_many` Post objects associated with it and a Post `belongs_to` a single User).
 
 Step one with understanding this stuff is just to think about which different types of relationships are possible.  Remember, half the battle of setting up your application is understanding what your data relationships will look like, so give this some thought and keep at it when it gets confusing.  If your mind is a bit fried right now, start back in the real world and don't think about it on a database level -- remember, all this stuff is our attempt to reflect the kinds of relationships that can occur in the real world.
 
@@ -164,11 +164,6 @@ It's easiest to start thinking about concrete relationships in the real world an
 
 It's all about practice, so the projects from here on out will ask you to think through your model organization before getting started.  Taking a few minutes to think through your relationships ahead of time is essential for getting started in the right direction when you begin writing code.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Schneems on database backed models with Active Record](https://www.youtube.com/watch?v=EU98yHB-_7A).
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -177,3 +172,9 @@ This section contains questions for you to check your understanding of this less
  * [What does the validation helper `presence: true` enforce?](https://guides.rubyonrails.org/active_record_validations.html#presence)
  * [How can you see why an instance of a model class has failed validation?](https://guides.rubyonrails.org/active_record_validations.html#validations-overview-errors)
  * [If class A has a `belongs_to` association with class B, which class's database table should contain a foreign key?](https://guides.rubyonrails.org/association_basics.html#choosing-between-belongs-to-and-has-one)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Schneems on database backed models with Active Record](https://www.youtube.com/watch?v=EU98yHB-_7A).

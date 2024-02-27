@@ -2,8 +2,6 @@
 
 Like we learned in the introduction lesson, Node.js is really just JavaScript. So a basic understanding of JavaScript is necessary in order to understand Node. For this reason, it is highly recommended that you take our prerequisite [JavaScript course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript) before continuing with this course.
 
-### Lesson overview
-
 This lesson will take you through a tutorial that will teach you the basic modules and functions that you need to get up and running with Node.js. The project that comes at the end of this section will ask you to use Node to create a basic website that will include an `Index`, `About` and `Contact Me` page. So while learning the topics in this lesson, be on the lookout for things that might help you complete the project.
 
 <div class="lesson-note" markdown="1">
@@ -14,9 +12,9 @@ Recently the NodeJS.dev team removed a large amount of content from their websit
 
 </div>
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain some things that Node.js is commonly used for.
 - Create and use modules in Node.js (both built-in and user created).

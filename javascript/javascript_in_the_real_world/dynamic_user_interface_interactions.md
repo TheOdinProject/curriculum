@@ -52,3 +52,9 @@ This section contains questions for you to check your understanding of this less
 - [What are some different types of navigation menus?](https://uxplanet.org/top-8-mobile-navigation-menu-design-for-your-inspiration-8a2d925bffc0)
 - [What are the alternatives to hamburger menus?](https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/)
 - [What are the downsides of hamburger menus?](https://marvelapp.com/blog/hamburger-menu-alternatives-mobile-navigation/)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

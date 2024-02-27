@@ -6,10 +6,10 @@ Since JavaScript is the language of the web, there are some functions that by ne
 
 This section contains a general overview of topics that you will learn in this lesson.
 
- - Explain what a callback is
- - Explain what a promise is
- - Explain the circumstances under which promises are better than callbacks
- - Explain what the `.then()` function does
+ - Explain what a callback is.
+ - Explain what a promise is.
+ - Explain the circumstances under which promises are better than callbacks.
+ - Explain what the `.then()` function does.
 
 ### Callbacks
 

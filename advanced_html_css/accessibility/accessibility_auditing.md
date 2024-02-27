@@ -2,12 +2,12 @@
 
 Now that you are equipped with the necessary knowledge to make your websites more accessible to many users, the question arises: How can we verify the correct implementation of a11y features? Are there any mistakes to be corrected, or potential improvements to be made?  In this lesson, we will answer those questions to help push your a11y skills over the top.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-* Open the accessibility section within your browser's DevTools.
-* Audit a web page with a third-party auditing tool.
+- Open the accessibility section within your browser's DevTools.
+- Audit a web page with a third-party auditing tool.
 
 ### Accessibility DevTools
 
