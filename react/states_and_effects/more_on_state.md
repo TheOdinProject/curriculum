@@ -21,7 +21,7 @@ The assignment items go through the topic thoroughly, but as a general rule of t
 Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference type values i.e. arrays and objects, never mutate them. According to React documentation, we should treat state as if it was _immutable_.
 In order for us to change state, we should always use the `setState` function. Make sure to run the following example locally and see the difference for yourself.
 
-~~~jsx
+```jsx
 function Person() {
   const [person, setPerson] = useState({ name: 'John', age: 100 });
 
@@ -48,7 +48,7 @@ function Person() {
     </>
   );
 }
-~~~
+```
 
 
 <div class="lesson-note lesson-note--tip" markdown="1">
@@ -68,7 +68,7 @@ State updates are asynchronous. What this implies is whenever you call the `setS
 
 Remember, state variables aren't reactive, the component is. This can be understood by the fact that calling `setState` re-renders the entire component instead of just changing the state variable on the fly.
 
-~~~jsx
+```jsx
 function Person() {
   const [person, setPerson] = useState({ name: 'John', age: 100 });
 
@@ -91,7 +91,7 @@ function Person() {
     </>
   );
 }
-~~~
+```
 
 These are the logs:
 
@@ -111,7 +111,7 @@ The `person` state stays the same throughout the current render of the component
 
 The following is an infinite loop, can you guess why? Drop by in our [Discord chatroom](https://discord.com/invite/fbFCkYabZB), tell us why, and score a brownie point!
 
-~~~jsx
+```jsx
 function Component() {
   const [count, setCount] = useState(0);
 
@@ -119,7 +119,7 @@ function Component() {
 
   return <h1>{count}</h1>;
 }
-~~~
+```
 
 </div>
 
@@ -128,12 +128,12 @@ function Component() {
 A trick question. Let's look at another implementation of `handleIncreaseAge`; what do you think it does?
 
 
-~~~jsx
+```jsx
 const handleIncreaseAge = () => {
   setPerson({ ...person, age: person.age + 1 });
   setPerson({ ...person, age: person.age + 1 });
 };
-~~~
+```
 
 Surely, it will increase the age by 2? Nope. The above code is saying to React:
 
@@ -141,12 +141,12 @@ Surely, it will increase the age by 2? Nope. The above code is saying to React:
 
 Notice the word "replace". When you pass in the value to the `setState` function, React will replace the current state with the value you passed in. You might be wondering, what if I want to update the state multiple times using the latest state? This is where the state updater function comes in.
 
-~~~jsx
+```jsx
 const handleIncreaseAge = () => {
   setPerson((prevPerson) => ({ ...prevPerson, age: prevPerson.age + 1 }));
   setPerson((prevPerson) => ({ ...prevPerson, age: prevPerson.age + 1 }));
 };
-~~~
+```
 
 When a callback is passed to the `setState` function, it ensures that the latest state is passed in as an argument to the callback.
 
@@ -165,7 +165,7 @@ There are two `setPerson` calls in the above example, and from what we've learne
 
 There are native HTML elements that maintain their own internal state. The `input` element is a great example. You type into an `input` and it updates its own value on every keystroke. For many use-cases, you would like to _control_ the value of the `input` element i.e. set its value yourself. This is where controlled components come in.
 
-~~~jsx
+```jsx
 function CustomInput() {
   const [value, setValue] = useState('');
 
@@ -177,7 +177,7 @@ function CustomInput() {
     />
   );
 }
-~~~
+```
 
 Instead of letting the `input` maintain its own state, we define our own state using the `useState` hook. We then set the `value` prop of the `input` to the state variable and update the state variable on every `onChange` event. Now, every time the user types something in the input, React will ensure you have the latest comment/review/post (whatever the user was typing) in `value`.
 

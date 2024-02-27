@@ -31,12 +31,12 @@ An app that changes its background color based on the clicked button. Take your 
 
 State definition with `useState` commonly follows this pattern:
 
-~~~js
+```js
 const [stateValue, setStateValue] = useState(initialValue);
 
 // adapted for our use case:
 const [backgroundColor, setBackgroundColor] = useState(initialColor);
-~~~
+```
 
 Even without much knowledge of React, you can, to some extent, understand what's going on. The `backgroundColor` state is defined with the hook. Then on every button, we set up a _click_ event handler that calls the `setBackgroundColor` function with the corresponding value. Then, magically the new color is applied to the background. 
 

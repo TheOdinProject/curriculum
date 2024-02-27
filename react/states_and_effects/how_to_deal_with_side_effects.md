@@ -21,7 +21,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Let us take a component in question. We want to make a `Clock` component that shows how many seconds have passed since the user has loaded the webpage. To update it every second, we can use our nifty `setInterval` function to add one to the `counter` state variable, every second. Let's try putting it in the body of our component.
 
-~~~jsx
+```jsx
 import React, { useState } from "react";
 
 export default function Clock() {
@@ -35,13 +35,13 @@ export default function Clock() {
     <p>{counter} seconds have passed.</p>
   );
 }
-~~~
+```
 
 Alas, we see our counter going berserk. The reason this occurs is that we try to **manipulate the state during render**. As we know, the component gets torn down and re-rendered every time the state updates, and we are updating the state every second, thus incrementing rapidly.
 
 This is where the `useEffect` hook swoops in to save us. We can wrap this calculation inside a `useEffect` hook to move it outside the rendering calculation. It accepts a callback function with all the calculations.
 
-~~~jsx
+```jsx
 import React, { useEffect, useState } from "react";
 
 export default function Clock() {
@@ -57,7 +57,7 @@ export default function Clock() {
     <p>{counter} seconds have passed.</p>
   );
 }
-~~~
+```
 
 But, it still keeps growing too fast! This is where another argument of the `useEffect` comes in: the dependency array.
 
@@ -69,7 +69,7 @@ Fortunately, the second argument accepts an array of dependencies allowing the h
 
 We pass an empty array in this example because we do not want the `useEffect` hook to run anytime other than the initial component render.
 
-~~~jsx
+```jsx
 import React, { useEffect, useState } from "react";
 
 export default function Clock() {
@@ -85,12 +85,12 @@ export default function Clock() {
     <p>{counter} seconds have passed.</p>
   );
 }
-~~~
+```
 
 <div class="lesson-note" markdown="1">
 Usually, you do not need to add dependencies to your `useEffect`hook manually. Your linter should let you know about the dependencies it expects. Letting the linter show errors and fixing them instead of suppressing them is usually the best idea. On a general note, the following block does a good job of summing this point up.
 
-~~~jsx
+```jsx
 useEffect(() => {
   // This runs after every render
 });
@@ -102,7 +102,7 @@ useEffect(() => {
 useEffect(() => {
   // This runs on mount *and also* if either a or b have changed since the last render
 }, [a, b]);
-~~~
+```
 </div>
 
 #### The clean-up function
@@ -113,7 +113,7 @@ Notice that every time the `useEffect` hook runs, a new `setInterval` is used.  
 
 You can return a function from the callback in the `useEffect` hook, which will be executed each time before the next effect is run, and one final time when the component is unmounted. In this case, let us clean up the interval with a cleanup function.
 
-~~~jsx
+```jsx
 import React, { useEffect, useState } from "react";
 
 export default function Clock() {
@@ -133,11 +133,11 @@ export default function Clock() {
     <p>{counter} seconds have passed.</p>
   );
 }
-~~~
+```
 
 Phew! It finally works! As the counter keeps merrily ticking on, let us sum up <span id="body-of-an-useEffect">what we know about the `useEffect` hook.</span>
 
-~~~jsx
+```jsx
 useEffect(
   () => {
     // execute side effect
@@ -148,7 +148,7 @@ useEffect(
   // optional dependency array
   [/* 0 or more entries */]
 )
-~~~
+```
 
 ### But do we need the effect?
 
@@ -158,7 +158,7 @@ Let us address a few cases where `useEffect` does not need to be used.
 
 *   You do not need to use an effect if you are only calculating something based on the state during rendering. For a change in a component, due to a change in the props, you can calculate and set it during rendering.
 
-    ~~~jsx
+    ```jsx
     import React, { useState } from "react";
 
     export default function AdditionDisplay() {
@@ -178,11 +178,11 @@ Let us address a few cases where `useEffect` does not need to be used.
         <p>{number1} + {number2} = {sum}</p>
       );
     }
-    ~~~
+    ```
 
 *   You do not need effects for events. Code that runs when a component is **displayed** should be in effects, the rest should be in events.
 
-    ~~~jsx
+    ```jsx
     import React, { useState } from "react";
 
     export default function App() {
@@ -210,7 +210,7 @@ Let us address a few cases where `useEffect` does not need to be used.
         </>
       );
     }
-    ~~~
+    ```
 
 *   You do not need an effect to reset the state based on a condition most of the time. You have learned about keys in React. Just like using a key on a list's item, adding one to a component, based on the state on which it should be reset creates a unique version of that component for each change in the value of the state.
 
