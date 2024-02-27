@@ -348,10 +348,10 @@ You should now be able to log in using the new user you've created (the one with
 
 <div class="lesson-content__panel" markdown="1">
 
-- Watch videos 1, 2, 3, 5 and 6 of this [Youtube Playlist on sessions in Express and local strategy authentication with PassportJS](https://www.youtube.com/playlist?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK).
-  - You may notice at some points in the videos, the Express app contains the line `app.use(passport.initialize())`. This line is no longer required to include in current versions of Passport.
-  - In [video 5: "Passport Local Configuration (Node + Passport + Express)"](https://www.youtube.com/watch?v=xMEOT9J0IvI&list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK&index=5&t=822s), it shows using the `connect-mongo` library to use your MongoDB connection to store sessions, as opposed to storing them in memory. The syntax for creating a new "MongoStore" has changed a little since this video but is very similar. You can view the current syntax for doing this on the [npm page for `connect-mongo`](https://www.npmjs.com/package/connect-mongo).
-- In [Passport: The Hidden Manual](https://github.com/jwalton/passport-api-docs), you can explore more comprehensive explanations of some of Passport's main functions, gaining a deeper understanding of what each function accomplishes.
+1. Watch videos 1, 2, 3, 5 and 6 of this [Youtube Playlist on sessions in Express and local strategy authentication with PassportJS](https://www.youtube.com/playlist?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK).
+   - You may notice at some points in the videos, the Express app contains the line `app.use(passport.initialize())`. This line is no longer required to include in current versions of Passport.
+   - In [video 5: "Passport Local Configuration (Node + Passport + Express)"](https://www.youtube.com/watch?v=xMEOT9J0IvI&list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK&index=5&t=822s), it shows using the `connect-mongo` library to use your MongoDB connection to store sessions, as opposed to storing them in memory. The syntax for creating a new "MongoStore" has changed a little since this video but is very similar. You can view the current syntax for doing this on the [npm page for `connect-mongo`](https://www.npmjs.com/package/connect-mongo).
+1. In [Passport: The Hidden Manual](https://github.com/jwalton/passport-api-docs), you can explore more comprehensive explanations of some of Passport's main functions, gaining a deeper understanding of what each function accomplishes.
 
 </div>
 
