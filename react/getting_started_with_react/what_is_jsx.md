@@ -11,7 +11,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What is JSX?
 
-JSX is a syntax extension for Javascript that lets you write HTML-like markup inside a Javascript file. It's not required to use JSX when writing React components, but it does make writing them more simple and concise.
+JSX is a syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file. It's not required to use JSX when writing React components, but it does make writing them more concise.
 
 Essentially, JSX is syntactic sugar for the React [createElement](https://react.dev/reference/react/createElement) function. This function creates a React element, which is a plain object, so JSX compiles down to plain JavaScript objects.
 
@@ -52,8 +52,8 @@ If you were to take some valid HTML and copy it straight into your React compone
    ~~~jsx
    function App() {
      return (
-         <h1>Example h1</h1>
-         <h2>Example h2</h2>
+       <h1>Example h1</h1>
+       <h2>Example h2</h2>
      );
    }
    ~~~
@@ -82,10 +82,10 @@ If you were to take some valid HTML and copy it straight into your React compone
    ~~~jsx
    function App() {
      return (
-         <>
-          <input>
-          <li>
-         </>
+       <>
+         <input>
+         <li>
+       </>
      );
    }
    ~~~
@@ -99,13 +99,11 @@ If you were to take some valid HTML and copy it straight into your React compone
    ~~~jsx
    function App() {
      return (
-       <>
-         <div className="container">
-           <svg>
-             <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
-           </svg>
-         </div>
-       </>
+      <div className="container">
+        <svg>
+          <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
+        </svg>
+      </div>
      );
    }
    ~~~
@@ -115,13 +113,11 @@ If you were to take some valid HTML and copy it straight into your React compone
    ~~~jsx
    function App() {
      return (
-       <>
-         <div class="container">
-           <svg>
-             <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
-           </svg>
-         </div>
-       </>
+      <div class="container">
+        <svg>
+          <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
+        </svg>
+      </div>
      );
    }
    ~~~
@@ -137,13 +133,13 @@ Now that we've covered the Rules of JSX, we'll go through the conversion of a ch
   <li>List item 2
   <li>List item 3
 </ol>
-<svg >
+<svg>
    <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
 </svg>
 <form><input type="text"></form>
 ~~~
 
-If you try to return this from a React component, you would get many errors, so we are going to fix that! 
+If you try to return this from a React component, you would get many errors, so we are going to fix that!
 
  Make sure to follow along this example in your local environment. Alternatively, you can go to [react.new](https://react.new/) to have a quick React environment up and going in your web browser.
 
@@ -157,7 +153,7 @@ The first issue we get is that this would not return a single root element, so l
     <li>List item 2
     <li>List item 3
   </ol>
-  <svg >
+  <svg>
      <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
   </svg>
   <form><input type="text"></form>
@@ -212,9 +208,11 @@ Now that we've applied all of the fixes to the errors that React gave us, this i
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through the React docs [Writing markup with JSX page](https://react.dev/learn/writing-markup-with-jsx) to review the content we have covered here, and complete the challenge at the end.
+In the following lessons, you will spend some time reading the React documentation. Most of them will have small tasks at the end to test what you have read. We will not       mention them explicitly each time, but be sure to do them. Practice makes perfect!
 
-2.  Read through the React docs [Javascript in JSX page](https://react.dev/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing Javascript logic and referencing dynamic values inside of your markup. Make sure you go through the challenges at the end.
+1.  Read through the React docs [Writing markup with JSX page](https://react.dev/learn/writing-markup-with-jsx) to review the content we have covered here.
+
+2.  Read through the React docs [JavaScript in JSX page](https://react.dev/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing JavaScript logic and referencing dynamic values inside of your markup.
 
 </div>
 

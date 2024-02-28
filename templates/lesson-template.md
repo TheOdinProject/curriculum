@@ -30,7 +30,7 @@ A sample note box, variation: warning.
 </div>
 
 <div class="lesson-note lesson-note--critical" markdown="1">
-A sample note box, variation: warning.
+A sample note box, variation: critical.
 </div>
 
 ### Assignment

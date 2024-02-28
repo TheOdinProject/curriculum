@@ -21,7 +21,7 @@ Don't worry if you don't totally understand what you are doing in these next ste
 
 #### Step 1.1: Install Rails
 
-We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!
+We've previously installed Ruby, and now it's time to install Ruby on Rails. It's just running one command!
 
 ~~~bash
 gem install rails
@@ -118,7 +118,11 @@ In the terminal, type
 rails server
 ~~~
 
-Now, open a browser and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! **Note:** If you're using a VM, you will need to open the browser inside of your VM in order for this to work.
+Now, open a browser and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! 
+
+<div class="lesson-note lesson-note--warning" markdown=1>
+If you're using a VM, you will need to open the browser inside of your VM in order for this to work.
+</div>
 
 Go ahead and create a new car, and then refresh the page to verify it is working. Add as many cars as you'd like! When you're satisfied, go back to the terminal where the Rails server is running, and type <kbd>Ctrl</kbd> + <kbd>C</kbd> to close the server.
 

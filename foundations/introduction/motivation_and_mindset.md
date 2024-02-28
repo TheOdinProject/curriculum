@@ -22,7 +22,7 @@ To give your motivation a bit of a boost, you can read about the success of othe
 
 Your mindset is very important when teaching yourself *any* new skills, not just programming. Your mindset will have more of an impact on your chances of success than just about anything else.
 
-Someone with the **fixed mindset** believes if they don't get something on their first attempt, they never will. They believe that they simply aren't smart enough to be able to do or understand some things.
+Someone with the **fixed mindset** believes if they don't get something on their first attempt, they never will. They believe that they aren't smart enough to be able to do or understand some things.
 
 However, there is a wide body of research showing that intelligence is not fixed but can instead be developed. Someone with the **growth mindset** believes they can get better at anything with effort and persistence.
 
@@ -92,7 +92,7 @@ You will have more success with Odin by putting **consistent** time into it rath
 
 It may take you longer than others to grasp concepts, or it may take you less time. This doesn't mean you're smarter or dumber than others, it means you've had differing life experiences that may or may not have prepared you for learning this stuff. Someone who grew up around an engineer may have some advantages over someone who didn't, but it doesn't mean you can't learn those skills.
 
-The Odin Project isn't like college or university, it is self paced and allows you to get a really solid grasp of concepts before moving on. In school, you're forced to keep up or you will fail. The difference here is that coming into The Odin Project, you're not expected to have much knowledge; there are no prerequisites. We've had people be successful coming through here who only knew how to check their email with a computer. We've also seen success from computer science degree holders. Treating The Odin Project like a static timeline is understandable, but is a sign of misplaced expectations. You simply don't know what you don't know yet, and that's OK! There are no due-dates on things in The Odin Project so you can spend the time to do it right and discuss the topics.
+The Odin Project isn't like college or university, it is self paced and allows you to get a really solid grasp of concepts before moving on. In school, you're forced to keep up or you will fail. The difference here is that coming into The Odin Project, you're not expected to have much knowledge; there are no prerequisites. We've had people be successful coming through here who only knew how to check their email with a computer. We've also seen success from computer science degree holders. Treating The Odin Project like a static timeline is understandable, but is a sign of misplaced expectations. You don't know what you don't know yet, and that's OK! There are no due-dates on things in The Odin Project so you can spend the time to do it right and discuss the topics.
 
 Deadlines cause un-needed stress. Since The Odin Project is a free and open platform, you are not beholden to a deadline. Creating your own deadlines is a good way to rush concepts that should not be rushed. This course is very research based, meaning you will have to do research to complete tasks and projects. There's no telling if you can find the article or post that helps you in the right way, quickly to meet your deadlines, but we bet you learned a TON along the way that you can use in the future. People that do this kind of research and strive to write better solutions tend to become better developers in the future. There's no knowing how long it could take you to learn how to query stuff to find your answers. There are no solid guidelines on that. If you're doing The Odin Project because you need a high paying job _right-now_, you're not going to become a solid developer within the timeframe you have set. Stress and anxiety absolutely do not help you learn either. Relax and just enjoy the ride.
 
@@ -109,10 +109,9 @@ Procrastination will be your biggest enemy when trying to make progress.
 **Solution:** The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a way of managing your time in order to stay focused. The idea is to set a timer for 25 minutes and to work on a task until the timer goes off. If you get distracted or interrupted during the 25 minutes, start the 25 minutes of work over again. Once you've successfully focused on work for 25 minutes, take a 5 minute break. When your break is over, repeat the 25 minutes of work and 5 minute break. After you've completed four 25 minute blocks of work, take a longer 15-30 minute break. 
 
 The Pomodoro technique is great for avoiding procrastination as it forces you to work without distractions. Since the work time only lasts 25 minutes before taking a break, it's not overwhelming, making it harder to rationalize procrastination.
-
 To learn more about the Pomodoro Technique, read this [great article](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c#.hcqsv37u4).
 
-If you want to try it out, [TomatoTimer](http://tomato-timer.com/#) is an easy-to-use Pomodoro timer.
+If you want to try it out, [Pomofocus](https://pomofocus.io/) is a customizable pomodoro timer that works on desktop & mobile browser.
 
 #### Not taking breaks
 
@@ -143,7 +142,7 @@ Digital distractions are email and Facebook notifications and time-wasting websi
 
 Physical distractions are distractions from your environment, like a TV in the background or other people talking. These distractions can be just as damaging to your focus as digital distractions.
 
-**Solution:** Find a quiet place to study where you can go to focus in your home. If that's not an option, you can use noise cancelling headphones to block out noisy distractions in your environment.
+**Solution:** Find a quiet place to study where you can go to focus in your home. If that's not an option, you can use noise cancelling headphones to block out noisy distractions in your environment. There are also complimentary public and university libraries that are serene and comfortable. Some libraries even operate 24/7, uninterrupted. Beyond just providing a pleasant study space, the presence of others studying around you instills a sense of productivity.
 
 #### Rabbit holes
 
@@ -174,6 +173,9 @@ This section contains helpful links to related content. It isn’t required, so 
 - [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
 - [Managing inspiration and motivation](https://markmanson.net/do-something)
 - [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
-- [Improve your typing skills with Keybr.com](https://www.keybr.com/). One excellent alternative is [typing.com](https://www.typing.com/). Use these keyboard trainer if you find your typing speed is holding you back. We recommend spending 5 mins every day after you start your PC.
-- [Practice typing with Monkeytype!](https://monkeytype.com/) A minimalistic, customizable typing website. Test yourself in various modes, track your progress and improve your typing speed. It has a great community and frequently receives new features. Even though it has so many features, the experience is still very polished. 
+- If you find your typing speed is holding you back, you can improve your typing skills by utilizing these keyboard trainers for at least 5 minutes every day:
+  - [Keybr.com](https://www.keybr.com/)
+  - [typing.com](https://www.typing.com/)
+  - [TypingClub.com](https://www.typingclub.com)
+  - [Monkeytype](https://monkeytype.com/)
 - [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)

@@ -1,6 +1,6 @@
 ### Introduction
 
-You learned about the basics of building forms in HTML and Rails in previous lessons and you can do a whole lot with that knowledge.  But there are also cases when crafting a good user experience demands building a form that handles multiple things (e.g. model objects) at once.  Users only like clicking the submission button once so you'd better be able to give them the simple experience they demand.
+You learned about the basics of building forms in HTML and Rails in previous lessons and you can do a whole lot with that knowledge.  But there are also cases when crafting a good user experience demands building a form that handles multiple things (e.g. model objects) at once.  Users only like clicking the submission button once so you'd better be able to give them the experience they demand.
 
 In this section, we'll take a look at some of the options you have to make a form handle multiple model objects at once.  You'll also learn how to prepopulate a dropdown menu with objects.
 
@@ -47,7 +47,7 @@ This creates a dropdown list with each user's name as an option.  Your `#create`
 
 But Rails provides some less verbose ways of doing the same thing, namely using the `#select_tag` helper in conjunction with the `#options_for_select` helper.  The `#select_tag` will create the surrounding tag while the `#options_for_select` gives `#select_tag` the array of options it needs.
 
-<span id='options-for-select'>`#options_for_select` expects a very specific input -- an array of arrays which provide the text for the dropdown option and the value it represents.<span>  So `options_for_select([["choice1",1],["choice2",2]])` creates a couple of option tags, one for each choice.  This is great, because that's exactly what `#select_tag` expects for its second argument.  The only wrinkle here is that you need to convert your `@users` collection, which has full User objects, into a simple array with just `name` and `value`.  That's easy using `#map`:
+<span id='options-for-select'>`#options_for_select` expects a very specific input -- an array of arrays which provide the text for the dropdown option and the value it represents.<span>  So `options_for_select([["choice1",1],["choice2",2]])` creates a couple of option tags, one for each choice.  This is great, because that's exactly what `#select_tag` expects for its second argument.  The only wrinkle here is that you need to convert your `@users` collection, which has full User objects, into an array with just `name` and `value`.  That's easy using `#map`:
 
 ~~~ruby
   # app/controllers/posts_controller.rb
@@ -170,6 +170,7 @@ Try making a hidden field in your form (or nested form) that has the same name a
 Sometimes Rails helper methods will do it for you, but make sure you know what your form is actually submitting (if anything) if you deselect all options!
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
   1. Read the [Rails Guide on Forms](https://guides.rubyonrails.org/form_helpers.html#choices-from-a-collection-of-arbitrary-objects) section 5, which covers populating a form with a collection of objects.
   2. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms) section 10, which covers accepting nested form data.
@@ -183,18 +184,9 @@ We've covered two of the more common use cases for complex forms -- pre-populati
 
 The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferrable to every form you'll ever make.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Simple Form Documentation on GitHub](https://github.com/plataformatec/simple_form)
-* [`accepts_nested_attributes_for` documentation](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)
-* [Another example of a nested form on SO](http://stackoverflow.com/questions/15648396/rails-how-to-manage-nested-attributes-without-using-accepts-nested-attributes?rq=1)
-* [Using `inverse_of` to make `accepts_nested_attributes_for` work for `has_many :through` relationships](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through)
-* [Understanding Rails' form authenticity tokens](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token)
-* [Why not to hardcode your application's secret token in production](http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/)
-
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
 - <a class="knowledge-check-link" href='#prepopulating-select-tags-with-collections'>What does the `#select_tag` helper do?</a>
 - <a class="knowledge-check-link" href='#options-for-select'>When using `#options_for_select`, what format does the array need to be in?</a>
@@ -203,4 +195,14 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href='#accepts_nested_attributes_for'>What do you add to the model that allows nested forms to create new objects?</a>
 - <a class="knowledge-check-link" href='https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html'>How do you allow the nested parameters in your controller?</a>
  - <a class="knowledge-check-link" href='#miscellania-blank-submissions-that-mean-delete'>How can you set up a dropdown or checkbox to delete a record that already exists?</a>
- 
+
+### Additional resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- [Simple Form Documentation on GitHub](https://github.com/plataformatec/simple_form)
+- [`accepts_nested_attributes_for` documentation](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)
+- [Another example of a nested form on SO](http://stackoverflow.com/questions/15648396/rails-how-to-manage-nested-attributes-without-using-accepts-nested-attributes?rq=1)
+- [Using `inverse_of` to make `accepts_nested_attributes_for` work for `has_many :through` relationships](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through)
+- [Understanding Rails' form authenticity tokens](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token)
+- [Why not to hardcode your application's secret token in production](http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/)

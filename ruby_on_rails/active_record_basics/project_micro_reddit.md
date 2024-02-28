@@ -44,7 +44,7 @@ Use whatever format feels best to you.
 
 For each of the following scenarios, write down the models, columns, validations and associations you might use to implement it.  Some of these are more difficult than others and you'll have to use a bit of creativity to infer which columns might need to be present for the scenario to make sense in the real world.
 
-The trick is identifying what should be a different model and how these models will relate to each other via simple associations (all the ones below are `has_many`, `has_one` and/or `belongs_to` relationship).  If you can't quite figure out how it might look, keep the scenario in mind as you go through the next few lessons.
+The trick is identifying what should be a different model and how these models will relate to each other via associations (all the ones below are `has_many`, `has_one` and/or `belongs_to` relationship).  If you can't quite figure out how it might look, keep the scenario in mind as you go through the next few lessons.
 
 Remember, if you feel like you will be hard coding data multiple times, it's probably a sign that you should create a separate table.  A common example is address information -- you could write down the city and state explicitly for each user.  How about making separate City and State models and relating them to each other?
 
@@ -115,7 +115,8 @@ If any of those don't work, double check your associations.  Sometimes the error
 </div>
 
 ### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* The [Rails API](http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html) has good documentation for these things, in addition to the Edge Guides you've already read.  Often it can be easier to search Google for the proper API page than navigating the site, e.g. "rails api has_many".
-* [JumpstartLab page on Model Relationships](http://tutorials.jumpstartlab.com/topics/models/relationships.html) has some good unique information on how to approach optimizing common associations.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- The [Rails API](http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html) has good documentation for these things, in addition to the Edge Guides you've already read.  Often it can be easier to search Google for the proper API page than navigating the site, e.g. "rails api has_many".
+- [JumpstartLab page on Model Relationships](http://tutorials.jumpstartlab.com/topics/models/relationships.html) has some good unique information on how to approach optimizing common associations.

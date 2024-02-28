@@ -10,10 +10,10 @@ Similar to how we have the `useState` hook, React offers us a handy `useEffect` 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   What are effects?
-*   How are effects used in React?
-*   What are the different parts of a `useEffect` hook?
-*   When should I use an effect?
+- What are effects?
+- How are effects used in React?
+- What are the different parts of a `useEffect` hook?
+- When should I use an effect?
 
 ### Using effect saves the day
 
@@ -37,7 +37,9 @@ export default function Clock() {
 }
 ~~~
 
-Alas, we see our counter going berserk. The reason this occurs is that we try to **manipulate the state during render**. As we know, the component gets torn down and re-rendered every time the state updates, and we are updating the state every second, thus incrementing rapidly.
+Alas, we see our counter going berserk. This happens because the `setInterval` function is being called not once, but at every state render.
+
+When our component first renders, it calls our initial `setInterval` function. That interval updates the state every second, triggering the component to re-render. But every re-render calls `setInterval` again, which triggers more frequent state updates, which each spawn new intervals, and everything quickly spirals out of control.
 
 This is where the `useEffect` hook swoops in to save us. We can wrap this calculation inside a `useEffect` hook to move it outside the rendering calculation. It accepts a callback function with all the calculations.
 
@@ -63,7 +65,7 @@ But, it still keeps growing too fast! This is where another argument of the `use
 
 #### The dependency array
 
-By default, `useEffect` hook runs on every render. Since setting state tears the component down, we still get multiple setter calls on every render, which doesn't help us. 
+By default, `useEffect` hook runs on every render. Since setting state tears the component down, we still get multiple setter calls on every render, which doesn't help us.
 
 Fortunately, the second argument accepts an array of dependencies allowing the hook to re-render **only when those dependencies are changed**. So if you have a state variable and want to have some side-effect occur any time the state changes, you can use this hook and mention the state variable in the dependency array.
 
@@ -109,7 +111,7 @@ useEffect(() => {
 
 Oh, it's not going berserk anymore! We still have an issue with the counter updating twice every second though. That can be understood as a [behavior caused by the React StrictMode](https://react.dev/reference/react/StrictMode#strictmode). It is supposed to help us catch bugs, so what is that bug here?
 
-Notice that every time the `useEffect` hook runs, a new `setInterval` is used.  When the component is unmounted, `setInterval` is not stopped, it keeps incrementing. This unnecessary behavior can be prevented by simply clearing the interval when the component is unmounted and that is where the third part of our `useEffect` hook comes in - the cleanup function.
+Notice that every time the `useEffect` hook runs, a new `setInterval` is used.  When the component is unmounted, `setInterval` is not stopped, it keeps incrementing. This unnecessary behavior can be prevented by clearing the interval when the component is unmounted and that is where the third part of our `useEffect` hook comes in - the cleanup function.
 
 You can return a function from the callback in the `useEffect` hook, which will be executed each time before the next effect is run, and one final time when the component is unmounted. In this case, let us clean up the interval with a cleanup function.
 
@@ -126,7 +128,7 @@ export default function Clock() {
 
     return () => {
       clearInterval(key);
-    }
+    };
   }, [])
 
   return (
@@ -156,7 +158,7 @@ useEffect(
 
 Let us address a few cases where `useEffect` does not need to be used.
 
-*   You do not need to use an effect if you are only calculating something based on the state during rendering. For a change in a component, due to a change in the props, you can simply calculate and set it during rendering.
+*   You do not need to use an effect if you are only calculating something based on the state during rendering. For a change in a component, due to a change in the props, you can calculate and set it during rendering.
 
     ~~~jsx
     import React, { useState } from "react";
@@ -190,7 +192,7 @@ Let us address a few cases where `useEffect` does not need to be used.
 
       const handleInput = (e) => {
         setInput(e.target.value);
-      }
+      };
 
       // You should avoid direct manipulation when not necessary
 
@@ -200,7 +202,7 @@ Let us address a few cases where `useEffect` does not need to be used.
       //     document.getElementById("name").removeEventListener("change", handleInput);
       //   }
       // });
-      
+
       return (
         <>
           {/* <input id="name" /> */}
@@ -208,7 +210,7 @@ Let us address a few cases where `useEffect` does not need to be used.
           <input onChange={handleInput} value={input} />
           <p>{ input }</p>
         </>
-      )
+      );
     }
     ~~~
 
@@ -228,14 +230,14 @@ Let us address a few cases where `useEffect` does not need to be used.
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   <a class="knowledge-check-link" href="#introduction">What is an effect?</a>
-*   <a class="knowledge-check-link" href="#body-of-an-useEffect">What constitutes a `useEffect` hook?</a>
-*   <a class="knowledge-check-link" href="#but-do-we-need-the-effect">What is the one question we can ask to know when to use an effect?</a>
-*   <a class="knowledge-check-link" href="#lifting-the-state">What do we mean by lifting up the state?</a>
+*   [What is an effect?](#introduction)
+*   [What constitutes a `useEffect` hook?](#body-of-an-useEffect)
+*   [What is the one question we can ask to know when to use an effect?](#but-do-we-need-the-effect)
+*   [What do we mean by lifting up the state?](#lifting-the-state)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [This article, again from Epic React](https://epicreact.dev/myths-about-useeffect) goes over some common mistakes while using effects.
-*   [This article from Epic React](https://epicreact.dev/why-you-shouldnt-put-refs-in-a-dependency-array) goes into how dependency arrays are supposed to be used.
+*   [This article from Epic React](https://epicreact.dev/myths-about-useeffect) goes over some common mistakes while using effects.
+*   [This article, again from Epic React,](https://epicreact.dev/why-you-shouldnt-put-refs-in-a-dependency-array) goes into how dependency arrays are supposed to be used.

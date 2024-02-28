@@ -4,10 +4,10 @@ How can we do DOM manipulations that we usually do in vanilla JavaScript? Is it 
 
 ### Lesson overview
 
-This section contains a general overview of topics you will learn in this lesson.
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Explore `useRef` hook and its use cases
-- Explain memoization and how `useCallback` and `useMemo` can be used
+- Explore `useRef` hook and its use cases.
+- Explain memoization and how `useCallback` and `useMemo` can be used.
 
 ### The useRef hook
 
@@ -188,9 +188,9 @@ We can see that the click handler is defined in the `Counter` component, and we'
 
 We know that a component renders whenever either state changes or prop changes. Anything inside that is not controlled by React is destroyed and re-executed. Functions, variables, etc. As a result, the function `handleClick` is re-created each time, and the prop `onClick` of the `ButtonComponent` also changes. Alright, so how can `useMemo` help in here?
 
-We already know we can memoize a value using `useMemo`, right? Then we can just cache the function reference and use an empty dependency array so that it won't change. That seems very simple.
+We already know we can memoize a value using `useMemo`, right? Then we can just cache the function reference and use an empty dependency array so that it won't change.
 
-Let's create a new function and name it `memoizedHandleClick`
+Let's create a new function and name it `memoizedHandleClick`:
 
 ~~~jsx
 const memoizedHandleClick = useMemo(() => handleClick, []);
@@ -234,11 +234,11 @@ const ButtonComponent = memo(({ children, onClick }) => {
 });
 ~~~
 
-Wrapping the component with a `memo` pretty much prevents the downward update that is triggered above the component. So, this component will only re-render when its `props` changes or if its own `state` changes *if any*.
+Wrapping the component with a `memo` prevents the downward update that is triggered above the component. So, this component will only re-render when its `props` change or if its own `state` changes.
 
 With all that said and done, test and break things in our interactive example:
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="800" height="450" src="https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/memoization-lesson-example?embed=1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/memoization-lesson-example?embed=1" allowfullscreen></iframe>
 
 These are the scenarios that could happen:
 
@@ -319,4 +319,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- The `memo` function is super simple that's why we didn't cover it too much, but if you want to know more about it, especially if you want to create your own logic for the `memo` function go to the [documentation for memo](https://react.dev/reference/react/memo).
+- The `memo` function is straightforward that's why we didn't cover it too much, but if you want to know more about it, especially if you want to create your own logic for the `memo` function go to the [documentation for memo](https://react.dev/reference/react/memo).

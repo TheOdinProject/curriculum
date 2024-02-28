@@ -70,13 +70,13 @@ CUSTOM SECTION CONTENT.
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
 
@@ -102,7 +102,7 @@ This section contains helpful links to related content. It isn’t required, so 
 
    **If an assignment item does not have any instructions, remove the bulleted `AN INSTRUCTION ITEM` text from it.**
 
-1. `### Knowledge check`: A bulleted list of specific questions that a user should be able to answer on their own after reading the lesson and completing any assignment or practice. A knowledge check should only link either to a section within the lesson (either with a Heading 3 `###` or Heading 4 `####`, or by wrapping text in a `<span>` element with an `id` attribute), or a resource previously linked to in the lesson. This link should help users review the necessary material in order to answer the knowledge check without requiring them to re-read the entire lesson.
+1. `### Knowledge check`: A bulleted list of specific questions that should aid users in reflecting on the lesson's key topics. A knowledge check should only link either to a section within the lesson (either with a Heading 3 `###` or Heading 4 `####`, or by wrapping text in a `<span>` element with an `id` attribute), or a resource previously linked to in the lesson. This link should help users review the applicable material without requiring them to re-read the entire lesson.
 
    Replace the `A KNOWLEDGE CHECK URL` text with the actual link to the section/resource and the `A KNOWLEDGE CHECK QUESTION.` text with your own question/problem that the user should be able to answer/solve. Then add any additional bulleted knowledge check items. The lesson should ideally have no more than 7 knowledge checks, but this number might vary by lesson. **If the lesson does not have a knowledge check, remove this entire section from the lesson.**
 
@@ -251,20 +251,20 @@ For more detailed examples of the exceptions, refer to [Google's style guide on 
 Markdown is smart enough to let the resulting HTML render your numbered lists correctly. For longer lists that may change, especially long nested lists, use "lazy" numbering. The following Markdown:
 
 ~~~markdown
-1. Foo.
-1. Bar.
-1. Foofoo.
-1. Barbar.
-1. Baz.
+1. Foo
+1. Bar
+1. Foofoo
+1. Barbar
+1. Baz
 ~~~
 
 Will result in the following output:
 
-1. Foo.
-1. Bar.
-1. Foofoo.
-1. Barbar.
-1. Baz.
+1. Foo
+1. Bar
+1. Foofoo
+1. Barbar
+1. Baz
 
 ### Nested lists
 
@@ -337,7 +337,7 @@ The preferred way to create unordered lists for The Odin Project is by using hyp
 ### Inline
 
 &#96;Backticks&#96; designate `inline code`, and will render all wrapped content
-literally. Use them for short code quotations, field names, or file names:
+literally. Use them for short code quotations, math formulas/calculations, field names, or file names:
 
 ~~~markdown
 Write these in the `script` tag of a skeleton HTML file.
@@ -349,15 +349,15 @@ Create a new file named `styles.css` first.
 
 ### Codeblocks
 
-For code quotations longer than a single line, use a codeblock with 3 opening and closing tilde marks:
+For code quotations longer than a single line, use a codeblock with 3 opening and closing backticks:
 
 <pre>
-~~~javascript
+```javascript
 const obj = {
   name: "object",
   marker: "X"
 }
-~~~
+```
 </pre>
 
 #### Declare the language
@@ -384,12 +384,12 @@ If you need a codeblock within a list, you should follow the same indenting rule
 <pre>
 - Bullet.
 
-  ~~~javascript
+  ```javascript
   // We start indenting with 2 space for the codeblock
   function tester() {
     const yay = 'From here we can indent like we normally would'
   }
-  ~~~
+  ```
 
 - Next bullet.
 </pre>
@@ -413,7 +413,7 @@ Note boxes can be added by wrapping the content in a `div` with the class `lesso
 
 For nested markdown inside note boxes to be displayed properly additional `markdown="1" attribute` is needed.
 
-A heading can be added to a note by using an `h4` element. When adding a heading, be sure to provide text that helps describe the note rather than "A note" or "Warning".
+A heading can be added to a note by using a `####` heading. When adding a heading, be sure to provide text that helps describe the note rather than "A note" or "Warning".
 
 ### Variations
 
@@ -424,13 +424,17 @@ Note boxes come in two variations, which can be set by adding an extra class tog
 ### Example
 ~~~markdown
 <div class="lesson-note" markdown="1">
-<h4>An optional title</h4>
+
+#### An optional title
+
 A sample note box.
 </div>
 ~~~
 ~~~markdown
 <div class="lesson-note lesson-note--tip" markdown="1">
-<h4>An optional title</h4>
+
+#### An optional title
+
 A sample note box, variation: tip.
 </div>
 ~~~

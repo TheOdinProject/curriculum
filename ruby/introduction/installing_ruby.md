@@ -1,12 +1,14 @@
+<!-- markdownlint-disable MD024 MD043 -->
+
 ### Introduction
 
 Before we start learning, we'll need to install Ruby first. This section is where you could potentially encounter a lot of errors.
 
 Before continuing, let's review a few best practices to keep in mind:
 
-* Copy and paste the commands to avoid typos.
-* Follow the directions closely, and don't skip over any sections.
-* **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this can cause a lot of headaches, and never run as the `root` user. In some instances, you might see a message in the terminal telling you to use sudo and install something with `apt`. Ignore that and follow _our_ instructions for now.
+- Copy and paste the commands to avoid typos.
+- Follow the directions closely, and don't skip over any sections.
+- **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this can cause a lot of headaches, and never run as the `root` user. In some instances, you might see a message in the terminal telling you to use sudo and install something with `apt`. Ignore that and follow *our* instructions for now.
 
 Now, let's get started!
 
@@ -22,7 +24,7 @@ Before we can install Ruby, we need to install some base packages.
 
 We'll use the terminal to install all of the programs.
 
-If you're using Ubuntu or Xubuntu, simply press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> to open the terminal. (This may work in other Linux distributions; you'll have to try!)
+If you're using Ubuntu or Xubuntu, press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> to open the terminal. (This may work in other Linux distributions; you'll have to try!)
 
 **Quick tip:** In Linux, you can copy from the terminal with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> and paste with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>.
 
@@ -32,10 +34,10 @@ The rest of the installation will take place inside the terminal window.
 
 First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press <kbd>Enter</kbd>.
 
-~~~bash
+```bash
 sudo apt update
 sudo apt upgrade
-~~~
+```
 
 When it prompts you, press <kbd>Y</kbd> and then <kbd>Enter</kbd>.
 
@@ -43,9 +45,9 @@ When it prompts you, press <kbd>Y</kbd> and then <kbd>Enter</kbd>.
 
 Next, you need to install some required packages that do not come preinstalled. Be sure to copy and paste this command.
 
-~~~bash
+```bash
 sudo apt install gcc make libssl-dev libreadline-dev zlib1g-dev libsqlite3-dev libyaml-dev
-~~~
+```
 
 When it prompts you, press <kbd>Y</kbd> and then <kbd>Enter</kbd>. You may or may not have to type your password after pressing <kbd>Enter</kbd>.
 
@@ -57,40 +59,42 @@ Now you're ready to install Ruby. We're going to use a tool called `rbenv`, whic
 
 First, you need to clone the rbenv repository.
 
-~~~bash
+```bash
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-~~~
+```
 
 Next, we'll add some commands to allow rbenv to work properly. We can use the Linux `echo` command to make it easy.
 
-Note: Run these commands one by one in sequence. They will not provide any output if done properly. Again, be sure to copy and paste these commands.
+<div class="lesson-note lesson-note--warning" markdown=1>
+Run these commands one by one in sequence. They will not provide any output if done properly. Again, be sure to copy and paste these commands.
+</div>
 
-~~~bash
+```bash
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 exit
-~~~
+```
 
 After running the final `exit` command, you will need to close out of all open terminals and open a new terminal (see Step 1.1 above).
 
 Next, you need to install `ruby-build` to help compile the Ruby binaries. Run these commands in the terminal to create a directory for the ruby-build plugin and then download it to the proper directory.
 
-~~~bash
+```bash
 mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
-~~~
+```
 
 Finally, run
 
-~~~bash
+```bash
 rbenv -v
-~~~~
+```
 
  from your terminal to verify that `rbenv` has been installed correctly. You should get an output with a version number **similar** to this:
 
-~~~bash
+```bash
 rbenv 1.2.0-14-gc6cc0a1
-~~~
+```
 
 If you do not get a version number at all (anything not starting with `rbenv 1...`), please ask for help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916).
 
@@ -100,15 +104,15 @@ It's finally time to install Ruby using `rbenv`!
 
 Inside the terminal, run this command:
 
-~~~bash
+```bash
 rbenv install 3.2.2 --verbose
-~~~
+```
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
 
 You may get this error message:
 
-~~~bash
+```bash
 ruby-build: definition not found: x.x.x
 
 See all available versions with `rbenv install --list'.
@@ -116,39 +120,37 @@ See all available versions with `rbenv install --list'.
 If the version you need is missing, try upgrading ruby-build:
 
   git -C /home/itorja/.rbenv/plugins/ruby-build pull
-~~~
+```
 
 If so, we run the suggested command:
 
-~~~bash
+```bash
 git -C "$(rbenv root)"/plugins/ruby-build pull
-~~~
+```
 
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
-~~~bash
+```bash
 rbenv global 3.2.2
-~~~
+```
 
 Then,
 
-~~~bash
+```bash
 ruby -v
-~~~
+```
 
 The above command should return something similar to this:
 
-~~~bash
+```bash
 ruby 3.2.2pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
-~~~
-where x represents the version available at the time you installed Ruby.
+```
 
+where x represents the version available at the time you installed Ruby.
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
-
 </details>
-
 
 <details markdown="block">
 <summary class="dropDown-header">MacOS
@@ -174,9 +176,9 @@ Type `xcode-select --install` in your terminal and press <kbd>Enter</kbd>. You m
 
 The next program you need to install is [Homebrew](https://brew.sh/), which makes it easy to install other programs you'll need. From inside the terminal, type the following:
 
-~~~bash
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-~~~
+```
 
 You will be prompted to enter your password. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press <kbd>Enter</kbd>.
 
@@ -190,9 +192,9 @@ Now you're ready to install Ruby. We're going to use a tool called `rbenv`, whic
 
 First, let's install `ruby-build`:
 
-~~~bash
+```bash
 brew install ruby-build
-~~~
+```
 
 `ruby-build` will make it possible to install our Ruby version of choice.
 
@@ -200,49 +202,49 @@ brew install ruby-build
 
 To install `rbenv`, run the following in your terminal:
 
-~~~bash
+```bash
 brew install rbenv
-~~~
+```
 
 Then, run this command:
 
-~~~bash
+```bash
 rbenv init
-~~~
+```
 
 You should see one of two messages after the command has run.
 
 Either:
 
-~~~bash
+```bash
 # Load rbenv automatically by appending
 # the following to ~/.bash_profile:
 
 eval "$(rbenv init -)"
-~~~
+```
 
 Or:
 
-~~~bash
+```bash
 # Load rbenv automatically by appending
 # the following to ~/.zshrc:
 
 eval "$(rbenv init -)"
-~~~
+```
 
 You'll do as it suggests by running either of the following commands in the terminal.
 
 If the previous message stated you should append to your bash_profile then run:
 
-~~~bash
+```bash
 echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-~~~
+```
 
 Otherwise if it mentioned zshrc then run:
 
-~~~bash
+```bash
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
-~~~
+```
 
 You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, take note of the page and step number you are on, close everything, do a full reboot and log back into your profile. After logging back in, re-open the terminal (see Step 1.1).
 
@@ -252,40 +254,45 @@ We can now (finally) install Ruby! Our curriculum currently uses version 3.2.2, 
 
 First, let's upgrade `ruby-build`:
 
-~~~bash
+```bash
 brew upgrade ruby-build
-~~~
+```
 
 Now we're ready to install our desired version of Ruby:
 
-~~~bash
+```bash
 rbenv install 3.2.2 --verbose
-~~~
+```
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
 
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
-~~~bash
+```bash
 rbenv global 3.2.2
-~~~
+```
 
 You can double check that this worked by typing `ruby -v` and checking that the output says version 3.2.2:
 
-~~~bash
+```bash
 ruby -v
 ruby 3.2.2pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
-~~~
+```
 
 If you don't see the output above, close and reopen the terminal window and then run the command again.
 
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
-
 </details>
 
 #### Extras
 
-If you are using Visual Studio Code as your IDE, you can install the "Ruby" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
+If you are using Visual Studio Code as your IDE, you can install the "Ruby LSP" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby LSP", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
 
 If you are using a different IDE, a quick Google search such as "Ruby programming extensions for (your IDE here)" should provide you with the resources to get started. Free support extensions can help make your programming go more smoothly, and there are tons of extensions for all languages (not just Ruby).
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

@@ -1,13 +1,13 @@
 ### Introduction
 
-By now you should be starting to understand just how powerful React and reusable components can be, but you may be left wondering ‘How can I share information between components?’ or ‘Am I able to customize the behavior of my components each time I use them?'. In this lesson, we will learn about React props (short for properties) and how to use props to pass data between components. 
+By now you should be starting to understand just how powerful React and reusable components can be, but you may be left wondering ‘How can I share information between components?’ or ‘Am I able to customize the behavior of my components each time I use them?'. In this lesson, we will learn about React props (short for properties) and how to use props to pass data between components.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Passing data between components.
-* Using data to create customizable reusable components.
+- Passing data between components.
+- Using data to create customizable reusable components.
 
 ### Data transfer in React
 
@@ -21,7 +21,7 @@ Now that we know *how* data transfers between components, let's explore *why* th
 function Button() {
   return (
     <button>Click Me!</button>
-  )
+  );
 }
 
 export default function App() {
@@ -31,10 +31,10 @@ export default function App() {
       <Button />
       <Button />
     </div>
-  )
+  );
 }
 ~~~
-So far so good right? We have a beautiful reusable button that we can use as many times as we like, there is just one small problem. 
+So far so good right? We have a beautiful reusable button that we can use as many times as we like, there is just one small problem.
 
 What if we wanted the text within our second button to be “Don’t Click Me!’? Right now, we would have to create a second button component with this different text.
 
@@ -42,13 +42,13 @@ What if we wanted the text within our second button to be “Don’t Click Me!�
 function Button() {
   return (
     <button>Click Me!</button>
-  )
+  );
 }
 
 function Button2() {
   return (
     <button>Don't Click Me!</button>
-  )
+  );
 }
 
 export default function App() {
@@ -58,16 +58,15 @@ export default function App() {
       <Button2 />
       <Button />
     </div>
-  )
+  );
 }
 ~~~
-This may not seem like a huge deal right now, but what if we had 10 buttons, each one having different text, fonts, colors, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication. 
+This may not seem like a huge deal right now, but what if we had 10 buttons, each one having different text, fonts, colors, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication.
 
 Let's see how by using props, we can account for any number of variations with a *single* button component.
 
 ~~~jsx
 function Button(props) {
-
   const buttonStyle = {
     color: props.color,
     fontSize: props.fontSize + 'px'
@@ -75,7 +74,7 @@ function Button(props) {
 
   return (
     <button style={buttonStyle}>{props.text}</button>
-  )
+  );
 }
 
 export default function App() {
@@ -96,7 +95,7 @@ There are a few things going on here.
 
 ### Prop destructuring
 
-A very common pattern you will come across in React is prop [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment). Unpacking your props in the component arguments allows for more concise and readable code. Check out prop destructing in action in the example below.
+A very common pattern you will come across in React is prop [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment). Unpacking your props in the component arguments allows for more concise and readable code. Check out prop destructuring in action in the example below.
 
 ~~~jsx
 function Button({ text, color, fontSize }) {
@@ -149,7 +148,7 @@ export default function App() {
   );
 }
 ~~~
-As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined on `Button.defaultProps`. 
+As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined on `Button.defaultProps`.
 
 You can also combine default props and prop destructuring. Here's how it looks in action.
 

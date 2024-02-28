@@ -10,31 +10,34 @@ We're taking a look at some more Computer Science-y concepts here because they a
 
 If that doesn't get you interested, remember that this curriculum is meant to prepare you for life beyond the web page. If you're interested in applying for a job, you'll be asked questions that directly touch on some of this stuff.  It's going to require you to put on your thinking cap (sorry, it had to happen sometime), but we won't be doing anything too crazy. We'll stick to the practical side of this material as opposed to getting too stuck in theory.
 
-### Learning outcomes
-Look through these now and then use them to test yourself after doing the assignment:
+### Lesson overview
 
-* What is an algorithm?
-* What is pseudo-code?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What is an algorithm?
+- What is pseudo-code?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Watch [Introduction to Algorithms by David Malan](http://ed.ted.com/lessons/your-brain-can-solve-algorithms-david-j-malan) on TedEd to see how to think about algorithms.
+  1. Watch [Introduction to Algorithms by David Malan](https://www.youtube.com/watch?v=6hfOvs8pY1k) on TedEd to see how to think about algorithms.
   2. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube for a more structured look at solving problems using algorithms.
-  3. Read [this Quora question about the importance of algorithms in web development](http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development) to get some context for why we're going over this stuff.
+  3. Read [this Quora answer about the importance of algorithms in web development](https://qr.ae/py3NAc) to get some context for why we're going over this stuff.
   4. Watch [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Wikipedia on Computer Science](http://en.wikipedia.org/wiki/Computer_science)
-* [Wikipedia on Algorithms](http://en.wikipedia.org/wiki/Algorithm)
-* [Map of Computer Science](https://youtu.be/SzJ46YA_RaA)
-
 ### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 * <a class="knowledge-check-link" href="https://youtu.be/e_WfC8HwVB8">What is an Algorithm?</a>
-* <a class="knowledge-check-link" href="http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development">What is the importance of algorithms in web development?</a>
+* <a class="knowledge-check-link" href="https://qr.ae/py3NAc">What is the importance of algorithms in web development?</a>
 * <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=Rg-fO7rDsds">What is pseudocode?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Wikipedia on Computer Science](http://en.wikipedia.org/wiki/Computer_science).
+- [Wikipedia on Algorithms](http://en.wikipedia.org/wiki/Algorithm).
+- [Map of Computer Science](https://youtu.be/SzJ46YA_RaA).

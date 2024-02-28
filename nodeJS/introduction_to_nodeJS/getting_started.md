@@ -12,9 +12,9 @@ Recently the NodeJS.dev team removed a large amount of content from their websit
 
 </div>
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain some things that Node.js is commonly used for.
 - Create and use modules in Node.js (both built-in and user created).
@@ -28,27 +28,32 @@ By the end of this lesson, you should be able to do the following:
 
 <div class="lesson-content__panel" markdown="1">
 
-- Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.dev](https://nodejs.dev/en/learn) docs which you should follow along.
+- Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.org](https://nodejs.org/en/learn) docs which you should follow along.
   - Get Started
-    - Learn how to run Node.js scripts from the terminal in [this](https://nodejs.dev/en/learn/run-nodejs-scripts-from-the-command-line/) lesson.
-    - Learn quickly about .env files and how we use them [here](https://nodejs.dev/en/learn/how-to-read-environment-variables-from-nodejs/)! This will become very important in the future when working with databases and other sensitive credentials!
+    - Learn how to run Node.js scripts from the terminal in [this](https://nodejs.org/en/learn/command-line/run-nodejs-scripts-from-the-command-line) lesson.
+    - Learn quickly about .env files and how we use them [here](https://nodejs.org/en/learn/command-line/how-to-read-environment-variables-from-nodejs)! This will become very important in the future when working with databases and other sensitive credentials!
   - HTTP Module
     - Learn [how to make HTTP requests with Node](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-web-server/node-make-http-requests.en.md).
+    - Checkout `http.createServer` from the [http module](https://nodejs.org/api/http.html). The documentation shows optional parameters it can accept which you may or may not use. For now, you just need to know that the `createServer` method creates an HTTP server that accepts handlers that will be executed every time we get a request.
   - File System
     - First, take a look at the [fs module](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md) that we use heavily for working with files in Node.
-    - Then, let's start [writing files](https://nodejs.dev/en/learn/writing-files-with-nodejs/) in Node.
-    - Finally, we'll learn how to [read files](https://nodejs.dev/en/learn/reading-files-with-nodejs/).
+    - Then, let's start [writing files](https://nodejs.org/en/learn/manipulating-files/writing-files-with-nodejs) in Node.
+    - Finally, we'll learn how to [read files](https://nodejs.org/en/learn/manipulating-files/reading-files-with-nodejs).
   - The URL Class
     - Check out this [documentation](https://nodejs.org/api/url.html#url_the_whatwg_url_api) on the URL class. Play with the code samples to see how it works!
   - NPM
-    - Let's get an [introduction](https://nodejs.dev/en/learn/an-introduction-to-the-npm-package-manager/) to NPM.
+    - Let's get an [introduction](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager) to NPM.
     - After that, it's time to quickly get introduced to the [package.json file](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/package-json.en.md).
     - And the differences between [NPM global and local packages](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md).
   - Events
-    - Follow along the [Event Emitter](https://nodejs.dev/en/learn/the-nodejs-event-emitter/) section.
+    - Follow along the [Event Emitter](https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter) section.
     - Look into [this](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-events.en.md) section to see the `events` module.
 - Optional Extra Credit!
-  - Although a bit outdated, the W3 Schools introduction to Node.js is super useful! Go to the [W3 Schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious! **NOTE**: The URL module is very outdated. Refer to the earlier link if you run into issues in the Node.js URL Module from W3.
+  - Although a bit outdated, the W3 Schools introduction to Node.js is super useful! Go to the [W3 Schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious!
+  
+  <div class="lesson-note lesson-note--warning" markdown=1>
+  The URL module is very outdated. Refer to the earlier link if you run into issues in the Node.js URL Module from W3.
+  </div>
 
 </div>
 
@@ -56,10 +61,10 @@ By the end of this lesson, you should be able to do the following:
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class="knowledge-check-link" href="https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md">What is a File System Module? How and why would you use it?</a>
-- <a class="knowledge-check-link" href="https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md">What is the command for installing a package locally in with npm?</a>
-- <a class="knowledge-check-link" href="https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md">What is the command for installing a package globally in with npm?</a>
-- <a class="knowledge-check-link" href="https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md">What is the difference between a global and local package install with npm?</a>
+- [What is a File System Module? How and why would you use it?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md)
+- [What is the command for installing a package locally in with npm?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md)
+- [What is the command for installing a package globally in with npm?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md)
+- [What is the difference between a global and local package install with npm?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md)
 
 ### Additional resources
 

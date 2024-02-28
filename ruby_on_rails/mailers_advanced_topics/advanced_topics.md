@@ -19,7 +19,7 @@ You should be quite familiar by now with the bread and butter of routing -- conv
 
 #### Singular resources
 
-You might have already run into this at some point without necessarily understanding it.  Up until now, we've been talking about resources (like "posts" and "users") where there are a whole lot of them.  It seems fairly intuitive.  In your `config/routes.rb` file, you represent these simply with a single line like `resources :users`.
+You might have already run into this at some point without necessarily understanding it.  Up until now, we've been talking about resources (like "posts" and "users") where there are a whole lot of them.  It seems fairly intuitive.  In your `config/routes.rb` file, you represent these with a single line like `resources :users`.
 
 Sometimes there are also resources where it actually only makes sense for there to be one.  An example would be a User dashboard which displays interesting facts based on whichever user is logged in.  There is only one dashboard template, it just happens to be smart enough to display things that are relevant for the user who is currently logged in.
 
@@ -67,7 +67,7 @@ When you visit the URL, you'll have to specify the `:id` parameter for BOTH obje
   course_lesson  GET  /courses/:course_id/lessons/:id(.:format)  lessons#show
 ~~~
 
-It should also be noted that you're being taken to the controller of the deepest nested resource, and that's also the `:id` parameter which will be called simply `:id` (any parent resource parameters, as in the above, will be specifically called something like `:course_id`).
+It should also be noted that you're being taken to the controller of the deepest nested resource, and that's also the `:id` parameter which will be called `:id` (any parent resource parameters, as in the above, will be specifically called something like `:course_id`).
 
 View helpers are also automatically generated in a logical way (as you can see in your `$ rails routes` output).  When you use view helpers like `#course_lesson_path` you will need to specify both parameters in order, e.g. `course_lesson_path(1,3)`.
 
@@ -132,7 +132,7 @@ You might want to provide a URL out of convenience for your user but map it dire
   end
 ~~~
 
-Well, that got interesting fast.  The basic principle here is to just use the `#redirect` method to send one route to another route.  If your route is quite simple, it's a really straightforward method.  But if you want to also send the original parameters, you need to do a bit of gymnastics by capturing the parameter inside `%{here}`.  Note the single quotes around everything.
+Well, that got interesting fast.  The basic principle here is to just use the `#redirect` method to send one route to another route.  If your route is basic, it's a really straightforward method. But if you want to also send the original parameters, you need to do a bit of gymnastics by capturing the parameter inside `%{here}`.  Note the single quotes around everything.
 
 In the example above, we've also renamed the route for convenience by using an alias with the `:as` parameter.  This lets us use that name in methods like the `#_path` helpers.  Again, test out your `$ rails routes` with questions.
 
@@ -251,7 +251,7 @@ An example of metaprogramming in action in Rails is with the route helpers.  Whe
 
 The routes example almost isn't fair, though, because you wrote your `routes.rb` file and probably hard coded a bunch of `#home_path` or `#home_url` method calls based on what you knew would be in there.  What about more dynamic situations where you don't know ahead of time what the method is going to be called?
 
-Ruby provides the `#send` method to save the day.  If you want to run a method on an object, just *send* that object the method and any arguments you want.  A simple example you can do on your command line is `1+2`:
+Ruby provides the `#send` method to save the day.  If you want to run a method on an object, just *send* that object the method and any arguments you want. A basic example you can do on your command line is `1+2`:
 
 ~~~bash
   > 1 + 2
@@ -307,7 +307,7 @@ Basically, `#method_missing` is a method of Ruby's `BasicObject` class which get
 
 Metaprogramming is really nifty stuff and there are tons of interesting uses for it.  You don't need to master it to learn Rails, so only dive into it once you're comfortable with Rails, but it will certainly be useful to you in the real world.  There are all kinds of metaprogramming tricks and patterns and tips out there but it's beyond the scope of this course to dive into them.
 
-Here's a good example of [simple metaprogramming to DRY up your code](http://rails-bestpractices.com/posts/2010/07/24/dry-metaprogramming/).
+Here's a good example of [metaprogramming to DRY up your code](http://rails-bestpractices.com/posts/2010/07/24/dry-metaprogramming/).
 
 Check out [Metaprogramming Ruby](http://www.amazon.com/Metaprogramming-Ruby-Program-Like-Pros/dp/1934356476) by Paolo Perrotta if you're really curious.
 
@@ -353,17 +353,6 @@ In this lesson we covered some fairly random and intricate concepts but useful s
 
 The more general principles like SOLID design and metaprogramming will be useful to you regardless of whether you stick with Ruby and Rails or move on to better and brighter things.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Stack Overflow question on the topic](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
-* [In Relentless Pursuit of REST by Derek Prior](https://www.youtube.com/watch?v=HctYHe-YjnE)
-* [A video from Yehuda Katz on Rails Security](http://youtu.be/2Ex8EEv-WPs)
-* See the first solution to [this SO question](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting) for a nice way to work with multiple layouts that use classes to trigger different CSS styling.
-* [Ruby Metaprogramming](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
-* [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)
-* [A longer explanation of SOLID principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -374,3 +363,15 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#advanced-layouts-nesting-layouts-and-passing-information">What are some techniques for rendering multiple layouts for one page?</a>
 * <a class="knowledge-check-link" href="#metaprogramming-rails">What does the `#send` method do?</a>
 * <a class="knowledge-check-link" href="#design-patterns">What are the five design principles represented by the SOLID acronym?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Stack Overflow question on the topic](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
+- [In Relentless Pursuit of REST by Derek Prior](https://www.youtube.com/watch?v=HctYHe-YjnE)
+- [A video from Yehuda Katz on Rails Security](http://youtu.be/2Ex8EEv-WPs)
+- See the first solution to [this SO question](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting) for a nice way to work with multiple layouts that use classes to trigger different CSS styling.
+- [Ruby Metaprogramming](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
+- [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)
+- [A longer explanation of SOLID principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)

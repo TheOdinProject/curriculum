@@ -8,18 +8,18 @@ In this lesson, we will learn about the text-based elements you are likely to us
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   How to create paragraphs
-*   How to create headings
-*   How to create bold text
-*   How to create italicized text
-*   The relationships between nested elements
-*   How to create HTML comments
+- How to create paragraphs.
+- How to create headings.
+- How to create bold text.
+- How to create italicized text.
+- The relationships between nested elements.
+- How to create HTML comments.
 
 ### Paragraphs
 
 What would you expect the following text to output on an HTML page?
 
-~~~html
+```html
 <body>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua.
@@ -27,7 +27,7 @@ What would you expect the following text to output on an HTML page?
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
   nisi ut aliquip ex ea commodo consequat.
 </body>
-~~~
+```
 
 It looks like two paragraphs of text, and so you might expect it to display in that way. However, that is not the case, as you can see in the output below:
 
@@ -58,7 +58,7 @@ Headings are different from other HTML text elements: they are displayed larger 
 
 <span id='different-heading-levels'>There are 6 different levels of headings starting from `<h1>` to `<h6>`. The number within a heading tag represents that heading's level. The largest and most important heading is h1, while h6 is the tiniest heading at the lowest level.</span>
 
-Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in a `<h1>` tag.
+Headings are defined much like paragraphs. For example, to create an h1 heading, we wrap our heading text in an `<h1>` tag.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="LYLPLbg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/LYLPLbg">
@@ -95,7 +95,7 @@ Sometimes you will want to make text bold without giving it an important meaning
 
 ### Em element
 
-The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element we wrap text content in a `<em>` tag.
+The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element we wrap text content in an `<em>` tag.
 
 To use `<em>` on its own:
 
@@ -149,7 +149,7 @@ The parent, child, and sibling relationships between elements will become much m
 
 HTML comments are not visible to the browser; they allow us to *comment* on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
 
-Writing an HTML comment is simple: We just enclose the comment with `<!--` and `-->` tags. For example:
+In order to write an HTML comment, we just enclose the comment with `<!--` and `-->` tags. For example:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abwoyBg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/abwoyBg">
@@ -172,27 +172,27 @@ If you find typing out the comments syntax tiring, the following shortcut will h
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
-2.  Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
-3.  To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) to generate dummy text, in place of real text as you build your sites. VS Code includes a shortcut to generate lorem ipsum for you. To trigger the shortcut, type `lorem` on the line where you want the dummy text, then press the <kbd>Enter</kbd> key, and voila, you have generated dummy text without a hitch.
+1. Watch Kevin Powell's [HTML Paragraph and Headings Video](https://www.youtube.com/watch?v=yqcd-XkxZNM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=3)
+1. Watch Kevin Powell's [HTML Bold and Italic Text Video](https://www.youtube.com/watch?v=gW6cBZLUk6M&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=4)
+1. To get some practice working with text in HTML, create a plain blog article page which uses different headings, uses paragraphs, and has some text in the paragraphs bolded and italicized. You can use [Lorem Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum) to generate dummy text, in place of real text as you build your sites. VS Code includes a shortcut to generate lorem ipsum for you. To trigger the shortcut, type `lorem` on the line where you want the dummy text, then press the <kbd>Enter</kbd> key, and voila, you have generated dummy text without a hitch.
 </div>
 
 ### Knowledge check
   
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
  
-*   [How do you create a paragraph in HTML?](#create-paragraph-element)
-*   [How do you create a heading in HTML?](#headings)
-*   [How many different levels of headings are there and what is the difference between them?](#different-heading-levels)
-*   [What element should you use to make text bold and important?](#strong-element)
-*   [What element should you use to make text italicized to add emphasis to it?](#em-element)
-*   [What relationship does an element have with any nested elements within it?](#nested-relationship)
-*   [What relationship do two elements have if they are at the same level of nesting?](#elements-same-level)
-*   [How do you create HTML comments?](#html-comments)
+- [How do you create a paragraph in HTML?](#create-paragraph-element)
+- [How do you create a heading in HTML?](#headings)
+- [How many different levels of headings are there and what is the difference between them?](#different-heading-levels)
+- [What element should you use to make text bold and important?](#strong-element)
+- [What element should you use to make text italicized to add emphasis to it?](#em-element)
+- [What relationship does an element have with any nested elements within it?](#nested-relationship)
+- [What relationship do two elements have if they are at the same level of nesting?](#elements-same-level)
+- [How do you create HTML comments?](#html-comments)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [The semantic difference between &lt;strong> and &lt;b> or &lt;em> and &lt;i> tags and when to use them.](https://medium.com/@zac_heisey/when-to-use-strong-b-em-and-i-tags-in-your-markup-fa4d0af8affb)
-*   [An interactive HTML text formatting article](https://www.w3schools.com/html/html_formatting.asp)
+- [The semantic difference between &lt;strong> and &lt;b> or &lt;em> and &lt;i> tags and when to use them.](https://medium.com/@zac_heisey/when-to-use-strong-b-em-and-i-tags-in-your-markup-fa4d0af8affb)
+- [An interactive HTML text formatting article](https://www.w3schools.com/html/html_formatting.asp)

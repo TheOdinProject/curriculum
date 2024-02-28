@@ -1,10 +1,14 @@
 ### Introduction
 
-For your final HTML/CSS project, you're going to create a responsive personal portfolio site. When you get to the point that you want to start sharing your work, or applying for jobs, it's useful to have a well-designed portfolio to share.
+For your final HTML/CSS project, you're going to create a responsive homepage, something you might find on a portfolio site of sorts. When you get to the point that you want to start sharing your work, or applying for jobs, it's useful to have a well-designed portfolio to share so take this as an opportunity to practice the more advanced HTML and CSS concepts you have learnt!
 
-We're providing a full design in 3 different sizes, full desktop, tablet and mobile, and this is the first real project where you should take your time and make sure that it looks acceptable at _any_ screen size.
+Similarly to landing page and admin dashboard from previous projects, you are tasked to build a given design brief. We're providing a full design in 3 different sizes, full desktop, tablet and mobile, and this is the first real project where you should take your time and make sure that it looks acceptable at _any_ screen size.
 
-Also, since this is your _personal_ portfolio feel free to tweak the design however you want. Pick your own fonts and colors and use something other than a stock-photo for your header... on this project more than any other, feel free to really make it your own!
+Feel free to pick your own fonts and colors and use something other than a stock-photo for your header. The main focus is on achieving the specified layouts and responsive behaviour rather than a complete portfolio.
+
+<div class="lesson-note" markdown="1">
+Many of the most liked submissions will have come from when this project used to be a bit more personal, and some people used it as an opportunity to make their own portfolio website. Many of these likely will have been updated over time and so no longer reflect the current state and goal of this project.
+</div>
 
 ### Assignment
 
@@ -12,9 +16,8 @@ Also, since this is your _personal_ portfolio feel free to tweak the design howe
 
 #### Step 1: Set up and planning
 
-1. Set up your HTML and CSS files with some simple dummy content, just to make sure you have everything linked correctly.
-2. Set up your git repository (refer to past projects if you need a refresher).
-3. Download a full-resolution copy of the design files ([desktop](https://cdn.statically.io/gh/TheOdinProject/curriculum/1c8b5c739efd263e8cc48703988b18d6e3afe034/advanced_html_css/responsive-design/project_personal_portfolio/imgs/portfolio.png), [tablet](https://cdn.statically.io/gh/TheOdinProject/curriculum/1c8b5c739efd263e8cc48703988b18d6e3afe034/advanced_html_css/responsive-design/project_personal_portfolio/imgs/portfolio%20tablet.png), [mobile](https://cdn.statically.io/gh/TheOdinProject/curriculum/1c8b5c739efd263e8cc48703988b18d6e3afe034/advanced_html_css/responsive-design/project_personal_portfolio/imgs/portfolio%20mobile.png)), and get a general idea for how you're going to need to lay things out in your HTML document.
+1. Set up your HTML and CSS files with some dummy content, just to make sure you have everything linked correctly.
+2. Download a full-resolution copy of the design files ([desktop](https://cdn.statically.io/gh/TheOdinProject/curriculum/1c8b5c739efd263e8cc48703988b18d6e3afe034/advanced_html_css/responsive-design/project_personal_portfolio/imgs/portfolio.png), [tablet](https://cdn.statically.io/gh/TheOdinProject/curriculum/1c8b5c739efd263e8cc48703988b18d6e3afe034/advanced_html_css/responsive-design/project_personal_portfolio/imgs/portfolio%20tablet.png), [mobile](https://cdn.statically.io/gh/TheOdinProject/curriculum/1c8b5c739efd263e8cc48703988b18d6e3afe034/advanced_html_css/responsive-design/project_personal_portfolio/imgs/portfolio%20mobile.png)), and get a general idea for how you're going to need to lay things out in your HTML document.
 
 #### Step 2: Gather assets
 

@@ -6,8 +6,8 @@ Now that we have learned how JSX works and how to write it, this lesson will cov
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   Render a list of elements/components in JSX
-*   Conditionally render UI
+- Render a list of elements/components in JSX.
+- Conditionally render UI.
 
 ### Rendering a list of elements in JSX
 
@@ -34,6 +34,7 @@ It is perfectly acceptable, but what if we want to render more than just four? I
 ~~~javascript
 function App() {
   const animals = ["Lion", "Cow", "Snake", "Lizard"];
+
   return (
     <div>
       <h1>Animals: </h1>
@@ -47,13 +48,13 @@ function App() {
 }
 ~~~
 
-We define an array called `animals`. Now inside our JSX, we use `map` to return a new array of `li` elements, adding `animal` as its text. It should now render the same as the previous snippet we wrote. This is because JSX has the ability to automatically render arrays. The following code is identical: 
+We define an array called `animals`. Now inside our JSX, we use `map` to return a new array of `li` elements, adding `animal` as its text. It should now render the same as the previous snippet we wrote. This is because JSX has the ability to automatically render arrays. The following code is identical:
 
 ~~~javascript
 function App() {
   const animals = ["Lion", "Cow", "Snake", "Lizard"];
   const animalsList = animals.map((animal) => <li key={animal}>{animal}</li>)
-  
+
   return (
     <div>
       <h1>Animals: </h1>
@@ -70,7 +71,7 @@ You may be curious as to what the `key` is in our `<li>` element. We will dive i
 ### Rendering a list of components in JSX
 
 <div class="lesson-note" markdown="1">
-We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are arguments that are passed into components. We will just be writing a simple implementation.
+We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are arguments that are passed into components. We will just be writing a short implementation.
 </div>
 
 ~~~javascript
@@ -100,11 +101,20 @@ function App() {
 }
 ~~~
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+  <h4>"Missing in props validation"</h4>
+  You may notice squiggly lines under your props (for example under `color` and
+  `fontSize` inside the Button component below). Hovering over these will tell
+  you they are `missing in props validation`. For now, this can safely be
+  ignored as it is just a default ESLint rule warning about prop types,
+  something that will be covered later in the course.
+</div>
+
 We have moved our `<ul>` element to a different component called `<List />`. It still returns the `<ul>` element, but we can do a lot more with it as a component.
 
 This component accepts a `props` which is an object containing the `animals` that we defined as a property when we wrote `<List animals={animals} />`. Do note that you can name it anything, for example, `<List animalList={animals} />`. You will still need to pass the animals to the property, but now you will use `props.animalList` instead of `props.animals`.
 
-We have also created a different component for the `<li>` element called `<ListItem />`, which also accepts `props`, and uses `props.animal` to render the text. It should now render the same thing. 
+We have also created a different component for the `<li>` element called `<ListItem />`, which also accepts `props`, and uses `props.animal` to render the text. It should now render the same thing.
 
 ### Conditionally rendering UI
 
@@ -174,7 +184,7 @@ We will leverage the return value of `startsWith` with the `&&` operator. If the
 
 #### Falsy values in JSX, a common pitfall
 
-In JSX, values like `null`, `undefined`, and `false` do not render anything, and you might ask aren't they falsy values? So you might think a value like `0` or an empty string does the same thing. It is a common pitfall. They are valid in JSX and will be rendered completely fine, so be sure to be aware of that!
+In JSX, there can be some confusion regarding which values render content and which do not, especially when it comes to falsy values. It's important to note that while values like `null`, `undefined`, and `false` don't render anything, other falsy values such as `0` or `''` (an empty string) are perfectly valid in JSX and will be rendered as expected. To avoid any pitfalls, it's essential to understand that certain falsy values behave differently in JSX when compared to JS. 
 
 </div>
 
@@ -243,7 +253,7 @@ The first `if` statement will now execute and return a `<div>` with the text "Lo
 
 If none of those checks passed, then we have the data we need to render the list successfully. Try it out by adding items to the `animals` list and adding the property back.
 
-You can, Of course, also accomplish this with just the ternary and `&&` operators.
+You can, of course, also accomplish this with just the ternary and `&&` operators.
 
 ~~~javascript
 function List(props) {
@@ -299,8 +309,8 @@ Nested ternaries and multiple `&&` operators can be intimidating to look at, so 
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  The React documentation has an excellent guide on rendering lists. Explore more on what you can do with lists on their [Rendering Lists article](https://react.dev/learn/rendering-lists). Do not worry about the last part on keys, since we will be learning about them in the next lesson.
-2.  From the same docs, strengthen your understanding of [conditional rendering](https://react.dev/learn/conditional-rendering). Be sure to test out all the examples!
+1.  The React documentation has an excellent guide to [conditional rendering](https://react.dev/learn/conditional-rendering). Strengthen your understanding by reading through it and tackling all of the examples!
+2.  From the same docs, explore more on what you can do with lists by working through the [Rendering Lists article](https://react.dev/learn/rendering-lists). You don't have to worry about the last part on keys, since we will be learning about them in the next lesson.
 
 </div>
 

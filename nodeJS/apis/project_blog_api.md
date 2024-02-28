@@ -8,7 +8,7 @@ Why are we setting it up like this? Because we can! If you already have a portfo
 <div class="lesson-content__panel" markdown="1">
 
 1. Begin by designing your back end models and schemas. How you design it is up to you, but you might want to think through a few things:
-  - For a simple blog with only a single author you might not need a user model, but you might want to set up authentication so that you can protect the editing functions with a username and password. In that case, it might make sense to set up a minimal user model, even if you are the only user.
+  - For a blog with only a single author you might not need a user model, but you might want to set up authentication so that you can protect the editing functions with a username and password. In that case, it might make sense to set up a minimal user model, even if you are the only user.
   - Your blog should have posts and comments, so think about the fields you are going to want to include for each of those.
   - Are you going to require users to leave a username or email with their comments?
   - Are you going to display a date or a timestamp for posts and comments?
@@ -29,5 +29,5 @@ Why are we setting it up like this? Because we can! If you already have a portfo
 ### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- As mentioned earlier, the cli-tool `curl` and [Postman](https://www.postman.com/downloads) are popular choices for testing your routes. Alternatively, the [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) VS Code extension is another way of testing your API.
+- As mentioned earlier, the cli-tool `curl` and [Postman](https://www.postman.com/downloads) are popular choices for testing your routes. 
 
