@@ -59,7 +59,7 @@ This section contains questions for you to check your understanding of this less
 - [How do you invoke a function?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#invoking_functions)
 - [What are anonymous functions?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#anonymous_functions_and_arrow_functions)
 - [What is function scope?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#function_scope_and_conflicts)
-- [What are return values?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values)
+- [What are return values?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values#what_are_return_values)
 - [What are arrow functions?](https://javascript.info/arrow-functions-basics)
 
 ### Additional resources
