@@ -1,6 +1,6 @@
 ### Introduction
 
-You now know *what* React is and you might even have an idea of *where* to use it, it's time to start figuring out *how*.
+You know *what* React is and you might even have an idea of *where* to use it. Now, it's time to start figuring out *how*. 
 
 This lesson is going to cover starting a new React project on your machine, as well as some useful tools to help you along the way. We'll also explain some of the problems that may arise (and how to avoid them).
 
@@ -11,13 +11,13 @@ This section contains a general overview of topics that you will learn in this l
 - How React projects can be created.
 - How to use Vite to create new React projects.
 - How to format the code in React projects.
-- What are React Developer Tools.
+- What React Developer Tools are.
 
 ### Many paths
 
-There are multiple ways to start using React in your projects, from attaching a set of `<script>` tags which serve React from a [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) to robust [toolchains](https://en.wikipedia.org/wiki/Toolchain) and [frameworks](https://en.wikipedia.org/wiki/Web_framework) that are highly configurable and allow for increased scalability and optimization.
+There are multiple ways to start using React in your projects, from attaching a set of `<script>` tags which serve React from a [CDN](https://en.wikipedia.org/wiki/Content_delivery_network), to robust [toolchains](https://en.wikipedia.org/wiki/Toolchain) and [frameworks](https://en.wikipedia.org/wiki/Web_framework) that are highly configurable and allow for increased scalability and optimization.
 
-Some examples of these toolchains:
+Some examples of these toolchains include:
 
 - [Vite's React Config](https://vitejs.dev/)
 - [Gatsby](https://www.gatsbyjs.com/)
@@ -39,41 +39,41 @@ All of this, and sometimes *much more* is required to get a React project and de
 
 #### A note on Create React App
 
-Create React App, or CRA, was the official way to scaffold new React projects since its introduction in 2016. Unfortunately, owing to many reasons, CRA was deprecated in early 2023. Read this [extensive comment by one of React's maintainers](https://github.com/reactjs/react.dev/pull/5487#issuecomment-1409720741)  if you're curious. Due to CRA's popularity, you'll see it mentioned in many tutorials and guides. However, it's no longer recommended to use it for new projects.
+Create React App, or CRA, was the official way to scaffold new React projects since its introduction in 2016. Unfortunately, owing to many reasons, CRA was deprecated in early 2023. [Read this extensive comment by one of React's maintainers if you're curious](https://github.com/reactjs/react.dev/pull/5487#issuecomment-1409720741). Due to CRA's popularity, you'll see it mentioned in many tutorials and guides. However, it's no longer recommended to use for new projects. 
 
 </div>
 
 ### Simplifying the process
 
-Now that you understand what is involved with starting a React project from scratch, you can breathe a sigh of relief as you learn that we can get started with a *single terminal command*.
+Now that you understand what is involved with starting a React project from scratch, you can breathe a sigh of relief to learn that we can get started with a *single terminal command*.
 
-Vite builds frontend tools for developers and it leverages the latest technologies under the hood to provide a great developer experience. Fortunately, they also cater to the React ecosystem. We will use Vite's CLI to quickly create a template React project. It requires minimal configuration and provides extremely useful tools straight out of the box, allowing us to get straight to the learning. Let's get started!
+Vite builds frontend tools for developers and it leverages the latest technologies under the hood to provide a great developer experience. Fortunately, it also caters to the React ecosystem. We will use Vite's CLI to quickly create a template React project. It requires minimal configuration and provides extremely useful tools right out of the box, allowing us to get straight to the learning. Let's get started!
 
 ### Creating a React app
 
-Please make sure that you are using the *LTS version of Node*, otherwise errors may occur. Fire up a terminal instance, `cd` over to the folder containing your projects, and enter the following command:
+Please make sure that you are using the *LTS version of Node*, otherwise errors may occur. Fire up a terminal instance, `cd` into the folder containing your projects, and enter the following command:
 
-```
+```bash
 npm create vite@latest my-first-react-app -- --template react
 ```
 
 If you see the following output, enter `y` and then press <kbd>enter</kbd>:
 
-```
+```bash
 Need to install the following packages:
   create-vite@5.X.X
 Ok to proceed? (y)
 ```
 
-Once the command had begun executing, it should output the next steps for you to follow:
+Once the command has executed, it should output the next steps for you to follow: 
 
-```
+```bash
 cd my-first-react-app
 npm install
 npm run dev
 ```
 
-Provided that everything has gone according to plan, head over to `localhost:5173`, where you'll be greeted with the following page:
+Provided everything has gone according to plan, head over to `localhost:5173`, where you'll be greeted with the following page: 
 
 ![Vite React template homepage](https://cdn.statically.io/gh/TheOdinProject/curriculum/73199c4e9e43e8d87f8759e026c13b63fcfe73c7/react/introduction/setting_up_a_react_environment/imgs/vite_react_homepage.png)
 
@@ -81,7 +81,7 @@ Congratulations! You've created your first React app.
 
 <div class="lesson-note lesson-note--tip" markdown=1>
 
-You might've noticed by now; you can replace `my-first-react-app` with the name of your project.
+As you might've noticed by now, you can replace `my-first-react-app` with the name of your project.
 
 </div>
 
@@ -106,15 +106,15 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 )
 ```
 
-Whoa! There's quite a lot here. You are not expected to recognize much of this (if any) right now. Here's a brief rundown of what is happening here:
+Whoa! There's quite a lot here. You are not expected to recognize much of this (if any) right now. Here's a brief rundown of what is happening:
 
-1. We import `React` itself, and its fellow `ReactDOM` package.
+1. We import `React` itself and its fellow `ReactDOM` package.
 1. We import the `App` component from `App.jsx`, so that we may place (render) it within the DOM.
 1. We import some CSS styling (you may recognize this syntax from the Webpack material).
 1. We create a `root` object by invoking `ReactDOM.createRoot` with an element from our `index.html`.
 1. We invoke the `render` method which is attached to our `root` object, with some very interesting-looking syntax inside the parentheses.
 
-All of this may understandably look unlike anything you've seen up until now, but have no fear, once you've spent the time with this course, you'll know exactly what all of this does, and *much more*.
+All of this may look different from anything you've seen, but have no fear! Once you've finished this course, you'll know exactly what all of this does, and *much more*.
 
 ### Keeping it clean
 
@@ -124,17 +124,17 @@ The starter project ships with [ESLint](https://eslint.org/). If you haven't bee
 
 As you progress with React, your projects will undoubtedly become larger and larger and include more and more components, with increasing levels of functionality.
 
-When this happens, it becomes very useful to be able to track (and make live changes to) the moving parts inside of your app for understanding and debugging your code. To this end, we can make use of a Chrome extension called [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en).
+When this happens, it's useful to be able to track (and make live changes to) the moving parts inside of your app for understanding and debugging your code. To this end, we can use a Chrome extension called [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en).
 
-We recommend installing this and becoming comfortable with using it as early as possible as it is an invaluable tool for effective React development.
+We recommend installing this and becoming comfortable using it as early as possible as it's an invaluable tool for effective React development.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. Review this material by reading through [Vite's Getting Started Page](https://vitejs.dev/guide/).
-1. Check out this [guide for React Developer Tools](https://web.archive.org/web/20230127083036/https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to utilize it effectively (don't worry if you can't yet understand some of the languages).
-1. Try to clean up your `my-first-react-app` project so that it no longer displays the default page, see if you can get it to display a "Hello, World!" message instead.
+2. Check out this [guide for React Developer Tools](https://web.archive.org/web/20230127083036/https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to use it (don't worry if you don't understand some of the details yet).
+3. Try to clean up your `my-first-react-app` project so that it no longer displays the default page. See if you can get it to display a "Hello, World!" message instead.
 
 </div>
 
