@@ -45,10 +45,12 @@ Additional resources are the only thing that is considered optional unless expli
 
 **DO NOT SKIP ANYTHING!** 
 
+### Assignment
+
 <div class="lesson-content__panel" markdown="1">
  
 1. Learn more about The Odin Project by reading its [about page](https://www.theodinproject.com/about).
-1. Check out the [frequently asked qeustions](https://www.theodinproject.com/faq) section.
+1. Check out the [frequently asked questions](https://www.theodinproject.com/faq) section.
 
 </div>
 
