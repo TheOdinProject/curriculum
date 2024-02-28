@@ -58,7 +58,7 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 
 As technology advances, we have seen some incredible tools emerge that can help accelerate coding capacity. One particular area that has exploded in popularity lately is the usage of Large Language Models (LLMs) and generative AIs for code completion (like GitHub Copilot) and code generation (like ChatGPT).
 
-While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency.
+While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency. David Humphrey, a computer science professor, [wrote about ChatGPT and its potentially negative impacts on core learning.](https://blog.humphd.org/cheatgpt/) It is a good read about the pitfalls of using generative AI in an educational context.
 
 For learners that are new to programming, tools like ChatGPT or Github Copilot can result in some blindspots and gaps in your knowledge.
 
@@ -95,6 +95,7 @@ Procrastination will be your biggest enemy when trying to make progress.
 **Solution:** The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a way of managing your time in order to stay focused. The idea is to set a timer for 25 minutes and to work on a task until the timer goes off. If you get distracted or interrupted during the 25 minutes, start the 25 minutes of work over again. Once you've successfully focused on work for 25 minutes, take a 5 minute break. When your break is over, repeat the 25 minutes of work and 5 minute break. After you've completed four 25 minute blocks of work, take a longer 15-30 minute break. 
 
 The Pomodoro technique is great for avoiding procrastination as it forces you to work without distractions. Since the work time only lasts 25 minutes before taking a break, it's not overwhelming, making it harder to rationalize procrastination.
+To learn more about the Pomodoro Technique, read this [great article](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c#.hcqsv37u4).
 
 If you want to try it out, [Pomofocus](https://pomofocus.io/) is a customizable pomodoro timer that works on desktop & mobile browser.
 
@@ -114,6 +115,8 @@ What to do during your break:
 - Meditate 
 - Play a quick game.
 - Go for a short walk outside. 
+
+Read [this article](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/) for more information on breaks & productivity.
 
 #### Digital distractions
 
@@ -154,14 +157,11 @@ Learning any new skill is a journey full of speed bumps and obstacles to be over
 <div class="lesson-content__panel" markdown="1">
 
 1. To give your motivation a bit of a boost, read about the success of others in our discord [odin-success-stories](https://discord.com/channels/505093832157691914/1089990025162260570) channel (You need to [join the Discord server](https://discord.gg/fbFCkYabZB) first in order to see the channel).
-1. To learn more about the growth mindset, check out these resources:
+1. To learn more about the growth mindset, go through the following resources:
   - [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
   - [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
   - [You can learn anything](https://www.khanacademy.org/college-careers-more/talks-and-interviews/talks-and-interviews-unit/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
 1. To learn more about the best ways to learn, watch this summary of [Coursera's learning how to learn course](https://www.youtube.com/watch?v=O96fE1E-rf8). The full course is linked in the additional resources.
-1. Read this blog post [about ChatGPT and its potentially negative impacts on core learning.](https://blog.humphd.org/cheatgpt/) by David Humphrey, a computer science teacher. It is a good read about the pitfalls of using generative AI in an educational context.
-1. To learn more about the Pomodoro Technique, read this [great article](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c#.hcqsv37u4).
-1. Read [this article](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/) for more information on breaks & productivity.
 
 </div>
 
@@ -178,5 +178,4 @@ This section contains helpful links to related content. It isn't required, so co
   - [TypingClub.com](https://www.typingclub.com)
   - [Monkeytype](https://monkeytype.com/)
 - [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
-- The Ruby Rogues have a [podcast on How to Learn](https://topenddevs.com/podcasts/ruby-rogues/episodes/131-rr-how-to-learn), which should be motivational and useful to you, so check it out for some useful thoughts on learning.
 - 100 Days of Code is a challenge that new developers often use to track their coding journey and showcase their work. Consider joining by checking out [their website](https://www.100daysofcode.com/) if you are looking for a way to stay motivated and inspire other developers.
