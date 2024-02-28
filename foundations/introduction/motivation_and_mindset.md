@@ -158,7 +158,7 @@ Learning any new skill is a journey full of speed bumps and obstacles to be over
   - [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
   - [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
   - [You can learn anything](https://www.khanacademy.org/college-careers-more/talks-and-interviews/talks-and-interviews-unit/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
-1. To learn more about the best ways to learn, read [learning how to learn on Coursera](https://www.coursera.org/learn/learning-how-to-learn).
+1. To learn more about the best ways to learn, watch this summary of [Coursera's learning how to learn course](https://www.youtube.com/watch?v=O96fE1E-rf8). The full course is linked in the additional resources.
 1. Read this blog post [about ChatGPT and its potentially negative impacts on core learning.](https://blog.humphd.org/cheatgpt/) by David Humphrey, a computer science teacher. It is a good read about the pitfalls of using generative AI in an educational context.
 1. To learn more about the Pomodoro Technique, read this [great article](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c#.hcqsv37u4).
 1. Read [this article](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/) for more information on breaks & productivity.
