@@ -43,7 +43,7 @@ Remember how much fun you had solving the card layout in this exercise?
 
 [![flex-exercise-desired-outcome.png](https://i.postimg.cc/vZ81HMkB/flex-exercise-desired-outcome.png)](https://github.com/TheOdinProject/css-exercises/tree/main/flex/07-flex-layout-2)
 
-It challenged your understanding of Flexbox, but that's how you learn and grow as a developer."
+That was a challenging one! but that's how you learn and grow as a developer."
 
 
 
