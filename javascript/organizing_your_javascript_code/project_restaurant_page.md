@@ -30,7 +30,9 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 
 1. Inside `div#content`, create a homepage for your restaurant. You might want to include an image, headline, and some text about how wonderful the restaurant is; you do not have to make this look too fancy. It’s okay to hard-code these into the HTML for now just to see how they look on the page.
 
-1. Now remove everything inside `div#content` from the HTML (so you still have the `<header>` and `<nav>` with an empty `<div id="content">` below it) and instead create them by using JavaScript only, e.g. by appending each new element to `div#content` once the page is first loaded. Since we're all set up to write our code in multiple files, let's write this initial page-load function inside of its own module and then import and call it inside of `index.js`.
+1. Since we're using the `Html-Webpack-Plugin`, you will need to edit your `src/index.js` file to insert the `div#content` into the body; `Html-Webpack-Plugin` creates a new HTML page which will remove your `src/index.html` file.
+    1. Since we're all set up to write our code in multiple files, let's write this initial page-load function inside of its own module and then import and call it inside of `index.js`.
+1. At this point, you should remove your `index.html` page as well from your local repo - the HTML page gets automatically crearted by `webpack` whenever it's run, so there's no need for you to even have it set up.
 
 1. Next, set up your restaurant site to use tabbed browsing to access the Contact and Menu pages. [Look at the behavior of this student solution](https://web.archive.org/web/20221024060550/https://eckben.github.io/bearysBreakfastBar/) for visual inspiration.
 
