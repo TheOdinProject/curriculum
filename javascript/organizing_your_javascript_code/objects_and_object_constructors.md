@@ -285,9 +285,6 @@ Player.prototype.getMarker = function() {
   console.log(`My marker is '${this.marker}'`);
 };
 
-// Object.getPrototypeOf(Player.prototype) should
-// return the value of "Person.prototype" instead
-// of "Object.prototype"
 Object.getPrototypeOf(Player.prototype); // returns Object.prototype
 
 // Now make `Player` objects inherit from `Person`
