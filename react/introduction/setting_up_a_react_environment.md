@@ -1,6 +1,6 @@
 ### Introduction
 
-You know *what* React is and you might even have an idea of *where* to use it. Now, it's time to start figuring out *how*. 
+You know *what* React is and you might even have an idea of *where* to use it. Now, it's time to start figuring out *how*.
 
 This lesson is going to cover starting a new React project on your machine, as well as some useful tools to help you along the way. We'll also explain some of the problems that may arise (and how to avoid them).
 
@@ -39,7 +39,7 @@ All of this, and sometimes *much more* is required to get a React project and de
 
 #### A note on Create React App
 
-Create React App, or CRA, was the official way to scaffold new React projects since its introduction in 2016. Unfortunately, owing to many reasons, CRA was deprecated in early 2023. [Read this extensive comment by one of React's maintainers if you're curious](https://github.com/reactjs/react.dev/pull/5487#issuecomment-1409720741). Due to CRA's popularity, you'll see it mentioned in many tutorials and guides. However, it's no longer recommended to use for new projects. 
+Create React App, or CRA, was the official way to scaffold new React projects since its introduction in 2016. Unfortunately, owing to many reasons, CRA was deprecated in early 2023. Read this [extensive comment by one of React's maintainers](https://github.com/reactjs/react.dev/pull/5487#issuecomment-1409720741) if you're curious. Due to CRA's popularity, you'll see it mentioned in many tutorials and guides. However, it's no longer recommended to use for new projects.
 
 </div>
 
@@ -65,7 +65,7 @@ Need to install the following packages:
 Ok to proceed? (y)
 ```
 
-Once the command has executed, it should output the next steps for you to follow: 
+Once the command has executed, it should output the next steps for you to follow:
 
 ```bash
 cd my-first-react-app
@@ -73,7 +73,7 @@ npm install
 npm run dev
 ```
 
-Provided everything has gone according to plan, head over to `localhost:5173`, where you'll be greeted with the following page: 
+Provided everything has gone according to plan, head over to `localhost:5173`, where you'll be greeted with the following page:
 
 ![Vite React template homepage](https://cdn.statically.io/gh/TheOdinProject/curriculum/73199c4e9e43e8d87f8759e026c13b63fcfe73c7/react/introduction/setting_up_a_react_environment/imgs/vite_react_homepage.png)
 
@@ -133,8 +133,8 @@ We recommend installing this and becoming comfortable using it as early as possi
 <div class="lesson-content__panel" markdown="1">
 
 1. Review this material by reading through [Vite's Getting Started Page](https://vitejs.dev/guide/).
-2. Check out this [guide for React Developer Tools](https://web.archive.org/web/20230127083036/https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to use it (don't worry if you don't understand some of the details yet).
-3. Try to clean up your `my-first-react-app` project so that it no longer displays the default page. See if you can get it to display a "Hello, World!" message instead.
+1. Check out this [guide for React Developer Tools](https://web.archive.org/web/20230127083036/https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to use it (don't worry if you don't understand some of the details yet).
+1. Try to clean up your `my-first-react-app` project so that it no longer displays the default page. See if you can get it to display a "Hello, World!" message instead.
 
 </div>
 
