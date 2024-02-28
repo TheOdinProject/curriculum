@@ -11,7 +11,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### The importance of semantics
 
-In terms of web accessibility, using semantic HTML is important because it provides meaning and context. Some elements have a *semantic meaning*, but don't really provide any *context* when announced by assistive technologies, such as the `<p>` element. Then there are elements that have a semantic meaning *and* are announced with some sort of context to help users perceive or operate them, like a `<button>`.
+In terms of web accessibility, using semantic HTML is important because it provides meaning and context. Some elements have a _semantic meaning_, but don't really provide any _context_ when announced by assistive technologies, such as the `<p>` element. Then there are elements that have a semantic meaning _and_ are announced with some sort of context to help users perceive or operate them, like a `<button>`.
 
 The `<div>` and `<span>` elements, most likely two of the more common elements you use, are semantically neutral. That is, they themselves have no semantic meaning and provide no context on their own to assistive technologies, which can make it more difficult for users of such technologies to perceive, operate, and understand them. Don't let this lack of semantics and context make you feel like you can never use a `<div>` or `<span>` ever again, though. They still have their uses as generic containers, such as for layouts or for generic text.
 
@@ -19,23 +19,23 @@ Okay, let's look at an actual example to help better understand this whole seman
 
 ```html
 <!-- These are buttons... right? -->
-<div class='button-container'>
-  <div class='rock'>Rock</div>
-  <div class='paper'>Paper</div>
-  <div class='scissors'>Scissors</div>
+<div class="button-container">
+  <div class="rock">Rock</div>
+  <div class="paper">Paper</div>
+  <div class="scissors">Scissors</div>
 </div>
 ```
 
-A sighted user would most likely have no trouble playing the game if the elements looked like something to interact with. A screen reader user, however, would have no idea what any of these elements mean. The screen reader would announce the text contents of the element ("Rock", "Paper", or "Scissors"), and the user might think it's just plain text on the page and move on. There's no context to tell the user that they're supposed to, or that they even *can*, interact with these elements.
+A sighted user would most likely have no trouble playing the game if the elements looked like something to interact with. A screen reader user, however, would have no idea what any of these elements mean. The screen reader would announce the text contents of the element ("Rock", "Paper", or "Scissors"), and the user might think it's just plain text on the page and move on. There's no context to tell the user that they're supposed to, or that they even _can_, interact with these elements.
 
 This issue can be easily fixed by using semantic HTML:
 
 ```html
 <!-- Okay, these are *definitely* buttons -->
-<div class='button-container'>
-  <button class='rock'>Rock</button>
-  <button class='paper'>Paper</button>
-  <button class='scissors'>Scissors</button>
+<div class="button-container">
+  <button class="rock">Rock</button>
+  <button class="paper">Paper</button>
+  <button class="scissors">Scissors</button>
 </div>
 ```
 
@@ -51,13 +51,13 @@ When it comes to using semantic HTML correctly, you want to think about what you
 
 ```html
 <!-- Useful when you need the input itself to have an ID -->
-<label for='name'>Name</label>
-<input type='text' id='name' />
+<label for="name">Name</label>
+<input type="text" id="name" />
 
 <!-- Look, Ma, no ID! -->
 <label>
   Name
-  <input type='text' />
+  <input type="text" />
 </label>
 ```
 
@@ -78,7 +78,7 @@ Headings are the `<h1>` through `<h6>` elements, and like the name implies, thes
 
 As an example, consider the following image which shows how this lesson in particular uses semantic HTML for the different areas in the page. If you want to examine the page in more detail, feel free to use the developer tools to do so.
 
-![How a typical Odin lesson uses semantic HTML by including the nav, header, main, section, aside, and footer elements](https://github.com/nikitarevenco/curriculum/assets/154856872/1ad65822-63a4-49b5-9eed-3221f889700c)
+![How a typical Odin lesson uses semantic HTML by including the nav, header, main, section, aside, and footer elements](./semantic_html/imgs/semantic_html_example.png)
 
 By properly using landmarks and headings, you provide users of assistive technologies a more operable and understandable page: not only can screen reader users navigate a page via landmarks and headings by using navigation keyboard commands (or opening a menu in their screen reader), but these elements also have their roles announced to provide additional context.
 
