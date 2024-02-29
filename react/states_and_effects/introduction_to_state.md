@@ -8,9 +8,9 @@ Read  [What is State? by Academind](https://academind.com/tutorials/what-is-stat
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* What is state?
-* How to use state in React.   
-* What happens when the state changes in React?
+- What is state?
+- How to use state in React.   
+- What happens when the state changes in React?
 
 ### What is state in React? 
 

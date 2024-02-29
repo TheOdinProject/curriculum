@@ -1,8 +1,9 @@
 ### Introduction
 Now that you've learned about arrays, it's time to get into the array's supercharged cousin: **the hash**. Ruby hashes are more advanced collections of data and are similar to objects in JavaScript and dictionaries in Python if you're familiar with those.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
  - Explain what a hash is.
  - Describe how to create a new hash and how to add information to it.

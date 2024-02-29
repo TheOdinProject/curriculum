@@ -6,15 +6,12 @@ Text content
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- LO item
+- An item
+  - A nested item
 
-### This heading should NOT be flagged
+### Custom section
 
-Some more content.
-
-### This `heading` SHOULD be flagged
-
-Some content.
+Text content
 
 ### Assignment
 

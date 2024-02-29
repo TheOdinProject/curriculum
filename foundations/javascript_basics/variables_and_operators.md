@@ -62,7 +62,7 @@ You can think of variables as "storage containers" for data in your code.
 
 <span id="variable-declaration">Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.</span>
 
-1. [This variable tutorial](http://javascript.info/variables) will explain everything you need to know! Be sure to do the **Tasks** at the end. Information won't stick without practice!
+1. This tutorial on [JavaScript variables](http://javascript.info/variables) will explain everything you need to know! Be sure to do the **Tasks** at the end. Information won't stick without practice!
 
 The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. <span id="avoid-var">In *many* tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is *not* what you would expect. Just stick to `let` (and `const`) for now.</span>
 
@@ -70,9 +70,9 @@ The above tutorial mentioned this, but it's important enough to note again: `let
 
 Numbers are the building blocks of programming logic!  In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important.  Luckily, it's also fairly straightforward.
 
-1. [This W3Schools lesson](https://www.w3schools.com/js/js_arithmetic.asp) followed by [this one](https://www.w3schools.com/js/js_numbers.asp), are good introductions to what you can accomplish with numbers in JavaScript.
-1. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view, while also teaching you how to apply some basic math in JavaScript. There's much more that you can do with numbers, but this is all you need at the moment.
-1. Read through \(and code along with!\) [this article](http://javascript.info/operators) about operators in JavaScript.  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
+1. This W3Schools lesson on [JavaScript arithmetic](https://www.w3schools.com/js/js_arithmetic.asp) followed by this on [JavaScript numbers](https://www.w3schools.com/js/js_numbers.asp), are good introductions to what you can accomplish with numbers in JavaScript.
+1. This MDN article on [JavaScript math](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view, while also teaching you how to apply some basic math in JavaScript. There's much more that you can do with numbers, but this is all you need at the moment.
+1. Read through \(and code along with!\) this article on [JavaScript operators](http://javascript.info/operators).  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
 
 ### Assignment
 
@@ -81,7 +81,7 @@ Try the following exercises (and don't forget to use `console.log()`!):
 
 1. Add 2 numbers together! (just type  `console.log(23 + 97)`   into your HTML file)
 1. Add a sequence of 6 different numbers together.
-1. Print the solution to the following equation: `(4 + 6 + 9) / 77`
+1. Print the value of the following expression: `(4 + 6 + 9) / 77`
     - Answer should be approximately `0.24675`
 1. Let's use variables!
     - Type this statement at the top of the script tag: `let a = 10`
@@ -100,7 +100,7 @@ Try the following exercises (and don't forget to use `console.log()`!):
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Name the three ways to declare a variable](#variable-declaration)
 - [Which of the three variable declarations should you avoid and why?](#avoid-var)
@@ -118,7 +118,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- The differences between `var` and `let` are explained in [this JavaScript.info article titled the old "var"](https://javascript.info/var).
+- The differences between `var` and `let` are explained in this JavaScript.info article titled the [old "var"](https://javascript.info/var).
 - This [MDN article on what is JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) explains a bit more about it on a high-level.

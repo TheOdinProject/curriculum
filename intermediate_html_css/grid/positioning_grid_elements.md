@@ -2,13 +2,13 @@
 
 In this lesson we will examine the different parts of a grid and explore common properties that can be used to position grid items.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-* Describe the differences between tracks, lines, and cells
-* Position items by defining their start and end lines
-* Use shorthand notation
+- Describe the differences between tracks, lines, and cells.
+- Position items by defining their start and end lines.
+- Use shorthand notation.
 
 ### Reviewing tracks
 

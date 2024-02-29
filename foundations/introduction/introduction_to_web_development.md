@@ -8,8 +8,6 @@ The work is typically very project focused and involves collaborating with a tea
 Web development could be a good profession for you if you like solving logical problems, building useful things, and experimenting with new technologies.
 Web developers are in high demand, generally have a good work/life balance, and command comfortable salaries. Google your specific location to get a better sense of your local web development job opportunities.
 
-For more details, Wikipedia describes the breadth of the web development profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
-
 ### Types of web developers
 
 Earlier, we mentioned that web development work could be in the front end, the back end, or the full stack. What exactly do these terms mean?
@@ -21,8 +19,6 @@ The **back end** refers to the guts of the application, which live on the server
 Back-end developers use programming languages like Java, Python, Ruby, and JavaScript to work with data.
 
 **Full-stack developers** are comfortable working with both the front and back ends. At The Odin Project, we focus on teaching you full-stack development, covering all aspects of web development.
-
-For more detail, Udacity has a great blog post on this topic: [3 Web Dev Careers Decoded: Front-End vs Back-End vs Full Stack](https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
 ### Types of careers
 
@@ -79,8 +75,6 @@ In this "Foundations" course, you'll take a journey through the entire spectrum 
 
 The following courses will dive deep into these topics. You will build dozens of scripts, projects, and websites to cement those skills that will get you hired.
 
-Getting all the way there is going to be challenging. In fact, you should check out the post ["Why Learning to Code is **So Damn Hard**"](https://web.archive.org/web/20230630111131/https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) so you have a good idea of what the journey ahead is like. But what worthwhile thing is truly easy?
-
 Yes, it's going to be challenging.
 
 But it's also going to be fun.
@@ -88,6 +82,16 @@ But it's also going to be fun.
 And it might even be life changing, too.
 
 _What are you waiting for?_
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Check out the post ["Why Learning to Code is **So Damn Hard**"](https://web.archive.org/web/20230630111131/https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) so you have a good idea of what the journey ahead is like.
+1. Read the [Wikipedia entry on web design](https://en.wikipedia.org/wiki/Web_design) that describes the breadth of the web development profession.
+1. Read Udacity's blog post on [front-end, back-end and full stack developers.](https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
+
+</div>
 
 ### Additional resources
 

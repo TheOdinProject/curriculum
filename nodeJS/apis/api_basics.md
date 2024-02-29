@@ -1,16 +1,16 @@
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Know what `REST` stands for.
 - Explain the purpose of using REST when structuring an API.
-- Detail the REST naming conventions for your API endpoints
-- Have a reinforced understanding of the HTTP Methods/Verbs
-- Describe the Same Origin Policy
-- Explain the purpose of CORS
-- Use CORS as middleware in Express (Globally and on a single route)
-- Configure CORS to only allow certain origins to access our API
-- Explain CORS headers
+- Detail the REST naming conventions for your API endpoints.
+- Have a reinforced understanding of the HTTP Methods/Verbs.
+- Describe the Same Origin Policy.
+- Explain the purpose of CORS.
+- Use CORS as middleware in Express (Globally and on a single route).
+- Configure CORS to only allow certain origins to access our API.
+- Explain CORS headers.
 
 ### Introduction
 

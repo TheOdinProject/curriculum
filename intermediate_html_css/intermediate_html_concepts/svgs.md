@@ -4,11 +4,13 @@ SVGs are a very common image format on the web. They can be a little confusing a
 
 In this lesson, we will learn exactly what SVGs are, what they're used for, and how you can embed them in your websites.
 
-### Learning outcomes
+### Lesson overview
 
--   What SVGs, Vector Graphics, and XML are
--   How to create simple SVGs and add them to your websites
--   When to use SVGs, and when a different image format would be more appropriate
+This section contains a general overview of topics that you will learn in this lesson.
+
+-   What SVGs, Vector Graphics, and XML are.
+-   How to create simple SVGs and add them to your websites.
+-   When to use SVGs, and when a different image format would be more appropriate.
 
 ### What are SVGs?
 

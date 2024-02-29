@@ -6,8 +6,8 @@ HTML (HyperText Markup Language) defines the structure and content of webpages. 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Explain what HTML Tags are
-- Explain what HTML elements are
+- Explain what HTML Tags are.
+- Explain what HTML elements are.
 
 ### Elements and tags
 

@@ -2,12 +2,13 @@
 
 Although adding color to a page can make it more visually appealing, using the wrong color combination or relying solely on color to convey information can end up making things more difficult to perceive and understand for some users. This doesn't mean you have to limit yourself when choosing color schemes for a website, but it does mean you have to take extra care when actually *using* those colors.
 
-### Learning outcomes
-By the end of this lesson, you should be able to:
+### Lesson overview
 
-* Understand what a contrast ratio is.
-* Know how to check contrast ratios.
-* Understand why color alone should not be used to convey information.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Understand what a contrast ratio is.
+- Know how to check contrast ratios.
+- Understand why color alone should not be used to convey information.
 
 ### Color contrast
 

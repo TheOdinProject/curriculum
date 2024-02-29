@@ -281,7 +281,7 @@ we will use the new Rails standard of using import maps.
 haven't already. Don't worry if not everything sticks, but you should know where to look up what you need.
 </div>
 
-### Exercises
+#### Exercises
 
 To practice you need to create a new standard Rails application. Stimulus will be installed by default with Rails 7.0.
 
@@ -296,47 +296,18 @@ button.
 count (imagine a user writing a tweet which has a maximum length of 280 characters)
 - **Project**:
 Go back to you **Flight Booker** project and improve it:
-  - Add a controller that allows the user to add another passenger by clicking on an "Add passenger" button, which adds another set of fields to enter the passenger details (hint: have a look at the [\<template\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)) tag)
+  - Add a controller that allows the user to add another passenger by clicking on an "Add passenger" button, which adds another set of fields to enter the passenger details (hint: have a look at the [\<template\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) tag)
   - Allow to remove existing passengers by clicking a "Remove" button, which removes the one set of passenger fields (make sure submissions to the server still works as expected)
   - Prevent removing the last set of passenger details.
 
 ### Knowledge check
 
-*This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering
-the questions below on your own, clicking the small arrow to the left of the question will reveal the answers.*
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-<details markdown="block">
-  <summary>When do you use Stimulus?</summary>
-
-- When you want functionality, where a roundtrip to a server would not make sense
-
-</details>
-
-<details markdown="block">
-  <summary>How do you select a DOM element?</summary>
-
-- There are three aspects to it:
-  - add a `data-my-thing-target` to the HTML element
-  - declare it with `static targets = ["myThing"]` in your controller
-  - use it in the controller with `this.myThingTarget` or `this.myThingTargets`
-
-</details>
-
-<details markdown="block">
-  <summary>How do you make your Stimulus controllers reusable?</summary>
-
-- By using abstract controllers, like `toggle`, rather than one specific to the view, like `reveal-comments`
-- By making them configurable with `values` and `classes`
-
-</details>
-
-<details markdown="block">
-  <summary>How do you trigger actions on an event?</summary>
-
-- By using `data-action="click->some-controller#someAction"` on a HTML element
-- Or by using `data-action="resize@window->gallery#layout"` for window events
-
-</details>
+- <a class='knowledge-check-link' href='#introduction'>When do you use Stimulus?</a>
+- <a class='knowledge-check-link' href='#selecting-targeting-elements'>How do you select a DOM element?</a>
+- <a class='knowledge-check-link' href='#use-class-attributes-to-make-your-controllers-more-configurable'>How do you make your Stimulus controllers reusable?</a>
+- <a class='knowledge-check-link' href='#triggering-an-action'>How do you trigger actions on an event?</a>
 
 ### Additional resources
 

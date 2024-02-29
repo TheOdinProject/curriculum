@@ -10,21 +10,22 @@ Luckily, Ruby again makes things pretty easy for you. There are some generally a
 
 Finally, files and serialization overlap in a lot of ways with the idea and purpose of databases -- they facilitate the ability to maintain state and permanence for your data.  We'll briefly look into some basic database connections that Ruby provides as well.
 
-### Learning outcomes
-Look through these now and then use them to test yourself after doing the assignment.
+### Lesson overview
 
-* What are two ways to store a file from your hard drive into a string or array in your Ruby script?
-* What are three things made possible or much easier by serialization?
-* What is JSON?
-* What is YAML?
-* How do you turn a Ruby object into JSON?
-* How do you turn JSON into a Ruby object?
-* What classes and methods can your Ruby script use to read and write to the hard drive?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What are two ways to store a file from your hard drive into a string or array in your Ruby script?
+- What are three things made possible or much easier by serialization?
+- What is JSON?
+- What is YAML?
+- How do you turn a Ruby object into JSON?
+- How do you turn JSON into a Ruby object?
+- What classes and methods can your Ruby script use to read and write to the hard drive?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read [Thoughtbot's I/O in Ruby](https://robots.thoughtbot.com/io-in-ruby). You can ignore both the 'Putting it all together' and the 'Working with disparate APIs' sections.
+  1. Read [Thoughtbot's I/O in Ruby](https://thoughtbot.com/blog/io-in-ruby). You can ignore both the 'Putting it all together' and the 'Working with disparate APIs' sections.
   2. Watch [icc0612's introduction to serialization](https://www.youtube.com/watch?v=uS37TujnLRw). It will explain the concept of serialization before you implement it in Ruby.
   3. Read [Choosing the Right Serialization Format](https://www.sitepoint.com/choosing-right-serialization-format/) for more information about the various serialization options you can choose from.
   4. Skim [Alan Skorkin's](http://www.skorks.com/2010/04/serializing-and-deserializing-objects-with-ruby/) post about serialization. Some of the code examples are outdated, but this post still contains relevant information. If you want to follow along with the code examples, copy and paste them into your code editor and use word wrap.

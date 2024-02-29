@@ -8,7 +8,9 @@ There are two projects in this Object Oriented Programming Basics section, but t
 
 There is a lot of reading in this lesson, so you are encouraged to code along with each example. If you find an example that does not make sense, ask for help in the `#ruby-help` channel in our [Discord](https://discord.gg/fbFCkYabZB) server. To get the most out of each example, try to apply what you learned by adding similar functionality on your own.
 
-### Learning outcomes
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - You will learn about classes.
 - You will learn about methods.

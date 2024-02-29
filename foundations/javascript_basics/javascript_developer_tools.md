@@ -6,18 +6,18 @@ Knowing how to use the Developer Tools inside your browser is an important skill
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Change screen size of a website with developer tools
-- View and change the DOM
-- Debug JavaScript
-- Use breakpoints
-- View and edit HTML in the Elements tab
-- View the Resources Panel to check the scripts running on a website
-- Add CSS Pseudostate to a Class
-- View CSS Properties in Alphabetical Order
-- View and edit the Box Model of any Element in Chrome DevTools
-- View a page in print mode
-- Enable or Disable CSS Classes
-- Simulate media queries in Device Mode
+- Change screen size of a website with developer tools.
+- View and change the DOM.
+- Debug JavaScript.
+- Use breakpoints.
+- View and edit HTML in the Elements tab.
+- View the Resources Panel to check the scripts running on a website.
+- Add CSS Pseudostate to a Class.
+- View CSS Properties in Alphabetical Order.
+- View and edit the Box Model of any Element in Chrome DevTools.
+- View a page in print mode.
+- Enable or Disable CSS Classes.
+- Simulate media queries in Device Mode.
 
 ### Opening DevTools
 

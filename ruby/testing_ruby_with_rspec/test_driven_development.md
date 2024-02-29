@@ -4,11 +4,12 @@ Hopefully, you've been having fun developing in Ruby thus far. Perhaps one thing
 
 Folks, we're here to tell you there *IS* a better way. Hoping is for that exam you didn't study for and took by the seat of your pants. **Knowing** is test-driven development.
 
-### Learning outcomes
-*Look through these now and use them to guide your learning. By the end of this lesson, expect to:*
+### Lesson overview
 
-* Understand what test-driven development (TDD) is, and why it's important.
-* Understand the three stages of a TDD cycle.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Understand what test-driven development (TDD) is, and why it's important.
+- Understand the three stages of a TDD cycle.
 
 ### What is test-driven development?
 

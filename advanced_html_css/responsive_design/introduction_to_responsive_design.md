@@ -1,8 +1,11 @@
 ### Introduction
 "Responsive Design" is an incredibly important concept when it comes to developing for the web. In many ways, you are already equipped to create beautiful responsive websites. In this section we're going to fill in the gaps.
 
-### Learning outcomes
-* You'll learn what "Responsive Design" is and why it's important.
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- You'll learn what "Responsive Design" is and why it's important.
 
 ### Terminology
 "Responsive Design" is the term used to describe creating websites that _respond_ to changes in browser size in order to create something that works on any device. Unfortunately, that phrase is a little bit misleading, due to the word 'design'. These lessons are not going to focus much on the actual _design_ of responsive websites, but the techniques you can use to implement responsiveness on websites.

@@ -10,9 +10,9 @@ When we talk about memory, we mean primary memory, which is the working memory a
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* What do we mean by space complexity.
-* Why is it important to consider how our algorithm uses memory space.
-* How do we measure space complexity.
+- What do we mean by space complexity.
+- Why is it important to consider how our algorithm uses memory space.
+- How do we measure space complexity.
 
 ### What do we mean by space complexity?
 

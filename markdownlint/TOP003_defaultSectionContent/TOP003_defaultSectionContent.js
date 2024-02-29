@@ -52,10 +52,22 @@ function getListSectionErrors(sectionTokens, section) {
         token.type === arr[0].type.replace("_open", "_close")
     ) + 1
   );
-  const bulletListOpenToken = sectionTokens.find(
+  if (
+    hasDefaultContent &&
+    tokensAfterFirstContent[0].type !== "bullet_list_open"
+  ) {
+    listSectionErrors.push(
+      createErrorObject(
+        tokensAfterFirstContent[0].lineNumber,
+        `Only an unordered list of ${listItemsName} should follow the default content.`
+      )
+    );
+  }
+
+  const bulletListOpenTokenIndex = sectionTokens.findIndex(
     (token) => token.type === "bullet_list_open"
   );
-  if (!bulletListOpenToken) {
+  if (bulletListOpenTokenIndex === -1) {
     const errorDetail =
       section === sectionsWithDefaultContent.additionalResources
         ? `Expected section to include unordered list item: "It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum."`
@@ -67,25 +79,39 @@ function getListSectionErrors(sectionTokens, section) {
       )
     );
   }
-  if (hasDefaultContent && bulletListOpenToken !== tokensAfterFirstContent[0]) {
+
+  const firstBulletListCloseIndex = sectionTokens.findIndex(
+    (token) => token.type === "bullet_list_close"
+  );
+  const lastBulletListCloseIndex = sectionTokens.findLastIndex(
+    (token) => token.type === "bullet_list_close"
+  );
+  if (firstBulletListCloseIndex !== lastBulletListCloseIndex) {
+    const tokensUpToBulletListClose = sectionTokens.slice(
+      bulletListOpenTokenIndex,
+      firstBulletListCloseIndex
+    );
+
     listSectionErrors.push(
       createErrorObject(
-        tokensAfterFirstContent[0].lineNumber,
-        `Only default section content should precede the unordered list of ${listItemsName}`
+        tokensUpToBulletListClose.findLast((token) => token.lineNumber)
+          .lineNumber,
+        `There should not be nested lists of ${listItemsName}`
       )
     );
   }
 
-  const bulletListCloseIndex = sectionTokens.findIndex(
-    (token) => token.type === "bullet_list_close"
-  );
   if (
-    bulletListOpenToken &&
-    bulletListCloseIndex !== sectionTokens.length - 1
+    bulletListOpenTokenIndex !== -1 &&
+    lastBulletListCloseIndex !== sectionTokens.length - 1
   ) {
+    const tokensAfterBulletListClose = sectionTokens.slice(
+      firstBulletListCloseIndex
+    );
+
     listSectionErrors.push(
       createErrorObject(
-        sectionTokens[bulletListCloseIndex + 1].lineNumber,
+        tokensAfterBulletListClose.find((token) => token.lineNumber).lineNumber,
         `There should be no additional content after the unordered list of ${listItemsName}`
       )
     );

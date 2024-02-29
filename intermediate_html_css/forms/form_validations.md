@@ -6,13 +6,13 @@ Validations are a vital ingredient in well-designed forms. They help protect our
 
 This lesson will explore some of the built-in validations you can use with HTML forms. We will also dive into styling validations with CSS.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Explain what form validations are
-- Know how to use a few of the basic built-in HTML validations
-- Know how to build custom validations
+- Explain what form validations are.
+- Know how to use a few of the basic built-in HTML validations.
+- Know how to build custom validations.
 
 ### Required validation
 

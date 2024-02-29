@@ -2,15 +2,15 @@
 
 In the previous lesson, we established the utility of [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD) in maintaining your code and sanity. In this lesson, we'll introduce you to your new best friend, the [RSpec](http://rspec.info/) testing framework. It's one of the most popular testing frameworks, having been downloaded more than [700 million times](https://rubygems.org/gems/rspec), at the time of this writing, and having been ported for use in [Rails testing](https://rubygems.org/gems/rspec-rails).
 
-### Learning outcomes
+### Lesson overview
 
-_Look through these now and use them to guide your learning. By the end of this lesson, expect to:_
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Know what RSpec is
-- Know how to install RSpec
+- Know what RSpec is.
+- Know how to install RSpec.
 - Understand the basic RSpec syntax:
-  - `describe`
-  - `it`
+  - `describe`.
+  - `it`.
 
 ### Introduction to RSpec
 

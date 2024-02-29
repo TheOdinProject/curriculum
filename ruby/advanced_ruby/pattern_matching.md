@@ -6,21 +6,21 @@ With Ruby 3.1, most parts of the pattern matching syntax are no longer considere
 
 If you want to play with the examples, make sure you're on at least Ruby 2.7 or use replit.com.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
- - Explain the syntax for implementing a pattern matching case statement.
- - Explain what types can be used in pattern matching.
- - Explain the possible return values from a pattern match.
- - Explain how to implement a guard condition in a pattern match statement.
- - Explain how to pattern match against an Array and Arrays within Arrays.
- - Explain how to pattern match against a Hash.
- - Explain the main differences between Hash and Array pattern matching.
- - Explain the use of the pin operator.
- - Explain the use of the alternative pattern.
- - Explain how to bind matches to a variable.
- - Explain how to match against your own custom classes.
+- Explain the syntax for implementing a pattern matching case statement.
+- Explain what types can be used in pattern matching.
+- Explain the possible return values from a pattern match.
+- Explain how to implement a guard condition in a pattern match statement.
+- Explain how to pattern match against an Array and Arrays within Arrays.
+- Explain how to pattern match against a Hash.
+- Explain the main differences between Hash and Array pattern matching.
+- Explain the use of the pin operator.
+- Explain the use of the alternative pattern.
+- Explain how to bind matches to a variable.
+- Explain how to match against your own custom classes.
 
 ### Basics
 

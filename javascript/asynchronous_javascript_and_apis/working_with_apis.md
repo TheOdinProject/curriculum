@@ -6,10 +6,10 @@ One of the most powerful things a web developer can do is fetching data from a s
 
 This section contains a general overview of topics that you will learn in this lesson.
 
- - Explain what an API is
- - Explain broadly how access to an API works
- - Explain how to fetch and extract data from an API
- - Explain why your API request might be blocked by the browser, and how to fix this
+ - Explain what an API is.
+ - Explain broadly how access to an API works.
+ - Explain how to fetch and extract data from an API.
+ - Explain why your API request might be blocked by the browser, and how to fix this.
 
 ### APIs
 
@@ -235,3 +235,9 @@ This section contains questions for you to check your understanding of this less
  - [How is access to an API restricted?](#apis)
  - [How do you fetch and extract data from an API?](#fetching-data)
  - [Why might your API request be blocked by the browser, and how might you fix this?](#cors)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

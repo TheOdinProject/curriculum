@@ -93,13 +93,15 @@ module.exports = {
     let anyHeadings = false;
     const getExpected = () => requiredHeadings[i++] || "[None]";
     const handleCase = (str) => (matchCase ? str : str.toLowerCase());
+    // https://regexr.com/7rf1o to test the following regex:
+    const wildcardRegex = new RegExp(/^(#*\s)?\*$/);
+
     forEachHeading(params, (heading, content) => {
       if (!hasError) {
         anyHeadings = true;
         const actual = levels[heading.tag] + " " + content;
         const expected = getExpected();
-        // https://regexr.com/7rf1o to test the following regex
-        const wildcardRegex = new RegExp(/^(#*\s)?\*$/);
+
         if (wildcardRegex.test(expected)) {
           const nextExpected = getExpected();
           if (handleCase(nextExpected) !== handleCase(actual)) {
@@ -147,7 +149,7 @@ module.exports = {
     if (
       !hasError &&
       (extraHeadings > 1 ||
-        (extraHeadings === 1 && wildcardRegex.test(requiredHeadings[i]))) &&
+        (extraHeadings === 1 && !wildcardRegex.test(requiredHeadings[i]))) &&
       (anyHeadings ||
         !requiredHeadings.every((heading) => wildcardRegex.test(heading)))
     ) {

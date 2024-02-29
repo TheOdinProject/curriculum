@@ -10,15 +10,16 @@ There's also a right and wrong way to use recursion.  The fact is, any problem y
 
 In this brief lesson, you'll get a chance to learn more about when and how to use recursion and then in the next project you will get the chance to apply some of that (since it probably won't really stick until you've had a chance to try it).
 
-### Learning outcomes
-Look through these now and then use them to test yourself after doing the assignment
+### Lesson overview
 
-* Why is recursion a useful technique for solving a big problem?
-* What are the limitations of using recursive solutions?
-* What types of problems are more suited for simple loops than recursion?
-* What is meant by "recursive depth"?
-* What is a "stack overflow" (the concept, not the website)?
-* Why is that relevant to a recursive problem?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Why is recursion a useful technique for solving a big problem?
+- What are the limitations of using recursive solutions?
+- What types of problems are more suited for simple loops than recursion?
+- What is meant by "recursive depth"?
+- What is a "stack overflow" (the concept, not the website)?
+- Why is that relevant to a recursive problem?
 
 ### Assignment
 

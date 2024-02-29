@@ -2,13 +2,13 @@
 
 We've learned how to test our vanilla JavaScript applications in a previous section. Testing is a powerful tool that allows us to write maintainable and flexible code. If you've followed along with our lessons, so far we've been using the [Jest](https://jestjs.io/) framework. However, since we're using [Vite](https://vitejs.dev/) we'll switch over to [Vitest](https://vitest.dev/) as our test runner since it integrates nicely with Vite. We'll add more capabilities to our tests using the [React Testing library (RTL)](https://testing-library.com/docs/react-testing-library/intro/).
 
-### Lesson overview 
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* How to set up a React testing environment.
-* How to test UI elements.
-* Understanding snapshot tests.
+- How to set up a React testing environment.
+- How to test UI elements.
+- Understanding snapshot tests.
 
 ### Setting up a React testing environment
 
@@ -97,7 +97,7 @@ export default App;
 Let's test if the button works as intended. In this test suite, we'll use a separate utility to query our UI elements. React Testing Library provides the `screen` object which has all the methods for querying. With `screen`, we don't have to worry about keeping `render`'s destructuring up-to-date. Hence, it's better to use `screen` to access queries rather than to destructure `render`.
 
 ~~~javascript
-// App.test.js
+// App.test.jsx
 
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";

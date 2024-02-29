@@ -10,9 +10,9 @@ You've already had a brief introduction to **algorithms** over some of the other
 
 Luckily for you, these complex algorithmic problems have all been solved many times in the past. Understanding _how_ they are solved will give you some great tools to apply to other (similar) problems on your own. Algorithms are really just ways of solving problems systematically. In this brief introduction, we'll focus on a couple of algorithms that you may run into when coding on your own -- breadth-first-search and depth-first-search.
 
-### Learning outcomes
+### Lesson overview
 
-Look through these now and then use them to test yourself after doing the assignment:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - What is a data structure?
 - What is a stack?

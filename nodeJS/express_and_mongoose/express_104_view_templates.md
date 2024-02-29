@@ -2,9 +2,9 @@
 
 This lesson is fun! You'll be setting up several views, and you'll start to see your Application come together. We'll finally get to see our data showing up in the browser!  This is a long lesson that is broken up into several sub-lessons, so make sure you click through to see them all.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Describe asynchronous functions.
 - Manage asynchronous operations in controller functions.

@@ -8,7 +8,7 @@ In this lesson, we'll learn about mocking. Furthermore, we'll discuss a React co
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Carry out mocks in the context of React testing.
+- Carry out mocks in the context of React testing.
 
 ### What is mocking?
 

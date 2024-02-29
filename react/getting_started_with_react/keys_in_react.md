@@ -4,7 +4,7 @@ In this lesson, we will cover keys in React. Keys are special props for our comp
 
 ### Lesson overview
 
-By the end of the lesson you should be able to answer the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - What are keys and why does React need them?
 - What are good and bad examples of keys?

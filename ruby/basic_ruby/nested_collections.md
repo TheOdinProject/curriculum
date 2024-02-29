@@ -3,8 +3,9 @@ This lesson is going to build on your knowledge of arrays and hashes. As you hav
 
 Let's take a look at how you can use nested arrays and nested hashes to store more complex data.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Describe a nested array and hash.
 - Explain what data is useful to store in a nested array and hash.

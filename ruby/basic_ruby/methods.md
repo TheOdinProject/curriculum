@@ -13,8 +13,9 @@ Basically, because everything in Ruby is an object, Ruby only has methods, not f
 
 In this lesson, we're going to deconstruct what methods are, examine their behaviour, and learn how to use them.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
  - Explain how to create and call a new method.
  - Explain how to pass variables to a method and how to define default parameters.

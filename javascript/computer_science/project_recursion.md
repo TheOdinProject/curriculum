@@ -13,7 +13,7 @@ In order to run these functions you'll need to run it from somewhere. You can ru
 
 #### Understanding recursive Fibonacci
 
-Did you figure it out? Congratulations! But do you really understand what is taking place? If you need some help understanding what's going on with this function, give [Khan Academy's Stepping Through Recursive Fibonacci Function video](https://www.youtube.com/watch?v=zg-ddPbzcKM) a watch. If you prefer to read, [Recursive Fibonacci Explained](https://www.scaler.com/topics/fibonacci-series-in-javascript/) is also very helpful!
+Did you figure it out? Congratulations! But do you really understand what is taking place? If you need some help understanding what's going on with this function, give [Khan Academy's Stepping Through Recursive Fibonacci Function video](https://www.youtube.com/watch?v=zg-ddPbzcKM) a watch. If you prefer to read, this [GeeksForGeeks article](https://www.geeksforgeeks.org/javascript-program-to-display-fibonacci-sequence-using-recursion/) is also very helpful!
 
 ### Project: merge sort
 
@@ -47,5 +47,5 @@ The first step is to actually understand what the merge sort algorithm is doing:
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
-- Visualize and [understand](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK) the memory allocation for recursive functions
-- For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)
+- Visualize and [understand](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK) the memory allocation for recursive functions.
+- For more practice using recursion, try the first 5 problems in [Project Euler](https://projecteuler.net/problems).

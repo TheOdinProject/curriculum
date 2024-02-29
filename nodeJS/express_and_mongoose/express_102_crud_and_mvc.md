@@ -2,9 +2,9 @@
 
 After setting up the skeleton for your project it's time to set up the database.  As usual, there's quite a bit of background information that you will find useful as you progress.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain CRUD and how it correlates to HTTP methods in Express.
 - Describe MVC and how it correlates to Express.
