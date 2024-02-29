@@ -154,5 +154,5 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [This video](https://www.youtube.com/watch?v=SMbqi1HPprc) is a helpful guide on how to set up Prettier inside your Vite-React projects.
+- [Vite React App with EsLint & Prettier in VSCode (2023)](https://www.youtube.com/watch?v=SMbqi1HPprc) is a helpful video guide on how to set up Prettier inside your Vite-React projects.
 - [Intro to React Dev Tools](https://www.youtube.com/watch?v=rb1GWqCJid4) gets you up to speed with a quick overview of the basic features of React Dev tools in Chrome.
