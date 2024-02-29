@@ -21,6 +21,8 @@ Some of the things you can do to contribute to our curriculum include:
 
 **Happy Coding!**
 
+//Nice!
+
 \* See [license.md](https://github.com/TheOdinProject/curriculum/blob/main/license.md) for usage details.
 
 ___
