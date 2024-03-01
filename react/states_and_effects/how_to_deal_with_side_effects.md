@@ -37,7 +37,9 @@ export default function Clock() {
 }
 ```
 
-Alas, we see our counter going berserk. The reason this occurs is that we try to **manipulate the state during render**. As we know, the component gets torn down and re-rendered every time the state updates, and we are updating the state every second, thus incrementing rapidly.
+Alas, we see our counter going berserk. This happens because the `setInterval` function is being called not once, but at every state render.
+
+When our component first renders, it calls our initial `setInterval` function. That interval updates the state every second, triggering the component to re-render. But every re-render calls `setInterval` again, which triggers more frequent state updates, which each spawn new intervals, and everything quickly spirals out of control.
 
 This is where the `useEffect` hook swoops in to save us. We can wrap this calculation inside a `useEffect` hook to move it outside the rendering calculation. It accepts a callback function with all the calculations.
 
