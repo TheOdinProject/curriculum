@@ -35,7 +35,7 @@ Read through the npm links below but don't worry about running any of the comman
 1. Take a couple minutes to read the [About npm](https://docs.npmjs.com/getting-started/what-is-npm) page - a great introduction to npm.
 1. [This tutorial](https://docs.npmjs.com/downloading-and-installing-packages-locally) teaches you how to install packages with npm.
 1. [This tutorial](https://docs.npmjs.com/creating-a-package-json-file) covers the `package.json` file, which you can use to manage your project's dependencies.
-1. Read [this article on development dependencies](https://dev.to/moimikey/demystifying-devdependencies-and-dependencies-5ege) to learn what they are and how to use them. **NOTE:** The author of the article clarifies something potentially confusing in the first comment. After reading about and practicing with Webpack in this lesson, you should come back to [this comment](https://dev.to/moimikey/demystifying-devdependencies-and-dependencies-5ege#comment-5ea4) and understand what they meant.
+1. Read [this article on development dependencies](https://dev.to/moimikey/demystifying-devdependencies-and-dependencies-5ege) to learn what they are and how to use them. **NOTE:** The author of the article clarifies something potentially confusing in [this comment](https://dev.to/moimikey/demystifying-devdependencies-and-dependencies-5ege#comment-5ea4). After reading about and practicing with Webpack in this lesson, you should come back to the aforementioned comment and understand what they meant.
 1. If you run into trouble at any point you can check out [the official docs page](https://docs.npmjs.com/) for more tutorials and documentation.
 
 ### Yarn?
