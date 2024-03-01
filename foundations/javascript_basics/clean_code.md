@@ -293,4 +293,4 @@ This section contains helpful links to related content. It isn’t required, so 
 - [Airbnb style guide](https://github.com/airbnb/javascript)
 - [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)
 
-- [Clean code in Javascript](https://github.com/ryanmcdermott/clean-code-javascript)
+- [Clean code in JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
