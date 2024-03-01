@@ -57,7 +57,7 @@ One final note before diving back into the tutorial. Express does not care about
 
 1. If you're planning to publish your code on GitHub you will need to hide the MongoDB connection URL beacuse it contains your username and password. One way to do this is to push your code to a private repository. However, if you want to show-off your code, you can assign your connection url to an environment variable and access it with [the Dotenv package](https://github.com/motdotla/dotenv). This[Medium article](https://javascript.plainenglish.io/how-to-use-dotenv-and-why-you-need-it-in-all-your-projects-a7319e16124a) does a great job of explaining what environment variables are and how to use them with Express. Read through the article and then when you reach the section that has you connect to MongoDB, follow the instructions in this article to hide your connection string and access it from the `.env` file.
 
-2. Complete part 3 of [the MDN Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose).
+1. Complete part 3 of [the MDN Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose).
 
 </div>
 
