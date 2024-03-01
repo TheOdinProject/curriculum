@@ -39,9 +39,9 @@ Keep the following requirements in mind. We'll cover specific steps to get start
 #### Extra credit
 
 1. Make posts also allow images (either just via a URL or, more complicated, by uploading one).
-2. Use [Active Storage](https://guides.rubyonrails.org/active_storage_overview.html) to allow users to upload a photo to their profile.
-3. Make your post able to be either a text OR a photo by using a polymorphic association (so users can still like or comment on it while being none-the-wiser).
-4. Style it up nicely! We'll dive into HTML/CSS in the next course.
+1. Use [Active Storage](https://guides.rubyonrails.org/active_storage_overview.html) to allow users to upload a photo to their profile.
+1. Make your post able to be either a text OR a photo by using a polymorphic association (so users can still like or comment on it while being none-the-wiser).
+1. Style it up nicely! We'll dive into HTML/CSS in the next course.
 
 #### Getting started
 
@@ -58,6 +58,6 @@ Keep the following requirements in mind. We'll cover specific steps to get start
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* For an alternative to using AWS S3 for image storage take a look at this [cloudinary](https://github.com/GoGoCarl/paperclip-cloudinary)
+- For an alternative to using AWS S3 for image storage take a look at this [cloudinary](https://github.com/GoGoCarl/paperclip-cloudinary)

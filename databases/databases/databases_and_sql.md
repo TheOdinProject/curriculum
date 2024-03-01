@@ -8,7 +8,7 @@ All of those examples involve you engaging with your database.  Luckily, many da
 
 You will start with the questions like the ones above and then have to figure out how to ask them properly of your database, which likely has a bunch of different tables in it.  Everyone probably visualizes it a bit differently, but finding a way to visualize what's going on when you do SQL queries is pretty important. We actually think of Excel tables moving in our head and combining with each other and reshuffling as necessary. To each their own.
 
-We'll move beyond just the simple `SELECT "users".* FROM "users" LIMIT 1` queries and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
+We'll move beyond just the `SELECT "users".* FROM "users" LIMIT 1` queries and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
 
 All this stuff is being used by Rails behind the scenes so understanding it will make you much better at writing queries in Rails. This is why we're going over databases before learning Rails.
 
@@ -19,16 +19,17 @@ SQL is one of those topics that's been stored away in dusty old technical manual
 Though the prevalence of web applications these days has grown the demand among new users to focus on understanding the *concepts* of SQL, the learning tools haven't really caught up. We'll do our best to impart those concepts using the tools available.
 
 ### Lesson overview
+
 This section contains a general overview of topics that you will learn in this lesson.
 
--   What a Primary Key is.
--   What Foreign Keys are.
--   What a Schema is.
--   How to use various SQL statements like `SELECT`, `CREATE TABLE`, `UPDATE`, `DELETE` and more.
--   How to use various SQL clauses like `WHERE`, `LIKE`, `DISTINCT` and more.
--   How to use various SQL functions like `AVG`, `COUNT`, `SUM` and more.
--   What Indexes are good for.
--   What the difference between `WHERE` and `HAVING` is.
+- What a Primary Key is.
+- What Foreign Keys are.
+- What a Schema is.
+- How to use various SQL statements like `SELECT`, `CREATE TABLE`, `UPDATE`, `DELETE` and more.
+- How to use various SQL clauses like `WHERE`, `LIKE`, `DISTINCT` and more.
+- How to use various SQL functions like `AVG`, `COUNT`, `SUM` and more.
+- What Indexes are good for.
+- What the difference between `WHERE` and `HAVING` is.
 
 ### The world's fastest semi-complete explanation of SQL
 
@@ -64,7 +65,7 @@ For "Destroy" queries, the classic mistake is typing `DELETE FROM users` without
   WHERE email='foo@bar.com';
 ```
 
-<span id='sql-read'>"Read" queries, which use `SELECT`, are the most common, e.g. `SELECT * FROM users WHERE created_at < '2013-12-11 15:35:59 -0800'`</span>.  The `*` you see just says "all the columns".  Specify a column using both the table name and the column name.  You can get away with just the column name for simple queries but as soon as there are more than one table involved, SQL will yell at you so just always specify the table name: `SELECT users.id, users.name FROM users`.
+<span id='sql-read'>"Read" queries, which use `SELECT`, are the most common, e.g. `SELECT * FROM users WHERE created_at < '2013-12-11 15:35:59 -0800'`</span>.  The `*` you see just says "all the columns".  Specify a column using both the table name and the column name. You can get away with just the column name for queries of one table, but as soon as there are more than one table involved, SQL will yell at you so just always specify the table name: `SELECT users.id, users.name FROM users`.
 
 A close cousin of `SELECT`, for if you only want unique values of a column, is `SELECT DISTINCT`.  Say you want a list of all the different names of your users without any duplicates... try `SELECT DISTINCT users.name FROM users`.
 

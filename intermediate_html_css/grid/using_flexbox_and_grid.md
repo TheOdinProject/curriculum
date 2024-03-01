@@ -1,14 +1,14 @@
 ### Introduction
 
-Some may tell you there is a debate on the use of Grid vs. Flexbox and whether or not one is superior to the other. The reality is much simpler - these are complementary tools that can work together, and each has its own place in the world of CSS.
+Some may tell you there is a debate on the use of Grid vs. Flexbox and whether or not one is superior to the other. The reality is these are complementary tools that can work together, and each has its own place in the world of CSS.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-* Know when you might want to use Flexbox over Grid
-* Know when you might want to use Grid over Flexbox
-* Know when you might want to use the two together
+- Know when you might want to use Flexbox over Grid.
+- Know when you might want to use Grid over Flexbox.
+- Know when you might want to use the two together.
 
 ### Content first vs layout first design
 
@@ -30,7 +30,7 @@ Content or Layout First Design do not force us to use either Flexbox or Grid! Le
 It works and looks absolutely *beautiful*! But imagine we would like to move these boxes around in the future. Or, for instance, we wanted the third box to stretch in a second row so that the boxes didn't shrink too much to fit in only one. Both of these things would be *possible* in Grid. But if controlling the layout isn't our priority, Flexbox is more intuitive and fit for the task.
 
 ### Combining flexbox and grid
-If you have one-dimensional content, Flexbox can make it easier to control how that content is positioned in a Flex container. If, on the other hand, you want to accurately place content on a complex layout in two-dimensions, Grid can be simpler to use.
+If you have one-dimensional content, Flexbox can make it easier to control how that content is positioned in a Flex container. If, on the other hand, you want to accurately place content on a complex layout in two-dimensions, Grid can be easier to use.
 
 Say you want your overall layout to be a grid, but you want the grid items to act as flex parents. This way, the grid items can be moved around using the precise two-dimensional placement Grid allows for, while also allowing the content inside the grid items to be capable of freely moving around using Flex. Check out this example from CSS-Tricks.
 

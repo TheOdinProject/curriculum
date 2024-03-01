@@ -10,11 +10,11 @@ In this lesson, we will learn how to deploy our apps to a hosting provider, allo
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand what a hosting provider is
-- Understand the difference between static and dynamic sites
-- Understand what a PaaS is and how they work
-- Know how to deploy to a PaaS provider
-- Know how to troubleshoot common deployment issues
+- Understand what a hosting provider is.
+- Understand the difference between static and dynamic sites.
+- Understand what a PaaS is and how they work.
+- Know how to deploy to a PaaS provider.
+- Know how to troubleshoot common deployment issues.
 
 ### What are hosting providers?
 
@@ -24,7 +24,7 @@ You've already had some experience using a hosting provider when you deployed pr
 
 ### Static vs dynamic sites
 
-Static websites consist of pre-written HTML pages. They are "static" because everyone who visits them will see the same content. To build static sites, you only need HTML, CSS and Javascript.
+Static websites consist of pre-written HTML pages. They are "static" because everyone who visits them will see the same content. To build static sites, you only need HTML, CSS and JavaScript.
 
 Dynamic websites, on the other hand, are websites that can change content based on the user who is visiting them. Twitter is a good example; every Twitter user sees different content on their homepage feed based on who they follow. To build dynamic sites, you still need HTML, CSS and JS. But additionally, you need a server-side application and a database.
 
@@ -81,7 +81,7 @@ Once you have your domain, you need to point it to your project. The provider yo
 
 ### Our recommended PaaS services
 
-Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small app's as you wanted, but they unfortunately discontinued it in 2022.
+Choosing a PaaS provider was once a simple decision. Heroku had a free tier that gave you everything needed to host as many small apps as you wanted, but they unfortunately discontinued it in 2022.
 
 Luckily, there are still plenty of other great options out there. The downside is that they all have very limited free tiers. For this reason, and to accommodate as many of our learners as possible, we're going to recommend a range of options instead of just one.
 
@@ -93,58 +93,60 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-### Fly.io
+#### Fly.io
 
-- Fly.io uses a simple CLI tool for deployment.
+- Fly.io uses a convenient CLI tool for deployment.
 - Pay for what you use with very reasonable rates. Each app should cost around $4 per month.
 - $20 a month should be enough to host eight apps (including three apps for free).
+- Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
 
-**Free plan**
+##### Fly.io: Free Plan
 
 - You can host three apps for free before you need to start paying.
 - Requires a credit card.
+- Fly.io waives monthly invoices that total less than $5 USD. So, although it may look like
+  you are being charged, it's very unlikely that you will exceed $5 and actually have to pay.
 
-**Links**
+##### Fly.io: Links
 
 - [Homepage](https://fly.io/)
 - [Documentation](https://fly.io/docs/)
 - [Guide: Official getting started with NodeJS on Fly.io guide](https://fly.io/docs/languages-and-frameworks/node/)
-- [Guide: GoNodeJS video guide for deploying NodeJS applications to Fly.io](https://www.youtube.com/watch?v=6Zp9y8nF5rE&)
 
 ---
 
-### Railway.app
+#### Railway.app
 
-- Railway has a simple deployment process. You link to your project's GitHub repo.
+- Railway has a convenient deployment process. You link to your project's GitHub repo.
 - Pay for what you use model.
 - $5 a month should be enough to host four applications.
 
-**Free plan**
+##### Railway.app: Free Plan
 
 - You get a free one-time grant of $5 on their free trial, and the applications are never put to sleep when inactive.
-- However, the longevity of your free allowance depends on how many resources you consume. Full usage of the resources available is only enough to host one app for about 30 days, and thus isn't recommended.
+- However, the longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
 
-**Links**
+##### Railway.app: Links
 
 - [Homepage](https://railway.app/)
 - [Documentation](https://docs.railway.app/)
 
 ---
 
-### Adaptable.io
+#### Adaptable.io
 
-- Like Railway, has a simple deployment process. You simply link to your project's GitHub repo.
+- Like Railway, has a convenient deployment process. You link to your project's GitHub repo.
 - Free plan does not limit the number of applications you can deploy.
 - Also has fixed and usage-based payment plans.
 
-**Free plan**
+##### Adaptable.io: Free Plan
 
 - No limits on the number of applications you can deploy on the free plan.
 - Monthly performance allowance is more than sufficient for course/personal projects (approximately 25,000 API requests per month).
 - Applications are put to sleep when inactive but wake up speed is quicker than Render.
-- No credit card required.
+- Requires a credit card.
 
-**Links**
+##### Adaptable.io: Links
 
 - [Homepage](https://adaptable.io/)
 - [Documentation](https://adaptable.io/docs/what-is-adaptable)
@@ -152,18 +154,19 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-### Render
+#### Render
 
-- Render allows you to deploy using simple "Blueprints", which link to your project's GitHub repo.
+- Render allows you to deploy using "Blueprints", which link to your project's GitHub repo.
 - The free 750-hour allowance is enough to host a few apps without paying anything. However, databases are separate on Render, and the lowest spec databases cost $7 each. This is a good option to use in tandem with MongoDB Atlas.
 - $21 a month is enough to host three applications as each app's database will cost $7.
 
-**Free plan**
+##### Render: Free Plan
 
 - 750 hours of free usage per month.
 - Applications are put to sleep automatically after 15 minutes of inactivity, so the 750 free hours should be enough to host a few apps for the entire month.
+- Requires a credit card.
 
-**Links**
+##### Render: Links
 
 - [Homepage](https://render.com/)
 - [Documentation](https://render.com/docs/)
@@ -172,19 +175,19 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-### Heroku
+#### Heroku
 
-- Heroku has a straightforward deployment process using a combination of a simple and well-documented CLI tool and Git.
+- Heroku has a straightforward deployment process using a combination of a well-documented CLI tool and Git.
 - Heroku is a very mature platform which has been around for over a decade. Any problems you encounter are almost guaranteed to have a solution documented on Stack Overflow or elsewhere on the internet.
 - The $5 per month eco plan will give you 1000 free hours each month for all your applications. Applications are automatically put to sleep after 30 minutes of inactivity, so the 1000-hour allowance should last the entire month for several of your portfolio projects.
 - Heroku's lowest-tier Postgresql databases cost $5 per month, effectively costing each application $5 to host.
 - $20 a month will be enough to host three applications. $5 eco plan for 1000 server hours + an additional $5 for each app.
 
-**Free plan**
+##### Heroku: Free Plan
 
 - N/A
 
-**Links**
+##### Heroku: Links
 
 - [Homepage](https://www.heroku.com/)
 - [Documentation](https://devcenter.heroku.com/)
@@ -196,7 +199,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 Errors are an inevitable part of the software development process. They especially have a habit of popping up when deploying to a new environment like a hosting provider. When this happens, the key is not to panic and to follow a calm, step-by-step debugging process.
 
-In most cases, you'll be running into errors that thousands of developers have encountered before. These errors are well documented and often have simple solutions you can find with a little bit of Google-fu.
+In most cases, you'll be running into errors that thousands of developers have encountered before. These errors are well documented and often have solutions you can find with a little bit of Google-fu.
 
 There are two stages of the deployment process where you are most likely to encounter problems. These are during deployment and right after.
 
@@ -204,7 +207,7 @@ There are two stages of the deployment process where you are most likely to enco
 
 If you run into an error while deploying, the first thing to do is to check the build logs. Finding the build logs should be easy; it's the stream of output you'll see after kicking off a new deployment.
 
-Scroll through these logs and find the point where the deployment encountered the error. It should stand out from the rest of the output and will often look like the stack traces you've already seen with Javascript/NodeJS. The error output will tell you exactly what went wrong.
+Scroll through these logs and find the point where the deployment encountered the error. It should stand out from the rest of the output and will often look like the stack traces you've already seen with JavaScript/NodeJS. The error output will tell you exactly what went wrong.
 
 If you don't recognize the error or what might cause it, your next step will be to copy and paste it into your favorite online search engine. You'll likely find a Stack Overflow post with a solution. You can get support in our Discord server if searching doesn't lead to anything conclusive.
 
@@ -247,7 +250,7 @@ This will be where the Git skills you've been learning will start to really pay 
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you're having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What's the difference between static and dynamic websites?](#static-vs-dynamic-sites)
 - [What does 'PaaS' stand for?](#what-is-a-paas)

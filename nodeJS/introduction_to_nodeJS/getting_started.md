@@ -12,9 +12,9 @@ Recently the NodeJS.dev team removed a large amount of content from their websit
 
 </div>
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain some things that Node.js is commonly used for.
 - Create and use modules in Node.js (both built-in and user created).
@@ -34,6 +34,7 @@ By the end of this lesson, you should be able to do the following:
     - Learn quickly about .env files and how we use them [here](https://nodejs.org/en/learn/command-line/how-to-read-environment-variables-from-nodejs)! This will become very important in the future when working with databases and other sensitive credentials!
   - HTTP Module
     - Learn [how to make HTTP requests with Node](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-web-server/node-make-http-requests.en.md).
+    - Checkout `http.createServer` from the [http module](https://nodejs.org/api/http.html). The documentation shows optional parameters it can accept which you may or may not use. For now, you just need to know that the `createServer` method creates an HTTP server that accepts handlers that will be executed every time we get a request.
   - File System
     - First, take a look at the [fs module](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md) that we use heavily for working with files in Node.
     - Then, let's start [writing files](https://nodejs.org/en/learn/manipulating-files/writing-files-with-nodejs) in Node.
@@ -48,7 +49,7 @@ By the end of this lesson, you should be able to do the following:
     - Follow along the [Event Emitter](https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter) section.
     - Look into [this](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-events.en.md) section to see the `events` module.
 - Optional Extra Credit!
-  - Although a bit outdated, the W3 Schools introduction to Node.js is super useful! Go to the [W3 Schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious! 
+  - Although a bit outdated, the W3 Schools introduction to Node.js is super useful! Go to the [W3 Schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious!
   
   <div class="lesson-note lesson-note--warning" markdown=1>
   The URL module is very outdated. Refer to the earlier link if you run into issues in the Node.js URL Module from W3.

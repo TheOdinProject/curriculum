@@ -28,7 +28,7 @@ We'll be rich! But, in a time before WebSockets, how are we going to solve it?
 
 We could use Javascript to set an interval to reach out to the server at regular intervals to see if there are any updates. If there are, we could notify users of the new post and update their view, and if there aren't, we can just return an empty response. This still involves opening and closing a request on the server. This was a technique known as polling, and was one of the first ways websites tried to bring server updates to the client. The downside to this was that it was inefficient. If there were no updates for the client it would still request an update from the server. In an age of capped internet usage this was a big no.
 
-Since we don't want the inefficiency of checking for an update when there isn't one, what if instead we did the following: Allow a client to send an http request and if there is no new information, instead of sending an empty response and closing the connection, we hold the request open on the server side. When we have a new post we can send that response to any open http requests being held, and that will complete the http request and close the connection. Then the client can simply send a new request to open the connection again. This is known as long-polling and is still in operation on many sites. The downside of this approach is that it's very server intensive to keep receiving requests and holding them open for an indefinite time, and if order is important in the response you may have issues if there are several updates between requests. You may have come across this in the past on some sites where the order of updates changed if you refreshed the page. Some old chat rooms did this.
+Since we don't want the inefficiency of checking for an update when there isn't one, what if instead we did the following: Allow a client to send an http request and if there is no new information, instead of sending an empty response and closing the connection, we hold the request open on the server side. When we have a new post we can send that response to any open http requests being held, and that will complete the http request and close the connection. Then the client can send a new request to open the connection again. This is known as long-polling and is still in operation on many sites. The downside of this approach is that it's very server intensive to keep receiving requests and holding them open for an indefinite time, and if order is important in the response you may have issues if there are several updates between requests. You may have come across this in the past on some sites where the order of updates changed if you refreshed the page. Some old chat rooms did this.
 
 There are some other approaches used, such as Java applets or Cross Frame Communication, but ultimately they all had some pretty big drawbacks. The internet was not initially designed for these kinds of requests.
 
@@ -62,7 +62,7 @@ Let's first look at the default files that come with a new Rails app for handlin
 
 #### Connections
 
-As mentioned earlier, every WebSocket accepted by the server creates a connection which manages all the channels that a user subscribes to. The connection itself simply deals with authentication and authorization. The client of this connection object is called a consumer.
+As mentioned earlier, every WebSocket accepted by the server creates a connection which manages all the channels that a user subscribes to. The connection itself deals with authentication and authorization. The client of this connection object is called a consumer.
 
 If you have a Rails app handy open up `app/channels/application_cable/connection.rb`
 
@@ -124,9 +124,9 @@ Now that we've learned the basics of how Rails handles creating a WebSocket conn
 
 #### Rails channel generator
 
-Unsurprisingly Rails gives us a generator we can use to create new channels. This creates all the boilerplate code we can use to make getting started simple.
+Unsurprisingly Rails gives us a generator we can use to create new channels. This creates all the boilerplate code we can use to make getting started simpler.
 
-The command is pretty simple. Imagine we wanted to create a WebSocket connection for a chatroom. We would write the following in the terminal
+The command is straightforward. Imagine we wanted to create a WebSocket connection for a chatroom. We would write the following in the terminal
 
 ~~~bash
 rails generate channel room
@@ -303,7 +303,7 @@ The connection only remains active while the http request remains unbroken. Refr
 
 <div class="lesson-content__panel" markdown="1">
   1. Make sure you've read through all of the [Rails Guides on Action Cable](https://guides.rubyonrails.org/action_cable_overview.html). They even have some full stack examples which you may find useful.
-  2. Follow along with this [Simple Messaging App](https://github.com/TheOdinProject/curriculum/blob/main/ruby_on_rails/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Action Cable to a project
+  2. Follow along with this [Basic Messaging App](https://github.com/TheOdinProject/curriculum/blob/main/ruby_on_rails/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Action Cable to a project
 </div>
 
 ### Knowledge checks
@@ -316,4 +316,10 @@ The connection only remains active while the http request remains unbroken. Refr
 
 ### Conclusion
 
-There is more to Action Cable but it's still quite a niche use case so it's not something you should seek to use on every app you build. Look to keep it simple and only introduce WebSockets when you see a real opportunity to add value to your site.
+There is more to Action Cable but it's still quite a niche use case so it's not something you should seek to use on every app you build. Look to only introduce WebSockets when you see a real opportunity to add value to your site.
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+-   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

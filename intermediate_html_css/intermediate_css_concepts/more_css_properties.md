@@ -3,7 +3,9 @@ By now, you probably have a strong grasp of the important foundational concepts 
 
 There are a _lot_ of CSS properties. [A Recent CSS Tricks Article](https://css-tricks.com/how-many-css-properties-are-there/) says there are _hundreds_. Luckily, you don't have to memorize them all: the amount of properties you're actually going to use on a daily basis is much smaller. This lesson is going to cover most of the items you'll end up using on a regular basis. The format of this lesson is a little different since it's essentially just a list of CSS properties. We'll give a little description of the property and then link you to some documentation where you can see all the available options.
 
-### Learning outcomes
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - You'll learn about a lot of useful CSS properties!
 
@@ -27,7 +29,7 @@ Read the MDN docs for [`border`](https://developer.mozilla.org/en-US/docs/Web/CS
 #### box-shadow
 As you might expect from the property name, `box-shadow` adds a shadow effect around an element. This is useful to create a sense of depth on your page and to add subtle separation between elements.
 
-In usage it's pretty simple, but keep in mind that it's best used sparingly, and subtly. Prefer lighter, barely visible shadows to darker or brighter colors.
+In usage it's straightforward, but keep in mind that it's best used sparingly, and subtly. Prefer lighter, barely visible shadows to darker or brighter colors.
 
 Read the [`box-shadow` docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow).
 

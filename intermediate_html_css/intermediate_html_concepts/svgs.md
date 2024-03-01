@@ -4,11 +4,13 @@ SVGs are a very common image format on the web. They can be a little confusing a
 
 In this lesson, we will learn exactly what SVGs are, what they're used for, and how you can embed them in your websites.
 
-### Learning outcomes
+### Lesson overview
 
--   What SVGs, Vector Graphics, and XML are
--   How to create simple SVGs and add them to your websites
--   When to use SVGs, and when a different image format would be more appropriate
+This section contains a general overview of topics that you will learn in this lesson.
+
+-   What SVGs, Vector Graphics, and XML are.
+-   How to create simple SVGs and add them to your websites.
+-   When to use SVGs, and when a different image format would be more appropriate.
 
 ### What are SVGs?
 
@@ -24,7 +26,7 @@ SVGs are often used for:
 
 ### Okay, but what are they?
 
-"SVG" stands for "Scalable Vector Graphics". Vector graphics are simply images defined by math, as opposed to traditional "raster graphics", where your image is defined by a grid of pixels. With raster graphics, the detail is limited to the size of that pixel grid. If you want to increase the size of the image (_scale_ it), you have to increase the size of that grid. How do you decide what all those new pixels should look like? There's no simple solution. Additionally, the larger the grid, the bigger your filesize grows.
+"SVG" stands for "Scalable Vector Graphics". Vector graphics are images defined by math, as opposed to traditional "raster graphics", where your image is defined by a grid of pixels. With raster graphics, the detail is limited to the size of that pixel grid. If you want to increase the size of the image (_scale_ it), you have to increase the size of that grid. How do you decide what all those new pixels should look like? There's no simple solution. Additionally, the larger the grid, the bigger your filesize grows.
 
 With vector graphics on the other hand, there's no grid. Instead, you have formulas for different shapes and lines. Since these are just formulas, it doesn't matter how large or small you want them to appear--they can scale to any size you want, and it will have no effect on the quality or the size of the file.
 

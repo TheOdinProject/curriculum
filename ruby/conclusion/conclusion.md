@@ -8,7 +8,8 @@ If you know Ruby, the world is sort of opened up for you.  Want to learn Python?
 Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSdYksRBRg_0GzcYxzm5Csikfhj2Nceh2ifMYRmfMH6quwRRDw/viewform?usp=sf_link). Getting user (you) feedback is important so we can continue to improve the curriculum and get an idea of your experience. So that's it, you're more than ready to go ahead and take on Rails.  **Congratulations!!!**
 
 ### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [Why Ruby and Python are different](http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa?rq=1)
-* [Exercism](http://exercism.org/), a site where you can grow and improve your ability to **write code** by **reading others' code** and **commenting** on it.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Why Ruby and Python are different](http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa?rq=1)
+- [Exercism](http://exercism.org/), a site where you can grow and improve your ability to **write code** by **reading others' code** and **commenting** on it.

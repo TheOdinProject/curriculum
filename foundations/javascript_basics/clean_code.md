@@ -1,7 +1,7 @@
+
 ### Introduction
 
-
-You might think that the majority of a developer's work involves writing code. However, in reality, a significant amount of time is spent on _reading_ code. This includes code written by other team members, code written by people who are no longer part of your team, and even code that you wrote two weeks ago but may not remember much about.
+You might think that the majority of a developer's work involves writing code. However, in reality, a significant amount of time is spent on *reading* code. This includes code written by other team members, code written by people who are no longer part of your team, and even code that you wrote two weeks ago but may not remember much about.
 
 Don't think of these principles as something you need to master immediately. Everybody writes messy code sometimes, even professionals. What we want to do here is give you some guidelines that can help improve the readability of your code as you go along. The more you write code, the better it will become, both in terms of readability and other aspects.
 
@@ -19,10 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What is clean code?
 
-
 Consider the following examples:
-
-
 
 Example A:
 
@@ -70,7 +67,7 @@ Throughout this lesson most of our variables and functions (at least on the good
 
 ### Naming functions and variables
 
-In our first example we already touched on the importance of naming things _meaningfully_. Let's break down further what makes a good variable or function name.
+In our first example we already touched on the importance of naming things *meaningfully*. Let's break down further what makes a good variable or function name.
 
 #### A good name is descriptive
 
@@ -141,22 +138,20 @@ setTimeout(stopTimer, MILLISECONDS_PER_HOUR);
 
 Much better, isn't it? The variable is declared with a descriptive name, and you don't need to perform any calculations when reading this code.
 
-You might wonder why this variable is declared with all caps, when we have recommended camelCase earlier. This is a convention to be used when the programmer is absolutely sure that the variable is _truly_ a constant. We know that the milliseconds in an hour will never change, so it's appropriate here.
-
-
+You might wonder why this variable is declared with all caps, when we have recommended camelCase earlier. This is a convention to be used when the programmer is absolutely sure that the variable is *truly* a constant. We know that the milliseconds in an hour will never change, so it's appropriate here.
 
 ### Indentation and line length
 
-
 Now it's time to head to more controversial topics. The war between coders that use tabs and coders that use spaces to indent their code is [essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
 
-What actually matters is _consistency_. Choose a way to indent and stick to it. Various JS style-guides recommend different options, and one is not really superior to the other. Few popular ones are linked in the additional resources.
+
+What actually matters is *consistency*. Choose a way to indent and stick to it. Various JS style-guides recommend different options, and one is not really superior to the other. Few popular ones are linked in the additional resources.
 
 #### Line length
 
 Again, different style guides will recommend different options for this one, but just about ALL of them suggest limiting the length of each line of code.
 
-Generally your code will be easier to read if you manually break lines that are longer than about 80 characters. Many code editors have a line in the display to show when you have crossed this threshold. When manually breaking lines, you should try to break immediately _after_ an operator or comma.
+Generally your code will be easier to read if you manually break lines that are longer than about 80 characters. Many code editors have a line in the display to show when you have crossed this threshold. When manually breaking lines, you should try to break immediately *after* an operator or comma.
 
 Then, there are a few ways to format continuation lines. For example, you can:
 
@@ -179,15 +174,15 @@ let reallyReallyLongLine =
 
 ### Semicolons
 
-Semicolons are _mostly_ optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations leading to bugs in your code so it is better to get used to adding semi-colons.
+Semicolons are *mostly* optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations leading to bugs in your code so it is better to get used to adding semi-colons.
 
 Again: consistency is the main thing.
 
 ### About comments
 
-Comments are a great tool. But like any good tool, they can be misused. Especially for someone early in their coding journey, it might be tempting to have comments that explain _everything_ the code is doing. This is not a good practice.
+Comments are a great tool. But like any good tool, they can be misused. Especially for someone early in their coding journey, it might be tempting to have comments that explain *everything* the code is doing. This is not a good practice.
 
-Next we'll look into some common pitfalls in commenting and _why_ they are pitfalls.
+Next we'll look into some common pitfalls in commenting and *why* they are pitfalls.
 
 #### Don't comment when you should be using git
 
@@ -217,7 +212,7 @@ theFunctionInUse();
 
 #### Tell why, not how
 
-The purpose of comments is not to provide pseudo code that duplicates your code. Good comments explain the _reasons_ behind a piece of code.
+The purpose of comments is not to provide pseudo code that duplicates your code. Good comments explain the *reasons* behind a piece of code.
 
 Let's look at an example to see this in practice:
 
@@ -248,11 +243,11 @@ function moveToNextElement(index) {
 
 In the bad example, the comments explain twice what the code does. But for this, you could've just read the code, so the comments are redundant.
 
-In the better example, the comment clarifies the purpose of the function: moving to the next element. That's good but we can do _even_ better.
+In the better example, the comment clarifies the purpose of the function: moving to the next element. That's good but we can do *even* better.
 
 In the good example, no comments are needed at all. The use of descriptive function and variable names eliminates the need for additional explanations. Pretty neat, huh?
 
-_This doesn't mean good code should lack comments_. In many situations, well-placed comments are priceless. The article linked on the assignment section goes into more depth on this. We don't want you to avoid comments, just be mindful of how they are best used.
+*This doesn't mean good code should lack comments*. In many situations, well-placed comments are priceless. The article linked on the assignment section goes into more depth on this. We don't want you to avoid comments, just be mindful of how they are best used.
 
 Let's look at one final example, where a comment serves a good purpose:
 
@@ -268,27 +263,25 @@ function calculateBMI(height, weight) {
 
 This comment helps to refresh the reader on how BMI is calculated in plain English, helping the reader to see why the height needs to be converted and what the following calculation is doing. We are almost there just with the naming but the comment still adds further clarity.
 
-
 ### In conclusion
 
 Now that we've covered these ideas, it's good to return to the reminder we shared at the start. Don't try to write perfectly clean code, this will only lead to frustration. Writing "spaghetti" is inevitable, everyone does it sometimes. Just keep these ideas in mind and with time and patience, your code will start to get cleaner.
 
-Learning to write clean code is a process of constant improvement. One that will extend beyond you _completing_ The Odin Project. This lesson is meant to serve as a primer, a starting point for that journey.
-
+Learning to write clean code is a process of constant improvement. One that will extend beyond you *completing* The Odin Project. This lesson is meant to serve as a primer, a starting point for that journey.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
-2.  [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
+1. Read [10 Principles for Keeping Your Programming Code Clean](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/) to get some great tips for clean code.
+1. To help better understand good comment practices, read about [comments telling us how code works](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) as well as how to [code without comments](https://blog.codinghorror.com/coding-without-comments/).
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Why is it important to write clean code?](#Introduction)
+- [Why is it important to write clean code?](#introduction)
 - [Name 5 clean code principles previously mentioned](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/)
 - [What is the difference between good comments and bad comments?](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/)
 
@@ -299,3 +292,5 @@ This section contains helpful links to related content. It isn’t required, so 
 - [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
 - [Airbnb style guide](https://github.com/airbnb/javascript)
 - [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)
+
+- [Clean code in JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)

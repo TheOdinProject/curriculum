@@ -10,37 +10,40 @@ Luckily, Ruby again makes things pretty easy for you. There are some generally a
 
 Finally, files and serialization overlap in a lot of ways with the idea and purpose of databases -- they facilitate the ability to maintain state and permanence for your data.  We'll briefly look into some basic database connections that Ruby provides as well.
 
-### Learning outcomes
-Look through these now and then use them to test yourself after doing the assignment.
+### Lesson overview
 
-* What are two ways to store a file from your hard drive into a string or array in your Ruby script?
-* What are three things made possible or much easier by serialization?
-* What is JSON?
-* What is YAML?
-* How do you turn a Ruby object into JSON?
-* How do you turn JSON into a Ruby object?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What are two ways to store a file from your hard drive into a string or array in your Ruby script?
+- What are three things made possible or much easier by serialization?
+- What is JSON?
+- What is YAML?
+- How do you turn a Ruby object into JSON?
+- How do you turn JSON into a Ruby object?
+- What classes and methods can your Ruby script use to read and write to the hard drive?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read [Thoughtbot's I/O in Ruby](https://robots.thoughtbot.com/io-in-ruby). You can ignore both the 'Putting it all together' and the 'Working with disparate APIs' sections.
+  1. Read [Thoughtbot's I/O in Ruby](https://thoughtbot.com/blog/io-in-ruby). You can ignore both the 'Putting it all together' and the 'Working with disparate APIs' sections.
   2. Watch [icc0612's introduction to serialization](https://www.youtube.com/watch?v=uS37TujnLRw). It will explain the concept of serialization before you implement it in Ruby.
   3. Read [Choosing the Right Serialization Format](https://www.sitepoint.com/choosing-right-serialization-format/) for more information about the various serialization options you can choose from.
   4. Skim [Alan Skorkin's](http://www.skorks.com/2010/04/serializing-and-deserializing-objects-with-ruby/) post about serialization. Some of the code examples are outdated, but this post still contains relevant information. If you want to follow along with the code examples, copy and paste them into your code editor and use word wrap.
-  5. Read [Everything You Need to know about Serialization in Ruby on Rails](https://blog.kiprosh.com/serialization_in_ruby_on_rails_part_one/) to understand the mechanisms for serializing objects that Ruby provides.
+  5. Read the sections 'Ruby files' and 'Ruby directories' from the [Input/Output chapter of Zetcode's Ruby Tutorial](http://zetcode.com/lang/rubytutorial/io/) for examples of how to manipulate files and directories using the `File` and `Dir` classes. 
 </div>
-
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Zetcode's section on Input/Output in Ruby](http://zetcode.com/lang/rubytutorial/io/) should be another useful perspective on the material.
-* [Ruby Monk's section on Serializing](https://web.archive.org/web/20160505174806/http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)
-* [Short Example of Serialization](https://web.archive.org/web/20200627063721/http://rubylearning.com/satishtalim/object_serialization.html) from Ruby Learning
 
 ### Knowledge check
 
-  * [How would you go through the lines of a file using the IO object in the command line?](https://thoughtbot.com/blog/io-in-ruby)
+  * [How would you go through the lines of a file using an `IO` object?](https://thoughtbot.com/blog/io-in-ruby)
   * [How would you take the Array `[1,2,3]` and serialize it into a JSON string format?](https://www.sitepoint.com/choosing-right-serialization-format/)
   * [What are the benefits of YAML vs JSON vs MessagePack serialization formats?](https://www.sitepoint.com/choosing-right-serialization-format/)
-  * [How would you check if a file exists using the File object in the command line?](http://ruby.bastardsbook.com/chapters/io/)
-  * [In a Download directory containing 5 files, how would you count the number of files in that directory using the Dir object?](http://ruby.bastardsbook.com/chapters/io/)
+  * [How can you check if a file or directory exists?](http://zetcode.com/lang/rubytutorial/io/)
+  * [How can you list a directory's contents in the form of an array?](http://zetcode.com/lang/rubytutorial/io/)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Everything You Need to know about Serialization in Ruby on Rails](https://blog.kiprosh.com/serialization_in_ruby_on_rails_part_one/) 
+- [Ruby Monk's section on Serializing](https://web.archive.org/web/20160505174806/http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)
+- [Short Example of Serialization](https://web.archive.org/web/20200627063721/http://rubylearning.com/satishtalim/object_serialization.html) from Ruby Learning

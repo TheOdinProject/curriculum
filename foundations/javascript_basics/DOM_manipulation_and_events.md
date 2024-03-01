@@ -13,11 +13,9 @@ This section contains a general overview of topics that you will learn in this l
 - Explain the difference between a "nodelist" and an "array of nodes".
 - Explain what "bubbling" is and how it works.
 
-### DOM - Document Object Model
-
+### Document Object Model
 
 The DOM (or Document Object Model) is a tree-like representation of the contents of a webpage - a tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
-
 
 ```html
 <div id="container">
@@ -25,7 +23,6 @@ The DOM (or Document Object Model) is a tree-like representation of the contents
   <div class="controls"></div>
 </div>
 ```
-
 
 In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a family tree. `<div id="container"></div>`  is a **parent**, with its **children** on the next level, each on their own "branch".
 
@@ -81,7 +78,7 @@ It's important to note that when using querySelectorAll, the return value is **n
 const div = document.createElement('div');
 ```
 
-This function does NOT put your new element into the DOM - it simply creates it in memory.  This is so that you can manipulate the element (by adding styles, classes, ids, text, etc.) before placing it on the page. You can place the element into the DOM with one of the following methods.
+This function does NOT put your new element into the DOM - it creates it in memory.  This is so that you can manipulate the element (by adding styles, classes, ids, text, etc.) before placing it on the page. You can place the element into the DOM with one of the following methods.
 
 #### Append elements
 
@@ -122,7 +119,7 @@ Note that if you're accessing a kebab-cased CSS rule from JS, you'll either need
 div.style.background-color // doesn't work - attempts to subtract color from div.style.background
 div.style.backgroundColor // accesses the div's background-color style
 div.style['background-color'] // also works
-div.style.cssText = "background-color: white;" // sets the div's background-color by assigning a CSS string
+div.style['backgroundColor'] // also works - both camel and kebab case work when using a string with bracket notation
 ```
 
 #### Editing attributes
@@ -173,7 +170,7 @@ div.innerHTML = '<span>Hello World!</span>';
 // renders the HTML inside div
 ```
 
-<div class="lesson-note--tip" markdown="1">
+<div class="lesson-note lesson-note--tip" markdown="1">
 
 Note that textContent is preferable for adding text, and innerHTML should be used sparingly as it can create security risks if misused. Check out [this video](https://youtube.com/watch?v=ns1LX6mEvyM) if you want to see an example of how.
 
@@ -202,7 +199,7 @@ content.textContent = 'This is the glorious text-content!';
 container.appendChild(content);
 ```
 
-In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML.  Then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `container`.   All in all it's a simple process.  After the JavaScript code is run, our DOM tree will look like this:
+In the JavaScript file, first we get a reference to the `container` div that already exists in our HTML. Then we create a new div and store it in the variable `content`.  We add a class and some text to the `content` div and finally append that div to `container`. After the JavaScript code is run, our DOM tree will look like this:
 
 ```html
 <!-- The DOM -->
@@ -211,7 +208,7 @@ In the JavaScript file, first we get a reference to the `container` div that alr
     THE TITLE OF YOUR WEBPAGE
   </h1>
   <div id="container">
-  	<div class="content">
+    <div class="content">
       This is the glorious text-content!
     </div>
   </div>
@@ -242,12 +239,12 @@ Copy the example above into files on your own computer.  To make it work you'll 
 
 Add the following elements to the container using ONLY JavaScript and the DOM methods shown above.
 
-1.  a `<p>` with red text that says "Hey I'm red!"
-2.  an `<h3>` with blue text that says  "I'm a blue h3!"
-3.  a `<div>` with a black border and pink background color with the following elements inside of it:
-    1.  another `<h1>` that says "I'm in a div"
-    2.  a `<p>` that says "ME TOO!"
-    3.  Hint for this one: after creating the `<div>` with createElement, append the `<h1>` and `<p>` to it before adding it to the container.
+1. a `<p>` with red text that says "Hey I'm red!"
+1. an `<h3>` with blue text that says  "I'm a blue h3!"
+1. a `<div>` with a black border and pink background color with the following elements inside of it:
+   - another `<h1>` that says "I'm in a div"
+   - a `<p>` that says "ME TOO!"
+   - Hint for this one: after creating the `<div>` with createElement, append the `<h1>` and `<p>` to it before adding it to the container.
 
 ### Events
 
@@ -346,7 +343,7 @@ btn.addEventListener('click', function (e) {
 });
 ```
 
-<div class="lesson-note--tip" markdown="1">
+<div class="lesson-note lesson-note--tip" markdown="1">
 
 Note that `function (e)` is a callback from addEventListener. Further explanation of callbacks can be found [HERE](https://dev.to/i3uckwheat/understanding-callbacks-2o9e).
 
@@ -374,7 +371,7 @@ Pretty cool, eh?
 
 #### Attaching listeners to groups of nodes
 
-This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There are a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we simply need to iterate through the whole list like so:
+This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There are a few ways to go about doing that more efficiently.  We learned above that we can get a nodelist of all of the items matching a specific selector with `querySelectorAll('selector')`.  In order to add a listener to each of them we need to iterate through the whole list like so:
 
 ```HTML
 <div id="container">
@@ -416,7 +413,7 @@ You can find a more complete list with explanations of each event on [this page]
 Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with *every day* as a front-end developer, so let's practice!
 
 1. Complete the challenge in [this MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_a_dynamic_shopping_list) and test your skills!
-1. Work through the first 2 sections in this [JavaScript DOM Tutorial](https://www.javascripttutorial.net/javascript-dom/). Note that some of the methods like `getElementById` are older and see less use today. Then, work through section 7 to really get comfortable with events, bubbling, and propagation.
+1. Read the first 2 sections in this [JavaScript DOM Tutorial](https://www.javascripttutorial.net/javascript-dom/). Note that some of the methods like `getElementById` are older and see less use today. Then, read the section 7 to really get familiar with events, bubbling, and propagation.
 
 </div>
 
@@ -424,7 +421,7 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- [What is the DOM?](#dom-document-object-model)
+- [What is the DOM?](#document-object-model)
 - [How do you target the nodes you want to work with?](#targeting-nodes-with-selectors)
 - [How do you create an element in the DOM?](#element-creation)
 - [How do you add an element to the DOM?](#append-elements)
@@ -442,13 +439,14 @@ This section contains questions for you to check your understanding of this less
 - [Explain the difference between "capture" and "bubbling".](https://www.youtube.com/watch?v=F1anRyL37lE)
 
 ### Additional resources
+
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
 - [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
 - [DOM Enlightenment](http://domenlightenment.com/)
 - [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.
-- This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers simple and easy-to-understand lessons on the DOM.
+- This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers easy-to-understand lessons on the DOM.
 - [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.
 - [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by DigitalOcean.
 - [Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events) by MDN covers the same topics you learned in this lesson on events.

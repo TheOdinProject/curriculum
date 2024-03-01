@@ -11,7 +11,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What is JSX?
 
-JSX is a syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file. It's not required to use JSX when writing React components, but it does make writing them more simple and concise.
+JSX is a syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file. It's not required to use JSX when writing React components, but it does make writing them more concise.
 
 Essentially, JSX is syntactic sugar for the React [createElement](https://react.dev/reference/react/createElement) function. This function creates a React element, which is a plain object, so JSX compiles down to plain JavaScript objects.
 
@@ -99,13 +99,11 @@ If you were to take some valid HTML and copy it straight into your React compone
    ~~~jsx
    function App() {
      return (
-       <>
-         <div className="container">
-           <svg>
-             <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
-           </svg>
-         </div>
-       </>
+      <div className="container">
+        <svg>
+          <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
+        </svg>
+      </div>
      );
    }
    ~~~
@@ -115,13 +113,11 @@ If you were to take some valid HTML and copy it straight into your React compone
    ~~~jsx
    function App() {
      return (
-       <>
-         <div class="container">
-           <svg>
-             <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
-           </svg>
-         </div>
-       </>
+      <div class="container">
+        <svg>
+          <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
+        </svg>
+      </div>
      );
    }
    ~~~
@@ -137,7 +133,7 @@ Now that we've covered the Rules of JSX, we'll go through the conversion of a ch
   <li>List item 2
   <li>List item 3
 </ol>
-<svg >
+<svg>
    <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
 </svg>
 <form><input type="text"></form>
@@ -157,7 +153,7 @@ The first issue we get is that this would not return a single root element, so l
     <li>List item 2
     <li>List item 3
   </ol>
-  <svg >
+  <svg>
      <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
   </svg>
   <form><input type="text"></form>

@@ -42,6 +42,16 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 // ...
 ```
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### A note if your fonts are not loading
+
+  If you have any issues loading fonts with Webpack, the issue is not with Webpack, but how you declare the CSS rule.
+
+  Check out the answer on this question from Stack Overflow if you get stuck: [Webpack can't load fonts (ttf)](https://stackoverflow.com/questions/49877149/webpack-cant-load-fonts-ttf/68838464#68838464)
+</div>
+
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -68,3 +78,9 @@ This section contains questions for you to check your understanding of this less
 - [How do you automatically build HTML files in `dist` using webpack?](https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin)
 - [How do you automatically build an HTML file in `dist` using a custom template in `src`?](https://rapidevelop.org/webpack/setup-html-webpack-plugin)
 - [How would you track errors in bundled source code?](https://webpack.js.org/guides/development/)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

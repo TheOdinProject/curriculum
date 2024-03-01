@@ -2,11 +2,11 @@
 
 Presumably you're here to learn web development (otherwise... you may be in the wrong place...).  Whether your goal is to be able to produce your own website or to begin a career as a developer, the most important skillset to take away from all this is the ability to think logically and to break down a problem into its component pieces.  Then you can address those pieces one at a time.  It's the essence of engineering.
 
-Probably the most important way that logical thinking is required when building a website is in setting up your data model properly.  Data is the foundation of almost all major web applications, from a simple blog site to Facebook's massively complex web of data.  Having an obscure or overly complex data model can cripple you when you try to grow and make your life as a developer exceedingly painful.  If you're working with the wrong tools, something "simple" like asking to display all the comments a user has made on another user's web posts can take up far too many brain and CPU cycles to accomplish.
+Probably the most important way that logical thinking is required when building a website is in setting up your data model properly. Data is the foundation of almost all major web applications, from a basic blog site to Facebook's massively complex web of data. Having an obscure or overly complex data model can cripple you when you try to grow and make your life as a developer exceedingly painful. If you're working with the wrong tools, something simple like asking to display all the comments a user has made on another user's web posts can take up far too many brain and CPU cycles to accomplish.
 
 If data is the most important piece of a web application, then how Rails handles data should be very interesting to you.  Luckily, this is one of the most significant reasons that Rails has performed so well compared with the options available just a few years ago.  Active Record is the interface that Rails gives you between the database and your application.  It lets you structure your data models for your users, blog posts, comments, followers, etc. in a logical and nearly plain-English way.  If it seems complicated (which it will at points), just imagine life before Active Record.
 
-Having a solid understanding of Active Record will make the rest of Rails seem simple by comparison.  Recall from several lessons ago that the Model in MVC is the part that does all the heavy lifting.  In this lesson, we'll cover all the basics of working with models, from setting them up to building simple associations between them.  As usual, this explanation is meant to be a high-level overview and the readings will provide real depth.  The more advanced topics will be covered in some of the coming lessons.
+Having a solid understanding of Active Record will make the rest of Rails seem simple by comparison.  Recall from several lessons ago that the Model in MVC is the part that does all the heavy lifting.  In this lesson, we'll cover all the basics of working with models, from setting them up to building associations between them. As usual, this explanation is meant to be a high-level overview and the readings will provide real depth.  The more advanced topics will be covered in some of the coming lessons.
 
 ### Lesson overview
 
@@ -39,7 +39,7 @@ Very briefly, Active Record lets you create a Ruby object that represents a row 
 u = User.new(name: "Sven", email: "sven@theodinproject.com")
 ~~~
 
-If you don't pass a hash, you'll need to manually add the attributes by setting them like with any other Ruby object: `u.name = "Sven"`.  The second step is to actually save that model instance into the database.  Until now, it's just been sitting in memory and evaporates if you don't do anything with it.  To save, simply call `u.save`.  You can run both steps at once using the `#create` method:
+If you don't pass a hash, you'll need to manually add the attributes by setting them like with any other Ruby object: `u.name = "Sven"`.  The second step is to actually save that model instance into the database.  Until now, it's just been sitting in memory and evaporates if you don't do anything with it.  To save, call `u.save`.  You can run both steps at once using the `#create` method:
 
 ~~~bash
 u = User.create(name: "Sven", email: "sven@theodinproject.com")
@@ -68,7 +68,7 @@ The best part is that Rails knows that you want to do this and has given you a h
   create      spec/models/testmodel_spec.rb
 ~~~
 
-The model file that the generator creates is just a bare-bones model file in the `app/models` directory (which you could easily have created yourself).  The other main file is the migration file in the `db/migrate` folder, which starts with a complicated looking timestamp like `20130924230504_create_users.rb`. The number is simply the time that the migration was created so that Rails can keep track of different migration files.
+The model file that the generator creates is just a bare-bones model file in the `app/models` directory (which you could easily have created yourself).  The other main file is the migration file in the `db/migrate` folder, which starts with a complicated looking timestamp like `20130924230504_create_users.rb`. The number is the time that the migration was created so that Rails can keep track of different migration files.
 
 If you dive into that file, you'll see that there's not much in it except another bare-bones Ruby class that inherits from `ActiveRecord::Migration` and some timestamps. The timestamps just create `created_at` and `updated_at` columns for you so you can track when your database records were created or modified. These two columns are just helpful enough that they are included as standard practice.
 
@@ -110,9 +110,9 @@ So the only way to truly enforce constraints is on the database level, since you
 
 ### Basic associations
 
-In the databases sections, you learned about how a relational database like SQLite3 or PostgreSQL lets you link two tables together using their primary keys (called a foreign key in the specific table that is referencing another one).  It's the real power of relational databases that they let you leverage these, well, relationships.  Active Record takes that feature and lets you use it in all kinds of useful ways.  Do you want to get all of your first user's blog posts? Try `User.first.posts`.  It's as simple as that.
+In the databases sections, you learned about how a relational database like SQLite3 or PostgreSQL lets you link two tables together using their primary keys (called a foreign key in the specific table that is referencing another one). It's the real power of relational databases that they let you leverage these, well, relationships. Active Record takes that feature and lets you use it in all kinds of useful ways. Do you want to get all of your first user's blog posts? Try `User.first.posts`. It's as simple as that.
 
-That functionality doesn't come out of the box -- you need to tell Rails that posts actually belong to a user.  On the database table level, this means that every row in the posts table will have column for `user_id` that tells you which user "owns" that post.  The users table doesn't need to acknowledge the posts at all... after all, a single user can have an infinite number of posts.  If we're interested in a user's posts, we just have to query the posts table for all posts that link back to that user's ID.  Rails makes these relationships very easy to specify.  What we just talked about is aptly named a "has many / belongs to" association (a User `has_many` Post objects associated with it and a Post `belongs_to` a single User).
+That functionality doesn't come out of the box -- you need to tell Rails that posts actually belong to a user.  On the database table level, this means that every row in the posts table will have a column for `user_id` that tells you which user "owns" that post.  The users table doesn't need to acknowledge the posts at all... after all, a single user can have an infinite number of posts.  If we're interested in a user's posts, we just have to query the posts table for all posts that link back to that user's ID.  Rails makes these relationships very easy to specify.  What we just talked about is aptly named a "has many / belongs to" association (a User `has_many` Post objects associated with it and a Post `belongs_to` a single User).
 
 Step one with understanding this stuff is just to think about which different types of relationships are possible.  Remember, half the battle of setting up your application is understanding what your data relationships will look like, so give this some thought and keep at it when it gets confusing.  If your mind is a bit fried right now, start back in the real world and don't think about it on a database level -- remember, all this stuff is our attempt to reflect the kinds of relationships that can occur in the real world.
 
@@ -122,9 +122,9 @@ It's clear that it should belong to its corporate parent, but why does it belong
 
 Another common relationship is the many-to-many relationship, which can also be called `has_and_belongs_to_many` in Rails terms.  This often comes up in actual relationships -- a Human can have many favorite Dog objects, and each Dog object can have many favorite Human objects.  In this case, how would you specify which Dog objects are your favorites?  It actually requires you to create another table (a join table, or "through" table) that specifically keeps track of all those relationships.  It's a bit wonky to understand when you're learning but it becomes second nature once you've been at it for a short while.
 
-A key distinction here is that we're not talking about how many Post objects a User *currently* has or how many FranchiseLocation objects a City *currently* has, we're trying to model how many they *COULD* have over the entire lifetime of your application. Sure, if your User only has one Post now, you could hard code that post's ID in your user table.  Then when he has another Post, you'd have to create another table column to fit that ID.  And another.  And another.  Which doesn't make a lick of sense... so that's why we say the User `has_many :posts` and let the Posts table hardcode in the User's ID, since a post will only ever have one User associated with it (assuming you only have one author).
+A key distinction here is that we're not talking about how many Post objects a User *currently* has or how many FranchiseLocation objects a City *currently* has, we're trying to model how many they *COULD* have over the entire lifetime of your application. Sure, if your User only has one Post now, you could hard code that post's ID in your user table.  Then when he has another Post, you'd have to create another table column to fit that ID. And another.  And another. Which doesn't make a lick of sense... so that's why we say the User `has_many :posts` and let the Posts table hardcode in the User's ID, since a post will only ever have one User associated with it (assuming you only have one author).
 
-Pretty soon you'll start thinking of the world around you in terms of these relationships (if you don't take enough breaks).  The real power of them comes when you actually need to use them -- when you want to retrieve data about all the objects that are associated with another.  Do you want to see a list of all your Twitter followers?  Do you want to count up all the classmates you had from high school who are living in the same city as you now?  Do you want to see all the comments one of your users left on another user's timelines?  All of these things are relatively simple and intuitive once you've actually set up the appropriate data relationships.  So focus on understanding these relationships.
+Pretty soon you'll start thinking of the world around you in terms of these relationships (if you don't take enough breaks).  The real power of them comes when you actually need to use them -- when you want to retrieve data about all the objects that are associated with another.  Do you want to see a list of all your Twitter followers?  Do you want to count up all the classmates you had from high school who are living in the same city as you now? Do you want to see all the comments one of your users left on another user's timelines? All of these things are relatively simple and intuitive once you've actually set up the appropriate data relationships. So focus on understanding these relationships.
 
 ### Assignment
 
@@ -164,11 +164,6 @@ It's easiest to start thinking about concrete relationships in the real world an
 
 It's all about practice, so the projects from here on out will ask you to think through your model organization before getting started.  Taking a few minutes to think through your relationships ahead of time is essential for getting started in the right direction when you begin writing code.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Schneems on database backed models with Active Record](https://www.youtube.com/watch?v=EU98yHB-_7A).
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -177,3 +172,9 @@ This section contains questions for you to check your understanding of this less
  * [What does the validation helper `presence: true` enforce?](https://guides.rubyonrails.org/active_record_validations.html#presence)
  * [How can you see why an instance of a model class has failed validation?](https://guides.rubyonrails.org/active_record_validations.html#validations-overview-errors)
  * [If class A has a `belongs_to` association with class B, which class's database table should contain a foreign key?](https://guides.rubyonrails.org/association_basics.html#choosing-between-belongs-to-and-has-one)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Schneems on database backed models with Active Record](https://www.youtube.com/watch?v=EU98yHB-_7A).

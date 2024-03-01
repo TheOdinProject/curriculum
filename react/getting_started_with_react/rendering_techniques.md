@@ -6,8 +6,8 @@ Now that we have learned how JSX works and how to write it, this lesson will cov
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   Render a list of elements/components in JSX
-*   Conditionally render UI
+- Render a list of elements/components in JSX.
+- Conditionally render UI.
 
 ### Rendering a list of elements in JSX
 
@@ -71,7 +71,7 @@ You may be curious as to what the `key` is in our `<li>` element. We will dive i
 ### Rendering a list of components in JSX
 
 <div class="lesson-note" markdown="1">
-We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are arguments that are passed into components. We will just be writing a simple implementation.
+We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are arguments that are passed into components. We will just be writing a short implementation.
 </div>
 
 ~~~javascript
@@ -100,6 +100,15 @@ function App() {
   );
 }
 ~~~
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+  <h4>"Missing in props validation"</h4>
+  You may notice squiggly lines under your props (for example under `color` and
+  `fontSize` inside the Button component below). Hovering over these will tell
+  you they are `missing in props validation`. For now, this can safely be
+  ignored as it is just a default ESLint rule warning about prop types,
+  something that will be covered later in the course.
+</div>
 
 We have moved our `<ul>` element to a different component called `<List />`. It still returns the `<ul>` element, but we can do a lot more with it as a component.
 

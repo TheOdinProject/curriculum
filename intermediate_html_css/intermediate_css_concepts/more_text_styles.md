@@ -2,10 +2,12 @@
 
 You've already done a bit of text-manipulation in our Foundations lessons. This lesson will cover a few more useful CSS properties that can be used when working with text.
 
-### Learning outcomes
+### Lesson overview
 
-* You'll learn how to use custom fonts on your web projects.
-* You'll learn some more text-related CSS properties.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- You'll learn how to use custom fonts on your web projects.
+- You'll learn some more text-related CSS properties.
 
 ### Fonts
 
@@ -27,7 +29,14 @@ The point of this somewhat ridiculous string of font-families is to try using th
 
 #### Online font libraries
 
-One popular and easy method to get fonts that are _not_ installed on a user's computer is to use an online font library like [Google Fonts](https://fonts.google.com/), [Font Library](https://fontlibrary.org/) or the premium, but non-free [Adobe Fonts](https://fonts.adobe.com/).
+One popular and easy method to get fonts that are *not* installed on a user's computer is to use the online [Font Library](https://fontlibrary.org/), or the premium, but non-free, [Adobe Fonts](https://fonts.adobe.com/).
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+### A warning about Google fonts
+
+As you look into online font libraries to use you may come across [Google Fonts](https://fonts.google.com/). We strongly advise against using them, as websites that use Google Fonts [violate the GDPR](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/). Do not follow the instructions in that article on how to make Google fonts compliant, as we will be going over downloading fonts in this lesson.
+
+</div>
 
 To use a font from one of these libraries, go to the website, select a font and then copy a snippet from the website to import that font from their server into your website. You'll be given either a `<link>` tag to put in your HTML like so....
 
@@ -68,7 +77,14 @@ h1 {
 }
 ```
 
-This method _may_ be more reliable than relying on a third-party font API, but it is always wise to include a fallback.
+This method *may* be more reliable than relying on a third-party font API, but it is always wise to include a fallback.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Imported font performance considerations
+
+Like any resource imported fonts must be downloaded by the browser before being used. [This article](https://web.dev/articles/font-best-practices) does a great job explaining the various issues and options with imported fonts, make sure to read it before using any custom font, and consider if using a font stack will work instead.
+</div>
 
 ### Text styles
 
@@ -76,9 +92,9 @@ You learned the basics of manipulating fonts in our Foundations lessons, but the
 
 #### font-style
 
-Typically used to make a font italic. You learned about the HTML `<em>` tag, which uses an italic font, but `<em>` _also_ signifies that the text it wraps is significant or should be emphasized in some way. A good rule of thumb to follow is that if you just want text to be italic (or bold, underlined, highlighted, etc.), use a CSS property. Otherwise, if text should have some sort of semantic emphasis, use the correct HTML element.
+Typically used to make a font italic. You learned about the HTML `<em>` tag, which uses an italic font, but `<em>` *also* signifies that the text it wraps is significant or should be emphasized in some way. A good rule of thumb to follow is that if you just want text to be italic (or bold, underlined, highlighted, etc.), use a CSS property. Otherwise, if text should have some sort of semantic emphasis, use the correct HTML element.
 
-For example, if you want all your header text to be italic you should use `font-style` to accomplish this. If you want some text in the _middle of a sentence_ to appear italic in order to emphasize that text, it is appropriate to use an `em` element. The [MDN doc on the Emphasis Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) puts stress on our point above.
+For example, if you want all your header text to be italic you should use `font-style` to accomplish this. If you want some text in the *middle of a sentence* to appear italic in order to emphasize that text, it is appropriate to use an `em` element. The [MDN doc on the Emphasis Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em) puts stress on our point above.
 
 We should use `font-style: italic;` if italics is required for styling purposes.
 
@@ -97,6 +113,7 @@ We should use the `em` element if italics is required for emphasis.
 ```
 
 #### letter-spacing
+
 Letter spacing does what you would expect.... it changes the space between letters in a word. This can be useful for adjusting custom fonts that you feel have too much or too little space. It can also be aesthetically pleasing in some cases, like headers.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="MWomjGr" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -109,6 +126,7 @@ Letter spacing does what you would expect.... it changes the space between lette
 Obviously, use this sparingly and with care. Do not make your site hard to read!
 
 #### line-height
+
 Line height adjusts the space between lines in wrapped text. Adding a little line-height can increase readability.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="vYZmXzY" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -119,17 +137,20 @@ Line height adjusts the space between lines in wrapped text. Adding a little lin
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 #### text-transform
-Text transform simply changes the case of the given text. You can use this, for example, to force your heading tags to be all uppercase, or to capitalize every word.
 
-Usage is simple, and can be seen in the clear example on these [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform).
+Text transform changes the case of the given text. You can use this, for example, to force your heading tags to be all uppercase, or to capitalize every word.
+
+Usage can be seen in the clear example on these [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform).
 
 #### text-shadow
+
 As you might expect, `text-shadow` adds a shadow around the text in the selected element. This one is best used sparingly, but can be used to great effect in headings or other presentational text.
 
 The examples on the [MDN reference page for text-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow) show how to use it.
 
 #### ellipsis
-This one isn't a single property, but it's a useful trick to keep in your toolbox. With the `text-overflow` property, you can truncate overflowing text with an ellipsis. Making an overflow happen, however, requires the use of a couple other properties because the default behavior of text simply printing outside its container isn't technically considered an `overflow` (that's confusing, we know.  Sorry.)
+
+This one isn't a single property, but it's a useful trick to keep in your toolbox. With the `text-overflow` property, you can truncate overflowing text with an ellipsis. Making an overflow happen, however, requires the use of a couple other properties because the default behavior of text printing outside its container isn't technically considered an `overflow` (that's confusing, we know.  Sorry.)
 
 The full snippet is:
 
@@ -157,3 +178,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 - [Modern CSS Techniques To Improve Legibility](https://www.smashingmagazine.com/2020/07/css-techniques-legibility/) by [Edoardo Cavazza](https://www.smashingmagazine.com/author/edoardo-cavazza/) is a great article that covers some additional text styles and techniques that can be utilized to improve websites legibility.
+- [Modern Font Stacks](https://modernfontstacks.com/) lists common font stacks and provides demonstrations of them.
