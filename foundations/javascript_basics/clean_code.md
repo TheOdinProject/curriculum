@@ -273,7 +273,7 @@ Learning to write clean code is a process of constant improvement. One that will
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
+1. Read [10 Principles for Keeping Your Programming Code Clean](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/) to get some great tips for clean code.
 1. To help better understand good comment practices, read about [comments telling us how code works](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) as well as how to [code without comments](https://blog.codinghorror.com/coding-without-comments/).
 </div>
 
