@@ -218,7 +218,7 @@ In the following lessons, you will spend some time reading the React documentati
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - <a class="knowledge-check-link" href="#what-is-jsx">What is JSX?</a>
 - <a class="knowledge-check-link" href="#why-do-we-use-jsx">Why do we use JSX?</a>
