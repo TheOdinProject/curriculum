@@ -29,11 +29,11 @@ Think of these reusable chunks as JavaScript functions which can take some kind 
 
 To get the feel of working with components, we're going to practice creating functional components. What are functional components? Javascript functions! Let's have a look.
 
-~~~jsx
+```jsx
 function Greeting() {
   return <h1>&quot;I swear by my pretty floral bonnet, I will end you.&quot;</h1>;
 }
-~~~
+```
 
 This might look mostly familiar to you - it's a JavaScript function, which returns JSX. Open up the project you were working on, create a new file named `Greeting.jsx`, and in that file write your own handmade functional component. Name it whatever you wish, and have it return whatever JSX you wish.
 
@@ -55,17 +55,17 @@ It's JSX. It looks jarring at first, but soon we'll realize how cool it is. We'l
 
 So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! For a very long time in React development, it was necessary to `import` React in your JavaScript files that used React components, but since React v17.0 it is no longer required. Let's `export` our newly created component so that parent components can use it as a child throughout your project.
 
-~~~jsx
+```jsx
 function Greeting() {
   return <h1>&quot;I swear by my pretty floral bonnet, I will end you.&quot;</h1>;
 }
 
 export default Greeting;
-~~~
+```
 
 Are we done? Well let's think about this - we've declared our component, and exported it, but does `main.jsx` know about it yet? Nope! Let's fix that. Let's look at `main.jsx`, we can see that `render()` is rendering the `App` component. Let's replace that `App` component with our newly created greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
 
-~~~jsx
+```jsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
@@ -77,7 +77,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Greeting />
   </React.StrictMode>,
 )
-~~~
+```
 
 Remember that `<Greeting />` should be capitalized! Try using lower case for the import, function name and component and see what happens! When the JSX is parsed, React uses the capitalization to tell the difference between an HTML tag and an instance of a React component. `<greeting />` would be interpreted as a normal HTML element with no special meaning, instead of your shiny new React component.
 

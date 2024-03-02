@@ -34,7 +34,7 @@ myObject.variable; // this gives us 'undefined' because it's looking for a prope
 myObject[variable]; // this is equivalent to myObject['property'] and returns 'Value!'
 ```
 
-If you are feeling rusty on using objects, now might be a good time to go back and review the content in [__Fundamentals 5__](https://www.theodinproject.com/lessons/foundations-fundamentals-part-5) from our JavaScript Basics course.
+If you are feeling rusty on using objects, now might be a good time to go back and review the content in our [object basics lesson](https://www.theodinproject.com/lessons/foundations-object-basics) from our JavaScript Basics course.
 
 ### Lesson overview
 
@@ -378,11 +378,11 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [This article](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) from Lydia Hallie and [This video](https://www.youtube.com/watch?v=sOrtAjyk4lQ) from Avelx explains the Prototype concept with graphics and beginner friendly language. Try using these resources if you want another perspective to understand the concept.
-- [This video](https://www.youtube.com/watch?v=CDFN1VatiJA) from mpj explains `Object.create` method with great details about it, he walks through what it is, why `Object.create` exists in JavaScript, and how to use `Object.create`. Also you can check [This video](https://www.youtube.com/watch?v=MACDGu96wrA) from techsith to understand another point of view of extending objects from others by `Object.create`.
+- Lydia Hallie has a [visual article on prototypal inheritance](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) and [prototype inheritance by Programming With Avelx](https://www.youtube.com/watch?v=sOrtAjyk4lQ) explains the Prototype concept with graphics and beginner friendly language. Try using these resources if you want another perspective to understand the concept.
+- This [`Object.create` video by FunFunFunction](https://www.youtube.com/watch?v=CDFN1VatiJA) explains the method with great details about it, he walks through what it is, why `Object.create` exists in JavaScript, and how to use `Object.create`. Also you can check this [`Object.create` method video by techsith](https://www.youtube.com/watch?v=MACDGu96wrA) for another point of view on extending objects.
 - [The Principles of Object-Oriented JavaScript](https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404) book by
 Nicholas C. Zakas is really great to understand OOP in javascript, which explains concepts in-depth, which explores JavaScript's object-oriented nature, revealing the language's unique implementation of inheritance and other key characteristics, it's not free but it's very valuable.
-- [This stack overflow question](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) explains the difference between defining methods via the prototype vs defining them in the constructor.
+- The first answer on this StackOverflow question regarding [defining methods via the prototype vs in the constructor](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) helps explain when you might want to use one over the other.
 - [A Beginner’s Guide to JavaScript’s Prototype](https://medium.com/free-code-camp/a-beginners-guide-to-javascript-s-prototype-9c049fe7b34) and [JavaScript Inheritance and the Prototype Chain](https://medium.com/free-code-camp/javascript-inheritance-and-the-prototype-chain-d4298619bdae) from Tyler Mcginnis has great examples to help you understand Prototype and Prototype Chain better from the beginner's perspective.
 - [This video ](https://www.youtube.com/watch?v=wstwjQ1yqWQ) from Akshay Saini is an easy way to understand the concept of Prototype, Prototype Chain and prototypal inheritance.
 - [Interactive Scrim on objects and object constructors.](https://scrimba.com/scrim/co2624f87981575448091d5a2)
