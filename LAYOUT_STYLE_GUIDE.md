@@ -454,6 +454,32 @@ See the [lesson template](./templates/lesson-template.md) for a more easily copy
 Or, check out the [project template](./templates/project-template.md) for a more easily copyable project file.
 ~~~
 
+Typically you want to ensure the link text describes the purpose of the link or where the link will redirect a user, and can often be the title of a blog article or video. You should also do your best to avoid including "this" and "here" in the link text to avoid our linter from flagging it as an error, even if the link text is descriptive. Often times "this" or "here" aren't necessary as part of the link text, and may cause some confusion despite a descriptive text ("Where's here??").
+
+```markdown
+// Sufficient, but could be tweaked further
+Check out [this video on flex-grow from CoolYoutuber](...url)
+Go look at our [installations guide here](...url)
+
+// After a slight change
+Check out this [video on flex-grow from CoolYoutuber](...url)
+Go look at our [installations guide](...url)
+```
+
+Additionally, if there are multiple links in a lesson that redirect to the same `href`, the link text for each link must be the same. For example:
+
+```markdown
+// Not great :(
+Go to [Google](www.google.com)
+Try [searching on Google](www.google.com)
+First go to the [Google homepage](www.google.com)
+
+// Better! :)
+Go to [Google](www.google.com)
+Try searching on [Google](www.google.com)
+First go to the [Google](www.google.com) homepage
+```
+
 ### Don't scatter links throughout lessons
 
 Links to required reading should not be scattered throughout a lesson, and should instead be placed in either the `### Assignment` or `### Additional resources` section. Links that refer a user to a previous lesson as a refresher, or a link to a Wikipedia page that offers a definition/explanation of a term are fine to place outside of these two sections.
