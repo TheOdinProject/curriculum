@@ -27,8 +27,9 @@ In this codepen example we created a table element, containing two table row ele
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read these [Tables Basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics) and [Tables Advanced](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced) tutorials from MDN. They should teach you all the syntax behind HTML tables. It's pretty straightforward. Make sure to code along!
-2.  Do this [Tables Assessment](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data) from MDN. It's good to put your newly learned skills to practice!
+1. Read these [Tables Basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics) and [Tables Advanced](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced) tutorials from MDN. They should teach you all the syntax behind HTML tables. It's pretty straightforward. Make sure to code along!
+1. Read through CSS Tricks' [full guide to the table element](https://css-tricks.com/complete-guide-table-element/), which goes very in-depth about what you have already learned and touches on a few extra things. 
+1. Do this [Tables Assessment](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Structuring_planet_data) from MDN. It's good to put your newly learned skills to practice!
 
 </div>
 
