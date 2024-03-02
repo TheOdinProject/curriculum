@@ -1,6 +1,6 @@
 ### Introduction
 
-You're likely somewhat familiar with JSX from previous React lessons, in this lesson we're going to explain _what_ it is, _why_ we use it, and _how_ to use it in your React apps.
+You're likely somewhat familiar with JSX from previous React lessons, in this lesson we're going to explain *what* it is, *why* we use it, and *how* to use it in your React apps.
 
 ### Lesson overview
 
