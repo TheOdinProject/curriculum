@@ -58,7 +58,7 @@ If you were to take some valid HTML and copy it straight into your React compone
    }
    ```
 
-2. Close all tags.
+1. Close all tags.
 
    In HTML, many tags are self-closing and self-wrapping. In JSX however, we must explicitly close and wrap these tags.
 
@@ -90,7 +90,7 @@ If you were to take some valid HTML and copy it straight into your React compone
    }
    ```
 
-3. camelCase **Most** things.
+1. camelCase **Most** things.
 
    JSX turns into JavaScript, and attributes of elements become keys of JavaScript objects, so you can't use dashes or reserved words such as `class`. Because of this, many HTML attributes are written in camelCase. Instead of `stroke-width`, you'd use `strokeWidth`, and instead of `class` you'd use `className`.
 
@@ -212,7 +212,7 @@ In the following lessons, you will spend some time reading the React documentati
 
 1. Read through the React docs [Writing markup with JSX page](https://react.dev/learn/writing-markup-with-jsx) to review the content we have covered here.
 
-2. Read through the React docs [JavaScript in JSX page](https://react.dev/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing JavaScript logic and referencing dynamic values inside of your markup.
+1. Read through the React docs [JavaScript in JSX page](https://react.dev/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing JavaScript logic and referencing dynamic values inside of your markup.
 
 </div>
 
