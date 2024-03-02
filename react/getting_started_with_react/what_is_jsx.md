@@ -210,9 +210,9 @@ Now that we've applied all of the fixes to the errors that React gave us, this i
 
 In the following lessons, you will spend some time reading the React documentation. Most of them will have small tasks at the end to test what you have read. We will not       mention them explicitly each time, but be sure to do them. Practice makes perfect!
 
-1.  Read through the React docs [Writing markup with JSX page](https://react.dev/learn/writing-markup-with-jsx) to review the content we have covered here.
+1. Read through the React docs [Writing markup with JSX page](https://react.dev/learn/writing-markup-with-jsx) to review the content we have covered here.
 
-2.  Read through the React docs [JavaScript in JSX page](https://react.dev/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing JavaScript logic and referencing dynamic values inside of your markup.
+2. Read through the React docs [JavaScript in JSX page](https://react.dev/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing JavaScript logic and referencing dynamic values inside of your markup.
 
 </div>
 
