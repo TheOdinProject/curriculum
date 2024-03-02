@@ -260,9 +260,9 @@ For the purposes of this assignment, we take the class-based component that we b
 
 1. Implement a delete button for each task. The delete button should remove that specific task from the state array, thus deleting the task itself! Styling isn't a priority at this moment, but the button tag should be styled by default.
 
-2. Implement a new class component, `Count` that displays the count of the number of todos, at any given time.
+1. Implement a new class component, `Count` that displays the count of the number of todos, at any given time.
 
-3. Implement an edit button for each task. It should replace the todo with an input field, and change the button itself to 'Resubmit', so the edits can be saved. This is a comparatively harder task, kudos for when you finish it!
+1. Implement an edit button for each task. It should replace the todo with an input field, and change the button itself to 'Resubmit', so the edits can be saved. This is a comparatively harder task, kudos for when you finish it!
 
 <iframe src="https://codesandbox.io/embed/github/TheOdinProject/react-examples/tree/main/class-component-example?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
