@@ -316,7 +316,7 @@ Nested ternaries and multiple `&&` operators can be intimidating to look at, so 
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - <a class="knowledge-check-link" href="#rendering-a-list-of-elements-in-jsx">How do you render a list of elements/components in JSX?</a>
 - <a class="knowledge-check-link" href="#conditionally-rendering-ui">What are the ways you could render UI conditionally?</a>
