@@ -275,7 +275,7 @@ For the purposes of this assignment, we take the class-based component that we b
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How do props get used in a class-based component?](#the-use-of-a-constructor-and-props)
 - [How does JSX get displayed?](#how-you-can-render-jsx)
@@ -284,6 +284,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - In general, the React documentation on [thinking in react](https://reactjs.org/docs/thinking-in-react.html) is a really good place to look into, if you want more practice with class-based components, from scratch.
