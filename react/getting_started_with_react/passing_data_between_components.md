@@ -258,7 +258,7 @@ Hopefully you can now understand from the examples in this lesson, just how incr
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 *   <a class="knowledge-check-link" href="#data-transfer-in-react">How does data flow between React components? From child to parent? From parent to child? Both?</a>
 *   <a class="knowledge-check-link" href="#using-props-in-react">Why do we use props in React?</a>
