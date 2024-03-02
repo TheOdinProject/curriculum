@@ -87,7 +87,7 @@ Otherwise, just like that, you've successfully imported and used your first cust
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  It's time to create some new components! Use the same project, but play around with it, try displaying something like your favorite food.
+1. It's time to create some new components! Use the same project, but play around with it, try displaying something like your favorite food.
     - While components normally get exported as defaults, try using some named exports instead of default exports. If you're unsure how to do this, consult your best friend: [the MDN documentation about export statements](https://developer.mozilla.org/en-US/docs/web/javascript/reference/statements/export#description)
 </div>
 
