@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Let us say we want to create a component that lists multiple animals:
 
-~~~javascript
+```javascript
 function App() {
   return (
     <div>
@@ -27,11 +27,11 @@ function App() {
     </div>
   );
 }
-~~~
+```
 
 It is perfectly acceptable, but what if we want to render more than just four? It can be tedious and long, and most of the time, we will be dealing with a data structure (like a list) rather than hard-coding each animal. You have previously learned that we can embed expressions inside JSX with curly braces. So let us do just that:
 
-~~~javascript
+```javascript
 function App() {
   const animals = ["Lion", "Cow", "Snake", "Lizard"];
 
@@ -46,11 +46,11 @@ function App() {
     </div>
   );
 }
-~~~
+```
 
 We define an array called `animals`. Now inside our JSX, we use `map` to return a new array of `li` elements, adding `animal` as its text. It should now render the same as the previous snippet we wrote. This is because JSX has the ability to automatically render arrays. The following code is identical:
 
-~~~javascript
+```javascript
 function App() {
   const animals = ["Lion", "Cow", "Snake", "Lizard"];
   const animalsList = animals.map((animal) => <li key={animal}>{animal}</li>)
@@ -64,7 +64,7 @@ function App() {
     </div>
   );
 }
-~~~
+```
 
 You may be curious as to what the `key` is in our `<li>` element. We will dive into how keys work in the next lesson. But, to explain briefly, it is to let React know the identity of each element in the list. React must know this information if you are dealing with a dynamic list where you add or remove elements. Since we are only dealing with a static list, it does not matter for now.
 
@@ -74,7 +74,7 @@ You may be curious as to what the `key` is in our `<li>` element. We will dive i
 We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are arguments that are passed into components. We will just be writing a short implementation.
 </div>
 
-~~~javascript
+```javascript
 function ListItem(props) {
   return <li>{props.animal}</li>
 }
@@ -99,7 +99,7 @@ function App() {
     </div>
   );
 }
-~~~
+```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
   <h4>"Missing in props validation"</h4>
@@ -124,7 +124,7 @@ Let us make some decisions within our component. What if we only want to render 
 
 One way to conditionally render an element is with a ternary operator, using a boolean value to decide what to render:
 
-~~~javascript
+```javascript
 function List(props) {
   return (
     <ul>
@@ -145,7 +145,7 @@ function App() {
     </div>
   );
 }
-~~~
+```
 
 We are using the [String method `startsWith`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith) to check if the `animal` starts with the letter L. This method either returns true or false.
 
@@ -155,7 +155,7 @@ If the animal starts with the letter L, then we return the `<li>` element, which
 
 Another quick way of conditionally rendering an element is by using the `&&` operator.
 
-~~~javascript
+```javascript
 function List(props) {
   return (
     <ul>
@@ -176,7 +176,7 @@ function App() {
     </div>
   );
 }
-~~~
+```
 
 We will leverage the return value of `startsWith` with the `&&` operator. If the result of the `startsWith` function is `true`, then it returns the second operand, which is the `<li>` element, and renders it. Otherwise, if the condition is `false` it just gets ignored.
 
@@ -199,7 +199,7 @@ This time we will have two conditions:
 
 We will frequently be dealing with lists in the future, and we also need to consider what to render if the list is empty or does not exist at all. You certainly would not want to see a blank page, would you? Let us try to implement that:
 
-~~~javascript
+```javascript
 function List(props) {
   if (!props.animals) {
     return <div>Loading...</div>;
@@ -228,7 +228,7 @@ function App() {
     </div>
   );
 }
-~~~
+```
 
 In our `<List />` component, we have two `if` statements acting as a guard that immediately returns an element based on the condition.
 
@@ -236,7 +236,7 @@ One is to check if the property `animals` exists, and the other is to check if t
 
 If we remove the `animals` property:
 
-~~~javascript
+```javascript
 function App() {
   const animals = [];
 
@@ -247,7 +247,7 @@ function App() {
     </div>
   );
 }
-~~~
+```
 
 The first `if` statement will now execute and return a `<div>` with the text "Loading..." This is often the case when you are fetching from an API, since it might take some time to actually retrieve the data, it is good practice to show an indicator for that.
 
@@ -255,7 +255,7 @@ If none of those checks passed, then we have the data we need to render the list
 
 You can, of course, also accomplish this with just the ternary and `&&` operators.
 
-~~~javascript
+```javascript
 function List(props) {
   return (
     <>
@@ -301,7 +301,7 @@ function App() {
     </div>
   );
 }
-~~~
+```
 
 Nested ternaries and multiple `&&` operators can be intimidating to look at, so be sure to test things out!
 
