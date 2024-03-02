@@ -94,7 +94,7 @@ Otherwise, just like that, you've successfully imported and used your first cust
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - <a class="knowledge-check-link" href="#what-are-components">What does a React element look like?</a>
 - <a class="knowledge-check-link" href="#how-to-create-components">How would you create a functional component?</a>
