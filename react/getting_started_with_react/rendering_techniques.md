@@ -195,7 +195,7 @@ We can also use `if`, `if/else`, and `switch` to conditionally render something.
 This time we will have two conditions:
 
 1. Check if the `animals` property is provided
-2. Check if the `animals` length is greater than 0
+1. Check if the `animals` length is greater than 0
 
 We will frequently be dealing with lists in the future, and we also need to consider what to render if the list is empty or does not exist at all. You certainly would not want to see a blank page, would you? Let us try to implement that:
 
@@ -310,7 +310,7 @@ Nested ternaries and multiple `&&` operators can be intimidating to look at, so 
 <div class="lesson-content__panel" markdown="1">
 
 1. The React documentation has an excellent guide to [conditional rendering](https://react.dev/learn/conditional-rendering). Strengthen your understanding by reading through it and tackling all of the examples!
-2. From the same docs, explore more on what you can do with lists by working through the [Rendering Lists article](https://react.dev/learn/rendering-lists). You don't have to worry about the last part on keys, since we will be learning about them in the next lesson.
+`. From the same docs, explore more on what you can do with lists by working through the [Rendering Lists article](https://react.dev/learn/rendering-lists). You don't have to worry about the last part on keys, since we will be learning about them in the next lesson.
 
 </div>
 
