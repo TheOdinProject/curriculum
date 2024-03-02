@@ -102,6 +102,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Geeks for Geeks has a quick [ReactJS Functional Components tutorial](https://www.geeksforgeeks.org/reactjs-functional-components/). It introduces some new ways of calling functional components you can play around with if you feel a burning desire to do so. For the time being don't worry too much about Class components, which the resource also goes into.
