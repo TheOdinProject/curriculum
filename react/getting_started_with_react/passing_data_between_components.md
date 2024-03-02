@@ -252,7 +252,7 @@ Hopefully you can now understand from the examples in this lesson, just how incr
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through the React docs on [Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component). Make sure to edit the code examples and experiment with different prop values.
+1. Read through the React docs on [Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component). Make sure to edit the code examples and experiment with different prop values.
 </div>
 
 ### Knowledge check
