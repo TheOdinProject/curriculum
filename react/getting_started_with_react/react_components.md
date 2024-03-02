@@ -27,7 +27,7 @@ Think of these reusable chunks as JavaScript functions which can take some kind 
 
 ### How to create components
 
-To get the feel of working with components, we're going to practice creating functional components. What are functional components? Javascript functions! Let's have a look.
+To get the feel of working with components, we're going to practice creating functional components. What are functional components? JavaScript functions! Let's have a look.
 
 ```jsx
 function Greeting() {
