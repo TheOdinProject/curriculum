@@ -175,10 +175,10 @@ ls ~/.ssh/id_ed25519.pub
 
 If a message appears in the console containing the text "No such file or directory", then you do not yet have an Ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.4.
 
-To create a new SSH key, run the following command inside your terminal. Replace with your actual email, or a private one if that's what you used for GitHub.
+To create a new SSH key, run the following command inside your terminal.
 
 ```bash
-ssh-keygen -t ed25519 -C "your@email.com"
+ssh-keygen -t ed25519 -C
 ```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
