@@ -72,7 +72,7 @@ Naming variables clearly will pay dividends when you review your code months aft
 
 The most basic thing you can do to write clean, maintainable code is to name your variables properly. So get into this habit early to avoid psychopath programmers coming after you.
 
-Variable names should always be lowercase, and multiple words that make up a variable name should be split by an underscore. This is known as **snake*case**.
+Variable names should always be lowercase, and multiple words that make up a variable name should be split by an underscore. This is known as **snake_case**.
 
 ```ruby
 # bad
