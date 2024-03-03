@@ -2,7 +2,7 @@
 
 It's pretty easy to turn your application into an API, but what about grabbing data from other APIs across the internet?  That's where things usually get a bit more challenging because they're all different and you've got to authenticate yourself.
 
-Most popular services offer APIs so developers can interface with them (they love it if you can get more people using their platform).  Facebook, Twitter, Instagram, Flickr, Dropbox, AirBnB... They've all got APIs.  Just Google "companyX API docs" and you'll get to their developers section.
+Most popular services offer APIs so developers can interface with them (they love it if you can get more people using their platform).  Facebook, X, Instagram, Flickr, Dropbox, AirBnB... They've all got APIs.  Just Google "companyX API docs" and you'll get to their developers section.
 
 If you go to the documentation for an API, it can sometimes be a bit overwhelming because much of the material sort of assumes that you know what you're doing, but some are definitely better than others.  There are also elements that are common across almost all of them.  The more you work with APIs (and get the hang of the authentication flow), the easier they get.  You'll be making mashups in no time.
 
@@ -31,10 +31,10 @@ You'll typically also get a "secret key" or similarly named code.  Whereas the A
 
 Most APIs require a different type of "security clearance" for different requests:  
 
-1. You can usually make innocuous requests like asking for Tweets (with Twitter's API of course) with straightforward and unauthenticated GET requests.  You can make these from any command line or a browser tool like [Chrome's Rest Client](http://getpostman.com). These types of API requests are usually severely rate limited to incentivize you to sign up.  
+1. You can usually make innocuous requests like asking for Tweets (with X's API of course) with straightforward and unauthenticated GET requests.  You can make these from any command line or a browser tool like [Chrome's Rest Client](http://getpostman.com). These types of API requests are usually severely rate limited to incentivize you to sign up.  
 2. The next layer is making requests that include your API key. These are still usually fairly innocuous things (like getting public data) and limited by the API's pricing tiers.
 3. More sensitive requests like asking for specific user data or submitting/modifying/deleting data will likely require you to use an authentication process involving your secret token.  We'll cover the basics of this in the project.  Rates for these requests are subject to the API pricing tiers.
-4. Oftentimes, you actually want to make requests on behalf of a user.  For instance, showing a user a dashboard of all their tweets and Facebook posts together would require asking Twitter for that user's tweets and Facebook for that user's posts.  This can involve a LOT of requests over a large user base, but luckily you're actually able to make them on the user's behalf by asking for the user's permission.  We'll cover this as well later, but basically you send the user to the API provider's site to sign in, then the API provider will give you a user-specific token to use when making requests on their behalf in the future.  Rates for this are usually more advantageous because they are covered in a per-user bucket.  We typically use the OAuth protocol for this, as described below.
+4. Oftentimes, you actually want to make requests on behalf of a user.  For instance, showing a user a dashboard of all their tweets and Facebook posts together would require asking X for that user's tweets and Facebook for that user's posts.  This can involve a LOT of requests over a large user base, but luckily you're actually able to make them on the user's behalf by asking for the user's permission.  We'll cover this as well later, but basically you send the user to the API provider's site to sign in, then the API provider will give you a user-specific token to use when making requests on their behalf in the future.  Rates for this are usually more advantageous because they are covered in a per-user bucket.  We typically use the OAuth protocol for this, as described below.
 
 ### Versions
 
@@ -50,7 +50,7 @@ Working with RESTful APIs at least takes a lot of the headache out of the proces
 
 ### Oauth and login via API
 
-You've seen sites where their homepage lets you log in using Facebook or Twitter or LinkedIn.  After logging in with one of those third-party services you magically have a new account with them but don't need to give them a new password.
+You've seen sites where their homepage lets you log in using Facebook or X or LinkedIn.  After logging in with one of those third-party services you magically have a new account with them but don't need to give them a new password.
 
 OAuth is usually behind this.  It solves the very real problem of user data privacy and access control.  The idea is that the user shouldn't need to give your awesome application their password in order for you to make requests on their behalf.  So OAuth allows Facebook to act as a sort of intermediary when dealing with the user.
 
@@ -102,7 +102,7 @@ We won't cover SDKs explicitly in this course but they should be well within rea
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Watch [this Railscast on using Omniauth to allow Twitter Signin](http://railscasts.com/episodes/241-simple-omniauth-revised).
+  1. Watch [this Railscast on using Omniauth to allow X Signin](http://railscasts.com/episodes/241-simple-omniauth-revised).
   2. Read through the [Omniauth documentation](https://github.com/intridea/omniauth)
   3. Pick an API that you really might like to interface with or a web product you use almost every day (e.g. Google, Facebook, Instagram...).  Google for its docs, e.g. with "instagram api documentation", and have a look at them.  Some docs are better than others, but they will be your source for understanding which methods you can call, what they will return, how to register your application to get an API key, and more useful tidbits.
 </div>
