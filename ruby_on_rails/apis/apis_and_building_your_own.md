@@ -27,7 +27,7 @@ Often, though, you want to make a request that doesn't need to go through all th
 
 But why bother with all that extra stuff if all you want is the user list?  The easiest thing to do would be to submit a request to that same URL asking for a JSON or XML response instead.  If you set up your Rails controller properly, you will get back a JSON array object containing all the users.  Sweet!
 
-The same principle applies if you're talking to external APIs... say you want to grab a user's recent tweets from Twitter.  You just need to tell your Rails app how to talk to Twitter's API (e.g. authenticate yourself), submit the request, and handle the bunch of tweets that get returned.  
+The same principle applies if you're talking to external APIs... say you want to grab a user's recent tweets from X.  You just need to tell your Rails app how to talk to Twitter's API (e.g. authenticate yourself), submit the request, and handle the bunch of tweets that get returned.  
 
 ### Building APIs
 
