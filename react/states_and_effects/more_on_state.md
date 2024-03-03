@@ -18,10 +18,10 @@ The assignment items go through the topic thoroughly, but as a general rule of t
 
 #### State should not be mutated
 
-Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference type values i.e. arrays and objects, never mutate them. According to React documentation, we should treat state as if it was _immutable_.
+Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference type values i.e. arrays and objects, never mutate them. According to React documentation, we should treat state as if it was *immutable*.
 In order for us to change state, we should always use the `setState` function. Make sure to run the following example locally and see the difference for yourself.
 
-~~~jsx
+```jsx
 function Person() {
   const [person, setPerson] = useState({ name: 'John', age: 100 });
 
@@ -48,14 +48,13 @@ function Person() {
     </>
   );
 }
-~~~
-
+```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
 #### Objects and arrays in state
 
-In the above example, notice how we _create_ a new object, and then copy the existing state values into the new object while providing a new value for `age`.
+In the above example, notice how we *create* a new object, and then copy the existing state values into the new object while providing a new value for `age`.
 That is because if we don't provide a new object to `setState` it is not guaranteed to re-render the page. Therefore we should always provide a new Object for `setState` to trigger a re-render. `setState` uses [Object.is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the previous state is the same.
 
 As for nested objects and arrays, state can get tricky fast since you will have to copy the nested items as well. Be careful when using them.
@@ -68,7 +67,7 @@ State updates are asynchronous. What this implies is whenever you call the `setS
 
 Remember, state variables aren't reactive, the component is. This can be understood by the fact that calling `setState` re-renders the entire component instead of just changing the state variable on the fly.
 
-~~~jsx
+```jsx
 function Person() {
   const [person, setPerson] = useState({ name: 'John', age: 100 });
 
@@ -91,7 +90,7 @@ function Person() {
     </>
   );
 }
-~~~
+```
 
 These are the logs:
 
@@ -111,7 +110,7 @@ The `person` state stays the same throughout the current render of the component
 
 The following is an infinite loop, can you guess why? Drop by in our [Discord chatroom](https://discord.com/invite/fbFCkYabZB), tell us why, and score a brownie point!
 
-~~~jsx
+```jsx
 function Component() {
   const [count, setCount] = useState(0);
 
@@ -119,7 +118,7 @@ function Component() {
 
   return <h1>{count}</h1>;
 }
-~~~
+```
 
 </div>
 
@@ -127,13 +126,12 @@ function Component() {
 
 A trick question. Let's look at another implementation of `handleIncreaseAge`; what do you think it does?
 
-
-~~~jsx
+```jsx
 const handleIncreaseAge = () => {
   setPerson({ ...person, age: person.age + 1 });
   setPerson({ ...person, age: person.age + 1 });
 };
-~~~
+```
 
 Surely, it will increase the age by 2? Nope. The above code is saying to React:
 
@@ -141,12 +139,12 @@ Surely, it will increase the age by 2? Nope. The above code is saying to React:
 
 Notice the word "replace". When you pass in the value to the `setState` function, React will replace the current state with the value you passed in. You might be wondering, what if I want to update the state multiple times using the latest state? This is where the state updater function comes in.
 
-~~~jsx
+```jsx
 const handleIncreaseAge = () => {
   setPerson((prevPerson) => ({ ...prevPerson, age: prevPerson.age + 1 }));
   setPerson((prevPerson) => ({ ...prevPerson, age: prevPerson.age + 1 }));
 };
-~~~
+```
 
 When a callback is passed to the `setState` function, it ensures that the latest state is passed in as an argument to the callback.
 
@@ -160,12 +158,11 @@ There are two `setPerson` calls in the above example, and from what we've learne
 
 </div>
 
-
 ### Controlled components
 
-There are native HTML elements that maintain their own internal state. The `input` element is a great example. You type into an `input` and it updates its own value on every keystroke. For many use-cases, you would like to _control_ the value of the `input` element i.e. set its value yourself. This is where controlled components come in.
+There are native HTML elements that maintain their own internal state. The `input` element is a great example. You type into an `input` and it updates its own value on every keystroke. For many use-cases, you would like to *control* the value of the `input` element i.e. set its value yourself. This is where controlled components come in.
 
-~~~jsx
+```jsx
 function CustomInput() {
   const [value, setValue] = useState('');
 
@@ -177,7 +174,7 @@ function CustomInput() {
     />
   );
 }
-~~~
+```
 
 Instead of letting the `input` maintain its own state, we define our own state using the `useState` hook. We then set the `value` prop of the `input` to the state variable and update the state variable on every `onChange` event. Now, every time the user types something in the input, React will ensure you have the latest comment/review/post (whatever the user was typing) in `value`.
 
@@ -192,7 +189,7 @@ This pattern is extremely useful wherever you need user input i.e. typing in a t
    - [Choosing the State Structure](https://react.dev/learn/choosing-the-state-structure)
    - [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
 
-2. Update the `Person` component we've been using above.
+1. Update the `Person` component we've been using above.
    - Add two separate input fields for first name and last name. The updated full name should be displayed on every keystroke on either of the two input fields.
    - There are many ways you can do this. Keep in mind what you've learned in this lesson while coding it out.
 
@@ -200,7 +197,7 @@ This pattern is extremely useful wherever you need user input i.e. typing in a t
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What should you keep in mind while declaring state?](#how-to-structure-state)
 - [Why should we always use `setState` to update our state?](#state-should-not-be-mutated)
@@ -211,6 +208,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - We intentionally skipped some of the articles pertaining to state from the React documentation. We are confident that the concepts covered thus far will equip you with enough knowledge to tackle the projects to come in the course. Though if you want to delve into the topic further, you can read all of the articles in the [Adding Interactivity](https://react.dev/learn/adding-interactivity) and the [Managing State](https://react.dev/learn/managing-state) section.
