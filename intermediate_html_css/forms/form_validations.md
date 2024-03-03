@@ -31,7 +31,7 @@ To ensure a good user experience and to meet accessibility guidelines, we should
 
 ### Text length validations
 
-Sometimes we will want users to enter a minimum or a maximum amount of text into a field. Real-world examples of using these validations would be the old 140 character limit that Twitter used to have in its status field or having minimum and maximum length constraints on a username field.
+Sometimes we will want users to enter a minimum or a maximum amount of text into a field. Real-world examples of using these validations would be the old 140 character limit that X used to have in its status field or having minimum and maximum length constraints on a username field.
 
 #### Minimum length validation
 
@@ -44,7 +44,7 @@ To add the minimum length validation, we give the form control a `minlength` att
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Try entering less than three characters into the text area and clicking the tweet button to see the validation in action.
+Try entering less than three characters into the text area and clicking the post button to see the validation in action.
 
 #### Maximum length validation
 
@@ -61,7 +61,7 @@ With the maximum length validation, the browser will prevent users from entering
 
 #### Combining validations
 
-HTML allows us to apply as many validations as we wish to a form control. For example, we can give our tweet textarea both `minlength` and `maxlength` validations:
+HTML allows us to apply as many validations as we wish to a form control. For example, we can give our post textarea both `minlength` and `maxlength` validations:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="vYeZGVY" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/vYeZGVY">
@@ -196,7 +196,7 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Check out [HTML5Pattern](https://www.html5pattern.com/) for a list of commonly used pattern regular expressions you may find helpful.
-- Look through [this Twitter thread](https://threadreaderapp.com/thread/1400388896136040454.html) of the do's and don'ts for form validation UX.
+- Look through [this X thread](https://threadreaderapp.com/thread/1400388896136040454.html) of the do's and don'ts for form validation UX.
 - Check out these [10 Guidelines](https://www.nngroup.com/articles/errors-forms-design-guidelines/) for form validation design.
 - [Learn Regex: A Beginner’s Guide](https://www.sitepoint.com/learn-regex/) is a great resource for understanding how regex patterns are built and shows how to use a fantastic tool for creating them. 
 - [Demystifying Regex with Practical Examples](https://www.sitepoint.com/demystifying-regex-with-practical-examples/) contains some practical examples in detail so you can understand how they work rather than copying and pasting.
