@@ -39,12 +39,12 @@ Now that we've learnt about class lifecycle methods, it's useful to understand t
 
 For example:
 
-~~~js
+```js
   useEffect(() => {
     placeholderFunction();
     return () => cleanupFunction();
   }, [])
-~~~
+```
 
 In this snippet, the useEffect contains the functionality of `componentDidMount`, and `componentWillUnmount` via the return function. This example doesn't have the `componentDidUpdate` functionality because of an empty dependency array.
 
