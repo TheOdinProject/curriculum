@@ -280,7 +280,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do props get used in a class-based component?](#the-use-of-a-constructor-and-props)
 - [How does JSX get displayed?](#how-you-can-render-jsx)
 - [How do we deal with state in a class-based component?](#how-to-use-state-and-manage-context)
-- [How do you restore the context of a method in a class-based component?](#the-importance-of-bind)
+- [How do you restore the context of `this` in a method?](#the-importance-of-bind)
 
 ### Additional resources
 
