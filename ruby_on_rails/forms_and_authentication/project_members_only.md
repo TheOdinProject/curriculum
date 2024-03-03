@@ -45,5 +45,5 @@ This section contains helpful links to related content. It isn't required, so co
 
 - [Railscasts #250 Authentication from Scratch](http://railscasts.com/episodes/250-authentication-from-scratch-revised)
 - [Railscasts #274 Remember Me & Reset Password](http://railscasts.com/episodes/274-remember-me-reset-password)
-- Watch [A Twitter Clone Lets Build with Ruby on Rails Part 1](https://www.youtube.com/watch?v=loYfUpwoLlM&t=3s)
-and [A Twitter Clone Lets Build with Ruby on Rails Part 2](https://www.youtube.com/watch?v=fyj70TbS75c&t=474s). If you still need more inspiration for this project or want more insight then the rest of this tutorial series is a good resource.
+- Watch [A X Clone Lets Build with Ruby on Rails Part 1](https://www.youtube.com/watch?v=loYfUpwoLlM&t=3s)
+and [A X Clone Lets Build with Ruby on Rails Part 2](https://www.youtube.com/watch?v=fyj70TbS75c&t=474s). If you still need more inspiration for this project or want more insight then the rest of this tutorial series is a good resource.
