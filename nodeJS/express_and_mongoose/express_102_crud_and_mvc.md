@@ -61,9 +61,9 @@ One final note before diving back into the tutorial. Express does not care about
 
 </div>
 
-### Knowledge checks
+### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What does CRUD stand for?](#crud)
 - [What does the Model in "MVC" refer to?](#model)
