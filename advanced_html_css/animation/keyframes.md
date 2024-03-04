@@ -118,8 +118,9 @@ Hopefully, this gives you a glimpse into the power the `@keyframes` syntax provi
 
 <div class="lesson-content__panel" markdown="1">
 1. Code along with [this MDN article for using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
-2. Read the [@keyframes reference](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) to gain a deeper understanding of how keyframes are implemented.
-3. Now let's make some cool animations! Go to the `animation` folder in the [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and review each README file prior to completing the following exercises in order:
+1. Read the [@keyframes reference](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) to gain a deeper understanding of how keyframes are implemented.
+1. Read this [interactive guide to keyframes](https://www.joshwcomeau.com/animation/keyframe-animations/).
+1. Now let's make some cool animations! Go to the `animation` folder in the [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and review each README file prior to completing the following exercises in order:
    - `01-button-hover`
    - `02-pop-up`
    - `03-dropdown-menu`

@@ -11,7 +11,6 @@ To help you out, come back and refer to this lesson again when you're in trouble
 This section contains a general overview of topics that you will learn in this lesson.
 
 - A reminder about commit messages.
-
 - Using Git to make open source contributions.
 
 ### Commit messages for collaboration

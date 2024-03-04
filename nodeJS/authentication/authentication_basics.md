@@ -344,6 +344,17 @@ if (!match) {
 
 You should now be able to log in using the new user you've created (the one with a hashed password).  <span id='bcrypt'>Unfortunately, users that were saved BEFORE you added bcrypt will no longer work, but that's a small price to pay for security</span>! (and a good reason to include bcrypt from the start on your next project)
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Watch videos 1, 2, 3, 5 and 6 of this [Youtube Playlist on sessions in Express and local strategy authentication with PassportJS](https://www.youtube.com/playlist?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK).
+   - You may notice at some points in the videos, the Express app contains the line `app.use(passport.initialize())`. This line is no longer required to include in current versions of Passport.
+   - In [video 5: "Passport Local Configuration (Node + Passport + Express)"](https://www.youtube.com/watch?v=xMEOT9J0IvI&list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK&index=5&t=822s), it shows using the `connect-mongo` library to use your MongoDB connection to store sessions, as opposed to storing them in memory. The syntax for creating a new "MongoStore" has changed a little since this video but is very similar. You can view the current syntax for doing this on the [npm page for `connect-mongo`](https://www.npmjs.com/package/connect-mongo).
+1. In [Passport: The Hidden Manual](https://github.com/jwalton/passport-api-docs), you can explore more comprehensive explanations of some of Passport's main functions, gaining a deeper understanding of what each function accomplishes.
+
+</div>
+
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
@@ -357,7 +368,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- If you like video content, watch this [Youtube Playlist](https://www.youtube.com/playlist?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK). You just need to watch the first 6 videos.
 - This video provides a broad overview of some of the [different methods to store passwords in databases and possible risks](https://www.youtube.com/watch?v=8ZtInClXe1Q).
 - If you would like a little more of a deeper dive into password hashing, read the following Wikipedia article to [learn more about how cryptographic hash functions work](https://en.wikipedia.org/wiki/Cryptographic_hash_function).
-- In [Passport: The Hidden Manual](https://github.com/jwalton/passport-api-docs), you can explore comprehensive explanations of Passport's functions, gaining a deeper understanding of what each function accomplishes.

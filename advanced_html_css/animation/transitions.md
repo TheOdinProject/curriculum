@@ -36,11 +36,8 @@ button {
 ```
 
 - `transition-property` - This determines what CSS property will be transitioned. In this case it is the `background-color`.
-
 - `transition-duration` - This determines the duration that the transition will occur over. In this case the color change will gradually happen over 1 second.
-
 - `transition-timing-function` - This lets us change the speed of the transition over the course of its duration. Here it will `ease-out`, meaning the color change will be faster at the start than at the end of the transition.
-
 - `transition-delay` - This determines the delay at which the transition will start. In this case, the color change starts a quarter of a second after the cursor rests on the button.
 
 The shorthand property looks like this:
@@ -87,9 +84,10 @@ What's important is that you have a solid understanding of these concepts and ca
 
 <div class="lesson-content__panel" markdown="1">
 1. Read the MDN article for [using CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions), including the links in the [Defining transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions#defining_transitions) section of the article. Make sure you code along with any examples to become familiar with the syntax.
-2. Read the MDN article about [the stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) for a deeper understanding.
-3. Learn some handy hints on how to create performant CSS animations by reading [this article](https://web.dev/animations-guide/) and check out the link it provides to [CSS Triggers](https://web.archive.org/web/20220727225220/https://csstriggers.com/) to see how an animatable CSS property may affect others. Look at the difference between the `background-color` and `transform` properties, for example.
-4. Learn how to catch and debug repaint issues with this great article from [Dzhavat Ushev](https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html).
+1. Read the MDN article about [the stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) for a deeper understanding.
+1. Learn some handy hints on how to create performant CSS animations by reading [this article](https://web.dev/animations-guide/) and check out the link it provides to [CSS Triggers](https://web.archive.org/web/20220727225220/https://csstriggers.com/) to see how an animatable CSS property may affect others. Look at the difference between the `background-color` and `transform` properties, for example.
+1. Read this [interactive guide to transitions](https://www.joshwcomeau.com/animation/css-transitions/).
+1. Learn how to catch and debug repaint issues with this great article from [Dzhavat Ushev](https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html).
 </div>
 
 ### Knowledge check
@@ -106,5 +104,5 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Up until now, you have only controlled the speed of your transitions with the help of keyword values like `ease` and `ease-in`. However, CSS allows you to define your own timing functions with the help of timing functions like `steps` and `cubic-bezier`. In specific, [the `cubic-bezier` function](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function#cubic_b%C3%A9zier_easing_function) is widely used.
-  - This article discusses [`cubic-bezier` functions](https://blog.maximeheckel.com/posts/cubic-bezier-from-math-to-motion/) in detail. While it has a ton of mathematics, you do not need to delve deep into it apart from a creating a basic idea about their purpose.
-  - You can play around with the [CSS Cubic Bezier Generator](https://www.cssportal.com/css-cubic-bezier-generator/) to not only view how the `cubic-bezier` value works in an editable demo, but also to compare the different `transition-timing-function` values side by side.
+- While the [`cubic-bezier`](https://blog.maximeheckel.com/posts/cubic-bezier-from-math-to-motion/) function has a ton of mathematics, you do not need to delve deep into it apart from a creating a basic idea about its purpose.
+- You can play around with the [CSS Cubic Bezier Generator](https://www.cssportal.com/css-cubic-bezier-generator/) to not only view how the `cubic-bezier` value works in an editable demo, but also to compare the different `transition-timing-function` values side by side.
