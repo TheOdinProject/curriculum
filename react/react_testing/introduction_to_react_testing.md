@@ -59,7 +59,7 @@ describe("App component", () => {
   });
 });
 
-~~~
+```
 
 Execute `npm test App.test.jsx` on the terminal and see the test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through [the React Testing Library docs page about queries](https://testing-library.com/docs/queries/about/). Pay extra attention to the "Types of Queries" and "Priority" sections. 
 
@@ -69,7 +69,7 @@ Execute `npm test App.test.jsx` on the terminal and see the test pass. `getByRol
 
 There are numerous ways a user can interact with a webpage. Even though live user feedback and interaction is irreplaceable, we can still build some confidence in our components through tests. Here's a button which changes the heading of the App:
 
-~~~javascript
+```javascript
 // App.jsx
 
 import React, { useState } from "react";
