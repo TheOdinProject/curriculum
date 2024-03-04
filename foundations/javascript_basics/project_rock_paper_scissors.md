@@ -33,7 +33,7 @@ Remember to commit early and often! To refresh your memory, check out the [commi
 
 It's best practice to link to an external JavaScript file inside this script tag. Using an external JavaScript file keeps your HTML file clean and organized.
 
-You don't have to write additional code in the HTML file. This game is played entirely on the console.
+You don't have to write additional code in the HTML file. This game is played entirely via the console.
 
 #### Step 2: get computer choice function
 
