@@ -36,7 +36,7 @@ You don't have to write additional code in the HTML file. This game is played en
 
 #### Step 2: get computer choice function
 
-Your game will be played against the computer. Create a function named `getComputerChoice` that randomly returns 'Rock', 'Paper' or 'Scissors':
+Your game will be played against the computer. You will make a function that randomly returns 'Rock', 'Paper' or 'Scissors':
 
 1. Create a new function named `getComputerChoice`.
 1. Write the code to let `getComputerChoice` randomly `return` one of the following string values: "Rock", "Paper" or "Scissors". 
@@ -45,7 +45,7 @@ Your game will be played against the computer. Create a function named `getCompu
 
 #### Step 3: play round function
 
-Your game will be played round by round. Write a function named `playRound` that takes the human and computer player choices as arguments, plays a single round and returns a winner announcement:
+Your game will be played round by round. You will make a function that takes the human and computer player choices as arguments, plays a single round and returns a winner announcement:
 
 1. Create a new function named `playRound`.
 1. Define two parameters on `playRound`: `playerChoice` and `computerChoice`. Use those two parameters to take the human and computer choices as arguments.
