@@ -18,8 +18,7 @@ The assignment items go through the topic thoroughly, but as a general rule of t
 
 #### State should not be mutated
 
-Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference type values i.e. arrays and objects, never mutate them. According to React documentation, we should treat state as if it was *immutable*.
-In order for us to change state, we should always use the `setState` function. Make sure to run the following example locally and see the difference for yourself.
+Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference-type values, i.e., arrays and objects, never mutate them. According to the React documentation, we should treat state as if it was *immutable*. To change state, we should always use the `setState` function, which in the case of the example below is the setPerson function.
 
 ```jsx
 function Person() {
