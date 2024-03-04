@@ -18,7 +18,7 @@ The assignment items go through the topic thoroughly, but as a general rule of t
 
 #### State should not be mutated
 
-Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference-type values, i.e., arrays and objects, never mutate them. According to the React documentation, we should treat state as if it was *immutable*. To change state, we should always use the `setState` function, which in the case of the example below is the setPerson function.
+Mutating state is a no-go area in React as it leads to unpredictable results. Primitives are already immutable, but if you are using reference-type values, i.e., arrays and objects, never mutate them. According to the React documentation, we should treat state as if it was *immutable*. To change state, we should always use the `setState` function, which in the case of the example below is the `setPerson` function.
 
 ```jsx
 function Person() {
@@ -95,7 +95,7 @@ These are the logs:
 
 ![browser console of the above code snippet](https://cdn.statically.io/gh/TheOdinProject/curriculum/bd3063e12816ac241f73daeffa600ca89e56c443/react/states_and_effects/more_on_state/imgs/00.png)
 
-Uh, oh, what is happening? Let's break it down (ignore the double `console.logs` for the render case; this is covered in the upcoming lessons).
+Uh-oh, what is happening? Let's break it down (ignore the double `console.logs` for the render case; this is covered in the upcoming lessons).
 
 1. The component renders for the first time. The `person` state variable is initialized to `{ name: 'John', age: 100 }`. The "during render" `console.log` prints the state variable.
 1. The button is clicked invoking `handleIncreaseAge`. Interestingly, the `console.log` before and after the `setPerson` call prints the same value.
