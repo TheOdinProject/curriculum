@@ -16,9 +16,9 @@ Follow along [Robin Wieruch's guide on setting up Vitest with RTL](https://www.r
 
 Phew, that was a lot of setup. But there's one more tiny package to install before we can begin:
 
-~~~
+```
 npm install @testing-library/user-event --save-dev
-~~~
+```
 
 Now that we have everything we need, let's briefly go over what some of those packages do. We'll primarily focus on the `@testing-library` packages. 
 
@@ -38,15 +38,15 @@ Now that we have everything we need, let's briefly go over what some of those pa
 
 First, we'll render the component using `render`. The API will return an object and we'll use destructuring syntax to obtain a subset of the methods required. You can read all about what `render` can do in [the React Testing Library API docs about render](https://testing-library.com/docs/react-testing-library/api/#render).
 
-~~~javascript
+```javascript
 // App.jsx
 
 const App = () => <h1>Our First Test</h1>;
 
 export default App;
-~~~
+```
 
-~~~javascript
+```javascript
 // App.test.jsx
 
 import { render, screen } from "@testing-library/react";
@@ -92,11 +92,11 @@ const App = () => {
 };
 
 export default App;
-~~~
+```
 
 Let's test if the button works as intended. In this test suite, we'll use a separate utility to query our UI elements. React Testing Library provides the `screen` object which has all the methods for querying. With `screen`, we don't have to worry about keeping `render`'s destructuring up-to-date. Hence, it's better to use `screen` to access queries rather than to destructure `render`.
 
-~~~javascript
+```javascript
 // App.test.jsx
 
 import { render, screen } from "@testing-library/react";
@@ -121,7 +121,7 @@ describe("App component", () => {
     expect(screen.getByRole("heading").textContent).toMatch(/radical rhinos/i);
   });
 });
-~~~
+```
 
 The tests speak for themselves. In the first test, we utilize snapshots to check whether all the nodes render as we expect them to. In the second test, we simulate a click event. Then we check if the heading changed. `toMatch` is one of the various assertions we could have made. 
 
@@ -130,7 +130,7 @@ It's also important to note that after every test, React Testing Library unmount
 Notice that the callback function for the second test is asynchronous. This is because `user.click()` simulates the asynchronous nature of user interaction, which is now supported by the latest version of the testing library's user-event APIs. 
 As of [version 14.0.0](https://github.com/testing-library/user-event/releases/tag/v14.0.0), the user-event APIs have been updated to be asynchronous. It's worth noting that some examples from other resources or tutorials might still use the synchronous `userEvent.click()` method
 
-~~~javascript
+```javascript
 // This is the old approach of using userEvent.
 it("renders radical rhinos after button click", () => {
   render(<App />);
@@ -140,7 +140,7 @@ it("renders radical rhinos after button click", () => {
 
   expect(screen.getByRole("heading").textContent).toMatch(/radical rhinos/i);
 });
-~~~
+```
 
 The `setup()` is internally triggered here. This is still supported by React Testing Library to ease the transition from v13 to v14.
 
@@ -148,7 +148,7 @@ The `setup()` is internally triggered here. This is still supported by React Tes
 
 Snapshot testing is just comparing our rendered component with an associated snapshot file. For example, the snapshot file which was automatically generated after we ran the _"magnificent monkeys renders"_ test was:
 
-~~~javascript
+```javascript
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`App component > renders magnificent monkeys 1`] = `
@@ -163,7 +163,7 @@ exports[`App component > renders magnificent monkeys 1`] = `
   </h1>
 </div>
 `;
-~~~
+```
 
 It's an HTML representation of the `App` component. And it will be compared against the `App` in future snapshot assertions. If the `App` changes even slightly, the test fails. 
 
