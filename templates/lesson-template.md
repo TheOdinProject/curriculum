@@ -15,18 +15,22 @@ CUSTOM SECTION CONTENT.
 #### Note box variations
 
 <div class="lesson-note" markdown="1">
-<h4>A title is optional</h4>
+<h4>A sample title</h4>
 A sample note box.
 </div>
 
 <div class="lesson-note lesson-note--tip" markdown="1">
-<h4>A title is optional</h4>
+<h4>h4 for title is recommended</h4>
 A sample note box, variation: tip.
 </div>
 
 <div class="lesson-note lesson-note--warning" markdown="1">
-<h4>A title is optional</h4>
+<h4>But title is also optional</h4>
 A sample note box, variation: warning.
+</div>
+
+<div class="lesson-note lesson-note--critical" markdown="1">
+A sample note box, variation: critical.
 </div>
 
 ### Assignment

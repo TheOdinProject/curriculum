@@ -2,7 +2,7 @@
 
 You've already had some familiarity with associations, especially the basic `has_one`, `has_many`, and `belongs_to` variety.  Thus far, you've probably mostly used these associations to grab collections of objects like a user's posts (`user.posts`).  There are a lot of other handy things that Rails lets you do with associations too.  This brief section will highlight some of the more useful methods that come along with associations.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -16,11 +16,11 @@ This section contains a general overview of topics that you will learn in this l
 - How to automatically destroy associated objects when an object is deleted.
 - How to set up a self-association, such as with Users following Users.
 
-### Basic Stuff
+### Basic stuff
 
 If you're still shaky on basic associations, go back and check out the Associations section of the [Basic Active Record lesson](https://www.theodinproject.com/lessons/ruby-on-rails-active-record-basics) first.  This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
 
-#### Foreign Keys and Class Names
+#### Foreign keys and class names
 
 When you create an association, Rails makes two major assumptions -- first, that the class of the model your association points to is based directly off of the name of the association, and, second, that the foreign key in any `belongs_to` relationship will be called `yourassociationname_id`.  Any time you go away from these defaults, you just need to let Rails know what kind of class to look for and which foreign key to use.
 
@@ -66,13 +66,13 @@ But now Rails doesn't have the foggiest idea where to look and what to look for.
   end
 ~~~
 
-The basic gist of this is simple -- assume that Rails is looking for the foreign key named after the association in the table also named after the association.  If any of these are incorrect because of a creatively named association or foreign key, you'll need to specify.  This is quite common to make your associations more legible.
+The basic gist of this is assume that Rails is looking for the foreign key named after the association in the table also named after the association.  If any of these are incorrect because of a creatively named association or foreign key, you'll need to specify.  This is quite common to make your associations more legible.
 
 #### Source
 
 Now that it's clear you need to let Rails know when you've creatively named your associations or foreign keys, we should point out that there's one additional step required if you're using a creatively named `has_many :through` association.  Recall that has-many-through associations are where you create a "through table" to act as a go-between for two models that have a many-to-many relationship.
 
-For example, perhaps we change the example above so a Post actually can have multiple Authors (but still only one editor).  We'll need to create a new table, which we'll call `post_authorings`.  `post_authorings` joins these two models together and contains columns for `authored_post_id` and `post_author_id`.  You can probably see where this is going -- we've named our foreign keys something more descriptive and helpful than just simply `post_id` and `user_id` but it will require us to inform Rails of the change.  Our models look like:
+For example, perhaps we change the example above so a Post actually can have multiple Authors (but still only one editor).  We'll need to create a new table, which we'll call `post_authorings`.  `post_authorings` joins these two models together and contains columns for `authored_post_id` and `post_author_id`.  You can probably see where this is going -- we've named our foreign keys something more descriptive and helpful than just `post_id` and `user_id` but it will require us to inform Rails of the change.  Our models look like:
 
 ~~~ruby
   # app/models/post.rb
@@ -133,7 +133,7 @@ It sounds a bit wonky but it's just the same logic as before -- if Rails can't t
 
 Once you do get things figured out, it can still be helpful to look in your Rails server output to see which joins are being done to build the SQL query.  That's a great window into what your associations are doing behind the scenes (because in the end, it's all about figuring out the correct SQL query to run).
 
-### Polymorphic Associations
+### Polymorphic associations
 
 We'll cover polymorphism here but, if your head is really spinning from the other concepts, feel free to just skim it.  Consider this an "additional topic" instead of a core topic like foreign keys, class names and source.
 
@@ -160,7 +160,7 @@ We have to call our foreign key something a bit different from the normal case s
   end
 ~~~
 
-"Commentable" will be used to refer to the associations as well.  You'll need to tell your Comment model that it is actually polymorphic so Rails knows to also check for a `commentable_type` column when using it.  This is done simply:
+"Commentable" will be used to refer to the associations as well.  You'll need to tell your Comment model that it is actually polymorphic so Rails knows to also check for a `commentable_type` column when using it.  This is done like:
 
 ~~~ruby
   # app/models/comment.rb
@@ -185,7 +185,7 @@ On the other side of the association, you just treat your comment like any other
 
 Rails does the rest of the work for you.  Any time you ask a Picture for all its comments (`Picture.first.comments`), Rails will return just the comments that belong to that picture without you having to worry about anything else.
 
-### Self Joins
+### Self joins
 
 Often times you have relationships between the same type of model, for instance users who can follow other users.  In this case, you need to specify both associations in your User model but name them differently.  You will need to specify in your `has_many` association what the name of the `foreign_key` will be:
 
@@ -198,10 +198,10 @@ Often times you have relationships between the same type of model, for instance 
   end
 ~~~
 
-### Handy Methods
+### Handy methods
 As mentioned in the intro, associations give you access to some nifty tricks that you might not think of.
 
-#### Creating Association Objects
+#### Creating association objects
 
 <span id='automatic-foreign-key-knowledge-check'>There's a couple of shortcuts for creating new association objects.  The first is to call `#new` or `#create` on the association to automatically populate the foreign key.  For instance, if a User `has_many` Posts and Post `belongs_to` a User:</span>
 
@@ -239,7 +239,7 @@ If you really want to, you can actually replace the entire association with a ne
   > user.posts = [post1, post2]  # posts added to that user's collection
 ~~~
 
-#### Destroying Dependents
+#### Destroying dependents
 
 If your user has created a bunch of posts and then decides to delete her account, how do you delete all the associated posts?  Specify the `dependent: :destroy` option when first declaring the association:
 
@@ -265,21 +265,23 @@ This is just the most common among several options to specify for `:dependent`. 
 
 In this lesson we covered some of the more advanced associations material.  Associations are all over the place in Rails and incredibly useful because of all the new methods they give you access to.  As long as you pause and think about what Rails is assuming when you set them up, you should be able to modify them to your liking without too much trouble.  Practice makes perfect, though, so keep building projects with associations in them and it'll eventually stick.
 
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+### Knowledge check
 
-* [Brush up Your Knowledge of Rails Associations](https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/)
-* [Rails' Polymorphic Associations](https://dev.to/adjoa/rails-polymorphic-associations-511n)
-* [Understanding Polymorphic Associations in Rails](https://web.archive.org/web/20210507031450/https://launchschool.com/blog/understanding-polymorphic-associations-in-rails)
-* [RailsCasts #154 Polymorphic Association](http://railscasts.com/episodes/154-polymorphic-association-revised)
-* [Comments with Polymorphic Associations](https://gorails.com/episodes/comments-with-polymorphic-associations)
-* [RailsCasts Pro #394 STI and Polymorphic Associations](http://railscasts.com/episodes/394-sti-and-polymorphic-associations)
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+ - <a class='knowledge-check-link' href='#foreign-keys-and-class-names'>What two pieces of information will Rails assume by default for associations?</a>
+ - <a class='knowledge-check-link' href='#source-option-knowledge-check'>Which type of association may require the `:source` option to be specified?</a>
+ - <a class='knowledge-check-link' href='#automatic-foreign-key-knowledge-check'>What is populated automatically when an object is created by an association?</a>
+ - <a class='knowledge-check-link' href='#polymorphic-column-knowledge-check'>Can a polymorphic association use a single column foreign key?</a>
+ - <a class='knowledge-check-link' href='#self-joins'>Can a model have associations with instances of the same model?</a>
 
- * <a class='knowledge-check-link' href='#foreign-keys-and-class-names'>What two pieces of information will Rails assume by default for associations?</a>
- * <a class='knowledge-check-link' href='#source-option-knowledge-check'>Which type of association may require the `:source` option to be specified?</a>
- * <a class='knowledge-check-link' href='#automatic-foreign-key-knowledge-check'>What is populated automatically when an object is created by an association?</a>
- * <a class='knowledge-check-link' href='#polymorphic-column-knowledge-check'>Can a polymorphic association use a single column foreign key?</a>
- * <a class='knowledge-check-link' href='#self-joins'>Can a model have associations with instances of the same model?</a>
+### Additional resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- [Brush up Your Knowledge of Rails Associations](https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/)
+- [Rails' Polymorphic Associations](https://dev.to/adjoa/rails-polymorphic-associations-511n)
+- [Understanding Polymorphic Associations in Rails](https://web.archive.org/web/20210507031450/https://launchschool.com/blog/understanding-polymorphic-associations-in-rails)
+- [RailsCasts #154 Polymorphic Association](http://railscasts.com/episodes/154-polymorphic-association-revised)
+- [Comments with Polymorphic Associations](https://gorails.com/episodes/comments-with-polymorphic-associations)
+- [RailsCasts Pro #394 STI and Polymorphic Associations](http://railscasts.com/episodes/394-sti-and-polymorphic-associations)

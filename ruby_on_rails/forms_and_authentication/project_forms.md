@@ -2,14 +2,14 @@
 
 These projects will give you a chance to actually build some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides.
 
-### Project: Bare Metal Forms and Helpers
+### Project: Bare metal forms and helpers
 
 In this project, you'll build a form the old fashioned way and then the Rails way.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-#### Set up the Back End
+#### Set up the Back end
 
 You'll get good at setting up apps quickly in the coming lessons by using more or less this same series of steps (though we'll help you less and less each time):
 
@@ -25,7 +25,7 @@ You'll get good at setting up apps quickly in the coming lessons by using more o
 10. Fire up a rails server in another tab.
 11. Make sure everything works by visiting `http://localhost:3000/users/new` in the browser.
 
-#### HTML Form
+#### HTML form
 
 The first form you build will be mostly HTML (remember that stuff at all?).  Build it in your New view at `app/views/users/new.html.erb`.  The goal is to build a form that is almost identical to what you'd get by using a Rails helper so you can see how it's done behind the scenes.
 
@@ -59,8 +59,8 @@ That looks a whole lot like what you normally see when Rails does it, right?
    ~~~
 
 6. Test this out -- can you now create users with your form? If so, you should see an INSERT SQL command in the server log.
-7. We're not done just yet... that looks too long and difficult to build a user with all those `params` calls.  It'd be a whole lot easier if we could just use a hash of the user's attributes so we could just say something like `User.new(user_params)`.  Let's build it... we need our form to submit a hash of attributes that will be used to create a user, just like we would with Rails' `form_with` method.  Remember, that method submits a top level `user` field which actually points to a hash of values.  This is simple to achieve, though -- just change the `name` attribute slightly.  Nest your three User fields inside the variable attribute using brackets in their names, e.g. `name="user[email]"`.
-8. Resubmit.  Now your user parameters should be nested under the `"user"` key like:
+7. We're not done just yet... that looks too long and difficult to build a user with all those `params` calls. It'd be a whole lot easier if we could just use a hash of the user's attributes so we could just say something like `User.new(user_params)`. Let's build it... we need our form to submit a hash of attributes that will be used to create a user, just like we would with Rails' `form_with` method. Remember, that method submits a top level `user` field which actually points to a hash of values. This is easy to achieve, though -- just change the `name` attribute slightly. Nest your three User fields inside the variable attribute using brackets in their names, e.g. `name="user[email]"`.
+8. Resubmit. Now your user parameters should be nested under the `"user"` key like:
 
    ~~~bash
    Parameters: {"authenticity_token" => "WUaJBOpLhFo3Mt2vlEmPQ93zMv53sDk6WFzZ2YJJQ0M=", "user" =>{ "username" => "foobar", "email" => "foo@bar.com", "password" => "[FILTERED]" } }
@@ -72,7 +72,7 @@ That looks a whole lot like what you normally see when Rails does it, right?
 7. Add a new `::new` User line which makes use of that new allow params method.
 5. Submit your form now.  It should work marvelously (once you debug your typos)!
 
-#### Railsy Forms with `#form_tag`
+#### Railsy forms with `#form_tag`
 
 Now we'll start morphing our form into a full Rails form using the `#form_tag` and `#*_tag` helpers.  There's actually very little additional help that's going on and you'll find that you're mostly just renaming HTML tags into Rails tags.
 
@@ -82,7 +82,7 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 4. Test out your form.  You'll need to change your `#create` method in the controller to once again accept normal top level User attributes, so uncomment the old `User.new` line and comment out the newer one.
 5. You've just finished the first step.
 
-#### Railsy-er Forms with `#form_with`
+#### Railsy-er forms with `#form_with`
 
 `#form_tag` probably didn't feel that useful -- it's about the same amount of work as using `<form>`, though it does take care of the authenticity token stuff for you.  Now we'll convert that into `#form_with`, which will make use of our model objects to build the form.
 

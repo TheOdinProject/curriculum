@@ -9,17 +9,17 @@ You'll do a healthy chunk of learning in this course, but by the end of it all, 
 
 **Basically, you're going to start feeling a whole lot more like a real programmer, and that feeling will be justified.** 
 
-### Learning Ruby Before Ruby on Rails
+### Learning Ruby before Ruby on Rails
 Some people believe you can just dive right into Rails and start firing out websites. So why do we have an entire course dedicated to only Ruby before we start looking at Rails? Rails is a framework built using exclusively Ruby, and every bit of code in it is written with Ruby. When (*not* "if") something in your project breaks, you'd better be able to debug it, which means having a strong understanding of Ruby, how it works, and what its error messages look like. Beyond that, when you start to stretch your wings and do something just a bit beyond what the vanilla tutorials explicitly show you how to do, you'll quickly discover a world of frustration if you don't have a strong foundation in Ruby. The amount of time you would spend Googling your error messages and staring blankly at help docs would be better spent learning Ruby now.
 
-### The Path Ahead
-Ruby is a big language with lots of syntax, so we've broken the concepts up into smaller chunks to make it more digestible. Some of the early material will be fairly straightforward and will rely on simple exercises to help reinforce your understanding. As you progress through the course, the goal is for you to get a much deeper and more practical understanding of the material. As you move into some of the more advanced topics, you'll be reading less and building more-just the way it should be!
+### The path ahead
+Ruby is a big language with lots of syntax, so we've broken the concepts up into smaller chunks to make it more digestible. Some of the early material will be fairly straightforward and will rely on beginner friendly exercises to help reinforce your understanding. As you progress through the course, the goal is for you to get a much deeper and more practical understanding of the material. As you move into some of the more advanced topics, you'll be reading less and building more-just the way it should be!
 
 * In the first section, you'll learn all about the basics of Ruby along with some classic programming basics.
 * In the second section, you'll learn about object-oriented programming, which will show you how to cleanly and neatly organize your code into reusable objects.
 * In the third section, you'll dive into some basic computer science, where you'll learn about recursion and common data structures.
-* In the fourth section, you'll learn the basics of test-driven development.
-* In the fifth section, you'll learn some more advanced features of Git and the Git workflow used by professional developers.
+* In the fourth section, you'll learn some more advanced features of Git and the Git workflow used by professional developers.
+* In the fifth section, you'll learn the basics of test-driven development.
 * In the sixth and final section, you'll tie everything together by building a fully fledged chess game.
 
 ### Assignment

@@ -8,25 +8,22 @@ So before we get into the meat of the curriculum, we're going to go over the fol
 
 Take a moment to think about why you have decided to learn programming.
 
-*   Do you want to have a fulfilling career that pays well?
-*   Are you excited by the creative outlet programming provides? 
-*   Are you determined to develop the skills and abilities to build any app you can think of? 
-*   Do you want to start your own company by turning an app idea into reality?
+- Do you want to have a fulfilling career that pays well?
+- Are you excited by the creative outlet programming provides?
+- Are you determined to develop the skills and abilities to build any app you can think of?
+- Do you want to start your own company by turning an app idea into reality?
 
 Your motivation could be a combination of these reasons or something else entirely. Whatever it is, hold on tightly to your motivation - this will be what pulls you through to the end of this journey, giving you a definitive goal to aim towards.
-
-To give your motivation a bit of a boost, you can read about the success of others in our discord [odin-success-stories](https://discord.com/channels/505093832157691914/1089990025162260570) channel (You need to [join the Discord server](https://discord.gg/fbFCkYabZB) first in order to see the channel).
-
 
 ### Growth mindset
 
 Your mindset is very important when teaching yourself *any* new skills, not just programming. Your mindset will have more of an impact on your chances of success than just about anything else.
 
-Someone with the **fixed mindset** believes if they don't get something on their first attempt, they never will. They believe that they simply aren't smart enough to be able to do or understand some things.
+Someone with the **fixed mindset** believes if they don't get something on their first attempt, they never will. They believe that they aren't smart enough to be able to do or understand some things.
 
 However, there is a wide body of research showing that intelligence is not fixed but can instead be developed. Someone with the **growth mindset** believes they can get better at anything with effort and persistence.
 
-What does this mean for you? It means you can learn new skills and develop new talents with **persistence and grit**. 
+What does this mean for you? It means you can learn new skills and develop new talents with **persistence and grit**.
 
 There will be many times throughout The Odin Project that you will get stuck on a concept or a programming problem and may find yourself questioning your ability to learn programming. When you find yourself in this position, remind yourself that you may not get it *yet* but that with persistence and grit you will. Struggling with something is growth. It doesn't matter how long you struggle with a concept or project; all that matters is that you have the grit and tenacity to see it through. That's how
 real learning happens.
@@ -34,12 +31,6 @@ real learning happens.
 While you're working through the curriculum, embrace the struggles you encounter with difficult concepts and complex projects. Be sure to celebrate your persistence in overcoming those struggles!
 
 When you find yourself questioning your abilities, reflect on the successes you have already achieved while learning to program: the projects you have completed and the concepts you once didn't understand but now do. This is all the proof you need that you can do it.
-
-To learn more about the growth mindset, check out these resources:
-
-*   [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
-*   [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
-*   [You can learn anything](https://www.khanacademy.org/talks-and-interviews/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
 
 ### The learning process
 
@@ -55,18 +46,13 @@ Teaching what you know to others is a great way to solidify what you have learne
 
 You can practice this method of learning by helping others in our community.
 
-*   To learn more about the best ways to learn, [learning how to learn on Coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
-
-*   The Ruby Rogues have a [podcast on How to Learn](https://topenddevs.com/podcasts/ruby-rogues/episodes/131-rr-how-to-learn), which should be motivational and useful to you, so check it out for some useful thoughts on learning.
-*    100 Days of Code is a challenge that new developers often use to track their coding journey and showcase their work. Consider joining by checking out [their website](https://www.100daysofcode.com/) if you are looking for a way to stay motivated and inspire other developers.
-
 ### What to do when you're stuck
 
 You will inevitably get stuck at some point in the curriculum, perhaps due to a concept that you are having difficulty understanding or perhaps due to something not working correctly in a project. Whatever it is, use the following tools to get unstuck:
 
-*   Google it: You can be certain someone else out there has encountered the same problem as you at some point. A quick Google search can often lead to a solution.
-*   Take a break: Allow your diffuse learning state to work on the problem.
-*   Ask for help in our [chat](https://discord.gg/fbFCkYabZB): Come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
+- Google it: You can be certain someone else out there has encountered the same problem as you at some point. A quick Google search can often lead to a solution.
+- Take a break: Allow your diffuse learning state to work on the problem.
+- Ask for help in our [chat](https://discord.gg/fbFCkYabZB): Come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
 ### A note on AI code generation
 
@@ -92,9 +78,9 @@ You will have more success with Odin by putting **consistent** time into it rath
 
 It may take you longer than others to grasp concepts, or it may take you less time. This doesn't mean you're smarter or dumber than others, it means you've had differing life experiences that may or may not have prepared you for learning this stuff. Someone who grew up around an engineer may have some advantages over someone who didn't, but it doesn't mean you can't learn those skills.
 
-The Odin Project isn't like college or university, it is self paced and allows you to get a really solid grasp of concepts before moving on. In school, you're forced to keep up or you will fail. The difference here is that coming into The Odin Project, you're not expected to have much knowledge; there are no prerequisites. We've had people be successful coming through here who only knew how to check their email with a computer. We've also seen success from computer science degree holders. Treating The Odin Project like a static timeline is understandable, but is a sign of misplaced expectations. You simply don't know what you don't know yet, and that's OK! There are no due-dates on things in The Odin Project so you can spend the time to do it right and discuss the topics.
+The Odin Project isn't like college or university, it is self paced and allows you to get a really solid grasp of concepts before moving on. In school, you're forced to keep up or you will fail. The difference here is that coming into The Odin Project, you're not expected to have much knowledge; there are no prerequisites. We've had people be successful coming through here who only knew how to check their email with a computer. We've also seen success from computer science degree holders. Treating The Odin Project like a static timeline is understandable, but is a sign of misplaced expectations. You don't know what you don't know yet, and that's OK! There are no due-dates on things in The Odin Project so you can spend the time to do it right and discuss the topics.
 
-Deadlines cause un-needed stress. Since The Odin Project is a free and open platform, you are not beholden to a deadline. Creating your own deadlines is a good way to rush concepts that should not be rushed. This course is very research based, meaning you will have to do research to complete tasks and projects. There's no telling if you can find the article or post that helps you in the right way, quickly to meet your deadlines, but we bet you learned a TON along the way that you can use in the future. People that do this kind of research and strive to write better solutions tend to become better developers in the future. There's no knowing how long it could take you to learn how to query stuff to find your answers. There are no solid guidelines on that. If you're doing The Odin Project because you need a high paying job _right-now_, you're not going to become a solid developer within the timeframe you have set. Stress and anxiety absolutely do not help you learn either. Relax and just enjoy the ride.
+Deadlines cause un-needed stress. Since The Odin Project is a free and open platform, you are not beholden to a deadline. Creating your own deadlines is a good way to rush concepts that should not be rushed. This course is very research based, meaning you will have to do research to complete tasks and projects. There's no telling if you can find the article or post that helps you in the right way, quickly to meet your deadlines, but we bet you learned a TON along the way that you can use in the future. People that do this kind of research and strive to write better solutions tend to become better developers in the future. There's no knowing how long it could take you to learn how to query stuff to find your answers. There are no solid guidelines on that. If you're doing The Odin Project because you need a high paying job *right-now*, you're not going to become a solid developer within the timeframe you have set. Stress and anxiety absolutely do not help you learn either. Relax and just enjoy the ride.
 
 Long story short: Don't worry, just go learn!
 
@@ -106,13 +92,12 @@ The following are some of the pitfalls that beginners often encounter when learn
 
 Procrastination will be your biggest enemy when trying to make progress.
 
-**Solution:** The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a way of managing your time in order to stay focused. The idea is to set a timer for 25 minutes and to work on a task until the timer goes off. If you get distracted or interrupted during the 25 minutes, start the 25 minutes of work over again. Once you've successfully focused on work for 25 minutes, take a 5 minute break. When your break is over, repeat the 25 minutes of work and 5 minute break. After you've completed four 25 minute blocks of work, take a longer 15-30 minute break. 
+**Solution:** The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a way of managing your time in order to stay focused. The idea is to set a timer for 25 minutes and to work on a task until the timer goes off. If you get distracted or interrupted during the 25 minutes, start the 25 minutes of work over again. Once you've successfully focused on work for 25 minutes, take a 5 minute break. When your break is over, repeat the 25 minutes of work and 5 minute break. After you've completed four 25 minute blocks of work, take a longer 15-30 minute break.
 
 The Pomodoro technique is great for avoiding procrastination as it forces you to work without distractions. Since the work time only lasts 25 minutes before taking a break, it's not overwhelming, making it harder to rationalize procrastination.
-
 To learn more about the Pomodoro Technique, read this [great article](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c#.hcqsv37u4).
 
-If you want to try it out, [TomatoTimer](http://tomato-timer.com/#) is an easy-to-use Pomodoro timer.
+If you want to try it out, [Pomofocus](https://pomofocus.io/) is a customizable pomodoro timer that works on desktop & mobile browser.
 
 #### Not taking breaks
 
@@ -124,14 +109,14 @@ It may seem counterintuitive, but you will actually get more done if you regular
 
 What to do during your break:
 
-*   listen to music
-*   journal
-*   doodle
-*   meditate 
-*   play a quick game
-*   go for a short walk outside 
+- Listen to music.
+- Journal
+- Doodle
+- Meditate
+- Play a quick game.
+- Go for a short walk outside.
 
-Read [this article](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/) for more information on breaks & productivity.
+Checkout this article for [more information on breaks & productivity](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/).
 
 #### Digital distractions
 
@@ -143,7 +128,7 @@ Digital distractions are email and Facebook notifications and time-wasting websi
 
 Physical distractions are distractions from your environment, like a TV in the background or other people talking. These distractions can be just as damaging to your focus as digital distractions.
 
-**Solution:** Find a quiet place to study where you can go to focus in your home. If that's not an option, you can use noise cancelling headphones to block out noisy distractions in your environment.
+**Solution:** Find a quiet place to study where you can go to focus in your home. If that's not an option, you can use noise cancelling headphones to block out noisy distractions in your environment. There are also complimentary public and university libraries that are serene and comfortable. Some libraries even operate 24/7, uninterrupted. Beyond just providing a pleasant study space, the presence of others studying around you instills a sense of productivity.
 
 #### Rabbit holes
 
@@ -167,12 +152,32 @@ The Odin Project does not recommend taking a lot of notes throughout your web de
 
 Learning any new skill is a journey full of speed bumps and obstacles to be overcome. We hope that the principles laid out here will put you in a much better position to succeed and get the most out of The Odin Project.
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. To give your motivation a bit of a boost, read about the success of others in our discord [odin-success-stories](https://discord.com/channels/505093832157691914/1089990025162260570) channel (You need to [join the Discord server](https://discord.gg/fbFCkYabZB) first in order to see the channel).
+1. To learn more about the growth mindset, go through the following resources:
+  - [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
+  - [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
+  - [You can learn anything](https://www.khanacademy.org/college-careers-more/talks-and-interviews/talks-and-interviews-unit/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
+1. To learn more about the best ways to learn, watch this summary of [Coursera's learning how to learn course](https://www.youtube.com/watch?v=O96fE1E-rf8). The full course is linked in the additional resources.
+
+</div>
+
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-*   [Managing inspiration and motivation](https://markmanson.net/do-something)
-*   [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
-*   [Improve your typing skills with Keybr.com](https://www.keybr.com/). One excellent alternative is [typing.com](https://www.typing.com/). Use these keyboard trainer if you find your typing speed is holding you back. We recommend spending 5 mins every day after you start your PC.
-*   [Practice typing with Monkeytype!](https://monkeytype.com/) A minimalistic, customizable typing website. Test yourself in various modes, track your progress and improve your typing speed. It has a great community and frequently receives new features. Even though it has so many features, the experience is still very polished. 
-*   [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
+- [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
+- [Managing inspiration and motivation](https://markmanson.net/do-something)
+- [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
+- If you find your typing speed is holding you back, you can improve your typing skills by utilizing these keyboard trainers for at least 5 minutes every day:
+  - [Keybr.com](https://www.keybr.com/)
+  - [typing.com](https://www.typing.com/)
+  - [TypingClub.com](https://www.typingclub.com)
+  - [Monkeytype](https://monkeytype.com/)
+- [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
+- 100 Days of Code is a challenge that new developers often use to track their coding journey and showcase their work. Consider joining by checking out [their website](https://www.100daysofcode.com/) if you are looking for a way to stay motivated and inspire other developers.
+- Check out the [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) course from Coursera.
+

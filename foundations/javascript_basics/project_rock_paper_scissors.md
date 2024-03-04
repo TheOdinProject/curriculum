@@ -39,7 +39,7 @@ You don't have to write additional code in the HTML file. This game is played en
 Your game will be played against the computer. You will make a function that randomly returns 'Rock', 'Paper' or 'Scissors':
 
 1. Create a new function named `getComputerChoice`.
-1. Write the code to let `getComputerChoice` randomly `return` one of the following string values: "Rock", "Paper" or "Scissors". 
+1. Write the code to let `getComputerChoice` randomly `return` one of the following string values: "Rock", "Paper" or "Scissors".
    - **Hint**: The [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) method returns a random number that's greater than or equal to 0 and less than 1. Think about how you can use this to conditionally return one of the multiple choices.
 1. Test that your function returns what you expect using `console.log` or [the browser developer tools](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools) before advancing to the next step.
 
@@ -78,4 +78,11 @@ Re-work your previous functions or create more helper functions if necessary. Sp
 
 If you already know about loops, you can use them. If not, don't worry! Loops will be covered in the next lesson.
 
+</div>
+<div class="lesson-note" markdown="1">
+When making interactive projects, like this one, you might be tempted to add more features, improve interactivity, user experience, design and styling of your website, and so on.
+
+We recommend not doing that, and saving this effort for your portfolio projects.
+
+For more information on learning mindset and portfolio pieces read [Part 5](https://dev.to/theodinproject/learning-code-f56) and [Part 7](https://dev.to/theodinproject/strategically-building-your-portfolio-1km4) of [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
 </div>

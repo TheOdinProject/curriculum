@@ -6,13 +6,13 @@ In this lesson, we'll focus on space complexity and see how the same notations w
 
 When we talk about memory, we mean primary memory, which is the working memory available to your system to execute algorithms. You can read more about the topic in this [GeeksforGeeks Primary Memory article](https://www.geeksforgeeks.org/primary-memory/).
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* What do we mean by space complexity.
-* Why is it important to consider how our algorithm uses memory space.
-* How do we measure space complexity.
+- What do we mean by space complexity.
+- Why is it important to consider how our algorithm uses memory space.
+- How do we measure space complexity.
 
 ### What do we mean by space complexity?
 
@@ -30,7 +30,7 @@ On the flip side, although memory is cheap, your hardware will usually have a fi
 
 On balance, you'll probably come across problems in which the time it takes to execute is more important than the space it uses, but knowing about measuring space complexity will mean when you do run into a situation where there are space constraints, you'll be prepared to handle it.
 
-### Measuring Space Complexity
+### Measuring space complexity
 
 The good news is that we measure space complexity in exactly the same way as time complexity. You already learned about Big O in the last lesson, so you already know how to measure the efficiency of your code. The difference is that you'll need to think about how your algorithm is utilizing memory rather than time.
 
@@ -49,23 +49,23 @@ As a reminder the Big O Notations are:
 
 Let's work through some examples. We won't go through every possible complexity because most don't apply for the data structures you'll be familiar with and use the most. We'll cover the most common ones.
 
-#### O(1) - Constant Complexity
+#### O(1) - constant complexity
 
 Consider this example.
 
-~~~ruby
+```ruby
 def multiply(num1, num2)
   num1 * num2
 end
-~~~
+```
 
-Here it should hopefully be clear that no matter the arguments we enter when we call the function, only two variables are created. It doesn't change. Therefore, we can consider the space this takes is always O(1).
+Here it should hopefully be clear that no matter the arguments we pass to the function call, only a single value is created (the product of the numbers). The value doesn't change. Therefore, we can consider the space this takes is always O(1).
 
-#### O(N) - Linear Complexity
+#### O(N) - linear complexity
 
 Most data structures you come across will have a space complexity of O(N). That makes sense - when you increase the number of items in your data structure, it increases the space that data structure occupies in a linear way.
 
-~~~ruby
+```ruby
 def sum_arr(arr)
   copy_arr = arr.dup
   sum = 0
@@ -74,7 +74,7 @@ def sum_arr(arr)
   end
   return sum
 end
-~~~
+```
 
 We wrote this in a slightly more verbose way than you'd normally write it in Ruby to make it a little clearer. Here we have a method which accepts an array. Within, we have two variables. One called `sum` and the other `copy_arr` which holds a copy of the array passed in. We then have an `each` loop that iterates over the array. The amount of space that this algorithm takes depends on the array that is passed to it. It could be 3 elements in the array or 300. When we don't know the length of the array, we refer to it as N, so we have N + 1 variable called `sum`. We know that we drop constants with Big O, so we are left with N, or O(N) for its Big O notation.
 
@@ -82,7 +82,7 @@ Why did we make a copy of the array? That will be discussed in a later section.
 
 The complexity is replicated no matter the data structure:
 
-~~~ruby
+```ruby
 def sum_hash_values(hash)
   copy_hash = hash.dup
   sum = 0
@@ -91,7 +91,7 @@ def sum_hash_values(hash)
   end
   return sum
 end
-~~~
+```
 
 Here as the hash size increases, the space it uses grows in a linear way.
 
@@ -109,7 +109,7 @@ That's why we won't be diving into examples for other Big O notations with space
 
 One of the common areas that causes confusion when considering space complexity is what constitutes using space in the context of an algorithm. In an earlier example we wrote methods that duplicated an array and hash argument. We did that to be explicit. But what if we'd written the method as:
 
-~~~ruby
+```ruby
 def sum_arr(arr)
   sum = 0
   arr.each do |number|
@@ -117,7 +117,7 @@ def sum_arr(arr)
   end
   return sum
 end
-~~~
+```
 
 When a data structure is passed in as the argument, especially for languages that pass arrays by reference rather than value, it can be a bit unclear if that method considers the space used by that data structure when calculating its space complexity. If we didn't count it, then it would be easy for all our methods to have great space usage on paper because we put the onus on the caller to allocate that space. If we did count it, but the data structure was created for use by many different methods, then the space complexity for all those methods is O(N) when they aren't utilizing additional space. Then consider that if your method receives an array as an input and loops it, an index must be created for the loop which uses additional space.
 
@@ -142,7 +142,7 @@ On top of these considerations, you also need to balance the readability of your
 
 </div>
 
-### Knowledge Check
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -150,6 +150,8 @@ This section contains questions for you to check your understanding of this less
 *   <a class="knowledge-check-link" href="#measuring-space-complexity">How do we measure space complexity?</a>
 *   <a class="knowledge-check-link" href="#other-considerations">What are the main considerations we should consider before optimising code?</a>
 
-### Additional Resources
+### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

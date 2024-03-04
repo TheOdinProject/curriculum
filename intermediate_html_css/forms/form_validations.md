@@ -6,19 +6,19 @@ Validations are a vital ingredient in well-designed forms. They help protect our
 
 This lesson will explore some of the built-in validations you can use with HTML forms. We will also dive into styling validations with CSS.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Explain what form validations are
-- Know how to use a few of the basic built-in HTML validations
-- Know how to build custom validations
+- Explain what form validations are.
+- Know how to use a few of the basic built-in HTML validations.
+- Know how to build custom validations.
 
 ### Required validation
 
 We will often want to ensure specific fields have been filled in before submitting the form, for example, the email and password in a login form.
 
-To make a field required, we simply add the `required` attribute to it:
+To make a field required, we add the `required` attribute to it:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="vYeZGzB" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/vYeZGzB">
@@ -35,7 +35,7 @@ Sometimes we will want users to enter a minimum or a maximum amount of text into
 
 #### Minimum length validation
 
-To add the minimum length validation, we give the form control a `minlength` attribute with an integer value that represents the minimum amount of characters we want to allow in the form control:
+To add the minimum length validation, we give the form control a `minlength` attribute with an integer value that represents the minimum number of characters we want to allow in the form control:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="WNZOwgp" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/WNZOwgp">
@@ -48,7 +48,7 @@ Try entering less than three characters into the text area and clicking the twee
 
 #### Maximum length validation
 
-To add a maximum length validation, we give the form control a `maxlength` attribute with an integer value which represents the maximum amount of characters we want to allow in the form control:
+To add a maximum length validation, we give the form control a `maxlength` attribute with an integer value which represents the maximum number of characters we want to allow in the form control:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="zYEzqJJ" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/zYEzqJJ">
@@ -193,8 +193,11 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 ### Additional resources
 
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
 - Check out [HTML5Pattern](https://www.html5pattern.com/) for a list of commonly used pattern regular expressions you may find helpful.
-- Look through [this Twitter thread](https://twitter.com/vponamariov/status/1400388896136040454) of the do's and don'ts for form validation UX.
+- Look through [this Twitter thread](https://threadreaderapp.com/thread/1400388896136040454.html) of the do's and don'ts for form validation UX.
 - Check out these [10 Guidelines](https://www.nngroup.com/articles/errors-forms-design-guidelines/) for form validation design.
-- [Regular expressions clearly explained](https://towardsdatascience.com/regular-expressions-clearly-explained-with-examples-822d76b037b4) goes over several real world examples of regular expression patterns and walks through what they're doing step by step. This resource can be useful if you don't just want to copy + paste popular patterns, and instead want to know what a pattern is actually doing.
+- [Learn Regex: A Beginner’s Guide](https://www.sitepoint.com/learn-regex/) is a great resource for understanding how regex patterns are built and shows how to use a fantastic tool for creating them. 
+- [Demystifying Regex with Practical Examples](https://www.sitepoint.com/demystifying-regex-with-practical-examples/) contains some practical examples in detail so you can understand how they work rather than copying and pasting.
 - One last resource on regular expressions that can be helpful is MDN's [regular expression syntax cheatsheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet). This cheatsheet does a great job explaining the syntax of regular expressions in more detail.

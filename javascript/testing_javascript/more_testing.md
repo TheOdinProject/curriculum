@@ -1,12 +1,13 @@
 ### Introduction
 An important basic concept in testing is isolation.  You should only test one method at a time, and your tests for one function should not depend upon an external function behaving correctly - especially if that function is being tested elsewhere.  The main reason for this is that when your tests fail, you want to be able to narrow down the cause of this failure as quickly as possible.  If you have a test that depends on several functions, it can be hard to tell exactly what is going wrong.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
 
-- Explain what tightly coupled code is
-- Describe a pure function and how it relates to TDD
-- Explain what mocking is
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Explain what tightly coupled code is.
+- Describe a pure function and how it relates to TDD.
+- Explain what mocking is.
   
 ### Pure functions
 
@@ -14,7 +15,7 @@ There are _many_ benefits to using TDD when you write your code. One of the bigg
 
 Tightly coupled code is hard to test! Imagine trying to write tests for a function like this:
 
-~~~javascript
+```javascript
 function guessingGame() {
   const magicNumber = 22;
   const guess = prompt('guess a number between 1 and 100!');
@@ -26,11 +27,11 @@ function guessingGame() {
     alert('YOU DID IT! 🎉');
   }
 }
-~~~
+```
 
-Making this testable requires us to split up all the different things that are happening.  First, we do not need to test the functions `prompt` and `alert` because they are built in to the browser.  They are external to our program and whoever wrote them has already tested them.  What we _do_ need to test is the number logic, which is much easier if we untangle it from the other functions:
+<span id='try-before'>Making this testable requires us to split up all the different things that are happening.  First, we do not need to test the functions `prompt` and `alert` because they are built in to the browser.  They are external to our program and whoever wrote them has already tested them.  What we _do_ need to test is the number logic, which is much easier if we untangle it from the other functions:</span>
 
-~~~javascript
+```javascript
 function evaluateGuess(magicNumber, guess) {
   if (guess > magicNumber) {
     return 'YOUR GUESS IS TOO BIG';
@@ -49,9 +50,9 @@ function guessingGame() {
 }
 
 guessingGame();
-~~~
+```
 
-In this example, the only thing we really need to test is the `evaluateGuess` function, which is much easier to test because it has a clear input and output and doesn't call any external functions. This implementation is _much_ nicer as well because it's much easier to extend.  If we wanted to switch out the `prompt` and `alert`s for methods that manipulate the DOM we can do that more simply now and if we want to make our game more advanced by letting the user make multiple guesses, that is also easier.
+In this example, the only thing we really need to test is the `evaluateGuess` function, which is much easier to test because it has a clear input and output and doesn't call any external functions. This implementation is _much_ nicer as well because it's much easier to extend.  If we wanted to switch out the `prompt` and `alert`s for methods that manipulate the DOM we can do that easier now and if we want to make our game more advanced by letting the user make multiple guesses, that is also easier.
 
 If we had written this program with TDD it is very likely that it would have looked more like the second example to begin with.  Test driven development encourages better program architecture because it encourages you to write _Pure Functions_.
 
@@ -59,7 +60,7 @@ If we had written this program with TDD it is very likely that it would have loo
 
 ### Mocking
 
-<span id='two-solutions'>There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to simply remove those dependencies from your code as we did above, but that is simply not always possible.  The second option is __mocking__ - writing "fake" versions of a function that always behaves _exactly_ how you want</span>.  <span id='mock-function-example'>For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test</span>.
+There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to remove those dependencies from your code as we did above, but that is not always possible.  The second option is __mocking__ - writing "fake" versions of a function that always behaves _exactly_ how you want.  <span id='mock-function-example'>For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test</span>.
 
 ### Assignment 
 
@@ -69,7 +70,6 @@ If we had written this program with TDD it is very likely that it would have loo
 3. Now that you have some practice and context for TDD, [this section](https://jestjs.io/docs/setup-teardown) of the Jest docs will probably make good sense to you.
 4. Jest includes some _really_ handy mocking functions.  Read about them in the [official docs](https://jestjs.io/docs/mock-functions).
 5. Watch [this amazing video](https://www.youtube.com/watch?v=URSWYvyc42M) that covers _what_ to test in your codebase.  The video is specifically about testing the Ruby language, but that doesn't matter _at all_.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.
-6. And finally, if you wish, you can add Jest to your webpack setup.  Read about that process [here](https://jestjs.io/docs/webpack).
 </div>
 
 ### Knowledge check 
@@ -78,10 +78,17 @@ This section contains questions for you to check your understanding of this less
 - [What is tightly coupled code?](#tightly-coupled-code)
 - [What are the two requirements for a function to be pure?](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
 - [What are side effects and why is it important to identify them when testing a function?](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
-- [What are two solutions to the tightly coupled code problem?](#two-solutions)
-- [What is mocking?](#two-solutions)
+- [What should you try before testing tightly coupled code?](#try-before)
+- [How can you test code that can't be decoupled?](#mocking)
+- [What is mocking?](#mocking)
 - [When would you use a mock function?](#mock-function-example)
 - [How should you test incoming query messages?](https://youtu.be/URSWYvyc42M?t=699)
 - [Why should you not test implementation?](https://youtu.be/URSWYvyc42M?t=792)
 - [Should you test private methods?](https://youtu.be/URSWYvyc42M?t=1102)
-- [Why should you not test messages with no side effects?](https://youtu.be/URSWYvyc42M?t=1370)
+- [Why should you not test outgoing messages with no side effects?](https://youtu.be/URSWYvyc42M?t=1370)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+-  This [jest cheat sheet](https://github.com/sapegin/jest-cheat-sheet) walks you quickly through all the frequently used methods.

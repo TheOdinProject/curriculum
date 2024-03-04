@@ -1,6 +1,6 @@
 ### Introduction
 
-Remember Tic Tac Toe? See [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) if you can't remember the rules, or if you haven't ever played.  It involves a couple of players, a simple board, checking for victory in a game loop... all the conditions that make it a fun little problem to solve using our newfound OOP sea legs.  Let's build it!
+Remember Tic Tac Toe? See [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) if you can't remember the rules, or if you haven't ever played. It involves a couple of players, a board, checking for victory in a game loop... all the conditions that make it a fun little problem to solve using our newfound OOP sea legs. Let's build it!
 
 ### Assignment
 
@@ -12,5 +12,8 @@ Build a tic-tac-toe game on the command line where two human players can play ag
   3. Post your solution below, then check out [this example solution from RosettaCode.org](http://rosettacode.org/wiki/Tic-tac-toe#Ruby).
 </div>
 
-### Additional Resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

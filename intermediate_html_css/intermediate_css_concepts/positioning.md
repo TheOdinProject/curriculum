@@ -2,12 +2,14 @@
 
 By now you have had quite a bit of practice moving elements around the screen using things like margin, padding, and flexbox. These techniques have all relied on CSS's default "positioning-mode". This default positioning-mode is intuitive, and you'll continue using it for almost all of your layout needs. However, there are other methods at your disposal that can be very useful in some situations.
 
-### Learning outcomes
+### Lesson overview
 
- - You'll learn how to use absolute positioning.
- - You'll learn how to use fixed positioning.
- - You'll learn how to use sticky positioning.
- - You'll know the difference between each property and how to combine them.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- You'll learn how to use absolute positioning.
+- You'll learn how to use fixed positioning.
+- You'll learn how to use sticky positioning.
+- You'll know the difference between each property and how to combine them.
 
 ### Static and relative positioning
 
@@ -15,7 +17,7 @@ The default positioning mode that you've gotten used to is ``position: static``.
 
 ### Absolute positioning
 
-``position: absolute`` allows you to position something at an exact point on the screen without disturbing the other elements around it. More specifically, using absolute positioning on an element will remove that element from the normal document flow while being positioned relative to an ancestor element. To put it in simple terms: elements that are removed from the normal flow of the document don't affect other elements and are also not affected by other elements. Using absolute positioning allows you to position elements anywhere on the screen using  ``top``, ``right``, ``bottom``, and ``left`` properties. This property is really useful when you want to position something at an exact point on the screen, without disturbing any of the other elements. A couple of good use cases for absolute positioning are:
+``position: absolute`` allows you to position something at an exact point on the screen without disturbing the other elements around it. More specifically, using absolute positioning on an element will remove that element from the normal document flow while being positioned relative to an ancestor element. To put it in other words: elements that are removed from the normal flow of the document don't affect other elements and are also not affected by other elements. Using absolute positioning allows you to position elements anywhere on the screen using  ``top``, ``right``, ``bottom``, and ``left`` properties. This property is really useful when you want to position something at an exact point on the screen, without disturbing any of the other elements. A couple of good use cases for absolute positioning are:
 
 - modals
 - image with a caption on it

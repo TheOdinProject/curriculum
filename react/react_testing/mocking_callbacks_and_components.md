@@ -8,7 +8,7 @@ In this lesson, we'll learn about mocking. Furthermore, we'll discuss a React co
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Carry out mocks in the context of React testing.
+- Carry out mocks in the context of React testing.
 
 ### What is mocking?
 
@@ -16,12 +16,12 @@ If you've been following along with our lessons so far, the concept of mocking h
 
 #### Testing callback handlers
 
-Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. Sometimes they're passed in as props to alter state of the parent component. Consider this simple button component:
+Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. Sometimes they're passed in as props to alter state of the parent component. Consider this button component:
 
 ~~~jsx
 // CustomButton.jsx
 
-const CustomButton = ({ onClick}) => {
+const CustomButton = ({ onClick }) => {
   return (
     <button onClick={onClick}>Click me</button> 
   );
@@ -30,7 +30,7 @@ const CustomButton = ({ onClick}) => {
 export default CustomButton;
 ~~~
 
-Nothing fancy. `CustomButton` is a simple component with a couple props passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user clicks the button. Let's test it.
+Nothing fancy. `CustomButton` is a component with a prop passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user clicks the button. Let's test it.
 
 <span id="testing-callback-handlers">Notice how we mock and test the `onClick` function</span>:
 
@@ -40,7 +40,7 @@ Nothing fancy. `CustomButton` is a simple component with a couple props passed i
 import { vi } from 'vitest'
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import CustomButton from "./FavoriteInput";
+import CustomButton from "./CustomButton";
 
 describe("CustomButton", () => {
     it("should render a button with the text 'Click me'", () => {
@@ -67,20 +67,18 @@ describe("CustomButton", () => {
         const onClick = vi.fn();
         render(<CustomButton onClick={onClick} />);
 
-        const button = screen.getByRole("button", { name: "Click me" });
-
         expect(onClick).not.toHaveBeenCalled();
     });
 });
 ~~~
 
-Three tests and we are done with this component. You should be already familiar how the first test works. Take some time to figure out what functions come from which package.
+Three tests and we are done with this component. You should be already familiar with how the first test works. Take some time to figure out what functions come from which package.
 
-For the second and third test, we mock the `onClick` handler using one of Vitest's functions, `vi.fn()`. Then we assert that it is called/not called when the button is clicked or not. 
+For the second and third tests, we mock the `onClick` handler using one of Vitest's functions, `vi.fn()`. Then we assert that it is called/not called when the button is clicked or not. 
 
-But what if you want to set up your mocks in a `beforeEach` block rather than in every test? That's fine in some cases. Though, having all of the setup for a test in the same block as the test itself makes it easier to understand any particular test as it eliminates the need to check the whole file for context. This makes the reviewing of subsequent changes in a project down the road substantially easier. Additionally, it decreases the chance of having leakage create problems throughout the test suite. Unless your test file is getting really long and the test prep itself is dozens of lines in length, default to setting up in each test case; otherwise, you may use `beforeEach`.
+You could also set up your mocks in a `beforeEach` block instead of in every test block. This may be suitable for some situations. However, for better readability, it is recommended that all setups be done in the same test block.  Doing so eliminates the need to search through the entire file for context, making it easier to review future changes. This also decreases the chance of having leakage create problems throughout the test suite. Unless your test file is particularly long and the test preparation takes up dozens of lines, it is recommended to set up your mocks in each test block; otherwise, you may use `beforeEach`.
 
-It is recommended to invoke `userEvent.setup()` before rendering the component, and it is discouraged to call renders and `userEvent` functions outside of the test itself, (for example, in a `beforeEach` block). If you find yourself repeating the same code in multiple tests, the recommended approach to shorten each test is to write a setup function, as [outlined in the documentation](https://testing-library.com/docs/user-event/intro/#writing-tests-with-userevent).
+It is recommended to invoke `userEvent.setup()` before rendering the component. It is discouraged to call renders and `userEvent` functions outside of the test itself, (for example, in a `beforeEach` block). If you find yourself repeating the same code in multiple tests, the recommended approach to shorten each test is to write a setup function, as [outlined in the documentation](https://testing-library.com/docs/user-event/intro/#writing-tests-with-userevent).
 
 #### Mocking child components
 
@@ -88,7 +86,7 @@ You might have come across the concept of mocking modules. In React, when the co
 
 ### React testing in the real world
 
-If you're logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components were written in React and tested with the React Testing Library. They have since been removed, but they still serve as great examples. This'll be fun. Your task is simple:
+If you're logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components were written in React and tested with the React Testing Library. They have since been removed, but they still serve as great examples. This'll be fun. Your task is:
 
 Read and try to comprehend the [submissions-list.jsx](https://github.com/TheOdinProject/theodinproject/blob/0886578d5b27a967e6bba2b31f212efe284d9413/app/javascript/components/project-submissions/components/submissions-list.jsx) component. It's okay if you don't understand everything. And the good news is that we don't have to understand it all to follow along with this lesson!
 
@@ -100,7 +98,7 @@ We start by importing a bunch of stuff like any other decent React component. Th
 2. If `hasSubmissions` is true, sort the submissions and render them with `Submission`. Otherwise, a heading that says "No Submissions yet, be the first!"
 3. If  `allSubmissionsPath` is true, it renders a `<p>` tag.
 
-By just going through the code, it should give us some idea of what to test. It will be rewarding if you take a couple of seconds to map out what tests we could need for `SubmissionsList`.
+Just going through the code, it should give us some idea of what to test. It will be rewarding if you take a couple of seconds to map out what tests we could need for `SubmissionsList`.
 
 Go through its test file, [submissions-list.test.jsx](https://github.com/TheOdinProject/theodinproject/blob/0886578d5b27a967e6bba2b31f212efe284d9413/app/javascript/components/project-submissions/components/__tests__/submissions-list.test.jsx). Again, don't worry if all of it doesn't make sense, we'll chew over it shortly.
 
@@ -129,7 +127,15 @@ jest.mock('../submission', () => ({ submission, isDashboardView }) => (
 
 We only render the bare minimum to realize the validity of the component we're testing. Next, we set up our props with fake data and mocked functions.
 
-Let's move towards our first assertion. Don't worry too much about the `ProjectSubmissionContext.Provider`. In the context of this test, its purpose is to act as a route to pass in the `allSubmissionsPath` prop. We've already identified the three points of interest that we want to test. We divide them into three test suites for readability purposes using `describe`.
+<div class="lesson-note" markdown="1">
+
+#### Note - Vitest mocks
+
+The test here used `jest.mock()`. If you followed along and set up your test using Vitest, you may use `vi.mock()` instead. See [`vi.mock()` API](https://vitest.dev/api/vi.html#vi-mock).
+
+</div>
+
+Let's move toward our first assertion. Don't worry too much about the `ProjectSubmissionContext.Provider`. In the context of this test, its purpose is to act as a route to pass in the `allSubmissionsPath` prop. We've already identified the three points of interest that we want to test. We divide them into three test suites for readability purposes using `describe`.
 
 In the first suite, we make some assertions if the user has a submission and then some assertions if the user does not. The other suites follow a similar pattern.
 

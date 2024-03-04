@@ -13,15 +13,15 @@ Before continuing, let's review a few best practices to keep in mind:
 
 In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [Discord](https://discord.gg/fbFCkYabZB). You can also use the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search) to check if someone else had a similar problem and how they solved it.
 
-### Your First Rails App
+### Your first Rails app
 
-### Step 1: Create Your First Ruby on Rails Web Application
+### Step 1: Create your first Ruby on Rails web application
 
 Don't worry if you don't totally understand what you are doing in these next steps. You will learn what all of this does later in The Odin Project curriculum. As long as the commands complete successfully, just keep going. The main reason we're doing this is to ensure everything is properly installed and configured.
 
 #### Step 1.1: Install Rails
 
-We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!
+We've previously installed Ruby, and now it's time to install Ruby on Rails. It's just running one command!
 
 ~~~bash
 gem install rails
@@ -53,7 +53,7 @@ yarn --version
 
 If you don't get a version number drop by the chatrooms for some assistance.
 
-#### Step 1.3: Create the Application
+#### Step 1.3: Create the application
 
 This is where it might start to be difficult to follow just what is happening. If you don't understand what's going on, just double check that you're typing in the correct commands and keep going. This section is meant to expose you to the process and to verify that everything is working. Again, it's OK to not understand what's going on at this point.
 
@@ -108,7 +108,7 @@ After generating the scaffolds, we need to migrate the database.
 rails db:migrate
 ~~~
 
-#### Step 1.4: Start Up Your App
+#### Step 1.4: Start up your app
 
 Now that you have created a Rails application, you can start it up and see if it works!
 
@@ -118,15 +118,19 @@ In the terminal, type
 rails server
 ~~~
 
-Now, open a browser and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! **Note:** If you're using a VM, you will need to open the browser inside of your VM in order for this to work.
+Now, open a browser and visit [http://localhost:3000/cars](http://localhost:3000/cars) to see your application! 
+
+<div class="lesson-note lesson-note--warning" markdown=1>
+If you're using a VM, you will need to open the browser inside of your VM in order for this to work.
+</div>
 
 Go ahead and create a new car, and then refresh the page to verify it is working. Add as many cars as you'd like! When you're satisfied, go back to the terminal where the Rails server is running, and type <kbd>Ctrl</kbd> + <kbd>C</kbd> to close the server.
 
-### Step 2: Git Groundwork
+### Step 2: Git groundwork
 
 Like all of the projects you've done so far we need to use Git for our version control and to push our app to different remotes.
 
-#### Step 2.1 Stage and Commit Local Changes
+#### Step 2.1 Stage and commit local changes
 Rails will already have initialized Git for you when it was doing its thing, so just stage and commit all of the work it's done so far.
 
 ~~~bash
@@ -134,7 +138,7 @@ git add .
 git commit -m "Initial commit"
 ~~~
 
-#### Step 2.2 Initialize on GitHub, add the remote, and Push
+#### Step 2.2 Initialize on GitHub, add the remote, and push
 Make a repo on Github and make sure you **do not** initialize the repository with a README because Rails has created one already. Add this repo as a remote and push your repo to GitHub just like you normally do.
 
 REMINDER: Do not enter the `<` or `>` symbols below. Replace those symbols and everything between them with the URL that you copied from GitHub.
@@ -144,7 +148,7 @@ git remote add origin <SSH URL from GitHub>
 git push -u origin main
 ~~~
 
-#### Step 2.3 Confirm Git is Working Correctly
+#### Step 2.3 Confirm Git is working correctly
 Confirm that the push was successful and on GitHub you see all the folders and files made locally by Rails, starting with a folder called "app".
 
 This marks the start of your Rails journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!

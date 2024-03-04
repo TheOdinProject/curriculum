@@ -3,7 +3,7 @@
 Files are a great way to save and reload a game, so we'll give it a shot here by building [Hangman](https://en.wikipedia.org/wiki/Hangman_(game)).
 
 ### Assignment
-You will be building a simple command line Hangman game where one player plays against the computer, but a bit more advanced.  If you're unfamiliar with how Hangman works, see [Wikipedia](http://en.wikipedia.org/wiki/Hangman_(game)).
+You will be building a command line Hangman game where one player plays against the computer, but a bit more advanced.  If you're unfamiliar with how Hangman works, see [Wikipedia](http://en.wikipedia.org/wiki/Hangman_(game)).
 
 <div class="lesson-content__panel" markdown="1">
   1. Download the `google-10000-english-no-swears.txt` dictionary file from the first20hours GitHub repository [google-10000-english](https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt).

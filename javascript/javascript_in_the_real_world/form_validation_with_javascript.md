@@ -30,7 +30,7 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Warmup
 
-Go back to your 'Library' project and add simple validation to that form! Don't let your users submit without filling in all the fields! Don't forget to use your Git workflow skills you learned in [this foundations lesson](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) to make a new branch, work on your feature and merge it back to main when it's all done.
+Go back to your 'Library' project and add validation to that form! Don't let your users submit without filling in all the fields! Don't forget to use your Git workflow skills you learned in [this foundations lesson](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) to make a new branch, work on your feature and merge it back to main when it's all done.
 
 #### Project
 
@@ -40,7 +40,7 @@ The form doesn't need to actually submit, but you should give an error message i
 
 1. Set up a blank HTML document
 2. Think about how you would set up the different form elements and their accompanying validators.  What objects and functions will you need? A few minutes of thought can save you from wasting an hour of coding.  The best thing you can do is whiteboard the entire solution before even touching the computer.
-3. Write the simple form elements.
+3. Write the form elements.
 4. Add the JavaScript code that checks validation as the user progresses through the form.  When a user leaves a form field, it should automatically validate that field.
 5. Test out all possible cases.
 6. Don't forget to style validations with CSS by using the `:valid` and `:invalid` pseudo-classes!
@@ -51,8 +51,13 @@ The form doesn't need to actually submit, but you should give an error message i
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-- [Understand the importance of validating HTML forms before submitting them to a server.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#what_is_form_validation)
-- [Describe the two types of client-side form validation, built-in form validation and validation using JavaScript.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#different_types_of_client-side_validation)
-- [Understand JavaScript Constraint Validation API provides more control and customization of form validation.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript)
-- [Use JavaScript to write custom error messages and add custom styling to the errors.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#the_constraint_validation_api)
-- [Understand forms can also be validated without using Constraint Validation API, which is useful in certain cases.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_without_a_built-in_api)
+- [Explain the importance of validating HTML forms before submitting them to a server.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#what_is_form_validation)
+- [Describe the two types of client-side form validation.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#different_types_of_client-side_validation)
+- [Explain how JavaScript Constraint Validation API provides more control and customization of form validation.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript)
+- [Could forms also be validated without using Constraint Validation API?](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_without_a_built-in_api)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

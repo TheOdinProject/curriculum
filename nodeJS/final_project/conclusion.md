@@ -1,4 +1,5 @@
 ### Introduction
+
 You've reached the end of the scope of this course and should feel pretty good about your NodeJS skills. That doesn't mean you should understand everything quite yet, but now you can build a NodeJS application with the kind of functionality which is actually useful in the real world. After all, you just built Facebook!
 
 This isn't the last course in the curriculum, as there is a Getting Hired course remaining. But you're now at that period where you can consider yourself a "full stack" developer. You've learned how to write beautiful and intuitive front-ends for your applications and now back-end technologies to give those sites some cool features. Despite how far you've come, it's up to you to keep building stuff, ask questions, and dig deeper into both NodeJS and best practices of software engineering in general.
@@ -21,7 +22,6 @@ As you start working on more public-facing applications, security will become mo
 
 Caching makes your application faster by reducing database calls. Check out this information on the [ExpressJS documentation](https://expressjs.com/en/advanced/best-practice-performance.html#cache-request-results) for more information. You may want to also introduce yourself to [Redis](https://redis.io/) if you see it in a lot of job postings in your area or resources you encounter on caching.
 
-
 #### DevOps
 
 Sometimes, having a little exposure to DevOps can help set you apart as a robust developer. There are various platforms out there you can start to learn from, Azure to Amazon Web Services, Heroku to Digital Ocean. While some of these offer free services, many of their services are unfortunately paid. That being said, this doesn't prevent you from reading documentation or leveraging their free services to start getting some exposure. [Heroku](https://devcenter.heroku.com/categories/reference#deployment) has extensive resources for you to dive into. Another popular provider, Digital Ocean, offers competing [Droplets](https://www.digitalocean.com/docs/droplets/quickstart/) and their new [App Platform](https://www.digitalocean.com/docs/app-platform/) services.
@@ -36,10 +36,10 @@ Now that you have exposure to non-relational databases with Mongo, you might be 
 
 Here are a few extra resources that will take you a bit deeper into software architecture, Javascript and Node:
 
-* [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
-* [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_1?dchild=1&keywords=Clean+Code&qid=1602168590&s=digital-text&sr=1-1)
-* [syntax.fm Podcast](https://syntax.fm)
-* [NodeJS Blog](https://nodejs.org/en/blog/)
+- [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
+- [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_1?dchild=1&keywords=Clean+Code&qid=1602168590&s=digital-text&sr=1-1)
+- [syntax.fm Podcast](https://syntax.fm)
+- [NodeJS Blog](https://nodejs.org/en/blog/)
 
 If you find anything you think could go on this list, feel free to improve to this lesson on [Github](https://github.com/TheOdinProject/curriculum)!
 
@@ -51,13 +51,14 @@ It's a great way to start learning about agile development methodologies and to 
 
 ### Conclusion
 
-I want to emphasize again that the learning never really stops but also that you've come a long way. Keep up the good work, burn through the Getting Hired course, and get ready to start job hunting!
+We want to emphasize again that the learning never really stops but also that you've come a long way. Keep up the good work, burn through the Getting Hired course, and get ready to start job hunting!
 
 ### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [Introduction to using React with Typescript](https://profy.dev/article/react-typescript)
+
 * [Additional frameworks](https://expressjs.com/en/resources/frameworks.html) built on Express for building specific apps (ie. Feathers for chat applications)
 * More on APIs with this [fantastic intro video](https://www.youtube.com/watch?v=oBW_VNg4qD0)
-* Learn More About DevOPs with [ this fantastic github repos](https://github.com/MichaelCade/90DaysOfDevOps)
+* Learn More About DevOPs with [ this fantastic github repo](https://github.com/MichaelCade/90DaysOfDevOps)

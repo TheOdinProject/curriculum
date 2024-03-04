@@ -268,7 +268,7 @@ Finished in 0.00247 seconds (files took 0.1574 seconds to load)
 
 #### Test Order
 
-You may have noticed the tests are not displaying in order we wrote them in. When we set up the project earlier, we configired the tests to execute in a random order by adding the `--order rand` line to the `.rspec` file.
+You may have noticed the tests are not displaying in order we wrote them in. When we set up the project earlier, we configured the tests to execute in a random order by adding the `--order rand` line to the `.rspec` file.
 
 We did this because each of our tests should be deterministic, meaning that they should be independent of each other and execute the same way every-time no matter what order they are in.
 
@@ -464,7 +464,7 @@ We'll cover a few matchers that you are likely to find the most useful here. But
 
 #### The Eq Matcher
 
-The `eq` matcher is the most versatile and commonly used matcher. It will likely be the matcher you use the most. It simply compares the actual value against the expected value and will return true if it **matches**. Otherwise it will return false.
+The `eq` matcher is the most versatile and commonly used matcher. It will likely be the matcher you use the most. It compares the actual value against the expected value and will return true if it **matches**. Otherwise it will return false.
 
 Lets see this matcher in action once again by finishing off the tests for the todo list name method:
 
