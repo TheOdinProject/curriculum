@@ -3,7 +3,7 @@
 For this project, you will create the game **Rock Paper Scissors**. This game will be played entirely on the console. To learn more, or if you're not familiar with the game, read this [Wikipedia article](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors) or this [detailed step-by-step guide.](https://www.wikihow.com/Play-Rock,-Paper,-Scissors)
 
 <div class="lesson-note">
-Some of the student solutions below contain buttons, text, and other elements. These elements make up what is called a graphical user interface (GUI). You'll create the GUI in a later lesson. In the meantime, remember to commit your code to GitHub.
+Some of the student solutions below contain buttons, text, and other elements. These elements are part of what is called a graphical user interface (GUI) You'll create the GUI in a later lesson. In the meantime, remember to commit your code to GitHub.
 </div>
 
 ### Quick exercise before starting
@@ -40,7 +40,7 @@ You don't have to write additional code in the HTML file. This game is played en
 Your game will be played against the computer. You will make a function that randomly returns 'Rock', 'Paper' or 'Scissors':
 
 1. Create a new function named `getComputerChoice`.
-1. Write the code to let `getComputerChoice` randomly `return` one of the following string values: "Rock", "Paper" or "Scissors".
+1. Write the code so that `getComputerChoice` randomly `return` one of the following string values: "Rock", "Paper" or "Scissors".
    - **Hint**: The [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) method returns a random number that's greater than or equal to 0 and less than 1. Think about how you can use this to conditionally return one of the multiple choices.
 1. Test that your function returns what you expect using `console.log` or [the browser developer tools](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools) before advancing to the next step.
 
@@ -50,14 +50,14 @@ Your game will be played round by round. You will make a function that takes the
 
 1. Create a new function named `playRound`.
 1. Define two parameters on `playRound`: `playerChoice` and `computerChoice`. Use those two parameters to take the human and computer choices as arguments.
-1. Make your function's `playerSelection` parameter case-insensitive. Players should be able to input "rock", "ROCK", "RocK" or other variations.
+1. Make your function's `playerSelection` parameter case-insensitive so that players can input "rock", "ROCK", "RocK", or other variations.
 1. Write the code for your `playRound` function to `return` a string value representing the round winner, such as: "You Lose! Paper beats Rock".
 
 Example code:
 
 ```javascript
 function playRound(playerChoice, computerChoice) {
-// your code here!
+  // your code here!
 }
 
 const playerSelection = "rock";
