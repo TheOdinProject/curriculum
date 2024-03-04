@@ -9,16 +9,17 @@ Some of the student solutions below contain buttons, text, and other elements. T
 ### Quick exercise before starting
 
 1. Identify three ways to include JavaScript in a webpage.
-2. Check if the webpage includes JavaScript:
+1. Check if the webpage includes JavaScript:
    - Write `console.log("Hello World")` in JavaScript.
    - Check if "Hello World" is logged in the browser console once you open your webpage.
 
 ### Problem solving approach
+
 Remember the [previous wise words from the Problem Solving lesson](https://www.theodinproject.com/lessons/foundations-problem-solving) because this is your first JavaScript program built from scratch. Before you start this project, follow these steps for each step of the project:
 
 1. Plan or pseudocode your solution.
-2. Write the code.
-3. Test your code to make sure it works.
+1. Write the code.
+1. Test your code to make sure it works.
 
 ### Assignment
 
@@ -54,7 +55,7 @@ Your game will be played round by round. You will make a function that takes the
 
 Example code:
 
-~~~javascript
+```javascript
 function playRound(playerChoice, computerChoice) {
 // your code here!
 }
@@ -63,13 +64,14 @@ const playerSelection = "rock";
 const computerSelection = getComputerChoice();
 
 console.log(playRound(playerSelection, computerSelection));
-~~~
+```
 
 #### Step 4: game function
+
 Your game will play 5 rounds. Write a function named `game` that uses `playRound` to play 5 rounds, keeps score, and declares a winner at the end:
 
 1. Create a new function named `game`.
-1. Get the human player choice using the `prompt` method. Read [this MDN article about prompt method](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt) learn more about it.
+1. Get the human player choice using the `prompt` method. Read this [MDN article about prompt method](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt) learn more about it.
 1. Put the previous `playRound` function inside `game`.
 1. Play 5 rounds by calling `playRound` 5 times.
    - **Hint**: When you assign a function call to a variable, the return value of that function is assigned to the variable. Accessing the variable afterward will only provide the assigned value; it doesn't recall the function. You need to recall the choice functions to get new choices for each round.
