@@ -102,7 +102,7 @@ We won't cover SDKs explicitly in this course but they should be well within rea
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Watch [this Railscast on using Omniauth to allow X Signin](http://railscasts.com/episodes/241-simple-omniauth-revised).
+  1. Watch [this Railscast on using Omniauth to allow X (formerly known as Twitter) Signin](http://railscasts.com/episodes/241-simple-omniauth-revised).
   2. Read through the [Omniauth documentation](https://github.com/intridea/omniauth)
   3. Pick an API that you really might like to interface with or a web product you use almost every day (e.g. Google, Facebook, Instagram...).  Google for its docs, e.g. with "instagram api documentation", and have a look at them.  Some docs are better than others, but they will be your source for understanding which methods you can call, what they will return, how to register your application to get an API key, and more useful tidbits.
 </div>
