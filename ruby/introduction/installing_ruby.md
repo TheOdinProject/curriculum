@@ -285,6 +285,62 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 
 </details>
 
+<details markdown="block">
+<summary class="dropDown-header">Windows
+</summary>
+
+### Step 1: Install Ruby with DevKit
+
+To install Ruby on Windows along with the Development Kit (DevKit), follow these steps:
+
+#### Step 1.1: Download and Run the Installer
+
+- Visit the [RubyInstaller](https://rubyinstaller.org/) website.
+- Download the appropriate RubyInstaller executable (.exe) file, such as `Ruby+Devkit 3.2.x (x64)` for 64-bit systems or `Ruby+Devkit 3.2.x (x86)` for 32-bit systems.
+- Run the downloaded executable file to start the installation process.
+
+#### Step 1.2: Accept the License Agreement
+
+- Select the option to accept the license agreement (usually labeled as "I accept the license") and click "Next" to proceed.
+
+#### Step 1.3: Choose Installation Location
+
+- You'll be prompted to choose the installation location. It's recommended to stick with the default location.
+
+#### Step 1.4: Choose Components to Install
+
+- You will see a prompt to select the components you want to install. It's recommended to install all components, including DevKit.
+- Select all components and click "Next" to start the installation process.
+
+### Step 2: Complete Installation
+
+- Wait for the installation process to finish. This may take some time.
+- Once the installation is complete, click on the "Finish" button to exit the installer.
+
+### Step 3: Post-Installation Configuration
+
+#### Step 3.1: Initialize Ruby Environment
+
+- Open a command prompt by pressing <kbd>Windows</kbd> + <kbd>R</kbd> and typing `cmd`.
+- In the command prompt, you'll see three options for installations. Press <kbd>Enter</kbd> to proceed with the default option.
+- After a few processes, press <kbd>Enter</kbd> again to continue.
+- The terminal will automatically close after completing the processes.
+
+#### Step 3.2: Set Environment Variables
+
+- Go to the Start menu and open "Start Command Prompt with Ruby" application program.
+- This program will set the environment variables automatically, allowing you to access Ruby and DevKit anywhere with commands.
+
+### Step 4: Verify Configuration
+
+- Open a new command prompt or terminal window.
+- Type `ruby -v` to check the Ruby version.
+- Additionally, you can verify the DevKit installation by running `ridk version` in the command prompt.
+
+Congratulations! You've successfully installed Ruby with DevKit on your Windows machine. You're now ready to start coding and building Ruby applications.
+
+</details>
+
 #### Extras
 
 If you are using Visual Studio Code as your IDE, you can install the "Ruby LSP" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby LSP", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
