@@ -102,7 +102,7 @@ function App() {
 ~~~
 
 <div class="lesson-note lesson-note--tip" markdown="1">
-  #### "Missing in props validation"
+#### "Missing in props validation"
   You may notice squiggly lines under your props (for example under `color` and
   `fontSize` inside the Button component below). Hovering over these will tell
   you they are `missing in props validation`. For now, this can safely be
