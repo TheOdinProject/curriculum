@@ -111,7 +111,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 - [Homepage](https://fly.io/)
 - [Documentation](https://fly.io/docs/)
-- [Guide: Official getting started with NodeJS on Fly.io guide](https://fly.io/docs/languages-and-frameworks/node/)
+- [Guide: Official getting started with NodeJS on Fly.io guide](https://web.archive.org/web/20230823151155/https://fly.io/docs/languages-and-frameworks/node/)
 
 ---
 
