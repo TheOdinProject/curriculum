@@ -2,7 +2,7 @@
 
 You've come a long way, congratulations! At this point, you should feel comfortable with building new Express applications and using MongoDB to model and store data. This project will require you to put all of that knowledge to the test. It's not going to be easy, but it should be well within your capabilities and it will be a _great_ portfolio piece.
 
-You'll be building a clone of a social media site, such as Facebook, Twitter, Myspace, or Threads. As with our previous lessons, how much effort you want to put into the styling and front end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, following, and "liking".
+You'll be building a clone of a social media site, such as Facebook, X, Myspace, or Threads. As with our previous lessons, how much effort you want to put into the styling and front end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, following, and "liking".
 
 You'll also implement some form of authentication. Ideally, you'll want to use passportJS to support authenticating via the social media site you're cloning, but some sites (such as Facebook), have recently made this process impossible. If this is the case for your site, you can use passportJS to support authenticating via username and password with `passport-local` or via Github with `passport-github2`.
 
