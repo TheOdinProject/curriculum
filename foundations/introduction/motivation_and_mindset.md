@@ -54,6 +54,10 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 - Take a break: Allow your diffuse learning state to work on the problem.
 - Ask for help in our [chat](https://discord.gg/fbFCkYabZB): Come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
+Additionally, feel free to follow the diagram below that should help you going through problems that you may come across:
+
+![diagram to help learners go through problems when they are stuck](https://cdn.statically.io/gh/TheOdinProject/curriculum/978ba0e91a6a47452de819246f4c495e6b092f54/foundations/introduction/motivation_and_mindset/imgs/00.png)
+
 ### A note on AI code generation
 
 As technology advances, we have seen some incredible tools emerge that can help accelerate coding capacity. One particular area that has exploded in popularity lately is the usage of Large Language Models (LLMs) and generative AIs for code completion (like GitHub Copilot) and code generation (like ChatGPT).
