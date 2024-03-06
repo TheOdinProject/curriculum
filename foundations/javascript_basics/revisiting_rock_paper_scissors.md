@@ -20,14 +20,6 @@ This section contains a general overview of topics that you will learn in this l
 - How to merge branches.
 - Best practices and use cases of branches.
 
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
-
-- How to create a new branch.
-- How to merge branches.
-- Best practices and use cases of branches.
-
 ### Using branches
 
 You can make new branches by using the command `git branch <branch_name>`. You can then change to your new branch using `git checkout <branch_name>`. You can also create a new branch and change to it in a single command by using the `-b` flag with `checkout`, in the form `git checkout -b <branch_name>`.
