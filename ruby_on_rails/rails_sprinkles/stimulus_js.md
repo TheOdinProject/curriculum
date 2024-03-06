@@ -293,7 +293,7 @@ button.
   - Clicking an element will hide the clicked element and show another
   - Clicking a checkbox will highlight the element containing the checkbox
 - Write a controller for text inputs with a limited length. Warn a user when they are close or over the maximum character
-count (imagine a user writing a tweet which has a maximum length of 280 characters)
+count (imagine a user writing a post which has a maximum length of 280 characters)
 - **Project**:
 Go back to you **Flight Booker** project and improve it:
   - Add a controller that allows the user to add another passenger by clicking on an "Add passenger" button, which adds another set of fields to enter the passenger details (hint: have a look at the [\<template\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) tag)
