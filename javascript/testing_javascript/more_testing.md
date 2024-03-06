@@ -29,7 +29,7 @@ function guessingGame() {
 }
 ```
 
-Making this testable requires us to split up all the different things that are happening.  First, we do not need to test the functions `prompt` and `alert` because they are built in to the browser.  They are external to our program and whoever wrote them has already tested them.  What we _do_ need to test is the number logic, which is much easier if we untangle it from the other functions:
+<span id='try-before'>Making this testable requires us to split up all the different things that are happening.  First, we do not need to test the functions `prompt` and `alert` because they are built in to the browser.  They are external to our program and whoever wrote them has already tested them.  What we _do_ need to test is the number logic, which is much easier if we untangle it from the other functions:</span>
 
 ```javascript
 function evaluateGuess(magicNumber, guess) {
@@ -60,7 +60,7 @@ If we had written this program with TDD it is very likely that it would have loo
 
 ### Mocking
 
-<span id='two-solutions'>There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to remove those dependencies from your code as we did above, but that is not always possible.  The second option is __mocking__ - writing "fake" versions of a function that always behaves _exactly_ how you want</span>.  <span id='mock-function-example'>For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test</span>.
+There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to remove those dependencies from your code as we did above, but that is not always possible.  The second option is __mocking__ - writing "fake" versions of a function that always behaves _exactly_ how you want.  <span id='mock-function-example'>For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test</span>.
 
 ### Assignment 
 
@@ -78,8 +78,9 @@ This section contains questions for you to check your understanding of this less
 - [What is tightly coupled code?](#tightly-coupled-code)
 - [What are the two requirements for a function to be pure?](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
 - [What are side effects and why is it important to identify them when testing a function?](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c)
-- [What are two solutions to the tightly coupled code problem?](#two-solutions)
-- [What is mocking?](#two-solutions)
+- [What should you try before testing tightly coupled code?](#try-before)
+- [How can you test code that can't be decoupled?](#mocking)
+- [What is mocking?](#mocking)
 - [When would you use a mock function?](#mock-function-example)
 - [How should you test incoming query messages?](https://youtu.be/URSWYvyc42M?t=699)
 - [Why should you not test implementation?](https://youtu.be/URSWYvyc42M?t=792)
