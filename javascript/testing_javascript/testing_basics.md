@@ -21,7 +21,7 @@ This section contains a general overview of topics that you will learn in this l
 2. Watch at least the first 3 videos of [this video series](https://www.youtube.com/playlist?list=PL0zVEGEvSaeF_zoW9o66wa_UCNE3a7BEr) about testing in JavaScript.  The first video focuses heavily on the WHY, while the next two go into more depth about the process.  We will cover rest of the videos in our [More Testing](https://www.theodinproject.com/lessons/node-path-javascript-more-testing) lesson.
 3. Read and follow the [Getting Started](https://jestjs.io/docs/getting-started) tutorial on the main Jest website. For the upcoming testing practice and project, you only need to follow the instructions for installing jest.
 4. Read and follow the [Using Matchers](https://jestjs.io/docs/using-matchers) document on the main Jest website.  This one demonstrates some of the other useful functions you can use in your tests.
-5. [Read this article](https://jrsinclair.com/articles/2016/one-weird-trick-that-will-change-the-way-you-code-forever-javascript-tdd/). This article explains more about the why/how of TDD (and also includes some great examples of how to apply test-driven development). 
+5. This article explains more about [the why/how and value behind TDD](https://jrsinclair.com/articles/2016/one-weird-trick-that-will-change-the-way-you-code-forever-javascript-tdd/) and also includes some great examples of how to apply it. 
 </div>
 
 ### Knowledge check
