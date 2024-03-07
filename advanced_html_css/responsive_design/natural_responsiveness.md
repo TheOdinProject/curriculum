@@ -26,6 +26,8 @@ For this reason, you should add this snippet into the `<head>` of your HTML file
 
 It sets the initial width of the webpage to the size of the actual screen you're viewing it on, and telling it not to zoom in or out. Easy!
 
+You have most likely already been using this tag if you've been using Emmet to generate HTML boilerplate for you. (<kbd>!</kbd> + <kbd>ENTER</kbd>)
+
 ### Avoid fixed width and height
 
 The number one enemy of flexibility is a fixed width on an element. If you put `width: 600px` on anything, then it will never be able to shrink below that width, which ruins your chances of getting that thing to fit on most phone screens. Likewise, sticking a fixed height on an element can cause issues if the contents of that element run out of room.
