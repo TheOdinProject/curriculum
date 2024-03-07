@@ -148,13 +148,13 @@ exports[`App component > renders magnificent monkeys 1`] = `
 `;
 ```
 
-It's an HTML representation of the `App` component. And it will be compared against the `App` in future snapshot assertions. If the `App` changes even slightly, the test fails. 
+It's an HTML representation of the `App` component. And it will be compared against the `App` in future snapshot assertions. If the `App` changes even slightly, the test fails.
 
 <span id="advantage-snapshot-tests">Snapshot tests are fast and easy to write. One assertion saves us from writing multiple lines of code. For example, with a `toMatchSnapshot`, we're spared of asserting the existence of the button and the heading.</span> They also don't let unexpected changes creep into our code. Read all about what can be achieved with snapshots in the [Vitest snapshot docs](https://vitest.dev/guide/snapshot.html).
 
-Snapshots might seem the best thing that has happened to us while testing thus far. But we are forced to wonder, _what_ exactly are we testing? What's being validated? If a snapshot passes, what does it convey about the correctness of the component? 
+Snapshots might seem the best thing that has happened to us while testing thus far. But we are forced to wonder, *what* exactly are we testing? What's being validated? If a snapshot passes, what does it convey about the correctness of the component? 
 
-<span id="disadvantage-snapshot-tests">Snapshot tests may cause false positives. Since we cannot ascertain the validity of the component from a snapshot test, a bug might go undetected. Over-reliance on snapshots can make developers more confident about their code than they should be.</span> 
+<span id="disadvantage-snapshot-tests">Snapshot tests may cause false positives. Since we cannot ascertain the validity of the component from a snapshot test, a bug might go undetected. Over-reliance on snapshots can make developers more confident about their code than they should be.</span>
 
 The other issue with snapshots is false negatives. Even the most insignificant of changes compel the test to fail. Fixing punctuation? Snapshot will fail. Replacing an HTML tag to a more semantic one? Snapshot will fail. This might cause us to lose our confidence in the test suite altogether. Snapshots aren't inherently bad; they do serve a purpose. But it's beneficial to understand when to snapshot, and when not to snapshot. 
 
@@ -163,14 +163,12 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 <div class="lesson-content__panel" markdown="1">
 
 1. Take a glance at all of the available query methods on [the React Testing Library's cheatsheet page](https://testing-library.com/docs/dom-testing-library/cheatsheet/). There's no need to use them all, but it's optimal to employ a specific method for a specific query. If none of the query methods suffice, there's an option to use test ids. Learn about test ids on [the React Testing Library's test id docs](https://testing-library.com/docs/queries/bytestid/).
-
-2. Read [the userEvent API docs](https://testing-library.com/docs/user-event/intro) to get a feel of how to achieve user simulation. 
-
-3. This article on the [Pros and Cons of Snapshot Tests](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the advantages and disadvantages of snapshot testing. Even though the articles use Jest, the concepts should be transferrable. And this one, [Snapshot Testing: Benefits and Drawbacks](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks), does an excellent job of explaining what snapshot testing is for programming in general.
+1. Read [the userEvent API docs](https://testing-library.com/docs/user-event/intro) to get a feel of how to achieve user simulation. 
+1. This article on the [Pros and Cons of Snapshot Tests](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the advantages and disadvantages of snapshot testing. Even though the articles use Jest, the concepts should be transferrable. And this one, [Snapshot Testing: Benefits and Drawbacks](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks), does an excellent job of explaining what snapshot testing is for programming in general.
 
 </div>
 
-### Knowledge check 
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
