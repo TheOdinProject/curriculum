@@ -16,17 +16,17 @@ Follow along [Robin Wieruch's guide on setting up Vitest with RTL](https://www.r
 
 Phew, that was a lot of setup. But there's one more tiny package to install before we can begin:
 
-```
+```bash
 npm install @testing-library/user-event --save-dev
 ```
 
-Now that we have everything we need, let's briefly go over what some of those packages do. We'll primarily focus on the `@testing-library` packages. 
+Now that we have everything we need, let's briefly go over what some of those packages do. We'll primarily focus on the `@testing-library` packages.
 
-* `@testing-library/react` will give us access to useful functions like `render` which we'll demonstrate later on.
+- `@testing-library/react` will give us access to useful functions like `render` which we'll demonstrate later on.
 
-* `@testing-library/jest-dom` includes some handy custom matchers (assertive functions) like `toBeInTheDocument` and more. (complete list on [jest-dom's github](https://github.com/testing-library/jest-dom)). Jest already has a lot of matchers so this package is not compulsory to use. 
+- `@testing-library/jest-dom` includes some handy custom matchers (assertive functions) like `toBeInTheDocument` and more. (complete list on [jest-dom's github](https://github.com/testing-library/jest-dom)). Jest already has a lot of matchers so this package is not compulsory to use.
 
-* <span id="user-event">`@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage.</span> Alternatively, we could import the `fireEvent` API from `@testing-library/react`. 
+- <span id="user-event">`@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage.</span> Alternatively, we could import the `fireEvent` API from `@testing-library/react`.
 
   <div class="lesson-note" markdown="1">
 
@@ -61,7 +61,7 @@ describe("App component", () => {
 
 ```
 
-Execute `npm test App.test.jsx` on the terminal and see the test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through [the React Testing Library docs page about queries](https://testing-library.com/docs/queries/about/). Pay extra attention to the "Types of Queries" and "Priority" sections. 
+Execute `npm test App.test.jsx` on the terminal and see the test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through [the React Testing Library docs page about queries](https://testing-library.com/docs/queries/about/). Pay extra attention to the "Types of Queries" and "Priority" sections.
 
 <span id="by-role-methods">As stated by the React Testing Library docs, `ByRole` methods are favored methods for querying, especially when paired with the `name` option. For example, we could improve the specificity of the above query like so: `getByRole("heading", { name: "Our First Test" })`. Queries that are done through `ByRole` ensure that our UI is accessible to everyone no matter what mode they use to navigate the webpage (i.e. mouse or assistive technologies).</span>
 
@@ -123,13 +123,13 @@ describe("App component", () => {
 });
 ```
 
-The tests speak for themselves. In the first test, we utilize snapshots to check whether all the nodes render as we expect them to. In the second test, we simulate a click event. Then we check if the heading changed. `toMatch` is one of the various assertions we could have made. 
+The tests speak for themselves. In the first test, we utilize snapshots to check whether all the nodes render as we expect them to. In the second test, we simulate a click event. Then we check if the heading changed. `toMatch` is one of the various assertions we could have made.
 
 It's also important to note that after every test, React Testing Library unmounts the rendered components. That's why we render for each test. For a lot of tests for a component, the `beforeEach` Jest function could prove handy.
 
 ### What are snapshots?
 
-Snapshot testing is just comparing our rendered component with an associated snapshot file. For example, the snapshot file which was automatically generated after we ran the _"magnificent monkeys renders"_ test was:
+Snapshot testing is just comparing our rendered component with an associated snapshot file. For example, the snapshot file which was automatically generated after we ran the *"magnificent monkeys renders"* test was:
 
 ```javascript
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
@@ -174,17 +174,17 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* [What packages are required for React testing?](#setting-up)
-* [What is the significance of the user-event package?](#user-event)
-* [What does the `render` method do?](https://testing-library.com/docs/react-testing-library/api/#render)
-* [What is the most preferred method for querying?](#by-role-methods)
-* [How would you test for a click event with `userEvent`?](#simulating-user-events)
-* [What is the advantage of snapshot tests?](#advantage-snapshot-tests)
-* [What are the disadvantages of snapshot tests?](#disadvantage-snapshot-tests)
+- [What packages are required for React testing?](#setting-up)
+- [What is the significance of the user-event package?](#user-event)
+- [What does the `render` method do?](https://testing-library.com/docs/react-testing-library/api/#render)
+- [What is the most preferred method for querying?](#by-role-methods)
+- [How would you test for a click event with `userEvent`?](#simulating-user-events)
+- [What is the advantage of snapshot tests?](#advantage-snapshot-tests)
+- [What are the disadvantages of snapshot tests?](#disadvantage-snapshot-tests)
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. It goes into testing async code and callbacks which we haven't covered yet. Though you should be able to follow along using your previous knowledge.
 - This [Intro to React Testing Library video](https://www.youtube.com/watch?v=YQLn7ycfzEo) for a hands-on tutorial.
