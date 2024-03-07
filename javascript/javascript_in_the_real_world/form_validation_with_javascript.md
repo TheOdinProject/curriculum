@@ -22,17 +22,11 @@ This section contains a general overview of topics that you will learn in this l
 
 1. For reference, [W3Schools' page on the JavaScript validation API](https://www.w3schools.com/js/js_validation_api.asp) covers things in a more concise format. These functions were explained in the previous article. Typically, with HTML forms, the inputs are validated upon form submission, but you can use these functions to check validity whenever you like (such as when a user clicks or tabs out of a specific input field).
 
-</div>
-
-### Practice
-
-<div class="lesson-content__panel" markdown="1">
-
 #### Warmup
 
 Go back to your 'Library' project and add validation to that form! Don't let your users submit without filling in all the fields! Don’t forget to use the git branch workflow you learned in [Revisiting Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) from Foundations to work on a new feature.
 
-### Project
+#### A little more practice
 
 Build a browser form which collects Email, Country, Zip Code, Password and Password Confirmation fields.  It should use live inline validation to inform the user whether a field is properly filled in or not.  That means highlighting a field red and providing a helpful error message until it has been filled in properly.
 
