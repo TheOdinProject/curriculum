@@ -66,7 +66,7 @@ Here's a statement so obvious that it sounds like a joke: flexbox was *created* 
 
 <div class="lesson-content__panel" markdown="1">
 1. Read ["Using the viewport meta tag"](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag) on MDN to get a little more background and detail about the viewport meta tag and the nature of screen resolutions.
-2. [Using Percentages in CSS](https://codyloyd.com/2021/percentages/) is an article that tackles another common pitfall.
+2. [Using Percentages in CSS](https://codyloyd.com/2021/percentages/) is an article that tackles another common pitfall. Don't focus too much on the `@media` parts, as we will cover media queries very soon.
 3. [minmax() in auto-fill repeating tracks](https://gridbyexample.com/examples/example28/) demonstrates a really nice responsive grid feature.
 </div>
 
