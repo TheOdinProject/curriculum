@@ -6,7 +6,7 @@ The first step to making responsive websites is using techniques that are *natur
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- You'll learn a few tips for keeping your sites naturally responsive.
+1. You'll learn a few tips for keeping your sites naturally responsive.
 
 Plain HTML, with no CSS is responsive. [Make sure to read the page](https://codyloyd.github.io/responsive-html/), and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
 
@@ -74,7 +74,7 @@ Here's a statement so obvious that it sounds like a joke: flexbox was *created* 
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Why should you avoid fixed width?](#fixed-width)
 - [Why should you avoid fixed height?](#fixed-height)
@@ -83,6 +83,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [This free course on Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts) by Kevin Powell provides great practice to work on your responsive layout chops.  
+- This [free course on Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts) by Kevin Powell provides great practice to work on your responsive layout chops.  
