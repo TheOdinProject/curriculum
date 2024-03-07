@@ -232,7 +232,7 @@ You've already tasted the complexity of data fetching in this lesson. Each reque
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read [Modern API data fetching methods](https://blog.logrocket.com/modern-api-data-fetching-methods-react/) until you reach the **Axios** section for a brief overview of what was discussed in this lesson.
+1. Read [Modern API data fetching methods](https://blog.logrocket.com/modern-api-data-fetching-methods-react/) until you reach the Axios section for a brief overview of what was discussed in this lesson.
 1. Read [How to fetch data in React with performance in mind](https://www.developerway.com/posts/how-to-fetch-data-in-react) to learn more about efficiently handling fetch requests in React components.
 
 </div>
