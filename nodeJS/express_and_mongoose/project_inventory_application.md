@@ -19,6 +19,7 @@ Your Inventory app should have categories and items, so when the user goes to th
 6. Create all of the 'READ' views (i.e. view category, and view item)
 7. Create all the forms and build out the controllers you need for the rest of the CRUD actions.
 8. EXTRA CREDIT: For bonus points, try to figure out how to add and upload images for each item. Use [this middleware](https://github.com/expressjs/multer) which was created by the Express team. The documentation in the README there should be enough to get you going.
+   - While you can store the image buffer data as binary directly in MongoDB, this can be quite a performance hit the more images you have to handle and the larger they are. You may wish to look into using a service such as [Cloudinary](https://cloudinary.com/documentation/node_integration) where you can upload images to, then store the images' URLs in MongDB instead.
 9. EXTRA CREDIT: We will learn about creating users with secure passwords in a later lesson, but for now we don't want just _anyone_ to be able to delete and edit items in our inventory! Figure out how to protect destructive actions (like deleting and updating) by making users enter a secret admin password to confirm the action.
 10. Deploy it and show off what you've done!
 
