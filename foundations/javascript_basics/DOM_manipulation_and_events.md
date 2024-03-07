@@ -49,10 +49,6 @@ const controls = document.querySelector(".controls");
 
 // selects the prior sibling => .display
 console.dir(controls.previousElementSibling);
-console.dir(controls.previousElementSibling);
-// selects the prior sibling => .display
-console.dir(controls.previousElementSibling);
-// selects the prior sibling => .display
 ```
 
 So you're identifying a certain node based on its relationships to the nodes around it.
