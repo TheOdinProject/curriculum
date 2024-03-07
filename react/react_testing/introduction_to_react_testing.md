@@ -26,13 +26,7 @@ Now that we have everything we need, let's briefly go over what some of those pa
 
 * `@testing-library/jest-dom` includes some handy custom matchers (assertive functions) like `toBeInTheDocument` and more. (complete list on [jest-dom's github](https://github.com/testing-library/jest-dom)). Jest already has a lot of matchers so this package is not compulsory to use. 
 
-* <span id="user-event">`@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage.</span> Alternatively, we could import the `fireEvent` API from `@testing-library/react`. 
-
-  <div class="lesson-note" markdown="1">
-
-  `fireEvent` is an inferior counterpart to `userEvent` and `userEvent` should always be preferred in practice.
-
-  </div>
+* <span id="user-event">`@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage.</span>
 
 ### Our first query
 
