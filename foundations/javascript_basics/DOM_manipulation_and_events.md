@@ -111,13 +111,12 @@ div.style.cssText = "color: blue; background: white;";
 div.setAttribute("style", "color: blue; background: white;");
 ```
 
-See DOM Enlightenment's [section on CSS Style rules](https://domenlightenment.com/#6.2) for more info on inline styles.
-
 Note that when accessing a kebab-cased CSS rule from JS, you will need to either use camelCase or bracket notation instead of dash notation.
 
 ```javascript
-// doesn't work - attempts to subtract color from div.style.background
-div.style.background - color;
+// doesn't work as it attempts to subtract color from div.style.background
+// equivalent to: div.style.background - color
+div.style.background-color;
 
 // accesses the div's background-color style
 div.style.backgroundColor;
@@ -248,7 +247,13 @@ Add the following elements to the container using ONLY JavaScript and the DOM me
 
 Now that we have a handle on manipulating the DOM with JavaScript, the next step is learning how to make that happen dynamically or on demand! Events are how you make that magic happen on your pages. Events are actions that occur on your webpage, such as mouse-clicks or key-presses. Using JavaScript, we can make our webpage listen to and react to these events.
 
-There are three primary ways to go about this: You can specify function attributes directly on your HTML elements; you can set properties of form `on[eventType]` (`onclick`, `onmousedown`, etc.) on the DOM nodes in your JavaScript; or you can attach event listeners to the DOM nodes in your JavaScript. Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three.
+There are three primary ways to go about this:
+
+- You can specify function attributes directly on your HTML elements.
+- You can set properties in the form of `on<eventType>`, such as `onclick` or `onmousedown`, on the DOM nodes in your JavaScript.
+- You can attach event listeners to the DOM nodes in your JavaScript.
+
+Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three.
 
 We're going to create three buttons that all alert "Hello World" when clicked. Try them all out using your own HTML file or using something like [CodePen](https://codepen.io/).
 
@@ -347,7 +352,7 @@ btn.addEventListener("click", function (e) {
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-Note that `function (e) {...}` is a callback from `addEventListener`. For a more in-depth understanding of callbacks, read the article [Understanding Callbacks in JavaScript](https://dev.to/i3uckwheat/understanding-callbacks-2o9e).
+When we pass in `alertFunction` or `function (e) {...}` as an argument to `addEventListener`, we call this a `callback`. A callback is simply a function that is passed into another function as an argument.
 
 </div>
 
@@ -377,9 +382,9 @@ This might seem like a lot of code if you're attaching lots of similar event lis
 
 ```HTML
 <div id="container">
-    <button id="1">Click Me</button>
-    <button id="2">Click Me</button>
-    <button id="3">Click Me</button>
+  <button id="1">Click Me</button>
+  <button id="2">Click Me</button>
+  <button id="3">Click Me</button>
 </div>
 ```
 
@@ -453,3 +458,4 @@ This section contains helpful links to related content. It isn't required, so co
 - [Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events) by MDN covers the same topics you learned in this lesson on events.
 - [Wes Bos's Drumkit](https://www.youtube.com/watch?v=VuN8qwZoego) JavaScript30 program reinforces the content covered in the assignment. In the video you will notice that a deprecated [keycode](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) keyboard event is used, replace it with the recommended [code](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code) keyboard event and replace the `data-key` tags accordingly.
 - [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program.
+- [Understanding Callbacks in JavaScript](https://dev.to/i3uckwheat/understanding-callbacks-2o9e) for a more in-depth understanding of callbacks.
