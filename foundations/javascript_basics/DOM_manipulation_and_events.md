@@ -111,20 +111,20 @@ div.style.cssText = "color: blue; background: white;";
 div.setAttribute("style", "color: blue; background: white;");
 ```
 
-Note that when accessing a kebab-cased CSS rule from JS, you will need to either use camelCase or bracket notation instead of dash notation.
+When accessing a kebab-cased CSS property like `background-color` with JS, you will need to either use camelCase with dot notation or bracket notation. When using bracket notation, you can use either camelCase or kebab-case, but the property name must be a string.
 
 ```javascript
-// doesn't work as it attempts to subtract color from div.style.background
+// dot notation with kebab case: doesn't work as it attempts to subtract color from div.style.background
 // equivalent to: div.style.background - color
 div.style.background-color;
 
-// accesses the div's background-color style
+// dot notation with camelCase: works, accesses the div's background-color style
 div.style.backgroundColor;
 
-// also works
+// bracket notation with kebab-case: also works
 div.style["background-color"];
 
-// also works - both camel and kebab case work when using a string with bracket notation
+// bracket notation with camelCase: also works
 div.style["backgroundColor"];
 ```
 
