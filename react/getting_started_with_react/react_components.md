@@ -39,11 +39,11 @@ This might look mostly familiar to you - it's a JavaScript function, which retur
 
 Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind. **React components must be capitalized** or they will not function as expected, which is why we capitalized `Greeting()`. More about that later.
 
-<div class="lesson-note">
+<div class="lesson-note" markdown="1">
 
-<h4>HTML escape code</h4>
+#### HTML escape code
 
-In the above example, <code>&amp;quot;</code> is an escape code we use to render <code>"</code>. Your linter will greet you with an error if you use regular quotes. You can use <a href="https://www.lambdatest.com/free-online-tools/html-escape" target="_blank">this LambdaTest tool for escaping HTML characters</a> if you run into such errors, or read more about <a href="https://www.w3.org/wiki/Common_HTML_entities_used_for_typography" target="_blank">escape codes on w3.org</a>
+In the above example, `quot;` is an escape code we use to render `"`. Your linter will greet you with an error if you use regular quotes. You can use <a href="https://www.lambdatest.com/free-online-tools/html-escape" target="_blank">this LambdaTest tool for escaping HTML characters</a> if you run into such errors, or read more about <a href="https://www.w3.org/wiki/Common_HTML_entities_used_for_typography" target="_blank">escape codes on w3.org</a>
 
 </div>
 
