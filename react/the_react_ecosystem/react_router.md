@@ -475,6 +475,6 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- Among the many ways to make protected routes, a few ways are provided below:
-    - [This Stack Overflow answer](https://stackoverflow.com/a/64347082/19051112) uses a function to generate the route config object passed to `createBrowserRouter`. The function conditionally generates the different paths.
-    - [This demonstration project](https://github.com/iammanishshrma/react-protected-routes/blob/master/src/routes/ProtectedRoute.jsx) creates a special Protected Route component that conditionally displays elements as necessary.
+- If you're more into video content, this [comprehensive video on the React Router](https://www.youtube.com/watch?v=Ul3y1LXxzdU) by Wev Dev Simplified will cover everything we have just went over and dive deeper.
+- Check out how you can [conditionally generate different paths by using a function that creates a route config object passed to `createBrowserRouter`](https://stackoverflow.com/a/64347082/19051112).
+- This demonstration project showcases [how you can use a Protected Route component to conditionally display elements as necessary](https://github.com/iammanishshrma/react-protected-routes/blob/master/src/routes/ProtectedRoute.jsx).
