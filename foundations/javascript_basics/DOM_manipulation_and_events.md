@@ -227,7 +227,7 @@ Alternatively, you can link the JavaScript file in the `<head>` of your HTML doc
 </head>
 ```
 
-Read the second bullet point (under the Applying CSS and JavaScript to HTML section) in this [MDN article](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#applying_css_and_javascript_to_html) for more information, which also includes a link to additional script loading strategies.
+Find out more about the [`defer` attribute for script tags](https://javascript.info/script-async-defer#defer).
 
 </div>
 
@@ -235,7 +235,7 @@ Read the second bullet point (under the Applying CSS and JavaScript to HTML sect
 
 Copy the example above into files on your own computer. To make it work, you'll need to supply the rest of the HTML skeleton and either link your JavaScript file or put the JavaScript into a script tag on the page. Make sure everything is working before moving on!
 
-Add the following elements to the container using ONLY JavaScript and the DOM methods shown above:.
+Add the following elements to the container using ONLY JavaScript and the DOM methods shown above:
 
 1. a `<p>` with red text that says "Hey I'm red!"
 1. an `<h3>` with blue text that says "I'm a blue h3!"
@@ -246,7 +246,7 @@ Add the following elements to the container using ONLY JavaScript and the DOM me
 
 ### Events
 
-Now that we have a handle on manipulating the DOM with JavaScript, the next step is learning how to make that happen dynamically or on demand! Events are how you make that magic happen on your pages. Events are actions that occur on your webpage, such as mouse-clicks or key-presses, and using JavaScript, we can make our webpage listen to and react to these events.
+Now that we have a handle on manipulating the DOM with JavaScript, the next step is learning how to make that happen dynamically or on demand! Events are how you make that magic happen on your pages. Events are actions that occur on your webpage, such as mouse-clicks or key-presses. Using JavaScript, we can make our webpage listen to and react to these events.
 
 There are three primary ways to go about this: You can specify function attributes directly on your HTML elements; you can set properties of form `on[eventType]` (`onclick`, `onmousedown`, etc.) on the DOM nodes in your JavaScript; or you can attach event listeners to the DOM nodes in your JavaScript. Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three.
 
@@ -413,7 +413,7 @@ You can find a more complete list with explanations of each event on [W3Schools 
 
 Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with *every day* as a front-end developer, so let's practice!
 
-1. Complete the challenge in this [MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_a_dynamic_shopping_list) and test your skills!
+1. Complete [MDN's Active Learning sections on DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_a_dynamic_shopping_list) and test your skills!
 1. Read the first 2 sections in this [JavaScript DOM Tutorial](https://www.javascripttutorial.net/javascript-dom/). Note that some of the methods like `getElementById` are older and see less use today. Then, read the section 7 to really get familiar with events, bubbling, and propagation.
 
 </div>
