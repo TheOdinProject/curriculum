@@ -43,7 +43,7 @@ The following requirements are a very global list of features your app should ha
 
 #### Extra credit
 
-1. Make posts also allow images (either just via a URL or by uploading one). If you did the extra credit from [Inventory Application Project](https://www.theodinproject.com/lessons/nodejs-inventory-application) then you may recall [Cloudinary] being a good option for hosting user-uploaded images. The URLs Cloudinary provides you can then be stored in your database instead of the raw image binary data.
+1. Make posts also allow images (either just via a URL or by uploading one). If you did the extra credit from [Inventory Application Project](https://www.theodinproject.com/lessons/nodejs-inventory-application) then you may recall [Cloudinary](https://cloudinary.com/documentation/node_integration) being a good option for hosting user-uploaded images. The URLs Cloudinary provides you can then be stored in your database instead of the raw image binary data.
 1. Allow users to update their profile photo.
 1. Create a guest sign-in functionality that allows visitors to bypass the login screen without creating an account or supplying credentials. This is especially useful if you are planning on putting this project on your résumé - most recruiters, hiring managers, etc. will not take the time to create an account. This feature will allow them to look at your hard work without going through a tedious sign-up process.
 1. Make it pretty!
