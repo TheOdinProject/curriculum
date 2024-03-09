@@ -52,7 +52,7 @@ This section contains a general overview of topics that you will learn in this l
 
 You've already been introduced to the basic use of a JavaScript object- storing related information with key/value pairs. This is one of the simplest ways you can begin to organize your code! Take these examples from a 'tic tac toe' game:
 
-```js
+```javascript
 // example one
 const playerOneName = "tim";
 const playerTwoName = "jenn";
@@ -71,31 +71,31 @@ const playerTwo = {
 };
 ```
 
-At first glance, the first doesn’t seem so bad.. and it actually takes fewer lines to write than the example using objects, but the benefits of the second approach are huge! Grouping related data together into objects allows you to pass the data around easily. Let me demonstrate:
+At first glance, the first doesn't seem so bad.. and it actually takes fewer lines to write than the example using objects, but the benefits of the second approach are huge! Grouping related data together into objects allows you to pass the data around easily. Let me demonstrate:
 
-```js
+```javascript
 function printName(player) {
   console.log(player.name);
 }
 ```
 
-This is something that you just could NOT do with the example one setup. Instead, every time you wanted to print a specific player’s name, you would have to remember the correct variable name and then manually console.log it:
+This is something that you just could NOT do with the example one setup. Instead, every time you wanted to print a specific player's name, you would have to remember the correct variable name and then manually console.log it:
 
-```js
+```javascript
 console.log(playerOneName);
 console.log(playerTwoName);
 ```
 
 Again, this isn't *that* bad... but what if you *don't know* which player's name you want to print?
 
-```js
+```javascript
 function gameOver(winningPlayer){
   console.log("Congratulations!");
   console.log(winningPlayer.name + " is the winner!");
 }
 ```
 
-Or, what if we aren’t making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of each particular item’s name, price, description and other things is the only way to go. You will continue to use and see objects used in this way throughout the curriculum.
+Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of each particular item's name, price, description and other things is the only way to go. You will continue to use and see objects used in this way throughout the curriculum.
 
 ### Objects as a design pattern
 
@@ -111,7 +111,7 @@ Nearly *anything* you can think about can be described as an object. To do so, a
 
 Let's take an example of some thing- we'll choose a lightbulb. A lightbulb can have a color, and it can be in either an 'on' state, or an 'off' state. These might be expressed as properties of a lightbulb object:
 
-```js
+```javascript
 const lightbulb = {
   lightColor: 'fluorescent white',  // this lightbulb is white,
   lit: false                        // and is currently 'off'
@@ -124,7 +124,7 @@ The easiest way to get started creating methods to interact with your objects mi
 
 The following is an example of using the `this` keyword to add two methods to our object, `switchOn`, and `switchOff`:
 
-```js
+```javascript
 const lightbulb = {
   lightColor: 'fluorescent white',
   lit: false,
@@ -168,9 +168,9 @@ And might also include a couple nice-to-haves
 - The ability to determine the current winning player
 - The ability to restart the game
 
-So, at it's most basic, an object that represents the game might look something like this (assuming we're playing against a comuter player):
+So, at it's most basic, an object that represents the game might look something like this (assuming we're playing against a computer player):
 
-```js
+```javascript
 const rps = {
   playerScore: 0,
   computerScore: 0,
@@ -182,7 +182,7 @@ const rps = {
 
 And if we fleshed it out, our object may come out to look something like this:
 
-```js
+```javascript
 const rps = {
   playerScore: 0,
   computerScore: 0,
@@ -242,7 +242,7 @@ But, there is no rule saying that you can't add those functions to your object a
 
 Let's see what that looks like!
 
-```js
+```javascript
 const rps = {
   _options: ['rock', 'paper', 'scissors'],
   _getRandomChoice() {
@@ -611,7 +611,7 @@ This section contains helpful links to related content. It isn't required, so co
 - [The Principles of Object-Oriented JavaScript](https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404) book by
 Nicholas C. Zakas is really great to understand OOP in JavaScript, which explains concepts in-depth, which explores JavaScript's object-oriented nature, revealing the language's unique implementation of inheritance and other key characteristics, it's not free but it's very valuable.
 - The first answer on this StackOverflow question regarding [defining methods via the prototype vs in the constructor](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) helps explain when you might want to use one over the other.
-- [A Beginner’s Guide to JavaScript’s Prototype](https://medium.com/free-code-camp/a-beginners-guide-to-javascript-s-prototype-9c049fe7b34) and [JavaScript Inheritance and the Prototype Chain](https://medium.com/free-code-camp/javascript-inheritance-and-the-prototype-chain-d4298619bdae) from Tyler Mcginnis has great examples to help you understand Prototype and Prototype Chain better from the beginner's perspective.
+- [A Beginner's Guide to JavaScript's Prototype](https://medium.com/free-code-camp/a-beginners-guide-to-javascript-s-prototype-9c049fe7b34) and [JavaScript Inheritance and the Prototype Chain](https://medium.com/free-code-camp/javascript-inheritance-and-the-prototype-chain-d4298619bdae) from Tyler Mcginnis has great examples to help you understand Prototype and Prototype Chain better from the beginner's perspective.
 - This video from Akshay Saini is an easy way to understand the [concept of Prototype, Prototype Chain and prototypal inheritance.](https://www.youtube.com/watch?v=wstwjQ1yqWQ).
 - [Interactive Scrim on objects and object constructors.](https://scrimba.com/scrim/co2624f87981575448091d5a2)
 - Check out this video explanation on the  [`this` keyword from DevSage](https://www.youtube.com/watch?v=cwChC4BQF0Q) that gives a different perspective on how its context changes, as well as scenarios in which `this` behaves unexpectedly.
