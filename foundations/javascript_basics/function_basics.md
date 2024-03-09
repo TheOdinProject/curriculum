@@ -1,6 +1,8 @@
 ### Introduction
 
-Things are about to get *really* exciting. So far you have been writing an impressive amount of code to solve various problems, but that code has not been as useful as it could be. Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code. That's the power of functions, and they're used *constantly* in JavaScript.
+Things are about to get *really* exciting. So far you have been writing an impressive amount of code to solve various problems, but that code has not been as useful as it could be. 
+
+Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code. That's the power of functions, and they're used *constantly* in JavaScript.
 
 ### Lesson overview
 
@@ -22,14 +24,21 @@ function favoriteAnimal(animal) {
 console.log(favoriteAnimal('Goat'))
 ```
 
-In JavaScript, parameters are the items listed between the parentheses in the function declaration. Function arguments are the actual values we decide to pass to the function. In the example above, the function definition is written on the first line: `function favoriteAnimal(animal)`. The parameter, `animal`, is found inside the parentheses. We could just as easily replace `animal` with `pet`, `x`, or `blah`. But in this case, naming the parameter `animal` gives someone reading our code a bit of context so that they don't have to guess what `animal` may eventually contain. By putting `animal` inside the parentheses of the `favoriteAnimal()` function, we are telling JavaScript that we will send *some* value to our `favoriteAnimal` function. This means that `animal` is just a **placeholder** for some future value. But what value are we sending?
+In JavaScript, parameters are the items listed between the parentheses in the function declaration. Function arguments are the actual values we decide to pass to the function. 
+
+In the example above, the function definition is written on the first line: `function favoriteAnimal(animal)`. The parameter, `animal`, is found inside the parentheses. We could just as easily replace `animal` with `pet`, `x`, or `blah`. But in this case, naming the parameter `animal` gives someone reading our code a bit of context so that they don't have to guess what `animal` may eventually contain. 
+
+By putting `animal` inside the parentheses of the `favoriteAnimal()` function, we are telling JavaScript that we will send *some* value to our `favoriteAnimal` function. This means that `animal` is just a **placeholder** for some future value. But what value are we sending?
+
 The last line, `favoriteAnimal('Goat')`, is where we are calling our `favoriteAnimal` function and passing the value `'Goat'` inside that function. Here, `'Goat'` is our argument. We are telling the `favoriteAnimal` function, "Please send `'Goat'` to the favoriteAnimal function and use `'Goat'` wherever the 'animal' placeholder is." Because of the flexibility that using a parameter provides, we can declare any animal to be our favorite.
 
 Here is a diagram to help you visualize how parameters are passed to a function, and how values get returned from it.
 
 ![how parameters are passed to a function and how values are returned from it](https://cdn.statically.io/gh/TheOdinProject/curriculum/c53dd9a12f0c9afde0d9229f82a176170f12e120/foundations/javascript_basics/function_basics/imgs/00.png)
 
-Make note of the fact that by calling `favoriteAnimal()` inside of `console.log()` with the argument `'Goat'` we get the return value of the function, string of `"Goat is my favorite animal!"`, printed to the console. We're passing in a function call `favoriteAnimal('Goat')` as an argument in a different function call - `log()`. Keep this possibility in mind because you'll be passing in function calls as arguments somewhat often. If we just called the function without console.logging what it returns, nothing would appear in the console **but** nonetheless the function would return that string.
+Make note of the fact that by calling `favoriteAnimal()` inside of `console.log()` with the argument `'Goat'` we get the return value of the function, string of `"Goat is my favorite animal!"`, printed to the console. We're passing in a function call `favoriteAnimal('Goat')` as an argument in a different function call - `log()`. 
+
+Keep this possibility in mind because you'll be passing in function calls as arguments somewhat often. If we just called the function without console.logging what it returns, nothing would appear in the console **but** nonetheless the function would return that string.
 
 Feel free to experiment with the code on your own and replace `'Goat'` with your favorite animal. Notice how we can change the argument to anything we like? Try changing `animal` in the function declaration and in the function body, too. What happens when you do?
 
