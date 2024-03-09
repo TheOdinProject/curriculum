@@ -32,7 +32,7 @@ Google yourself in an incognito window (to avoid Google's smart algorithm).  Wha
 
 The most important part of your web presence to fix up is your GitHub profile.  Make sure your projects are organized and their README files contain a description and a link to where it is live so anyone looking at the project can quickly see your brilliance.
 
-Next, try to be discoverable.  If we're trying to get in touch with you or find your work on the web, can I?  Do you have a personal website?  Are you on Twitter? You don't need to go crazy with social media, but sometimes just having enough of a profile to be a "real" person and give people the opportunity to get in touch with you can go a long way.  
+Next, try to be discoverable.  If we're trying to get in touch with you or find your work on the web, can I?  Do you have a personal website?  Are you on X (formerly known as Twitter)? You don't need to go crazy with social media, but sometimes just having enough of a profile to be a "real" person and give people the opportunity to get in touch with you can go a long way.  
 
 Use LinkedIn if you're not allergic to it.  Again, this is about getting your personal narrative out there in the way YOU choose and not relying on Google to get it right.  LinkedIn is fast replacing the resume anyway.  
 
