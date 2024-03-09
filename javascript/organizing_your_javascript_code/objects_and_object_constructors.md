@@ -131,25 +131,15 @@ const lightbulb = {
 
   // shorthand syntax for adding methods to objects
   switchOn() {
-    // return false to indicate the light was already on
-    if(this.lit === true) return false
-
-    // return true if the state of the light changed to be on
     this.lit = true
-    return true
   },
   switchOff() {
-    // return true if the state of the light changed to be off
-    if (this.lit === false) return false
-
-    // return false to indicate the light was already off
     this.lit = false
-    return true
   }
 }
 
-lightbulb.switchOn() // true - we switched it on
-lightbulb.lit // true - the object has changed to reflect that!
+lightbulb.switchOn() 
+lightbulb.lit // true - we switched it on
 ```
 
 These methods use the `this` keyword to refer to the object they get called from (`lightbulb`). The `this` keyword can be used to access and modify properties of an object in exactly the same way you would for any other variable that points to an object.
