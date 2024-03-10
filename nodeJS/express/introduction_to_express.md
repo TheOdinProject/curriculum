@@ -10,43 +10,16 @@ Going forward, we will be diving into how we can use Express in various ways, su
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- A LESSON OVERVIEW ITEM.
+- Describe what Express is.
+- Describe the relationship between Express and Node.
+- Set up a basic Express server.
+- Describe how an incoming request is processed and ultimately responded to by the server.
+- Describe what a middleware function is.
+- Describe how to use `nodemon` to automatically restart your application when a change is made.
 
 ### CUSTOM SECTION HEADING
 
-CUSTOM SECTION CONTENT.
-
-#### Note box variations
-
-<div class="lesson-note" markdown="1">
-
-#### A sample title
-
-A sample note box.
-
-</div>
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### level 4 heading for title is recommended
-
-A sample note box, variation: tip.
-
-</div>
-
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### But title is also optional
-
-A sample note box, variation: warning.
-
-</div>
-
-<div class="lesson-note lesson-note--critical" markdown="1">
-
-A sample note box, variation: critical.
-
-</div>
+CUSTOM SECTION CONTENT
 
 ### Assignment
 
