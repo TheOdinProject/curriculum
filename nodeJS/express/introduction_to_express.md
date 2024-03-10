@@ -17,9 +17,31 @@ This section contains a general overview of topics that you will learn in this l
 - Describe what a middleware function is.
 - Describe how to use `nodemon` to automatically restart your application when a change is made.
 
-### CUSTOM SECTION HEADING
+### Setting up Express
 
-CUSTOM SECTION CONTENT
+Let's make a basic Express app. You can start by running `npm init` and filling in each option to create a `package.json`. Once that's created, we can install the Express dependency.
+
+```bash
+npm install express
+```
+
+We can now create an `index.js` file that will serve as the starting point for our Express server. We could name this anything we want - common alternatives are `app.js` and `main.js`, but since the default option for setting up your `package.json` is `index.js`, we will go with that. Inside that file, we will have the following:
+
+```javascript
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => res.send("Hello, world!"));
+
+const PORT = 3000;
+app.listen(PORT, () => console.log(`My first Express app - listening on port ${PORT}!`));
+```
+
+Let's break this down. Firstly, we import `express` using `require()`, then we call it to create the actual server that we store in the `app` variable. While you can technically do this here in one line via `const app = require("express")();`, very often you will need features that come from properties on `express`. Many of these features will be covered in later lessons.
+
+We then have a `route handler` - the line beginning with `app.get`. We will come back to this in a moment.
+
+Finally, we tell our server to listen for requests on port 3000. 3000 is just an arbitrary and somewhat conventional default choice, but you can technically use any unused port (e.g. Vite's dev server uses port 5173 by default). Back in your terminal, if you enter `node index.js` then all being well, you should see `My first Express app - listening on port 3000!` logged. Congratulations! Your first Express server is now running.
 
 ### Assignment
 
