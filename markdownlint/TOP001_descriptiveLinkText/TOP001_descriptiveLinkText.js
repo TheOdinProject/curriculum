@@ -2,6 +2,9 @@ module.exports = {
   names: ["TOP001", "descriptive-link-text"],
   description: "Links have descriptive text labels",
   tags: ["accessibility", "links"],
+  information: new URL(
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP001.md"
+  ),
   function: function TOP001(params, onError) {
     const tokensWithLinks = params.parsers.markdownit.tokens?.filter((token) =>
       token.children?.some((child) => child.type === "link_open")
