@@ -20,11 +20,11 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 
         1. an `index.html` file in `src`. This file will not need a script tag, because we're using `html-webpack-plugin`, which automatically adds that in. You will also not need to link a CSS stylesheet as you should be importing it into your JavaScript and letting your webpack configuration handle bundling.
 
-        1. create a `webpack.config.js` file that looks just like our file from the [tutorial](https://webpack.js.org/guides/getting-started/#using-a-configuration). Don't forget to add the `html-webpack-plugin` config to your `webpack.config.js` and set its `template` option with a path to `src/index.html`.
+        1. create a `webpack.config.js` file that looks just like our file from the [Webpack "Getting Started" tutorial](https://webpack.js.org/guides/getting-started/#using-a-configuration). Don't forget to add the `html-webpack-plugin` config to your `webpack.config.js` and set its `template` option with a path to `src/index.html`.
 
 1. Set up an HTML skeleton inside of `src/index.html`. Inside the body, add a `<header>` element that contains a `<nav>` with buttons (not links!) for different "tabs" (for example buttons for "Home", "Menu" or "About" etc). Below the `<header>`, add a single `<div id="content">`.
 
-1. Inside of `src/index.js` write a `console.log` or `alert` statement and then run `npx webpack`. Load up `src/index.html` in a browser to make sure everything is working correctly.
+1. Inside of `src/index.js` write a `console.log` or `alert` statement and then run `npx webpack`. Load up `dist/index.html` in a browser to make sure everything is working correctly.
 
     - Quick tip #2: if you run `npx webpack --watch` you will not have to rerun webpack every time you make a change.
 
@@ -32,7 +32,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 
 1. Now remove everything inside `div#content` from the HTML (so you still have the `<header>` and `<nav>` with an empty `<div id="content">` below it) and instead create them by using JavaScript only, e.g. by appending each new element to `div#content` once the page is first loaded. Since we're all set up to write our code in multiple files, let's write this initial page-load function inside of its own module and then import and call it inside of `index.js`.
 
-1. Next, set up your restaurant site to use tabbed browsing to access the Contact and Menu pages. [Look at the behavior of this student solution](https://web.archive.org/web/20221024060550/https://eckben.github.io/bearysBreakfastBar/) for visual inspiration.
+1. Next, set up your restaurant site to use tabbed browsing to access the Contact and Menu pages. Look at the behavior of this [student's live preview site](https://web.archive.org/web/20221024060550/https://eckben.github.io/bearysBreakfastBar/) for visual inspiration.
 
     1. Put the contents of each 'tab' inside of its own module. Each module will export a function that creates a div element, adds the appropriate content and styles to that element and then appends it to the DOM.
 
@@ -40,7 +40,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 
 1. If you are using GitHub pages to host your completed page you need to do a tiny bit more work to get it to show up. After running `webpack` the full bundled version of your site is available in the `dist` folder, but GH pages is looking for an `index.html` in the root directory of your project.
 
-    1. Follow the instructions on [this gist](https://gist.github.com/cobyism/4730490). EZPZ!
+    1. Follow the instructions on this [gist about deploying your dist subdirectory to GitHub pages](https://gist.github.com/cobyism/4730490). EZPZ!
         - To prevent having to copy and paste the same lengthy git command each time, you can instead create an npm script to do the work for you!
             - Inside your project's `package.json` file, within the `scripts` section, add an additional entry named something of your choosing and paste in the command from the above gist surrounded by quotation marks. Follow the formatting of the already added `test` script.
             - For Example:
@@ -49,7 +49,8 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
     "YourScriptName": "git subtree push --prefix dist origin gh-pages"
   }`
             - Now each  time you need to update your project's live preview, you `npm run <YourScriptName>` in your project's terminal.
-            - To learn more about this, here's a short tutorial video on [Node Package Manager Scripts](https://www.youtube.com/watch?v=REdzp64dijs).
+            - To learn more about this, here's a short tutorial video on [npm scripts](https://www.youtube.com/watch?v=REdzp64dijs).
 
     1. Recall that the **source branch** for GitHub Pages is set in your repository's settings.
+
 </div>
