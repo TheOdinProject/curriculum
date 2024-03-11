@@ -75,10 +75,7 @@ Our recommendation would be to add it as a dev dependency and write an npm scrip
 
 <div class="lesson-content__panel" markdown="1">
 
-1. A RESOURCE ITEM
-   - AN INSTRUCTION ITEM
-1. A PRACTICE ITEM
-   - A TASK ITEM
+1. Go back to your [Basic Informational Site project](https://www.theodinproject.com/lessons/nodejs-basic-informational-site), install Express and rewrite the project using it! You should be able to do most of this with just a few `app.get()`s.
 
 </div>
 
