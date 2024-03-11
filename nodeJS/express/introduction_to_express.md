@@ -61,6 +61,8 @@ app.get("/", (req, res) => res.send("Hello, world!"));
 
 We will break down routes and route handlers in more detail in a later lesson, but to summarise the above line, it tells Express "if a `GET` request comes through to the `/` route, run the request through the following chain of middleware functions". Here, we only have a single middleware function in this chain.
 
+If our server had multiple route handlers, it would pass the request through the first one that matches the requested route. Order matters!
+
 Express takes the callback function we gave it and passes the request object into the first parameter, and a [`response` object](https://expressjs.com/en/4x/api.html#res) into the second parameter. Our callback tells the response object to respond to the request by `.send`ing the string `"Hello, world!"`.
 
 There is no more code to run, the function returns and Express has been told to respond to the request. Therefore, Express ends the request here. Meanwhile, the browser receives our server's response and displays it on screen, which is our `"Hello, world!"` string. We could send nearly anything in response. We could even [tell Express to send a file](https://expressjs.com/en/api.html#res.sendFile).
