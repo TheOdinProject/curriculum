@@ -65,6 +65,12 @@ Express takes the callback function we gave it and passes the request object int
 
 There is no more code to run, the function returns and Express has been told to respond to the request. Therefore, Express ends the request here. Meanwhile, the browser receives our server's response and displays it on screen, which is our `"Hello, world!"` string. We could send nearly anything in response. We could even [tell Express to send a file](https://expressjs.com/en/api.html#res.sendFile).
 
+### Nodemon
+
+When you run your server with `node index.js`, if you make any changes to any of the server's files, these changes will not be reflected in the server unless you restart it by interrupting the process and rerunning `node index.js`. Similar to how Webpack and Vite's dev servers would restart and rebuild your site when you make a change to a file, you can use [Nodemon](https://www.npmjs.com/package//nodemon) to run your `index.js` file. Any changes to JavaScript and JSON files in the project directory will automatically make Nodemon restart your server. Convenient!
+
+Our recommendation would be to add it as a dev dependency and write an npm script that runs `nodemon index.js`.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
