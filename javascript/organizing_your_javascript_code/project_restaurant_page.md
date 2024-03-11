@@ -24,7 +24,7 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 
 1. Set up an HTML skeleton inside of `src/index.html`. Inside the body, add a `<header>` element that contains a `<nav>` with buttons (not links!) for different "tabs" (for example buttons for "Home", "Menu" or "About" etc). Below the `<header>`, add a single `<div id="content">`.
 
-1. Inside of `src/index.js` write a `console.log` or `alert` statement and then run `npx webpack`. Load up `src/index.html` in a browser to make sure everything is working correctly.
+1. Inside of `src/index.js` write a `console.log` or `alert` statement and then run `npx webpack`. Load up `dist/index.html` in a browser to make sure everything is working correctly.
 
     - Quick tip #2: if you run `npx webpack --watch` you will not have to rerun webpack every time you make a change.
 
