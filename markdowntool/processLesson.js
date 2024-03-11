@@ -15,27 +15,25 @@ const { removeSpaceAfterListMarker } = require("./removeSpaceAfterListMarker");
 const { removeTrailingSpaces } = require("./removeTrailingSpaces");
 const { unindentLists } = require("./unindentLists");
 const { getLesson, updateLesson } = require("./updateLesson");
-const { changeTweetToX } = require("./changeTweetToX")
 
 async function processLesson(filePath) {
   const lesson = getLesson(filePath);
   let lines = await lessonIntoArrayOfLines(lesson);
-  // lines = blankLinesHeadings(lines);
-  // lines = correctCodeBlocks(lines);
-  // lines = correctOrderedList(lines);
-  // lines = correctUnorderedList(lines);
-  // lines = removeTrailingSpaces(lines);
-  // lines = blankLinesCode(lines);
-  // lines = formatStartAndEnd(lines);
-  // lines = sectionsDefaultContent(lines);
-  // lines = blankLinesLists(lines);
-  // lines = boldAndItalic(lines);
-  // lines = unindentLists(lines);
-  // lines = removeRepeatingNewlines(lines);
-  // lines = removeKnowledgeHtml(lines);
-  // lines = h3headings(lines);
-  // lines = removeSpaceAfterListMarker(lines);
-  lines = changeTweetToX(lines);
+  lines = blankLinesHeadings(lines);
+  lines = correctCodeBlocks(lines);
+  lines = correctOrderedList(lines);
+  lines = correctUnorderedList(lines);
+  lines = removeTrailingSpaces(lines);
+  lines = blankLinesCode(lines);
+  lines = formatStartAndEnd(lines);
+  lines = sectionsDefaultContent(lines);
+  lines = blankLinesLists(lines);
+  lines = boldAndItalic(lines);
+  lines = unindentLists(lines);
+  lines = removeRepeatingNewlines(lines);
+  lines = removeKnowledgeHtml(lines);
+  lines = h3headings(lines);
+  lines = removeSpaceAfterListMarker(lines);
   updateLesson(lesson, lines);
 }
 
