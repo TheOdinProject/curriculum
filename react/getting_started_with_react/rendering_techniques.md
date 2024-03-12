@@ -192,9 +192,9 @@ We will leverage the return value of `startsWith` with the `&&` operator. If the
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
 
-#### Falsy values in JSX, a common pitfall
+#### Numbers with Logical AND (&&) - a common pitfall
 
-In JSX, there can be some confusion regarding which values render content and which do not, especially when it comes to falsy values. It's important to note that while values like `null`, `undefined`, and `false` don't render anything, other falsy values such as `0` or `''` (an empty string) are perfectly valid in JSX and will be rendered as expected. To avoid any pitfalls, it's essential to understand that certain falsy values behave differently in JSX when compared to JS. 
+When using `&&` for conditional rendering, don't put numbers on the left side. The React docs on [conditional rendering](https://react.dev/learn/conditional-rendering#logical-and-operator-) provide more details about this in the `Pitfall` box in the section about `&&`.
 
 </div>
 
