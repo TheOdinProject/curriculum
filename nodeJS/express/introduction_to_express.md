@@ -85,7 +85,11 @@ Our recommendation would be to add it as a dev dependency and write an npm scrip
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
+- [What is Express?](https://expressjs.com/)
+- [What is localhost?](https://simple.wikipedia.org/wiki/Localhost)
+- [What happens when a server receives a request?](#a-requests-journey)
+- [What can we use to tell Express to send a file in response to a request?](https://expressjs.com/en/api.html#res.sendFile)
+- [What can you use to automatically restart your server when you make changes to a file?](https://www.npmjs.com/package//nodemon)
 
 ### Additional resources
 
