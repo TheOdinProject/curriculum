@@ -25,7 +25,7 @@ Associations are Rails' way of establishing relationships between tables. Concep
 
 ### How to specify an association
 
-Our posts-user example has an aptly named "has many / belongs to" association. A User `has_many` Post objects associated with it, and a Post `belongs_to` a single User. Rails makes these relationships very easy to specify. You can establish the association between models either by using a Rails generator or by manually defining the association in your model files. Regardless of the method you choose, here's what the associations will look like in your codebase:
+Our posts-user example has an aptly named "has many / belongs to" association. A User `has_many` Post objects associated with it, and a Post `belongs_to` a single User. Rails makes these relationships very easy to specify. You can establish the association between models by manually defining the association in your model files. Here's what the associations will look like in your codebase:
 
 In `app/models/user.rb`:
 ```ruby
