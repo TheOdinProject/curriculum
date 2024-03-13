@@ -51,7 +51,7 @@ Whenever you navigate to any web URL this way, this is essentially what you are 
 
 Once you navigate to `http://localhost:3000/`, you should see `Hello, world!` appear in the window. Magic, right?
 
-When our server receives our `GET` request, Express stores the request in a [`request` object](https://expressjs.com/en/4x/api.html#req). This request gets passed through a chain of functions we call `middleware functions` until eventually, a middleware function tells Express to respond to the request.
+When our server receives our `GET` request, Express stores the request in a [request object](https://expressjs.com/en/4x/api.html#req). This request gets passed through a chain of functions we call `middleware functions` until eventually, a middleware function tells Express to respond to the request.
 
 In our example, the request comes through as a `GET` request to the `/` route. This matches the route handler we have in our `app.js` file.
 
@@ -63,7 +63,7 @@ We will discuss routes and route handlers in more detail in a later lesson, but 
 
 If we had defined multiple route handlers, Express would pass the request through the first one to match the requested route. Order matters!
 
-Express takes the callback function we gave it and passes the request object into the first parameter (commonly named `req` by convention), and a [`response` object](https://expressjs.com/en/4x/api.html#res) into the second parameter (commonly named `res`). Our callback tells the response object to respond to the request by `.send`ing the string `"Hello, world!"`.
+Express takes the callback function we gave it and passes the request object into the first parameter (commonly named `req` by convention), and a [response object](https://expressjs.com/en/4x/api.html#res) into the second parameter (commonly named `res`). Our callback tells the response object to respond to the request by `.send`ing the string `"Hello, world!"`.
 
 There is no more code to run and the function returns. Since Express has been told to respond to the request, it ends the request here. Meanwhile, the browser receives our server's response and displays it on screen, which is our `"Hello, world!"` string. We could send nearly anything in response. We could even [tell Express to send a file](https://expressjs.com/en/api.html#res.sendFile).
 
