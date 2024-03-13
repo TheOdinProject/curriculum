@@ -1,3 +1,10 @@
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### NOTICE
+
+This lesson is currently being split up into multiple, more digestible lessons. While this process is underway, feel free to use the current lesson as-is. Please feel free to skip the new lessons until the restructuring is complete.
+</div>
+
 ### Introduction
 
 Presumably you're here to learn web development (otherwise... you may be in the wrong place...).  Whether your goal is to be able to produce your own website or to begin a career as a developer, the most important skillset to take away from all this is the ability to think logically and to break down a problem into its component pieces.  Then you can address those pieces one at a time.  It's the essence of engineering.
