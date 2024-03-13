@@ -29,10 +29,10 @@ Sometimes _there is more than one fastest path_. Examples of this are shown belo
 
 <div class="lesson-content__panel" markdown="1">
 1. Think about the rules of the board and knight, and make sure to follow them.
-2. For every square there is a number of possible moves, choose a data structure that will allow you to work with them. Don't allow any moves to go off the board.
-3. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
-  1. If you're having trouble, [here](https://www.khanacademy.org/computing/computer-science/algorithms/breadth-first-search/a/breadth-first-search-and-its-uses) is a great resource to help guide you and allow you to practice with traversing graphs.
-3. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
+1. For every square there is a number of possible moves, choose a data structure that will allow you to work with them. Don't allow any moves to go off the board.
+1. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
+    1. If you're having trouble, [here](https://www.khanacademy.org/computing/computer-science/algorithms/breadth-first-search/a/breadth-first-search-and-its-uses) is a great resource to help guide you and allow you to practice with traversing graphs.
+1. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
 
 ```bash
   > knightMoves([3,3],[4,3])
