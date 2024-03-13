@@ -54,6 +54,10 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 - Take a break: Allow your diffuse learning state to work on the problem.
 - Ask for help in our [chat](https://discord.gg/fbFCkYabZB): Come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
+Additionally, feel free to follow the diagram below that should help you going through problems that you may come across:
+
+![diagram to help learners go through problems when they are stuck](https://cdn.statically.io/gh/TheOdinProject/curriculum/978ba0e91a6a47452de819246f4c495e6b092f54/foundations/introduction/motivation_and_mindset/imgs/00.png)
+
 ### A note on AI code generation
 
 As technology advances, we have seen some incredible tools emerge that can help accelerate coding capacity. One particular area that has exploded in popularity lately is the usage of Large Language Models (LLMs) and generative AIs for code completion (like GitHub Copilot) and code generation (like ChatGPT).
@@ -138,7 +142,7 @@ Because we cover so much material on The Odin Project and link to so many high q
 
 #### Comparing yourself to others
 
-Students often compare themselves to others who are farther along in their coding journey or have more experience. This is a recipe for depression and frustration. 
+Students often compare themselves to others who are farther along in their coding journey or have more experience. This is a recipe for depression and frustration.
 
 **Solution:** Only compare yourself to your past self. Have your abilities and knowledge improved from where you were last week, last month, or last year? Be proud of the progress that you've made!
 
@@ -158,9 +162,10 @@ Learning any new skill is a journey full of speed bumps and obstacles to be over
 
 1. To give your motivation a bit of a boost, read about the success of others in our discord [odin-success-stories](https://discord.com/channels/505093832157691914/1089990025162260570) channel (You need to [join the Discord server](https://discord.gg/fbFCkYabZB) first in order to see the channel).
 1. To learn more about the growth mindset, go through the following resources:
-  - [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
-  - [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
-  - [You can learn anything](https://www.khanacademy.org/college-careers-more/talks-and-interviews/talks-and-interviews-unit/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
+   - [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
+   - [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
+   - [You can learn anything](https://www.khanacademy.org/college-careers-more/talks-and-interviews/talks-and-interviews-unit/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
+
 1. To learn more about the best ways to learn, watch this summary of [Coursera's learning how to learn course](https://www.youtube.com/watch?v=O96fE1E-rf8). The full course is linked in the additional resources.
 
 </div>
@@ -172,12 +177,7 @@ This section contains helpful links to related content. It isn't required, so co
 - [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
 - [Managing inspiration and motivation](https://markmanson.net/do-something)
 - [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
-- If you find your typing speed is holding you back, you can improve your typing skills by utilizing these keyboard trainers for at least 5 minutes every day:
-  - [Keybr.com](https://www.keybr.com/)
-  - [typing.com](https://www.typing.com/)
-  - [TypingClub.com](https://www.typingclub.com)
-  - [Monkeytype](https://monkeytype.com/)
+- If you find your typing speed is holding you back, you can improve your typing skills by utilizing keyword trainers for at least 5 minutes every day. Some excellent options include [Monkeytype](https://monkeytype.com/), [typing.com](https://www.typing.com/), [TypingClub.com](https://www.typingclub.com) and [Monkeytype](https://monkeytype.com/).
 - [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
 - 100 Days of Code is a challenge that new developers often use to track their coding journey and showcase their work. Consider joining by checking out [their website](https://www.100daysofcode.com/) if you are looking for a way to stay motivated and inspire other developers.
 - Check out the [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) course from Coursera.
-
