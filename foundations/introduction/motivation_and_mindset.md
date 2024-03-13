@@ -177,7 +177,7 @@ This section contains helpful links to related content. It isn't required, so co
 - [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
 - [Managing inspiration and motivation](https://markmanson.net/do-something)
 - [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
-- If you find your typing speed is holding you back, you can improve your typing skills by utilizing keyword trainers for at least 5 minutes every day. Some excellent options include [Monkeytype](https://monkeytype.com/), [typing.com](https://www.typing.com/), [TypingClub.com](https://www.typingclub.com) and [Monkeytype](https://monkeytype.com/).
+- If you find your typing speed is holding you back, you can improve your typing skills by utilizing keyword trainers for at least 5 minutes every day. Some excellent options include [Monkeytype](https://monkeytype.com/), [typing.com](https://www.typing.com/), and [TypingClub.com](https://www.typingclub.com).
 - [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
 - 100 Days of Code is a challenge that new developers often use to track their coding journey and showcase their work. Consider joining by checking out [their website](https://www.100daysofcode.com/) if you are looking for a way to stay motivated and inspire other developers.
 - Check out the [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) course from Coursera.
