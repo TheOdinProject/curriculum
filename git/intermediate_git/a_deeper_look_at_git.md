@@ -108,7 +108,7 @@ Rename the commit to `Create first and second file`, then finish the rebase. Tha
 
 Before diving into Remotes, we're going to have a look at a handy Git command called `git reset`. Let's have a look at the commit `Create third file and create fourth file`. At the moment we're using blank files for convenience, but let's say these files contained functionality and the commit was describing too much at once. In that case what we could do is split it up into two smaller commits by, once again, using the interactive `rebase` tool.
 
-We can open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. But instead, what we're going to do is run `git reset HEAD^`, which resets the commit to the one right before HEAD. This allows us to add the files individually, add, and commit them individually. All together it would look something like this:
+We can open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. But instead, what we're going to do is run `git reset HEAD^`, which resets the commit to the one right before HEAD. This allows us to add the files individually and commit them individually. All together it would look something like this:
 
 ```bash
 $ git reset HEAD^
