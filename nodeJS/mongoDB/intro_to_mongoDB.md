@@ -4,7 +4,9 @@ Data persistence is integral to the vast majority of web applications. Local sto
 
 For example, consider X (formerly known as Twitter). Where are your username and password stored? Or perhaps where all of your posts might be fetched from? How does the application determine what posts are shown to you every time you log on? These operations are handled by a database. 
 
-Databases are split into "relational" and "non-relational" types of databases, and each handles data and scaling in different manners. [This article](https://circleci.com/blog/SQL-vs-NoSQL-databases/) goes in depth with the difference between the two. This lesson will teach you about MongoDB, a popular NoSQL database.
+Databases are split into "relational" and "non-relational" types of databases, and each handles data and scaling in different manners. Read this article to learn more about the [differences between relational and non-relational databases](https://circleci.com/blog/SQL-vs-NoSQL-databases/).
+
+In this lesson, we will teach you about MongoDB, a popular non-relational database.
 
 ### Lesson overview
 
