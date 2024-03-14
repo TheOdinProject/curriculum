@@ -1,10 +1,10 @@
 ### Introduction
 
-Data persistence is integral to the vast majority of web applications. Local storage has limitations and poses security risks, and Backend-as-a-Service (BaaS) options such as Firebase work well, ultimately being able to understand how to structure, build, and query your own database are important skills for any full stack developer to have. 
+Data persistence is integral to the vast majority of web applications. Local storage has limitations and poses security risks, and Backend-as-a-Service (BaaS) options such as Firebase work well, ultimately being able to understand how to structure, build, and query your own database are important skills for any full stack developer to have.
 
-For example, consider X (formerly known as Twitter). Where are your username and password stored? Or perhaps where all of your posts might be fetched from? How does the application determine what posts are shown to you every time you log on? These operations are handled by a database. 
+For example, consider X (formerly known as Twitter). Where are your username and password stored? Or perhaps where all of your posts might be fetched from? How does the application determine what posts are shown to you every time you log on? These operations are handled by a database.
 
-Databases are split into "relational" and "non-relational" types of databases, and each handles data and scaling in different manners. 
+Databases are split into "relational" and "non-relational" types of databases, and each handles data and scaling in different manners.
 
 In this lesson, we will teach you about MongoDB, a popular non-relational database.
 
@@ -29,7 +29,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the difference between a relational database and a non-relational database?](https://circleci.com/blog/SQL-vs-NoSQL-databases/)
 
