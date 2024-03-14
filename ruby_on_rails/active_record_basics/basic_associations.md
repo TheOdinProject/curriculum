@@ -1,10 +1,3 @@
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### NOTICE
-
-This is one of the new, more focused lessons created as part of the ongoing restructuring of the Active Record basics course. It's designed to provide more targeted and digestible content. If you've already started with the original comprehensive lesson and find some overlap, feel free to skip this lesson.
-</div>
-
 ### Introduction
 
 In the databases sections, you learned about how a relational database like SQLite3 or PostgreSQL lets you link two tables together using their primary keys -- a table's key that references another table is called a foreign key. It's the real power of relational databases that they let you leverage these, well, relationships. Active Record takes that feature and lets you use it in all kinds of useful ways. Do you want to get all of your first user's blog posts? Try `User.first.posts`. It's as simple as that. That functionality doesn't come out of the box -- you need to tell Rails that posts actually belong to a user. This is accomplished with *associations*.
