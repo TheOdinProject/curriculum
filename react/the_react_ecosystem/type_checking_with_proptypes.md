@@ -90,7 +90,7 @@ Learning TypeScript can be a lot of overhead when you’re already learning Reac
 1. Read through the [PropTypes documentation](https://reactjs.org/docs/typechecking-with-proptypes.html). It shows all of the types you can specify and some other useful things that can be done with it!
    - You may notice this resource suggests using TypeScript over PropTypes in modern React. This may well be true for production apps but for our purposes, we are solely interested in the concept of type checking within React, where TypeScript is out of scope.
 1. You can even set up custom validators in PropTypes. For a more in-depth look into the benefits and use cases of PropTypes, read this comprehensive guide [Validating React Props with PropTypes on LogRocket](https://blog.logrocket.com/validate-react-props-proptypes/).
-1. Dive into the nuanced comparison between PropTypes and TypeScript for type safety in React with [a detailed analysis found on StackOverflow](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application), highlighting key differences and use cases.
+1. Dive into the nuanced comparison between PropTypes and TypeScript for type safety in React with this [StackOverflow post on differences between PropTypes and TypeScript](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application).
 
 </div>
 
