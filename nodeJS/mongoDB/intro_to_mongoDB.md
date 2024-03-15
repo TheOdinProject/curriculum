@@ -21,8 +21,11 @@ This section contains a general overview of topics that you will learn in this l
 - Learn more about the [differences between relational and non-relational databases](https://circleci.com/blog/SQL-vs-NoSQL-databases/).
 - Take the entire [MongoDB University "Introduction to MongoDB" course](https://learn.mongodb.com/learning-paths/introduction-to-mongodb). This course will teach you the basics of MongoDB and the mongo shell. You will need to make an account.
 
-  *Note*: When you get to the lesson that asks you to install MongoDB Compass you can skip the installation.
+<div class="lesson-note" markdown="1">
 
+When you get to the lesson that asks you to install MongoDB Compass you can skip the installation.
+
+</div>
 </div>
 
 ### Knowledge check
