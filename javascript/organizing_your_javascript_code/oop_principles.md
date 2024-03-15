@@ -22,25 +22,25 @@ As you craft your objects, one of the most important things to remember is the _
 
 Here's a really common example. Most of our code has functions to update and write things to the DOM in addition to our application logic. It's a _really_ good idea to separate your DOM stuff from the application logic.
 
-So instead of this:
+Here we have a function that should check if a game over condition has been met.  There are two issues with this:
 
-~~~javascript
+```javascript
 function isGameOver() {
 
   // game over logic goes here!
 
-  if (gameOver){
+  if (gameOver) {
     const gameOverDiv = document.createElement('div');
     gameOverDiv.classList.add('game-over');
     gameOverDiv.textContent = `${this.winner} won the game!`;
     document.body.appendChild(gameOverDiv);
   }
 }
-~~~
+```
 
-You should extract all the DOM manipulation into its own module and use it like so:
+The first issue is that the function (and the module it's in) should not directly be the one to manipulate the DOM. You should extract all the DOM manipulation into its own module and use it like so:
 
-~~~javascript
+```javascript
 function isGameOver() {
 
   // game over logic goes here!
@@ -49,13 +49,13 @@ function isGameOver() {
     DOMStuff.gameOver(this.winner);
   }
 }
-~~~
+```
 
-In fact - the function `isGameOver` shouldn't be calling the DOM function anyway. That should go elsewhere (directly in the game-loop).
+The second issue remaining is that the `isGameOver` function should only be responsible for checking if the `gameOver` condition is met. Based on `isGameOver` return value, the function that handles the game loop should be responsible for deciding whether to call `DOMStuff.gameOver(this.winner)` or not.
 
-Another way to think about the Single Responsibility Principle is that a given method/class/component should have a single reason to change. Otherwise, if an object is trying to have multiple responsibilities, changing one aspect might affect another. 
+Another way to think about the Single Responsibility Principle is that a given method/class/component should have a single reason to change. Otherwise, if an object is trying to have multiple responsibilities, changing one aspect might affect another.
 
-The Single Responsibility Principle is the first of a commonly found set of 5 design principles called the __SOLID__ principles. You will read more about these principles in the assignment articles below. 
+The Single Responsibility Principle is the first of a commonly found set of 5 design principles called the __SOLID__ principles. You will read more about these principles in the assignment articles below.
 
 
 ### Loosely coupled objects
@@ -70,7 +70,7 @@ This one is related pretty strongly to 'Single Responsibility' but takes a diffe
 <div class="lesson-content__panel" markdown="1">
 
 1.  The following article mentions the acronym __SOLID__ before going on to talk about Single Responsibility. Single Responsibility is definitely the most relevant of the 5. Feel free to dig into the rest of the SOLID principles if you like, but pay special attention to Single Responsibility.
-    1. [SOLID principle #1: Single responsibility (JavaScript)](https://duncan-mcardle.medium.com/solid-principle-1-single-responsibility-javascript-5d9ce2c6f4a5) has links to other very brief articles that cover the rest of 'SOLID'. They're optional, but recommended nonetheless. __Note__: this article riffs off what the SOLID videos in the next link goes in-depth on. 
+    1. [SOLID principle #1: Single responsibility (JavaScript)](https://duncan-mcardle.medium.com/solid-principle-1-single-responsibility-javascript-5d9ce2c6f4a5) has links to other very brief articles that cover the rest of 'SOLID'. They're optional, but recommended nonetheless. __Note__: this article riffs off what the SOLID videos in the next link goes in-depth on.
     2. Watch [The SOLID Design Principles by WDS](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9) to see code examples for each principle.
 2. [How to Write Highly Scalable and Maintainable JavaScript: Coupling](https://web.archive.org/web/20200810210808/https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4) explains loosely coupled objects pretty well.
 </div>
@@ -91,3 +91,4 @@ This section contains helpful links to other content. It isn't required, so cons
 
 - [Building a house from the inside out](https://www.ayweb.dev/blog/building-a-house-from-the-inside-out) will walk you through the process of separating your core logic and DOM logic.
 
+- This [brief video by Coderized](https://www.youtube.com/watch?v=q1qKv5TBaOA) covers the SOLID programming principles and more, within the context of embracing clean coding practices and establishing a maintainable code structure. You may find it helpful if you are still confused about why these principles exist and how they can work together to improve your code, code architecture, and your skills as a programmer!

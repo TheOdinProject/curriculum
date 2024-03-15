@@ -1,6 +1,6 @@
 ### Introduction
 
-All the components by far, have been functional in style and syntax. This is common now, but you will see a different `class` based syntax too. In this lesson, we explore how a class-based component is written and how concepts like props and state are used in one.
+All the components so far have been functional in style and syntax. This is common now, but you will see a different `class` based syntax too. In this lesson, we explore how a class-based component is written and how concepts like props and state are used in one.
 
 ### Lesson overview
 
@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Historical React component patterns
 
-In your previous lessons, you have already been introduced to functional components, and the basic patterns in which components get written now a days. However, React components did not look this way when React was introduced.
+In your previous lessons, you have already been introduced to functional components, and the basic patterns in which components get written nowadays. However, React components did not look this way when React was introduced.
 
 If you look into any older React codebase, you'll notice a lot of classes. These are known as class-based components. Prior to February 2019, functional components were also called state-less, as there was no way to manage state in them. This was changed when hooks were introduced, leading to less verbose and 'neater' components.
 
@@ -20,9 +20,9 @@ In your career, chances are, you will be dealing with legacy code, so there will
 
 ### Building a class component
 
-As we already know about functional components, let us build a class-based component from a functional one. Usually, you will want to divide the contents of a component, like the one we use, into smaller, re-usable components, but for the purposes of this exercise, we stick to one component. Below, we have a sample functional component:
+As we already know about functional components, let us build a class-based component from a functional one. Usually, you will want to divide the contents of a component, like the one we use, into smaller, reusable components, but for the purposes of this exercise, we stick to one component. Below, we have a sample functional component:
 
-~~~jsx
+```jsx
 import React, { useState } from "react";
 
 const FunctionalInput = ({ name }) => {
@@ -63,15 +63,15 @@ const FunctionalInput = ({ name }) => {
 };
 
 export default FunctionalInput;
-~~~
+```
 
 That was a solid chunk of code. Take a while, sip some water and read it a couple of times.
 
 #### The start of a class-based component
 
-Now, let's try to recreate it as a class-based component. The first thing it should have is, _drumroll_, a class! But it cannot be just another class, it will need to have certain properties that qualifies it as a React component. React provides us with all those properties on a class called `Component`, and we can write our components by simply extending the given class, as shown below:
+Now, let's try to recreate it as a class-based component. The first thing it should have is, *drumroll*, a class! But it cannot be just another class, it will need to have certain properties that qualifies it as a React component. React provides us with all those properties on a class called `Component`, and we can write our components by extending the given class, as shown below:
 
-~~~jsx
+```jsx
 import React, { Component } from "react";
 
 class ClassInput extends Component {
@@ -89,17 +89,17 @@ class ClassInput extends Component {
 */
 
 export default ClassInput;
-~~~
+```
 
 #### The use of a constructor and props
 
 A class is generally incomplete without a constructor, so let's add one.
 
-The props, that get passed into this component, gets passed into the class's `constructor`. This, along with the `super` method, allows you to use the props in context to `this`, which, in _this_ case, refers to the component. If you’re really curious about what `super` actually does, [check out the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super).
+The props, that get passed into this component, gets passed into the class's `constructor`. This, along with the `super` method, allows you to use the props in context to `this`, which, in *this* case, refers to the component. If you’re really curious about what `super` actually does, [check out the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super).
 
 If your component doesn't have any props, it is fine to leave the `constructor` and the `super` with no arguments.
 
-~~~jsx
+```jsx
 import React, { Component } from "react";
 
 class ClassInput extends Component {
@@ -110,7 +110,7 @@ class ClassInput extends Component {
 }
 
 export default ClassInput;
-~~~
+```
 
 #### How you can render JSX
 
@@ -118,7 +118,7 @@ Now that the props can be accessed inside of the class component, the next issue
 
 Well, you can do that by returning your JSX from a `render` method! You can use the props that you declared in the constructor too!
 
-~~~jsx
+```jsx
 import React, { Component } from "react";
 
 class ClassInput extends Component {
@@ -146,7 +146,7 @@ class ClassInput extends Component {
 }
 
 export default ClassInput;
-~~~
+```
 
 Notice how the props get provided by `this`, unlike the functional component that we saw, initially?
 
@@ -154,7 +154,7 @@ Notice how the props get provided by `this`, unlike the functional component tha
 
 Next comes the state. In a class-based component, the state gets initialized as a part of the constructor.
 
-~~~jsx
+```jsx
 import React, { Component } from "react";
 
 class ClassInput extends Component {
@@ -185,13 +185,13 @@ class ClassInput extends Component {
 }
 
 export default ClassInput;
-~~~
+```
 
 The pre-defined `setState` method can be used to set it again! Remember, state must not be mutated, so a new state must be set, every time.
 
 <span id="the-importance-of-bind">Now, it is time to finish it off by adding all the functionality! It is nearly the same, except for a single difference. Whenever a method is declared, you must `bind` the `this` of the method to that of the class in order to work with it, as by default, the methods in a class are not bound to it. Usually, you do this inside the constructor and not at runtime [in the render method].</span>
 
-~~~jsx
+```jsx
 import React, { Component } from "react";
 
 class ClassInput extends Component {
@@ -248,7 +248,7 @@ class ClassInput extends Component {
 }
 
 export default ClassInput;
-~~~
+```
 
 And there we go, we have successfully made our first class-based component, as easy as that!
 
@@ -256,13 +256,13 @@ And there we go, we have successfully made our first class-based component, as e
 
 <div class="lesson-content__panel" markdown="1">
 
-For the purposes of this assignment, we take the simple class-based component that we built. There is an interactive example provided at the end, where you can work on.
+For the purposes of this assignment, we take the class-based component that we built and add additional functionality. There is an interactive example provided at the end to build upon.
 
-1.  Implement a delete button for each task. The delete button should remove that specific task from the state array, thus deleting the task itself! Styling isn't a priority at this moment, but the button tag should be styled by default.
+1. Implement a delete button for each task. The delete button should remove that specific task from the state array, thus deleting the task itself! Styling isn't a priority at this moment, but the button tag should be styled by default.
 
-2.  Implement a new class component, `Count` that displays the count of the number of todos, at any given time.
+1. Implement a new class component, `Count` that displays the count of the number of todos, at any given time.
 
-3.  Implement an edit button for each task. It should replace the todo with an input field, and change the button itself to 'Resubmit', so the edits can be saved. This is a comparatively harder task, kudos for when you finish it!
+1. Implement an edit button for each task. It should replace the todo with an input field, and change the button itself to 'Resubmit', so the edits can be saved. This is a comparatively harder task, kudos for when you finish it!
 
 <iframe src="https://codesandbox.io/embed/github/TheOdinProject/react-examples/tree/main/class-component-example?fontsize=14&hidenavigation=1&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
@@ -275,15 +275,15 @@ For the purposes of this assignment, we take the simple class-based component th
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#the-use-of-a-constructor-and-props">How do props get used in a class-based component?</a>
-- <a class="knowledge-check-link" href="#way-to-render-jsx">How does JSX get displayed?</a>
-- <a class="knowledge-check-link" href="#how-to-use-state-and-manage-context">How do we deal with state in a class-based component?</a>
-- <a class="knowledge-check-link" href="#the-importance-of-bind">How do you restore the context of `this` in a method?</a>
+- [How do props get used in a class-based component?](#the-use-of-a-constructor-and-props)
+- [How does JSX get displayed?](#how-you-can-render-jsx)
+- [How do we deal with state in a class-based component?](#how-to-use-state-and-manage-context)
+- [How do you restore the context of `this` in a method?](#the-importance-of-bind)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - In general, the React documentation on [thinking in react](https://reactjs.org/docs/thinking-in-react.html) is a really good place to look into, if you want more practice with class-based components, from scratch.

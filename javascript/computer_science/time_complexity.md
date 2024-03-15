@@ -14,17 +14,17 @@ In this lesson, we'll introduce the core concepts around measuring the time effi
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* How the efficiency of an algorithm is measured.
-* What is Big O.
-* What are the Big O notations used to measure an algorithm's efficiency.
-* How else can we measure an algorithm's efficiency.
-* What to do when two algorithms have the same complexity.
+- How the efficiency of an algorithm is measured.
+- What is Big O.
+- What are the Big O notations used to measure an algorithm's efficiency.
+- How else can we measure an algorithm's efficiency.
+- What to do when two algorithms have the same complexity.
 
 ### Efficiency basics
 
-The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little program that prints out all odd numbers between 1 and 10.
+The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a little program that prints out all odd numbers between 1 and 10.
 
-~~~js
+```js
 function oddNumbersLessThanTen() {
   let currentNumber = 1;
 
@@ -36,7 +36,7 @@ function oddNumbersLessThanTen() {
     currentNumber += 1;
   }
 }
-~~~
+```
 
 If you were to run this in your terminal, you should get the numbers `1`, `3`, `5`, `7` and `9` printed to the console. It probably took a fraction of a second to run. If you were to run it again, it might take the same time, or it might be faster or slower depending on what else your computer is doing. If you were to run it on a different computer, it would again run faster or slower. Therefore it's important to understand that you never measure the efficiency of an algorithm by how long it takes to execute.
 
@@ -49,11 +49,11 @@ Let's go back to our `oddNumbersLessThanTen function`. How many steps does our a
 1. We assign the number 1 to a variable. That's one step.
 
 2. We have a loop. For each iteration of the loop, we do the following:
+
     1. Compare `currentNumber` to see if it is less than 10. That is 1 step.
     2. We then check if currentNumber is odd. That is 1 step.
     3. If it is then we output it to the terminal. That's 1 step every 2 iterations.
     4. We increase `currentNumber` by 1. That is 1 step.
-
 
 3. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
 
@@ -63,7 +63,7 @@ Therefore, we can say our algorithm takes 34 steps to complete.
 
 While this is useful to know, it isn't actually helpful for comparing algorithms. To see why, let's slightly modify our initial algorithm to take in a number instead of setting a hard default of 10.
 
-~~~js
+```js
 function oddNumbers(maxNumber) {
   let currentNumber = 1;
 
@@ -75,11 +75,11 @@ function oddNumbers(maxNumber) {
     currentNumber += 1;
   }
 }
-~~~
+```
 
 How many steps does this algorithm take?
 
-You've probably realised the answer is it depends. If you  set `maxNumber` to be 10, like we did before, the number of steps is 34, but if you enter another number then the number of steps changes. There is no concrete number we can use to measure the efficiency of our code because it changes based on an external input.
+You've probably realised the answer is it depends. If you set `maxNumber` to be 10, like we did before, the number of steps is 34, but if you enter another number then the number of steps changes. There is no concrete number we can use to measure the efficiency of our code because it changes based on an external input.
 
 So what we really want to be able to measure is how the number of steps of our algorithm changes when the data changes. This helps us answer the question of whether the code we write will scale.
 
@@ -87,11 +87,11 @@ To do that, we need to delve into a new concept: Asymptotic Notations and, in pa
 
 ### Asymptotic notations
 
-Simply put, Asymptotic Notations are used to describe the running time of an algorithm. Because an algorithm's running time can differ depending on the input, there are several notations that measure that running time in different ways. The 3 most common are as follows:
+Asymptotic Notations are used to describe the running time of an algorithm. Because an algorithm's running time can differ depending on the input, there are several notations that measure that running time in different ways. The 3 most common are as follows:
 
-* Big O Notation - represents the upper bound of an algorithm. This means the worst-case scenario for how the algorithm will perform.
-* Omega Notation - represents the lower bound of an algorithm. This is the best-case scenario.
-* Theta Notation - represents both the upper bound and lower bound and therefore analyses the average case complexity of an algorithm.
+- Big O Notation - represents the upper bound of an algorithm. This means the worst-case scenario for how the algorithm will perform.
+- Omega Notation - represents the lower bound of an algorithm. This is the best-case scenario.
+- Theta Notation - represents both the upper bound and lower bound and therefore analyses the average case complexity of an algorithm.
 
 Big O is the one you'll most commonly see referenced because you need to be sure the worst-case scenario for any code you write is scalable as the inputs grow in your application.
 
@@ -120,17 +120,17 @@ The Big O Notations in the order of speed from fastest to slowest are:
 
 #### O(1) - Constant complexity
 
-To understand Constant Complexity, let's use a simple array.
+To understand Constant Complexity, let's use an array.
 
-~~~js
-arr = [1, 2, 3, 4, 5]
-~~~
+```js
+arr = [1, 2, 3, 4, 5];
+```
 
 If we want to look up what is at index 2, we can get to the element using `arr[2]` which would give us back `3`. This takes just one step. If we double our array...
 
-~~~js
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-~~~
+```js
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+```
 
 We can still access any element in just one step. `arr[7]` gives us `8` in a single step. Our array can keep growing and we can always access any element in a single step. It's constant. Hence we have `O(1)`.
 
@@ -144,36 +144,36 @@ Do the number of steps matter? Yes, they might. We'll touch on when this may be 
 
 Logarithmic Complexity tells us that the numbers of steps an algorithm takes increases by 1 as the data doubles. That's still pretty efficient when you think about it. Going from 5,000 to 10,000 data elements and only taking one additional step can scale really well.
 
-One such algorithm that does this is Binary Search. It only works on sorted arrays, but if you have an array of 10 items in sorted order 
+One such algorithm that does this is Binary Search. It only works on sorted arrays, but if you have an array of 10 items in sorted order
 
-~~~js
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-~~~
+```js
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+```
 
 and wanted to know if it had the number `7`, Binary Search would guess the middle item of the array and see what is there. Because the array is sorted, if the number at the middle index was `6`, then we know anything to the left of that index cannot be the number 7, as those items must be lower than 6 in a sorted array.
 
-~~~js
+```js
 arr = [-, -, -, -, -, 6, 7, 8, 9, 10]
-~~~
+```
 
 Therefore in just one step, we've eliminated half of the array. We can do the same with the remaining half. We can guess the middle index and see if it's 7. Half of that (half of an array) array eliminated again. In this case, the middle index would be 8, and we know that 7 is less than 8 so we can eliminate anything to the right of the number 8.
 
-~~~js
+```js
 arr = [6, 7, 8, -, -]
-~~~
+```
 
 We can keep doing this until we have an array of just one item. If it matches the number we're looking for, we've found it. If not, then it isn't in the array.
 
 The below table summarises the size of an array doubling and how many steps in Big O terms we would need to arrive at one element to see if it matches what we're looking for:
 
 | Size | Steps |
-| ----------- | ----------- |
-| 1 | 1 |
-| 2 | 2 |
-| 4 | 3 |
-| 8 | 4 |
-| 16 | 5 |
-| 32 | 6 |
+| ---- | ----- |
+| 1    | 1     |
+| 2    | 2     |
+| 4    | 3     |
+| 8    | 4     |
+| 16   | 5     |
+| 32   | 6     |
 
 Pretty impressive eh!
 
@@ -185,7 +185,7 @@ This one is pretty easy to wrap your head around. Linear Complexity just tells u
 
 You can't say this one isn't appropriately named. This notation usually implies we have an algorithm which initially is `O(log N)` such as our example earlier of Binary Search where it repeatedly breaks an array in half, but with `O(N log N)` each of those array halves is processed by another algorithm with a complexity of `O(N)`.
 
-One such algorithm is merge sort, and it just so happens you tackle this project in our course :)
+One such algorithm is the merge sort algorithm from our previous lesson. :)
 
 However, not all `O(N log N)` situations are built this way. There are special cases, like constructing a [Cartesian tree](https://www.geeksforgeeks.org/cartesian-tree/), where the algorithm naturally behaves like `O(N log N)` without using smaller parts with `O(N)` or `O(log N)` complexities inside. The keen amongst you may wish to have a peek at how this algorithm works. This shows that while nested complexities can be common, they're not the only way an algorithm can achieve a particular time complexity.
 
@@ -200,23 +200,22 @@ We hope you can see where we're going with this...
 Think triple nested loops baby. If looping over an array with n items, 1 extra item adds an extra outer loop, an extra middle loop, and an extra innermost loop. When using such triply nested loops on an array of size n, we require a total of n&#179; sub-steps.  
 For example, if our array has 3 items, the triply-nested loops require a total of 3&#179; = 27 sub-steps. Adding one more item more than doubles this number to 4&#179; = 64 sub-steps. The task almost doubles again for 5 items, with 5&#179; = 125 sub-steps. Doubling our array size to 10 items means we require 10&#179; = 1000 sub-steps in total, 8 times as many as before! 100 items in the array require a total of 1,000,000 sub-steps. Ouch!
 
-
 #### O(2&#8319;) - Exponential complexity
 
 Exponential Complexity means that with each item added to the data size, the number of steps doubles from the previous number of steps. Let's provide a little table to see how quickly this can get out of hand.
 
 | Size | Steps |
-| ----------- | ----------- |
-| 1 | 2 |
-| 2 | 4 |
-| 3 | 8 |
-| 4 | 16 |
-| 5 | 32 |
-| 6 | 64 |
-| 7 | 128 |
-| 8 | 256 |
-| 9 | 512 |
-| 10 | 1024 |
+| ---- | ----- |
+| 1    | 2     |
+| 2    | 4     |
+| 3    | 8     |
+| 4    | 16    |
+| 5    | 32    |
+| 6    | 64    |
+| 7    | 128   |
+| 8    | 256   |
+| 9    | 512   |
+| 10   | 1024  |
 
 You want to avoid this if at all possible, otherwise you won't be processing much data quickly.
 
@@ -236,16 +235,16 @@ If Big O gives us the worst-case scenario of how our algorithm will scale, what 
 
 Omega Notations gives us the best-case scenario for an algorithm. To understand where this might be, let's look at a method and discuss how we can measure its complexity.
 
-~~~js
+```js
 function findValue(arr) {
   for (let i = 0; i < arr.length; i++) {
     let item = arr[i];
     if (item === 1) {
-      return item
+      return item;
     }
   }
 }
-~~~
+```
 
 In the worst case (Big O), which would happen if the item is not in the array, we would say it had linear complexity `O(N)`. This is because the `item` we are looking for is not in the array, so our code must iterate on every value. If the array input doubles in size then the worst case also means our method must double the number of iterations looking for the `item`.
 
@@ -273,7 +272,7 @@ If we write two algorithms with the same complexity, does that mean they're equa
 
 The first example is some code we've seen already, our `oddNumbers` function.
 
-~~~js
+```js
 function oddNumbers(maxNumber) {
   let currentNumber = 1;
 
@@ -285,13 +284,13 @@ function oddNumbers(maxNumber) {
     currentNumber += 1;
   }
 }
-~~~
+```
 
 The time complexity of this algorithm is `O(N)`. As the data size increases, the number of steps of our algorithm increases at the same rate.
 
 Let's look at another version:
 
-~~~js
+```js
 function oddNumbers(maxNumber) {
   let currentNumber = 1;
 
@@ -303,7 +302,7 @@ function oddNumbers(maxNumber) {
     currentNumber += 2;
   }
 }
-~~~
+```
 
 Not much of a change, but this time we increase `currentNumber` by 2. How does this affect our algorithm runtime? Well, for an input of `n`, the number of steps is approximately half as we iterate by 2 each time. This is an algorithm of `O(N/2)` but as I've mentioned earlier, Big O doesn't concern itself with constants because they aren't relative to how an algorithm scales as the input changes and it wouldn't be fun or easy to have to compare an algorithm of `O(N/2 + 5 N)` against `O(N + 5 / 2N)`. Therefore, the Big O efficiency of both algorithms is `O(N)`. They scale at the same rate as the input grows.
 
@@ -323,13 +322,15 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-*   [What is Big O?](#what-is-big-o)
-*   [What are the Big O Notations?](#big-o-notation)
-*   [Why use Big O?](#why-big-o)
-*   [What is Big Omega and why isn't it as useful?](#big-937-omega-notation)
+- [What is Big O?](#what-is-big-o)
+- [What are the Big O Notations?](#big-o-notation)
+- [Why use Big O?](#why-big-o)
+- [What is Big Omega and why isn't it as useful?](#big--omega-notation)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-1.  It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
+-  It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
+
+-  In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.

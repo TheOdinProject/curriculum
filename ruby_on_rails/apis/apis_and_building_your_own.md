@@ -6,7 +6,7 @@ Backing up, if you're still unclear on what an API (Application Programming Inte
 
 "API" is an incredibly broad concept -- any time your application talks to another application, that's via some sort of API.  The components within your own application, e.g. the different pieces of Rails, also talk to each other via APIs... they are more or less independent sub-applications that pass along the data they each need to complete their particular task.  Everything's an API in application-land!
 
-When you build applications that have more dynamic front-end functionality (as complicated as single page JavaScript applications or as simple as individual AJAX calls), they will talk to your Rails backend via your own APIs... which is really just an extra line or two of code to tell your controllers how to spit out JSON or XML instead of HTML.  
+When you build applications that have more dynamic front-end functionality (as complicated as single page JavaScript applications or as basic as individual AJAX calls), they will talk to your Rails backend via your own APIs... which is really just an extra line or two of code to tell your controllers how to spit out JSON or XML instead of HTML.  
 
 In this lesson, we'll cover how to build your own API.  In the following lesson, we'll cover how to interface with the APIs of other applications.  The lessons are meant to give you a good onramp to learning this stuff but couldn't possibly cover all the cases.  Much of working with APIs is learning to read their documentation and figure out what they want.
 
@@ -25,9 +25,9 @@ Your Rails application is basically already an API, though you may not think of 
 
 Often, though, you want to make a request that doesn't need to go through all the headache of using a web browser.  You may not care how the page is structured (HTML), but instead just want to get straight to the data.  Say you want to get a list of all users.  You could go to something like `http://yourapplication.com/users` which will probably run the `#index` action and render a list of all the application's users.  
 
-But why bother with all that extra stuff if all you want is the user list?  The easiest thing to do would be to submit a request to that same URL asking for a JSON or XML response instead.  If you set up your Rails controller properly, you will get back a simple JSON array object containing all the users.  Sweet!
+But why bother with all that extra stuff if all you want is the user list?  The easiest thing to do would be to submit a request to that same URL asking for a JSON or XML response instead.  If you set up your Rails controller properly, you will get back a JSON array object containing all the users.  Sweet!
 
-The same principle applies if you're talking to external APIs... say you want to grab a user's recent tweets from Twitter.  You just need to tell your Rails app how to talk to Twitter's API (e.g. authenticate yourself), submit the request, and handle the bunch of tweets that get returned.  
+The same principle applies if you're talking to external APIs... say you want to grab a user's recent posts from X (formerly known as Twitter).  You just need to tell your Rails app how to talk to Twitter's API (e.g. authenticate yourself), submit the request, and handle the bunch of posts that get returned.  
 
 ### Building APIs
 
@@ -126,7 +126,7 @@ See the [as_json documentation](https://api.rubyonrails.org/classes/ActiveModel/
 #### Rendering nothing or errors
 
 Sometimes you just want to send out an HTTP error code without any response body. [Rails guides](https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses) once again comes in really handy with an elegant solution for this problem. 
-Here's a simple example (again we are just rendering the error in all cases):
+Here's an example (again we are just rendering the error in all cases):
 
 ~~~ruby
   # app/controllers/users_controller.rb
@@ -156,7 +156,7 @@ Let's say you want to only allow an API call if your user is logged in.  Your ex
 
 Right now you've got the ability to use your Rails app to serve up not just HTML but also whatever formats you want.  If you'd like to take this further and allow other developers to build on your platform (so they'll be making programmatic requests instead of logging in as users), you'll need to make your API system far more robust.  We won't cover it all here, but check out the following:
 
-* [Building Awesome Rails APIs](http://collectiveidea.com/blog/archives/2013/06/13/building-awesome-rails-apis-part-1/) has a lot of best practices for moving beyond a toy API and into a production-ready app.
+- [Building Awesome Rails APIs](http://collectiveidea.com/blog/archives/2013/06/13/building-awesome-rails-apis-part-1/) has a lot of best practices for moving beyond a toy API and into a production-ready app.
 
 ### Service Oriented Architecture (SOA)
 
@@ -170,17 +170,12 @@ Using an SOA architecture for your whole application is sort of like breaking up
 
 One of the best known cases of switching to a service-oriented architecture was Amazon.com.  Sometime in 2002, Jeff Bezos basically dictated that every group would switch to SOA or be fired.  An [infamous blog post](https://gist.github.com/chitchcock/1281611) from a Google Employee, accidentally released to the public instead of staying internal to the company, talked about Amazon's strength with SOA.  It's a great read so check it out, but the basics of Bezos' email are, as quoted from the post:
 
-> 1) All teams will henceforth expose their data and functionality through service interfaces.
-
-> 2) Teams must communicate with each other through these interfaces.
-
-> 3) There will be no other form of interprocess communication allowed: no direct linking, no direct reads of another team's data store, no shared-memory model, no back-doors whatsoever. The only communication allowed is via service interface calls over the network.
-
-> 4) It doesn't matter what technology they use. HTTP, Corba, Pubsub, custom protocols -- doesn't matter. Bezos doesn't care.
-
-> 5) All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.
-
-> 6) Anyone who doesn't do this will be fired.
+1. All teams will henceforth expose their data and functionality through service interfaces.
+1. Teams must communicate with each other through these interfaces.
+1. There will be no other form of interprocess communication allowed: no direct linking, no direct reads of another team's data store, no shared-memory model, no back-doors whatsoever. The only communication allowed is via service interface calls over the network.
+1. It doesn't matter what technology they use. HTTP, Corba, Pubsub, custom protocols -- doesn't matter. Bezos doesn't care.
+1. All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.
+1. Anyone who doesn't do this will be fired.
 
 SOA is a big deal.  There are certainly a lot of issues that crop up when you're using it -- see [this post on Amazon's "lessons learned"](http://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/) -- but it ultimately has a lot of benefit.
 
@@ -202,24 +197,26 @@ In the next lesson, we'll cover working with other people's APIs, which can add 
 </div>
 
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href="#http-request-format">How does Rails know which type of file you are expecting back when you make an HTTP request?</a>
-* <a class="knowledge-check-link" href="#rendering-json-or-xml">What is the purpose of the `#respond_to` method?</a>
-* <a class="knowledge-check-link" href="#specifying-attributes-to-return">How do you return a User object but specify that you don't want to include certain attributes (i.e. you can't just return `User.first`)?</a>
-* <a class="knowledge-check-link" href="#to-json-steps">What are the two steps performed behind the scenes by the `#to_json` method?</a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses">How do you tell a controller action to render nothing but an error message?</a>
-* <a class="knowledge-check-link" href="https://web-crunch.com/posts/custom-error-page-ruby-on-rails">How do you build your own custom error messages?</a>
-* <a class="knowledge-check-link" href="#api-tokens">Why can't you use session-based controller authentication methods if you want people to access your API programmatically?</a>
-* <a class="knowledge-check-link" href="#service-oriented-architecture-soa">What is "Service Oriented Architecture?</a>
+This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+- <a class="knowledge-check-link" href="#http-request-format">How does Rails know which type of file you are expecting back when you make an HTTP request?</a>
+- <a class="knowledge-check-link" href="#rendering-json-or-xml">What is the purpose of the `#respond_to` method?</a>
+- <a class="knowledge-check-link" href="#specifying-attributes-to-return">How do you return a User object but specify that you don't want to include certain attributes (i.e. you can't just return `User.first`)?</a>
+- <a class="knowledge-check-link" href="#to-json-steps">What are the two steps performed behind the scenes by the `#to_json` method?</a>
+- <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses">How do you tell a controller action to render nothing but an error message?</a>
+- <a class="knowledge-check-link" href="https://web-crunch.com/posts/custom-error-page-ruby-on-rails">How do you build your own custom error messages?</a>
+- <a class="knowledge-check-link" href="#api-tokens">Why can't you use session-based controller authentication methods if you want people to access your API programmatically?</a>
+- <a class="knowledge-check-link" href="#service-oriented-architecture-soa">What is "Service Oriented Architecture?</a>
 
 ### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* Watch [this free Railscast on making your App into an API](http://railscasts.com/episodes/348-the-rails-api-gem)
-* Watch [this free Railscast on securing your API](http://railscasts.com/episodes/352-securing-an-api)
-* Watch [this free Railscast on versioning your API](http://railscasts.com/episodes/350-rest-api-versioning)
-* [GoRails #162 Our First API](https://www.gorails.com/episodes/our-first-api)
-* [Building a public-facing API using view templates instead of `#to_json`](http://blog.codepath.com/2011/05/16/if-youre-using-to_json-youre-doing-it-wrong/)
-* [`to_json` or `as_json` by Jonathan Julian](http://jonathanjulian.com/2010/04/rails-to_json-or-as_json/) gives specific examples of digging into the `as_json` method.
-* [Service Oriented Architecture Explained](https://www.youtube.com/watch?v=7s_S5Hkm7z0)
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- Watch [this free Railscast on making your App into an API](http://railscasts.com/episodes/348-the-rails-api-gem)
+- Watch [this free Railscast on securing your API](http://railscasts.com/episodes/352-securing-an-api)
+- Watch [this free Railscast on versioning your API](http://railscasts.com/episodes/350-rest-api-versioning)
+- [GoRails #162 Our First API](https://www.gorails.com/episodes/our-first-api)
+- [Building a public-facing API using view templates instead of `#to_json`](http://blog.codepath.com/2011/05/16/if-youre-using-to_json-youre-doing-it-wrong/)
+- [`to_json` or `as_json` by Jonathan Julian](http://jonathanjulian.com/2010/04/rails-to_json-or-as_json/) gives specific examples of digging into the `as_json` method.
+- [Service Oriented Architecture Explained](https://www.youtube.com/watch?v=7s_S5Hkm7z0)

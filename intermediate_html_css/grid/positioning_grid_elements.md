@@ -2,13 +2,13 @@
 
 In this lesson we will examine the different parts of a grid and explore common properties that can be used to position grid items.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-* Describe the differences between tracks, lines, and cells
-* Position items by defining their start and end lines
-* Use shorthand notation
+- Describe the differences between tracks, lines, and cells.
+- Position items by defining their start and end lines.
+- Use shorthand notation.
 
 ### Reviewing tracks
 
@@ -94,13 +94,13 @@ There is an even shorter shorthand for positioning grid items with start and end
 
 Our living room above can be written out like this:
 
-~~~css
+```css
 /* styles.css */
 
 #living-room {
   grid-area: 1 / 1 / 3 / 6;
 }
-~~~
+```
 
 But `grid-area` can also refer to a few different things.
 
@@ -108,13 +108,13 @@ Instead of using the grid lines to position all the items in a grid, we can crea
 
 So our living room can be written just like this:
 
-~~~css
+```css
 /* styles.css */
 
 #living-room {
   grid-area: living-room;
 }
-~~~
+```
 
 We could do this to all of our grid items and give each room a `grid-area` value as a name. Then we can map out the whole structure with the grid container using `grid-template-areas`.
 

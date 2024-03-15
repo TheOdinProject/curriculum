@@ -55,4 +55,4 @@ Track every application you send out in your spreadsheet by the date you sent it
 
 Follow up on all applications you care about.  Follow up once in the first few days and again after a week or two if you haven't heard anything.  This obviously works best if you've identified an individual at the company before, but the point is that perseverance matters and it can help you display the kind of drive you're trying to show in your resume anyway.
 
-This actually applies to the whole process, not just applications.  Follow up your interviews (with a thank you to your interviewer on day 1 too).  Follow up your tech screens.  The goal here isn't to be naggy and annoying/desperate, and it's certainly not to be a robot sending auto-generated emails all the time.  Just be human and honest and simple in your language.
+This actually applies to the whole process, not just applications.  Follow up your interviews (with a thank you to your interviewer on day 1 too).  Follow up your tech screens.  The goal here isn't to be naggy and annoying/desperate, and it's certainly not to be a robot sending auto-generated emails all the time. Just be human and honest in your language.

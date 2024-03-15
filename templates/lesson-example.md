@@ -16,11 +16,14 @@ This section contains a general overview of topics that you will learn in this l
 The first important concept that you need to understand to be successful in CSS is the box model. It isn’t complicated, but skipping over it now will cause you much frustration down the line.
 
 <div class="lesson-note" markdown="1">
-<h4>Everything is a box </h4>
-Every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another. 
+
+#### Everything is a box
+
+Every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another.
+
 </div>
 
-### Another section 
+### Another section
 
 This section isn't in the original lesson, but we wanted to show what adding an additional custom section would look like.
 
@@ -28,22 +31,23 @@ This section isn't in the original lesson, but we wanted to show what adding an 
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Because the box model concept is so incredibly fundamental, check out [this lesson from MDN](#). It covers the same material as the video above, but it goes a little further in depth. Pay close attention to the examples and take the time to experiment with their in-browser editor!
+1. Because the box model concept is so incredibly fundamental, check out this [MDN lesson on the box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model). It covers the same material as the video above, but it goes a little further in depth. Pay close attention to the examples and take the time to experiment with their in-browser editor!
 
    - This isn't in the original lesson, but if we wanted users to only read certain sections, we would include them here. For example, we could tell users to only read the below sections in the MDN page linked above.
    - Parts of a box
    - The standard CSS box model
    - The alternative CSS box model
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [From inside to outside, what is the order of box-model properties?](#the-box-model)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

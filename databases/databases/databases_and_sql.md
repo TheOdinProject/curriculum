@@ -8,7 +8,7 @@ All of those examples involve you engaging with your database.  Luckily, many da
 
 You will start with the questions like the ones above and then have to figure out how to ask them properly of your database, which likely has a bunch of different tables in it.  Everyone probably visualizes it a bit differently, but finding a way to visualize what's going on when you do SQL queries is pretty important. We actually think of Excel tables moving in our head and combining with each other and reshuffling as necessary. To each their own.
 
-We'll move beyond just the simple `SELECT "users".* FROM "users" LIMIT 1` queries and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
+We'll move beyond just the `SELECT "users".* FROM "users" LIMIT 1` queries and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
 
 All this stuff is being used by Rails behind the scenes so understanding it will make you much better at writing queries in Rails. This is why we're going over databases before learning Rails.
 
@@ -19,16 +19,17 @@ SQL is one of those topics that's been stored away in dusty old technical manual
 Though the prevalence of web applications these days has grown the demand among new users to focus on understanding the *concepts* of SQL, the learning tools haven't really caught up. We'll do our best to impart those concepts using the tools available.
 
 ### Lesson overview
+
 This section contains a general overview of topics that you will learn in this lesson.
 
--   What a Primary Key is.
--   What Foreign Keys are.
--   What a Schema is.
--   How to use various SQL statements like `SELECT`, `CREATE TABLE`, `UPDATE`, `DELETE` and more.
--   How to use various SQL clauses like `WHERE`, `LIKE`, `DISTINCT` and more.
--   How to use various SQL functions like `AVG`, `COUNT`, `SUM` and more.
--   What Indexes are good for.
--   What the difference between `WHERE` and `HAVING` is.
+- What a Primary Key is.
+- What Foreign Keys are.
+- What a Schema is.
+- How to use various SQL statements like `SELECT`, `CREATE TABLE`, `UPDATE`, `DELETE` and more.
+- How to use various SQL clauses like `WHERE`, `LIKE`, `DISTINCT` and more.
+- How to use various SQL functions like `AVG`, `COUNT`, `SUM` and more.
+- What Indexes are good for.
+- What the difference between `WHERE` and `HAVING` is.
 
 ### The world's fastest semi-complete explanation of SQL
 
@@ -58,13 +59,13 @@ For "Destroy" queries, the classic mistake is typing `DELETE FROM users` without
 
 "Update" queries use `UPDATE` and you'll need to tell it what data to `SET` (using key="value" pairs) and which rows to do those updates for.  Be careful because if your `WHERE` clause finds multiple rows (e.g. if you've searched based on a common first name), they'll all get updated. A standard query for updating a user's email may look something like the following (though in the real world you'd search on ID because it's always unique):
 
-~~~sql
+```sql
   UPDATE users
   SET name='barfoo', email='bar@foo.com'
   WHERE email='foo@bar.com';
-~~~
+```
 
-<span id='sql-read'>"Read" queries, which use `SELECT`, are the most common, e.g. `SELECT * FROM users WHERE created_at < '2013-12-11 15:35:59 -0800'`</span>.  The `*` you see just says "all the columns".  Specify a column using both the table name and the column name.  You can get away with just the column name for simple queries but as soon as there are more than one table involved, SQL will yell at you so just always specify the table name: `SELECT users.id, users.name FROM users`.
+<span id='sql-read'>"Read" queries, which use `SELECT`, are the most common, e.g. `SELECT * FROM users WHERE created_at < '2013-12-11 15:35:59 -0800'`</span>.  The `*` you see just says "all the columns".  Specify a column using both the table name and the column name. You can get away with just the column name for queries of one table, but as soon as there are more than one table involved, SQL will yell at you so just always specify the table name: `SELECT users.id, users.name FROM users`.
 
 A close cousin of `SELECT`, for if you only want unique values of a column, is `SELECT DISTINCT`.  Say you want a list of all the different names of your users without any duplicates... try `SELECT DISTINCT users.name FROM users`.
 
@@ -72,9 +73,11 @@ A close cousin of `SELECT`, for if you only want unique values of a column, is `
 
 If you want to get all the posts created by a given user, you need to tell SQL which columns it should use to zip the tables together with the `ON` clause. Perform the "zipping" with the `JOIN` command.  But wait, if you mash two tables together where the data doesn't perfectly match up (e.g. there are multiple posts for one user), which rows do you actually keep?  There are four different possibilities:
 
-_(__note:__ the "left" table is the original table (the one that the `FROM` clause was `ON`), e.g. "users" in examples below.)_
+<div class="lesson-note lesson-note--tip" markdown="1">
 
-*See ["A Visual Explanation of SQL Joins"](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins) by Jeff Atwood for good visuals.*
+The "left" table is the original table (the one that the `FROM` clause was `ON`), e.g. "users" in examples below.
+
+</div>
 
 1. `INNER JOIN`, aka `JOIN` -- Your best friend and 95% of what you'll use.  <span id='inner-join'>Keeps only the rows from both tables where they match up</span>.  If you asked for all the posts for all users (`SELECT * FROM users JOIN posts ON users.id = posts.user_id`), it would return only the users who have actually written posts and only posts which have specified their author in the `user_id` column.  If an author has written multiple posts, there will be multiple rows returned (but the columns containing the user data will just be repeated).
 2. `LEFT OUTER JOIN` -- keep all the rows from the left table and add on any rows from the right table which match up to the left table's.  Set any empty cells this produces to `NULL`.  E.g. return all the users whether they have written posts or not.  If they do have posts, list those posts as above.  If not, set the columns we asked for from the "posts" table to `NULL`.
@@ -82,6 +85,8 @@ _(__note:__ the "left" table is the original table (the one that the `FROM` clau
 4. `FULL OUTER JOIN` -- Keep all rows from all tables, even if there are mismatches between them.  Set any mismatched cells to `NULL`.
 
 Joins naturally let you specify conditions too, like if you only want the posts from a specific user: `SELECT * FROM users JOIN posts ON users.id = posts.user_id WHERE users.id = 42`.
+
+*See ["A Visual Explanation of SQL Joins"](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins) by Jeff Atwood for good visuals.*
 
 Read through [W3 Schools' Joins lesson](http://www.w3schools.com/sql/sql_join.asp) for a better explanation.
 
@@ -93,24 +98,24 @@ You often see aliases (`AS`) used to rename columns or aggregate functions so yo
 
 Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which return just a single value for your whole dataset are nice, but they become really useful when you want to use them on very specific chunks of your data and then group them together, e.g. displaying the `COUNT` of posts for EACH user (as opposed to the count of all posts by all users).  That would look like:
 
-~~~sql
+```sql
   SELECT users.id, users.name, COUNT(posts.id) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
   GROUP BY users.id;
-~~~
+```
 
 See [W3 Schools' article](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and play around with the SQL in the window (try deleting the `GROUP BY` line) for an interactive visual.
 
 The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  <span id='having-function'>So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates</span>.  So say you only want to display users who have written more than 10 posts:
 
-~~~sql
+```sql
   SELECT users.id, users.name, COUNT(posts.id) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
   GROUP BY users.id
   HAVING posts_written >= 10;
-~~~
+```
 
 Try going back to [the W3 Schools' example](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and joining the `Customers` and the `Orders` tables to get the number of orders in each country and adding the line `HAVING COUNT(*) > 10;` after `GROUP BY` (and delete the extra semicolon in the previous line).
 
@@ -151,7 +156,7 @@ This section contains questions for you to check your understanding of this less
 - [In which situation would you use the `HAVING` function?](#having-function)
 - [Why can't I just use Ruby to process my database data?](#sql-is-faster-than-ruby)
 
- ### Additional Resources
+### Additional resources
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 -   Odinite Hunter D made his excellent notes into a [Git Book on SQL](https://hunter-ducharme.gitbook.io/sql-basics) which you should totally check out if you want a decent resource.

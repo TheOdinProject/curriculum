@@ -8,7 +8,7 @@ In this lesson, we'll learn about mocking. Furthermore, we'll discuss a React co
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* Carry out mocks in the context of React testing.
+- Carry out mocks in the context of React testing.
 
 ### What is mocking?
 
@@ -16,31 +16,31 @@ If you've been following along with our lessons so far, the concept of mocking h
 
 #### Testing callback handlers
 
-Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. Sometimes they're passed in as props to alter state of the parent component. Consider this simple button component:
+Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. Sometimes they're passed in as props to alter state of the parent component. Consider this button component:
 
-~~~jsx
+```jsx
 // CustomButton.jsx
 
-const CustomButton = ({ onClick}) => {
+const CustomButton = ({ onClick }) => {
   return (
     <button onClick={onClick}>Click me</button> 
   );
 };
 
 export default CustomButton;
-~~~
+```
 
-Nothing fancy. `CustomButton` is a simple component with a couple props passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user clicks the button. Let's test it.
+Nothing fancy. `CustomButton` is a component with a prop passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user clicks the button. Let's test it.
 
 <span id="testing-callback-handlers">Notice how we mock and test the `onClick` function</span>:
 
-~~~jsx
+```jsx
 // CustomButton.test.jsx
 
 import { vi } from 'vitest'
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import CustomButton from "./FavoriteInput";
+import CustomButton from "./CustomButton";
 
 describe("CustomButton", () => {
     it("should render a button with the text 'Click me'", () => {
@@ -70,7 +70,7 @@ describe("CustomButton", () => {
         expect(onClick).not.toHaveBeenCalled();
     });
 });
-~~~
+```
 
 Three tests and we are done with this component. You should be already familiar with how the first test works. Take some time to figure out what functions come from which package.
 
@@ -86,7 +86,7 @@ You might have come across the concept of mocking modules. In React, when the co
 
 ### React testing in the real world
 
-If you're logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components were written in React and tested with the React Testing Library. They have since been removed, but they still serve as great examples. This'll be fun. Your task is simple:
+If you're logged in on this ([theodinproject.com](https://theodinproject.com)) website, you've probably come across the project submissions list under every project. Those components were written in React and tested with the React Testing Library. They have since been removed, but they still serve as great examples. This'll be fun. Your task is:
 
 Read and try to comprehend the [submissions-list.jsx](https://github.com/TheOdinProject/theodinproject/blob/0886578d5b27a967e6bba2b31f212efe284d9413/app/javascript/components/project-submissions/components/submissions-list.jsx) component. It's okay if you don't understand everything. And the good news is that we don't have to understand it all to follow along with this lesson!
 
@@ -116,16 +116,24 @@ We notice there are two child components of `SubmissionsList`. One of them is fr
 
 <span id="mock-child-component">Notice how we mock the `Submission` component</span>:
 
-~~~jsx
+```jsx
 jest.mock('../submission', () => ({ submission, isDashboardView }) => (
   <>
     <div data-test-id="submission">{submission.id}</div>
     <div data-test-id="dashboard">{isDashboardView.toString()}</div>
   </>
 ));
-~~~
+```
 
 We only render the bare minimum to realize the validity of the component we're testing. Next, we set up our props with fake data and mocked functions.
+
+<div class="lesson-note" markdown="1">
+
+#### Note - Vitest mocks
+
+The test here used `jest.mock()`. If you followed along and set up your test using Vitest, you may use `vi.mock()` instead. See [`vi.mock()` API](https://vitest.dev/api/vi.html#vi-mock).
+
+</div>
 
 Let's move toward our first assertion. Don't worry too much about the `ProjectSubmissionContext.Provider`. In the context of this test, its purpose is to act as a route to pass in the `allSubmissionsPath` prop. We've already identified the three points of interest that we want to test. We divide them into three test suites for readability purposes using `describe`.
 

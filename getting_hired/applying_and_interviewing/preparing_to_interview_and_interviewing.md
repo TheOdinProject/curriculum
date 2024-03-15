@@ -58,12 +58,22 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/) is **OPTIONAL READING** and it has the potential to be your best friend. It comprehensively covers all the kinds of challenges you might face in a coding interview. It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.
 
 ### Coding test questions:
-* [8 Queens](http://jetheis.com/blog/2013/12/01/programming-interview-question-eight-queens/) is a classic problem.
-* [Coding for Interviews: Know Thy Standard Libraries](http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
+* [8 Queens](https://www.interviewbit.com/blog/8-queens-problem/#:~:text=Given%20a%208%20X%208,for%20the%208%20queens%20problem.) is a classic problem.
+* [Coding for Interviews: Know Thy Standard Libraries](http://web.archive.org/web/20210617041720/http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
 * [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently (they can be very computationally intensive).
 * [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.
 * [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms & data structures.
 * [LeetCode](https://leetcode.com/explore/) also has some great resources, with problems, explanations, and challenges. Best of all, you don't have to create an account to view the questions.
+
+<div class="lesson-note" markdown="1">
+The real value of the sites mentioned above comes from engaging with them productively. A popular recommendation around the internet is to just "go grind Leetcode." As you're aware of by now, common algorithms typically have a "trick" or a specific set of steps in order to get to a solution. When you are preparing to interview, the value and utility of wrestling with a problem for hours/days is little. It is more productive to search for the algorithm/pseudocode, then practice problems that require awareness of that algorithm.
+
+This would be like being tasked with getting the length of a Hypotenuse in a triangle but having no awareness of the Pythagorean theorem. Without awareness of that theorem, that calculation can feel impossible. But just knowing the "trick" makes getting the result easy.
+
+A more practical programming example:
+
+If you arrived at a problem that required awareness of a Depth First Search of a Tree, but you had zero awareness of what a Depth First Search is, sitting there for days trying to arrive at a solution will yield little benefit. In that situation, it is more productive to just search common tree algorithms then return to the problem that was giving you difficulty.
+</div>
 
 ### Algorithms training:
 

@@ -1,12 +1,12 @@
 ### Introduction
 
-Working and collaborating with other people is an important part of working as a web developer. Therefore, we at The Odin Project encourage you to participate in our online chat community, which we'll talk more about below. By joining the community, you can grow alongside other Odinites and help each other learn web development. While you're at it, you can check out our [Facebook page](https://www.facebook.com/theodinproject/), [follow us on Twitter](https://twitter.com/TheOdinProject) and catch up on [Instagram](https://www.instagram.com/theodinproject/). Use #TheOdinProject to share your Odin Project progress, updates, thoughts and to see what other Odin students are up to!
+Working and collaborating with other people is an important part of working as a web developer. Therefore, we at The Odin Project encourage you to participate in our online chat community, which we'll talk more about below. By joining the community, you can grow alongside other Odinites and help each other learn web development. While you're at it, you can check out our [Facebook page](https://www.facebook.com/theodinproject/), [follow us on X](https://x.com/TheOdinProject) and catch up on [Instagram](https://www.instagram.com/theodinproject/). Use #TheOdinProject to share your Odin Project progress, updates, thoughts and to see what other Odin students are up to!
 
 ### Why a community is awesome for you
 
 Learning web development will be a long and arduous journey, but you can make the marathon a lot more fun by getting involved in our Discord community. No matter what pace you are doing our curriculum, there will always be people a few steps ahead of you that are willing to help. Furthermore, helping others that are a few steps behind you is a great way to deepen your own understanding and make your learning stick.
 
-When you're slogging through the [desert of despair](https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/), where your code doesn't work or even make sense to you anymore, you can find an oasis of knowledge and encouragement in our community. Veterans at The Odin Project love to help fill in knowledge gaps and provide new insights and perspectives on how to improve your code. We've all been there before!
+When you're slogging through the [desert of despair](https://web.archive.org/web/20230630111131/https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/#:~:text=Phase%20III%3A%20The%20Desert%20of%20Despair), where your code doesn't work or even make sense to you anymore, you can find an oasis of knowledge and encouragement in our community. Veterans at The Odin Project love to help fill in knowledge gaps and provide new insights and perspectives on how to improve your code. We've all been there before!
 
 Remember that project you struggled so hard to figure out and that you're so proud of finishing? Through our community, you will get to share your work and progress with those who fully appreciate how much hard work went into it.
 
@@ -38,7 +38,7 @@ When asking your question, please remember to include the context:
 - How did you get there?
 - What have you tried so far?
 
-If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it, or simply use the PrtScn and paste keyboard shortcuts. If you don't know how to take a screenshot on your computer, this is a good time to ask [Google.](https://google.com)
+If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it, or use the PrtScn and paste keyboard shortcuts. If you don't know how to take a screenshot on your computer, this is a good time to ask [Google.](https://google.com)
 
 Screenshots are great for showing the output of commands or error messages in the command line. Screenshots are also great for showing the output from your code such as how the output looks visually on a webpage or console outputs in the browser. However, you should always include the corresponding files containing the error. Even if it is a short amount of code, providing it in the discord server in the proper format along with a screenshot of the output is helpful to those debugging it rather than just a screenshot. When you do share a screenshot of the output or how it looks visually make sure to push your project to GitHub or put your corresponding code in a [Replit](https://replit.com) so that others can comb through and debug the code. The screenshot of the output and the correlating code that can recreate the problem will help make it easier to understand the problem for people helping you. You'll learn all about GitHub very soon.
 
@@ -74,8 +74,8 @@ Your Multiple Lines of Colorful Code
 
 ### Chat features
 
-- Have fun with giphys: type `/giphy hi` to say hi to everyone.
-- Type `!help` for more information on chat commands.
+- Have fun with giphys: type `/gif hi` to say hi to everyone.
+- Type `/help` for more information on chat commands.
 - Show your appreciation to those who help you with `@username ++`.
 - Don't forget to visit all the available rooms!
 
@@ -103,13 +103,13 @@ If somebody is already getting help, do not jump in the middle of the conversati
 
 If you do not have much time to help, please let someone else answer the question.
 
-#### 5. Adjust your expectations to their Level.
+#### 5. Adjust your expectations to their level.
 
 If the question does not reveal where they are in the curriculum, ask them so that you can adjust your expectations to their knowledge level.
 
 #### 6. Ask for clarifications.
 
-If the question seems confusing or ambiguous, ask for more clarity, or politely link them to our bot command `!question`, which links to the [How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603) article.
+If the question seems confusing or ambiguous, ask for more clarity, or politely link them to our bot command `/question`, which links to the [How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603) article.
 
 #### 7. Ask for live code.
 
@@ -119,7 +119,7 @@ If the question needs to have live code to fully understand or debug, ask them t
 
 Learning how to research these questions is a very important skill for developers, so we need to empower them to find their own answer. When we answer these questions, it hinders their personal growth and makes them codependent on our community.
 
-Instead of answering these questions, politely ask them to google their question or use our bot command `!google` with the search terms.
+Instead of answering these questions, politely ask them to google their question or use our bot command `/google` with the search terms.
 
 #### 9. Do not answer questions covered in our curriculum.
 
@@ -135,7 +135,7 @@ When helping someone it can be easy to spot other problems in their code. Resolv
 
 #### 11. Encourage students to use a debugger.
 
-It is common for students to not understand the importance of using a debugger to look at the values of their variables at different points in their program. When students are getting unexpected values, politely encourage them to use a debugger with our bot command `!debug`.
+It is common for students to not understand the importance of using a debugger to look at the values of their variables at different points in their program. When students are getting unexpected values, politely encourage them to use a debugger with our bot command `/debug`.
 
 #### 12. Watch for students that need to take a step back.
 
@@ -166,7 +166,7 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
 
 1. First, create a free [GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
 
-2. Now, sign in to our [Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
+2. Now, sign in to our [Discord server](https://discord.gg/theodinproject). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
 
    - **Link your GitHub to your Discord profile:** Go to `Discord Settings > Connections`, then click the GitHub icon. In the new tab that opens click "Allow Access", then back in Discord make sure "Display on profile" is toggled on. This will allow others to see what you're working on and vice versa!
 
