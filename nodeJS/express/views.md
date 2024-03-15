@@ -10,11 +10,45 @@ In this course, we will use [EJS](link: https://ejs.co/) which lets us write in 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- A LESSON OVERVIEW ITEM.
+- EJS Installation
+- EJS Syntax
+- Application of EJS
 
-### CUSTOM SECTION HEADING
+### Setting up EJS
 
-CUSTOM SECTION CONTENT.
+Let's get started with EJS! Install EJS into your application by typing the following into your terminal:
+
+```bash
+npm install ejs
+```
+
+At the root of your project, create a subfolder called `views`.
+
+Next, we need to let our app know that we intend to use `EJS` as a template engine, as well as where to look for view files.
+
+In your `app.js` file, add the following:
+
+```js
+app.set("views", path, join(__dirname, "views"));
+app.set("view engine", "ejs");
+```
+
+This enables `EJS` as the view engine, and that our app should look for templates in the `/views` subdirectory.
+
+### Template syntax
+
+In `EJS`, the `<%` and `%>` tags allow us to use JavaScript. Whatever is in these tags will behave like JavaScript. This lets us write conditional statements, `for` loops, and use variables.
+
+In order to work with variables, we use the `<%=` tag. This lets us convert variables into values when the application is loaded. Otherwise, stick with `<%` when using JavaScript logic.
+
+Here's a quick example that makes includes arrays and loop logic.
+
+```js
+<% const animals = ["Cat", "Dog", "Lemur", "Hawk"];%>
+
+<% animals.map(animal => {%>
+- <%= animal%>s are cute <% }) %>
+```
 
 #### Note box variations
 
