@@ -1,6 +1,6 @@
 ### Introduction
 
-Data persistence is integral to the vast majority of web applications. Local storage has limitations and poses security risks, and Backend-as-a-Service (BaaS) options such as Firebase work well, ultimately being able to understand how to structure, build, and query your own database are important skills for any full-stack developer to have.
+Data persistence is integral to the vast majority of web applications. Local storage has limitations and poses security risks, and while Backend-as-a-Service (BaaS) options such as Firebase work well, ultimately being able to understand how to structure, build, and query your own database are important skills for any full-stack developer to have.
 
 For example, consider X (formerly known as Twitter). Where are your username and password stored? Or perhaps where all of your posts might be fetched from? How does the application determine what posts are shown to you every time you log on? These operations are handled by a database.
 
