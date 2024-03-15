@@ -21,12 +21,15 @@ Associations are Rails' way of establishing relationships between tables. Concep
 Our posts-user example has an aptly named "has many / belongs to" association. A User `has_many` Post objects associated with it, and a Post `belongs_to` a single User. Rails makes these relationships very easy to specify. You can establish the association between models by defining the association in your model files. Here's what the associations will look like in your codebase:
 
 In `app/models/user.rb`:
+
 ```ruby
 class User < ApplicationRecord
   has_many :posts
 end
 ```
+
 In `app/models/post.rb`:
+
 ```ruby
 class Post < ApplicationRecord
   belongs_to :user
@@ -63,7 +66,7 @@ Pretty soon you'll start thinking of the world around you in terms of these rela
 
 ### Knowledge check
 
-Reflect on the key topics from this lesson with the following question. If you're unsure about the answer, click on the link to review the material.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [If class A has a `belongs_to` association with class B, which class's database table should contain a foreign key?](https://guides.rubyonrails.org/association_basics.html#choosing-between-belongs-to-and-has-one)
 
