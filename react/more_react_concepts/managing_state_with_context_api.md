@@ -115,9 +115,9 @@ This is a very basic application, but imagine the application grows in size as m
 
 To simplify our application and reduce complexity, we can implement the Context API. There are three key elements in this API that we need to understand:
 
-1. `createContext` - This "creates the context" Duh... But yes, it's how we can create the context. It takes in any value, be it a number, string, or object, which can be referred to as the _default value_ of the context, and returns a context object that can be used to pass down data to components
-2. `useContext` - This hook is used to consume data from a context object created by `createContext`. We can use this hook inside our component to retrieve the data that we need. This hook accepts the context object as an argument
-3. `ContextObject.Provider` - The context object comes with the `Provider` component that accepts a prop called `value`, which is the context value that's going to be passed down to the components no matter how deeply they're nested. In other words, a way to "provide" the context value to these components
+1. `createContext` - This "creates the context" Duh... But yes, it's how we can create the context. It takes in any value, be it a number, string, or object, which can be referred to as the *default value* of the context, and returns a context object that can be used to pass down data to components
+1. `useContext` - This hook is used to consume data from a context object created by `createContext`. We can use this hook inside our component to retrieve the data that we need. This hook accepts the context object as an argument
+1. `ContextObject.Provider` - The context object comes with the `Provider` component that accepts a prop called `value`, which is the context value that's going to be passed down to the components no matter how deeply they're nested. In other words, a way to "provide" the context value to these components
 
 We can start by using the `createContext` function that can be imported from the `react` module.
 
@@ -145,7 +145,7 @@ This object that we've defined is not necessary. We can of course do this as wel
 const ShopContext = createContext(null);
 ~~~
 
-However, the reason why we're adding the object, is so that even if we somehow use the context inside a component that is not nested inside a Provider, because we have set a _default value_, our application will not break (This is also good for testing since we don't need to wrap a component in a Provider to get a value) and also take advantage of IDE features like auto-completion when we have an object as the value. When we use this context in our components, we will be able to access the properties directly from the context. It's basically a bonus! It's up to you if you want to set the default value to the object or just `null` because we're going to overwrite this default value anyway.
+However, the reason why we're adding the object, is so that even if we somehow use the context inside a component that is not nested inside a Provider, because we have set a *default value*, our application will not break (This is also good for testing since we don't need to wrap a component in a Provider to get a value) and also take advantage of IDE features like auto-completion when we have an object as the value. When we use this context in our components, we will be able to access the properties directly from the context. It's basically a bonus! It's up to you if you want to set the default value to the object or just `null` because we're going to overwrite this default value anyway.
 
 So how do we use this context? And that is by using the `Provider` component of the Context object and nesting the children components inside it. In this example, we will remove the props altogether.
 
@@ -215,7 +215,7 @@ export default function Header() {
 }
 ~~~
 
-We've completely removed the prop drill problem, and we can conveniently get the `cartItems` directly in the `Links` component itself as we already know that no matter how deeply nested the component is, we can still get the data as long as _it's nested inside the Provider_.
+We've completely removed the prop drill problem, and we can conveniently get the `cartItems` directly in the `Links` component itself as we already know that no matter how deeply nested the component is, we can still get the data as long as *it's nested inside the Provider*.
 
 Let's also change our `ProductDetail` component to do the same:
 
@@ -253,26 +253,26 @@ Overall, the implementation of the Context API has allowed for a more efficient,
 Although the Context API can be a powerful tool for managing state in larger React applications, it also has some drawbacks that you should be aware of:
 
 1. It can lead to performance issues: When you update the state in a context, it can cause all components that are consuming that context to re-render, even if the state that they are using hasn't changed. This can lead to performance issues, especially if you have a lot of components that are consuming the same context.
-2. It can make your code harder to follow: With the Context API, it's easier to access the state from any component in your application. However, this can also make your code harder to follow, especially if you have a lot of nested components that are consuming the same context. It's important to keep your code organized and well-structured to avoid confusion.
+1. It can make your code harder to follow: With the Context API, it's easier to access the state from any component in your application. However, this can also make your code harder to follow, especially if you have a lot of nested components that are consuming the same context. It's important to keep your code organized and well-structured to avoid confusion.
 
 ### Potential solutions
 
 1. Use multiple smaller contexts instead of a single large context. Instead of using a single large context to manage all of your application states, consider using multiple smaller contexts to manage related pieces of state. This can help to reduce the number of components that are consuming the context and minimize unnecessary re-renders.
-2. Sometimes Context API might not even be the best solution for the problems that we want to deal with. Take a look at [React Component Composition](https://www.robinwieruch.de/react-component-composition/) article by Robin Wieruch.
-3. You can rely on external state management systems like [Zustand](https://github.com/pmndrs/zustand) and [Redux](https://redux.js.org/). They have a lot of optimizations built-in and are feature rich. Unfortunately, they do have a learning curve, and we recommend sticking to the Context API for the rest of this course as it's still reliable for majority of the projects we're going to build.
+1. Sometimes Context API might not even be the best solution for the problems that we want to deal with. Take a look at [React Component Composition](https://www.robinwieruch.de/react-component-composition/) article by Robin Wieruch.
+1. You can rely on external state management systems like [Zustand](https://github.com/pmndrs/zustand) and [Redux](https://redux.js.org/). They have a lot of optimizations built-in and are feature rich. Unfortunately, they do have a learning curve, and we recommend sticking to the Context API for the rest of this course as it's still reliable for majority of the projects we're going to build.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. The React Docs provides more engaging examples and possible optimizations for the Context API. You can check it out by going through their [documentation for useContext](https://react.dev/reference/react/useContext). Be sure to try out each example!
-2. Read the short article [Prop Drilling](https://kentcdodds.com/blog/prop-drilling) by Kent C. Dodds. This is a great article to get more understanding for prop drilling, it features digestible examples.
+1. Read the short article [Prop Drilling](https://kentcdodds.com/blog/prop-drilling) by Kent C. Dodds. This is a great article to get more understanding for prop drilling, it features digestible examples.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What are the benefits of using the Context API over passing props down through multiple levels of components?](#context-api-benefits)
 - [What are the drawbacks in using the Context API?](#drawbacks-of-using-context-api)
@@ -280,6 +280,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- For some extra practice/review, check out [this content from the React Docs](https://react.dev/learn/passing-data-deeply-with-context)
+- For some extra practice/review, check out the [React docs lesson on passing data with Context](https://react.dev/learn/passing-data-deeply-with-context).
