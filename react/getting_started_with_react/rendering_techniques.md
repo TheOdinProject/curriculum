@@ -182,9 +182,7 @@ We will leverage the return value of `startsWith` with the `&&` operator. If the
 
 #### Numbers with Logical AND (&&) - a common pitfall
 
-
 When using `&&` for conditional rendering, don't put numbers on the left side. The React docs on [conditional rendering](https://react.dev/learn/conditional-rendering#logical-and-operator-) provide more details about this in the `Pitfall` box in the section about `&&`.
-
 
 </div>
 
