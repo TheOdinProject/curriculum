@@ -10,6 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 - How do you use React Router to do client-side routing?
 - How do you create nested and dynamic paths?
 - How do you add a "catch-all" route?
+- How do you pass data from a parent to any child components rendered via an outlet?
 - How do you add protected routes?
 
 ### Client-side routing
@@ -436,7 +437,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 Much nicer!
 
-### State and outlets
+### Outlets and state
 
 As we learned earlier, you can nest routes as children of a parent route, allowing you to use an `<Outlet />` in the parent to render the appropriate element based on the rest of the path.
 
@@ -477,6 +478,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - <a class="knowledge-check-link" href="#nested-routes-outlets-and-dynamic-segments">How do you create nested routes?</a>
 - <a class="knowledge-check-link" href="#dynamic-segments">What do you mean by dynamic segments or URL params?</a>
 - <a class="knowledge-check-link" href="#handling-bad-urls">How do you add a "catch-all" route?</a>
+- <a class="knowledge-check-link" href="#outlets-and-state">How do you pass data from parent to child through an `<Outlet />` component?</a>
 - <a class="knowledge-check-link" href="#protected-routes-and-navigation">How do you create protected routes?</a>
 
 ### Additional resources
