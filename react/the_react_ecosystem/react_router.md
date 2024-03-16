@@ -436,6 +436,16 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 Much nicer!
 
+### State and outlets
+
+As we learned earlier, you can nest routes as children of a parent route, allowing you to use an `<Outlet />` in the parent to render the appropriate element based on the rest of the path.
+
+If we had something in the parent element, such as a state, that we wanted to pass to any components rendered by that outlet, we would have to use something called `context`. We will learn about context outside of outlets in more detail in a later lesson but for now, using outlet context does not involve much at all because it is built in. You pass any value you want (which could even be an array or object) into an outlet's `context` prop, then inside the child component(s) you want to access any of those values, calling the `useOutletContext()` hook returns whatever value you had passed in. If you passed in an array or object, you could even destructure it!
+
+Outlet context is not limited to the child component rendered directly by the outlet itself. *Any component* rendered within the outlet (even one rendered by the child route's component) can access the context value by calling `useOutletContext()`.
+
+Take a look at React Router's [documentation on `useOutletContext`](https://reactrouter.com/en/main/hooks/use-outlet-context) to learn more about how to pass context through an outlet and access that context in child components.
+
 ### Protected routes and navigation
 
 Often, you will need to decide whether a certain route should be rendered or not. One example is authentication, where you render certain routes based on if the user is logged in or not. If they are logged in, you show some information about the user like here at [The Odin Project dashboard page](https://www.theodinproject.com/dashboard). Otherwise, they are redirected to the sign-in page (this could be any page). While there are many ways to do so, one of the easiest ways is to conditionally create a config for the router.
