@@ -83,7 +83,7 @@ Let us install the React Router package:
 
 `npm install react-router-dom`
 
-Add the following to `Main.jsx`, we will talk about what is happening in a little bit.
+Add the following to `main.jsx`, we will talk about what is happening in a little bit.
 
 ~~~jsx
 import React from "react";
@@ -417,7 +417,7 @@ const routes = [
 export default routes;
 ~~~
 
-Import the routes to your `Main.jsx` file:
+Import the routes to your `main.jsx` file:
 
 ~~~jsx
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
