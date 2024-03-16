@@ -8,17 +8,12 @@ We're going to be building a very minimal express app that will allow users to s
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-#### PassportJS
-
-- Understand the use order for the required middleware.
-- Describe what Strategies are.
+- Understand the use order for the required middleware for PassportJS.
+- Describe what PassportJS Strategies are.
 - Use the LocalStrategy to authenticate users.
 - Explain the purpose of cookies in authentication.
 - Review prior learning material (routes, templates, middleware, async/await, and promises).
 - Use PassportJS to set up user authentication with Express.
-
-#### Data security/safety
-
 - Describe what bcrypt is and its use.
 - Describe what a hash is and explain the importance of password hashing.
 - Describe bcrypt's `compare` function.
@@ -33,7 +28,7 @@ To begin, let's set up a very minimal express app with a single MongoDB model fo
 npm install express express-session mongoose passport passport-local ejs
 ```
 
-**Mongoose Update**: With the new 7.0.1 version of Mongoose callbacks are no longer supported when querying a database. A promise will be returned instead, meaning that you will now have to use async/await or promises to achieve the same results. If you need a refresher on async/await you can find it in the [Async And Await Lesson](https://www.theodinproject.com/lessons/node-path-javascript-async-and-await) from the JavaScript Course. As you progress through this lesson you will see a blend of using async/await with try/catch blocks as well as other functions that use callbacks, which you've seen as you've progressed through the NodeJS course. You can read more about this change [here](https://mongoosejs.com/docs/migrating_to_7.html#dropped-callback-support).
+**Mongoose Update**: With the new 7.0.1 version of Mongoose callbacks are no longer supported when querying a database. A promise will be returned instead, meaning that you will now have to use async/await or promises to achieve the same results. If you need a refresher on async/await you can find it in the [Async And Await lesson](https://www.theodinproject.com/lessons/node-path-javascript-async-and-await) from the JavaScript Course. As you progress through this lesson you will see a blend of using async/await with try/catch blocks as well as other functions that use callbacks, which you've seen as you've progressed through the NodeJS course. You can [read more about the v7.0.1 change on the Mongoose website](https://mongoosejs.com/docs/migrating_to_7.html#dropped-callback-support).
 
 Next, let's create our `app.js`:
 
@@ -76,7 +71,7 @@ app.get("/", (req, res) => res.render("index"));
 app.listen(3000, () => console.log("app listening on port 3000!"));
 ```
 
-Most of this should look familiar to you by now, except for the new imported middleware for express-session and passport. We are not actually going to be using express-session directly, it is a dependency that is used in the background by passport.js. You can take a look at what it does [here](https://github.com/expressjs/session).
+Most of this should look familiar to you by now, except for the new imported middleware for express-session and passport. We are not actually going to be using express-session directly, it is a dependency that is used in the background by passport.js. You can [take a look at what the express-session package does in the Express docs](https://github.com/expressjs/session).
 
 Our view engine is set up to just look in the main directory, and it's looking for a template called `index.ejs` so go ahead and create that:
 
@@ -148,7 +143,7 @@ Let's reiterate: this is not a particularly safe way to create users in your dat
 
 Now that we have the ability to put users in our database, let's allow them to log-in to see a special message on our home page! We're going to step through the process one piece at a time, but first, take a minute to glance at the [passportJS website](http://www.passportjs.org/) the documentation here has pretty much everything you need to get set up. You're going to want to refer back to this when you're working on your project.
 
-<span id='strategy'>PassportJS uses what they call *Strategies* to authenticate users</span>. They have over 500 of these strategies, but we're going to focus on the most basic (and most common), the username-and-password, or what they call the `LocalStrategy` [(documentation here)](http://www.passportjs.org/docs/username-password/). We have already installed and required the appropriate modules so let's set it up!
+<span id='strategy'>PassportJS uses what they call *Strategies* to authenticate users</span>. They have over 500 of these strategies, but we're going to focus on the most basic (and most common), the username-and-password, or what they call the `LocalStrategy` ([documentation for the LocalStrategy](http://www.passportjs.org/docs/username-password/)). We have already installed and required the appropriate modules so let's set it up!
 
 We need to add 3 functions to our app.js file, and then add an app.post for our `/log-in` path.
 
@@ -177,7 +172,7 @@ This function is what will be called when we use the `passport.authenticate()` f
 
 ### Functions two and three: sessions and serialization
 
-<span id='cookie'>To make sure our user is logged in, and to allow them to _stay_ logged in as they move around our app, passport will use some data to create a cookie which is stored in the user's browser</span>. These next two functions define what bit of information passport is looking for when it creates and then decodes the cookie. The reason they require us to define these functions is so that we can make sure that whatever bit of data it’s looking for actually exists in our Database! passport.serializeUser takes a callback which contains the information we wish to store in the session data. passport.deserializeUser is called when retrieving a session, where it will extract the data we "serialized" in it then ultimately attach something to the .user property of the request object (req.user) for use in the rest of the request.
+<span id='cookie'>To make sure our user is logged in, and to allow them to *stay* logged in as they move around our app, passport will use some data to create a cookie which is stored in the user's browser</span>. These next two functions define what bit of information passport is looking for when it creates and then decodes the cookie. The reason they require us to define these functions is so that we can make sure that whatever bit of data it’s looking for actually exists in our Database! `passport.serializeUser` takes a callback which contains the information we wish to store in the session data. `passport.deserializeUser` is called when retrieving a session, where it will extract the data we "serialized" in it then ultimately attach something to the `.user` property of the request object (`req.user`) for use in the rest of the request.
 
 For our purposes, the functions that are listed in the passport docs will work just fine:
 
@@ -195,6 +190,7 @@ passport.deserializeUser(async (id, done) => {
   };
 });
 ```
+
 <div class="lesson-note" markdown="1">
   `user.id` is a virtual getter provided by mongoose which returns the document's _id field cast to a string.  [Documentation](#strategy)
 </div>
@@ -324,13 +320,13 @@ bcrypt.hash(req.body.password, 10, async (err, hashedPassword) => {
 });
 ```
 
-The second argument is the length of the "salt" to use in the hashing function; salting a password means adding extra random characters to it, the password plus the extra random characters are then fed into the hashing function. Salting is used to make a password hash output unique, even for users who use the same password, and to protect against [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table) and [dictionary](https://en.wikipedia.org/wiki/Dictionary_attack) attacks.
+The second argument is the length of the "salt" to use in the hashing function; salting a password means adding extra random characters to it, the password plus the extra random characters are then fed into the hashing function. Salting is used to make a password hash output unique, even for users who use the same password, and to protect against [rainbow tables](https://en.wikipedia.org/wiki/Rainbow_table) and [dictionary attacks](https://en.wikipedia.org/wiki/Dictionary_attack).
 
 Usually, the salt gets stored in the database in the clear next to the hashed value, but in our case, there is no need to do so because the hashing algorithm that `bcryptjs` uses includes the salt automatically with the hash.
 
 The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a password, then go look at your DB entries to see how it's being stored. If you've done it right, your password should have been transformed into a really long random string.
 
-It's important to note that *how* hashing works is beyond the scope of this lesson. To learn more about the subject consider reading [This wikipedia article](https://en.wikipedia.org/wiki/Cryptographic_hash_function).
+It's important to note that *how* hashing works, especially in the context of passwords, is beyond the scope of this lesson.
 
 #### Comparing hashed passwords
 
@@ -348,21 +344,29 @@ if (!match) {
 
 You should now be able to log in using the new user you've created (the one with a hashed password).  <span id='bcrypt'>Unfortunately, users that were saved BEFORE you added bcrypt will no longer work, but that's a small price to pay for security</span>! (and a good reason to include bcrypt from the start on your next project)
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Watch videos 1, 2, 3, 5 and 6 of this [Youtube Playlist on sessions in Express and local strategy authentication with PassportJS](https://www.youtube.com/playlist?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK).
+   - You may notice at some points in the videos, the Express app contains the line `app.use(passport.initialize())`. This line is no longer required to include in current versions of Passport.
+   - In [video 5: "Passport Local Configuration (Node + Passport + Express)"](https://www.youtube.com/watch?v=xMEOT9J0IvI&list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK&index=5&t=822s), it shows using the `connect-mongo` library to use your MongoDB connection to store sessions, as opposed to storing them in memory. The syntax for creating a new "MongoStore" has changed a little since this video but is very similar. You can view the current syntax for doing this on the [npm page for `connect-mongo`](https://www.npmjs.com/package/connect-mongo).
+1. In [Passport: The Hidden Manual](https://github.com/jwalton/passport-api-docs), you can explore more comprehensive explanations of some of Passport's main functions, gaining a deeper understanding of what each function accomplishes.
+
+</div>
+
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Which passportJS strategy did we use in this lesson?](#strategy)
+- [Which passportJS strategy did we use in the lesson?](#strategy)
 - [Why does passportJS create a cookie?](#cookie)
 - [What does the `bcrypt.compare()` function do?](#compare)
 - [Why should we include bcrypt when we begin a project?](#bcrypt)
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- If you like video content, watch this [Youtube Playlist](https://www.youtube.com/playlist?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK). You just need to watch the first 6 videos.
-
-- [This video](https://www.youtube.com/watch?v=8ZtInClXe1Q) gives a broad overview of some of the different methods to store passwords in databases, and the risks of some of them.
-
-- In [Passport: The Hidden Manual](https://github.com/jwalton/passport-api-docs), you can explore comprehensive explanations of Passport's functions, gaining a deeper understanding of what each function accomplishes.
+- This video provides a broad overview of some of the [different methods to store passwords in databases and possible risks](https://www.youtube.com/watch?v=8ZtInClXe1Q).
+- If you would like a little more of a deeper dive into password hashing, read the following Wikipedia article to [learn more about how cryptographic hash functions work](https://en.wikipedia.org/wiki/Cryptographic_hash_function).

@@ -2,6 +2,9 @@ module.exports = {
   names: ["TOP002", "no-code-headings"],
   description: "No inline code in headings",
   tags: ["headings"],
+  information: new URL(
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP002.md"
+  ),
   function: function TOP002(params, onError) {
     const headingsWithCode = params.parsers.markdownit.tokens?.filter(
       (token, currIndex, tokenArray) =>

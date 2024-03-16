@@ -240,21 +240,22 @@ It is enough for you to know *that* these functions exist and generally how they
 
 In order to understand why the `transform` property is great, you have to be aware of CSS triggers. You can learn about it in [The Pixel Pipeline](https://developers.google.com/web/fundamentals/performance/rendering/#the_pixel_pipeline) section from Google's Web Fundamentals.
 
-The key benefit of using `transform` is that it occurs during **composition**. This makes it cheaper to use compared to many other CSS properties. You can see a table of what triggers are executed with each CSS property [here](https://web.archive.org/web/20220727225220/https://csstriggers.com/).
+The key benefit of using `transform` is that it occurs during **composition**. This makes it cheaper to use compared to many other CSS properties. You can see what triggers are executed with each CSS property in this [table of CSS triggers](https://web.archive.org/web/20220727225220/https://csstriggers.com/).
 
 Another benefit of `transform` is that it can be hardware-accelerated via a device's [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) (you don't have to understand how a GPU works but it is good to be aware of the term and what it means). This benefit is more prominent when it comes to transitions and animations which you will learn about in the following lessons.
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
-1. To learn about how `rotate3d` works, check out [this great demonstration](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) on MDN and [this one](https://www.quackit.com/css/functions/css_rotate3d_function.cfm) on Quackit.
-1. For more details on how `perspective` works in regards to 3D transforms, [check out this CSS Tricks article](https://css-tricks.com/how-css-perspective-works/).
+1. To learn about how `rotate3d` works, check out this great [demonstration on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) and this [Quackit article](https://www.quackit.com/css/functions/css_rotate3d_function.cfm).
+1. For more details on how `perspective` works in regards to 3D transforms, check out this [CSS Tricks article](https://css-tricks.com/how-css-perspective-works/).
 1. For a great demonstration on `translate3d` checkout the [MDN cube again](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d())!
-1. Skim [this article](https://www.quackit.com/css/functions/css_matrix_function.cfm) to get the gist of `matrix`.
+1. Go through [The World of CSS Transforms](https://www.joshwcomeau.com/css/transforms/) by Josh Comeau.
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What are the four main functions of the `transform` property?](#two-dimensional-transforms)
 - [Which function can be used to move an object through space on the X, Y, or Z axis?](#translate)
@@ -263,8 +264,8 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Here's a good resource that summarizes [most common transform functions with some additional insight](https://www.joshwcomeau.com/css/transforms/) to how you may use them.
+- Learn more about `matrix` by checking Quackit's article on the [matrix function](https://www.quackit.com/css/functions/css_matrix_function.cfm).
 - For a full reference, there's always [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
 - For more on the 3D transform functions, [W3Schools](https://www.w3schools.com/css/css3_3dtransforms.asp) has a good article demonstrating how they work.
