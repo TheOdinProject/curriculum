@@ -1,6 +1,6 @@
 ### Introduction
 
-Up until this point in the curriculum, we have been building one-page applications. However, for any larger scale application, we are going to have multiple pages. Thankfully, the browser allows client-side Javascript to manage the way a user can navigate, with the [History API](https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API). We can leverage the power of this to manage routing in React with the help of a package like React Router.
+Up until this point in the curriculum, we have been building one-page applications. However, for any larger scale application, we are going to have multiple pages. Thankfully, the browser allows client-side JavaScript to manage the way a user can navigate, with the [History API](https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API). We can leverage the power of this to manage routing in React with the help of a package like React Router.
 
 ### Lesson overview
 
@@ -14,23 +14,23 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Client-side routing
 
-Client-side routing is the type of routing where Javascript takes over the duty of handling the routes in an application. Client-side routing helps in building single-page applications (SPAs) without refreshing as the user navigates. For example, when a user clicks a navbar element, the URL changes and the view of the page is modified accordingly, within the client.
+Client-side routing is the type of routing where JavaScript takes over the duty of handling the routes in an application. Client-side routing helps in building single-page applications (SPAs) without refreshing as the user navigates. For example, when a user clicks a navbar element, the URL changes and the view of the page is modified accordingly, within the client.
 
 Say you are cooking some chicken. If you want to cook it well and nice, you will have to:
 
 1. Put the chicken in the oven and set it to cook with appropriate time and heating
-2. Wait till the dish gives out that satisfying smell
-3. Start munching!
+1. Wait till the dish gives out that satisfying smell
+1. Start munching!
 
 This is common to all websites, you set the oven up for what you want (visit any URL, like [https://theodinproject.com/](https://theodinproject.com/)), wait for the oven to be done with the cooking (the loading screen), and tada, enjoy your delicious food (your page is ready for use). But what if you forgot to add some spices before you cooked it up? You have to repeat this flow again:
 
 1. Get up from your seat
-2. Add the spices to the chicken
-3. Go back to the oven, put the chicken back in and set it up to be reheated
-4. Wait for it to be nice and warm
-5. Now you can eat it!
+1. Add the spices to the chicken
+1. Go back to the oven, put the chicken back in and set it up to be reheated
+1. Wait for it to be nice and warm
+1. Now you can eat it!
 
-Here is where we reiterate, **you need to get up from your seat**. In a general multi-page application (MPAs), the browser reloads every time you click on a link to navigate. With client-side routing, **you never leave the page you are on** - you bring a microwave to the table to ensure that you don't have to get up from your seat should you ever run into the "missing spices" issue. The link requests are intercepted by the Javascript that you write, instead of letting them go directly to the server.
+Here is where we reiterate, **you need to get up from your seat**. In a general multi-page application (MPAs), the browser reloads every time you click on a link to navigate. With client-side routing, **you never leave the page you are on** - you bring a microwave to the table to ensure that you don't have to get up from your seat should you ever run into the "missing spices" issue. The link requests are intercepted by the JavaScript that you write, instead of letting them go directly to the server.
 
 ### A Reactive solution
 
@@ -77,7 +77,7 @@ const App = () => {
 export default App;
 ~~~
 
-Now it's time to add the router! There's a couple of ways of defining our app's routes, but in **React Router v6.7.0 or higher**, it is recommended to add routes as objects. 
+Now it's time to add the router! There's a couple of ways of defining our app's routes, but in **React Router v6.7.0 or higher**, it is recommended to add routes as objects.
 
 Let us install the React Router package:
 
@@ -113,9 +113,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 Once this is done, go ahead and run `npm run dev` and check out both routes: the home route `/` and the profile route `/profile` It works! But what is happening here?
 
 1. We import `createBrowserRouter` and `RouterProvider` from React Router.
-2. `createBrowserRouter` is used to create the configuration for a router by passing arguments in the form of an array of routes.
-3. The configuration array contains objects with two mandatory keys, the path and the corresponding element to be rendered.
-4. This generated configuration is then rendered in, by passing it to the `RouterProvider` component.
+1. `createBrowserRouter` is used to create the configuration for a router by passing arguments in the form of an array of routes.
+1. The configuration array contains objects with two mandatory keys, the path and the corresponding element to be rendered.
+1. This generated configuration is then rendered in, by passing it to the `RouterProvider` component.
 
 ### The link element
 
@@ -234,7 +234,7 @@ export default Profile;
 
 Check out the `/profile`, `/profile/popeye` and `/profile/spinach` pages. The `<Outlet />` component gets replaced with the children component when their paths are visited.
 
-If you want to render something as a default component when no path is added to Profile, you can add an index route to the children! 
+If you want to render something as a default component when no path is added to Profile, you can add an index route to the children!
 
 Create a DefaultProfile component:
 
@@ -436,7 +436,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ~~~
 
-Much nicer! 
+Much nicer!
 
 ### Protected routes and navigation
 
@@ -452,16 +452,16 @@ You should now have enough basics to get started with React routing. There are a
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  [This article on SPAs and client-side routing by Ben Holmes](https://bholmes.dev/blog/spas-clientside-routing/) goes through a lot of the routing concepts concisely.
-2.  Go and fix the `/profile` page to display something more useful than an error page. Then, add a few new routes to the application we created above; This was a dense lesson, so take some time to play with the new tools you've learned. Consider deleting it completely and rewriting it using what you know.
-3.  The [React Router tutorial](https://reactrouter.com/en/main/start/tutorial) goes through a lot of the stuff discussed in this lesson and much more. Have a read through the sections up to "Nested Routes".
-4.  Browse through the [React Router documentation](https://reactrouter.com/en/main). Again, you don't need to read through all of it, nor understand all of it. Just browse through the concepts we discussed here and re-read them. Look into the other features that React Router offers. This is a great resource to refer back to.
+1. [This article on SPAs and client-side routing by Ben Holmes](https://bholmes.dev/blog/spas-clientside-routing/) goes through a lot of the routing concepts concisely.
+1. Go and fix the `/profile` page to display something more useful than an error page. Then, add a few new routes to the application we created above; This was a dense lesson, so take some time to play with the new tools you've learned. Consider deleting it completely and rewriting it using what you know.
+1. The [React Router tutorial](https://reactrouter.com/en/main/start/tutorial) goes through a lot of the stuff discussed in this lesson and much more. Have a read through the sections up to "Nested Routes".
+1. Browse through the [React Router documentation](https://reactrouter.com/en/main). Again, you don't need to read through all of it, nor understand all of it. Just browse through the concepts we discussed here and re-read them. Look into the other features that React Router offers. This is a great resource to refer back to.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - <a class="knowledge-check-link" href="#client-side-routing">What does client-side routing mean?</a>
 - <a class="knowledge-check-link" href="#adding-a-router">How do you set up a basic router?</a>
@@ -473,8 +473,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Among the many ways to make protected routes, a few ways are provided below:
-    - [This Stack Overflow answer](https://stackoverflow.com/a/64347082/19051112) uses a function to generate the route config object passed to `createBrowserRouter`. The function conditionally generates the different paths.
-    - [This demonstration project](https://github.com/iammanishshrma/react-protected-routes/blob/master/src/routes/ProtectedRoute.jsx) creates a special Protected Route component that conditionally displays elements as necessary.
+- [This Stack Overflow answer](https://stackoverflow.com/a/64347082/19051112) uses a function to generate the route config object passed to `createBrowserRouter`. The function conditionally generates the different paths.
+- [This demonstration project](https://github.com/iammanishshrma/react-protected-routes/blob/master/src/routes/ProtectedRoute.jsx) creates a special Protected Route component that conditionally displays elements as necessary.
