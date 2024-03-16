@@ -391,47 +391,45 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ~~~
 
-### Refactoring the routing
+### Refactoring the routes
 
-Let's refactor our routes to a component of their own. By refactoring, we can add whatever conditional logic we want, if it exists as a hook (remember, we can't use hooks outside of a React component!). It's much neater to have them separate even if you are not conditionally rendering routes.
+Let's refactor our array of routes into its own file. By refactoring, we can import the routes into `main.jsx` and create a browser router from it as in the above example. What's convenient about this is that we can also import the routes array into any test files, where we might need to [create a memory router](https://reactrouter.com/en/main/routers/create-memory-router) instead of a browser router.
 
-Create a new `Router.jsx` component and move your routes to it:
+Create a new `routes.jsx` file and move the routes array to it:
 
 ~~~jsx
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import Profile from "./Profile";
 import ErrorPage from "./ErrorPage";
 
-const Router = () => {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <App />,
-      errorElement: <ErrorPage />,
-    },
-    {
-      path: "profile/:name",
-      element: <Profile />,
-    },
-  ]);
+const routes = [
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "profile/:name",
+    element: <Profile />,
+  },
+];
 
-  return <RouterProvider router={router} />;
-};
-
-export default Router;
+export default routes;
 ~~~
 
-Add `Router.jsx` component to the `Main.jsx` file:
+Import the routes to your `Main.jsx` file:
 
 ~~~jsx
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Router from "./Router";
+import routes from "./routes";
+
+const router = createBrowserRouter(routes);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Router />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 ~~~
