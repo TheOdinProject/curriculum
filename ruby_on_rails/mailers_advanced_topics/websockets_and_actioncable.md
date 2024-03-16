@@ -143,6 +143,14 @@ identical  app/javascript/channels/consumer.js
 
 You can see here it does try to create all files we would need and if any exist, such as our consumer.js file, then it doesn't overwrite them.
 
+#### You may get the error message: 
+'You have already activated error_highlight 0.6.0, but your Gemfile requires error_highlight 0.5.1 ...'. In this case, delete your Gemfile.lock file and run 
+
+~~~bash
+bundle install
+~~~
+, which makes a new Gemfile.lock. Now Rails should be happy to generate the channel as above.
+
 ### Client-server interactions
 
 Let's take a closer look at the room_channel.rb and room_channel.js files that were created by the generator.
