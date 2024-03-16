@@ -441,9 +441,9 @@ Much nicer!
 
 As we learned earlier, you can nest routes as children of a parent route, allowing you to use an `<Outlet />` in the parent to render the appropriate element based on the rest of the path.
 
-If we had something in the parent element, such as a state, that we wanted to pass to any components rendered by that outlet, we would have to use something called `context`. We will learn about context outside of outlets in more detail in a later lesson but for now, using outlet context does not involve much at all because it is built in. You pass any value you want (which could even be an array or object) into an outlet's `context` prop, then inside the child component(s) you want to access any of those values, calling the `useOutletContext()` hook returns whatever value you had passed in. If you passed in an array or object, you could even destructure it!
+If we had something in the parent element, such as a state, that we wanted to pass to any components rendered by that outlet, we would have to use something called `context`. For now, we will focus on context with outlets but in a later lesson, we will learn more about how to use context without outlets.
 
-Outlet context is not limited to the child component rendered directly by the outlet itself. *Any component* rendered within the outlet (even one rendered by the child route's component) can access the context value by calling `useOutletContext()`.
+Outlets have a `context` prop built in. We can pass any value we want into this prop, even an array or object. Inside *any* component that would be rendered within that outlet (even "grandchild" components), we can call the `useOutletContext()` hook which will return whatever we passed into that context prop. If we passed in an array or object, we could even destructure it!
 
 Take a look at React Router's [documentation on `useOutletContext`](https://reactrouter.com/en/main/hooks/use-outlet-context) to learn more about how to pass context through an outlet and access that context in child components.
 
