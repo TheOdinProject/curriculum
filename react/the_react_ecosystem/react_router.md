@@ -212,7 +212,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ~~~
 
-This allows us to render the child component alongside the parent, through an [`Outlet`](https://reactrouter.com/en/main/components/outlet)! We can rewrite the Profile component to add an `Outlet` which will get replaced by the various profiles when that route is visited!
+This allows us to render the child component alongside the parent, through an [Outlet component](https://reactrouter.com/en/main/components/outlet)! We can rewrite the Profile component to add an `Outlet` which will get replaced by the various profiles when that route is visited!
 
 ~~~jsx
 import { Outlet } from "react-router-dom";
@@ -440,7 +440,7 @@ Much nicer!
 
 ### Protected routes and navigation
 
-Often, you will need to decide whether a certain route should be rendered or not. One example is authentication, where you render certain routes based on if the user is logged in or not. If they are logged in, you show some information about the user like [here at The Odin Project dashboard page](https://www.theodinproject.com/dashboard). Otherwise, they are redirected to the sign-in page (this could be any page). While there are many ways to do so, one of the easiest ways is to conditionally create a config for the router.
+Often, you will need to decide whether a certain route should be rendered or not. One example is authentication, where you render certain routes based on if the user is logged in or not. If they are logged in, you show some information about the user like here at [The Odin Project dashboard page](https://www.theodinproject.com/dashboard). Otherwise, they are redirected to the sign-in page (this could be any page). While there are many ways to do so, one of the easiest ways is to conditionally create a config for the router.
 
 You will often come across the need to reroute the user to a different URL programmatically. This is where we use [the `<Navigate />`component](https://reactrouter.com/en/main/components/navigate). The `<Navigate />` component reroutes the user to the desired URL when it is rendered. It is a wrapper around [the useNavigate hook](https://reactrouter.com/en/main/hooks/use-navigate) that lets you navigate programmatically, to URLs, or even go back down the user's history.
 
@@ -452,7 +452,7 @@ You should now have enough basics to get started with React routing. There are a
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [This article on SPAs and client-side routing by Ben Holmes](https://bholmes.dev/blog/spas-clientside-routing/) goes through a lot of the routing concepts concisely.
+1. This article on [SPAs and client-side routing by Ben Holmes](https://bholmes.dev/blog/spas-clientside-routing/) goes through a lot of the routing concepts concisely.
 1. Go and fix the `/profile` page to display something more useful than an error page. Then, add a few new routes to the application we created above; This was a dense lesson, so take some time to play with the new tools you've learned. Consider deleting it completely and rewriting it using what you know.
 1. The [React Router tutorial](https://reactrouter.com/en/main/start/tutorial) goes through a lot of the stuff discussed in this lesson and much more. Have a read through the sections up to "Nested Routes".
 1. Browse through the [React Router documentation](https://reactrouter.com/en/main). Again, you don't need to read through all of it, nor understand all of it. Just browse through the concepts we discussed here and re-read them. Look into the other features that React Router offers. This is a great resource to refer back to.
@@ -475,5 +475,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [This Stack Overflow answer](https://stackoverflow.com/a/64347082/19051112) uses a function to generate the route config object passed to `createBrowserRouter`. The function conditionally generates the different paths.
-- [This demonstration project](https://github.com/iammanishshrma/react-protected-routes/blob/master/src/routes/ProtectedRoute.jsx) creates a special Protected Route component that conditionally displays elements as necessary.
+- This Stack Overflow answer uses a [function to generate the route config object](https://stackoverflow.com/a/64347082/19051112) passed to createBrowserRouter. The function conditionally generates the different paths.
+- This demonstration project creates a [special Protected Route component that conditionally displays elements as necessary](https://github.com/iammanishshrma/react-protected-routes/blob/master/src/routes/ProtectedRoute.jsx).
