@@ -24,9 +24,11 @@ This section contains a general overview of topics that you will learn in this l
 
 ### How to run JavaScript code
 
-All JavaScript we will be writing in the majority of the Foundations course will be run via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment. Outside of these lessons, for now you should always default to running your JavaScript in the browser unless otherwise specified, otherwise you may run into unexpected errors.
+All JavaScript we will be writing in the majority of the Foundations course will be run via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment. 
 
-The simplest way to get started is to create an HTML file with the JavaScript code inside of it.  Type the basic HTML skeleton into a file on your computer somewhere:
+Outside of these lessons, for now you should always default to running your JavaScript in the browser unless otherwise specified, otherwise you may run into unexpected errors.
+
+The simplest way to get started is to create an HTML file with the JavaScript code inside of it. Use the VS Code snippet <kbd>!</kbd> + <kbd>TAB</kbd> to create the basic HTML skeleton in a file on your computer somewhere:
 
 ```html
 <!DOCTYPE html>
@@ -44,9 +46,15 @@ The simplest way to get started is to create an HTML file with the JavaScript co
 </html>
 ```
 
-Save and open this file up in a web browser (you can use ["Live Server" on Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to do this!) and then <span id="access-devTools-console">open up the browser's console by right-clicking on the blank webpage and selecting "Inspect" or "Inspect Element".  In the 'Developer Tools' pane find and select the 'Console' tab</span>, where you should see the output of our `console.log` statement.
+Save and open this file up in a web browser and then open up the browser's console:
 
-> <span id="console-log">`console.log()` is the command to print something to the developer console in your browser. You can use this to print the results from any of the following articles and exercises to the console.</span> We encourage you to code along with all of the examples in this and future lessons.
+1. Right-click on the blank webpage or press <kbd>F12</kbd>.
+1. Click on "Inspect" or "Inspect Element" to open the Developer Tools (redundant if you use the keyboard shortcut).
+1. Find and select the "Console" tab, where you should see the output of our `console.log` statement.
+
+**Tip:** You can use ["Live Server" extension in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to automatically update the browser when you save your file instead of having to manually refresh the page to see any changes when you edit your code. Try edit the text to say something different!
+
+`console.log()` is the command to print something to the developer console in your browser. You can use this to print the results from any of the following articles and exercises to the console. We encourage you to code along with all of the examples in this and future lessons.
 
 Another way to include JavaScript in a webpage is through an external script. This is very similar to linking external CSS docs to your website.
 
