@@ -17,7 +17,7 @@ In React, data is transferred from parent components to child components via pro
 
 Now that we know *how* data transfers between components, let's explore *why* this might be a useful feature in React. Consider the following `Button` component, which then gets rendered multiple times within our `App` component.
 
-~~~jsx
+```jsx
 function Button() {
   return (
     <button>Click Me!</button>
@@ -33,12 +33,13 @@ export default function App() {
     </div>
   );
 }
-~~~
+```
+
 So far so good right? We have a beautiful reusable button that we can use as many times as we like, there is just one small problem.
 
 What if we wanted the text within our second button to be “Don’t Click Me!’? Right now, we would have to create a second button component with this different text.
 
-~~~jsx
+```jsx
 function Button() {
   return (
     <button>Click Me!</button>
@@ -60,12 +61,13 @@ export default function App() {
     </div>
   );
 }
-~~~
+```
+
 This may not seem like a huge deal right now, but what if we had 10 buttons, each one having different text, fonts, colors, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication.
 
 Let's see how by using props, we can account for any number of variations with a *single* button component.
 
-~~~jsx
+```jsx
 function Button(props) {
   const buttonStyle = {
     color: props.color,
@@ -86,7 +88,8 @@ export default function App() {
     </div>
   );
 }
-~~~
+```
+
 There are a few things going on here.
 
 - The `Button` functional component now receives `props` as a function argument. The individual properties are then referenced within the component via `props.propertyName`.
@@ -97,7 +100,7 @@ There are a few things going on here.
 
 A very common pattern you will come across in React is prop [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment). Unpacking your props in the component arguments allows for more concise and readable code. Check out prop destructuring in action in the example below.
 
-~~~jsx
+```jsx
 function Button({ text, color, fontSize }) {
   const buttonStyle = {
     color: color,
@@ -116,13 +119,13 @@ export default function App() {
     </div>
   );
 }
-~~~
+```
 
 ### Default props
 
 You may have noticed in the above examples that there is some repetition when defining props on the `Button` components within `App`. In order to stop repeating ourselves re-defining these common values, and to protect our application from undefined values, we can define default props that will be used by the component in the absence of supplied values.
 
-~~~jsx
+```jsx
 function Button({ text, color, fontSize }) {
   const buttonStyle = {
     color: color,
@@ -147,12 +150,13 @@ export default function App() {
     </div>
   );
 }
-~~~
+```
+
 As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined on `Button.defaultProps`.
 
 You can also combine default props and prop destructuring. Here's how it looks in action.
 
-~~~jsx
+```jsx
 function Button({ text = "Click Me!", color = "blue", fontSize = 12 }) {
   const buttonStyle = {
     color: color,
@@ -162,13 +166,13 @@ function Button({ text = "Click Me!", color = "blue", fontSize = 12 }) {
   return <button style={buttonStyle}>{text}</button>;
 }
 
-~~~
+```
 
 ### Functions as props
 
 In addition to passing variables through to child components as props, you can also pass through functions. Consider the following example.
 
-~~~jsx
+```jsx
 function Button({ text = "Click Me!", color = "blue", fontSize = 12, handleClick }) {
   const buttonStyle = {
     color: color,
@@ -193,7 +197,7 @@ export default function App() {
     </div>
   );
 }
-~~~
+```
 
 - The function `handleButtonClick` is defined in the parent component.
 - A reference to this function is passed through as the value for the `handleClick` prop on the `Button` component.
@@ -207,7 +211,7 @@ There are a few things to note here.
 
 - Every `Button` calling this function will navigate to the same page. We can refactor the function and supply a parameter within `Button` to customize this functionality.
 
-~~~jsx
+```jsx
 function Button({ text = "Click Me!", color = "blue", fontSize = 12, handleClick }) {
   const buttonStyle = {
     color: color,
@@ -232,7 +236,7 @@ export default function App() {
     </div>
   );
 }
-~~~
+```
 
 When supplying a parameter to the function we can't just write `onClick={handleClick('www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the parameter. Like the previous example, this is to prevent the function being called during the render.
 
@@ -248,20 +252,21 @@ Hopefully you can now understand from the examples in this lesson, just how incr
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through the React docs on [Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component). Make sure to edit the code examples and experiment with different prop values.
+1. Read through the React docs on [Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component). Make sure to edit the code examples and experiment with different prop values.
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-*   <a class="knowledge-check-link" href="#data-transfer-in-react">How does data flow between React components? From child to parent? From parent to child? Both?</a>
-*   <a class="knowledge-check-link" href="#using-props-in-react">Why do we use props in React?</a>
-*   <a class="knowledge-check-link" href="#default-props">How do we define default properties on a React component? What are some benefits in doing so?</a>
-*   <a class="knowledge-check-link" href="#functions-as-props">How can we pass functions as props?</a>
+- <a class="knowledge-check-link" href="#data-transfer-in-react">How does data flow between React components? From child to parent? From parent to child? Both?</a>
+- <a class="knowledge-check-link" href="#using-props-in-react">Why do we use props in React?</a>
+- <a class="knowledge-check-link" href="#default-props">How do we define default properties on a React component? What are some benefits in doing so?</a>
+- <a class="knowledge-check-link" href="#functions-as-props">How can we pass functions as props?</a>
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
