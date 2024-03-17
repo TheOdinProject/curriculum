@@ -18,16 +18,19 @@ The simplest way to get started is to create an HTML file with the JavaScript co
 
 ```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
+
   <script>
     // Your JavaScript goes here!
     console.log("Hello, World!")
   </script>
+
 </body>
 </html>
 ```
