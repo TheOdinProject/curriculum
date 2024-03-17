@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### How to run JavaScript code
 
-The simplest way to get started is to create an HTML file with the JavaScript code inside of it. Use the VS Code snippet <kbd>!</kbd> + <kbd>TAB</kbd> to create the basic HTML skeleton in a file on your computer somewhere:
+The simplest way to get started is to create an HTML file with the JavaScript code inside of it. Use the VS Code snippet <kbd>!</kbd> + <kbd>TAB</kbd> to create the basic HTML skeleton in a file on your computer somewhere. Be sure to include the `<script>` tag:
 
 ```html
 <!DOCTYPE html>
