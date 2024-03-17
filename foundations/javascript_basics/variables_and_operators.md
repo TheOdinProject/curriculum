@@ -1,6 +1,6 @@
 ### Introduction
 
-In the previous sections you learned how to structure webpages with HTML and style them with CSS. The next step is to make the webpage *interactive*, which is exactly what JavaScript is for. 
+In the previous sections you learned how to structure webpages with HTML and style them with CSS. The next step is to make the webpage *interactive*, which is exactly what JavaScript is for.
 
 In this section, we will focus on the fundamentals of JavaScript and how you can use it to manipulate all the various interactions between the web page and user.
 
@@ -50,11 +50,11 @@ Another way to include JavaScript in a webpage is through an external script. Th
 
 JavaScript files have the extension `.js` similar to `.css` for stylesheets. External JavaScript files are used for more complex scripts.
 
-We named our file `javascript.js` but we could have chosen any name like `my-script.js` or even no name `.js`. What is really important is the `.js` extension. 
+We named our file `javascript.js` but we could have chosen any name like `my-script.js` or even no name `.js`. What is really important is the `.js` extension.
 
 ### Variables
 
-These are the building blocks of any program. As an abstract example, let's consider a program that takes in two numbers and returns the sum of those numbers. 
+These are the building blocks of any program. As an abstract example, let's consider a program that takes in two numbers and returns the sum of those numbers.
 
 It could store the first number as a variable, `a` and the second number as another variable `b`. Then it would output their sum - `a + b`.
 
@@ -101,6 +101,7 @@ Your intuition may tell you that `3.14` will be output. Try it!
 An error is thrown. It doesn't even reach the `console.log`! You may wonder why we would *want* an error in our code. Truth be told, errors are incredibly helpful at telling us what is wrong with our code and exactly where the issue is. Without them, our code would still not do what we may want it to, but it would be a major pain to try and find what's wrong!
 
 So in summary, there are two ways to declare a variable:
+
 - With `let`, which we can re-assign.
 - Using `const` which we **can't** re-assign and will throw an error if we try.
 
@@ -110,7 +111,7 @@ There is also a third way - using `var`. It is the old way and should **not** be
 
 Numbers are the building blocks of programming logic!  In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important.  Luckily, it's also fairly straightforward.
 
-If you went to school, you will likely not find the concept too difficult to grasp. For example, the mathematical expression `(3 + 2) - 76 * (1 + 1)` is also valid JavaScript. If you put that into a `console.log`, it'll evaluate the expression and output the correct number. Try it! 
+If you went to school, you will likely not find the concept too difficult to grasp. For example, the mathematical expression `(3 + 2) - 76 * (1 + 1)` is also valid JavaScript. If you put that into a `console.log`, it'll evaluate the expression and output the correct number. Try it!
 
 ### Assignment
 
@@ -145,8 +146,8 @@ As you might have noticed by running JavaScript code in the console, the console
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Name the three ways to declare a variable](#variable-declaration)
-- [Which of the three variable declarations should you avoid and why?](#avoid-var)
+- [Name the three ways to declare a variable](#variables)
+- [Which of the three variable declarations should you avoid and why?](#variables)
 - [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
 - [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
 - [How does the Modulo (%), or Remainder, operator work?](https://javascript.info/operators#remainder)
@@ -155,8 +156,8 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you increment and decrement a number?](https://javascript.info/operators#increment-decrement)
 - [Explain the difference between prefixing and postfixing increment/decrement operators.](https://javascript.info/operators#increment-decrement)
 - [What is operator precedence and how is it handled in JS?](https://javascript.info/operators#operator-precedence)
-- [How do you access developer tools and the console?](#access-devTools-console)
-- [How do you log information to the console?](#console-log)
+- [How do you access developer tools and the console?](#how-to-run-javascript-code)
+- [How do you log information to the console?](#how-to-run-javascript-code)
 - [What does unary plus operator do to string representations of integers? eg. +"10"](https://javascript.info/operators#numeric-conversion-unary)
 
 ### Additional resources
