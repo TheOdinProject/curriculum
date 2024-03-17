@@ -64,6 +64,8 @@ Another way to include JavaScript in a webpage is through an external script. Th
 
 JavaScript files have the extension `.js` similar to `.css` for stylesheets. External JavaScript files are used for more complex scripts.
 
+We named our file `javascript.js` but we could have chosen any name like `my-script.js` or even no name `.js`. What is really important is the `.js` extension. 
+
 ### Variables
 
 You can think of variables as "storage containers" for data in your code.
