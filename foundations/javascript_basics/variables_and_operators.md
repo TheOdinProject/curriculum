@@ -72,11 +72,9 @@ You can think of variables as "storage containers" for data in your code.
 
 ![Variable Box Illustration](https://cdn.statically.io/gh/TheOdinProject/curriculum/d39eaf2ca95e80705f703bb218216c10508f5047/foundations/javascript_basics/fundamentals-1/imgs/00.png)
 
-<span id="variable-declaration">Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.</span>
+Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.
 
-1. This tutorial on [JavaScript variables](http://javascript.info/variables) will explain everything you need to know! Be sure to do the **Tasks** at the end. Information won't stick without practice!
-
-The above tutorial mentioned this, but it's important enough to note again: `let` and `const` are both relatively new ways to declare variables in JavaScript. <span id="avoid-var">In *many* tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is *not* what you would expect. Just stick to `let` (and `const`) for now.</span>
+It's important to note: `let` and `const` are both relatively new ways to declare variables in JavaScript. In *many* tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is *not* what you would expect. Just stick to `let` (and `const`) for now.
 
 ### Numbers
 
@@ -89,6 +87,8 @@ Numbers are the building blocks of programming logic!  In fact, it's hard to thi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+1. This tutorial on [JavaScript variables](http://javascript.info/variables) will explain everything you need to know! Be sure to do the **Tasks** at the end. Information won't stick without practice!
+  
 Try the following exercises (and don't forget to use `console.log()`!):
 
 1. Add 2 numbers together! (just type  `console.log(23 + 97)`   into your HTML file)
