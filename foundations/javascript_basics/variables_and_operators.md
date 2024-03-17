@@ -1,24 +1,26 @@
 ### Introduction
 
-In the previous sections you learnt how to structure webpages with HTML and style them with CSS. The next step is to make the webpage *interactive*, which is exactly what JavaScript is for. In this section, we will focus on the fundamentals of JavaScript and how you can use it to manipulate all the various interactions between the web page and user.
+In the previous sections you learnt how to structure webpages with HTML and style them with CSS. The next step is to make the webpage *interactive*, which is exactly what JavaScript is for. 
+
+In this section, we will focus on the fundamentals of JavaScript and how you can use it to manipulate all the various interactions between the web page and user.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How do you declare a variable?
-- What are three different ways to declare a variable?
-- Which one should you use when?
-- What are the rules for naming variables?
-- What are operators, operands, and operations?
-- What is concatenation and what happens when you add numbers and strings together?
-- What are the different types of operators in JavaScript?
-- What is the difference between == and ===?
-- What are operator precedence values?
-- What are the increment/decrement operators?
-- What is the difference between prefixing and postfixing them?
-- What are assignment operators?
-- What is the Unary Plus Operator?
+- How to declare a variable.
+- The three different ways to declare a variable.
+- Which one to use and when.
+- The rules for naming variables.
+- Discuss what are operators, operands, and operations.
+- Learn about concatenation and what happens when you add numbers and strings together.
+- The different types of operators in JavaScript.
+- The difference between == and ===.
+- Discuss what are operator precedence values.
+- What the increment/decrement operators are.
+- The difference between prefixing and postfixing them.
+- What assignment operators are.
+- What the Unary Plus Operator is.
 
 ### How to run JavaScript code
 
