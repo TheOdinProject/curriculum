@@ -24,10 +24,6 @@ This section contains a general overview of topics that you will learn in this l
 
 ### How to run JavaScript code
 
-All JavaScript we will be writing in the majority of the Foundations course will be run via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment. 
-
-Outside of these lessons, for now you should always default to running your JavaScript in the browser unless otherwise specified, otherwise you may run into unexpected errors.
-
 The simplest way to get started is to create an HTML file with the JavaScript code inside of it. Use the VS Code snippet <kbd>!</kbd> + <kbd>TAB</kbd> to create the basic HTML skeleton in a file on your computer somewhere:
 
 ```html
@@ -59,7 +55,7 @@ Save and open this file up in a web browser and then open up the browser's conso
 Another way to include JavaScript in a webpage is through an external script. This is very similar to linking external CSS docs to your website.
 
 ```html
-  <script src="javascript.js"></script>
+<script src="javascript.js"></script>
 ```
 
 JavaScript files have the extension `.js` similar to `.css` for stylesheets. External JavaScript files are used for more complex scripts.
