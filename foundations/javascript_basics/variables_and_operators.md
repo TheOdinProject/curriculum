@@ -8,19 +8,9 @@ In this section, we will focus on the fundamentals of JavaScript and how you can
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to declare a variable.
-- The three different ways to declare a variable.
-- Which one to use and when.
-- The rules for naming variables.
-- Discuss what are operators, operands, and operations.
-- Learn about concatenation and what happens when you add numbers and strings together.
-- The different types of operators in JavaScript.
-- The difference between == and ===.
-- Discuss what are operator precedence values.
-- What the increment/decrement operators are.
-- The difference between prefixing and postfixing them.
-- What assignment operators are.
-- What the Unary Plus Operator is.
+- Discuss the different ways you can declare variables.
+- Learn how to write mathematical expressions and the basic arithmetic operators.
+- What is operator precedence and some more advanced operators.
 
 ### How to run JavaScript code
 
