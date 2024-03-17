@@ -86,10 +86,12 @@ You can also re-assign variables:
 let age = 11;
 console.log(age); // outputs 11 to the console
 
-age = 54; // Notice the lack of "let" - we don't need it since the variable has already been *declared* earlier and we are just re-assigning it here!
+age = 54;
  
 console.log(age); // what will be output now?
 ```
+
+Notice the lack of `let` on line 4 - we don't need it since the variable has already been *declared* earlier and we are just re-assigning it here!
 
 Re-assigning is cool and all, but what if we *don't* want it to happen? For example we might have a *constant* `pi` which will never change. We can accomplish this using the `const` keyword.
 
