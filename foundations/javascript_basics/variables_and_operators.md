@@ -37,8 +37,8 @@ The simplest way to get started is to create an HTML file with the JavaScript co
 
 Save and open this file up in a web browser and then open up the browser's console:
 
-1. Right-click on the blank webpage or press <kbd>F12</kbd>.
-1. Click on "Inspect" or "Inspect Element" to open the Developer Tools (redundant if you use the keyboard shortcut).
+1. Right-click on the blank webpage.
+1. Click on "Inspect" or "Inspect Element" to open the Developer Tools.
 1. Find and select the "Console" tab, where you should see the output of our `console.log` statement.
 
 **Tip:** You can use ["Live Server" extension in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to automatically update the browser when you save your file instead of having to manually refresh the page to see any changes when you edit your code. Try edit the text to say something different!
