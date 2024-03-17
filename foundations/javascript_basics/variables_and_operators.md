@@ -128,7 +128,7 @@ If you went to school, you will likely not find the concept too difficult to gra
   
 Try the following exercises (and don't forget to use `console.log()`!):
 
-1. Add 2 numbers together! (just type  `console.log(23 + 97)`   into your HTML file)
+1. Add 2 numbers together! (just type  `console.log(23 + 97)` into your HTML file or the browser console)
 1. Add a sequence of 6 different numbers together.
 1. Print the value of the following expression: `(4 + 6 + 9) / 77`
     - Answer should be approximately `0.24675`
