@@ -72,9 +72,47 @@ You can think of variables as "storage containers" for data in your code.
 
 ![Variable Box Illustration](https://cdn.statically.io/gh/TheOdinProject/curriculum/d39eaf2ca95e80705f703bb218216c10508f5047/foundations/javascript_basics/fundamentals-1/imgs/00.png)
 
-Until recently there was only one way to create a variable in JavaScript &mdash; the `var` statement. But in the newest JavaScript versions we have two more ways &mdash; `let` and `const`.
+You can declare variables using the `let` keyword. Lets try it! (No pun intended).
 
-It's important to note: `let` and `const` are both relatively new ways to declare variables in JavaScript. In *many* tutorials (and code) across the internet you're likely to encounter `var` statements. Don't let it bother you! There's nothing inherently wrong with `var`, and in most cases `var` and `let` behave the same way. But sometimes the behavior of `var` is *not* what you would expect. Just stick to `let` (and `const`) for now.
+```javascript
+let name = "John";
+let surname = "Doe";
+
+console.log(name);
+console.log(surname);
+```
+
+What will the `console.log` output? Try it out!
+
+You can also re-assign variables:
+
+```javascript
+let age = 11;
+console.log(age); // outputs 11 to the console
+
+age = 54; // Notice the lack of "let" - we don't need it since the variable has already been *declared* earlier and we are just re-assigning it here!
+ 
+console.log(age); // what will be output now?
+```
+
+Re-assigning is cool and all, but what if we *don't* want it to happen? For example we might have a *constant* `pi` which will never change. We can accomplish this using the `const` keyword.
+
+```javascript
+const pi = 3.14;
+pi = 10;
+
+console.log(pi); // What will be output?
+```
+
+Your intuition may tell you that `3.14` will be output. Try it!
+
+An error is thrown. It doesn't even reach the `console.log`! You may wonder why we would *want* an error in our code. Truth be told, errors are incredibly helpful at telling us what is wrong with our code and exactly where the issue is. Without them, our code would still not do what we may want it to, but it would be a major pain to try and find what's wrong!
+
+So in summary, there are two ways to declare a variable:
+- With `let`, which we can re-assign.
+- Using `const` which we **can't** re-assign and will throw an error if we try.
+
+There is also a third way - using `var`. It is the old way and should **not** be used. However, you will likely come across code which uses `var`, so it is important to know that it exists. Do not worry too much about it for now.
 
 ### Numbers
 
