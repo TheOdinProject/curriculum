@@ -240,4 +240,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [This article by Ryan Thelin, briefly decribes the external, security, and automated benfits of using an API. It also informs and explains to the reader of the dissimilarity of release policie tiers, in addition to the different API protocols like, Representational State Transfer or also known as (REST) APIs, Remote Procedure Call (RPC), and Simple Object Access Protocol (SOAP). Furthermore, the author of this composition quickly articulates the differences between architectural API styles; for example, service-oriented architecture (SOA) and microservice architecture.](https://www.educative.io/blog/what-is-an-api)
+- [This article about APIs by Ryan Thelin](https://www.educative.io/blog/what-is-an-api) covers some extra topics like API release policies, API protocols and API architectural styles.
