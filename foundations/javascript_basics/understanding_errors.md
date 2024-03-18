@@ -84,13 +84,9 @@ will throw the following error, because we forgot the parentheses for `console.l
 
 ![Syntax Error Example](https://cdn.statically.io/gh/TheOdinProject/curriculum/284f0cdc998be7e4751e29e8458323ad5d320303/foundations/javascript_basics/understanding_errors/imgs/02.png)
 
-[MDN - SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
-
 #### Reference error
 
 We covered reference errors in the first example in this lesson, but it’s important to remember that these arise because whatever variable you are trying to reference does not exist (within the current scope) - or it has been spelled incorrectly!
-
-[MDN - ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
 
 #### Type error
 
@@ -114,16 +110,14 @@ const message = str1.push(str2);
 
 Here, we get a `TypeError` with a message stating that `str1.push is not a function`. This is a common error message that confuses learners because you might know that `.push()` is certainly a function (for example, if you have used it to add items to *arrays* before). But that’s the key - `.push()` is not a String method, it’s an Array method. Hence, it is “not a function” that you can find as a String method. If we change `.push()` to `.concat()`, a proper String method, our code runs as intended! A good note to keep in mind when faced with a `TypeError` is to consider the data type you are trying to run a method or operation against. You'll likely find that it is not what you think, or the operation or method is not compatible with that type.
 
-[MDN - TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
-
 ### Tips for resolving errors
 
 At this point, you might be wondering how we can resolve these errors.
 
-1. Read the error *carefully* and try to understand it on your own.
-1. Next, Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
-1. Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. [This tutorial dives into the Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/). Warning: In point 4 of step 3 of the tutorial, devtools will pause on the second line rather than at the declaration of the function. Don't worry this is expected.
-1. Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more! You can find additional methods [here](https://www.w3schools.com/jsref/obj_console.asp).
+1. We can start by understanding that the error message is your friend - not your enemy. Error messages tell you *exactly* what is wrong with your code, and which lines to examine to find the source of the error. Withour error messages it would be a *nightmare* to debug our code - because it would still not work, we just wouldn't know why! 
+1. Now, its time to Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
+1. Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it. 
+1. Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more!
 
 ### Errors vs. warnings
 
@@ -133,6 +127,11 @@ Lastly, many people are met with warnings and treat them as errors. Errors will 
 
 <div class="lesson-content__panel" markdown="1">
 
+1. Now, it's time to go through the documentation! Learn more about [the ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError), the [SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) and the [TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError) from the MDN Docs.
+1. Go through the [tutorial on the Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/).
+<div class="lesson-note" markdown="1">
+In point 4 of step 3 of the tutorial, devtools will pause on the second line rather than at the declaration of the function. Don't worry this is expected.
+</div>
 1. Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
 
 </div>
@@ -150,3 +149,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - [MDN JavaScript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
+- There are other useful `console` methods like `console.dir` or `console.table`. A [comprehensive list of `console` methods is available at w3schools](https://www.w3schools.com/jsref/obj_console.asp).
