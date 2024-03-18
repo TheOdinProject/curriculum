@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The `useRef` hook lets you manage a value that's not needed for rendering. They are an alternative to state, as when you want a component to “remember” some information, but you don't want that information to trigger new renders, you can use this hook.
 
-They are often used when performing imperative actions or accessing specific elements rendered in the DOM. Refs can also *persist* values throughout the component's lifecycle, meaning that the value of the ref will not be destroyed every time a component re-renders. This is very useful when you want to store a value that you want to persist throughout the component's lifecycle without storing it in a state.
+They are often used when performing imperative actions or accessing specific elements rendered in the DOM. Refs can also _persist_ values throughout the component's lifecycle, meaning that the value of the ref will not be destroyed every time a component re-renders. This is very useful when you want to store a value that you want to persist throughout the component's lifecycle without storing it in a state.
 
 #### DOM manipulation
 
@@ -21,8 +21,8 @@ When building web applications, sometimes you need more direct control over spec
 
 Imagine a button on a web page, and you want to focus on that button when the page loads. You could achieve this using the `useRef` hook. Here's how it works:
 
-~~~jsx
-import { useRef, useEffect } from "react";
+```jsx
+import { useRef, useEffect } from 'react';
 
 function ButtonComponent() {
   const buttonRef = useRef(null);
@@ -33,7 +33,7 @@ function ButtonComponent() {
 
   return <button ref={buttonRef}>Click Me!</button>;
 }
-~~~
+```
 
 The implementation is straightforward:
 
@@ -44,25 +44,25 @@ The implementation is straightforward:
 
 Whenever your website loads, it will automatically focus on the button element. You might ask, how can it have the `focus` method when the initial value is `null`? You should by now know that `rendering` and `painting of the screen` comes first before React runs the `useEffect`. It has already established the connection between the ref and the button before the effect is executed.
 
-Also, remember that `useRef` hook isn't just limited to focusing elements. It can be used for various other DOM manipulation scenarios, such as scrolling to a specific position, measuring the dimensions of an element, triggering animations, and basically *any* DOM manipulation that you've done before with vanilla JavaScript. The possibilities are endless! For example, we can change the `useEffect` in the above snippet to do the following. Change the button's text, and after 2 seconds, change the text back. You **should not** do this and only use `useRef` for non-destructive DOM operations, but just an example:
+Also, remember that `useRef` hook isn't just limited to focusing elements. It can be used for various other DOM manipulation scenarios, such as scrolling to a specific position, measuring the dimensions of an element, triggering animations, and basically _any_ DOM manipulation that you've done before with vanilla JavaScript. The possibilities are endless! For example, we can change the `useEffect` in the above snippet to do the following. Change the button's text, and after 2 seconds, change the text back. You **should not** do this and only use `useRef` for non-destructive DOM operations, but just an example:
 
-~~~jsx
+```jsx
 useEffect(() => {
   buttonRef.current.focus();
   buttonRef.current.textContent = "Hey, I'm different!";
   let timeout = setTimeout(() => {
-    buttonRef.current.textContent = "Click Me!";
+    buttonRef.current.textContent = 'Click Me!';
   }, 2000);
 
   return () => {
     clearTimeout(timeout);
   };
 }, []);
-~~~
+```
 
 The interesting thing about this is that this will **never** trigger a component re-render!
 
-Another question that might pop up in your mind is, "Why not just use `querySelector` or other DOM manipulation methods that we've done previously in vanilla JavaScript?" Dealing with the DOM ourselves defeats the purpose of using React, and wherever possible we should let React *commit* to the DOM itself.
+Another question that might pop up in your mind is, "Why not just use `querySelector` or other DOM manipulation methods that we've done previously in vanilla JavaScript?" Dealing with the DOM ourselves defeats the purpose of using React, and wherever possible we should let React _commit_ to the DOM itself.
 
 We can also see that it's similar to the `useState` hook in that it can store some values. The main difference is that `useRef` creates a mutable reference, allowing you to update its value without triggering a re-render. But, `useState` manages an immutable state that triggers re-renders when updated.
 
@@ -72,7 +72,7 @@ In all of the examples, we would advise you to use the [Profiler component](http
 
 > Premature optimization is the root of all evil -- The Art of Computer Programming by Donald Knuth
 
-The `useMemo` hook provides a way to add memoization inside our components. It's used to optimize expensive or complex calculations where it caches the result of a function call and stores it to be used later without recalculating it. The memoized value is, however, recalculated *only* when the dependencies of the `useMemo` hook change. And yes, this hook's parameters are the same as the `useEffect` hook you already know. The hook takes in two arguments: a `calculateValue` callback and a `dependencies` array.
+The `useMemo` hook provides a way to add memoization inside our components. It's used to optimize expensive or complex calculations where it caches the result of a function call and stores it to be used later without recalculating it. The memoized value is, however, recalculated _only_ when the dependencies of the `useMemo` hook change. And yes, this hook's parameters are the same as the `useEffect` hook you already know. The hook takes in two arguments: a `calculateValue` callback and a `dependencies` array.
 
 #### Memoizing expensive calculations
 
@@ -80,7 +80,7 @@ In our previous projects, namely the Shopping Cart Project. You have some logic 
 
 An example of a `Cart` component:
 
-~~~jsx
+```jsx
 function Cart({ products }) {
   const totalPrice = products.reduce(
     (total, product) => total + product.price * product.quantity,
@@ -98,18 +98,18 @@ function Cart({ products }) {
     </div>
   );
 }
-~~~
+```
 
 In our `Cart` component, we have the total price of the products calculated directly inside the component. Every time the component is rendered or updated, the calculation is performed from scratch! That doesn't sound good... What if the user has added hundreds of thousands of products to the cart? Then it will lead to a sluggish user experience.
 
-The `reduce` method iterates over each product and performs multiplication and addition for every item in the cart. This operation becomes *increasingly* time-consuming as the number of products increases.
+The `reduce` method iterates over each product and performs multiplication and addition for every item in the cart. This operation becomes _increasingly_ time-consuming as the number of products increases.
 
 Now imagine a user who frequently opens/closes the cart. Every time the drawer is opened, the `Cart` component is rendered, executing everything inside the component. This results in unnecessary recomputations of the same value even if the cart's content hasn't changed.
 
 Let's see how we can use `useMemo` to address this:
 
-~~~jsx
-import { useMemo } from "react";
+```jsx
+import { useMemo } from 'react';
 
 function Cart({ products }) {
   const totalPrice = useMemo(() => {
@@ -130,9 +130,9 @@ function Cart({ products }) {
     </div>
   );
 }
-~~~
+```
 
-In the example above, we can easily memoize the calculated value by wrapping it in a `useMemo`, as the syntax is pretty much the same as `useEffect` and almost works the same. Where `useMemo` will also *execute* the callback on mount, and on subsequent re-renders, it will only *re-execute* the callback whenever one of the dependencies *changes*. In our case, whenever the `products` prop changes.
+In the example above, we can easily memoize the calculated value by wrapping it in a `useMemo`, as the syntax is pretty much the same as `useEffect` and almost works the same. Where `useMemo` will also _execute_ the callback on mount, and on subsequent re-renders, it will only _re-execute_ the callback whenever one of the dependencies _changes_. In our case, whenever the `products` prop changes.
 
 This way, whenever a user opens/closes the cart multiple times, it will not recalculate the `totalPrice` and use the cached value as long as`products` did not change.
 
@@ -144,7 +144,7 @@ You do not need to start a React application for this. We've already got you cov
 
 Do note that this is just a very basic example. You will encounter a lot of passing of values to other components as prop, components that are very heavy to render.
 
-~~~jsx
+```jsx
 import React, { useState } from 'react';
 
 const ButtonComponent = ({ children, onClick }) => {
@@ -160,7 +160,7 @@ const ButtonComponent = ({ children, onClick }) => {
   }
 
   return (
-    <button type="button" onClick={onClick}>
+    <button type='button' onClick={onClick}>
       {children}
     </button>
   );
@@ -176,11 +176,11 @@ function Counter() {
   return (
     <div>
       <h1>{count}</h1>
-        <ButtonComponent onClick={handleClick}>Click me!</ButtonComponent>
+      <ButtonComponent onClick={handleClick}>Click me!</ButtonComponent>
     </div>
   );
 }
-~~~
+```
 
 You will likely want to have a separate button component where you can handle stylings and other things in it. So we have created a component called `ButtonComponent` as an example. This component takes the `children` and `onClick` props.
 
@@ -192,13 +192,13 @@ We already know we can memoize a value using `useMemo`, right? Then we can just 
 
 Let's create a new function and name it `memoizedHandleClick`:
 
-~~~jsx
+```jsx
 const memoizedHandleClick = useMemo(() => handleClick, []);
-~~~
+```
 
 We don't need to create a new function, but this is just to test these two functions. You can also directly do the following:
 
-~~~jsx
+```jsx
 // Syntax might be weird, but just remember that `useMemo` can take any value, and a function is also just a value `() => setCount((prevState) => prevState + 1)`
 
 const handleClick = useMemo(
@@ -207,11 +207,11 @@ const handleClick = useMemo(
   () => () => setCount((prevState) => prevState + 1),
   []
 );
-~~~
+```
 
 Great, `useMemo` should help us here right? It shouldn't possibly re-render the `ButtonComponent` again correct? Nope, it will still re-render because whenever a component's `state` changes, it will also re-render its children, which could also be said differently - a component will re-render itself if its parent re-renders. Is there a way to fix this? Yes, there is! React in one of its APIs provides the [memo](https://react.dev/reference/react/memo) function that lets you skip re-rendering a component when its props are unchanged (yes, even if the parent re-renders). We can use this `memo` and wrap the `ButtonComponent` in it.
 
-~~~jsx
+```jsx
 import React, { useState, memo } from 'react';
 
 const ButtonComponent = memo(({ children, onClick }) => {
@@ -227,12 +227,12 @@ const ButtonComponent = memo(({ children, onClick }) => {
   }
 
   return (
-    <button type="button" onClick={onClick}>
+    <button type='button' onClick={onClick}>
       {children}
     </button>
   );
 });
-~~~
+```
 
 Wrapping the component with a `memo` prevents the downward update that is triggered above the component. So, this component will only re-render when its `props` change or if its own `state` changes.
 
@@ -242,37 +242,37 @@ With all that said and done, test and break things in our interactive example:
 
 These are the scenarios that could happen:
 
-1. If you've passed `handleClick` and the `ButtonComponent` has a `memo`. It will still re-render. Referential equality check fails (previous prop is *not equal* to the current prop).
-1. If you've passed `memoizedHandleClick` and the `ButtonComponent` has a `memo`. It will not re-render. Referential equality check passes (previous prop is *equal* to the current prop).
+1. If you've passed `handleClick` and the `ButtonComponent` has a `memo`. It will still re-render. Referential equality check fails (previous prop is _not equal_ to the current prop).
+1. If you've passed `memoizedHandleClick` and the `ButtonComponent` has a `memo`. It will not re-render. Referential equality check passes (previous prop is _equal_ to the current prop).
 
 This works with all values that will be passed as a prop. You might see it being used frequently with the Context API:
 
-~~~jsx
+```jsx
 const value = useMemo(
   () => ({ someState, someFunction }),
   [someState, someFunction]
 );
 
 return <Context.Provider value={value}>{children}</Context.Provider>;
-~~~
+```
 
 ### The useCallback hook
 
 The `useCallback` hook provides another way to memoize a value, not just **any** value like `useMemo`. It can only memoize a function. Did you see the previous snippet that we have with memoizing a function reference with `useMemo`?
 
-~~~jsx
+```jsx
 const handleClick = useMemo(
   () => () => setCount((prevState) => prevState + 1),
   []
 );
 // or
 const memoizedHandleClick = useMemo(() => handleClick, []);
-~~~
+```
 
 With `useCallback`, we don't need to do that. It's specifically made for functions:
 
-~~~jsx
-import { useCallback } from "react";
+```jsx
+import { useCallback } from 'react';
 
 // Inside a component
 // Without useCallback
@@ -284,12 +284,12 @@ const handleClick = useCallback(
 );
 // or
 const memoizedHandleClick = useCallback(handleClick, []);
-~~~
+```
 
 <span id="usememo-or-usecallback"></span>
 Yay, there's only one arrow function, and it's simpler to read. There's nothing extra to `useCallback` other than it only memoizes functions. So the main difference between `useMemo` and `useCallback` is just the type of value it returns.
 
-Which one should we use, then? Use `useMemo` for *any* value types, and use `useCallback` specifically for functions. At the end of the day, they both do similar things with a tiny difference, so use whatever you prefer.
+Which one should we use, then? Use `useMemo` for _any_ value types, and use `useCallback` specifically for functions. At the end of the day, they both do similar things with a tiny difference, so use whatever you prefer.
 
 ### Conclusion
 
