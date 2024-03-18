@@ -99,6 +99,7 @@ function App() {
     </div>
   );
 }
+
 ```
 We have moved our `<ul>` element to a different component called `<List />`. It still returns the `<ul>` element, but we can do a lot more with it as a component.
 
