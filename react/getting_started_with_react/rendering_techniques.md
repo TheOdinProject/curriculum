@@ -104,15 +104,18 @@ function App() {
 <div class="lesson-note lesson-note--tip" markdown="1">
 #### "Missing in props validation"
 
-You may notice squiggly lines under your props (for example under `color` and `fontSize` inside the Button component below). Hovering over these will tell you they are `missing in props validation`. For now, this can safely be ignored as it is just a default ESLint rule warning about prop types, something that will be covered later in the course.
+You may notice squiggly lines under your props, for example, under `animal` inside the `<ListItem />` component above.
 
-For now, you may want to turn off this rule by adding the following to your `.eslintrc.cjs` file:
+Hovering over these will tell you they are `missing in props validation`. For now, this can safely be ignored as it is just a default ESLint rule warning about prop types, something that will be covered later in the course.
+
+You may want to turn off this rule by adding the following to your `.eslintrc.cjs` file:
 
 ```javascript
-"rules": {
-  // Your other rules
-  "react/prop-types": "off"
-}
+  "rules": {
+    // Your other rules
+    "react/prop-types": "off"
+  }
+
 ```
 
 </div>
