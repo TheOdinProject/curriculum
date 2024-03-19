@@ -20,7 +20,7 @@ any other properties that our reducer might need to produce the new state.
 
 We can define a reducer that updates the state of a counter like this:
 
-~~~js
+```js
 function reducer(state, action) {
   switch (action.type) {
     case "incremented_count": {
@@ -37,7 +37,7 @@ function reducer(state, action) {
     }
   }
 }
-~~~
+```
 
 Remember, reducers are pure functions so we shouldn't mutate the state.
 
@@ -60,13 +60,13 @@ an initial state as arguments, then returns an array with two values: the curren
 This `dispatch` function receives an **action** object as argument, which is passed to our reducer function and
 the returned value from it is used to update the state.
 
-~~~js
+```js
 const [state, dispatch] = useReducer(reducer, { count: 0 });
 
 function handleClick() {
   dispatch({ type: "incremented_count" });
 }
-~~~
+```
 
 Similarly to the `set` function in `useState`, React _only updates the state in the next render_ after calling the `dispatch` function.
 Keep in mind that these functions use [`Object.is`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the state has changed, if it hasn't, then the component won't re-render.
