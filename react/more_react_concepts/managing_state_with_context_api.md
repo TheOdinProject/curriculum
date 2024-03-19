@@ -61,7 +61,7 @@ function Links({ cartItemsCount }) {
     <ul>
       {/* Links */}
       <li>
-        <Link to='Link to the cart'>
+        <Link to="Link to the cart">
           <span>Cart</span>
           <div className='cart-icon'>{cartItemsCount}</div>
         </Link>
@@ -93,7 +93,7 @@ export default function ProductDetail({ products, addToCart }) {
       {/* Image of the product */}
       <div>
         {/* elements that align with the design */}
-        <button type='button' onClick={() => addToCart(product)}>
+        <button type="button" onClick={() => addToCart(product)}>
           Add to Cart
         </button>
       </div>
@@ -194,9 +194,9 @@ function Links() {
     <ul>
       {/* Other links */}
       <li>
-        <Link to='Link to the cart'>
+        <Link to="Link to the cart">
           <span>Cart</span>
-          <div className='cart-icon'>{cartItems.length}</div>
+          <div className="cart-icon">{cartItems.length}</div>
         </Link>
       </li>
     </ul>
@@ -232,7 +232,7 @@ export default function ProductDetail() {
       {/* Image of the product */}
       <div>
         {/* elements that align with the design */}
-        <button type='button' onClick={() => addToCart(product)}>
+        <button type="button" onClick={() => addToCart(product)}>
           Add to Cart
         </button>
       </div>
