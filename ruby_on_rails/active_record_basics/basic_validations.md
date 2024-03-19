@@ -1,6 +1,6 @@
 ### Introduction
 
-A BRIEF INTRODUCTION.
+Imagine you've got your database up and running and want to make sure that the data people are sending to your database is good data. For instance, to create an account on your site, a user needs to enter both a username and an email address. How do you enforce this?
 
 ### Lesson overview
 
@@ -8,50 +8,30 @@ This section contains a general overview of topics that you will learn in this l
 
 - A LESSON OVERVIEW ITEM.
 
-### CUSTOM SECTION HEADING
+### Client-side validation
 
-CUSTOM SECTION CONTENT.
+There are three levels of validations that you can enforce, each more strict and secure than the previous. At the topmost level, you can write code using JavaScript in your browser that detects if someone has filled out the form properly and will prompt them to finish it before moving on. We will learn more about that in the JavaScript course. The advantage here is that it is almost immediate so it creates a great user experience. The problem with this is that JavaScript is easy to circumvent and the user could easily submit a malicious or faulty request.
 
-#### Note box variations
+### Server-side validation
 
-<div class="lesson-note" markdown="1">
+The second layer of enforcement for your validations of user data (which you should never trust) is to do so at the server level. This means writing code in your Rails application (specifically in the model that you are trying to save an instance of, e.g. User) that examines user inputs, checks them versus the constraints you set up, and returns errors if there are any.
 
-#### A sample title
+This is more secure than JavaScript but has the disadvantage of taking a full round-trip HTTP request to your application in order to check it. Model validations are generally pretty effective and that's what we'll focus on here.
 
-A sample note box.
+Another problem occurs when your application has scaled up to the point where you are running multiple instances of it on multiple servers that all talk to the same central database. Let's say you want to make sure a username is unique... what happens if two users almost simultaneously submit the same username and it is received by two separate concurrent instances of your application? When each instance of your application checks with the database to see if the username is unique, both times it looks okay so they both go ahead and save the model... oops! That may not sound plausible, but how about in rapidly occurring automated transactions? These "race conditions" are very real.
 
-</div>
+### Database-level validation
 
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### level 4 heading for title is recommended
-
-A sample note box, variation: tip.
-
-</div>
-
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### But title is also optional
-
-A sample note box, variation: warning.
-
-</div>
-
-<div class="lesson-note lesson-note--critical" markdown="1">
-
-A sample note box, variation: critical.
-
-</div>
+So the only way to truly enforce constraints is on the database level, since your single database is the sole arbiter of what is unique and valid in this world. You can use extra parameters passed to some of the now-familiar migration methods like `add_index` to say `add_index :users, :username, unique: true`, which enforces in the most secure way that the column is unique. Again, though, most of your validations can be implemented in your Rails application's models.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. A RESOURCE ITEM
-   - AN INSTRUCTION ITEM
-1. A PRACTICE ITEM
-   - A TASK ITEM
+1. Read the [Rails Guides Validations chapter](http://guides.rubyonrails.org/active_record_validations.html)
+   - Section 2 on helpers can be skimmed -- these help you get more specific with your validations and you'll run into them later
+   - You can skim section 6 about custom validators
+   - Section 8 will likely only be interesting if you've seen ERB in Rails views before... we'll get there.
 
 </div>
 
@@ -59,7 +39,8 @@ A sample note box, variation: critical.
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
+- [What does the validation helper `presence: true` enforce?](https://guides.rubyonrails.org/active_record_validations.html#presence)
+- [How can you see why an instance of a model class has failed validation?](https://guides.rubyonrails.org/active_record_validations.html#validations-overview-errors)
 
 ### Additional resources
 
