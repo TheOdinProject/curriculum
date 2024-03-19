@@ -1,7 +1,7 @@
 # Git Branches Introduction
 This lesson is focused on one of the key features of Git: branches. Branches can be useful for testing new ideas, compartmentalizing projects, and allowing multiple developers to contribute to the same project simultaneously. 
 
-For example, you might decide that your web app needs GitHub authentication while another developer is building a profile page for your users. By using Git branches you will both be able to write new code without causing problems for one another.
+For example, you might decide that your web app needs GitHub authentication while another developer is building a profile page for your users. By using Git branches you will both be able to write new code without causing problems for one another.g
 
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
