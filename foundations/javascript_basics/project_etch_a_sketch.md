@@ -4,14 +4,14 @@ In this project, you'll be creating a pretty neat toy to flex your DOM manipulat
 
 This project should *not* be easy. You'll probably have to Google frequently to find the right JavaScript methods and CSS to use – in fact, that's the point! You *can* build this using the tools that you have already learned. There are plenty of resources on the net for learning stuff that we haven't covered yet if you decide you need it. We'll walk you through the basic steps, but it will be up to you to actually implement them.
 
-If you get totally stuck, drop by the [chatroom](https://discord.com/channels/505093832157691914). Someone will be there to point you in the right direction.
+If you get totally stuck, drop by and ask for help in [our Discord server](https://discord.gg/theodinproject). Someone will be there to point you in the right direction.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 Don't forget to commit early & often! You can [reference the Commit Message lesson here](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
 
-1. [Follow the instructions atop Odin's Recipes project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes#setting-up-your-projects-github-repository) to set up a Git repository for this project.
+1. Follow our instructions on [setting up your project's GitHub repository](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes#setting-up-your-projects-github-repository).
 1. Create a webpage with a 16x16 grid of square divs.
     - Create the divs using JavaScript. Don't try to create them by hand by copying and pasting them in your HTML file!
     - It's best to put your grid squares inside a "container" div. This div can be written in your HTML file.
