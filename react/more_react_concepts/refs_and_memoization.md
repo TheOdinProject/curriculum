@@ -51,7 +51,7 @@ useEffect(() => {
   buttonRef.current.focus();
   buttonRef.current.textContent = "Hey, I'm different!";
   let timeout = setTimeout(() => {
-    buttonRef.current.textContent = 'Click Me!';
+    buttonRef.current.textContent = "Click Me!";
   }, 2000);
 
   return () => {
@@ -160,7 +160,7 @@ const ButtonComponent = ({ children, onClick }) => {
   }
 
   return (
-    <button type='button' onClick={onClick}>
+    <button type="button" onClick={onClick}>
       {children}
     </button>
   );
@@ -227,7 +227,7 @@ const ButtonComponent = memo(({ children, onClick }) => {
   }
 
   return (
-    <button type='button' onClick={onClick}>
+    <button type="button" onClick={onClick}>
       {children}
     </button>
   );
