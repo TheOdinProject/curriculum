@@ -220,7 +220,7 @@ We've completely removed the prop drill problem, and we can conveniently get the
 Let's also change our `ProductDetail` component to do the same:
 
 ```jsx
-import { useContext } from 'react';
+import { useContext } from "react";
 // import for ShopContext
 
 export default function ProductDetail() {
