@@ -21,7 +21,7 @@ When building web applications, sometimes you need more direct control over spec
 
 Imagine a button on a web page, and you want to focus on that button when the page loads. You could achieve this using the `useRef` hook. Here's how it works:
 
-~~~jsx
+```jsx
 import { useRef, useEffect } from "react";
 
 function ButtonComponent() {
@@ -33,7 +33,7 @@ function ButtonComponent() {
 
   return <button ref={buttonRef}>Click Me!</button>;
 }
-~~~
+```
 
 The implementation is straightforward:
 
@@ -46,7 +46,7 @@ Whenever your website loads, it will automatically focus on the button element. 
 
 Also, remember that `useRef` hook isn't just limited to focusing elements. It can be used for various other DOM manipulation scenarios, such as scrolling to a specific position, measuring the dimensions of an element, triggering animations, and basically *any* DOM manipulation that you've done before with vanilla JavaScript. The possibilities are endless! For example, we can change the `useEffect` in the above snippet to do the following. Change the button's text, and after 2 seconds, change the text back. You **should not** do this and only use `useRef` for non-destructive DOM operations, but just an example:
 
-~~~jsx
+```jsx
 useEffect(() => {
   buttonRef.current.focus();
   buttonRef.current.textContent = "Hey, I'm different!";
@@ -58,7 +58,7 @@ useEffect(() => {
     clearTimeout(timeout);
   };
 }, []);
-~~~
+```
 
 The interesting thing about this is that this will **never** trigger a component re-render!
 
@@ -80,7 +80,7 @@ In our previous projects, namely the Shopping Cart Project. You have some logic 
 
 An example of a `Cart` component:
 
-~~~jsx
+```jsx
 function Cart({ products }) {
   const totalPrice = products.reduce(
     (total, product) => total + product.price * product.quantity,
@@ -98,7 +98,7 @@ function Cart({ products }) {
     </div>
   );
 }
-~~~
+```
 
 In our `Cart` component, we have the total price of the products calculated directly inside the component. Every time the component is rendered or updated, the calculation is performed from scratch! That doesn't sound good... What if the user has added hundreds of thousands of products to the cart? Then it will lead to a sluggish user experience.
 
@@ -108,7 +108,7 @@ Now imagine a user who frequently opens/closes the cart. Every time the drawer i
 
 Let's see how we can use `useMemo` to address this:
 
-~~~jsx
+```jsx
 import { useMemo } from "react";
 
 function Cart({ products }) {
@@ -130,7 +130,7 @@ function Cart({ products }) {
     </div>
   );
 }
-~~~
+```
 
 In the example above, we can easily memoize the calculated value by wrapping it in a `useMemo`, as the syntax is pretty much the same as `useEffect` and almost works the same. Where `useMemo` will also *execute* the callback on mount, and on subsequent re-renders, it will only *re-execute* the callback whenever one of the dependencies *changes*. In our case, whenever the `products` prop changes.
 
@@ -144,7 +144,7 @@ You do not need to start a React application for this. We've already got you cov
 
 Do note that this is just a very basic example. You will encounter a lot of passing of values to other components as prop, components that are very heavy to render.
 
-~~~jsx
+```jsx
 import React, { useState } from 'react';
 
 const ButtonComponent = ({ children, onClick }) => {
@@ -180,7 +180,7 @@ function Counter() {
     </div>
   );
 }
-~~~
+```
 
 You will likely want to have a separate button component where you can handle stylings and other things in it. So we have created a component called `ButtonComponent` as an example. This component takes the `children` and `onClick` props.
 
@@ -192,13 +192,13 @@ We already know we can memoize a value using `useMemo`, right? Then we can just 
 
 Let's create a new function and name it `memoizedHandleClick`:
 
-~~~jsx
+```jsx
 const memoizedHandleClick = useMemo(() => handleClick, []);
-~~~
+```
 
 We don't need to create a new function, but this is just to test these two functions. You can also directly do the following:
 
-~~~jsx
+```jsx
 // Syntax might be weird, but just remember that `useMemo` can take any value, and a function is also just a value `() => setCount((prevState) => prevState + 1)`
 
 const handleClick = useMemo(
@@ -207,11 +207,11 @@ const handleClick = useMemo(
   () => () => setCount((prevState) => prevState + 1),
   []
 );
-~~~
+```
 
 Great, `useMemo` should help us here right? It shouldn't possibly re-render the `ButtonComponent` again correct? Nope, it will still re-render because whenever a component's `state` changes, it will also re-render its children, which could also be said differently - a component will re-render itself if its parent re-renders. Is there a way to fix this? Yes, there is! React in one of its APIs provides the [memo](https://react.dev/reference/react/memo) function that lets you skip re-rendering a component when its props are unchanged (yes, even if the parent re-renders). We can use this `memo` and wrap the `ButtonComponent` in it.
 
-~~~jsx
+```jsx
 import React, { useState, memo } from 'react';
 
 const ButtonComponent = memo(({ children, onClick }) => {
@@ -232,7 +232,7 @@ const ButtonComponent = memo(({ children, onClick }) => {
     </button>
   );
 });
-~~~
+```
 
 Wrapping the component with a `memo` prevents the downward update that is triggered above the component. So, this component will only re-render when its `props` change or if its own `state` changes.
 
@@ -247,31 +247,31 @@ These are the scenarios that could happen:
 
 This works with all values that will be passed as a prop. You might see it being used frequently with the Context API:
 
-~~~jsx
+```jsx
 const value = useMemo(
   () => ({ someState, someFunction }),
   [someState, someFunction]
 );
 
 return <Context.Provider value={value}>{children}</Context.Provider>;
-~~~
+```
 
 ### The useCallback hook
 
 The `useCallback` hook provides another way to memoize a value, not just **any** value like `useMemo`. It can only memoize a function. Did you see the previous snippet that we have with memoizing a function reference with `useMemo`?
 
-~~~jsx
+```jsx
 const handleClick = useMemo(
   () => () => setCount((prevState) => prevState + 1),
   []
 );
 // or
 const memoizedHandleClick = useMemo(() => handleClick, []);
-~~~
+```
 
 With `useCallback`, we don't need to do that. It's specifically made for functions:
 
-~~~jsx
+```jsx
 import { useCallback } from "react";
 
 // Inside a component
@@ -284,7 +284,7 @@ const handleClick = useCallback(
 );
 // or
 const memoizedHandleClick = useCallback(handleClick, []);
-~~~
+```
 
 <span id="usememo-or-usecallback"></span>
 Yay, there's only one arrow function, and it's simpler to read. There's nothing extra to `useCallback` other than it only memoizes functions. So the main difference between `useMemo` and `useCallback` is just the type of value it returns.
