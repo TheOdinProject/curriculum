@@ -145,7 +145,7 @@ You do not need to start a React application for this. We've already got you cov
 Do note that this is just a very basic example. You will encounter a lot of passing of values to other components as prop, components that are very heavy to render.
 
 ```jsx
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const ButtonComponent = ({ children, onClick }) => {
   let i = 0;
@@ -212,7 +212,7 @@ const handleClick = useMemo(
 Great, `useMemo` should help us here right? It shouldn't possibly re-render the `ButtonComponent` again correct? Nope, it will still re-render because whenever a component's `state` changes, it will also re-render its children, which could also be said differently - a component will re-render itself if its parent re-renders. Is there a way to fix this? Yes, there is! React in one of its APIs provides the [memo](https://react.dev/reference/react/memo) function that lets you skip re-rendering a component when its props are unchanged (yes, even if the parent re-renders). We can use this `memo` and wrap the `ButtonComponent` in it.
 
 ```jsx
-import React, { useState, memo } from 'react';
+import React, { useState, memo } from "react";
 
 const ButtonComponent = memo(({ children, onClick }) => {
   let i = 0;
