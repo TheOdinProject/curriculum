@@ -1,10 +1,10 @@
 ### Introduction
 
-In the previous section, you got up and running with Node. You learned how to read and write data from files on the server, and use those to serve up a multi-page website. You may have found this a somewhat verbose and cumbersome process and may have even wondered how on Earth we would manage more complex use cases.
+In the previous section, you got up and running with Node. You learned how to read and write data from files on the server, allowing you to serve up a multi-page website. You may have found this process somewhat verbose and cumbersome, and may have even wondered how on Earth we would manage more complex use cases.
 
-In this course, we are going to be using a backend framework called [Express](https://expressjs.com/), which will handle a lot of the implementation details for us. Express itself is an intentionally barebones and unopinionated framework; it allows us to do many things how we want, and to extend it with only the features we need. While this gives us great flexibility in how we do things, it can be a little tricky deciding between multiple viable options at times.
+In this course, we will be using a backend framework called [Express](https://expressjs.com/), which will handle many of the implementation details for us. Express itself is an intentionally barebones and unopinionated framework; it allows us to do many things how we want, and to extend it with only the features we need. However, while this gives us great flexibility in how we do things, it can be a little tricky deciding between multiple viable options at times.
 
-Going forward, we will be diving into how we can use Express in various ways, such as to create a full stack application utilising the `Model View Controller` (MVC) pattern, as well as to create a REST API just like ones you will have used before for things such as the Weather App project or the React Shopping Cart. Along the way, we will be learning about things like databases, authentication, and much more. There is a lot to take in, so take it steady and do not be afraid to ask our community for help in [our Discord server](https://discord.gg/theodinproject)!
+Going forward, we will be diving into how we can use Express in various ways, such as to create a full-stack application using the Model View Controller (MVC) pattern, as well as to create a REST API just like ones you will have used before for things such as the Weather App or the React Shopping Cart projects. Along the way, we will be learning about things like databases, authentication, and much more. There is a lot to take in, so take it steady, and do not be afraid to ask our community for help in [our Discord server](https://discord.gg/theodinproject)!
 
 ### Lesson overview
 
@@ -41,11 +41,11 @@ Let's break this down. We import `express` then call it to initialize the `app` 
 
 We then have a `route handler` - the line beginning with `app.get`. We will come back to this in a moment.
 
-Finally, we tell our server to listen for requests on port 3000 of our [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). 3000 is an arbitrary and somewhat conventional default choice, but you can technically use any unused port (e.g. Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged. Congratulations! Your first Express server is now running.
+Finally, we tell our server to listen for incoming requests requests on port 3000 of our [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged. Congratulations! Your first Express server is now running.
 
 ### A request's journey
 
-Now that our server is running and listening on port 3000, let's send it a request. In a browser, navigate to `http://localhost:3000/` (if you omit the `/` at the end, then the browser will invisibly add it for you). All this does is tell the browser to send a `GET` request to the `/` route of whatever server is at port 3000 of our localhost (which is our Express server!) and display in the window whatever it receives in response.
+Now that our server is up and running on port 3000, let's send it a request! In a browser, navigate to `http://localhost:3000/` (don't worry if you forget the slash `/` at the end; the browser will silently add it for you if so). This action tells the browser to send a `GET` request to the `/` route of whatever server is listening at port 3000 on our localhost (which is our Express server!) and display in the window whatever it receives in response.
 
 Whenever you navigate to any web URL this way, this is essentially what you are doing. Navigating to `https://theodinproject.com/paths` via the address bar is just telling the browser to send a `GET` request to the `/paths` route at `https://theodinproject.com`, then display what it receives in response.
 
