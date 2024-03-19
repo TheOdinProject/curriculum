@@ -159,7 +159,7 @@ function sumOfTripledEvens(array) {
 <div class="lesson-content__panel" markdown="1">
 1. Start out by watching [this video](https://www.youtube.com/watch?v=HB1ZC7czKRs) from Wes Bos. To follow along, use your local Javascript30 repository. If you don't have the repo yet, clone it from [here](https://github.com/wesbos/JavaScript30).
 1. Watch and code with [Part 2](https://www.youtube.com/watch?v=QNmRfyNg1lw) of Wes Bos's array series.
-1. For a more comprehensive and in-depth guide to array methods in JavaScript, you can also check out this [array method guide](https://javascript.info/array-methods). This resource covers each method in detail, with examples and explanations of their usage.
+1. Read through the [array method guide](https://javascript.info/array-methods) for a more comprehensive and in-depth guide to array methods in JavaScript. Complete the exercises at the end except for "Create an extendable calculator", as that involves more advanced concepts we have not yet covered.
 1. At this point you just need a little more practice!  Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Fundamentals Part 4](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4) assignment. Review each README file prior to completing the following exercises in order:
     - `08_calculator`
     - `09_palindromes`
