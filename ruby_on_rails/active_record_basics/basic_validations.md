@@ -1,6 +1,6 @@
 ### Introduction
 
-Imagine you've got your database up and running and want to make sure that the data people are sending to your database is good data. For instance, to create an account on your site, a user needs to enter both a username and an email address. How do you enforce this?
+Imagine you’ve got your database up and running and want to make sure that people are sending it good data in their requests. For instance, to create an account on your site, a user needs to enter both a username and an email address. How do you require that both values are entered, or that they each have the proper characters? Such restrictions are achieved with *validations*.
 
 ### Lesson overview
 
