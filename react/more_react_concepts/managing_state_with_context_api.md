@@ -115,14 +115,14 @@ This is a very basic application, but imagine the application grows in size as m
 
 To simplify our application and reduce complexity, we can implement the Context API. There are three key elements in this API that we need to understand:
 
-1. `createContext` - This "creates the context" Duh... But yes, it's how we can create the context. It takes in any value, be it a number, string, or object, which can be referred to as the _default value_ of the context, and returns a context object that can be used to pass down data to components
+1. `createContext` - This "creates the context" Duh... But yes, it's how we can create the context. It takes in any value, be it a number, string, or object, which can be referred to as the *default value* of the context, and returns a context object that can be used to pass down data to components
 2. `useContext` - This hook is used to consume data from a context object created by `createContext`. We can use this hook inside our component to retrieve the data that we need. This hook accepts the context object as an argument
 3. `ContextObject.Provider` - The context object comes with the `Provider` component that accepts a prop called `value`, which is the context value that's going to be passed down to the components no matter how deeply they're nested. In other words, a way to "provide" the context value to these components
 
 We can start by using the `createContext` function that can be imported from the `react` module.
 
 ```javascript
-import { createContext } from 'react';
+import { createContext } from "react";
 ```
 
 As we have described earlier, when you create a new context using `createContext`, you can specify an initial value for the context. This is known as the default value of the context. The default value can be any type of value - a string, number, boolean, or even an object or array. Do note that this default value does not change, it's static.
@@ -145,7 +145,7 @@ This object that we've defined is not necessary. We can of course do this as wel
 const ShopContext = createContext(null);
 ```
 
-However, the reason why we're adding the object, is so that even if we somehow use the context inside a component that is not nested inside a Provider, because we have set a _default value_, our application will not break (This is also good for testing since we don't need to wrap a component in a Provider to get a value) and also take advantage of IDE features like auto-completion when we have an object as the value. When we use this context in our components, we will be able to access the properties directly from the context. It's basically a bonus! It's up to you if you want to set the default value to the object or just `null` because we're going to overwrite this default value anyway.
+However, the reason why we're adding the object, is so that even if we somehow use the context inside a component that is not nested inside a Provider, because we have set a *default value*, our application will not break (This is also good for testing since we don't need to wrap a component in a Provider to get a value) and also take advantage of IDE features like auto-completion when we have an object as the value. When we use this context in our components, we will be able to access the properties directly from the context. It's basically a bonus! It's up to you if you want to set the default value to the object or just `null` because we're going to overwrite this default value anyway.
 
 So how do we use this context? And that is by using the `Provider` component of the Context object and nesting the children components inside it. In this example, we will remove the props altogether.
 
@@ -183,7 +183,7 @@ export default function App() {
 Great! Now let's try to look at our `Header` component again, we will also remove all the props that we've defined earlier, and to retrieve the data, we'll be using the `useContext` hook that can be imported in the `react` module.
 
 ```jsx
-import { useContext } from 'react';
+import { useContext } from "react";
 // import for ShopContext
 // import for Link
 
@@ -215,7 +215,7 @@ export default function Header() {
 }
 ```
 
-We've completely removed the prop drill problem, and we can conveniently get the `cartItems` directly in the `Links` component itself as we already know that no matter how deeply nested the component is, we can still get the data as long as _it's nested inside the Provider_.
+We've completely removed the prop drill problem, and we can conveniently get the `cartItems` directly in the `Links` component itself as we already know that no matter how deeply nested the component is, we can still get the data as long as *it's nested inside the Provider*.
 
 Let's also change our `ProductDetail` component to do the same:
 
