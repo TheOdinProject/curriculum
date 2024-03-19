@@ -12,6 +12,20 @@ This section contains a general overview of topics that you will learn in this l
 
 Validations are restrictions applied at three levels to ensure that data meets certain criteria before it can be saved to the database. The three levels are the client side, the server side -- that is, the Rails level, and the database. Each level's validation is more strict and secure than the previous.
 
+### How to specify validations
+
+Let's suppose someone tries to make a new user. They click a submit button on a form somewhere, the HTTP request gets sent, and the validation processes occur. At the Rails level, a basic validation in the User model file can be written as follows.
+
+In `app/models/user.rb`:
+
+```ruby
+class User < ApplicationRecord
+  validates :name, presence: true
+end
+```
+
+Note that the above is a simplified example for illustrative purposes, showing one single validation. Real-world validation logic in a class is often more complex, and can consist of multiple validation checks.
+
 ### Client-side validation
 
 There are three levels of validations that you can enforce, each more strict and secure than the previous. At the topmost level, you can write code using JavaScript in your browser that detects if someone has filled out the form properly and will prompt them to finish it before moving on. We will learn more about that in the JavaScript course. The advantage here is that it is almost immediate so it creates a great user experience. The problem with this is that JavaScript is easy to circumvent and the user could easily submit a malicious or faulty request.
