@@ -109,7 +109,7 @@ Now imagine a user who frequently opens/closes the cart. Every time the drawer i
 Let's see how we can use `useMemo` to address this:
 
 ```jsx
-import { useMemo } from 'react';
+import { useMemo } from "react";
 
 function Cart({ products }) {
   const totalPrice = useMemo(() => {
