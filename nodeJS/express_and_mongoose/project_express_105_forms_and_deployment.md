@@ -26,6 +26,6 @@ This section contains a general overview of topics that you will learn in this l
 1. Complete part 6 of [the MDN Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms).
 2. Read about deploying your app in the [final article of the MDN Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment).
 
-Reminder: Make sure to hide your MongoDB connection URL! Once you've hosted your app on Railway you'll be creating a new database with them and can use the instructions in the MDN tutorial to manage environment variables through the Railway dashboard.
+Reminder: Make sure to hide your MongoDB connection URL! Once you've hosted your app on Glitch or Railway you'll be creating a new database with them and can use the instructions in the MDN tutorial to manage environment variables through the Glitch/Railway dashboard.
 
 </div>
