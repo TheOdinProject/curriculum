@@ -9,7 +9,7 @@ If you get totally stuck, drop by and ask for help in [our Discord server](https
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-Don't forget to commit early & often! You can [reference the Commit Message lesson here](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
+Don't forget to commit early and often! You can reference the [Commit Messages lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
 
 1. Follow our instructions on [setting up your project's GitHub repository](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes#setting-up-your-projects-github-repository).
 1. Create a webpage with a 16x16 grid of square divs.
