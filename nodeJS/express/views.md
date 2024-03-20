@@ -50,6 +50,32 @@ Here's a quick example that makes includes arrays and loop logic.
 - <%= animal%>s are cute <% }) %>
 ```
 
+### Using EJS with Express
+
+Let's use `EJS` with `Express`. First, create an `EJS` template file called `index.ejs`, and add the following:
+
+```html
+<html>
+  <body>
+    <%= message %>
+  </body>
+</html>
+```
+
+And in app.js, render this template file in one of your routes:
+
+```js
+app.get("/", (req, res) => {
+  res.render("index", { message: "EJS rocks!" });
+});
+```
+
+When the `"/"` route is matched, the template file matching `"index"` is rendered with the message value passed, such that you should see:
+
+```
+EJS rocks!
+```
+
 #### Note box variations
 
 <div class="lesson-note" markdown="1">
