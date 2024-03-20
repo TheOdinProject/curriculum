@@ -2,7 +2,7 @@
 
 We’ll need a way of rendering the data from our controller functions, and views let us do that. In the context of the MVC architecture, views are the user-facing part of the application. They are the UI that the user interacts with. Views are sections of code that generate the HTML for our applications. They define the layout for the rendered HTML and allow data to be rendered where dictated in our layout.
 
-We use template engines to create our views. More specifically, template engines are used to create template files that transform the template into HTML. Any variables defined in our template files are replaced with actual data.
+We use template engines to create our views. More specifically, template engines are used to create template files that transform the template into HTML. Any variables defined in our template files are replaced with actual data. Additionally we can insert logic into our template file, eg. render the user's username once they have logged in. This would not be possible with plain HTML.
 
 In this course, we will use [EJS](link: https://ejs.co/) which lets us write in JavaScript to create HTML markup.
 
@@ -35,9 +35,9 @@ app.set("view engine", "ejs");
 
 This enables `EJS` as the view engine, and that our app should look for templates in the `/views` subdirectory.
 
-### Template syntax
+### EJS syntax
 
-In `EJS`, the `<%` and `%>` tags allow us to use JavaScript. Whatever is in these tags will behave like JavaScript. This lets us write conditional statements, `for` loops, and use variables.
+In `EJS`, the `<%` and `%>` tags allow us to use JavaScript. Whatever is in these tags will behave like JavaScript. This lets us write conditional statements, `for` loops, as well as use variables.
 
 In order to work with variables, we use the `<%=` tag. This lets us convert variables into values when the application is loaded. Otherwise, stick with `<%` when using JavaScript logic.
 
@@ -138,38 +138,6 @@ Here's another example of how to use `includes` to dynamically render a list of 
 
 Note the use of of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
 
-#### Note box variations
-
-<div class="lesson-note" markdown="1">
-
-#### A sample title
-
-A sample note box.
-
-</div>
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### level 4 heading for title is recommended
-
-A sample note box, variation: tip.
-
-</div>
-
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### But title is also optional
-
-A sample note box, variation: warning.
-
-</div>
-
-<div class="lesson-note lesson-note--critical" markdown="1">
-
-A sample note box, variation: critical.
-
-</div>
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -186,6 +154,10 @@ A sample note box, variation: critical.
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
+- [How do you configure EJS for Express projects?](#setting-up-ejs)
+- [What is the difference between "<%" and "<%=" tags?](#ejs-syntax)
+- [How do you render a view in a controller callback?](#using-ejs-with-express)
+- [How can components be included in other components?](#reusuable-web-components)
 
 ### Additional resources
 
