@@ -28,7 +28,9 @@ Note that the above is a simplified example for illustrative purposes, showing o
 
 ### Client-side validation
 
-There are three levels of validations that you can enforce, each more strict and secure than the previous. At the topmost level, you can write code using JavaScript in your browser that detects if someone has filled out the form properly and will prompt them to finish it before moving on. We will learn more about that in the JavaScript course. The advantage here is that it is almost immediate so it creates a great user experience. The problem with this is that JavaScript is easy to circumvent and the user could easily submit a malicious or faulty request.
+At the topmost level, you can write code using JavaScript in your browser that detects if someone has filled out the form properly and will prompt them to finish it before moving on. We will learn more about that in the JavaScript course. The advantage here is that it is almost immediate so it creates a great user experience. The problem with this is that JavaScript is easy to circumvent and the user could easily submit a malicious or faulty request.
+
+Additionally, as of HTML5, validations may also be performed in HTML forms using vanilla HTML. As is the case with JavaScript-based form validation, HTML form validation is easily circumvented.
 
 ### Server-side validation
 
