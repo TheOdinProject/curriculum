@@ -39,7 +39,7 @@ sudo apt update && sudo apt upgrade
 Run this command to install `nvm`:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 
 #### Step 2: Initializing NVM
@@ -73,7 +73,7 @@ touch ~/.zshrc
 ```
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 
 Restart your terminal, or copy and paste the following into your terminal and press <kbd>Enter</kbd>:
