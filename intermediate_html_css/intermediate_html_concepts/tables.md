@@ -35,7 +35,7 @@ In this codepen example we created a table element, containing two table row ele
 
 ### Knowledge check
 
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is a table?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#what_is_a_table_)
 - [Why is it a bad idea to use HTML Tables for page layout?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#when_should_you_not_use_html_tables)
@@ -44,6 +44,6 @@ This section contains helpful links to related content. It isn't required, so co
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Pencil & Paper published a great [article about things you can achieve with tables](https://pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables) if you dare to spend some time giving them some love. They suggest some good habits on how you should format your data which makes a huge difference. These are not a list of must dos to a table, but ideas worth keeping in mind for the next time a table is bothering you with how it looks.
