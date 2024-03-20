@@ -272,7 +272,7 @@ When nesting lists, use a 2 space indent when nesting inside a bulleted list and
 
 ~~~markdown
 1. The first item
-2. A second item
+1. A second item
    - A sub-item for the second item with 3 spaces before the hyphen
 
 - A bulleted list item
@@ -283,7 +283,7 @@ When nesting lists, use a 2 space indent when nesting inside a bulleted list and
 Will result in the following output:
 
 1. The first item
-2. A second item
+1. A second item
    - A sub-item for the second item with 3 spaces before the hyphen
 
 - A bulleted list item
@@ -299,7 +299,7 @@ When list items should wrap onto multiple lines – such as to create a line bre
 
    This is related information to the first item, but visually separated out.
 
-2. A new list item
+1. A new list item
 
 - This is a lengthy bulleted list item.
 
@@ -314,7 +314,7 @@ Will result in the following output:
 
    This is related information to the first item, but visually separated out.
 
-2. A new list item
+1. A new list item
 
 - This is a lengthy bulleted list item.
 
