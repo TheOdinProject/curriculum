@@ -44,7 +44,7 @@ You might also see these referred to as self closing tags. But those are just vo
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [Watch Kevin Powell's Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-)
+1. Watch Kevin Powell's [Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA).
 
 </div>
 
