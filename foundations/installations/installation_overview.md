@@ -82,3 +82,5 @@ With that out of the way, we need to set up an appropriate development environme
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Here is a nice explanation and step by step guide detailing dual booting your Windows system by creating a disk partition to install Linux - https://www.xda-developers.com/dual-boot-windows-11-linux/
+  This guide considers that you have Windows OS already installed in your system.
