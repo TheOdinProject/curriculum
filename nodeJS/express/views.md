@@ -1,6 +1,6 @@
 ### Introduction
 
-We’ll need a way of rendering the data from our controller functions, and views let us do that. In the context of the MVC architecture, views are the user-facing part of the application. They are the UI that the user interacts with. Views are sections of code that generate the HTML for our applications. They define the layout for the rendered HTML and allow data to be rendered where dictated in our layout.
+We’ll need a way of rendering the data from our controller functions, and views let us do that. In the context of the MVC architecture, views are the user-facing part of the application. Views are sections of code that generate the HTML for our applications. They define the layout for the rendered HTML and allow data to be rendered where dictated in our layout.
 
 We use template engines to create our views. More specifically, template engines are used to create template files that transform the template into HTML. Any variables defined in our template files are replaced with actual data. Additionally we can insert logic into our template file, eg. render the user's username once they have logged in. This would not be possible with plain HTML.
 
