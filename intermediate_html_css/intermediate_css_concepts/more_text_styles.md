@@ -29,7 +29,7 @@ The point of this somewhat ridiculous string of font-families is to try using th
 
 #### Web fonts
 
-If you want to use a font that will not be available on the user's device you will need to import the font from an online source, either a font library or an asset on your site. Either method will import that font and make it available for you to use in your CSS `font-family` properties.
+If you want to use a font that will not be available on the user's device, you will need to import the font from an online source, either a font library or an asset on your site. Both methods will import the font and make it accessible in your CSS `font-family` property.
 
 Keep in mind that it's important to add a fallback font.  If you're linking to an external API, you have no guarantee that the URL won't change, or that the external API won't go down at some point. Having a reasonable fallback means that if something goes wrong, at least your site won't look completely broken.
 
