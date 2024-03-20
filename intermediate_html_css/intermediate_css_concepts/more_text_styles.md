@@ -173,4 +173,4 @@ This section contains helpful links to related content. It isn't required, so co
 
 - [Modern CSS Techniques To Improve Legibility](https://www.smashingmagazine.com/2020/07/css-techniques-legibility/) by [Edoardo Cavazza](https://www.smashingmagazine.com/author/edoardo-cavazza/) is a great article that covers some additional text styles and techniques that can be utilized to improve websites legibility.
 - [Modern Font Stacks](https://modernfontstacks.com/) lists common font stacks and provides demonstrations of them.
-- There are many online font libraries, some of the most common are, [Font Library](https://fontlibrary.org/), [Google Fonts](https://fonts.google.com/),[Font Bunny](https://fonts.bunny.net/) - A GDPR compliant drop-in replacment for Google Fonts, and [Adobe Fonts](https://fonts.adobe.com/) - A premium font library.
+- There are many online font libraries; some of the most common are: [Font Library](https://fontlibrary.org/), [Google Fonts](https://fonts.google.com/), [Font Bunny](https://fonts.bunny.net/) - a GDPR compliant drop-in replacement for Google Fonts, and [Adobe Fonts](https://fonts.adobe.com/) - a premium font library.
