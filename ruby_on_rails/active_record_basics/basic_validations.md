@@ -6,7 +6,9 @@ Imagine you’ve got your database up and running and want to make sure that peo
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- A LESSON OVERVIEW ITEM.
+- What validations are.
+- How to specify validations.
+- The three levels of validations.
 
 ### What are validations?
 
