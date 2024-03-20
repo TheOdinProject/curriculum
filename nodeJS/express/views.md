@@ -126,7 +126,9 @@ You can insert this component into another EJS file like so:
 
 This is handy as the alternative would be copy and pasting the navbar onto every page that requires it.
 
-Here's another example of how to use `includes` to render a list of variables:
+This can be used to include headers and footers in all of your pages, for example.
+
+Here's another example of how to use `includes` to dynamically render a list of variables:
 
 ```html
 <ul>
