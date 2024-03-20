@@ -34,9 +34,9 @@ Additionally, as of HTML5, validations may also be performed in HTML forms using
 
 ### Server-side validation
 
-The second layer of enforcement for your validations of user data (which you should never trust) is to do so at the server level. This means writing code in your Rails application (specifically in the model that you are trying to save an instance of, e.g. User) that examines user inputs, checks them versus the constraints you set up, and returns errors if there are any.
+The second layer of enforcement for your validations of user data (which you should never trust) is at the server level. This means writing code in your Rails application (specifically in the model that you are trying to save an instance of, e.g. User) that examines user inputs, checks them versus the constraints you set up, and returns errors if there are any.
 
-This is more secure than JavaScript but has the disadvantage of taking a full round-trip HTTP request to your application in order to check it. Model validations are generally pretty effective and that's what we'll focus on here.
+This is more secure than client-side validation but has the disadvantage of taking a full round-trip HTTP request to your application in order to check it. Model validations are generally pretty effective and that's what we'll focus on here.
 
 Another problem occurs when your application has scaled up to the point where you are running multiple instances of it on multiple servers that all talk to the same central database. Let's say you want to make sure a username is unique... what happens if two users almost simultaneously submit the same username and it is received by two separate concurrent instances of your application? When each instance of your application checks with the database to see if the username is unique, both times it looks okay so they both go ahead and save the model... oops! That may not sound plausible, but how about in rapidly occurring automated transactions? These "race conditions" are very real.
 
