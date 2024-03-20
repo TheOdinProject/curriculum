@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 To start using PropTypes in our React projects, we first need to install the corresponding library. We can do that with `npm`. In your React project run the following command:
 
-```
+```bash
 npm install --save prop-types
 ```
 
