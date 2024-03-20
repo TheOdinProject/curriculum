@@ -59,19 +59,19 @@ In our example, the request comes through as a `GET` request to the `/` route. T
 app.get("/", (req, res) => res.send("Hello, world!"));
 ```
 
-We will discuss routes and route handlers in more detail in a later lesson, but to summarise the above line, it tells Express "if a `GET` request comes through to the `/` route, run the request through the following chain of middleware functions". Here, we only have a single function.
+We will discuss routes and route handlers in more detail in a later lesson, but to summarise the above line, it tells Express: "if a `GET` request comes through to the `/` route, pass the request through the following chain of middleware functions". Here, we only have a single function.
 
-If we had defined multiple route handlers, Express would pass the request through the first one to match the requested route. Order matters!
+If we had defined multiple route handlers, Express would pass the request through the first route handler that matched the requested route. The order of the route handlers matters!
 
 Express takes the callback function we gave it and passes the request object into the first parameter (commonly named `req` by convention), and a [response object](https://expressjs.com/en/4x/api.html#res) into the second parameter (commonly named `res`). Our callback tells the response object to respond to the request by `.send`ing the string `"Hello, world!"`.
 
-There is no more code to run and the function returns. Since Express has been told to respond to the request, it ends the request here. Meanwhile, the browser receives our server's response and displays it on screen, which is our `"Hello, world!"` string. We could send nearly anything in response. We could even [tell Express to send a file](https://expressjs.com/en/api.html#res.sendFile).
+There is no more code to run and the function returns. Since Express has been told to respond to the request, it ends the request-response cycle. Meanwhile, the browser receives our server's response and displays it on screen, which is our `"Hello, world!"` string. We could send nearly anything in our response. We could even [tell Express to send a file](https://expressjs.com/en/api.html#res.sendFile).
 
 ### Nodemon
 
-After you run your server with `node app.js`, if you make any changes to any JavaScript and JSON files in the project directory, these changes will not be reflected in the server unless you manually interrupt and rerun `node app.js`. Similarly to how Webpack and Vite's dev servers would restart and rebuild your site when you make a change to a file, you can use [Nodemon](https://www.npmjs.com/package//nodemon) to run your `app.js` file.
+When you run your server with `node app.js`, any changes to any JavaScript and JSON files in your project directory won't be reflected automatically unless you manually interrupt and rerun `node app.js`. To avoid this manual process, you can use [Nodemon](https://www.npmjs.com/package//nodemon) to run your `app.js` file. Nodemon will automatically restart your server any time it detects a change, similar to Webpack and Vite's dev servers.
 
-Our recommendation would be to add it as a dev dependency and write an npm script that runs `nodemon app.js`.
+Our recommendation would be to add Nodemon as a dev dependency and add an npm script that runs `nodemon app.js`.
 
 ### Assignment
 
