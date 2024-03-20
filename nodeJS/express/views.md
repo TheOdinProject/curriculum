@@ -1,6 +1,6 @@
 ### Introduction
 
-We’ll need a way of rendering the data from our controller functions, and views let do that. In the context of the MVC architecture, views are the user-facing part of the application. They are the UI that the user interacts with. Views are sections of code that generate the HTML for our applications. They define the layout for the rendered HTML and allow data to be rendered where dictated in our layout.
+We’ll need a way of rendering the data from our controller functions, and views let us do that. In the context of the MVC architecture, views are the user-facing part of the application. They are the UI that the user interacts with. Views are sections of code that generate the HTML for our applications. They define the layout for the rendered HTML and allow data to be rendered where dictated in our layout.
 
 We use template engines to create our views. More specifically, template engines are used to create template files that transform the template into HTML. Any variables defined in our template files are replaced with actual data.
 
@@ -75,6 +75,66 @@ When the `"/"` route is matched, the template file matching `"index"` is rendere
 ```
 EJS rocks!
 ```
+
+### Reusable web components
+
+You may want to include webpage components that are shared across different pages, such as a sidebar or a header. To insert such components into your pages, we make use of the `includes` command. This requires the name of the file to be inserted.
+Say you have the following navbar component called `"navbar.ejs"`:
+
+```html
+<!-- navbar.ejs -->
+<nav>
+  <ul>
+    <% for (const i = 0; i < links.length; i++) { %>
+    <li>
+      <a href="<%= links[i].href %>">
+        <span> <%= links[i].text %> </span>
+      </a>
+    </li>
+    <% } %>
+  </ul>
+</nav>
+```
+
+You can insert this component into another EJS file like so:
+
+```html
+<!-- main.ejs -->
+<html>
+  <head>
+    <title>Homepage</title>
+    <body>
+      <% include navbar.ejs %>
+
+      <!-- You can insert the link variable here, as JS variables will be processed before rendering -->
+      <script>
+        const links = [
+          {
+            href: "/",
+            text: "Home",
+          },
+          {
+            href: "about",
+            text: "About",
+          },
+        ];
+      </script>
+    </body>
+  </head>
+</html>
+```
+
+This is handy as the alternative would be copy and pasting the navbar onto every page that requires it.
+
+Here's another example of how to use `includes` to render a list of variables:
+
+```html
+<ul>
+  <% users.map( user => { %> <%- include('user/show', {user: user}) %> <% }) %>
+</ul>
+```
+
+Note the use of of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
 
 #### Note box variations
 
