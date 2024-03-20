@@ -33,7 +33,7 @@ If you want to use a font that will not be available on the user's device, you w
 
 Keep in mind that it's important to add a fallback font.  If you're linking to an external API, you have no guarantee that the URL won't change, or that the external API won't go down at some point. Having a reasonable fallback means that if something goes wrong, at least your site won't look completely broken.
 
-There are performance issues with using imported files, which you will read more about in the assignments. Ultimately it is best to use a font stack instead of imported fonts if your design allows for it, however, there are times you will want to use an imported font.
+There are performance issues with using imported files, which you will read more about in the assignments. Therefore, it is best to use a font stack instead of imported fonts if your design allows for it. However, there are times you will want to use an imported font.
 
 #### Online font libraries
 
