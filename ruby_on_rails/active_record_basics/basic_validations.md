@@ -8,6 +8,10 @@ This section contains a general overview of topics that you will learn in this l
 
 - A LESSON OVERVIEW ITEM.
 
+### What are validations?
+
+Validations are restrictions applied at three levels to ensure that data meets certain criteria before it can be saved to the database. The three levels are the client side, the server side -- that is, the Rails level, and the database. Each level's validation is more strict and secure than the previous.
+
 ### Client-side validation
 
 There are three levels of validations that you can enforce, each more strict and secure than the previous. At the topmost level, you can write code using JavaScript in your browser that detects if someone has filled out the form properly and will prompt them to finish it before moving on. We will learn more about that in the JavaScript course. The advantage here is that it is almost immediate so it creates a great user experience. The problem with this is that JavaScript is easy to circumvent and the user could easily submit a malicious or faulty request.
