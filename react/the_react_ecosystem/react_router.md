@@ -394,7 +394,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 ### Refactoring the routes
 
-Let's refactor our array of routes into its own file. By refactoring, we can import the routes into `main.jsx` and create a browser router from it as in the above example. What's convenient about this is that we can also import the routes array into any test files, where we might need to [create a memory router](https://reactrouter.com/en/main/routers/create-memory-router) instead of a browser router.
+Let's refactor our array of routes into its own file. By refactoring, we can import the routes into `main.jsx` and create a browser router from it, as in the above example. What's convenient about this is that we can also import the routes array into any test files, where we might need to [create a memory router](https://reactrouter.com/en/main/routers/create-memory-router) instead of a browser router.
 
 Create a new `routes.jsx` file and move the routes array to it:
 
@@ -441,7 +441,7 @@ Much nicer!
 
 As we learned earlier, you can nest routes as children of a parent route, allowing you to use an `<Outlet />` in the parent to render the appropriate element based on the rest of the path.
 
-If we had something in the parent element, such as a state, that we wanted to pass to any components rendered by that outlet, we would have to use something called `context`. For now, we will focus on context with outlets but in a later lesson, we will learn more about how to use context without outlets.
+If we had data in the parent element, such as a state, that we wanted to pass to any components rendered by that outlet, we would have to use something called `context`. For now, we will focus on context with outlets, but in a later lesson, we will learn more about how to use context without outlets.
 
 Outlets have a `context` prop built in. We can pass any value we want into this prop, even an array or object. Inside *any* component that would be rendered within that outlet (even "grandchild" components), we can call the `useOutletContext()` hook which will return whatever we passed into that context prop. If we passed in an array or object, we could even destructure it!
 

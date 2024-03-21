@@ -1,6 +1,6 @@
 ### Introduction
 
-Throughout the lessons, we've learned how to manage state and pass data/props around components. However, as our application grows in size, not only will this process of managing states and passing data around become repetitive and inconvenient, but it will also be hard to manage. In the [React Router lesson](https://www.theodinproject.com/lessons/node-path-react-new-react-router#outlets-and-state), we mentioned how we could use outlet context to pass data from a parent component through an `<Outlet />` to a child component. This lesson will cover how we can use the Context API to do similar things outside of outlet scenarios.
+Throughout the lessons, we've learned how to manage state, and pass data and props between components. However, as our application grows in size, not only will this process of managing states and passing data around become repetitive and inconvenient, but it will also be hard to manage. In the [React Router lesson](https://www.theodinproject.com/lessons/node-path-react-new-react-router#outlets-and-state), we mentioned how we could use outlet context to pass data from a parent component through an `<Outlet />` to a child component. This lesson will cover how we can use the Context API to do similar things outside of outlet scenarios.
 
 ### Lesson overview
 
