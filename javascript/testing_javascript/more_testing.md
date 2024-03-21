@@ -65,7 +65,7 @@ There are two solutions to the 'tightly coupled code' problem.  The first, and b
 ### Assignment 
 
 <div class="lesson-content__panel" markdown="1">
-1. If you haven't already, watch the 'mocking' videos from [this series](https://www.youtube.com/watch?v=3PjdxjWK0F0).
+1. Check out the mocking portion from [Jest Crash Course](https://www.youtube.com/watch?v=ajiAl5UNzBU&ab_channel=LaithAcademy).
 2. Too much mocking can be a bad thing.  It _is_ sometimes necessary, but if you have to set up an elaborate system of mocks to test any bit of your code, that means your code is too tightly coupled.  [This article](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a) might be a little extreme, but it contains several really good points about program architecture and testing.
 3. Now that you have some practice and context for TDD, [this section](https://jestjs.io/docs/setup-teardown) of the Jest docs will probably make good sense to you.
 4. Jest includes some _really_ handy mocking functions.  Read about them in the [official docs](https://jestjs.io/docs/mock-functions).
