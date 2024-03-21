@@ -145,10 +145,13 @@ As you go through the assignments you will come across more terminology like `sp
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read MDN's [Line-based Placement with CSS Grid.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Line-based_Placement_with_CSS_Grid)
+
+1. Read MDN's [Line-based Placement with CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Line-based_Placement_with_CSS_Grid).
 1. Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget that the instructions are in the README). Do the first exercise in the 'grid' directory:
-  - grid-layout-1
-> When doing this exercise, please use all the documentation and resources you need to accomplish it. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
+   - `grid-layout-1`
+
+   Note: When doing this exercise, please use all the documentation and resources you need to accomplish it. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
+
 </div>
 
 ### Knowledge check
