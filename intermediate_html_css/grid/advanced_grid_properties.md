@@ -120,7 +120,9 @@ grid-template-columns: repeat(2, 2fr) repeat(3, 1fr);
 ```
 
 <div class="lesson-note" markdown="1">
+
 We continue to use the `repeat()` function here, but this could be written the old-fashioned way too!
+
 </div>
 
 The key here is that the first two columns are assigned `2fr` units and the remaining three are assigned `1fr`. This means that as the grid grows and shrinks dynamically, the space will be distributed in different amounts between these columns, specifically, twice as many pixels to the first two columns as the remaining three.
@@ -306,12 +308,14 @@ And that's about it! Congratulations, if you've made it this far, you are well o
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Review [Part 4 on Grid Properties](https://css-tricks.com/snippets/css/complete-guide-grid/#grid-properties) from CSS-Tricks.
 1. Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget that the instructions are in the README). Do the exercises in the 'grid' directory in the following order:
    - `grid-layout-2`
    - `grid-layout-3`
 
    Note: When doing these exercises, please use all the documentation and resources you need to accomplish them. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
+
 </div>
 
 ### Knowledge check
