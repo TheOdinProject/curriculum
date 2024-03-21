@@ -472,14 +472,14 @@ You should now have enough basics to get started with React routing. There are a
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#client-side-routing">What does client-side routing mean?</a>
-- <a class="knowledge-check-link" href="#adding-a-router">How do you set up a basic router?</a>
-- <a class="knowledge-check-link" href="#the-link-element">What should be used in place of "a" tags to enable client-side routing?</a>
-- <a class="knowledge-check-link" href="#nested-routes-outlets-and-dynamic-segments">How do you create nested routes?</a>
-- <a class="knowledge-check-link" href="#dynamic-segments">What do you mean by dynamic segments or URL params?</a>
-- <a class="knowledge-check-link" href="#handling-bad-urls">How do you add a "catch-all" route?</a>
-- <a class="knowledge-check-link" href="#outlets-and-state">How do you pass data from parent to child through an `<Outlet />` component?</a>
-- <a class="knowledge-check-link" href="#protected-routes-and-navigation">How do you create protected routes?</a>
+- [What does client-side routing mean?](#client-side-routing)
+- [How do you set up a basic router?](#adding-a-router)
+- [What should be used in place of "a" tags to enable client-side routing?](#the-link-element)
+- [How do you create nested routes?](#nested-routes-outlets-and-dynamic-segments)
+- [What do you mean by dynamic segments or URL params?](#nested-routes-outlets-and-dynamic-segments)
+- [How do you add a "catch-all" route?](#handling-bad-urls)
+- [How do you pass data from parent to child through an `<Outlet />` component?](#outlets-and-state)
+- [How do you create protected routes?](#protected-routes-and-navigation)
 
 ### Additional resources
 
