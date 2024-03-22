@@ -26,7 +26,6 @@ If you are unable to view the above CodeSandbox, fork it to your own CodeSandbox
 
 If you still get a "Failed to fork: (401)" error, click the "fork" button again.
 
-
 Alternatively, you can view the [code on GitHub](https://github.com/TheOdinProject/react-examples/tree/main/background-color-state-example)
 
 </div>
