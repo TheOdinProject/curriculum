@@ -6,13 +6,6 @@ For this project, you will create the game [Rock Paper Scissors](https://www.wik
 Some of the student solutions below contain buttons, text, and other elements. These elements are part of what is called a graphical user interface (GUI). You'll create the GUI in a later lesson. In the meantime, remember to commit your code to GitHub.
 </div>
 
-### Quick exercise before starting
-
-1. Identify three ways to include JavaScript in a webpage.
-1. Check if the webpage includes JavaScript:
-   - Write `console.log("Hello World")` in JavaScript.
-   - Check if "Hello World" is logged in the browser console once you open your webpage.
-
 ### Problem solving approach
 
 Remember the previous wise words from the [Problem Solving lesson](https://www.theodinproject.com/lessons/foundations-problem-solving) because this is your first JavaScript program built from scratch. Before you start this project, follow these steps for each step of the project:
@@ -30,6 +23,9 @@ Remember to commit early and often! To refresh your memory, check out the [commi
 
 1. Create a new Git repository for your project.
 1. Create a blank HTML document with a script tag.
+1. Check if the webpage includes JavaScript:
+   - Write `console.log("Hello World")` in JavaScript.
+   - Check if "Hello World" is logged in the browser console once you open your webpage.
 
 It's best practice to link to an external JavaScript file inside this script tag. Using an external JavaScript file keeps your HTML file clean and organized.
 
