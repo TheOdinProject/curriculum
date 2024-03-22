@@ -145,9 +145,11 @@ While you should address these warnings if possible and as soon as possible, war
 
 1. Now, it's time to go through the documentation! Learn more about [the ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError), the [SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) and the [TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError) from the MDN Docs.
 1. Go through the [tutorial on the Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/).
+
 <div class="lesson-note" markdown="1">
 In point 4 of step 3 of the tutorial, devtools will pause on the second line rather than at the declaration of the function. Don't worry this is expected.
 </div>
+
 1. Work through [this lesson on MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
 
 </div>
