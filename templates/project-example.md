@@ -1,4 +1,4 @@
-### Introduction 
+### Introduction
 
 This example takes snippets from the Landing Page project in Foundations, and is meant to show how an authored project might look after following the style guide.
 
@@ -17,7 +17,7 @@ As we did in the Recipe project, go ahead and set up a git repository before beg
    - The font that’s being used in the images is roboto.
    - Hero text is the statement that appears at the top of a web page.
 
-2. There are many ways to tackle a project like this, and it can be overwhelming to look at a blank HTML document and not know where to start. Our suggestion: take it one section at a time. The website you’re creating has 4 main sections (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the top is always a solid plan.
+1. There are many ways to tackle a project like this, and it can be overwhelming to look at a blank HTML document and not know where to start. Our suggestion: take it one section at a time. The website you’re creating has 4 main sections (and a footer), so pick one and get it into pretty good shape before moving on. Starting at the top is always a solid plan.
 
 #### Extra credit
 

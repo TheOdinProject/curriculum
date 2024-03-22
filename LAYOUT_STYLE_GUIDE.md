@@ -272,7 +272,7 @@ When nesting lists, use a 2 space indent when nesting inside a bulleted list and
 
 ~~~markdown
 1. The first item
-2. A second item
+1. A second item
    - A sub-item for the second item with 3 spaces before the hyphen
 
 - A bulleted list item
@@ -283,7 +283,7 @@ When nesting lists, use a 2 space indent when nesting inside a bulleted list and
 Will result in the following output:
 
 1. The first item
-2. A second item
+1. A second item
    - A sub-item for the second item with 3 spaces before the hyphen
 
 - A bulleted list item
@@ -299,7 +299,7 @@ When list items should wrap onto multiple lines – such as to create a line bre
 
    This is related information to the first item, but visually separated out.
 
-2. A new list item
+1. A new list item
 
 - This is a lengthy bulleted list item.
 
@@ -314,7 +314,7 @@ Will result in the following output:
 
    This is related information to the first item, but visually separated out.
 
-2. A new list item
+1. A new list item
 
 - This is a lengthy bulleted list item.
 
@@ -453,6 +453,32 @@ Titling your links as "link" or "here" tells the reader precisely nothing when q
 See the [lesson template](./templates/lesson-template.md) for a more easily copyable lesson file.
 Or, check out the [project template](./templates/project-template.md) for a more easily copyable project file.
 ~~~
+
+Typically you want to ensure the link text describes the purpose of the link or where the link will redirect a user, and can often be the title of a blog article or video. You should also do your best to avoid including "this" and "here" in the link text to avoid our linter from flagging it as an error, even if the link text is descriptive. Often times "this" or "here" aren't necessary as part of the link text, and may cause some confusion despite a descriptive text ("Where's here??").
+
+```markdown
+// Sufficient, but could be tweaked further
+Check out [this video on flex-grow from CoolYoutuber](...url)
+Go look at our [installations guide here](...url)
+
+// After a slight change
+Check out this [video on flex-grow from CoolYoutuber](...url)
+Go look at our [installations guide](...url)
+```
+
+Additionally, if there are multiple links in a lesson that redirect to the same `href`, the link text for each link must be the same. For example:
+
+```markdown
+// Not great :(
+Go to [Google](www.google.com)
+Try [searching on Google](www.google.com)
+First go to the [Google homepage](www.google.com)
+
+// Better! :)
+Go to [Google](www.google.com)
+Try searching on [Google](www.google.com)
+First go to the [Google](www.google.com) homepage
+```
 
 ### Don't scatter links throughout lessons
 

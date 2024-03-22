@@ -155,7 +155,7 @@ const Image = () => {
 
 We can separate out the fetching logic altogether into a custom hook. This will allow us to make the logic reusable and easily testable.
 
-Recall in the `Introduction to state` lesson we said that a React hook is just a function that lets you use features of React (like states, effects etc.) and that they follow a naming rule where they begin with `use` followed by a capital letter (e.g. `useState` or `useEffect`). If we tried to put a hook such as `useEffect` inside our own regular helper function like `getImageURL`, React would not be happy about this since it only wants hooks to be called in the top level of a component or another hook. Therefore, we can just turn our helper function into a custom hook by following the hook naming rule - `useImageURL`.
+Recall in the [Introduction to state](https://www.theodinproject.com/lessons/node-path-react-new-introduction-to-state) lesson we said that a React hook is just a function that lets you use features of React (like states, effects etc.) and that they follow a naming rule where they begin with `use` followed by a capital letter (e.g. `useState` or `useEffect`). If we tried to put a hook such as `useEffect` inside our own regular helper function like `getImageURL`, React would not be happy about this since it only wants hooks to be called in the top level of a component or another hook. Therefore, we can just turn our helper function into a custom hook by following the hook naming rule - `useImageURL`.
 
 Here's how we would do it for our example:
 
@@ -232,7 +232,7 @@ You've already tasted the complexity of data fetching in this lesson. Each reque
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read [Modern API data fetching methods](https://blog.logrocket.com/modern-api-data-fetching-methods-react/) for a brief overview of what was discussed in this lesson.
+1. Read [Modern API data fetching methods](https://blog.logrocket.com/modern-api-data-fetching-methods-react/) until you reach the Axios section for a brief overview of what was discussed in this lesson.
 1. Read [How to fetch data in React with performance in mind](https://www.developerway.com/posts/how-to-fetch-data-in-react) to learn more about efficiently handling fetch requests in React components.
 
 </div>

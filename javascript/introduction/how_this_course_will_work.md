@@ -13,20 +13,18 @@ How is this course set up? It depends a bit on the path you have selected:
 
 It starts with a deeper look at the basics, just like the [Ruby Programming course](/paths/full-stack-ruby-on-rails/courses/ruby-programming) did with Ruby. You don't need to have completed the Ruby Programming course or [the Ruby on Rails course](/paths/full-stack-ruby-on-rails/courses/ruby-on-rails) to understand these basics.
 
-We won't be focusing deeply on the really basic coding items, so it will move quickly. You should, however, already have completed the [Foundations course](https://www.theodinproject.com/paths/foundations/courses/foundations) -- specifically, the [JavaScript Basics section](https://www.theodinproject.com/paths/foundations/courses/foundations#javascript-basics) -- before starting this course.
-
 </details>
 
 <details markdown="block">
   <summary class="dropDown-header">JavaScript Track</summary>
 
-It starts with a deep look at JavaScript code organization and then moves through computer science topics, finishing with a major project that integrates everything you have learned so far to create a portfolio-worthy front-end project.
-
-We won’t be focusing deeply on the really basic coding items, so it will move quickly. You should, however, already have completed the Foundations course – specifically, the JavaScript Basics section – before starting this course.
+It starts with a deep look at JavaScript code organization and basic computer science concepts, finishing with a primer on creating and using a test suite for your project.
 
 </details>
 
-The last thing you'll do is a final project which integrates everything you've learned in all the courses of this curriculum. This is the kind of project that you'll be telling employers all about and a great chance to prove that you're now, officially, a serious web developer.
+We won't be focusing deeply on the really basic coding items, so it will move quickly. You should, however, already have completed the [Foundations course](https://www.theodinproject.com/paths/foundations/courses/foundations) -- specifically, the [JavaScript Basics section](https://www.theodinproject.com/paths/foundations/courses/foundations#javascript-basics) -- before starting this course.
+
+The last thing you'll do is a project which integrates everything you've learned so far in all the courses of this curriculum. This is the kind of project that you'll consider including in your portfolio as an example to demonstrate to perspective employers you have strong web development skills.
 
 ### Format
 

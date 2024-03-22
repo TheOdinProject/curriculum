@@ -267,7 +267,7 @@ Take the calculator example into consideration. It's very easy to imagine a scen
   - [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
 1. [Tarek Sherif's article discussing the problems with constructors](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) goes into depth while suggesting factories as a solution.
 1. Read this article on [module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm) by Tomek Buszewski.
-1. In case you prefer video lessons, [this YouTube series on module pattern](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f) covers most of the content that we have discussed.
+1. As an optional alternative, in case you prefer video lessons, [this YouTube series on module pattern](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f) covers most of the content that we have discussed. Note that the videos include jQuery, but you don't need to understand the jQuery syntax since the focus is on the module pattern concept.
 
 </div>
 

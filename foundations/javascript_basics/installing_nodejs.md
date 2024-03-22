@@ -4,7 +4,7 @@
 
 Node.js is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser. We will need this for some exercises in the upcoming lessons. To get started, there are some required tools we need before we can install Node on your system.
 
-We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change Node versions and upgrade Node. There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in JavaScript environments. It can be easy to confuse these two, so read carefully!
+We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change Node versions and upgrade Node. There is another tool called `npm` that we will later use to install the various libraries and tools used in JavaScript environments. It can be easy to confuse these two, so read carefully!
 
 Node is also very easy to install using nvm, so this should go quickly :)
 
@@ -12,7 +12,7 @@ Node is also very easy to install using nvm, so this should go quickly :)
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Learn how to Install Node Version Manager and Node Package Manager.
+- Learn how to Install `nvm` (Node Version Manager) and `npm`.
 - Learn how to run Node console.
 
 ### Installing NVM
@@ -39,7 +39,7 @@ sudo apt update && sudo apt upgrade
 Run this command to install `nvm`:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 
 #### Step 2: Initializing NVM
@@ -73,7 +73,7 @@ touch ~/.zshrc
 ```
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 
 Restart your terminal, or copy and paste the following into your terminal and press <kbd>Enter</kbd>:
