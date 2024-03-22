@@ -8,50 +8,69 @@ This section contains a general overview of topics that you will learn in this l
 
 - A LESSON OVERVIEW ITEM.
 
-### CUSTOM SECTION HEADING
+### What are migrations?
 
-CUSTOM SECTION CONTENT.
+So what's a migration? A migration is basically a script that tells Rails how you want to set up or change a database. It's the other part of Active Record magic that allows you to avoid manually going in and writing SQL code to create your database table.
 
-#### Note box variations
+### When migrations are needed
 
-<div class="lesson-note" markdown="1">
+Imagine you're staring at a blank computer screen and you need to start your new Rails project. What's the first thing you do? You type `$ rails new MyProjectName` then `cd` into that directory... Then what?
 
-#### A sample title
+Figure out the data models that you'll need to use for the first iteration of your site and start getting them set up. For our purposes, we'll just assume all you need is the ubiquitous User model to keep track of all the dozens of users who will be on your site someday (just kidding, you'll hit it big). After you've actually created the database in the first place (using `$ rails db:create`), to create that model you'll need to do two steps:
 
-A sample note box.
+1. Create a model file in `app/models` which is set up like you just learned above.
+1. Create a database table called "users" that has the appropriate columns. This is done using a migration file and then running the migration.
 
-</div>
+### How to create a migration file
 
-<div class="lesson-note lesson-note--tip" markdown="1">
+The best part is that Rails knows that you want to do this and has given you a handy shortcut for doing so: the `$ rails generate model YourModelNameHere` command. When you type it in, you will see in the Terminal output which files are being created. Don't worry about any specs or test files that also get created, the important ones are the model file and the migration file. Rails has lots of these handy generators which don't do much except create new files in the right spots of your application for you. The output looks something like:
 
-#### level 4 heading for title is recommended
+```bash
+  invoke  active_record
+  create    db/migrate/20131223154310_create_testmodels.rb
+  create    app/models/testmodel.rb
+  invoke    rspec
+  create      spec/models/testmodel_spec.rb
+```
 
-A sample note box, variation: tip.
+The model file that the generator creates is just a bare-bones model file in the `app/models` directory (which you could easily have created yourself). The other main file is the migration file in the `db/migrate` folder, which starts with a complicated looking timestamp like `20130924230504_create_users.rb`. The number is the time that the migration was created so that Rails can keep track of different migration files.
 
-</div>
+If you dive into that file, you'll see that there's not much in it except another bare-bones Ruby class that inherits from `ActiveRecord::Migration` and some timestamps. The timestamps just create `created_at` and `updated_at` columns for you so you can track when your database records were created or modified. These two columns are just helpful enough that they are included as standard practice.
 
-<div class="lesson-note lesson-note--warning" markdown="1">
+If you want to only create the database migration file (without the Model or any of the test files), just use `$ rails generate migration NameYourMigration`. You'll end up using this one more once you've got things up and running since you'll probably be modifying your data table instead of creating a new one. There's a syntax for specifying additional parameters when you call this (which you'll see in the reading), but there's no need to remember that syntax because you can also manually go in and edit the migration file yourself.
 
-#### But title is also optional
+### How to write migrations
 
-A sample note box, variation: warning.
+You just specify the correct Ruby method (like the aptly named `create_table`) and its parameters and you're almost good to go.
 
-</div>
+### How to run migrations
 
-<div class="lesson-note lesson-note--critical" markdown="1">
+Migrations are just a script, so how do you tell Rails to run that script and actually execute the code to create your table and update your database's schema? By using the `$ rails db:migrate` command, which runs any migrations that haven't yet been run. Rails knows this because it keeps track of which migrations have been run (using timestamps) behind the scenes. When you run that command, Rails will execute the proper SQL code to set up your database table and you can go back to actually building the website.
 
-A sample note box, variation: critical.
+### Why migrations are useful
 
-</div>
+Why is this useful? Obviously it lets you set up your database using user-friendly Ruby code instead of SQL, but it's more than that. Over time, you'll build up a bunch of these migration files. If you decide that you want to blow away your database and start from scratch, you can do that easily and then rerun the migrations. If you decide to deploy to the web, you will run those same migrations and the production database will be there waiting for you... even if it's a different type of database! Again, Active Record does the heavy lifting for you here so you can focus on building your website.
+
+The most immediately useful feature of migrations is when you've screwed something up because they're (usually) reversible. <span id='rollback-knowledge-check'>Let's say you just migrated to create a new database column but forgot a column to store the user's email... oops! You can just type `$ rails db:rollback` and the last series of migrations that you ran will be reversed and you're back to where you were.</span> Then you just edit the file, rerun the migrations, and move on with your life.
+
+This introduces the last nuance of migrations that we'll talk about here -- reversibility. For each method that you use in the migration, you want to specify how to reverse it if you have to. The reverse of adding a table is dropping that table, of adding a column is removing the column and so on. Many methods have a really obvious reverse case, so you don't need to explicitly state it and can set up the whole migration file using the `change` method. But some of them do not, so you will need to separately specify `up` and `down` methods. You'll read more about that in the assignment.
+
+A final note, you never want to rollback migrations unless you've screwed something up. In situations where you have a legitimate case for removing a column (because you no longer need it for any purpose), you actually create a new migration that removes that column using the `remove_column` method. It preserves the database. Once you get advanced with this stuff, you can build a database just using the schema file... You're not there yet :)
+
+### How much database stuff do we need to know?
+
+Migrations don't involve writing SQL, but you do need to understand enough about databases to know how you want yours structured! Which columns do you want? Which ones should be indexed (and why)? Should you set a default value? What data type will be stored in your column... a string or text?
+
+These are great questions, and you should feel comfortable asking them even if you aren't totally sure about the answers. If you have no idea what we're talking about, you'll need to go back and read up on basic databases in the [Databases course](/paths/full-stack-ruby-on-rails/courses/databases).
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. A RESOURCE ITEM
-   - AN INSTRUCTION ITEM
-1. A PRACTICE ITEM
-   - A TASK ITEM
+1. Read the [Migrations chapter of Rails Guides](http://guides.rubyonrails.org/active_record_migrations.html).
+    - Don't worry about 3.6-3.8.
+    - Just skim section 7.
+    - Seeds (section 8) are useful and you'll be using them later.  It saves you a lot of work, especially when you're learning and will end up blowing away your database and starting over a lot.
 
 </div>
 
@@ -59,7 +78,7 @@ A sample note box, variation: critical.
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
+- [Which rails command will undo a database migration?](#rollback-knowledge-check)
 
 ### Additional resources
 
