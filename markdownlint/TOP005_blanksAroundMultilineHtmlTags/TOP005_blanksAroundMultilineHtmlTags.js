@@ -1,9 +1,9 @@
 module.exports = {
-  names: ['TOP005', 'blanks-around-multiline-html-tags'],
-  description: 'Multiline HTML tags should be surrounded by blank lines or code block delimiters',
-  tags: ['html', 'blanks'],
+  names: ["TOP005", "blanks-around-multiline-html-tags"],
+  description: "Multiline HTML tags should be surrounded by blank lines or code block delimiters",
+  tags: ["html", "blanks"],
   information: new URL(
-    'https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md'
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md"
   ),
   function: function TOP005(params, onError) {
     /**
@@ -35,8 +35,8 @@ module.exports = {
 
     isolatedHtmlTagsLineNumbers.forEach((lineNumber) => {
       const blankCodeBlockRegex = /^$|^`{3,4}.*$/;
-      const lineBeforeIsValid = blankCodeBlockRegex.test(params.lines[lineNumber - 1]);
-      const lineAfterIsValid = blankCodeBlockRegex.test(params.lines[lineNumber + 1]);
+      const lineBeforeIsValid = blankCodeBlockRegex.test(params.lines[lineNumber - 1] ?? "");
+      const lineAfterIsValid = blankCodeBlockRegex.test(params.lines[lineNumber + 1] ?? "");
 
       if (lineBeforeIsValid && lineAfterIsValid) return;
 
