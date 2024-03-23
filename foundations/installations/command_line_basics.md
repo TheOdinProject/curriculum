@@ -35,6 +35,17 @@ Often guides and instructions for using the terminal will indicate commands by p
 
 You will be making heavy use of the command line throughout this curriculum, and the upcoming installations project will need you to install many different software programs using the command line. Additionally, you will primarily be using Git within the command line (more on this later). As part of the bigger picture, you may well be using the command line on a daily basis in your career as a software developer, making it an indispensable skill in your toolset.
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### A note on typing passwords in the terminal
+
+  When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+
+  This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
+
+  You can still enter your password as normal and press Enter to submit it.
+</div>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -88,8 +99,6 @@ But once you've typed in a little bit more, it will complete the name for you, m
 
 Third, there's a really handy shortcut for opening everything within a project directory: `.` Once you've installed a text editor, you can use this shortcut to open up an entire project and all its files in one go. This shortcut is also commonly used with Git (later on it's covered in detail) with commands like `git add .` to add all the files inside of a directory into Git's staging area. For example, if you have VS Code installed, you can `cd` into the project directory and then type `code .` (with the period). It will launch VS Code and open up the project folder in the sidebar. See the next section of this lesson for a more detailed example.
 
-**A Note on typing passwords**: When using a command in the terminal that requires you to enter your password for authentication (such as `sudo`), the characters should not be visible to you as you type them. While you might think the terminal isn't responding, don't worry! This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the Terminal keeps your password secure.
-
 ### Opening files in VSCode from the command line
 
 - **Linux**: You can open VSCode from the command line by typing `code`, and you can open folders or files by adding the name of the location after it: `code my_awesome_project/`.
@@ -100,7 +109,7 @@ Third, there's a really handy shortcut for opening everything within a project d
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the command line?](#command-line)
 - [How do you open the command line on your computer?](#open-command-line)
@@ -116,7 +125,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line#readme) is a complete beginner's pro-maker. It serves as an open-source repository. This also has a lot of pro tips!
 - The online book, [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line. Chapters 1 and 2 are free and provides a good introduction to command line tools. The rest of the book is not free and goes into more depth than you really need at this point, but feel free to buy and read the rest of the book if you like.
