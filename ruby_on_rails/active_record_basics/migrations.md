@@ -27,7 +27,11 @@ Migrations are needed during the early developmental step of setting up the proj
 
 ### How to create a migration file
 
-The best part is that Rails knows that you want to do this and has given you a handy shortcut for doing so: the `$ rails generate model YourModelNameHere` command. When you type it in, you will see in the Terminal output which files are being created. Don't worry about any specs or test files that also get created, the important ones are the model file and the migration file. Rails has lots of these handy generators which don't do much except create new files in the right spots of your application for you. The output looks something like:
+There are two main ways to create a migration file. The first is to use the model generator `$ rails generate model YourModelNameHere`. The second is to use the migration generator `$ rails generate migration NameYourMigration`.
+
+#### Using the model generator
+
+Migration files can be created by running generators, such as the handy shortcut `$ rails generate model YourModelNameHere`, which not only creates a model file, but a migration file as well. When you type it in, you will see in the Terminal output which files are being created. Don't worry about any specs or test files that also get created, the important ones are the model file and the migration file. Rails has lots of these handy generators which don't do much except create new files in the right spots of your application for you. The output looks something like:
 
 ```bash
   invoke  active_record
@@ -40,6 +44,8 @@ The best part is that Rails knows that you want to do this and has given you a h
 The model file that the generator creates is just a bare-bones model file in the `app/models` directory (which you could easily have created yourself). The other main file is the migration file in the `db/migrate` folder, which starts with a complicated looking timestamp like `20130924230504_create_users.rb`. The number is the time that the migration was created so that Rails can keep track of different migration files.
 
 If you dive into that file, you'll see that there's not much in it except another bare-bones Ruby class that inherits from `ActiveRecord::Migration` and some timestamps. The timestamps just create `created_at` and `updated_at` columns for you so you can track when your database records were created or modified. These two columns are just helpful enough that they are included as standard practice.
+
+#### Using the migration generator
 
 If you want to only create the database migration file (without the Model or any of the test files), just use `$ rails generate migration NameYourMigration`. You'll end up using this one more once you've got things up and running since you'll probably be modifying your data table instead of creating a new one. There's a syntax for specifying additional parameters when you call this (which you'll see in the reading), but there's no need to remember that syntax because you can also manually go in and edit the migration file yourself.
 
