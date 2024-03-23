@@ -55,7 +55,7 @@ To add your instructions to the migration file's contents, just add the correct 
 
 ### How to run migrations
 
-Migrations are just a script, so how do you tell Rails to run that script and actually execute the code to create your table and update your database's schema? By using the `$ rails db:migrate` command, which runs any migrations that haven't yet been run. Rails knows this because it keeps track of which migrations have been run (using timestamps) behind the scenes. When you run that command, Rails will execute the proper SQL code to set up your database table and you can go back to actually building the website.
+To complete the migration and actually apply the changes to the schema, use the `$ rails db:migrate` command, which runs any migrations that haven’t yet been run. Rails knows if a migration has been run because each migration is a file whose filename has a timestamp in it. When you run that command, Rails will execute the proper SQL code to set up your database table, and you can go back to actually building the website.
 
 ### Why migrations are useful
 
