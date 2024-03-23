@@ -51,7 +51,7 @@ If you want to only create the database migration file (without the Model or any
 
 ### How to write migrations
 
-You just specify the correct Ruby method (like the aptly named `create_table`) and its parameters and you're almost good to go.
+To add your instructions to the migration file's contents, just add the correct Ruby method to the migration file, like the aptly named `create_table`, and provide its necessary parameters. Now that the migration file has been created and its contents have been written, the next step will be to run the migration.
 
 ### How to run migrations
 
