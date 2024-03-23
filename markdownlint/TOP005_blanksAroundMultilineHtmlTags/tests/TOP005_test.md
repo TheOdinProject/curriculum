@@ -16,7 +16,7 @@ Valid div due to each tag being surrounded by blank lines.
 
 </div>
 
-### Custom section
+#### Custom section
 
 <div>Valid single-line div</div>
 
