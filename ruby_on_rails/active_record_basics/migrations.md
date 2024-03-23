@@ -1,6 +1,6 @@
 ### Introduction
 
-A BRIEF INTRODUCTION.
+The term "migrations" might incorrectly lead one to think that the topic of this lesson is data migrations, which refers to the movement of data from one location to another. However, in the context of Rails and this lesson, a "migration" is a *schema* migration, which is the modification of a database's schema without moving it to a new location.
 
 ### Lesson overview
 
