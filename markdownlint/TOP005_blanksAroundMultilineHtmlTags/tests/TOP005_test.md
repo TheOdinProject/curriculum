@@ -42,6 +42,24 @@ Also invalidates when HTML blocks are chained without blank lines between them.
 Also invalidates when HTML blocks are chained without blank lines between them.
 </div>
 
+```md
+<div>
+
+The only exception to blank lines is a code block delimiter.
+
+</div>
+```
+
+```md
+<div>
+
+This line above the closing tag is not a blank line nor a code block delimiter, so this errors.
+</div>
+```
+
+<!-- markdownlint-disable-next-line -->
+### `Will not flag ignore comments which require being directly followed by the line to ignore`
+
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
