@@ -397,7 +397,7 @@ Will result in the following output:
 
 - Bullet.
 
-  ```avascript
+  ```javascript
   // We start indenting with 2 space for the codeblock
   function tester() {
     const yay = 'From here we can indent like we normally would'
