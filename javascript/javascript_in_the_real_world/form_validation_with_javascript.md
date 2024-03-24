@@ -30,7 +30,7 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Warmup
 
-Go back to your 'Library' project and add validation to that form! Don't let your users submit without filling in all the fields! Don't forget to use your Git workflow skills you learned in [this foundations lesson](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) to make a new branch, work on your feature and merge it back to main when it's all done.
+Go back to your 'Library' project and add validation to that form! Don't let your users submit without filling in all the fields! Don't forget to use your Git workflow skills you learned in [this foundations lesson](https://www.theodinproject.com/lessons/node-path-javascript-library) to make a new branch, work on your feature and merge it back to main when it's all done.
 
 #### Project
 
