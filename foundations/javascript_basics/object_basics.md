@@ -94,7 +94,8 @@ This is a much more elegant approach, what do you think? For simplicity, we coul
 
 ```javascript
 const arr = [1, 2, 3, 4, 5];
-arr.map((num) => num + 1); // Outputs [2, 3, 4, 5, 6];
+const mappedArr = arr.map((num) => num + 1);
+console.log(mappedArr); // Outputs [2, 3, 4, 5, 6]
 ```
 
 #### The filter method
