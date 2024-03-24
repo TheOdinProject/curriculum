@@ -23,16 +23,18 @@ Valid div due to each tag being surrounded by blank lines.
 <div>Valid single-line div</div>Might even have other <span>paragraph</span> content with it.
 
 <div class="lesson-content__panel" markdown="1">
-Opening tag invalid due to not being surrounded by blank lines.
-Closing tag is, so is valid.
+1. Opening tag invalid due to not being surrounded by blank lines.
+2. Closing tag is, so is valid.
+3. Notice how non-lazy numbering does not flag a lint error, as the list content is part of the same `html_block` token, and not as their own separate tokens to be linted.
 
 </div>
 
 Non-empty line
 <div class="lesson-content__panel" markdown="1">
 
-Opening tag invalid due to not being surrounded by blank lines.
-Closing tag invalid due to not being surrounded by blank lines.
+1. Opening tag invalid due to not being surrounded by blank lines.
+2. Closing tag invalid due to not being surrounded by blank lines.
+3. Notice how non-lazy number and blanks around lists rules are trigger, as the blank line 34 allows the list to be parsed as their own correct tokens.
 </div>
 
 <div>
