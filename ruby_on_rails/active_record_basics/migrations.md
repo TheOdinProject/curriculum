@@ -6,7 +6,12 @@ The term "migrations" might incorrectly lead one to think that the topic of this
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- A LESSON OVERVIEW ITEM.
+- What migrations are.
+- When migrations are needed.
+- The two main ways to create a migration.
+- How to write migrations.
+- How to run migrations.
+- Why migrations are useful.
 
 ### What are migrations?
 
