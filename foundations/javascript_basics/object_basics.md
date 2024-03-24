@@ -129,8 +129,11 @@ However, there are two key differences with this array method:
 
 ```js
 const arr = [1, 2, 3, 4, 5];
-console.log(arr.reduce((total, currentItem) => total * currentItem, 1)); // Outputs 120;
-console.log(arr) // Outputs [1, 2, 3, 4, 5], original array is not affected 
+const productOfAllNums = arr.reduce((total, currentItem) => {
+  return total * currentItem;
+}, 1);
+console.log(productOfAllNums); // Outputs 120;
+console.log(arr) // Outputs [1, 2, 3, 4, 5]
 ```
 
 In the above function, we:
