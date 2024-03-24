@@ -16,10 +16,14 @@ A Rails migration is a script that sets up or modifies a database's schema in a 
 
 Imagine you're staring at a blank computer screen and you need to start your new Rails project. What's the first thing you do? You type `$ rails new MyProjectName` then `cd` into that directory... Then what?
 
-Figure out the data models that you'll need to use for the first iteration of your site and start getting them set up. For our purposes, we'll just assume all you need is the ubiquitous User model to keep track of all the dozens of users who will be on your site someday (just kidding, you'll hit it big). After you've actually created the database in the first place (using `$ rails db:create`), to create that model you'll need to do two steps:
+First, figure out the data models that you'll need to use for the first iteration of your site and start getting them set up. For our purposes, we'll just assume all you need is the ubiquitous User model to keep track of all the dozens of users who will be on your site someday (just kidding, you'll hit it big). After you've actually created the database in the first place (using `$ rails db:create`), to create that model you'll need to do two steps:
 
 1. Create a model file in `app/models` which is set up like you just learned above.
 1. Create a database table called "users" that has the appropriate columns. This is done using a migration file and then running the migration.
+
+#### Summary
+
+Migrations are needed during the early developmental step of setting up the project's data models, because part of that process involves creating database tables -- a schema alteration. A migration file is therefore required, since in Rails, modifying the schema means creating and then running a migration file.
 
 ### How to create a migration file
 
