@@ -42,19 +42,25 @@ Step one with understanding this stuff is just to think about which different ty
 
 ### One-to-many relationships
 
-The `has_many` / `belongs_to`, or a "one-to-many", relationship is pretty common, and usually easiest to think of in terms of actual objects... a Child can have many Marble objects, each of which belongs to that Child.  But it also applies in slightly less intuitive cases, like where a single object `belongs_to` multiple other objects.  An example would be a FranchiseLocation for a McDonalds, which `belongs_to` the Corporation McDonalds but might also `belongs_to` the City San Francisco.
+The `has_many` / `belongs_to`, or a "one-to-many", relationship is pretty common, and usually easiest to think of in terms of actual objects... a Child can have many Marble objects, each of which belongs to that Child. But it also applies in slightly less intuitive cases, like where a single object `belongs_to` multiple other objects. An example would be a FranchiseLocation for a McDonalds, which `belongs_to` the Corporation McDonalds but might also `belongs_to` the City San Francisco.
 
 It’s clear that it should belong to its corporate parent, but why does it belong to a City too? It’s often easier to think of it from the opposite perspective – a City can certainly have many FranchiseLocation objects. As long as a FranchiseLocation can only be in a single city, it effectively “belongs_to” that city in the way that Rails describes it.
 
-A key distinction here is that we're not talking about how many Post objects a User *currently* has or how many FranchiseLocation objects a City *currently* has, we're trying to model how many they *COULD* have over the entire lifetime of your application. Sure, if your User only has one Post now, you could reference that post's ID in your user table.  Then when he has another Post, you'd have to create another table column to fit that ID. And another.  And another. Which doesn't make a lick of sense... so that's why we say the User `has_many :posts` and let the Posts table reference in the User's ID, since a post will only ever have one User associated with it (assuming you only have one author).
+A key distinction here is that we're not talking about how many Post objects a User *currently* has or how many FranchiseLocation objects a City *currently* has, we're trying to model how many they *COULD* have over the entire lifetime of your application. Sure, if your User only has one Post now, you could reference that post's ID in your user table. Then when he has another Post, you'd have to create another table column to fit that ID. And another. And another. Which doesn't make a lick of sense... so that's why we say the User `has_many :posts` and let the Posts table reference in the User's ID, since a post will only ever have one User associated with it (assuming you only have one author).
 
 ### Many-to-many relationships
 
-Another common relationship is the many-to-many relationship, which can also be called `has_and_belongs_to_many` in Rails terms.  This often comes up in actual relationships -- a Human can have many favorite Dog objects, and each Dog object can have many favorite Human objects.  In this case, how would you specify which Dog objects are your favorites?  It actually requires you to create another table (a join table, or "through" table) that specifically keeps track of all those relationships.  It's a bit wonky to understand when you're learning but it becomes second nature once you've been at it for a short while.
+Another common relationship is the many-to-many relationship, which can also be called `has_and_belongs_to_many` in Rails terms. This often comes up in actual relationships -- a Human can have many favorite Dog objects, and each Dog object can have many favorite Human objects. In this case, how would you specify which Dog objects are your favorites? It actually requires you to create another table (a join table, or "through" table) that specifically keeps track of all those relationships. It's a bit wonky to understand when you're learning but it becomes second nature once you've been at it for a short while.
 
 ### Conclusion
 
-Pretty soon you'll start thinking of the world around you in terms of these relationships (if you don't take enough breaks).  The real power of them comes when you actually need to use them -- when you want to retrieve data about all the objects that are associated with another.  Do you want to see a list of all your X (formerly known as Twitter) followers?  Do you want to count up all the classmates you had from high school who are living in the same city as you now? Do you want to see all the comments one of your users left on another user's timelines? All of these things are relatively simple and intuitive once you've actually set up the appropriate data relationships. So focus on understanding these relationships.
+Pretty soon you'll start thinking of the world around you in terms of these relationships (if you don't take enough breaks). The real power of them comes when you actually need to use them -- when you want to retrieve data about all the objects that are associated with another. Do you want to see a list of all your X (formerly known as Twitter) followers? Do you want to count up all the classmates you had from high school who are living in the same city as you now? Do you want to see all the comments one of your users left on another user's timelines? All of these things are relatively simple and intuitive once you've actually set up the appropriate data relationships. So focus on understanding these relationships.
+
+Active Record is the most powerful part of Rails and also one of the trickiest to get the hang of. You need to be able to translate the real world into database tables, which takes a bit of time to become familiar with. The most difficult concepts for new beginners are usually associations, which you'll learn in upcoming lessons.
+
+It's easiest to start thinking about concrete relationships in the real world and then turning them into Active Record associations. Once you're comfortable with which model `has_many` of which other model and who actually `belongs_to` the other, you can start modeling more abstract concepts like, say, event invitations and invitation acceptances, which aren't as straightforward as a Child and his marbles (the example we used above).
+
+It's all about practice, so the projects from here on out will ask you to think through your model organization before getting started. Taking a few minutes to think through your relationships ahead of time is essential for getting started in the right direction when you begin writing code.
 
 ### Assignment
 
@@ -62,7 +68,7 @@ If you're a normal human, you're probably somewhere between "huh?" and "I hate y
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the beginning of the [Rails Guides Associations Chapter](http://guides.rubyonrails.org/association_basics.html), just up until section 2.7.  Everything after that we can save for later... the important thing is that you've seen the relationships and how they're set up.
+1. Read the beginning of the [Rails Guides Associations Chapter](http://guides.rubyonrails.org/association_basics.html), just up until section 2.7. Everything after that we can save for later... the important thing is that you've seen the relationships and how they're set up.
 
 </div>
 
