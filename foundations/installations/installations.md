@@ -51,7 +51,7 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 #### Step 1.1: Download VirtualBox
 
-[Click here](https://www.virtualbox.org/wiki/Downloads) and download VirtualBox for Windows hosts.
+[Download VirtualBox for Windows hosts](https://www.virtualbox.org/wiki/Downloads).
 
 #### Step 1.2: Download Xubuntu
 
@@ -100,7 +100,7 @@ You want to tick the **Guest Additions** and **Install in Background** options a
 
 In the **Hardware** section of the installation you want to set your **Base Memory** to at least 2048 MB or more if possible - the upper limit is half of your total RAM but 4096 MB with the settings we recommend should give you a smooth experience.
 
-For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, [please run this Google query](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have) to learn how to find this out. If the VM runs a bit slow, try allocating more memory!
+> For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, [you can use Google to learn how to find out how much RAM you have.](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have). If the VM runs a bit slow, try allocating more memory!
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -168,6 +168,17 @@ Now that this is all done, you can close those windows and reboot your VM. You c
 
 Now that you have access to `sudo`, we can use this to update our Xubuntu through the `Terminal`. Open the `Terminal` and use these commands, one after another:
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### A note on typing passwords in the terminal
+
+When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+
+This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
+
+You can still enter your password as normal and press Enter to submit it.
+</div>
+
 ```bash
 sudo apt update
 sudo apt upgrade
@@ -196,7 +207,8 @@ Here are some tips to help you get started in a virtual environment:
 
 - If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
 - Running out of space? Look at [these instructions on our Discord](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
-- Are you using a touchscreen? [Here's a video](https://www.youtube.com/watch?v=hW-iyHHoDy4) on how to enable touchscreen controls for VirtualBox.
+- Are you using a touchscreen? [Watch a video on how to enable touchscreen controls for VirtualBox](https://www.youtube.com/watch?v=hW-iyHHoDy4).
+
 - **VM performance tips**:
   - When running the VM, minimize your Windows activity. You probably want to be plugged into power as well if you're using a laptop.
   - Make sure your processors are set to only 2 and the Memory you've given your VM is at most half of your total RAM but at least 2GB. If you can't spare the 2GB, dual boot.
@@ -243,7 +255,7 @@ First, you need to download the version of Ubuntu you want to install on your co
 
 ### Step 2: Create a bootable flash drive
 
-Next, follow [this guide](https://itsfoss.com/create-live-usb-of-ubuntu-in-windows/) to create a bootable flash drive so that you can install Ubuntu on your hard drive. If you don't have a flash drive, you can also use a CD or DVD.
+Next, [follow guide to create a bootable flash drive](https://itsfoss.com/create-live-usb-of-ubuntu-in-windows/) to create a bootable flash drive so that you can install Ubuntu on your hard drive. If you don't have a flash drive, you can also use a CD or DVD.
 
 Note: You can use this method to try out [different flavors of Ubuntu](https://www.ubuntu.com/download/flavours) if you'd like. These images allow you to try out different flavors without committing to an installation. Be aware that running the OS from a flash drive will cause the OS to be slow and can decrease the life of your flash drive.
 
@@ -386,7 +398,18 @@ You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
+#### A note on typing passwords in the terminal
+
+  When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+
+  This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
+
+  You can still enter your password as normal and press Enter to submit it.
+</div>
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [You can read a Reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
 
 </div>
 
@@ -470,13 +493,13 @@ Chrome is going to use this terminal to output various messages and won't let yo
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What operating systems does The Odin Project support?](#os-installation)
 - [What browser does The Odin Project support?](#google-chrome-installation)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
