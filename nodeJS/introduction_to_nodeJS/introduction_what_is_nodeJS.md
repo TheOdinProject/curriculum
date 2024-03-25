@@ -1,9 +1,9 @@
 ### Introduction
 NodeJS (or just 'Node') has been steadily gaining popularity since its creation in 2009. The internet is flooded with courses and articles about it, installing it is a prerequisite for pretty much any front-end development work, and of course the amount of jobs that require knowledge of it are also on the rise.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Describe the purpose of a server.
 - Describe the differences between static and dynamic sites.
@@ -11,7 +11,7 @@ By the end of this lesson, you should be able to do the following:
 - Explain when you wouldn't need a back-end for a project.
 - Explain the event loop.
 - Understand the origin of the Node.js runtime.
-- Write a simple "hello world" application and run it in the console of your machine.
+- Write a basic "hello world" application and run it in the console of your machine.
 - Understand what Node.js really is.
 
 ### What is Node?
@@ -22,7 +22,7 @@ The [Node.js website](https://nodejs.org/en/about/) declares:
 
 This is a definition that requires a little unpacking.
 
-The important bit to understand right up front is that Node is a "JavaScript runtime". When JavaScript was first created, it was designed to run _in the browser_. This means that it was impossible to use JavaScript to write any kind of program that was not a website. Node brings JavaScript _out_ of browser-land. This allows developers to use JavaScript to accomplish pretty much anything that other popular server-side languages such as Ruby, PHP, C# and Python can do. So, at its most basic level, Node simply allows you to run JavaScript code on a machine such as your local computer or a server without having to go through a web browser.
+The important bit to understand right up front is that Node is a "JavaScript runtime". When JavaScript was first created, it was designed to run _in the browser_. This means that it was impossible to use JavaScript to write any kind of program that was not a website. Node brings JavaScript _out_ of browser-land. This allows developers to use JavaScript to accomplish pretty much anything that other popular server-side languages such as Ruby, PHP, C# and Python can do. So, at its most basic level, Node allows you to run JavaScript code on a machine such as your local computer or a server without having to go through a web browser.
 
 To facilitate this, Node has some added functionality that is not found in browser-based JavaScript, such as the ability to read and write local files, create http connections and listen to network requests.
 
@@ -72,7 +72,7 @@ While you may have learned React (or any other frontend framework) before, eithe
 1. [This short module](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps) on "The Server Side" from MDN is a great source for the background knowledge you need. Read through at least the first two articles posted under the 'Guides' section: Introduction to the server side and Client-Server Overview. The other two are interesting and worth reviewing, but less relevant to our immediate concerns.
 2. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read [this article](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5).
 3. What is the Node Event Loop? Check out this long, but _really_ [fantastic video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)... don't skip it!
-4. Take a few minutes to go through the "Getting Started" section of the new official [Node.js website](https://nodejs.org/en/docs/guides/getting-started-guide). Read up until, but not including, the TypeScript module.
+4. Take a few minutes to go through the "Getting Started" section of the new official [Node.js website](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs). Read up until, but not including, the TypeScript module.
 5. [This short video](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
 
 </div>

@@ -44,7 +44,8 @@
         "script",
         "iframe",
         "details",
-        "summary"
+        "summary",
+        "pre"
       ]
     },
     // first-line-heading/first-line-h1
@@ -79,5 +80,11 @@
     "MD050": {
       "style": "asterisk"
     }
-  }
+  },
+  "customRules": [
+    "./markdownlint/TOP001_descriptiveLinkText/TOP001_descriptiveLinkText.js",
+    "./markdownlint/TOP002_noCodeInHeadings/TOP002_noCodeInHeadings.js",
+    "./markdownlint/TOP003_defaultSectionContent/TOP003_defaultSectionContent.js",
+    "./markdownlint/TOP004_lessonHeadings/TOP004_lessonHeadings.js"
+  ]
 }

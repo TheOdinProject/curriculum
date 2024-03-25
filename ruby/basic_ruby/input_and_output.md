@@ -1,11 +1,12 @@
 ### Introduction
 To create programs that are user friendly and interactive, you'll need to know how to **output** data to a screen and how to get **input** from a user. In this lesson, we'll cover the most common ways to achieve these tasks in Ruby. As with other lessons, and this one in particular, following along in irb or a REPL will be helpful.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
 
- - Differentiate between the `print` and `puts` commands.
- - Describe the method used to get input from the user.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Differentiate between the `print` and `puts` commands.
+- Describe the method used to get input from the user.
 
 ### Output commands
 To output information, such as into your irb or REPL environment or into the command line, we can use the `print` command. To better show the differences between what Ruby is printing to the terminal and returning, the examples in this lesson use the full irb syntax, which is exactly what you'd see if you typed these commands into your own terminal irb session.
@@ -94,3 +95,9 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#output-commands">What is different between these two output methods? </a>
 * <a class="knowledge-check-link" href="#input-commands">What is the method you can use to get input from the user? </a>
 * <a class="knowledge-check-link" href="#input-commands">What is at least one difference between the output and input methods? </a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

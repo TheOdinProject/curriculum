@@ -4,6 +4,8 @@ You've already done a bit of text-manipulation in our Foundations lessons. This 
 
 ### Lesson overview
 
+This section contains a general overview of topics that you will learn in this lesson.
+
 - You'll learn how to use custom fonts on your web projects.
 - You'll learn some more text-related CSS properties.
 
@@ -27,7 +29,14 @@ The point of this somewhat ridiculous string of font-families is to try using th
 
 #### Online font libraries
 
-One popular and easy method to get fonts that are *not* installed on a user's computer is to use an online font library like [Google Fonts](https://fonts.google.com/), [Font Library](https://fontlibrary.org/), or the premium, but non-free, [Adobe Fonts](https://fonts.adobe.com/).
+One popular and easy method to get fonts that are *not* installed on a user's computer is to use the online [Font Library](https://fontlibrary.org/), or the premium, but non-free, [Adobe Fonts](https://fonts.adobe.com/).
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+### A warning about Google fonts
+
+As you look into online font libraries to use you may come across [Google Fonts](https://fonts.google.com/). We strongly advise against using them, as websites that use Google Fonts [violate the GDPR](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/). Do not follow the instructions in that article on how to make Google fonts compliant, as we will be going over downloading fonts in this lesson.
+
+</div>
 
 To use a font from one of these libraries, go to the website, select a font and then copy a snippet from the website to import that font from their server into your website. You'll be given either a `<link>` tag to put in your HTML like so....
 
@@ -129,9 +138,9 @@ Line height adjusts the space between lines in wrapped text. Adding a little lin
 
 #### text-transform
 
-Text transform simply changes the case of the given text. You can use this, for example, to force your heading tags to be all uppercase, or to capitalize every word.
+Text transform changes the case of the given text. You can use this, for example, to force your heading tags to be all uppercase, or to capitalize every word.
 
-Usage is simple, and can be seen in the clear example on these [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform).
+Usage can be seen in the clear example on these [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform).
 
 #### text-shadow
 
@@ -141,7 +150,7 @@ The examples on the [MDN reference page for text-shadow](https://developer.mozil
 
 #### ellipsis
 
-This one isn't a single property, but it's a useful trick to keep in your toolbox. With the `text-overflow` property, you can truncate overflowing text with an ellipsis. Making an overflow happen, however, requires the use of a couple other properties because the default behavior of text simply printing outside its container isn't technically considered an `overflow` (that's confusing, we know.  Sorry.)
+This one isn't a single property, but it's a useful trick to keep in your toolbox. With the `text-overflow` property, you can truncate overflowing text with an ellipsis. Making an overflow happen, however, requires the use of a couple other properties because the default behavior of text printing outside its container isn't technically considered an `overflow` (that's confusing, we know.  Sorry.)
 
 The full snippet is:
 

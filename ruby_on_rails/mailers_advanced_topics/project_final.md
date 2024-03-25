@@ -2,7 +2,7 @@
 
 You've come a long way, congratulations! At this point, you should feel comfortable with building new Rails applications, modelling data, and working with forms. This project will require you to put all your newfound knowledge to the test. It should serve as a great portfolio piece for what you're capable of. It'll take some thought and time but it's certainly within reach of your skills.
 
-You'll be building a clone of a social media site, such as Facebook, Twitter, Myspace, or Threads. As with our previous lessons, how much effort you want to put into the styling and front end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, following, and "liking".
+You'll be building a clone of a social media site, such as Facebook, X, Myspace, or Threads. As with our previous lessons, how much effort you want to put into the styling and front end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, following, and "liking".
 
 You'll also implement some form of authentication. Ideally, you'll want to use OmniAuth to support authenticating via the social media site you're cloning, but some sites (such as Facebook), have recently made this process impossible. If this is the case for your site, you can use Devise to support authenticating via username and password (using Devise) or via Github with `omniauth-github`.
 
@@ -58,6 +58,6 @@ Keep the following requirements in mind. We'll cover specific steps to get start
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* For an alternative to using AWS S3 for image storage take a look at this [cloudinary](https://github.com/GoGoCarl/paperclip-cloudinary)
+- For an alternative to using AWS S3 for image storage take a look at this [cloudinary](https://github.com/GoGoCarl/paperclip-cloudinary)

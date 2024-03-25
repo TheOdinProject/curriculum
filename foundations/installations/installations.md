@@ -9,7 +9,25 @@ If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu
 We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
 </div>
 
-### 1: OS installation
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- How to set up a proper environment to follow The Odin Project curriculum.
+- Installing Google Chrome in your environment.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. If you're not already running a supported environment, decide on which environment you're going to set up.
+   - Look through the instructions so you know what to expect.
+   - Choose and follow one of the instructions below.
+1. After you have your environment sorted, proceed to the Google Chrome installation instructions.
+
+</div>
+
+### OS installation
 
 #### IMPORTANT
 
@@ -33,7 +51,7 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 #### Step 1.1: Download VirtualBox
 
-[Click here](https://www.virtualbox.org/wiki/Downloads) and download VirtualBox for Windows hosts.
+[Download VirtualBox for Windows hosts](https://www.virtualbox.org/wiki/Downloads).
 
 #### Step 1.2: Download Xubuntu
 
@@ -82,7 +100,7 @@ You want to tick the **Guest Additions** and **Install in Background** options a
 
 In the **Hardware** section of the installation you want to set your **Base Memory** to at least 2048 MB or more if possible - the upper limit is half of your total RAM but 4096 MB with the settings we recommend should give you a smooth experience.
 
-For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, [please run this Google query](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have) to learn how to find this out. If the VM runs a bit slow, try allocating more memory!
+> For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, [you can use Google to learn how to find out how much RAM you have.](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have). If the VM runs a bit slow, try allocating more memory!
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -150,6 +168,17 @@ Now that this is all done, you can close those windows and reboot your VM. You c
 
 Now that you have access to `sudo`, we can use this to update our Xubuntu through the `Terminal`. Open the `Terminal` and use these commands, one after another:
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### A note on typing passwords in the terminal
+
+When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+
+This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
+
+You can still enter your password as normal and press Enter to submit it.
+</div>
+
 ```bash
 sudo apt update
 sudo apt upgrade
@@ -178,14 +207,15 @@ Here are some tips to help you get started in a virtual environment:
 
 - If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
 - Running out of space? Look at [these instructions on our Discord](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
-- Are you using a touchscreen? [Here's a video](https://www.youtube.com/watch?v=hW-iyHHoDy4) on how to enable touchscreen controls for VirtualBox.
+- Are you using a touchscreen? [Watch a video on how to enable touchscreen controls for VirtualBox](https://www.youtube.com/watch?v=hW-iyHHoDy4).
+
 - **VM performance tips**:
   - When running the VM, minimize your Windows activity. You probably want to be plugged into power as well if you're using a laptop.
   - Make sure your processors are set to only 2 and the Memory you've given your VM is at most half of your total RAM but at least 2GB. If you can't spare the 2GB, dual boot.
   - If videos lag in the VM, make sure to max out Video Memory to whatever you can or alternatively play them on your Windows if your machine can handle it. Disable 3D Acceleration if you have it enabled.
   - Do look out for the ![Icon with a green turtle and a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png){: .inline-img} icon in bottom right of your VM window, if you have it, here's a [VirtualBox forum thread on how to get rid of it](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390). You want to have the ![Icon of a chip with a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png){: .inline-img} icon instead. If you don't see a ![Icon with a green turtle and a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png){: .inline-img} or a ![Icon of a chip with a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png){: .inline-img} in bottom right, you have to exit full screen mode to see them.
   - If your performance is still lacking, go for a dual boot as this will make sure you're using all of your specs for one OS only, thus improving your experience significantly.
-- If your scroll wheel behaves oddly in Google Chrome and you have gone through VM performance tips to make sure your VM is working as intended, look into `imwheel`: [see these AskUbuntu instructions for more information](https://askubuntu.com/a/621140). If you have VSCode installed, use that instead of `gedit`, otherwise install it with `sudo apt install gedit` - if you install it with `snap`, it won't let you save the file. To make sure `imwheel` works every startup, you need to click the whisker ![The blue-white rodent Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png){: .inline-img} , type `Session` and click on `Session and Startup` that shows up, go to `Application Autostart`, click `Add` and put it `imwheel` for `Name` and `imwheel -b "4 5` for `Command`. Click `OK` and you should be all set.
+- If your scroll wheel behaves oddly in Google Chrome and/or in other applications and you have gone through VM performance tips to make sure your VM is working as intended, look into [whether your version of Guest Additions is correct](https://discord.com/channels/505093832157691914/690588860085960734/1195697147123867668).
 
 ### Step 5: Safely shutting down your VM
 
@@ -225,7 +255,7 @@ First, you need to download the version of Ubuntu you want to install on your co
 
 ### Step 2: Create a bootable flash drive
 
-Next, follow [this guide](https://itsfoss.com/create-live-usb-of-ubuntu-in-windows/) to create a bootable flash drive so that you can install Ubuntu on your hard drive. If you don't have a flash drive, you can also use a CD or DVD.
+Next, [follow guide to create a bootable flash drive](https://itsfoss.com/create-live-usb-of-ubuntu-in-windows/) to create a bootable flash drive so that you can install Ubuntu on your hard drive. If you don't have a flash drive, you can also use a CD or DVD.
 
 Note: You can use this method to try out [different flavors of Ubuntu](https://www.ubuntu.com/download/flavours) if you'd like. These images allow you to try out different flavors without committing to an installation. Be aware that running the OS from a flash drive will cause the OS to be slow and can decrease the life of your flash drive.
 
@@ -330,7 +360,7 @@ When opening your WSL2 terminal ensure that you do not see `/mnt/c` at the start
 </div>
 </details>
 
-### 2: Google Chrome installation
+### Google Chrome installation
 
 #### Why Google Chrome?
 
@@ -351,6 +381,11 @@ Choose your Operating System:
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
 
+<div class="lesson-note" markdown="1">
+### Copy and paste keyboard shortcuts
+You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste something doesn't work in the terminal. In order to paste your text input into your terminal you can use: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> keyboard shortcut combination, instead. It is also  very handy to know that the: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>  keyboard combination will copy any highlighted text from your terminal, which can then be pasted later.
+</div>
+
 #### Step 2: Install Google Chrome
 
 - Enter the following command in your terminal to install **Google Chrome** `.deb` package
@@ -363,7 +398,18 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
+#### A note on typing passwords in the terminal
+
+  When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+
+  This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
+
+  You can still enter your password as normal and press Enter to submit it.
+</div>
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [You can read a Reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
 
 </div>
 
@@ -445,8 +491,15 @@ Chrome is going to use this terminal to output various messages and won't let yo
 
 </details>
 
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What operating systems does The Odin Project support?](#os-installation)
+- [What browser does The Odin Project support?](#google-chrome-installation)
+
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

@@ -4,7 +4,9 @@ The first step to making responsive websites is using techniques that are *natur
 
 ### Lesson overview
 
-- You'll learn a few tips for keeping your sites naturally responsive
+This section contains a general overview of topics that you will learn in this lesson.
+
+1. You'll learn a few tips for keeping your sites naturally responsive.
 
 Plain HTML, with no CSS is responsive. [Make sure to read the page](https://codyloyd.github.io/responsive-html/), and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
 
@@ -23,6 +25,8 @@ For this reason, you should add this snippet into the `<head>` of your HTML file
 ```
 
 It sets the initial width of the webpage to the size of the actual screen you're viewing it on, and telling it not to zoom in or out. Easy!
+
+You have most likely already been using this tag if you've been using Emmet to generate HTML boilerplate for you. (<kbd>!</kbd> + <kbd>ENTER</kbd>)
 
 ### Avoid fixed width and height
 
@@ -64,13 +68,13 @@ Here's a statement so obvious that it sounds like a joke: flexbox was *created* 
 
 <div class="lesson-content__panel" markdown="1">
 1. Read ["Using the viewport meta tag"](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag) on MDN to get a little more background and detail about the viewport meta tag and the nature of screen resolutions.
-2. [Using Percentages in CSS](https://codyloyd.com/2021/percentages/) is an article that tackles another common pitfall.
+2. [Using Percentages in CSS](https://codyloyd.com/2021/percentages/) is an article that tackles another common pitfall. Don't focus too much on the `@media` parts, as we will cover media queries very soon.
 3. [minmax() in auto-fill repeating tracks](https://gridbyexample.com/examples/example28/) demonstrates a really nice responsive grid feature.
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Why should you avoid fixed width?](#fixed-width)
 - [Why should you avoid fixed height?](#fixed-height)
@@ -79,6 +83,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [This free course on Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts) by Kevin Powell provides great practice to work on your responsive layout chops.  
+- This [free course on Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts) by Kevin Powell provides great practice to work on your responsive layout chops.  

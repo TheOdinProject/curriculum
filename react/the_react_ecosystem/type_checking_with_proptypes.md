@@ -15,21 +15,21 @@ This section contains a general overview of topics that you will learn in this l
 
 To start using PropTypes in our React projects, we first need to install the corresponding library. We can do that with `npm`. In your React project run the following command:
 
-~~~
+```bash
 npm install --save prop-types
-~~~
+```
 
 Next, we want to import the PropTypes package in the component whose props we want to validate.
 
-~~~javascript
+```javascript
 import PropTypes from 'prop-types';
-~~~
+```
 
 ### Using propTypes
 
-Here is a very basic example of how we would use it in a simple component that renders out a name prop.
+Here is a very basic example of how we would use it in a component that renders out a name prop.
 
-~~~javascript
+```javascript
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -42,21 +42,21 @@ RenderName.propTypes = {
 };
 
 export default RenderName;
-~~~
+```
 
 In this example, the component RenderName expects to receive a prop called `name` which is a string. If this prop is not a string, a warning will be displayed. If you want to make sure a prop is being passed in, use isRequired like so:
 
-~~~javascript
+```javascript
 RenderName.propTypes = {
   name: PropTypes.string.isRequired,
 }
-~~~
+```
 
 ### Using defaultProps
 
 Another cool thing we can do in combination with PropTypes is passing in default props:
 
-~~~javascript
+```javascript
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -73,7 +73,7 @@ RenderName.defaultProps = {
 };
 
 export default RenderName;
-~~~
+```
 
 In this example, with the help of the defaultProps property we are defining a default value for the `name` prop. This way, if the `RenderName` component is called without passing in the `name` prop, it will default to "Zach". When you do pass in props, they will take precedence over the default props.
 

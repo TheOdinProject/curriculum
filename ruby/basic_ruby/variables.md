@@ -1,8 +1,9 @@
 ### Introduction
 Variables are a way of assigning data to names in your programs. You can think of a variable as a box with a label on it: it stores something and has a name so that you know what's inside. This is an imperfect metaphor as you'll see by the end of this lesson, but it should help with understanding variables for now.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
  - Describe what a variable is and how to assign it a value or expression.
  - Explain what the `+=`, `-=`, `*=`, and `/=` assignment operators do.
@@ -116,15 +117,6 @@ This example may be hard to completely understand at this point in the lesson. T
 3. Open up a Ruby [replit.com](https://replit.com/languages/ruby) or use IRB in your command line and try naming some variables and assigning values to them. Don't worry so much about good naming conventions at this stage. Instead, experiment with different variable names and see what is valid. Try using symbols or numbers in your variable names. Try assigning a variable to another variable and observe the behavior when using `upcase!`, as in the example above. If you come across anything quirky, Google it to find out why it happened.
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* Read the full [Variables](http://ruby.bastardsbook.com/chapters/variables) chapter from *The Bastards Book of Ruby* if you can't get enough about variables.
-* To dive deeper into how variables point to memory locations on your computer, go through these short sections:
-  * [Variables as Pointers](https://launchschool.com/books/ruby/read/more_stuff#variables_as_pointers), from LaunchSchool's *Introduction to Programming With Ruby*.
-  * [A visual guide to variables](http://ruby.bastardsbook.com/chapters/variables/#visual-guide) from the [Variables](http://ruby.bastardsbook.com/chapters/variables) chapter of *The Bastards Book of Ruby*
-* If you want to know more about Ruby's naming conventions, check out the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide). Don't get too deep into it; just know that it's there.
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -135,3 +127,13 @@ This section contains questions for you to check your understanding of this less
 * <a class="knowledge-check-link" href="#non-add-assignment-operators">What does the `*=` assignment operator do?</a>
 * <a class="knowledge-check-link" href="#non-add-assignment-operators">What does the `/=` assignment operator do?</a>
 * <a class="knowledge-check-link" href="#how-to-name-variables">What are the variable naming conventions?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- Read the full [Variables](http://ruby.bastardsbook.com/chapters/variables) chapter from *The Bastards Book of Ruby* if you can't get enough about variables.
+- To dive deeper into how variables point to memory locations on your computer, go through these short sections:
+  - [Variables as Pointers](https://launchschool.com/books/ruby/read/more_stuff#variables_as_pointers), from LaunchSchool's *Introduction to Programming With Ruby*.
+  - [A visual guide to variables](http://ruby.bastardsbook.com/chapters/variables/#visual-guide) from the [Variables](http://ruby.bastardsbook.com/chapters/variables) chapter of *The Bastards Book of Ruby*
+- If you want to know more about Ruby's naming conventions, check out the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide). Don't get too deep into it; just know that it's there.

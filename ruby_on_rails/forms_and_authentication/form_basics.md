@@ -280,12 +280,6 @@ If you find yourself submitting a form and nothing is happening, chances are you
 
 At this point, you should have a solid understanding of how forms work in general and a pretty good feel for how Rails helps you out by generating them for you.  You'll get a chance to build a whole bunch of forms in the next few projects, so don't worry if it's not totally stuck for you yet.  Seeing it in action will make things click.
 
-### Additional resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
--   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
-
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
@@ -297,3 +291,9 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="#forms-and-validations">How do you access errors for a failed-to-save model object?</a>
 - <a class="knowledge-check-link" href="#making-patch-and-delete-submissions">How do Rails forms make PATCH or DELETE requests?</a>
 - <a class="knowledge-check-link" href="https://guides.rubyonrails.org/form_helpers.html#combining-them">What is one case where you may need an array of hashes within the `params` hash?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+-   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

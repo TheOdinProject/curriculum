@@ -6,12 +6,12 @@ You need to specify the proper types of inputs for each possible data item since
 
 In this lesson, we will explore the basics of HTML forms and some of the different types of inputs available to you.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-- Create forms with HTML
-- Have a basic idea of how to style forms
+- Create forms with HTML.
+- Have a basic idea of how to style forms.
 
 ### The form element
 
@@ -164,7 +164,7 @@ We create a number input using the input element with a `type` attribute of "num
 <input type="number" id="amount" name="amount">
 ```
 
-To collect dates from a user, we can use a `date input`. This input is unique because it provides a better user experience for choosing dates by rendering a simple date picker calendar.
+To collect dates from a user, we can use a `date input`. This input is unique because it provides a better user experience for choosing dates by rendering a date picker calendar.
 
 To create a date input, we use the input element with a `type` attribute of "date":
 
@@ -376,7 +376,7 @@ To create a reset button, we use the button element with a `type` attribute of "
 
 **Generic button**
 
-The third and final button type is simply a generic button that can be used for anything. It's commonly used with JS for creating interactive UI's.
+The third and final button type is a generic button that can be used for anything. It's commonly used with JS for creating interactive UI's.
 
 To create a generic button, we use the button element with a `type` attribute of "button":
 
@@ -491,7 +491,7 @@ Certain aspects of other elements are downright impossible to style, for example
 
 #### Form basics
 
-1. Read and follow along to [MDN's Introductory Guides to Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_guides) - complete [Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form) and [How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form#test_your_skills!)
+1. Read and follow along to [MDN's Introductory Guides to Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_guides) - complete [Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form) and [How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form)
 2. Read and follow along to [MDN's The Different Form Controls Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#the_different_form_controls)
 
 #### Styling forms

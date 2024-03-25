@@ -3,8 +3,9 @@ This lesson is going to build on your knowledge of arrays and hashes. As you hav
 
 Let's take a look at how you can use nested arrays and nested hashes to store more complex data.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Describe a nested array and hash.
 - Explain what data is useful to store in a nested array and hash.
@@ -327,12 +328,6 @@ Amazing! We have found a great solution to returning an array that only contains
 
 </div>
 
-### Additional resources
-
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
--   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -348,3 +343,9 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#create-immutable-nested-arrays'>How do you create a new nested array that is not mutable?</a>
 - <a class='knowledge-check-link' href='#iterating-over-a-nested-array'>How do you iterate over a nested array?</a>
 - <a class='knowledge-check-link' href='#methods'>How do you iterate over a nested hash?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+-   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

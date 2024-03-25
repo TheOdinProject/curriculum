@@ -3,14 +3,15 @@ At the beginning of this section, you learned how to create and manipulate numbe
 
 One way Ruby allows you to represent a collection of data is with **arrays**, which you can think of as ordered lists. Rather than working with individual variables, numbers, or strings, an array allows you to create and manipulate an ordered and indexed collection of these data. The individual variables, numbers, or strings within an array are known as **elements**. An array can contain any combination of variables, numbers, strings, or other Ruby objects (including other arrays), although it is advisable to keep similar data types in any one array.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
 
- - Describe what an array is, and explain why it's useful.
- - Describe two different ways of creating a new array.
- - Explain how to access array elements using different methods.
- - Explain three different ways to add data to an array.
- - Explain how to remove elements from an array.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Describe what an array is, and explain why it's useful.
+- Describe two different ways of creating a new array.
+- Explain how to access array elements using different methods.
+- Explain three different ways to add data to an array.
+- Explain how to remove elements from an array.
 
 ### Creating arrays
 Here are two basic arrays:
@@ -143,13 +144,6 @@ Here is a brief look at some other common array methods you might run into:
 4. Let's get some practice reading documentation. You'll feel just like a real programmer! What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look these methods up in the [Array class documentation](https://docs.ruby-lang.org/en/3.2/Array.html). Were you close?
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* Read the official documentation on [class Array](https://docs.ruby-lang.org/en/3.2/Array.html).
-* If you need a different take on arrays, read through this article by [zetcode](http://zetcode.com/lang/rubytutorial/arrays/).
-* Arrays also allow for **set operations**, which you can read about [here](https://www.endpointdev.com/blog/2011/06/using-set-operators-with-ruby-arrays/). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -158,3 +152,11 @@ This section contains questions for you to check your understanding of this less
  * <a class='knowledge-check-link' href='#accessing-elements'>What are some ways of accessing the elements in an array?</a>
  * <a class='knowledge-check-link' href='#adding-and-removing-elements'>What are 3 ways to add data to an array?</a>
  * <a class='knowledge-check-link' href='#adding-and-removing-elements'>How can you remove elements from an array?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+-  Read the official documentation on [class Array](https://docs.ruby-lang.org/en/3.2/Array.html).
+-  If you need a different take on arrays, read through this article by [zetcode](http://zetcode.com/lang/rubytutorial/arrays/).
+-  Arrays also allow for **set operations**, which you can read about [here](https://www.endpointdev.com/blog/2011/06/using-set-operators-with-ruby-arrays/). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!
