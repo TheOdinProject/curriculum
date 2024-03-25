@@ -8,7 +8,7 @@ Some of the student solutions below contain buttons, text, and other elements. T
 
 ### Problem solving approach
 
-Remember the previous wise words from the [Problem Solving lesson](https://www.theodinproject.com/lessons/foundations-problem-solving) because this is your first JavaScript program built from scratch. Before you start this project, follow these steps for each step of the project:
+Since this is the first JavaScript project being built from scratch, it's important to remember the wise words from the [Problem Solving lesson](https://www.theodinproject.com/lessons/foundations-problem-solving). Before you start this project, follow these steps for each step of the project:
 
 1. Plan or pseudocode your solution.
 1. Write the code.
@@ -33,16 +33,16 @@ You don't have to write additional code in the HTML file. This game is played en
 
 #### Step 2: Get computer choice function
 
-Your game will be played against the computer. You will make a function that randomly returns 'Rock', 'Paper' or 'Scissors':
+Your game will be played against the computer. You will write a function that randomly returns "Rock", "Paper" or "Scissors".
 
 1. Create a new function named `getComputerChoice`.
-1. Write the code so that `getComputerChoice` randomly `return` one of the following string values: "Rock", "Paper" or "Scissors".
+1. Write the code so that `getComputerChoice` will randomly `return` one of the following string values: "Rock", "Paper" or "Scissors".
    - **Hint**: The [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) method returns a random number that's greater than or equal to 0 and less than 1. Think about how you can use this to conditionally return one of the multiple choices.
 1. Test that your function returns what you expect using `console.log` or [the browser developer tools](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools) before advancing to the next step.
 
 #### Step 3: Play round function
 
-Your game will be played round by round. You will make a function that takes the human and computer player choices as arguments, plays a single round and returns a winner announcement:
+Your game will be played round by round. You will write a function that takes the human and computer player choices as arguments, plays a single round and returns a winner announcement.
 
 1. Create a new function named `playRound`.
 1. Define two parameters for `playRound`: `playerChoice` and `computerChoice`. Use these two parameters to take the human and computer choices as arguments.
@@ -64,7 +64,7 @@ console.log(playRound(playerSelection, computerSelection));
 
 #### Step 4: Play game function
 
-Your game will play 5 rounds. Write a function named `playGame` that uses `playRound` to play 5 rounds, keeps score, and declares a winner at the end:
+Your game will play 5 rounds. You will write a function named `playGame` that calls `playRound` to play 5 rounds, keeps score, and declares a winner at the end.
 
 1. Create a new function named `playGame`.
 1. Get the human player choice using the `prompt` method. Read this [MDN article about the prompt method](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt) learn more about it.
