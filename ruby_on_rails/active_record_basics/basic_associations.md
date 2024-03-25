@@ -6,11 +6,11 @@ In the databases sections, you learned about how a relational database like SQLi
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand what associations are.
-- Know how to specify associations.
-- Know the importance of setting up your data model and how to do it.
-- Learn about one-to-many relationships
-- Learn about many-to-many relationships
+- What associations are.
+- How to specify associations.
+- The importance of setting up your data model and how to do it.
+- One-to-many relationships.
+- Many-to-many relationships.
 
 ### What are associations?
 
@@ -57,6 +57,8 @@ Another common relationship is the many-to-many relationship, which can also be 
 Pretty soon you'll start thinking of the world around you in terms of these relationships (if you don't take enough breaks).  The real power of them comes when you actually need to use them -- when you want to retrieve data about all the objects that are associated with another.  Do you want to see a list of all your X (formerly known as Twitter) followers?  Do you want to count up all the classmates you had from high school who are living in the same city as you now? Do you want to see all the comments one of your users left on another user's timelines? All of these things are relatively simple and intuitive once you've actually set up the appropriate data relationships. So focus on understanding these relationships.
 
 ### Assignment
+
+If you're a normal human, you're probably somewhere between "huh?" and "I hate you, stop teaching me stuff". Stick with it, the point here is to get you thinking of how to model relationships and give you exposure to them. The project will give you an opportunity to actually build what you've been learning and it should be a lot better once you've had that chance.
 
 <div class="lesson-content__panel" markdown="1">
 
