@@ -59,6 +59,26 @@ This line above the closing tag is not a blank line nor a code block delimiter, 
 </div>
 ```
 
+```html
+<div>
+  <p>
+    Does not flag when used in an HTML example
+  </p>
+</div>
+```
+
+```jsx
+<p>
+  Also accepts when used in JSX code blocks
+</p>
+```
+
+```md
+<p>
+    But does not like it if done in a non-HTML/JSX code block
+</p>
+```
+
 <!-- markdownlint-disable-next-line -->
 ### `Will not flag ignore comments which require being directly followed by the line to ignore`
 
