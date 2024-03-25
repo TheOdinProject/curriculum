@@ -7,6 +7,24 @@ module.exports = {
   ),
   function: function TOP005(params, onError) {
     /**
+     * HTML code in HTML/JSX code blocks should not be flagged.
+     * We only want to flag HTML tags we use for actual markup,
+     * or md code block examples of such.
+     */
+    const IGNORED_FENCE_TYPES = ["html", "jsx"];
+    const ignoredFencesLineNumbers = params.tokens
+      .filter((token) => {
+        return token.type === "fence" && IGNORED_FENCE_TYPES.includes(token.info);
+      })
+      .map((token) => [token.map[0], token.map[1] - 1]); // 0-indexing
+
+    const isWithinIgnoredFence = (lineNumber) => {
+      return ignoredFencesLineNumbers.some(
+        (range) => range[0] < lineNumber && lineNumber < range[1]
+      );
+    };
+
+    /**
      * html_block tokens are only separated once you hit a blank line.
      *
      * <div>
@@ -24,8 +42,8 @@ module.exports = {
      */
     const isolatedHtmlTagsLineNumbers = params.lines.reduce(
       (lineNumbers, currentLineText, currentLineNumber) => {
-        // will allow markdownlint-disable comments
-        if (/^<(?!!)\/?[^>]*>$/.test(currentLineText)) {
+        // (?!!) to allow for comments
+        if (/^<(?!!)\/?[^>]*>$/.test(currentLineText.trim())) {
           lineNumbers.push(currentLineNumber);
         }
         return lineNumbers;
@@ -34,6 +52,8 @@ module.exports = {
     );
 
     isolatedHtmlTagsLineNumbers.forEach((lineNumber) => {
+      if (isWithinIgnoredFence(lineNumber)) return;
+
       const blankCodeBlockRegex = /^$|^`{3,4}.*$/;
       const lineBeforeIsValid = blankCodeBlockRegex.test(params.lines[lineNumber - 1] ?? "");
       const lineAfterIsValid = blankCodeBlockRegex.test(params.lines[lineNumber + 1] ?? "");

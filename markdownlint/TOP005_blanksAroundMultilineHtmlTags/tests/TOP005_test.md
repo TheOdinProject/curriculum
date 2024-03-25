@@ -77,6 +77,12 @@ This line above the closing tag is not a blank line nor a code block delimiter, 
 <p>
     But does not like it if done in a non-HTML/JSX code block
 </p>
+
+<div>
+  <p>
+    Indentation has no effect on how the rule works.
+  </p>
+</div>
 ```
 
 <!-- markdownlint-disable-next-line -->
