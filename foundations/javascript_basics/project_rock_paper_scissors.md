@@ -8,7 +8,7 @@ Some of the student solutions below contain buttons, text, and other elements. T
 
 ### Problem solving approach
 
-Since this is the first JavaScript project being built from scratch, it's important to remember the wise words from the [Problem Solving lesson](https://www.theodinproject.com/lessons/foundations-problem-solving). Before you start this project, follow these steps for each step of the project:
+Since this is the first JavaScript project being built from scratch, it's important to remember the wise words from the [Problem Solving lesson](https://www.theodinproject.com/lessons/foundations-problem-solving). For each step in this project, be sure to do the following
 
 1. Plan or pseudocode your solution.
 1. Write the code.
@@ -19,7 +19,7 @@ Since this is the first JavaScript project being built from scratch, it's import
 <div class="lesson-content__panel" markdown="1">
 Remember to commit early and often! To refresh your memory, check out the [commit messages lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages).
 
-#### Step 1: Initial structure
+#### Step 1: Initiate the project structure
 
 1. Create a new Git repository for your project.
 1. Create a blank HTML document with a script tag.
@@ -31,7 +31,7 @@ It's best practice to link to an external JavaScript file inside this script tag
 
 You don't have to write additional code in the HTML file. This game is played entirely via the console.
 
-#### Step 2: Get computer choice function
+#### Step 2: Write the logic to get the computer choice
 
 Your game will be played against the computer. You will write a function that randomly returns "Rock", "Paper" or "Scissors".
 
@@ -40,7 +40,7 @@ Your game will be played against the computer. You will write a function that ra
    - **Hint**: The [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) method returns a random number that's greater than or equal to 0 and less than 1. Think about how you can use this to conditionally return one of the multiple choices.
 1. Test that your function returns what you expect using `console.log` or [the browser developer tools](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools) before advancing to the next step.
 
-#### Step 3: Play round function
+#### Step 3: Write the logic to play a single round
 
 Your game will be played round by round. You will write a function that takes the human and computer player choices as arguments, plays a single round and returns a winner announcement.
 
@@ -62,7 +62,7 @@ const computerSelection = getComputerChoice();
 console.log(playRound(playerSelection, computerSelection));
 ```
 
-#### Step 4: Play game function
+#### Step 4: Write the logic to entire the play the game
 
 Your game will play 5 rounds. You will write a function named `playGame` that calls `playRound` to play 5 rounds, keeps score, and declares a winner at the end.
 
@@ -71,10 +71,8 @@ Your game will play 5 rounds. You will write a function named `playGame` that ca
 1. Put the previous `playRound` function inside `playGame`.
 1. Play 5 rounds by calling `playRound` 5 times.
    - **Hint**: When you assign a function call to a variable, the return value of that function is assigned to the variable. Accessing the variable afterward will only provide the assigned value; it doesn't recall the function. You need to recall the choice functions to get new choices for each round.
-
-Re-work your previous functions or create more helper functions if necessary. Specifically, you may want to change the return values to something more useful.
-
-If you already know about loops, you can use them. If not, don't worry! Loops will be covered in the next lesson.
+   - Re-work your previous functions or create more helper functions if necessary. Specifically, you may want to change the return values to something more useful.
+   - If you already know about loops, you can use them. If not, don't worry! Loops will be covered in the next lesson.
 
 </div>
 <div class="lesson-note" markdown="1">
