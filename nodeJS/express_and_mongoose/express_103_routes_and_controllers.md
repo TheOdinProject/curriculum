@@ -19,6 +19,8 @@ This section contains a general overview of topics that you will learn in this l
 <div class="lesson-content__panel" markdown="1">
 
 1. Complete part 4 of [the MDN Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes).
+2. Back to Mini Message Board project, create a new directory called `controllers` to store the callback functions for 
+your route handlers. Create a new file called `messageController.js` and move the callback functions from `index.js` to this new file.
 
 </div>
 
