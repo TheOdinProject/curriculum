@@ -14,9 +14,10 @@ By now you've come far from your React-baby days. You have tools like routers an
 6.  Build individual card elements for each of your products. Display an input field on it, which lets a user manually type in how many items they want to buy. Also, add an increment and decrement button next to it for fine-tuning. You can also display a title for each product as well as an "Add To Cart" button.
 7.  Fetch your shop items from [FakeStore API](https://fakestoreapi.com) or something similar.
 8.  Once a user has submitted their order, the amount on the cart itself should adjust accordingly.
-9.  Make sure to test your app thoroughly using the React Testing Library. Be careful not to test `react-router-dom` directly, since it is an external library and the developers working on it must have tested the library already.
-10. As usual, style your application so you can show it off! You have a host of options provided already.
-11. Lastly, it's time to deploy it! Depending on what hosting solution you're using, you may need some additional configuration so that your routing is handled correctly as a single page application (SPA).
+9.  Clear out any `missing in props validation` errors in your app!
+10.  Make sure to test your app thoroughly using the React Testing Library. Be careful not to test `react-router-dom` directly, since it is an external library and the developers working on it must have tested the library already.
+11. As usual, style your application so you can show it off! You have a host of options provided already.
+12. Lastly, it's time to deploy it! Depending on what hosting solution you're using, you may need some additional configuration so that your routing is handled correctly as a single page application (SPA).
 
     1.  **Netlify**: You need to add a `_redirects` file to the `public/` directory of your project. Copy the following to redirect all routes to the index page and let `react-router-dom` handle the rest. You can read more about this at the [Netlify documentation on redirects](https://docs.netlify.com/routing/redirects/).
 
