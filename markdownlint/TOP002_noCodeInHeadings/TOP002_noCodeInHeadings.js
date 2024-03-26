@@ -13,9 +13,17 @@ module.exports = {
     );
 
     headingsWithCode.forEach((heading) => {
+      const codeContent = heading.line.match(/`.+?`/);
+
       onError({
         lineNumber: heading.lineNumber,
         detail: `Headings should not contain inline code.`,
+        fixInfo: {
+          lineNumber: heading.lineNumber,
+          editColumn: codeContent.index + 1,
+          deleteCount: codeContent[0].length,
+          insertText: codeContent[0].replace(/`/g, ""),
+        },
       });
     });
   },

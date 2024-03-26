@@ -1,6 +1,6 @@
 ### Introduction
 
-Text content
+Text content.
 
 ### Lesson overview
 
