@@ -8,7 +8,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - You'll learn how to align items inside a flex container both vertically and horizontally.
 
-### Alignment
+### Alignments
 
 Let's look at an example.
 
