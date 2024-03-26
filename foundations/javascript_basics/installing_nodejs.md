@@ -137,6 +137,4 @@ To run the Node console, open up your terminal and type `node`. Type `.exit` to 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
-
-- Wondering why are we installing Node? you will learn the different uses of Node in the next chapters but if you're curious,
-check out this 4 minute video [What is Node js?](https://www.youtube.com/watch?v=uVwtVBpw7RQ)
+NodeJS in a Nutshell [What is Node js?](https://www.youtube.com/watch?v=uVwtVBpw7RQ)
