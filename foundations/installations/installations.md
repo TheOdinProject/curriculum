@@ -55,7 +55,7 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 #### Step 1.2: Download Xubuntu
 
-There are thousands of distributions of Linux out there, but Xubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend [downloading Xubuntu 22.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/22.04/release/). There are a few files listed here, download the one ending in `.iso`. Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. If you find the download speed slow, consider [using a different mirror](https://xubuntu.org/release/22-04/#show-all) as the one linked before is a US one. If you reach the download page and are unsure about what version to choose, it is recommended that you pick the latest Long-Term Support (LTS) version (22.04 at the time of writing). You may be tempted to choose a more recent non-LTS release, but LTS releases have the advantage of guaranteed support for up to 5 years, making them more secure, stable and hence reliable.
+There are thousands of distributions of Linux out there, but Xubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend downloading [Xubuntu 22.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/22.04/release/). There are a few files listed here, download the one ending in `.iso`. Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. If you find the download speed slow, consider using a different [mirror for Xubuntu 22.04](https://xubuntu.org/release/22-04/#show-all) as the one linked before is a US one. If you reach the download page and are unsure about what version to choose, it is recommended that you pick the latest Long-Term Support (LTS) version (22.04 at the time of writing). You may be tempted to choose a more recent non-LTS release, but LTS releases have the advantage of guaranteed support for up to 5 years, making them more secure, stable and hence reliable.
 
 ### Step 2: Install VirtualBox and set up Xubuntu
 
@@ -100,7 +100,7 @@ You want to tick the **Guest Additions** and **Install in Background** options a
 
 In the **Hardware** section of the installation you want to set your **Base Memory** to at least 2048 MB or more if possible - the upper limit is half of your total RAM but 4096 MB with the settings we recommend should give you a smooth experience.
 
-> For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. If you do not know how much RAM is available to you, [you can use Google to learn how to find out how much RAM you have.](https://www.google.com/search?q=how+to+find+out+how+much+ram+you+have). If the VM runs a bit slow, try allocating more memory!
+> For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. You can google how to find out how much RAM you have available if you do not know this already. If the VM runs a bit slow, try allocating more memory!
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -128,7 +128,7 @@ It is possible that you'll receive an error like this one after clicking **Finis
 
 ![The error shows up on the right side of the VirtualBox window and can be a little differently worded.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/09_virtualization_error.png)
 
-It means you have to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). [Alternative set of instructions](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968). If you have an AMD CPU, you're probably looking for something called `SVM` to enable, for Intel CPUs, `Intel Virtualization Technology`. The error should tell you what it is looking for. After you deal with it, just **Start** the machine and let things happen, you'll know that the process has finished when you see a login screen:
+It means you have to [enable virtualization in your computer’s BIOS/UEFI settings](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios). [Alternative instructions for enabling virtualization in BIOS/UEFI settings](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968). If you have an AMD CPU, you're probably looking for something called `SVM` to enable, for Intel CPUs, `Intel Virtualization Technology`. The error should tell you what it is looking for. After you deal with it, just **Start** the machine and let things happen, you'll know that the process has finished when you see a login screen:
 
 ![You can already make your VM full screen or just maximize the window.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/10_login_screen.png)
 
@@ -206,14 +206,14 @@ Here are some tips to help you get started in a virtual environment:
 #### Frequent issues/questions
 
 - If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
-- Running out of space? Look at [these instructions on our Discord](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
+- Running out of space? Look at these [instructions for increasing VM disk space from the TOP Discord server](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
 - Are you using a touchscreen? [Watch a video on how to enable touchscreen controls for VirtualBox](https://www.youtube.com/watch?v=hW-iyHHoDy4).
 
 - **VM performance tips**:
   - When running the VM, minimize your Windows activity. You probably want to be plugged into power as well if you're using a laptop.
   - Make sure your processors are set to only 2 and the Memory you've given your VM is at most half of your total RAM but at least 2GB. If you can't spare the 2GB, dual boot.
   - If videos lag in the VM, make sure to max out Video Memory to whatever you can or alternatively play them on your Windows if your machine can handle it. Disable 3D Acceleration if you have it enabled.
-  - Do look out for the ![Icon with a green turtle and a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png){: .inline-img} icon in bottom right of your VM window, if you have it, here's a [VirtualBox forum thread on how to get rid of it](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390). You want to have the ![Icon of a chip with a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png){: .inline-img} icon instead. If you don't see a ![Icon with a green turtle and a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png){: .inline-img} or a ![Icon of a chip with a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png){: .inline-img} in bottom right, you have to exit full screen mode to see them.
+  - Do look out for the ![Icon with a green turtle and a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/17_turtle.png){: .inline-img} icon in the bottom right of your VM window. This signifies that something called Hyper-V is turned on. A thread on the VirtualBox forums describes [how to turn off Hyper-V completely](https://forums.virtualbox.org/viewtopic.php?f=25&t=99390). You want to have the icon of a chip with a V ![Icon of a chip with a V](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/18_vboxV.png){: .inline-img} icon instead. If you don’t see either of these icons in the bottom right, you have to exit full screen mode to see them.
   - If your performance is still lacking, go for a dual boot as this will make sure you're using all of your specs for one OS only, thus improving your experience significantly.
 - If your scroll wheel behaves oddly in Google Chrome and/or in other applications and you have gone through VM performance tips to make sure your VM is working as intended, look into [whether your version of Guest Additions is correct](https://discord.com/channels/505093832157691914/690588860085960734/1195697147123867668).
 
@@ -251,11 +251,11 @@ Dual-booting provides two operating systems on your computer that you can switch
 
 ### Step 1: Download Ubuntu
 
-First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/22.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/22-04/). Be sure to download the 64-bit version of [Ubuntu](https://releases.ubuntu.com/22.04/) or [Xubuntu](https://xubuntu.org/release/22-04/). If you reach the download page and are unsure about what version to choose, it is recommended that you pick the latest Long-Term Support (LTS) version (22.04 at the time of writing). You may be tempted to choose a more recent non-LTS release, but LTS releases have the advantage of guaranteed support for up to 5 years, making them more secure, stable and hence reliable.
+First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/22.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/22-04/). Be sure to download the 64-bit version of Ubuntu or Xubuntu. If you reach the download page and are unsure about what version to choose, it is recommended that you pick the latest Long-Term Support (LTS) version (22.04 at the time of writing). You may be tempted to choose a more recent non-LTS release, but LTS releases have the advantage of guaranteed support for up to 5 years, making them more secure, stable and hence reliable.
 
 ### Step 2: Create a bootable flash drive
 
-Next, [follow guide to create a bootable flash drive](https://itsfoss.com/create-live-usb-of-ubuntu-in-windows/) to create a bootable flash drive so that you can install Ubuntu on your hard drive. If you don't have a flash drive, you can also use a CD or DVD.
+Next, follow the guide on [how to create an Ubuntu Live USB in Windows](https://itsfoss.com/create-live-usb-of-ubuntu-in-windows/) to create a bootable flash drive so that you can install Ubuntu on your hard drive. If you don't have a flash drive, you can also use a CD or DVD.
 
 Note: You can use this method to try out [different flavors of Ubuntu](https://www.ubuntu.com/download/flavours) if you'd like. These images allow you to try out different flavors without committing to an installation. Be aware that running the OS from a flash drive will cause the OS to be slow and can decrease the life of your flash drive.
 
@@ -277,11 +277,11 @@ If you would like to test out the version of Ubuntu on the flash drive, click 'T
 
 Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to **"Install Ubuntu alongside Windows"** and change the allocated disk space allowed for Ubuntu to 30 GB (or more if you can).
 
-For step-by-step instructions, please follow this [installation guide](https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-dual-boot-alongside-windows-10-323a85271a73) from the Dave’s RoboShack.
+For step-by-step instructions, please follow [how to install Ubuntu 22.04 and dual boot alongside Windows 10](https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-dual-boot-alongside-windows-10-323a85271a73).
 
 ### Intel RST (Rapid Storage Technology)
 
-If you encounter an error requesting you to disable **Intel RST** while attempting to install Ubuntu, follow [these instructions from Stack Exchange](https://askubuntu.com/questions/1233623/workaround-to-install-ubuntu-20-04-with-intel-rst-systems/1233644#1233644), specifically **Choice #2**. The process forces Windows to boot into safemode after you switch your motherboard storage driver to work with Ubuntu. Once it boots into Windows, the forced-on safemode is disabled and you are free to attempt an installation of Ubuntu once again.
+If you encounter an error requesting you to disable **Intel RST** while attempting to install Ubuntu, follow this [workaround to install Ubuntu 22.04 with Intel RST systems](https://askubuntu.com/questions/1233623/workaround-to-install-ubuntu-20-04-with-intel-rst-systems/1233644#1233644), specifically **Choice #2**. The process forces Windows to boot into safemode after you switch your motherboard storage driver to work with Ubuntu. Once it boots into Windows, the forced-on safemode is disabled and you are free to attempt an installation of Ubuntu once again.
 
 </details>
 
@@ -294,7 +294,7 @@ With the recent addition of being able to run a Linux terminal, the ChromeOS pla
 1. You have a supported Chromebook:
    - [Official Chromebooks](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux)
    - [ChromeOS Flex Chromebooks](https://support.google.com/chromeosflex/answer/11513094)
-1. You can install Linux by following [these instructions](https://support.google.com/chromebook/answer/9145439?hl=en)
+1. [You are able to set up Linux on your Chromebook](https://support.google.com/chromebook/answer/9145439?hl=en).
 
 Once you have successfully met both of these requirements, you should be able to follow along with the Linux instructions throughout the entire curriculum.
 
