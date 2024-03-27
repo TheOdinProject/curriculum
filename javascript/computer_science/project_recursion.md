@@ -29,7 +29,7 @@ To understand what the merge sort algorithm is doing check out these resources:
 
 You will need a way to run the scripts you create for this project. Because there is no GUI component to this project it should be run in the command line rather than the browser.
 
-Javascript files can be run directly from the command line using the node command installed with nodejs. You can read about the common ways to do this [here](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-run-cli.en.md).
+JavaScript files can be run directly from the command line using the node command installed with nodejs. You can learn about the common ways to do this by reading the [documentation for the Node CLI](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/command-line/node-run-cli.en.md).
 
 </div>
 
@@ -51,16 +51,16 @@ Once you have a firm grasp on solving Fibonacci with recursion, create a new fil
 
 Tips:
 
--   Think about what the base case is and what behavior is happening again and again and can actually be delegated to someone else (e.g. that same function!).
--   It may be helpful to check out the background videos again if you don't quite understand what should be going on.
+- Think about what the base case is and what behavior is happening again and again and can actually be delegated to someone else (e.g. that same function!).
+- It may be helpful to check out the background videos again if you don't quite understand what should be going on.
 
 </div>
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
--   An extensive written javascript solution for [recursive Fibonacci](https://www.scaler.com/topics/fibonacci-series-in-javascript/)
--   Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
--   Visualize and [understand](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK) the memory allocation for recursive functions
--   For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)
+- An extensive written JavaScript solution for [recursive Fibonacci](https://www.scaler.com/topics/fibonacci-series-in-javascript/)
+- Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
+- Visualize and [understand](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK) the memory allocation for recursive functions
+- For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)

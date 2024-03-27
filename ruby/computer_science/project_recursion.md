@@ -31,7 +31,7 @@ First up create a file and tackle the fibonacci sequence:
 
 1. Using iteration, write a method `#fibs` which takes a number and returns an array containing that many numbers from the Fibonacci sequence. Using an example input of `8`, this function should return the array `[0, 1, 1, 2, 3, 5, 8, 13]`.
 1. Now write another method `#fibs_rec` which solves the same problem recursively.
-1. Test both versions of your functions by passing in various lengths as arguments.
+1. Test both versions of your methods by passing in various lengths as arguments.
 
 Hopefully you were able to solve the problem with recursion! If you need some help understanding what's going on with this function, there are some additional resources linked at the end of this page.
 
@@ -41,16 +41,16 @@ Once you have a firm grasp on solving Fibonacci with recursion, create a new fil
 
 Tips:
 
--   Think about what the base case is and what behavior is happening again and again and can actually be delegated to someone else (e.g. that same method!).
--   It may be helpful to check out the background videos again if you don't quite understand what should be going on.
+- Think about what the base case is and what behavior is happening again and again and can actually be delegated to someone else (e.g. that same method!).
+- It may be helpful to check out the background videos again if you don't quite understand what should be going on.
 
 </div>
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
--   An extensive written javascript solution for [recursive Fibonacci](https://www.scaler.com/topics/fibonacci-series-in-javascript/)
--   Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
--   Visualize and [understand](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK) the memory allocation for recursive functions
--   For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)
+- An extensive written JavaScript solution for [recursive Fibonacci](https://www.scaler.com/topics/fibonacci-series-in-javascript/)
+- Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
+- Visualize and [understand](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK) the memory allocation for recursive functions
+- For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)
