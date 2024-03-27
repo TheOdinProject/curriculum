@@ -78,14 +78,15 @@ EJS rocks!
 
 ### Reusable web components
 
-You may want to include webpage components that are shared across different pages, such as a sidebar or a header. To insert such components into your pages, we make use of the `includes` command. This requires the name of the file to be inserted.
+You may want to include webpage components that are shared across different pages, such as a sidebar or a header. To insert such components into your pages, we make use of the `include` command. This requires the name of the file to be inserted, and optionally an object of data you wish to pass.
+
 Say you have the following navbar component called `"navbar.ejs"`:
 
 ```html
 <!-- navbar.ejs -->
 <nav>
   <ul>
-    <% for (const i = 0; i < links.length; i++) { %>
+    <% for (let i = 0; i < links.length; i++) { %>
     <li>
       <a href="<%= links[i].href %>">
         <span> <%= links[i].text %> </span>
@@ -99,20 +100,32 @@ Say you have the following navbar component called `"navbar.ejs"`:
 You can insert this component into another EJS file like so:
 
 ```html
-<!-- main.ejs -->
+<!-- index.ejs -->
 <html>
   <head>
     <title>Homepage</title>
     <body>
-      <% include navbar.ejs %>
+      <%- include('navbar', {links: links}) %>
     </body>
   </head>
 </html>
 ```
 
-This is handy as the alternative would be copy and pasting the navbar onto every page that requires it.
-
 This can be used to include headers and footers in all of your pages, for example.
+
+Note that the navbar expects a `links` value. To pass this data into the navbar, you can pass it when rendering `index.ejs` which contains the navbar. Modify `app.js` such that a `links` object is defined and passed into the `render` function in the `"/"` route handler:
+
+```js
+// app.js
+const links = [
+  { href: "/", text: "Home" },
+  { href: "about", text: "About" },
+];
+
+app.get("/", (req, res) => {
+  res.render("index", { links: links });
+});
+```
 
 Here's another example of how to use `includes` to dynamically render a list of variables:
 
@@ -122,7 +135,7 @@ Here's another example of how to use `includes` to dynamically render a list of 
 </ul>
 ```
 
-Note the use of of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
+Note the use of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
 
 ### Assignment
 
