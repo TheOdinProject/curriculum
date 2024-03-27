@@ -44,9 +44,9 @@ In order to work with variables, we use the `<%=` tag. This lets us convert vari
 Here's a quick example that makes includes arrays and loop logic.
 
 ```js
-<% const animals = ["Cat", "Dog", "Lemur", "Hawk"];%>
+<% const animals = ["Cat", "Dog", "Lemur", "Hawk"] %>
 
-<% animals.map(animal => {%>
+<% animals.map(animal => { %>
 - <%= animal%>s are cute <% }) %>
 ```
 
@@ -162,4 +162,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [How to Use EJS to Template Your Node.js Application](https://blog.logrocket.com/how-to-use-ejs-template-node-js-application/)
