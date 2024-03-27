@@ -105,20 +105,6 @@ You can insert this component into another EJS file like so:
     <title>Homepage</title>
     <body>
       <% include navbar.ejs %>
-
-      <!-- You can insert the link variable here, as JS variables will be processed before rendering -->
-      <script>
-        const links = [
-          {
-            href: "/",
-            text: "Home",
-          },
-          {
-            href: "about",
-            text: "About",
-          },
-        ];
-      </script>
     </body>
   </head>
 </html>
