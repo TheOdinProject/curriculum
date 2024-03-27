@@ -4,7 +4,7 @@ We’ll need a way of rendering the data from our controller functions, and view
 
 We use template engines to create our views. More specifically, template engines are used to create template files that transform the template into HTML. Any variables defined in our template files are replaced with actual data. Additionally we can insert logic into our template file, eg. render the user's username once they have logged in. This would not be possible with plain HTML.
 
-In this course, we will use [EJS](link: https://ejs.co/) which lets us write in JavaScript to create HTML markup.
+In this course, we will use [EJS](link: https://ejs.co/) which lets us write in JavaScript to create HTML markup. `EJS`' syntax is very similar to that of HTML, meaning that the learning curve is relatively low compared to other template engines.
 
 ### Lesson overview
 
