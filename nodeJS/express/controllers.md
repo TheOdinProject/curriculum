@@ -42,10 +42,10 @@ We also need to take note that these response methods only ends the request-resp
 
 ```js
 app.use((req, res) => {
-   res.send("Hello"); // This works and this ends the request-response cycle
+  res.send("Hello"); // This works and this ends the request-response cycle
 
-   console.log('will still run!!'); // however it does not exit the function so this will still continue to run
-   res.send("Bye"); // This will not work but it will throw an error that you cannot send again after sending it to the client already
+  console.log('will still run!!'); // however it does not exit the function so this will still continue to run
+  res.send("Bye"); // This will not work but it will throw an error that you cannot send again after sending it to the client already
 })
 ```
 
@@ -87,10 +87,10 @@ Here is an example of a basic middleware:
 ```js
 function myMiddleware(req, res, next) {
   // Perform some operations
-  console.log('Middleware function called');
+  console.log("Middleware function called");
 
   // Modify the request object
-  req.customProperty = 'Hello from myMiddleware';
+  req.customProperty = "Hello from myMiddleware";
 
   // Call the next middleware/route handler
   next();
@@ -113,16 +113,16 @@ The naming conventions for these controllers are usually based on the route hand
 // user controller file/ controllers/userController.js
 
 const getUserById = async (req, res) => {
-   const userId = req.params.id;
+  const userId = req.params.id;
 
-   const user = await someDBQueryToGetUser(userId);
+  const user = await someDBQueryToGetUser(userId);
 
-   if (!user) {
-      res.status(404).send('User not found');
-      return;
-   }
+  if (!user) {
+    res.status(404).send("User not found");
+    return;
+  }
 
-   res.status(200).send(`User found: ${user.name}`);
+  res.status(200).send(`User found: ${user.name}`);
 };
 ```
 
@@ -153,14 +153,14 @@ const getUserById = async (req, res) => {
     const user = await someDBQueryToGetUser(userId);
 
     if (!user) {
-      res.status(404).send('User not found');
+      res.status(404).send("User not found");
       return;
     }
 
     res.status(200).send(`User found: ${user.name}`);
   } catch (error) {
-    console.error('Error retrieving user:', error);
-    res.status(500).send('Internal Server Error');
+    console.error("Error retrieving user:", error);
+    res.status(500).send("Internal Server Error");
     // or we can call next(error) instead of sending a response here
     // Using `next(error)` however will require you to add a global error middleware that will be demonstrated below
   }
@@ -170,20 +170,20 @@ const getUserById = async (req, res) => {
 However, this is not exactly a clean solution since eventually, we will have to add the same try/catch block to *all* controllers. There is a package called `express-async-handler` that you can install to hide this bit, it essentially just chains a `catch` to "catch" any errors in the function.
 
 ```js
-const asyncHandler = require('express-async-handler');
+const asyncHandler = require("express-async-handler");
 
 // Any errors that is thrown in this function will automatically be caught and call the `next` function
 const getUserById = asyncHandler(async (req, res) => {
-   const userId = req.params.id;
+  const userId = req.params.id;
 
-   const user = await someDBQueryToGetUser(userId);
+  const user = await someDBQueryToGetUser(userId);
 
-   if (!user) {
-      res.status(404).send('User not found');
-      return;
-   }
+  if (!user) {
+    res.status(404).send("User not found");
+    return;
+  }
 
-   res.status(200).send(`User found: ${user.name}`);
+  res.status(200).send(`User found: ${user.name}`);
 });
 ```
 
@@ -215,12 +215,13 @@ So the way express distinguishes this middleware is again through adding *four p
 ```js
 app.use((req, res, next) => {
   throw new Error("OH NO!");
-   // or next(new Error("OH NO!"));
+  // or next(new Error("OH NO!"));
 });
 
 app.use((err, req, res, next) => {
-   console.error(err);
-   res.status(500).send(err.message); // You will see an OH NO! in the page, with a status code of 500 that can be seen in the network tab of the dev tools
+  console.error(err);
+  // You will see an OH NO! in the page, with a status code of 500 that can be seen in the network tab of the dev tools
+  res.status(500).send(err.message);
 });
 ```
 
@@ -230,10 +231,10 @@ With the solutions above, the error middleware can only really respond with a `5
 
 ```js
 class CustomNotFoundError extends Error {
-   constructor(message) {
-      super(message);
-      this.statusCode = 404;
-   }
+  constructor(message) {
+    super(message);
+    this.statusCode = 404;
+  }
 }
 ```
 
@@ -241,15 +242,15 @@ We can then use this custom error class and refactor the earlier version of `get
 
 ```js
 const getUserById = asyncHandler(async (req, res) => {
-   const userId = req.params.id;
+  const userId = req.params.id;
 
-   const user = await someDBQueryToGetUser(userId);
+  const user = await someDBQueryToGetUser(userId);
 
-   if (!user) {
-      throw new CustomNotFoundError("User not found");
-   }
+  if (!user) {
+    throw new CustomNotFoundError("User not found");
+  }
 
-   res.status(200).send(`User found: ${user.name}`);
+  res.status(200).send(`User found: ${user.name}`);
 });
 ```
 
@@ -259,9 +260,9 @@ It will eventually end up in the error middleware where we can also modify:
 
 ```js
 app.use((err, req, res, next) => {
-   console.error(err);
-   // We can now specify the `err.statusCode` that exists in our custom error class and if it does not exist it's probably an internal server error
-   res.status(err.statusCode || 500).send(err.message);
+  console.error(err);
+  // We can now specify the `err.statusCode` that exists in our custom error class and if it does not exist it's probably an internal server error
+  res.status(err.statusCode || 500).send(err.message);
 });
 ```
 
@@ -273,19 +274,19 @@ We've used the `next` function a few times now. But what exactly is it? Well, to
 
 ```js
 const middleware1 = (req, res, next) => {
-  console.log('Middleware 1');
+  console.log("Middleware 1");
   next(); // Pass control to the next middleware
 };
 
 const middleware2 = (req, res, next) => {
-  console.log('Middleware 2');
-  res.send('Response from Middleware 2');
+  console.log("Middleware 2");
+  res.send("Response from Middleware 2");
   // request-response cycle ends here
 };
 
 const middleware3 = (req, res, next) => {
-  console.log('Middleware 3');
-  res.send('Response from Middleware 3');
+  console.log("Middleware 3");
+  res.send("Response from Middleware 3");
 };
 
 app.use(middleware1);
@@ -316,29 +317,29 @@ Creating a user controller file that contains well-defined responsibilities to h
 ```js
 // user controller file - controllers/userController.js
 
-const asyncHandler = require('express-async-handler');
+const asyncHandler = require("express-async-handler");
 
 const getUserById = asyncHandler(async (req, res) => {
-   const userId = req.params.id;
+  const userId = req.params.id;
 
-   const user = await someDBQueryToGetUser(userId);
+  const user = await someDBQueryToGetUser(userId);
 
-   if (!user) {
-      throw new CustomNotFoundError("User not found");
-   }
+  if (!user) {
+    throw new CustomNotFoundError("User not found");
+  }
 
-   res.status(200).send(`User found: ${user.name}`);
+  res.status(200).send(`User found: ${user.name}`);
 });
 
 const getUsers = asyncHandler(async (req, res) => {
-   // code
+  // code
 });
 
 const createUser = asyncHandler(async (req, res) => {
-   // code
+  // code
 });
 
-module.exports = { getUserById, getUsers }
+module.exports = { getUserById, getUsers };
 ```
 
 Route file for the "User"
@@ -357,13 +358,13 @@ const router = express.Router();
 // will only execute on `/users/` not `/users/a/b/c` for example unless `router.use` is used
 // connect your controllers with the route handlers
 router.route('/')
-   .get(userController.getUsers)
-   .post(userController.createUser)
-   // You will likely place your validation/authentication middlewares here or perhaps in the controller file, e.g.
-   // .post(validationMiddleware, userController.createUser)
+  .get(userController.getUsers)
+  .post(userController.createUser);
+  // You will likely place your validation/authentication middlewares here or perhaps in the controller file, e.g.
+  // .post(validationMiddleware, userController.createUser)
 
 router.route('/:id')
-   .get(userController.getUserById);
+  .get(userController.getUserById);
 
 module.exports = router;
 ```
@@ -393,8 +394,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use((req, res, next) => {
-   // You can of course also create your own for your own use-case!
-   next(); // Just make sure to call `next`
+  // You can of course also create your own for your own use-case!
+  next(); // Just make sure to call `next`
 })
 
 // base mount path is `/users` and will always execute on that specific mount path, and yes including `/users/a/b/c`
