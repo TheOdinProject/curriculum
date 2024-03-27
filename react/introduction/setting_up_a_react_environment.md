@@ -39,7 +39,7 @@ All of this, and sometimes *much more* is required to get a React project and de
 
 #### A note on Create React App
 
-Create React App, or CRA, was the official way to scaffold new React projects since its introduction in 2016. Unfortunately, owing to many reasons, CRA was deprecated in early 2023. Read this [extensive comment by one of React's maintainers](https://github.com/reactjs/react.dev/pull/5487#issuecomment-1409720741) if you're curious. Due to CRA's popularity, you'll see it mentioned in many tutorials and guides. However, it's no longer recommended to use for new projects.
+Create React App, or CRA, was the official way to scaffold new React projects since its introduction in 2016. Unfortunately, owing to many reasons, CRA was deprecated in early 2023. Read this [extensive comment by one of React's maintainers if you're curious](https://github.com/reactjs/react.dev/pull/5487#issuecomment-1409720741). Due to CRA's popularity, you'll see it mentioned in many tutorials and guides. However, it's no longer recommended to use it for new projects.
 
 </div>
 
@@ -114,7 +114,7 @@ Whoa! There's quite a lot here. You are not expected to recognize much of this (
 1. We create a `root` object by invoking `ReactDOM.createRoot` with an element from our `index.html`.
 1. We invoke the `render` method which is attached to our `root` object, with some very interesting-looking syntax inside the parentheses.
 
-All of this may look different from anything you've seen, but have no fear! Once you've finished this course, you'll know exactly what all of this does, and *much more*.
+All of this may understandably look unlike anything you've seen up until now, but have no fear, once you've spent the time with this course, you'll know exactly what all of this does, and *much more*.
 
 ### Keeping it clean
 
@@ -154,4 +154,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [Vite React App with EsLint & Prettier in VSCode (2023)](https://www.youtube.com/watch?v=SMbqi1HPprc) is a helpful video guide on how to set up Prettier inside your Vite-React projects.
+- [Intro to React Dev Tools](https://www.youtube.com/watch?v=rb1GWqCJid4) gets you up to speed with a quick overview of the basic features of React Dev tools in Chrome.

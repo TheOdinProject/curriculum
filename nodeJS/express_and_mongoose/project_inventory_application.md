@@ -24,7 +24,7 @@ Your Inventory app should have categories and items, so when the user goes to th
 #### Extra credit
 
 1. Try to figure out how to add and upload images for each item. Use the [`multer` middleware](https://github.com/expressjs/multer) which was created by the Express team. The documentation in the README there should be enough to get you going.
-   - While you can store the image buffer data as binary directly in MongoDB, this can be quite a performance hit the more images you have to handle and the larger they are. You may wish to look into using a service such as [Cloudinary](https://cloudinary.com/documentation/node_integration) where you can upload images to, then store the images' URLs in MongDB instead.
+   - While you can store the image buffer data as binary directly in MongoDB, this can be quite a performance hit the more images you have to handle and the larger they are. You may wish to look into using a service such as [Cloudinary](https://cloudinary.com/documentation/node_integration) where you can upload images to, then store the images' URLs in MongoDB instead.
 1. We will learn about creating users with secure passwords in a later lesson, but for now we don't want just *anyone* to be able to delete and edit items in our inventory! Figure out how to protect destructive actions (like deleting and updating) by making users enter a secret admin password to confirm the action.
 
 </div>

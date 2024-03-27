@@ -419,7 +419,17 @@ You can find a more complete list with explanations of each event on [W3Schools 
 Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with *every day* as a front-end developer, so let's practice!
 
 1. Complete [MDN's Active Learning sections on DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_a_dynamic_shopping_list) and test your skills!
-1. Read the first 2 sections in this [JavaScript DOM Tutorial](https://www.javascripttutorial.net/javascript-dom/). Note that some of the methods like `getElementById` are older and see less use today. Then, read the section 7 to really get familiar with events, bubbling, and propagation.
+1. Read the following sections from JavaScript Tutorial's series on the DOM to get a broader idea of how events can be used in your pages. Note that some of the methods like `getElementById` are older and see less use today.
+
+   As you read, remember that the general ideas can be applied to any event, not only the ones used in examples - but information specific to a certain event type can always be found by checking documentation.
+
+   - [JavaScript events](https://www.javascripttutorial.net/javascript-dom/javascript-events/)
+   - [Page load events](https://www.javascripttutorial.net/javascript-dom/javascript-page-load-events/)
+   - [Mouse events](https://www.javascripttutorial.net/javascript-dom/javascript-mouse-events/)
+   - [Keyboard events](https://www.javascripttutorial.net/javascript-dom/javascript-keyboard-events/)
+   - [Event delegation](https://www.javascripttutorial.net/javascript-dom/javascript-event-delegation/)
+   - [The dispatchEvent method](https://www.javascripttutorial.net/javascript-dom/javascript-dispatchevent/)
+   - [Custom events](https://www.javascripttutorial.net/javascript-dom/javascript-custom-events/)
 
 </div>
 
