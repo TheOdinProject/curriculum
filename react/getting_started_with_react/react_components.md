@@ -23,7 +23,7 @@ For example, this website could be broken into the following components:
 - `MainArticle`, which will be the component that renders your main content.
 - `NewsletterForm`, which is a form that lets a user input their email to receive the weekly newsletter.
 
-Think of these reusable chunks as JavaScript functions which can take some kind of input and return a React element.
+Think of these reusable different part as JavaScript functions which can take some kind of input and return a React element.
 
 ### How to create components
 
