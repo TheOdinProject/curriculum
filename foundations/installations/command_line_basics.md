@@ -55,7 +55,7 @@ You will be making heavy use of the command line throughout this curriculum, and
 </div>
 
 <div class="lesson-note lesson-note--warning" markdown=1>
-Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using macOS. If you don't have macOS, or any version of Linux installed, please return to the [operating system installation guide](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/prerequisites).
+Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using macOS. If you don't have macOS, or any official Ubuntu flavor installed, please return to the [Installations lesson](https://www.theodinproject.com/lessons/foundations-installations).
 </div>
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There you will find a full complement of lessons on using the CLI, but for now just focus on completing the following lessons:
