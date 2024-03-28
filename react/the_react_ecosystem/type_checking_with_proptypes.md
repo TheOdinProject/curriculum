@@ -104,6 +104,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- If you find video lessons easier to absorb, consider watching [Web Dev Simplified's video on understanding PropTypes in React](https://www.youtube.com/watch?v=cx0S8JyiVxc). This video covers many of the topics discussed in this lesson.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
