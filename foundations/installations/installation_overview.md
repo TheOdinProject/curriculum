@@ -45,8 +45,6 @@ Windows, by itself, **is not natively supported** by The Odin Project, or on our
 
 A [virtual machine](https://youtu.be/yIVXjl4SwVo) is an emulation of a computer that runs within your existing OS. It allows you to use another operating system inside of a program on your current operating system (e.g. Running Linux inside of Windows). Virtual machines are as straightforward to install as any other program and are risk free. If you don't like Linux, you can easily remove the virtual machine. Virtual machines are a great way for new developers to get started quickly.
 
-- [A video](https://youtu.be/yIVXjl4SwVo) on Virtual Machines to achieve a general understanding of how they work.
-
 **Dual-booting** means installing two operating systems on your computer, which can give you the option to boot either Linux or Windows when your computer first starts up. The advantage of dual-booting over a virtual machine is that the OS can use all of your computer's resources, resulting in much faster operation. There is some risk to installing a dual-boot system because you're changing your hard drive partitions, but you'll be okay as long as you take your time and read the instructions.
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be overstated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
