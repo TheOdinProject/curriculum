@@ -36,6 +36,8 @@ myObject[variable]; // this is equivalent to myObject['property'] and returns 'V
 
 If you are feeling rusty on using objects, now might be a good time to go back and review the content in our [object basics lesson](https://www.theodinproject.com/lessons/foundations-object-basics) from our JavaScript Basics course.
 
+You should also read JavaScript.Info's article [Object references and copying](https://javascript.info/object-copy) to learn more about how objects in JavaScript behave differently than primitive values you may be used to using up to this point in the curriculum.
+
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
