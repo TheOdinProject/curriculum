@@ -21,12 +21,12 @@ When it comes to sending responses from your controllers, you have several metho
 
 - [res.send](https://expressjs.com/en/api.html#res.send) - A general-purpose method for sending a response, it is flexible with what data you can send since it will automatically set the `Content-Type` header based on what data you pass, and yes including setting to an `application/json`.
 - [res.json](https://expressjs.com/en/api.html#res.json) - If you want to send a JSON response, `res.json` is the way to go. It automatically sets the `Content-Type` header to `application/json` and sends the data as JSON. We will cover the use-case of this more later.
-- [res.redirect](https://expressjs.com/en/api.html#res.redirect) - When you want to redirect the client to a different URL, this method allows for capaibility. However, do note that this by itself does not work if you are now creating APIs instead of rendering just the views or sending basic responses that still uses the express application as the view.
-- [res.render](https://expressjs.com/en/api.html#res.redirect) - If you're using a template engine that you will setup in a later lesson, `res.render` allows you to render a view template and send the rendered HTML as the response.
+- [res.redirect](https://expressjs.com/en/api.html#res.redirect) - When you want to redirect the client to a different URL, this method allows for that capability. However, do note that this by itself does not work if you are now creating APIs instead of rendering just the views or sending basic responses that still uses the express application as the view.
+- [res.render](https://expressjs.com/en/api.html#res.render) - If you're using a template engine that you will setup in a later lesson, `res.render` allows you to render a view template and send the rendered HTML as the response.
 
 There is also a useful method that you can use to set the status code manually.
 
-- [res.status](https://expressjs.com/en/api.html#res.status) - You can also chain other methods through this (e.g. `res.status(200).send(...)` but note that you can't do `res.send(...).status(200)`). This method does not end the request-response cycle.
+- [res.status](https://expressjs.com/en/api.html#res.status) - You can also chain other methods through this (e.g. `res.status(200).send(...)` but note that you can't do `res.send(...).status(200)`). This method does not end the request-response cycle. And also `200` is already the default so you wouldn't necessarily need this for `200`, but for consistency, we'll keep using it.
 
 <div class="lesson-note" markdown="1">
 
