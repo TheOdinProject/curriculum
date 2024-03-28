@@ -52,7 +52,7 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 
 - Google it: You can be certain someone else out there has encountered the same problem as you at some point. A quick Google search can often lead to a solution.
 - Take a break: Allow your diffuse learning state to work on the problem.
-- Ask for help in our [chat](https://discord.gg/fbFCkYabZB): Come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
+- Ask for help in the [TOP Discord server](https://discord.gg/theodinproject); come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
 Additionally, feel free to follow the diagram below that should help you going through problems that you may come across:
 
@@ -99,7 +99,6 @@ Procrastination will be your biggest enemy when trying to make progress.
 **Solution:** The [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a way of managing your time in order to stay focused. The idea is to set a timer for 25 minutes and to work on a task until the timer goes off. If you get distracted or interrupted during the 25 minutes, start the 25 minutes of work over again. Once you've successfully focused on work for 25 minutes, take a 5 minute break. When your break is over, repeat the 25 minutes of work and 5 minute break. After you've completed four 25 minute blocks of work, take a longer 15-30 minute break.
 
 The Pomodoro technique is great for avoiding procrastination as it forces you to work without distractions. Since the work time only lasts 25 minutes before taking a break, it's not overwhelming, making it harder to rationalize procrastination.
-To learn more about the Pomodoro Technique, read this [great article](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c#.hcqsv37u4).
 
 If you want to try it out, [Pomofocus](https://pomofocus.io/) is a customizable pomodoro timer that works on desktop & mobile browser.
 
@@ -160,7 +159,7 @@ Learning any new skill is a journey full of speed bumps and obstacles to be over
 
 <div class="lesson-content__panel" markdown="1">
 
-1. To give your motivation a bit of a boost, read about the success of others in our discord [odin-success-stories](https://discord.com/channels/505093832157691914/1089990025162260570) channel (You need to [join the Discord server](https://discord.gg/fbFCkYabZB) first in order to see the channel).
+1. To give your motivation a bit of a boost, read about the success of others in the [TOP Discord server's Success Stories forum](https://discord.com/channels/505093832157691914/1089990025162260570).
 1. To learn more about the growth mindset, go through the following resources:
    - [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
    - [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
@@ -179,5 +178,5 @@ This section contains helpful links to related content. It isn't required, so co
 - [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 - If you find your typing speed is holding you back, you can improve your typing skills by utilizing keyword trainers for at least 5 minutes every day. Some excellent options include [typing.com](https://www.typing.com/), [TypingClub.com](https://www.typingclub.com) and [Monkeytype](https://monkeytype.com/).
 - [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
-- 100 Days of Code is a challenge that new developers often use to track their coding journey and showcase their work. Consider joining by checking out [their website](https://www.100daysofcode.com/) if you are looking for a way to stay motivated and inspire other developers.
+- [100 Days of Code](https://www.100daysofcode.com/) is a challenge that new developers often use to track their coding journey and showcase their work. Consider checking out their website if you are looking for a way to stay motivated and inspire other developers.
 - Check out the [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) course from Coursera.
