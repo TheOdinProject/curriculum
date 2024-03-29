@@ -19,4 +19,15 @@ Going through these will give us a chance to learn about a few other important c
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+1. **Reddit Post**:
+- [Simplifying JavaScript Code Organization Insights](https://www.reddit.com/user/aryansoni-reddit/comments/1bqpdph/simplifying_javascript_code_organization_insights/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+  - This Reddit post summarizes valuable insights from the Pluralsight course "JavaScript Design Patterns: 20 Patterns for Expert Code" and Addy Osmani's book "Learning JavaScript Design Patterns." It presents these insights in a structured manner, providing useful guidance for organizing JavaScript code effectively.
+
+2. **YouTube**:
+   - [Design Patterns in JavaScript](https://www.youtube.com/watch?v=wfMtDGfHWpA)
+     - This video series on YouTube covers different design patterns in JavaScript, including modules, constructors, and more, with practical examples.
+
+3. **GitHub Repository**:
+   - [JavaScript Design Patterns](https://github.com/sohamkamani/javascript-design-patterns-for-humans)
+     - This GitHub repository contains a collection of design patterns explained in simple terms, making it easier to understand and implement them in your projects.
+
