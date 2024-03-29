@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Most of the elements that you have learned about so far are block elements.  In other words, their default style is `display: block`. <span id="block-inline-difference"></span>By default, block elements will appear on the page stacked atop each other, each new element starting on a new line.
 
-Inline elements, however, do not start on a new line. They appear in line with whatever elements they are placed beside. A clear example of an inline element is a link, or `<a>` tag. If you stick one of these in the middle of a paragraph of text, it will behave like a part of the paragraph. ([Like this...](https://www.youtube.com/watch?v=dQw4w9WgXcQ)) The link's text will sit alongside other words in that paragraph. Additionally, padding and margin behave differently on inline elements. In general, you do not want to try to put extra padding or margin on inline elements.
+Inline elements, however, do not start on a new line. They appear in line with whatever elements they are placed beside. A clear example of an inline element is a link, or `<a>` tag. If you stick one of these in the middle of a paragraph of text, it will behave like a part of the paragraph. (If you stick one of these in the middle of a paragraph of text, [the link will behave like a part of the paragraph](https://www.youtube.com/watch?v=dQw4w9WgXcQ)) The link's text will sit alongside other words in that paragraph. Additionally, padding and margin behave differently on inline elements. In general, you do not want to try to put extra padding or margin on inline elements.
 
 #### The middle ground inline-block
 
@@ -79,6 +79,7 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- [This tutorial](https://learnlayout.com/no-layout.html) is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
-- Watch [this](https://www.youtube.com/watch?v=nfXRw06FgK8) short video on what the term "Normal Flow" means in CSS.
+- [Learn CSS Layout](https://learnlayout.com/no-layout.html) is tutorial that is a little dated at this point, but its examples are clear. is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
+- Watch this short video on [what the term “Normal Flow” means](https://www.youtube.com/watch?v=nfXRw06FgK8) in CSS.
+ short video on what the term "Normal Flow" means in CSS.
 - For a more interactive explanation and example, try this [Scrim on block and inline display](https://scrimba.com/scrim/co5024997a7e46c232d9abe55).
