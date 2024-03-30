@@ -33,6 +33,7 @@ The Styles panel also allows you to edit styles directly in the browser. You can
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Go through the following sections of the [official Chrome DevTools docs](https://developers.google.com/web/tools/chrome-devtools):
 
    - [Devtools overview](https://developer.chrome.com/docs/devtools/overview/): don't navigate to any other pages linked here; just get familiar with _what_ tools are available in the DevTools, rather than how to use all of them right now.
