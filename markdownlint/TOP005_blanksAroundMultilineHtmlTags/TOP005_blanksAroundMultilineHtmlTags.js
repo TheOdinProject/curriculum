@@ -55,9 +55,9 @@ module.exports = {
        */
       onError({
         lineNumber: lineNumber + 1,
-        detail: `Expected: { Before: 1, After: 1 }; Actual: { Before: ${
+        detail: `\n  Expected blank lines/code block delimiters: { Before: 1, After: 1 }\n  Actual blank lines/code block delimiters: { Before: ${
           lineBeforeIsValid ? 1 : 0
-        }, After: ${lineAfterIsValid ? 1 : 0} }`,
+        }, After: ${lineAfterIsValid ? 1 : 0} }\n`,
         context: params.lines[lineNumber],
       });
     });
