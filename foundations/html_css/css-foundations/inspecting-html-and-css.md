@@ -44,7 +44,7 @@ The Styles panel also allows you to edit styles directly in the browser. You can
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How do you select a specific element on your page with your browser’s developer tools?](#inspecting-elements)
 - [What does a strikethrough in a CSS declaration mean in your browser’s developer tools?](#strikethrough)
