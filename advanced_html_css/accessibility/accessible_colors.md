@@ -21,7 +21,7 @@ A <span id='contrast-ratio'>contrast ratio</span> is the difference in brightnes
 There are two different conformance levels for contrast ratios, both of which have rules for normal text and large text. **Normal text** is defined as text with a font size that's less than 18 points/24px (or less than 14 points/18.66px for bold text), and **large text** is defined as text with a font size that is at least 18 points/24px (or at least 14 points/18.66px for bold text).
 
 1. **Level AA** (minimum) requires a contrast ratio of at least 4.5:1 for normal text and 3:1 for large text.
-. **Level AAA** (enhanced) requires a contrast ratio of at least 7:1 for normal text and 4.5:1 for large text.
+1. **Level AAA** (enhanced) requires a contrast ratio of at least 7:1 for normal text and 4.5:1 for large text.
 
 Both conformance levels have exceptions that don't need to follow the contrast ratio rules:
 
