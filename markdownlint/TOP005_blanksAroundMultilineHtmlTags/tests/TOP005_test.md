@@ -1,6 +1,6 @@
 ### Introduction
 
-This file should not be flagged with any errors.
+This file should flag with TOP005 errors, and no other linting errors.
 
 ### Lesson overview
 
@@ -23,18 +23,19 @@ Valid div due to each tag being surrounded by blank lines.
 <div>Valid single-line div</div>Might even have other <span>paragraph</span> content with it.
 
 <div class="lesson-content__panel" markdown="1">
-1. Opening tag invalid due to not being surrounded by blank lines.
-2. Closing tag is, so is valid.
-3. Notice how non-lazy numbering does not flag a lint error, as the list content is part of the same `html_block` token, and not as their own separate tokens to be linted.
+The opening tag is invalid due to not being surrounded by blank lines.
+Until a blank line is encountered, if there are any unrelated linting errors, the vast majority of them will not be caught due to how `markdown-it` parses `html_block` tokens.
+
+The closing tag is valid as it is surrounded by blank lines.
 
 </div>
 
-Non-empty line
+Non-empty/codeblock line
 <div class="lesson-content__panel" markdown="1">
 
-1. Opening tag invalid due to not being surrounded by blank lines.
-2. Closing tag invalid due to not being surrounded by blank lines.
-3. Notice how non-lazy number and blanks around lists rules are trigger, as the blank line 34 allows the list to be parsed as their own correct tokens.
+The opening tag is invalid due to not being surrounded by blank lines or codeblock delimiters.
+The blank line after it does allow the linter to correctly flag and unrelated linting errors in these lines if there are any.
+
 </div>
 
 <div>
@@ -55,7 +56,7 @@ The only exception to blank lines is a code block delimiter.
 ```md
 <div>
 
-This line above the closing tag is not a blank line nor a code block delimiter, so this errors.
+This line above the closing tag is not a blank line nor a code block delimiter, so the closing tag errors.
 </div>
 ```
 
@@ -69,7 +70,7 @@ This line above the closing tag is not a blank line nor a code block delimiter, 
 
 ```jsx
 <p>
-  Also accepts when used in JSX code blocks
+  Also does not flag when used in JSX code blocks
 </p>
 ```
 
@@ -80,7 +81,7 @@ This line above the closing tag is not a blank line nor a code block delimiter, 
 
 <div>
   <p>
-    Indentation has no effect on how the rule works.
+    TOP005 doesn't care it the tag is indented or not.
   </p>
 </div>
 ```
