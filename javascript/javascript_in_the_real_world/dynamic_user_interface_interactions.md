@@ -6,7 +6,7 @@ Fortunately, at this point, you already have all the tools you need to make thes
 
 We aren't presenting any new content in this lesson - just giving you the chance to practice some of the techniques that you're going to be using on a daily basis as a JavaScript programmer.
 
-> Animations are typically handled by CSS which is a little out of the scope of this lesson, but interactive stuff like this is no fun without a little motion! If you want to take a break and learn more about making stuff move [go watch this video](https://www.youtube.com/watch?v=8kK-cA99SA0).
+> Animations are typically handled by CSS which is a little out of the scope of this lesson, but interactive stuff like this is no fun without a little motion! In order to solidify the principles of implementing a dynamic user interface, go watch this [video on CSS transitions](https://www.youtube.com/watch?v=8kK-cA99SA0).
 
 ### Lesson overview
 
@@ -39,7 +39,7 @@ Don't spend too much time worrying about getting your images to display at the c
 
 1. This one is a little more involved than the last two, so think about how you would set up the different elements within the site.
 2. Set up a very wide `div` which will contain the individual "slides" of each image. By appropriately positioning that `div` inside a container `div` (which acts like a picture frame), you can choose which slide is visible at any given time.
-3. Once you have the slider positioned properly, build functions for "next" and "previous" which will advance to the next or previous slide accordingly. Make the transitions smooth using effects.
+3. Once you have the slider positioned properly, build functions for "next" and "previous" which will advance to the next or previous slide accordingly. Make the transitions smooth using effects. Check out this [video on CSS transitions](https://www.youtube.com/watch?v=8kK-cA99SA0).
 4. Set up arrow buttons which activate those functions and play with cycling through the images.
 5. Add in some navigation dots at the bottom of the slides. Make a horizontal series of empty circles with CSS immediately below the slideshow. Each circle represents a slide, so whenever a new slide is activated, its corresponding circle gets filled in so you can tell where in the show you are. Make each circle link to that particular slide, so you can click on the circle and it will jump to that slide.
 6. Add a timeout which advances the slides every 5 seconds.
