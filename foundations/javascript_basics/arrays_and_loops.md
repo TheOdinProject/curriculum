@@ -18,8 +18,8 @@ This section contains a general overview of topics that you will learn in this l
 Strings and numbers may be our building blocks, but as your scripts get more complex, you're going to need a way to deal with large quantities of them. Luckily, JavaScript has a couple of data types that are used for just that. An Array is an ordered collection of items (Strings, numbers, or other things).
 
 1. Go through [JavaScript Arrays from W3Schools](https://www.w3schools.com/js/js_arrays.asp).
-1. [JavaScript Array Methods](https://www.w3schools.com/js/js_array_methods.asp) covers some of the most useful built-in array methods. covers some of the most useful built-in array methods. These fundamentals are something you'll use every day, so don't rush too much and miss out!
-1. This [JavaScript Arrays crash course](https://www.youtube.com/watch?v=7W4pQQ20nJg) explains an overview explains an overview of arrays in JavaScript in about 6 minutes.
+1. [JavaScript Array Methods](https://www.w3schools.com/js/js_array_methods.asp) covers some of the most useful built-in array methods. These fundamentals are something you'll use every day, so don't rush too much and miss out!
+1. This [JavaScript Arrays crash course](https://www.youtube.com/watch?v=7W4pQQ20nJg) explains an overview of arrays in JavaScript in about 6 minutes.
 
 ### Loops
 
@@ -40,7 +40,7 @@ We will teach you the art of actually writing these tests later in the course. T
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go and review the [README of our `javascript-exercises` repository](https://github.com/TheOdinProject/javascript-exercises#readme) to set up your local environment. to set up your local environment. Once you have cloned the repository and installed Jest, review each README file prior to completing the following exercises in order:
+1. Go and review the [README of our `javascript-exercises` repository](https://github.com/TheOdinProject/javascript-exercises#readme) to set up your local environment. Once you have cloned the repository and installed Jest, review each README file prior to completing the following exercises in order:
     - `01_helloWorld` (This exercise is intentionally very beginner friendly to ensure that you have set up everything properly!)
     - `02_repeatString`
     - `03_reverseString`
