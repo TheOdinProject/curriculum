@@ -47,8 +47,18 @@ As does txt.
 ```
 
 ```html
-HTML is not considered as only the abbreviated name is a valid option.
-The same applies to similar languages like CSS.
+<p>HTML is not considered as only the abbreviated name is a valid option.</p>
+<p>The same applies to similar languages like CSS and JSX.</p>
+```
+
+```css
+.error {
+    display: none;
+}
+```
+
+```jsx
+{isExempt && <p>No error here!</p>}
 ```
 
 ### Knowledge check
