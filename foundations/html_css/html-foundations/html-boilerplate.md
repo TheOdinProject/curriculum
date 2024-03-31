@@ -23,7 +23,7 @@ It is worth noting that we named our HTML file `index`. We should always name th
 
 ### The DOCTYPE
 
-Every HTML page starts with a doctype declaration. The doctype's purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5, and the doctype for that version is simply `<!DOCTYPE html>`.
+Every HTML page starts with a doctype declaration. The doctype's purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5, and the doctype for that version is `<!DOCTYPE html>`.
 
 The doctypes for older versions of HTML were a bit more complicated. For example, this is the doctype declaration for HTML4:
 
@@ -156,7 +156,7 @@ But it's still good to know how to write the boilerplate yourself in case you fi
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Watch and follow along to Kevin Powell's brilliant [Building Your First Web Page video](https://youtu.be/V8UAEoOvqFg?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&t=93)
+1. Watch and follow along to Kevin Powell's brilliant [Building Your First Web Page video](https://www.youtube.com/watch?v=V8UAEoOvqFg&t=93s).
 
 2. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
 

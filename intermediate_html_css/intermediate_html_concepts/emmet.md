@@ -2,9 +2,9 @@
 
 Emmet is a plugin, built into VS Code, that helps you write HTML and CSS more efficiently by providing a bunch of clever shortcuts. By now, you have written a good amount of HTML and CSS, and if you have been using VS Code there's a big chance that you have already encountered Emmet in some way.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 -   Use some of Emmet's most useful shortcuts.
 -   Set up custom Emmet keybindings in VS Code.
@@ -41,7 +41,6 @@ You can do the same for `Remove Tag` by searching for `Emmet:Remove tag`.
 
 1.  [This](https://www.youtube.com/watch?v=V8vizNQKtx0) is a good video on Emmet. Go ahead and watch it up to `11:37` as it demonstrates some content we haven't covered yet. We'll get there eventually.
 2.  Take a look at the [Emmet cheat sheet](https://docs.emmet.io/cheat-sheet/). You don't have to memorize it, but it's good that you get familiar with the different ways it can be used.
-3.  Go through the [Emmet documentation](https://docs.emmet.io/). Once again, no need to memorize everything but it would be good if you played around with all the different possibilities.
 
 </div>
 

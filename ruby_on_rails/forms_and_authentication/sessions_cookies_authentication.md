@@ -23,11 +23,11 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Cookies, sessions and flashes
 
-Cookies, Sessions and Flashes are three special objects that Rails gives you in which each behave a lot like hashes. They are used to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached.  In addition to different temporal concerns, they each solve slightly different use cases, covered below.
+Cookies, Sessions and Flashes are three special objects that Rails gives you in which each behave a lot like hashes. They are used to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached. In addition to different temporal concerns, they each solve slightly different use cases, covered below.
 
 ### Cookies
 
-Cookies are key-value data pairs that are stored in the user's browser until they reach their specified expiration date.  They can be used for pretty much anything, most commonly to "bookmark" the user's place in a web page if she gets disconnected or to store simple site display preferences.  You could also store shopping cart information or even passwords but that would be a bad idea -- you shouldn't store anything in regular browser cookies that needs to either be secure or persisted across browser sessions.  It's too easy for users to clear their cache and/or steal/manipulate unsecured cookies.
+Cookies are key-value data pairs that are stored in the user's browser until they reach their specified expiration date.  They can be used for pretty much anything, most commonly to "bookmark" the user's place in a web page if she gets disconnected or to store simple site display preferences. You could also store shopping cart information or even passwords but that would be a bad idea -- you shouldn't store anything in regular browser cookies that needs to either be secure or persisted across browser sessions.  It's too easy for users to clear their cache and/or steal/manipulate unsecured cookies.
 
 <span id="using-cookies">To work with cookies, Rails gives you access to a special hash called `cookies`, where each key-value pair is stored as a separate cookie on the user's browser.  If you were to save `cookies[:hair-color] = "blonde"`, you'd be able to pull up your browser's developer tools and see a cookie on the user's browser that has a key of `hair-color` and a value of `blonde`.  Delete it using `cookies.delete(:hair-color)`.</span>
 
@@ -133,7 +133,7 @@ Authentication and authorization go hand in hand -- you first authenticate someo
 
 ### Basic and digest authentication
 
-<span id="http-authentication">If you're looking for a very casual and insecure way of authenticating people, HTTP Basic authentication can be used.  We won't cover the details here, but it basically involves submitting a username and password to a simple form and sending it (unencrypted) across the network.  You use the `#http_basic_authenticate_with` method to do so (see the reading for examples) and to restrict access to certain controllers without it.</span>
+<span id="http-authentication">If you're looking for a very casual and insecure way of authenticating people, HTTP Basic authentication can be used.  We won't cover the details here, but it basically involves submitting a username and password to a form and sending it (unencrypted) across the network.  You use the `#http_basic_authenticate_with` method to do so (see the reading for examples) and to restrict access to certain controllers without it.</span>
 
 For a slightly more secure (over HTTP) authentication system, use HTTP Digest Authentication.  We'll again not cover it here.  It relies on a `#before_action` running a method which calls upon `#authenticate_or_request_with_http_digest`, which takes a block that should return the "correct" password that should have been provided.
 
@@ -151,7 +151,7 @@ This is much better because digests are one-way encryption. You can easily creat
 
 Rails doesn't make you do everything yourself.  It has a method called `#has_secure_password` which you just drop into your User model and it will add a lot of the functionality you're looking for.  To work with that handy method, you basically set up your User model to handle accepting `password` and `password_confirmation` attributes but you won't actually persist those to the database.  `has_secure_password` intercepts those values and converts them into the password digest for you.
 
-To initialize a new user session (when your user signs in), you'll need to create a new controller (usually `sessions_controller.rb`) and the corresponding routes for `:new`, `:create` and `:destroy`.  If the user passes the correct credentials (which we can check using the `#authenticate` method), you'll use the `session` variable to store their ID, which you can use to validate that they are who they say they are.  This is a simple way of authenticating the user that uses Rails' existing session infrastructure, but only lasts as long as the session does.
+To initialize a new user session (when your user signs in), you'll need to create a new controller (usually `sessions_controller.rb`) and the corresponding routes for `:new`, `:create` and `:destroy`.  If the user passes the correct credentials (which we can check using the `#authenticate` method), you'll use the `session` variable to store their ID, which you can use to validate that they are who they say they are. This is a way of authenticating the user that uses Rails' existing session infrastructure, but only lasts as long as the session does.
 
 If your user wants to be "remembered" (you've probably seen the "remember me" checkbox plenty of times on login forms), you need a way to remember them for longer than just the length of the browser session.  To do this, you'll need to create another column in your Users table for an encrypted `remember_token` (or whatever you'd like to call it).  You'll use that to store a random string for that user that will be used in the future to identify him/her.
 
@@ -209,7 +209,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Authentication in Rails 3.1 from [Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than we can explain it.
 - [All About Cookies (.org)](http://www.allaboutcookies.org/)

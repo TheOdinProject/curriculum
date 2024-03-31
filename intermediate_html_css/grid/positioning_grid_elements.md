@@ -2,13 +2,13 @@
 
 In this lesson we will examine the different parts of a grid and explore common properties that can be used to position grid items.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to:
+This section contains a general overview of topics that you will learn in this lesson.
 
-* Describe the differences between tracks, lines, and cells
-* Position items by defining their start and end lines
-* Use shorthand notation
+- Describe the differences between tracks, lines, and cells.
+- Position items by defining their start and end lines.
+- Use shorthand notation.
 
 ### Reviewing tracks
 
@@ -35,7 +35,7 @@ Every track has a start line and an end line. The lines are numbered from left t
 
 Grid lines are what we use to position grid items. We'll get to that in a minute, but first let's take a deeper look at grid lines using our developer tools.
 
-If you open up developer tools in Chrome, you can navigate to the Layout pane and find the Grid overlay display settings. Make sure that _show line numbers_ is enabled. Select the correct element from the Grid overlays (e.g. this might be our `div.container` if you are inspecting our CodePen.) You should now see an overlay of the grid lines.
+If you open up developer tools in Chrome, you can navigate to the Layout pane and find the Grid overlay display settings. Make sure that *show line numbers* is enabled. Select the correct element from the Grid overlays (e.g. this might be our `div.container` if you are inspecting our CodePen.) You should now see an overlay of the grid lines.
 
 Notice that the developer tools also show negative lines opposite from the positive lines. You don't have to worry about the negative lines for now, but know that this gives you another option to use when positioning the grid items.
 
@@ -143,22 +143,20 @@ So now you know two very different ways of using `grid-area` on a grid item. You
 As you go through the assignments you will come across more terminology like `span` and `auto` when positioning grid items across tracks. There are also properties to justify and align grid items similar to Flexbox. The best way to learn all this terminology and how to position items is with lots of practice!
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
-- Read MDN's [Line-based Placement with CSS Grid.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Line-based_Placement_with_CSS_Grid)
-- Review [Part 4 on Grid Properties](https://css-tricks.com/snippets/css/complete-guide-grid/#grid-properties) from CSS-Tricks.
+
+1. Read MDN's [Line-based Placement with CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Line-based_Placement_with_CSS_Grid).
+1. Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget that the instructions are in the README). Do the first exercise in the 'grid' directory:
+   - `grid-layout-1`
+
+   Note: When doing this exercise, please use all the documentation and resources you need to accomplish it. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
+
 </div>
-
-### Practice
-
-> When doing the following exercises, please use all the documentation and resources you need to accomplish them. You are _not_ intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
-
-Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget that the instructions are in the README). Do the first exercise in the 'grid' directory:
-
-1. grid-layout-1
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Explain the difference between a track and a line.](#reviewing-tracks)
 - [What is the smallest unit on a grid?](#cells)
@@ -168,7 +166,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Play through levels 1 - 17 of [CSS Grid Garden](https://cssgridgarden.com/) to practice positioning items. Note the rest of the levels go beyond the scope of this lesson.
 - If you want to know more about using `grid-template-areas` check out this [Smashing Magazine article from Rachel Andrew.](https://www.smashingmagazine.com/understanding-css-grid-template-areas)

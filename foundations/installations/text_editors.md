@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD024 MD043 -->
+
 ### Introduction
 
 A text editor is by far the most used developer tool regardless of what type of developer you are. A good text editor can help you write better code with real-time code checking, syntax highlighting, and automatic formatting.
@@ -44,7 +46,18 @@ sudo apt install ./code-latest.deb
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [Read this reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/))_
+#### A note on typing passwords in the terminal
+
+  When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+
+  This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
+
+  You can still enter your password as normal and press Enter to submit it.
+</div>
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [You can read a Reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
 
 </div>
 
@@ -72,7 +85,7 @@ code
 
 #### Step 1: Download VSCode
 
-- Click [this link](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal) to automatically download the latest VSCode installer .zip file.
+- [Download the latest VSCode installer .zip file.](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
 
 #### Step 2: Install VSCode
 
@@ -94,7 +107,7 @@ code
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">WSL</summary>
+<summary class="dropDown-header">WSL2</summary>
 
 #### Step 1: Install VSCode
 
@@ -106,23 +119,22 @@ code
 - Go to the **Downloads** folder.
 - Drag **VSCodeUserSetup-{version}.exe** to the trash.
 
-#### Step 4: Install WSL Extension
+#### Step 3: Install WSL Extension
 
 - Open Visual Studio Code.
 - Navigate to the extensions tab.
 - Find and install the [WSL extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl).
 
-#### Step 5: Ensure that WSL can correctly open VSCode
+#### Step 4: Ensure that WSL2 can correctly open VSCode
 
-- Open a new WSL terminal.
+- Open a new WSL2 terminal.
 - Run the following command to open a new VSCode window.
 
   ```bash
   code
   ```
 
-- After a few moments a new VSCode window should open, and VSCode should provide a notification that its opening in WSL.
-
+- After a few moments a new VSCode window should open, and VSCode should provide a notification that its opening in WSL2.
 
 </details>
 
@@ -131,11 +143,12 @@ code
 <div class="lesson-content__panel" markdown="1">
 
 1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
+
 </div>
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [VSCode docs](https://code.visualstudio.com/docs) are a great place to refer to for any of your queries related to VSCode.
 - These handy little PDFs on VSCode's [shortcuts for linux](https://go.microsoft.com/fwlink/?linkid=832144) and [shortcuts for macOS](https://go.microsoft.com/fwlink/?linkid=832143) are a great resource to help make your VSCode experience smoother and more efficient.

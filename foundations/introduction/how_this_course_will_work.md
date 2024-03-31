@@ -1,6 +1,6 @@
 ### Introduction
 
-The Odin Project is an open-source community dedicated to providing the best information sources to take you from zero to a full-stack developer.  More information can be found at The Odin Project's [about page](https://www.theodinproject.com/about).
+The Odin Project is an open-source community dedicated to providing the best information sources to take you from zero to a full-stack developer.
 
 In this unit, we'll learn about how the web works and start thinking about the basics of computer and web programming.
 
@@ -8,7 +8,7 @@ Each of the following sections and lessons represents essential baseline knowled
 
 We will start by getting familiar with the internet and your own computer.  Next, we'll work on setting up a development environment and learning about Git and GitHub. Then, we'll go over the basics of front-end technologies like HTML, CSS, and Javascript before stepping into the back end with a brief foray that covers the basic concepts of back-end technologies.
 
-By the end of this unit, you should not only understand how the web works but also be able to identify and differentiate between all the technologies that you will use to build your own web applications.  You will be able to build a simple webpage, style it, and add minor elements of interactivity while working comfortably from the command line.
+By the end of this unit, you should not only understand how the web works but also be able to identify and differentiate between all the technologies that you will use to build your own web applications. You will be able to build a basic webpage, style it, and add minor elements of interactivity while working comfortably from the command line.
 
 This section intentionally covers a very broad range of topics. It's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).
 
@@ -44,6 +44,15 @@ As you move forward in the curriculum, each portion is built on everything that 
 Additional resources are the only thing that is considered optional unless explicitly stated. These are here in case you feel like you need or want to dive deeper into a topic to get a better understanding. 
 
 **DO NOT SKIP ANYTHING!** 
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+ 
+1. Learn more about The Odin Project by reading its [about page](https://www.theodinproject.com/about).
+1. Check out the [frequently asked questions](https://www.theodinproject.com/faq) section.
+
+</div>
 
 ### Additional resources
 

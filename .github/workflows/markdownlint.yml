@@ -1,0 +1,49 @@
+name: MarkdownLint
+on: pull_request
+
+jobs:
+  project_lint:
+    name: Lint project files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: tj-actions/changed-files@v41
+        id: changed-files
+        with:
+          files: |
+            **/project*.md
+            !./*.md
+            !README.md
+            !./archive/**.md
+            !./templates/**.md
+            !./markdownlint/docs/**.md
+          separator: ','
+      - uses: DavidAnson/markdownlint-cli2-action@v14
+        if: steps.changed-files.outputs.any_changed == 'true'
+        with:
+          config: './project.markdownlint-cli2.jsonc'
+          globs: ${{ steps.changed-files.outputs.all_changed_files }}
+          separator: ','
+  lesson_lint:
+    name: Lint lesson files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: tj-actions/changed-files@v41
+        id: changed-files
+        with:
+          files: |
+            **.md
+            !./*.md
+            !README.md
+            !**/project*.md
+            !./archive/**.md
+            !./templates/**.md
+            !./markdownlint/docs/**.md
+          separator: ','
+      - uses: DavidAnson/markdownlint-cli2-action@v14
+        if: steps.changed-files.outputs.any_changed == 'true'
+        with:
+          config: './lesson.markdownlint-cli2.jsonc'
+          globs: ${{ steps.changed-files.outputs.all_changed_files }}
+          separator: ','

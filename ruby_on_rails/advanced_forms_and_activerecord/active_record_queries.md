@@ -2,7 +2,7 @@
 
 Up until now, we've covered the bread and butter you need to build basic queries using Active Record. After building a handful of projects and working through the tutorial, you should be comfortable making these queries.
 
-Active Record is much more powerful than just simple CRUD actions on individual records. It gives you a Ruby-ish interface to do almost anything you can do with bare-metal SQL statements. You can cherry-pick individual groups of records based on specific criteria and order them however you want. You can join tables manually or query using associations set up by Rails. You can return lists of records or perform basic math like counts and averages.
+Active Record is much more powerful than just CRUD actions on individual records. It gives you a Ruby-ish interface to do almost anything you can do with bare-metal SQL statements. You can cherry-pick individual groups of records based on specific criteria and order them however you want. You can join tables manually or query using associations set up by Rails. You can return lists of records or perform basic math like counts and averages.
 
 All this is done at the database level, which is much faster than loading up a whole table of stuff into Ruby objects before parsing and chopping and calculating with it.
 
@@ -58,11 +58,11 @@ Methods implemented in `ActiveRecord::FinderMethods` do NOT return `ActiveRecord
 
 ### Beyond basic querying
 
-You should be pretty comfortable now with simple queries like finding objects. The reading you do for this section will cover the basics and then dive in a bit further than before. There are a couple of new concepts worth mentioning.
+You should be pretty comfortable now with queries like finding objects. The reading you do for this section will cover the basics and then dive in a bit further than before. There are a couple of new concepts worth mentioning.
 
 #### Checking for existence
 
-The simplest new concept is how to check whether an object actually exists yet or not, which you may want to do before running a method which depends on the object actually having been saved already.
+The new concept is how to check whether an object actually exists yet or not, which you may want to do before running a method which depends on the object actually having been saved already.
 
 `#exists?` will return true/false. `#any?` will be true if any records match the specified criteria and `#many?` will be true if multiple records match the specified criteria. You can run each of these either on a model directly, a Relation, an association, or a scope (which we'll cover later). Basically, anywhere you might think of using them, they're likely to work:
 
@@ -101,7 +101,7 @@ The key thing to note is that `#find` returns the actual record while `#where` r
 
 `#find_by` is a really neat method that basically lets you build your own finder method. It's an alternative to using `#where` (to which you'd have to add another method like `#take` or `#first` to pull the result out of the returned array). If you want to find by a user's email, write `User.find_by(email: 'foo@bar.com')`.
 
-`#select` should be pretty obvious to a SQL ninja like you -- it lets you choose which columns to select from the table(s), just like in SQL. To select just the ID column for all users, it's as simple as `User.select(:id)`. You can also use aliases like in SQL but should use quotes instead of symbols, e.g. `@users = User.select("users.id AS user_id")` will create a new attribute called `user_id`, e.g. allowing you to access `@users.first.user_id`.
+`#select` should be pretty obvious to a SQL ninja like you -- it lets you choose which columns to select from the table(s), just like in SQL. To select just the ID column for all users, it's as straightforward as `User.select(:id)`. You can also use aliases like in SQL but should use quotes instead of symbols, e.g. `@users = User.select("users.id AS user_id")` will create a new attribute called `user_id`, e.g. allowing you to access `@users.first.user_id`.
 
 ### Aggregations
 
@@ -143,7 +143,7 @@ This is going to result in one query to get all the users, then another query fo
 
 If the best way to make an application run faster is to reduce database calls, we've just messed up badly by causing a potentially huge number of them.
 
-Rails is well aware of your distress and has provided a simple solution -- "eager loading". When you first grab the list of all users, you can tell Rails to also grab the cities at the same time (with just one additional query) and store them in memory until you'd like to call upon them. Then `user.city` gets treated the same way as `user.name`... it doesn't run another query. The trick is the `#includes` method.
+Rails is well aware of your distress and has provided a solution -- "eager loading". When you first grab the list of all users, you can tell Rails to also grab the cities at the same time (with just one additional query) and store them in memory until you'd like to call upon them. Then `user.city` gets treated the same way as `user.name`... it doesn't run another query. The trick is the `#includes` method.
 
 ```ruby
   User.all.includes(:city).each do |user|
@@ -170,7 +170,7 @@ This is another way to help speed up your application if you've found pain point
 
 ### Scopes
 
-Scopes are underappreciated, awesome and very simple. A scope is basically a custom chain of ActiveRecord methods that you can slap onto an existing Relation by calling its name like a normal method. It's easiest to see in an example.
+Scopes are underappreciated, and awesome. A scope is basically a custom chain of ActiveRecord methods that you can slap onto an existing Relation by calling its name like a normal method. It's easiest to see in an example.
 
 Let's say you let your user choose to filter your blog posts only for those marked "important":
 
@@ -191,7 +191,7 @@ Let's say you let your user choose to filter your blog posts only for those mark
   end
 ```
 
-This is a pretty simple example. Instead of always having to rewrite that chain of ActiveRecord methods when you want them, you can create nicely named scopes to contain all the component logic. You reduce repetition and make your code more readable. The best part is that scopes return Relations... so you can chain as many of them as you want.
+Instead of always having to rewrite that chain of ActiveRecord methods when you want them, you can create nicely named scopes to contain all the component logic. You reduce repetition and make your code more readable. The best part is that scopes return Relations... so you can chain as many of them as you want.
 
 You might be thinking, Why use a scope when you can write a class method to do the same thing? You can, as long as your class method returns a Relation (which can take some additional thought for edge cases). In fact, using a class method is often best if your logic chains are quite complicated. The example above could be solved using the following class method as well:
 
@@ -221,7 +221,7 @@ Sometimes, you just can't get ActiveRecord to do what you want it to. In that ca
 1. Read the first 6 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions. Don't worry too much about batching and `#find_each`.
 2. Read section 20 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects) for a brief look at using `exists?`, `any?` and `many?`.
 3. Read sections 7, 8 and 21 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#group) for an understanding of aggregate functions and the calculations you can run on them.
-4. Skim sections 9-12 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions).
+4. Skim sections 9-12 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions). 
 5. Read section 12 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#joining-tables) to see how Rails lets you play with joining tables together.
 6. Read section 18 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object) for a quick look at the helpful `find_or_create_by` methods.
 

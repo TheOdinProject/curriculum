@@ -25,7 +25,7 @@ The first thing to note is that the named view template we render from the contr
 
 For a brand new Rails application, the `application.html.erb` layout is pretty basic.  It's got the basic tags you need in all webpages (e.g. `<html>` and `<body>`) and a couple snippets of code that load up the JavaScript and CSS files your webpage will need.  You'll want to put anything that's needed across all your webpages into the layout.  Usually this is stuff like navbars and footers and snippets of code for displaying flash messages.
 
-So if a layout is basically just a shell around the individual page, how does the page get inserted?  That brings us back to the magic of the `#yield` method, which you saw when you learned about blocks.  The view template at `app/views/posts/index.html.erb` gets inserted where the yield statement is.  When you get more advanced, you'll be able to play around a bit with that statement but for now it's just that simple.
+So if a layout is basically just a shell around the individual page, how does the page get inserted?  That brings us back to the magic of the `#yield` method, which you saw when you learned about blocks.  The view template at `app/views/posts/index.html.erb` gets inserted where the yield statement is.  When you get more advanced, you'll be able to play around a bit with that statement.
 
 ### Preprocessors
 
@@ -110,7 +110,7 @@ In the example above, you most likely want to pass the `@user` variable to the p
 
 To use the variable in your partial file, you drop the `@` and call it like a normal variable. Note that you should use the `:locals` option if you're calling the `render` method with a `:partial` key. 
 
-There is a `render` shortcut that allows you to simply pass in variables without the need of using the `:locals` option:
+There is a `render` shortcut that allows you to pass in variables without the need of using the `:locals` option:
 
 ~~~erb
   <%= render "shared/your_partial", :user => user %>
@@ -156,7 +156,7 @@ So if that's the basic way, what's the magical Rails way?  Just tell it to rende
 
 Rails then looks for the `_user.html.erb` file in the current directory and passes it the `user` variable automatically.
 
-What if you want to render a whole bunch of users like we just did?  Rails also does that for you the same way, saving you the trouble of writing out your own `each` loop like we did above.  Simply write:
+What if you want to render a whole bunch of users like we just did?  Rails also does that for you the same way, saving you the trouble of writing out your own `each` loop like we did above. write:
 
 ~~~erb
   # app/views/index.html.erb
@@ -166,7 +166,7 @@ What if you want to render a whole bunch of users like we just did?  Rails also 
   </ul>
 ~~~
 
-In that situation, Rails not only finds the `_user.html.erb` file and passes it the correct `user` variable to use, it also loops over all the users in your `@user` collection for you.  Pretty handy.
+In that situation, Rails not only finds the `_user.html.erb` file and passes it the correct `user` variable to use, it also loops over all the users in your `@user` collection for you. Pretty handy.
 
 ### Helper methods
 
@@ -225,14 +225,6 @@ Now that you've got a taste of the high-level stuff, read through the Rails Guid
 
 Views in general make up the user-facing side of your app.  It can be a bit tricky at first to imagine how you choose which view to render, what to include in that view and how to use partials, but a few iterations of working with Rails will show you the conventions pretty quickly.  Views will become second nature to you.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Stack Overflow Post on Views](https://stackoverflow.com/questions/14429910/an-alternate-explanation-to-rails-layouts-rendering-partials-templates-and-v)
-* [Video on the Relationship Between Views and Controllers](https://www.youtube.com/watch?v=mRJSovhdzWc&ab_channel=GoRails)
-* [Video on ERB Tags](https://www.youtube.com/watch?v=na28woOGPUw&ab_channel=NoobandTube) - (this video will require you to turn your volume up)
-* [Introduction to Ruby on Rails from freeCodeCamp](https://youtu.be/fmyvWz5TUWg) - If you'd like a deeper dive into routing, MVC, CRUD and partials watch the first 60 minutes of this video which provides a good wrap up for what we've been learning so far. You'll also get to create a simple Rails app from scratch if you'd like some extra practice.
-
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -242,3 +234,12 @@ This section contains questions for you to check your understanding of this less
 * [Why do we use partials?](https://guides.rubyonrails.org/layouts_and_rendering.html#using-partials)
 * [What is the shortcut for rendering a collection as a series of partials?](https://guides.rubyonrails.org/layouts_and_rendering.html#rendering-collections)
 * [How do you dynamically link to another page of your Rails app?](#linkto)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [Stack Overflow Post on Views](https://stackoverflow.com/questions/14429910/an-alternate-explanation-to-rails-layouts-rendering-partials-templates-and-v)
+- [Video on the Relationship Between Views and Controllers](https://www.youtube.com/watch?v=mRJSovhdzWc&ab_channel=GoRails)
+- [Video on ERB Tags](https://www.youtube.com/watch?v=na28woOGPUw&ab_channel=NoobandTube) - (this video will require you to turn your volume up)
+- [Introduction to Ruby on Rails from freeCodeCamp](https://youtu.be/fmyvWz5TUWg) - If you'd like a deeper dive into routing, MVC, CRUD and partials watch the first 60 minutes of this video which provides a good wrap up for what we've been learning so far. You'll also get to create a basic Rails app from scratch if you'd like some extra practice.

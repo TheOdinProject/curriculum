@@ -4,11 +4,12 @@ Hopefully, you've been having fun developing in Ruby thus far. Perhaps one thing
 
 Folks, we're here to tell you there *IS* a better way. Hoping is for that exam you didn't study for and took by the seat of your pants. **Knowing** is test-driven development.
 
-### Learning outcomes
-*Look through these now and use them to guide your learning. By the end of this lesson, expect to:*
+### Lesson overview
 
-* Understand what test-driven development (TDD) is, and why it's important.
-* Understand the three stages of a TDD cycle.
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Understand what test-driven development (TDD) is, and why it's important.
+- Understand the three stages of a TDD cycle.
 
 ### What is test-driven development?
 
@@ -38,15 +39,10 @@ As usual, it depends. Still, here are some reasons we think it might be importan
 
 1. Read up on [9 Benefits of Test-Driven Development](https://www.madetech.com/blog/9-benefits-of-test-driven-development) for additional insight on this practice. Note that many of these points are not specific to TDD, but are also applicable to testing in general.
 2. For a more rounded take, consider DHH's ["TDD is Dead. Long Live Testing"](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html), which sparked controversial conversations on what TDD is, what it has become, and what it should be.
+3. This article explains more about [the why/how and value behind TDD](https://jrsinclair.com/articles/2016/one-weird-trick-that-will-change-the-way-you-code-forever-javascript-tdd/) and also includes some great examples of how to apply it. While the examples are in JavaScript, the focus is on the value behind the TDD approach.
 
 </div>
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [This video](https://www.youtube.com/watch?v=PCEHRFHKZSk) that provides counter arguments for DHH’s [“TDD is Dead. Long Live Testing”](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html)
-* [This series of talks](https://martinfowler.com/articles/is-tdd-dead/) that provides an even more rounded take on TDD.
-   
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
@@ -55,3 +51,9 @@ This section contains questions for you to check your understanding of this less
 - <a class="knowledge-check-link" href="https://thoughtbot.com/blog/rails-test-types-and-the-testing-pyramid">What is the difference between unit and integration tests?</a>
 - <a class="knowledge-check-link" href="https://www.madetech.com/blog/9-benefits-of-test-driven-development">How does TDD help in code refactoring?</a>
 
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [This video](https://www.youtube.com/watch?v=PCEHRFHKZSk) that provides counter arguments for DHH’s [“TDD is Dead. Long Live Testing”](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html)
+- [This series of talks](https://martinfowler.com/articles/is-tdd-dead/) that provides an even more rounded take on TDD.

@@ -12,7 +12,7 @@ In the following sections, we'll go over the steps for setting up your environme
 
 In the next few lessons, we will walk through these installation steps together:
 
-- Installing a supported [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS).
+- Installing a supported operating system (OS).
 - Installing Google Chrome web browser.
 - Installing a code editor.
 - Creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using).
@@ -21,9 +21,9 @@ At the end of the next lesson, you'll be up and running with many of the tools y
 
 - Examine the terminal output for the actual error.
 - Google, Google, Google.
-- Never be afraid to [ask for help](https://discord.gg/fbFCkYabZB)!
+- Never be afraid to ask for help in the [TOP Discord server](https://discord.gg/theodinproject)!
 
-For Chromebook users, your OS choice has effectively been made for you. However, if your device [supports](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux) the Linux Beta, there are instructions in the next lesson on how to set this up on your device.
+For Chromebook users, your OS choice has effectively been made for you. However, on [ChromeOS Systems Supporting "Linux on ChromeOS"](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux), there are instructions in the next lesson on how to set this up on your device.
 
 ### OS options
 
@@ -39,19 +39,17 @@ If you're using a Mac, you're in great shape. The Odin Project instructions assu
 
 Windows, by itself, **is not natively supported** by The Odin Project, or on our Discord server. Because many of the tools you'll be using were written with a Linux environment in mind, you'll need to have one even if you plan to use Windows as your development OS. If you are currently using Windows you can use one of the following options to create your development environment:
 
-* A VirtualBox Virtual Machine
-* Dual-boot Ubuntu installation
-* Windows Subsystem for Linux (WSL)
+- A VirtualBox Virtual Machine
+- Dual-boot Ubuntu installation
+- Windows Subsystem for Linux (WSL2)
 
-A **virtual machine** is an emulation of a computer that runs within your existing OS. It allows you to use another operating system inside of a program on your current operating system (e.g. Running Linux inside of Windows). Virtual machines are as simple to install as any other program and are risk free. If you don't like Linux, you can easily remove the virtual machine. Virtual machines are a great way for new developers to get started quickly.
-
- - [Watch this video](https://youtu.be/yIVXjl4SwVo) on Virtual Machines to achieve an overview of how they work.
+A [virtual machine](https://youtu.be/yIVXjl4SwVo) is an emulation of a computer that runs within your existing OS. It allows you to use another operating system inside of a program on your current operating system (e.g. Running Linux inside of Windows). Virtual machines are as straightforward to install as any other program and are risk free. If you don't like Linux, you can easily remove the virtual machine. Virtual machines are a great way for new developers to get started quickly.
 
 **Dual-booting** means installing two operating systems on your computer, which can give you the option to boot either Linux or Windows when your computer first starts up. The advantage of dual-booting over a virtual machine is that the OS can use all of your computer's resources, resulting in much faster operation. There is some risk to installing a dual-boot system because you're changing your hard drive partitions, but you'll be okay as long as you take your time and read the instructions.
 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be overstated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
 
-**Windows Subsystem for Linux** lets you run a full-fledged Linux environment from within an existing Windows installation, giving you all of the advantages of Linux without needing to run a virtual machine or dual boot. We'll be using version 2 of WSL, commonly known as WSL2, within the curriculum.
+**Windows Subsystem for Linux** lets you run a full-fledged Linux environment from within an existing Windows installation, giving you all of the advantages of Linux through a simplified installation process. We'll be using version 2 of WSL, commonly known as WSL2, within the curriculum.
 
 ### Concerned about installing a new OS?
 

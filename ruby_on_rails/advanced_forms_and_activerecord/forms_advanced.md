@@ -1,6 +1,6 @@
 ### Introduction
 
-You learned about the basics of building forms in HTML and Rails in previous lessons and you can do a whole lot with that knowledge.  But there are also cases when crafting a good user experience demands building a form that handles multiple things (e.g. model objects) at once.  Users only like clicking the submission button once so you'd better be able to give them the simple experience they demand.
+You learned about the basics of building forms in HTML and Rails in previous lessons and you can do a whole lot with that knowledge.  But there are also cases when crafting a good user experience demands building a form that handles multiple things (e.g. model objects) at once.  Users only like clicking the submission button once so you'd better be able to give them the experience they demand.
 
 In this section, we'll take a look at some of the options you have to make a form handle multiple model objects at once.  You'll also learn how to prepopulate a dropdown menu with objects.
 
@@ -47,7 +47,7 @@ This creates a dropdown list with each user's name as an option.  Your `#create`
 
 But Rails provides some less verbose ways of doing the same thing, namely using the `#select_tag` helper in conjunction with the `#options_for_select` helper.  The `#select_tag` will create the surrounding tag while the `#options_for_select` gives `#select_tag` the array of options it needs.
 
-<span id='options-for-select'>`#options_for_select` expects a very specific input -- an array of arrays which provide the text for the dropdown option and the value it represents.<span>  So `options_for_select([["choice1",1],["choice2",2]])` creates a couple of option tags, one for each choice.  This is great, because that's exactly what `#select_tag` expects for its second argument.  The only wrinkle here is that you need to convert your `@users` collection, which has full User objects, into a simple array with just `name` and `value`.  That's easy using `#map`:
+<span id='options-for-select'>`#options_for_select` expects a very specific input -- an array of arrays which provide the text for the dropdown option and the value it represents.<span>  So `options_for_select([["choice1",1],["choice2",2]])` creates a couple of option tags, one for each choice.  This is great, because that's exactly what `#select_tag` expects for its second argument.  The only wrinkle here is that you need to convert your `@users` collection, which has full User objects, into an array with just `name` and `value`.  That's easy using `#map`:
 
 ~~~ruby
   # app/controllers/posts_controller.rb

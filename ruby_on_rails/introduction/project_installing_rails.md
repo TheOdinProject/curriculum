@@ -21,7 +21,7 @@ Don't worry if you don't totally understand what you are doing in these next ste
 
 #### Step 1.1: Install Rails
 
-We've previously installed Ruby, and now it's time to install Ruby on Rails. It's as simple as running one command!
+We've previously installed Ruby, and now it's time to install Ruby on Rails. It's just running one command!
 
 ~~~bash
 gem install rails

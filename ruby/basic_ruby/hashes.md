@@ -1,8 +1,9 @@
 ### Introduction
 Now that you've learned about arrays, it's time to get into the array's supercharged cousin: **the hash**. Ruby hashes are more advanced collections of data and are similar to objects in JavaScript and dictionaries in Python if you're familiar with those.
 
-### Learning outcomes
-By the end of this lesson, you should be able to do the following:
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
  - Explain what a hash is.
  - Describe how to create a new hash and how to add information to it.
@@ -22,14 +23,14 @@ There are two important differences to note between the vending machine array an
 ### Creating hashes
 Let's dive in and create a hash!
 
-~~~ruby
+```ruby
 my_hash = {
   "a random word" => "ahoy",
   "Dorothy's math test score" => 94,
   "an array" => [1, 2, 3],
   "an empty hash within a hash" => {}
 }
-~~~
+```
 
 This example shows the most basic way to create a hash, which is to use the hash literal of curly braces (`{}`).
 
@@ -37,77 +38,77 @@ The above hash has four keys that point to four different values. For example, t
 
 Just like with an array, you can also create a new hash by calling the good old `::new` method on the `Hash` class.
 
-~~~ruby
+```ruby
 my_hash = Hash.new
 my_hash               #=> {}
-~~~
+```
 
 Of course, hashes don't only take strings as keys and values. Ruby is a pretty flexible language, so you can jam any old thing in there and it'll work just fine.
 
-~~~ruby
+```ruby
 hash = { 9 => "nine", :six => 6 }
-~~~
+```
 
 ### Accessing values
 You can access values in a hash the same way that you access elements in an array. When you call a hash's value by key, the key goes inside a pair of brackets, just like when you're calling an array by index.
 
-~~~ruby
+```ruby
 shoes = {
   "summer" => "sandals",
   "winter" => "boots"
 }
 
 shoes["summer"]   #=> "sandals"
-~~~
+```
 
 If you try to access a key that doesn't exist in the hash, it will return `nil`:
 
-~~~ruby
+```ruby
 shoes["hiking"]   #=> nil
-~~~
+```
 
 Sometimes, this behavior can be problematic for you if silently returning a `nil` value could potentially wreak havoc in your program. Luckily, hashes have a `fetch` method that will raise an error when you try to access a key that is not in your hash.
 
-~~~ruby
+```ruby
 shoes.fetch("hiking")   #=> KeyError: key not found: "hiking"
-~~~
+```
 
 Alternatively, this method can return a default value instead of raising an error if the given key is not found.
 
-~~~ruby
+```ruby
 shoes.fetch("hiking", "hiking boots") #=> "hiking boots"
-~~~
+```
 
 ### Adding and changing data
 You can add a key-value pair to a hash by calling the key and setting the value, just like you would with any other variable.
 
-~~~ruby
+```ruby
 shoes["fall"] = "sneakers"
 
 shoes     #=> {"summer"=>"sandals", "winter"=>"boots", "fall"=>"sneakers"}
-~~~
+```
 
 You can also use this approach to change the value of an existing key.
 
-~~~ruby
+```ruby
 shoes["summer"] = "flip-flops"
 shoes     #=> {"summer"=>"flip-flops", "winter"=>"boots", "fall"=>"sneakers"}
-~~~
+```
 
 ### Removing data
-Deleting data from a hash is simple with the hash's `#delete` method, which provides the cool functionality of returning the value of the key-value pair that was deleted from the hash.
+Deleting data from a hash is done with the hash's `#delete` method, which provides the cool functionality of returning the value of the key-value pair that was deleted from the hash.
 
-~~~ruby
+```ruby
 shoes.delete("summer")    #=> "flip-flops"
 shoes                     #=> {"winter"=>"boots", "fall"=>"sneakers"}
-~~~
+```
 
 ### Methods
 Hashes respond to many of the same methods as arrays do since they both employ Ruby's **Enumerable** module. In the next lesson, we'll go into far more detail on the Enumerable module, including the differences in how the Enumerable methods behave for arrays and hashes.
 
 A couple of useful methods that are specific to hashes are the `#keys` and `#values` methods, which very unsurprisingly return the keys and values of a hash, respectively. Note that both of these methods return *arrays*.
 
-~~~ruby
+```ruby
 books = {
   "Infinite Jest" => "David Foster Wallace",
   "Into the Wild" => "Jon Krakauer"
@@ -115,25 +116,25 @@ books = {
 
 books.keys      #=> ["Infinite Jest", "Into the Wild"]
 books.values    #=> ["David Foster Wallace", "Jon Krakauer"]
-~~~
+```
 
 ### Merging two hashes
 Occasionally, you'll come across a situation where two hashes wish to come together in holy union. Luckily, there's a method for that. (No ordained minister required!)
 
-~~~ruby
+```ruby
 hash1 = { "a" => 100, "b" => 200 }
 hash2 = { "b" => 254, "c" => 300 }
 hash1.merge(hash2)      #=> { "a" => 100, "b" => 254, "c" => 300 }
-~~~
+```
 
 Notice that the values from the hash getting merged in (in this case, the values in `hash2`) overwrite the values of the hash getting... uh, merged *at* (`hash1` here) when the two hashes have a key that's the same.
 
-For a full list of the methods that work on hashes, check out the [Ruby Docs](https://ruby-doc.org/core-3.1.2/Hash.html)
+For a full list of the methods that work on hashes, check out the [Ruby Docs](https://docs.ruby-lang.org/en/3.2/Hash.html)
 
 ### Symbols as hash keys
 In this lesson, we mostly used strings for hash keys, but in the real world, you'll almost always see symbols (like `:this_guy`) used as keys. This is predominantly because symbols are far more performant than strings in Ruby, but they also allow for a much cleaner syntax when defining hashes. Behold the beauty:
 
-~~~ruby
+```ruby
 # 'Rocket' syntax
 american_cars = {
   :chevrolet => "Corvette",
@@ -146,16 +147,16 @@ japanese_cars = {
   toyota: "Corolla",
   nissan: "Altima"
 }
-~~~
+```
 
 That last example brings a tear to the eye, doesn't it? Notice that the hash rocket and the colon that represents a symbol have been mashed together. This unfortunately only works for symbols, though, so don't try `{ 9: "value" }` or you'll get a syntax error.
 
 When you use the cleaner 'symbols' syntax to create a hash, you'll still need to use the standard symbol syntax when you're trying to access a value. In other words, regardless of which of the above two syntax options you use when creating a hash, they both create symbol keys that are accessed the same way.
 
-~~~ruby
+```ruby
 american_cars[:ford]    #=> "Mustang"
 japanese_cars[:honda]   #=> "Accord"
-~~~
+```
 
 ### Assignment
 
@@ -164,12 +165,6 @@ japanese_cars[:honda]   #=> "Accord"
 1. Read Launch School's chapter on [Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using irb or any other REPL, such as [replit.com](https://replit.com/languages/ruby).
 2. Complete the [hash](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
-
-
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* Read the article [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes) by Erik Trautman. Note that one of the delete examples is incorrect: setting a value to `nil` does not delete the key-value pair.
 
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
@@ -182,3 +177,9 @@ This section contains questions for you to check your understanding of this less
 - <a class='knowledge-check-link' href='#removing-data'>How can you delete existing data from a hash?</a>
 - <a class='knowledge-check-link' href='#merging-two-hashes'>How can you merge two hashes together?</a>
 - <a class='knowledge-check-link' href='#symbols-as-hash-keys'>Why is it preferred to use symbols as hash keys?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- Read the article [Ruby Explained: Hashes](http://www.eriktrautman.com/posts/ruby-explained-hashes) by Erik Trautman. Note that one of the delete examples is incorrect: setting a value to `nil` does not delete the key-value pair.
