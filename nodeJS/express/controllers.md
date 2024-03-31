@@ -103,9 +103,11 @@ In this example, the middleware function logs a message, adds a custom property 
 
 One thing to note about is that middleware functions are executed in the order they are defined or registered in your application. This means that the sequence in which you define your middleware functions matters, as it determines the order in which they will be invoked during the request-response cycle. So you need to make sure and be aware that your middlewares are placed in the correct order. As an example, some packages have middlewares that changes the `Request` object, as a result these middlewares should be placed at the very top of your application in order for you to be able to see their changes in all of your middlewares below it.
 
+There is also a special type of middleware that handles errors which we will get to in a sec.
+
 ### Controllers
 
-As said earlier, controllers are just functions, but they have a well-defined responsibility that encapsulates extracting relevant data from the request, invoking the necessary business logic or database operations, and sending the appropriate response to the client. This controller pattern also helps with keeping your application code organized and maintainable.
+As said earlier, controllers are just functions, they also classify as a middleware (at least in the express world) that are used by route handlers but they have a well-defined responsibility and they encapsulate extracting relevant data from the request, invoking the necessary business logic or database operations, and sending the appropriate response to the client. This controller pattern also helps with keeping your application code organized and maintainable.
 
 The naming conventions for these controllers are usually based on the route handler they will be attached to e.g. get route -> getSomething, post route -> createSomething, delete route -> deleteSomething, etc, but note that some routes for example a post route does not create anything so naming may change based on the requirements. But there is no fixed rule since express is not opinionated, it will always be based on you or someone elses convention.
 
@@ -189,7 +191,7 @@ const getUserById = asyncHandler(async (req, res) => {
 
 #### With a middleware
 
-We can also create a global error middleware to handle all errors in our application coming down from other middlewares and this error middleware is commonly placed at the very end of our application code, to ensure that it is actually the last middleware to be executed and to only handle errors bubbling down from other middlewares before it.
+Remember what we said earlier regarding a "special type of middleware"? Let's actually look into that now. There is an error middleware that handles all errors in our application coming down from other middlewares and this error middleware is commonly placed at the very end of our application code, to ensure that it is actually the last middleware to be executed and to only handle errors bubbling down from other middlewares before it.
 
 ```js
 // Every thrown error in the application or the previous middleware calling `next` with an error as an argument will eventually go to this middleware
