@@ -44,7 +44,7 @@ You'll get a chance to play with mailers in the projects.
 
 ### Letter opener
 
-One key thing to note is that you don't want to fire off a bunch of emails when you're testing your app in the development environment.  That's not just bad practice, it can make your users pretty unhappy and get you put on SPAM lists.  No bueno.  But you do want to make sure the email function is working properly.  Luckily, there's a simple solution which is quite useful.
+One key thing to note is that you don't want to fire off a bunch of emails when you're testing your app in the development environment. That's not just bad practice, it can make your users pretty unhappy and get you put on SPAM lists. No bueno. But you do want to make sure the email function is working properly. Luckily, there's a solution which is quite useful.
 
 The [Letter Opener gem (see docs)](https://github.com/ryanb/letter_opener), put in your `development` group of the Gemfile, will take your emails and display them in the web browser for you whenever they would otherwise be sent.  You just switch a config setting in your `config/environments/development.rb` file and you're good to go.  Sweet.
 
@@ -69,11 +69,6 @@ The [Letter Opener gem (see docs)](https://github.com/ryanb/letter_opener), put 
 
 Sending email is just a slightly different way of using the same patterns you've already been using for controllers and views, so it should be pretty straightforward to pick up.  You'll have to navigate the usual batch of errors when trying out new things (often related to the configuration or naming your files properly), but it'll come to you quickly.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [How to Create, Preview, and Send Email From Your Rails App](https://www.youtube.com/watch?v=9eFXEzOPRNs)
-
 ### Knowledge check
 
 * <a class='knowledge-check-link' href='#brief-overview'>How do you create a new mailer from the command line?</a>
@@ -82,3 +77,9 @@ This section contains helpful links to other content. It isn't required, so cons
 * <a class='knowledge-check-link' href='#callbacks'>How do you use callbacks with mailers?</a>
 * <a class='knowledge-check-link' href='#email-wisdom'>How do you write links in mailer views?</a>
 * <a class='knowledge-check-link' href='#email-wisdom'>How do you style an HTML email?</a>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [How to Create, Preview, and Send Email From Your Rails App](https://www.youtube.com/watch?v=9eFXEzOPRNs)

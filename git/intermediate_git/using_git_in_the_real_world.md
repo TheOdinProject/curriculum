@@ -1,6 +1,6 @@
 ### Introduction
 
-Git basics are very simple, but it sometimes feels like a bottomless pit when you find yourself on the wrong side of a confusing error situation. It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with Git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around.
+Git basics are very straightforward, but it sometimes feels like a bottomless pit when you find yourself on the wrong side of a confusing error situation. It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with Git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around.
 
 The thing about Git is that, unless you've got a seriously impressive memory, you can't just learn it by reading about it up front... you need to do it. Find a problem you want to go back and fix, hit an error in your merge, etc. and Google the hell out of it, learning a new Git tactic in the process.
 
@@ -10,7 +10,12 @@ To help you out, come back and refer to this lesson again when you're in trouble
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Using Git to make open source contributions
+- A reminder about commit messages.
+- Using Git to make open source contributions.
+
+### Commit messages for collaboration
+
+Before we dive into workflows, take a minute to remind yourself about good commit messages. You can check the [foundations lesson](https://www.theodinproject.com/lessons/foundations-commit-messages) for a reminder. This is a good time to draw particular attention to [Conventional Commits](https://www.conventionalcommits.org), a standard for commits that is gaining more and more popularity for collaborative projects. It helps to make sure your commit message gives a clear description of its purpose to anyone reading. You may like to implement these going forwards (if you aren't already!), or at least be aware of them for when you read other repos.
 
 ### A Git workflow for open source contribution
 
@@ -23,11 +28,11 @@ The key players in this story will be the `upstream` (the original GitHub reposi
 #### Initial setup
 
 1. Read [the contributing guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md) for the project.
-2. Navigate to the curriculum repository and fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub.
-3. Clone your forked repository onto your local machine using something like `git clone git@github.com:your_user_name_here/curriculum.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on GitHub).
-4. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on GitHub. You will use this to push changes back up to GitHub. You'll also want to be able to pull directly from the original repository on GitHub, which we'll call `upstream`, by setting it up as another remote. Do this by using the git command below inside the project folder `curriculum`:
+1. Navigate to the curriculum repository and fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub.
+1. Clone your forked repository onto your local machine using something like `git clone git@github.com:your_user_name_here/curriculum.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on GitHub).
+1. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on GitHub. You will use this to push changes back up to GitHub. You'll also want to be able to pull directly from the original repository on GitHub, which we'll call `upstream`, by setting it up as another remote. Do this by using the git command below inside the project folder `curriculum`:
 
-```
+```bash
 git remote add upstream git@github.com:TheOdinProject/curriculum.git
 ```
 
@@ -48,15 +53,15 @@ We've got one main branch -- `main`. `main` is for production-ready code. Any co
 #### Sending your pull request
 
 1. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `main`, the hard part is all over. All that's left is to make the Pull Request (often abbreviated as PR) against our `upstream` repo on GitHub!
-2. Now you want to send your feature branch back up to your `origin` (your fork of the `upstream` repository). You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request. Use `git push origin your_feature_name` to ship your feature branch up to your fork on GitHub.
-3. If you have been following along with the above steps to get familiar with this workflow, you should **stop at this point**. If you have completed an assigned issue, the final step is to submit a pull request to merge your feature branch into the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
-4. Shake your moneymaker, you're an OSS contributor!
+1. Now you want to send your feature branch back up to your `origin` (your fork of the `upstream` repository). You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request. Use `git push origin your_feature_name` to ship your feature branch up to your fork on GitHub.
+1. If you have been following along with the above steps to get familiar with this workflow, you should **stop at this point**. If you have completed an assigned issue, the final step is to submit a pull request to merge your feature branch into the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
+1. Shake your moneymaker, you're an OSS contributor!
 
 ### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-- <a class='knowledge-check-link' href='#initial-setup'>What name is typically given for a Git remote that points to a repo that's been forked? </a>
+- <a class='knowledge-check-link' href='#initial-setup'>What name is typically given for a Git remote that points to a repo that's been forked?</a>
 - <a class='knowledge-check-link' href='#sending-your-pull-request'>Can you directly send your changes to a repository that you don't own/have write access to?</a>
 - <a class='knowledge-check-link' href='#ongoing-workflow'>What should you do immediately before merging your feature branch into main?</a>
 

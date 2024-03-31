@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Efficiency basics
 
-The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a simple little program that prints out all odd numbers between 1 and 10.
+The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a little program that prints out all odd numbers between 1 and 10.
 
 ```ruby
 def odd_numbers_less_than_ten
@@ -87,7 +87,7 @@ To do that, we need to delve into a new concept: Asymptotic Notations and, in pa
 
 ### Asymptotic notations
 
-Simply put, Asymptotic Notations are used to describe the running time of an algorithm. Because an algorithm's running time can differ depending on the input, there are several notations that measure that running time in different ways. The 3 most common are as follows:
+Asymptotic Notations are used to describe the running time of an algorithm. Because an algorithm's running time can differ depending on the input, there are several notations that measure that running time in different ways. The 3 most common are as follows:
 
 - Big O Notation - represents the upper bound of an algorithm. This means the worst-case scenario for how the algorithm will perform.
 - Omega Notation - represents the lower bound of an algorithm. This is the best-case scenario.
@@ -120,7 +120,7 @@ The Big O Notations in the order of speed from fastest to slowest are:
 
 #### O(1) - constant complexity
 
-To understand Constant Complexity, let's use a simple array.
+To understand Constant Complexity, let's use an array.
 
 ```ruby
 arr = [1, 2, 3, 4, 5]
@@ -136,7 +136,7 @@ We can still access any element in just one step. `arr[7]` gives us `8` in a sin
 
 Looking up something in one step is as good as it gets for time complexity.
 
-While we're looking at the simplest form of Big O, let's take a look at one of its little gotchas to keep in mind. You may have thought a moment ago, is it really just one step? The answer is technically no, in reality the computer must first look up where the array is in memory, then from the first element in the array it needs to jump to the index argument provided. That's at least a couple of steps. So you wouldn't be wrong for writing something like `O(1 + 2(steps))`. However, the 2 steps are merely incidental. With an array of 10,000 elements, it still takes the same amount of steps as if the array was 2 elements. Because of this, Big O doesn't concern itself with these incidental numbers. They don't provide any context to how the complexity grows when the data size changes, because they are constant, and so in Big O they are dropped. Big O only wants to tell us an algorithm's complexity relative to the size of the input.
+While we're looking at the basic form of Big O, let's take a look at one of its little gotchas to keep in mind. You may have thought a moment ago, is it really just one step? The answer is technically no, in reality the computer must first look up where the array is in memory, then from the first element in the array it needs to jump to the index argument provided. That's at least a couple of steps. So you wouldn't be wrong for writing something like `O(1 + 2(steps))`. However, the 2 steps are merely incidental. With an array of 10,000 elements, it still takes the same amount of steps as if the array was 2 elements. Because of this, Big O doesn't concern itself with these incidental numbers. They don't provide any context to how the complexity grows when the data size changes, because they are constant, and so in Big O they are dropped. Big O only wants to tell us an algorithm's complexity relative to the size of the input.
 
 Do the number of steps matter? Yes, they might. We'll touch on when this may be the case a little later.
 
@@ -185,7 +185,7 @@ This one is pretty easy to wrap your head around. Linear Complexity just tells u
 
 You can't say this one isn't appropriately named. This notation means we have an algorithm which initially is `O(log N)` such as our example earlier of Binary Search where it repeatedly breaks an array in half, but with `O(N log N)` each of those array halves is processed by another algorithm with a complexity of `O(N)`.
 
-One such algorithm is merge sort, and it just so happens you tackle this project in our course :)
+One such algorithm is the merge sort algorithm from our previous lesson. :)
 
 #### O(n&#178;) - quadratic complexity
 

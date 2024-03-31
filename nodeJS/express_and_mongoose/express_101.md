@@ -2,9 +2,9 @@
 
 In the last lesson, we set the stage by explaining quite a bit of the background information you'll need to really understand what's going on as we start to dive into Express. This lesson will actually start you on the project that you'll be completing as you follow the tutorial.
 
-### Learning outcomes
+### Lesson overview
 
-By the end of this lesson, you should be able to do the following:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Use `express-generator` to generate a basic express site.
 - Understand the basic parts of an express project.
@@ -14,13 +14,13 @@ By the end of this lesson, you should be able to do the following:
 
 ### Templating engines
 
-A templating engine is a tool that allows you to insert variables and simple logic into your views. For instance, you could have a header that updates with the actual user's name once they've logged in, something that is not possible with plain HTML. As the lesson mentions, there are several templating languages available for JavaScript.  The tutorial uses [Pug (formerly known as Jade)](https://pugjs.org) which has a bit of a learning curve because it looks and feels dramatically different from regular HTML. If you've ever worked with Ruby on Rails you might be more comfortable with [ejs](https://ejs.co), which is _very_ similar to `erb`.
+A templating engine is a tool that allows you to insert variables and logic into your views. For instance, you could have a header that updates with the actual user's name once they've logged in, something that is not possible with plain HTML. As the lesson mentions, there are several templating languages available for JavaScript.  The tutorial uses [Pug (formerly known as Jade)](https://pugjs.org) which has a bit of a learning curve because it looks and feels dramatically different from regular HTML. If you've ever worked with Ruby on Rails you might be more comfortable with [ejs](https://ejs.co), which is _very_ similar to `erb`.
 
-It's up to you which you choose! If you choose not to use Pug you will still be able to follow the tutorial just fine. Most of the Odin staff prefer ejs over Pug simply because we like working with HTML, but in the end, there is nothing wrong with Pug if you like the look of it or want to learn something new.
+It's up to you which you choose! If you choose not to use Pug you will still be able to follow the tutorial just fine. Most of the Odin staff prefer ejs over Pug, because we like working with HTML, but in the end, there is nothing wrong with Pug if you like the look of it or want to learn something new.
 
 ### Middleware
 
-This step of the MDN tutorial mentions middleware, but does not clearly define it. Middleware is a complicated word for a simple concept. <span id='middleware'>A middleware is just a plain JavaScript function that Express will call for you between the time it receives a network request and the time it fires off a response (i.e. it's a function that sits in the _middle_)</span>. You will eventually be using several of these functions that will run in a specific sequence for every request.
+This step of the MDN tutorial mentions middleware, but does not clearly define it. Middleware is a complicated word for a basic concept. <span id='middleware'>A middleware is just a plain JavaScript function that Express will call for you between the time it receives a network request and the time it fires off a response (i.e. it's a function that sits in the _middle_)</span>. You will eventually be using several of these functions that will run in a specific sequence for every request.
 
 For example, you might have a logger (that prints details of the request to the console), an authenticator (that checks to see if the user is logged in, or otherwise has permission to access whatever they're requesting) and a static-file server (if the user is requesting a static file then it will send it to them). All of these functions will be called in the order you specify every time there's a request on the way to your `app.get("/")` function.
 
@@ -46,11 +46,11 @@ When someone visits your site, their web-browser sends a request to your server.
 
 - Check out the documentation for the response object [here!](https://expressjs.com/en/4x/api.html#res)
 
-<span id='next'>`next`</span> is a function that you see a little less often, but is _very_ important to the functioning of your app. If you are writing or using some middleware that does not send a response back to the user's client then you _must_ call the `next` function at the end of your middleware function.  The next function simply tells express to move to the next middleware in the stack, but if you forget to call it then your app will pause and nothing will happen!
+<span id='next'>`next`</span> is a function that you see a little less often, but is _very_ important to the functioning of your app. If you are writing or using some middleware that does not send a response back to the user's client then you _must_ call the `next` function at the end of your middleware function.  The next function tells express to move to the next middleware in the stack, but if you forget to call it then your app will pause and nothing will happen!
 
 #### An example middleware
 
-As a quick example, if you wanted to create a simple logging middleware you could write a function like this:
+As a quick example, if you wanted to create a basic logging middleware you could write a function like this:
 
 ```javascript
 const myLogger = function(req, res, next) {

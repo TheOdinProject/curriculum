@@ -56,12 +56,12 @@ const server = {
 
 This section contains a general overview of topics that you will learn in this lesson.
 
- - Explain how you declare an `async` function
- - Explain what the `async` keyword does
- - Explain what the `await` keyword does
- - Explain what an `async` function returns
- - Explain what happens when an error is thrown inside an `async` function
- - Explain how you can handle errors inside an `async` function
+ - Explain how you declare an `async` function.
+ - Explain what the `async` keyword does.
+ - Explain what the `await` keyword does.
+ - Explain what an `async` function returns.
+ - Explain what happens when an error is thrown inside an `async` function.
+ - Explain how you can handle errors inside an `async` function.
 
 ### The async keyword
 
@@ -226,8 +226,8 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-1. This [Change promises to async/await video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await.
-2. This [Promises, Async and Await video](https://www.youtube.com/watch?v=vn3tm0quoqE) gives a comprehensive view of Promises, async, and await.
-3. For a more interactive explanation and example, try a [Scrim on async and await](https://scrimba.com/scrim/crd4eMc6?embed=odin,mini-header,no-next-up).
+- This [Change promises to async/await video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await.
+- This [Promises, Async and Await video](https://www.youtube.com/watch?v=vn3tm0quoqE) gives a comprehensive view of Promises, async, and await.
+- For a more interactive explanation and example, try a [Scrim on async and await](https://scrimba.com/scrim/crd4eMc6?embed=odin,mini-header,no-next-up).

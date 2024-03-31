@@ -1,18 +1,21 @@
 ### Introduction
 Images require special care on responsive websites. This lesson presents a few issues that arise when working with responsive images and the options you have when dealing with them.
 
-### Learning outcomes
-* You'll learn how to make your images behave properly when resizing them with CSS.
-* You'll learn how to serve up different images based on screen size.
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- You'll learn how to make your images behave properly when resizing them with CSS.
+- You'll learn how to serve up different images based on screen size.
 
 ### The basics
 
 The most basic problem you are going to face when working with responsive images is the aspect ratio or the relationship between width and height. If you shrink the width of an image on smaller screens and do not manipulate the height, the image will appear distorted!
 
-The solution to this issue is incredibly easy, and we've already mentioned it in an earlier lesson: simply don't define both a width and a height. <span id="aspect-ratio-knowledge-check">If an image is given a flexible width, and the height is set to `auto`, then it should retain its aspect ratio correctly.</span>
+The solution to this issue is incredibly easy, and we've already mentioned it in an earlier lesson: don't define both a width and a height. <span id="aspect-ratio-knowledge-check">If an image is given a flexible width, and the height is set to `auto`, then it should retain its aspect ratio correctly.</span>
 
 ### background-size, background-position and object-fit
-What if you don't want your image to simply shrink (in both height and width)? `background-size` and `object-fit` are two properties that can provide a little more flexibility (pun intended) with how aspect ratios are handled.
+What if you don't want your image to shrink (in both height and width)? `background-size` and `object-fit` are two properties that can provide a little more flexibility (pun intended) with how aspect ratios are handled.
 
 `background-position` and `background-size` are properties that work on elements with a background image, and do not work on normal `img` tags. You'll see some examples and specifics in the reading assignment later, but you can get quite a lot of control over the display and placement of background images by working with these properties. For example, `background-position: center` will make sure the image is always centered in its container, even if the container is too small to fit the whole image. `background-size: cover` will resize the image so that it is always completely filling its container while cropping as little as possible.
 
@@ -25,7 +28,7 @@ Here's a little demo you can play with:
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-`object-fit` works similarly, but is meant for `img` tags. With the `object-fit` property you _can_ specify a width and height for your images and then tell an image how it is supposed to fit itself to those dimensions. The default value for `object-fit` is `fill`, which simply stretches the image to fit the dimensions, but much like `background-size` you can also tell it to `cover` or `contain` the image.
+`object-fit` works similarly, but is meant for `img` tags. With the `object-fit` property you _can_ specify a width and height for your images and then tell an image how it is supposed to fit itself to those dimensions. The default value for `object-fit` is `fill`, which stretches the image to fit the dimensions, but much like `background-size` you can also tell it to `cover` or `contain` the image.
 
 Here's a demo of `object-fit` on an image. Open this one up on CodePen and resize the browser to see how the image reacts.
 
