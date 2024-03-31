@@ -384,6 +384,7 @@ cd Documents
 If you need a codeblock within a list, you should follow the same indenting rules for [multi-line list items](#multi-line-list-items), with the codeblock being indented with 2 spaces for a bulleted list item and 3 spaces for a numbered list item. The following Markdown:
 
 <pre>
+
 - Bullet.
 
   ```javascript
@@ -394,6 +395,7 @@ If you need a codeblock within a list, you should follow the same indenting rule
   ```
 
 - Next bullet.
+
 </pre>
 
 Will result in the following output:
@@ -417,6 +419,8 @@ For nested markdown inside note boxes to be displayed properly additional `markd
 
 A heading can be added to a note by using a `####` heading. When adding a heading, be sure to provide text that helps describe the note rather than "A note" or "Warning".
 
+The opening and closing tags must each be wrapped with a single blank line on either side, or a codeblock delimiter (triple backticks). This applies to any line that contains only a single HTML tag. The only exceptions to this rule are HTML tags inside `html` or `jsx` codeblocks.
+
 ### Variations
 
 Note boxes come in two variations, which can be set by adding an extra class together with `lesson-note`:
@@ -432,6 +436,7 @@ Note boxes come in two variations, which can be set by adding an extra class tog
 #### An optional title
 
 A sample note box.
+
 </div>
 ```
 
@@ -441,6 +446,7 @@ A sample note box.
 #### An optional title
 
 A sample note box, variation: tip.
+
 </div>
 ```
 
@@ -561,7 +567,9 @@ To add a Mermaid diagram to a lesson, visit the [Mermaid docs](https://mermaid.j
 
 ```markdown
 <pre class="mermaid">
-  mermaid diagram content here
+
+mermaid diagram content here
+
 </pre>
 ```
 
