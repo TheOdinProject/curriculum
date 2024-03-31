@@ -21,12 +21,12 @@ When it comes to sending responses from your controllers, you have several metho
 
 - [res.send](https://expressjs.com/en/api.html#res.send) - A general-purpose method for sending a response, it is flexible with what data you can send since it will automatically set the `Content-Type` header based on what data you pass, and yes including setting to an `application/json`.
 - [res.json](https://expressjs.com/en/api.html#res.json) - If you want to send a JSON response, `res.json` is the way to go. It automatically sets the `Content-Type` header to `application/json` and sends the data as JSON. We will cover the use-case of this more later.
-- [res.redirect](https://expressjs.com/en/api.html#res.redirect) - When you want to redirect the client to a different URL, this method allows for that capability. However, do note that this by itself does not work if you are now creating APIs instead of rendering just the views or sending basic responses that still uses the express application as the view.
+- [res.redirect](https://expressjs.com/en/api.html#res.redirect) - When you want to redirect the client to a different URL, this method allows for that capability.
 - [res.render](https://expressjs.com/en/api.html#res.render) - If you're using a template engine that you will setup in a later lesson, `res.render` allows you to render a view template and send the rendered HTML as the response.
 
 There is also a useful method that you can use to set the status code manually.
 
-- [res.status](https://expressjs.com/en/api.html#res.status) - You can also chain other methods through this (e.g. `res.status(200).send(...)` but note that you can't do `res.send(...).status(200)`). This method does not end the request-response cycle. And also `200` is already the default so you wouldn't necessarily need this for `200`, but for consistency, we'll keep using it.
+- [res.status](https://expressjs.com/en/api.html#res.status) - You can also chain other methods through this (e.g. `res.status(200).send(...)` but note that you can't do `res.send(...).status(200)`). This method does not end the request-response cycle. And also `200` is already the default so you wouldn't necessarily need this for `200`, but for consistency, we'll keep using it.controller
 
 <div class="lesson-note" markdown="1">
 
@@ -68,7 +68,7 @@ A middleware can perform various tasks, such as:
 - Ending the request-response cycle (this also means that any other middlewares after the middleware that ended the cycle will not execute anymore)
 - Calling the next middleware function in the stack (this is also important in validation middlewares, execute some validation code -> pass the control to the next middleware)
 
-Express has a rich ecosystem and you will likely find a package that solves the problem you are encountering. For example, some packages provide middleware to handle authentication, cors, sessions, logging, validation, and more! But we should identify the basic and built-in ones first.
+Express has a rich ecosystem and you will likely find a package that solves the problem you are encountering. For example, some packages provide middleware to handle authentication, cors, rate limiting, sessions, logging, validation, and more! But we should identify the basic and built-in ones first.
 
 #### Application-level middleware
 
@@ -163,8 +163,10 @@ const getUserById = async (req, res) => {
   } catch (error) {
     console.error("Error retrieving user:", error);
     res.status(500).send("Internal Server Error");
+
     // or we can call next(error) instead of sending a response here
-    // Using `next(error)` however will require you to add a global error middleware that will be demonstrated below
+    // Using `next(error)` however will only render an error page in the express' default view.
+    // So we will need to create a special type of middleware if we want a different response and we will get to that in a bit.
   }
 };
 ```
@@ -305,7 +307,7 @@ Also, as we've discussed earlier with regards to calling the `next` function. We
 1. No argument `next()` - Will pass the control to the next middleware. Very simple and straightforward.
 1. With an error argument `next(new Error(...))` - Will pass and move directly the control to the error middleware.
 1. With the string `next('route')` - Will pass the control to the next route middleware. This only works for `app.METHOD` or `router.METHOD`. Potentially, it can also be the same as just calling `next` with no argument.
-1. With the string `next('router')` - Will skip all middlewares attached to the specific router instance and pass the control back out of the router instance. Basically, back to the parent router say `app` and yes the express `app` under the hood is also just a router.
+1. With the string `next('router')` - Will skip all middlewares attached to the specific router instance and pass the control back out of the router instance. Basically, we exit the router and go back to the parent router say `app` and yes the express `app` under the hood is also just a router.
 
 Out of the four, you will likely only use the first two, unless you have a very specific need that requires the other two.
 
@@ -361,6 +363,14 @@ const express = require('express');
 const userController = require('<path-to-user-controller>');
 
 const router = express.Router();
+
+// You can for example add a top level middleware that handles say authentication and only let the request come in if they're authenticated
+// This prevents from executing the middlewares below if the request is not authenticated
+// We will learn more about authentication in later lessons
+// usually calls either next() or next(error)
+
+// router.use(authMiddleware);
+
 
 // router-level midlewares
 
