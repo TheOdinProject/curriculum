@@ -365,7 +365,7 @@ const obj = {
 It is best practice to explicitly declare the language immediately after the opening backticks, so that neither the
 syntax highlighter nor the next editor must guess.
 
-If a language has both a long and short form that markdown will accept, for example `javascript` will also be accepted as `js`, and `plaintext` will also be accepted as `txt`, the long form should be used.
+If a language has both a long and short form that markdown will accept, for example `javascript` will also be accepted as `js`, and `text` will also be accepted as `txt`, the long form should be used.
 
 #### No extraneous characters
 
