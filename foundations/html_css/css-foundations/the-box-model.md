@@ -53,7 +53,7 @@ Be sure to study the diagrams carefully.
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [From inside to outside, what is the order of box-model properties?](#the-box-model)
 - [What does the `box-sizing` CSS property do?](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model)
@@ -66,7 +66,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - For a more interactive explanation and example, try this [Scrim on the box model](https://scrimba.com/scrim/cof3d488184abe24ec6258ab4).
 - This informative video tutorial by [Slaying The Dragon](https://youtu.be/nSst4-WbEZk?si=HbgcEB7UyLdNbE6n) offers a valuable resource for understanding the box model.
