@@ -45,7 +45,7 @@ Also invalidates when HTML blocks are chained without blank lines between them.
 Also invalidates when HTML blocks are chained without blank lines between them.
 </div>
 
-```md
+```markdown
 <div>
 
 The only exception to blank lines is a code block delimiter.
@@ -53,7 +53,7 @@ The only exception to blank lines is a code block delimiter.
 </div>
 ```
 
-```md
+```markdown
 <div>
 
 This line above the closing tag is not a blank line nor a code block delimiter, so the closing tag errors.
@@ -74,7 +74,7 @@ This line above the closing tag is not a blank line nor a code block delimiter, 
 </p>
 ```
 
-```md
+```markdown
 <p>
     But does not like it if done in a non-HTML/JSX code block
 </p>
