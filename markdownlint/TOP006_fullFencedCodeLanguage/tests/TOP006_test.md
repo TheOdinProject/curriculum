@@ -27,7 +27,7 @@ console.log('This code block is valid as it uses the appropriate full name.');
 ```
 
 ```md
-The rule catches the following languages, as they are they ones that will be seen in this repo's files
+The rule catches the following languages, as they are they ones expected to be seen in this repo's files
 md => markdown
 rb => ruby
 js => javascript

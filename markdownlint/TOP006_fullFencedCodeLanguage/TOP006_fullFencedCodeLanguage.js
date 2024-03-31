@@ -5,7 +5,7 @@ const LANGUAGES_WITH_ABBREVIATIONS = new Map()
   .set("md", "markdown");
 
 module.exports = {
-  names: ["TOP006", "long-fenced-code-language"],
+  names: ["TOP006", "full-fenced-code-language"],
   description:
     "Fenced code blocks must use the full name for a language if both full and abbreviated options are valid.",
   tags: ["code", "language"],
@@ -13,7 +13,7 @@ module.exports = {
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP006.md"
   ),
   function: function TOP006(params, onError) {
-    const fencesWithShortLanguageName = params.tokens
+    const fencesWithAbbreviatedName = params.tokens
       .filter((token) => {
         return token.type === "fence" && LANGUAGES_WITH_ABBREVIATIONS.has(token.info);
       })
@@ -23,7 +23,7 @@ module.exports = {
         lineNumber: token.lineNumber,
       }));
 
-    fencesWithShortLanguageName.forEach((fence) => {
+    fencesWithAbbreviatedName.forEach((fence) => {
       onError({
         lineNumber: fence.lineNumber,
         detail: `Expected: ${fence.fullName}; Actual: ${fence.abbreviatedName} `,
