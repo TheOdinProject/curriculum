@@ -1,7 +1,7 @@
 module.exports = {
   names: ["TOP005", "blanks-around-multiline-html-tags"],
   description: "Multiline HTML tags should be surrounded by blank lines or code block delimiters",
-  tags: ["html", "blanks"],
+  tags: ["html", "blank_lines"],
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md"
   ),
