@@ -50,13 +50,13 @@ In the first example, single-letter variables are used and the indentation is in
 
 Imagine you're collaborating on a project with someone who has written the first function. How long will it take you to decipher what's going on so you can continue with your work? Or perhaps you've written it yourself some time ago and completely forgotten that it even existed. In both situations, you will eventually understand what is happening, but it's not going to be fun.
 
-Example B represents clean code. While you may not know what each part does, it's much easier to guess what's happening because the functions and variables are named clearly. The indentation follows a consistent and logical pattern, and there are no semicolons interrupting the code within a line.
+Example B represents clean code. While you may not know what each part does, it's much easier to guess what's happening because the functions and variables are named clearly. The indentation follows a consistent and logical pattern.
 
 Single characters can be used as variable names in the context of a loop or a callback function, but avoid them elsewhere.
 
 #### About camelCase
 
-camelCase is a naming convention that allows writing multiple words together without spaces or punctuation. In camelCase, when a variable name consists of multiple words like our `setTimeout` example, the first word is written completely in lowercase, while the second word (and any subsequent words) are capitalized.
+camelCase is a naming convention that allows writing multiple words together without spaces or punctuation. In camelCase, when a variable name consists of multiple words like our `setTimeout` example, the first word is written completely in lowercase, while the first letter of the second word (and any subsequent words) are capitalized.
 
 Throughout this lesson, most of our variables and functions (at least in the good examples!) will be named using camelCase. It's a good example to follow.
 
