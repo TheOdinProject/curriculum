@@ -46,17 +46,17 @@ generateUserGreeting("John");
 
 Which of these examples do you find easier to read? It's immediately clear that the latter one is more meaningful. Surprisingly, both of these functions perform the exact same task \(in the exact same way!\), and both are valid code. But the second one is much more readable. Why?
 
-In the first example, single-letter variables are used, there is a semicolon in the middle of lines, and the indentation is inconsistent. The result is a piece of code that is confusing and messy.
+In the first example, single-letter variables are used and the indentation is inconsistent. The result is a piece of code that is confusing and messy.
 
 Imagine you're collaborating on a project with someone who has written the first function. How long will it take you to decipher what's going on so you can continue with your work? Or perhaps you've written it yourself some time ago and completely forgotten that it even existed. In both situations, you will eventually understand what is happening, but it's not going to be fun.
 
-Example B represents clean code. While you may not know what each part does, it's much easier to guess what's happening because the functions and variables are named clearly. The indentation follows a consistent and logical pattern, and there are no semicolons interrupting the code within a line.
+Example B represents clean code. While you may not know what each part does, it's much easier to guess what's happening because the functions and variables are named clearly. The indentation follows a consistent and logical pattern.
 
 Single characters can be used as variable names in the context of a loop or a callback function, but avoid them elsewhere.
 
 #### About camelCase
 
-camelCase is a naming convention that allows writing multiple words together without spaces or punctuation. In camelCase, when a variable name consists of multiple words like our `setTimeout` example, the first word is written completely in lowercase, while the second word (and any subsequent words) are capitalized.
+camelCase is a naming convention that allows writing multiple words together without spaces or punctuation. In camelCase, when a variable name consists of multiple words like our `setTimeout` example, the first word is written completely in lowercase, while the first letter of the second word (and any subsequent words) are capitalized.
 
 Throughout this lesson, most of our variables and functions (at least in the good examples!) will be named using camelCase. It's a good example to follow.
 
