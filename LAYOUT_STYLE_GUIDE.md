@@ -454,7 +454,19 @@ A sample note box, variation: tip.
 
 Long links make source Markdown difficult to read and break the 80 character wrapping. **Wherever possible, shorten your links**.
 
-### Use informative Markdown link titles
+### Use Markdown links
+
+Instead of using HTML anchor tags for links, use Markdown links instead.
+
+```markdown
+// Don't use HTML links
+See the <a href="./templates/lesson-template.md" target="_blank" rel="noreferrer">lesson template</a> for a more easily copyable lesson file.
+
+// Use Markdown links
+See the [lesson template](./templates/lesson-template.md) for a more easily copyable lesson file.
+```
+
+### Use informative titles
 
 Markdown link syntax allows you to set a link title, just as HTML does. Use it wisely.
 
