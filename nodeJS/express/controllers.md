@@ -40,7 +40,7 @@ So for convenience it's more appropriate to use `res.json` instead of `res.send`
 
 We also need to take note that these response methods only ends the request-response cycle, it does not end the function execution. So for example if you somehow do this:
 
-```js
+```javascript
 app.use((req, res) => {
   res.send("Hello"); // This works and this ends the request-response cycle
 
@@ -59,7 +59,7 @@ A middleware function typically takes three parameters (however, there is one th
 
 - `req` - The request object, which represents the incoming HTTP request.
 - `res` - The response object, which represents the HTTP response that will be sent back to the client.
-- `next` - The function that pass the control to the *next* middleware (We'll get to this later).
+- `next` - The function that pass the control to the *next* middleware (We'll get to this later). This is optional.
 
 A middleware can perform various tasks, such as:
 
@@ -84,7 +84,7 @@ Router-level middleware works similarly to application-level middlewares but is 
 
 Here is an example of a basic middleware:
 
-```js
+```javascript
 function myMiddleware(req, res, next) {
   // Perform some operations
   console.log("Middleware function called");
@@ -111,7 +111,7 @@ As said earlier, controllers are just functions, they also classify as a middlew
 
 The naming conventions for these controllers are usually based on the route handler they will be attached to e.g. get route -> getSomething, post route -> createSomething, delete route -> deleteSomething, etc, but note that some routes for example a post route does not create anything so naming may change based on the requirements. But there is no fixed rule since express is not opinionated, it will always be based on you or someone elses convention.
 
-```js
+```javascript
 // user controller file/ controllers/userController.js
 
 const getUserById = async (req, res) => {
@@ -145,7 +145,7 @@ When building robust applications, it's crucial to handle errors gracefully with
 
 Using the same code earlier, wrapping your controller logic in a `try/catch` is the quickest way to handle errors.
 
-```js
+```javascript
 // user controller file
 
 const getUserById = async (req, res) => {
@@ -171,7 +171,7 @@ const getUserById = async (req, res) => {
 
 However, this is not exactly a clean solution since eventually, we will have to add the same try/catch block to *all* controllers. There is a package called `express-async-handler` that you can install to hide this bit, it essentially just chains a `catch` to "catch" any errors in the function.
 
-```js
+```javascript
 const asyncHandler = require("express-async-handler");
 
 // Any errors that is thrown in this function will automatically be caught and call the `next` function
@@ -193,7 +193,7 @@ const getUserById = asyncHandler(async (req, res) => {
 
 Remember what we said earlier regarding a "special type of middleware"? Let's actually look into that now. There is an error middleware that handles all errors in our application coming down from other middlewares and this error middleware is commonly placed at the very end of our application code, to ensure that it is actually the last middleware to be executed and to only handle errors bubbling down from other middlewares before it.
 
-```js
+```javascript
 // Every thrown error in the application or the previous middleware calling `next` with an error as an argument will eventually go to this middleware
 app.use((err, req, res, next) => {
   console.error(err);
@@ -208,13 +208,13 @@ It is the same as the previous middlewares with three parameters but with one ne
 - `err` - The error object. This is an odd one but it *must* be the first parameter in the callback.
 - `req` - The request object, which represents the incoming HTTP request.
 - `res` - The response object, which represents the HTTP response that will be sent back to the client.
-- `next` - The function that pass the control to the *next* middleware (We'll get to this later).
+- `next` - The function that pass the control to the *next* middleware (We'll get to this later). This is optional.
 
 This middleware handles the *errors thrown* in other middlewares or something that is sent by a previous middleware using the `next` function (e.g. `next(err)`).
 
 So the way express distinguishes this middleware is again through adding *four parameters* not a single one missing. A route middleware or a middleware with *less than four parameters* will always be considered as a request middleware instead of this error middleware even if you place it last.
 
-```js
+```javascript
 app.use((req, res, next) => {
   throw new Error("OH NO!");
   // or next(new Error("OH NO!"));
@@ -231,18 +231,19 @@ app.use((err, req, res, next) => {
 
 With the solutions above, the error middleware can only really respond with a `500` status code no matter what error it is. Because what if we actually want to send a `404`? A common way to do this is to create our own custom error by extending the Error object.
 
-```js
+```javascript
 class CustomNotFoundError extends Error {
   constructor(message) {
     super(message);
     this.statusCode = 404;
+    this.name = "NotFoundError"; // So the error is neat when stringified. NotFoundError: message instead of Error: message
   }
 }
 ```
 
 We can then use this custom error class and refactor the earlier version of `getUserById` like so:
 
-```js
+```javascript
 const getUserById = asyncHandler(async (req, res) => {
   const userId = req.params.id;
 
@@ -260,7 +261,7 @@ Since we are using `express-async-handler` that chains the `catch` to "catch" wh
 
 It will eventually end up in the error middleware where we can also modify:
 
-```js
+```javascript
 app.use((err, req, res, next) => {
   console.error(err);
   // We can now specify the `err.statusCode` that exists in our custom error class and if it does not exist it's probably an internal server error
@@ -274,7 +275,7 @@ This is a useful pattern and you will likely create more custom error classes fo
 
 We've used the `next` function a few times now. But what exactly is it? Well, to put it simply, it is used to pass control to the next middleware function in the application's request-response cycle. To give an example:
 
-```js
+```javascript
 const middleware1 = (req, res, next) => {
   console.log("Middleware 1");
   next(); // Pass control to the next middleware
@@ -299,7 +300,14 @@ app.use(middleware3);
 
 Here we have `middleware1`, `middleware2`, and `middleware3`. Where `middleware1` calls the `next` function, since we are not yet sending a response, we pass the control to the next middleware `middleware2` as indicated by the order of `app.use` calls where we send a response which ends the request-response cycle, since it has ended, the third middleware does not run. But if we somehow did not call the `next` function, do you know what would happen? Perhaps pop in the discord server and let us know what you think ;)
 
-Also, as we've discussed earlier with regards to calling the `next` function with an error as an argument `next(new Error("OH NO!"))`. Calling the `next` function like this (it's also what the express-async-handler does) will skip *all* regular middlewares and will go straight to the error middleware we've created before. But there is also another argument that differs from the error argument, a string with the value `'route'`. Calling `next('route')` will pass the control to the next route middleware, but note that this only works in middlewares loaded by using `app.METHOD` or `router.METHOD` and something you will rarely or not use at all.
+Also, as we've discussed earlier with regards to calling the `next` function. We have the following arguments that we can pass to it:
+
+1. No argument `next()` - Will pass the control to the next middleware. Very simple and straightforward.
+1. With an error argument `next(new Error(...))` - Will pass and move directly the control to the error middleware.
+1. With the string `next('route')` - Will pass the control to the next route middleware. This only works for `app.METHOD` or `router.METHOD`. Potentially, it can also be the same as just calling `next` with no argument.
+1. With the string `next('router')` - Will skip all middlewares attached to the specific router instance and pass the control back out of the router instance. Basically, back to the parent router say `app` and yes the express `app` under the hood is also just a router.
+
+Out of the four, you will likely only use the first two, unless you have a very specific need that requires the other two.
 
 ### Consolidating what we've learned
 
@@ -316,7 +324,7 @@ express-app/
 
 Creating a user controller file that contains well-defined responsibilities to handle "User".
 
-```js
+```javascript
 // user controller file - controllers/userController.js
 
 const asyncHandler = require("express-async-handler");
@@ -341,12 +349,12 @@ const createUser = asyncHandler(async (req, res) => {
   // code
 });
 
-module.exports = { getUserById, getUsers };
+module.exports = { getUserById, getUsers, createUser };
 ```
 
 Route file for the "User"
 
-```js
+```javascript
 // route file - routes/userRoutes.js
 
 const express = require('express');
@@ -373,7 +381,7 @@ module.exports = router;
 
 The main application file, our entry point.
 
-```js
+```javascript
 // app file
 
 const express = require('express');
@@ -419,12 +427,15 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What are the common response methods and their use cases?](#handling-responses)
 - [What are the types of middlewares?](#middleware)
-- [What does calling next do? What if we pass an error argument? What about when we pass a string of route?](#what-is-the-next-function)
+- [How does a middleware get executed? In which order?](#middleware)
+- [What does calling the next function do? What if we pass an error argument?](#what-is-the-next-function)
+- [What other arguments you can pass to the next function?](#what-is-the-next-function)
+- [What is a controller?](#controllers)
+- [What happens if you define a middleware function with four parameters?](#with-a-middleware)
 - [What would you do to create a custom error?](#creating-custom-errors)
-- [What happens if you pass four parameters to a middleware?](#with-a-middleware)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- The documentation of express for [Using Express Middleware](https://expressjs.com/en/guide/using-middleware.html) is a short one with the same information but have more examples that you can likely just run through the examples.
