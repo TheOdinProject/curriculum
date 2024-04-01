@@ -238,7 +238,39 @@ export default function App() {
 }
 ```
 
-When supplying a parameter to the function we can't just write `onClick={handleClick('www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the parameter. Like the previous example, this is to prevent the function being called during the render.
+When supplying a parameter to the function we can't just write `onClick={handleClick('www.theodinproject.com')}`, inplace we can use callback function like : `onClick={()=>handleClick('www.theodinproject.com')}`. 
+
+```jsx
+function ChildFunction({text,color,textSize,clickableFunction}){
+    const componentStyle = {
+        color : color,
+        textSize : textSize,
+    }
+    return(
+        <>
+        <button style={componentStyle} onClick={clickableFunction} >{text}</button>
+        </>
+    )
+}
+export default ChildFunction;
+
+
+
+function ParentFunction(){
+    const handleClickfunction = (url) =>{
+        return window.open(url);
+    }
+    return(
+        <>
+        <ChildFunction text = {"Go to Google"} color={"yellow"} textSize={23} clickableFunction = 
+            {()=>handleClickfunction("http://www.google.com")}/>
+        </>
+    )
+}
+export default ParentFunction;
+
+// for opening url in new tab I am using "window.open()"
+```
 
 <div class="lesson-note" markdown="1" >
 
