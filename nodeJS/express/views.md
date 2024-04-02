@@ -25,7 +25,7 @@ At the root of your project, create a subfolder called `views`.
 
 Next, we need to let our app know that we intend to use `EJS` as a template engine, as well as where to look for view files.
 
-In your `app.js` file, add the following:
+In your `app.js` file, set the following application properties:
 
 ```js
 app.set("views", path, join(__dirname, "views"));
