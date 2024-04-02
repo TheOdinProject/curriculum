@@ -1,8 +1,8 @@
 ### Introduction
 
-We’ll need a way of rendering the data from our controller functions, and views let us do that. In the context of the MVC architecture, views are the user-facing part of the application. Views are sections of code that generate the HTML for our applications. They define the layout for the rendered HTML and allow data to be rendered where dictated in our layout. In order to display the resulting HTML to the user, views will need to be rendered, typically at the end of controller functions of `GET` requests.
+Views are the user-facing part of the application, in this case, HTML files. We've dealt with views in an earlier project where the server would send HTML files to the user.  These files are static, but many of our use cases require views to be dynamic w.r.t. data. 
 
-We use template engines to create our views. More specifically, template engines are used to create template files that transform the template into HTML. Any variables defined in our template files are replaced with actual data. Additionally we can insert logic into our template file, eg. render the user's username once they have logged in. This would not be possible with plain HTML.
+Hence, we use template engines to create our views. As the name suggests, we write template files in our codebase that get transformed into HTML when we respond to a server request. Any variables defined in our template files are replaced with actual data. Additionally, we can insert conditional and/or loop logic into our template file, e.g. render the user's username once they have logged in. This would not be possible with plain HTML.
 
 In this course, we will use [EJS](link: https://ejs.co/) which lets us write in JavaScript to create HTML markup. `EJS`' syntax is very similar to that of HTML, meaning that the learning curve is relatively low compared to other template engines.
 
