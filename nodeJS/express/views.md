@@ -137,7 +137,18 @@ Here's another example of how to use `includes` to dynamically render a list of 
   <% users.map( user => { %> <%- include('user/show', {user: user}) %> <% }) %>
 </ul>
 ```
+<div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Directories within the views folder
+
+We can have nested directories of EJS template files within the `views`. For example, to render the template file `./views/user/show.ejs`, we'll need to provide the relative path like so:
+
+```js
+// in res.render
+res.render("user/show")
+
+// in include
+include("user/show")
 Note the use of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
 
 ### Assignment
