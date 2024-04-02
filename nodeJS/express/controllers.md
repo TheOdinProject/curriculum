@@ -36,7 +36,7 @@ There is also a useful method that you can use to set the status code manually.
 
 If `res.send` automatically sets the `Content-Type` based on the data passed, why would we still use `res.json`? `res.json` enforces JSON and will automatically convert non-object values to JSON, but `res.send` will not. `res.json` is just a convenient method that also internally calls `res.send`. `res.send` will only handle things as JSON when dealing with booleans and objects (which includes arrays).
 
-So for convenience it's more appropriate to use `res.json` instead of `res.send`, and if you are sending JSON then you might as well go for a method that is *named "json"*  :)
+So for convenience it's more appropriate to use `res.json` instead of `res.send`, and if you're sending JSON, you might as well use a method that's literally named "json". It's like the perfect match!
 
 </div>
 
@@ -49,9 +49,9 @@ app.use((req, res) => {
 
   // However, it does not exit the function so this will still run
   console.log('will still run!!');
-  
+
   // This will then throw an error that you cannot send again after sending to the client already
-  res.send("Bye"); 
+  res.send("Bye");
 });
 ```
 
@@ -130,7 +130,7 @@ const getUserById = async (req, res) => {
     return;
   }
 
-  res.status(200).send(`User found: ${user.name}`);
+  res.send(`User found: ${user.name}`);
 };
 ```
 
@@ -165,13 +165,13 @@ const getUserById = async (req, res) => {
       return;
     }
 
-    res.status(200).send(`User found: ${user.name}`);
+    res.send(`User found: ${user.name}`);
   } catch (error) {
     console.error("Error retrieving user:", error);
     res.status(500).send("Internal Server Error");
 
     // or we can call next(error) instead of sending a response here
-    // Using `next(error)` however will only render an error page in the express' default view.
+    // Using `next(error)` however will only render an error page in the express' default view and respond with the whole html to the client.
     // So we will need to create a special type of middleware if we want a different response and we will get to that in a bit.
   }
 };
@@ -193,7 +193,7 @@ const getUserById = asyncHandler(async (req, res) => {
     return;
   }
 
-  res.status(200).send(`User found: ${user.name}`);
+  res.send(`User found: ${user.name}`);
 });
 ```
 
@@ -244,7 +244,8 @@ class CustomNotFoundError extends Error {
   constructor(message) {
     super(message);
     this.statusCode = 404;
-    this.name = "NotFoundError"; // So the error is neat when stringified. NotFoundError: message instead of Error: message
+    // So the error is neat when stringified. NotFoundError: message instead of Error: message
+    this.name = "NotFoundError";
   }
 }
 ```
@@ -261,7 +262,7 @@ const getUserById = asyncHandler(async (req, res) => {
     throw new CustomNotFoundError("User not found");
   }
 
-  res.status(200).send(`User found: ${user.name}`);
+  res.send(`User found: ${user.name}`);
 });
 ```
 
@@ -346,7 +347,7 @@ const getUserById = asyncHandler(async (req, res) => {
     throw new CustomNotFoundError("User not found");
   }
 
-  res.status(200).send(`User found: ${user.name}`);
+  res.send(`User found: ${user.name}`);
 });
 
 const getUsers = asyncHandler(async (req, res) => {
@@ -421,7 +422,8 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use((req, res, next) => {
   // You can of course also create your own for your own use-case!
-  next(); // Just make sure to call `next`
+  // Just make sure to call `next`
+  next();
 })
 
 // base mount path is `/users` and will always execute on that specific mount path, and yes including `/users/a/b/c`
