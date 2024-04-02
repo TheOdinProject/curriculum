@@ -32,7 +32,7 @@ app.set("views", path, join(__dirname, "views"));
 app.set("view engine", "ejs");
 ```
 
-This enables `EJS` as the view engine, and that our app should look for templates in the `/views` subdirectory.
+This enables EJS as the view engine, and that our app should look for templates in the `/views` subdirectory.
 
 ### EJS syntax
 
