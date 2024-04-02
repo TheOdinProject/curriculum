@@ -27,8 +27,8 @@ Next, we need to let our app know that we intend to use `EJS` as a template engi
 
 In your `app.js` file, set the following application properties:
 
-```js
-app.set("views", path, join(__dirname, "views"));
+```javascript
+app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 ```
 
@@ -42,7 +42,7 @@ In order to output a variable as a value, we use the `<%=` tag.
 
 Here's a quick example that makes includes arrays and loop logic.
 
-```js
+```javascript
 <% const animals = ["Cat", "Dog", "Lemur", "Hawk"] %>
 
 <% animals.map(animal => { %>
@@ -63,7 +63,7 @@ Let's use EJS with Express. First, create an EJS template file called `index.ejs
 
 And in app.js, render this template file in one of your routes:
 
-```js
+```javascript
 app.get("/", (req, res) => {
   res.render("index", { message: "EJS rocks!" });
 });
@@ -118,7 +118,7 @@ This can be used to include headers and footers in all of your pages, for exampl
 
 Note that the navbar expects a `links` value. To pass this data into the navbar, you can pass it when rendering `index.ejs` which contains the navbar. Modify `app.js` such that a `links` object is defined and passed into the `render` function in the `"/"` route handler:
 
-```js
+```javascript
 // app.js
 const links = [
   { href: "/", text: "Home" },
@@ -143,7 +143,7 @@ Here's another example of how to use `includes` to dynamically render a list of 
 
 We can have nested directories of EJS template files within the `views`. For example, to render the template file `./views/user/show.ejs`, we'll need to provide the relative path like so:
 
-```js
+```javascript
 // in res.render
 res.render("user/show")
 
