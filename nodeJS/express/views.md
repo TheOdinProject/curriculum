@@ -51,7 +51,7 @@ Here's a quick example that makes includes arrays and loop logic.
 
 ### Using EJS with Express
 
-Let's use `EJS` with `Express`. First, create an `EJS` template file called `index.ejs`, and add the following:
+Let's use EJS with Express. First, create an EJS template file called `index.ejs` in the `views` subdirectory, and add the following:
 
 ```html
 <html>
