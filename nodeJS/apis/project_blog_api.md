@@ -8,6 +8,7 @@ Why are we setting it up like this? Because we can! If you already have a portfo
 
 <div class="lesson-content__panel" markdown="1">
 
+1. How you structure this project is up to you. Some people prefer separate GitHub repos for each of the three apps you will make, to keep them and their commit histories separate. Some people prefer a monorepo, with each app in their own directory within the same single repo.
 1. Begin by designing your back end models and schemas. How you design it is up to you, but you might want to think through a few things:
    - Your blog should have posts and comments, so think about the fields you are going to want to include for each of those.
    - Are you going to require users to leave a username or email with their comments?
@@ -30,6 +31,7 @@ Why are we setting it up like this? Because we can! If you already have a portfo
    - A 'NEW POST' form. If you want to get fancy, you could use a rich text editor such as [TinyMCE](https://www.tiny.cloud/docs/tinymce/6/cloud-quick-start/).
    - The ability to manage comments (i.e. delete or edit them).
 1. How much work you want to put into the front-end code on this one is up to you.  Technically this is a backend focused course so if you would prefer, feel free to focus on the REST API.
+1. Deploying your separate apps isn't anything fancy. Deploy your API like with your previous projects using a PaaS from the [Deployment lesson](https://www.theodinproject.com/lessons/nodejs-deployment), and deploy your front-ends like you would have deployed your front-ends before. If you used React, recall several hosting options from the [CV Application project](https://www.theodinproject.com/lessons/node-path-react-new-cv-application).
 
 </div>
 
