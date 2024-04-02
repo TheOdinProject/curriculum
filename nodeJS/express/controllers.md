@@ -1,52 +1,58 @@
 ### Introduction
 
-The controller’s job is really to act as the ultimate middleman. It knows which questions it wants to ask the model, but lets the model do all the heavy lifting for actually solving those questions. It knows which view it wants to render and send back to the browser, but lets the view itself take care of putting all that HTML together. That’s why it’s a “controller”… smart enough to know what to do and then delegate all the hard work. All it does is collect data for sending over to the view.
+The controller’s job is really to act as the ultimate middleman. It knows which questions it wants to ask the model, but lets the model do all the heavy lifting for actually solving those questions. It knows which view it wants to render and send back to the browser, but lets the view itself take care of putting all that HTML together. That’s why it’s a “controller” - it's smart enough to know what to do, then it delegates all the hard work.
 
-A controller comes into play whenever a client sends a request to a specific route. When a request hits the server, the router that you've learned previously determines which controller and action should handle the request based on the defined routes. The controller then takes over and performs the necessary actions to fulfill the request. This could involve retrieving data from the model, processing the data, making decisions based on business logic, or updating the model with new data. Once the controller has completed its tasks, it passes the processed data to the view, which renders the data into a format suitable for sending back to the client, typically HTML but we can also send for example JSON (The API based backends that you've also previously encountered e.g. Giphy API, but we will go deeper into this later).
+A controller comes into play whenever a request hits the server and a route handler matches the requested route. The route handler determines which controller should handle the request based on the defined middleware chain. The appropriate controller then takes over and performs the necessary actions to fulfill the request. This could involve retrieving data from the model, processing the data, making decisions based on business logic, or updating the model with new data.
 
-Ultimately, controllers are pretty much just functions with well-defined responsibilities as part of the MVC pattern, that's it.
+Once the controller has completed its tasks, it passes the processed data to the view, which renders the data into a format suitable for sending back to the client. Typically, this would be HTML. Later, when we cover building APIs, we can also send JSON responses like with the APIs that you've previously encountered e.g. Giphy API.
+
+Ultimately, controllers are pretty much just functions with well-defined responsibilities as part of the MVC pattern.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Explore various response methods
-- Implement error handling middleware to catch and process errors gracefully
-- Describe common use cases for middleware, such as validation and authentication
-- Know basic file structure
+- Explore various response methods.
+- Implement error handling middleware to catch and process errors gracefully.
+- Describe common use cases for middleware, such as validation and authentication.
+- Know basic file structure.
 
 ### Handling responses
 
 When it comes to sending responses from your controllers, you have several methods at your disposal. Let's explore some of the commonly used methods and their use cases.
 
-- [res.send](https://expressjs.com/en/api.html#res.send) - A general-purpose method for sending a response, it is flexible with what data you can send since it will automatically set the `Content-Type` header based on what data you pass, and yes including setting to an `application/json`.
-- [res.json](https://expressjs.com/en/api.html#res.json) - If you want to send a JSON response, `res.json` is the way to go. It automatically sets the `Content-Type` header to `application/json` and sends the data as JSON. We will cover the use-case of this more later.
+- [res.send](https://expressjs.com/en/api.html#res.send) - A general-purpose method for sending a response, it is flexible with what data you can send since it will automatically set the `Content-Type` header based on what data you pass it. For example, if you pass in an object, it will stringify it as JSON and set the `Content-Type` header to `application/json`.
+- [res.json](https://expressjs.com/en/api.html#res.json) - This is a more explicit way to respond to a request with JSON. This always sets the `Content-Type` header to `application/json` and sends the data as JSON.
 - [res.redirect](https://expressjs.com/en/api.html#res.redirect) - When you want to redirect the client to a different URL, this method allows for that capability.
-- [res.render](https://expressjs.com/en/api.html#res.render) - If you're using a template engine that you will setup in a later lesson, `res.render` allows you to render a view template and send the rendered HTML as the response.
+- [res.render](https://expressjs.com/en/api.html#res.render) - If you're using a template engine (covered in a later lesson), `res.render` allows you to render a view template and send the rendered HTML as the response.
 
 There is also a useful method that you can use to set the status code manually.
 
-- [res.status](https://expressjs.com/en/api.html#res.status) - You can also chain other methods through this (e.g. `res.status(200).send(...)` but note that you can't do `res.send(...).status(200)`). This method does not end the request-response cycle. And also `200` is already the default so you wouldn't necessarily need this for `200`, but for consistency, we'll keep using it.controller
+- [res.status](https://expressjs.com/en/api.html#res.status) - This sets the response's status code **but does not end the request-response cycle by itself**. You can chain other methods through this (e.g. `res.status(404).send(...)` but note that you can't do `res.send(...).status(404)`). You can omit this if you wish to use the default status code of `200`.
 
 <div class="lesson-note" markdown="1">
 
 #### res.send and res.json
 
-If `res.send` automatically sets the `Content-Type` based on the data passed. Why still use `res.json`? It's because `res.json` enforces JSON and will automatically convert non-object to JSON but `res.send` will not. But `res.json` is just a convenient method that also internally calls `res.send` but it handles anything JSON related. `res.send` also calls `res.json` internally but you will only see JSON type of `Content-Type` with booleans and objects.
+If `res.send` automatically sets the `Content-Type` based on the data passed, why would we still use `res.json`? `res.json` enforces JSON and will automatically convert non-object values to JSON, but `res.send` will not. `res.json` is just a convenient method that also internally calls `res.send`. `res.send` will only handle things as JSON when dealing with booleans and objects (which includes arrays).
 
 So for convenience it's more appropriate to use `res.json` instead of `res.send`, and if you are sending JSON then you might as well go for a method that is *named "json"*  :)
 
 </div>
 
-We also need to take note that these response methods only ends the request-response cycle, it does not end the function execution. So for example if you somehow do this:
+We also need to take note that these response methods only end the request-response cycle. They do not end the function execution. For example if you somehow do this:
 
 ```javascript
 app.use((req, res) => {
-  res.send("Hello"); // This works and this ends the request-response cycle
+  // This works and this ends the request-response cycle
+  res.send("Hello");
 
-  console.log('will still run!!'); // however it does not exit the function so this will still continue to run
-  res.send("Bye"); // This will not work but it will throw an error that you cannot send again after sending it to the client already
-})
+  // However, it does not exit the function so this will still run
+  console.log('will still run!!');
+  
+  // This will then throw an error that you cannot send again after sending to the client already
+  res.send("Bye"); 
+});
 ```
 
 ### Middleware
@@ -59,7 +65,7 @@ A middleware function typically takes three parameters (however, there is one th
 
 - `req` - The request object, which represents the incoming HTTP request.
 - `res` - The response object, which represents the HTTP response that will be sent back to the client.
-- `next` - The function that pass the control to the *next* middleware (We'll get to this later). This is optional.
+- `next` - The function that pass the control to the next middleware in the chain (we'll get to this later). This is optional.
 
 A middleware can perform various tasks, such as:
 
