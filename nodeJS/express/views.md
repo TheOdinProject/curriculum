@@ -79,7 +79,7 @@ If you inspect the HTML in the browser's dev tools, you can see HTML is structur
 
 When you hit the `/` route, `res.render("index", { message: "EJS rocks!" });`  is the line that sends back the response. Since we've already defined the `views` and `view engine` app properties, the first argument of `res.render` is programmed to look for "a tempalte called index in the specified folder", while the second argument is an object of variables that are to be made available to that specific template.
 
-### Reusable web components
+### Reusable templates
 
 You may want to include webpage components that are shared across different pages, such as a sidebar or a header. To insert such components into your pages, we make use of the `include` command. This requires the name of the file to be inserted, and optionally an object of data you wish to pass.
 
