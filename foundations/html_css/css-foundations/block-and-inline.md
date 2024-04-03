@@ -83,6 +83,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Learn CSS Layout](https://learnlayout.com/no-layout.html) is tutorial that is a little dated at this point, but its examples are clear. is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
+- [Learn CSS Layout](https://learnlayout.com/no-layout.html) is tutorial that is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
 - Watch this short video on [what the term “Normal Flow” means](https://www.youtube.com/watch?v=nfXRw06FgK8) in CSS.
 - For a more interactive explanation and example, try this [Scrim on block and inline display](https://scrimba.com/scrim/co5024997a7e46c232d9abe55).
