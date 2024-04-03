@@ -51,6 +51,7 @@ Note: Feel free to browse the files on the left column to gain familiarity with 
 #### Replit and AI
 
 Replit recently introduced an AI assistant, which is on by default. Before trying any of the exercises, you should first disable it, in order to prevent it from spoiling the exercise. You can do so by clicking on the button labeled AI in the bottom left corner of the code view and then unchecking the "Enable" checkbox.
+
 </div>
 
 - [Exercise 1](https://replit.com/@OdinProject/troubleshooting#troubleshooting.js)
