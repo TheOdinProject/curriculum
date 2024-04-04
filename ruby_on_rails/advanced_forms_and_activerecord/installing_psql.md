@@ -142,7 +142,7 @@ psql
 You should see the PostgreSQL prompt come up with the new role we just created, like so:
 
 ```sql
-<role_name>=#
+role_name=#
 ```
 
 If you don't see a similar prompt, then reach out on [Discord](https://discord.gg/V75WSQG) for some help. If you **do** see a similar prompt, then we can create a password for the role like so:
@@ -264,7 +264,7 @@ psql
 You should now see the PostgreSQL prompt come up like this:
 
 ```sql
-<role_name>=#
+role_name=#
 ```
 
 If you don't see a similar prompt, then reach out on [Discord](https://discord.gg/V75WSQG) for some help. If you **do** see a similar prompt, then we can create a password for the role like so:

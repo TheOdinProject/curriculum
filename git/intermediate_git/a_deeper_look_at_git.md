@@ -6,17 +6,16 @@ In this lesson, we'll help with the visualization by diving deeper than just the
 
 It is **very important** to take a look at all of this before progressing any further with the curriculum. The project work is becoming more and more complex, so using a disciplined Git workflow is no longer optional. Hopefully, after going through this lesson, you'll be much more comfortable changing your Git history and have a better understanding of Git as a whole.
 
-
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-* History-changing Git commands
-* Different ways of changing history
-* Using remotes to change history
-* Dangers of history-changing operations
-* Best practices of history-changing operations
-* Pointers
+- History-changing Git commands
+- Different ways of changing history
+- Using remotes to change history
+- Dangers of history-changing operations
+- Best practices of history-changing operations
+- Pointers
 
 ### Changing history
 
@@ -35,10 +34,10 @@ Let's look at some ways we can change recent and distant history to fit our need
 Before we get started with the lesson, let's create a Git playground in which we can safely follow along with the code and perform history-changing operations. Go to GitHub, and as you have in the past, create a new repository. Call it whatever you'd like, and clone this repository to your local system. Now, let's `cd` into the repository we just cloned and create some new files! Once you're in the repository, follow along with the following commands (including the typo). Look them up if you're confused about anything that's happening.
 
 ```bash
-  $ touch test{1..4}.md
-  $ git add test1.md && git commit -m 'Create first file'
-  $ git add test2.md && git commit -m 'Create send file'
-  $ git add test3.md && git commit -m 'Create third file and create fourth file'
+touch test{1..4}.md
+git add test1.md && git commit -m 'Create first file'
+git add test2.md && git commit -m 'Create send file'
+git add test3.md && git commit -m 'Create third file and create fourth file'
 ```
 
 #### Setting up the code editor
@@ -52,8 +51,8 @@ To set up your code editor properly, you can follow the instructions provided in
 So if we look at the last commit we made *Uh-Oh!*, if you type in `git status` and `git log` you can see we forgot to add a file! Let's add our missing file and run `git commit --amend`
 
 ```bash
-  $ git add test4.md
-  $ git commit --amend
+git add test4.md
+git commit --amend
 ```
 
 What happened here is we first updated the staging area to include the missing file, and then we replaced the last commit with our new one to include the missing file. If we wanted to, we could have changed the message of the commit and it would have overwritten the message of the past commit.
@@ -67,8 +66,8 @@ Now let's say we have commits further back in our history that we want to modify
 `git rebase -i` is a command which allows us to interactively stop after each commit we're trying to modify, and then make whatever changes we wish. We do have to tell this command which is the last commit we want to edit. For example, `git rebase -i HEAD~2` allows us to edit the last two commits. Let's see what this looks like in action, go ahead and type in:
 
 ```bash
-  $ git log
-  $ git rebase -i HEAD~2
+git log
+git rebase -i HEAD~2
 ```
 
 You should notice that when rebasing, the commits are listed in opposite order compared to how we see them when we use `git log`. Take a minute to look through all of the options the interactive tool offers you. Now let's look at the commit messages at the top of the tool. If we wanted to edit one of these commits, we would change the word `pick` to be `edit` for the appropriate commit. If we wanted to remove a commit, we would remove it from the list, and if we wanted to change their order, we would change their position in the list. Let's see what an edit looks like!
@@ -89,7 +88,6 @@ Once you're satisfied with your changes, run
 
 So let's edit our commit by typing `git commit --amend`, fixing the typo in the title, and then finishing the rebase by typing `git rebase --continue`. That's all there is to it! Have a look at your handiwork by typing `git log`, and seeing the changed history. It seems simple, but this is a very dangerous tool if misused, so be careful. Most importantly, remember that **if you have to rebase commits in a shared repository, make sure you're doing so for a very good reason that your coworkers are aware of.**
 
-
 #### Squashing commits
 
 Using `squash` for our commits is a very handy way of keeping our Git history tidy. It's important to know how to `squash`, because this process may be the standard on some development teams. Squashing makes it easier for others to understand the history of your project. What often happens when a feature is merged, is we end up with some visually complex logs of all the changes a feature branch had on a main branch. These commits are important while the feature is in development, but aren't really necessary when looking through the entire history of your main branch.
@@ -108,12 +106,12 @@ Rename the commit to `Create first and second file`, then finish the rebase. Tha
 
 Before diving into Remotes, we're going to have a look at a handy Git command called `git reset`. Let's have a look at the commit `Create third file and create fourth file`. At the moment we're using blank files for convenience, but let's say these files contained functionality and the commit was describing too much at once. In that case what we could do is split it up into two smaller commits by, once again, using the interactive `rebase` tool.
 
-We can open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. But instead, what we're going to do is run `git reset HEAD^`, which resets the commit to the one right before HEAD. This allows us to add the files individually, add, and commit them individually. All together it would look something like this:
+We can open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. But instead, what we're going to do is run `git reset HEAD^`, which resets the commit to the one right before HEAD. This allows us to add the files individually and commit them individually. All together it would look something like this:
 
 ```bash
-$ git reset HEAD^
-$ git add test3.md && git commit -m 'Create third file'
-$ git add test4.md && git commit -m 'Create fourth file'
+git reset HEAD^
+git add test3.md && git commit -m 'Create third file'
+git add test4.md && git commit -m 'Create fourth file'
 ```
 
 Let's start by looking a bit closer at what happened here. When you ran `git reset`, you reset the current branch by pointing HEAD at the commit right before it. At the same time, `git reset` also updated the index (the staging area) with the contents of wherever HEAD is now pointed. So our staging area was also reset to what it was at the prior commit - which is great - because this allowed us to add and commit both files separately.
@@ -123,8 +121,6 @@ Now let's say we want to move where HEAD points to but *don't* want to touch the
 You can think of `git reset --soft` as a more powerful amend. Instead of changing the last commit, you can go back multiple commits and combine all the changes included in them into one commit.
 
 The last part of reset we want to touch upon is `git reset --hard`. What this does is it performs all the steps of `git reset`, moving the HEAD and updating the index, but it *also* updates the working directory. This is important to note because it can be dangerous as it can potentially destroy data. A hard reset overwrites the files in the working directory to make it look exactly like the staging area of wherever HEAD ends up pointing to. Similarly to `git commit --amend`, a hard reset is a destructive command which overwrites history. This doesn't mean you should completely avoid it if working with shared repositories on a team with other developers. You should, however, **make sure you know exactly why you're using it, and that your coworkers are also aware of how and why you're using it.**
-
-
 
 ### Branches are pointers
 
@@ -142,24 +138,24 @@ You might be feeling overwhelmed at this point, so let's recap what we've learne
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read the chapter on [Rebasing covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
+1. Read the chapter on [Rebasing covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
 
-2.  Read the chapter on [Reset covered by git-scm](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
+1. Read the chapter on [Reset covered by git-scm](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-* <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell'>Explain what it means for branches to be pointers.</a>
-*   <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things'>How can you amend your last commit?</a>
-*   <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History'>What are some different ways to rewrite history?</a>
+- <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell'>Explain what it means for branches to be pointers.</a>
+- <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things'>How can you amend your last commit?</a>
+- <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History'>What are some different ways to rewrite history?</a>
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-*   Read this [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) if you need a reference sheet.
-*   Watch this [video about Rebase & Merge](https://www.youtube.com/watch?v=f1wnYdLEpgI) for an example of how to use both rebase and merge.
-*   Read the chapter on [Branches covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) if you want an even deeper dive into Branches.
+- Read this [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) if you need a reference sheet.
+- Watch this [video about Rebase & Merge](https://www.youtube.com/watch?v=f1wnYdLEpgI) for an example of how to use both rebase and merge.
+- Read the chapter on [Branches covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) if you want an even deeper dive into Branches.

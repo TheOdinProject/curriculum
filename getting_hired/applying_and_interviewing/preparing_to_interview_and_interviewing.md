@@ -51,7 +51,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
 * [How to Ace Your Technical Interview](http://insights.dice.com/2014/10/12/ace-technical-interview/)
 * [How You Can Stand Out in Your Next Web Developer Interview](http://blog.udacity.com/2015/01/how-to-stand-out-in-your-web-developer-interview.html)
-* [Post on The Interview](http://blog.martincmartin.com/2010/01/08/finding-a-job-youll-love-the-interview/)
+* [Post on The Interview](https://martincmartin.com/2010/01/08/finding-a-job-youll-love-the-interview/)
 * Read [40 Key Computer Science Concepts Explained In Layman’s Terms](https://web.archive.org/web/20220901190653/http://carlcheo.com/compsci)
 * [Google's Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html) (advanced)
 * [Ruby on Rails Popular Job Interview Questions](https://www.nopio.com/blog/ruby-rails-popular-job-interview-questions/)

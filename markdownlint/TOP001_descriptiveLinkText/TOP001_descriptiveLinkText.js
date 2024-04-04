@@ -2,6 +2,9 @@ module.exports = {
   names: ["TOP001", "descriptive-link-text"],
   description: "Links have descriptive text labels",
   tags: ["accessibility", "links"],
+  information: new URL(
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP001.md"
+  ),
   function: function TOP001(params, onError) {
     const tokensWithLinks = params.parsers.markdownit.tokens?.filter((token) =>
       token.children?.some((child) => child.type === "link_open")
@@ -34,7 +37,7 @@ module.exports = {
         const linkUrl = tokensAfterLinkOpen[0].attrs[0][1];
         onError({
           lineNumber: tokensAfterLinkOpen[0].lineNumber,
-          detail: `Links must have a more descriptive text label.`,
+					detail: `Expected text to not include the words "this" or "here". Use a more descriptive text that clearly conveys the purpose or content of the link.`,
           context: `[${linkContentString}](${linkUrl})`,
         });
       }
