@@ -307,7 +307,7 @@ app.use(middleware3);
 // will log `Middleware 1` -> `Middleware 2` and send a response with the text "Response from Middleware 2"
 ```
 
-Here we have `middleware1`, `middleware2`, and `middleware3`. Where `middleware1` calls the `next` function, since we are not yet sending a response, we pass the control to the next middleware `middleware2` as indicated by the order of `app.use` calls where we send a response which ends the request-response cycle, since it has ended, the third middleware does not run. But if we somehow did not call the `next` function, do you know what would happen? Perhaps pop in the discord server and let us know what you think ;)
+Here we have `middleware1`, `middleware2`, and `middleware3`. `middleware1` calls the `next` function, and since we are not yet sending a response, we pass the control to the next middleware - `middleware2` (as indicated by the order of `app.use` calls). In `middleware2`, we send a response which ends the request-response cycle. Since it has ended, the third middleware (`middleware3`) does not run. But if we somehow did not call the `next` function in `middleware1`, do you know what would happen? Perhaps pop in the [TOP Discord server](https://discord.gg/theodinproject) and let us know what you think!
 
 Also, as we've discussed earlier with regards to calling the `next` function. We have the following arguments that we can pass to it:
 
