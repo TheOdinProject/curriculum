@@ -33,7 +33,7 @@ To create a link in HTML, we use the anchor element. An anchor element is define
 Add the following to the body of the `index.html` page we created and open it in the browser:
 
 ```html
-<a>click me</a>
+<a>About The Odin Project</a>
 ```
 
 You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
@@ -43,7 +43,7 @@ You may have noticed that clicking this link doesn't do anything. This is becaus
 Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
 ```html
-<a href="https://www.theodinproject.com/about">click me</a>
+<a href="https://www.theodinproject.com/about">About The Odin Project</a>
 ```
 
 By default, any text wrapped with an anchor tag without an `href` attribute will look like plain text. If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
@@ -57,7 +57,7 @@ The method shown above opens links in the same tab as the webpage containing the
 While `href` specifies the destination link, `target` specifies where the linked resource will be opened. If it is not present, then, by default, it will take on the `_self` value which opens the link in the current tab. To open the link in a new tab or window (depends on browser settings) you can set it to `_blank` as follows:
 
 ```html
-<a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">click me</a>
+<a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
 ```
 
 <span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document.
@@ -110,7 +110,7 @@ Back in the index page, add the following anchor element to create a link to the
 ```html
 <body>
   <h1>Homepage</h1>
-  <a href="https://www.theodinproject.com/about">click me</a>
+  <a href="https://www.theodinproject.com/about">About The Odin Project</a>
 
   <a href="about.html">About</a>
 </body>
@@ -218,7 +218,7 @@ Finally add the image to the `index.html` file:
 ```html
 <body>
   <h1>Homepage</h1>
-  <a href="https://www.theodinproject.com/about">click me</a>
+  <a href="https://www.theodinproject.com/about">About The Odin Project</a>
 
   <a href="./pages/about.html">About</a>
 
