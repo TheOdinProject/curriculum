@@ -13,15 +13,17 @@ Our community can be found on the [TOP Discord server](https://discord.gg/fbFCkY
 The Odin Project depends on open-source contributions to improve, grow, and thrive. We welcome contributors of all experience levels and backgrounds to help maintain this awesome curriculum and community. If you would like to contribute to our curriculum, be sure to thoroughly read our [contributing guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md).
 
 Some of the things you can do to contribute to our curriculum include:
-* Correct typos and other grammar errors.
-* Rewrite parts of existing lessons to make them clearer and easier to understand.
-* Fix broken links.
-* Add new resource links you think would make a lesson better.
-* Work on entirely new lessons after getting approval.
+
+- Correct typos and other grammar errors.
+- Rewrite parts of existing lessons to make them clearer and easier to understand.
+- Fix broken links.
+- Add new resource links you think would make a lesson better.
+- Work on entirely new lessons after getting approval.
 
 **Happy Coding!**
 
 \* See [license.md](https://github.com/TheOdinProject/curriculum/blob/main/license.md) for usage details.
 
-___
+---
+
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
