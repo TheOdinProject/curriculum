@@ -46,7 +46,6 @@ It also needs to answer a new question that the resume doesn't really address di
 
 Every piece of communication you have with a company is relevant.  The most important is the one where you first reach out via email.  You probably want to treat that as a condensed version of a cover letter -- express your brilliance and fit in just a few powerful sentences.
 
-
 ### Applying
 
 Track every application you send out in your spreadsheet by the date you sent it.  As we said above, you don't need to go crazy on Day 1 but keep a regular flow of applications going out.
