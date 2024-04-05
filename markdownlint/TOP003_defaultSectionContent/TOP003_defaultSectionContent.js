@@ -146,6 +146,9 @@ module.exports = {
   names: ["TOP003", "default-section-content"],
   description: "Sections have default content",
   tags: ["content"],
+  information: new URL(
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP003.md"
+  ),
   function: function TOP003(params, onError) {
     const { tokens } = params.parsers.markdownit;
     const headingTokenIndices = tokens

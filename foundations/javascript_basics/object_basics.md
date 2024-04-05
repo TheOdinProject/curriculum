@@ -79,14 +79,23 @@ function addOne(num) {
   return num + 1;
 }
 const arr = [1, 2, 3, 4, 5];
-arr.map(addOne); // Outputs [2, 3, 4, 5, 6]
+const mappedArr = arr.map(addOne);
+console.log(mappedArr); // Outputs [2, 3, 4, 5, 6]
+```
+
+`map` returns a new array and does not change the original array.
+
+```javascript
+// The original array has not been changed!
+console.log(arr) // Outputs [1, 2, 3, 4, 5]
 ```
 
 This is a much more elegant approach, what do you think? For simplicity, we could also define an inline function right inside of `map` like so:
 
 ```javascript
 const arr = [1, 2, 3, 4, 5];
-arr.map((num) => num + 1); // Outputs [2, 3, 4, 5, 6];
+const mappedArr = arr.map((num) => num + 1);
+console.log(mappedArr); // Outputs [2, 3, 4, 5, 6]
 ```
 
 #### The filter method
@@ -99,7 +108,9 @@ Consider the array from our previous example, `[1, 2, 3, 4, 5]`.
 If we wanted to remove all even numbers from this array, we could use `.filter()` like this:
 
 ```javascript
-arr.filter(isOdd); // Outputs [1, 3, 5];
+const oddNums = arr.filter((num) => num % 2 !== 0);
+console.log(oddNums) // Outputs [1, 3, 5];
+console.log(arr) // Outputs [1, 2, 3, 4, 5], original array is not affected
 ```
 
 - `filter` will iterate through `arr` and pass **every value** into the `isOdd` callback function, one at a time.
@@ -119,7 +130,11 @@ However, there are two key differences with this array method:
 
 ```js
 const arr = [1, 2, 3, 4, 5];
-arr.reduce((total, currentItem) => total * currentItem, 1); // Outputs 120;
+const productOfAllNums = arr.reduce((total, currentItem) => {
+  return total * currentItem;
+}, 1);
+console.log(productOfAllNums); // Outputs 120;
+console.log(arr) // Outputs [1, 2, 3, 4, 5]
 ```
 
 In the above function, we:
@@ -159,7 +174,7 @@ function sumOfTripledEvens(array) {
 <div class="lesson-content__panel" markdown="1">
 1. Start out by watching [this video](https://www.youtube.com/watch?v=HB1ZC7czKRs) from Wes Bos. To follow along, use your local Javascript30 repository. If you don't have the repo yet, clone it from [here](https://github.com/wesbos/JavaScript30).
 1. Watch and code with [Part 2](https://www.youtube.com/watch?v=QNmRfyNg1lw) of Wes Bos's array series.
-1. For a more comprehensive and in-depth guide to array methods in JavaScript, you can also check out this [array method guide](https://javascript.info/array-methods). This resource covers each method in detail, with examples and explanations of their usage.
+1. Read through the [array method guide](https://javascript.info/array-methods) for a more comprehensive and in-depth guide to array methods in JavaScript. Complete the exercises at the end except for "Create an extendable calculator", as that involves more advanced concepts we have not yet covered.
 1. At this point you just need a little more practice!  Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Fundamentals Part 4](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4) assignment. Review each README file prior to completing the following exercises in order:
     - `08_calculator`
     - `09_palindromes`

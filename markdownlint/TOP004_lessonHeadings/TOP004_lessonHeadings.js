@@ -75,6 +75,9 @@ module.exports = {
   names: ["TOP004", "lesson-headings"],
   description: "Required heading structure",
   tags: ["headings"],
+  information: new URL(
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP004.md"
+  ),
   function: function TOP004(params, onError) {
     const requiredHeadings = params.config.headings;
     if (!Array.isArray(requiredHeadings)) {

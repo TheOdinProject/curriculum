@@ -18,7 +18,7 @@ If you've been following along with our lessons so far, the concept of mocking h
 
 Callbacks are ubiquitous. Every avenue of user interaction involves callbacks. Sometimes they're passed in as props to alter state of the parent component. Consider this button component:
 
-~~~jsx
+```jsx
 // CustomButton.jsx
 
 const CustomButton = ({ onClick }) => {
@@ -28,13 +28,13 @@ const CustomButton = ({ onClick }) => {
 };
 
 export default CustomButton;
-~~~
+```
 
 Nothing fancy. `CustomButton` is a component with a prop passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user clicks the button. Let's test it.
 
 <span id="testing-callback-handlers">Notice how we mock and test the `onClick` function</span>:
 
-~~~jsx
+```jsx
 // CustomButton.test.jsx
 
 import { vi } from 'vitest'
@@ -70,7 +70,7 @@ describe("CustomButton", () => {
         expect(onClick).not.toHaveBeenCalled();
     });
 });
-~~~
+```
 
 Three tests and we are done with this component. You should be already familiar with how the first test works. Take some time to figure out what functions come from which package.
 
@@ -116,14 +116,14 @@ We notice there are two child components of `SubmissionsList`. One of them is fr
 
 <span id="mock-child-component">Notice how we mock the `Submission` component</span>:
 
-~~~jsx
+```jsx
 jest.mock('../submission', () => ({ submission, isDashboardView }) => (
   <>
     <div data-test-id="submission">{submission.id}</div>
     <div data-test-id="dashboard">{isDashboardView.toString()}</div>
   </>
 ));
-~~~
+```
 
 We only render the bare minimum to realize the validity of the component we're testing. Next, we set up our props with fake data and mocked functions.
 

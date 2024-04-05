@@ -21,7 +21,7 @@ This section contains a general overview of topics that you will learn in this l
 Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A **string** is a piece of text... and is a fundamental building block of the language.
 
 1. Read and code along with this [MDN tutorial on strings in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings). Skip the `Concatenation in context` section, as it covers concepts we will cover in a later lesson on DOM Manipulation.
-1. Go through [the W3Schools lesson on string methods](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings... be sure to take a peek at [the String Reference page](https://www.w3schools.com/jsref/jsref_obj_string.asp) near the bottom, and do the exercises at the end!
+1. Go through [the W3Schools lesson on string methods](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings. Also, be sure to take a peek at [the String Reference page](https://www.w3schools.com/jsref/jsref_obj_string.asp) near the bottom, and do the exercises in the assignment section [below](#assignment)!
 1. Vocabulary time: a **method** is a bit of functionality built into the language or specific data types. In [the W3Schools lesson on string methods](https://www.w3schools.com/js/js_string_methods.asp), you've learned about a few methods that can be used on strings, such as `replace` and `slice`. There are still many more built-in string methods which [the MDN documentation for strings provides an exhaustive reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String). You are not expected to memorize these but the documentation will be a very useful reference to revisit, so bookmark it!
 
 ### Conditionals
@@ -51,6 +51,7 @@ Note: Feel free to browse the files on the left column to gain familiarity with 
 #### Replit and AI
 
 Replit recently introduced an AI assistant, which is on by default. Before trying any of the exercises, you should first disable it, in order to prevent it from spoiling the exercise. You can do so by clicking on the button labeled AI in the bottom left corner of the code view and then unchecking the "Enable" checkbox.
+
 </div>
 
 - [Exercise 1](https://replit.com/@OdinProject/troubleshooting#troubleshooting.js)
