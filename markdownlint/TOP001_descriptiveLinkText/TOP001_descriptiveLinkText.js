@@ -2,37 +2,43 @@ module.exports = {
   names: ["TOP001", "descriptive-link-text"],
   description: "Links have descriptive text labels",
   tags: ["accessibility", "links"],
+  information: new URL(
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP001.md"
+  ),
   function: function TOP001(params, onError) {
-    const linesWithLinks = params.parsers.markdownit.tokens?.filter((token) =>
-      // https://regexr.com/7rf16 to test the following regex
-      /(?<!\!)\[.+?\]\(.+?\)/.test(token.content)
+    const tokensWithLinks = params.parsers.markdownit.tokens?.filter((token) =>
+      token.children?.some((child) => child.type === "link_open")
     );
-    const linkOpenTokens = linesWithLinks
-      .map((line) =>
-        line.children?.filter((child) => child.type === "link_open")
-      )
+    const childrenOfTokensWithLinks = tokensWithLinks
+      .map((tokenWithLink) => tokenWithLink.children)
       .flat();
+    const linkOpenTokenIndices = childrenOfTokensWithLinks
+      .filter((token) => token.type === "link_open")
+      .map((linkToken) => childrenOfTokensWithLinks.indexOf(linkToken));
 
-    linkOpenTokens.forEach((token) => {
-      if (!token?.line) {
-        return;
-      }
-      const { line } = token;
-      // https://regexr.com/7rf1l to test the following regex
-      const isInvalid = /\[.*?(?<!\w)(this|here)(?!\w).*?\]/i.test(line);
+    linkOpenTokenIndices.forEach((linkOpenIndex) => {
+      const tokensAfterLinkOpen =
+        childrenOfTokensWithLinks.slice(linkOpenIndex);
+      const linkContentTokens = tokensAfterLinkOpen.slice(
+        1,
+        tokensAfterLinkOpen.findIndex((token) => token.type === "link_close")
+      );
+      const linkContentString = linkContentTokens
+        .map((token) =>
+          token.type === "code_inline" ? `\`${token.content}\`` : token.content
+        )
+        .join("");
+
+      // https://regexr.com/7sdtj to test the following regex against the link text itself
+      const isInvalid = /.*?(?<!(\w|`))(this|here)(?!(\w|`)).*?/i.test(
+        linkContentString
+      );
       if (isInvalid) {
-        const linkUrl = token.attrs[0][1];
-        const indexOfUrl = line.indexOf(linkUrl);
-        const upToIndexOfUrl = line.slice(0, indexOfUrl);
-        const openingBracketIndex = upToIndexOfUrl.lastIndexOf("[");
-
+        const linkUrl = tokensAfterLinkOpen[0].attrs[0][1];
         onError({
-          lineNumber: token.lineNumber,
-          detail: `Links must have a descriptive text label.`,
-          context: `${line.slice(
-            openingBracketIndex,
-            indexOfUrl + linkUrl.length + 1
-          )}`,
+          lineNumber: tokensAfterLinkOpen[0].lineNumber,
+					detail: `Expected text to not include the words "this" or "here". Use a more descriptive text that clearly conveys the purpose or content of the link.`,
+          context: `[${linkContentString}](${linkUrl})`,
         });
       }
     });
