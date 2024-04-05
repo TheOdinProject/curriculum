@@ -11,7 +11,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Default styles
 
-As you have worked on projects, you likely observed default styles applied to certain elements, such as larger and bolder headings on `h1` elements and blue, underlined links on `a' elements. There is a good chance you struggled with default margins and padding. These styles are part of the user-agent stylesheets, ensuring basic styling for webpages without CSS. However, you may often need to override these styles as a developer. It's worth noting that user-agent stylesheets can vary slightly between browsers, though the differences are less significant today compared to older versions.
+As you have worked on projects, you likely observed default styles applied to certain elements, such as larger and bolder headings on `h1` elements, and blue, underlined links on `a' elements. There is also a good chance you struggled with things like default margins and padding. These styles are part of the user-agent stylesheets, ensuring basic styling for webpages without CSS, and can vary slightly between browsers. However, you may often want to override these styles as a developer.
 
 To address inconsistencies across browsers and establish a consistent starting point for styling, some developers started using CSS resets. These resets are stylesheets containing CSS rules aimed at altering or removing the defaults set by user-agent stylesheets. Using them can help achieve consistency, and can provide a clean slate for developers to apply their styles without interference.
 
