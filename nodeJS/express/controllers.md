@@ -1,12 +1,8 @@
 ### Introduction
 
-The controller’s job is really to act as the ultimate middleman. It knows which questions it wants to ask the model, but lets the model do all the heavy lifting for actually solving those questions. It knows which view it wants to render and send back to the browser, but lets the view itself take care of putting all that HTML together. That’s why it’s a “controller” - it's smart enough to know what to do, then it delegates all the hard work.
+The controller's job is really to act as the ultimate middleman. It knows which questions it wants to ask the model, but lets the model do all the heavy lifting for actually solving those questions. It knows which view it wants to render and send back to the browser, but lets the view itself take care of putting all that HTML together. That's why it's a "controller" - it's smart enough to know what to do, then it delegates all the hard work.
 
-A controller comes into play whenever a request hits the server and a route handler matches the requested route. The route handler determines which controller should handle the request based on the defined middleware chain. The appropriate controller then takes over and performs the necessary actions to fulfill the request. This could involve retrieving data from the model, processing the data, making decisions based on business logic, or updating the model with new data.
-
-Once the controller has completed its tasks, it passes the processed data to the view, which renders the data into a format suitable for sending back to the client. Typically, this would be HTML. Later, when we cover building APIs, we can also send JSON responses like with the APIs that you've previously encountered e.g. Giphy API.
-
-Ultimately, controllers are pretty much just functions with well-defined responsibilities as part of the MVC pattern.
+Ultimately, the controller is the brains of the operation ensuring that each component plays its part in delivering the final result and is really just a function with well-defined responsibilities as part of the MVC pattern.
 
 ### Lesson overview
 
@@ -65,30 +61,32 @@ A middleware function typically takes three parameters (however, there is one th
 
 - `req` - The request object, which represents the incoming HTTP request.
 - `res` - The response object, which represents the HTTP response that will be sent back to the client.
-- `next` - The function that pass the control to the next middleware in the chain (we'll get to this later). This is optional.
+- `next` - The function that pass the control to the next middleware function in the chain (we'll get to this later). This is optional.
 
-A middleware can perform various tasks, such as:
+A middleware function can perform various tasks, such as:
 
-- Modifying the request or response objects (some packages for example will do this, like adding a new property in the request object, or setting the `res.locals` that is used in templates rendered with `res.render`)
-- Executing additional code (validation middlewares to validate the request before going to your main logic, authentication middlewares, and so on)
+- Modifying the request or response objects (some packages for example will do this, like adding a new property in the request object, or setting the `res.locals` that is used in templates rendered with `res.render`).
+- Executing additional code (validation middleware functions to validate the request before going to your main logic, authentication middleware functions, and so on).
 - Calling the next middleware function in the chain.
 - Ending the request-response cycle (meaning no further middleware functions are called, even if there are more in the chain).
 
-Express has a rich ecosystem and you will likely find a package that solves the problem you are encountering. For example, some packages provide middleware to handle authentication, cors, rate limiting, sessions, logging, validation, and more! But we should identify the basic and built-in ones first.
+Express has a rich ecosystem and you will likely find a package that solves the problem you are encountering. For example, some packages provide middleware functions to handle authentication, cors, rate limiting, sessions, logging, validation, and more! But we should identify the basic and built-in ones first.
 
 #### Application-level middleware
 
-Application-level middleware are bound to an *instance of Express* using the app.use or using app.METHOD (e.g. app.get, app.post) functions. These are middlewares that are executed in **every incoming requests** to the application with the specified path `/` being the default mount path (mount path can be changed by adding it as the first argument), but if the request-response cycle ends before even getting to the specific middleware then it will of course not run, but typically these middlewares are placed on top of your application code to ensure they always run first. Very common built-in middlewares that you will likely use are:
+Application-level middleware are bound to an *instance of Express* using `app.use` or using `app.<METHOD>` (e.g. `app.get`, `app.post`) functions. These are middleware functions that are executed in every incoming request matching the specified path. If you don't specify a path, the path defaults to `/` which will match every incoming request. As with any middleware functions, they will not run if the request-response cycle ends before reaching them. Typically, these middleware functions are placed on top of your application code to ensure they always run first.
 
-- Body parsers (e.g. `express.json`, `express.urlencoded`) - These allows to correctly parse the incoming request's body, so that you can use it through `req.body`
-- Serving static files (e.g. `app.use(express.static('public'))`) -  It is a middleware for serving static files, such as HTML, CSS, JavaScript, and images. You can pass an argument to specify which directory to serve the static files.
-- Setting up views (you will learn how in the Views lesson)
+Very common built-in middleware functions that you will likely use are the following:
+
+- Body parsers (e.g. `express.json`, `express.urlencoded`) - These allows to correctly parse the incoming request's body, so that you can use it through `req.body`.
+- Serving static files (e.g. `app.use(express.static('public'))`) -  It is a middleware function for serving static files, such as HTML, CSS, JavaScript, and images. You can pass an argument to specify which directory to serve the static files.
+- Setting up views (you will learn how in the Views lesson).
 
 #### Router-level middleware
 
 Router-level middleware works similarly to application-level middlewares but is bound to an *instance of Express router* using router.use or router.METHOD (e.g. router.get) functions. This however is only executed when the request matches the specific route as you've probably already learned in the Routes lesson.
 
-Here is an example of a basic middleware:
+Here is an example of a basic middleware function:
 
 ```javascript
 function myMiddleware(req, res, next) {
@@ -105,15 +103,19 @@ function myMiddleware(req, res, next) {
 app.use(myMiddleware);
 ```
 
-In this example, the middleware function logs a message, adds a custom property to the request object, and then calls the next() function to pass control to the next middleware or route handler. We also register the middleware through the usage of `app.use` which makes this an application-level middleware. Other middlewares below this one will now be able to see a property `customProperty` with the value `Hello from myMiddleware`.
+In this example, the middleware function logs a message, adds a custom property to the request object, and then calls the next() function to pass control to the next middleware fucntion or route handler. We also register the middleware function through the usage of `app.use` which makes this an application-level middleware. Other middleware functions below this one will now be able to see a property `customProperty` with the value `Hello from myMiddleware`.
 
-One thing to note about is that middleware functions are executed in the order they are defined or registered in your application. This means that the sequence in which you define your middleware functions matters, as it determines the order in which they will be invoked during the request-response cycle. So you need to make sure and be aware that your middlewares are placed in the correct order. As an example, some packages have middlewares that changes the `Request` object, and as a result, these middlewares should be placed at the very top of your application in order for you to be able to see their changes in all of your middlewares below it.
+One thing to note about is that middleware functions are executed in the order they are defined or registered in your application. This means that the sequence in which you define your middleware functions matters, as it determines the order in which they will be invoked during the request-response cycle. So you need to make sure and be aware that your middleware fnuctions are placed in the correct order. As an example, some packages have middleware functions that changes the `Request` object, and as a result, these middleware functions should be placed at the very top of your application in order for you to be able to see their changes in all of your middleware functions below it.
 
-There is also a special type of middleware that handles errors which we will get to in a sec.
+There is also a special type of middleware function that handles errors, which we will discuss shortly.
 
 ### Controllers
 
-As said earlier, controllers are just functions, they also classify as a middleware (at least in the express world) that are used by route handlers but they have a well-defined responsibility and they encapsulate extracting relevant data from the request, invoking the necessary business logic or database operations, and sending the appropriate response to the client. This controller pattern also helps with keeping your application code organized and maintainable.
+As said earlier, controllers are just functions. They also classify as a middleware (at least in the Express world) that are used by route handlers.
+
+A controller comes into play whenever a request hits the server and a route handler matches the requested route. The route handler determines which controller should handle the request based on the defined middleware chain. The appropriate controller then takes over and performs the necessary actions to fulfill the request. This could involve retrieving data from the model, processing the data, making decisions based on business logic, or updating the model with new data.
+
+Once the controller has completed its tasks, it passes the processed data to the view, which renders the data into a format suitable for sending back to the client. Typically, this would be HTML. Later, when we cover building APIs, we can also send JSON responses like with the APIs that you've previously encountered e.g. Giphy API.
 
 The naming conventions for these controllers are usually based on the route handler they will be attached to e.g. get route -> getSomething, post route -> createSomething, delete route -> deleteSomething, etc. Nonetheless, there is no fixed rule since Express is not opinionated. It will always be based on you or someone else's conventions, and the requirements of the function.
 
@@ -172,7 +174,7 @@ const getUserById = async (req, res) => {
 
     // or we can call next(error) instead of sending a response here
     // Using `next(error)` however will only render an error page in the express' default view and respond with the whole html to the client.
-    // So we will need to create a special type of middleware if we want a different response and we will get to that in a bit.
+    // So we will need to create a special type of middleware function if we want a different response and we will get to that in a bit.
   }
 };
 ```
@@ -199,28 +201,28 @@ const getUserById = asyncHandler(async (req, res) => {
 
 #### With a middleware
 
-Remember what we said earlier regarding a "special type of middleware"? Let's actually look into that now. There is an error middleware that handles all errors in our application coming down from other middlewares and this error middleware is commonly placed at the very end of our application code, to ensure that it is actually the last middleware to be executed and to only handle errors bubbling down from other middlewares before it.
+Remember what we said earlier regarding a "special type of middleware"? Let's actually look into that now. There is an error middleware function that handles all errors in our application coming down from other middleware functions and this error middleware function is commonly placed at the very end of our application code, to ensure that it is actually the last middleware function to be executed and to only handle errors bubbling down from other middleware functions before it.
 
 ```javascript
-// Every thrown error in the application or the previous middleware calling `next` with an error as an argument will eventually go to this middleware
+// Every thrown error in the application or the previous middleware fucntion calling `next` with an error as an argument will eventually go to this middleware function
 app.use((err, req, res, next) => {
   console.error(err);
   res.status(500).send(err);
 });
 ```
 
-However, take note that this is a middleware that requires *four parameters* that you will need to provide even if they are not used. If you for example exclude one of the parameters, it will not function as an error middleware. You can try it out yourself ;)
+However, take note that this is a middleware function that requires *four parameters* that you will need to provide even if they are not used. If you for example exclude one of the parameters, it will not be recognized as an error middleware function. You can try it out yourself ;)
 
-It is the same as the previous middlewares with three parameters but with one new parameter in a different order:
+It is the same as the previous middleware functions with three parameters but with one new parameter in a different order:
 
 - `err` - The error object. This is an odd one but it *must* be the first parameter in the callback.
 - `req` - The request object, which represents the incoming HTTP request.
 - `res` - The response object, which represents the HTTP response that will be sent back to the client.
-- `next` - The function that pass the control to the *next* middleware (We'll get to this later). This is optional.
+- `next` - The function that pass the control to the *next* middleware function (We'll get to this later). This is optional.
 
-This middleware handles the *errors thrown* in other middlewares or something that is sent by a previous middleware using the `next` function (e.g. `next(err)`).
+This middleware function handles the *errors thrown* in other middleware functions or something that is sent by a previous middleware function using the `next` function (e.g. `next(err)`).
 
-So the way express distinguishes this middleware is again through adding *four parameters* not a single one missing. A route middleware or a middleware with *less than four parameters* will always be considered as a request middleware instead of this error middleware even if you place it last.
+So the way Express distinguishes this middleware fucntion is again through adding *four parameters* not a single one missing. A route middleware function or a middleware function with *less than four parameters* will always be considered as a request middleware function instead of this error middleware function even if you place it last.
 
 ```javascript
 app.use((req, res, next) => {
@@ -237,7 +239,7 @@ app.use((err, req, res, next) => {
 
 #### Creating custom errors
 
-With the solutions above, the error middleware can only really respond with a `500` status code no matter what error it is. Because what if we actually want to send a `404`? A common way to do this is to create our own custom error by extending the Error object.
+With the solutions above, the error middleware function can only really respond with a `500` status code no matter what error it is. Because what if we actually want to send a `404`? A common way to do this is to create our own custom error by extending the Error object.
 
 ```javascript
 class CustomNotFoundError extends Error {
@@ -266,9 +268,9 @@ const getUserById = asyncHandler(async (req, res) => {
 });
 ```
 
-Since we are using `express-async-handler`, we don't need to send an error response inside of this function but instead just throw an error. `asyncHandler` automatically catches the thrown error and calls `next()`, passing in the caught error as an argument, which passes control to our custom error handler! 
+Since we are using `express-async-handler`, we don't need to send an error response inside of this function but instead just throw an error. `asyncHandler` automatically catches the thrown error and calls `next()`, passing in the caught error as an argument, which passes control to our custom error handler!
 
-It will eventually end up in the error middleware where we can also modify:
+It will eventually end up in the error middleware function where we can also modify:
 
 ```javascript
 app.use((err, req, res, next) => {
@@ -307,14 +309,14 @@ app.use(middleware3);
 // will log `Middleware 1` -> `Middleware 2` and send a response with the text "Response from Middleware 2"
 ```
 
-Here we have `middleware1`, `middleware2`, and `middleware3`. `middleware1` calls the `next` function, and since we are not yet sending a response, we pass the control to the next middleware - `middleware2` (as indicated by the order of `app.use` calls). In `middleware2`, we send a response which ends the request-response cycle. Since it has ended, the third middleware (`middleware3`) does not run. But if we somehow did not call the `next` function in `middleware1`, do you know what would happen? Perhaps pop in the [TOP Discord server](https://discord.gg/theodinproject) and let us know what you think!
+Here we have `middleware1`, `middleware2`, and `middleware3`. `middleware1` calls the `next` function, and since we are not yet sending a response, we pass the control to the next middleware function - `middleware2` (as indicated by the order of `app.use` calls). In `middleware2`, we send a response which ends the request-response cycle. Since it has ended, the third middleware function (`middleware3`) does not run. But if we somehow did not call the `next` function in `middleware1`, do you know what would happen? Perhaps pop in the [TOP Discord server](https://discord.gg/theodinproject) and let us know what you think!
 
 Also, as we've discussed earlier with regards to calling the `next` function. We have the following arguments that we can pass to it:
 
-1. No argument `next()` - Will pass control to the next middleware. Very simple and straightforward.
-1. With an error argument `next(new Error(...))` - Will pass control directly to the error middleware.
+1. No argument `next()` - Will pass control to the next middleware function. Very simple and straightforward.
+1. With an error argument `next(new Error(...))` - Will pass control directly to the error middleware function.
 1. With the string `next('route')` - Will pass control to the next route handler with the same matching path (if there is one). This only works for `app.METHOD` or `router.METHOD`. Potentially, it can also be the same as just calling `next` with no argument.
-1. With the string `next('router')` - Will skip all middlewares attached to the specific router instance and pass control back out of the router instance. Basically, we exit the router and go back to the parent router say `app` and yes the express `app` under the hood is also just a router.
+1. With the string `next('router')` - Will skip all middleware functions attached to the specific router instance and pass control back out of the router instance. Basically, we exit the router and go back to the parent router, e.g. `app` (yes, the Express app is also just a router under the hood).
 
 Out of the four, you will likely only use the first two, unless you have a very specific need that requires the other two.
 
@@ -371,8 +373,8 @@ const userController = require('<path-to-user-controller>');
 
 const router = express.Router();
 
-// You can for example add a top level middleware that handles say authentication and only let the request come in if they're authenticated
-// This prevents from executing the middlewares below if the request is not authenticated
+// You can for example add a top level middleware function that handles say authentication and only let the request come in if they're authenticated
+// This prevents from executing the middleware functions below if the request is not authenticated
 // We will learn more about authentication in later lessons
 // usually calls either next() or next(error)
 
@@ -387,7 +389,7 @@ const router = express.Router();
 router.route('/')
   .get(userController.getUsers)
   .post(userController.createUser);
-  // You will likely place your validation/authentication middlewares here or perhaps in the controller file, e.g.
+  // You will likely place your validation/authentication middleware functions here or perhaps in the controller file, e.g.
   // .post(validationMiddleware, userController.createUser)
 
 router.route('/:id')
@@ -416,7 +418,7 @@ app.use(morgan('dev'));
 // to make it available for use in `req.body`.
 app.use(express.json());
 
-// same as above but parses incoming requests with URL-encoded payloads (e.g name=Damon&type=Professional)
+// same as above but parses incoming requests with URL-encoded payloads (e.g name=Damon&role=Professional)
 // more information on extended in the express documentation
 app.use(express.urlencoded({ extended: false }));
 
@@ -434,7 +436,7 @@ app.use('/users', userRouter);
 
 <div class="lesson-content__panel" markdown="1">
 
-1. This article [Express Middlewares, Demystified](https://medium.com/@viral_shah/express-middlewares-demystified-f0c2c37ea6a1) Written by Viral Shah will help understand how middlewares work in a depper way. The article also encourages you to read the source code of express which you can likely do by now.
+1. This article [Express Middlewares, Demystified](https://medium.com/@viral_shah/express-middlewares-demystified-f0c2c37ea6a1) Written by Viral Shah will help understand how middlewares work in a depper way. The article also encourages you to read the source code of Express which you can likely do by now.
 1. Watch this short 10 minutes [video tutorial of the MVC pattern](https://www.youtube.com/watch?v=Cgvopu9zg8Y). There is not much to this other than consolidating what you already know.
 
 </div>
