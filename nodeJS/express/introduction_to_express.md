@@ -41,7 +41,21 @@ Let's break this down. We import `express` then call it to initialize the `app` 
 
 We then have a `route handler` - the line beginning with `app.get`. We will come back to this in a moment.
 
-Finally, we tell our server to listen for incoming requests requests on port 3000 of our [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged. Congratulations! Your first Express server is now running.
+Finally, we tell our server to listen for incoming requests requests on whatever port we specify in our  of our [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged. Congratulations! Your first Express server is now running.
+
+<div class="lesson-note" markdown="1">
+
+#### The port variable
+
+For demonstration purposes, we hardcoded a fixed port number above. Usually, the port number would come from an environment variable with a fallback value in case the environment variable does not exist.
+
+```javascript
+const PORT = process.env.PORT || 3000;
+```
+
+If the specified port is already in use, we can change the environment variable value without editing the source code. Also, some hosting services configure their own ports which may differ from a fix value hardcoded in.
+
+</div>
 
 ### A request's journey
 
@@ -77,6 +91,7 @@ Our recommendation would be to add Nodemon as a dev dependency and add an npm sc
 
 <div class="lesson-content__panel" markdown="1">
 
+1. Spend a few minutes exploring the [Express documentation](https://expressjs.com/en/4x/api.html) to get a feel for things. We will be referencing a lot of content from the docs in the coming lessons.
 1. Go back to your [Basic Informational Site project](https://www.theodinproject.com/lessons/nodejs-basic-informational-site), install Express and rewrite the project using it! You should be able to do most of this with just a few `app.get()`s.
 
 </div>
