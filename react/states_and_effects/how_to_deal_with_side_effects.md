@@ -90,6 +90,7 @@ export default function Clock() {
 ```
 
 <div class="lesson-note" markdown="1">
+
 Usually, you do not need to add dependencies to your `useEffect`hook manually. Your linter should let you know about the dependencies it expects. Letting the linter show errors and fixing them instead of suppressing them is usually the best idea. On a general note, the following block does a good job of summing this point up.
 
 ```jsx
