@@ -40,7 +40,7 @@ To help you make a decision, here are some perks of each technology:
   - Keeping the language consistent can help with writing consistent code across your entire application.
   - Allows you to do some cool things, like writing code that runs on both the browser and the server for optimization purposes.
 
-In the end, it doesn't matter which path you take. It's only important that you stick with it, and continue to hold onto the learner's mindset throughout your career. Not convinced? [Click here](https://medium.com/@bycdiaz/choosing-the-right-language-a-short-guide-on-how-not-to-ruin-your-career-2b353be1371).
+In the end, it doesn't matter which path you take. It's only important that you stick with it, and continue to hold onto the learner's mindset throughout your career. Not convinced? Read this [article about picking the right programming language](https://medium.com/@bycdiaz/choosing-the-right-language-a-short-guide-on-how-not-to-ruin-your-career-2b353be1371).
 
 ### Still can’t decide? Let the spinner settle your fate!
 
