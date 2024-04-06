@@ -224,6 +224,7 @@ Let us address a few cases where `useEffect` does not need to be used.
 <div class="lesson-content__panel" markdown="1">
 
 1. This lesson from the React docs talks about the [lifecycle of a component](https://react.dev/learn/lifecycle-of-reactive-effects), the different stages at which rendering takes place, and the role of `useEffect` in it.
+1. More examples from the React docs about when [you might not need an Effect](https://react.dev/learn/you-might-not-need-an-effect).
 1. Yet another article that explains [a common mistake that beginners make](https://dmitripavlutin.com/react-useeffect-infinite-loop), the infinite `useEffect` loop.
 
 </div>
