@@ -80,16 +80,17 @@ After installation is complete, let's start the server using this command:
 sudo systemctl start postgresql.service
 ```
 
-<div class="lesson-note lesson-note--warning">
-#### Systemctl and WSL2
-Systemctl is not supported on WSL2, and the above command won't work. Instead run sudo service postgresql start.
-</div>
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-If you are unsure about whether `postgresql` is active, it's possible to check with this command:
+#### Systemctl and WSL2
+
+Systemctl is not supported on WSL2, and the above command won't work. Instead, run the following command:
 
 ```bash
-service postgresql status
+sudo service postgresql start
 ```
+
+</div>
 
 Got an error, or don't see an active service? Come visit the [Discord](https://discord.gg/V75WSQG) for some help!
 
