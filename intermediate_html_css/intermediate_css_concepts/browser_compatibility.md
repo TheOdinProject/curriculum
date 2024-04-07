@@ -77,7 +77,7 @@ It's important to remember that mobile browsers are not one-to-one with their de
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-- Read more about the [history of web browsers](https://www.taskade.com/blog/history-of-web-browsers-internet-online-productivity/).
-- Take a look at this [comprehensive primer on browsers and rendering engines](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/).
+- Read more about the [history of web browsers](https://taskade.medium.com/history-of-web-browsers-the-evolution-of-digital-productivity-️-28fa2d4130fb).
+- Take a look at this [comprehensive primer on browsers and rendering engines](https://web.dev/articles/howbrowserswork).
 
 

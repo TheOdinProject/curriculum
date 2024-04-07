@@ -1,7 +1,7 @@
 ### Introduction
 
 You have probably heard about reducers before. In this lesson we are going to
-learn _what_ they are, _when_ to use them and _how_ to use them in React with the `useReducer` hook.
+learn *what* they are, *when* to use them and *how* to use them in React with the `useReducer` hook.
 
 ### Lesson overview
 
@@ -15,12 +15,12 @@ This section contains a general overview of topics that you will learn in this l
 
 Reducers are pure functions that take a previous state and an action to return a new state.
 
-The action is an object with a _type_ property describing what the user did. This object can also contain
+The action is an object with a *type* property describing what the user did. This object can also contain
 any other properties that our reducer might need to produce the new state.
 
 We can define a reducer that updates the state of a counter like this:
 
-~~~js
+```js
 function reducer(state, action) {
   switch (action.type) {
     case "incremented_count": {
@@ -37,7 +37,7 @@ function reducer(state, action) {
     }
   }
 }
-~~~
+```
 
 Remember, reducers are pure functions so we shouldn't mutate the state.
 
@@ -49,7 +49,7 @@ The opposite can be said when a component has become too big, hard to read or de
 By using reducers, we can separate the state logic and even store it in a different file or directory, leading
 to smaller components that are easier to read.
 
-Since reducers use _actions_, we can easily track any state-related bugs back to the dispatched action,
+Since reducers use *actions*, we can easily track any state-related bugs back to the dispatched action,
 and because our reducers are just pure functions, we can test them in isolation.
 
 ### The useReducer hook
@@ -60,15 +60,15 @@ an initial state as arguments, then returns an array with two values: the curren
 This `dispatch` function receives an **action** object as argument, which is passed to our reducer function and
 the returned value from it is used to update the state.
 
-~~~js
+```js
 const [state, dispatch] = useReducer(reducer, { count: 0 });
 
 function handleClick() {
   dispatch({ type: "incremented_count" });
 }
-~~~
+```
 
-Similarly to the `set` function in `useState`, React _only updates the state in the next render_ after calling the `dispatch` function.
+Similarly to the `set` function in `useState`, React *only updates the state in the next render* after calling the `dispatch` function.
 Keep in mind that these functions use [`Object.is`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the state has changed, if it hasn't, then the component won't re-render.
 
 Whether you use `useState` or `useReducer` is up to you, they're both equivalent and you might use them both in the same component.

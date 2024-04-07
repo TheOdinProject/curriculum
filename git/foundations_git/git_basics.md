@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Create the repository
 
-1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting Up Git](https://www.theodinproject.com/lessons/foundations-setting-up-git) lesson. If you haven't done that yet, you can sign up on [GitHub](https://github.com/).
+1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting Up Git](https://www.theodinproject.com/lessons/foundations-setting-up-git) lesson. 
 
 1. Create a new repository by clicking the button shown in the screenshot below.
 
@@ -38,7 +38,7 @@ This section contains a general overview of topics that you will learn in this l
 
     ![Copy SSH link using GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/02.png)
 
-1. Let's use the command line on your local machine to create a new directory for all of your Odin projects. Create a directory called `repos` with the `mkdir` command in your home folder. Your home folder is represented by `~`. [Navigating Files and Directories](https://swcarpentry.github.io/shell-novice/02-filedir.html#callout1) covered variations of home folders - sometimes `~` stands for `/Users/your_username` and sometimes it stands for `/home/your_username`. If you're not sure if you're in your home folder, just type `cd ~`. Once it's made, move into it with the `cd` command.
+1. Let's use the command line on your local machine to create a new directory for all of your Odin projects. Create a directory called `repos` with the `mkdir` command in your home folder. Your home folder is represented by `~`. Note that depending on your OS, there may be some [home directory variation](https://swcarpentry.github.io/shell-novice/02-filedir.html#home-directory-variation) - sometimes `~` stands for `/Users/your_username` and sometimes it stands for `/home/your_username`. If you're not sure if you're in your home folder, just type `cd ~`. Once it's made, move into it with the `cd` command.
 
     ![Creating a new directory](https://cdn.statically.io/gh/TheOdinProject/curriculum/b54d14c5dcee1c6fac61aee02fca7e9ef7ba1510/foundations/git_basics/project_practicing_git_basics/imgs/03.png)
 

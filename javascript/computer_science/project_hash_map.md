@@ -37,7 +37,7 @@ if (index < 0 || index >= buckets.length) {
 
       You are free to use that, or if you wish, you can conduct your own research. Beware, this is a deep deep rabbit hole.
 
-      Also, there is one edge case with long keys that was not taken into consideration in the function or rather how we applied a modulo `%` operator. JavaScript is unable to hold large numbers precisely. At some point, calculations are going to be inacccurate, which significantly increases the chances of collisions. There are a few ways how we could handle it but we recommend that you apply the modulo operator on *each iteration* instead of outside the loop at the end. In that case, we prevent the output from becoming larger than our bucket's length.
+      Also, there is one edge case with long keys that was not taken into consideration in the function or rather how we applied a modulo `%` operator. JavaScript is unable to hold large numbers precisely. At some point, calculations are going to be inaccurate, which significantly increases the chances of collisions. There are a few ways how we could handle it but we recommend that you apply the modulo operator on *each iteration* instead of outside the loop at the end. In that case, we prevent the output from becoming larger than our bucket's length.
 
       You might find yourself confusing keys with hash codes while accessing key-value pairs later. We would like to stress that the key is what your `hash` function will take as an input. In a way, we could say that the key is important for us only inside the `hash` function. But we never access a bucket directly with the key. Instead we do so with the hash code.
 

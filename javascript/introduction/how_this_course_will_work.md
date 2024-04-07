@@ -24,7 +24,7 @@ It starts with a deep look at JavaScript code organization and basic computer sc
 
 We won't be focusing deeply on the really basic coding items, so it will move quickly. You should, however, already have completed the [Foundations course](https://www.theodinproject.com/paths/foundations/courses/foundations) -- specifically, the [JavaScript Basics section](https://www.theodinproject.com/paths/foundations/courses/foundations#javascript-basics) -- before starting this course.
 
-The last thing you'll do is a project which integrates everything you've learned so far in all the courses of this curriculum. This is the kind of project that you'll consider including in your portfolio as an example to demonstrate to perspective employers you have strong web development skills.
+The last thing you'll do is a project which integrates everything you've learned so far in all the courses of this curriculum. This is the kind of project that you'll consider including in your portfolio as an example to demonstrate to prospective employers you have strong web development skills.
 
 ### Format
 

@@ -20,6 +20,16 @@ Let's take a look at how we can use state in our code.
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://codesandbox.io/p/sandbox/unruffled-pasteur-6h36wf?file=%2Fsrc%2FApp.jsx%3A10%2C27&embed=1" allowfullscreen></iframe>
 
+<div class="lesson-note lesson-note--critical" markdown="1">
+
+If you are unable to view the above CodeSandbox, fork it to your own CodeSandbox account by clicking the "fork" button.
+
+If you still get a "Failed to fork: (401)" error, click the "fork" button again.
+
+Alternatively, you can view the [code on GitHub](https://github.com/TheOdinProject/react-examples/tree/main/background-color-state-example)
+
+</div>
+
 An app that changes its background color based on the clicked button. Take your time reading the code as we'll jump right in.
 
 #### The useState hook
