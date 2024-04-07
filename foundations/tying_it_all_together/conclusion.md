@@ -1,3 +1,6 @@
+<!-- TOP004 disabled due to unique and intended lesson structure  -->
+<!-- markdownlint-disable TOP004 -->
+
 ### Introduction
 
 That was quite a journey. Take a second and reflect on the fact that you've just learned the basics of at least three different languages and, if you had to, you could probably hack together a web page on your own already.
@@ -10,7 +13,7 @@ You've come a long way up the learning curve but there is so much more cool stuf
 
 Learning how to program is **much** more than just learning a language. It's about learning how to research and solve difficult problems, building an engineering mindset, working on complex problems and codebases, communicating effectively with other developers, and **much** more. Luckily, all these skills are transferable to other languages and domains of software and because most languages are similar in concept and structure, moving into a different language will be much easier than learning your first.
 
-Arguments about learning the languages used in your area may sound convincing, but because a _good_ developer can transfer skills easily, what you learn isn't going to massively change outcomes of getting a job. Though, if you cannot shake that fear, do whatever you need -- even if that includes researching your area to see what jobs are available locally (don't forget about remote jobs, though). A good course is far more important than the language you learn first.
+Arguments about learning the languages used in your area may sound convincing, but because a *good* developer can transfer skills easily, what you learn isn't going to massively change outcomes of getting a job. Though, if you cannot shake that fear, do whatever you need -- even if that includes researching your area to see what jobs are available locally (don't forget about remote jobs, though). A good course is far more important than the language you learn first.
 
 To help you make a decision, here are some perks of each technology:
 
@@ -54,6 +57,6 @@ The journey has just begun!
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- If you are still confused, Check out this article to get more facts, pros and cons about both languages [Ruby on Rails vs Javascript.](https://cloudinfrastructureservices.co.uk/ruby-on-rails-vs-javascript-whats-the-difference/).
+- If you are still confused, Check out this article to get more facts, pros and cons about both languages [Ruby on Rails vs JavaScript.](https://cloudinfrastructureservices.co.uk/ruby-on-rails-vs-javascript-whats-the-difference/).

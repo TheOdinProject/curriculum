@@ -1,6 +1,6 @@
 ### Introduction
 
-You made it! By now you should have a _really_ firm grasp on the fundamentals of JavaScript. Of course there's plenty more to learn, but you should be able to create quite a bit at this point. Our final project is going to combine everything you've learned so far: you're going to make an on-screen calculator using JavaScript, HTML, and CSS.
+You made it! By now you should have a *really* firm grasp on the fundamentals of JavaScript. Of course there's plenty more to learn, but you should be able to create quite a bit at this point. Our final project is going to combine everything you've learned so far: you're going to make an on-screen calculator using JavaScript, HTML, and CSS.
 
 As usual with these things, there are elements of this project that are not going to be trivially easy for you, but if you've been following the course so far, you definitely have everything you need to finish it. We're going to walk you through the various steps you can take, but again, how you actually implement them is up to you!
 
@@ -39,7 +39,7 @@ Here are some use cases (abilities your project needs to have):
    - **Your calculator should not evaluate more than a single pair of numbers at a time.** Example: you press a number button (`12`), followed by an operator button (`+`), a second number button (`7`), and finally a second operator button (`-`). Your calculator should then do the following: first, evaluate the first pair of numbers (`12 + 7`), second, display the result of that calculation (`19`), and finally, use that result (`19`) as the first number in your new calculation, along with the next operator (`-`). An example of the behavior we’re looking for can be seen in this [student's calculator live preview](https://mrbuddh4.github.io/calculator/).
    - You should round answers with long decimals so that they don't overflow the screen.
    - Pressing `=` before entering all of the numbers or an operator could cause problems!
-   - Pressing "clear" should wipe out any existing data.. make sure the user is really starting fresh after pressing "clear"
+   - Pressing "clear" should wipe out any existing data. Make sure the user is really starting fresh after pressing "clear"
    - Display a snarky error message if the user tries to divide by 0... and don't let it crash your calculator!
 
 #### Extra credit
