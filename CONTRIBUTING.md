@@ -17,7 +17,7 @@ There are 2 main ways you can contribute to our curriculum:
 
 Regardless of the way you choose to open a PR, while working on an existing or a new lesson you **must** follow our [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md) to ensure the layout and formatting is consistent across our curriculum.
 
-Before submitting a PR for an existing or a new lesson, you must also use our [Lesson Preview Tool](https://www.theodinproject.com/lessons/preview) to ensure the lesson Markdown is correctly formatted and rendering properly.
+Before submitting a PR for any lesson, you must also use our [Lesson Preview Tool](https://www.theodinproject.com/lessons/preview) to ensure the lesson Markdown is correctly formatted and rendering properly.
 
 ## Curriculum Linting
 
