@@ -30,4 +30,4 @@ To help enforce the layout specified in our layout style guide, we use [markdown
     - Lint projects: `npm run project:lint -- "./path/to/project"`
     - Autofix projects: `npm run project:fix -- "./path/to/project"`
 
-With either of these two methods, keep in mind that not all issues that get flagged will have an autofix available. Some rules require fixes that are more depdenent on context and cannot - and should not - be automatically fixed, such as our custom rule `TOP001` for descriptive link text.
+With either of these two methods, keep in mind that not all issues that get flagged will have an autofix available. Some rules require fixes that are more dependent on context and cannot - and should not - be automatically fixed, such as our custom rule `TOP001` for descriptive link text.
