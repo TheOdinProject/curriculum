@@ -1,4 +1,5 @@
-<!-- markdownlint-disable MD024 MD043 -->
+<!-- TODO: Revisit lesson/heading structure to remove need to disable rules -->
+<!-- markdownlint-disable MD024 TOP004 -->
 
 ### Introduction
 
@@ -55,8 +56,8 @@ If you've been following the curriculum, you should already have installed all t
 Pick your operating system below to get the appropriate steps for installing PostgreSQL.
 
 <details markdown="block">
-<summary class="dropDown-header">Linux
-</summary>
+
+<summary class="dropDown-header">Linux</summary>
 
 ### Step 1: Make sure the system is up to date
 
@@ -80,16 +81,17 @@ After installation is complete, let's start the server using this command:
 sudo systemctl start postgresql.service
 ```
 
-<div class="lesson-note lesson-note--warning">
-#### Systemctl and WSL2
-Systemctl is not supported on WSL2, and the above command won't work. Instead run sudo service postgresql start.
-</div>
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-If you are unsure about whether `postgresql` is active, it's possible to check with this command:
+#### Systemctl and WSL2
+
+Systemctl is not supported on WSL2, and the above command won't work. Instead, run the following command:
 
 ```bash
-service postgresql status
+sudo service postgresql start
 ```
+
+</div>
 
 Got an error, or don't see an active service? Come visit the [Discord](https://discord.gg/V75WSQG) for some help!
 
@@ -122,7 +124,9 @@ One other important step in setting up PostgreSQL is that each role must have it
 You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to resolve fix this:
 
 <div class="lesson-note" markdown="1">
-  If your username has any capital letters, you must surround it in quotes when running the below command.
+
+If your username has any capital letters, you must surround it in quotes when running the below command.
+
 </div>
 
 ```bash
@@ -178,8 +182,8 @@ Once that's done, we can move to testing it out!
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">macOS
-</summary>
+
+<summary class="dropDown-header">macOS</summary>
 
 ### Step 1: Make sure the system is up to date
 
@@ -244,7 +248,9 @@ Input `\du`, hit Return, and check that your MacOS username is the listed role n
 One other important step in setting up PostgreSQL is that each role must have its own database of the same name. We need this to login as the role matching our username. While still in the PostgreSQL session prompt, type the following command to create the new database. Make sure you include the semicolon.
 
 <div class="lesson-note" markdown="1">
-  If your username has any capital letters, you must surround it in quotes when running the below command.
+
+If your username has any capital letters, you must surround it in quotes when running the below command.
+
 </div>
 
 ```sql
@@ -357,7 +363,7 @@ Open your browser, and head on over to `localhost:3000`. If you are greeted by t
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What are the typical environments that make up a pipeline?](#pipeline)
 - [What is an environment variable?](#env_var)
@@ -365,7 +371,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - RubyGuides has a good [introduction to environment variables](https://www.rubyguides.com/2019/01/ruby-environment-variables/) that has a lot of information, including some gem options for managing environment variables.
 - DigitalOcean has a fantastic [guide to setting up PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-22-04) that you can also check out.
