@@ -18,7 +18,7 @@ This section contains a general overview of topics that you will learn in this l
 Objects are a *very* important part of the JavaScript language, and while for the most part you can accomplish simple and even intermediate tasks without worrying about them, any real project that you're going to attempt is going to feature Objects. The uses of Objects in JavaScript can get deep relatively quickly, so for the moment we're only going to cover the basics. There'll be an in-depth dive later.
 
 1. This JavaScript.info [article on objects](https://javascript.info/object) is the best place to get started.
-1. The [MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
+1. The [MDN tutorial on objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
 
 ### Intermediate/advanced array magic
 
@@ -87,7 +87,7 @@ console.log(mappedArr); // Outputs [2, 3, 4, 5, 6]
 
 ```javascript
 // The original array has not been changed!
-console.log(arr) // Outputs [1, 2, 3, 4, 5]
+console.log(arr); // Outputs [1, 2, 3, 4, 5]
 ```
 
 This is a much more elegant approach, what do you think? For simplicity, we could also define an inline function right inside of `map` like so:
@@ -109,8 +109,8 @@ If we wanted to remove all even numbers from this array, we could use `.filter()
 
 ```javascript
 const oddNums = arr.filter((num) => num % 2 !== 0);
-console.log(oddNums) // Outputs [1, 3, 5];
-console.log(arr) // Outputs [1, 2, 3, 4, 5], original array is not affected
+console.log(oddNums); // Outputs [1, 3, 5];
+console.log(arr); // Outputs [1, 2, 3, 4, 5], original array is not affected
 ```
 
 - `filter` will iterate through `arr` and pass **every value** into the `isOdd` callback function, one at a time.
@@ -128,13 +128,13 @@ However, there are two key differences with this array method:
 - The callback function takes two arguments instead of one. The first argument is the `accumulator`, which is the current value of the result *at that point in the loop*. The first time through, this value will either be set to the `initialValue` (described in the next bullet point), or the first element in the array if no `initialValue` is provided. The second argument for the callback is the `current` value, which is the item currently being iterated on.
 - It also takes in an `initialValue` as a second argument (after the callback), which helps when we don't want our initial value to be the first element in the array. For instance, if we wanted to sum all numbers in an array, we could call reduce without an `initialValue`, but if we wanted to sum all numbers in an array and add 10, we could use 10 as our `initialValue`.
 
-```js
+```javascript
 const arr = [1, 2, 3, 4, 5];
 const productOfAllNums = arr.reduce((total, currentItem) => {
   return total * currentItem;
 }, 1);
 console.log(productOfAllNums); // Outputs 120;
-console.log(arr) // Outputs [1, 2, 3, 4, 5]
+console.log(arr); // Outputs [1, 2, 3, 4, 5]
 ```
 
 In the above function, we:
@@ -172,19 +172,20 @@ function sumOfTripledEvens(array) {
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Start out by watching [this video](https://www.youtube.com/watch?v=HB1ZC7czKRs) from Wes Bos. To follow along, use your local Javascript30 repository. If you don't have the repo yet, clone it from [here](https://github.com/wesbos/JavaScript30).
-1. Watch and code with [Part 2](https://www.youtube.com/watch?v=QNmRfyNg1lw) of Wes Bos's array series.
+
+1. Start out by watching [JavaScript Array Cardio Practice - Day 1](https://www.youtube.com/watch?v=HB1ZC7czKRs) from Wes Bos. To follow along, fork and clone the [JavaScript30 repository](https://github.com/wesbos/JavaScript30).
+1. Watch and code along with [Array Cardio Day 2](https://www.youtube.com/watch?v=QNmRfyNg1lw).
 1. Read through the [array method guide](https://javascript.info/array-methods) for a more comprehensive and in-depth guide to array methods in JavaScript. Complete the exercises at the end except for "Create an extendable calculator", as that involves more advanced concepts we have not yet covered.
-1. At this point you just need a little more practice!  Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Fundamentals Part 4](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4) assignment. Review each README file prior to completing the following exercises in order:
-    - `08_calculator`
-    - `09_palindromes`
-    - `10_fibonacci`
-    - `11_getTheTitles`
-    - `12_findTheOldest`
+1. At this point you just need a little more practice! Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Fundamentals Part 4](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4) assignment. Review each README file prior to completing the following exercises in order:
+   - `08_calculator`
+   - `09_palindromes`
+   - `10_fibonacci`
+   - `11_getTheTitles`
+   - `12_findTheOldest`
 
 Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
-If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help on our [Discord](https://discord.gg/fbFCkYabZB)!
+If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help in the [TOP Discord server](https://discord.com/invite/theodinproject)!
 
 </div>
 
