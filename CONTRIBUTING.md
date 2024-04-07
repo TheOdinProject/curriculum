@@ -5,6 +5,7 @@ Thank you for expressing interest in contributing to The Odin Project (TOP) curr
 This contributing guide assumes you have followed the instructions in our general contributing guide to fork and clone our curriculum repo.
 
 ## Table of Contents
+
 - [How to Contribute](#how-to-contribute)
 - [Curriculum Linting](#curriculum-linting)
 
