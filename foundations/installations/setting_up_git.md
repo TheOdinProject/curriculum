@@ -189,12 +189,8 @@ If a message appears in the console containing the text "No such file or directo
 To create a new SSH key, run the following command inside your terminal.
 
 ```bash
-ssh-keygen -t ed25519 -C "your@email.com"
+ssh-keygen -t ed25519
 ```
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-The `-C` flag is to write a comment, otherwise the key will be generated with your computer's username. The convention is to use your email as a comment to indicate who generated the public key. For example if your email address is `odin@theodinproject.com`, then you would type `ssh-keygen -t ed25519 -C "odin@theodinproject.com"`.
-</div>
 
 - When it prompts you for a location to save the generated key, just push <kbd>Enter</kbd>.
 - Next, it will ask you for a password; enter one if you wish, but it's not required.
@@ -205,7 +201,7 @@ Now, you need to tell GitHub what your SSH key is so that you can push your code
 
 First, you'll navigate to where GitHub receives our SSH key. Log into GitHub and click on your profile picture in the top right corner. Then, click on `Settings` in the drop-down menu.
 
-Next, on the left-hand side, click `SSH and GPG keys`. Then, click the green button in the top right corner that says `New SSH Key`. Name your key something that is descriptive enough for you to remember where it came from. Leave this window open while you do the next steps.
+Next, on the left-hand side, click `SSH and GPG keys`. Then, click the green button in the top right corner that says `New SSH Key`. Name your key something that is descriptive enough for you to remember what device this SSH key came from, for example `linux-ubuntu`. Leave this window open while you do the next steps.
 
 Now you need to copy your public SSH key. To do this, we're going to use a command called [`cat`](http://www.linfo.org/cat.html) to read the file to the console. (Note that the `.pub` file extension is important in this case.)
 
@@ -219,7 +215,9 @@ Now, go back to GitHub in your browser window and paste the key you copied into 
 
 #### Step 2.5 Testing your key
 
-Follow these directions for [testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux) **(don't forget to omit the `$` when you copy and paste the code!)**. You should see this response in your terminal: **Hi username! You've successfully authenticated, but GitHub does not provide shell access.** Don't let GitHub's lack of providing shell access trouble you. If you see this message, you've successfully added your SSH key and you can move on. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/fbFCkYabZB) to ask for help.
+Follow the directions in [this article from GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux) to verify your SSH connection. Make sure the fingerprint output in the terminal matches [one of the four GitHub's public fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints). **(Don't forget to omit the `$` when you copy and paste the code!)**. 
+
+You should see this response in your terminal: **Hi username! You've successfully authenticated, but GitHub does not provide shell access.** Don't let GitHub's lack of providing shell access trouble you. If you see this message, you've successfully added your SSH key and you can move on. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/fbFCkYabZB) to ask for help.
 
 ### Step 3: Let us know how it went!
 
