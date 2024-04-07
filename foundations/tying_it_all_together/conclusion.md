@@ -59,4 +59,4 @@ The journey has just begun!
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- If you are still confused, Check out this article to get more facts, pros and cons about both languages [Ruby on Rails vs JavaScript.](https://cloudinfrastructureservices.co.uk/ruby-on-rails-vs-javascript-whats-the-difference/).
+- If you are still confused, check out this article to get more facts, pros and cons about both languages [Ruby on Rails vs JavaScript](https://cloudinfrastructureservices.co.uk/ruby-on-rails-vs-javascript-whats-the-difference/).
