@@ -1,6 +1,6 @@
 ### Introduction
 
-You know _what_ React is and you might even have an idea of _where_ to use it. Now, it's time to start figuring out _how_.
+You know *what* React is and you might even have an idea of *where* to use it. Now, it's time to start figuring out *how*.
 
 This lesson is going to cover starting a new React project on your machine, as well as some useful tools to help you along the way. We'll also explain some of the problems that may arise (and how to avoid them).
 
@@ -26,14 +26,14 @@ Some examples of these toolchains include:
 
 Why do we need these toolchains? Can't we just make our own as we see fit?
 
-Yes, but it's _hard_. React is a complex beast and there are many moving parts. Before you can start writing any sort of code that provides functionality, you would need to configure _at least_ the following:
+Yes, but it's *hard*. React is a complex beast and there are many moving parts. Before you can start writing any sort of code that provides functionality, you would need to configure *at least* the following:
 
 - Package Management ([NPM](https://www.npmjs.com/), [Yarn](https://yarnpkg.com/))
 - Module bundling ([Webpack](https://webpack.js.org/), [Parcel](https://parceljs.org/))
 - Compilation ([Babel](https://babeljs.io/))
 - React itself
 
-All of this, and sometimes _much more_ is required to get a React project and development environment up and running.
+All of this, and sometimes *much more* is required to get a React project and development environment up and running.
 
 <div class="lesson-note" markdown=1>
 
@@ -45,13 +45,13 @@ Create React App, or CRA, was the official way to scaffold new React projects si
 
 ### Simplifying the process
 
-Now that you understand what is involved with starting a React project from scratch, you can breathe a sigh of relief to learn that we can get started with a _single terminal command_.
+Now that you understand what is involved with starting a React project from scratch, you can breathe a sigh of relief to learn that we can get started with a *single terminal command*.
 
 Vite builds frontend tools for developers and it leverages the latest technologies under the hood to provide a great developer experience. Fortunately, it also caters to the React ecosystem. We will use Vite's CLI to quickly create a template React project. It requires minimal configuration and provides extremely useful tools right out of the box, allowing us to get straight to the learning. Let's get started!
 
 ### Creating a React app
 
-Please make sure that you are using the _LTS version of Node_, otherwise errors may occur. Fire up a terminal instance, `cd` into the folder containing your projects, and enter the following command:
+Please make sure that you are using the *LTS version of Node*, otherwise errors may occur. Fire up a terminal instance, `cd` into the folder containing your projects, and enter the following command:
 
 ```bash
 npm create vite@latest my-first-react-app -- --template react
@@ -94,16 +94,16 @@ The `public` folder is where all of the static assets related to your app will g
 Inside the `src` folder is where you will find the code that runs your app. The `main.jsx` file here serves as the entry point of the application. Let's open the `main.jsx` file and see if we can understand what's going on:
 
 ```jsx
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
-import "./index.css";
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
-);
+  </React.StrictMode>,
+)
 ```
 
 Whoa! There's quite a lot here. You are not expected to recognize much of this (if any) right now. Here's a brief rundown of what is happening:
@@ -114,7 +114,7 @@ Whoa! There's quite a lot here. You are not expected to recognize much of this (
 1. We create a `root` object by invoking `ReactDOM.createRoot` with an element from our `index.html`.
 1. We invoke the `render` method which is attached to our `root` object, with some very interesting-looking syntax inside the parentheses.
 
-All of this may understandably look unlike anything you've seen up until now, but have no fear, once you've spent the time with this course, you'll know exactly what all of this does, and _much more_.
+All of this may understandably look unlike anything you've seen up until now, but have no fear, once you've spent the time with this course, you'll know exactly what all of this does, and *much more*.
 
 ### Keeping it clean
 
@@ -133,7 +133,7 @@ We recommend installing this and becoming comfortable using it as early as possi
 <div class="lesson-content__panel" markdown="1">
 
 1. Review this material by reading through [Vite's Getting Started Page](https://vitejs.dev/guide/).
-1. Check out this [guide for React Developer Tools](https://www.debugbear.com/blog/react-devtools) to begin learning how to use it (don't worry if you don't understand some of the details yet).
+1. Check out this [guide for React Developer Tools](https://web.archive.org/web/20230127083036/https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to use it (don't worry if you don't understand some of the details yet).
 1. Try to clean up your `my-first-react-app` project so that it no longer displays the default page. See if you can get it to display a "Hello, World!" message instead.
 
 </div>
