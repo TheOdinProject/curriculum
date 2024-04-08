@@ -94,16 +94,16 @@ The `public` folder is where all of the static assets related to your app will g
 Inside the `src` folder is where you will find the code that runs your app. The `main.jsx` file here serves as the entry point of the application. Let's open the `main.jsx` file and see if we can understand what's going on:
 
 ```jsx
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
 ```
 
 Whoa! There's quite a lot here. You are not expected to recognize much of this (if any) right now. Here's a brief rundown of what is happening:
@@ -133,7 +133,7 @@ We recommend installing this and becoming comfortable using it as early as possi
 <div class="lesson-content__panel" markdown="1">
 
 1. Review this material by reading through [Vite's Getting Started Page](https://vitejs.dev/guide/).
-1. Check out this [guide for React Developer Tools](https://web.archive.org/web/20230127083036/https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to use it (don't worry if you don't understand some of the details yet).
+1. Check out this [guide for React Developer Tools](https://www.debugbear.com/blog/react-devtools) to begin learning how to use it (don't worry if you don't understand some of the details yet).
 1. Try to clean up your `my-first-react-app` project so that it no longer displays the default page. See if you can get it to display a "Hello, World!" message instead.
 
 </div>
