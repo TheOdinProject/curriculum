@@ -16,6 +16,8 @@ Some more content.
 
 Some content.
 
+### This `other heading` will get `flagged` twice
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
