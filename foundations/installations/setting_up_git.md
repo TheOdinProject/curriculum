@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD024 MD043 -->
+<!-- markdownlint-disable MD024 TOP004 -->
 
 ### Introduction
 
@@ -13,8 +13,8 @@ Even though GitHub and Git sound like they could be the same thing, they are not
 Click the Operating System you have chosen below:
 
 <details markdown="block">
-<summary class="dropDown-header">Linux
-</summary>
+
+<summary class="dropDown-header">Linux</summary>
 
 #### Step 1.1: Update the system
 
@@ -34,6 +34,7 @@ sudo apt upgrade
   This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
   You can still enter your password as normal and press Enter to submit it.
+
 </div>
 
 #### Step 1.2: Install Git
@@ -59,8 +60,8 @@ If the version number is less than 2.28, follow the instructions again.
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">MacOS
-</summary>
+
+<summary class="dropDown-header">MacOS</summary>
 
 #### Step 1.0: Install Homebrew
 
@@ -71,9 +72,11 @@ First, you'll need to install Homebrew. To install it, you’ll first need to ma
 ```
 
 <div class="lesson-note lesson-note--warning" markdown=1>
+
 On an Apple Silicon Mac you will have an extra step to take.
 If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal there will be a section called "Next steps".
 Reading the terminal may seem a bit intimidating, but this is a great chance to overcome those feelings. Follow the next steps as stated in your terminal (copy and paste the commands given) to add Homebrew to your PATH, which allows you to use the `brew` command prefix.
+
 </div>
 
 #### Step 1.1: Update Git
@@ -106,8 +109,8 @@ If the version number is less than 2.28, follow the instructions again. If you a
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">ChromeOS
-</summary>
+
+<summary class="dropDown-header">ChromeOS</summary>
 
 Follow the instructions on [installing Git from Source](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-10#installing-git-from-source) from Digital Ocean.
 
@@ -209,13 +212,13 @@ Now you need to copy your public SSH key. To do this, we're going to use a comma
 cat ~/.ssh/id_ed25519.pub
 ```
 
-Highlight and copy the output, which starts with `ssh-ed25519` and ends with your email address.
+Highlight and copy the entire output from the command. If you followed the instructions above, the output will likely begin with `ssh-ed25519` and end with your `username@hostname`.
 
 Now, go back to GitHub in your browser window and paste the key you copied into the key field. Keep the key type as `Authentication Key` and then, click `Add SSH key`. You're done! You've successfully added your SSH key!
 
 #### Step 2.5 Testing your key
 
-Follow the directions in [this article from GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux) to verify your SSH connection. Make sure the fingerprint output in the terminal matches [one of the four GitHub's public fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints). **(Don't forget to omit the `$` when you copy and paste the code!)**. 
+Follow the [GitHub directions for testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux). Make sure the fingerprint output in the terminal matches [one of the four GitHub's public fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints). **(Don't forget to omit the `$` when you copy and paste the code!)**.
 
 You should see this response in your terminal: **Hi username! You've successfully authenticated, but GitHub does not provide shell access.** Don't let GitHub's lack of providing shell access trouble you. If you see this message, you've successfully added your SSH key and you can move on. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/fbFCkYabZB) to ask for help.
 
