@@ -133,7 +133,7 @@ We recommend installing this and becoming comfortable using it as early as possi
 <div class="lesson-content__panel" markdown="1">
 
 1. Review this material by reading through [Vite's Getting Started Page](https://vitejs.dev/guide/).
-1. Check out this [guide for React Developer Tools](https://web.archive.org/web/20230127083036/https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to use it (don't worry if you don't understand some of the details yet).
+1. Check out this [guide for React Developer Tools](https://www.debugbear.com/blog/react-devtools) to begin learning how to use it (don't worry if you don't understand some of the details yet).
 1. Try to clean up your `my-first-react-app` project so that it no longer displays the default page. See if you can get it to display a "Hello, World!" message instead.
 
 </div>
