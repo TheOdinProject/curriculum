@@ -27,16 +27,17 @@ body {
 
 The point of this somewhat ridiculous string of font-families is to try using the default font of the system's user interface. It will go through each of those fonts until it finds one that is installed on the system, and then use that. Using a stack like this often produces pleasing results, especially if you're going for a somewhat 'neutral' font style.
 
+#### Web fonts
+
+If you want to use a font that will not be available on the user's device, you will need to import the font from an online source, either a font library or an asset on your site. Both methods will import the font and make it accessible in your CSS `font-family` property.
+
+Keep in mind that it's important to add a fallback font.  If you're linking to an external API, you have no guarantee that the URL won't change, or that the external API won't go down at some point. Having a reasonable fallback means that if something goes wrong, at least your site won't look completely broken.
+
+There are performance issues with using imported files, which you will read more about in the assignments. Therefore, it is best to use a font stack instead of imported fonts if your design allows for it. However, there are times you will want to use an imported font.
+
 #### Online font libraries
 
-One popular and easy method to get fonts that are *not* installed on a user's computer is to use the online [Font Library](https://fontlibrary.org/), or the premium, but non-free, [Adobe Fonts](https://fonts.adobe.com/).
-
-<div class="lesson-note lesson-note--warning" markdown="1">
-### A warning about Google fonts
-
-As you look into online font libraries to use you may come across [Google Fonts](https://fonts.google.com/). We strongly advise against using them, as websites that use Google Fonts [violate the GDPR](https://www.cookieyes.com/documentation/features/integrations/google-fonts-and-gdpr/). Do not follow the instructions in that article on how to make Google fonts compliant, as we will be going over downloading fonts in this lesson.
-
-</div>
+One popular and easy method to get fonts that are *not* installed on a user's device is to use an online font library.
 
 To use a font from one of these libraries, go to the website, select a font and then copy a snippet from the website to import that font from their server into your website. You'll be given either a `<link>` tag to put in your HTML like so....
 
@@ -52,17 +53,9 @@ To use a font from one of these libraries, go to the website, select a font and 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 ```
 
-Either method will import that font and make it available for you to use in your CSS:
+An important consideration when using a font library is the library's privacy policies and any regulations you may need to comply with. For example, using the Google Fonts API [violates the European GDPR](https://thehackernews.com/2022/01/german-court-rules-websites-embedding.html). If you are concerned about complying with such regulations, you can download the font from the library and host it yourself.
 
-```css
-body {
-  font-family: 'Roboto', sans-serif;
-}
-```
-
-Keep in mind that it's important to add a fallback font.  If you're linking to an external API, you have no guarantee that the URL won't change, or that the external API won't go down at some point. Having a reasonable fallback means that if something goes wrong, at least your site won't look completely broken.
-
-#### Downloaded fonts
+#### Self hosted fonts
 
 It is also possible to use a font that you have downloaded from the web. In your CSS file, you import and define a custom font using the `@font-face` rule, and then use it as you would any other font-family. There are multiple types of font file formats and you can read more in depth about them on [fileinfo.com's page on Font File Formats](https://fileinfo.com/filetypes/font). Please take care when choosing a font file format however, because some are not universally supported by browsers. A list of browsers and the font formats they support can be found on [W3 Schools' page on CSS Web Fonts](https://www.w3schools.com/css/css3_fonts.asp).
 
@@ -78,13 +71,6 @@ h1 {
 ```
 
 This method *may* be more reliable than relying on a third-party font API, but it is always wise to include a fallback.
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### Imported font performance considerations
-
-Like any resource imported fonts must be downloaded by the browser before being used. [This article](https://web.dev/articles/font-best-practices) does a great job explaining the various issues and options with imported fonts, make sure to read it before using any custom font, and consider if using a font stack will work instead.
-</div>
 
 ### Text styles
 
@@ -162,20 +148,29 @@ The full snippet is:
 }
 ```
 
-You can see more detail and an example in [this CSS Tricks Article](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/).  (Be ready to go look that article up every time you want to use this.)
+You can see more detail and an example in this [CSS Tricks article on ellipsis overflow](https://css-tricks.com/snippets/css/truncate-string-with-ellipsis/). (Be ready to go look that article up every time you want to use this.)
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+1. Read [MDN's article on web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) and do the exercises.
+1. Read [Font Best Practices](https://web.dev/articles/font-best-practices) to understand some of the performance considerations of imported fonts and how to mitigate issues with them.
+1. Read [web.dev Typography](https://web.dev/learn/design/typography) to understand some important considerations for developers with typography.
+</div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What are the 2 ways to add fonts that are not installed on a user's computer?](#online-font-libraries)
+- [What are the 2 ways to add fonts that are not installed on a user's computer?](#web-fonts)
 - [What is the 'system font stack' and why would you want to use it?](#the-system-font-stack)
 - [Which property would you use to increase or decrease the space between letters in a word?](#letter-spacing)
 - [Which property would you use to increase or decrease the space between lines in a paragraph?](#line-height)
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Modern CSS Techniques To Improve Legibility](https://www.smashingmagazine.com/2020/07/css-techniques-legibility/) by [Edoardo Cavazza](https://www.smashingmagazine.com/author/edoardo-cavazza/) is a great article that covers some additional text styles and techniques that can be utilized to improve websites legibility.
 - [Modern Font Stacks](https://modernfontstacks.com/) lists common font stacks and provides demonstrations of them.
+- There are many online font libraries; some of the most common are: [Font Library](https://fontlibrary.org/), [Google Fonts](https://fonts.google.com/), [Font Bunny](https://fonts.bunny.net/) - a GDPR compliant drop-in replacement for Google Fonts, and [Adobe Fonts](https://fonts.adobe.com/) - a premium font library.
