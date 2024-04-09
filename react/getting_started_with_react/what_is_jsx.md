@@ -129,9 +129,11 @@ Now that we've covered the Rules of JSX, we'll go through the conversion of a ch
 ```jsx
 <h1>Test title</h1>
 <svg>
-   <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
+  <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
 </svg>
-<form><input type="text"></form>
+<form>
+  <input type="text">
+</form>
 ```
 
 If you try to return this from a React component, you would get many errors, so we are going to fix that!
@@ -144,9 +146,11 @@ The first issue we get is that this would not return a single root element, so l
 <div>
   <h1>Test title</h1>
   <svg>
-     <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
+    <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
   </svg>
-  <form><input type="text"></form>
+  <form>
+    <input type="text">
+  </form>
 </div>
 ```
 
