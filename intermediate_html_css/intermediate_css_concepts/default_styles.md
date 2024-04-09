@@ -36,7 +36,7 @@ To address inconsistencies across browsers and establish a consistent starting p
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Why would you want to use a CSS reset?](#What-are-default-styles-and-where-do-they-come-from?)
+- [Why would you want to use a CSS reset?](#what-are-default-styles-and-where-do-they-come-from)
 - [Are resets required?](#resets-optional)
 
 ### Additional resources
