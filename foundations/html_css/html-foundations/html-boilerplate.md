@@ -158,7 +158,7 @@ You may notice that the boilerplate produced by this shortcut includes a line we
 
 This is not something we need to know about until we discuss responsive design, an advanced topic involving different screen sizes which we will cover much later in the curriculum. For now, you can leave that line as it is.
 
-But it's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid), which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects, so you can build some muscle memory for writing the boilerplate code.
+It's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid), which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects, so you can build some muscle memory for writing the boilerplate code.
 
 ### Assignment
 
