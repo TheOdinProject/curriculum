@@ -43,7 +43,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [CSS Resets and Default Browser Styles](https://www.youtube.com/watch?v=Nn2_ISgTG1I) a good video that covers the same material presented here for those who prefer a video.
 - [Browser Default Styles](https://browserdefaultstyles.com/) allows you to view the user-agent applied rules for each element.
-- [Firefox user-agent stylesheets](https://searchfox.org/mozilla-central/source/layout/style/res), [Chrome user-agent stylesheets](https://chromium.googlesource.com/chromium/blink/+/refs/heads/main/Source/core/css/?filter=css), and [Webkit user-agent stylesheets](https://trac.webkit.org/browser/webkit/trunk/Source/WebCore/css)
 - [The Fabulous Styleboard](https://fabulousgk.github.io/fabulous-styleboard/) contains a few resets you can select and deselect to see how they affect various HTML elements.
