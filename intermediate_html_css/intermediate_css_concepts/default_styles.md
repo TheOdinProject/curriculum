@@ -28,6 +28,7 @@ To address inconsistencies across browsers and establish a consistent starting p
 1. Read [Reboot, Resets, and Reasoning](https://css-tricks.com/reboot-resets-reasoning/) for an excellent history of resets and what it means for a reset to be opinionated.
 1. Read [Making the case for CSS normalize and reset stylesheets in 2023](https://mattbrictson.com/blog/css-normalize-and-reset). It does an excellent job of discussing the differences in various resets and why you might choose to use them.
 1. [Josh Comeau's custom CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/) also includes a great breakdown of his thought process behind each rule he uses, giving you an idea of how to reason about these ideas.
+1. Watch [Do We Still Need Resets?](https://www.youtube.com/watch?v=msBOZEwWaNE) for a decent argument against using resets now.
 
 </div>
 
@@ -42,6 +43,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
+- [CSS Resets and Default Browser Styles](https://www.youtube.com/watch?v=Nn2_ISgTG1I) a good video that covers the same material presented here for those who prefer a video.
 - [Browser Default Styles](https://browserdefaultstyles.com/) allows you to view the user-agent applied rules for each element.
 - [Firefox user-agent stylesheets](https://searchfox.org/mozilla-central/source/layout/style/res), [Chrome user-agent stylesheets](https://chromium.googlesource.com/chromium/blink/+/refs/heads/main/Source/core/css/?filter=css), and [Webkit user-agent stylesheets](https://trac.webkit.org/browser/webkit/trunk/Source/WebCore/css)
 - [The Fabulous Styleboard](https://fabulousgk.github.io/fabulous-styleboard/) contains a few resets you can select and deselect to see how they affect various HTML elements.
