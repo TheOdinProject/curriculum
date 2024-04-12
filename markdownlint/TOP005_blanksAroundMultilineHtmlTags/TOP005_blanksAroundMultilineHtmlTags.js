@@ -11,7 +11,7 @@ module.exports = {
      * We only want to flag HTML tags we use for actual markup,
      * or md code block examples of such.
      */
-    const IGNORED_FENCE_TYPES = ["html", "jsx"];
+    const IGNORED_FENCE_TYPES = ["html", "jsx", "erb", "ejs"];
     const ignoredFencesLineRanges = params.tokens
       .filter((token) => {
         return token.type === "fence" && IGNORED_FENCE_TYPES.includes(token.info);
