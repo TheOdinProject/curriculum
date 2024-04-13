@@ -77,7 +77,7 @@ EJS rocks!
 
 If you inspect the HTML in the browser's dev tools, you can see HTML is structures exactly like how we wrote the EJS template with the `message` variable replaced with its value.
 
-When you hit the `/` route, `res.render("index", { message: "EJS rocks!" });`  is the line that sends back the response. Since we've already defined the `views` and `view engine` app properties, the first argument of `res.render` is programmed to look for "a tempalte called index in the specified folder", while the second argument is an object of variables that are to be made available to that specific template.
+When you hit the `/` route, `res.render("index", { message: "EJS rocks!" });`  is the line that sends back the response. Since we've already defined the `views` and `view engine` app properties, the first argument of `res.render` is programmed to look for "a template called index in the specified folder", while the second argument is an object of variables that are to be made available to that specific template.
 
 ### Reusable templates
 
