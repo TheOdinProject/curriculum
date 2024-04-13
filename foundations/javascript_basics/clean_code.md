@@ -38,7 +38,7 @@ Example B:
 ```javascript
 const generateUserGreeting = function (name) {
   const greeting = "Hello ";
-  return greeting + name
+  return greeting + name;
 };
 
 generateUserGreeting("John");
@@ -66,7 +66,7 @@ In our first example, we already touched on the importance of naming things *mea
 
 #### A good name is descriptive
 
-In our good example, we have a variable `greeting`, to which each new `string` from the array is added. The function is named `generateUserGreeting` and the function does what the name suggests. Nice, clean, and understandable.
+In our good example, we have a variable `greeting`, to which the parameter `name` is concatenated. The function is named `generateUserGreeting` and the function does what the name suggests. Nice, clean, and understandable.
 
 Now, try picturing a conversation with someone about the bad example. The function is named `x` with variables like `z`, and `w`. Oof, not nice.
 
