@@ -141,7 +141,7 @@ Here's another example of how to use `includes` to dynamically render a list of 
 
 #### Directories within the views folder
 
-We can have nested directories of EJS template files within the `views`. For example, to render the template file `./views/user/show.ejs`, we'll need to provide the relative path like so:
+We can have nested directories of EJS template files within the views. For example, to render the template file `./views/user/show.ejs`, we'll need to provide the relative path like so:
 
 ```javascript
 // in res.render
