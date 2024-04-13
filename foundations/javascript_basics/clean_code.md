@@ -66,9 +66,9 @@ In our first example, we already touched on the importance of naming things *mea
 
 #### A good name is descriptive
 
-In our good example, we have a variable `sum`, to which each new `number` from the array is added. The function is named `sumArray` and the function does what the name suggests (if you're thinking "what even is an array", don't worry - you'll learn about them soon). Nice, clean, and understandable.
+In our good example, we have a variable `greeting`, to which each new `string` from the array is added. The function is named `generateUserGreeting` and the function does what the name suggests. Nice, clean, and understandable.
 
-Now, try picturing a conversation with someone about the bad example. The function is named `x` with variables like `z`, `w` and `q`. Oof, not nice.
+Now, try picturing a conversation with someone about the bad example. The function is named `x` with variables like `z`, and `w`. Oof, not nice.
 
 #### Use a consistent vocabulary
 
