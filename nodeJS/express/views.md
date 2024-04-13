@@ -73,7 +73,7 @@ Start the server and go to the `/` route in the browser. You should see:
 
 ```html
 EJS rocks!
-~~~
+```
 
 If you inspect the HTML in the browser's dev tools, you can see HTML is structures exactly like how we wrote the EJS template with the `message` variable replaced with its value.
 
@@ -90,11 +90,11 @@ Say you have the following navbar component called `"navbar.ejs"`:
 <nav>
   <ul>
     <% for (let i = 0; i < links.length; i++) { %>
-    <li>
-      <a href="<%= links[i].href %>">
-        <span> <%= links[i].text %> </span>
-      </a>
-    </li>
+      <li>
+        <a href="<%= links[i].href %>">
+          <span> <%= links[i].text %> </span>
+        </a>
+      </li>
     <% } %>
   </ul>
 </nav>
@@ -137,6 +137,7 @@ Here's another example of how to use `includes` to dynamically render a list of 
   <% users.map( user => { %> <%- include('user/show', {user: user}) %> <% }) %>
 </ul>
 ```
+
 <div class="lesson-note lesson-note--tip" markdown="1">
 
 #### Directories within the views folder
@@ -149,6 +150,8 @@ res.render("user/show")
 
 // in include
 include("user/show")
+```
+
 Note the use of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
 
 ### Assignment
