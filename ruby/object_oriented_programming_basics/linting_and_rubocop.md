@@ -1,6 +1,6 @@
 ### Introduction
 
-Code. Code is written for our machines to execute but more importantly, it is written for us, humans, to understand.
+Code. Code is written for our machines to execute but more importantly it is written for us, humans, to understand.
 
 You've seen some code by now, especially so if you were diligent and took the time to practice reading code by exploring projects written
 by your peers going through The Odin Project. Some of it was good, some of it was bad but probably a lot of it was just confusing.
@@ -161,10 +161,12 @@ caesars_cipher.rb:16:8: C: [Corrected] Style/StringLiterals: Prefer single-quote
 # Duplicate offenses were truncated.
 ```
 
-See that green `.`? That means the first file is now all fine and dandy! Some of the offenses were not corrected by RuboCop and that's because `-a` is for safe autocorrect.
+See that `.`? That means the first file is now all fine and dandy! Some of the offenses were not corrected by RuboCop and that's because `-a` is for safe autocorrect.
 If you wanted to go through with the `[Correctable]` offenses, you'd want to use `-A` as the output helpfully suggests. This is due to the fact that some Cops are safe, some are unsafe.
 
-The safe Cops promise that they won't have false positives and that their autocorrect is won't change the semantics of the code and it will be fully equivalent to what you've had written. From this it follows that unsafe Cops either have false positives or slightly change the semantics of the code. The first characteristic means they tell you something is wrong when actually, everything is alright - for example, you've got a method with the same name as one in standard library in your object and RuboCop treats it as if it were the standard library method.
+The safe Cops promise that they won't have false positives and that their autocorrect is won't change the semantics of the code and it will be fully equivalent to what you've had written.
+
+From this it follows that unsafe Cops either have false positives or slightly change the semantics of the code. The first characteristic means they tell you something is wrong when actually, everything is alright - for example, you've got a method with the same name as one in standard library in your object and RuboCop treats it as if it were the standard library method.
 
 <!--
 TODO: find out whether https://docs.rubocop.org/rubocop/usage/autocorrect.html talks about human semantics or the machine semantics.
@@ -174,7 +176,17 @@ The latter means that while your code and the proposed code arrive at the same o
 
 ### You are the code dictator
 
-Due to Ruby's ecosystem, RuboCop was built with extensive configurability in mind - both in terms of not using some parts of and in terms of adding onto it. Every single Cop can be disabled, sometimes Cops offer alternative rules like preferring single- or double-quotes for Strings, you can disable Cops on a per-file basis and much more. Since RuboCop is extensible, there exist other departments that you can use - like Performance or RSpec. You could even write your own Cop! The process of adding an extension is easy: you install the Gem locally and modify `.rubocop.yml`. Usually things that are not required for app to run are given the `require: false` flag, like: `Gem 'rubocop-performance', require: false`. This way the Gem would be installed normally, but for your `bundle exec` ran code to make use of it, it would need to be explicitly `require`d wherever you'd need it.
+Due to Ruby's ecosystem, RuboCop was built with extensive configurability in mind - both in terms of not using some parts of and in terms of adding onto it. Every single Cop can be disabled, sometimes Cops offer alternative rules like preferring single- or double-quotes for Strings, you can disable Cops on a per-file basis and much more.
+
+Since RuboCop is extensible, there exist other departments that you can use - like Performance or RSpec. You could even write your own Cop! The process of adding an extension is easy: you install the Gem locally and modify `.rubocop.yml`.
+
+Usually things that are not required for app to run are given the `require: false` flag, like:
+
+```bash
+`gem 'rubocop-performance', require: false`
+```
+
+This way the Gem would be installed normally, but for your `bundle exec` ran code to make use of it, it would need to be explicitly `require`d wherever you'd need it.
 
 `.rubocop.yml` is the configuration file for RuboCop and it lives in the root directory of your project. There you'll change the defaults of RuboCop to your (or most likely, your team's) liking. To create such config file, you can just use `bundle exec rubocop --init` - it won't have anything in it besides a comment describing what it is for but if we were to add the Performance extension, we'd need to throw `require: rubocop-performance` in there so RuboCop knows to run it.
 
@@ -189,9 +201,13 @@ in your `.rubocop.yml` to enable all the new Cops.
 
 ### Power corrupts
 
-Perhaps you're not interested in tailoring RuboCop to your liking, especially since you're just starting out and have absolutely no idea what's good and what's bad. That'd be the correct approach - don't worry about it right now and just go with the RuboCop defaults. There exists another set of rules which is executed by a wrapper over RuboCop called Standard Ruby. Standard aims at providing one opinionated set of rules, smaller in scope than RuboCop, in hopes that it will provide a standard for all Rubyists to follow.
+Perhaps you're not interested in tailoring RuboCop to your liking, especially since you're just starting out and have absolutely no idea what's good and what's bad. That'd be the correct approach - don't worry about it right now and just go with the RuboCop defaults.
 
-One of the departments it drops is Metrics which is probably going to be your worst enemy starting out in writing bigger, more object oriented code. But being that worst enemy has good reasons: it tries to help you write better code. It is fine if you can't always satisfy RuboCop but to shun its guidance during learning is foolish. Having said that, having those offenses come up again and again in one place that you've already made peace with being non-compliant is distracting. Since you don't want to disable those Cops altogether, you can use inline comments to turn off what pesters you:
+There exists another set of rules which is executed by a wrapper over RuboCop called Standard Ruby. Standard aims at providing one opinionated set of rules, smaller in scope than RuboCop, in hopes that it will provide a standard for all Rubyists to follow.
+
+One of the departments it drops is Metrics which is probably going to be your worst enemy starting out in writing bigger, more object oriented code. But being that worst enemy has good reasons: it tries to help you write better code. It is fine if you can't always satisfy RuboCop but to shun its guidance during learning is foolish.
+
+Having said that, seeing those offenses come up again and again in one place that you've already made peace with being non-compliant is distracting. Since you don't want to disable those Cops altogether, you can use inline comments to turn off what pesters you:
 
 ```ruby
 # rubocop: disable Metrics/AbcSize
@@ -201,23 +217,33 @@ end
 # rubocop: enable Metrics/AbcSize
 ```
 
-This will disable the `AbcSize` Cop from `Metrics` department between those comment lines. Remember: don't use this to avoid working on your code, use it whenever appropriate - it might really be the case that some method has to be that complicated, or at least that's the current belief. Try your best to deal with it but accept that your code won't be perfect. That's fine. You're still learning - just make an honest attempt to make your code better. Perhaps reading other's code is going to show you the way, so always remember to spend some time reading code after finishing a project!
+This will disable the `AbcSize` Cop from `Metrics` department between those comment lines. Remember: don't use this to avoid working on your code, use it whenever appropriate - it might really be the case that some method has to be that complicated, or at least that's the current belief.
+
+Try your best to deal with it but accept that your code won't be perfect. That's fine. You're still learning - just make an honest attempt to make your code better. Perhaps reading other's code is going to show you the way, so always remember to spend some time reading code after finishing a project!
 
 ### Metrics are useless if not understood
 
 <!-- TODO: Make sure this section is actually good. -->
 
-Our recommendation to stick to the Metrics department requires that we help with explaining the more confusing concepts employed there: ABC metric, Cyclomatic complexity and perceived complexity.
+Our recommendation to stick to the Metrics department requires that we help with explaining the more confusing concepts employed there: ABC metric, cyclomatic complexity and perceived complexity.
 
-The letters in ABC are not random, they stand for **A**ssignment, **B**ranches and **C**onditionals. Assignment deals with setting or mutating a variable, branches perhaps confusingly, refer to method calls and conditionals are both the usual various conditional statements and comparisons like `==` or `<=`. ABC's author said that it measures software size and it was created to quote: "overcome the disadvantages of lines of code and similar measures". Yep, there was a time when code length, not its complexity  Besides notifying you about going over the allowed value for the metric, RuboCop will also provide you with the total ABC score and its constituent parts:
+The letters in ABC are not random, they stand for **A**ssignment, **B**ranches and **C**onditionals. Assignment deals with setting or mutating a variable, branches perhaps confusingly, refer to method calls and conditionals are both the usual various conditional statements and comparisons like `==` or `<=`.
+
+ABC's author said that it measures software size and it was created to quote: "overcome the disadvantages of lines of code and similar measures". Yep, there was a time when code length, not its complexity was the measure of good software.
+
+Besides notifying you about going over the allowed value for the metric, RuboCop will also provide you with the total ABC score and its constituent parts:
 
 ```bash
 C: Metrics/AbcSize: Assignment Branch Condition size for testing is too high. \[\<1, 18, 0\> 18.03/17\]
 ```
 
-In this case, there is one assignment, eighteen branches and zero conditionals, after using the formula for calculating the score this ends up being 18.03 while the allowed score is 17. One way to interpret this particular score is to say that this method heavily relies on other methods to do something with data. Perhaps this process could be broken down into steps or there exists some design flaw that requires us to manipulate the data so much in this one place.
+In this case, there is one assignment, eighteen branches and zero conditionals, after using the formula for calculating the score this ends up being 18.03 while the allowed score is 17.
 
-Cyclomatic complexity is similar to the conditional measure in ABC. It aims at providing insight into how complex a program based on how many possible paths can the program (method) can go through. As you can imagine, this refers to control flow statements like if statements, loops and logical operators like `&&` or `||`. Of course in the Ruby context, instead of loops you are most likely going to use methods like `#each` to iterate over your collections - that counts, too. Every time code execution and follow one or the other path, one gets added to the score.
+One way to interpret this particular score is to say that this method heavily relies on other methods to do something with data. Perhaps this process could be broken down into steps or there exists some design flaw that requires us to manipulate the data so much in this one place.
+
+Cyclomatic complexity is similar to the conditional measure in ABC. It aims at providing insight into how complex a program based on how many possible paths can the program (method) can go through. As you can imagine, this refers to control flow statements like if statements, loops and logical operators like `&&` or `||`.
+
+Of course in the Ruby context, instead of loops you are most likely going to use methods like `#each` to iterate over your collections - that counts, too. Every time code execution and follow one or the other path, one gets added to the score.
 
 Perceived complexity is very similar to cyclomatic complexity. It attempts to measure how hard it is for a human to read the code and where it diverges from cyclomatic complexity is that it uses weights for some control flow statements and counts both `if` and `else` instead of just the if statement as one branching path.
 
@@ -239,14 +265,18 @@ Quickfixes are pretty much `rubocop -a` but confined to a particular line. Take 
 
 ### To write good code you need to write a lot of bad code first
 
-You might be wondering why when you were installing Ruby you weren't told about Rubocop. If writing clean code is the goal, why not start out with a formatter and a linter? Why not go into a style guide right off the bat? The reasons for this are many, but some of them would be:
+You might be wondering why when you were installing Ruby you weren't told about Rubocop. If writing clean code is the goal, why not start out with a formatter and a linter? Why not go into a style guide right off the bat?
+
+The reasons for this are many, but some of them would be:
 
 - If you were to learn about the style guide only, you would have no idea what it is referring to or your lack of experience with Ruby would prevent you from understanding the pros and cons.
 - Had RuboCop been with you all this journey you'd never be able to commit all those mistakes and appreciate what it does.
 - Also, once again you'd be hit with things that you would have no idea about.
 - You'd need to take care of a lot more things: Bundler, Ruby LSP, RuboCop. You'd drown in inane configuration because of this, not to mention all the potential problems that you would not be equipped to deal with at that point.
 
-Hope that clears this up. Don't forget: RuboCop and the style guide are there to help *you* write predictable, cleaner code. The standards might vary between teams, some of the expectations RuboCop puts on you seem impossible to fulfill and you might feel like some of the rules are too constraining. With time, you are going to be better at adhering to rules but perhaps more importantly, you'll understand *why* and *when* to break them. For now, enjoy the ride on the shoulders of giants.
+Hope that clears this up. Don't forget: RuboCop and the style guide are there to help *you* write predictable, cleaner code. The standards might vary between teams, some of the expectations RuboCop puts on you seem impossible to fulfill and you might feel like some of the rules are too constraining.
+
+With time, you are going to be better at adhering to rules but perhaps more importantly, you'll understand *why* and *when* to break them. For now, enjoy the ride on the shoulders of giants.
 
 ### Assignment
 
