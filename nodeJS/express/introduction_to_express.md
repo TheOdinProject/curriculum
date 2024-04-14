@@ -4,7 +4,7 @@ In the previous section, you got up and running with Node. You learned how to re
 
 In this course, we will be using a backend framework called [Express](https://expressjs.com/), which will handle many of the implementation details for us. Express itself is an intentionally barebones and unopinionated framework; it allows us to do many things how we want, and to extend it with only the features we need. However, while this gives us great flexibility in how we do things, it can be a little tricky deciding between multiple viable options at times.
 
-Going forward, we will be diving into how we can use Express in various ways, such as to create a full-stack application using the Model View Controller (MVC) pattern, as well as to create a REST API just like ones you will have used before for things such as the Weather App or the React Shopping Cart projects. There is a lot to take in, so take it steady, and do not be afraid to ask our community for help in [our Discord server](https://discord.gg/theodinproject)!
+Going forward, we will be diving into how we can use Express in various ways, such as to create a full-stack application using the Model View Controller (MVC) pattern, as well as to create a REST API just like ones you will have used before for things such as the Weather App or the React Shopping Cart projects. There is a lot to take in, so take it steady, and do not be afraid to ask our community for help in the [TOP Discord server](https://discord.gg/theodinproject)!
 
 ### Lesson overview
 
