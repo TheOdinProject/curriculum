@@ -20,13 +20,6 @@ This section contains a general overview of topics that you will learn in this l
 - What the differences between RuboCop in the CLI and in your VSCode are.
 - What cyclomatic complexity and ABC metrics are.
 
-- [ ]  Gem installation + IDE integration
-- [ ]  Difference between CLI and IDE versions, visual examples
-- [ ]  Brief explanation of linting
-- [ ]  Intro to community style guide + difference between different types of rules (style, lint, performance etc)
-- [ ] Explanation of more confusing rules (such as ABC / cyclomatic complexity metrics)
-- [ ] How to write a custom .rubocop.yml / add plugins / use inline disable/enable of rubocop Cops
-
 ### Convention time again
 
 You have already been exposed to some of the conventions in HTML, CSS, JS and Ruby.
@@ -234,7 +227,26 @@ It certainly would! Thanks to Ruby-LSP, RuboCop is integrated with Visual Studio
 
 ![Caesar's Cipher project in VSC with many problems](./linting_and_rubocop/imgs/rubocopinvsc.png)
 
-You've got the underlines and neatly formatted list of the issues listed in the `Problems` tab. Remember that `Problems` tab is interactive - make sure to play with it!
+You've got the underlines and neatly formatted list of issues listed in the `Problems` tab. Remember that `Problems` tab is interactive - make sure to play with it!
+
+When you hover over an underlined piece of code, you will be informed of the offense and be given links to RuboCop documentation *not* the Ruby Style guide and also given shortcuts to `View Problems` and `Quickfix`:
+
+![VSC pop-up after you hover on an offense](./linting_and_rubocop/imgs/rubohover.png)
+
+Quickfixes are pretty much `rubocop -a` but confined to a particular line. Take note that from here you can also disable and enable the Cop behind the offense:
+
+![VSC quickfix pop-up](./linting_and_rubocop/imgs/quickfixrubocop.png)
+
+### To write good code you need to write a lot of bad code first
+
+You might be wondering why when you were installing Ruby you weren't told about Rubocop. If writing clean code is the goal, why not start out with a formatter and a linter? Why not go into a style guide right off the bat? The reasons for this are many, but some of them would be:
+
+- If you were to learn about the style guide only, you would have no idea what it is referring to or your lack of experience with Ruby would prevent you from understanding the pros and cons.
+- Had RuboCop been with you all this journey you'd never be able to commit all those mistakes and appreciate what it does.
+- Also, once again you'd be hit with things that you would have no idea about.
+- You'd need to take care of a lot more things: Bundler, Ruby LSP, RuboCop. You'd drown in inane configuration because of this, not to mention all the potential problems that you would not be equipped to deal with at that point.
+
+Hope that clears this up. Don't forget: RuboCop and the style guide are there to help *you* write predictable, cleaner code. The standards might vary between teams, some of the expectations RuboCop puts on you seem impossible to fulfill and you might feel like some of the rules are too constraining. With time, you are going to be better at adhering to rules but perhaps more importantly, you'll understand *why* and *when* to break them. For now, enjoy the ride on the shoulders of giants.
 
 ### Assignment
 
