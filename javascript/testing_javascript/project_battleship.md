@@ -21,7 +21,7 @@ We have not yet discussed testing the appearance of a webpage, which requires a 
    1. Gameboards should have a `receiveAttack` function that takes a pair of coordinates, determines whether or not the attack hit a ship and then sends the 'hit' function to the correct ship, or records the coordinates of the missed shot.
    1. Gameboards should keep track of missed attacks so they can display them properly.
    1. Gameboards should be able to report whether or not all of their ships have been sunk.
-1. Create `Player`
+1. Create a `Player` class/factory.
     1. There will be two types of players in the game, 'real' players and 'computer' players.
     1. Each player object should contain it's own gameboard.
 1. Import your classes/factories into another file, and drive the game using event listeners to interact with your objects. Create a module that helps you manage actions that should happen in the DOM
