@@ -37,7 +37,7 @@ app.listen(PORT, () => console.log(`My first Express app - listening on port ${P
 
 Let's break this down. We import `express` then call it to initialize the `app` variable. This is our server.
 
-We then have a `route handler` - the line beginning with `app.get`. We will come back to this in a moment.
+We then have a `route` - the line beginning with `app.get`. We will come back to this in a moment.
 
 Finally, we tell our server to listen for incoming requests requests on whatever port we specify in our  of our [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged.
 
@@ -59,23 +59,23 @@ If the specified port is already in use, we can change the environment variable 
 
 ### A request's journey
 
-Now that our server is up and running on port 3000, let's send it a request! In a browser, navigate to `http://localhost:3000/` (don't worry if you forget the slash `/` at the end; the browser will silently add it for you if so). This action tells the browser to send a `GET` request to the `/` route of whatever server is listening at port 3000 on our localhost (which is our Express server!) and display in the window whatever it receives in response.
+Now that our server is up and running on port 3000, let's send it a request! In a browser, navigate to `http://localhost:3000/` (don't worry if you forget the slash `/` at the end; the browser will silently add it for you if so). This action tells the browser to send a `GET` request to the `/` path of whatever server is listening at port 3000 on our localhost (which is our Express server!) and display in the window whatever it receives in response.
 
-Whenever you navigate to any web URL this way, this is essentially what you are doing. Navigating to `https://theodinproject.com/paths` via the address bar is just telling the browser to send a `GET` request to the `/paths` route at `https://theodinproject.com`, then display what it receives in response.
+Whenever you navigate to any web URL this way, this is essentially what you are doing. Navigating to `https://theodinproject.com/paths` via the address bar is just telling the browser to send a `GET` request to the `/paths` path at `https://theodinproject.com`, then display what it receives in response.
 
 Once you navigate to `http://localhost:3000/`, you should see `Hello, world!` appear in the window. Magic, right?
 
 When our server receives our `GET` request, Express stores the request in a [request object](https://expressjs.com/en/4x/api.html#req). This request gets passed through a chain of functions we call `middleware functions` until eventually, a middleware function tells Express to respond to the request.
 
-In our example, the request comes through as a `GET` request to the `/` route. This matches the route handler we have in our `app.js` file.
+In our example, the request comes through as a `GET` request to the `/` path. This matches the route we have in our `app.js` file.
 
 ```javascript
 app.get("/", (req, res) => res.send("Hello, world!"));
 ```
 
-We will discuss routes and route handlers in more detail in a later lesson, but to summarise the above line, it tells Express: "if a `GET` request comes through to the `/` route, pass the request through the following chain of middleware functions". Here, we only have a single function.
+We will discuss routes in more detail in a later lesson, but to summarise the above line, it tells Express: "if a `GET` request comes through to the `/` path, pass the request through the following chain of middleware functions". Here, we only have a single function.
 
-If we had defined multiple route handlers, Express would pass the request through the first route handler that matched the requested route. The order of the route handlers matters!
+If we had defined multiple routes, Express would pass the request through the first route that matched the requested HTTP verb (e.g. `GET`) and path (`/`). The order of the routes matters!
 
 Express takes the callback function we gave it and passes the request object into the first parameter (conventionally named `req`), and a [response object](https://expressjs.com/en/4x/api.html#res) into the second parameter (`res`). Our callback tells the response object to respond to the request by `.send`ing the string `"Hello, world!"`.
 
