@@ -212,23 +212,39 @@ This will disable the `AbcSize` Cop from `Metrics` department between those comm
 
 ### Metrics are useless if not understood
 
+<!-- TODO: Make sure this section is actually good. -->
 
+Our recommendation to stick to the Metrics department requires that we help with explaining the more confusing concepts employed there: ABC metric, Cyclomatic complexity and perceived complexity.
 
+The letters in ABC are not random, they stand for **A**ssignment, **B**ranches and **C**onditionals. Assignment deals with setting or mutating a variable, branches perhaps confusingly, refer to method calls and conditionals are both the usual various conditional statements and comparisons like `==` or `<=`. ABC's author said that it measures software size and it was created to quote: "overcome the disadvantages of lines of code and similar measures". Yep, there was a time when code length, not its complexity  Besides notifying you about going over the allowed value for the metric, RuboCop will also provide you with the total ABC score and its constituent parts:
+
+```bash
+C: Metrics/AbcSize: Assignment Branch Condition size for testing is too high. \[\<1, 18, 0\> 18.03/17\]
+```
+
+In this case, there is one assignment, eighteen branches and zero conditionals, after using the formula for calculating the score this ends up being 18.03 while the allowed score is 17. One way to interpret this particular score is to say that this method heavily relies on other methods to do something with data. Perhaps this process could be broken down into steps or there exists some design flaw that requires us to manipulate the data so much in this one place.
+
+Cyclomatic complexity is similar to the conditional measure in ABC. It aims at providing insight into how complex a program based on how many possible paths can the program (method) can go through. As you can imagine, this refers to control flow statements like if statements, loops and logical operators like `&&` or `||`. Of course in the Ruby context, instead of loops you are most likely going to use methods like `#each` to iterate over your collections - that counts, too. Every time code execution and follow one or the other path, one gets added to the score.
+
+Perceived complexity is very similar to cyclomatic complexity. It attempts to measure how hard it is for a human to read the code and where it diverges from cyclomatic complexity is that it uses weights for some control flow statements and counts both `if` and `else` instead of just the if statement as one branching path.
+
+### Wouldn't it be nice to have all this in VSC?
+
+It certainly would! Thanks to Ruby-LSP, RuboCop is integrated with Visual Studio Code. Thanks to this, RuboCop is continously ran while you're writing your code, providing you with feedback on the go:
+
+![Caesar's Cipher project in VSC with many problems](./linting_and_rubocop/imgs/rubocopinvsc.png)
+
+You've got the underlines and neatly formatted list of the issues listed in the `Problems` tab. Remember that `Problems` tab is interactive - make sure to play with it!
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. https://www.youtube.com/watch?v=npOGOmkxuio Sandi Metz on Rules
+1. https://www.youtube.com/watch?v=npOGOmkxuio Sandi Metz on Rules (I know, it's long, plenty of Rails context... I need to give it a serious rewatch and decide whether the entire thing should be given as an assignment or just part of it. But a minute spent with Sandi is a minute well spent and there's around 30 of them here.)
 1. https://rubystyle.guide/ Read intro + skim some of it
 1. https://docs.rubocop.org/rubocop/index.html Read some of it
 1. https://github.com/rubocop/rubocop Skim/skip?
 1. https://en.wikipedia.org/wiki/Lint_(software) Read
-
-#### OPTIONAL CUSTOM ASSIGNMENT HEADING
-
-1. A RESOURCE OR EXERCISE ITEM
-   - AN INSTRUCTION ITEM
 
 </div>
 
