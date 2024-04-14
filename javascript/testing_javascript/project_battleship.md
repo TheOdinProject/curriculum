@@ -24,7 +24,7 @@ We have not yet discussed testing the appearance of a webpage, which requires a 
 1. Create a `Player` class/factory.
     1. There will be two types of players in the game, 'real' players and 'computer' players.
     1. Each player object should contain it's own gameboard.
-1. Import your classes/factories into another file, and drive the game using event listeners to interact with your objects. Create a module that helps you manage actions that should happen in the DOM
+1. Import your classes/factories into another file, and drive the game using event listeners to interact with your objects. Create a module that helps you manage actions that should happen in the DOM.
     1. At this point it is appropriate to begin crafting your User Interface.
     1. Set up a new game by creating Players. For now just populate each player's Gameboard with predetermined coordinates. You are going to implement a system for allowing players to place their ships later.
     1. We’ll leave the HTML implementation up to you for now, but you should display both the player’s boards and render them using information from the Gameboard class/factory.
