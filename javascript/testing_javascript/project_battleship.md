@@ -32,7 +32,7 @@ We have not yet discussed testing the appearance of a webpage, which requires a 
     1. Your event listeners should step through the game turn by turn using only methods from other objects. If at any point you are tempted to write a new function, step back and figure out which class or module that function should belong to.
     1. For attacks, let the user click on a coordinate in the enemy Gameboard. Send the user input to methods on your objects, and re-render the boards to display the new information.
         - Players should take turns playing the game by attacking the enemy Gameboard. If you feel the need to keep track of the current player's turn, it's appropriate to manage that in this module, instead of another mentioned object.
-        - The game is played against the computer, so make the ‘computer’ players capable of making random plays. The AI does not have to be smart, but it should know whether or not a given move is legal (i.e. it shouldn’t shoot the same coordinate twice).
+        - The game is played against the computer, so make the ‘computer’ players capable of making random plays. The computer does not have to be smart, but it should know whether or not a given move is legal (i.e. it shouldn’t shoot the same coordinate twice).
     1. Create conditions so that the game ends once one player’s ships have all been sunk. This function is also appropriate for this module.
 1. Finish it up by implementing a system that allows players to place their ships. For example, you can let them type coordinates for each ship or have a button to cycle through random placements.
 
