@@ -65,7 +65,7 @@ To denote a route parameter, we start a segment with a `:` followed by the name 
 
 ```javascript
 /**
- * The path /odin/messages will have this to log
+ * The path /odin/messages will have this log
  * { username: 'odin' }
  *
  * /theodinproject79687378/messages would instead log
@@ -77,7 +77,7 @@ app.get('/:username/messages', (req, res) => {
 });
 
 /**
- * The path /odin/messages/79687378 will have this to log
+ * The path /odin/messages/79687378 will have this log
  * { username: 'odin', messageId: '79687378' }
  */
 app.get('/:username/messages/:messageId', (req, res) => {
