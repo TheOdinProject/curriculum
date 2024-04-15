@@ -173,7 +173,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you configure EJS for Express projects?](#setting-up-ejs)
 - [What is the difference between "<%" and "<%=" tags?](#ejs-syntax)
 - [How do you render a view in a controller callback?](#using-ejs-with-express)
-- [How can components be included in other components?](#reusuable-web-components)
+- [How can templates be included in other templates?](#reusuable-templates)
 
 ### Additional resources
 
