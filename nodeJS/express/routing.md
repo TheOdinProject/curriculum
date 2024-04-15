@@ -88,6 +88,27 @@ app.get('/:username/messages/:messageId', (req, res) => {
 
 Now we can easily extract values from the request path for use within our middleware chain!
 
+#### Query parameters
+
+Query parameters are a unique and optional part of a URL that appear at the end following a `?`. They are special as they are not actually considered part of the path itself, but are essentially more like arguments we can pass in to a given path. For example, `/odin/messages?sort=date&direction=ascending` will still match the route with the `/:username/messages` path, but we can access the `sort=date` and `direction=ascending` key-value pairs inside the middleware chain.
+
+Express automatically parses any query parameters in a request and will populate the `req.query` object with any key-value pairs it finds.
+
+```javascript
+/**
+ * The path /odin/messages?sort=date&direction=ascending will log
+ * Params: { username: 'odin' }
+ * Query: { sort: 'date', direction: 'ascending' }
+ */
+app.get('/:username/messages', (req, res) => {
+   console.log('Params:', req.params);
+   console.log('Query:', req.query);
+   res.end();
+});
+```
+
+You may have already seen this in websites like YouTube, where every YouTube video is given a code. To watch that video, you navigate to `https://www.youtube.com/watch` and pass that video code as a query parameter with the `v` key. So appending `?v=dQw4w9WgXcQ` will [request `/watch` from YouTube using `dQw4w9WgXcQ` as the `v` query parameter](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
