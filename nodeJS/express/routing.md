@@ -13,9 +13,29 @@ This section contains a general overview of topics that you will learn in this l
 - Explain route parameters and query parameters.
 - Extract routes to their own routers.
 
-### Routes
+### The anatomy of a route
 
-CONTENT
+Let's return to our sole route in our previous basic Express app.
+
+```javascript
+app.get("/", (req, res) => res.send("Hello, world!"));
+```
+
+`app.get("/"` tells us that this route will match any requests that go through `app` (our whole server) that have the `GET` HTTP verb and are for the `/` path. If instead we had the following:
+
+```javascript
+app.post("/messages", (req, res) => res.send("This is where you can see any messages."));
+```
+
+That would tell us the route matches any `POST` requests to the `/messages` path of our `app`. If you sent a `GET` request to the `/messages` path, it would not match this route.
+
+<div class="lesson-note" markdown="1">
+
+#### HTTP verbs
+
+[There are many HTTP verbs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods), but for now, we will primarily be using `GET` (used to retrieve data from the server only) and `POST` (used to send data to the server e.g. forms). Later, when we cover REST APIs, you will often also encounter `PUT` and `DELETE` verbs.
+
+</div>
 
 ### Assignment
 
