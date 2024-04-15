@@ -72,8 +72,8 @@ To denote a route parameter, we start a segment with a `:` followed by the name 
  * { username: 'theodinproject79687378' }
  */
 app.get('/:username/messages', (req, res) => {
-   console.log(req.params);
-   res.end();
+  console.log(req.params);
+  res.end();
 });
 
 /**
@@ -81,8 +81,8 @@ app.get('/:username/messages', (req, res) => {
  * { username: 'odin', messageId: '79687378' }
  */
 app.get('/:username/messages/:messageId', (req, res) => {
-   console.log(req.params);
-   res.end();
+  console.log(req.params);
+  res.end();
 });
 ```
 
@@ -101,13 +101,95 @@ Express automatically parses any query parameters in a request and will populate
  * Query: { sort: 'date', direction: 'ascending' }
  */
 app.get('/:username/messages', (req, res) => {
-   console.log('Params:', req.params);
-   console.log('Query:', req.query);
-   res.end();
+  console.log('Params:', req.params);
+  console.log('Query:', req.query);
+  res.end();
 });
 ```
 
 You may have already seen this in websites like YouTube, where every YouTube video is given a code. To watch that video, you navigate to `https://www.youtube.com/watch` and pass that video code as a query parameter with the `v` key. So appending `?v=dQw4w9WgXcQ` will [request `/watch` from YouTube using `dQw4w9WgXcQ` as the `v` query parameter](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+
+### Routers
+
+So far, we've not been using many routes, and all routes we've shown have been attached to `app`, our server itself. In a real application with lots of routes, we'd probably want to organise our routes into groups for better organisation. We'd also probably want our app to skip checking certain groups of routes for a match depending on the incoming request.
+
+Say we were making a library app and we wanted pages that dealt with books, and pages that dealt with authors. That's on top of the homepage and any other miscellaneous pages like "about" or "contact".
+
+We might want our server to handle the following routes:
+
+```text
+GET /
+GET /about
+GET /contact
+POST /contact
+
+GET /books
+GET /books/:bookId
+GET /books/:bookId/reserve
+POST /books/:bookId/reserve
+
+GET /authors
+GET /authors/:authorId
+```
+
+It'd be nice if we could extract the route groups to their own files. It'd also be nice if the server didn't need to check any routes that didn't start with `/authors` if a request was made to a path that started with `/authors`. We can do that using routers!
+
+```javascript
+// app.js
+const express = require('express');
+const app = express();
+const booksRouter = require('routes/booksRouter');
+const authorsRouter = require('routes/authorsRouter');
+const indexRouter = require('routes/indexRouter');
+
+app.use('/books', booksRouter);
+app.use('/authors', authorsRouter);
+app.use('/', indexRouter);
+
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`My first Express app - listening on port ${PORT}!`);
+});
+```
+
+And what a router might look like:
+
+```javascript
+// routes/authorsRouter.js
+const { Router } = require('express');
+
+const authorsRouter = Router();
+
+authorsRouter.get('/', (req, res) => res.send('All authors'));
+authorsRouter.get('/:authorId', (req, res) => {
+  const { authorId } = req.params;
+  res.send(`Author ID: ${authorId}`);
+});
+
+module.exports = authorsRouter;
+```
+
+Now we can avoid having an `app.js` file littered with a million different routes! We can create individual files for routers, and place them neatly in their own directory.
+
+In our `routes/authorsRouter.js` file, we destructure the Express object to get a Router function and use it to create our `authorsRouter`. We can use the same `.get` or `.post` methods on this router instead of on the whole server object. This ties our routes to the router so they will only come into play for requests that end up going through this router.
+
+Back in `app.js`, we specify that any requests with paths starting with `/books` will be passed through `booksRouter` for route matching. If our request starts with `/authors`, it will skip these book routes then check the routes in `authorsRouter` instead. Any other requests that don't start with either of these will run through `indexRouter`.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Paths in routers extend the parent path!
+
+Note that because our routes are now tied to a specific router, the route paths we use *extend* the parent path, that is they all implicitly start with the specified parent path.
+
+Within `authorsRouter.js`:
+
+- `/` will match requests with the path `/authors`
+- `/:authorId` will match requests with the path `/authors/:authorId`
+- `/authors/:authorId` will match requests with the path `/authors/authors/:authorId`
+
+Don't double up on the parent path!
+
+</div>
 
 ### Assignment
 
