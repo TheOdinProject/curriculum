@@ -156,6 +156,32 @@ include("user/show")
 
 Note the use of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
 
+### Serving Static Assets
+
+Serving static assets with EJS is similar to how we served assets previously when working directly with HTML, in that we can add external files to the head of the template file using the `link` tag. The main thing to point out is that the app needs to know where to serve assets from. Assuming `express` is installed, set the following lines in `app.js`:
+
+```javascript
+
+app.use(express.static(path,join(__dirname, "public")));
+```
+
+`Express.static()` is a middleware function that enables the use of static assets, and we tell it to look for assets with the `public` directory as the root.
+
+Say we have the following `styles.css` file in the root of the `public` directory:
+```css
+body {
+  color: red;
+}
+```
+
+To serve `styles.css` in `index.ejs`, set the following `link` tag like so in the head:
+```ejs
+<head>
+  <link rel="stylesheet" href:"./styles.css">
+</head>
+```
+Your `index.ejs` file should now display red text!
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
