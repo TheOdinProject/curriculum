@@ -40,16 +40,16 @@ Fixed elements are also removed from the normal flow of the document and are pos
 
 ### Sticky positioning
 
-Sticky elements will act like normal elements until you scroll past them, then they start behaving like fixed elements. They are also not taken out of the normal flow of the document. It might sound confusing, but checking out the behavior of [this](https://codepen.io/theanam/pen/MPLBYy) example might clear things up for you. It's useful for things like section-headings. Remember being able to still see what category you're looking at while scrolling through a shop? This is how it's done!
+Sticky elements will act like normal elements until you scroll past them, then they start behaving like fixed elements. They are also not taken out of the normal flow of the document. It might sound confusing, so check out this [example of sticky positioning](https://codepen.io/theanam/pen/MPLBYy) example might clear things up for you. It's useful for things like section-headings. Remember being able to still see what category you're looking at while scrolling through a shop? This is how it's done!
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [This](https://www.youtube.com/watch?v=jx5jmI0UlXU) video is fast-paced but provides a good visual representation of different positioning behaviors. Go ahead and watch it.
-2. [This MDN article](https://developer.mozilla.org/en-US/docs/Web/CSS/position) covers all of the conceptual details about positioning.
-3. [This CSS Tricks](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/) page should give you a different insight on the topic. You should read it as well.
-4. Finally, [this article](https://www.kevinpowell.co/article/positition-fixed-vs-sticky/) discusses the difference between fixed and sticky positioning, it's a great read to understand the difference better.
+1. Web Dev Simplified's [Learn CSS Position](https://www.youtube.com/watch?v=jx5jmI0UlXU) video is fast-paced but provides a good visual representation of different positioning behaviors. Go ahead and watch it.
+2. [MDN's docs on `position`](https://developer.mozilla.org/en-US/docs/Web/CSS/position) covers all of the conceptual details about positioning.
+3. CSS trick's page [Absolute, Relative, Fixed Positioning](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/) should give you a different insight on the topic. You should read it as well.
+4. Finally, Kevin Powell's article discusses the [difference between fixed and sticky positioning](https://www.kevinpowell.co/article/positition-fixed-vs-sticky/). It’s a great read to understand the difference better.
 </div>
 
 ### Knowledge check
