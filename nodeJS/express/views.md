@@ -134,7 +134,9 @@ Here's another example of how to use `includes` to dynamically render a list of 
 
 ```html
 <ul>
-  <% users.map( user => { %> <%- include('user/show', {user: user}) %> <% }) %>
+  <% users.forEach((user) => { %>
+    <%- include('user/show', {user: user}); %>
+  <% }); %>
 </ul>
 ```
 
