@@ -40,9 +40,9 @@ In EJS, the `<%` and `%>` tags allow us to use JavaScript. This lets us write co
 
 In order to output a variable as a value, we use the `<%=` tag.
 
-Here's a quick example that makes includes arrays and loop logic.
+Here's a quick example that includes arrays and loop logic.
 
-```javascript
+```ejs
 <% const animals = ["Cat", "Dog", "Lemur", "Hawk"] %>
 
 <% animals.map(animal => { %>
@@ -53,7 +53,7 @@ Here's a quick example that makes includes arrays and loop logic.
 
 Let's use EJS with Express. First, create an EJS template file called `index.ejs` in the `views` subdirectory, and add the following:
 
-```html
+```ejs
 <html>
   <body>
     <%= message %>
@@ -85,7 +85,7 @@ You may want to include webpage components that are shared across different page
 
 Say you have the following navbar component called `"navbar.ejs"`:
 
-```html
+```ejs
 <!-- navbar.ejs -->
 <nav>
   <ul>
@@ -102,7 +102,7 @@ Say you have the following navbar component called `"navbar.ejs"`:
 
 You can insert this component into another EJS file like so:
 
-```html
+```ejs
 <!-- index.ejs -->
 <html>
   <head>
@@ -132,7 +132,7 @@ app.get("/", (req, res) => {
 
 Here's another example of how to use `includes` to dynamically render a list of variables:
 
-```html
+```ejs
 <ul>
   <% users.forEach((user) => { %>
     <%- include('user/show', {user: user}); %>
