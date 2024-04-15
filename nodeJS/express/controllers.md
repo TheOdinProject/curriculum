@@ -103,7 +103,7 @@ function myMiddleware(req, res, next) {
 app.use(myMiddleware);
 ```
 
-In this example, the middleware function logs a message, adds a custom property to the request object, and then calls the next() function to pass control to the next middleware fucntion or route handler. We also register the middleware function through the usage of `app.use` which makes this an application-level middleware. Other middleware functions below this one will now be able to see a property `customProperty` with the value `Hello from myMiddleware`.
+In this example, the middleware function logs a message, adds a custom property to the request object, and then calls the next() function to pass control to the next middleware function or route handler. We also register the middleware function through the usage of `app.use` which makes this an application-level middleware. Other middleware functions below this one will now be able to see a property `customProperty` with the value `"Hello from myMiddleware"`.
 
 One thing to note about is that middleware functions are executed in the order they are defined or registered in your application. This means that the sequence in which you define your middleware functions matters, as it determines the order in which they will be invoked during the request-response cycle. So you need to make sure and be aware that your middleware fnuctions are placed in the correct order. As an example, some packages have middleware functions that changes the `Request` object, and as a result, these middleware functions should be placed at the very top of your application in order for you to be able to see their changes in all of your middleware functions below it.
 
@@ -113,11 +113,11 @@ There is also a special type of middleware function that handles errors, which w
 
 As said earlier, controllers are just functions. They also classify as a middleware (at least in the Express world) that are used by route handlers.
 
-A controller comes into play whenever a request hits the server and a route handler matches the requested route. The route handler determines which controller should handle the request based on the defined middleware chain. The appropriate controller then takes over and performs the necessary actions to fulfill the request. This could involve retrieving data from the model, processing the data, making decisions based on business logic, or updating the model with new data.
+A controller comes into play whenever a request hits the server and a route matches the requested HTTP verb and path. The route determines which controller should handle the request based on the defined middleware chain. The appropriate controller then takes over and performs the necessary actions to fulfill the request. This could involve retrieving data from the model, processing the data, making decisions based on business logic, or updating the model with new data.
 
 Once the controller has completed its tasks, it passes the processed data to the view, which renders the data into a format suitable for sending back to the client. Typically, this would be HTML. Later, when we cover building APIs, we can also send JSON responses like with the APIs that you've previously encountered e.g. Giphy API.
 
-The naming conventions for these controllers are usually based on the route handler they will be attached to e.g. get route -> getSomething, post route -> createSomething, delete route -> deleteSomething, etc. Nonetheless, there is no fixed rule since Express is not opinionated. It will always be based on you or someone else's conventions, and the requirements of the function.
+The naming conventions for these controllers are usually based on the route they will be attached to e.g. GET route -> getSomething, POST route -> createSomething, DELETE route -> deleteSomething, etc. Nonetheless, there is no fixed rule since Express is not opinionated. It will always be based on you or someone else's conventions, and the requirements of the function.
 
 ```javascript
 // user controller file/ controllers/userController.js
