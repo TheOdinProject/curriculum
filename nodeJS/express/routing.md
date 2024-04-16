@@ -21,13 +21,13 @@ Let's return to our sole route in our previous basic Express app.
 app.get("/", (req, res) => res.send("Hello, world!"));
 ```
 
-`app.get("/"` tells us that this route will match any requests that go through `app` (our whole server) that have the `GET` HTTP verb and are for the `/` path. If instead we had the following:
+`app.get("/" ...` tells us that this route will match any requests that go through `app` (our whole server) that have the `GET` HTTP verb and are for the `/` path. If instead we had the following:
 
 ```javascript
 app.post("/messages", (req, res) => res.send("This is where you can see any messages."));
 ```
 
-That would tell us the route matches any `POST` requests to the `/messages` path of our `app`. If you sent a `GET` request to the `/messages` path, it would not match this route.
+That would tell us the route matches any `POST` requests to the `/messages` path of our `app`. If you sent a `GET` request to the `/messages` path, it would not match this route. Each HTTP verb has its own Express route method, and you can also use [app.all()](https://expressjs.com/en/api.html#app.all) to make a route match all verbs.
 
 <div class="lesson-note" markdown="1">
 
@@ -46,16 +46,35 @@ With string paths, we can also use certain symbols like `?`, `+`, `*` and `()` t
 ```javascript
 // ? makes a character optional
 // The following path matches both /message and /messages
-'/messages?'
+"/messages?"
 
 // () groups characters together, allowing symbols to act on the group
 // The following path matches both / and /messages
-'/(messages)?'
+"/(messages)?"
 
 // * is a wildcard matching any number of any characters
 // The following path can match /foo/barbar and even /foo-FOO/bar3sdjsdfbar
-'/foo*/bar*bar'
+"/foo*/bar*bar"
 ```
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Order matters!
+
+Your routes will be set up in your server in the order they are defined.
+
+```javascript
+app.get("*", (req, res) => {
+  res.send("* is a great way to catch all (other) paths, e.g. for custom 404 error handling.");
+});
+app.get("/messages", (req, res) => {
+  res.send("This route will not be reached because the previous route's path matches first.");
+});
+```
+
+In order for our `GET /messages` route to match the `/messages` route, we need to reverse the order they are defined. The `GET *` route then only matches all other paths, not `/messages`.
+
+</div>
 
 #### Route parameters
 
@@ -71,16 +90,16 @@ To denote a route parameter, we start a segment with a `:` followed by the name 
  * /theodinproject79687378/messages would instead log
  * { username: 'theodinproject79687378' }
  */
-app.get('/:username/messages', (req, res) => {
+app.get("/:username/messages", (req, res) => {
   console.log(req.params);
   res.end();
 });
 
 /**
  * The path /odin/messages/79687378 will have this log
- * { username: 'odin', messageId: '79687378' }
+ * { username: "odin", messageId: "79687378" }
  */
-app.get('/:username/messages/:messageId', (req, res) => {
+app.get("/:username/messages/:messageId", (req, res) => {
   console.log(req.params);
   res.end();
 });
@@ -97,12 +116,12 @@ Express automatically parses any query parameters in a request and will populate
 ```javascript
 /**
  * The path /odin/messages?sort=date&direction=ascending will log
- * Params: { username: 'odin' }
- * Query: { sort: 'date', direction: 'ascending' }
+ * Params: { username: "odin" }
+ * Query: { sort: "date", direction: "ascending" }
  */
-app.get('/:username/messages', (req, res) => {
-  console.log('Params:', req.params);
-  console.log('Query:', req.query);
+app.get("/:username/messages", (req, res) => {
+  console.log("Params:", req.params);
+  console.log("Query:", req.query);
   res.end();
 });
 ```
@@ -136,15 +155,15 @@ It'd be nice if we could extract the route groups to their own files. It'd also 
 
 ```javascript
 // app.js
-const express = require('express');
+const express = require("express");
 const app = express();
-const booksRouter = require('routes/booksRouter');
-const authorsRouter = require('routes/authorsRouter');
-const indexRouter = require('routes/indexRouter');
+const booksRouter = require("routes/booksRouter");
+const authorsRouter = require("routes/authorsRouter");
+const indexRouter = require("routes/indexRouter");
 
-app.use('/books', booksRouter);
-app.use('/authors', authorsRouter);
-app.use('/', indexRouter);
+app.use("/books", booksRouter);
+app.use("/authors", authorsRouter);
+app.use("/", indexRouter);
 
 const PORT = 3000;
 app.listen(PORT, () => {
@@ -156,12 +175,12 @@ And what a router might look like:
 
 ```javascript
 // routes/authorsRouter.js
-const { Router } = require('express');
+const { Router } = require("express");
 
 const authorsRouter = Router();
 
-authorsRouter.get('/', (req, res) => res.send('All authors'));
-authorsRouter.get('/:authorId', (req, res) => {
+authorsRouter.get("/", (req, res) => res.send("All authors"));
+authorsRouter.get("/:authorId", (req, res) => {
   const { authorId } = req.params;
   res.send(`Author ID: ${authorId}`);
 });
