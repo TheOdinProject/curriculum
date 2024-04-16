@@ -188,10 +188,11 @@ Your `index.ejs` file should now display red text!
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Have another read through the [EJS docs](https://ejs.co/#docs).
-2. Read through the [Express resource on template engines](https://expressjs.com/en/guide/using-template-engines.html). The resource uses Pug for the examples which has a different syntax, however the information should still be a useful supplement to this lesson.
-3. Add a view for an about page, which should render on the `/about` route.
-4. Create a reusuable footer template and render it in all of the app routes.
+1. Read through the [Express resource on template engines](https://expressjs.com/en/guide/using-template-engines.html). The resource uses Pug for the examples which has a different syntax, however the information should still be a useful supplement to this lesson.
+1. Add a view for an about page, which should render on the `/about` route.
+1. Create a reusable footer template and render it in all of the app routes.
 
 </div>
 
