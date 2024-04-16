@@ -2,7 +2,9 @@ const LANGUAGES_WITH_ABBREVIATIONS = new Map()
   .set("js", "javascript")
   .set("rb", "ruby")
   .set("txt", "text")
-  .set("md", "markdown");
+  .set("md", "markdown")
+  .set("sh", "bash")
+  .set("yml", "yaml");
 
 module.exports = {
   names: ["TOP006", "full-fenced-code-language"],
@@ -21,13 +23,24 @@ module.exports = {
         abbreviatedName: token.info,
         fullName: LANGUAGES_WITH_ABBREVIATIONS.get(token.info),
         lineNumber: token.lineNumber,
+        hasFourBackticks: token.markup.length === 4,
+        get nameStartingColumn() {
+          return this.hasFourBackticks ? 5 : 4;
+        },
       }));
 
     fencesWithAbbreviatedName.forEach((fence) => {
+      const leadingBackticks = fence.hasFourBackticks ? "````" : "```";
+
       onError({
         lineNumber: fence.lineNumber,
         detail: `Expected: ${fence.fullName}; Actual: ${fence.abbreviatedName} `,
-        context: `\`\`\`${fence.abbreviatedName}`,
+        context: `${leadingBackticks}${fence.abbreviatedName}`,
+        fixInfo: {
+          editColumn: fence.nameStartingColumn,
+          deleteCount: fence.abbreviatedName.length,
+          insertText: fence.fullName,
+        },
       });
     });
   },
