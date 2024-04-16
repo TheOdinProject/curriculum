@@ -19,11 +19,11 @@ Valid div due to each tag being surrounded by blank lines.
 #### Custom section
 
 ```js
-console.log('This code block should flag an error as it uses "js" instead of "javascript".');
+console.log("This code block should flag an error as it uses "js" instead of "javascript".");
 ```
 
 ```javascript
-console.log('This code block is valid as it uses the appropriate full name.');
+console.log("This code block is valid as it uses the appropriate full name.");
 ```
 
 ```md
@@ -60,6 +60,12 @@ As does txt.
 ```jsx
 {isExempt && <p>No error here!</p>}
 ```
+
+````md
+```js
+console.log("Flags abbreviated names even with nested code blocks.");
+```
+````
 
 ### Knowledge check
 
