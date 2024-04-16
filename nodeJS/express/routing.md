@@ -138,7 +138,7 @@ You may have already seen this with websites like YouTube. Every YouTube video i
 
 ### Routers
 
-So far, we've not been using many routes, and all routes we've shown have been attached to `app`, our server itself. In a real application with lots of routes, we'd probably want to organize our routes into groups for better organization. We'd also probably want our app to skip checking certain groups of routes for a match depending on the incoming request.
+So far, we've not been using many routes, and all routes we've shown have been attached to `app`, our server itself. In a real application with lots of routes, we'd probably want to organize our routes into groups and extract each group out to their own file. We could also then more easily write things that affect only the routes in that file, and not any others.
 
 Say we were making a library app and we wanted pages that dealt with books and pages that dealt with authors. That's on top of the homepage and any other miscellaneous pages like "about" or "contact".
 
