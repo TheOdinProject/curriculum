@@ -35,7 +35,7 @@ module.exports = {
       []
     );
 
-    isolatedHtmlTagsLineNumbers.forEach((lineNumber) => {
+    isolatedHtmlTagsLineNumbers.forEach((lineNumber, i) => {
       if (isWithinIgnoredFence(lineNumber)) {
         return;
       }
@@ -49,6 +49,16 @@ module.exports = {
         return;
       }
 
+      const lineAfterIsTheNextHtmlTag = lineNumber + 1 === isolatedHtmlTagsLineNumbers[i + 1];
+      let replacementText = params.lines[lineNumber];
+
+      if (!lineBeforeIsValid) {
+        replacementText = `\n${replacementText}`;
+      }
+      if (!lineAfterIsValid && !lineAfterIsTheNextHtmlTag) {
+        replacementText = `${replacementText}\n`;
+      }
+
       /**
        * lineNumber is params.lines index (0-indexed).
        * +1 required as file line numbers are 1-indexed.
@@ -59,6 +69,10 @@ module.exports = {
           lineBeforeIsValid ? 1 : 0
         }, After: ${lineAfterIsValid ? 1 : 0} }\n`,
         context: params.lines[lineNumber],
+        fixInfo: {
+          deleteCount: params.lines[lineNumber].length,
+          insertText: replacementText,
+        }
       });
     });
   },
