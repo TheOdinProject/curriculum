@@ -26,12 +26,14 @@ console.log("This code block should flag an error as it uses "js" instead of "ja
 console.log("This code block is valid as it uses the appropriate full name.");
 ```
 
-```md
+```markdown
 The rule catches the following languages, as they are they ones expected to be seen in this repo's files
 md => markdown
 rb => ruby
 js => javascript
 txt => text
+sh => bash
+yml => yaml
 ```
 
 ```rb

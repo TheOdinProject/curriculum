@@ -2,7 +2,9 @@ const LANGUAGES_WITH_ABBREVIATIONS = new Map()
   .set("js", "javascript")
   .set("rb", "ruby")
   .set("txt", "text")
-  .set("md", "markdown");
+  .set("md", "markdown")
+  .set("sh", "bash")
+  .set("yml", "yaml");
 
 module.exports = {
   names: ["TOP006", "full-fenced-code-language"],
