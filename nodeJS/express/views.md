@@ -45,8 +45,11 @@ Here's a quick example that includes arrays and loop logic.
 ```ejs
 <% const animals = ["Cat", "Dog", "Lemur", "Hawk"] %>
 
-<% animals.map(animal => { %>
-- <%= animal%>s are cute <% }) %>
+<ul>
+  <% animals.map((animal) => { %>
+    <li><%= animal %>s are cute</li>
+  <% }) %>
+</ul>
 ```
 
 ### Using EJS with Express
