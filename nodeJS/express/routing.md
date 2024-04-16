@@ -218,10 +218,7 @@ Don't double up on the parent path!
 
 <div class="lesson-content__panel" markdown="1">
 
-1. A RESOURCE ITEM
-   - AN INSTRUCTION ITEM
-1. A PRACTICE ITEM
-   - A TASK ITEM
+1. Read through the Express' [primer on Routing](https://expressjs.com/en/guide/routing.html) for an overview of this lesson's topics. Remember to reference the [Express documentation](https://expressjs.com/en/4x/api.html) for more information on specific methods.
 
 </div>
 
