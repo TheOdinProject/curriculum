@@ -38,13 +38,10 @@ We have not yet discussed testing the appearance of a webpage, which requires a 
 
 #### Extra credit
 
-Make your battleship project more impressive by introducing a series of modifications.
+Make your battleship project more impressive by introducing any of these modifications.
 
-1. Implement drag and drop to allow players to place their ships.
-1. Create a 2-player option that lets users take turns by passing the laptop back and forth, or by spinning the monitor around on a desktop.
-   1. Implement a 'pass device' screen so that players don't see each others boards!
-1. Polish the intelligence of the computer player by having it try adjacent slots after getting a 'hit'.
-
-You can choose to do either one, two or all of these challenges, it's up to you.
+- Implement drag and drop to allow players to place their ships.
+- Create a 2-player option that lets users take turns by passing the laptop back and forth, or by spinning the monitor around on a desktop. Implement a 'pass device' screen so that players don't see each other's boards!
+- Polish the intelligence of the computer player by having it try adjacent slots after getting a 'hit'.
 
 </div>
