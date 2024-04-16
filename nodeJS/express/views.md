@@ -165,7 +165,7 @@ Serving static assets with EJS is similar to how we served assets previously whe
 
 ```javascript
 
-app.use(express.static(path,join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public")));
 ```
 
 `express.static()` is a middleware function that enables the use of static assets, and we tell it to look for assets with the `public` directory as the root.
