@@ -57,7 +57,7 @@ With string paths, we can also use certain symbols like `?`, `+`, `*` and `()` t
 "/foo*/bar*bar"
 ```
 
-<div class="lesson-note lesson-note--warning" markdown="1">
+<div id="order-matters" class="lesson-note lesson-note--warning" markdown="1">
 
 #### Order matters!
 
@@ -77,6 +77,8 @@ In order for our `GET /messages` route to match the `/messages` route, we need t
 </div>
 
 #### Route parameters
+
+<span id="route-parameters"></span>
 
 What if we wanted to have a route for all messages for any username, for example, `/odin/messages` or `/thor/messages`, or even `/theodinproject79687378/messages`? But instead of just using `*` as a wildcard, we wanted to use the value of a segment in our middleware functions? Just like with React Router, we can use `route parameters`, and a path can contain as many of these parameters as we need.
 
@@ -108,6 +110,8 @@ app.get("/:username/messages/:messageId", (req, res) => {
 Now we can easily extract values from the request path for use within our middleware chain!
 
 #### Query parameters
+
+<span id="query-parameters"></span>
 
 Query parameters are a unique and optional part of a URL that appear at the end following a `?`. They are special as they are not actually considered part of the path itself, but are essentially more like arguments we can pass in to a given path. For example, `/odin/messages?sort=date&direction=ascending` will still match the route with the `/:username/messages` path, but we can access the `sort=date` and `direction=ascending` key-value pairs inside the middleware chain.
 
@@ -194,7 +198,7 @@ In our `routes/authorsRouter.js` file, we destructure the Express object to get 
 
 Back in `app.js`, we specify that any requests with paths starting with `/books` will be passed through `booksRouter` for route matching. If our request starts with `/authors`, it will skip these book routes then check the routes in `authorsRouter` instead. Any other requests that don't start with either of these will run through `indexRouter`.
 
-<div class="lesson-note lesson-note--tip" markdown="1">
+<div id="extend-router-paths" class="lesson-note lesson-note--tip" markdown="1">
 
 #### Paths in routers extend the parent path!
 
@@ -225,7 +229,14 @@ Don't double up on the parent path!
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
+- [How can you define a route that will only match a specific HTTP verb?](#the-anatomy-of-a-route)
+- [How can you define a route that will match all HTTP verbs?](https://expressjs.com/en/api.html#app.all)
+- [How can you define path patterns for your routes to match?](#paths)
+- [How does the order of your routes affect which routes get matched?](#order-matters)
+- [What object gets populated with any route parameters in a request?](#route-parameters)
+- [What object gets populated with query parameters in a request?](#query-parameters)
+- [How do you extract routes to an individual router?](#routers)
+- [We have a router for paths starting with `/users`. Inside that router, what path should a GET route have to match a GET request to the `/users/delete` path?](#extend-router-paths)
 
 ### Additional resources
 
