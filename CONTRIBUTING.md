@@ -26,9 +26,9 @@ To help enforce the layout specified in our layout style guide, we use [markdown
 
 1. Install the [Markdownlint VSCode Plugin](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint). This plugin will automatically pick up our main configuration and flag issues with a squiggly underline. Note that the plugin will not currently flag issues with the structure of lessons or projects.
 1. Install the `markdownlint-cli2` dependency. This will require you to have installed Node, which we cover in our Foundations path. Simply run `npm install` within the directory of your curriculum clone and you can run one of our 4 scripts to easily lint or fix files. Note that running these scripts without a supplied file path will result in help documentation being output to the terminal.
-    - Lint lessons: `npm run lesson:lint -- "./path/to/lesson"`
-    - Autofix lessons: `npm run lesson:fix -- "./path/to/lesson"`
-    - Lint projects: `npm run project:lint -- "./path/to/project"`
-    - Autofix projects: `npm run project:fix -- "./path/to/project"`
+    - Lint lessons: `npm run lint:lesson -- "./path/to/lesson"`
+    - Autofix lessons: `npm run fix:lesson -- "./path/to/lesson"`
+    - Lint projects: `npm run lint:project -- "./path/to/project"`
+    - Autofix projects: `npm run fix:project -- "./path/to/project"`
 
 With either of these two methods, keep in mind that not all issues that get flagged will have an autofix available. Some rules require fixes that are more dependent on context and cannot - and should not - be automatically fixed, such as our custom rule `TOP001` for descriptive link text.
