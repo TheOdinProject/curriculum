@@ -177,7 +177,7 @@ body {
 To serve `styles.css` in `index.ejs`, set the following `link` tag like so in the head:
 ```ejs
 <head>
-  <link rel="stylesheet" href:"./styles.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 ```
 Your `index.ejs` file should now display red text!
