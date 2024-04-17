@@ -120,7 +120,7 @@ Once the controller has completed its tasks, it passes the processed data to the
 The naming conventions for these controllers are usually based on the route they will be attached to e.g. GET route -> getSomething, POST route -> createSomething, DELETE route -> deleteSomething, etc. Nonetheless, there is no fixed rule since Express is not opinionated. It will always be based on you or someone else's conventions, and the requirements of the function.
 
 ```javascript
-// user controller file/ controllers/userController.js
+// user controller file - controllers/userController.js
 
 const getUserById = async (req, res) => {
   const userId = req.params.id;
@@ -154,7 +154,7 @@ When building robust applications, it's crucial to handle errors gracefully with
 Using the same code earlier, wrapping your controller logic in a `try/catch` is the quickest way to handle errors.
 
 ```javascript
-// user controller file
+// user controller file - controllers/userController.js
 
 const getUserById = async (req, res) => {
   const userId = req.params.id;
@@ -204,7 +204,7 @@ const getUserById = asyncHandler(async (req, res) => {
 Remember what we said earlier regarding a "special type of middleware"? Let's actually look into that now. There is an error middleware function that handles all errors in our application coming down from other middleware functions and this error middleware function is commonly placed at the very end of our application code, to ensure that it is actually the last middleware function to be executed and to only handle errors bubbling down from other middleware functions before it.
 
 ```javascript
-// Every thrown error in the application or the previous middleware fucntion calling `next` with an error as an argument will eventually go to this middleware function
+// Every thrown error in the application or the previous middleware function calling `next` with an error as an argument will eventually go to this middleware function
 app.use((err, req, res, next) => {
   console.error(err);
   res.status(500).send(err);
@@ -222,7 +222,7 @@ It is the same as the previous middleware functions with three parameters but wi
 
 This middleware function handles the *errors thrown* in other middleware functions or something that is sent by a previous middleware function using the `next` function (e.g. `next(err)`).
 
-So the way Express distinguishes this middleware fucntion is again through adding *four parameters* not a single one missing. A route middleware function or a middleware function with *less than four parameters* will always be considered as a request middleware function instead of this error middleware function even if you place it last.
+So the way Express distinguishes this middleware function is again through adding *four parameters* not a single one missing. A route middleware function or a middleware function with *less than four parameters* will always be considered as a request middleware function instead of this error middleware function even if you place it last.
 
 ```javascript
 app.use((req, res, next) => {
@@ -436,7 +436,7 @@ app.use('/users', userRouter);
 
 <div class="lesson-content__panel" markdown="1">
 
-1. This article [Express Middlewares, Demystified](https://medium.com/@viral_shah/express-middlewares-demystified-f0c2c37ea6a1) Written by Viral Shah will help understand how middlewares work in a depper way. The article also encourages you to read the source code of Express which you can likely do by now.
+1. This article [Express Middlewares, Demystified](https://medium.com/@viral_shah/express-middlewares-demystified-f0c2c37ea6a1) Written by Viral Shah will help understand how middlewares work in a deeper way. The article also encourages you to read the source code of Express which you can likely do by now.
 1. Watch this short 10 minutes [video tutorial of the MVC pattern](https://www.youtube.com/watch?v=Cgvopu9zg8Y). There is not much to this other than consolidating what you already know.
 
 </div>
