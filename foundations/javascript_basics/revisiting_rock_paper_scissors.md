@@ -12,6 +12,14 @@ When you make commits on a specific branch, those changes only exist on **that**
 
 This means that you can keep your `main` branch as a place for only finished features that you know are working properly, and add each feature to your project using dedicated branches which we call *feature branches*.
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- How to create a new branch.
+- How to merge branches.
+- Best practices and use cases of branches.
+
 ### Using branches
 
 You can make new branches by using the command `git branch <branch_name>`. You can then change to your new branch using `git checkout <branch_name>`. You can also create a new branch and change to it in a single command by using the `-b` flag with `checkout`, in the form `git checkout -b <branch_name>`.
@@ -74,6 +82,15 @@ For example: if you have a bug in a new feature you’re working on that you can
 1. Make sure to publish the project on GitHub Pages and add a live preview link in the [project lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/rock-paper-scissors).
 
 </div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What are branches in git?](#introduction)
+- [How do you create a new branch?](#using-branches)
+- [How do you merge a branch back into main?](#using-branches)
+- [What is one use case for branches?](#sharing-code)
 
 ### Additional resources
 
