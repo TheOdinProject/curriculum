@@ -12,10 +12,29 @@ module.exports = {
         token.children?.some((child) => child.type === "code_inline")
     );
 
+    const codeContent = [];
     headingsWithCode.forEach((heading) => {
+      // https://regexr.com/7uk28 to test the following regex
+      const codeMatches = heading.line.match(/`.+?`/g);
+      const codeContentDetails = codeMatches.map((codeMatch) => {
+        const index = heading.line.indexOf(codeMatch);
+
+        return { text: codeMatch, index, lineNumber: heading.lineNumber };
+      });
+      codeContent.push(...codeContentDetails);
+    });
+
+    codeContent.forEach((content) => {
       onError({
-        lineNumber: heading.lineNumber,
+        lineNumber: content.lineNumber,
         detail: `Headings should not contain inline code.`,
+        context: content.text,
+        fixInfo: {
+          lineNumber: content.lineNumber,
+          editColumn: content.index + 1,
+          deleteCount: content.text.length,
+          insertText: content.text.replaceAll("`", ""),
+        },
       });
     });
   },
