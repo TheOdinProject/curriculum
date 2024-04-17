@@ -62,7 +62,7 @@ To get us started, we are going to refer to the official documentation.
 
 Let's discuss what's going on there. After installing webpack using npm, we set up a project that required an external library (lodash - check it out [here](https://lodash.com/) if it's new to you) using a `script` tag. The site lists a few reasons why this is probably *not* ideal and then steps through using webpack to accomplish the same thing.
 
-Let us revisit two key words mentioned earlier - **entry** and **output**. In the above link's example, we rearranged the files into a `src` and `dist` folder. Technically, we could have called those folders anything, but those names are typical. `src` is our *source* directory. In other words, `src` is where we write all of the code that webpack is going to bundle up for us. When webpack runs, it goes through all of our files starting at any entry points we give it, looks for any `import` statements and then compiles *all* of the code we need to run our site into a single file per entry point inside of the `dist` folder (short for *distribution*). In this example, we have a single entry point - `/src/index.js`. The **output** file is the compiled version - `dist/main.js`.
+<span id="webpack-knowledge-check">Let us revisit two key words mentioned earlier - **entry** and **output**. In the above link's example, we rearranged the files into a `src` and `dist` folder. Technically, we could have called those folders anything, but those names are typical. `src` is our *source* directory. In other words, `src` is where we write all of the code that webpack is going to bundle up for us. When webpack runs, it goes through all of our files starting at any entry points we give it, looks for any `import` statements and then compiles *all* of the code we need to run our site into a single file per entry point inside of the `dist` folder (short for *distribution*). In this example, we have a single entry point - `/src/index.js`. The **output** file is the compiled version - `dist/main.js`.</span>
 
 - Browse [this document](https://webpack.js.org/concepts/) for more details. We'll talk plugins and loaders in another lesson.
 
@@ -88,7 +88,7 @@ import { functionOne } from './functionOne';
 functionOne(); // this should work as expected!
 ```
 
-There are *many* benefits to writing your code in modules. One of the most compelling is code reuse. If, for instance, you have written some functions that manipulate the DOM in a specific way, putting all of those into their own file as a 'module' means that you can copy that file and reuse it very easily!
+<span id="module-knowledge-check">There are *many* benefits to writing your code in modules. One of the most compelling is code reuse. If, for instance, you have written some functions that manipulate the DOM in a specific way, putting all of those into their own file as a 'module' means that you can copy that file and reuse it very easily!</span>
 
 There are also the same benefits as when using factory functions or the module pattern (the module pattern and ES6 modules are not the same things; this naming convention is frustrating). With the introduction of ES6 Modules, the module pattern (IIFEs) is not needed anymore, though you might still encounter them in the wild. When using ES6 modules, only what is exported can be accessed in other modules by importing. Additionally, any declarations made in a module are not automatically added to the global scope. By using ES6 modules, you can keep different parts of your code cleanly separated, which makes writing and maintaining your code much easier and less error-prone. Keep in mind that you can *definitely* export constructors, classes and factory functions from your modules.
 
@@ -134,7 +134,7 @@ document.body.appendChild(component());
 
 Easy! Now, if you run `npx webpack` in your project directory, your page should show our new function being used.
 
-There are two different ways to use exports in your code: named exports and default exports. Which option you use depends on what you're exporting. Take a moment to look at the [MDN documentation about the export declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) and the [MDN documentation about the import declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) which give great examples for the different syntax on import and export.
+<span id="exports-knowledge-check">There are two different ways to use exports in your code: named exports and default exports. Which option you use depends on what you're exporting. Take a moment to look at the [MDN documentation about the export declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) and the [MDN documentation about the import declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) which give great examples for the different syntax on import and export.</span>
 
 Here is an example with named exports, which you will most often use when you have multiple values to export in a module:
 

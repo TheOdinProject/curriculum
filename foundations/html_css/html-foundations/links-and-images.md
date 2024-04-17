@@ -33,7 +33,7 @@ To create a link in HTML, we use the anchor element. An anchor element is define
 Add the following to the body of the `index.html` page we created and open it in the browser:
 
 ```html
-<a>click me</a>
+<a>About The Odin Project</a>
 ```
 
 You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
@@ -43,7 +43,7 @@ You may have noticed that clicking this link doesn't do anything. This is becaus
 Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
 ```html
-<a href="https://www.theodinproject.com/about">click me</a>
+<a href="https://www.theodinproject.com/about">About The Odin Project</a>
 ```
 
 By default, any text wrapped with an anchor tag without an `href` attribute will look like plain text. If the `href` attribute is present, the browser will give the text a blue color and underline it to signify it is a link.
@@ -57,7 +57,7 @@ The method shown above opens links in the same tab as the webpage containing the
 While `href` specifies the destination link, `target` specifies where the linked resource will be opened. If it is not present, then, by default, it will take on the `_self` value which opens the link in the current tab. To open the link in a new tab or window (depends on browser settings) you can set it to `_blank` as follows:
 
 ```html
-<a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">click me</a>
+<a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
 ```
 
 <span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document.
@@ -110,7 +110,7 @@ Back in the index page, add the following anchor element to create a link to the
 ```html
 <body>
   <h1>Homepage</h1>
-  <a href="https://www.theodinproject.com/about">click me</a>
+  <a href="https://www.theodinproject.com/about">About The Odin Project</a>
 
   <a href="about.html">About</a>
 </body>
@@ -176,7 +176,7 @@ To use images that we have on our own websites, we can use a relative path.
 </summary>
 
 1. Create a new directory named `images` within the `odin-links-and-images` project.
-1. Next, download [this image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
+1. Next, [download our practice image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
 1. Rename the image to `dog.jpg`.
 
 </details>
@@ -218,7 +218,7 @@ Finally add the image to the `index.html` file:
 ```html
 <body>
   <h1>Homepage</h1>
-  <a href="https://www.theodinproject.com/about">click me</a>
+  <a href="https://www.theodinproject.com/about">About The Odin Project</a>
 
   <a href="./pages/about.html">About</a>
 
@@ -272,9 +272,9 @@ It is a good habit to always specify these attributes on every image, even when 
 
 Here is our Odin Project logo example with height and width tags included:
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PoXJKvy" data-user="FabulousPBB" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/FabulousPBB/pen/PoXJKvy">
-  Image Height and Width Attributes</a> by Brian Lister (<a href="https://codepen.io/FabulousPBB">@FabulousPBB</a>)
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PogmYGp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PogmYGp">
+  Image Height and Width Attributes</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -285,9 +285,9 @@ Go ahead and update the `odin-links-and-images` project with width and height ta
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [Watch Kevin Powell's HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=5).
-1. [Watch Kevin Powell's HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=6).
-1. [Watch Kevin Powell's File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo&list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-&index=7).
+1. Watch Kevin Powell's [HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM).
+1. Watch Kevin Powell's [HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ).
+1. Watch Kevin Powell's [File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo).
 1. [Read about the four main image formats that can be used on the web](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
 
 </div>
