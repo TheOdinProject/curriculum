@@ -36,7 +36,7 @@ module.exports = {
       }
 
       // https://regexr.com/7v3bb to test this regex
-      const nonCodepenAnchorsWithHrefRegex = /<a\s[^>]*href=[^>]+>.+?<\/a>/g;
+      const nonCodepenAnchorsWithHrefRegex = /(?<!`)<a\s[^>]*href=[^>]+>.+?<\/a>(?!`)/g;
       const anchorsInCurrentLine = currentLine.match(nonCodepenAnchorsWithHrefRegex);
 
       anchorsInCurrentLine?.forEach((anchor) => {
