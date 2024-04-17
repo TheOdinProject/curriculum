@@ -1,6 +1,6 @@
 ### Introduction
 
-It's time to really flex your muscles. Test Driven Development (TDD) can certainly feel uncomfortable at first, but becomes more natural with practice. We're going to implement the classic game 'Battleship'. If you've never played it, or need a refresher, you can read about [Battleship's rules](https://en.wikipedia.org/wiki/Battleship_(game)) and you can [play an online version of Battleship](http://en.battleship-game.org/).
+It's time to really flex your muscles. Test Driven Development (TDD) can certainly feel uncomfortable at first, but becomes more natural with practice. We're going to implement the classic game 'Battleship'. If you've never played it, or need a refresher, you can read about [Battleship's rules](<https://en.wikipedia.org/wiki/Battleship_(game)>) and you can [play an online version of Battleship](http://en.battleship-game.org/).
 
 Since we're doing TDD, it's important that you don't get overwhelmed. Take it one step at a time. Write a test, then make it pass.
 
@@ -11,16 +11,16 @@ We have not yet discussed testing the appearance of a webpage, which requires a 
 <div class="lesson-content__panel" markdown="1">
 
 1. Begin your app by creating the `Ship` class/factory (your choice).
-   1. Your 'ships' will be objects that include their length, the number of times they've been hit and whether or not they've been sunk.
-   1. **REMEMBER** you only have to test your object's public interface. Only methods or properties that are used outside of your 'ship' object need unit tests.
-   1. Ships should have a `hit()` function that increases the number of 'hits' in your ship.
-   1. `isSunk()` should be a function that calculates whether a ship is considered sunk based on its length and the number of hits it has received.
+    1. Your 'ships' will be objects that include their length, the number of times they've been hit and whether or not they've been sunk.
+    1. **REMEMBER** you only have to test your object's public interface. Only methods or properties that are used outside of your 'ship' object need unit tests.
+    1. Ships should have a `hit()` function that increases the number of 'hits' in your ship.
+    1. `isSunk()` should be a function that calculates whether a ship is considered sunk based on its length and the number of hits it has received.
 1. Create a `Gameboard` class/factory.
-   1. Note that we have not yet created any User Interface. We should know our code is coming together by running the tests. You shouldn't be relying on `console.log` or DOM methods to make sure your code is doing what you expect it to.
-   1. Gameboards should be able to place ships at specific coordinates by calling the ship factory function.
-   1. Gameboards should have a `receiveAttack` function that takes a pair of coordinates, determines whether or not the attack hit a ship and then sends the 'hit' function to the correct ship, or records the coordinates of the missed shot.
-   1. Gameboards should keep track of missed attacks so they can display them properly.
-   1. Gameboards should be able to report whether or not all of their ships have been sunk.
+    1. Note that we have not yet created any User Interface. We should know our code is coming together by running the tests. You shouldn't be relying on `console.log` or DOM methods to make sure your code is doing what you expect it to.
+    1. Gameboards should be able to place ships at specific coordinates by calling the ship factory or class.
+    1. Gameboards should have a `receiveAttack` function that takes a pair of coordinates, determines whether or not the attack hit a ship and then sends the 'hit' function to the correct ship, or records the coordinates of the missed shot.
+    1. Gameboards should keep track of missed attacks so they can display them properly.
+    1. Gameboards should be able to report whether or not all of their ships have been sunk.
 1. Create a `Player` class/factory.
     1. There will be two types of players in the game, 'real' players and 'computer' players.
     1. Each player object should contain it's own gameboard.
@@ -40,8 +40,8 @@ We have not yet discussed testing the appearance of a webpage, which requires a 
 
 Make your battleship project more impressive by introducing any of these modifications.
 
-- Implement drag and drop to allow players to place their ships.
-- Create a 2-player option that lets users take turns by passing the laptop back and forth, or by spinning the monitor around on a desktop. Implement a 'pass device' screen so that players don't see each other's boards!
-- Polish the intelligence of the computer player by having it try adjacent slots after getting a 'hit'.
+-   Implement drag and drop to allow players to place their ships.
+-   Create a 2-player option that lets users take turns by passing the laptop back and forth, or by spinning the monitor around on a desktop. Implement a 'pass device' screen so that players don't see each other's boards!
+-   Polish the intelligence of the computer player by having it try adjacent slots after getting a 'hit'.
 
 </div>
