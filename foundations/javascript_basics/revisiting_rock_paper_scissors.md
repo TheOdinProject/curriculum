@@ -31,6 +31,7 @@ Once you are done working on your feature branch and are ready to bring the comm
 Merges are done by using the command `git merge <branch_name>` which will take the changes you’ve committed in `branch_name` and add them to the branch that you’re currently on. You can see an example of a `develop` branch being created, committed to, and then merged to `main` in the diagram below.
 
 <pre class="mermaid">
+
 ---
 title: Example of Git Branching
 ---
@@ -43,6 +44,7 @@ gitGraph
    commit id: "commit2a"
    checkout main
    merge develop id: "merge to main"
+   
 </pre>
 
 Sometimes, the same lines in a file will have been changed by two different branches. When this happens, you will have a merge conflict when you try and merge those branches together. In order to finish merging the branches you will have to first resolve the conflict, which will be covered in a future lesson.
