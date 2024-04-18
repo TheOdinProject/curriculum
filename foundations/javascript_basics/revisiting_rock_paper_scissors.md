@@ -44,7 +44,6 @@ gitGraph
    commit id: "commit2a"
    checkout main
    merge develop id: "merge to main"
-   
 </pre>
 
 Sometimes, the same lines in a file will have been changed by two different branches. When this happens, you will have a merge conflict when you try and merge those branches together. In order to finish merging the branches you will have to first resolve the conflict, which will be covered in a future lesson.
