@@ -17,7 +17,7 @@ In our Foundations lesson, we covered changing the `font-family` of an element, 
 
  If you use the `font-family` property to change to a font like `impact` or `Times New Roman`, and those fonts do not happen to be installed on your user's computer, then a fallback font will be displayed.  If you have not defined a fallback, then the default HTML font will be used, which is often somewhat ugly. For this reason, it's common to see somewhat long stacks of fonts listed on projects.
 
-One popular stack is this 'system font' stack. [Source: CSS Tricks](https://css-tricks.com/snippets/css/system-font-stack/)
+One popular stack is CSS Tricks' [system font stack](https://css-tricks.com/snippets/css/system-font-stack/).
 
 ```css
 body {
