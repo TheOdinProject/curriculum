@@ -31,7 +31,7 @@ One of the most difficult parts about this course is adopting the right mindset.
 After completing the course you will be in a position where you can simply jump straight into the documentation for anything you are trying to learn.
 Reading the documentation is the the best way to learn any tooling. But it takes skill to get good at it. Many people feel intimidated by the technical jargon, which is understandable. People who write documentations usually assume a background in programming. This is exactly why we give you plenty of material to read on your own.
 
-The skills you will gain from completing the Odin Project will be the foundation that you will be building upon for years and decades to come. If you come out of the coure thinking that you need another course like this one to learn something like Python, then you either don't believe in yourself or you haven't taken away the important ideas that are covered in this coure.
+The skills you will gain from completing The Odin Project will be the foundation that you will be building upon for years and decades to come. If you come out of the course thinking that you need another course like this one to learn something like Python, then you either don't believe in yourself or you haven't taken away the important ideas that are covered in this course.
 
 At the end of the day, the skills you learn here are transferrable. Once you know the *idea* and that it is *possible* to do something, actually finding out how to do that thing becomes significant easier and is simply a google search away most of the times.
 
