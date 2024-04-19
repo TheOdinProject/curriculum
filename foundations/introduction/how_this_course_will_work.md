@@ -28,7 +28,7 @@ The truth is that once you complete this curriculum you will **not need** a cour
 
 One of the most difficult parts about this course is adopting the right mindset. Another one, the bigger one, is learning the core ideas of programming. It isn't just about coding, it is about problem-solving, asking the right questions, and doing enough research. Getting into a position where you are comfortable with the skills will mean that you will also be comfortable at expanding your skill-set. Once you have a solid *base*, it will be simpler to expand upon it. This is exactly what The Odin Project is about: developing these *skills*.
 
-After completing it, you will likely be in a position where you can simply jump straight into the documentation for whatever thing you are trying to learn.
+After completing the course you will be in a position where you can simply jump straight into the documentation for anything you are trying to learn.
 Reading the documentation is the the best way to learn any tooling. But it takes skill to get good at it. Many people feel intimidated by the techical jargon, which is understandable. People who write documentations usually assume a background in programming. This is exactly why we give you plenty of material to read on your own.
 
 The skills you will gain from completing the Odin Project will be the foundation that you will be building upon for years and decades to come. If you come out of the coure thinking that you need another course like this one to learn something like Python, then you either don't believe in yourself or you haven't taken away the important ideas that are covered in this coure.
