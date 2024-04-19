@@ -24,7 +24,7 @@ Try not to think of The Odin Project, or programming, as a class in school. It's
 
 We often get questions about why this course does not cover a language or a tool.
 
-The truth is, once you complete this curriculum, you will likely **not need** a course like this or any sort of "tutorial". Odin Project's goal is not to teach you any standalone skills and this it not a tutorial. The main idea is to teach you the *why*, and the mindset.
+The truth is that once you complete this curriculum you will **not need** a course like this or any sort of "tutorial". The Odin Project's goal is not to teach you any standalone skills and it is not a tutorial. The main idea is to teach you the *why* and change the way you think.
 
 The hardest thing to learn is the mindset. The core ideas of programming. Because programming isn't just about coding, it is about problem-solving, asking the right questions, and researching. Getting into a position where you are comfortable with the skills will mean that you will also be comfortable at expanding your skillset. Once you have a solid *base*, it will be simpler to expand upon it. This is exactly what The Odin Project is about, developing thore *foundations*.
 
