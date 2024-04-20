@@ -30,13 +30,14 @@ Very often you see the flex shorthand defined with only *one* value. In that cas
 
 In the following example the `flex` shorthand has values for `flex-shrink` and `flex-basis` specified with their default values.
 
-<div>
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YzQqvgK" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"> 
+  
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/YzQqvgK">
   flex-grow example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span> 
+  
 </p>
-</div>
+
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
