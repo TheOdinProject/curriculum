@@ -54,6 +54,7 @@ module.exports = {
       const lineAfterIsTheNextHtmlTag = lineNumber + 1 === isolatedHtmlTagsLineNumbers[i + 1];
       let replacementText = params.lines[lineNumber];
 
+      // .trim() !== "" prevents interference with MD009 whitespace fixer
       if (!lineBeforeIsValid && lineBefore.trim() !== "") {
         replacementText = `\n${replacementText}`;
       }
