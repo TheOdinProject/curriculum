@@ -77,8 +77,6 @@ In order for our `GET /messages` route to match the `/messages` route, we will n
 
 #### Route parameters
 
-<span id="route-parameters"></span>
-
 What if we wanted to have a route for all messages for any username, for example, `/odin/messages` or `/thor/messages`, or even `/theodinproject79687378/messages`? We could technically use `/*/messages`, but what if we wanted to extract and use the username in our middleware functions? Just like with React Router, we can use `route parameters`, and a path can contain as many of these parameters as we need.
 
 To denote a route parameter, we start a segment with a `:` followed by the name of parameter (which can only consist of case-sensitive alphanumeric characters, or `_`). Whatever we name that route parameter, Express will automatically populate the `req.params` object in any of the following middleware functions with whatever value the path passed into the parameter, using the parameter name as a key.
@@ -109,8 +107,6 @@ app.get("/:username/messages/:messageId", (req, res) => {
 Now we can easily extract values from the request path for use within our middleware chain!
 
 #### Query parameters
-
-<span id="query-parameters"></span>
 
 Query parameters are a unique and optional part of a URL that appear at the end, starting with a `?`. They are special as they are not actually considered part of the path itself, but are essentially more like arguments we can pass in to a given path. For example, `/odin/messages?sort=date&direction=ascending` will still match the route with the `/:username/messages` path, but we can access the `sort=date` and `direction=ascending` key-value pairs inside the middleware chain.
 
