@@ -59,4 +59,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- check out this [documentary on React’s origin story by Honeypot](https://www.youtube.com/watch?v=8pDqJVdNa44).
+- If you are interested in learning more about React's history, check out this [documentary on React's origin story by Honeypot](https://www.youtube.com/watch?v=8pDqJVdNa44).
