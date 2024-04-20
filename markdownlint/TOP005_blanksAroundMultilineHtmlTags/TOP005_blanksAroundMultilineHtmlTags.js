@@ -42,8 +42,10 @@ module.exports = {
 
       // https://regexr.com/7u89c to test the following regex:
       const blankCodeBlockRegex = /^$|^`{3,4}.*$/;
-      const lineBeforeIsValid = blankCodeBlockRegex.test(params.lines[lineNumber - 1] ?? "");
-      const lineAfterIsValid = blankCodeBlockRegex.test(params.lines[lineNumber + 1] ?? "");
+      const lineBefore = params.lines[lineNumber - 1] ?? "";
+      const lineBeforeIsValid = blankCodeBlockRegex.test(lineBefore);
+      const lineAfter = params.lines[lineNumber + 1] ?? "";
+      const lineAfterIsValid = blankCodeBlockRegex.test(lineAfter);
 
       if (lineBeforeIsValid && lineAfterIsValid) {
         return;
@@ -52,10 +54,10 @@ module.exports = {
       const lineAfterIsTheNextHtmlTag = lineNumber + 1 === isolatedHtmlTagsLineNumbers[i + 1];
       let replacementText = params.lines[lineNumber];
 
-      if (!lineBeforeIsValid) {
+      if (!lineBeforeIsValid && lineBefore.trim() !== "") {
         replacementText = `\n${replacementText}`;
       }
-      if (!lineAfterIsValid && !lineAfterIsTheNextHtmlTag) {
+      if (!lineAfterIsValid && !lineAfterIsTheNextHtmlTag && lineAfter.trim() !== "") {
         replacementText = `${replacementText}\n`;
       }
 
@@ -72,7 +74,7 @@ module.exports = {
         fixInfo: {
           deleteCount: params.lines[lineNumber].length,
           insertText: replacementText,
-        }
+        },
       });
     });
   },
