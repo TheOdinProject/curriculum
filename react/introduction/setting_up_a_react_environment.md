@@ -39,7 +39,7 @@ All of this, and sometimes *much more* is required to get a React project and de
 
 #### A note on Create React App
 
-Create React App, or CRA, was the official way to scaffold new React projects since its introduction in 2016. Unfortunately, owing to many reasons, CRA was deprecated in early 2023. Read this [extensive comment by one of React's maintainers if you're curious](https://github.com/reactjs/react.dev/pull/5487#issuecomment-1409720741). Due to CRA's popularity, you'll see it mentioned in many tutorials and guides. However, it's no longer recommended to use it for new projects.
+Create React App, or CRA, was the official way to scaffold new React projects since its introduction in 2016. Unfortunately, owing to many reasons, [CRA was deprecated in early 2023](https://github.com/reactjs/react.dev/pull/5487#issuecomment-1409720741). Due to CRA's popularity, you'll see it mentioned in many tutorials and guides. However, it's no longer recommended to use it for new projects.
 
 </div>
 
