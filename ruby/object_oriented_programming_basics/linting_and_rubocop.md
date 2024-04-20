@@ -164,7 +164,7 @@ caesars_cipher.rb:16:8: C: [Corrected] Style/StringLiterals: Prefer single-quote
 See that `.`? That means the first file is now all fine and dandy! Some of the offenses were not corrected by RuboCop and that's because `-a` is for safe autocorrect.
 If you wanted to go through with the `[Correctable]` offenses, you'd want to use `-A` as the output helpfully suggests. This is due to the fact that some Cops are safe, some are unsafe.
 
-The safe Cops promise that they won't have false positives and that their autocorrect is won't change the semantics of the code and it will be fully equivalent to what you've had written.
+The safe Cops promise that they won't have false positives and that their autocorrect won't change the semantics of the code and it will be fully equivalent to what you had written.
 
 From this it follows that unsafe Cops either have false positives or slightly change the semantics of the code. The first characteristic means they tell you something is wrong when actually, everything is alright - for example, you've got a method with the same name as one in standard library in your object and RuboCop treats it as if it were the standard library method.
 
