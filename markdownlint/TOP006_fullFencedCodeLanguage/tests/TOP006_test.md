@@ -48,6 +48,22 @@ puts "Use the full name!"
 As does txt.
 ```
 
+```yml
+description: This will flag
+```
+
+```yaml
+description: Unless you use the full name
+```
+
+```sh
+prefer --bash-over-sh
+```
+
+```bash
+like --this
+```
+
 ```html
 <p>HTML is not considered as only the abbreviated name is a valid option.</p>
 <p>The same applies to similar languages like CSS and JSX.</p>
