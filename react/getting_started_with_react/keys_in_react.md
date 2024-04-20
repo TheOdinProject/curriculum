@@ -29,7 +29,9 @@ As long as `keys` remain consistent and unique, React can handle the DOM effecti
 ### Using keys
 
 <div class="lesson-note" markdown="1">
+
 We will be using `props` here, and you will learn more about them in the next lesson. For now, you just need to know that `props` are arguments that are passed into components.
+
 </div>
 
 Keys are passed into the component or a DOM element as a prop. You should already be familiar with the syntax.
@@ -114,7 +116,7 @@ Don't fret if some of the terms covered in the lesson don't make sense yet. What
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Why does React need keys?](#why-does-react-need-keys)
 - [How do you use keys?](#using-keys)
@@ -124,6 +126,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - This article on [React key attribute by Nadia Makarevich](https://www.developerway.com/posts/react-key-attribute) takes an in-depth look into keys.
