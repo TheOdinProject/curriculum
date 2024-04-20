@@ -22,27 +22,39 @@ module.exports = {
       .filter((token) => token.type === "fence")
       .map((token) => token.map);
 
-    const isWithinFencedCodeBlock = (lineNumber) => {
-      return fencesLineRanges.some((range) => range[0] < lineNumber && lineNumber < range[1]);
+    const codepenLineRanges = params.lines.reduce((lineRanges, currentLine, index) => {
+      const range = [];
+      const lineNumber = index + 1;
+      if (currentLine.includes('class="codepen"')) {
+        range.push(lineNumber);
+        lineRanges.push(range);
+      } else if (currentLine.trim().startsWith("</p>")) {
+        lineRanges.at(-1).push(lineNumber);
+      }
+
+      return lineRanges;
+    }, []);
+
+    const isWithinIgnoredLineRange = (lineNumber) => {
+      return [...fencesLineRanges, ...codepenLineRanges].some(
+        (range) => range[0] < lineNumber && lineNumber < range[1]
+      );
     };
 
     const anchorsToFlag = params.lines.reduce((anchors, currentLine, index) => {
       if (
+        isWithinIgnoredLineRange(index) ||
         !currentLine.includes("<a ") ||
-        !currentLine.includes("</a>") ||
-        isWithinFencedCodeBlock(index)
+        !currentLine.includes("</a>")
       ) {
         return anchors;
       }
 
       // https://regexr.com/7v3bb to test this regex
-      const nonCodepenAnchorsWithHrefRegex = /(?<!`)<a\s[^>]*href=[^>]+>.+?<\/a>(?!`)/g;
-      const anchorsInCurrentLine = currentLine.match(nonCodepenAnchorsWithHrefRegex);
+      const anchorsWithHrefRegex = /(?<!`)<a\s[^>]*href=[^>]+>.+?<\/a>(?!`)/g;
+      const anchorsInCurrentLine = currentLine.match(anchorsWithHrefRegex);
 
       anchorsInCurrentLine?.forEach((anchor) => {
-        if (anchor.includes("codepen")) {
-          return;
-        }
         anchors.push({
           original: anchor,
           href: extractHref(anchor),

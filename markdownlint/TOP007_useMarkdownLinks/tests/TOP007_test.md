@@ -24,8 +24,6 @@ Assignment section
 
 <a href="#custom-section">Will flag</a> if <a href="#assignment">multiple anchors</a> in same line.
 
-<a>Anchors without hrefs are ignored</a>
-
 `<a href="#custom-section">Anchors inside an inline code block are ignored</a>`
 
 ```html
@@ -47,7 +45,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#knowledge-check">Flags even if knowledge check with class</a>
+- <a class="knowledge-check-link" href="#knowledge-check">Flags with and omits non-href attributes</a>
 
 ### Additional resources
 
