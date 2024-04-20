@@ -9,9 +9,8 @@ Routes essentially just match a request's HTTP verb (e.g. GET or POST) and URL p
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Describe how routes are defined.
-- Match routes to specific HTTP verbs and paths.
 - Explain route parameters and query parameters.
-- Extract routes to their own routers.
+- Setup new routers on a path
 
 ### The anatomy of a route
 
@@ -21,7 +20,7 @@ Let's return to our sole route in our previous basic Express app.
 app.get("/", (req, res) => res.send("Hello, world!"));
 ```
 
-`app.get("/" ...` tells us that this route will match any requests that go through `app` (our whole server) that have the GET HTTP verb and are for the `/` path. If instead we had the following:
+`app.get("/" ...` tells us that this route will match any GET requests that go through the `app` router (which is our whole server!) to the `/` path. If instead we had the following:
 
 ```javascript
 app.post("/messages", (req, res) => res.send("This is where you can see any messages."));
@@ -159,7 +158,7 @@ GET /authors
 GET /authors/:authorId
 ```
 
-It'd be nice if we could extract the route groups to their own files. It'd also be nice if the server didn't need to check any routes that didn't start with `/authors` if a request was made to a path that started with `/authors`. We can do that using routers!
+It'd be nice if we could extract the route groups to their own files, and we can do that using routers!
 
 ```javascript
 // app.js
