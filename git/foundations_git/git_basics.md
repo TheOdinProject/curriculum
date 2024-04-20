@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Create the repository
 
-1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting Up Git](https://www.theodinproject.com/lessons/foundations-setting-up-git) lesson. 
+1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting Up Git](https://www.theodinproject.com/lessons/foundations-setting-up-git) lesson.
 
 1. Create a new repository by clicking the button shown in the screenshot below.
 
