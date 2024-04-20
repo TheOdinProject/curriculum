@@ -41,7 +41,7 @@ Before you and RuboCop do a check-up on your Caesar Cipher project, let's talk s
 > This Ruby style guide recommends best practices so that real-world Ruby programmers can write code that can be maintained by other real-world Ruby programmers. A style guide that reflects real-world usage gets used, while a style guide that holds to an ideal that has been rejected by the people it is supposed to help risks not getting used at all - no matter how good it is. (...)
  The guidelines provided here are intended to improve the readability of code and make it consistent across the wide spectrum of Ruby code.
 
-As you can see, those are *recommendations* dictated by real-world usage aimed at improving readibility and consistency of Ruby code. In the end, it is like the difference between how you send your messages online versus how you'd write an essay. One is about communicating quickly, the other is about communicating clearly.
+As you can see, those are *recommendations* dictated by real-world usage aimed at improving readability and consistency of Ruby code. In the end, it is like the difference between how you send your messages online versus how you'd write an essay. One is about communicating quickly, the other is about communicating clearly.
 
 The various conventions can be grouped based on what aspects of your code they deal with. As a starting point, lets use some of RuboCop's departments - Style, Lint and Metrics. Perhaps you've anticipated that RuboCop doesn't work alone - it indeed has a whole precint behind itself. The various Cops are interested in making sure that some particular rule is not broken. Let the departments speak for themselves:
 
@@ -122,7 +122,7 @@ Here, RuboCop pointed out that this string could very well be single-quoted, as 
 You could ask why such a foundational Gem as Bundler can run into trouble with the law. The answer is that RuboCop is highly customizable to accommodate many standards that programmers
 might have. Remember: what is important in linting in formatting is making sure everyone in a group plays by the same rules, so the code is more readable.
 
-Before you unleash the automated fury of RuboCop upon your code, you might want to become acquianted with a nifty flag: `-S`. This will provide a link to the Ruby Style Guide
+Before you unleash the automated fury of RuboCop upon your code, you might want to become acquainted with a nifty flag: `-S`. This will provide a link to the Ruby Style Guide
 that goes over the rationale for the offense, if the Cop has such link when `bundle exec rubocop -S` is used:
 
 ```bash
@@ -168,10 +168,6 @@ The safe Cops promise that they won't have false positives and that their autoco
 
 From this it follows that unsafe Cops either have false positives or slightly change the semantics of the code. The first characteristic means they tell you something is wrong when actually, everything is alright - for example, you've got a method with the same name as one in standard library in your object and RuboCop treats it as if it were the standard library method.
 
-<!--
-TODO: find out whether https://docs.rubocop.org/rubocop/usage/autocorrect.html talks about human semantics or the machine semantics.
-The second example seems to suggest the latter - autocorrecting breaks the code.
--->
 The latter means that while your code and the proposed code arrive at the same output, they might change how (but not what) the output is achieved or produce a side-effect that might even break your code.
 
 ### You are the code dictator
@@ -249,7 +245,7 @@ Perceived complexity is very similar to cyclomatic complexity. It attempts to me
 
 ### Wouldn't it be nice to have all this in VSC?
 
-It certainly would! Thanks to Ruby-LSP, RuboCop is integrated with Visual Studio Code. Thanks to this, RuboCop is continously ran while you're writing your code, providing you with feedback on the go:
+It certainly would! Thanks to Ruby-LSP, RuboCop is integrated with Visual Studio Code. Thanks to this, RuboCop is continuously ran while you're writing your code, providing you with feedback on the go:
 
 ![Caesar's Cipher project in VSC with many problems](./linting_and_rubocop/imgs/rubocopinvsc.png)
 
