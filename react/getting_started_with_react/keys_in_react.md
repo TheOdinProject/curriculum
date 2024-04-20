@@ -40,7 +40,7 @@ Keys are passed into the component or a DOM element as a prop. You should alread
 <div key={keyValue} />
 ```
 
-<span id="keys-from-data">Now that we know the syntax, the next question is: what should be used as a key? Ideally, they should be some identifier that is unique to each item in the list. Most databases assign a unique id to each entry, so you shouldn't have to worry about assigning an id yourself. If you are defining data yourself, it is good practice to assign a unique `id` to each item. You may use the [uuid](https://www.npmjs.com/package/uuid) package to generate a unique id. Let's look at an example:</span>
+<span id="keys-from-data">Now that we know the syntax, the next question is: what should be used as a key? Ideally, they should be some identifier that is unique to each item in the list. Most databases assign a unique id to each entry, so you shouldn't have to worry about assigning an id yourself. If you are defining data yourself, it is good practice to assign a unique `id` to each item. You may use the [uuid package](https://www.npmjs.com/package/uuid) to generate a unique id. Let's look at an example:</span>
 
 ```jsx
 // a list of todos, each todo object has a task and an id
