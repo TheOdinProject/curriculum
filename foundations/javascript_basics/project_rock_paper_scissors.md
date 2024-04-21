@@ -3,7 +3,9 @@
 For this project, you will create the game [Rock Paper Scissors](https://www.wikihow.com/Play-Rock,-Paper,-Scissors). This game will be played entirely in the console.
 
 <div class="lesson-note">
+
 Some of the student solutions below contain buttons, text, and other elements. These elements are part of what is called a graphical user interface (GUI). You'll create the GUI in a later lesson. In the meantime, remember to commit your code to GitHub.
+
 </div>
 
 ### Problem solving approach
@@ -17,6 +19,7 @@ Since this is the first JavaScript project being built from scratch, it's import
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 Remember to commit early and often! To refresh your memory, check out the [commit messages lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages).
 
 #### Step 1: Setup the project structure
@@ -91,10 +94,13 @@ Your game will play 5 rounds. You will write a function named `playGame` that ca
    - If you already know about loops, you can use them. If not, don't worry! Loops will be covered in the next lesson.
 
 </div>
+
 <div class="lesson-note" markdown="1">
+
 When making interactive projects, like this one, you might be tempted to add more features, improve interactivity, user experience, design and styling of your website, and so on.
 
 We recommend not doing that, and saving this effort for your portfolio projects.
 
 For more information on learning mindset and portfolio pieces read [Part 5](https://dev.to/theodinproject/learning-code-f56) and [Part 7](https://dev.to/theodinproject/strategically-building-your-portfolio-1km4) of [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
+
 </div>
