@@ -45,14 +45,14 @@ Your game will be played against the computer. You will write a function that ra
 
 #### Step 3: Write the logic to get the human choice
 
-Your game will be played by a human player. You will write a function that takes the user input and randomly returns "rock", "paper" or "scissors".
+Your game will be played by a human player. You will write a function that takes the user choice returns it.
 
 1. Create a new function named `getHumanChoice`.
 1. Write the code so that `getHumanChoice` will return one of the valid choices depending on what the user inputs.
    - **Hint**: Use the [prompt](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt) method to get the user's input.
 1. Test what your function returns by using `console.log`.
 
-#### Step 4: Write the players score variables
+#### Step 4: Declare the players score variables
 
 Your game will keep track of the players score. You will write variables to keep track of the players score.
 
@@ -64,8 +64,8 @@ Your game will keep track of the players score. You will write variables to keep
 Your game will be played round by round. You will write a function that takes the human and computer player choices as arguments, plays a single round, increments the round winner's score and logs a winner announcement.
 
 1. Create a new function named `playRound`.
-1. Define two parameters for `playRound`: `playerChoice` and `computerChoice`. Use these two parameters to take the human and computer choices as arguments.
-1. Make your function's `playerSelection` parameter case-insensitive so that players can input "rock", "ROCK", "RocK", or other variations.
+1. Define two parameters for `playRound`: `humanChoice` and `computerChoice`. Use these two parameters to take the human and computer choices as arguments.
+1. Make your function's `humanSelection` parameter case-insensitive so that players can input "rock", "ROCK", "RocK", or other variations.
 1. Write the code for your `playRound` function to `console.log` a string value representing the round winner, such as: "You lose! Paper beats Rock".
 1. Increment the `humanScore` or `computerScore` variable based on the round winner.
 
