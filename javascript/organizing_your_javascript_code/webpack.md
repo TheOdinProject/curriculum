@@ -50,6 +50,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
   If you have any issues loading fonts with Webpack, the issue is not with Webpack, but how you declare the CSS rule.
 
   Check out the answer on this question from Stack Overflow if you get stuck: [Webpack can't load fonts (ttf)](https://stackoverflow.com/questions/49877149/webpack-cant-load-fonts-ttf/68838464#68838464)
+
 </div>
 
 ### Assignment
