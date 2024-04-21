@@ -39,6 +39,9 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
 
+<!-- But will flag codepen anchors if they're not inside p.codepen -->
+<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Knowledge check
