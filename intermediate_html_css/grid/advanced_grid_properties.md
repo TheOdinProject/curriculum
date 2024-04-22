@@ -250,7 +250,7 @@ Using `clamp()` and `minmax()` are fantastic methods for making grids more respo
 
 ### auto-fit and auto-fill
 
-These two values are actually a part of the `repeat()` function specification, but they were saved for the end of the lesson because their usefulness is not apparent until after you understand the `minmax()` function. Here's the use case: You want to give your grid a number of columns that is flexible based on the size of the grid. For example, if our grid is only `200px` wide, we may only want one column. If it's `400px` wide, we may want two, and so on. Solving this problem with media queries would be a *lot* of typing. Thankfully, `auto-fit` and `auto-fill` are here to save the day!
+These two values are actually a part of the `repeat()` function specification, but they were saved for the end of the lesson because their usefulness is not apparent until after you understand the `minmax()` function. Here's the use case: You want to give your grid a number of columns that is flexible based on the size of the grid. For example, if our grid is only `200px` wide, we may only want one column. If it's `400px` wide, we may want two, and so on. Thankfully, `auto-fit` and `auto-fill` are here to save the day!
 
 According to the [W3 specification on auto-fill and auto-fit](https://www.w3.org/TR/css-grid-1/#auto-repeat), both of these functions will return "the largest possible positive integer" without the grid items overflowing their container. Here is an example:
 
@@ -279,7 +279,7 @@ The real magic of `auto-fit` and `auto-fill` comes when we incorporate `minmax()
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Notice how when we resize, the columns automagically know how many will fit across without any media queries whatsoever. If you don't think *that's* cool, you better check your pulse!
+Notice how when we resize, the columns automatically know how many will fit across. If you don't think *that's* cool, you better check your pulse!
 
 So what's going on here specifically with `repeat(auto-fit, minmax(150px, 1fr));`? Remember that `auto-fit` will return the **highest positive integer** without overflowing the grid. So first, the browser has to know how wide our grid is: in this case, it's just the window's width (minus margins) because we didn't explicitly set it. For the sake of this example, let's pretend like our window is currently `500px` wide. Second, the browser needs to know how many grid column tracks could possibly fit in that width. To do this, it uses the minimum value in our `minmax()` function, since that will yield the highest number of items, which is `150px`. If our window is `500px` wide, this means our grid will render 3 columns. But wait, there's more! Once the browser has determined how many columns we can fit, it then resizes our columns up to the maximum value allowed by our `minmax()` function. In this case, our max size is `1fr`, so all three columns will be given an equal allotment of the space available. As we resize our window, these calculations happen in realtime and the result is what you see in the above example!
 
