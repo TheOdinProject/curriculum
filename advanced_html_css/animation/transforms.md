@@ -36,10 +36,13 @@ This is the transform function value to rotate an element on a 2D plane:
 Below is a CodePen that shows how the value affects the target element.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="GRMgKeE" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/GRMgKeE">
-  2D Rotate | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/GRMgKeE">
+2D Rotate | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 #### Scale
@@ -57,10 +60,13 @@ These are the transform function values to scale an element on a 2D plane:
 Below is a CodePen that shows how each value affects the target element.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="XWeJrGL" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/XWeJrGL">
-  2D Scale | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/XWeJrGL">
+2D Scale | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 #### Skew
@@ -78,10 +84,13 @@ These are the transform function values to skew an element on a 2D plane:
 Below is a CodePen that shows how each value affects the target element.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="mdBybgm" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/mdBybgm">
-  2D Skew | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/mdBybgm">
+2D Skew | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 #### Translate
@@ -99,10 +108,13 @@ These are the transform function values to translate an element on a 2D plane:
 Below is a CodePen that shows how each value affects the target element.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="PoJwYrO" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJwYrO">
-  2D Translate | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJwYrO">
+2D Translate | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### Chaining multiple transforms
@@ -136,10 +148,13 @@ Now that you have a grasp of 2D transforms, we will learn how to chain them. Cha
 There are two boxes located at the same position. We chained `rotate` and `translate` function values to both boxes, but in different orders. Make a guess on what happens to each box, then click the "Result" link in the Codepen below to see if you were right.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css" data-slug-hash="XWeJWWr" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/XWeJWWr">
-  Chaining | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/XWeJWWr">
+Chaining | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 If you guessed correctly, congratulations! But this is a tricky concept. There is a bit of debate on how to read a chain of transform functions. According to [MDN's transform docs](https://developer.mozilla.org/en-US/docs/Web/CSS/transform#values): "The transform functions are multiplied in order from left to right, meaning that composite transforms are effectively applied in order from right to left."
@@ -182,10 +197,13 @@ These are the additional transform function values to rotate an element in a 3D 
 Below is a CodePen that shows how the first three values affects the target element.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="PoJwozR" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJwozR">
-  3D Rotate | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJwozR">
+3D Rotate | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 #### Scale specific axis
@@ -199,7 +217,7 @@ These are the additional transform function values to scale an element in a 3D s
 }
 ```
 
-See MDN's 3D cube in action with [`scaleZ`](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()>) and [`scale3d`](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d()>).
+See MDN's 3D cube in action with [`scaleZ`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()) and [`scale3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d()).
 
 #### Translate specific axis
 
@@ -215,10 +233,13 @@ These are the additional transform function values to translate an element in a 
 `translateZ` doesn't do much without `perspective`. Instead, `perspective` and `translateZ` work together to create the illusion of 3-dimensional distance from the rendered object, as shown in the example below.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="MWEYWpN" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/MWEYWpN">
-  TranslateZ | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/MWEYWpN">
+TranslateZ | CSS Transform</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 #### Matrix
@@ -234,7 +255,7 @@ While not strictly a 3D transform function, matrix is mentioned last in this les
 
 Matrix is a way of combining all transform functions into one. It is seldom used due to its poor readability, and almost never written by hand. Unless you have a very complex transformation to apply, you should use other transform function values instead.
 
-It is enough for you to know _that_ these functions exist and generally how they work. However, it is not important for you to feel comfortable building with them.
+It is enough for you to know *that* these functions exist and generally how they work. However, it is not important for you to feel comfortable building with them.
 
 ### Benefits of transforms
 
@@ -248,9 +269,9 @@ Another benefit of `transform` is that it can be hardware-accelerated via a devi
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Take a look at this [MDN demonstration of `rotate3d`](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()>) then read more about the property in this [Quackit article on `rotate3d`](https://www.quackit.com/css/functions/css_rotate3d_function.cfm).
+1. Take a look at this [MDN demonstration of `rotate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) then read more about the property in this [Quackit article on `rotate3d`](https://www.quackit.com/css/functions/css_rotate3d_function.cfm).
 1. Learn more about [the `perspective` property on CSS Tricks](https://css-tricks.com/how-css-perspective-works/).
-1. MDN has another great [demonstration using `translate3d`](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d()>).
+1. MDN has another great [demonstration using `translate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d()).
 1. Go through [The World of CSS Transforms](https://www.joshwcomeau.com/css/transforms/) by Josh Comeau.
 
 </div>
