@@ -28,15 +28,15 @@ If you'd like to try running these functions on your own, paste the following co
 const server = {
   people: [
     {
-      name: "Odin",
+      name: "Dave",
       age: 20,
     },
     {
-      name: "Thor",
+      name: "Bobby",
       age: 35,
     },
     {
-      name: "Freyja",
+      name: "Linda",
       age: 29,
     },
   ],
