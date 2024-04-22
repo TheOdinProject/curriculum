@@ -35,18 +35,31 @@ module.exports = {
       []
     );
 
-    isolatedHtmlTagsLineNumbers.forEach((lineNumber) => {
+    isolatedHtmlTagsLineNumbers.forEach((lineNumber, i) => {
       if (isWithinIgnoredFence(lineNumber)) {
         return;
       }
 
       // https://regexr.com/7u89c to test the following regex:
       const blankCodeBlockRegex = /^$|^`{3,4}.*$/;
-      const lineBeforeIsValid = blankCodeBlockRegex.test(params.lines[lineNumber - 1] ?? "");
-      const lineAfterIsValid = blankCodeBlockRegex.test(params.lines[lineNumber + 1] ?? "");
+      const lineBefore = params.lines[lineNumber - 1] ?? "";
+      const lineBeforeIsValid = blankCodeBlockRegex.test(lineBefore);
+      const lineAfter = params.lines[lineNumber + 1] ?? "";
+      const lineAfterIsValid = blankCodeBlockRegex.test(lineAfter);
 
       if (lineBeforeIsValid && lineAfterIsValid) {
         return;
+      }
+
+      const lineAfterIsTheNextHtmlTag = lineNumber + 1 === isolatedHtmlTagsLineNumbers[i + 1];
+      let replacementText = params.lines[lineNumber];
+
+      // .trim() !== "" prevents interference with MD009 whitespace fixer
+      if (!lineBeforeIsValid && lineBefore.trim() !== "") {
+        replacementText = `\n${replacementText}`;
+      }
+      if (!lineAfterIsValid && !lineAfterIsTheNextHtmlTag && lineAfter.trim() !== "") {
+        replacementText = `${replacementText}\n`;
       }
 
       /**
@@ -59,6 +72,10 @@ module.exports = {
           lineBeforeIsValid ? 1 : 0
         }, After: ${lineAfterIsValid ? 1 : 0} }\n`,
         context: params.lines[lineNumber],
+        fixInfo: {
+          deleteCount: params.lines[lineNumber].length,
+          insertText: replacementText,
+        },
       });
     });
   },

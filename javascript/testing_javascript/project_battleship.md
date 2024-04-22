@@ -17,7 +17,7 @@ We have not yet discussed testing the appearance of a webpage, which requires a 
    1. `isSunk()` should be a function that calculates whether a ship is considered sunk based on its length and the number of hits it has received.
 1. Create a `Gameboard` class/factory.
    1. Note that we have not yet created any User Interface. We should know our code is coming together by running the tests. You shouldn't be relying on `console.log` or DOM methods to make sure your code is doing what you expect it to.
-   1. Gameboards should be able to place ships at specific coordinates by calling the ship factory function.
+   1. Gameboards should be able to place ships at specific coordinates by calling the ship factory or class.
    1. Gameboards should have a `receiveAttack` function that takes a pair of coordinates, determines whether or not the attack hit a ship and then sends the 'hit' function to the correct ship, or records the coordinates of the missed shot.
    1. Gameboards should keep track of missed attacks so they can display them properly.
    1. Gameboards should be able to report whether or not all of their ships have been sunk.
@@ -38,13 +38,10 @@ We have not yet discussed testing the appearance of a webpage, which requires a 
 
 #### Extra credit
 
-Make your battleship project more impressive by introducing a series of modifications.
+Make your battleship project more impressive by introducing any of these modifications.
 
-1. Implement drag and drop to allow players to place their ships.
-1. Create a 2-player option that lets users take turns by passing the device back and forth.
-   1. Make sure the game is playable on a mobile screen and implement a 'pass device' screen so that players don't see each others boards!
-1. Polish the intelligence of the computer player by having it try adjacent slots after getting a 'hit'.
-
-You can choose to do either one, two or all of these challenges, it's up to you.
+- Implement drag and drop to allow players to place their ships.
+- Create a 2-player option that lets users take turns by passing the laptop back and forth, or by spinning the monitor around on a desktop. Implement a 'pass device' screen so that players don't see each other's boards!
+- Polish the intelligence of the computer player by having it try adjacent slots after getting a 'hit'.
 
 </div>
