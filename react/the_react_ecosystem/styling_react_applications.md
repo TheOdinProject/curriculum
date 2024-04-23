@@ -59,4 +59,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - [Tailwind CSS documentation](https://tailwindcss.com/).
-- We recommend checking out this article that goes [very in-depth on some amazing things](https://www.joshwcomeau.com/css/styled-components/)https://www.joshwcomeau.com/css/styled-components/ you can do using styled components. 
+- Josh Comeau has a nice article on [getting the most out of styled-components](https://www.joshwcomeau.com/css/styled-components/). 
