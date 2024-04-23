@@ -14,7 +14,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Templating engines
 
-A templating engine is a tool that allows you to insert variables and logic into your views. For instance, you could have a header that updates with the actual user's name once they've logged in, something that is not possible with plain HTML. As the lesson mentions, there are several templating languages available for JavaScript.  The tutorial uses [Pug (formerly known as Jade)](https://pugjs.org) which has a bit of a learning curve because it looks and feels dramatically different from regular HTML. If you've ever worked with Ruby on Rails you might be more comfortable with [ejs](https://ejs.co), which is _very_ similar to `erb`.
+A templating engine is a tool that allows you to insert variables and logic into your views. For instance, you could have a header that updates with the actual user's name once they've logged in, something that is not possible with plain HTML. As the lesson mentions, there are several templating languages available for JavaScript.  The tutorial uses [Pug (formerly known as Jade)](https://pugjs.org) which has a bit of a learning curve because it looks and feels dramatically different from regular HTML. If you've ever worked with Ruby on Rails you might be more comfortable with [EJS](https://ejs.co/), which is *very* similar to `erb`.
 
 It's up to you which you choose! If you choose not to use Pug you will still be able to follow the tutorial just fine. Most of the Odin staff prefer ejs over Pug, because we like working with HTML, but in the end, there is nothing wrong with Pug if you like the look of it or want to learn something new.
 
@@ -40,11 +40,11 @@ When someone visits your site, their web-browser sends a request to your server.
 
  <span id='req'>`req`</span> or `request` is an object that has data about the incoming request such as the exact URL that was visited, any parameters in the URL, the `body` of the request (useful if the user is submitting a form with some data in it) and many other things.
 
-- You can see everything it includes in the [express docs](https://expressjs.com/en/4x/api.html#req).
+- You can see everything it includes in the [documentation for Express's request object](https://expressjs.com/en/4x/api.html#req).
 
  <span id='res'>`res`</span> or `response` is an object that represents the response that Express is going to send back to the user. Typically, you use the information in the `req` to determine what you're going to do with the `res` by calling `res.send()` or another method on the object.
 
-- Check out the documentation for the response object [here!](https://expressjs.com/en/4x/api.html#res)
+- Check out the [documentation for Express's response object](https://expressjs.com/en/4x/api.html#res)!
 
 <span id='next'>`next`</span> is a function that you see a little less often, but is _very_ important to the functioning of your app. If you are writing or using some middleware that does not send a response back to the user's client then you _must_ call the `next` function at the end of your middleware function.  The next function tells express to move to the next middleware in the stack, but if you forget to call it then your app will pause and nothing will happen!
 
@@ -77,8 +77,8 @@ As you work through this tutorial, make sure to put the `node_modules` folder in
 <div class="lesson-content__panel" markdown="1">
 
 1. Read the [intro article of the MDN Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website) on MDN.
-2. Begin the project by following [this lesson](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website).  Be sure to read everything carefully! There's quite a bit of important information in this article. You only have to do part 2 for now. We will continue where we leave off later.
-3. For a little more detail on the nature of middleware read the official documentation [here](http://expressjs.com/en/guide/using-middleware.html).
+2. Begin the project by following ["Part 2: Creating a skeleton website"](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website).  Be sure to read everything carefully! There's quite a bit of important information in this article. You only have to do part 2 for now. We will continue where we leave off later.
+3. Read more about [using middleware in Express](http://expressjs.com/en/guide/using-middleware.html).
 
 </div>
 
