@@ -36,15 +36,11 @@ The fact that SVG source-code is XML has a few key benefits.
 
 First, it means that it is *human-readable*. If you were to open up a JPEG in a text editor, it would just look like gobbledygook. If you were to open up an SVG, however, it would look something like this:
 
-```xml
+```html
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-
-    <rect x=0 y=0 width=100 height=50 />
-
-    <circle class="svg-circle" cx="50" cy="50" r="10"/>
-
+  <rect x=0 y=0 width=100 height=50 />
+  <circle class="svg-circle" cx="50" cy="50" r="10"/>
 </svg>
-
 ```
 
 It might still be confusing, but hey--those are words! Tags! Attributes! Compared to [binary file formats](https://en.wikipedia.org/wiki/Binary_file) like JPEG, we're definitely in familiar territory.
@@ -104,6 +100,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- There are lots of great free SVG icon libraries, such as [Material icons](https://fonts.google.com/icons) and [Feather icons](https://feathericons.com/).
-- If you want to get started making your own SVGs, you'll want some sort of visual editor.
-    1. If you wish to play around with creating or editing SVGs, check out [Yann Armelin's SVG path editor](https://yqnn.github.io/svg-path-editor). It's great for tinkering around with simpler SVGs but not designed for complex graphics.
+- If you want to get started making your own or editing SVGs, you'll want some sort of visual editor like [Yann Armelin's SVG path editor](https://yqnn.github.io/svg-path-editor). It's great for tinkering around with simpler SVGs but not designed for complex graphics.
