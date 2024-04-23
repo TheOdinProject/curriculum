@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 In the Foundations course you learned a lot about Flexbox. If you’ve been using Flex here and there along the way, this section will be a quick refresher before we get into Grid. If you’re completely lost on Flex, then it might be helpful to go back through the [Flex lessons](https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox) again to get up to speed.
 
-The Flex lessons covered positioning items along the two [axes](https://www.theodinproject.com/lessons/foundations-axes) (main and cross) and how to set their [alignment.](https://www.theodinproject.com/lessons/foundations-alignment) You also learned how to make your flex items [grow, shrink or change their size.](https://www.theodinproject.com/lessons/foundations-growing-and-shrinking) This is the real beauty of Flexbox as items can, well, “flex” to stretch out or shrink down.
+The Flex lessons covered positioning items along the [two flex axes (main and cross)](https://www.theodinproject.com/lessons/foundations-axes) and how to set their [flex alignment](https://www.theodinproject.com/lessons/foundations-alignment). You also learned [how to make your flex items grow, shrink or change their size](https://www.theodinproject.com/lessons/foundations-growing-and-shrinking). This is the real beauty of Flexbox as items can, well, “flex” to stretch out or shrink down.
 
 You’ll remember you can line up a nice row of flex items like this:
 
@@ -79,5 +79,5 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 - Watch [Flexbox vs. CSS Grid — Which is Better?](https://www.youtube.com/watch?v=hs3piaN4b5I) for a visual representation of the use cases for Flexbox vs CSS Grid
-- Read CSS Tricks [quick take](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/) on the differences between Flex and Grid
+- Read CSS Tricks' quick take on the [differences between flex and grid](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/).
 - Check out [The Story of CSS Grid](https://alistapart.com/article/the-story-of-css-grid-from-its-creators/)

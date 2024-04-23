@@ -197,8 +197,8 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Check out [HTML5Pattern](https://www.html5pattern.com/) for a list of commonly used pattern regular expressions you may find helpful.
-- Look through [this X thread](https://threadreaderapp.com/thread/1400388896136040454.html) of the do's and don'ts for form validation UX.
-- Check out these [10 Guidelines](https://www.nngroup.com/articles/errors-forms-design-guidelines/) for form validation design.
+- Look through this X thread of the [do’s and don’ts for form validation UX](https://threadreaderapp.com/thread/1400388896136040454.html).
+- Check out these [10 Guidelines for form validation design](https://www.nngroup.com/articles/errors-forms-design-guidelines/).
 - [Learn Regex: A Beginner’s Guide](https://www.sitepoint.com/learn-regex/) is a great resource for understanding how regex patterns are built and shows how to use a fantastic tool for creating them. 
 - [Demystifying Regex with Practical Examples](https://www.sitepoint.com/demystifying-regex-with-practical-examples/) contains some practical examples in detail so you can understand how they work rather than copying and pasting.
 - One last resource on regular expressions that can be helpful is MDN's [regular expression syntax cheatsheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet). This cheatsheet does a great job explaining the syntax of regular expressions in more detail.
