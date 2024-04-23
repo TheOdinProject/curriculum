@@ -72,17 +72,6 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 - Seth Robertson's [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/)
-- [Git Branching and Tagging Best Practices on SO](http://programmers.stackexchange.com/questions/165725/git-branching-and-tagging-best-practices)
-- [Git Best Practices Workflow Guidelines](http://www.lullabot.com/blog/article/git-best-practices-workflow-guidelines)
-- GitHub's [official training site](https://training.github.com/)
-- [Understand Git Conceptually](http://www.sbf5.com/~cduan/technical/git/)
 - Learn about [Git Branching from Peter Cottle](http://pcottle.github.io/learnGitBranching/) using his interactive branching tutorial.
-- Need more still? See [this meta-list of git tutorials for beginners](http://sixrevisions.com/resources/git-tutorials-beginners/).
-- [Git Immersion](http://gitimmersion.com/lab_01.html) is another great tutorial to learn the shortcuts of git (if you're following the Ruby path or are willing to learn some Ruby).
-- [Contributing to Open Source](https://youtu.be/mENDYhfxH-o) is a tutorial video reviewing this lesson.
-
-Sometimes (okay, maybe a lot of times) when you're working with Git, something goes terribly wrong. Don't panic! Git is designed to help you recover from your misfortune. These resources will help you get back on track towards version control nirvana:
-
 - [Dangit, Git!?!](https://dangitgit.com/) is a quick reference to get you out of common Git problems.
 - This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of many options Git provides for undoing various mistakes.
-- If the problem you're facing is more advanced, you can click through [this more in-depth guide](https://sethrobertson.github.io/GitFixUm/fixup.html) to find the answer to your specific question.
