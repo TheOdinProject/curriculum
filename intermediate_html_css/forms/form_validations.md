@@ -78,7 +78,8 @@ Just like we often need to control the length of text-based form controls, there
 
 We can do this with the min and max attributes, which allows us to set the lower and upper bounds of the value entered into the form control.
 The min and max attributes only work with number-based form controls such as the number, dates and time inputs.
-You can view the complete list of supported elements on [MDN's documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max#syntax).
+You can view the complete list of supported elements on [MDN's documentation on the `max` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max#syntax).
+
 
 Some real-world use cases for using these validations would be limiting the quantity on a product order form or choosing the number of passengers on a flight booking form.
 
