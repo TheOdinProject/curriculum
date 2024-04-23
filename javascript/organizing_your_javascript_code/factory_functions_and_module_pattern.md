@@ -164,7 +164,7 @@ const [ zerothEle, firstEle ] = array;
 // to the elements in the 0th and 1st indices of the array
 ```
 
-[The MDN article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) on destructuring has some great examples and should be a good read for this concept.
+The [MDN documentation on destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) has some great examples and should be a good read for this concept.
 
 </div>
 
@@ -267,7 +267,7 @@ Take the calculator example into consideration. It's very easy to imagine a scen
   - [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
 1. [Tarek Sherif's article discussing the problems with constructors](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) goes into depth while suggesting factories as a solution.
 1. Read this article on [module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm) by Tomek Buszewski.
-1. As an optional alternative, in case you prefer video lessons, [this YouTube series on module pattern](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f) covers most of the content that we have discussed. Note that the videos include jQuery, but you don't need to understand the jQuery syntax since the focus is on the module pattern concept.
+1. As an optional alternative, in case you prefer video lessons, this [YouTube series on module pattern](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f) covers most of the content that we have discussed. Note that the videos include jQuery, but you don't need to understand the jQuery syntax since the focus is on the module pattern concept.
 
 </div>
 
@@ -288,7 +288,7 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- [This video explains closures with a good example.](https://www.youtube.com/watch?v=80O6L2Ez3GM)
-- [Here is an interactive scrim on factory functions.](https://scrimba.com/scrim/c2aaKzcV)
-- [This article discusses three different kinds of prototypal inheritance with some good examples](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9)
+- This video explains [a good example of closures](https://www.youtube.com/watch?v=80O6L2Ez3GM).
+- Here is an [interactive scrim on factory functions](https://scrimba.com/scrim/c2aaKzcV).
+- This article discusses [three different kinds of prototypal inheritance](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9) with some good examples.
 - [Learning JavaScript Design Patterns by Addy Osmani and Lydia Hallie](https://www.patterns.dev/)
