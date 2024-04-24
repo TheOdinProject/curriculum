@@ -139,8 +139,8 @@ const Image = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  if (error) return <p>A network error was encountered</p>;
   if (loading) return <p>Loading...</p>;
+  if (error) return <p>A network error was encountered</p>;
 
   return (
     <>
@@ -186,8 +186,8 @@ const useImageURL = () => {
 const Image = () => {
   const { imageURL, error, loading } = useImageURL();
 
-  if (error) return <p>A network error was encountered</p>;
   if (loading) return <p>Loading...</p>;
+  if (error) return <p>A network error was encountered</p>;
 
   return (
     <>
