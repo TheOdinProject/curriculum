@@ -25,16 +25,18 @@ This section contains a general overview of topics that you will learn in this l
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Glance over the [Wikipedia entry on Data Structures](http://en.wikipedia.org/wiki/Data_structure) for a high level overview of things.
-  2. Learn about basic algorithms from Coursera's Algorithms course in [this video](http://www.youtube.com/watch?v=u2TwK3fED8A).  The first 10 minutes are really the meat of the introduction to algorithms, the rest gets more mathematical (if you're so inclined).
+  2. Learn about basic algorithms from [Coursera’s Algorithms course](https://www.youtube.com/watch?v=u2TwK3fED8A).  The first 10 minutes are really the meat of the introduction to algorithms, the rest gets more mathematical (if you're so inclined).
   3. Read [What is an Algorithm and How Does it Make You a Better Programmer](https://web.archive.org/web/20231223233808/http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/) for another basic look at what algorithms are.
-  4. Learn about how binary search works by watching [this video](https://www.youtube.com/watch?v=T98PIp4omUA) from Harvard's CS50 on YouTube.
-  5. Now, we're going to focus on learning about binary search trees. Start by watching [this video](https://www.youtube.com/watch?v=FvdPo8PBQtc) to learn how a binary search tree is constructed from an unordered array.
-  6. Next, learn about the principles of queues and stacks, which are concepts used in breadth-first search and depth-first search, respectively, by watching [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI).
+  4. Learn about [how binary search works](https://www.youtube.com/watch?v=T98PIp4omUA) from Harvard’s CS50 on YouTube.
+  5. Now, we're going to focus on learning about binary search trees.  Start by watching this video to learn [how a binary search tree is constructed from an unordered array](https://www.youtube.com/watch?v=FvdPo8PBQtc).
+  6. Next, learn about the [principles of queues and stacks](https://www.youtube.com/watch?v=6QS_Cup1YoI), which are concepts used in breadth-first search and depth-first search respectively.
   7. Finally, learn about breadth-first search and depth-first search of binary search trees from this series of videos on YouTube:
      -  [Binary tree traversal](https://www.youtube.com/watch?v=9RHO6jU--GU)
      -  [Breadth-first traversal](https://www.youtube.com/watch?v=86g8jAQug04)
      -  [Depth-first traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4)
+
 </div>
 
 ### Knowledge check
@@ -57,5 +59,4 @@ This section contains helpful links to other content. It isn't required, so cons
 - [Visualizing Algorithms from Mike Bostock](http://bost.ocks.org/mike/algorithms/)
 - [Another free course on algorithms by Udacity](https://www.udacity.com/course/intro-to-algorithms--cs215)
 - [A more detailed video on stacks and queues](https://www.youtube.com/watch?v=idrrIMXXeHM)
-- [An article](https://web.archive.org/web/20221207000421/https://www.crondose.com/2016/06/create-a-binary-search-tree-array) that discusses how to construct a binary search tree from an unordered array.
-- [A stack overflow discussion](https://stackoverflow.com/questions/3332947/when-is-it-practical-to-use-depth-first-search-dfs-vs-breadth-first-search-bf) on the relative strengths of BFS and DFS.
+- A stack overflow discussion on the [relative strengths of BFS and DFS](https://stackoverflow.com/questions/3332947/what-are-the-practical-factors-to-consider-when-choosing-between-depth-first-sea).
