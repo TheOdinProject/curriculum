@@ -20,7 +20,8 @@ You can think of the board as having 2-dimensional coordinates. Your function wo
 - `knightMoves([0,0],[1,2]) == [[0,0],[1,2]]`
 
 <div class="lesson-note" markdown="1">
-Sometimes _there is more than one fastest path_. Examples of this are shown below. Any answer is correct as long as it follows the rules and gives the shortest possible path.
+
+Sometimes *there is more than one fastest path*. Examples of this are shown below. Any answer is correct as long as it follows the rules and gives the shortest possible path.
 
 - `knightMoves([0,0],[3,3]) == [[0,0],[2,1],[3,3]]` or `knightMoves([0,0],[3,3]) == [[0,0],[1,2],[3,3]]`
 - `knightMoves([3,3],[0,0]) == [[3,3],[2,1],[0,0]]` or `knightMoves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]`
@@ -29,10 +30,11 @@ Sometimes _there is more than one fastest path_. Examples of this are shown belo
 </div>
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Think about the rules of the board and knight, and make sure to follow them.
-2. For every square there is a number of possible moves, choose a data structure that will allow you to work with them. Don't allow any moves to go off the board.
-3. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
-3. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
+1. For every square there is a number of possible moves, choose a data structure that will allow you to work with them. Don't allow any moves to go off the board.
+1. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
+1. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
 
 ```bash
   > knightMoves([3,3],[4,3])
