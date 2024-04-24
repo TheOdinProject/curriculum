@@ -263,9 +263,8 @@ Take the calculator example into consideration. It's very easy to imagine a scen
 <div class="lesson-content__panel" markdown="1">
 
 1. WesBos has a beautiful and in-depth section on scopes and closures. Please check out these sections under "Module 3 - The Tricky Bits":
-
-- [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
-- [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
+-    [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
+-    [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
 
 1. [Tarek Sherif's article discussing the problems with constructors](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) goes into depth while suggesting factories as a solution.
 1. Read this article on [module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm) by Tomek Buszewski.
