@@ -1,3 +1,4 @@
+<!-- markdownlint-disable TOP004 -->
 ### Introduction
 
 This course assumes that you have a decent grasp on the fundamentals of JavaScript. If you just finished our [Foundations course](https://theodinproject.com/paths/foundations) then you should skip this review and move on to the next lesson. If it's been a while and you're coming from the Ruby courses, you will probably want to take a day or two to refresh yourself on the basics.
