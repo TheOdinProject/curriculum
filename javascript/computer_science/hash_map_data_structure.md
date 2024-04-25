@@ -27,7 +27,9 @@ There is a key difference between hashing and ciphering (encryption): reversibil
 Hashing is a one-way process. Using the above example, you can make a hash code from a name, but you cannot take a hash code and revert it back to a name. If you have a name `"Carlos"`, we can hash it to `"C"`. But it's impossible to reverse it from `"C"` back to its original form. You cannot know if it's `"Carlos"`, maybe it's `"Carla"` or `"Carrot"`. We don't know.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
 Hashing is very good for security. Given a password, you can save the hash of that password rather than the password's plain text. If someone steals your hashes, they cannot know the original passwords since they are unable to reverse the hash back to the password.
+
 </div>
 
 #### Use cases
@@ -138,7 +140,9 @@ function stringToNumber(string) {
 With our new function we will have different hash codes for the names `"Sara"` and `"raSa"`. This is because even if both names have the same letters, some of the letters appear in different locations. The hash code started to change because we are multiplying the old hash with every new iteration and then adding the letter code.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
   Notice the usage of a prime number. We could have chosen any number we wanted, but prime numbers are preferable. Multiplying by a prime number will reduce the likelihood of hash codes being evenly divisible by the bucket length, which helps minimize the occurrence of collisions.
+
 </div>
 
 Even though we reworked our hash function to avoid the `"Sara"/"raSa"` collision, there is always the possibility for collisions. Since we have a finite number of buckets, there is no way to eliminate collisions entirely. Let's try to minimize them.
@@ -154,7 +158,9 @@ You probably understand by this point why we must write a good hashing function 
 Let's talk about the growth of our buckets. We don't have infinite memory, so we can't have the infinite number of buckets. We need to start somewhere, but starting too big is also a waste of memory if we're only going to have a hash map with a single value in it. So to deal with this issue, we should start with a small array for our buckets. We'll use an array size `16`.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
   Most programming languages start with the default size of `16` because it's a power of 2, which helps with some techniques for performance that require bit manipulation for indexes.
+
 </div>
 
 How are we going to insert into those buckets when our hash function generates big numbers like `20353924`? We make use of the modulo `%` operation `given any number modulo by 16 we will get a number between 0 and 15`.
@@ -196,7 +202,7 @@ The growth of our hash map has the complexity of `O(n)` at all times.
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What does it mean to hash?](#what-is-a-hash-code)
 - [What are buckets?](#buckets)
@@ -205,7 +211,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - This discussion goes through the [usages of prime numbers in hash functions](https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier/299748).
 - The [pigeonhole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle) mathematically guarantees collisions when there are more nodes than boxes.
