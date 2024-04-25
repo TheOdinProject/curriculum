@@ -369,7 +369,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Learn more about the [differences](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/) between `auto-fit` and `auto-fill`.
+- Learn more about the [differences between `auto-fit` and `auto-fill`](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
 - If videos are more your speed, check out this video on [auto-fit and auto-fill](https://www.youtube.com/watch?v=qjJR3qYCd54) by Kevin Powell.
-- This video summarizes what you have learned so far in a [concise format](https://www.youtube.com/watch?v=EiNiSFIPIQE).
+- This video provides a [summary of CSS grid](https://www.youtube.com/watch?v=EiNiSFIPIQE) in a concise format.
 - Check out this beautiful [interactive guide to grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid).
