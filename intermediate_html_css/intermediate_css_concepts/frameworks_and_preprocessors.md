@@ -42,11 +42,11 @@ Some of the standard preprocessors in use are [SASS](https://sass-lang.com/), [L
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read [this brief overview of frameworks](https://medium.com/html-all-the-things/what-is-a-css-framework-f758ef0b1a11).
-2. Read [this article](https://www.smashingmagazine.com/2018/11/css-frameworks-css-grid/), which considers the pros and cons of using a framework vs. CSS grid.
-3. Skim [this article](https://www.lambdatest.com/blog/css-preprocessors-sass-vs-less-vs-stylus-with-examples/), which gives an overview of SASS, LESS and Stylus.
-4. Read [this brief article](https://medium.com/@LiliOuakninFelsen/what-is-a-css-pre-processor-why-should-you-use-one-ac3d4cd4b2c2), which gives some reasons for using a preprocessor.
-5. For balance, read [this list of the disadvantages of using a preprocessor](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/).
+
+1. Read this [brief overview of CSS frameworks](https://medium.com/html-all-the-things/what-is-a-css-framework-f758ef0b1a11).
+2. Skim this [overview of SASS, LESS and Stylus](https://www.lambdatest.com/blog/css-preprocessors-sass-vs-less-vs-stylus-with-examples/).
+3. Read about [some disadvantages to using a CSS preprocessor](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/). Note that since the article was written, CSS now has nesting and variables via custom properties.
+
 </div>
 
 ### Knowledge check
