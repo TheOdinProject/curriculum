@@ -44,7 +44,7 @@ This section contains a general overview of topics that you will learn in this l
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the difference between a stack and a queue?](https://www.youtube.com/watch?v=6QS_Cup1YoI)
-- [What are the enqueue and dequeue properties?](http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/)
+- [What are the enqueue and dequeue properties?](https://web.archive.org/web/20231223233808/http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/)
 - [What is a linked list? What is a node?](https://en.wikipedia.org/wiki/Data_structure#Examples)
 - [Which recursive problem-solving method/algorithm design principle does binary search implement?](https://youtu.be/T98PIp4omUA?t=20)
 - [What abstract data type would you use to defer/store nodes in a breadth-first tree traversal?](https://youtu.be/86g8jAQug04?t=103)
