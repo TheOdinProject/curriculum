@@ -167,9 +167,11 @@ Now that you’ve made a grid you can start to see how easy it is to control the
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 - Read Parts I, II and III from [CSS-Tricks Complete Guide to Grid.](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- Watch this [short video](https://www.youtube.com/watch?v=8_153Zz4YI8&ab_channel=WesBos) on Implicit vs Explicit Tracks from the Wes Bos CSS Grid course.
-- Look through the developer tools docs on inspecting CSS Grid for [Chrome.](https://developer.chrome.com/docs/devtools/css/grid/)
+- Watch this short [video on implicit vs explicit tracks](https://www.youtube.com/watch?v=8_153Zz4YI8&ab_channel=WesBos) from the Wes Bos CSS Grid course.
+- Look through the developer tools docs on [inspecting CSS Grid in Chrome DevTools](https://developer.chrome.com/docs/devtools/css/grid/).
+
 </div>
 
 ### Knowledge check
@@ -187,4 +189,4 @@ This section contains questions for you to check your understanding of this less
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
 - The [MDN Basic Concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) reviews many of the basics and introduces some additional concepts.
-- Watch this [short video](https://www.youtube.com/watch?v=0m5qgfX2TVQ&ab_channel=PeterSommerhoff) on grid terminology from PeterSommerhoff.
+- Watch this short video on [grid terminology](https://www.youtube.com/watch?v=0m5qgfX2TVQ&ab_channel=PeterSommerhoff) from PeterSommerhoff.
