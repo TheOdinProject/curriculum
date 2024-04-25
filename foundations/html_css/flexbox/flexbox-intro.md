@@ -1,6 +1,6 @@
 ### Introduction
 
-As you'll learn, there are _many_ ways to move elements around on a web page. New methods have been developed over the years and older things have fallen out of style. Flexbox is a [relatively new](https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2) way of manipulating elements in CSS, and its debut was _revolutionary_.
+As you'll learn, there are _many_ ways to move elements around on a web page. New methods have been developed over the years and older things have fallen out of style. Flexbox was not always available in CSS - its debut was *revolutionary*. Learn more about the [history of flexbox](https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2).
 
 Many resources put it near the end of their curriculum because it is somewhat new as a technology. But at this point, it has become the default way of positioning elements for many developers. Flexbox will be one of the most used tools in your toolbox, so why not learn it first?
 
@@ -84,6 +84,6 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-* [This Flexbox tutorial](https://internetingishard.netlify.app/html-and-css/flexbox/index.html) is a friendly tutorial for modern CSS layouts by Interneting Is Hard.
+* Interneting Is Hard's has a tutorial on [modern CSS layouts with flexbox](https://internetingishard.netlify.app/html-and-css/flexbox/index.html).
 
 * For a more interactive explanation and example, try this [Scrim on Flexbox](https://scrimba.com/learn/flexbox/your-first-flexbox-layout-flexbox-tutorial-canLGCw). Note that this Scrim requires logging into Scrimba in order to view.
