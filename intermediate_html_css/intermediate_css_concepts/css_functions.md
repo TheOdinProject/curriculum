@@ -125,8 +125,10 @@ The `clamp()` CSS function uses these values to set the smallest value, ideal va
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. [Take a look at the complete list](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) of all CSS functions and how they are used so you have an idea of what is possible.
-2. Read [this great article](https://web.dev/min-max-clamp/) for a more in-depth look at `min`, `max`, and `clamp` in action, with animated examples.
+
+1. Take a look at the [complete list of CSS functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) and how they are used so you have an idea of what is possible.
+2. Have a more in-depth look at the [`min`, `max` and `clamp` CSS functions](https://web.dev/min-max-clamp/) in action.
+
 </div>
 
 ### Knowledge check
@@ -139,7 +141,6 @@ The `clamp()` CSS function uses these values to set the smallest value, ideal va
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-- [This video](https://www.youtube.com/watch?v=6QwMvf1Jq0M) by Steve Griffith gives a good visual overview of these functions.
-- [This article](https://moderncss.dev/practical-uses-of-css-math-functions-calc-clamp-min-max/) contains some specific use cases for all four functions, including color palette generation, background size responsiveness, and accessibility settings.
-- [This article](https://ishadeed.com/article/css-min-max-clamp/), by Ahmad Shadeed gives a detailed explanation, and contains real world use cases.
-
+- [Steve Griffith's video on CSS Math functions](https://www.youtube.com/watch?v=6QwMvf1Jq0M) gives a good visual overview of these functions.
+- Here are [some specific use cases for `min`, `max`, `clamp` and `calc`](https://moderncss.dev/practical-uses-of-css-math-functions-calc-clamp-min-max/), including color palette generation, background size responsiveness, and accessibility settings.
+- Ahmad Shadeed writes about [more real world use cases for CSS Math functions](https://ishadeed.com/article/css-min-max-clamp/) with more detailed explanations.
