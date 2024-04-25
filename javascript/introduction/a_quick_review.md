@@ -1,5 +1,4 @@
 <!-- markdownlint-disable TOP004 -->
-
 ### Introduction
 
 This course assumes that you have a decent grasp on the fundamentals of JavaScript. If you just finished our [Foundations course](https://theodinproject.com/paths/foundations) then you should skip this review and move on to the next lesson. If it's been a while and you're coming from the Ruby courses, you will probably want to take a day or two to refresh yourself on the basics.
@@ -12,7 +11,7 @@ Try not to worry too much about forgetting past materials after not using them f
 
 ### jQuery?
 
-Before you press on, a note about jQuery. We occasionally get questions about why we don't include jQuery in our curriculum. jQuery was very popular in the past, but has fallen out of the limelight in recent years. One of the biggest reasons it has begun to fall out of favor is that you don't _need_ it anymore. When it became popular, doing things like DOM manipulation and AJAX calls were difficult in plain JavaScript, but that is no longer the case.
+Before you press on, a note about jQuery. We occasionally get questions about why we don't include jQuery in our curriculum. jQuery was very popular in the past, but has fallen out of the limelight in recent years. One of the biggest reasons it has begun to fall out of favor is that you don't *need* it anymore. When it became popular, doing things like DOM manipulation and AJAX calls were difficult in plain JavaScript, but that is no longer the case.
 
 A quick web-search on the topic will be more useful than any explanations here, and if you still want to learn it (many older codebases still use it, and you will see it on many older Stack Overflow posts) we are confident that you can pick it up quite easily by reading the [jQuery documentation](https://jquery.com/).
 
