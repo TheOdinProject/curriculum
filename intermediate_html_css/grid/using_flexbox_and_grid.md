@@ -48,11 +48,12 @@ This lesson includes recommendations, not the "right" or "wrong" way of using Fl
 
 <div class="lesson-content__panel" markdown="1">
 
-1. If you haven't already, read through the previously mentioned [article by CSS-Tricks](https://css-tricks.com/css-grid-replace-flexbox/)
+1. Read about how [CSS Grid does not replace flexbox](https://css-tricks.com/css-grid-replace-flexbox/).
 
-2. To look at many different use cases for Grid, have a look at [this video by Wes Bos](https://www.youtube.com/watch?v=HYji_V2aYa0)
+2. This video by Wes Bos demonstrates [many uses cases for Grid](https://www.youtube.com/watch?v=HYji_V2aYa0).
 
-3. To gain some more insight on when to use Grid or Flexbox and why, read through this [article](https://webdesign.tutsplus.com/articles/flexbox-vs-css-grid-which-should-you-use--cms-30184)
+3. Read up on [when to use Grid or Flexbox and why](https://webdesign.tutsplus.com/flexbox-vs-css-grid-which-should-you-use--cms-30184a).
+
 </div>
 
 ### Knowledge check
@@ -67,5 +68,5 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to other content. It isn’t required, so consider it supplemental.
 
-- MDN wrote an in-depth article on the relationship between Grid and other layout methods [here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout)
+- MDN wrote an in-depth article on the [relationship between Grid and other layout methods](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout).
 - If you are a visual learner, [Flexbox30](https://www.samanthaming.com/flexbox30/) is a great resource for quick visual reference. 
