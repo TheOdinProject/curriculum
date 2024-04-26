@@ -71,7 +71,7 @@ In short, break the big problem down and solve each of the smaller problems unti
 
 ### Solving Fizz Buzz
 
-To demonstrate this workflow in action, let's solve [a common programming exercise: Fizz Buzz, explained in this wiki article](https://en.wikipedia.org/wiki/Fizz_buzz).
+let's solve [Fizz Buzz](https://en.wikipedia.org/wiki/Fizz_buzz)
 
 #### Understanding the problem
 
@@ -119,7 +119,9 @@ let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz
 The above code should create a little popup box that asks the user for a number. The input we get back will be stored in our variable `answer`.
 
 <div class="lesson-note lesson-note--tip" markdown=1>
+
 We wrapped the prompt call in a `parseInt` function so that a number is returned from the user's input.
+
 </div>
 
 With that done, let's move on to the next subproblem: "Loop from 1 to the entered number". There are many ways to do this in JavaScript. One of the common ways - that you actually see in many other languages like Java, C++, and Ruby - is with the [for loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for):
@@ -135,7 +137,9 @@ for (let i = 1; i <= answer; i++) {
 If you haven't seen this before and it looks strange, it's actually straightforward. We declare a variable `i` and assign it 1: the initial value of the variable `i` in our loop. The second clause, `i <= answer` is our condition. We want to loop until `i` is greater than `answer`. The third clause, `i++`, tells our loop to increment `i` by 1 every iteration. As a result, if the user inputs 10, this loop would print numbers 1 - 10 to the console.
 
 <div class="lesson-note lesson-note--tip" markdown=1>
+
 Most of the time, programmers find themselves looping from 0. Due to the needs of our program, we're starting from 1
+
 </div>
 
 With that working, let's move on to the next problem: If the current number is divisible by 3, then print `Fizz`.
@@ -259,7 +263,7 @@ Buzz
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What are the three stages in the problem solving process?](#problem-solving-stages)
 - [Why is it important to clearly understand the problem first?](#important-understand-problem)
@@ -271,7 +275,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Read the first chapter in [Think Like a Programmer: An Introduction to Creative Problem Solving](https://nostarch.com/thinklikeaprogrammer) (*not free*). This book's examples are in C++, but you will understand everything since the main idea of the book is to teach programmers to better solve problems. It's an amazing book and worth every penny. It will make you a better programmer.
 - Watch this [video on repetitive programming techniques](https://ocw.mit.edu/courses/res-tll-004-stem-concept-videos-fall-2013/resources/basic-programming-techniques/).
