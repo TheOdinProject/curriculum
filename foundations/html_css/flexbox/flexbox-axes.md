@@ -50,7 +50,7 @@ We've strayed from the point slightly... We were talking about flex-direction an
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How do you make flex items arrange themselves vertically instead of horizontally?](#flex-vertical)
 - [In a `column` flex-container, what does `flex-basis` refer to?](#column-flex-basis)
