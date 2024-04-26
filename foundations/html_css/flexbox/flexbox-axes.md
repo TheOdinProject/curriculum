@@ -59,7 +59,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - This [flexbox visual cheatsheet](https://flexbox.malven.co/) has some useful references to flex and its properties.
 
