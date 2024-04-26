@@ -42,26 +42,26 @@ Some of the standard preprocessors in use are [SASS](https://sass-lang.com/), [L
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read [this brief overview of frameworks](https://medium.com/html-all-the-things/what-is-a-css-framework-f758ef0b1a11).
-2. Read [this article](https://www.smashingmagazine.com/2018/11/css-frameworks-css-grid/), which considers the pros and cons of using a framework vs. CSS grid.
-3. Skim [this article](https://www.lambdatest.com/blog/css-preprocessors-sass-vs-less-vs-stylus-with-examples/), which gives an overview of SASS, LESS and Stylus.
-4. Read [this brief article](https://medium.com/@LiliOuakninFelsen/what-is-a-css-pre-processor-why-should-you-use-one-ac3d4cd4b2c2), which gives some reasons for using a preprocessor.
-5. For balance, read [this list of the disadvantages of using a preprocessor](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/).
+
+1. Read this [brief overview of CSS frameworks](https://medium.com/html-all-the-things/what-is-a-css-framework-f758ef0b1a11).
+1. Skim this [overview of SASS, LESS and Stylus](https://www.lambdatest.com/blog/css-preprocessors-sass-vs-less-vs-stylus-with-examples/).
+1. Read about [some disadvantages to using a CSS preprocessor](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/). Note that since the article was written, CSS now has nesting and variables via custom properties.
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-* [What are some advantages of using a CSS framework?](https://www.smashingmagazine.com/2018/11/css-frameworks-css-grid/)
-* [What are some disadvantages of using a CSS framework?](https://www.smashingmagazine.com/2018/11/css-frameworks-css-grid/)
-* [What are some advantages of using a CSS preprocessor?](https://medium.com/@LiliOuakninFelsen/what-is-a-css-pre-processor-why-should-you-use-one-ac3d4cd4b2c2)
-* [What are some disadvantages of using a CSS preprocessor?](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/)
+- [What are some advantages of using a CSS framework?](https://www.smashingmagazine.com/2018/11/css-frameworks-css-grid/)
+- [What are some disadvantages of using a CSS framework?](https://www.smashingmagazine.com/2018/11/css-frameworks-css-grid/)
+- [What are some advantages of using a CSS preprocessor?](https://medium.com/@LiliOuakninFelsen/what-is-a-css-pre-processor-why-should-you-use-one-ac3d4cd4b2c2)
+- [What are some disadvantages of using a CSS preprocessor?](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/)
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-* [Tailwind documentation](https://tailwindcss.com/docs)
-* [SASS documentation](https://sass-lang.com/documentation)
+- [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [Tailwind documentation](https://tailwindcss.com/docs)
+- [SASS documentation](https://sass-lang.com/documentation)
