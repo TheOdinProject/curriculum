@@ -36,10 +36,13 @@ The most powerful use cases for calc include:
 - The ability to nest `calc( calc () - calc () )`
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="OJxNxya" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/OJxNxya">
   calc() | CSS Functions</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Take a look at how `calc()` is being used here:
@@ -51,6 +54,7 @@ Take a look at how `calc()` is being used here:
 --main: calc(100vh - calc(var(--header) + var(--footer)));
 }
 ```
+
 - `--header`, `--footer`, and `--main` are all examples of CSS variables. You will be learning about these in the next lesson.
   
 Setting main to equal the outcome of: `100vh - (3rem + 40px)`.
@@ -61,7 +65,9 @@ Combined with CSS variables, `calc()` can save us from the headache of repeating
 You should be able to grasp how `calc()` is used in the above CodePen embed. We encourage you to play around with different units and sizes of the elements to see what results you get before moving on.
 
 <div class="lesson-note lesson-note--tip" markdown=1>
+
 The above is just an example of how `calc()` can affect a layout, but keep in mind that `calc()` is likely not the best way to go about it. We will talk more about layouts in future lessons.
+
 </div>
 
 ### min()
@@ -69,10 +75,13 @@ The above is just an example of how `calc()` can affect a layout, but keep in mi
 `min()` does an excellent job of helping us create responsive websites. Take a look at this example:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="RwLaLay" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/RwLaLay">
   min() | CSS Functions</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ```css
@@ -87,12 +96,13 @@ The above is just an example of how `calc()` can affect a layout, but keep in mi
 Focus on this line `width: min(150px, 100%);` we can make several observations:
 If there are `150px` available to the image, it will take up all `150px`.
 If there are not `150px` available, the image will switch to `100%` of the parent's width.
-In the first case `min()` selects `150px`, since `150px` is the smaller (the minimum) between `150px` and `100%` of the parent's width; in the second, it chooses `100%`. `min()` behaves as a boundary for the _maximum_ allowed value, which in this example is `150px`.
-<br>You are able to do basic math inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`
+In the first case `min()` selects `150px`, since `150px` is the smaller (the minimum) between `150px` and `100%` of the parent's width; in the second, it chooses `100%`. `min()` behaves as a boundary for the *maximum* allowed value, which in this example is `150px`.
+
+You are able to do basic math inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`
 
 ### max()
 
-Max works the same way as min, only in reverse. It will select the largest possible value from within the parentheses. You can think of `max()` as ensuring a _minimum_ allowed value for a property.
+Max works the same way as min, only in reverse. It will select the largest possible value from within the parentheses. You can think of `max()` as ensuring a *minimum* allowed value for a property.
 
 Consider the following property of a given element:
 
@@ -117,8 +127,8 @@ h1 {
 ```
 
 1. the smallest value (320px)
-2. the ideal value (80vw)
-3. the largest value (60rem)
+1. the ideal value (80vw)
+1. the largest value (60rem)
 
 The `clamp()` CSS function uses these values to set the smallest value, ideal value and largest value. In the above example, this would mean the smallest acceptable font-size would be 320px and the largest would be 60rem. The ideal font-size would be 80vw.
 
@@ -127,11 +137,13 @@ The `clamp()` CSS function uses these values to set the smallest value, ideal va
 <div class="lesson-content__panel" markdown="1">
 
 1. Take a look at the [complete list of CSS functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) and how they are used so you have an idea of what is possible.
-2. Have a more in-depth look at the [`min`, `max` and `clamp` CSS functions](https://web.dev/min-max-clamp/) in action.
+1. Have a more in-depth look at the [`min`, `max` and `clamp` CSS functions](https://web.dev/min-max-clamp/) in action.
 
 </div>
 
 ### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What are the four CSS math functions we covered above?](#function-names-knowledge-check)
 - [How do we use CSS math functions in our CSS?](#what-is-a-function-and-how-are-they-used-in-css)
@@ -139,7 +151,7 @@ The `clamp()` CSS function uses these values to set the smallest value, ideal va
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Steve Griffith's video on CSS Math functions](https://www.youtube.com/watch?v=6QwMvf1Jq0M) gives a good visual overview of these functions.
 - Here are [some specific use cases for `min`, `max`, `clamp` and `calc`](https://moderncss.dev/practical-uses-of-css-math-functions-calc-clamp-min-max/), including color palette generation, background size responsiveness, and accessibility settings.
