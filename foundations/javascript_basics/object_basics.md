@@ -108,7 +108,11 @@ Consider the array from our previous example, `[1, 2, 3, 4, 5]`.
 If we wanted to remove all even numbers from this array, we could use `.filter()` like this:
 
 ```javascript
-const oddNums = arr.filter((num) => num % 2 !== 0);
+function isOdd(num) {
+  return num % 2 !== 0;
+}
+const arr = [1, 2, 3, 4, 5];
+const oddNums = arr.filter(isOdd);
 console.log(oddNums); // Outputs [1, 3, 5];
 console.log(arr); // Outputs [1, 2, 3, 4, 5], original array is not affected
 ```
