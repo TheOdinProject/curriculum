@@ -9,8 +9,9 @@ This section contains a general overview of topics that you will learn in this l
 - You'll learn about the 2 "axes" of a flex container.
 - You'll learn how to change those axes to arrange your content in columns instead of rows.
 
-The most confusing thing about flexbox is that it can work either horizontally or vertically, and some rules change a bit depending on which direction you are working with.
+### Axes
 
+The most confusing thing about flexbox is that it can work either horizontally or vertically, and some rules change a bit depending on which direction you are working with.
 The default direction for a flex container is horizontal, or `row`, <span id='flex-vertical'>but you can change the direction to vertical, or `column`. The direction can be specified in CSS like so:
 
 </span>
@@ -20,8 +21,6 @@ The default direction for a flex container is horizontal, or `row`, <span id='fl
   flex-direction: column;
 }
 ```
-
-### Axes
 
 <span id='flex-axes'>No matter which direction you're using, you need to think of your flex-containers as having 2 axes: the main axis and the cross axis. It is the direction of these axes that changes when the `flex-direction` is changed. In *most* circumstances, `flex-direction: row` puts the main axis horizontal (left-to-right), and `column` puts the main axis vertical (top-to-bottom).</span>
 
