@@ -17,8 +17,8 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-  1.  Get introduced to frameworks by reading this brief article from [Dev.to](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0).
-  2.  Glance over [this article](https://rubygarage.org/blog/technology-stack-for-web-development) from RubyGarage or [this description](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks) from Mozilla's website to understand some of the thought process that goes into picking a framework.
+  1.  Read through this brief [introduction to frameworks by Dev.to](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0).
+  2.  Glance over [RubyGarage's article on tech stacks](https://rubygarage.org/blog/technology-stack-for-web-development) and [MDN's overview on backend frameworks](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks) to understand some of the thought process that goes into picking a framework.
 
 </div>
 
