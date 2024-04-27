@@ -30,7 +30,7 @@ What if everything's already done for you? Styling, behavior, and accessibility 
 
 <div class="lesson-note lesson-note--tip" markdown="1" >
 
-For learning purposes throughout this course, we advise you to implement your component's styling from scratch i.e. use vanilla CSS or a CSS-in-JS option. 
+For the learning purposes throughout this course, we recommend that you avoid using CSS frameworks or component libraries, and instead implement your component's styling from scratch i.e. using [CSS Modules](https://www.theodinproject.com/lessons/preview#vanilla-css) or a [CSS-in-JS](https://www.theodinproject.com/lessons/preview#css-in-js) option. 
 
 </div>
 
@@ -58,5 +58,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-- [Tailwind CSS documentation](https://tailwindcss.com/).
 - Josh Comeau has a nice article on [getting the most out of styled-components](https://www.joshwcomeau.com/css/styled-components/). 
