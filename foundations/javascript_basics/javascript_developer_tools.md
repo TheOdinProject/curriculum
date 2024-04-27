@@ -44,13 +44,13 @@ Google has updated some of the required sections in the below tutorials and some
       1. [Debug JavaScript](https://developer.chrome.com/docs/devtools/javascript/) - Warning: In point 4 of step 3 of the tutorial, devtools will pause on the second line (`if (inputsAreEmpty()) {`) rather than at the declaration of the function. Don’t worry this is expected.
       1. [Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
 
-1. Then, watch [the console overview video and read through the page](https://developer.chrome.com/docs/devtools/console/) to familiarize yourself with the console and its usage.
+1. Go through the [Chrome DevTools console overview](https://developer.chrome.com/docs/devtools/console/) to familiarize yourself with the console and its usage.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How do you open developer tools?](#opening-devtools)
 - [How do you change screen size of a website using developer tools?](https://developer.chrome.com/docs/devtools/device-mode/)
@@ -59,6 +59,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
