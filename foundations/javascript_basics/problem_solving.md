@@ -71,7 +71,7 @@ In short, break the big problem down and solve each of the smaller problems unti
 
 ### Solving Fizz Buzz
 
-let's solve [Fizz Buzz](https://en.wikipedia.org/wiki/Fizz_buzz)
+To demonstrate this workflow in action, let's solve [Fizz Buzz](https://en.wikipedia.org/wiki/Fizz_buzz)
 
 #### Understanding the problem
 
