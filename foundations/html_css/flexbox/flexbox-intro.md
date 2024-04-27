@@ -78,14 +78,14 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What's the difference between a flex container and a flex item?](#flex-container-item-knowledge-check)
 - [How do you create a flex item?](#how-to-create-flex-item-knowledge-check)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Interneting Is Hard has a tutorial on [modern CSS layouts with flexbox](https://internetingishard.netlify.app/html-and-css/flexbox/index.html).
 
