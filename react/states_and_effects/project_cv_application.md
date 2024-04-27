@@ -31,15 +31,15 @@ Not only do some of these get rid of additional steps after pushing our code to 
 While there are many ways to deploy to Netlify, like uploading your `dist` directly or using [Netlify's `netlify-cli`](https://docs.netlify.com/cli/get-started/) CLI, the most convenient way would be to directly import your GitHub repository to Netlify.
 
 1. Push your React application to GitHub.
-1. [Import your project](https://app.netlify.com/start) to Netlify by logging in, and selecting your repository.
+1. Import your project to [Netlify](https://app.netlify.com/start) by logging in, and selecting your repository.
 1. Select the branch to deploy from (the default setting, from `main`, works) and hit "Deploy site"!
 1. You can access more settings here if you need to!
 
 #### Netlify Links
 
-- [Homepage](https://www.netlify.com/)
-- [Documentation Website](https://docs.netlify.com/)
-- This [section of the Vite docs](https://vitejs.dev/guide/static-deploy.html#netlify-with-git) has a similar brief guide for deployment
+- [Netlify Homepage](https://www.netlify.com/)
+- [Netlify Documentation Website](https://docs.netlify.com/)
+- [Vite deployment to Netlify with Git](https://vitejs.dev/guide/static-deploy.html#netlify-with-git) section has a similar brief guide
 
 ---
 
@@ -48,13 +48,13 @@ While there are many ways to deploy to Netlify, like uploading your `dist` direc
 Similar to Netlify, Vercel also offers a few ways to deploy, but we will be importing our GitHub repository to get benefits like deploy-on-push.
 
 1. Again, push your React application to GitHub.
-1. [Import your project](https://vercel.com/new) to Vercel.
+1. Import your project to [Vercel](https://vercel.com/new).
 1. Vercel will automatically detect that you are using Vite. Set your name as you like, and hit "Deploy"!
 
 #### Vercel Links
 
-- [Homepage](https://www.vercel.com/)
-- [Documentation Website](https://www.vercel.com/docs)
+- [Vercel Homepage](https://www.vercel.com/)
+- [Vercel Documentation Website](https://www.vercel.com/docs)
 
 ---
 
@@ -70,6 +70,6 @@ Similar to Netlify, Vercel also offers a few ways to deploy, but we will be impo
 
 #### Cloudflare Links
 
-- [Homepage](https://pages.cloudflare.com/)
-- [Documentation Website](https://developers.cloudflare.com/pages)
-- This [section in the Cloudflare docs](https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/) discusses these very steps
+- [Cloudflare Homepage](https://pages.cloudflare.com/)
+- [Cloudflare Documentation Website](https://developers.cloudflare.com/pages)
+- [Vite deployment to Cloudflare](https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/) discusses these very steps
