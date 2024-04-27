@@ -30,7 +30,7 @@ What if everything's already done for you? Styling, behavior, and accessibility 
 
 <div class="lesson-note lesson-note--tip" markdown="1" >
 
-For the learning purposes throughout this course, we recommend that you avoid using CSS frameworks or component libraries, and instead implement your component's styling from scratch i.e. using [CSS Modules](https://www.theodinproject.com/lessons/preview#vanilla-css) or a [CSS-in-JS](https://www.theodinproject.com/lessons/preview#css-in-js) option. 
+For the learning purposes throughout this course, we recommend that you avoid using CSS frameworks or component libraries, and instead implement your component's styling from scratch i.e. use [CSS Modules](https://www.theodinproject.com/lessons/preview#vanilla-css) or a [CSS-in-JS](https://www.theodinproject.com/lessons/preview#css-in-js) option. 
 
 </div>
 
