@@ -374,7 +374,7 @@ Great! Moving forward we will get to build more projects that allows us to apply
 
 <div class="lesson-content__panel" markdown="1">
 
-1. We've only really touched a bit of PostgreSQL and we've interfaced it with `node-postgres`, to understand PostgreSQL raw, head to their [Part 1 PostgreSQL tutorial](https://www.postgresql.org/docs/current/tutorial.html). Only read through Part 1 and you can start at `1.4. Accessing a Database` since we've already done the initial setup before. Going through other parts is optional and only if you want to gain a deeper understanding, but the basics are all you will need at the moment.
+1. We've only really touched a bit of PostgreSQL and we've interfaced it with `node-postgres`, to understand PostgreSQL by itself, head to their [Part 1 PostgreSQL tutorial](https://www.postgresql.org/docs/current/tutorial.html). Only read through Part 1 and you can start at `1.4. Accessing a Database` since we've already done the initial setup before. Going through other parts is optional and only if you want to gain a deeper understanding, but the basics are all you will need at the moment.
 1. Check out [the node-postgres documentation](https://node-postgres.com/). The library itself is light and small, and so is their documentation. You don't need to read everything, use it mainly as a reference.
 1. In our previous Mini Message Board project, we implemented a completely ephemeral messages using an array data structure within our application. We want data persistence. Go back to this project and implement it with a PostgreSQL database with `node-postgres` for the PostgreSQL client.
    - Create a messages table
