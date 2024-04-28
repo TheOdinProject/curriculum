@@ -1,6 +1,6 @@
 ### Introduction
 
-Any exciting application you build is likely to change over the time the user is exploring it. The changes could be as basic as toggling a dropdown menu or as complex as fetching data from an API. React provides primitives to manipulate the state of your apps, more specifically components, to make them dynamic. In this lesson, we will learn how to use state in React.  
+Any exciting application you build is likely to change over the time the user is exploring it. The changes could be as basic as toggling a dropdown menu or as complex as fetching data from an API. React provides primitives to manipulate the state of your apps, more specifically components, to make them dynamic. In this lesson, we will learn how to use state in React.
 
 Read  [What is State? by Academind](https://academind.com/tutorials/what-is-state) before we get started.
 
@@ -20,16 +20,6 @@ Let's take a look at how we can use state in our code.
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://codesandbox.io/p/sandbox/unruffled-pasteur-6h36wf?file=%2Fsrc%2FApp.jsx%3A10%2C27&embed=1" allowfullscreen></iframe>
 
-<div class="lesson-note lesson-note--critical" markdown="1">
-
-If you are unable to view the above CodeSandbox, fork it to your own CodeSandbox account by clicking the "fork" button.
-
-If you still get a "Failed to fork: (401)" error, click the "fork" button again.
-
-Alternatively, you can view the [code on GitHub](https://github.com/TheOdinProject/react-examples/tree/main/background-color-state-example)
-
-</div>
-
 An app that changes its background color based on the clicked button. Take your time reading the code as we'll jump right in.
 
 #### The useState hook
@@ -41,7 +31,7 @@ An app that changes its background color based on the clicked button. Take your 
 
 State definition with `useState` commonly follows this pattern:
 
-```js
+```javascript
 const [stateValue, setStateValue] = useState(initialValue);
 
 // adapted for our use case:
@@ -99,10 +89,10 @@ Hooks are functions that let you use React features. All hooks are recognizable 
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#what-is-state-in-react">What is state?</a>
-- <a class="knowledge-check-link" href="#useState-hook">What is the `useState` hook and how to use it?</a>
-- <a class="knowledge-check-link" href="#how-does-state-work-in-react">What happens to the component when one of its state is changed?</a>
-- <a class="knowledge-check-link" href="#hooks">What are some of the rules of hooks?</a>
+- [What is state?](#what-is-state-in-react)
+- [What is the `useState` hook and how would you use it?](#useState-hook)
+- [What happens to a component when one of its states is changed?](#how-does-state-work-in-react)
+- [What are some of the rules of hooks?](#hooks)
 
 ### Additional resources
 

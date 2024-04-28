@@ -90,7 +90,7 @@ Test your nvm installation by running:
 nvm --version
 ```
 
-For more information, view [NVM's GitHub Documentation](https://github.com/nvm-sh/nvm#installation-and-update).
+For more information, read about [installing and updating from NVM's GitHub](https://github.com/nvm-sh/nvm#installation-and-update).
 
 </details>
 

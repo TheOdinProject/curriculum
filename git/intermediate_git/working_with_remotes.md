@@ -20,10 +20,10 @@ If you haven't updated your local branch, and you're attempting to `git push` a 
 You might perform a brief query and find the command `git push --force`. This command overwrites the remote repository with your own local history. So what would happen if we used this while working with others? Well, let's see what would happen when we're working with ourselves. Type the following commands into your terminal, and when the interactive rebase tool pops up remove our commit for `Create fourth file`:
 
 ```bash
-$ git push origin main
-$ git rebase -i --root
-$ git push --force
-$ git log
+git push origin main
+git rebase -i --root
+git push --force
+git log
 ```
 
 Huh, that's interesting. We don't see our fourth file on our local system. Let's check our GitHub repository to see if it's there.
@@ -33,10 +33,10 @@ Oh no, we just destroyed it!  In this scenario, the danger - you could potential
 Let's consider a different scenario:
 
 ```bash
-$ touch test4.md
-$ git add test4.md && git commit -m "Create fifth file"
-$ git push origin main
-$ git log
+touch test4.md
+git add test4.md && git commit -m "Create fifth file"
+git push origin main
+git log
 ```
 We look at our commit message and realize *oops*, we made a mistake. We want to undo this commit and are once again tempted to just force the push. But wait, remember, this is a **very dangerous command**. If we're ever considering using it, always check if it's appropriate and if we can use a safer command instead. If we're collaborating with others and want to *undo* a commit we just made, we can instead use `git revert`!
 
