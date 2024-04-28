@@ -1,6 +1,6 @@
 ### Introduction
 
-Views are the user-facing part of the application, in this case, HTML files. We've dealt with views in an earlier project where the server would send HTML files to the user.  These files are static, but many of our use cases require views to be dynamic w.r.t. data.
+Views are the user-facing part of the application, in this case, HTML files. We've dealt with views in an earlier project where the server would send HTML files to the user. These files are static, but many of our use cases require views to be dynamic w.r.t. data.
 
 Hence, we use template engines to create our views. As the name suggests, we write template files in our codebase that get transformed into HTML when we respond to a server request. Any variables defined in our template files are replaced with actual data. Additionally, we can insert conditional and/or loop logic into our template file, e.g. render the user's username once they have logged in. This would not be possible with plain HTML.
 
@@ -80,7 +80,7 @@ EJS rocks!
 
 If you inspect the HTML in the browser's dev tools, you can see HTML is structures exactly like how we wrote the EJS template with the `message` variable replaced with its value.
 
-When you hit the `/` route, `res.render("index", { message: "EJS rocks!" });`  is the line that sends back the response. Since we've already defined the `views` and `view engine` app properties, the first argument of `res.render` is programmed to look for "a template called index in the specified folder", while the second argument is an object of variables that are to be made available to that specific template.
+When you hit the `/` route, `res.render("index", { message: "EJS rocks!" });` is the line that sends back the response. Since we've already defined the `views` and `view engine` app properties, the first argument of `res.render` is programmed to look for "a template called index in the specified folder", while the second argument is an object of variables that are to be made available to that specific template.
 
 ### Reusable templates
 
@@ -151,10 +151,10 @@ We can have nested directories of EJS template files within the views. For examp
 
 ```javascript
 // in res.render
-res.render("user/show")
+res.render("user/show");
 
 // in include
-include("user/show")
+include("user/show");
 ```
 
 Note the use of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
@@ -164,13 +164,13 @@ Note the use of the raw output tag `<%-` with the `include` which is used to avo
 Serving static assets with EJS is similar to how we served assets previously when working directly with HTML, in that we can add external files to the head of the template file using the `link` tag. The main thing to point out is that the app needs to know where to serve assets from. Assuming `express` is installed, set the following lines in `app.js`:
 
 ```javascript
-
 app.use(express.static(path.join(__dirname, "public")));
 ```
 
 `express.static()` is a middleware function that enables the use of static assets, and we tell it to look for assets with the `public` directory as the root.
 
 Say we have the following `styles.css` file in the root of the `public` directory:
+
 ```css
 body {
   color: red;
@@ -178,11 +178,13 @@ body {
 ```
 
 To serve `styles.css` in `index.ejs`, set the following `link` tag like so in the head:
+
 ```ejs
 <head>
   <link rel="stylesheet" href="./styles.css">
 </head>
 ```
+
 Your `index.ejs` file should now display red text!
 
 ### Assignment
@@ -203,7 +205,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you configure EJS for Express projects?](#setting-up-ejs)
 - [What is the difference between "<%" and "<%=" tags?](#ejs-syntax)
 - [How do you render a view in a controller callback?](#using-ejs-with-express)
-- [How can templates be included in other templates?](#reusuable-templates)
+- [How can templates be included in other templates?](#reusable-templates)
 
 ### Additional resources
 
