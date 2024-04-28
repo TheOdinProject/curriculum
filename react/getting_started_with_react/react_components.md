@@ -43,7 +43,7 @@ Are you done? Check the naming of your function! Is it capitalized? Keep this ke
 
 #### HTML escape code
 
-In the above example, `quot;` is an escape code we use to render `"`. Your linter will greet you with an error if you use regular quotes. You can use <a href="https://www.lambdatest.com/free-online-tools/html-escape" target="_blank">this LambdaTest tool for escaping HTML characters</a> if you run into such errors, or read more about <a href="https://www.w3.org/wiki/Common_HTML_entities_used_for_typography" target="_blank">escape codes on w3.org</a>
+In the above example, `&quot;` is an escape code we use to render `"`. Your linter will greet you with an error if you use regular quotes. You can use this [LambdaTest tool for escaping HTML characters](https://www.lambdatest.com/free-online-tools/html-escape) if you run into such errors, or you can read more about [HTML escape codes](https://www.w3.org/wiki/Common_HTML_entities_used_for_typography).
 
 </div>
 

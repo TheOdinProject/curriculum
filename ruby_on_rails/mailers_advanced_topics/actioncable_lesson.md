@@ -366,7 +366,7 @@ def index
 end
 ~~~
 
-Then in our hangouts index view we can change the form to use `form_with`. You don't need to change anything else, just remove the form inside of the div with the `message-form` id
+Then in our hangouts index view we can change the form to use `form_with`. You don't need to change anything else, just replace the form inside of the div with the `message-form` id with the following form:
 
 ~~~html
 <%= form_with model: @message, local: false do |f| %>

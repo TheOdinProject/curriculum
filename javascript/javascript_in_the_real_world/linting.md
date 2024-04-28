@@ -15,32 +15,28 @@ This section contains a general overview of topics that you will learn in this l
 Code style is important! Having a consistent set of style rules for things such as indentation or preferred quote style makes your code more maintainable and easier to read. There are several popular JavaScript style guides on the net that set standards for these types of things, and a little time spent reading them *will* make you a better developer.
 
 1. The [Airbnb Style Guide](https://github.com/airbnb/javascript) is one of the most popular. It is also very well formatted and easy to read.
-1. Google also has their own [style guide](https://google.github.io/styleguide/jsguide.html) for JavaScript.
-1. The [JavaScript Standard Style](https://standardjs.com/rules.html). Used by companies like NPM and GitHub, among [others](https://standardjs.com/index.html#who-uses-javascript-standard-style).
+1. There is also a [JavaScript style guide used at Google](https://google.github.io/styleguide/jsguide.html).
+1. The [JavaScript Standard Style](https://standardjs.com/rules.html).
 
 ### Linting
 
 The style guides we mentioned above are full of really helpful advice for formatting, organizing and composing your code. But there are a *lot* of rules - it can be difficult to internalize them all. **Linters** are tools that will scan your code with a set of style rules and will report any errors to you that they find. In some cases, they can even auto-fix the errors! The following articles explain in more detail the benefits of using a linter while you code.
 
-1. This article on [javascript linters](https://gomakethings.com/javascript-linters/) gets right to the point... start here!
+1. This article on [JavaScript linters](https://gomakethings.com/javascript-linters/) gets right to the point... start here!
 1. Read this article that [goes a little further](https://hackernoon.com/how-linting-and-eslint-improve-code-quality-fa83d2469efe) by discussing exactly *how* linters do what they do.
 
 There are multiple options for linting your JavaScript, but the most popular (and most common in the industry) is [eslint](https://eslint.org/). Getting it installed and the initial set-up is straightforward.
 
 1. [The official 'Getting Started' page](https://eslint.org/docs/user-guide/getting-started) is a good place to start. It covers installation and basic setup. The basic way to use this tool is to run the `eslint` command in your terminal with a specific file.
-1. Far more useful are linting plugins for your favorite text editor. Most editor plugins allow you to automatically lint your code as you are writing it, and will show the errors right in the editor, which makes resolving them *much* simpler. We can't cover *every* editor installation but some of the more popular are:
-   1. Visual Studio Code - [The Plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) and [a tutorial](https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code).
-   1. Sublime Text - [The Plugin](https://github.com/roadhump/SublimeLinter-eslint) and [a tutorial](http://jonathancreamer.com/setup-eslint-with-es6-in-sublime-text/).
-   1. Atom - [The Plugin](https://atom.io/packages/linter-eslint) and [a tutorial](https://medium.freecodecamp.org/how-to-set-up-eslint-in-atom-to-contribute-to-freecodecamp-3467dee86e2c).
-   1. Vim - [Use the ALE plugin](https://github.com/dense-analysis/ale). If you use Vim you already know what you're getting into. ALE is a great plugin, but the setup and configuration can be a little tricky.
+1. There is an [ESLint extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) which can lint your files as you write, without you needing to rerun the `eslint` command every time. If your project also contains an ESLint configuration file, the extension will automatically use those rules for that project. Here is a [tutorial on using the ESLint extension in Visual Studio Code](https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code).
 
 ### Prettier
 
 Prettier is *awesome*. It is similar to a linter, but serves a slightly different function. Prettier will take your JS code and then automatically format it according to a set of rules. Unlike a linter, it's not looking for style errors, but specifically targeting the layout of your code and making intelligent decisions about things like spaces, indentation levels and line-breaks.
 
-1. This [quick talk](https://www.youtube.com/watch?v=hkfBvpEfWdA) from Prettier's creator is a great introduction.
-1. Give prettier a [test drive](https://prettier.io/playground). Go ahead and copy/paste some of your old JavaScript code into that editor and see what happens.
-1. Setup is simple. [The homepage](https://prettier.io/) links to tutorials for most popular editors.
+1. Watch this [short intro to Prettier](https://www.youtube.com/watch?v=hkfBvpEfWdA) by its creator.
+1. Go to [Prettier's online playground](https://prettier.io/playground) and give it a test drive. Go ahead and copy/paste some of your old JavaScript code into that editor and see what happens.
+1. Prettier has [instructions for setting up and configuring the VSCode Prettier extension](https://github.com/prettier/prettier-vscode).
 
 Using prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you.
 
@@ -48,7 +44,7 @@ Using prettier makes coding faster and easier! You don't have to worry about nai
 
 We **highly** recommend that you install ESlint and Prettier and use them for all future projects. It will make your code easier to read, both for yourself and for anyone else looking at it.
 However, using ESLint and Prettier together causes conflicts. To fix that follow the instructions to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#installation). It turns off all ESLint rules that are unnecessary or might conflict with Prettier. Doing just this is enough to resolve the conflict and get them both working smoothly with one another.
-Another way to address the conflict is to use `eslint-plugin-prettier`. It lets you run Prettier as if it were a rule in ESLint. However, doing this is [not recommended](https://prettier.io/docs/en/integrating-with-linters.html#notes).
+Another way to address the conflict is to use `eslint-plugin-prettier`. It lets you run Prettier as if it were a rule in ESLint. However, [using `eslint-plugin-prettier` is not recommended](https://prettier.io/docs/en/integrating-with-linters.html#notes).
 
 ### Template repositories
 

@@ -32,11 +32,11 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read Chapter 1.1 through 1.4 in [this book about version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) to learn the differences between local, centralized, and distributed version control systems.
-  1. Watch [this video](https://www.youtube.com/watch?v=2ReR1YJrNOM) about what Git is and how it can improve the workflow of both an individual and a team of developers.
-  1. Watch [this video](https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s) for some history on Git and GitHub, and make sure you know the difference between the two. Git is a technology used in the command line while GitHub is a [website](https://github.com/) you can visit.
+  1. Read chapters 1.1 through 1.4 from the [Getting Started section of Pro Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) to learn the differences between local, centralized, and distributed version control systems.
+  1. Watch ["What is Git?" explained in 2 minutes](https://www.youtube.com/watch?v=2ReR1YJrNOM) - a video about what Git is and how it can improve the workflow of both an individual and a team of developers.
+  1. Watch ["GitHub for Noobs - A Short History"](https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s) for some history on Git and GitHub. Git is a technology used in the command line while [GitHub](https://github.com/) is a website you can visit.
   1. If you haven't yet installed Git, visit the [Setting Up Git](https://www.theodinproject.com/lessons/foundations-setting-up-git) lesson.
-  1. Take a look at The Odin Project's very own [GitHub repository](https://github.com/TheOdinProject/curriculum). This is where all the lessons are stored! While you're there, look at all our [contributors](https://github.com/TheOdinProject/curriculum/graphs/contributors) to gain an appreciation for how Git records all collaborative efforts and how GitHub visually represents this.
+  1. Take a look at [The Odin Project's GitHub repository](https://github.com/TheOdinProject/curriculum). This is where all the lessons are stored! While you're there, look at all [our contributors](https://github.com/TheOdinProject/curriculum/graphs/contributors) to gain an appreciation for how Git records all collaborative efforts and how GitHub visually represents this.
 </div>
 
 ### Knowledge check

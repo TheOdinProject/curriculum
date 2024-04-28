@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD024 MD043 -->
+<!-- markdownlint-disable MD024 TOP004 -->
 
 ### Introduction
 
@@ -13,8 +13,8 @@ Even though GitHub and Git sound like they could be the same thing, they are not
 Click the Operating System you have chosen below:
 
 <details markdown="block">
-<summary class="dropDown-header">Linux
-</summary>
+
+<summary class="dropDown-header">Linux</summary>
 
 #### Step 1.1: Update the system
 
@@ -34,6 +34,7 @@ sudo apt upgrade
   This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
   You can still enter your password as normal and press Enter to submit it.
+
 </div>
 
 #### Step 1.2: Install Git
@@ -59,21 +60,23 @@ If the version number is less than 2.28, follow the instructions again.
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">MacOS
-</summary>
+
+<summary class="dropDown-header">MacOS</summary>
 
 #### Step 1.0: Install Homebrew
 
-First, you'll need to install Homebrew.  Make sure you have [checked the requirements](https://docs.brew.sh/Installation#macos-requirements). Once you meet the requirements, copy and paste the following into your terminal:
+First, you'll need to install Homebrew. To install it, you’ll first need to make sure you meet the [Homebrew MacOS requirements](https://docs.brew.sh/Installation#macos-requirements). Once you meet the requirements, copy and paste the following into your terminal:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 <div class="lesson-note lesson-note--warning" markdown=1>
+
 On an Apple Silicon Mac you will have an extra step to take.
 If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal there will be a section called "Next steps".
 Reading the terminal may seem a bit intimidating, but this is a great chance to overcome those feelings. Follow the next steps as stated in your terminal (copy and paste the commands given) to add Homebrew to your PATH, which allows you to use the `brew` command prefix.
+
 </div>
 
 #### Step 1.1: Update Git
@@ -106,10 +109,10 @@ If the version number is less than 2.28, follow the instructions again. If you a
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">ChromeOS
-</summary>
 
-You will need to install Git from the source by following the instructions from this [Digital Ocean tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-10#installing-git-from-source).
+<summary class="dropDown-header">ChromeOS</summary>
+
+Follow the instructions on [installing Git from Source](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-10#installing-git-from-source) from Digital Ocean.
 
 </details>
 
@@ -189,12 +192,8 @@ If a message appears in the console containing the text "No such file or directo
 To create a new SSH key, run the following command inside your terminal.
 
 ```bash
-ssh-keygen -t ed25519 -C "your@email.com"
+ssh-keygen -t ed25519
 ```
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-The `-C` flag is to write a comment, otherwise the key will be generated with your computer's username. The convention is to use your email as a comment to indicate who generated the public key. For example if your email address is `odin@theodinproject.com`, then you would type `ssh-keygen -t ed25519 -C "odin@theodinproject.com"`.
-</div>
 
 - When it prompts you for a location to save the generated key, just push <kbd>Enter</kbd>.
 - Next, it will ask you for a password; enter one if you wish, but it's not required.
@@ -205,7 +204,7 @@ Now, you need to tell GitHub what your SSH key is so that you can push your code
 
 First, you'll navigate to where GitHub receives our SSH key. Log into GitHub and click on your profile picture in the top right corner. Then, click on `Settings` in the drop-down menu.
 
-Next, on the left-hand side, click `SSH and GPG keys`. Then, click the green button in the top right corner that says `New SSH Key`. Name your key something that is descriptive enough for you to remember where it came from. Leave this window open while you do the next steps.
+Next, on the left-hand side, click `SSH and GPG keys`. Then, click the green button in the top right corner that says `New SSH Key`. Name your key something that is descriptive enough for you to remember what device this SSH key came from, for example `linux-ubuntu`. Leave this window open while you do the next steps.
 
 Now you need to copy your public SSH key. To do this, we're going to use a command called [`cat`](http://www.linfo.org/cat.html) to read the file to the console. (Note that the `.pub` file extension is important in this case.)
 
@@ -213,13 +212,15 @@ Now you need to copy your public SSH key. To do this, we're going to use a comma
 cat ~/.ssh/id_ed25519.pub
 ```
 
-Highlight and copy the output, which starts with `ssh-ed25519` and ends with your email address.
+Highlight and copy the entire output from the command. If you followed the instructions above, the output will likely begin with `ssh-ed25519` and end with your `username@hostname`.
 
 Now, go back to GitHub in your browser window and paste the key you copied into the key field. Keep the key type as `Authentication Key` and then, click `Add SSH key`. You're done! You've successfully added your SSH key!
 
 #### Step 2.5 Testing your key
 
-Follow the directions in [the GitHub article to verify your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux) **(Don't forget to omit the `$` when you copy and paste the code!)**. You should see this response in your terminal: **Hi username! You've successfully authenticated, but GitHub does not provide shell access.** Don't let GitHub's lack of providing shell access trouble you. If you see this message, you've successfully added your SSH key and you can move on. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/fbFCkYabZB) to ask for help.
+Follow the [GitHub directions for testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux). Make sure the fingerprint output in the terminal matches [one of the four GitHub's public fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints). **(Don't forget to omit the `$` when you copy and paste the code!)**.
+
+You should see this response in your terminal: **Hi username! You've successfully authenticated, but GitHub does not provide shell access.** Don't let GitHub's lack of providing shell access trouble you. If you see this message, you've successfully added your SSH key and you can move on. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/fbFCkYabZB) to ask for help.
 
 ### Step 3: Let us know how it went!
 

@@ -204,8 +204,7 @@ So something like `.ancestor .child` would select an element with the class `chi
   </div>
 </div>
 
-<div class="contents"></div>
-<!-- D -->
+<div class="contents"><!-- D --></div>
 ```
 
 ```css
@@ -380,7 +379,7 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the syntax for class and ID selectors?](#class-selectors)
 - [How would you apply a single rule to two different selectors?](#the-grouping-selector)
@@ -391,7 +390,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Mozilla CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) can be used to learn the various types of values possible in absolute or relative terms.
 - [An interactive Scrim](https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d) which covers much of the material in the lesson in an interactive form.
