@@ -31,7 +31,7 @@ Not only do some of these get rid of additional steps after pushing our code to 
 While there are many ways to deploy to Netlify, like uploading your `dist` directly or using [Netlify's `netlify-cli`](https://docs.netlify.com/cli/get-started/) CLI, the most convenient way would be to directly import your GitHub repository to Netlify.
 
 1. Push your React application to GitHub.
-1. Import your project to [Netlify](https://app.netlify.com/start) by logging in, and selecting your repository.
+1. [Import your project to Netlify](https://app.netlify.com/start) by logging in, and selecting your repository.
 1. Select the branch to deploy from (the default setting, from `main`, works) and hit "Deploy site"!
 1. You can access more settings here if you need to!
 
@@ -48,7 +48,7 @@ While there are many ways to deploy to Netlify, like uploading your `dist` direc
 Similar to Netlify, Vercel also offers a few ways to deploy, but we will be importing our GitHub repository to get benefits like deploy-on-push.
 
 1. Again, push your React application to GitHub.
-1. Import your project to [Vercel](https://vercel.com/new).
+1. [Import your project to Vercel](https://vercel.com/new).
 1. Vercel will automatically detect that you are using Vite. Set your name as you like, and hit "Deploy"!
 
 #### Vercel Links
@@ -70,6 +70,6 @@ Similar to Netlify, Vercel also offers a few ways to deploy, but we will be impo
 
 #### Cloudflare Links
 
-- [Cloudflare Homepage](https://pages.cloudflare.com/)
-- [Cloudflare Documentation Website](https://developers.cloudflare.com/pages)
-- [Vite deployment to Cloudflare](https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/) discusses these very steps
+- [Cloudflare Pages Homepage](https://pages.cloudflare.com/)
+- [Cloudflare Pages documentation website](https://developers.cloudflare.com/pages)
+- [Vite deployment to Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/) discusses these very steps
