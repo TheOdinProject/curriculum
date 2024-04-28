@@ -288,14 +288,14 @@ npm install pg
 We can then initialize it in our application with the necessary connection information. Let's create a file called `db.js` with the following code:
 
 ```javascript
-const { Pool } = require('pg');
+const { Pool } = require("pg");
 
 // Always make sure to secure this information
 module.exports = new Pool({
-  host: 'localhost', // or wherever the database is hosted
-  user: '<role_name>',
-  database: '<role_database_name>',
-  password: '<role_password>',
+  host: "localhost", // or wherever the database is hosted
+  user: "<role_name>",
+  database: "<role_database_name>",
+  password: "<role_password>",
   port: 5432 // The default port
 });
 ```
@@ -313,7 +313,7 @@ With our initialized `Pool`, we can use the `query` method that accepts a query 
 As a start we will need test data so let's first populate our database with data that we can use in our application. Let's create a file called `populatedb.js`.
 
 ```javascript
-const db = require('./db.js');
+const db = require("./db.js");
 
 async function createTable(tableName) {
   const createTableQuery = `
@@ -327,23 +327,24 @@ async function createTable(tableName) {
 }
 
 async function createUsers() {
-  const names = ['Lofty', 'Mao', 'Xari'];
+  const names = ["Lofty", "Mao", "Xari"];
 
   // ($1), ($2), ($3), ...
-  const placeholders = names.map((_, index) => `($${index + 1})`).join(', ');
+  // See https://node-postgres.com/features/queries#parameterized-query
+  const placeholders = names.map((_, index) => `($${index + 1})`).join(", ");
   const insertDataQuery = `
     INSERT INTO users (name)
     VALUES ${placeholders}
   `;
 
-  console.log('Creating users');
+  console.log("Creating users");
   await db.query(insertDataQuery, names);
 }
 
 async function main() {
-  await createTable('users');
+  await createTable("users");
   await createUsers();
-  console.log('DONE');
+  console.log("DONE");
 }
 
 main().catch((err) => console.error(err));
@@ -354,8 +355,8 @@ That should be straightforward, we create a users table with `createTable` and p
 Now in our application code, we can then do the following:
 
 ```javascript
-app.get('/', async (req, res) => {
-  const { rows } = await db.query('SELECT * FROM users');
+app.get("/", async (req, res) => {
+  const { rows } = await db.query("SELECT * FROM users");
 
   const names = rows.map((row) => row.name).join(", ");
   res.send(`Users: ${names}`);
@@ -368,7 +369,7 @@ If we go to the homepage of our Express application. We should be able to see th
 Users: Lofty, Mao, Xari
 ```
 
-Great! Moving forward we will get to build more projects that allows us to apply the knowledge we got here and gain more practice.
+Great! Moving forward we will get to build more projects that allows us to apply the knowledge we learned here and gain more practice.
 
 ### Assignment
 
