@@ -290,7 +290,7 @@ We can then initialize it in our application with the necessary connection infor
 ```javascript
 const { Pool } = require('pg');
 
-// Aways make sure to secure this information
+// Always make sure to secure this information
 module.exports = new Pool({
   host: 'localhost', // or wherever the database is hosted
   user: '<role_name>',
