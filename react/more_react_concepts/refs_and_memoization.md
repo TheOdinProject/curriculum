@@ -72,6 +72,7 @@ In all of the examples, we would advise you to use the [Profiler component](http
 
 > Premature optimization is the root of all evil -- The Art of Computer Programming by Donald Knuth
 
+<span id="optimization-description"></span>
 The `useMemo` hook provides a way to add memoization inside our components. It's used to optimize expensive or complex calculations where it caches the result of a function call and stores it to be used later without recalculating it. The memoized value is, however, recalculated *only* when the dependencies of the `useMemo` hook change. And yes, this hook's parameters are the same as the `useEffect` hook you already know. The hook takes in two arguments: a `calculateValue` callback and a `dependencies` array.
 
 #### Memoizing expensive calculations
@@ -308,11 +309,11 @@ Phew, this was a long lesson. Refs and memoization are difficult concepts to gra
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you're having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Why should you prefer useRef hook over other DOM manipulation methods like querySelector?](https://meje.dev/blog/useref-not-queryselector)
 - [What is the difference between useMemo and useCallback?](#usememo-or-usecallback)
-- [How do useMemo and useCallback help optimize the performance of React components?](#useMemo)
+- [How do useMemo and useCallback help optimize the performance of React components?](#optimization-description)
 - [When should you memoize a value?](https://kentcdodds.com/blog/usememo-and-usecallback)
 
 ### Additional resources
