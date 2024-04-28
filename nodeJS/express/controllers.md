@@ -56,11 +56,11 @@ Middleware functions are a core concept in Express and play a crucial role in ha
 
 A middleware function typically takes three arguments (however, there is one that we will get into later that has four):
 
-**NOTE**: Names are just convention, you can name them whatever you want `req -> request, res -> response, etc`
-
 - `req` - The request object, which represents the incoming HTTP request.
 - `res` - The response object, which represents the HTTP response that will be sent back to the client.
 - `next` - The function that pass the control to the next middleware function in the chain (we'll get to this later). This is optional.
+
+**NOTE**: Names are just convention, you can name them whatever you want `req -> request, res -> response, etc`
 
 A middleware function can perform various tasks, such as:
 
