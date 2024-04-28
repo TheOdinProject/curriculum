@@ -18,7 +18,7 @@ When asking a question, it is essential to provide your code, error message, ter
 
 If your question does not provide any code or other relevant information, it will be difficult for others to help you. In order to fully understand your question, there will be a lot of unnecessary back and forth conversation. This can be discouraging for you because any answers with incomplete information will not solve your problem. This process can be frustrating for those helping because the meaning of your original question changes as you add more context to it. If you truly want to ask a conceptual question, you should indicate this as part of your question.
 
-#### Ask about the problem at hand, not the solution itself
+#### Ask about the problem at hand, not the solution itself, this will be edited for practice
 
 A lot of learners ask exactly how to approach a given task or assignment in this curriculum, such as the below:
 
