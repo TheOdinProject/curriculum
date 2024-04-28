@@ -11,7 +11,6 @@ This section contains a general overview of topics that you will learn in this l
 - Explore various response methods.
 - Implement error handling middleware to catch and process errors gracefully.
 - Describe common use cases for middleware, such as validation and authentication.
-- Know basic file structure.
 
 ### Handling responses
 
@@ -55,7 +54,7 @@ app.use((req, res) => {
 
 Middleware functions are a core concept in Express and play a crucial role in handling requests and responses. They sit between the incoming request and the final intended route handler.
 
-A middleware function typically takes three parameters (however, there is one that we will get into later that has four):
+A middleware function typically takes three arguments (however, there is one that we will get into later that has four):
 
 **NOTE**: Names are just convention, you can name them whatever you want `req -> request, res -> response, etc`
 
