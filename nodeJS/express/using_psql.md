@@ -319,7 +319,7 @@ async function createTable(tableName) {
   const createTableQuery = `
    CREATE TABLE "${tableName}" (
       id SERIAL PRIMARY KEY,
-      name VARCHAR(255) NOT NULL
+      name VARCHAR(255)
    )
    `;
   console.log(`Creating table: ${tableName}`);
@@ -350,9 +350,9 @@ async function main() {
 main().catch((err) => console.error(err));
 ```
 
-That should be straightforward, we create a users table with `createTable` and populate it with `createUsers`. Feel free to modify, extend, handle errors, and completely make it your own while basing it on the requirements of the project you're creating.
+That should be straightforward, we create a `users` table with `createTable` and populate it with `createUsers`. Feel free to modify, extend, handle errors, and completely make it your own while basing it on the requirements of the project you're creating. Now let's run `node populatedb.js`.
 
-Now in our application code, we can then do the following:
+After running the `populatedb.js` file we can now use the data we created in our application code:
 
 ```javascript
 const db = require("./db");
@@ -380,7 +380,7 @@ Great! Moving forward we will get to build more projects that allows us to apply
 1. We've only really touched a bit of PostgreSQL and we've interfaced it with `node-postgres`, to understand PostgreSQL by itself, head to their [Part 1 PostgreSQL tutorial](https://www.postgresql.org/docs/current/tutorial.html). Only read through Part 1 and you can start at `1.4. Accessing a Database` since we've already done the initial setup before. Going through other parts is optional and only if you want to gain a deeper understanding, but the basics are all you will need at the moment.
 1. Check out [the node-postgres documentation](https://node-postgres.com/). The library itself is light and small, and so is their documentation. You don't need to read everything, use it mainly as a reference.
 1. In our previous Mini Message Board project, we implemented a completely ephemeral messages using an array data structure within our application. We want data persistence. Go back to this project and implement it with a PostgreSQL database with `node-postgres` for the PostgreSQL client.
-   - Create a messages table
+   - Create a messages table, use the `populatedb.js` and modify it.
    - Instead of an array `push`, query our database to insert a message
    - Render the messages coming from our database
 
