@@ -313,7 +313,7 @@ With our initialized `Pool`, we can use the `query` method that accepts a query 
 As a start we will need test data so let's first populate our database with data that we can use in our application. Let's create a file called `populatedb.js`.
 
 ```javascript
-const db = require("./db.js");
+const db = require("./db");
 
 async function createTable(tableName) {
   const createTableQuery = `
@@ -355,6 +355,8 @@ That should be straightforward, we create a users table with `createTable` and p
 Now in our application code, we can then do the following:
 
 ```javascript
+const db = require("./db");
+
 app.get("/", async (req, res) => {
   const { rows } = await db.query("SELECT * FROM users");
 
