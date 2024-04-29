@@ -24,10 +24,12 @@ This section contains a general overview of topics that you will learn in this l
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read [this recursion resource](https://javascript.info/recursion) for a good intro to recursion.
-  2. Watch [this explanation of recursion](https://www.youtube.com/watch?v=6oDQaB2one8) by Web Dev Simplified and [this additional example of recursion](https://youtu.be/LteNqj4DFD8?t=340) by DevSage.
-  3. Watch this [Video on Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM) from CS50.
-  4. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
+
+  1. Read this [intro to recursion](https://javascript.info/recursion).
+  1. Watch this [explanation of recursion by Web Dev Simplified](https://www.youtube.com/watch?v=6oDQaB2one8) and this additional [example of recursion by DevSage](https://youtu.be/LteNqj4DFD8?t=340).
+  1. Watch this [Video on Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM) from CS50.
+  1. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
+
 </div>
 
 ### Test yourself
@@ -57,5 +59,5 @@ This section contains helpful links to other content. It isn't required, so cons
 - [Efficient Recursion from U of Alberta](http://webdocs.cs.ualberta.ca/~holte/T26/efficient-rec.html)
 - [A good resource of recursion by example](https://www.javascripttutorial.net/javascript-recursive-function/)
 - [Visualize how recursion works on factorials](https://pythontutor.com/render.html#code=function%20calcFactorial%28num%29%20%7B%0A%20%20%20%20if%20%28num%20%3D%3D%3D%201%29%20%7B%0A%20%20%20%20%20%20%20%20return%201%3B%0A%20%20%20%20%7D%0A%20%20%20%20return%20num%20*%20calcFactorial%28num%20-%201%29%3B%0A%7D%0A%0AcalcFactorial%285%29%3B&cumulative=false&curInstr=2&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
-- [You may want to watch this nice freecodecamp course. It explains the logic of recursion very well.](https://www.youtube.com/watch?v=IJDJ0kBx2LM&t=2333s)
-- [This video presents a few interesting problems with recursion](https://www.youtube.com/watch?v=ngCos392W4w)
+- You may want to watch this nice [FreeCodeCamp course on recursion](https://www.youtube.com/watch?v=IJDJ0kBx2LM&t=2333s).
+- [5 Simple Steps for Solving Any Recursive Problem](https://www.youtube.com/watch?v=ngCos392W4w)
