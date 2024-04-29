@@ -19,7 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 
 CRUD is a concept that comes up a lot in web development, and it's the type of thing that might show up in interview questions so it's worth taking a little time to make sure you understand what it refers to.
 
-CRUD stands for: <span id="crud">_Create, Read, Update_ and _Delete_</span>. These are the four basic functions that you will be building into your database driven apps. If you are designing a CRUD interface that means that users can expect to be able to do these 4 things to items in the database (providing they have the appropriate permissions of course).
+CRUD stands for: <span id="crud">*Create, Read, Update* and *Delete*</span>. These are the four basic functions that you will be building into your database driven apps. If you are designing a CRUD interface that means that users can expect to be able to do these 4 things to items in the database (providing they have the appropriate permissions of course).
 
 In your library example, this means that we are going to be building the ability for users to `create` entries (add books, authors or genres to the database), `read` entries (or, retrieve lists of books and other things from the database), `update` entries (edit details of an entry), and `delete` entries (remove them from the database).
 
@@ -29,7 +29,7 @@ The CRUD operations roughly correlate to the HTTP methods that you can employ in
 
 ### MVC
 
-MVC is another common concept in web development and also something that is likely to come up in an interview question. MVC stands for _Model, View, Controller_ and refers to the architecture of your code. Basically, it is a way to organize your application by separating all of the actions into 3 main components: Models, Views and Controllers.
+MVC is another common concept in web development and also something that is likely to come up in an interview question. MVC stands for *Model, View, Controller* and refers to the architecture of your code. Basically, it is a way to organize your application by separating all of the actions into 3 main components: Models, Views and Controllers.
 
 <span id="model">**Models**</span> are the basic building blocks of your database. So for every type of entry in your DB (book, author, etc. in our Library Project), you'll create a model that will hold the details of that type of entry. Models define the types of information that get used by your views and controllers.
 
@@ -59,7 +59,7 @@ One final note before diving back into the tutorial. Express does not care about
 
 </div>
 
-### Knowledge checks
+### Knowledge check
 
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
@@ -70,7 +70,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - FreeCodeCamp has a [deeper explanation of MVC](https://medium.freecodecamp.org/simplified-explanation-to-mvc-5d307796df300).
 - [Web Dev Simplified's Mongoose crash course](https://www.youtube.com/watch?v=DZBGEVgL2eE) gives a run-down of how you should expect to use Mongoose for MongoDB in NodeJS, as well as some advanced things you can do with object schemas.
