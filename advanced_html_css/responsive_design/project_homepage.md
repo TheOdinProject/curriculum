@@ -35,6 +35,6 @@ Many of the most liked submissions will have come from when this project used to
 
 #### Step 4: Give your feedback
 
-1. Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLSdVvT-2TiczhXP9qGfr28Aq6w6wzct0ypDqcpztaocA9bypXw/viewform?usp=sf_link). Getting user (you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
+1. Before you move on, we would love it if you could [send us your feedback on the Advanced HTML and CSS course](https://docs.google.com/forms/d/e/1FAIpQLSdVvT-2TiczhXP9qGfr28Aq6w6wzct0ypDqcpztaocA9bypXw/viewform?usp=sf_link). Getting user (you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
 
 </div>
