@@ -78,7 +78,7 @@ While you may have learned React (or any other frontend framework) before, eithe
 3. What is the Node Event Loop?Check out this long, but _really_ fantastic [video on what the Node Event Loop is](https://www.youtube.com/watch?v=8aGhZQkoFbQ). Don’t skip it!
 
 4. Take a few minutes to go through the "Getting Started" section of the new official [Node.js website](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs). Read up until, but not including, the TypeScript module.
-5. [This short video](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
+5. This is another great [explanation of NodeJS](https://www.youtube.com/watch?v=uVwtVBpw7RQ)!
 
 </div>
 
