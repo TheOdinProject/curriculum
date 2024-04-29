@@ -72,6 +72,7 @@ In all of the examples, we would advise you to use the [Profiler component](http
 
 > Premature optimization is the root of all evil -- The Art of Computer Programming by Donald Knuth
 
+<span id="optimization-description"></span>
 The `useMemo` hook provides a way to add memoization inside our components. It's used to optimize expensive or complex calculations where it caches the result of a function call and stores it to be used later without recalculating it. The memoized value is, however, recalculated *only* when the dependencies of the `useMemo` hook change. And yes, this hook's parameters are the same as the `useEffect` hook you already know. The hook takes in two arguments: a `calculateValue` callback and a `dependencies` array.
 
 #### Memoizing expensive calculations
@@ -209,7 +210,7 @@ const handleClick = useMemo(
 );
 ```
 
-Great, `useMemo` should help us here right? It shouldn't possibly re-render the `ButtonComponent` again correct? Nope, it will still re-render because whenever a component's `state` changes, it will also re-render its children, which could also be said differently - a component will re-render itself if its parent re-renders. Is there a way to fix this? Yes, there is! React in one of its APIs provides the [memo](https://react.dev/reference/react/memo) function that lets you skip re-rendering a component when its props are unchanged (yes, even if the parent re-renders). We can use this `memo` and wrap the `ButtonComponent` in it.
+Great, `useMemo` should help us here right? It shouldn't possibly re-render the `ButtonComponent` again correct? Nope, it will still re-render because whenever a component's `state` changes, it will also re-render its children, which could also be said differently - a component will re-render itself if its parent re-renders. Is there a way to fix this? Yes, there is! React in one of its APIs provides the [memo wrapper function](https://react.dev/reference/react/memo) that lets you skip re-rendering a component when its props are unchanged (yes, even if the parent re-renders). We can use this `memo` and wrap the `ButtonComponent` in it.
 
 ```jsx
 import React, { useState, memo } from "react";
@@ -300,7 +301,7 @@ Phew, this was a long lesson. Refs and memoization are difficult concepts to gra
 <div class="lesson-content__panel" markdown="1">
 
 1. The article [When to useMemo and useCallback](https://kentcdodds.com/blog/usememo-and-usecallback) by Kent C. Dodds further introduces more examples of when to use `useMemo` and `useCallback` and when you shouldn't bother using them.
-1. We've only learned about a basic implementation of the `useRef` hook. For more examples about its usage and why we should be wary of using the hook (more on the links they provided in the guide), check out the [interactive guide of the React documentation](https://react.dev/reference/react/useRef) for `useRef`.
+1. We've only learned about a basic implementation of the `useRef` hook. For more examples about its usage and why we should be wary of using the hook (more on the links they provided in the guide), check out the interactive guide of the React documentation for [useRef hook](https://react.dev/reference/react/useRef) .
 1. The article [useRef instead of querySelector in React](https://meje.dev/blog/useref-not-queryselector) by Caleb Olojo briefly tells some unexpected behaviors when trying to manipulate the DOM directly with DOM manipulation methods and why we should prefer `useRef` over other DOM manipulation methods like `querySelector`. Check it out!
 1. As we have learned, the `useRef` hook has other uses other than what we've primarily covered which is DOM Manipulation. Get to know more about its use-cases in this great article by Dan Abramov [Making setInterval Declarative with React Hooks](https://overreacted.io/making-setinterval-declarative-with-react-hooks/).
 
@@ -308,15 +309,15 @@ Phew, this was a long lesson. Refs and memoization are difficult concepts to gra
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you're having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Why should you prefer useRef hook over other DOM manipulation methods like querySelector?](https://meje.dev/blog/useref-not-queryselector)
 - [What is the difference between useMemo and useCallback?](#usememo-or-usecallback)
-- [How do useMemo and useCallback help optimize the performance of React components?](#useMemo)
+- [How do useMemo and useCallback help optimize the performance of React components?](#optimization-description)
 - [When should you memoize a value?](https://kentcdodds.com/blog/usememo-and-usecallback)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- The `memo` function is straightforward that's why we didn't cover it too much, but if you want to know more about it, especially if you want to create your own logic for the `memo` function go to the [documentation for memo](https://react.dev/reference/react/memo).
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
