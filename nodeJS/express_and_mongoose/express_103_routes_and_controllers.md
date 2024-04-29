@@ -18,7 +18,7 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Complete part 4 of [the MDN Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes).
+1. Complete ["Part 4: Routes and controllers"](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes) of the Local Library tutorial.
 
 </div>
 
