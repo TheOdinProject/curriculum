@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How do you define a route function in Express?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#defining_and_using_separate_route_modules)
 - [Name four HTTP verbs a route might need to handle.](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#http_verbs)
