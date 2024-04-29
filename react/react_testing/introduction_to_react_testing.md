@@ -164,6 +164,7 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 1. Take a glance at all of the available query methods on [the React Testing Library's cheatsheet page](https://testing-library.com/docs/dom-testing-library/cheatsheet/). There's no need to use them all, but it's optimal to employ a specific method for a specific query. If none of the query methods suffice, there's an option to use test ids. Learn about test ids on [the React Testing Library's test id docs](https://testing-library.com/docs/queries/bytestid/).
 1. Read [the userEvent API docs](https://testing-library.com/docs/user-event/intro) to get a feel of how to achieve user simulation.
+1. [Testing Implementation Details](https://kentcdodds.com/blog/testing-implementation-details) article by Kent C. Dodds prefaces with an Enzyme example which perfectly illustrates the problems React Testing Library strives to solve.
 1. This article on the [Pros and Cons of Snapshot Tests](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the advantages and disadvantages of snapshot testing. Even though the articles use Jest, the concepts should be transferrable. And this one, [Snapshot Testing: Benefits and Drawbacks](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks), does an excellent job of explaining what snapshot testing is for programming in general.
 
 </div>
