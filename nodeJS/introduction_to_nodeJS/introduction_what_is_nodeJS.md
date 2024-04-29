@@ -75,7 +75,8 @@ While you may have learned React (or any other frontend framework) before, eithe
 1. [MDN's "The Server Side"](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps) is a great source
    for the background knowledge you need. Read through at least the first two articles posted under the 'Guides' section: Introduction to the server side and Client-Server Overview. The other two are interesting and worth reviewing, but less relevant to our immediate concerns.
 2. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read ["What exactly is Node.js?"](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5)
-3. What is the Node Event Loop? Check out this long, but _really_ [fantastic video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)... don't skip it!
+3. What is the Node Event Loop?Check out this long, but _really_ fantastic [video on what the Node Event Loop is](https://www.youtube.com/watch?v=8aGhZQkoFbQ). Don’t skip it!
+
 4. Take a few minutes to go through the "Getting Started" section of the new official [Node.js website](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs). Read up until, but not including, the TypeScript module.
 5. [This short video](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
 
