@@ -52,7 +52,7 @@ main div {
 But what if we wanted to be more specific and <span id="childvdesc-knowledge-check">select *only* the `child` or `grand-child` divs?</span> That's where the child combinator `>` comes in handy. Unlike the descendant combinator, it will only select direct children.
 
 ```css
-/* This rule will only select divs with the class child */
+/* This rule will only select the divs with the class child */
 main > div {
   /* Our cool CSS */
 }
