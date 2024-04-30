@@ -4,14 +4,6 @@ Like we learned in the introduction lesson, Node.js is really just JavaScript. S
 
 This lesson will take you through a tutorial that will teach you the basic modules and functions that you need to get up and running with Node.js. The project that comes at the end of this section will ask you to use Node to create a basic website that will include an `Index`, `About` and `Contact Me` page. So while learning the topics in this lesson, be on the lookout for things that might help you complete the project.
 
-<div class="lesson-note" markdown="1">
-
-### Important notice
-
-Recently the NodeJS.dev team removed a large amount of content from their website. Several of those removed pages were linked to in this lesson. Until we find a replacement for that content we will be linking directly to the markdown files on their GitHub repository. The formatting may look a bit odd, but the content should still be just as good.
-
-</div>
-
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
@@ -27,6 +19,14 @@ This section contains a general overview of topics that you will learn in this l
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
+<div class="lesson-note" markdown="1">
+
+#### Important notice
+
+Recently the NodeJS.dev team removed a large amount of content from their website. Several of those removed pages were linked to in this lesson. Until we find a replacement for that content we will be linking directly to the markdown files on their GitHub repository. The formatting may look a bit odd, but the content should still be just as good.
+
+</div>
 
 - Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.org](https://nodejs.org/en/learn) docs which you should follow along.
   - Get Started
