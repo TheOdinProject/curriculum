@@ -23,8 +23,8 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Complete part 6 of [the MDN Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms).
-1. Read about deploying your app in the [final article of the MDN Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment).
+1. Complete ["Part 6: Working with forms"](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms) of the Local Library tutorial.
+1. Deploy your local library app as per ["Part 7: Deploying to production"](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment) of the Local Library tutorial.
 
 Reminder: Make sure to hide your MongoDB connection URL! Once you've hosted your app on Glitch or Railway you'll be creating a new database with them and can use the instructions in the MDN tutorial to manage environment variables through the Glitch/Railway dashboard.
 
