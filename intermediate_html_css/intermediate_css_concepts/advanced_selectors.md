@@ -57,7 +57,7 @@ main > div {
   /* Our cool CSS */
 }
 
-/* This rule will only select divs with the class grand-child */
+/* This rule will only select the divs with the class grand-child */
 main > div > div {
   /* More cool CSS */
 }
