@@ -46,16 +46,18 @@ Recently the NodeJS.dev team removed a large amount of content from their websit
     - Look into the [Node events module](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-events.en.md).
 
 - Although a bit outdated, the W3 Schools introduction to Node.js is super useful! Go to the [W3 Schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious!
-  
-  <div class="lesson-note lesson-note--warning" markdown=1>
+
+   <div class="lesson-note lesson-note--warning" markdown=1>
+
   The URL module is very outdated. Refer to the earlier link if you run into issues in the Node.js URL Module from W3.
+
   </div>
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is a File System Module? How and why would you use it?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md)
 - [What is the command for installing a package locally in with npm?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md)
@@ -64,7 +66,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - This [Node crash course video](https://www.youtube.com/watch?v=fBNz5xF-Kx4) from TraversyMedia is a great code-along for getting into Node.js. It may seem repetitive after completing the assignment, but practice is repetition!
 - This [Node crash course playlist of 12 episodes](https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU) from Net Ninja is a great resource to learn Node.js. There are 12 videos in this playlist, you can consider them all.
