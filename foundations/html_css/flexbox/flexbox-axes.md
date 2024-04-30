@@ -12,9 +12,9 @@ This section contains a general overview of topics that you will learn in this l
 ### Axes
 
 The most confusing thing about flexbox is that it can work either horizontally or vertically, and some rules change a bit depending on which direction you are working with.
-The default direction for a flex container is horizontal, or `row`, <span id='flex-vertical'>but you can change the direction to vertical, or `column`. The direction can be specified in CSS like so:
+The default direction for a flex container is horizontal, or `row`, but you can change the direction to vertical, or `column`. The direction can be specified in CSS like so:
 
-</span>
+
 
 ```css
 .flex-container {
@@ -51,7 +51,7 @@ We've strayed from the point slightly... We were talking about flex-direction an
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [How do you make flex items arrange themselves vertically instead of horizontally?](#flex-vertical)
+- [How do you make flex items arrange themselves vertically instead of horizontally?](#axes)
 - [In a `column` flex-container, what does `flex-basis` refer to?](#column-flex-basis)
 - [In a `row` flex-container, what does `flex-basis` refer to?](#row-flex-basis)
 - [Why do the previous two questions have different answers?](#flex-axes)
