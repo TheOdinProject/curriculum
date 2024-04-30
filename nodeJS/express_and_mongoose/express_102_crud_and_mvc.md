@@ -19,7 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 
 CRUD is a concept that comes up a lot in web development, and it's the type of thing that might show up in interview questions so it's worth taking a little time to make sure you understand what it refers to.
 
-CRUD stands for: <span id="crud">*Create, Read, Update* and *Delete*</span>. These are the four basic functions that you will be building into your database driven apps. If you are designing a CRUD interface that means that users can expect to be able to do these 4 things to items in the database (providing they have the appropriate permissions of course).
+CRUD stands for: *Create, Read, Update* and *Delete*. These are the four basic functions that you will be building into your database driven apps. If you are designing a CRUD interface that means that users can expect to be able to do these 4 things to items in the database (providing they have the appropriate permissions of course).
 
 In your library example, this means that we are going to be building the ability for users to `create` entries (add books, authors or genres to the database), `read` entries (or, retrieve lists of books and other things from the database), `update` entries (edit details of an entry), and `delete` entries (remove them from the database).
 
