@@ -55,7 +55,7 @@ One final note before diving back into the tutorial. Express does not care about
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Complete ["Part 3: Using a Database (with Mongoose)"](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoosee) of the Local Library tutorial.
+1. Complete ["Part 3: Using a Database (with Mongoose)"](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose) of the Local Library tutorial.
 
 </div>
 
