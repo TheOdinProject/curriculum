@@ -14,8 +14,6 @@ This section contains a general overview of topics that you will learn in this l
 The most confusing thing about flexbox is that it can work either horizontally or vertically, and some rules change a bit depending on which direction you are working with.
 The default direction for a flex container is horizontal, or `row`, but you can change the direction to vertical, or `column`. The direction can be specified in CSS like so:
 
-
-
 ```css
 .flex-container {
   flex-direction: column;
