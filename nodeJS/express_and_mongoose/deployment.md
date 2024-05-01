@@ -63,7 +63,7 @@ The peace of mind this affords you can't be overstated. You never want to be in 
 With NodeJS, we will be using MongoDB, a popular open-source database. Many PaaS services come with SQL databases included, but since we are going to be using MongoDB (a no-SQL database), we have a few choices on how to spin it up. We could:
 
 1. Use Railway, a PaaS with integrated MongoDB database services, or
-1. Use any of the recommended PaaS services, and connect it to a [MongoDB Atlas](https://www.mongodb.com/atlas/database) instance. The instructions in their [getting started guide](https://www.mongodb.com/docs/atlas/getting-started/) make it easy!
+1. Use any of the recommended PaaS services, and connect it to a [MongoDB Atlas](https://www.mongodb.com/atlas/database) instance. The instructions in their [MongoDB Atlas getting started guide](https://www.mongodb.com/docs/atlas/getting-started/) make it easy!
 
 Either choice isn't too difficult to setup, but it's always nice to have a fallback option! Later in this course, we will be following the MDN tutorial's instructions on deploying both our app and database connection to Railway. For now, we encourage you to try and figure out how to deploy your mini-message board project with just what you learn in this lesson. However, If you're having too much trouble, don't fret. Just come back to it later once you've finished the MDN tutorial and have that bit of deployment experience under your belt.
 
