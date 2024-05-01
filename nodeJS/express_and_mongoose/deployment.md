@@ -148,8 +148,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Adaptable.io: Links
 
-- [Homepage](https://adaptable.io/)
-- [Documentation](https://adaptable.io/docs/what-is-adaptable)
+- [Adaptable.io homepage](https://adaptable.io/)
+- [Adaptable.io documentation](https://adaptable.io/docs/what-is-adaptable)
 - [Guide: Official getting started with deploying an Express app on Adaptable guide](https://adaptable.io/docs/app-guides/deploy-express-app)
 
 ---
