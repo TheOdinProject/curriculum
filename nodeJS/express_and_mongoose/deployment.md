@@ -168,8 +168,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Render: Links
 
-- [Homepage](https://render.com/)
-- [Documentation](https://render.com/docs/)
+- [Render homepage](https://render.com/)
+- [Render documentation](https://render.com/docs/)
 - [Guide: Official getting started with Node/Express on Render guide](https://render.com/docs/deploy-node-express-app)
 - [Guide: CodeBrah video guide for deploying NodeJS applications to Render](https://www.youtube.com/watch?v=bnCOyGaSe84&ab_channel=CodeBrah)
 
