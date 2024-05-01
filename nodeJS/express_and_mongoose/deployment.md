@@ -128,8 +128,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Railway.app: Links
 
-- [Homepage](https://railway.app/)
-- [Documentation](https://docs.railway.app/)
+- [Railway homepage](https://railway.app/)
+- [Railway documentation](https://docs.railway.app/)
 
 ---
 
