@@ -55,8 +55,8 @@ If you were to take some valid HTML and copy it straight into your React compone
        <h1>Example h1</h1>
        <h2>Example h2</h2>
      );
-    }
-  ```
+   }
+   ```
 
 1. Close all tags.
 
@@ -78,7 +78,7 @@ If you were to take some valid HTML and copy it straight into your React compone
    ```
 
    Incorrect:
- 
+
    ```jsx
    function App() {
      return (
