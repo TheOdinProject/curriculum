@@ -31,96 +31,96 @@ If you were to take some valid HTML and copy it straight into your React compone
 
 1. Return a single root element.
 
-   If you wish to return multiple elements in a component, you can do so by wrapping them in a parent tag. This can be a `<div>`, or, if you don't want the elements to have a container, you could use a [React fragment](https://react.dev/reference/react/Fragment), like so: `<>Children</>`
+  If you wish to return multiple elements in a component, you can do so by wrapping them in a parent tag. This can be a `<div>`, or, if you don't want the elements to have a container, you could use a [React fragment](https://react.dev/reference/react/Fragment), like so: `<>Children</>`
 
-   Correct:
+  Correct:
 
-   ```jsx
-   function App() {
-     return (
-       <>
-         <h1>Example h1</h1>
-         <h2>Example h2</h2>
-       </>
-       // Could replace <></> with <div></div>
-     );
-   }
+  ```jsx
+  function App() {
+    // Could replace <></> with <div></div>
+    return (
+      <>
+        <h1>Example h1</h1>
+        <h2>Example h2</h2>
+      </>
+    );
+  }
    ```
 
-   Incorrect:
+  Incorrect:
 
-   ```jsx
-   function App() {
-     return (
-       <h1>Example h1</h1>
-       <h2>Example h2</h2>
-     );
-   }
-   ```
+  ```jsx
+  function App() {
+    return (
+      <h1>Example h1</h1>
+      <h2>Example h2</h2>
+    );
+  }
+  ```
 
 1. Close all tags.
 
-   In HTML, many tags are self-closing and self-wrapping. In JSX however, we must explicitly close and wrap these tags.
+  In HTML, many tags are self-closing and self-wrapping. In JSX however, we must explicitly close and wrap these tags.
 
-   `<input>` would become `<input />`, and `<li>` would become `<li></li>`
+  `<input>` would become `<input />`, and `<li>` would become `<li></li>`
 
-   Correct:
+  Correct:
 
-   ```jsx
-   function App() {
-     return (
-       <>
-         <input />
-         <li></li>
-       </>
-     );
+  ```jsx
+  function App() {
+    return (
+      <>
+        <input />
+        <li></li>
+      </>
+    );
    }
-   ```
+  ```
 
-   Incorrect:
+  Incorrect:
 
-   ```jsx
-   function App() {
-     return (
-       <>
-         <input>
-         <li>
-       </>
-     );
-   }
-   ```
+  ```jsx
+  function App() {
+    return (
+      <>
+        <input>
+        <li>
+      </>
+    );
+  }
+  ```
 
 1. camelCase **Most** things.
 
-   JSX turns into JavaScript, and attributes of elements become keys of JavaScript objects, so you can't use dashes or reserved words such as `class`. Because of this, many HTML attributes are written in camelCase. Instead of `stroke-width`, you'd use `strokeWidth`, and instead of `class` you'd use `className`.
+  JSX turns into JavaScript, and attributes of elements become keys of JavaScript objects, so you can't use dashes or reserved words such as `class`. Because of this, many HTML attributes are written in camelCase. Instead of `stroke-width`, you'd use `strokeWidth`, and instead of `class` you'd use `className`.
 
-   Correct:
+  Correct:
 
-   ```jsx
-   function App() {
-     return (
-      <div className="container">
-        <svg>
-          <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
-        </svg>
-      </div>
-     );
-   }
-   ```
+  ```jsx
+  function App() {
+    return (
+    <div className="container">
+      <svg>
+        <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
+      </svg>
+    </div>
+    );
+  }
+  ```
 
-   Incorrect:
+  Incorrect:
 
-   ```jsx
-   function App() {
-     return (
+  ```jsx
+  function App() {
+    return (
       <div class="container">
         <svg>
           <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
         </svg>
       </div>
-     );
-   }
-   ```
+    );
+  }
+  ```
 
 ### Converting HTML to JSX
 
@@ -172,7 +172,7 @@ Now, onto the second issue, which is that we haven't closed the `<input>` tag.
 
 If you are following along, at this point you will stop seeing an error being rendered on-screen, this time it will be in the console.
 
-The last issue is that we haven't camelCased our attributes, and so are using invalid DOM properties for JSX, specifically the `class` and the `stroke-width`.
+The last issue is that we haven't camelCased our attributes, and so are using invalid DOM properties for JSX, specifically the `stroke-width`.
 
 ```jsx
 <div>
