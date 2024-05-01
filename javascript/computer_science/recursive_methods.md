@@ -35,17 +35,20 @@ This section contains a general overview of topics that you will learn in this l
 ### Test yourself
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Solve each of the questions from this [Code Quiz](https://www.codingame.com/playgrounds/5422/js-interview-prep-recursion) on Recursion. It is not important to have recursive algorithms committed to memory at this point; just understand how to create and use them.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
+
 The solution for "Question 6: Search JS object" is incorrect. See the [corrected solution](https://gist.github.com/JoshDevHub/b00125f483d4a1ecc257eaa030916973) after you solve it.
+
 </div>
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How would you briefly define a recursive function?](#introduction)
 - [What is the point of recursion? Is it more efficient than using a plain loop?](http://ruby.bastardsbook.com/chapters/recursion/)
@@ -54,7 +57,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Efficient Recursion from U of Alberta](http://webdocs.cs.ualberta.ca/~holte/T26/efficient-rec.html)
 - [A good resource of recursion by example](https://www.javascripttutorial.net/javascript-recursive-function/)
