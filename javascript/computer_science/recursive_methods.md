@@ -24,26 +24,31 @@ This section contains a general overview of topics that you will learn in this l
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read [this recursion resource](https://javascript.info/recursion) for a good intro to recursion.
-  2. Watch [this explanation of recursion](https://www.youtube.com/watch?v=6oDQaB2one8) by Web Dev Simplified and [this additional example of recursion](https://youtu.be/LteNqj4DFD8?t=340) by DevSage.
-  3. Watch this [Video on Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM) from CS50.
-  4. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
+
+  1. Read this [intro to recursion](https://javascript.info/recursion).
+  1. Watch this [explanation of recursion by Web Dev Simplified](https://www.youtube.com/watch?v=6oDQaB2one8) and this additional [example of recursion by DevSage](https://youtu.be/LteNqj4DFD8?t=340).
+  1. Watch this [Video on Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM) from CS50.
+  1. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
+
 </div>
 
 ### Test yourself
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Solve each of the questions from this [Code Quiz](https://www.codingame.com/playgrounds/5422/js-interview-prep-recursion) on Recursion. It is not important to have recursive algorithms committed to memory at this point; just understand how to create and use them.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
+
 The solution for "Question 6: Search JS object" is incorrect. See the [corrected solution](https://gist.github.com/JoshDevHub/b00125f483d4a1ecc257eaa030916973) after you solve it.
+
 </div>
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How would you briefly define a recursive function?](#introduction)
 - [What is the point of recursion? Is it more efficient than using a plain loop?](http://ruby.bastardsbook.com/chapters/recursion/)
@@ -52,10 +57,10 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Efficient Recursion from U of Alberta](http://webdocs.cs.ualberta.ca/~holte/T26/efficient-rec.html)
 - [A good resource of recursion by example](https://www.javascripttutorial.net/javascript-recursive-function/)
 - [Visualize how recursion works on factorials](https://pythontutor.com/render.html#code=function%20calcFactorial%28num%29%20%7B%0A%20%20%20%20if%20%28num%20%3D%3D%3D%201%29%20%7B%0A%20%20%20%20%20%20%20%20return%201%3B%0A%20%20%20%20%7D%0A%20%20%20%20return%20num%20*%20calcFactorial%28num%20-%201%29%3B%0A%7D%0A%0AcalcFactorial%285%29%3B&cumulative=false&curInstr=2&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
-- [You may want to watch this nice freecodecamp course. It explains the logic of recursion very well.](https://www.youtube.com/watch?v=IJDJ0kBx2LM&t=2333s)
-- [This video presents a few interesting problems with recursion](https://www.youtube.com/watch?v=ngCos392W4w)
+- You may want to watch this nice [FreeCodeCamp course on recursion](https://www.youtube.com/watch?v=IJDJ0kBx2LM&t=2333s).
+- [5 Simple Steps for Solving Any Recursive Problem](https://www.youtube.com/watch?v=ngCos392W4w)

@@ -41,7 +41,7 @@ We'll tackle some practical examples using this sample markup.
 </main>
 ```
 
-By now, you should be pretty comfortable writing rules using the descendant combinator you learned about in [intro to CSS](https://www.theodinproject.com/lessons/foundations-intro-to-css). For instance, if we wanted to select all the `child` and `grand-child` divs inside of `main`, we could write:
+By now, you should be pretty comfortable writing rules using the descendant combinator you learned about in [Intro to CSS](https://www.theodinproject.com/lessons/foundations-intro-to-css). For instance, if we wanted to select all the `child` and `grand-child` divs inside of `main`, we could write:
 
 ```css
 main div {
@@ -52,12 +52,12 @@ main div {
 But what if we wanted to be more specific and <span id="childvdesc-knowledge-check">select *only* the `child` or `grand-child` divs?</span> That's where the child combinator `>` comes in handy. Unlike the descendant combinator, it will only select direct children.
 
 ```css
-/* This rule will only select divs with a class of child */
+/* This rule will only select the divs with the class child */
 main > div {
   /* Our cool CSS */
 }
 
-/* This rule will only select divs with a class of grand-child */
+/* This rule will only select the divs with the class grand-child */
 main > div > div {
   /* More cool CSS */
 }
@@ -99,10 +99,10 @@ Before diving into pseudo-selectors, a quick note on the difference between [pse
 Pseudo-classes offer us different ways to target elements in our HTML. There are quite a lot of them, and they come in a couple of different flavors. Some are based on their position or structure within the HTML. Others are based on the state of a particular element, or how the user is currently interacting with it. There are too many to cover in detail here but we'll have a look at some of the most useful ones. Pseudo-classes share the same specificity as regular classes (0, 0, 1, 0). Just like regular classes, most can be chained together.
 
 <div class="lesson-note lesson-note--tip" markdown=1>
-The (0,0,1,0) above is the notation for calculating specificity. To find out more about how it works, glance over the "Calculating CSS Specificity Value" section from [this article on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/).
+The (0,0,1,0) above is the notation for calculating specificity. To find out more about how it works, glance over the "Calculating CSS Specificity Value" section from this [article on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/).
 </div>
 
-As always don't forget to check the [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) to see a complete picture of what's available.
+As always don't forget to check [MDN's docs on pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) to see a complete picture of what's available.
 
 #### Dynamic and user action pseudo-classes
 
@@ -137,7 +137,7 @@ Have you ever wondered why links are blue but turn purple when clicked in unstyl
 
 Structural pseudo-classes are a powerful way to select elements based on their position within the DOM.
 
-[`:root`](https://css-tricks.com/almanac/selectors/r/root/) is a special class that represents the very top level of your document - the one element that has no parents. Generally when working with the web, this is equivalent to the `html` element, but there are a [few subtle differences](https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html).
+[`:root`](https://css-tricks.com/almanac/selectors/r/root/) is a special class that represents the very top level of your document - the one element that has no parents. Generally when working with the web, this is equivalent to the `html` element, but there are a [few subtle differences between `:root` and `html`](https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html).
 
 `:root` is generally the place where you will place your 'global' CSS rules that you want available everywhere - such as your custom properties and CSS variables, or rules such as `box-sizing: border-box;`.
 
@@ -251,7 +251,7 @@ Sometimes we need to be more general in how we access these attributes. For exam
 }
 ```
 
-To see what other things you can achieve with attribute selectors, such as searching case insensitivity, or sub-strings separated by hyphens, have a browse through the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
+To see what other things you can achieve with attribute selectors, such as searching case insensitivity, or sub-strings separated by hyphens, have a browse through [MDN's docs on attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
 
 ### Assignment
 
@@ -281,6 +281,6 @@ This section contains helpful links to other content. It isn't required, so cons
 - [The CSS Tricks Almanac](https://css-tricks.com/almanac/selectors/) has a great reference for all pseudo-elements and selectors. It includes examples, extra resources and browser support charts.
 - [W3 Schools](https://www.w3schools.com/cssref/css_selectors.asp) also has a solid, more concise reference list. Includes an interactive selector tool if you'd like to play around with some hands on examples.
 - [The Free Code Camp Selector Cheat Sheet](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/) has a solid summary of some of the most common selectors.
-- [A nice concise article](https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html) on the differences between pseudo-classes and pseudo-elements. Also provides a solid summary of the different kinds of selectors.
+- A nice concise article on the [differences between pseudo-classes and pseudo-elements](https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html). Also provides a solid summary of the different kinds of selectors.
 - [Smashing Magazine on Taming Advanced CSS Selectors](http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/)
 - [CSS Tricks on Attribute Selectors](https://css-tricks.com/attribute-selectors/) will help if you need a deeper look at attributes.

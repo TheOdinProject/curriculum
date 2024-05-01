@@ -74,6 +74,18 @@ This line above the closing tag is not a blank line nor a code block delimiter, 
 </p>
 ```
 
+```erb
+<%= if language.isErb? %>
+  <p>Also does not flag when used in erb code blocks</p>
+<% end %>
+```
+
+```ejs
+<% if (isEjs) { %>
+  <p>Also does not flag when used in ejs code blocks</p>
+<% } %>
+```
+
 ```markdown
 <p>
     But does not like it if done in a non-HTML/JSX code block

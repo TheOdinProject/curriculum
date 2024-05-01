@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What is mocking?
 
-If you've been following along with our lessons so far, the concept of mocking has already been introduced in an earlier section and you might have even incorporated mocks in your [Battleship project in the Testing JavaScript section of this course](https://www.theodinproject.com/lessons/javascript-battleship). Let's look at how mocks will help in testing React components.
+If you've been following along with our lessons so far, the concept of mocking has already been introduced in an earlier section and you might have even incorporated mocks in your [Battleship project in the Testing JavaScript section of the curriculum](https://www.theodinproject.com/lessons/javascript-battleship). Let's look at how mocks will help in testing React components.
 
 #### Testing callback handlers
 
@@ -30,7 +30,7 @@ const CustomButton = ({ onClick }) => {
 export default CustomButton;
 ```
 
-Nothing fancy. `CustomButton` is a component with a prop passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when user clicks the button. Let's test it.
+Nothing fancy. `CustomButton` is a component with a prop passed in. We're interested in the `onClick` prop. We have no idea what the function does. We have no idea how the function will affect the application. All we know is it must be called when the user clicks the button. Let's test it.
 
 <span id="testing-callback-handlers">Notice how we mock and test the `onClick` function</span>:
 
@@ -74,7 +74,7 @@ describe("CustomButton", () => {
 
 Three tests and we are done with this component. You should be already familiar with how the first test works. Take some time to figure out what functions come from which package.
 
-For the second and third tests, we mock the `onClick` handler using one of Vitest's functions, `vi.fn()`. Then we assert that it is called/not called when the button is clicked or not. 
+For the second and third tests, we mock the `onClick` handler using one of Vitest's functions, `vi.fn()`. Then we assert that it is called/not called when the button is clicked or not.
 
 You could also set up your mocks in a `beforeEach` block instead of in every test block. This may be suitable for some situations. However, for better readability, it is recommended that all setups be done in the same test block.  Doing so eliminates the need to search through the entire file for context, making it easier to review future changes. This also decreases the chance of having leakage create problems throughout the test suite. Unless your test file is particularly long and the test preparation takes up dozens of lines, it is recommended to set up your mocks in each test block; otherwise, you may use `beforeEach`.
 
@@ -94,9 +94,9 @@ Read and try to comprehend the [submissions-list.jsx](https://github.com/TheOdin
 
 We start by importing a bunch of stuff like any other decent React component. There might be a couple of unfamiliar things on there; we don't have to worry too much about them. If we take a glance at the props, there are some functions in there, presumably event handlers. Let's look at what the component renders.
 
-1. If there's a `userSubmission`, it renders the `Submission` component
-2. If `hasSubmissions` is true, sort the submissions and render them with `Submission`. Otherwise, a heading that says "No Submissions yet, be the first!"
-3. If  `allSubmissionsPath` is true, it renders a `<p>` tag.
+1. If there's a `userSubmission`, it renders the `Submission` component.
+1. If `hasSubmissions` is true, sort the submissions and render them with `Submission`. Otherwise, a heading that says "No Submissions yet, be the first!"
+1. If  `allSubmissionsPath` is true, it renders a `<p>` tag.
 
 Just going through the code, it should give us some idea of what to test. It will be rewarding if you take a couple of seconds to map out what tests we could need for `SubmissionsList`.
 
@@ -151,19 +151,19 @@ The other important thing to note is almost all the tests follow a certain patte
 
 1. Read about the [secrets of act(...) api](https://github.com/mrdulin/react-act-examples/blob/master/sync.md). Especially pay attention to the last bit about testing asynchronous code. You won't be using it everyday, but it's nice to be familiar. Please note that in the article, the React components are written within the tests.
 
-2. Read this article about [mocking child components](https://medium.com/@taylormclean15/jest-testing-mocking-child-components-to-make-your-unit-tests-more-concise-18691ef6a0c2). It extensively covers the "how" of mocking child components. (You might need to sign up to read)
+1. Read this article about [mocking child components](https://medium.com/@taylormclean15/jest-testing-mocking-child-components-to-make-your-unit-tests-more-concise-18691ef6a0c2). It extensively covers the "how" of mocking child components. (You might need to sign up to read)
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-* [How can you mock a callback handler?](#testing-callback-handlers)
-* [How can you mock a child component?](#mock-child-component)
+- [How can you mock a callback handler?](#testing-callback-handlers)
+- [How can you mock a child component?](#mock-child-component)
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

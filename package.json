@@ -1,0 +1,15 @@
+{
+  "name": "curriculum",
+  "version": "1.0.0",
+  "description": "[The Odin Project](https://www.theodinproject.com/) (TOP) is an open-source curriculum for learning full-stack web development. Our curriculum is divided into distinct courses, each covering the subject language in depth. Each course contains a listing of lessons interspersed with multiple projects. These projects give users the opportunity to practice what they are learning, thereby reinforcing and solidifying the theoretical knowledge learned in the lessons. Completed projects may then be included in the user's portfolio.",
+  "scripts": {
+    "lint:lesson": "markdownlint-cli2 --config lesson.markdownlint-cli2.jsonc",
+    "lint:project": "markdownlint-cli2 --config project.markdownlint-cli2.jsonc",
+    "fix:lesson": "markdownlint-cli2 --fix --config lesson.markdownlint-cli2.jsonc",
+    "fix:project": "markdownlint-cli2 --fix --config project.markdownlint-cli2.jsonc"
+  },
+  "license": "CC BY-NC-SA 4.0",
+  "devDependencies": {
+    "markdownlint-cli2": "^0.12.1"
+  }
+}
