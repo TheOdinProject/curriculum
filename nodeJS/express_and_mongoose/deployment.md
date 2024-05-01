@@ -189,8 +189,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Heroku: Links
 
-- [Homepage](https://www.heroku.com/)
-- [Documentation](https://devcenter.heroku.com/)
+- [Heroku homepage](https://www.heroku.com/)
+- [Heroku documentation](https://devcenter.heroku.com/)
 - [Guide: Official NodeJS guide for Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 
 ---
