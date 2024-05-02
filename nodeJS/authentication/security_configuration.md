@@ -45,6 +45,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It is not required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - If you still want to know more, this article digs deeper into [variations of environment variables](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) you might encounter moving forward.
