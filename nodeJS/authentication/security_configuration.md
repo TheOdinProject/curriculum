@@ -1,7 +1,8 @@
-### Introduction
+# Introduction
+
 This lesson is a small one, but it is _incredibly important_. Now that we are dealing with Authentication, sessions, cookies and user passwords, it is crucial that we do everything we can so that our authentication system or databases are not compromised.
 
-### Lesson overview
+## Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -24,7 +25,6 @@ Digging into this package can be useful when creating bigger projects where app 
 
 If you add secrets to a deployed project or a project that you plan on deploying, you'll have to research how to import environment variables to the PaaS you choose to use or else your deployment will fail.  For instance, when using Fly.io, you need to run `fly secrets import < .env` from the command line.
 
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -42,6 +42,7 @@ This section contains helpful links to other content. It isn't required, so cons
 - If you still want to know more, this article digs deeper into [variations of environment variables](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) you might encounter moving forward.
 
 ### Knowledge check
+
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - [What special kind of variable can be used on a server to store secrets?](#keep-it-secret-keep-it-safe)
