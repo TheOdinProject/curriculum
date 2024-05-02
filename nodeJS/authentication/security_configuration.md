@@ -1,8 +1,8 @@
-# Introduction
+### Introduction
 
-This lesson is a small one, but it is _incredibly important_. Now that we are dealing with Authentication, sessions, cookies and user passwords, it is crucial that we do everything we can so that our authentication system or databases are not compromised.
+This lesson is a small one, but it is *incredibly important*. Now that we are dealing with Authentication, sessions, cookies and user passwords, it is crucial that we do everything we can so that our authentication system or databases are not compromised.
 
-## Lesson overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -30,20 +30,20 @@ If you add secrets to a deployed project or a project that you plan on deploying
 <div class="lesson-content__panel" markdown="1">
 
 1. The main important takeaway here is to KEEP YOUR SECRETS SECRET by never accidentally publishing them.
-2. Read through the documentation for [dotenv](https://github.com/motdotla/dotenv#readme) and [nconf](https://github.com/indexzero/nconf). There are other ways to go about hiding your secrets, but these two packages are popular and widely used.
-3. Go back to your earlier projects and SECURE THEM!
+1. Read through the documentation for [dotenv](https://github.com/motdotla/dotenv#readme) and [nconf](https://github.com/indexzero/nconf). There are other ways to go about hiding your secrets, but these two packages are popular and widely used.
+1. Go back to your earlier projects and SECURE THEM!
 
 </div>
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It is not required, so consider it supplemental.
 
 - If you still want to know more, this article digs deeper into [variations of environment variables](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) you might encounter moving forward.
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What special kind of variable can be used on a server to store secrets?](#keep-it-secret-keep-it-safe)
 - [What are two widely used packages that can be used to store and import these variables?](#keep-it-secret-keep-it-safe)
