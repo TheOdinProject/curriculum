@@ -7,11 +7,13 @@ module.exports = {
   ),
   function: function TOP008(params, onError) {
     const fencedCodeBlocks = params.lines.reduce((codeBlocks, currentLine, index) => {
-      if (currentLine.trim().startsWith("~~~")) {
+      const trimmedLine = currentLine.trim();
+
+      if (trimmedLine.startsWith("~~~")) {
         codeBlocks.push({
           lineNumber: index + 1,
-          text: currentLine.trim(),
-          tildeCount: currentLine.lastIndexOf("~") + 1,
+          text: currentLine,
+          tildeCount: trimmedLine.lastIndexOf("~") + 1,
           startingColumn: currentLine.indexOf("~") + 1,
         });
       }
@@ -20,9 +22,11 @@ module.exports = {
     }, []);
 
     fencedCodeBlocks.forEach((codeBlock) => {
+      const backtickReplacement = "`".repeat(codeBlock.tildeCount);
+
       onError({
         lineNumber: codeBlock.lineNumber,
-        detail: `Expected: "${"`".repeat(codeBlock.tildeCount)}"; Actual: "${"~".repeat(
+        detail: `Expected: "${backtickReplacement}"; Actual: "${"~".repeat(
           codeBlock.tildeCount
         )}"`,
         context: codeBlock.text,
@@ -30,7 +34,7 @@ module.exports = {
           lineNumber: codeBlock.lineNumber,
           editColumn: codeBlock.startingColumn,
           deleteCount: codeBlock.tildeCount,
-          insertText: "`".repeat(codeBlock.tildeCount),
+          insertText: backtickReplacement,
         },
       });
     });
