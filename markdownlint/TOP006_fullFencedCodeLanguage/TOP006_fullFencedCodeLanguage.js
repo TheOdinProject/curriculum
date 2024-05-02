@@ -23,13 +23,13 @@ module.exports = {
       }
 
       const fenceDelimiter = currentLine.trim()[0];
-      const delimiterCount = currentLine.lastIndexOf(fenceDelimiter) + 1;
-      const language = currentLine.substring(delimiterCount);
+      const delimiterEndColumn = currentLine.lastIndexOf(fenceDelimiter) + 1;
+      const language = currentLine.substring(delimiterEndColumn);
 
       if (LANGUAGES_WITH_ABBREVIATIONS.has(language)) {
         fences.push({
           text: currentLine,
-          delimiterCount: delimiterCount,
+          languageStartingColumn: delimiterEndColumn + 1,
           abbreviatedName: language,
           fullName: LANGUAGES_WITH_ABBREVIATIONS.get(language),
           lineNumber: index + 1,
@@ -44,7 +44,7 @@ module.exports = {
         detail: `Expected: ${fence.fullName}; Actual: ${fence.abbreviatedName} `,
         context: fence.text,
         fixInfo: {
-          editColumn: fence.delimiterCount + 1,
+          editColumn: fence.languageStartingColumn,
           deleteCount: fence.abbreviatedName.length,
           insertText: fence.fullName,
         },
