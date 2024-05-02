@@ -105,8 +105,7 @@ Now it's time to introduce the shorthand notation for our animation properties a
   }
   
   50% {
-    width: 200px;
-    height: 200px;
+    transform: scale(2);
     background-color: blue;
   }
 
