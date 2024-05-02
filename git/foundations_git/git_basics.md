@@ -199,3 +199,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you commit the files in the staging area and add a descriptive message?](#git-commit)
 - [How do you push your changes to your repository on GitHub?](#git-push)
 - [How do you look at the history of your previous commits?](#git-log)
+
+### Additional resources
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
