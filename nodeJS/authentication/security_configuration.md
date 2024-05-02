@@ -1,11 +1,12 @@
 ### Introduction
-This lesson is a small one, but it is _incredibly important_. Now that we are dealing with Authentication, sessions, cookies and user passwords, it is crucial that we do everything we can so that our authentication system or databases are not compromised.
+
+This lesson is a small one, but it is *incredibly important*. Now that we are dealing with Authentication, sessions, cookies and user passwords, it is crucial that we do everything we can so that our authentication system or databases are not compromised.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Access environment variables using the [process](https://nodejs.org/api/process.html#process_process_env) object in node.
+- Access environment variables using [Node's `process` object](https://nodejs.org/api/process.html#process_process_env).
 - Use dotenv to store and make environment variables available to your application globally.
 - Describe how environment variables are handled in version control.
 - Have familiarity with `nconf`'s hierarchical configuration.
@@ -24,26 +25,26 @@ Digging into this package can be useful when creating bigger projects where app 
 
 If you add secrets to a deployed project or a project that you plan on deploying, you'll have to research how to import environment variables to the PaaS you choose to use or else your deployment will fail.  For instance, when using Fly.io, you need to run `fly secrets import < .env` from the command line.
 
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. The main important takeaway here is to KEEP YOUR SECRETS SECRET by never accidentally publishing them.
-2. Read through the documentation for [dotenv](https://github.com/motdotla/dotenv#readme) and [nconf](https://github.com/indexzero/nconf). There are other ways to go about hiding your secrets, but these two packages are popular and widely used.
-3. Go back to your earlier projects and SECURE THEM!
+1. Read through the documentation for [dotenv](https://github.com/motdotla/dotenv#readme) and [nconf](https://github.com/indexzero/nconf). There are other ways to go about hiding your secrets, but these two packages are popular and widely used.
+1. Go back to your earlier projects and SECURE THEM!
 
 </div>
 
-### Additional resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-- If you still want to know more about environment variables [this](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) article digs deeper into variations you might encounter moving forward.
-
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What special kind of variable can be used on a server to store secrets?](#keep-it-secret-keep-it-safe)
 - [What are two widely used packages that can be used to store and import these variables?](#keep-it-secret-keep-it-safe)
 - [What is the name of the file `dotenv` looks for when injecting these variables into our app?](#keep-it-secret-keep-it-safe)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- If you still want to know more, this article digs deeper into [variations of environment variables](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) you might encounter moving forward.
