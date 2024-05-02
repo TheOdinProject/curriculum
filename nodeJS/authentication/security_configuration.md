@@ -5,7 +5,7 @@ This lesson is a small one, but it is _incredibly important_. Now that we are de
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Access environment variables using the [process](https://nodejs.org/api/process.html#process_process_env) object in node.
+- Access environment variables using [Node's `process` object](https://nodejs.org/api/process.html#process_process_env).
 - Use dotenv to store and make environment variables available to your application globally.
 - Describe how environment variables are handled in version control.
 - Have familiarity with `nconf`'s hierarchical configuration.
@@ -39,7 +39,7 @@ If you add secrets to a deployed project or a project that you plan on deploying
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- If you still want to know more about environment variables [this](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) article digs deeper into variations you might encounter moving forward.
+- If you still want to know more, this article digs deeper into [variations of environment variables](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) you might encounter moving forward.
 
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
