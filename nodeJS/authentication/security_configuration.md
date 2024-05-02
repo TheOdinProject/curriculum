@@ -35,12 +35,6 @@ If you add secrets to a deployed project or a project that you plan on deploying
 
 </div>
 
-### Additional resources
-
-This section contains helpful links to related content. It is not required, so consider it supplemental.
-
-- If you still want to know more, this article digs deeper into [variations of environment variables](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) you might encounter moving forward.
-
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
@@ -48,3 +42,9 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What special kind of variable can be used on a server to store secrets?](#keep-it-secret-keep-it-safe)
 - [What are two widely used packages that can be used to store and import these variables?](#keep-it-secret-keep-it-safe)
 - [What is the name of the file `dotenv` looks for when injecting these variables into our app?](#keep-it-secret-keep-it-safe)
+
+### Additional resources
+
+This section contains helpful links to related content. It is not required, so consider it supplemental.
+
+- If you still want to know more, this article digs deeper into [variations of environment variables](https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html) you might encounter moving forward.
