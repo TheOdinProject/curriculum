@@ -71,7 +71,7 @@ app.get("/messages", (req, res) => {
 });
 ```
 
-In order for our `GET /messages` route to match the `/messages` route, we will need to reverse the order our routes are defined. Doing so will prevent it from reaching the `*` route, as it will match the `/messages` route first.
+In order for our `GET /messages` request to match the `/messages` route, we will need to reverse the order our routes are defined. Doing so will prevent it from reaching the `*` route, as it will match the `/messages` route first.
 
 </div>
 
@@ -108,7 +108,7 @@ Now we can easily extract values from the request path for use within our middle
 
 #### Query parameters
 
-Query parameters are a unique and optional part of a URL that appear at the end, starting with a `?`. They are special as they are not actually considered part of the path itself, but are essentially more like arguments we can pass in to a given path. For example, `/odin/messages?sort=date&direction=ascending` will still match the route with the `/:username/messages` path, but we can access the `sort=date` and `direction=ascending` key-value pairs inside the middleware chain.
+Query parameters are a unique and optional part of a URL that appear at the end. A `?` denotes the start of the query parameters, with each query being a key-value pair with the format `key=value`, and each query separated by an `&`. They are special as they are not actually considered part of the path itself, but are essentially more like arguments we can pass in to a given path. For example, `/odin/messages?sort=date&direction=ascending` will still match the route with the `/:username/messages` path, but we can access the `sort=date` and `direction=ascending` key-value pairs inside the middleware chain.
 
 Express automatically parses any query parameters in a request and will populate the `req.query` object with any key-value pairs it finds. If any keys are repeated, Express will put all values for that key into an array.
 
@@ -129,7 +129,7 @@ app.get("/:username/messages", (req, res) => {
 });
 ```
 
-You may have already seen this with websites like YouTube. Every YouTube video is given a code and to watch that video, you navigate to `https://www.youtube.com/watch`, passing that video code as a query parameter with the `v` key. So appending `?v=xm3YgoEiEDc` will [request `/watch` from YouTube using `xm3YgoEiEDc` as the `v` query parameter](https://www.youtube.com/watch?v=xm3YgoEiEDc).
+You may have already seen this with websites like YouTube. Every YouTube video is given a code and to watch that video, you navigate to `https://www.youtube.com/watch`, passing that video code as a query parameter with the `v` key. You could even specify at what timestamp in seconds the video should start at via the `t` key. So appending `?v=xm3YgoEiEDc&t=424s` will [request `/watch` from YouTube for the `xm3YgoEiEDc` video starting `424` seconds in](https://www.youtube.com/watch?v=xm3YgoEiEDc&t=424s).
 
 ### Routers
 
