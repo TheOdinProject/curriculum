@@ -20,14 +20,15 @@ Organizing your project this way can be beneficial because it allows your projec
 
 Frontend and backend applications usually talk to each other using JSON, which you have already encountered if you've gone through our frontend JavaScript course. So at this point, all you really need to learn is how to get your Express application to speak JSON instead of HTML. The assignment at the end of this lesson will take you through a tutorial, but essentially all you have to do is pass your information into [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render). How easy is that?
 
-It is also quite possible to have an Express app that serves both views and JSON by using the Express router to set up different routes. If you think back to the organization of the routes in our ([Library Tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#Create_the_catalog_route_module)), all of our routes were set up in a `catalog` module, so to get the view for our list of books you would access `/catalog/books`. Setting the Library project up to also serve JSON would be as easy as creating a different router module called `api` and then adjusting the controllers so that `/catalog/books` would serve up the HTML list of our books and `/api/books` would serve up the same information as JSON.
+If you think back to the organization of the routes in ["Part 4: Routes and controllers"](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#Create_the_catalog_route_module) of the Local Library tutorial, all of our routes were set up in a `catalog` module, so to get the view for our list of books you would access `/catalog/books`. Setting the Library project up to also serve JSON would be as easy as creating a different router module called `api` and then adjusting the controllers so that `/catalog/books` would serve up the HTML list of our books and `/api/books` would serve up the same information as JSON.
 
 ### REST
 
 The structure of an API can take many forms, for example you could have routes named `/api/getAllPostComments/:postid` or `/api/posts/:postid/comments`.
 _However_, it's conventional to follow REST (an acronym for Representational State Transfer), a popular and common organizational method for your APIs which corresponds with [CRUD actions](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs/lessons/express-102-crud-and-mvc#crud). Following established patterns such as REST make your API more maintainable and make it easier for other developers to integrate with your API. Software development is often about clear communication which is aided by following expectations.
 
-The actual technical definition of REST is a little complicated (you can read about it on [wikipedia](https://en.wikipedia.org/wiki/Representational_state_transfer)), but for our purposes, most of the elements (statelessness, cacheability, etc.) are covered by default just by using Express to output JSON. The piece that we specifically want to think about is how to **organize our endpoint URIs** (Uniform Resource Identifier).
+The actual technical [definition of REST](https://en.wikipedia.org/wiki/Representational_state_transfer) is a little complicated, but our
+purposes, most of the elements (statelessness, cacheability, etc.) are covered by default just by using Express to output JSON. The piece that we specifically want to think about is how to **organize our endpoint URIs** (Uniform Resource Identifier).
 
 REST APIs are resource based, which basically means that instead of having names like `/getPostComments` or `/savePostInDatabase` we refer **directly to the resource** (in this case, the blog post) and use HTTP verbs such as GET, POST, PUT, and DELETE to determine the action.
 Typically this takes the form of 2 URI's per resource, one for the whole collection and one for a single object in that collection, for example, you might get a list of blog-posts from `/posts` and then get a specific post from `/posts/:postid`. You can also nest collections in this way. To get the list of comments on a single post you would access `/posts/:postid/comments` and then to get a single comment: `/posts/:postid/comments/:commentid`. Below are some other basic examples of endpoints you could have.
@@ -45,7 +46,7 @@ Each part of an API URI specifies the resource. For example, `GET /posts` would 
 
 The [Same Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy) is an important security measure that basically says "Only requests from the same origin (the same IP address or URL) should be allowed to access this API". (Look at the link above for a couple of examples of what counts as the 'same origin'.) This is a big problem for us because we are specifically trying to set up our API so that we can access it from different origins, so to enable that we need to set up Cross-origin resource sharing, or CORS.
 
-Setting up CORS in Express is very easy, there's a middleware that does the work for us. Explore the [official documentation](https://expressjs.com/en/resources/middleware/cors.html#enabling-cors-pre-flight) for further information.
+[Setting up CORS in Express](https://expressjs.com/en/resources/middleware/cors.html#enabling-cors-pre-flight) is very easy, there’s a middleware that does the work for us. 
 
 For now, it is acceptable to just allow access from any origin. This makes development quite a bit easier but for any _real_ project, once you deploy to a production environment you will probably want to specifically block access from any origin _except_ your frontend website. The documentation above explains how to do this.
 
@@ -53,15 +54,15 @@ For now, it is acceptable to just allow access from any origin. This makes devel
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Explore an informative Stack Overflow [article](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design) for understanding RESTful APIs. If you want to code along with the first article, please note this includes the body-parser middleware to parse JSON data on the request body, however since Express 4.16.0 this parsing functionality has been incorporated directly into the express package itself.
-1. Read and code along with the following [tutorial](https://www.robinwieruch.de/node-express-server-rest-api/) to set up a REST API in Express. Discover one of the top Express tutorials covering modular code organization, middleware creation, and additional valuable resources.
+1. Read and code along with this tutorial on [setting up a REST API in Express](https://www.robinwieruch.de/node-express-server-rest-api/). If you want to code along with the first article, please note this includes the body-parser middleware to parse JSON data on the request body, however since Express 4.16.0 this parsing functionality has been incorporated directly into the express package itself.
+2. Read and code along with the following [tutorial](https://www.robinwieruch.de/node-express-server-rest-api/) to set up a REST API in Express. Discover one of the top Express tutorials covering modular code organization, middleware creation, and additional valuable resources.
 </div>
 
 ### Additional resources
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- A [simple](https://simple.wikipedia.org/wiki/Representational_state_transfer) example based definition of REST.
+- A simple [example-based definition of REST](https://simple.wikipedia.org/wiki/Representational_state_transfer).
 
 ### Knowledge check
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
