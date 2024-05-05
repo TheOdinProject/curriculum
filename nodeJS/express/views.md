@@ -159,6 +159,8 @@ include("user/show");
 
 Note the use of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
 
+</div>
+
 ### Serving Static Assets
 
 Serving static assets with EJS is similar to how we served assets previously when working directly with HTML, in that we can add external files to the head of the template file using the `link` tag. The main thing to point out is that the app needs to know where to serve assets from. Assuming `express` is installed, set the following lines in `app.js`:
