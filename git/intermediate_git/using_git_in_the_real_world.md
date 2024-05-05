@@ -28,7 +28,7 @@ The key players in this story will be the `upstream` (the original GitHub reposi
 #### Initial setup
 
 1. Read [the TOP contributing guide](https://github.com/TheOdinProject/curriculum/blob/main/CONTRIBUTING.md) for the project.
-1. Navigate to the curriculum repository and fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub.
+1. Navigate to the [curriculum repository](https://github.com/TheOdinProject/curriculum/tree/main) and fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub.
 1. Clone your forked repository onto your local machine using something like `git clone git@github.com:your_user_name_here/curriculum.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on GitHub).
 1. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on GitHub. You will use this to push changes back up to GitHub. You'll also want to be able to pull directly from the original repository on GitHub, which we'll call `upstream`, by setting it up as another remote. Do this by using the git command below inside the project folder `curriculum`:
 
