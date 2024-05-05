@@ -47,7 +47,7 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
   1. `#get(key)` takes one argument as a key and returns the value that is assigned to this key. If key is not found, return `nil`.
 
-  1. `#has(key)` takes a key as an argument and returns `true` or `false` based on whether or not the key is in the hash map.
+  1. `#has?(key)` takes a key as an argument and returns `true` or `false` based on whether or not the key is in the hash map.
 
   1. `#remove(key)` takes a key as an argument. If the given key is in the hash map, it should remove the entry with that key and return the deleted entry's value. If the key isn't in the hash map, it should return `nil`.
 
