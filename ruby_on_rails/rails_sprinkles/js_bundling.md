@@ -258,4 +258,4 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [good mention of why JS bundling is still a valid option by David Heinemeier Hansson](https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755).
-- [high level look over jsbundling-rails versus webpacker if your interested in the differences](https://github.com/rails/jsbundling-rails/blob/main/docs/comparison_with_webpacker.md).
+- [high level look over jsbundling-rails versus webpacker if you are interested in the differences](https://github.com/rails/jsbundling-rails/blob/main/docs/comparison_with_webpacker.md).
