@@ -34,7 +34,7 @@ There are multiple options for linting your JavaScript, but the most popular (an
 
 #### A note if your ESLint config is not loading
 
-The current version of the extension (2.4.4) will only pick up the workspace folder's ESLint config file, and not a config file for a subdirectory of that workspace. Switching to the pre-release version solves this.
+The current version of the extension (2.4.4) will only pick up the workspace folder's ESLint config file, and not a config file for a subdirectory of that workspace. Switching to the pre-release version solves this. You will also need to enable `Eslint: Use Flat Config` in VSCode's settings.
 
 </div>
 
