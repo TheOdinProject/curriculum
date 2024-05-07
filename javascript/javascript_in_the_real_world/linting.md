@@ -28,6 +28,8 @@ The style guides we mentioned above are full of really helpful advice for format
 There are multiple options for linting your JavaScript, but the most popular (and most common in the industry) is [ESLint](https://eslint.org/). Getting it installed and the initial set-up is straightforward.
 
 1. [The official 'Getting Started' page](https://eslint.org/docs/user-guide/getting-started) is a good place to start. It covers installation and basic setup. The basic way to use this tool is to run the `eslint` command in your terminal with a specific file.
+    - You may also want to look at the [docs on configuring ESLint](https://eslint.org/docs/latest/use/configure/) for a list of options that you can change.
+
 1. There is an [ESLint extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) with which you can get automatic lint highlighting for your files as you write, without you needing to rerun the `eslint` command every time. If your project also contains an ESLint configuration file, the extension will automatically use those rules for that project.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
