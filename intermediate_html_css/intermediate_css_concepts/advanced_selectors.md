@@ -77,7 +77,7 @@ Phrased another way, the child selector will select an element that is one level
 }
 ```
 
-Finally, if we want to select all of the siblings following an element's and not just the first one, we can use the general sibling combinator `~`.
+Finally, if we want to select all of the siblings following an element and not just the first one, we can use the general sibling combinator `~`.
 
 ```css
 /* This rule will select all of .group1's siblings - in this case the 2nd and 3rd .child divs */
