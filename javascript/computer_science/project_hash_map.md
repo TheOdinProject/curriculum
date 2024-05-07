@@ -71,6 +71,6 @@ Remember that a hash map does not preserve insertion order when you are retrievi
 
 #### Extra Credit
 
-- Create a class `HashSet` that behaves the same as a `HashMap` but only contains `keys` with no `values`.
+- Create a `HashSet` class or factory function that behaves the same as a `HashMap` but only contains `keys` with no `values`.
 
 </div>
