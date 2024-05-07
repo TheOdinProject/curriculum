@@ -219,13 +219,13 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class='knowledge-check-link' href='#reading-the-stack-trace'>What is a stack trace?</a>
-- <a class='knowledge-check-link' href='#most-useful-stack-trace-line'>What is generally the most useful line in a stack trace?</a>
-- <a class='knowledge-check-link' href='#stack-trace-first-line-info'>What are the two things you can learn from the first line of a stack trace?</a>
-- <a class='knowledge-check-link' href='#debugging-with-puts'>How do `puts` and Pry help you in the debugging process?</a>
-- <a class='knowledge-check-link' href='#debugging-with-puts-and-nil'>What should you use instead of `puts` for `nil` values?</a>
-- <a class='knowledge-check-link' href='#debugging-with-stack-trace'>Where should you start with debugging if you encounter a runtime error?</a>
-- <a class='knowledge-check-link' href='#debugging-without-stack-trace'>Where should you start with debugging if your program runs but does not work the way you expect?</a>
+- [What is a stack trace?](#reading-the-stack-trace)
+- [What is generally the most useful line in a stack trace?](#most-useful-stack-trace-line)
+- [What are the two things you can learn from the first line of a stack trace?](#stack-trace-first-line-info)
+- [How do `puts` and Pry help you in the debugging process?](#debugging-with-puts)
+- [What should you use instead of `puts` for `nil` values?](#debugging-with-puts-and-nil)
+- [Where should you start with debugging if you encounter a runtime error?](#debugging-with-stack-trace)
+- [Where should you start with debugging if your program runs but does not work the way you expect?](#debugging-without-stack-trace)
 
 ### Additional resources
 

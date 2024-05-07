@@ -13,7 +13,9 @@ Before continuing, let's review a few best practices to keep in mind:
 Now, let's get started!
 
 <details markdown="block">
+
 <summary class="dropDown-header">Linux
+
 </summary>
 
 ### Step 1: Install updates, packages and libraries
@@ -66,7 +68,9 @@ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 Next, we'll add some commands to allow rbenv to work properly. We can use the Linux `echo` command to make it easy.
 
 <div class="lesson-note lesson-note--warning" markdown=1>
+
 Run these commands one by one in sequence. They will not provide any output if done properly. Again, be sure to copy and paste these commands.
+
 </div>
 
 ```bash
@@ -153,7 +157,9 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">MacOS
+
 </summary>
 
 ### Step 1: Install packages and libraries
