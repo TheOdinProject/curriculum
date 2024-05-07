@@ -23,12 +23,22 @@ Code style is important! Having a consistent set of style rules for things such 
 The style guides we mentioned above are full of really helpful advice for formatting, organizing and composing your code. But there are a *lot* of rules - it can be difficult to internalize them all. **Linters** are tools that will scan your code with a set of style rules and will report any errors to you that they find. In some cases, they can even auto-fix the errors! The following articles explain in more detail the benefits of using a linter while you code.
 
 1. This article on [JavaScript linters](https://gomakethings.com/javascript-linters/) gets right to the point... start here!
-1. Read this article that [goes a little further](https://hackernoon.com/how-linting-and-eslint-improve-code-quality-fa83d2469efe) by discussing exactly *how* linters do what they do.
+1. Read this article that goes a little further by discussing exactly [*how* linters do what they do](https://hackernoon.com/how-linting-and-eslint-improve-code-quality-fa83d2469efe).
 
-There are multiple options for linting your JavaScript, but the most popular (and most common in the industry) is [eslint](https://eslint.org/). Getting it installed and the initial set-up is straightforward.
+There are multiple options for linting your JavaScript, but the most popular (and most common in the industry) is [ESLint](https://eslint.org/). Getting it installed and the initial set-up is straightforward.
 
 1. [The official 'Getting Started' page](https://eslint.org/docs/user-guide/getting-started) is a good place to start. It covers installation and basic setup. The basic way to use this tool is to run the `eslint` command in your terminal with a specific file.
-1. There is an [ESLint extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) which can lint your files as you write, without you needing to rerun the `eslint` command every time. If your project also contains an ESLint configuration file, the extension will automatically use those rules for that project. Here is a [tutorial on using the ESLint extension in Visual Studio Code](https://www.digitalocean.com/community/tutorials/linting-and-formatting-with-eslint-in-vs-code).
+    - You may also want to look at the [docs on configuring ESLint](https://eslint.org/docs/latest/use/configure/) for a list of options that you can change.
+
+1. There is an [ESLint extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) with which you can get automatic lint highlighting for your files as you write, without you needing to rerun the `eslint` command every time. If your project also contains an ESLint configuration file, the extension will automatically use those rules for that project.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### A note if your ESLint config is not loading
+
+The current version of the extension (2.4.4) will only pick up the workspace folder's ESLint config file, and not a config file for a subdirectory of that workspace. Switching to the pre-release version solves this. You will also need to enable `Eslint: Use Flat Config` in VSCode's settings.
+
+</div>
 
 ### Prettier
 
@@ -42,9 +52,7 @@ Using prettier makes coding faster and easier! You don't have to worry about nai
 
 ### Using ESLint and Prettier
 
-We **highly** recommend that you install ESlint and Prettier and use them for all future projects. It will make your code easier to read, both for yourself and for anyone else looking at it.
-However, using ESLint and Prettier together causes conflicts. To fix that follow the instructions to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#installation). It turns off all ESLint rules that are unnecessary or might conflict with Prettier. Doing just this is enough to resolve the conflict and get them both working smoothly with one another.
-Another way to address the conflict is to use `eslint-plugin-prettier`. It lets you run Prettier as if it were a rule in ESLint. However, [using `eslint-plugin-prettier` is not recommended](https://prettier.io/docs/en/integrating-with-linters.html#notes).
+We **highly** recommend that you install ESlint and Prettier and use them for all future projects. It will make your code easier to read, both for yourself and for anyone else looking at it. There is no special setup needed apart from installing both of them.
 
 ### Template repositories
 
