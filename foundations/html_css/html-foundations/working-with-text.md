@@ -194,7 +194,6 @@ In order to write an HTML comment, we just enclose the comment with `<!--` and `
 If you find typing out the comments syntax tiring, the following shortcut will help you quickly create a new comment, convert any line to a comment, or uncomment any line:
 
 - Mac Users: <kbd>Cmd</kbd> + <kbd>/</kbd>
-
 - Windows and Linux Users: <kbd>Ctrl</kbd> + <kbd>/</kbd>
 
 </div>
