@@ -68,6 +68,14 @@ But now with ESM, we no longer need to use IIFEs for this specific purpose.
 
 With ESM, we have a little more control over things. Each file has its own private scope by default, and not only can we choose what things we export from that file, we can also choose what things we import into other files. So just because we export something, it doesn't mean it's automatically available elsewhere - it will only be available in another file if we also explicitly import it there. Lots of control!
 
+<div class="lesson-note" markdown="1">
+
+#### Module scope is not the global scope
+
+When using ESM, each module has its own private scope, where we use import/export to communicate between files. A top-level variable in a module will not be accessible in the global scope.
+
+</div>
+
 #### Entry point
 
 When we use ESM, instead of adding every JavaScript file to our HTML in order, we only need to link a single file - the **entry point**.
@@ -159,9 +167,15 @@ import greeting, { farewell } from "./one.js";
 
 #### Named import/exports aren't the same as object literals!
 
-Using `{ }` with named import/exports is syntax exlusive to them, and is not related in any way to declaring object literals or [destructuring objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring).
+Using `{ }` with named import/exports is special syntax, and is not related in any way to declaring object literals or [destructuring objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring).
 
-`export { greeting, farewell };` means we are named exporting the `greeting` and `farewell` variables, not exporting an object with `greeting` and `farewell` properties. Similarly, `import { greeting, farewell } from "./one.js";` means we are named importing those variables, not destructuring an object with those properties.
+```javascript
+export { greeting, farewell };
+
+import { greeting, farewell } from "./one.js";
+```
+
+In the above, we are not exporting an object containing `greeting` and `farewell` keys, nor are we destructuring an object with those keys when importing. We are just using named import/export syntax.
 
 </div>
 
