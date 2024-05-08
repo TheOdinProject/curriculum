@@ -93,9 +93,79 @@ But how do we actually import and export? Confusingly, there are two types of im
 
 #### Default exports
 
+**We can only default export a single "thing" from a single file.** Something default exported from a file does not have a name attached to it - when you import it somewhere, you can decide what to call it when importing. To export something from a file as a default export, we either add to the file `export default XXXXXX`, where `XXXXXX` is the name of the thing we want to export, or we can stick `export default` at the start of the thing to export when it's declared. Either way is fine. Note that if you `export default` a variable inline, `default` replaces `let`/`const`.
 
+Lets see about default exporting out `greeting` variable from the original `one.js` (no IIFE).
 
-#### CommonJS
+```javascript
+// one.js
+const greeting = "Hello, odinite!";
+export default greeting;
+
+// We could als default export it inline like so
+export default greeting = "Hello, odinite!";
+```
+
+Now in our `two.js`, we can default import that string! Remember, since we're importing something that was default exported, we can name it whatever we want - it doesn't have to be called `greeting` if you don't want it to be. We just have to give it a name, and provide the path to the file we're importing from.
+
+```javascript
+// two.js
+import helloOdinite from "./one.js";
+
+console.log(helloOdinite); // "Hello, odinite!"
+```
+
+But what if you had multiple separate things to export from `one.js`?
+
+#### Named exports
+
+Named exports are actually exported with the name they were declared with, which means we have to import them by their name as well. We either do it inline like before just without `default` (meaning we need the `let`/`const` here), or add to the file an `export { }`, where the curly braces contains a list of names of the things to export as named exports.
+
+```javascript
+// one.js
+const greeting = "Hello, odinite!";
+const farewell = "Bye bye, odinite!";
+export { greeting, farewell };
+
+// Or inline
+export const greeting = "Hello, odinite!";
+export const farewell = "Bye bye, odinite!";
+```
+
+Now to import these named exports in `two.js`! Remember that we can control what we import, so if we only need the `greeting` variable, we could just import that on its own! If another file needed the `farewell` variable (or both), then that file could import what it needs. The `{ }` specifies that the things inside were exported as named exports.
+
+```javascript
+// two.js
+import { greeting, farewell } from "./one.js";
+
+console.log(greeting); // "Hello, odinite!"
+console.log(farewell); // "Bye bye, odinite!"
+```
+
+A file can both export something as a default export and any number of named exports. Confusingly enough, there isn't really a universally agreed rule for when to use either, outside of the fact that a file can have multiple named exports but only one default export. Use whatever works for you, or in the future when working in a team, whatever your team prefers if they prefer a certain system.
+
+```javascript
+// one.js
+export default greeting = "Hello, odinite!";
+export const farewell = "Bye bye, odinite!";
+```
+
+```javascript
+// two.js
+import greeting, { farewell } from "./one.js";
+```
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Named import/exports aren't the same as object literals!
+
+Using `{ }` with named import/exports is syntax exlusive to them, and is not related in any way to declaring object literals or [destructuring objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring).
+
+`export { greeting, farewell };` means we are named exporting the `greeting` and `farewell` variables, not exporting an object with `greeting` and `farewell` properties. Similarly, `import { greeting, farewell } from "./one.js";` means we are named importing those variables, not destructuring an object with those properties.
+
+</div>
+
+### CommonJS
 
 ### npm
 
