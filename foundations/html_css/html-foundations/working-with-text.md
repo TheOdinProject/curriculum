@@ -41,7 +41,6 @@ It looks like two paragraphs of text, and so you might expect it to display in t
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-
 When the browser encounters new lines like this in your HTML, it will compress them down into one single space. The result of this compression is that all of the text is clumped together into one long line.
 
 If we want to create paragraphs in HTML, <span id='create-paragraph-element'>we need to use the paragraph element</span>, which will add a new line after each of our paragraphs. A paragraph element is defined by wrapping text content with a `<p>` tag.
