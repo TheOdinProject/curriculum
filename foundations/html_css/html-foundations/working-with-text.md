@@ -69,7 +69,7 @@ Headings are defined much like paragraphs. For example, to create an h1 heading,
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="LYLPLbg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/LYLPLbg">
-  HTML-headings-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  html-headings-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) <!-- markdownlint-disable-line MD044 -->
   on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
@@ -87,7 +87,7 @@ You can use strong on its own:
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="qBjWXrB" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/qBjWXrB">
-  HTML-single-strong-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  html-single-strong-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) <!-- markdownlint-disable-line MD044 -->
   on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
@@ -99,7 +99,7 @@ But you will probably find yourself using the strong element much more in combin
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="wvewqJr" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/wvewqJr">
-  HTML-strong-with-paragraph-exmample</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  html-strong-with-paragraph-exmample</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) <!-- markdownlint-disable-line MD044 -->
   on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
@@ -117,7 +117,7 @@ To use `<em>` on its own:
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="wvewqpp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/wvewqpp">
-  HTML-single-em-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  html-single-em-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) <!-- markdownlint-disable-line MD044 -->
   on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
@@ -129,7 +129,7 @@ Again, like the strong element, you will find yourself mostly using the `<em>` e
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="VwWZzyj" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/VwWZzyj">
-  HTML-em-with-paragraph-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  html-em-with-paragraph-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) <!-- markdownlint-disable-line MD044 -->
   on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
@@ -147,7 +147,7 @@ In the following example, the body element is the parent and the paragraph is th
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="oNwjEvO" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/oNwjEvO">
-  HTML-nesting-parent-child</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  html-nesting-parent-child</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) <!-- markdownlint-disable-line MD044 -->
   on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
@@ -161,7 +161,7 @@ For example, the two paragraphs in the following code are siblings, since they a
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="ZEybrYx" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/ZEybrYx">
-  HTML-nesting-siblings</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  html-nesting-siblings</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) <!-- markdownlint-disable-line MD044 -->
   on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
@@ -181,7 +181,7 @@ In order to write an HTML comment, we just enclose the comment with `<!--` and `
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abwoyBg" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/abwoyBg">
-  HTML-comments-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  html-comments-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>) <!-- markdownlint-disable-line MD044 -->
   on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
