@@ -66,7 +66,34 @@ But now with ES6 modules, we no longer need to use IIFEs for this specific purpo
 
 ### ES6 modules
 
-#### Default and named exports
+With ES6 modules, we have a little more control over things. Each file has its own private scope by default, and not only can we choose what things we export from that file, we can also choose what things we import into other files. So just because we export something, it doesn't mean it's automatically available elsewhere - it will only be available in another file if we also explicitly import it there. Lots of control!
+
+#### Entry point
+
+When we use ES6 modules, instead of adding every JavaScript file to our HTML in order, we only need to link a single file - the **entry point**.
+
+Take our `one.js` and `two.js` example and pretend we've written the import/exports using ES6 module syntax (we'll get to that shortly). `two.js` depends on `one.js` for the `greeting` variable, so we have the following **dependency graph**:
+
+```text
+        depends on
+two.js <----------- one.js
+```
+
+Therefore, `two.js` is our entry point. When we load `two.js` as a module, the browser will see that it depends on `one.js` then load the code from that file as well. If we instead loaded `one.js` as our entry point, the browser would see that it does not depend on any other files, and so leave it at that. Our code from `two.js` would be ignored and nothing gets logged!
+
+You can add external scripts to HTML as ES6 modules by adding only the appropriate entry point file like so:
+
+```html
+<script src="two.js" type="module"></script>
+```
+
+Note that we did not need to link `one.js`, as the browser will handle that for us when it sees what `two.js` depends on. We also did not need to add the `defer` attribute, as `type="module"` automatically defers script execution for us.
+
+But how do we actually import and export? Confusingly, there are two types of importing and exporting, `default` and `named`, and they can even be mixed and matched in the same file.
+
+#### Default exports
+
+
 
 #### CommonJS
 
