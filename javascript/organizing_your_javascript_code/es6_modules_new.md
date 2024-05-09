@@ -187,6 +187,14 @@ CJS is still used quite a lot in NodeJS code, though in recent years, ESM has be
 
 ### npm
 
+**npm** is a package manager, a gigantic repository of plugins, libaries and other tools, which provides us a command-line tool we can use to install these tools (we call "packages") in our applications. Then we will have all our installed packages' code locally, which can then import into our own files. We can even publish our own code to npm!
+
+You may recall installing npm in the Foundations course in order to install the Jest testing framework to do the JavaScript exercises. Funnily enough, [npm does not stand for "Node Package Manager"](https://twitter.com/npmjs/status/105690425242820608), though you will often see it referred to as such.
+
+If you are in the Full Stack Ruby on Rails pathway, you will have already been introduced to Yarn, an alternative package manager. For this course, we will be using npm.
+
+As our applications get more complex and more and more files are needed (whether they are our own files or files from packages we installed and imported), managing many of these dependencies can become rather troublesome, especially when packages get updated. This is even more so when we consider we may end up sending *many* JavaScript files to the browser to download. In the next lesson, we will talk through bundlers, a tool that lets us write multiple files that are better for us to work with, then bundle them together into fewer smaller files (that do exactly the same thing) which will be sent to the browser instead.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
