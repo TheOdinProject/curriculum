@@ -1,6 +1,8 @@
 ### Introduction
 
-We've learned about the **module pattern** in a previous lesson, and played around with using them to help organise our variables and functions. At some point in the last few projects, you may have even wondered "How would we manage more complex projects? Files would get too long! It would be great it we could split our code up into multiple files for organisation!". While the module pattern used to play a big part in helping us manage this, the release of ES6 (sometimes referred to as ES2015) gave us actual "modules", and thus they are often referred to as "ES6 modules" or "ESM".
+We've learned about the **module pattern** in a previous lesson, and played around with using them to help organise our variables and functions. At some point in the last few projects, you may have even wondered "How would we manage more complex projects? Files would get too long! It would be great it we could split our code up into multiple files for organisation!". Using multiple files would be extremely handy, as we could more easily separate our code into groups of related functions and values, without having to scroll through one ridiculously long file.
+
+While the module pattern used to play a big part in helping us manage this, the release of ES6 (sometimes referred to as ES2015) gave us actual "modules", and thus they are often referred to as "ES6 modules" or "ESM".
 
 ### Lesson overview
 
@@ -11,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 - Explain the main differences between CommonJS modules and ES6 modules
 - Understand what npm is
 
-### Before ES6 modules - the global scope problem
+### Before ES6 modules: The global scope problem
 
 <div class="lesson-note" markdown="1">
 
@@ -187,7 +189,7 @@ CJS is still used quite a lot in NodeJS code, though in recent years, ESM has be
 
 ### npm
 
-**npm** is a package manager, a gigantic repository of plugins, libaries and other tools, which provides us a command-line tool we can use to install these tools (we call "packages") in our applications. Then we will have all our installed packages' code locally, which can then import into our own files. We can even publish our own code to npm!
+**npm** (no capitals!) is a package manager, a gigantic repository of plugins, libaries and other tools, which provides us a command-line tool we can use to install these tools (we call "packages") in our applications. Then we will have all our installed packages' code locally, which can then import into our own files. We can even publish our own code to npm!
 
 You may recall installing npm in the Foundations course in order to install the Jest testing framework to do the JavaScript exercises. Funnily enough, [npm does not stand for "Node Package Manager"](https://twitter.com/npmjs/status/105690425242820608), though you will often see it referred to as such.
 
@@ -199,16 +201,31 @@ As our applications get more complex and more and more files are needed (whether
 
 <div class="lesson-content__panel" markdown="1">
 
+1. As per usual, you can learn most about JavaScript keywords and concepts from the MDN docs, so check out the [docs on export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) and [docs on import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import). There are little extras about them we have not covered in this lesson, such as aliases and namespace imports.
+1. Read a bit about npm, packages and dependencies:
+   1. [Installing packages with npm](https://docs.npmjs.com/downloading-and-installing-packages-locally).
+   1. Read about [the `package.json` file](https://docs.npmjs.com/creating-a-package-json-file), the file that stores much of the information for our app, including all the packages installed in it. npm uses this file to do things like install the right packages, update to the correct versions etc.
+   1. Any packages we install are called "dependencies", but if any package are only used during the development process and their code is not needed for the user-facing app (such as the Jest testing framework), we call them [development dependencies](https://dev.to/mshertzberg/demystifying-devdependencies-and-dependencies-5ege).
+1. Here is a great little [history lesson about JavaScript and managing packages across multiple files](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html). Only read up to "Using a JavaScript module bundler (webpack)", as we will cover bundlers and webpack in the next lesson.
+
 </div>
 
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [From inside to outside, what is the order of box-model properties?](#the-box-model)
+- [Before ES6 modules, how would you privatise a variable from being accessible in other files?](#before-es6-modules-the-global-scope-problem)
+- [Before ES6 modules, how would you expose variables to be accessible in later files?](#before-es6-modules-the-global-scope-problem)
+- [What are some benefits of writing code in modules?](#introduction)
+- [What is an entry point?](#entry-point)
+- [How do you link a module script in HTML?](#entry-point)
+- [What is the difference between default and named exports?](#default-exports)
+- [What is npm?](#npm)
+- [What file does npm use that contains all information about dependencies?](https://docs.npmjs.com/creating-a-package-json-file)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- This video on [ES6 Modules by Web Dev Simplified](https://youtu.be/cRHQNNcYf6s) summarises much of the ESM topics discussed in this lesson. At the end, he mentions about `nomodule` and support for older browsers that were unable to support ESM. Nowadays, ESM is supported by nearly every browser, certainly ones that will be in common use, and so you will not need to worry about browser compatibility for this.
+- Here is a [brief comparison of CommonJS modules and ES6 modules](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/).
