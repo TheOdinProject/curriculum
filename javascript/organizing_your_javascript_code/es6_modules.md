@@ -1,6 +1,6 @@
 ### Introduction
 
-We've learned about the **module pattern** in a previous lesson and played around with using them to help organize our variables and functions. At some point in the last few projects, you may have even wondered, "How would we manage more complex projects? Files would get too long! It would be great if we could split our code up into multiple files for organization!". Using multiple files would be extremely handy, as we could more easily separate our code into groups of related functions and values without having to scroll through one ridiculously long file.
+We've learned about the **module pattern** in a previous lesson and played around with using them to help organize our variables and functions. At some point in the last few projects, you may have even wondered, "How would we manage more complex projects? Files would get too long! It would be great if we could split our code up into multiple files for organization!". Using multiple files would be extremely handy for this exact reason.
 
 While the module pattern used to play a big part in helping us manage this, the release of ES6 (sometimes referred to as ES2015) gave us actual "modules" and thus they are often referred to as "ES6 modules" or "ESM".
 
@@ -17,7 +17,7 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-note" markdown="1">
 
-Even though `let`/`const` and arrow functions were not around before ES6, we will still use them in our pre-ES6 examples, as they won't change how things work regarding the global scope and the module pattern, which is the main focus of this section.
+Even though `let`/`const` and arrow functions were not around before ES6, we will still use them in our pre-ES6 examples. They won't change how things work regarding the global scope and the module pattern, which is the main focus of this section.
 
 </div>
 
@@ -86,11 +86,11 @@ When we use ESM, instead of adding every JavaScript file to our HTML in order, w
 <script src="two.js" type="module"></script>
 ```
 
-Why is `two.js` our entry point? Take our original `one.js` and `two.js` example and pretend we've written the import/exports using ES6 module syntax (we'll get to that shortly). `two.js` depends on `one.js` for the `greeting` variable, so we have the following **dependency graph**:
+Why is `two.js` our entry point? Let's take our original `one.js` and `two.js` example and pretend we've written the import/exports using ES6 module syntax (we'll get to that shortly). `two.js` depends on `one.js` for the `greeting` variable, so we have the following **dependency graph**:
 
 ```text
-        depends on
-two.js <----------- one.js
+importer  depends on  exporter
+two.js <-------------- one.js
 ```
 
 When we load `two.js` as a module, the browser will see that it depends on `one.js` and load the code from that file as well. If we instead used `one.js` as our entry point, the browser would see that it does not depend on any other files, and so would do nothing else. Our code from `two.js` would not be used, and nothing would get logged!
@@ -99,48 +99,22 @@ Note that we only needed the one script tag as the browser handles the additiona
 
 But how do we actually import and export? In true JavaScript fashion, we don't have just one but two types of importing and exporting: `default` and `named`, and they essentially do the same kind of thing but very slightly differently. They can even be mixed and matched in the same file.
 
-#### Default exports
-
-We can only default export a single "thing" from a single file. Something default exported from a file does not have a name attached to it; when you import it somewhere, you can decide what to name to give it when importing. To export something from a file as a default export, we either add to the file `export default XXXXXX`, where `XXXXXX` is the name of the thing we want to export, or we can do it inline by putting `export default` in front of the thing to export when it's declared. Either way is fine. Note that if you default export something inline, the `default` keyword replaces `let`/`const`.
-
-Let's see about default exporting our `greeting` variable from our original `one.js` (no IIFE).
-
-```javascript
-// one.js
-const greeting = "Hello, Odinite!";
-export default greeting;
-
-// We could also default export it inline, like this
-export default greeting = "Hello, Odinite!";
-```
-
-Now in our `two.js`, we can default import that string! Remember, since we're importing something that was default exported, we can name it whatever we want. It doesn't have to be called `greeting` if we don't want it to be. We just have to give it a name, then provide the path to the file we're importing from.
-
-```javascript
-// two.js
-import helloOdinite from "./one.js";
-
-console.log(helloOdinite); // "Hello, Odinite!"
-```
-
-But what if you had multiple separate things to export from `one.js`?
-
 #### Named exports
 
-Named exports are actually exported with the name they were declared with, which means we have to import them by their name as well. We either do it inline like before just without `default` (meaning we need the `let`/`const` here) or add to the file an `export { }`, where the curly braces contain a list of the names of the things to export as named exports.
+To export something as a **named export**, we can either stick the `export` keyword in front of its declaration, or add an `export { }` somewhere in the file (typically the end), where the curly braces contain a list of the names of the things to export. Either method is fine to use, and we can export as many things as we liked as named exports.
 
 ```javascript
 // one.js
+export const greeting = "Hello, Odinite!";
+export const farewell = "Bye bye, Odinite!";
+
+// Or on a separate line
 const greeting = "Hello, Odinite!";
 const farewell = "Bye bye, Odinite!";
 export { greeting, farewell };
-
-// Or inline
-export const greeting = "Hello, Odinite!";
-export const farewell = "Bye bye, Odinite!";
 ```
 
-Now to import these named exports in `two.js`! Remember that we can control what we import, so if we only need the `greeting` variable, we could just import that on its own. If another file needed the `farewell` variable (or both), then that file could import what it needs. The `{ }` specifies that the things inside were named exports.
+Now to import these variables in `two.js`! Remember that we can control what we import, so if we only need the `greeting` variable, we could just import that on its own. If another file needed the `farewell` variable (or both), then that file could import what it needs. Don't import it? Can't use it. To do named imports, we must specify the names of the things we want to import inside `{ }` and provide the path to the file we're importing from.
 
 ```javascript
 // two.js
@@ -148,19 +122,6 @@ import { greeting, farewell } from "./one.js";
 
 console.log(greeting); // "Hello, Odinite!"
 console.log(farewell); // "Bye bye, Odinite!"
-```
-
-A file can both default export something and named export any number of other things at the same time. Confusingly enough, there isn't really a universally agreed-upon rule for when to use either, outside of the fact that a file can have multiple named exports but only one default export. When it comes to only needing to export a single thing from a module, some people prefer using a default export whereas some prefer using a single named export. Both work so use whatever works for you, or in the future, when working in a team, whatever your team prefers if they prefer a certain system.
-
-```javascript
-// one.js
-export default greeting = "Hello, Odinite!";
-export const farewell = "Bye bye, Odinite!";
-```
-
-```javascript
-// two.js
-import greeting, { farewell } from "./one.js";
 ```
 
 <div class="lesson-note lesson-note--warning" markdown="1">
@@ -179,11 +140,48 @@ In the above, we are not exporting an object containing `greeting` and `farewell
 
 </div>
 
+#### Default exports
+
+In contrast to named exports, a file can only default export a single thing. Something exported this way does not have a name attached to it, so when you import it somewhere, you can decide what name to give it.
+
+To export something from a file as a default export, we can also do it inline by prepending `export default` to the appropriate declaration, or we can export it at the end of the file, this time *without* any curly braces. Again, either way is perfectly fine. Note that if you do an inline default export, if you would normally declare with `let` or `const`, the `default` keyword *replaces* `let`/`const`.
+
+```javascript
+// one.js
+export default greeting = "Hello, Odinite!";
+
+// Or on a separate line
+const greeting = "Hello, Odinite!";
+export default greeting;
+```
+
+Now in our `two.js`, we can default import that string. Remember, since we're importing something that was default exported, we can name it whatever we want. Even though the variable was called `greeting` in `one.js`, we don't have to call it that in `two.js` if we don't want to. When default importing, we don't use curly braces, which are for named importing.
+
+```javascript
+// two.js
+import helloOdinite from "./one.js";
+
+console.log(helloOdinite); // "Hello, Odinite!"
+```
+
+You can use both default and named exports in the same file. Confusingly enough, there isn't really a universally agreed-upon rule for when to use either, outside of the fact that a file can have multiple named exports but only one default export. When it comes to only needing to export a single thing from a module, some people prefer using a default export whereas some prefer using a single named export. Both work so use whatever you prefer, or in the future, when working in a team, whatever your team prefers if they prefer a certain system.
+
+```javascript
+// one.js
+export default greeting = "Hello, Odinite!";
+export const farewell = "Bye bye, Odinite!";
+```
+
+```javascript
+// two.js
+import greeting, { farewell } from "./one.js";
+```
+
 ### CommonJS
 
-Along the way, you may have bumped into something called "CommonJS" (a.k.a. CJS), which uses syntax like `require` and `module.exports`. We use this for our JavaScript exercises from Foundations! This is a module system that was designed for use with NodeJS that works a little differently than ESM, and is not something that browsers will be able to understand.
+Along the way, you may have bumped into something called CommonJS (CJS), which uses syntax like `require` and `module.exports`. You may remember seeing this in our JavaScript exercises in the Foundations course (you've come a long way)! This is a module system that was designed for use with NodeJS that works a little differently than ESM, and is not something that browsers will be able to understand.
 
-CJS is still used quite a lot in NodeJS code, though in recent years, ESM has become more popular there. For the time being, we are focused on writing code to run in the browser, so we will be spending time with ESM. If you are taking the Full Stack JavaScript pathway, then we will cover CJS in more detail later in the NodeJS course.
+CJS is still used quite a lot in NodeJS code, though in recent years, ESM in NodeJS has been gaining popularity. For the time being, we are focused on writing code to run in the browser, so we will be spending time with ESM. If you are taking the Full Stack JavaScript pathway, then we will cover CJS in more detail later in the NodeJS course.
 
 ### npm
 
