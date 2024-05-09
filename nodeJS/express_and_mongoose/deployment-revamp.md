@@ -178,10 +178,14 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ### Koyeb
 
+- Easily Git push to deploy.
+- Ability to run web apps, APIs, and workers easily.
+- SSL and 10 free custom domains
+
 ##### Koyeb: Free Plan
 
-- 1x free Web service.
-- 1x free Postgres database (50 hours).
+- One free Web service.
+- One free Postgres database (50 hours).
 - Doesn't require a credit card to start.
 - Pay-per-use by the second for more.
 
@@ -195,9 +199,20 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ### Neon
 
+- Database branching
+-
+
 ##### Neon: Free Plan
 
+- 0.5 GiB of storage
+- 24/7 for your main compute
+- No credit card required
+
 ##### Neon: Links
+
+- [Homepage](https://neon.tech/)
+- [Documentation](https://neon.tech/docs/introduction)
+- [Guide: Connect a Node.js application to Neon](https://neon.tech/docs/guides/node)
 
 ---
 
