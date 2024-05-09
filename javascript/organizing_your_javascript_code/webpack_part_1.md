@@ -37,7 +37,9 @@ Once inside your new directory, we can go ahead and install Webpack, which invol
 npm install --save-dev webpack webpack-cli
 ```
 
-Note that we included the `--save-dev` flag (you can also use `-D` as a shortcut), which tells npm to record our two packages as development dependencies. We will only be using Webpack during development. The actual code run in the browser will not include any Webpack code.
+Note that we included the `--save-dev` flag (you can also use `-D` as a shortcut), which tells npm to record our two packages as development dependencies. We will only be using Webpack during development. The actual code run that makes Webpack run will not be a part of the code that the browser will run.
+
+Also notice that when these finished installing, a `node_modules` directory and a `package-lock.json` got auto-generated. `node_modules` is where Webpack's actual code (and a whole bunch of other stuff) lives, and `package-lock.json` is just another file npm uses to track package information.
 
 <div class="lesson-note" markdown="1">
 
@@ -51,9 +53,69 @@ When dealing with Webpack (and often with any other bundler or build tool), we h
 
 ### Bundling JavaScript
 
-### Loading CSS
+Now that we've installed Webpack in our project directory, let's create a `src` directory with two JavaScript files inside it: `index.js` and `greeting.js`.
+
+```bash
+mkdir src && touch src/index.js src/greeting.js
+```
+
+Inside our two JavaScript files, we'll have the following:
+
+```javascript
+// index.js
+import { greeting } from "./greeting.js";
+
+console.log(greeting);
+```
+
+```javascript
+// greeting.js
+export const greeting = "Hello, Odinite!";
+```
+
+Great, now we have an `index.js` that imports from, and so depends on, `greeting.js`. In order to bundle this, we'll also want a Webpack configuration file which will contain all the details we need for bundling, such as the entry point, the output destination, and anything like plugins and loaders (which we will cover shortly).
+
+Back in your project root (so outside of `src`), create a `webpack.config.js` file that contains the following:
+
+```javascript
+// webpack.config.js
+const path = require("path");
+
+module.exports = {
+  mode: "development",
+  entry: "./src/index.js",
+  output: {
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
+    clean: true,
+  },
+};
+```
+
+Yes, you may have noticed this file uses CommonJS (CJS) syntax instead of ESM. That's because this file (and Webpack itself) runs in NodeJS and not the browser. By default, NodeJS uses CJS syntax, and the configuration file also contains some CJS-specific things. We need not worry about this - this is just stuff we need for Webpack to do it's thing.
+
+You'll notice the exported object containing a few key sections:
+
+- `mode`: For now, we will just leave this in development mode, as it will be more useful to us. We will revisit this and production mode in a later lesson.
+- `entry`: A file path from the config file to whichever file is our entry point, which in this case is `src/index.js`.
+- `output`: An object containing information about the output bundle.
+  - `filename`: The name of the output bundle - it can be anything you want.
+  - `path`: The path to the output directory, in this case, `dist`. If this directory doesn't already exist when we run Webpack, it will automatically create it for us as well. Don't worry too much about why we have the `path.resolve` part - this is just the way Webpack recommends we specify the output directory.
+  - `clean`: If we include this option and set it to `true`, then each time we run Webpack to bundle, it will empty the output directory first before bundling the files into it. This helps us keep `dist` clean so it only contains the files produced by the most recent bundling.
+  
+With these files all in place, let's run Webpack and see what happens!
+
+```bash
+npx webpack
+```
+
+You should see that Webpack has created a `dist` directory for us containing a `main.js` file! Inside this file is...a lot of stuff... Don't worry, most of this stuff is just for development tools we will use later. If you go ahead and run this file with `node dist/main.js`, you should see `Hello, Odinite!` get logged in the terminal.
+
+Congratulations! You've just made your first bundle with Webpack!
 
 ### Handling HTML
+
+### Loading CSS
 
 ### Loading images
 
