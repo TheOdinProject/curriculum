@@ -225,6 +225,22 @@ Once again, rebundle with Webpack using `npx webpack`, then open `dist/index.htm
 
 ### Loading images
 
+We're nearly done with the main Webpack configuration! If we have any image files we want to include within our website, they will also require a little extra configuration since they're not JavaScript files.
+
+There are three different ways images you'll likely be dealing with images with Webpack:
+
+1. Image files used in our CSS inside `url()`.
+1. Image files we reference in our HTML template, e.g. as the `src` of an `<img>`.
+1. Images we use in our JavaScript, where will will need to import the image files.
+
+#### Images used in CSS files
+
+Lucky us! `css-loader` already handles this for us, so there's nothing extra to do for image paths in CSS!
+
+#### Images used in our HTML template
+
+#### Images used in JavaScript
+
 ### Webpack dev server
 
 ### Assignment
