@@ -9,6 +9,7 @@ This section contains a general overview of topics that you will learn in this l
 - Know about ways to style React applications
 
 ### CSS Modules
+
 Regular CSS is the simplest way to style. CSS Modules let you write CSS style declarations that are scoped locally, which means that we finally no longer have to worry about our class names potentially conflicting with other classes in the global scope, i.e. we can now have two (or more) classes with the same name but different styles, and avoid naming your classes `.list-wrapper`, `.item-wrapper` etc. and just use `.wrapper` with its respective component.
 
 ### CSS in JS
@@ -29,7 +30,7 @@ What if everything's already done for you? Styling, behavior, and accessibility 
 
 <div class="lesson-note lesson-note--tip" markdown="1" >
 
-For learning purposes throughout this course, we recommend that you avoid using CSS frameworks or component libraries, and instead implement your component's styling from scratch i.e. use [CSS Modules](#vanilla-css) or a [CSS-in-JS](#css-in-js) option.
+For learning purposes throughout this course, we recommend that you avoid using CSS frameworks or component libraries, and instead implement your component's styling from scratch i.e. use [CSS Modules](#css-modules) or a [CSS-in-JS](#css-in-js) option.
 
 </div>
 
