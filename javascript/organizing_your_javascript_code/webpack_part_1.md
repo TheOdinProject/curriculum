@@ -15,7 +15,13 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Bundling
 
+In the previous lesson, we learnt what an **entry point** was, what a **dependency graph** was, and how to add an entry point file to HTML as a module script. With bundling, the same concepts of entry points and dependency graphs apply. We provide the bundler with an entry point and it builds a dependency graph from that file, combines all relevant files together, then outputs a single file with all the necessary code included.
+
+While it does this, we could also get it to do a whole bunch of other things, such as [minifying our code](https://en.wikipedia.org/wiki/Minification_(programming)), image optimizations, or even ["tree shaking"](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking) (detecting and removing unused code within a bundle). Most of these extra optimizations are out of the scope of this course; we will instead be focusing on getting a bundler called Webpack set up to bundle JavaScript, and handle HTML, CSS, and assets (such as images).
+
 ### Webpack
+
+
 
 ### HTML-webpack-plugin
 
