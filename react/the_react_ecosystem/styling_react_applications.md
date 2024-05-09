@@ -1,22 +1,21 @@
 ### Introduction
 
-In the previous courses, you've learned a lot of CSS and all of those skills are still applicable to React, however there are a couple of things we'd like to highlight. As you've probably already noticed, all of the styles we write share the global scope, which means that as our application grows, it becomes increasingly difficult to manage our CSS. Some of the tools mentioned below will help solve this problem, however it's important to note that the main purpose of this lesson is to be more of a guide or a list of available options for you to explore when it comes to styling React applications.
-
+In the previous courses, you'll have learned a lot of CSS and all of those skills are still applicable to React. However, there are a couple of things we'd like to highlight. As you've probably already noticed, all of the styles we write share the global scope, which means that as our application grows, it will become increasingly difficult to manage our CSS. Some of the tools mentioned below are things people use to help solve this problem.
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Know about ways to style React applications
 
-### CSS Modules
+### CSS modules
 
-Regular CSS is the simplest way to style. CSS Modules let you write CSS style declarations that are scoped locally, which means that we finally no longer have to worry about our class names potentially conflicting with other classes in the global scope, i.e. we can now have two (or more) classes with the same name but different styles, and avoid naming your classes `.list-wrapper`, `.item-wrapper` etc. and just use `.wrapper` with its respective component.
+Regular CSS is the simplest way to style. CSS Modules let you write CSS style declarations that are scoped locally, which means that we finally no longer have to worry about our class names potentially conflicting with other classes in the global scope.
 
 ### CSS in JS
 
 Why even write CSS in CSS when you can write it in JavaScript? Just kidding, of course!
 
-CSS-in-JS is a paradigm for styling front-end projects. It allows you to entirely take control of CSS with JavaScript and extends it with various features. Additionally, it also helps to apply styling in a logical fashion i.e. based on state, and also supports modular CSS in the same way that CSS Modules do. There are various CSS-in-JS solutions. One of the most popular ones in the React ecosystem is [styled-components](https://styled-components.com/).
+CSS-in-JS is a paradigm for styling front-end projects. It allows you to entirely take control of CSS with JavaScript and extends it with various features. Additionally, it also helps to apply styling in a logical fashion, e.g. based on state, and also supports modular CSS in the same way that CSS Modules do. There are various CSS-in-JS solutions. One of the most popular ones in the React ecosystem is [styled-components](https://styled-components.com/).
 
 ### CSS Utility Frameworks
 
