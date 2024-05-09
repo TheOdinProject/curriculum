@@ -1,6 +1,7 @@
 ### Introduction
 
 In the previous courses, you'll have learned a lot of CSS and all of those skills are still applicable to React. However, there are a couple of things we'd like to highlight. As you've probably already noticed, all of the styles we write share the global scope, which means that as our application grows, it will become increasingly difficult to manage our CSS. Some of the tools mentioned below are things people use to help solve this problem.
+
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
