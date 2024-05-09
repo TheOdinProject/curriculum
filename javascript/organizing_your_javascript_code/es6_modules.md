@@ -152,7 +152,7 @@ console.log(greeting); // "Hello, Odinite!"
 console.log(farewell); // "Bye bye, Odinite!"
 ```
 
-A file can both export something as a default export and any number of named exports. Confusingly enough, there isn't really a universally agreed-upon rule for when to use either, outside of the fact that a file can have multiple named exports but only one default export. Use whatever works for you, or in the future, when working in a team, whatever your team prefers if they prefer a certain system.
+A file can both export something as a default export and any number of named exports. Confusingly enough, there isn't really a universally agreed-upon rule for when to use either, outside of the fact that a file can have multiple named exports but only one default export. When it comes to only needing to export a single thing from a module, some people prefer using a default export whereas some prefer using a single named export. Both work so use whatever works for you, or in the future, when working in a team, whatever your team prefers if they prefer a certain system.
 
 ```javascript
 // one.js
