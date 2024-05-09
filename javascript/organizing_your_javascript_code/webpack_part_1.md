@@ -115,6 +115,43 @@ Congratulations! You've just made your first bundle with Webpack!
 
 ### Handling HTML
 
+Let's actually include some HTML. After all, we're interested in making websites! Since HTML isn't JavaScript, Webpack can't just bundle it straight away, but there's a nifty tool we can use called `HtmlWebpackPlugin` that's just perfect for us.
+
+Run the following command to install HtmlWebpackPlugin (also as a dev dependency):
+
+```bash
+npm install --save-dev html-webpack-plugin
+```
+
+We should also create an `template.html` (you can name this whatever you want) inside `src`, and fill that with the usual HTML boilerplate. **We do not need to add a script tag in this file!** HtmlWebpackPlugin will automatically add our output bundle as a script tag; we wouldn't want to double up by including our own one too! Inside our `webpack.config.js`, we can add a few little bits.
+
+```javascript
+// webpack.config.js
+const path = require("path");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+module.exports = {
+  mode: "development",
+  entry: "./src/index.js",
+  output: {
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
+    clean: true,
+  },
+  plugins: [
+    new HtmlWebpackPlugin({ template: './src/template.html' }),
+  ],
+};
+```
+
+All we're doing here is making sure our Webpack configuration has access to HtmlWebpackPlugin, then we add it as a plugin to the configuration object. Inside HtmlWebpackPlugin function call, we pass in any options. For now, we're only interested in the `template` option.
+
+If we provide the path to our `src/template.html` file as a template, when we run `npx webpack` again, you'll notice our `dist` directory not only contains a `main.js` file but an `index.html` file as well. You'll also notice that HtmlWebpackPlugin has automatically added a deferred script tag to our `main.js` bundle file - what a darling! If you open this file in the browser and check the browser console, you should see our lovely `"Hello, Odinite!"` string logged.
+
+We've now successfully configured Webpack to handle our HTML file and inject the appropriate script tag. Any changes to HTML we make, we can just rerun Webpack to generate fresh `dist` code.
+
+Let's see how we'd handle CSS.
+
 ### Loading CSS
 
 ### Loading images
