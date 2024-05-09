@@ -23,11 +23,11 @@ While it does this, we could also get it to do a whole bunch of other things, su
 
 Webpack is one of the most popular JavaScript bundlers, if not the most popular one, and has been for a long time. Let's get started with bundling!
 
-We'll first need to make a new directory for our practice app, then create a `package.json` file in it for npm to record information about packages we use (like Webpack). Run the following commands in your terminal:
+We'll first need to make a new directory for our practice app, then create a `package.json` file in it for npm to record information about packages we use (like Webpack). Run the following in your terminal:
 
 ```bash
-mkdir webpack-practice
-cd webpack-practice
+mkdir webpack-practice &&
+cd webpack-practice &&
 npm init -y
 ```
 
@@ -123,12 +123,12 @@ Run the following command to install HtmlWebpackPlugin (also as a dev dependency
 npm install --save-dev html-webpack-plugin
 ```
 
-We should also create an `template.html` (you can name this whatever you want) inside `src`, and fill that with the usual HTML boilerplate. **We do not need to add a script tag in this file!** HtmlWebpackPlugin will automatically add our output bundle as a script tag; we wouldn't want to double up by including our own one too! Inside our `webpack.config.js`, we can add a few little bits.
+We should also create a `template.html` inside `src` (you can name this file whatever you want), and fill that with the usual HTML boilerplate. **We do not need to add a script tag in this file!** HtmlWebpackPlugin will automatically add our output bundle as a script tag. We wouldn't want to double up by including our own one too! Inside our `webpack.config.js`, we can add a few little bits.
 
 ```javascript
 // webpack.config.js
 const path = require("path");
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -139,7 +139,7 @@ module.exports = {
     clean: true,
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './src/template.html' }),
+    new HtmlWebpackPlugin({ template: "./src/template.html" }),
   ],
 };
 ```
@@ -153,6 +153,75 @@ We've now successfully configured Webpack to handle our HTML file and inject the
 Let's see how we'd handle CSS.
 
 ### Loading CSS
+
+We don't just need one new package for CSS, we need *two*. Gosh, what a greedy little thing... Let's install them.
+
+```bash
+npm install --save-dev style-loader css-loader
+```
+
+`css-loader` will read any CSS files we import in a JavaScript file and store the result in a string. `style-loader` then takes that string and actually adds the JavaScript code that will apply those styles to the page. Therefore, we need both.
+
+Back in our `webpack.config.js`, we need to add these loaders so Webpack knows what to do. Since these aren't plugins, they go in a separate section:
+
+```javascript
+// webpack.config.js
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+module.exports = {
+  mode: "development",
+  entry: "./src/index.js",
+  output: {
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
+    clean: true,
+  },
+  plugins: [
+    new HtmlWebpackPlugin({ template: "./src/template.html" }),
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
+};
+```
+
+All this does is tell Webpack that if it encounters an imported file ending with `.css`, it should use the listed loaders to process that CSS file.
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Loader order matters!
+
+Notice how we put `css-loader` **at the end** of the array. We **must** set this order and not the reverse.
+
+Webpack will run the loaders starting at the end, so we want it to read the CSS file into a string with `css-loader` first, then use `style-loader` to inject the JavaScript that applies the CSS in that string to the page. It wouldn't work the same if we told it to do things back-to-front now.
+
+</div>
+
+Now that Webpack knows what to do with imported CSS files, let's add some CSS! Create a `src/styles.css` with the following:
+
+```css
+// styles.css
+body {
+  background-color: rebeccapurple;
+}
+```
+
+You can now import your CSS file into one of your JavaScript files. `src/index.js` makes sense. We don't need anything from the imported CSS file itself. Since our CSS and style loaders will handle all of that for us, we can just use a [side effect import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#import_a_module_for_its_side_effects_only).
+
+```javascript
+import "./styles.css";
+import { greeting } from "./greeting.js";
+
+console.log(greeting);
+```
+
+Once again, rebundle with Webpack using `npx webpack`, then open `dist/index.html` and enjoy the beautiful purple screen!
 
 ### Loading images
 
