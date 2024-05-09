@@ -49,7 +49,15 @@ When dealing with Webpack (and often with any other bundler or build tool), we h
 
 </div>
 
-### HTML-webpack-plugin
+### Bundling JavaScript
+
+### Loading CSS
+
+### Handling HTML
+
+### Loading images
+
+### Webpack dev server
 
 ### Assignment
 
