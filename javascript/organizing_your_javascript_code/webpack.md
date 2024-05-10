@@ -234,8 +234,11 @@ We're nearly done with the main Webpack configuration! If we have any local imag
 There are three different ways you could be dealing with local image files:
 
 1. **Image files used in our CSS inside `url()`**
+
    Lucky us! `css-loader` already handles this for us, so there's nothing extra to do for image paths in CSS!
+
 1. **Image files we reference in our HTML template, e.g. as the `src` of an `<img>`**
+
    We need to install and tell Webpack to use something called `html-loader`, which will detect image file paths in our HTML template and load the right image files for us. Without this, `./odin.png` would just be a bit of text that will no longer reference the correct file once we run Webpack to build into `dist`. We can install it with `npm install --save-dev html-loader`, then add the following object to the `modules.rules` array within `webpack.config.js`:
 
    ```javascript
@@ -246,6 +249,7 @@ There are three different ways you could be dealing with local image files:
    ```
 
 1. **Images we use in our JavaScript, where we will need to import the files**
+
    If we need to use a local image file in our JavaScript (such as when manipulating the DOM to create or edit `img` elements and set their `src` attribute), we need to import the images into our JavaScript module. Since images aren't JavaScript, we need to tell Webpack that these files will be assets by adding an `asset/resource` rule. No need to install anything here. Just add the following object to the `modules.rules` array within `webpack.config.js`:
 
    ```javascript
