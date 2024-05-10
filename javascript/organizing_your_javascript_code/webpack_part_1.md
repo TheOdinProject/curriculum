@@ -238,7 +238,7 @@ There are three different ways you could be dealing with local image files:
    {
      test: /\.html$/i,
      loader: 'html-loader',
-   },
+   }
    ```
 
 1. **Images we use in our JavaScript, where we will need to import the files**
@@ -251,7 +251,7 @@ There are three different ways you could be dealing with local image files:
    }
    ```
 
-   You can always edit the regex in the `test` property to remove any file extensions you don't need, or add any extensions you do need. What's shown above is straight from [Webpack's Asset Management guide](https://webpack.js.org/guides/asset-management/#loading-images) and will recognise most commonly used image file extensions.
+   You can always edit the regex in the `test` property to remove any file extensions you don't need, or add any extensions you do need. What's shown above is straight from [Webpack's Asset Management guide](https://webpack.js.org/guides/asset-management/#loading-images) and will recognise most of the common image file extensions.
 
    Then in whatever JavaScript module we want to use that image in, we just have to default import it.
 
@@ -297,11 +297,21 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
-      }
+      },
     ],
   },
 };
 ```
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### You only need to configure what you need
+
+You may not need everything we've mentioned. If your project does not have images with local file path sources in your HTML template, you do not need `html-loader` set up. If you aren't using any local images in your JavaScript, you won't need the image `asset/resource` rule set up.
+
+Similarly, in the future, you may end up working with something that needs a special loader or plugin. You can always use Google or reference Webpack's documentation for instructions for what you need.
+
+</div>
 
 ### Webpack dev server
 
