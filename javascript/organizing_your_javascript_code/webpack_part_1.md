@@ -237,7 +237,7 @@ There are three different ways you could be dealing with local image files:
    ```javascript
    {
      test: /\.html$/i,
-     loader: 'html-loader',
+     loader: "html-loader",
    }
    ```
 
@@ -292,7 +292,7 @@ module.exports = {
       },
       {
         test: /\.html$/i,
-        loader: 'html-loader',
+        loader: "html-loader",
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -316,6 +316,63 @@ Similarly, in the future, you may end up working with something that needs a spe
 </div>
 
 ### Webpack dev server
+
+During this lesson, did you get a bit annoyed with having to run `npx webpack` to rebundle with every change? Fortunately, there are multiple solutions for this and we will focus on what we think is the most useful option: `webpack-dev-server`. Install it as follows:
+
+```bash
+npm install --save-dev webpack-dev-server
+```
+
+You may have used something like the Live Server VSCode extension before, where it automatically refreshes your web page whenever you save a change. `webpack-dev-server` is very similar, meaning we won't have to keep running `npx webpack` after each change we make.
+
+It works by bundling your code behind the scenes (as if we ran `npx webpack`, but without saving the files to `dist`) and it does this every time you save a file that's used in the bundle. We can also use something called a **source map** so that any error messages reference files and lines from our development code, and not the jumbled mess inside our single bundled `.js` file!
+
+Once installed, in our `webpack.config.js`, we only need to add a couple more properties somewhere in the configuration object (the order does not matter):
+
+```javascript
+// webpack.config.js
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+module.exports = {
+  mode: "development",
+  entry: "./src/index.js",
+  output: {
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
+    clean: true,
+  },
+  devtool: "eval-source-map",
+  devServer: {
+    watchFiles: "./src/template.html",
+  },
+  plugins: [
+    new HtmlWebpackPlugin({ template: "./src/template.html" }),
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
+    ],
+  },
+};
+```
+
+Firstly, we add the `eval-source-map` as a `devtool` option. If we don't do this, any error messages we get won't necessarily match up to the correct files and line numbers from our development code. In the devtools "Sources" tab, we also won't be able to find our original untouched code, making the Chrome debugger harder to use. Adding this source map will solve both of these problems for us.
+
+Secondly, by default, `webpack-dev-server` will only auto-restart when it detects any changes to files we import into our JavaScript bundle, so our HTML template will be ignored! All we need to do is add it to the dev server's list of watched files - nice and simple!
+
+Once set up, `npx webpack serve` will host our web page on `http://localhost:8080/`, which we can open in our browser and start working!
 
 ### Assignment
 
