@@ -239,6 +239,43 @@ Lucky us! `css-loader` already handles this for us, so there's nothing extra to 
 
 #### Images used in our HTML template
 
+Currently, if we were to use a local image file in our HTML template, for example `<img src="./odin.png">`, HtmlWebpackPlugin would have no idea that the string `"./odin.png"` references a file, let alone what that file is and where it lives. If only there was a tool that could figure these things out!
+
+```bash
+npm install --save-dev html-loader
+```
+
+```javascript
+// webpack.config.js
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+module.exports = {
+  mode: "development",
+  entry: "./src/index.js",
+  output: {
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
+    clean: true,
+  },
+  plugins: [
+    new HtmlWebpackPlugin({ template: "./src/template.html" }),
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.html$/i,
+        loader: 'html-loader',
+      },
+    ],
+  },
+};
+```
+
 #### Images used in JavaScript
 
 ### Webpack dev server
