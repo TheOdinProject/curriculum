@@ -392,13 +392,22 @@ In a later lesson, we will introduce some extra things that can make setting up 
 
 <div class="lesson-content__panel" markdown="1">
 
+1. Start by reading the [Webpack concepts](https://webpack.js.org/concepts/) page, to get a general understanding of some of the main terms.
+1. [Webpack's Asset Management guide](https://webpack.js.org/guides/asset-management/) goes through some examples of how to handle various kinds of assets, like CSS, images, and fonts. You'll see that its examples use `npm run build` to bundle the files; in these examples, that's the equivalent of `npx webpack`. We will go through npm scripts in a later lesson.
+
 </div>
 
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
--
+- [What is a bundler?](#bundling)
+- [What is Webpack?](#webpack)
+- [How do you bundle JavaScript?](#bundling-javascript)
+- [How do you load CSS using Webpack?](#loading-css)
+- [How do you automatically build HTML files in `dist` using Webpack?](#handling-html)
+- [How would you handle assets like local image files?](#loading-images)
+- [What Webpack tool could you use while development to view changes to your website live?](#webpack-dev-server)
 
 ### Additional resources
 
