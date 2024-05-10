@@ -225,25 +225,48 @@ Once again, rebundle with Webpack using `npx webpack`, then open `dist/index.htm
 
 ### Loading images
 
-We're nearly done with the main Webpack configuration! If we have any image files we want to include within our website, they will also require a little extra configuration since they're not JavaScript files.
+We're nearly done with the main Webpack configuration! If we have any local image files we want to include within our website, they will also require a little extra configuration since they're not JavaScript files.
 
-There are three different ways images you'll likely be dealing with images with Webpack:
+There are three different ways you could be dealing with local image files:
 
-1. Image files used in our CSS inside `url()`.
-1. Image files we reference in our HTML template, e.g. as the `src` of an `<img>`.
-1. Images we use in our JavaScript, where will will need to import the image files.
+1. **Image files used in our CSS inside `url()`**
+   Lucky us! `css-loader` already handles this for us, so there's nothing extra to do for image paths in CSS!
+1. **Image files we reference in our HTML template, e.g. as the `src` of an `<img>`**
+   We need to install and tell Webpack to use something called `html-loader`, which will detect image file paths in our HTML template and load the right image files for us. Without this, `./odin.png` would just be a bit of text that will no longer reference the correct file once we run Webpack to build into `dist`. We can install it with `npm install --save-dev html-loader`, then add the following object to the `modules.rules` array within `webpack.config.js`:
 
-#### Images used in CSS files
+   ```javascript
+   {
+     test: /\.html$/i,
+     loader: 'html-loader',
+   },
+   ```
 
-Lucky us! `css-loader` already handles this for us, so there's nothing extra to do for image paths in CSS!
+1. **Images we use in our JavaScript, where we will need to import the files**
+   If we need to use a local image file in our JavaScript, for example manipulating the DOM to create or edit `img` elements and set their `src` attribute, we need to import the images into our JavaScript module. Since images aren't JavaScript, we need to tell Webpack that these files will be assets by adding an `asset/resource` rule. No need to install anything here, just add the following object to the `modules.rules` array within `webpack.config.js`:
 
-#### Images used in our HTML template
+   ```javascript
+   {
+     test: /\.(png|svg|jpg|jpeg|gif)$/i,
+     type: "asset/resource",
+   }
+   ```
 
-Currently, if we were to use a local image file in our HTML template, for example `<img src="./odin.png">`, HtmlWebpackPlugin would have no idea that the string `"./odin.png"` references a file, let alone what that file is and where it lives. If only there was a tool that could figure these things out!
+   You can always edit the regex in the `test` property to remove any file extensions you don't need, or add any extensions you do need. What's shown above is straight from [Webpack's Asset Management guide](https://webpack.js.org/guides/asset-management/#loading-images) and will recognise most commonly used image file extensions.
 
-```bash
-npm install --save-dev html-loader
-```
+   Then in whatever JavaScript module we want to use that image in, we just have to default import it.
+
+   ```javascript
+   import odinImage from "./odin.png";
+   
+   const image = document.createElement("img");
+   image.src = odinImage;
+   
+   document.body.appendChild(image);
+   ```
+
+   We have to import it so that the `odinImage` variable contains the correct file path, even when we bundle into `dist`. If we just wrote `image.src = "./odin.png";`, then the "file path" would just be a plain string. When we bundle into `dist`, Webpack will not magically recognise this string in our JavaScript references a file, and will not include it in the bundle. When we import it and set the correct `asset/resource` rule, Webpack will recognise the import, include the image file when we bundle, and also make sure the imported variable contains the correct file path at the end.
+
+After all that, if we added both `html-loader` and the image `asset/resource` rule, our `webpack.config.js` would look something like this:
 
 ```javascript
 // webpack.config.js
@@ -271,12 +294,14 @@ module.exports = {
         test: /\.html$/i,
         loader: 'html-loader',
       },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      }
     ],
   },
 };
 ```
-
-#### Images used in JavaScript
 
 ### Webpack dev server
 
