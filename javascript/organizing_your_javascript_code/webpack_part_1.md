@@ -139,7 +139,9 @@ module.exports = {
     clean: true,
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: "./src/template.html" }),
+    new HtmlWebpackPlugin({
+      template: "./src/template.html",
+    }),
   ],
 };
 ```
@@ -178,7 +180,9 @@ module.exports = {
     clean: true,
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: "./src/template.html" }),
+    new HtmlWebpackPlugin({
+      template: "./src/template.html",
+    }),
   ],
   module: {
     rules: [
@@ -282,7 +286,9 @@ module.exports = {
     clean: true,
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: "./src/template.html" }),
+    new HtmlWebpackPlugin({
+      template: "./src/template.html",
+    }),
   ],
   module: {
     rules: [
@@ -347,7 +353,9 @@ module.exports = {
     watchFiles: "./src/template.html",
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: "./src/template.html" }),
+    new HtmlWebpackPlugin({
+      template: "./src/template.html",
+    }),
   ],
   module: {
     rules: [
