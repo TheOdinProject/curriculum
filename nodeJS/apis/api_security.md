@@ -22,17 +22,17 @@ This strategy, while particularly useful with APIs can be used with a traditiona
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [This video](https://www.youtube.com/watch?v=7nafaH9SddU) is a great resource that explains everything you need to know about creating and verifying JSON Web Tokens.
-2. [This video](https://www.youtube.com/watch?v=7Q17ubqLfaM) presents the different ways in which the JWT are quite useful.
+1. This video is a great resource that explains everything you need to know about [creating and verifying JSON Web Tokens](https://www.youtube.com/watch?v=7nafaH9SddU).
+2. This video presents [different ways in which JWTs can be useful](https://www.youtube.com/watch?v=7Q17ubqLfaM).
 </div>
 
 
 ### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [This article](https://web.archive.org/web/20230207144457/https://laptrinhx.com/a-practical-guide-for-jwt-authentication-using-node-js-and-express-917791379/) goes even further in depth than the one that we posted above. It provides a little greater understanding but is harder to follow.
-- [This article](https://medium.com/@paul.allies/stateless-auth-with-express-passport-jwt-7a55ffae0a5c) covers the same thing as the above one, but is a little more concise.  Might be a good reference for when you're setting this up on your own later.
-- Not everyone agrees that JWTs are the best way to store authentication data. [This video](https://www.youtube.com/watch?v=JdGOb7AxUo0) is one argument against using them, and some of the pitfalls that you may encounter with using them.
+- This article is a [guide for JWT Authentication Using Node.js and Express](https://web.archive.org/web/20230207144457/https://laptrinhx.com/a-practical-guide-for-jwt-authentication-using-node-js-and-express-917791379/).
+- This article is a [more concise guide for using JWTs in Express](https://medium.com/@paul.allies/stateless-auth-with-express-passport-jwt-7a55ffae0a5c).
+- [Not everyone agrees that JWTs are the best way to store authentication data](https://www.youtube.com/watch?v=JdGOb7AxUo0). This video is one argument against using them, and some of the pitfalls that you may encounter with using them.
 
 
 ### Knowledge check
