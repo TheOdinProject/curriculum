@@ -311,7 +311,7 @@ You might notice that when images are included when bundling, the output image f
 
 You may not need everything we've mentioned. If your project does not have images with local file path sources in your HTML template, you do not need `html-loader` set up. If you aren't using any local images in your JavaScript, you won't need the image `asset/resource` rule set up.
 
-Similarly, in the future, you may end up working with something that needs a special loader or plugin. You can always use Google or reference Webpack's documentation for instructions for what you need.
+Similarly, in the future, you may end up working with things that need a special loader or plugin, such as custom fonts or preprocessors. You can always use Google or reference Webpack's documentation for instructions for what you need when that time comes.
 
 </div>
 
@@ -373,6 +373,12 @@ Firstly, we add the `eval-source-map` as a `devtool` option. If we don't do this
 Secondly, by default, `webpack-dev-server` will only auto-restart when it detects any changes to files we import into our JavaScript bundle, so our HTML template will be ignored! All we need to do is add it to the dev server's list of watched files - nice and simple!
 
 Once set up, `npx webpack serve` will host our web page on `http://localhost:8080/`, which we can open in our browser and start working!
+
+### Rounding up
+
+Yes, yes, this all might seem like a lot. You've gone from just having some basic HTML/CSS/JS files and not needing much else to suddenly need this loader, that plugin, this configuration file etc. In the real world, as apps get more complex, we need tools that can improve our development experience while optimizing things in production. Even though we're not using all of the features available to us right now, a general understanding of what these sorts of tools are doing for us is valuable. Later in the curriculum, you will use different tools that abstract a lot of these underlying mechanisms away from us. Using them and having no clue what they're actually doing for you can make things harder for you when you eventually encounter a situation that actually needs some kind of manual configuration.
+
+In a later lesson, we will introduce some extra things that can make setting up and working with Webpack much quicker and straightforward. For now, however, it's good to get a little manual practice in.
 
 ### Assignment
 
