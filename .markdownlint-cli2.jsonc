@@ -1,5 +1,4 @@
 // https://github.com/DavidAnson/markdownlint
-
 {
   "config": {
     "default": true,
@@ -88,6 +87,7 @@
     "./markdownlint/TOP004_lessonHeadings/TOP004_lessonHeadings.js",
     "./markdownlint/TOP005_blanksAroundMultilineHtmlTags/TOP005_blanksAroundMultilineHtmlTags.js",
     "./markdownlint/TOP006_fullFencedCodeLanguage/TOP006_fullFencedCodeLanguage.js",
-    "./markdownlint/TOP007_useMarkdownLinks/TOP007_useMarkdownLinks.js"
+    "./markdownlint/TOP007_useMarkdownLinks/TOP007_useMarkdownLinks.js",
+    "./markdownlint/TOP008_lessonOverviewItemsSentenceStructure/TOP008_lessonOverviewItemsSentenceStructure.js"
   ]
 }
