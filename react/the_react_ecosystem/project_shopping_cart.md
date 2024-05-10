@@ -20,13 +20,13 @@ By now you've come far from your React-baby days. You have tools like routers an
 
     1.  **Netlify**: You need to add a `_redirects` file to the `public/` directory of your project. Copy the following to redirect all routes to the index page and let `react-router-dom` handle the rest. You can read more about this at the [Netlify documentation on redirects](https://docs.netlify.com/routing/redirects/).
 
-        ~~~txt
+        ```txt
         /* /index.html 200
-        ~~~
+        ```
 
     2.  **Vercel**: You need to add a `vercel.json` file at the root of your project and copy the following configuration. Similar to Netlify, this redirects all routes to the index page and lets `react-router-dom` handle the rest. More information can be found here at the [Vercel documentation for SPAs and Vite](https://vercel.com/docs/frameworks/vite#using-vite-to-make-spas).
 
-        ~~~json
+        ```json
         {
           "rewrites": [
             {
@@ -35,7 +35,7 @@ By now you've come far from your React-baby days. You have tools like routers an
             }
           ]
         }
-        ~~~
+        ```
 
     3.  **Cloudflare Pages**: As of the time of writing, unlike Netlify and Vercel, no additional steps are required as the default behaviour will allow `react-router-dom` to correctly handle redirects for SPAs. You can learn more about this at the [Cloudflare documentation on serving pages](https://developers.cloudflare.com/pages/platform/serving-pages/).
 

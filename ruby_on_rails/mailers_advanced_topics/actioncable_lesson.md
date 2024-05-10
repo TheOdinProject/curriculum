@@ -69,10 +69,12 @@ Let's also protect our app from unauthorised viewing by adding the following to 
 before_action :authenticate_user!
 ~~~
 
-Lastly in the initial setup, let's add a little bit of styling with the Bulma gem and a navbar just with some login and logout functionality.
+Lastly in the initial setup, let's add a little bit of styling with the Bulma gem and a navbar just with some login and logout functionality. We'll also install dartsass-rails so that Bulma works appropriately. (Note: If you receive this error - `LoadError: cannot load such file -- sassc` run `rails tmp:clear` and try restarting the server)
 
 ~~~bash
 bundle add bulma-rails
+./bin/bundle add dartsass-rails
+./bin/rails dartsass:install
 ~~~
 
 Next, and just to save some time you need to go to the `app/assets/stylesheets/` directory and change `application.css` to `application.scss`. Bulma-rails uses scss and although there are other ways to handle it this is the easiest.
@@ -340,7 +342,7 @@ And then
 bundle exec rails db:migrate
 ~~~
 
-Next we need a controller to for our messages. We only need a create action since we aren't doing anything else with them
+Next we need a controller for our messages. We only need a create action since we aren't doing anything else with them
 
 ~~~bash
 bundle exec rails generate controller messages
@@ -366,7 +368,7 @@ def index
 end
 ~~~
 
-Then in our hangouts index view we can change the form to use `form_with`. You don't need to change anything else, just remove the form inside of the div with the `message-form` id
+Then in our hangouts index view we can change the form to use `form_with`. You don't need to change anything else, just replace the form inside of the div with the `message-form` id with the following form:
 
 ~~~html
 <%= form_with model: @message, local: false do |f| %>

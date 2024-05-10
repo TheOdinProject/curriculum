@@ -4,7 +4,7 @@ Interviewing is right up there with public speaking in the hierarchy of fears fo
 
 Far be it from us to try and get you over that psychological hurdle but it's definitely best if you can actually treat the interviews as a chance to show off the cool stuff you've built and the interesting new skills you've learned.  The best interviews are enthusiastic conversations with technical depth.
 
-The first step before everything is to prepare.  You'll want to figure out the questions you might expect to be asked (and the general responses you'll have for each which demonstrate your brilliance) and you'll want to research the company too.  Your knowledge of the company will help you tailor your pitch to their needs and also allow you to ask intelligent questions about their product and technology when the time comes.  Again, refer to the [Happy Bear article](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html) for some great tips.
+The first step before everything is to prepare.  You'll want to figure out the questions you might expect to be asked (and the general responses you'll have for each which demonstrate your brilliance) and you'll want to research the company too.  Your knowledge of the company will help you tailor your pitch to their needs and also allow you to ask intelligent questions about their product and technology when the time comes.  Again, refer to the [Happy Bear article for some great general job hunting tips](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html).
 
 ### How the process works once you're in the funnel
 
@@ -51,7 +51,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
 * [How to Ace Your Technical Interview](http://insights.dice.com/2014/10/12/ace-technical-interview/)
 * [How You Can Stand Out in Your Next Web Developer Interview](http://blog.udacity.com/2015/01/how-to-stand-out-in-your-web-developer-interview.html)
-* [Post on The Interview](http://blog.martincmartin.com/2010/01/08/finding-a-job-youll-love-the-interview/)
+* [Post on The Interview](https://martincmartin.com/2010/01/08/finding-a-job-youll-love-the-interview/)
 * Read [40 Key Computer Science Concepts Explained In Layman’s Terms](https://web.archive.org/web/20220901190653/http://carlcheo.com/compsci)
 * [Google's Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html) (advanced)
 * [Ruby on Rails Popular Job Interview Questions](https://www.nopio.com/blog/ruby-rails-popular-job-interview-questions/)

@@ -33,7 +33,7 @@ This section contains a general overview of topics that you will learn in this l
 <div class="lesson-content__panel" markdown="1">
   1. Glance over the [Wikipedia entry on Data Structures](http://en.wikipedia.org/wiki/Data_structure) for a high level overview of things.
   2. Learn about basic algorithms from Coursera's Algorithms course in [this video](http://www.youtube.com/watch?v=u2TwK3fED8A).  The first 10 minutes are really the meat of the introduction to algorithms, the rest gets more mathematical (if you're so inclined).
-  3. Read [What is an Algorithm and How Does it Make You a Better Programmer](http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/) for another basic look at what algorithms are.
+  3. Read [What is an Algorithm and How Does it Make You a Better Programmer](https://web.archive.org/web/20231223233808/http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/) for another basic look at what algorithms are.
   4. Learn about how binary search works by watching [this video](https://www.youtube.com/watch?v=T98PIp4omUA) from Harvard's CS50 on YouTube.
   5. Now, we're going to focus on learning about binary search trees. Start by watching [this video](https://www.youtube.com/watch?v=FvdPo8PBQtc) to learn how a binary search tree is constructed from an unordered array.
   6. Next, learn about the principles of queues and stacks, which are concepts used in breadth-first search and depth-first search, respectively, by watching [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI).
@@ -48,7 +48,7 @@ This section contains a general overview of topics that you will learn in this l
 This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
 - <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=6QS_Cup1YoI" target="_blank">What is the difference between a stack and a queue?</a>
-- <a class="knowledge-check-link" href="http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/" target="_blank">How would you implement a queue in Ruby?</a>
+- <a class="knowledge-check-link" href="https://web.archive.org/web/20231223233808/http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/" target="_blank">How would you implement a queue in Ruby?</a>
 - <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/Data_structure#Examples" target="_blank">What is a linked list? What is a node?</a>
 - <a class="knowledge-check-link" href="https://youtu.be/T98PIp4omUA?t=20" target="_blank">Which recursive problem-solving method/algorithm design principle does binary search implement?</a>
 - <a class="knowledge-check-link" href="https://youtu.be/86g8jAQug04?t=103" target="_blank">What abstract data type would you use to defer/store nodes in a breadth-first tree traversal?</a>

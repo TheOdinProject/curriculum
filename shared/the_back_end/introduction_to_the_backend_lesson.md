@@ -12,29 +12,29 @@ Some of the most popular server-side languages are PHP, C#, Ruby, Python and Jav
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   What is the difference between front-end and back-end development?
+- What is the difference between front-end and back-end development?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-  1.  Check out [this blog post on backend vs frontend programming](http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend) for a quick refresher on the difference between the two.
-  2.  [A good and short overview of the backend](https://techterms.com/definition/backend).
-  3.  [A much more detailed and thorough explanation](https://www.codecademy.com/articles/back-end-architecture) of the various aspects of the backend is provided by Codecademy, including a step-by-step breakdown of what happens in the backend when a browser makes a request to a server.
+  1. Check out this blog post on [backend vs frontend programming](http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend) for a quick refresher on the difference between the two.
+  1. [A good and short overview of the backend](https://techterms.com/definition/backend).
+  1. Codecademy provides a good step-by-step breakdown of [what happens in the backend when a browser makes a request to a server](https://www.codecademy.com/articles/back-end-architecture).
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-*   [What is back-end development?](https://techterms.com/definition/backend)
-*   [How many parts does the backend consist of?](https://www.codecademy.com/articles/back-end-architecture/)
-*   [Name each part of the backend.](https://www.codecademy.com/articles/back-end-architecture)
-*   [Where does the backend store its data?](https://www.codecademy.com/articles/back-end-architecture)
+- [What is back-end development?](https://techterms.com/definition/backend)
+- [How many parts does the backend consist of?](https://www.codecademy.com/articles/back-end-architecture/)
+- [Name each part of the backend.](https://www.codecademy.com/articles/back-end-architecture)
+- [Where does the backend store its data?](https://www.codecademy.com/articles/back-end-architecture)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

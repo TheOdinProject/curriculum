@@ -8,7 +8,7 @@ We'll save the specifics of data structures for more computer-science-oriented c
 
 You've already had a brief introduction to **algorithms** over some of the other lessons and you even got to write your own Merge Sort algorithm in the last project. You'll find that sorting algorithms are quite common. Another major area for algorithms is in search, where milliseconds count. When you're searching through enormous troves of data, the quality of your search algorithm is incredibly important. Traversing a data tree looking for a particular element is a related problem that's common in data intensive applications.
 
-Luckily for you, these complex algorithmic problems have all been solved many times in the past. Understanding _how_ they are solved will give you some great tools to apply to other (similar) problems on your own. Algorithms are really just ways of solving problems systematically. In this brief introduction, we'll focus on a couple of algorithms that you may run into when coding on your own -- breadth-first-search and depth-first-search.
+Luckily for you, these complex algorithmic problems have all been solved many times in the past. Understanding *how* they are solved will give you some great tools to apply to other (similar) problems on your own. Algorithms are really just ways of solving problems systematically. In this brief introduction, we'll focus on a couple of algorithms that you may run into when coding on your own -- breadth-first-search and depth-first-search.
 
 ### Lesson overview
 
@@ -25,24 +25,26 @@ This section contains a general overview of topics that you will learn in this l
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Glance over the [Wikipedia entry on Data Structures](http://en.wikipedia.org/wiki/Data_structure) for a high level overview of things.
-  2. Learn about basic algorithms from Coursera's Algorithms course in [this video](http://www.youtube.com/watch?v=u2TwK3fED8A).  The first 10 minutes are really the meat of the introduction to algorithms, the rest gets more mathematical (if you're so inclined).
-  3. Read [What is an Algorithm and How Does it Make You a Better Programmer](http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/) for another basic look at what algorithms are.
-  4. Learn about how binary search works by watching [this video](https://www.youtube.com/watch?v=T98PIp4omUA) from Harvard's CS50 on YouTube.
-  5. Now, we're going to focus on learning about binary search trees. Start by watching [this video](https://www.youtube.com/watch?v=FvdPo8PBQtc) to learn how a binary search tree is constructed from an unordered array.
-  6. Next, learn about the principles of queues and stacks, which are concepts used in breadth-first search and depth-first search, respectively, by watching [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI).
-  7. Finally, learn about breadth-first search and depth-first search of binary search trees from this series of videos on YouTube:
-     -  [Binary tree traversal](https://www.youtube.com/watch?v=9RHO6jU--GU)
-     -  [Breadth-first traversal](https://www.youtube.com/watch?v=86g8jAQug04)
-     -  [Depth-first traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4)
+  1. Learn about basic algorithms from [Coursera’s Algorithms course](https://www.youtube.com/watch?v=u2TwK3fED8A).  The first 10 minutes are really the meat of the introduction to algorithms, the rest gets more mathematical (if you're so inclined).
+  1. Read [What is an Algorithm and How Does it Make You a Better Programmer](https://web.archive.org/web/20231223233808/http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/) for another basic look at what algorithms are.
+  1. Learn about [how binary search works](https://www.youtube.com/watch?v=T98PIp4omUA) from Harvard’s CS50 on YouTube.
+  1. Now, we're going to focus on learning about binary search trees.  Start by watching this video to learn [how a binary search tree is constructed from an unordered array](https://www.youtube.com/watch?v=FvdPo8PBQtc).
+  1. Next, learn about the [principles of queues and stacks](https://www.youtube.com/watch?v=6QS_Cup1YoI), which are concepts used in breadth-first search and depth-first search respectively.
+  1. Finally, learn about breadth-first search and depth-first search of binary search trees from this series of videos on YouTube:
+     - [Binary tree traversal](https://www.youtube.com/watch?v=9RHO6jU--GU)
+     - [Breadth-first traversal](https://www.youtube.com/watch?v=86g8jAQug04)
+     - [Depth-first traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4)
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the difference between a stack and a queue?](https://www.youtube.com/watch?v=6QS_Cup1YoI)
-- [What are the enqueue and dequeue properties?](http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/)
+- [What are the enqueue and dequeue properties?](https://web.archive.org/web/20231223233808/http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/)
 - [What is a linked list? What is a node?](https://en.wikipedia.org/wiki/Data_structure#Examples)
 - [Which recursive problem-solving method/algorithm design principle does binary search implement?](https://youtu.be/T98PIp4omUA?t=20)
 - [What abstract data type would you use to defer/store nodes in a breadth-first tree traversal?](https://youtu.be/86g8jAQug04?t=103)
@@ -50,12 +52,11 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Khan Academy's great Algorithms Course](https://www.khanacademy.org/computing/computer-science/algorithms)
 - [Stanford's Coursera 4-Part Algorithm Course](https://www.coursera.org/specializations/algorithms)
 - [Visualizing Algorithms from Mike Bostock](http://bost.ocks.org/mike/algorithms/)
 - [Another free course on algorithms by Udacity](https://www.udacity.com/course/intro-to-algorithms--cs215)
 - [A more detailed video on stacks and queues](https://www.youtube.com/watch?v=idrrIMXXeHM)
-- [An article](https://web.archive.org/web/20221207000421/https://www.crondose.com/2016/06/create-a-binary-search-tree-array) that discusses how to construct a binary search tree from an unordered array.
-- [A stack overflow discussion](https://stackoverflow.com/questions/3332947/when-is-it-practical-to-use-depth-first-search-dfs-vs-breadth-first-search-bf) on the relative strengths of BFS and DFS.
+- A stack overflow discussion on the [relative strengths of BFS and DFS](https://stackoverflow.com/questions/3332947/what-are-the-practical-factors-to-consider-when-choosing-between-depth-first-sea).
