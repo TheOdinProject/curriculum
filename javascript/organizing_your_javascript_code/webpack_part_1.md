@@ -303,6 +303,8 @@ module.exports = {
 };
 ```
 
+You might notice that when images are included when bundling, the output image file in `dist` has a different file name (it will likely be some jumble of numbers and letters). By default, Webpack gives your bundled image files a new name by hashing their contents. You do not need to know how this works, nor do you need to dig the details of why, nor how to change this. You just need to be aware that this is expected behaviour (it's to do preventing issues with the browser cache and matching file names).
+
 <div class="lesson-note lesson-note--tip" markdown="1">
 
 #### You only need to configure what you need
