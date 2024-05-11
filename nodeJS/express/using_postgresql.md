@@ -96,7 +96,7 @@ SELECT * from usernames;
 
 ### Using node-postgres in Express
 
-We can work with PostgreSQL in our Express application through [`node-postgres`](https://github.com/brianc/node-postgres) (or `pg` for short). It is library that we'll use to interface with the PostgreSQL db. Install it by:
+We can work with PostgreSQL in our Express application through [`node-postgres`](https://github.com/brianc/node-postgres) (or `pg` for short). It is library that we'll use to interface with the PostgreSQL db. Install it with:
 
 ```bash
 npm install pg
