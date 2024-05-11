@@ -268,11 +268,11 @@ A far more painless approach is providing the connection information as an argum
 
 ```bash
 # populating local db 
-node db/populatedb.js local-db-url
+node db/populatedb.js <local-db-url>
 
 # populating production db
 # run it from your machine once after deployment of your app & db
-node db/populatedb.js production-db-url
+node db/populatedb.js <production-db-url>
 ```
 
 ### Assignment
