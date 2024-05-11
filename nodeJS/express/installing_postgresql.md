@@ -126,7 +126,7 @@ You should see the PostgreSQL prompt come up with the new role we just created, 
 role_name=#
 ```
 
-If you don't see a similar prompt, then reach out on [Discord](https://discord.gg/V75WSQG) for some help. If you **do** see a similar prompt, then we can create a password for the role like so:
+If you don't see a similar prompt, then reach out in [our Discord server](https://discord.gg/V75WSQG) for some help. If you **do** see a similar prompt, then we can create a password for the role like so:
 
 ```sql
 \password <role_name>
