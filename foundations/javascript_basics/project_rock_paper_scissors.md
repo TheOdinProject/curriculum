@@ -45,7 +45,7 @@ Your game will be played against the computer. You will write a function that ra
 
 #### Step 3: Write the logic to get the human choice
 
-Your game will be played by a human player. You will write a function that takes the user choice returns it.
+Your game will be played by a human player. You will write a function that takes the user choice and returns it.
 
 1. Create a new function named `getHumanChoice`.
 1. Write the code so that `getHumanChoice` will return one of the valid choices depending on what the user inputs.
