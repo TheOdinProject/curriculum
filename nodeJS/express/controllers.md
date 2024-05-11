@@ -60,7 +60,13 @@ A middleware function typically takes three arguments (however, there is one tha
 - `res` - The response object, which represents the HTTP response that will be sent back to the client.
 - `next` - The function that pass the control to the next middleware function in the chain (we'll get to this later). This is optional.
 
-**NOTE**: Names are just convention, you can name them whatever you want `req -> request, res -> response, etc`
+<div class="lesson-note" markdown="1">
+
+#### Naming convention
+
+Names are just convention, you can name them whatever you want `req` -> `request`, `res` -> `response`, etc
+
+</div>
 
 A middleware function can perform various tasks, such as:
 
@@ -69,7 +75,7 @@ A middleware function can perform various tasks, such as:
 - Calling the next middleware function in the chain.
 - Ending the request-response cycle (meaning no further middleware functions are called, even if there are more in the chain).
 
-Express has a rich ecosystem and you will likely find a package that solves the problem you are encountering. For example, some packages provide middleware functions to handle authentication, cors, rate limiting, sessions, logging, validation, and more! But we should identify the basic and built-in ones first.
+Express has a rich ecosystem and you will likely find a package that solves the problem you are encountering. For example, some packages provide middleware functions to handle authentication, cors, rate limiting, sessions, logging, validation, and more! Throughout this lesson (and the course), we'll be introducing middlewares that would be required to build projects in this course. Although, you're welcome to explore on your own.
 
 #### Application-level middleware
 
@@ -83,7 +89,7 @@ Very common built-in middleware functions that you will likely use are the follo
 
 #### Router-level middleware
 
-Router-level middleware works similarly to application-level middlewares but is bound to an *instance of Express router* using router.use or router.METHOD (e.g. router.get) functions. This however is only executed when the request matches the specific route as you've probably already learned in the Routes lesson.
+Router-level middleware works similarly to application-level middlewares but is bound to an *instance of Express router* using `router.use` or `router.METHOD` (e.g. router.get) functions. This however is only executed when the request matches the specific route as you've probably already learned in the Routes lesson.
 
 Here is an example of a basic middleware function:
 
@@ -102,7 +108,7 @@ function myMiddleware(req, res, next) {
 app.use(myMiddleware);
 ```
 
-In this example, the middleware function logs a message, adds a custom property to the request object, and then calls the next() function to pass control to the next middleware function or route handler. We also register the middleware function through the usage of `app.use` which makes this an application-level middleware. Other middleware functions below this one will now be able to see a property `customProperty` with the value `"Hello from myMiddleware"`.
+In this example, the middleware function logs a message, adds a custom property to the request object, and then calls the `next()` function to pass control to the next middleware function or route handler. We also register the middleware function through the usage of `app.use` which makes this an application-level middleware. Middleware functions following `myMiddleware` in this chain can now access `req.customProperty` with the value `"Hello from myMilddleware"`.
 
 One thing to note about is that middleware functions are executed in the order they are defined or registered in your application. This means that the sequence in which you define your middleware functions matters, as it determines the order in which they will be invoked during the request-response cycle. So you need to make sure and be aware that your middleware fnuctions are placed in the correct order. As an example, some packages have middleware functions that changes the `Request` object, and as a result, these middleware functions should be placed at the very top of your application in order for you to be able to see their changes in all of your middleware functions below it.
 
@@ -116,7 +122,7 @@ A controller comes into play whenever a request hits the server and a route matc
 
 Once the controller has completed its tasks, it passes the processed data to the view, which renders the data into a format suitable for sending back to the client. Typically, this would be HTML. Later, when we cover building APIs, we can also send JSON responses like with the APIs that you've previously encountered e.g. Giphy API.
 
-The naming conventions for these controllers are usually based on the route they will be attached to e.g. GET route -> getSomething, POST route -> createSomething, DELETE route -> deleteSomething, etc. Nonetheless, there is no fixed rule since Express is not opinionated. It will always be based on you or someone else's conventions, and the requirements of the function.
+The naming conventions for these controllers are usually based on the route they will be attached to e.g. `GET` route -> `getSomething`, `POST` route -> `createSomething`, `DELETE` route -> `deleteSomething`, etc. Nonetheless, there is no fixed rule since Express is not opinionated. It will always be based on you or someone else's conventions, and the requirements of the function.
 
 ```javascript
 // user controller file - controllers/userController.js
@@ -135,7 +141,7 @@ const getUserById = async (req, res) => {
 };
 ```
 
-In this example, the `getUserById` function is a controller that handles a specific action related to retrieving a user by their ID. Let's break down what's happening in this controller:
+In this example, the `getUserById` function is a controller that handles a specific action related to retrieving a user by their ID. You'll use this controller by importing it into file where routes are defined, and using it like so `router.get("/user/:id", getUserById)`. Let's break down what's happening in this controller:
 
 1. The controller extracts the userId from the request parameters (`req.params.id`). This assumes that the parameter is defined with a route, such as `/users/:id`.
 1. It then invokes a database query function `someDBQueryToGetUser` to retrieve the user data based on the userId.
@@ -178,7 +184,7 @@ const getUserById = async (req, res) => {
 };
 ```
 
-However, this is not exactly a clean solution since eventually, we will have to add the same try/catch block to *all* controllers. There is a package called [express-async-handler](https://www.npmjs.com/package/express-async-handler) that you can install to hide this bit. It essentially just chains a `catch` to "catch" any errors in the function.
+However, this is not exactly a clean solution since eventually, we will have to add the same try/catch block to *all* controllers. There is a package called [express-async-handler](https://www.npmjs.com/package/express-async-handler) that you can install to hide this bit.
 
 ```javascript
 const asyncHandler = require("express-async-handler");
@@ -198,6 +204,12 @@ const getUserById = asyncHandler(async (req, res) => {
 });
 ```
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+The asyncHandler function in the express-async-handler function is just 6 lines of code. try to take a guess on how it's implemented and then do [check out the source code](https://github.com/Abazhenov/express-async-handler/blob/master/index.js) for yourself.
+
+</div>
+
 #### With a middleware
 
 Remember what we said earlier regarding a "special type of middleware"? Let's actually look into that now. There is an error middleware function that handles all errors in our application coming down from other middleware functions and this error middleware function is commonly placed at the very end of our application code, to ensure that it is actually the last middleware function to be executed and to only handle errors bubbling down from other middleware functions before it.
@@ -212,12 +224,7 @@ app.use((err, req, res, next) => {
 
 However, take note that this is a middleware function that requires *four parameters* that you will need to provide even if they are not used. If you for example exclude one of the parameters, it will not be recognized as an error middleware function. You can try it out yourself ;)
 
-It is the same as the previous middleware functions with three parameters but with one new parameter in a different order:
-
-- `err` - The error object. This is an odd one but it *must* be the first parameter in the callback.
-- `req` - The request object, which represents the incoming HTTP request.
-- `res` - The response object, which represents the HTTP response that will be sent back to the client.
-- `next` - The function that pass the control to the *next* middleware function (We'll get to this later). This is optional.
+It is the same as the previous middleware functions with three parameters but with one new parameter in a different order which is the error object. This is an odd one but the error object *must* be the first parameter in the callback.
 
 This middleware function handles the *errors thrown* in other middleware functions or something that is sent by a previous middleware function using the `next` function (e.g. `next(err)`).
 
@@ -321,7 +328,7 @@ Out of the four, you will likely only use the first two, unless you have a very 
 
 ### Consolidating what we've learned
 
-A basic example of the file structure would be:
+The following is the folder structure you'd end up with if you have been coding along:
 
 ```text
 express-app/
@@ -379,20 +386,19 @@ const router = express.Router();
 
 // router.use(authMiddleware);
 
-
 // router-level midlewares
 
-// router.route allows you to chain route handlers on a specified path
-// will only execute on `/users/` not `/users/a/b/c` for example unless `router.use` is used
-// connect your controllers with the route handlers
-router.route('/')
-  .get(userController.getUsers)
-  .post(userController.createUser);
-  // You will likely place your validation/authentication middleware functions here or perhaps in the controller file, e.g.
-  // .post(validationMiddleware, userController.createUser)
+// GET request for getting all the users
+router.get('/', userController.getUsers);
 
-router.route('/:id')
-  .get(userController.getUserById);
+// You will likely place your validation/authentication middleware functions here or perhaps in the controller file, e.g.
+// router.post(validationMiddleware, userController.createUser)
+
+// POST request for creating a user
+router.post('/', userController.createUser);
+
+// GET request for getting the user by id
+router.get('/:id', userControoler.getUserById);
 
 module.exports = router;
 ```
