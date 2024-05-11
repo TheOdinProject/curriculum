@@ -243,7 +243,7 @@ Perceived complexity is very similar to cyclomatic complexity. It attempts to me
 
 ### Wouldn't it be nice to have all this in VSC?
 
-It certainly would! Thanks to Ruby-LSP, RuboCop is integrated with Visual Studio Code. Thanks to this, RuboCop is continuously ran while you're writing your code, providing you with feedback on the go:
+It certainly would! Thanks to Ruby-LSP, RuboCop is integrated with Visual Studio Code. All you need is a Gemfile set up with RuboCop in your project. Thanks to this, RuboCop is continuously ran while you're writing your code, providing you with feedback on the go:
 
 ![Caesar's Cipher project in VSC with many problems](./linting_and_rubocop/imgs/rubocopinvsc.png)
 
