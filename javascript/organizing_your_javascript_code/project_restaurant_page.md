@@ -53,16 +53,7 @@ You can make a `.gitignore` file in the root of the project, and by writing file
 1. Let's deploy to GitHub pages! First, we will need to bundle our application into `dist` by running `npx webpack`. Unfortunately, we need to do a little more work to deploy to GitHub pages, because GitHub Pages tries to look for an `index.html` *in the root of your project*, but yours is inside `dist`! We will need to do a few steps to push *the contents* of your `dist` directory to its own branch on GitHub, which will then have a root-level `index.html` for GitHub pages to serve.
 
     1. Follow the instructions in this [gist about deploying your dist subdirectory to GitHub pages](https://gist.github.com/cobyism/4730490). EZPZ!
-        - To prevent having to copy and paste the same lengthy git command each time, you can instead create an npm script to do the work for you!
-            - Inside your project's `package.json` file, within the `scripts` section, add an additional entry named something of your choosing and paste in the command from the above gist surrounded by quotation marks. Follow the formatting of the already added `test` script.
-            - For Example:
 
-              `"scripts": {
-    "YourScriptName": "git subtree push --prefix dist origin gh-pages"
-  }`
-            - Now each  time you need to update your project's live preview, you `npm run <YourScriptName>` in your project's terminal.
-            - To learn more about this, here's a short tutorial video on [npm scripts](https://www.youtube.com/watch?v=REdzp64dijs).
-
-    1. Recall that the **source branch** for GitHub Pages is set in your repository's settings.
+    1. Recall that the **source branch** for GitHub Pages is set in your repository's settings. Get this changed to the `gh-pages` branch.
 
 </div>
