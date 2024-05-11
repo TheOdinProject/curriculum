@@ -162,7 +162,7 @@ async function insertUsername(username) {
 module.exports = {
   getAllUsernames,
   insertUsername
-}
+};
 ```
 
 <div class="lesson-note" markdown="1">
