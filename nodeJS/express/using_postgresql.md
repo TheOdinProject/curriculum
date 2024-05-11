@@ -183,7 +183,7 @@ We're passing user entered value i.e. `username` directly into our query. A nefa
 
 </div>
 
-Invoke the above two functions in the specific controllers (you might have different function names etc. Important thing is to understand how the db functions are invoked):
+Invoke the above two functions in the specific controllers (you might have different function names etc. The important thing is to understand how the db functions are invoked):
 
 ```javascript
 const db = require("../db/queries");
