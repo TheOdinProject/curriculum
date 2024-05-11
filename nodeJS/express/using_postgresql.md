@@ -28,7 +28,7 @@ This section contains a general overview of topics that you will learn in this l
 Let's start by creating an Express application. It will just have one feature - add usernames provided by the user to the db. Here are the expected routes and their functionalities:
 
 - `GET /` - to log available usernames in the DB to the terminal. For now, just put in a simple `console.log("usernames will be logged here - wip")`.
-- `GET /new` - to display a HTML form to the user with one username input text field. It will submit to the following route,
+- `GET /new` - to display a HTML form to the user with one username input text field. It will submit to the next route.
 - `POST /new` - will save the incoming username data to the DB. For now, just log `console.log("username to be saved: ", req.body.username)`.
 
 Move on to the next section once you have the above functionality working. Scope relevant code to the `routes` and `controllers` folders. Since there's only one view (`GET /new`) to take care of, it's up to you whether you want to use `ejs` or make do with plain ol' HTML.
