@@ -1,6 +1,6 @@
 ### Introduction
 
-Before we dive all the way into the Code, we are going to take a moment to improve your editor setup and overall productivity. Doing this now will make things much easier for you going forward. This lesson will give you some information about code style, and then give you some tools to help you maintain consistent code-style throughout your projects.  In some cases it can even help adjust things like indentation for you! We will also introduce template repositories which can save you time setting up projects that share a lot of configuration with other projects.
+Before we dive all the way into the Code, we are going to take a moment to improve your editor setup and overall productivity. Doing this now will make things much easier for you going forward. This lesson will give you some information about code style, and then give you some tools to help you maintain consistent code-style throughout your projects.  In some cases it can even help adjust things like indentation for you!
 
 ### Lesson overview
 
@@ -8,7 +8,6 @@ This section contains a general overview of topics that you will learn in this l
 
 - Learn about style guides and why they are important.
 - Set up a linter and prettier to make your code better.
-- Learn what template repositories are and how to set one up.
 
 ### Style guides
 
@@ -54,14 +53,6 @@ Using prettier makes coding faster and easier! You don't have to worry about nai
 
 We **highly** recommend that you install ESlint and Prettier and use them for all future projects. It will make your code easier to read, both for yourself and for anyone else looking at it. There is no special setup needed apart from installing both of them.
 
-### Template repositories
-
-With the last few projects, you might have felt that setting up Webpack involved a fair few files and configuration, and that you may have had to look at what you configured before to copy and paste the configuration you want to reuse. You may also have noticed that whenever you create a new repository on Github, there is an option near the top for a `Repository template`.
-
-This is where template repositories can come very much in handy. Any of your existing repositories can be converted to a template in its settings (right under where you can rename the repository, there is a checkbox for whether the repository is a template or not). If you check this box, congratulations, that's all you need to do! Now when you go to create a new repository, the `Repository template` dropdown will have any templates listed for you to select. Selecting one will mean your new repository will be a copy of the chosen template, not an empty one!
-
-If you find yourself reusing a lot of setup code for multiple projects, you can make a new repository with all of the setup code you need then mark it as a template. Now you can select that template when creating a new project repository to save time getting set up, letting you dive into working on the project itself sooner!
-
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
@@ -69,7 +60,6 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is linting?](https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/)
 - [Which problems can linting prevent?](https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/)
 - [Why should you use Prettier?](https://www.youtube.com/watch?v=hkfBvpEfWdA)
-- [What is a template repository?](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
 
 ### Additional resources
 
