@@ -204,10 +204,11 @@ async function createUsernamePost(req, res) {
   res.redirect("/");
 }
 
-module.exports {
+module.exports = {
   getUsernames,
-  createUsername
-}
+  createUsernameGet,
+  createUsernamePost
+};
 ```
 
 Take your app for a spin, hopefully it works as expected.
