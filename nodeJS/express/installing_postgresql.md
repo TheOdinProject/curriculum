@@ -70,7 +70,7 @@ sudo service postgresql start
 
 </div>
 
-Got an error, or don't see an active service? Come visit the [Discord](https://discord.gg/V75WSQG) for some help!
+Got an error, or don't see an active service? Come visit [our Discord server](https://discord.gg/V75WSQG) for some help!
 
 If `postgresql` is active, you can press `Q` to quit the status screen and move on to the next step.
 
