@@ -18,7 +18,7 @@ This lesson and all subsequent lessons will assume you understand SQL syntax and
 
 </div>
 
-In this lesson, we'll install PostgreSQl and in the next lesson we'll learn how to use it in our Express application.
+In this lesson, we'll install PostgreSQL and in the next lesson we'll learn how to use it in our Express application.
 
 ### Lesson overview
 
