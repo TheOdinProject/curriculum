@@ -264,7 +264,7 @@ We've hardcoded our local db connection information in the script. Hence, the sc
 
 We should aim to make our script as independent from our codebase as possible.
 
-A far painless approach is providing the connection information as an argument to the script. This way, we can run the script for local db as well as production db on our machine. You can access arguments via [`process.argv`](https://nodejs.org/docs/latest/api/process.html#processargv).
+A far more painless approach is providing the connection information as an argument to the script. This way, we can run the script for local db as well as production db on our machine. You can access arguments via [`process.argv`](https://nodejs.org/docs/latest/api/process.html#processargv).
 
 ```bash
 # populating local db 
