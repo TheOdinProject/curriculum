@@ -136,7 +136,7 @@ Pick whichever method you want to use and let's continue.
 
 #### Two ways of connecting with pg
 
-pg has two ways to connect to a db: a client and a pool.
+`pg` has two ways to connect to a db: a client and a pool.
 
 Client is an individual connection to the DB, which you manually manage. You open a connection, do your query, then close it. This is fine for one-off queries, but can become expensive if you're dealing with a lot of queries. Wouldn't this problem be alleviated if we could somehow hold onto a client? Yes!
 
@@ -165,6 +165,24 @@ module.exports = {
   insertUsername
 }
 ```
+
+<div class="lesson-note" markdown="1">
+
+#### Parameterization
+
+What's with the `$1` in the insert query?
+
+Alternatively, the query could look like:
+
+```javascript
+await db.query("INSERT INTO usernames (username) VALUES ('" + username + "')");
+```
+
+We're passing user entered value i.e. `username` directly into our query. A nefarious user could enter something like `sike'); DROP TABLE usernames; --` and wreak havoc. Scary stuff. This is called [SQL injection](https://en.wikipedia.org/wiki/SQL_injection).
+
+`pg` provides [query parameterization](https://node-postgres.com/features/queries#parameterized-query) to prevent this. Instead of passing user input directly, we pass it in an array as the second argument. `pg` handles the rest.
+
+</div>
 
 Invoke the above two functions in the specific controllers (you might have different function names etc. Important thing is to understand how the db functions are invoked):
 
@@ -262,7 +280,7 @@ node db/populatedb.js production-db-url
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Skim through[pg's documentation](https://node-postgres.com/). The library itself is light, and so is their documentation. You don't need to read everything, use it mainly as a reference.
+1. Skim through [pg's documentation](https://node-postgres.com/). The library itself is light, and so is their documentation. You don't need to read everything, use it mainly as a reference.
 1. Update the above project we've been working on.
     1. Install `dotenv` package and implement environment variables for db connection information.
     1. Add search functionality via query parameters on the index route. For example, `GET /?search=sup` should return all usernames containing `sup`. DON'T implement this in JavaScript, search should be done in SQL.
