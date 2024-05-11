@@ -49,6 +49,14 @@ To save you from having to manually edit your configuration file every time you 
 
 In the assignment, we will introduce a tool called `webpack-merge` that can make using multiple Webpack configuration files easier to deal with and with minimal duplication. Doing it this way is nice. We set up once, then we can forget about it since each script will use the appropriate configuration file and mode!
 
+### Template repositories
+
+One thing you might have noticed already is that setting up Webpack involvs a fair few files and configuration. Each time you set up a new project with Webpack, you may have to look at what you configured before to copy and paste the configuration you want to reuse. You may also have noticed that whenever you create a new repository on Github, there is an option near the top for a `Repository template`.
+
+This is where template repositories can come very much in handy. Any of your existing repositories can be converted to a template in its settings (right under where you can rename the repository, there is a checkbox for whether the repository is a template or not). If you check this box, congratulations, that's all you need to do! Now when you go to create a new repository, the `Repository template` dropdown will list any templates for you to select. Selecting one will mean your new repository will be a copy of the chosen template, not an empty one!
+
+You may not know for sure what you might want or need in a template, but when you find yourself reusing a lot of setup code for multiple projects, you can make a new repository with all of the setup code you need then mark it as a template. Now you can select that template when creating a new project repository to save time, letting you dive into working on the project itself sooner!
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
