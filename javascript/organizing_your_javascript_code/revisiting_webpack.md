@@ -61,6 +61,10 @@ You may not know for sure what you might want or need in a template, but when yo
 
 <div class="lesson-content__panel" markdown="1">
 
+1. Read [a little more about npm scripts](https://www.knowledgehut.com/blog/web-development/package-json-scripts-node-js). This article goes a little further than what you might find yourself needing to use for a while, such as pre/post and lifecycle scripts, but it's good to be aware of what things are possible with the tools you have.
+1. Read through [Webpack's "Production" guide](https://webpack.js.org/guides/production/) where they walk you through how to use `webpack-merge` and split your configuration file. The exact code examples they've used in that guide follow on from a previous part of a longer tutorial they have, but the main parts about `webpack-merge` and splitting the configuration file should still be followable with a new project, or you can even try converting your Restaurant Page project to do things this way!
+   - You can ignore the "Specify the Mode" section and its examples.
+
 </div>
 
 ### Knowledge check
