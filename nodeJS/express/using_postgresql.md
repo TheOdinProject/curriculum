@@ -287,7 +287,7 @@ node db/populatedb.js <production-db-url>
 1. In our previous Mini Message Board project, we implemented ephemeral messages using an array i.e. the messages would reset when server restarted. We want data persistence. Go back to this project and implement it with a PostgreSQL db and `pg`.
    - Deploy a new db on a hosting service you choose, and obtain its connection information.
    - Create a `messages` table, populate it with data if you wish. This should be done via a script.
-   - Add necessary environment variables, create a pool, and implement required db functions.
+   - Add the necessary environment variables, create a pool, and implement the required db functions.
 
 </div>
 
