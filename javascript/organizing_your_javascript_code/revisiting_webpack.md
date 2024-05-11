@@ -57,6 +57,12 @@ This is where template repositories can really come in handy. Any of your existi
 
 You may not know for sure what you might want or need in a template, but when you find yourself reusing a lot of setup code for multiple projects, you can make a new repository with all of the setup code you need and mark it as a template. Now you can select that template when creating a new project repository to save time, letting you dive into working on the project itself sooner!
 
+### Rounding up
+
+There is *a lot* more to Webpack and bundlers that we have not touched; we've only scratched the surface! Much of the inner workings and more advanced features like code splitting and tree shaking are out of the scope of this curriculum. However, no doubt that when a time comes where you actually need to understand those things a particular task, you will be more than capable of learning what you need.
+
+For now, keep this workflow when dealing with multiple JavaScript modules and dependencies. Later on in the curriculum, we will introduce different tools that abstract some of these concepts away and handle some of these configurations and optimizations for us. It's useful to be aware of what sort of things these tools are actually doing to your code.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
