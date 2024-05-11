@@ -295,11 +295,11 @@ node db/populatedb.js <production-db-url>
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [How to create a db and table via PostgreSQL shell?](#setting-up-the-db)
+- [How do you create a db and table via PostgreSQL shell?](#setting-up-the-db)
 - [What is node-postgres and how do you use it?](#using-node-postgres-in-express)
-- [When to use a client and a pool in pg?](#querying-with-pg)
+- [When should you use a client or a pool in pg?](#querying-with-pg)
 - [How would you integrate db query functions in your Express app?](#querying-with-pg)
-- [How to populate the db via a script?](#populate-the-db-via-a-script)
+- [How would you populate the db via a script?](#populate-the-db-via-a-script)
 
 ### Additional resources
 
