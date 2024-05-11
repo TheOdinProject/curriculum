@@ -28,8 +28,6 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Installing PostgreSQL
 
-If you've been following the curriculum, you should already have installed all the supporting bits and pieces. If not, please go back and refer to [those lessons](https://www.theodinproject.com/guides/installations) before continuing.
-
 Pick your operating system below to get the appropriate steps for installing PostgreSQL.
 
 <details markdown="block">
