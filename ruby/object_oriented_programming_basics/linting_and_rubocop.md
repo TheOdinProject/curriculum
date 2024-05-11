@@ -43,7 +43,7 @@ Before you and RuboCop do a check-up on your Caesar Cipher project, let's talk s
 
 As you can see, those are *recommendations* dictated by real-world usage aimed at improving readability and consistency of Ruby code. In the end, it is like the difference between how you send your messages online versus how you'd write an essay. One is about communicating quickly, the other is about communicating clearly.
 
-The various conventions can be grouped based on what aspects of your code they deal with. As a starting point, lets use some of RuboCop's departments - Style, Lint and Metrics. Perhaps you've anticipated that RuboCop doesn't work alone - it indeed has a whole precint behind itself. The various Cops are interested in making sure that some particular rule is not broken. Let the departments speak for themselves:
+The various conventions can be grouped based on what aspects of your code they deal with. As a starting point, lets use some of RuboCop's departments - Style, Lint and Metrics. Perhaps you've anticipated that RuboCop doesn't work alone - it indeed has a whole precinct behind itself. The various Cops are interested in making sure that some particular rule is not broken. Let the departments speak for themselves:
 
 > Style Cops check for stylistic consistency of your code. Many of the them are based on the Ruby Style Guide.
 >
@@ -186,7 +186,7 @@ This way the Gem would be installed normally, but for your `bundle exec` ran cod
 
 `.rubocop.yml` is the configuration file for RuboCop and it lives in the root directory of your project. There you'll change the defaults of RuboCop to your (or most likely, your team's) liking. To create such config file, you can just use `bundle exec rubocop --init` - it won't have anything in it besides a comment describing what it is for but if we were to add the Performance extension, we'd need to throw `require: rubocop-performance` in there so RuboCop knows to run it.
 
-RuboCop is still under development, so changes and additions happen. New Cops join the precint and they're not enabled by default - if you'd like them to be enabled by default instead of going through all of them and deciding on your own, you can use:
+RuboCop is still under development, so changes and additions happen. New Cops join the precinct and they're not enabled by default - if you'd like them to be enabled by default instead of going through all of them and deciding on your own, you can use:
 
 ```bash
 AllCops:
@@ -218,8 +218,6 @@ This will disable the `AbcSize` Cop from `Metrics` department between those comm
 Try your best to deal with it but accept that your code won't be perfect. That's fine. You're still learning - just make an honest attempt to make your code better. Perhaps reading other's code is going to show you the way, so always remember to spend some time reading code after finishing a project!
 
 ### Metrics are useless if not understood
-
-<!-- TODO: Make sure this section is actually good. -->
 
 Our recommendation to stick to the Metrics department requires that we help with explaining the more confusing concepts employed there: ABC metric, cyclomatic complexity and perceived complexity.
 
@@ -278,11 +276,10 @@ With time, you are going to be better at adhering to rules but perhaps more impo
 
 <div class="lesson-content__panel" markdown="1">
 
-1. https://www.youtube.com/watch?v=npOGOmkxuio Sandi Metz on Rules (I know, it's long, plenty of Rails context... I need to give it a serious rewatch and decide whether the entire thing should be given as an assignment or just part of it. But a minute spent with Sandi is a minute well spent and there's around 30 of them here.)
-1. https://rubystyle.guide/ Read intro + skim some of it
-1. https://docs.rubocop.org/rubocop/index.html Read some of it
-1. https://github.com/rubocop/rubocop Skim/skip?
-1. https://en.wikipedia.org/wiki/Lint_(software) Read
+1. [Learn some more about what linting is](https://en.wikipedia.org/wiki/Lint_(software))
+1. Acquaint yourself with [the introduction to Ruby Style Guide](https://rubystyle.guide/) and skim it a little.
+1. Check out [what RuboCop is about](https://docs.rubocop.org/rubocop/index.html) and explore its docs.
+1. [Watch Sandi Metz' "Rules"](https://www.youtube.com/watch?v=npOGOmkxuio) for a lovely exploration of the what, why and how of rules generally and also in the Ruby context.
 
 </div>
 
@@ -290,14 +287,23 @@ With time, you are going to be better at adhering to rules but perhaps more impo
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
+- [What is a style guide?](A-KNOWLEDGE-CHECK-URL)
+- [What is linting?](A-KNOWLEDGE-CHECK-URL)
+- [What is formatting?](A-KNOWLEDGE-CHECK-URL)
+- [How do you install RuboCop?](A-KNOWLEDGE-CHECK-URL)
+- [How do you run RuboCop in a command line interface?](A-KNOWLEDGE-CHECK-URL)
+- [How do you read RuboCop's output?](A-KNOWLEDGE-CHECK-URL)
+- [How do you configure RuboCop?](A-KNOWLEDGE-CHECK-URL)
+- [Why is Metrics department so important for new Rubyists?](-A-KNOWLEDGE-CHECK-URL)
+- [What is the ABC metric?](A-KNOWLEDGE-CHECK-URL)
+- [What is cyclomatic complexity?](A-KNOWLEDGE-CHECK-URL)
+- [What is perceived complexity?](A-KNOWLEDGE-CHECK-URL)
+- [How do you configure RuboCop in VSCode?](A-KNOWLEDGE-CHECK-URL)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- https://www.youtube.com/watch?v=nrHjVCuVsGA RuboCop
-- https://www.youtube.com/watch?v=kEfXPTm1aCI Ruby LSP
-- https://www.youtube.com/watch?v=uLyV5hOqGQ8 Intro to Standard
-- https://www.honeybadger.io/blog/linting-formatting-ruby/ Article on RuboCop and linting/formatting
-- https://evilmartians.com/chronicles/rubocoping-with-legacy-bring-your-ruby-code-up-to-standard using Standard's style guide using RuboCop
+- If you're curious about RuboCop's history and how it works [Bozhidar Batsov's All About RuboCop talk](https://www.youtube.com/watch?v=nrHjVCuVsGA) should be a satisfying listen.
+- [Vincius Stock's Improving the development experience with language servers talk](https://www.youtube.com/watch?v=kEfXPTm1aCI) is great for people who want to know more about Language Server Protocol, specifically the Ruby one.
+- [Honeybadger's article about Rubocop](https://www.honeybadger.io/blog/linting-formatting-ruby/) might give you a different perspective and introduce some features not covered in the lesson.
