@@ -1,6 +1,8 @@
+<!-- markdownlint-disable MD024 TOP004 -->
+
 ### Introduction
 
-Data persistence is integral to the vast majority of web applications. Data persistance is achieved through databases. Being able to understand how to structure, build, and query your own database are important skills for any full-stack developer to have.
+Data persistence is integral to the vast majority of web applications. Data persistence is achieved through databases. Being able to understand how to structure, build, and query your own database are important skills for any full-stack developer to have.
 
 For example, consider The Odin Project. Where is your username stored? Where are project submissions stored? Where does this lesson content, the one you're reading right now, stored? Yes, a database!
 
