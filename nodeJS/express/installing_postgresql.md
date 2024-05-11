@@ -6,7 +6,7 @@ Data persistence is integral to the vast majority of web applications. Data pers
 
 For example, consider The Odin Project. Where is your username stored? Where are project submissions stored? Where does this lesson content, the one you're reading right now, get stored? Yes, a database!
 
-We've chosen [PostgreSQL](https://www.postgresql.org/) as our database of choice for the curriculum. All SQL knowledge that you've learned in the earlier course should be transferable to PostgreSQL. We'll also learn new PostgreSQl specific things. Watch through this [fun and short introduction video to PostgreSQL by Fireship](https://www.youtube.com/watch?v=n2Fluyr3lbc).
+We've chosen [PostgreSQL](https://www.postgresql.org/) as our database of choice for the curriculum. All SQL knowledge that you've learned in the earlier course should be transferable to PostgreSQL. We'll also learn new PostgreSQL specific things. Watch through this [fun and short introduction video to PostgreSQL by Fireship](https://www.youtube.com/watch?v=n2Fluyr3lbc).
 
 <div class="lesson-note lesson-note--critical" markdown="1">
 
