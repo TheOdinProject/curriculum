@@ -95,6 +95,19 @@ two.js <-------------- one.js
 
 When we load `two.js` as a module, the browser will see that it depends on `one.js` and load the code from that file as well. If we instead used `one.js` as our entry point, the browser would see that it does not depend on any other files, and so would do nothing else. Our code from `two.js` would not be used, and nothing would get logged!
 
+If we had another file, `three.js`, that exported something and `two.js` imported from it, then `two.js` would still be our entry point, now depending on both `one.js` and `three.js`.
+
+```text
+two.js <-------------- one.js
+              └------- three.js
+```
+
+Or perhaps instead of `two.js`, `one.js` imports from `three.js`. In which case, `two.js` would still be our entry point and depend on `three.js` indirectly through `one.js`.
+
+```text
+two.js <-------------- one.js <-------------- three.js
+```
+
 Note that we only needed the one script tag as the browser handles the additional file dependencies for us. We also did not need to add the `defer` attribute, as `type="module"` automatically defers script execution for us.
 
 But how do we actually import and export? In true JavaScript fashion, we don't have just one but two types of importing and exporting: `default` and `named`, and they essentially do the same kind of thing but very slightly differently. They can even be mixed and matched in the same file.
