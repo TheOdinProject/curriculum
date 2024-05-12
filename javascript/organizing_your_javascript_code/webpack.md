@@ -210,7 +210,7 @@ Webpack will run the loaders starting at the end, so we want it to read the CSS 
 Now that Webpack knows what to do with imported CSS files, let's add some CSS! Create a `src/styles.css` with the following:
 
 ```css
-// styles.css
+/* styles.css */
 body {
   background-color: rebeccapurple;
 }
@@ -354,7 +354,7 @@ module.exports = {
   },
   devtool: "eval-source-map",
   devServer: {
-    watchFiles: "./src/template.html",
+    watchFiles: ["./src/template.html"],
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -382,7 +382,7 @@ module.exports = {
 
 Firstly, we add the `eval-source-map` as a `devtool` option. If we don't do this, any error messages we get won't necessarily match up to the correct files and line numbers from our development code. In the devtools "Sources" tab, we also won't be able to find our original untouched code, making the Chrome debugger harder to use. Adding this source map will solve both of these problems for us.
 
-Secondly, by default, `webpack-dev-server` will only auto-restart when it detects any changes to files we import into our JavaScript bundle, so our HTML template will be ignored! All we need to do is add it to the dev server's list of watched files - nice and simple!
+Secondly, by default, `webpack-dev-server` will only auto-restart when it detects any changes to files we import into our JavaScript bundle, so our HTML template will be ignored! All we need to do is add it to the dev server's array of watched files - nice and simple!
 
 Once set up, `npx webpack serve` will host our web page on `http://localhost:8080/`, which we can open in our browser and start working!
 
