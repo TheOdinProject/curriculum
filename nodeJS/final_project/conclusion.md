@@ -57,6 +57,6 @@ We want to emphasize again that the learning never really stops but also that yo
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- Additional [frameworks built on Express](https://expressjs.com/en/resources/frameworks.html) that might be more suited to building certain types of applications.
+- Additional [frameworks built on Express](https://web.archive.org/web/20240328030121/https://expressjs.com/en/resources/frameworks.html) that might be more suited to building certain types of applications.
 - Explore [more about APIs](https://www.youtube.com/watch?v=oBW_VNg4qD0).
 - [90 Days of DevOps](https://github.com/MichaelCade/90DaysOfDevOps) is a great repo if you wish to explore more about DevOps.
