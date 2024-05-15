@@ -50,18 +50,18 @@ module.exports = {
         getListItemData(bulletPoint);
       const firstCharacterIsValid =
         firstCharacter === firstCharacter.toUpperCase();
-      const lastCharacterIsValid = lastCharacter === "?";
+      const lastCharacterIsValid = lastCharacter === ".";
       // console.log(getListItemData(bulletPoint));
       if (!lastCharacterIsValid) {
         onError({
           lineNumber,
-          detail: "Lesson overview items should end with a question mark",
+          detail: "Lesson overview items should end with a period.",
           context,
           fixInfo: {
             lineNumber,
             editColumn: context.length,
             deleteCount: 1,
-            insertText: "?",
+            insertText: ".",
           },
         });
       }
