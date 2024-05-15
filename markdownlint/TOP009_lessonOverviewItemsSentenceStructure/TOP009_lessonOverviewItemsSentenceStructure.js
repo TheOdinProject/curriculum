@@ -16,7 +16,6 @@ function isolateBulletList(tokens) {
       inBulletList = false;
     }
 
-    console.log(inLessonOverview, inBulletList, token.content)
     if (inBulletList && inLessonOverview) bulletList.push(token);
   });
   // Only consider tokens that have text in them.
