@@ -15,7 +15,7 @@ Before diving in, you might want to consider whether or not the database operati
 
 If your queries are complicated, you might justify adding unit tests to make sure that you are using them correctly and that the code you have written is doing what you intend it to, and if you are using any of your own code to do some filtering, sorting, or other manipulations of the data you will want to test that as well.  In the case of your own code, however, it would be better if you could pull those things out into their own modules, separate from your database operations so you can test them without messing with the database.
 
-### Integration tests 
+### Integration tests
 
 There are cases, however, when you are going to want to test things that touch your database. For example, we performed an integration test on the server in the [testing routes and controllers lesson](./testing_routes_and_controllers.md) using `supertest`.
 
@@ -44,7 +44,7 @@ Next, setup appropriate npm scripts in your `package.json` file:
 
 Based on the `NODE_ENV`, you can programmatically switch out database urls:
 
-```js
+```javascript
 const databaseUrl = process.env.NODE_ENV === 'test' ? process.env.TEST_DATABASE_URL : process.env.DATABASE_URL;
 
 const prisma = new PrismaClient({
@@ -57,7 +57,7 @@ const prisma = new PrismaClient({
 
 ```
 
-Viola, the setup is complete. Now shoo... go get testin'. 
+Viola, the setup is complete. Now shoo... go get testin'.
 
 ### Knowledge check
 
