@@ -26,7 +26,7 @@ function isolateBulletList(tokens) {
 function getListItemData(bulletPoint) {
   const lineNumber = bulletPoint.lineNumber;
   const context = bulletPoint.content.trim();
-  const firstCharacter = context.at(1);
+  const firstCharacter = context.at(0);
   const lastCharacter = context.at(-1);
   return {
     firstCharacter,
@@ -50,21 +50,7 @@ module.exports = {
         getListItemData(bulletPoint);
       const firstCharacterIsValid =
         firstCharacter === firstCharacter.toUpperCase();
-      const lastCharacterIsValid = lastCharacter === ".";
-      // console.log(getListItemData(bulletPoint));
-      if (!lastCharacterIsValid) {
-        onError({
-          lineNumber,
-          detail: "Lesson overview items should end with a period.",
-          context,
-          fixInfo: {
-            lineNumber,
-            editColumn: context.length,
-            deleteCount: 1,
-            insertText: ".",
-          },
-        });
-      }
+      console.log(context, firstCharacter)
       if (!firstCharacterIsValid) {
         onError({
           lineNumber,
@@ -75,6 +61,20 @@ module.exports = {
             editColumn: 2,
             deleteCount: 1,
             insertText: firstCharacter.toUpperCase(),
+          },
+        });
+      }
+      const lastCharacterIsValid = lastCharacter === ".";
+      if (!lastCharacterIsValid) {
+        onError({
+          lineNumber,
+          detail: "Lesson overview items should end with a period.",
+          context,
+          fixInfo: {
+            lineNumber,
+            editColumn: context.length,
+            deleteCount: 1,
+            insertText: ".",
           },
         });
       }
