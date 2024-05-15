@@ -1,11 +1,5 @@
 // A bullet list is every token between and inclusive bullet_list_open to bullet_list_closed
 function isolateBulletList(tokens) {
-  tokens.filter((token, index, tokensArr) => {
-    if (
-      tokensArr[index - 1].type === "heading_open" &&
-      /lesson overview/i.test(token.content)
-    ) {
-
   const bulletList = []
   let inBulletList = false
   let inLessonOverview = false
@@ -19,26 +13,27 @@ function isolateBulletList(tokens) {
       inLessonOverview = false
     } else if (token.type === "bullet_list_open") {
       inBulletList = true
-    } else if (tokenArr[index - 1]?.type === "bullet_list_closed") {
+    } else if (tokensArr[index - 1]?.type === "bullet_list_closed") {
       inBulletList = false
     }
 
     if (inBulletList && inLessonOverview) bulletList.push(token)
   });
+  // Only consider tokens that have text in them.
+  return bulletList.filter(token => token.type === "inline")
 }
 
 // A list item is every token between and inclusive list_item_open to list_item_close
 function getListItemData(bulletPoint) {
-  const contentIndex = bulletPoint.findIndex((el) => el.type === "inline")
-  const contentToken = bulletPoint[contentIndex]
-  const lineNumber = contentToken.lineNumber
-  const contentText = contentToken.content.trim()
-  const firstCharacter = contentText.at(1)
-  const lastCharacter = contentText.at(-1)
+  const lineNumber = bulletPoint.lineNumber
+  const context = bulletPoint.content.trim()
+  const firstCharacter = context.at(1)
+  const lastCharacter = context.at(-1)
   return {
     firstCharacter,
     lastCharacter,
     lineNumber,
+    context,
   }
 }
 
@@ -50,13 +45,37 @@ module.exports = {
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP008.md",
   ),
   function: function TOP008(params, onError) {
-    const { tokens } = params.parsers.markdownit;
-    // BulletPoint[]
-    const bulletPoints = isolateBulletList(tokens);
+    const bulletPoints = isolateBulletList(params.tokens);
     bulletPoints.forEach((bulletPoint) => {
-      if (!getListItemData(bulletPoint)) {
-        // throw error here
+      const { firstCharacter, lastCharacter, lineNumber, context } = getListItemData(bulletPoint)
+      const firstCharacterIsValid = firstCharacter === firstCharacter.toUpperCase()
+      const lastCharacterIsValid = lastCharacter === "?"
+      if (!lastCharacterIsValid) {
+        onError({
+          lineNumber,
+          detail: "Lesson overview items should end with a question mark",
+          context,
+          fixInfo: {
+            lineNumber,
+            editColumn: context.length,
+            deleteCount: 1,
+            insertText: "?"
+          },
+        })
+      }
+      if (!firstCharacterIsValid) {
+        onError({
+          lineNumber,
+          detail: "Lesson overview items should start with a capital letter",
+          context,
+          fixInfo: {
+            lineNumber,
+            editColumn: 2,
+            deleteCount: 1,
+            insertText: firstCharacter.toUpperCase(), 
+          },
+        })
       }
     })
   },
-};
+}
