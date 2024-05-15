@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD024 TOP004 -->
+<!-- markdownlint-disable MD024 -->
 
 ### Introduction
 
@@ -9,8 +9,6 @@ For example, consider The Odin Project. Where is your username stored? Where are
 We've chosen [PostgreSQL](https://www.postgresql.org/) as our database of choice for the curriculum. All SQL knowledge that you've learned in the earlier course should be transferable to PostgreSQL. We'll also learn new PostgreSQL specific things. Watch through this [fun and short introduction video to PostgreSQL by Fireship](https://www.youtube.com/watch?v=n2Fluyr3lbc).
 
 <div class="lesson-note lesson-note--critical" markdown="1">
-
-#### Prerequisite SQL knowledge
 
 Make sure you've completed the [SQL course](https://www.theodinproject.com/paths/full-stack-javascript/courses/databases).
 
