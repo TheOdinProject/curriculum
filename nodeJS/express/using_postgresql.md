@@ -148,12 +148,12 @@ With our initialized `Pool`, we can use the `query` method. Create a new `db/que
 const pool = require("./pool");
 
 async function getAllUsernames() {
-  const { rows } = await db.query("SELECT * FROM usernames");
+  const { rows } = await pool.query("SELECT * FROM usernames");
   return rows;
 }
 
 async function insertUsername(username) {
-  await db.query("INSERT INTO usernames (username) VALUES ($1)", [username]);
+  await pool.query("INSERT INTO usernames (username) VALUES ($1)", [username]);
 }
 
 module.exports = {
@@ -171,7 +171,7 @@ What's with the `$1` in the insert query?
 Alternatively, the query could look like:
 
 ```javascript
-await db.query("INSERT INTO usernames (username) VALUES ('" + username + "')");
+await pool.query("INSERT INTO usernames (username) VALUES ('" + username + "')");
 ```
 
 We're passing user entered value i.e. `username` directly into our query. A nefarious user could enter something like `sike'); DROP TABLE usernames; --` and wreak havoc. Scary stuff. This is called [SQL injection](https://en.wikipedia.org/wiki/SQL_injection).
