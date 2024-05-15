@@ -41,7 +41,7 @@ Here are a few extra resources that will take you a bit deeper into software arc
 - [syntax.fm Podcast](https://syntax.fm)
 - [NodeJS Blog](https://nodejs.org/en/blog/)
 
-If you find anything you think could go on this list, feel free to improve to this lesson on [Github](https://github.com/TheOdinProject/curriculum)!
+If you find anything you think could go on this list, feel free to improve to this lesson in the [TOP curriculum repository on GitHub](https://github.com/TheOdinProject/curriculum)!
 
 ### Contributing
 
@@ -57,6 +57,6 @@ We want to emphasize again that the learning never really stops but also that yo
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [Additional frameworks](https://expressjs.com/en/resources/frameworks.html) built on Express for building specific apps (ie. Feathers for chat applications)
-- More on APIs with this [fantastic intro video](https://www.youtube.com/watch?v=oBW_VNg4qD0)
-- Learn More About DevOPs with [this fantastic github repo](https://github.com/MichaelCade/90DaysOfDevOps)
+- Additional [frameworks built on Express](https://web.archive.org/web/20240328030121/https://expressjs.com/en/resources/frameworks.html) that might be more suited to building certain types of applications.
+- Explore [more about APIs](https://www.youtube.com/watch?v=oBW_VNg4qD0).
+- [90 Days of DevOps](https://github.com/MichaelCade/90DaysOfDevOps) is a great repo if you wish to explore more about DevOps.
