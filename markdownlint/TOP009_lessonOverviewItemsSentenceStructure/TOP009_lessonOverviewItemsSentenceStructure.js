@@ -42,7 +42,7 @@ module.exports = {
   description: "Lesson overview items should have proper punctuation",
   tags: ["content"],
   information: new URL(
-    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP008.md",
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP009.md",
   ),
   function: function TOP008(params, onError) {
     const bulletPoints = isolateBulletList(params.tokens);
