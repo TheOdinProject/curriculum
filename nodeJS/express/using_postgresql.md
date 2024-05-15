@@ -1,6 +1,6 @@
 ### Introduction
 
-Now that we have PostgreSQl up and running on our machine, it's time to work with it.
+Now that we have PostgreSQL up and running on our machine, it's time to work with it.
 
 <div class="lesson-note lesson-note--critical" markdown="1">
 
