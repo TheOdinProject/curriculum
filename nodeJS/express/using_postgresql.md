@@ -252,7 +252,7 @@ Login to the PostgreSQL shell, connect to the `top_users` db, and drop the `user
 DROP TABLE usernames;
 ```
 
-You can then run this script via `node db/populatedb.js`, or add it as a [`script` in `package.json`](https://stackoverflow.com/a/36433748).
+You can then run this script via `node db/populatedb.js`, or add it as a [script in package.json](https://stackoverflow.com/a/36433748).
 
 Do note that the script is designed to be ran only once.
 
@@ -262,7 +262,7 @@ We've hardcoded our local db connection information in the script. Hence, the sc
 
 We should aim to make our script as independent from our codebase as possible.
 
-A far more painless approach is providing the connection information as an argument to the script. This way, we can run the script for local db as well as production db on our machine. You can access arguments via [`process.argv`](https://nodejs.org/docs/latest/api/process.html#processargv).
+A far more painless approach is providing the connection information as an argument to the script. This way, we can run the script for local db as well as production db on our machine. You can access arguments via [process.argv](https://nodejs.org/docs/latest/api/process.html#processargv).
 
 ```bash
 # populating local db 
