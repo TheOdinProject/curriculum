@@ -1,40 +1,40 @@
 // A bullet list is every token between and inclusive bullet_list_open to bullet_list_closed
 function isolateBulletList(tokens) {
-  const bulletList = []
-  let inBulletList = false
-  let inLessonOverview = false
+  const bulletList = [];
+  let inBulletList = false;
+  let inLessonOverview = false;
   tokens.forEach((token, index, tokensArr) => {
     if (
       tokensArr[index - 1]?.type === "heading_open" &&
       /lesson overview/i.test(token.content)
     ) {
-      inLessonOverview = true
-    } else if (token.type === "heading_close") {
-      inLessonOverview = false
+      inLessonOverview = true;
     } else if (token.type === "bullet_list_open") {
-      inBulletList = true
-    } else if (tokensArr[index - 1]?.type === "bullet_list_closed") {
-      inBulletList = false
+      inBulletList = true;
+    } else if (tokensArr[index - 1]?.type === "bullet_list_close") {
+      inLessonOverview = false;
+      inBulletList = false;
     }
 
-    if (inBulletList && inLessonOverview) bulletList.push(token)
+    console.log(inLessonOverview, inBulletList, token.content)
+    if (inBulletList && inLessonOverview) bulletList.push(token);
   });
   // Only consider tokens that have text in them.
-  return bulletList.filter(token => token.type === "inline")
+  return bulletList.filter((token) => token.type === "inline");
 }
 
 // A list item is every token between and inclusive list_item_open to list_item_close
 function getListItemData(bulletPoint) {
-  const lineNumber = bulletPoint.lineNumber
-  const context = bulletPoint.content.trim()
-  const firstCharacter = context.at(1)
-  const lastCharacter = context.at(-1)
+  const lineNumber = bulletPoint.lineNumber;
+  const context = bulletPoint.content.trim();
+  const firstCharacter = context.at(1);
+  const lastCharacter = context.at(-1);
   return {
     firstCharacter,
     lastCharacter,
     lineNumber,
     context,
-  }
+  };
 }
 
 module.exports = {
@@ -47,9 +47,12 @@ module.exports = {
   function: function TOP008(params, onError) {
     const bulletPoints = isolateBulletList(params.tokens);
     bulletPoints.forEach((bulletPoint) => {
-      const { firstCharacter, lastCharacter, lineNumber, context } = getListItemData(bulletPoint)
-      const firstCharacterIsValid = firstCharacter === firstCharacter.toUpperCase()
-      const lastCharacterIsValid = lastCharacter === "?"
+      const { firstCharacter, lastCharacter, lineNumber, context } =
+        getListItemData(bulletPoint);
+      const firstCharacterIsValid =
+        firstCharacter === firstCharacter.toUpperCase();
+      const lastCharacterIsValid = lastCharacter === "?";
+      // console.log(getListItemData(bulletPoint));
       if (!lastCharacterIsValid) {
         onError({
           lineNumber,
@@ -59,9 +62,9 @@ module.exports = {
             lineNumber,
             editColumn: context.length,
             deleteCount: 1,
-            insertText: "?"
+            insertText: "?",
           },
-        })
+        });
       }
       if (!firstCharacterIsValid) {
         onError({
@@ -72,10 +75,10 @@ module.exports = {
             lineNumber,
             editColumn: 2,
             deleteCount: 1,
-            insertText: firstCharacter.toUpperCase(), 
+            insertText: firstCharacter.toUpperCase(),
           },
-        })
+        });
       }
-    })
+    });
   },
-}
+};
