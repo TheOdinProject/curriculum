@@ -50,7 +50,6 @@ module.exports = {
         getListItemData(bulletPoint);
       const firstCharacterIsValid =
         firstCharacter === firstCharacter.toUpperCase();
-      console.log(context, firstCharacter)
       if (!firstCharacterIsValid) {
         onError({
           lineNumber,
