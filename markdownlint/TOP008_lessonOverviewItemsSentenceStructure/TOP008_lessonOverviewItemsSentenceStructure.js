@@ -6,7 +6,24 @@ function isolateBulletList(tokens) {
       /lesson overview/i.test(token.content)
     ) {
 
+  const bulletList = []
+  let inBulletList = false
+  let inLessonOverview = false
+  tokens.forEach((token, index, tokensArr) => {
+    if (
+      tokensArr[index - 1]?.type === "heading_open" &&
+      /lesson overview/i.test(token.content)
+    ) {
+      inLessonOverview = true
+    } else if (token.type === "heading_close") {
+      inLessonOverview = false
+    } else if (token.type === "bullet_list_open") {
+      inBulletList = true
+    } else if (tokenArr[index - 1]?.type === "bullet_list_closed") {
+      inBulletList = false
     }
+
+    if (inBulletList && inLessonOverview) bulletList.push(token)
   });
 }
 
