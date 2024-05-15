@@ -4,9 +4,6 @@ Now that we have PostgreSQl up and running on our machine, it's time to work wit
 
 <div class="lesson-note lesson-note--critical" markdown="1">
 
-<!-- markdownlint-disable-next-line TOP004 -->
-#### Prerequisite SQL knowledge
-
 Make sure you've completed the [SQL course](https://www.theodinproject.com/paths/full-stack-javascript/courses/databases).
 
 This lesson and all subsequent lessons will assume you understand SQL syntax and concepts.
