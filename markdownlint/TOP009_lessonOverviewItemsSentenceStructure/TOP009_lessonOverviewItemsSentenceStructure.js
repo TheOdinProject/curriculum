@@ -38,7 +38,7 @@ function getListItemData(bulletPoint) {
 }
 
 module.exports = {
-  names: ["TOP008", "lessonOverviewItemsSentenceStructure"],
+  names: ["TOP009", "lessonOverviewItemsSentenceStructure"],
   description: "Lesson overview items should have proper punctuation",
   tags: ["content"],
   information: new URL(
