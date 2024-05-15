@@ -12,8 +12,7 @@ When working with packages that are installed with npm, you don't need to track 
 
 You can make a `.gitignore` file in the root of the project, and by writing file or directory names in it, you can tell git what things you don't want to track. It's customary to add `node_modules` to `.gitignore`, since it can get really big.
 
-#### .gitignore templates
-When creating a new repo on GitHub there is an option to specify a `.gitnore` template.  There are many templates out there that include common files and directories that are not typically tracked based on the type of project or language used.  When looking for a template for JavaScript projects there is a `node` template that includes `node_modules`.
+When creating a new repo on GitHub there is an option to specify a `.gitignore` template.  There are many templates out there that include common files and directories that are not typically tracked based on the type of project or language used.  When looking for a template for JavaScript projects there is a `node` template that includes `node_modules`.
 
 </div>
 
