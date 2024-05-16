@@ -53,7 +53,9 @@ The first and most crucial thing PaaS providers give you are virtual "computers"
 For most of your apps, one instance is plenty enough. You can support a lot of traffic using just a single instance. Many of the PaaS providers we will recommend later in this lesson give you your first one for free.
 
 <div class="lesson-note" markdown="1">
+
 Learners can keep their server instance and database instance on one PaaS or use separate PaaS's to reduce hosting costs!
+
 </div>
 
 #### Databases
