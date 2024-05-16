@@ -17,18 +17,19 @@ module.exports = {
   function: function TOP006(params, onError) {
     const fencesWithAbbreviatedName = params.lines.reduce((fences, currentLine, index) => {
       // https://regexr.com/7v119 to test the following regex:
-      const fenceWithLanguageRegex = /^`{3,4}[^`]+$/;
-      if (!fenceWithLanguageRegex.test(currentLine)) {
+      const fenceWithLanguageRegex = /^[`~]{3,4}[^`~]+$/;
+      if (!fenceWithLanguageRegex.test(currentLine.trim())) {
         return fences;
       }
 
-      const backtickCount = currentLine.lastIndexOf("`") + 1;
-      const language = currentLine.substring(backtickCount);
+      const fenceDelimiter = currentLine.trim()[0];
+      const delimiterEndColumn = currentLine.lastIndexOf(fenceDelimiter) + 1;
+      const language = currentLine.substring(delimiterEndColumn);
 
       if (LANGUAGES_WITH_ABBREVIATIONS.has(language)) {
         fences.push({
           text: currentLine,
-          backtickCount: backtickCount,
+          languageStartingColumn: delimiterEndColumn + 1,
           abbreviatedName: language,
           fullName: LANGUAGES_WITH_ABBREVIATIONS.get(language),
           lineNumber: index + 1,
@@ -43,7 +44,7 @@ module.exports = {
         detail: `Expected: ${fence.fullName}; Actual: ${fence.abbreviatedName} `,
         context: fence.text,
         fixInfo: {
-          editColumn: fence.backtickCount + 1,
+          editColumn: fence.languageStartingColumn,
           deleteCount: fence.abbreviatedName.length,
           insertText: fence.fullName,
         },

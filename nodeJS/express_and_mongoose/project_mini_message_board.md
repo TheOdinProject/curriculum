@@ -51,6 +51,6 @@ Let's take a quick break from the main Express tutorial to practice what we've a
 
 10. At the end of the `router.post()` function use `res.redirect('/')` to send users back to the index page after submitting a new message.
 11. At this point, you should be able to visit `/new` (it might be a good idea to add a link to that route on your index page), fill out the form, submit it and then see it show up on the index page!
-12. You'll learn how to deploy your app to the web in the [next lesson](https://www.theodinproject.com/lessons/nodejs-deployment), don't forget to come back and submit it to the submissions below once you're done!
+12. You'll learn how to deploy your app to the web in the next lesson, don't forget to come back and submit it to the submissions below once you're done!
 
 </div>

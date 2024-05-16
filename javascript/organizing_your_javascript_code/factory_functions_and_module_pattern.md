@@ -76,7 +76,7 @@ console.log(add5(2)) // logs 7
 A lot going on, so let's break it down:
 
 1. The `makeAdding` function takes an argument, `firstNumber`, declares a constant `first` with the value of `firstNumber`, and returns another **function**.
-2. When an argument is passed to the returned function, which we have assigned to **add5**, it returns the result of adding up the number passed earlier to the number passed now (`first` to `second`).
+1. When an argument is passed to the returned function, which we have assigned to **add5**, it returns the result of adding up the number passed earlier to the number passed now (`first` to `second`).
 
 Now, while it may sound good at first glance, you may already be raising your eyebrows at the second statement. As we've learned, the `first` variable is scoped within the `makeAdding` function. When we declare and use `add5`, however, we're **outside** the `makeAdding` function. How does the `first` variable still exist, ready to be added when we pass an argument to the `add5` function? This is where we encounter the concept of closures.
 
@@ -164,7 +164,7 @@ const [ zerothEle, firstEle ] = array;
 // to the elements in the 0th and 1st indices of the array
 ```
 
-[The MDN article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) on destructuring has some great examples and should be a good read for this concept.
+The [MDN documentation on destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) has some great examples and should be a good read for this concept.
 
 </div>
 
@@ -263,17 +263,18 @@ Take the calculator example into consideration. It's very easy to imagine a scen
 <div class="lesson-content__panel" markdown="1">
 
 1. WesBos has a beautiful and in-depth section on scopes and closures. Please check out these sections under "Module 3 - The Tricky Bits":
-  - [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
-  - [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
+   - [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
+   - [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
+
 1. [Tarek Sherif's article discussing the problems with constructors](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) goes into depth while suggesting factories as a solution.
 1. Read this article on [module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm) by Tomek Buszewski.
-1. As an optional alternative, in case you prefer video lessons, [this YouTube series on module pattern](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f) covers most of the content that we have discussed. Note that the videos include jQuery, but you don't need to understand the jQuery syntax since the focus is on the module pattern concept.
+1. As an optional alternative, in case you prefer video lessons, this [YouTube series on module pattern](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f) covers most of the content that we have discussed. Note that the videos include jQuery, but you don't need to understand the jQuery syntax since the focus is on the module pattern concept.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Explain how scope works in JavaScript.](https://wesbos.com/javascript-scoping)
 - [Explain what closures are and how they help in creating private variables.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#closure)
@@ -286,9 +287,9 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [This video explains closures with a good example.](https://www.youtube.com/watch?v=80O6L2Ez3GM)
-- [Here is an interactive scrim on factory functions.](https://scrimba.com/scrim/c2aaKzcV)
-- [This article discusses three different kinds of prototypal inheritance with some good examples](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9)
+- This video explains [a good example of closures](https://www.youtube.com/watch?v=80O6L2Ez3GM).
+- Here is an [interactive scrim on factory functions](https://scrimba.com/scrim/c2aaKzcV).
+- This article discusses [three different kinds of prototypal inheritance](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9) with some good examples.
 - [Learning JavaScript Design Patterns by Addy Osmani and Lydia Hallie](https://www.patterns.dev/)

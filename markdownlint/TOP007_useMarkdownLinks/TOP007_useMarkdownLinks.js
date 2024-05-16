@@ -23,12 +23,14 @@ module.exports = {
       .map((token) => token.map);
 
     const codepenLineRanges = params.lines.reduce((lineRanges, currentLine, index) => {
-      const range = [];
       const lineNumber = index + 1;
-      if (currentLine.includes('class="codepen"')) {
-        range.push(lineNumber);
-        lineRanges.push(range);
-      } else if (currentLine.trim().startsWith("</p>")) {
+      const isCodepenOpeningTag = currentLine.includes('class="codepen"');
+      const isCodepenClosingTag =
+        currentLine.trim().startsWith("</p>") && lineRanges.at(-1)?.length < 2;
+
+      if (isCodepenOpeningTag) {
+        lineRanges.push([lineNumber]);
+      } else if (isCodepenClosingTag) {
         lineRanges.at(-1).push(lineNumber);
       }
 
