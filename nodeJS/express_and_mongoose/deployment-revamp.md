@@ -178,7 +178,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-### Koyeb
+#### Koyeb
 
 - Easily Git push to deploy.
 - Ability to run web apps, APIs, and workers easily.
@@ -199,7 +199,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-### Neon
+#### Neon
 
 - Database branching
 -
