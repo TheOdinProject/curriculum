@@ -67,7 +67,7 @@ If you find yourself reusing a lot of setup code for multiple projects, you can 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is linting?](https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/)
-- [Which problems can linting prevent?](https://mikecavaliere.com/javascript-linting-what-developers-need-to-know/)
+- [Which problems can linting prevent?](https://www.sonarsource.com/learn/why-linter/#:~:text=Linting%20tools%20offer%20a%20crucial,issues%20ever%20turning%20into%20bugs)
 - [Why should you use Prettier?](https://www.youtube.com/watch?v=hkfBvpEfWdA)
 - [What is a template repository?](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
 
