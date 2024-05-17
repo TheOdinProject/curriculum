@@ -1064,38 +1064,23 @@ We could define this template as a large string within our current application.
 
 ```ruby
 form_letter = %{
-
   <html>
-
   <head>
-
     <title>Thank You!</title>
-
   </head>
-
   <body>
-
     <h1>Thanks FIRST_NAME!</h1>
     <p>Thanks for coming to our conference.  We couldn't have done it without you!</p>
-
     <p>
-
       Political activism is at the heart of any democracy and your voice needs to be heard.
       Please consider reaching out to your following representatives:
-
     </p>
-
     <table>
-
       <tr><th>Legislators</th></tr>
       <tr><td>LEGISLATORS</td></tr>
-
     </table>
-
   </body>
-
   </html>
-
 }
 ```
 
