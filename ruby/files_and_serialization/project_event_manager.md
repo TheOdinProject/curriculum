@@ -32,7 +32,7 @@ representatives for each attendee based on their zip code.
 ### Initial setup
 
 1. Create a new GitHub repository named `event_manager` and clone it to your `repos` directory.
-2. In the new `event_manager` directory, create another folder named `lib` and inside that folder create a plain text file named `event_manager.rb`. You can create the directory and file by using the following commands:
+1. In the new `event_manager` directory, create another folder named `lib` and inside that folder create a plain text file named `event_manager.rb`. You can create the directory and file by using the following commands:
 
 ```bash
 mkdir lib
