@@ -12,13 +12,12 @@ This section contains a general overview of topics that you will learn in this l
 - Utilize the data to contact a remote service.
 - Populate a template with user data.
 - Manipulate [strings](https://docs.ruby-lang.org/en/3.2/String.html).
-- Access [Google's Civic Information API](https://developers.google.com/civic-information/) through
-  the [Google API Client Gem](https://github.com/google/google-api-ruby-client).
+- Access [Google's Civic Information API](https://developers.google.com/civic-information/) through the [Google API Client Gem](https://github.com/google/google-api-ruby-client).
 - Use [ERB](https://docs.ruby-lang.org/en/3.2/ERB.html) (Embedded Ruby) for templating.
 
 <div class="lesson-note" markdown="1">
 
-  This tutorial is open source. If you notice errors, typos, or have questions/suggestions, please [submit them to the project on GitHub](https://github.com/TheOdinProject/curriculum/blob/main/ruby/files_and_serialization/project_event_manager.md).
+  This tutorial is open source. If you notice errors, typos, or have questions/suggestions, please [open an issue on GitHub](https://github.com/TheOdinProject/curriculum/blob/main/ruby/files_and_serialization/project_event_manager.md).
 
 </div>
 
@@ -337,7 +336,7 @@ loaded every single time ruby code is executed. This ensures unneeded
 functionality is not loaded unless required, preventing ruby from having
 slower start up times.
 
-You can browse the many libraries available in the [documentation](https://docs.ruby-lang.org/en/3.2/standard_library_rdoc.html).
+You can browse the many libraries available in the [Ruby standard library documentation](https://docs.ruby-lang.org/en/3.2/standard_library_rdoc.html).
 
 ```ruby
 require 'csv'
@@ -713,7 +712,7 @@ end
 
 We now have our list of attendees with their valid zip codes (at least for most
 of them). Using their zip code and the
-[Google Civic Information](https://developers.google.com/civic-information/)
+[Google Civic Information API](https://developers.google.com/civic-information/)
 webservice, we are able to query for the representatives of a given area.
 
 The Civic Information API allows registered individuals (registration is free) to obtain some information about the representatives for each level of government for an address.
@@ -744,7 +743,7 @@ Here's how it breaks down:
 When we're accessing the `representatives` method of their API, we're sending in a `key` which is the string that identifies JumpstartLab as the accessor of
 the API, then we're selecting the data we want returned to us using the `address`, `levels`, and `roles` criteria. Try modifying the address with your own zipcode and load the page.
 
-This document is [JSON](http://json.org/) formatted. If you copy and paste the data into a [pretty printer](https://jsonformatter.org/json-pretty-print), you can see there is an `officials` key that has many legislator `names`. The response also includes a lot of other information. Cool!
+This document is [JSON](http://json.org/) formatted. If you copy and paste the data into a [JSON pretty printer](https://jsonformatter.org/json-pretty-print), you can see there is an `officials` key that has many legislator `names`. The response also includes a lot of other information. Cool!
 
 Let's look for a solution before we attempt to build a solution.
 
@@ -764,7 +763,7 @@ If you receive a signet error when installing the Google API gem, it is due to m
 #### Showing all legislators in a zip code
 
 The gem comes equipped with some vague example documentation. The documentation is also
-available online with their [source code](https://github.com/google/google-api-ruby-client).
+available online with their [source code for `goggle-api-ruby-client`](https://github.com/google/google-api-ruby-client).
 
 Reading through the documentation on how to set up and use the
 google-api-client gem, we find that we need to perform the following steps:
@@ -889,7 +888,7 @@ name and last name. We will need to complete the following steps:
 - For each legislator, we want to find the representative's name.
 - Add the name to a new collection of names.
 
-To do this, we can use the [map](https://docs.ruby-lang.org/en/3.2/Array.html#method-i-map) function built into ruby. It works just like `.each` but returns a new array of the data we want to include.
+To do this, we can use the built-in [`Array#map` method](https://docs.ruby-lang.org/en/3.2/Array.html#method-i-map). It works just like `.each` but returns a new array of the data we want to include.
 
 ```ruby
 legislator_names = legislators.map do |legislator|
@@ -1228,10 +1227,9 @@ template with `binding`.
 
 - What is `binding`?
 
-The method
-[binding](https://docs.ruby-lang.org/en/3.2/Kernel.html#method-i-binding)
-returns a special object. This object is an instance of
-[Binding](https://docs.ruby-lang.org/en/3.2/Binding.html). An instance of binding knows
+The [`Kernel#binding` method](https://docs.ruby-lang.org/en/3.2/Kernel.html#method-i-binding)
+returns a special object. This object is an instance of the
+[`Binding` class](https://docs.ruby-lang.org/en/3.2/Binding.html). An instance of binding knows
 all about the current state of variables and methods within the given scope. In
 this case, `binding` knows about the variable `meaning_of_life`.
 
