@@ -65,6 +65,18 @@ Need to install the following packages:
 Ok to proceed? (y)
 ```
 
+It'll then ask to 'select a framework' in a prompt such as this:
+
+```bash
+Vanilla
+Vue
+React
+Preact
+Lit
+etc.
+```
+For now, just select React.
+
 Once the command has executed, it should output the next steps for you to follow:
 
 ```bash
