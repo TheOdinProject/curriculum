@@ -888,7 +888,7 @@ name and last name. We will need to complete the following steps:
 - For each legislator, we want to find the representative's name.
 - Add the name to a new collection of names.
 
-To do this, we can use the built-in [`Array#map` method](https://docs.ruby-lang.org/en/3.2/Array.html#method-i-map). It works just like `.each` but returns a new array of the data we want to include.
+To do this, we can use the built-in [Array#map method](https://docs.ruby-lang.org/en/3.2/Array.html#method-i-map). It works just like `.each` but returns a new array of the data we want to include.
 
 ```ruby
 legislator_names = legislators.map do |legislator|
