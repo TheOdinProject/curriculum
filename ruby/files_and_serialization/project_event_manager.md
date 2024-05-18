@@ -2,6 +2,12 @@
 
 Please note this tutorial has been adapted from The Turing School's and Jump Start Lab's [Event Manager](http://tutorials.jumpstartlab.com/projects/eventmanager.html) and updated to use GoogleCivic API
 
+<div class="lesson-note" markdown="1">
+
+  This tutorial is open source. If you notice errors, typos, or have questions/suggestions, please [open an issue on GitHub](https://github.com/TheOdinProject/curriculum/blob/main/ruby/files_and_serialization/project_event_manager.md).
+
+</div>
+
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
@@ -14,12 +20,6 @@ This section contains a general overview of topics that you will learn in this l
 - Manipulate [strings](https://docs.ruby-lang.org/en/3.2/String.html).
 - Access [Google's Civic Information API](https://developers.google.com/civic-information/) through the [Google API Client Gem](https://github.com/google/google-api-ruby-client).
 - Use [ERB](https://docs.ruby-lang.org/en/3.2/ERB.html) (Embedded Ruby) for templating.
-
-<div class="lesson-note" markdown="1">
-
-  This tutorial is open source. If you notice errors, typos, or have questions/suggestions, please [open an issue on GitHub](https://github.com/TheOdinProject/curriculum/blob/main/ruby/files_and_serialization/project_event_manager.md).
-
-</div>
 
 ### What we're doing in this tutorial
 
