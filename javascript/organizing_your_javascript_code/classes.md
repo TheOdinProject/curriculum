@@ -26,7 +26,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. [JavaScript.info's article on Getters and Setters](https://javascript.info/property-accessors) should get you up to speed on "Getters and Setters".
 
-1. [JavasSript.info's primer on class syntax](https://javascript.info/class) is probably just about all you need to start using `class` syntax confidently.
+1. [JavasScript.info's primer on class syntax](https://javascript.info/class) is probably just about all you need to start using `class` syntax confidently.
 
 1. [MDN's docs on classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great resource for going a little deeper. Look especially at the ['extends' reference page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends), including the ['Mixins' section](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends#mix-ins). In some frameworks like React, you can use classes to create your components and make them `extend` the core React component which gives you access to all their built-in functionality (though this is not the only way to create components. This will all be covered later in React section of the course). Classes can also have [private class properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields) that allow you to implement privacy similarly to factory functions.
 
