@@ -39,7 +39,7 @@ Now that we've learnt about class lifecycle methods, it's useful to understand t
 
 For example:
 
-```js
+```javascript
   useEffect(() => {
     placeholderFunction();
     return () => cleanupFunction();
