@@ -763,7 +763,7 @@ If you receive a signet error when installing the Google API gem, it is due to m
 #### Showing all legislators in a zip code
 
 The gem comes equipped with some vague example documentation. The documentation is also
-available online with their [source code for `goggle-api-ruby-client`](https://github.com/google/google-api-ruby-client).
+available online with their [source code for `google-api-ruby-client`](https://github.com/google/google-api-ruby-client).
 
 Reading through the documentation on how to set up and use the
 google-api-client gem, we find that we need to perform the following steps:
