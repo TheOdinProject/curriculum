@@ -6,7 +6,7 @@ When the code that you are testing has to touch a database, the amount of setup 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Cover unit and integration tests in context of Express server.
+- Cover unit and integration tests in the context of an Express server.
 - Create and use a separate database for integration testing.
 
 ### Unit tests - do you even need to?
