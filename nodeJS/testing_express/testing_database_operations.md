@@ -45,7 +45,9 @@ Next, setup appropriate npm scripts in your `package.json` file:
 Based on the `NODE_ENV`, you can programmatically switch out database urls:
 
 ```javascript
-const databaseUrl = process.env.NODE_ENV === 'test' ? process.env.TEST_DATABASE_URL : process.env.DATABASE_URL;
+const databaseUrl = process.env.NODE_ENV === 'test'
+  ? process.env.TEST_DATABASE_URL
+  : process.env.DATABASE_URL;
 
 const prisma = new PrismaClient({
   datasources: {
