@@ -1227,9 +1227,9 @@ template with `binding`.
 
 - What is `binding`?
 
-The [`Kernel#binding` method](https://docs.ruby-lang.org/en/3.2/Kernel.html#method-i-binding)
+The [Kernel#binding method](https://docs.ruby-lang.org/en/3.2/Kernel.html#method-i-binding)
 returns a special object. This object is an instance of the
-[`Binding` class](https://docs.ruby-lang.org/en/3.2/Binding.html). An instance of binding knows
+[Binding class](https://docs.ruby-lang.org/en/3.2/Binding.html). An instance of binding knows
 all about the current state of variables and methods within the given scope. In
 this case, `binding` knows about the variable `meaning_of_life`.
 
