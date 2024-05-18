@@ -541,8 +541,8 @@ SArah 20009
 Sarah 33703
 David 07306
 lib/event_manager.rb:11:in `block in <main>': undefined method `length' for nil:NilClass (NoMethodError)
- from /Users/burtlo/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/csv.rb:1792:in `each'
- from lib/event_manager.rb:7:in `<main>'
+from /Users/burtlo/.rvm/rubies/ruby-1.9.3-p374/lib/ruby/1.9.1/csv.rb:1792:in `each'
+from lib/event_manager.rb:7:in `<main>'
 ```
 
 - What is the error message "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
