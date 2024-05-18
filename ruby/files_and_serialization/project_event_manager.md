@@ -1239,7 +1239,7 @@ different binding.
 
 #### Defining an ERB template
 
-To use ERB we need to update our current template **form_letter.HTML**.
+To use ERB we need to update our current template `form_letter.html`
 
 - Save a new template as **form_letter.erb**
 
