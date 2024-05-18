@@ -63,8 +63,8 @@ Viola, the setup is complete. Now shoo... go get testin'.
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [When and when not to unit test database operations](#unit-tests---do-you-even-need-to)
-- [How to set up and use a test database for integration testing](#integration-tests)
+- [When should you unit test database operations?](#unit-tests-do-you-even-need-to)
+- [How do you set up and use a test database for integration testing?](#integration-tests)
 
 ### Additional resources
 
