@@ -56,7 +56,6 @@ const prisma = new PrismaClient({
     },
   },
 });
-
 ```
 
 Voila, the setup is complete. Now shoo... go get testin'.
