@@ -1241,7 +1241,7 @@ different binding.
 
 To use ERB we need to update our current template `form_letter.html`
 
-- Save a new template as **form_letter.erb**
+- Save a new template as `form_letter.erb`
 
 The convention is to save ERB template files with the extension **erb**. This
 is not a requirement. It is a benefit to yourself and other users when they
