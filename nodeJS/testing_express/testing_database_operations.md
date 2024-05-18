@@ -17,7 +17,7 @@ If your queries are complicated, you might justify adding unit tests to make sur
 
 ### Integration tests
 
-There are cases, however, when you are going to want to test things that touch your database. For example, we performed an integration test on the server in the [testing routes and controllers lesson](./testing_routes_and_controllers.md) using `supertest`.
+There are cases, however, when you are going to want to test things that touch your database. For example, we performed an integration test on the server in the [Testing Routes and Controllers lesson](https://www.theodinproject.com/lessons/nodejs-testing-routes-and-controllers) using `supertest`.
 
 Create a separate database for testing; prefix it with a `test_` for you to easily identify with. You might want to run a prisma migrate by swapping out the test database url. Afterwards, use a seed script on this database instance, or you could manually insert data in a `beforeAll` function in your test suite.
 
