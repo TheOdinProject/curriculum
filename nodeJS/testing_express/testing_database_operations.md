@@ -59,7 +59,7 @@ const prisma = new PrismaClient({
 
 ```
 
-Viola, the setup is complete. Now shoo... go get testin'.
+Voila, the setup is complete. Now shoo... go get testin'.
 
 ### Knowledge check
 
