@@ -712,7 +712,7 @@ end
 
 We now have our list of attendees with their valid zip codes (at least for most
 of them). Using their zip code and the
-[Google Civic Information API](https://developers.google.com/civic-information/)
+[Google's Civic Information API](https://developers.google.com/civic-information/)
 webservice, we are able to query for the representatives of a given area.
 
 The Civic Information API allows registered individuals (registration is free) to obtain some information about the representatives for each level of government for an address.
