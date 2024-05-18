@@ -23,7 +23,7 @@ Create a separate database for testing; prefix it with a `test_` for you to easi
 
 We'll leverage environment variables for your codebase to identify which database to use. First, add the test database in your `.env` file:
 
-```text
+```properties
 NODE_ENV=development
 DATABASE_URL=postgresql://<user>:<password>@localhost:3306/inventory_application
 TEST_DATABASE_URL=postgresql://<user>:<password>@localhost:3306/test_inventory_application
