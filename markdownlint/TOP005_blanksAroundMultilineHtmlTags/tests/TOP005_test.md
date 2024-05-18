@@ -94,6 +94,12 @@ if ruby?
 end
 ```
 
+```javascript
+const htmlString = `
+  <p>Does not flag when used in JavaScript code blocks, e.g. template literals.</p>
+`;
+```
+
 ```markdown
 <p>
     But does not like it if done in a non-HTML/JSX code block
