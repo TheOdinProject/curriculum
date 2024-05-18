@@ -1,3 +1,4 @@
+<!-- TODO: Revisit lesson/heading structure to remove need to disable rules -->
 <!-- markdownlint-disable MD024 TOP004 -->
 
 ### Introduction
