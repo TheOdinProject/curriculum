@@ -1094,7 +1094,7 @@ code.
 Instead of including the template within our application, we will instead load
 the template using the same File tools we used at the beginning of the exercise.
 
-- Create a file named 'form_letter.HTML' in the root of your project directory.
+- Create a file named `form_letter.html` in the root of your project directory.
 - Copy the HTML template defined above into that file and save it.
 
 Within our application we will load our template:
