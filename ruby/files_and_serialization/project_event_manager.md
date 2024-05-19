@@ -290,7 +290,7 @@ There are pros and cons to using an external library. One of the pros is that th
 
 CSV files with headers have an additional option which allows you to access the column values by their headers. Our CSV file defines several different formats for the column names. The CSV library provides an additional option which allows us to convert the header names to symbols.
 
-Converting the headers to symbols will make our column names more uniform and easier to remember. The header "first_Name" will be converted to `:first_name` and "HomePhone" will be converted to `:homephone`.
+Converting the headers to symbols will make our column names more uniform and easier to remember. The header `first_Name` will be converted to `:first_name` and `HomePhone` will be converted to `:homephone`.
 
 ```ruby
 require 'csv'
