@@ -86,6 +86,20 @@ This line above the closing tag is not a blank line nor a code block delimiter, 
 <% } %>
 ```
 
+```ruby
+if ruby?
+  html_fragment = <<~HTML
+    <p>Does not flag when used in ruby code blocks</p>
+  HTML
+end
+```
+
+```javascript
+const htmlString = `
+  <p>Does not flag when used in JavaScript code blocks, e.g. template literals.</p>
+`;
+```
+
 ```markdown
 <p>
     But does not like it if done in a non-HTML/JSX code block
