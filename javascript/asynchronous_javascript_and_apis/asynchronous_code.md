@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 In the recent past, the way that these were most commonly handled were with **callbacks**, and even now they are still used quite a lot in certain circumstances.
 
-> A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action. [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
+A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action ([MDN documentation on callback functions](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)).
 
 Callbacks are functions that get passed into other functions. For example:
 
@@ -29,7 +29,7 @@ Here, the function `addEventListener()` takes a callback (the "do something" fun
 
 You will likely recognize this pattern as something that happens *all the time* in JavaScript code.  Unfortunately, though they are useful in situations like the above example, using callbacks can get out of hand, especially when you need to chain several of them together in a specific order.  The rest of this lesson discusses patterns and functions that will help keep you out of [Callback hell](http://callbackhell.com/).
 
-Take a moment to skim through this [Callback article](https://github.com/maxogden/art-of-node#callbacks) before moving on.  Or, if you prefer to watch a video of [Callback functions](https://www.youtube.com/watch?v=QRq2zMHlBz4).
+Take a moment to skim through this [article on callbacks](https://github.com/maxogden/art-of-node#callbacks) before moving on.  Or, if you prefer to watch a video of [Callback functions](https://www.youtube.com/watch?v=QRq2zMHlBz4).
 
 ### Promises
 
