@@ -447,7 +447,7 @@ from lib/event_manager.rb:7:in `<main>'
 
 - What is the error message "undefined method 'length' for nil:NilClass (NoMethodError)" saying?
 
-Reviewing our CSV data, we notice that the next row specifies no value. An empty field translates into a nil instead of an empty string. This is a choice made by the CSV library maintainers. So we now need to handle this situation.
+Reviewing our CSV data, we notice that the next row specifies no value. An empty field translates into a `nil` instead of an empty string. This is a choice made by the CSV library maintainers. So we now need to handle this situation.
 
 #### Handling missing zip codes
 
