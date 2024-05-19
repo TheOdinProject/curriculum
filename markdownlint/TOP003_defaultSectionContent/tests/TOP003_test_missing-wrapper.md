@@ -14,7 +14,7 @@ Text content
 
 ### Assignment
 
-Assignment content
+Assignment content which should flag an error due to no div wrapper with the applicable attributes being present.
 
 ### Knowledge check
 

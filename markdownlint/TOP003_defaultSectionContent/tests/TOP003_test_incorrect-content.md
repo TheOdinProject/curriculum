@@ -4,7 +4,7 @@ Text content
 
 ### Lesson overview
 
-This section has the wrong text following the heading.
+This section has the wrong text following the heading that should flag an error.
 
 - LO item
 
