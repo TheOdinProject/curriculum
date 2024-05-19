@@ -171,7 +171,7 @@ lines.each do |line|
 end
 ```
 
-Within our array of columns we want to access our 'first_Name'. This would be the third column or third element at the array's second index `columns[2]`. Remember, arrays start counting at 0 instead of 1, so `columns[0]` is how we would access the array's first element, and `columns[2]` will give us the third.
+Within our array of columns we want to access our `first_Name`. This would be the third column or third element at the array's second index `columns[2]`. Remember, arrays start counting at 0 instead of 1, so `columns[0]` is how we would access the array's first element, and `columns[2]` will give us the third.
 
 ```ruby
 puts 'EventManager initialized.'
