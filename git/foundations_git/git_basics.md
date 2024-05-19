@@ -102,7 +102,7 @@ This section contains a general overview of topics that you will learn in this l
    <!-- code element needed to not treat the backtick inside the kbd element as code markdown -->
    <!-- markdownlint-disable-next-line MD033 -->
 
-1. Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing <kbd>Ctrl</kbd> + <kbd>`</kbd> (backtick). Then type <code>git status</code>. You'll notice that README.md is now shown as not staged or committed.
+1. Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing <kbd>Ctrl</kbd> + <kbd>`</kbd> (backtick). Then type ```git status```. You'll notice that README.md is now shown as not staged or committed.
 
    ```bash
    git status
