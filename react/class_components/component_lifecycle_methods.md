@@ -52,7 +52,7 @@ In this snippet, the useEffect contains the functionality of `componentDidMount`
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Check out this [lifecycle diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) to see a good visual representation of a components lifecycle methods.
+1. Check out this [component lifecycle diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) to see a good visual
 
 1. Read this [component lifecycle documentation](https://reactjs.org/docs/react-component.html#the-component-lifecycle) by the people who made react!
     - You only have to worry about the methods in bold, but you can read up on the others if you're curious - they're uncommon and you likely won't need them in
