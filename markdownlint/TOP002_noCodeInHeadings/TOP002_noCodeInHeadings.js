@@ -2,6 +2,7 @@ module.exports = {
   names: ["TOP002", "no-code-headings"],
   description: "No inline code in headings",
   tags: ["headings"],
+  parser: "markdownit",
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP002.md"
   ),
