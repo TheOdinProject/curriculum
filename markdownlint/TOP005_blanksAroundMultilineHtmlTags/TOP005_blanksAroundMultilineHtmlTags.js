@@ -2,6 +2,7 @@ module.exports = {
   names: ["TOP005", "blanks-around-multiline-html-tags"],
   description: "Multiline HTML tags should be surrounded by blank lines or code block delimiters",
   tags: ["html", "blank_lines"],
+  parser: "markdownit",
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md"
   ),
@@ -12,7 +13,7 @@ module.exports = {
      * or md code block examples of such.
      */
     const IGNORED_FENCE_TYPES = ["html", "jsx", "erb", "ejs", "ruby", "javascript"];
-    const ignoredFencesLineRanges = params.tokens
+    const ignoredFencesLineRanges = params.parsers.markdownit.tokens
       .filter((token) => {
         return token.type === "fence" && IGNORED_FENCE_TYPES.includes(token.info);
       })

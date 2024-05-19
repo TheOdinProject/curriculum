@@ -2,6 +2,7 @@ module.exports = {
   names: ["TOP008", "use-backticks-for-fenced-code-blocks"],
   description: "Fenced code blocks should use backticks instead of tildes",
   tags: ["code"],
+  parser: "markdownit",
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP008.md"
   ),
