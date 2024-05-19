@@ -1215,7 +1215,7 @@ The first column does not have a name like the other columns, so we fall back to
 
 - Create an output folder
 
-We make a directory named "output" if a directory named "output" does not already exist.
+We make a directory named `output` if a directory named `output` does not already exist.
 
 ```ruby
 Dir.mkdir('output') unless Dir.exist?('output')
