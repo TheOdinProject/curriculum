@@ -72,16 +72,16 @@ This section contains a general overview of topics that you will learn in this l
    git add hello_world.txt
    ```
 
-1. <span id="git-commit"></span>Type `git commit -m "Add hello_world.txt"` and then type `git status` once more. The output should now say: "_nothing to commit, working tree clean_", indicating your changes have been committed. Don't worry if you get a message that says "_upstream is gone_". This is normal and only shows when your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project.
+1. <span id="git-commit"></span>Type `git commit -m "Add hello_world.txt"` and then type `git status` once more. The output should now say: "*nothing to commit, working tree clean*", indicating your changes have been committed. Don't worry if you get a message that says "*upstream is gone*". This is normal and only shows when your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project.
 
-   The message, "_Your branch is ahead of 'origin/main' by 1 commit_" just means that you now have newer snapshots than what is on your remote repository. You will be uploading your snapshots further down in this lesson.
+   The message, "*Your branch is ahead of 'origin/main' by 1 commit*" just means that you now have newer snapshots than what is on your remote repository. You will be uploading your snapshots further down in this lesson.
 
    ```bash
    git commit -m "Add hello_world.txt"
    git status
    ```
 
-1. <span id="git-log"></span>Type `git log` and look at the output. You should see an entry for your "_Add hello_world.txt_" commit. You will also see details on the author who made the commit and the date and time of when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press "q" to escape. You can configure settings for this later, but don't worry about it too much for now.
+1. <span id="git-log"></span>Type `git log` and look at the output. You should see an entry for your "*Add hello_world.txt*" commit. You will also see details on the author who made the commit and the date and time of when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press "q" to escape. You can configure settings for this later, but don't worry about it too much for now.
 
    ```bash
    git log
@@ -119,7 +119,7 @@ This section contains a general overview of topics that you will learn in this l
    git status
    ```
 
-1. Finally, let's commit all of the files that are in the staging area and add a descriptive commit message. `git commit -m "Edit README.md and hello_world.txt"`. Then, type `git status` once again, which will output "_nothing to commit_".
+1. Finally, let's commit all of the files that are in the staging area and add a descriptive commit message. `git commit -m "Edit README.md and hello_world.txt"`. Then, type `git status` once again, which will output "*nothing to commit*".
 
    ```bash
    git commit -m "Edit README.md and hello_world.txt"
