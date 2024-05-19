@@ -143,7 +143,7 @@ While you should address these warnings if possible and as soon as possible, war
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Now, it's time to go through the documentation! Learn more about the [ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError), the [SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) and the [TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError) from the MDN Docs.
+1. Now, it's time to go through the documentation! Learn more about the [ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError), the [SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) and the [TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError) from the MDN Docs. Don't worry about fully understanding all the documentation right now; the goal is to familiarize yourself with the concepts. The examples use "try...catch" statements, which execute the code within the "try" block. If an error occurs, it is automatically caught by the "catch" block. This allows you to tackle errors before they terminate the script, allowing you to handle them appropriately within the "catch" block. For now, just remember that "try...catch" statements exist and that they will become useful as you progress through the curriculum.
 
 1. Work through ["What went wrong? Troubleshooting JavaScript"](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
 
