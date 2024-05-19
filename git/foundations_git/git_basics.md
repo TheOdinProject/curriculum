@@ -138,7 +138,7 @@ Finally, let's upload your work to the GitHub repository you created at the star
    git push
    ```
 
-1. Type `git status` one final time. It should output "_Your branch is up to date with 'origin/main'. nothing to commit, working tree clean_".
+1. Type `git status` one final time. It should output "*Your branch is up to date with 'origin/main'. nothing to commit, working tree clean*".
 
    ```bash
    git status
@@ -194,9 +194,9 @@ Changing the default message editor is a good idea in case you accidentally omit
 
 The following command will set this configuration. Type (or copy & paste) this command into your terminal and hit <kbd>Enter</kbd>.
 
-    ```bash
-    git config --global core.editor "code --wait"
-    ```
+   ```bash
+   git config --global core.editor "code --wait"
+   ```
 
 There will be no confirmation or any output on the terminal after entering this command.
 
