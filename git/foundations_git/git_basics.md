@@ -34,78 +34,79 @@ This section contains a general overview of topics that you will learn in this l
 
 1. Let's use the command line on your local machine to create a new directory for all of your Odin projects. Create a directory called `repos` with the `mkdir` command in your home folder. Your home folder is represented by `~`. Note that depending on your OS, there may be some [home directory variation](https://swcarpentry.github.io/shell-novice/02-filedir.html#home-directory-variation) - sometimes `~` stands for `/Users/your_username` and sometimes it stands for `/home/your_username`. If you're not sure if you're in your home folder, just type `cd ~`. Once it's made, move into it with the `cd` command.
 
-```bash
-mkdir repos
-cd repos/
-```
+   ```bash
+   mkdir repos
+   cd repos/
+   ```
 
 1. <span id="github-to-local"></span>Now it's time to clone your repository from GitHub onto your computer with `git clone` followed by the URL you copied in the last step. The full command should look similar to `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`. If your URL looks like `https://github.com/USER-NAME/REPOSITORY-NAME.git`, you have selected the HTTPS option, not the required SSH option.
 
-```bash
-git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
-```
+   ```bash
+   git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+   ```
 
 1. <span id="origin-push"></span>That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this, you can `cd` into the new **git_test** folder that was downloaded and then enter `git remote -v` on your command line. This will display the URL of the repository you created on GitHub, which is the remote for your local copy. <span id="default-remote"></span>You may have also noticed the word **origin** at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository. But it could have just as easily been named "party-parrot" or "dancing-banana". (Don't worry about the details of origin for now; it will come up again near the end of this tutorial.)
 
-```bash
-cd git-test
-git remote -v
-```
+   ```bash
+   cd git-test
+   git remote -v
+   ```
 
 #### Use the Git workflow
 
 1. Create a new file in the `git_test` folder called "hello_world.txt" with the command `touch hello_world.txt`.
 
-```bash
-touch hello_world.txt
-```
+   ```bash
+   touch hello_world.txt
+   ```
 
 1. <span id="git-status"></span>Type `git status` in your terminal. In the output, notice that your hello_world.txt file is shown in red, which means that this file is not staged.
 
-```bash
-git status
-```
+   ```bash
+   git status
+   ```
 
 1. <span id="git-add"></span><span id="two-stages"></span>Type `git add hello_world.txt`. This command adds your hello_world.txt file to the staging area in Git. The staging area is part of the two-step process for making a commit in Git. Think of the staging area as a "waiting room" for your changes until you commit them. Now, type `git status` again. In the output, notice that your file is now shown in green, which means that this file is now in the staging area.
 
-```bash
-git add hello_world.txt
-```
+   ```bash
+   git add hello_world.txt
+   ```
 
-1. <span id="git-commit"></span>Type `git commit -m "Add hello_world.txt"` and then type `git status` once more. The output should now say: "*nothing to commit, working tree clean*", indicating your changes have been committed. Don't worry if you get a message that says "*upstream is gone*". This is normal and only shows when your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project.
+1. <span id="git-commit"></span>Type `git commit -m "Add hello_world.txt"` and then type `git status` once more. The output should now say: "_nothing to commit, working tree clean_", indicating your changes have been committed. Don't worry if you get a message that says "_upstream is gone_". This is normal and only shows when your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project.
 
-    The message, "*Your branch is ahead of 'origin/main' by 1 commit*" just means that you now have newer snapshots than what is on your remote repository. You will be uploading your snapshots further down in this lesson.
+   The message, "_Your branch is ahead of 'origin/main' by 1 commit_" just means that you now have newer snapshots than what is on your remote repository. You will be uploading your snapshots further down in this lesson.
 
-```bash
-git commit -m "Add hello_world.txt"
-git status
-```
+   ```bash
+   git commit -m "Add hello_world.txt"
+   git status
+   ```
 
-1. <span id="git-log"></span>Type `git log` and look at the output. You should see an entry for your "*Add hello_world.txt*" commit. You will also see details on the author who made the commit and the date and time of when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press "q" to escape. You can configure settings for this later, but don't worry about it too much for now.
+1. <span id="git-log"></span>Type `git log` and look at the output. You should see an entry for your "_Add hello_world.txt_" commit. You will also see details on the author who made the commit and the date and time of when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press "q" to escape. You can configure settings for this later, but don't worry about it too much for now.
 
-```bash
-git log
-```
+   ```bash
+   git log
+   ```
 
 #### Modify a file or two
 
 1. Open README.md in your text editor of choice. In this example, we will open the directory in Visual Studio Code by using the command `code .` inside your repository.
 
-```bash
-code .
-```
+   ```bash
+   code .
+   ```
 
-    MacOS users: If your terminal reads *"command not found: code"*, you must head back to [Command Line Basics](https://www.theodinproject.com/lessons/foundations-command-line-basics#opening-files-in-vscode-from-the-command-line) and follow the instructions provided to allow this command to work.
+   MacOS users: If your terminal reads _"command not found: code"_, you must head back to [Command Line Basics](https://www.theodinproject.com/lessons/foundations-command-line-basics#opening-files-in-vscode-from-the-command-line) and follow the instructions provided to allow this command to work.
 
 1. Add "Hello Odin!" to README.md and save the file with <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>).
 
-    <!-- code element needed to not treat the backtick inside the kbd element as code markdown -->
-    <!-- markdownlint-disable-next-line MD033 -->
+   <!-- code element needed to not treat the backtick inside the kbd element as code markdown -->
+   <!-- markdownlint-disable-next-line MD033 -->
+
 1. Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing <kbd>Ctrl</kbd> + <kbd>`</kbd> (backtick). Then type <code>git status</code>. You'll notice that README.md is now shown as not staged or committed.
 
-```bash
-git status
-```
+   ```bash
+   git status
+   ```
 
 1. Add README.md to the staging area with `git add README.md`.
 
@@ -113,39 +114,37 @@ git status
 
 1. Open hello_world.txt, add some text to it, save it and stage it. You can use `git add .` to add all files in the current directory and all subsequent directories to the staging area. Then, type `git status` once more, and everything should now be in the staging area.
 
-```bash
-git add .
-git status
-```
+   ```bash
+   git add .
+   git status
+   ```
 
-1. Finally, let's commit all of the files that are in the staging area and add a descriptive commit message. `git commit -m "Edit README.md and hello_world.txt"`. Then, type `git status` once again, which will output "*nothing to commit*".
+1. Finally, let's commit all of the files that are in the staging area and add a descriptive commit message. `git commit -m "Edit README.md and hello_world.txt"`. Then, type `git status` once again, which will output "_nothing to commit_".
 
-```bash
-git commit -m "Edit README.md and hello_world.txt"
-git status
-```
+   ```bash
+   git commit -m "Edit README.md and hello_world.txt"
+   git status
+   ```
 
 1. Take one last look at your commit history by typing `git log`. You should now see three entries.
-
 
 #### Push your work to GitHub
 
 Finally, let's upload your work to the GitHub repository you created at the start of this tutorial.
 
-1. <span id="git-push"></span>Type `git push`. To be more specific, type `git push origin main`. Since you are not dealing with another branch (other than *main*) or a different remote (as mentioned above), you can leave it as `git push` to save a few keystrokes. **NOTE: If at this point you receive a message that says "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.", you have followed the steps incorrectly and cloned with HTTPS, not SSH. Please follow the steps for [switching remote URLs from HTTPS to SSH](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh) to change your remote to SSH, then attempt to push to Github.**
+1. <span id="git-push"></span>Type `git push`. To be more specific, type `git push origin main`. Since you are not dealing with another branch (other than _main_) or a different remote (as mentioned above), you can leave it as `git push` to save a few keystrokes. **NOTE: If at this point you receive a message that says "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.", you have followed the steps incorrectly and cloned with HTTPS, not SSH. Please follow the steps for [switching remote URLs from HTTPS to SSH](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh) to change your remote to SSH, then attempt to push to Github.**
 
-```bash
-git push 
-```
+   ```bash
+   git push
+   ```
 
-1. Type `git status` one final time. It should output "*Your branch is up to date with 'origin/main'. nothing to commit, working tree clean*".
+1. Type `git status` one final time. It should output "_Your branch is up to date with 'origin/main'. nothing to commit, working tree clean_".
 
-```bash
-git status
-```
+   ```bash
+   git status
+   ```
 
 1. When you refresh your repository page on GitHub, you should see the README.md and hello_world.txt files that you just pushed there from your local machine.
-
 
 </div>
 
@@ -189,15 +188,15 @@ An atomic commit is a commit that includes changes related to only one feature o
 
 #### Changing the Git commit message editor
 
-If you are using *Visual Studio Code* (and you should be if you're following this curriculum), there's a way to ensure that if you use `git commit` without the message flag (`-m`), you won't get stuck writing your commit message in [Vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>).
+If you are using _Visual Studio Code_ (and you should be if you're following this curriculum), there's a way to ensure that if you use `git commit` without the message flag (`-m`), you won't get stuck writing your commit message in [Vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>).
 
 Changing the default message editor is a good idea in case you accidentally omit the flag, unless you prefer using Vim. There is no downside to changing it, because you will have the option to write your commit messages in the terminal or in the comfort of VS Code.
 
 The following command will set this configuration. Type (or copy & paste) this command into your terminal and hit <kbd>Enter</kbd>.
 
-```bash
-git config --global core.editor "code --wait"
-```
+    ```bash
+    git config --global core.editor "code --wait"
+    ```
 
 There will be no confirmation or any output on the terminal after entering this command.
 
