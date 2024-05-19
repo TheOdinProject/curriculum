@@ -20,7 +20,7 @@ any other properties that our reducer might need to produce the new state.
 
 We can define a reducer that updates the state of a counter like this:
 
-```js
+```javascript
 function reducer(state, action) {
   switch (action.type) {
     case "incremented_count": {
@@ -60,7 +60,7 @@ an initial state as arguments, then returns an array with two values: the curren
 This `dispatch` function receives an **action** object as argument, which is passed to our reducer function and
 the returned value from it is used to update the state.
 
-```js
+```javascript
 const [state, dispatch] = useReducer(reducer, { count: 0 });
 
 function handleClick() {
@@ -79,13 +79,13 @@ Whether you use `useState` or `useReducer` is up to you, they're both equivalent
 
 1. Read through the React docs [Extracting state logic into a reducer](https://react.dev/learn/extracting-state-logic-into-a-reducer) to learn more about how to use reducers in React and how to refactor `useState` into `useReducer`. Don't forget to complete the challenges at the end.
 
-2. Read the [useReducer](https://react.dev/reference/react/useReducer) React docs to learn more about this hook. Pay close attention to the troubleshooting section for common problems that you might encounter.
+1. Read the [useReducer](https://react.dev/reference/react/useReducer) React docs to learn more about this hook. Pay close attention to the troubleshooting section for common problems that you might encounter.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What are reducers?](#what-are-reducers)
 - [How would you declare a reducer?](https://react.dev/reference/react/useReducer#writing-the-reducer-function)
@@ -94,6 +94,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
