@@ -116,7 +116,7 @@ puts contents
 
 In this example, it does not matter whether you use single quotes or double quotes. There are differences, but they are essentially the same when representing a string of characters, such as this initial greeting or the name of the file.
 
-We are assuming the file is present here. However, it is a good practice to confirm that a file exists. File has the ability to check if a file exists at the specified filepath on the filesystem through `File.exist? "event_attendees.csv"`.
+We are assuming the file is present here. However, it is a good practice to confirm that a file exists. `File` has the ability to check if a file exists at the specified filepath on the filesystem through `File.exist? "event_attendees.csv"`.
 
 #### Read the file line by line
 
