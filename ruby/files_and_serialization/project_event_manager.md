@@ -4,7 +4,7 @@ Please note this tutorial has been adapted from The Turing School's and Jump Sta
 
 <div class="lesson-note" markdown="1">
 
-  This tutorial is open source. If you notice errors, typos, or have questions/suggestions, please [open an issue on GitHub](https://github.com/TheOdinProject/curriculum/blob/main/ruby/files_and_serialization/project_event_manager.md).
+This tutorial is open source. If you notice errors, typos, or have questions/suggestions, please [open an issue on GitHub](https://github.com/TheOdinProject/curriculum/blob/main/ruby/files_and_serialization/project_event_manager.md).
 
 </div>
 
