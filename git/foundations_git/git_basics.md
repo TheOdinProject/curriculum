@@ -78,7 +78,7 @@ This displays the URL of the repository you created on GitHub, which is the remo
 
    <!-- code element needed to not treat the backtick inside the kbd element as code markdown -->
    <!-- markdownlint-disable-next-line MD033 -->
-1. Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing <kbd>Ctrl</kbd> + <kbd>`</kbd> (backtick). Then type ```git status```. Notice how the output is similar to when we created our `hello_world.txt` file before adding it to the staging area, except the `README.md` file is listed in a section titled "Changes not staged for commit". The meaning is similar to the "Untracked files" section in that the file is not yet added to the staging area.
+1. Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing <kbd>Ctrl</kbd> + <kbd>`</kbd> (backtick). Then type ```git status```. Notice how the output is similar to when we created our *hello_world.txt* file before adding it to the staging area, except the *README.md* file is listed in a section titled "Changes not staged for commit". The meaning is similar to the "Untracked files" section in that the file is not yet added to the staging area.
 
 1. Add README.md to the staging area with `git add README.md`.
 
