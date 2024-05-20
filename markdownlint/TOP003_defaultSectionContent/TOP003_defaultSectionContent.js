@@ -81,12 +81,21 @@ function getListSectionErrors(sectionTokens, section) {
     );
   }
   if (defaultContentOpenTokenIndex === -1) {
-    const errorDetail = `Expected: "${listSectionsDefaultContent[section]}"; Actual: "${tokensAfterHeading[0].line}",`;
+    const sectionStartsWithList = tokensAfterHeading[0].line.startsWith("- ");
+    const errorDetail = sectionStartsWithList
+      ? `Expect default content to precede unorderd list of ${listItemsName}: "${listSectionsDefaultContent[section]}"`
+      : `Expected: "${listSectionsDefaultContent[section]}"; Actual: "${tokensAfterHeading[0].line}",`;
+    let replacementText = listSectionsDefaultContent[section];
+
+    if (sectionStartsWithList) {
+      replacementText += `\n\n${tokensAfterHeading[0].line}`;
+    }
 
     listSectionErrors.push(
       createErrorObject(tokensAfterHeading[0].lineNumber, errorDetail, {
         lineNumber: tokensAfterHeading[0].lineNumber,
-        insertText: `${listSectionsDefaultContent[section]}\n\n`,
+        deleteCount: tokensAfterHeading[0].line.length,
+        insertText: replacementText,
       })
     );
   }
@@ -140,7 +149,7 @@ function getListSectionErrors(sectionTokens, section) {
         `Only an unordered list of ${listItemsName} can follow the default content.`,
         {
           lineNumber: tokensAfterFirstContent[0].lineNumber,
-          deleteCount: tokensAfterFirstContent[0].line.length,
+          deleteCount: -1,
         }
       )
     );
@@ -164,7 +173,7 @@ function getListSectionErrors(sectionTokens, section) {
         `There should be no additional content after the unordered list of ${listItemsName}`,
         {
           lineNumber: tokensAfterBulletListClose[0].lineNumber,
-          deleteCount: tokensAfterBulletListClose[0].line.length,
+          deleteCount: -1,
         }
       )
     );
