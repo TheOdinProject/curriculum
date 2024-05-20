@@ -22,6 +22,7 @@ function createErrorObject(lineNumber, detail, fixInfo = {}) {
 }
 
 function getListSectionErrors(sectionTokens, section) {
+  const WHOLE_LINE = -1;
   const listSectionErrors = [];
   const listItemsName = `${section}${section.endsWith("s") ? "" : "s"}`;
   const tokensAfterHeading = sectionTokens.slice(
@@ -83,7 +84,7 @@ function getListSectionErrors(sectionTokens, section) {
   if (defaultContentOpenTokenIndex === -1) {
     const sectionStartsWithList = tokensAfterHeading[0].line.startsWith("- ");
     const errorDetail = sectionStartsWithList
-      ? `Expect default content to precede unorderd list of ${listItemsName}: "${listSectionsDefaultContent[section]}"`
+      ? `Expect default content to precede unordered list of ${listItemsName}: "${listSectionsDefaultContent[section]}"`
       : `Expected: "${listSectionsDefaultContent[section]}"; Actual: "${tokensAfterHeading[0].line}",`;
     let replacementText = listSectionsDefaultContent[section];
 
@@ -149,7 +150,7 @@ function getListSectionErrors(sectionTokens, section) {
         `Only an unordered list of ${listItemsName} can follow the default content.`,
         {
           lineNumber: tokensAfterFirstContent[0].lineNumber,
-          deleteCount: -1,
+          deleteCount: WHOLE_LINE,
         }
       )
     );
@@ -173,7 +174,7 @@ function getListSectionErrors(sectionTokens, section) {
         `There should be no additional content after the unordered list of ${listItemsName}`,
         {
           lineNumber: tokensAfterBulletListClose[0].lineNumber,
-          deleteCount: -1,
+          deleteCount: WHOLE_LINE,
         }
       )
     );
