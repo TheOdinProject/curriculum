@@ -52,7 +52,7 @@ This section contains a general overview of topics that you will learn in this l
   origin  git@github.com:USER-NAME:git_test.git (push) 
   ```
   
-This displays the URL of the repository you created on GitHub, which is the remote for your local copy. You may have also noticed the word *origin* at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository. But it could have just as easily been named "party-parrot" or "dancing-banana". (Don't worry about the details of origin for now; it will come up again near the end of this tutorial.)
+This displays the URL of the repository you created on GitHub, which is the remote for your local copy. <span id="default-remote"></span>You may have also noticed the word *origin* at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository. But it could have just as easily been named "party-parrot" or "dancing-banana". (Don't worry about the details of origin for now; it will come up again near the end of this tutorial.)
 
 #### Use the Git workflow
 
@@ -66,7 +66,7 @@ This displays the URL of the repository you created on GitHub, which is the remo
 
    The message, "*Your branch is ahead of 'origin/main' by 1 commit*" just means that you now have newer snapshots than what is on your remote repository. You will be uploading your snapshots further down in this lesson.
 
-1. <span id="git-log"></span>Type `git log` and look at the output. You should see an entry for your "*Add hello_world.txt*" commit. You will also see other details which include the author who made the commit and the date and time of when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press "q" to escape. You can configure settings for this later, but don't worry about it too much for now., 
+1. <span id="git-log"></span>Type `git log` and look at the output. You should see an entry for your "*Add hello_world.txt*" commit. You will also see other details which include the author who made the commit and the date and time of when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press "q" to escape. You can configure settings for this later, but don't worry about it too much for now.
 
 #### Modify a file or two
 
@@ -78,7 +78,6 @@ This displays the URL of the repository you created on GitHub, which is the remo
 
    <!-- code element needed to not treat the backtick inside the kbd element as code markdown -->
    <!-- markdownlint-disable-next-line MD033 -->
-
 1. Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing <kbd>Ctrl</kbd> + <kbd>`</kbd> (backtick). Then type ```git status```. Notice how the output is similar to when we created our `hello_world.txt` file before adding it to the staging area, except the `README.md` file is listed in a section titled "Changes not staged for commit". The meaning is similar to the "Untracked files" section in that the file is not yet added to the staging area.
 
 1. Add README.md to the staging area with `git add README.md`.
