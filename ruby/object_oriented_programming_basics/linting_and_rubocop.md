@@ -17,7 +17,6 @@ This section contains a general overview of topics that you will learn in this l
 - Where RuboCop takes its various rules from and how one could group them.
 - How to install and configure RuboCop.
 - How RuboCop interacts with RubyLSP and VSCode.
-- What the differences between RuboCop in the CLI and in your VSCode are.
 - What cyclomatic complexity and ABC metrics are.
 
 ### Convention time again
