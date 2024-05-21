@@ -26,13 +26,13 @@ This is why JS has its variables written `likeThis` while Ruby's are `like_this`
 a preference for getting rid of `if` statements, why some languages prefer loops while other prefer iterative approaches. Why some features
 present in languages are strongly discouraged - remember `var`, `eval()` or `$global_variable`s?
 
-There's *a lot* more of these relating to features of Ruby (or a different language!) that you might never even have heard of. The good news is that there exist style guides:
+There's *a lot* more of these relating to features of Ruby (or a different language!) that you might never even have heard of. <span id='style-guide'>The good news is that there exist style guides:</span>
 a set of standards for writing and organizing code. The bad news? Your head would need to store that entire set of standards and be able to recall them whenever working with code.
 
 ### Your code has pockets, too
 
 Enter another set of tools: linters and formatters. Those do the remembering job for you - they shall point out that something's wrong. Perhaps they might automatically fix
-some of the issues or at least provide hints or references to the style guide that might help you in writing cleaner code. For that, Rubyists have a powerful ally:
+some of the issues or at least provide hints or references to the style guide that might help you in writing cleaner code. <span id='formatting'>Formatting is all about making your code look neat and tidy without changing code's behavior - think indentation and various spacing, so style.</span> <span id='linting'>Linting is all about making your code easier to reason about - this might change how your code behaves, for example by enforcing that you use `#each` instead of a `for` loop.</span> For all that, Rubyists have a powerful ally:
 
 RuboCop. A really polished Gem that will make your code shine!
 
@@ -119,7 +119,7 @@ Obviously, our cybernetic assistants are polite enough to introduce themselves, 
 Here, RuboCop pointed out that this string could very well be single-quoted, as that string doesn't use anything that comes with double-quoted strings.
 
 You could ask why such a foundational Gem as Bundler can run into trouble with the law. The answer is that RuboCop is highly customizable to accommodate many standards that programmers
-might have. Remember: what is important in linting in formatting is making sure everyone in a group plays by the same rules, so the code is more readable.
+might have. Remember: what is important in linting and formatting is making sure everyone in a group plays by the same rules, so the code is more readable.
 
 Before you unleash the automated fury of RuboCop upon your code, you might want to become acquainted with a nifty flag: `-S`. This will provide a link to the Ruby Style Guide
 that goes over the rationale for the offense, if the Cop has such link when `bundle exec rubocop -S` is used:
@@ -321,9 +321,9 @@ With time, you are going to be better at adhering to rules but perhaps more impo
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is a style guide?](A-KNOWLEDGE-CHECK-URL)
-- [What is linting?](A-KNOWLEDGE-CHECK-URL)
-- [What is formatting?](A-KNOWLEDGE-CHECK-URL)
+- [What is a style guide?](#style-guide)
+- [What is formatting?](#formatting)
+- [What is linting?](#linting)
 - [How do you install RuboCop?](A-KNOWLEDGE-CHECK-URL)
 - [How do you run RuboCop in a command line interface?](A-KNOWLEDGE-CHECK-URL)
 - [How do you read RuboCop's output?](A-KNOWLEDGE-CHECK-URL)
