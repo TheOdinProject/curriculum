@@ -246,7 +246,9 @@ Style/FrozenStringLiteralComment:
   EnforcedStyle: always
 ```
 
-And now you are back to single-quoting and always having a magic comment regarding frozen string literals. To reiterate: defaults are absolutely fine. With time you'll see what rules give you and when it makes sense to break them. Actually, there's an amazing talk about that in the assignment so if you're not yet convinced, just hold your horses for a moment!
+And now you are back to single-quoting and always having a magic comment regarding frozen string literals. Word of caution: if you rely on such global configuration you might forget to include it with your project. It would make sense that people who are going to work on the project follow the rules that it has been created in mind with.
+
+Defaults are absolutely fine, however. No need to tinker with anything. With time you'll see what rules give you and when it makes sense to break them. Actually, there's an amazing talk about that in the assignment so if you're not yet convinced, just hold your horses for a moment!
 
 So, try your best to deal with RuboCop but accept that your code won't be perfect. That's fine. Resist the temptation to stray away from the defaults. You're still learning - just make an honest attempt to make your code better. Perhaps reading other's code is going to show you the way, so always remember to spend some time reading code after finishing a project!
 
