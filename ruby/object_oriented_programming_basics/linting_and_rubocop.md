@@ -54,7 +54,7 @@ You'll have an opportunity to dig into particulars of the Ruby Style Guide soon 
 
 ### Section where you learn all about code crime
 
-As mentioned earlier, RuboCop is a Gem and the project we want to investigate is Caesar Cipher. Go back and install RuboCop locally (as in, use Bundler) and then run `bundle exec rubocop` in your terminal. Running it like this makes sure that the local version of RuboCop is used and it will check all the files in the current working directory *and* its subdirectories. In short: everything.
+<span id="install-rubocop">As mentioned earlier, RuboCop is a Gem and the project we want to investigate is Caesar Cipher. Go back and install RuboCop locally (as in, use Bundler)</span> and <span id="cli-rubocop">then run `bundle exec rubocop` in your terminal.</span> Running it like this makes sure that the local version of RuboCop is used and it will check all the files in the current working directory *and* its subdirectories. In short: everything.
 
 Whoah! Well, at least for me - perhaps you're a savant and a Ruby Style natural, in that case, here's some example output:
 
@@ -88,8 +88,8 @@ caesars_cipher.rb:16:8: C: [Correctable] Style/StringLiterals: Prefer single-quo
 # Duplicate offenses in the same file were truncated.
 ```
 
-Let's break this down.
-The output starts with telling how many files are to be inspected:
+<span id="output-rubocop">Let's break this down.
+The output starts with telling how many files are to be inspected:</span>
 
 ```bash
 Inspecting 2 files
@@ -171,7 +171,7 @@ The latter means that while your code and the proposed code arrive at the same o
 
 ### You are the code dictator
 
-Due to Ruby's ecosystem, RuboCop was built with extensive configurability in mind - both in terms of not using some parts of and in terms of adding onto it. Every single Cop can be disabled, sometimes Cops offer alternative rules like preferring single- or double-quotes for Strings, you can disable Cops on a per-file basis and much more.
+Due to Ruby's ecosystem, <span id="configure-rubocop">RuboCop was built with extensive configurability in mind - both in terms of not using some parts of and in terms of adding onto it.</span> Every single Cop can be disabled, sometimes Cops offer alternative rules like preferring single- or double-quotes for Strings, you can disable Cops on a per-file basis and much more.
 
 Since RuboCop is extensible, there exist other departments that you can use - like Performance or RSpec. You could even write your own Cop! The process of adding an extension is easy: you install the Gem locally and modify `.rubocop.yml`.
 
@@ -198,7 +198,7 @@ in your `.rubocop.yml` to enable all the new Cops.
 
 Perhaps you're not interested in tailoring RuboCop to your liking, especially since you're just starting out and have absolutely no idea what's good and what's bad. That'd be the correct approach - don't worry about it right now and just go with the RuboCop defaults.
 
-One of the departments you might be tempted to drop is Metrics. It probably is going to be your worst enemy starting out in writing bigger, more object oriented code. But being that worst enemy has good reasons: it tries to help you write better code. It is fine if you can't always satisfy RuboCop but to shun its guidance during learning is foolish.
+<span id="importance-metrics">One of the departments you might be tempted to drop is Metrics. It probably is going to be your worst enemy starting out in writing bigger, more object oriented code. But being that worst enemy has good reasons: it tries to help you write better code. It is fine if you can't always satisfy RuboCop but to shun its guidance during learning is foolish.</span>
 
 Having said that, seeing those offenses come up again and again in one place that you've already made peace with being non-compliant is distracting. Since you don't want to disable those Cops altogether, you can use inline comments to turn off what pesters you:
 
@@ -255,7 +255,7 @@ So, try your best to deal with RuboCop but accept that your code won't be perfec
 
 Our recommendation to stick to the Metrics department requires that we help with explaining the more confusing concepts employed there: ABC metric, cyclomatic complexity and perceived complexity.
 
-The letters in ABC are not random, they stand for **A**ssignment, **B**ranches and **C**onditionals. Assignment deals with setting or mutating a variable, branches perhaps confusingly, refer to method calls and conditionals are both the usual various conditional statements and comparisons like `==` or `<=`.
+<span id="abc">The letters in ABC are not random, they stand for **A**ssignment, **B**ranches and **C**onditionals. Assignment deals with setting or mutating a variable, branches perhaps confusingly, refer to method calls and conditionals are both the usual various conditional statements and comparisons like `==` or `<=`.</span>
 
 ABC's author said that it measures software size and it was created to quote: "overcome the disadvantages of lines of code and similar measures". Yep, there was a time when code length, not its complexity was the measure of good software.
 
@@ -269,15 +269,15 @@ In this case, there is one assignment, eighteen branches and zero conditionals, 
 
 One way to interpret this particular score is to say that this method heavily relies on other methods to do something with data. Perhaps this process could be broken down into steps or there exists some design flaw that requires us to manipulate the data so much in this one place.
 
-Cyclomatic complexity is similar to the conditional measure in ABC. It aims at providing insight into how complex a program based on how many possible paths can the program (method) can go through. As you can imagine, this refers to control flow statements like if statements, loops and logical operators like `&&` or `||`.
+<span id="cyclomatic">Cyclomatic complexity is similar to the conditional measure in ABC. It aims at providing insight into how complex a program based on how many possible paths can the program (method) can go through. As you can imagine, this refers to control flow statements like if statements, loops and logical operators like `&&` or `||`.</span>
 
 Of course in the Ruby context, instead of loops you are most likely going to use methods like `#each` to iterate over your collections - that counts, too. Every time code execution and follow one or the other path, one gets added to the score.
 
-Perceived complexity is very similar to cyclomatic complexity. It attempts to measure how hard it is for a human to read the code and where it diverges from cyclomatic complexity is that it uses weights for some control flow statements and counts both `if` and `else` instead of just the if statement as one branching path.
+<span id="perceived">Perceived complexity is very similar to cyclomatic complexity. It attempts to measure how hard it is for a human to read the code and where it diverges from cyclomatic complexity is that it uses weights for some control flow statements and counts both `if` and `else` instead of just the if statement as one branching path.
 
 ### Wouldn't it be nice to have all this in VSC?
 
-It certainly would! Thanks to Ruby-LSP, RuboCop is integrated with Visual Studio Code. All you need is a Gemfile set up with RuboCop in your project. Thanks to this, RuboCop is continuously ran while you're writing your code, providing you with feedback on the go:
+<span id="vscode-rubocop">It certainly would! Thanks to Ruby-LSP, RuboCop is integrated with Visual Studio Code. All you need is a Gemfile set up with RuboCop in your project. Thanks to this, RuboCop is continuously ran while you're writing your code, providing you with feedback on the go:</span>
 
 ![Caesar's Cipher project in VSC with many problems](./linting_and_rubocop/imgs/rubocopinvsc.png)
 
@@ -324,15 +324,15 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is a style guide?](#style-guide)
 - [What is formatting?](#formatting)
 - [What is linting?](#linting)
-- [How do you install RuboCop?](A-KNOWLEDGE-CHECK-URL)
-- [How do you run RuboCop in a command line interface?](A-KNOWLEDGE-CHECK-URL)
-- [How do you read RuboCop's output?](A-KNOWLEDGE-CHECK-URL)
-- [How do you configure RuboCop?](A-KNOWLEDGE-CHECK-URL)
-- [Why is Metrics department so important for new Rubyists?](-A-KNOWLEDGE-CHECK-URL)
-- [What is the ABC metric?](A-KNOWLEDGE-CHECK-URL)
-- [What is cyclomatic complexity?](A-KNOWLEDGE-CHECK-URL)
-- [What is perceived complexity?](A-KNOWLEDGE-CHECK-URL)
-- [How do you configure RuboCop in VSCode?](A-KNOWLEDGE-CHECK-URL)
+- [How do you install RuboCop?](#install-rubocop)
+- [How do you run RuboCop in a command line interface?](#cli-rubocop)
+- [How do you read RuboCop's output?](#output-rubocop)
+- [How do you configure RuboCop?](#configure-rubocop)
+- [Why is Metrics department so important for new Rubyists?](#importance-metrics)
+- [What is the ABC metric?](#abc)
+- [What is cyclomatic complexity?](#cyclomatic)
+- [What is perceived complexity?](#perceived)
+- [How do you configure RuboCop in VSCode?](#vscode-rubocop)
 
 ### Additional resources
 
