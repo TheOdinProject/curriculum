@@ -199,9 +199,7 @@ in your `.rubocop.yml` to enable all the new Cops.
 
 Perhaps you're not interested in tailoring RuboCop to your liking, especially since you're just starting out and have absolutely no idea what's good and what's bad. That'd be the correct approach - don't worry about it right now and just go with the RuboCop defaults.
 
-There exists another set of rules which is executed by a wrapper over RuboCop called Standard Ruby. Standard aims at providing one opinionated set of rules, smaller in scope than RuboCop, in hopes that it will provide a standard for all Rubyists to follow.
-
-One of the departments it drops is Metrics which is probably going to be your worst enemy starting out in writing bigger, more object oriented code. But being that worst enemy has good reasons: it tries to help you write better code. It is fine if you can't always satisfy RuboCop but to shun its guidance during learning is foolish.
+One of the departments you might be tempted to drop is Metrics. It probably is going to be your worst enemy starting out in writing bigger, more object oriented code. But being that worst enemy has good reasons: it tries to help you write better code. It is fine if you can't always satisfy RuboCop but to shun its guidance during learning is foolish.
 
 Having said that, seeing those offenses come up again and again in one place that you've already made peace with being non-compliant is distracting. Since you don't want to disable those Cops altogether, you can use inline comments to turn off what pesters you:
 
@@ -215,7 +213,42 @@ end
 
 This will disable the `AbcSize` Cop from `Metrics` department between those comment lines. Remember: don't use this to avoid working on your code, use it whenever appropriate - it might really be the case that some method has to be that complicated, or at least that's the current belief.
 
-Try your best to deal with it but accept that your code won't be perfect. That's fine. You're still learning - just make an honest attempt to make your code better. Perhaps reading other's code is going to show you the way, so always remember to spend some time reading code after finishing a project!
+Some rules are a lot more arbitrary - the Style department is going to be the prime ground for strong arguments about things that don't really matter - like double-quoting all strings vs making a distinction between plain strings and string interpolation. Perhaps you have strong feelings about quotes, so let's help you out by showing you how to show them to RuboCop.
+
+Start by running `bundle exec rubocop --init` in your home directory to generate a blank `rubocop.yml` file. It has a comment that describes how to use it but besides that - it's totally empty!
+Now, you need to find out what rule you want to change or disable. For the possible options always consult the documentation - not every Cop is just a simple on/off, there might be more options. As an example, we'll be changing the rules regarding strings, frozen string literals and we'll enable NewCops.
+
+```yaml
+# This is .rubocop.yml in ~/
+AllCops:
+  NewCops: enable
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+```
+
+Placement of `.rubocop.yml` in `~` is not accidental - if RuboCop can't find a config file anywhere in the project, it'll look for it in couple of more places, one of them being your home directory. This config file will make it so every project without own configuration will follow these rules - NewCops being enabled, string literals all being double-quoted and not allowing for a magic comment enabling or disabling frozen string literals - this last thing will make sense after you work with RuboCop for a while.
+
+But what with your projects that want to use *some* of the general configuration but not all of it? Enter: `inherit_from`. By adding a line with `inherit_from ~/.rubocop.yml` into your local `.rubocop.yml` makes it use the same rules as defined there. You can then overwrite them locally. Neater thing? You can have directory-specific `.rubocop.yml`s that inherit from your project specific configuration file just to make sure every file in that directory is or is not following some rules. Let's see an example:
+
+```yaml
+# This is .rubocop.yml in ~/my-cool-project/
+
+inherit_from ~/.rubocop.yml
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+```
+
+And now you are back to single-quoting and always having a magic comment regarding frozen string literals. To reiterate: defaults are absolutely fine. With time you'll see what rules give you and when it makes sense to break them. Actually, there's an amazing talk about that in the assignment so if you're not yet convinced, just hold your horses for a moment!
+
+So, try your best to deal with RuboCop but accept that your code won't be perfect. That's fine. Resist the temptation to stray away from the defaults. You're still learning - just make an honest attempt to make your code better. Perhaps reading other's code is going to show you the way, so always remember to spend some time reading code after finishing a project!
 
 ### Metrics are useless if not understood
 
