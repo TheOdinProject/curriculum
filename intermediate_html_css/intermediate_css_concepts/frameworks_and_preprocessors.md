@@ -53,10 +53,8 @@ Some of the standard preprocessors in use are [SASS](https://sass-lang.com/), [L
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What are some advantages of using a CSS framework?](https://www.smashingmagazine.com/2018/11/css-frameworks-css-grid/)
-- [What are some disadvantages of using a CSS framework?](https://www.smashingmagazine.com/2018/11/css-frameworks-css-grid/)
-- [What are some advantages of using a CSS preprocessor?](https://medium.com/@LiliOuakninFelsen/what-is-a-css-pre-processor-why-should-you-use-one-ac3d4cd4b2c2)
-- [What are some disadvantages of using a CSS preprocessor?](https://adamsilver.io/blog/the-disadvantages-of-css-preprocessors/)
+- [What are CSS frameworks?](#frameworks-overview)
+- [What are CSS preprocessors?](#preprocessors-overview)
 
 ### Additional resources
 
