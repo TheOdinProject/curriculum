@@ -12,14 +12,14 @@ This tutorial is open source. If you notice errors, typos, or have questions/sug
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Manipulate [file](https://docs.ruby-lang.org/en/3.2/File.html) input and output.
-- Read content from a [CSV](https://docs.ruby-lang.org/en/3.2/CSV.html) (Comma Separated Value) file.
+- Manipulate [file](https://docs.ruby-lang.org/en/3.3/File.html) input and output.
+- Read content from a [CSV](https://docs.ruby-lang.org/en/3.3/CSV.html) (Comma Separated Value) file.
 - Transform it into a standardized format.
 - Utilize the data to contact a remote service.
 - Populate a template with user data.
-- Manipulate [strings](https://docs.ruby-lang.org/en/3.2/String.html).
+- Manipulate [strings](https://docs.ruby-lang.org/en/3.3/String.html).
 - Access [Google's Civic Information API](https://developers.google.com/civic-information/) through the [Google API Client Gem](https://github.com/google/google-api-ruby-client).
-- Use [ERB](https://docs.ruby-lang.org/en/3.2/ERB.html) (Embedded Ruby) for templating.
+- Use [ERB](https://docs.ruby-lang.org/en/3.3/ERB.html) (Embedded Ruby) for templating.
 
 ### What we're doing in this tutorial
 
@@ -105,7 +105,7 @@ The first few rows of the CSV file you downloaded look like this:
 
 #### Read the file contents
 
-[File](https://docs.ruby-lang.org/en/3.2/File.html) is a core ruby class that allows you to perform a large number of operations on files on your filesystem. The most straightforward is `File.read`.
+[File](https://docs.ruby-lang.org/en/3.3/File.html) is a core ruby class that allows you to perform a large number of operations on files on your filesystem. The most straightforward is `File.read`.
 
 ```ruby
 puts 'EventManager initialized.'
@@ -120,7 +120,7 @@ We are assuming the file is present here. However, it is a good practice to conf
 
 #### Read the file line by line
 
-Reading and displaying the entire contents of the file showed us how to quickly access the data. Our goal is to display the first names of all the attendees. There are numerous [String](https://docs.ruby-lang.org/en/3.2/String.html) methods that would allow us to manipulate this large string. Using `File.readlines` will save each line as a separate item in an array.
+Reading and displaying the entire contents of the file showed us how to quickly access the data. Our goal is to display the first names of all the attendees. There are numerous [String](https://docs.ruby-lang.org/en/3.3/String.html) methods that would allow us to manipulate this large string. Using `File.readlines` will save each line as a separate item in an array.
 
 ```ruby
 puts 'EventManager initialized.'
@@ -159,7 +159,7 @@ The lack of consistent formatting of these headers is not ideal when choosing to
 
 We are interested in the `first_Name` column. At the moment, we have a string of text that represents the entire row. We need to convert the string into an array of columns. The separation of the columns can be identified by the comma `","` separator. We want to split the string into pieces wherever we see a comma.
 
-Ruby's [String#split](https://docs.ruby-lang.org/en/3.2/String.html#method-i-split) allows you to convert a string of text into an array along a particular character. By default when you send the split message to the String without a parameter it will break the string apart along each space `" "` character. Therefore, we need to specify the comma `","` character to separate the columns.
+Ruby's [String#split](https://docs.ruby-lang.org/en/3.3/String.html#method-i-split) allows you to convert a string of text into an array along a particular character. By default when you send the split message to the String without a parameter it will break the string apart along each space `" "` character. Therefore, we need to specify the comma `","` character to separate the columns.
 
 ```ruby
 puts 'EventManager initialized.'
@@ -224,7 +224,7 @@ lines.each do |line|
 end
 ```
 
-This is a such a common operation that Array defines [Array#each_with_index](https://docs.ruby-lang.org/en/3.2/Enumerable.html#method-i-each_with_index).
+This is a such a common operation that Array defines [Array#each_with_index](https://docs.ruby-lang.org/en/3.3/Enumerable.html#method-i-each_with_index).
 
 ```ruby
 puts 'EventManager initialized.'
@@ -259,13 +259,13 @@ Ruby actually provides a CSV parser that we will use instead throughout the rema
 
 It is likely the case that if you want to solve a problem, someone has already done it in some capacity. They may have even been kind enough to share their solution or the tools that they created. This is the kind of goodwill that pervades the Open Source community and Ruby ecosystem.
 
-In this iteration we are going to convert our current CSV parser to use Ruby's [CSV](https://docs.ruby-lang.org/en/3.2/CSV.html). We will then use this new parser to access our attendees' zip codes.
+In this iteration we are going to convert our current CSV parser to use Ruby's [CSV](https://docs.ruby-lang.org/en/3.3/CSV.html). We will then use this new parser to access our attendees' zip codes.
 
 #### Switching over to use the CSV library
 
 Ruby's core language comes with a wealth of great classes. Not all of them are loaded every single time ruby code is executed. This ensures unneeded functionality is not loaded unless required, preventing ruby from having slower start up times.
 
-You can browse the many libraries available in the [Ruby standard library documentation](https://docs.ruby-lang.org/en/3.2/standard_library_rdoc.html).
+You can browse the many libraries available in the [Ruby standard library documentation](https://docs.ruby-lang.org/en/3.3/standard_library_rdoc.html).
 
 ```ruby
 require 'csv'
@@ -280,7 +280,7 @@ end
 
 First we need to tell Ruby that we want it to load the CSV library. This is done through the `require` method which accepts a parameter of the functionality to load.
 
-The way [CSV](https://docs.ruby-lang.org/en/3.2/CSV.html) loads and parses data is very similar to what we previously defined.
+The way [CSV](https://docs.ruby-lang.org/en/3.3/CSV.html) loads and parses data is very similar to what we previously defined.
 
 Instead of `read` or `readlines` we use CSV's `open` method to load our file. The library also supports the concept of headers and so we provide some additional parameters which state this file has headers.
 
@@ -396,15 +396,15 @@ There are many possible ways that we can solve this issue. These are a few paths
 - Use a `while` or `until` loop to prepend zeros until the length is five
 - Calculate the length of the current zip code and add missing zeros to the front
 - Add five zeros to the front of the current zip code and then trim the last five digits
-- Use [String#rjust](https://docs.ruby-lang.org/en/3.2/String.html#method-i-rjust) to append zeros to the front of the string.
+- Use [String#rjust](https://docs.ruby-lang.org/en/3.3/String.html#method-i-rjust) to append zeros to the front of the string.
 
 #### Handling bad and good zip codes
 
 The following solution employs:
 
-- [String#length](https://docs.ruby-lang.org/en/3.2/String.html#method-i-length) - returns the length of the string.
-- [String#rjust](https://docs.ruby-lang.org/en/3.2/String.html#method-i-rjust) - to pad the string with zeros.
-- [String#slice](https://docs.ruby-lang.org/en/3.2/String.html#method-i-slice) - to create sub-strings either through the `slice` method or the array-like notation `[]`
+- [String#length](https://docs.ruby-lang.org/en/3.3/String.html#method-i-length) - returns the length of the string.
+- [String#rjust](https://docs.ruby-lang.org/en/3.3/String.html#method-i-rjust) - to pad the string with zeros.
+- [String#slice](https://docs.ruby-lang.org/en/3.3/String.html#method-i-slice) - to create sub-strings either through the `slice` method or the array-like notation `[]`
 
 ```ruby
 require 'csv'
@@ -554,21 +554,21 @@ With our clean zip code logic tucked away in our `clean_zipcode` method, we can 
 
 - Coercion over Questions
 
-A good rule when developing in Ruby is to favor coercing values into similar values so that they will behave the same. We have a special case to deal specifically with a `nil` value. It would be much easier if instead of checking for a nil value, we convert the `nil` into a string with [NilClass#to_s](https://docs.ruby-lang.org/en/3.2/NilClass.html#method-i-to_s).
+A good rule when developing in Ruby is to favor coercing values into similar values so that they will behave the same. We have a special case to deal specifically with a `nil` value. It would be much easier if instead of checking for a nil value, we convert the `nil` into a string with [NilClass#to_s](https://docs.ruby-lang.org/en/3.3/NilClass.html#method-i-to_s).
 
 ```ruby
 $ nil.to_s
 => ""
 ```
 
-Examining [String#rjust](https://docs.ruby-lang.org/en/3.2/String.html#method-i-rjust) in irb, we can see that when we provide a string with a length greater than five, it performs no work. This means we can apply it in both cases, as it will have the same intended effect.
+Examining [String#rjust](https://docs.ruby-lang.org/en/3.3/String.html#method-i-rjust) in irb, we can see that when we provide a string with a length greater than five, it performs no work. This means we can apply it in both cases, as it will have the same intended effect.
 
 ```ruby
 $ "123456".rjust(5, '0')
 => "123456"
 ```
 
-Lastly, examining [String#slice](https://docs.ruby-lang.org/en/3.2/String.html#method-i-slice) in irb, we can see that for a number that is exactly five digits in length, it has no effect. This also means we can apply it in cases when the zip code is five or more digits, and it will have the same effect.
+Lastly, examining [String#slice](https://docs.ruby-lang.org/en/3.3/String.html#method-i-slice) in irb, we can see that for a number that is exactly five digits in length, it has no effect. This also means we can apply it in cases when the zip code is five or more digits, and it will have the same effect.
 
 ```ruby
 $ "12345"[0..4]
@@ -698,7 +698,7 @@ $ ruby lib/event_manager.rb
 /ruby-2.4.0/gems/google-api-client-0.15.0/lib/google/apis/core/http_command.rb:218:in 'check_status': parseError: Failed to parse address (Google::Apis::ClientError)
 ```
 
-What does this mean?  It means that the Google API was unable to use an address we gave it.  When we dig further, we see that right before this error the information from David with a zip code of 07306 is printed. Looking at the data we can now see that the attendee after David did not enter a zip code.  Data missing like this is common, so we have to have a way of dealing with it. Luckily, Ruby makes that easy with its [Exception Class](https://docs.ruby-lang.org/en/3.2/Exception.html). We can add a `begin` and `rescue` clause to the API search to handle any errors.
+What does this mean?  It means that the Google API was unable to use an address we gave it.  When we dig further, we see that right before this error the information from David with a zip code of 07306 is printed. Looking at the data we can now see that the attendee after David did not enter a zip code.  Data missing like this is common, so we have to have a way of dealing with it. Luckily, Ruby makes that easy with its [Exception Class](https://docs.ruby-lang.org/en/3.3/Exception.html). We can add a `begin` and `rescue` clause to the API search to handle any errors.
 
 ```ruby
 require 'csv'
@@ -751,7 +751,7 @@ Instead of outputting each raw legislator we want to print only their first name
 - For each legislator, we want to find the representative's name.
 - Add the name to a new collection of names.
 
-To do this, we can use the built-in [Array#map method](https://docs.ruby-lang.org/en/3.2/Array.html#method-i-map). It works just like `.each` but returns a new array of the data we want to include.
+To do this, we can use the built-in [Array#map method](https://docs.ruby-lang.org/en/3.3/Array.html#method-i-map). It works just like `.each` but returns a new array of the data we want to include.
 
 ```ruby
 legislator_names = legislators.map do |legislator|
@@ -780,9 +780,9 @@ Sarah 33703 ["Marco Rubio", "Bill Nelson", "C. Young"]
 
 The problem now is that when using string interpolation, Ruby is converting our new array of legislator names into a string, but Ruby does not know exactly how *you* want to display the contents.
 
-We need to explicitly convert our array of legislator names to a string. This way we are sure it will output correctly. This could be tedious work except Array again comes to the rescue with the [Array#join](https://docs.ruby-lang.org/en/3.2/Array.html#method-i-join) method.
+We need to explicitly convert our array of legislator names to a string. This way we are sure it will output correctly. This could be tedious work except Array again comes to the rescue with the [Array#join](https://docs.ruby-lang.org/en/3.3/Array.html#method-i-join) method.
 
-[Array#join](https://docs.ruby-lang.org/en/3.2/Array.html#method-i-join) allows the specification of a separator string. We want to create a comma-separated list of legislator names with `legislator_names.join(", ")`
+[Array#join](https://docs.ruby-lang.org/en/3.3/Array.html#method-i-join) allows the specification of a separator string. We want to create a comma-separated list of legislator names with `legislator_names.join(", ")`
 
 ```ruby
 contents.each do |row|
@@ -957,7 +957,7 @@ For each of our attendees we want to replace the `FIRST_NAME` and `LEGISLATORS` 
 - We need to find all instances of `FIRST_NAME` and replace them with the individual's first name.
 - We need to find all instances of `LEGISLATORS` and replace them with the individual's representatives.
 
-Our template is a String of text which has two methods for replacing text: [String#gsub](https://docs.ruby-lang.org/en/3.2/String.html#method-i-gsub) and [String#gsub!](https://docs.ruby-lang.org/en/3.2/String.html#method-i-gsub-21).
+Our template is a String of text which has two methods for replacing text: [String#gsub](https://docs.ruby-lang.org/en/3.3/String.html#method-i-gsub) and [String#gsub!](https://docs.ruby-lang.org/en/3.3/String.html#method-i-gsub-21).
 
 These two methods are almost identical save for one important difference. The method `gsub` returns a **new copy** of the original string with the values replaced. Whereas `gsub!` will replace the values in the original string.
 
@@ -980,7 +980,7 @@ contents.each do |row|
 end
 ```
 
-We replace the first name in the template letter and return a new copy (Thanks [String#gsub](https://docs.ruby-lang.org/en/3.2/String.html#method-i-gsub)). We save the new letter to a personal version of the letter `personal_letter`. We then replace all the legislators with our legislators information in `personal_letter` (Thanks [String#gsub!](https://docs.ruby-lang.org/en/3.2/String.html#method-i-gsub-21)).
+We replace the first name in the template letter and return a new copy (Thanks [String#gsub](https://docs.ruby-lang.org/en/3.3/String.html#method-i-gsub)). We save the new letter to a personal version of the letter `personal_letter`. We then replace all the legislators with our legislators information in `personal_letter` (Thanks [String#gsub!](https://docs.ruby-lang.org/en/3.3/String.html#method-i-gsub-21)).
 
 Methods like `gsub` and `gsub!` can often be confusing and when to use one over the other may not be immediately clear. The above template manipulation could have been written with just `gsub`:
 
@@ -1005,7 +1005,7 @@ So again, instead of building our own custom solution any further, we are going 
 
 #### Ruby's ERB
 
-Ruby defines a template language named [ERB](https://docs.ruby-lang.org/en/3.2/ERB.html).
+Ruby defines a template language named [ERB](https://docs.ruby-lang.org/en/3.3/ERB.html).
 
 > ERB provides an easy to use but powerful templating system for Ruby. Using ERB, actual Ruby code can be added to any plain text document for the purposes of generating document information details and/or flow control.
 
@@ -1037,7 +1037,7 @@ The code above loads the ERB library, then creates a new ERB template with the `
 
 - What is `binding`?
 
-The [Kernel#binding method](https://docs.ruby-lang.org/en/3.2/Kernel.html#method-i-binding) returns a special object. This object is an instance of the [Binding class](https://docs.ruby-lang.org/en/3.2/Binding.html). An instance of binding knows all about the current state of variables and methods within the given scope. In this case, `binding` knows about the variable `meaning_of_life`.
+The [Kernel#binding method](https://docs.ruby-lang.org/en/3.3/Kernel.html#method-i-binding) returns a special object. This object is an instance of the [Binding class](https://docs.ruby-lang.org/en/3.3/Binding.html). An instance of binding knows all about the current state of variables and methods within the given scope. In this case, `binding` knows about the variable `meaning_of_life`.
 
 Having to explicitly specify a binding when we ask for the results of the template gives us the flexibility to ask for the results of a template given a different binding.
 
@@ -1223,9 +1223,9 @@ Dir.mkdir('output') unless Dir.exist?('output')
 
 - Save each form letter to a file based on the id of the attendee
 
-[File#open](https://docs.ruby-lang.org/en/3.2/File.html#method-c-open) allows us to open a file for reading and writing. The first parameter is the name of the file. The second parameter is a flag that states how we want to open the file. The `w` states we want to open the file for writing. If the file already exists it will be destroyed.
+[File#open](https://docs.ruby-lang.org/en/3.3/File.html#method-c-open) allows us to open a file for reading and writing. The first parameter is the name of the file. The second parameter is a flag that states how we want to open the file. The `w` states we want to open the file for writing. If the file already exists it will be destroyed.
 
-Afterwards we actually send the entire form letter content to the file object. The `file` object responds to the message `puts`. The method [IO#puts](https://docs.ruby-lang.org/en/3.2/IO.html#method-i-puts), from which the `file` object inherits, is similar to [Kernel#puts](https://docs.ruby-lang.org/en/3.2/Kernel.html#method-i-puts) which we have been using up to this point.
+Afterwards we actually send the entire form letter content to the file object. The `file` object responds to the message `puts`. The method [IO#puts](https://docs.ruby-lang.org/en/3.3/IO.html#method-i-puts), from which the `file` object inherits, is similar to [Kernel#puts](https://docs.ruby-lang.org/en/3.3/Kernel.html#method-i-puts) which we have been using up to this point.
 
 #### Moving form letter generation to a method
 
@@ -1306,7 +1306,7 @@ The boss is already thinking about the next conference: "Next year I want to mak
 
 Using the registration date and time we want to find out what the peak registration hours are.
 
-- Ruby has [Date](https://docs.ruby-lang.org/en/3.2/Date.html) and [Time](https://docs.ruby-lang.org/en/3.2/Time.html) classes that will be very useful for this task.
+- Ruby has [Date](https://docs.ruby-lang.org/en/3.3/Date.html) and [Time](https://docs.ruby-lang.org/en/3.3/Time.html) classes that will be very useful for this task.
 
 - For a quick overview, check out this [Ruby Guides](https://www.rubyguides.com/2015/12/ruby-time/) article.
 
@@ -1316,4 +1316,4 @@ Using the registration date and time we want to find out what the peak registrat
 
 The big boss gets excited about the results from your hourly tabulations. It looks like there are some hours that are clearly more important than others. But now, tantalized, she wants to know "What days of the week did most people register?"
 
-- Use [Date#wday](https://docs.ruby-lang.org/en/3.2/Date.html#method-i-wday) to find out the day of the week.
+- Use [Date#wday](https://docs.ruby-lang.org/en/3.3/Date.html#method-i-wday) to find out the day of the week.
