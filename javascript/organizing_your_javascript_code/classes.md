@@ -45,7 +45,7 @@ Go back to your [Library project](https://www.theodinproject.com/lessons/node-pa
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Describe the pros and cons of using classes in JavaScript.](https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65)
-- [How does JavaScript's object creation differ from a language like Java?](https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65#e6b3)
+- [How does JavaScript's object creation differ from other object-oriented programming languages?](https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65#e6b3)
 - [Explain the differences between object constructors and classes.](https://javascript.info/class#not-just-a-syntactic-sugar)
 - [What are "getters" & "setters"?](https://javascript.info/property-accessors)
 - [Describe computed names and class fields.](https://javascript.info/class)
