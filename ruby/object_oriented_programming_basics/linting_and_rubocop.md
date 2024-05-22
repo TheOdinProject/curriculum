@@ -32,7 +32,9 @@ a set of standards for writing and organizing code. The bad news? Your head woul
 ### Your code has pockets, too
 
 Enter another set of tools: linters and formatters. Those do the remembering job for you - they shall point out that something's wrong. Perhaps they might automatically fix
-some of the issues or at least provide hints or references to the style guide that might help you in writing cleaner code. <span id='formatting'>Formatting is all about making your code look neat and tidy without changing code's behavior - think indentation and various spacing, so style.</span> <span id='linting'>Linting is all about making your code easier to reason about - this might change how your code behaves, for example by enforcing that you use `#each` instead of a `for` loop.</span> For all that, Rubyists have a powerful ally:
+some of the issues or at least provide hints or references to the style guide that might help you in writing cleaner code.
+
+<span id='formatting'>Formatting is all about making your code look neat and tidy without changing code's behavior - think indentation and various spacing, so style.</span> <span id='linting'>Linting is all about making your code easier to reason about - this might change how your code behaves, for example by enforcing that you use `#each` instead of a `for` loop.</span> For all that, Rubyists have a powerful ally:
 
 RuboCop. A really polished Gem that will make your code shine!
 
@@ -310,7 +312,7 @@ With time, you are going to be better at adhering to rules but perhaps more impo
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [Learn some more about what linting is](https://en.wikipedia.org/wiki/Lint_(software))
+1. Learn some more [about what linting is](https://en.wikipedia.org/wiki/Lint_(software)).
 1. Acquaint yourself with [the introduction to Ruby Style Guide](https://rubystyle.guide/) and skim it a little.
 1. Check out [what RuboCop is about](https://docs.rubocop.org/rubocop/index.html) and explore its docs.
 1. [Watch Sandi Metz' "Rules"](https://www.youtube.com/watch?v=npOGOmkxuio) for a lovely exploration of the what, why and how of rules generally and also in the Ruby context.
