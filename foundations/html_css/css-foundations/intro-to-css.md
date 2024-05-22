@@ -204,8 +204,7 @@ So something like `.ancestor .child` would select an element with the class `chi
   </div>
 </div>
 
-<div class="contents"></div>
-<!-- D -->
+<div class="contents"><!-- D --></div>
 ```
 
 ```css

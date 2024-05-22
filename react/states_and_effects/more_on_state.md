@@ -107,7 +107,7 @@ The `person` state stays the same throughout the current render of the component
 
 #### The unexpected infinite loop
 
-The following is an infinite loop; can you guess why? Drop by in our [Discord chatroom](https://discord.com/invite/fbFCkYabZB), tell us why, and score a brownie point!
+The following is an infinite loop; can you guess why? Drop by in the [TOP Discord server](https://discord.gg/theodinproject), tell us why, and score a brownie point!
 
 ```jsx
 function Component() {

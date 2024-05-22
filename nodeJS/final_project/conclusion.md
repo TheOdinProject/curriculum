@@ -4,7 +4,7 @@ You've reached the end of the scope of this course and should feel pretty good a
 
 This isn't the last course in the curriculum, as there is a Getting Hired course remaining. But you're now at that period where you can consider yourself a "full stack" developer. You've learned how to write beautiful and intuitive front-ends for your applications and now back-end technologies to give those sites some cool features. Despite how far you've come, it's up to you to keep building stuff, ask questions, and dig deeper into both NodeJS and best practices of software engineering in general.
 
-Still, at this point you've got the NodeJS and Express building blocks. When you work your first six months on the job as a full stack Javascript dev, you will learn as much information as you just did. Because the point of this course has been to instill these building blocks in you, you're in a place to actually get that first job and build on what you know.
+Still, at this point you've got the NodeJS and Express building blocks. When you work your first six months on the job as a full stack JavaScript dev, you will learn as much information as you just did. Because the point of this course has been to instill these building blocks in you, you're in a place to actually get that first job and build on what you know.
 
 ### Next steps
 
@@ -34,14 +34,14 @@ Now that you have exposure to non-relational databases with Mongo, you might be 
 
 ### Other resources
 
-Here are a few extra resources that will take you a bit deeper into software architecture, Javascript and Node:
+Here are a few extra resources that will take you a bit deeper into software architecture, JavaScript and Node:
 
 - [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
 - [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_1?dchild=1&keywords=Clean+Code&qid=1602168590&s=digital-text&sr=1-1)
 - [syntax.fm Podcast](https://syntax.fm)
 - [NodeJS Blog](https://nodejs.org/en/blog/)
 
-If you find anything you think could go on this list, feel free to improve to this lesson on [Github](https://github.com/TheOdinProject/curriculum)!
+If you find anything you think could go on this list, feel free to improve to this lesson in the [TOP curriculum repository on GitHub](https://github.com/TheOdinProject/curriculum)!
 
 ### Contributing
 
@@ -57,8 +57,6 @@ We want to emphasize again that the learning never really stops but also that yo
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-- [Introduction to using React with Typescript](https://profy.dev/article/react-typescript)
-
-* [Additional frameworks](https://expressjs.com/en/resources/frameworks.html) built on Express for building specific apps (ie. Feathers for chat applications)
-* More on APIs with this [fantastic intro video](https://www.youtube.com/watch?v=oBW_VNg4qD0)
-* Learn More About DevOPs with [ this fantastic github repo](https://github.com/MichaelCade/90DaysOfDevOps)
+- Additional [frameworks built on Express](https://web.archive.org/web/20240328030121/https://expressjs.com/en/resources/frameworks.html) that might be more suited to building certain types of applications.
+- Explore [more about APIs](https://www.youtube.com/watch?v=oBW_VNg4qD0).
+- [90 Days of DevOps](https://github.com/MichaelCade/90DaysOfDevOps) is a great repo if you wish to explore more about DevOps.
