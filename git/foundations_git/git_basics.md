@@ -146,9 +146,9 @@ Changing the default message editor is a good idea in case you accidentally omit
 
 The following command will set this configuration. Type (or copy & paste) this command into your terminal and hit <kbd>Enter</kbd>.
 
-   ```bash
-   git config --global core.editor "code --wait"
-   ```
+```bash
+git config --global core.editor "code --wait"
+```
 
 There will be no confirmation or any output on the terminal after entering this command.
 
