@@ -162,4 +162,5 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [MDN JavaScript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors).
-- Read the W3schools article to find additional [window console object methods](https://www.w3schools.com/jsref/obj_console.asp). Additionally, watch Steve Griffith's brief [video explanation on Chrome Dev Tools Console](https://www.youtube.com/watch?v=TqPrpglfE9c)
+- Read the W3schools article to find additional [window console object methods](https://www.w3schools.com/jsref/obj_console.asp).
+- Additionally, watch Steve Griffith's brief [video explanation on the Chrome devtools Console](https://www.youtube.com/watch?v=TqPrpglfE9c).
