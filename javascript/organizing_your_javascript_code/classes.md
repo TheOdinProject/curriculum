@@ -11,7 +11,7 @@ Since we've already gone fairly in-depth with Constructors, you don't have too m
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Describe the pros and cons of using classes in JavaScript.
-- Briefly discuss how JavaScript's object creation differs from a language like Java.
+- Briefly discuss how JavaScript's object creation differs from other object-oriented programming languages.
 - Explain the differences between an object constructor and a class.
 - Explain what "getters" and "setters" are.
 - Understand what computed names and class fields are.
