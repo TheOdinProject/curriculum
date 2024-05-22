@@ -1,6 +1,6 @@
 ### Introduction
 
-JavaScript does *not* have classes in the same sense as other Object Oriented languages like Java or Ruby. ES6, however, *did* introduce a syntax for object creation that uses the `class` keyword. It is basically a new syntax that does the *exact* same thing as the object constructors and prototypes we learned about in the constructor lesson.
+JavaScript does *not* have classes in the same sense as other Object Oriented languages like Java. ES6, however, *did* introduce a syntax for object creation that uses the `class` keyword. It is basically a new syntax that does the *exact* same thing as the object constructors and prototypes we learned about in the constructor lesson.
 
 There is a bit of controversy about using the class syntax, however. Opponents argue that `class` is basically just *syntactic sugar* over the existing prototype-based constructors and that it's dangerous and/or misleading to obscure what's *really* going on with these objects. Despite the controversy, classes are beginning to crop up in real code bases that you are almost certainly going to encounter such as frameworks like React (especially if you end up working with class-based React code).
 
@@ -11,7 +11,7 @@ Since we've already gone fairly in-depth with Constructors, you don't have too m
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Describe the pros and cons of using classes in JavaScript.
-- Briefly discuss how JavaScript's object creation differs from a language like Java or Ruby.
+- Briefly discuss how JavaScript's object creation differs from a language like Java.
 - Explain the differences between an object constructor and a class.
 - Explain what "getters" and "setters" are.
 - Understand what computed names and class fields are.
@@ -45,7 +45,7 @@ Go back to your [Library project](https://www.theodinproject.com/lessons/node-pa
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Describe the pros and cons of using classes in JavaScript.](https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65)
-- [How does JavaScript's object creation differ from a language like Java or Ruby?](https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65)
+- [How does JavaScript's object creation differ from a language like Java?](https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65)
 - [Explain the differences between object constructors and classes.](https://javascript.info/class#not-just-a-syntactic-sugar)
 - [What are "getters" & "setters"?](https://javascript.info/property-accessors)
 - [Describe computed names and class fields.](https://javascript.info/class)
