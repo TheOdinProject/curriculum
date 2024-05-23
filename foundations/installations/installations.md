@@ -356,7 +356,7 @@ When opening your WSL2 terminal ensure that you do not see `/mnt/c` at the start
 </div>
 
 <div class="lesson-note lesson-note--tip" markdown="1">
-To learn more about WSL2, you can visit the official Microsoft [documentation](https://learn.microsoft.com/en-us/windows/wsl/) on installing WSL.
+To learn more about WSL2, you can visit the official Microsoft [documentation](https://learn..com/en-us/windows/wsl/) on installing WSL.
 </div>
 
 <div class="lesson-note lesson-note--warning" markdown="1">
@@ -506,4 +506,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- To learn more about WSL2, you can visit [the official Microsoft documentation on installing WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
