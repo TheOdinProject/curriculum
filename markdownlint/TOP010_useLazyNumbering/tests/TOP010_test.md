@@ -26,7 +26,7 @@ List items not using lazy list numbering
    2. Child of Item Two
 3. Item Three
 
-Ordered List items using lazy list numbering
+List items using lazy list numbering
 
 1. Item One
 1. Item Two
