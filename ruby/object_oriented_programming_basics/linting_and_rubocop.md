@@ -281,17 +281,17 @@ Of course in the Ruby context, instead of loops you are most likely going to use
 
 <span id="vscode-rubocop">It certainly would! Thanks to Ruby-LSP, RuboCop is integrated with Visual Studio Code. All you need is a Gemfile set up with RuboCop in your project. Thanks to this, RuboCop is continuously ran while you're writing your code, providing you with feedback on the go:</span>
 
-![Caesar's Cipher project in VSC with many problems](./linting_and_rubocop/imgs/rubocopinvsc.png)
+![Caesar's Cipher project in VSC with many problems](https://cdn.statically.io/gh/TheOdinProject/curriculum/270b3d2430621d1d768234d53588054dc4bdda13/ruby/object_oriented_programming_basics/linting_and_rubocop/imgs/rubocopinvsc.png)
 
 You've got the underlines and neatly formatted list of issues listed in the `Problems` tab. Remember that `Problems` tab is interactive - make sure to play with it!
 
 When you hover over an underlined piece of code, you will be informed of the offense and be given links to RuboCop documentation *not* the Ruby Style guide and also given shortcuts to `View Problems` and `Quickfix`:
 
-![VSC pop-up after you hover on an offense](./linting_and_rubocop/imgs/rubohover.png)
+![VSC pop-up after you hover on an offense](https://cdn.statically.io/gh/TheOdinProject/curriculum/270b3d2430621d1d768234d53588054dc4bdda13/ruby/object_oriented_programming_basics/linting_and_rubocop/imgs/rubohover.png)
 
 Quickfixes are pretty much `rubocop -a` but confined to a particular line. Take note that from here you can also disable and enable the Cop behind the offense:
 
-![VSC quickfix pop-up](./linting_and_rubocop/imgs/quickfixrubocop.png)
+![VSC quickfix pop-up](https://cdn.statically.io/gh/TheOdinProject/curriculum/270b3d2430621d1d768234d53588054dc4bdda13/ruby/object_oriented_programming_basics/linting_and_rubocop/imgs/quickfixrubocop.png)
 
 ### To write good code you need to write a lot of bad code first
 
