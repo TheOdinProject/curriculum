@@ -46,7 +46,11 @@ Feel free to experiment with the code on your own and replace `'Goat'` with your
 
 <div class="lesson-content__panel" markdown="1">
 
+<div class="lesson-note lesson-note--warning" markdown="1">
+
 Note that articles #1 and #2 also have their own exercises attached, which you should **not** do, as they involve knowledge we haven't touched yet.
+
+</div>
 
 1. This [MDN article on functions](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) is a good place to start. Don't worry as there may be some functions that can be beyond the reach of this particular lesson, but do pay special attention to the sections on 'Function Scope'. Scope is a topic that commonly trips up both beginner and intermediate coders, so it pays to spend some time with it upfront.  
 1. Read this article about [return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values).
