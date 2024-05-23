@@ -217,7 +217,7 @@ function List(props) {
   }
 
   if (props.animals.length === 0) {
-    return <div>There are no animals in the list!</div>;
+    return <div>There are no animals on the list!</div>;
   }
 
   return (
@@ -297,7 +297,7 @@ function List(props) {
           })}
         </ul>
       )}
-      {props.animals && props.animals.length === 0 && <div>There are no animals in the list!</div>}
+      {props.animals && props.animals.length === 0 && <div>There are no animals on the list!</div>}
     </>
   );
 }
@@ -311,7 +311,7 @@ function App() {
       <List animals={animals} />
     </div>
   );
-}
+} 
 ```
 
 Nested ternaries and multiple `&&` operators can be intimidating to look at, so be sure to test things out!
