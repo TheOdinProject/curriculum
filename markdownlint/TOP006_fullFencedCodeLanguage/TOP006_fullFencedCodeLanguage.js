@@ -11,6 +11,7 @@ module.exports = {
   description:
     "Fenced code blocks must use the full name for a language if both full and abbreviated options are valid.",
   tags: ["code", "language"],
+  parser: "markdownit",
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP006.md"
   ),

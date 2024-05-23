@@ -143,11 +143,9 @@ While you should address these warnings if possible and as soon as possible, war
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Now, it's time to go through the documentation! Learn more about the [ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError), the [SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) and the [TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError) from the MDN Docs.
+1. Now, it's time to go through the documentation! Learn more about the [ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError), the [SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError) and the [TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError) from the MDN Docs. Don't worry about fully understanding all the documentation right now; the goal is to familiarize yourself with the concepts. The examples use "try...catch" statements, which execute the code within the "try" block. If an error occurs, it is automatically caught by the "catch" block. This allows you to tackle errors before they terminate the script, allowing you to handle them appropriately within the "catch" block. For now, just remember that "try...catch" statements exist and that they will become useful as you progress through the curriculum.
 
 1. Work through ["What went wrong? Troubleshooting JavaScript"](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong). Be sure to download their starter code that has intentional errors.
-
-1. This tutorial dives into the [Chrome Debugger](https://developer.chrome.com/docs/devtools/javascript/). Warning: In point 4 of step 3 of the tutorial, devtools will pause on the second line rather than at the declaration of the function. Don't worry this is expected.
 
 </div>
 
@@ -163,5 +161,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [MDN JavaScript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors)
-- Read the W3schools article to find additional [window console object methods](https://www.w3schools.com/jsref/obj_console.asp)
+- [MDN JavaScript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors).
+- Read the W3schools article to find additional [window console object methods](https://www.w3schools.com/jsref/obj_console.asp).
+- Additionally, watch Steve Griffith's brief [video explanation on the Chrome devtools Console](https://www.youtube.com/watch?v=TqPrpglfE9c).
