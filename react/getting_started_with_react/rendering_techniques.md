@@ -298,7 +298,7 @@ function List(props) {
           })}
         </ul>
       )}
-      {props.animals && props.animals.length === 0 && <div>There are no animals on the list!</div>}
+      {props.animals && props.animals.length === 0 && <div>There are no animals in the list!</div>}
     </>
   );
 }
