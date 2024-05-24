@@ -45,7 +45,7 @@ module.exports = {
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP009.md",
   ),
-  function: function TOP008(params, onError) {
+  function: function TOP009(params, onError) {
     const bulletPoints = isolateBulletList(params.tokens);
     bulletPoints.forEach((bulletPoint) => {
       const { firstCharacter, lastCharacter, lineNumber, context } =
