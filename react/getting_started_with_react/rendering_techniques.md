@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Let us say we want to create a component that lists multiple animals:
 
-```javascript
+```jsx
 function App() {
   return (
     <div>
@@ -31,7 +31,7 @@ function App() {
 
 It is perfectly acceptable, but what if we want to render more than just four? It can be tedious and long, and most of the time, we will be dealing with a data structure (like a list) rather than hard-coding each animal. You have previously learned that we can embed expressions inside JSX with curly braces. So let us do just that:
 
-```javascript
+```jsx
 function App() {
   const animals = ["Lion", "Cow", "Snake", "Lizard"];
 
@@ -50,7 +50,7 @@ function App() {
 
 We define an array called `animals`. Now inside our JSX, we use `map` to return a new array of `li` elements, adding `animal` as its text. It should now render the same as the previous snippet we wrote. This is because JSX has the ability to automatically render arrays. The following code is identical:
 
-```javascript
+```jsx
 function App() {
   const animals = ["Lion", "Cow", "Snake", "Lizard"];
   const animalsList = animals.map((animal) => <li key={animal}>{animal}</li>)
@@ -76,7 +76,7 @@ We will use `props` here, and you will learn more about them in a future lesson.
 
 </div>
 
-```javascript
+```jsx
 function ListItem(props) {
   return <li>{props.animal}</li>
 }
