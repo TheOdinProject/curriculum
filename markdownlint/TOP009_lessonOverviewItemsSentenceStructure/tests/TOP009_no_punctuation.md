@@ -1,6 +1,6 @@
 ### Introduction
 
-This file should be marked with an error because some of the lesson overview items has no punctuation
+This file should be marked with an error because some of the lesson overview items do not end with a period.
 
 ### Lesson overview
 
