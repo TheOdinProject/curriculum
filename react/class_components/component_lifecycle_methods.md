@@ -54,7 +54,7 @@ In this snippet, the useEffect contains the functionality of `componentDidMount`
 
 1. Check out this [lifecycle diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) to see a good visual representation of a components lifecycle methods.
 
-1. Read through [component documentation]([https://reactjs.org/docs/react-component.html#the-component-lifecycle](https://react.dev/reference/react/Component)) from 'constructor(props)' up to 'componentWillUnmount()' in the Reference section, being mindful of deprecated APIs. Consider other APIs as supplementary information.
+1. Read through [component documentation](https://react.dev/reference/react/Component) from 'constructor(props)' up to 'componentWillUnmount()' in the Reference section, being mindful of deprecated APIs. Consider other APIs as supplementary information.
 
 </div>
 
