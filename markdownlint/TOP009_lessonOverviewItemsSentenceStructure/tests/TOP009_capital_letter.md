@@ -1,6 +1,6 @@
 ### Introduction
 
-This file should be marked with an error because one of the lesson overview items is not properly capitalised.
+This file should be marked with an error because one of the lesson overview items is not properly capitalized.
 
 ### Lesson overview
 
