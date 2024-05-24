@@ -16,7 +16,9 @@ function isolateBulletList(tokens) {
       inBulletList = false;
     }
 
-    if (inBulletList && inLessonOverview) bulletList.push(token);
+    if (inBulletList && inLessonOverview) {
+      bulletList.push(token);
+    }
   });
   // Only consider tokens that have text in them.
   return bulletList.filter((token) => token.type === "inline");
