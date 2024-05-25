@@ -411,22 +411,13 @@ The main application file, our entry point.
 // app file
 
 const express = require('express');
-const morgan = require('morgan');
 const userRouter = require('<path-to-user-routes>');
 
 const app = express();
 
-// application-level middlewares, will always execute on every incoming requests, base mount path is `/`
+// application-level middlewares, will always execute on every incoming requests
 
-// a nice to have logger, will automatically show logs for every http request
-app.use(morgan('dev'));
-
-// parses incoming request's body with JSON payloads(e.g. payloads sent through the network with a JSON.stringify'd body in a fetch call as one example)
-// to make it available for use in `req.body`.
-app.use(express.json());
-
-// same as above but parses incoming requests with URL-encoded payloads (e.g name=Damon&role=Professional)
-// more information on extended in the express documentation
+// parses form payloads and sets it to the `req.body`
 app.use(express.urlencoded({ extended: false }));
 
 app.use((req, res, next) => {
@@ -437,6 +428,9 @@ app.use((req, res, next) => {
 
 // base mount path is `/users` and will always execute on that specific mount path, and yes including `/users/a/b/c`
 app.use('/users', userRouter);
+
+const PORT = 3000;
+app.listen(PORT, () => console.log(`listening on port ${PORT}!`));
 ```
 
 ### Assignment
