@@ -124,6 +124,8 @@ Once the controller has completed its tasks, it passes the processed data to the
 
 The naming conventions for these controllers are usually based on the route they will be attached to e.g. `GET` route -> `getSomething`, `POST` route -> `createSomething`, `DELETE` route -> `deleteSomething`, etc. Nonetheless, there is no fixed rule since Express is not opinionated. It will always be based on you or someone else's conventions, and the requirements of the function.
 
+Let's define our first controller! Create a folder called `controllers` at the root of your Express project. Then create a `userController.js` file within it:
+
 ```javascript
 // user controller file - controllers/userController.js
 
