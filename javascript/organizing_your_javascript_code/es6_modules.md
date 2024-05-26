@@ -127,7 +127,9 @@ const farewell = "Bye bye, Odinite!";
 export { greeting, farewell };
 ```
 
-Now to import these variables in `two.js`! Remember that we can control what we import, so if we only need the `greeting` variable, we could just import that on its own. If another file needed the `farewell` variable (or both), then that file could import what it needs. Don't import it? Can't use it. To do named imports, we must specify the names of the things we want to import inside `{ }` and provide the path to the file we're importing from.
+Now to import these variables in `two.js`! Remember that we can control what we import, so if we only need the `greeting` variable, we could just import that on its own. If another file needed the `farewell` variable (or both), then that file could import what it needs. Don't import it? Can't use it. To do named imports, we must specify the names of the things we want to import inside `{ }` and provide the path to the file we're importing from (when we deal with importing third-party libraries later, you can just use the name of the library instead of a full file path).
+
+Note that [you cannot use template strings for the file path](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#module-name), only single or double quoted strings.
 
 ```javascript
 // two.js
