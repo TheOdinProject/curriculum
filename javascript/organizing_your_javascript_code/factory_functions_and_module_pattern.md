@@ -290,6 +290,6 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - This video explains [a good example of closures](https://www.youtube.com/watch?v=80O6L2Ez3GM).
-- Here is an [interactive scrim on factory functions](https://scrimba.com/scrim/c2aaKzcV).
+- Here is an [interactive scrim on factory functions](https://v1.scrimba.com/scrim/c2aaKzcV).
 - This article discusses [three different kinds of prototypal inheritance](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9) with some good examples.
 - [Learning JavaScript Design Patterns by Addy Osmani and Lydia Hallie](https://www.patterns.dev/)
