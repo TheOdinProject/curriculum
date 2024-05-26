@@ -1,4 +1,4 @@
-### Why not constructors?
+### Introduction
 
 We have discussed object constructors in the previous lesson. However, they are one of the many ways to organize your code. While they are fairly common and a fundamental building block of the JavaScript language, they have their flaws.
 
