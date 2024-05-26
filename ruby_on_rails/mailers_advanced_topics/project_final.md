@@ -60,4 +60,4 @@ Keep the following requirements in mind. We'll cover specific steps to get start
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- For an alternative to using AWS S3 for image storage take a look at this [cloudinary](https://github.com/GoGoCarl/paperclip-cloudinary)
+- For an alternative to using AWS S3 for image storage take a look at this [cloudinary](https://cloudinary.com/documentation/rails_integration)

@@ -2,6 +2,7 @@ module.exports = {
   names: ["TOP001", "descriptive-link-text"],
   description: "Links have descriptive text labels",
   tags: ["accessibility", "links"],
+  parser: "markdownit",
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP001.md"
   ),

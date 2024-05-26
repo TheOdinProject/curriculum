@@ -108,7 +108,7 @@ Or perhaps instead of `two.js`, `one.js` imports from `three.js`. In which case,
 two.js <-------------- one.js <-------------- three.js
 ```
 
-Note that we only needed the one script tag as the browser handles the additional file dependencies for us. We also did not need to add the `defer` attribute, as `type="module"` automatically defers script execution for us.
+Note that we only needed the one script tag, as the browser will handle the additional file dependencies for us. We also did not need to add the `defer` attribute, as `type="module"` will automatically defer script execution for us.
 
 But how do we actually import and export? In true JavaScript fashion, we don't have just one but two types of importing and exporting: `default` and `named`, and they essentially do the same kind of thing but very slightly differently. They can even be mixed and matched in the same file.
 

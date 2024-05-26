@@ -92,11 +92,12 @@ Buckets are storage that we need to store our elements. Simply, it's an array. F
 1. Find the bucket at index `385`.
 1. Store the key value pair in that bucket. In this case, the key would be "Fred" and the value would be "Smith".
 
+What if the bucket at index `385` already contains an item with the same key "Fred"? We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`. A `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have nodes with only keys and no values.
+
 This is an oversimplified explanation; we'll discuss more internal mechanics later in the lesson.
 
 Now if we wanted to get a value using a key:
 
-1. Put each entry inside a bucket as a `Node` item, which holds both the key and the value.
 1. To retrieve the value, we hash the key and calculate its bucket number.
 1. If the bucket is not empty, then we go to that bucket.
 1. Now we compare if the node's key is the same key that was used for the retrieval.
@@ -105,8 +106,6 @@ Now if we wanted to get a value using a key:
 Maybe you are wondering, why are we comparing the keys if we already found the index of that bucket? Remember, a hash code is just the location. Different keys might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
 
 This is it, making this will result in a hash table with `has`, `set` and `get`.
-
-What if we found the hash code, but also the key value is the same as what we already have in the bucket? We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`. A `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have nodes with only keys and no values.
 
 #### Insertion order is not maintained
 

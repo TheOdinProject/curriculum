@@ -31,11 +31,11 @@ You can use the browser's inspector to add the CSS above to this web page if you
 
 OK, so there might be some circles in the above image... but when it comes to layout, they fit together like rectangular boxes and not circles. In the end, laying out a webpage and positioning all its elements is deciding how you are going to nest and stack these boxes.
 
-The only real complication here is that there are many ways to manipulate the size of these boxes, and the space between them, using `padding`, `margin`, and `border`. The assigned articles go into more depth on this concept, but to sum it up briefly:
+The only real complication here is that there are many ways to manipulate the size of these boxes, and the space between them, using `padding`, `border`, and `margin`. The assigned articles go into more depth on this concept, but to sum it up briefly:
 
 - `padding` increases the space between the border of a box and the content of the box.
-- `margin` increases the space between the borders of a box and the borders of adjacent boxes.
 - `border` adds space (even if it's only a pixel or two) between the margin and the padding.
+- `margin` increases the space between the borders of a box and the borders of adjacent boxes.
 
 Be sure to study the diagrams carefully.
 

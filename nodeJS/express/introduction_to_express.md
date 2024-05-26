@@ -81,11 +81,11 @@ Express takes the callback function we gave it and passes the request object int
 
 There is no more code to run and the function returns. Since Express has been told to respond to the request, it ends the request-response cycle. Meanwhile, the browser receives our server's response and displays it on screen, which is our `"Hello, world!"` string. We could send nearly anything in our response. We could even [tell Express to send a file](https://expressjs.com/en/api.html#res.sendFile).
 
-### Nodemon
+### Auto-restarting your server upon file changes
 
-When you run your server with `node app.js`, any changes to any JavaScript and JSON files in your project directory won't be reflected automatically unless you manually interrupt and rerun `node app.js`. To avoid this manual process, you can use [Nodemon](https://www.npmjs.com/package//nodemon) to run your `app.js` file. Nodemon will automatically restart your server any time it detects a change, similar to Webpack and Vite's dev servers.
+When you run your server with `node app.js`, any changes to any JavaScript and JSON files in your project directory won't be reflected automatically unless you manually interrupt and rerun `node app.js`. To avoid this manual process, you can use [Node's watch mode](https://nodejs.org/docs/latest-v20.x/api/cli.html#--watch) by adding the `--watch` flag, e.g. `node --watch app.js`. Node will watch `app.js` for changes, as well as any of the files it depends on. When it detects a change, it will automatically restart the server just like with Webpack and Vite's dev servers.
 
-Our recommendation would be to add Nodemon as a dev dependency and add an npm script that runs `nodemon app.js`.
+You may also come across [Nodemon](https://www.npmjs.com/package//nodemon), a highly configurable package that could also watch for changes and restart your server for you. Node didn't always have a stable built-in watch mode, so you're likely to see Nodemon around the place. Our recommendation would be to stick with Node's built in watch mode via the `--watch` flag, as this would be by far the simplest method.
 
 ### Assignment
 
@@ -103,7 +103,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is Express?](https://expressjs.com/)
 - [What happens when a server receives a request?](#a-requests-journey)
 - [What can we use to tell Express to send a file in response to a request?](https://expressjs.com/en/api.html#res.sendFile)
-- [What can you use to automatically restart your server when you make changes to a file?](https://www.npmjs.com/package//nodemon)
+- [What can you use to automatically restart your server when you make changes to a file?](#auto-restarting-your-server-upon-file-changes)
 
 ### Additional resources
 
