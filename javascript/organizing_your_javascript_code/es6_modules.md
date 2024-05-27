@@ -83,6 +83,7 @@ export { functionOne };
 
 ```javascript
 // another JS file
+// Note: You can only use single quotes (') or double quotes (") for import statements 
 import { functionOne } from './functionOne';
 
 functionOne(); // this should work as expected!

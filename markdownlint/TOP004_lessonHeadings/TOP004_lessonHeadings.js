@@ -75,6 +75,7 @@ module.exports = {
   names: ["TOP004", "lesson-headings"],
   description: "Required heading structure",
   tags: ["headings"],
+  parser: "markdownit",
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP004.md"
   ),

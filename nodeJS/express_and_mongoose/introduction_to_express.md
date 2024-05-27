@@ -48,5 +48,5 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - The book [Express in Action](https://www.manning.com/books/express-in-action?a_bid=fe3fcff7&a_aid=express-in-action) by Evan M. Hahn is an incredible resource for Express beginners.
-- This [video crash course on Express by Brad Traversy](https://www.youtube.com/watch?v=L72fhGm1tfEE) provides you with all the basic concepts.
+- This [video crash course on Express by Brad Traversy](https://www.youtube.com/watch?v=CnH3kAXSrmU) provides you with all the basic concepts.
 - [Web Dev Simplified’s Express JS crash course](https://www.youtube.com/watch?v=SccSCuHhOw0&ab_channel=WebDevSimplified) also packs a ton of great information into a 35 minute video.
