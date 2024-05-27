@@ -26,7 +26,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting Up Git](https://www.theodinproject.com/lessons/foundations-setting-up-git) lesson.
 
-1. From the GitHub homepage, create a new repository by clicking the "+" button in the top-right corner and selecting "New repository".
+1. From the GitHub homepage, create a new repository by clicking the "+" button in the top-right corner and selecting "New repository". *If you are using a smaller viewport, that button may be hidden. In that case click on your profile picture in the top-right corner and the button will appear next to your profile name.*
 
 1. Give your repository the name "git_test" in the repository name input field. Check "Add a README file". And then create the repository by clicking the "Create repository" button at the bottom of the page.
 
