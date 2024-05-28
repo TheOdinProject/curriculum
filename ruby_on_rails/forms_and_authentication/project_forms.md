@@ -16,7 +16,7 @@ You'll get good at setting up apps quickly in the coming lessons by using more o
 
 1. Build a new rails app (called "re-former").
 1. Create a new Github repo and connect the remote to your local git repo. Check in and commit the initial stuff.
-1. Modify your README file to say something you'll remember later, like "This is part of the Forms Project in The Odin Project's Ruby on Rails Curriculum. Find it at [http://www.theodinproject.com](http://www.theodinproject.com)"
+1. Modify your README file to say something you'll remember later, like "This is part of the Forms Project in The Odin Project's Ruby on Rails Curriculum. Find it at [https://www.theodinproject.com](https://www.theodinproject.com)"
 1. Create and migrate a User model with `:username`, `:email` and `:password`.
 1. Add validations for presence to each field in the model.
 1. Create the `:users` resource in your routes file so requests actually have somewhere to go.  Use the `only:` option to specify just the `:new` and `:create` actions.
@@ -30,9 +30,9 @@ You'll get good at setting up apps quickly in the coming lessons by using more o
 
 The first form you build will be mostly HTML (remember that stuff at all?).  Build it in your New view at `app/views/users/new.html.erb`.  The goal is to build a form that is almost identical to what you'd get by using a Rails helper so you can see how it's done behind the scenes.
 
-1. Build a form for creating a new user. See the [w3 docs for forms](http://www.w3schools.com/tags/tag_form.asp) if you've totally forgotten how they work.  Specify the `method` and the `action` attributes in your `<form>` tag (use `$ rails routes` to see which HTTP method and path are being expected based on the resource you created).  Include the attribute `accept-charset="UTF-8"` as well, which Rails naturally adds to its forms to specify Unicode character encoding.
+1. Build a form for creating a new user. See the [W3Schools page for forms](https://www.w3schools.com/tags/tag_form.asp) if you’ve totally forgotten how they work. Specify the `method` and the `action` attributes in your `<form>` tag (use `$ rails routes` to see which HTTP method and path are being expected based on the resource you created).  Include the attribute `accept-charset="UTF-8"` as well, which Rails naturally adds to its forms to specify Unicode character encoding.
 
-   You don't want to forget about safety, so make sure you provide the form with an authenticity token. If you don't remember how to do so, go back to the [previous lesson](https://www.theodinproject.com/lessons/ruby-on-rails-form-basics#railsifying-your-form) and refresh your memory.
+   You don't want to forget about safety, so make sure you provide the form with an authenticity token. If you don't remember how to do so, go back to the [Form Basics lesson](https://www.theodinproject.com/lessons/ruby-on-rails-form-basics#railsifying-your-form) and refresh your memory.
 
 1. Create the proper input tags for your user's fields (email, username and password).  Use the proper password input for "password".  Be sure to specify the `name` attribute for these inputs.  Make label tags which correspond to each field.
 1. Submit your form and view the server output. You will see nothing happening, no error message, nothing. If you look at the network tab in your inspector or at your server log, you can see that a request was issued, but a response of `204 No Content` is returned.
@@ -80,7 +80,7 @@ That looks a whole lot like what you normally see when Rails does it, right?
 Now we'll start morphing our form into a full Rails form using the `#form_tag` and `#*_tag` helpers.  There's actually very little additional help that's going on and you'll find that you're mostly just renaming HTML tags into Rails tags.
 
 1. Comment out your entire HTML form.  It may be helpful to save it for later on if you get stuck.
-1. Convert your `<form>` tag to use a `#form_tag` helper and all of your inputs into the proper helper tags via `#*_tag` methods.  The good thing is that you no longer need the authentication token because Rails will insert that for you automatically. `#form_tag` is soft-deprecated as stated in the current Rails Guide. You can find the older documentation [here](https://guides.rubyonrails.org/v5.2/form_helpers.html).
+1. Convert your `<form>` tag to use a `#form_tag` helper and all of your inputs into the proper helper tags via `#*_tag` methods.  The good thing is that you no longer need the authentication token because Rails will insert that for you automatically. `#form_tag` is soft-deprecated as stated in the current Rails Guide. Have a look at the older documentation for [Action View Form Helpers](https://guides.rubyonrails.org/v5.2/form_helpers.html).
 1. See the [Form Tag API Documentation](http://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag) for a list and usage of all the input methods you can use with `#form_tag`.
 1. Test out your form.  You'll need to change your `#create` method in the controller to once again accept normal top level User attributes, so uncomment the old `User.new` line and comment out the newer one.
 1. You've just finished the first step.
