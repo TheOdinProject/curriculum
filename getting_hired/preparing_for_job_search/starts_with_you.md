@@ -6,26 +6,26 @@ This lesson is all about self-assessment and goal-setting. If you don't understa
 
 Without defining what your own needs are, you will have no way of determining the right path forward so hunker down until you've got an idea of what your key needs are right now (from a job).  The questions below should help you think about what is actually essential for you versus nice-to-have.  Ask yourself:
 
-* Why do I *need* a job?
-* What kind of salary level do I need to sustain myself and my family?
-* What kind of job security level do I need to sustain myself and my family?
-* How desperate am I to get a job *right now*?
+- Why do I *need* a job?
+- What kind of salary level do I need to sustain myself and my family?
+- What kind of job security level do I need to sustain myself and my family?
+- How desperate am I to get a job *right now*?
 
 ### Where you want to be
 
 Once you've been honest with yourself about your needs, it's time to figure out what you *want*.  What will your future needs be?  What kinds of companies do you want to work at?  
 
-* Why do I *want* a job in web development?
-* What kind of career path do I want to have?
-* Do I want to work in a developer-led organization (vs sales- or business-led)?
-* Do I prefer working in a team environment or remotely?
-* Do I like working long hours / weekends or 9-6?
-* Is the work more important than the people?
-* Do I have to care about the product I'm building?
-* Do I have to care about the technologies I'm using?
-* Do I prefer an "easy" work environment or one where I'm constantly pushed?
-* Do I want "creature comfort" incentives like free food and beer at the office?
-* Do I have to enjoy my work or can I power through a crappy job?
+- Why do I *want* a job in web development?
+- What kind of career path do I want to have?
+- Do I want to work in a developer-led organization (vs sales- or business-led)?
+- Do I prefer working in a team environment or remotely?
+- Do I like working long hours / weekends or 9-6?
+- Is the work more important than the people?
+- Do I have to care about the product I'm building?
+- Do I have to care about the technologies I'm using?
+- Do I prefer an "easy" work environment or one where I'm constantly pushed?
+- Do I want "creature comfort" incentives like free food and beer at the office?
+- Do I have to enjoy my work or can I power through a crappy job?
 
 ### Prioritizing needs and wants
 
