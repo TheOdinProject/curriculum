@@ -93,15 +93,15 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 #### Fly.io
 
 - Fly.io uses a CLI tool for deployment.
-- Pay for what you use with very reasonable rates. Each app should cost around $4 per month.
+- All plans include [free allowances](https://fly.io/docs/about/pricing/#free-allowances), additional resources are billed based on usage with very reasonable rates. Each app should cost around $4 per month.
 - $20 a month should be enough to host eight apps (including three apps for free).
 - Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
 
 ##### Fly.io: Hobby Plan
 
-- New customers get a one-time $5 free trial credit to test Fly.io at no cost. After the credit has been used, you will be be automatically placed on the $5/month Hobby plan subscription
+- New customers get a one-time $5 free trial credit to test Fly.io at no cost. The free credit will only start being used after the free allowances are exceeded. After the credit has been used, you will be be automatically placed on the $5/month Hobby plan subscription.
 - The longevity of your free trial credit depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
-- Requires a credit card
+- Requires a credit card.
 
 ##### Fly.io: Links
 
