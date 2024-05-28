@@ -40,20 +40,20 @@ It's time to be honest with yourself... what do you bring to the table?  If you'
 Some questions to ask (which you'll probably hear again in your early interviews):
 
 1. How hungry am I?
-2. How good am I at building back end code?
-3. How good am I at putting together front ends?
-4. Can I solve really technical problems like brain teasers and algorithms?
-5. Have I built projects that display a good range of skills?
-6. Do I know people who can recommend me?
-4. Am I a good people person who builds relationships easily?
-5. Do I portray an aura of confidence or act shy?
-5. Do I tend to undersell myself and my capabilities?
-5. Do I have a broad level of general tech knowledge?
-6. Am I very familiar with a particular technical or industry vertical? (Usually career switchers have one)
-7. Do I tend to procrastinate or do I just get shit done?
-8. Do I wait to ask for help or do I go out and find the answer on my own?
-9. Do I lean in to challenges or avoid them?
-10. What are some really difficult problems I've solved before?
+1. How good am I at building back end code?
+1. How good am I at putting together front ends?
+1. Can I solve really technical problems like brain teasers and algorithms?
+1. Have I built projects that display a good range of skills?
+1. Do I know people who can recommend me?
+1. Am I a good people person who builds relationships easily?
+1. Do I portray an aura of confidence or act shy?
+1. Do I tend to undersell myself and my capabilities?
+1. Do I have a broad level of general tech knowledge?
+1. Am I very familiar with a particular technical or industry vertical? (Usually career switchers have one)
+1. Do I tend to procrastinate or do I just get shit done?
+1. Do I wait to ask for help or do I go out and find the answer on my own?
+1. Do I lean in to challenges or avoid them?
+1. What are some really difficult problems I've solved before?
 
 Applying without much experience means you need to fill in your weak spots and emphasize your strengths.  For almost everyone, your biggest strength will be hunger and ability to learn.  But companies have heard that story before, so you'll have to tie in other strengths that you can use to make your story compelling.
 
