@@ -9,13 +9,14 @@ In this project, you'll build a form the old fashioned way and then the Rails wa
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 #### Set up the Back end
 
 You'll get good at setting up apps quickly in the coming lessons by using more or less this same series of steps (though we'll help you less and less each time):
 
 1. Build a new rails app (called "re-former").
 1. Create a new Github repo and connect the remote to your local git repo. Check in and commit the initial stuff.
-1. Modify your README file to say something you'll remember later, like "This is part of the Forms Project in The Odin Project's Ruby on Rails Curriculum.  Find it at [http://www.theodinproject.com](http://www.theodinproject.com)"
+1. Modify your README file to say something you'll remember later, like "This is part of the Forms Project in The Odin Project's Ruby on Rails Curriculum. Find it at [http://www.theodinproject.com](http://www.theodinproject.com)"
 1. Create and migrate a User model with `:username`, `:email` and `:password`.
 1. Add validations for presence to each field in the model.
 1. Create the `:users` resource in your routes file so requests actually have somewhere to go.  Use the `only:` option to specify just the `:new` and `:create` actions.
@@ -37,15 +38,17 @@ The first form you build will be mostly HTML (remember that stuff at all?).  Bui
 1. Submit your form and view the server output. You will see nothing happening, no error message, nothing. If you look at the network tab in your inspector or at your server log, you can see that a request was issued, but a response of `204 No Content` is returned.
 1. That's A-OK because it means that we've successfully gotten through our blank `#create` action in the controller (and didn't specify what should happen next).  Look at the server output.  It should include the parameters that were submitted, looking something like:
 
-   ~~~bash
+   ```bash
    Started POST "/users" for 127.0.0.1 at 2013-12-12 13:04:19 -0800
    Processing by UsersController#create as TURBO_STREAM
    Parameters: {"authenticity_token"=>"WUaJBOpLhFo3Mt2vlEmPQ93zMv53sDk6WFzZ2YJJQ0M=", "username"=>"foobar", "email"=>"foo@bar.com", "password"=>"[FILTERED]"}
-   ~~~
+   ```
+
 That looks a whole lot like what you normally see when Rails does it, right?
+
 1. Go into your UsersController and build out the `#create` action to take those parameters and create a new User from them.  If you successfully save the user, you should redirect back to the New User form (which will be blank) and if you don't, it should render the `:new` form again (but it will still have the existing information entered in it).  You should be able to use something like:
 
-   ~~~ruby
+   ```ruby
    # app/controllers/users_controller.rb
    def create
      @user = User.new(username: params[:username], email: params[:email], password: params[:password])
@@ -56,15 +59,15 @@ That looks a whole lot like what you normally see when Rails does it, right?
        render :new, status: :unprocessable_entity
      end
    end
-   ~~~
+   ```
 
 1. Test this out -- can you now create users with your form? If so, you should see an INSERT SQL command in the server log.
 1. We're not done just yet... that looks too long and difficult to build a user with all those `params` calls. It'd be a whole lot easier if we could just use a hash of the user's attributes so we could just say something like `User.new(user_params)`. Let's build it... we need our form to submit a hash of attributes that will be used to create a user, just like we would with Rails' `form_with` method. Remember, that method submits a top level `user` field which actually points to a hash of values. This is easy to achieve, though -- just change the `name` attribute slightly. Nest your three User fields inside the variable attribute using brackets in their names, e.g. `name="user[email]"`.
 1. Resubmit. Now your user parameters should be nested under the `"user"` key like:
 
-   ~~~bash
+   ```bash
    Parameters: {"authenticity_token" => "WUaJBOpLhFo3Mt2vlEmPQ93zMv53sDk6WFzZ2YJJQ0M=", "user" =>{ "username" => "foobar", "email" => "foo@bar.com", "password" => "[FILTERED]" } }
-   ~~~
+   ```
 
 1. You'll get some errors because now your controller will need to change.  But recall that we're no longer allowed to just directly call `params[:user]` because that would return a hash and Rails' security features prevent us from doing that without first validating it.
 1. Go into your controller and comment out the line in your `#create` action where you instantiated a `::new` User (we'll use it later).
@@ -72,7 +75,7 @@ That looks a whole lot like what you normally see when Rails does it, right?
 1. Add a new `::new` User line which makes use of that new allow params method.
 1. Submit your form now.  It should work marvelously (once you debug your typos)!
 
-#### Railsy forms with `#form_tag`
+#### Railsy forms with #form_tag
 
 Now we'll start morphing our form into a full Rails form using the `#form_tag` and `#*_tag` helpers.  There's actually very little additional help that's going on and you'll find that you're mostly just renaming HTML tags into Rails tags.
 
@@ -82,14 +85,14 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 1. Test out your form.  You'll need to change your `#create` method in the controller to once again accept normal top level User attributes, so uncomment the old `User.new` line and comment out the newer one.
 1. You've just finished the first step.
 
-#### Railsy-er forms with `#form_with`
+#### Railsy-er forms with #form_with
 
 `#form_tag` probably didn't feel that useful -- it's about the same amount of work as using `<form>`, though it does take care of the authenticity token stuff for you.  Now we'll convert that into `#form_with`, which will make use of our model objects to build the form.
 
 1. Modify your `#new` action in the controller to instantiate a blank User object and store it in an instance variable called `@user`.
 1. Comment out your `#form_tag` form in the `app/views/users/new.html.erb` view (so now you should have TWO commented out form examples).
 1. Rebuild the form using `#form_with` and the `@user` from your controller.  You'll need to switch your controller's `#create` method again to accept the nested `:user` hash from `params`.
-1. Play with the `#input` method options -- add a default placeholder (like "example@example.com" for the email field), make it generate a different label than the default one (like "Your user name here"), and try starting with a value already populated.  Some of these things you may need to Google for, but check out the [`#form_with` Rails API docs](https://api.rubyonrails.org/v6.1.1/classes/ActionView/Helpers/FormHelper.html#method-i-form_with)
+1. Play with the `#input` method options -- add a default placeholder (like "<example@example.com>" for the email field), make it generate a different label than the default one (like "Your user name here"), and try starting with a value already populated.  Some of these things you may need to Google for, but check out the [`#form_with` Rails API docs](https://api.rubyonrails.org/v6.1.1/classes/ActionView/Helpers/FormHelper.html#method-i-form_with)
 1. Test it out.
 
 #### Editing
