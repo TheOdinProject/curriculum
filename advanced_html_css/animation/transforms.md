@@ -165,7 +165,7 @@ While you can generally chain multiple transforms in any order for various resul
 
 The `rotate`, `scale`, and `translate` transform functions aren't limited to just 2D planes. They also work for 3D planes as well! However, to perceive a 3D effect on some of these function values, `perspective` is required.
 
-From here on, the examples get more complicated, so there will be more links to external resources which do an excellent job describing how each property works. Play around with these properties until you feel comfortable with them, but be careful not to get too sidetracked with them.
+From here on, the examples get more complicated. Feel free to play around with these properties, but be careful not to get too sidetracked with them.
 
 #### Perspective
 
