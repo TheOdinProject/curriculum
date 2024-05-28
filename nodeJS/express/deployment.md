@@ -106,14 +106,13 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 ##### Fly.io: Free Plan
 
 - You can host three apps for free before you need to start paying.
-- Requires a credit card.
 - Fly.io waives monthly invoices that total less than $5 USD. So, although it may look like
   you are being charged, it's very unlikely that you will exceed $5 and actually have to pay.
 
 ##### Fly.io: Links
 
-- [Homepage](https://fly.io/)
-- [Documentation](https://fly.io/docs/)
+- [Fly.io's homepage](https://fly.io/)
+- [Fly.io's documentation](https://fly.io/docs/)
 - [Guide: Official getting started with NodeJS on Fly.io guide](https://web.archive.org/web/20230823151155/https://fly.io/docs/languages-and-frameworks/node/)
 
 ---
@@ -131,8 +130,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Railway.app: Links
 
-- [Homepage](https://railway.app/)
-- [Documentation](https://docs.railway.app/)
+- [Railway homepage](https://railway.app/)
+- [Railway documentation](https://docs.railway.app/)
 
 ---
 
@@ -151,8 +150,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Adaptable.io: Links
 
-- [Homepage](https://adaptable.io/)
-- [Documentation](https://adaptable.io/docs/what-is-adaptable)
+- [Adaptable.io homepage](https://adaptable.io/)
+- [Adaptable.io documentation](https://adaptable.io/docs/what-is-adaptable)
 - [Guide: Official getting started with deploying an Express app on Adaptable guide](https://adaptable.io/docs/app-guides/deploy-express-app)
 
 ---
@@ -171,8 +170,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Render: Links
 
-- [Homepage](https://render.com/)
-- [Documentation](https://render.com/docs/)
+- [Render homepage](https://render.com/)
+- [Render documentation](https://render.com/docs/)
 - [Guide: Official getting started with Node/Express on Render guide](https://render.com/docs/deploy-node-express-app)
 - [Guide: CodeBrah video guide for deploying NodeJS applications to Render](https://www.youtube.com/watch?v=bnCOyGaSe84&ab_channel=CodeBrah)
 
@@ -193,8 +192,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Koyeb: Links
 
-- [Homepage](https://www.koyeb.com/)
-- [Documentation](https://www.koyeb.com/docs)
+- [Koyeb homepage](https://www.koyeb.com/)
+- [Koyeb documentation](https://www.koyeb.com/docs)
 - [Guide: Official getting started with Node/Express on Koyeb guide](https://www.koyeb.com/docs/deploy/express)
 
 ---
@@ -212,8 +211,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Neon: Links
 
-- [Homepage](https://neon.tech/)
-- [Documentation](https://neon.tech/docs/introduction)
+- [Neon homepage](https://neon.tech/)
+- [Neon documentation](https://neon.tech/docs/introduction)
 - [Guide: Connect a Node.js application to Neon](https://neon.tech/docs/guides/node)
 
 ---
@@ -232,8 +231,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Heroku: Links
 
-- [Homepage](https://www.heroku.com/)
-- [Documentation](https://devcenter.heroku.com/)
+- [Heroku homepage](https://www.heroku.com/)
+- [Heroku documentation](https://devcenter.heroku.com/)
 - [Guide: Official NodeJS guide for Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 
 ---
