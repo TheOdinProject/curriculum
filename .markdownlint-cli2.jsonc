@@ -29,8 +29,10 @@
     },
     // ol-prefix
     // Enforces lazy numbering for ordered lists
-    // MD029 Disabled and overriden by TOP010 rule
-    "MD029": false,
+    // MD029 Disabled and overridden by TOP010 rule
+    "MD029": {
+      "style": "one"
+    },
     // no-inline-html
     // Only allows specified HTML to be inline
     "MD033": {

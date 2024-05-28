@@ -1,36 +1,29 @@
 module.exports = {
   names: ["TOP010", "ordered-list-for-lazy-numbering"],
-  description: "Ordered lists should use lazy numbering",
+  description: "Ordered lists must always use 1. as a prefix (lazy numbering)",
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP010.md"
   ),
-  tags: ["lazy-numbering"],
+  tags: ["ol"],
   parser: "markdownit",
   function: function TOP010(params, onError) {
     params.parsers.markdownit.tokens.forEach((token) => {
-      if (
-        token.tag === "li" &&
-        token.line !== undefined &&
-        /\d/.test(token.line) &&
-        !/^\s*1\./.test(token.line)
-      ) {
-        const originalText = token.line;
-        // https://regexr.com/80oan to test this regex
-        const updatedText = originalText.replace(/^\s*\d+\./, (match) =>
-          match.replace(/\d+/, "1")
-        );
-        const textLength = token.line.length;
-        const lineNumber = token.lineNumber;
+      // https://regexr.com/80oan to test this regex
+      const digit = /\d/;
+      if (token.tag === "li" && token.line !== undefined && token.line.match(digit) && token.info !== "1") {
+          const lineNumber = token.lineNumber;
+          const tokenLine = token.line.split(".");
+          const lazyNumbering = tokenLine[0].replace(digit, "1");
 
-        onError({
-          lineNumber: lineNumber,
-          detail: `\n  Expected: "${updatedText}"\n  Actual: "${originalText}"\n`,
-          fixInfo: {
+          onError({
             lineNumber: lineNumber,
-            deleteCount: textLength,
-            insertText: updatedText,
-          },
-        });
+            detail: `\n  Expected: "${lazyNumbering}"\n  Actual: "${tokenLine[0]}"\n`,
+            fixInfo: {
+              lineNumber: lineNumber,
+              deleteCount: tokenLine[0].length,
+              insertText: lazyNumbering,
+            },
+          });
       }
     });
   },

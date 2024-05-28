@@ -1,32 +1,32 @@
 ### Introduction
 
-This file should flag with TOP010 errors, and no other linting errors.
+A BRIEF INTRODUCTION.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- LO item
+- A LESSON OVERVIEW ITEM.
+
+### CUSTOM SECTION HEADING
+
+CUSTOM SECTION CONTENT.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-Assignment section
+#### OPTIONAL CUSTOM ASSIGNMENT HEADING
 
-</div>
+1. A RESOURCE OR EXERCISE ITEM
 
-#### Custom section
-
-List items not using lazy list numbering
+   - AN INSTRUCTION ITEM
 
 1. Item One
 2. Item Two
    1. Child of Item Two
    2. Child of Item Two
-3. Item Three
-
-List items using lazy list numbering
+3. Item Three`
 
 1. Item One
 1. Item Two
@@ -34,11 +34,19 @@ List items using lazy list numbering
    1. Child of Item Two
 1. Item Three
 
-This should not flag items within any sort of code block
+1. *foo*
+2. *Bar*
 
-```markdown
-1.  Item One
-2.  Item Two
-    1. Child of Item Two
-3.  Item Three
-```
+</div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
