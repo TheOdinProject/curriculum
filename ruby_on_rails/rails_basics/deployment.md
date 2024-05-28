@@ -103,14 +103,6 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - The longevity of your free trial credit depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
 - Requires a credit card
 
-##### Fly.io: Legacy Hobby Plan
-
-- If you were on the free Hobby plan at the time that the paid Hobby plan became the default for new users, your plan is now called the Legacy Hobby plan
-- You can host three apps for free before you need to start paying.
-- Requires a credit card.
-- Fly.io waives monthly invoices that total less than $5 USD. So, although it may look like
-  you are being charged, it's very unlikely that you will exceed $5 and actually have to pay.
-
 ##### Fly.io: Links
 
 - [Homepage](https://fly.io/)
