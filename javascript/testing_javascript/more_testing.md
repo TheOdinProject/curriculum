@@ -56,7 +56,7 @@ In this example, the only thing we really need to test is the `evaluateGuess` fu
 
 If we had written this program with TDD it is very likely that it would have looked more like the second example to begin with.  Test driven development encourages better program architecture because it encourages you to write _Pure Functions_.
 
-- Read [this quick article](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c) about the value of 'Pure Functions'.
+- Read this quick article about [the value of "pure functions"](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c).
 
 ### Mocking
 
@@ -65,11 +65,14 @@ There are two solutions to the 'tightly coupled code' problem.  The first, and b
 ### Assignment 
 
 <div class="lesson-content__panel" markdown="1">
-1. If you haven't already, watch the 'mocking' videos from [this series](https://www.youtube.com/watch?v=3PjdxjWK0F0).
-2. Too much mocking can be a bad thing.  It _is_ sometimes necessary, but if you have to set up an elaborate system of mocks to test any bit of your code, that means your code is too tightly coupled.  [This article](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a) might be a little extreme, but it contains several really good points about program architecture and testing.
-3. Now that you have some practice and context for TDD, [this section](https://jestjs.io/docs/setup-teardown) of the Jest docs will probably make good sense to you.
-4. Jest includes some _really_ handy mocking functions.  Read about them in the [official docs](https://jestjs.io/docs/mock-functions).
-5. Watch [this amazing video](https://www.youtube.com/watch?v=URSWYvyc42M) that covers _what_ to test in your codebase.  The video is specifically about testing the Ruby language, but that doesn't matter _at all_.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.
+
+1. If you haven’t already, watch [FunFunFunction's "Mocking Basics" video](https://www.youtube.com/watch?v=3PjdxjWK0F0).
+2. Too much mocking can be a bad thing.  It _is_ sometimes necessary, but if you have to set up an elaborate system of mocks to test any bit of your code, that means your code is too tightly coupled.  While it is quite in-depth, the following article contains several really good points about [program architecture and testing](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a).
+3. Now that you have some practice and context for TDD, the [Jest docs section on "Setup and Teardown"](https://jestjs.io/docs/setup-teardown) will probably make good sense to you.
+4. Read about [Jest's really handy mocking functions](https://jestjs.io/docs/mock-functions).
+5. Watch this amazing video that covers [what to test in your codebase](https://www.youtube.com/watch?v=URSWYvyc42M).
+
+  The video is specifically about testing the Ruby language, but that doesn't matter _at all_.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.
 </div>
 
 ### Knowledge check 
