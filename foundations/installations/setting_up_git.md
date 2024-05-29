@@ -225,7 +225,9 @@ You should see this response in your terminal: **Hi username! You've successfull
 #### Step 2.6 (Optional)
 
 If you are using VScode and you want your commits to be signed (`-S`) while committing from the UI.
-Open Settings `Ctrl`+`,` by default, and search for “gpg”, check the “Enables commit signing with GPG” box.
+- Open Settings `Ctrl`+`,` by default
+- Search for “gpg”, check the “Enables commit signing with GPG” box.
+
 Alternatively you can add this line to your settings.json:
 ```json
 "git.enableCommitSigning": true
