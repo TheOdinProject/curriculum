@@ -9,7 +9,7 @@ module.exports = {
   function: function TOP010(params, onError) {
     params.parsers.markdownit.tokens.forEach((token) => {
       // https://regexr.com/80oan to test this regex
-      const digit = /\d+/;
+      const digit = /^\s*\d+/;
       if (
         token.tag === "li" && 
         digit.test(token.line) && 
@@ -17,7 +17,7 @@ module.exports = {
       ) {
         const lineNumber = token.lineNumber;
         const tokenLine = token.line.split(".");
-        const lazyNumbering = tokenLine[0].replace(digit, "1");
+        const lazyNumbering = tokenLine[0].replace(/\d+/, "1");
 
         onError({
           lineNumber: lineNumber,

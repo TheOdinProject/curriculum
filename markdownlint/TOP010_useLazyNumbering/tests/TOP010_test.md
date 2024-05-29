@@ -37,6 +37,9 @@ CUSTOM SECTION CONTENT.
 1. *foo*
 2. *Bar*
 
+- This is an unordered list item to test TOP010
+- This is another unordered list item
+
 </div>
 
 ### Knowledge check
