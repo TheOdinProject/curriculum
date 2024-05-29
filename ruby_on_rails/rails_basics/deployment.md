@@ -93,16 +93,15 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 #### Fly.io
 
 - Fly.io uses a CLI tool for deployment.
-- Pay for what you use with very reasonable rates. Each app should cost around $4 per month.
+- All plans include [free allowances](https://fly.io/docs/about/pricing/#free-allowances), additional resources are billed based on usage with very reasonable rates. Each app should cost around $4 per month.
 - $20 a month should be enough to host eight apps (including three apps for free).
 - Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
 
-##### Fly.io: Free Plan
+##### Fly.io: Hobby Plan
 
-- You can host three apps for free before you need to start paying.
+- New customers get a one-time $5 free trial credit to test Fly.io at no cost. The free credit will only start being used after the free allowances are exceeded. After the credit has been used, you will be be automatically placed on the $5/month Hobby plan subscription.
+- The longevity of your free trial credit depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
 - Requires a credit card.
-- Fly.io waives monthly invoices that total less than $5 USD. So, although it may look like
-  you are being charged, it's very unlikely that you will exceed $5 and actually have to pay.
 
 ##### Fly.io: Links
 
@@ -224,7 +223,7 @@ This will be where the Git skills you've been learning will start to really pay 
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Deploy your [Blog App project](https://www.theodinproject.com/lessons/ruby-on-rails-blog-app) to one of the hosting providers we've mentioned. If you need help deciding which one to use, we recommend Fly.io. The important thing to take away from this first deployment is getting experience deploying. Don't worry if you don't understand everything that's happening. That will come with time.
+1. Deploy your [Blog App project](https://www.theodinproject.com/lessons/ruby-on-rails-blog-app) to one of the hosting providers we've mentioned. Any of the free options will work for curriculum purposes, so it doesn't matter which you pick for your projects. The important thing to take away from this first deployment is getting experience deploying. Don't worry if you don't understand everything that's happening. That will come with time.
    - Use one of the linked deploy guides for your PaaS provider to help you through the process.
    - If you're having trouble deploying, check out the [Debugging and Troubleshooting Deployments](#debugging-and-troubleshooting-deployments) section for some tips.
 
