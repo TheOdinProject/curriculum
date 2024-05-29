@@ -1,6 +1,6 @@
 ### Introduction
 
-A BRIEF INTRODUCTION.
+This file should flag with TOP010 errors, and no other linting errors.
 
 ### Lesson overview
 
@@ -26,7 +26,7 @@ CUSTOM SECTION CONTENT.
 2. Item Two
    1. Child of Item Two
    2. Child of Item Two
-3. Item Three`
+3. Item Three
 
 1. Item One
 1. Item Two

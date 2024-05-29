@@ -30,9 +30,7 @@
     // ol-prefix
     // Enforces lazy numbering for ordered lists
     // MD029 Disabled and overridden by TOP010 rule
-    "MD029": {
-      "style": "one"
-    },
+    "MD029": false,
     // no-inline-html
     // Only allows specified HTML to be inline
     "MD033": {
