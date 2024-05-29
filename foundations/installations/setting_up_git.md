@@ -222,6 +222,15 @@ Follow the [GitHub directions for testing your SSH connection](https://docs.gith
 
 You should see this response in your terminal: **Hi username! You've successfully authenticated, but GitHub does not provide shell access.** Don't let GitHub's lack of providing shell access trouble you. If you see this message, you've successfully added your SSH key and you can move on. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/fbFCkYabZB) to ask for help.
 
+#### Step 2.6 (Optional)
+
+If you are using VScode and you want your commits to be signed (`-S`) while committing from the UI.
+Open Settings `Ctrl`+`,` by default, and search for “gpg”, check the “Enables commit signing with GPG” box.
+Alternatively you can add this line to your settings.json:
+```json
+"git.enableCommitSigning": true
+```
+
 ### Step 3: Let us know how it went!
 
 You've completed the basic installations section, good job! As you progress through the Paths there will be other tools to install, so keep an eye out!
