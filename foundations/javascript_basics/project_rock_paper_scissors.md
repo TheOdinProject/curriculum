@@ -12,10 +12,10 @@ Some of the student solutions below contain buttons, text, and other elements. T
 
 Since this is the first JavaScript project being built from scratch, it's important to remember the wise words from the [Problem Solving lesson](https://www.theodinproject.com/lessons/foundations-problem-solving). For each step in this project, be sure to do the following
 
-1. Plan or pseudocode your solution.
-1. Write the code.
-1. Test your code to make sure it works.
-
+1. Understand the problem
+2. Plan the solution.
+3. Pseudocode the solution.
+4. Divide & conquer (including coding the solution)
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
