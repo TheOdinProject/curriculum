@@ -166,4 +166,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Dive deeper into [act()](https://codilime.com/blog/why-should-you-be-grateful-for-act-warnings-in-react-tests/) and understand its most common warning and when act() is not nessesary.
+- Dive deeper into [act()](https://codilime.com/blog/why-should-you-be-grateful-for-act-warnings-in-react-tests/) and understand its most common warning and when act() is not necessary.
