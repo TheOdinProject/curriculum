@@ -26,7 +26,7 @@ Remember to commit early and often! To refresh your memory, check out the [commi
 
 1. Create a new Git repository for your project.
 1. Create a blank HTML document with a script tag.
-1. Check if the webpage includes JavaScript:
+1. Check if JavaScript is linked correctly:
    - Write `console.log("Hello World")` in JavaScript.
    - Check if "Hello World" is logged in the browser console once you open your webpage.
 
