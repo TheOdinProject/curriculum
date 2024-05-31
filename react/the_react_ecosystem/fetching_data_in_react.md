@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Before we dive into the specifics of fetching data in React, let's briefly revisit how we can use the fetch API to get data from a server.
 
-```js
+```javascript
 const image = document.querySelector("img");
 fetch("https://jsonplaceholder.typicode.com/photos", {
   mode: "cors",
@@ -139,8 +139,8 @@ const Image = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  if (error) return <p>A network error was encountered</p>;
   if (loading) return <p>Loading...</p>;
+  if (error) return <p>A network error was encountered</p>;
 
   return (
     <>
@@ -186,8 +186,8 @@ const useImageURL = () => {
 const Image = () => {
   const { imageURL, error, loading } = useImageURL();
 
-  if (error) return <p>A network error was encountered</p>;
   if (loading) return <p>Loading...</p>;
+  if (error) return <p>A network error was encountered</p>;
 
   return (
     <>

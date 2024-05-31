@@ -8,7 +8,7 @@ But it's important to keep in mind that this project is just to build your HTML 
 
 ### Setting up your project's GitHub repository
 
-As mentioned in the [introduction to Git](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
+As mentioned in the [Introduction to Git lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
@@ -33,13 +33,13 @@ If you are having trouble:
 
 - All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `odin-recipes` folder?).
 
-- Ensure you followed the steps [here on Step 2.3](/paths/foundations/courses/foundations/lessons/setting-up-git#step-2-configure-git-and-github) to clone from GitHub with SSH.
+- Ensure you followed the steps on how to [create an SSH key](https://www.theodinproject.com/lessons/foundations-setting-up-git#step-2-configure-git-and-github:~:text=Step%202.3%3A%20Create%20an%20SSH%20key) to clone from GitHub with SSH.
 
-- Refer to the [workflow](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) in the Git Basics Lesson.
+- Refer to the workflow in the [Git Basics lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics).
 
 #### Tips on when to commit
 
-Don't forget everything we went over in the [previous lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages) about commit messages!
+Don't forget everything we went over in the [Commit Messages lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
 
 When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to GitHub with `git push origin main`.
 
@@ -61,7 +61,7 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 #### Iteration 2:  recipe page
 
 1. Create a new directory within the `odin-recipes` directory and name it `recipes`.
-1. Create a new HTML file within the  `recipes` directory and name it after the recipe it will contain. For example `lasagna.html`. You can use the name of your favorite dish or, if you need some inspiration, you can [find a recipe to use here](https://www.allrecipes.com/).
+1. Create a new HTML file within the  `recipes` directory and name it after the recipe it will contain. For example `lasagna.html`. You can use the name of your favorite dish or, if you need some inspiration, you can find a recipe to use at [Allrecipes](https://www.allrecipes.com/).
 1. For now, just include an `h1` heading with the recipe's name as its content.
 1. Back in the `index.html` file, add a link to the recipe page you just created. Example: Under the `<h1>Odin Recipes</h1>` heading, write out the link like so: `<a href="recipes/recipename.html">Recipe Title</a>`. The text of the link should again be the recipe name.
 
@@ -69,7 +69,7 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 
 Your new recipe page should have the following content:
 
-1. An image of the finished dish under the h1 heading that you added earlier. You can find images of the dish on Google or the [recipe site](https://www.allrecipes.com/) we linked to earlier.
+1. An image of the finished dish under the h1 heading that you added earlier. You can find images of the dish on Google or [Allrecipes](https://www.allrecipes.com/).
 
 1. Under the image, it should have an appropriately sized "Description" heading followed by a paragraph or two describing the recipe.
 
@@ -125,5 +125,5 @@ Here is the answer:
 1. Your project should not look like that. Focus mainly on the requirements of the project.
 
 This applies for future projects too.
-For more information read [Part 5](https://dev.to/theodinproject/learning-code-f56) of [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
+For more information read ["Learning Code" from "Becoming a TOP Success Story"](https://dev.to/theodinproject/learning-code-f56).
 </div>

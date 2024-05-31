@@ -19,19 +19,25 @@ Valid div due to each tag being surrounded by blank lines.
 #### Custom section
 
 ```js
-console.log('This code block should flag an error as it uses "js" instead of "javascript".');
+console.log("This code block should flag an error as it uses "js" instead of "javascript".");
 ```
+
+~~~js
+console.log("The rule will still flag even if tilde delimiters are used");
+~~~
 
 ```javascript
-console.log('This code block is valid as it uses the appropriate full name.');
+console.log("This code block is valid as it uses the appropriate full name.");
 ```
 
-```md
+```markdown
 The rule catches the following languages, as they are they ones expected to be seen in this repo's files
 md => markdown
 rb => ruby
 js => javascript
 txt => text
+sh => bash
+yml => yaml
 ```
 
 ```rb
@@ -44,6 +50,22 @@ puts "Use the full name!"
 
 ```txt
 As does txt.
+```
+
+```yml
+description: This will flag
+```
+
+```yaml
+description: Unless you use the full name
+```
+
+```sh
+prefer --bash-over-sh
+```
+
+```bash
+like --this
 ```
 
 ```html
@@ -60,6 +82,18 @@ As does txt.
 ```jsx
 {isExempt && <p>No error here!</p>}
 ```
+
+````md
+```js
+console.log("Flags abbreviated names even with nested code blocks.");
+```
+````
+
+1. List item
+
+   ```js
+   console.log("Flags abbreviated names even with indented code blocks.");
+   ```
 
 ### Knowledge check
 

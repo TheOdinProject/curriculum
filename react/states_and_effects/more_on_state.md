@@ -54,7 +54,7 @@ function Person() {
 #### Objects and arrays in state
 
 In the above example, notice how we *create* a new object and then copy the existing state values into the new object while providing a new value for `age`.
-That is because if we don't provide a new object to `setState` it is not guaranteed to re-render the page. Therefore, we should always provide a new Object for `setState` to trigger a re-render. `setState` uses [Object.is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the previous state is the same.
+That is because if we don't provide a new object to `setState` it is not guaranteed to re-render the page. Therefore, we should always provide a new Object for `setState` to trigger a re-render. `setState` uses [Object.is()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the previous state is the same.
 
 As for nested objects and arrays, state can get tricky fast since you will have to copy the nested items as well. Be careful when using them.
 
@@ -107,7 +107,7 @@ The `person` state stays the same throughout the current render of the component
 
 #### The unexpected infinite loop
 
-The following is an infinite loop; can you guess why? Drop by in our [Discord chatroom](https://discord.com/invite/fbFCkYabZB), tell us why, and score a brownie point!
+The following is an infinite loop; can you guess why? Drop by in the [TOP Discord server](https://discord.gg/theodinproject), tell us why, and score a brownie point!
 
 ```jsx
 function Component() {
