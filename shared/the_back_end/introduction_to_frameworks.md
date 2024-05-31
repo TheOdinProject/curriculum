@@ -10,28 +10,28 @@ There are often several different popular frameworks for a given language.  They
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-*   What is a framework?
-*   What's the difference between a programming language and a framework?
+- What is a framework?
+- What's the difference between a programming language and a framework?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-  1.  Get introduced to frameworks by reading this brief article from [Dev.to](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0).
-  2.  Glance over [this article](https://rubygarage.org/blog/technology-stack-for-web-development) from RubyGarage or [this description](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks) from Mozilla's website to understand some of the thought process that goes into picking a framework.
+  1. Read through this brief [introduction to frameworks by Dev.to](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0).
+  1. Glance over [RubyGarage's article on tech stacks](https://rubygarage.org/blog/technology-stack-for-web-development) and [MDN's overview on backend frameworks](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks) to understand some of the thought process that goes into picking a framework.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-*   [What problems do frameworks solve?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks#what_can_a_web_framework_do_for_you)
-*   [Name some popular front-end and back-end frameworks.](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0)
-*   [Describe the process of choosing a framework.](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks#how_to_select_a_web_framework)
+- [What problems do frameworks solve?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks#what_can_a_web_framework_do_for_you)
+- [Name some popular front-end and back-end frameworks.](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0)
+- [Describe the process of choosing a framework.](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks#how_to_select_a_web_framework)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-*   It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

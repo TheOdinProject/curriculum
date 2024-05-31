@@ -342,6 +342,6 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Turbo Reference Information](https://turbo.hotwired.dev/reference/drive)
-- Check out this tutorial on [Turbo Frames and Turbo Stream](https://www.hotrails.dev/turbo-rails/turbo-frames-and-turbo-streams) to build a quotes editor.To get started right away, enter in command line `rails new quote-editor;rails scaffold g quotes` and in migration add `t.string :name` and then `rails db:migrate`.
+- Check out this tutorial on [Turbo Frames and Turbo Stream](https://www.hotrails.dev/turbo-rails/turbo-frames-and-turbo-streams) to build a quotes editor.To get started right away, enter in command line `rails new quote-editor;cd quote-editor;rails g scaffold quote name:string` and then `rails db:migrate`.
 - [Official Hotwire Forums](https://discuss.hotwired.dev/)
 - Remember you can use your browser developer tools to [watch network activity](https://developer.chrome.com/docs/devtools/network/) and see what is happening with your Turbo requests and responses. If something doesn't work, check to see if your browser received a Rails error message. Look for a red font.

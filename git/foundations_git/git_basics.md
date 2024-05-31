@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Create the repository
 
-1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting Up Git](https://www.theodinproject.com/lessons/foundations-setting-up-git) lesson. 
+1. <span id="new-github-repo"></span>You should have already created a GitHub account in the [Setting Up Git](https://www.theodinproject.com/lessons/foundations-setting-up-git) lesson.
 
 1. Create a new repository by clicking the button shown in the screenshot below.
 
@@ -128,9 +128,13 @@ Finally, let's upload your work to the GitHub repository you created at the star
 
 </div>
 
-#### Note/Warning
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Avoid editing directly on GitHub
 
 When trying to make quick changes to the files in your repo, such as attempting to fix a typo in your README.md you might be tempted to make this change directly via Github. However, it is best to avoid this as it will cause issues that require more advanced Git knowledge than we want to go over at this stage (it is covered in a future lesson), for now it is advised to make any changes via your local files then commit and push them using Git commands in your terminal once ready.
+
+</div>
 
 #### Cheatsheet
 

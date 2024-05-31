@@ -9,6 +9,7 @@ If you get totally stuck, drop by and ask for help in [our Discord server](https
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 Don't forget to commit early and often! You can reference the [Commit Messages lesson](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/commit-messages)!
 
 1. Follow our instructions on [setting up your project's GitHub repository](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes#setting-up-your-projects-github-repository).
@@ -40,8 +41,9 @@ Don't forget to commit early and often! You can reference the [Commit Messages l
 Transform the behavior of a square when interacting with the mouse by introducing a series of modifications.
 
 1. Rather than squares being the same color throughout the grid, randomize the squares' RGB values with each interaction.
-1. Additionally, implement a progressive darkening effect where each interaction darkens the square by 10%. The objective is to achieve a completely black square only ten interactions.
+1. Additionally, implement a progressive darkening effect where each interaction darkens the square by 10%. The objective is to achieve a completely black square in only ten interactions.
     - **Hint**: The opacity CSS property is useful here. To learn how to use it, check this [MDN docs article about the opacity CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity).
 
 You can choose to do either one or both of these challenges, it's up to you.
+
 </div>
