@@ -163,6 +163,12 @@ You'll also likely want to set your default branch reconciliation behavior to me
 git config --global pull.rebase false
 ```
 
+The default text editor for Git is `vim`, which is a terminal based editor with a learning curve. Instead, set Visual Studio Code as your text editor:
+
+```bash
+git config --global core.editor "code --wait"
+```
+
 To verify that things are working properly, enter these commands and verify whether the output matches your name and email address.
 
 ```bash
