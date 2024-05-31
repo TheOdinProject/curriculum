@@ -23,7 +23,6 @@ A list of portfolios of professional developers. Students should analyze these s
   * [Stratis Bakas](https://stratisbakas.com/)
   * [Matt Farley](https://mattfarley.ca/)
   * [Dejan Markovic](https://www.dejan.works/)
-  * [Rafael Caferati](https://caferati.me/)
   * [Ian Lunn](https://ianlunn.co.uk/)
   * [Ben Adam](https://benadam.me/)
   * [Seb Kay](https://sebkay.com/)
