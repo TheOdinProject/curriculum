@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 - Set up a basic Express server.
 - Describe how an incoming request is processed and ultimately responded to by the server.
 - Describe what a middleware function is.
-- Describe how to use `nodemon` to automatically restart your application when a change is made.
+- Describe how to automatically restart your application when a change is made.
 
 ### Setting up Express
 
