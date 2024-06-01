@@ -22,6 +22,10 @@ Valid div due to each tag being surrounded by blank lines.
 console.log("This code block should flag an error as it uses "js" instead of "javascript".");
 ```
 
+~~~js
+console.log("The rule will still flag even if tilde delimiters are used");
+~~~
+
 ```javascript
 console.log("This code block is valid as it uses the appropriate full name.");
 ```
@@ -84,6 +88,12 @@ like --this
 console.log("Flags abbreviated names even with nested code blocks.");
 ```
 ````
+
+1. List item
+
+   ```js
+   console.log("Flags abbreviated names even with indented code blocks.");
+   ```
 
 ### Knowledge check
 

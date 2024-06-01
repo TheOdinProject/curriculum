@@ -18,6 +18,12 @@ Assignment section
 
 #### Custom section
 
+```html
+<p>
+    The following  &lt;/p&gt; should be ignored by this rule as it does not belong to a codepen embed.
+</p>
+```
+
 [Markdown links are desired in most cases](#custom-section)
 
 <a href="#custom-section">Link should flag as we should be using a markdown link instead</a>.

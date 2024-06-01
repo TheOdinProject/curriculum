@@ -14,21 +14,24 @@ module.exports = {
   description:
     "Links used to navigate to external content or other landmarks in the page should use markdown links instead of HTML anchor tags.",
   tags: ["links", "html"],
+  parser: "markdownit",
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP007.md"
   ),
   function: function TOP007(params, onError) {
-    const fencesLineRanges = params.tokens
+    const fencesLineRanges = params.parsers.markdownit.tokens
       .filter((token) => token.type === "fence")
       .map((token) => token.map);
 
     const codepenLineRanges = params.lines.reduce((lineRanges, currentLine, index) => {
-      const range = [];
       const lineNumber = index + 1;
-      if (currentLine.includes('class="codepen"')) {
-        range.push(lineNumber);
-        lineRanges.push(range);
-      } else if (currentLine.trim().startsWith("</p>")) {
+      const isCodepenOpeningTag = currentLine.includes('class="codepen"');
+      const isCodepenClosingTag =
+        currentLine.trim().startsWith("</p>") && lineRanges.at(-1)?.length < 2;
+
+      if (isCodepenOpeningTag) {
+        lineRanges.push([lineNumber]);
+      } else if (isCodepenClosingTag) {
         lineRanges.at(-1).push(lineNumber);
       }
 

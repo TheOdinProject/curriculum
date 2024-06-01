@@ -52,12 +52,12 @@ main div {
 But what if we wanted to be more specific and <span id="childvdesc-knowledge-check">select *only* the `child` or `grand-child` divs?</span> That's where the child combinator `>` comes in handy. Unlike the descendant combinator, it will only select direct children.
 
 ```css
-/* This rule will only select divs with a class of child */
+/* This rule will only select the divs with the class child */
 main > div {
   /* Our cool CSS */
 }
 
-/* This rule will only select divs with a class of grand-child */
+/* This rule will only select the divs with the class grand-child */
 main > div > div {
   /* More cool CSS */
 }
@@ -77,7 +77,7 @@ Phrased another way, the child selector will select an element that is one level
 }
 ```
 
-Finally, if we want to select all of the siblings following an element's and not just the first one, we can use the general sibling combinator `~`.
+Finally, if we want to select all of the siblings following an element and not just the first one, we can use the general sibling combinator `~`.
 
 ```css
 /* This rule will select all of .group1's siblings - in this case the 2nd and 3rd .child divs */
