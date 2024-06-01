@@ -340,7 +340,7 @@ Unless you are regularly using other terminals on your computer we recommend tha
 - Open Windows Terminal by searching for terminal in your applications.
 - Click the dropdown next to the new tab button (at the top of the windows), and select Settings.
 - You should see a Default Profile option with a dropdown next to it.
-- In the dropdown select Ubuntu.
+- In the dropdown select Ubuntu(the one with the penguin icon).
 - Click save at the bottom of the page.
 
 ### Step 2 Opening WSL2
