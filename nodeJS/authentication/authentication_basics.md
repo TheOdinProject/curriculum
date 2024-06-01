@@ -38,7 +38,7 @@ Next, let's set up a very minimal express app. Create a new directory and use `n
 npm install express express-session pg passport passport-local ejs
 ```
 
-<div class="lesson-note lesson-note--tip" markdown="1">
+<div class="lesson-note lesson-note--warning" markdown="1">
 
 #### Securing passwords
 
@@ -284,6 +284,8 @@ app.get("/log-out", (req, res, next) => {
 
 You should now be able to visit `/sign-up` to create a new user, then log in using that user's username and password, and then log out by clicking the log out button!
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
 #### A quick tip
 
 In express, you can set and access various local variables throughout your entire app (even in views) with the `locals` object. We can use this knowledge to write ourselves a custom middleware that will simplify how we access our current user in our views.
@@ -298,6 +300,9 @@ app.use((req, res, next) => {
 ```
 
 If you insert this code somewhere between where you instantiate the passport middleware and before you render your views, you will have access to the `currentUser` variable in all of your views, and you won't have to manually pass it into all of the controllers in which you need it.
+
+</div>
+
 
 ### Securing passwords with bcrypt
 
