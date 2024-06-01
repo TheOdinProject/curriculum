@@ -104,7 +104,7 @@ Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which re
   GROUP BY users.id;
 ```
 
-See [W3 Schools' article](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and play around with the SQL in the window (try deleting the `GROUP BY` line) for an interactive visual.
+See [W3Schools' browser-based SQL playground](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) (try deleting the `GROUP BY` line) for an interactive visual.
 
 The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  <span id='having-function'>So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates</span>.  So say you only want to display users who have written more than 10 posts:
 
@@ -116,7 +116,7 @@ The last nifty trick is if you want to only display a subset of your data.  In a
   HAVING posts_written >= 10;
 ```
 
-Try going back to [the W3 Schools' example](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and joining the `Customers` and the `Orders` tables to get the number of orders in each country and adding the line `HAVING COUNT(*) > 10;` after `GROUP BY` (and delete the extra semicolon in the previous line).
+Try going back to [W3Schools' browser-based SQL playground](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and joining the `Customers` and the `Orders` tables to get the number of orders in each country and adding the line `HAVING COUNT(*) > 10;` after `GROUP BY` (and delete the extra semicolon in the previous line).
 
 You probably got lost somewhere in the above explanation and that's just fine... it's covering way more stuff than anyone can pick up in 10 minutes.  The assigned reading will do a better job of explaining things but, more importantly, you'll get plenty of opportunities to solidify your understanding by applying it in the project.  If you've still got blind spots, check out the Additional Resources section below.  Fear not and stick with it!
 
@@ -130,9 +130,9 @@ SQL is built to be fast.  It has a special query optimizer which takes a look at
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Go through this interactive SQL tutorial from [SQL Teaching](https://www.sqlteaching.com/)
-  1. Go through this more in-depth interactive SQL tutorial from [SQL Bolt](http://sqlbolt.com)
-  1. Go through the basics at [Part 1](https://www.sqlcourse.com/beginner-course/) and the advanced at [Part 2](https://www.sqlcourse.com/advanced-course/) of SQL Course
+  1. Go through this [interactive SQL tutorial from SQL Teaching](https://www.sqlteaching.com/).
+  1. Go through this more in-depth [interactive SQL tutorial from SQL Bolt](http://sqlbolt.com/).
+  1. Go through [SQLCourse's beginner course](https://www.sqlcourse.com/beginner-course/) then [SQLCourse's advanced course](https://www.sqlcourse.com/advanced-course/).
 
 </div>
 
