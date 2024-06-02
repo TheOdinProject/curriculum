@@ -21,7 +21,9 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
 2. Create your new `members-only` Rails app and GitHub repo.  Update your README.
 3. Add devise to your Gemfile and install it in your app using set up instructions on the devise [README](https://github.com/heartcombo/devise)
 
-*note: For getting Devise to play nicely with Turbo Drive, be sure you read [this section](https://github.com/heartcombo/devise#hotwireturbo) of the Devise README. You’ll need to install the [Responders gem](https://github.com/heartcombo/responders). Make sure that in addition to adding the gem to your Gemfile that you also run the install generator. You’ll also need to specify delete requests on your links/buttons for signing the user out. More detailed information can be found in [Devise’s Guide for Hotwire Turbo Integration](https://github.com/heartcombo/devise/wiki/How-To:-Upgrade-to-Devise-4.9.0-%5BHotwire-Turbo-integration%5D).*
+<div class="lesson-note lesson-note--tip" markdown="1">
+For getting Devise to play nicely with Turbo Drive, be sure you read [this section](https://github.com/heartcombo/devise#hotwireturbo) of the Devise README. You’ll need to install the [Responders gem](https://github.com/heartcombo/responders). Make sure that in addition to adding the gem to your Gemfile that you also run the install generator. You’ll also need to specify delete requests on your links/buttons for signing the user out. More detailed information can be found in [Devise’s Guide for Hotwire Turbo Integration](https://github.com/heartcombo/devise/wiki/How-To:-Upgrade-to-Devise-4.9.0-%5BHotwire-Turbo-integration%5D).*
+</div>
 
 #### Authentication and posts
 
