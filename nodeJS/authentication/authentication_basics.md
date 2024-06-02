@@ -20,7 +20,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Set up
 
-Before we start, create a new database or use your existing one that you've created in the Using PostgreSQL lesson.
+Before we start, create a new database within `psql`.
 
 To begin, let's set up a `users` table. So instead of `usernames` we will create a `users` table.
 
