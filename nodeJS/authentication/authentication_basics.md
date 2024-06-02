@@ -356,6 +356,7 @@ You should now be able to log in using the new user you've created (the one with
    - You may notice at some points in the videos, the Express app contains the line `app.use(passport.initialize())`. This line is no longer required to include in current versions of Passport.
    - They are using MongoDB and you can replace any instance of it with PostgreSQL.
    - In [video 3: "Your complete guide to understanding the express-session library"](https://youtu.be/J1qXK66k1y4?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK) and [video 5: "Passport Local Configuration (Node + Passport + Express)"](https://youtu.be/xMEOT9J0IvI?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK), it shows using the `connect-mongo` library to use your MongoDB connection to store sessions, as opposed to storing them in memory. However, since we are using PostgreSQL, we need to replace it with a library called `connect-pg-simple` instead. You can view the implementation for doing this on the [npm page for connect-pg-simple](https://www.npmjs.com/package/connect-pg-simple).
+   - Do note that the table needed to be used for the session store is not automatically created by default, be sure to check the available options in their npm page.
 1. In [Passport: The Hidden Manual](https://github.com/jwalton/passport-api-docs), you can explore more comprehensive explanations of some of Passport's main functions, gaining a deeper understanding of what each function accomplishes.
 
 </div>
