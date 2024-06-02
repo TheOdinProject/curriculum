@@ -37,4 +37,4 @@ This section contains helpful links to related content. It isn’t required, so 
 
 - [This FreeCodeCamp article](https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/) goes into a little more depth than the assigned one. It covers things we'll be teaching explicitly in later lessons though, so don't worry about memorizing any of the details.
 
-- Bookmark [DevDocs.io](https://devdocs.io). Read the “Welcome” message. Massive API documentation collection that even works offline. An essential collection of reference material for everything covered and more. (Maintained by [FreeCodeCamp](https://freecodecamp.org))
+- Save [DevDocs.io](https://devdocs.io) as a bookmark for future reference. It's a massive API documentation collection maintained by [FreeCodeCamp](https://freecodecamp.org). Read the 'Welcome' message for more information. 
