@@ -37,15 +37,15 @@ If you were to take some valid HTML and copy it straight into your React compone
 
    ```jsx
    function App() {
+     // Could replace <></> with <div></div>
      return (
        <>
          <h1>Example h1</h1>
          <h2>Example h2</h2>
        </>
-       // Could replace <></> with <div></div>
      );
    }
-   ```
+    ```
 
    Incorrect:
 
@@ -74,7 +74,7 @@ If you were to take some valid HTML and copy it straight into your React compone
          <li></li>
        </>
      );
-   }
+    }
    ```
 
    Incorrect:
@@ -99,11 +99,11 @@ If you were to take some valid HTML and copy it straight into your React compone
    ```jsx
    function App() {
      return (
-      <div className="container">
-        <svg>
-          <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
-        </svg>
-      </div>
+     <div className="container">
+       <svg>
+         <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
+       </svg>
+     </div>
      );
    }
    ```
@@ -113,11 +113,11 @@ If you were to take some valid HTML and copy it straight into your React compone
    ```jsx
    function App() {
      return (
-      <div class="container">
-        <svg>
-          <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
-        </svg>
-      </div>
+       <div class="container">
+         <svg>
+           <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
+         </svg>
+       </div>
      );
    }
    ```
@@ -128,15 +128,12 @@ Now that we've covered the Rules of JSX, we'll go through the conversion of a ch
 
 ```jsx
 <h1>Test title</h1>
-<ol class="test-list">
-  <li>List item 1
-  <li>List item 2
-  <li>List item 3
-</ol>
 <svg>
-   <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
+  <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
 </svg>
-<form><input type="text"></form>
+<form>
+  <input type="text">
+</form>
 ```
 
 If you try to return this from a React component, you would get many errors, so we are going to fix that!
@@ -148,30 +145,22 @@ The first issue we get is that this would not return a single root element, so l
 ```jsx
 <div>
   <h1>Test title</h1>
-  <ol class="test-list">
-    <li>List item 1
-    <li>List item 2
-    <li>List item 3
-  </ol>
   <svg>
-     <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
+    <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
   </svg>
-  <form><input type="text"></form>
+  <form>
+    <input type="text">
+  </form>
 </div>
 ```
 
 You should see that another error appears now that we've fixed the initial one. This doesn't mean we created the error with our previous changes, just that React wasn't showing this one yet.
 
-Now, onto the second issue, which is that we haven't closed all of our tags, in particular, the `<li>` and the `<input>`.
+Now, onto the second issue, which is that we haven't closed the `<input>` tag.
 
 ```jsx
 <div>
   <h1>Test title</h1>
-  <ol class="test-list">
-    <li>List item 1</li>
-    <li>List item 2</li>
-    <li>List item 3</li>
-  </ol>
   <svg>
     <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
   </svg>
@@ -183,16 +172,11 @@ Now, onto the second issue, which is that we haven't closed all of our tags, in 
 
 If you are following along, at this point you will stop seeing an error being rendered on-screen, this time it will be in the console.
 
-The last issue is that we haven't camelCased our attributes, and so are using invalid DOM properties for JSX, specifically the `class` and the `stroke-width`.
+The last issue is that we haven't camelCased our attributes, and so are using invalid DOM properties for JSX, specifically the `stroke-width`.
 
 ```jsx
 <div>
   <h1>Test title</h1>
-  <ol className="test-list">
-    <li>List item 1</li>
-    <li>List item 2</li>
-    <li>List item 3</li>
-  </ol>
   <svg>
     <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
   </svg>
@@ -220,10 +204,10 @@ In the following lessons, you will spend some time reading the React documentati
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#what-is-jsx">What is JSX?</a>
-- <a class="knowledge-check-link" href="#why-do-we-use-jsx">Why do we use JSX?</a>
-- <a class="knowledge-check-link" href="#rules-of-jsx">What are the three rules of JSX?</a>
-- <a class="knowledge-check-link" href="https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces#using-curly-braces-a-window-into-the-javascript-world">How do you reference a dynamic value inside of your JSX?</a>
+- [What is JSX?](#what-is-jsx)
+- [Why do we use JSX?](#why-do-we-use-jsx)
+- [What are the three rules of JSX?](#rules-of-jsx)
+- [How do you reference a dynamic value inside of your JSX?](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces#using-curly-braces-a-window-into-the-javascript-world)
 
 ### Additional resources
 

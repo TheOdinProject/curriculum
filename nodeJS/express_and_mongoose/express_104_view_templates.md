@@ -1,6 +1,6 @@
 ### Introduction
 
-This lesson is fun! You'll be setting up several views, and you'll start to see your Application come together. We'll finally get to see our data showing up in the browser!  This is a long lesson that is broken up into several sub-lessons, so make sure you click through to see them all.
+This lesson is fun! You'll be setting up several views, and you'll start to see your Application come together. We'll finally get to see our data showing up in the browser! This is a long lesson that is broken up into several sub-lessons, so make sure you click through to see them all.
 
 ### Lesson overview
 
@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Complete part 5 of [the MDN Express tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data).
+1. Complete ["Part 5: Displaying library data"](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data) of the Local Library tutorial.
 
 </div>
 

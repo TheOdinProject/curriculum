@@ -13,11 +13,11 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Static and relative positioning
 
-The default positioning mode that you've gotten used to is ``position: static``. The difference between static and relative is fairly simple. Static is the default position of every element, and properties ``top``, ``right``, ``bottom``, and ``left`` do not affect the position of the element. Relative on the other hand is pretty much the same as static, but properties  ``top``, ``right...(etc.)`` displace the element relative to its normal position in the flow of the document.
+The default positioning mode that you've gotten used to is `position: static`. The difference between static and relative is fairly simple. Static is the default position of every element, and properties `top`, `right`, `bottom`, and `left` do not affect the position of the element. Relative on the other hand is pretty much the same as static, but properties `top`, `right...(etc.)` displace the element relative to its normal position in the flow of the document.
 
 ### Absolute positioning
 
-``position: absolute`` allows you to position something at an exact point on the screen without disturbing the other elements around it. More specifically, using absolute positioning on an element will remove that element from the normal document flow while being positioned relative to an ancestor element. To put it in other words: elements that are removed from the normal flow of the document don't affect other elements and are also not affected by other elements. Using absolute positioning allows you to position elements anywhere on the screen using  ``top``, ``right``, ``bottom``, and ``left`` properties. This property is really useful when you want to position something at an exact point on the screen, without disturbing any of the other elements. A couple of good use cases for absolute positioning are:
+`position: absolute` allows you to position something at an exact point on the screen without disturbing the other elements around it. More specifically, using absolute positioning on an element will remove that element from the normal document flow while being positioned relative to an ancestor element. To put it in other words: elements that are removed from the normal flow of the document don't affect other elements and are also not affected by other elements. Using absolute positioning allows you to position elements anywhere on the screen using `top`, `right`, `bottom`, and `left` properties. This property is really useful when you want to position something at an exact point on the screen, without disturbing any of the other elements. A couple of good use cases for absolute positioning are:
 
 - modals
 - image with a caption on it
@@ -27,9 +27,9 @@ In the following example, we are using absolute positioning to display text over
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="poWyWeJ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/poWyWeJ">
-  Absolute Position | CSS Positioning</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/poWyWeJ">
+Absolute Position | CSS Positioning</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
 
@@ -39,7 +39,7 @@ Disclaimer: absolute positioning has very specific use cases and if possible, us
 
 ### Fixed positioning
 
-Fixed elements are also removed from the normal flow of the document and are positioned relative to the ``viewport``. You basically use  ``top``, ``right``, ``bottom``, and ``left`` properties to position it, and it will stay there as the user scrolls. This is especially useful for things like navigation bars and floating chat buttons.
+Fixed elements are also removed from the normal flow of the document and are positioned relative to the `viewport`. You basically use `top`, `right`, `bottom`, and `left` properties to position it, and it will stay there as the user scrolls. This is especially useful for things like navigation bars and floating chat buttons.
 
 ### Sticky positioning
 
@@ -69,3 +69,4 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Understand the CSS Position Property With Practical Examples](https://www.makeuseof.com/css-position-property-practical-examples/) provides some different CSS methods for positioning elements.
+- You can check out this helpful video resource on [CSS positioning from Slaying the Dragon](https://www.youtube.com/watch?v=MxEtxo_AaZ4&t=2s) for clear explanations and practical examples.

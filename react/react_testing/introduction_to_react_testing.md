@@ -26,13 +26,7 @@ Now that we have everything we need, let's briefly go over what some of those pa
 
 - `@testing-library/jest-dom` includes some handy custom matchers (assertive functions) like `toBeInTheDocument` and more. (complete list on [jest-dom's github](https://github.com/testing-library/jest-dom)). Jest already has a lot of matchers so this package is not compulsory to use.
 
-- <span id="user-event">`@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage.</span> Alternatively, we could import the `fireEvent` API from `@testing-library/react`.
-
-  <div class="lesson-note" markdown="1">
-
-  `fireEvent` is an inferior counterpart to `userEvent` and `userEvent` should always be preferred in practice.
-
-  </div>
+- <span id="user-event">`@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage.</span>
 
 ### Our first query
 
@@ -162,6 +156,7 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 <div class="lesson-content__panel" markdown="1">
 
+1. [Testing Implementation Details](https://kentcdodds.com/blog/testing-implementation-details) by Kent C. Dodds shows us how we can reduce false test results and inflexible tests by avoiding testing the implementation of things. Note that while it starts with examples using the Enzyme testing library, the concepts are the primary focus.
 1. Take a glance at all of the available query methods on [the React Testing Library's cheatsheet page](https://testing-library.com/docs/dom-testing-library/cheatsheet/). There's no need to use them all, but it's optimal to employ a specific method for a specific query. If none of the query methods suffice, there's an option to use test ids. Learn about test ids on [the React Testing Library's test id docs](https://testing-library.com/docs/queries/bytestid/).
 1. Read [the userEvent API docs](https://testing-library.com/docs/user-event/intro) to get a feel of how to achieve user simulation.
 1. This article on the [Pros and Cons of Snapshot Tests](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the advantages and disadvantages of snapshot testing. Even though the articles use Jest, the concepts should be transferrable. And this one, [Snapshot Testing: Benefits and Drawbacks](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks), does an excellent job of explaining what snapshot testing is for programming in general.
