@@ -303,7 +303,6 @@ If you insert this code somewhere between where you instantiate the passport mid
 
 </div>
 
-
 ### Securing passwords with bcrypt
 
 Now, let's go back and learn how to securely store user passwords so that if anything ever goes wrong, or if someone gains access to our database, our user passwords will be safe.  This is *insanely* important, even for the most basic apps.
