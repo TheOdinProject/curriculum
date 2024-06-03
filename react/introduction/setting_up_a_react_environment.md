@@ -81,9 +81,17 @@ Congratulations! You've created your first React app.
 
 To link your local project directory to a GitHub repo, create a new **empty** repo on GitHub then follow the instructions in the new repo's page to initialize and set a remote in your local project directory.
 
-<div class="lesson-note lesson-note--tip" markdown=1>
+<div class="lesson-note lesson-note--tip" markdown="1">
 
-As you might've noticed by now, you can replace `my-first-react-app` with the name of your project.
+#### Using an existing repo
+
+Alternatively, if you created a GitHub repo already and cloned it, you can `cd` into your cloned repo then run the above Vite command, using `.` as the project name:
+
+```bash
+npm create vite@latest . -- --template react
+```
+
+This will tell Vite to use the current directory for the project, instead of creating a new directory with the given project name. This cloned directory will already be initialized as a git repo and connected to the right remote.
 
 </div>
 
