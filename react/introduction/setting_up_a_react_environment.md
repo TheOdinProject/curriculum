@@ -79,6 +79,8 @@ Provided everything has gone according to plan, head over to `localhost:5173`, w
 
 Congratulations! You've created your first React app.
 
+To link your local project directory to a GitHub repo, create a new **empty** repo on GitHub then follow the instructions in the new repo's page to initialize and set a remote in your local project directory.
+
 <div class="lesson-note lesson-note--tip" markdown=1>
 
 As you might've noticed by now, you can replace `my-first-react-app` with the name of your project.
