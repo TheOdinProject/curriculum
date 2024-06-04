@@ -287,3 +287,5 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - In general, the React documentation on [thinking in react](https://reactjs.org/docs/thinking-in-react.html) is a really good place to look into, if you want more practice with class-based components, from scratch.
+
+- A crash course on youtube by Traversy Media https://www.youtube.com/watch?v=LDB4uaJ87e0&t=2613s.
