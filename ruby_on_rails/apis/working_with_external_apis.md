@@ -89,9 +89,9 @@ See [this brief overview of OAuth 2.0](http://tutorials.jenkov.com/oauth2/overvi
 
 This sounds horribly complicated! Someone must have made a gem for it...
 
-Luckily someone has.  Many someones, actually.  There is a generic OAuth gem called `omniauth` (docs available [on GitHub](https://github.com/intridea/omniauth)) and then a separate gem which provides a specific authentication strategy for every major API (see the list [HERE](https://github.com/intridea/omniauth/wiki/List-of-Strategies)).  Once you've gone through things with one of them, you'll become comfortable with all of them.
+Luckily someone has.  Many someones, actually.  There is a generic OAuth gem called `omniauth` (docs available [on GitHub](https://github.com/intridea/omniauth)) and then a separate gem which provides a specific authentication strategy for every major API (see the list [HERE](https://github.com/intridea/omniauth/wiki/List-of-Strategies)).  Once you've gone through things with one of them, you'll become comfortable with all of them. It's also worth noting that if you install and use [Devise](https://github.com/heartcombo/devise) (to handle your user model, for example), it comes with support for Omniauth built in! Refer to the [documentation](https://github.com/heartcombo/devise/wiki/OmniAuth%3A-Overview) for details.
 
-We'll leave it to the projects to walk through using Omniauth since it's much easier to learn by doing than reading a bunch of bullet points.
+Using Omniauth is much easier to learn by doing than reading a bunch of bullet points. You'll have the opportunity to implement it in your final project where you can ask questions if needed.
 
 ### SDKs
 
