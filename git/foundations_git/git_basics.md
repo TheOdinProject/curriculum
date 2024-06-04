@@ -30,7 +30,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. Give your repository the name "git_test" in the repository name input field. Check "Add a README file". And then create the repository by clicking the "Create repository" button at the bottom of the page.
 
-1. This will redirect you to your new repository on GitHub. To get ready to copy (clone) this repository onto your local machine, click the green "Code" button which should be below and to the right of your repository name. Then select the SSH option in the "Clone" section, and copy the line below it. **NOTE: You MUST click the SSH option to get the correct URL.**
+1. This will redirect you to your new repository on GitHub. To get ready to copy (clone) this repository onto your local machine, click the green "Code" button, which should be to the right of the button displaying the current branch (typically it will display the *main* branch). Then select the SSH option in the "Clone" section, and copy the line below it. **NOTE: You MUST click the SSH option to get the correct URL.**
 
 1. Let's use the command line on your local machine to create a new directory for all of your Odin projects. Create a directory called `repos` with the `mkdir` command in your home folder. Your home folder is represented by `~`. Note that depending on your OS, there may be some [home directory variation](https://swcarpentry.github.io/shell-novice/02-filedir.html#home-directory-variation) - sometimes `~` stands for `/Users/your_username` and sometimes it stands for `/home/your_username`. If you're not sure if you're in your home folder, just type `cd ~`. Once it's made, move into it with the `cd` command.
 
