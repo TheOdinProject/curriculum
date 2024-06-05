@@ -58,7 +58,7 @@ You'll have an opportunity to dig into particulars of the Ruby Style Guide soon 
 
 <span id="install-rubocop">As mentioned earlier, RuboCop is a Gem and the project we want to investigate is Caesar Cipher. Go back and install RuboCop locally (as in, use Bundler)</span> and <span id="cli-rubocop">then run `bundle exec rubocop` in your terminal.</span> Running it like this makes sure that the local version of RuboCop is used and it will check all the files in the current working directory *and* its subdirectories. In short: everything.
 
-Whoah! Well, at least for me - perhaps you're a savant and a Ruby Style natural, in that case, here's some example output:
+Whoa! Well, at least for me - perhaps you're a savant and a Ruby Style natural, in that case, here's some example output:
 
 ```bash
 Inspecting 2 files
