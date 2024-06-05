@@ -21,7 +21,7 @@ npm install --save prop-types
 
 Next, we want to import the PropTypes package in the component whose props we want to validate.
 
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 ```
 
@@ -29,7 +29,7 @@ import PropTypes from 'prop-types';
 
 Here is a very basic example of how we would use it in a component that renders out a name prop.
 
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -46,7 +46,7 @@ export default RenderName;
 
 In this example, the component RenderName expects to receive a prop called `name` which is a string. If this prop is not a string, a warning will be displayed. If you want to make sure a prop is being passed in, use isRequired like so:
 
-```javascript
+```jsx
 RenderName.propTypes = {
   name: PropTypes.string.isRequired,
 }
@@ -56,7 +56,7 @@ RenderName.propTypes = {
 
 Another cool thing we can do in combination with PropTypes is passing in default props:
 
-```javascript
+```jsx
 import React from 'react';
 import PropTypes from 'prop-types';
 
