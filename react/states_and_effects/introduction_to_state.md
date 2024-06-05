@@ -31,7 +31,7 @@ An app that changes its background color based on the clicked button. Take your 
 
 State definition with `useState` commonly follows this pattern:
 
-```javascript
+```jsx
 const [stateValue, setStateValue] = useState(initialValue);
 
 // adapted for our use case:
