@@ -77,11 +77,20 @@ Third, there's a really handy shortcut for opening everything within a project d
 
 <div class="lesson-content__panel" markdown="1">
 
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+
+Some of the following resources assume you have a Desktop folder located in your system. If, however, you do not have one located anywhere in your system, then please do the following: Open your terminal and make sure you're located in the home directory by typing `cd ~` into your command line. Then, type `mkdir Desktop` and press `enter`. To ensure your command worked, type `ls` and check if your Desktop folder is shown amongst your other directories. 
+
+</div>
+
 <div class="lesson-note" markdown="1">
 
 **Note for WSL2 users**: You will have to use the `wget` command along with the link given in the `Download files` section in order to have the zip file in your WSL2 installation (`wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip`). You will also have to install unzip by using the command `sudo apt install unzip` and then `unzip shell-lesson-data.zip` to unzip the file. Keep in mind that throughout the course linked in the first step below, your terminal output may look slightly different to what is shown in the lessons. Anytime the course asks you to go to the Desktop, you will instead be going to the home directory which can be done by using the cd command (`cd ~`).
 
 </div>
+
+
 
 <div class="lesson-note lesson-note--warning" markdown=1>
 
