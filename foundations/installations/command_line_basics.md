@@ -71,7 +71,7 @@ Third, there's a really handy shortcut for opening everything within a project d
 
 - **macOS**: Some setup is required. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
 
-- **WSL2**: Opening up VSCode from the command line in WSL2 is just as easy as it is in Linux. Just enter `code` which will open VSCode in WSL2.
+- **WSL2**: Opening up VSCode from the command line in WSL2 is just as easy as it is in Linux. Just enter `code`, which will open VSCode in WSL2.
 
 ### Assignment
 
