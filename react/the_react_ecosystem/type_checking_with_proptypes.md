@@ -21,7 +21,7 @@ npm install --save prop-types
 
 Next, we want to import the PropTypes package in the component whose props we want to validate.
 
-```jsx
+```javascript
 import PropTypes from 'prop-types';
 ```
 
@@ -46,7 +46,7 @@ export default RenderName;
 
 In this example, the component RenderName expects to receive a prop called `name` which is a string. If this prop is not a string, a warning will be displayed. If you want to make sure a prop is being passed in, use isRequired like so:
 
-```jsx
+```javascript
 RenderName.propTypes = {
   name: PropTypes.string.isRequired,
 }
@@ -98,9 +98,9 @@ Learning TypeScript can be a lot of overhead when you’re already learning Reac
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#using-proptypes">How would we set up a basic implementation of PropTypes?</a>
-- <a class="knowledge-check-link" href="#using-defaultprops">If we pass in a prop to a component that has a defaultProp defined, what would happen?</a>
-- <a class="knowledge-check-link" href="https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application">What is the difference between PropTypes and TypeScript?</a>
+- [How would we set up a basic implementation of PropTypes?](#using-proptypes)
+- [If we pass in a prop to a component that has a defaultProp defined, what would happen?](#using-defaultprops)
+- [What is the difference between PropTypes and TypeScript?](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application)
 
 ### Additional resources
 
