@@ -53,7 +53,7 @@ A text input looks like this:
 
 Text inputs accept any text input. For example, you would use it to collect things like users' first and last names.
 
-**Labels**
+#### Labels
 
 An input on its own isn't very useful since the user will not know what kind of data they are supposed to provide. Instead, we can give our inputs a label to inform users what type of data they are expected to enter.
 
@@ -70,7 +70,7 @@ Labels accept a `for` attribute, which associates it with a particular input. Th
 
 When a label is associated with an input and is clicked, it will focus the cursor on that input, ready for the user to input some data. This helps make our forms more accessible to users who rely on assistive technologies.
 
-**Placeholder attribute**
+#### Placeholder attribute
 
 To guide users on what to enter in form elements, we can include placeholder text in input fields.
 
@@ -118,7 +118,7 @@ The output we care about from the response is the "form" object. It should look 
 
 Try changing the `name` attributes of some of the input fields in the form and removing the attribute entirely, then submit the form again to see how the form data in the response changes.
 
-**Using form controls outside of forms**
+#### Using form controls outside of forms
 
 It's worth mentioning that you can use any of the form controls HTML provides outside of the `<form>` element, even when you don't have a backend server where you can send data.
 
@@ -133,7 +133,7 @@ For example you might want to have an input that gets some data from a user and 
 
 We will need to manipulate data from form controls like this in projects later in the curriculum.
 
-**The type attribute**
+#### The type attribute
 
 `Email inputs` are specialized text inputs just for email addresses. They are different from text inputs in that they will display a different keyboard which will include the @ symbol on mobile devices to make entering email addresses easier.
 
@@ -173,7 +173,7 @@ To create a date input, we use the input element with a `type` attribute of "dat
 <input type="date" id="dob" name="dob">
 ```
 
-**Text area**
+#### Text area
 
 While technically not an input element, the text area element provides an input box that can accept text that spans multiple lines like user comments and reviews. It can also be resized by clicking and dragging the bottom right corner to make it bigger or smaller.
 
@@ -199,7 +199,7 @@ Text area elements accept a couple of unique attributes that other form controls
 
 Sometimes you will want users to select a value from a predefined list. This is where select elements will be useful.
 
-**Select dropdown**
+#### Select dropdown
 
 The select element renders a dropdown list where users can select an option. Syntactically, select elements have similar markup to unordered lists. The select element wraps option elements which are the options that can be selected.
 
@@ -248,7 +248,7 @@ We may also split the list of options into groups using the `<optgroup>` element
 </select>
 ```
 
-**Radio buttons**
+#### Radio buttons
 
 Select dropdowns are great for saving space on the page when we have an extensive list of options we want users to choose from. However, when we have a smaller list of 5 or fewer options to choose from, it is often a better user experience to have them displayed on the page instead of hidden behind a dropdown.
 
@@ -294,7 +294,7 @@ We can set the default selected radio button by adding the `checked` attribute t
 </div>
 ```
 
-**Checkboxes**
+#### Checkboxes
 
 Checkboxes are similar to radio buttons in that they allow users to choose from a set of predefined options. But unlike radio buttons, they allow multiple options to be selected at once.
 
@@ -354,7 +354,7 @@ To create a button, we use the `<button>` element. The content or text we want t
 
 The button element also accepts a `type` attribute that tells the browser which kind of button it is dealing with. There are three types of buttons available to us.
 
-**Submit buttons**
+#### Submit buttons
 
 Once a user is finished filling in a form, they will need a way to submit it. There is a specialized button for this; the submit button. When a submit button is clicked, it will submit the form it is contained within. The `type` attribute has a value of submit by default, i.e. if the `type` is not specified or the value provided is invalid.
 
@@ -364,7 +364,7 @@ To create a submit button, we use the button element with a `type` attribute of 
 <button type="submit">Submit</button>
 ```
 
-**Reset button**
+#### Reset button
 
 A reset button clears all the data the user has entered into the form and sets all the inputs in the form back to what they were initially.
 
@@ -374,7 +374,7 @@ To create a reset button, we use the button element with a `type` attribute of "
 <button type="reset">Reset</button>
 ```
 
-**Generic button**
+#### Generic button
 
 The third and final button type is a generic button that can be used for anything. It's commonly used with JS for creating interactive UI's.
 
@@ -394,7 +394,7 @@ Using the correct inputs for the data we want users to enter goes a long way tow
 
 Luckily, HTML provides a couple of elements that make it easy to organize forms into sections that are visually distinct and manageable to digest.
 
-**Fieldset element**
+#### Fieldset element
 
 The fieldset element is a container element that allows us to group related form inputs into one logical unit.
 
@@ -410,7 +410,7 @@ To create a fieldset, we use the `<fieldset>` element. Whatever form inputs we w
 </fieldset>
 ```
 
-**Legend**
+#### Legend
 
 The legend element is used to give field sets a heading or caption so the user can see what a grouping of inputs is for.
 
@@ -471,13 +471,13 @@ A common use-case for these elements is using a fieldset to group radio buttons 
 
 We will provide resources that go deep into styling forms in the assignment section that comes next. However, before we get to the assignment, we should talk about some of the challenges with styling HTML forms and how we can get around them:
 
-**Default browser styles**
+#### Default browser styles
 
 Each browser has its own default styles for form controls, making your forms visually different for users depending on what browser they are using.
 
 To have a consistent design among all browsers, we have to override these default styles and style them ourselves.
 
-**Tricky and downright impossible to style form controls**
+#### Tricky and downright impossible to style form controls
 
 Text-based form controls like text, email, password and text areas are reasonably straightforward to style. They operate like any other HTML element, and most CSS properties can be used on them.
 
