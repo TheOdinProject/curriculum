@@ -79,7 +79,6 @@ Third, there's a really handy shortcut for opening everything within a project d
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-
 Some of the following resources assume you have a Desktop folder located in your system. If, however, you do not have one located anywhere in your system, then please do the following: Open your terminal and make sure you're located in the home directory by typing `cd ~` into your command line. Then, type `mkdir Desktop` and press `enter`. To ensure your command worked, type `ls` and check if your Desktop folder is shown amongst your other directories. 
 
 </div>
