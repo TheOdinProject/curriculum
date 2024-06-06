@@ -83,7 +83,6 @@ This is done by adding a `placeholder` attribute to an input. The value will be 
 
 Use placeholder text to demonstrate how text should be entered and formatted.
 
-
 <span id="the-name-attribute">**The name attribute**</span>
 
 We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend, where we send our data, know what each piece of data represents.
@@ -100,10 +99,13 @@ The `name` attribute serves as a reference to the data inputted into a form cont
 To get a better understanding of what this looks like we can submit a form to [httpbin](http://httpbin.org/). This service will send back a response which will let us view what data was submitted. Fill in the form below and click submit:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="dyVRMbq" data-preview="true" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/dyVRMbq">
   form-basics-name-attribute</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 The output we care about from the response is the "form" object. It should look something like this:
@@ -125,10 +127,13 @@ It's worth mentioning that you can use any of the form controls HTML provides ou
 For example you might want to have an input that gets some data from a user and display that somewhere else on the page with JavaScript:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="PoJjNYr" data-preview="true" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PoJjNYr">
   using-form-controls-outside-of-form</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 We will need to manipulate data from form controls like this in projects later in the curriculum.
@@ -385,7 +390,9 @@ To create a generic button, we use the button element with a `type` attribute of
 ```
 
 <div class="lesson-note lesson-note--tip" markdown=1>
+
 It is important to remember that a button within a form with the `type` value of submit (which happens to be the default value) will always try to make a new request and submit data back to the server. Hence, for buttons that are used within a form for different purposes other than submitting the data, the `type` attribute should always be specified to avoid unwanted effects of submitting a form.
+
 </div>
 
 ### Organizing form elements
@@ -492,16 +499,18 @@ Certain aspects of other elements are downright impossible to style, for example
 #### Form basics
 
 1. Read and follow along to [MDN's Introductory Guides to Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms#introductory_guides) - complete [Your first form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form) and [How to structure a web form](https://developer.mozilla.org/en-US/docs/Learn/Forms/How_to_structure_a_web_form)
-2. Read and follow along to [MDN's The Different Form Controls Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#the_different_form_controls)
+1. Read and follow along to [MDN's The Different Form Controls Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#the_different_form_controls)
 
 #### Styling forms
 
 1. Read and follow along to [MDN's Form Styling Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_guides)
-2. Read and follow along to [the internetingishard guide to forms](https://internetingishard.netlify.app/html-and-css/forms/index.html)
+1. Read and follow along to [the internetingishard guide to forms](https://internetingishard.netlify.app/html-and-css/forms/index.html)
 
 </div>
 
 ### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Explain what the form element is for and what two attributes it should always include.](#the-form-element)
 - [Explain what form controls are at a high level.](#form-controls)
@@ -512,6 +521,6 @@ Certain aspects of other elements are downright impossible to style, for example
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Web.dev's Form Course](https://web.dev/learn/forms/)
