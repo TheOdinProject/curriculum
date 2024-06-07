@@ -171,6 +171,190 @@ Where "someurl" would be a path to our server, such as `http://localhost:8000` f
 
 Notice that the above two routes have the same url, but different methods. This is great, since they're both handling the same workflow, just at different steps.
 
+### Putting it together
+
+Let's put it all together in a quick Express application. It's helpful to see how our client actually will return data back to the server.
+
+We'll start as usual by creating a new Express application. If you don't already have it installed, be sure to run 
+`npm install express-generator -g`
+
+Then run `express helloforms --ejs` 
+'express' says to generate a new express application with some defaults, helloforms is the name of our project, and --ejs selects a view template.
+
+You can choose whichever view engine you're comfortable with, but for this tutorial, we'll be working with EJS.
+
+Open up your new project, by writing `code helloforms` into your terminal, or by using your file explorer.
+
+Let's open up our app.js file. We're not going to worry about exploring the rest of the code. We're writing a basic route so we can 
+see how data looks when it's sent over from the client.
+
+Open up a new terminal, and run `npm i nodemon` this will let us reload our server; After this, you can simply run nodemon in your terminal to serve your project!
+
+Your new project should look like this ![File explorer, with folders, routes, views, and app.js](image.png)
+
+Let's open up routes folder, open the index.js file and create a new simple route.
+
+```javascript
+router.get('/form', (req, res) => {
+  console.log('hello forms')
+})
+```
+Then, in your terminal, run nodemon and open your project in the browser.
+In the search bar, navigate to `localhost:(yourport)/form`
+
+Keep an eye on your console, and you should see the message 'hello forms' there.
+
+Now let's make a new form. We're going to piggyback on the existing index.ejs file in our views folder. 
+
+Modify the index.ejs file so it looks like this
+
+```htm
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <!-- Add the form below here -->
+        <form action="/form" method="POST">
+      <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+      </div>
+      <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+```
+
+Most of this form should be familiar to you. The only thing to note is that our action is actually just a *relative* route to our server endpoint. We don't need to write out localhost.
+
+Once you've done that, we need to modify the route in our routes/index.js file.
+
+Since our form is POSTING to our server, we need to change our router.get to a router.post.
+Let's start with just console.logging our *request body*.
+
+Notice that Express provides us already with a request object to work with.
+
+```javascript
+router.post('/form', (req, res) => {
+  console.log(req.body);
+})
+```
+(You might need to restart your server by pressing CTRL C and entering nodemon again) Now navigate to localhost/ (remember that our form is at our index, or home route).
+
+You should see our basic form there. If you enter it in with some information, you should see the request body in your console now!
+
+If you wanted to access individual parts of the form body, you can use several methods, like object destructuring:
+
+```javascript
+router.post('/form', (req, res) => {
+  const { firstName, lastName } = req.body
+  res.send(`Received new submission: ${firstName} ${lastName}`)
+})
+```
+
+Now, when you submit, you should see the information on the page!
+
+Let's add a few methods for validation and sanitization on our form.
+
+In your terminal, stop the server and run `npm install express-validator`
+
+In our routes/index.js, let's include the new package at the top of our routes/index.js `const {body, validationResult} = require('express-validator')`
+
+In our router.post, we're going to add some methods to make sure we get the type of data we want. 
+```javascript
+router.post('/form', 
+[
+  body('firstName').isAlpha().withMessage('First name must contain only letters')
+  .isLength({ min: 2, max: 30 }).withMessage('First name must be between 2 and 30 characters'),
+  body('lastName').isAlpha().withMessage('First name must contain only letters')
+  .isLength({ min: 2, max: 30 }).withMessage('Last name must be between 2 and 30 characters')
+]
+(req, res) => {
+const errors = validationResult(req);
+if (!errors.isEmpty()) {
+  return res.status(400).json({ errors: errors.array() })
+}
+
+// If no errors, proceed as normal
+const { firstName, lastName } = req.body;
+res.send(`Received new submission: ${firstName} ${lastName}`)
+})
+```
+
+Explanation: Validation rules: body() functions are used to specify the fields you want to validate. We chose firstName, and lastName. If we had more, you simply define more using the body() function.
+
+isAlpha() makes sure the field contains only letters.
+isLength({ min, max }) ensure the filed is a certain length. Pretty self explanatory!
+
+The withMessage() is a very handy little function that allows us to define what to show the user if they didn't fill out the form properly.
+
+Now, if you fill out the form and don't meet any of our criteria, you'll see a page containing all the errors. 
+
+We could go much deeper into working safely with forms, but we'll stop there. I'm sure you can already see how helpful express-validator is, and how you can do almost anything you want with the req.body object.
+
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Take a look through the Express documentation on the [request object](https://expressjs.com/en/5x/api.html#req).
+2. Continue working with the project we've been working on to actually display the errors nicely for the user. You'll need to use the [res.render](https://expressjs.com/en/api.html#res.render) method.
+
+Hint: you'll want to pass the errors down to your view from the /forms route.
+Pay special attention in the express docs to this snippet:
+
+```javascript
+// send the rendered view to the client
+res.render('index')
+
+// if a callback is specified, the rendered HTML string has to be sent explicitly
+res.render('index', function (err, html) {
+  res.send(html)
+})
+
+// pass a local variable to the view
+res.render('user', { name: 'Tobi' }, function (err, html) {
+  // ...
+})
+```
+Where they pass a *local* variable down to their view to use for rendering.
+
+You'll need to loop through our response in our ejs template for each error: [ejs loops](https://stackoverflow.com/questions/22952044/loop-through-json-in-ejs)
+
+We'll give you this modified code for free, to give you a headstart.
+
+Modify your router.post to look like this:
+
+```javascript
+router.post('/form', 
+  [
+    body('firstName').isAlpha().withMessage('First name must contain only letters')
+                     .isLength({ min: 2, max: 30 }).withMessage('First name must be between 2 and 30 characters'),
+    body('lastName').isAlpha().withMessage('Last name must contain only letters')
+                    .isLength({ min: 2, max: 30 }).withMessage('Last name must be between 2 and 30 characters')
+  ], 
+  (req, res) => {
+    const errors = validationResult(req);
+    // if there ARE errors
+    if (!errors.isEmpty()) {
+      // then send them over to your view using local variables
+    }
+
+    const { firstName, lastName } = req.body;
+    res.send(`Received new submission: ${firstName} ${lastName}`);
+  }
+);
+```
+
+Don't forget to ask in the Discord if you need help! Refer to the docs, don't forget to use res.render, local variables, and EJS looping. Good luck!
+
 ### Knowledge Check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
@@ -193,4 +377,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [Express request object](https://expressjs.com/en/api.html#req)
+- [Express response object](https://expressjs.com/en/api.html#res)
+It's certainly not required viewing, but web dev simplified makes some of the best tutorials on Express. Take a watch if you need a refresher.
+- [Web dev simplified](https://youtu.be/SccSCuHhOw0?si=2dZ5Y4dvxyh7jpcy)
