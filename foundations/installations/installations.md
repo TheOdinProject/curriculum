@@ -39,7 +39,9 @@ This curriculum only supports using a laptop, desktop or supported Chromebook. W
 Pick your method of installation below:
 
 <details markdown="block">
+   
 <summary class="dropDown-header">Virtual Machine (Recommended)
+   
 </summary>
 
 Installing a Virtual Machine (VM) is the easiest and most reliable way to get started creating an environment for web development. A VM is an entire computer emulation that runs inside your current Operating System (OS), like Windows. The main drawback of a VM is that it can be slow because you’re essentially running two computers at the same time. We’ll do a few things to improve its performance.
@@ -180,6 +182,7 @@ When using a command in the terminal that requires you to enter your password fo
 This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
 You can still enter your password as normal and press Enter to submit it.
+
 </div>
 
 ```bash
@@ -245,7 +248,9 @@ To be safe, click the **Send the shutdown signal** radio and hit OK. This will s
 </details>
 
 <details markdown="block">
+   
 <summary class="dropDown-header">Ubuntu/Windows Dual-Boot
+   
 </summary>
 
 ### Read this entire section before starting
@@ -289,7 +294,9 @@ If you encounter an error requesting you to disable **Intel RST** while attempti
 </details>
 
 <details markdown="block">
+   
 <summary class="dropDown-header">ChromeOS/ChromeOS Flex
+   
 </summary>
 
 With the recent addition of being able to run a Linux terminal, the ChromeOS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
@@ -304,6 +311,7 @@ Once you have successfully met both of these requirements, you should be able to
 </details>
 
 <details markdown="block">
+   
 <summary class="dropDown-header">WSL2 (Advanced)</summary>
 
 Using WSL2 is an quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
@@ -313,6 +321,7 @@ To make it clear: you are going to be using a different OS, this is not a way to
 <div class="lesson-note" markdown="1">
 
 #### WSL2 and Linux instructions
+
 Because WSL2 is a full-fledged Linux distribution, almost everything that the curriculum teaches about Linux is also applicable to WSL2. In future lessons, whenever there are instructions that differ by OS, you should follow the Linux instructions, unless the lesson includes WSL2-specific instructions.
 
 </div>
