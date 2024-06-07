@@ -81,7 +81,7 @@ But it's also going to be fun.
 
 And it might even be life-changing.
 
-_What are you waiting for?_
+*What are you waiting for?*
 
 ### Assignment
 
@@ -95,7 +95,7 @@ _What are you waiting for?_
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
 - [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)
