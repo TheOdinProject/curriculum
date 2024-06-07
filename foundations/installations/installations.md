@@ -39,9 +39,9 @@ This curriculum only supports using a laptop, desktop or supported Chromebook. W
 Pick your method of installation below:
 
 <details markdown="block">
-   
+
 <summary class="dropDown-header">Virtual Machine (Recommended)
-   
+
 </summary>
 
 Installing a Virtual Machine (VM) is the easiest and most reliable way to get started creating an environment for web development. A VM is an entire computer emulation that runs inside your current Operating System (OS), like Windows. The main drawback of a VM is that it can be slow because you’re essentially running two computers at the same time. We’ll do a few things to improve its performance.
@@ -248,9 +248,9 @@ To be safe, click the **Send the shutdown signal** radio and hit OK. This will s
 </details>
 
 <details markdown="block">
-   
+
 <summary class="dropDown-header">Ubuntu/Windows Dual-Boot
-   
+
 </summary>
 
 ### Read this entire section before starting
@@ -376,6 +376,7 @@ You might notice when you open WSL2 via Windows Terminal, you'll see a window wi
 When opening your WSL2 terminal ensure that you do not see `/mnt/c` at the start of the line. `/mnt/c` is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences.
 
 </div>
+
 </details>
 
 ### Google Chrome installation
@@ -388,6 +389,7 @@ Look at this [usage share of web browsers](https://en.wikipedia.org/wiki/Usage_s
 Choose your Operating System:
 
 <details markdown="block">
+
 <summary class="dropDown-header">Linux</summary>
 
 #### Step 1: Download Google Chrome
@@ -402,6 +404,7 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 <div class="lesson-note" markdown="1">
 
 ### Copy and paste keyboard shortcuts
+
 You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste something doesn't work in the terminal. In order to paste your text input into your terminal you can use: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> keyboard shortcut combination, instead. It is also  very handy to know that the: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>  keyboard combination will copy any highlighted text from your terminal, which can then be pasted later.
 
 </div>
@@ -425,6 +428,7 @@ You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <
   This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
   You can still enter your password as normal and press Enter to submit it.
+
 </div>
 
 <div class="lesson-note lesson-note--tip" markdown="1">
@@ -459,6 +463,7 @@ Chrome is going to use this terminal to output various messages and won't let yo
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">MacOS</summary>
 
 #### Step 1: Download Google Chrome
@@ -487,6 +492,7 @@ Chrome is going to use this terminal to output various messages and won't let yo
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">WSL2</summary>
 
 #### Step 1: Download Google Chrome
