@@ -6,7 +6,7 @@ In this unit, we'll learn about how the web works and start thinking about the b
 
 Each of the following sections and lessons covers essential baseline knowledge.  Even if you have no intention of becoming a web developer, this material should help you gain a useful understanding of the moving parts involved in creating and serving content on the web.
 
-We will start by getting familiar with the internet and your own computer.  Next, we'll set up a development environment and learn about Git and GitHub. Then, we'll go over the basics of front-end technologies like HTML, CSS, and Javascript before stepping into the back end with a brief foray that covers the basic concepts of back-end technologies.
+We will start by getting familiar with the internet and your own computer.  Next, we'll set up a development environment and learn about Git and GitHub. Then, we'll go over the basics of front-end technologies like HTML, CSS, and JavaScript before stepping into the back end with a brief foray that covers the basic concepts of back-end technologies.
 
 By the end of this unit, you should not only understand how the web works but also be able to identify and differentiate between all the technologies that you will use to build your own web applications. You will be able to build a basic webpage, style it, and add minor elements of interactivity while working comfortably from the command line.
 
@@ -39,7 +39,7 @@ The skills you learn here are transferable to various contexts. Once you know th
 
 The Odin Project attracts people from all over the world who aspire to learn how to become developers. Please be aware that this curriculum is written in English and maintained by English speakers who are not able or expected to translate it for you. As you develop into a programmer, you will find that the world you are entering into is firmly rooted in the English language. This means that the syntax of your programming language, the documentation that teaches you how to use it, and the majority of the people in the community are all expecting to communicate with you in English.
 
-If you are a non-English speaker, or English is not a primary language for you, this fact is not meant to discourage you, but to prepare you. 
+If you are a non-English speaker, or English is not a primary language for you, this fact is not meant to discourage you, but to prepare you.
 
 As another part of this preparation, we *highly* recommend spending extra time on topics and terms that you do not understand right away. We also encourage you to seek out additional resources that teach about these topics in your own native language so you can understand them more fully.
 
@@ -51,18 +51,18 @@ Once you've completed this course, you should feel comfortable with the building
 
 The last lesson of this course will give you an opportunity to choose between a Full Stack JavaScript and Full Stack Rails path, both designed to further develop the foundation established in this course. Each path will focus on taking these raw building blocks and honing them into a highly functional skillset.
 
-The Odin Project is maintained by professionals.  We have chosen some of the best resources available and curated a guide on how to go through them. If there are no good resources, we write our own. With that said, know that **everything** in the curriculum is intentionally included and vital for you to become a successful programmer. 
+The Odin Project is maintained by professionals. We have chosen some of the best resources available and curated a guide on how to go through them. If there are no good resources, we write our own. With that said, know that **everything** in the curriculum is intentionally included and vital for you to become a successful programmer.
 
-As you move forward in the curriculum, each portion is built on everything that came before it, so skipping things will create pockets of non-understanding in your knowledge that start to affect your ability to solve problems and understand the task at hand. 
+As you move forward in the curriculum, each portion is built on everything that came before it, so skipping things will create pockets of non-understanding in your knowledge that start to affect your ability to solve problems and understand the task at hand.
 
-Additional resources are the only thing that is considered optional unless explicitly stated. These are here in case you feel like you need or want to dive deeper into a topic to get a better understanding. 
+Additional resources are the only thing that is considered optional unless explicitly stated. These are here in case you feel like you need or want to dive deeper into a topic to get a better understanding.
 
 **DO NOT SKIP ANYTHING!** 
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
- 
+
 1. Learn more about The Odin Project by reading its [about page](https://www.theodinproject.com/about).
 1. Check out the [frequently asked questions](https://www.theodinproject.com/faq) section.
 
@@ -70,6 +70,6 @@ Additional resources are the only thing that is considered optional unless expli
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
- 
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
 - It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
