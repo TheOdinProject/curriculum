@@ -5,8 +5,11 @@
 If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system and have **Google Chrome** as an installed browser, you can skip this lesson. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
+
 #### Be mindful of the OS you are using
+
 We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
+
 </div>
 
 ### Lesson overview
@@ -308,8 +311,10 @@ Using WSL2 is an quick and easy way to get started with using Linux, allowing yo
 To make it clear: you are going to be using a different OS, this is not a way to avoid using Linux. Due to how WSL2 is integrated with Windows it often causes significant confusion to new learners. Use the Virtual Machine if you want a clear separation between your Windows and Linux so the curriculum is easier to follow.
 
 <div class="lesson-note" markdown="1">
+
 #### WSL2 and Linux instructions
 Because WSL2 is a full-fledged Linux distribution, almost everything that the curriculum teaches about Linux is also applicable to WSL2. In future lessons, whenever there are instructions that differ by OS, you should follow the Linux instructions, unless the lesson includes WSL2-specific instructions.
+
 </div>
 
 ### Step 1: Installations
@@ -352,11 +357,15 @@ On Windows there are three primary ways to open WSL2.
 - If you search for Ubuntu in the application search bar you should see a application titled Ubuntu; open it to start a new terminal session.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
 You might notice when you open WSL2 via Windows Terminal, you'll see a window with a different color scheme and a different icon compared to opening a terminal through Ubuntu in your applications. This is because Windows Terminal comes with a default color scheme for Ubuntu meant to emulate how a real Ubuntu terminal looks. This difference is purely cosmetic, and there is no practical difference between the two.
+
 </div>
 
 <div class="lesson-note lesson-note--warning" markdown="1">
+
 When opening your WSL2 terminal ensure that you do not see `/mnt/c` at the start of the line. `/mnt/c` is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences.
+
 </div>
 </details>
 
@@ -382,8 +391,10 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
 
 <div class="lesson-note" markdown="1">
+
 ### Copy and paste keyboard shortcuts
 You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste something doesn't work in the terminal. In order to paste your text input into your terminal you can use: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> keyboard shortcut combination, instead. It is also  very handy to know that the: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>  keyboard combination will copy any highlighted text from your terminal, which can then be pasted later.
+
 </div>
 
 #### Step 2: Install Google Chrome
