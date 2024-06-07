@@ -170,43 +170,20 @@ And in our form, the action would like like this
 
 ```html
 <!-- POST method. We would use a GET for a search action for example -->
-<form action="someurl/users/create" method="POST" ></form>
+<form action="/users/create" method="POST" ></form>
 ```
 
-Where "someurl" would be a path to our server, such as `http://localhost:8000` for example.
+/users/create will be an *endpoint* we've created on our Express server.
 
 Notice that the above two routes have the same url, but different methods. This is great, since they're both handling the same workflow, just at different steps.
 
 ### Putting it together
 
-Let's put it all together in a quick Express application. It's helpful to see how our client actually will return data back to the server.
+Let's put it all together in a quick Express application. It's helpful to see how our client actually will send data to the server.
 
-We'll start as usual by creating a new Express application. If you don't already have it installed, be sure to run
+Create a new Express application like you've done before, and open up the app.js file. We'll be using the EJS templating language for this lesson.
 
-```bash
-npm install express-generator -g
-```
-
-Then run
-
-```bash
-express helloforms --ejs
-```
-
-'express' says to generate a new express application with some defaults, helloforms is the name of our project, and --ejs selects EJS as our view template.
-
-You can choose whichever view engine you're comfortable with, but for this tutorial, we'll be working with EJS.
-
-Open up your new project, by writing
-
-```bash
-code helloforms
-```
-
-into your terminal, or by using your file explorer.
-
-Let's open up our app.js file. We're not going to worry about exploring the rest of the code. We're writing a basic route so we can 
-see how data looks when it's sent over from the client.
+We're not going to worry about exploring the rest of the code. We're writing a basic route so we can see how data looks when it's sent over from the client.
 
 Open up a new terminal, and run
 
@@ -214,11 +191,13 @@ Open up a new terminal, and run
 npm i nodemon
 ```
 
- this will let us reload our server; After this, you can simply run nodemon in your terminal to serve your project!
+this will let us reload our server; After this, you can simply run nodemon in your terminal to serve your project!
+
+You can also use your own preferred method for spinning up a live server.
 
 Your new project should look have folders named routes, views, and a file called app.js
 
-Let's open up routes folder, open the index.js file and create a new simple route.
+Let's open up the routes folder, open the index.js file and add a new simple route below any existing ones.
 
 ```javascript
 router.get('/form', (req, res) => {
@@ -226,12 +205,18 @@ router.get('/form', (req, res) => {
 })
 ```
 
-Then, in your terminal, run nodemon and open your project in the browser.
+Then, in your terminal, run
+
+```bash
+nodemon
+```
+
+and open your project in the browser.
 In the search bar, navigate to `localhost:(yourport)/form`
 
 Keep an eye on your console, and you should see the message 'hello forms' there.
 
-Now let's make a new form. We're going to piggyback on the existing index.ejs file in our views folder. 
+Now let's make a new form. We're going to piggyback on the existing index.ejs file in our views folder.
 
 Modify the index.ejs file so it looks like this
 
@@ -334,7 +319,7 @@ isLength({ min, max }) ensure the filed is a certain length. Pretty self explana
 
 The withMessage() is a very handy little function that allows us to define what to show the user if they didn't fill out the form properly.
 
-Now, if you fill out the form and don't meet any of our criteria, you'll see a page containing all the errors. 
+Now, if you fill out the form and don't meet any of our criteria, you'll see a page containing all the errors.
 
 We could go much deeper into working safely with forms, but we'll stop there. I'm sure you can already see how helpful express-validator is, and how you can do almost anything you want with the req.body object.
 
@@ -343,7 +328,7 @@ We could go much deeper into working safely with forms, but we'll stop there. I'
 <div class="lesson-content__panel" markdown="1">
 
 1. Take a look through the Express documentation on the [request object](https://expressjs.com/en/5x/api.html#req).
-2. Continue working with the project we've been working on to actually display the errors nicely for the user. You'll need to use the [res.render](https://expressjs.com/en/api.html#res.render) method.
+1. Continue working with the project we've been working on to actually display the errors on the page nicely for the user, instead of just a json object. You'll need to use the [res.render](https://expressjs.com/en/api.html#res.render) method.
 
 Hint: you'll want to pass the errors down to your view from the /forms route.
 Pay special attention in the express docs to this snippet:
@@ -392,9 +377,11 @@ router.post('/form',
 );
 ```
 
-Don't forget to ask in the Discord if you need help! Refer to the docs, don't forget to use res.render, local variables, and EJS looping. Good luck!
+Don't forget to ask in the Discord if you need help! Refer to the docs, don't forget to use res.render, the *locals* object, and EJS looping. Good luck!
 
-### Knowledge Check
+</div>
+
+### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
