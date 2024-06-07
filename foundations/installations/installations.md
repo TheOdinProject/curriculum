@@ -294,9 +294,9 @@ If you encounter an error requesting you to disable **Intel RST** while attempti
 </details>
 
 <details markdown="block">
-   
+
 <summary class="dropDown-header">ChromeOS/ChromeOS Flex
-   
+
 </summary>
 
 With the recent addition of being able to run a Linux terminal, the ChromeOS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
@@ -311,7 +311,7 @@ Once you have successfully met both of these requirements, you should be able to
 </details>
 
 <details markdown="block">
-   
+
 <summary class="dropDown-header">WSL2 (Advanced)</summary>
 
 Using WSL2 is an quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
