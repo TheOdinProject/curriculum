@@ -105,8 +105,11 @@ In this final example, the first rule uses an ID selector, while the second rule
 While the `color: red` declaration would take precedence, the `background-color: yellow` declaration would still be applied since there's no conflicting declaration for it.
 
 <div class="lesson-note" markdown="1">
+
 ##### Not everything adds to specificity
+
 When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
+
 </div>
 
 ```css
@@ -218,7 +221,7 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#high-specificity-class-type">Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?</a>
+- [Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?](#high-specificity-class-type)
 
 ### Additional resources
 
