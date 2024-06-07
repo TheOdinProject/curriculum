@@ -205,8 +205,7 @@ code helloforms
 
 into your terminal, or by using your file explorer.
 
-Let's open up our app.js file. We're not going to worry about exploring the rest of the code. We're writing a basic route so we can 
-see how data looks when it's sent over from the client.
+Let's open up our app.js file. We're not going to worry about exploring the rest of the code. We're writing a basic route so we can see how data looks when it's sent over from the client.
 
 Open up a new terminal, and run
 
@@ -231,7 +230,7 @@ In the search bar, navigate to `localhost:(yourport)/form`
 
 Keep an eye on your console, and you should see the message 'hello forms' there.
 
-Now let's make a new form. We're going to piggyback on the existing index.ejs file in our views folder. 
+Now let's make a new form. We're going to piggyback on the existing index.ejs file in our views folder.
 
 Modify the index.ejs file so it looks like this
 
@@ -334,7 +333,7 @@ isLength({ min, max }) ensure the filed is a certain length. Pretty self explana
 
 The withMessage() is a very handy little function that allows us to define what to show the user if they didn't fill out the form properly.
 
-Now, if you fill out the form and don't meet any of our criteria, you'll see a page containing all the errors. 
+Now, if you fill out the form and don't meet any of our criteria, you'll see a page containing all the errors.
 
 We could go much deeper into working safely with forms, but we'll stop there. I'm sure you can already see how helpful express-validator is, and how you can do almost anything you want with the req.body object.
 
@@ -343,7 +342,7 @@ We could go much deeper into working safely with forms, but we'll stop there. I'
 <div class="lesson-content__panel" markdown="1">
 
 1. Take a look through the Express documentation on the [request object](https://expressjs.com/en/5x/api.html#req).
-2. Continue working with the project we've been working on to actually display the errors nicely for the user. You'll need to use the [res.render](https://expressjs.com/en/api.html#res.render) method.
+1. Continue working with the project we've been working on to actually display the errors nicely for the user. You'll need to use the [res.render](https://expressjs.com/en/api.html#res.render) method.
 
 Hint: you'll want to pass the errors down to your view from the /forms route.
 Pay special attention in the express docs to this snippet:
@@ -394,7 +393,7 @@ router.post('/form',
 
 Don't forget to ask in the Discord if you need help! Refer to the docs, don't forget to use res.render, local variables, and EJS looping. Good luck!
 
-### Knowledge Check
+#### Knowledge Check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
