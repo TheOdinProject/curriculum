@@ -72,15 +72,21 @@ The library we'll be using is called express-validator, which takes care of both
 
 We start as usual by installing the correct package in the *root* folder of our project.
 
-`npm install express-validator`
+```bash
+npm install express-validator
+```
 
 Tip: You can shorten that command by typing
 
-`npm i express-validator`
+```bash
+npm i express-validator
+```
 
 To get started using the package, we first need to *require* it in our project
 
-`const { body, validationResult } = require('express-validator');`
+```javascript
+const { body, validationResult } = require('express-validator');
+```
 
 express-validator comes with many functions for just about every form operation you could think of, but for this lesson, we'll be sticking with body and validation result.
 
@@ -175,20 +181,40 @@ Notice that the above two routes have the same url, but different methods. This 
 
 Let's put it all together in a quick Express application. It's helpful to see how our client actually will return data back to the server.
 
-We'll start as usual by creating a new Express application. If you don't already have it installed, be sure to run 
-`npm install express-generator -g`
+We'll start as usual by creating a new Express application. If you don't already have it installed, be sure to run
 
-Then run `express helloforms --ejs` 
-'express' says to generate a new express application with some defaults, helloforms is the name of our project, and --ejs selects a view template.
+```bash
+npm install express-generator -g
+```
+
+Then run
+
+```bash
+express helloforms --ejs
+```
+
+'express' says to generate a new express application with some defaults, helloforms is the name of our project, and --ejs selects EJS as our view template.
 
 You can choose whichever view engine you're comfortable with, but for this tutorial, we'll be working with EJS.
 
-Open up your new project, by writing `code helloforms` into your terminal, or by using your file explorer.
+Open up your new project, by writing
+
+```bash
+code helloforms
+```
+
+into your terminal, or by using your file explorer.
 
 Let's open up our app.js file. We're not going to worry about exploring the rest of the code. We're writing a basic route so we can 
 see how data looks when it's sent over from the client.
 
-Open up a new terminal, and run `npm i nodemon` this will let us reload our server; After this, you can simply run nodemon in your terminal to serve your project!
+Open up a new terminal, and run
+
+```bash
+npm i nodemon
+```
+
+ this will let us reload our server; After this, you can simply run nodemon in your terminal to serve your project!
 
 Your new project should look have folders named routes, views, and a file called app.js
 
@@ -209,7 +235,7 @@ Now let's make a new form. We're going to piggyback on the existing index.ejs fi
 
 Modify the index.ejs file so it looks like this
 
-```htm
+```ejs
 <!DOCTYPE html>
 <html>
   <head>
@@ -267,11 +293,19 @@ Now, when you submit, you should see the information on the page!
 
 Let's add a few methods for validation and sanitization on our form.
 
-In your terminal, stop the server and run `npm install express-validator`
+In your terminal, stop the server and run
 
-In our routes/index.js, let's include the new package at the top of our routes/index.js `const {body, validationResult} = require('express-validator')`
+```bash
+npm install express-validator
+```
 
-In our router.post, we're going to add some methods to make sure we get the type of data we want. 
+In our routes/index.js, let's include the new package at the top of our routes/index.js
+
+```javascript
+const {body, validationResult} = require('express-validator')
+```
+
+In our router.post, we're going to add some methods to make sure we get the type of data we want.
 
 ```javascript
 router.post('/form', 
