@@ -199,6 +199,7 @@ router.get('/form', (req, res) => {
   console.log('hello forms')
 })
 ```
+
 Then, in your terminal, run nodemon and open your project in the browser.
 In the search bar, navigate to `localhost:(yourport)/form`
 
@@ -248,6 +249,7 @@ router.post('/form', (req, res) => {
   console.log(req.body);
 })
 ```
+
 (You might need to restart your server by pressing CTRL C and entering nodemon again) Now navigate to localhost/ (remember that our form is at our index, or home route).
 
 You should see our basic form there. If you enter it in with some information, you should see the request body in your console now!
@@ -270,6 +272,7 @@ In your terminal, stop the server and run `npm install express-validator`
 In our routes/index.js, let's include the new package at the top of our routes/index.js `const {body, validationResult} = require('express-validator')`
 
 In our router.post, we're going to add some methods to make sure we get the type of data we want. 
+
 ```javascript
 router.post('/form', 
 [
@@ -325,6 +328,7 @@ res.render('user', { name: 'Tobi' }, function (err, html) {
   // ...
 })
 ```
+
 Where they pass a *local* variable down to their view to use for rendering.
 
 You'll need to loop through our response in our ejs template for each error: [ejs loops](https://stackoverflow.com/questions/22952044/loop-through-json-in-ejs)
