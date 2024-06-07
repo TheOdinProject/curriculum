@@ -190,7 +190,7 @@ see how data looks when it's sent over from the client.
 
 Open up a new terminal, and run `npm i nodemon` this will let us reload our server; After this, you can simply run nodemon in your terminal to serve your project!
 
-Your new project should look like this ![File explorer, with folders, routes, views, and app.js](image.png)
+Your new project should look have folders named routes, views, and a file called app.js
 
 Let's open up routes folder, open the index.js file and create a new simple route.
 
