@@ -17,7 +17,7 @@ This section contains a general overview of topics that you will learn in this l
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  
+
   1. Watch this BBC short for an [overview of how the internet works](https://www.youtube.com/watch?v=eHp1l73ztB8).
   1. Read this [Mozilla article on "How does the internet work?"](https://developer.mozilla.org/en-US/Learn/Common_questions/How_does_the_Internet_work).
   1. Watch [How the Internet Works in 5 Minutes](https://youtu.be/7_LPdttKXPc?t=46s).
