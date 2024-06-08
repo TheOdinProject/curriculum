@@ -1,6 +1,6 @@
 ### Introduction
 
-In this lesson, we'll cover common Git commands used to manage your projects and to upload your work onto GitHub. We refer to these commands as the **basic Git workflow**. When you're using Git, these are the commands that you'll use 70-80% of the time. So if you can get these down, you'll be more than halfway done mastering Git!
+In this lesson, we'll cover common Git commands used to manage your projects and to upload your work onto GitHub. We refer to these commands as the **basic Git workflow**. When you're using Git, these are the commands that you'll use 70-80% of the time. So, if you can get these down, you'll be more than halfway done mastering Git!
 
 ### Lesson overview
 
@@ -18,7 +18,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - Github recently updated the way it names the default branch. This means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
   `git --version`
-- If you haven't already, set your <span id="main-push"></span>local default git branch to `main`. You can do so by running:
+- If you haven't already, set your <span id="main-push"></span>local default Git branch to `main`. You can do so by running:
   `git config --global init.defaultBranch main`
 - For more information on the change from `master` to `main` see [GitHub's Renaming Repository](https://github.com/github/renaming).
 
@@ -28,7 +28,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. From the GitHub homepage, create a new repository by clicking the "+" button in the top-right corner and selecting "New repository". *If you are using a smaller viewport, that button may be hidden. In that case click on your profile picture in the top-right corner and the button will appear next to your profile name.*
 
-1. Give your repository the name "git_test" in the repository name input field. Check "Add a README file". And then create the repository by clicking the "Create repository" button at the bottom of the page.
+1. Give your repository the name "git_test" in the repository name input field. Check "Add a README file". Then, create the repository by clicking the "Create repository" button at the bottom of the page.
 
 1. This will redirect you to your new repository on GitHub. To get ready to copy (clone) this repository onto your local machine, click the green "Code" button, which should be to the right of the button displaying the current branch (typically it will display the *main* branch). Then select the SSH option in the "Clone" section, and copy the line below it. **NOTE: You MUST click the SSH option to get the correct URL.**
 
@@ -52,7 +52,7 @@ This section contains a general overview of topics that you will learn in this l
   origin  git@github.com:USER-NAME:git_test.git (push) 
   ```
   
-This displays the URL of the repository you created on GitHub, which is the remote for your local copy. <span id="default-remote"></span>You may have also noticed the word *origin* at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository. But it could have just as easily been named "party-parrot" or "dancing-banana". (Don't worry about the details of origin for now; it will come up again near the end of this tutorial.)
+This displays the URL of the repository you created on GitHub, which is the remote for your local copy. <span id="default-remote"></span>You may have also noticed the word *origin* at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository, but it could have just as easily been named "party-parrot" or "dancing-banana". (Don't worry about the details of origin for now; it will come up again near the end of this tutorial.)
 
 #### Use the Git workflow
 
@@ -76,7 +76,7 @@ This displays the URL of the repository you created on GitHub, which is the remo
 
 1. Add "Hello Odin!" to a new line in `README.md` and save the file with <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>).
 
-1. Go back to your terminal or if you're using Visual Studio Code you can open the built-in terminal by pressing <kbd>Ctrl</kbd> + <kbd>&#96;</kbd> (backtick). Then type `git status`. Notice how the output is similar to when we created our `hello_world.txt` file before adding it to the staging area, except the `README.md` file is listed in a section titled "Changes not staged for commit". The meaning is similar to the "Untracked files" section in that the file is not yet added to the staging area.
+1. Go back to your terminal, or if you're using Visual Studio Code, open the built-in terminal by pressing <kbd>Ctrl</kbd> + <kbd>&#96;</kbd> (backtick). Then, type `git status`. Notice how the output is similar to when we created our `hello_world.txt` file before adding it to the staging area, except the `README.md` file is listed in a section titled "Changes not staged for commit". The meaning is similar to the "Untracked files" section in that the file is not yet added to the staging area.
 
 1. Add README.md to the staging area with `git add README.md`.
 
@@ -94,7 +94,7 @@ Finally, let's upload your work to the GitHub repository you created at the star
 
 1. <span id="git-push"></span>Type `git push`. To be more specific, type `git push origin main`. Since you are not dealing with another branch (other than *main*) or a different remote (as mentioned above), you can leave it as `git push` to save a few keystrokes. **NOTE: If at this point you receive a message that says "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.", you have followed the steps incorrectly and cloned with HTTPS, not SSH. Please follow the steps for [switching remote URLs from HTTPS to SSH](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh) to change your remote to SSH, then attempt to push to Github.**
 
-1. Type `git status` one final time. It should output "*Your branch is up to date with 'origin/main'. nothing to commit, working tree clean*".
+1. Type `git status` one final time. It should output "*Your branch is up to date with 'origin/main'. Nothing to commit, working tree clean*".
 
 1. When you refresh your repository page on GitHub, you should see the README.md and hello_world.txt files that you just pushed there from your local machine.
 
@@ -104,7 +104,7 @@ Finally, let's upload your work to the GitHub repository you created at the star
 
 #### Avoid editing directly on GitHub
 
-When trying to make quick changes to the files in your repo, such as attempting to fix a typo in your README.md you might be tempted to make this change directly via Github. However, it is best to avoid this as it will cause issues that require more advanced Git knowledge than we want to go over at this stage (it is covered in a future lesson), for now it is advised to make any changes via your local files then commit and push them using Git commands in your terminal once ready.
+When trying to make quick changes to the files in your repo, such as attempting to fix a typo in your README.md, you might be tempted to make this change directly via Github. However, it is best to avoid this, as it will cause issues that require more advanced Git knowledge than we want to go over at this stage (it is covered in a future lesson). For now, it is advised to make any changes via your local files, then commit and push them using Git commands in your terminal once ready.
 
 </div>
 
@@ -167,7 +167,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Explain what `main` is in `git push origin main`.](#main-push)
 - [Explain the two-stage system that Git uses to save files.](#two-stages)
 - [How do you check the status of your current repository?](#git-status)
-- [How do you add files to the staging area in git?](#git-add)
+- [How do you add files to the staging area in Git?](#git-add)
 - [How do you commit the files in the staging area and add a descriptive message?](#git-commit)
 - [How do you push your changes to your repository on GitHub?](#git-push)
 - [How do you look at the history of your previous commits?](#git-log)
