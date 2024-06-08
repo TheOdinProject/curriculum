@@ -23,6 +23,7 @@ As a reminder, if you're using a **virtual machine**, you should install VSCode 
 Choose your Operating System:
 
 <details markdown="block">
+  
 <summary class="dropDown-header">Linux</summary>
 
 #### Step 1: Download VSCode
@@ -53,6 +54,7 @@ sudo apt install ./code-latest.deb
   This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
   You can still enter your password as normal and press Enter to submit it.
+  
 </div>
 
 <div class="lesson-note lesson-note--tip" markdown="1">
@@ -81,6 +83,7 @@ code
 </details>
 
 <details markdown="block">
+  
 <summary class="dropDown-header">MacOS</summary>
 
 #### Step 1: Download VSCode
@@ -107,6 +110,7 @@ code
 </details>
 
 <details markdown="block">
+  
 <summary class="dropDown-header">WSL2</summary>
 
 #### Step 1: Install VSCode
