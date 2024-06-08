@@ -54,7 +54,7 @@ sudo apt install ./code-latest.deb
   This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
   You can still enter your password as normal and press Enter to submit it.
-  
+
 </div>
 
 <div class="lesson-note lesson-note--tip" markdown="1">
