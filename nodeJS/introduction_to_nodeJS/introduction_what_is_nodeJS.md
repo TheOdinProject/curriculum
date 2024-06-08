@@ -82,7 +82,7 @@ While you may have learned React (or any other frontend framework) before, eithe
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#what-is-node">What is Node?</a>
+[What is Node?](#what-is-node)
 
 ### Additional resources
 
