@@ -71,11 +71,17 @@ Third, there's a really handy shortcut for opening everything within a project d
 
 - **macOS**: Some setup is required. After installing VSCode, launch it any way you're comfortable with. Once it's running, open the Command Palette with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>. In the little dialog that appears, type `shell command`. One of the choices that appears will be `Shell Command: Install 'code' command in PATH`. Select that option, and restart the terminal if you have it open.
 
-- **WSL2**: Opening up VSCode from the command line in WSL2 is just as easy as it is in Linux. Just enter `code` which will open VSCode in WSL2.
+- **WSL2**: Opening up VSCode from the command line in WSL2 is just as easy as it is in Linux. Just enter `code`, which will open VSCode in WSL2.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+Some of the following resources assume you have a Desktop folder located in your system. If, however, you do not have one located anywhere in your system, then please do the  following: Open your terminal and make sure you're located in the home directory by typing `cd ~` into your command line. Then, type `mkdir Desktop` and press `enter`. To ensure  your command worked, type `ls` and check if your Desktop folder is shown amongst your other directories.  
+
+</div>
 
 <div class="lesson-note" markdown="1">
 
