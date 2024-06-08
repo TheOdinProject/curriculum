@@ -1,4 +1,5 @@
 ### Introduction
+
 NodeJS (or just 'Node') has been steadily gaining popularity since its creation in 2009. The internet is flooded with courses and articles about it, installing it is a prerequisite for pretty much any front-end development work, and of course the amount of jobs that require knowledge of it are also on the rise.
 
 ### Lesson overview
@@ -22,7 +23,7 @@ The [Node.js website](https://nodejs.org/en/about/) declares:
 
 This is a definition that requires a little unpacking.
 
-The important bit to understand right up front is that Node is a "JavaScript runtime". When JavaScript was first created, it was designed to run _in the browser_. This means that it was impossible to use JavaScript to write any kind of program that was not a website. Node brings JavaScript _out_ of browser-land. This allows developers to use JavaScript to accomplish pretty much anything that other popular server-side languages such as Ruby, PHP, C# and Python can do. So, at its most basic level, Node allows you to run JavaScript code on a machine such as your local computer or a server without having to go through a web browser.
+The important bit to understand right up front is that Node is a "JavaScript runtime". When JavaScript was first created, it was designed to run *in the browser*. This means that it was impossible to use JavaScript to write any kind of program that was not a website. Node brings JavaScript *out* of browser-land. This allows developers to use JavaScript to accomplish pretty much anything that other popular server-side languages such as Ruby, PHP, C# and Python can do. So, at its most basic level, Node allows you to run JavaScript code on a machine such as your local computer or a server without having to go through a web browser.
 
 To facilitate this, Node has some added functionality that is not found in browser-based JavaScript, such as the ability to read and write local files, create http connections and listen to network requests.
 
@@ -35,14 +36,14 @@ For example, let's say you are writing a program and you need it to do the follo
 Instead of telling your code to do those steps sequentially like so:
 
 1. Read File
-2. Print File Contents
-3. Query Database
-4. Filter Database Query results
+1. Print File Contents
+1. Query Database
+1. Filter Database Query results
 
 You can break up the task like so:
 
-1. Read File _AND THEN_ Print File Contents
-2. Query Database _AND THEN_ Filter Database Query Results.
+1. Read File *AND THEN* Print File Contents
+1. Query Database *AND THEN* Filter Database Query Results.
 
 When you run this program Node will start at the top and begin reading the file but since that is an action that takes some time it will immediately begin running the second step (querying the database) while it's waiting on the file to finish reading.
 
