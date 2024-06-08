@@ -176,6 +176,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Complete Git and GitHub Tutorial from Basics to Advanced](https://www.youtube.com/watch?v=apGV9Kg7ics) - by Kunal Kushwaha
-- [Git - Reference](https://git-scm.com/docs)
-- [GitHub guide on adding locally hosted code](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github) walks you through creating a git repository from a local folder and adding it to GitHub.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
