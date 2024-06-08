@@ -23,7 +23,7 @@ As a reminder, if you're using a **virtual machine**, you should install VSCode 
 Choose your Operating System:
 
 <details markdown="block">
-  
+
 <summary class="dropDown-header">Linux</summary>
 
 #### Step 1: Download VSCode
@@ -83,7 +83,7 @@ code
 </details>
 
 <details markdown="block">
-  
+
 <summary class="dropDown-header">MacOS</summary>
 
 #### Step 1: Download VSCode
@@ -110,7 +110,7 @@ code
 </details>
 
 <details markdown="block">
-  
+
 <summary class="dropDown-header">WSL2</summary>
 
 #### Step 1: Install VSCode
