@@ -41,8 +41,8 @@ People who volunteer in coding communities are here to help! A question you may 
 <div class="lesson-content__panel" markdown="1">
 
 1. [Don't ask to ask, just ask](https://dontasktoask.com/) demonstrates the importance of just asking your question and not asking to ask your question.
-2. Read about the [“XY Problem”](https://xyproblem.info/), which is a common pitfall both new and experienced programmers fall into when asking questions.
-3. Read and bookmark our community guide [How to Ask Technical Questions](https://www.theodinproject.com/guides/community/how_to_ask). It is a great reference to refer to whenever you find yourself needing to ask for help, and you might find yourself solving your own problem as you think about the points listed in the article.
+1. Read about the [“XY Problem”](https://xyproblem.info/), which is a common pitfall both new and experienced programmers fall into when asking questions.
+1. Read and bookmark our community guide [How to Ask Technical Questions](https://www.theodinproject.com/guides/community/how_to_ask). It is a great reference to refer to whenever you find yourself needing to ask for help, and you might find yourself solving your own problem as you think about the points listed in the article.
 
 </div>
 
