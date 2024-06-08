@@ -207,8 +207,6 @@ There are a few things to note here.
 
 - We only pass through a reference to `handleButtonClick`, i.e. we do not include parenthesis when passing the function to `Button`. If we were to do something like `handleClick={handleButtonClick()}` then the function would be called as the button renders.
 
-- You can rename the function to whatever you like when passing through as props, the prop name and value do not need to be the same. We could just as easily write `superCoolFunction={handleButtonClick}`.
-
 - Every `Button` calling this function will navigate to the same page. We can refactor the function and supply an argument within `Button` to customize this functionality.
 
 ```jsx
