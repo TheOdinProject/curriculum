@@ -1,6 +1,6 @@
 ### Introduction
 
-Needless to say, while learning to code, you'll be spending most of your time on a computer. Hence, understanding how to work with your computer is crucial. In this lesson, we'll introduce a resource which will quickly get you up to speed with some computer basics. 
+Needless to say, while learning to code, you'll be spending most of your time on a computer. Hence, understanding how to work with your computer is crucial. In this lesson, we'll introduce a resource which will quickly get you up to speed with some computer basics.
 
 ### Lesson overview
 
@@ -25,7 +25,6 @@ Goodwill Community Foundation (GCF) resources are excellent to get you acquainte
 
 </div>
 
-
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
@@ -37,7 +36,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Check out [GCF's page on "What are accessibility features"](https://edu.gcfglobal.org/en/computerbasics/using-accessibility-features/1/) to learn how you can leverage these features to use your computer efficiently.
 - If you feel like spending more time learning about this topic, check out [FreeCodeCamp's excellent course on computer basics](https://youtu.be/y2kg3MOk1sY).
