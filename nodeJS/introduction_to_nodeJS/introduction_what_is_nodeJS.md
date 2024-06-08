@@ -71,10 +71,10 @@ While you may have learned React (or any other frontend framework) before, eithe
 <div class="lesson-content__panel" markdown="1">
 
 1. [A short module](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps) on "The Server Side" from MDN is a great source for the background knowledge you need. Read through at least the first two articles posted under the 'Guides' section: Introduction to the server side and Client-Server Overview. The other two are interesting and worth reviewing, but less relevant to our immediate concerns.
-1. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read [this article](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5).
-1. What is the Node Event Loop? You may remember about this long, but _really_ [fantastic video](https://www.youtube.com/watch?v=8aGhZQkoFbQ) from an earlier part of the course... don't skip it!
+1. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read [what exactly is Node.js](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5).
+1. What is the Node Event Loop? You may remember about this long, but *really* [fantastic video](https://www.youtube.com/watch?v=8aGhZQkoFbQ) from an earlier part of the course... don't skip it!
 1. Take a few minutes to go through the "Getting Started" section of the new official [Node.js website](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs). Read up until, but not including, the TypeScript module.
-1. [This short video](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
+1. [What is Node js](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
 
 </div>
 
@@ -86,6 +86,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Read this article on [7 awesome things you can build with Node.js](https://blog.teamtreehouse.com/7-awesome-things-can-build-node-js).
