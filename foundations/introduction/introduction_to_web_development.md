@@ -30,9 +30,9 @@ Startups are a bit like the wild west. For a junior developer, it can feel like 
 
 As a freelancer, you could command a strong hourly wage and the freedom to schedule and design your own products. However, you would be responsible for getting your own work (which means less coding time), managing billing from clients (which can be difficult), and being solely responsible. Strong people skills are necessary for this path.
 
-As a consultant for a web consultancy, you would give up some of your freelancing wage potential but be able to focus more on the code and less on the hustle. This option also provides a good work/life balance and pay.
+As a consultant for a web consultancy, you would give up some of your freelancing wage potential but be able to focus more on the code and less on the hustle. This option also provides a good work-life balance and pay.
 
-Finally, large, older companies still need web developers. These companies offer a good work/life balance, pay, and benefits but often move slower than a company that is highly focused on tech.
+Finally, large, older companies still need web developers. These companies offer a good work-life balance, pay, and benefits but often move slower than a company that is highly focused on tech.
 
 ### Tools of the trade
 
@@ -65,7 +65,7 @@ It acknowledges that you need a wide variety of skill sets and languages to reac
 
 The Odin Project is constantly evolving because of people like you who get further along in the curriculum and pay it forward by incrementally improving our content over time.
 
-Once you start to feel comfortable with the tools, start contributing to open-source projects, like [contributing to The Odin Project](https://www.theodinproject.com/contributing)! The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
+Once you start to feel comfortable with the tools, start contributing to open source projects, like [contributing to The Odin Project](https://www.theodinproject.com/contributing)! The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
 
 ### Conclusion
 
