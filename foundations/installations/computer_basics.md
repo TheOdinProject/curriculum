@@ -28,7 +28,7 @@ Goodwill Community Foundation (GCF) resources are excellent to get you acquainte
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Is Windows an operating system or an application?](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
 - [What's the difference between open source and closed source software?](https://edu.gcfglobal.org/en/basic-computer-skills/open-source-vs-closed-source-software/1/)
