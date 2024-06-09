@@ -236,7 +236,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is an API?](#apis)
 - [How is access to an API restricted?](#apis)
 - [How do you fetch and extract data from an API?](#fetching-data)
-- [Why might your API request be blocked by the browser, and how might you fix this?](#cors)
+- [Why might your API request be blocked by the browser, and how might you fix it?](#cors)
 
 ### Additional resources
 
