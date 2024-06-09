@@ -33,6 +33,7 @@ Even though it describes what you did, the message is too vague, which leaves th
 Effective commits consist of two separate parts: a subject, and a body:
 
 #### Subject
+
 A brief summary of the change you made to the project.
 
 ```
@@ -40,10 +41,13 @@ This is the change I made to the codebase.
 ```
 
 <div class="lesson-note lesson-note--tip" markdown=1>
+
 GitHub has a 72-character limit so we recommend keeping your commits' subject to within this amount.
+
 </div>
 
 #### Body
+
 A concise yet clear description of what you did.
 
 ```
@@ -96,14 +100,14 @@ There will come a time when you are working on a project and you FINALLY get som
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What are two benefits of having well-written commit messages and a good commit history?](https://cbea.ms/git-commit/#intro)
 - [How many characters should the subject line of your commit message be?](https://cbea.ms/git-commit/#limit-50)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - One way to formulate high-information commit messages is to follow a template. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) is one of many commit message templates that you can explore.
 - Explore this amazing tutorial video on Conventional Commits ➔ [Full Video Link](https://www.youtube.com/watch?v=OJqUWvmf4gg). The video showcases the Conventional Commits template from the resource above. It also mentions creating releases and shows using something called "Yarn". These two parts are out of scope for this part of the course, so don't worry about them and instead focus on the commit template.
