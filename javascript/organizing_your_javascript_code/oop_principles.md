@@ -4,6 +4,10 @@ By this point, you will have learned and had a chance to practice the most commo
 
 This whole series of lessons has been about the "Object Oriented Programming" paradigm (OOP). The basics of creating objects and classes are relatively straightforward. But it is not straightforward to decide what to put in each object, or when to make a new object, or when to let an object 'inherit' from another one.
 
+Luckily there are several concepts and principles that can guide us into making good decisions when it comes to our objects. This lesson is an introduction to the most important of those concepts. Keep in mind that there is not usually a very clear answer to your application design questions. Some patterns and ideas are obviously better than others, but there is often some trade-off when deciding where to put a specific function. In other words... these principles are not *rules*- they're helpful guidelines.  
+
+As you read these resources, it might help to go back to some projects you've already done and think about how what you've written measures up to the examples you see. And of course, as you move on, keep these things in mind when crafting new projects.
+
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
@@ -11,10 +15,6 @@ This section contains a general overview of topics that you will learn in this l
 - Explain the "Single Responsibility Principle".
 - Briefly explain the additional SOLID principles.
 - Explain what "tightly coupled" objects are and why we want to avoid them.
-
-Luckily there are several concepts and principles that can guide us into making good decisions when it comes to our objects. This lesson is an introduction to the most important of those concepts. Keep in mind that there is not usually a very clear answer to your application design questions. Some patterns and ideas are obviously better than others, but there is often some trade-off when deciding where to put a specific function. In other words... these principles are not *rules*- they're helpful guidelines.  
-
-As you read these resources, it might help to go back to some projects you've already done and think about how what you've written measures up to the examples you see. And of course, as you move on, keep these things in mind when crafting new projects.
 
 ### Single responsibility
 
@@ -67,10 +67,11 @@ This one is related pretty strongly to 'Single Responsibility' but takes a diffe
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  The following article mentions the acronym **SOLID** before going on to talk about Single Responsibility. Single Responsibility is definitely the most relevant of the 5. Feel free to dig into the rest of the SOLID principles if you like, but pay special attention to Single Responsibility.
+1. The following article mentions the acronym **SOLID** before going on to talk about Single Responsibility. Single Responsibility is definitely the most relevant of the 5. Feel free to dig into the rest of the SOLID principles if you like, but pay special attention to Single Responsibility.
     1. [SOLID principle #1: Single responsibility (JavaScript)](https://duncan-mcardle.medium.com/solid-principle-1-single-responsibility-javascript-5d9ce2c6f4a5) has links to other very brief articles that cover the rest of 'SOLID'. They're optional, but recommended nonetheless. **Note**: this article riffs off what the SOLID videos in the next link goes in-depth on.
     1. Watch [The SOLID Design Principles by WDS](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9) to see code examples for each principle.
 1. [How to Write Highly Scalable and Maintainable JavaScript: Coupling](https://web.archive.org/web/20200810210808/https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4) explains loosely coupled objects pretty well.
+
 </div>
 
 ### Knowledge check
