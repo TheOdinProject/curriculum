@@ -112,7 +112,7 @@ Go ahead and try that URL (with YOUR API key) in a browser. If everything goes w
 
 ### CORS
 
-A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [Javascript.info article](https://javascript.info/fetch-crossorigin) are good starting points.
+A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [JavaScript.info article](https://javascript.info/fetch-crossorigin) are good starting points.
 
 Whether or not you took the detour to learn all about Cross Origin Resource Sharing (CORS) the fix is straightforward. With fetch, you are able to easily supply a JavaScript object for options. It comes right after the URL as a second parameter to the fetch function:
 
@@ -128,7 +128,7 @@ Adding the `{mode: 'cors'}` after the URL, as shown above, will solve our proble
 
 For now, we're going to keep all of this in a single HTML file. So go ahead and create one with a single blank image tag and an empty script tag in the body.
 
-```HTML
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -145,7 +145,7 @@ For now, we're going to keep all of this in a single HTML file. So go ahead and 
 
 In the script tag, let's start by selecting the image and assigning it to a variable so that we can change the URL once we've received it from the Giphy API.
 
-```HTML
+```html
 <script>
   const img = document.querySelector('img');
 </script>
@@ -153,7 +153,7 @@ In the script tag, let's start by selecting the image and assigning it to a vari
 
 Adding fetch with our URL from above is also relatively easy:
 
-```HTML
+```html
 <script>
   const img = document.querySelector('img');
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
@@ -165,7 +165,7 @@ Adding fetch with our URL from above is also relatively easy:
 
 You should now be able to open the HTML file in your browser, and while you won't see anything on the page, you _should_ have something logged in the console. The trickiest part of this whole process is deciphering how to get to the data you desire from the server's response. In this case, inspecting the browser's console will reveal that what's being returned is _another_ Promise... to get the data we need another `.then()` function.
 
-```HTML
+```html
 <script>
   const img = document.querySelector('img');
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
@@ -184,7 +184,7 @@ Now we have a JavaScript object and if you inspect it closely enough you'll find
 
 To get to the data we need to drill down through the layers of the object until we find what we want!
 
-```HTML
+```html
 <script>
   const img = document.querySelector('img');
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
@@ -199,7 +199,7 @@ To get to the data we need to drill down through the layers of the object until 
 
 Running the file should now log the URL of the image. All that's left to do is set the source of the image that's on the page to the URL we've just accessed:
 
-```HTML
+```html
 <script>
   const img = document.querySelector('img');
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
