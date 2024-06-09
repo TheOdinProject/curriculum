@@ -73,15 +73,15 @@ Of course, there are many more occasions where one would want to use Promises be
 <div class="lesson-content__panel" markdown="1">
 
 1. Read this [Promises article](https://davidwalsh.name/promises). It's a good starting place and it's short and to the point.
-2. Watch this [Promises video](https://youtu.be/DHvZLI7Db8E).  It's a good place to get a feel for how one might actually use promises in the wild.
-3. Watch this [What is Event Loop? video](https://www.youtube.com/watch?v=8aGhZQkoFbQ) to understand how asynchronous code works in JavaScript.
-4. Read [promise basics](https://javascript.info/promise-basics), which is an excellent resource for beginners.
+1. Watch this [Promises video](https://youtu.be/DHvZLI7Db8E).  It's a good place to get a feel for how one might actually use promises in the wild.
+1. Watch this [What is Event Loop? video](https://www.youtube.com/watch?v=8aGhZQkoFbQ) to understand how asynchronous code works in JavaScript.
+1. Read [promise basics](https://javascript.info/promise-basics), which is an excellent resource for beginners.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is a callback?](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 - [What is a promise?](#promises)
@@ -90,8 +90,8 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 1. The [Promises by ColorCode](https://www.youtube.com/watch?v=TnhCX0KkPqs) is a nice introduction to Promises if you need additional information.
-2. For a more interactive explanation and example, try a [Scrim on asynchronous coding](https://scrimba.com/scrim/cof4e4fb797a2d0a236ea38ce?embed=odin,mini-header,no-next-up).
-3. Read [Chapter 2: Callbacks](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch2.md) and [Chapter 3: Promises](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md) from "You Don't Know JavaScript". Both chapters dive deep into their respective topics, which may make for a difficult - but worthwhile - read.
+1. For a more interactive explanation and example, try a [Scrim on asynchronous coding](https://scrimba.com/scrim/cof4e4fb797a2d0a236ea38ce?embed=odin,mini-header,no-next-up).
+1. Read [Chapter 2: Callbacks](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch2.md) and [Chapter 3: Promises](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md) from "You Don't Know JavaScript". Both chapters dive deep into their respective topics, which may make for a difficult - but worthwhile - read.
