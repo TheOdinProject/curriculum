@@ -2,7 +2,7 @@
 
 It's time to practice all of the HTML knowledge you have acquired. In this project, you are going to build a basic recipe website.
 
-The website will consist of a main index page which will have links to a few recipes. The website won't look very pretty by the time you've finished. Not unless you're into [brutalist web design](https://brutalistwebsites.com/), that is.
+The website will consist of a main index page which will have links to a few recipes. The website won't look very pretty by the time you've finished, unless you're into [brutalist web design](https://brutalistwebsites.com/), that is.
 
 But it's important to keep in mind that this project is just to build your HTML chops; we will revisit this project in the future to style it up with CSS.
 
@@ -14,9 +14,10 @@ As mentioned in the [Introduction to Git lesson](https://www.theodinproject.com/
 
 #### Be careful about creating files on GitHub
 
-GitHub allows us to make changes directly on its site. If you do this after you have cloned the repository to your machine, it will cause your local code to be a version behind the remote, creating extra challenges when you push your work. Most of the time you should be creating files locally.
+GitHub allows us to make changes directly on its site. If you do this after you have cloned the repository to your machine, it will cause your local code to be a version behind the remote, creating extra challenges when you push your work. Most of the time, you should be creating files locally.
 
- As you progress in the course, you'll learn how to handle these situations, but for now it's important to follow the instructions carefully to stay on the simple path.
+ As you progress in the course, you'll learn how to handle these situations, but for now, it's important to follow the instructions carefully to stay on the simple path.
+ 
 </div>
 
 If you do not know how to set up a repository, follow instruction steps 1 and 2 found in [Git Basics](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) to learn how, before carrying on with these steps:
@@ -92,7 +93,7 @@ Example:
   </ul>
 ```
   
-Your links won't be flashy, but for now just focus on building them out.
+Your links won't be flashy, but for now, just focus on building them out.
 </div>
 
 ### Viewing your project on the web
@@ -102,7 +103,9 @@ If you want to show your work (the project) to others, or submit a solution belo
 GitHub allows you to publish web projects directly from a GitHub repository. Doing this will allow you to access your project from `your-github-username.github.io/your-github-repo-name`.
 
 <div class="lesson-note">
+
 A GitHub paid account is required to publish a private repository.
+
 </div>
 
 There are a couple of ways to go about doing this, but the simplest is this:
@@ -116,6 +119,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - If your project does not publish after 1 hour, ensure that you have a file called `index.html` in the root of your repository and all the settings have been set correctly.  Go to your repo on GitHub and click on Actions, if there are no entries, then go back to the settings, change the **Branch** from *main branch* to *none* and click **Save**, then change the **Branch** from *none* to *main branch* and click **Save**.
 
 <div class="lesson-note" markdown="1">
+
 When you look at project submissions below, you might be asking:
 "Why do they look so good, should my project look like this?".
 
@@ -126,4 +130,5 @@ Here is the answer:
 
 This applies for future projects too.
 For more information read ["Learning Code" from "Becoming a TOP Success Story"](https://dev.to/theodinproject/learning-code-f56).
+
 </div>
