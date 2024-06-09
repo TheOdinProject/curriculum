@@ -78,10 +78,10 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 <div class="lesson-content__panel" markdown="1">
 
 1. Read through [GitHub's documentation on merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)
-    * It's only a matter of time until you run into one (if you haven't already)! While merge conflicts might seem intimidating, they're actually very simple. Take your time with this resource and make sure you look at the two different ways the documentation suggests resolving merge conflicts - on GitHub itself, and on your command line. While you might not need this right now, keeping the source of this documentation in the back of your mind will prove invaluable for when you eventually run into a merge conflict and aren't sure where to find a solution.
+    - It's only a matter of time until you run into one (if you haven't already)! While merge conflicts might seem intimidating, they're actually very simple. Take your time with this resource and make sure you look at the two different ways the documentation suggests resolving merge conflicts - on GitHub itself, and on your command line. While you might not need this right now, keeping the source of this documentation in the back of your mind will prove invaluable for when you eventually run into a merge conflict and aren't sure where to find a solution.
 
 1. Read [think-like-a-git](http://think-like-a-git.net/)
-    * Take your time with this resource as well, it's very well written and will be very helpful in solidifying your understanding of Git.
+    - Take your time with this resource as well, it's very well written and will be very helpful in solidifying your understanding of Git.
 
 </div>
 
@@ -89,9 +89,9 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
--   <a class='knowledge-check-link' href='#force-with-lease'>What is a safe way to push history changes to a remote repository?</a>
--   <a class='knowledge-check-link' href='#dangers'>What are the dangers of history-changing operations?</a>
--   <a class='knowledge-check-link' href='#best-practices'>What are best practices of history-changing operations?</a>
+- <a class='knowledge-check-link' href='#force-with-lease'>What is a safe way to push history changes to a remote repository?</a>
+- <a class='knowledge-check-link' href='#dangers'>What are the dangers of history-changing operations?</a>
+- <a class='knowledge-check-link' href='#best-practices'>What are best practices of history-changing operations?</a>
 
 
 ### Additional resources
