@@ -1,6 +1,6 @@
 ### Introduction
 
-By this point, you will have learned and had a chance to practice the most common object-creation and organization patterns in JavaScript. But that is just the _tip_ of the iceberg. More important than learning the syntax for factory functions or modules is figuring out how to use them effectively.
+By this point, you will have learned and had a chance to practice the most common object-creation and organization patterns in JavaScript. But that is just the *tip* of the iceberg. More important than learning the syntax for factory functions or modules is figuring out how to use them effectively.
 
 This whole series of lessons has been about the "Object Oriented Programming" paradigm (OOP). The basics of creating objects and classes are relatively straightforward. But it is not straightforward to decide what to put in each object, or when to make a new object, or when to let an object 'inherit' from another one.
 
@@ -20,7 +20,7 @@ As you read these resources, it might help to go back to some projects you've al
 
 As you craft your objects, one of the most important things to remember is the **Single Responsibility Principle** which states that a class (or object or module... you get the point) should only have *one* responsibility. This doesn't mean that an object can only do one thing, but it does mean that everything an object does should be part of one responsibility.
 
-Here's a really common example. Most of our code has functions to update and write things to the DOM in addition to our application logic. It's a _really_ good idea to separate your DOM stuff from the application logic.
+Here's a really common example. Most of our code has functions to update and write things to the DOM in addition to our application logic. It's a *really* good idea to separate your DOM stuff from the application logic.
 
 Here we have a function that should check if a game over condition has been met.  There are two issues with this:
 
@@ -57,13 +57,11 @@ Another way to think about the Single Responsibility Principle is that a given m
 
 The Single Responsibility Principle is the first of a commonly found set of 5 design principles called the **SOLID** principles. You will read more about these principles in the assignment articles below.
 
-
 ### Loosely coupled objects
 
 Obviously, all of our objects are intended to work together to form our final application. You should take care, however, to make sure that your individual objects can stand alone as much as possible. **Tightly coupled** objects are objects that rely so heavily on each other that removing or changing one will mean that you have to completely change another one - a real bummer.
 
 This one is related pretty strongly to 'Single Responsibility' but takes a different angle. As an example, if we were writing a game and wanted to completely change how the User Interface worked, we should be able to do that without completely reworking the game logic. So we should be able to start off writing our game using primarily `console.log()`s and then add in a bunch of `DOM` functions later without touching the game logic.
-
 
 ### Assignment
 
