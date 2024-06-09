@@ -63,24 +63,24 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 
 <span id='best-practices'></span>
 
-1.  If working on a team project, make sure rewriting history is safe to do and others know you're doing it.
-2.  Ideally, stick to using these commands only on branches that you're working with by yourself.
-3.  Using the `-f` flag to force something should scare you, and you better have a really good reason for using it.
-4.  Don't push after every single commit, changing published history should be avoided when possible.
-5.  Regarding the specific commands we've covered:
-    1.  For `git commit --amend` never amend commits that have been pushed to remote repositories.
-    2.  For `git rebase` never rebase a repository that others may work off of.
-    3.  For `git reset` never reset commits that have been pushed to remote repositories.
-    4.  For `git push --force` only use it when appropriate, use it with caution, and preferably default to using `git push --force-with-lease`.
+1. If working on a team project, make sure rewriting history is safe to do and others know you're doing it.
+1. Ideally, stick to using these commands only on branches that you're working with by yourself.
+1. Using the `-f` flag to force something should scare you, and you better have a really good reason for using it.
+1. Don't push after every single commit, changing published history should be avoided when possible.
+1. Regarding the specific commands we've covered:
+    1. For `git commit --amend` never amend commits that have been pushed to remote repositories.
+    1. For `git rebase` never rebase a repository that others may work off of.
+    1. For `git reset` never reset commits that have been pushed to remote repositories.
+    1. For `git push --force` only use it when appropriate, use it with caution, and preferably default to using `git push --force-with-lease`.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through [GitHub's documentation on merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)
+1. Read through [GitHub's documentation on merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)
     * It's only a matter of time until you run into one (if you haven't already)! While merge conflicts might seem intimidating, they're actually very simple. Take your time with this resource and make sure you look at the two different ways the documentation suggests resolving merge conflicts - on GitHub itself, and on your command line. While you might not need this right now, keeping the source of this documentation in the back of your mind will prove invaluable for when you eventually run into a merge conflict and aren't sure where to find a solution.
 
-2.  Read [think-like-a-git](http://think-like-a-git.net/)
+1. Read [think-like-a-git](http://think-like-a-git.net/)
     * Take your time with this resource as well, it's very well written and will be very helpful in solidifying your understanding of Git.
 
 </div>
@@ -89,13 +89,13 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-*   <a class='knowledge-check-link' href='#force-with-lease'>What is a safe way to push history changes to a remote repository?</a>
-*   <a class='knowledge-check-link' href='#dangers'>What are the dangers of history-changing operations?</a>
-*   <a class='knowledge-check-link' href='#best-practices'>What are best practices of history-changing operations?</a>
+-   <a class='knowledge-check-link' href='#force-with-lease'>What is a safe way to push history changes to a remote repository?</a>
+-   <a class='knowledge-check-link' href='#dangers'>What are the dangers of history-changing operations?</a>
+-   <a class='knowledge-check-link' href='#best-practices'>What are best practices of history-changing operations?</a>
 
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* If you're looking for an interactive way to deepen your knowledge of working with Git, check out this game, [Learn Git Branching](https://learngitbranching.js.org/)
+- If you're looking for an interactive way to deepen your knowledge of working with Git, check out this game, [Learn Git Branching](https://learngitbranching.js.org/)
