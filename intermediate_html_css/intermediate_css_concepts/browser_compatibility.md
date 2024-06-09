@@ -58,7 +58,7 @@ As you're developing your applications, you must also consider whether your appl
 
 1. <span id="apple-browsers">On iOS and iPadOS, Safari is technically the only supported browser. Yes, you can install Chrome or Firefox, and you can even set them as a default, but they are not full browsers. They are still using the Safari rendering engine (WebKit). Therefore, for your web application to work for Apple users, you have to ensure support for WebKit and other technologies used in Safari.
 It's important to remember that mobile browsers are not one-to-one with their desktop counterparts. A project that works in the desktop version of Safari might still need adjustments to work properly on the mobile version of the same browser.</span>
-2. Another consideration for mobile browsers is the magnitude of different screen sizes. It is virtually impossible to have every physical device available to test, and thankfully browsers provide a way to emulate other devices. The important piece to remember is that when, for example, you emulate an iPhone in Chrome, all that you're emulating is the screen size. Keep in mind that any specific considerations of the operating system will not be reproducible. Which means that even though everything functions well in Chrome when emulating a device, it could behave differently on the actual phone or tablet device.
+1. Another consideration for mobile browsers is the magnitude of different screen sizes. It is virtually impossible to have every physical device available to test, and thankfully browsers provide a way to emulate other devices. The important piece to remember is that when, for example, you emulate an iPhone in Chrome, all that you're emulating is the screen size. Keep in mind that any specific considerations of the operating system will not be reproducible. Which means that even though everything functions well in Chrome when emulating a device, it could behave differently on the actual phone or tablet device.
 
 ### Assignment
 
@@ -83,5 +83,3 @@ This section contains helpful links to related content. It isn't required, so co
 
 - Read more about the [history of web browsers](https://taskade.medium.com/history-of-web-browsers-the-evolution-of-digital-productivity-️-28fa2d4130fb).
 - Take a look at this [comprehensive primer on browsers and rendering engines](https://web.dev/articles/howbrowserswork).
-
-
