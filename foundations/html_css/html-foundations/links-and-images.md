@@ -163,15 +163,19 @@ Instead of wrapping content with an opening and closing tag, it embeds an image 
 For example, using an absolute path we can display an image located on The Odin Project site:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="gORbExZ" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/gORbExZ">
   absolute-path-image</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 To use images that we have on our own websites, we can use a relative path.
 
 <details markdown="block">
+
 <summary class="dropDown-header">Linux, macOS, ChromeOS
 </summary>
 
@@ -182,6 +186,7 @@ To use images that we have on our own websites, we can use a relative path.
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">WSL2
 </summary>
 
@@ -255,10 +260,13 @@ The alt attribute is used to describe an image. It will be used in place of the 
 This is how the The Odin Project logo example we used earlier looks with an alt attribute included:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="ExXjoEp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/ExXjoEp">
   image-alt-attribute</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 As a bit of practice, add an alt attribute to the dog image we added to the `odin-links-and-images` project.
@@ -273,10 +281,13 @@ It is a good habit to always specify these attributes on every image, even when 
 Here is our Odin Project logo example with height and width tags included:
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PogmYGp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PogmYGp">
   Image Height and Width Attributes</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Go ahead and update the `odin-links-and-images` project with width and height tags on the dog image.
@@ -294,7 +305,7 @@ Go ahead and update the `odin-links-and-images` project with width and height ta
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What element is used to create a link?](#anchor-elements)
 - [What is an attribute?](#attribute)
