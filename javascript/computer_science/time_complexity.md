@@ -312,8 +312,8 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through [Big O Notation in JavaScript by Doable Danny](https://www.doabledanny.com/big-o-notation-in-javascript). It covers the common complexities with graphs and examples.
-1.  The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
+1. Read through [Big O Notation in JavaScript by Doable Danny](https://www.doabledanny.com/big-o-notation-in-javascript). It covers the common complexities with graphs and examples.
+1. The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
 1. Read the [Step-by-step Big O Complexity Analysis Guide, using JavaScript](https://www.sahinarslan.tech/posts/step-by-step-big-o-complexity-analysis-guide-using-javascript). It has a section on Space Complexity at the end which you can skip for now.
 
 </div>
@@ -331,6 +331,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
--  It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
+- It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
 
--  In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.
+- In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.
