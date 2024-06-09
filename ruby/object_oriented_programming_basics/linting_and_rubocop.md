@@ -233,12 +233,12 @@ Style/FrozenStringLiteralComment:
 
 Placement of `.rubocop.yml` in `~` is not accidental - if RuboCop can't find a config file anywhere in the project, it'll look for it in couple of more places, one of them being your home directory. This config file will make it so every project without own configuration will follow these rules - NewCops being enabled, string literals all being double-quoted and not allowing for a magic comment enabling or disabling frozen string literals - this last thing will make sense after you work with RuboCop for a while.
 
-But what with your projects that want to use *some* of the general configuration but not all of it? Enter: `inherit_from`. By adding a line with `inherit_from ~/.rubocop.yml` into your local `.rubocop.yml` makes it use the same rules as defined there. You can then overwrite them locally. Neater thing? You can have directory-specific `.rubocop.yml`s that inherit from your project specific configuration file just to make sure every file in that directory is or is not following some rules. Let's see an example:
+But what with your projects that want to use *some* of the general configuration but not all of it? Enter: `inherit_from:`. By adding a line with `inherit_from: ~/.rubocop.yml` into your local `.rubocop.yml` makes it use the same rules as defined there. You can then overwrite them locally. Neater thing? You can have directory-specific `.rubocop.yml`s that inherit from your project specific configuration file just to make sure every file in that directory is or is not following some rules. Let's see an example:
 
 ```yaml
 # This is .rubocop.yml in ~/my-cool-project/
 
-inherit_from ~/.rubocop.yml
+inherit_from: ~/.rubocop.yml
 
 Style/StringLiterals:
   EnforcedStyle: single_quotes
