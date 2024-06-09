@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a little program that prints out all odd numbers between 1 and 10.
 
-```js
+```javascript
 function oddNumbersLessThanTen() {
   let currentNumber = 1;
 
@@ -48,14 +48,14 @@ Let's go back to our `oddNumbersLessThanTen function`. How many steps does our a
 
 1. We assign the number 1 to a variable. That's one step.
 
-2. We have a loop. For each iteration of the loop, we do the following:
+1. We have a loop. For each iteration of the loop, we do the following:
 
     1. Compare `currentNumber` to see if it is less than 10. That is 1 step.
-    2. We then check if currentNumber is odd. That is 1 step.
-    3. If it is then we output it to the terminal. That's 1 step every 2 iterations.
-    4. We increase `currentNumber` by 1. That is 1 step.
+    1. We then check if currentNumber is odd. That is 1 step.
+    1. If it is then we output it to the terminal. That's 1 step every 2 iterations.
+    1. We increase `currentNumber` by 1. That is 1 step.
 
-3. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
+1. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
 
 So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `currentNumber` and checking the exit condition of the loop is one step each. 27 + 5 + 1 + 1 = 34 steps.
 
@@ -63,7 +63,7 @@ Therefore, we can say our algorithm takes 34 steps to complete.
 
 While this is useful to know, it isn't actually helpful for comparing algorithms. To see why, let's slightly modify our initial algorithm to take in a number instead of setting a hard default of 10.
 
-```js
+```javascript
 function oddNumbers(maxNumber) {
   let currentNumber = 1;
 
@@ -122,13 +122,13 @@ The Big O Notations in the order of speed from fastest to slowest are:
 
 To understand Constant Complexity, let's use an array.
 
-```js
+```javascript
 arr = [1, 2, 3, 4, 5];
 ```
 
 If we want to look up what is at index 2, we can get to the element using `arr[2]` which would give us back `3`. This takes just one step. If we double our array...
 
-```js
+```javascript
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 
@@ -146,19 +146,19 @@ Logarithmic Complexity tells us that the numbers of steps an algorithm takes inc
 
 One such algorithm that does this is Binary Search. It only works on sorted arrays, but if you have an array of 10 items in sorted order
 
-```js
+```javascript
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 
 and wanted to know if it had the number `7`, Binary Search would guess the middle item of the array and see what is there. Because the array is sorted, if the number at the middle index was `6`, then we know anything to the left of that index cannot be the number 7, as those items must be lower than 6 in a sorted array.
 
-```js
+```javascript
 arr = [-, -, -, -, -, 6, 7, 8, 9, 10]
 ```
 
 Therefore in just one step, we've eliminated half of the array. We can do the same with the remaining half. We can guess the middle index and see if it's 7. Half of that (half of an array) array eliminated again. In this case, the middle index would be 8, and we know that 7 is less than 8 so we can eliminate anything to the right of the number 8.
 
-```js
+```javascript
 arr = [6, 7, 8, -, -]
 ```
 
@@ -235,7 +235,7 @@ If Big O gives us the worst-case scenario of how our algorithm will scale, what 
 
 Omega Notations gives us the best-case scenario for an algorithm. To understand where this might be, let's look at a method and discuss how we can measure its complexity.
 
-```js
+```javascript
 function findValue(arr) {
   for (let i = 0; i < arr.length; i++) {
     let item = arr[i];
@@ -272,7 +272,7 @@ If we write two algorithms with the same complexity, does that mean they're equa
 
 The first example is some code we've seen already, our `oddNumbers` function.
 
-```js
+```javascript
 function oddNumbers(maxNumber) {
   let currentNumber = 1;
 
@@ -290,7 +290,7 @@ The time complexity of this algorithm is `O(N)`. As the data size increases, the
 
 Let's look at another version:
 
-```js
+```javascript
 function oddNumbers(maxNumber) {
   let currentNumber = 1;
 
