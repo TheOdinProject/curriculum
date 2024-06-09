@@ -17,21 +17,21 @@ Servers that are created for serving data for external use (in websites or apps)
 
 There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, WeatherAPI has several types of data that you can request. To get the current weather in a specific location, you can pass in the name of a city (optionally, you can also pass a zip code & even an ip-address!) as a URL query string parameter, like so:
 
-```
+```text
 https://api.weatherapi.com/v1/current.json?q=london
 ```
 
-The specifics for using any API are usually documented on the service's website. [Check here for the WeatherAPI documentation](https://www.weatherapi.com/docs/). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser... (we'll wait).
+The specifics for using any API are usually documented on the service's website. [Check the WeatherAPI documentation](https://www.weatherapi.com/docs/). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser... (we'll wait).
 
 You'll probably get an error like this:
 
-```
+```text
 {{"error":{"code":1002,"message":"API key is invalid or not provided."}}}
 ```
 
-This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints (specific URLs that you use to access a particular function or data within the API). Once obtained, an API key will usually have to be included with every data request, such as _another_ URL query string parameter:
+This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints (specific URLs that you use to access a particular function or data within the API). Once obtained, an API key will usually have to be included with every data request, such as *another* URL query string parameter:
 
-```
+```text
 https://api.weatherapi.com/v1/current.json?key=11111111111111111&q=london
 ```
 
@@ -39,7 +39,7 @@ As you can imagine, an API key is random and unique to you. As such, services li
 
 On one hand, issuing API keys allows an API service to better track abuse of their systems and data. On the other hand, it can also be a way for those services to mitigate and recuperate operating costs. WeatherAPI, for example, provides not only a free tier but a variety of paid tiers that can cost up to 65 USD/month! After all, running servers costs money, and APIs are no exception. While a single request to an API might cost a fraction of a penny, imagine using that API to create an amazing weather app that gets used all over the world... you could easily have thousands of people accessing that data every minute! The cost to handle that traffic could quickly balloon up to significant sums for the API service.
 
-As such, you'll find that most API services, if not all, provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, WeatherAPI's free plan only allows your app to make a monthly total of 1 million requests and limits the information provided, while the "Business" tier allows up to 10,000,000 requests per month and gives you all of the available information! The free tier also comes with basic hourly and daily forecasting data, but it does not include data for a 30-day forecast ([details here if you're interested](https://www.weatherapi.com/pricing.aspx)). So, if your app becomes successful and needs additional features, you'll probably need to pay for a better account.
+As such, you'll find that most API services, if not all, provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, WeatherAPI's free plan only allows your app to make a monthly total of 1 million requests and limits the information provided, while the "Business" tier allows up to 10,000,000 requests per month and gives you all of the available information! The free tier also comes with basic hourly and daily forecasting data, but it does not include data for a 30-day forecast ([details if you're interested](https://www.weatherapi.com/pricing.aspx)). So, if your app becomes successful and needs additional features, you'll probably need to pay for a better account.
 
 Because your API key is **your** key to these services and data, securing them is an important habit, especially if you are using a paid tier. There are plenty of bots that crawl GitHub repositories solely for hardcoded/unsecured API keys, allowing bad agents to then access and [utilize the services and data you've paid for](https://web.archive.org/web/20150102022540/http://www.devfactor.net/2014/12/30/2375-amazon-mistake/). In fact, the more eagle-eyed readers may have noticed a problem with the demonstration above: The API key is right there in the URL request. It would not take much for an internet traffic sniffer to pick up on the API key, least of all someone looking over your shoulder!
 
@@ -96,11 +96,12 @@ fetch('https://url.com/some/url')
     // Error :(
   });
 ```
+
 In case you've forgotten, scroll back up and look at how you would use XHR to do the same thing. While you're admiring how nice and clean that code is, notice the `.then()` and `.catch()` functions there. Do you remember what those are? (PROMISES!)
 
-Let's change up our API for this example. We're going to walk through an example using fetch with the [giphy](https://giphy.com/) API to display a random gif on a webpage. The API requires you to sign up and get a free API key, so go ahead and [do that here](https://developers.giphy.com/docs/api#quick-start-guide).
+Let's change up our API for this example. We're going to walk through an example using fetch with the [giphy](https://giphy.com/) API to display a random gif on a webpage. The API requires you to sign up and get a free API key, so go ahead and [do that](https://developers.giphy.com/docs/api#quick-start-guide).
 
-Giphy has several methods for searching and finding GIFs which you can read about in their documentation. Today we're just going to use the 'translate' endpoint because it's the simplest one for our purposes. You can find the appropriate URL in their documentation by scrolling down [here](https://developers.giphy.com/docs/api/endpoint#translate). What it tells us is that the correct URL is `api.giphy.com/v1/gifs/translate` and that it requires 2 parameters, your `api_key` and a `search term`. If you put it all together correctly (with YOUR API key) you should get something like this:
+Giphy has several methods for searching and finding GIFs which you can read about in their documentation. Today we're just going to use the 'translate' endpoint because it's the simplest one for our purposes. You can find the appropriate URL in their documentation by scrolling down [to translate](https://developers.giphy.com/docs/api/endpoint#translate). What it tells us is that the correct URL is `api.giphy.com/v1/gifs/translate` and that it requires 2 parameters, your `api_key` and a `search term`. If you put it all together correctly (with YOUR API key) you should get something like this:
 
 ```javascript
 'https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats'
