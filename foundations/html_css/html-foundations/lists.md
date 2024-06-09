@@ -42,6 +42,7 @@ Ordered lists are created using the `<ol>` element. Each individual item in them
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 To get some practice using lists, create a new HTML document and create the following lists:
 
 1. An unordered shopping list of your favorite foods
@@ -53,7 +54,7 @@ To get some practice using lists, create a new HTML document and create the foll
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What HTML element is used to create an unordered list?](#unordered-lists)
 - [What HTML element is used to create an ordered list?](#ordered-lists)
