@@ -21,11 +21,11 @@ Relative units are units that can change based on their context. There are sever
 
 `em` and `rem` both refer to a font size, though they are often used to define other sizes in CSS. You'll see both of them often so we're going to explain both, but as a rule-of-thumb, prefer `rem`.
 
-`1em` is the `font-size` of an element (or the element's parent if you're using it to set `font-size`). So, for example, if an element's `font-size` is `16px`, then setting its width to `4em` would make its width `64px` (`16 * 4 == 64`). 
+`1em` is the `font-size` of an element (or the element's parent if you're using it to set `font-size`). So, for example, if an element's `font-size` is `16px`, then setting its width to `4em` would make its width `64px` (`16 * 4 == 64`).
 
 `1rem` is the `font-size` of the root element (either `:root` or `html`). The math works the same with `rem` as it did with `em`, but without the added complexity of keeping track of the parent's font size. Relying on `em` could mean that a particular size could change if the context changes, which is very likely not the behavior you want.
 
-Using a relative size like `rem` to define font sizes across your website _is_ recommended. Many browsers allow users to change the base font-size to increase readability. If at all possible, it is advisable to respect a user's wishes regarding font size. You'll learn more about this from the reading assignments.
+Using a relative size like `rem` to define font sizes across your website *is* recommended. Many browsers allow users to change the base font-size to increase readability. If at all possible, it is advisable to respect a user's wishes regarding font size. You'll learn more about this from the reading assignments.
 
 #### Viewport units
 
@@ -36,8 +36,8 @@ The units `vh` and `vw` relate to the size of the viewport. Specifically, `1vh` 
 <div class="lesson-content__panel" markdown="1">
 
 1. [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) covers all the available units.
-2. The article [CSS units](https://codyloyd.com/2021/css-units/) goes in depth on how and when you might want to use `em`, `rem`, or `px`.
-3. [Fun with Viewport Units](https://css-tricks.com/fun-viewport-units/) demonstrates some interesting things you can do with `vh` and `vw`.
+1. The article [CSS units](https://codyloyd.com/2021/css-units/) goes in depth on how and when you might want to use `em`, `rem`, or `px`.
+1. [Fun with Viewport Units](https://css-tricks.com/fun-viewport-units/) demonstrates some interesting things you can do with `vh` and `vw`.
 
 </div>
 
@@ -53,4 +53,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* Watch [are you using the right CSS unit?](https://www.youtube.com/watch?v=N5wpD9Ov_To) if you'd like to learn Kevin Powells general rules of thumb when it comes to choosing the correct CSS units for different situations.
+- Watch [are you using the right CSS unit?](https://www.youtube.com/watch?v=N5wpD9Ov_To) if you'd like to learn Kevin Powells general rules of thumb when it comes to choosing the correct CSS units for different situations.
