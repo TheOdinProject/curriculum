@@ -92,7 +92,6 @@ We can do this with the min and max attributes, which allows us to set the lower
 The min and max attributes only work with number-based form controls such as the number, dates and time inputs.
 You can view the complete list of supported elements on [MDN's documentation on the `max` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max#syntax).
 
-
 Some real-world use cases for using these validations would be limiting the quantity on a product order form or choosing the number of passengers on a flight booking form.
 
 #### Min validation
@@ -208,9 +207,9 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 1. Read and follow along to [MDN's Client-Side Form Validation Guide](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
    - Skip the section on "Validating forms using JavaScript". This will be covered in a future lesson.
 
-2. Go through SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/). You can skip the section on "JavaScript and the Constraint Validation API" and "Creating a Custom Form Validator".
+1. Go through SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/). You can skip the section on "JavaScript and the Constraint Validation API" and "Creating a Custom Form Validator".
 
-3. Read Silo Creativo's article [Improving UX in forms](https://www.silocreativo.com/en/css-rescue-improving-ux-forms/).
+1. Read Silo Creativo's article [Improving UX in forms](https://www.silocreativo.com/en/css-rescue-improving-ux-forms/).
 
 </div>
 
