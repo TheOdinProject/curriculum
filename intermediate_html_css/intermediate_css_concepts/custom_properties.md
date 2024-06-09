@@ -130,6 +130,7 @@ Giving users the ability to toggle a theme themselves is great, but there's anot
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/powGZzE">
   Theme Query | CSS Custom Properties</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
