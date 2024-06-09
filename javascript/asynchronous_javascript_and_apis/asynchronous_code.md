@@ -92,6 +92,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-1. The [Promises by ColorCode](https://www.youtube.com/watch?v=TnhCX0KkPqs) is a nice introduction to Promises if you need additional information.
-1. For a more interactive explanation and example, try a [Scrim on asynchronous coding](https://scrimba.com/scrim/cof4e4fb797a2d0a236ea38ce?embed=odin,mini-header,no-next-up).
-1. Read [Chapter 2: Callbacks](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch2.md) and [Chapter 3: Promises](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md) from "You Don't Know JavaScript". Both chapters dive deep into their respective topics, which may make for a difficult - but worthwhile - read.
+- The [Promises by ColorCode](https://www.youtube.com/watch?v=TnhCX0KkPqs) is a nice introduction to Promises if you need additional information.
+- For a more interactive explanation and example, try a [Scrim on asynchronous coding](https://scrimba.com/scrim/cof4e4fb797a2d0a236ea38ce?embed=odin,mini-header,no-next-up).
+- Read [Chapter 2: Callbacks](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch2.md) and [Chapter 3: Promises](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch3.md) from "You Don't Know JavaScript". Both chapters dive deep into their respective topics, which may make for a difficult - but worthwhile - read.
