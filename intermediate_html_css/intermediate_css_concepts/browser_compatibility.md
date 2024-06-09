@@ -63,11 +63,15 @@ It's important to remember that mobile browsers are not one-to-one with their de
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 - Review [Can I Use](https://caniuse.com/). Are all technologies you have encountered so far supported by popular browsers?
 - Read this article [about browsers on iOS](https://adactio.com/journal/17428).
+
 </div>
 
 ### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the most used browser currently?](#most-used-browser)
 - [What was the original name of the first web browser?](#first-web-browser)
@@ -75,7 +79,7 @@ It's important to remember that mobile browsers are not one-to-one with their de
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Read more about the [history of web browsers](https://taskade.medium.com/history-of-web-browsers-the-evolution-of-digital-productivity-️-28fa2d4130fb).
 - Take a look at this [comprehensive primer on browsers and rendering engines](https://web.dev/articles/howbrowserswork).
