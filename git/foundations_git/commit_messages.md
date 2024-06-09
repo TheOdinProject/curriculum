@@ -82,7 +82,7 @@ There will come a time when you are working on a project and you FINALLY get som
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  This article, [How to Write a Git Commit Message](https://cbea.ms/git-commit), covers all the main bases on how to write good commit messages. The whole article is great and informative but the meat of the article is “The seven rules of a great commit message.”
+1. This article, [How to Write a Git Commit Message](https://cbea.ms/git-commit), covers all the main bases on how to write good commit messages. The whole article is great and informative but the meat of the article is “The seven rules of a great commit message.”
 
 </div>
 
