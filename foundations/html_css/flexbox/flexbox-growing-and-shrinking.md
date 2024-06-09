@@ -84,7 +84,7 @@ It *is* possible to get fancy, and set up layouts where some columns relate to e
 
 1. Read [W3C's flex section](https://www.w3.org/TR/css-flexbox-1/#flex-common) to understand the basic values of common flex shorthand values.
 
-2. This [MDN Doc](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) summarizes the entire flex shorthand values as well as introduces some new syntax that hasn't been covered in the previous article.
+1. This [MDN Doc](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) summarizes the entire flex shorthand values as well as introduces some new syntax that hasn't been covered in the previous article.
 
 </div>
 
@@ -99,6 +99,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Check out this video](https://www.youtube.com/watch?v=u044iM9xsWU&t=1s&pp=ugMICgJhchABGAE%3D) explaining how flexbox works and why.
+- This [video](https://www.youtube.com/watch?v=u044iM9xsWU&t=1s&pp=ugMICgJhchABGAE%3D) explains how flexbox works and why.
 
 - For an interactive explanation and demo, check out the [Scrim on the flex shorthand](https://scrimba.com/learn/flexbox/the-flex-property-flexbox-tutorial-cGNKJTv). For an alternative explanation you can view the [Scrim on using flex-grow, flex-shrink, and flex-basis](https://scrimba.com/learn/flexbox/flex-grow-shrink-basis-flexbox-tutorial-ck6L7fv). Note that these Scrims require logging into Scrimba in order to view.
