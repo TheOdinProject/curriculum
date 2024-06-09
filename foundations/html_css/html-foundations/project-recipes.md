@@ -17,7 +17,7 @@ As mentioned in the [Introduction to Git lesson](https://www.theodinproject.com/
 GitHub allows us to make changes directly on its site. If you do this after you have cloned the repository to your machine, it will cause your local code to be a version behind the remote, creating extra challenges when you push your work. Most of the time, you should be creating files locally.
 
  As you progress in the course, you'll learn how to handle these situations, but for now, it's important to follow the instructions carefully to stay on the simple path.
- 
+
 </div>
 
 If you do not know how to set up a repository, follow instruction steps 1 and 2 found in [Git Basics](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) to learn how, before carrying on with these steps:
@@ -94,6 +94,7 @@ Example:
 ```
   
 Your links won't be flashy, but for now, just focus on building them out.
+
 </div>
 
 ### Viewing your project on the web
