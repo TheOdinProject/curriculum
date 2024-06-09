@@ -24,7 +24,7 @@ Yes! Let me give you a quick list of reasons why:
 
 When it comes to writing commits, it is crucial to know how to write them effectively. Here's an example of a bad commit message:
 
-```
+```text
 fix a bug
 ```
 
@@ -36,7 +36,7 @@ Effective commits consist of two separate parts: a subject, and a body:
 
 A brief summary of the change you made to the project.
 
-```
+```text
 This is the change I made to the codebase.
 ```
 
@@ -50,10 +50,9 @@ GitHub has a 72-character limit so we recommend keeping your commits' subject to
 
 A concise yet clear description of what you did.
 
-```
+```text
 Describe the problem your commit solves and how.
 ```
-
 
 Now that we learned the secret to creating a good commit message, let's try and fix the commit message from earlier:
 
@@ -69,12 +68,9 @@ Ahh, that's better! :) Now, developers can gain a better understanding of this c
 - Contains a body that provides a concise yet clear description of why the commit needed to be made (e.g., "Screen readers won't read the images to users with disabilities without this information").
 - Separates the subject from the body with a new/blank line. This is a best practice we highly recommend following. It makes commit messages easier for other developers to read.
 
-
-
 ### When to commit
 
 A good way to view a commit is like a “snapshot” of your code at the moment that it was made. That version of your code up to that point will be saved for you to revert back to or look back at.
-
 
 When writing code, it's considered best practice to commit every time you have a meaningful change in the code. This will create a timeline of your progress and show that your finished code didn't appear out of nowhere.
 
@@ -89,7 +85,6 @@ There will come a time when you are working on a project and you FINALLY get som
 1.  This article, [How to Write a Git Commit Message](https://cbea.ms/git-commit), covers all the main bases on how to write good commit messages. The whole article is great and informative but the meat of the article is “The seven rules of a great commit message.”
 
 </div>
-
 
 ### Tips and things to remember:
 
