@@ -163,7 +163,7 @@ Adding fetch with our URL from above is also relatively easy:
 </script>
 ```
 
-You should now be able to open the HTML file in your browser, and while you won't see anything on the page, you _should_ have something logged in the console. The trickiest part of this whole process is deciphering how to get to the data you desire from the server's response. In this case, inspecting the browser's console will reveal that what's being returned is _another_ Promise... to get the data we need another `.then()` function.
+You should now be able to open the HTML file in your browser, and while you won't see anything on the page, you *should* have something logged in the console. The trickiest part of this whole process is deciphering how to get to the data you desire from the server's response. In this case, inspecting the browser's console will reveal that what's being returned is *another* Promise... to get the data we need another `.then()` function.
 
 ```html
 <script>
@@ -233,13 +233,13 @@ While we are pushing this API key to the frontend, this isn't something you shou
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
- - [What is an API?](#apis)
- - [How is access to an API restricted?](#apis)
- - [How do you fetch and extract data from an API?](#fetching-data)
- - [Why might your API request be blocked by the browser, and how might you fix this?](#cors)
+- [What is an API?](#apis)
+- [How is access to an API restricted?](#apis)
+- [How do you fetch and extract data from an API?](#fetching-data)
+- [Why might your API request be blocked by the browser, and how might you fix this?](#cors)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [This article about APIs by Ryan Thelin](https://www.educative.io/blog/what-is-an-api) covers some extra topics like API release policies, API protocols and API architectural styles.
+- [APIs by Ryan Thelin](https://www.educative.io/blog/what-is-an-api) covers some extra topics like API release policies, API protocols and API architectural styles.
