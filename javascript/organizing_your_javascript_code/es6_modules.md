@@ -95,7 +95,7 @@ There are also the same benefits as when using factory functions or the module p
 
 To pull it all together, let's write a module and then include it in our code. We are going to continue from where the webpack tutorial left off. Before beginning, your file directory should look something like this:
 
-```
+```bash
 ├── dist
 │   ├── main.js
 │   └── index.html
