@@ -66,7 +66,7 @@ The `noopener` value prevents the opened link from gaining access to the webpage
 
 Why do we need this added behaviour for opening links in new tabs? Security reasons. The prevention of access that is caused by `noopener` prevents [phishing attacks](https://www.ibm.com/topics/phishing) where the opened link may change the original webpage to a different one to trick users. This is referred to as [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Adding the `noreferrer` value can be done if you wish to not let the opened link know that your webpage links to it.
 
-Note that you may be fine if you forget to add `rel="noopener noreferrer"` since more recent versions of browsers [provide this security](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy) if only `target="_blank"` is present. Nevertheless, in line with good coding practices and to err on the side of caution, it is recommended to always pair a `target="_blank"` with a `rel="noopener noreferrer"`.
+Note that you may be fine if you forget to add `rel="noopener noreferrer"` since more recent versions of browsers [provide security](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy) if only `target="_blank"` is present. Nevertheless, in line with good coding practices and to err on the side of caution, it is recommended to always pair a `target="_blank"` with a `rel="noopener noreferrer"`.
 
 ### Absolute and relative links
 
@@ -176,8 +176,7 @@ To use images that we have on our own websites, we can use a relative path.
 
 <details markdown="block">
 
-<summary class="dropDown-header">Linux, macOS, ChromeOS
-</summary>
+<summary class="dropDown-header">Linux, macOS, ChromeOS</summary>
 
 1. Create a new directory named `images` within the `odin-links-and-images` project.
 1. Next, [download our practice image](https://unsplash.com/photos/Mv9hjnEUHR4/download?force=true&w=640) and move it into the images directory we just created.
@@ -187,8 +186,7 @@ To use images that we have on our own websites, we can use a relative path.
 
 <details markdown="block">
 
-<summary class="dropDown-header">WSL2
-</summary>
+<summary class="dropDown-header">WSL2</summary>
 
 When you download a file from the internet, Windows has a security feature that creates a hidden `Zone.Identifier` file with the same name as your downloaded file and it looks like `mypicture.jpg:Zone.Identifier` This file is harmless, but we'd like to avoid copying it over and cluttering up our directories.
 
@@ -319,7 +317,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
 - [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
