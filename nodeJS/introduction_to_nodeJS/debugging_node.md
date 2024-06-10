@@ -13,9 +13,9 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-- Watch [this video tutorial about Node.js debugging in VS Code](https://www.youtube.com/watch?v=2oFKNL7vYV8&ab_channel=VisualStudioCode) to see the process in action.
-- Check out the official [VS Code Node debugger documentation](https://code.visualstudio.com/docs/nodejs/nodejs-debugging). Take note of the Javascript Debug Terminal- this is an easy way to get the debugger running!
-- Read [this article](https://web.archive.org/web/20230923074524/https://www.section.io/engineering-education/debug-node-devtools/) for a tutorial on how to debug Node with Chrome. NOTE: You can ignore anything that refers to debugging remote apps- you'll be debugging local apps.
+- Watch this [video tutorial about Node.js debugging in VS Code](https://www.youtube.com/watch?v=2oFKNL7vYV8&ab_channel=VisualStudioCode) to see the process in action.
+- Check out the official [VS Code Node debugger documentation](https://code.visualstudio.com/docs/nodejs/nodejs-debugging). Take note of the JavaScript Debug Terminal- this is an easy way to get the debugger running!
+- Read this [article](https://web.archive.org/web/20230923074524/https://www.section.io/engineering-education/debug-node-devtools/) for a tutorial on how to debug Node with Chrome. NOTE: You can ignore anything that refers to debugging remote apps- you'll be debugging local apps.
 
 </div>
 
@@ -23,7 +23,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#two-ways">What are two ways to debug Node?</a>
+- [What are two ways to debug Node?](#two-ways)
 
 ### Additional resources
 
