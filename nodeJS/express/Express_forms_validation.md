@@ -106,7 +106,7 @@ I would recommend reading at least the section on escaping characters from this 
 
 ### Validating optional fields
 
-Often times, you'll want some input fields to remain optional, meaning they can be left blank withou an error:
+Often times, you'll want some input fields to remain optional, meaning they can be left blank without an error:
 
 ```javascript
 [
@@ -195,7 +195,7 @@ this will let us reload our server; After this, you can simply run nodemon in yo
 
 You can also use your own preferred method for spinning up a live server.
 
-Your new project should look have folders named routes, views, and a file called app.js
+Your new project should have folders named routes, views, and a file called app.js
 
 Let's open up the routes folder, open the index.js file and add a new simple route below any existing ones.
 
@@ -328,6 +328,7 @@ We could go much deeper into working safely with forms, but we'll stop there. I'
 <div class="lesson-content__panel" markdown="1">
 
 1. Take a look through the Express documentation on the [request object](https://expressjs.com/en/5x/api.html#req).
+1. Also click through the express-validator website. Don't go too in depth, but understanding the methods we're using will help you in the future [express-validator docs](https://express-validator.github.io/docs/)
 1. Continue working with the project we've been working on to actually display the errors on the page nicely for the user, instead of just a json object. You'll need to use the [res.render](https://expressjs.com/en/api.html#res.render) method.
 
 Hint: you'll want to pass the errors down to your view from the /forms route.
