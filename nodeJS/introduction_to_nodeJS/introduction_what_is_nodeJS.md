@@ -49,7 +49,7 @@ When you run this program Node will start at the top and begin reading the file 
 
 While both of these processes are running, Node sits and waits on an *event*. In this case, it is waiting on the completion of both processes, the reading of a file and the database query. When either of these tasks are finished, Node will fire off an event that will run the next function we've defined. So if the read-file process finishes first, it will print the file contents. If the database query finishes first, it will start the filtering process. As the programmer, we don't know or care which order the two processes are going to be completed. If this code was processed synchronously (rather than asynchronously) we would have to wait for each step in the program before moving on to the next one, which could cause things to slow down considerably. If the file that we needed to read was really long then we might have to wait a few seconds before the database query could begin.
 
-This process is almost exactly like the way that you would use `addEventListener` in front-end JavaScript to wait for a user action such as a mouse-click or keyboard press. The main difference is that the events are going to be things such as network requests and database queries. This functionality is facilitated through the use of callbacks. Callbacks are incredibly important to Node, so take a minute to read through [this article](https://dev.to/i3uckwheat/understanding-callbacks-2o9e) to make sure you're up to speed.
+This process is almost exactly like the way that you would use `addEventListener` in front-end JavaScript to wait for a user action such as a mouse-click or keyboard press. The main difference is that the events are going to be things such as network requests and database queries. This functionality is facilitated through the use of callbacks. Callbacks are incredibly important to Node, so take a minute to read through this [article](https://dev.to/i3uckwheat/understanding-callbacks-2o9e) to make sure you're up to speed.
 
 Let's look at a quick real-world example:
 
@@ -82,7 +82,7 @@ While you may have learned React (or any other frontend framework) before, eithe
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#what-is-node">What is Node?</a>
+- [What is Node?](#what-is-node)
 
 ### Additional resources
 
