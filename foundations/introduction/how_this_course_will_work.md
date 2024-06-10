@@ -18,7 +18,7 @@ This curriculum works by aggregating the best content from across the internet t
 
 Most lessons will contain questions that you should be able to answer before moving on. Some lessons will include exercises for you to complete. In addition, we provide several projects throughout the curriculum to help you grow your understanding by actually building things.
 
-Try not to think of The Odin Project, or programming, as a class in school. It's not material you learn all at once to take a test, and then pass or fail. You can think of it as a snowball. You, yourself, are a snowball. You're rolling down a hill full of snow; the further you roll, the more snow will stick to you. Sure, snow will also fall off you, and you'll forget things often, but that's just part of the process. Don’t worry if you reach a project and feel like you haven’t retained or memorized anything. That's natural and happens to everyone. The information will come back to you as you start solving your problems one at a time, relying on Google and the Odin Community for help.
+Try not to think of The Odin Project, or programming, as a class in school. It's not material you learn all at once to take a test, and then pass or fail. You can think of it as a snowball. You, yourself, are a snowball. You're rolling down a hill full of snow; the further you roll, the more snow will stick to you. Sure, snow will also fall off you, and you'll forget things often, but that's just part of the process. Don't worry if you reach a project and feel like you haven't retained or memorized anything. That's natural and happens to everyone. The information will come back to you as you start solving your problems one at a time, relying on Google and the Odin Community for help.
 
 ### A note about tools
 
