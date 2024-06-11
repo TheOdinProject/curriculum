@@ -107,10 +107,9 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Fly.io: Links
 
-- [Homepage](https://fly.io/)
-- [Documentation](https://fly.io/docs/)
-- [Guide: Official getting started with Rails on Fly.io guide](https://fly.io/docs/rails/getting-started/)
-- [Guide: GoRails video guide for deploying Rails applications to Fly.io](https://www.youtube.com/watch?v=6Zp9y8nF5rE&)
+- [Fly.io's homepage](https://fly.io/)
+- [Fly.io's documentation](https://fly.io/docs/)
+- [Guide: Official getting started with NodeJS on Fly.io guide](https://web.archive.org/web/20230823151155/https://fly.io/docs/languages-and-frameworks/node/)
 
 ---
 
