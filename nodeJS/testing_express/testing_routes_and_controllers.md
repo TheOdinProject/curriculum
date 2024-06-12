@@ -1,4 +1,5 @@
 ### Introduction
+
 Unit Testing is important for many reasons that we probably don't need to cover right now. If you've already taken our basic JavaScript course you've already encountered Unit Testing, and the point of _this_ lesson is not to teach you the philosophy or mechanics of writing tests, but how they apply to our Express applications and APIs.
 
 If you haven't finished our [front-end JavaScript course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript), go back and take a look at those lessons before progressing.
@@ -150,11 +151,12 @@ If we were using a real database here, then we would want to do something simila
 
 1. Make sure that you read through the [SuperTest docs](https://github.com/visionmedia/supertest) 
 2. SuperTest actually pulls from another related project called SuperAgent.  Any method that you can call in SuperAgent you can also call from SuperTest, so you'll need to take a look through the [SuperAgent docs](https://ladjs.github.io/superagent/) as well.
+
 </div>
 
 ### Knowledge checks
  
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#about'>What is the motivation behind SuperTest?</a>
 - <a class='knowledge-check-link' href='#done'>What is the purpose of `done`? What convenience does SuperTest provide concerning it?</a>
