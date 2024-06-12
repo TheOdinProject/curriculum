@@ -1,6 +1,6 @@
 ### Introduction
 
-Unit Testing is important for many reasons that we probably don't need to cover right now. If you've already taken our basic JavaScript course you've already encountered Unit Testing, and the point of _this_ lesson is not to teach you the philosophy or mechanics of writing tests, but how they apply to our Express applications and APIs.
+Unit Testing is important for many reasons that we probably don't need to cover right now. If you've already taken our basic JavaScript course you've already encountered Unit Testing, and the point of *this* lesson is not to teach you the philosophy or mechanics of writing tests, but how they apply to our Express applications and APIs.
 
 If you haven't finished our [front-end JavaScript course](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript), go back and take a look at those lessons before progressing.
 
@@ -55,7 +55,7 @@ index.post("/test", (req, res) => {
 module.exports = index;
 ```
 
-These two files, `app.js` and `index.js` define a couple of routes and then set up and start our express app. For the moment we do _not_ need to test `app.js` because it only contains code that starts and runs an express app! It doesn't include any of our own logic so we don't need to test it. `index.js` however _does_ include some things that we want to test.
+These two files, `app.js` and `index.js` define a couple of routes and then set up and start our express app. For the moment we do *not* need to test `app.js` because it only contains code that starts and runs an express app! It doesn't include any of our own logic so we don't need to test it. `index.js` however *does* include some things that we want to test.
 
 To facilitate actually testing these routes we're going to use a library called [SuperTest](https://github.com/visionmedia/supertest), so go ahead and `npm install supertest --save-dev` and while it's installing take a few minutes to look through the readme on their git repo (linked above).
 
@@ -113,7 +113,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/", index);
 ```
 
-The tests themselves are relatively straightforward, thanks to the SuperTest library! Remember that we imported supertest as the function `request` which we use as seen below. We call it on our freshly created express app, pass it our route, and then use it to make sure that the responses match the types and content that we expect. 
+The tests themselves are relatively straightforward, thanks to the SuperTest library! Remember that we imported supertest as the function `request` which we use as seen below. We call it on our freshly created express app, pass it our route, and then use it to make sure that the responses match the types and content that we expect.
 
 Notice the parameter <span id="done">`done`</span> that is passed into the test callback.  Most testing libraries use this to signal that the test is complete in the case of asynchronous operations. In this case, SuperTest allows us to pass it into the last `.expect` and calls it for us.  Thanks, SuperTest!
 
@@ -149,12 +149,12 @@ If we were using a real database here, then we would want to do something simila
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Make sure that you read through the [SuperTest docs](https://github.com/visionmedia/supertest) 
-2. SuperTest actually pulls from another related project called SuperAgent.  Any method that you can call in SuperAgent you can also call from SuperTest, so you'll need to take a look through the [SuperAgent docs](https://ladjs.github.io/superagent/) as well.
+1. Make sure that you read through the [SuperTest docs](https://github.com/visionmedia/supertest)
+1. SuperTest actually pulls from another related project called SuperAgent.  Any method that you can call in SuperAgent you can also call from SuperTest, so you'll need to take a look through the [SuperAgent docs](https://ladjs.github.io/superagent/) as well.
 
 </div>
 
-### Knowledge checks
+### Knowledge check
  
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
