@@ -21,7 +21,7 @@ There are multiple ways of requesting data from an API, but all of them basicall
 https://api.weatherapi.com/v1/current.json?q=london
 ```
 
-The specifics for using any API are usually documented on the service's website. [Check the WeatherAPI documentation](https://www.weatherapi.com/docs/). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser... (we'll wait).
+The specifics for using any API are usually documented on the service's website. Check the [WeatherAPI documentation](https://www.weatherapi.com/docs/). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser... (we'll wait).
 
 You'll probably get an error like this:
 
