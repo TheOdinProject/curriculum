@@ -1,6 +1,6 @@
 ### Introduction
 
-In this lesson, we'll cover common Git commands used to manage your projects and to upload your work onto GitHub. We refer to these commands as the **basic Git workflow**. When you're using Git, these are the commands that you'll use 70-80% of the time. So, if you can get these down, you'll be more than halfway done mastering Git!
+In this lesson, we'll cover common Git commands used to manage your projects and to upload your work onto GitHub. We refer to these commands as the **basic Git workflow**. When you're using Git, these are the commands that you'll use 70-80% of the time. If you can get these down, you'll be more than halfway done mastering Git!
 
 ### Lesson overview
 
