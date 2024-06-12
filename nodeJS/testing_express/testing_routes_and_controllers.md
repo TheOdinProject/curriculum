@@ -155,13 +155,13 @@ If we were using a real database here, then we would want to do something simila
 </div>
 
 ### Knowledge check
- 
+
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#about'>What is the motivation behind SuperTest?</a>
-- <a class='knowledge-check-link' href='#done'>What is the purpose of `done`? What convenience does SuperTest provide concerning it?</a>
-- <a class='knowledge-check-link' href='https://github.com/visionmedia/supertest#example'>What is the difference in handling errors when using .end() method in conjunction with .expect() provided by SuperTest?</a>
-- <a class='knowledge-check-link' href='https://ladjs.github.io/superagent/#multipart-requests'>What are the methods provided by SuperAgent to handle multipart requests and how to use them?</a>
+- [What is the motivation behind SuperTest?](https://github.com/visionmedia/supertest#about)
+- [What is the purpose of `done`? What convenience does SuperTest provide concerning it?](#done)
+- [What is the difference in handling errors when using .end() method in conjunction with .expect() provided by SuperTest?](https://github.com/visionmedia/supertest#example)
+- [What are the methods provided by SuperAgent to handle multipart requests and how to use them?](https://ladjs.github.io/superagent/#multipart-requests)
 
 ### Additional resources
 
