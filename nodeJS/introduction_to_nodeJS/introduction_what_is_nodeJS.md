@@ -74,7 +74,7 @@ While you may have learned React (or any other frontend framework) before, eithe
 1. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read this [article](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5).
 1. What is the Node Event Loop? You may remember about this long, but *really* [fantastic video about event loops](https://www.youtube.com/watch?v=8aGhZQkoFbQ) from an earlier part of the course... don't skip it!
 1. Take a few minutes to go through the "Getting Started" section of the new official [Node.js website](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs). Read up until, but not including, the TypeScript module.
-1. This [short video](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
+1. This [short video about NodeJS](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
 
 </div>
 
