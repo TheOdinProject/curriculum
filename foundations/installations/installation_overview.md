@@ -6,7 +6,7 @@ Many online development courses use in-browser code editors or "sandboxes," whic
 
 We won't lie to you: installing packages, editors, and even entire operating systems can be very frustrating. However, having the experience of setting up a development environment to run the code you'll write is an invaluable, real-world skill you'll carry with you for the rest of your career.
 
-### The installation plan
+### Lesson overview
 
 In the following sections, we'll go over the steps for setting up your environment. There is no need to install anything in this lesson, as it is purely informative. These sections are **the most important steps** in the entire curriculum. Please take the extra time to **double check what you're typing** or you may cause more headaches for yourself down the road.
 
