@@ -242,4 +242,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [APIs by Ryan Thelin](https://www.educative.io/blog/what-is-an-api) covers some extra topics like API release policies, API protocols and API architectural styles.
+- This [article on APIs by Ryan Thelin](https://www.educative.io/blog/what-is-an-api) covers some extra topics like API release policies, API protocols and API architectural styles.
