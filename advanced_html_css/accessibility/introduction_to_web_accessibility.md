@@ -30,7 +30,7 @@ One other pretty big reason that accessibility matters is that, depending on the
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go through [Diverse Abilities and Barriers](https://www.w3.org/WAI/people-use-web/abilities-barriers/) to get a better understanding of how some users with disabilities are affected by inaccessible sites.
+1. Go through the [Diverse Abilities and Barriers article from W3C](https://www.w3.org/WAI/people-use-web/abilities-barriers/) to get a better understanding of how some users with disabilities are affected by inaccessible sites.
 1. Watch the videos on [Web Accessibility Perspectives](https://www.w3.org/WAI/perspective-videos/) to see how (and which) users can benefit from accessibility features. Each video is pretty short and has audio descriptions and transcripts. If you prefer, the page also has a link to a compiled version of all of the videos on YouTube.
 
 </div>
