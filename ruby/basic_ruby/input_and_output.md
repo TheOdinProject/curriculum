@@ -88,7 +88,7 @@ This is a sentence.
 
 1. Read through the [Hello, World](https://www.learnrubyonline.org/en/Hello_World) lesson and exercise from [www.learnrubyonline.org](https://www.learnrubyonline.org).
 1. Read the first four sections of the [Ruby - File I/0](https://www.tutorialspoint.com/ruby/ruby_input_output.htm) from TutorialsPoint on `puts`, `gets`, `putc`, and `print`.
-1. [Read this article from Ruby Guides](https://www.rubyguides.com/2018/10/puts-vs-print/) which describes the differences between `puts`, `print` and `p`.
+1. Read this [article from Ruby Guides](https://www.rubyguides.com/2018/10/puts-vs-print/) which describes the differences between `puts`, `print` and `p`.
 
 </div>
 
@@ -96,11 +96,11 @@ This is a sentence.
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-* <a class="knowledge-check-link" href="#output-commands">What are the two methods we can use to output data to the user's screen? </a>
-* <a class="knowledge-check-link" href="#output-commands">What is similar between these two output methods? </a>
-* <a class="knowledge-check-link" href="#output-commands">What is different between these two output methods? </a>
-* <a class="knowledge-check-link" href="#input-commands">What is the method you can use to get input from the user? </a>
-* <a class="knowledge-check-link" href="#input-commands">What is at least one difference between the output and input methods? </a>
+- [What are the two methods we can use to output data to the user's screen? ](#output-commands)
+- [What is similar between these two output methods? ](#output-commands)
+- [What is different between these two output methods? ](#output-commands)
+- [What is the method you can use to get input from the user? ](#input-commands)
+- [What is at least one difference between the output and input methods? ](#input-commands)
 
 ### Additional resources
 
