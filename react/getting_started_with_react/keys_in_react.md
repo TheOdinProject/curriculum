@@ -46,10 +46,11 @@ Keys are passed into the component or a DOM element as a prop. You should alread
 
 ```jsx
 // a list of todos, each todo object has a task and an id
+import { v4 as uuidv4} from 'uuid';
 const todos = [
-  { task: "mow the yard", id: uuid() },
-  { task: "Work on Odin Projects", id: uuid() },
-  { task: "feed the cat", id: uuid() },
+  { task: "mow the yard", id: uuidv4() },
+  { task: "Work on Odin Projects", id: uuidv4() },
+  { task: "feed the cat", id: uuidv4() },
 ];
 
 function TodoList() {
