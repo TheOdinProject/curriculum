@@ -26,18 +26,18 @@ This strategy, while particularly useful with APIs can be used with a traditiona
 2. This video presents [different ways in which JWTs can be useful](https://www.youtube.com/watch?v=7Q17ubqLfaM).
 </div>
 
-
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-- This article is a [guide for JWT Authentication Using Node.js and Express](https://web.archive.org/web/20230207144457/https://laptrinhx.com/a-practical-guide-for-jwt-authentication-using-node-js-and-express-917791379/).
-- This article is a [more concise guide for using JWTs in Express](https://medium.com/@paul.allies/stateless-auth-with-express-passport-jwt-7a55ffae0a5c).
-- [Not everyone agrees that JWTs are the best way to store authentication data](https://www.youtube.com/watch?v=JdGOb7AxUo0). This video is one argument against using them, and some of the pitfalls that you may encounter with using them.
-
-
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is a JSON web token?](https://dev.to/_arpy/learn-using-jwt-with-passport-authentication-22n8)
 - [What are two things a secure token will do?](#secure-token)
 - [Where in the code is a secure token passed?](#pass-token)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- This article is a [guide for JWT Authentication Using Node.js and Express](https://web.archive.org/web/20230207144457/https://laptrinhx.com/a-practical-guide-for-jwt-authentication-using-node-js-and-express-917791379/).
+- This article is a [more concise guide for using JWTs in Express](https://medium.com/@paul.allies/stateless-auth-with-express-passport-jwt-7a55ffae0a5c).
+- [Not everyone agrees that JWTs are the best way to store authentication data](https://www.youtube.com/watch?v=JdGOb7AxUo0). This video is one argument against using them, and some of the pitfalls that you may encounter with using them.
