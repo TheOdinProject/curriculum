@@ -94,7 +94,7 @@ Finally, let's upload your work to the GitHub repository you created at the star
 
 1. <span id="git-push"></span>Type `git push`. To be more specific, type `git push origin main`. Since you are not dealing with another branch (other than *main*) or a different remote (as mentioned above), you can leave it as `git push` to save a few keystrokes. **NOTE: If at this point you receive a message that says "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.", you have followed the steps incorrectly and cloned with HTTPS, not SSH. Please follow the steps for [switching remote URLs from HTTPS to SSH](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh) to change your remote to SSH, then attempt to push to Github.**
 
-1. Type `git status` one final time. It should output "*Your branch is up to date with 'origin/main'. Nothing to commit, working tree clean*".
+1. Type `git status` one final time. It should output "*Your branch is up to date with 'origin/main'. nothing to commit, working tree clean*".
 
 1. When you refresh your repository page on GitHub, you should see the README.md and hello_world.txt files that you just pushed there from your local machine.
 
