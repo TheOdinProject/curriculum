@@ -127,13 +127,13 @@ This example may be hard to completely understand at this point in the lesson. T
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-* <a class="knowledge-check-link" href="#introduction">What is a variable?</a>
-* <a class="knowledge-check-link" href="#declaring-a-variable">How do you assign a value or an expression to a variable?</a>
-* <a class="knowledge-check-link" href="#add-assignment-operator">What does the `+=` assignment operator do?</a>
-* <a class="knowledge-check-link" href="#non-add-assignment-operators">What does the `-=` assignment operator do?</a>
-* <a class="knowledge-check-link" href="#non-add-assignment-operators">What does the `*=` assignment operator do?</a>
-* <a class="knowledge-check-link" href="#non-add-assignment-operators">What does the `/=` assignment operator do?</a>
-* <a class="knowledge-check-link" href="#how-to-name-variables">What are the variable naming conventions?</a>
+- [What is a variable?](#introduction)
+- [How do you assign a value or an expression to a variable?](#declaring-a-variable)
+- [What does the `+=` assignment operator do?](#add-assignment-operator)
+- [What does the `-=` assignment operator do?](#non-add-assignment-operators)
+- [What does the `*=` assignment operator do?](#non-add-assignment-operators)
+- [What does the `/=` assignment operator do?](#non-add-assignment-operators)
+- [What are the variable naming conventions?](#how-to-name-variables)
 
 ### Additional resources
 
