@@ -1,4 +1,5 @@
 ### Introduction
+
 Variables are a way of assigning data to names in your programs. You can think of a variable as a box with a label on it: it stores something and has a name so that you know what's inside. This is an imperfect metaphor as you'll see by the end of this lesson, but it should help with understanding variables for now.
 
 ### Lesson overview
@@ -10,6 +11,7 @@ This section contains a general overview of topics that you will learn in this l
  - Describe the naming conventions for variables.
 
 ### Declaring a variable
+
 This is how to create a variable in Ruby:
 
 ```ruby
@@ -83,6 +85,7 @@ can_swim = false
 ```
 
 #### Variables are references
+
 The information you name with a variable is stored in memory on your computer, so a variable is effectively a reference or a pointer to that address in memory. This is important to know as it can sometimes be the cause of unexpected behavior from your code.
 
 Let's look at an example of this unexpected behavior, with two variables: `desired_location`, which is assigned to the string "Barcelona", and `johns_location`, which is assigned to the `desired_location` variable. Both variables are pointing to where "Barcelona" is stored in memory.
@@ -107,6 +110,7 @@ johns_location          #=> "BARCELONA"
 This example may be hard to completely understand at this point in the lesson. The important concept is that assigning variables to other variables can have unintended side effects. Just because you can do it, doesn't mean you should. You will have the opportunity to revisit this example in one of the following assignments.
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 
 1. Read the [Variables](https://launchschool.com/books/ruby/read/variables) chapter from LaunchSchool's brilliant *Introduction to Programming With Ruby*. As indicated in this article, remember that you should not use `$global_variables`. Additionally, `@@class_variables` are rarely needed and easily misused.
@@ -118,7 +122,8 @@ This example may be hard to completely understand at this point in the lesson. T
 </div>
 
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 * <a class="knowledge-check-link" href="#introduction">What is a variable?</a>
 * <a class="knowledge-check-link" href="#declaring-a-variable">How do you assign a value or an expression to a variable?</a>
