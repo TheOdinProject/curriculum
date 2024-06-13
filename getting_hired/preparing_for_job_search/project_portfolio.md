@@ -37,5 +37,4 @@ A list of portfolios of professional developers. Students should analyze these s
   * [Tiago Sá's Portfolio](https://i-am-tiago.com/)
   * [Patrick David](https://bepatrickdavid.com/)
   * [Luis Krötz](https://luiskr.com/)
-  * [Leonid Kostetckyi](https://lk.emotion-agency.com/)
 </details>
