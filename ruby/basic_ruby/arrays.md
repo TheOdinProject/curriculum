@@ -23,7 +23,7 @@ num_array = [1, 2, 3, 4, 5]
 str_array = ["This", "is", "a", "small", "array"]
 ```
 
-Both arrays have five elements separated by commas. The first array contains integers, while the second array contains strings. 
+Both arrays have five elements separated by commas. The first array contains integers, while the second array contains strings.
 
 Arrays are commonly created with an **array literal**, which is a special syntax used to create instances of an array object. To create a new array using an array literal, use square brackets (`[]`).
 
@@ -146,9 +146,9 @@ Here is a brief look at some other common array methods you might run into:
 <div class="lesson-content__panel" markdown="1">
 
 1. Read Launch School's chapter on [Arrays](https://launchschool.com/books/ruby/read/arrays), following along with the exercises using irb or any other REPL, such as [replit.com](https://replit.com/languages/ruby).
-2. Read [The Definitive Guide to Ruby Arrays](https://www.rubyguides.com/2015/05/ruby-arrays/) by Jesus Castello.
-3. Complete the [array](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
-4. Let's get some practice reading documentation. You'll feel just like a real programmer! What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look these methods up in the [Array class documentation](https://docs.ruby-lang.org/en/3.3/Array.html). Were you close?
+1. Read [The Definitive Guide to Ruby Arrays](https://www.rubyguides.com/2015/05/ruby-arrays/) by Jesus Castello.
+1. Complete the [array](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
+1. Let's get some practice reading documentation. You'll feel just like a real programmer! What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look these methods up in the [Array class documentation](https://docs.ruby-lang.org/en/3.3/Array.html). Were you close?
 
 </div>
 
@@ -166,6 +166,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
--  Read the official documentation on [class Array](https://docs.ruby-lang.org/en/3.3/Array.html).
--  If you need a different take on arrays, read through this article by [zetcode](http://zetcode.com/lang/rubytutorial/arrays/).
--  Arrays also allow for **set operations**, which you can read about [here](https://www.endpointdev.com/blog/2011/06/using-set-operators-with-ruby-arrays/). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!
+- Read the official documentation on [class Array](https://docs.ruby-lang.org/en/3.3/Array.html).
+- If you need a different take on arrays, read through this article by [zetcode](http://zetcode.com/lang/rubytutorial/arrays/).
+- Arrays also allow for **set operations**, which you can read about [here](https://www.endpointdev.com/blog/2011/06/using-set-operators-with-ruby-arrays/). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!
