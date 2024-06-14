@@ -21,6 +21,7 @@ This section contains a general overview of topics that you will learn in this l
  - Explain what `#upto` and `#downto` loops are and how to use them.
 
 ### Loop
+
 The `loop` loop (say what????) is Ruby's loop that just won't quit. It's an infinite loop that will keep going unless you specifically request for it to stop, using the `break` command. Most commonly, `break` is used with a condition, as illustrated in the example below.
 
 ```ruby
@@ -147,19 +148,21 @@ If you need to step through a series of numbers (or even letters) within a speci
 <div class="lesson-content__panel" markdown="1">
 
 1. Read the [Loops & Iterators chapter](https://launchschool.com/books/ruby/read/loops_iterators) of LaunchSchool's *Introduction to Programming With Ruby*. We recommend skipping the section on [recursion](https://launchschool.com/books/ruby/read/loops_iterators#recursion) since recursion will be covered later on.
-2. Try re-writing the above examples using alternative loop methods to achieve the same results.
+1. Try re-writing the above examples using alternative loop methods to achieve the same results.
+
 </div>
 
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * <a class="knowledge-check-link" href="#introduction">What is a loop and why it is useful?</a>
- * <a class="knowledge-check-link" href="#loop">What is a `loop` loop, and how would you use it?</a>
- * <a class="knowledge-check-link" href="#while-loop">What is a `while` loop, and how would you use it?</a>
- * <a class="knowledge-check-link" href="#for-loop">What is a `for` loop, and how would you use it?</a>
- * <a class="knowledge-check-link" href="#times-loop">What is a `#times` loop, and how would you use it?</a>
- * <a class="knowledge-check-link" href="#until-loop">What is an `until` loop, and how would you use it?</a>
- * <a class="knowledge-check-link" href="#upto-and-downto-loops">What are the `#upto` and `#downto` loops, and how would you use them?</a>
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- <a class="knowledge-check-link" href="#introduction">What is a loop and why it is useful?</a>
+- <a class="knowledge-check-link" href="#loop">What is a `loop` loop, and how would you use it?</a>
+- <a class="knowledge-check-link" href="#while-loop">What is a `while` loop, and how would you use it?</a>
+- <a class="knowledge-check-link" href="#for-loop">What is a `for` loop, and how would you use it?</a>
+- <a class="knowledge-check-link" href="#times-loop">What is a `#times` loop, and how would you use it?</a>
+- <a class="knowledge-check-link" href="#until-loop">What is an `until` loop, and how would you use it?</a>
+- <a class="knowledge-check-link" href="#upto-and-downto-loops">What are the `#upto` and `#downto` loops, and how would you use them?</a>
 
 ### Additional resources
 
