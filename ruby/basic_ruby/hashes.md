@@ -6,11 +6,11 @@ Now that you've learned about arrays, it's time to get into the array's supercha
 
 This section contains a general overview of topics that you will learn in this lesson.
 
- - Explain what a hash is.
- - Describe how to create a new hash and how to add information to it.
- - Explain what keys and values are.
- - Describe how to change and delete data inside a hash.
- - Describe how to merge two hashes.
+- Explain what a hash is.
+- Describe how to create a new hash and how to add information to it.
+- Explain what keys and values are.
+- Describe how to change and delete data inside a hash.
+- Describe how to merge two hashes.
 
 ### Arrays vs. hashes
 
