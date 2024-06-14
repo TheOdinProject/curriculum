@@ -12,13 +12,13 @@ For all of the examples in this lesson, you should code along in irb or [replit.
 
 This section contains a general overview of topics that you will learn in this lesson.
 
- - Explain what a loop is and why it's useful.
- - Explain what a `loop` loop is and how to use it.
- - Explain what a `while` loop is and how to use it.
- - Explain what a `for` loop is and how to use it.
- - Explain what a `#times` loop is and how to use it.
- - Explain what an `until` loop is and how to use it.
- - Explain what `#upto` and `#downto` loops are and how to use them.
+- Explain what a loop is and why it's useful.
+- Explain what a `loop` loop is and how to use it.
+- Explain what a `while` loop is and how to use it.
+- Explain what a `for` loop is and how to use it.
+- Explain what a `#times` loop is and how to use it.
+- Explain what an `until` loop is and how to use it.
+- Explain what `#upto` and `#downto` loops are and how to use them.
 
 ### Loop
 
@@ -156,13 +156,13 @@ If you need to step through a series of numbers (or even letters) within a speci
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#introduction">What is a loop and why it is useful?</a>
-- <a class="knowledge-check-link" href="#loop">What is a `loop` loop, and how would you use it?</a>
-- <a class="knowledge-check-link" href="#while-loop">What is a `while` loop, and how would you use it?</a>
-- <a class="knowledge-check-link" href="#for-loop">What is a `for` loop, and how would you use it?</a>
-- <a class="knowledge-check-link" href="#times-loop">What is a `#times` loop, and how would you use it?</a>
-- <a class="knowledge-check-link" href="#until-loop">What is an `until` loop, and how would you use it?</a>
-- <a class="knowledge-check-link" href="#upto-and-downto-loops">What are the `#upto` and `#downto` loops, and how would you use them?</a>
+- [What is a loop and why it is useful?](#introduction)
+- [What is a `loop` loop, and how would you use it?](#loop)
+- [What is a `while` loop, and how would you use it?](#while-loop)
+- [What is a `for` loop, and how would you use it?](#for-loop)
+- [What is a `#times` loop, and how would you use it?](#times-loop)
+- [What is an `until` loop, and how would you use it?](#until-loop)
+- [What are the `#upto` and `#downto` loops, and how would you use them?](#upto-and-downto-loops)
 
 ### Additional resources
 
