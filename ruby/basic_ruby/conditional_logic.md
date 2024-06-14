@@ -180,7 +180,7 @@ All of the above operators also work on data types other than numbers, such as s
 
 Sometimes you'll want to write an expression that contains more than one condition. In Ruby, this is accomplished with logical operators, which are `&&` (and), `||` (or) and `!` (not).
 
-There are some differences between the word versions and their symbolic equivalents, particularly in the way they evaluate code. We recommend you read [this article](https://avdi.codes/how-to-use-rubys-english-andor-operators-without-going-nuts/) that explains the differences.
+There are some differences between the word versions and their symbolic equivalents, particularly in the way they evaluate code. We recommend you read this [article](https://avdi.codes/how-to-use-rubys-english-andor-operators-without-going-nuts/) that explains the differences.
 
 The `&&` operator returns `true` if **both** the left and right expressions return `true`.
 
@@ -227,7 +227,6 @@ if !(10 < 5)  #=> true
 Case statements are a neat way of writing several conditional expressions that would normally result in a messy `if...elsif` statement. You can even assign the return value from a case statement to a variable for use later.
 
 Case statements process each condition in turn, and if the condition returns `false`, it will move onto the next one until a match is found. An `else` clause can be provided to serve as a default if no match is found.
-
 
 ```ruby
 grade = 'F'
@@ -327,16 +326,16 @@ However, if your conditional statements are complicated, then using an `if...els
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-  * <a class="knowledge-check-link" href="#boolean-logic">What is a Boolean?</a>
-  * <a class="knowledge-check-link" href="#truthy-and-falsy-in-ruby">What are "truthy" values?</a>
-  * <a class="knowledge-check-link" href="#truthy-and-falsy-in-ruby">Are the following considered true or false: `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1`?</a>
-  * <a class="knowledge-check-link" href="#adding-else-and-elsif">When do you use `elsif`?</a>
-  * <a class="knowledge-check-link" href="#unless-statements">When do you use `unless`?</a>
-  * <a class="knowledge-check-link" href="#logical-operators">What do `||` and `&&` and `!` do?</a>
-  * <a class="knowledge-check-link" href="#logical-operators">What is short circuit evaluation?</a>
-  * <a class="knowledge-check-link" href="https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control">What is returned by `puts("woah") || true`?</a>
-  * <a class="knowledge-check-link" href="#ternary-operator">What is the ternary operator?</a>
-  * <a class="knowledge-check-link" href="#case-statements">When should you use a case statement? </a>
+- [What is a Boolean?](#boolean-logic)
+- [What are "truthy" values?](#truthy-and-falsy-in-ruby)
+- [Are the following considered true or false: `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1`?](#truthy-and-falsy-in-ruby)
+- [When do you use `elsif`?](#adding-else-and-elsif)
+- [When do you use `unless`?](#unless-statements)
+- [What do `||` and `&&` and `!` do?](#logical-operators)
+- [What is short circuit evaluation?](#logical-operators)
+- [What is returned by `puts("woah") || true`?](https://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
+- [What is the ternary operator?](#ternary-operator)
+- [When should you use a case statement?](#case-statements)
 
 ### Additional resources
 
