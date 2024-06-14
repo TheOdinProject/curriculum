@@ -42,6 +42,7 @@ These are some of the basic tools you will use regularly. You may not know what 
 - **[Google](https://www.google.com/)**
 - **Text Editor**
 - **Command Line Interface (CLI)**
+- **[ChatGPT](https://chat.openai.com/)**
 - **[Stack Overflow](http://stackoverflow.com/)**
 - **[Git](https://git-scm.com/)**
 - **[GitHub](https://github.com/)**
