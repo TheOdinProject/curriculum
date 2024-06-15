@@ -58,9 +58,9 @@ This lesson includes recommendations, not the "right" or "wrong" way of using Fl
 
 1. Read about how [CSS Grid does not replace flexbox](https://css-tricks.com/css-grid-replace-flexbox/).
 
-1. This video by Wes Bos demonstrates [many uses cases for Grid](https://www.youtube.com/watch?v=HYji_V2aYa0). Note, while the video by Wes Bos provides valuable insights into Grid, it's worth noting that Flexbox has evolved since then. As of now, Flexbox does have a gap attribute, offering a cleaner alternative to using margins for spacing between items. This enhancement simplifies layout design and reduces reliance on margin-based approaches highlighted in the video.
+2. This video by Wes Bos demonstrates [many uses cases for Grid](https://www.youtube.com/watch?v=HYji_V2aYa0). Note, while the video by Wes Bos provides valuable insights into Grid, it's worth noting that Flexbox has evolved since then. As of now, Flexbox does have a gap attribute, offering a cleaner alternative to using margins for spacing between items. This enhancement simplifies layout design and reduces reliance on margin-based approaches highlighted in the video.
 
-1. Read up on [when to use Grid or Flexbox and why](https://webdesign.tutsplus.com/flexbox-vs-css-grid-which-should-you-use--cms-30184a).
+3. Read up on [when to use Grid or Flexbox and why](https://webdesign.tutsplus.com/flexbox-vs-css-grid-which-should-you-use--cms-30184a).
 
 </div>
 
