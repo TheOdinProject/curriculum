@@ -52,15 +52,15 @@ Say you want your overall layout to be a grid, but you want the grid items to ac
 
 This lesson includes recommendations, not the "right" or "wrong" way of using Flexbox or Grid. Ultimately, it comes down to personal preference and what a developer feels is easier for whatever the given task might be. At this point you have both of these tools in your toolbox and got a sneak peek at how they can be used together or one in place of the other. The best way to learn Flexbox and Grid is to build many projects with both of them and develop your own opinion about which to use in different circumstances.
 
-### Assignments
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. Read about how [CSS Grid does not replace flexbox](https://css-tricks.com/css-grid-replace-flexbox/).
 
-2. This video by Wes Bos demonstrates [many uses cases for Grid](https://www.youtube.com/watch?v=HYji_V2aYa0). Note, while the video by Wes Bos provides valuable insights into Grid, it's worth noting that Flexbox has evolved since then. As of now, Flexbox does have a gap attribute, offering a cleaner alternative to using margins for spacing between items. This enhancement simplifies layout design and reduces reliance on margin-based approaches highlighted in the video.
+1. This video by Wes Bos demonstrates [many uses cases for Grid](https://www.youtube.com/watch?v=HYji_V2aYa0). Note, while the video by Wes Bos provides valuable insights into Grid, it's worth noting that Flexbox has evolved since then. As of now, Flexbox does have a gap attribute, offering a cleaner alternative to using margins for spacing between items. This enhancement simplifies layout design and reduces reliance on margin-based approaches highlighted in the video.
 
-3. Read up on [when to use Grid or Flexbox and why](https://webdesign.tutsplus.com/flexbox-vs-css-grid-which-should-you-use--cms-30184a).
+1. Read up on [when to use Grid or Flexbox and why](https://webdesign.tutsplus.com/flexbox-vs-css-grid-which-should-you-use--cms-30184a).
 
 </div>
 
