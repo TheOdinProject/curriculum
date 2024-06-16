@@ -57,7 +57,7 @@ Databases are inevitable to change as requirements of the project evolve. You mi
 
 ### Introducing Prisma ORM
 
-ORMs pretty much solve all of the pain points mentioned above but it's not all sunshine and roses. There can be a learning curve to fully understand the ins and outs of an ORM and some don't even fully support all SQL features. Even with these shortcomings, using an ORM can be extremely worthwhile. 
+ORMs pretty much solve all of the pain points mentioned above but it's not all sunshine and roses. There can be a learning curve to fully understand the ins and outs of an ORM and some don't even fully support all SQL features. Even with these shortcomings, using an ORM can be extremely worthwhile.
 
 In the Node.js ecosystem, there's A LOT of ORMs to choose from, and the community has not landed on a go-to yet. We've decided to cover [Prisma](https://www.prisma.io/) in the curriculum because of its popularity and community support.
 
@@ -67,7 +67,7 @@ Prisma has all the features we need to complete this curriculum and then some. P
 
 The Prisma schema is a file where you will define your models. For example, consider a message table in a chat app:
 
-```txt
+```text
 model Message {
    id        Int      @id @default(autoincrement())
    content   String   @db.VarChar(255) 
@@ -114,17 +114,17 @@ npx prisma generate
 
 in the cli, and Prisma will generate the client for you. The client can handle all sorts of querying: joins, filters, sorting, pagination, and more.
 
-You might have a complex query that you just are unable to get right via the Prisma client, or you feel more comfortable in writing a query raw, you can do that too. Prisma supports raw queries as well. 
+You might have a complex query that you just are unable to get right via the Prisma client, or you feel more comfortable in writing a query raw, you can do that too. Prisma supports raw queries as well.
 
 ### Prisma migrate
 
-Prisma migrate is a tool that helps you perform database migrations. You won't be using it a whole ton in the curriculum, but it's good to be aware of it. When you decide to change the schema in anyway, you run a prisma migration to apply schema changes to the database. These changes are tracked in a `migrations` folder in your codebase. 
+Prisma migrate is a tool that helps you perform database migrations. You won't be using it a whole ton in the curriculum, but it's good to be aware of it. When you decide to change the schema in anyway, you run a prisma migration to apply schema changes to the database. These changes are tracked in a `migrations` folder in your codebase.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go through the [get started guide for relational databases](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql). It covers migrations, schema, and the Prisma client. Make sure you select "JavaScript" as the language and "PostgreSQL" as the database. 
+1. Go through the [get started guide for relational databases](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql). It covers migrations, schema, and the Prisma client. Make sure you select "JavaScript" as the language and "PostgreSQL" as the database.
 1. Read the following articles from Prisma's documentation. Try to code along with the examples. Don't worry if things don't stick yet, we'll be practising A LOT of prisma in the coming projects.
    - [What is Prisma ORM?](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma),
    - [Prisma schema overview](https://www.prisma.io/docs/orm/prisma-schema/overview)
