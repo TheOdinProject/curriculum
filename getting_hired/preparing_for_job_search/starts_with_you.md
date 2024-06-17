@@ -6,26 +6,26 @@ This lesson is all about self-assessment and goal-setting. If you don't understa
 
 Without defining what your own needs are, you will have no way of determining the right path forward so hunker down until you've got an idea of what your key needs are right now (from a job).  The questions below should help you think about what is actually essential for you versus nice-to-have.  Ask yourself:
 
-* Why do I *need* a job?
-* What kind of salary level do I need to sustain myself and my family?
-* What kind of job security level do I need to sustain myself and my family?
-* How desperate am I to get a job *right now*?
+- Why do I *need* a job?
+- What kind of salary level do I need to sustain myself and my family?
+- What kind of job security level do I need to sustain myself and my family?
+- How desperate am I to get a job *right now*?
 
 ### Where you want to be
 
 Once you've been honest with yourself about your needs, it's time to figure out what you *want*.  What will your future needs be?  What kinds of companies do you want to work at?  
 
-* Why do I *want* a job in web development?
-* What kind of career path do I want to have?
-* Do I want to work in a developer-led organization (vs sales- or business-led)?
-* Do I prefer working in a team environment or remotely?
-* Do I like working long hours / weekends or 9-6?
-* Is the work more important than the people?
-* Do I have to care about the product I'm building?
-* Do I have to care about the technologies I'm using?
-* Do I prefer an "easy" work environment or one where I'm constantly pushed?
-* Do I want "creature comfort" incentives like free food and beer at the office?
-* Do I have to enjoy my work or can I power through a crappy job?
+- Why do I *want* a job in web development?
+- What kind of career path do I want to have?
+- Do I want to work in a developer-led organization (vs sales- or business-led)?
+- Do I prefer working in a team environment or remotely?
+- Do I like working long hours / weekends or 9-6?
+- Is the work more important than the people?
+- Do I have to care about the product I'm building?
+- Do I have to care about the technologies I'm using?
+- Do I prefer an "easy" work environment or one where I'm constantly pushed?
+- Do I want "creature comfort" incentives like free food and beer at the office?
+- Do I have to enjoy my work or can I power through a crappy job?
 
 ### Prioritizing needs and wants
 
@@ -40,20 +40,20 @@ It's time to be honest with yourself... what do you bring to the table?  If you'
 Some questions to ask (which you'll probably hear again in your early interviews):
 
 1. How hungry am I?
-2. How good am I at building back end code?
-3. How good am I at putting together front ends?
-4. Can I solve really technical problems like brain teasers and algorithms?
-5. Have I built projects that display a good range of skills?
-6. Do I know people who can recommend me?
-4. Am I a good people person who builds relationships easily?
-5. Do I portray an aura of confidence or act shy?
-5. Do I tend to undersell myself and my capabilities?
-5. Do I have a broad level of general tech knowledge?
-6. Am I very familiar with a particular technical or industry vertical? (Usually career switchers have one)
-7. Do I tend to procrastinate or do I just get shit done?
-8. Do I wait to ask for help or do I go out and find the answer on my own?
-9. Do I lean in to challenges or avoid them?
-10. What are some really difficult problems I've solved before?
+1. How good am I at building back end code?
+1. How good am I at putting together front ends?
+1. Can I solve really technical problems like brain teasers and algorithms?
+1. Have I built projects that display a good range of skills?
+1. Do I know people who can recommend me?
+1. Am I a good people person who builds relationships easily?
+1. Do I portray an aura of confidence or act shy?
+1. Do I tend to undersell myself and my capabilities?
+1. Do I have a broad level of general tech knowledge?
+1. Am I very familiar with a particular technical or industry vertical? (Usually career switchers have one)
+1. Do I tend to procrastinate or do I just get shit done?
+1. Do I wait to ask for help or do I go out and find the answer on my own?
+1. Do I lean in to challenges or avoid them?
+1. What are some really difficult problems I've solved before?
 
 Applying without much experience means you need to fill in your weak spots and emphasize your strengths.  For almost everyone, your biggest strength will be hunger and ability to learn.  But companies have heard that story before, so you'll have to tie in other strengths that you can use to make your story compelling.
 

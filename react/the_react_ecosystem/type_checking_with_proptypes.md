@@ -29,7 +29,7 @@ import PropTypes from 'prop-types';
 
 Here is a very basic example of how we would use it in a component that renders out a name prop.
 
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -56,7 +56,7 @@ RenderName.propTypes = {
 
 Another cool thing we can do in combination with PropTypes is passing in default props:
 
-```javascript
+```jsx
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -79,7 +79,7 @@ In this example, with the help of the defaultProps property we are defining a de
 
 ### What about TypeScript?
 
-Now is also a good time to mention [TypeScript](https://www.typescriptlang.org/) - a strongly typed language that builds on JavaScript. We do not cover it in our curriculum and thus do not recommend looking into it now, but in the future, it may be worth learning if you’d like more type safety while writing your code.
+Now is also a good time to mention TypeScript - a strongly typed language that builds on JavaScript. We do not cover it in our curriculum and thus do not recommend looking into it now, but in the future, it may be worth learning if you’d like more type safety while writing your code.
 
 Learning TypeScript can be a lot of overhead when you’re already learning React and the best way to prepare for this is to continue developing your JavaScript fundamentals. The TypeScript documentation encourages enhancing JavaScript skills before tackling TypeScript complexities, as highlighted in their [discussion on the importance of JavaScript fundamentals](https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html#learning-javascript-and-typescript). In the future however, if you do decide to go in the direction of learning TypeScript, our recommendation would be picking up a previous project and refactoring the components one by one to TypeScript.
 
@@ -98,9 +98,9 @@ Learning TypeScript can be a lot of overhead when you’re already learning Reac
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#using-proptypes">How would we set up a basic implementation of PropTypes?</a>
-- <a class="knowledge-check-link" href="#using-defaultprops">If we pass in a prop to a component that has a defaultProp defined, what would happen?</a>
-- <a class="knowledge-check-link" href="https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application">What is the difference between PropTypes and TypeScript?</a>
+- [How would we set up a basic implementation of PropTypes?](#using-proptypes)
+- [If we pass in a prop to a component that has a defaultProp defined, what would happen?](#using-defaultprops)
+- [What is the difference between PropTypes and TypeScript?](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application)
 
 ### Additional resources
 
