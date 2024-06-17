@@ -137,8 +137,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
-### Additional resources
-
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Read the full [Variables chapter from *The Bastards Book of Ruby*](http://ruby.bastardsbook.com/chapters/variables) if you can't get enough about variables.
