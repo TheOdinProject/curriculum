@@ -103,11 +103,10 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - $20 a month should be enough to host eight apps (including three apps for free).
 - Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
 
-##### Fly.io: Free Plan
+##### Fly.io: Hobby Plan
 
-- You can host three apps for free before you need to start paying.
-- Fly.io waives monthly invoices that total less than $5 USD. So, although it may look like
-  you are being charged, it's very unlikely that you will exceed $5 and actually have to pay.
+- New customers get a one-time $5 free trial credit to test Fly.io at no cost. The credit will only start being used if you exceed the free resource allowance, and once it's been used up, you will be automatically placed on the $5/month Hobby plan.
+- The longevity of your free trial credit depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
 
 ##### Fly.io: Links
 
