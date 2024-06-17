@@ -115,7 +115,7 @@ To find the difference between two arrays, you can subtract them using `-`. This
 
 ### Basic methods
 
-Ruby gives you many methods to manipulate arrays and their contents (over 150!), many of which are beyond the scope of this lesson. To learn about other methods, go to the official documentation ([docs.ruby-lang.org](https://docs.ruby-lang.org/en/3.3/)) and browse the [Array](https://docs.ruby-lang.org/en/3.3/Array.html) page, where you can find methods listed alphabetically (by scrolling the left sidebar) or summarized and grouped by purpose (by reading under "[What's Here](https://docs.ruby-lang.org/en/3.3/Array.html#class-Array-label-What-27s+Here)").
+Ruby gives you many methods to manipulate arrays and their contents (over 150!), many of which are beyond the scope of this lesson. To learn about other methods, go to the official documentation and browse the [Array class documentation](https://docs.ruby-lang.org/en/3.3/Array.html) page, where you can find methods listed alphabetically (by scrolling the left sidebar) or summarized and grouped by purpose (by reading under "What's Here").
 
 Calling the `#methods` method on an array will also yield a long list of the available methods.
 
