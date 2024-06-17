@@ -137,10 +137,10 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
+### Additional resources
+
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Read the full [Variables](http://ruby.bastardsbook.com/chapters/variables) chapter from *The Bastards Book of Ruby* if you can't get enough about variables.
-- To dive deeper into how variables point to memory locations on your computer, go through these short sections:
-  - [Variables as Pointers](https://launchschool.com/books/ruby/read/more_stuff#variables_as_pointers), from LaunchSchool's *Introduction to Programming With Ruby*.
-  - [A visual guide to variables](http://ruby.bastardsbook.com/chapters/variables/#visual-guide) from the [Variables](http://ruby.bastardsbook.com/chapters/variables) chapter of *The Bastards Book of Ruby*
+- Read the full [Variables chapter from *The Bastards Book of Ruby*](http://ruby.bastardsbook.com/chapters/variables) if you can't get enough about variables.
+- [Variables as Pointers](https://launchschool.com/books/ruby/read/more_stuff#variables_as_pointers), from LaunchSchool's *Introduction to Programming With Ruby*.
 - If you want to know more about Ruby's naming conventions, check out the [Ruby Style Guide](https://github.com/rubocop-hq/ruby-style-guide). Don't get too deep into it; just know that it's there.
