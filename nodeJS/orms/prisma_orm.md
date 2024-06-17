@@ -1,6 +1,6 @@
 ### Introduction
 
-Tired of writing raw SQL queries in your projects? In this lesson, we'll talk about Object Relational Mappers (ORM for short). ORMs are tool that let you manipulate data in your database and is widely used in the software industry. We'll deep dive into one such ORM popular in the Node.js landscape: [Prisma ORM](https://www.prisma.io/).
+Tired of writing raw SQL queries in your projects? In this lesson, we'll talk about Object Relational Mappers (ORM for short). ORMs are tools that let you manipulate data in your database and are widely used in the software industry. We'll dive deep into one ORM popular in the Node.js landscape: [Prisma ORM](https://www.prisma.io/).
 
 ### Lesson overview
 
@@ -37,7 +37,7 @@ Or you could mix and match the two approaches. Create a `Database` class and inh
 
 Now do this over and over for each of entity, across multiple projects. You get the point. It can be argued that the above is not a bad thing, as you're learning and practicing, and it isn't. It's sufficient for solo projects, but as your codebase grows, and as you work in teams, you'll realize how much an ORM really helps you focus on writing code that's business critical.
 
-Writing more code is not necessarily a bad thing, and we even suggest that you explore these above ideas in your solo projects. But as you start to work in teams, and large scale software, it becomes imperative to have a standard way of interacting with the database, either with a external library or a homegrown solution.
+Writing more code is not necessarily a bad thing, and we even suggest that you explore these above ideas in your solo projects. But as you start to work in teams, and with large scale software, it becomes imperative to have a standard way of interacting with the database, either with an external library or a homegrown solution.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -47,21 +47,21 @@ If you haven't applied any of the above paradigms in your previous projects, we 
 
 #### Navigating the codebase
 
-When all database interactions are done in raw SQL, there's nowhere in the codebase where you can understand the database tables, their relations, and column data types. You might have to login to your database to make sense of what the codebase is doing. To attain technical understanding of the project, you now rely on the codebase as well as access to the database.
+When all database interactions are done in raw SQL, there's nowhere in the codebase where you can understand the database tables, their relations, and column data types. You might have to log in to your database to make sense of what the codebase is doing. To attain a technical understanding of the project, you now rely on the codebase as well as access to the database.
 
 Most ORMs out there solve this problem by bringing database definitions into the codebase. This is called a "schema". This allows you to quickly glance at the schema of a table and understand what columns it has and so forth.
 
 #### Altering production data
 
-Databases are inevitable to change as requirements of the project evolve. You might have to add a new column, or populate a new table with existing data. In technical terms, this is called a migration. Without an ORM or a similar library, you'll be hand rolling these migrations, which will be error-prone and tedious. ORMs standardize migrations via changelogs, and have processes to deal with conflicts. Granted, you won't be running as many migrations in your curriculum projects, but as you work professionally, you might do it every other day.
+Databases inevitably change as the requirements of the project evolve. You might have to add a new column or populate a new table with existing data. In technical terms, this is called a migration. Without an ORM or a similar library, you'll be hand rolling these migrations, which will be error-prone and tedious. ORMs standardize migrations via changelogs, and have processes to deal with conflicts. Granted, you won't be running as many migrations in your curriculum projects, but as you work professionally, you might do it every other day.
 
 ### Introducing Prisma ORM
 
 ORMs pretty much solve all of the pain points mentioned above but it's not all sunshine and roses. There can be a learning curve to fully understand the ins and outs of an ORM and some don't even fully support all SQL features. Even with these shortcomings, using an ORM can be extremely worthwhile.
 
-In the Node.js ecosystem, there's A LOT of ORMs to choose from, and the community has not landed on a go-to yet. We've decided to cover [Prisma](https://www.prisma.io/) in the curriculum because of its popularity and community support.
+In the Node.js ecosystem, there are A LOT of ORMs to choose from, and the community has not landed on a go-to yet. We've decided to cover [Prisma](https://www.prisma.io/) in the curriculum because of its popularity and community support.
 
-Prisma has all the features we need to complete this curriculum and then some. Prisma is just a library which you will `npm install` and use. Let's discuss some of its features. Then will link to some official Prisma guides to get you started.
+Prisma has all the features we need to complete this curriculum and then some. Prisma is a library, which means you can just use `npm install` to use it. We'll start by discussing some of its features, and then link to some official Prisma guides to help you get started.
 
 ### Prisma Schema
 
@@ -83,7 +83,7 @@ model User {
 
 There's a bunch of new stuff up here. Prisma schema files are written in Prisma Schema Language. You can see how not only there are column definitions for the table, but also a relation to another table defined within the `Message` model. You'll learn more about this in the assignment readings.
 
-This schema file lives in your codebase and is tracked by version control. You can probably guess by now, just how useful this is.
+This schema file lives in your codebase and is tracked by version control. You can guess by now how useful this is.
 
 ### Prisma client
 
@@ -114,11 +114,11 @@ npx prisma generate
 
 in the cli, and Prisma will generate the client for you. The client can handle all sorts of querying: joins, filters, sorting, pagination, and more.
 
-You might have a complex query that you just are unable to get right via the Prisma client, or you feel more comfortable in writing a query raw, you can do that too. Prisma supports raw queries as well.
+You might have a complex query that you just are unable to get right via the Prisma client, or if you feel more comfortable writing a query raw, you can do that too. Prisma supports raw queries as well.
 
 ### Prisma migrate
 
-Prisma migrate is a tool that helps you perform database migrations. You won't be using it a whole ton in the curriculum, but it's good to be aware of it. When you decide to change the schema in anyway, you run a prisma migration to apply schema changes to the database. These changes are tracked in a `migrations` folder in your codebase.
+Prisma migrate is a tool that helps you perform database migrations. You won't be using it a whole ton in the curriculum, but it's good to be aware of it. When you decide to change the schema in any way, you run a Prisma migration to apply the schema changes to the database. These changes are tracked in a `migrations` folder in your codebase.
 
 ### Assignment
 
