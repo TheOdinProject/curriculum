@@ -13,7 +13,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
   1. Now refactor your code to allow the human player to choose whether they want to be the creator of the secret code or the guesser.
   1. Build it out so that the computer will guess if you decide to choose your own secret colors.  You may choose to implement a computer strategy that follows the rules of the game or you can modify these rules.
   1. If you choose to modify the rules, you can provide the computer additional information about each guess.  For example, you can start by having the computer guess randomly, but keep the ones that match exactly.  You can add a little bit more intelligence to the computer player so that, if the computer has guessed the right color but the wrong position, its next guess will need to include that color somewhere.
-  1. If you want to follow the rules of the game, you'll need to research strategies for solving Mastermind, such as this [post](https://puzzling.stackexchange.com/questions/546/clever-ways-to-solve-mastermind).
+  1. If you want to follow the rules of the game, you'll need to research [strategies for solving Mastermind](https://puzzling.stackexchange.com/questions/546/clever-ways-to-solve-mastermind).
   1. Post your solution below!
 
 </div>
