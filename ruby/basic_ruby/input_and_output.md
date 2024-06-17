@@ -88,7 +88,7 @@ This is a sentence.
 
 1. Read through the [Hello, World](https://www.learnrubyonline.org/en/Hello_World) lesson and exercise from [www.learnrubyonline.org](https://www.learnrubyonline.org).
 1. Read the first four sections of the [Ruby - File I/0](https://www.tutorialspoint.com/ruby/ruby_input_output.htm) from TutorialsPoint on `puts`, `gets`, `putc`, and `print`.
-1. Read this [article from Ruby Guides](https://www.rubyguides.com/2018/10/puts-vs-print/) which describes the differences between `puts`, `print` and `p`.
+1. Read this [Ruby guides article describing the differences between puts, print and p.](https://www.rubyguides.com/2018/10/puts-vs-print/) which describes the differences between `puts`, `print` and `p`.
 
 </div>
 
