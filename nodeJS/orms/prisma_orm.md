@@ -8,7 +8,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - What are ORMs, and why are they used?
 - Introduction to Prisma ORM
-- Features of Prisma
+- Features of Prisma ORM
 
 ### Challenges with raw SQL'in
 
@@ -59,9 +59,9 @@ Databases inevitably change as the requirements of the project evolve. You might
 
 ORMs pretty much solve all of the pain points mentioned above, but it's not all sunshine and roses. There can be a learning curve to fully understand the ins and outs of an ORM, and some don't even fully support all SQL features. Even with these shortcomings, using an ORM can be extremely worthwhile.
 
-In the Node.js ecosystem, there are A LOT of ORMs to choose from, and the community has not landed on a go-to yet. We've decided to cover [Prisma](https://www.prisma.io/) in the curriculum because of its popularity and community support.
+In the Node.js ecosystem, there are A LOT of ORMs to choose from, and the community has not landed on a go-to yet. We've decided to cover [Prisma ORM](https://www.prisma.io/) in the curriculum because of its popularity and community support.
 
-Prisma has all the features we need to complete this curriculum and then some. Prisma is a library, which means you can just use `npm install` to use it. We'll start by discussing some of its features, and then link to some official Prisma guides to help you get started.
+Prisma ORM has all the features we need to complete this curriculum and then some. Prisma ORM consists of several libraries, which means you can just use `npm install` to use it. We'll start by discussing some of its features, and then link to some official Prisma ORM guides to help you get started.
 
 ### Prisma Schema
 
@@ -106,15 +106,15 @@ await prisma.message.create({
 const messages = await prisma.message.findMany();
 ```
 
-Notice `prisma.message` object? How did Prisma know that there's a `message` model? Once you create or update the schema file, all you have to do is run
+Notice `prisma.message` object? How did Prisma Client know that there's a `message` model? Once you create or update the schema file, all you have to do is run
 
 ```bash
 npx prisma generate
 ```
 
-in the CLI, and Prisma will generate the client for you. The client can handle all sorts of querying: joins, filters, sorting, pagination, and more.
+in the CLI, and Prisma ORM will generate the client for you. The client can handle all sorts of querying: joins, filters, sorting, pagination, and more.
 
-You might have a complex query that you just are unable to get right via the Prisma client, or if you feel more comfortable writing a query raw, you can do that too. Prisma supports raw queries as well.
+You might have a complex query that you just are unable to get right via the Prisma client, or if you feel more comfortable writing a query raw, you can do that too. Prisma Client supports raw queries as well.
 
 ### Prisma Migrate
 
