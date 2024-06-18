@@ -16,7 +16,7 @@ With the couple of projects you've done earlier, you might've run into the tedio
 
 #### So much more code
 
-You need a select statement? Cool, write a query. Need a select statement for a different table? Write another query. Or if your programmer senses are tingling, you could create a utility function for select. But now you need a select statement for specific columns? You'll have to modify the utility function. What about filters and sorting? You get the point.
+You need a `SELECT` statement? Cool, write a query. Need a `SELECT` statement for a different table? Write another query. Or if your programmer senses are tingling, you could create a utility function for `SELECT`. But now you need a `SELECT` statement for specific columns? You'll have to modify the utility function. What about filters and sorting? You get the point.
 
 Replicate the above for insert queries, and all of its variations. Or you could go in a different direction. Create modules per entity. For example, the books module would have:
 
