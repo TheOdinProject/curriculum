@@ -77,6 +77,10 @@ Remember that a hash map does not preserve insertion order when you are retrievi
 
 1. Create a new instance of your hash map and set the load factor to be `0.75`.
 
+    ```javascript
+    const test = new HashMap() // or HashMap() if using a factory
+    ```
+
 1. Populate your hash map using the `set(key, value)` method by copying the following:
 
     ```javascript
