@@ -138,6 +138,6 @@ To run the Node console, open up your terminal and type `node`. Type `.exit` to 
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
 - Check out this 4 minute video by Programming with Mosh [What is NodeJS?](https://www.youtube.com/watch?v=uVwtVBpw7RQ)
