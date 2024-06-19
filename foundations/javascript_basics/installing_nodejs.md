@@ -18,6 +18,7 @@ This section contains a general overview of topics that you will learn in this l
 ### Installing NVM
 
 <details markdown="block">
+  
   <summary class="dropDown-header">Installation on Linux</summary>
 
 #### Step 0: Prerequisites
@@ -62,6 +63,7 @@ If this returns `nvm: command not found`, close the terminal and re-open it.
 </details>
 
 <details markdown="block">
+  
   <summary class="dropDown-header">Installation on macOS</summary>
   
 On macOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it.
@@ -136,6 +138,6 @@ To run the Node console, open up your terminal and type `node`. Type `.exit` to 
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Check out this 4 minute video by Programming with Mosh [What is NodeJS?](https://www.youtube.com/watch?v=uVwtVBpw7RQ)
