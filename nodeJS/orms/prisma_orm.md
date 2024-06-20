@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 - Introduction to Prisma ORM
 - Features of Prisma ORM
 
-### Challenges with raw SQL'in
+### Challenges with raw SQLin'
 
 With the couple of projects you've done earlier, you might've run into the tediousness of raw SQL queries. Let's briefly discuss some of these challenges.
 
