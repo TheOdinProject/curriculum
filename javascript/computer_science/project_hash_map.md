@@ -98,9 +98,11 @@ Remember that a hash map does not preserve insertion order when you are retrievi
     test.set('lion', 'golden')
     ```
 
-1. After populating your hash map with the data above, your hash map's actual capacity should now be at `0.75`.
+1. After populating your hash map with the data above, your hash map's actual capacity should now be at `0.75` (full capacity).
 
-1. Now populate your hash map with the last node below (doing this will make your hash map exceed your current load factor, hence expanding your buckets and growing your hash map):
+1. Now with a full hash map, try overwriting a few nodes using `set(key, value)`. By right, this should only over-write the existing `values` of your nodes and not add new ones.
+
+1. After that, populate your hash map with the last node below (doing this will make your hash map exceed your current load factor, hence expanding your buckets and growing your hash map):
 
     ```javascript
     test.set('moon', 'silver')
@@ -108,7 +110,7 @@ Remember that a hash map does not preserve insertion order when you are retrievi
 
 1. If you have implemented your hash map correctly, the capacity of your new hash map will drop well below your load factor and you will notice that the nodes in your hash map are spread much evenly among your buckets.
 
-1. Now try to overwrite a few nodes using `set(key, value)`. By right, this should over-write the `values` of your nodes and not add new ones.
+1. With your new hash map, try overwriting a few nodes using `set(key, value)`. Again, this should only over-write existing `values` of your nodes.
 
 1. Test the other methods of your hash maps such as `get(key)`, `has(key)`, `remove(key)`, `length()`, `clear()`, `keys()`, `values()`, and `entries()` to check if they are still working as expected after expanding your hash map.
 
