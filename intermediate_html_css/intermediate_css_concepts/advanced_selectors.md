@@ -52,12 +52,12 @@ main div {
 But what if we wanted to be more specific and <span id="childvdesc-knowledge-check">select *only* the `child` or `grand-child` divs?</span> That's where the child combinator `>` comes in handy. Unlike the descendant combinator, it will only select direct children.
 
 ```css
-/* This rule will only select divs with a class of child */
+/* This rule will only select the divs with the class child */
 main > div {
   /* Our cool CSS */
 }
 
-/* This rule will only select divs with a class of grand-child */
+/* This rule will only select the divs with the class grand-child */
 main > div > div {
   /* More cool CSS */
 }
@@ -77,7 +77,7 @@ Phrased another way, the child selector will select an element that is one level
 }
 ```
 
-Finally, if we want to select all of the siblings following an element's and not just the first one, we can use the general sibling combinator `~`.
+Finally, if we want to select all of the siblings following an element and not just the first one, we can use the general sibling combinator `~`.
 
 ```css
 /* This rule will select all of .group1's siblings - in this case the 2nd and 3rd .child divs */
@@ -99,7 +99,9 @@ Before diving into pseudo-selectors, a quick note on the difference between [pse
 Pseudo-classes offer us different ways to target elements in our HTML. There are quite a lot of them, and they come in a couple of different flavors. Some are based on their position or structure within the HTML. Others are based on the state of a particular element, or how the user is currently interacting with it. There are too many to cover in detail here but we'll have a look at some of the most useful ones. Pseudo-classes share the same specificity as regular classes (0, 0, 1, 0). Just like regular classes, most can be chained together.
 
 <div class="lesson-note lesson-note--tip" markdown=1>
+
 The (0,0,1,0) above is the notation for calculating specificity. To find out more about how it works, glance over the "Calculating CSS Specificity Value" section from this [article on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/).
+
 </div>
 
 As always don't forget to check [MDN's docs on pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) to see a complete picture of what's available.
@@ -256,13 +258,15 @@ To see what other things you can achieve with attribute selectors, such as searc
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Complete [CSS Diner](https://flukeout.github.io/). You should be familiar with most of the content in the first couple of exercises, but practice and review never hurt! Don't forget to read the examples and explanations on the right.
-2. Read [Shay Howe's article on Complex Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/). This covers most of the content of this lesson in a bit more detail. As stated in their article, they sometimes use a single colon instead of a double one for pseudo-elements. Please keep in mind that the double colon is now the standard.
+1. Read [Shay Howe's article on Complex Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/). This covers most of the content of this lesson in a bit more detail. As stated in their article, they sometimes use a single colon instead of a double one for pseudo-elements. Please keep in mind that the double colon is now the standard.
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the difference between the child combinator and the descendant combinator?](#childvdesc-knowledge-check)
 - [How does the syntax of pseudo-classes and pseudo-elements differ?](#syntax-exist-knowledge-check)
@@ -275,7 +279,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Kevin Powell](https://www.youtube.com/kepowob/search?query=pseudo) has a variety of videos on several of these topics if you'd like a deeper dive.
 - [The CSS Tricks Almanac](https://css-tricks.com/almanac/selectors/) has a great reference for all pseudo-elements and selectors. It includes examples, extra resources and browser support charts.

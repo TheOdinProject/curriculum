@@ -14,21 +14,23 @@ If that doesn't get you interested, remember that this curriculum is meant to pr
 
 This section contains a general overview of topics that you will learn in this lesson.
 
--  What is an algorithm?
--  What is pseudo-code?
+- What is an algorithm?
+- What is pseudo-code?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Watch [Introduction to Algorithms by David Malan](https://www.youtube.com/watch?v=6hfOvs8pY1k) on TedEd to see how to think about algorithms.
-  2. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube for a more structured look at solving problems using algorithms.
-  3. Read [this Quora answer about the importance of algorithms in web development](https://qr.ae/py3NAc) to get some context for why we're going over this stuff.
-  4. Watch [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
+  1. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube for a more structured look at solving problems using algorithms.
+  1. Read this Quora answer about the [importance of algorithms in web development](https://qr.ae/py3NAc) to get some context for why we're going over this stuff.
+  1. Watch [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8)
 - [What is the importance of algorithms in web development?](https://qr.ae/py3NAc)
@@ -36,7 +38,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Wikipedia on Computer Science](http://en.wikipedia.org/wiki/Computer_science)
 - [Wikipedia on Algorithms](http://en.wikipedia.org/wiki/Algorithm)
