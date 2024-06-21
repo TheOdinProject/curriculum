@@ -43,7 +43,7 @@ export default App;
 ```jsx
 // App.test.jsx
 
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import App from "./App";
 
@@ -102,7 +102,7 @@ Let's test if the button works as intended. In this test suite, we'll use a sepa
 ```jsx
 // App.test.jsx
 
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "./App";
