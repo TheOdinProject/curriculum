@@ -37,7 +37,7 @@ export default function App() {
 
 So far so good right? We have a beautiful reusable button that we can use as many times as we like, there is just one small problem.
 
-What if we wanted the text within our second button to be “Don’t Click Me!’? Right now, we would have to create a second button component with this different text.
+What if we wanted the text within our second button to be “Don’t Click Me!"? Right now, we would have to create a second button component with this different text.
 
 ```jsx
 function Button() {
