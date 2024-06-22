@@ -63,6 +63,49 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
   Remember that our hash map does not preserve insertion order when you are retrieving your hash map's data. It is normal and expected for keys and values to appear out of the order you inserted them in.
 
+#### Test Your Hash Map
+
+1. Create a new Ruby file.
+
+1. Create a new instance of your hash map and set the load factor to be `0.75`.
+
+    ```ruby
+    test = HashMap.new
+    ```
+
+1. Populate your hash map using the `#set(key, value)` method by copying the following:
+
+    ```ruby
+    test.set('apple', 'red')
+    test.set('banana', 'yellow')
+    test.set('carrot', 'orange')
+    test.set('dog', 'brown')
+    test.set('elephant', 'gray')
+    test.set('frog', 'green')
+    test.set('grape', 'purple')
+    test.set('hat', 'black')
+    test.set('ice cream', 'white')
+    test.set('jacket', 'blue')
+    test.set('kite', 'pink')
+    test.set('lion', 'golden')
+    ```
+
+1. After populating your hash map with the data above, your hash map's actual capacity should now be at `0.75` (full capacity).
+
+1. Now with a full hash map, try overwriting a few nodes using `#set(key, value)`. By right, this should only over-write the existing `values` of your nodes and not add new ones.
+
+1. After that, populate your hash map with the last node below (doing this will make your hash map exceed your current load factor, hence expanding your buckets and growing your hash map):
+
+    ```ruby
+    test.set('moon', 'silver')
+    ```
+
+1. If you have implemented your hash map correctly, the capacity of your new hash map will drop well below your load factor and you will notice that the nodes in your hash map are spread much evenly among your buckets.
+
+1. With your new hash map, try overwriting a few nodes using `#set(key, value)`. Again, this should only over-write existing `values` of your nodes.
+
+1. Test the other methods of your hash map such as `#get(key)`, `#has?(key)`, `#remove(key)`, `#length`, `#clear`, `#keys`, `#values`, and `#entries` to check if they are still working as expected after expanding your hash map.
+
 #### Extra Credit
 
 - Create a class `HashSet` that behaves the same as a `HashMap` but only contains `keys` with no `values`.
