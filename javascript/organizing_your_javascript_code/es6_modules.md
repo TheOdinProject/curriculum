@@ -120,8 +120,12 @@ To export something as a **named export**, we can either stick the `export` keyw
 // one.js
 export const greeting = "Hello, Odinite!";
 export const farewell = "Bye bye, Odinite!";
+```
 
-// Or on a separate line
+Or on a separate line:
+
+```javascript
+// one.js
 const greeting = "Hello, Odinite!";
 const farewell = "Bye bye, Odinite!";
 export { greeting, farewell };
@@ -164,8 +168,12 @@ To export something from a file as a default export, we can also do it inline by
 ```javascript
 // one.js
 export default greeting = "Hello, Odinite!";
+```
 
-// Or on a separate line
+Or on a separate line:
+
+```javascript
+// one.js
 const greeting = "Hello, Odinite!";
 export default greeting;
 ```
