@@ -171,7 +171,7 @@ git config --get user.email
 ```
 
 <div class="lesson-note" markdown="1">
-
+  
 #### For macOS Users
 
 Run these two commands to tell Git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder. .DS_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don't configure Git to ignore them, pesky .DS_Store files will show up in your commits. Remember to copy and paste each of these commands into your terminal.
@@ -180,9 +180,7 @@ Run these two commands to tell Git to ignore .DS_Store files, which are automati
 echo .DS_Store >> ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 ```
-
 </div>
-
 
 #### Step 2.3: Create an SSH key
 
