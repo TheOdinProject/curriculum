@@ -77,7 +77,13 @@ When using ESM, each module has its own private scope, where we use import/expor
 
 </div>
 
+### Import and export
+
+How do we actually import and export? In true JavaScript fashion, we don't have just one but two types of importing and exporting: `default` and `named`, and they essentially do the same kind of thing but very slightly differently. They can even be mixed and matched in the same file.
+
 #### Named exports
+
+Let's use our `one.js` and `two.js` examples from before. First, we'll need to export our greeting and farewell strings from `one.js`.
 
 To export something as a **named export**, we can either stick the `export` keyword in front of its declaration, or add an `export { }` somewhere in the file (typically the end), where the curly braces contain a list of the names of the things to export. Either method is fine to use, and we can export as many things as we liked as named exports.
 
@@ -98,7 +104,7 @@ export { greeting, farewell };
 
 Now to import these variables in `two.js`! Remember that we can control what we import, so if we only need the `greeting` variable, we could just import that on its own. If another file needed the `farewell` variable (or both), then that file could import what it needs. Don't import it? Can't use it. To do named imports, we must specify the names of the things we want to import inside `{ }` and provide the path to the file we're importing from (when we deal with importing third-party libraries later, you can just use the name of the library instead of a full file path).
 
-Note that [you cannot use template strings for the file path](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#module-name), only single or double quoted strings.
+Note that [you cannot use template strings for the file path](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#module-name), only single or double-quoted strings.
 
 ```javascript
 // two.js
@@ -130,6 +136,8 @@ In contrast to named exports, a file can only default export a single thing. Som
 
 To export something from a file as a default export, we can also do it inline by prepending `export default` to the appropriate declaration, or we can export it at the end of the file, this time *without* any curly braces. Again, either way is perfectly fine. Note that if you do an inline default export, if you would normally declare with `let` or `const`, the `default` keyword *replaces* `let`/`const`.
 
+Let's default export our greeting string from `one.js`.
+
 ```javascript
 // one.js
 export default greeting = "Hello, Odinite!";
@@ -152,7 +160,9 @@ import helloOdinite from "./one.js";
 console.log(helloOdinite); // "Hello, Odinite!"
 ```
 
-You can use both default and named exports in the same file. Confusingly enough, there isn't really a universally agreed-upon rule for when to use either, outside of the fact that a file can have multiple named exports but only one default export. When it comes to only needing to export a single thing from a module, some people prefer using a default export whereas some prefer using a single named export. Both work so use whatever you prefer, or in the future, when working in a team, whatever your team prefers if they prefer a certain system.
+You can use both default and named exports in the same file. Confusingly enough, there isn't really a universally agreed-upon rule for when to use either, outside of the fact that a file can have multiple named exports but only one default export. When it comes to only needing to export a single thing from a module, some people prefer using a default export whereas some prefer using a single named export. Both work so use whatever you prefer, or if working in a team, whatever the team prefers.
+
+Let's default export the greeting string from `one.js`, and export the farewell string as a named export.
 
 ```javascript
 // one.js
@@ -160,9 +170,14 @@ export default greeting = "Hello, Odinite!";
 export const farewell = "Bye bye, Odinite!";
 ```
 
+We can then import them both in `two.js`. We need to default import the greeting string (which also means we can name it whatever we want) and named import the farewell string.
+
 ```javascript
 // two.js
 import greeting, { farewell } from "./one.js";
+
+console.log(greeting); // "Hello, Odinite!"
+console.log(farewell); // "Bye bye, Odinite!"
 ```
 
 ### Entry points
@@ -196,8 +211,6 @@ two.js <-------------- one.js <-------------- three.js
 ```
 
 Note that we only needed the one script tag, as the browser will handle the additional file dependencies for us. We also did not need to add the `defer` attribute, as `type="module"` will automatically defer script execution for us.
-
-But how do we actually import and export? In true JavaScript fashion, we don't have just one but two types of importing and exporting: `default` and `named`, and they essentially do the same kind of thing but very slightly differently. They can even be mixed and matched in the same file.
 
 ### CommonJS
 
