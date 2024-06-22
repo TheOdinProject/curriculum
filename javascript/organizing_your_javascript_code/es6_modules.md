@@ -210,7 +210,7 @@ CJS is still used quite a lot in NodeJS code, though in recent years, ESM in Nod
 
 **npm** (no capitals!) is a package manager - a gigantic repository of plugins, libraries, and other tools, which provides us with a command-line tool we can use to install these tools (that we call "packages") in our applications. We will then have all our installed packages' code locally, which we can import into our own files. We could even publish our own code to npm!
 
-You may recall installing npm in the Foundations course in order to install the Jest testing framework to do the JavaScript exercises. Funnily enough, [npm does not stand for "Node Package Manager"](https://twitter.com/npmjs/status/105690425242820608), though you will often see it referred to as such.
+You may recall installing npm in the Foundations course in order to install the Jest testing framework to do the JavaScript exercises. Funnily enough, [npm does not stand for "Node Package Manager"](https://www.npmjs.com/package/npm#is-npm-an-acronym-for-node-package-manager), though you will often see it referred to as such.
 
 If you are in the Full Stack Ruby on Rails pathway, you will have already been introduced to Yarn, an alternative package manager. For this course, we will be using npm.
 
