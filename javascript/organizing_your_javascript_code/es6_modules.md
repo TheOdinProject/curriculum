@@ -11,7 +11,6 @@ This section contains a general overview of topics that you will learn in this l
 - Explain what ES6 modules are and how to import and export from them.
 - Describe the difference between default and named exports.
 - Explain the main differences between CommonJS modules and ES6 modules.
-- Understand what npm is.
 
 ### Before ES6 modules: The global scope problem
 
@@ -206,26 +205,11 @@ Along the way, you may have bumped into something called CommonJS (CJS), which u
 
 CJS is still used quite a lot in NodeJS code, though in recent years, ESM in NodeJS has been gaining popularity. For the time being, we are focused on writing code to run in the browser, so we will be spending time with ESM. If you are taking the Full Stack JavaScript pathway, then we will cover CJS in more detail later in the NodeJS course.
 
-### npm
-
-**npm** (no capitals!) is a package manager - a gigantic repository of plugins, libraries, and other tools, which provides us with a command-line tool we can use to install these tools (that we call "packages") in our applications. We will then have all our installed packages' code locally, which we can import into our own files. We could even publish our own code to npm!
-
-You may recall installing npm in the Foundations course in order to install the Jest testing framework to do the JavaScript exercises. Funnily enough, [npm does not stand for "Node Package Manager"](https://www.npmjs.com/package/npm#is-npm-an-acronym-for-node-package-manager), though you will often see it referred to as such.
-
-If you are in the Full Stack Ruby on Rails pathway, you will have already been introduced to Yarn, an alternative package manager. For this course, we will be using npm.
-
-As our applications get more complex and more and more files are needed (whether they are our own files or files from packages we installed and imported), managing many of these dependencies can become rather troublesome, especially when packages get updated. This can get even more troublesome when we consider that we may end up sending *many* JavaScript files to the browser to download. In the next lesson, we will introduce bundlers, tools that lets us write multiple files that are better for us to work with, then bundle them together into fewer smaller files which will ultimately be sent to the browser instead.
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. As per usual, you can learn most about JavaScript keywords and concepts from the MDN docs, so check out the [docs on export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) and [docs on import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import). There are little extras about them we have not covered in this lesson, such as aliases and namespace imports.
-1. Read a bit about npm, packages, and dependencies:
-   1. [Installing packages with npm](https://docs.npmjs.com/downloading-and-installing-packages-locally).
-   1. Read about [the `package.json` file](https://docs.npmjs.com/creating-a-package-json-file), the file that stores much of the information for our app, including all the packages installed in it. npm uses this file to do things like install the right packages, update to the correct versions etc. Don't worry too much with the details, just know what its basic function is, as it will help with the next few lessons and beyond.
-   1. Any packages we install are called "dependencies", but if any packages are only used during the development process and their code is not needed for the user-facing app (such as the Jest testing framework), we call them [development dependencies](https://dev.to/mshertzberg/demystifying-devdependencies-and-dependencies-5ege).
-1. Here is a great little [history lesson about JavaScript and managing packages across multiple files](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html). Only read up to "Using a JavaScript module bundler (webpack)", as we will cover bundlers and webpack in the next lesson.
 
 </div>
 
@@ -239,12 +223,10 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is an entry point?](#entry-points)
 - [How do you link a module script in HTML?](#entry-points)
 - [What is the difference between default and named exports?](#default-exports)
-- [What is npm?](#npm)
-- [What file does npm use that contains all information about dependencies?](https://docs.npmjs.com/creating-a-package-json-file)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- This video on [ES6 Modules by Web Dev Simplified](https://youtu.be/cRHQNNcYf6s) summarizes much of the ESM topics discussed in this lesson. At the end, he mentions `nomodule` and support for older browsers that were unable to support ESM. Nowadays, ESM is supported by nearly every browser, certainly ones that will be in common use, and so you will not need to worry about browser compatibility for this.
+- This video on [ES6 Modules by Web Dev Simplified](https://youtu.be/cRHQNNcYf6s) summarizes much of the ESM topics discussed in this lesson. At the end, he mentions `nomodule` and support for older browsers that were unable to support ESM. Nowadays, ESM is supported by nearly every browser, certainly ones that will be in common use, so you will not need to worry about browser compatibility for this.
 - Here is a [brief comparison of CommonJS modules and ES6 modules](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/).
