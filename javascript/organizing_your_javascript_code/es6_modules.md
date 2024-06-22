@@ -188,7 +188,7 @@ When we use ESM, instead of adding every JavaScript file to our HTML in order, w
 <script src="two.js" type="module"></script>
 ```
 
-Why is `two.js` our entry point? Let's take our original `one.js` and `two.js` example and pretend we've written the import/exports using ES6 module syntax (we'll get to that shortly). `two.js` depends on `one.js` for the `greeting` variable, so we have the following **dependency graph**:
+Why is `two.js` our entry point? Well, in our above examples, `two.js` imports variables from `one.js`, meaning `two.js` depends on `one.js`, so we have the following **dependency graph**:
 
 ```text
 importer  depends on  exporter
@@ -233,13 +233,13 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Before ES6 modules, how would you privatize a variable from being accessible in other files?](#before-es6-modules-the-global-scope-problem)
 - [Before ES6 modules, how would you expose variables to be accessible in later files?](#before-es6-modules-the-global-scope-problem)
 - [What are some benefits of writing code in modules?](#introduction)
+- [What is the difference between default and named exports?](#default-exports)
 - [What is an entry point?](#entry-points)
 - [How do you link a module script in HTML?](#entry-points)
-- [What is the difference between default and named exports?](#default-exports)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- This video on [ES6 Modules by Web Dev Simplified](https://youtu.be/cRHQNNcYf6s) summarizes much of the ESM topics discussed in this lesson. At the end, he mentions `nomodule` and support for older browsers that were unable to support ESM. Nowadays, ESM is supported by nearly every browser, certainly ones that will be in common use, so you will not need to worry about browser compatibility for this.
+- This video on [ES6 Modules by Web Dev Simplified](https://youtu.be/cRHQNNcYf6s) summarizes much of the ESM topics discussed in this lesson. At the end, he mentions `nomodule` and support for older browsers that were unable to support ESM. Nowadays, this is not a concern as ESM is supported by basically every browser in common use.
 - Here is a [brief comparison of CommonJS modules and ES6 modules](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/).
