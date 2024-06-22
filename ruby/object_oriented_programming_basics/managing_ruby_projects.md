@@ -263,7 +263,7 @@ puts "I'm blue da ba dee da ba di!".colorize(:blue)
 puts "It ain't easy bein' green...".colorize(:green)
 ```
 
-You're probably itching to see all those colours, so run your file with `ruby foo.rb` to see them... or rather, a LoadError. Right - you need to <span id="install-gem">install that gem first!</span> Do that with `gem install colorize` and you'll see RubyGems in action. Your system now has access to the `Colorize` gem!
+You're probably itching to see all those colours, so run your file with `ruby main.rb` to see them... or rather, a LoadError. Right - you need to <span id="install-gem">install that gem first!</span> Do that with `gem install colorize` and you'll see RubyGems in action. Your system now has access to the `Colorize` gem!
 
 Wait, *your system* - what about others who would like to use your code? Yeah, they would also need to `gem install` it - no big deal.
 

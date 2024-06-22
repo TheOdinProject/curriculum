@@ -29,7 +29,7 @@ What would you expect the following text to output on an HTML page?
 </body>
 ```
 
-It looks like two paragraphs of text, and so you might expect it to display in that way. However, that is not the case, as you can see in the output below:
+It looks like two paragraphs of text, so you might expect it to display in that way. However, that is not the case, as you can see in the output below:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="xxrKqeV" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -79,7 +79,7 @@ Using the correct level of heading is important as levels provide a hierarchy to
 
 ### Strong element
 
-The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on some screen readers will change to communicate the importance of the text within a strong element. To define a strong element we wrap text content in a `<strong>` tag.
+The `<strong>` element makes text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website. The tone of voice on some screen readers will change to communicate the importance of the text within a strong element. To define a strong element, we wrap text content in a `<strong>` tag.
 
 You can use strong on its own:
 
@@ -109,7 +109,7 @@ Sometimes you will want to make text bold without giving it an important meaning
 
 ### Em element
 
-The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element we wrap text content in an `<em>` tag.
+The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element, wrap the text content in an `<em>` tag.
 
 To use `<em>` on its own:
 

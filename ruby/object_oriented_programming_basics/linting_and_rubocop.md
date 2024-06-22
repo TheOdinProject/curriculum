@@ -58,7 +58,7 @@ You'll have an opportunity to dig into particulars of the Ruby Style Guide soon 
 
 <span id="install-rubocop">As mentioned earlier, RuboCop is a Gem and the project we want to investigate is Caesar Cipher. Go back and install RuboCop locally (as in, use Bundler)</span> and <span id="cli-rubocop">then run `bundle exec rubocop` in your terminal.</span> Running it like this makes sure that the local version of RuboCop is used and it will check all the files in the current working directory *and* its subdirectories. In short: everything.
 
-Whoah! Well, at least for me - perhaps you're a savant and a Ruby Style natural, in that case, here's some example output:
+Whoa! Well, at least for me - perhaps you're a savant and a Ruby Style natural, in that case, here's some example output:
 
 ```bash
 Inspecting 2 files
@@ -216,8 +216,7 @@ This will disable the `AbcSize` Cop from `Metrics` department between those comm
 
 Some rules are a lot more arbitrary - the Style department is going to be the prime ground for strong arguments about things that don't really matter - like double-quoting all strings vs making a distinction between plain strings and string interpolation. Perhaps you have strong feelings about quotes, so let's help you out by showing you how to show them to RuboCop.
 
-Start by running `bundle exec rubocop --init` in your home directory to generate a blank `rubocop.yml` file. It has a comment that describes how to use it but besides that - it's totally empty!
-Now, you need to find out what rule you want to change or disable. For the possible options always consult the documentation - not every Cop is just a simple on/off, there might be more options. As an example, we'll be changing the rules regarding strings, frozen string literals and we'll enable NewCops.
+Start by creating a `.rubocop.yml` file using the command touch or nano(nano will open the text editor right away). Don't forget the it must a dotfile, meaning it needs to have a dot before its name. Now, you need to find out what rule you want to change or disable. For the possible options always consult the documentation - not every Cop is just a simple on/off, there might be more options. As an example, we'll be changing the rules regarding strings, frozen string literals and we'll enable NewCops.
 
 ```yaml
 # This is .rubocop.yml in ~/
@@ -233,12 +232,12 @@ Style/FrozenStringLiteralComment:
 
 Placement of `.rubocop.yml` in `~` is not accidental - if RuboCop can't find a config file anywhere in the project, it'll look for it in couple of more places, one of them being your home directory. This config file will make it so every project without own configuration will follow these rules - NewCops being enabled, string literals all being double-quoted and not allowing for a magic comment enabling or disabling frozen string literals - this last thing will make sense after you work with RuboCop for a while.
 
-But what with your projects that want to use *some* of the general configuration but not all of it? Enter: `inherit_from`. By adding a line with `inherit_from ~/.rubocop.yml` into your local `.rubocop.yml` makes it use the same rules as defined there. You can then overwrite them locally. Neater thing? You can have directory-specific `.rubocop.yml`s that inherit from your project specific configuration file just to make sure every file in that directory is or is not following some rules. Let's see an example:
+But what with your projects that want to use *some* of the general configuration but not all of it? Enter: `inherit_from:`. By adding a line with `inherit_from: ~/.rubocop.yml` into your local `.rubocop.yml` makes it use the same rules as defined there. You can then overwrite them locally. Neater thing? You can have directory-specific `.rubocop.yml`s that inherit from your project specific configuration file just to make sure every file in that directory is or is not following some rules. Let's see an example:
 
 ```yaml
 # This is .rubocop.yml in ~/my-cool-project/
 
-inherit_from ~/.rubocop.yml
+inherit_from: ~/.rubocop.yml
 
 Style/StringLiterals:
   EnforcedStyle: single_quotes
