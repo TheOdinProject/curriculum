@@ -180,6 +180,7 @@ Run these two commands to tell Git to ignore .DS_Store files, which are automati
 echo .DS_Store >> ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 ```
+
 </div>
 
 #### Step 2.3: Create an SSH key
