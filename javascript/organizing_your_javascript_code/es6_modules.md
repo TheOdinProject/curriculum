@@ -77,40 +77,6 @@ When using ESM, each module has its own private scope, where we use import/expor
 
 </div>
 
-#### Entry points
-
-When we use ESM, instead of adding every JavaScript file to our HTML in order, we only need to link a single file - the **entry point**.
-
-```html
-<script src="two.js" type="module"></script>
-```
-
-Why is `two.js` our entry point? Let's take our original `one.js` and `two.js` example and pretend we've written the import/exports using ES6 module syntax (we'll get to that shortly). `two.js` depends on `one.js` for the `greeting` variable, so we have the following **dependency graph**:
-
-```text
-importer  depends on  exporter
-two.js <-------------- one.js
-```
-
-When we load `two.js` as a module, the browser will see that it depends on `one.js` and load the code from that file as well. If we instead used `one.js` as our entry point, the browser would see that it does not depend on any other files, and so would do nothing else. Our code from `two.js` would not be used, and nothing would get logged!
-
-If we had another file, `three.js`, that exported something and `two.js` imported from it, then `two.js` would still be our entry point, now depending on both `one.js` and `three.js`.
-
-```text
-two.js <-------------- one.js
-              └------- three.js
-```
-
-Or perhaps instead of `two.js`, `one.js` imports from `three.js`. In which case, `two.js` would still be our entry point and depend on `three.js` indirectly through `one.js`.
-
-```text
-two.js <-------------- one.js <-------------- three.js
-```
-
-Note that we only needed the one script tag, as the browser will handle the additional file dependencies for us. We also did not need to add the `defer` attribute, as `type="module"` will automatically defer script execution for us.
-
-But how do we actually import and export? In true JavaScript fashion, we don't have just one but two types of importing and exporting: `default` and `named`, and they essentially do the same kind of thing but very slightly differently. They can even be mixed and matched in the same file.
-
 #### Named exports
 
 To export something as a **named export**, we can either stick the `export` keyword in front of its declaration, or add an `export { }` somewhere in the file (typically the end), where the curly braces contain a list of the names of the things to export. Either method is fine to use, and we can export as many things as we liked as named exports.
@@ -198,6 +164,40 @@ export const farewell = "Bye bye, Odinite!";
 // two.js
 import greeting, { farewell } from "./one.js";
 ```
+
+### Entry points
+
+When we use ESM, instead of adding every JavaScript file to our HTML in order, we only need to link a single file - the **entry point**.
+
+```html
+<script src="two.js" type="module"></script>
+```
+
+Why is `two.js` our entry point? Let's take our original `one.js` and `two.js` example and pretend we've written the import/exports using ES6 module syntax (we'll get to that shortly). `two.js` depends on `one.js` for the `greeting` variable, so we have the following **dependency graph**:
+
+```text
+importer  depends on  exporter
+two.js <-------------- one.js
+```
+
+When we load `two.js` as a module, the browser will see that it depends on `one.js` and load the code from that file as well. If we instead used `one.js` as our entry point, the browser would see that it does not depend on any other files, and so would do nothing else. Our code from `two.js` would not be used, and nothing would get logged!
+
+If we had another file, `three.js`, that exported something and `two.js` imported from it, then `two.js` would still be our entry point, now depending on both `one.js` and `three.js`.
+
+```text
+two.js <-------------- one.js
+              └------- three.js
+```
+
+Or perhaps instead of `two.js`, `one.js` imports from `three.js`. In which case, `two.js` would still be our entry point and depend on `three.js` indirectly through `one.js`.
+
+```text
+two.js <-------------- one.js <-------------- three.js
+```
+
+Note that we only needed the one script tag, as the browser will handle the additional file dependencies for us. We also did not need to add the `defer` attribute, as `type="module"` will automatically defer script execution for us.
+
+But how do we actually import and export? In true JavaScript fashion, we don't have just one but two types of importing and exporting: `default` and `named`, and they essentially do the same kind of thing but very slightly differently. They can even be mixed and matched in the same file.
 
 ### CommonJS
 
