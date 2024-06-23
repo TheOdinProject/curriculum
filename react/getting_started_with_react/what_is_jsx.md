@@ -1,6 +1,6 @@
 ### Introduction
 
-You're likely somewhat familiar with JSX from previous React lessons, in this lesson we're going to explain _what_ it is, _why_ we use it, and _how_ to use it in your React apps.
+You're likely somewhat familiar with JSX from previous React lessons, in this lesson we're going to explain *what* it is, *why* we use it, and *how* to use it in your React apps.
 
 ### Lesson overview
 
@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 JSX is a syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file. It's not required to use JSX when writing React components, but it does make writing them more concise.
 
-Essentially, JSX is syntactic sugar for the React [createElement](https://react.dev/reference/react/createElement) function. This function creates a React element, which is a plain object, so JSX compiles down to plain JavaScript objects.
+Essentially, JSX is syntactic sugar for the React [createElement function](https://react.dev/reference/react/createElement). This function creates a React element, which is a plain object, so JSX compiles down to plain JavaScript objects.
 
 Here you can see the logged value of a div JSX element with some text:
 
@@ -35,30 +35,30 @@ If you were to take some valid HTML and copy it straight into your React compone
 
    Correct:
 
-   ~~~jsx
+   ```jsx
    function App() {
+     // Could replace <></> with <div></div>
      return (
        <>
          <h1>Example h1</h1>
          <h2>Example h2</h2>
        </>
-       // Could replace <></> with <div></div>
      );
    }
-   ~~~
+    ```
 
    Incorrect:
 
-   ~~~jsx
+   ```jsx
    function App() {
      return (
        <h1>Example h1</h1>
        <h2>Example h2</h2>
      );
    }
-   ~~~
+   ```
 
-2. Close all tags.
+1. Close all tags.
 
    In HTML, many tags are self-closing and self-wrapping. In JSX however, we must explicitly close and wrap these tags.
 
@@ -66,7 +66,7 @@ If you were to take some valid HTML and copy it straight into your React compone
 
    Correct:
 
-   ~~~jsx
+   ```jsx
    function App() {
      return (
        <>
@@ -74,12 +74,12 @@ If you were to take some valid HTML and copy it straight into your React compone
          <li></li>
        </>
      );
-   }
-   ~~~
+    }
+   ```
 
    Incorrect:
 
-   ~~~jsx
+   ```jsx
    function App() {
      return (
        <>
@@ -88,56 +88,53 @@ If you were to take some valid HTML and copy it straight into your React compone
        </>
      );
    }
-   ~~~
+   ```
 
-3. camelCase **Most** things.
+1. camelCase **Most** things.
 
    JSX turns into JavaScript, and attributes of elements become keys of JavaScript objects, so you can't use dashes or reserved words such as `class`. Because of this, many HTML attributes are written in camelCase. Instead of `stroke-width`, you'd use `strokeWidth`, and instead of `class` you'd use `className`.
 
    Correct:
 
-   ~~~jsx
+   ```jsx
    function App() {
      return (
-      <div className="container">
-        <svg>
-          <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
-        </svg>
-      </div>
+     <div className="container">
+       <svg>
+         <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
+       </svg>
+     </div>
      );
    }
-   ~~~
+   ```
 
    Incorrect:
 
-   ~~~jsx
+   ```jsx
    function App() {
      return (
-      <div class="container">
-        <svg>
-          <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
-        </svg>
-      </div>
+       <div class="container">
+         <svg>
+           <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
+         </svg>
+       </div>
      );
    }
-   ~~~
+   ```
 
 ### Converting HTML to JSX
 
 Now that we've covered the Rules of JSX, we'll go through the conversion of a chunk of HTML to JSX.
 
-~~~jsx
+```jsx
 <h1>Test title</h1>
-<ol class="test-list">
-  <li>List item 1
-  <li>List item 2
-  <li>List item 3
-</ol>
 <svg>
-   <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
+  <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
 </svg>
-<form><input type="text"></form>
-~~~
+<form>
+  <input type="text">
+</form>
+```
 
 If you try to return this from a React component, you would get many errors, so we are going to fix that!
 
@@ -145,33 +142,25 @@ If you try to return this from a React component, you would get many errors, so 
 
 The first issue we get is that this would not return a single root element, so let's give it a container.
 
-~~~jsx
+```jsx
 <div>
   <h1>Test title</h1>
-  <ol class="test-list">
-    <li>List item 1
-    <li>List item 2
-    <li>List item 3
-  </ol>
   <svg>
-     <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
+    <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
   </svg>
-  <form><input type="text"></form>
+  <form>
+    <input type="text">
+  </form>
 </div>
-~~~
+```
 
 You should see that another error appears now that we've fixed the initial one. This doesn't mean we created the error with our previous changes, just that React wasn't showing this one yet.
 
-Now, onto the second issue, which is that we haven't closed all of our tags, in particular, the `<li>` and the `<input>`.
+Now, onto the second issue, which is that we haven't closed the `<input>` tag.
 
-~~~jsx
+```jsx
 <div>
   <h1>Test title</h1>
-  <ol class="test-list">
-    <li>List item 1</li>
-    <li>List item 2</li>
-    <li>List item 3</li>
-  </ol>
   <svg>
     <circle cx="25" cy="75" r="20" stroke="green" stroke-width="2" />
   </svg>
@@ -179,20 +168,15 @@ Now, onto the second issue, which is that we haven't closed all of our tags, in 
     <input type="text" />
   </form>
 </div>
-~~~
+```
 
 If you are following along, at this point you will stop seeing an error being rendered on-screen, this time it will be in the console.
 
-The last issue is that we haven't camelCased our attributes, and so are using invalid DOM properties for JSX, specifically the `class` and the `stroke-width`.
+The last issue is that we haven't camelCased our attributes, and so are using invalid DOM properties for JSX, specifically the `stroke-width`.
 
-~~~jsx
+```jsx
 <div>
   <h1>Test title</h1>
-  <ol className="test-list">
-    <li>List item 1</li>
-    <li>List item 2</li>
-    <li>List item 3</li>
-  </ol>
   <svg>
     <circle cx="25" cy="75" r="20" stroke="green" strokeWidth="2" />
   </svg>
@@ -200,7 +184,7 @@ The last issue is that we haven't camelCased our attributes, and so are using in
     <input type="text" />
   </form>
 </div>
-~~~
+```
 
 Now that we've applied all of the fixes to the errors that React gave us, this is fully fledged JSX code that can be used in a React component without any issues.
 
@@ -210,23 +194,23 @@ Now that we've applied all of the fixes to the errors that React gave us, this i
 
 In the following lessons, you will spend some time reading the React documentation. Most of them will have small tasks at the end to test what you have read. We will not       mention them explicitly each time, but be sure to do them. Practice makes perfect!
 
-1.  Read through the React docs [Writing markup with JSX page](https://react.dev/learn/writing-markup-with-jsx) to review the content we have covered here.
+1. Read through the React docs [Writing Markup with JSX](https://react.dev/learn/writing-markup-with-jsx) page to review the content we have covered here.
 
-2.  Read through the React docs [JavaScript in JSX page](https://react.dev/learn/javascript-in-jsx-with-curly-braces) to introduce yourself to writing JavaScript logic and referencing dynamic values inside of your markup.
+1. Read through the React docs [JavaScript in JSX](https://react.dev/learn/javascript-in-jsx-with-curly-braces) page to introduce yourself to writing JavaScript logic and referencing dynamic values inside of your markup.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#what-is-jsx">What is JSX?</a>
-- <a class="knowledge-check-link" href="#why-do-we-use-jsx">Why do we use JSX?</a>
-- <a class="knowledge-check-link" href="#rules-of-jsx">What are the three rules of JSX?</a>
-- <a class="knowledge-check-link" href="https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces#using-curly-braces-a-window-into-the-javascript-world">How do you reference a dynamic value inside of your JSX?</a>
+- [What is JSX?](#what-is-jsx)
+- [Why do we use JSX?](#why-do-we-use-jsx)
+- [What are the three rules of JSX?](#rules-of-jsx)
+- [How do you reference a dynamic value inside of your JSX?](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces#using-curly-braces-a-window-into-the-javascript-world)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

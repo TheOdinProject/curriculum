@@ -53,7 +53,7 @@ Let's work through some examples. We won't go through every possible complexity 
 
 Consider this example
 
-```js
+```javascript
 function multiply(num1, num2) {
   return num1 * num2;
 }
@@ -65,7 +65,7 @@ Here it should hopefully be clear that no matter the arguments we pass to the fu
 
 Most data structures you come across will have a space complexity of O(N). That makes sense - when you increase the number of items in your data structure, it increases the space that data structure occupies in a linear way.
 
-```js
+```javascript
 function sumArr(arr) {
   const copyArr = arr.slice();
   let sum = 0;
@@ -82,7 +82,7 @@ Why did we make a copy of the array? That will be discussed in a later section.
 
 The complexity is replicated no matter the data structure:
 
-```js
+```javascript
 function sumObjectValues(obj) {
   const copyObject = { ...obj };
   let sum = 0;
@@ -109,7 +109,7 @@ That's why we won't be diving into examples for other Big O notations with space
 
 One of the common areas that causes confusion when considering space complexity is what constitutes using space in the context of an algorithm. In an earlier example we wrote methods that duplicated an array and object argument. We did that to be explicit. But what if we'd written the method as:
 
-```js
+```javascript
 function sumArr(arr) {
   let sum = 0;
   arr.forEach((number) => {
@@ -137,14 +137,14 @@ On top of these considerations, you also need to balance the readability of your
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read [this article on big O and space complexity](https://dev.to/mwong068/big-o-space-complexity-lcm). It isn't detail heavy but does a good job explaining things clearly, and does lightly cover recursive functions. The code examples are in Ruby, but you should be able to follow along.
-1. [This article on recursion and space complexity](https://dev.to/elmarshall/recursion-and-space-complexity-13gc) offers a little more context to recursive functions and their space complexity.
+1. Read this [article on big O and space complexity](https://dev.to/mwong068/big-o-space-complexity-lcm). It isn't detail heavy but does a good job explaining things clearly, and does lightly cover recursive functions. The code examples are in Ruby, but you should be able to follow along.
+1. This [article on recursion and space complexity](https://dev.to/elmarshall/recursion-and-space-complexity-13gc) offers a little more context to recursive functions and their space complexity.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is space complexity?](#what-do-we-mean-by-space-complexity)
 - [How do we measure space complexity?](#measuring-space-complexity)

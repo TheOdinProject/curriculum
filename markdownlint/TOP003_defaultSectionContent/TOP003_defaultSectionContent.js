@@ -13,36 +13,91 @@ const listSectionsDefaultContent = {
     "This section contains helpful links to related content. It isn't required, so consider it supplemental.",
 };
 
-function createErrorObject(lineNumber, detail) {
+function createErrorObject(lineNumber, detail, fixInfo = {}) {
   return {
     lineNumber,
     detail,
+    fixInfo,
   };
 }
 
 function getListSectionErrors(sectionTokens, section) {
+  const WHOLE_LINE = -1;
   const listSectionErrors = [];
   const listItemsName = `${section}${section.endsWith("s") ? "" : "s"}`;
   const tokensAfterHeading = sectionTokens.slice(
     sectionTokens.findIndex((token) => token.type === "heading_close") + 1
   );
 
-  const hasDefaultContent =
-    tokensAfterHeading[0].line === listSectionsDefaultContent[section];
-  if (!hasDefaultContent && tokensAfterHeading[0].type !== "bullet_list_open") {
+  const listItemTokens = tokensAfterHeading.filter(
+    (token) => token.type === "list_item_open"
+  );
+  const nestedListItemTokens = listItemTokens.filter(
+    (token) => token.level > 1
+  );
+  nestedListItemTokens.forEach((nestedListItemToken) => {
+    listSectionErrors.push(
+      // We're not applying a fix because we can't always know whether just un-nesting the list
+      // will resolve the issue. There may be entire list items that need to be removed as well.
+      createErrorObject(
+        nestedListItemToken.lineNumber,
+        `The ${section} section must not contain nested lists.`
+      )
+    );
+  });
+
+  // https://regexr.com/80hjf to test following regex. Note that we don't test nested lists due to
+  // the fact that whitespaces won't precede the token marker, e.g. "1.", in the token object
+  const orderedListItemRegex = /^\d+\.\s*/;
+  const orderedListItemTokens = listItemTokens.filter((token) =>
+    orderedListItemRegex.test(token.line)
+  );
+  orderedListItemTokens.forEach((orderedListItemToken) => {
     listSectionErrors.push(
       createErrorObject(
-        tokensAfterHeading[0].lineNumber,
-        `Expected: "${listSectionsDefaultContent[section]}"; Actual: "${tokensAfterHeading[0].line}"`
+        orderedListItemToken.lineNumber,
+        `The ${section} section must not include any ordered lists.`,
+        {
+          lineNumber: orderedListItemToken.lineNumber,
+          deleteCount:
+            orderedListItemToken.line.match(orderedListItemRegex)[0].length,
+          insertText: "- ",
+        }
+      )
+    );
+  });
+
+  const defaultContentOpenTokenIndex = tokensAfterHeading.findIndex(
+    (token) => token.line === listSectionsDefaultContent[section]
+  );
+
+  if (defaultContentOpenTokenIndex > 0) {
+    const defaultContentToken =
+      tokensAfterHeading[defaultContentOpenTokenIndex];
+    listSectionErrors.push(
+      createErrorObject(
+        defaultContentToken.lineNumber,
+        `Expected default section content to come immediately after the ${section} heading.`
       )
     );
   }
-  if (!hasDefaultContent && tokensAfterHeading[0].type === "bullet_list_open") {
+  if (defaultContentOpenTokenIndex === -1) {
+    const sectionStartsWithList = tokensAfterHeading[0].line.startsWith("- ");
+    const errorDetail = sectionStartsWithList
+      ? `Expect default content to precede unordered list of ${listItemsName}: "${listSectionsDefaultContent[section]}"`
+      : `Expected: "${listSectionsDefaultContent[section]}"; Actual: "${tokensAfterHeading[0].line}",`;
+    let replacementText = listSectionsDefaultContent[section];
+
+    if (sectionStartsWithList) {
+      replacementText += `\n\n${tokensAfterHeading[0].line}`;
+    }
+
     listSectionErrors.push(
-      createErrorObject(
-        tokensAfterHeading[0].lineNumber,
-        `Expected default section content to precede the unordered list of ${listItemsName}: "${listSectionsDefaultContent[section]}"`
-      )
+      createErrorObject(tokensAfterHeading[0].lineNumber, errorDetail, {
+        lineNumber: tokensAfterHeading[0].lineNumber,
+        deleteCount: tokensAfterHeading[0].line.length,
+        insertText: replacementText,
+      })
     );
   }
 
@@ -52,67 +107,75 @@ function getListSectionErrors(sectionTokens, section) {
         token.type === arr[0].type.replace("_open", "_close")
     ) + 1
   );
+  const bulletListOpenTokenIndex = sectionTokens.findIndex(
+    (token) => token.type === "bullet_list_open"
+  );
   if (
-    hasDefaultContent &&
-    tokensAfterFirstContent[0].type !== "bullet_list_open"
+    (defaultContentOpenTokenIndex === 0 && !tokensAfterFirstContent.length) ||
+    bulletListOpenTokenIndex === -1
+  ) {
+    const isAdditionalResources =
+      section === sectionsWithDefaultContent.additionalResources;
+    const tokenLineNumber = (
+      tokensAfterFirstContent[0] || tokensAfterHeading[0]
+    ).lineNumber;
+    const errorDetail = isAdditionalResources
+      ? `Expected section to include unordered list item: "It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum."`
+      : `Must include an unordered list of ${listItemsName} in the "${section}" section`;
+    listSectionErrors.push(
+      createErrorObject(
+        tokenLineNumber,
+        errorDetail,
+        isAdditionalResources
+          ? {
+              lineNumber: !tokensAfterFirstContent.length
+                ? tokenLineNumber + 1
+                : tokenLineNumber,
+              insertText:
+                "\n- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.",
+            }
+          : {}
+      )
+    );
+  }
+
+  if (
+    defaultContentOpenTokenIndex === 0 &&
+    tokensAfterFirstContent.length &&
+    !tokensAfterFirstContent[0].type.endsWith("_list_open")
   ) {
     listSectionErrors.push(
       createErrorObject(
         tokensAfterFirstContent[0].lineNumber,
-        `Only an unordered list of ${listItemsName} should follow the default content.`
+        `Only an unordered list of ${listItemsName} can follow the default content.`,
+        {
+          lineNumber: tokensAfterFirstContent[0].lineNumber,
+          deleteCount: WHOLE_LINE,
+        }
       )
     );
   }
 
-  const bulletListOpenTokenIndex = sectionTokens.findIndex(
-    (token) => token.type === "bullet_list_open"
-  );
-  if (bulletListOpenTokenIndex === -1) {
-    const errorDetail =
-      section === sectionsWithDefaultContent.additionalResources
-        ? `Expected section to include unordered list item: "It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum."`
-        : `Must include an unordered list of ${listItemsName} in the "${section}" section`;
-    listSectionErrors.push(
-      createErrorObject(
-        (tokensAfterFirstContent[0] || tokensAfterHeading[0]).lineNumber,
-        errorDetail
-      )
-    );
-  }
-
-  const firstBulletListCloseIndex = sectionTokens.findIndex(
-    (token) => token.type === "bullet_list_close"
-  );
   const lastBulletListCloseIndex = sectionTokens.findLastIndex(
     (token) => token.type === "bullet_list_close"
   );
-  if (firstBulletListCloseIndex !== lastBulletListCloseIndex) {
-    const tokensUpToBulletListClose = sectionTokens.slice(
-      bulletListOpenTokenIndex,
-      firstBulletListCloseIndex
-    );
-
-    listSectionErrors.push(
-      createErrorObject(
-        tokensUpToBulletListClose.findLast((token) => token.lineNumber)
-          .lineNumber,
-        `There should not be nested lists of ${listItemsName}`
-      )
-    );
-  }
 
   if (
     bulletListOpenTokenIndex !== -1 &&
     lastBulletListCloseIndex !== sectionTokens.length - 1
   ) {
     const tokensAfterBulletListClose = sectionTokens.slice(
-      firstBulletListCloseIndex
+      lastBulletListCloseIndex + 1
     );
 
     listSectionErrors.push(
       createErrorObject(
-        tokensAfterBulletListClose.find((token) => token.lineNumber).lineNumber,
-        `There should be no additional content after the unordered list of ${listItemsName}`
+        tokensAfterBulletListClose[0].lineNumber,
+        `There should be no additional content after the unordered list of ${listItemsName}`,
+        {
+          lineNumber: tokensAfterBulletListClose[0].lineNumber,
+          deleteCount: WHOLE_LINE,
+        }
       )
     );
   }
@@ -146,11 +209,15 @@ module.exports = {
   names: ["TOP003", "default-section-content"],
   description: "Sections have default content",
   tags: ["content"],
+  parser: "markdownit",
+  information: new URL(
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP003.md"
+  ),
   function: function TOP003(params, onError) {
     const { tokens } = params.parsers.markdownit;
     const headingTokenIndices = tokens
-      ?.filter((token) => token.type === "heading_open")
-      .map((headingToken) => tokens?.indexOf(headingToken));
+      .filter((token) => token.type === "heading_open")
+      .map((headingToken) => tokens.indexOf(headingToken));
     const totalErrors = [];
 
     headingTokenIndices.forEach(

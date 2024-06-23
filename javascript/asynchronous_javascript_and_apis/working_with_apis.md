@@ -6,10 +6,10 @@ One of the most powerful things a web developer can do is fetching data from a s
 
 This section contains a general overview of topics that you will learn in this lesson.
 
- - Explain what an API is.
- - Explain broadly how access to an API works.
- - Explain how to fetch and extract data from an API.
- - Explain why your API request might be blocked by the browser, and how to fix this.
+- Explain what an API is.
+- Explain broadly how access to an API works.
+- Explain how to fetch and extract data from an API.
+- Explain why your API request might be blocked by the browser, and how to fix this.
 
 ### APIs
 
@@ -17,21 +17,21 @@ Servers that are created for serving data for external use (in websites or apps)
 
 There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, WeatherAPI has several types of data that you can request. To get the current weather in a specific location, you can pass in the name of a city (optionally, you can also pass a zip code & even an ip-address!) as a URL query string parameter, like so:
 
-```
+```text
 https://api.weatherapi.com/v1/current.json?q=london
 ```
 
-The specifics for using any API are usually documented on the service's website. [Check here for the WeatherAPI documentation](https://www.weatherapi.com/docs/). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser... (we'll wait).
+The specifics for using any API are usually documented on the service's website. Check the [WeatherAPI documentation](https://www.weatherapi.com/docs/). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser... (we'll wait).
 
 You'll probably get an error like this:
 
-```
+```text
 {{"error":{"code":1002,"message":"API key is invalid or not provided."}}}
 ```
 
-This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints (specific URLs that you use to access a particular function or data within the API). Once obtained, an API key will usually have to be included with every data request, such as _another_ URL query string parameter:
+This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints (specific URLs that you use to access a particular function or data within the API). Once obtained, an API key will usually have to be included with every data request, such as *another* URL query string parameter:
 
-```
+```text
 https://api.weatherapi.com/v1/current.json?key=11111111111111111&q=london
 ```
 
@@ -39,7 +39,7 @@ As you can imagine, an API key is random and unique to you. As such, services li
 
 On one hand, issuing API keys allows an API service to better track abuse of their systems and data. On the other hand, it can also be a way for those services to mitigate and recuperate operating costs. WeatherAPI, for example, provides not only a free tier but a variety of paid tiers that can cost up to 65 USD/month! After all, running servers costs money, and APIs are no exception. While a single request to an API might cost a fraction of a penny, imagine using that API to create an amazing weather app that gets used all over the world... you could easily have thousands of people accessing that data every minute! The cost to handle that traffic could quickly balloon up to significant sums for the API service.
 
-As such, you'll find that most API services, if not all, provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, WeatherAPI's free plan only allows your app to make a monthly total of 1 million requests and limits the information provided, while the "Business" tier allows up to 10,000,000 requests per month and gives you all of the available information! The free tier also comes with basic hourly and daily forecasting data, but it does not include data for a 30-day forecast ([details here if you're interested](https://www.weatherapi.com/pricing.aspx)). So, if your app becomes successful and needs additional features, you'll probably need to pay for a better account.
+As such, you'll find that most API services, if not all, provide paid tiers that come with the ability to make more frequent requests, or provide access to more information unavailable in lower tiers. For example, WeatherAPI's free plan only allows your app to make a monthly total of 1 million requests and limits the information provided, while the "Business" tier allows up to 10,000,000 requests per month and gives you all of the available information! The free tier also comes with basic hourly and daily forecasting data, but it does not include data for a 30-day forecast ([details about the WeatherAPI tiers](https://www.weatherapi.com/pricing.aspx) if you're interested). So, if your app becomes successful and needs additional features, you'll probably need to pay for a better account.
 
 Because your API key is **your** key to these services and data, securing them is an important habit, especially if you are using a paid tier. There are plenty of bots that crawl GitHub repositories solely for hardcoded/unsecured API keys, allowing bad agents to then access and [utilize the services and data you've paid for](https://web.archive.org/web/20150102022540/http://www.devfactor.net/2014/12/30/2375-amazon-mistake/). In fact, the more eagle-eyed readers may have noticed a problem with the demonstration above: The API key is right there in the URL request. It would not take much for an internet traffic sniffer to pick up on the API key, least of all someone looking over your shoulder!
 
@@ -96,11 +96,12 @@ fetch('https://url.com/some/url')
     // Error :(
   });
 ```
+
 In case you've forgotten, scroll back up and look at how you would use XHR to do the same thing. While you're admiring how nice and clean that code is, notice the `.then()` and `.catch()` functions there. Do you remember what those are? (PROMISES!)
 
-Let's change up our API for this example. We're going to walk through an example using fetch with the [giphy](https://giphy.com/) API to display a random gif on a webpage. The API requires you to sign up and get a free API key, so go ahead and [do that here](https://developers.giphy.com/docs/api#quick-start-guide).
+Let's change up our API for this example. We're going to walk through an example using fetch with the [giphy](https://giphy.com/) API to display a random gif on a webpage. The API requires you to sign up and get a free API key, so go ahead and [do that](https://developers.giphy.com/docs/api#quick-start-guide).
 
-Giphy has several methods for searching and finding GIFs which you can read about in their documentation. Today we're just going to use the 'translate' endpoint because it's the simplest one for our purposes. You can find the appropriate URL in their documentation by scrolling down [here](https://developers.giphy.com/docs/api/endpoint#translate). What it tells us is that the correct URL is `api.giphy.com/v1/gifs/translate` and that it requires 2 parameters, your `api_key` and a `search term`. If you put it all together correctly (with YOUR API key) you should get something like this:
+Giphy has several methods for searching and finding GIFs which you can read about in their documentation. Today we're just going to use the 'translate' endpoint because it's the simplest one for our purposes. You can find the appropriate URL in their documentation by scrolling down [to the translate endpoint information from Giphy](https://developers.giphy.com/docs/api/endpoint#translate). What it tells us is that the correct URL is `api.giphy.com/v1/gifs/translate` and that it requires 2 parameters, your `api_key` and a `search term`. If you put it all together correctly (with YOUR API key) you should get something like this:
 
 ```javascript
 'https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats'
@@ -111,7 +112,7 @@ Go ahead and try that URL (with YOUR API key) in a browser. If everything goes w
 
 ### CORS
 
-A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [Javascript.info article](https://javascript.info/fetch-crossorigin) are good starting points.
+A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article about CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [JavaScript.info article on CORS](https://javascript.info/fetch-crossorigin) are good starting points.
 
 Whether or not you took the detour to learn all about Cross Origin Resource Sharing (CORS) the fix is straightforward. With fetch, you are able to easily supply a JavaScript object for options. It comes right after the URL as a second parameter to the fetch function:
 
@@ -124,9 +125,10 @@ fetch('url.url.com/api', {
 Adding the `{mode: 'cors'}` after the URL, as shown above, will solve our problems for now. In the future, however, you may want to look further into the implications of this restriction.
 
 ### Let's do this
+
 For now, we're going to keep all of this in a single HTML file. So go ahead and create one with a single blank image tag and an empty script tag in the body.
 
-```HTML
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -143,7 +145,7 @@ For now, we're going to keep all of this in a single HTML file. So go ahead and 
 
 In the script tag, let's start by selecting the image and assigning it to a variable so that we can change the URL once we've received it from the Giphy API.
 
-```HTML
+```html
 <script>
   const img = document.querySelector('img');
 </script>
@@ -151,7 +153,7 @@ In the script tag, let's start by selecting the image and assigning it to a vari
 
 Adding fetch with our URL from above is also relatively easy:
 
-```HTML
+```html
 <script>
   const img = document.querySelector('img');
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
@@ -161,9 +163,9 @@ Adding fetch with our URL from above is also relatively easy:
 </script>
 ```
 
-You should now be able to open the HTML file in your browser, and while you won't see anything on the page, you _should_ have something logged in the console. The trickiest part of this whole process is deciphering how to get to the data you desire from the server's response. In this case, inspecting the browser's console will reveal that what's being returned is _another_ Promise... to get the data we need another `.then()` function.
+You should now be able to open the HTML file in your browser, and while you won't see anything on the page, you *should* have something logged in the console. The trickiest part of this whole process is deciphering how to get to the data you desire from the server's response. In this case, inspecting the browser's console will reveal that what's being returned is *another* Promise... to get the data we need another `.then()` function.
 
-```HTML
+```html
 <script>
   const img = document.querySelector('img');
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
@@ -182,7 +184,7 @@ Now we have a JavaScript object and if you inspect it closely enough you'll find
 
 To get to the data we need to drill down through the layers of the object until we find what we want!
 
-```HTML
+```html
 <script>
   const img = document.querySelector('img');
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
@@ -197,7 +199,7 @@ To get to the data we need to drill down through the layers of the object until 
 
 Running the file should now log the URL of the image. All that's left to do is set the source of the image that's on the page to the URL we've just accessed:
 
-```HTML
+```html
 <script>
   const img = document.querySelector('img');
   fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
@@ -220,24 +222,24 @@ While we are pushing this API key to the frontend, this isn't something you shou
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read this [Fetch documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). It's not all that complicated to use, but we've only really scratched the surface at this point.
-2. Check out this [list of Public APIs](https://github.com/n0shake/Public-APIs) and let your imagination go wild.
-3. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
-4. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to manage most errors (i.e. invalid API key). Keep in mind that Giphy responds with a status code of 200 with an empty data array when it doesn't find any gifs with the searched keyword, in other words the `.catch()` won't be executed. Adjust your code to effectively handle such scenarios, displaying a default image or an error message if the search fails.
+1. Read the [Fetch documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). It's not all that complicated to use, but we've only really scratched the surface at this point.
+1. Check out this [list of Public APIs](https://github.com/n0shake/Public-APIs) and let your imagination go wild.
+1. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
+1. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to manage most errors (i.e. invalid API key). Keep in mind that Giphy responds with a status code of 200 with an empty data array when it doesn't find any gifs with the searched keyword, in other words the `.catch()` won't be executed. Adjust your code to effectively handle such scenarios, displaying a default image or an error message if the search fails.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
- - [What is an API?](#apis)
- - [How is access to an API restricted?](#apis)
- - [How do you fetch and extract data from an API?](#fetching-data)
- - [Why might your API request be blocked by the browser, and how might you fix this?](#cors)
+- [What is an API?](#apis)
+- [How is access to an API restricted?](#apis)
+- [How do you fetch and extract data from an API?](#fetching-data)
+- [Why might your API request be blocked by the browser, and how might you fix it?](#cors)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- This [article on APIs by Ryan Thelin](https://www.educative.io/blog/what-is-an-api) covers some extra topics like API release policies, API protocols and API architectural styles.

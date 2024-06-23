@@ -47,3 +47,4 @@ This section contains helpful links to related content. It isn't required, so co
 - [Everything You Need to know about Serialization in Ruby on Rails](https://blog.kiprosh.com/serialization_in_ruby_on_rails_part_one/) 
 - [Ruby Monk's section on Serializing](https://web.archive.org/web/20160505174806/http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)
 - [Short Example of Serialization](https://web.archive.org/web/20200627063721/http://rubylearning.com/satishtalim/object_serialization.html) from Ruby Learning
+- How to [Read](https://www.youtube.com/watch?v=92li0A8d4io) and [Write](https://www.youtube.com/watch?v=FW9hDsMY1is) Files by Giraffe Academy
