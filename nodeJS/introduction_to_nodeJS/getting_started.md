@@ -34,7 +34,7 @@ Recently the NodeJS.dev team removed a large amount of content from their websit
     - Learn about [.env files and how we use them](https://nodejs.org/en/learn/command-line/how-to-read-environment-variables-from-nodejs). This will become very important in the future when working with databases and other sensitive credentials!
   - HTTP Module
     - Learn [how to make HTTP requests with Node](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-web-server/node-make-http-requests.en.md).
-    - Check out `http.createServer` from [Node's http module](https://nodejs.org/api/http.html). The documentation shows optional parameters it can accept which you may or may not use. For now, you just need to know that the `createServer` method creates an HTTP server that accepts handlers that will be executed every time we get a request.
+    - Check out [`http.createServer`](https://nodejs.org/docs/v20.15.0/api/https.html#httpscreateserveroptions-requestlistener) from [Node's http module](https://nodejs.org/api/http.html). The documentation shows optional parameters it can accept which you may or may not use. For now, you just need to know that the `createServer` method creates an HTTP server that accepts handlers that will be executed every time we get a request.
   - File System
     - First, take a look at the [fs module](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md) that we use heavily for working with files in Node.
     - Then, let’s start [writing files with Node](https://nodejs.org/en/learn/manipulating-files/writing-files-with-nodejs).
