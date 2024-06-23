@@ -163,6 +163,13 @@ You'll also likely want to set your default branch reconciliation behavior to me
 git config --global pull.rebase false
 ```
 
+To verify that things are working properly, enter these commands and verify whether the output matches your name and email address.
+
+```bash
+git config --get user.name
+git config --get user.email
+```
+
 <div class="lesson-note" markdown="1">
 
 #### For macOS Users
