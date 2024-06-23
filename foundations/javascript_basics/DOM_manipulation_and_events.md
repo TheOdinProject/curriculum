@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Document Object Model
 
-The DOM (or Document Object Model) is a tree-like representation of the contents of a webpage - a tree of "nodes" with different relationships depending on how they're arranged in the HTML document. There are many types of node, most of which are not commonly used. In this lesson we will be focusing on "element" nodes which are primarily used for manipulating the DOM.
+The DOM (or Document Object Model) is a tree-like representation of the contents of a webpage - a tree of "nodes" with different relationships depending on how they're arranged in the HTML document. There are many types of nodes, most of which are not commonly used. In this lesson we will be focusing on "element" nodes which are primarily used for manipulating the DOM.
 
 ```html
 <div id="container">
