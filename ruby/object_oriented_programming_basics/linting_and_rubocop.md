@@ -179,8 +179,8 @@ Since RuboCop is extensible, there exist other departments that you can use - li
 
 Usually things that are not required for app to run are given the `require: false` flag, like:
 
-```bash
-`gem 'rubocop-performance', require: false`
+```ruby
+gem 'rubocop-performance', require: false
 ```
 
 This way the Gem would be installed normally, but for your `bundle exec` ran code to make use of it, it would need to be explicitly `require`d wherever you'd need it.
@@ -189,7 +189,7 @@ This way the Gem would be installed normally, but for your `bundle exec` ran cod
 
 RuboCop is still under development, so changes and additions happen. New Cops join the precinct and they're not enabled by default - if you'd like them to be enabled by default instead of going through all of them and deciding on your own, you can use:
 
-```bash
+```yaml
 AllCops:
   NewCops: enable
 ```
