@@ -37,7 +37,7 @@ Nothing fancy. `CustomButton` is a component with a prop passed in. We're intere
 ```jsx
 // CustomButton.test.jsx
 
-import { vi } from 'vitest'
+import { vi, describe, it, expect } from 'vitest'
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import CustomButton from "./CustomButton";
