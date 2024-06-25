@@ -106,7 +106,7 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
 1. With your new hash map, try overwriting a few nodes using `#set(key, value)`. Again, this should only over-write existing `values` of your nodes.
 
-1. Test the other methods of your hash maps such as `#get(key)`, `#has(key)`, `#remove(key)`, `#length`, `#clear`, `#keys`, `#values`, and `#entries` to check if they are still working as expected after expanding your hash map.
+1. Test the other methods of your hash maps such as `#get(key)`, `#has?(key)`, `#remove(key)`, `#length`, `#clear`, `#keys`, `#values`, and `#entries` to check if they are still working as expected after expanding your hash map.
 
 #### Extra Credit
 
