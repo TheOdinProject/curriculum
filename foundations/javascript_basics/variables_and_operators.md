@@ -119,11 +119,7 @@ If you went to school, you will likely not find the concept too difficult to gra
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. This W3Schools lesson on [JavaScript arithmetic](https://www.w3schools.com/js/js_arithmetic.asp) followed by this on [JavaScript numbers](https://www.w3schools.com/js/js_numbers.asp), are good introductions to what you can accomplish with numbers in JavaScript.
-1. This MDN article on [JavaScript math](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view, while also teaching you how to apply some basic math in JavaScript. There's much more that you can do with numbers, but this is all you need at the moment.
-1. Read through \(and code along with!\) this article on [JavaScript operators](http://javascript.info/operators).  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
-1. This tutorial on [JavaScript variables](http://javascript.info/variables) will explain everything you need to know! Be sure to do the **Tasks** at the end. Information won't stick without practice!
-  
+
 Try the following exercises (and don't forget to use `console.log()`!):
 
 1. Add 2 numbers together! (just type  `console.log(23 + 97)` into your HTML file or the browser console)
@@ -142,7 +138,12 @@ Try the following exercises (and don't forget to use `console.log()`!):
     - If you type `percentage` in the console and press <kbd>Enter</kbd> you should see a value like `0.7719`
 1. Take a few minutes to keep playing around with various things in your script tag.  Eventually, we will learn how to actually make those numbers and things show up on the webpage, but all of this logic will remain the same, so make sure you're comfortable with it before moving on.
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
 As you might have noticed by running JavaScript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `let b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line.
+
+</div>
+
 </div>
 
 ### Knowledge check

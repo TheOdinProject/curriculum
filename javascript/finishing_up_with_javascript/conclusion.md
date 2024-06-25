@@ -6,7 +6,7 @@ At this point, you can create phenomenal and dynamic frontends, all using vanill
 
 #### Give your feedback
 
-Before you move on to the next section, please fill out this [feedback form](https://docs.google.com/forms/d/e/1FAIpQLSeHcp46iWF5D7V7wPPHDeIHK0q5Nu0zXHZi46pP7ExVjULvZA/viewform?usp=sf_link). Your feedback is important to improve the curriculum and understand users' experience.
+Before you move on to the next section, please fill out this [feedback form for the JavaScript course](https://docs.google.com/forms/d/e/1FAIpQLSeHcp46iWF5D7V7wPPHDeIHK0q5Nu0zXHZi46pP7ExVjULvZA/viewform?usp=sf_link). Your feedback is important to improve the curriculum and understand users' experience.
 
 #### Parting thoughts
 

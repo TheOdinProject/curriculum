@@ -18,7 +18,7 @@ So there are probably a few companies that you'd *really* like to work for.  You
 
 Get to know the company and its needs and see if you can reach out to address them somehow.  Do they have local events you can visit?  What do they sponsor? This stuff takes creativity.  You need to walk the line where you're not a stalker but you do care enough to push hard.  If you're wrong, they may say no.  It happens, you'll live and move on.  But you'd better try!  You'll probably figure things out that will help you with other companies anyway.
 
-* [Getting noticed by a startup you want to work for](http://www.thedailymuse.com/job-search/want-to-work-for-a-start-up-heres-how-to-get-noticed/)
+- [Getting noticed by a startup you want to work for](http://www.thedailymuse.com/job-search/want-to-work-for-a-start-up-heres-how-to-get-noticed/)
 
 ### Perseverance through the process
 
@@ -46,13 +46,10 @@ It also needs to answer a new question that the resume doesn't really address di
 
 Every piece of communication you have with a company is relevant.  The most important is the one where you first reach out via email.  You probably want to treat that as a condensed version of a cover letter -- express your brilliance and fit in just a few powerful sentences.
 
-
 ### Applying
 
 Track every application you send out in your spreadsheet by the date you sent it.  As we said above, you don't need to go crazy on Day 1 but keep a regular flow of applications going out.
 
 ### Following up
-
-Follow up on all applications you care about.  Follow up once in the first few days and again after a week or two if you haven't heard anything.  This obviously works best if you've identified an individual at the company before, but the point is that perseverance matters and it can help you display the kind of drive you're trying to show in your resume anyway.
 
 This actually applies to the whole process, not just applications.  Follow up your interviews (with a thank you to your interviewer on day 1 too).  Follow up your tech screens.  The goal here isn't to be naggy and annoying/desperate, and it's certainly not to be a robot sending auto-generated emails all the time. Just be human and honest in your language.

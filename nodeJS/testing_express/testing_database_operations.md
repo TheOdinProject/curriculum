@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### But do you even need to test that?
 
-Before diving in, you might want to consider whether or not the database operations you're testing even need to be tested in the first place. If you are reading and writing straight from a database using `mongoose` or some other db module, you might not really need to test that code. Mongoose (and presumably all other popular db modules) already has [plenty of tests](https://github.com/Automattic/mongoose/tree/master/test) for all of its actions, so if you are just serving up a JSON API and all you're doing is leveraging functions from another module then those operations are already covered.
+Before diving in, you might want to consider whether or not the database operations you're testing even need to be tested in the first place. If you are reading and writing straight from a database using `mongoose` or some other db module, you might not really need to test that code. [Mongoose's GitHub repo's tests directory](https://github.com/Automattic/mongoose/tree/master/test) (and presumably all other popular db modules) already has plenty of tests for all of its actions, so if you are just serving up a JSON API and all you're doing is leveraging functions from another module then those operations are already covered.
 
 If your queries are complicated, you might justify adding tests to make sure that you are using them correctly and that the code you have written is doing what you intend it to, and if you are using any of your own code to do some filtering, sorting, or other manipulations of the data you will want to test that as well.  In the case of your own code, however, it would be better if you could pull those things out into their own modules, separate from your database operations so you can test them without messing with the database.
 
@@ -20,7 +20,7 @@ If your queries are complicated, you might justify adding tests to make sure tha
 
 There are cases, however, when you are going to want to test things that touch your database, so this lesson is going to cover how to do that.
 
-We're going to use an npm package called `mongodb-memory-server`. You can see the specifics on their [github repo](https://github.com/nodkz/mongodb-memory-server), but basically this package will spin up a fresh in-memory mongoDB server that you can connect to with mongoose, and then use for your testing environment.  Since it's creating a fresh DB every time you don't have to worry about trying to keep your data in sync, or polluting your production database.
+You can see the specifics in the [`mongodb-memory-server` GitHub repo](https://github.com/nodkz/mongodb-memory-server), but basically this package will spin up a fresh in-memory mongoDB server that you can connect to with mongoose, and then use for your testing environment.  Since it's creating a fresh DB every time you don't have to worry about trying to keep your data in sync, or polluting your production database.
 
 Setting it up is straightforward, but there are a few things you need to do.  First, in your actual app, you need to move your mongo/mongoose setup into its own file as seen in the example below.
 
@@ -76,7 +76,7 @@ This is also not the only way to set up a testing environment! If you are using 
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the purpose of using a separate database for testing?](#but-do-you-even-need-to-test-that)
 - [How would you create and setup a testing database using the npm package `mongodb-memory-server`?](#mongodb-memory-server)
