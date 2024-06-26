@@ -167,7 +167,7 @@ For example, the two paragraphs in the following code are siblings, since they a
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-We use indentation to make the level of nesting clear and readable for ourselves and other developers who will work with our HTML in the future. It is recommended to indent any child elements by two spaces.
+We use indentation to make the level of nesting clear and readable for ourselves and other developers who will work with our HTML in the future. In our examples, we have indented any child elements by two spaces.
 
 The parent, child, and sibling relationships between elements will become much more important later when we start styling our HTML with CSS and adding behavior with JavaScript. For now, however, it is just important to know the distinction between how elements are related and the terminology used to describe their relationships.
 
