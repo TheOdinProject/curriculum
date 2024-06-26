@@ -49,4 +49,4 @@ If the block returns `true`/truthy for an element, we immediately `return` that 
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Jason Mattingly has a useful article on [Writing Your Own Enumerables in Ruby](https://jsonmattingly.medium.com/writing-your-own-enumerables-in-ruby-18db4fa0e5fe).
