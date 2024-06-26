@@ -62,7 +62,7 @@ As for nested objects and arrays, state can get tricky fast since you will have 
 
 ### How state updates
 
-State updates are asynchronous. What this implies is that whenever you call the `setState` function, React will apply the update in the **next** component render. This concept takes a while to wrap your head around. With a lot of practice, you'll get the hang of it in no time.
+State updates are asynchronous. What this implies is that whenever you call the `setState` function, React will apply the update in the **next** component render. This concept can take a while to wrap your head around. With a lot of practice, you'll get the hang of it in no time.
 
 Remember, state variables aren't reactive; the component is. This can be understood by the fact that calling `setState` re-renders the entire component instead of just changing the state variable on the fly.
 
