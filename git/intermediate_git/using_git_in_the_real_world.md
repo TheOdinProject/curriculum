@@ -17,7 +17,9 @@ This section contains a general overview of topics that you will learn in this l
 
 Before we dive into workflows, take a minute to remind yourself about good commit messages. You can check the [Commit Messages lesson](https://www.theodinproject.com/lessons/foundations-commit-messages) for a reminder. This is a good time to draw particular attention to [Conventional Commits](https://www.conventionalcommits.org), a standard for commits that is gaining more and more popularity for collaborative projects. It helps to make sure your commit message gives a clear description of its purpose to anyone reading. You may like to implement these going forwards (if you aren't already!), or at least be aware of them for when you read other repos.
 
-### A Git workflow for open source contribution
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
 
 Let's say you want to contribute to [our curriculum repo](https://github.com/TheOdinProject/curriculum/).
 
@@ -58,6 +60,8 @@ Note that a `git fetch upstream` followed by a `git merge upstream/some_branch` 
 1. Now you want to send your feature branch back up to your `origin` (your fork of the `upstream` repository). You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request. Use `git push origin your_feature_name` to ship your feature branch up to your fork on GitHub.
 1. If you have been following along with the above steps to get familiar with this workflow, you should **stop at this point**. If you have completed an assigned issue, the final step is to submit a pull request to merge your feature branch into the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
 1. Shake your moneymaker, you're an OSS contributor!
+
+</div>
 
 ### Knowledge check
 
