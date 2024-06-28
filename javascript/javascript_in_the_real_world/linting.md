@@ -23,7 +23,7 @@ The style guides we mentioned above are full of really helpful advice for format
 
 There are multiple options for linting your JavaScript, but the most popular (and most common in the industry) is [ESLint](https://eslint.org/). Getting it installed and the initial set-up is straightforward.
 
-1. [The official 'Getting Started' page](https://eslint.org/docs/user-guide/getting-started) is a good place to start. It covers installation and basic setup. The basic way to use this tool is to run the `eslint` command in your terminal with a specific file.
+1. [ESLint's official 'Getting Started' page](https://eslint.org/docs/user-guide/getting-started) is a good place to start. It covers installation and basic setup. The basic way to use this tool is to run the `eslint` command in your terminal with a specific file.
     - You may also want to look at the [docs on configuring ESLint](https://eslint.org/docs/latest/use/configure/) for a list of options that you can change.
 1. There is an [ESLint extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) with which you can get automatic lint highlighting for your files as you write, without you needing to rerun the `eslint` command every time. If your project also contains an ESLint configuration file, the extension will automatically use those rules for that project. **You will also need to enable `Eslint: Use Flat Config` in VSCode's settings.**
 
@@ -49,6 +49,18 @@ As usual, there are multiple formatters out there. [Prettier](https://prettier.i
 1. Prettier also has [instructions for setting up and configuring the VSCode Prettier extension](https://github.com/prettier/prettier-vscode). This extension allows you to format with Prettier via Visual Studio Code commands or keybinds instead of commands in the terminal.
 
 Using Prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Extensions and project dependencies
+
+While the Visual Studio Code extensions for ESLint and Prettier are really convenient, they are local to your machine only. It's good practice to install any linters and formatters as dev dependencies in your projects as well.
+
+At some point, you may need to work on code with multiple people, and others may not use all of the same tools as you. Therefore, including linters and formatters as dependencies in your project, as well as any rule configuration files, allows everyone access to the same linting and formatting tools and rules.
+
+Editor extensions can then be used to make linting and formatting more convenient for you. The ESLint and Prettier extensions will recognise and use any rule files in your project.
+
+</div>
 
 ### Using ESLint and Prettier
 
@@ -76,6 +88,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Which problems can linting prevent?](https://hackernoon.com/how-linting-and-eslint-improve-code-quality-fa83d2469efe)
 - [What are some of the benefits of using a formatter?](#formatters)
 - [What is Prettier?](https://www.youtube.com/watch?v=hkfBvpEfWdA)
+- [Why should you install linters and/or formatters as dev dependencies in your project?](#extensions-and-project-dependencies)
 
 ### Additional resources
 
