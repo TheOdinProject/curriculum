@@ -37,38 +37,38 @@ Nothing fancy. `CustomButton` is a component with a prop passed in. We're intere
 ```jsx
 // CustomButton.test.jsx
 
-import { vi } from 'vitest'
+import { vi, describe, it, expect } from 'vitest'
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import CustomButton from "./CustomButton";
 
 describe("CustomButton", () => {
-    it("should render a button with the text 'Click me'", () => {
-        render(<CustomButton onClick={() => {}} />);
+  it("should render a button with the text 'Click me'", () => {
+    render(<CustomButton onClick={() => {}} />);
 
-        const button = screen.getByRole("button", { name: "Click me" });
+    const button = screen.getByRole("button", { name: "Click me" });
 
-        expect(button).toBeInTheDocument();
-    });
+    expect(button).toBeInTheDocument();
+  });
   
-    it("should call the onClick function when clicked", async () => {
-        const onClick = vi.fn();
-        const user = userEvent.setup()
-        render(<CustomButton onClick={onClick} />);
+  it("should call the onClick function when clicked", async () => {
+    const onClick = vi.fn();
+    const user = userEvent.setup()
+    render(<CustomButton onClick={onClick} />);
 
-        const button = screen.getByRole("button", { name: "Click me" });
+    const button = screen.getByRole("button", { name: "Click me" });
 
-        await user.click(button);
+    await user.click(button);
 
-        expect(onClick).toHaveBeenCalled();
-    });
+    expect(onClick).toHaveBeenCalled();
+  });
 
-    it("should not call the onClick function when it isn't clicked", async () => {
-        const onClick = vi.fn();
-        render(<CustomButton onClick={onClick} />);
+  it("should not call the onClick function when it isn't clicked", async () => {
+    const onClick = vi.fn();
+    render(<CustomButton onClick={onClick} />);
 
-        expect(onClick).not.toHaveBeenCalled();
-    });
+    expect(onClick).not.toHaveBeenCalled();
+  });
 });
 ```
 
@@ -166,4 +166,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Dive deeper into [act()](https://codilime.com/blog/why-should-you-be-grateful-for-act-warnings-in-react-tests/) and understand its most common warning and when act() is not necessary.

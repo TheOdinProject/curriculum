@@ -333,7 +333,7 @@ Let's navigate into the app directory and set up our database credentials.
 cd <app_name>
 ```
 
-Once we're inside the right directory, can set up the database username and password in `config/database.yml` by adding entries with our information:
+Once we're inside the right directory, we can set up the database username and password in `config/database.yml` by adding entries with our information:
 
 ```diff
 default: &default

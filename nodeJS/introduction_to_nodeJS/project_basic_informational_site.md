@@ -26,6 +26,6 @@ If you're planning to submit a live demo with your student solution, one of the 
 
 1. Go to [replit.com](https://replit.com)
 2. Create a new repl
-3. Select Node.js as the language
-4. Enter the url for your submission github repo and click "Import from GitHub"
+3. Enter the url for your submission github repo and click "Import from GitHub"
+4. Change the language to Node.js
 5. Click the "Run" button and you should get the URL to your demo in the URL bar of the repl's web view.

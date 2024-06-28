@@ -43,6 +43,7 @@ export default App;
 ```jsx
 // App.test.jsx
 
+import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import App from "./App";
 
@@ -54,6 +55,14 @@ describe("App component", () => {
 });
 
 ```
+
+<div class="lesson-note" markdown="1">
+
+#### Vitest globals and ESLint
+
+Even if you set `globals: true` in `vite.config.js` like in the setup tutorial, ESLint will still yell at you, as it will not recognize these globals without some extra configuration in your `.eslintrc.cjs` file. The most straightforward resolution would be to explicitly import the globals you'd need. You can omit `globals: true` from `vite.config.js` in this case.
+
+</div>
 
 Execute `npm test App.test.jsx` on the terminal and see the test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through [the React Testing Library docs page about queries](https://testing-library.com/docs/queries/about/). Pay extra attention to the "Types of Queries" and "Priority" sections.
 
@@ -93,6 +102,7 @@ Let's test if the button works as intended. In this test suite, we'll use a sepa
 ```jsx
 // App.test.jsx
 
+import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "./App";
