@@ -60,7 +60,7 @@ Let's first look at the default files that come with a new Rails app for handlin
 
 ### Server side concerns
 
-#### WebSocket Connections
+#### WebSocket connections
 
 As mentioned earlier, every WebSocket accepted by the server creates a connection which manages all the channels that a user subscribes to. The connection itself deals with authentication and authorization. The client of this connection object is called a consumer.
 
@@ -101,7 +101,7 @@ Each channel you create can be subscribed to by one or more clients. Messages ca
 
 ### Client side concerns
 
-#### Client-Server Connections
+#### Client-Server connections
 
 Consumers of subscriptions require an instance of the connection on the client side also. This is so when the server broadcasts a message it can be picked up and handled by the browser. Rails generates this boilerplate for you when you create a channel and the files live in `app/javascript/channels`.
 
@@ -308,6 +308,10 @@ For testing and development Action Cable uses an async adapter to work, but in P
 
 The connection only remains active while the http request remains unbroken. Refreshing the browser or navigating to a new page sever the connection and then will look to establish it again on reconnection.
 
+### Conclusion
+
+There is more to Action Cable but it's still quite a niche use case so it's not something you should seek to use on every app you build. Look to only introduce WebSockets when you see a real opportunity to add value to your site.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -317,17 +321,15 @@ The connection only remains active while the http request remains unbroken. Refr
 
 </div>
 
-### Knowledge checks
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What options did developers have before WebSockets to update a client without a user request?](#what-is-a-websocket)
 - [How can you broadcast to a stream from the server?](#terminology)
 - [Where do you authorize incoming connections?](#websocket-connections)
 - [What are Action Cable’s stream options?](#streams)
 - [What is the difference between `stream_from` and `stream_for`?](#streams)
-
-### Conclusion
-
-There is more to Action Cable but it's still quite a niche use case so it's not something you should seek to use on every app you build. Look to only introduce WebSockets when you see a real opportunity to add value to your site.
 
 ### Additional resources
 
