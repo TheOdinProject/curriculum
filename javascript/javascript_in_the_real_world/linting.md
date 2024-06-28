@@ -19,13 +19,12 @@ Code style is important! Having a consistent set of style rules for things such 
 
 ### Linting
 
-The style guides we mentioned above are full of really helpful advice for formatting, organizing and composing your code. But there are a *lot* of rules - it can be difficult to internalize them all. **Linters** are tools that will scan your code with a set of style rules and will report any errors to you that they find. In some cases, they can even auto-fix the errors! The following articles explain in more detail the benefits of using a linter while you code.
+The style guides we mentioned above are full of really helpful advice for formatting, organizing and composing your code. But there are a *lot* of rules - it can be difficult to internalize them all. **Linters** are tools that will scan your code with a set of style rules and will report any errors to you that they find. In some cases, they can even auto-fix the errors!
 
 There are multiple options for linting your JavaScript, but the most popular (and most common in the industry) is [ESLint](https://eslint.org/). Getting it installed and the initial set-up is straightforward.
 
 1. [The official 'Getting Started' page](https://eslint.org/docs/user-guide/getting-started) is a good place to start. It covers installation and basic setup. The basic way to use this tool is to run the `eslint` command in your terminal with a specific file.
     - You may also want to look at the [docs on configuring ESLint](https://eslint.org/docs/latest/use/configure/) for a list of options that you can change.
-
 1. There is an [ESLint extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) with which you can get automatic lint highlighting for your files as you write, without you needing to rerun the `eslint` command every time. If your project also contains an ESLint configuration file, the extension will automatically use those rules for that project. **You will also need to enable `Eslint: Use Flat Config` in VSCode's settings.**
 
 <div class="lesson-note lesson-note--warning" markdown="1">
@@ -34,19 +33,22 @@ There are multiple options for linting your JavaScript, but the most popular (an
 
 The above ESLint doc links take you to the docs for v9, which was released in April 2024. v9 came with a lot of big changes, including forcing all ESLint config files to use the "flat config" format (`eslint.config.(m|c)js`).
 
-Because of these changes, some community plugins like [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) (which makes ESLint use airbnb's ruleset) have not yet been able to release a version that supports v9 or flat config.
+Because of these changes, some community plugins like [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) (which makes ESLint use Airbnb's ruleset) have not yet been able to release a version that supports v9 or flat config.
 
-For the time being, if you wish to use airbnb's style guide with ESLint, you will need to use [ESLint's v8.57 version of the docs](https://eslint.org/docs/v8.x/use/getting-started) and make sure you use one of the older [eslintrc configuration file formats](https://eslint.org/docs/v8.x/use/configure/configuration-files), **not** the newer flat config format. You must then also make sure that `Eslint: Use Flat Config` is **unchecked** in VSCode's settings.
+For the time being, if you wish to use Airbnb's style guide with ESLint, you will need to use [ESLint's v8.57 version of the docs](https://eslint.org/docs/v8.x/use/getting-started) and make sure you use one of the older [eslintrc configuration file formats](https://eslint.org/docs/v8.x/use/configure/configuration-files), **not** the newer flat config format. You must then also make sure that `Eslint: Use Flat Config` is **unchecked** in VSCode's settings.
 
 </div>
 
-### Prettier
+### Formatters
 
-Prettier is *awesome*. It is similar to a linter, but serves a slightly different function. Prettier will take your JS code and then automatically format it according to a set of rules. Unlike a linter, it's not looking for style errors, but specifically targeting the layout of your code and making intelligent decisions about things like spaces, indentation levels and line-breaks.
+Formatters are *awesome*. They are similar to linters, but serve a slightly different function. Formatters take your JavaScript code and then automatically format it according to a set of rules. Unlike linters, they do not look for style errors, but specifically target the layout of your code, making intelligent decisions about things like spaces, indentation levels and line-breaks.
 
-1. Prettier has [instructions for setting up and configuring the VSCode Prettier extension](https://github.com/prettier/prettier-vscode).
+As usual, there are multiple formatters out there. [Prettier](https://prettier.io/) is a very popular choice that is highly opinionated. Besides a few options, most of its formatting decisions are not customizable. Since many of these decisions have been made for you, this reduces the time spent deciding on things like indentation size or spacing, and more time on the problems that actually matter.
 
-Using prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you.
+1. Read [Prettier's installation guide](https://www.youtube.com/watch?v=hkfBvpEfWdA) for installing it as a dependency in your projects.
+1. Prettier also has [instructions for setting up and configuring the VSCode Prettier extension](https://github.com/prettier/prettier-vscode). This extension allows you to format with Prettier via Visual Studio Code commands or keybinds instead of commands in the terminal.
+
+Using Prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you.
 
 ### Using ESLint and Prettier
 
@@ -70,9 +72,10 @@ Some community plugins, such as [eslint-config-airbnb-base](https://github.com/a
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is linting?](https://gomakethings.com/javascript-linters/)
-- [Which problems can linting prevent?](https://gomakethings.com/javascript-linters/)
-- [Why should you use Prettier?](https://www.youtube.com/watch?v=hkfBvpEfWdA)
+- [What is linting?](#linting)
+- [Which problems can linting prevent?](https://hackernoon.com/how-linting-and-eslint-improve-code-quality-fa83d2469efe)
+- [What are some of the benefits of using a formatter?](#formatters)
+- [What is Prettier?](https://www.youtube.com/watch?v=hkfBvpEfWdA)
 
 ### Additional resources
 
