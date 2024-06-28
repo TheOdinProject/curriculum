@@ -21,9 +21,6 @@ Code style is important! Having a consistent set of style rules for things such 
 
 The style guides we mentioned above are full of really helpful advice for formatting, organizing and composing your code. But there are a *lot* of rules - it can be difficult to internalize them all. **Linters** are tools that will scan your code with a set of style rules and will report any errors to you that they find. In some cases, they can even auto-fix the errors! The following articles explain in more detail the benefits of using a linter while you code.
 
-1. This article on [JavaScript linters](https://gomakethings.com/javascript-linters/) gets right to the point... start here!
-1. Read this article that goes a little further by discussing exactly [*how* linters do what they do](https://hackernoon.com/how-linting-and-eslint-improve-code-quality-fa83d2469efe).
-
 There are multiple options for linting your JavaScript, but the most popular (and most common in the industry) is [ESLint](https://eslint.org/). Getting it installed and the initial set-up is straightforward.
 
 1. [The official 'Getting Started' page](https://eslint.org/docs/user-guide/getting-started) is a good place to start. It covers installation and basic setup. The basic way to use this tool is to run the `eslint` command in your terminal with a specific file.
@@ -47,8 +44,6 @@ For the time being, if you wish to use airbnb's style guide with ESLint, you wil
 
 Prettier is *awesome*. It is similar to a linter, but serves a slightly different function. Prettier will take your JS code and then automatically format it according to a set of rules. Unlike a linter, it's not looking for style errors, but specifically targeting the layout of your code and making intelligent decisions about things like spaces, indentation levels and line-breaks.
 
-1. Watch this [short intro to Prettier](https://www.youtube.com/watch?v=hkfBvpEfWdA) by its creator.
-1. Go to [Prettier's online playground](https://prettier.io/playground) and give it a test drive. Go ahead and copy/paste some of your old JavaScript code into that editor and see what happens.
 1. Prettier has [instructions for setting up and configuring the VSCode Prettier extension](https://github.com/prettier/prettier-vscode).
 
 Using prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you.
@@ -60,6 +55,16 @@ We **highly** recommend that you install ESlint and Prettier and use them for al
 For most people using the default ESLint ruleset, there will be no special setup needed apart from installing both of them.
 
 Some community plugins, such as [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base), turn on some stylistic rules that may clash with what Prettier formats. If you wish to use a plugin like `eslint-config-airbnb-base` and Prettier together, you will also need to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) which will turn off any of the ESLint rules that clash with Prettier. If you are using the default ESLint ruleset, you will not need this.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Read this article that goes more into [the value of linters and how they work](https://hackernoon.com/how-linting-and-eslint-improve-code-quality-fa83d2469efe).
+1. Watch this [short intro to Prettier](https://www.youtube.com/watch?v=hkfBvpEfWdA) by its creator.
+1. Go to [Prettier's online playground](https://prettier.io/playground) and give it a test drive. Go ahead and copy/paste some of your old JavaScript code into that editor and see what happens.
+
+</div>
 
 ### Knowledge check
 
