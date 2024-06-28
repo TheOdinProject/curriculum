@@ -100,7 +100,7 @@ rbenv -v
 rbenv 1.2.0-14-gc6cc0a1
 ```
 
-If you do not get a version number at all (anything not starting with `rbenv 1...`), please ask for help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916).
+If you do not get a version number at all (anything not starting with `rbenv 1...`), please ask for help in [our Discord server](https://discordapp.com/channels/505093832157691914/505093832157691916).
 
 #### Step 2.2: Install Ruby
 
