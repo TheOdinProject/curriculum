@@ -18,7 +18,7 @@ Add devise to the Gemfile
 bundle add devise
 ~~~
 
-`bundle add` both adds the gem to our Gemfile and runs bundle install. The good thing about it is it also sets the gem version to its latest variant. The down side is that it adds the gems to the bottom of the Gemfile by default. So use it with caution. There are a few flags that can be used. You can have a read about it [here](https://bundler.io/man/bundle-add.1.html).
+`bundle add` both adds the gem to our Gemfile and runs bundle install. The good thing about it is it also sets the gem version to its latest variant. The down side is that it adds the gems to the bottom of the Gemfile by default. So use it with caution. [The `bundle add` command has a few flags you can use](https://bundler.io/man/bundle-add.1.html).
 
 Run the devise installer
 
@@ -223,7 +223,7 @@ const messageChannel = consumer.subscriptions.create("MessageChannel", {
 });
 ~~~
 
-Yours will have some comments that aren't important, but you will need to verify that the constant `messageChannel` is declared. What we need to do here first is set an event listener on the form submit so we can grab the value entered. Once we have the value, we want to send it to the server to be broadcast to all the channel subscribers. This is called rebroadcasting and you can see how it works [In the Rails Guides](https://guides.rubyonrails.org/action_cable_overview.html#rebroadcasting-a-message). We can use `MessageChannel.send` to send the value entered in the input box to our websocket server.
+Yours will have some comments that aren't important, but you will need to verify that the constant `messageChannel` is declared. What we need to do here first is set an event listener on the form submit so we can grab the value entered. Once we have the value, we want to send it to the server to be broadcast to all the channel subscribers. This is what we call [rebroadcasting](https://guides.rubyonrails.org/action_cable_overview.html#rebroadcasting-a-message). We can use `MessageChannel.send` to send the value entered in the input box to our websocket server.
 
 Right at the bottom of our `message_channel.js` file add the following code
 
