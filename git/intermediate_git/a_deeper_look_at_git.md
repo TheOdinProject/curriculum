@@ -80,10 +80,13 @@ pick 92ad0af Create third file and create fourth file
 This would allow us to edit the typo in the `Create send file` commit to be `Create second file`. Perform similar changes in your interactive rebase tool, but don't copy and paste the above code since it won't work. Save and exit the editor, which will allow us to edit the commit with the following instructions:
 
 ```bash
-You can amend the commit now, with
-       git commit --amend
-Once you're satisfied with your changes, run
-       git rebase --continue
+git commit --amend
+```
+
+The command above will allow you to amend the commit. Once you're satisfied with your changes, you can complete the rebase with the following:
+
+```bash
+git rebase --continue
 ```
 
 So let's edit our commit by typing `git commit --amend`, fixing the typo in the title, and then finishing the rebase by typing `git rebase --continue`. That's all there is to it! Have a look at your handiwork by typing `git log`, and seeing the changed history. It seems simple, but this is a very dangerous tool if misused, so be careful. Most importantly, remember that **if you have to rebase commits in a shared repository, make sure you're doing so for a very good reason that your coworkers are aware of.**
