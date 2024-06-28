@@ -8,7 +8,6 @@ This section contains a general overview of topics that you will learn in this l
 
 - How files are processed in the Asset Pipeline.
 - Organization of stylesheets and images in your app.
-- How to display raw HTML-code in your app.
 
 ### The asset pipeline
 
