@@ -106,10 +106,10 @@ Rename the commit to `Create first and second file`, then finish the rebase. Tha
 
 Before diving into Remotes, we're going to have a look at a handy Git command called `git reset`. Let's have a look at the commit `Create third file and create fourth file`. At the moment we're using blank files for convenience, but let's say these files contained functionality and the commit was describing too much at once. In that case what we could do is split it up into two smaller commits by, once again, using the interactive `rebase` tool.
 
-We can open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. But instead, what we're going to do is run `git reset HEAD^`, which resets the commit to the one right before HEAD. This allows us to add the files individually and commit them individually. All together it would look something like this:
+We can open up the tool just like last time, change `pick` to `edit` for the commit we're going to split. But instead, what we're going to do is run `git reset HEAD~`, which resets the commit to the one right before HEAD. This allows us to add the files individually and commit them individually. All together it would look something like this:
 
 ```bash
-git reset HEAD^
+git reset HEAD~
 git add test3.md && git commit -m 'Create third file'
 git add test4.md && git commit -m 'Create fourth file'
 ```
@@ -148,9 +148,9 @@ You might be feeling overwhelmed at this point, so let's recap what we've learne
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell'>Explain what it means for branches to be pointers.</a>
-- <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things'>How can you amend your last commit?</a>
-- <a class='knowledge-check-link' href='https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History'>What are some different ways to rewrite history?</a>
+- [Explain what it means for branches to be pointers.](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+- [How can you amend your last commit?](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
+- [What are some different ways to rewrite history?](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 
 ### Additional resources
 
