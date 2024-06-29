@@ -26,7 +26,7 @@ Remember to commit early and often! To refresh your memory, check out the [commi
 
 1. Create a new Git repository for your project.
 1. Create a blank HTML document with a script tag.
-1. Check if the webpage includes JavaScript:
+1. Check if JavaScript is linked correctly:
    - Write `console.log("Hello World")` in JavaScript.
    - Check if "Hello World" is logged in the browser console once you open your webpage.
 
@@ -65,7 +65,7 @@ Your game will be played round by round. You will write a function that takes th
 
 1. Create a new function named `playRound`.
 1. Define two parameters for `playRound`: `humanChoice` and `computerChoice`. Use these two parameters to take the human and computer choices as arguments.
-1. Make your function's `humanSelection` parameter case-insensitive so that players can input "rock", "ROCK", "RocK", or other variations.
+1. Make your function's `humanChoice` parameter case-insensitive so that players can input "rock", "ROCK", "RocK", or other variations.
 1. Write the code for your `playRound` function to `console.log` a string value representing the round winner, such as: "You lose! Paper beats Rock".
 1. Increment the `humanScore` or `computerScore` variable based on the round winner.
 

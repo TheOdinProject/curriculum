@@ -22,27 +22,29 @@ Situational limitations are a little different. Using a phone outside on a brigh
 
 Let's first look at a non-web example to gain a little perspective. Imagine being in a multi-storied building that has no elevator. For some people, this might only be an annoyance. "Huh, no elevator. I guess I'll walk up a few flights of stairs, then." A person that requires a wheelchair, however, would find it impossible, or at the very least much more difficult, to go anywhere beyond the first floor. Even if a person in a wheelchair had someone to lift the wheelchair up each step, it would be a much more difficult process. The point here is that an elevator would have made this building more accessible.
 
-The building is your website, and the elevator is a collection of various accessibility features and tools (...it's a pretty big elevator). <span id='benefits-knowledge-check'>When you develop a website, you're developing it for users, and you need that website to actually be _usable_ by them. People with disabilities, older people with changing abilities, people who aren't as tech savvy, and people with some sort of situational limitation are still users, and websites should be as equally usable by them as possible.</span>
+The building is your website, and the elevator is a collection of various accessibility features and tools (...it's a pretty big elevator). <span id='benefits-knowledge-check'>When you develop a website, you're developing it for users, and you need that website to actually be *usable* by them. People with disabilities, older people with changing abilities, people who aren't as tech savvy, and people with some sort of situational limitation are still users, and websites should be as equally usable by them as possible.</span>
 
-One other pretty big reason that accessibility matters is that, depending on the country, there could actually be laws _requiring_ accessibility to be implemented.
+One other pretty big reason that accessibility matters is that, depending on the country, there could actually be laws *requiring* accessibility to be implemented.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Go through [Diverse Abilities and Barriers](https://www.w3.org/WAI/people-use-web/abilities-barriers/) to get a better understanding of how some users with disabilities are affected by inaccessible sites.
-2. Watch the videos on [Web Accessibility Perspectives](https://www.w3.org/WAI/perspective-videos/) to see how (and which) users can benefit from accessibility features. Each video is pretty short and has audio descriptions and transcripts. If you prefer, the page also has a link to a compiled version of all of the videos on YouTube.
+
+1. Go through the [Diverse Abilities and Barriers article from W3C](https://www.w3.org/WAI/people-use-web/abilities-barriers/) to get a better understanding of how some users with disabilities are affected by inaccessible sites.
+1. Watch the [videos on Web Accessibility Perspectives by W3C](https://www.w3.org/WAI/perspective-videos/) to see how (and which) users can benefit from accessibility features. Each video is pretty short and has audio descriptions and transcripts. If you prefer, the page also has a link to a compiled version of all of the videos on YouTube.
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is web accessibility?](#what-is-web-accessibility)
 - [Who truly benefits from accessibility features?](#benefits-knowledge-check)
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [The Business Case for Digital Accessibility](https://www.w3.org/WAI/business-case/) goes over reasons for implementing accessibility beyond just being more inclusive to more users.
 - [How People with Disabilities Access Digital Content](https://www.youtube.com/watch?v=Lu7a5RU5lM0) is a rather long video (a whopping 45 minutes), but it goes over a lot of various assistive technologies and will offer you some more perspective on how users with disabilities may browse the websites you create.
