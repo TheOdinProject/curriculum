@@ -116,10 +116,6 @@ Whoa! There's quite a lot here. You are not expected to recognize much of this (
 
 All of this may understandably look unlike anything you've seen up until now, but have no fear, once you've spent the time with this course, you'll know exactly what all of this does, and *much more*.
 
-### Keeping it clean
-
-The starter project ships with [ESLint](https://eslint.org/). If you haven't been doing it or simply forgot about it from our [linting lesson](https://www.theodinproject.com/lessons/node-path-javascript-linting), be sure to also set up [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) to help keep your React code as clean as can be.
-
 ### Developer tools
 
 As you progress with React, your projects will undoubtedly become larger and larger and include more and more components, with increasing levels of functionality.
