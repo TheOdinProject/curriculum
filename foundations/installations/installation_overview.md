@@ -71,7 +71,7 @@ Many learners come to our Discord channel to ask if the directions on this page 
 
 Before we can continue, we must first stress one detail of importance:
 
-**We can only support what is provided within the scope of our curriculum. We do not support native Windows as a development environment.** Using Windows has been discussed many times and it is not feasible to do so at this time. Please do not ask us to support Windows, and **do not bring it up in the Discord**. We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows has not proven to be a path of low resistance, for further information on The Odin Project and Windows, we have a [list of reasons why Windows is not a supported OS in The Odin Project](https://github.com/TheOdinProject/blog/wiki/Why-We-Do-Not-Support-Windows).
+**We can only support what is provided within the scope of our curriculum. We do not support native Windows as a development environment.** Using Windows has been discussed many times and it is not feasible to do so at this time. Please do not ask us to support Windows, and **do not bring it up in the Discord**. We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows has not proven to be a path of low resistance. For more information on The Odin Project and Windows, we have a [list of reasons why Windows is not a supported OS in The Odin Project](https://github.com/TheOdinProject/blog/wiki/Why-We-Do-Not-Support-Windows).
 
 With that out of the way, we need to set up an appropriate development environment!
 
