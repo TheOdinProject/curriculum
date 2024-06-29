@@ -70,6 +70,14 @@ For most people using the default ESLint ruleset, there will be no special setup
 
 Some community plugins, such as [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base), turn on some stylistic rules that may clash with what Prettier formats. If you wish to use a plugin like `eslint-config-airbnb-base` and Prettier together, you will also need to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) which will turn off any of the ESLint rules that clash with Prettier. If you are using the default ESLint ruleset, you will not need this.
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Adding setup to template repositories
+
+Recall [template repositories](https://www.theodinproject.com/lessons/node-path-javascript-revisiting-webpack#template-repositories)? You can include linter and formatter setup in any of your templates to make things quicker and easier in the future!
+
+</div>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
