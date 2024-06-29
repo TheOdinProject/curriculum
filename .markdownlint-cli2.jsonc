@@ -28,9 +28,8 @@
     },
     // ol-prefix
     // Enforces lazy numbering for ordered lists
-    "MD029": {
-      "style": "one"
-    },
+    // MD029 Disabled and overridden by TOP010 rule
+    "MD029": false,
     // no-inline-html
     // Only allows specified HTML to be inline
     "MD033": {
@@ -87,6 +86,7 @@
     "./markdownlint/TOP006_fullFencedCodeLanguage/TOP006_fullFencedCodeLanguage.js",
     "./markdownlint/TOP007_useMarkdownLinks/TOP007_useMarkdownLinks.js",
     "./markdownlint/TOP008_useBackticksForFencedCodeBlocks/TOP008_useBackticksForFencedCodeBlocks.js",
-    "./markdownlint/TOP009_lessonOverviewItemsSentenceStructure/TOP009_lessonOverviewItemsSentenceStructure.js"
+    "./markdownlint/TOP009_lessonOverviewItemsSentenceStructure/TOP009_lessonOverviewItemsSentenceStructure.js",
+    "./markdownlint/TOP010_useLazyNumbering/TOP010_useLazyNumbering.js",
   ]
 }

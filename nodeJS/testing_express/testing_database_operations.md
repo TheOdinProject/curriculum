@@ -76,7 +76,7 @@ This is also not the only way to set up a testing environment! If you are using 
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the purpose of using a separate database for testing?](#but-do-you-even-need-to-test-that)
 - [How would you create and setup a testing database using the npm package `mongodb-memory-server`?](#mongodb-memory-server)
