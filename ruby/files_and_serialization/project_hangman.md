@@ -1,6 +1,6 @@
 ### Introduction
 
-Files are a great way to save and reload a game, so we'll give it a shot here by building [Hangman](https://en.wikipedia.org/wiki/Hangman_(game)).
+Files are a great way to save and reload a game, so we'll give it a shot here by building [Hangman](https://www.wikihow.com/Play-Hangman).
 
 ### Assignment
 You will be building a command line Hangman game where one player plays against the computer, but a bit more advanced.  If you're unfamiliar with how Hangman works, see [Wikipedia](http://en.wikipedia.org/wiki/Hangman_(game)).
