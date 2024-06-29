@@ -6,7 +6,7 @@ Most popular services offer APIs so developers can interface with them (they lov
 
 If you go to the documentation for an API, it can sometimes be a bit overwhelming because much of the material sort of assumes that you know what you're doing, but some are definitely better than others.  There are also elements that are common across almost all of them.  The more you work with APIs (and get the hang of the authentication flow), the easier they get.  You'll be making mashups in no time.
 
-This lesson will cover some general steps that are common across APIs and will do high level overviews of some of the methods for authenticating with APIs like Omniauth.  Try to gain as much conceptual understanding as you can here and use the documentation each gem or API provides to help with the implementation.  If you find great free learning resources that explain APIs, please let us know [(make a pull request and add an additional resource at the bottom of this page)](https://github.com/TheOdinProject/curriculum)!
+This lesson will cover some general steps that are common across APIs and will do high level overviews of some of the methods for authenticating with APIs like Omniauth.  Try to gain as much conceptual understanding as you can here and use the documentation each gem or API provides to help with the implementation.  If you find great free learning resources that explain APIs, you can [suggest them via a GitHub issue in our curriculum repo](https://github.com/TheOdinProject/curriculum/issues/new/choose)!
 
 ### Lesson overview
 
@@ -83,13 +83,13 @@ Basically (still using Facebook as an example):
 5. The user waits while your application takes that authorization code and uses it to ask Facebook for the real good stuff.  Facebook makes sure your application is the same one the user authorized, then POSTs back to you a unique authentication token for the user (which likely expires in 90 days) and any data you asked for up front (like email address).
 5. You store the user's unique token in your database and use it, along with your application key(s), to make any subsequent requests on the user's behalf.
 
-See [this brief overview of OAuth 2.0](http://tutorials.jenkov.com/oauth2/overview.html) for an overview.  Then check out [this more substantive explanation from tutsplus.com](https://code.tutsplus.com/articles/oauth-20-the-good-the-bad-the-ugly--net-33216).
+See this brief [overview of OAuth 2.0](http://tutorials.jenkov.com/oauth2/overview.html).  Then check out this [more substantive explanation of OAuth 2.0 from tutsplus.com](https://code.tutsplus.com/articles/oauth-20-the-good-the-bad-the-ugly--net-33216).
 
 #### Implementing OAuth 2.0 in Rails -- Use OmniAuth!
 
 This sounds horribly complicated! Someone must have made a gem for it...
 
-Luckily someone has.  Many someones, actually.  There is a generic OAuth gem called `omniauth` (docs available [on GitHub](https://github.com/intridea/omniauth)) and then a separate gem which provides a specific authentication strategy for every major API (see the list [HERE](https://github.com/intridea/omniauth/wiki/List-of-Strategies)).  Once you've gone through things with one of them, you'll become comfortable with all of them. It's also worth noting that if you install and use [Devise](https://github.com/heartcombo/devise) (to handle your user model, for example), it comes with support for Omniauth built in! Refer to the [documentation](https://github.com/heartcombo/devise/wiki/OmniAuth%3A-Overview) for details.
+Luckily someone has.  Many someones, actually.  There is a generic OAuth gem called `omniauth` ([Omniauth documentation](https://github.com/intridea/omniauth)) and then a separate gem which provides a specific authentication strategy for every major API ([list of Omniauth strategies](https://github.com/intridea/omniauth/wiki/List-of-Strategies)).  Once you've gone through things with one of them, you'll become comfortable with all of them. It's also worth noting that if you install and use [Devise](https://github.com/heartcombo/devise) (to handle your user model, for example), it comes with support for Omniauth built in! They have documentation on [how to integrate Devise with Omniauth](https://github.com/heartcombo/devise/wiki/OmniAuth%3A-Overview).
 
 Using Omniauth is much easier to learn by doing than reading a bunch of bullet points. You'll have the opportunity to implement it in your final project where you can ask questions if needed.
 
@@ -102,7 +102,7 @@ We won't cover SDKs explicitly in this course but they should be well within rea
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Watch [this Railscast on using Omniauth to allow X (formerly known as Twitter) Signin](http://railscasts.com/episodes/241-simple-omniauth-revised).
+  1. Watch this Railscast on [using Omniauth to allow X (formerly known as Twitter) Signin](http://railscasts.com/episodes/241-simple-omniauth-revised).
   2. Read through the [Omniauth documentation](https://github.com/intridea/omniauth)
   3. Pick an API that you really might like to interface with or a web product you use almost every day (e.g. Google, Facebook, Instagram...).  Google for its docs, e.g. with "instagram api documentation", and have a look at them.  Some docs are better than others, but they will be your source for understanding which methods you can call, what they will return, how to register your application to get an API key, and more useful tidbits.
 </div>
@@ -127,7 +127,7 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- See [This SO Post on interfacing with third-party APIs](http://stackoverflow.com/questions/6228870/interfacing-with-a-third-party-api-in-rails-opeing-urls-and-parsing-xml-json) for tips.
+- See this Stack Overflow post on [interfacing with third-party APIs](http://stackoverflow.com/questions/6228870/interfacing-with-a-third-party-api-in-rails-opeing-urls-and-parsing-xml-json) for tips.
 - [RailsConf 2016 - From Zero to API Hero: Consuming APIs like a Pro by Cecy Correa](https://www.youtube.com/watch?v=Af5HDgvGuXk)
-- Take a look at [this Medium article](https://revs.runtime-revolution.com/integrating-a-third-party-api-with-rails-5-134f960ddbba) over integrating a third party API with Rails 5.
-- See this other [Medium Article](https://medium.com/food4fluctuations/using-an-api-in-rails-for-noobs-5e02edb0e56b) on creating a basic rails app using the OMDB API, an open source movie database.
+- Take a look at this Medium article over [integrating a third party API with Rails 5](https://revs.runtime-revolution.com/integrating-a-third-party-api-with-rails-5-134f960ddbba).
+- See this other Medium Article on [creating a basic rails app using the OMDB API](https://medium.com/food4fluctuations/using-an-api-in-rails-for-noobs-5e02edb0e56b), an open source movie database.
