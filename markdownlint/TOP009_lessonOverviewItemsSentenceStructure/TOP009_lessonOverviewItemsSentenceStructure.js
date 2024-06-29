@@ -1,4 +1,3 @@
-// A bullet list is every token between and inclusive bullet_list_open to bullet_list_closed
 function isolateBulletList(tokens) {
   const bulletList = [];
   let inBulletList = false;
@@ -20,11 +19,11 @@ function isolateBulletList(tokens) {
       bulletList.push(token);
     }
   });
+
   // Only consider tokens that have text in them.
   return bulletList.filter((token) => token.type === "inline");
 }
 
-// A list item is every token between and inclusive list_item_open to list_item_close
 function getListItemData(bulletPoint) {
   const lineNumber = bulletPoint.lineNumber;
   const context = bulletPoint.content.trim();
