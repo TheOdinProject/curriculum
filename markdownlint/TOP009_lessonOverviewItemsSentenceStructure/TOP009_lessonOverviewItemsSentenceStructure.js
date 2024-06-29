@@ -27,9 +27,13 @@ function isolateBulletList(tokens) {
 function getListItemData(bulletPoint) {
   const lineNumber = bulletPoint.lineNumber;
   const context = bulletPoint.content.trim();
-  const firstCharacter = context.at(0);
-  const lastCharacter = context.at(-1);
+  const firstCharacterIndex = 0
+  const lastCharacterIndex = context.length - 1
+  const firstCharacter = context.at(firstCharacterIndex);
+  const lastCharacter = context.at(lastCharacterIndex);
   return {
+    firstCharacterIndex,
+    lastCharacterIndex,
     firstCharacter,
     lastCharacter,
     lineNumber,
@@ -47,7 +51,7 @@ module.exports = {
   function: function TOP009(params, onError) {
     const bulletPoints = isolateBulletList(params.tokens);
     bulletPoints.forEach((bulletPoint) => {
-      const { firstCharacter, lastCharacter, lineNumber, context } =
+      const { firstCharacter, lastCharacter, lineNumber, context, firstCharacterIndex, lastCharacterIndex } =
         getListItemData(bulletPoint);
       const firstCharacterIsValid =
         firstCharacter === firstCharacter.toUpperCase();
@@ -58,12 +62,13 @@ module.exports = {
           context,
           fixInfo: {
             lineNumber,
-            editColumn: 2,
+            editColumn: firstCharacterIndex,
             deleteCount: 1,
             insertText: firstCharacter.toUpperCase(),
           },
         });
       }
+
       const lastCharacterIsValid = lastCharacter === ".";
       if (!lastCharacterIsValid) {
         onError({
@@ -72,7 +77,7 @@ module.exports = {
           context,
           fixInfo: {
             lineNumber,
-            editColumn: context.length,
+            editColumn: lastCharacterIndex,
             deleteCount: 1,
             insertText: ".",
           },
