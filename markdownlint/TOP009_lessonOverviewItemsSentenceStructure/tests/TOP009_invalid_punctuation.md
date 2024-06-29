@@ -9,7 +9,9 @@ This section contains a general overview of topics that you will learn in this l
 - Lesson overview item 1.
 - Lesson overview item 2.
 - Lesson overview item 3?
-- Lesson overview item 4.
+- Lesson overview item 5.
+- Lesson overview item 6
+- Lesson overview item 7.
 
 ### Custom section
 
