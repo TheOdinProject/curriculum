@@ -55,7 +55,7 @@ module.exports = {
       if (!firstCharacterIsValid) {
         onError({
           lineNumber,
-          detail: "Lesson overview items should start with a capital letter",
+          detail: "Lesson overview items must start with a capital letter",
           context,
           fixInfo: {
             lineNumber,
@@ -69,7 +69,7 @@ module.exports = {
       if (!lastCharacterIsValid) {
         onError({
           lineNumber,
-          detail: "Lesson overview items should end with a period.",
+          detail: "Lesson overview items must end with a period.",
           context,
           fixInfo: {
             lineNumber,
