@@ -69,7 +69,7 @@ const playerTwo = {
 };
 ```
 
-At first glance, the first doesn't seem so bad.. and it actually takes fewer lines to write than the example using objects, but the benefits of the second approach are huge! Let me demonstrate:
+At first glance, the first doesn't seem so bad... and it actually takes fewer lines to write than the example using objects, but the benefits of the second approach are huge! Let me demonstrate:
 
 ```javascript
 function printName(player) {
@@ -160,7 +160,7 @@ Pretty straightforward sentence here! Every object in JavaScript has a `prototyp
 
 This sentence also seems pretty straightforward! The `prototype` *is just another object* - again, like the `player1` and the `player2` objects. The `prototype` object can have properties and functions, just as these `Player` objects have properties like `.name`, `.marker`, and functions like `.sayName()` attached to them.
 
-#### 3. ...that the original object *inherits* from, and has access to all of its prototype's methods and properties
+#### 3. ...that the original object inherits from, and has access to all of its prototype's methods and properties
 
 Here, the "original object" refers to an object like `player1` or `player2`. These objects are said to "inherit", or in other words, these objects have access to the `prototype`'s properties or functions, if they have been defined. For example, if there was a `.sayHello()` function defined on the `prototype`, `player1` can access the function just as if it was its own function - `player1.sayHello()`. But it's not just `player1` who can call the `.sayHello()` function, even `player2` can call it, since it's defined on the `prototype`! Read on to know the details of how it works and how you could do this yourself!
 
@@ -355,10 +355,10 @@ If we had used `Object.setPrototypeOf()` in this example, then we could safely e
 
 1. Read up on the concept of the prototype from the articles below.
    1. Read the article [Understanding Prototypes and Inheritance in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript) from Digital Ocean. This is a good review of prototype inheritance and constructor functions, featuring some examples.
-   1. To go a bit deeper into both the chain and inheritance, spend some time with [JavaScript.Info's article on Prototypal Inheritance](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: This article makes heavy use of `**proto**` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.
+   1. To go a bit deeper into both the chain and inheritance, spend some time with [JavaScript.Info's article on Prototypal Inheritance](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: This article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.
 1. You might have noticed us using the `this` keyword in object constructors and prototype methods in the examples above.
 
-   1. [Dmitri Pavlutin's article on the `this` keyword](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/) is very comprehensive and covers how `this` changes in various situations. You should have a solid understanding of the concept after reading it. Pay special attention to the pitfalls mentioned in each section.
+   1. [JavaScript Tutorial's article on the `this` keyword](https://www.javascripttutorial.net/javascript-this/) covers how `this` changes in various situations. Pay special attention to the pitfalls mentioned in each section.
 
 </div>
 
@@ -376,12 +376,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Lydia Hallie has a [visual article on prototypal inheritance](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co) and [prototype inheritance by Programming With Avelx](https://www.youtube.com/watch?v=sOrtAjyk4lQ) explains the Prototype concept with graphics and beginner friendly language. Try using these resources if you want another perspective to understand the concept.
-- This [`Object.create` video by FunFunFunction](https://www.youtube.com/watch?v=CDFN1VatiJA) explains the method with great details about it, he walks through what it is, why `Object.create` exists in JavaScript, and how to use `Object.create`. Also you can check this [`Object.create` method video by techsith](https://www.youtube.com/watch?v=MACDGu96wrA) for another point of view on extending objects.
-- [The Principles of Object-Oriented JavaScript](https://www.amazon.com/Principles-Object-Oriented-JavaScript-Nicholas-Zakas/dp/1593275404) book by
-Nicholas C. Zakas is really great to understand OOP in JavaScript, which explains concepts in-depth, which explores JavaScript's object-oriented nature, revealing the language's unique implementation of inheritance and other key characteristics, it's not free but it's very valuable.
+- This [`Object.create` method video by techsith](https://www.youtube.com/watch?v=MACDGu96wrA) provides another point of view on how to use `Object.create` to extend objects by setting the prototype.
 - The first answer on this StackOverflow question regarding [defining methods via the prototype vs in the constructor](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) helps explain when you might want to use one over the other.
-- [A Beginner’s Guide to JavaScript’s Prototype](https://medium.com/free-code-camp/a-beginners-guide-to-javascript-s-prototype-9c049fe7b34) and [JavaScript Inheritance and the Prototype Chain](https://medium.com/free-code-camp/javascript-inheritance-and-the-prototype-chain-d4298619bdae) from Tyler Mcginnis has great examples to help you understand Prototype and Prototype Chain better from the beginner's perspective.
-- This video from Akshay Saini is an easy way to understand the [concept of Prototype, Prototype Chain and prototypal inheritance.](https://www.youtube.com/watch?v=wstwjQ1yqWQ).
 - [Interactive Scrim on objects and object constructors.](https://scrimba.com/scrim/co2624f87981575448091d5a2)
 - Check out this video explanation on the  [`this` keyword from DevSage](https://www.youtube.com/watch?v=cwChC4BQF0Q) that gives a different perspective on how its context changes, as well as scenarios in which `this` behaves unexpectedly.

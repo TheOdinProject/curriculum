@@ -13,7 +13,9 @@ Before continuing, let's review a few best practices to keep in mind:
 Now, let's get started!
 
 <details markdown="block">
+
 <summary class="dropDown-header">Linux
+
 </summary>
 
 ### Step 1: Install updates, packages and libraries
@@ -66,7 +68,9 @@ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 Next, we'll add some commands to allow rbenv to work properly. We can use the Linux `echo` command to make it easy.
 
 <div class="lesson-note lesson-note--warning" markdown=1>
+
 Run these commands one by one in sequence. They will not provide any output if done properly. Again, be sure to copy and paste these commands.
+
 </div>
 
 ```bash
@@ -96,7 +100,7 @@ rbenv -v
 rbenv 1.2.0-14-gc6cc0a1
 ```
 
-If you do not get a version number at all (anything not starting with `rbenv 1...`), please ask for help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916).
+If you do not get a version number at all (anything not starting with `rbenv 1...`), please ask for help in [our Discord server](https://discordapp.com/channels/505093832157691914/505093832157691916).
 
 #### Step 2.2: Install Ruby
 
@@ -105,10 +109,10 @@ It's finally time to install Ruby using `rbenv`!
 Inside the terminal, run this command:
 
 ```bash
-rbenv install 3.2.2 --verbose
+rbenv install 3.3.0 --verbose
 ```
 
-This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
+This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [funny jumping goats video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
 
 You may get this error message:
 
@@ -131,7 +135,7 @@ git -C "$(rbenv root)"/plugins/ruby-build pull
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ```bash
-rbenv global 3.2.2
+rbenv global 3.3.0
 ```
 
 Then,
@@ -143,7 +147,7 @@ ruby -v
 The above command should return something similar to this:
 
 ```bash
-ruby 3.2.2pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
+ruby 3.3.0pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ```
 
 where x represents the version available at the time you installed Ruby.
@@ -153,7 +157,9 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">MacOS
+
 </summary>
 
 ### Step 1: Install packages and libraries
@@ -250,7 +256,7 @@ You'll notice nothing happened in the terminal. That's okay and is typical respo
 
 #### Step 2.3: Install Ruby
 
-We can now (finally) install Ruby! Our curriculum currently uses version 3.2.2, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
+We can now (finally) install Ruby! Our curriculum currently uses version 3.3.0, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
 
 First, let's upgrade `ruby-build`:
 
@@ -261,22 +267,22 @@ brew upgrade ruby-build
 Now we're ready to install our desired version of Ruby:
 
 ```bash
-rbenv install 3.2.2 --verbose
+rbenv install 3.3.0 --verbose
 ```
 
-This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
+This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [funny jumping goats video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
 
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ```bash
-rbenv global 3.2.2
+rbenv global 3.3.0
 ```
 
-You can double check that this worked by typing `ruby -v` and checking that the output says version 3.2.2:
+You can double check that this worked by typing `ruby -v` and checking that the output says version 3.3.0:
 
 ```bash
 ruby -v
-ruby 3.2.2pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
+ruby 3.3.0pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
 ```
 
 If you don't see the output above, close and reopen the terminal window and then run the command again.
@@ -287,12 +293,8 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 
 #### Extras
 
-If you are using Visual Studio Code as your IDE, you can install the "Ruby LSP" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby LSP", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
+If you are using Visual Studio Code as your IDE, you can install the "Ruby LSP" extension, which will provide you with semantic highlighting and formatting support.
 
-If you are using a different IDE, a quick Google search such as "Ruby programming extensions for (your IDE here)" should provide you with the resources to get started. Free support extensions can help make your programming go more smoothly, and there are tons of extensions for all languages (not just Ruby).
+Using the extension is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby LSP", and click install on the first one. Congratulations, the extension is now installed.
 
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+The most important features Ruby LSP provides will work out of the box. But it may bug you about using a monorepo setup, missing lockfiles or rubocop - you can choose "Don't show again" for now. We will introduce these later.

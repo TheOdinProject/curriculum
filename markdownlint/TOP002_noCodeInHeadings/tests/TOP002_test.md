@@ -1,6 +1,6 @@
 ### Introduction
 
-Text content
+Text content.
 
 ### Lesson overview
 
@@ -15,6 +15,8 @@ Some more content.
 ### This `heading` SHOULD be flagged
 
 Some content.
+
+### This `other heading` will get `flagged` twice
 
 ### Assignment
 
