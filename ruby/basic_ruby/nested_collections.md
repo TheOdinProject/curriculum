@@ -78,7 +78,7 @@ teacher_mailboxes.dig(0, 4)
 ```
 
 ### Creating a new nested array
-Now that you have seen how to access values inside a nested array, we need to take a step back to look at creating a new nested array. In a previous lesson you were taught to create a new array, by calling the Array.new method with up to 2 optional arguments (initial size and default value), like `Array.new(3)` or `Array.new(3, 7)`. However, there is one major "gotcha" that is important to point out. According to the [documentation](https://docs.ruby-lang.org/en/3.3/Array.html) the second optional argument, for the default value, should only be used with an immutable (unable to be changed) object such as a number, boolean value, or symbol. Using a string, array, hash, or other mutable object may result in confusing behavior because each default value in the array will actually be a *reference to* the same default value. Therefore, any change to **one** of the elements will change **all** of the elements in the array.
+Now that you have seen how to access values inside a nested array, we need to take a step back to look at creating a new nested array. In a previous lesson you were taught to create a new array, by calling the Array.new method with up to 2 optional arguments (initial size and default value), like `Array.new(3)` or `Array.new(3, 7)`. However, there is one major "gotcha" that is important to point out. According to the [Array class documentation](https://docs.ruby-lang.org/en/3.3/Array.html), the second optional argument for `Array.new` (the default value), should only be used with an immutable (unable to be changed) object such as a number, boolean value, or symbol. Using a string, array, hash, or other mutable object may result in confusing behavior because each default value in the array will actually be a *reference to* the same default value. Therefore, any change to **one** of the elements will change **all** of the elements in the array.
 
 To create an immutable array of mutable objects (string, array, hash, etc), you will need to pass the default value for `Array.new` via a block, using curly braces, instead of the second optional argument. The code in the block gets evaluated for every slot in the array, creating multiple objects to initialize the array with, rather than references to the same object.
 
@@ -322,9 +322,9 @@ Amazing! We have found a great solution to returning an array that only contains
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
 
-1. To learn more about using a hash with a nested array, read [this article](https://web.archive.org/web/20220525215038/https://learn.co/lessons/nested-hash-iteration) from Learn.co.
-2. To learn more about using an array with a nested hash, read [the answer to this post](https://stackoverflow.com/questions/50529389/manipulating-output-from-an-array-of-nested-hashes-in-ruby) on Stack Overflow.
-3. Complete the [nested collections](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
+1. Read more about [using a hash with a nested array](https://web.archive.org/web/20220525215038/https://learn.co/lessons/nested-hash-iteration).
+2. This Stack Overflow answer explains more about [using arrays with a nested hash](https://stackoverflow.com/questions/50529389/manipulating-output-from-an-array-of-nested-hashes-in-ruby).
+3. Complete the nested collections exercises
 
 </div>
 
