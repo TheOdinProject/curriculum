@@ -1,6 +1,6 @@
 ### Introduction
 
-Data is the core of any good web app and a good working knowledge of SQL will take you a long way.  That knowledge lets you not just understand what's going on behind the scenes with your ORM tool (e.g. Active Record) but also to feel comfortable asking more complicated questions of your data.  And that's really what SQL is all about -- asking questions of your database and occasionally also adding or changing things in it.  Querying can be incredibly useful for you.
+Data is the core of any good web app and a good working knowledge of SQL will take you a long way.  That knowledge lets you not just understand what's going on behind the scenes with your ORM tool (e.g. Active Record in Rails, or Prisma in NodeJS) but also to feel comfortable asking more complicated questions of your data.  And that's really what SQL is all about -- asking questions of your database and occasionally also adding or changing things in it.  Querying can be incredibly useful for you.
 
 In more straightforward cases, you might want to display all users who signed up in December via the promotion code "FREESTUFF".  You might want to display all comments created by the current user and sorted by topic and creation date.  In more complex cases, you may want to show a list of all the orders shipped to states with more than 1,000 users by quantity and total order value.  Or, for internal reasons, you might ask marketing analysis questions like which promotion channels produce users who meet your specified engagement criteria of reading 5 articles per work week.
 
@@ -10,8 +10,7 @@ You will start with the questions like the ones above and then have to figure ou
 
 We'll move beyond just the `SELECT "users".* FROM "users" LIMIT 1` queries and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
 
-All this stuff is being used by Rails behind the scenes so understanding it will make you much better at writing queries in Rails. This is why we're going over databases before learning Rails.
-
+<!-- markdownlint-disable-next-line TOP004 -->
 #### A note on resources
 
 SQL is one of those topics that's been stored away in dusty old technical manuals and 90's style websites. Even the best books out there can make it seem oddly complicated because they tend to write for the database engineer who actually does need to know all the nitty gritty details.
@@ -80,9 +79,9 @@ The "left" table is the original table (the one that the `FROM` clause was `ON`)
 </div>
 
 1. `INNER JOIN`, aka `JOIN` -- Your best friend and 95% of what you'll use.  <span id='inner-join'>Keeps only the rows from both tables where they match up</span>.  If you asked for all the posts for all users (`SELECT * FROM users JOIN posts ON users.id = posts.user_id`), it would return only the users who have actually written posts and only posts which have specified their author in the `user_id` column.  If an author has written multiple posts, there will be multiple rows returned (but the columns containing the user data will just be repeated).
-2. `LEFT OUTER JOIN` -- keep all the rows from the left table and add on any rows from the right table which match up to the left table's.  Set any empty cells this produces to `NULL`.  E.g. return all the users whether they have written posts or not.  If they do have posts, list those posts as above.  If not, set the columns we asked for from the "posts" table to `NULL`.
-3. `RIGHT OUTER JOIN` -- the opposite... keep all rows in the right table.
-4. `FULL OUTER JOIN` -- Keep all rows from all tables, even if there are mismatches between them.  Set any mismatched cells to `NULL`.
+1. `LEFT OUTER JOIN` -- keep all the rows from the left table and add on any rows from the right table which match up to the left table's.  Set any empty cells this produces to `NULL`.  E.g. return all the users whether they have written posts or not.  If they do have posts, list those posts as above.  If not, set the columns we asked for from the "posts" table to `NULL`.
+1. `RIGHT OUTER JOIN` -- the opposite... keep all rows in the right table.
+1. `FULL OUTER JOIN` -- Keep all rows from all tables, even if there are mismatches between them.  Set any mismatched cells to `NULL`.
 
 Joins naturally let you specify conditions too, like if you only want the posts from a specific user: `SELECT * FROM users JOIN posts ON users.id = posts.user_id WHERE users.id = 42`.
 
@@ -105,7 +104,7 @@ Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which re
   GROUP BY users.id;
 ```
 
-See [W3 Schools' article](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and play around with the SQL in the window (try deleting the `GROUP BY` line) for an interactive visual.
+See [W3Schools' browser-based SQL playground](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) (try deleting the `GROUP BY` line) for an interactive visual.
 
 The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  <span id='having-function'>So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates</span>.  So say you only want to display users who have written more than 10 posts:
 
@@ -117,35 +116,37 @@ The last nifty trick is if you want to only display a subset of your data.  In a
   HAVING posts_written >= 10;
 ```
 
-Try going back to [the W3 Schools' example](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and joining the `Customers` and the `Orders` tables to get the number of orders in each country and adding the line `HAVING COUNT(*) > 10;` after `GROUP BY` (and delete the extra semicolon in the previous line).
+Try going back to [W3Schools' browser-based SQL playground](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and joining the `Customers` and the `Orders` tables to get the number of orders in each country and adding the line `HAVING COUNT(*) > 10;` after `GROUP BY` (and delete the extra semicolon in the previous line).
 
 You probably got lost somewhere in the above explanation and that's just fine... it's covering way more stuff than anyone can pick up in 10 minutes.  The assigned reading will do a better job of explaining things but, more importantly, you'll get plenty of opportunities to solidify your understanding by applying it in the project.  If you've still got blind spots, check out the Additional Resources section below.  Fear not and stick with it!
 
-### SQL is faster than Ruby!
+### SQL is faster than your code!
 
-Learning this stuff is particularly relevant because it's MUCH faster for you to build queries that use SQL intelligently than to just grab a whole bunch of data out of your database and then use Ruby to process it.  For instance, if you want all the unique names of your users, you COULD just grab the whole list from your database using SQL like `SELECT users.name FROM users` (which Active Record will do for you with `User.select(:name)`) then remove duplicates using Ruby's `#uniq` method, e.g. `User.select(:name).uniq`... but that requires you to pull all that data out of your database and then put it into memory and then iterate through it using Ruby.  Use `SELECT DISTINCT users.name FROM users` instead to have SQL do it all in one step.
+Learning this stuff is particularly relevant because it's MUCH faster for you to build queries that use SQL intelligently than to just grab a whole bunch of data out of your database and then use a programming language (like Ruby or JavaScript) to process it.  For instance, if you want all the unique names of your users, you COULD just grab the whole list from your database using SQL like `SELECT users.name FROM users` then use a JavaScript/Ruby method to remove duplicates... but that requires you to pull all that data out of your database and then put it into memory and then iterate through it in your code.  Use `SELECT DISTINCT users.name FROM users` instead to have SQL do it all in one step.
 
-SQL is built to be fast.  It has a special query optimizer which takes a look at the whole query you're about to run and it figures out exactly which tables it needs to join together and how it can most quickly execute the query.  The difference between using `SELECT` and `SELECT DISTINCT` is negligible compared to the time cost of doing it in Ruby.  Learning your SQL will help you write Active Record queries that can do more which will make your app much faster.
-
+SQL is built to be fast.  It has a special query optimizer which takes a look at the whole query you're about to run and it figures out exactly which tables it needs to join together and how it can most quickly execute the query.  The difference between using `SELECT` and `SELECT DISTINCT` is negligible compared to the time cost of doing it yourself.  Learning your SQL will help you write better queries that can do more which will make your app much faster.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1.  Go through this interactive SQL tutorial from [SQL Teaching](https://www.sqlteaching.com/)
-  2.  Go through this more in-depth interactive SQL tutorial from [SQL Bolt](http://sqlbolt.com)
-  3.  Go through the basics at [Part 1](https://www.sqlcourse.com/beginner-course/) and the advanced at [Part 2](https://www.sqlcourse.com/advanced-course/) of SQL Course
+
+  1. Go through this [interactive SQL tutorial from SQL Teaching](https://www.sqlteaching.com/).
+  1. Go through this more in-depth [interactive SQL tutorial from SQL Bolt](http://sqlbolt.com/).
+  1. Go through [SQLCourse's beginner course](https://www.sqlcourse.com/beginner-course/) then [SQLCourse's advanced course](https://www.sqlcourse.com/advanced-course/).
+
 </div>
 
 ### Conclusion
 
-SQL can be a tricky set of concepts to wrap your head around, particularly when it comes to conditionally displaying and grouping the results of multiple joins.  We've emphasized that this stuff is useful for understanding what's going on behind the scenes with Rails and you'll get a chance to apply it in the project.  Everything up to vanilla joins and vanilla aggregate functions is core knowledge that you should really make an effort to assimilate.
+SQL can be a tricky set of concepts to wrap your head around, particularly when it comes to conditionally displaying and grouping the results of multiple joins. Everything up to vanilla joins and vanilla aggregate functions is core knowledge that you should really make an effort to assimilate.
 
 If you never quite get to the point where you're comfortable with the really advanced concepts, you'll luckily not need to use them except in a small fraction of situations in your future.  It's good to learn it all up front but you'll probably find yourself Googling for how to perform certain advanced queries when the time comes anyway.
 
-The next step, once you've had a chance to practice this all in the project, is to apply it to Rails with Active Record.  You'll quickly find that Active Record makes your life much, much, much better.  Just don't forget about ol' SQL when you've moved onto those better and brighter things, okay?
+The next step, once you've had a chance to practice this all in the project, is to apply it to your codebase in the upcoming courses.  You'll quickly find that using ORM tools makes your life much, much, much better.  Just don't forget about ol' SQL when you've moved onto those better and brighter things, okay?
 
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the difference between a foreign key and a primary key?](#foreign-key)
 - [Where is the setup information for your database stored?](#schema)
@@ -154,13 +155,14 @@ This section contains questions for you to check your understanding of this less
 - [Which `JOIN` statement keeps only the rows from both tables where they match up?](#inner-join)
 - [How do you use an aggregate function?](#aggregate-function)
 - [In which situation would you use the `HAVING` function?](#having-function)
-- [Why can't I just use Ruby to process my database data?](#sql-is-faster-than-ruby)
+- [Why can't I just use code to process my database data?](#sql-is-faster-than-your-code)
 
 ### Additional resources
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--   Odinite Hunter D made his excellent notes into a [Git Book on SQL](https://hunter-ducharme.gitbook.io/sql-basics) which you should totally check out if you want a decent resource.
--   [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
--   [A Beginners Guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
--   [SQL Flashcards](https://flashcards.github.io/sql/introduction.html) by flashcards.github.io.
--   If you feel like doing more SQL exercises, make sure to check out [SQL Exercises](http://www.sql-ex.com/).
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- Odinite Hunter D made his excellent notes into a [Git Book on SQL](https://hunter-ducharme.gitbook.io/sql-basics) which you should totally check out if you want a decent resource.
+- [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
+- [A Beginners Guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
+- [SQL Flashcards](https://flashcards.github.io/sql/introduction.html) by flashcards.github.io.
+- If you feel like doing more SQL exercises, make sure to check out [SQL Exercises](http://www.sql-ex.com/).
