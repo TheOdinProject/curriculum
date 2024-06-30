@@ -46,7 +46,7 @@ Create an image carousel. It should contain arrows on each side to advance the i
 
 Don't spend too much time worrying about getting your images to display at the correct size -- it's more important to get the carousel rotating.
 
-1. This one is a little more involved than the last two, so think about how you would set up the different elements within the site.
+1. This one is a little more involved than the previous task, so think about how you would set up the different elements within the site.
 1. Set up a very wide `div` which will contain the individual "slides" of each image. By appropriately positioning that `div` inside a container `div` (which acts like a picture frame), you can choose which slide is visible at any given time.
 1. Once you have the slider positioned properly, build functions for "next" and "previous" which will advance to the next or previous slide accordingly. The transition *doesn't* need to be smooth or animated. Only make it switch to the correct slide.
 1. Set up arrow buttons which activate those functions and play with cycling through the images.
