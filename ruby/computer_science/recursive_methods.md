@@ -32,7 +32,7 @@ This section contains a general overview of topics that you will learn in this l
 
 </div>
 
-### Test yourself
+#### Test yourself
 
 <div class="lesson-content__panel" markdown="1">
 
