@@ -12,6 +12,13 @@ By the end of this unit, you should not only understand how the web works but al
 
 This section intentionally covers a very broad range of topics. It's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Understand how The Odin Project's curriculum works.
+- Understand how the Foundations course works.
+
 ### How it works
 
 This curriculum works by aggregating the best content from across the internet to teach a specific topic. In each lesson, we'll introduce the topic and try to provide some useful context before pointing you to external resources made by others.
@@ -67,6 +74,13 @@ Additional resources are the only thing that is considered optional unless expli
 1. Check out the [frequently asked questions](https://www.theodinproject.com/faq) section.
 
 </div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What is The Odin Project?](#introduction)
+- [Should you skip anything in The Odin Project or complete it non-linearly?](#what-comes-next)
 
 ### Additional resources
 
