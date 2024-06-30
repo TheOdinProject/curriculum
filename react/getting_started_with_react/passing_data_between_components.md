@@ -37,7 +37,7 @@ export default function App() {
 
 So far so good right? We have a beautiful reusable button that we can use as many times as we like, there is just one small problem.
 
-What if we wanted the text within our second button to be “Don’t Click Me!’? Right now, we would have to create a second button component with this different text.
+What if we wanted the text within our second button to be “Don’t Click Me!"? Right now, we would have to create a second button component with this different text.
 
 ```jsx
 function Button() {
@@ -188,7 +188,7 @@ function Button({ text = "Click Me!", color = "blue", fontSize = 12, handleClick
 
 export default function App() {
   const handleButtonClick = () => {
-    window.location.href = "http://www.google.com";
+    window.location.href = "https://www.google.com";
   };
 
   return (
@@ -206,8 +206,6 @@ export default function App() {
 There are a few things to note here.
 
 - We only pass through a reference to `handleButtonClick`, i.e. we do not include parenthesis when passing the function to `Button`. If we were to do something like `handleClick={handleButtonClick()}` then the function would be called as the button renders.
-
-- You can rename the function to whatever you like when passing through as props, the prop name and value do not need to be the same. We could just as easily write `superCoolFunction={handleButtonClick}`.
 
 - Every `Button` calling this function will navigate to the same page. We can refactor the function and supply an argument within `Button` to customize this functionality.
 

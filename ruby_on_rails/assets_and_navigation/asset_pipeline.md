@@ -8,7 +8,6 @@ This section contains a general overview of topics that you will learn in this l
 
 - How files are processed in the Asset Pipeline.
 - Organization of stylesheets and images in your app.
-- How to display raw HTML-code in your app.
 
 ### The asset pipeline
 
@@ -30,7 +29,7 @@ The below section on the JavaScript manifest isn't relevant to Rails 7 applicati
 
 Rails needs to know which files to include in that giant blob, so it uses so-called "manifest" files to determine this.  Your JavaScript manifest file will be `app/assets/javascripts/application.js`.  It looks commented out, but the lines starting with `//=` tell Rails which files to go find and include.  The comments in the file are pretty useful -- they say:
 
-~~~javascript
+```javascript
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
@@ -47,7 +46,7 @@ Rails needs to know which files to include in that giant blob, so it uses so-cal
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-~~~
+```
 
 The `require_tree` helper method just grabs everything in the current directory.
 
@@ -55,7 +54,7 @@ Note that packages like jQuery aren't included out of the box in newer Rails app
 
 Your stylesheet manifest file operates on the same principle -- it's available at `app/assets/stylesheets/application.css`:
 
-~~~css
+```css
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -71,7 +70,7 @@ Your stylesheet manifest file operates on the same principle -- it's available a
  *= require_tree .
  *= require_self
  */
-~~~
+```
 
 Again, you see the `require_tree` helper method which brings in all CSS files in the current directory. You should put CSS sparingly into this top level file and instead add your own CSS stylesheet files in an organized way.
 
@@ -97,23 +96,23 @@ Let's also assume that you really like using `.container` classes to keep your `
 
 The basic idea is to be able to say "all this code/css/whatever inside here only belongs to XYZ".  You sort of fence it off.  It's best explained with an example:
 
-~~~html
+```html
    <!-- app/views/users/show.html.erb -->
   <div class="user">
     <div class="container">
       <!-- a bunch of code for displaying the user -->
     </div>
   </div>
-~~~
+```
 
 Now this container and all the code inside of it is also within the `.user` class.  So we can set up our stylesheet to specifically address the `.container` class that's inside a `.user` class:
 
-~~~css
+```css
   /* app/assets/stylesheets/user.css */
   .user .container{
     // style stuff
   }
-~~~
+```
 
 This is good because we're now specifically targeting containers used by User pages.
 
