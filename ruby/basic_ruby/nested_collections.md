@@ -335,7 +335,7 @@ Amazing! We have found a great solution to returning an array that only contains
 
 1. Read more about [using a hash with a nested array](https://web.archive.org/web/20220525215038/https://learn.co/lessons/nested-hash-iteration).
 1. This Stack Overflow answer explains more about [using arrays with a nested hash](https://stackoverflow.com/questions/50529389/manipulating-output-from-an-array-of-nested-hashes-in-ruby).
-1. Complete the nested collections exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises)
+1. Complete the nested collections exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises).
 
 </div>
 
