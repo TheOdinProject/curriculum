@@ -286,7 +286,7 @@ const rps = {
 }
 ```
 
-Another name for these might also be **private properties**/**private methods**, and even though object literal syntax doesn't provide a way to truly make them private, you will later learn about other methods of creating objects that *can*.
+Another name for these might also be **private properties**/**private methods**, and even though object literal syntax doesn't provide a way to truly prevent people from using them, you will later learn about other methods of creating objects that *can*.
 
 Private properties/methods aren't strictly required, but they can help make the intended use of the object more understandable, and when used thoughtfully, even protect certain properties (like the player's scores) from being modified in ways that you may not have intended. Back off, cheaters!
 
