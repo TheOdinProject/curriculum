@@ -16,9 +16,9 @@ CSS transitions let you animate a change from an element's initial state to an e
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="eYGmYRm" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/eYGmYRm">
-  CSS Transition (longhand)</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/eYGmYRm">
+CSS Transition (longhand)</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
 
@@ -112,3 +112,4 @@ This section contains helpful links to related content. It isn't required, so co
 - Up until now, you have only controlled the speed of your transitions with the help of keyword values like `ease` and `ease-in`. However, CSS allows you to define your own timing functions with the help of timing functions like `steps` and `cubic-bezier`. In specific, [the `cubic-bezier` function](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function#cubic_b%C3%A9zier_easing_function) is widely used.
 - While the [`cubic-bezier`](https://blog.maximeheckel.com/posts/cubic-bezier-from-math-to-motion/) function has a ton of mathematics, you do not need to delve deep into it apart from a creating a basic idea about its purpose.
 - You can play around with the [CSS Cubic Bezier Generator](https://www.cssportal.com/css-cubic-bezier-generator/) to not only view how the `cubic-bezier` value works in an editable demo, but also to compare the different `transition-timing-function` values side by side.
+- For more advanced transitions, [this video from WDS](https://youtu.be/cH0TC9gWiAg?si=VxIK3d8ejPQWWO8k) dives deep into more complex hover transitions.
