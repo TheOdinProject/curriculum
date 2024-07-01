@@ -8,9 +8,9 @@ Let's use what we've learned and take a chance to continue practicing DOM manipu
 
 #### .gitignore
 
-When working with packages that are installed with npm, you don't need to track the contents of `node_modules` with git, nor push those files to GitHub. This is because the `package.json` file contains all the information, so that anyone can clone your project and install them on their machine with `npm install`.
+When working with packages that are installed with npm, you don't need to track the contents of `node_modules` with git, nor push those files to GitHub. As we learned in the [npm lesson](https://www.theodinproject.com/lessons/node-path-javascript-npm), the `package.json` file contains all the dependency information, so that anyone can clone your project and install them on their machine with `npm install`.
 
-You can make a `.gitignore` file in the root of the project, and by writing file or directory names in it, you can tell git what things you don't want to track. It's customary to add `node_modules` to `.gitignore`, since it can get really big.
+You can make a `.gitignore` file in the root of the project, and by writing file or directory names in it, you can tell git what things you don't want to track. It's customary to add `node_modules` to `.gitignore`, since it can get really big. Similarly, `dist` is often ignored as it can be generated when someone runs the command to bundle/build the application.
 
 </div>
 
@@ -34,7 +34,12 @@ You can make a `.gitignore` file in the root of the project, and by writing file
 
         1. A `template.html`. This file will not need a script tag, because we're using `html-webpack-plugin`, which automatically adds that in. You will also not need to link a CSS stylesheet as you should be importing it into your JavaScript and letting your webpack configuration handle bundling. Make sure your `webpack.config.js` file has its `HtmlWebpackPlugin`'s `template` option set to use this file.
 
-1. Create a `.gitignore` file in the root of your project. It should contain `node_modules` and `dist` on separate lines.
+1. Create a `.gitignore` file in the root of your project. It should contain the text `node_modules` and `dist` on separate lines.
+
+   ```text
+   node_modules
+   dist
+   ```
 
 1. Set up an HTML skeleton inside of `src/template.html`. Inside the body, add a `<header>` element that contains a `<nav>` with buttons (not links!) for different "tabs" (for example buttons for "Home", "Menu" or "About" etc). Below the `<header>`, add a single `<div id="content">`.
 
