@@ -18,21 +18,9 @@ You can make a `.gitignore` file in the root of the project, and by writing file
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Start the project the same way you began the webpack tutorial project.
+1. Start the project the same way you began the webpack tutorial project, by creating the `package.json` file and setting up Webpack.
 
-    1. Run `npm init -y` in your project directory to generate a `package.json` file.
-
-    1. Install and set up Webpack like how things were shown in the previous lesson.
-
-       - Remember, you only need to install and configure the things you need for your project. For example, if you do not plan to have local image files linked in your HTML template, you will not need to install and configure `html-loader`.
-
-       - Make sure you have a `webpack.config.js` file with any necessary configuration in it, such as HtmlWebpackPlugin, Webpack dev server etc.
-
-    1. Create a `src` directory with the following contents:
-
-        1. An `index.js` file, which will be your entry point in `webpack.config.js`.
-
-        1. A `template.html`. This file will not need a script tag, because we're using `html-webpack-plugin`, which automatically adds that in. You will also not need to link a CSS stylesheet as you should be importing it into your JavaScript and letting your webpack configuration handle bundling. Make sure your `webpack.config.js` file has its `HtmlWebpackPlugin`'s `template` option set to use this file.
+    - Remember, you only need to install and configure the things you need for your project. For example, if you do not plan to have local image files linked in your HTML template, you will not need to install and configure `html-loader`.
 
 1. Create a `.gitignore` file in the root of your project. It should contain the text `node_modules` and `dist` on separate lines.
 
@@ -51,7 +39,7 @@ You can make a `.gitignore` file in the root of the project, and by writing file
 
 1. Next, set up your restaurant site to use tabbed browsing to access the Menu and Contact pages. Look at the behavior of this [student's live preview site](https://web.archive.org/web/20221024060550/https://eckben.github.io/bearysBreakfastBar/) for visual inspiration.
 
-    1. Put the contents of each 'tab' inside of its own module. Each module will export a function that creates a div element, adds the appropriate content and styles to that element and then appends it to the DOM.
+    1. Put the contents of each "tab" inside of its own module. Each module will export a function that creates a div element, adds the appropriate content and styles to that element and then appends it to the DOM.
 
     1. Write the tab-switching logic inside of `index.js`. You should have event listeners for each button in the header navbar that wipes out the current contents of `div#content` and then runs the correct 'tab module' to populate it with the new contents again.
 
