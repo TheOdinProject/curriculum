@@ -6,7 +6,7 @@ You'll be building a clone of a social media site, such as Facebook, X, Myspace,
 
 You'll also implement some form of authentication. Ideally, you'll want to use passportJS to support authenticating via the social media site you're cloning, but some sites (such as Facebook), have recently made this process impossible. If this is the case for your site, you can use passportJS to support authenticating via username and password with `passport-local` or via Github with `passport-github2`.
 
-There will probably be features you haven't been exposed to such as chat, real-time updates, and notifications. You won't be responsible for those unless you're feeling really confident in your skills at this point (e.g. [socket.io] allows you to use websockets for real-time communication).
+There will probably be features you haven't been exposed to such as chat, real-time updates, and notifications. You won't be responsible for those unless you're feeling really confident in your skills at this point (e.g. [socket.io](https://socket.io/) allows you to use websockets for real-time communication).
 
 ### Assignment
 

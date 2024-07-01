@@ -30,13 +30,17 @@ There are multiple options for linting your JavaScript, but the most popular (an
 1. [The official 'Getting Started' page](https://eslint.org/docs/user-guide/getting-started) is a good place to start. It covers installation and basic setup. The basic way to use this tool is to run the `eslint` command in your terminal with a specific file.
     - You may also want to look at the [docs on configuring ESLint](https://eslint.org/docs/latest/use/configure/) for a list of options that you can change.
 
-1. There is an [ESLint extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) with which you can get automatic lint highlighting for your files as you write, without you needing to rerun the `eslint` command every time. If your project also contains an ESLint configuration file, the extension will automatically use those rules for that project.
+1. There is an [ESLint extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) with which you can get automatic lint highlighting for your files as you write, without you needing to rerun the `eslint` command every time. If your project also contains an ESLint configuration file, the extension will automatically use those rules for that project. **You will also need to enable `Eslint: Use Flat Config` in VSCode's settings.**
 
-<div class="lesson-note lesson-note--tip" markdown="1">
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-#### A note if your ESLint config is not loading
+#### ESLint v9 and flat config support
 
-The current version of the extension (2.4.4) will only pick up the workspace folder's ESLint config file, and not a config file for a subdirectory of that workspace. Switching to the pre-release version solves this. You will also need to enable `Eslint: Use Flat Config` in VSCode's settings.
+The above ESLint doc links take you to the docs for v9, which was released in April 2024. v9 came with a lot of big changes, including forcing all ESLint config files to use the "flat config" format (`eslint.config.(m|c)js`).
+
+Because of these changes, some community plugins like [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) (which makes ESLint use airbnb's ruleset) have not yet been able to release a version that supports v9 or flat config.
+
+For the time being, if you wish to use airbnb's style guide with ESLint, you will need to use [ESLint's v8.57 version of the docs](https://eslint.org/docs/v8.x/use/getting-started) and make sure you use one of the older [eslintrc configuration file formats](https://eslint.org/docs/v8.x/use/configure/configuration-files), **not** the newer flat config format. You must then also make sure that `Eslint: Use Flat Config` is **unchecked** in VSCode's settings.
 
 </div>
 
@@ -52,7 +56,11 @@ Using prettier makes coding faster and easier! You don't have to worry about nai
 
 ### Using ESLint and Prettier
 
-We **highly** recommend that you install ESlint and Prettier and use them for all future projects. It will make your code easier to read, both for yourself and for anyone else looking at it. There is no special setup needed apart from installing both of them.
+We **highly** recommend that you install ESlint and Prettier and use them for all future projects. It will make your code easier to read, both for yourself and for anyone else looking at it.
+
+For most people using the default ESLint ruleset, there will be no special setup needed apart from installing both of them.
+
+Some community plugins, such as [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base), turn on some stylistic rules that may clash with what Prettier formats. If you wish to use a plugin like `eslint-config-airbnb-base` and Prettier together, you will also need to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) which will turn off any of the ESLint rules that clash with Prettier. If you are using the default ESLint ruleset, you will not need this.
 
 ### Template repositories
 

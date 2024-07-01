@@ -743,6 +743,20 @@ The **legislators** that we are displaying is an array. In turn, the array is se
 
 We really want to capture the first name and last name of each legislator.
 
+<div class="lesson-note" markdown="1">
+
+Here we have embedded the API key directly in the source code. However, when using API keys, it is considered best practice to NOT expose your private API keys directly in the source code. This can lead to unauthorized access by a malicious party to the sensitive information and resources provided by the API service. The key provided here is public, so it's fine if you push it to GitHub or commit it to your local repo if you are tracking this lesson with Git. Note that if you do push to GitHub, they might send you a friendly email saying that you have exposed potential secrets in a recent commit. Don't worry, in the Ruby on Rails course we will cover lot's about working with external APIs!
+
+If you would like to know how to hide your key safely, you can save the key to a plain text file (don't commit it!), and then create a [.gitignore](https://git-scm.com/docs/gitignore/) file in the root directory of your project. Add the name of the file to your `.gitignore`. Then commit the `.gitignore` file to your repo. Git will no longer track the file that you saved the key to, and you can now import the key into our main program without fear. So, instead of pasting the key directly in the source code, we could import it like so:
+
+```ruby
+civic_info.key = File.read('secret.key').strip
+```
+
+where `secret.key` is the name of the file that we saved our key to and which we added to our `.gitignore`.
+
+</div>
+
 #### Collecting the names of the legislators
 
 Instead of outputting each raw legislator we want to print only their first name and last name. We will need to complete the following steps:
