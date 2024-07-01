@@ -221,7 +221,7 @@ fruits.none? { |fruit| fruit.length > 6 }
 ### Assignment
 <div class="lesson-content__panel" markdown="1">
   1. Read [How to Use Ruby Any, All, None, and One](https://www.rubyguides.com/2018/10/any-all-none-one/) for alternative explanations for predicate enumerables.
-  2. Complete the [predicate enumerable](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
+  2. Complete the predicate enumerable exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 </div>
 
 ### Knowledge check
@@ -237,4 +237,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- There are many more enumerable methods than are covered in this lesson (e.g., `#member?`). For a full listing, you can check out the [Ruby Docs](https://docs.ruby-lang.org/en/3.3/Enumerable.html).
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
