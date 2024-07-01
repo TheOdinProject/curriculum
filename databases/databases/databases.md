@@ -31,6 +31,7 @@ This section contains a general overview of topics that you will learn in this l
 </div>
 
 ### Knowledge check
+
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is a database?](https://launchschool.com/books/sql/read/introduction#structureddata)
@@ -41,6 +42,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you insert a record in SQL?](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/creating-a-table-and-inserting-data)
 
 ### Additional resources
+
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
