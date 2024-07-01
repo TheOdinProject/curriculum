@@ -10,41 +10,43 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 
 This section contains a general overview of topics that you will learn in this lesson.
 
--   What a database is.
--   What relational databases are.
--   In what way relational databases are different from XML.
--   What SQL is.
--   What SQL is used for.
--   How to get all the records from a table in SQL.
--   How to insert a record in SQL.
+- What a database is.
+- What relational databases are.
+- In what way relational databases are different from XML.
+- What SQL is.
+- What SQL is used for.
+- How to get all the records from a table in SQL.
+- How to insert a record in SQL.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-  1.  Check out this [introduction](https://launchschool.com/books/sql/read/introduction) of how SQL can be used to organise and manage an overwhelming amount of data.
-      -   You do not need to go any further than the first page on introductions.
+  1. Check out this introduction of [how SQL can be used to organise and manage an overwhelming amount of data](https://launchschool.com/books/sql/read/introduction).
+      - You do not need to go any further than the first page on introductions.
 
-  2.  Watch this [short video introduction to relational databases](http://www.youtube.com/watch?v=z2kbsG8zsLM) to get a feel for why this stuff is useful and some more exposure to the terminology we'll use.
-  3.  Go through this [Khan Academy tutorial](https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql), to get a feel for actually creating and manipulating databases.
+  1. Watch this [short video introduction to relational databases](http://www.youtube.com/watch?v=z2kbsG8zsLM) to get a feel for why this stuff is useful and some more exposure to the terminology we'll use.
+  1. Go through this [Khan Academy SQL tutorial](https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql) to get a feel for actually creating and manipulating databases.
 
 </div>
 
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
--   [What is a database?](https://launchschool.com/books/sql/read/introduction#structureddata)
--   [What are relational databases?](https://launchschool.com/books/sql/read/introduction#rdbms)
--   [What is a Primary Key?](https://youtu.be/z2kbsG8zsLM?t=200)
--   [What is SQL?](https://launchschool.com/books/sql/read/introduction#sql)
--   [How do you get all the records from a table in SQL?](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/querying-the-table)
--   [How do you insert a record in SQL?](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/creating-a-table-and-inserting-data)
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What is a database?](https://launchschool.com/books/sql/read/introduction#structureddata)
+- [What are relational databases?](https://launchschool.com/books/sql/read/introduction#rdbms)
+- [What is a Primary Key?](https://youtu.be/z2kbsG8zsLM?t=200)
+- [What is SQL?](https://launchschool.com/books/sql/read/introduction#sql)
+- [How do you get all the records from a table in SQL?](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/querying-the-table)
+- [How do you insert a record in SQL?](https://www.khanacademy.org/computing/hour-of-code/hour-of-code-lessons/hour-of-sql/pt/creating-a-table-and-inserting-data)
 
 ### Additional resources
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
--   [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
--   A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)
--   Hunter Ducharme created [an e-book](https://hunter-ducharme.gitbook.io/sql-basics/) which is a great documentation on how to do all the basics in SQL.
--   David J. Malan's excellent SQL lecture and resources in [Harvard's CS50x](https://cs50.harvard.edu/x/2023/weeks/7/).
--   Relational databases aren't the only way to store data. Non-relational (aka NoSQL) databases have emerged over the last couple decades. Check out [this article](https://circleci.com/blog/SQL-vs-NoSQL-databases/) to learn the difference between SQL and NoSQL.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
+- A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)
+- Hunter Ducharme created an e-book which is a [great documentation on how to do all the basics in SQL](https://hunter-ducharme.gitbook.io/sql-basics/).
+- [David J. Malan’s excellent SQL lecture](https://cs50.harvard.edu/x/2024/weeks/7/) and resources in Harvard’s CS50x.
+- Relational databases aren't the only way to store data. Non-relational (aka NoSQL) databases have emerged over the last couple decades. Check out this article to learn the [difference between SQL and NoSQL](https://circleci.com/blog/SQL-vs-NoSQL-databases/).
