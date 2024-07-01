@@ -224,7 +224,7 @@ function createPlayer (name, level) {
 }
 ```
 
-### The module pattern - IIFEs
+### The module pattern - IIFEs {#the-module-pattern-iifes}
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
 
