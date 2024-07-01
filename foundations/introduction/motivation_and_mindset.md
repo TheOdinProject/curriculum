@@ -2,7 +2,7 @@
 
 Learning to code is incredibly rewarding but can also be difficult and frustrating. Like any skill worth knowing, it takes time to acquire, and it can't be learned in a weekend or even a month. With that said, we believe anyone can learn how to program as long as they are willing to put in the time and effort.
 
-So before we get into the meat of the curriculum, we're going to go over the following to help you get the most out of The Odin Project: the things that will help you succeed in your goal of learning to code and the pitfalls that you should try to avoid.
+So before we get into the meat of the curriculum, we'll cover the following aspects to help you get the most out of The Odin Project: factors that will help you succeed in learning to code and the pitfalls that you should try to avoid.
 
 ### Motivation
 
@@ -54,7 +54,7 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 - Take a break: Allow your diffuse learning state to work on the problem.
 - Ask for help in the [TOP Discord server](https://discord.gg/theodinproject); come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
-Additionally, feel free to follow the diagram below that should help you going through problems that you may come across:
+Additionally, feel free to follow the diagram below to help you navigate problems that you may come across:
 
 ![diagram to help learners go through problems when they are stuck](https://cdn.statically.io/gh/TheOdinProject/curriculum/978ba0e91a6a47452de819246f4c495e6b092f54/foundations/introduction/motivation_and_mindset/imgs/00.png)
 
@@ -64,13 +64,13 @@ As technology advances, we have seen some incredible tools emerge that can help 
 
 While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency. David Humphrey, a computer science professor, [wrote about ChatGPT and its potentially negative impacts on core learning.](https://blog.humphd.org/cheatgpt/) It is a good read about the pitfalls of using generative AI in an educational context.
 
-For learners that are new to programming, tools like ChatGPT or Github Copilot can result in some blindspots and gaps in your knowledge.
+For learners who are new to programming, tools like ChatGPT or GitHub Copilot can result in blindspots and gaps in your knowledge.
 
 1. By using a generative AI, learners may miss the opportunity to discover how something works and why things are done that way.
-1. Asking good questions is an important skill to have, and using generative AI to skip asking people (like our helpful Discord community) means that your development of this skill is delayed.
+1. Asking good questions is an important skill, and relying on generative AI instead of asking people (like our helpful Discord community) can delay the development of this skill.
 1. Learning to talk about the code that one writes is another important skill. In a professional environment, it is highly likely that you will be doing code reviews where you have to explain the how and why behind what you are presenting. Using the Odin community to ask good questions about your code when you require help can help develop this skill as well.
 1. As David Humphrey mentions, the output of generative AI must be closely scrutinized, and learners who are new to programming generally don't have a good overall understanding to be able to determine if the output is good or bad.
-1. While learning how to provide good prompts to an AI tool is a skill, it is one that is supplementary to developing foundational programming skills. The Odin curriculum strives to teach that foundational skill.
+1. While learning how to provide good prompts to an AI tool is a skill, it is supplementary to developing foundational programming skills. The Odin curriculum strives to teach that foundational skill.
 1. AI tools are designed to answer questions and are not designed to help learners develop research and problem solving skills. If you ask an AI for information, it will provide information to you. If you ask a human, they may invite you to share your understanding of the problem and offer some guidance on how to discover a solution.
 1. Without practice in research, problem solving and critical thinking, interviews could be a struggle since it is very likely that applicants would not be allowed to use AI tools.
 
@@ -80,11 +80,11 @@ We do not recommend using AI tools for your learning.
 
 You will have more success with Odin by putting **consistent** time into it rather than working on it once a week. Building a habit of studying every day at a specific time and with a specific goal will ensure that you make consistent progress.
 
-It may take you longer than others to grasp concepts, or it may take you less time. This doesn't mean you're smarter or dumber than others, it means you've had differing life experiences that may or may not have prepared you for learning this stuff. Someone who grew up around an engineer may have some advantages over someone who didn't, but it doesn't mean you can't learn those skills.
+It may take you longer than others to grasp concepts, or it may take you less time. This doesn't mean you're smarter or dumber than others, it means you've had differing life experiences that may or may not have prepared you for learning those concepts. Someone who grew up around an engineer may have some advantages over someone who didn't, but it doesn't mean you can't learn those skills.
 
-The Odin Project isn't like college or university, it is self paced and allows you to get a really solid grasp of concepts before moving on. In school, you're forced to keep up or you will fail. The difference here is that coming into The Odin Project, you're not expected to have much knowledge; there are no prerequisites. We've had people be successful coming through here who only knew how to check their email with a computer. We've also seen success from computer science degree holders. Treating The Odin Project like a static timeline is understandable, but is a sign of misplaced expectations. You don't know what you don't know yet, and that's OK! There are no due-dates on things in The Odin Project so you can spend the time to do it right and discuss the topics.
+The Odin Project isn't like college or university, it is self-paced and allows you to get a solid grasp of concepts before moving on. In school, you're forced to keep up, or you will fail. The difference with The Odin Project is that you’re not expected to have much prior knowledge; there are no prerequisites. We've had people be successful coming through here who only knew how to check their email with a computer. We've also seen success from computer science degree holders. Treating The Odin Project like a static timeline is understandable, but is a sign of misplaced expectations. You don't know what you don't know yet, and that's OK! There are no due-dates on lessons in The Odin Project, so you can spend enough time to do it right and discuss the topics.
 
-Deadlines cause un-needed stress. Since The Odin Project is a free and open platform, you are not beholden to a deadline. Creating your own deadlines is a good way to rush concepts that should not be rushed. This course is very research based, meaning you will have to do research to complete tasks and projects. There's no telling if you can find the article or post that helps you in the right way, quickly to meet your deadlines, but we bet you learned a TON along the way that you can use in the future. People that do this kind of research and strive to write better solutions tend to become better developers in the future. There's no knowing how long it could take you to learn how to query stuff to find your answers. There are no solid guidelines on that. If you're doing The Odin Project because you need a high paying job *right-now*, you're not going to become a solid developer within the timeframe you have set. Stress and anxiety absolutely do not help you learn either. Relax and just enjoy the ride.
+Deadlines cause unneeded stress. Since The Odin Project is a free and open platform, you are not beholden to a deadline. Creating your own deadlines can lead to rushing through concepts that should not be rushed. This course is very research based, meaning you will have to do research to complete tasks and projects. There’s no guarantee you will find the right article or post quickly enough to meet your deadlines, but you will likely learn a TON along the way that you can use in the future. People that do this kind of research and strive to write better solutions tend to become better developers in the future. There’s no way to know how long it will take you to learn how to query concepts to find your answers. There are no solid guidelines on that. If you're doing The Odin Project because you need a high-paying job *right now*, you’re unlikely to become a solid developer within the timeframe you have set. Stress and anxiety absolutely do not help you learn either. Relax and just enjoy the ride.
 
 Long story short: Don't worry, just go learn!
 
@@ -131,13 +131,13 @@ Digital distractions are email and Facebook notifications and time-wasting websi
 
 Physical distractions are distractions from your environment, like a TV in the background or other people talking. These distractions can be just as damaging to your focus as digital distractions.
 
-**Solution:** Find a quiet place to study where you can go to focus in your home. If that's not an option, you can use noise cancelling headphones to block out noisy distractions in your environment. There are also complimentary public and university libraries that are serene and comfortable. Some libraries even operate 24/7, uninterrupted. Beyond just providing a pleasant study space, the presence of others studying around you instills a sense of productivity.
+**Solution:** Find a quiet place in your home where you can focus on your studies. If that's not an option, you can use noise cancelling headphones to block out noisy distractions in your environment. There are also complimentary public and university libraries that are serene and comfortable. Some libraries even operate 24/7, uninterrupted. Beyond just providing a pleasant study space, the presence of others studying around you instills a sense of productivity.
 
 #### Rabbit holes
 
 Because we cover so much material on The Odin Project and link to so many high quality courses and tools, it is easy for students to get pulled into rabbit holes by spending time trying to learn all there is to know about a subject that they aren't ready for or won't benefit them much. **We have put a lot of effort into structuring the curriculum** so that all of the important things that you need to know about web development are covered exactly when you need to know them.
 
-**Solution:** Stick to the path laid out as much as possible. Try to limit time spent going down rabbit holes as these sidetracks can really ruin your momentum.
+**Solution:** Stick to the path laid out as much as possible. Try to limit time spent going down rabbit holes, as these sidetracks can really ruin your momentum.
 
 #### Comparing yourself to others
 
@@ -145,7 +145,7 @@ Students often compare themselves to others who are farther along in their codin
 
 **Solution:** Only compare yourself to your past self. Have your abilities and knowledge improved from where you were last week, last month, or last year? Be proud of the progress that you've made!
 
-#### Counter productive note-taking
+#### Counterproductive note-taking
 
 The Odin Project does not recommend taking a lot of notes throughout your web development educational journey because it can be time-consuming and often leads to wasted effort.
 
@@ -153,7 +153,7 @@ The Odin Project does not recommend taking a lot of notes throughout your web de
 
 ### Conclusion
 
-Learning any new skill is a journey full of speed bumps and obstacles to be overcome. We hope that the principles laid out here will put you in a much better position to succeed and get the most out of The Odin Project.
+Learning any new skill is a journey full of speed bumps and obstacles to overcome. We hope that the principles laid out here will put you in a much better position to succeed and get the most out of The Odin Project.
 
 ### Assignment
 
