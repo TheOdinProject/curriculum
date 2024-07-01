@@ -1,3 +1,14 @@
+
+### Introduction
+
+In recent years, a new pattern for developing websites has been gaining popularity. Instead of creating an app that hosts both the database and view templates, many developers are separating these concerns into separate projects, hosting their backend and database on a server (either on something like [Heroku](https://www.heroku.com/) or on a VPS like [Digital Ocean](https://www.digitalocean.com/)), then using a service such as [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/) to host their frontend. This technique is sometimes referred to as the [Jamstack](https://jamstack.org/what-is-jamstack/).
+
+Organizing your project this way can be beneficial because it allows your project to be more modular instead of combining business logic with view logic. This also allows you to use a single backend source for multiple frontend applications, such as a website, a desktop app, or a mobile app. Other developers enjoy this pattern because they like using frontend frameworks such as React or Vue to create nice frontend-only, single-page applications.
+
+Frontend and backend applications usually talk to each other using JSON, which you have already encountered if you've gone through our frontend JavaScript course. So at this point, all you really need to learn is how to get your Express application to speak JSON instead of HTML. The assignment at the end of this lesson will take you through a tutorial, but essentially all you have to do is pass your information into [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render). How easy is that?
+
+If you think back to the organization of the routes in ["Part 4: Routes and controllers"](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#Create_the_catalog_route_module) of the Local Library tutorial, all of our routes were set up in a `catalog` module, so to get the view for our list of books you would access `/catalog/books`. Setting the Library project up to also serve JSON would be as easy as creating a different router module called `api` and then adjusting the controllers so that `/catalog/books` would serve up the HTML list of our books and `/api/books` would serve up the same information as JSON.
+
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
@@ -12,20 +23,10 @@ This section contains a general overview of topics that you will learn in this l
 - Configure CORS to only allow certain origins to access our API.
 - Explain CORS headers.
 
-### Introduction
-
-In recent years, a new pattern for developing websites has been gaining popularity. Instead of creating an app that hosts both the database and view templates, many developers are separating these concerns into separate projects, hosting their backend and database on a server (either on something like [Heroku](https://www.heroku.com/) or on a VPS like [Digital Ocean](https://www.digitalocean.com/)), then using a service such as [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/) to host their frontend. This technique is sometimes referred to as the [Jamstack](https://jamstack.org/what-is-jamstack/).
-
-Organizing your project this way can be beneficial because it allows your project to be more modular instead of combining business logic with view logic. This also allows you to use a single backend source for multiple frontend applications, such as a website, a desktop app, or a mobile app. Other developers enjoy this pattern because they like using frontend frameworks such as React or Vue to create nice frontend-only, single-page applications.
-
-Frontend and backend applications usually talk to each other using JSON, which you have already encountered if you've gone through our frontend JavaScript course. So at this point, all you really need to learn is how to get your Express application to speak JSON instead of HTML. The assignment at the end of this lesson will take you through a tutorial, but essentially all you have to do is pass your information into [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render). How easy is that?
-
-If you think back to the organization of the routes in ["Part 4: Routes and controllers"](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#Create_the_catalog_route_module) of the Local Library tutorial, all of our routes were set up in a `catalog` module, so to get the view for our list of books you would access `/catalog/books`. Setting the Library project up to also serve JSON would be as easy as creating a different router module called `api` and then adjusting the controllers so that `/catalog/books` would serve up the HTML list of our books and `/api/books` would serve up the same information as JSON.
-
 ### REST
 
 The structure of an API can take many forms, for example you could have routes named `/api/getAllPostComments/:postid` or `/api/posts/:postid/comments`.
-_However_, it's conventional to follow REST (an acronym for Representational State Transfer), a popular and common organizational method for your APIs which corresponds with [CRUD actions](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs/lessons/express-102-crud-and-mvc#crud). Following established patterns such as REST make your API more maintainable and make it easier for other developers to integrate with your API. Software development is often about clear communication which is aided by following expectations.
+*However*, it's conventional to follow REST (an acronym for Representational State Transfer), a popular and common organizational method for your APIs which corresponds with [CRUD actions](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs/lessons/express-102-crud-and-mvc#crud). Following established patterns such as REST make your API more maintainable and make it easier for other developers to integrate with your API. Software development is often about clear communication which is aided by following expectations.
 
 The actual technical [definition of REST](https://en.wikipedia.org/wiki/Representational_state_transfer) is a little complicated, but for our purposes, most of the elements (statelessness, cacheability, etc.) are covered by default just by using Express to output JSON. The piece that we specifically want to think about is how to **organize our endpoint URIs** (Uniform Resource Identifier).
 
@@ -45,9 +46,9 @@ Each part of an API URI specifies the resource. For example, `GET /posts` would 
 
 The [Same Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy) is an important security measure that basically says "Only requests from the same origin (the same IP address or URL) should be allowed to access this API". (Look at the link above for a couple of examples of what counts as the 'same origin'.) This is a big problem for us because we are specifically trying to set up our API so that we can access it from different origins, so to enable that we need to set up Cross-origin resource sharing, or CORS.
 
-[Setting up CORS in Express](https://expressjs.com/en/resources/middleware/cors.html#enabling-cors-pre-flight) is very easy, there’s a middleware that does the work for us. 
+[Setting up CORS in Express](https://expressjs.com/en/resources/middleware/cors.html#enabling-cors-pre-flight) is very easy, there’s a middleware that does the work for us.
 
-For now, it is acceptable to just allow access from any origin. This makes development quite a bit easier but for any _real_ project, once you deploy to a production environment you will probably want to specifically block access from any origin _except_ your frontend website. The documentation above explains how to do this.
+For now, it is acceptable to just allow access from any origin. This makes development quite a bit easier but for any *real* project, once you deploy to a production environment you will probably want to specifically block access from any origin *except* your frontend website. The documentation above explains how to do this.
 
 ### Assignment
 
@@ -58,17 +59,18 @@ For now, it is acceptable to just allow access from any origin. This makes devel
 
 </div>
 
-### Additional resources
-
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-- A simple [example-based definition of REST](https://simple.wikipedia.org/wiki/Representational_state_transfer).
-
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What does REST stand for?](#rest)
 - [What are HTTP verbs and why are they important to an API?](#rest)
 - [What is the Same-Origin Policy?](#cors)
 - [How do you enable CORS in your Express app?](https://expressjs.com/en/resources/middleware/cors.html)
 - [Which HTTP verb does each letter in CRUD (Create, Read, Update, Delete) correspond to?](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- A simple [example-based definition of REST](https://simple.wikipedia.org/wiki/Representational_state_transfer).

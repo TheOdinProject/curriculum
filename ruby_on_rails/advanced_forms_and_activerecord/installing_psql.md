@@ -121,7 +121,7 @@ Remember that we want the role name to be the same as our Linux user name and be
 
 One other important step in setting up PostgreSQL is that each role must have its own database of the same name. Without it, the role we just created will not be able to log in or interact with PostgreSQL.
 
-You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to resolve fix this:
+You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to resolve this:
 
 <div class="lesson-note" markdown="1">
 
@@ -333,7 +333,7 @@ Let's navigate into the app directory and set up our database credentials.
 cd <app_name>
 ```
 
-Once we're inside the right directory, can set up the database username and password in `config/database.yml` by adding entries with our information:
+Once we're inside the right directory, we can set up the database username and password in `config/database.yml` by adding entries with our information:
 
 ```diff
 default: &default

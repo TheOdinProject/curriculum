@@ -6,9 +6,11 @@ Text content
 
 This section contains a general overview of topics that you will learn in this lesson.
 
+Some additional content before the list that should flag an error.
+
 - LO item
 
-Some additional content
+Some additional content after the list that should flag an error.
 
 ### Custom section
 

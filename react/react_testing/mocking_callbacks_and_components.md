@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What is mocking?
 
-If you've been following along with our lessons so far, the concept of mocking has already been introduced in an earlier section and you might have even incorporated mocks in your [Battleship project in the Testing JavaScript section of the curriculum](https://www.theodinproject.com/lessons/javascript-battleship). Let's look at how mocks will help in testing React components.
+If you've been following along with our lessons so far, the concept of mocking has already been introduced in an earlier section and you might have even incorporated mocks in your [Battleship project](https://www.theodinproject.com/lessons/javascript-battleship). Let's look at how mocks will help in testing React components.
 
 #### Testing callback handlers
 
@@ -37,38 +37,38 @@ Nothing fancy. `CustomButton` is a component with a prop passed in. We're intere
 ```jsx
 // CustomButton.test.jsx
 
-import { vi } from 'vitest'
+import { vi, describe, it, expect } from 'vitest'
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import CustomButton from "./CustomButton";
 
 describe("CustomButton", () => {
-    it("should render a button with the text 'Click me'", () => {
-        render(<CustomButton onClick={() => {}} />);
+  it("should render a button with the text 'Click me'", () => {
+    render(<CustomButton onClick={() => {}} />);
 
-        const button = screen.getByRole("button", { name: "Click me" });
+    const button = screen.getByRole("button", { name: "Click me" });
 
-        expect(button).toBeInTheDocument();
-    });
+    expect(button).toBeInTheDocument();
+  });
   
-    it("should call the onClick function when clicked", async () => {
-        const onClick = vi.fn();
-        const user = userEvent.setup()
-        render(<CustomButton onClick={onClick} />);
+  it("should call the onClick function when clicked", async () => {
+    const onClick = vi.fn();
+    const user = userEvent.setup()
+    render(<CustomButton onClick={onClick} />);
 
-        const button = screen.getByRole("button", { name: "Click me" });
+    const button = screen.getByRole("button", { name: "Click me" });
 
-        await user.click(button);
+    await user.click(button);
 
-        expect(onClick).toHaveBeenCalled();
-    });
+    expect(onClick).toHaveBeenCalled();
+  });
 
-    it("should not call the onClick function when it isn't clicked", async () => {
-        const onClick = vi.fn();
-        render(<CustomButton onClick={onClick} />);
+  it("should not call the onClick function when it isn't clicked", async () => {
+    const onClick = vi.fn();
+    render(<CustomButton onClick={onClick} />);
 
-        expect(onClick).not.toHaveBeenCalled();
-    });
+    expect(onClick).not.toHaveBeenCalled();
+  });
 });
 ```
 
@@ -78,7 +78,7 @@ For the second and third tests, we mock the `onClick` handler using one of Vites
 
 You could also set up your mocks in a `beforeEach` block instead of in every test block. This may be suitable for some situations. However, for better readability, it is recommended that all setups be done in the same test block.  Doing so eliminates the need to search through the entire file for context, making it easier to review future changes. This also decreases the chance of having leakage create problems throughout the test suite. Unless your test file is particularly long and the test preparation takes up dozens of lines, it is recommended to set up your mocks in each test block; otherwise, you may use `beforeEach`.
 
-It is recommended to invoke `userEvent.setup()` before rendering the component. It is discouraged to call renders and `userEvent` functions outside of the test itself, (for example, in a `beforeEach` block). If you find yourself repeating the same code in multiple tests, the recommended approach to shorten each test is to write a setup function, as [outlined in the documentation](https://testing-library.com/docs/user-event/intro/#writing-tests-with-userevent).
+It is recommended to invoke `userEvent.setup()` before rendering the component. It is discouraged to call renders and `userEvent` functions outside of the test itself, (for example, in a `beforeEach` block). If you find yourself repeating the same code in multiple tests, the recommended approach to shorten each test is to [write a setup function](https://testing-library.com/docs/user-event/intro/#writing-tests-with-userevent).
 
 #### Mocking child components
 
@@ -166,4 +166,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Dive deeper into [act()](https://codilime.com/blog/why-should-you-be-grateful-for-act-warnings-in-react-tests/) and understand its most common warning and when act() is not necessary.
