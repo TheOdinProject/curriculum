@@ -224,7 +224,7 @@ function createPlayer (name, level) {
 }
 ```
 
-### The module pattern - IIFEs
+### The module pattern: IIFEs
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
 
@@ -280,7 +280,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Describe private variables in factory functions and how they can be useful.](#private-variables-and-functions)
 - [Describe how we can implement prototypal inheritance with factory functions.](#prototypal-inheritance-with-factories)
 - [Explain how the module pattern works.](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
-- [Describe IIFEs and what they stand for.](http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html)
+- [Describe IIFEs and what they stand for.](#the-module-pattern-iifes)
 - [Explain the concept of namespacing and how factory functions help with encapsulation.](#encapsulating-with-the-module-pattern)
 
 ### Additional resources
