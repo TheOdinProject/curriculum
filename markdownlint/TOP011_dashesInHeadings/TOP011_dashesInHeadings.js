@@ -1,7 +1,7 @@
 module.exports = {
   names: ["TOP011", "dashes-in-headings"],
   description:
-    "Headings must use a colon (:) instead of a dash (-) for the purpose of separating parts of the heading (hyphenated words are allowed).",
+    "Headings must use a colon (:) instead of dashes (-) for the purpose of separating parts of the heading (hyphenated words are allowed).",
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md"
   ),
