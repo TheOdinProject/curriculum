@@ -6,7 +6,7 @@ Now that you've got a basic understanding of *why* and *how* you might use objec
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Explain how the `this` behaves in different situations.
+- Explain how the `this` keyword behaves in different situations.
 - How to write an object constructor and instantiate the object.
 - Describe what a prototype is and how it can be used.
 - Explain prototypal inheritance.
@@ -14,7 +14,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Object constructors
 
-Manually typing out the contents of our objects with Object Literals is not always feasible. When you have a specific type of object that you need to duplicate like our player object, inventory items, or even the entire RPS game, a better way to create them is using an object constructor, which is a function that looks like this:
+Manually typing out the contents of our objects with Object Literals is not always feasible. When you have a specific type of object that you need to duplicate, a better way to create them is using an object constructor, which is a function that looks like this:
 
 ```javascript
 function Player(name, marker) {
