@@ -6,7 +6,7 @@ Now that you've got a basic understanding of *why* and *how* you might use objec
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Explain how the `this` keyword is used in object constructors.
+- Explain how the `this` behaves in different situations.
 - How to write an object constructor and instantiate the object.
 - Describe what a prototype is and how it can be used.
 - Explain prototypal inheritance.
