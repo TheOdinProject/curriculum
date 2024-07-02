@@ -502,4 +502,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Google Chrome is one of the most important tools that you will be using throughout the curriculum. This [reference](https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ctab-window-shortcuts) has many of the common shortcuts that you may find useful using Chrome.
+- Google Chrome is one of the most important tools that you will be using throughout the curriculum. This reference has many [common shortcuts that you may find useful when using Chrome](https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ctab-window-shortcuts).
