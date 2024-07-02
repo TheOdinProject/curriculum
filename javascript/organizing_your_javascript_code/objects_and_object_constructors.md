@@ -1,103 +1,20 @@
 ### Introduction
 
-In our JavaScript fundamentals course, you should have learned the [basics of using objects](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/fundamentals-part-5) to store and retrieve data. Let's start with a little refresher.
-
-There are multiple ways to define objects but in most cases, it is best to use the **object literal** syntax as follows:
-
-```javascript
-const myObject = {
-  property: 'Value!',
-  otherProperty: 77,
-  "obnoxious property": function() {
-    // do stuff!
-  }
-};
-```
-
-There are also 2 ways to get information out of an object: dot notation and bracket notation.
-
-```javascript
-// dot notation
-myObject.property; // 'Value!'
-
-// bracket notation
-myObject["obnoxious property"]; // [Function]
-```
-
-Which method you use will depend on context. Dot notation is cleaner and is usually preferred, but there are plenty of circumstances when it is not possible to use it. For example, `myObject."obnoxious property"` won't work because that property is a string with a space in it. Likewise, you cannot use variables in dot notation:
-
-```javascript
-const variable = 'property';
-
-myObject.variable; // this gives us 'undefined' because it's looking for a property named 'variable' in our object
-
-myObject[variable]; // this is equivalent to myObject['property'] and returns 'Value!'
-```
-
-If you are feeling rusty on using objects, now might be a good time to go back and review the content in our [object basics lesson](https://www.theodinproject.com/lessons/foundations-object-basics) from our JavaScript Basics course.
+Now that you've got a basic understanding of *why* and *how* you might use objects to organize data and functionality into objects, it's important to about some basic strategies for creating creating duplicates of objects, and using existing types of objects as a base for creating new ones.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
+- Explain how the `this` keyword is used in object constructors.
 - How to write an object constructor and instantiate the object.
 - Describe what a prototype is and how it can be used.
 - Explain prototypal inheritance.
 - Understand the basic do's and don't's of prototypal inheritance.
-- Explain what the `this` keyword is.
-
-### Objects as a design pattern
-
-One of the simplest ways you can begin to organize your code is by grouping things into objects. Take these examples from a 'tic tac toe' game:
-
-```javascript
-// example one
-const playerOneName = "tim";
-const playerTwoName = "jenn";
-const playerOneMarker = "X";
-const playerTwoMarker = "O";
-
-// example two
-const playerOne = {
-  name: "tim",
-  marker: "X"
-};
-
-const playerTwo = {
-  name: "jenn",
-  marker: "O"
-};
-```
-
-At first glance, the first doesn't seem so bad... and it actually takes fewer lines to write than the example using objects, but the benefits of the second approach are huge! Let me demonstrate:
-
-```javascript
-function printName(player) {
-  console.log(player.name);
-}
-```
-
-This is something that you just could NOT do with the example one setup. Instead, every time you wanted to print a specific player's name, you would have to remember the correct variable name and then manually `console.log` it:
-
-```javascript
-console.log(playerOneName);
-console.log(playerTwoName);
-```
-
-Again, this isn't *that* bad... but what if you *don't know* which player's name you want to print?
-
-```javascript
-function gameOver(winningPlayer){
-  console.log("Congratulations!");
-  console.log(winningPlayer.name + " is the winner!");
-}
-```
-
-Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of an item's name, price, description and other things is the only way to go. Unfortunately, in that type of situation, manually typing out the contents of our objects is not feasible either. We need a cleaner way to create our objects, which brings us to...
 
 ### Object constructors
 
-When you have a specific type of object that you need to duplicate like our player or inventory items, a better way to create them is using an object constructor, which is a function that looks like this:
+Manually typing out the contents of our objects with Object Literals is not always feasible. When you have a specific type of object that you need to duplicate like our player object, inventory items, or even the entire RPS game, a better way to create them is using an object constructor, which is a function that looks like this:
 
 ```javascript
 function Player(name, marker) {
@@ -356,9 +273,7 @@ If we had used `Object.setPrototypeOf()` in this example, then we could safely e
 1. Read up on the concept of the prototype from the articles below.
    1. Read the article [Understanding Prototypes and Inheritance in JavaScript](https://www.digitalocean.com/community/tutorials/understanding-prototypes-and-inheritance-in-javascript) from Digital Ocean. This is a good review of prototype inheritance and constructor functions, featuring some examples.
    1. To go a bit deeper into both the chain and inheritance, spend some time with [JavaScript.Info's article on Prototypal Inheritance](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: This article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.
-1. You might have noticed us using the `this` keyword in object constructors and prototype methods in the examples above.
-
-   1. [JavaScript Tutorial's article on the `this` keyword](https://www.javascripttutorial.net/javascript-this/) covers how `this` changes in various situations. Pay special attention to the pitfalls mentioned in each section.
+1. Take another look at [JavaScript Tutorial's article on the `this` keyword](https://www.javascripttutorial.net/javascript-this/), paying more attention to it's use with constructor functions this time.
 
 </div>
 
