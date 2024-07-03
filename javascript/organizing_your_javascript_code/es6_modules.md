@@ -214,9 +214,9 @@ Note that we only needed the one script tag, as the browser will handle the addi
 
 ### CommonJS
 
-Along the way, you may have bumped into something called CommonJS (CJS), which uses syntax like `require` and `module.exports`. You may remember seeing this in our JavaScript exercises in the Foundations course (you've come a long way)! This is a module system that was designed for use with NodeJS that works a little differently than ESM, and is not something that browsers will be able to understand.
+Along the way, you may have bumped into something called CommonJS (CJS), which uses syntax like `require` and `module.exports` instead of `import` and `export`. You may remember seeing this in our JavaScript exercises in the Foundations course (you've come a long way)! This is a module system that was designed for use with Node.js that works a little differently than ESM, and is not something that browsers will be able to understand.
 
-CJS is still used quite a lot in NodeJS code, though in recent years, ESM in NodeJS has been gaining popularity. For the time being, we are focused on writing code to run in the browser, so we will be spending time with ESM. If you are taking the Full Stack JavaScript pathway, then we will cover CJS in more detail later in the NodeJS course.
+CJS is still used quite a lot in Node.js code, though in recent years, ESM in Node.js has been gaining popularity. For the time being, we are focused on writing code to run in the browser, so we will be spending time with ESM. If you are taking the Full Stack JavaScript pathway, then we will cover CJS in more detail later in the Node.js course.
 
 ### Assignment
 
