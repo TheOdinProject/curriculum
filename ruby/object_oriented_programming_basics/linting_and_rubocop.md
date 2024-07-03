@@ -26,7 +26,7 @@ This is why JS has its variables written `likeThis` while Ruby's are `like_this`
 a preference for getting rid of `if` statements, why some languages prefer loops while other prefer iterative approaches. Why some features
 present in languages are strongly discouraged - remember `var`, `eval()` or `$global_variable`s?
 
-There's _a lot_ more of these relating to features of Ruby (or a different language!) that you might never even have heard of. <span id='style-guide'>The good news is that there exist style guides:</span>
+There's *a lot* more of these relating to features of Ruby (or a different language!) that you might never even have heard of. <span id='style-guide'>The good news is that there exist style guides:</span>
 a set of standards for writing and organizing code. The bad news? Your head would need to store that entire set of standards and be able to recall them whenever working with code.
 
 ### Your code has pockets, too
@@ -39,11 +39,10 @@ some of the issues or at least provide hints or references to the style guide th
 RuboCop. A really polished Gem that will make your code shine!
 
 Before you and RuboCop do a check-up on your Caesar Cipher project, let's talk some more about the Ruby Style Guide, starting with how it introduces itself:
-
 > This Ruby style guide recommends best practices so that real-world Ruby programmers can write code that can be maintained by other real-world Ruby programmers. A style guide that reflects real-world usage gets used, while a style guide that holds to an ideal that has been rejected by the people it is supposed to help risks not getting used at all - no matter how good it is. (...)
-> The guidelines provided here are intended to improve the readability of code and make it consistent across the wide spectrum of Ruby code.
+ The guidelines provided here are intended to improve the readability of code and make it consistent across the wide spectrum of Ruby code.
 
-As you can see, those are _recommendations_ dictated by real-world usage aimed at improving readability and consistency of Ruby code. In the end, it is like the difference between how you send your messages online versus how you'd write an essay. One is about communicating quickly, the other is about communicating clearly.
+As you can see, those are *recommendations* dictated by real-world usage aimed at improving readability and consistency of Ruby code. In the end, it is like the difference between how you send your messages online versus how you'd write an essay. One is about communicating quickly, the other is about communicating clearly.
 
 The various conventions can be grouped based on what aspects of your code they deal with. As a starting point, lets use some of RuboCop's departments - Style, Lint and Metrics. Perhaps you've anticipated that RuboCop doesn't work alone - it indeed has a whole precinct behind itself. The various Cops are interested in making sure that some particular rule is not broken. Let the departments speak for themselves:
 
@@ -57,7 +56,7 @@ You'll have an opportunity to dig into particulars of the Ruby Style Guide soon 
 
 ### Section where you learn all about code crime
 
-<span id="install-rubocop">As mentioned earlier, RuboCop is a Gem and the project we want to investigate is Caesar Cipher. Go back and install RuboCop locally (as in, use Bundler)</span> and <span id="cli-rubocop">then run `bundle exec rubocop` in your terminal.</span> Running it like this makes sure that the local version of RuboCop is used and it will check all the files in the current working directory _and_ its subdirectories. In short: everything.
+<span id="install-rubocop">As mentioned earlier, RuboCop is a Gem and the project we want to investigate is Caesar Cipher. Go back and install RuboCop locally (as in, use Bundler)</span> and <span id="cli-rubocop">then run `bundle exec rubocop` in your terminal.</span> Running it like this makes sure that the local version of RuboCop is used and it will check all the files in the current working directory *and* its subdirectories. In short: everything.
 
 Whoa! Well, at least for me - perhaps you're a savant and a Ruby Style natural, in that case, here's some example output:
 
@@ -243,7 +242,7 @@ Style/FrozenStringLiteralComment:
 
 Placement of `.rubocop.yml` in `~` is not accidental - if RuboCop can't find a config file anywhere in the project, it'll look for it in couple of more places, one of them being your home directory. This config file will make it so every project without own configuration will follow these rules - NewCops being enabled, string literals all being double-quoted and not allowing for a magic comment enabling or disabling frozen string literals - this last thing will make sense after you work with RuboCop for a while.
 
-But what with your projects that want to use _some_ of the general configuration but not all of it? Enter: `inherit_from:`. By adding a line with `inherit_from: ~/.rubocop.yml` into your local `.rubocop.yml` makes it use the same rules as defined there. You can then overwrite them locally. Neater thing? You can have directory-specific `.rubocop.yml`s that inherit from your project specific configuration file just to make sure every file in that directory is or is not following some rules. Let's see an example:
+But what with your projects that want to use *some* of the general configuration but not all of it? Enter: `inherit_from:`. By adding a line with `inherit_from: ~/.rubocop.yml` into your local `.rubocop.yml` makes it use the same rules as defined there. You can then overwrite them locally. Neater thing? You can have directory-specific `.rubocop.yml`s that inherit from your project specific configuration file just to make sure every file in that directory is or is not following some rules. Let's see an example:
 
 ```yaml
 # This is .rubocop.yml in ~/my-cool-project/
@@ -295,7 +294,7 @@ Of course in the Ruby context, instead of loops you are most likely going to use
 
 You've got the underlines and neatly formatted list of issues listed in the `Problems` tab. Remember that `Problems` tab is interactive - make sure to play with it!
 
-When you hover over an underlined piece of code, you will be informed of the offense and be given links to RuboCop documentation _not_ the Ruby Style guide and also given shortcuts to `View Problems` and `Quickfix`:
+When you hover over an underlined piece of code, you will be informed of the offense and be given links to RuboCop documentation *not* the Ruby Style guide and also given shortcuts to `View Problems` and `Quickfix`:
 
 ![VSC pop-up after you hover on an offense](https://cdn.statically.io/gh/TheOdinProject/curriculum/270b3d2430621d1d768234d53588054dc4bdda13/ruby/object_oriented_programming_basics/linting_and_rubocop/imgs/rubohover.png)
 
@@ -314,15 +313,15 @@ The reasons for this are many, but some of them would be:
 - Also, once again you'd be hit with things that you would have no idea about.
 - You'd need to take care of a lot more things: Bundler, Ruby LSP, RuboCop. You'd drown in inane configuration because of this, not to mention all the potential problems that you would not be equipped to deal with at that point.
 
-Hope that clears this up. Don't forget: RuboCop and the style guide are there to help _you_ write predictable, cleaner code. The standards might vary between teams, some of the expectations RuboCop puts on you seem impossible to fulfill and you might feel like some of the rules are too constraining.
+Hope that clears this up. Don't forget: RuboCop and the style guide are there to help *you* write predictable, cleaner code. The standards might vary between teams, some of the expectations RuboCop puts on you seem impossible to fulfill and you might feel like some of the rules are too constraining.
 
-With time, you are going to be better at adhering to rules but perhaps more importantly, you'll understand _why_ and _when_ to break them. For now, enjoy the ride on the shoulders of giants.
+With time, you are going to be better at adhering to rules but perhaps more importantly, you'll understand *why* and *when* to break them. For now, enjoy the ride on the shoulders of giants.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Learn some more [about what linting is](<https://en.wikipedia.org/wiki/Lint_(software)>).
+1. Learn some more [about what linting is](https://en.wikipedia.org/wiki/Lint_(software)).
 1. Acquaint yourself with [the introduction to Ruby Style Guide](https://rubystyle.guide/) and skim it a little.
 1. Check out [what RuboCop is about](https://docs.rubocop.org/rubocop/index.html) and explore its docs.
 1. [Watch Sandi Metz' "Rules"](https://www.youtube.com/watch?v=npOGOmkxuio) for a lovely exploration of the what, why and how of rules generally and also in the Ruby context.
