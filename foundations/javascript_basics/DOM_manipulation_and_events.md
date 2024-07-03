@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Document Object Model
 
-The DOM (or Document Object Model) is a tree-like representation of the contents of a webpage - a tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
+The DOM (or Document Object Model) is a tree-like representation of the contents of a webpage - a tree of "nodes" with different relationships depending on how they're arranged in the HTML document. There are many types of nodes, most of which are not commonly used. In this lesson we will be focusing on "element" nodes which are primarily used for manipulating the DOM.
 
 ```html
 <div id="container">
@@ -55,7 +55,7 @@ So you're identifying a certain node based on its relationships to the nodes aro
 
 ### DOM methods
 
-When your HTML code is parsed by a web browser, it is converted to the DOM, as was mentioned above. One of the primary differences is that these nodes are JavaScript objects that have many properties and methods attached to them. These properties and methods are the primary tools we are going to use to manipulate our webpage with JavaScript. We'll start with the query selectors - those that help you target nodes.
+When your HTML code is parsed by a web browser, it is converted to the DOM, as was mentioned above. One of the primary differences is that these nodes are JavaScript objects that have many properties and methods attached to them. These properties and methods are the primary tools we are going to use to manipulate our webpage with JavaScript. 
 
 #### Query selectors
 

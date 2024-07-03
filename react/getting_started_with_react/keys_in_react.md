@@ -72,7 +72,7 @@ const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
 function MonthList() {
   return (
     <ul>
-      // here we are using the index as key
+      {/* here we are using the index as key */}
       {months.map((month, index) => (<li key={index}>{month}</li>))}
     </ul>
   );
@@ -102,7 +102,7 @@ function TodoList() {
 
 ### Conclusion
 
-Don't fret if some of the terms covered in the lesson don't make sense yet. What's crucial right now is knowing how to use keys effectively in React. As mentioned earlier, the more you learn about React, that's when you will realize why keys are so important. Furthermore, using keys is not limited to rendering lists. You might encounter use cases where keys are needed, we'll leave that for you to discover.
+Don't fret if some of the terms covered in the lesson don't make sense yet. What's crucial right now is knowing how to use keys effectively in React. As mentioned earlier, the more you learn about React, the more you will understand the importance of keys. Furthermore, using keys is not limited to rendering lists. You might encounter use cases where keys are needed, we'll leave that for you to discover.
 
 ### Assignment
 

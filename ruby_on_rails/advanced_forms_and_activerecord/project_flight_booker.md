@@ -9,7 +9,7 @@ A typical airline booking flow:
 1. Enter passenger information for all passengers
 1. Enter billing information
 
-Step 4 would be done via integration of something like [Paypal](http://coding.smashingmagazine.com/2011/09/05/getting-started-with-the-paypal-api/), via [a gem](https://github.com/nov/paypal-express) or [an SDK](https://www.tommyblue.it/2013/07/02/paypal-express-checkout-with-ruby-on-rails-and-paypal-sdk-merchant/) or [Stripe](https://stripe.com/docs/checkout/guides/rails).
+Step 4 would be done via integration of something like [Paypal](http://coding.smashingmagazine.com/2011/09/05/getting-started-with-the-paypal-api/), via [a gem](https://github.com/nov/paypal-express) or [an SDK](https://www.tommyblue.it/2013/07/02/paypal-express-checkout-with-ruby-on-rails-and-paypal-sdk-merchant/) or [Stripe](https://docs.stripe.com/checkout/quickstart).
 
 ### Assignment
 
