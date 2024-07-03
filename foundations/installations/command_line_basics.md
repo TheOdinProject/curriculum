@@ -108,7 +108,7 @@ Many of these resources assume you're using a Mac or Linux environment. If you d
 
     1. Create a new directory in your home directory with the name `test`.
     1. Navigate to the `test` directory.
-    1. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
+    1. Create a new file called `test.txt`. *Hint: use the `touch` command.*
     1. Open your newly created file in VSCode, make some changes, save the file, and close it.
     1. Navigate back out of the `test` directory.
     1. Delete the `test` directory.
