@@ -63,4 +63,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [The A11Y Project]((https://www.a11yproject.com/)): An open-source resource that provides information on how to make your web content more accessible. The A11Y Project includes checklists, guidelines, and tools that can help you implement WCAG standards effectively.
