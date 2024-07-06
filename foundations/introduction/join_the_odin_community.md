@@ -2,6 +2,14 @@
 
 Working and collaborating with other people is an important part of working as a web developer. Therefore, we at The Odin Project encourage you to participate in our online chat community, which we'll talk more about below. By joining the community, you can grow alongside other Odinites and help each other learn web development. While you're at it, you can check out [our Facebook page](https://www.facebook.com/theodinproject/), [follow us on X](https://x.com/TheOdinProject) and catch up on [our Instagram page](https://www.instagram.com/theodinproject/). Use #TheOdinProject to share your Odin Project progress, updates, thoughts and to see what other Odin students are up to!
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Learn about The Odin's community and how to join it.
+- Explain how to ask good and detailed questions.
+- Explain good practices for helping others with their questions.
+
 ### Why a community is awesome for you
 
 Learning web development will be a long and arduous journey, but you can make the marathon a lot more fun by getting involved in our Discord community. No matter what pace you are doing our curriculum, there will always be people a few steps ahead of you that are willing to help. Furthermore, helping others that are a few steps behind you is a great way to deepen your own understanding and make your learning stick.
