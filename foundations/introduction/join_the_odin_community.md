@@ -173,7 +173,7 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
 
 1. First, [create a free GitHub account](https://github.com/join). As you will discover, GitHub is an integral part of the development workflow.
 
-1. Now, sign in to [our Discord server](https://discord.gg/theodinproject). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
+1. Now, sign in to [our Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
 
    - **Link your GitHub to your Discord profile:** Go to `Discord Settings > Connections`, then click the GitHub icon. In the new tab that opens click "Allow Access", then back in Discord make sure "Display on profile" is toggled on. This will allow others to see what you're working on and vice versa!
 
@@ -188,6 +188,14 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
    - **Don't disappear right after asking for help on code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
 
 </div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [How do you join The Odin Project's Discord server?](https://discord.gg/fbFCkYabZB)
+- [What makes a good question that's easier for others to help with?](#asking-for-help)
+- [How can you more effectively help others with their coding problems?](#how-to-help-others-solve-coding-problems)
 
 ### Additional resources
 
