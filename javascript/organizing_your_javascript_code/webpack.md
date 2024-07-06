@@ -57,7 +57,11 @@ When dealing with Webpack (and often with any other bundler or build tool), we h
 
 #### Import file extensions
 
-Normally, with ESM, we need to specify file extensions when we import from other files (e.g. `"./greeting.js"`). With Webpack and many other bundlers, some file extensions like `.js` are optional, as Webpack will automatically check extensionless file paths for `.js` files by default. This is a feature of Webpack, not ESM. In this lesson, examples with imports will always include the file extension where appropriate to be explicit.
+Normally, with ESM, we need to specify file extensions when we import from other files (e.g. `"./greeting.js"`). With Webpack and many other bundlers, some file extensions like `.js` are optional, as Webpack will automatically check extensionless file paths for `.js` files by default (e.g. `"./greeting"`).
+
+This is a feature of Webpack, not ESM.
+
+In this lesson, examples with imports will always include the file extension where appropriate to be explicit.
 
 </div>
 
