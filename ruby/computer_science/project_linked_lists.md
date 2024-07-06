@@ -63,4 +63,27 @@ Build the following methods in your linked list class:
 
 **Extra Credit Tip:** When you insert or remove a node, consider how it will affect the existing nodes. Some of the nodes will need their `#next_node` link updated.
 
+#### Test it out
+
+Let's test out the Linked List you made!
+
+1. Create a `main.rb` file and make sure it inherits the file containing `LinkedList`. This is where we'll test the list.
+
+1. Create an instance of `LinkedList` and populate it with nodes:
+
+    ```ruby
+    list = LinkedList.new
+
+    list.append('dog')
+    list.append('cat')
+    list.append('parrot')
+    list.append('hamster')
+    list.append('snake')
+    list.append('turtle')
+    ```
+
+1. Add `puts list` to the end of the file and run it. Because of the naming, this should use the `#to_s` method you wrote earlier.
+
+1. If everything is working, the output should be `( dog ) -> ( cat ) -> ( parrot ) -> ( hamster ) -> ( snake ) -> ( turtle ) -> nil`. Feel free to use different values to test if you like.
+
 </div>
