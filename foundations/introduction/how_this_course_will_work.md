@@ -12,13 +12,20 @@ By the end of this unit, you should not only understand how the web works but al
 
 This section intentionally covers a very broad range of topics. It's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Understand how The Odin Project's curriculum works.
+- Understand how the Foundations course works.
+
 ### How it works
 
 This curriculum works by aggregating the best content from across the internet to teach a specific topic. In each lesson, we'll introduce the topic and try to provide some useful context before pointing you to external resources made by others.
 
 Most lessons will contain questions that you should be able to answer before moving on. Some lessons will include exercises for you to complete. In addition, we provide several projects throughout the curriculum to help you grow your understanding by actually building things.
 
-Try not to think of The Odin Project, or programming, as a class in school. It's not material you learn all at once to take a test, and then pass or fail. You can think of it as a snowball. You, yourself, are a snowball. You're rolling down a hill full of snow; the further you roll, the more snow will stick to you. Sure, snow will also fall off you, and you'll forget things often, but that's just part of the process. Don't worry if you reach a project and feel like you haven't retained or memorized anything. That's natural and happens to everyone. The information will come back to you as you start solving your problems one at a time, relying on Google and the Odin Community for help.
+Try not to think of The Odin Project, or programming, as a class in school. It's not material you learn all at once to take a test, and then pass or fail. You can think of it as a snowball. You, yourself, are a snowball. You're rolling down a hill full of snow; the further you roll, the more snow will stick to you. Sure, snow will also fall off you, and you'll forget things often, but that's just part of the process. Don't worry if you reach a project and feel like you haven't retained or memorized anything. That's natural and happens to everyone. **The projects are not tests of what you have memorized so far.** They are practice points where the information will come back to you as you start solving your problems one at a time, relying on Google and the Odin Community for help.
 
 ### A note about tools
 
@@ -67,6 +74,13 @@ Additional resources are the only thing that is considered optional unless expli
 1. Check out the [frequently asked questions](https://www.theodinproject.com/faq) section.
 
 </div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What is The Odin Project?](#introduction)
+- [Should you skip anything in The Odin Project or complete it non-linearly?](#what-comes-next)
 
 ### Additional resources
 
