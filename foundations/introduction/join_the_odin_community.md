@@ -119,7 +119,7 @@ If the question needs to have live code to fully understand or debug, ask them t
 
 Learning how to research these questions is a very important skill for developers, so we need to empower them to find their own answer. When we answer these questions, it hinders their personal growth and makes them codependent on our community.
 
-Instead of answering these questions, politely ask them to google their question or use our bot command `/google` with the search terms.
+Instead of answering these questions, politely ask them to google their question or use our bot command `/search google` with the search terms.
 
 #### 9. Do not answer questions covered in our curriculum.
 
