@@ -26,6 +26,8 @@ Each list item in an unordered list begins with a bullet point:
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+Note : you can further change the shape of list icon by using list-style-type attribute
+
 ### Ordered lists
 
 If you instead want to create a list of items where the order *does* matter, like step-by-step instructions for a recipe, or your top 10 favorite TV shows, then you can use an ordered list.
