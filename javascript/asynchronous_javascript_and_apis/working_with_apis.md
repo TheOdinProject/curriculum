@@ -26,7 +26,7 @@ The specifics for using any API are usually documented on the service's website.
 You'll probably get an error like this:
 
 ```text
-No API key or session found. Please verify that your API key parameter is correct.No API key or session found. Please verify that your API key parameter is correct.
+No API key or session found. Please verify that your API key parameter is correct.
 ```
 
 This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints (specific URLs that you use to access a particular function or data within the API). Once obtained, an API key will usually have to be included with every data request, such as *another* URL query string parameter:
