@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Servers that are created for serving data for external use (in websites or apps) are often referred to as APIs or ['Application Programming Interfaces'](https://www.youtube.com/watch?v=s7wmiS2mSXY).
 
-There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, Visual Crossing has several types of data that you can request. To get the current weather in a specific location, you can pass in the name of a city as a URL query string parameter, like so:
+There are multiple ways of requesting data from an API, but all of them basically do the same thing. For the most part, APIs are accessed through URLs, and the specifics of how to query these URLs change based on the specific service you are using. For example, [Visual Crossing](https://www.visualcrossing.com/weather-api) has a weather API that has several types of data you can request. To get the current weather in a specific location, you can pass in the name of a city into the path of the URL, like so:
 
 ```text
 https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/london
