@@ -21,7 +21,7 @@ There are multiple ways of requesting data from an API, but all of them basicall
 https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/london
 ```
 
-The specifics for using any API are usually documented on the service's website. Check the [Visual Crossing API Documentation](https://www.visualcrossing.com/resources/documentation/weather-api/timeline-weather-api/). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser... (we'll wait).
+The specifics for using any API are usually documented on the service's website. Check out the [Visual Crossing API Documentation](https://www.visualcrossing.com/resources/documentation/weather-api/timeline-weather-api/). If you haven't already, go ahead and paste the weather URL above, with the city of your choice, into your browser... (we'll wait).
 
 You'll probably get an error like this:
 
