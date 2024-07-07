@@ -6,7 +6,7 @@ You should change the look of the page based on the data, maybe by changing the 
 
 <div class="lesson-note" markdown="1">
 
-#### Reminder
+#### Visual Crossing free tier
 
 The free tier of the Visual Crossing API provides 1000 queries. This is what "queryCost" means in the returned JSON.
 
