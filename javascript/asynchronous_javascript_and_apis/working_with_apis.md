@@ -29,7 +29,7 @@ You'll probably get an error like this:
 No API key or session found. Please verify that your API key parameter is correct.
 ```
 
-This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints (specific URLs that you use to access a particular function or data within the API). Once obtained, an API key will usually have to be included with every data request, such as *another* URL query string parameter:
+This brings us to another point about APIs. In most cases, you will have to create an account and request an "API key" from the API service before attempting to fetch data from their endpoints (specific URLs that you use to access a particular function or data within the API). Once obtained, an API key will usually have to be included with every data request. With Visual Crossing, that's as a query string parameter:
 
 ```text
 https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/london?key=11111111111111111
