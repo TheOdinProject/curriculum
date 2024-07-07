@@ -1,6 +1,6 @@
 ### Introduction
 
-In the previous lesson, we established the utility of [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD) in maintaining your code and sanity. In this lesson, we'll introduce you to your new best friend, the [RSpec](http://rspec.info/) testing framework. It's one of the most popular testing frameworks, having been downloaded more than [700 million times](https://rubygems.org/gems/rspec), at the time of this writing, and having been ported for use in [Rails testing](https://rubygems.org/gems/rspec-rails).
+In the previous lesson, we established the utility of [test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD) in maintaining your code and sanity. In this lesson, we'll introduce you to your new best friend, the [RSpec](http://rspec.info/) testing framework. It's one of the most popular testing frameworks, having been downloaded more than 700 million times, at the time of this writing, and having been ported for use in [Rails testing](https://rubygems.org/gems/rspec-rails).
 
 ### Lesson overview
 
@@ -57,7 +57,7 @@ As expected, the output will read:
   create   spec/spec_helper.rb
 ```
 
-Run the tests from your terminal by using the `rspec` command, which will return "No examples found." That really shouldn't surprise you, because we haven't written any tests yet. If you're still shocked... maybe take a short break, or come say hello to us in our [Discord](https://discord.gg/fbFCkYabZB) back-end channel.
+Run the tests from your terminal by using the `rspec` command, which will return "No examples found." That really shouldn't surprise you, because we haven't written any tests yet. If you're still shocked... maybe take a short break, or come say hello to us in [our Discord server](https://discord.gg/fbFCkYabZB)!
 
 ```bash
 No examples found.
@@ -202,7 +202,7 @@ Finished in 0.0032 seconds (files took 0.14864 seconds to load)
 1 example, 0 failures
 ```
 
-At this point, refactoring isn't necessary. The `#add` method is essentially a one line method. As you progress in your Ruby learning, however, you might find your methods getting more complex, and you might find that you have to make extra efforts to abide by [SOLID](<https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)>) principles. When that time comes, using RSpec and the "red-green-refactor" cycle will allow you to code with confidence, knowing that your classes and their behaviors continue to meet your specified expectations.
+At this point, refactoring isn't necessary. The `#add` method is essentially a one line method. As you progress in your Ruby learning, however, you might find your methods getting more complex, and you might find that you have to make extra efforts to abide by [SOLID principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)). When that time comes, using RSpec and the "red-green-refactor" cycle will allow you to code with confidence, knowing that your classes and their behaviors continue to meet your specified expectations.
 
 ### Assignment
 
@@ -232,7 +232,7 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 
 2. Write a test for a new `Calculator` method (`#multiply`, `#subtract`, or `#divide`) using a new `describe` block. Include at least one `it` block with an appropriate expectation clause. Get it to pass, and refactor if necessary.
 3. In the terminal, try running your failing or passing tests with `rspec --format documentation`. What's different?
-4. RSpec reads command line configurations from `.rspec`, one of the two files generated when RSpec is initialized in a project. If you liked the output you got with `--format documentation`, you can use the `.rspec` file to hold that flag. In doing so, you won't have to type it in every time you run your test suite. Open the file in your text editor and, on a new line, add `--format documentation`. For more information on configuring RSpec, [see the docs here](http://rspec.info/features/3-12/rspec-core/configuration/).
+4. RSpec reads command line configurations from `.rspec`, one of the two files generated when RSpec is initialized in a project. If you liked the output you got with `--format documentation`, you can use the `.rspec` file to hold that flag. In doing so, you won't have to type it in every time you run your test suite. Open the file in your text editor and, on a new line, add `--format documentation`. For more information, you can read more about [configuring RSpec](http://rspec.info/features/3-12/rspec-core/configuration/).
 </div>
 
 ### Knowledge check
@@ -249,9 +249,9 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [This Youtube video](https://www.youtube.com/watch?v=K6RPMhcRICE) gives an excellent overview of the fundamentals of Rspec, and gives a brief overview of some concepts that will be mentioned in the next lesson.
-- For a more thorough overview of RSpec, read through the [RSpec section](http://testing-for-beginners.rubymonstas.org/rspec.html) of Ruby Monsta's [Testing for Beginners book](http://testing-for-beginners.rubymonstas.org/index.html).
+- This Youtube video gives an excellent [overview of the fundamentals of Rspec](https://www.youtube.com/watch?v=K6RPMhcRICE), and gives a brief overview of some concepts that will be mentioned in the next lesson.
+- For a more thorough overview of RSpec, read through the [RSpec section of Ruby Monsta’s "Testing for Beginners" book](http://testing-for-beginners.rubymonstas.org/rspec.html).
 - Briefly look over [RSpec's other matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/) if you haven't done so already.
-- Briefly look over the RSpec styling and syntax recommended by [BetterSpecs](http://www.betterspecs.org/) and read through the first six guidelines.
-- [This RSpec Cheat Sheet](https://devhints.io/rspec) should help you avoid Googling every new bit of syntax.
-- Solidify these concepts with a [shameless plug](https://medium.com/@mindovermiles262/getting-started-with-rspec-part-1-9418909f5e53) from another Odin Project contributor.
+- Briefly look over [BetterSpecs' recommended RSpec styling and syntax](http://www.betterspecs.org/) and read through the first six guidelines.
+- This [RSpec Cheat Sheet](https://devhints.io/rspec) should help you avoid Googling every new bit of syntax.
+- [Getting Started with RSpec Part 1](https://mindovermiles262.medium.com/getting-started-with-rspec-part-1-9418909f5e53): Solidify these concepts with a shameless plug from another Odin Project contributor.
