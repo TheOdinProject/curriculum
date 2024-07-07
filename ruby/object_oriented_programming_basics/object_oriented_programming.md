@@ -6,7 +6,7 @@ The concepts you'll learn here are often less specific to Ruby itself and more w
 
 There are two projects in this Object Oriented Programming Basics section, but this does not mean that you will only use OOP for these two projects. Ruby is a object-oriented language, so it is important to use OOP for all of the remaining projects.
 
-There is a lot of reading in this lesson, so you are encouraged to code along with each example. If you find an example that does not make sense, ask for help in the `#ruby-help` channel in our [Discord](https://discord.gg/fbFCkYabZB) server. To get the most out of each example, try to apply what you learned by adding similar functionality on your own.
+There is a lot of reading in this lesson, so you are encouraged to code along with each example. If you find an example that does not make sense, ask for help in the `#ruby-help` channel in [our Discord server](https://discord.gg/fbFCkYabZB). To get the most out of each example, try to apply what you learned by adding similar functionality on your own.
 
 ### Learning outcomes
 
@@ -24,7 +24,7 @@ There is a lot of reading in this lesson, so you are encouraged to code along wi
     * [Ruby Explained: Inheritance and Scope](http://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
 1. Read the article [Object Relationships in Basic Ruby](https://medium.com/@marcellamaki/object-relationships-in-basic-ruby-1af5773fff48) to see an example of how two classes can interact.
 1. Read the [Bastard's Chapter on Error Handling](http://ruby.bastardsbook.com/chapters/exception-handling/) to reinforce your understanding of dealing with errors.
-1. Do [Quiz #5](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) and [Quiz #7](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) from Code Quizzes
+1. Do this [quiz on introductory object-oriented programming](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) and this [quiz on modules, classes, and inheritence](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) from Code Quizzes.
 1. Every programming language community develops a style guide to help make code more maintainable and easier to read, therefore it is important to familiarize yourself with the [Ruby Style Guide](https://rubystyle.guide/).
     * As you can see, there are a lot of guidelines. Instead of trying to remember everything, install [rubocop](https://docs.rubocop.org/rubocop/installation.html), a static code analyzer (linter) and formatter, which is based on this style guide.
     * When it suggests a change that you don't understand, you can refer to this style guide to understand the reasons behind the rule. You will be inundated with offenses that seem minor, but we encourage you to make the recommended adjustments and trust the wisdom of the Ruby community that developed this style guide. If you feel strongly that you should ignore a particular rule, you can research ways to disable a particular rule or even ignore an entire file.
