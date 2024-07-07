@@ -55,7 +55,7 @@ Back to Visual Crossing. Go ahead and [create a free Visual Crossing account](ht
 
 <div class="lesson-note" markdown="1">
 
-#### Visual Crossing's query builder 
+#### Visual Crossing's query builder
 
 Curious how to construct queries? Check out [Visual Crossing's query builder](https://www.visualcrossing.com/weather/weather-data-services)! This will help you build a query with the region as the only input. Play around with the location and query options. Neat, isn't it? The output uses the "Grid" tab, but our query is in the "API" tab, and we want to learn *how* the query was structured. Click on the "API" tab and it will show the query that led to the grid format you just saw.
 
