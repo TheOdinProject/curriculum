@@ -59,7 +59,7 @@ Databases inevitably change as the requirements of the project evolve. You might
 
 ORMs pretty much solve all of the pain points mentioned above, but it's not all sunshine and roses. There can be a learning curve to fully understand the ins and outs of an ORM, and some don't even fully support all SQL features. Even with these shortcomings, using an ORM can be extremely worthwhile.
 
-In the Node.js ecosystem, there are A LOT of ORMs to choose from, and the community has not landed on a go-to yet. We've decided to cover [Prisma ORM](https://www.prisma.io/) in the curriculum because of its popularity and community support.
+In the Node.js ecosystem, there are *a lot* of ORMs to choose from, and the community has not landed on a go-to yet. We've decided to cover [Prisma ORM](https://www.prisma.io/) in the curriculum because of its popularity and community support.
 
 Prisma ORM has all the features we need to complete this curriculum and then some. Prisma ORM consists of several libraries, which means you can just use `npm install` to use it. We'll start by discussing some of its features, and then link to some official Prisma ORM guides to help you get started.
 
@@ -125,7 +125,7 @@ Prisma migrate is a tool that helps you perform database migrations. You won't b
 <div class="lesson-content__panel" markdown="1">
 
 1. Go through the [get started guide for relational databases](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql). It covers migrations, schema, and the Prisma client. Make sure you select "JavaScript" as the language and "PostgreSQL" as the database.
-1. Read the following articles from Prisma's documentation. Try to code along with the examples. Don't worry if things don't stick yet, we'll be practising A LOT of Prisma in the coming projects.
+1. Read the following articles from Prisma's documentation. Try to code along with the examples. Don't worry if things don't stick yet, we'll be practising *a lot* of Prisma in the coming projects.
    - [What is Prisma ORM?](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma),
    - [Prisma schema overview](https://www.prisma.io/docs/orm/prisma-schema/overview)
    - [Data models](https://www.prisma.io/docs/orm/prisma-schema/data-model/models)
