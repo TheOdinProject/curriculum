@@ -196,7 +196,7 @@ After `sudo apt upgrade` runs for a while you will be asked whether you want to 
 
 ### Step 4: Understand your new VM
 
-#### Step 4.1: Close TOP in the Windows browser and open the website in your VM.
+#### Step 4.1: Close TOP in the Windows browser and open the website in your VM
 
 From now on, stick with The Odin Project (TOP) website within your VM and follow the Linux instructions provided. The curriculum will often require you to copy and paste code between the lesson and your coding space, as well as the terminal. This won't work smoothly if you switch between the VM and Windows because they are entirely separate environments.
 
