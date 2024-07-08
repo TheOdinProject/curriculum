@@ -6,9 +6,9 @@ Tired of writing raw SQL queries in your projects? In this lesson, we'll talk ab
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What are ORMs, and why are they used?
-- Introduction to Prisma ORM
-- Features of Prisma ORM
+- What ORMs are and why they are used.
+- Introduce Prisma ORM.
+- Describe the features of Prisma ORM.
 
 ### Challenges with raw SQLin'
 
