@@ -61,7 +61,7 @@ ORMs pretty much solve all of the pain points mentioned above, but it's not all 
 
 In the Node.js ecosystem, there are *a lot* of ORMs to choose from, and the community has not landed on a go-to yet. We've decided to cover [Prisma ORM](https://www.prisma.io/) in the curriculum because of its popularity and community support.
 
-Prisma ORM has all the features we need to complete this curriculum and then some. Prisma ORM consists of several libraries, which means you can just use `npm install` to use it. We'll start by discussing some of its features, and then link to some official Prisma ORM guides to help you get started.
+Prisma ORM has all the features we need to complete this curriculum and then some. Prisma ORM consists of several libraries, so we can use npm to install whichever one(s) our application needs. We'll start by discussing some of its features, and then link to some official Prisma ORM guides to help you get started.
 
 ### Prisma Schema
 
