@@ -59,7 +59,7 @@ Databases inevitably change as the requirements of the project evolve. You might
 
 ORMs pretty much solve all of the pain points mentioned above, but it's not all sunshine and roses. There can be a learning curve to fully understand the ins and outs of an ORM, and some don't even fully support all SQL features. Even with these shortcomings, using an ORM can be extremely worthwhile.
 
-In the Node.js ecosystem, there are *a lot* of ORMs to choose from, and the community has not landed on a go-to yet. We've decided to cover [Prisma ORM](https://www.prisma.io/) in the curriculum because of its popularity and community support.
+In the Node.js ecosystem, there are *a lot* of ORMs to choose from, and the community has not landed on a go-to yet. We've decided to cover [Prisma ORM](https://www.prisma.io/orm) in the curriculum because of its popularity and community support.
 
 Prisma ORM has all the features we need to complete this curriculum and then some. Prisma ORM consists of several libraries, so we can use npm to install whichever one(s) our application needs. We'll start by discussing some of its features, and then link to some official Prisma ORM guides to help you get started.
 
