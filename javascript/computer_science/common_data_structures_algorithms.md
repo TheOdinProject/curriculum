@@ -60,3 +60,4 @@ This section contains helpful links to related content. It isn't required, so co
 - [Another free course on algorithms by Udacity](https://www.udacity.com/course/intro-to-algorithms--cs215)
 - [A more detailed video on stacks and queues](https://www.youtube.com/watch?v=idrrIMXXeHM)
 - A stack overflow discussion on the [relative strengths of BFS and DFS](https://stackoverflow.com/questions/3332947/what-are-the-practical-factors-to-consider-when-choosing-between-depth-first-sea).
+- [Algorithm Library](https://the-algorithms.com/)
