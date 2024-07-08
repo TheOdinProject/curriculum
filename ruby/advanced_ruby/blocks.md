@@ -496,12 +496,13 @@ After coming to grips with the information in this lesson you'll be a block, pro
 <div class="lesson-content__panel" markdown="1">
 
 1. This article provides quite a nice [summary of blocks, procs and lambdas](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/).
-2. Read this [article on lambdas in Ruby](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we’ve used here. We really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
+1. Read this [article on lambdas in Ruby](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we’ve used here. We really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is a block?](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks)
 - [How is a block like a method?](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks)
