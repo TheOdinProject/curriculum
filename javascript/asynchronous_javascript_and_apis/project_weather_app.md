@@ -6,9 +6,11 @@ You should change the look of the page based on the data, maybe by changing the 
 
 <div class="lesson-note" markdown="1">
 
-#### Visual Crossing free tier
+#### Change of weather API to Visual Crossing
 
-The free tier of the Visual Crossing API provides 1000 queries. This is what "queryCost" means in the returned JSON.
+We have recently replaced the weather API used in the previous lesson and this project with Visual Crossing's API, due to intermittent issues with the previous API.
+
+The process of calling the API still remains very similar. Make a free account with them if you have not already done so, and check their API documentation for exactly how to query for the data you want. Remember to check out [Visual Crossing's query builder](https://www.visualcrossing.com/weather/weather-data-services) and read more about the weather API section in the previous section if you haven't, already.
 
 </div>
 
