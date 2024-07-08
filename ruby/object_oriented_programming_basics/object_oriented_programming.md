@@ -26,7 +26,7 @@ This section contains a general overview of topics that you will learn in this l
     - [Ruby Explained: Inheritance and Scope](http://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
 1. Read the article [Object Relationships in Basic Ruby](https://medium.com/@marcellamaki/object-relationships-in-basic-ruby-1af5773fff48) to see an example of how two classes can interact.
 1. Read the [Bastard's Chapter on Error Handling](http://ruby.bastardsbook.com/chapters/exception-handling/) to reinforce your understanding of dealing with errors.
-1. Do this [quiz on introductory object-oriented programming](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) and this [quiz on modules, classes, and inheritence](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) from Code Quizzes.
+1. Do this [quiz on introductory object-oriented programming](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) and this [quiz on modules, classes, and inheritance](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) from Code Quizzes.
 
 </div>
 
@@ -49,5 +49,5 @@ This section contains helpful links to related content. It isn't required, so co
 - [Kevin Berridge's video presentation](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to Sandi Metz's book, in about 40 minutes.
 - If you need a variable refresher, check out [Zetcode's Variables section](https://zetcode.com/lang/rubytutorial/variables/).
 - If you want more examples to code along with, check out [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/) and [Zetcode's second OOP section](https://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down).
-- [99 Bottles of OOP](https://sandimetz.com/99bottles) is a hands-on workbook that you should code along with to get the most out of it. This is a great resource if you feel uncertain about OOP concepts and would like to guided through refactoring examples and explanations.
+- [99 Bottles of OOP](https://sandimetz.com/99bottles) is a hands-on workbook that you should code along with to get the most out of it. This is a great resource if, after completing several OOP projects, you still feel uncertain about OOP concepts and would like to be guided through some refactoring examples and explanations.
 - [Practical Object-Oriented Design in Ruby](https://www.poodr.com/) is a traditional technical book with practical examples. This is a great resource if, after completing several OOP projects, you still feel uncertain about OOP concepts and would like to be guided through some refactoring examples and explanations.
