@@ -81,7 +81,7 @@ model User {
 }
 ```
 
-There's a bunch of new stuff up here. Prisma schema files are written in Prisma Schema Language. You can see how not only there are column definitions for the table, but also a relation to another table defined within the `Message` model. You'll learn more about this in the assignment readings.
+There's a bunch of new stuff up here. Prisma schema files are written in Prisma Schema Language. You can see how not only are there column definitions for the table, but also a relation to another table defined within the `Message` model. You'll learn more about this in the assignment readings.
 
 This schema file lives in your codebase and is tracked by version control. You can guess by now how useful this is.
 
@@ -106,7 +106,7 @@ await prisma.message.create({
 const messages = await prisma.message.findMany();
 ```
 
-Notice `prisma.message` object? How did Prisma Client know that there's a `message` model? Once you create or update the schema file, all you have to do is run
+Notice the `prisma.message` object? How did Prisma Client know that there's a `message` model? Once you create or update the schema file, all you have to do is run
 
 ```bash
 npx prisma generate
