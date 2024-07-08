@@ -9,7 +9,7 @@ A typical airline booking flow:
 1. Enter passenger information for all passengers
 1. Enter billing information
 
-Step 4 would be done via integration of something like [Paypal](http://coding.smashingmagazine.com/2011/09/05/getting-started-with-the-paypal-api/), via [a gem](https://github.com/nov/paypal-express) or [an SDK](https://www.tommyblue.it/2013/07/02/paypal-express-checkout-with-ruby-on-rails-and-paypal-sdk-merchant/) or [Stripe](https://docs.stripe.com/checkout/quickstart).
+Step 4 would be done via integration of something like [the Paypal API](http://coding.smashingmagazine.com/2011/09/05/getting-started-with-the-paypal-api/), via [the paypal-express gem](https://github.com/nov/paypal-express), [the paypal-sdk-merchant SDK](https://www.tommyblue.it/2013/07/02/paypal-express-checkout-with-ruby-on-rails-and-paypal-sdk-merchant/), or [Stripe](https://stripe.com/docs/checkout/guides/rails).
 
 ### Assignment
 
@@ -34,7 +34,7 @@ For the first screen, you will be creating 4 dropdown menus that will allow user
 1. Seed your database with flights.
 1. You will search and view results in the same page.  Set up your FlightsController and routes to make the Index page (`/flights`) the root route.
 1. Create your search form on the `/flights` index page to submit using a GET (not POST) request back to the same URL.
-1. Add the four dropdown menus -- a list of departure airports, arrival airports, number of passengers (1-4), and a date dropdown for the flight date. The date dropdown should only include dates that have existing flights. Don't worry about restricting the contents of the airport dropdowns -- you'd normally use JavaScript -- so just allow the user to select any airport. See this [SO post on formatting date in dropdown lists](http://stackoverflow.com/questions/15720940/rails-format-date-in-drop-down-list-in-view), this [quickie SO post on selecting months/years](http://stackoverflow.com/questions/13001904/rails-drop-down-select-month-year) and the Rails [DateHelper API Docs](http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html) for some help with creating Date selects.
+1. Add the four dropdown menus -- a list of departure airports, arrival airports, number of passengers (1-4), and a date dropdown for the flight date. The date dropdown should only include dates that have existing flights. Don't worry about restricting the contents of the airport dropdowns -- you'd normally use JavaScript -- so just allow the user to select any airport. See this [Stack Overflow post on formatting dates in dropdown lists](http://stackoverflow.com/questions/15720940/rails-format-date-in-drop-down-list-in-view), this short [Stack Overflow post on selecting months/years](http://stackoverflow.com/questions/13001904/rails-drop-down-select-month-year) and the Rails [DateHelper API Docs](http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html) for some help with creating Date selects.
 
 #### Screen 2: pick a flight
 
@@ -56,9 +56,9 @@ Once the user has submitted their chosen flight, it's time to take their booking
 1. Set up your `#new` action, which should have received the flight ID and passenger number parameters, and use it to help render a form for a new booking which displays the currently chosen date, airports, flight ID and a set of fields to enter personal information for each passenger.  You'll want to create a new blank Passenger object in your controller for each passenger, and then use `#fields_for` in the view to set up the sub-forms.
 1. Try submitting the form and check out the parameters in your server.
 1. You'll need your `#create` action to create a new Booking (linking it to the appropriate Flight) but it will also need to accept the nested attributes for each of the Passenger objects and create a new Passenger from them.  Be mindful of allowing the nested parameters as well.
-1. Go to the Booking model and implement the `#accepts_nested_attributes_for` method.  See the [Rails API](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html) for examples and this [SO post on nested attributes and mass assignment](http://stackoverflow.com/questions/18540679/rails-4-accepts-nested-attributes-for-and-mass-assignment) for another.
+1. Go to the Booking model and implement the `#accepts_nested_attributes_for` method.  See the [Rails API](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html) for examples and this [Stack Overflow post on nested attributes and mass assignment](http://stackoverflow.com/questions/18540679/rails-4-accepts-nested-attributes-for-and-mass-assignment) for another.
 1. Once your form is successfully submitted, render the booking's `#show` page which displays the booking information (flight and passenger information).
-1. Make sure your ticketing flow is working properly.  Good work!
+1. Make sure your ticketing flow is working properly. Good work!
 
 </div>
 

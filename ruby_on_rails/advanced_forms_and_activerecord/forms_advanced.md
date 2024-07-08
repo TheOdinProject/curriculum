@@ -145,7 +145,7 @@ You can also have your form destroy nested forms by first setting the `:allow_de
 
 ### Many-to-many relationships
 
-If you've got a `has_many :through` relationship, you'll likely need to go one additional step further by specifying that each side of your relationship is the inverse of the other.  It's detailed in [this blog post from ThoughtBot](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through).
+If you’ve got a `has_many :through` relationship, you’ll likely need to go one additional step further by [specifying that each side of your relationship is the inverse of the other](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through).
 
 ### Designing your own forms
 
@@ -159,7 +159,7 @@ Don't get discouraged if you get some real head-scratcher moments when building 
 
 `simple_form` is a gem by Platformatec which can really make your life easier (if you aren't doing anything too crazy).  It provides lots of user-friendly features for building forms and is in wide use today.
 
-It's up to you to check out [the documentation](https://github.com/plataformatec/simple_form) and start using it in your own applications as desired.
+It's up to you to check out [the documentation for `simple_form`](https://github.com/plataformatec/simple_form) and start using it in your own applications as desired.
 
 ### Miscellania: blank submissions that mean delete
 
@@ -172,10 +172,10 @@ Sometimes Rails helper methods will do it for you, but make sure you know what y
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read the [Rails Guide on Forms](https://guides.rubyonrails.org/form_helpers.html#choices-from-a-collection-of-arbitrary-objects) section 5, which covers populating a form with a collection of objects.
-  2. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms) section 10, which covers accepting nested form data.
-  3. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions) section 8, which covers the parameter conventions for nested forms.
-  4. Read [this blog post from Peter Rhoades](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html) on working with nested forms.  The example covers a lot of the things we've gone over so far, so follow along.  Also note how he does the allowing of nested attributes in Rails 4.
+  1. Read the Rails Guide on Forms section 5, which covers [populating a form with a collection of objects](https://guides.rubyonrails.org/form_helpers.html#choices-from-a-collection-of-arbitrary-objects).
+  2. Read the Same Rails Guide on Forms section 10, which covers [accepting nested form data](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms).
+  3. Read the Same Rails Guide on Forms section 8, which covers the [parameter conventions for nested forms](http://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions).
+  4. Read this blog post from [Peter Rhoades on working with nested forms](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html).The example covers a lot of the things we’ve gone over so far, so follow along. Also note how he does the allowing of nested attributes in Rails 4.
 </div>
 
 ### Conclusion
@@ -202,7 +202,7 @@ This section contains helpful links to related content. It isn’t required, so 
 
 - [Simple Form Documentation on GitHub](https://github.com/plataformatec/simple_form)
 - [`accepts_nested_attributes_for` documentation](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)
-- [Another example of a nested form on SO](http://stackoverflow.com/questions/15648396/rails-how-to-manage-nested-attributes-without-using-accepts-nested-attributes?rq=1)
+- [Another example of a nested form on Stack Overflow](http://stackoverflow.com/questions/15648396/rails-how-to-manage-nested-attributes-without-using-accepts-nested-attributes?rq=1)
 - [Using `inverse_of` to make `accepts_nested_attributes_for` work for `has_many :through` relationships](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through)
 - [Understanding Rails' form authenticity tokens](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token)
 - [Why not to hardcode your application's secret token in production](http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/)
