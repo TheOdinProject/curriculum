@@ -332,7 +332,7 @@ nested_array.select {|a, b| a + b > 10 }
 As you can see, `#select` has two arguments specified `|a, b|`, on each iteration we pass a single element of nested_array into the block. On the first iteration this is: `[1, 2]`, this array now, is deconstructed automatically (into a = 1, b = 2) and its values compared as specified. So on to the next rounds of iteration in which we pass `[3, 4]` and `[5, 6]` one by one.
 This happens because the block `{|a, b| if a + b > 10 }` is treated as a non-lambda proc.
 This property is not limited to `#select` but also applies to other `enum` methods like `#map`, `#each` etc.
-You can read more about this here: [documentation](https://docs.ruby-lang.org/en/3.3/Proc.html)
+You can read more about this in the [Proc class documentation](https://docs.ruby-lang.org/en/3.3/Proc.html).
 
 A lambda, on the other hand, DOES care and will raise an error if you don't honor the number of parameters expected.
 
@@ -452,9 +452,9 @@ arr.map(&:to_i)
 # => [1, 2, 3]
 ```
 
-What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. You can see what it does in the [ruby docs](https://docs.ruby-lang.org/en/3.3/Symbol.html#method-i-to_proc). It returns a proc object which responds to the given method indicated by the symbol. So here, `#map` yields each value in the array to the proc object, which calls `#to_i` on it.
+What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. You can see [what #to_proc does](https://docs.ruby-lang.org/en/3.3/Symbol.html#method-i-to_proc) in the Ruby docs. It returns a proc object which responds to the given method indicated by the symbol. So here, `#map` yields each value in the array to the proc object, which calls `#to_i` on it.
 
-(Yes, names of methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation](https://docs.ruby-lang.org/en/3.3/Object.html#method-i-send) for `#send` if you're interested. And this Stack Overflow [article](https://stackoverflow.com/questions/14881125/what-does-to-proc-method-mean) on how `#send` and `#to_i` are used together for `arr.map(&:to_i)` to work.)
+(Yes, names of methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation for #send](https://docs.ruby-lang.org/en/3.3/Object.html#method-i-send) if you're interested, and this Stack Overflow article on [how #send and #to_i are used together](https://stackoverflow.com/questions/14881125/what-does-to-proc-method-mean) for `arr.map(&:to_i)` to work.)
 
 <span id="proc-to-block">The `&` also works the other way. You can prepend it to a proc object and it converts it to a block, and passes the block to the method being called.</span>
 
@@ -492,15 +492,17 @@ Blocks are used everywhere in Ruby. You'll find many use cases, and see them use
 After coming to grips with the information in this lesson you'll be a block, proc and lambda master, able to easily craft beautiful Ruby code.
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 
-1. [This article](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/) provides quite a nice summary of much of what we've covered here.
-2. Read [this article](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we've used here. We really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
+1. This article provides quite a nice [summary of blocks, procs and lambdas](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/).
+1. Read this [article on lambdas in Ruby](https://www.honeybadger.io/blog/using-lambdas-in-ruby/) which also covers much of what we’ve used here. We really liked the small section on using lambdas as computed hashes and arrays. A cool use case.
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is a block?](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks)
 - [How is a block like a method?](https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/#Understanding_Ruby_Blocks)
