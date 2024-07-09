@@ -403,7 +403,7 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 <div class="lesson-note" markdown="1">
 
-### Copy and paste keyboard shortcuts
+#### Copy and paste keyboard shortcuts
 
 You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste something doesn't work in the terminal. In order to paste your text input into your terminal you can use: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> keyboard shortcut combination, instead. It is also  very handy to know that the: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>  keyboard combination will copy any highlighted text from your terminal, which can then be pasted later.
 
