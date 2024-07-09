@@ -1,6 +1,6 @@
 ### Introduction
 
-Tired of writing raw SQL queries in your projects? In this lesson, we'll talk about Object Relational Mappers (ORM for short). ORMs are tools that let you manipulate data in your database and are widely used in the software industry. We'll dive deep into one ORM popular in the Node.js landscape: [Prisma ORM](https://www.prisma.io/).
+Tired of writing raw SQL queries in your projects? In this lesson, we'll talk about Object Relational Mappers (ORM for short). ORMs are tools that let you manipulate data in your database and are widely used in the software industry. We'll dive deep into one ORM popular in the Node.js landscape: [Prisma ORM](https://www.prisma.io/orm).
 
 ### Lesson overview
 
@@ -124,9 +124,9 @@ Prisma migrate is a tool that helps you perform database migrations. You won't b
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go through the [get started guide for relational databases](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql). It covers migrations, schema, and the Prisma client. Make sure you select "JavaScript" as the language and "PostgreSQL" as the database.
+1. Go through the [get started guide for relational databases](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-node-postgresql), which covers migrations, schema, and the Prisma client.
 1. Read the following articles from Prisma's documentation. Try to code along with the examples. Don't worry if things don't stick yet, we'll be practising *a lot* of Prisma in the coming projects.
-   - [What is Prisma ORM?](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma),
+   - [What is Prisma ORM?](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma)
    - [Prisma schema overview](https://www.prisma.io/docs/orm/prisma-schema/overview)
    - [Data models](https://www.prisma.io/docs/orm/prisma-schema/data-model/models)
    - [Relations](https://www.prisma.io/docs/orm/prisma-schema/data-model/relations)
