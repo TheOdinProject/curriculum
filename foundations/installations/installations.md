@@ -1,4 +1,5 @@
-<!-- markdownlint-disable MD024 MD043 -->
+<!-- TODO: Revisit lesson/heading structure to remove need to disable rules -->
+<!-- markdownlint-disable MD024 TOP004 -->
 
 ### Introduction
 
@@ -8,7 +9,7 @@ If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu
 
 #### Be mindful of the OS you are using
 
-We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!\_OS, ElementaryOS, etc).
+We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
 
 </div>
 
