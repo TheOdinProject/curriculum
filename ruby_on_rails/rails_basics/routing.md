@@ -209,4 +209,4 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Medium article](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5) on Rails routing. It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest.
+- [Medium article on Rails routing](https://medium.com/podiihq/understanding-rails-routes-and-restful-design-a192d64cbbb5). It covers a lot of the same things that the Rails Guides cover but with a little different tone that some people may find easier to digest.
