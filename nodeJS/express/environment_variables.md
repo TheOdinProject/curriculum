@@ -14,7 +14,14 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Environment variables
 
-CUSTOM SECTION CONTENT.
+Environment variables are just variables that have environment-specific values. For example, since they are specific to individual environments, we can use them to:
+
+- Provide different values for different environments, such as your machine during development and a website host when deployed, without having to modify the source code.
+- Store secrets, such as database URLs and credentials, or API keys.
+
+For example, a production environment may want additional logging and analytics than a development environment. The source code may therefore have an environment variable for whether it's running in "dev" or "prod" mode, and do different things based on that.
+
+Or perhaps you're building an API connected to a database, but you want to use a separate test database during development instead of the production one. You can pass your test database's URL and credentials into your app when you develop locally, but the deployment will have the values for the production database. On top of this, you can store environment variable values in a file that you add to your `.gitignore`, preventing the contents of that file from being exposed when changes are pushed.
 
 ### Assignment
 
