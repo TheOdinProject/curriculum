@@ -114,8 +114,12 @@ To complete the boilerplate, add a `<body>` element to the `index.html` file. Th
 
 The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  There are a couple of different options:
 
-> A note:
-> In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to Google Chrome.  We **strongly** suggest that you use Google Chrome for all of your testing going forward.
+<div class="lesson-note" markdown="1">
+
+A note:
+In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to Google Chrome.  We **strongly** suggest that you use Google Chrome for all of your testing going forward.
+
+</div>
 
 1. You can drag and drop an HTML file from your text editor into the address bar of your browser.
 
