@@ -226,7 +226,7 @@ This will disable the `AbcSize` Cop from `Metrics` department between those comm
 
 Some rules are a lot more arbitrary - the Style department is going to be the prime ground for strong arguments about things that don't really matter - like double-quoting all strings vs making a distinction between plain strings and string interpolation. Perhaps you have strong feelings about quotes, so let's help you out by showing you how to show them to RuboCop.
 
-Start by creating a `.rubocop.yml` file using the command touch or nano(nano will open the text editor right away). Don't forget the it must a dotfile, meaning it needs to have a dot before its name. Now, you need to find out what rule you want to change or disable. For the possible options always consult the documentation - not every Cop is just a simple on/off, there might be more options. As an example, we'll be changing the rules regarding strings, frozen string literals and we'll enable NewCops.
+Start by creating a `.rubocop.yml` file using the command touch or nano(nano will open the text editor right away). Don't forget that it must be a dotfile, meaning it needs to have a dot before its name. Now, you need to find out what rule you want to change or disable. For the possible options always consult the documentation - not every Cop is just a simple on/off, there might be more options. As an example, we'll be changing the rules regarding strings, frozen string literals and we'll enable NewCops.
 
 ```yaml
 # This is .rubocop.yml in ~/

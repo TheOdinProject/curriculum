@@ -104,8 +104,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Fly.io: Links
 
-- [Homepage](https://fly.io/)
-- [Documentation](https://fly.io/docs/)
+- [Fly.io's homepage](https://fly.io/)
+- [Fly.io documentation](https://fly.io/docs/)
 - [Guide: Official getting started with Rails on Fly.io guide](https://fly.io/docs/rails/getting-started/)
 - [Guide: GoRails video guide for deploying Rails applications to Fly.io](https://www.youtube.com/watch?v=6Zp9y8nF5rE&)
 
@@ -124,8 +124,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Railway.app: Links
 
-- [Homepage](https://railway.app/)
-- [Documentation](https://docs.railway.app/)
+- [Railway homepage](https://railway.app/)
+- [Railway documentation](https://docs.railway.app/)
 - [Guide: Video guide for deploying Rails applications to Railway](https://www.youtube.com/watch?v=__1TadBZZUg)
 
 ---
@@ -144,8 +144,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Render: Links
 
-- [Homepage](https://render.com/)
-- [Documentation](https://render.com/docs/)
+- [Render homepage](https://render.com/)
+- [Render documentation](https://render.com/docs/)
 - [Guide: Official getting started with Rails on Render guide](https://render.com/docs/deploy-rails)
 - [Guide: GoRails video guide for deploying Rails applications to Render](https://www.youtube.com/watch?v=QJ4BcTQlKC0)
 
@@ -165,8 +165,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ##### Heroku: Links
 
-- [Homepage](https://www.heroku.com/)
-- [Documentation](https://devcenter.heroku.com/)
+- [Heroku homepage](https://www.heroku.com/)
+- [Heroku documentation](https://devcenter.heroku.com/)
 - [Guide: Official Rails guide for Heroku](https://devcenter.heroku.com/articles/getting-started-with-rails7)
 - [Guide: GoRails video guide for deploying Rails applications to Heroku](https://www.youtube.com/watch?v=bQ2wXZf9irA)
 

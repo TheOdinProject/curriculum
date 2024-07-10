@@ -5,8 +5,11 @@
 If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system and have **Google Chrome** as an installed browser, you can skip this lesson. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
+
 #### Be mindful of the OS you are using
+
 We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
+
 </div>
 
 ### Lesson overview
@@ -36,7 +39,9 @@ This curriculum only supports using a laptop, desktop or supported Chromebook. W
 Pick your method of installation below:
 
 <details markdown="block">
+
 <summary class="dropDown-header">Virtual Machine (Recommended)
+
 </summary>
 
 Installing a Virtual Machine (VM) is the easiest and most reliable way to get started creating an environment for web development. A VM is an entire computer emulation that runs inside your current Operating System (OS), like Windows. The main drawback of a VM is that it can be slow because you’re essentially running two computers at the same time. We’ll do a few things to improve its performance.
@@ -177,6 +182,7 @@ When using a command in the terminal that requires you to enter your password fo
 This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
 You can still enter your password as normal and press Enter to submit it.
+
 </div>
 
 ```bash
@@ -242,7 +248,9 @@ To be safe, click the **Send the shutdown signal** radio and hit OK. This will s
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">Ubuntu/Windows Dual-Boot
+
 </summary>
 
 ### Read this entire section before starting
@@ -286,7 +294,9 @@ If you encounter an error requesting you to disable **Intel RST** while attempti
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">ChromeOS/ChromeOS Flex
+
 </summary>
 
 With the recent addition of being able to run a Linux terminal, the ChromeOS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
@@ -301,6 +311,7 @@ Once you have successfully met both of these requirements, you should be able to
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">WSL2 (Advanced)</summary>
 
 Using WSL2 is an quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
@@ -308,8 +319,11 @@ Using WSL2 is an quick and easy way to get started with using Linux, allowing yo
 To make it clear: you are going to be using a different OS, this is not a way to avoid using Linux. Due to how WSL2 is integrated with Windows it often causes significant confusion to new learners. Use the Virtual Machine if you want a clear separation between your Windows and Linux so the curriculum is easier to follow.
 
 <div class="lesson-note" markdown="1">
+
 #### WSL2 and Linux instructions
+
 Because WSL2 is a full-fledged Linux distribution, almost everything that the curriculum teaches about Linux is also applicable to WSL2. In future lessons, whenever there are instructions that differ by OS, you should follow the Linux instructions, unless the lesson includes WSL2-specific instructions.
+
 </div>
 
 ### Step 1: Installations
@@ -352,12 +366,17 @@ On Windows there are three primary ways to open WSL2.
 - If you search for Ubuntu in the application search bar you should see a application titled Ubuntu; open it to start a new terminal session.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
 You might notice when you open WSL2 via Windows Terminal, you'll see a window with a different color scheme and a different icon compared to opening a terminal through Ubuntu in your applications. This is because Windows Terminal comes with a default color scheme for Ubuntu meant to emulate how a real Ubuntu terminal looks. This difference is purely cosmetic, and there is no practical difference between the two.
+
 </div>
 
 <div class="lesson-note lesson-note--warning" markdown="1">
+
 When opening your WSL2 terminal ensure that you do not see `/mnt/c` at the start of the line. `/mnt/c` is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences.
+
 </div>
+
 </details>
 
 ### Google Chrome installation
@@ -370,6 +389,7 @@ Look at this [usage share of web browsers](https://en.wikipedia.org/wiki/Usage_s
 Choose your Operating System:
 
 <details markdown="block">
+
 <summary class="dropDown-header">Linux</summary>
 
 #### Step 1: Download Google Chrome
@@ -382,8 +402,11 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
 
 <div class="lesson-note" markdown="1">
-### Copy and paste keyboard shortcuts
+
+#### Copy and paste keyboard shortcuts
+
 You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste something doesn't work in the terminal. In order to paste your text input into your terminal you can use: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> keyboard shortcut combination, instead. It is also  very handy to know that the: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>  keyboard combination will copy any highlighted text from your terminal, which can then be pasted later.
+
 </div>
 
 #### Step 2: Install Google Chrome
@@ -405,6 +428,7 @@ You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <
   This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
   You can still enter your password as normal and press Enter to submit it.
+
 </div>
 
 <div class="lesson-note lesson-note--tip" markdown="1">
@@ -439,6 +463,7 @@ Chrome is going to use this terminal to output various messages and won't let yo
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">MacOS</summary>
 
 #### Step 1: Download Google Chrome
@@ -467,6 +492,7 @@ Chrome is going to use this terminal to output various messages and won't let yo
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">WSL2</summary>
 
 #### Step 1: Download Google Chrome
@@ -502,4 +528,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Google Chrome is one of the most important tools that you will be using throughout the curriculum. This reference has many [common shortcuts that you may find useful when using Chrome](https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ctab-window-shortcuts).
