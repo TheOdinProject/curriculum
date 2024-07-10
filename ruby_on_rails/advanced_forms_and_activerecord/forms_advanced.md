@@ -14,13 +14,13 @@ This section contains a general overview of topics that you will learn in this l
 - How to whitelist nested parameters.
 - How to delete records via form fields.
 
-### Prepopulating `select` tags with collections
+### Prepopulating select tags with collections
 
 Rails provides you with a few handy ways of making dropdown menus which already contain data when the form is loaded (otherwise they're not that useful).
 
 Let's say you want to build a New Post form for your blog but you want to be able to select who the author is from among your list of users.  You will need to make a dropdown which submits the user's ID as a part of your `params` hash.  So you might populate `@users` in your posts controller:
 
-~~~ruby
+```ruby
   # app/controllers/posts_controller.rb
   ...
   def new
@@ -28,11 +28,11 @@ Let's say you want to build a New Post form for your blog but you want to be abl
     @post = Post.new
   end
   ...
-~~~
+```
 
 The bare HTML way is to build a bunch of `<option>` tags (inside your `<select>` tag).  You could easily create these in your ERB code by just iterating over some collection, for instance if you'd like to select a post to view from a list of them.
 
-~~~html
+```html
   # app/views/posts/new.html.erb
   ...
   <select name="user_id">
@@ -41,7 +41,7 @@ The bare HTML way is to build a bunch of `<option>` tags (inside your `<select>`
     <% end %>
   </select>
   ...
-~~~
+```
 
 This creates a dropdown list with each user's name as an option.  Your `#create` action will receive an attribute called `user_id` and you can use it to match an author to that post.
 
@@ -49,7 +49,7 @@ But Rails provides some less verbose ways of doing the same thing, namely using 
 
 <span id='options-for-select'>`#options_for_select` expects a very specific input -- an array of arrays which provide the text for the dropdown option and the value it represents.<span>  So `options_for_select([["choice1",1],["choice2",2]])` creates a couple of option tags, one for each choice.  This is great, because that's exactly what `#select_tag` expects for its second argument.  The only wrinkle here is that you need to convert your `@users` collection, which has full User objects, into an array with just `name` and `value`.  That's easy using `#map`:
 
-~~~ruby
+```ruby
   # app/controllers/posts_controller.rb
   ...
   def new
@@ -62,18 +62,18 @@ But Rails provides some less verbose ways of doing the same thing, namely using 
   ...
   <%= select_tag(:author_id, options_for_select(@user_options)) %>
   ...
-~~~
+```
 
 So just pass `#select_tag` the name it should use for your chosen value and the collection and it will output the exact same thing!
 
 <span id='select-helper'>If you want to avoid the whole `options_for_select` thing altogether and your form is designed to build a model instance (e.g. a Post object), just use the more generic `#select` helper in your view:</span>
 
-~~~ruby
+```ruby
   # app/views/posts/new.html.erb
   ...
   <%= select(:post, :author_id, @user_options) %>
   ...
-~~~
+```
 
 You still need to pass it the `:post` parameter (which indicates that your form is building a Post object) so the `select` tag can get the `name` right... in this case, it will name the tag `<select name="post[author_id]" id="post_author_id">`.  That means (remember!) that the `author_id` attribute will show up in your `params` nested under the `post` hash.
 
@@ -81,12 +81,12 @@ The `:author_id` input to the `#select` helper above represents not just what th
 
 If you have a `#form_with` form scoped under the `f` variable, you don't need to pass the `:post` symbol above (it gets it from `f`), so could instead use:
 
-~~~ruby
+```ruby
   # app/views/posts/new.html.erb
   ...
     <%= f.select(:author_id, @user_options) %>
   ...
-~~~
+```
 
 It took a bit of time for us to get here, but hopefully you can now see how straightforward this method is for generating a potentially large dropdown.
 
@@ -104,22 +104,22 @@ As you can imagine, it's important to get the names and parameters properly list
 
 We'll do a broad overview of the process here:
 
-1. {: #accepts_nested_attributes_for}You will need to prepare the User model so that it knows to create one or more ShippingAddress objects if it receives their attributes when creating a normal User.  This is done by adding a method to your User model called `#accepts_nested_attributes_for` which accepts the name of an association, e.g:
+1. <span id="accepts-nested-attributes-for"> You will need to prepare the User model so that it knows to create one or more ShippingAddress objects if it receives their attributes when creating a normal User. This is done by adding a method to your User model called `#accepts_nested_attributes_for` which accepts the name of an association, e.g: </span>
 
-   ~~~ruby
+   ```ruby
      # app/models/user.rb
      class User < ActiveRecord::Base
        has_many :shipping_addresses
        accepts_nested_attributes_for :shipping_addresses
      end
-   ~~~
+   ```
 
-2. Make sure you've allowed your `params` to include the nested attributes by appropriately including them in your Strong Parameters controller method.  See the reading for examples of how to do this.
-3. Build the form in the view.  Use the `#fields_for` method to effectively create a `#form_with` inside your existing `#form_with` form.
+1. Make sure you've allowed your `params` to include the nested attributes by appropriately including them in your Strong Parameters controller method.  See the reading for examples of how to do this.
+1. Build the form in the view.  Use the `#fields_for` method to effectively create a `#form_with` inside your existing `#form_with` form.
 
 There are a couple new aspects to this process.  You saw `#fields_for` in the [Basic Forms lesson](/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/form-basics) but it probably has new meaning to you now.  It's basically how you create a form within a form (which should make sense since it's actually used behind the scenes by `#form_with`).  In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
 
-~~~ruby
+```ruby
   <%= form_with model: @user do |f| %>
     ...
     <% 3.times do %>
@@ -131,7 +131,7 @@ There are a couple new aspects to this process.  You saw `#fields_for` in the [B
     <% end %>
     <%= f.submit %>
   <% end %>
-~~~
+```
 
 Note that we could (and should) also have built the new shipping_address objects in the controller instead of the view; it's just for demonstration purposes here.
 
@@ -145,7 +145,7 @@ You can also have your form destroy nested forms by first setting the `:allow_de
 
 ### Many-to-many relationships
 
-If you’ve got a `has_many :through` relationship, you’ll likely need to go one additional step further by [specifying that each side of your relationship is the inverse of the other](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through).
+If you've got a `has_many :through` relationship, you'll likely need to go one additional step further by [specifying that each side of your relationship is the inverse of the other](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through).
 
 ### Designing your own forms
 
@@ -172,13 +172,15 @@ Sometimes Rails helper methods will do it for you, but make sure you know what y
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Read the Rails Guide on Forms section 5, which covers [populating a form with a collection of objects](https://guides.rubyonrails.org/form_helpers.html#choices-from-a-collection-of-arbitrary-objects).
-  2. Read the Same Rails Guide on Forms section 10, which covers [accepting nested form data](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms).
-  3. Read the Same Rails Guide on Forms section 8, which covers the [parameter conventions for nested forms](http://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions).
-  4. Read this blog post from [Peter Rhoades on working with nested forms](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html).The example covers a lot of the things we’ve gone over so far, so follow along. Also note how he does the allowing of nested attributes in Rails 4.
+  1. Read the Same Rails Guide on Forms section 10, which covers [accepting nested form data](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms).
+  1. Read the Same Rails Guide on Forms section 8, which covers the [parameter conventions for nested forms](http://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions).
+  1. Read this blog post from [Peter Rhoades on working with nested forms](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html). The example covers a lot of the things we've gone over so far, so follow along. Also note how he does the allowing of nested attributes in Rails 4.
+
 </div>
 
-### Conclusion
+#### Conclusion
 
 We've covered two of the more common use cases for complex forms -- pre-populating a form with objects and creating multiple objects with a single form.  At this point, even if you're uncomfortable, you should have all the tools you need to work through creating a form.  We'll get your hands dirty in the project, have no fear.
 
@@ -186,19 +188,19 @@ The best part?  This is more or less the most complicated conceptual stuff with 
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href='#prepopulating-select-tags-with-collections'>What does the `#select_tag` helper do?</a>
-- <a class="knowledge-check-link" href='#options-for-select'>When using `#options_for_select`, what format does the array need to be in?</a>
-- <a class="knowledge-check-link" href='#select-helper'>When would you use the `#select` helper?</a>
-- <a class="knowledge-check-link" href='#nested-forms'>How can you prevent users from having to submit multiple forms?</a>
-- <a class="knowledge-check-link" href='#accepts_nested_attributes_for'>What do you add to the model that allows nested forms to create new objects?</a>
-- <a class="knowledge-check-link" href='https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html'>How do you allow the nested parameters in your controller?</a>
- - <a class="knowledge-check-link" href='#miscellania-blank-submissions-that-mean-delete'>How can you set up a dropdown or checkbox to delete a record that already exists?</a>
+- [What does the `#select_tag` helper do?](#prepopulating-select-tags-with-collections)
+- [When using `#options_for_select`, what format does the array need to be in?](#options-for-select)
+- [When would you use the `#select` helper?](#select-helper)
+- [How can you prevent users from having to submit multiple forms?](#nested-forms)
+- [What do you add to the model that allows nested forms to create new objects?](#accepts-nested-attributes-for)
+- [How do you allow the nested parameters in your controller?](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html)
+- [How can you set up a dropdown or checkbox to delete a record that already exists?](#miscellania-blank-submissions-that-mean-delete)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Simple Form Documentation on GitHub](https://github.com/plataformatec/simple_form)
 - [`accepts_nested_attributes_for` documentation](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)
