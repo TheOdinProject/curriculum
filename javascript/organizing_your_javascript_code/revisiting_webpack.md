@@ -14,7 +14,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### npm scripts
 
-While `npx webpack` and `npx webpack serve` aren't particularly long commands to type, you may have encountered `git subtree push --prefix dist origin gh-pages` in the Restaurant Page project. You surely won't want to be typing that out every time you need to use it.
+While `npx webpack` and `npx webpack serve` aren't particularly long commands to type, you will have encountered `git subtree push --prefix dist origin gh-pages` in the Restaurant Page project's deployment instructions. You surely won't want to be typing that out every time you need to use it.
 
 Fortunately, we can write npm scripts in our `package.json` file by adding a `"scripts"` property containing an object of scripts. Scripts can be written in the form `"name": "command"`, and are executed by running `npm run <name>` in the terminal. For example:
 
@@ -30,7 +30,7 @@ Fortunately, we can write npm scripts in our `package.json` file by adding a `"s
 }
 ```
 
-We have three npm scripts here. Running `npm run build` would be the same as running `npx webpack` (which you may have seen in the Webpack guides from the previous Webpack lesson), `npm run dev` would be the same as `npx webpack serve`, and `npm run deploy` would just run `git subtree push --prefix dist origin gh-pages` for us. Not only can we sometimes save time, it's also nice to have sensible and somewhat standardized names for our commands. `npm run build` often contains a tool's command for building/bundling/compiling. `npm run dev` is often used to start a dev server, etc. Names might not always be the same, but they can explain their purposes better than `npx webpack`.
+We have three npm scripts here. In this case, running `npm run build` would be the same as running `npx webpack` (which you may have seen in the Webpack guides from the previous Webpack lesson), `npm run dev` would be the same as `npx webpack serve`, and `npm run deploy` would run `git subtree push --prefix dist origin gh-pages` for us. Not only can we often save time, it's also nice to have sensible and somewhat standardized names for our commands. `npm run build` often contains a tool's command for building/bundling/compiling. `npm run dev` is often used to start a dev server, etc. Names might not always be the same, but they can explain their purposes better than `npx webpack`.
 
 Note that we drop the `npx` from the start of the `webpack` and `webpack serve` commands when setting them as scripts, as we only needed `npx` to run them directly in the terminal without npm scripts.
 
@@ -51,11 +51,11 @@ In the assignment, we will introduce a tool called `webpack-merge` that can make
 
 ### Template repositories
 
-One thing you might have noticed already is that setting up Webpack involves multiple files and directories, and a fair bit of configuration. Each time you set up a new project with Webpack, you may have to look at what you configured before to copy and paste the configuration you want to reuse. You may also have noticed that whenever you create a new repository on Github, there is an option near the top for a `Repository template`.
+One thing you might have noticed already is that setting up Webpack involves multiple files and directories, and a fair bit of configuration. Each time you set up a new project with Webpack, you may have to look at what you configured before to copy and paste the configuration you want to reuse. You may have also noticed that whenever you create a new repository on Github, there is an option near the top for a `Repository template`.
 
 This is where template repositories can really come in handy. Any of your existing repositories can be converted to a template in its settings (right under where you can rename the repository, there is a checkbox for whether the repository is a template or not). If you check this box, congratulations! That's all you need to do. Now, when you go to create a new repository, the `Repository template` dropdown will list any templates for you to select. Selecting one will mean your new repository will be a copy of the chosen template, not an empty one!
 
-You may not know for sure what you might want or need in a template, but when you find yourself reusing a lot of setup code for multiple projects, you can make a new repository with all of the setup code you need and mark it as a template. Now you can select that template when creating a new project repository to save time, letting you dive into working on the project itself sooner!
+You may not know for sure what you might want or need in a template, but when you find yourself reusing a lot of setup code for multiple projects, you can make a new repository with all of the setup code you need and mark it as a template, then update it as necessary. Now you can select that template when creating a new project repository to save time, letting you dive into working on the project itself sooner!
 
 ### Assignment
 
