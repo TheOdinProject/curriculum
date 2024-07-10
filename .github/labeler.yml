@@ -33,7 +33,7 @@
 
 'Content: Markdownlint':
   - 'markdownlint/**/*'
-  - '*.markdownlint-cli2.jsonc'
+  - '**/*.markdownlint-cli2.jsonc'
 
 'Type: Chore':
   - 'archive/**/*'
