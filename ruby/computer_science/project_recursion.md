@@ -50,9 +50,9 @@ To showcase the recursive effect implemented in your Fibonacci method, do the fo
 
 1. Add the following to the start of the method:
 
-    ```ruby
-    puts 'This was printed recursively'
-    ```
+   ```ruby
+   puts 'This was printed recursively'
+   ```
 
 1. Run the method with `8` as the input.
 

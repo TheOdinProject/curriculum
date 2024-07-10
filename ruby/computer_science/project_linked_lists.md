@@ -71,16 +71,16 @@ Let's test out the Linked List you made!
 
 1. Create an instance of `LinkedList` and populate it with nodes:
 
-    ```ruby
-    list = LinkedList.new
+   ```ruby
+   list = LinkedList.new
 
-    list.append('dog')
-    list.append('cat')
-    list.append('parrot')
-    list.append('hamster')
-    list.append('snake')
-    list.append('turtle')
-    ```
+   list.append('dog')
+   list.append('cat')
+   list.append('parrot')
+   list.append('hamster')
+   list.append('snake')
+   list.append('turtle')
+   ```
 
 1. Add `puts list` to the end of the file and run it. Because of the naming, this should use the `#to_s` method you wrote earlier.
 
