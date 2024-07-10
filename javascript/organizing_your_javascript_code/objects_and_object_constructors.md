@@ -1,6 +1,6 @@
 ### Introduction
 
-Now that you've got a basic understanding of *why* and *how* you might use objects to organize data and functionality into objects, it's important to about some basic strategies for creating creating duplicates of objects, and using existing types of objects as a base for creating new ones.
+Now that you've got a basic understanding of *why* and *how* you might use objects to organize data and functionality, it's important to learn some basic strategies for creating duplicates (often called *instances*) of objects, and using existing types of objects as a base for creating new ones through *inheritance*.
 
 ### Lesson overview
 
