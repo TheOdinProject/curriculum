@@ -35,7 +35,7 @@ class Book {
 
 Or you could mix and match the two approaches. Create a `Database` class and inherit from it in your entity classes. Or you fancy composition, and just want to deal with pure functions.
 
-Now do this over and over for each of entity, across multiple projects. You get the point. It can be argued that the above is not a bad thing, as you're learning and practicing, and it isn't. It's sufficient for solo projects, but as your codebase grows, and as you work in teams, you'll realize how much an ORM really helps you focus on writing code that's business critical.
+Now do this over and over for each entity, across multiple projects. You get the point. It can be argued that the above is not bad, as you're learning and practicing, and it isn't. It's sufficient for solo projects, but as your codebase grows, and as you work in teams, you'll realize how much an ORM really helps you focus on writing code that's business critical.
 
 Writing more code is not necessarily a bad thing, and we even suggest that you explore these above ideas in your solo projects. But as you start to work in teams, and with large scale software, it becomes imperative to have a standard way of interacting with the database, either with an external library or a homegrown solution.
 
