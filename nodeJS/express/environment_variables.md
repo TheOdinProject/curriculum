@@ -2,7 +2,7 @@
 
 When you run your code, your code runs in an individual environment. Run your code on a different machine? Different environment. Host your website somewhere like Netlify or Vercel? Different environment to your machine. Each environment is a unique collection of tools and configurations.
 
-You will have certainly written many functions with parameters that, each time you call them, you pass in different arguments. Depending on those arguments, the outcome may differ. Just like with function parameters, your applications themselves can make use of **environment variables**. When you run your code, you can pass in values to those environment variables, and you can pass in different values in different environments as necessary.
+You will have certainly written many functions that you've called multiple times with different arguments. The function may behave differently or return a different value depending on those arguments. Just like with function parameters, your applications themselves can make use of **environment variables**. When you run your code, you can pass in values to those environment variables, and different environments can be given different values.
 
 ### Lesson overview
 
@@ -29,7 +29,7 @@ Or perhaps you're building an API connected to a database, but you want to use a
 
 #### Environment variables are always strings
 
-Even if you load or assign an environment variable with something other than a string, such as a number, the value stored will always be a string. If you want to use an environment variable as an actual number, you must convert it to one.
+Environment variables will always be strings, even if you give it something else like a number. If you want to use an environment variable as a number, you must convert it first.
 
 </div>
 
@@ -51,13 +51,13 @@ But how exactly do you set their values?
 
 ### Loading environment variables
 
-There are multiple ways you can load environment variables, though some are more cumbersome or may not have stable support yet in many Node versions. With one such way, instead of running your app with just `node index.js`, you could pass the values directly in the command, such as the following (note that quotes are optional for values that do not contain certain special characters like spaces or `=`):
+There are multiple ways you can load environment variables, though some are more cumbersome or may not have stable support yet in many Node versions. One way is by defining the environment variables and their values directly in the command to run your code. Instead of running your app with just `node index.js`, you could run the following (note that quotes are optional for values that do not contain certain special characters like spaces or `=`):
 
 ```bash
 MODE=prod VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0" node index.js
 ```
 
-We're sure that you can see this might get quite cumbersome. If you had sensitive data like database credentials, that's even worse since you wouldn't want to push your `package.json` if it contained those values in an npm script!
+In the above, we define environment variables called `MODE` and `VIDEO_URL`, and assign them their respective values. Now any part of our code that uses those variables will have those values, just like function parameters! We're sure that you can see this might get quite cumbersome though, especially if you had lots of environment variables. If you had sensitive data like database credentials, that's even worse since you wouldn't want to push your `package.json` if it contained those values in an npm script!
 
 #### dotenv
 
@@ -73,9 +73,6 @@ This file can be added to your `.gitignore` file, making sure any secrets are ke
 ```javascript
 // index.js - as early in the code as possible
 require("dotenv").config();
-
-// { MODE: "prod", VIDEO_URL: "https://www.youtube.com/watch?v=X2CYWg9-2N0" }
-console.log(process.env);
 ```
 
 You can now just run your code with `node index.js` and dotenv will handle all the loading for you. Note that dotenv isn't the only way to handle environment variables and security. Projects where a whole team needs synced access to the same environment variables, or otherwise more complex applications, may benefit from more robust and flexible options. For this course, dotenv should serve our needs more than well.
@@ -84,7 +81,7 @@ You can now just run your code with `node index.js` and dotenv will handle all t
 
 #### Environment variables and deployment
 
-When you deploy an app, since your repo will not contain your `.env` file, you will have to research how your chosen Platform as a service (PaaS) handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
+When you deploy an app, your repo will not contain your `.env` file so you will have to research how your chosen Platform-as-a-service (PaaS) handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
 
 </div>
 
@@ -96,7 +93,7 @@ When you deploy an app, since your repo will not contain your `.env` file, you w
 
 #### Keep your secrets safe!
 
-Environment variables aren't only for sensitive data but you will often need them for that. Make sure you add `.env` to `.gitignore` so you **do not publish it**.
+Environment variables aren't only for sensitive data but you will often need them for that. In your projects, if you use environment variables, make sure you add `.env` to `.gitignore` so you **do not publish it**.
 
 </div>
 
