@@ -1,8 +1,10 @@
 ### Introduction
 
-In the previous lesson, we introduced ES6 modules (ESM) and npm. While the introduction of ESM greatly mitigated some of the issues with managing individual script files and dependencies, there would still be performance issues to consider the more module files the browser would have to download individually (especially as more third-party libraries would be imported). Fortunately, more recent web technologies have greatly improved these aspects, but bundlers still provide us with a lot of power to process and optimize our code in various ways. This power, however, does come with the small cost of needing to configure a bundler. For now, our needs are few and simple, and we can look at the basic things one at a time.
+In the previous lesson, we introduced ES6 modules (ESM) and npm. While the introduction of ESM greatly mitigated some of the issues with managing individual script files and dependencies, there would still be performance issues to consider the more module files the browser would have to download individually (especially as more third-party libraries would be imported).
 
-Awareness of and basic experience with bundlers are valuable. While in recent years, new build tools have come out that handle a lot of basic configuration for us, in the real world, you may not always get a chance to use these tools. It's very reasonable to end up working with codebases that use tools that require more manual configuration. Even if you did get to work with tools that handle more things for you, it's useful to understand what those tools are actually doing for you.
+Fortunately, more recent web technologies have greatly improved these aspects, but bundlers still provide us with a lot of power to process and optimize our code in various ways. This power, however, does come with the small cost of needing to configure a bundler. For now, our needs are few and simple, and we can look at the basic things one at a time.
+
+Awareness of bundlers and basic experience with them is valuable. While in recent years, new build tools have come out that handle a lot of basic configuration for us, in the real world, you may not always get a chance to use these shiny new tools. It's very reasonable to end up working with codebases that use tools that require more manual configuration. Even if you did get to work with tools that handle more things for you, it's useful to understand what those tools are actually doing for you.
 
 ### Lesson overview
 
@@ -211,11 +213,11 @@ All this does is tell Webpack that if it encounters an imported file ending with
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-#### Loader order matters!
+#### Loader order matters for CSS!
 
 Notice how we put `css-loader` **at the end** of the array. We **must** set this order and not the reverse.
 
-Webpack will run the loaders starting at the end, so we want it to read the CSS file into a string with `css-loader` first, then use `style-loader` to inject the JavaScript that applies the CSS in that string to the page. It wouldn't work the same if we told it to do things back-to-front now.
+Webpack will run the loaders starting at the end, so we want it to read the CSS file into a string with `css-loader` first, then use `style-loader` to inject the JavaScript that applies the CSS in that string to the page. It wouldn't work the same the other way round.
 
 </div>
 
@@ -238,6 +240,12 @@ console.log(greeting);
 ```
 
 Once again, bundle with Webpack using `npx webpack`, then open `dist/index.html` and enjoy the beautiful purple screen!
+
+#### What about link tags?
+
+Notice how we don't link our CSS file in our HTML template like we would've done before. While you could do this with one of the loaders from the next section, in the real world, projects often contain many moving parts and many modules. Eventually, it becomes easier to work with multiple smaller CSS files that you import in the modules they're needed. There are even ways those files can be scoped only to those modules and not globally!
+
+We're only introducing the minimum to allow you to import your CSS into your JavaScript, but many build tools and more sophisticated bundler configurations will do a lot more to imported CSS than what we're showing here.
 
 ### Loading images
 
@@ -349,7 +357,7 @@ You may have used something like the Live Server VSCode extension before, where 
 
 It works by bundling your code behind the scenes (as if we ran `npx webpack`, but without saving the files to `dist`), and it does this every time you save a file that's used in the bundle. We can also use something called a **source map** so that any error messages reference files and lines from our development code and not the jumbled mess inside our single bundled `.js` file!
 
-Once installed, in our `webpack.config.js`, we only need to add a couple more properties somewhere in the configuration object (the order does not matter):
+Once installed, in our `webpack.config.js`, we only need to add a couple more properties somewhere in the configuration object (the order of these properties does not matter):
 
 ```javascript
 // webpack.config.js
