@@ -25,6 +25,14 @@ Or perhaps you're building an API connected to a database, but you want to use a
 
 ### Accessing environment variables
 
+<div class="lesson-note" markdown="1">
+
+#### Environment variables are always strings
+
+Even if you load or assign an environment variable with something other than a string, such as a number, the value stored will always be a string. If you want to use an environment variable as an actual number, you must convert it to one.
+
+</div>
+
 We will go through loading environment variable values shortly, but first, how do you access them in a Node app?
 
 Environment variables are accessed via Node's built-in `process` object, more specifically its `env` property. Node will load each environment variable to `process.env`, using its name as the property. The convention for environment variable names is to use `UPPER_SNAKE_CASE` (sometimes lightheartedly referred to as `SCREAMING_SNAKE_CASE` or `SHOUTY_CASE`). For example:
@@ -71,6 +79,14 @@ console.log(process.env);
 ```
 
 You can now just run your code with `node index.js` and dotenv will handle all the loading for you. Note that dotenv isn't the only way to handle environment variables and security. Projects where a whole team needs synced access to the same environment variables, or otherwise more complex applications, may benefit from more robust and flexible options. For this course, dotenv should serve our needs more than well.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Environment variables and deployment
+
+When you deploy an app, since your repo will not contain your `.env` file, you will have to research how your chosen deployment provider handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
+
+</div>
 
 ### Assignment
 
