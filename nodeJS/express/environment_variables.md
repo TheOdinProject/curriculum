@@ -86,11 +86,11 @@ No hardcoding of those values into the source code! If you want to change the va
 
 #### Keep your secrets safe!
 
-Environment variables aren't only for sensitive data but you will often need them for that. In your projects, if you use environment variables, make sure you add `.env` to `.gitignore` so you **do not publish it**.
+Environment variables aren't only for sensitive data, but you will often need them for that. In your projects, if you use environment variables, make sure you add `.env` to `.gitignore` so you **do not publish it**.
 
 </div>
 
-1. Check out [dotenv's documentation](https://www.npmjs.com/package/dotenv#-documentation). While you may not need many of their other features in this curriculum like dotenvx or dotenv-vault, it's good to be aware that they exist.
+1. Check out [dotenv's documentation](https://www.npmjs.com/package/dotenv#-documentation). While you may not need many of their other features in this curriculum, like dotenvx or dotenv-vault, it's good to be aware that they exist.
 
 </div>
 
