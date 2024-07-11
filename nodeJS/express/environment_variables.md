@@ -42,7 +42,7 @@ if (process.env.MODE === "prod") {
     // do production-specific stuff
 }
 
-// don't want to ruin the surprise!
+// don't want to ruin the surprise by hardcoding the URL!
 // it might even change every few days!
 redirectUserToSuperSecretVideo(process.env.VIDEO_URL);
 ```
@@ -84,7 +84,7 @@ You can now just run your code with `node index.js` and dotenv will handle all t
 
 #### Environment variables and deployment
 
-When you deploy an app, since your repo will not contain your `.env` file, you will have to research how your chosen deployment provider handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
+When you deploy an app, since your repo will not contain your `.env` file, you will have to research how your chosen Platform as a service (PaaS) handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
 
 </div>
 
@@ -100,7 +100,7 @@ Environment variables aren't only for sensitive data but you will often need the
 
 </div>
 
-1. ASSIGNMENT ITEM
+1. Check out [dotenv's documentation](https://www.npmjs.com/package/dotenv#-documentation). While you may not need many of their other features in this curriculum like dotenvx or dotenv-vault, it's good to be aware that they exist.
 
 </div>
 
@@ -108,7 +108,12 @@ Environment variables aren't only for sensitive data but you will often need the
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
+- [What are environment variables?](#environment-variables)
+- [What might you want to use environment variables for?](#environment-variables)
+- [How do you access environment variables in a Node app?](#accessing-environment-variables)
+- [What data type will an environment variable always be?](#environment-variables-are-always-strings)
+- [What npm package could you use to load environment variables from a `.env` file?](https://www.npmjs.com/package/dotenv)
+- [Should you push your `.env` file to GitHub?](#keep-your-secrets-safe)
 
 ### Additional resources
 
