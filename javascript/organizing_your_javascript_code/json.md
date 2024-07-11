@@ -18,4 +18,4 @@ Fortunately, there isn't much to learn here. We're only including a lesson on it
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Web Dev Simplified explains [JSON in ten minutes](https://www.youtube.com/watch?v=iiADhChRriM).
