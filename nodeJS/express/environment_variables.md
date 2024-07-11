@@ -9,8 +9,8 @@ You will have certainly written many functions that you've called multiple times
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Describe what environment variables are and their benefits.
-- Access environment variables using Node's `process` object.
-- Use dotenv to store and make environment variables available to your application globally.
+- Use dotenv to store and make environment variables available in your code.
+- Access environment variables using Node's `process.env` object.
 
 ### Environment variables
 
@@ -23,19 +23,48 @@ For example, a production environment may want additional logging and analytics 
 
 Or perhaps you're building an API connected to a database, but you want to use a separate test database during development instead of the production one. You can pass your test database's URL and credentials into your app when you develop locally, but the deployment will have the values for the production database. On top of this, you can store environment variable values in a file that you add to your `.gitignore`, preventing the contents of that file from being exposed when changes are pushed.
 
-### Accessing environment variables
+### Loading environment variables
 
-<div class="lesson-note" markdown="1">
+There are multiple ways you can load environment variables, though some are more cumbersome or may not have stable support yet in many Node versions. One way is by defining the environment variables and their values directly in the command to run your code. Instead of running your app with just `node index.js`, you could run the following (note that quotes are optional for values that do not contain certain special characters like spaces or `=`):
 
-#### Environment variables are always strings
+```bash
+MODE=prod VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0" node index.js
+```
 
-Environment variables will always be strings, even if you give it something else like a number. If you want to use an environment variable as a number, you must convert it first.
+In the above, we define environment variables called `MODE` and `VIDEO_URL`, and assign them their respective values. Now any part of our code that uses those variables will have those values, just like function parameters! The convention for naming environment variables is to use `UPPER_SNAKE_CASE` (sometimes endearingly referred to as `SCREAMING_SNAKE_CASE` or `SHOUTY_CASE`).
+
+You might see that this could quickly get quite cumbersome though, especially if you had lots of environment variables. If you had sensitive data like database credentials, that's even worse since you wouldn't want to push your `package.json` if it contained those values in an npm script!
+
+#### dotenv
+
+[dotenv](https://www.npmjs.com/package/dotenv) is one of the most common ways to load environment variables. After installing the npm package, you can create a file called `.env` in the root of your project that will contain all of your environment variables in the format `NAME="VALUE"`. For example:
+
+```properties
+MODE=prod
+VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0"
+```
+
+This file can be added to your `.gitignore` file, making sure any secrets are kept safe! All you'd need to do now is import dotenv into your app (as early as possible in the code) so it can load those variables.
+
+```javascript
+require("dotenv").config();
+```
+
+You can now just run your code with `node index.js` and dotenv will handle all the loading for you. Note that dotenv isn't the only way to handle environment variables and security. Projects where a whole team needs synced access to the same environment variables, or otherwise more complex applications, may benefit from more robust and flexible options. For this course, dotenv should serve our needs more than well.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Environment variables and deployment
+
+When you deploy an app that uses environment variables, your repo will not contain your `.env` file so you will have to research how your chosen Platform-as-a-service (PaaS) handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
 
 </div>
 
-We will go through loading environment variable values shortly, but first, how do you access them in a Node app?
+Awesome! You can load environment variables now, but how do you actually access them in your code?
 
-Environment variables are accessed via Node's built-in `process` object, more specifically its `env` property. Node will load each environment variable to `process.env`, using its name as the property. The convention for environment variable names is to use `UPPER_SNAKE_CASE` (sometimes lightheartedly referred to as `SCREAMING_SNAKE_CASE` or `SHOUTY_CASE`). For example:
+### Accessing environment variables
+
+Environment variables are accessed via Node's built-in `process` object, more specifically its `env` property. Node will load each environment variable to the `process.env` object, using its name as the property. You can then access them like any normal object property.
 
 ```javascript
 if (process.env.MODE === "prod") {
@@ -47,43 +76,7 @@ if (process.env.MODE === "prod") {
 redirectUserToSuperSecretVideo(process.env.VIDEO_URL);
 ```
 
-But how exactly do you set their values?
-
-### Loading environment variables
-
-There are multiple ways you can load environment variables, though some are more cumbersome or may not have stable support yet in many Node versions. One way is by defining the environment variables and their values directly in the command to run your code. Instead of running your app with just `node index.js`, you could run the following (note that quotes are optional for values that do not contain certain special characters like spaces or `=`):
-
-```bash
-MODE=prod VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0" node index.js
-```
-
-In the above, we define environment variables called `MODE` and `VIDEO_URL`, and assign them their respective values. Now any part of our code that uses those variables will have those values, just like function parameters! We're sure that you can see this might get quite cumbersome though, especially if you had lots of environment variables. If you had sensitive data like database credentials, that's even worse since you wouldn't want to push your `package.json` if it contained those values in an npm script!
-
-#### dotenv
-
-[dotenv](https://www.npmjs.com/package/dotenv) is one of the most common ways to load environment variables. After installing the npm package, you can create a file called `.env` in the root of your project that will contain all of your environment variables in the format `NAME="VALUE"`. For example:
-
-```properties
-MODE=prod
-VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0"
-```
-
-This file can be added to your `.gitignore` file, making sure any secrets are kept safe! All you'd need to do now is import dotenv into your app so it can load those variables.
-
-```javascript
-// index.js - as early in the code as possible
-require("dotenv").config();
-```
-
-You can now just run your code with `node index.js` and dotenv will handle all the loading for you. Note that dotenv isn't the only way to handle environment variables and security. Projects where a whole team needs synced access to the same environment variables, or otherwise more complex applications, may benefit from more robust and flexible options. For this course, dotenv should serve our needs more than well.
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### Environment variables and deployment
-
-When you deploy an app, your repo will not contain your `.env` file so you will have to research how your chosen Platform-as-a-service (PaaS) handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
-
-</div>
+No hardcoding of those values into the source code! If you want to change the value of an environment variable, you can just change it in your `.env` file then rerun the program. Do also note that environment variables will always be strings, so you must convert if you want to use any as a number or boolean, for example.
 
 ### Assignment
 
@@ -107,9 +100,9 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What are environment variables?](#environment-variables)
 - [What might you want to use environment variables for?](#environment-variables)
-- [How do you access environment variables in a Node app?](#accessing-environment-variables)
-- [What data type will an environment variable always be?](#environment-variables-are-always-strings)
 - [What npm package could you use to load environment variables from a `.env` file?](https://www.npmjs.com/package/dotenv)
+- [How do you access environment variables in a Node app?](#accessing-environment-variables)
+- [What data type will an environment variable always be?](#accessing-environment-variables)
 - [Should you push your `.env` file to GitHub?](#keep-your-secrets-safe)
 
 ### Additional resources
