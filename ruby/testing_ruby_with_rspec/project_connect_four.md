@@ -19,7 +19,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 
 ### Project: TDD Connect Four
 
-Hopefully everyone has played Connect Four at some point (if not, see the Connect Four [Wikipedia page](http://en.wikipedia.org/wiki/Connect_Four)).  It's a basic game where each player takes turns dropping pieces into the cage.  Players win if they manage to get 4 of their pieces consecutively in a row, column, or along a diagonal.
+Hopefully most people will have played [Connect Four](http://en.wikipedia.org/wiki/Connect_Four) at some point. It's a basic game where each player takes turns dropping pieces into the cage. Players win if they manage to get 4 of their pieces consecutively in a row, column, or along a diagonal.
 
 The game rules are fairly straightforward and you'll be building it on the command line like you did with the other games.  If you want to spice up your game pieces, look up the [unicode miscellaneous symbols](http://en.wikipedia.org/wiki/List_of_Unicode_characters#Miscellaneous_Symbols) on Wikipedia.  The Ruby part of this should be well within your capability by now so it shouldn't tax you much to think about it.
 
