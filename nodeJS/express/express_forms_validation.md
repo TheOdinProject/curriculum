@@ -71,7 +71,7 @@ npm install express-validator
 To get started using the package, we first need to *require* it in our project
 
 ```javascript
-const { body, validationResult } = require('express-validator');
+const { body, validationResult } = require("express-validator");
 ```
 
 `express-validator` comes with many functions for just about every form operation you could think of, but for this lesson, we'll be sticking with `body()` and `validationResult()`.
@@ -342,7 +342,7 @@ And we need to update our `index.ejs` view to render these errors. Let's create 
 And we'll include the partial just above our form in `index.ejs`.
 
 ```ejs
-<%- include('partials/errors.ejs') %>
+<%- include("partials/errors.ejs") %>
 ```
 
 If the form is filled out incorrectly, you'll see a page containing all the errors.
@@ -351,7 +351,7 @@ Now that we can create users, we also need a way to modify them. Let's create a 
 
 ```ejs
 <!-- views/edit.ejs -->
-<%- include('partials/errors.ejs') %>
+<%- include("partials/errors.ejs") %>
 <form action="/users/<%= user.userId %>/update" method="POST">
   <input type="text" name="firstName" value="<%= user.firstName %>" required>
   <input type="text" name="lastName" value="<%= user.lastName %>" required>
