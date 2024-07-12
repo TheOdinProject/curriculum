@@ -57,19 +57,8 @@ The `form` attributes define how to communicate with the server:
 #### Form handling process
 
 The form's `action` will point to some endpoint on our server, which will allow our controller the request. The controller then communicates with the database to handle the data.
+
 We then generate a new or updated view with the controller's response and redirect the client. This is known as the [Post/Redirect/Get (PRG)](https://en.wikipedia.org/wiki/Post/Redirect/Get) design pattern which helps prevent duplicate `POST` requests.
-
-It might help to visualize what this entire process looks like:
-
-<pre class="mermaid">
-graph TD
-    A[Client] -->|1. POST /users/create| B(Server)
-    B -->|2. Process Data| C[(Database)]
-    B -->|"3. Redirect (302)"| D[Client]
-    D -->|4. GET /users| E(Server)
-    E -->|5. Fetch Data| F[(Database)]
-    E -->|"6. Render view (200 OK)"| G[Client]
-</pre>
 
 ### Validation and sanitization
 
