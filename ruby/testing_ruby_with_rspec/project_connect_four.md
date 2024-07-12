@@ -40,5 +40,5 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Stack Overflow has an [RSpec Mock Object example](http://stackoverflow.com/questions/3622604/rspec-mock-object-example).
-- Youtube has a [helpful video](https://www.youtube.com/watch?v=URSWYvyc42M) by Sandi Metz about Ruby testing.
+- Youtube has a [helpful video by Sandi Metz about Ruby testing](https://www.youtube.com/watch?v=URSWYvyc42M).
 - Tutorials Point has an article about [RSpec Writing Specs](https://www.tutorialspoint.com/rspec/rspec_writing_specs.htm).
