@@ -32,26 +32,26 @@ The real question is whether or not tests should *drive* development, or whether
 As usual, it depends. Still, here are some reasons we think it might be important for you to implement TDD:
 
 1. **Practice**. Many employers look for developers who have experience or interest in testing. Sure, you can write tests later, but will you really? Test first to make sure you get exposure as soon as possible.
-2. **Effectiveness**. Writing tests before code is like stretching before a workout. It's not required, but your workout could suffer. Writing tests first ensures that the code that comes after has clearer design, purpose, and quality.
-3. **Efficiency**. You'll save time in the long run by not having to re-run entire applications just to make sure little parts work.
+1. **Effectiveness**. Writing tests before code is like stretching before a workout. It's not required, but your workout could suffer. Writing tests first ensures that the code that comes after has clearer design, purpose, and quality.
+1. **Efficiency**. You'll save time in the long run by not having to re-run entire applications just to make sure little parts work.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. Read up on the [9 Benefits of Test-Driven Development](https://www.madetech.com/blog/9-benefits-of-test-driven-development) for additional insight on this practice. Note that many of these points are not specific to TDD, but are also applicable to testing in general.
-2. For a more rounded take, consider DHH's ["TDD is Dead. Long Live Testing"](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html), which sparked controversial conversations on what TDD is, what it has become, and what it should be.
-3. James Sinclair's article explains more about [the why/how and value behind TDD](https://jrsinclair.com/articles/2016/one-weird-trick-that-will-change-the-way-you-code-forever-javascript-tdd/) and also includes some great examples of how to apply it. While the examples are in JavaScript, the focus is on the value behind the TDD approach.
+1. For a more rounded take, consider DHH's ["TDD is Dead. Long Live Testing"](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html), which sparked controversial conversations on what TDD is, what it has become, and what it should be.
+1. James Sinclair's article explains more about [the why/how and value behind TDD](https://jrsinclair.com/articles/2016/one-weird-trick-that-will-change-the-way-you-code-forever-javascript-tdd/) and also includes some great examples of how to apply it. While the examples are in JavaScript, the focus is on the value behind the TDD approach.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#what-is-test-driven-development">What is the "red-green-refactor" cycle?</a>
-- <a class="knowledge-check-link" href="https://thoughtbot.com/blog/rails-test-types-and-the-testing-pyramid">What is the difference between unit and integration tests?</a>
-- <a class="knowledge-check-link" href="https://www.madetech.com/blog/9-benefits-of-test-driven-development">How does TDD help in code refactoring?</a>
+- [What is the "red-green-refactor" cycle?](#what-is-test-driven-development)
+- [What is the difference between unit and integration tests?](https://thoughtbot.com/blog/rails-test-types-and-the-testing-pyramid)
+- [How does TDD help in code refactoring?](https://www.madetech.com/blog/9-benefits-of-test-driven-development)
 
 ### Additional resources
 

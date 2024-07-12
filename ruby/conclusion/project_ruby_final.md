@@ -13,6 +13,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
   1. **Build a command line Chess game where two players can play against each other.**
   1. The game should be properly constrained -- it should prevent players from making illegal moves and declare check or check mate in the correct situations.
   1. Make it so you can save the board at any time (remember how to serialize?)
