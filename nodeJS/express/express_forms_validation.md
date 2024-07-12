@@ -8,11 +8,8 @@ Proper form handling is how we maintain data integrity and prevent security vuln
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Understanding HTML form elements and their actions.
-
 - The form handling process in a client-server application.
-
 - Using `express-validator` for validation and sanitization.
-
 - Best practices for form design and data integrity.
 
 ### HTML forms overview
@@ -48,7 +45,6 @@ The `type="submit"` button can be pressed by the user to upload the data entered
 The `form` attributes define how to communicate with the server:
 
 - `action`: The resource/URL where data is sent for processing when the form is submitted. If this is not set, or is an empty string, the form will be submitted back to the current page URL
-
 - `method`: Defines the HTTP method to use (`POST` or `GET`).
 
 `POST` is more secure for sensitive information, and is used when changing or creating data in the server's database.
@@ -65,7 +61,6 @@ We then generate a new or updated view with the controller's response and redire
 Before the data from a form is sent off to our server, we must first do two things
 
 - *Validation* ensures user input meets the specified criteria (e.g. required fields, correct format).
-
 - *Sanitization* cleans user input to prevent malicious data from being processed by removing or encoding potentially malicious characters.
 
 The library we'll be using is called `express-validator`. While it simplifies both of these processes for us,
@@ -495,15 +490,10 @@ We'll need a new route and view that lets clients search our list of users.
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What are the attributes of a form element and what do they do?](#html-forms-overview)
-
 - [How do you install and import express-validator in your project?](#validation-and-sanitization)
-
 - [How do you validate and sanitize form input using express-validator?](#understanding-the-body-function)
-
 - [What is the difference between validation and sanitization?](#validation-and-sanitization)
-
 - [How do you handle validation errors in Express routes?](#validation-results)
-
 - [What is the importance of escaping HTML characters in a form?](https://owasp.org/www-community/attacks/SQL_Injection)
 
 ### Additional resources
