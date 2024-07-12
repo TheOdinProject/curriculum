@@ -1,6 +1,6 @@
 ### Introduction
 
-Needless to say, while learning to code, you'll be spending most of your time on a computer. Hence, understanding how to work with your computer is crucial. In this lesson, we'll introduce a resource which will quickly get you up to speed with some computer basics. 
+Needless to say, while learning to code, you'll be spending most of your time on a computer. Hence, understanding how to work with your computer is crucial. In this lesson, we'll introduce a resource which will quickly get you up to speed with some computer basics.
 
 ### Lesson overview
 
@@ -25,10 +25,9 @@ Goodwill Community Foundation (GCF) resources are excellent to get you acquainte
 
 </div>
 
-
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Is Windows an operating system or an application?](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
 - [What's the difference between open source and closed source software?](https://edu.gcfglobal.org/en/basic-computer-skills/open-source-vs-closed-source-software/1/)
@@ -37,7 +36,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Check out [GCF's page on "What are accessibility features"](https://edu.gcfglobal.org/en/computerbasics/using-accessibility-features/1/) to learn how you can leverage these features to use your computer efficiently.
 - If you feel like spending more time learning about this topic, check out [FreeCodeCamp's excellent course on computer basics](https://youtu.be/y2kg3MOk1sY).

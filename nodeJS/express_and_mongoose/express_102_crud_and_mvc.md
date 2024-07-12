@@ -72,5 +72,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- FreeCodeCamp has a [deeper explanation of MVC](https://medium.freecodecamp.org/simplified-explanation-to-mvc-5d307796df300).
+- FreeCodeCamp has a [deeper explanation of MVC](https://www.freecodecamp.org/news/simplified-explanation-to-mvc-5d307796df30/).
 - [Web Dev Simplified's Mongoose crash course](https://www.youtube.com/watch?v=DZBGEVgL2eE) gives a run-down of how you should expect to use Mongoose for MongoDB in NodeJS, as well as some advanced things you can do with object schemas.

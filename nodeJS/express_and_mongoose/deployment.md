@@ -95,17 +95,15 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 #### Fly.io
 
-- Fly.io uses a convenient CLI tool for deployment.
-- Pay for what you use with very reasonable rates. Each app should cost around $4 per month.
-- $20 a month should be enough to host eight apps (including three apps for free).
+- Fly.io uses a CLI tool for deployment.
+- Paid plans include [free allowances](https://fly.io/docs/about/pricing/#free-allowances), additional resources are billed based on usage with very reasonable rates.
 - Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
 
-##### Fly.io: Free Plan
+##### Fly.io: Hobby Plan
 
-- You can host three apps for free before you need to start paying.
+- New customers get a one-time $5 free trial credit to test Fly.io at no cost. The free allowances are not applicable during the free trial. After the credit has been used, you will be be automatically placed on the $5/month Hobby plan subscription.
+- The longevity of your free trial credit depends on how many resources you consume. More complex apps with more traffic may consume the whole free trial credit within a month, whereas simpler apps may last longer.
 - Requires a credit card.
-- Fly.io waives monthly invoices that total less than $5 USD. So, although it may look like
-  you are being charged, it's very unlikely that you will exceed $5 and actually have to pay.
 
 ##### Fly.io: Links
 
@@ -124,7 +122,7 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 ##### Railway.app: Free Plan
 
 - You get a free one-time grant of $5 on their free trial, and the applications are never put to sleep when inactive.
-- However, the longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
+- The longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
 
 ##### Railway.app: Links
 
@@ -241,7 +239,7 @@ This will be where the Git skills you've been learning will start to really pay 
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Deploy your [Mini Message Board project](https://www.theodinproject.com/lessons/nodejs-mini-message-board) to one of the hosting providers we've mentioned. If you need help deciding which one to use, we recommend Fly.io. The important thing to take away from this first deployment is getting experience deploying. Don't worry if you don't understand everything that's happening. That will come with time.
+1. Deploy your [Mini Message Board project](https://www.theodinproject.com/lessons/nodejs-mini-message-board) to one of the hosting providers we've mentioned. Any of the free options will work for curriculum purposes, so it doesn't matter which you pick for your projects. The important thing to take away from this first deployment is getting experience deploying. Don't worry if you don't understand everything that's happening. That will come with time.
    - Use one of the linked deploy guides for your PaaS provider to help you through the process.
    - If you're having trouble deploying, check out the [Debugging and Troubleshooting Deployments](#debugging-and-troubleshooting-deployments) section for some tips.
    - If for some reason the deployment is still too difficult, and you just can't seem to get it to work, move onto the next project and come back once you've deployed your MDN project. The steps in their tutorial hold your hand a bit more through the process and will give you the confidence you need to deploy this project.

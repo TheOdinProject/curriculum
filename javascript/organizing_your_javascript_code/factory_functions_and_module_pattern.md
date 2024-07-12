@@ -1,4 +1,4 @@
-### Why not constructors?
+### Introduction
 
 We have discussed object constructors in the previous lesson. However, they are one of the many ways to organize your code. While they are fairly common and a fundamental building block of the JavaScript language, they have their flaws.
 
@@ -224,7 +224,7 @@ function createPlayer (name, level) {
 }
 ```
 
-### The module pattern - IIFEs
+### The module pattern: IIFEs
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
 
@@ -265,8 +265,6 @@ Take the calculator example into consideration. It's very easy to imagine a scen
 1. WesBos has a beautiful and in-depth section on scopes and closures. Please check out these sections under "Module 3 - The Tricky Bits":
    - [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
    - [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
-
-1. [Tarek Sherif's article discussing the problems with constructors](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) goes into depth while suggesting factories as a solution.
 1. Read this article on [module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm) by Tomek Buszewski.
 1. As an optional alternative, in case you prefer video lessons, this [YouTube series on module pattern](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f) covers most of the content that we have discussed. Note that the videos include jQuery, but you don't need to understand the jQuery syntax since the focus is on the module pattern concept.
 
@@ -282,7 +280,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Describe private variables in factory functions and how they can be useful.](#private-variables-and-functions)
 - [Describe how we can implement prototypal inheritance with factory functions.](#prototypal-inheritance-with-factories)
 - [Explain how the module pattern works.](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
-- [Describe IIFEs and what they stand for.](http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html)
+- [Describe IIFEs and what they stand for.](#the-module-pattern-iifes)
 - [Explain the concept of namespacing and how factory functions help with encapsulation.](#encapsulating-with-the-module-pattern)
 
 ### Additional resources
@@ -290,6 +288,6 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - This video explains [a good example of closures](https://www.youtube.com/watch?v=80O6L2Ez3GM).
-- Here is an [interactive scrim on factory functions](https://scrimba.com/scrim/c2aaKzcV).
+- Here is an [interactive scrim on factory functions](https://v1.scrimba.com/scrim/c2aaKzcV).
 - This article discusses [three different kinds of prototypal inheritance](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9) with some good examples.
 - [Learning JavaScript Design Patterns by Addy Osmani and Lydia Hallie](https://www.patterns.dev/)
