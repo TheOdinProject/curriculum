@@ -48,9 +48,10 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 3. Create a Controller and corresponding routes for the "through" table that will allow a user to become an "attendee" of an event. This will also require creating some sort of interface in the view(s) where the user can indicate that they want to attend an event.
 4. Update the Event's Show page to display a list of attendees.
 5. Add to the User's Show page a list of their "attended_events".
-6. Separate this list of "attended_events" into either events that have occurred in the past or events that will occur in the future. You'll get some good practice building [queries](https://guides.rubyonrails.org/active_record_querying.html#array-conditions) and working with dates. Keep this logic in the view and do not put separate method calls in the controller.
+6. Separate this list of "attended_events" into either events that have occurred in the past or events that will occur in the future. You'll get some good practice [building queries](https://guides.rubyonrails.org/active_record_querying.html#array-conditions) and working with dates. Keep this logic in the view and do not put separate method calls in the controller.
 
 #### Finishing touches
+
 1. Separate the past and upcoming events on the Event's Index page by creating two class methods on the Event model (e.g. `Event.past`).
 2. Refactor the past and upcoming class methods into [scopes](https://guides.rubyonrails.org/active_record_querying.html#scopes).
 3. Put navigation links across the top to help you jump around.
