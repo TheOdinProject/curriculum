@@ -357,7 +357,7 @@ Rails should create the two databases, and as a final check we can start the Rai
 rails s
 ```
 
-Open your browser, and head on over to `localhost:3000`. If you are greeted by the Rails splash page, then we did it! If you see an error, come to the [Discord](https://discord.gg/V75WSQG) community and get some help!
+Open your browser, and head on over to `localhost:3000`. If you are greeted by the Rails splash page, then we did it! If you see an error, come to [our Discord server](https://discord.gg/fbFCkYabZB) and get some help!
 
 ### Knowledge check
 
