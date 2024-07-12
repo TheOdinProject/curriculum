@@ -7,8 +7,8 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 ### Assignment 1
 
 <div class="lesson-content__panel" markdown="1">
-  1. Go back to the [Caesar Cipher Project](/lessons/ruby-caesar-cipher) and write tests for your code.  It shouldn't take more than a half-dozen tests to cover all the possible cases. As always, use the git workflow you learned in [this foundations lesson](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) to work on a new feature so you can work on your new code without fear.
-  2. Clone [this repo](https://github.com/TheOdinProject/ruby_testing) and complete the lessons in the spec folder.
+  1. Go back to the [Caesar Cipher Project](/lessons/ruby-caesar-cipher) and write tests for your code.  It shouldn't take more than a half-dozen tests to cover all the possible cases. As always, use the git workflow you learned in [Revisiting Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) to work on a new feature so you can work on your new code without fear.
+  2. Clone our [ruby testing repo](https://github.com/TheOdinProject/ruby_testing) and complete the lessons in the spec folder.
   3. Write tests for your [Tic Tac Toe project](/lessons/ruby-tic-tac-toe). In this situation, it's not quite as straightforward as just coming up with inputs and making sure the method returns the correct thing. You'll need to make sure the tests that determine victory or loss conditions are correctly assessed.
       1. Start by writing tests to make sure players win when they should, e.g. when the board reads X X X across the top row, your `#game_over` method (or its equivalent) should trigger.
       2. Test each of your critical methods to make sure they function properly and handle edge cases.
@@ -20,7 +20,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 
 Hopefully everyone has played Connect Four at some point (if not, see the [Wikipedia page](http://en.wikipedia.org/wiki/Connect_Four)).  It's a basic game where each player takes turns dropping pieces into the cage.  Players win if they manage to get 4 of their pieces consecutively in a row, column, or along a diagonal.
 
-The game rules are fairly straightforward and you'll be building it on the command line like you did with the other games.  If you want to spice up your game pieces, look up the [unicode miscellaneous symbols](http://en.wikipedia.org/wiki/List_of_Unicode_characters#Miscellaneous_Symbols).  The Ruby part of this should be well within your capability by now so it shouldn't tax you much to think about it.
+The game rules are fairly straightforward and you'll be building it on the command line like you did with the other games.  If you want to spice up your game pieces, look up the [unicode miscellaneous symbols](http://en.wikipedia.org/wiki/List_of_Unicode_characters#Miscellaneous_Symbols) on Wikipedia.  The Ruby part of this should be well within your capability by now so it shouldn't tax you much to think about it.
 
 The major difference here is that you'll be doing this TDD-style.  So figure out what needs to happen, write a (failing) test for it, then write the code to make that test pass, then see if there's anything you can do to refactor your code and make it better.
 
@@ -35,6 +35,6 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 ### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
-* [RSpec Mock example SO question](http://stackoverflow.com/questions/3622604/rspec-mock-object-example)
-* [Helpful video from Sandi Metz](https://www.youtube.com/watch?v=URSWYvyc42M)
-* [Tutorials Point RSpec Writing Specs](https://www.tutorialspoint.com/rspec/rspec_writing_specs.htm)
+* Stack Overflow has an [RSpec Mock Object example](http://stackoverflow.com/questions/3622604/rspec-mock-object-example).
+* Youtube has a [helpful video](https://www.youtube.com/watch?v=URSWYvyc42M) by Sandi Metz about Ruby testing.
+* Tutorials Point has an article about [RSpec Writing Specs](https://www.tutorialspoint.com/rspec/rspec_writing_specs.htm).
