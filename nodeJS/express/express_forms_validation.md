@@ -65,7 +65,7 @@ The library we'll be using is called `express-validator`. While it simplifies bo
 We start as usual by installing the correct package in the *root* folder of our project.
 
 ```bash
-npm i express-validator
+npm install express-validator
 ```
 
 To get started using the package, we first need to *require* it in our project
@@ -196,7 +196,7 @@ Set up a new Express app with EJS templating:
 
 ```bash
 npm init -y
-npm i express ejs express-async-handler express-validator
+npm install express ejs express-async-handler express-validator
 ```
 
 Create folders for `routes`, `views`, `controllers`, and an `app.js` file:
