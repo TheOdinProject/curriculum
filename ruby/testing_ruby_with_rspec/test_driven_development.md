@@ -58,4 +58,4 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - This video that provides [counter arguments for DHH's “TDD is Dead. Long Live Testing” article](https://www.youtube.com/watch?v=PCEHRFHKZSk) from the assignment.
-- Martin Fowler has [a series of talks](https://martinfowler.com/articles/is-tdd-dead/) that provides an even more rounded take on TDD.
+- For a more rounded taken on TDD, watch or listen to this [series of talks on the pros and cons of TDD](https://martinfowler.com/articles/is-tdd-dead/).
