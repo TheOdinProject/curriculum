@@ -32,7 +32,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Chess Variant's [illustrated rules](http://www.chessvariants.org/d.chess/chess.html) of Chess.
-- Wikipedia's entry on [Chess notation for humans and computers](https://en.wikipedia.org/wiki/Chess_notation)
+- [Illustrated rules of Chess](http://www.chessvariants.org/d.chess/chess.html)
+- [Chess notation for humans and computers](https://en.wikipedia.org/wiki/Chess_notation)
 - If you're feeling stuck, you should visit the community Discord!
 - Once you have completed the project, check out this [discussion on writing chess in Ruby](http://rubyquiz.com/quiz35.html) from RubyQuiz. **Warning**: this resource contains a blueprint for how to complete this project. That means, if you decide to peruse it, you won't get the opportunity to dig into this problem.
