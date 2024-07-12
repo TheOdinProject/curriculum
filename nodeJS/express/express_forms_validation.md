@@ -32,12 +32,12 @@ The HTML structure would look something like this:
 </form>
 ```
 
-We have the HTML form element itself, with an action pointing to some resource on our server, and a method defined. 
+We have the HTML form element itself, with an action pointing to some resource on our server, and a method defined.
 Notice how the method corresponds to an HTTP verb, typically either `GET` or `POST`.
 
 The input needs a corresponding label element, which is what the end user actually sees on the page.
 
-Then, we have our input. 
+Then, we have our input.
 It has an `id` and a `name` attribute, which must match the `for` attribute defined on our label above.
 The `name` attribute is especially important, as it defines how our input will be identified in the form data sent to our server.
 
@@ -68,7 +68,7 @@ Before the data from a form is sent off to our server, we must first do two thin
 
 - *Sanitization* cleans user input to prevent malicious data from being processed by removing or encoding potentially malicious characters.
 
-The library we'll be using is called `express-validator`. While it simplifies both of these processes for us, 
+The library we'll be using is called `express-validator`. While it simplifies both of these processes for us,
 it's important to understand the underlying concepts of these two operations.
 
 #### Installation
@@ -99,7 +99,7 @@ The `body()` function allows you to specify which fields in the request body sho
 ];
 ```
 
-This example marks `birthdate` field as optional, 
+This example marks `birthdate` field as optional,
 but still enforces the ISO8601 date format on inputs. This is because `{ values: "falsy }"` means values that aren't `undefined`, `null`, `false`, or `0` will still be validated.
 
 ### Chaining validations
@@ -140,12 +140,12 @@ asyncHandler(async (req, res, next) => {
 });
 ```
 
-This setup checks for any failed validation checks, and if there are any (the errors array is NOT empty), 
+This setup checks for any failed validation checks, and if there are any (the errors array is NOT empty),
 then it sends a 400 code, along with any errors that may be present.
 
 ### Forms and Express routes
 
-One final thing to cover is how to handle routes in Express. 
+One final thing to cover is how to handle routes in Express.
 After all, our form needs somewhere to send the data to.
 
 Since we don't want our routes handling logic, we instead use a controller.
@@ -172,8 +172,9 @@ module.exports = usersRouter;
 ```
 
 You'll notice there's a respective `GET` and `POST` route.
-* `GET` routes typically display forms or confirmation pages.
-* `POST` routes handle form submissions and data processing.
+
+- `GET` routes typically display forms or confirmation pages.
+- `POST` routes handle form submissions and data processing.
 
 You may also notice the `:id` parameter in the route.
 This lets us pass a value to those routes that we can use to tell the controller which `User` object
@@ -248,8 +249,9 @@ module.exports = usersRouter;
 ```
 
 Next we'll create two views:
-* `index.ejs` will display our main form.
-* `users.ejs` will list all the users we've created.
+
+- `index.ejs` will display our main form.
+- `users.ejs` will list all the users we've created.
 
 ```html
 <!-- views/index.ejs -->
@@ -456,7 +458,7 @@ usersRouter.post("/:userId/delete", usersController.users_delete_post);
 
 You'll notice we didn't need a `GET` route here since we're already redirecting to `/users`.
 
-We could go much deeper into working safely with forms, but we'll stop there. 
+We could go much deeper into working safely with forms, but we'll stop there.
 By now you can already see how helpful `express-validator` is,
 and how you can do almost anything you want with the `req.body` object.
 
@@ -467,9 +469,10 @@ and how you can do almost anything you want with the `req.body` object.
 #### Add user details
 
 Expand the `User` model we created to include more details. Implement the following fields and validations to your model:
-* Email (required, must be formatted properly)
-* Age (optional, must be a number between 18 and 120)
-* Bio (optional, maximum 200 characters)
+
+- Email (required, must be formatted properly)
+- Age (optional, must be a number between 18 and 120)
+- Bio (optional, maximum 200 characters)
 
 Don't forget to update the view to display these new fields!
 
@@ -477,12 +480,14 @@ Don't forget to update the view to display these new fields!
 
 What if we want to search for a specific user in a list of thousands?
 We'll need a new route and view that lets clients search our list of users.
+
 1. Add a form (in `users.ejs` or another view) which accepts a `name` or `email` (or both!)
 1. Create a new route `/users/search` which accepts `GET` and `POST` requests.
 1. Add the search logic to your controller which searches your list for a matching user.
-   * Your `POST` request should handle searching for the user.
-   * Your `GET` request should then render the search result.
+   - Your `POST` request should handle searching for the user.
+   - Your `GET` request should then render the search result.
 1. Display the search results in a new view: `search.ejs`.
+
 </div>
 
 ### Knowledge check
@@ -498,8 +503,6 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the difference between validation and sanitization?](#validation-and-sanitization)
 
 - [How do you handle validation errors in Express routes?](#validation-results)
-
-- [What methods can you chain with the body function to validate form fields?](#chaining-methods)
 
 - [What is the importance of escaping HTML characters in a form?](https://owasp.org/www-community/attacks/SQL_Injection)
 
