@@ -1,7 +1,6 @@
 ### Introduction
 
-This lesson will cover how to secure your Node.js / Express applications by using the `express-validator` module to perform validation and sanitization.
-Proper form handling is how we maintain data integrity and prevent security vulnerabilities in our web applications.
+This lesson will cover how to secure your Node.js / Express applications by using the `express-validator` module to perform validation and sanitization. Proper form handling is how we maintain data integrity and prevent security vulnerabilities in our web applications.
 
 ### Lesson overview
 
@@ -29,14 +28,11 @@ The HTML structure would look something like this:
 </form>
 ```
 
-We have the HTML form element itself, with an action pointing to some resource on our server, and a method defined.
-Notice how the method corresponds to an HTTP verb, typically either `GET` or `POST`.
+We have the HTML form element itself, with an action pointing to some resource on our server, and a method defined. Notice how the method corresponds to an HTTP verb, typically either `GET` or `POST`.
 
 The input needs a corresponding label element, which is what the end user actually sees on the page.
 
-Then, we have our input.
-It has an `id` and a `name` attribute, which must match the `for` attribute defined on our label above.
-The `name` attribute is especially important, as it defines how our input will be identified in the form data sent to our server.
+Then, we have our input. It has an `id` and a `name` attribute, which must match the `for` attribute defined on our label above. The `name` attribute is especially important, as it defines how our input will be identified in the form data sent to our server.
 
 It has a type of `text` which tells the browser what type of widget to display, what values to accept, and is used for JavaScript and CSS selectors.
 
@@ -47,8 +43,7 @@ The `form` attributes define how to communicate with the server:
 - `action`: The resource/URL where data is sent for processing when the form is submitted. If this is not set, or is an empty string, the form will be submitted back to the current page URL
 - `method`: Defines the HTTP method to use (`POST` or `GET`).
 
-`POST` is more secure for sensitive information, and is used when changing or creating data in the server's database.
-`GET` is for forms that don't modify data, such as search forms, or when you want the form submission to be bookmarkable or shareable via URL.
+`POST` is more secure for sensitive information, and is used when changing or creating data in the server's database. `GET` is for forms that don't modify data, such as search forms, or when you want the form submission to be bookmarkable or shareable via URL.
 
 #### Form handling process
 
@@ -63,8 +58,7 @@ Before the data from a form is sent off to our server, we must first do two thin
 - *Validation* ensures user input meets the specified criteria (e.g. required fields, correct format).
 - *Sanitization* cleans user input to prevent malicious data from being processed by removing or encoding potentially malicious characters.
 
-The library we'll be using is called `express-validator`. While it simplifies both of these processes for us,
-it's important to understand the underlying concepts of these two operations.
+The library we'll be using is called `express-validator`. While it simplifies both of these processes for us, it's important to understand the underlying concepts of these two operations.
 
 #### Installation
 
@@ -94,8 +88,7 @@ The `body()` function allows you to specify which fields in the request body sho
 ];
 ```
 
-This example marks `birthdate` field as optional,
-but still enforces the ISO8601 date format on inputs. This is because `{ values: "falsy }"` means values that aren't `undefined`, `null`, `false`, or `0` will still be validated.
+This example marks `birthdate` field as optional, but still enforces the ISO8601 date format on inputs. This is because `{ values: "falsy }"` means values that aren't `undefined`, `null`, `false`, or `0` will still be validated.
 
 ### Chaining validations
 
@@ -119,8 +112,7 @@ Reading [OWASP.ORG](https://blog.presidentbeef.com/blog/2020/01/14/injection-pre
 
 ### Validation results
 
-Once the validation rules are applied, you can use 'validationResult' to handle any validation errors.
-We use `asyncHandler` to automatically catch these errors in our async route handlers and pass them to the middleware:
+Once the validation rules are applied, you can use 'validationResult' to handle any validation errors. We use `asyncHandler` to automatically catch these errors in our async route handlers and pass them to the middleware:
 
 ```javascript
 // asyncHandler lets us wrap async express routes to handle errors.
@@ -135,13 +127,11 @@ asyncHandler(async (req, res, next) => {
 });
 ```
 
-This setup checks for any failed validation checks, and if there are any (the errors array is NOT empty),
-then it sends a 400 code, along with any errors that may be present.
+This setup checks for any failed validation checks, and if there are any (the errors array is NOT empty), then it sends a 400 code, along with any errors that may be present.
 
 ### Forms and Express routes
 
-One final thing to cover is how to handle routes in Express.
-After all, our form needs somewhere to send the data to.
+One final thing to cover is how to handle routes in Express. After all, our form needs somewhere to send the data to.
 
 Since we don't want our routes handling logic, we instead use a controller.
 
@@ -171,13 +161,11 @@ You'll notice there's a respective `GET` and `POST` route.
 - `GET` routes typically display forms or confirmation pages.
 - `POST` routes handle form submissions and data processing.
 
-You may also notice the `:id` parameter in the route.
-This lets us pass a value to those routes that we can use to tell the controller which `User` object
-we're referencing.
+You may also notice the `:id` parameter in the route. This lets us pass a value to those routes that we can use to tell the controller which `User` object we're referencing.
 
 And in our form, the action would look something like this:
 
-```html
+```ejs
 <!-- Example using EJS with POST to submit an update to our Express server. -->
 <form action="/users/<%= user.userId %>/update" method="POST"></form>
 ```
@@ -198,8 +186,7 @@ exports.user_delete_post = asyncHandler(async (req, res, next) => {
 });
 ```
 
-By responding with a status code and a message, we give the client a way to both handle the error code,
-and a way to display an appropriate error message. We could also render a new or updated view which we'll see below.
+By responding with a status code and a message, we give the client a way to both handle the error code, and a way to display an appropriate error message. We could also render a new or updated view which we'll see below.
 
 ### Putting it together
 
@@ -248,7 +235,7 @@ Next we'll create two views:
 - `index.ejs` will display our main form.
 - `users.ejs` will list all the users we've created.
 
-```html
+```ejs
 <!-- views/index.ejs -->
 <!DOCTYPE html>
 <html>
@@ -269,7 +256,7 @@ Next we'll create two views:
 </html>
 ```
 
-```html
+```ejs
 <!-- views/users.ejs -->
 <!DOCTYPE html>
 <html>
@@ -341,7 +328,7 @@ exports.users_create_post = [
 
 And we need to update our `index.ejs` view to render these errors. Let's create a new partial: `errors.ejs`:
 
-```html
+```ejs
 <!-- views/partials/errors.ejs -->
 <% if (locals.errors) {%>
   <ul>
@@ -354,16 +341,15 @@ And we need to update our `index.ejs` view to render these errors. Let's create 
 
 And we'll include the partial just above our form in `index.ejs`.
 
-```html
+```ejs
 <%- include('partials/errors.ejs') %>
 ```
 
 If the form is filled out incorrectly, you'll see a page containing all the errors.
 
-Now that we can create users, we also need a way to modify them.
-Let's create a form that lets us specify an ID and the values we want to update by making a new view: `update.ejs`.
+Now that we can create users, we also need a way to modify them. Let's create a form that lets us specify an ID and the values we want to update by making a new view: `update.ejs`.
 
-```html
+```ejs
 <!-- views/edit.ejs -->
 <%- include('partials/errors.ejs') %>
 <form action="/users/<%= user.userId %>/update" method="POST">
@@ -375,7 +361,7 @@ Let's create a form that lets us specify an ID and the values we want to update 
 
 We'll modify `users.ejs` to include a new "Update" button to make our `GET` request to the route:
 
-```html
+```ejs
 <li>
   ID: <%= user.userId %>, Name: <%= user.firstName %><%= user.lastName %>
   <a href="/users/<%= user.userId %>/update">Update</a>
@@ -419,7 +405,7 @@ You'll see you're now able to update users, and this looks very similar to how w
 
 Finally, let's add a way to delete users as well by starting with another form inside our `users.ejs` view:
 
-```html
+```ejs
 <!-- In views/users.ejs -->
 <ul>
   <% users.forEach(function(user) { %>
@@ -453,9 +439,7 @@ usersRouter.post("/:userId/delete", usersController.users_delete_post);
 
 You'll notice we didn't need a `GET` route here since we're already redirecting to `/users`.
 
-We could go much deeper into working safely with forms, but we'll stop there.
-By now you can already see how helpful `express-validator` is,
-and how you can do almost anything you want with the `req.body` object.
+We could go much deeper into working safely with forms, but we'll stop there. By now you can already see how helpful `express-validator` is, and how you can do almost anything you want with the `req.body` object.
 
 ### Assignment
 
@@ -473,8 +457,7 @@ Don't forget to update the view to display these new fields!
 
 #### Implement searching
 
-What if we want to search for a specific user in a list of thousands?
-We'll need a new route and view that lets clients search our list of users.
+What if we want to search for a specific user in a list of thousands? We'll need a new route and view that lets clients search our list of users.
 
 1. Add a form (in `users.ejs` or another view) which accepts a `name` or `email` (or both!)
 1. Create a new route `/users/search` which accepts `GET` and `POST` requests.
