@@ -57,5 +57,5 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Youtube has [a video](https://www.youtube.com/watch?v=PCEHRFHKZSk) that provides counter arguments for DHH’s [“TDD is Dead. Long Live Testing”](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html)
+- Youtube has [a video](https://www.youtube.com/watch?v=PCEHRFHKZSk) that provides counter arguments for DHH’s [“TDD is Dead. Long Live Testing”](https://dhh.dk/2014/tdd-is-dead-long-live-testing.html).
 - Martin Fowler has [a series of talks](https://martinfowler.com/articles/is-tdd-dead/) that provides an even more rounded take on TDD.
