@@ -97,7 +97,6 @@ You can also chain multiple validation methods, with unique error messages if th
 ```javascript
 [
     body("name")
-    .escape()
     .trim()
     .isLength({ min: 1 })
     .withMessage("Name can not be empty.")
@@ -106,7 +105,39 @@ You can also chain multiple validation methods, with unique error messages if th
 ];
 ```
 
-This ensures that name is not only present and trimmed, but also only contains alphabet letters.
+This ensures that `name` is not only present and trimmed, but also only contains alphabet letters.
+
+While this might work for outputs we know won't have special characters, like names or ages, we also have to consider situations that do allow those characters. For example, when writing their "About Me" description, what would happen if the client decides to inject JavaScript code instead?
+
+```ejs
+<div>
+  About Me: <%- description %>
+</div>
+
+// The client then inputs the following as their page's About Me:
+<script>alert("Hacked!");</script>
+```
+
+When unescaped, this would be rendered into HTML as:
+
+```html
+<div>
+  About Me: <script>alert("Hacked!");</script>!
+</div>
+```
+
+To prevent this cross-site scripting (XSS) attack, we can *escape* the output (you may also see this referred to as *encoding*). Escaped HTML replaces special characters, like `<`, with their respective HTML entities, in this case `&lt;`. In EJS, we can escape the output using `<%= %>`.
+
+```ejs
+<div>
+  About Me: <%= username %>!
+</div>
+
+// The escaped output is now rendered harmless:
+// About Me: &lt;script&gt;alert(&quot;Hacked!&quot;);&lt;/script&gt;!
+```
+
+So why we don't chain `.escape()` in our Express server's `body()` function instead? We would then need to unescape the input when we go to output it again, or use unescaped output with `<%- %>`, which is undesirable as shown above.
 
 Reading [OWASP.ORG](https://blog.presidentbeef.com/blog/2020/01/14/injection-prevention-sanitizing-vs-escaping/) will give you a good idea on what escaping means and why we do it.
 
