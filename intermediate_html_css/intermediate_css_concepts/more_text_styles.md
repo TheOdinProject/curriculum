@@ -39,7 +39,7 @@ There are performance issues with using imported files, which you will read more
 
 One popular and easy method to get fonts that are *not* installed on a user's device is to use an online font library.
 
-To use a font from one of these libraries, go to the website, select a font and then copy a snippet from the website to import that font from their server into your website. You'll be given either a `<link>` tag to put in your HTML like so....
+To use a font from one of these libraries, go to the [website](https://fonts.google.com/), select a font and then copy a snippet from the website to import that font from their server into your website. You'll be given either a `<link>` tag to put in your HTML like so....
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com">
