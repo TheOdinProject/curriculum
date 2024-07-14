@@ -179,8 +179,6 @@ export default function App() {
 
 While React now prefers the default parameter approach for function components, understanding `defaultProps` is still useful, especially when working with class components or older codebases.
 
-```
-
 ### Functions as props
 
 In addition to passing variables through to child components as props, you can also pass through functions. Consider the following example.
