@@ -39,7 +39,8 @@ function getListItemData(bulletPoint) {
 
 module.exports = {
   names: ["TOP009", "lesson-overview-items-sentence-structure"],
-  description: "Lesson overview items should have proper punctuation",
+  description:
+    "Lesson overview items must be statements, not questions, and must begin with a capital letter and end with a period.",
   tags: ["content"],
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP009.md",
@@ -51,19 +52,12 @@ module.exports = {
         getListItemData(bulletPoint);
       const firstCharacterIsValid =
         firstCharacter === firstCharacter.toUpperCase();
-      if (!firstCharacterIsValid) {
-        onError({
-          lineNumber,
-          detail: "Lesson overview items must start with a capital letter",
-          context,
-        });
-      }
-
       const lastCharacterIsValid = lastCharacter === ".";
-      if (!lastCharacterIsValid) {
+      if (!firstCharacterIsValid || !lastCharacterIsValid) {
         onError({
           lineNumber,
-          detail: "Lesson overview items must end with a period.",
+          detail:
+            "Lesson overview items must be statements, not questions, and must begin with a capital letter and end with a period.",
           context,
         });
       }
