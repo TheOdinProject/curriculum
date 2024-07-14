@@ -269,10 +269,10 @@ Hopefully you can now understand from the examples in this lesson, just how incr
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#data-transfer-in-react">How does data flow between React components? From child to parent? From parent to child? Both?</a>
-- <a class="knowledge-check-link" href="#using-props-in-react">Why do we use props in React?</a>
-- <a class="knowledge-check-link" href="#default-props">How do we define default properties on a React component? What are some benefits in doing so?</a>
-- <a class="knowledge-check-link" href="#functions-as-props">How can we pass functions as props?</a>
+- [How does data flow between React components? From child to parent? From parent to child? Both?](#data-transfer-in-react)
+- [Why do we use props in React?](#using-props-in-react)
+- [How do we define default properties on a React component? What are some benefits in doing so?](#default-props)
+- [How can we pass functions as props?](#functions-as-props)
 
 ### Additional resources
 
