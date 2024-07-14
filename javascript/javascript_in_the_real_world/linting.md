@@ -58,7 +58,7 @@ While the Visual Studio Code extensions for ESLint and Prettier are really conve
 
 At some point, you may need to work on code with multiple people, and others may not use all of the same tools as you. Therefore, including linters and formatters as dependencies in your project, as well as any rule configuration files, allows everyone access to the same linting and formatting tools and rules.
 
-Editor extensions can then be used to make linting and formatting more convenient for you. The ESLint and Prettier extensions will recognise and use any rule files in your project.
+Editor extensions can then be used to make linting and formatting more convenient for you. The ESLint and Prettier extensions will recognise and use any rule files in your project. If your open workspace has ESLint installed as a dependency, then the ESLint extension can automatically detect this to apply the right setting for whether to use the flat config or legacy eslintrc format.
 
 </div>
 
