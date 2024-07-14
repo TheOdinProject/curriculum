@@ -27,13 +27,9 @@ function isolateBulletList(tokens) {
 function getListItemData(bulletPoint) {
   const lineNumber = bulletPoint.lineNumber;
   const context = bulletPoint.content.trim();
-  const firstCharacterIndex = 0
-  const lastCharacterIndex = context.length - 1
-  const firstCharacter = context.at(firstCharacterIndex);
-  const lastCharacter = context.at(lastCharacterIndex);
+  const firstCharacter = context.at(0);
+  const lastCharacter = context.at(-1);
   return {
-    firstCharacterIndex,
-    lastCharacterIndex,
     firstCharacter,
     lastCharacter,
     lineNumber,
@@ -51,7 +47,7 @@ module.exports = {
   function: function TOP009(params, onError) {
     const bulletPoints = isolateBulletList(params.tokens);
     bulletPoints.forEach((bulletPoint) => {
-      const { firstCharacter, lastCharacter, lineNumber, context, firstCharacterIndex, lastCharacterIndex } =
+      const { firstCharacter, lastCharacter, lineNumber, context } =
         getListItemData(bulletPoint);
       const firstCharacterIsValid =
         firstCharacter === firstCharacter.toUpperCase();
@@ -60,12 +56,6 @@ module.exports = {
           lineNumber,
           detail: "Lesson overview items must start with a capital letter",
           context,
-          fixInfo: {
-            lineNumber,
-            editColumn: firstCharacterIndex,
-            deleteCount: 1,
-            insertText: firstCharacter.toUpperCase(),
-          },
         });
       }
 
@@ -75,12 +65,6 @@ module.exports = {
           lineNumber,
           detail: "Lesson overview items must end with a period.",
           context,
-          fixInfo: {
-            lineNumber,
-            editColumn: lastCharacterIndex,
-            deleteCount: 1,
-            insertText: ".",
-          },
         });
       }
     });
