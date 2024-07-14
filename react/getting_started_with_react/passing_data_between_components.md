@@ -146,7 +146,7 @@ You may have noticed in the above examples that there is some repetition when de
   }
 ```
 
-As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined in the function parameters. This approach is simpler and aligns with JavaScript's default parameter syntax.
+As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined in the function parameters.
 
 You may also come across the use of `defaultProps` in some codebases. This was traditionally used to set default values for props, particularly in class components. Here’s how it looks:
 
