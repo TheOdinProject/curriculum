@@ -18,7 +18,7 @@ A user can create events. A user can attend many events. An event can be attende
 
 This project will require you to model many-to-many relationships and also to be very conscious about your foreign keys and class names (hint: you won't be able to just rely on Rails' defaults like you have before).
 
-### Your task
+### Assignment
 
 We've gotten quite far here, so these tasks will only lay out the high level overview of what you're meant to build. You'll need to implement the details yourself. As usual, it's not meant to look pretty, just work. Design is all extra credit.
 
