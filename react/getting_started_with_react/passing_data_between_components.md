@@ -123,7 +123,32 @@ export default function App() {
 
 ### Default props
 
-You may have noticed in the above examples that there is some repetition when defining props on the `Button` components within `App`. In order to stop repeating ourselves re-defining these common values, and to protect our application from undefined values, we can define default props that will be used by the component in the absence of supplied values.
+You may have noticed in the above examples that there is some repetition when defining props on the `Button` components within `App`. In order to stop repeating ourselves re-defining these common values, and to protect our application from undefined values, we can define default parameters to set default values for props.
+
+```jsx
+  function Button({ text = "Click Me!", color = "blue", fontSize = 12 }) {
+    const buttonStyle = {
+      color: color,
+      fontSize: fontSize + "px"
+    };
+
+    return <button style={buttonStyle}>{text}</button>;
+  }
+
+  export default function App() {
+    return (
+      <div>
+        <Button />
+        <Button text="Don't Click Me!" color="red" />
+        <Button fontSize={20} />
+      </div>
+    );
+  }
+```
+
+As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined in the function parameters. This approach is simpler and aligns with JavaScript's default parameter syntax.
+
+You may also come across the use of `defaultProps` in some codebases. This was traditionally used to set default values for props, particularly in class components. Here’s how it looks:
 
 ```jsx
 function Button({ text, color, fontSize }) {
@@ -152,19 +177,7 @@ export default function App() {
 }
 ```
 
-As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined on `Button.defaultProps`.
-
-You can also combine default props and prop destructuring. Here's how it looks in action.
-
-```jsx
-function Button({ text = "Click Me!", color = "blue", fontSize = 12 }) {
-  const buttonStyle = {
-    color: color,
-    fontSize: fontSize + "px"
-  };
-
-  return <button style={buttonStyle}>{text}</button>;
-}
+While React now prefers the default parameter approach for function components, understanding `defaultProps` is still useful, especially when working with class components or older codebases.
 
 ```
 
