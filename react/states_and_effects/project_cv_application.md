@@ -1,10 +1,18 @@
 ### Introduction
 
-Congratulations, you have made it to the very first React project. In this project, you will be creating a small CV application. It's a great project to get you started because it includes many of the basic concepts you've learned so far, without a huge overhead of complexity.
+Congratulations, you have made it to the very first React project. In this project, you will be creating a small application where users can input their information and generate a CV/résumé. It's a great project to get you started because it includes many of the basic concepts you've learned so far, without a huge overhead of complexity.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
+<div class="lesson-note" markdown="1">
+
+#### Double rendering
+
+While working on this project, you might notice that some parts of your code execute twice (e.g., console logs appearing doubled). This is due to [React.StrictMode](https://react.dev/reference/react/StrictMode) and is intended behavior. We will go through this more in the next lesson, so don't worry about it for now.
+
+</div>
 
 1. Create a new React project.
 1. Think about how to structure your application into components. Your application should include:

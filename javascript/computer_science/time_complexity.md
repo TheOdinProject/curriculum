@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a little program that prints out all odd numbers between 1 and 10.
 
-```js
+```javascript
 function oddNumbersLessThanTen() {
   let currentNumber = 1;
 
@@ -48,14 +48,14 @@ Let's go back to our `oddNumbersLessThanTen function`. How many steps does our a
 
 1. We assign the number 1 to a variable. That's one step.
 
-2. We have a loop. For each iteration of the loop, we do the following:
+1. We have a loop. For each iteration of the loop, we do the following:
 
     1. Compare `currentNumber` to see if it is less than 10. That is 1 step.
-    2. We then check if currentNumber is odd. That is 1 step.
-    3. If it is then we output it to the terminal. That's 1 step every 2 iterations.
-    4. We increase `currentNumber` by 1. That is 1 step.
+    1. We then check if currentNumber is odd. That is 1 step.
+    1. If it is then we output it to the terminal. That's 1 step every 2 iterations.
+    1. We increase `currentNumber` by 1. That is 1 step.
 
-3. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
+1. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
 
 So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `currentNumber` and checking the exit condition of the loop is one step each. 27 + 5 + 1 + 1 = 34 steps.
 
@@ -63,7 +63,7 @@ Therefore, we can say our algorithm takes 34 steps to complete.
 
 While this is useful to know, it isn't actually helpful for comparing algorithms. To see why, let's slightly modify our initial algorithm to take in a number instead of setting a hard default of 10.
 
-```js
+```javascript
 function oddNumbers(maxNumber) {
   let currentNumber = 1;
 
@@ -122,13 +122,13 @@ The Big O Notations in the order of speed from fastest to slowest are:
 
 To understand Constant Complexity, let's use an array.
 
-```js
+```javascript
 arr = [1, 2, 3, 4, 5];
 ```
 
 If we want to look up what is at index 2, we can get to the element using `arr[2]` which would give us back `3`. This takes just one step. If we double our array...
 
-```js
+```javascript
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 
@@ -146,19 +146,19 @@ Logarithmic Complexity tells us that the numbers of steps an algorithm takes inc
 
 One such algorithm that does this is Binary Search. It only works on sorted arrays, but if you have an array of 10 items in sorted order
 
-```js
+```javascript
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 
 and wanted to know if it had the number `7`, Binary Search would guess the middle item of the array and see what is there. Because the array is sorted, if the number at the middle index was `6`, then we know anything to the left of that index cannot be the number 7, as those items must be lower than 6 in a sorted array.
 
-```js
+```javascript
 arr = [-, -, -, -, -, 6, 7, 8, 9, 10]
 ```
 
 Therefore in just one step, we've eliminated half of the array. We can do the same with the remaining half. We can guess the middle index and see if it's 7. Half of that (half of an array) array eliminated again. In this case, the middle index would be 8, and we know that 7 is less than 8 so we can eliminate anything to the right of the number 8.
 
-```js
+```javascript
 arr = [6, 7, 8, -, -]
 ```
 
@@ -221,7 +221,7 @@ You want to avoid this if at all possible, otherwise you won't be processing muc
 
 #### O(N!) - Factorial complexity
 
-A factorial is the product of the sequence of _n_ integers. The factorial of 4(4!) is 4 * 3 * 2 * 1.
+A factorial is the product of the sequence of *n* integers. The factorial of 4(4!) is 4 * 3 * 2 * 1.
 
 You will come across Factorial Complexity if you ever need to calculate permutations or combinations. If you have an array and have to work out all the combinations you can make from the array, that is a Factorial complexity. It's manageable for a small number of items, but the leap with each new item in a dataset can be huge.
 
@@ -235,7 +235,7 @@ If Big O gives us the worst-case scenario of how our algorithm will scale, what 
 
 Omega Notations gives us the best-case scenario for an algorithm. To understand where this might be, let's look at a method and discuss how we can measure its complexity.
 
-```js
+```javascript
 function findValue(arr) {
   for (let i = 0; i < arr.length; i++) {
     let item = arr[i];
@@ -272,7 +272,7 @@ If we write two algorithms with the same complexity, does that mean they're equa
 
 The first example is some code we've seen already, our `oddNumbers` function.
 
-```js
+```javascript
 function oddNumbers(maxNumber) {
   let currentNumber = 1;
 
@@ -290,7 +290,7 @@ The time complexity of this algorithm is `O(N)`. As the data size increases, the
 
 Let's look at another version:
 
-```js
+```javascript
 function oddNumbers(maxNumber) {
   let currentNumber = 1;
 
@@ -312,15 +312,15 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through [Big O Notation in JavaScript by Doable Danny](https://www.doabledanny.com/big-o-notation-in-javascript). It covers the common complexities with graphs and examples.
-2.  The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
-3. Read the [Step-by-step Big O Complexity Analysis Guide, using JavaScript](https://www.sahinarslan.tech/posts/step-by-step-big-o-complexity-analysis-guide-using-javascript). It has a section on Space Complexity at the end which you can skip for now.
+1. Read through [Big O Notation in JavaScript by Doable Danny](https://www.doabledanny.com/big-o-notation-in-javascript). It covers the common complexities with graphs and examples.
+1. The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
+1. Read the [Step-by-step Big O Complexity Analysis Guide, using JavaScript](https://www.sahinarslan.tech/posts/step-by-step-big-o-complexity-analysis-guide-using-javascript). It has a section on Space Complexity at the end which you can skip for now.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is Big O?](#what-is-big-o)
 - [What are the Big O Notations?](#big-o-notation)
@@ -331,6 +331,6 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
--  It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
+- It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
 
--  In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.
+- In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.
