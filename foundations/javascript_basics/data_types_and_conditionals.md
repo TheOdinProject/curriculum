@@ -48,6 +48,14 @@ Note: Feel free to browse the files on the left column to gain familiarity with 
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
+#### Replit fork limit
+
+Replit now limits free accounts to having 3 repls at a time. If you reach the limit of 3 repls, you can delete one or more of the previous forks to create a room for the new one. To do so, go to [your repls](https://replit.com/repls) and delete what you no longer need.
+
+</div>
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+
 #### Replit and AI
 
 Replit recently introduced an AI assistant, which is on by default. Before trying any of the exercises, you should first disable it, in order to prevent it from spoiling the exercise. You can do so by clicking on the button labeled AI in the bottom left corner of the code view and then unchecking the "Enable" checkbox.
