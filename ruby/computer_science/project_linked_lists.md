@@ -67,7 +67,7 @@ Build the following methods in your linked list class:
 
 Let's test out the Linked List you made!
 
-1. Create a `main.rb` file and make sure it inherits the file containing `LinkedList`. This is where we'll test the list.
+1. Create a `main.rb` file and make sure it requires the file containing `LinkedList`. This is where we'll test the list.
 
 1. Create an instance of `LinkedList` and populate it with nodes:
 
