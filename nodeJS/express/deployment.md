@@ -98,15 +98,18 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 #### Fly.io
 
+**Can deploy both servers and databases.**
+
 - Fly.io uses a convenient CLI tool for deployment.
 - Pay for what you use with very reasonable rates. Each app should cost around $4 per month.
 - $20 a month should be enough to host eight apps (including three apps for free).
 - Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
 
-##### Fly.io: Hobby Plan
+##### Fly.io: Free Plan
 
-- New customers get a one-time $5 free trial credit to test Fly.io at no cost. The credit will only start being used if you exceed the free resource allowance, and once it's been used up, you will be automatically placed on the $5/month Hobby plan.
-- The longevity of your free trial credit depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
+- You can host three apps for free before you need to start paying.
+- Fly.io waives monthly invoices that total less than $5 USD. So, although it may look like
+  you are being charged, it's very unlikely that you will exceed $5 and actually have to pay.
 
 ##### Fly.io: Links
 
@@ -117,6 +120,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 ---
 
 #### Railway.app
+
+**Can deploy database only.**
 
 - Railway has a convenient deployment process. You link to your project's GitHub repo.
 - Pay for what you use model.
@@ -135,6 +140,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 ---
 
 #### Adaptable.io
+
+**Can deploy servers only.**
 
 - Like Railway, has a convenient deployment process. You link to your project's GitHub repo.
 - Free plan does not limit the number of applications you can deploy.
@@ -157,6 +164,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 #### Render
 
+**Can deploy both servers and databases.**
+
 - Render allows you to deploy using "Blueprints", which link to your project's GitHub repo.
 - The free 750-hour allowance is enough to host a few apps without paying anything. However, databases are separate on Render, and the lowest spec databases cost $7 each.
 - $21 a month is enough to host three applications as each app's database will cost $7.
@@ -177,6 +186,8 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 ---
 
 #### Koyeb
+
+**Can deploy both servers and databases.**
 
 - Easily Git push to deploy.
 - Ability to run web apps, APIs, and workers easily.
@@ -199,8 +210,12 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 #### Neon
 
-- Database branching
--
+**Can deploy database only.**
+
+- 24/7 for your main database.
+- 20 additional hours of database branching.
+- Point-in-time restore (24 Hours)
+- No credit card required.
 
 ##### Neon: Free Plan
 
@@ -213,26 +228,6 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - [Neon homepage](https://neon.tech/)
 - [Neon documentation](https://neon.tech/docs/introduction)
 - [Guide: Connect a Node.js application to Neon](https://neon.tech/docs/guides/node)
-
----
-
-#### Heroku
-
-- Heroku has a straightforward deployment process using a combination of a well-documented CLI tool and Git.
-- Heroku is a very mature platform which has been around for over a decade. Any problems you encounter are almost guaranteed to have a solution documented on Stack Overflow or elsewhere on the internet.
-- The $5 per month eco plan will give you 1000 free hours each month for all your applications. Applications are automatically put to sleep after 30 minutes of inactivity, so the 1000-hour allowance should last the entire month for several of your portfolio projects.
-- Heroku's lowest-tier Postgresql databases cost $5 per month, effectively costing each application $5 to host.
-- $20 a month will be enough to host three applications. $5 eco plan for 1000 server hours + an additional $5 for each app.
-
-##### Heroku: Free Plan
-
-- N/A
-
-##### Heroku: Links
-
-- [Heroku homepage](https://www.heroku.com/)
-- [Heroku documentation](https://devcenter.heroku.com/)
-- [Guide: Official NodeJS guide for Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 
 ---
 
