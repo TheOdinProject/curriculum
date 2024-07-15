@@ -54,7 +54,7 @@ For most of your apps, one instance is plenty enough. You can support a lot of t
 
 <div class="lesson-note" markdown="1">
 
-Learners can keep their server instance and database instance on one PaaS or use separate PaaS's to reduce hosting costs!
+Learners can keep their server instance and database instance on one PaaS or use separate PaaSes if necessary. When you deal with paid plans, it might even reduce hosting costs!
 
 </div>
 
@@ -276,10 +276,9 @@ This will be where the Git skills you've been learning will start to really pay 
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Deploy your [Mini Message Board project](https://www.theodinproject.com/lessons/nodejs-mini-message-board) to one of the hosting providers we've mentioned. If you need help deciding which one to use, we recommend Fly.io. The important thing to take away from this first deployment is getting experience deploying. Don't worry if you don't understand everything that's happening. That will come with time.
+1. Deploy your [Mini Message Board project](https://www.theodinproject.com/lessons/nodejs-mini-message-board) to one of the hosting providers we've mentioned. Any of the free options will work for curriculum purposes, so it doesn’t matter which you pick for your projects. The important thing to take away from this first deployment is getting experience deploying. Don’t worry if you don’t understand everything that’s happening. That will come with time.
    - Use one of the linked deploy guides for your PaaS provider to help you through the process.
    - If you're having trouble deploying, check out the [Debugging and Troubleshooting Deployments](#debugging-and-troubleshooting-deployments) section for some tips.
-   - If for some reason the deployment is still too difficult, and you just can't seem to get it to work, move onto the next project and come back once you've deployed your MDN project. The steps in their tutorial hold your hand a bit more through the process and will give you the confidence you need to deploy this project.
 
 </div>
 
