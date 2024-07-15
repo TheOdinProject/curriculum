@@ -138,16 +138,6 @@ When this happens, it's useful to be able to track (and make live changes to) th
 
 We recommend installing this and becoming comfortable using it as early as possible as it's an invaluable tool for effective React development.
 
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### ESLint Visual Studio Code extension settings
-
-You may recall from the [Linting lesson](https://www.theodinproject.com/lessons/node-path-javascript-linting#linting) that there were some compatibility issues between the latest version of ESLint and some community plugins.
-
-As of the time of writing, Vite's React template uses v8.57 and the older `eslintrc` config format, as some of the plugins for React do not yet support the new flat config format. If you are using the ESLint extension in Visual Studio Code, when working on these React projects, you'll need to make sure that the `Eslint: Use Flat Config` setting is *unchecked*, otherwise it will not correctly detect and use the `eslintrc` config file.
-
-</div>
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
