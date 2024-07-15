@@ -55,10 +55,10 @@ module.exports = {
       const lastCharacterIsValid = lastCharacter === ".";
       if (!firstCharacterIsValid || !lastCharacterIsValid) {
         onError({
-          lineNumber,
+          lineNumber: lineNumber,
           detail:
             "Lesson overview items must be statements, not questions, and must begin with a capital letter and end with a period.",
-          context,
+          context: context,
         });
       }
     });
