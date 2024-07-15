@@ -48,7 +48,7 @@ Note: Feel free to browse the files on the left column to gain familiarity with 
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-#### Replit Fork Limit
+#### Replit fork limit
 
 Replit now allows 3 forks at a time. If you reach the limit of 3 forks, you can delete one or more of the previous forks to create a room for the new one. To do so, go to [Home](https://replit.com/~) then find "Recent Repls" section, and delete one of the forks listed there by clicking on 3 dots in front of it.
 
