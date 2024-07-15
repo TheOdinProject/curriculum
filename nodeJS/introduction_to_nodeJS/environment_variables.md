@@ -47,7 +47,7 @@ The above command will set the two environment variables in the current shell en
 
 This is definitely nicer than the previous directly-in-the-command method, and means we can really keep sensitive data hidden. To overwrite any variables, just rerun `export` with the new values for those variables like above.
 
-To view all environment variables in the current shell, you can run `printenv`. Hang on, it's showing *a lot* of stuff we never set ourselves! That's because the shell itself has a lot of environment variables already set and loaded when it first loads. That's a bit annoying, we just want to deal with our app's environment variables! Well...
+To view all environment variables in the current shell, you can run `printenv`. Hang on, it's showing *a lot* of stuff we never set ourselves! That's because the shell itself has a lot of environment variables already set and loaded when it first loads. That's a bit annoying, we just want to deal with our app's environment variables! Also, our environment variables will be lost when we terminate the shell. What if we had lots of variables? It'd be a nightmare to try and remember them all and export them again in the new shell. Well...
 
 #### dotenv
 
@@ -100,7 +100,7 @@ No hardcoding of those values into the source code! If you want to change the va
 
 #### Keep your secrets safe!
 
-Environment variables aren't only for sensitive data, but you will often need them for that. In your projects, if you use environment variables, make sure you add `.env` to `.gitignore` so you **do not publish it**.
+Environment variables aren't only for sensitive data, but you will often need them for that. In your projects, if you use environment variables with dotenv, make sure you add `.env` to `.gitignore` so you **do not publish it**.
 
 </div>
 
