@@ -35,6 +35,20 @@ In the above, we define environment variables called `MODE` and `VIDEO_URL`, and
 
 You might see that this could quickly get quite cumbersome though, especially if you had lots of environment variables. If you had sensitive data like database credentials, that's even worse since you wouldn't want to push your `package.json` if it contained those values in an npm script!
 
+#### export
+
+Instead of setting environment variables directly in the command for running your code, you can use the shell command `export`, which will save environment variables and their values to the current shell session.
+
+```bash
+export MODE=prod VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0"
+```
+
+The above command will set the two environment variables in the current shell environment only, meaning if you were to open a new shell, it would not have access to those environment variables since it's a new environment. If we ran `node index.js` in the first shell (the one with the environment variables set), anything that used the `MODE` environment variable would have the value `"prod"`. If we instead ran `node index.js` in the second shell, it would have the value `undefined` instead since nothing was set in its environment. Neat, no?
+
+This is definitely nicer than the previous directly-in-the-command method, and means we can really keep sensitive data hidden. To overwrite any variables, just rerun `export` with the new values for those variables like above.
+
+To view all environment variables in the current shell, you can run `printenv`. Hang on, it's showing *a lot* of stuff we never set ourselves! That's because the shell itself has a lot of environment variables already set and loaded when it first loads. That's a bit annoying, we just want to deal with our app's environment variables! Well...
+
 #### dotenv
 
 [dotenv](https://www.npmjs.com/package/dotenv) is one of the most common ways to load environment variables. After installing the npm package, you can create a file called `.env` in the root of your project that will contain all of your environment variables in the format `NAME="VALUE"`. For example:
@@ -44,7 +58,7 @@ MODE=prod
 VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0"
 ```
 
-This file can be added to your `.gitignore` file, making sure any secrets are kept safe! All you'd need to do now is import dotenv into your app (as early as possible in the code) so it can load those variables.
+**This file must be added to your `.gitignore` file** to keep secrets safe from being published! All you'd need to do now is import dotenv into your app (as early as possible in the code) so it can load your variables.
 
 ```javascript
 require("dotenv").config();
@@ -56,7 +70,7 @@ You can now just run your code with `node index.js` and dotenv will handle all t
 
 #### Environment variables and deployment
 
-When you deploy an app that uses environment variables, your repo will not contain your `.env` file so you will have to research how your chosen Platform-as-a-service (PaaS) handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
+When you deploy an app that uses environment variables, your repo will not contain your `.env` file so you will have to research how your chosen deployment service handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
 
 </div>
 
