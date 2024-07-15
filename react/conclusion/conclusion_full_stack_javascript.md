@@ -8,7 +8,7 @@ However, your React learning (or learning in general) doesn’t stop here. As pr
 
 After completing The Odin Project, you may be interested in learning about React metaframeworks which build on top of React to allow developers to make full use of React's latest features such as server components, as well as providing first class support for things like routing and data fetching. Completing the [NodeJS](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs) course will give you the perfect foundation for diving deeper into this stuff.
 
-You can also keep up with the future of React by following the [React RFC GitHub repository](https://github.com/reactjs/rfcs) which is where new features and changes to React are proposed, discussed, and eventually accepted or rejected. You may also be interested in reading the [Official React Blog](https://react.dev/blog) which will also keep you up-to-date on the latest features.
+You can also keep up with the future of React by following the [React RFC GitHub repository](https://github.com/reactjs/rfcs), which is where new features and changes to React are proposed, discussed, and eventually accepted or rejected. You may also be interested in reading the [official React blog](https://react.dev/blog), which will also keep you up-to-date on the latest features.
 
 You're at a point in your React journey where you can begin learning about design patterns and architecture. [patterns.dev](https://www.patterns.dev/) is an exceptional resource that will help you build better React apps by leveraging powerful patterns. They are worth a bookmark!
 
