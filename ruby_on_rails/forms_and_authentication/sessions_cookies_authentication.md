@@ -182,8 +182,8 @@ Configuration will be dependent on your use case.  Do you want to make the user 
 
 <div class="lesson-content__panel" markdown="1">
   
-1. Read [this article about how Rails sessions work](https://www.justinweiss.com/articles/how-rails-sessions-work/).
-2. Watch [this video to dive deep into sessions](https://www.youtube.com/watch?v=mqUbnZIY3OQ).
+1. Read this article about [how Rails sessions work](https://www.justinweiss.com/articles/how-rails-sessions-work/).
+2. Watch this video to [dive deep into sessions](https://www.youtube.com/watch?v=mqUbnZIY3OQ).
 3. Read sections 5 and 6 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#session).  Don't worry too much about the details of `session_store` configurations in 5.1 right now.
 4. Read section 8 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#filters) to understand controller filters.
 5. Read section 11 of the [Rails guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#http-authentications) to understand more about authentication.
@@ -211,5 +211,5 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Authentication in Rails 3.1 from [Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than we can explain it.
+- [Authentication in Rails 3.1 from Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than we can explain it.
 - [All About Cookies (.org)](http://www.allaboutcookies.org/)
