@@ -28,7 +28,7 @@ Static websites consist of pre-written HTML pages. They are "static" because eve
 
 Dynamic websites, on the other hand, are websites that can change content based on the user who is visiting them. X (formerly known as Twitter) is a good example; every user sees different content on their homepage feed based on who they follow. To build dynamic sites, you still need HTML, CSS and JS. But additionally, you need a server-side application and a database.
 
-This additional tech prohibits us from using GitHub Pages for hosting our NodeJS apps. GitHub pages cannot run NodeJS applications and doesn't have database services we can use.
+This additional tech prohibits us from using GitHub Pages for hosting our NodeJS apps. GitHub pages cannot run Node.js applications and doesn't have database services we can use. Similarly, host providers like Netlify and Vercel, which you may have used back in the React course, do not have the same capabilities to run our Node.js servers and databases. They're not the right tools for our back ends.
 
 Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Heroku](https://www.heroku.com/), [Railway](https://railway.app/), [Render](https://render.com/), and [Fly.io](https://fly.io/). We will be focusing on and utilizing these latter providers in this lesson.
 
