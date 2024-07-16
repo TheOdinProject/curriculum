@@ -17,9 +17,9 @@ This section contains a general overview of topics that you will learn in this l
 Before we dive into the specifics of fetching data in React, let's briefly revisit how we can use the fetch API to get data from a server.
 
 ```javascript
-const image = document.querySelector("img");
-fetch("https://jsonplaceholder.typicode.com/photos", {
-  mode: "cors",
+const image = document.querySelector('img');
+fetch('https://jsonplaceholder.typicode.com/photos', {
+  mode: 'cors',
 })
   .then((response) => response.json())
   .then((response) => {
@@ -37,13 +37,13 @@ Now, let's take a look at how we can incorporate `fetch` into a similar React co
 Whenever a component needs to make a request as it renders, it's often best to wrap that `fetch` inside of an effect.
 
 ```jsx
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 const Image = () => {
   const [imageURL, setImageURL] = useState(null);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+    fetch('https://jsonplaceholder.typicode.com/photos', { mode: 'cors' })
       .then((response) => response.json())
       .then((response) => setImageURL(response[0].url))
       .catch((error) => console.error(error));
@@ -53,7 +53,7 @@ const Image = () => {
     imageURL && (
       <>
         <h1>An image</h1>
-        <img src={imageURL} alt={"placeholder text"} />
+        <img src={imageURL} alt={'placeholder text'} />
       </>
     )
   );
@@ -70,16 +70,16 @@ Working over the network is inherently unreliable. The API you're making a reque
 
 To simulate a network error, scroll up to the previous code snippet and change the `fetch` URL to something random. After a refresh of your browser window, the page will remain a blank white screen, without giving the user any indication that the page has finished loading or that there was an error.
 
-To fix this, we need to check for *something* before Image component returns JSX. We'll call it: `error`.
+To fix this, we need to check for _something_ before Image component returns JSX. We'll call it: `error`.
 
 ```jsx
-if (error) return <p>A network error was encountered</p>
+if (error) return <p>A network error was encountered</p>;
 
 return (
   imageURL && (
     <>
       <h1>An image</h1>
-      <img src={imageURL} alt={"placeholder text"} />
+      <img src={imageURL} alt={'placeholder text'} />
     </>
   )
 );
@@ -96,10 +96,10 @@ And finally, to assign `error` a value when a request fails, we'll add a conditi
 
 ```jsx
 useEffect(() => {
-  fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+  fetch('https://jsonplaceholder.typicode.com/photos', { mode: 'cors' })
     .then((response) => {
       if (response.status >= 400) {
-        throw new Error("server error");
+        throw new Error('server error');
       }
       return response.json();
     })
@@ -127,10 +127,10 @@ const Image = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+    fetch('https://jsonplaceholder.typicode.com/photos', { mode: 'cors' })
       .then((response) => {
         if (response.status >= 400) {
-          throw new Error("server error");
+          throw new Error('server error');
         }
         return response.json();
       })
@@ -145,7 +145,7 @@ const Image = () => {
   return (
     <>
       <h1>An image</h1>
-      <img src={imageURL} alt={"placeholder text"} />
+      <img src={imageURL} alt={'placeholder text'} />
     </>
   );
 };
@@ -160,7 +160,7 @@ Recall in the [Introduction to state](https://www.theodinproject.com/lessons/nod
 Here's how we would do it for our example:
 
 ```jsx
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 const useImageURL = () => {
   const [imageURL, setImageURL] = useState(null);
@@ -168,10 +168,10 @@ const useImageURL = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+    fetch('https://jsonplaceholder.typicode.com/photos', { mode: 'cors' })
       .then((response) => {
         if (response.status >= 400) {
-          throw new Error("server error");
+          throw new Error('server error');
         }
         return response.json();
       })
@@ -192,7 +192,7 @@ const Image = () => {
   return (
     <>
       <h1>An image</h1>
-      <img src={imageURL} alt={"placeholder text"} />
+      <img src={imageURL} alt={'placeholder text'} />
     </>
   );
 };
@@ -202,7 +202,7 @@ If we ever needed to fetch images in different components, instead of rewriting 
 
 ### Managing multiple fetch requests
 
-In a full-scale web app, you're often going to be making more than one request, and you need to be careful with how you organize them. A common issue that new React developers face when their apps start making multiple requests is called a *waterfall of requests*. Let's look at an example.
+In a full-scale web app, you're often going to be making more than one request, and you need to be careful with how you organize them. A common issue that new React developers face when their apps start making multiple requests is called a _waterfall of requests_. Let's look at an example.
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);border-radius:2px;" width="100%" height="450" src="https://codesandbox.io/p/sandbox/github/TheOdinProject/react-examples/tree/main/fetching-data-example?file=%2Fsrc%2FProfile.jsx%3A1%2C1&embed=1" allowfullscreen></iframe>
 
@@ -226,7 +226,7 @@ In all of the code examples above, we added an artificial `delay` with the `setT
 
 We've only just begun to scratch the surface of data fetching on the frontend. Keeping your frontend data up-to-date with the server is a challenging task to accomplish. Managing "async" state becomes increasingly complex with each added feature.
 
-You've already tasted the complexity of data fetching in this lesson. Each request has to have a *minimum* of three states to achieve an optimal user experience: `data`, `loading`, and `error`. Although some libraries can help you with data fetching and more, it is highly recommended to use vanilla React data fetching for all the projects in this course. The lessons you will learn while doing so will be invaluable.
+You've already tasted the complexity of data fetching in this lesson. Each request has to have a _minimum_ of three states to achieve an optimal user experience: `data`, `loading`, and `error`. Although some libraries can help you with data fetching and more, it is highly recommended to use vanilla React data fetching for all the projects in this course. The lessons you will learn while doing so will be invaluable.
 
 ### Assignment
 
