@@ -1,6 +1,6 @@
 ### Introduction
 
-You've come a long way, congratulations! At this point, you should feel comfortable with building new Express applications and using MongoDB to model and store data. This project will require you to put all of that knowledge to the test. It's not going to be easy, but it should be well within your capabilities and it will be a *great* portfolio piece.
+You've come a long way, congratulations! At this point, you should feel comfortable with building new Express applications and using PostgreSQL to model and store data. This project will require you to put all of that knowledge to the test. It's not going to be easy, but it should be well within your capabilities and it will be a *great* portfolio piece.
 
 You'll be building a clone of a social media site, such as Facebook, X, Myspace, or Threads. As with our previous lessons, how much effort you want to put into the styling and front end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, following, and "liking".
 
@@ -22,7 +22,7 @@ This project will give you the chance to take a relatively high-level set of req
 1. Think through the data architecture required to make this work. There are lots of models and the relationship between them is more complicated than anything you've done before. Take some time to plan your approach before diving in.
 1. Start your app however you like, using the express-generator or from scratch.
 1. Work your way down the list below! Each step will involve a new challenge, but you've got the tools.
-1. You can populate data like users and posts with fake data using the [Faker](https://github.com/faker-js/faker) module from npm. To accomplish this create a new JavaScript file named `seeds.js` which imports your Mongoose models and uses the faker module to generate and save a bunch of new users.
+1. You can populate data like users and posts with fake data using the [Faker](https://github.com/faker-js/faker) module from npm. To accomplish this create a new JavaScript file named `seeds.js` which imports your Prisma models and uses the faker module to generate and save a bunch of new users.
 
 #### Requirements
 
