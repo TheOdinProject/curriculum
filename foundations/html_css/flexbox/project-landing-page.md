@@ -68,5 +68,5 @@ There are a couple of ways to go about publishing your project, but the simplest
 - Go to your GitHub repo on the web and click the **Settings** button as shown in the screenshot below.
     ![Screenshot pointing to the Settings located in an example repository](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/03.png)
 - Click on **Pages** on the left side bar.
-- Change the **Branch** from *none* to *main branch* and click Save.
+- Change the **Branch** from `None` to `main` and click Save.
 - It may take a few minutes (the GitHub website says up to 10), but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
