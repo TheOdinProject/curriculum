@@ -83,7 +83,7 @@ The `commit`ting of a transaction and its potential `rollback` if it fails are b
 
 </div>
 
-### Conclusion
+#### Conclusion
 
 Callbacks are useful and many, like `:after_create` and `:before_destroy`, are pretty common.  There's no rocket science here, just a helpful concept.
 
