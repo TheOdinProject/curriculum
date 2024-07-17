@@ -41,7 +41,7 @@ The `form` attributes define how to communicate with the server:
 - `action`: The resource/URL where data is sent for processing when the form is submitted. If this is not set, or is an empty string, the form will be submitted back to the current page URL
 - `method`: Defines the HTTP method to use (`POST` or `GET`).
 
-`POST` is more secure for sensitive information, and is used when changing or creating data in the server's database. `GET` is for forms that don't modify data, such as search forms, or when you want the form submission to be bookmarkable or shareable via URL.
+`POST` is generally more secure because it keeps sensitive information out of the URL, which means they won't show up in server logs, and is the standard choice for creating or updating data on the server side. `GET` is for forms that don't modify data, such as search forms, or when you want the form submission to be bookmarkable or shareable via URL.
 
 #### Form handling process
 
