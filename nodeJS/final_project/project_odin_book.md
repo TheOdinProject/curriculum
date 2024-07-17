@@ -4,7 +4,7 @@ You've come a long way, congratulations! At this point, you should feel comforta
 
 You'll be building a clone of a social media site, such as Facebook, X, Myspace, or Threads. As with our previous lessons, how much effort you want to put into the styling and front end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, following, and "liking".
 
-You'll also implement some form of authentication. Ideally, you'll want to use passportJS to support authenticating via the social media site you're cloning, but some sites (such as Facebook), have recently made this process impossible. If this is the case for your site, you can use passportJS to support authenticating via username and password with `passport-local` or via Github with `passport-github2`.
+You'll also implement some form of authentication. Ideally, you'll want to use passport.js to support authenticating via the social media site you're cloning, but some sites (such as Facebook), have recently made this process impossible. If this is the case for your site, you can use passport.js to support authenticating via username and password with `passport-local` or via Github with `passport-github2`.
 
 There will probably be features you haven't been exposed to such as chat, real-time updates, and notifications. You won't be responsible for those unless you're feeling really confident in your skills at this point (e.g. [socket.io](https://socket.io/) allows you to use websockets for real-time communication).
 
