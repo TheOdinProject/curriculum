@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD024 MD043 -->
+  <!-- markdownlint-disable MD024 MD043 -->
 
 ### Introduction
 
@@ -170,7 +170,7 @@ Before we can install Ruby, we need to install some base packages. We will use t
 
 In your Applications folder, find "Utilities" and double click "Terminal". Alternatively, using Spotlight (<kbd>Cmd</kbd> + <kbd>Space</kbd>) or Launchpad, type "Terminal".
 
-The rest of the instructions are done inside this terminal window.
+The rest of the instructions are done inside this terminal window and if you followed all the Foundations instructions, you should have already completed step 1.2 and 1.3.
 
 #### Step 1.2: Install Xcode
 
@@ -253,6 +253,14 @@ echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 ```
 
 You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, take note of the page and step number you are on, close everything, do a full reboot and log back into your profile. After logging back in, re-open the terminal (see Step 1.1).
+
+Another option is that you see this message:
+
+```bash
+writing ~/.zprofile: now configured for rbenv.
+```
+
+In that case, you're all set and can continue to the next step.
 
 #### Step 2.3: Install Ruby
 
