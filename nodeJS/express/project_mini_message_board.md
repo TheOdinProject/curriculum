@@ -6,8 +6,8 @@ At this point you should know enough to use Express to make some fun interactive
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Set up a basic Express app by installing Express and EJS. Set up a basic index route and run your server. Create required folders and files as discussed in the previeous lessons.
-1. We are going to have 2 routes, the index (`"/"`) and a new-message form (`"/new"`).
+1. Set up a basic Express app by installing Express and EJS. Set up a basic index route and run your server. Create the required folders and files as discussed in the previous lessons.
+1. We are going to have 2 routes, the index (`"/"`) and a "new message" form (`"/new"`).
 1. Create an array at the top of your index router called `messages` and put a couple of sample messages inside of it like this:
 
    ```javascript
@@ -25,7 +25,7 @@ At this point you should know enough to use Express to make some fun interactive
    ];
    ```
 
-1. Next, in your index template (in the `"views"` folder) loop through the messages array using whichever templating language you selected and for each one, display the user, text and the date the message was added. Don't forget to make your messages available to your template by including it in the res.render 'locals' object (e.g. `res.render('index', { title: "Mini Messageboard", messages: messages })`).
+1. Next, in your index template (in the `"views"` folder) loop through the messages array and for each one, display the user, text and the date the message was added. Don't forget to make your messages available to your template by including it in the `res.render` 'locals' object (e.g. `res.render("index", { title: "Mini Messageboard", messages: messages })`).
 1. Next let's set up the new message form.  In the router add a `router.get()` for the `"/new"` route and point it to a template named `"form"`. In the views directory create your `form` template. Add a heading, 2 inputs (one for the author's name and one for the message text) and a submit button. To have the form make a network request you will need to define it with both a method and an action like so (we will learn how to handle forms in a later lesson):
 
    ```html
@@ -47,9 +47,9 @@ At this point you should know enough to use Express to make some fun interactive
    messages.push({ text: messageText, user: messageUser, added: new Date() });
    ```
 
-1. At the end of the `router.post()` function use `res.redirect('/')` to send users back to the index page after submitting a new message.
+1. At the end of the `router.post()` function use `res.redirect("/")` to send users back to the index page after submitting a new message.
 1. At this point, you should be able to visit `/new` (it might be a good idea to add a link to that route on your index page), fill out the form, submit it and then see it show up on the index page!
-1. Add a "open" button against every message to open a new page with the message details.
+1. Add an "open" button next to every message to open a new page with the message details.
 1. Push your project to GitHub.
 1. You'll learn how to deploy your app to the web in the next lesson, don't forget to come back and submit it to the submissions below once you're done!
 

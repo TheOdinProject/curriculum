@@ -17,9 +17,9 @@ Your Inventory app should have categories and items, so when the user goes to th
 
     Any sufficient inventory app will have relations and constraints against its entities. Figure out these database particulars for your inventory app.
 1. Set up the routes and controllers you're going to need.
-1. Create all of the 'READ' views (i.e. view category, and view item)
+1. Create all of the 'READ' views (i.e. view category, and view item).
 1. Create all the forms and build out the controllers you need for the create and update actions.
-1. Figure out the delete functionality. What happens if you delete a category with items in it? Should it delete all the items as well? Or should it just remove the category from the items? This specific behavior will depend on your app's requirements.
+1. Figure out the delete functionality. What happens if you try to delete a category with items in it? Should it delete all the items as well? Should it just remove the category from the items? Or something else? This specific behavior will depend on your app's requirements.
 1. Once you're confident with your project, add dummy data via a script to your local database. Do this again when you deploy.
 1. Make it pretty!
 1. Deploy it and show off what you've done!
