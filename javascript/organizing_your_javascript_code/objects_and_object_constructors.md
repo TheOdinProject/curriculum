@@ -370,7 +370,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Describe what a prototype is and how it can be used.](#the-prototype)
 - [Explain prototypal inheritance.](https://javascript.info/prototype-inheritance)
 - [Understand the basic do's and don't's of prototypal inheritance.](#recommended-method-for-prototypal-inheritance)
-- [How does `this` behave in different situations?](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/)
+- [How does `this` behave in different situations?](https://www.javascripttutorial.net/javascript-this/)
 
 ### Additional resources
 

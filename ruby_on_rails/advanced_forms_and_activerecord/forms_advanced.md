@@ -32,7 +32,11 @@ Let's say you want to build a New Post form for your blog but you want to be abl
 
 The bare HTML way is to build a bunch of `<option>` tags (inside your `<select>` tag).  You could easily create these in your ERB code by just iterating over some collection, for instance if you'd like to select a post to view from a list of them.
 
+<<<<<<< HEAD
 ```html
+=======
+```erb
+>>>>>>> main
   # app/views/posts/new.html.erb
   ...
   <select name="user_id">
@@ -57,7 +61,9 @@ But Rails provides some less verbose ways of doing the same thing, namely using 
     @post = Post.new
   end
   ...
+```
 
+```erb
   # app/views/posts/new.html.erb
   ...
   <%= select_tag(:author_id, options_for_select(@user_options)) %>
@@ -68,7 +74,7 @@ So just pass `#select_tag` the name it should use for your chosen value and the 
 
 <span id='select-helper'>If you want to avoid the whole `options_for_select` thing altogether and your form is designed to build a model instance (e.g. a Post object), just use the more generic `#select` helper in your view:</span>
 
-```ruby
+```erb
   # app/views/posts/new.html.erb
   ...
   <%= select(:post, :author_id, @user_options) %>
@@ -81,7 +87,7 @@ The `:author_id` input to the `#select` helper above represents not just what th
 
 If you have a `#form_with` form scoped under the `f` variable, you don't need to pass the `:post` symbol above (it gets it from `f`), so could instead use:
 
-```ruby
+```erb
   # app/views/posts/new.html.erb
   ...
     <%= f.select(:author_id, @user_options) %>
@@ -119,18 +125,18 @@ We'll do a broad overview of the process here:
 
 There are a couple new aspects to this process.  You saw `#fields_for` in the [Basic Forms lesson](/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/form-basics) but it probably has new meaning to you now.  It's basically how you create a form within a form (which should make sense since it's actually used behind the scenes by `#form_with`).  In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
 
-```ruby
-  <%= form_with model: @user do |f| %>
+```erb
+<%= form_with model: @user do |f| %>
     ...
     <% 3.times do %>
-      <%= f.fields_for @user.shipping_addresses.build do |sub_form| %>
+    <%= f.fields_for @user.shipping_addresses.build do |sub_form| %>
         ...
         <%= sub_form.text_field :zip_code %>
         ...
-      <% end %>
+    <% end %>
     <% end %>
     <%= f.submit %>
-  <% end %>
+<% end %>
 ```
 
 Note that we could (and should) also have built the new shipping_address objects in the controller instead of the view; it's just for demonstration purposes here.
