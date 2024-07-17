@@ -1,13 +1,12 @@
 ### Introduction
 
-This lesson will cover how to secure your Node.js / Express applications by using the `express-validator` module to perform validation and sanitization. Proper form handling is how we maintain data integrity and prevent security vulnerabilities in our web applications.
+In this lesson, we'll dive into forms and how to manage them using Express. We'll explore ways to secure your Node.js / Express applications by using `express-validator` for validation and sanitization. Understanding proper form handling is crucial for maintaining data integrity and protecting your web applications from security risks.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Understanding HTML form elements and their actions.
-- The form handling process in a client-server application.
 - Using `express-validator` for validation and sanitization.
 - Best practices for form design and data integrity.
 
@@ -20,7 +19,6 @@ Let's create a simple HTML form, with a single text field for collecting a full 
 The HTML structure would look something like this:
 
 ```html
-<!-- The action /users/create corresponds to a route you'll define in your Express application -->
 <form action="/users/create" method="POST" >
   <label for="fullName">Full Name:</label>
   <input placeholder="John Doe" type="text" name="fullName" id="fullName">
@@ -88,7 +86,7 @@ The `body()` function allows you to specify which fields in the request body sho
 ];
 ```
 
-This example marks `birthdate` field as optional, but still enforces the ISO8601 date format on inputs. This is because `{ values: "falsy }"` means values that aren't `undefined`, `null`, `false`, or `0` will still be validated.
+This example marks `birthdate` field as optional, but still enforces the ISO8601 date format on inputs. This is because `{ values: "falsy" }` means values that aren't `undefined`, `null`, `false`, or `0` will still be validated.
 
 ### Chaining validations
 
@@ -126,7 +124,7 @@ When unescaped, this would be rendered into HTML as:
 </div>
 ```
 
-To prevent this cross-site scripting (XSS) attack, we can *escape* the output (you may also see this referred to as *encoding*). Escaped HTML replaces special characters, like `<`, with their respective HTML entities, in this case `&lt;`. In EJS, we can escape the output using `<%= %>`.
+To prevent this [cross-site scripting (XSS) attack](https://en.wikipedia.org/wiki/Cross-site_scripting), we can *escape* the output (you may also see this referred to as *encoding*). Escaped HTML replaces special characters, like `<`, with their respective HTML entities, in this case `&lt;`. In EJS, we can escape the output using `<%= %>`.
 
 ```ejs
 <div>
@@ -137,9 +135,9 @@ To prevent this cross-site scripting (XSS) attack, we can *escape* the output (y
 // About Me: &lt;script&gt;alert(&quot;Hacked!&quot;);&lt;/script&gt;!
 ```
 
-So why we don't chain `.escape()` in our Express server's `body()` function instead? We would then need to unescape the input when we go to output it again, or use unescaped output with `<%- %>`, which is undesirable as shown above.
+So why not escape the data when we receive it by adding .escape() to the end of our body() validation chain instead? "Dangerous characters" are only dangerous at the point of use, and also only in certain contexts. What's "dangerous" for HTML may not be dangerous for SQL and vice versa, and they won't pose risks until they get used in those contexts.
 
-Reading [OWASP.ORG](https://blog.presidentbeef.com/blog/2020/01/14/injection-prevention-sanitizing-vs-escaping/) will give you a good idea on what escaping means and why we do it.
+Also, if we have data with HTML entities after escaping them, if we used escaped output with (<%= %>), then &lt; wouldn't become < but output literally as the text &lt;. We'd need to either unescape them then re-escape them via escaped output, or end up using unescaped output (<%- %>), which, like using .innerHTML, is undesirable as shown above.
 
 ### Validation results
 
@@ -169,8 +167,8 @@ Since we don't want our routes handling logic, we instead use a controller.
 ```javascript
 const asyncHandler = require("express-async-handler");
 
-exports.user_update_get = asyncHandler(async (req, res, next) => {});
-exports.user_update_post = asyncHandler(async (req, res, next) => {});
+exports.userUpdateGet = asyncHandler(async (req, res, next) => {});
+exports.userUpdatePost = asyncHandler(async (req, res, next) => {});
 ```
 
 Inside our router, we can then assign routes which correspond to the controller's functions:
@@ -181,8 +179,8 @@ const usersRouter = Router();
 const usersController = require("../controllers/usersController");
 
 // User update routes
-usersRouter.get("/users/:id/update", usersController.user_update_get);
-usersRouter.post("/users/:id/update", usersController.user_update_post);
+usersRouter.get("/users/:id/update", usersController.userUpdateGet);
+usersRouter.post("/users/:id/update", usersController.userUpdatePost);
 
 module.exports = usersRouter;
 ```
@@ -203,22 +201,6 @@ And in our form, the action would look something like this:
 
 `/users/:id/update` is an *endpoint* we've created on our Express server.
 
-### Handling errors
-
-What happens if we don't give our route a valid `:id` to delete or update? We need a way to tell our users an error occurred.
-
-```javascript
-// Handles POST requests for the /users/:id/delete route.
-// Status code 400 can indicate malformed request syntax, or a missing :id in our case.
-exports.user_delete_post = asyncHandler(async (req, res, next) => {
-  if (!req.params.id) {
-    return res.status(400).send("No user id provided.");
-  }
-});
-```
-
-By responding with a status code and a message, we give the client a way to both handle the error code, and a way to display an appropriate error message. We could also render a new or updated view which we'll see below.
-
 ### Putting it together
 
 Let's create a quick Express application to demonstrate how clients send data to servers with forms.
@@ -230,24 +212,27 @@ npm init -y
 npm install express ejs express-async-handler express-validator
 ```
 
-Create folders for `routes`, `views`, `controllers`, and an `app.js` file:
+Create folders for `routes`, `views`, `controllers`, `storages`, and an `app.js` file:
 
 ```javascript
 // app.js
 const express = require("express");
 const app = express();
 const usersRouter = require("./routes/usersRouter");
+const usersStorage = require("./storages/usersStorage");
 
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
 app.use("/users", usersRouter);
-app.get("/", (req, res) => res.render("index", { title: "Userbase" }));
+app.get("/", (req, res) => res.render("index", { title: "User List", users: usersStorage.getUsers() }));
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Express app listening on port ${PORT}!`));
 ```
 
-Then create a new router called `usersRouter.js` in the routes folder:
+Most simple forms will use the `application/x-www-form-urlencoded` `Content-Type` when sending data to the server. Express, however, can't natively parse that data. We can use the `express.urlencoded()` middleware to handle this for us. When `extended` is `false`,  our server will only accept a `string` or an array of data, so we set it to `true` for some added flexibility. Note that if the `Content-Type` doesn't match `application/x-www-form-urlencoded`, then your server will show the data as an empty object `{}`.
+
+Let's create a new router called `usersRouter.js` in the routes folder:
 
 ```javascript
 // routes/usersRouter.js
@@ -255,35 +240,34 @@ const { Router } = require("express");
 const usersController = require("../controllers/usersController");
 const usersRouter = Router();
 
-usersRouter.get("/", usersController.users_list);
-usersRouter.post("/create", usersController.users_create_post);
+usersRouter.get("/create", usersController.usersCreateGet);
+usersRouter.post("/create", usersController.usersCreatePost);
 
 module.exports = usersRouter;
 ```
 
 Next we'll create two views:
 
-- `index.ejs` will display our main form.
-- `users.ejs` will list all the users we've created.
+- `index.ejs` will list all the users we've created.
+- `users.ejs` will display our main form.
 
 ```ejs
 <!-- views/index.ejs -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <form action="/users/create" method="POST">
-      <label for="firstName">First Name: </label>
-      <input type="text" name="firstName" required>
-      <label for="lastName">Last Name: </label>
-      <input type="text" name="lastName" required>
-      <button type="submit">Submit</button>
-    </form>
-    <a href="/users">View all users</a>
-  </body>
+<body>
+<h1><%= title %></h1>
+<ul>
+  <% if (locals.users) {%>
+    <% users.forEach(user => { %>
+      <li>
+        ID: <%= user.id %>, Name: <%= user.firstName %> <%= user.lastName %>
+      </li>
+    <% }); %>
+  <% } %>
+</ul>
+<a href="/users/create">Create a user</a>
+</body>
 </html>
 ```
 
@@ -291,42 +275,80 @@ Next we'll create two views:
 <!-- views/users.ejs -->
 <!DOCTYPE html>
 <html>
-  <body>
-    <h1><%= title %></h1>
-    <ul>
-      <% users.forEach(user => { %>
-        <li>
-          ID: <%= user.userId %>, Name: <%= user.firstName %> <%= user.lastName %> 
-        </li>
-      <% }); %> 
-    </ul>
-    <a href="/">Back to Home</a>
-  </body>
+<head>
+  <title><%= title %></title>
+</head>
+<body>
+<h1><%= title %></h1>
+<form action="/users/create" method="POST">
+  <label for="firstName">First Name: </label>
+  <input type="text" name="firstName" required>
+  <label for="lastName">Last Name: </label>
+  <input type="text" name="lastName" required>
+  <button type="submit">Submit</button>
+</form>
+<a href="/">Back to home</a>
+</body>
 </html>
 ```
 
-And we'll finally add the logic for this router in our controller:
+The logic for this router will go inside of our controller:
 
 ```javascript
 // controllers/usersController.js
-// User is a factory function which lets us model what we would see in a database.
-// We will explore this concept more as we dive deeper into databases.
-const User = (userId, firstName, lastName) => ({ userId, firstName, lastName });
+// User is a factory function which acts as a model for our simulated database.
+// We will explore this concept more as we later dive deeper into databases.
+const User = (firstName, lastName) => ({ firstName, lastName });
 const asyncHandler = require("express-async-handler");
+const usersStorage = require("../storages/usersStorage");
 
-let userStorage = {};
-let userId = 0;
-
-exports.users_list = asyncHandler(async (req, res) => {
-  res.render("users", { title: "User List", users: Object.values(userStorage) });
+exports.usersCreateGet = asyncHandler(async (req, res) => {
+  res.render("users", { title: "User List", users: usersStorage.getUsers() });
 });
 
-exports.users_create_post = asyncHandler(async (req, res) => {
+exports.usersCreatePost = asyncHandler(async (req, res) => {
   const { firstName, lastName } = req.body;
-  userStorage[userId] = User(userId, firstName, lastName);
-  userId++;
-  res.redirect("/users");
+  usersStorage.addUser(User(firstName, lastName));
+  res.redirect("/");
 });
+```
+
+And we'll use a storage class to hold the users we create. In real-world scenarios, you would almost certainly be using a database for this, which you'll explore further in upcoming lessons.
+
+```javascript
+// storages/usersStorage.js
+// This class lets us simulate interacting with a database.
+class UsersStorage {
+    constructor() {
+        this.storage = {};
+        this.id = 0;
+    }
+
+    addUser({firstName, lastName}) {
+        const id = this.id;
+        this.storage[id] = { id, firstName, lastName };
+        this.id++;
+    }
+
+    getUsers() {
+        return Object.values(this.storage);
+    }
+
+    getUser(id) {
+        return this.storage[id];
+    }
+
+    updateUser(id, {firstName, lastName}) {
+        this.storage[id] = { id, firstName, lastName };
+    }
+
+    deleteUser(id) {
+        delete this.storage[id];
+    }
+}
+// Rather than exporting the class, we can export an instance of the class by instantiating it.
+// This ensures only one instance of this class can exist, also known as the "singleton" pattern.
+module.exports = new UsersStorage();
 ```
 
 We can test our server with: `node --watch app.js`.
@@ -336,28 +358,37 @@ You'll see we're able to add new users at `http://localhost:3000`, as well as li
 Let's add a few methods to our controller for validating and sanitizing our form to get the type of data we want.
 
 ```javascript
-const {body, validationResult} = require("express-validator")
+const {body, validationResult} = require("express-validator");
 
-const validate_user = [
-  body("firstName").trim().isAlpha().isLength({ min: 1, max: 10 }).escape(),
-  body("lastName").trim().isAlpha().isLength({ min: 1, max: 10 }).escape(),
+const alphaErr = "must only contain letters.";
+const lengthErr = "must be between 1 and 10 characters.";
+
+const validateUser = [
+    body("firstName").trim()
+      .isAlpha().withMessage(`First name ${alphaErr}`)
+      .isLength({ min: 1, max: 10 }).withMessage(`First name ${lengthErr}`),
+    body("lastName").trim()
+      .isAlpha().withMessage(`Last name ${alphaErr}`)
+      .isLength({ min: 1, max: 10 }).withMessage(`Last name ${lengthErr}`),
 ];
 
 // We can pass an entire array of middleware validations to our controller.
-exports.users_create_post = [
-  validate_user,
+exports.usersCreatePost = [
+  validateUser,
   asyncHandler(async (req, res) => {
     const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(400).render("index", { title: "Userbase", errors: errors.array() });
-    } else {
-      // Original logic
-    }
+    if (!errors.isEmpty()) return res.status(400).render("users", { 
+      title: "User List", errors: errors.array() 
+    });
+
+    const { firstName, lastName } = req.body;
+    usersStorage.addUser(User(firstName, lastName));
+    res.redirect("/");
   })
 ];
 ```
 
-And we need to update our `index.ejs` view to render these errors. Let's create a new partial: `errors.ejs`:
+And we need to update our `users.ejs` view to render these errors. Let's create a new partial: `errors.ejs`:
 
 ```ejs
 <!-- views/partials/errors.ejs -->
@@ -370,83 +401,88 @@ And we need to update our `index.ejs` view to render these errors. Let's create 
 <% } %>
 ```
 
-And we'll include the partial just above our form in `index.ejs`.
+And we'll include the partial just above our form in `users.ejs`.
 
 ```ejs
 <%- include("partials/errors.ejs") %>
 ```
 
-If the form is filled out incorrectly, you'll see a page containing all the errors.
+If the form is filled out incorrectly, you'll see the page contains all the errors.
 
 Now that we can create users, we also need a way to modify them. Let's create a form that lets us specify an ID and the values we want to update by making a new view: `update.ejs`.
 
 ```ejs
-<!-- views/edit.ejs -->
+<!-- views/update.ejs -->
 <%- include("partials/errors.ejs") %>
-<form action="/users/<%= user.userId %>/update" method="POST">
+<form action="/users/<%= user.id %>/update" method="POST">
   <input type="text" name="firstName" value="<%= user.firstName %>" required>
   <input type="text" name="lastName" value="<%= user.lastName %>" required>
   <button type="submit">Update User</button>
 </form>
 ```
 
-We'll modify `users.ejs` to include a new "Update" button to make our `GET` request to the route:
+We'll modify `index.ejs` to include a new "Update" button to make our `GET` request to the route:
 
 ```ejs
 <li>
-  ID: <%= user.userId %>, Name: <%= user.firstName %><%= user.lastName %>
-  <a href="/users/<%= user.userId %>/update">Update</a>
+  ID: <%= user.id %>, Name: <%= user.firstName %> <%= user.lastName %>
+  <a href="/users/<%= user.id %>/update">Update</a>
 </li>
 ```
 
 Just like how we added a route for creating users, we'll add routes for updating them:
 
 ```javascript
-usersRouter.get("/:userId/update", usersController.users_update_get);
-usersRouter.post("/:userId/update", usersController.users_update_post);
+usersRouter.get("/:id/update", usersController.usersUpdateGet);
+usersRouter.post("/:id/update", usersController.usersUpdatePost);
 ```
 
-Then we'll add the logic for the `GET` request into our controller:
+Then we'll add the logic for the requests into our controller:
 
 ```javascript
-exports.users_update_get = asyncHandler(async (req, res) => {
-  const user = userStorage[req.params.userId];
-  if (!user) return res.status(404).send("User not found.");
-  res.render("update", { user, errors: [] });
+exports.usersUpdateGet = asyncHandler(async (req, res) => {
+    const user = usersStorage.getUser(req.params.id);
+    if (!user) {
+        return res.status(404).send("User not found.");
+    }
+    res.render("update", { user, errors: [] });
 });
 
-exports.users_update_post = [
-  validate_user,
-  asyncHandler(async (req, res) => {
-    const { userId } = req.params;
-    const errors = validationResult(req);
-    if (!userStorage[userId]) return res.status(404).send("User not found.");
-    if (!errors.isEmpty()) return res.status(400).render("update", { 
-        errors: errors.array(), user: userStorage[userId] 
-    });
-    
-    const { firstName, lastName } = req.body;
-    userStorage[userId] = User(parseInt(userId), firstName, lastName);
-    res.redirect("/users");
-  })
+exports.usersUpdatePost = [
+    validateUser,
+    asyncHandler(async (req, res) => {
+        const user = usersStorage.getUser(req.params.id);
+        const errors = validationResult(req);
+        if (!user) {
+            return res.status(404).send("User not found.");
+        }
+        if (!errors.isEmpty()) return res.status(400).render("update", {
+            errors: errors.array(), user: user
+        });
+        const { firstName, lastName } = req.body;
+        usersStorage.updateUser(req.params.id, User(firstName, lastName));
+        res.redirect("/");
+    })
 ];
 ```
 
 You'll see you're now able to update users, and this looks very similar to how we create our users.
 
-Finally, let's add a way to delete users as well by starting with another form inside our `users.ejs` view:
+Finally, let's add a way to delete users as well by starting with another form inside our `index.ejs` view:
 
 ```ejs
-<!-- In views/users.ejs -->
+<!-- In views/index.ejs -->
 <ul>
-  <% users.forEach(function(user) { %>
-  <li>ID: <%= user.userId %>, Name: <%= user.firstName %> <%= user.lastName %></li>
-  <a href="/users/<%= user.userId %>/update">Update</a>
-  <!-- This time we're sending a POST request to our route, so we need a form. -->
-  <form action="/users/<%= user.userId %>/delete" method="POST" style="display:inline;">
-    <button type="submit" onclick="return confirm('Are you sure you want to delete this user?');">Delete</button>
-  </form>
-  <% }); %>
+  <% if (locals.users) {%>
+    <% users.forEach(function(user) { %>
+    <li>ID: <%= user.id %>, Name: <%= user.firstName %> <%= user.lastName %></li>
+    <a href="/users/<%= user.id %>/update">Update</a>
+    <!-- This time we're sending a POST request to our route, so we need a form. -->
+    <form action="/users/<%= user.id %>/delete" method="POST" style="display:inline;">
+      <button type="submit" onclick="return confirm('Are you sure you want to delete this user?');">Delete</button>
+    </form>
+    <% }); %>
+  <% } %>
 </ul>
 ```
 
@@ -454,23 +490,27 @@ Then we add the logic to handle the request into our controller:
 
 ```javascript
 // Tell the server to delete a matching user, if any. Otherwise, respond with an error.
-exports.users_delete_post = asyncHandler(async (req, res) => {
-  const userId = req.params.userId;
-  if (!userStorage[userId]) return res.status(404).send("User not found.");
-  delete userStorage[userId];
-  res.redirect("/users");
+exports.usersDeletePost = asyncHandler(async (req, res) => {
+  const user = usersStorage.getUser(req.params.id);
+  if (!user) return res.status(404).send("User not found.");
+  usersStorage.deleteUser(req.params.id);
+  res.redirect("/");
 });
 ```
 
 Don't forget to add the new route to your router!
 
 ```javascript
-usersRouter.post("/:userId/delete", usersController.users_delete_post);
+usersRouter.post("/:id/delete", usersController.usersDeletePost);
 ```
 
-You'll notice we didn't need a `GET` route here since we're already redirecting to `/users`.
+You'll notice we didn't need a `GET` route here since we're already redirecting to `/`.
 
 We could go much deeper into working safely with forms, but we'll stop there. By now you can already see how helpful `express-validator` is, and how you can do almost anything you want with the `req.body` object.
+
+To give you an overview of what this entire flow looks like visually, here's an example courtesy of MDN:
+
+![A diagram showing an outline of how a form interacts with a server using GET and POST requests.](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms/web_server_form_handling.png)
 
 ### Assignment
 
@@ -499,6 +539,13 @@ What if we want to search for a specific user in a list of thousands? We'll need
 
 </div>
 
+#### Further Reading
+
+- [OWASP.ORG](https://blog.presidentbeef.com/blog/2020/01/14/injection-prevention-sanitizing-vs-escaping/) will give you a good idea on what escaping means and how it can help further secure your web applications.
+- [express-validator](https://express-validator.github.io/docs/) contains the full documentation for `validator`, with some important sections being:
+  - [Getting Started](https://express-validator.github.io/docs/guides/getting-started)
+  - [Validation Chains](https://express-validator.github.io/docs/guides/validation-chain)
+
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
@@ -514,7 +561,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Express request object](https://expressjs.com/en/api.html#req)
-- [Express response object](https://expressjs.com/en/api.html#res)
-  It's certainly not required viewing, but web dev simplified makes some of the best tutorials on Express. Take a watch if you need a refresher.
-- [Web dev simplified](https://youtu.be/SccSCuHhOw0?si=2dZ5Y4dvxyh7jpcy)
+- Web Dev Simplified has a [tutorial on submitting forms and parsing form data in Express](https://youtu.be/SccSCuHhOw0?si=2dZ5Y4dvxyh7jpcy) if you want a refresher.
+- express-validator's docs has a good write-up on [implementing a custom validator in Express](https://express-validator.github.io/docs/guides/customizing#implementing-a-custom-validator).
