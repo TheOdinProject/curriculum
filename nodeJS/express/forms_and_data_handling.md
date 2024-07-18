@@ -58,7 +58,7 @@ We don't always have to sanitize data right when we get it - sometimes it makes 
 
 We'll be using a library called `express-validator` to help us out with both of these. While it makes these processes much simpler, it's important to understand the underlying concepts of these two operations.
 
-#### Installation express-validator
+#### Installing express-validator
 
 We start as usual by installing the correct package in the *root* folder of our project.
 
