@@ -73,7 +73,7 @@ If `postgresql` is active, you can press `Q` to quit the status screen and move 
 
 ### Step 3: Setting up PostgreSQL
 
-PostgreSQL is now running, but we have to configure it in order to be able to use it with our local Rails applications.
+PostgreSQL is now running, but we have to configure it in order to be able to use it with our local Express applications.
 
 #### 3.1 PostgreSQL roles
 
@@ -196,7 +196,7 @@ If the `postgresql` service is active, move on to the next step.
 
 ### Step 3: Setting up PostgreSQL
 
-PostgreSQL is now running, but we have to configure it in order to be able to use it with our local Rails applications.
+PostgreSQL is now running, but we have to configure it in order to be able to use it with our local Express applications.
 
 #### 3.1 PostgreSQL roles
 
