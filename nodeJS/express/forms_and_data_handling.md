@@ -218,7 +218,12 @@ const usersStorage = require("./storages/usersStorage");
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
 app.use("/users", usersRouter);
-app.get("/", (req, res) => res.render("index", { title: "User List", users: usersStorage.getUsers() }));
+app.get("/", (req, res) => {
+  res.render("index", {
+    title: "User List",
+    users: usersStorage.getUsers(),
+  });
+});
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Express app listening on port ${PORT}!`));
@@ -294,7 +299,10 @@ const asyncHandler = require("express-async-handler");
 const usersStorage = require("../storages/usersStorage");
 
 exports.usersCreateGet = asyncHandler(async (req, res) => {
-  res.render("users", { title: "User List", users: usersStorage.getUsers() });
+  res.render("users", {
+    title: "User List",
+    users: usersStorage.getUsers(),
+  });
 });
 
 exports.usersCreatePost = asyncHandler(async (req, res) => {
@@ -349,7 +357,7 @@ You'll see we're able to add new users at `http://localhost:3000`, as well as li
 Let's add a few methods to our controller for validating and sanitizing our form to get the type of data we want.
 
 ```javascript
-const {body, validationResult} = require("express-validator");
+const { body, validationResult } = require("express-validator");
 
 const alphaErr = "must only contain letters.";
 const lengthErr = "must be between 1 and 10 characters.";
@@ -443,9 +451,12 @@ exports.usersUpdatePost = [
   asyncHandler(async (req, res) => {
     const user = usersStorage.getUser(req.params.id);
     const errors = validationResult(req);
-    if (!errors.isEmpty()) return res.status(400).render("update", {
-      errors: errors.array(), user: user
-    });
+    if (!errors.isEmpty()) {
+      return res.status(400).render("update", {
+        errors: errors.array(),
+        user: user, 
+      });
+    }
     const { firstName, lastName } = req.body;
     usersStorage.updateUser(req.params.id, {firstName, lastName});
     res.redirect("/");
@@ -525,7 +536,7 @@ What if we want to search for a specific user in a list of thousands? We'll need
 
 #### Further Reading
 
-- [OWASP.ORG](https://blog.presidentbeef.com/blog/2020/01/14/injection-prevention-sanitizing-vs-escaping/) will give you a good idea on what escaping means and how it can help further secure your web applications.
+- This article expands on [what santizating and escaping means, and how thy can help further secure your web applications](https://blog.presidentbeef.com/blog/2020/01/14/injection-prevention-sanitizing-vs-escaping/).
 - [express-validator](https://express-validator.github.io/docs/) contains the full documentation for `validator`, with some important sections being:
   - [Getting Started with express-validator](https://express-validator.github.io/docs/guides/getting-started)
   - [Validation Chains](https://express-validator.github.io/docs/guides/validation-chain)
