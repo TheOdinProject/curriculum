@@ -1,6 +1,6 @@
 ### Introduction
 
-We've talked about the client-side and the server-side but how do we keep ahold of all our user's data?  Who remembers that your login password is `CatLover1985` so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later). It can be relatively simple, like an Excel spreadsheet, or incredibly complex and split into many giant pieces, like Facebook's.
+You might have wondered how you keep track of all your users' data.  Who remembers that your login password is `CatLover1985` so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later). It can be relatively simple, like an Excel spreadsheet, or incredibly complex and split into many giant pieces, like Facebook's.
 
 Databases are kind of hidden in the back of the web application, so people approach them with a sense of suspicion and awe.  However, do not fret or feel intimidated.  As you dive deeper into the subject, your databases and you are going to become very good friends (or at least frenemies).  Rest assured, by the end of this curriculum, you're going to understand what's going on with your databases and be able to interact with them like a pro (and probably better than some people you'll work with).  This lesson is a teaser for that.
 
