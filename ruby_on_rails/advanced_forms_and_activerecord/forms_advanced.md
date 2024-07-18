@@ -32,11 +32,7 @@ Let's say you want to build a New Post form for your blog but you want to be abl
 
 The bare HTML way is to build a bunch of `<option>` tags (inside your `<select>` tag).  You could easily create these in your ERB code by just iterating over some collection, for instance if you'd like to select a post to view from a list of them.
 
-<<<<<<< HEAD
-```html
-=======
 ```erb
->>>>>>> main
   # app/views/posts/new.html.erb
   ...
   <select name="user_id">
@@ -190,7 +186,7 @@ Sometimes Rails helper methods will do it for you, but make sure you know what y
 
 We've covered two of the more common use cases for complex forms -- pre-populating a form with objects and creating multiple objects with a single form.  At this point, even if you're uncomfortable, you should have all the tools you need to work through creating a form.  We'll get your hands dirty in the project, have no fear.
 
-The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part. So everything you've learned may just be transferrable to every form you'll ever make.
+The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferrable to every form you'll ever make.
 
 ### Knowledge check
 
