@@ -219,7 +219,7 @@ These are the additional transform function values to scale an element in a 3D s
 }
 ```
 
-See MDN's 3D cube in action with [`scaleZ`](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()>) and [`scale3d`](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d()>).
+See MDN's 3D cube in action with [`scaleZ`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ()) and [`scale3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d()).
 
 #### Translate specific axis
 
@@ -271,9 +271,9 @@ Another benefit of `transform` is that it can be hardware-accelerated via a devi
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Take a look at this [MDN demonstration of `rotate3d`](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()>) then read more about the property in this [Quackit article on `rotate3d`](https://www.quackit.com/css/functions/css_rotate3d_function.cfm).
+1. Take a look at this [MDN demonstration of `rotate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) then read more about the property in this [Quackit article on `rotate3d`](https://www.quackit.com/css/functions/css_rotate3d_function.cfm).
 1. Learn more about [the `perspective` property on CSS Tricks](https://css-tricks.com/how-css-perspective-works/).
-1. MDN has another great [demonstration using `translate3d`](<https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d()>).
+1. MDN has another great [demonstration using `translate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d()).
 1. Go through [The World of CSS Transforms](https://www.joshwcomeau.com/css/transforms/) by Josh Comeau.
 
 </div>
