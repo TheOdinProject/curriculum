@@ -43,7 +43,7 @@ To identify a user's session information, Rails stores a special secure and tamp
 
 Rails gives you access to the `session` hash in an almost identical way to the above-mentioned `cookies` hash.  Use the `session` variable in your views or controllers like so:
 
-~~~ruby
+```ruby
   # app/controllers/users_controller.rb
   ...
   # Set a session value
@@ -58,7 +58,7 @@ Rails gives you access to the `session` hash in an almost identical way to the a
   # Reset the entire session
   reset_session
   ...
-~~~
+```
 
 Why would you need both cookies and sessions?  They are similar but not the same.  `session` is an entire hash that gets put in the secure session cookie that expires when the user closes the browser.  If you look in your developer tools, the "expiration" of that cookie is "session".  Each value in the `cookies` hash gets stored as an individual cookie.
 
@@ -81,13 +81,13 @@ The flash is there to save the day!  Just store `flash[:success]` (or whatever y
 
 You still have to write view code to display the flash messages.  It's common to write a short view helper that will pin any available flash message(s) to the top of the browser.  You might also add a class to the message which will allow you to write some custom CSS, for instance turning `:success` messages green and `:error` messages red.
 
-~~~html
+```erb
   # app/views/layouts/application.html.erb
   ...
   <% flash.each do |name, message| %>
     <div class="<%= name %>"><%= message %></div>
   <% end %>
-~~~
+```
 
 ### Controller filters
 
@@ -95,7 +95,7 @@ Before we talk about authentication, we need to cover controller filters.  The i
 
 <span id="login-check">We do this through the use of a "before filter", which takes the name of the method we want to run:</span>
 
-~~~ruby
+```ruby
   # app/controllers/users_controller
   before_action :require_login
   before_action :do_something_cool
@@ -113,7 +113,7 @@ Before we talk about authentication, we need to cover controller filters.  The i
   def do_something_cool
     # do stuff here
   end
-~~~
+```
 
 The `before_action` method takes the symbol of the method to run before anything else gets run in the controller. In the case that this callback renders or redirects, the request, as well as any callbacks that are scheduled to run after that callback, are also cancelled. So in the case above, if the user was redirected to the login page, the `before_action :do_something_cool` callback wouldn't have been executed either.
 
@@ -181,17 +181,17 @@ Configuration will be dependent on your use case.  Do you want to make the user 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  
-1. Read [this article about how Rails sessions work](https://www.justinweiss.com/articles/how-rails-sessions-work/).
-2. Watch [this video to dive deep into sessions](https://www.youtube.com/watch?v=mqUbnZIY3OQ).
-3. Read sections 5 and 6 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#session).  Don't worry too much about the details of `session_store` configurations in 5.1 right now.
-4. Read section 8 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#filters) to understand controller filters.
-5. Read section 11 of the [Rails guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#http-authentications) to understand more about authentication.
-6. Glance over the [Devise Documentation](https://github.com/plataformatec/devise). Read about how to install it in your Rails App and what the different modules do.  You'll be using it with upcoming projects.
+
+1. Read this article about [how Rails sessions work](https://www.justinweiss.com/articles/how-rails-sessions-work/).
+1. Watch this video to [dive deep into sessions](https://www.youtube.com/watch?v=mqUbnZIY3OQ).
+1. Read sections 5 and 6 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#session).  Don't worry too much about the details of `session_store` configurations in 5.1 right now.
+1. Read section 8 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#filters) to understand controller filters.
+1. Read section 11 of the [Rails guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#http-authentications) to understand more about authentication.
+1. Glance over the [Devise Documentation](https://github.com/plataformatec/devise). Read about how to install it in your Rails App and what the different modules do.  You'll be using it with upcoming projects.
 
 </div>
 
-### Conclusion
+#### Conclusion
 
 Authentication can appear to be a fairly complicated topic -- there are a lot of moving parts.  At it's core, though, you're just checking whether the person making a request is actually a signed in user who has the permissions to do so, all by using browser cookies in some form or another.
 
@@ -199,17 +199,17 @@ This lesson should have given you some appreciation for how complicated login sy
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#using-cookies">How would you set a cookie for hair color on a user's browser?</a>
-- <a class="knowledge-check-link" href="#login-check">How would you require a user is logged in _before_ running some code?</a>
-- <a class="knowledge-check-link" href="#http-authentication">Would you use Basic HTTP Authentication for authenticating users over alternatives such as the Devise gem?</a>
-- <a class="knowledge-check-link" href="#flash-message">How would you flash an error message on a user's browser if they put an invalid username?</a>
-- <a class="knowledge-check-link" href="#using-devise">What are some reasons you would want to use the Devise gem for user authentication over building your own authorization system?</a>
+- [How would you set a cookie for hair color on a user's browser?](#using-cookies)
+- [How would you require a user is logged in *before* running some code?](#login-check)
+- [Would you use Basic HTTP Authentication for authenticating users over alternatives such as the Devise gem?](#http-authentication)
+- [How would you flash an error message on a user's browser if they put an invalid username?](#flash-message)
+- [What are some reasons you would want to use the Devise gem for user authentication over building your own authorization system?](#using-devise)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Authentication in Rails 3.1 from [Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than we can explain it.
+- [Authentication in Rails 3.1 from Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than we can explain it.
 - [All About Cookies (.org)](http://www.allaboutcookies.org/)
