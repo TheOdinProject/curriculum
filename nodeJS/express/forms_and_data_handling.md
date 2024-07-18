@@ -28,13 +28,11 @@ The HTML structure would look something like this:
 
 We have the HTML form element itself, with an action pointing to some resource on our server, and a method defined. Notice how the method corresponds to an HTTP verb, typically either `GET` or `POST`.
 
-The input needs a corresponding label element, which is what the end user actually sees on the page.
+The form consists of a text input with an associated label and a submit button.
 
-Then, we have our input. It has an `id` and a `name` attribute, which must match the `for` attribute defined on our label above. The `name` attribute is especially important, as it defines how our input will be identified in the form data sent to our server.
+The input's `name` attribute plays a key role, as it defines how our input will be identified in the form data sent to our server. This is especially important when handling form submissions on the backend.
 
-It has a type of `text` which tells the browser what type of widget to display, what values to accept, and is used for JavaScript and CSS selectors.
-
-The `type="submit"` button can be pressed by the user to upload the data entered into all other input elements to the server (in this case there's only one).
+The `type="submit"` button then allows the user to upload the entered data to the server.
 
 The `form` attributes define how to communicate with the server:
 
@@ -51,14 +49,16 @@ We then generate a new or updated view with the controller's response and redire
 
 ### Validation and sanitization
 
-Before the data from a form is sent off to our server, we must first do two things
+Before the data from a form is sent off to our server, we should consider two important steps:
 
 - *Validation* ensures user input meets the specified criteria (e.g. required fields, correct format).
 - *Sanitization* cleans user input to prevent malicious data from being processed by removing or encoding potentially malicious characters.
 
-The library we'll be using is called `express-validator`. While it simplifies both of these processes for us, it's important to understand the underlying concepts of these two operations.
+We don't always have to sanitize data right when we get it - sometimes it makes sense to sanitize just before we use it instead.
 
-#### Installation
+We'll be using a library called `express-validator` to help us out with both of these. While it makes these processes much simpler, it's important to understand the underlying concepts of these two operations.
+
+#### Installation express-validator
 
 We start as usual by installing the correct package in the *root* folder of our project.
 
@@ -66,7 +66,7 @@ We start as usual by installing the correct package in the *root* folder of our 
 npm install express-validator
 ```
 
-To get started using the package, we first need to *require* it in our project
+To get started using the package, we first need to `require` it in our project
 
 ```javascript
 const { body, validationResult } = require("express-validator");
@@ -81,8 +81,8 @@ The `body()` function allows you to specify which fields in the request body sho
 ```javascript
 [
   body("birthdate", "Must be a valid date.")
-          .optional({ values: "falsy" })
-          .isISO8601() // Enforce a YYYY-MM-DD format.
+    .optional({ values: "falsy" })
+    .isISO8601() // Enforce a YYYY-MM-DD format.
 ];
 ```
 
@@ -94,9 +94,9 @@ You can also chain multiple validation methods, with unique error messages if th
 
 ```javascript
 [
-    body("name")
+  body("name")
     .trim()
-    .isLength({ min: 1 })
+    .notEmpty()
     .withMessage("Name can not be empty.")
     .isAlpha()
     .withMessage("Name must only contain alphabet letters."),  
@@ -104,6 +104,8 @@ You can also chain multiple validation methods, with unique error messages if th
 ```
 
 This ensures that `name` is not only present and trimmed, but also only contains alphabet letters.
+
+### Escaping user input
 
 While this might work for outputs we know won't have special characters, like names or ages, we also have to consider situations that do allow those characters. For example, when writing their "About Me" description, what would happen if the client decides to inject JavaScript code instead?
 
@@ -137,32 +139,31 @@ To prevent this [cross-site scripting (XSS) attack](https://en.wikipedia.org/wik
 
 So why not escape the data when we receive it by adding .escape() to the end of our body() validation chain instead? "Dangerous characters" are only dangerous at the point of use, and also only in certain contexts. What's "dangerous" for HTML may not be dangerous for SQL and vice versa, and they won't pose risks until they get used in those contexts.
 
-Also, if we have data with HTML entities after escaping them, if we used escaped output with (<%= %>), then &lt; wouldn't become < but output literally as the text &lt;. We'd need to either unescape them then re-escape them via escaped output, or end up using unescaped output (<%- %>), which, like using .innerHTML, is undesirable as shown above.
+Also, if we have data with HTML entities after escaping them, if we used escaped output with (`<%= %>`), then `&lt;` wouldn't become `<` but output literally as the text `&lt;`. We'd need to either unescape them then re-escape them via escaped output, or end up using unescaped output (`<%- %>`), which, like using `.innerHTML`, is undesirable as shown above.
 
 ### Validation results
 
-Once the validation rules are applied, you can use 'validationResult' to handle any validation errors. We use `asyncHandler` to automatically catch these errors in our async route handlers and pass them to the middleware:
+Once the validation rules are applied, you can use `validationResult` to handle any validation errors. We use `asyncHandler` to automatically catch these errors in our async route handlers and pass them to the middleware:
 
 ```javascript
 // asyncHandler lets us wrap async express routes to handle errors.
 asyncHandler(async (req, res, next) => {
   const errors = validationResult(req);
-  
   if (!errors.isEmpty()) {
-    return res.status(400).json({ errors: errors.array() });
-  } else {
-    res.send("Data is valid, form submitted!");
+    return res.status(400).render("index", {
+      errors: errors.array(),
+    });
   }
+
+  res.redirect("/success");
 });
 ```
 
-This setup checks for any failed validation checks, and if there are any (the errors array is NOT empty), then it sends a 400 code, along with any errors that may be present.
+This setup checks for any failed validation checks, and if there are any (the errors array is NOT empty), then the server sends a [400 status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400), along with any errors that may be present, to our `index` view. Otherwise, we're redirected to the `/success` route in our router.
 
 ### Forms and Express routes
 
 One final thing to cover is how to handle routes in Express. After all, our form needs somewhere to send the data to.
-
-Since we don't want our routes handling logic, we instead use a controller.
 
 ```javascript
 const asyncHandler = require("express-async-handler");
@@ -185,14 +186,7 @@ usersRouter.post("/users/:id/update", usersController.userUpdatePost);
 module.exports = usersRouter;
 ```
 
-You'll notice there's a respective `GET` and `POST` route.
-
-- `GET` routes typically display forms or confirmation pages.
-- `POST` routes handle form submissions and data processing.
-
-You may also notice the `:id` parameter in the route. This lets us pass a value to those routes that we can use to tell the controller which `User` object we're referencing.
-
-And in our form, the action would look something like this:
+In our form, the action would look something like this:
 
 ```ejs
 <!-- Example using EJS with POST to submit an update to our Express server. -->
@@ -230,7 +224,7 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Express app listening on port ${PORT}!`));
 ```
 
-Most simple forms will use the `application/x-www-form-urlencoded` `Content-Type` when sending data to the server. Express, however, can't natively parse that data. We can use the `express.urlencoded()` middleware to handle this for us. When `extended` is `false`,  our server will only accept a `string` or an array of data, so we set it to `true` for some added flexibility. Note that if the `Content-Type` doesn't match `application/x-www-form-urlencoded`, then your server will show the data as an empty object `{}`.
+Most simple forms will use the `Content-Type: application/x-www-form-urlencoded` HTTP header when sending data to the server. Express, however, can't natively parse that data. We can use the `express.urlencoded()` middleware to handle this for us and automatically set form's data to the `req.body` field. When `extended` is `false`,  our server will only accept a `string` or an array of data, so we set it to `true` for some added flexibility. Note that if the `Content-Type` doesn't match `application/x-www-form-urlencoded`, then your server will show the data as an empty object `{}`.
 
 Let's create a new router called `usersRouter.js` in the routes folder:
 
@@ -296,9 +290,6 @@ The logic for this router will go inside of our controller:
 
 ```javascript
 // controllers/usersController.js
-// User is a factory function which acts as a model for our simulated database.
-// We will explore this concept more as we later dive deeper into databases.
-const User = (firstName, lastName) => ({ firstName, lastName });
 const asyncHandler = require("express-async-handler");
 const usersStorage = require("../storages/usersStorage");
 
@@ -308,43 +299,43 @@ exports.usersCreateGet = asyncHandler(async (req, res) => {
 
 exports.usersCreatePost = asyncHandler(async (req, res) => {
   const { firstName, lastName } = req.body;
-  usersStorage.addUser(User(firstName, lastName));
+  usersStorage.addUser({firstName, lastName});
   res.redirect("/");
 });
 ```
 
-And we'll use a storage class to hold the users we create. In real-world scenarios, you would almost certainly be using a database for this, which you'll explore further in upcoming lessons.
+And we'll use a storage class to hold the users we create. In real-world scenarios, you would almost certainly be using a database for this, which you'll explore further in upcoming lessons. This class is just for demonstration purposes before we get there.
 
 ```javascript
 // storages/usersStorage.js
 // This class lets us simulate interacting with a database.
 class UsersStorage {
-    constructor() {
-        this.storage = {};
-        this.id = 0;
-    }
+  constructor() {
+    this.storage = {};
+    this.id = 0;
+  }
 
-    addUser({firstName, lastName}) {
-        const id = this.id;
-        this.storage[id] = { id, firstName, lastName };
-        this.id++;
-    }
+  addUser({firstName, lastName}) {
+    const id = this.id;
+    this.storage[id] = { id, firstName, lastName };
+    this.id++;
+  }
 
-    getUsers() {
-        return Object.values(this.storage);
-    }
+  getUsers() {
+    return Object.values(this.storage);
+  }
 
-    getUser(id) {
-        return this.storage[id];
-    }
+  getUser(id) {
+    return this.storage[id];
+  }
 
-    updateUser(id, {firstName, lastName}) {
-        this.storage[id] = { id, firstName, lastName };
-    }
+  updateUser(id, {firstName, lastName}) {
+    this.storage[id] = { id, firstName, lastName };
+  }
 
-    deleteUser(id) {
-        delete this.storage[id];
-    }
+  deleteUser(id) {
+    delete this.storage[id];
+  }
 }
 // Rather than exporting the class, we can export an instance of the class by instantiating it.
 // This ensures only one instance of this class can exist, also known as the "singleton" pattern.
@@ -364,12 +355,12 @@ const alphaErr = "must only contain letters.";
 const lengthErr = "must be between 1 and 10 characters.";
 
 const validateUser = [
-    body("firstName").trim()
-      .isAlpha().withMessage(`First name ${alphaErr}`)
-      .isLength({ min: 1, max: 10 }).withMessage(`First name ${lengthErr}`),
-    body("lastName").trim()
-      .isAlpha().withMessage(`Last name ${alphaErr}`)
-      .isLength({ min: 1, max: 10 }).withMessage(`Last name ${lengthErr}`),
+  body("firstName").trim()
+    .isAlpha().withMessage(`First name ${alphaErr}`)
+    .isLength({ min: 1, max: 10 }).withMessage(`First name ${lengthErr}`),
+  body("lastName").trim()
+    .isAlpha().withMessage(`Last name ${alphaErr}`)
+    .isLength({ min: 1, max: 10 }).withMessage(`Last name ${lengthErr}`),
 ];
 
 // We can pass an entire array of middleware validations to our controller.
@@ -377,12 +368,14 @@ exports.usersCreatePost = [
   validateUser,
   asyncHandler(async (req, res) => {
     const errors = validationResult(req);
-    if (!errors.isEmpty()) return res.status(400).render("users", { 
-      title: "User List", errors: errors.array() 
-    });
-
+    if (!errors.isEmpty()) {
+      return res.status(400).render("users", {
+        title: "User List",
+        errors: errors.array(),
+      });
+    }
     const { firstName, lastName } = req.body;
-    usersStorage.addUser(User(firstName, lastName));
+    usersStorage.addUser({firstName, lastName});
     res.redirect("/");
   })
 ];
@@ -395,7 +388,7 @@ And we need to update our `users.ejs` view to render these errors. Let's create 
 <% if (locals.errors) {%>
   <ul>
     <% errors.forEach(function(error) { %>
-    <li><%= error.msg %></li>
+      <li><%= error.msg %></li>
     <% }); %>
   </ul>
 <% } %>
@@ -441,28 +434,22 @@ Then we'll add the logic for the requests into our controller:
 
 ```javascript
 exports.usersUpdateGet = asyncHandler(async (req, res) => {
-    const user = usersStorage.getUser(req.params.id);
-    if (!user) {
-        return res.status(404).send("User not found.");
-    }
-    res.render("update", { user, errors: [] });
+  const user = usersStorage.getUser(req.params.id);
+  res.render("update", { user, errors: [] });
 });
 
 exports.usersUpdatePost = [
-    validateUser,
-    asyncHandler(async (req, res) => {
-        const user = usersStorage.getUser(req.params.id);
-        const errors = validationResult(req);
-        if (!user) {
-            return res.status(404).send("User not found.");
-        }
-        if (!errors.isEmpty()) return res.status(400).render("update", {
-            errors: errors.array(), user: user
-        });
-        const { firstName, lastName } = req.body;
-        usersStorage.updateUser(req.params.id, User(firstName, lastName));
-        res.redirect("/");
-    })
+  validateUser,
+  asyncHandler(async (req, res) => {
+    const user = usersStorage.getUser(req.params.id);
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) return res.status(400).render("update", {
+      errors: errors.array(), user: user
+    });
+    const { firstName, lastName } = req.body;
+    usersStorage.updateUser(req.params.id, {firstName, lastName});
+    res.redirect("/");
+  })
 ];
 ```
 
@@ -492,7 +479,6 @@ Then we add the logic to handle the request into our controller:
 // Tell the server to delete a matching user, if any. Otherwise, respond with an error.
 exports.usersDeletePost = asyncHandler(async (req, res) => {
   const user = usersStorage.getUser(req.params.id);
-  if (!user) return res.status(404).send("User not found.");
   usersStorage.deleteUser(req.params.id);
   res.redirect("/");
 });
@@ -537,14 +523,14 @@ What if we want to search for a specific user in a list of thousands? We'll need
    - Your `GET` request should then render the search result.
 1. Display the search results in a new view: `search.ejs`.
 
-</div>
-
 #### Further Reading
 
 - [OWASP.ORG](https://blog.presidentbeef.com/blog/2020/01/14/injection-prevention-sanitizing-vs-escaping/) will give you a good idea on what escaping means and how it can help further secure your web applications.
 - [express-validator](https://express-validator.github.io/docs/) contains the full documentation for `validator`, with some important sections being:
-  - [Getting Started](https://express-validator.github.io/docs/guides/getting-started)
+  - [Getting Started with express-validator](https://express-validator.github.io/docs/guides/getting-started)
   - [Validation Chains](https://express-validator.github.io/docs/guides/validation-chain)
+
+</div>
 
 ### Knowledge check
 
