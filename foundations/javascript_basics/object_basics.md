@@ -20,6 +20,36 @@ Objects are a *very* important part of the JavaScript language, and while for th
 1. This JavaScript.info [article on objects](https://javascript.info/object) is the best place to get started.
 1. The [MDN tutorial on objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
 
+#### Differences between objects and primitives
+
+Earlier in curriculum you've learned about [primitive data types](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals). Now you've seen the object data type, the main difference between the two is the fact that primitives can contain only a single thing (string, number etc). While objects are used to store collection of data, and more complex entities.
+Beside the formal difference, there are some technical differences too, which effect how we use each data type.
+When you define a primitive variable, it will contain a copy of the information provided to it:
+```js
+const data = 42;
+// dataCopy will store a copy of what data contain, so a copy of 42
+let dataCopy = data;
+
+// which means that making changes to dataCopy won't effect data
+dataCopy = 43;
+
+console.log(data); // 42
+console.log(dataCopy); // 43
+```
+On the other hand when you define object variable, it will contain a *reference* to the object provided to it:
+```js
+// obj contain a reference to the object we defined on the right side
+const obj = {data: 42};
+// objCopy will contain a reference to the object referenced by obj
+const objCopy = obj;
+
+// making changes to objCopy will make changes to the object which it refers to
+objCopy.data = 43;
+
+console.log(obj); // { data: 43 }
+console.log(obj); // { data: 43 }
+```
+
 ### Intermediate/advanced array magic
 
 Besides being a quick and handy way to store data, arrays also have a set of functions for manipulating that data in very powerful ways. Once you begin to master these functions you will start to see ways to use them all over the place! There are really only a handful of these functions, but as you'll soon see, the possibilities of what you can do with them are near endless.
