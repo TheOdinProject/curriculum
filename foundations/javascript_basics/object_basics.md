@@ -22,33 +22,71 @@ Objects are a *very* important part of the JavaScript language, and while for th
 
 #### Differences between objects and primitives
 
-Earlier in curriculum you've learned about [primitive data types](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals). Now you've seen the object data type, the main difference between the two is the fact that primitives can contain only a single thing (string, number etc). While objects are used to store collection of data, and more complex entities.
-Beside the formal difference, there are some technical differences too, which effect how we use each data type.
+Earlier in the curriculum you've learned about [primitive data types](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals). Now you've seen the object data type, the main difference between the two is that primitives can contain only a single thing (string, number, etc). Objects are used to store collection of data and more complex entities.
+Besides the formal differences, there are also some technical differences, which affect how we use each data type.
 When you define a primitive variable, it will contain a copy of the information provided to it:
-```js
+
+```javascript
 const data = 42;
-// dataCopy will store a copy of what data contain, so a copy of 42
+// dataCopy will store a copy of what data contains, so a copy of 42
 let dataCopy = data;
 
-// which means that making changes to dataCopy won't effect data
+// which means that making changes to dataCopy won't affect data
 dataCopy = 43;
 
 console.log(data); // 42
 console.log(dataCopy); // 43
 ```
-On the other hand when you define object variable, it will contain a *reference* to the object provided to it:
-```js
-// obj contain a reference to the object we defined on the right side
-const obj = {data: 42};
+
+On the other hand, when you define an object variable, it will contain a *reference* to the object provided to it:
+
+```javascript
+// obj contains a reference to the object we defined on the right side
+const obj = { data: 42 };
 // objCopy will contain a reference to the object referenced by obj
 const objCopy = obj;
 
-// making changes to objCopy will make changes to the object which it refers to
+// making changes to objCopy will make changes to the object that it refers to
 objCopy.data = 43;
 
 console.log(obj); // { data: 43 }
 console.log(obj); // { data: 43 }
 ```
+
+This behavior isn't new to you, in your last project you made changes to the cells in the Etch-A-Sketch grid by using references.
+Let's take this code snippet as an example:
+
+```javascript
+const element = document.getElementById("container");
+element.style.backgroundColor = "red";
+```
+
+We're changing the variable we declared (element), yet the changes affect the corresponding node in the DOM.
+Why does it happen?
+That's because the node we have in our code is a **reference** to the same node that our DOM uses. If that wasn't a reference, but a copy like primitive data types behave, our changes would have **no** effect! Because the changes would be made to the local copy we have.
+
+This behavior is also something to consider when we pass arguments to a function, let's take the following functions for example:
+
+```javascript
+function increaseCounterObject(objectCounter) {
+  objectCounter.counter += 1;
+}
+
+function increaseCounterPrimitive(primitiveCounter) {
+  primitiveCounter += 1;
+}
+
+const object = { counter: 0 };
+let primitive = 0;
+
+increaseCounterObject(object);
+increaseCounterPrimitive(primitive);
+```
+
+Take a moment to try to guess what will happen to `object` and what will happen to `primitive`, after we make the function calls.
+
+If you answered that the object counter would increase by 1, and the primitive counter wouldn't change, you're correct.
+Remember that `objectCounter` is passed by reference, while `primitiveCounter` is passed by copy.
 
 ### Intermediate/advanced array magic
 
