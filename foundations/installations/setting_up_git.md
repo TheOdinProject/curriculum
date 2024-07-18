@@ -6,7 +6,7 @@
 
 [GitHub](https://github.com/) is a service that allows you to upload, host, and manage your code using Git with a nice web interface.
 
-Even though GitHub and Git sound like they could be the same thing, they are not the same thing or even created by the same company.
+Even though GitHub and Git sound similar, they are not the same or even created by the same company.
 
 ### Step 1: Install Git
 
@@ -73,8 +73,8 @@ First, you'll need to install Homebrew. To install it, you’ll first need to ma
 
 <div class="lesson-note lesson-note--warning" markdown=1>
 
-On an Apple Silicon Mac you will have an extra step to take.
-If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal there will be a section called "Next steps".
+On an Apple Silicon Mac, you will have an extra step to take.
+If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal, there will be a section called "Next steps".
 Reading the terminal may seem a bit intimidating, but this is a great chance to overcome those feelings. Follow the next steps as stated in your terminal (copy and paste the commands given) to add Homebrew to your PATH, which allows you to use the `brew` command prefix.
 
 </div>
@@ -124,9 +124,9 @@ Go to [GitHub.com](https://github.com/) and create an account! During the accoun
 
 ![GitHub Email Settings](https://cdn.statically.io/gh/TheOdinProject/curriculum/770be14190139683dbe9933ca5e9393c797c63f2/foundations/installations/setting_up_git/imgs/01.png)
 
-Having these two options enabled will prevent you accidentally exposing your personal email address when working with Git and GitHub.
+Having these two options enabled will prevent accidentally exposing your personal email address when working with Git and GitHub.
 
-You may also notice an email address under the **Keep my email addresses private** option, this is your private GitHub email address. If you plan to use this, make note of it now as you will need it when setting up Git in the next step.
+You may also notice an email address under the **Keep my email addresses private** option. This is your private GitHub email address. If you plan to use this, make note of it now as you will need it when setting up Git in the next step.
 
 #### Step 2.2: Setup Git
 
@@ -170,12 +170,18 @@ git config --get user.name
 git config --get user.email
 ```
 
-**macOS Users:** Run these two commands to tell Git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder. .DS_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don't configure Git to ignore them, pesky .DS_Store files will show up in your commits. Remember to copy and paste each of these commands into your terminal.
+<div class="lesson-note" markdown="1">
+
+#### For macOS Users
+
+Run these two commands to tell Git to ignore .DS_Store files, which are automatically created when you use Finder to look into a folder. .DS_Store files are invisible to the user and hold custom attributes or metadata (like thumbnails) for the folder, and if you don't configure Git to ignore them, pesky .DS_Store files will show up in your commits. Remember to copy and paste each of these commands into your terminal.
 
 ```bash
 echo .DS_Store >> ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 ```
+
+</div>
 
 #### Step 2.3: Create an SSH key
 

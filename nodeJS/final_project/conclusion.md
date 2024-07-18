@@ -24,7 +24,7 @@ Caching makes your application faster by reducing database calls. Check out this
 
 #### DevOps
 
-Sometimes, having a little exposure to DevOps can help set you apart as a robust developer. There are various platforms out there you can start to learn from, Azure to Amazon Web Services, Heroku to Digital Ocean. While some of these offer free services, many of their services are unfortunately paid. That being said, this doesn't prevent you from reading documentation or leveraging their free services to start getting some exposure. [Heroku](https://devcenter.heroku.com/categories/reference#deployment) has extensive resources for you to dive into. Another popular provider, Digital Ocean, offers competing [Droplets](https://www.digitalocean.com/docs/droplets/quickstart/) and their new [App Platform](https://www.digitalocean.com/docs/app-platform/) services.
+Sometimes, having a little exposure to DevOps can help set you apart as a robust developer. There are various platforms out there you can start to learn from, Azure to Amazon Web Services, Heroku to Digital Ocean. While some of these offer free services, many of their services are unfortunately paid. That being said, this doesn't prevent you from reading documentation or leveraging their free services to start getting some exposure. [Heroku](https://devcenter.heroku.com/categories/reference#deployment) has extensive resources for you to dive into. Another popular provider, Digital Ocean, offers competing [Droplets](https://docs.digitalocean.com/products/droplets/getting-started/quickstart/) and their new [App Platform](https://www.digitalocean.com/docs/app-platform/) services.
 
 A platform we highly encourage you to begin looking into either way is [Amazon Web Services](https://aws.amazon.com/). This is a platform you will likely see on job postings and on the job itself, and can be an invaluable skill to have in your arsenal.
 
@@ -55,7 +55,7 @@ We want to emphasize again that the learning never really stops but also that yo
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Additional [frameworks built on Express](https://web.archive.org/web/20240328030121/https://expressjs.com/en/resources/frameworks.html) that might be more suited to building certain types of applications.
 - Explore [more about APIs](https://www.youtube.com/watch?v=oBW_VNg4qD0).

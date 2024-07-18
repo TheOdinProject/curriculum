@@ -110,10 +110,13 @@ By declaring our custom property on the `:root` selector in the example above, w
 Beyond allowing us to access custom properties more globally, the `:root` selector gives us one way to add themes to our pages:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="PojVRMb" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PojVRMb">
   Theme Toggle | CSS Custom Properties</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 First, since we don’t have direct access to the root element in the HTML tab on codepen, we’ve applied a default class of `dark` using the settings menu. Feel free to open the pen and change this setting to see how it behaves! Next in our CSS we created two scopes for our custom properties on the `:root` selector, one for when our `html` (or root) element has a class of `dark` and another for when it has a class of `light`. Our other selectors then use the values of any custom properties depending on which class is currently present on our root element.
@@ -123,10 +126,13 @@ First, since we don’t have direct access to the root element in the HTML tab o
 Giving users the ability to toggle a theme themselves is great, but there's another option for setting a theme that you may have come across on certain sites or applications: using the user's theme setting from their operating system or user agent (like a browser). This can be accomplished with the `prefers-color-scheme` media query, which checks whether a user has selected a theme preference on their OS/user agent. As you view the example below, try changing the theme settings on your OS/user agent to see how the example updates in real time!
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="powGZzE" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/powGZzE">
   Theme Query | CSS Custom Properties</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 We first added custom properties on the `:root` element outside of the media query. This gives us a default theme in case a user doesn't have a preference set on their OS or user agent, or if a browser doesn't support the media query. In this case, we're using our "light" theme colors as the default. Then we added a `prefers-color-scheme` media query for when a user has a dark theme set in their preferences.
@@ -140,15 +146,17 @@ Using the `prefers-color-scheme` media query can be pretty helpful for users sin
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. This [video on CSS custom properties](https://www.youtube.com/watch?v=PHO6TBq_auI) is a great introduction. Go ahead and watch it.
 1. Read through MDN's [Using CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties#inheritance_of_custom_properties) page starting at the "Inheritance of custom properties" section.
 1. Read the CSS Tricks article for a [comprehensive overview of custom properties and what you can do with them](https://css-tricks.com/a-complete-guide-to-custom-properties/).
 1. Open the inspector on this page to inspect the styles and see how Odin uses some custom properties.
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How would you declare a custom property with a name of `text-color`?](#using-custom-properties)
 - [How would you access a custom property with a name of `background-color`?](#using-custom-properties)
@@ -157,6 +165,6 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Using CSS custom properties](https://www.youtube.com/watch?v=_2LwjfYc1x8) by Kevin Powell is a great video showing neat ways to use custom properties.

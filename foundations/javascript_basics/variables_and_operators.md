@@ -1,6 +1,6 @@
 ### Introduction
 
-In the previous sections you learnt how to structure webpages with HTML and style them with CSS. The next step is to make the webpage *interactive*, which is exactly what JavaScript is for. In this section, we will focus on the fundamentals of JavaScript and how you can use it to manipulate all the various interactions between the web page and user.
+In the previous sections you learned how to structure webpages with HTML and style them with CSS. The next step is to make the webpage *interactive*, which is exactly what JavaScript is for. In this section, we will focus on the fundamentals of JavaScript and how you can use it to manipulate all the various interactions between the web page and user.
 
 ### Lesson overview
 
@@ -77,6 +77,7 @@ Numbers are the building blocks of programming logic!  In fact, it's hard to thi
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 Try the following exercises (and don't forget to use `console.log()`!):
 
 1. Add 2 numbers together! (just type  `console.log(23 + 97)`   into your HTML file)
@@ -95,7 +96,12 @@ Try the following exercises (and don't forget to use `console.log()`!):
     - If you type `percentage` in the console and press <kbd>Enter</kbd> you should see a value like `0.7719`
 1. Take a few minutes to keep playing around with various things in your script tag.  Eventually, we will learn how to actually make those numbers and things show up on the webpage, but all of this logic will remain the same, so make sure you're comfortable with it before moving on.
 
-** As you might have noticed by running JavaScript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `let b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line.*
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+As you might have noticed by running JavaScript code in the console, the console prints the result of the code it executes (called a return statement). You will learn more about these in the next lessons, however for now it is good to remember that a declaration with an assignment (such as `let b = 7 * a`) returns `undefined` and so you cannot declare and assign a value to a variable and read its value in the same line.
+
+</div>
+
 </div>
 
 ### Knowledge check

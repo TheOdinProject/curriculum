@@ -95,7 +95,7 @@ export default ClassInput;
 
 A class is generally incomplete without a constructor, so let's add one.
 
-The props, that get passed into this component, gets passed into the class's `constructor`. This, along with the `super` method, allows you to use the props in context to `this`, which, in *this* case, refers to the component. If you’re really curious about what `super` actually does, [check out the docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super).
+The props, that get passed into this component, gets passed into the class's `constructor`. This, along with the `super` method, allows you to use the props in context to `this`, which, in *this* case, refers to the component. If you’re really curious about what `super` actually does, check out the [MDN docs on the `super` keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super).
 
 If your component doesn't have any props, it is fine to leave the `constructor` and the `super` with no arguments.
 
@@ -286,4 +286,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- In general, the React documentation on [thinking in react](https://reactjs.org/docs/thinking-in-react.html) is a really good place to look into, if you want more practice with class-based components, from scratch.
+- In general, the React documentation on [thinking in react](https://legacy.reactjs.org/docs/thinking-in-react.html) is a really good place to look into, if you want more practice with class-based components, from scratch.

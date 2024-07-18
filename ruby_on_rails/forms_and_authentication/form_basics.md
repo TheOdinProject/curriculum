@@ -169,6 +169,7 @@ This will produce the following HTML:
 
 ~~~html
 <form action="/articles" method="post">
+  <input name="authenticity_token" type="hidden" value="J7CBxfHalt49OSHp27hblqK20c9PgwJ108nDHX/8Cts=" />
   <input type="text" name="article[title]">
   <input type="submit" value="Create">
 </form>

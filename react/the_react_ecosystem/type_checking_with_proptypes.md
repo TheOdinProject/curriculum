@@ -29,7 +29,7 @@ import PropTypes from 'prop-types';
 
 Here is a very basic example of how we would use it in a component that renders out a name prop.
 
-```javascript
+```jsx
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -56,7 +56,7 @@ RenderName.propTypes = {
 
 Another cool thing we can do in combination with PropTypes is passing in default props:
 
-```javascript
+```jsx
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -98,9 +98,9 @@ Learning TypeScript can be a lot of overhead when you’re already learning Reac
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#using-proptypes">How would we set up a basic implementation of PropTypes?</a>
-- <a class="knowledge-check-link" href="#using-defaultprops">If we pass in a prop to a component that has a defaultProp defined, what would happen?</a>
-- <a class="knowledge-check-link" href="https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application">What is the difference between PropTypes and TypeScript?</a>
+- [How would we set up a basic implementation of PropTypes?](#using-proptypes)
+- [If we pass in a prop to a component that has a defaultProp defined, what would happen?](#using-defaultprops)
+- [What is the difference between PropTypes and TypeScript?](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application)
 
 ### Additional resources
 
