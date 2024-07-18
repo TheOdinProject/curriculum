@@ -10,11 +10,11 @@ This section contains a general overview of topics that you will learn in this l
 
 - Describe how routes are defined.
 - Explain route parameters and query parameters.
-- Setup new routers on a path
+- Set up new routers on a path.
 
 ### The anatomy of a route
 
-Let's return to our sole route in our previous basic Express app.
+Let's return to our sole route from our previous basic Express app.
 
 ```javascript
 app.get("/", (req, res) => res.send("Hello, world!"));
@@ -79,7 +79,7 @@ In order for our `GET /messages` request to match the `/messages` route, we will
 
 What if we wanted to have a route for all messages for any username, for example, `/odin/messages` or `/thor/messages`, or even `/theodinproject79687378/messages`? We could technically use `/*/messages`, but what if we wanted to extract and use the username in our middleware functions? Just like with React Router, we can use `route parameters`, and a path can contain as many of these parameters as we need.
 
-To denote a route parameter, we start a segment with a `:` followed by the name of parameter (which can only consist of case-sensitive alphanumeric characters, or `_`). Whatever we name that route parameter, Express will automatically populate the `req.params` object in any of the following middleware functions with whatever value the path passed into the parameter, using the parameter name as a key.
+To denote a route parameter, we start a segment with a `:` followed by the name of the parameter (which can only consist of case-sensitive alphanumeric characters, or `_`). Whatever we name that route parameter, Express will automatically populate the `req.params` object in any of the following middleware functions with whatever value the path passed into the parameter, using the parameter name as its key.
 
 ```javascript
 /**
