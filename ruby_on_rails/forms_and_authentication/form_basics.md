@@ -25,7 +25,7 @@ Step one is to be able to create a form in HTML. Remember how that looks?
 <form action="/somepath" method="post">
   <input type="text" />
   <!-- other inputs here -->
-  <input type="submit" value="Submit This Form" />
+  <input type="submit" value="Submit This Form">
 </form>
 ```
 
@@ -60,12 +60,12 @@ You'll notice the token in the server output from above:
 
 So, if you want to create your own form that gets handled by Rails, you need to provide the token somehow as well. Luckily, Rails gives you a method called `form_authenticity_token` to do so, and we'll cover it in the project.
 
-```html
+```erb
 <input
   type="hidden"
   name="authenticity_token"
   value="<%= form_authenticity_token %>"
-/>
+>
 ```
 
 ### Making forms into params
@@ -76,7 +76,7 @@ Each one of these inputs is structured slightly differently, but there are some 
 
 ```html
 ...
-<input type="text" name="description" />
+<input type="text" name="description">
 ...
 ```
 
@@ -88,9 +88,9 @@ It all comes back to the `name` attribute of your form inputs. Just use hard bra
 
 ```html
 ...
-<input type="text" name="user[first_name]" />
-<input type="text" name="user[last_name]" />
-<input type="text" name="user[email]" />
+<input type="text" name="user[first_name]">
+<input type="text" name="user[last_name]">
+<input type="text" name="user[email]">
 ...
 ```
 
@@ -112,7 +112,7 @@ Rails tries to make your life as easy as it can, so naturally it provides you wi
 
 Start by making a form using the `form_with` helper, which takes a block representing all the inputs to the form. It takes care of the CSRF security token we talked about above by automatically creating the hidden input for it so you don't have to. You pass it arguments to tell it which path to submit to (the default is the current page) and which method to use. Then there are tag helpers that create the specified tags for you, like `text_field_tag` below. All you need to specify there is what you want to call the field when it is submitted.
 
-```bash
+```erb
   <%= form_with(url: "/search", method: "get") do %>
     <%= label_tag(:query, "Search for:") %>
     <%= text_field_tag(:query) %>
@@ -125,13 +125,13 @@ Creates the form:
 ```html
 <form accept-charset="UTF-8" action="/search" method="get">
   <label for="query">Search for:</label>
-  <input id="query" name="query" type="text" />
+  <input id="query" name="query" type="text">
   <input
     name="commit"
     type="submit"
     value="Search"
     data-disable-with="Search"
-  />
+  >
 </form>
 ```
 
@@ -140,10 +140,9 @@ There are tag helpers for all the major tags and the options they accept are all
 There are a few things to take note of when using the `form_with` helper.
 
 1. The ID of the inputs matches the name.
+1. The second line ends with `as TURBO_STREAM` when you look at your output in your console after submitting a form. By default, all forms are now submitted by Turbo Drive. This means that a full request cycle doesn't occur and the page doesn't reload when the form is submitted. In order to disable this, you need to add the necessary data attribute that we covered in the Turbo Drive lesson.
 
-2. The second line ends with `as TURBO_STREAM` when you look at your output in your console after submitting a form. By default, all forms are now submitted by Turbo Drive. This means that a full request cycle doesn't occur and the page doesn't reload when the form is submitted. In order to disable this, you need to add the necessary data attribute that we covered in the Turbo Drive lesson.
-
-```bash
+```erb
   <%= form_with(url: "/search", method: "get", data: { turbo: false} ) do %>
     <%= label_tag(:query, "Search for:") %>
     <%= text_field_tag(:query) %>
@@ -182,9 +181,9 @@ This will produce the following HTML:
     name="authenticity_token"
     type="hidden"
     value="J7CBxfHalt49OSHp27hblqK20c9PgwJ108nDHX/8Cts="
-  />
-  <input type="text" name="article[title]" />
-  <input type="submit" value="Create" />
+  >
+  <input type="text" name="article[title]">
+  <input type="submit" value="Create">
 </form>
 ```
 
@@ -276,35 +275,37 @@ What would be returned if we didn't include `status: :unprocessable_entity`?
 
 It would be 200 OK status because that is the expected response to a failed form submission. The request has completed in the way we expected. Therefore when dealing with a form validation that fails, you need to specify the 422 HTTP status. Doing so will change a `Completed 200 OK in 206ms (Views: 125.5ms | ActiveRecord: 8.1ms | Allocations: 18793)` return status to `Completed 422 Unprocessable Entity in 52ms (Views: 44.6ms | ActiveRecord: 0.0ms | Allocations: 6391)`, and as we know, Turbo will handle this and update the HTML with the returned response.
 
-What is the response? The new page rendered again as html. But this time, because the `@user` object has some errors on it, the HTML will include any information you've rendered on an object having some errors.
+What is the response? The new page rendered again as HTML. But this time, because the `@user` object has some errors on it, the HTML will include any information you've rendered on an object having some errors.
 
 If you find yourself submitting a form and nothing is happening, chances are you forgot to return the correct status. You can confirm in the server logs when you submit the form.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Read the [Rails Guide on Form Helpers](http://guides.rubyonrails.org/form_helpers.html), sections 1 to 3.2.
-  2. Skim 3.3 to 7 to see what kinds of things are out there.  One day you'll need them, and now you know where to look.
-  3. Read sections 8.1 and 8.2 for the official explanation of how parameters are created from the `name` attribute.
-  4. Read the [Rails Guide on Validations](http://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views) section 8 for a quick look at displaying errors.
-  5. Skim through the official Rails API section on the [form_with helper](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_with) to see various ways to use this helper tag.
+  1. Skim 3.3 to 7 to see what kinds of things are out there.  One day you'll need them, and now you know where to look.
+  1. Read sections 8.1 and 8.2 for the official explanation of how parameters are created from the `name` attribute.
+  1. Read the [Rails Guide on Validations](http://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views) section 8 for a quick look at displaying errors.
+  1. Skim through the official Rails API section on the [form_with helper](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_with) to see various ways to use this helper tag.
+
 </div>
 
-### Conclusion
+#### Conclusion
 
 At this point, you should have a solid understanding of how forms work in general and a pretty good feel for how Rails helps you out by generating them for you. You'll get a chance to build a whole bunch of forms in the next few projects, so don't worry if it's not totally stuck for you yet. Seeing it in action will make things click.
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#railsifying-your-form">What is a CSRF Token and why is it necessary?</a>
-- <a class="knowledge-check-link" href="#making-forms-into-params">What is the `name` attribute of a form input element and what does it do?</a>
-- <a class="knowledge-check-link" href="#making-forms-into-params">How do you nest attributes under a single hash in `params`?</a>
-- <a class="knowledge-check-link" href="#using-models-with-the-formwith-helper">How do you pass `form_with` a model object?</a>
-- <a class="knowledge-check-link" href="#forms-and-validations">How do you access errors for a failed-to-save model object?</a>
-- <a class="knowledge-check-link" href="#making-patch-and-delete-submissions">How do Rails forms make PATCH or DELETE requests?</a>
-- <a class="knowledge-check-link" href="https://guides.rubyonrails.org/form_helpers.html#combining-them">What is one case where you may need an array of hashes within the `params` hash?</a>
+- [What is a CSRF Token and why is it necessary?](#railsifying-your-form)
+- [What is the `name` attribute of a form input element and what does it do?](#making-forms-into-params)
+- [How do you nest attributes under a single hash in `params`?](#making-forms-into-params)
+- [How do you pass `form_with` a model object?](#using-models-with-the-form_with-helper)
+- [How do you access errors for a failed-to-save model object?](#forms-and-validations)
+- [How do Rails forms make PATCH or DELETE requests?](#making-patch-and-delete-submissions)
+- [What is one case where you may need an array of hashes within the `params` hash?](https://guides.rubyonrails.org/form_helpers.html#combining-them)
 
 ### Additional resources
 
