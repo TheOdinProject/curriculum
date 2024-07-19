@@ -255,14 +255,6 @@ echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 
 You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, take note of the page and step number you are on, close everything, do a full reboot and log back into your profile. After logging back in, re-open the terminal (see Step 1.1).
 
-Another option is that you see this message:
-
-```bash
-writing ~/.zprofile: now configured for rbenv.
-```
-
-In that case, you're all set and can continue to the next step.
-
 #### Step 2.3: Install Ruby
 
 We can now (finally) install Ruby! Our curriculum currently uses version 3.3.4, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
