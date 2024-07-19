@@ -171,7 +171,7 @@ Before we can install Ruby, we need to install some base packages. We will use t
 
 In your Applications folder, find "Utilities" and double click "Terminal". Alternatively, using Spotlight (<kbd>Cmd</kbd> + <kbd>Space</kbd>) or Launchpad, type "Terminal".
 
-The rest of the instructions are done inside this terminal window.
+The rest of the instructions are done inside this terminal window and if you followed all the Foundations instructions, you should have already completed step 1.2 and 1.3.
 
 #### Step 1.2: Install Xcode
 
