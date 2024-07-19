@@ -74,6 +74,10 @@ Sometimes your Rails app will need to interact with an external application (whi
 
 The `commit`ting of a transaction and its potential `rollback` if it fails are both lifecycle events that you can latch onto with callbacks, e.g. `after_commit` and `before_rollback`.  This is uncommon, so consider it another one of those "just remember that it's an option" type things.
 
+### Conclusion
+
+Callbacks are useful and many, like `:after_create` and `:before_destroy`, are pretty common.  There's no rocket science here, just a helpful concept.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -82,10 +86,6 @@ The `commit`ting of a transaction and its potential `rollback` if it fails are b
   1. Read this post from Samuel Mullen on [guidelines for using callbacks](https://samuelmullen.com/articles/guidelines-for-using-activerecord-callbacks).
 
 </div>
-
-#### Conclusion
-
-Callbacks are useful and many, like `:after_create` and `:before_destroy`, are pretty common.  There's no rocket science here, just a helpful concept.
 
 ### Knowledge check
 

@@ -212,6 +212,10 @@ How much do you need to understand or care about scopes? In the early going, you
 
 Sometimes, you just can't get ActiveRecord to do what you want it to. In that case, it gives you an interface to the bare metal SQL so you can just type in your query as desired. This should really be a last resort -- it's basically hard-coding your application code. Use the `#find_by_sql` method for this.
 
+### Conclusion
+
+This was a lot of material, but you should have a healthy appreciation for the breadth of things that you can do with Active Record. At the most basic level, though, you can do pretty much anything you can in SQL by using Active Record query methods. You'll get a chance to use some of these newfound query methods in future projects and others will come up when you're building things on your own.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -220,7 +224,7 @@ Sometimes, you just can't get ActiveRecord to do what you want it to. In that ca
 
 1. Read the first 6 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions. Don't worry too much about batching and `#find_each`.
 1. Read section 20 of the same Rails guide for a brief look at [using `exists?`, `any?` and `many?`](https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects).
-1. Read sections 7, 8 and 21 of the same Rails guide for an understanding of [aggregate functions and the calculations you can run on them](https://guides.rubyonrails.org/active_record_querying.html#group).
+1. Read sections 7, 8 and 21 of the same Rails guide for an understanding of [aggregate functions and the calculations you can run on them](https://guides.rubyonrails.org/active_record_querying.html#grouping).
 1. Skim sections 9-12 of the same Rails guide on [overriding conditions](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions).
 1. Read section 12 of the same Rails guide to see how Rails lets you play with [joining tables together](https://guides.rubyonrails.org/active_record_querying.html#joining-tables).
 1. Read section 18 of the same Rails guide for a quick look at [the helpful `find_or_create_by` methods](https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object).
@@ -231,10 +235,6 @@ Sometimes, you just can't get ActiveRecord to do what you want it to. In that ca
 1. Read section 19 of the same Rails guide for a look at [using SQL directly to query](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql).
 
 </div>
-
-#### Conclusion
-
-This was a lot of material, but you should have a healthy appreciation for the breadth of things that you can do with Active Record. At the most basic level, though, you can do pretty much anything you can in SQL by using Active Record query methods. You'll get a chance to use some of these newfound query methods in future projects and others will come up when you're building things on your own.
 
 ### Knowledge check
 
