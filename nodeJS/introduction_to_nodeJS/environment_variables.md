@@ -1,6 +1,6 @@
 ### Introduction
 
-When you run your code, your code runs in an specific environment. Run your code on a different machine? Different environment. Host your website somewhere like Netlify or Vercel? Different environment to your machine. Each environment is a unique collection of tools and configurations.
+When you run your code, your code runs in a specific environment. Run your code on a different machine? Different environment. Host your website somewhere like Netlify or Vercel? Different environment to your machine. Each environment is a unique collection of tools and configurations.
 
 You will have certainly written many functions that you've called multiple times with different arguments. The function may behave differently or return a different value depending on those arguments. Just like with function parameters, your applications themselves can make use of **environment variables**. When you run your code, you can pass in values to those environment variables, and different environments can be given different values.
 
@@ -70,7 +70,7 @@ You can now just run your code with `node index.js` and dotenv will handle all t
 
 #### Environment variables and deployment
 
-When you deploy an app that uses environment variables, your repo will not contain your `.env` file so you will have to research how your chosen deployment service handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
+When you deploy an app that uses environment variables, your repo will not contain your `.env` file, so you will have to research how your chosen deployment service handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
 
 </div>
 
