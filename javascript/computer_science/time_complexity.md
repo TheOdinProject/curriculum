@@ -325,7 +325,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is Big O?](#what-is-big-o)
 - [What are the Big O Notations?](#big-o-notation)
 - [Why use Big O?](#why-big-o)
-- [What is Big Omega and why isn't it as useful?](#big--omega-notation)
+- [What is Big Omega and why isn't it as useful?](#big-ω-omega-notation)
 
 ### Additional resources
 
