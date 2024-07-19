@@ -30,9 +30,10 @@ Ruby is a big language with lots of syntax, so we've broken the concepts up into
 <div class="lesson-content__panel" markdown="1">
 
   1. Read the Introduction of [Launch School's *Introduction to Programming with Ruby*](https://launchschool.com/books/ruby/read/introduction) book to learn a bit more about the history of Ruby.
-  2. To understand how you'll be interacting with Ruby throughout this course, read through the [Your Tools chapter of The *Ruby for Beginners* book](http://ruby-for-beginners.rubymonstas.org/your_tools.html) from Ruby Monstas. (Note that even though they recommend using Sublime as your text editor, any code editor will work. For the record, we still tend to prefer VS Code around here!)
-  3. Skip the installation instructions and read through the ["Preparations" chapter of Launch School's *Introduction to Programming with Ruby* book](https://launchschool.com/books/ruby/read/preparations#usingacodeeditor) for some helpful advice about using and learning Ruby effectively. Don't worry, you will install Ruby in the next lesson.
-  4. Now that you've learned a few ways to interact with your Ruby code, read about [how to use code files inside IRB](https://stackoverflow.com/questions/13112245/ruby-how-to-load-a-file-into-interactive-ruby-console-irb/38533339), which will be helpful for quick troubleshooting and experimenting. 
+  1. To understand how you'll be interacting with Ruby throughout this course, read through the [Your Tools chapter of The *Ruby for Beginners* book](http://ruby-for-beginners.rubymonstas.org/your_tools.html) from Ruby Monstas. (Note that even though they recommend using Sublime as your text editor, any code editor will work. For the record, we still tend to prefer VS Code around here!)
+  1. Skip the installation instructions and read through the ["Preparations" chapter of Launch School's *Introduction to Programming with Ruby* book](https://launchschool.com/books/ruby/read/preparations#usingacodeeditor) for some helpful advice about using and learning Ruby effectively. Don't worry, you will install Ruby in the next lesson.
+  1. Now that you've learned a few ways to interact with your Ruby code, read about [how to use code files inside IRB](https://stackoverflow.com/questions/13112245/ruby-how-to-load-a-file-into-interactive-ruby-console-irb/38533339), which will be helpful for quick troubleshooting and experimenting.
+
 </div>
 
 ### Okay, enough talk. Let's learn Ruby!
