@@ -400,7 +400,7 @@ router.get('/', userController.getUsers);
 router.post('/', userController.createUser);
 
 // GET request for getting the user by id
-router.get('/:id', userControoler.getUserById);
+router.get('/:id', userController.getUserById);
 
 module.exports = router;
 ```

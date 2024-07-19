@@ -16,7 +16,7 @@ Why are we setting it up like this? Because we can! If you already have a portfo
    - Posts should probably have a title, but should comments?
    - A useful feature for a blog is the ability to have posts that are in the database but not published for the public to read. How might you designate published vs unpublished posts in your DB?
    - You will want a user model that will contain any blog authors and any normal user accounts. Even if you decide to only have a single author and no normal user accounts, a minimal user model will still be helpful to allow for easier route protection via authentication.
-1. Set up your Express app, and define the models in Mongoose.
+1. Set up your Express app, and define the models in Prisma.
 1. Set up your routes and controllers!  Think about RESTful organization for this one. Most of the examples in the previous lesson were centered around posts and comments so this shouldn't be too tricky.
    - You can test your routes however you want. Using `curl` in a terminal is one handy way, but it can be just as effective to use a web browser. There are some platforms that allow you to send `PUT` and `POST` requests without needing to set up and fill out HTML forms. [Postman](https://www.postman.com/downloads/) is probably the most popular.
 1. Certain routes will need to be protected via authentication. You wouldn't want any random stranger online to edit your articles! If you also implement normal user accounts then you may also want to protect some routes behind being logged in.
