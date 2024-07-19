@@ -325,7 +325,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is Big O?](#what-is-big-o)
 - [What are the Big O Notations?](#big-o-notation)
 - [Why use Big O?](#why-big-o)
-- [What is Big Omega and why isn't it as useful?](https://www.geeksforgeeks.org/analysis-of-algorithms-big-omega-notation/#:~:text=tends%20to%20infinity.-,When%20to%20use%20Big%2DOmega%20%E2%84%A6%20notation%3F,-Big%2DOmega%20%E2%84%A6)
+- [What is Big Omega and why isn't it as useful?](https://www.geeksforgeeks.org/analysis-of-algorithms-big-omega-notation/#when-to-use-bigomega-notation)
 
 ### Additional resources
 
