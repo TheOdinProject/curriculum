@@ -221,17 +221,17 @@ You want to avoid this if at all possible, otherwise you won't be processing muc
 
 #### O(N!) - Factorial complexity
 
-A factorial is the product of the sequence of *n* integers. The factorial of 4(4!) is 4 * 3 * 2 * 1.
+A factorial is the product of the sequence of *n* integers. The factorial of 4(4!) is 4 *3* 2 * 1.
 
 You will come across Factorial Complexity if you ever need to calculate permutations or combinations. If you have an array and have to work out all the combinations you can make from the array, that is a Factorial complexity. It's manageable for a small number of items, but the leap with each new item in a dataset can be huge.
 
-The factorial of 3 is 6 (3 * 2 * 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
+The factorial of 3 is 6 (3 *2* 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
 
 ### Alternatives to Big O
 
 If Big O gives us the worst-case scenario of how our algorithm will scale, what alternatives are there?
 
-#### Big &#937; (Omega notation)
+#### Big &Omega; (Omega notation)
 
 Omega Notations gives us the best-case scenario for an algorithm. To understand where this might be, let's look at a method and discuss how we can measure its complexity.
 
@@ -325,7 +325,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is Big O?](#what-is-big-o)
 - [What are the Big O Notations?](#big-o-notation)
 - [Why use Big O?](#why-big-o)
-- [What is Big Omega and why isn't it as useful?](#big-ω-omega-notation)
+- [What is Big Omega and why isn't it as useful?](https://www.geeksforgeeks.org/analysis-of-algorithms-big-omega-notation/#:~:text=tends%20to%20infinity.-,When%20to%20use%20Big%2DOmega%20%E2%84%A6%20notation%3F,-Big%2DOmega%20%E2%84%A6)
 
 ### Additional resources
 
