@@ -23,7 +23,7 @@ Step one is to be able to create a form in HTML. Remember how that looks?
 
 ```html
 <form action="/somepath" method="post">
-  <input type="text" />
+  <input type="text">
   <!-- other inputs here -->
   <input type="submit" value="Submit This Form">
 </form>
