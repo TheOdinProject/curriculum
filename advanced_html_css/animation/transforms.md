@@ -157,7 +157,9 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-If you guessed correctly, congratulations! But this is a tricky concept. There is a bit of debate on how to read a chain of transform functions. According to [MDN's transform docs](https://developer.mozilla.org/en-US/docs/Web/CSS/transform#values): "The transform functions are multiplied in order from left to right, meaning that composite transforms are effectively applied in order from right to left."
+If you guessed correctly, congratulations! But this is a tricky concept. MDN's transform docs state that "[composite transforms are effectively applied in order from right to left](https://developer.mozilla.org/en-US/docs/Web/CSS/transform#values)".
+
+The blue box rotates 45 degrees on the spot, then translates on the X axis by 200%, moving it directly to the right. The red box translates by 200% first, so moves to the right, but the transform origin is still where it used to be. Therefore, it rotates 45 degrees around that original point, making the red box "swing down" to end up diagonally from where it started.
 
 While you can generally chain multiple transforms in any order for various results, there is one exception: `perspective`. This brings us nicely to the next section where `perspective` is involved.
 
@@ -269,7 +271,7 @@ Another benefit of `transform` is that it can be hardware-accelerated via a devi
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Take a look at this [MDN demonstration of `rotate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) then read more about the property in this [Quackit article on `rotate3d`](https://www.quackit.com/css/functions/css_rotate3d_function.cfm).
+1. Take a look at this [MDN demonstration of `rotate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) then read more about the property in this [Quackit article on `rotate3d`](https://www.qhmit.com/css/functions/css_rotate3d_function.cfm).
 1. Learn more about [the `perspective` property on CSS Tricks](https://css-tricks.com/how-css-perspective-works/).
 1. MDN has another great [demonstration using `translate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d()).
 1. Go through [The World of CSS Transforms](https://www.joshwcomeau.com/css/transforms/) by Josh Comeau.
