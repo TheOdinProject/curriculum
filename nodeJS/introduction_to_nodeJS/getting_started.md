@@ -29,9 +29,7 @@ Recently the NodeJS.dev team removed a large amount of content from their websit
 </div>
 
 - Let's dive in and start looking at Node server-side code! We will be hopping around lessons in the [NodeJS.org](https://nodejs.org/en/learn) docs which you should follow along.
-  - Get Started
-    - Learn [how to run Node.js scripts from the terminal](https://nodejs.org/en/learn/command-line/run-nodejs-scripts-from-the-command-line).
-    - Learn about [.env files and how we use them](https://nodejs.org/en/learn/command-line/how-to-read-environment-variables-from-nodejs). This will become very important in the future when working with databases and other sensitive credentials!
+  - Learn [how to run Node.js scripts from the terminal](https://nodejs.org/en/learn/command-line/run-nodejs-scripts-from-the-command-line).
   - HTTP Module
     - Learn [how to make HTTP requests with Node](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-web-server/node-make-http-requests.en.md).
     - Check out the docs for [Node's http module](https://nodejs.org/api/http.html). In particular, check out `http.createServer`. The documentation shows optional parameters it can accept which you may or may not use. For now, you just need to know that the `createServer` method creates an HTTP server that accepts handlers that will be executed every time we get a request.
