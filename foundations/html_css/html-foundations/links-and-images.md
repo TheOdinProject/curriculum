@@ -174,7 +174,7 @@ For example, using an absolute path we can display an image located on The Odin 
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-To use images that we have on our own websites, we can use a relative path.
+To display images on your website that are hosted on your own web server, you can use a relative path.
 
 <details markdown="block">
 
