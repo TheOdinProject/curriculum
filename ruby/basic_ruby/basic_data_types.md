@@ -316,7 +316,7 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [Basics chapter of LaunchSchool's *Introduction to Programming With Ruby*](https://launchschool.com/books/ruby/read/basics) for a different explanation of Ruby's data types.
+1. Read the [Basics chapter of LaunchSchool's *Introduction to Programming With Ruby*](https://launchschool.com/books/ruby/read/basics) for a different explanation of Ruby's data types and complete the exercises.
 1. [Read Alex Chaffee’s brief writeup on Objects](https://codelikethis.com/lessons/learn-to-code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
 1. Now it is time to complete some test-driven exercises to practice what you have learned in this lesson.
 
