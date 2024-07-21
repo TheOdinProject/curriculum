@@ -111,9 +111,9 @@ You can insert this component into another EJS file like so:
   <head>
     <title>Homepage</title>
   </head>
-    <body>
-      <%- include('navbar', {links: links}) %>
-    </body>
+  <body>
+    <%- include('navbar', {links: links}) %>
+  </body>
 </html>
 ```
 
