@@ -214,8 +214,8 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Watch this free [Railscast on making your App into an API](http://railscasts.com/episodes/352-securing-an-api)
-- Watch this free [Railscast on versioning your API](http://railscasts.com/episodes/352-securing-an-api)
+- Watch this free [Railscast on making your App into an API](http://railscasts.com/episodes/348-the-rails-api-gem)
+- Watch this free [Railscast on securing your API](http://railscasts.com/episodes/352-securing-an-api)
 - Watch this free [Railscast on versioning your API](http://railscasts.com/episodes/350-rest-api-versioning)
 - [GoRails #162 Our First API](https://www.gorails.com/episodes/our-first-api)
 - [Building a public-facing API using view templates instead of `#to_json`](http://blog.codepath.com/2011/05/16/if-youre-using-to_json-youre-doing-it-wrong/)
