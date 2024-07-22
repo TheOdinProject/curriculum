@@ -87,7 +87,7 @@ increaseCounterPrimitive(primitive);
 Take a moment and guess what will happen to `object` and what will happen to `primitive` after we make the function calls.
 
 If you answered that the object counter would increase by 1, and the primitive counter wouldn't change, you're correct.
-Remember that `objectCounter` is passed by reference, while `primitiveCounter` is passed by copy.
+Remember that `objectCounter` contains a reference to the same object as the `object` variable we gave it, while `primitiveCounter` contains only a copy of the primitive value only.
 
 <div class="lesson-note" markdown="1">
 
