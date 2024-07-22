@@ -57,7 +57,7 @@ This behavior isn't new to you, in your last project you made changes to the cel
 Let's take this code snippet as an example:
 
 ```javascript
-const element = document.getElementById("container");
+const element = document.querySelector("#container");
 element.style.backgroundColor = "red";
 ```
 
