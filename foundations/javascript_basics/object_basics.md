@@ -22,7 +22,7 @@ Objects are a *very* important part of the JavaScript language, and while for th
 
 ### Differences between objects and primitives
 
-Earlier in the curriculum you've learned about [primitive data types](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals). Now that you've seen the object data type, which includes but is not limited to, objects ({key: value}), arrays, and functions. The main difference between the two is that primitives can contain only a single thing (string, number, etc). Objects are used to store collection of data and more complex entities.
+Earlier in the curriculum you've learned about [primitive data types](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals). Now that you've seen the object data type, which includes but is not limited to, objects ({key: value}), arrays, and functions. The main difference between the two is that primitives can contain only a single thing (string, number, etc). Objects data types are used to store collection of data and more complex entities.
 
 Besides the formal differences, there are also some technical differences, which affect how we use each data type.
 When you define a primitive variable, it will contain a copy of the information provided to it:
