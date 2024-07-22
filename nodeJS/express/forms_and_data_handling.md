@@ -540,7 +540,7 @@ What if we want to search for a specific user in a list of thousands? We'll need
 
 #### Further Reading
 
-- This article expands on [what santizating and escaping means, and how thy can help further secure your web applications](https://blog.presidentbeef.com/blog/2020/01/14/injection-prevention-sanitizing-vs-escaping/).
+- This article expands on [what sanitizing and escaping means, and how thy can help further secure your web applications](https://blog.presidentbeef.com/blog/2020/01/14/injection-prevention-sanitizing-vs-escaping/).
 - [express-validator](https://express-validator.github.io/docs/) contains the full documentation for `validator`, with some important sections being:
   - [Getting Started with express-validator](https://express-validator.github.io/docs/guides/getting-started)
   - [Validation Chains](https://express-validator.github.io/docs/guides/validation-chain)
