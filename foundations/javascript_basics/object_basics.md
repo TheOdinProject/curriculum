@@ -61,7 +61,7 @@ const element = document.querySelector("#container");
 element.style.backgroundColor = "red";
 ```
 
-We're changing the variable we declared (element), yet the changes affect the corresponding node in the DOM.
+We're mutating the variable we declared (`element`), yet the changes affect the corresponding node in the DOM.
 Why does it happen?
 That's because the node we have in our code is a **reference** to the same node that our DOM uses. If that wasn't a reference, but a copy like primitive data types behave, our changes would have **no** effect! Because the changes would be made to the local copy we have.
 
