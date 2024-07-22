@@ -242,7 +242,7 @@ module.exports = usersRouter;
 Next we'll create two views:
 
 - `index.ejs` will list all the users we've created.
-- `create_user.ejs` will display our user creation form.
+- `createUser.ejs` will display our user creation form.
 
 ```ejs
 <!-- views/index.ejs -->
@@ -265,7 +265,7 @@ Next we'll create two views:
 ```
 
 ```ejs
-<!-- views/create_user.ejs -->
+<!-- views/createUser.ejs -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -300,7 +300,7 @@ exports.usersListGet = asyncHandler(async (req, res) => {
 });
 
 exports.usersCreateGet = asyncHandler(async (req, res) => {
-  res.render("create_user", {
+  res.render("createUser", {
     title: "Create user",
   });
 });
@@ -378,7 +378,7 @@ exports.usersCreatePost = [
   asyncHandler(async (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-      return res.status(400).render("create_user", {
+      return res.status(400).render("createUser", {
         title: "Create user",
         errors: errors.array(),
       });
@@ -390,7 +390,7 @@ exports.usersCreatePost = [
 ];
 ```
 
-And we need to update our `create_user.ejs` view to render these errors. Let's create a new partial. Inside the `views` folder, create a new folder called `partials` and inside it, create `errors.ejs`:
+And we need to update our `createUser.ejs` view to render these errors. Let's create a new partial. Inside the `views` folder, create a new folder called `partials` and inside it, create `errors.ejs`:
 
 ```ejs
 <!-- views/partials/errors.ejs -->
@@ -403,7 +403,7 @@ And we need to update our `create_user.ejs` view to render these errors. Let's c
 <% } %>
 ```
 
-And we'll include the partial just above our form in `create_user.ejs`.
+And we'll include the partial just above our form in `createUser.ejs`.
 
 ```ejs
 <%- include("partials/errors.ejs") %>
@@ -411,10 +411,10 @@ And we'll include the partial just above our form in `create_user.ejs`.
 
 If the form is filled out incorrectly, you'll see the page contains all the errors.
 
-Now that we can create users, we also need a way to modify them. Let's create a form that lets us specify an ID and the values we want to update by making a new view: `update_user.ejs`.
+Now that we can create users, we also need a way to modify them. Let's create a form that lets us specify an ID and the values we want to update by making a new view: `updateUser.ejs`.
 
 ```ejs
-<!-- views/update_user.ejs -->
+<!-- views/updateUser.ejs -->
 <%- include("partials/errors.ejs") %>
 <form action="/<%= user.id %>/update" method="POST">
   <input type="text" name="firstName" value="<%= user.firstName %>" required>
@@ -444,7 +444,7 @@ Then we'll add the logic for the requests into our controller:
 ```javascript
 exports.usersUpdateGet = asyncHandler(async (req, res) => {
   const user = usersStorage.getUser(req.params.id);
-  res.render("update_user", {
+  res.render("updateUser", {
     title: "Update user",
     user: user,
   });
@@ -456,7 +456,7 @@ exports.usersUpdatePost = [
     const user = usersStorage.getUser(req.params.id);
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-      return res.status(400).render("update_user", {
+      return res.status(400).render("updateUser", {
         title: "Update user",
         user: user,
         errors: errors.array(),
@@ -531,7 +531,7 @@ Don't forget to update the view to display these new fields!
 
 What if we want to search for a specific user in a list of thousands? We'll need a new route and view that lets clients search our list of users.
 
-1. Add a form (in `create_user.ejs` or another view) which accepts a `name` or `email` (or both!)
+1. Add a form (in `createUser.ejs` or another view) which accepts a `name` or `email` (or both!)
 1. Create a new route `/search` which accepts `GET` and `POST` requests.
 1. Add the search logic to your controller which searches your list for a matching user.
    - Your `POST` request should handle searching for the user.
