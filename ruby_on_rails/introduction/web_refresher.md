@@ -56,7 +56,7 @@ You may think you know what's in a URL, but which part is the host? protocol (ak
 Check out this article by Matt Cutts on [how Googlers pick apart URL components](http://www.mattcutts.com/blog/seo-glossary-url-definitions/).
 
 **Quick quiz:**
-The URL is: https://www.google.com/search?q=what+is+a+url
+The URL is: <https://www.google.com/search?q=what+is+a+url>
 
 1. What is the "Path"?
 1. What is the "Parameter" portion?
