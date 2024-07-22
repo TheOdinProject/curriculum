@@ -20,7 +20,7 @@ Objects are a *very* important part of the JavaScript language, and while for th
 1. This JavaScript.info [article on objects](https://javascript.info/object) is the best place to get started.
 1. The [MDN tutorial on objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
 
-#### Differences between objects and primitives
+### Differences between objects and primitives
 
 Earlier in the curriculum you've learned about [primitive data types](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals). Now you've seen the object data type, the main difference between the two is that primitives can contain only a single thing (string, number, etc). Objects are used to store collection of data and more complex entities.
 Besides the formal differences, there are also some technical differences, which affect how we use each data type.
