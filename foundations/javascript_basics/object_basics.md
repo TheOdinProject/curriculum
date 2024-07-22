@@ -83,7 +83,7 @@ increaseCounterObject(object);
 increaseCounterPrimitive(primitive);
 ```
 
-Take a moment to try to guess what will happen to `object` and what will happen to `primitive`, after we make the function calls.
+Take a moment and guess what will happen to `object` and what will happen to `primitive` after we make the function calls.
 
 If you answered that the object counter would increase by 1, and the primitive counter wouldn't change, you're correct.
 Remember that `objectCounter` is passed by reference, while `primitiveCounter` is passed by copy.
