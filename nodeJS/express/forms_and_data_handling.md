@@ -248,6 +248,9 @@ Next we'll create two views:
 <!-- views/index.ejs -->
 <!DOCTYPE html>
 <html>
+<head>
+  <title><%= title %></title>
+</head>
 <body>
   <h1><%= title %></h1>
   <ul>
@@ -268,9 +271,9 @@ Next we'll create two views:
 <!-- views/createUser.ejs -->
 <!DOCTYPE html>
 <html>
-<head>
-  <title><%= title %></title>
-</head>
+  <head>
+    <title><%= title %></title>
+  </head>
 <body>
   <h1><%= title %></h1>
   <form action="/users/create" method="POST">
@@ -294,7 +297,7 @@ const usersStorage = require("../storages/usersStorage");
 
 exports.usersListGet = asyncHandler(async (req, res) => {
   res.render("index", {
-    title: "User List",
+    title: "User list",
     users: usersStorage.getUsers(),
   });
 });
@@ -415,12 +418,22 @@ Now that we can create users, we also need a way to modify them. Let's create a 
 
 ```ejs
 <!-- views/updateUser.ejs -->
-<%- include("partials/errors.ejs") %>
-<form action="/<%= user.id %>/update" method="POST">
-  <input type="text" name="firstName" value="<%= user.firstName %>" required>
-  <input type="text" name="lastName" value="<%= user.lastName %>" required>
-  <button type="submit">Update User</button>
-</form>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+<body>
+  <h1><%= title %></h1>
+  <%- include("partials/errors.ejs") %>
+  <form action="/<%= user.id %>/update" method="POST">
+    <input type="text" name="firstName" value="<%= user.firstName %>" required>
+    <input type="text" name="lastName" value="<%= user.lastName %>" required>
+    <button type="submit">Update User</button>
+  </form>
+  <a href="/">Back to home</a>
+</body>
+</html>
 ```
 
 We'll modify `index.ejs` to include a new "Update" button next to each user to make our `GET` request to the route:
@@ -478,12 +491,12 @@ Finally, let's add a way to delete users as well by starting with another form i
 <ul>
   <% if (locals.users) {%>
     <% users.forEach(function(user) { %>
-    <li>ID: <%= user.id %>, Name: <%= user.firstName %> <%= user.lastName %></li>
-    <a href="/<%= user.id %>/update">Update</a>
-    <!-- This time we're sending a POST request to our route, so we need a form. -->
-    <form action="/<%= user.id %>/delete" method="POST" style="display:inline;">
-      <button type="submit" onclick="return confirm('Are you sure you want to delete this user?');">Delete</button>
-    </form>
+      <li>ID: <%= user.id %>, Name: <%= user.firstName %> <%= user.lastName %></li>
+      <a href="/<%= user.id %>/update">Update</a>
+      <!-- This time we're sending a POST request to our route, so we need a form. -->
+      <form action="/<%= user.id %>/delete" method="POST" style="display:inline;">
+        <button type="submit" onclick="return confirm('Are you sure you want to delete this user?');">Delete</button>
+      </form>
     <% }); %>
   <% } %>
 </ul>
