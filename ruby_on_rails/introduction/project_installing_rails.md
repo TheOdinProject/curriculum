@@ -9,7 +9,7 @@ Before continuing, let's review a few best practices to keep in mind:
 * Copy and paste the commands to avoid typos.
 * If you stop working on this project partway through and come back to it later, be sure to use `cd` to move back inside your project directory so that the commands will work.
 
-In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [Discord](https://discord.gg/fbFCkYabZB). You can also use the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search) to check if someone else had a similar problem and how they solved it.
+In this project, we're going to build a fully functional Rails application. The entire point of this exercise is to make sure that you have everything installed and working correctly on your computer. Do *not* worry if you don't fully understand what you're doing. You'll learn exactly what all of these commands are doing later on in the course. For now, go slowly, and be sure to follow **each and every** step closely. If you run into trouble, don't forget that you can always reach out for help on [our Discord server](https://discord.gg/fbFCkYabZB). You can also use the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search) to check if someone else had a similar problem and how they solved it.
 
 ### Your first Rails app
 
@@ -86,12 +86,6 @@ In the above process, Rails created a new directory for us. Let's `cd` into it n
 
 ~~~bash
 cd my_first_rails_app
-~~~
-
-Now, we're going to tell Rails to generate some templates for us. This will get us up and running in no time at all. If you are using Ruby 2.7 or higher then you may see some deprecation warnings that look like errors in the console. Ruby made some changes in version 2.7 to deprecate using hashes as the last argument of a method call. You can read more about it [here](https://www.ruby-lang.org/en/news/2019/12/12/separation-of-positional-and-keyword-arguments-in-ruby-3-0/). It will take time for gems to update their codebases to deal with this deprecation, especially if they are as large as Rails. If you do see any deprecation warnings then don't worry, they will get fixed eventually. The warnings will look something like:
-
-~~~bash
-warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
 ~~~
 
 Run the following in the terminal:
