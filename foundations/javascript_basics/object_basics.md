@@ -88,6 +88,25 @@ Take a moment and guess what will happen to `object` and what will happen to `pr
 If you answered that the object counter would increase by 1, and the primitive counter wouldn't change, you're correct.
 Remember that `objectCounter` is passed by reference, while `primitiveCounter` is passed by copy.
 
+<div class="lesson-note" markdown="1">
+
+#### Reassigning object data type variables
+
+While changing the object we have a reference to will change that object for all other variables that reference it, changing what we refer to won’t affect what the other variables refer to. This example should clarify it:
+
+```javascript
+let animal = { species: "dog" };
+let dog = animal;
+
+// reassigning animal variable with a completely new object
+animal = { species: "cat" };
+
+console.log(animal); // { species: "cat" }
+console.log(dog); // { species: "dog" }
+```
+
+</div>
+
 ### Intermediate/advanced array magic
 
 Besides being a quick and handy way to store data, arrays also have a set of functions for manipulating that data in very powerful ways. Once you begin to master these functions you will start to see ways to use them all over the place! There are really only a handful of these functions, but as you'll soon see, the possibilities of what you can do with them are near endless.
@@ -267,6 +286,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is the difference between objects and arrays?](https://javascript.info/object#summary)
 - [How do you access object properties?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation)
+- [How do primitives and object types differ when you assign the to other variables or pass them into functions?](https://www.theodinproject.com/lessons/foundations-object-basics#differences-between-objects-and-primitives)
 - [What is `Array.prototype.map()` useful for?](https://www.youtube.com/watch?v=HB1ZC7czKRs&t=233s)
 - [What is `Array.prototype.filter()` useful for?](https://www.youtube.com/watch?v=HB1ZC7czKRs&t=84s)
 - [What is `Array.prototype.reduce()` useful for?](https://youtu.be/HB1ZC7czKRs?t=467)
