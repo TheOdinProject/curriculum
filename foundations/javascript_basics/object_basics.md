@@ -27,7 +27,7 @@ Besides the formal differences, there are also some technical differences, which
 When you define a primitive variable, it will contain a copy of the information provided to it:
 
 ```javascript
-const data = 42;
+let data = 42;
 // dataCopy will store a copy of what data contains, so a copy of 42
 let dataCopy = data;
 
