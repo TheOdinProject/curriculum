@@ -22,8 +22,8 @@ HTTP is just a way of structuring the request-and-response conversation between 
 Check out these resources:
 
 1.  This [tutsplus post on HTTP](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177) describes what's going on with HTTP.
-2.  This [sniffer tool](http://testuri.org/sniffer) - try retrieving a couple of websites (like http://www.theodinproject.com) on your own.
-3.  This [great video](https://code.tutsplus.com/how-to-become-a-web-developer--CRS-200371c/http-and-the-web-server) on communications between http requests and the web server.
+2.  This [sniffer tool](http://testuri.org/sniffer) - try retrieving a couple of websites (like `https://www.theodinproject.com/`) on your own.
+3.  This great video on [communications between http requests and the web server](https://code.tutsplus.com/how-to-become-a-web-developer--CRS-200371c/http-and-the-web-server).
 
 One key component to pay attention to is the fact that the request and response both have header and (usually) body components. The header contains information about the request or response itself (meta data), including which website to send or return to and what the status of the response is. The body of the request can contain things like data submitted by a form or cookies or authentication tokens while the response will usually contain the HTML page you're trying to access.
 
@@ -53,7 +53,7 @@ It may seem simplistic to you up front to think of things this way, but once you
 
 You may think you know what's in a URL, but which part is the host? protocol (aka scheme)? parameters? path?
 
-Check out this [article by Matt Cutts](http://www.mattcutts.com/blog/seo-glossary-url-definitions/) on how Googlers pick apart URL components.
+Check out this article by Matt Cutts on [how Googlers pick apart URL components](http://www.mattcutts.com/blog/seo-glossary-url-definitions/).
 
 **Quick quiz:**
 The URL is: https://www.google.com/search?q=what+is+a+url
@@ -89,7 +89,7 @@ Once a request from a browser comes into your application, at the most basic lev
 3.  Then that controller passes off whatever data it needs to the views (e.g. `index.html.erb`), which are basically just HTML templates that are waiting for those variables.
 4.  Once the proper view has been pumped full of the data it needs (like the current user's name), it gets sent back to the client that made the original request. Presto!
 
-Check out a more detailed version of MVC in [betterexplained.com's](http://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/) article.
+betterexplained.com has a [deeper explanation of MVC](http://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/).
 
 To characterize the three (badly), the model is the supersmart geek in the back room, the controller is the social middleman that talks to everyone but doesn't really do anything too intensive (it asks the model in those cases), and the view just looks pretty and waits to get its outfit from the controller.
 
@@ -133,7 +133,7 @@ It's also how some ads seem to follow you from one website to another -- another
 
 On the server side, you'll interact with cookies and session variables quite a bit. As mentioned above, one of the main uses of these is to determine who the user is, or "authentication". You'll basically retrieve the cookie that the user sends you, use it to find that user in your database, and (if the user exists) then you can display the customized web page for that user.
 
-It's pretty straightforward in theory, but some of the security implications get a bit hairy so luckily some nice folks created a very handy gem called ["Devise"](https://github.com/heartcombo/devise) which takes care of all this stuff for you. In this curriculum (a bit later on), you'll be creating your own authentication system before learning how to use Devise to take care of the heavy lifting.
+It's pretty straightforward in theory, but some of the security implications get a bit hairy so luckily some nice folks created a very [handy gem called Devise](https://github.com/heartcombo/devise) which takes care of all this stuff for you. In this curriculum (a bit later on), you'll be creating your own authentication system before learning how to use Devise to take care of the heavy lifting.
 
 ### Authorization
 
