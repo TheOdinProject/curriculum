@@ -213,17 +213,10 @@ Create folders for `routes`, `views`, `controllers`, `storages`, and an `app.js`
 const express = require("express");
 const app = express();
 const usersRouter = require("./routes/usersRouter");
-const usersStorage = require("./storages/usersStorage");
 
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
-app.use("/users", usersRouter);
-app.get("/", (req, res) => {
-  res.render("index", {
-    title: "User List",
-    users: usersStorage.getUsers(),
-  });
-});
+app.use("/", usersRouter);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Express app listening on port ${PORT}!`));
@@ -239,6 +232,7 @@ const { Router } = require("express");
 const usersController = require("../controllers/usersController");
 const usersRouter = Router();
 
+usersRouter.get("/", usersController.usersListGet);
 usersRouter.get("/create", usersController.usersCreateGet);
 usersRouter.post("/create", usersController.usersCreatePost);
 
@@ -248,45 +242,45 @@ module.exports = usersRouter;
 Next we'll create two views:
 
 - `index.ejs` will list all the users we've created.
-- `users.ejs` will display our main form.
+- `create_user.ejs` will display our user creation form.
 
 ```ejs
 <!-- views/index.ejs -->
 <!DOCTYPE html>
 <html>
 <body>
-<h1><%= title %></h1>
-<ul>
-  <% if (locals.users) {%>
-    <% users.forEach(user => { %>
-      <li>
-        ID: <%= user.id %>, Name: <%= user.firstName %> <%= user.lastName %>
-      </li>
-    <% }); %>
-  <% } %>
-</ul>
-<a href="/users/create">Create a user</a>
+  <h1><%= title %></h1>
+  <ul>
+    <% if (locals.users) {%>
+      <% users.forEach(user => { %>
+        <li>
+          ID: <%= user.id %>, Name: <%= user.firstName %> <%= user.lastName %>
+        </li>
+      <% }); %>
+    <% } %>
+  </ul>
+  <a href="/create">Create a user</a>
 </body>
 </html>
 ```
 
 ```ejs
-<!-- views/users.ejs -->
+<!-- views/create_user.ejs -->
 <!DOCTYPE html>
 <html>
 <head>
   <title><%= title %></title>
 </head>
 <body>
-<h1><%= title %></h1>
-<form action="/users/create" method="POST">
-  <label for="firstName">First Name: </label>
-  <input type="text" name="firstName" id="firstName" required>
-  <label for="lastName">Last Name: </label>
-  <input type="text" name="lastName" id="lastName" required>
-  <button type="submit">Submit</button>
-</form>
-<a href="/">Back to home</a>
+  <h1><%= title %></h1>
+  <form action="/users/create" method="POST">
+    <label for="firstName">First Name: </label>
+    <input type="text" name="firstName" id="firstName" required>
+    <label for="lastName">Last Name: </label>
+    <input type="text" name="lastName" id="lastName" required>
+    <button type="submit">Submit</button>
+  </form>
+  <a href="/">Back to home</a>
 </body>
 </html>
 ```
@@ -298,16 +292,22 @@ The logic for this router will go inside of our controller:
 const asyncHandler = require("express-async-handler");
 const usersStorage = require("../storages/usersStorage");
 
-exports.usersCreateGet = asyncHandler(async (req, res) => {
-  res.render("users", {
+exports.usersListGet = asyncHandler(async (req, res) => {
+  res.render("index", {
     title: "User List",
     users: usersStorage.getUsers(),
   });
 });
 
+exports.usersCreateGet = asyncHandler(async (req, res) => {
+  res.render("create_user", {
+    title: "Create user",
+  });
+});
+
 exports.usersCreatePost = asyncHandler(async (req, res) => {
   const { firstName, lastName } = req.body;
-  usersStorage.addUser({firstName, lastName});
+  usersStorage.addUser({ firstName, lastName });
   res.redirect("/");
 });
 ```
@@ -323,7 +323,7 @@ class UsersStorage {
     this.id = 0;
   }
 
-  addUser({firstName, lastName}) {
+  addUser({ firstName, lastName }) {
     const id = this.id;
     this.storage[id] = { id, firstName, lastName };
     this.id++;
@@ -337,7 +337,7 @@ class UsersStorage {
     return this.storage[id];
   }
 
-  updateUser(id, {firstName, lastName}) {
+  updateUser(id, { firstName, lastName }) {
     this.storage[id] = { id, firstName, lastName };
   }
 
@@ -352,11 +352,12 @@ module.exports = new UsersStorage();
 
 We can test our server with: `node --watch app.js`.
 
-You'll see we're able to add new users at `http://localhost:3000`, as well as list all existing users at `http://localhost:3000/users`.
+You'll see we're able to add new users at `http://localhost:3000/create`, as well as list all existing users at `http://localhost:3000/`.
 
-Let's add a few methods to our controller for validating and sanitizing our form to get the type of data we want.
+Let's add a few methods to our `usersController.js` for validating and sanitizing our form to get the type of data we want.
 
 ```javascript
+// This just shows the new stuff we're adding to the existing contents
 const { body, validationResult } = require("express-validator");
 
 const alphaErr = "must only contain letters.";
@@ -377,19 +378,19 @@ exports.usersCreatePost = [
   asyncHandler(async (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-      return res.status(400).render("users", {
-        title: "User List",
+      return res.status(400).render("create_user", {
+        title: "Create user",
         errors: errors.array(),
       });
     }
     const { firstName, lastName } = req.body;
-    usersStorage.addUser({firstName, lastName});
+    usersStorage.addUser({ firstName, lastName });
     res.redirect("/");
   })
 ];
 ```
 
-And we need to update our `users.ejs` view to render these errors. Let's create a new partial: `errors.ejs`:
+And we need to update our `create_user.ejs` view to render these errors. Let's create a new partial. Inside the `views` folder, create a new folder called `partials` and inside it, create `errors.ejs`:
 
 ```ejs
 <!-- views/partials/errors.ejs -->
@@ -402,7 +403,7 @@ And we need to update our `users.ejs` view to render these errors. Let's create 
 <% } %>
 ```
 
-And we'll include the partial just above our form in `users.ejs`.
+And we'll include the partial just above our form in `create_user.ejs`.
 
 ```ejs
 <%- include("partials/errors.ejs") %>
@@ -410,24 +411,24 @@ And we'll include the partial just above our form in `users.ejs`.
 
 If the form is filled out incorrectly, you'll see the page contains all the errors.
 
-Now that we can create users, we also need a way to modify them. Let's create a form that lets us specify an ID and the values we want to update by making a new view: `update.ejs`.
+Now that we can create users, we also need a way to modify them. Let's create a form that lets us specify an ID and the values we want to update by making a new view: `update_user.ejs`.
 
 ```ejs
-<!-- views/update.ejs -->
+<!-- views/update_user.ejs -->
 <%- include("partials/errors.ejs") %>
-<form action="/users/<%= user.id %>/update" method="POST">
+<form action="/<%= user.id %>/update" method="POST">
   <input type="text" name="firstName" value="<%= user.firstName %>" required>
   <input type="text" name="lastName" value="<%= user.lastName %>" required>
   <button type="submit">Update User</button>
 </form>
 ```
 
-We'll modify `index.ejs` to include a new "Update" button to make our `GET` request to the route:
+We'll modify `index.ejs` to include a new "Update" button next to each user to make our `GET` request to the route:
 
 ```ejs
 <li>
   ID: <%= user.id %>, Name: <%= user.firstName %> <%= user.lastName %>
-  <a href="/users/<%= user.id %>/update">Update</a>
+  <a href="/<%= user.id %>/update">Update</a>
 </li>
 ```
 
@@ -443,7 +444,10 @@ Then we'll add the logic for the requests into our controller:
 ```javascript
 exports.usersUpdateGet = asyncHandler(async (req, res) => {
   const user = usersStorage.getUser(req.params.id);
-  res.render("update", { user, errors: [] });
+  res.render("update_user", {
+    title: "Update user",
+    user: user,
+  });
 });
 
 exports.usersUpdatePost = [
@@ -452,13 +456,14 @@ exports.usersUpdatePost = [
     const user = usersStorage.getUser(req.params.id);
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-      return res.status(400).render("update", {
+      return res.status(400).render("update_user", {
+        title: "Update user",
+        user: user,
         errors: errors.array(),
-        user: user, 
       });
     }
     const { firstName, lastName } = req.body;
-    usersStorage.updateUser(req.params.id, {firstName, lastName});
+    usersStorage.updateUser(req.params.id, { firstName, lastName });
     res.redirect("/");
   })
 ];
@@ -474,9 +479,9 @@ Finally, let's add a way to delete users as well by starting with another form i
   <% if (locals.users) {%>
     <% users.forEach(function(user) { %>
     <li>ID: <%= user.id %>, Name: <%= user.firstName %> <%= user.lastName %></li>
-    <a href="/users/<%= user.id %>/update">Update</a>
+    <a href="/<%= user.id %>/update">Update</a>
     <!-- This time we're sending a POST request to our route, so we need a form. -->
-    <form action="/users/<%= user.id %>/delete" method="POST" style="display:inline;">
+    <form action="/<%= user.id %>/delete" method="POST" style="display:inline;">
       <button type="submit" onclick="return confirm('Are you sure you want to delete this user?');">Delete</button>
     </form>
     <% }); %>
@@ -489,7 +494,6 @@ Then we add the logic to handle the request into our controller:
 ```javascript
 // Tell the server to delete a matching user, if any. Otherwise, respond with an error.
 exports.usersDeletePost = asyncHandler(async (req, res) => {
-  const user = usersStorage.getUser(req.params.id);
   usersStorage.deleteUser(req.params.id);
   res.redirect("/");
 });
@@ -527,8 +531,8 @@ Don't forget to update the view to display these new fields!
 
 What if we want to search for a specific user in a list of thousands? We'll need a new route and view that lets clients search our list of users.
 
-1. Add a form (in `users.ejs` or another view) which accepts a `name` or `email` (or both!)
-1. Create a new route `/users/search` which accepts `GET` and `POST` requests.
+1. Add a form (in `create_user.ejs` or another view) which accepts a `name` or `email` (or both!)
+1. Create a new route `/search` which accepts `GET` and `POST` requests.
 1. Add the search logic to your controller which searches your list for a matching user.
    - Your `POST` request should handle searching for the user.
    - Your `GET` request should then render the search result.
