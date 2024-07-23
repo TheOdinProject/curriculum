@@ -296,19 +296,29 @@ This idea of grouping related functionality within an object is *extremely power
 
 Furthermore, with the various object creation methods you'll learn throughout this section of the curriculum, you'll be able to easily duplicate and reuse objects like these! Imagine you have a website where users can create and play *multiple* rock-paper-scissor games at once. Managing the data and interacting with each of those games would be no sweat with objects!
 
-<div class="lesson-note lesson-note--tip" markdown="1">
+### Objects As Machines
 
-#### Objects As Machines
-  
-When you want to organize some data and functionality together in this way, but you're having trouble figuring out what kinds of properties and methods an object might contain when it's not an actual, physical item, another way you might conceptualize this idea might be to imagine the object as a little 'machine' you're making out of code that does something useful.
+Sometimes, you may want to create objects that embody complex concepts rather actual, physical items- similar to the RPS game above. Objects can be used to represent almost anything you can think of, and it's impossible to give a comprehensive list of examples. However, a few examples might be:
 
-The properties of the machine could be thought of displays that might show information it's collected or been given to it so far, if it can currently be interacted with, what the machine has counted for a player's score... or about a billion other things, depending on what your object does.
+- An object that manages other objects, such as an "inventory" object that contains a list of items, and actions that can be done with those items.
+- An object that can listen for events that happen, and respond appropriately (think of `.addEventListener` on DOM elements)
+- A "Debt" object that keeps track of a debt owed, how much has been paid, and how much of the debt is remaining.
 
-The methods of your machine might be akin to buttons and such that make the machinde *do* a specific thing. A method might give your object new information to store in some way, turn your machine from on 'on' to 'off', allow you to input information to play a game, or switch between the turns of two different players.
+You may have trouble figuring out what kinds of properties and methods one of these objects might contain at first. One way you might conceptualize these objects might be to imagine them as little 'machines' you're making out of code.
 
-Again, objects can be used to represent almost anything you can think of, the limit is your imagination! It's impossible for us to give a comprehensive list of examples.
+The properties of the machine could be thought of displays that might show information such as:
 
-</div>
+- A list of the items you've collected, the total amount of items you can carry, and how much you're currently carrying
+- A list of functions that are listening for an event
+- The person who owes a particular debt, and the original amount owed.
+
+The methods of your machine might be akin to buttons and such that make the machinde *do* a specific thing, such as:
+
+- Remove an item you own from a list, add a new item, upgrade an item, craft a new item
+- Fire all the functions that are listening to a 'click' event, or add a new function to listen to the 'click' event
+- Pay an amount of money towards a debt, and determine how much more money is owed on a debt
+
+Again, objects can be used to represent almost anything you can think of, the limit is your imagination!
 
 ### Assignment
 
