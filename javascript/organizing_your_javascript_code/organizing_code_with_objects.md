@@ -106,7 +106,7 @@ Essentially, what this means is that code can be organized into objects that con
 
 Nearly *anything* you can think about can be described as an object. To do so, all you have to do is ask yourself is "What properties (physical or conceptual) does my thing have?", and "How can I interact with it?". The properties or attributes of a *thing* are expressed as properties, and the ways you can interact with that thing are expressed as methods.
 
-Let's take an example of some thing- we'll choose a lightbulb. A lightbulb can have a color, and it can be in either an 'on' state, or an 'off' state. These might be expressed as properties of a lightbulb object:
+Let's take an example of some *thing*- we'll choose a lightbulb. A lightbulb can have a color, and it can be in either an 'on' state, or an 'off' state. These might be expressed as properties of a lightbulb object:
 
 ```javascript
 const lightbulb = {
@@ -143,7 +143,7 @@ These methods use the `this` keyword to refer to the object they get called from
 
 Feel free to copy this code in the console and experiment with it! If you're inclined, perhaps you could create a method to change the color of the light, as if it's one of those fancy RGB LEDs those gamer nerds and keyboard enthusiasts seem to like so much.
 
-Moving past physical objects, we could also try to describe something like a game as an object. Since we've already explored Rock Paper Scissors in Foundations, let's use that as an example.
+Moving past physical items, we could also try to describe something a little bit more abstract like a game as an object. Since we've already explored Rock Paper Scissors in Foundations, let's use that as an example.
 
 A rock paper scissors game might involve a couple basic things:
 
@@ -290,7 +290,7 @@ Another name for these might also be **private properties**/**private methods**,
 
 Private properties/methods aren't strictly required, but they can help make the intended use of the object more understandable, and when used thoughtfully, even protect certain properties (like the player's scores) from being modified in ways that you may not have intended. Back off, cheaters!
 
-The methods and properties you *do* intend for others to use on your objects might be considered your object's **public interface**. Having a good, well thought out interface on your objects is important- not only because it makes your object pleasant to use by you and others, but also to keep objects flexible and extensible in the future.
+The methods and properties you *do* intend for others to use on your objects might be considered your object's **public interface**, or **public properties**/**public methods**. Having a good, well thought out interface on your objects is important- not only because it makes your object pleasant to use by you and others, but also to keep objects flexible and extensible in the future.
 
 This idea of grouping related functionality within an object is *extremely powerful*, and can often result in more organized, understandable code.
 
