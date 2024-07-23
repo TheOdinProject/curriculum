@@ -262,7 +262,7 @@ Ruby provides the `#send` method to save the day.  If you want to run a method o
 
 In an ordinary situation, there's no reason to use the `#send` method but if you don't know which method you're going to need to call, it's a lifesaver.  Just pass it the symbolized name of the method you want to run on that object and Ruby will go looking for it.
 
-But how do you define a new method on the fly anyway?  In this case, you can use the `#define_method` method, which takes the symbol of what you'd like to define and a block representing the method itself.  The following examples were taken from [this metaprogramming guide from ruby-metaprogramming.rubylearning.com](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html):
+But how do you define a new method on the fly anyway?  In this case, you can use the `#define_method` method, which takes the symbol of what you'd like to define and a block representing the method itself. The following examples were taken from this [metaprogramming guide from ruby-metaprogramming.rubylearning.com](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html):
 
 ~~~ruby
   class Rubyist
@@ -317,22 +317,22 @@ Design patterns have a mixed reputation among software developers.  On the one h
 
 The [Wikipedia article on SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) provides a good overview and good links related to SOLID software design.  If you're looking to write great code, you'll need to know each of the principles the letters represent (paraphrasing):
 
-* [**S**ingle Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle) (A class should only have a single responsibility)
-* [**O**pen/Closed Principle](http://en.wikipedia.org/wiki/Open/closed_principle) (your code entities should be open for extension but closed to modification)
-* [**L**iskov Substitution Principle](http://en.wikipedia.org/wiki/Liskov_substitution_principle) (replacing an object with one of its sub-types shouldn't break anything)
-* [**I**nterface Segregation Principle](http://en.wikipedia.org/wiki/Interface_segregation_principle) (writing many client-specific interfaces is better than one behemoth general-use interface... think APIs)
-* [**D**ependency Inversion Principle](http://en.wikipedia.org/wiki/Dependency_inversion_principle) (instead of high level constructs depending on lower level ones, make them rely on abstractions instead)
+* [Single Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle) (A class should only have a single responsibility)
+* [Open/Closed Principle](http://en.wikipedia.org/wiki/Open/closed_principle) (your code entities should be open for extension but closed to modification)
+* [Liskov Substitution Principle](http://en.wikipedia.org/wiki/Liskov_substitution_principle) (replacing an object with one of its sub-types shouldn't break anything)
+* [Interface Segregation Principle](http://en.wikipedia.org/wiki/Interface_segregation_principle) (writing many client-specific interfaces is better than one behemoth general-use interface... think APIs)
+* [Dependency Inversion Principle](http://en.wikipedia.org/wiki/Dependency_inversion_principle) (instead of high level constructs depending on lower level ones, make them rely on abstractions instead)
 
 Luckily, Rails has done a pretty good job of following these, so you should have absorbed some good habits just through using it. But you'll want to take a minute and read up on each of them (including the odd-sounding ones) because they're fairly central to all software engineering (and a ripe interview question).
 
-If you're particularly interested in pursuing design patterns, check out the "Gang of Four" (GoF) Patterns laid out in [this blog post from blackwasp.co.uk](http://www.blackwasp.co.uk/GofPatterns.aspx).
+If you're particularly interested in pursuing design patterns, check out the ["Gang of Four" (GoF) Patterns](http://www.blackwasp.co.uk/GofPatterns.aspx).
 
 There's a useful book written on anti-patterns, which can help you clean up your code by identifying bad smells, called [Rails Antipatterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814/) by Tammer Saleh and Chad Pytel.
 
 
 ### I18n: Internationalization
 
-[Internationalization and Localization](http://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adapting your application to fit specific geographies and/or languages.  It's outside our scope to cover, but for those who are interested, check out [this Sitepoint tutorial on it](http://www.sitepoint.com/go-global-rails-i18n/), as suggested by K. Bates.
+[Internationalization and Localization](http://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adapting your application to fit specific geographies and/or languages. It's outside our scope to cover, but for those who are interested, check out this [Sitepoint tutorial on internationalization](http://www.sitepoint.com/go-global-rails-i18n/), as suggested by K. Bates.
 
 
 ### Assignment
@@ -343,8 +343,8 @@ There's a useful book written on anti-patterns, which can help you clean up your
   3. Read the same guide, sections 3.8-3.15 for a variety of different advanced routing topics including constraining the inputs to your routes and redirection.
   4. Skim the same guide, chapter 4.  Some stuff we've seen but most is just to give you a sense for what's possible.  When you need it, you'll probably Google your way back there.
   5. Read the [Rails Guide on Layouts](http://guides.rubyonrails.org/layouts_and_rendering.html#using-nested-layouts) section 3.5 to see how to pass information between your view file and your layout file, including CSS styles.  Really take a minute to understand what's going on in the example there.
-  6. If you're interested in peeking at metaprogramming, read through [this resource](https://web.archive.org/web/20210514184321/http://ruby-metaprogramming.rubylearning.com/).  It's not essential to building early Rails apps but you'll definitely start running into it more in "the wild".
-  7. Glance through [this Slideshare Presentation on SOLID](http://www.slideshare.net/jcfischer/solid-ruby-solid-rails) principles.
+  6. If you're interested, take a peek at [Ruby metaprogramming](https://web.archive.org/web/20210514184321/http://ruby-metaprogramming.rubylearning.com/). It's not essential to building early Rails apps but you'll definitely start running into it more in "the wild".
+  7. Glance through this [Slideshare Presentation on SOLID principles](http://www.slideshare.net/jcfischer/solid-ruby-solid-rails).
 </div>
 
 ### Conclusion
@@ -368,10 +368,10 @@ This section contains questions for you to check your understanding of this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Stack Overflow question on the topic](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
+- A Stack Overflow question on [understanding singular resource in Rails](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
 - [In Relentless Pursuit of REST by Derek Prior](https://www.youtube.com/watch?v=HctYHe-YjnE)
 - [A video from Yehuda Katz on Rails Security](http://youtu.be/2Ex8EEv-WPs)
-- See the first solution to [this SO question](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting) for a nice way to work with multiple layouts that use classes to trigger different CSS styling.
+- The first solution in this Stack Overflow question demonstrates a nice way to [work with multiple layouts that uses classes to trigger different CSS styling](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting).
 - [Ruby Metaprogramming](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
 - [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)
 - [A longer explanation of SOLID principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)
