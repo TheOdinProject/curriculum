@@ -342,7 +342,9 @@ Again, objects can be used to represent almost anything you can think of, the li
 
 #### Extra credit
 
-1. You may have exposed the list that the piggy bank uses to track coins as a public property. Depending on how you implemented the piggy bank, modifying this list without using something like a `deposit` or `withdraw` method on the object could throw some of it's properties out of wack, like the one that tells you the amount of savings you've accrued. Additionally, adding an unexpected value to this list by modifying it directly could cause errors within your piggy bank methods. Let's try to ensure that doesn't happen!
+1. You may have exposed the list that the piggy bank uses to track coins as a public property. Depending on how you implemented the piggy bank, modifying this list without using something like a `deposit` or `withdraw` method on the object could throw some of it's properties out of wack, like the one that tells you the amount of savings you've accrued.
+
+   Additionally, adding an unexpected value to this list by modifying it directly could cause errors within your piggy bank methods. Let's try to ensure that doesn't happen!
    - Indicate that the list of coins the piggy bank uses is a **private property** of the object.
    - Create a **public method** that gives the user a *copy* of the list that they can manipulate to their hearts content without breaking the piggy bank object.
 
