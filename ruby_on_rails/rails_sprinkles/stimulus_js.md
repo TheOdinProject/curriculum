@@ -113,7 +113,7 @@ export default class extends Controller {
 }
 ```
 
-### Selecting / targeting elements
+### Selecting elements
 
 You learned how to access DOM elements with selectors, such as `document.querySelector` and `document.getElementById`.
 Again Stimulus gives you a way to declare elements you want to select in the HTML:
@@ -307,7 +307,7 @@ Go back to you **Flight Booker** project and improve it:
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [When do you use Stimulus?](#introduction)
-- [How do you select a DOM element?](#selecting-targeting-elements)
+- [How do you select a DOM element?](#selecting-elements)
 - [How do you make your Stimulus controllers reusable?](#use-class-attributes-to-make-your-controllers-more-configurable)
 - [How do you trigger actions on an event?](#triggering-an-action)
 
