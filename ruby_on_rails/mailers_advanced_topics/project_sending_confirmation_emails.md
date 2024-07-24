@@ -7,7 +7,7 @@ Setting up a mailer is a relatively straightforward task. It's very similar to b
 You'll be dusting off your [Flight Booker project](/lessons/ruby-on-rails-flight-booker) and having it send out a "You have booked your ticket" confirmation email to all Passengers when they are created as part of the booking process. Make sure to send out one email to each Passenger in the Booking, not just one for the whole Booking. (Alternatively, you can use one of your other projects, as long as it has users registering.)
 
 <div class="lesson-content__panel" markdown="1">
-   
+
 1. Locate and load up the project file.
 1. Do some pushups and jumping jacks.  You've been spending a bit too much time at the computer lately.
 1. Generate your new mailer with `$ rails generate mailer PassengerMailer`.
@@ -20,7 +20,7 @@ You'll be dusting off your [Flight Booker project](/lessons/ruby-on-rails-flight
    ```ruby
    > PassengerMailer.confirmation_email(Passenger.first).deliver_now!
    ```
-   
+
 1. Extra Credit: Deploy it to a hosting provider and try it out. There will be a bit of additional setup to get something an email provider like [SendGrid](https://sendgrid.com/) working and sending emails in production for you.
 
 (One heads up: in order to use an email provider you will probably have to give your credit card information, they do this to deter spammers. You don't have to pay for the service, but you do have to give your information.)
@@ -31,5 +31,4 @@ You'll be dusting off your [Flight Booker project](/lessons/ruby-on-rails-flight
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [`letter_opener` docs](https://github.com/ryanb/letter_opener)
 - [Setting up email: Rails, Heroku, SendGrid, Figaro](http://howilearnedrails.wordpress.com/2014/02/25/setting-up-email-in-a-rails-4-app-with-action-mailer-in-development-and-sendgrid-in-production-using-heroku/comment-page-1/#comment-79)
