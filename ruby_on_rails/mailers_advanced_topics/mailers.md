@@ -55,13 +55,14 @@ The [Letter Opener gem](https://github.com/ryanb/letter_opener), put in your `de
 - Email is SLOW! It can take 1-2 seconds per email to send, so don't make your main application do it when you're serving a whole bunch of them because then anyone trying to access it will be shut out.
 - Make sure you use full URLs in any links in your mailer (so `_url` not `_path` helper methods), since the user will be opening the email and clicking the link at an external source.  In your `config/environments/production.rb` file you'll want to make sure to specify your website's host name using something like `config.action_mailer.default_url_options = { :host => 'yourapp.com' }`.  If it's not set, you may get an error message about your host or your links may look funny.
 - The `#deliver!` method will throw an error on delivery failure whereas `#deliver` will return false (failing silently).
-* When styling your email HTML, you won't have access to any stylesheets so you'll need to do all the styling either inline or using `<style>` tags.
+- When styling your email HTML, you won't have access to any stylesheets so you'll need to do all the styling either inline or using `<style>` tags.
+
 - Attaching images to emails (like using logos in the HTML version) can be a bit of a pain.  See the reading.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
- 
+
   1. Read sections 1 and 2 of the [Rails Guide on ActionMailer](http://guides.rubyonrails.org/action_mailer_basics.html).
   1. Read sections 3 and 4 to [learn about callbacks and helpers](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-callbacks).
   1. Read section 5.2, which covers [sending mail with your Gmail](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration-for-gmail).
@@ -74,6 +75,8 @@ The [Letter Opener gem](https://github.com/ryanb/letter_opener), put in your `de
 Sending email is just a slightly different way of using the same patterns you've already been using for controllers and views, so it should be pretty straightforward to pick up.  You'll have to navigate the usual batch of errors when trying out new things (often related to the configuration or naming your files properly), but it'll come to you quickly.
 
 ### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How do you create a new mailer from the command line?](#brief-overview)
 - ]Where do you store the actual email in your application?](#brief-overview)
