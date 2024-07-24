@@ -22,7 +22,7 @@ Before we install the jsbundling-rails gem let's go over a few of the options. <
 
 Esbuild is a fast lightweight bundler written in [Go](https://go.dev/doc/). Whereas other bundlers may be slower, but have more features which can make the bundler take longer to run. Esbuild manages to be fast with variety of methods such as utilizing parallelism to use all available CPU cores.
 
-For more information about esbuild, read [the documentation](https://esbuild.github.io/).
+If you're interested in reading more, check out the [esbuild documentation](https://esbuild.github.io/).
 
 #### Rollup
 
