@@ -56,7 +56,6 @@ The [Letter Opener gem](https://github.com/ryanb/letter_opener), put in your `de
 - Make sure you use full URLs in any links in your mailer (so `_url` not `_path` helper methods), since the user will be opening the email and clicking the link at an external source.  In your `config/environments/production.rb` file you'll want to make sure to specify your website's host name using something like `config.action_mailer.default_url_options = { :host => 'yourapp.com' }`.  If it's not set, you may get an error message about your host or your links may look funny.
 - The `#deliver!` method will throw an error on delivery failure whereas `#deliver` will return false (failing silently).
 - When styling your email HTML, you won't have access to any stylesheets so you'll need to do all the styling either inline or using `<style>` tags.
-
 - Attaching images to emails (like using logos in the HTML version) can be a bit of a pain.  See the reading.
 
 ### Assignment
