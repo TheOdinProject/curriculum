@@ -31,7 +31,7 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
     ~~~
 
 1.  The URL contains the REST endpoint we looked at before, along with our search query and some other options like the API key and format. If you copy and paste that into your browser, you'll see the same batch of output.
-1.  If you look back on the [main API docs page](http://www.flickr.com/services/api/) in the "Read these first" box, there's a link that says [URLs](http://www.flickr.com/services/api/misc.urls.html). Follow that link.
+1.  Learn more about [how Flickr's photo URLs are structured](http://www.flickr.com/services/api/misc.urls.html).
 1.  Flickr's API requires two steps to actually display a photo -- you need to get a photo's meta information (which we just received in our search results) and then you need to piece it together into a URL that Flickr can understand to actually retrieve the photo. The format they call typical is:
 
     `https://live.staticflickr.com/{server-id}/{id}_{secret}_{size-suffix}.jpg`
