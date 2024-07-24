@@ -305,7 +305,7 @@ if you would like to learn more:
     format.turbo_stream { render turbo_stream: turbo_stream.append('posts', @post) }
     ```
 
-    However, you shouldn't do this for anything complex or chained, as explained in this [comment by one of the maintainers of Hotwire](https://github.com/hotwired/turbo-rails/issues/77#issuecomment-757349251).
+    However, you shouldn't do this for anything complex or chained.
 
 1. You may have noticed that when you submit a new Post, the text box doesn't clear out. You need to reset the submission element in order for it to be empty again. Hotwire has a remedy for this problem by including Stimulus, a light JavaScript framework. Don't worry about Stimulus for this example though, the next lesson will cover how to write and make use of Stimulus Controllers.
 
