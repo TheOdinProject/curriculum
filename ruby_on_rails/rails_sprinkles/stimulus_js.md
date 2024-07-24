@@ -298,7 +298,7 @@ button.
 count (imagine a user writing a post which has a maximum length of 280 characters)
 - **Project**:
 Go back to you **Flight Booker** project and improve it:
-  - Add a controller that allows the user to add another passenger by clicking on an "Add passenger" button, which adds another set of fields to enter the passenger details (hint: have a look at the [```html<template>``` tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) ).
+  - Add a controller that allows the user to add another passenger by clicking on an "Add passenger" button, which adds another set of fields to enter the passenger details (hint: have a look at the [\<template\> tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)).
   - Allow to remove existing passengers by clicking a "Remove" button, which removes the one set of passenger fields (make sure submissions to the server still works as expected)
   - Prevent removing the last set of passenger details.
 
