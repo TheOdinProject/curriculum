@@ -79,7 +79,7 @@ Sending email is just a slightly different way of using the same patterns you've
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How do you create a new mailer from the command line?](#brief-overview)
-- ]Where do you store the actual email in your application?](#brief-overview)
+- [Where do you store the actual email in your application?](#brief-overview)
 - [How do you send an email directly from the Rails console?](#brief-overview)
 - [How do you use callbacks with mailers?](#callbacks)
 - [How do you write links in mailer views?](#email-wisdom)
