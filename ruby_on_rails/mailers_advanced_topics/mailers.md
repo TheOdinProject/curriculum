@@ -36,7 +36,9 @@ Mailers allow you to use callbacks just like a normal controller, for instance t
 
 In the reading you'll see how to send mail using your Gmail account, but if you're building a real application you'll obviously want something a bit more robust. There are several leading players in the space of sending your email for you. Their whole job is to handle getting your mail delivered and opened so you can focus on building your application.
 
-[SendGrid](https://addons.heroku.com/sendgrid#1500000) is the provider used with this website for delivering welcome emails and the like and it's pretty straightforward on Heroku. See the [documentation here](https://devcenter.heroku.com/articles/sendgrid), as well as [SendGrid's own documentation](https://docs.sendgrid.com/for-developers/sending-email/rubyonrails), which includes instructions for how you should set up your `config/environment.rb` file to get ActionMailer to interface with them.  You will need to use environment variables (or the `figaro` gem) again to avoid hard coding your password and username.
+[SendGrid](https://addons.heroku.com/sendgrid#1500000) is the provider used with this website for delivering welcome emails and the like and it's pretty straightforward on Heroku.  
+ 	
+See [Heroku's documentation on Twilio SendGrid](https://devcenter.heroku.com/articles/sendgrid), as well as [SendGrid's own documentation](https://docs.sendgrid.com/for-developers/sending-email/rubyonrails), which includes instructions for how you should set up your `config/environment.rb` file to get ActionMailer to interface with them.  You will need to use environment variables (or the `figaro` gem) again to avoid hard coding your password and username.
 
 Pricing for this, as most things, is free up until a certain usage tier. While you're building toy apps, it will do just fine. Other options are out there like [MailGun](https://www.mailgun.com/), [Mailchimp](https://mailchimp.com/) and [Postmark](https://postmarkapp.com/).
 
@@ -46,7 +48,7 @@ You'll get a chance to play with mailers in the projects.
 
 One key thing to note is that you don't want to fire off a bunch of emails when you're testing your app in the development environment. That's not just bad practice, it can make your users pretty unhappy and get you put on SPAM lists. No bueno. But you do want to make sure the email function is working properly. Luckily, there's a solution which is quite useful.
 
-The [Letter Opener gem (see docs)](https://github.com/ryanb/letter_opener), put in your `development` group of the Gemfile, will take your emails and display them in the web browser for you whenever they would otherwise be sent.  You just switch a config setting in your `config/environments/development.rb` file and you're good to go.  Sweet.
+The [Letter Opener gem](https://github.com/ryanb/letter_opener), put in your `development` group of the Gemfile, will take your emails and display them in the web browser for you whenever they would otherwise be sent.  You just switch a config setting in your `config/environments/development.rb` file and you're good to go.  Sweet.
 
 ### Email wisdom
 
@@ -60,9 +62,9 @@ The [Letter Opener gem (see docs)](https://github.com/ryanb/letter_opener), put 
 
 <div class="lesson-content__panel" markdown="1">
   1. Read sections 1 and 2 of the [Rails Guide on ActionMailer](http://guides.rubyonrails.org/action_mailer_basics.html).
-  2. Read [sections 3 and 4](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-callbacks) to learn about callbacks and helpers.
-  3. Read [section 5.2](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration-for-gmail), which covers sending mail with your Gmail.
-  4. Skim [sections 6 and 7](https://guides.rubyonrails.org/action_mailer_basics.html#mailer-testing) on testing and intercepting emails.
+  2. Read sections 3 and 4 to [learn about callbacks and helpers](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-callbacks).
+  3. Read section 5.2, which covers [sending mail with your Gmail](https://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration-for-gmail).
+  4. Skim sections 6 and 7 on [testing and intercepting emails](https://guides.rubyonrails.org/action_mailer_basics.html#mailer-testing).
 </div>
 
 ### Conclusion
