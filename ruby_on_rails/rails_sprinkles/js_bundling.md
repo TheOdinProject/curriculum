@@ -28,11 +28,11 @@ If you're interested in reading more, check out the [esbuild documentation](http
 
 Rollup is another bundler that allows you to utilize a JavaScript syntax for importing and exporting functions and data so they can be shared between separate scripts then changing them to existing supported formats.
 
-For more information about Rollup, read [the documentation](https://rollupjs.org/guide/en/#introduction).
+If you want to take a deeper dive, look into [Rollup's documentation](https://rollupjs.org/guide/en/#introduction).
 
 #### Webpack
 
-The final bundler provided through jsbundling-rails is webpack which is a static module bundler that uses an entry point within your application to create a dependency graph that then combines every module your project needs into one or more bundles to be used by your application. If you want to take a deeper dive into webpack, read [the documentation](https://webpack.js.org/concepts/).
+The final bundler provided through jsbundling-rails is webpack which is a static module bundler that uses an entry point within your application to create a dependency graph that then combines every module your project needs into one or more bundles to be used by your application. Take a deeper dive into [Webpack's concepts](https://webpack.js.org/concepts/).
 
 Now that you have been introduced into the bundlers provided through jsbundling-rails let's go into setting it up.
 
@@ -257,5 +257,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [good mention of why JS bundling is still a valid option by David Heinemeier Hansson](https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755).
-- [high level look over jsbundling-rails versus webpacker if you are interested in the differences](https://github.com/rails/jsbundling-rails/blob/main/docs/comparison_with_webpacker.md).
+- A good mention of [why JS bundling is still a valid option](https://world.hey.com/dhh/modern-web-apps-without-javascript-bundling-or-transpiling-a20f2755) by David Heinemeier Hansson.
+- If you're interested in the differences, here is a high level comparison of [jsbundling-rails versus webpacker](https://github.com/rails/jsbundling-rails/blob/main/docs/comparison_with_webpacker.md).
