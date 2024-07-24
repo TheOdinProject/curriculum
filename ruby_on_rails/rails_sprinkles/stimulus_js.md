@@ -103,7 +103,7 @@ So instead of `document.querySelector("button").addEventListener("click", showAl
 
 Now clicking the button will trigger the action of the associated Stimulus controller:
 
-```js
+```javascript
 // app/javascript/controllers/alert_controller.js
 import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
@@ -128,7 +128,7 @@ Again Stimulus gives you a way to declare elements you want to select in the HTM
 
 Notice the `data-greeter-target`. Targets can then be used in your controller:
 
-```js
+```javascript
 // app/javascript/controllers/greeter_controller.js
 import { Controller } from "@hotwired/stimulus"
 export default class extends Controller {
@@ -152,7 +152,7 @@ to keep this to a minimum.
 
 So anything you define on `this` is available throughout the controller:
 
-```js
+```javascript
 export default class extends Controller {
     connect() {
         this.count = 0
@@ -166,7 +166,7 @@ export default class extends Controller {
 
 Stimulus also lets you declare specific value attributes that allow you to listen to changes:
 
-```js
+```javascript
 // app/javascript/controllers/counter_controller.js
 export default class extends Controller {
     static values = { count: {type: Number, default: 0} }
@@ -208,7 +208,7 @@ with an attribute to specify the CSS class to be used:
 
 And in your controller:
 
-```js
+```javascript
 // app/javascript/controllers/toggle_controller.js
 export default class extends Controller {
   static classes = [ "change" ]
@@ -272,6 +272,7 @@ go into more depth.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 - Read the [Stimulus Handbook](https://stimulus.hotwired.dev/handbook/origin) to get an overview of how to code
 with Stimulus.
 - Watch this [Stimulus 2.0 Tutorial Video](https://www.driftingruby.com/episodes/the-stimulus-2-0-tutorial); it may give
@@ -279,6 +280,7 @@ you a bit of a feel on how to work with Stimulus controllers. You can ignore the
 we will use the new Rails standard of using import maps.
 - Make sure to also read the [Stimulus reference section](https://stimulus.hotwired.dev/reference/controllers), if you
 haven't already. Don't worry if not everything sticks, but you should know where to look up what you need.
+
 </div>
 
 #### Exercises
@@ -304,10 +306,10 @@ Go back to you **Flight Booker** project and improve it:
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class='knowledge-check-link' href='#introduction'>When do you use Stimulus?</a>
-- <a class='knowledge-check-link' href='#selecting-targeting-elements'>How do you select a DOM element?</a>
-- <a class='knowledge-check-link' href='#use-class-attributes-to-make-your-controllers-more-configurable'>How do you make your Stimulus controllers reusable?</a>
-- <a class='knowledge-check-link' href='#triggering-an-action'>How do you trigger actions on an event?</a>
+- [When do you use Stimulus?](#introduction)
+- [How do you select a DOM element?](#selecting-targeting-elements)
+- [How do you make your Stimulus controllers reusable?](#use-class-attributes-to-make-your-controllers-more-configurable)
+- [How do you trigger actions on an event?](#triggering-an-action)
 
 ### Additional resources
 
