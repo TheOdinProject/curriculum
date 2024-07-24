@@ -10,7 +10,7 @@ You'll be dusting off your [Flight Booker project](/lessons/ruby-on-rails-flight
 1. Locate and load up the project file.
 2. Do some pushups and jumping jacks.  You've been spending a bit too much time at the computer lately.
 3. Generate your new mailer with `$ rails generate mailer PassengerMailer`.
-4. Install the [`letter_opener` gem (see docs here)](https://github.com/ryanb/letter_opener) to open your emails in the browser instead of sending them in the development environment.
+4. Install the [Letter Opener gem](https://github.com/ryanb/letter_opener) to open your emails in the browser instead of sending them in the development environment.
 5. Follow through the steps listed in the [Rails Guide](http://guides.rubyonrails.org/action_mailer_basics.html) to create the action to send the confirmation email.
 6. Build both an `.html.erb` and `.text.erb` version of your ticket confirmation email.
 7. Test that the email sends by creating a new flight booking (`letter_opener` should open it in the browser for you if you've set it up properly).
@@ -28,5 +28,4 @@ You'll be dusting off your [Flight Booker project](/lessons/ruby-on-rails-flight
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [`letter_opener` docs](https://github.com/ryanb/letter_opener)
 - [Setting up email: Rails, Heroku, SendGrid, Figaro](http://howilearnedrails.wordpress.com/2014/02/25/setting-up-email-in-a-rails-4-app-with-action-mailer-in-development-and-sendgrid-in-production-using-heroku/comment-page-1/#comment-79)
