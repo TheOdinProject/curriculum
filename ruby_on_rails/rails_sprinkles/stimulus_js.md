@@ -277,7 +277,7 @@ with Stimulus.
 - Watch this [Stimulus 2.0 Tutorial Video](https://www.driftingruby.com/episodes/the-stimulus-2-0-tutorial); it may give
 you a bit of a feel on how to work with Stimulus controllers. You can ignore the part about installation with Webpacker as
 we will use the new Rails standard of using import maps.
-- Make sure to also read the [reference section](https://stimulus.hotwired.dev/reference/controllers), if you
+- Make sure to also read the [Stimulus reference section](https://stimulus.hotwired.dev/reference/controllers), if you
 haven't already. Don't worry if not everything sticks, but you should know where to look up what you need.
 </div>
 
@@ -296,7 +296,7 @@ button.
 count (imagine a user writing a post which has a maximum length of 280 characters)
 - **Project**:
 Go back to you **Flight Booker** project and improve it:
-  - Add a controller that allows the user to add another passenger by clicking on an "Add passenger" button, which adds another set of fields to enter the passenger details (hint: have a look at the [\<template\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) tag)
+  - Add a controller that allows the user to add another passenger by clicking on an "Add passenger" button, which adds another set of fields to enter the passenger details (hint: have a look at the [<template> tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) ).
   - Allow to remove existing passengers by clicking a "Remove" button, which removes the one set of passenger fields (make sure submissions to the server still works as expected)
   - Prevent removing the last set of passenger details.
 
