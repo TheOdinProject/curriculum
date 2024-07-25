@@ -206,7 +206,7 @@ For instance, you might have a specific layout file for your static pages called
 
 In this case, you would tell your `static_pages.html.erb` layout to call the `application.html.erb` layout but also pass it some special CSS by using the `#content_for` method, e.g.
 
-```ruby
+```erb
   # app/views/layouts/static_pages.html.erb
 
   <% content_for :stylesheets do %>
@@ -217,7 +217,7 @@ In this case, you would tell your `static_pages.html.erb` layout to call the `ap
 
 Then your `application.html.erb` layout needs to be set up to catch that content and use it, for instance by adding this `#yield` line:
 
-```ruby
+```erb
   # app/views/layouts/application.html.erb
   ...
   <head>
@@ -231,7 +231,7 @@ Then your `application.html.erb` layout needs to be set up to catch that content
 
 When you `#yield` to a particular content block, in this case `:stylesheets`, it will essentially drop the code from inside of that `content_for`'s block to where the `#yield` method was.  So in the above example, we effectively added some CSS styling to the application layout by first rendering a special `static_pages.html.erb` layout and then passing the styles to the main `application.html.erb` layout using `#content_for`.  The result would look like:
 
-```html
+```erb
   # app/views/layouts/application.html.erb
   ...
   <head>
