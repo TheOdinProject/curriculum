@@ -43,7 +43,7 @@ The `form` attributes define how to communicate with the server:
 
 #### Form handling process
 
-The form's `action` will point to some endpoint on our server, which will allow our controller the request. The controller then communicates with the database to handle the data.
+The form's `action` will point to some endpoint on our server, which will allow our controller to handle the request. The controller then communicates with the database to handle the data.
 
 We then generate a new or updated view with the controller's response and redirect the client. This is known as the [Post/Redirect/Get (PRG)](https://en.wikipedia.org/wiki/Post/Redirect/Get) design pattern which helps prevent duplicate `POST` requests.
 
