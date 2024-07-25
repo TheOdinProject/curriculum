@@ -4,16 +4,6 @@ Use everything we've been discussing to create a weather forecast site using the
 
 You should change the look of the page based on the data, maybe by changing the color of the background or by adding images that describe the weather. (You could even use the Giphy API to find appropriate weather-related gifs and display them). Feel free to use promises or async/await in your code, though you should try to become comfortable with both.
 
-<div class="lesson-note" markdown="1">
-
-#### Change of weather API to Visual Crossing
-
-We have recently replaced the weather API used in a previous lesson and this project with Visual Crossing's API, due to intermittent issues with the previous API.
-
-The process of calling the API still remains very similar. Make a free account with them if you have not already done so, and check their API documentation for exactly how to query for the data you want. Remember to check out [Visual Crossing's query builder](https://www.visualcrossing.com/weather/weather-data-services) and read more about the weather API section in the previous section if you haven't, already.
-
-</div>
-
 ### API keys, secrets, and security
 
 Not all APIs are free, and depending on how they're set up, they can cost money per use. This makes them a prime target for people looking to use the API without paying by using **your** API key. They can also be rate-limited, and if someone has access to your API key they can use up all of your uses. One way to prevent this issue is to store your API keys on the server and never send them to the frontend in the first place, this is often done using environment variables and it makes the key available only on the server the code is deployed to.
