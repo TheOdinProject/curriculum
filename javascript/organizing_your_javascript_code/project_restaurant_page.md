@@ -65,4 +65,5 @@ When creating a new repo on GitHub there is an option to specify a `.gitignore` 
 
     1. Recall that the **source branch** for GitHub Pages is set in your repository's settings.
 
+Should you have troubles following the above guidelines, please checkout this gist by one of our students on [hosting Webpack application on GitHub Pages](https://gist.github.com/john-walter-munene/d64c84fd11088c6f0f82f713810f2aea)
 </div>
