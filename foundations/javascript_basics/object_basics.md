@@ -287,7 +287,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is the difference between objects and arrays?](https://javascript.info/object#summary)
 - [How do you access object properties?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation)
-- [How do primitives and object types differ when you assign the to other variables or pass them into functions?](https://www.theodinproject.com/lessons/foundations-object-basics#differences-between-objects-and-primitives)
+- [How do primitives and object types differ when you assign them to other variables, or pass them into functions?](https://www.theodinproject.com/lessons/foundations-object-basics#differences-between-objects-and-primitives)
 - [What is `Array.prototype.map()` useful for?](https://www.youtube.com/watch?v=HB1ZC7czKRs&t=233s)
 - [What is `Array.prototype.filter()` useful for?](https://www.youtube.com/watch?v=HB1ZC7czKRs&t=84s)
 - [What is `Array.prototype.reduce()` useful for?](https://youtu.be/HB1ZC7czKRs?t=467)
