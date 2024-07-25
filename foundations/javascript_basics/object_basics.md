@@ -54,8 +54,7 @@ console.log(obj); // { data: 43 }
 console.log(objCopy); // { data: 43 }
 ```
 
-This behavior isn't new to you. In your last project, you made changes to the cells in the Etch-A-Sketch grid by using references.
-Let's take this code snippet as an example:
+This behavior isn't new to you. In your last project, you made changes to the cells in the Etch-A-Sketch grid by using references. Let's take this code snippet as an example:
 
 ```javascript
 const element = document.querySelector("#container");
