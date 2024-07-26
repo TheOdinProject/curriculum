@@ -4,7 +4,7 @@ Congratulations, you have made it to the very first React project. In this proje
 
 ### Icons
 
-In previous projects you may have inlined `<svg>` in your markup to include icons, or perhaps used an `<img>` to represent them. 
+In previous projects you may have inlined `<svg>` in your markup to include icons, or perhaps used an `<img>` to represent them.
 
 In React, using an icon library like Lucide Icons is the easiest way to add icons.
 
