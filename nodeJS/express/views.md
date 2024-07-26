@@ -166,7 +166,8 @@ Note the use of the raw output tag `<%-` with the `include` which is used to avo
 Serving static assets with EJS is similar to how we served assets previously when working directly with HTML, in that we can add external files to the head of the template file using the `link` tag. The main thing to point out is that the app needs to know where to serve assets from. Assuming `express` is installed, set the following lines in `app.js`:
 
 ```javascript
-app.use(express.static(path.join(__dirname, "public")));
+const assetsPath = path.join(__dirname, "public");
+app.use(express.static(assetsPath));
 ```
 
 `express.static()` is a middleware function that enables the use of static assets, and we tell it to look for assets with the `public` directory as the root.
