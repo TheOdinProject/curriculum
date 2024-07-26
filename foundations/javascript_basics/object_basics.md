@@ -11,6 +11,7 @@ This section contains a general overview of topics that you will learn in this l
 - Creating objects.
 - Accessing object properties.
 - Using multiple object operators.
+- Understanding the differences between object and primitive data types.
 - Using the `map`, `filter` and `reduce` array methods.
 
 ### Objects
