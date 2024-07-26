@@ -10,8 +10,8 @@ In this course, we will use [EJS](https://ejs.co/). EJS's syntax is very similar
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to setup EJS in an Express project
-- How to use EJS
+- How to setup EJS in an Express project.
+- How to use EJS.
 
 ### Setting up EJS
 
@@ -78,9 +78,33 @@ Start the server and go to the `/` route in the browser. You should see:
 EJS rocks!
 ```
 
-If you inspect the HTML in the browser's dev tools, you can see HTML is structures exactly like how we wrote the EJS template with the `message` variable replaced with its value.
+If you inspect the HTML in the browser's dev tools, you can see the HTML is structured exactly like how we wrote the EJS template with the `message` variable replaced with its value.
 
 When you hit the `/` route, `res.render("index", { message: "EJS rocks!" });` is the line that sends back the response. Since we've already defined the `views` and `view engine` app properties, the first argument of `res.render` is programmed to look for "a template called index in the specified folder", while the second argument is an object of variables that are to be made available to that specific template.
+
+### The locals variable in EJS
+
+In the example above, how did the template file know about the `message` variable? When we render the view, EJS has access to any properties from the object we pass into `res.render`, as well as any properties on [Express's res.locals object](https://expressjs.com/en/5x/api.html#res.locals) (`res.locals` can be useful if you need to pass values to the view in one middleware function, but won't call `res.render` until later in the middleware chain).
+
+EJS will store these properties in an object called `locals`, which you can access in the view. Similarly to the global `window` object in browsers, this allows you to access the `message` variable in the view via `locals.message`, or simply just `message`.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Undefined variables in locals
+
+If we try to access a variable in a rendered template file that was not defined in the `locals` argument of `res.render` or `res.locals`, this can cause a reference error. For instance if we try to access an undefined `foo` variable, `locals.foo` will return undefined, while `foo` will result in an reference error. Verify this by outputting `locals.foo` in `index.ejs`, then replacing it with`foo`:
+
+```ejs
+<html>
+  <body>
+    <%= message %>
+    <!-- replace the below with the output of just foo -->
+    <%= locals.foo %>
+  </body>
+</html>
+```
+
+</div>
 
 ### Reusable templates
 
