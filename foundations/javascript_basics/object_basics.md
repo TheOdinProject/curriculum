@@ -23,10 +23,9 @@ Objects are a *very* important part of the JavaScript language, and while for th
 
 ### Differences between objects and primitives
 
-Earlier in the curriculum you've learned about [primitive data types](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals). Now that you've seen the object data type, which includes but is not limited to, objects ({key: value}), arrays, and functions. The main difference between the two is that primitives can contain only a single thing (string, number, etc). Objects data types are used to store collection of data and more complex entities.
+Earlier in the curriculum you've learned about [primitive data types](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals). Now that you've seen the object data type, which includes but is not limited to, objects ({key: value}), arrays, and functions. The main difference between the two is that primitives can contain only a single thing (string, number, etc). Objects data types are used to store a collection of data and more complex entities.
 
-Besides the formal differences, there are also some technical differences, which affect how we use each data type.
-When you define a primitive variable, it will contain a copy of the information provided to it:
+Besides the formal differences, there are also some technical differences which affect how we use each data type. When you define a primitive variable, it will contain a copy of the information provided to it:
 
 ```javascript
 let data = 42;
@@ -55,19 +54,16 @@ console.log(obj); // { data: 43 }
 console.log(objCopy); // { data: 43 }
 ```
 
-This behavior isn't new to you. In your last project, you made changes to the cells in the Etch-A-Sketch grid by using references.
-Let's take this code snippet as an example:
+This behavior isn't new to you. In your last project, you made changes to the cells in the Etch-A-Sketch grid by using references. Let's take this code snippet as an example:
 
 ```javascript
 const element = document.querySelector("#container");
 element.style.backgroundColor = "red";
 ```
 
-We're mutating the variable we declared (`element`), yet the changes affect the corresponding node in the DOM.
-Why does it happen?
-That's because the node we have in our code is a **reference** to the same node that our DOM uses. If that wasn't a reference, but a copy like primitive data types behave, our changes would have **no** effect! Because the changes would be made to the local copy we have.
+We're mutating the variable we declared (`element`), yet the changes affect the corresponding node in the DOM. Why does it happen? That's because the node we have in our code is a **reference** to the same node that our DOM uses. If that wasn't a reference, but a copy like primitive data types behave, our changes would have **no** effect! Because the changes would be made to the local copy we have.
 
-This behavior is also something to consider when we pass arguments to a function, let's take the following functions for example:
+This behavior is also something to consider when we pass arguments to a function. Let's take the following functions for example:
 
 ```javascript
 function increaseCounterObject(objectCounter) {
@@ -87,14 +83,13 @@ increaseCounterPrimitive(primitive);
 
 Take a moment and guess what will happen to `object` and what will happen to `primitive` after we make the function calls.
 
-If you answered that the object counter would increase by 1, and the primitive counter wouldn't change, you're correct.
-Remember that `objectCounter` contains a reference to the same object as the `object` variable we gave it, while `primitiveCounter` contains only a copy of the primitive value only.
+If you answered that the object counter would increase by 1, and the primitive counter wouldn't change, you're correct. Remember that the parameter `objectCounter` contains a *reference* to the same object as the `object` variable we gave it, while `primitiveCounter` contains only a copy of the primitive value only.
 
 <div class="lesson-note" markdown="1">
 
 #### Reassigning object data type variables
 
-While changing the object we have a reference to will change that object for all other variables that reference it, changing what we refer to won’t affect what the other variables refer to. This example should clarify it:
+While mutating the object we have a reference to will affect all other variables that reference it, reassigning a variable won’t affect what the other variables refer to. For example:
 
 ```javascript
 let animal = { species: "dog" };
@@ -288,7 +283,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is the difference between objects and arrays?](https://javascript.info/object#summary)
 - [How do you access object properties?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation)
-- [How do primitives and object types differ when you assign the to other variables or pass them into functions?](https://www.theodinproject.com/lessons/foundations-object-basics#differences-between-objects-and-primitives)
+- [How do primitives and object types differ when you assign them to other variables, or pass them into functions?](https://www.theodinproject.com/lessons/foundations-object-basics#differences-between-objects-and-primitives)
 - [What is `Array.prototype.map()` useful for?](https://www.youtube.com/watch?v=HB1ZC7czKRs&t=233s)
 - [What is `Array.prototype.filter()` useful for?](https://www.youtube.com/watch?v=HB1ZC7czKRs&t=84s)
 - [What is `Array.prototype.reduce()` useful for?](https://youtu.be/HB1ZC7czKRs?t=467)
