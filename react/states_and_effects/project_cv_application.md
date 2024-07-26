@@ -2,6 +2,34 @@
 
 Congratulations, you have made it to the very first React project. In this project, you will be creating a small application where users can input their information and generate a CV/résumé. It's a great project to get you started because it includes many of the basic concepts you've learned so far, without a huge overhead of complexity.
 
+### Icons
+
+In previous projects you may have inlined `<svg>` in your markup to include icons, or perhaps used an `<img>` to represent them. 
+
+In React, using an icon library like Lucide Icons is the easiest way to add icons.
+
+Install it in your project
+
+```bash
+npm install lucide-react
+```
+
+Then use it like this:
+
+```jsx
+import { TriangleAlert } from "lucide-react";
+
+export default function ErrorMessage({ errorMessage }) {
+    return (
+        <p>
+            <TriangleAlert size={24} color="red" /> {errorMessage} 
+        </p>
+    )
+}
+```
+
+Check our [their docs](https://lucide.dev/guide/packages/lucide-react) and [icon catalog](https://lucide.dev/icons/) if interested.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
