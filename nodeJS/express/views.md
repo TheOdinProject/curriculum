@@ -10,8 +10,8 @@ In this course, we will use [EJS](https://ejs.co/). EJS's syntax is very similar
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to setup EJS in an Express project
-- How to use EJS
+- How to setup EJS in an Express project.
+- How to use EJS.
 
 ### Setting up EJS
 
