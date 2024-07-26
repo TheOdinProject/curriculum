@@ -88,7 +88,7 @@ VALUES ('Mao'), ('nevz'), ('Lofty');
 Verify:
 
 ```sql
-SELECT * from usernames;
+SELECT * FROM usernames;
 ```
 
 ### Using node-postgres in Express
