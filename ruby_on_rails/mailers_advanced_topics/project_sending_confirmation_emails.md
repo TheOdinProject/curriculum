@@ -1,4 +1,4 @@
-### Project: Sending confirmation emails
+### Introduction
 
 Setting up a mailer is a relatively straightforward task. It's very similar to building a new controller and views.  Once you've made a couple, it should come naturally.
 
@@ -59,5 +59,4 @@ You'll be dusting off your [Flight Booker project](/lessons/ruby-on-rails-flight
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [`letter_opener` docs](https://github.com/ryanb/letter_opener)
 - [Setting up email: Rails, Heroku, SendGrid, Figaro](http://howilearnedrails.wordpress.com/2014/02/25/setting-up-email-in-a-rails-4-app-with-action-mailer-in-development-and-sendgrid-in-production-using-heroku/comment-page-1/#comment-79)

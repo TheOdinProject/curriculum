@@ -110,10 +110,10 @@ You can insert this component into another EJS file like so:
 <html>
   <head>
     <title>Homepage</title>
-    <body>
-      <%- include('navbar', {links: links}) %>
-    </body>
   </head>
+  <body>
+    <%- include('navbar', {links: links}) %>
+  </body>
 </html>
 ```
 

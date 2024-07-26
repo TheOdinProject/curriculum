@@ -77,7 +77,7 @@ The `useMemo` hook provides a way to add memoization inside our components. It's
 
 #### Memoizing expensive calculations
 
-In our previous projects, namely the Shopping Cart Project. You have some logic where you calculate the total price of the products added to the cart. You might or might not have a `Cart` component that functions as a drawer, where the user can open the cart every time they either click on the `Add to Cart` button or the Cart icon in the header.
+In the previous Shopping Cart Project, you have some logic where you calculate the total price of the products added to the cart. You might or might not have a `Cart` component that functions as a drawer, where the user can open the cart every time they either click on the `Add to Cart` button or the Cart icon in the header.
 
 An example of a `Cart` component:
 

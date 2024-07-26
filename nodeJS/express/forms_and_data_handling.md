@@ -281,9 +281,9 @@ Next we'll create two views:
 <h1><%= title %></h1>
 <form action="/users/create" method="POST">
   <label for="firstName">First Name: </label>
-  <input type="text" name="firstName" required>
+  <input type="text" name="firstName" id="firstName" required>
   <label for="lastName">Last Name: </label>
-  <input type="text" name="lastName" required>
+  <input type="text" name="lastName" id="lastName" required>
   <button type="submit">Submit</button>
 </form>
 <a href="/">Back to home</a>
