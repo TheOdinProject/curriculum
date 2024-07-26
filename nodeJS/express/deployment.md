@@ -68,7 +68,7 @@ The peace of mind this affords you can't be overstated. You never want to be in 
 
 Many PaaS services come with SQL databases included.
 
-Either choice isn't too difficult to setup, but it's always nice to have a fallback option! Later in this course, we will be following the MDN tutorial's instructions on deploying both our app and database connection to Railway. For now, we encourage you to try and figure out how to deploy your mini-message board project with just what you learn in this lesson. However, If you're having too much trouble, don't fret. Just come back to it later once you've finished the MDN tutorial and have that bit of deployment experience under your belt.
+Either choice isn't too difficult to setup, but it's always nice to have a fallback option! For now, we encourage you to try and figure out how to deploy your mini-message board project with just what you learn in this lesson.
 
 #### Domain names
 
