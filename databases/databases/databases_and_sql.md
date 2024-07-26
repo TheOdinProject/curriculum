@@ -104,7 +104,7 @@ Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which re
   GROUP BY users.id;
 ```
 
-See [W3Schools' browser-based SQL playground](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) (try deleting the `GROUP BY` line) for an interactive visual.
+See [W3Schools' browser-based SQL playground](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) for an interactive visual.
 
 The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  <span id='having-function'>So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates</span>.  So say you only want to display users who have written more than 10 posts:
 
