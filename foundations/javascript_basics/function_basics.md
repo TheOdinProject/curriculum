@@ -38,7 +38,7 @@ Here is a diagram to help you visualize how parameters are passed to a function,
 
 Make note of the fact that by calling `favoriteAnimal()` inside of `console.log()` with the argument `'Goat'` we get the return value of the function, string of `"Goat is my favorite animal!"`, printed to the console. We're passing in a function call `favoriteAnimal('Goat')` as an argument in a different function call - `log()`.
 
-Keep this possibility in mind because you'll be passing in function calls as arguments somewhat often. If we just called the function without `console.log`ging what it returns, nothing would appear in the console **but** nonetheless the function would return that string.
+Keep this possibility in mind because you'll be passing in function calls as arguments somewhat often. If we just called the function without using `console.log` to print it's return value, nothing would appear in the console **but** nonetheless the function would return that string.
 
 Feel free to experiment with the code on your own and replace `'Goat'` with your favorite animal. Notice how we can change the argument to anything we like? Try changing `animal` in the function declaration and in the function body, too. What happens when you do?
 

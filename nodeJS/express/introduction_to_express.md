@@ -39,7 +39,7 @@ Let's break this down. We import `express` then call it to initialize the `app` 
 
 We then have a `route` - the line beginning with `app.get`. We will come back to this in a moment.
 
-Finally, we tell our server to listen for incoming requests requests on whatever port we specify in our  of our [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged.
+Finally, we tell our server to listen for incoming requests on whatever port we specify, via [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged.
 
 Congratulations! Your first Express server is now running.
 
@@ -73,7 +73,7 @@ In our example, the request comes through as a `GET` request to the `/` path. Th
 app.get("/", (req, res) => res.send("Hello, world!"));
 ```
 
-We will discuss routes in more detail in a later lesson, but to summarise the above line, it tells Express: "if a `GET` request comes through to the `/` path, pass the request through the following chain of middleware functions". Here, we only have a single function.
+We will discuss routes in more detail in a later lesson, but to summarize the above line, it tells Express: "if a `GET` request comes through to the `/` path, pass the request through the following chain of middleware functions". Here, we only have a single function.
 
 If we had defined multiple routes, Express would pass the request through the first route that matched the requested HTTP verb (e.g. `GET`) and path (`/`). The order of the routes matters!
 
@@ -83,9 +83,9 @@ There is no more code to run and the function returns. Since Express has been to
 
 ### Auto-restarting your server upon file changes
 
-When you run your server with `node app.js`, any changes to any JavaScript and JSON files in your project directory won't be reflected automatically unless you manually interrupt and rerun `node app.js`. To avoid this manual process, you can use [Node's watch mode](https://nodejs.org/docs/latest-v20.x/api/cli.html#--watch) by adding the `--watch` flag, e.g. `node --watch app.js`. Node will watch `app.js` for changes, as well as any of the files it depends on. When it detects a change, it will automatically restart the server just like with Webpack and Vite's dev servers.
+When you run your server with `node app.js`, any changes to any JavaScript and JSON files in your project directory won't be reflected automatically unless you manually interrupt and rerun `node app.js`. To avoid this manual process, you can use [Node's watch mode](https://nodejs.org/docs/latest-v20.x/api/cli.html#--watch) by adding the `--watch` flag, e.g. `node --watch app.js`. Node will watch `app.js` for changes, as well as any of the files it ultimately depends on. When it detects a change, it will automatically restart the server just like with Webpack and Vite's dev servers.
 
-You may also come across [Nodemon](https://www.npmjs.com/package//nodemon), a highly configurable package that could also watch for changes and restart your server for you. Node didn't always have a stable built-in watch mode, so you're likely to see Nodemon around the place. Our recommendation would be to stick with Node's built in watch mode via the `--watch` flag, as this would be by far the simplest method.
+You may also come across [Nodemon](https://www.npmjs.com/package//nodemon), a highly configurable package that can also watch for changes and restart your server for you. Node didn't always have a stable built-in watch mode, so you're likely to see Nodemon around the place. Our recommendation would be to stick with Node's built in watch mode via the `--watch` flag, as this would be by far the simplest method.
 
 ### Assignment
 

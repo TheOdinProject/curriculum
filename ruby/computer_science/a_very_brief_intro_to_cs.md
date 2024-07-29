@@ -25,6 +25,7 @@ This section contains a general overview of topics that you will learn in this l
   1. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube for a more structured look at solving problems using algorithms.
   1. Read this Quora answer about [the importance of algorithms in web development](https://qr.ae/py3NAc) to get some context for why we're going over this stuff.
   1. Watch [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
+  1. Watch the first section (from 0:00 - 7:01) of [Telusko's video on data structures and algorithms](https://www.youtube.com/watch?v=xWLxhF3b5P8) for a quick overview of DSA, and why companies may be interesting in hiring candidates familiar with DSA.
 
 </div>
 
