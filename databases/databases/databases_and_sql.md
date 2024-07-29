@@ -64,7 +64,7 @@ For "Destroy" queries, the classic mistake is typing `DELETE FROM users` without
   WHERE email='foo@bar.com';
 ```
 
-<span id='sql-read'>"Read" queries, which use `SELECT`, are the most common, e.g. `SELECT * FROM users WHERE created_at < '2013-12-11 15:35:59 -0800'`</span>.  The `*` you see just says "all the columns".  Specify a column using both the table name and the column name. You can get away with just the column name for queries of one table, but as soon as there are more than one table involved, SQL will yell at you so just always specify the table name: `SELECT users.id, users.name FROM users`.
+<span id='sql-read'>"Read" queries, which use `SELECT`, are the most common, e.g. `SELECT * FROM users WHERE created_at < '2013-12-11 15:35:59 -0800'`</span>.  The `*` you see just says "all the columns".  Specify a column using both the table name and the column name. You can get away with just the column name for queries of one table, but as soon as there is more than one table involved, SQL will yell at you so just always specify the table name: `SELECT users.id, users.name FROM users`.
 
 A close cousin of `SELECT`, for if you only want unique values of a column, is `SELECT DISTINCT`.  Say you want a list of all the different names of your users without any duplicates... try `SELECT DISTINCT users.name FROM users`.
 
