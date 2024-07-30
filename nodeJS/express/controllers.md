@@ -388,7 +388,7 @@ const router = express.Router();
 
 // router.use(authMiddleware);
 
-// router-level midlewares
+// router-level middlewares
 
 // GET request for getting all the users
 router.get('/', userController.getUsers);
