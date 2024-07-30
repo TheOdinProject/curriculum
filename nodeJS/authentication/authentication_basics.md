@@ -106,9 +106,9 @@ Create a new template called `sign-up-form`, and a route for `/sign-up` that poi
   <h1>Sign Up</h1>
   <form action="" method="POST">
     <label for="username">Username</label>
-    <input name="username" placeholder="username" type="text" />
+    <input id="username" name="username" placeholder="username" type="text" />
     <label for="password">Password</label>
-    <input name="password" type="password" />
+    <input id="password" name="password" type="password" />
     <button>Sign Up</button>
   </form>
 </body>
@@ -134,7 +134,7 @@ app.post("/sign-up", async (req, res, next) => {
     res.redirect("/");
   } catch(err) {
     return next(err);
-  };
+  }
 });
 ```
 
@@ -142,7 +142,7 @@ Let's reiterate: this is not a particularly safe way to create users in your dat
 
 ### Authentication
 
-Now that we have the ability to put users in our database, let's allow them to log in to see a special message on our home page! We're going to step through the process one piece at a time, but first, take a minute to glance at the [passport.js website](http://www.passportjs.org/) the documentation here has pretty much everything you need to set it up. You're going to want to refer back to this when you're working on your project.
+Now that we have the ability to put users in our database, let's allow them to log in to see a special message on our home page! We're going to step through the process one piece at a time, but first, take a minute to glance at the [passport.js website](http://www.passportjs.org/). The documentation here has pretty much everything you need to set it up. You're going to want to refer back to this when you're working on your project.
 
 <span id='strategy'>Passport.js uses what they call *Strategies* to authenticate users</span>. They have over 500 of these strategies, but we're going to focus on the most basic (and most common), the username-and-password, or what they call the `LocalStrategy` ([documentation for the LocalStrategy](http://www.passportjs.org/docs/username-password/)). We have already installed and required the appropriate modules so let's set it up!
 
@@ -159,14 +159,14 @@ passport.use(
 
       if (!user) {
         return done(null, false, { message: "Incorrect username" });
-      };
+      }
       if (user.password !== password) {
         return done(null, false, { message: "Incorrect password" });
-      };
+      }
       return done(null, user);
     } catch(err) {
       return done(err);
-    };
+    }
   })
 );
 ```
@@ -192,7 +192,7 @@ passport.deserializeUser(async (id, done) => {
     done(null, user);
   } catch(err) {
     done(err);
-  };
+  }
 });
 ```
 
@@ -208,9 +208,9 @@ Let's go ahead and add the log-in form directly to our index template. The form 
 <h1>please log in</h1>
 <form action="/log-in" method="POST">
   <label for="username">Username</label>
-  <input name="username" placeholder="username" type="text" />
+  <input id="username" name="username" placeholder="username" type="text" />
   <label for="password">Password</label>
-  <input name="password" type="password" />
+  <input id="password" name="password" type="password" />
   <button>Log In</button>
 </form>
 ```
@@ -258,9 +258,9 @@ and then edit your view to make use of that object like this:
     <h1>please log in</h1>
     <form action="/log-in" method="POST">
       <label for="username">Username</label>
-      <input name="username" placeholder="username" type="text" />
+      <input id="username" name="username" placeholder="username" type="text" />
       <label for="password">Password</label>
-      <input name="password" type="password" />
+      <input id="password" name="password" type="password" />
       <button>Log In</button>
     </form>
   <%}%>
@@ -327,7 +327,7 @@ bcrypt.hash(req.body.password, 10, async (err, hashedPassword) => {
 
 The second argument is the length of the "salt" to use in the hashing function; salting a password means adding extra random characters to it, the password plus the extra random characters are then fed into the hashing function. Salting is used to make a password hash output unique, even for users who use the same password, and to protect against [rainbow tables](https://en.wikipedia.org/wiki/Rainbow_table) and [dictionary attacks](https://en.wikipedia.org/wiki/Dictionary_attack).
 
-Usually, the salt gets stored in the database in the clear next to the hashed value, but in our case, there is no need to do so because the hashing algorithm that `bcryptjs` uses includes the salt automatically with the hash.
+Usually, the salt is stored in the database alongside the hashed value. However, in our case, there is no need to store the salt separately because the `bcryptjs` hashing algorithm automatically incorporates the salt within the hash itself.
 
 The hash function is somewhat slow, so all of the DB storage stuff needs to go inside the callback. Check to see if you've got this working by signing up a new user with a password, then go look at your DB entries to see how it's being stored. If you've done it right, your password should have been transformed into a really long random string.
 
