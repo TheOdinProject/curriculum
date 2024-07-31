@@ -112,30 +112,6 @@ If we try to access a variable in a rendered template file that was not defined 
 
 </div>
 
-### The locals variable in EJS
-
-In the example above, how did the template file know about the `message` variable? When we render the view, EJS has access to any properties from the object we pass into `res.render`, as well as any properties on [Express's res.locals object](https://expressjs.com/en/5x/api.html#res.locals) (`res.locals` can be useful if you need to pass values to the view in one middleware function, but won't call `res.render` until later in the middleware chain).
-
-EJS will store these properties in an object called `locals`, which you can access in the view. Similarly to the global `window` object in browsers, this allows you to access the `message` variable in the view via `locals.message`, or simply just `message`.
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### Undefined variables in locals
-
-If we try to access a variable in a rendered template file that was not defined in the `locals` argument of `res.render` or `res.locals`, this can cause a reference error. For instance if we try to access an undefined `foo` variable, `locals.foo` will return undefined, while `foo` will result in an reference error. Verify this by outputting `locals.foo` in `index.ejs`, then replacing it with`foo`:
-
-```ejs
-<html>
-  <body>
-    <%= message %>
-    <!-- replace the below with the output of just foo -->
-    <%= locals.foo %>
-  </body>
-</html>
-```
-
-</div>
-
 ### Reusable templates
 
 You may want to include webpage components that are shared across different pages, such as a sidebar or a header. To insert such components into your pages, we make use of the `include` command. This requires the name of the file to be inserted, and optionally an object of data you wish to pass.
