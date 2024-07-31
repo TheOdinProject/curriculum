@@ -31,6 +31,7 @@ In your `app.js` file, set the following application properties:
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 ```
+
 And import the Path CommonJS module from Node near the top:
 
 ```javascript
