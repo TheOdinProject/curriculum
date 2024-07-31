@@ -136,7 +136,7 @@ If we try to access a variable in a rendered template file that was not defined 
 
 You may want to include webpage components that are shared across different pages, such as a sidebar or a header. To insert such components into your pages, we make use of the `include` command. This requires the name of the file to be inserted, and optionally an object of data you wish to pass.
 
-Say you have the following navbar component called `"navbar.ejs"`:
+Create the following navbar component called `"navbar.ejs"`:
 
 ```ejs
 <!-- navbar.ejs -->
@@ -153,23 +153,7 @@ Say you have the following navbar component called `"navbar.ejs"`:
 </nav>
 ```
 
-You can insert this component into another EJS file like so:
-
-```ejs
-<!-- index.ejs -->
-<html>
-  <head>
-    <title>Homepage</title>
-  </head>
-  <body>
-    <%- include('navbar', {links: links}) %>
-  </body>
-</html>
-```
-
-This can be used to include headers and footers in all of your pages, for example.
-
-Note that the navbar expects a `links` value. To pass this data into the navbar, you can pass it when rendering `index.ejs` which contains the navbar. Modify `app.js` such that a `links` object is defined and passed into the `render` function in the `"/"` route handler:
+Note that the navbar expects a `links` variable. To pass this data into the navbar, pass it as a `locals` variable when rendering the template file at `res.render()`. We will render `index.ejs` to include the navbar. To do this, modify `app.js` such that a `links` object is defined and passed into the `render` function rendering `index.ejs` in the `"/"` route handler:
 
 ```javascript
 // app.js
@@ -183,31 +167,50 @@ app.get("/", (req, res) => {
 });
 ```
 
-Here's another example of how to use `includes` to dynamically render a list of variables:
+Then, modify the previously created `index.ejs` to `include` the `navbar` with the `links` variable like so:
+
+```ejs
+<!-- index.ejs -->
+<html>
+  <head>
+    <title>Homepage</title>
+  </head>
+  <body>
+    <%- include('navbar', {links: links}) %>
+  </body>
+</html>
+```
+
+This will include the navbar with links in `index.ejs`. Reusable templates can be used to include headers and footers in all of your pages.
+
+Note the use of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
+
+Let's use `includes` to dynamically render a list of variables a different way. Add `const users = ["Bob", "Bill", "Biff"];` to `app.js` just below the `links` variable. Then create a new view called `user.ejs` in the `views` directory and add the following `<li><%= user %></li>` line. Finally add the following block to `index.ejs`:
 
 ```ejs
 <ul>
   <% users.forEach((user) => { %>
-    <%- include('user/show', {user: user}); %>
+    <%- include('user', {user: user}); %>
   <% }); %>
 </ul>
 ```
+
+If successful, Bob, Bill and Biff will be visible when rendering `index.ejs`.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
 #### Directories within the views folder
 
-We can have nested directories of EJS template files within the views. For example, to render the template file `./views/user/show.ejs`, we'll need to provide the relative path like so:
+Let's create nested directories of EJS template files within the views. Change the `user.ejs` in the `views` directory to `users/user.ejs`, and in `index.ejs` change the path from `user` to `users/user` in the `users.forEach` block:
 
 ```javascript
-// in res.render
-res.render("user/show");
-
 // in include
-include("user/show");
+<ul>
+  <% users.forEach((user) => { %>
+    <%- include('users/user', {user: user}); %>
+  <% }); %>
+</ul>
 ```
-
-Note the use of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
 
 </div>
 
@@ -222,7 +225,7 @@ app.use(express.static(assetsPath));
 
 `express.static()` is a middleware function that enables the use of static assets, and we tell it to look for assets with the `public` directory as the root.
 
-Say we have the following `styles.css` file in the root of the `public` directory:
+Create the following `styles.css` file in the root of the `public` directory:
 
 ```css
 body {
