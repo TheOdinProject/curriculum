@@ -108,7 +108,7 @@ function myMiddleware(req, res, next) {
 app.use(myMiddleware);
 ```
 
-In this example, the middleware function logs a message, adds a custom property to the request object, and then calls the `next()` function to pass control to the next middleware function or route handler. We also register the middleware function through the usage of `app.use` which makes this an application-level middleware. Middleware functions following `myMiddleware` in this chain can now access `req.customProperty` with the value `"Hello from myMilddleware"`.
+In this example, the middleware function logs a message, adds a custom property to the request object, and then calls the `next()` function to pass control to the next middleware function or route handler. We also register the middleware function through the usage of `app.use` which makes this an application-level middleware. Middleware functions following `myMiddleware` in this chain can now access `req.customProperty` with the value `"Hello from myMiddleware"`.
 
 One thing to note about is that middleware functions are executed in the order they are defined or registered in your application. This means that the sequence in which you define your middleware functions matters, as it determines the order in which they will be invoked during the request-response cycle. So you need to make sure and be aware that your middleware fnuctions are placed in the correct order. As an example, some packages have middleware functions that changes the `Request` object, and as a result, these middleware functions should be placed at the very top of your application in order for you to be able to see their changes in all of your middleware functions below it.
 
@@ -388,7 +388,7 @@ const router = express.Router();
 
 // router.use(authMiddleware);
 
-// router-level midlewares
+// router-level middlewares
 
 // GET request for getting all the users
 router.get('/', userController.getUsers);
