@@ -31,7 +31,7 @@ Why are we setting it up like this? Because we can! If you already have a portfo
    - A 'NEW POST' form. If you want to get fancy, you could use a rich text editor such as [TinyMCE](https://www.tiny.cloud/docs/tinymce/6/cloud-quick-start/).
    - The ability to manage comments (i.e. delete or edit them).
 1. How much work you want to put into the front-end code on this one is up to you. Technically this is a backend focused course so if you would prefer, feel free to focus on the REST API.
-1. Deploying your separate apps isn't anything fancy. Deploy your API like with your previous projects using a PaaS from the [Deployment lesson](https://www.theodinproject.com/lessons/nodejs-deployment), and deploy your front-ends like you would have deployed your front-ends before. If you used React, recall several hosting options from the [CV Application project](https://www.theodinproject.com/lessons/node-path-react-new-cv-application).
+1. Deploying your separate apps isn't anything fancy. Deploy your API like with your previous projects using a PaaS from the [Deployment lesson](https://www.theodinproject.com/lessons/node-path-nodejs-deployment), and deploy your front-ends like you would have deployed your front-ends before. If you used React, recall several hosting options from the [CV Application project](https://www.theodinproject.com/lessons/node-path-react-new-cv-application).
 
 </div>
 
