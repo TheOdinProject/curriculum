@@ -32,6 +32,12 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 ```
 
+And import the Path CommonJS module from Node near the top:
+
+```javascript
+const path = require("node:path");
+```
+
 This enables EJS as the view engine, and that our app should look for templates in the `/views` subdirectory.
 
 ### EJS syntax
