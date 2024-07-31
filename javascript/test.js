@@ -8,6 +8,10 @@ class calculator {
         return console.log(value + value2);
     }
 
+    subtraction (value, value2){
+        return console.log(value-value2);s
+    }
+
     getName(){
         return console.log(this.name);
     }
