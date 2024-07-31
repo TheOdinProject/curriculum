@@ -6,14 +6,14 @@ To really understand how Rails works, you need to have a solid base in the guts 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
--   The basics of HTTP.
--   The 4 most commonly used HTTP verbs.
--   The 7 RESTful routes of Rails.
--   The different components of a URL.
--   The basics of MVC.
--   What an API is.
--   What "cookies" and "sessions" are.
--   The difference between "authentication" and "authorization".
+- The basics of HTTP.
+- The 4 most commonly used HTTP verbs.
+- The 7 RESTful routes of Rails.
+- The different components of a URL.
+- The basics of MVC.
+- What an API is.
+- What "cookies" and "sessions" are.
+- The difference between "authentication" and "authorization".
 
 ### HTTP
 
@@ -21,9 +21,9 @@ HTTP is just a way of structuring the request-and-response conversation between 
 
 Check out these resources:
 
-1.  This [tutsplus post on HTTP](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177) describes what's going on with HTTP.
-2.  This [sniffer tool](http://testuri.org/sniffer) - try retrieving a couple of websites (like http://www.theodinproject.com) on your own.
-3.  This [great video](https://code.tutsplus.com/how-to-become-a-web-developer--CRS-200371c/http-and-the-web-server) on communications between http requests and the web server.
+1. This [tutsplus post on HTTP](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177) describes what's going on with HTTP.
+1. This [sniffer tool](http://testuri.org/sniffer) - try retrieving a couple of websites (like `https://www.theodinproject.com/`) on your own.
+1. This great video on [communications between http requests and the web server](https://code.tutsplus.com/how-to-become-a-web-developer--CRS-200371c/http-and-the-web-server).
 
 One key component to pay attention to is the fact that the request and response both have header and (usually) body components. The header contains information about the request or response itself (meta data), including which website to send or return to and what the status of the response is. The body of the request can contain things like data submitted by a form or cookies or authentication tokens while the response will usually contain the HTML page you're trying to access.
 
@@ -33,13 +33,13 @@ The other key component is that each request uses one of four main "verbs" -- GE
 
 REST (short for Representational state transfer) is a term that you'll see coming up again and again because it's a very powerful idea. It basically says that there are really only 7 different types of things that you usually want to do to an individual resource via the web and you can do them by mixing and matching the HTTP verbs we just covered. A "resource" usually means a "thing" in your database or a data model. In this case, we'll assume that resource is a blog Post model that you've set up:
 
-1.  GET all the posts (aka **"index"** the posts)
-2.  GET just one specific post (aka **"show"** that post)
-3.  GET the page that lets you create a new post (aka view the **"new"** post page)
-4.  POST the data you just filled out for a new post back to the server so it can create that post (aka **"create"** the post)
-5.  GET the page that lets you edit an existing post (aka view the **"edit"** post page)
-6.  PUT (or PATCH) the data you just filled out for editing the post back to the server so it can actually perform the update (aka **"update"** the post)
-7.  DELETE one specific post by sending a delete request to the server (aka **"destroy"** the post)
+1. GET all the posts (aka **"index"** the posts)
+1. GET just one specific post (aka **"show"** that post)
+1. GET the page that lets you create a new post (aka view the **"new"** post page)
+1. POST the data you just filled out for a new post back to the server so it can create that post (aka **"create"** the post)
+1. GET the page that lets you edit an existing post (aka view the **"edit"** post page)
+1. PUT (or PATCH) the data you just filled out for editing the post back to the server so it can actually perform the update (aka **"update"** the post)
+1. DELETE one specific post by sending a delete request to the server (aka **"destroy"** the post)
 
 The highlighted words correspond to standard Rails controller actions!
 
@@ -53,24 +53,25 @@ It may seem simplistic to you up front to think of things this way, but once you
 
 You may think you know what's in a URL, but which part is the host? protocol (aka scheme)? parameters? path?
 
-Check out this [article by Matt Cutts](http://www.mattcutts.com/blog/seo-glossary-url-definitions/) on how Googlers pick apart URL components.
+Check out this article by Matt Cutts on [how Googlers pick apart URL components](http://www.mattcutts.com/blog/seo-glossary-url-definitions/).
 
-**Quick quiz:**
-The URL is: https://www.google.com/search?q=what+is+a+url
+#### Quick quiz
 
-1.  What is the "Path"?
-2.  What is the "Parameter" portion?
-3.  What is the "Top Level Domain"?
-4.  What is the "Protocol"?
+The URL is: <https://www.google.com/search?q=what+is+a+url>
+
+1. What is the "Path"?
+1. What is the "Parameter" portion?
+1. What is the "Top Level Domain"?
+1. What is the "Protocol"?
 
 Once you understand what these components are, you can easily use Ruby's libraries to help you build your own and send requests. You also run into specific pieces like the "path" and "parameters" again and again when using Rails.
 
 Answers:
 
-1.  /search
-2.  q=what+is+a+url
-3.  com
-4.  https
+1. /search
+1. q=what+is+a+url
+1. com
+1. https
 
 ### MVC
 
@@ -84,12 +85,12 @@ The point of MVC is that the functions of a web application can be broken down i
 
 Once a request from a browser comes into your application, at the most basic level:
 
-1.  The router figures out which controller to send it to (e.g. for your blog, the Posts controller).
-2.  That controller asks the model (e.g. Post model) for data and any other tough questions it has.
-3.  Then that controller passes off whatever data it needs to the views (e.g. `index.html.erb`), which are basically just HTML templates that are waiting for those variables.
-4.  Once the proper view has been pumped full of the data it needs (like the current user's name), it gets sent back to the client that made the original request. Presto!
+1. The router figures out which controller to send it to (e.g. for your blog, the Posts controller).
+1. That controller asks the model (e.g. Post model) for data and any other tough questions it has.
+1. Then that controller passes off whatever data it needs to the views (e.g. `index.html.erb`), which are basically just HTML templates that are waiting for those variables.
+1. Once the proper view has been pumped full of the data it needs (like the current user's name), it gets sent back to the client that made the original request. Presto!
 
-Check out a more detailed version of MVC in [betterexplained.com's](http://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/) article.
+betterexplained.com has a [deeper explanation of MVC](http://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/).
 
 To characterize the three (badly), the model is the supersmart geek in the back room, the controller is the social middleman that talks to everyone but doesn't really do anything too intensive (it asks the model in those cases), and the view just looks pretty and waits to get its outfit from the controller.
 
@@ -113,7 +114,7 @@ But we get ahead of ourselves a bit here... the main point is that you'll see "A
 
 You've heard about cookies. Cookies are basically a way for websites to remember who you are from one request to another. Remember -- every HTTP request is totally independent of each other. Meaning that when you go to the Home page of a website and then click on a link to their About page, the web server treats you as a completely new user.
 
-...Unless they've given you some cookies (which they almost certainly have). Cookies are little bits of data that your browser sends to the website every time you make a request to it. From the perspective of the web server, it lets the server identify you as the same person who made any of a series of previous requests. It preserves the _state_ of your session.
+...Unless they've given you some cookies (which they almost certainly have). Cookies are little bits of data that your browser sends to the website every time you make a request to it. From the perspective of the web server, it lets the server identify you as the same person who made any of a series of previous requests. It preserves the *state* of your session.
 
 Check out [allaboutcookies.org](http://www.allaboutcookies.org/) and read the first three sections for some more info about cookies.
 
@@ -133,7 +134,7 @@ It's also how some ads seem to follow you from one website to another -- another
 
 On the server side, you'll interact with cookies and session variables quite a bit. As mentioned above, one of the main uses of these is to determine who the user is, or "authentication". You'll basically retrieve the cookie that the user sends you, use it to find that user in your database, and (if the user exists) then you can display the customized web page for that user.
 
-It's pretty straightforward in theory, but some of the security implications get a bit hairy so luckily some nice folks created a very handy gem called ["Devise"](https://github.com/heartcombo/devise) which takes care of all this stuff for you. In this curriculum (a bit later on), you'll be creating your own authentication system before learning how to use Devise to take care of the heavy lifting.
+It's pretty straightforward in theory, but some of the security implications get a bit hairy so luckily some nice folks created a very [handy gem called Devise](https://github.com/heartcombo/devise) which takes care of all this stuff for you. In this curriculum (a bit later on), you'll be creating your own authentication system before learning how to use Devise to take care of the heavy lifting.
 
 ### Authorization
 
@@ -147,20 +148,20 @@ We'll dig into this stuff a bit later, but it's good to understand in the contex
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
--   <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177"> What do you call an HTTP message that goes from client to server? </a>
--   <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177"> What do you call an HTTP message that goes from server to client? </a>
--   <a class="knowledge-check-link" href="https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177"> Which HTTP message would include a status code and which would include an action verb? </a>
--   <a class="knowledge-check-link" href="https://www.mattcutts.com/blog/seo-glossary-url-definitions/"> What is the name of the additional information that is added after the path of a URL? </a>
--   <a class="knowledge-check-link" href="https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/"> What does MVC stand for? </a>
--   <a class="knowledge-check-link" href="https://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm"> What is an "API"? </a>
--   <a class="knowledge-check-link" href="https://en.wikipedia.org/wiki/HTTP_cookie#Session_management"> Why do you need "cookies" to continue your "session"? </a>
--   <a class="knowledge-check-link" href="#authorization"> What is the difference between "authentication" and "authorization"? </a>
+- [What do you call an HTTP message that goes from client to server?](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
+- [What do you call an HTTP message that goes from server to client?](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
+- [Which HTTP message would include a status code and which would include an action verb?](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
+- [What is the name of the additional information that is added after the path of a URL?](https://www.mattcutts.com/blog/seo-glossary-url-definitions/)
+- [What does MVC stand for?](https://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/)
+- [What is an "API"?](https://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm)
+- [Why do you need "cookies" to continue your "session"?](https://en.wikipedia.org/wiki/HTTP_cookie#Session_management)
+- [What is the difference between "authentication" and "authorization"?](#authorization)
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
--   [HTTP explained by Harvard's David Malan](http://www.youtube.com/watch?v=8KuO4r5CHjM)
--   [HTTP Request/Response Basics](http://justahelp.blogspot.com/2013/09/http-requestresponse-basics.html) from Pralay Roy
+- [HTTP explained by Harvard's David Malan](http://www.youtube.com/watch?v=8KuO4r5CHjM)
+- [HTTP Request/Response Basics](http://justahelp.blogspot.com/2013/09/http-requestresponse-basics.html) from Pralay Roy

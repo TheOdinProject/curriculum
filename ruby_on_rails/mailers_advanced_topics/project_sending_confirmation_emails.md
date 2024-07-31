@@ -2,6 +2,34 @@
 
 Setting up a mailer is a relatively straightforward task. It's very similar to building a new controller and views.  Once you've made a couple, it should come naturally.
 
+<div class="lesson-note" markdown="1">
+
+#### WSL Setup for Letter Opener
+
+   If you encounter issues using the `letter_opener` gem on WSL, you can fix it by defining the file URI scheme for WSL in `config/development.rb`:
+
+   ```ruby
+   LetterOpener.configure do |config|
+     config.file_uri_scheme = 'file://wsl.localhost/Ubuntu'
+   end
+   ```
+
+   You can double-check your file URI scheme using the following command in the WSL terminal:
+
+   ```bash
+   wslpath -m /
+   ```
+
+   You will also have to create an environment variable called BROWSER that contains the path to your browser of choice, and add it to ~/.bashrc. For example:
+
+   ```bash
+   export BROWSER=/mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe
+   ```
+
+   This variable should point to your browser, i.e., it should contain the browser path.
+
+</div>
+
 ### Assignment
 
 You'll be dusting off your [Flight Booker project](/lessons/ruby-on-rails-flight-booker) and having it send out a "You have booked your ticket" confirmation email to all Passengers when they are created as part of the booking process. Make sure to send out one email to each Passenger in the Booking, not just one for the whole Booking. (Alternatively, you can use one of your other projects, as long as it has users registering.)
