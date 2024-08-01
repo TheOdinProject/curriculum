@@ -247,7 +247,7 @@ app.use((err, req, res, next) => {
 
 #### Creating custom errors
 
-With the solutions above, the error middleware function can only really respond with a `500` status code no matter what error it is. Because what if we actually want to send a `404`? A common way to do this is to create our own custom error by extending the Error object.
+With the solutions above, the error middleware function can only really respond with a `500` status code no matter what error it is. But what if we actually want to send a `404`? A common way to do this is to create our own custom error by extending the Error object.
 
 ```javascript
 class CustomNotFoundError extends Error {
