@@ -10,9 +10,9 @@ Get your project as close as you can to the design, but do not worry about getti
 
 *Finally*, feel free to substitute your own content into this design. The images have some meaningless dummy content, but if you want to make up a business and personalize this page, please feel free to do so! Insert actual images in the placeholders, and feel free to play with the colors and fonts a bit too.
 
-<div class="lesson-note" markdown="1">
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-#### A note about images on the web
+#### A warning about images on the web
 
 You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image you use is actually free for you to use, and make sure to credit the creator of the image in your project. An easy way to give credit is to put the creator's name and contact info in a README file in your repository.
 
