@@ -14,7 +14,11 @@ Get your project as close as you can to the design, but do not worry about getti
 
 #### A note about images on the web
 
-You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image   you use is actually free for you to use, and make sure to credit the creator of the image in your project. An easy way to give credit is to put the creator's name and contact info in a README file in your repository.
+You do not have the legal right to use just any image that you find on the web. There are many free images to be found, but make sure that the image you use is actually free for you to use, and make sure to credit the creator of the image in your project. An easy way to give credit is to put the creator's name and contact info in a README file in your repository.
+
+**This is serious**. If you do not follow a license's terms, and include the image in your project, regardless if the project is commercial, non-commercial, open source or whatever - the copyright holder of the image could choose to take **legal action** against you. There are bots (crawlers) that will download your repository and scan it for copyrighted content. They make money off of this, and you could be subject to that.
+
+Even if you follow a license's terms, no one can guarantee that the original creator or whoever won't sue you regardless, claiming that you violated copyright. This is why you should also include the license of whichever assets you are using with those assets, e.g. a link to where the asset was found and author's details. This is true for both content that you pay for, and content that is freely available to download even without any attribution.
 
 Some good places to find free-to-use images on the web include [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/).
 
