@@ -2,34 +2,6 @@
 
 Congratulations, you have made it to the very first React project. In this project, you will be creating a small application where users can input their information and generate a CV/résumé. It's a great project to get you started because it includes many of the basic concepts you've learned so far, without a huge overhead of complexity.
 
-### Icons
-
-In previous projects you may have inlined `<svg>` in your markup to include icons, or perhaps used an `<img>` to represent them.
-
-In React, using an icon library like Lucide Icons is the easiest way to add icons.
-
-Install it in your project
-
-```bash
-npm install lucide-react
-```
-
-Then use it like this:
-
-```jsx
-import { TriangleAlert } from "lucide-react";
-
-export default function ErrorMessage({ errorMessage }) {
-    return (
-        <p>
-            <TriangleAlert size={24} color="red" /> {errorMessage} 
-        </p>
-    )
-}
-```
-
-Check out [Lucide React's docs](https://lucide.dev/guide/packages/lucide-react) and [icon catalog](https://lucide.dev/icons/) if interested.
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -109,3 +81,9 @@ Similar to Netlify, Vercel also offers a few ways to deploy, but we will be impo
 - [Cloudflare Pages Homepage](https://pages.cloudflare.com/)
 - [Cloudflare Pages documentation website](https://developers.cloudflare.com/pages)
 - [Vite deployment to Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/) discusses these very steps
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- If you want to include icons in your project, there is an alternative to inlining them as `<svg>`s or referencing them via an `<img>` tag. React icon component libraries such as [Lucide React](https://lucide.dev/guide/packages/lucide-react) wrap icons in components allowing you to reference them as an `<Icon />` component which provides for nicer developer experience. You can view all of their icons in their [icon catalog](https://lucide.dev/icons/).
