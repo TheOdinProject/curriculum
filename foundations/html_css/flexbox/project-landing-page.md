@@ -20,7 +20,10 @@ You do not have the legal right to use just any image that you find on the web. 
 
 Even if you follow a license's terms, no one can guarantee that the original creator or whoever won't sue you regardless, claiming that you violated copyright. This is why you should also include the license of whichever assets you are using with those assets, e.g. a link to where the asset was found and author's details. This is true for both content that you pay for, and content that is freely available to download even without any attribution.
 
-Some good places to find free-to-use images on the web include [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/).
+A list of some of the good places to find free-to-use images, and links to their license pages so you can make your own judgement:
+- [Pexels](https://www.pexels.com/) and [Pexels license](https://www.pexels.com/license/).
+- [Pixabay](https://pixabay.com/) and [Pixabay license](https://pixabay.com/service/license-summary/).
+- [Unsplash](https://unsplash.com/) and [Unsplash license](https://unsplash.com/license).
 
 </div>
 
