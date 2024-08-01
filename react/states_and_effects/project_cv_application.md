@@ -24,6 +24,10 @@ While working on this project, you might notice that some parts of your code exe
 1. Include a `styles` directory under your `src` directory for your CSS files. You'll need to import these in the component files to use them.
 1. Push the results and deploy them with any of the options mentioned below. At this point of the curriculum, it doesn't matter which platform you choose as long as your project is live on the internet!
 
+#### Extra credit
+
+Allow your users to download the CV as a pdf file. You can use [react-to-pdf](https://www.npmjs.com/package/react-to-pdf) library to achieve this.
+
 </div>
 
 ### Deploying a React app
