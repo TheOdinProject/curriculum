@@ -28,7 +28,7 @@ export default function ErrorMessage({ errorMessage }) {
 }
 ```
 
-Check our [their docs](https://lucide.dev/guide/packages/lucide-react) and [icon catalog](https://lucide.dev/icons/) if interested.
+Check out [Lucide React's docs](https://lucide.dev/guide/packages/lucide-react) and [icon catalog](https://lucide.dev/icons/) if interested.
 
 ### Assignment
 
