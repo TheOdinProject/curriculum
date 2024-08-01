@@ -83,7 +83,7 @@ Application-level middleware are bound to an *instance of Express* using `app.us
 
 Very common built-in middleware functions that you will likely use are the following:
 
-- Body parsers (e.g. `express.json`, `express.urlencoded`) - These allows to correctly parse the incoming request's body, so that you can use it through `req.body`.
+- Body parsers (e.g. `express.json`, `express.urlencoded`) - These allow us to correctly parse the incoming request's body, so that you can use it through `req.body`.
 - Serving static files (e.g. `app.use(express.static('public'))`) -  It is a middleware function for serving static files, such as HTML, CSS, JavaScript, and images. You can pass an argument to specify which directory to serve the static files.
 - Setting up views (you will learn how in the Views lesson).
 
