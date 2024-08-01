@@ -148,7 +148,7 @@ In this example, the `getUserById` function is a controller that handles a speci
 1. The controller extracts the userId from the request parameters (`req.params.id`). This assumes that the parameter is defined with a route, such as `/users/:id`.
 1. It then invokes a database query function `someDBQueryToGetUser` to retrieve the user data based on the userId.
 1. If the user is not found (`!user`), the controller sends a response with a 404 status code and the message `User not found`, using `res.status(404).send(...)`. It then returns from the controller function in order to not invoke any other logic in the controller, because sending a response does not stop the function execution itself.
-1. If the user is found, the controller sends a response with a 200 status code and the message `User found: ${user.name}`, using `res.status(200).send(...)`. This assumes that the user object has a name property.
+1. If the user is found, the controller sends a response with a 200 status code and the message `User found: ${user.name}`, using `res.send(...)`. This assumes that the user object has a name property. We don't need to use the `status` method here since the response sends a 200 by default. 
 
 Very simple right?
 
