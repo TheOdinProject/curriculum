@@ -83,7 +83,7 @@ Application-level middleware are bound to an *instance of Express* using `app.us
 
 Very common built-in middleware functions that you will likely use are the following:
 
-- Body parsers (e.g. `express.json`, `express.urlencoded`) - These allows to correctly parse the incoming request's body, so that you can use it through `req.body`.
+- Body parsers (e.g. `express.json`, `express.urlencoded`) - These allow us to correctly parse the incoming request's body, so that you can use it through `req.body`.
 - Serving static files (e.g. `app.use(express.static('public'))`) -  It is a middleware function for serving static files, such as HTML, CSS, JavaScript, and images. You can pass an argument to specify which directory to serve the static files.
 - Setting up views (you will learn how in the Views lesson).
 
@@ -110,7 +110,7 @@ app.use(myMiddleware);
 
 In this example, the middleware function logs a message, adds a custom property to the request object, and then calls the `next()` function to pass control to the next middleware function or route handler. We also register the middleware function through the usage of `app.use` which makes this an application-level middleware. Middleware functions following `myMiddleware` in this chain can now access `req.customProperty` with the value `"Hello from myMiddleware"`.
 
-One thing to note about is that middleware functions are executed in the order they are defined or registered in your application. This means that the sequence in which you define your middleware functions matters, as it determines the order in which they will be invoked during the request-response cycle. So you need to make sure and be aware that your middleware fnuctions are placed in the correct order. As an example, some packages have middleware functions that changes the `Request` object, and as a result, these middleware functions should be placed at the very top of your application in order for you to be able to see their changes in all of your middleware functions below it.
+One thing to note is that middleware functions are executed in the order they are defined or registered in your application. This means that the sequence in which you define your middleware functions matters, as it determines the order in which they will be invoked during the request-response cycle. So you need to make sure and be aware that your middleware fnuctions are placed in the correct order. As an example, some packages have middleware functions that changes the `Request` object, and as a result, these middleware functions should be placed at the very top of your application in order for you to be able to see their changes in all of your middleware functions below it.
 
 There is also a special type of middleware function that handles errors, which we will discuss shortly.
 
