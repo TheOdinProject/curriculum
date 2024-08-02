@@ -28,13 +28,13 @@ Component libraries allow developers to skip implementing common features like d
 
 These usually come in three flavours:
 
-#### Headless UI component libraries
+#### Unstyled component libraries
 
 These libraries come with no extra styling at all. They essentially provide components that have accessibility taken care of, for example you might forget to implement a dropdown menu closing when clicking <kbd>esc</kbd> key, headless UI libraries take care of that for you. All other functionality is usually exposed via an API.
 
 An example of a headless UI library is [Radix UI primitives](https://www.radix-ui.com/primitives). Check out their [dropdown primitive component](https://www.radix-ui.com/primitives/docs/components/dropdown-menu) for an example.
 
-#### Component libraries
+#### Styled component libraries
 
 Sometimes built on top of headless UI component libraries. These add extra styling to primitives. For example, [shadcn-ui](https://ui.shadcn.com/docs/components/dropdown-menu) builds on top of previously mentioned radix-ui, acting as a sort of wrapper. Other component libraries worth a mention are [Material UI](https://mui.com/) and [Chakra UI](https://chakra-ui.com/).
 
