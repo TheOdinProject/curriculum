@@ -24,23 +24,11 @@ CSS Utility Frameworks are a popular choice for styling React applications. They
 
 ### Component libraries
 
-Component libraries allow developers to skip implementing common features like dropdown menus, calendars, toggles, tabs, toasts and others.
+What if everything's already done for you? Styling, behavior, and accessibility are taken care of for you in component libraries. As the name suggests, these libraries provide adaptable and reusable components that you can use directly in your project. These components include, but are not limited to, dropdowns, drawers, calendars, toggles, tabs, and all other components you can think of.
 
-These usually come in three flavours:
+[Material UI](https://mui.com/), [Radix](https://www.radix-ui.com/), and [Chakra UI](https://chakra-ui.com/) are worth a mention when talking about component libraries.
 
-#### Unstyled component libraries
-
-These libraries come with no extra styling at all. They essentially provide components that have accessibility taken care of, for example you might forget to implement a dropdown menu closing when clicking <kbd>esc</kbd> key, unstyled component libraries take care of that for you. All other functionality is usually exposed via an API.
-
-An example of an unstyled component library is [Radix UI primitives](https://www.radix-ui.com/primitives). Check out their [dropdown primitive component](https://www.radix-ui.com/primitives/docs/components/dropdown-menu) for an example.
-
-#### Styled component libraries
-
-Sometimes built on top of unstyled component libraries. These add extra styling to primitives. For example, [shadcn-ui](https://ui.shadcn.com/docs/components/dropdown-menu) builds on top of previously mentioned radix-ui, acting as a sort of wrapper. Other component libraries worth a mention are [Material UI](https://mui.com/) and [Chakra UI](https://chakra-ui.com/).
-
-#### Icon component libraries
-
-These are unlike the other two, and act as `<svg>` wrappers. They allow you to seamlessly add icons to your react application as they expose icons as react components. An example is [lucide react](https://lucide.dev/guide/packages/lucide-react).
+There are also icon component libraries like [lucide react](https://lucide.dev/guide/packages/lucide-react), which let you include icons in your project as components.
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
 
@@ -58,7 +46,7 @@ For learning purposes throughout this course, we strongly recommend that you avo
 
 1. Skim through the [styled components documentation](https://styled-components.com/).
 
-1. Check out the [lucide icons](https://lucide.dev/icons/) to see what is possible.
+1. Check out the [lucide icon catalog](https://lucide.dev/icons/) to see what types of icons they have.
 
 </div>
 
