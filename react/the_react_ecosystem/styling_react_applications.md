@@ -30,13 +30,13 @@ These usually come in three flavours:
 
 #### Unstyled component libraries
 
-These libraries come with no extra styling at all. They essentially provide components that have accessibility taken care of, for example you might forget to implement a dropdown menu closing when clicking <kbd>esc</kbd> key, headless UI libraries take care of that for you. All other functionality is usually exposed via an API.
+These libraries come with no extra styling at all. They essentially provide components that have accessibility taken care of, for example you might forget to implement a dropdown menu closing when clicking <kbd>esc</kbd> key, unstyled component libraries take care of that for you. All other functionality is usually exposed via an API.
 
-An example of a headless UI library is [Radix UI primitives](https://www.radix-ui.com/primitives). Check out their [dropdown primitive component](https://www.radix-ui.com/primitives/docs/components/dropdown-menu) for an example.
+An example of an unstyled component library is [Radix UI primitives](https://www.radix-ui.com/primitives). Check out their [dropdown primitive component](https://www.radix-ui.com/primitives/docs/components/dropdown-menu) for an example.
 
 #### Styled component libraries
 
-Sometimes built on top of headless UI component libraries. These add extra styling to primitives. For example, [shadcn-ui](https://ui.shadcn.com/docs/components/dropdown-menu) builds on top of previously mentioned radix-ui, acting as a sort of wrapper. Other component libraries worth a mention are [Material UI](https://mui.com/) and [Chakra UI](https://chakra-ui.com/).
+Sometimes built on top of unstyled component libraries. These add extra styling to primitives. For example, [shadcn-ui](https://ui.shadcn.com/docs/components/dropdown-menu) builds on top of previously mentioned radix-ui, acting as a sort of wrapper. Other component libraries worth a mention are [Material UI](https://mui.com/) and [Chakra UI](https://chakra-ui.com/).
 
 #### Icon component libraries
 
