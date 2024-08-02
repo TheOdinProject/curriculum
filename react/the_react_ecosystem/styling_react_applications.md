@@ -24,13 +24,13 @@ CSS Utility Frameworks are a popular choice for styling React applications. They
 
 ### Component libraries
 
-Component libraries allow developers to skip implementing common features like dropdown menus, calendars, toggles, tabs, toasts and others. 
+Component libraries allow developers to skip implementing common features like dropdown menus, calendars, toggles, tabs, toasts and others.
 
 These usually come in three flavours:
 
 #### Headless UI component libraries
 
-These libraries come with no extra styling at all. They essentially provide components that have accessibility taken care of, for example you might forget to implement a dropdown menu closing when clicking <kbd>esc</kbd> key, headless UI libraries take care of that for you. All other functionality is usually exposed via an API. 
+These libraries come with no extra styling at all. They essentially provide components that have accessibility taken care of, for example you might forget to implement a dropdown menu closing when clicking <kbd>esc</kbd> key, headless UI libraries take care of that for you. All other functionality is usually exposed via an API.
 
 An example of a headless UI library is [Radix UI primitives](https://www.radix-ui.com/primitives). Check out their [dropdown primitive component](https://www.radix-ui.com/primitives/docs/components/dropdown-menu) for an example.
 
