@@ -81,9 +81,3 @@ Similar to Netlify, Vercel also offers a few ways to deploy, but we will be impo
 - [Cloudflare Pages Homepage](https://pages.cloudflare.com/)
 - [Cloudflare Pages documentation website](https://developers.cloudflare.com/pages)
 - [Vite deployment to Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/) discusses these very steps
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- If you want to include icons in your project, there is an alternative to inlining them as `<svg>`s or referencing them via an `<img>` tag. React icon component libraries such as [Lucide React](https://lucide.dev/guide/packages/lucide-react) wrap icons in components allowing you to reference them as an `<Icon />` component which provides for nicer developer experience. You can view all of their icons in their [icon catalog](https://lucide.dev/icons/).
