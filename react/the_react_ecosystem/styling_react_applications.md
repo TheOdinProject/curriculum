@@ -42,7 +42,7 @@ Sometimes built on top of unstyled component libraries. These add extra styling 
 
 These are unlike the other two, and act as `<svg>` wrappers. They allow you to seamlessly add icons to your react application as they expose icons as react components. An example is [lucide react](https://lucide.dev/guide/packages/lucide-react).
 
-<div class="lesson-note lesson-note--tip" markdown="1" >
+<div class="lesson-note lesson-note--warning" markdown="1" >
 
 For learning purposes throughout this course, we strongly recommend that you avoid using CSS frameworks or component libraries (using icon component libraries is fine), and instead implement your component's styling from scratch i.e. use [CSS Modules](#css-modules) or a [CSS-in-JS](#css-in-js) option.
 
