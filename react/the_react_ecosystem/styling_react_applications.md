@@ -46,8 +46,6 @@ For learning purposes throughout this course, we strongly recommend that you avo
 
 1. Skim through the [styled components documentation](https://styled-components.com/).
 
-1. Check out the [lucide icon catalog](https://lucide.dev/icons/) to see what types of icons they have.
-
 </div>
 
 ### Knowledge check
