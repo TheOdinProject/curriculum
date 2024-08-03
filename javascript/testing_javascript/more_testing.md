@@ -67,7 +67,7 @@ There are two solutions to the 'tightly coupled code' problem.  The first, and b
 
 <div class="lesson-content__panel" markdown="1">
 
-1. If you haven’t already, watch [FunFunFunction's "Mocking Basics" video](https://www.youtube.com/watch?v=3PjdxjWK0F0).
+1. If you haven’t already, watch [about mocking basics](https://www.youtube.com/watch?v=ajiAl5UNzBU&t=3024s).
 1. Too much mocking can be a bad thing.  It *is* sometimes necessary, but if you have to set up an elaborate system of mocks to test any bit of your code, that means your code is too tightly coupled.  While it is quite in-depth, the following article contains several really good points about [program architecture and testing](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a).
 1. Now that you have some practice and context for TDD, the [Jest docs section on "Setup and Teardown"](https://jestjs.io/docs/setup-teardown) will probably make good sense to you.
 1. Read about [Jest's really handy mocking functions](https://jestjs.io/docs/mock-functions).
