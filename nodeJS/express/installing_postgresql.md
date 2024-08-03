@@ -52,7 +52,7 @@ sudo apt install postgresql postgresql-contrib libpq-dev
 After installation is complete, let's start the server using this command:
 
 ```bash
-sudo systemctl start postgresql.service
+sudo systemctl start postgresql.service && systemctl status postgresql.service
 ```
 
 <div class="lesson-note lesson-note--warning" markdown="1">

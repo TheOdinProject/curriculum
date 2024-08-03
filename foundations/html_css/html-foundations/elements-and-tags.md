@@ -60,4 +60,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Don't Fear the Internet's video about HTML](http://www.dontfeartheinternet.com/02-html)
+- [Don't Fear the Internet's video about HTML](https://player.vimeo.com/video/24549728)

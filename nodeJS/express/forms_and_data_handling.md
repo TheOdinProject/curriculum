@@ -19,7 +19,7 @@ Let's create a simple HTML form, with a single text field for collecting a full 
 The HTML structure would look something like this:
 
 ```html
-<form action="/users/create" method="POST" >
+<form action="/create" method="POST" >
   <label for="fullName">Full Name:</label>
   <input placeholder="John Doe" type="text" name="fullName" id="fullName">
   <button type="submit">Submit</button>
@@ -180,8 +180,8 @@ const usersRouter = Router();
 const usersController = require("../controllers/usersController");
 
 // User update routes
-usersRouter.get("/users/:id/update", usersController.userUpdateGet);
-usersRouter.post("/users/:id/update", usersController.userUpdatePost);
+usersRouter.get("/:id/update", usersController.userUpdateGet);
+usersRouter.post("/:id/update", usersController.userUpdatePost);
 
 module.exports = usersRouter;
 ```
@@ -276,7 +276,7 @@ Next we'll create two views:
   </head>
 <body>
   <h1><%= title %></h1>
-  <form action="/users/create" method="POST">
+  <form action="/create" method="POST">
     <label for="firstName">First Name: </label>
     <input type="text" name="firstName" id="firstName" required>
     <label for="lastName">Last Name: </label>
@@ -553,7 +553,7 @@ What if we want to search for a specific user in a list of thousands? We'll need
 
 #### Further Reading
 
-- This article expands on [what sanitizing and escaping means, and how thy can help further secure your web applications](https://blog.presidentbeef.com/blog/2020/01/14/injection-prevention-sanitizing-vs-escaping/).
+- This article expands on [what sanitizing and escaping means, and how they can help further secure your web applications](https://blog.presidentbeef.com/blog/2020/01/14/injection-prevention-sanitizing-vs-escaping/).
 - [express-validator](https://express-validator.github.io/docs/) contains the full documentation for `validator`, with some important sections being:
   - [Getting Started with express-validator](https://express-validator.github.io/docs/guides/getting-started)
   - [Validation Chains](https://express-validator.github.io/docs/guides/validation-chain)
