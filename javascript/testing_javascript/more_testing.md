@@ -72,8 +72,7 @@ There are two solutions to the 'tightly coupled code' problem.  The first, and b
 1. Now that you have some practice and context for TDD, the [Jest docs section on "Setup and Teardown"](https://jestjs.io/docs/setup-teardown) will probably make good sense to you.
 1. Read about [Jest's really handy mocking functions](https://jestjs.io/docs/mock-functions).
 1. Watch this amazing video that covers [what to test in your codebase](https://www.youtube.com/watch?v=URSWYvyc42M).
-
-  The video is specifically about testing the Ruby language, but that doesn't matter *at all*.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.
+   The video is specifically about testing the Ruby language, but that doesn't matter *at all*.  The concepts here ring true in any language, and luckily Ruby is a clear enough language that you will be able to follow along just fine.
 
 </div>
 
