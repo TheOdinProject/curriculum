@@ -147,7 +147,7 @@ app.get("/", (req, res) => {
 });
 ```
 
-Then, modify the previously created `index.ejs` to `include` the `navbar` with the `links` variable like so:
+Then, modify the previously created `index.ejs` to remove the `<%= message %>` line and instead `include` the `navbar` with the `links` variable like so:
 
 ```ejs
 <!-- index.ejs -->
@@ -161,11 +161,30 @@ Then, modify the previously created `index.ejs` to `include` the `navbar` with t
 </html>
 ```
 
-This will include the navbar with links in `index.ejs`. Reusable templates can be used to include headers and footers in all of your pages.
+This will include the navbar with links in `index.ejs`. Run your server and see! Reusable templates can be used to include headers and footers in all of your pages.
 
 Note the use of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
 
-Let's use `includes` to dynamically render a list of variables a different way. Add `const users = ["Bob", "Bill", "Biff"];` to `app.js` just below the `links` variable. Then create a new view called `user.ejs` in the `views` directory and add the following `<li><%= user %></li>` line. Finally add the following block to `index.ejs`:
+Let's use `include` to dynamically render a list of variables a different way. In `app.js`, add the following `users` array just below the `links` variable, and pass it to the `render` function when rendering `index`:
+
+```javascript
+// app.js
+
+const links = [...];
+const users = ["Rose", "Cake", "Biff"];
+
+app.get("/", (req, res) => {
+  res.render("index", { links: links, users: users });
+});
+```
+
+Then create a new view called `user.ejs` in the `views` directory:
+
+```ejs
+<li><%= user %></li>
+```
+
+Then add the following block to `index.ejs`:
 
 ```ejs
 <ul>
@@ -175,7 +194,7 @@ Let's use `includes` to dynamically render a list of variables a different way. 
 </ul>
 ```
 
-If successful, Bob, Bill and Biff will be visible when rendering `index.ejs`.
+If successful, Rose, Cake and Biff will be visible when rendering `index.ejs`.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -183,8 +202,8 @@ If successful, Bob, Bill and Biff will be visible when rendering `index.ejs`.
 
 Let's create nested directories of EJS template files within the views. Change the `user.ejs` in the `views` directory to `users/user.ejs`, and in `index.ejs` change the path from `user` to `users/user` in the `users.forEach` block:
 
-```javascript
-// in include
+```ejs
+<!-- index.ejs -->
 <ul>
   <% users.forEach((user) => { %>
     <%- include('users/user', {user: user}); %>
