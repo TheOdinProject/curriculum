@@ -170,7 +170,11 @@ Let's use `include` to dynamically render a list of variables a different way. I
 ```javascript
 // app.js
 
-const links = [...];
+const links = [
+  { href: "/", text: "Home" },
+  { href: "about", text: "About" },
+];
+
 const users = ["Rose", "Cake", "Biff"];
 
 app.get("/", (req, res) => {
