@@ -4,7 +4,7 @@ Let's practice!  This testing thing really is not that difficult, but it *is* qu
 
 ### Using ES6 import statements with Jest
 
-By default, the current version of Jest will not recognize ES6 import statements. In order for you to be able to use ES6 modules for this project you may follow the [Jest instructions for using Babel](https://jestjs.io/docs/en/getting-started#using-babel).
+By default, the current version of Jest does not recognize ES6 import statements. To use ES6 modules in your project, follow the [Jest instructions for using Babel](https://jestjs.io/docs/en/getting-started#using-babel) or enable [Jest's experimental ESM support](https://jestjs.io/docs/ecmascript-modules).
 
 ### Assignment
 
