@@ -20,7 +20,7 @@ As you've seen, you can get your apps to do a lot of pretty cool things already,
 
 While Local Storage is great, it's not ideal: it only stores data on the computer from which the user is accessing the page. This approach does not allow for the app to 'remember' anything when the same user tries to access it again from a different device. For that, you're going to need a real backend, which you'll learn all about next in our [NodeJS](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs) course. With Node, we'll be able to add a bunch of cool features to your apps like user authentication, data persistence, and more.
 
-You have very come far and you should be proud of yourself for getting to this point.
+You have come very far and you should be proud of yourself for getting to this point.
 
 ### Contribute
 

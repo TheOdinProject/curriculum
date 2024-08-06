@@ -12,7 +12,7 @@ You can also keep up with the future of React by following the [React RFC GitHub
 
 You're at a point in your React journey where you can begin learning about design patterns and architecture. [patterns.dev](https://www.patterns.dev/) is an exceptional resource that will help you build better React apps by leveraging powerful patterns. They are worth a bookmark!
 
-You have very come far and you should be proud of yourself for getting to this point.
+You have come very far and you should be proud of yourself for getting to this point.
 
 Before you move onto the next section. Fill out this [React course feedback survey](https://docs.google.com/forms/d/e/1FAIpQLSdj_tNMp0LEz3ZLPqYcF67V11tX_CCJP3CTictPZzZ6XQm2Gw/viewform?usp=sf_link) to add your input and experience with the section. This helps us improve the section as well as the overall course and is greatly appreciated.
 
