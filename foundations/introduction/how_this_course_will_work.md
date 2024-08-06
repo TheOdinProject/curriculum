@@ -86,4 +86,24 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- To effectively approach the content of this course, here are some tips:
+
+1. Divide and Conquer: Divide content into smaller sections and set daily or weekly goals to complete them. This helps avoid overwhelm and ensures consistent progress.
+
+2. Active Learning: Actively participate in practical activities and exercises. Applying what you learn reinforces understanding.
+
+3. Reflection and Review: After each lesson, take a moment to reflect on what you have learned and review your notes to consolidate knowledge.
+
+4. Use Supplementary Resources: Don't hesitate to look for additional resources, such as videos or forums, if something is not clear.
+
+5. Practice Regularly: Practice consistently, even outside of lessons, to strengthen your skills.
+
+These tips will help you maximize your learning and get the most out of the course.
+
+- The note-taking technique divided into two columns:
+
+1. Two Column Structure: Use a sheet of paper or digital document divided in two. In the left column, write the key points of what you hear or read. In the right column, write down your thoughts, reflections, and how you can apply that information.
+
+2. Active Review: After taking notes, review them and connect concepts to reinforce understanding and retention.
+
+This approach encourages critical thinking and the practical application of knowledge.****
