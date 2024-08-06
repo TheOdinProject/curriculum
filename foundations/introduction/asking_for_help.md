@@ -57,4 +57,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [The 5 WHYs Technique”](https://www.adb.org/publications/five-whys-technique) commonly used to find the root cause of a problem.
