@@ -184,6 +184,21 @@ Headings should never contain any code snippets.
 ### The id property
 ```
 
+### Separators
+
+Headings must use a colon to separate parts of the heading, not dashes. Hyphenated words are fine.
+
+```markdown
+<!-- Incorrect -->
+### Headings - Don't separate with a dash
+
+<!-- Incorrect -->
+### Headings -- Don't use multiple dashes either
+
+<!-- Correct -->
+### Headings: Separate using a colon
+```
+
 ### ATX-style headings
 
 Use Heading 3 `###` for main section titles ("Lesson overview", "Assignment", custom sections, etc):
