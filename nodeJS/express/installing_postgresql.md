@@ -129,7 +129,7 @@ If you don't see a similar prompt, then reach out in [our Discord server](https:
 \password <role_name>
 ```
 
-You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role(note the semicolon at the end):
+You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role (note the semicolon at the end):
 
 ```sql
 GRANT ALL PRIVILEGES ON DATABASE <role_database_name> TO <role_name>;
@@ -253,7 +253,7 @@ If you don't see a similar prompt, then reach out on [Discord](https://discord.g
 \password <role_name>
 ```
 
-You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role(note the semicolon at the end):
+You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role (note the semicolon at the end):
 
 ```sql
 GRANT ALL PRIVILEGES ON DATABASE <role_database_name> TO <role_name>;
