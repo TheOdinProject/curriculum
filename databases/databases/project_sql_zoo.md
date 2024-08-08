@@ -20,3 +20,6 @@ This section contains helpful links to related content. It isn't required, so co
 - [Khan Academy's SQL Course](https://www.khanacademy.org/computing/computer-programming/sql)
 - [OverAPI's SQL Cheat Sheet](http://overapi.com/mysql)
 - [GalaXQL](http://sol.gfxile.net/galaxql.html), an interactive space-themed SQL tutorial.
+- [SQLTest.online](https://sqltest.online), the site with 250+ interactive SQL exercises for all skill levels, from beginner to advanced.
+- [SQLize.online](https://sqlize.online), an interactive, AI powered SQL playground supported almost all popular RDBMS such MySQL, PostgreSQL, MS SQL Server, Oracle and more...
+
