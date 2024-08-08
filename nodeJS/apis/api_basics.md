@@ -8,7 +8,7 @@ Frontend and backend applications usually talk to each other using JSON, which y
 
 If you think back to the organization of the routes in ["Routers"](https://www.theodinproject.com/lessons/nodejs-routes#routers) of the Local Library tutorial, we grouped related routes together and extracted each group into its own file. This approach allowed us to more easily modify specific routes without impacting others.
 
-### Lesson overview
+## Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
