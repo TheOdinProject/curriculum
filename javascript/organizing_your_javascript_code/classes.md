@@ -25,15 +25,11 @@ This section contains a general overview of topics that you will learn in this l
 <div class="lesson-content__panel" markdown="1">
 
 1. Read this article covering [opinions regarding the pros and cons of classes](https://medium.com/@rajaraodv/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65).
-
 1. [JavaScript.info's article on Getters and Setters](https://javascript.info/property-accessors) should get you up to speed on "Getters and Setters", and [JavaScript.info's primer on class syntax](https://javascript.info/class) is probably just about all you need to start using `class` syntax confidently.
-
 1. [MDN's docs on classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great resource for going a little deeper.
-
-- Take a look at the ['extends' documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends), including the ['Mixins' section](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends#mix-ins). In some frameworks like React, you can use classes to create your components and make them `extend` the core React component which gives you access to all their built-in functionality (though this is not the only way to create components. This will all be covered later in the React section of the course).
-- Classes can also have [private class properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields) that allow you to implement privacy similarly to factory functions.
-- Classes can have [static properties and methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static) which are properties and methods that are accessed on the class itself and not on the instance of a class. This is similar to how some string methods are accessed on the instance of a string itself e.g. `someString.slice(0, 5)` whereas some methods are called on the String constructor directly e.g. `String.fromCharCode(79, 100, 105, 110)`.
-
+   - Take a look at the ['extends' documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends), including the ['Mixins' section](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends#mix-ins). In some frameworks like React, you can use classes to create your components and make them `extend` the core React component which gives you access to all their built-in functionality (though this is not the only way to create components. This will all be covered later in the React section of the course).
+   - Classes can also have [private class properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields) that allow you to implement privacy similarly to factory functions.
+   - Classes can have [static properties and methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static) which are properties and methods that are accessed on the class itself and not on the instance of a class. This is similar to how some string methods are accessed on the instance of a string itself e.g. `someString.slice(0, 5)` whereas some methods are called on the String constructor directly e.g. `String.fromCharCode(79, 100, 105, 110)`.
 1. [FunFunFunction's video on Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA) gives a great overview of the topic.
 
 </div>
@@ -62,5 +58,4 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Stephen Mayeux has a [Youtube playlist on ES6 classes](https://www.youtube.com/playlist?list=PLtwj5TTsiP7uTKfTQbcmb59mWXosLP_7S) and some of their methods with easy to follow examples.
-
 - Here are some more examples that try to illustrate the [benefits of composition over inheritance](https://blog.beezwax.net/composition-over-inheritance-with-javascript-examples).
