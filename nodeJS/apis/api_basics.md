@@ -1,4 +1,3 @@
-
 ### Introduction
 
 In recent years, a new pattern for developing websites has been gaining popularity. Instead of creating an app that hosts both the database and view templates, many developers are separating these concerns into separate projects, hosting their backend and database on a server (either on something like [Heroku](https://www.heroku.com/) or on a VPS like [Digital Ocean](https://www.digitalocean.com/)), then using a service such as [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/) to host their frontend. This technique is sometimes referred to as the [Jamstack](https://jamstack.org/what-is-jamstack/).
@@ -7,7 +6,7 @@ Organizing your project this way can be beneficial because it allows your projec
 
 Frontend and backend applications usually talk to each other using JSON, which you have already encountered if you've gone through our frontend JavaScript course. So at this point, all you really need to learn is how to get your Express application to speak JSON instead of HTML. The assignment at the end of this lesson will take you through a tutorial, but essentially all you have to do is pass your information into [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render). How easy is that?
 
-If you think back to the organization of the routes in ["Part 4: Routes and controllers"](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes#Create_the_catalog_route_module) of the Local Library tutorial, all of our routes were set up in a `catalog` module, so to get the view for our list of books you would access `/catalog/books`. Setting the Library project up to also serve JSON would be as easy as creating a different router module called `api` and then adjusting the controllers so that `/catalog/books` would serve up the HTML list of our books and `/api/books` would serve up the same information as JSON.
+If you think back to the organization of the routes in the [Routes lesson](https://www.theodinproject.com/lessons/nodejs-routes#routers), we grouped related routes together and extracted each group into its own file. This approach allowed us to more easily modify specific routes without impacting others.
 
 ### Lesson overview
 
@@ -33,12 +32,12 @@ The actual technical [definition of REST](https://en.wikipedia.org/wiki/Represen
 REST APIs are resource based, which basically means that instead of having names like `/getPostComments` or `/savePostInDatabase` we refer **directly to the resource** (in this case, the blog post) and use HTTP verbs such as GET, POST, PUT, and DELETE to determine the action.
 Typically this takes the form of 2 URI's per resource, one for the whole collection and one for a single object in that collection, for example, you might get a list of blog-posts from `/posts` and then get a specific post from `/posts/:postid`. You can also nest collections in this way. To get the list of comments on a single post you would access `/posts/:postid/comments` and then to get a single comment: `/posts/:postid/comments/:commentid`. Below are some other basic examples of endpoints you could have.
 
-| Verb   | Action | Example                                            |
-| ------ | ------ | -------------------------------------------------- |
-| POST   | Create | `POST /posts` Creates a new blog post              |
-| GET    | Read   | `GET /posts/:postid` Fetches a single post         |
-| PUT    | Update | `PUT /posts/:postid` Updates a single post         |
-| DELETE | Delete | `DELETE /posts/:postid` Deletes a single post      |
+| Verb   | Action | Example                                       |
+| ------ | ------ | --------------------------------------------- |
+| POST   | Create | `POST /posts` Creates a new blog post         |
+| GET    | Read   | `GET /posts/:postid` Fetches a single post    |
+| PUT    | Update | `PUT /posts/:postid` Updates a single post    |
+| DELETE | Delete | `DELETE /posts/:postid` Deletes a single post |
 
 Each part of an API URI specifies the resource. For example, `GET /posts` would return the entire list of blog posts while `GET /posts/:postid` specifies the exact blog post we want. We could nest further with `GET /posts/:postid/comments` to return a list of comments for that blog post or even `GET /posts/:postid/comments/:commentid` for a very specific blog post comment.
 
