@@ -366,10 +366,10 @@ If we had used `Object.setPrototypeOf()` in this example, then we could safely e
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Write an object constructor and instantiate the object.](#object-constructors)
-- [Describe what a prototype is and how it can be used.](#the-prototype)
-- [Explain prototypal inheritance.](https://javascript.info/prototype-inheritance)
-- [Understand the basic do's and don't's of prototypal inheritance.](#recommended-method-for-prototypal-inheritance)
+- [How do you write an object constructor and instantiate the object?](#object-constructors)
+- [What is a prototype and how can it be used?](#the-prototype)
+- [What is prototypal inheritance?](https://javascript.info/prototype-inheritance)
+- [What are the basic do's and don't's of prototypal inheritance?](#recommended-method-for-prototypal-inheritance)
 - [How does `this` behave in different situations?](https://www.javascripttutorial.net/javascript-this/)
 
 ### Additional resources
