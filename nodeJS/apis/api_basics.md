@@ -25,7 +25,7 @@ This section contains a general overview of topics that you will learn in this l
 ### REST
 
 The structure of an API can take many forms, for example you could have routes named `/api/getAllPostComments/:postid` or `/api/posts/:postid/comments`.
-_However_, it's conventional to follow REST (an acronym for Representational State Transfer), a popular and common organizational method for your APIs which corresponds with [CRUD actions](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs/lessons/express-102-crud-and-mvc#crud). Following established patterns such as REST make your API more maintainable and make it easier for other developers to integrate with your API. Software development is often about clear communication which is aided by following expectations.
+*However*, it's conventional to follow REST (an acronym for Representational State Transfer), a popular and common organizational method for your APIs which corresponds with [CRUD actions](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs/lessons/express-102-crud-and-mvc#crud). Following established patterns such as REST make your API more maintainable and make it easier for other developers to integrate with your API. Software development is often about clear communication which is aided by following expectations.
 
 The actual technical [definition of REST](https://en.wikipedia.org/wiki/Representational_state_transfer) is a little complicated, but for our purposes, most of the elements (statelessness, cacheability, etc.) are covered by default just by using Express to output JSON. The piece that we specifically want to think about is how to **organize our endpoint URIs** (Uniform Resource Identifier).
 
@@ -47,7 +47,7 @@ The [Same Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/S
 
 [Setting up CORS in Express](https://expressjs.com/en/resources/middleware/cors.html#enabling-cors-pre-flight) is very easy, there’s a middleware that does the work for us.
 
-For now, it is acceptable to just allow access from any origin. This makes development quite a bit easier but for any _real_ project, once you deploy to a production environment you will probably want to specifically block access from any origin _except_ your frontend website. The documentation above explains how to do this.
+For now, it is acceptable to just allow access from any origin. This makes development quite a bit easier but for any *real* project, once you deploy to a production environment you will probably want to specifically block access from any origin *except* your frontend website. The documentation above explains how to do this.
 
 ### Assignment
 
