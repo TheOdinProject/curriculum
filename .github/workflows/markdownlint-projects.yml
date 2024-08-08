@@ -1,0 +1,32 @@
+name: MarkDownLint
+on:
+  pull_request:
+    paths:
+        - '**/project*.md'
+        - '!./*.md'
+        - '!./archive/**.md'
+        - '!./templates/**.md'
+        - '!./markdownlint/docs/**.md'
+
+jobs:
+    project_lint:
+        name: Lint project files
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v4
+          - uses: tj-actions/changed-files@v41
+            id: changed-files
+            with:
+              files: |
+                **/project*.md
+                !./*.md
+                !README.md
+                !./archive/**.md
+                !./templates/**.md
+                !./markdownlint/docs/**.md
+              separator: ','
+          - uses: DavidAnson/markdownlint-cli2-action@v14
+            with:
+              config: './project.markdownlint-cli2.jsonc'
+              globs: ${{ steps.changed-files.outputs.all_changed_files }}
+              separator: ','

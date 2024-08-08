@@ -123,16 +123,16 @@ You should see the PostgreSQL prompt come up with the new role we just created, 
 role_name=#
 ```
 
-If you don't see a similar prompt, then reach out in [our Discord server](https://discord.gg/V75WSQG) for some help. If you **do** see a similar prompt, then we can create a password for the role like so:
+If you don't see a similar prompt, then reach out in [our Discord server](https://discord.gg/V75WSQG) for some help. If you **do** see a similar prompt, then we can create a password for the role like so (with a backward slash \):
 
 ```sql
 \password <role_name>
 ```
 
-You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role:
+You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role(Note the semicolon at the end):
 
 ```sql
-grant all privileges on database <role_database_name> to <role_name>;
+GRANT ALL PRIVILEGES ON DATABASE <role_database_name> TO <role_name>;
 ```
 
 Remember that you should change the `<role_database_name>` and `<role_name>` (they should be both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
@@ -247,16 +247,16 @@ You should now see the PostgreSQL prompt come up like this:
 role_name=#
 ```
 
-If you don't see a similar prompt, then reach out on [Discord](https://discord.gg/V75WSQG) for some help. If you **do** see a similar prompt, then we can create a password for the role like so:
+If you don't see a similar prompt, then reach out on [Discord](https://discord.gg/V75WSQG) for some help. If you **do** see a similar prompt, then we can create a password for the role like so (with a backward slash \):
 
 ```sql
 \password <role_name>
 ```
 
-You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role:
+You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role(Note the semicolon at the end):
 
 ```sql
-grant all privileges on database <role_database_name> to <role_name>;
+GRANT ALL PRIVILEGES ON DATABASE <role_database_name> TO <role_name>;
 ```
 
 Remember that you should change the `<role_database_name>` and `<role_name>` (they should both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
