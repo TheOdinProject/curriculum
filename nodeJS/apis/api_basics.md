@@ -6,7 +6,7 @@ Organizing your project this way can be beneficial because it allows your projec
 
 Frontend and backend applications usually talk to each other using JSON, which you have already encountered if you've gone through our frontend JavaScript course. So at this point, all you really need to learn is how to get your Express application to speak JSON instead of HTML. The assignment at the end of this lesson will take you through a tutorial, but essentially all you have to do is pass your information into [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render). How easy is that?
 
-If you think back to the organization of the routes in ["Routers"](https://www.theodinproject.com/lessons/nodejs-routes#routers) of the Local Library tutorial, we grouped related routes together and extracted each group into its own file. This approach allowed us to more easily modify specific routes without impacting others.
+If you think back to the organization of the routes in the [Routes lesson](https://www.theodinproject.com/lessons/nodejs-routes#routers), we grouped related routes together and extracted each group into its own file. This approach allowed us to more easily modify specific routes without impacting others.
 
 ## Lesson overview
 
