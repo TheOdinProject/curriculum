@@ -79,7 +79,7 @@ Express has a rich ecosystem and you will likely find a package that solves the 
 
 #### Application-level middleware
 
-Application-level middleware are bound to an *instance of Express* using `app.use` or using `app.<METHOD>` (e.g. `app.get`, `app.post`) functions. These are middleware functions that are executed in every incoming request matching the specified path. If you don't specify a path, the path defaults to `/` which will match every incoming request. As with any middleware functions, they will not run if the request-response cycle ends before reaching them. Typically, these middleware functions are placed on top of your application code to ensure they always run first.
+Application-level middleware are bound to an *instance of Express* using `app.use` or using `app.METHOD` (e.g. `app.get`, `app.post`) functions. These are middleware functions that are executed in every incoming request matching the specified path. If you don't specify a path, the path defaults to `/` which will match every incoming request. As with any middleware functions, they will not run if the request-response cycle ends before reaching them. Typically, these middleware functions are placed on top of your application code to ensure they always run first.
 
 Very common built-in middleware functions that you will likely use are the following:
 
