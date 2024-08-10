@@ -119,7 +119,7 @@ What to do during your break:
 - Play a quick game.
 - Go for a short walk outside.
 
-Checkout this article for [more information on breaks & productivity](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/).
+Check out this article for [more information on breaks & productivity](https://simpleprogrammer.com/taking-breaks-will-boost-productivity/).
 
 #### Digital distractions
 
