@@ -25,7 +25,7 @@ This section contains a general overview of topics that you will learn in this l
 ### REST
 
 The structure of an API can take many forms, for example you could have routes named `/api/getAllPostComments/:postid` or `/api/posts/:postid/comments`.
-*However*, it's conventional to follow REST (an acronym for Representational State Transfer), a popular and common organizational method for your APIs which corresponds with [CRUD actions](https://www.theodinproject.com/paths/full-stack-javascript/courses/nodejs/lessons/express-102-crud-and-mvc#crud). Following established patterns such as REST make your API more maintainable and make it easier for other developers to integrate with your API. Software development is often about clear communication which is aided by following expectations.
+*However*, it's conventional to follow REST (an acronym for Representational State Transfer), a popular and common organizational method for your APIs which corresponds with [CRUD actions](https://www.codecademy.com/article/what-is-crud). Following established patterns such as REST make your API more maintainable and make it easier for other developers to integrate with your API. Software development is often about clear communication which is aided by following expectations.
 
 The actual technical [definition of REST](https://en.wikipedia.org/wiki/Representational_state_transfer) is a little complicated, but for our purposes, most of the elements (statelessness, cacheability, etc.) are covered by default just by using Express to output JSON. The piece that we specifically want to think about is how to **organize our endpoint URIs** (Uniform Resource Identifier).
 
