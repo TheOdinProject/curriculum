@@ -193,7 +193,7 @@ The growth of our hash map has the complexity of `O(n)` at all times.
 <div class="lesson-content__panel" markdown="1">
 
 - Read [What are Hash Functions and How to choose a good Hash Function](https://www.geeksforgeeks.org/what-are-hash-functions-and-how-to-choose-a-good-hash-function) for a more technical overview of a hash function.
-- Watch this video from CS50 that [explains the concept of hash maps using buckets](https://www.youtube.com/watch?v=btT4bCOvqjs).
+- Watch this video from CS50 that explains the concept of [hash maps using buckets](https://www.youtube.com/watch?v=btT4bCOvqjs).
 
 </div>
 
@@ -210,5 +210,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- This discussion goes through the [usage of prime numbers](https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier/299748)
+- This discussion goes through the [usages of prime numbers in hash functions](https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier/299748).
+
 - The [pigeonhole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle) mathematically guarantees collisions when there are more nodes than boxes.

@@ -1,6 +1,6 @@
 ### Introduction
 
-You've reached the end of the scope of this course and should feel pretty good about your NodeJS skills. That doesn't mean you should understand everything quite yet, but now you can build a NodeJS application with the kind of functionality which is actually useful in the real world. After all, you just built Facebook!
+You've reached the end of the scope of this course and should feel pretty good about your NodeJS skills. That doesn't mean you should understand everything quite yet, but now you can build a NodeJS application with the kind of functionality which is actually useful in the real world. After all, you just built a social media site!
 
 This isn't the last course in the curriculum, as there is a Getting Hired course remaining. But you're now at that period where you can consider yourself a "full stack" developer. You've learned how to write beautiful and intuitive front-ends for your applications and now back-end technologies to give those sites some cool features. Despite how far you've come, it's up to you to keep building stuff, ask questions, and dig deeper into both NodeJS and best practices of software engineering in general.
 
@@ -24,13 +24,13 @@ Caching makes your application faster by reducing database calls. Check out this
 
 #### DevOps
 
-Sometimes, having a little exposure to DevOps can help set you apart as a robust developer. There are various platforms out there you can start to learn from, Azure to Amazon Web Services, Heroku to Digital Ocean. While some of these offer free services, many of their services are unfortunately paid. That being said, this doesn't prevent you from reading documentation or leveraging their free services to start getting some exposure. [Heroku](https://devcenter.heroku.com/categories/reference#deployment) has extensive resources for you to dive into. Another popular provider, Digital Ocean, offers competing [Droplets](https://www.digitalocean.com/docs/droplets/quickstart/) and their new [App Platform](https://www.digitalocean.com/docs/app-platform/) services.
+Sometimes, having a little exposure to DevOps can help set you apart as a robust developer. There are various platforms out there you can start to learn from, Azure to Amazon Web Services, Heroku to Digital Ocean. While some of these offer free services, many of their services are unfortunately paid. That being said, this doesn't prevent you from reading documentation or leveraging their free services to start getting some exposure. [Heroku](https://devcenter.heroku.com/categories/reference#deployment) has extensive resources for you to dive into. Another popular provider, Digital Ocean, offers competing [Droplets](https://docs.digitalocean.com/products/droplets/getting-started/quickstart/) and their new [App Platform](https://www.digitalocean.com/docs/app-platform/) services.
 
 A platform we highly encourage you to begin looking into either way is [Amazon Web Services](https://aws.amazon.com/). This is a platform you will likely see on job postings and on the job itself, and can be an invaluable skill to have in your arsenal.
 
-#### Relational data
+#### Non-relational data
 
-Now that you have exposure to non-relational databases with Mongo, you might be considering what other types of databases exist; namely relational databases. Understanding both types of databases and when to use them can set you up for success down the road. After all, not every problem requires a hammer. Our [database course](/paths/full-stack-ruby-on-rails/courses/databases) is a great place to start to digging into relational databases and SQL.
+Now that you have exposure to relational databases with PostgreSQL, you might be considering what other types of databases exist; namely non-relational databases. Understanding both types of databases and when to use them can set you up for success down the road. After all, not every problem requires a hammer. MongoDB is a popular choice for non-relational databases. Resources like the [Learn MongoDB website](https://learn.mongodb.com) offer tutorials and documentation to get you started.
 
 ### Other resources
 

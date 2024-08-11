@@ -22,7 +22,7 @@ Keep the following requirements in mind. We'll cover specific steps to get start
 
 1. Use PostgreSQL for your database from the beginning (not SQLite3), that way your deployment will go much more smoothly.
 1. Users must sign in to see anything except the sign in page.
-1. User sign-in should use the [Devise](https://github.com/plataformatec/devise) gem. Devise gives you all sorts of helpful methods so you no longer have to write your own user passwords, sessions, and `#current_user` methods. See the [Railscast](http://railscasts.com/episodes/209-introducing-devise?view=asciicast) (which uses Rails 3) for a step-by-step introduction. The docs will be fully current.
+1. User sign-in should use the [Devise](https://github.com/plataformatec/devise) gem. Devise gives you all sorts of helpful methods so you no longer have to write your own user passwords, sessions, and `#current_user` methods. See the [Railscast on Devise](http://railscasts.com/episodes/209-introducing-devise?view=asciicast) (which uses Rails 3) for a step-by-step introduction. The docs will be fully current.
 1. Users can send follow requests to other users.
 1. Users can create posts (begin with text only).
 1. Users can like posts.
@@ -32,7 +32,7 @@ Keep the following requirements in mind. We'll cover specific steps to get start
 1. Users can create a profile with a profile picture. You may be able to get the profile picture when users sign in using OmniAuth. If this isn't the case you can use [Gravatar](https://en.gravatar.com/) to generate the photo.
 1. A user's profile page should contain their profile information, profile photo, and posts.
 1. There should be an index page for users, which shows all users and buttons for sending follow requests to users the user is not already following or have a pending request.
-1. Set up a [mailer](http://guides.rubyonrails.org/action_mailer_basics.html) to send a welcome email when a new user signs up. Use the `letter_opener` gem ([see docs here](https://github.com/ryanb/letter_opener)) to test it in development mode.
+1. Set up a [mailer](http://guides.rubyonrails.org/action_mailer_basics.html) to send a welcome email when a new user signs up. Use the [Letter Opener gem](https://github.com/ryanb/letter_opener) to test it in development mode.
 1. Deploy your App to a hosting provider.
 1. Set up an email provider and start sending real emails.
 
@@ -52,7 +52,7 @@ Keep the following requirements in mind. We'll cover specific steps to get start
 
 #### Final step
 
-1. Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLScrIWkh4Bm3Qv7FH7PuWjLRCryevoJGgpA4tTis4R7CpXp9oQ/viewform?usp=sf_link). Getting user(you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
+1. Before you move on, we would love it if you could [send us your feedback on the Ruby on Rails course](https://docs.google.com/forms/d/e/1FAIpQLScrIWkh4Bm3Qv7FH7PuWjLRCryevoJGgpA4tTis4R7CpXp9oQ/viewform?usp=sf_link). Getting user(you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
 
 </div>
 
