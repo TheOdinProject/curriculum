@@ -45,7 +45,7 @@ Formatters are *awesome*. They are similar to linters, but serve a slightly diff
 
 As usual, there are multiple formatters out there. [Prettier](https://prettier.io/) is a very popular choice that is highly opinionated. Besides a few options, most of its formatting decisions are not customizable. Since many of these decisions have been made for you, this reduces the time spent deciding on things like indentation size or spacing, and more time on the problems that actually matter.
 
-1. Read [Prettier's installation guide](https://www.youtube.com/watch?v=hkfBvpEfWdA) for installing it as a dependency in your projects.
+1. Read [Prettier's installation guide](https://prettier.io/docs/en/install.html) for installing it as a dependency in your projects.
 1. Prettier also has [instructions for setting up and configuring the VSCode Prettier extension](https://github.com/prettier/prettier-vscode). This extension allows you to format with Prettier via Visual Studio Code commands or keybinds instead of commands in the terminal.
 
 Using Prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you.
