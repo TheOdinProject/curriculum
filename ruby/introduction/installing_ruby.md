@@ -209,7 +209,7 @@ Then, run this command:
 rbenv init
 ```
 
-At this point, open a new termianl tab, so changes take effect.
+At this point, open a new terminal tab, so changes take effect.
 
 To confirm that everything went as it should, open a new terminal tab and run:
 
