@@ -66,7 +66,7 @@ First, you need to clone the rbenv repository.
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 ```
 
-Next command takes care of setting rbenv. 
+Next command takes care of setting rbenv.
 
 ```bash
 rbenv init
