@@ -6,6 +6,14 @@ Congratulations, you have made it to the very first React project. In this proje
 
 <div class="lesson-content__panel" markdown="1">
 
+<div class="lesson-note" markdown="1">
+
+#### Double rendering
+
+While working on this project, you might notice that some parts of your code execute twice (e.g., console logs appearing doubled). This is due to [React.StrictMode](https://react.dev/reference/react/StrictMode) and is intended behavior. We will go through this more in the next lesson, so don't worry about it for now.
+
+</div>
+
 1. Create a new React project.
 1. Think about how to structure your application into components. Your application should include:
     1. A section to add general information like name, email and phone number.

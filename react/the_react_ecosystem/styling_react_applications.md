@@ -28,9 +28,11 @@ What if everything's already done for you? Styling, behavior, and accessibility 
 
 [Material UI](https://mui.com/), [Radix](https://www.radix-ui.com/), and [Chakra UI](https://chakra-ui.com/) are worth a mention when talking about component libraries.
 
-<div class="lesson-note lesson-note--tip" markdown="1" >
+There are also icon component libraries like [lucide react](https://lucide.dev/guide/packages/lucide-react), which let you include icons in your project as components.
 
-For learning purposes throughout this course, we recommend that you avoid using CSS frameworks or component libraries, and instead implement your component's styling from scratch i.e. use [CSS Modules](#css-modules) or a [CSS-in-JS](#css-in-js) option.
+<div class="lesson-note lesson-note--warning" markdown="1" >
+
+For learning purposes throughout this course, we strongly recommend that you avoid using CSS frameworks or component libraries (using icon component libraries is fine), and instead implement your component's styling from scratch i.e. use [CSS Modules](#css-modules) or a [CSS-in-JS](#css-in-js) option.
 
 </div>
 
@@ -38,11 +40,11 @@ For learning purposes throughout this course, we recommend that you avoid using 
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read [CSS Modules documentation](https://github.com/css-modules/css-modules) and [How to style React components using CSS Modules](https://www.makeuseof.com/react-components-css-modules-style/)
+1. Read [CSS Modules documentation](https://github.com/css-modules/css-modules) and [How to style React components using CSS Modules](https://www.makeuseof.com/react-components-css-modules-style/).
 
-1. Read [CSS vs CSS-in-JS](https://blog.logrocket.com/css-vs-css-in-js/) and [a thorough analysis of CSS-in-JS](https://css-tricks.com/a-thorough-analysis-of-css-in-js/)
+1. Read [CSS vs CSS-in-JS](https://blog.logrocket.com/css-vs-css-in-js/) and [a thorough analysis of CSS-in-JS](https://css-tricks.com/a-thorough-analysis-of-css-in-js/).
 
-1. Skim through the [styled components documentation](https://styled-components.com/)
+1. Skim through the [styled components documentation](https://styled-components.com/).
 
 </div>
 

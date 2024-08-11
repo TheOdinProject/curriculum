@@ -42,7 +42,7 @@ If the block returns `true`/truthy for an element, we immediately `return` that 
 <div class="lesson-content__panel" markdown="1">
 
 1. Fork and clone our [custom enumerables repo](https://github.com/TheOdinProject/custom_enumerable_project)
-1. Follow the [instructions in the README](https://github.com/TheOdinProject/custom_enumerable_project#installation) to get the repo setup locally
+1. Follow the [installation instructions in the README](https://github.com/TheOdinProject/custom_enumerable_project#installation) to get the repo setup locally.
 1. Rebuild each of [the methods in the table at the end of the README](https://github.com/TheOdinProject/custom_enumerable_project#methods) and make sure they all pass the tests associated with them.
 
 </div>

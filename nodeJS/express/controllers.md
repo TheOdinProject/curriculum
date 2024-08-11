@@ -79,11 +79,11 @@ Express has a rich ecosystem and you will likely find a package that solves the 
 
 #### Application-level middleware
 
-Application-level middleware are bound to an *instance of Express* using `app.use` or using `app.<METHOD>` (e.g. `app.get`, `app.post`) functions. These are middleware functions that are executed in every incoming request matching the specified path. If you don't specify a path, the path defaults to `/` which will match every incoming request. As with any middleware functions, they will not run if the request-response cycle ends before reaching them. Typically, these middleware functions are placed on top of your application code to ensure they always run first.
+Application-level middleware are bound to an *instance of Express* using `app.use` or using `app.METHOD` (e.g. `app.get`, `app.post`) functions. These are middleware functions that are executed in every incoming request matching the specified path. If you don't specify a path, the path defaults to `/` which will match every incoming request. As with any middleware functions, they will not run if the request-response cycle ends before reaching them. Typically, these middleware functions are placed on top of your application code to ensure they always run first.
 
 Very common built-in middleware functions that you will likely use are the following:
 
-- Body parsers (e.g. `express.json`, `express.urlencoded`) - These allows to correctly parse the incoming request's body, so that you can use it through `req.body`.
+- Body parsers (e.g. `express.json`, `express.urlencoded`) - These allow us to correctly parse the incoming request's body, so that you can use it through `req.body`.
 - Serving static files (e.g. `app.use(express.static('public'))`) -  It is a middleware function for serving static files, such as HTML, CSS, JavaScript, and images. You can pass an argument to specify which directory to serve the static files.
 - Setting up views (you will learn how in the Views lesson).
 
@@ -108,9 +108,9 @@ function myMiddleware(req, res, next) {
 app.use(myMiddleware);
 ```
 
-In this example, the middleware function logs a message, adds a custom property to the request object, and then calls the `next()` function to pass control to the next middleware function or route handler. We also register the middleware function through the usage of `app.use` which makes this an application-level middleware. Middleware functions following `myMiddleware` in this chain can now access `req.customProperty` with the value `"Hello from myMilddleware"`.
+In this example, the middleware function logs a message, adds a custom property to the request object, and then calls the `next()` function to pass control to the next middleware function or route handler. We also register the middleware function through the usage of `app.use` which makes this an application-level middleware. Middleware functions following `myMiddleware` in this chain can now access `req.customProperty` with the value `"Hello from myMiddleware"`.
 
-One thing to note about is that middleware functions are executed in the order they are defined or registered in your application. This means that the sequence in which you define your middleware functions matters, as it determines the order in which they will be invoked during the request-response cycle. So you need to make sure and be aware that your middleware fnuctions are placed in the correct order. As an example, some packages have middleware functions that changes the `Request` object, and as a result, these middleware functions should be placed at the very top of your application in order for you to be able to see their changes in all of your middleware functions below it.
+One thing to note is that middleware functions are executed in the order they are defined or registered in your application. This means that the sequence in which you define your middleware functions matters, as it determines the order in which they will be invoked during the request-response cycle. So you need to make sure and be aware that your middleware functions are placed in the correct order. As an example, some packages have middleware functions that changes the `Request` object, and as a result, these middleware functions should be placed at the very top of your application in order for you to be able to see their changes in all of your middleware functions below it.
 
 There is also a special type of middleware function that handles errors, which we will discuss shortly.
 
@@ -148,7 +148,7 @@ In this example, the `getUserById` function is a controller that handles a speci
 1. The controller extracts the userId from the request parameters (`req.params.id`). This assumes that the parameter is defined with a route, such as `/users/:id`.
 1. It then invokes a database query function `someDBQueryToGetUser` to retrieve the user data based on the userId.
 1. If the user is not found (`!user`), the controller sends a response with a 404 status code and the message `User not found`, using `res.status(404).send(...)`. It then returns from the controller function in order to not invoke any other logic in the controller, because sending a response does not stop the function execution itself.
-1. If the user is found, the controller sends a response with a 200 status code and the message `User found: ${user.name}`, using `res.status(200).send(...)`. This assumes that the user object has a name property.
+1. If the user is found, the controller sends a response with a 200 status code and the message `User found: ${user.name}`, using `res.send(...)`. This assumes that the user object has a name property. We don't need to use the `status` method here since the response sends a 200 by default.
 
 Very simple right?
 
@@ -247,7 +247,7 @@ app.use((err, req, res, next) => {
 
 #### Creating custom errors
 
-With the solutions above, the error middleware function can only really respond with a `500` status code no matter what error it is. Because what if we actually want to send a `404`? A common way to do this is to create our own custom error by extending the Error object.
+With the solutions above, the error middleware function can only really respond with a `500` status code no matter what error it is. But what if we actually want to send a `404`? A common way to do this is to create our own custom error by extending the Error object.
 
 ```javascript
 class CustomNotFoundError extends Error {
@@ -388,7 +388,7 @@ const router = express.Router();
 
 // router.use(authMiddleware);
 
-// router-level midlewares
+// router-level middlewares
 
 // GET request for getting all the users
 router.get('/', userController.getUsers);
@@ -400,7 +400,7 @@ router.get('/', userController.getUsers);
 router.post('/', userController.createUser);
 
 // GET request for getting the user by id
-router.get('/:id', userControoler.getUserById);
+router.get('/:id', userController.getUserById);
 
 module.exports = router;
 ```

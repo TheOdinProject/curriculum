@@ -32,7 +32,7 @@ This section contains a general overview of topics that you will learn in this l
 
 </div>
 
-### Test yourself
+#### Test yourself
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -40,7 +40,7 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-The solution for "Question 6: Search JS object" is incorrect. See the [corrected solution](https://gist.github.com/JoshDevHub/b00125f483d4a1ecc257eaa030916973) after you solve it.
+The solution for "Question 6: Search JS object" is incomplete. See [a more accurate solution for `contains()`](https://gist.github.com/JoshDevHub/b00125f483d4a1ecc257eaa030916973) after you solve it.
 
 </div>
 
