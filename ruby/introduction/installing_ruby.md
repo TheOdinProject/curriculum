@@ -66,21 +66,11 @@ First, you need to clone the rbenv repository.
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 ```
 
-Next, we'll add some commands to allow rbenv to work properly. We can use the Linux `echo` command to make it easy.
-
-<div class="lesson-note lesson-note--warning" markdown=1>
-
-Run these commands one by one in sequence. They will not provide any output if done properly. Again, be sure to copy and paste these commands.
-
-</div>
+Next command takes care of setting rbenv. 
 
 ```bash
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-exit
+rbenv init
 ```
-
-After running the final `exit` command, you will need to close out of all open terminals and open a new terminal (see Step 1.1 above).
 
 Next, you need to install `ruby-build` to help compile the Ruby binaries. Run these commands in the terminal to create a directory for the ruby-build plugin and then download it to the proper directory.
 
@@ -219,41 +209,21 @@ Then, run this command:
 rbenv init
 ```
 
-You should see one of two messages after the command has run.
+At this point, open a new termianl tab, so changes take effect.
 
-Either:
-
-```bash
-# Load rbenv automatically by appending
-# the following to ~/.bash_profile:
-
-eval "$(rbenv init -)"
-```
-
-Or:
+To confirm that everything went as it should, open a new terminal tab and run:
 
 ```bash
-# Load rbenv automatically by appending
-# the following to ~/.zshrc:
-
-eval "$(rbenv init -)"
+rbenv -v
 ```
 
-You'll do as it suggests by running either of the following commands in the terminal.
-
-If the previous message stated you should append to your bash_profile then run:
+You should get an output with a version number **similar** to this:
 
 ```bash
-echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+rbenv 1.2.0-14-gc6cc0a1
 ```
 
-Otherwise if it mentioned zshrc then run:
-
-```bash
-echo 'eval "$(rbenv init -)"' >> ~/.zshrc
-```
-
-You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, take note of the page and step number you are on, close everything, do a full reboot and log back into your profile. After logging back in, re-open the terminal (see Step 1.1).
+If you do not get a version number at all (anything not starting with `rbenv 1...`), please ask for help in [our Discord server](https://discordapp.com/channels/505093832157691914/505093832157691916).
 
 #### Step 2.3: Install Ruby
 
