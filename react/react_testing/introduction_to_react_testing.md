@@ -75,7 +75,7 @@ There are numerous ways a user can interact with a webpage. Even though live use
 ```jsx
 // App.jsx
 
-import React, { useState } from "react";
+import { useState } from "react";
 
 const App = () => {
   const [heading, setHeading] = useState("Magnificent Monkeys");
