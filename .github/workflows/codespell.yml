@@ -14,5 +14,4 @@ jobs:
             check_filenames: true
             check_hidden: true
             skip: ./.git,*.png,*.csv,./archive,./legacy_submissions
-            only_warn: 1
             ignore_words_file: './.codespellignore'
