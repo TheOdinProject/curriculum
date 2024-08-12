@@ -45,6 +45,17 @@ Ordered lists are created using the `<ol>` element. Each individual item in them
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+### Quick Tip
+Imagine if you have multiple lists to type; you might find yourself typing `<li></li>` repeatedly, or you might type it once and *copy/paste* it until you're done. However, there is a more efficient way using **Emmet Abbreviation**, something you might have already experienced with the `!` character to quickly generate the full html boilerplate.
+
+Now, we will show you how to use Emmet to create lists more efficiently. Imagine you need to write an unordered list with 11 items. To do this using Emmet, simply type `ul>li*11` and hit `Enter` or `Tab`.
+
+`ul>li*11` tells Emmet to create an unordered list `<ul>` with eleven nested list items `<li>`, all in one go.
+
+It's worth noting that you can use this with `<ol>` as well, and you can obviously replace the number `11` with any other number you need.
+
+Note that Emmet Abbreviations will be covered in depth later in the curriculum, and you're not required to know about them now.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
