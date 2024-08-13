@@ -69,8 +69,9 @@ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 Next command takes care of setting rbenv.
 
 ```bash
-rbenv init
+~/.rbenv/bin/rbenv init
 ```
+Note: Since with the release of version 1.3, rbenv now works a bit differently. If you are using version 1.3 or later, you will need to refresh the terminal after this step as .bashrc has been modified.
 
 Next, you need to install `ruby-build` to help compile the Ruby binaries. Run these commands in the terminal to create a directory for the ruby-build plugin and then download it to the proper directory.
 
