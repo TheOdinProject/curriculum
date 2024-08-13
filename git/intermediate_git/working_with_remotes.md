@@ -89,7 +89,7 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is a safe way to push history changes to a remote repository?](#force-with-lease)
+- [What is a safe way to forcefully push history changes to a remote repository?](#force-with-lease)
 - [What are the dangers of history-changing operations?](#dangers)
 - [What are best practices of history-changing operations?](#best-practices)
 
