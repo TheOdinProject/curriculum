@@ -179,6 +179,14 @@ The next program you need to install is [Homebrew](https://brew.sh/), which make
 
 You will be prompted to enter your password. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press <kbd>Enter</kbd>.
 
+To verify the Homebrew installation, we can run
+
+```bash
+which brew
+```
+
+If it outputs a certain path, you're good to go ahead! But if the terminal reads ```brew not found```, please go through the [MacOS instructions in the setting up git lesson](https://www.theodinproject.com/lessons/foundations-setting-up-git) to get homebrew installed.
+
 Congratulations! You've installed the prerequisites!
 
 ### Step 2: Install Ruby
