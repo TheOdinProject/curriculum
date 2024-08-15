@@ -19,9 +19,9 @@ Let's create a simple HTML form, with a single text field for collecting a full 
 The HTML structure would look something like this:
 
 ```html
-<form action="/create" method="POST">
+<form action="/create" method="POST" >
   <label for="fullName">Full Name:</label>
-  <input placeholder="John Doe" type="text" name="fullName" id="fullName" />
+  <input placeholder="John Doe" type="text" name="fullName" id="fullName">
   <button type="submit">Submit</button>
 </form>
 ```
@@ -51,8 +51,8 @@ We then generate a new or updated view with the controller's response and redire
 
 Before the data from a form is sent off to our server, we should consider two important steps:
 
-- _Validation_ ensures user input meets the specified criteria (e.g. required fields, correct format).
-- _Sanitization_ cleans user input to prevent malicious data from being processed by removing or encoding potentially malicious characters.
+- *Validation* ensures user input meets the specified criteria (e.g. required fields, correct format).
+- *Sanitization* cleans user input to prevent malicious data from being processed by removing or encoding potentially malicious characters.
 
 We don't always have to sanitize data right when we get it - sometimes it makes sense to sanitize just before we use it instead.
 
@@ -60,7 +60,7 @@ We'll be using a library called `express-validator` to help us out with both of 
 
 #### Installing express-validator
 
-We start as usual by installing the correct package in the _root_ folder of our project.
+We start as usual by installing the correct package in the *root* folder of our project.
 
 ```bash
 npm install express-validator
@@ -82,7 +82,7 @@ The `body()` function allows you to specify which fields in the request body sho
 [
   body("birthdate", "Must be a valid date.")
     .optional({ values: "falsy" })
-    .isISO8601(), // Enforce a YYYY-MM-DD format.
+    .isISO8601() // Enforce a YYYY-MM-DD format.
 ];
 ```
 
@@ -99,7 +99,7 @@ You can also chain multiple validation methods, with unique error messages if th
     .notEmpty()
     .withMessage("Name can not be empty.")
     .isAlpha()
-    .withMessage("Name must only contain alphabet letters."),
+    .withMessage("Name must only contain alphabet letters."),  
 ];
 ```
 
@@ -122,15 +122,11 @@ When unescaped, this would be rendered into HTML as:
 
 ```html
 <div>
-  About Me:
-  <script>
-    alert("Hacked!");
-  </script>
-  !
+  About Me: <script>alert("Hacked!");</script>!
 </div>
 ```
 
-To prevent this [cross-site scripting (XSS) attack](https://en.wikipedia.org/wiki/Cross-site_scripting), we can _escape_ the output (you may also see this referred to as _encoding_). Escaped HTML replaces special characters, like `<`, with their respective HTML entities, in this case `&lt;`. In EJS, we can escape the output using `<%= %>`.
+To prevent this [cross-site scripting (XSS) attack](https://en.wikipedia.org/wiki/Cross-site_scripting), we can *escape* the output (you may also see this referred to as *encoding*). Escaped HTML replaces special characters, like `<`, with their respective HTML entities, in this case `&lt;`. In EJS, we can escape the output using `<%= %>`.
 
 ```ejs
 <div>
@@ -195,7 +191,7 @@ In our form, the action would look something like this:
 <form action="/users/<%= user.userId %>/update" method="POST"></form>
 ```
 
-`/users/:id/update` is an _endpoint_ we've created on our Express server.
+`/users/:id/update` is an *endpoint* we've created on our Express server.
 
 ### Putting it together
 
@@ -224,7 +220,7 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Express app listening on port ${PORT}!`));
 ```
 
-Most simple forms will use the `Content-Type: application/x-www-form-urlencoded` HTTP header when sending data to the server. Express, however, can't natively parse that data. We can use the `express.urlencoded()` middleware to handle this for us and automatically set form's data to the `req.body` field. When `extended` is `false`, our server will only accept a `string` or an array of data, so we set it to `true` for some added flexibility. Note that if the `Content-Type` doesn't match `application/x-www-form-urlencoded`, then your server will show the data as an empty object `{}`.
+Most simple forms will use the `Content-Type: application/x-www-form-urlencoded` HTTP header when sending data to the server. Express, however, can't natively parse that data. We can use the `express.urlencoded()` middleware to handle this for us and automatically set form's data to the `req.body` field. When `extended` is `false`,  our server will only accept a `string` or an array of data, so we set it to `true` for some added flexibility. Note that if the `Content-Type` doesn't match `application/x-www-form-urlencoded`, then your server will show the data as an empty object `{}`.
 
 Let's create a new router called `usersRouter.js` in the routes folder:
 
@@ -368,18 +364,12 @@ const alphaErr = "must only contain letters.";
 const lengthErr = "must be between 1 and 10 characters.";
 
 const validateUser = [
-  body("firstName")
-    .trim()
-    .isAlpha()
-    .withMessage(`First name ${alphaErr}`)
-    .isLength({ min: 1, max: 10 })
-    .withMessage(`First name ${lengthErr}`),
-  body("lastName")
-    .trim()
-    .isAlpha()
-    .withMessage(`Last name ${alphaErr}`)
-    .isLength({ min: 1, max: 10 })
-    .withMessage(`Last name ${lengthErr}`),
+  body("firstName").trim()
+    .isAlpha().withMessage(`First name ${alphaErr}`)
+    .isLength({ min: 1, max: 10 }).withMessage(`First name ${lengthErr}`),
+  body("lastName").trim()
+    .isAlpha().withMessage(`Last name ${alphaErr}`)
+    .isLength({ min: 1, max: 10 }).withMessage(`Last name ${lengthErr}`),
 ];
 
 // We can pass an entire array of middleware validations to our controller.
@@ -396,7 +386,7 @@ exports.usersCreatePost = [
     const { firstName, lastName } = req.body;
     usersStorage.addUser({ firstName, lastName });
     res.redirect("/");
-  },
+  }
 ];
 ```
 
@@ -485,7 +475,7 @@ exports.usersUpdatePost = [
     const { firstName, lastName } = req.body;
     usersStorage.updateUser(req.params.id, { firstName, lastName });
     res.redirect("/");
-  },
+  }
 ];
 ```
 
