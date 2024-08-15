@@ -69,7 +69,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What name is typically given for a Git remote that points to a repo that's been forked?](#initial-setup)
 - [Can you directly send your changes to a repository that you don't own/have write access to?](#sending-your-pull-request)
-- [What should you do immediately before merging your feature branch into main?](#ongoing-workflow)
+- [What should you do immediately before merging main into your feature branch?](#ongoing-workflow)
 
 ### Additional resources
 
