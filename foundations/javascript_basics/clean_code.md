@@ -1,4 +1,3 @@
-
 ### Introduction
 
 You might think that the majority of a developer's work involves writing code. However, in reality, a significant amount of time is spent on *reading* code. This includes code written by other team members, code written by people who are no longer part of your team, and even code that you wrote two weeks ago but may not remember much about.
@@ -24,11 +23,11 @@ Consider the following examples:
 Example A:
 
 ```javascript
+const x= function (z){
+   const w = "Hello ";
+return w +  z
 
-const x = function (z) {
-  const w = "Hello ";
-return w + z
-};
+ }
 
 x("John");
 ```
@@ -44,13 +43,13 @@ const generateUserGreeting = function (name) {
 generateUserGreeting("John");
 ```
 
-Which of these examples do you find easier to read? It's immediately clear that the latter one is more meaningful. Surprisingly, both of these functions perform the exact same task \(in the exact same way!\), and both are valid code. But the second one is much more readable. Why?
+Which of these examples do you find easier to read? It's immediately clear that the latter one is more meaningful. Surprisingly, both of these functions perform the exact same task (in the exact same way!), and both are valid code. But the second one is much more readable. Why?
 
-In the first example, single-letter variables are used and the indentation is inconsistent. The result is a piece of code that is confusing and messy.
+In the first example, single-letter variables are used and the indentation and spacing are inconsistent. The result is a piece of code that is confusing and messy.
 
 Imagine you're collaborating on a project with someone who has written the first function. How long will it take you to decipher what's going on so you can continue with your work? Or perhaps you've written it yourself some time ago and completely forgotten that it even existed. In both situations, you will eventually understand what is happening, but it's not going to be fun.
 
-Example B represents clean code. While you may not know what each part does, it's much easier to guess what's happening because the functions and variables are named clearly. The indentation follows a consistent and logical pattern.
+Example B represents cleaner code. While you may not know what each part does, it's much easier to guess what's happening because the functions and variables are named clearly. The indentation and spacing follow a consistent and logical pattern.
 
 Single characters can be used as variable names in the context of a loop or a callback function, but avoid them elsewhere.
 
