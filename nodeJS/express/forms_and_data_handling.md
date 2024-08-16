@@ -19,7 +19,7 @@ Let's create a simple HTML form, with a single text field for collecting a full 
 The HTML structure would look something like this:
 
 ```html
-<form action="/create" method="POST" >
+<form action="/create" method="POST">
   <label for="fullName">Full Name:</label>
   <input placeholder="John Doe" type="text" name="fullName" id="fullName">
   <button type="submit">Submit</button>
@@ -39,7 +39,7 @@ The `form` attributes define how to communicate with the server:
 - `action`: The resource/URL where data is sent for processing when the form is submitted. If this is not set, or is an empty string, the form will be submitted back to the current page URL
 - `method`: Defines the HTTP method to use (`POST` or `GET`).
 
-`POST` is generally more secure because it keeps sensitive information out of the URL, which means they won't show up in server logs, and is the standard choice for creating or updating data on the server side. `GET` is for forms that don't modify data, such as search forms, or when you want the form submission to be bookmarkable or shareable via URL.
+`POST` is generally more secure because it keeps sensitive information out of the URL, which means they won't show up in server logs, and is the standard choice for creating or updating data on the server side. `GET` is for forms that don't modify data, such as search forms, or when you want the form submission to be bookmarkable or shareable via URL. The form data here is sent as a query string as part of the request url.
 
 #### Form handling process
 
@@ -541,11 +541,10 @@ Don't forget to update the view to display these new fields!
 
 What if we want to search for a specific user in a list of thousands? We'll need a new route and view that lets clients search our list of users.
 
-1. Add a form (in `createUser.ejs` or another view) which accepts a `name` or `email` (or both!)
-1. Create a new route `/search` which accepts `GET` and `POST` requests.
-1. Add the search logic to your controller which searches your list for a matching user.
-   - Your `POST` request should handle searching for the user.
-   - Your `GET` request should then render the search result.
+1. Add a form with a `GET` method (in `createUser.ejs` or another view) which accepts a `name` or `email` (or both!)
+1. Create a new route `/search` which accepts a `GET` request.
+1. Add the search logic to your controller which searches your list for a matching user. Form data that has been sent via a `GET` request will not be available via `req.body`. You will need to use `req.query` instead.
+   - Your `GET` request should handle searching for the user and then render the search result.
 1. Display the search results in a new view: `search.ejs`.
 
 #### Further Reading
