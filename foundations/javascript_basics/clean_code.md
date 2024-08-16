@@ -57,7 +57,7 @@ Single characters can be used as variable names in the context of a loop or a ca
 
 camelCase is a naming convention that allows writing multiple words together without spaces or punctuation. In camelCase, when a variable name consists of multiple words like our `setTimeout` example, the first word is written completely in lowercase, while the first letter of the second word (and any subsequent words) are capitalized.
 
-Throughout this lesson, most of our variables and functions (at least in the good examples!) will be named using camelCase. It's a good example to follow.
+Throughout this lesson, most of our variables and functions will be named using camelCase. While not every language uses this convention, it's very common in JavaScript so it'll be a good example to follow.
 
 ### Naming functions and variables
 
@@ -69,44 +69,46 @@ In our good example, we have a variable `greeting`, to which the parameter `name
 
 Now, try picturing a conversation with someone about the bad example. The function is named `x` with variables like `z`, and `w`. Oof, not nice.
 
-#### Use a consistent vocabulary
+#### Use consistent vocabulary
 
-Variables of the same type should have consistent naming. Consider the following examples from a game:
+Variables of the same type ideally follow a consistent naming system. Consider the following examples from a game:
 
 ```javascript
- // Good
+// Consistent naming
 function getPlayerScore();
 function getPlayerName();
 function getPlayerTag();
+```
 
-// Bad
+They all follow the same naming system of "get a thing". Now consider the following:
+
+```javascript
+// Inconsistent naming
 function getUserScore();
 function fetchPlayerName();
 function retrievePlayer1Tag();
 ```
 
-In the bad example, three different names are used to refer to the player and the actions taken. Additionally, three different verbs are used to describe these actions. The good example maintains consistency in both variable naming and the verbs used.
+In the inconsistent example, three different verbs are used for the functions. While they all mean a similar thing, at a glance you might assume different verbs were used for a specific reason (e.g. "getting" might not be *quite* the same thing as "fetching" in some contexts). Additionally, what's the difference between `User`, `Player` and `Player1`? If there is no difference then ideally, you'd use the same name e.g. `Player`. Consistency allows for predicatability.
 
-Variables should always begin with a noun or an adjective (that is, a noun phrase) and functions with a verb.
-
-Another set of examples can illustrate why this matters:
+Variables should ideally begin with a noun or an adjective (that is, a noun phrase), as they typically represent "things", whether that thing is a string, a number etc. Functions represent actions so ideally begin with a verb.
 
 ```javascript
-// Good
+// Preferable
 const numberOfThings = 10;
 const myName = "Thor";
 const selected = true;
 
-// Bad (these start with verbs, could be confused for functions)
+// Not preferable (these start with verbs, could be confused for functions)
 const getCount = 10;
-const isSelected = true;
+const showNorseGods = ["Odin", "Thor", "Loki"];
 
-// Good
+// Preferable
 function getCount() {
   return numberOfThings;
 }
 
-// Bad (it's a noun)
+// Not preferable (myName doesn't represent some kind of action)
 function myName() {
   return "Thor";
 }
@@ -114,35 +116,35 @@ function myName() {
 
 ### Use searchable and immediately understandable names
 
-Sometimes, it can be tempting to use an undeclared variable. Let's take another look at an example:
+Sometimes, it can be tempting to use "magic values" i.e. explicit values, such as bare numbers or strings. Let's take another look at an example:
 
 ```javascript
 setTimeout(stopTimer, 3600000);
 ```
 
-The problem is obvious. What does the undeclared variable `3600000` mean, and how long is this timeout going to count down before executing `stopTimer`? Even if you know that JavaScript understands time in milliseconds, a calculator is needed.
+The problem is obvious. What does the magic number `3600000` mean, and how long is this timeout going to count down before executing `stopTimer`? Even if you know that JavaScript understands time in milliseconds, you'd probably need a calculator or Google to figure out how many seconds or minutes it represents.
 
 Now, let's make this code more meaningful by introducing a descriptive variable:
 
 ```javascript
-const MILLISECONDS_PER_HOUR = 60 * 60 * 1000; // 3,600,000;
+const ONE_HOUR = 3600000; // Can even write as 60 * 60 * 1000;
 
-setTimeout(stopTimer, MILLISECONDS_PER_HOUR);
+setTimeout(stopTimer, ONE_HOUR);
 ```
 
 Much better, isn't it? The variable is declared with a descriptive name, and you don't need to perform any calculations when reading this code.
 
-You might wonder why this variable is declared with all caps when we recommended camelCase earlier. This is a convention to be used when the programmer is absolutely sure that the variable is *truly* a constant. We know that the milliseconds in an hour will never change, so it's appropriate here.
+You might wonder why this variable is declared with all caps when we recommended camelCase earlier. This is a convention to be used when the programmer is absolutely sure that the variable is *truly* a constant, especially if it represents some kind of concept like a specific duration of time. We know that the milliseconds in an hour will never change, so it's appropriate here.
 
 ### Indentation and line length
 
 Now it's time to head to more controversial topics. The war between coders that use tabs and coders that use spaces to indent their code is essentially a joke by now, as demonstrated in the [tabs versus spaces scene from the show Silicon Valley](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
 
-What actually matters is *consistency*. Choose a way to indent and stick to it. Various JS style-guides recommend different options, and one is not really superior to the other. A few popular ones are linked in the additional resources.
+What actually matters is *consistency*. Choose a way to indent and stick to it. Various JavaScript style guides recommend different options, and one is not really superior to the other. We will look at style guides and related tools in more detail later in the curriculum.
 
 #### Line length
 
-Again, different style guides will recommend different options for this one, but just about ALL of them suggest limiting the length of each line of code.
+Again, different style guides will recommend different options for this one, but just about *all* of them suggest limiting the length of each line of code.
 
 Generally, your code will be easier to read if you manually break lines that are longer than about 80 characters. Many code editors have a line in the display to show when you have crossed this threshold. When manually breaking lines, you should try to break immediately *after* an operator or comma.
 
