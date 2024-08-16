@@ -62,7 +62,9 @@ While `href` specifies the destination link, `target` specifies where the linked
 
 <span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document.
 
-The `noopener` value prevents the opened link from gaining access to the webpage from which it was opened. The `noreferrer` value prevents the opened link from knowing which webpage or resource has a link (or 'reference') to it. It also includes the `noopener` behaviour and thus can be used by itself as well.
+The `noopener` value prevents the opened link from gaining access to the webpage from which it was opened.
+
+The `noreferrer` value prevents the opened link from knowing which webpage or resource has a link (or 'reference') to it. The `noreferrer` value also includes the `noopener` behaviour and thus can be used by itself as well.
 
 Why do we need this added behaviour for opening links in new tabs? Security reasons. The prevention of access that is caused by `noopener` prevents [phishing attacks](https://www.ibm.com/topics/phishing) where the opened link may change the original webpage to a different one to trick users. This is referred to as [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Adding the `noreferrer` value can be done if you wish to not let the opened link know that your webpage links to it.
 
@@ -172,7 +174,7 @@ For example, using an absolute path we can display an image located on The Odin 
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-To use images that we have on our own websites, we can use a relative path.
+To display images on your website that are hosted on your own web server, you can use a relative path.
 
 <details markdown="block">
 
