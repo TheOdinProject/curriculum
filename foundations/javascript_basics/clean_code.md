@@ -65,7 +65,7 @@ Throughout this lesson, most of our variables and functions will be named using 
 
 While this lesson shares some examples on ways to clean up code, in reality, every organization will have different specific approaches, some of which may differ slightly from our examples in this lesson. Nothing is absolute.
 
-What matters most is that these approaches all serve the same overall purpose - improve code readability and maintainability. Until a time comes where you need to follow a specific set of conventions, it is sensible to follow some kind of conventions and be consistent with them.
+What matters most is that these approaches all serve the same overall purpose - improve code readability and maintainability. Until a time comes where you need to follow a specific set of conventions, it is sensible to follow some convention and be consistent with them.
 
 </div>
 
@@ -99,7 +99,7 @@ function fetchPlayerName();
 function retrievePlayer1Tag();
 ```
 
-In the inconsistent example, three different verbs are used for the functions. While they all mean a similar thing, at a glance you might assume different verbs were used for a specific reason (e.g. "getting" might not be *quite* the same thing as "fetching" in some contexts). Additionally, what's the difference between `User`, `Player` and `Player1`? If there is no difference then ideally, you'd use the same name e.g. `Player`. Consistency allows for predicatability.
+In the inconsistent example, three different verbs are used for the functions. While they all mean a similar thing, at a glance you might assume different verbs were used for a specific reason (e.g. "getting" might not be *quite* the same thing as "fetching" in some contexts). Additionally, what's the difference between `User`, `Player` and `Player1`? If there is no difference then ideally, you'd use the same name e.g. `Player`. Consistency allows for predictability.
 
 Variables should preferably begin with a noun or an adjective (that is, a noun phrase), as they typically represent "things", whether that thing is a string, a number etc. Functions represent actions so ideally begin with a verb.
 
@@ -177,11 +177,11 @@ let anotherReallyReallyLongLine = something + somethingElse + anotherThing +
                                   howManyTacos + oneMoreReallyLongThing;
 ```
 
-Different formats aren't necessarily write or wrong, and different people may prefer different things. Do things in a way that makes sense to you, and stay consistent with it.
+Different formats aren't necessarily right or wrong, and different people may prefer different things. Do things in a way that makes sense to you, and stay consistent with it.
 
 ### Semicolons
 
-Semicolons are *mostly* optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality *can* break in certain situations, leading to bugs in your code, so we'd recommend getting used to adding semi-colons.
+Semicolons are *mostly* optional in JavaScript because the JavaScript interpreter will automatically insert them if they are omitted. This functionality *can* break in certain situations, leading to bugs in your code, so we'd recommend getting used to adding semicolons.
 
 Whether you do or not, again, consistency is the main thing.
 
@@ -275,7 +275,7 @@ Now that we've covered these ideas, it's good to return to the reminder we share
 
 Learning to write clean code is a process of constant improvement. One that will extend beyond you *completing* The Odin Project. This lesson is meant to serve as a primer and a starting point for that journey.
 
-> "Great code comes from experience. Experience comes from not-so-great code.
+> Great code comes from experience. Experience comes from not-so-great code.
 
 ### Assignment
 
