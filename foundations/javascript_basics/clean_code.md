@@ -59,6 +59,16 @@ camelCase is a naming convention that allows writing multiple words together wit
 
 Throughout this lesson, most of our variables and functions will be named using camelCase. While not every language uses this convention, it's very common in JavaScript so it'll be a good example to follow.
 
+<div class="lesson-note" markdown="1">
+
+#### Conventions are only conventions
+
+While this lesson shares some examples on ways to clean up code, in reality, every organization will have different specific approaches, some of which may differ slightly from our examples in this lesson. Nothing is absolute.
+
+What matters most is that these approaches all serve the same overall purpose - improve code readability and maintainability. Until a time comes where you need to follow a specific set of conventions, it is sensible to follow some kind of conventions and be consistent with them.
+
+</div>
+
 ### Naming functions and variables
 
 In our first example, we already touched on the importance of naming things *meaningfully*. Let's break down further what makes a good variable or function name.
@@ -91,7 +101,7 @@ function retrievePlayer1Tag();
 
 In the inconsistent example, three different verbs are used for the functions. While they all mean a similar thing, at a glance you might assume different verbs were used for a specific reason (e.g. "getting" might not be *quite* the same thing as "fetching" in some contexts). Additionally, what's the difference between `User`, `Player` and `Player1`? If there is no difference then ideally, you'd use the same name e.g. `Player`. Consistency allows for predicatability.
 
-Variables should ideally begin with a noun or an adjective (that is, a noun phrase), as they typically represent "things", whether that thing is a string, a number etc. Functions represent actions so ideally begin with a verb.
+Variables should preferably begin with a noun or an adjective (that is, a noun phrase), as they typically represent "things", whether that thing is a string, a number etc. Functions represent actions so ideally begin with a verb.
 
 ```javascript
 // Preferable
@@ -134,7 +144,7 @@ setTimeout(stopTimer, ONE_HOUR);
 
 Much better, isn't it? The variable is declared with a descriptive name, and you don't need to perform any calculations when reading this code.
 
-You might wonder why this variable is declared with all caps when we recommended camelCase earlier. This is a convention to be used when the programmer is absolutely sure that the variable is *truly* a constant, especially if it represents some kind of concept like a specific duration of time. We know that the milliseconds in an hour will never change, so it's appropriate here.
+You might wonder why this variable is declared with all caps when we recommended camelCase earlier. This is a convention to be used when the programmer is absolutely sure that the variable is *truly* a constant, especially if it represents some kind of concept like a specific duration of time. We know that the milliseconds in an hour will never change, so it's appropriate here. Remember, this is only a convention. Not everyone will necessarily do things the same way.
 
 ### Indentation and line length
 
