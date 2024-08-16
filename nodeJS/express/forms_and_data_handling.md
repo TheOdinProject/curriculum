@@ -19,7 +19,7 @@ Let's create a simple HTML form, with a single text field for collecting a full 
 The HTML structure would look something like this:
 
 ```html
-<form action="/create" method="POST" >
+<form action="/create" method="POST">
   <label for="fullName">Full Name:</label>
   <input placeholder="John Doe" type="text" name="fullName" id="fullName">
   <button type="submit">Submit</button>
@@ -543,7 +543,7 @@ What if we want to search for a specific user in a list of thousands? We'll need
 
 1. Add a form with a `GET` method (in `createUser.ejs` or another view) which accepts a `name` or `email` (or both!)
 1. Create a new route `/search` which accepts a `GET` request.
-1. Add the search logic to your controller which searches your list for a matching user. Form data that has been sent via a `GET` request will not be available in the `req.body`. You will need to use `req.query` instead.
+1. Add the search logic to your controller which searches your list for a matching user. Form data that has been sent via a `GET` request will not be available via `req.body`. You will need to use `req.query` instead.
    - Your `GET` request should handle searching for the user and then render the search result.
 1. Display the search results in a new view: `search.ejs`.
 
