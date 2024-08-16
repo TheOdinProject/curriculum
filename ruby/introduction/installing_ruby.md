@@ -263,6 +263,11 @@ You can double check that this worked by typing `ruby -v` and checking that the 
 
 ```bash
 ruby -v
+```
+
+You should get an output with a version number **similar** to this:
+
+```bash
 ruby 3.3.4pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
 ```
 
