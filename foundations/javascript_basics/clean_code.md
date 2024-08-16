@@ -261,16 +261,18 @@ In many situations, well-placed comments are priceless. They might explain why a
 
 ### In conclusion
 
-Now that we've covered these ideas, it's good to return to the reminder we shared at the start. Don't try to write perfectly clean code; this will only lead to frustration. Writing "spaghetti" is inevitable; everyone does it sometimes. Just keep these ideas in mind, and with time and patience, your code will start to get cleaner.
+Now that we've covered these ideas, it's good to return to the reminder we shared at the start. Don't try to write perfectly clean code, this will only lead to frustration. Writing "spaghetti" is inevitable; everyone does it sometimes. Just keep these ideas in mind, and with time and patience, your code will start to get cleaner.
 
 Learning to write clean code is a process of constant improvement. One that will extend beyond you *completing* The Odin Project. This lesson is meant to serve as a primer and a starting point for that journey.
+
+> "Great code comes from experience. Experience comes from not-so-great code.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. Read [10 Principles for Keeping Your Programming Code Clean](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/) to get some great tips for clean code.
-1. To help better understand good comment practices, read about [comments telling us how code works](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) as well as how to [code without comments](https://blog.codinghorror.com/coding-without-comments/).
+1. To help better understand good comment practices, read about [comments telling us why code works](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) as well as how to [code without comments](https://blog.codinghorror.com/coding-without-comments/).
 
 </div>
 
