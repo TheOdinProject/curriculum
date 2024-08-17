@@ -163,15 +163,17 @@ let reallyReallyLongLine =
   oneMoreReallyLongThing;
 
 // Or maybe like this
-   let anotherReallyReallyLongLine = something + somethingElse + anotherThing +
-                                     howManyTacos + oneMoreReallyLongThing;
+let anotherReallyReallyLongLine = something + somethingElse + anotherThing +
+                                  howManyTacos + oneMoreReallyLongThing;
 ```
+
+Different formats aren't necessarily write or wrong, and different people may prefer different things. Do things in a way that makes sense to you, and stay consistent with it.
 
 ### Semicolons
 
-Semicolons are *mostly* optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality CAN break in certain situations, leading to bugs in your code, so it is better to get used to adding semi-colons.
+Semicolons are *mostly* optional in JavaScript because the JS compiler will automatically insert them if they are omitted. This functionality *can* break in certain situations, leading to bugs in your code, so we'd recommend getting used to adding semi-colons.
 
-Again: consistency is the main thing.
+Whether you do or not, again, consistency is the main thing.
 
 ### About comments
 
