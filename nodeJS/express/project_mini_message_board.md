@@ -49,7 +49,7 @@ At this point you should know enough to use Express to make some fun interactive
 
 1. At the end of the `router.post()` function use `res.redirect("/")` to send users back to the index page after submitting a new message.
 1. At this point, you should be able to visit `/new` (it might be a good idea to add a link to that route on your index page), fill out the form, submit it and then see it show up on the index page!
-1. Add an "open" button next to every message to open a new page with the message details.
+1. Add a "open" button or link next to every message to open a new page with the message details.
 1. Push your project to GitHub.
 1. You'll learn how to deploy your app to the web in the next lesson, don't forget to come back and submit it to the submissions below once you're done!
 
