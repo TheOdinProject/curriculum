@@ -177,9 +177,7 @@ Whether you do or not, again, consistency is the main thing.
 
 ### About comments
 
-Comments are a great tool. But like any good tool, it can be misused. Especially for someone early in their coding journey, it might be tempting to have comments that explain *everything* the code is doing. This is not a good practice.
-
-Next, we'll look into some common pitfalls in commenting and *why* they are pitfalls.
+Comments are a great tool but like any good tool, they can be misused. Especially for someone early in their coding journey, it might be tempting to have comments that explain *everything* the code is doing. This is generally not a good practice. Let's look at some common pitfalls when commenting and *why* they are pitfalls.
 
 #### Don't comment when you should be using git
 
@@ -209,49 +207,48 @@ theFunctionInUse();
 
 #### Tell why, not how
 
-The purpose of comments is not to provide pseudo code that duplicates your code. Good comments explain the *reasons* behind a piece of code.
+Ideally, comments do not provide pseudocode that duplicates your code. Good comments explain the *reasons* behind a piece of code. Sometimes you won't even need a comment at all!
 
-Let's look at an example to see this in practice:
+Say we had a string where part of the text was inside square brackets and we wanted to extract the text within those brackets.
 
 ```javascript
-// Bad Example - comment doesn't tell why, only what and how
-
-// This function increments the value of i by 1
-function incrementI(i) {
-  i = i + 1; // Add one to i
-  return i;
-}
-
-// Better Example - comment tells a why
-
-// This function increments the value of index to move to the next element
-function incrementI(i) {
-  i = i + 1;
-  return i;
-}
-
-// Good Example - the code tells all that is needed
-
-function moveToNextElement(index) {
-  index = index + 1;
-  return index;
+// Function to extract text
+function extractText(s) {
+  // Return the string starting after the "[" and ending at "]"
+  return s.substring(s.indexOf("[") + 1, s.indexOf("]"));
 }
 ```
 
-In the bad example, the comments explain twice what the code does. But for this, you could've just read the code, so the comments are redundant.
-
-In the better example, the comment clarifies the purpose of the function: moving to the next element. That's good, but we can do *even* better.
-
-In the good example, no comments are needed at all. The use of descriptive functions and variable names eliminates the need for additional explanations. Pretty neat, huh?
-
-*This doesn't mean good code should lack comments*. In many situations, well-placed comments are priceless. The article linked in the assignment section goes into more depth on this. We don't want you to avoid comments; just be mindful of how they are best used.
-
-Let's look at one final example where a comment serves a good purpose:
+The comments just describe what we can tell from the code itself. Slightly more useful comments could explain the reasons behind the code.
 
 ```javascript
+// Extracts text inside square brackets (excluding the brackets)
+function extractText(s) {
+  return s.substring(s.indexOf("[") + 1, s.indexOf("]"));
+}
+```
 
+But often, we can make the code speak for itself without comments.
+
+```javascript
+function extractTextWithinBrackets(text) {
+  const bracketTextStart = text.indexOf("[") + 1;
+  const bracketTextEnd = text.indexOf("]");
+  return text.substring(bracketTextStart, bracketTextEnd);
+}
+```
+
+In the first example, the comments repeat twice what the code does. But for this, you could've just read the code, so the comments are redundant.
+
+In the second example, the comment clarifies the purpose of the function: extracting the text between square brackets from a string and not just "extracting text". That's handy, but we can do *even* better.
+
+In the last example, no comments are needed at all. The use of descriptive functions and variable names eliminates the need for additional explanations. Pretty neat, huh?
+
+**This doesn't mean good code should lack comments.** Let's look at an example where a comment serves a helpful purpose:
+
+```javascript
 function calculateBMI(height, weight) {
-    // The formula for BMI is weight in kilograms divided by height in meters squared
+  // The formula for BMI is weight in kilograms divided by height in meters squared
   const heightInMeters = height / 100;
   const bmi = weight / (heightInMeters * heightInMeters);
   return bmi;
@@ -259,6 +256,8 @@ function calculateBMI(height, weight) {
 ```
 
 This comment helps to refresh the reader on how BMI is calculated in plain English, helping the reader to see why the height needs to be converted and what the following calculation is doing. We are almost there with the naming, but the comment still adds further clarity.
+
+In many situations, well-placed comments are priceless. They might explain why an unintuitive bit of code is necessary, or perhaps the bigger picture of why a certain function is *particularly* important to be called here and not there. The article linked in the assignment section goes into more depth on this.
 
 ### In conclusion
 
