@@ -162,7 +162,7 @@ module.exports = {
 
 All we're doing here is making sure our Webpack configuration has access to HtmlWebpackPlugin, then adding it as a plugin to the configuration object. Inside the HtmlWebpackPlugin constructor call, we pass in any options. For now, we're only interested in the `template` option.
 
-If we provide the path to our `src/template.html` file as a template, when we run `npx webpack` again, you'll notice our `dist` directory not only contains a `main.js` file but an `index.html` file as well (it can't combine them into one file). You'll also notice that HtmlWebpackPlugin has automatically added a deferred script tag to our `main.js` bundle file - what a darling! If you open this file in the browser and check the browser console, you should see our lovely `"Hello, Odinite!"` string logged.
+If we provide the path to our `src/template.html` file as a template, when we run `npx webpack` again, you'll notice our `dist` directory not only contains a `main.js` file but an `index.html` file as well (it can't combine them into one file). You'll also notice that HtmlWebpackPlugin has automatically added a deferred script tag to our `index.html` file - what a darling! If you open this file in the browser and check the browser console, you should see our lovely `"Hello, Odinite!"` string logged.
 
 We've now successfully configured Webpack to handle our HTML file and inject the appropriate script tag. Any changes to HTML we make, we can just rerun Webpack to generate fresh `dist` code.
 
