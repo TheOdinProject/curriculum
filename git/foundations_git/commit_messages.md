@@ -93,7 +93,7 @@ There will come a time when you are working on a project and you FINALLY get som
 - Avoid using vague commit messages such as "saved" or "updated".
 - Commit early and often!
 
-#### How to create commit with subject and body in message
+#### How to commit with a subject and body in the message
 
 Up until now, you've been told to commit with `git commit -m <message>`. To make a commit with subject and body in message, the simplest way is to type `git commit` without the `-m` flag and message argument.
 Doing so will open a new Visual Studio Code tab if you had [set Visual Studio Code as the Git editor](https://www.theodinproject.com/lessons/foundations-git-basics#changing-the-git-commit-message-editor). You can remove any comments and enter your multi-line messages. When you save and close the tab, your commit will be created.
