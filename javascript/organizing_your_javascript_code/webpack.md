@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - Explain the purpose of bundlers and how they work.
 - Configure Webpack to bundle JavaScript modules.
-- Configure Webpack to deal with non-JavaScript files during bundling, including with HtmlWebpackPlugin.
+- Configure Webpack to handle non-JavaScript files during bundling, including using HtmlWebpackPlugin.
 - Set up Webpack's development server.
 
 ### Bundling
