@@ -113,7 +113,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
 - [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
 - [How does the Modulo (%), or Remainder, operator work?](https://javascript.info/operators#remainder)
-- [Explain the difference between `==` and `===`.](https://www.w3schools.com/js/js_numbers.asp)
+- [Explain the difference between `==` and `===`.](https://www.w3schools.com/js/js_operators.asp)
 - [When would you receive a `NaN` result?](https://www.w3schools.com/js/js_numbers.asp)
 - [How do you increment and decrement a number?](https://javascript.info/operators#increment-decrement)
 - [Explain the difference between prefixing and postfixing increment/decrement operators.](https://javascript.info/operators#increment-decrement)
