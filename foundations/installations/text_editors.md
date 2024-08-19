@@ -148,6 +148,68 @@ code
 
 1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
 
+<details markdown="block">
+
+<summary class="dropDown-header">Android</summary>
+
+#### Step 1: Install Termux
+
+-Go to this link to install .[Termux](https://fdroid.org/en/packages/com.termux/). Scroll down till you see the latest version of the application and click Download apk.
+
+Install the apk file of termux and click open.
+
+#### Step 2: Update your Termux
+
+```bash
+apt update && apt upgrade
+```
+#### Step 3: Install Proot-Distro Ubuntu
+
+```bash
+pkg install proot-distro -y
+```
+Wait for proot-distro to be installed. After that, install ubuntu using the package you installed.
+
+```bash
+proot-distro install ubuntu-oldlts
+```
+
+We are installing the Jammy Jellyfish version of Ubuntu because it's more lightweight for Android devices.
+
+#### Step 4: Login to your Proot-Distro Ubuntu
+
+```bash
+proot-distro login Ubuntu
+```
+Please take note that everytime you open your Termux app, you need to execute the command above to log in to your emulated Ubuntu environment.
+
+You can see it in your terminal whether you are logged in or not. If you see "root@localhost" or "<yourname>@localhost", you're good to go. If not, you need to execute the command.
+
+#### Step 5: Install VS Studio
+
+```bash
+apt update && apt upgrade -y
+apt install wget
+wget https://github.com/coder/code-server/releases/download/v4.91.1/code-server-4.91.1-linux-arm64.tar.gz
+```
+After the installation, you can extract the code server zip file.
+
+```bash
+tar -xf ./code-server-4.91.1-linux-arm64.tar.gz
+mv code-server-4.91.1-linux-arm64 vs
+```
+#### Step 6: Launch VS Studio
+
+```bash
+cd vs
+cd bin
+export PASSWORD="admin" //Use this command only once!
+./code-server
+```
+Lastly, go to your browser and type "localhost:8080". This will launch your Visual studio. 
+
+Everytime you need to launch VS studio, do the same instruction above but without the "export" command. 
+
 </div>
 
 ### Additional resources
