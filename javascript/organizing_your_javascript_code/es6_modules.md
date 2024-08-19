@@ -81,6 +81,8 @@ When using ESM, each module has its own private scope, where we use import/expor
 
 How do we actually import and export? In true JavaScript fashion, we don't have just one but two types of importing and exporting: `default` and `named`, and they essentially do the same kind of thing but very slightly differently. They can even be mixed and matched in the same file.
 
+For now, we'll just show you the different import/export syntaxes. Afterwards, we'll show you how to link scripts as ES6 modules, as it's not quite the same as before.
+
 #### Named exports
 
 Let's use our `one.js` and `two.js` examples from before. First, we'll need to export our greeting and farewell strings from `one.js`.
@@ -211,6 +213,8 @@ two.js <-------------- one.js <-------------- three.js
 ```
 
 Note that we only needed the one script tag, as the browser will handle the additional file dependencies for us. We also did not need to add the `defer` attribute, as `type="module"` will automatically defer script execution for us.
+
+If you had coded along with the IIFE example at the start of the lesson, try rewriting the JavaScript to use `import` and `export`, and link only the entry point as a module script.
 
 ### CommonJS
 
