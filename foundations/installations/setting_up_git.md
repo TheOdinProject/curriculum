@@ -14,9 +14,17 @@ Click the Operating System you have chosen below:
 
 <details markdown="block">
 
-<summary class="dropDown-header">Linux</summary>
+<summary class="dropDown-header">Linux/Android</summary>
 
 #### Step 1.1: Update the system
+
+If you're an Android user, open your termux app. If you're not logged in to your proot-distro Ubuntu, kindly run this command to get started:
+
+```bash
+proor-distro login ubuntu-oldlts
+```
+
+Using your emulated Ubuntu environment, you may proceed in this instruction.
 
 Run these commands in the terminal to update the Linux system:
 
