@@ -9,7 +9,7 @@ If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu
 
 #### Be mindful of the OS you are using
 
-We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
+This curriculum only optimized for the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc). While you can freely use Android or any other unmentioned OS, it might be unstable for some reasons. If you don't have a choice, you are free to proceed with some risks.
 
 </div>
 
