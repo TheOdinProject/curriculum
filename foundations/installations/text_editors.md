@@ -24,6 +24,66 @@ Choose your Operating System:
 
 <details markdown="block">
 
+<summary class="dropDown-header">Linux</summary>
+
+#### Step 1: Download VSCode
+
+- Open your **Terminal**.
+- Run the following command to download the latest **VSCode** `.deb` package:
+
+```bash
+wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
+```
+
+#### Step 2: Install VSCode
+
+- Enter the following command in your terminal to install the **VSCode** `.deb` package:
+
+```bash
+sudo apt install ./code-latest.deb
+```
+
+- If prompted, enter your password.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### A note on typing passwords in the terminal
+
+  When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+
+  This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
+
+  You can still enter your password as normal and press Enter to submit it.
+
+</div>
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [You can read a Reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
+
+</div>
+
+#### Step 3: Delete the installer file
+
+```bash
+rm code-latest.deb
+```
+
+#### Step 4: Using VSCode
+
+You can start VSCode in two ways,
+
+- Click **Visual Studio Code** from the Applications menu.
+- **Or**, use the `code` command from the terminal.
+
+```bash
+code
+```
+
+</details>
+
+<details markdown="block">
+
 <summary class="dropDown-header">MacOS</summary>
 
 #### Step 1: Download VSCode
@@ -81,12 +141,6 @@ Choose your Operating System:
 - After a few moments a new VSCode window should open, and VSCode should provide a notification that its opening in WSL2.
 
 </details>
-
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
-
-1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
 
 <details markdown="block">
 
@@ -150,65 +204,13 @@ Lastly, go to your browser and type "localhost:8080". This will launch your Visu
 
 Everytime you need to launch VS studio, do the same instruction above but without the "export" command. 
 
-<details markdown="block">
-
-<summary class="dropDown-header">Linux</summary>
-
-#### Step 1: Download VSCode
-
-- Open your **Terminal**.
-- Run the following command to download the latest **VSCode** `.deb` package:
-
-```bash
-wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
-```
-
-#### Step 2: Install VSCode
-
-- Enter the following command in your terminal to install the **VSCode** `.deb` package:
-
-```bash
-sudo apt install ./code-latest.deb
-```
-
-- If prompted, enter your password.
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### A note on typing passwords in the terminal
-
-  When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
-
-  This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
-
-  You can still enter your password as normal and press Enter to submit it.
-
-</div>
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [You can read a Reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
-
-</div>
-
-#### Step 3: Delete the installer file
-
-```bash
-rm code-latest.deb
-```
-
-#### Step 4: Using VSCode
-
-You can start VSCode in two ways,
-
-- Click **Visual Studio Code** from the Applications menu.
-- **Or**, use the `code` command from the terminal.
-
-```bash
-code
-```
-
 </details>
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
 
 </div>
 
