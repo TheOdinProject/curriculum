@@ -79,7 +79,7 @@ function MonthList() {
 }
 ```
 
-<span id="anti-pattern">Keys are straightforward to use, though there is an anti-pattern you should be aware of. Keys should never be generated on the fly. Using `key={Math.random()}` or `key={uuid()}` *while* rendering the list defeats the purpose of the list, as now a new `key` will get created for every render of the list. As shown in the above example, `key` should be inferred from the data itself.</span>
+<span id="anti-pattern">Keys are straightforward to use, though there is an anti-pattern you should be aware of. Keys should never be generated on the fly. Using `key={Math.random()}` or `key={uuid()}` *while* rendering the list defeats the purpose of the key, as now a new `key` will get created for every render of the list. As shown in the above example, `key` should be inferred from the data itself.</span>
 
 ```jsx
 const todos = [
@@ -102,7 +102,7 @@ function TodoList() {
 
 ### Conclusion
 
-Don't fret if some of the terms covered in the lesson don't make sense yet. What's crucial right now is knowing how to use keys effectively in React. As mentioned earlier, the more you learn about React, that's when you will realize why keys are so important. Furthermore, using keys is not limited to rendering lists. You might encounter use cases where keys are needed, we'll leave that for you to discover.
+Don't fret if some of the terms covered in the lesson don't make sense yet. What's crucial right now is knowing how to use keys effectively in React. As mentioned earlier, the more you learn about React, the more you will understand the importance of keys. Furthermore, using keys is not limited to rendering lists. You might encounter use cases where keys are needed, we'll leave that for you to discover.
 
 ### Assignment
 

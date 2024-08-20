@@ -175,21 +175,31 @@ The latter means that while your code and the proposed code arrive at the same o
 
 Due to Ruby's ecosystem, <span id="configure-rubocop">RuboCop was built with extensive configurability in mind - both in terms of not using some parts of and in terms of adding onto it.</span> Every single Cop can be disabled, sometimes Cops offer alternative rules like preferring single- or double-quotes for Strings, you can disable Cops on a per-file basis and much more.
 
-Since RuboCop is extensible, there exist other departments that you can use - like Performance or RSpec. You could even write your own Cop! The process of adding an extension is easy: you install the Gem locally and modify `.rubocop.yml`.
-
-Usually things that are not required for app to run are given the `require: false` flag, like:
+Since [RuboCop is extensible](https://docs.rubocop.org/rubocop/extensions.html), there exist other departments that you can use - like Performance or RSpec. You could even write your own Cop! The process of adding an extension is easy. Suppose you wanted to add the `rubocop-performance` Gem to your project. You first install the Gem locally from the command line:
 
 ```bash
-`gem 'rubocop-performance', require: false`
+gem install rubocop-performance
+```
+
+Next, you must tell Bundler to include the Gem in your project by adding the following line to your GemFile (Gems that are not required for an app to run are usually given the `require: false` flag):
+
+```ruby
+gem 'rubocop-performance', require: false
 ```
 
 This way the Gem would be installed normally, but for your `bundle exec` ran code to make use of it, it would need to be explicitly `require`d wherever you'd need it.
 
-`.rubocop.yml` is the configuration file for RuboCop and it lives in the root directory of your project. There you'll change the defaults of RuboCop to your (or most likely, your team's) liking. To create such config file, you can just use `bundle exec rubocop --init` - it won't have anything in it besides a comment describing what it is for but if we were to add the Performance extension, we'd need to throw `require: rubocop-performance` in there so RuboCop knows to run it.
+Next, you need to tell RuboCop to load your new extension. You can do this by editing a `.rubocop.yml` file, which is the configuration file for RuboCop and it lives in the root directory of your project. There you'll change the defaults of RuboCop to your (or most likely, your team's) liking. To create the `.rubocop.yml` file, run this command from your terminal in your project's directory:
+
+```bash
+bundle exec rubocop --init
+```
+
+It won't have anything in it besides a comment describing what it is for. Now, all you have to do is add the line `require: rubocop-performance` to this file and RuboCop will know to use the extension whenever you run `bundle exec rubocop`.
 
 RuboCop is still under development, so changes and additions happen. New Cops join the precinct and they're not enabled by default - if you'd like them to be enabled by default instead of going through all of them and deciding on your own, you can use:
 
-```bash
+```yaml
 AllCops:
   NewCops: enable
 ```
@@ -216,7 +226,7 @@ This will disable the `AbcSize` Cop from `Metrics` department between those comm
 
 Some rules are a lot more arbitrary - the Style department is going to be the prime ground for strong arguments about things that don't really matter - like double-quoting all strings vs making a distinction between plain strings and string interpolation. Perhaps you have strong feelings about quotes, so let's help you out by showing you how to show them to RuboCop.
 
-Start by creating a `.rubocop.yml` file using the command touch or nano(nano will open the text editor right away). Don't forget the it must a dotfile, meaning it needs to have a dot before its name. Now, you need to find out what rule you want to change or disable. For the possible options always consult the documentation - not every Cop is just a simple on/off, there might be more options. As an example, we'll be changing the rules regarding strings, frozen string literals and we'll enable NewCops.
+Start by creating a `.rubocop.yml` file using the command touch or nano(nano will open the text editor right away). Don't forget that it must be a dotfile, meaning it needs to have a dot before its name. Now, you need to find out what rule you want to change or disable. For the possible options always consult the documentation - not every Cop is just a simple on/off, there might be more options. As an example, we'll be changing the rules regarding strings, frozen string literals and we'll enable NewCops.
 
 ```yaml
 # This is .rubocop.yml in ~/

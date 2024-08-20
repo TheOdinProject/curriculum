@@ -16,7 +16,7 @@ Why are we setting it up like this? Because we can! If you already have a portfo
    - Posts should probably have a title, but should comments?
    - A useful feature for a blog is the ability to have posts that are in the database but not published for the public to read. How might you designate published vs unpublished posts in your DB?
    - You will want a user model that will contain any blog authors and any normal user accounts. Even if you decide to only have a single author and no normal user accounts, a minimal user model will still be helpful to allow for easier route protection via authentication.
-1. Set up your Express app, and define the models in Mongoose.
+1. Set up your Express app, and define the models in Prisma.
 1. Set up your routes and controllers!  Think about RESTful organization for this one. Most of the examples in the previous lesson were centered around posts and comments so this shouldn't be too tricky.
    - You can test your routes however you want. Using `curl` in a terminal is one handy way, but it can be just as effective to use a web browser. There are some platforms that allow you to send `PUT` and `POST` requests without needing to set up and fill out HTML forms. [Postman](https://www.postman.com/downloads/) is probably the most popular.
 1. Certain routes will need to be protected via authentication. You wouldn't want any random stranger online to edit your articles! If you also implement normal user accounts then you may also want to protect some routes behind being logged in.
@@ -31,7 +31,7 @@ Why are we setting it up like this? Because we can! If you already have a portfo
    - A 'NEW POST' form. If you want to get fancy, you could use a rich text editor such as [TinyMCE](https://www.tiny.cloud/docs/tinymce/6/cloud-quick-start/).
    - The ability to manage comments (i.e. delete or edit them).
 1. How much work you want to put into the front-end code on this one is up to you. Technically this is a backend focused course so if you would prefer, feel free to focus on the REST API.
-1. Deploying your separate apps isn't anything fancy. Deploy your API like with your previous projects using a PaaS from the [Deployment lesson](https://www.theodinproject.com/lessons/nodejs-deployment), and deploy your front-ends like you would have deployed your front-ends before. If you used React, recall several hosting options from the [CV Application project](https://www.theodinproject.com/lessons/node-path-react-new-cv-application).
+1. Deploying your separate apps isn't anything fancy. Deploy your API like with your previous projects using a PaaS from the [Deployment lesson](https://www.theodinproject.com/lessons/node-path-nodejs-deployment), and deploy your front-ends like you would have deployed your front-ends before. If you used React, recall several hosting options from the [CV Application project](https://www.theodinproject.com/lessons/node-path-react-new-cv-application).
 
 </div>
 
