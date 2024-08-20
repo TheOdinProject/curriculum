@@ -76,13 +76,13 @@ Your new recipe page should have the following content:
 
 #### A note about images on the web
 
-You do not have the legal right to use just any image that you find on the web or Google—you could get sued. There are many free images to be found, but make sure that the image you use is actually free for your intended purpose, and make sure to give credit to the creator of the image in your project. 
+You do not have the legal right to use just any image that you find on the web or Google—you could get sued. There are many free images to be found, but make sure that the image you use is actually free for your intended purpose, and make sure to give credit to the creator of the image in your project.
 
 An easy way to give credit is to include the creator's name and contact info in a README file in your repository, or give [attribution](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US).
 However, always follow the specific license requirements for each image you use.
 
 Some good places to find free-to-use images on the web includes [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/), and [Unsplash](https://unsplash.com/),
-or Google images with "Creative Commons License"(in 'images' result - click 'Tools' -> 'Usage rights' -> 'creative commons' and click on your photo and click 'License details' and review it before use.) 
+or Google images with "Creative Commons License"(in 'images' result - click 'Tools' -> 'Usage rights' -> 'creative commons' and click on your photo and click 'License details' and review it before use.)
 
 We recommend that you always review the license requirements of any images you want to use.
 
