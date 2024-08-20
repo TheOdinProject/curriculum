@@ -108,7 +108,7 @@ So in summary, there are two ways to declare a variable:
 - `let`, which we can re-assign.
 - `const` which we **can't** re-assign and will throw an error if we try.
 
-There is also a third way - using `var`. It is the old way and should **not** be used. However, you will likely come across code which uses `var`, so it is important to know that it exists. Do not worry too much about it for now.
+There is also a third way - using `var`. It's similar to `let`, but it is the old way and should **not** be used. However, you will likely come across code which uses `var`, so it is useful to know that it exists. Do not worry too much about it for now.
 
 ### Numbers
 
