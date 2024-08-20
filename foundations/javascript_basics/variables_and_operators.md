@@ -8,9 +8,10 @@ In this section, we will focus on the fundamentals of JavaScript and how you can
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Discuss the different ways you can declare variables.
-- Learn how to write mathematical expressions and the basic arithmetic operators.
-- What is operator precedence and some more advanced operators.
+- Running JavaScript code using an HTML file and via the browser console.
+- Declaring variables with `let` and `const`.
+- Performing arithmetic with numbers and variables.
+- Operator precedence.
 
 ### How to run JavaScript code
 
