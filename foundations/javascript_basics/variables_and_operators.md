@@ -105,8 +105,8 @@ An error is thrown. It doesn't even reach the `console.log`! You may wonder why 
 
 So in summary, there are two ways to declare a variable:
 
-- With `let`, which we can re-assign.
-- Using `const` which we **can't** re-assign and will throw an error if we try.
+- `let`, which we can re-assign.
+- `const` which we **can't** re-assign and will throw an error if we try.
 
 There is also a third way - using `var`. It is the old way and should **not** be used. However, you will likely come across code which uses `var`, so it is important to know that it exists. Do not worry too much about it for now.
 
