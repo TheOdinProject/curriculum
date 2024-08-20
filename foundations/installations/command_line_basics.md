@@ -29,7 +29,7 @@ The window that opens will be mostly blank, with the exception of some text that
 
 It returns your username. Cool!
 
-Often, guides and instructions for using the terminal will indicate commands by putting the symbol first, like `$ whoami`.  This tells you to type the command in your terminal, but don't enter the `$`. And remember, if you are using a newer Mac, the `%` is the same as `$`
+Often, guides and instructions for using the terminal will indicate commands by putting the symbol first, like `$ whoami`.  This tells you to type the command in your terminal, but don't enter the `$`. And remember, if you are using a newer Mac, the `%` is the same as `$`.
 
 #### Why learn this now?
 
@@ -108,7 +108,7 @@ Many of these resources assume you're using a Mac or Linux environment. If you d
 
     1. Create a new directory in your home directory with the name `test`.
     1. Navigate to the `test` directory.
-    1. Create a new file called `test.txt`. *Hint: use the `touch` or `echo` command.*
+    1. Create a new file called `test.txt`. *Hint: use the `touch` command.*
     1. Open your newly created file in VSCode, make some changes, save the file, and close it.
     1. Navigate back out of the `test` directory.
     1. Delete the `test` directory.

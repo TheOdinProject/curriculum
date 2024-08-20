@@ -135,7 +135,7 @@ You can access strings inside strings. Stringception! It's super easy, too.
 
 ```
 
-In the above example we can access the individual characters of a string by referencing the index(es) of the character within the string using `[]`. For more information on the topic you can read the [method documentation](https://docs.ruby-lang.org/en/3.3/String.html#class-String-label-String+Slices).
+In the above example we can access the individual characters of a string by referencing the index(es) of the character within the string using `[]`. For more information on the topic you can read the [#slice method documentation](https://docs.ruby-lang.org/en/3.3/String.html#class-String-label-String+Slices).
 
 #### Escape characters
 
@@ -178,7 +178,7 @@ puts 'Hello, #{name}' #=> "Hello, #{name}"
 
 There are many useful string methods that are built into Ruby. You need to capitalize a word? No problem! Reverse a string? Easy peasy. Extract the binary subatomic algorithm from any regex grep? We don't know, but since this is Ruby, let's go with *YES*.
 
-Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs](https://docs.ruby-lang.org/en/3.3/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
+Just remember, strings have loads of methods provided to you for free, and you can find them all in the [Ruby docs for the String class](https://docs.ruby-lang.org/en/3.3/String.html). If you're working with strings and need to do something, check the Ruby docs first and see if there's a method that does it for you.
 
 Below is a quick recap of the more common string methods you might find yourself using:
 
@@ -316,7 +316,7 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [Basics chapter](https://launchschool.com/books/ruby/read/basics) of LaunchSchool's *Introduction to Programming With Ruby* for a different explanation of Ruby's data types.
+1. Read the [Basics chapter of LaunchSchool's *Introduction to Programming With Ruby*](https://launchschool.com/books/ruby/read/basics) for a different explanation of Ruby's data types. Be sure to also complete the exercises.
 1. [Read Alex Chaffee’s brief writeup on Objects](https://codelikethis.com/lessons/learn-to-code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
 1. Now it is time to complete some test-driven exercises to practice what you have learned in this lesson.
 
@@ -331,25 +331,25 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#numbers">What are the basic arithmetic operators you can use on numbers? </a>
-- <a class="knowledge-check-link" href="#integers-and-floats">What's the difference between an integer and a float?</a>
-- <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert a float to an integer?</a>
-- <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert an integer to a float?</a>
-- <a class="knowledge-check-link" href="#strings">What is a string?</a>
-- <a class="knowledge-check-link" href="#double-and-single-quotation-marks">What are the differences between single and double quotes?</a>
-- <a class="knowledge-check-link" href="#interpolation">What is string interpolation?</a>
-- <a class="knowledge-check-link" href="#concatenation">How do you concatenate strings?</a>
-- <a class="knowledge-check-link" href="#upcase">What method would you use to change all the characters in your string to upper case?</a>
-- <a class="knowledge-check-link" href="#split">What method would you use to split up strings into arrays?</a>
-- <a class="knowledge-check-link" href="#escape-characters">What are escape characters?</a>
-- <a class="knowledge-check-link" href="#substrings">How do you access a specific character or substring?</a>
-- <a class="knowledge-check-link" href="#converting-other-objects-to-strings">How do you convert other data types into strings?</a>
-- <a class="knowledge-check-link" href="#symbols">What is a symbol?</a>
-- <a class="knowledge-check-link" href="#create-a-symbol">How do you create a symbol?</a>
-- <a class="knowledge-check-link" href="#symbols-vs-strings">What's the difference between a symbol and a string?</a>
-- <a class="knowledge-check-link" href="#true-and-false">What does `true` represent?</a>
-- <a class="knowledge-check-link" href="#true-and-false">What does `false` represent?</a>
-- <a class="knowledge-check-link" href="#nil">What does `nil` represent?</a>
+- [What are the basic arithmetic operators you can use on numbers? ](#numbers)
+- [What's the difference between an integer and a float?](#integers-and-floats)
+- [What method would you use to convert a float to an integer?](#converting-number-types)
+- [What method would you use to convert an integer to a float?](#converting-number-types)
+- [What is a string?](#strings)
+- [What are the differences between single and double quotes?](#double-and-single-quotation-marks)
+- [What is string interpolation?](#interpolation)
+- [How do you concatenate strings?](#concatenation)
+- [What method would you use to change all the characters in your string to upper case?](#upcase)
+- [What method would you use to split up strings into arrays?](#split)
+- [What are escape characters?](#escape-characters)
+- [How do you access a specific character or substring?](#substrings)
+- [How do you convert other data types into strings?](#converting-other-objects-to-strings)
+- [What is a symbol?](#symbols)
+- [How do you create a symbol?](#create-a-symbol)
+- [What's the difference between a symbol and a string?](#symbols-vs-strings)
+- [What does `true` represent?](#true-and-false)
+- [What does `false` represent?](#true-and-false)
+- [What does `nil` represent?](#nil)
 
 ### Additional resources
 

@@ -12,13 +12,20 @@ By the end of this unit, you should not only understand how the web works but al
 
 This section intentionally covers a very broad range of topics. It's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Understand how The Odin Project's curriculum works.
+- Understand how the Foundations course works.
+
 ### How it works
 
 This curriculum works by aggregating the best content from across the internet to teach a specific topic. In each lesson, we'll introduce the topic and try to provide some useful context before pointing you to external resources made by others.
 
 Most lessons will contain questions that you should be able to answer before moving on. Some lessons will include exercises for you to complete. In addition, we provide several projects throughout the curriculum to help you grow your understanding by actually building things.
 
-Try not to think of The Odin Project, or programming, as a class in school. It's not material you learn all at once to take a test, and then pass or fail. You can think of it as a snowball. You, yourself, are a snowball. You're rolling down a hill full of snow; the further you roll, the more snow will stick to you. Sure, snow will also fall off you, and you'll forget things often, but that's just part of the process. Don't worry if you reach a project and feel like you haven't retained or memorized anything. That's natural and happens to everyone. The information will come back to you as you start solving your problems one at a time, relying on Google and the Odin Community for help.
+Try not to think of The Odin Project, or programming, as a class in school. It's not material you learn all at once to take a test, and then pass or fail. You can think of it as a snowball. You, yourself, are a snowball. You're rolling down a hill full of snow; the further you roll, the more snow will stick to you. Sure, snow will also fall off you, and you'll forget things often, but that's just part of the process. Don't worry if you reach a project and feel like you haven't retained or memorized anything. That's natural and happens to everyone. **The projects are not tests of what you have memorized so far.** They are practice points where the information will come back to you as you start solving your problems one at a time, relying on Google and the Odin Community for help.
 
 ### A note about tools
 
@@ -29,7 +36,7 @@ The truth is that once you complete this curriculum, you will **not need** a cou
 One of the most difficult parts about this course is adopting the right mindset. An even bigger challenge is learning the core ideas of programming. It isn't just about coding, it is about problem-solving, asking the right questions, and doing enough research. Getting into a position where you are comfortable with the skills will mean that you will also be comfortable at expanding your skill-set. Once you have a solid *base*, it will be simpler to expand upon it. This is exactly what The Odin Project is about: developing these *skills*.
 
 After completing the course you will be in a position where you can simply jump straight into the documentation for anything you are trying to learn.
-Reading the documentation is the best way to learn any tooling. But it takes skill to master. Many people feel intimidated by the technical jargon, which is understandable. People who write documentations usually assume a background in programming. This is exactly why we give you plenty of material to read on your own.
+Reading the documentation is the best way to learn any tooling. But it takes skill to master. Many people feel intimidated by the technical jargon, which is understandable. People who write documentation usually assume a background in programming. This is exactly why we give you plenty of material to read on your own.
 
 The skills you will gain from completing The Odin Project will be the foundation that you will be building upon for years and decades to come. If you come out of the course thinking that you need another course like this one to learn something like Python, then you either don't believe in yourself or you haven't taken away the important ideas that are covered in this course.
 
@@ -67,6 +74,13 @@ Additional resources are the only thing that is considered optional unless expli
 1. Check out the [frequently asked questions](https://www.theodinproject.com/faq) section.
 
 </div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What is The Odin Project?](#introduction)
+- [Should you skip anything in The Odin Project or complete it non-linearly?](#what-comes-next)
 
 ### Additional resources
 

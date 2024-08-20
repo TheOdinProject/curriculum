@@ -1,4 +1,5 @@
 ### Introduction
+
 In Ruby, methods are where all the action happens!
 
 You will often find yourself writing code that does the same thing in different places in your program. Wouldn't it be great if there was a way to reuse the same code over and over again without having to write it all out each time? This is what methods are for! Methods allow you to name sections of your code and then run that code anywhere in your program as many times as you need just by calling that name.
@@ -17,18 +18,18 @@ In this lesson, we're going to deconstruct what methods are, examine their behav
 
 This section contains a general overview of topics that you will learn in this lesson.
 
- - Explain how to create and call a new method.
- - Explain how to pass variables to a method and how to define default parameters.
- - Describe the differences between implicit return and explicit return.
- - Explain what it means to chain methods together and how to do it.
- - Explain what predicate methods are and how to use one.
- - Explain what bang methods are and how to use one.
+- Explain how to create and call a new method.
+- Explain how to pass variables to a method and how to define default parameters.
+- Describe the differences between implicit return and explicit return.
+- Explain what it means to chain methods together and how to do it.
+- Explain what predicate methods are and how to use one.
+- Explain what bang methods are and how to use one.
 
 ### Ruby's built-in methods
 
-One of Ruby's great advantages for new programmers is its large number of built-in methods. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. For example, the [`#times`](https://docs.ruby-lang.org/en/3.3/Integer.html#method-i-times) and [`#upto`](https://docs.ruby-lang.org/en/3.3/Integer.html#method-i-upto) loops that you learned about in the Loops lesson are both methods that are included as part of Ruby's [`Integer`](https://docs.ruby-lang.org/en/3.3/Integer.html) class.
+One of Ruby's great advantages for new programmers is its large number of built-in methods. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. For example, the [#times loop](https://docs.ruby-lang.org/en/3.3/Integer.html#method-i-times) and [#upto loop](https://docs.ruby-lang.org/en/3.3/Integer.html#method-i-upto) that you learned about in the Loops lesson are both methods that are included as part of Ruby's [Integer class](https://docs.ruby-lang.org/en/3.3/Integer.html).
 
-If you're wondering about all of the pound signs (`#`), they're just [the convention](https://stackoverflow.com/questions/736120/why-are-methods-in-ruby-documentation-preceded-by-a-hash-sign) for writing out Ruby instance methods. We can use them to write out the full name of an instance method, e.g., `Integer#upto`, or just the method name, e.g., `#upto`, depending on the context. Note that in the development world, you shouldn't call these ["hashtags"](https://help.x.com/en/using-twitter/how-to-use-hashtags). If you want to be super awesome, though, you can call them ["octothorpes"](https://en.wiktionary.org/wiki/octothorpe). That word is totally trending.
+If you're wondering about all of the pound signs (`#`), they’re just [the convention for writing out Ruby instance methods](https://stackoverflow.com/questions/736120/why-are-methods-in-ruby-documentation-preceded-by-a-hash-sign). We can use them to write out the full name of an instance method, e.g., `Integer#upto`, or just the method name, e.g., `#upto`, depending on the context. Note that in the development world, you shouldn't call these hashtags. If you want to be super awesome, though, you can call them ["octothorpes"](https://en.wiktionary.org/wiki/octothorpe). That word is totally trending.
 
 Methods are typically called by adding `.method_name` after an instance of the object that contains that method.
 
@@ -60,11 +61,11 @@ puts my_name    #=> "Joe Smith"
 
 Let's break this example down:
 
- * `def` is a built-in keyword that tells Ruby that this is the start of a method definition.
- * `my_name` is the name of your new method. You can name your methods almost anything you want, but there are some constraints and conventions, which are described in the next section.
- * `"Joe Smith"` is the code inside the method body. All of the logic for your method is contained in the indented lines of the method body. This particular method returns a string when the method is called.
- * `end` is a built-in keyword that tells Ruby that this is the end of the method definition.
- * <span id="calling-a-method">To call the method, you need to use its name, as shown in the last line of the example.</span>
+- `def` is a built-in keyword that tells Ruby that this is the start of a method definition.
+- `my_name` is the name of your new method. You can name your methods almost anything you want, but there are some constraints and conventions, which are described in the next section.
+- `"Joe Smith"` is the code inside the method body. All of the logic for your method is contained in the indented lines of the method body. This particular method returns a string when the method is called.
+- `end` is a built-in keyword that tells Ruby that this is the end of the method definition.
+- <span id="calling-a-method">To call the method, you need to use its name, as shown in the last line of the example.</span>
 
 ### Method names
 
@@ -72,14 +73,14 @@ As mentioned above, you can name your methods almost anything you want, but you 
 
 Your method names can use numbers, capital letters, lowercase letters, and the special characters `_`, `?`, `!`, and `=`. <span id="snake-case">Just like with variable names in Ruby, the convention for a method name with multiple words is to use **snake_case**, separating words with underscores.</span>
 
-It's good practice to start the method name with a lower-case character, because names that start with capital letters are constants in Ruby. Check [here](https://stackoverflow.com/questions/10542354/what-are-the-restrictions-for-method-names-in-ruby) for more details.
+It's good practice to start the method name with a lower-case character, because [names that start with capital letters are constants in Ruby](https://stackoverflow.com/questions/10542354/what-are-the-restrictions-for-method-names-in-ruby).
 
 Here are some things you are not allowed to do with your method names:
 
-* <span id="reserved-words">You cannot name your method one of Ruby's approximately 40 reserved words, such as `end`, `while`, or `for`. Checkout the full list [here](http://www.java2s.com/Code/Ruby/Language-Basics/Rubysreservedwords.htm).</span>
-* You cannot use any symbols other than `_`, `?`, `!`, and `=`.
-* You cannot use `?`, `!`, or `=` anywhere other than at the end of the name.
-* You cannot begin a method name with a number.
+- <span id="reserved-words">You cannot name your method one of [Ruby’s approximately 40 reserved words](https://docs.ruby-lang.org/en/3.3/keywords_rdoc.html), such as `end`, `while`, or `for`.</span>
+- You cannot use any symbols other than `_`, `?`, `!`, and `=`.
+- You cannot use `?`, `!`, or `=` anywhere other than at the end of the name.
+- You cannot begin a method name with a number.
 
 Here are some examples of valid and invalid method names:
 
@@ -202,12 +203,12 @@ puts even_odd("Ruby") #=>  A number was not entered.
 
 Now, try removing the explicit `return` from the method above. Does the method return what you expected?
 
-#### Difference between `puts` and `return`
+#### Difference between puts and return
 
 A common source of confusion for new programmers is the difference between `puts` and `return`.
 
- * `puts` is a method that prints whatever argument you pass it to the console.
- * `return` is the final output of a method that you can use in other places throughout your code.
+- `puts` is a method that prints whatever argument you pass it to the console.
+- `return` is the final output of a method that you can use in other places throughout your code.
 
 For example, we can write a method that calculates the square of a number and then `puts` the output to the console.
 
@@ -297,33 +298,36 @@ puts whisper #=> "hello everybody"
 Writing `whisper.downcase!` is the equivalent of writing `whisper = whisper.downcase`.
 
 ### Assignment
+
 <div class="lesson-content__panel" markdown="1">
 
 1. For a good introduction to all the different concepts related to methods, read the [Methods chapter](https://launchschool.com/books/ruby/read/methods) from Launch School's *Introduction to Programming with Ruby*. Make sure to do the exercises at the end of the chapter too!
-2. To get a different take, read the part of the Objects section that discusses [Methods](http://ruby-for-beginners.rubymonstas.org/objects/methods.html) from Ruby Monsta's *Ruby for Beginners*.
-3. For more depth on how you can write your own methods, read the section on [Writing Methods](http://ruby-for-beginners.rubymonstas.org/writing_methods.html) from Ruby Monsta's *Ruby for Beginners*.
-4. Complete the [method](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
+1. To get a different take, read the part of the Objects section that discusses [Methods](http://ruby-for-beginners.rubymonstas.org/objects/methods.html) from Ruby Monsta's *Ruby for Beginners*.
+1. For more depth on how you can write your own methods, read the section on [Writing Methods](http://ruby-for-beginners.rubymonstas.org/writing_methods.html) from Ruby Monsta's *Ruby for Beginners*.
+1. Complete the method exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
+
 </div>
 
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you're having trouble answering the questions below on your own, review the material above to find the answer.
 
- * <a class="knowledge-check-link" href="#creating-a-method">How would you create your own method?</a>
- * <a class="knowledge-check-link" href="#calling-a-method">How would you call your new method?</a>
- * <a class="knowledge-check-link" href="#parameters-and-arguments">How do you pass variables to your method?</a>
- * <a class="knowledge-check-link" href="#default-parameters">How do you define default parameters for your method?</a>
- * <a class="knowledge-check-link" href="#what-methods-return">What is the difference between an explicit return and an implicit return?</a>
- * <a class="knowledge-check-link" href="#difference-between-puts-and-return">What is the difference between `puts` and `return`?</a>
- * <a class="knowledge-check-link" href="#chaining-methods">How do you chain multiple methods together?</a>
- * <a class="knowledge-check-link" href="#method-names">Give an example of a valid method name and an invalid method name.</a>
- * <a class="knowledge-check-link" href="#snake-case">What is snake case?</a>
- * <a class="knowledge-check-link" href="#reserved-words">What are some of Ruby's reserved words?</a>
- * <a class="knowledge-check-link" href="#predicate-methods">What do you call a method that returns `true` or `false`? What is their naming convention?</a>
- * <a class="knowledge-check-link" href="#bang-methods">What do bang methods do? What is their naming convention?</a>
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [How would you create your own method?](#creating-a-method)
+- [How would you call your new method?](#calling-a-method)
+- [How do you pass variables to your method?](#parameters-and-arguments)
+- [How do you define default parameters for your method?](#default-parameters)
+- [What is the difference between an explicit return and an implicit return?](#what-methods-return)
+- [What is the difference between `puts` and `return`?](#difference-between-puts-and-return)
+- [How do you chain multiple methods together?](#chaining-methods)
+- [Give an example of a valid method name and an invalid method name.](#method-names)
+- [What is snake case?](#snake-case)
+- [What are some of Ruby's reserved words?](#reserved-words)
+- [What do you call a method that returns `true` or `false`? What is their naming convention?](#predicate-methods)
+- [What do bang methods do? What is their naming convention?](#bang-methods)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-  - For a deeper look at methods, read the [Methods chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards Book of Ruby. Try to complete the exercises throughout the chapter.
-  - For more discussion on the subtle differences between methods and functions and how they can differ between programming languages, here is a [handy explanation on Stack Overflow](https://stackoverflow.com/questions/155609/difference-between-a-method-and-a-function).
+- For a deeper look at methods, read the [Methods chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards Book of Ruby. Try to complete the exercises throughout the chapter.
+- Read this explanation on Stack Overflow about the [subtle differences between methods and functions, and how they can differ between programming languages](https://stackoverflow.com/questions/155609/difference-between-a-method-and-a-function).

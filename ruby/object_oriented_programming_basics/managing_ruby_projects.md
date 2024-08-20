@@ -326,7 +326,7 @@ So, if people behind a gem maintain it in line with semantic versioning, you can
 
 ### .ruby-version
 
-There's another important thing to give to folks that will run your code: the target Ruby version of your project. You can do it easily by running `rbenv local 3.2.2` as it creates a `.ruby-version` file with the version declared.
+There's another important thing to give to folks that will run your code: the target Ruby version of your project. You can do it easily by running `rbenv local 3.2.2` as it creates a `.ruby-version` file with the version declared - 3.2.2. Test the command out by using one of your rbenv installed Ruby versions. Run `rbenv versions` to see the list of Ruby versions you have installed.
 
 Many other tools recognize this to figure out what Ruby version your project is running - for example, `rbenv` will no longer use the `global` Ruby version and the `Ruby LSP` VSCode extension will also change its behavior.
 
@@ -340,7 +340,7 @@ After that, you will enjoy all the benefits of using `Ruby LSP` and its `RuboCop
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read [Eric Mathison's Understanding require and Friends in Ruby](https://github.com/ericmathison/articles/blob/master/understaning-require-in-ruby.md).
+1. Read [Eric Mathison's Understanding require and Friends in Ruby](https://github.com/ericmathison/articles/blob/master/understanding-require-in-ruby.md).
 1. Check out the [RubyGems Basics](https://guides.rubygems.org/rubygems-basics/).
 1. Skim through [Patterns guide from RubyGems](https://guides.rubygems.org/patterns/), paying closer attention to `Semantic versioning`, `Declaring dependencies` and `Loading code`.
 1. Skim through [Bundler's Getting Started](https://bundler.io/guides/getting_started.html#what-is-bundler) and [Frequently Asked Questions](https://bundler.io/guides/faq.html).

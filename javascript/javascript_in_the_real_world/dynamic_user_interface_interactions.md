@@ -19,7 +19,7 @@ A dropdown is something you've most likely encountered on various other websites
 Dropdowns are typically comprised of two main parts:
 
 1. A button that toggles the dropdown content's visibility.
-1. The dropdown contents itself.
+1. The dropdown content itself.
 
 The dropdown toggle button should typically only trigger the visibility of the dropdown content on click, while the dropdown contents should typically only contain items that will trigger an action upon clicking them. Actions can include things like "Edit", "Copy", or "Delete", or linking you to another part of the site, such as in a navbar.
 
@@ -46,7 +46,7 @@ Create an image carousel. It should contain arrows on each side to advance the i
 
 Don't spend too much time worrying about getting your images to display at the correct size -- it's more important to get the carousel rotating.
 
-1. This one is a little more involved than the last two, so think about how you would set up the different elements within the site.
+1. This one is a little more involved than the previous task, so think about how you would set up the different elements within the site.
 1. Set up a very wide `div` which will contain the individual "slides" of each image. By appropriately positioning that `div` inside a container `div` (which acts like a picture frame), you can choose which slide is visible at any given time.
 1. Once you have the slider positioned properly, build functions for "next" and "previous" which will advance to the next or previous slide accordingly. The transition *doesn't* need to be smooth or animated. Only make it switch to the correct slide.
 1. Set up arrow buttons which activate those functions and play with cycling through the images.

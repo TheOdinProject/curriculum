@@ -52,7 +52,7 @@ sudo apt install postgresql postgresql-contrib libpq-dev
 After installation is complete, let's start the server using this command:
 
 ```bash
-sudo systemctl start postgresql.service
+sudo systemctl start postgresql.service && systemctl status postgresql.service
 ```
 
 <div class="lesson-note lesson-note--warning" markdown="1">
@@ -73,7 +73,7 @@ If `postgresql` is active, you can press `Q` to quit the status screen and move 
 
 ### Step 3: Setting up PostgreSQL
 
-PostgreSQL is now running, but we have to configure it in order to be able to use it with our local Rails applications.
+PostgreSQL is now running, but we have to configure it in order to be able to use it with our local Express applications.
 
 #### 3.1 PostgreSQL roles
 
@@ -129,10 +129,10 @@ If you don't see a similar prompt, then reach out in [our Discord server](https:
 \password <role_name>
 ```
 
-You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role:
+You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role (note the semicolon at the end):
 
 ```sql
-grant all privileges on database <role_database_name> to <role_name>;
+GRANT ALL PRIVILEGES ON DATABASE <role_database_name> TO <role_name>;
 ```
 
 Remember that you should change the `<role_database_name>` and `<role_name>` (they should be both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
@@ -196,7 +196,7 @@ If the `postgresql` service is active, move on to the next step.
 
 ### Step 3: Setting up PostgreSQL
 
-PostgreSQL is now running, but we have to configure it in order to be able to use it with our local Rails applications.
+PostgreSQL is now running, but we have to configure it in order to be able to use it with our local Express applications.
 
 #### 3.1 PostgreSQL roles
 
@@ -253,10 +253,10 @@ If you don't see a similar prompt, then reach out on [Discord](https://discord.g
 \password <role_name>
 ```
 
-You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role:
+You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role (note the semicolon at the end):
 
 ```sql
-grant all privileges on database <role_database_name> to <role_name>;
+GRANT ALL PRIVILEGES ON DATABASE <role_database_name> TO <role_name>;
 ```
 
 Remember that you should change the `<role_database_name>` and `<role_name>` (they should both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
