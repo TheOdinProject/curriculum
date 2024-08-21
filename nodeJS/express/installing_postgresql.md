@@ -135,7 +135,7 @@ You'll be prompted to enter a password and to verify it. Once you are done, the 
 GRANT ALL PRIVILEGES ON DATABASE <role_database_name> TO <role_name>;
 ```
 
-Remember that you should change the `<role_database_name>` and `<role_name>` (they should be both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
+Remember that you should change the `<role_database_name>` and `<role_name>` (they should both be the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
 
 #### 3.5 Saving access information in the environment
 
@@ -259,7 +259,7 @@ You'll be prompted to enter a password and to verify it. Once you are done, the 
 GRANT ALL PRIVILEGES ON DATABASE <role_database_name> TO <role_name>;
 ```
 
-Remember that you should change the `<role_database_name>` and `<role_name>` (they should both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
+Remember that you should change the `<role_database_name>` and `<role_name>` (they should both be the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
 
 #### 3.4 Saving access information in the environment
 
