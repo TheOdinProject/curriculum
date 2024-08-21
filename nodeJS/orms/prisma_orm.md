@@ -118,6 +118,14 @@ You might have a complex query that you just are unable to get right via the Pri
 
 Prisma migrate is a tool that helps you perform database migrations. You won't be using it a whole ton in the curriculum, but it's good to be aware of it. When you decide to change the schema in any way, you run a Prisma migration to apply the schema changes to the database. These changes are tracked in a `migrations` folder in your codebase.
 
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Prisma ORM limitations
+
+In the [Using PostgreSQL lesson](https://www.theodinproject.com/lessons/nodejs-using-postgresql), we learned about Identity columns. PostgreSQL recommends the use of Identity columns, as they comply with the SQL standard. Prisma ORM, however, does not support these columns, and will create PostgreSQL specific [Serial Types](https://www.postgresql.org/docs/16/datatype-numeric.html#DATATYPE-SERIAL) instead. This most likely will not affect your projects, but it can be important to keep in mind. See this Stackoverflow answer for a short description on the [difference between Serial and Identity](https://stackoverflow.com/a/55300741/1882858).
+
+</div>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
