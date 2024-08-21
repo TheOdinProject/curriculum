@@ -35,11 +35,10 @@ If you're using Ubuntu or Xubuntu, press <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd
 
 The rest of the installation will take place inside the terminal window.
 
-First, we need to make sure your Linux distribution is up to date. Run these commands one by one. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press <kbd>Enter</kbd>.
+First, we need to make sure your Linux distribution is up to date. Run these commands. Because these commands use `sudo`, you will have to enter your password in order for them to run. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press <kbd>Enter</kbd>.
 
 ```bash
-sudo apt update
-sudo apt upgrade
+sudo apt update && apt upgrade
 ```
 
 When it prompts you, press <kbd>Y</kbd> and then <kbd>Enter</kbd>.
