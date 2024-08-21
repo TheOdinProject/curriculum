@@ -343,4 +343,3 @@ This section contains helpful links to related content. It isn't required, so co
 
 - See this [Stack Overflow post for more on the spaceship operator](https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator).
 - For more depth on flow control, read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/).
-- If you want some in-depth practice with these concepts, go through [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/) from Exercise 27 through Exercise 31.
