@@ -31,7 +31,6 @@ Here is a very basic example of how we would use it in a component that renders 
 
 ```jsx
 import PropTypes from 'prop-types';
-import React from 'react';
 
 const RenderName = (props) => {
   return <div>{props.name}</div>;
@@ -57,7 +56,6 @@ RenderName.propTypes = {
 Another cool thing we can do in combination with PropTypes is passing in default props:
 
 ```jsx
-import React from 'react';
 import PropTypes from 'prop-types';
 
 const RenderName = (props) => {

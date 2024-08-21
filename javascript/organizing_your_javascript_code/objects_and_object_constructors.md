@@ -275,6 +275,7 @@ If we had used `Object.setPrototypeOf()` in this example, then we could safely e
    1. To go a bit deeper into both the chain and inheritance, spend some time with [JavaScript.Info's article on Prototypal Inheritance](http://javascript.info/prototype-inheritance). As usual, doing the exercises at the end will help cement this knowledge in your mind. Don't skip them! Important note: This article makes heavy use of `__proto__` which is not generally recommended. The concepts here are what we're looking for at the moment. We will soon learn another method or two for setting the prototype.
 1. You might have noticed us using the this keyword in object constructors and prototype methods in the examples above.
    1. [JavaScript Tutorial's article on the `this` keyword](https://www.javascripttutorial.net/javascript-this/) covers how this changes in various situations, including examples with constructor functions and the prototype.
+1. Read the article [[[Prototype]] vs __proto__ vs .prototype in Javascript](https://medium.com/@eamonocallaghan/prototype-vs-proto-vs-prototype-in-javascript-6758cadcbae8)
 
 </div>
 
@@ -282,10 +283,10 @@ If we had used `Object.setPrototypeOf()` in this example, then we could safely e
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Write an object constructor and instantiate the object.](#object-constructors)
-- [Describe what a prototype is and how it can be used.](#the-prototype)
-- [Explain prototypal inheritance.](https://javascript.info/prototype-inheritance)
-- [Understand the basic do's and don't's of prototypal inheritance.](#recommended-method-for-prototypal-inheritance)
+- [How do you write an object constructor and instantiate the object?](#object-constructors)
+- [What is a prototype and how can it be used?](#the-prototype)
+- [What is prototypal inheritance?](https://javascript.info/prototype-inheritance)
+- [What are the basic do's and don't's of prototypal inheritance?](#recommended-method-for-prototypal-inheritance)
 - [How does `this` behave in different situations?](https://www.javascripttutorial.net/javascript-this/)
 
 ### Additional resources

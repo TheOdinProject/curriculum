@@ -27,7 +27,7 @@ Cookies, Sessions and Flashes are three special objects that Rails gives you in 
 
 ### Cookies
 
-Cookies are key-value data pairs that are stored in the user's browser until they reach their specified expiration date.  They can be used for pretty much anything, most commonly to "bookmark" the user's place in a web page if she gets disconnected or to store simple site display preferences. You could also store shopping cart information or even passwords but that would be a bad idea -- you shouldn't store anything in regular browser cookies that needs to either be secure or persisted across browser sessions.  It's too easy for users to clear their cache and/or steal/manipulate unsecured cookies.
+Cookies are key-value data pairs that are stored in the user's browser until they reach their specified expiration date.  They can be used for pretty much anything, most commonly to "bookmark" the user's place in a web page if they get disconnected or to store simple site display preferences. You could also store shopping cart information or even passwords but that would be a bad idea -- you shouldn't store anything in regular browser cookies that needs to either be secure or persisted across browser sessions.  It's too easy for users to clear their cache and/or steal/manipulate unsecured cookies.
 
 <span id="using-cookies">To work with cookies, Rails gives you access to a special hash called `cookies`, where each key-value pair is stored as a separate cookie on the user's browser.  If you were to save `cookies[:hair-color] = "blonde"`, you'd be able to pull up your browser's developer tools and see a cookie on the user's browser that has a key of `hair-color` and a value of `blonde`.  Delete it using `cookies.delete(:hair-color)`.</span>
 
@@ -37,9 +37,9 @@ With each new request to your server, the browser will send along all the cookie
 
 Think about how websites keep track of how a user is logged in when the page reloads.  HTTP requests are stateless so how can you tell that a given request actually came from that particular user who is logged in?  This is why cookies are important -- they allow you to keep track of your user from one request to another until the cookie expires.
 
-A special case is when you want to keep track of data in the user's "session", which represents all the stuff your user does while you've chosen to "remember" her, typically until the browser window is closed.  In that case, every page she visits until the browser is closed will be part of the same session.
+A special case is when you want to keep track of data in the user's "session", which represents all the stuff your user does while you've chosen to "remember" them, typically until the browser window is closed.  In that case, every page they visit until the browser is closed will be part of the same session.
 
-To identify a user's session information, Rails stores a special secure and tamper-proof cookie on the user's browser that contains their entire session hash (look for it in your developer tools, usually under the “Application” section) and it expires when the browser is closed.  Whenever the user makes a request to your application, that request will also automatically include that session cookie (along with the other cookies) and you can use it to keep track of her logged-in state. This may all seem abstract now, but you'll get a chance to see it in action shortly.
+To identify a user's session information, Rails stores a special secure and tamper-proof cookie on the user's browser that contains their entire session hash (look for it in your developer tools, usually under the “Application” section) and it expires when the browser is closed.  Whenever the user makes a request to your application, that request will also automatically include that session cookie (along with the other cookies) and you can use it to keep track of their logged-in state. This may all seem abstract now, but you'll get a chance to see it in action shortly.
 
 Rails gives you access to the `session` hash in an almost identical way to the above-mentioned `cookies` hash.  Use the `session` variable in your views or controllers like so:
 
@@ -129,7 +129,7 @@ The whole point of authentication is to make sure that the user is who they say 
 
 A related concept is authorization.  Yes, you may be signed in, but are you actually authorized to access what you're trying to access?  The typical example is the difference between a regular user and an admin user.  They both authenticate with the system but only the admin is authorized to make changes to certain things.
 
-Authentication and authorization go hand in hand -- you first authenticate someone so you know who they are and can check if they're authorized to view a page or perform an action.  When you build your app, you'll have a system of authentication to get the user signed in and to verify the user is who he says he is.  You authorize the user to do certain things (like delete stuff) based on which methods are protected by controller filters that require signin or elevated permissions (e.g. admin status).
+Authentication and authorization go hand in hand -- you first authenticate someone so you know who they are and can check if they're authorized to view a page or perform an action.  When you build your app, you'll have a system of authentication to get the user signed in and to verify the user is who they says they are.  You authorize the user to do certain things (like delete stuff) based on which methods are protected by controller filters that require signin or elevated permissions (e.g. admin status).
 
 ### Basic and digest authentication
 
@@ -153,7 +153,7 @@ Rails doesn't make you do everything yourself.  It has a method called `#has_sec
 
 To initialize a new user session (when your user signs in), you'll need to create a new controller (usually `sessions_controller.rb`) and the corresponding routes for `:new`, `:create` and `:destroy`.  If the user passes the correct credentials (which we can check using the `#authenticate` method), you'll use the `session` variable to store their ID, which you can use to validate that they are who they say they are. This is a way of authenticating the user that uses Rails' existing session infrastructure, but only lasts as long as the session does.
 
-If your user wants to be "remembered" (you've probably seen the "remember me" checkbox plenty of times on login forms), you need a way to remember them for longer than just the length of the browser session.  To do this, you'll need to create another column in your Users table for an encrypted `remember_token` (or whatever you'd like to call it).  You'll use that to store a random string for that user that will be used in the future to identify him/her.
+If your user wants to be "remembered" (you've probably seen the "remember me" checkbox plenty of times on login forms), you need a way to remember them for longer than just the length of the browser session.  To do this, you'll need to create another column in your Users table for an encrypted `remember_token` (or whatever you'd like to call it).  You'll use that to store a random string for that user that will be used in the future to identify them.
 
 You will drop the unencrypted token as a permanent cookie (using `cookies.permanent[:remember_token]`) into the user's browser.  That cookie will be submitted with each new request, so you can check with the encrypted version in the database to see who that user is whenever they make a request.  This is basically a more explicit and permanent version of what Rails is doing with sessions.  It's best practice to reset the token on each new signin if the user signs out.
 
@@ -166,7 +166,7 @@ A generic step-by-step overview:
 1. Don't forget any necessary validations for password and password confirmation length.
 1. Build a sessions controller (and corresponding routes) and use the `#authenticate` method to sign in the user when the user has submitted the proper credentials using the signin form.
 1. Allow the user to be remembered by creating a `remember_token` column in the Users table and saving that token as a permanent cookie in the user's browser.  Reset on each new signin.
-1. On each page load that requires authentication (and using a `#before_action` in the appropriate controller(s)), first check the user's cookie `remember_token` against the database to see if he's already signed in.  If not, redirect to the signin page.
+1. On each page load that requires authentication (and using a `#before_action` in the appropriate controller(s)), first check the user's cookie `remember_token` against the database to see if they're already signed in.  If not, redirect to the signin page.
 1. Make helper methods as necessary to let you do things like easily determine if a user is signed in or compare another user to the currently signed in user.
 1. Profit.
 
@@ -176,7 +176,7 @@ A generic step-by-step overview:
 
 In a short word, Devise prepackages for you a bunch of signin and signup forms and methods to help implement them.  It's made up of 10 modules (and you can choose which ones you want to use).  You install the `devise` gem and run the installer to drop their files into your application.  You'll also need to run a database migration to add their additional fields to your Users table.
 
-Configuration will be dependent on your use case.  Do you want to make the user confirm their signup using an email (the `Confirmable` module)?  Do you want to allow the user to reset his password (the `Recoverable` module)?
+Configuration will be dependent on your use case.  Do you want to make the user confirm their signup using an email (the `Confirmable` module)?  Do you want to allow the user to reset their password (the `Recoverable` module)?
 
 ### Assignment
 

@@ -19,7 +19,7 @@ Environment variables are just variables that have environment-specific values. 
 - Provide different values for different environments, such as your machine during development and a website host when deployed, without having to modify the source code.
 - Store secrets, such as database URLs and credentials, or API keys.
 
-For example, a production environment may want additional logging and analytics compared to a development environment. The source code may therefore have an environment variable for whether it's running in "dev" or "prod" mode and do different things based on that.
+For example, a production environment may want additional logging and analytics compared to a development environment. The source code may therefore have an environment variable for whether it's running in "dev" or "prod" mode and do different things based on that. This is very common and by convention, this environment variable is named `NODE_ENV`, though it would still work with any other name.
 
 Or perhaps you're building an API connected to a database, but you want to use a separate test database during development instead of the production one. You can pass your test database's URL and credentials into your app when you develop locally, but the deployment will have the values for the production database. On top of this, you can store environment variable values in a file that you add to your `.gitignore`, preventing the contents of that file from being exposed when changes are pushed.
 
@@ -28,10 +28,10 @@ Or perhaps you're building an API connected to a database, but you want to use a
 There are multiple ways you can load environment variables, though some are more cumbersome or may not have stable support yet in many Node versions. One way is by defining the environment variables and their values directly in the command to run your code. Instead of running your app with just `node index.js`, you could run the following (note that quotes are optional for values that do not contain certain special characters like spaces or `=`):
 
 ```bash
-MODE=prod VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0" node index.js
+NODE_ENV=prod VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0" node index.js
 ```
 
-In the above, we define environment variables called `MODE` and `VIDEO_URL`, and assign them their respective values. Now any part of our code that uses those variables will have those values, just like function parameters! The convention for naming environment variables is to use `UPPER_SNAKE_CASE` (sometimes endearingly referred to as `SCREAMING_SNAKE_CASE` or `SHOUTY_CASE`).
+In the above, we define environment variables called `NODE_ENV` and `VIDEO_URL`, and assign them their respective values. Now any part of our code that uses those variables will have those values, just like function parameters! The convention for naming environment variables is to use `UPPER_SNAKE_CASE` (sometimes endearingly referred to as `SCREAMING_SNAKE_CASE` or `SHOUTY_CASE`).
 
 You might see that this could quickly get quite cumbersome though, especially if you had lots of environment variables. If you had sensitive data like database credentials, that's even worse since you wouldn't want to push your `package.json` if it contained those values in an npm script!
 
@@ -40,10 +40,10 @@ You might see that this could quickly get quite cumbersome though, especially if
 Instead of setting environment variables directly in the command for running your code, you can use the shell command `export`, which will save environment variables and their values to the current shell session.
 
 ```bash
-export MODE=prod VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0"
+export NODE_ENV=prod VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0"
 ```
 
-The above command will set the two environment variables in the current shell environment only, meaning if you were to open a new shell, it would not have access to those environment variables since it's a new environment. If we ran `node index.js` in the first shell (the one with the environment variables set), anything that used the `MODE` environment variable would have the value `"prod"`. If we instead ran `node index.js` in the second shell, it would have the value `undefined` instead since nothing was set in its environment. Neat, no?
+The above command will set the two environment variables in the current shell environment only, meaning if you were to open a new shell, it would not have access to those environment variables since it's a new environment. If we ran `node index.js` in the first shell (the one with the environment variables set), anything that used the `NODE_ENV` environment variable would have the value `"prod"`. If we instead ran `node index.js` in the second shell, it would have the value `undefined` instead since nothing was set in its environment. Neat, no?
 
 This is definitely nicer than the previous directly-in-the-command method, and means we can really keep sensitive data hidden. To overwrite any variables, just rerun `export` with the new values for those variables like above.
 
@@ -54,7 +54,7 @@ To view all environment variables in the current shell, you can run `printenv`. 
 [dotenv](https://www.npmjs.com/package/dotenv) is one of the most common ways to load environment variables. After installing the npm package, you can create a file called `.env` in the root of your project that will contain all of your environment variables in the format `NAME="VALUE"`. For example:
 
 ```properties
-MODE=prod
+NODE_ENV=prod
 VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0"
 ```
 
@@ -81,7 +81,7 @@ Awesome! You can load environment variables now, but how do you actually access 
 Environment variables are accessed via Node's built-in `process` object, more specifically its `env` property. Node will load each environment variable to the `process.env` object, using its name as the property. You can then access them like any normal object property.
 
 ```javascript
-if (process.env.MODE === "prod") {
+if (process.env.NODE_ENV === "prod") {
     // do production-specific stuff
 }
 

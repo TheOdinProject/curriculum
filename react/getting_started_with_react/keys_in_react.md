@@ -79,7 +79,7 @@ function MonthList() {
 }
 ```
 
-<span id="anti-pattern">Keys are straightforward to use, though there is an anti-pattern you should be aware of. Keys should never be generated on the fly. Using `key={Math.random()}` or `key={uuid()}` *while* rendering the list defeats the purpose of the list, as now a new `key` will get created for every render of the list. As shown in the above example, `key` should be inferred from the data itself.</span>
+<span id="anti-pattern">Keys are straightforward to use, though there is an anti-pattern you should be aware of. Keys should never be generated on the fly. Using `key={Math.random()}` or `key={uuid()}` *while* rendering the list defeats the purpose of the key, as now a new `key` will get created for every render of the list. As shown in the above example, `key` should be inferred from the data itself.</span>
 
 ```jsx
 const todos = [

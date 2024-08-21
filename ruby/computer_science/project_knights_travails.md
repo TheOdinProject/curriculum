@@ -31,7 +31,7 @@ Sometimes *there is more than one fastest path*. Examples of this are shown belo
 <div class="lesson-content__panel" markdown="1">
 
 1. Think about the rules of the board and knight, make sure to follow them.
-1. For every square there is a number of possible moves, choose a data structure that will allow you to work with them .  Don't allow any moves to go off the board.
+1. For every square there is a number of possible moves, choose a data structure that will allow you to work with them.  Don't allow any moves to go off the board.
 1. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
 1. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
 
