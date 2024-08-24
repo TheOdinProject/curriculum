@@ -148,7 +148,7 @@ You might wonder why this variable is declared with all caps when we recommended
 
 ### Indentation and line length
 
-Now it's time to head to more controversial topics. There's already a joke about the [war between coders who indent with spaces versus tabs](https://www.reddit.com/r/programming/comments/p1j1c/tabs_vs_spaces_vs_both/).
+Now it's time to head to more "controversial" topics (there's a joke about the [war between coders who indent with spaces versus tabs](https://www.reddit.com/r/programming/comments/p1j1c/tabs_vs_spaces_vs_both/)).
 
 What actually matters is *consistency*. Choose a way to indent and stick to it. Various JavaScript style guides recommend different options, and one is not really superior to the other. We will look at style guides and related tools in more detail later in the curriculum.
 
