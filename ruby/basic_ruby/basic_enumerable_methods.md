@@ -441,7 +441,7 @@ invited_friends(friends)
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What does the `#each` method do? What does it return?](#the-each-method)
-- [What does the `#each_with_index` method do?](#the-each_with_index-method)
+- [What does the `#each_with_index` method do?](#the-eachwithindex-method)
 - [What does the `#map` method do?](#the-map-method)
 - [What does the `#select` method do?](#the-select-method)
 - [What does the `#reduce` method do?](#the-reduce-method)
