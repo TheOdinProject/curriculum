@@ -1,12 +1,12 @@
 module.exports = {
-  names: ["TOP012", "note-box-heading-level"],
+  names: ["TOP011", "note-box-heading-level"],
   description: "Note box headings must be level 4 (####)",
   information: new URL(
-    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP012.md"
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md"
   ),
   tags: ["headings"],
   parser: "markdownit",
-  function: function TOP012(params, onError) {
+  function: function TOP011(params, onError) {
     const noteBoxHeadings = params.parsers.markdownit.tokens.filter((token, index, tokens) => {
       const previousToken = tokens[index - 1];
 

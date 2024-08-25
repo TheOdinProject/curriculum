@@ -88,6 +88,6 @@
     "./markdownlint/TOP007_useMarkdownLinks/TOP007_useMarkdownLinks.js",
     "./markdownlint/TOP008_useBackticksForFencedCodeBlocks/TOP008_useBackticksForFencedCodeBlocks.js",
     "./markdownlint/TOP010_useLazyNumbering/TOP010_useLazyNumbering.js",
-    "./markdownlint/TOP012_noteBoxHeadingLevel/TOP012_noteBoxHeadingLevel.js"
+    "./markdownlint/TOP011_noteBoxHeadingLevel/TOP011_noteBoxHeadingLevel.js"
   ]
 }
