@@ -22,7 +22,7 @@ If the list were to change, one of two things *should* happen:
 
 Assuming we want to hunt down that one specific item that was changed and NOT re-render the entire list. We need something to track that specific item. We can track down a specific item by using a `key`.
 
-When the list is updated for whatever reason, (either from a server or a user interaction), React matches the `keys` of each of the previous list to the updated list. If there were any changes, React will only update the items that have changed.
+When the list is updated for whatever reason, (either from a server or a user interaction), React matches the `keys` of each of the previous list items to the updated list. If there were any changes, React will only update the items that have changed.
 
 As long as `keys` remain consistent and unique, React can handle the DOM effectively and efficiently.
 
