@@ -57,4 +57,4 @@ This section contains helpful links to related content. It isn't required, so co
 
 - [What is Git and GitHub?](https://content.red-badger.com/resources/what-is-git-and-github)
 - [What is version control?](https://www.atlassian.com/git/tutorials/what-is-version-control)
-- [What is Git](https://www.atlassian.com/git/tutorials/what-is-git)
+- [What is Git?](https://www.atlassian.com/git/tutorials/what-is-git)

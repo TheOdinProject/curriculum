@@ -305,7 +305,7 @@ if you would like to learn more:
     format.turbo_stream { render turbo_stream: turbo_stream.append('posts', @post) }
     ```
 
-    However, you shouldn't do this for anything complex or chained, as explained in this [comment by one of the maintainers of Hotwire](https://github.com/hotwired/turbo-rails/issues/77#issuecomment-757349251).
+    However, you shouldn't do this for anything complex or chained.
 
 1. You may have noticed that when you submit a new Post, the text box doesn't clear out. You need to reset the submission element in order for it to be empty again. Hotwire has a remedy for this problem by including Stimulus, a light JavaScript framework. Don't worry about Stimulus for this example though, the next lesson will cover how to write and make use of Stimulus Controllers.
 
@@ -332,10 +332,10 @@ The final piece of Turbo is something that you don't need to know much about for
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class='knowledge-check-link' href='#single-page-applications-spas'>What does SPA stand for and what is it?</a>
-- <a class='knowledge-check-link' href='#hotwire'>What is Hotwire?</a>
-- <a class='knowledge-check-link' href='#turbo-frames'>How do we use a Turbo Frame?</a>
-- <a class='knowledge-check-link' href='#turbo-stream'>How do we set up Turbo Streams?</a>
+- [What does SPA stand for and what is it?](#single-page-applications-spas)
+- [What is Hotwire?](#hotwire)
+- [How do we use a Turbo Frame?](#turbo-frames)
+- [How do we set up Turbo Streams?](#turbo-stream)
 
 ### Additional resources
 
