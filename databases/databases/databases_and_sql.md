@@ -132,7 +132,6 @@ SQL is built to be fast.  It has a special query optimizer which takes a look at
 
   1. Go through this [interactive SQL tutorial from SQL Teaching](https://www.sqlteaching.com/).
   1. Go through this more in-depth [interactive SQL tutorial from SQL Bolt](http://sqlbolt.com/).
-  1. Go through [SQLCourse's beginner course](https://www.sqlcourse.com/beginner-course/) then [SQLCourse's advanced course](https://www.sqlcourse.com/advanced-course/).
 
 </div>
 
@@ -161,6 +160,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
+- SQLCourse's [beginner course](https://www.sqlcourse.com/beginner-course/) and [advanced course](https://www.sqlcourse.com/advanced-course/) are great resources if you need more practice.
 - Odinite Hunter D made his excellent notes into a [Git Book on SQL](https://hunter-ducharme.gitbook.io/sql-basics) which you should totally check out if you want a decent resource.
 - [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
 - [A Beginners Guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
