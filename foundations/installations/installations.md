@@ -3,7 +3,7 @@
 
 ### Introduction
 
-If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system and have **Google Chrome** as an installed browser, you can skip this lesson. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
+If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system and have **Google Chrome** as an installed browser, you can skip this lesson. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
