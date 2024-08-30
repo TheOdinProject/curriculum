@@ -237,6 +237,12 @@ In most cases, you'll be running into errors that thousands of developers have e
 
 There are two stages of the deployment process where you are most likely to encounter problems. These are during deployment and right after.
 
+<div class="lesson-note" markdown="1">
+
+Depending on the host provider you use, the default NodeJs engine version might not be the LTS version. Additionally, depending on the NodeJs features you’re using, you might need to specify the NodeJs version to utilize those features.
+
+</div>
+
 #### On deployment
 
 If you run into an error while deploying, the first thing to do is to check the build logs. Finding the build logs should be easy; it's the stream of output you'll see after kicking off a new deployment.
