@@ -200,6 +200,8 @@ When you download a file from the internet, Windows has a security feature that 
 
    1. Alternatively, if you do not see anything at the bottom of the chrome window, open the "Customize and control Google Chrome kebab menu and select the "Downloads" item. This will show all of your downloads, each with its own "Show in folder" button.
 
+1. Rename the image to `dog.jpg`.
+
 1. Drag the file from your downloads folder to VSCode's file browser into your new `images` directory.
 
     1. Alternatively, using your Ubuntu terminal, navigate to the folder you want to copy the image to (`cd ~/odin-links-and-images` for example)
