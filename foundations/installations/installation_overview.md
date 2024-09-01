@@ -1,3 +1,5 @@
+<!-- TODO: Reconsider structure of installations + overview lesson (missing assignment section for this overview lesson) -->
+<!-- markdownlint-disable TOP004 -->
 ### Introduction
 
 The first step in building any website is having the right tools. For us, that means setting up a development environment for writing good code.
