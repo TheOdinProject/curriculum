@@ -8,18 +8,12 @@ We won't lie to you: installing packages, editors, and even entire operating sys
 
 ### Lesson overview
 
-In the next few lessons, we will walk through these installation steps together:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Installing a supported operating system (OS).
 - Installing Google Chrome web browser.
 - Installing a code editor.
 - Creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using).
-
-At the end of the next lesson, you'll be up and running with many of the tools you need to write and run code! It may seem like a lot of steps, but we'll get through it as painlessly as possible together! If anything goes wrong, remember to use these steps:
-
-- Examine the terminal output for the actual error.
-- Google, Google, Google.
-- Never be afraid to ask for help in the [TOP Discord server](https://discord.gg/theodinproject)!
 
 ### OS options
 
