@@ -21,8 +21,6 @@ At the end of the next lesson, you'll be up and running with many of the tools y
 - Google, Google, Google.
 - Never be afraid to ask for help in the [TOP Discord server](https://discord.gg/theodinproject)!
 
-For Chromebook users, your OS choice has effectively been made for you. However, on [ChromeOS Systems supporting "Linux on ChromeOS"](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux), there are instructions in the next lesson on how to set this up on your device.
-
 ### OS options
 
 <div class="lesson-note" markdown="1">
@@ -54,6 +52,10 @@ A [virtual machine](https://youtu.be/yIVXjl4SwVo) is an emulation of a computer 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be overstated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
 
 **Windows Subsystem for Linux** lets you run a full-fledged Linux environment from within an existing Windows installation, giving you all of the advantages of Linux through a simplified installation process. We'll be using version 2 of WSL, commonly known as WSL2, within the curriculum.
+
+#### Chromebook
+
+For Chromebook users, you may be able to run a Linux terminal on your device. More details will be provided in the next lesson.
 
 ### Concerned about installing a new OS?
 
