@@ -8,8 +8,6 @@ We won't lie to you: installing packages, editors, and even entire operating sys
 
 ### Lesson overview
 
-In the following sections, we'll go over the steps for setting up your environment. There is no need to install anything in this lesson, as it is purely informative. These sections are **the most important steps** in the entire curriculum. Please take the extra time to **double check what you're typing** or you may cause more headaches for yourself down the road.
-
 In the next few lessons, we will walk through these installation steps together:
 
 - Installing a supported operating system (OS).
@@ -26,6 +24,12 @@ At the end of the next lesson, you'll be up and running with many of the tools y
 For Chromebook users, your OS choice has effectively been made for you. However, on [ChromeOS Systems supporting "Linux on ChromeOS"](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux), there are instructions in the next lesson on how to set this up on your device.
 
 ### OS options
+
+<div class="lesson-note" markdown="1">
+
+Specifics about distros/versions and OS installation instructions are all in the next lesson. You do not need to go and install anything just yet.
+
+</div>
 
 #### macOS
 
