@@ -20,7 +20,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Hosting providers are like server landlords. They own servers and rent space on them to customers, who can then use the space to store their websites and make them accessible to anyone on the web.
 
-You've already had some experience using a hosting provider when you deployed projects to Github pages earlier in the curriculum. GitHub pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** NodeJS apps. We're going to need something more powerful.
+You've already had some experience using a hosting provider when you deployed projects to Github pages earlier in the curriculum. GitHub pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** Node apps. We're going to need something more powerful.
 
 ### Static vs dynamic sites
 
@@ -28,7 +28,7 @@ Static websites consist of pre-written HTML pages. They are "static" because eve
 
 Dynamic websites, on the other hand, are websites that can change content based on the user who is visiting them. X (formerly known as Twitter) is a good example; every user sees different content on their homepage feed based on who they follow. To build dynamic sites, you still need HTML, CSS and JS. But additionally, you need a server-side application and a database.
 
-This additional tech prohibits us from using GitHub Pages for hosting our NodeJS apps. GitHub pages cannot run Node.js applications and doesn't have database services we can use. Similarly, host providers like Netlify and Vercel, which you may have used back in the React course, do not have the same capabilities to run our Node.js servers and databases. They're not the right tools for our back ends.
+This additional tech prohibits us from using GitHub Pages for hosting our Node apps. GitHub pages cannot run Node.js applications and doesn't have database services we can use. Similarly, host providers like Netlify and Vercel, which you may have used back in the React course, do not have the same capabilities to run our Node.js servers and databases. They're not the right tools for our back ends.
 
 Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Heroku](https://www.heroku.com/), [Railway](https://railway.app/), [Render](https://render.com/), and [Fly.io](https://fly.io/). We will be focusing on and utilizing these latter providers in this lesson.
 
@@ -38,13 +38,13 @@ Platform as a Service is a specific kind of hosting provider. The most important
 
 Taking the landlord metaphor we used earlier a little further, a PaaS platform is like having a landlord who takes care of all the utilities, building maintenance and security. Meanwhile, you, the developer, focus on furnishing, decorating and living in the space.
 
-It's an incredibly powerful model and perfect for us right now. Using a PaaS provider for deployment, we can focus on learning and mastering NodeJS without taking a significant diversion to learn the specialized knowledge needed to manage and maintain servers ourselves.
+It's an incredibly powerful model and perfect for us right now. Using a PaaS provider for deployment, we can focus on learning and mastering Node without taking a significant diversion to learn the specialized knowledge needed to manage and maintain servers ourselves.
 
 We will provide a list of our recommended PaaS providers later in the lesson. First, let us explore from a high level how PaaS providers work.
 
 ### How do PaaS services work?
 
-PaaS providers work by giving you easy access to a few resources that any NodeJS app can't live without to function on the web.
+PaaS providers work by giving you easy access to a few resources that any Node app can't live without to function on the web.
 
 #### Instances
 
@@ -114,7 +114,7 @@ Can deploy both servers and databases.
 
 - [Fly.io's homepage](https://fly.io/)
 - [Fly.io's documentation](https://fly.io/docs/)
-- [Guide: Official getting started with NodeJS on Fly.io guide](https://web.archive.org/web/20230823151155/https://fly.io/docs/languages-and-frameworks/node/)
+- [Guide: Official getting started with Node on Fly.io guide](https://web.archive.org/web/20230823151155/https://fly.io/docs/languages-and-frameworks/node/)
 
 ---
 
@@ -179,7 +179,7 @@ Can deploy both servers and databases.
 - [Render homepage](https://render.com/)
 - [Render documentation](https://render.com/docs/)
 - [Guide: Official getting started with Node/Express on Render guide](https://render.com/docs/deploy-node-express-app)
-- [Guide: CodeBrah video guide for deploying NodeJS applications to Render](https://www.youtube.com/watch?v=bnCOyGaSe84&ab_channel=CodeBrah)
+- [Guide: CodeBrah video guide for deploying Node applications to Render](https://www.youtube.com/watch?v=bnCOyGaSe84&ab_channel=CodeBrah)
 
 ---
 
@@ -237,17 +237,15 @@ In most cases, you'll be running into errors that thousands of developers have e
 
 There are two stages of the deployment process where you are most likely to encounter problems. These are during deployment and right after.
 
-<div class="lesson-note" markdown="1">
+#### Node version compatibility
 
-Depending on the host provider you use, the default NodeJs engine version might not be the LTS version. Additionally, depending on the NodeJs features you’re using, you might need to specify the NodeJs version to utilize those features.
-
-</div>
+Depending on the host provider you use, the supported Node versions and default selected version may differ. You can refer to the providers' documentation for more information on what is supported and selected, and depending on what features you use in your code, you may need to [specify what Node versions your project is compatible with in your `package.json`](https://docs.npmjs.com/cli/v10/configuring-npm/package-json#engines).
 
 #### On deployment
 
 If you run into an error while deploying, the first thing to do is to check the build logs. Finding the build logs should be easy; it's the stream of output you'll see after kicking off a new deployment.
 
-Scroll through these logs and find the point where the deployment encountered the error. It should stand out from the rest of the output and will often look like the stack traces you've already seen with JavaScript/NodeJS. The error output will tell you exactly what went wrong.
+Scroll through these logs and find the point where the deployment encountered the error. It should stand out from the rest of the output and will often look like the stack traces you've already seen with JavaScript/Node. The error output will tell you exactly what went wrong.
 
 If you don't recognize the error or what might cause it, your next step will be to copy and paste it into your favorite online search engine. You'll likely find a Stack Overflow post with a solution. You can get support in our Discord server if searching doesn't lead to anything conclusive.
 
