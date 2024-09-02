@@ -85,7 +85,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Which type of quote lets you embed variables/expressions in a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#embedding_javascript)
 - [How do you embed variables/expressions in a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#embedding_javascript)
 - [How do you use escape characters in a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#including_quotes_in_strings)
-- [What is the difference between the slice/substring/substr string methods?](https://www.w3schools.com/js/js_string_methods.asp)
+- [What is the difference between the slice/substring string methods?](https://www.w3schools.com/js/js_string_methods.asp)
 - [What are the three logical operators, and what do they stand for?](http://javascript.info/logical-operators)
 - [What are the comparison operators?](https://javascript.info/comparison)
 - [What are truthy and falsy values?](https://javascript.info/ifelse#boolean-conversion)

@@ -41,7 +41,7 @@ If you wish to use multiple ES6 modules, remember that Node uses CommonJS module
 You will need two classes or factories:
 
 1. `LinkedList` class / factory, which will represent the full list.
-1. `Node` class / factory, containing a `value` property and a link to the `nextNode`, set both as `null` by default.
+1. `Node` class / factory, containing a `value` property and a `nextNode` property, set both as `null` by default.
 
 Build the following functions in your linked list class / factory:
 
