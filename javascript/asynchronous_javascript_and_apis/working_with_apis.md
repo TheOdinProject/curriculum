@@ -132,7 +132,7 @@ fetch('url.url.com/api', {
 });
 ```
 
-Adding the `{mode: 'cors'}` after the URL, as shown above, will solve our problems for now. In the future, however, you may want to look further into the implications of this restriction.
+Adding the `{mode: 'cors'}` after the URL, as shown above, will solve our problems for now. Note that `mode` is set to `'cors'` by default if the request is cross-origin. Explicitly specifying `mode: 'cors'` can still be useful for clarity and ensuring that the intended behavior is explicitly defined. In the future, however, you may want to look further into the implications of this restriction.
 
 ### Let's do this
 
