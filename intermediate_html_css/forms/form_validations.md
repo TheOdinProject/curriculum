@@ -217,7 +217,7 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What does the <code>required</code> validation do?](#required-validation)
+- [What does the `required` validation do?](#required-validation)
 - [What validations can you use for checking text length?](#text-length-validations)
 - [How can you validate the minimum and maximum of numeric inputs?](#number-range-validations)
 - [What can you use the pattern validation for?](#pattern-validations)
