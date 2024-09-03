@@ -21,6 +21,7 @@ Here are two basic arrays:
 ```ruby
 num_array = [1, 2, 3, 4, 5]
 str_array = ["This", "is", "a", "small", "array"]
+mixed_array = [1, "word"]
 ```
 
 Both arrays have five elements separated by commas. The first array contains integers, while the second array contains strings.
