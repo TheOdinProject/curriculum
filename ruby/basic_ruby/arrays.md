@@ -24,7 +24,8 @@ str_array = ["This", "is", "a", "small", "array"]
 mixed_array = [1, "word"]
 ```
 
-Both arrays have five elements separated by commas. The first array contains integers, while the second array contains strings.
+The first two arrays have five elements separated by commas. The first array contains integers, while the second array contains strings.
+The third array shows that it's possible to have an array containing multiple types (Integer and string in this case)
 
 Arrays are commonly created with an **array literal**, which is a special syntax used to create instances of an array object. To create a new array using an array literal, use square brackets (`[]`).
 
