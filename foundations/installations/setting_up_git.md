@@ -185,6 +185,12 @@ git config --global core.excludesfile ~/.gitignore_global
 
 #### Step 2.3: Create an SSH key
 
+<div class="lesson-note" markdown="1">
+
+If you have already setup an ssh key pair with GitHub on a different machine prior to starting The Odin Project, GitHub allows you to have multiple key pairs associated with your account. You can just follow these instructions again to set up another key pair and register it with GitHub.
+
+</div>
+
 An SSH key is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
 
 First, we need to see if you have an Ed25519 algorithm SSH key already installed. Type this into the terminal and check the output with the information below:
