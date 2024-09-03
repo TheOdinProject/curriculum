@@ -1,3 +1,5 @@
+<!-- TODO: Reconsider structure of installations + overview lesson (missing assignment section for this overview lesson) -->
+<!-- markdownlint-disable TOP004 -->
 ### Introduction
 
 The first step in building any website is having the right tools. For us, that means setting up a development environment for writing good code.
@@ -8,24 +10,20 @@ We won't lie to you: installing packages, editors, and even entire operating sys
 
 ### Lesson overview
 
-In the following sections, we'll go over the steps for setting up your environment. There is no need to install anything in this lesson, as it is purely informative. These sections are **the most important steps** in the entire curriculum. Please take the extra time to **double check what you're typing** or you may cause more headaches for yourself down the road.
-
-In the next few lessons, we will walk through these installation steps together:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Installing a supported operating system (OS).
 - Installing Google Chrome web browser.
 - Installing a code editor.
 - Creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using).
 
-At the end of the next lesson, you'll be up and running with many of the tools you need to write and run code! It may seem like a lot of steps, but we'll get through it as painlessly as possible together! If anything goes wrong, remember to use these steps:
-
-- Examine the terminal output for the actual error.
-- Google, Google, Google.
-- Never be afraid to ask for help in the [TOP Discord server](https://discord.gg/theodinproject)!
-
-For Chromebook users, your OS choice has effectively been made for you. However, on [ChromeOS Systems supporting "Linux on ChromeOS"](https://www.chromium.org/chromium-os/chrome-os-systems-supporting-linux), there are instructions in the next lesson on how to set this up on your device.
-
 ### OS options
+
+<div class="lesson-note" markdown="1">
+
+Specifics about distros/versions and OS installation instructions are all in the next lesson. You do not need to go and install anything just yet.
+
+</div>
 
 #### macOS
 
@@ -50,6 +48,10 @@ A [virtual machine](https://youtu.be/yIVXjl4SwVo) is an emulation of a computer 
 Dual-booting can be as easy as inserting a flash drive and clicking a few buttons. The benefits of dual-booting cannot be overstated. You will allow Linux to access the full capabilities of your hardware, have a clean and distraction-free environment for coding, and learn the platform used by many senior developers and servers around the world.
 
 **Windows Subsystem for Linux** lets you run a full-fledged Linux environment from within an existing Windows installation, giving you all of the advantages of Linux through a simplified installation process. We'll be using version 2 of WSL, commonly known as WSL2, within the curriculum.
+
+#### Chromebook
+
+For Chromebook users, you may be able to run a Linux terminal on your device. More details will be provided in the next lesson.
 
 ### Concerned about installing a new OS?
 
