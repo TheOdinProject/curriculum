@@ -216,6 +216,16 @@ Note that we only needed the one script tag, as the browser will handle the addi
 
 If you had coded along with the IIFE example at the start of the lesson, try rewriting the JavaScript to use `import` and `export`, and link only the entry point as a module script.
 
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Opening ES6 modules locally in the browser
+
+Due to security restrictions with the `file://` protocol, if you try to open an HTML file with module scripts directly in the browser (e.g. running `google-chrome index.html` in the terminal or similar), you will be greeted with a CORS error.
+
+ES6 modules need to be served via a server. For now, if you haven't been using it already, you should use Visual Studio Code's [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+
+</div>
+
 ### CommonJS
 
 Along the way, you may have bumped into something called CommonJS (CJS), which uses syntax like `require` and `module.exports` instead of `import` and `export`. You may remember seeing this in our JavaScript exercises in the Foundations course (you've come a long way)! This is a module system that was designed for use with Node.js that works a little differently than ESM, and is not something that browsers will be able to understand.
