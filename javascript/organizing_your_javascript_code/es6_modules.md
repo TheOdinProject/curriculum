@@ -214,17 +214,7 @@ two.js <-------------- one.js <-------------- three.js
 
 Note that we only needed the one script tag, as the browser will handle the additional file dependencies for us. We also did not need to add the `defer` attribute, as `type="module"` will automatically defer script execution for us.
 
-If you had coded along with the IIFE example at the start of the lesson, try rewriting the JavaScript to use `import` and `export`, and link only the entry point as a module script.
-
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### Opening ES6 modules locally in the browser
-
-Due to security restrictions with the `file://` protocol, if you try to open an HTML file with module scripts directly in the browser (e.g. running `google-chrome index.html` in the terminal or similar), you will be greeted with a CORS error.
-
-ES6 modules need to be served via a server. For now, if you haven't been using it already, you should use Visual Studio Code's [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
-
-</div>
+If you had coded along with the IIFE example at the start of the lesson, try rewriting the JavaScript to use `import` and `export`, and link only the entry point as a module script. Due to browser security reasons, ES6 modules cannot be loaded if you open the HTML file directly in the browser, so make sure you use Visual Studio Code's [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) if you aren't already.
 
 ### CommonJS
 
