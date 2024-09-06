@@ -14,6 +14,7 @@ By now you've come far from your React-baby days. You have tools like routers an
 1. Build individual card elements for each of your products. Display an input field on it, which lets a user manually type in how many items they want to buy. Also, add an increment and decrement button next to it for fine-tuning. You can also display a title for each product as well as an "Add To Cart" button.
 1. Fetch your shop items from [FakeStore API](https://fakestoreapi.com) or something similar.
 1. Once a user has submitted their order, the amount on the cart itself should adjust accordingly.
+1. Clear out any `missing in props validation` errors in your app!
 1. Make sure to test your app thoroughly using the React Testing Library. Be careful not to test `react-router-dom` directly, since it is an external library and the developers working on it must have tested the library already.
 1. As usual, style your application so you can show it off! You have a host of options provided already.
 1. Lastly, it's time to deploy it! Depending on what hosting solution you're using, you may need some additional configuration so that your routing is handled correctly as a single page application (SPA).
