@@ -26,19 +26,13 @@ Now that we have everything we need, let's briefly go over what some of those pa
 
 - `@testing-library/jest-dom` includes some handy custom matchers (assertive functions) like `toBeInTheDocument` and more. (complete list on [jest-dom's github](https://github.com/testing-library/jest-dom)). Jest already has a lot of matchers so this package is not compulsory to use.
 
-- <span id="user-event">`@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage.</span> Alternatively, we could import the `fireEvent` API from `@testing-library/react`.
-
-  <div class="lesson-note" markdown="1">
-
-  `fireEvent` is an inferior counterpart to `userEvent` and `userEvent` should always be preferred in practice.
-
-  </div>
+- <span id="user-event">`@testing-library/user-event` provides the `userEvent` API that simulates user interactions with the webpage.</span>
 
 ### Our first query
 
 First, we'll render the component using `render`. The API will return an object and we'll use destructuring syntax to obtain a subset of the methods required. You can read all about what `render` can do in [the React Testing Library API docs about render](https://testing-library.com/docs/react-testing-library/api/#render).
 
-```javascript
+```jsx
 // App.jsx
 
 const App = () => <h1>Our First Test</h1>;
@@ -46,9 +40,10 @@ const App = () => <h1>Our First Test</h1>;
 export default App;
 ```
 
-```javascript
+```jsx
 // App.test.jsx
 
+import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import App from "./App";
 
@@ -61,6 +56,14 @@ describe("App component", () => {
 
 ```
 
+<div class="lesson-note" markdown="1">
+
+#### Vitest globals and ESLint
+
+Even if you set `globals: true` in `vite.config.js` like in the setup tutorial, ESLint will still yell at you, as it will not recognize these globals without some extra configuration in your `.eslintrc.cjs` file. The most straightforward resolution would be to explicitly import the globals you'd need. You can omit `globals: true` from `vite.config.js` in this case.
+
+</div>
+
 Execute `npm test App.test.jsx` on the terminal and see the test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through [the React Testing Library docs page about queries](https://testing-library.com/docs/queries/about/). Pay extra attention to the "Types of Queries" and "Priority" sections.
 
 <span id="by-role-methods">As stated by the React Testing Library docs, `ByRole` methods are favored methods for querying, especially when paired with the `name` option. For example, we could improve the specificity of the above query like so: `getByRole("heading", { name: "Our First Test" })`. Queries that are done through `ByRole` ensure that our UI is accessible to everyone no matter what mode they use to navigate the webpage (i.e. mouse or assistive technologies).</span>
@@ -69,10 +72,10 @@ Execute `npm test App.test.jsx` on the terminal and see the test pass. `getByRol
 
 There are numerous ways a user can interact with a webpage. Even though live user feedback and interaction is irreplaceable, we can still build some confidence in our components through tests. Here's a button which changes the heading of the App:
 
-```javascript
+```jsx
 // App.jsx
 
-import React, { useState } from "react";
+import { useState } from "react";
 
 const App = () => {
   const [heading, setHeading] = useState("Magnificent Monkeys");
@@ -96,9 +99,10 @@ export default App;
 
 Let's test if the button works as intended. In this test suite, we'll use a separate utility to query our UI elements. React Testing Library provides the `screen` object which has all the methods for querying. With `screen`, we don't have to worry about keeping `render`'s destructuring up-to-date. Hence, it's better to use `screen` to access queries rather than to destructure `render`.
 
-```javascript
+```jsx
 // App.test.jsx
 
+import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "./App";
@@ -125,13 +129,13 @@ describe("App component", () => {
 
 The tests speak for themselves. In the first test, we utilize snapshots to check whether all the nodes render as we expect them to. In the second test, we simulate a click event. Then we check if the heading changed. `toMatch` is one of the various assertions we could have made. Notice that the callback function for the second test is an `async` one, as we need this in order to `await user.click()`.
 
-It's also important to note that after every test, React Testing Library unmounts the rendered components. That's why we render for each test. For a lot of tests for a component, the `beforeEach` Jest function could prove handy.
+It's also important to note that after every test, React Testing Library unmounts the rendered components. That's why we render for each test. For a lot of tests for a component, the `beforeEach` Vitest function could prove handy.
 
 ### What are snapshots?
 
 Snapshot testing is just comparing our rendered component with an associated snapshot file. For example, the snapshot file which was automatically generated after we ran the *"magnificent monkeys renders"* test was:
 
-```javascript
+```jsx
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`App component > renders magnificent monkeys 1`] = `
@@ -162,9 +166,18 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 <div class="lesson-content__panel" markdown="1">
 
+<div class="lesson-note" markdown="1">
+
+#### Focus on the concepts
+
+Even though some articles use Jest and the Enzyme testing library, the concepts should be transferrable.
+
+</div>
+
+1. [Testing Implementation Details](https://kentcdodds.com/blog/testing-implementation-details) by Kent C. Dodds shows us how we can reduce false test results and inflexible tests by avoiding testing the implementation of things.
 1. Take a glance at all of the available query methods on [the React Testing Library's cheatsheet page](https://testing-library.com/docs/dom-testing-library/cheatsheet/). There's no need to use them all, but it's optimal to employ a specific method for a specific query. If none of the query methods suffice, there's an option to use test ids. Learn about test ids on [the React Testing Library's test id docs](https://testing-library.com/docs/queries/bytestid/).
 1. Read [the userEvent API docs](https://testing-library.com/docs/user-event/intro) to get a feel of how to achieve user simulation.
-1. This article on the [Pros and Cons of Snapshot Tests](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the advantages and disadvantages of snapshot testing. Even though the articles use Jest, the concepts should be transferrable. And this one, [Snapshot Testing: Benefits and Drawbacks](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks), does an excellent job of explaining what snapshot testing is for programming in general.
+1. This article on the [Pros and Cons of Snapshot Tests](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the advantages and disadvantages of snapshot testing. And this one, [Snapshot Testing: Benefits and Drawbacks](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks), does an excellent job of explaining what snapshot testing is for programming in general.
 
 </div>
 

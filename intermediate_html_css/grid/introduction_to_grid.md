@@ -15,24 +15,30 @@ This section contains a general overview of topics that you will learn in this l
 
 In the Foundations course you learned a lot about Flexbox. If you’ve been using Flex here and there along the way, this section will be a quick refresher before we get into Grid. If you’re completely lost on Flex, then it might be helpful to go back through the [Flex lessons](https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox) again to get up to speed.
 
-The Flex lessons covered positioning items along the two [axes](https://www.theodinproject.com/lessons/foundations-axes) (main and cross) and how to set their [alignment.](https://www.theodinproject.com/lessons/foundations-alignment) You also learned how to make your flex items [grow, shrink or change their size.](https://www.theodinproject.com/lessons/foundations-growing-and-shrinking) This is the real beauty of Flexbox as items can, well, “flex” to stretch out or shrink down.
+The Flex lessons covered positioning items along the [two flex axes (main and cross)](https://www.theodinproject.com/lessons/foundations-axes) and how to set their [flex alignment](https://www.theodinproject.com/lessons/foundations-alignment). You also learned [how to make your flex items grow, shrink or change their size](https://www.theodinproject.com/lessons/foundations-growing-and-shrinking). This is the real beauty of Flexbox as items can, well, “flex” to stretch out or shrink down.
 
 You’ll remember you can line up a nice row of flex items like this:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="XWeJbRy" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/XWeJbRy">
   Single Row | CSS Flexbox</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Or a column like this:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="MWEYwoX" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/MWEYwoX">
   Single Column | CSS Flexbox</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 For one-dimensional layouts, Flex offers a convenient tool without having to rely on floats or CSS hacks to align your items properly.
@@ -48,10 +54,13 @@ We know that was a frustrating one, but it's part of the point. While Flexbox al
 But setting up a two-dimensional layout of cards would be much easier using CSS Grid:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="KKXwpZR" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/KKXwpZR">
   2D Layout | CSS Grid</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ### What is grid?
@@ -68,7 +77,7 @@ While some people thought CSS Grid was here to replace Flexbox, you will learn b
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How can you use Flex to make a two-dimensional layout?](#a-look-back-at-flex)
 - [Why was CSS Grid introduced?](#what-is-grid)
@@ -76,8 +85,8 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Watch [Flexbox vs. CSS Grid — Which is Better?](https://www.youtube.com/watch?v=hs3piaN4b5I) for a visual representation of the use cases for Flexbox vs CSS Grid
-- Read CSS Tricks [quick take](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/) on the differences between Flex and Grid
+- Read CSS Tricks' quick take on the [differences between flex and grid](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/).
 - Check out [The Story of CSS Grid](https://alistapart.com/article/the-story-of-css-grid-from-its-creators/)

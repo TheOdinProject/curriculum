@@ -1,6 +1,6 @@
 ### Introduction
 
-Any exciting application you build is likely to change over the time the user is exploring it. The changes could be as basic as toggling a dropdown menu or as complex as fetching data from an API. React provides primitives to manipulate the state of your apps, more specifically components, to make them dynamic. In this lesson, we will learn how to use state in React.  
+Any exciting application you build is likely to change over the time the user is exploring it. The changes could be as basic as toggling a dropdown menu or as complex as fetching data from an API. React provides primitives to manipulate the state of your apps, more specifically components, to make them dynamic. In this lesson, we will learn how to use state in React.
 
 Read  [What is State? by Academind](https://academind.com/tutorials/what-is-state) before we get started.
 
@@ -31,7 +31,7 @@ An app that changes its background color based on the clicked button. Take your 
 
 State definition with `useState` commonly follows this pattern:
 
-```js
+```javascript
 const [stateValue, setStateValue] = useState(initialValue);
 
 // adapted for our use case:
@@ -81,7 +81,7 @@ Hooks are functions that let you use React features. All hooks are recognizable 
     1. [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
     1. [Render and Commit](https://react.dev/learn/render-and-commit)
 1. Read this [article on React Reconciliation Algorithm](https://medium.com/javarevisited/react-reconciliation-algorithm-86e3e22c1b40) for a great explanation.
-1. Add a new state variable to keep track of the number of times the background color has been changed. Display the number of times the background color has been changed on the page.
+1. Head back to the colour changing background example from earlier in the lesson, and add a new state variable to keep track of the number of times the background color has been changed. Display the number of times the background color has been changed on the page. You will need to fork the codesandbox to do this, which requires a codesandbox account. Click "Open Editor" in the top right of the codesandbox embed, then "Fork" in the top right of the editor.
 
 </div>
 
@@ -89,10 +89,10 @@ Hooks are functions that let you use React features. All hooks are recognizable 
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#what-is-state-in-react">What is state?</a>
-- <a class="knowledge-check-link" href="#useState-hook">What is the `useState` hook and how to use it?</a>
-- <a class="knowledge-check-link" href="#how-does-state-work-in-react">What happens to the component when one of its state is changed?</a>
-- <a class="knowledge-check-link" href="#hooks">What are some of the rules of hooks?</a>
+- [What is state?](#what-is-state-in-react)
+- [What is the `useState` hook and how would you use it?](#useState-hook)
+- [What happens to a component when one of its states is changed?](#how-does-state-work-in-react)
+- [What are some of the rules of hooks?](#hooks)
 
 ### Additional resources
 

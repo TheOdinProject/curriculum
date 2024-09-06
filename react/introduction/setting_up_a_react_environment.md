@@ -39,7 +39,7 @@ All of this, and sometimes *much more* is required to get a React project and de
 
 #### A note on Create React App
 
-Create React App, or CRA, was the official way to scaffold new React projects since its introduction in 2016. Unfortunately, owing to many reasons, CRA was deprecated in early 2023. Read this [extensive comment by one of React's maintainers](https://github.com/reactjs/react.dev/pull/5487#issuecomment-1409720741) if you're curious. Due to CRA's popularity, you'll see it mentioned in many tutorials and guides. However, it's no longer recommended to use for new projects.
+Create React App, or CRA, was the official way to scaffold new React projects since its introduction in 2016. Unfortunately, owing to many reasons, [CRA was deprecated in early 2023](https://github.com/reactjs/react.dev/pull/5487#issuecomment-1409720741). Due to CRA's popularity, you'll see it mentioned in many tutorials and guides. However, it's no longer recommended to use it for new projects.
 
 </div>
 
@@ -51,7 +51,7 @@ Vite builds frontend tools for developers and it leverages the latest technologi
 
 ### Creating a React app
 
-Please make sure that you are using the *LTS version of Node*, otherwise errors may occur. Fire up a terminal instance, `cd` into the folder containing your projects, and enter the following command:
+Please make sure that you are using the *LTS version of Node*, otherwise errors may occur. Fire up a terminal instance, `cd` into the folder containing your projects, and enter the following command (you can replace `my-first-react-app` with any name you want):
 
 ```bash
 npm create vite@latest my-first-react-app -- --template react
@@ -79,9 +79,19 @@ Provided everything has gone according to plan, head over to `localhost:5173`, w
 
 Congratulations! You've created your first React app.
 
-<div class="lesson-note lesson-note--tip" markdown=1>
+To link your local project directory to a GitHub repo, create a new **empty** repo on GitHub then follow the instructions in the new repo's page to connect it to your local project directory.
 
-As you might've noticed by now, you can replace `my-first-react-app` with the name of your project.
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Using an existing repo
+
+Alternatively, if you created a GitHub repo already and cloned it, you can `cd` into your cloned repo then run the above Vite command, using `.` as the project name:
+
+```bash
+npm create vite@latest . -- --template react
+```
+
+This will tell Vite to use the current directory for the project, instead of creating a new directory with the given project name. This cloned directory will already be initialized as a git repo and connected to the right remote.
 
 </div>
 
@@ -94,31 +104,27 @@ The `public` folder is where all of the static assets related to your app will g
 Inside the `src` folder is where you will find the code that runs your app. The `main.jsx` file here serves as the entry point of the application. Let's open the `main.jsx` file and see if we can understand what's going on:
 
 ```jsx
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
     <App />
-  </React.StrictMode>,
-)
+  </StrictMode>,
+);
 ```
 
 Whoa! There's quite a lot here. You are not expected to recognize much of this (if any) right now. Here's a brief rundown of what is happening:
 
-1. We import `React` itself and its fellow `ReactDOM` package.
+1. We import `StrictMode` and `createRoot` from the `react` and `react-dom` packages respectively.
 1. We import the `App` component from `App.jsx`, so that we may place (render) it within the DOM.
 1. We import some CSS styling (you may recognize this syntax from the Webpack material).
-1. We create a `root` object by invoking `ReactDOM.createRoot` with an element from our `index.html`.
+1. We create a `root` object by invoking `createRoot` with an element from our `index.html`.
 1. We invoke the `render` method which is attached to our `root` object, with some very interesting-looking syntax inside the parentheses.
 
-All of this may look different from anything you've seen, but have no fear! Once you've finished this course, you'll know exactly what all of this does, and *much more*.
-
-### Keeping it clean
-
-The starter project ships with [ESLint](https://eslint.org/). If you haven't been doing it or simply forgot about it from our [linting lesson](https://www.theodinproject.com/lessons/node-path-javascript-linting), be sure to also set up [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) to help keep your React code as clean as can be.
+All of this may understandably look unlike anything you've seen up until now, but have no fear, once you've spent the time with this course, you'll know exactly what all of this does, and *much more*.
 
 ### Developer tools
 
@@ -133,7 +139,7 @@ We recommend installing this and becoming comfortable using it as early as possi
 <div class="lesson-content__panel" markdown="1">
 
 1. Review this material by reading through [Vite's Getting Started Page](https://vitejs.dev/guide/).
-1. Check out this [guide for React Developer Tools](https://web.archive.org/web/20230127083036/https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to use it (don't worry if you don't understand some of the details yet).
+1. Check out this [guide for React Developer Tools](https://www.debugbear.com/blog/react-devtools) to begin learning how to use it (don't worry if you don't understand some of the details yet).
 1. Try to clean up your `my-first-react-app` project so that it no longer displays the default page. See if you can get it to display a "Hello, World!" message instead.
 
 </div>
@@ -154,4 +160,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [Intro to React Dev Tools](https://www.youtube.com/watch?v=rb1GWqCJid4) gets you up to speed with a quick overview of the basic features of React Dev tools in Chrome.

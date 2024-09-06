@@ -305,7 +305,7 @@ if you would like to learn more:
     format.turbo_stream { render turbo_stream: turbo_stream.append('posts', @post) }
     ```
 
-    However, you shouldn't do this for anything complex or chained, as explained in this [comment by one of the maintainers of Hotwire](https://github.com/hotwired/turbo-rails/issues/77#issuecomment-757349251).
+    However, you shouldn't do this for anything complex or chained.
 
 1. You may have noticed that when you submit a new Post, the text box doesn't clear out. You need to reset the submission element in order for it to be empty again. Hotwire has a remedy for this problem by including Stimulus, a light JavaScript framework. Don't worry about Stimulus for this example though, the next lesson will cover how to write and make use of Stimulus Controllers.
 
@@ -317,7 +317,7 @@ The final piece of Turbo is something that you don't need to know much about for
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read sections 1, 2, and 3 of Bloomreach's [What Are Single Page Applications and Why Do People Like Them So Much?](https://www.bloomreach.com/en/blog/2018/07/what-is-a-single-page-application.html#whatssingle-page-application) article
+1. Read sections 1, 2, and 3 of Bloomreach's [What Are Single Page Applications and Why Do People Like Them So Much?](https://www.bloomreach.com/en/blog/what-is-a-single-page-application) article
 1. Watch the [Hotwire Demo Video](https://www.youtube.com/watch?v=eKY-QES1XQQ)
     - We have only covered content up until the 5:40 mark, but you may continue watching past that point to become more familiar with other aspects of Hotwire that we will be covering in upcoming lessons.
     - The video is edited to be a very quick showcase. Don't worry about trying to pause and use this video as a tutorial. Just sit back and use this demo to watch how Turbo Drive, Frames, & Streams come together visually.
@@ -332,16 +332,16 @@ The final piece of Turbo is something that you don't need to know much about for
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class='knowledge-check-link' href='#single-page-applications-spas'>What does SPA stand for and what is it?</a>
-- <a class='knowledge-check-link' href='#hotwire'>What is Hotwire?</a>
-- <a class='knowledge-check-link' href='#turbo-frames'>How do we use a Turbo Frame?</a>
-- <a class='knowledge-check-link' href='#turbo-stream'>How do we set up Turbo Streams?</a>
+- [What does SPA stand for and what is it?](#single-page-applications-spas)
+- [What is Hotwire?](#hotwire)
+- [How do we use a Turbo Frame?](#turbo-frames)
+- [How do we set up Turbo Streams?](#turbo-stream)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Turbo Reference Information](https://turbo.hotwired.dev/reference/drive)
-- Check out this tutorial on [Turbo Frames and Turbo Stream](https://www.hotrails.dev/turbo-rails/turbo-frames-and-turbo-streams) to build a quotes editor.To get started right away, enter in command line `rails new quote-editor;rails scaffold g quotes` and in migration add `t.string :name` and then `rails db:migrate`.
+- Check out this tutorial on [Turbo Frames and Turbo Stream](https://www.hotrails.dev/turbo-rails/turbo-frames-and-turbo-streams) to build a quotes editor.To get started right away, enter in command line `rails new quote-editor;cd quote-editor;rails g scaffold quote name:string` and then `rails db:migrate`.
 - [Official Hotwire Forums](https://discuss.hotwired.dev/)
 - Remember you can use your browser developer tools to [watch network activity](https://developer.chrome.com/docs/devtools/network/) and see what is happening with your Turbo requests and responses. If something doesn't work, check to see if your browser received a Rails error message. Look for a red font.

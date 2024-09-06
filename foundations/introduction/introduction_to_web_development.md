@@ -3,10 +3,10 @@
 What do web developers do? In short, they build and maintain websites.
 
 Web developers often work for clients who are trying to get their product or service onto the web.
-The work is typically very project focused and involves collaborating with a team that helps to coordinate the client's needs into the end product. The client could be a tech company, an organization, or a government. The work could involve front-end, back-end, or full-stack web development.
+The work is typically project-focused and involves collaborating with a team to coordinate the client's needs into the end product. The client could be a tech company, an organization, or a government. The work could involve front-end, back-end, or full-stack web development.
 
 Web development could be a good profession for you if you like solving logical problems, building useful things, and experimenting with new technologies.
-Web developers are in high demand, generally have a good work/life balance, and command comfortable salaries. Google your specific location to get a better sense of your local web development job opportunities.
+Web developers are in high demand, generally have a good work-life balance, and command comfortable salaries. Google your specific location to get a better sense of your local web development job opportunities.
 
 ### Types of web developers
 
@@ -30,9 +30,9 @@ Startups are a bit like the wild west. For a junior developer, it can feel like 
 
 As a freelancer, you could command a strong hourly wage and the freedom to schedule and design your own products. However, you would be responsible for getting your own work (which means less coding time), managing billing from clients (which can be difficult), and being solely responsible. Strong people skills are necessary for this path.
 
-As a consultant for a web consultancy, you would give up some of your freelancing wage potential but be able to focus more on the code and less on the hustle. This option also provides a good work/life balance and pay.
+As a consultant for a web consultancy, you would give up some of your freelancing wage potential but be able to focus more on the code and less on the hustle. This option also provides a good work-life balance and pay.
 
-Finally, large, older companies still need web developers. These companies offer a good work/life balance, pay, and benefits but often move slower than a company that is highly focused on tech.
+Finally, large, older companies still need web developers. These companies offer a good work-life balance, pay, and benefits but often move slower than a company that is highly focused on tech.
 
 ### Tools of the trade
 
@@ -55,7 +55,7 @@ The web development industry has a long history of successful developers with va
 
 ### Why Odin?
 
-I want you to know that this will not be easy.
+We want you to know that this will not be easy.
 
 There are plenty of other online curriculums for beginners, but they are often taught in an extremely isolated and controlled environment and cover only a specific topic.
 
@@ -65,7 +65,7 @@ It acknowledges that you need a wide variety of skill sets and languages to reac
 
 The Odin Project is constantly evolving because of people like you who get further along in the curriculum and pay it forward by incrementally improving our content over time.
 
-Once you start to feel comfortable with the tools, start hacking on open source projects [(like The Odin Project itself)](/contributing). The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
+Once you start to feel comfortable with the tools, start contributing to open source projects, like [contributing to The Odin Project](https://www.theodinproject.com/contributing)! The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
 
 ### Conclusion
 
@@ -79,9 +79,9 @@ Yes, it's going to be challenging.
 
 But it's also going to be fun.
 
-And it might even be life changing, too.
+And it might even be life-changing.
 
-_What are you waiting for?_
+*What are you waiting for?*
 
 ### Assignment
 
@@ -95,7 +95,7 @@ _What are you waiting for?_
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
 - [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)

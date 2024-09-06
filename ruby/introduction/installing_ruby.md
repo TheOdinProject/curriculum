@@ -1,4 +1,5 @@
-<!-- markdownlint-disable MD024 MD043 -->
+<!-- TODO: Revisit lesson/heading structure to remove need to disable rules -->
+<!-- markdownlint-disable MD024 TOP004 -->
 
 ### Introduction
 
@@ -13,7 +14,9 @@ Before continuing, let's review a few best practices to keep in mind:
 Now, let's get started!
 
 <details markdown="block">
+
 <summary class="dropDown-header">Linux
+
 </summary>
 
 ### Step 1: Install updates, packages and libraries
@@ -63,19 +66,13 @@ First, you need to clone the rbenv repository.
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 ```
 
-Next, we'll add some commands to allow rbenv to work properly. We can use the Linux `echo` command to make it easy.
-
-<div class="lesson-note lesson-note--warning" markdown=1>
-Run these commands one by one in sequence. They will not provide any output if done properly. Again, be sure to copy and paste these commands.
-</div>
+Next command takes care of setting rbenv.
 
 ```bash
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-exit
+~/.rbenv/bin/rbenv init
 ```
 
-After running the final `exit` command, you will need to close out of all open terminals and open a new terminal (see Step 1.1 above).
+Close the terminal window and open a new one to refresh. 
 
 Next, you need to install `ruby-build` to help compile the Ruby binaries. Run these commands in the terminal to create a directory for the ruby-build plugin and then download it to the proper directory.
 
@@ -96,7 +93,7 @@ rbenv -v
 rbenv 1.2.0-14-gc6cc0a1
 ```
 
-If you do not get a version number at all (anything not starting with `rbenv 1...`), please ask for help in the [Odin Project Chat Room](https://discordapp.com/channels/505093832157691914/505093832157691916).
+If you do not get a version number at all (anything not starting with `rbenv 1...`), please ask for help in [our Discord server](https://discordapp.com/channels/505093832157691914/505093832157691916).
 
 #### Step 2.2: Install Ruby
 
@@ -105,10 +102,10 @@ It's finally time to install Ruby using `rbenv`!
 Inside the terminal, run this command:
 
 ```bash
-rbenv install 3.2.2 --verbose
+rbenv install 3.3.4 --verbose
 ```
 
-This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
+This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [funny jumping goats video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
 
 You may get this error message:
 
@@ -131,7 +128,7 @@ git -C "$(rbenv root)"/plugins/ruby-build pull
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ```bash
-rbenv global 3.2.2
+rbenv global 3.3.4
 ```
 
 Then,
@@ -143,7 +140,7 @@ ruby -v
 The above command should return something similar to this:
 
 ```bash
-ruby 3.2.2pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
+ruby 3.3.4pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ```
 
 where x represents the version available at the time you installed Ruby.
@@ -153,7 +150,9 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">MacOS
+
 </summary>
 
 ### Step 1: Install packages and libraries
@@ -164,7 +163,7 @@ Before we can install Ruby, we need to install some base packages. We will use t
 
 In your Applications folder, find "Utilities" and double click "Terminal". Alternatively, using Spotlight (<kbd>Cmd</kbd> + <kbd>Space</kbd>) or Launchpad, type "Terminal".
 
-The rest of the instructions are done inside this terminal window.
+The rest of the instructions are done inside this terminal window and if you followed all the Foundations instructions, you should have already completed step 1.2 and 1.3.
 
 #### Step 1.2: Install Xcode
 
@@ -181,6 +180,14 @@ The next program you need to install is [Homebrew](https://brew.sh/), which make
 ```
 
 You will be prompted to enter your password. When typing your password, you may not get any visual feedback, but rest assured that your password is being entered. Once you're done typing your password, press <kbd>Enter</kbd>.
+
+To verify the Homebrew installation, we can run
+
+```bash
+which brew
+```
+
+If it outputs a certain path, you're good to go ahead! But if the terminal reads ```brew not found```, please go through the [MacOS instructions in the setting up git lesson](https://www.theodinproject.com/lessons/foundations-setting-up-git) to get homebrew installed.
 
 Congratulations! You've installed the prerequisites!
 
@@ -212,45 +219,25 @@ Then, run this command:
 rbenv init
 ```
 
-You should see one of two messages after the command has run.
+At this point, open a new terminal tab, so changes take effect.
 
-Either:
-
-```bash
-# Load rbenv automatically by appending
-# the following to ~/.bash_profile:
-
-eval "$(rbenv init -)"
-```
-
-Or:
+To confirm that everything went as it should, open a new terminal tab and run:
 
 ```bash
-# Load rbenv automatically by appending
-# the following to ~/.zshrc:
-
-eval "$(rbenv init -)"
+rbenv -v
 ```
 
-You'll do as it suggests by running either of the following commands in the terminal.
-
-If the previous message stated you should append to your bash_profile then run:
+You should get an output with a version number **similar** to this:
 
 ```bash
-echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+rbenv 1.2.0-14-gc6cc0a1
 ```
 
-Otherwise if it mentioned zshrc then run:
-
-```bash
-echo 'eval "$(rbenv init -)"' >> ~/.zshrc
-```
-
-You'll notice nothing happened in the terminal. That's okay and is typical response for many terminal commands. At this point, take note of the page and step number you are on, close everything, do a full reboot and log back into your profile. After logging back in, re-open the terminal (see Step 1.1).
+If you do not get a version number at all (anything not starting with `rbenv 1...`), please ask for help in [our Discord server](https://discordapp.com/channels/505093832157691914/505093832157691916).
 
 #### Step 2.3: Install Ruby
 
-We can now (finally) install Ruby! Our curriculum currently uses version 3.2.2, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
+We can now (finally) install Ruby! Our curriculum currently uses version 3.3.4, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
 
 First, let's upgrade `ruby-build`:
 
@@ -261,22 +248,27 @@ brew upgrade ruby-build
 Now we're ready to install our desired version of Ruby:
 
 ```bash
-rbenv install 3.2.2 --verbose
+rbenv install 3.3.4 --verbose
 ```
 
-This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [this video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
+This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [funny jumping goats video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
 
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ```bash
-rbenv global 3.2.2
+rbenv global 3.3.4
 ```
 
-You can double check that this worked by typing `ruby -v` and checking that the output says version 3.2.2:
+You can double check that this worked by typing `ruby -v` and checking that the output says version 3.3.4:
 
 ```bash
 ruby -v
-ruby 3.2.2pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
+```
+
+You should get an output with a version number **similar** to this:
+
+```bash
+ruby 3.3.4pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
 ```
 
 If you don't see the output above, close and reopen the terminal window and then run the command again.
@@ -287,12 +279,8 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 
 #### Extras
 
-If you are using Visual Studio Code as your IDE, you can install the "Ruby LSP" extension which will provide you with semantic highlighting and formatting support. This is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby LSP", and click install on the first one. Congratulations, the extension is now installed (you can also uninstall the extension from here).
+If you are using Visual Studio Code as your IDE, you can install the "Ruby LSP" extension, which will provide you with semantic highlighting and formatting support.
 
-If you are using a different IDE, a quick Google search such as "Ruby programming extensions for (your IDE here)" should provide you with the resources to get started. Free support extensions can help make your programming go more smoothly, and there are tons of extensions for all languages (not just Ruby).
+Using the extension is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby LSP", and click install on the first one. Congratulations, the extension is now installed.
 
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+The most important features Ruby LSP provides will work out of the box. But it may bug you about using a monorepo setup, missing lockfiles or rubocop - you can choose "Don't show again" for now. We will introduce these later.

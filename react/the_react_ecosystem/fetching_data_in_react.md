@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Before we dive into the specifics of fetching data in React, let's briefly revisit how we can use the fetch API to get data from a server.
 
-```js
+```javascript
 const image = document.querySelector("img");
 fetch("https://jsonplaceholder.typicode.com/photos", {
   mode: "cors",
@@ -139,8 +139,8 @@ const Image = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  if (error) return <p>A network error was encountered</p>;
   if (loading) return <p>Loading...</p>;
+  if (error) return <p>A network error was encountered</p>;
 
   return (
     <>
@@ -186,8 +186,8 @@ const useImageURL = () => {
 const Image = () => {
   const { imageURL, error, loading } = useImageURL();
 
-  if (error) return <p>A network error was encountered</p>;
   if (loading) return <p>Loading...</p>;
+  if (error) return <p>A network error was encountered</p>;
 
   return (
     <>
@@ -250,3 +250,4 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [TanStack Query](https://tanstack.com/query/latest/docs/react/overview) is a library that handles all the necessary states and offers built-in support for major features, such as caching.
+- This article by Nadia Makarevich provides additional information and examples on [how to deal with race conditions](https://www.developerway.com/posts/fetching-in-react-lost-promises). Do not worry about the `useRef` hook, as it will be covered later on in the course.

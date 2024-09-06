@@ -1,0 +1,41 @@
+### Introduction
+
+Data persistence is integral to the vast majority of web applications. Local storage has limitations and poses security risks, and while Backend-as-a-Service (BaaS) options such as [Firebase](https://firebase.google.com/) work well, ultimately being able to understand how to structure, build, and query your own database are important skills for any full-stack developer to have.
+
+For example, consider X (formerly known as Twitter). Where are your username and password stored? Or perhaps where all of your posts might be fetched from? How does the application determine what posts are shown to you every time you log on? These operations are handled by a database.
+
+Databases are split into two types - "relational" and "non-relational", and each type handles data and scaling in different manners. In this lesson, you will complete a course that teaches you about MongoDB, a popular non-relational database.
+
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Set up a database on MongoDB Atlas.
+- Use the `mongo` shell.
+- Create, edit, and delete documents in a MongoDB database using the `mongo` shell.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+- Learn more about the [differences between relational and non-relational databases](https://circleci.com/blog/SQL-vs-NoSQL-databases/).
+- Take the entire [MongoDB University "Introduction to MongoDB" course](https://learn.mongodb.com/learning-paths/introduction-to-mongodb). This course will teach you the basics of MongoDB and the mongo shell. You will need to make an account.
+
+<div class="lesson-note" markdown="1">
+
+When you get to the lesson that asks you to install MongoDB Compass you can skip the installation.
+
+</div>
+</div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What is the difference between a relational database and a non-relational database?](https://circleci.com/blog/SQL-vs-NoSQL-databases/)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

@@ -15,13 +15,16 @@ This section contains a general overview of topics that you will learn in this l
 CSS transitions let you animate a change from an element's initial state to an end state. Think of an ordinary button element with a white background. When your mouse is away from the button, it's just sitting there. Boring. Then when you hover your mouse cursor over the button the background color smoothly transitions from white to grey to black over a period of time. This is a CSS transition. Have a look at the Codepen below to see one in action.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="eYGmYRm" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/eYGmYRm">
   CSS Transition (longhand)</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-When your mouse cursor is away from the button, the button is in the initial state. When you hover over it you introduce the end state, the hover state, causing the transition of the color smoothly fading from white to black to occur.
+When your mouse cursor is away from the button, the button is in the initial state. When you hover over it, you introduce the end state - the hover state - causing the background color to transition smoothly from white to black.
 
 This was achieved using the `transition` property, which is actually a shorthand property for `transition-property`, `transition-duration`, `transition-timing-function` and `transition-delay`.
 
@@ -66,7 +69,7 @@ The first is the "stacking context". Basically, a stacking context is formed whe
 div {
   width: 100px;
   height: 100px;
-  transition: transform 2s 1s; 
+  transition: transform 2s 1s;
 }
 
 div:hover {
@@ -83,11 +86,13 @@ What's important is that you have a solid understanding of these concepts and ca
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Read the MDN article for [using CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions), including the links in the [Defining transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions#defining_transitions) section of the article. Make sure you code along with any examples to become familiar with the syntax.
-1. Read the MDN article about [the stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context) for a deeper understanding.
-1. Learn some handy hints on how to create performant CSS animations by reading [this article](https://web.dev/animations-guide/) and check out the link it provides to [CSS Triggers](https://web.archive.org/web/20220727225220/https://csstriggers.com/) to see how an animatable CSS property may affect others. Look at the difference between the `background-color` and `transform` properties, for example.
+1. Read this article about [stacking context](https://www.joshwcomeau.com/css/stacking-contexts/).
+1. Learn some handy hints on [how to create performant CSS animations](https://web.dev/animations-guide/) and check out the link it provides to [CSS Triggers](https://web.archive.org/web/20220727225220/https://csstriggers.com/) to see how an animatable CSS property may affect others. Look at the difference between the `background-color` and `transform` properties, for example.
 1. Read this [interactive guide to transitions](https://www.joshwcomeau.com/animation/css-transitions/).
-1. Learn how to catch and debug repaint issues with this great article from [Dzhavat Ushev](https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html).
+1. Learn how to [catch and debug repaint issues](https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html).
+
 </div>
 
 ### Knowledge check
@@ -103,6 +108,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
+- For a deeper dive, check out this [MDN article on the stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context).
 - Up until now, you have only controlled the speed of your transitions with the help of keyword values like `ease` and `ease-in`. However, CSS allows you to define your own timing functions with the help of timing functions like `steps` and `cubic-bezier`. In specific, [the `cubic-bezier` function](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function#cubic_b%C3%A9zier_easing_function) is widely used.
 - While the [`cubic-bezier`](https://blog.maximeheckel.com/posts/cubic-bezier-from-math-to-motion/) function has a ton of mathematics, you do not need to delve deep into it apart from a creating a basic idea about its purpose.
 - You can play around with the [CSS Cubic Bezier Generator](https://www.cssportal.com/css-cubic-bezier-generator/) to not only view how the `cubic-bezier` value works in an editable demo, but also to compare the different `transition-timing-function` values side by side.
