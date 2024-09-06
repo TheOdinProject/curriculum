@@ -59,3 +59,4 @@ This section contains helpful links to related content. It isn't required, so co
 
 - Stephen Mayeux has a [Youtube playlist on ES6 classes](https://www.youtube.com/playlist?list=PLtwj5TTsiP7uTKfTQbcmb59mWXosLP_7S) and some of their methods with easy to follow examples.
 - Here are some more examples that try to illustrate the [benefits of composition over inheritance](https://blog.beezwax.net/composition-over-inheritance-with-javascript-examples).
+- [w3resource](https://www.w3resource.com/javascript-exercises/oop/index.php) provides a comprehensive collection of exercises on classes.
