@@ -29,6 +29,5 @@ jobs:
               separator: ','
           - uses: DavidAnson/markdownlint-cli2-action@v14
             with:
-              config: './lesson.markdownlint-cli2.jsonc'
               globs: ${{ steps.changed-files.outputs.all_changed_files }}
               separator: ','
