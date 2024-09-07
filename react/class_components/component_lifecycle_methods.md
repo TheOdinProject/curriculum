@@ -16,7 +16,7 @@ The render function is the most used lifecycle method, and one that you've come 
 
 ### componentDidMount()
 
-This method is run after the component is mounted (inserted in the DOM tree). You should make any calls to fetch data that is needed for the component here. It is also a good place to do anything that is reliant on the component, such as drawing on a canvas element that you just rendered.
+This method is run after the component is mounted (inserted in the DOM tree). You should make any calls to fetch data that is needed for the component here. It is also a good place to do anything that is reliant on the component, such as fetching from an API.
 
 ### componentDidUpdate()
 
@@ -39,7 +39,7 @@ Now that we've learnt about class lifecycle methods, it's useful to understand t
 
 For example:
 
-```js
+```javascript
   useEffect(() => {
     placeholderFunction();
     return () => cleanupFunction();
@@ -52,11 +52,9 @@ In this snippet, the useEffect contains the functionality of `componentDidMount`
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Check out this [lifecycle diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) to see a good visual representation of a components lifecycle methods.
+1. Check out this [component lifecycle diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) to see a good visual representation of a components lifecycle methods.
 
-1. Read this [component lifecycle documentation](https://reactjs.org/docs/react-component.html#the-component-lifecycle) by the people who made react!
-    - You only have to worry about the methods in bold, but you can read up on the others if you're curious - they're uncommon and you likely won't need them in
-      most of your apps.
+1. Read through [component documentation](https://react.dev/reference/react/Component) from 'constructor(props)' up to 'componentWillUnmount()' in the Reference section, being mindful of deprecated APIs. Consider other APIs as supplementary information.
 
 </div>
 

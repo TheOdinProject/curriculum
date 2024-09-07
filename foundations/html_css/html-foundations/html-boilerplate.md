@@ -17,9 +17,9 @@ Create a new folder on your computer and name it `html-boilerplate`. Within that
 
 You're probably already familiar with a lot of different types of files, for example doc, pdf, and image files.
 
-To let the computer know we want to create an HTML file, we need to append the filename with the `.html` extension as we have done when creating the `index.html` file.
+To let the computer know we want to create an HTML file, we need to append the filename with the `.html` extension, as we have done when creating the `index.html` file.
 
-It is worth noting that we named our HTML file `index`. We should always name the HTML file that will contain the homepage of our websites `index.html`. This is because web servers will by default look for an `index.html` page when users land on our websites -- and not having one will cause big problems.
+It is worth noting that we named our HTML file `index`. We should always name the HTML file that will contain the homepage of our website `index.html`. This is because web servers will by default look for an `index.html` page when users land on our websites -- and not having one will cause big problems.
 
 ### The DOCTYPE
 
@@ -31,7 +31,7 @@ The doctypes for older versions of HTML were a bit more complicated. For example
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 ```
 
-However, we probably won't ever want to be using an older version of HTML, and so we'll always use `<!DOCTYPE html>`.
+However, we probably won't ever want to be using an older version of HTML, so we'll always use `<!DOCTYPE html>`.
 
 Open the `index.html` file created earlier in your text editor and add `<!DOCTYPE html>` to the very first line.
 
@@ -60,24 +60,6 @@ Noticed the word `lang` here? It represents an HTML attribute which is associate
 The `<head>` element is where we put important meta-information **about** our webpages, and stuff required for our webpages to render correctly in the browser.
 Inside the `<head>`, we **should not** use any element that displays content on the webpage.
 
-#### Meta element
-
-We should always have the `<meta>` tag with the charset encoding of the webpage in the `<head>` element: `<meta charset="utf-8">`.
-
-Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
-
-#### Title element
-
-Another element we should always include in the head of an HTML document is the `<title>` element:
-
- `<title>My First Webpage</title>`
-
-The `<title>` element is used to give webpages a human-readable title which is displayed in our webpage's browser tab. For example, if you look at the current tab's name of your browser, it will read "HTML Boilerplate &#124; The Odin Project"; this is the `<title>` of the current `.html` file.
-
-If we didn't include a `<title>` element, the webpage's title would default to its file name. In our case that would be `index.html`, which isn't very meaningful for users; this would make it very difficult to find our webpage if the user has many browser tabs open.
-
-There are many more elements that can go within the head of an HTML document. However, for now it's only crucial to know about the two elements we have covered here. We will introduce more elements that go into the head throughout the rest of the curriculum.
-
 Back in our `index.html` file, let's add a `<head>` element with a `<meta>` element and a title within it. The `<head>` element goes within the `<html>` element and should always be the first element under the opening `<html>` tag:
 
 ```html
@@ -90,6 +72,24 @@ Back in our `index.html` file, let's add a `<head>` element with a `<meta>` elem
   </head>
 </html>
 ```
+
+#### Meta element
+
+We should always have the `<meta>` tag with the charset encoding of the webpage in the `<head>` element: `<meta charset="utf-8">`.
+
+Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
+
+#### Title element
+
+Another element we should always include in the head of an HTML document is the `<title>` element:
+
+ `<title>My First Webpage</title>`
+
+The `<title>` element is used to give webpages a human-readable title, which is displayed in our webpage's browser tab. For example, if you look at the current tab's name of your browser, it will read "HTML Boilerplate &#124; The Odin Project"; this is the `<title>` of the current `.html` file.
+
+If we didn't include a `<title>` element, the webpage's title would default to its file name. In our case that would be `index.html`, which isn't very meaningful for users; this would make it very difficult to find our webpage if the user has many browser tabs open.
+
+There are many more elements that can go within the head of an HTML document. However, for now it's only crucial to know about the two elements we have covered here. We will introduce more elements that go into the head throughout the rest of the curriculum.
 
 ### Body element
 
@@ -114,17 +114,22 @@ To complete the boilerplate, add a `<body>` element to the `index.html` file. Th
 
 The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  There are a couple of different options:
 
-> A note:
-> In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to Google Chrome.  We **strongly** suggest that you use Google Chrome for all of your testing going forward.
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Use Google Chrome
+
+In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to Google Chrome.  We **strongly** suggest that you use Google Chrome for all of your testing going forward.
+
+</div>
 
 1. You can drag and drop an HTML file from your text editor into the address bar of your browser.
 
 1. You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
 
-1. You can use the terminal to open the file in your browser.
-
-    - `Ubuntu` - Navigate to the directory containing the file and type `google-chrome index.html`
-    - `macOS` - Navigate to the directory containing the file and type `open ./index.html`
+1. You can use the terminal to open the file in your browser:
+   - Ubuntu: Navigate to the directory containing the file and type `google-chrome index.html`
+   - macOS: Navigate to the directory containing the file and type `open ./index.html`
+   - WSL: Navigate to the directory containing the file and type `explorer.exe index.html`. Note, this will open up the file in the default browser your system uses.
 
 Using one of the methods above, open up the `index.html` file we have been working on. You'll notice the screen is blank. This is because we don't have anything in our body to display.
 
@@ -168,7 +173,7 @@ It's still good to know how to write the boilerplate yourself in case you find y
 
 1. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
 
-1. Run your boilerplate through the W3 [HTML validator](https://validator.w3.org/). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
+1. Run your boilerplate through the W3 [HTML validator](https://validator.w3.org/#validate_by_input). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
 
 </div>
 

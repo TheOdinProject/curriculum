@@ -8,7 +8,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), is a nu
 
 You should already be thinking that perhaps this can be solved iteratively rather than recursively, and you would be correct. Nevertheless generating the sequence recursively is an excellent way to better understand recursion.
 
-To understand how recursion works with Fibonacci watch this step-through video from [Khan Academy](https://www.youtube.com/watch?v=zg-ddPbzcKM).
+You can watch this [video from Khan Academy on recursive Fibonacci](https://www.youtube.com/watch?v=zg-ddPbzcKM) to understand it further.
 
 #### Merge sort
 
@@ -18,8 +18,8 @@ Merge sort is one such sorting algorithm, and can be much faster than other algo
 
 To understand what the merge sort algorithm is doing check out these resources:
 
-1. Watch this [introductory video from Harvard's CS50x course](https://youtu.be/Ns7tGNbtvV4).
-1. Watch this more [detailed video explanation by David J. Malan](https://youtu.be/4oqjcKenCH8?t=6248) (watch only until 1:58:33).
+1. Watch this introductory video on [merge sort from Harvard's CS50x course](https://youtu.be/Ns7tGNbtvV4).
+1. Watch another explanation of [how merge sort works](https://youtu.be/4oqjcKenCH8?t=6248) (watch only until 1:58:33), this time from a part of a Harvard CS50x lecture.
 1. [The concept of merging](https://youtu.be/6pV2IF0fgKY) and [Merge Sort -- How it Works part](https://youtu.be/mB5HXBb_HY8) on YouTube give you a more formal look at this problem if you're still unclear.
 1. (Optional) Play with this [Merge Sort Visualizer](https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/visualize/) to get a better feel for exactly what is happening during a Merge Sort.
 
@@ -43,7 +43,7 @@ First up create a file and tackle the fibonacci sequence:
 1. Now write another function `fibsRec` which solves the same problem recursively.
 1. Test both versions of your functions by passing in various lengths as arguments.
 
-Hopefully you were able to solve the problem with recursion! If you need some help understanding what's going on with this function, there are some additional resources linked at the end of this page.
+Hopefully you were able to solve the problem with recursion! If you need some help understanding what's going on with this function, the "Test it out" section below will help. If you're still a bit confused, there are some additional resources linked at the end of this page.
 
 Once you have a firm grasp on solving Fibonacci with recursion, create a new file and work on a merge sort:
 
@@ -54,6 +54,19 @@ Tips:
 - Think about what the base case is and what behavior is happening again and again and can actually be delegated to someone else (e.g. that same function!).
 - It may be helpful to check out the background videos again if you don't quite understand what should be going on.
 
+#### Test it out
+
+To showcase the recursive effect implemented in your Fibonacci function, do the following:
+
+1. Add the following to the start of the function:
+
+   ```javascript
+   console.log("This was printed recursively");
+   ```
+
+1. Call the function with `8` as the argument.
+1. If the function is implemented correctly, you should see that sentence printed around 8 times (keep in mind that, depending on the way you implemented the function, you may see 7 instead of 8. This isn't a bug! It simply depends on how many times the function is *actually* repeated).
+
 </div>
 
 ### Additional resources
@@ -62,5 +75,5 @@ This section contains helpful links to related content. It isn't required, so co
 
 - An extensive written JavaScript solution for [recursive Fibonacci](https://www.scaler.com/topics/fibonacci-series-in-javascript/)
 - Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
-- Visualize and [understand](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK) the memory allocation for recursive functions
+- Visualize and understand the [memory allocation for recursive functions](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK).
 - For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)

@@ -1,12 +1,16 @@
-<!-- markdownlint-disable MD024 MD043 -->
+<!-- TODO: Revisit lesson/heading structure to remove need to disable rules -->
+<!-- markdownlint-disable MD024 TOP004 -->
 
 ### Introduction
 
-If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system and have **Google Chrome** as an installed browser, you can skip this lesson. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
+If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system and have **Google Chrome** as an installed browser, you can skip this lesson. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
+
 #### Be mindful of the OS you are using
+
 We can only support the operating systems indicated above. Our instructions have been tested with MacOS, Ubuntu, and official flavors of Ubuntu. We do not recommend installing an OS that is only based on Ubuntu (like Mint, Pop!_OS, ElementaryOS, etc).
+
 </div>
 
 ### Lesson overview
@@ -36,7 +40,9 @@ This curriculum only supports using a laptop, desktop or supported Chromebook. W
 Pick your method of installation below:
 
 <details markdown="block">
+
 <summary class="dropDown-header">Virtual Machine (Recommended)
+
 </summary>
 
 Installing a Virtual Machine (VM) is the easiest and most reliable way to get started creating an environment for web development. A VM is an entire computer emulation that runs inside your current Operating System (OS), like Windows. The main drawback of a VM is that it can be slow because you’re essentially running two computers at the same time. We’ll do a few things to improve its performance.
@@ -55,13 +61,13 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 #### Step 1.2: Download Xubuntu
 
-There are thousands of distributions of Linux out there, but Xubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend downloading [Xubuntu 22.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/22.04/release/). There are a few files listed here, download the one ending in `.iso`. Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. If you find the download speed slow, consider using a different [mirror for Xubuntu 22.04](https://xubuntu.org/release/22-04/#show-all) as the one linked before is a US one. If you reach the download page and are unsure about what version to choose, it is recommended that you pick the latest Long-Term Support (LTS) version (22.04 at the time of writing). You may be tempted to choose a more recent non-LTS release, but LTS releases have the advantage of guaranteed support for up to 5 years, making them more secure, stable and hence reliable.
+There are thousands of distributions of Linux out there, but Xubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend downloading [Xubuntu 22.04](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/22.04/release/). There are a few files listed here, download the one ending in `.iso`. Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. If you find the download speed slow, consider using a different [mirror for Xubuntu 22.04](https://xubuntu.org/release/22-04/#show-all) as the one linked before is a US one. If you reach the download page and are unsure about what version to choose, it is recommended that you pick the Long-Term Support (LTS) version 22.04 (Jammy Jellyfish). You may be tempted to choose a more recent release, but this version is tried and tested by the Odin Project community and therefore the most reliable option for the purposes of this curriculum.
 
 ### Step 2: Install VirtualBox and set up Xubuntu
 
 #### Step 2.1: Install VirtualBox
 
-Installing VirtualBox is very straightforward. It doesn’t require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded VirtualBox file will start the installation process. If you receive an error about needing Microsoft Visual C++ 2019 Redistributable Package, you can find it on [official Microsoft Learn page](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). You most likely want the version with `X64` Architecture (that means 64-bit) - download and install it then try installing VirtualBox again.
+Installing VirtualBox is very straightforward. It doesn’t require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded VirtualBox file will start the installation process. If you receive an error about needing Microsoft Visual C++ 2019 Redistributable Package, you can find it on the [official Microsoft Learn page](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). You most likely want the version with `X64` Architecture (that means 64-bit) - download and install it then try installing VirtualBox again.
 
 During the installation, you’ll be presented with various options. We suggest dropping the Python Support as you don't need it by clicking on the drive icon with an arrow and choosing **Entire feature will be unavailable**:
 
@@ -177,6 +183,7 @@ When using a command in the terminal that requires you to enter your password fo
 This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
 You can still enter your password as normal and press Enter to submit it.
+
 </div>
 
 ```bash
@@ -190,10 +197,16 @@ After `sudo apt upgrade` runs for a while you will be asked whether you want to 
 
 ### Step 4: Understand your new VM
 
+#### Step 4.1: Close TOP in the Windows browser and open the website in your VM
+
+From now on, stick with The Odin Project (TOP) website within your VM and follow the Linux instructions provided. The curriculum will often require you to copy and paste code between the lesson and your coding space, as well as the terminal. This won't work smoothly if you switch between the VM and Windows because they are entirely separate environments.
+
+**Remember:** For the remainder of the TOP curriculum, refer to the Linux instructions only.
+
 Here are some tips to help you get started in a virtual environment:
 
 - Enable the toolbar in your VM settings - there are useful options there that you might want to play around with, especially the ones concerning full screen or multiple displays. To do so, click on **Settings** and then navigate to **User Interface** and finally tick **Show at Top of Screen**.
-    ![It's a good idea to look around the settings overall to get a feel of what's possible.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/16_toolbar.png)
+  ![It's a good idea to look around the settings overall to get a feel of what's possible.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/16_toolbar.png)
 - All your work should happen in the VM. You will install everything you need for coding, including your text editor, language environments and various tools inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed but we'll be installing Chrome shortly.
 - To install software on your VM, you will follow the Linux (Ubuntu) installation instructions from inside the Xubuntu VM.
 - You might need to take screenshots when asking for help on our Discord, here's how depending on where you use it:
@@ -201,7 +214,7 @@ Here are some tips to help you get started in a virtual environment:
   - **On your host (Windows):** you can use a shortcut of the Host Key (<kbd>Right Ctrl</kbd> + <kbd>E</kbd>) or click **View -> Take Screenshot** for a full screenshot. A different way would be unfocusing your VM window by clicking outside of it and then using the regular Windows shortcut of <kbd>Windows key</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> to take screenshots of portion of your screen.
 - **Remember:** all of the development that you'll do related to TOP should be done in the VM.
 - We recommend going full screen (**View -> Full-screen Mode**) and forgetting about your host OS (Windows). For best performance, close all programs inside of your host OS when running your VM.
-- If you added additional monitors in the **Display** tab of your VM settings, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. **Make sure you enable your Virtual Screens in windowed mode before going fullscreen, otherwise they won't work.** Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
+- To add additional monitors, shut down the VM and go to the **Display** tab in the VirtualBox settings of the VM and increase the monitor count. Now, with the VM running, clicking **View -> Virtual Screen 2 -> Enable**. You can run fullscreen with multiple monitors, but it may ask for more **Video Memory**, which you should have increased when adding more monitors. **Make sure you enable your Virtual Screens in windowed mode before going fullscreen, otherwise they won't work.** Upon exiting fullscreen, your secondary display may close. You can reopen it with these instructions.
 
 #### Frequent issues/questions
 
@@ -242,7 +255,9 @@ To be safe, click the **Send the shutdown signal** radio and hit OK. This will s
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">Ubuntu/Windows Dual-Boot
+
 </summary>
 
 ### Read this entire section before starting
@@ -251,7 +266,7 @@ Dual-booting provides two operating systems on your computer that you can switch
 
 ### Step 1: Download Ubuntu
 
-First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/22.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/22-04/). Be sure to download the 64-bit version of Ubuntu or Xubuntu. If you reach the download page and are unsure about what version to choose, it is recommended that you pick the latest Long-Term Support (LTS) version (22.04 at the time of writing). You may be tempted to choose a more recent non-LTS release, but LTS releases have the advantage of guaranteed support for up to 5 years, making them more secure, stable and hence reliable.
+First, you need to download the version of Ubuntu you want to install on your computer. Ubuntu comes in different versions ("flavors"), but we suggest the standard desktop [Ubuntu](https://releases.ubuntu.com/22.04/). If you're using an older computer, we recommend [Xubuntu](https://xubuntu.org/release/22-04/). Be sure to download the 64-bit version of Ubuntu or Xubuntu. If you reach the download page and are unsure about what version to choose, it is recommended that you pick the Long-Term Support (LTS) version 22.04 (Jammy Jellyfish). You may be tempted to choose a more recent release, but this version is tried and tested by the Odin Project community and therefore the most reliable option for the purposes of this curriculum.
 
 ### Step 2: Create a bootable flash drive
 
@@ -286,7 +301,9 @@ If you encounter an error requesting you to disable **Intel RST** while attempti
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">ChromeOS/ChromeOS Flex
+
 </summary>
 
 With the recent addition of being able to run a Linux terminal, the ChromeOS platform has been opened up to the ability to install native Linux applications. If you wish to use your Chromebook to complete The Odin Project, you will need to ensure you meet a couple requirements:
@@ -301,6 +318,7 @@ Once you have successfully met both of these requirements, you should be able to
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">WSL2 (Advanced)</summary>
 
 Using WSL2 is an quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
@@ -308,8 +326,11 @@ Using WSL2 is an quick and easy way to get started with using Linux, allowing yo
 To make it clear: you are going to be using a different OS, this is not a way to avoid using Linux. Due to how WSL2 is integrated with Windows it often causes significant confusion to new learners. Use the Virtual Machine if you want a clear separation between your Windows and Linux so the curriculum is easier to follow.
 
 <div class="lesson-note" markdown="1">
+
 #### WSL2 and Linux instructions
+
 Because WSL2 is a full-fledged Linux distribution, almost everything that the curriculum teaches about Linux is also applicable to WSL2. In future lessons, whenever there are instructions that differ by OS, you should follow the Linux instructions, unless the lesson includes WSL2-specific instructions.
+
 </div>
 
 ### Step 1: Installations
@@ -352,12 +373,17 @@ On Windows there are three primary ways to open WSL2.
 - If you search for Ubuntu in the application search bar you should see a application titled Ubuntu; open it to start a new terminal session.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
 You might notice when you open WSL2 via Windows Terminal, you'll see a window with a different color scheme and a different icon compared to opening a terminal through Ubuntu in your applications. This is because Windows Terminal comes with a default color scheme for Ubuntu meant to emulate how a real Ubuntu terminal looks. This difference is purely cosmetic, and there is no practical difference between the two.
+
 </div>
 
 <div class="lesson-note lesson-note--warning" markdown="1">
+
 When opening your WSL2 terminal ensure that you do not see `/mnt/c` at the start of the line. `/mnt/c` is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences.
+
 </div>
+
 </details>
 
 ### Google Chrome installation
@@ -370,6 +396,7 @@ Look at this [usage share of web browsers](https://en.wikipedia.org/wiki/Usage_s
 Choose your Operating System:
 
 <details markdown="block">
+
 <summary class="dropDown-header">Linux</summary>
 
 #### Step 1: Download Google Chrome
@@ -382,17 +409,20 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 ```
 
 <div class="lesson-note" markdown="1">
-### Copy and paste keyboard shortcuts
-You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste something doesn't work in the terminal. In order to paste your text input into your terminal you can use: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> keyboard shortcut combination, instead. It is also  very handy to know that the: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>  keyboard combination will copy any highlighted text from your terminal, which can then be pasted later.
+
+#### Copy and paste keyboard shortcuts
+
+You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste something doesn't work in the terminal. In order to paste your text input into your terminal you can use: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> keyboard shortcut combination, instead. It is also very handy to know that the: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> keyboard combination will copy any highlighted text from your terminal, which can then be pasted later.
+
 </div>
 
 #### Step 2: Install Google Chrome
 
 - Enter the following command in your terminal to install **Google Chrome** `.deb` package
 
-    ```bash
-    sudo apt install ./google-chrome-stable_current_amd64.deb
-    ```
+  ```bash
+  sudo apt install ./google-chrome-stable_current_amd64.deb
+  ```
 
 - Enter your password, if needed
 
@@ -400,11 +430,12 @@ You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <
 
 #### A note on typing passwords in the terminal
 
-  When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
 
-  This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
+This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
-  You can still enter your password as normal and press Enter to submit it.
+You can still enter your password as normal and press Enter to submit it.
+
 </div>
 
 <div class="lesson-note lesson-note--tip" markdown="1">
@@ -439,6 +470,7 @@ Chrome is going to use this terminal to output various messages and won't let yo
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">MacOS</summary>
 
 #### Step 1: Download Google Chrome
@@ -467,6 +499,7 @@ Chrome is going to use this terminal to output various messages and won't let yo
 </details>
 
 <details markdown="block">
+
 <summary class="dropDown-header">WSL2</summary>
 
 #### Step 1: Download Google Chrome
@@ -502,4 +535,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Google Chrome is one of the most important tools that you will be using throughout the curriculum. This reference has many [common shortcuts that you may find useful when using Chrome](https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ctab-window-shortcuts).

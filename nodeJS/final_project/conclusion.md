@@ -1,6 +1,6 @@
 ### Introduction
 
-You've reached the end of the scope of this course and should feel pretty good about your NodeJS skills. That doesn't mean you should understand everything quite yet, but now you can build a NodeJS application with the kind of functionality which is actually useful in the real world. After all, you just built Facebook!
+You've reached the end of the scope of this course and should feel pretty good about your NodeJS skills. That doesn't mean you should understand everything quite yet, but now you can build a NodeJS application with the kind of functionality which is actually useful in the real world. After all, you just built a social media site!
 
 This isn't the last course in the curriculum, as there is a Getting Hired course remaining. But you're now at that period where you can consider yourself a "full stack" developer. You've learned how to write beautiful and intuitive front-ends for your applications and now back-end technologies to give those sites some cool features. Despite how far you've come, it's up to you to keep building stuff, ask questions, and dig deeper into both NodeJS and best practices of software engineering in general.
 
@@ -24,13 +24,13 @@ Caching makes your application faster by reducing database calls. Check out this
 
 #### DevOps
 
-Sometimes, having a little exposure to DevOps can help set you apart as a robust developer. There are various platforms out there you can start to learn from, Azure to Amazon Web Services, Heroku to Digital Ocean. While some of these offer free services, many of their services are unfortunately paid. That being said, this doesn't prevent you from reading documentation or leveraging their free services to start getting some exposure. [Heroku](https://devcenter.heroku.com/categories/reference#deployment) has extensive resources for you to dive into. Another popular provider, Digital Ocean, offers competing [Droplets](https://www.digitalocean.com/docs/droplets/quickstart/) and their new [App Platform](https://www.digitalocean.com/docs/app-platform/) services.
+Sometimes, having a little exposure to DevOps can help set you apart as a robust developer. There are various platforms out there you can start to learn from, Azure to Amazon Web Services, Heroku to Digital Ocean. While some of these offer free services, many of their services are unfortunately paid. That being said, this doesn't prevent you from reading documentation or leveraging their free services to start getting some exposure. [Heroku](https://devcenter.heroku.com/categories/reference#deployment) has extensive resources for you to dive into. Another popular provider, Digital Ocean, offers competing [Droplets](https://docs.digitalocean.com/products/droplets/getting-started/quickstart/) and their new [App Platform](https://www.digitalocean.com/docs/app-platform/) services.
 
 A platform we highly encourage you to begin looking into either way is [Amazon Web Services](https://aws.amazon.com/). This is a platform you will likely see on job postings and on the job itself, and can be an invaluable skill to have in your arsenal.
 
-#### Relational data
+#### Non-relational data
 
-Now that you have exposure to non-relational databases with Mongo, you might be considering what other types of databases exist; namely relational databases. Understanding both types of databases and when to use them can set you up for success down the road. After all, not every problem requires a hammer. Our [database course](/paths/full-stack-ruby-on-rails/courses/databases) is a great place to start to digging into relational databases and SQL.
+Now that you have exposure to relational databases with PostgreSQL, you might be considering what other types of databases exist; namely non-relational databases. Understanding both types of databases and when to use them can set you up for success down the road. After all, not every problem requires a hammer. MongoDB is a popular choice for non-relational databases. Resources like the [Learn MongoDB website](https://learn.mongodb.com) offer tutorials and documentation to get you started.
 
 ### Other resources
 
@@ -41,7 +41,7 @@ Here are a few extra resources that will take you a bit deeper into software arc
 - [syntax.fm Podcast](https://syntax.fm)
 - [NodeJS Blog](https://nodejs.org/en/blog/)
 
-If you find anything you think could go on this list, feel free to improve to this lesson on [Github](https://github.com/TheOdinProject/curriculum)!
+If you find anything you think could go on this list, feel free to improve to this lesson in the [TOP curriculum repository on GitHub](https://github.com/TheOdinProject/curriculum)!
 
 ### Contributing
 
@@ -55,8 +55,8 @@ We want to emphasize again that the learning never really stops but also that yo
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Additional frameworks](https://expressjs.com/en/resources/frameworks.html) built on Express for building specific apps (ie. Feathers for chat applications)
-- More on APIs with this [fantastic intro video](https://www.youtube.com/watch?v=oBW_VNg4qD0)
-- Learn More About DevOPs with [this fantastic github repo](https://github.com/MichaelCade/90DaysOfDevOps)
+- Additional [frameworks built on Express](https://web.archive.org/web/20240328030121/https://expressjs.com/en/resources/frameworks.html) that might be more suited to building certain types of applications.
+- Explore [more about APIs](https://www.youtube.com/watch?v=oBW_VNg4qD0).
+- [90 Days of DevOps](https://github.com/MichaelCade/90DaysOfDevOps) is a great repo if you wish to explore more about DevOps.
