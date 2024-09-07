@@ -378,8 +378,7 @@ cd Documents
 
 If you need a codeblock within a list, you should follow the same indenting rules for [multi-line list items](#multi-line-list-items), with the codeblock being indented with 2 spaces for a bulleted list item and 3 spaces for a numbered list item. The following Markdown:
 
-<pre>
-
+````markdown
 - Bullet.
 
   ```javascript
@@ -390,8 +389,7 @@ If you need a codeblock within a list, you should follow the same indenting rule
   ```
 
 - Next bullet.
-
-</pre>
+````
 
 Will result in the following output:
 
@@ -414,7 +412,7 @@ For nested markdown inside note boxes to be displayed properly additional `markd
 
 A heading can be added to a note by using a `####` heading. When adding a heading, be sure to provide text that helps describe the note rather than "A note" or "Warning".
 
-The opening and closing tags must each be wrapped with a single blank line on either side, or a codeblock delimiter (triple backticks). This applies to any line that contains only a single HTML tag. The only exceptions to this rule are HTML tags inside `html`, `jsx`, `erb` or `ejs` codeblocks.
+The opening and closing tags must each be wrapped with a single blank line on either side, or a codeblock delimiter (triple backticks). This applies to any line that contains only a single HTML tag. The only exceptions to this rule are HTML tags inside `html`, `jsx`, `erb`, `ejs`, `javascript` or `ruby` codeblocks.
 
 ### Variations
 
