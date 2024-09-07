@@ -423,12 +423,13 @@ The opening and closing tags must each be wrapped with a single blank line on ei
 
 ### Variations
 
-Note boxes come in two variations, which can be set by adding an extra class together with `lesson-note`:
+Different types of note boxes can be set by adding an extra class together with `lesson-note`:
 
 - `lesson-note--tip` for tips or general information
 - `lesson-note--warning` for warnings about potential issues/pitfalls, and are more severe than a tip
+- `lesson-note--critical` for the most important warnings, such as critical information about handling sensitive data
 
-### Example
+#### Example
 
 ```markdown
 <div class="lesson-note" markdown="1">
