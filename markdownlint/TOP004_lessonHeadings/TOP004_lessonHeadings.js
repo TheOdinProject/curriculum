@@ -23,17 +23,13 @@ function addError(onError, lineNumber, detail, context, range, fixInfo) {
     fixInfo,
   });
 }
-function addErrorContext(
-  onError,
-  lineNumber,
-  context,
-  left,
-  right,
-  range,
-  fixInfo
-) {
-  context = ellipsify(context, left, right);
-  addError(onError, lineNumber, undefined, context, range, fixInfo);
+function addErrorContext(onError, lineNumber, context) {
+  addError(
+    onError,
+    lineNumber,
+    `Missing heading (case sensitive): ${context}`,
+    context
+  );
 }
 function addErrorDetailIf(
   onError,
@@ -71,18 +67,6 @@ function forEachHeading(params, handler) {
       handler(heading, token.content, token);
     }
   }
-}
-function ellipsify(text, start, end) {
-  if (text.length <= 30) {
-    // Nothing to do
-  } else if (start && end) {
-    text = text.slice(0, 15) + "..." + text.slice(-15);
-  } else if (end) {
-    text = "..." + text.slice(-30);
-  } else {
-    text = text.slice(0, 30) + "...";
-  }
-  return text;
 }
 
 module.exports = {
