@@ -97,7 +97,6 @@ module.exports = {
     const requiredHeadings = basename(params.name).startsWith("project_")
       ? HEADINGS.project
       : HEADINGS.lesson;
-    const matchCase = params.config.match_case || false;
     const levels = {};
     for (const level of [1, 2, 3, 4, 5, 6]) {
       levels["h" + level] = "######".substr(-level);
@@ -108,7 +107,6 @@ module.exports = {
     let hasError = false;
     let anyHeadings = false;
     const getExpected = () => requiredHeadings[i++] || "[None]";
-    const handleCase = (str) => (matchCase ? str : str.toLowerCase());
     // https://regexr.com/7rf1o to test the following regex:
     const wildcardRegex = new RegExp(/^(#*\s)?\*$/);
 
@@ -120,7 +118,7 @@ module.exports = {
 
         if (wildcardRegex.test(expected)) {
           const nextExpected = getExpected();
-          if (handleCase(nextExpected) !== handleCase(actual)) {
+          if (nextExpected !== actual) {
             if (expected.startsWith("#")) {
               headingToMatch = `h${
                 expected.slice(0, expected.indexOf(" ")).length
@@ -138,7 +136,7 @@ module.exports = {
             }
             i--;
           }
-        } else if (handleCase(expected) === handleCase(actual)) {
+        } else if (expected === actual) {
           matchAny = false;
           headingToMatch = undefined;
         } else if (matchAny) {
