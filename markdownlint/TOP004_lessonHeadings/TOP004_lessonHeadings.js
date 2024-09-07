@@ -1,4 +1,18 @@
 // Customized version of https://github.com/DavidAnson/markdownlint/blob/main/lib/md043.js
+const { basename } = require("node:path");
+
+const HEADINGS = {
+  lesson: [
+    "### Introduction",
+    "### Lesson overview",
+    "*",
+    "### Assignment",
+    "#### *",
+    "### Knowledge check",
+    "### Additional resources",
+  ],
+  project: ["### Introduction", "*", "### Assignment", "*"],
+};
 
 function addError(onError, lineNumber, detail, context, range, fixInfo) {
   onError({
@@ -80,11 +94,9 @@ module.exports = {
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP004.md"
   ),
   function: function TOP004(params, onError) {
-    const requiredHeadings = params.config.headings;
-    if (!Array.isArray(requiredHeadings)) {
-      // Nothing to check; avoid doing any work
-      return;
-    }
+    const requiredHeadings = basename(params.name).startsWith("project_")
+      ? HEADINGS.project
+      : HEADINGS.lesson;
     const matchCase = params.config.match_case || false;
     const levels = {};
     for (const level of [1, 2, 3, 4, 5, 6]) {
