@@ -361,6 +361,16 @@ If you need to add a *unique* style for a *single* element, this method can work
 - If you want many elements to have the same style, you would have to copy and paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
 - Any inline CSS will override the other two methods, which can cause unexpected results. (While we won't dive into it here, this can actually be taken advantage of.)
 
+
+### Warning
+
+<div class="lesson-note" markdown="1">
+
+Kindly complete exercises 1 to 5 within the `Foundations` folder only. Please avoid doing anything outside of this folder in the CSS exercises repository, such as `animation`, `grid`, or `flex`, as these topics will be taught later in this curriculum.
+
+</div>
+
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
