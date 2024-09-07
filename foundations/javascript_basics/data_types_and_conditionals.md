@@ -43,7 +43,7 @@ To give you a good bit of practice, we have created replit.com exercises for you
 
 Be sure to do the lessons in the order presented here. Pressing "run" at the top will run the code. Read all directions, watch the terminal, and read all the errors. Don't forget to use 'console.log' extensively.
 
-To get started, create a free replit account and click "Fork" or "Remix" to access the exercises.
+To get started, you will need to create a free [Replit](https://replit.com/) account. After you have done that, you can do the exercises down below by opening their link and clicking "Fork" or "Remix" in their Replit page.
 Note: Feel free to browse the files on the left column to gain familiarity with it.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
