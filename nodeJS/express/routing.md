@@ -199,6 +199,8 @@ app.listen(PORT, () => {
 
 We specify that any requests with paths starting with `/authors` will be passed through `authorsRouter` for route matching. If our request starts with `/books`, it will skip these author routes and then check the routes in `booksRouter` instead. Any other requests that don't start with either of these will run through `indexRouter`.
 
+To test these routes, use [Postman](https://www.postman.com/downloads/) which will allow you to send `GET` and `POST` requests without the browser (we can't send `POST` requests from the browser address bar).
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
