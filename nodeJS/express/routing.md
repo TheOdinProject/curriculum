@@ -154,27 +154,9 @@ GET /authors
 GET /authors/:authorId
 ```
 
-It'd be nice if we could extract the route groups to their own files, and we can do that using routers!
+It'd be nice if we could extract the route groups to their own files, and we can do that using routers! Going back to our basic Express app from before, let's add some routers to handle each of our route groups.
 
-```javascript
-// app.js
-const express = require("express");
-const app = express();
-const booksRouter = require("routes/booksRouter");
-const authorsRouter = require("routes/authorsRouter");
-const indexRouter = require("routes/indexRouter");
-
-app.use("/books", booksRouter);
-app.use("/authors", authorsRouter);
-app.use("/", indexRouter);
-
-const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(`My first Express app - listening on port ${PORT}!`);
-});
-```
-
-And what a router might look like:
+We'll need a router first, which we can place in a new `routes` folder. For example, `routes/authorsRouter.js`:
 
 ```javascript
 // routes/authorsRouter.js
@@ -191,27 +173,31 @@ authorsRouter.get("/:authorId", (req, res) => {
 module.exports = authorsRouter;
 ```
 
-Now we can avoid having `app.js` littered with a million different routes! We can create individual files for routers, and place them neatly in their own `routes` directory.
+In the above, we destructure the Express object to get a Router function and use it to create our `authorsRouter`. We can use the same `.get` or `.post` methods on this router instead of on the whole server object, meaning we can write routes and middleware scoped to this router (we will dive deeper into these in the next lesson). Since we'll make this router usable only for paths that start with `/authors`, our route paths here don't need to include it. Instead, they *extend* the parent path (we wouldn't want our route to match `/authors/authors/:authorId`).
 
-In `routes/authorsRouter.js`, we destructure the Express object to get a Router function and use it to create our `authorsRouter`. We can use the same `.get` or `.post` methods on this router instead of on the whole server object, meaning we can write routes and router-level middleware (we will dive deeper into these in the next lesson)!
+Create the other two routers for the other route groups - `routes/booksRouter.js` and `routes/indexRouter.js`! Their middleware functions don't need to do much, just send something unique to each route so you know which route is being matched.
 
-Back in `app.js`, we specify that any requests with paths starting with `/books` will be passed through `booksRouter` for route matching. If our request starts with `/authors`, it will skip these book routes and then check the routes in `authorsRouter` instead. Any other requests that don't start with either of these will run through `indexRouter`.
+Once you've made the other two routers, let's add them to our server in `app.js`:
 
-<div id="extend-router-paths" class="lesson-note lesson-note--tip" markdown="1">
+```javascript
+// app.js
+const express = require("express");
+const app = express();
+const authorsRouter = require("routes/authorsRouter");
+const booksRouter = require("routes/booksRouter");
+const indexRouter = require("routes/indexRouter");
 
-#### Paths in routers extend the parent path!
+app.use("/authors", authorsRouter);
+app.use("/books", booksRouter);
+app.use("/", indexRouter);
 
-Note that because our routes are now tied to a specific router, the route paths we use *extend* the parent path, that is they all implicitly start with the specified parent path.
+const PORT = 3000;
+app.listen(PORT, () => {
+  console.log(`My first Express app - listening on port ${PORT}!`);
+});
+```
 
-Inside `authorsRouter.js`, which extends the `/authors` path:
-
-- `/` will match requests with the path `/authors`
-- `/:authorId` will match requests with the path `/authors/:authorId`
-- `/authors/:authorId` will match requests with the path `/authors/authors/:authorId`
-
-Don't double up on the parent path!
-
-</div>
+We specify that any requests with paths starting with `/authors` will be passed through `authorsRouter` for route matching. If our request starts with `/books`, it will skip these author routes and then check the routes in `booksRouter` instead. Any other requests that don't start with either of these will run through `indexRouter`.
 
 ### Assignment
 
