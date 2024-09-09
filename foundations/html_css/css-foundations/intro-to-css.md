@@ -360,20 +360,13 @@ If you need to add a *unique* style for a *single* element, this method can work
 - It can quickly become pretty messy once you start adding a *lot* of declarations to a single element, causing your HTML file to become unnecessarily bloated.
 - If you want many elements to have the same style, you would have to copy and paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
 - Any inline CSS will override the other two methods, which can cause unexpected results. (While we won't dive into it here, this can actually be taken advantage of.)
-
-### Warning
-
-<div class="lesson-note" markdown="1">
-
-Kindly complete exercises 1 to 5 within the `Foundations` folder only. Please avoid doing anything outside of this folder in the CSS exercises repository, such as `animation`, `grid`, or `flex`, as these topics will be taught later in this curriculum.
-
-</div>
-
+- 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README. Then, once you know how to use the exercises, navigate to the `foundations` directory. Review each README file prior to completing the following exercises in order:
+1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README.
+2. Then, once you know how to use the exercises, navigate to the [foundations](https://github.com/TheOdinProject/css-exercises/tree/main/foundations) directory. Review each README file prior to completing the following exercises in order:
 
     - `01-css-methods`
     - `02-class-id-selectors`
