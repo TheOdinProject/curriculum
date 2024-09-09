@@ -360,7 +360,7 @@ If you need to add a *unique* style for a *single* element, this method can work
 - It can quickly become pretty messy once you start adding a *lot* of declarations to a single element, causing your HTML file to become unnecessarily bloated.
 - If you want many elements to have the same style, you would have to copy and paste the same style to each individual element, causing lots of unnecessary repetition and more bloat.
 - Any inline CSS will override the other two methods, which can cause unexpected results. (While we won't dive into it here, this can actually be taken advantage of.)
-- 
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
