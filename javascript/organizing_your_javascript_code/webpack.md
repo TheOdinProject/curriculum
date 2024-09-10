@@ -408,6 +408,12 @@ Secondly, by default, `webpack-dev-server` will only auto-restart when it detect
 
 Once set up, `npx webpack serve` will host our web page on `http://localhost:8080/`, which we can open in our browser and start working!
 
+<div class="lesson-note" markdown="1">
+
+Note that the webpack-dev-server only reads your webpack configuration when you start it. If you change the webpack config file while the dev server is running, it will not reflect those config changes. Use <kbd>Ctrl</kbd> + <kbd>C</kbd> in the terminal to kill it then rerun `npx webpack serve` to apply the new config.  
+
+</div>
+
 ### Rounding up
 
 Yes, yes, this all might seem like a lot. You've gone from just having some basic HTML, CSS and JS files, and not needing much else to suddenly needing this loader, that plugin, this configuration file, etc. In the real world, as apps get more complex, we need tools that can improve our development experience while optimizing things in production. Even though we're not using all of the features available to us right now, a general understanding of what these sorts of tools are doing for us is valuable. Later in the curriculum, you will use different tools that abstract a lot of these underlying mechanisms away from us. Using them and having no clue what they're actually doing for you can make things harder for you when you eventually encounter a situation that actually needs some kind of manual configuration.
