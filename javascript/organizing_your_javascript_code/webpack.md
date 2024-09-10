@@ -409,7 +409,7 @@ Secondly, by default, `webpack-dev-server` will only auto-restart when it detect
 Once set up, `npx webpack serve` will host our web page on `http://localhost:8080/`, which we can open in our browser and start working!
 
 <div class="lesson-note" markdown="1">
-  
+
 Note that the webpack-dev-server only reads your webpack configuration when you start it. If you change the webpack config file while the dev server is running, it will not reflect those config changes. Use <kbd>Ctrl</kbd> + <kbd>C</kbd> in the terminal to kill it then rerun `npx webpack serve` to apply the new config.  
 
 </div>
