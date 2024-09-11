@@ -63,15 +63,20 @@ module.exports = {
         replacementText = `${replacementText}\n`;
       }
 
+      const ERROR_MESSAGE_BASE = "Expected a newline (\\n) or a code block delimiter (```)";
+
+      const detail = ERROR_MESSAGE_BASE
+        .concat(lineBeforeIsValid ? "" : " before the tag")
+        .concat(lineBeforeIsValid || lineAfterIsValid ? "" : " and ")
+        .concat(lineAfterIsValid ? " after the tag");
+      
       /**
        * lineNumber is params.lines index (0-indexed).
        * +1 required as file line numbers are 1-indexed.
        */
       onError({
-        lineNumber: lineNumber + 1,
-        detail: `\n  Expected blank lines/code block delimiters: { Before: 1, After: 1 }\n  Actual blank lines/code block delimiters: { Before: ${
-          lineBeforeIsValid ? 1 : 0
-        }, After: ${lineAfterIsValid ? 1 : 0} }\n`,
+        lineNumber: lineNumber + 1,      
+        detail,
         context: params.lines[lineNumber],
         fixInfo: {
           deleteCount: params.lines[lineNumber].length,
