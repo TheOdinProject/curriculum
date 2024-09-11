@@ -118,6 +118,10 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - If your project does not publish after 1 hour, ensure that you have a file called `index.html` in the root of your repository and all the settings have been set correctly.  Go to your repo on GitHub and click on Actions, if there are no entries, then go back to the settings, change the **Branch** from *main branch* to *none* and click **Save**, then change the **Branch** from *none* to *main branch* and click **Save**.
 
 <div class="lesson-note" markdown="1">
+You can press <kbd>.</kbd> key while viewing any repository on GitHub to open the repository in a web editor similar to VSCode.
+</div>
+
+<div class="lesson-note" markdown="1">
 
 When you look at project submissions below, you might be asking:
 "Why do they look so good, should my project look like this?".
