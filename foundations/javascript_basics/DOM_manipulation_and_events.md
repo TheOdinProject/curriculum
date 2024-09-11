@@ -380,13 +380,11 @@ Pretty cool, eh?
 
 This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There are a few ways to go about doing that more efficiently. We learned above that we can get a NodeList of all of the items matching a specific selector with `querySelectorAll('selector')`. In order to add a listener to each of them, we need to iterate through the whole list, like so:
 
-```HTML
+```html
 <div id="container">
-
-  <button id="1">Click Me</button>
-  <button id="2">Click Me</button>
-  <button id="3">Click Me</button>
-
+  <button id="one">Click Me</button>
+  <button id="two">Click Me</button>
+  <button id="three">Click Me</button>
 </div>
 ```
 
