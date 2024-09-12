@@ -67,8 +67,8 @@ module.exports = {
 
       const detail = ERROR_MESSAGE_BASE
         .concat(lineBeforeIsValid ? "" : " before the tag")
-        .concat(lineBeforeIsValid || lineAfterIsValid ? "" : " and ")
-        .concat(lineAfterIsValid ? " after the tag");
+        .concat(lineBeforeIsValid || lineAfterIsValid ? "" : " and")
+        .concat(lineAfterIsValid ? "" : " after the tag");
       
       /**
        * lineNumber is params.lines index (0-indexed).
