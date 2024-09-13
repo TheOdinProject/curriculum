@@ -85,11 +85,10 @@ Express offers several essential built-in middleware functions that we'll freque
 
 - Body parsers (e.g. `express.json`, `express.urlencoded`) - These allow us to correctly parse the incoming request's body, so that we can use it through `req.body`.
 - Serving static files (e.g. `app.use(express.static('public'))`) - This middleware function serves static files like HTML, CSS, JavaScript, and images. We can pass an argument to specify which directory to serve the static files.
-- Setting up views (we will learn how in the Views lesson).
 
 #### Router-level middleware
 
-Router-level middleware works similarly to an application-level middleware, but it's bound to an *instance of Express router* using `router.use` or `router.METHOD` (e.g. router.get) functions. However, Express only executes this when the request matches the specific route, as you've probably already learned in the Routes lesson.
+Router-level middleware works similarly to an application-level middleware, but it's bound to an *instance of Express router* using `router.use` or `router.METHOD` (e.g. router.get) functions. Because of this, Express only executes these middleware when the request matches and goes through that router.
 
 Here is an example of a basic middleware function:
 
@@ -116,9 +115,9 @@ There is also a special type of middleware function that handles errors, which w
 
 ### Controllers
 
-As said earlier, controllers are just functions. They also classify as a middleware (at least in the Express world) that are used by route handlers. However, it's important to note that controller and middleware are distinct concepts. Controllers are a key component of the MVC (Model-View-Controller) pattern, a design approach for organizing software. Middleware, on the other hand, is a core feature of Express that allows you to run code, modify requests, or end the cycle at specific points in the request-response cycle. So we are basically using a core functionality of Express to write out patterns of code.
+As said earlier, controllers are just functions. They also classify as a middleware (at least in the Express world) that are used by route handlers. However, it's important to note that controller and middleware are distinct concepts. Controllers are a key component of the MVC (Model-View-Controller) pattern, a design approach for organizing software. Middleware, on the other hand, is a core feature of Express that allows you to run code, modify requests, or end the cycle at specific points in the request-response cycle. So we are using middleware in Express to implement the "Controller" part of the MVC pattern.
 
-A controller comes into play whenever a request hits the server and a route matches the requested HTTP verb and path. The route determines which controller should handle the request based on the defined middleware chain. The appropriate controller then takes over, performing the necessary actions to fulfill the request.. This could involve retrieving data from the model, processing the data, making decisions based on business logic, or updating the model with new data.
+A controller comes into play whenever a request hits the server and a route matches the requested HTTP verb and path. The route determines which controller should handle the request based on the defined middleware chain. The appropriate controller then takes over, performing the necessary actions to fulfill the request. This could involve retrieving data from the model, processing the data, making decisions based on business logic, or updating the model with new data.
 
 Once the controller completes its tasks, it passes the processed data to the view. The view then renders this data into a format suitable for sending back to the client. Typically, this would be HTML. Later, when we cover building APIs, we can also send JSON responses like with the APIs that we've previously used e.g. Giphy API.
 
@@ -144,9 +143,9 @@ const getAuthorById = async (authorId) => {
 module.exports = { getAuthorById };
 ```
 
-The file name, content, and location aren't important here, they only serve to illustrate that we're using a database query function to retrieve an author by their ID.
+The file name, content, and location aren't important here. This is just a quick mock "database" and query function so we can call it in a controller.
 
-Then for the controller, create the following file:
+Then for the controller, create the following file within a `controllers` folder:
 
 ```javascript
 // controllers/authorController.js
@@ -171,9 +170,9 @@ module.exports = { getAuthorById };
 
 In this example, the `getAuthorById` function is a controller that handles a specific action related to retrieving an author by their ID. We'll use this controller by importing it into the file where we define our routes, and using it like this: `router.get("/:authorId", getAuthorById)`. Let's break down what's happening in this controller:
 
-1. The controller extracts the `authorId` from the request parameters (`req.params.authorId`). This assumes we've defined the parameter with a route, such as `/authors/:authorId`.
+1. The route path contains a route parameter (`/authors/:authorId`). The controller extracts the `authorId` from `req.params`.
 1. It then invokes a database query function `getAuthorById` to retrieve the author data based on the `authorId`.
-1. If the controller doesn't find the author, it sends a response with a 404 status code and the message Author not found, using `res.status(404).send(...)`. It then returns from the controller function to avoid invoking any other logic in the controller, as sending a response doesn't automatically stop the function execution.
+1. If the controller doesn't find the author, it sends a response with a 404 status code and the message `"Author not found"`, using `res.status(404).send(...)`. It then returns from the controller function to avoid invoking any other logic in the controller, as sending a response doesn't automatically stop the function execution.
 1. If the controller finds the author, it sends a response with a 200 status code and the found author object using `res.send(...)`.
 
 Very simple right?
