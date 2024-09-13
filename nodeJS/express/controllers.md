@@ -150,25 +150,24 @@ Then for the controller, create the following file within a `controllers` folder
 ```javascript
 // controllers/authorController.js
 
-const { getAuthorById } = require("../db");
+const db = require("../db");
 
 const getAuthorById = async (req, res) => {
   const { authorId } = req.params;
 
-  const author = await getAuthorById(authorId);
+  const author = await db.getAuthorById(authorId);
 
   if (!author) {
     res.status(404).send("Author not found");
     return;
   }
 
-  res.send(author);
+  res.send(`Author Name: ${author.name}`);
 };
 
 module.exports = { getAuthorById };
 ```
 
-In this example, the `getAuthorById` function is a controller that handles a specific action related to retrieving an author by their ID. We'll use this controller by importing it into the file where we define our routes, and using it like this: `router.get("/:authorId", getAuthorById)`. Let's break down what's happening in this controller:
 
 1. The route path contains a route parameter (`/authors/:authorId`). The controller extracts the `authorId` from `req.params`.
 1. It then invokes a database query function `getAuthorById` to retrieve the author data based on the `authorId`.
@@ -190,14 +189,14 @@ const getAuthorById = async (req, res) => {
   const { authorId } = req.params;
 
   try {
-    const author = await getAuthorById(authorId);
+    const author = await db.getAuthorById(authorId);
 
     if (!author) {
       res.status(404).send("Author not found");
       return;
     }
 
-    res.send(author);
+    res.send(`Author Name: ${author.name}`);
   } catch (error) {
     console.error("Error retrieving author:", error);
     res.status(500).send("Internal Server Error");
@@ -218,14 +217,14 @@ const asyncHandler = require("express-async-handler");
 const getAuthorById = asyncHandler(async (req, res) => {
   const { authorId } = req.params;
 
-  const author = await getAuthorById(authorId);
+  const author = await db.getAuthorById(authorId);
 
   if (!author) {
     res.status(404).send("Author not found");
     return;
   }
 
-  res.send(author);
+  res.send(`Author Name: ${author.name}`);
 });
 ```
 
@@ -299,13 +298,13 @@ const CustomNotFoundError = require("../errors/CustomNotFoundError");
 const getAuthorById = asyncHandler(async (req, res) => {
   const { authorId } = req.params;
 
-  const author = await getAuthorById(authorId);
+  const author = await db.getAuthorById(authorId);
 
   if (!author) {
     throw new CustomNotFoundError("Author not found");
   }
 
-  res.send(author);
+  res.send(`Author Name: ${author.name}`);
 });
 ```
 
@@ -373,7 +372,7 @@ express-app/
 │  ├─ authorController.js
 ├─ routes/
 │  ├─ authorsRouter.js
-│  ├─ ...
+│  ├─ ... other routers
 ├─ app.js
 ├─ db.js
 ```
@@ -388,13 +387,13 @@ const asyncHandler = require("express-async-handler");
 const getAuthorById = asyncHandler(async (req, res) => {
   const { authorId } = req.params;
 
-  const author = await getAuthorById(authorId);
+  const author = await db.getAuthorById(authorId);
 
   if (!author) {
     throw new CustomNotFoundError("Author not found");
   }
 
-  res.send(author);
+  res.send(`Author Name: ${author.name}`);
 });
 
 module.exports = { getAuthorById };
