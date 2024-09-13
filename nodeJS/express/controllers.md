@@ -123,7 +123,7 @@ Once the controller completes its tasks, it passes the processed data to the vie
 
 The naming conventions for these controllers are usually based on the route they will be attached to e.g. `GET` route -> `getSomething`, `POST` route -> `createSomething`, `DELETE` route -> `deleteSomething`, etc. Nonetheless, there is no fixed rule since Express is not opinionated. It will always be based on you or someone else's conventions, and the requirements of the function.
 
-You should already have your application setup in-place from the previous lesson. Previously, we've defined a route for `/authors/:authorId` to get the author by their ID, let's now define a controller for that route. But to make the example produce something, let's first create a mock database with a function that we can use to retrieve an author by their ID.
+You should already have your application setup in-place from the previous lesson. Previously, we've defined a route for `/authors/:authorId`, but this time we will define a controller for that route and hook it up with sample data. But to make the example produce something, let's first create a mock database with a function that we can use to retrieve an author by their ID.
 
 Create the following file at the root of the project, and add the following code:
 
@@ -168,11 +168,26 @@ const getAuthorById = async (req, res) => {
 module.exports = { getAuthorById };
 ```
 
+In this example, the `getAuthorById` function is a controller that handles a specific action related to retrieving an author by their ID. We'll use this controller by importing it into the file where we define our routes, and using it like this:
+
+```javascript
+// routes/authorsRouter.js
+
+const { Router } = require("express");
+const { getAuthorById } = require('../controllers/authorController');
+
+const authorsRouter = Router();
+
+// ... other route handlers
+authorsRouter.get("/:authorId", getAuthorById);
+```
+
+Let's break down what's happening in this controller:
 
 1. The route path contains a route parameter (`/authors/:authorId`). The controller extracts the `authorId` from `req.params`.
 1. It then invokes a database query function `getAuthorById` to retrieve the author data based on the `authorId`.
 1. If the controller doesn't find the author, it sends a response with a 404 status code and the message `"Author not found"`, using `res.status(404).send(...)`. It then returns from the controller function to avoid invoking any other logic in the controller, as sending a response doesn't automatically stop the function execution.
-1. If the controller finds the author, it sends a response with a 200 status code and the found author object using `res.send(...)`.
+1. If the controller finds the author, it sends a response with a 200 status code with the text showing the author name using `res.send(...)`.
 
 Very simple right?
 
@@ -404,33 +419,33 @@ The route file for the "Author"
 ```javascript
 // routes/authorsRouter.js
 
-const express = require('express');
-const authorController = require('../controllers/authorController');
+const express = require("express");
+const { getAuthorById } = require("../controllers/authorController");
 
-const router = express.Router();
+const authorsRouter = express.Router();
 
 // We can for example add a top level middleware function that handles say authentication and only let the request come in if they're authenticated
 // This prevents from executing the middleware functions below if the request is not authenticated
 // We will learn more about authentication in later lessons
 // usually calls either next() or next(error)
 
-// router.use(authMiddleware);
+// authorsRouter.use(authMiddleware);
 
 // router-level middlewares
 
 // GET request for getting all the authors
-router.get('/', /* Try to implement the controller for getting all authors */);
+authorsRouter.get("/", /* Try to implement the controller for getting all authors */);
 
 // We will likely place our validation/authentication middleware functions here or perhaps in the controller file, e.g.
-// router.post(validationMiddleware, /* Try to implement the controller for creating an author */);
+// authorsRouter.post("/", validationMiddleware, /* Try to implement the controller for creating an author */);
 
 // POST request for creating a author
-router.post('/', /* Try to implement the controller for creating an author */);
+authorsRouter.post("/", /* Try to implement the controller for creating an author */);
 
 // GET request for getting the author by id
-router.get('/:authorId', authorController.getAuthorById);
+authorsRouter.get("/:authorId", getAuthorById);
 
-module.exports = router;
+module.exports = authorsRouter;
 ```
 
 The mock db file.
@@ -488,7 +503,7 @@ app.listen(PORT, () => {
 });
 ```
 
-To add more practice, feel free to create more mocks in our `db.js` file and controllers for the other routes we've defined in the `routes` directory in the previous lesson.
+As an exercise, feel free to create more sample data in our `db.js` file and controllers for the other routes we've previously created.
 
 ### Assignment
 
