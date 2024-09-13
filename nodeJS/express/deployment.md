@@ -30,7 +30,7 @@ Dynamic websites, on the other hand, are websites that can change content based 
 
 This additional tech prohibits us from using GitHub Pages for hosting our Node apps. GitHub pages cannot run Node.js applications and doesn't have database services we can use. Similarly, host providers like Netlify and Vercel, which you may have used back in the React course, do not have the same capabilities to run our Node.js servers and databases. They're not the right tools for our back ends.
 
-Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Heroku](https://www.heroku.com/), [Railway](https://railway.app/), [Render](https://render.com/), and [Fly.io](https://fly.io/). We will be focusing on and utilizing these latter providers in this lesson.
+Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Heroku](https://www.heroku.com/), [Railway](https://railway.app/), and [Render](https://render.com/). We will be focusing on and utilizing these latter providers in this lesson.
 
 ### What is a PaaS?
 
@@ -93,28 +93,6 @@ You can host most of your projects for free using a combination of the different
 If you can pay for hosting, things are more straightforward. It will afford you the luxury of choosing one provider you can learn deeply, and you'll be able to manage all your apps from one place.
 
 Whatever your circumstances, we've got you covered. Here are the PaaS providers we recommend.
-
----
-
-#### Fly.io
-
-Can deploy both servers and databases.
-
-- Fly.io uses a CLI tool for deployment.
-- Paid plans include [free allowances](https://fly.io/docs/about/pricing/#free-allowances), additional resources are billed based on usage with very reasonable rates.
-- Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
-
-##### Fly.io: Free Plan
-
-- New customers get a one-time $5 free trial credit to test Fly.io at no cost. The free allowances are not applicable during the free trial. After the credit has been used, you will be be automatically placed on the $5/month Hobby plan subscription.
-- The longevity of your free trial credit depends on how many resources you consume. More complex apps with more traffic may consume the whole free trial credit within a month, whereas simpler apps may last longer.
-- Requires a credit card.
-
-##### Fly.io: Links
-
-- [Fly.io's homepage](https://fly.io/)
-- [Fly.io's documentation](https://fly.io/docs/)
-- [Guide: Official getting started with Node on Fly.io guide](https://web.archive.org/web/20230823151155/https://fly.io/docs/languages-and-frameworks/node/)
 
 ---
 
