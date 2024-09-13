@@ -125,7 +125,7 @@ The naming conventions for these controllers are usually based on the route they
 
 You should already have your application setup in-place from the previous lesson. Previously, we've defined a route for `/authors/:authorId`, but this time we will define a controller for that route and hook it up with sample data. But to make the example produce something, let's first create a mock database with a function that we can use to retrieve an author by their ID.
 
-Create the following file at the root of the project, and add the following code:
+Create the following file `db.js` at the root of the project, and add the following code:
 
 ```javascript
 // db.js
@@ -145,7 +145,7 @@ module.exports = { getAuthorById };
 
 The file name, content, and location aren't important here. This is just a quick mock "database" and query function so we can call it in a controller.
 
-Then for the controller, create the following file within a `controllers` folder:
+Then for the controller, create the following file `authorController.js` within a `controllers` folder:
 
 ```javascript
 // controllers/authorController.js
@@ -288,7 +288,7 @@ app.use((err, req, res, next) => {
 
 With the solutions above, the error middleware function can only really respond with a `500` status code no matter what error it is. But what if we actually want to send a `404`? A common way to do this is to create our own custom error by extending the Error object.
 
-Create the following file:
+Create the following file `CustomNotFoudnError.js` within an `errors` folder:
 
 ```javascript
 // errors/CustomNotFoundError.js
