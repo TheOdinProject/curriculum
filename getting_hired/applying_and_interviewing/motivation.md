@@ -1,0 +1,1 @@
+hello, i would like to say you dear future developer, you must to do this, avoid the dudes, c'mon, for me this is very dificult, i'm not a english native speaker, but maybe you are in US or a great country, give thanks for that present
