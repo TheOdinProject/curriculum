@@ -28,7 +28,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Truthy and falsy in Ruby
 
-You already know that conditional statements check expressions for a true or false value, so it follows that you need to understand what Ruby considers to be true or false. In typical Ruby fashion, it's very simple. The only false values in Ruby are the values `nil` and `false` themselves. That's it! Everything else is considered true. Even the string `"false"` is true in conditional expressions! If you have experience with other programming languages, you might be familiar with the number 0 or an empty string ("") being equivalent to false. This isn't the case with Ruby, so be careful when writing those expressions, or you'll have more bugs than a decomposing body.
+You already know that conditional statements check expressions for a true or false value, so it follows that you need to understand what Ruby considers to be true or false. In typical Ruby fashion, it's very simple. The only false values in Ruby are the values `nil` and `false` themselves. That's it! Everything else is considered true. Even the string `"false"` is true in conditional expressions! If you have experience with other programming languages, you might be familiar with the number 0 or an empty string ("") being equivalent to false. This isn't the case with Ruby, so be careful when writing those expressions. Otherwise, you might end up with more bugs on your screen than if you were using light mode at midnight.
 
 ### Basic conditional statement
 
