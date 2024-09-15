@@ -156,26 +156,26 @@ GET /authors/:authorId
 
 It'd be nice if we could extract the route groups to their own files, and we can do that using routers! Going back to our basic Express app from before, let's add some routers to handle each of our route groups.
 
-We'll need a router first, which we can place in a new `routes` folder. For example, `routes/authorsRouter.js`:
+We'll need a router first, which we can place in a new `routes` folder. For example, `routes/authorRouter.js`:
 
 ```javascript
-// routes/authorsRouter.js
+// routes/authorRouter.js
 const { Router } = require("express");
 
-const authorsRouter = Router();
+const authorRouter = Router();
 
-authorsRouter.get("/", (req, res) => res.send("All authors"));
-authorsRouter.get("/:authorId", (req, res) => {
+authorRouter.get("/", (req, res) => res.send("All authors"));
+authorRouter.get("/:authorId", (req, res) => {
   const { authorId } = req.params;
   res.send(`Author ID: ${authorId}`);
 });
 
-module.exports = authorsRouter;
+module.exports = authorRouter;
 ```
 
-In the above, we destructure the Express object to get a Router function and use it to create our `authorsRouter`. We can use the same `.get` or `.post` methods on this router instead of on the whole server object, meaning we can write routes and middleware scoped to this router (we will dive deeper into these in the next lesson). Since we'll make this router usable only for paths that start with `/authors`, our route paths here don't need to include it. Instead, they *extend* the parent path (we wouldn't want our route to match `/authors/authors/:authorId`).
+In the above, we destructure the Express object to get a Router function and use it to create our `authorRouter`. We can use the same `.get` or `.post` methods on this router instead of on the whole server object, meaning we can write routes and middleware scoped to this router (we will dive deeper into these in the next lesson). Since we'll make this router usable only for paths that start with `/authors`, our route paths here don't need to include it. Instead, they *extend* the parent path (we wouldn't want our route to match `/authors/authors/:authorId`).
 
-Create the other two routers for the other route groups - `routes/booksRouter.js` and `routes/indexRouter.js`! Their middleware functions don't need to do much, just send something unique to each route so you know which route is being matched.
+Create the other two routers for the other route groups - `routes/bookRouter.js` and `routes/indexRouter.js`! Their middleware functions don't need to do much, just send something unique to each route so you know which route is being matched.
 
 Once you've made the other two routers, let's add them to our server in `app.js`:
 
@@ -183,12 +183,12 @@ Once you've made the other two routers, let's add them to our server in `app.js`
 // app.js
 const express = require("express");
 const app = express();
-const authorsRouter = require("routes/authorsRouter");
-const booksRouter = require("routes/booksRouter");
+const authorRouter = require("routes/authorRouter");
+const bookRouter = require("routes/bookRouter");
 const indexRouter = require("routes/indexRouter");
 
-app.use("/authors", authorsRouter);
-app.use("/books", booksRouter);
+app.use("/authors", authorRouter);
+app.use("/books", bookRouter);
 app.use("/", indexRouter);
 
 const PORT = 3000;
@@ -197,7 +197,7 @@ app.listen(PORT, () => {
 });
 ```
 
-We specify that any requests with paths starting with `/authors` will be passed through `authorsRouter` for route matching. If our request starts with `/books`, it will skip these author routes and then check the routes in `booksRouter` instead. Any other requests that don't start with either of these will run through `indexRouter`.
+We specify that any requests with paths starting with `/authors` will be passed through `authorRouter` for route matching. If our request starts with `/books`, it will skip these author routes and then check the routes in `bookRouter` instead. Any other requests that don't start with either of these will run through `indexRouter`.
 
 To test these routes, use [Postman](https://www.postman.com/downloads/) which will allow you to send `GET` and `POST` requests without the browser (we can't send `POST` requests from the browser address bar).
 
