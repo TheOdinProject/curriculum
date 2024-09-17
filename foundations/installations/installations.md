@@ -502,7 +502,7 @@ Chrome is going to use this terminal to output various messages and won't let yo
 
 <summary class="dropDown-header">WSL2</summary>
 
-WSL does not have a graphical user inteface (GUI) like Windows, so this step will guide you through installing Google Chrome for Windows instead. Later on, we'll cover how you can use the Windows installed Chrome to preview your work that lives within WSL.
+WSL does not have a graphical user interface (GUI) like Windows, so this step will guide you through installing Google Chrome for Windows instead. Later on, we'll cover how you can use the Windows installed Chrome to preview your work that lives within WSL.
 
 #### Step 1: Download Google Chrome
 
