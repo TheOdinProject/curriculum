@@ -180,7 +180,7 @@ All of the above operators also work on data types other than numbers, such as s
 
 Sometimes you'll want to write an expression that contains more than one condition. In Ruby, this is accomplished with logical operators, which are `&&` (and), `||` (or) and `!` (not).
 
-There are some differences between the word versions and their symbolic equivalents, particularly in the way they evaluate code. We recommend you read this article that explains the [differences between symbolic logical operators and their word versions](https://avdi.codes/how-to-use-rubys-english-andor-operators-without-going-nuts/).
+There are some differences between the word versions and their symbolic equivalents, particularly in the way they evaluate code. We recommend you watch this video that explains the [differences between symbolic logical operators and their word versions](https://avdi.codes/how-to-use-rubys-english-andor-operators-without-going-nuts/).
 
 The `&&` operator returns `true` if **both** the left and right expressions return `true`.
 
