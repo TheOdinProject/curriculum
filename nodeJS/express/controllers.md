@@ -171,15 +171,15 @@ module.exports = { getAuthorById };
 In this example, the `getAuthorById` function is a controller that handles a specific action related to retrieving an author by their ID. We'll use this controller by importing it into the file where we define our routes, and using it like this:
 
 ```javascript
-// routes/authorsRouter.js
+// routes/authorRouter.js
 
 const { Router } = require("express");
 const { getAuthorById } = require('../controllers/authorController');
 
-const authorsRouter = Router();
+const authorRouter = Router();
 
 // ... other route handlers
-authorsRouter.get("/:authorId", getAuthorById);
+authorRouter.get("/:authorId", getAuthorById);
 ```
 
 Let's break down what's happening in this controller:
@@ -386,7 +386,7 @@ express-app/
 ├─ controllers/
 │  ├─ authorController.js
 ├─ routes/
-│  ├─ authorsRouter.js
+│  ├─ authorRouter.js
 │  ├─ ... other routers
 ├─ app.js
 ├─ db.js
@@ -417,35 +417,35 @@ module.exports = { getAuthorById };
 The route file for the "Author"
 
 ```javascript
-// routes/authorsRouter.js
+// routes/authorRouter.js
 
 const express = require("express");
 const { getAuthorById } = require("../controllers/authorController");
 
-const authorsRouter = express.Router();
+const authorRouter = express.Router();
 
 // We can for example add a top level middleware function that handles say authentication and only let the request come in if they're authenticated
 // This prevents from executing the middleware functions below if the request is not authenticated
 // We will learn more about authentication in later lessons
 // usually calls either next() or next(error)
 
-// authorsRouter.use(authMiddleware);
+// authorRouter.use(authMiddleware);
 
 // router-level middlewares
 
 // GET request for getting all the authors
-authorsRouter.get("/", /* Try to implement the controller for getting all authors */);
+authorRouter.get("/", /* Try to implement the controller for getting all authors */);
 
 // We will likely place our validation/authentication middleware functions here or perhaps in the controller file, e.g.
-// authorsRouter.post("/", validationMiddleware, /* Try to implement the controller for creating an author */);
+// authorRouter.post("/", validationMiddleware, /* Try to implement the controller for creating an author */);
 
 // POST request for creating a author
-authorsRouter.post("/", /* Try to implement the controller for creating an author */);
+authorRouter.post("/", /* Try to implement the controller for creating an author */);
 
 // GET request for getting the author by id
-authorsRouter.get("/:authorId", getAuthorById);
+authorRouter.get("/:authorId", getAuthorById);
 
-module.exports = authorsRouter;
+module.exports = authorRouter;
 ```
 
 The mock db file.
@@ -472,7 +472,7 @@ The main application file, our entry point.
 // app.js
 
 const express = require("express");
-const authorsRouter = require("routes/authorsRouter");
+const authorRouter = require("routes/authorRouter");
 // other imports
 
 const app = express();
@@ -489,7 +489,7 @@ app.use((req, res, next) => {
 })
 
 // base mount path is `/authors` and will always execute on that specific mount path, and yes including `/authors/a/b/c`
-app.use("/authors", authorsRouter);
+app.use("/authors", authorRouter);
 // other routes
 
 app.use((err, req, res, next) => {
