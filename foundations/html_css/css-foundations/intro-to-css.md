@@ -204,8 +204,7 @@ So something like `.ancestor .child` would select an element with the class `chi
   </div>
 </div>
 
-<div class="contents"></div>
-<!-- D -->
+<div class="contents"><!-- D --></div>
 ```
 
 ```css
@@ -284,7 +283,7 @@ Now that we've learned some basic syntax, you might be wondering *how* to add al
 
 #### External CSS
 
-External CSS is the most common method you will come across, and it involves creating a separate file for the CSS and linking it inside of an HTML's opening and closing `<head>` tags with a self-closing `<link>` element:
+External CSS is the most common method you will come across, and it involves creating a separate file for the CSS and linking it inside of an HTML's opening and closing `<head>` tags with a void `<link>` element:
 
 ```html
 <!-- index.html -->
@@ -307,7 +306,7 @@ p {
 }
 ```
 
-First, we add a self-closing `<link>` element inside of the opening and closing `<head>` tags of the HTML file. The `href` attribute is the location of the CSS file, either an absolute URL or, what you'll be utilizing, a URL relative to the location of the HTML file. In our example above, we are assuming both files are located in the same directory. The `rel` attribute is required, and it specifies the relationship between the HTML file and the linked file.
+First, we add a void `<link>` element inside of the opening and closing `<head>` tags of the HTML file. The `href` attribute is the location of the CSS file, either an absolute URL or, what you'll be utilizing, a URL relative to the location of the HTML file. In our example above, we are assuming both files are located in the same directory. The `rel` attribute is required, and it specifies the relationship between the HTML file and the linked file.
 
 Then inside of the newly created `styles.css` file, we have the selector (the `div` and `p`), followed by a pair of opening and closing curly braces, which create a "declaration block". Finally, we place any declarations inside of the declaration block. `color: white;` is one declaration, with `color` being the property and `white` being the value, and `background-color: black;` is another declaration.
 
@@ -366,7 +365,8 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README. Then, once you know how to use the exercises, navigate to the `foundations` directory. Review each README file prior to completing the following exercises in order:
+1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README file.
+1. Then, once you know how to use the exercises, navigate to the [CSS exercises repository's foundations directory](https://github.com/TheOdinProject/css-exercises/tree/main/foundations). Review each README file prior to completing the following exercises in order:
 
     - `01-css-methods`
     - `02-class-id-selectors`
@@ -380,7 +380,7 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the syntax for class and ID selectors?](#class-selectors)
 - [How would you apply a single rule to two different selectors?](#the-grouping-selector)
@@ -391,7 +391,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Mozilla CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) can be used to learn the various types of values possible in absolute or relative terms.
 - [An interactive Scrim](https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d) which covers much of the material in the lesson in an interactive form.

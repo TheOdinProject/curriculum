@@ -1,6 +1,6 @@
 # Layout style guide
 
-Inspired by [Google's styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md)
+Inspired by [Google's styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md).
 
 TOP uses Markdown for the layout and formatting of lesson and project files to get properly formatted HTML for the TOP website.
 
@@ -41,7 +41,6 @@ The [lesson example](./templates/lesson-example.md) and [project example](./temp
 ### Lesson layout
 
 ```markdown
-
 ### Introduction
 
 A BRIEF INTRODUCTION.
@@ -78,7 +77,6 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
-
 ```
 
 1. `### Introduction`: A brief summary on what the lesson is about and/or why the topics or concepts it covers are important. Replace the `A BRIEF INTRODUCTION.` text with your own lesson introduction.
@@ -116,7 +114,6 @@ This section contains helpful links to related content. It isn't required, so co
 ### Project layout
 
 ```markdown
-
 ### Introduction
 
 A BRIEF INTRODUCTION.
@@ -142,7 +139,6 @@ OPTIONAL PRE-ASSIGNMENT SECTION CONTENT.
 ### OPTIONAL POST-ASSIGNMENT SECTION HEADING
 
 OPTIONAL POST-ASSIGNMENT SECTION CONTENT.
-
 ```
 
 1. `### Introduction`: A brief summary on what the project is and an overview of what the user will be building. Replace the `A BRIEF INTRODUCTION.` text with your own project introduction.
@@ -350,19 +346,21 @@ Create a new file named `styles.css` first.
 
 For code quotations longer than a single line, use a codeblock with 3 opening and closing backticks:
 
-<pre>
+````markdown
 ```javascript
 const obj = {
   name: "object",
   marker: "X"
 }
 ```
-</pre>
+````
 
 #### Declare the language
 
-It is best practice to explicitly declare the language immediately after the opening tilde marks, so that neither the
+It is best practice to explicitly declare the language immediately after the opening backticks, so that neither the
 syntax highlighter nor the next editor must guess.
+
+If a language has both a long and short form that markdown will accept, for example `javascript` will also be accepted as `js`, and `text` will also be accepted as `txt`, the long form must be used.
 
 #### No extraneous characters
 
@@ -380,7 +378,7 @@ cd Documents
 
 If you need a codeblock within a list, you should follow the same indenting rules for [multi-line list items](#multi-line-list-items), with the codeblock being indented with 2 spaces for a bulleted list item and 3 spaces for a numbered list item. The following Markdown:
 
-<pre>
+````markdown
 - Bullet.
 
   ```javascript
@@ -391,7 +389,7 @@ If you need a codeblock within a list, you should follow the same indenting rule
   ```
 
 - Next bullet.
-</pre>
+````
 
 Will result in the following output:
 
@@ -414,14 +412,17 @@ For nested markdown inside note boxes to be displayed properly additional `markd
 
 A heading can be added to a note by using a `####` heading. When adding a heading, be sure to provide text that helps describe the note rather than "A note" or "Warning".
 
+The opening and closing tags must each be wrapped with a single blank line on either side, or a codeblock delimiter (triple backticks). This applies to any line that contains only a single HTML tag. The only exceptions to this rule are HTML tags inside `html`, `jsx`, `erb`, `ejs`, `javascript` or `ruby` codeblocks.
+
 ### Variations
 
-Note boxes come in two variations, which can be set by adding an extra class together with `lesson-note`:
+Different types of note boxes can be set by adding an extra class together with `lesson-note`:
 
 - `lesson-note--tip` for tips or general information
 - `lesson-note--warning` for warnings about potential issues/pitfalls, and are more severe than a tip
+- `lesson-note--critical` for the most important warnings, such as critical information about handling sensitive data
 
-### Example
+#### Example
 
 ```markdown
 <div class="lesson-note" markdown="1">
@@ -429,6 +430,7 @@ Note boxes come in two variations, which can be set by adding an extra class tog
 #### An optional title
 
 A sample note box.
+
 </div>
 ```
 
@@ -438,6 +440,7 @@ A sample note box.
 #### An optional title
 
 A sample note box, variation: tip.
+
 </div>
 ```
 
@@ -445,7 +448,19 @@ A sample note box, variation: tip.
 
 Long links make source Markdown difficult to read and break the 80 character wrapping. **Wherever possible, shorten your links**.
 
-### Use informative Markdown link titles
+### Use Markdown links
+
+Instead of using HTML anchor tags for links, use Markdown links instead.
+
+```markdown
+<!-- Don't use HTML links -->
+See the <a href="./templates/lesson-template.md" target="_blank" rel="noreferrer">lesson template</a> for a more easily copyable lesson file.
+
+<!-- Use Markdown links -->
+See the [lesson template](./templates/lesson-template.md) for a more easily copyable lesson file.
+```
+
+### Use informative titles
 
 Markdown link syntax allows you to set a link title, just as HTML does. Use it wisely.
 
@@ -459,11 +474,11 @@ Or, check out the [project template](./templates/project-template.md) for a more
 Typically you want to ensure the link text describes the purpose of the link or where the link will redirect a user, and can often be the title of a blog article or video. You should also do your best to avoid including "this" and "here" in the link text to avoid our linter from flagging it as an error, even if the link text is descriptive. Often times "this" or "here" aren't necessary as part of the link text, and may cause some confusion despite a descriptive text ("Where's here??").
 
 ```markdown
-// Sufficient, but could be tweaked further
+<!-- Sufficient, but could be tweaked further -->
 Check out [this video on flex-grow from CoolYoutuber](...url)
 Go look at our [installations guide here](...url)
 
-// After a slight change
+<!-- After a slight change -->
 Check out this [video on flex-grow from CoolYoutuber](...url)
 Go look at our [installations guide](...url)
 ```
@@ -471,12 +486,12 @@ Go look at our [installations guide](...url)
 Additionally, if there are multiple links in a lesson that redirect to the same `href`, the link text for each link must be the same. For example:
 
 ```markdown
-// Not great :(
+<!-- Not great :( -->
 Go to [Google](www.google.com)
 Try [searching on Google](www.google.com)
 First go to the [Google homepage](www.google.com)
 
-// Better! :)
+<!-- Better! :) -->
 Go to [Google](www.google.com)
 Try searching on [Google](www.google.com)
 First go to the [Google](www.google.com) homepage
@@ -558,7 +573,9 @@ To add a Mermaid diagram to a lesson, visit the [Mermaid docs](https://mermaid.j
 
 ```markdown
 <pre class="mermaid">
-  mermaid diagram content here
+
+mermaid diagram content here
+
 </pre>
 ```
 

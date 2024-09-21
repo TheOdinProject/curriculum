@@ -1,4 +1,5 @@
-<!-- markdownlint-disable MD024 MD043 -->
+<!-- TODO: Revisit lesson/heading structure to remove need to disable rules -->
+<!-- markdownlint-disable MD024 TOP004 -->
 
 ### Introduction
 
@@ -50,13 +51,11 @@ We will use an environment variable to set up PostgreSQL credentials for our Rai
 
 ### Installing PostgreSQL
 
-If you've been following the curriculum, you should already have installed all the supporting bits and pieces. If not, please go back and refer to [those lessons](https://www.theodinproject.com/guides/installations) before continuing. You'll want to confirm that node.js, Ruby, Rails and yarn are all installed.
-
 Pick your operating system below to get the appropriate steps for installing PostgreSQL.
 
 <details markdown="block">
-<summary class="dropDown-header">Linux
-</summary>
+
+<summary class="dropDown-header">Linux</summary>
 
 ### Step 1: Make sure the system is up to date
 
@@ -77,21 +76,22 @@ sudo apt install postgresql postgresql-contrib libpq-dev
 After installation is complete, let's start the server using this command:
 
 ```bash
-sudo systemctl start postgresql.service
+sudo systemctl start postgresql.service && systemctl status postgresql.service
 ```
 
-<div class="lesson-note lesson-note--warning">
-#### Systemctl and WSL2
-Systemctl is not supported on WSL2, and the above command won't work. Instead run sudo service postgresql start.
-</div>
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-If you are unsure about whether `postgresql` is active, it's possible to check with this command:
+#### Systemctl and WSL2
+
+Systemctl is not supported on WSL2, and the above command won't work. Instead, run the following command:
 
 ```bash
-service postgresql status
+sudo service postgresql start
 ```
 
-Got an error, or don't see an active service? Come visit the [Discord](https://discord.gg/V75WSQG) for some help!
+</div>
+
+Got an error, or don't see an active service? Come visit [our Discord server](https://discord.gg/fbFCkYabZB) for some help!
 
 If `postgresql` is active, you can press `Q` to quit the status screen and move on to the next step.
 
@@ -119,10 +119,12 @@ Remember that we want the role name to be the same as our Linux user name and be
 
 One other important step in setting up PostgreSQL is that each role must have its own database of the same name. Without it, the role we just created will not be able to log in or interact with PostgreSQL.
 
-You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to resolve fix this:
+You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to resolve this:
 
 <div class="lesson-note" markdown="1">
-  If your username has any capital letters, you must surround it in quotes when running the below command.
+
+If your username has any capital letters, you must surround it in quotes when running the below command.
+
 </div>
 
 ```bash
@@ -145,19 +147,19 @@ You should see the PostgreSQL prompt come up with the new role we just created, 
 role_name=#
 ```
 
-If you don't see a similar prompt, then reach out on [Discord](https://discord.gg/V75WSQG) for some help. If you **do** see a similar prompt, then we can create a password for the role like so:
+If you don't see a similar prompt, then reach out in [our Discord server](https://discord.gg/fbFCkYabZB) for some help. If you **do** see a similar prompt, then we can create a password for the role like so:
 
 ```sql
 \password <role_name>
 ```
 
-You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role:
+You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role (note the semicolon at the end):
 
 ```sql
-grant all privileges on database <role_database_name> to <role_name>;
+GRANT ALL PRIVILEGES ON DATABASE <role_database_name> TO <role_name>;
 ```
 
-Remember that you should change the `<role_database_name>` and `<role_name>` (they should both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
+Remember that you should change the `<role_database_name>` and `<role_name>` (they should both be the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
 
 #### 3.5 Saving access information in the environment
 
@@ -178,8 +180,8 @@ Once that's done, we can move to testing it out!
 </details>
 
 <details markdown="block">
-<summary class="dropDown-header">macOS
-</summary>
+
+<summary class="dropDown-header">macOS</summary>
 
 ### Step 1: Make sure the system is up to date
 
@@ -212,7 +214,7 @@ If you are unsure about whether `postgresql` is active, it's possible to check w
 brew services info postgresql@14
 ```
 
-Got an error, or don't see an active service? Come visit the [Discord](https://discord.gg/V75WSQG) for some help!
+Got an error, or don't see an active service? Come visit [our Discord server](https://discord.gg/fbFCkYabZB) for some help!
 
 If the `postgresql` service is active, move on to the next step.
 
@@ -244,7 +246,9 @@ Input `\du`, hit Return, and check that your MacOS username is the listed role n
 One other important step in setting up PostgreSQL is that each role must have its own database of the same name. We need this to login as the role matching our username. While still in the PostgreSQL session prompt, type the following command to create the new database. Make sure you include the semicolon.
 
 <div class="lesson-note" markdown="1">
-  If your username has any capital letters, you must surround it in quotes when running the below command.
+
+If your username has any capital letters, you must surround it in quotes when running the below command.
+
 </div>
 
 ```sql
@@ -267,19 +271,19 @@ You should now see the PostgreSQL prompt come up like this:
 role_name=#
 ```
 
-If you don't see a similar prompt, then reach out on [Discord](https://discord.gg/V75WSQG) for some help. If you **do** see a similar prompt, then we can create a password for the role like so:
+If you don't see a similar prompt, then reach out in [our Discord server](https://discord.gg/fbFCkYabZB) for some help. If you **do** see a similar prompt, then we can create a password for the role like so:
 
 ```sql
 \password <role_name>
 ```
 
-You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role:
+You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role (note the semicolon at the end):
 
 ```sql
-grant all privileges on database <role_database_name> to <role_name>;
+GRANT ALL PRIVILEGES ON DATABASE <role_database_name> TO <role_name>;
 ```
 
-Remember that you should change the `<role_database_name>` and `<role_name>` (they should both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
+Remember that you should change the `<role_database_name>` and `<role_name>` (they should both be the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
 
 #### 3.4 Saving access information in the environment
 
@@ -327,7 +331,7 @@ Let's navigate into the app directory and set up our database credentials.
 cd <app_name>
 ```
 
-Once we're inside the right directory, can set up the database username and password in `config/database.yml` by adding entries with our information:
+Once we're inside the right directory, we can set up the database username and password in `config/database.yml` by adding entries with our information:
 
 ```diff
 default: &default
@@ -353,11 +357,11 @@ Rails should create the two databases, and as a final check we can start the Rai
 rails s
 ```
 
-Open your browser, and head on over to `localhost:3000`. If you are greeted by the Rails splash page, then we did it! If you see an error, come to the [Discord](https://discord.gg/V75WSQG) community and get some help!
+Open your browser, and head on over to `localhost:3000`. If you are greeted by the Rails splash page, then we did it! If you see an error, come to [our Discord server](https://discord.gg/fbFCkYabZB) and get some help!
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What are the typical environments that make up a pipeline?](#pipeline)
 - [What is an environment variable?](#env_var)
@@ -365,7 +369,7 @@ This section contains questions for you to check your understanding of this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - RubyGuides has a good [introduction to environment variables](https://www.rubyguides.com/2019/01/ruby-environment-variables/) that has a lot of information, including some gem options for managing environment variables.
 - DigitalOcean has a fantastic [guide to setting up PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-22-04) that you can also check out.

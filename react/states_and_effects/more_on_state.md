@@ -54,7 +54,7 @@ function Person() {
 #### Objects and arrays in state
 
 In the above example, notice how we *create* a new object and then copy the existing state values into the new object while providing a new value for `age`.
-That is because if we don't provide a new object to `setState` it is not guaranteed to re-render the page. Therefore, we should always provide a new Object for `setState` to trigger a re-render. `setState` uses [Object.is](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the previous state is the same.
+That is because if we don't provide a new object to `setState` it is not guaranteed to re-render the page. Therefore, we should always provide a new Object for `setState` to trigger a re-render. `setState` uses [Object.is()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the previous state is the same.
 
 As for nested objects and arrays, state can get tricky fast since you will have to copy the nested items as well. Be careful when using them.
 
@@ -62,7 +62,7 @@ As for nested objects and arrays, state can get tricky fast since you will have 
 
 ### How state updates
 
-State updates are asynchronous. What this implies is that whenever you call the `setState` function, React will apply the update in the **next** component render. This concept takes a while to wrap your head around. With a lot of practice, you'll get the hang of it in no time.
+State updates are asynchronous. What this implies is that whenever you call the `setState` function, React will apply the update in the **next** component render. This concept can take a while to wrap your head around. With a lot of practice, you'll get the hang of it in no time.
 
 Remember, state variables aren't reactive; the component is. This can be understood by the fact that calling `setState` re-renders the entire component instead of just changing the state variable on the fly.
 
@@ -93,7 +93,7 @@ function Person() {
 
 These are the logs:
 
-![browser console of the above code snippet](https://cdn.statically.io/gh/TheOdinProject/curriculum/bd3063e12816ac241f73daeffa600ca89e56c443/react/states_and_effects/more_on_state/imgs/00.png)
+![browser console of the above code snippet](https://cdn.statically.io/gh/TheOdinProject/curriculum/103edd69831b1f0e946258009fe36a462c70c163/react/states_and_effects/more_on_state/imgs/00.png)
 
 Uh-oh, what is happening? Let's break it down (ignore the double `console.logs` for the render case; this is covered in the upcoming lessons).
 
@@ -107,7 +107,7 @@ The `person` state stays the same throughout the current render of the component
 
 #### The unexpected infinite loop
 
-The following is an infinite loop; can you guess why? Drop by in our [Discord chatroom](https://discord.com/invite/fbFCkYabZB), tell us why, and score a brownie point!
+The following is an infinite loop; can you guess why? Drop by in the [TOP Discord server](https://discord.gg/theodinproject), tell us why, and score a brownie point!
 
 ```jsx
 function Component() {
@@ -190,7 +190,7 @@ This pattern is extremely useful wherever you need user input, i.e., typing in a
    - [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
 
 1. Update the `Person` component we've been using above.
-   - Add two separate input fields for the first name and the last name. The updated full name should be displayed on every keystroke in either of the two input fields.
+   - Add two separate input fields for the first name and the last name. Either of these should be able to update the full name in the `h1` element with every keystroke.
    - There are many ways you can do this. Keep in mind what you've learned in this lesson while coding it out.
 
 </div>

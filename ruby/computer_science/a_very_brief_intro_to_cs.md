@@ -20,19 +20,22 @@ This section contains a general overview of topics that you will learn in this l
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Watch [Introduction to Algorithms by David Malan](https://www.youtube.com/watch?v=6hfOvs8pY1k) on TedEd to see how to think about algorithms.
-  2. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube for a more structured look at solving problems using algorithms.
-  3. Read [this Quora answer about the importance of algorithms in web development](https://qr.ae/py3NAc) to get some context for why we're going over this stuff.
-  4. Watch [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
+  1. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube for a more structured look at solving problems using algorithms.
+  1. Read this Quora answer about [the importance of algorithms in web development](https://qr.ae/py3NAc) to get some context for why we're going over this stuff.
+  1. Watch [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
+  1. Watch the first section (from 0:00 - 7:01) of [Telusko's video on data structures and algorithms](https://www.youtube.com/watch?v=xWLxhF3b5P8) for a quick overview of DSA, and why companies may be interested in hiring candidates familiar with DSA.
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-* <a class="knowledge-check-link" href="https://youtu.be/e_WfC8HwVB8">What is an Algorithm?</a>
-* <a class="knowledge-check-link" href="https://qr.ae/py3NAc">What is the importance of algorithms in web development?</a>
-* <a class="knowledge-check-link" href="https://www.youtube.com/watch?v=Rg-fO7rDsds">What is pseudocode?</a>
+- [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8)
+- [What is the importance of algorithms in web development?](https://qr.ae/py3NAc)
+- [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
 
 ### Additional resources
 

@@ -1,6 +1,6 @@
 ### Introduction
 
-Asynchronous code can become difficult to follow when it has a lot of things going on. `async` and `await` are two keywords that can help make asynchronous read more like synchronous code. This can help code look cleaner while keeping the benefits of asynchronous code.
+Asynchronous code can become difficult to follow when it has a lot of things going on. `async` and `await` are two keywords that can help make asynchronous code read more like synchronous code. This can help code look cleaner while keeping the benefits of asynchronous code.
 
 For example, the two code blocks below do the exact same thing. They both get information from a server, process it, and return a promise.
 
@@ -56,12 +56,12 @@ const server = {
 
 This section contains a general overview of topics that you will learn in this lesson.
 
- - Explain how you declare an `async` function.
- - Explain what the `async` keyword does.
- - Explain what the `await` keyword does.
- - Explain what an `async` function returns.
- - Explain what happens when an error is thrown inside an `async` function.
- - Explain how you can handle errors inside an `async` function.
+- Explain how you declare an `async` function.
+- Explain what the `async` keyword does.
+- Explain what the `await` keyword does.
+- Explain what an `async` function returns.
+- Explain what happens when an error is thrown inside an `async` function.
+- Explain how you can handle errors inside an `async` function.
 
 ### The async keyword
 
@@ -209,20 +209,20 @@ This code will behave exactly like the code from the last lesson; it just looks 
 <div class="lesson-content__panel" markdown="1">
 
 1. Read this [Async and Await article](https://javascript.info/async-await) for a solid introduction to async/await. This [Async and Await examples article](https://codeburst.io/javascript-es-2017-learn-async-await-by-example-48acc58bad65) also has some good examples of its use.
-2. Watch this [Async and Await video by Wes Bos](https://www.youtube.com/watch?v=9YkUCxvaLEk) for a good overview on async/await and its purpose, along with a special trick.
+1. Watch this [Async and Await video by Wes Bos](https://www.youtube.com/watch?v=9YkUCxvaLEk) for a good overview on async/await and its purpose, along with a special trick.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
- - [How do you declare an `async` function?](#the-async-keyword)
- - [What does the `async` keyword do?](#the-async-keyword)
- - [What does the `await` keyword do?](#the-await-keyword)
- - [What is returned from an `async` function?](https://javascript.info/async-await#summary)
- - [What happens when an error is thrown inside an `async` function?](https://javascript.info/async-await#error-handling)
- - [How can you handle errors inside an `async` function?](https://javascript.info/async-await#error-handling)
+- [How do you declare an `async` function?](#the-async-keyword)
+- [What does the `async` keyword do?](#the-async-keyword)
+- [What does the `await` keyword do?](#the-await-keyword)
+- [What is returned from an `async` function?](https://javascript.info/async-await#summary)
+- [What happens when an error is thrown inside an `async` function?](https://javascript.info/async-await#error-handling)
+- [How can you handle errors inside an `async` function?](https://javascript.info/async-await#error-handling)
 
 ### Additional resources
 
@@ -231,3 +231,4 @@ This section contains helpful links to related content. It isn't required, so co
 - This [Change promises to async/await video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await.
 - This [Promises, Async and Await video](https://www.youtube.com/watch?v=vn3tm0quoqE) gives a comprehensive view of Promises, async, and await.
 - For a more interactive explanation and example, try a [Scrim on async and await](https://scrimba.com/scrim/crd4eMc6?embed=odin,mini-header,no-next-up).
+- This [blog post about Promises From The Ground Up](https://www.joshwcomeau.com/javascript/promises/#why-would-they-design-it-this-way-1) delves into how Promises work.

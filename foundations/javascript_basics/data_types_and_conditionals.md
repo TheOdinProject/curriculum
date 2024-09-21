@@ -21,7 +21,7 @@ This section contains a general overview of topics that you will learn in this l
 Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A **string** is a piece of text... and is a fundamental building block of the language.
 
 1. Read and code along with this [MDN tutorial on strings in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings). Skip the `Concatenation in context` section, as it covers concepts we will cover in a later lesson on DOM Manipulation.
-1. Go through [the W3Schools lesson on string methods](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings... be sure to take a peek at [the String Reference page](https://www.w3schools.com/jsref/jsref_obj_string.asp) near the bottom, and do the exercises at the end!
+1. Go through [the W3Schools lesson on string methods](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings. Also, be sure to take a peek at [the String Reference page](https://www.w3schools.com/jsref/jsref_obj_string.asp) near the bottom, and do the exercises in the assignment section [below](#assignment)!
 1. Vocabulary time: a **method** is a bit of functionality built into the language or specific data types. In [the W3Schools lesson on string methods](https://www.w3schools.com/js/js_string_methods.asp), you've learned about a few methods that can be used on strings, such as `replace` and `slice`. There are still many more built-in string methods which [the MDN documentation for strings provides an exhaustive reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String). You are not expected to memorize these but the documentation will be a very useful reference to revisit, so bookmark it!
 
 ### Conditionals
@@ -43,14 +43,23 @@ To give you a good bit of practice, we have created replit.com exercises for you
 
 Be sure to do the lessons in the order presented here. Pressing "run" at the top will run the code. Read all directions, watch the terminal, and read all the errors. Don't forget to use 'console.log' extensively.
 
-To get started, create a free replit account and click "Fork" or "Remix" to access the exercises.
+To get started, you will need to create a free [Replit](https://replit.com/) account. After you have done that, you can do the exercises down below by opening their link and clicking "Fork" or "Remix" in their Replit page.
 Note: Feel free to browse the files on the left column to gain familiarity with it.
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Replit fork limit
+
+Replit now limits free accounts to having 3 repls at a time. If you reach the limit of 3 repls, you can delete one or more of the previous forks to create a room for the new one. To do so, go to [your repls](https://replit.com/repls) and delete what you no longer need.
+
+</div>
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
 #### Replit and AI
 
 Replit recently introduced an AI assistant, which is on by default. Before trying any of the exercises, you should first disable it, in order to prevent it from spoiling the exercise. You can do so by clicking on the button labeled AI in the bottom left corner of the code view and then unchecking the "Enable" checkbox.
+
 </div>
 
 - [Exercise 1](https://replit.com/@OdinProject/troubleshooting#troubleshooting.js)
@@ -76,7 +85,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Which type of quote lets you embed variables/expressions in a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#embedding_javascript)
 - [How do you embed variables/expressions in a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#embedding_javascript)
 - [How do you use escape characters in a string?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings#including_quotes_in_strings)
-- [What is the difference between the slice/substring/substr string methods?](https://www.w3schools.com/js/js_string_methods.asp)
+- [What is the difference between the slice/substring string methods?](https://www.w3schools.com/js/js_string_methods.asp)
 - [What are the three logical operators, and what do they stand for?](http://javascript.info/logical-operators)
 - [What are the comparison operators?](https://javascript.info/comparison)
 - [What are truthy and falsy values?](https://javascript.info/ifelse#boolean-conversion)

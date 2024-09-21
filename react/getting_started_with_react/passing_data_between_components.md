@@ -37,7 +37,7 @@ export default function App() {
 
 So far so good right? We have a beautiful reusable button that we can use as many times as we like, there is just one small problem.
 
-What if we wanted the text within our second button to be “Don’t Click Me!’? Right now, we would have to create a second button component with this different text.
+What if we wanted the text within our second button to be “Don’t Click Me!"? Right now, we would have to create a second button component with this different text.
 
 ```jsx
 function Button() {
@@ -123,7 +123,32 @@ export default function App() {
 
 ### Default props
 
-You may have noticed in the above examples that there is some repetition when defining props on the `Button` components within `App`. In order to stop repeating ourselves re-defining these common values, and to protect our application from undefined values, we can define default props that will be used by the component in the absence of supplied values.
+You may have noticed in the above examples that there is some repetition when defining props on the `Button` components within `App`. In order to stop repeating ourselves re-defining these common values, and to protect our application from undefined values, we can define default parameters to set default values for props.
+
+```jsx
+  function Button({ text = "Click Me!", color = "blue", fontSize = 12 }) {
+    const buttonStyle = {
+      color: color,
+      fontSize: fontSize + "px"
+    };
+
+    return <button style={buttonStyle}>{text}</button>;
+  }
+
+  export default function App() {
+    return (
+      <div>
+        <Button />
+        <Button text="Don't Click Me!" color="red" />
+        <Button fontSize={20} />
+      </div>
+    );
+  }
+```
+
+As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined in the function parameters.
+
+You may also come across the use of `defaultProps` in some codebases. This was traditionally used to set default values for props, particularly in class components. Here’s how it looks:
 
 ```jsx
 function Button({ text, color, fontSize }) {
@@ -152,21 +177,7 @@ export default function App() {
 }
 ```
 
-As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined on `Button.defaultProps`.
-
-You can also combine default props and prop destructuring. Here's how it looks in action.
-
-```jsx
-function Button({ text = "Click Me!", color = "blue", fontSize = 12 }) {
-  const buttonStyle = {
-    color: color,
-    fontSize: fontSize + "px"
-  };
-
-  return <button style={buttonStyle}>{text}</button>;
-}
-
-```
+While React now prefers the default parameter approach for function components, understanding `defaultProps` is still useful, especially when working with class components or older codebases.
 
 ### Functions as props
 
@@ -188,7 +199,7 @@ function Button({ text = "Click Me!", color = "blue", fontSize = 12, handleClick
 
 export default function App() {
   const handleButtonClick = () => {
-    window.location.href = "http://www.google.com";
+    window.location.href = "https://www.google.com";
   };
 
   return (
@@ -207,9 +218,7 @@ There are a few things to note here.
 
 - We only pass through a reference to `handleButtonClick`, i.e. we do not include parenthesis when passing the function to `Button`. If we were to do something like `handleClick={handleButtonClick()}` then the function would be called as the button renders.
 
-- You can rename the function to whatever you like when passing through as props, the prop name and value do not need to be the same. We could just as easily write `superCoolFunction={handleButtonClick}`.
-
-- Every `Button` calling this function will navigate to the same page. We can refactor the function and supply a parameter within `Button` to customize this functionality.
+- Every `Button` calling this function will navigate to the same page. We can refactor the function and supply an argument within `Button` to customize this functionality.
 
 ```jsx
 function Button({ text = "Click Me!", color = "blue", fontSize = 12, handleClick }) {
@@ -238,7 +247,7 @@ export default function App() {
 }
 ```
 
-When supplying a parameter to the function we can't just write `onClick={handleClick('www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the parameter. Like the previous example, this is to prevent the function being called during the render.
+When supplying an argument to the function we can't just write `onClick={handleClick('www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the argument. Like the previous example, this is to prevent the function being called during the render.
 
 <div class="lesson-note" markdown="1" >
 
@@ -260,10 +269,10 @@ Hopefully you can now understand from the examples in this lesson, just how incr
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#data-transfer-in-react">How does data flow between React components? From child to parent? From parent to child? Both?</a>
-- <a class="knowledge-check-link" href="#using-props-in-react">Why do we use props in React?</a>
-- <a class="knowledge-check-link" href="#default-props">How do we define default properties on a React component? What are some benefits in doing so?</a>
-- <a class="knowledge-check-link" href="#functions-as-props">How can we pass functions as props?</a>
+- [How does data flow between React components? From child to parent? From parent to child? Both?](#data-transfer-in-react)
+- [Why do we use props in React?](#using-props-in-react)
+- [How do we define default properties on a React component? What are some benefits in doing so?](#default-props)
+- [How can we pass functions as props?](#functions-as-props)
 
 ### Additional resources
 

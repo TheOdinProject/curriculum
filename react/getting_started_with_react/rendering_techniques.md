@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Let us say we want to create a component that lists multiple animals:
 
-```javascript
+```jsx
 function App() {
   return (
     <div>
@@ -31,7 +31,7 @@ function App() {
 
 It is perfectly acceptable, but what if we want to render more than just four? It can be tedious and long, and most of the time, we will be dealing with a data structure (like a list) rather than hard-coding each animal. You have previously learned that we can embed expressions inside JSX with curly braces. So let us do just that:
 
-```javascript
+```jsx
 function App() {
   const animals = ["Lion", "Cow", "Snake", "Lizard"];
 
@@ -50,7 +50,7 @@ function App() {
 
 We define an array called `animals`. Now inside our JSX, we use `map` to return a new array of `li` elements, adding `animal` as its text. It should now render the same as the previous snippet we wrote. This is because JSX has the ability to automatically render arrays. The following code is identical:
 
-```javascript
+```jsx
 function App() {
   const animals = ["Lion", "Cow", "Snake", "Lizard"];
   const animalsList = animals.map((animal) => <li key={animal}>{animal}</li>)
@@ -71,10 +71,12 @@ You may be curious as to what the `key` is in our `<li>` element. We will dive i
 ### Rendering a list of components in JSX
 
 <div class="lesson-note" markdown="1">
+
 We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are arguments that are passed into components. We will just be writing a short implementation.
+
 </div>
 
-```javascript
+```jsx
 function ListItem(props) {
   return <li>{props.animal}</li>
 }
@@ -99,7 +101,6 @@ function App() {
     </div>
   );
 }
-
 ```
 
 We have moved our `<ul>` element to a different component called `<List />`. It still returns the `<ul>` element, but we can do a lot more with it as a component.
@@ -109,20 +110,20 @@ This component accepts a `props` which is an object containing the `animals` tha
 We have also created a different component for the `<li>` element called `<ListItem />`, which also accepts `props`, and uses `props.animal` to render the text. It should now render the same thing.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
 #### "Missing in props validation"
 
 You may notice squiggly lines under your props, for example, under `animal` inside the `<ListItem />` component above.
 
 Hovering over these will tell you they are `missing in props validation`. For now, this can safely be ignored as it is just a default ESLint rule warning about prop types, something that will be covered later in the course.
 
-You may want to turn off this rule by adding the following to your `.eslintrc.cjs` file:
+You may want to turn off this rule by adding the following to your `eslint.config.js` file:
 
 ```javascript
-  "rules": {
+  rules: {
     // Your other rules
     "react/prop-types": "off"
   }
-
 ```
 
 </div>
@@ -135,7 +136,7 @@ Let us make some decisions within our component. What if we only want to render 
 
 One way to conditionally render an element is with a ternary operator, using a boolean value to decide what to render:
 
-```javascript
+```jsx
 function List(props) {
   return (
     <ul>
@@ -166,7 +167,7 @@ If the animal starts with the letter L, then we return the `<li>` element, which
 
 Another quick way of conditionally rendering an element is by using the `&&` operator.
 
-```javascript
+```jsx
 function List(props) {
   return (
     <ul>
@@ -210,7 +211,7 @@ This time we will have two conditions:
 
 We will frequently be dealing with lists in the future, and we also need to consider what to render if the list is empty or does not exist at all. You certainly would not want to see a blank page, would you? Let us try to implement that:
 
-```javascript
+```jsx
 function List(props) {
   if (!props.animals) {
     return <div>Loading...</div>;
@@ -247,7 +248,7 @@ One is to check if the property `animals` exists, and the other is to check if t
 
 If we remove the `animals` property:
 
-```javascript
+```jsx
 function App() {
   const animals = [];
 
@@ -266,7 +267,7 @@ If none of those checks passed, then we have the data we need to render the list
 
 You can, of course, also accomplish this with just the ternary and `&&` operators.
 
-```javascript
+```jsx
 function List(props) {
   return (
     <>
@@ -279,7 +280,7 @@ function List(props) {
           })}
         </ul>
       ) : (
-        <div>There are no animals on the list!</div>
+        <div>There are no animals in the list!</div>
       )}
     </>
   );
@@ -311,7 +312,7 @@ function App() {
       <List animals={animals} />
     </div>
   );
-}
+} 
 ```
 
 Nested ternaries and multiple `&&` operators can be intimidating to look at, so be sure to test things out!
@@ -329,9 +330,9 @@ Nested ternaries and multiple `&&` operators can be intimidating to look at, so 
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#rendering-a-list-of-elements-in-jsx">How do you render a list of elements/components in JSX?</a>
-- <a class="knowledge-check-link" href="#conditionally-rendering-ui">What are the ways you could render UI conditionally?</a>
-- <a class="knowledge-check-link" href="https://beta.reactjs.org/learn/conditional-rendering#conditionally-returning-jsx" target="_blank">How would you conditionally return JSX?</a>
+- [How do you render a list of elements/components in JSX?](#rendering-a-list-of-elements-in-jsx)
+- [What are the ways you could render UI conditionally?](#conditionally-rendering-ui)
+- [How would you conditionally return JSX?](https://beta.reactjs.org/learn/conditional-rendering#conditionally-returning-jsx)
 
 ### Additional resources
 
