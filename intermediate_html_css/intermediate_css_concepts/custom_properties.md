@@ -30,13 +30,13 @@ The syntax for declaring and accessing a custom property is not too different fr
 }
 ```
 
-That's it! First, we declare our custom property with a double hyphen followed by a case-sensitive, hyphen-separated property name (`color-error-text` wouldn't be the same as `Color-Error-Text`). The use of Kebab case (single hyphens to separate words) is very important here because spaces are not valid (`--color error text` would not work). Then we can store any valid CSS value in our newly declared custom property, whether it be a color value, shorthand values, or even a more complex function, just to give you a few examples.
+That's it! First, we declare our custom property with a double hyphen followed by a case-sensitive, hyphen-separated property name (`color-error-text` wouldn't be the same as `Color-Error-Text`) which can be whatever name we want. The use of Kebab case (single hyphens to separate words) is very important here because spaces are not valid (`--color error text` would not work). Then we can store any valid CSS value in our newly declared custom property, whether it be a color value, shorthand values, or even a more complex function, just to give you a few examples.
 
 When we want to access a custom property, we use the `var()` function as the value of a CSS property, and then place our custom property inside of the parenthesis (including the double hyphen at the beginning).
 
 #### Fallback values
 
-The `var()` function actually accepts two parameters. The first parameter we've already gone over, which is the custom property we want to assign. The second parameter is an optional fallback value. When a fallback value is provided in addition to a custom property, the fallback value will be used if the custom property is invalid or hasn't been declared yet. We can even pass in *another* custom property as a fallback, which can have *its own* fallback value as well!
+The `var()` function actually accepts two parameters. The first parameter we've already gone over, which is the custom property we want to assign. The second parameter is an optional fallback value. When a fallback value is provided in addition to a custom property, the fallback value will be used if the custom property is invalid or hasn't been declared yet. We can even pass in \*another\* custom property as a fallback, which can have \*its own\* fallback value as well!
 
 ```css
 .fallback {
@@ -56,11 +56,11 @@ In the first example above, you may have noticed that we declared and then acces
 In the example below, only the element with the `cool-paragraph` class would get styled with a red background since it's a descendant of the element where our custom property is declared.
 
 ```html
-<div class='cool-div'>
-  <p class='cool-paragraph'>Check out my cool, red background!</p>
+<div class="cool-div">
+  <p class="cool-paragraph">Check out my cool, red background!</p>
 </div>
 
-<p class='boring-paragraph'>I'm not in scope so I'm not cool.</p>
+<p class="boring-paragraph">I'm not in scope so I'm not cool.</p>
 ```
 
 ```css
@@ -84,9 +84,9 @@ While there may be times where you will want to limit the scope of a custom prop
 A better solution is declaring those custom properties on the `:root` selector, which is essentially the same thing as the `html` selector except it has a higher specificity.
 
 ```html
-<p class='cool-paragraph'>Lorem ipsum dolor sit amet.</p>
+<p class="cool-paragraph">Lorem ipsum dolor sit amet.</p>
 
-<p class='exciting-paragraph'>Lorem ipsum dolor sit amet.</p>
+<p class="exciting-paragraph">Lorem ipsum dolor sit amet.</p>
 ```
 
 ```css
@@ -103,7 +103,7 @@ A better solution is declaring those custom properties on the `:root` selector, 
 }
 ```
 
-By declaring our custom property on the `:root` selector in the example above, we can access it on *any* other valid selector within our CSS file, since any other selector would be considered a descendant of the `:root` selector.
+By declaring our custom property on the `:root` selector in the example above, we can access it on \*any\* other valid selector within our CSS file, since any other selector would be considered a descendant of the `:root` selector.
 
 ### Creating themes with custom properties
 
@@ -111,9 +111,9 @@ Beyond allowing us to access custom properties more globally, the `:root` select
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="PojVRMb" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PojVRMb">
-  Theme Toggle | CSS Custom Properties</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/PojVRMb">
+Theme Toggle | CSS Custom Properties</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
 
@@ -127,9 +127,9 @@ Giving users the ability to toggle a theme themselves is great, but there's anot
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="powGZzE" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/powGZzE">
-  Theme Query | CSS Custom Properties</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/powGZzE">
+Theme Query | CSS Custom Properties</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
 
@@ -140,7 +140,7 @@ We first added custom properties on the `:root` element outside of the media que
 Using the `prefers-color-scheme` media query can be pretty helpful for users since it doesn't require them to manually change the theme to their preferred one. That said, you need to be aware of a few things when it comes to using this media query:
 
 1. Only `dark` and `light` are valid values for the media query, so you can't use it to implement any themes beyond these two basic ones.
-1. The `light` value for the media query is actually for when a user has a light theme specified *or* when they have no preference set.
+1. The `light` value for the media query is actually for when a user has a light theme specified \*or\* when they have no preference set.
 1. It doesn't allow users to change the theme themselves, which can still be important in cases where a user might want to use the theme opposite of their OS/user agent preferred one for whatever reason.
 
 ### Assignment
