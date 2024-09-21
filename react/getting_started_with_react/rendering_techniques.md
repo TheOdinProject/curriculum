@@ -117,10 +117,10 @@ You may notice squiggly lines under your props, for example, under `animal` insi
 
 Hovering over these will tell you they are `missing in props validation`. For now, this can safely be ignored as it is just a default ESLint rule warning about prop types, something that will be covered later in the course.
 
-You may want to turn off this rule by adding the following to your `.eslintrc.cjs` file:
+You may want to turn off this rule by adding the following to your `eslint.config.js` file:
 
 ```javascript
-  "rules": {
+  rules: {
     // Your other rules
     "react/prop-types": "off"
   }
