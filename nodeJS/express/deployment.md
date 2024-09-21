@@ -116,29 +116,6 @@ Can deploy both servers and databases.
 
 ---
 
-#### Adaptable.io
-
-Can deploy servers with or without a database attached (cannot deploy standalone databases).
-
-- Like Railway, has a convenient deployment process. You link to your project's GitHub repo.
-- Free plan does not limit the number of applications you can deploy.
-- Also has fixed and usage-based payment plans.
-
-##### Adaptable.io: Free Plan
-
-- No limits on the number of applications you can deploy on the free plan.
-- Monthly performance allowance is more than sufficient for course/personal projects (approximately 25,000 API requests per month).
-- Applications are put to sleep when inactive but wake up speed is quicker than Render.
-- Requires a credit card.
-
-##### Adaptable.io: Links
-
-- [Adaptable.io homepage](https://adaptable.io/)
-- [Adaptable.io documentation](https://adaptable.io/docs/what-is-adaptable)
-- [Guide: Official getting started with deploying an Express app on Adaptable guide](https://adaptable.io/docs/app-guides/deploy-express-app)
-
----
-
 #### Render
 
 Can deploy both servers and databases.
