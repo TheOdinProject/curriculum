@@ -80,6 +80,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is function scope?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions#function_scope_and_conflicts)
 - [What are return values?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values#what_are_return_values)
 - [What are arrow functions?](https://javascript.info/arrow-functions-basics)
+- [What is the difference between a function declaration and a function expression?](https://javascript.info/function-expressions#function-expression-vs-function-declaration)
 
 ### Additional resources
 

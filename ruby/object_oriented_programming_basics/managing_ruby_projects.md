@@ -236,7 +236,7 @@ puts NotSoGreen.food_opinion('Cereal')
 puts Scheals.food_opinion('Marmite')
 #=> Marmite is awful!
 puts food_opinion('Cereal')
-#=> Errors out - there's no longer a free floating foo method to use.
+#=> Errors out - there's no longer a free floating food_opinion method to use.
 ```
 
 ### Gems and you

@@ -3,11 +3,12 @@ on:
     pull_request:
         paths:
             - '**.md'
-            - '!./*.md'
-            - '!**/project*.md'
-            - '!./archive/**.md'
-            - '!./templates/**.md'
-            - '!./markdownlint/docs/**.md'
+            - '!*'
+            - '!**/project*'
+            - '!archive/**'
+            - '!templates/**'
+            - '!markdownlint/docs/**'
+            - '!.github/**'
 
 jobs:
     lesson_lint:
@@ -20,12 +21,12 @@ jobs:
             with:
               files: |
                 **.md
-                !./*.md
-                !README.md
-                !**/project*.md
-                !./archive/**.md
-                !./templates/**.md
-                !./markdownlint/docs/**.md
+                !*
+                !**/project*
+                !archive/**
+                !templates/**
+                !markdownlint/docs/**
+                !.github/**
               separator: ','
           - uses: DavidAnson/markdownlint-cli2-action@v14
             with:
