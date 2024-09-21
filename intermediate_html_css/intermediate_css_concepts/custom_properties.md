@@ -36,7 +36,7 @@ When we want to access a custom property, we use the `var()` function as the val
 
 #### Fallback values
 
-The `var()` function actually accepts two parameters. The first parameter we've already gone over, which is the custom property we want to assign. The second parameter is an optional fallback value. When a fallback value is provided in addition to a custom property, the fallback value will be used if the custom property is invalid or hasn't been declared yet. We can even pass in \*another\* custom property as a fallback, which can have \*its own\* fallback value as well!
+The `var()` function actually accepts two parameters. The first parameter we've already gone over, which is the custom property we want to assign. The second parameter is an optional fallback value. When a fallback value is provided in addition to a custom property, the fallback value will be used if the custom property is invalid or hasn't been declared yet. We can even pass in *another* custom property as a fallback, which can have *its own* fallback value as well!
 
 ```css
 .fallback {
@@ -103,7 +103,7 @@ A better solution is declaring those custom properties on the `:root` selector, 
 }
 ```
 
-By declaring our custom property on the `:root` selector in the example above, we can access it on \*any\* other valid selector within our CSS file, since any other selector would be considered a descendant of the `:root` selector.
+By declaring our custom property on the `:root` selector in the example above, we can access it on *any* other valid selector within our CSS file, since any other selector would be considered a descendant of the `:root` selector.
 
 ### Creating themes with custom properties
 
@@ -140,7 +140,7 @@ We first added custom properties on the `:root` element outside of the media que
 Using the `prefers-color-scheme` media query can be pretty helpful for users since it doesn't require them to manually change the theme to their preferred one. That said, you need to be aware of a few things when it comes to using this media query:
 
 1. Only `dark` and `light` are valid values for the media query, so you can't use it to implement any themes beyond these two basic ones.
-1. The `light` value for the media query is actually for when a user has a light theme specified \*or\* when they have no preference set.
+1. The `light` value for the media query is actually for when a user has a light theme specified *or* when they have no preference set.
 1. It doesn't allow users to change the theme themselves, which can still be important in cases where a user might want to use the theme opposite of their OS/user agent preferred one for whatever reason.
 
 ### Assignment
