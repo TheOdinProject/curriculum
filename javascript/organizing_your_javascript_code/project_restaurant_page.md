@@ -47,7 +47,7 @@ You don't need to know exactly what all the commands do - as long as you follow 
 1. Make sure you have all your work committed. You can use `git status` to see if there's anything that needs committing.
 1. Run `git checkout gh-pages && git merge main --no-edit` to change branch and sync your changes from `main` so that you're ready to deploy.
 1. Now let's bundle our application into `dist` with your build command. For now, that's `npx webpack`.
-1. Now there are a few more commands. Run each of these in order.
+1. Now there are a few more commands. Run each of these in order:
 
    ```bash
    git add dist -f && git commit -m "Deployment commit"
