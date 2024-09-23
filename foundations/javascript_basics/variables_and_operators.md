@@ -132,7 +132,7 @@ Try the following exercises (and don't forget to use `console.log()`!):
     - Type this statement at the top of the script tag: `let a = 10`
     - In the console `console.log(a)` should print `10`
     - Try the following in the console: `9 * a`
-    - and this: `let b = 7 * a` (returns `undefined` \*) and then `console.log(b)`
+    - Now try typing this in the console: `let b = 7 * a` (returns `undefined` \*) and then `console.log(b)`
 1. Try this sequence:
     - Declare a constant variable `max` with the value `57`
     - Set another variable `actual` to `max - 13`
