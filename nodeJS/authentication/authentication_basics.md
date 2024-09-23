@@ -251,7 +251,7 @@ and then edit your view to make use of that object like this:
   <title></title>
 </head>
 <body>
-  <% if (user) {%>
+  <% if (locals.user) {%>
     <h1>WELCOME BACK <%= user.username %></h1>
     <a href="/log-out">LOG OUT</a>
   <% } else { %>
