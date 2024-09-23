@@ -214,7 +214,7 @@ two.js <-------------- one.js <-------------- three.js
 
 Note that we only needed the one script tag, as the browser will handle the additional file dependencies for us. We also did not need to add the `defer` attribute, as `type="module"` will automatically defer script execution for us.
 
-If you had coded along with the IIFE example at the start of the lesson, try rewriting the JavaScript to use `import` and `export`, and link only the entry point as a module script. Due to browser security reasons, ES6 modules cannot be loaded if you open the HTML file directly in the browser, so make sure you use Visual Studio Code's [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) if you aren't already.
+If you had coded along with the IIFE example at the start of the lesson, try rewriting the JavaScript to use `import` and `export`, and link only the entry point as a module script. Due to browser security reasons, ES6 modules cannot be loaded if you open the HTML file directly in the browser, so make sure you use Visual Studio Code's [Live Preview extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) if you aren't already.
 
 ### CommonJS
 
