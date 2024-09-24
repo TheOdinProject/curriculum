@@ -122,6 +122,8 @@ In order to avoid branching our lesson's instructions to accommodate for all of 
 
 </div>
 
+1. SAVE the file in your text editor using Ctrl+S (Mac: Cmd+S)
+
 1. You can drag and drop an HTML file from your text editor into the address bar of your browser.
 
 1. You can find the HTML file in your file system and then double click it. This will open up the file in the default browser your system uses.
@@ -168,7 +170,7 @@ It's still good to know how to write the boilerplate yourself in case you find y
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-
+  
 1. Watch and follow along to Kevin Powell's brilliant [Building Your First Web Page video](https://www.youtube.com/watch?v=V8UAEoOvqFg&t=93s).
 
 1. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
