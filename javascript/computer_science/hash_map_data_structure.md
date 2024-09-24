@@ -92,7 +92,7 @@ Buckets are storage that we need to store our elements. Simply, it's an array. F
 1. Find the bucket at index `385`.
 1. Store the key value pair in that bucket. In this case, the key would be "Fred" and the value would be "Smith".
 
-What if the bucket at index `385` already contains an item with the same key "Fred"? We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`. A `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have nodes with only keys and no values.
+What if the bucket at index `385` already contains an item with the same key "Fred"? We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`. A `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have nodes with only values and no keys.
 
 This is an oversimplified explanation; we'll discuss more internal mechanics later in the lesson.
 

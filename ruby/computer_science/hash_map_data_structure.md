@@ -103,7 +103,7 @@ Maybe you are wondering, why are we comparing the keys if we already found the i
 
 This is it, making this will result in a hash table with `has?`, `set` and `get`.
 
-What if we found the hash code, but also the key value is the same as what we already have in the bucket. We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`. A `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have nodes with only keys and no values.
+What if we found the hash code, but also the key value is the same as what we already have in the bucket. We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`. A `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have nodes with only values and no keys.
 
 #### Insertion order is not maintained
 
