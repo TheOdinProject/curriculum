@@ -2,7 +2,7 @@ name: MarkDownLint
 on:
   pull_request:
     paths:
-        - '**/project*.md'
+        - '**/project_*.md'
         - '!*'
         - '!archive/**'
         - '!templates/**'
@@ -19,7 +19,7 @@ jobs:
             id: changed-files
             with:
               files: |
-                **/project*.md
+                **/project_*.md
                 !*
                 !archive/**
                 !templates/**
