@@ -63,7 +63,7 @@ module.exports = {
         replacementText = `${replacementText}\n`;
       }
 
-      const errorMessage = "Expected a blank line or a code block delimiter (```)";
+      let errorMessage = "Expected a blank line or a code block delimiter (```)";
 
       if (lineBeforeIsValid) {
         errorMessage += " before the tag";
