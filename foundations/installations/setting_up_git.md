@@ -126,7 +126,7 @@ Go to [GitHub.com](https://github.com/) and create an account! During the accoun
 
 Having these two options enabled will prevent accidentally exposing your personal email address when working with Git and GitHub.
 
-You may also notice an email address under the **Keep my email addresses private** option. This is your private GitHub email address. If you plan to use this, make note of it now as you will need it when setting up Git in the next step.
+You may also notice an email address under the **Keep my email addresses private** option. This is your private GitHub email address. **If you plan to use this, make note of it now as you will need it when setting up Git in the next step.**
 
 #### Step 2.2: Setup Git
 
