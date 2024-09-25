@@ -136,7 +136,7 @@ const authors = [
   { id: 3, name: "Jason" },
 ];
 
-const getAuthorById = async (authorId) => {
+async function getAuthorById(authorId) {
   return authors.find(author => author.id === authorId);
 };
 
@@ -152,7 +152,7 @@ Then for the controller, create the following file `authorController.js` within 
 
 const db = require("../db");
 
-const getAuthorById = async (req, res) => {
+async function getAuthorById(req, res) {
   const { authorId } = req.params;
 
   const author = await db.getAuthorById(authorId);
@@ -200,7 +200,7 @@ When building robust applications, it's crucial to handle errors gracefully with
 Using the same code from earlier, we can quickly handle errors by wrapping our controller logic in a `try/catch` block.
 
 ```javascript
-const getAuthorById = async (req, res) => {
+async function getAuthorById(req, res) {
   const { authorId } = req.params;
 
   try {
@@ -342,18 +342,18 @@ This is a useful pattern and we can create more custom error classes for differe
 We've used the `next` function a few times now. But what exactly is it? Well, to put it simply, it is used to pass control to the next middleware function in the application's request-response cycle. To give an example:
 
 ```javascript
-const middleware1 = (req, res, next) => {
+function middleware1(req, res, next) {
   console.log("Middleware 1");
   next(); // Pass control to the next middleware
 };
 
-const middleware2 = (req, res, next) => {
+function middleware2(req, res, next) {
   console.log("Middleware 2");
   res.send("Response from Middleware 2");
   // request-response cycle ends here
 };
 
-const middleware3 = (req, res, next) => {
+function middleware3(req, res, next) {
   console.log("Middleware 3");
   res.send("Response from Middleware 3");
 };
@@ -390,117 +390,6 @@ express-app/
 │  ├─ ... other routers
 ├─ app.js
 ├─ db.js
-```
-
-Creating a controller file that contains well-defined responsibilities to handle "Author".
-
-```javascript
-// controllers/authorController.js
-
-const asyncHandler = require("express-async-handler");
-
-const getAuthorById = asyncHandler(async (req, res) => {
-  const { authorId } = req.params;
-
-  const author = await db.getAuthorById(authorId);
-
-  if (!author) {
-    throw new CustomNotFoundError("Author not found");
-  }
-
-  res.send(`Author Name: ${author.name}`);
-});
-
-module.exports = { getAuthorById };
-```
-
-The route file for the "Author"
-
-```javascript
-// routes/authorRouter.js
-
-const express = require("express");
-const { getAuthorById } = require("../controllers/authorController");
-
-const authorRouter = express.Router();
-
-// We can for example add a top level middleware function that handles say authentication and only let the request come in if they're authenticated
-// This prevents from executing the middleware functions below if the request is not authenticated
-// We will learn more about authentication in later lessons
-// usually calls either next() or next(error)
-
-// authorRouter.use(authMiddleware);
-
-// router-level middlewares
-
-// GET request for getting all the authors
-authorRouter.get("/", /* Try to implement the controller for getting all authors */);
-
-// We will likely place our validation/authentication middleware functions here or perhaps in the controller file, e.g.
-// authorRouter.post("/", validationMiddleware, /* Try to implement the controller for creating an author */);
-
-// POST request for creating a author
-authorRouter.post("/", /* Try to implement the controller for creating an author */);
-
-// GET request for getting the author by id
-authorRouter.get("/:authorId", getAuthorById);
-
-module.exports = authorRouter;
-```
-
-The mock db file.
-
-```javascript
-// db.js
-
-const authors = [
-  { id: 1, name: "Bryan" },
-  { id: 2, name: "Christian" },
-  { id: 3, name: "Jason" },
-];
-
-const getAuthorById = async (authorId) => {
-  return authors.find(author => author.id === authorId);
-};
-
-module.exports = { getAuthorById };
-```
-
-The main application file, our entry point.
-
-```javascript
-// app.js
-
-const express = require("express");
-const authorRouter = require("routes/authorRouter");
-// other imports
-
-const app = express();
-
-// We can also add application-level middlewares, which will always execute on every incoming request
-
-// parses form payloads and sets it to the `req.body`
-app.use(express.urlencoded({ extended: false }));
-
-app.use((req, res, next) => {
-  // We can of course also create our own for our own use-case!
-  // Just make sure to call `next`
-  next();
-})
-
-// base mount path is `/authors` and will always execute on that specific mount path, and yes including `/authors/a/b/c`
-app.use("/authors", authorRouter);
-// other routes
-
-app.use((err, req, res, next) => {
-  console.error(err);
-  res.status(err.statusCode || 500).send(err.message);
-});
-
-const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(`My first Express app - listening on port ${PORT}!`);
-});
 ```
 
 As an exercise, feel free to create more sample data in our `db.js` file and controllers for the other routes we've previously created.
