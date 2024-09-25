@@ -136,13 +136,13 @@ In the above, we are not exporting an object containing `greeting` and `farewell
 
 In contrast to named exports, a file can only default export a single thing. Something exported this way does not have a name attached to it, so when you import it somewhere, you can decide what name to give it.
 
-To export something from a file as a default export, we can also do it inline by prepending `export default` to the appropriate declaration, or we can export it at the end of the file, this time *without* any curly braces. Again, either way is perfectly fine. Note that if you do an inline default export, if you would normally declare with `let` or `const`, the `default` keyword *replaces* `let`/`const`.
+To export something from a file as a default export, we can also do it inline by prepending `export default` to the appropriate declaration, or we can export it at the end of the file, this time *without* any curly braces. Again, either way is perfectly fine. Note that if you want to inline default export a variable, the `default` keyword *replaces* the variable declaration so you export the expression directly.
 
 Let's default export our greeting string from `one.js`.
 
 ```javascript
 // one.js
-export default greeting = "Hello, Odinite!";
+export default "Hello, Odinite!";
 ```
 
 Or on a separate line:
@@ -168,7 +168,7 @@ Let's default export the greeting string from `one.js`, and export the farewell 
 
 ```javascript
 // one.js
-export default greeting = "Hello, Odinite!";
+export default "Hello, Odinite!";
 export const farewell = "Bye bye, Odinite!";
 ```
 

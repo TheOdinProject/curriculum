@@ -365,7 +365,8 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README. Then, once you know how to use the exercises, navigate to the `foundations` directory. Review each README file prior to completing the following exercises in order:
+1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README file.
+1. Then, once you know how to use the exercises, navigate to the [CSS exercises repository's foundations directory](https://github.com/TheOdinProject/css-exercises/tree/main/foundations). Review each README file prior to completing the following exercises in order:
 
     - `01-css-methods`
     - `02-class-id-selectors`

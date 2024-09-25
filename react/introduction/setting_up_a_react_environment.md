@@ -104,24 +104,24 @@ The `public` folder is where all of the static assets related to your app will g
 Inside the `src` folder is where you will find the code that runs your app. The `main.jsx` file here serves as the entry point of the application. Let's open the `main.jsx` file and see if we can understand what's going on:
 
 ```jsx
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
     <App />
-  </React.StrictMode>
+  </StrictMode>,
 );
 ```
 
 Whoa! There's quite a lot here. You are not expected to recognize much of this (if any) right now. Here's a brief rundown of what is happening:
 
-1. We import `React` itself and its fellow `ReactDOM` package.
+1. We import `StrictMode` and `createRoot` from the `react` and `react-dom` packages respectively.
 1. We import the `App` component from `App.jsx`, so that we may place (render) it within the DOM.
 1. We import some CSS styling (you may recognize this syntax from the Webpack material).
-1. We create a `root` object by invoking `ReactDOM.createRoot` with an element from our `index.html`.
+1. We create a `root` object by invoking `createRoot` with an element from our `index.html`.
 1. We invoke the `render` method which is attached to our `root` object, with some very interesting-looking syntax inside the parentheses.
 
 All of this may understandably look unlike anything you've seen up until now, but have no fear, once you've spent the time with this course, you'll know exactly what all of this does, and *much more*.
