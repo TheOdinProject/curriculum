@@ -76,7 +76,7 @@ module.exports = {
        */
       onError({
         lineNumber: lineNumber + 1,      
-        detail,
+        detail: detail,
         context: params.lines[lineNumber],
         fixInfo: {
           deleteCount: params.lines[lineNumber].length,
