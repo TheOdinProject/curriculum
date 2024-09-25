@@ -245,13 +245,13 @@ const getAuthorById = asyncHandler(async (req, res) => {
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-The asyncHandler function in the `express-async-handler` library is just 6 lines of code. Try to take a guess on how it's implemented and then do [check out the source code](https://github.com/Abazhenov/express-async-handler/blob/master/index.js) for yourself.
+The asyncHandler function in the `express-async-handler` library is just 6 lines of code. Try to take a guess on how it's implemented and then do [check out the asyncHandler source code](https://github.com/Abazhenov/express-async-handler/blob/master/index.js) for yourself.
 
 </div>
 
 #### With a middleware
 
-Remember our earlier discussion about a "special type of middleware"? Let's dive into that now. An error middleware function handles all errors in our application that come down from other middleware functions. We commonly place this error middleware function at the very end of the application code. This placement ensures it's the last middleware function executed and only handles errors bubbling down from preceding middleware functions.
+Remember our earlier discussion about a "special type of middleware"? Let's dive into that now. An error middleware function handles all errors in our application that come down from other middleware functions. We want to place this error middleware function at the very end of the application code to ensure it's the last middleware function executed and only handles errors bubbling down from preceding middleware functions.
 
 Add the following code in `app.js` at the end of all middleware functions in our application:
 
@@ -265,11 +265,11 @@ app.use((err, req, res, next) => {
 
 However, take note that this is a middleware function that requires *four parameters* that we will need to provide even if they are not used. If for example we exclude one of the parameters, it will not be recognized as an error middleware function. You can try it out yourself ;)
 
-It is the same as the previous middleware functions with three parameters but adds a new parameter - the error object - in a different order. This is an odd one but the error object *must* be the first parameter in the callback.
+This is an odd one where the error object *must* be the first parameter in the callback.
 
 This middleware function handles the *errors thrown* in other middleware functions or something that is sent by a previous middleware function using the `next` function (e.g. `next(err)`).
 
-So the way Express distinguishes this middleware function is again through adding *four parameters* not a single one missing. A route middleware function or a middleware function with *less than four parameters* will always be considered as a request middleware function instead of this error middleware function even if we place it last.
+So the way Express distinguishes this middleware function is again through adding *four parameters*, not a single one missing. A route middleware function or a middleware function with *less than four parameters* will always be considered as a request middleware function instead of this error middleware function, even if we place it last.
 
 ```javascript
 app.use((req, res, next) => {
@@ -288,7 +288,7 @@ app.use((err, req, res, next) => {
 
 With the solutions above, the error middleware function can only really respond with a `500` status code no matter what error it is. But what if we actually want to send a `404`? A common way to do this is to create our own custom error by extending the Error object.
 
-Create the following file `CustomNotFoudnError.js` within an `errors` folder:
+Create the following file `CustomNotFoundError.js` within an `errors` folder:
 
 ```javascript
 // errors/CustomNotFoundError.js
@@ -377,7 +377,7 @@ Out of the four, we will likely only use the first two, unless we have a very sp
 
 ### Consolidating what we've learned
 
-The following is the folder structure we'd end up with if you have been coding along:
+The following is the folder structure you'd end up with if you had been coding along:
 
 ```text
 express-app/
