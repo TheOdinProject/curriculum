@@ -132,14 +132,14 @@ You may also notice an email address under the **Keep my email addresses private
 
 For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed each line of code.
 
-The commands below will configure Git. Be sure to enter your own information inside the quotes (but include the quotation marks)!
+The commands below will configure Git. Be sure to enter your own information inside the quotes (but include the quotation marks!) - if you chose to keep your email private on GitHub, use your special private GitHub email from step 2.1.
 
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "yourname@example.com"
 ```
 
-If you opted to use the private GitHub email address, the second command will look something like this:
+For example, if you set your email as private on GitHub, the second command will look something like this:
 
 ```bash
 git config --global user.email "123456789+odin@users.noreply.github.com" # Remember to use your own private GitHub email here.
