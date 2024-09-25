@@ -65,13 +65,13 @@ module.exports = {
 
       let errorMessage = "Expected a blank line or a code block delimiter (```)";
 
-      if (lineBeforeIsValid) {
+      if (!lineBeforeIsValid) {
         errorMessage += " before the tag";
       }
       if (lineBeforeIsValid || lineAfterIsValid) {
         errorMessage += " and";
       }
-      if (lineAfterIsValid) {
+      if (!lineAfterIsValid) {
         errorMessage += " after the tag";
       }
       
