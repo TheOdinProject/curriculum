@@ -63,12 +63,17 @@ module.exports = {
         replacementText = `${replacementText}\n`;
       }
 
-      const ERROR_MESSAGE_BASE = "Expected a blank line or a code block delimiter (```)";
+      const errorMessage = "Expected a blank line or a code block delimiter (```)";
 
-      const detail = ERROR_MESSAGE_BASE
-        .concat(lineBeforeIsValid ? "" : " before the tag")
-        .concat(lineBeforeIsValid || lineAfterIsValid ? "" : " and")
-        .concat(lineAfterIsValid ? "" : " after the tag");
+      if (lineBeforeIsValid) {
+        errorMessage += " before the tag";
+      }
+      if (lineBeforeIsValid || lineAfterIsValid) {
+        errorMessage += " and";
+      }
+      if (lineAfterIsValid) {
+        errorMessage += " after the tag";
+      }
       
       /**
        * lineNumber is params.lines index (0-indexed).
@@ -76,7 +81,7 @@ module.exports = {
        */
       onError({
         lineNumber: lineNumber + 1,      
-        detail: detail,
+        detail: errorMessage,
         context: params.lines[lineNumber],
         fixInfo: {
           deleteCount: params.lines[lineNumber].length,
