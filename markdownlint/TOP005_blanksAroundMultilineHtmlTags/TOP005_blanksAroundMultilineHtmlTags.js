@@ -63,7 +63,7 @@ module.exports = {
         replacementText = `${replacementText}\n`;
       }
 
-      const ERROR_MESSAGE_BASE = "Expected a newline (\\n) or a code block delimiter (```)";
+      const ERROR_MESSAGE_BASE = "Expected a blank line or a code block delimiter (```)";
 
       const detail = ERROR_MESSAGE_BASE
         .concat(lineBeforeIsValid ? "" : " before the tag")
