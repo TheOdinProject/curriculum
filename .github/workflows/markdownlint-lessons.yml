@@ -4,7 +4,7 @@ on:
         paths:
             - '**.md'
             - '!*'
-            - '!**/project*'
+            - '!**/project_*'
             - '!archive/**'
             - '!templates/**'
             - '!markdownlint/docs/**'
@@ -22,7 +22,7 @@ jobs:
               files: |
                 **.md
                 !*
-                !**/project*
+                !**/project_*
                 !archive/**
                 !templates/**
                 !markdownlint/docs/**
