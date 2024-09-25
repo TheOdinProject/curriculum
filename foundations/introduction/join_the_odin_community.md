@@ -83,7 +83,7 @@ Your Multiple Lines of Colorful Code
 ### Chat features
 
 - Have fun with giphys: type `/gif hi` to say hi to everyone.
-- Type `/help` for more information on chat commands.
+- Type `/` to see all chat commands.
 - Show your appreciation to those who help you with `@username ++`.
 - Don't forget to visit all the available rooms!
 
