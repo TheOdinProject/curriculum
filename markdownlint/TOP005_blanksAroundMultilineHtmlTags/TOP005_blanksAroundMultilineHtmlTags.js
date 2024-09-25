@@ -68,7 +68,7 @@ module.exports = {
       if (!lineBeforeIsValid) {
         errorMessage += " before the tag";
       }
-      if (lineBeforeIsValid || lineAfterIsValid) {
+      if (!(lineBeforeIsValid || lineAfterIsValid)) {
         errorMessage += " and";
       }
       if (!lineAfterIsValid) {
