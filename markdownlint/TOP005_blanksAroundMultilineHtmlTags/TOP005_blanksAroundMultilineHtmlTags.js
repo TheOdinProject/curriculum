@@ -1,10 +1,11 @@
 module.exports = {
   names: ["TOP005", "blanks-around-multiline-html-tags"],
-  description: "Multiline HTML tags should be surrounded by blank lines or code block delimiters",
+  description:
+    "Multiline HTML tags should be surrounded by blank lines or code block delimiters",
   tags: ["html", "blank_lines"],
   parser: "markdownit",
   information: new URL(
-    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md"
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md",
   ),
   function: function TOP005(params, onError) {
     /**
@@ -12,16 +13,25 @@ module.exports = {
      * We only want to flag HTML tags we use for actual markup,
      * or md code block examples of such.
      */
-    const IGNORED_FENCE_TYPES = ["html", "jsx", "erb", "ejs", "ruby", "javascript"];
+    const IGNORED_FENCE_TYPES = [
+      "html",
+      "jsx",
+      "erb",
+      "ejs",
+      "ruby",
+      "javascript",
+    ];
     const ignoredFencesLineRanges = params.parsers.markdownit.tokens
       .filter((token) => {
-        return token.type === "fence" && IGNORED_FENCE_TYPES.includes(token.info);
+        return (
+          token.type === "fence" && IGNORED_FENCE_TYPES.includes(token.info)
+        );
       })
       .map((token) => token.map);
 
     const isWithinIgnoredFence = (lineNumber) => {
       return ignoredFencesLineRanges.some(
-        (range) => range[0] < lineNumber && lineNumber < range[1]
+        (range) => range[0] < lineNumber && lineNumber < range[1],
       );
     };
 
@@ -33,7 +43,7 @@ module.exports = {
         }
         return lineNumbers;
       },
-      []
+      [],
     );
 
     isolatedHtmlTagsLineNumbers.forEach((lineNumber, i) => {
@@ -52,36 +62,29 @@ module.exports = {
         return;
       }
 
-      const lineAfterIsTheNextHtmlTag = lineNumber + 1 === isolatedHtmlTagsLineNumbers[i + 1];
+      const lineAfterIsTheNextHtmlTag =
+        lineNumber + 1 === isolatedHtmlTagsLineNumbers[i + 1];
       let replacementText = params.lines[lineNumber];
 
       // .trim() !== "" prevents interference with MD009 whitespace fixer
       if (!lineBeforeIsValid && lineBefore.trim() !== "") {
         replacementText = `\n${replacementText}`;
       }
-      if (!lineAfterIsValid && !lineAfterIsTheNextHtmlTag && lineAfter.trim() !== "") {
+      if (
+        !lineAfterIsValid &&
+        !lineAfterIsTheNextHtmlTag &&
+        lineAfter.trim() !== ""
+      ) {
         replacementText = `${replacementText}\n`;
       }
 
-      let errorMessage = "Expected a blank line or a code block delimiter (```)";
-
-      if (!lineBeforeIsValid) {
-        errorMessage += " before the tag";
-      }
-      if (!lineBeforeIsValid && !lineAfterIsValid) {
-        errorMessage += " and";
-      }
-      if (!lineAfterIsValid) {
-        errorMessage += " after the tag";
-      }
-      
       /**
        * lineNumber is params.lines index (0-indexed).
        * +1 required as file line numbers are 1-indexed.
        */
       onError({
-        lineNumber: lineNumber + 1,      
-        detail: errorMessage,
+        lineNumber: lineNumber + 1,
+        detail: `Expected a blank line or a code block delimiter (\`\`\`)${lineBeforeIsValid ? "" : " before the tag"}${lineBeforeIsValid || lineAfterIsValid ? "" : " and"}${lineAfterIsValid ? "" : " after the tag"}`,
         context: params.lines[lineNumber],
         fixInfo: {
           deleteCount: params.lines[lineNumber].length,
