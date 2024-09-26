@@ -62,7 +62,7 @@ module.exports = {
       if (!lineAfterIsValid && !lineAfterIsTheNextHtmlTag && lineAfter.trim() !== "") {
         replacementText = `${replacementText}\n`;
       }
-      
+
       /**
        * lineNumber is params.lines index (0-indexed).
        * +1 required as file line numbers are 1-indexed.
