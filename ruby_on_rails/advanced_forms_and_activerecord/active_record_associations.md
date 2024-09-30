@@ -66,7 +66,7 @@ But now Rails doesn't have the foggiest idea where to look and what to look for.
   end
 ~~~
 
-The basic gist of this is assume that Rails is looking for the foreign key named after the association in the table also named after the association.  If any of these are incorrect because of a creatively named association or foreign key, you'll need to specify.  This is quite common to make your associations more legible.
+The basic gist of this is to assume that Rails is looking for the foreign key named after the association in the table also named after the association.  If any of these are incorrect because of a creatively named association or foreign key, you'll need to specify.  This is quite common to make your associations more legible.
 
 #### Source
 
@@ -187,7 +187,7 @@ Rails does the rest of the work for you.  Any time you ask a Picture for all its
 
 ### Self joins
 
-Often times you have relationships between the same type of model, for instance users who can follow other users.  In this case, you need to specify both associations in your User model but name them differently.  You will need to specify in your `has_many` association what the name of the `foreign_key` will be:
+Oftentimes you have relationships between the same type of model, for instance users who can follow other users.  In this case, you need to specify both associations in your User model but name them differently.  You will need to specify in your `has_many` association what the name of the `foreign_key` will be:
 
 ~~~ruby
   class Employee < ActiveRecord::Base
