@@ -26,31 +26,31 @@ When you create an association, Rails makes two major assumptions -- first, that
 
 A very simple case would be a User who can create many Posts for a blog:
 
-~~~ruby
+```ruby
   # app/models/user.rb
   class User < ActiveRecord::Base
     has_many :posts
   end
-~~~
+```
 
-~~~ruby
+```ruby
   # app/models/post.rb
   class Post < ActiveRecord::Base
     belongs_to :user
   end
-~~~
+```
 
 So you could ask the first user for all her posts with `User.first.posts` or the first post for its author user with `Post.first.user`.  Rails knows to look for a foreign key called `user_id` in the Posts table.  If you ask for `Post.first.user`, Rails will look in the Users table for the User with the ID corresponding to the `user_id` column in the Posts table.  All is well in the world when your association names correspond directly to the names of your models and tables.
 
 But what if you want to have two types of users that the post belongs to -- the "author" and the "editor"?  In this case, you'll need two separate foreign keys in your Posts table, presumably one called `author_id` and another called `editor_id`.  How do you tell Rails that each of these foreign keys actually point to a User (so it knows to look in the Users table for them)?  Just specify the class your association should point to using the aptly named `:class_name` option:
 
-~~~ruby
+```ruby
   # app/models/post.rb
   class Post < ActiveRecord::Base
     belongs_to :author, class_name: "User"
     belongs_to :editor, class_name: "User"
   end
-~~~
+```
 
 In this case, Rails will automatically look for the foreign key named after the association, e.g. `author_id` or `editor_id`, in the Posts table.
 
@@ -58,13 +58,13 @@ If you called the association something which didn't correspond exactly to what 
 
 But now Rails doesn't have the foggiest idea where to look and what to look for.  By default, if you ask for `User.first.authored_posts` it will go looking in the `authored_posts` table for a foreign key called `user_id` (neither of which exist).  To get it pointing at the right table, we again need to specify the `:class_name` and to get it using the correct foreign key, we need to specify the right `:foreign_key`.  For instance:
 
-~~~ruby
+```ruby
   # app/models/user.rb
   class User < ActiveRecord::Base
     has_many :authored_posts, foreign_key: "author_id", class_name: "Post"
     has_many :edited_posts, foreign_key: "editor_id", class_name: "Post"
   end
-~~~
+```
 
 The basic gist of this is to assume that Rails is looking for the foreign key named after the association in the table also named after the association.  If any of these are incorrect because of a creatively named association or foreign key, you'll need to specify.  This is quite common to make your associations more legible.
 
@@ -74,29 +74,29 @@ Now that it's clear you need to let Rails know when you've creatively named your
 
 For example, perhaps we change the example above so a Post actually can have multiple Authors (but still only one editor).  We'll need to create a new table, which we'll call `post_authorings`.  `post_authorings` joins these two models together and contains columns for `authored_post_id` and `post_author_id`.  You can probably see where this is going -- we've named our foreign keys something more descriptive and helpful than just `post_id` and `user_id` but it will require us to inform Rails of the change.  Our models look like:
 
-~~~ruby
+```ruby
   # app/models/post.rb
   class Post < ActiveRecord::Base
     has_many :post_authorings, foreign_key: :authored_post_id
     has_many :authors, through: :post_authorings, source: :post_author
     belongs_to :editor, class_name: "User"
   end
-~~~
-~~~ruby
+```
+```ruby
   # app/models/user.rb
   class User < ActiveRecord::Base
     has_many :post_authorings, foreign_key: :post_author_id
     has_many :authored_posts, through: :post_authorings
     has_many :edited_posts, foreign_key: :editor_id, class_name: "Post"
   end
-~~~
-~~~ruby
+```
+```ruby
   # app/models/post_authoring.rb
   class PostAuthoring < ActiveRecord::Base
     belongs_to :post_author, class_name: "User"
     belongs_to :authored_post, class_name: "Post"
   end
-~~~
+```
 
 And our data model looks like:
 
@@ -146,7 +146,7 @@ In a plain vanilla situation, the comment would `belongs_to` a Post or a Picture
 
 We have to call our foreign key something a bit different from the normal case since it's ambiguous which model it's referencing and you can't just use `post_id` or `picture_id`.  A convention is to come up with an abstract term for what type of action you're doing and use that to name the association.  So in this case we're commenting on things and can thus call the foreign key `"commentable"`.  You'll see the `*able` convention used a fair bit. So the migration for that model might look like:
 
-~~~ruby
+```ruby
   class CreateComments < ActiveRecord::Migration
     def change
       create_table :comments do |t|
@@ -158,20 +158,20 @@ We have to call our foreign key something a bit different from the normal case s
       end
     end
   end
-~~~
+```
 
 "Commentable" will be used to refer to the associations as well.  You'll need to tell your Comment model that it is actually polymorphic so Rails knows to also check for a `commentable_type` column when using it.  This is done like:
 
-~~~ruby
+```ruby
   # app/models/comment.rb
   class Comment < ActiveRecord::Base
     belongs_to :commentable, polymorphic: true
   end
-~~~
+```
 
 On the other side of the association, you just treat your comment like any other association (which happens to have a nonstandard name).  You just need to specify the association on every model that `has_many` of it.  The only wrinkle is that, because it's using the "commentable" name, you need to specify it in an alias just like you would if any other association had a nonstandard name:
 
-~~~ruby
+```ruby
   # app/models/post.rb
   class Post < ActiveRecord::Base
     has_many :comments, as: :commentable
@@ -181,7 +181,7 @@ On the other side of the association, you just treat your comment like any other
   class Picture < ActiveRecord::Base
     has_many :comments, as: :commentable
   end
-~~~
+```
 
 Rails does the rest of the work for you.  Any time you ask a Picture for all its comments (`Picture.first.comments`), Rails will return just the comments that belong to that picture without you having to worry about anything else.
 
@@ -189,14 +189,14 @@ Rails does the rest of the work for you.  Any time you ask a Picture for all its
 
 Oftentimes you have relationships between the same type of model, for instance users who can follow other users.  In this case, you need to specify both associations in your User model but name them differently.  You will need to specify in your `has_many` association what the name of the `foreign_key` will be:
 
-~~~ruby
+```ruby
   class Employee < ActiveRecord::Base
     has_many :subordinates, class_name: "Employee",
                             foreign_key: "manager_id"
 
     belongs_to :manager, class_name: "Employee"
   end
-~~~
+```
 
 ### Handy methods
 As mentioned in the intro, associations give you access to some nifty tricks that you might not think of.
@@ -205,7 +205,7 @@ As mentioned in the intro, associations give you access to some nifty tricks tha
 
 <span id='automatic-foreign-key-knowledge-check'>There's a couple of shortcuts for creating new association objects.  The first is to call `#new` or `#create` on the association to automatically populate the foreign key.  For instance, if a User `has_many` Posts and Post `belongs_to` a User:</span>
 
-~~~bash
+```bash
   # Long version:
   > user = User.first
   > post = Post.create(title: "sample", user_id: user.id)
@@ -213,42 +213,42 @@ As mentioned in the intro, associations give you access to some nifty tricks tha
   # Shorter version:
   > user = User.first
   > user.posts.create(title: "sample")
-~~~
+```
 
 Another nifty trick is to create a new object and then use the shovel operator to add it to the association.  This is just one of the ways that **associations sometimes act like arrays**:
 
-~~~bash
+```bash
   > user = User.create(name: "foobar")
   > post = Post.new(title: "sample")
   > user.posts << post
-~~~
+```
 
 This will save the post to the database with that User's foreign key.  It's roughly equivalent to calling:
 
-~~~bash
+```bash
   > post.user_id = user.id
   > post.save
-~~~
+```
 
 If you really want to, you can actually replace the entire association with a new collection by setting it equal to the new collection:
 
-~~~bash
+```bash
   > user = User.first
   > post1 = Post.find(1)
   > post2 = Post.find(2)
   > user.posts = [post1, post2]  # posts added to that user's collection
-~~~
+```
 
 #### Destroying dependents
 
 If your user has created a bunch of posts and then decides to delete her account, how do you delete all the associated posts?  Specify the `dependent: :destroy` option when first declaring the association:
 
-~~~ruby
+```ruby
   # app/models/user.rb
   class User < ActiveRecord::Base
     has_many :posts, dependent: :destroy
   end
-~~~
+```
 
 This is just the most common among several options to specify for `:dependent`.  It will run the `destroy` method on all objects that belong to that user when the user is destroyed.
 
