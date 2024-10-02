@@ -243,4 +243,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- This [video](https://www.youtube.com/watch?v=a52MMobkuhU&t=542s) goes into detail about what a PaaS (in this case, Vercel) does under the hood. Note that the tools mentioned in the video go beyond the scope of this lesson.
+- Rails 8 comes with [Kamal 2](https://kamal-deploy.org) for deployment for those interested in deploying from a bare metal server or cloud VM (you might this more useful further in your journey).
