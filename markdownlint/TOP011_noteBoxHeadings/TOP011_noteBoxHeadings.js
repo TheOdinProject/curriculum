@@ -1,6 +1,6 @@
 module.exports = {
-  names: ["TOP011", "note-box-heading-level"],
-  description: "Note box headings must be level 4 (####)",
+  names: ["TOP011", "note-box-headings"],
+  description: "Note boxes have appropriate headings",
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md"
   ),
