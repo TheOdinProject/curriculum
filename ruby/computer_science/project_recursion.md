@@ -33,7 +33,7 @@ First up create a file and tackle the fibonacci sequence:
 1. Now write another method `#fibs_rec` which solves the same problem recursively.
 1. Test both versions of your methods by passing in various lengths as arguments.
 
-Hopefully you were able to solve the problem with recursion! If you need some help understanding what's going on with this function, there are some additional resources linked at the end of this page.
+Hopefully you were able to solve the problem with recursion! If you need some help understanding what's going on with this function, the "Test it out" section below will help. If you're still a bit confused, there are some additional resources linked at the end of this page.
 
 Once you have a firm grasp on solving Fibonacci with recursion, create a new file and work on a merge sort:
 
@@ -43,6 +43,20 @@ Tips:
 
 - Think about what the base case is and what behavior is happening again and again and can actually be delegated to someone else (e.g. that same method!).
 - It may be helpful to check out the background videos again if you don't quite understand what should be going on.
+
+#### Test it out
+
+To showcase the recursive effect implemented in your Fibonacci method, do the following:
+
+1. Add the following to the start of the method:
+
+   ```ruby
+   puts 'This was printed recursively'
+   ```
+
+1. Run the method with `8` as the input.
+
+1. If the method is implemented correctly, you should see that sentence printed around 8 times (Keep in mind that, depending on the way you implemented the method, you may see 7 instead of 8. This isn't a bug! It simply depends on how many times the method is *actually* repeated).
 
 </div>
 

@@ -28,7 +28,7 @@ git log
 
 ```
 
-Huh, that's interesting. We don't see our fourth file on our local system. Let's check our GitHub repository to see if it's there.
+Huh, that's interesting. We can’t find our fourth file on our local system. Let's check our GitHub repository to see if it's there.
 
 Oh no, we just destroyed it!  In this scenario, the danger - you could potentially destroy the work of those you're collaborating with! `git push --force` is a **very dangerous command, and it should be used with caution when collaborating with others**. Instead, you can fix your outdated history error by updating your local history using `fetch`, `merge`, and then attempting to `push` again.
 
@@ -89,7 +89,7 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is a safe way to push history changes to a remote repository?](#force-with-lease)
+- [What is a safe way to forcefully push history changes to a remote repository?](#force-with-lease)
 - [What are the dangers of history-changing operations?](#dangers)
 - [What are best practices of history-changing operations?](#best-practices)
 

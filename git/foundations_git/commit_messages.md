@@ -42,7 +42,7 @@ This is the change I made to the codebase.
 
 <div class="lesson-note lesson-note--tip" markdown=1>
 
-GitHub has a 72-character limit so we recommend keeping your commits' subject to within this amount.
+GitHub has a 72-character limit, so we recommend keeping your commits' subjects within this amount.
 
 </div>
 
@@ -67,6 +67,12 @@ Ahh, that's better! :) Now, developers can gain a better understanding of this c
 - Provides a subject that specifies your code's action (e.g., "Add missing link and alt text to the company's logo").
 - Contains a body that provides a concise yet clear description of why the commit needed to be made (e.g., "Screen readers won't read the images to users with disabilities without this information").
 - Separates the subject from the body with a new/blank line. This is a best practice we highly recommend following. It makes commit messages easier for other developers to read.
+
+### How to commit with a subject and body in the message
+
+Up until now, you've been told to commit with `git commit -m <message>`. To make a commit with subject and body in message, the simplest way is to type `git commit` without the `-m` flag and message argument.
+
+Doing so will open a new Visual Studio Code tab if you had [set Visual Studio Code as the Git editor](https://www.theodinproject.com/lessons/foundations-git-basics#changing-the-git-commit-message-editor). You can remove any comments and enter your multi-line messages. When you save and close the tab, your commit will be created.
 
 ### When to commit
 

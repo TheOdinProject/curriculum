@@ -2,7 +2,7 @@
 
 Git basics are very straightforward, but it sometimes feels like a bottomless pit when you find yourself on the wrong side of a confusing error situation. It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with Git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around.
 
-The thing about Git is that, unless you've got a seriously impressive memory, you can't just learn it by reading about it up front... you need to do it. Find a problem you want to go back and fix, hit an error in your merge, etc. and Google the hell out of it, learning a new Git tactic in the process.
+The thing about Git is that, unless you've got a seriously impressive memory, you can't just master it by reading about it; you need hands-on practice! For example, find a problem you want to fix, run into a merge error, and then dive into Google to learn a new Git technique along the way to help you fix that problem.
 
 To help you out, come back and refer to this lesson again when you're in trouble. We'll first cover a real-world example of a GitHub workflow used on this very project. The Additional Resources section below should also help you find high quality resources for when you need them later on.
 
@@ -69,7 +69,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What name is typically given for a Git remote that points to a repo that's been forked?](#initial-setup)
 - [Can you directly send your changes to a repository that you don't own/have write access to?](#sending-your-pull-request)
-- [What should you do immediately before merging your feature branch into main?](#ongoing-workflow)
+- [What should you do immediately before merging main into your feature branch?](#ongoing-workflow)
 
 ### Additional resources
 

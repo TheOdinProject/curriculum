@@ -55,7 +55,7 @@ The web development industry has a long history of successful developers with va
 
 ### Why Odin?
 
-I want you to know that this will not be easy.
+We want you to know that this will not be easy.
 
 There are plenty of other online curriculums for beginners, but they are often taught in an extremely isolated and controlled environment and cover only a specific topic.
 

@@ -250,3 +250,4 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [TanStack Query](https://tanstack.com/query/latest/docs/react/overview) is a library that handles all the necessary states and offers built-in support for major features, such as caching.
+- This article by Nadia Makarevich provides additional information and examples on [how to deal with race conditions](https://www.developerway.com/posts/fetching-in-react-lost-promises). Do not worry about the `useRef` hook, as it will be covered later on in the course.

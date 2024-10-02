@@ -94,7 +94,7 @@ irb(main):013:0> isogram?("Odin")
 => false
 ```
 
-Indeed, we didn't use `#split` correctly, as this particular creates an array with the given string rather than creating an array of characters of the given string. Why? By default, if we didn’t provide arguments, [the #split method](https://docs.ruby-lang.org/en/3.3/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference.
+Indeed, we didn't use `#split` correctly, as it creates an array with the given string rather than an array of the string's characters. Why? By default, if we didn’t provide arguments, [the #split method](https://docs.ruby-lang.org/en/3.3/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference.
 
 Hostage situation resolved! That wasn't so bad, was it?
 

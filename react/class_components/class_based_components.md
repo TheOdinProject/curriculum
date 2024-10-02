@@ -23,7 +23,7 @@ In your career, chances are, you will be dealing with legacy code, so there will
 As we already know about functional components, let us build a class-based component from a functional one. Usually, you will want to divide the contents of a component, like the one we use, into smaller, reusable components, but for the purposes of this exercise, we stick to one component. Below, we have a sample functional component:
 
 ```jsx
-import React, { useState } from "react";
+import { useState } from "react";
 
 const FunctionalInput = ({ name }) => {
   const [todos, setTodos] = useState(["Just some demo tasks", "As an example"]);
@@ -72,7 +72,7 @@ That was a solid chunk of code. Take a while, sip some water and read it a coupl
 Now, let's try to recreate it as a class-based component. The first thing it should have is, *drumroll*, a class! But it cannot be just another class, it will need to have certain properties that qualifies it as a React component. React provides us with all those properties on a class called `Component`, and we can write our components by extending the given class, as shown below:
 
 ```jsx
-import React, { Component } from "react";
+import { Component } from "react";
 
 class ClassInput extends Component {
   // Some code goes here
@@ -100,7 +100,7 @@ The props, that get passed into this component, gets passed into the class's `co
 If your component doesn't have any props, it is fine to leave the `constructor` and the `super` with no arguments.
 
 ```jsx
-import React, { Component } from "react";
+import { Component } from "react";
 
 class ClassInput extends Component {
   constructor(props) {
@@ -119,7 +119,7 @@ Now that the props can be accessed inside of the class component, the next issue
 Well, you can do that by returning your JSX from a `render` method! You can use the props that you declared in the constructor too!
 
 ```jsx
-import React, { Component } from "react";
+import { Component } from "react";
 
 class ClassInput extends Component {
   constructor(props) {
@@ -155,7 +155,7 @@ Notice how the props get provided by `this`, unlike the functional component tha
 Next comes the state. In a class-based component, the state gets initialized as a part of the constructor.
 
 ```jsx
-import React, { Component } from "react";
+import { Component } from "react";
 
 class ClassInput extends Component {
   constructor(props) {
@@ -192,7 +192,7 @@ The pre-defined `setState` method can be used to set it again! Remember, state m
 <span id="the-importance-of-bind">Now, it is time to finish it off by adding all the functionality! It is nearly the same, except for a single difference. Whenever a method is declared, you must `bind` the `this` of the method to that of the class in order to work with it, as by default, the methods in a class are not bound to it. Usually, you do this inside the constructor and not at runtime [in the render method].</span>
 
 ```jsx
-import React, { Component } from "react";
+import { Component } from "react";
 
 class ClassInput extends Component {
   constructor(props) {
@@ -286,4 +286,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- In general, the React documentation on [thinking in react](https://reactjs.org/docs/thinking-in-react.html) is a really good place to look into, if you want more practice with class-based components, from scratch.
+- In general, the React documentation on [thinking in react](https://legacy.reactjs.org/docs/thinking-in-react.html) is a really good place to look into, if you want more practice with class-based components, from scratch.

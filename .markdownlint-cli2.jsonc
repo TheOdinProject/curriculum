@@ -76,7 +76,10 @@
     // Enforces asterisk syntax instead of underscore syntax
     "MD050": {
       "style": "asterisk"
-    }
+    },
+    // link-fragments
+    // Disabled as it uses a different heading conversion algo to the TOP website
+    "MD051": false
   },
   "customRules": [
     "./markdownlint/TOP001_descriptiveLinkText/TOP001_descriptiveLinkText.js",

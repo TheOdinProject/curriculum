@@ -60,6 +60,19 @@ Noticed the word `lang` here? It represents an HTML attribute which is associate
 The `<head>` element is where we put important meta-information **about** our webpages, and stuff required for our webpages to render correctly in the browser.
 Inside the `<head>`, we **should not** use any element that displays content on the webpage.
 
+Back in our `index.html` file, let's add a `<head>` element with a `<meta>` element and a title within it. The `<head>` element goes within the `<html>` element and should always be the first element under the opening `<html>` tag:
+
+```html
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+  </head>
+</html>
+```
+
 #### Meta element
 
 We should always have the `<meta>` tag with the charset encoding of the webpage in the `<head>` element: `<meta charset="utf-8">`.
@@ -77,19 +90,6 @@ The `<title>` element is used to give webpages a human-readable title, which is 
 If we didn't include a `<title>` element, the webpage's title would default to its file name. In our case that would be `index.html`, which isn't very meaningful for users; this would make it very difficult to find our webpage if the user has many browser tabs open.
 
 There are many more elements that can go within the head of an HTML document. However, for now it's only crucial to know about the two elements we have covered here. We will introduce more elements that go into the head throughout the rest of the curriculum.
-
-Back in our `index.html` file, let's add a `<head>` element with a `<meta>` element and a title within it. The `<head>` element goes within the `<html>` element and should always be the first element under the opening `<html>` tag:
-
-```html
-<!DOCTYPE html>
-
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>My First Webpage</title>
-  </head>
-</html>
-```
 
 ### Body element
 
@@ -114,8 +114,13 @@ To complete the boilerplate, add a `<body>` element to the `index.html` file. Th
 
 The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  There are a couple of different options:
 
-> A note:
-> In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to Google Chrome.  We **strongly** suggest that you use Google Chrome for all of your testing going forward.
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Use Google Chrome
+
+In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to Google Chrome.  We **strongly** suggest that you use Google Chrome for all of your testing going forward.
+
+</div>
 
 1. You can drag and drop an HTML file from your text editor into the address bar of your browser.
 
@@ -168,7 +173,7 @@ It's still good to know how to write the boilerplate yourself in case you find y
 
 1. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
 
-1. Run your boilerplate through the W3 [HTML validator](https://validator.w3.org/). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
+1. Run your boilerplate through the W3 [HTML validator](https://validator.w3.org/#validate_by_input). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
 
 </div>
 

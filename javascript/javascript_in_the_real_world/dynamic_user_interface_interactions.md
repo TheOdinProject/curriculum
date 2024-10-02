@@ -19,7 +19,7 @@ A dropdown is something you've most likely encountered on various other websites
 Dropdowns are typically comprised of two main parts:
 
 1. A button that toggles the dropdown content's visibility.
-1. The dropdown contents itself.
+1. The dropdown content itself.
 
 The dropdown toggle button should typically only trigger the visibility of the dropdown content on click, while the dropdown contents should typically only contain items that will trigger an action upon clicking them. Actions can include things like "Edit", "Copy", or "Delete", or linking you to another part of the site, such as in a navbar.
 
@@ -68,4 +68,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Explore [W3Schools' tutorial](https://www.w3schools.com/howto/howto_js_slideshow.asp) on image carousels for a better understanding of how to create and customize them using JavaScript.

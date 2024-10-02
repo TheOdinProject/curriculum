@@ -1,6 +1,6 @@
 ### Introduction
 
-We've talked about the client-side and the server-side but how do we keep ahold of all our user's data?  Who remembers that your login password is `CatLover1985` so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later). It can be relatively simple, like an Excel spreadsheet, or incredibly complex and split into many giant pieces, like Facebook's.
+You might have wondered how you keep track of all your users' data.  Who remembers that your login password is `CatLover1985` so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later). It can be relatively simple, like an Excel spreadsheet, or incredibly complex and split into many giant pieces, like Facebook's.
 
 Databases are kind of hidden in the back of the web application, so people approach them with a sense of suspicion and awe.  However, do not fret or feel intimidated.  As you dive deeper into the subject, your databases and you are going to become very good friends (or at least frenemies).  Rest assured, by the end of this curriculum, you're going to understand what's going on with your databases and be able to interact with them like a pro (and probably better than some people you'll work with).  This lesson is a teaser for that.
 
@@ -47,6 +47,5 @@ This section contains helpful links to related content. It isn't required, so co
 
 - [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
 - A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)
-- Hunter Ducharme created an e-book which is a [great documentation on how to do all the basics in SQL](https://hunter-ducharme.gitbook.io/sql-basics/).
 - [David J. Malan’s excellent SQL lecture](https://cs50.harvard.edu/x/2024/weeks/7/) and resources in Harvard’s CS50x.
 - Relational databases aren't the only way to store data. Non-relational (aka NoSQL) databases have emerged over the last couple decades. Check out this article to learn the [difference between SQL and NoSQL](https://circleci.com/blog/SQL-vs-NoSQL-databases/).

@@ -82,7 +82,7 @@ Now, while it may sound good at first glance, you may already be raising your ey
 
 Functions in JavaScript form closures. A closure refers to the combination of a function and the **surrounding state** in which the function was declared. This surrounding state, also called its **lexical environment**, consists of any local variables that were in scope at the time the closure was made. Here, `add5` is a reference to the `resulting` function, created when the `makeAdding` function is executed, thus it has access to the lexical environment of the `resulting` function, which contains the `first` variable, making it available for use.
 
-This is a **crucial** behavior of functions - allowing us to associate data with functions and manipulate that data anywhere outside of the enclosing function. If you're still confused, take a small detour to examine the [second question under the Knowledge check section](#knowledge-check) - no need to read the entire thing for now, anything from "Emulating private methods with closures" onward will be discussed later in this lesson.
+This is a **crucial** behavior of functions - allowing us to associate data with functions and manipulate that data anywhere outside of the enclosing function. If you're still confused, read the [MDN documentation on Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#closure), but only the sections "Lexical scoping", "Closure" and "Practical closures". The other sections refer to concepts that will be discussed later in this lesson.
 
 ### So, what's wrong with constructors?
 
@@ -274,14 +274,14 @@ Take the calculator example into consideration. It's very easy to imagine a scen
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Explain how scope works in JavaScript.](https://wesbos.com/javascript-scoping)
-- [Explain what closures are and how they help in creating private variables.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#closure)
-- [Describe the common issues that you can face when working with constructors.](#so-whats-wrong-with-constructors)
-- [Describe private variables in factory functions and how they can be useful.](#private-variables-and-functions)
-- [Describe how we can implement prototypal inheritance with factory functions.](#prototypal-inheritance-with-factories)
-- [Explain how the module pattern works.](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
-- [Describe IIFEs and what they stand for.](#the-module-pattern-iifes)
-- [Explain the concept of namespacing and how factory functions help with encapsulation.](#encapsulating-with-the-module-pattern)
+- [How does scope work in JavaScript?](#scoopfuls-of-scopes)
+- [What are closures and how do they help in creating private variables?](#closures-arent-scary)
+- [What common issues can you can face when working with constructors?](#so-whats-wrong-with-constructors)
+- [What are private variables in factory functions and how can they be useful?](#private-variables-and-functions)
+- [How can we implement prototypal inheritance with factory functions?](#prototypal-inheritance-with-factories)
+- [How does the module pattern work?](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
+- [What does IIFE stand for and what are they?](#the-module-pattern-iifes)
+- [What is the concept of namespacing and how do factory functions help with encapsulation?](#encapsulating-with-the-module-pattern)
 
 ### Additional resources
 

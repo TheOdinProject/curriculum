@@ -24,7 +24,7 @@ CSS transitions let you animate a change from an element's initial state to an e
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-When your mouse cursor is away from the button, the button is in the initial state. When you hover over it you introduce the end state, the hover state, causing the transition of the color smoothly fading from white to black to occur.
+When your mouse cursor is away from the button, the button is in the initial state. When you hover over it, you introduce the end state - the hover state - causing the background color to transition smoothly from white to black.
 
 This was achieved using the `transition` property, which is actually a shorthand property for `transition-property`, `transition-duration`, `transition-timing-function` and `transition-delay`.
 
