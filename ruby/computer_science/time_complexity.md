@@ -320,7 +320,7 @@ This section contains questions for you to check your understanding of this less
 - [What is Big O?](#what-is-big-o)
 - [What are the Big O Notations?](#big-o-notation)
 - [Why use Big O?](#why-big-o)
-- [What is Big Omega and why isn't it as useful?](#big--omega-notation)
+- [What is Big Omega and why isn't it as useful?](#big-omega-notation)
 
 ### Additional resources
 
