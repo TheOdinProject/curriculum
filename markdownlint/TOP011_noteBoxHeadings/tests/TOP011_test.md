@@ -8,15 +8,19 @@ This section contains a general overview of topics that you will learn in this l
 
 - A LESSON OVERVIEW ITEM.
 
-### Custom section
+### Non-note box heading will not flag any TOP011 errors
 
-#### Non-note box level 4 headings will not flag this error
-
-Custom subsection contents.
+Custom subsection content
 
 <div class="lesson-note" markdown="1">
 
-#### Level 4 note box heading: Correct and will not flag error
+Note boxes without headings will flag a TOP011 "missing header" error.
+
+</div>
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+## Level 2 note box heading: Will flag error as it should be level 4
 
 Note box contents.
 
@@ -32,7 +36,63 @@ Note box contents.
 
 <div class="lesson-note" markdown="1">
 
-## Level 2 note box heading: Will flag error as it should be level 4
+#### Note: Correct heading format for standard note boxes
+
+Note box contents.
+
+</div>
+
+<div class="lesson-note" markdown="1">
+
+#### Standard note box heading not starting with "Note:"
+
+Note box contents.
+
+</div>
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Tip: Correct heading format for tip note boxes
+
+Note box contents.
+
+</div>
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Tip note box heading not starting with "Tip:"
+
+Note box contents.
+
+</div>
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Warning: Correct heading format for warning note boxes
+
+Note box contents.
+
+</div>
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Warning note box heading not starting with "Warning:"
+
+Note box contents.
+
+</div>
+
+<div class="lesson-note lesson-note--critical" markdown="1">
+
+#### Critical: Correct heading format for critical note boxes
+
+Note box contents.
+
+</div>
+
+<div class="lesson-note lesson-note--critical" markdown="1">
+
+#### Critical note box heading not starting with "Critical:"
 
 Note box contents.
 
