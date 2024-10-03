@@ -618,15 +618,18 @@ Let's look for a solution before we attempt to build a solution.
 
 #### Installing the Google API Client
 
-Ruby comes packaged with the `gem` command. This tool allows you to download libraries by knowing the name of the library you want to install.
+In this section, we’ll use [Bundler](https://bundler.io) to manage and install our gem dependencies. Bundler ensures that the correct versions of gems are installed and works seamlessly with different Ruby versions and project requirements.
 
 ```bash
-$ gem install google-api-client
-Successfully installed google-api-client-0.15.0
-1 gem installed
+bundle init  # Initializes a Gemfile if one doesn't exist
+bundle add google-apis-civicinfo_v2  # Adds the gem to the Gemfile and installs it
 ```
 
-If you receive a signet error when installing the Google API gem, it is due to modern Ruby updates requiring an updated version of signet that is not compatible with the API. To fix, please [downgrade your version of signet](https://github.com/googleapis/google-api-ruby-client/issues/833) before installing the gem.
+Once you’ve set up your gems with Bundler, you should use the following command to run your project:
+
+```bash
+bundle exec ruby lib/event_manager.rb
+```
 
 #### Showing all legislators in a zip code
 
@@ -694,7 +697,7 @@ end
 Running our application, we find an error.
 
 ```bash
-$ ruby lib/event_manager.rb
+$ bundle exec ruby lib/event_manager.rb
 /ruby-2.4.0/gems/google-api-client-0.15.0/lib/google/apis/core/http_command.rb:218:in 'check_status': parseError: Failed to parse address (Google::Apis::ClientError)
 ```
 
@@ -784,7 +787,7 @@ legislator_names = legislators.map(&:name)
 If we were to replace `legislators` with `legislator_names` in our output, we would be presented with a *slightly* better output.
 
 ```bash
-$ ruby lib/event_manager.rb
+$ bundle exec ruby lib/event_manager.rb
 EventManager initialized.
 Allison 20010 ["Eleanor Norton"]
 SArah 20009 ["Eleanor Norton"]
@@ -826,7 +829,7 @@ end
 Running our application this time should give us a much more pleasant looking output:
 
 ```bash
-$ ruby lib/event_manager.rb
+$ bundle exec ruby lib/event_manager.rb
 EventManager initialized.
 Allison 20010 Eleanor Norton
 SArah 20009 Eleanor Norton
