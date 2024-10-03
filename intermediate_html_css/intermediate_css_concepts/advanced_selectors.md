@@ -52,12 +52,12 @@ main div {
 But what if we wanted to be more specific and <span id="childvdesc-knowledge-check">select *only* the `child` or `grand-child` divs?</span> That's where the child combinator `>` comes in handy. Unlike the descendant combinator, it will only select direct children.
 
 ```css
-/* This rule will only select the divs with the class child */
+/* The divs with the class "child" will get selected by this */
 main > div {
   /* Our cool CSS */
 }
 
-/* This rule will only select the divs with the class grand-child */
+/* The divs with the class "grand-child" will get selected by this */
 main > div > div {
   /* More cool CSS */
 }
@@ -66,12 +66,12 @@ main > div > div {
 Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is adjacent (immediately following) to our target, or on the same level of indentation, we can use the adjacent sibling combinator `+`.
 
 ```css
-/* This rule will only select the div with the class child group2 */
+/* Only the div with the classes "child group2" will get selected by this */
 .group1 + div {
   /* Our cool CSS */
 }
 
-/* This rule will only select the div with the class child group3 */
+/* Only the div with the classes "child group3" will get selected by this */
 .group1 + div + div {
   /* More cool CSS */
 }
@@ -80,7 +80,7 @@ Phrased another way, the child selector will select an element that is one level
 Finally, if we want to select all of the siblings following an element and not just the first one, we can use the general sibling combinator `~`.
 
 ```css
-/* This rule will select all of .group1's siblings - in this case the 2nd and 3rd .child divs */
+/* All of .group1's siblings - in this case the 2nd and 3rd .child divs, will get selected by this */
 .group1 ~ div {
   /* Our cool CSS */
 }
