@@ -47,7 +47,6 @@ module.exports = {
   parser: "markdownit",
   function: function TOP011(params, onError) {
     const { tokens } = params.parsers.markdownit;
-    // console.log(tokens);
     const noteBoxesWithoutHeadings = tokens.filter(lacksHeading);
     const noteBoxHeadings = tokens.reduce(categoriseHeadingsByNoteBoxType, {
       Note: [],
