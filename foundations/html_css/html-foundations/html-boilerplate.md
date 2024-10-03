@@ -112,13 +112,13 @@ To complete the boilerplate, add a `<body>` element to the `index.html` file. Th
 
 ### Viewing HTML files in the browser
 
-The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser?  There are a couple of different options:
+The HTML boilerplate in the `index.html` file is complete at this point, but how do you view it in the browser? There are a couple of different options:
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
 #### Use Google Chrome
 
-In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course.  All references to the browser will pertain specifically to Google Chrome.  We **strongly** suggest that you use Google Chrome for all of your testing going forward.
+In order to avoid branching our lesson's instructions to accommodate for all of the differences between browsers, we are going to be using Google Chrome as our primary browser for the remainder of this course. All references to the browser will pertain specifically to Google Chrome. We **strongly** suggest that you use Google Chrome for all of your testing going forward.
 
 </div>
 
@@ -190,6 +190,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Another option for opening your HTML pages in the browser is using the [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) with VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old-fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. This way, you can get used to that process and won't become reliant on extensions right away. One reason is that there may be subtle differences when using extensions. For example, live server will always use UTF-8 character encoding and not the charset value defined in your `<meta>` element. This could potentially hide some characters on your site as they will not be encoded the way you expect.
+- Another option for opening your HTML pages in the browser is using the [Live Preview extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) for VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old-fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. This way, you can get used to that process and won't become reliant on extensions right away.
 
 - If you wish, you can add [the `lang` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) to individual elements throughout the webpage.

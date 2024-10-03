@@ -47,7 +47,7 @@ Save and open this file up in a web browser and then open up the browser's conso
 1. Click on "Inspect" or "Inspect Element" to open the Developer Tools.
 1. Find and select the "Console" tab, where you should see the output of our `console.log` statement.
 
-**Tip:** You can use ["Live Server" extension in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to automatically update the browser when you save your file instead of having to manually refresh the page to see any changes when you edit your code. Try edit the text to say something different!
+**Tip:** You can use [Live Preview extension in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) to automatically update the browser when you save your file instead of having to manually refresh the page to see any changes when you edit your code. Try edit the text to say something different!
 
 `console.log()` is the command to print something to the developer console in your browser. You can use this to print the results from any of the following articles and exercises to the console. We encourage you to code along with all of the examples in this and future lessons.
 

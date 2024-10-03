@@ -142,7 +142,7 @@ Do the number of steps matter? Yes, they might. We'll touch on when this may be 
 
 #### O(log N) - Logarithmic complexity
 
-Logarithmic Complexity tells us that the numbers of steps an algorithm takes increases by 1 as the data doubles. That's still pretty efficient when you think about it. Going from 5,000 to 10,000 data elements and only taking one additional step can scale really well.
+Logarithmic Complexity tells us that the number of steps an algorithm takes increases by 1 as the data doubles. That's still pretty efficient when you think about it. Going from 5,000 to 10,000 data elements and only taking one additional step can scale really well.
 
 One such algorithm that does this is Binary Search. It only works on sorted arrays, but if you have an array of 10 items in sorted order
 
@@ -233,7 +233,7 @@ If Big O gives us the worst-case scenario of how our algorithm will scale, what 
 
 #### Big &#937; (Omega notation)
 
-Omega Notations gives us the best-case scenario for an algorithm. To understand where this might be, let's look at a method and discuss how we can measure its complexity.
+Omega Notation gives us the best-case scenario for an algorithm. To understand where this might be, let's look at a method and discuss how we can measure its complexity.
 
 ```javascript
 function findValue(arr) {
@@ -256,7 +256,7 @@ Omega Notation isn't considered as useful because it is unlikely our item will o
 
 While Omega Notation measures the best-case scenario for an algorithm's efficiency, and Big O measures the worst case, Theta looks to give the exact value or a useful range between narrow upper and lower bounds.
 
-If we had some code that looped every item in an array, then it doesn't matter the size of the array. Our algorithm will always run in `O(N)` time in its best-case and worst-case scenarios. In that case we know it's exact performance in all scenarios is `O(N)`, and that is the Theta performance of our algorithm. For other algorithms, Theta may represent both the lower and upper bound of an algorithm that has different complexities. We won't get into this more here because Big O is the primary notation used for general algorithm time complexity.
+If we had some code that looped every item in an array, then it doesn't matter the size of the array. Our algorithm will always run in `O(N)` time in its best-case and worst-case scenarios. In that case we know its exact performance in all scenarios is `O(N)`, and that is the Theta performance of our algorithm. For other algorithms, Theta may represent both the lower and upper bound of an algorithm that has different complexities. We won't get into this more here because Big O is the primary notation used for general algorithm time complexity.
 
 This is just a simplistic explanation to try to make the topic approachable. If you do happen to be mathematically minded, then you'll find more detailed explanations with a quick search online.
 

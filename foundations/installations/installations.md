@@ -502,6 +502,8 @@ Chrome is going to use this terminal to output various messages and won't let yo
 
 <summary class="dropDown-header">WSL2</summary>
 
+WSL does not have a graphical user interface (GUI) like Windows, so this step will guide you through installing Google Chrome for Windows instead. Later on, we'll cover how you can use the Windows installed Chrome to preview your work that lives within WSL.
+
 #### Step 1: Download Google Chrome
 
 - Visit [Google Chrome download page](https://www.google.com/chrome/).
@@ -510,17 +512,17 @@ Chrome is going to use this terminal to output various messages and won't let yo
 #### Step 2: Install Google Chrome
 
 - Open the **Downloads** folder.
-- Double click the file **ChromeSetup.exe**.
+- Double click the file **ChromeSetup.exe** to start the install.
 
-#### Step 3: Delete the installer file
+#### Step 3: Using Google Chrome
+
+- Search for **Google Chrome** in your Start Menu.
+- Click **Google Chrome** to start the application.
+
+#### Optional: Delete the installer file
 
 - Open the **Downloads** folder.
-- Drag **ChromeSetup.exe** to the trash.
-
-#### Step 4: Using Google Chrome
-
-- Search for **Google Chrome** in your applications.
-- Double click **Google Chrome**.
+- Select the **ChromeSetup.exe** file and hit the Delete key, or drag it the Recycling Bin.
 
 </details>
 
