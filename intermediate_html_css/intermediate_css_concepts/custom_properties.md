@@ -143,6 +143,10 @@ Using the `prefers-color-scheme` media query can be pretty helpful for users sin
 1. The `light` value for the media query is actually for when a user has a light theme specified *or* when they have no preference set.
 1. It doesn't allow users to change the theme themselves, which can still be important in cases where a user might want to use the theme opposite of their OS/user agent preferred one for whatever reason.
 
+This can be done using the `prefers-color-scheme` media query, which lets you apply different styles based on the user's device or settings, like screen size or theme preference (light/dark mode).
+
+The `prefers-color-scheme` query checks if the user has selected a theme on their OS or browser. Don’t worry, we’ll cover media queries in more detail later. For now, try changing your OS or browser theme to see the example update in real time!
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
