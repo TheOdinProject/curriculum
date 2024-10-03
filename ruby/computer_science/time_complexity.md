@@ -231,7 +231,7 @@ If Big O gives us the worst-case scenario of how our algorithm will scale, what 
 
 #### Big &#937; (omega notation)
 
-Omega Notations gives us the best-case scenario for an algorithm. To understand where this might be, let's look at a method and discuss how we can measure its complexity.
+Omega Notation gives us the best-case scenario for an algorithm. To understand where this might be, let's look at a method and discuss how we can measure its complexity.
 
 ```ruby
 def find_value(arr)
