@@ -29,7 +29,7 @@ This section contains a general overview of topics that you will learn in this l
   1. Read [Thoughtbot's I/O in Ruby](https://thoughtbot.com/blog/io-in-ruby). You can ignore both the 'Putting it all together' and the 'Working with disparate APIs' sections.
   1. Watch [icc0612's introduction to serialization](https://www.youtube.com/watch?v=uS37TujnLRw). It will explain the concept of serialization before you implement it in Ruby.
   1. Read [Choosing the Right Serialization Format](https://www.sitepoint.com/choosing-right-serialization-format/) for more information about the various serialization options you can choose from.
-  1. Skim [Alan Skorkin’s article about object serialization in Ruby](http://www.skorks.com/2010/04/serializing-and-deserializing-objects-with-ruby/). Some of the code examples are outdated, but this post still contains relevant information. If you want to follow along with the code examples, copy and paste them into your code editor and use word wrap.
+  1. Copy this [pastebin](https://pastebin.com/DZTegAqP) and open [Odin Markdown Preview Tool](https://www.theodinproject.com/lessons/preview), paste it and click on preview and start reading. because [Original article](http://www.skorks.com/2010/04/serializing-and-deserializing-objects-with-ruby/) is not well formatted and some code examples are outdated. but this post still contains relevant information.
   1. Read the sections 'Ruby files' and 'Ruby directories' from the [Input/Output chapter of Zetcode's Ruby Tutorial](http://zetcode.com/lang/rubytutorial/io/) for examples of how to manipulate files and directories using the `File` and `Dir` classes.
 
 </div>
