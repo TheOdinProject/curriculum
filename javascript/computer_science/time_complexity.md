@@ -144,25 +144,35 @@ Do the number of steps matter? Yes, they might. We'll touch on when this may be 
 
 Logarithmic Complexity tells us that the number of steps an algorithm takes increases by 1 as the data doubles. That's still pretty efficient when you think about it. Going from 5,000 to 10,000 data elements and only taking one additional step can scale really well.
 
-One such algorithm that does this is Binary Search. It only works on sorted arrays, but if you have an array of 10 items in sorted order
+One such algorithm that does this is Binary Search. It only works on sorted arrays, but if you have an array of 10 items in sorted order:
 
 ```javascript
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
-and wanted to know if it had the number `7`, Binary Search would guess the middle item of the array and see what is there. Because the array is sorted, if the number at the middle index was `6`, then we know anything to the left of that index cannot be the number 7, as those items must be lower than 6 in a sorted array.
+To find out if the array contains the number `7`, Binary Search calculates the middle index using the formula:
+
+```javascript
+let middleIndex = Math.floor((startIndex + endIndex) / 2)
+```
+
+Here, `startIndex` is the beginning of the array (initially `0`), and `endIndex` is the last element of the array (initially `9` for a 10-element array). The middle element at index `4` would be `5`.
+
+Because the array is sorted and `7` is greater than `5`, we can eliminate `5` and everything to its left, as those numbers are all less than `7`.
 
 ```javascript
 arr = [-, -, -, -, -, 6, 7, 8, 9, 10]
 ```
 
-Therefore in just one step, we've eliminated half of the array. We can do the same with the remaining half. We can guess the middle index and see if it's 7. Half of that (half of an array) array eliminated again. In this case, the middle index would be 8, and we know that 7 is less than 8 so we can eliminate anything to the right of the number 8.
+In just one step, we've eliminated half of the array. Now, we recalculate the middle index with the new `startIndex` and `endIndex` values. The middle index would now be `7`, and the number at this index is `8`.
+
+Since `7` is less than `8`, we can eliminate `8` and everything to its right.
 
 ```javascript
-arr = [6, 7, 8, -, -]
+arr = [6, 7, -, -, -]
 ```
 
-We can keep doing this until we have an array of just one item. If it matches the number we're looking for, we've found it. If not, then it isn't in the array.
+We repeat this process until we have an array of just one item. If that item matches the number we're looking for, we've found it. If not, the number isn't in the array.
 
 The below table summarises the size of an array doubling and how many steps in Big O terms we would need to arrive at one element to see if it matches what we're looking for:
 
