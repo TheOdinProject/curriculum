@@ -14,13 +14,13 @@ Finally, files and serialization overlap in a lot of ways with the idea and purp
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What are two ways to store a file from your hard drive into a string or array in your Ruby script?
-- What are three things made possible or much easier by serialization?
-- What is JSON?
-- What is YAML?
-- How do you turn a Ruby object into JSON?
-- How do you turn JSON into a Ruby object?
-- What classes and methods can your Ruby script use to read and write to the hard drive?
+- Two ways to store a file from your hard drive into a string or array in your Ruby script.
+- Three things made possible or much easier by serialization.
+- What is JSON.
+- What is YAML.
+- Turning a Ruby object into JSON.
+- Turning JSON into a Ruby object.
+- What classes and methods can your Ruby script use to read and write to the hard drive.
 
 ### Assignment
 
