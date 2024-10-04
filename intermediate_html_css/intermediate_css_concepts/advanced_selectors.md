@@ -80,7 +80,7 @@ Phrased another way, the child selector will select an element that is one level
 Finally, if we want to select all of the siblings following an element and not just the first one, we can use the general sibling combinator `~`.
 
 ```css
-/* All of .group1's siblings - in this case the 2nd and 3rd .child divs, will get selected by this */
+/* All of .group1's div siblings - in this case the 2nd and 3rd .child divs, will get selected by this */
 .group1 ~ div {
   /* Our cool CSS */
 }
