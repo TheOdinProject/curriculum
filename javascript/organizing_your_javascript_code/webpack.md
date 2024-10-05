@@ -1,6 +1,6 @@
 ### Introduction
 
-In the previous lesson, we introduced ES6 modules (ESM) and npm. While the introduction of ESM greatly mitigated some of the issues with managing individual script files and dependencies, there would still be performance issues to consider the more module files the browser would have to download individually (especially as more third-party libraries would be imported).
+In the previous lesson, we introduced ES6 modules (ESM) and npm. The introduction of ESM greatly mitigated some of the issues with managing individual script files and dependencies. However, downloading a large number of module files individually can reduce performance, especially as more third party files are imported.
 
 Fortunately, more recent web technologies have greatly improved these aspects, but bundlers still provide us with a lot of power to process and optimize our code in various ways. This power, however, does come with the small cost of needing to configure a bundler. For now, our needs are few and simple, and we can look at the basic things one at a time.
 
