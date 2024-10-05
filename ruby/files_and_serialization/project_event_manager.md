@@ -181,7 +181,7 @@ lines.each do |line|
 end
 ```
 
-### Skipping the header row
+#### Skipping the header row
 
 The header row was a great help to us in understanding the contents of the CSV file. However, the row itself does not represent an actual attendee. To ensure that we only output attendees, we could remove the header row from the file, but that would make it difficult if we later returned to the file and tried to understand the columns of data.
 
