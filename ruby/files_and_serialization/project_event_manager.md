@@ -70,10 +70,7 @@ ruby: No such file or directory -- lib/event_manager.rb (LoadError)
 
 If this happens, make sure the correct directory exists and try creating the file again.
 
-For this project we are going to use the following sample data:
-
-- [Small Sample](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees.csv)
-- [Large Sample](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees_full.csv)
+For this project we are going to use the following [sample data](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees.csv).
 
 Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby/files_and_serialization/event_attendees.csv)* csv file and save it in the root of the project directory, `event_manager`. Using your CLI, confirm that you are in the right directory and enter the following command:
 
@@ -345,7 +342,7 @@ Before we are able to figure out our attendees' representatives, we need to solv
 
 - Some zip codes are represented with fewer than five digits
 
-If we looked at the [larger sample of data](https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby/files_and_serialization/event_attendees_full.csv), we would see that the majority of the shorter zip codes are from states in the north-eastern part of the United States. Many zip codes there start with 0. This data was likely stored in the database as an integer, and not as text, which caused the leading zeros to be removed.
+If we looked at the [sample data](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees.csv), we would see that the majority of the shorter zip codes are from states in the north-eastern part of the United States. Many zip codes there start with 0. This data was likely stored in the database as an integer, and not as text, which caused the leading zeros to be removed.
 
 So in the case of zip codes of fewer than five digits, we will assume that we can pad missing zeros to the front.
 
