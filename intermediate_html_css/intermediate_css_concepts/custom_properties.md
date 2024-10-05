@@ -123,7 +123,9 @@ First, since we don’t have direct access to the root element in the HTML tab o
 
 #### Media queries
 
-Giving users the ability to toggle a theme themselves is great, but there's another option for setting a theme that you may have come across on certain sites or applications: using the user's theme setting from their operating system or user agent (like a browser). This can be accomplished with the `prefers-color-scheme` media query, which checks whether a user has selected a theme preference on their OS/user agent. As you view the example below, try changing the theme settings on your OS/user agent to see how the example updates in real time!
+Giving users the ability to toggle a theme themselves is great, but there's another option for setting a theme that you may have come across on certain sites or applications: using the user's theme setting from their operating system or user agent (like a browser). This can be done using the `prefers-color-scheme` media query, which lets you apply different styles based on the user's device or settings, like screen size or theme preference (light/dark mode).
+
+The `prefers-color-scheme` query checks if the user has selected a theme on their OS or browser. Don’t worry, we’ll cover media queries in more detail later. For now, try changing your OS or browser theme to see the example update in real time!
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="powGZzE" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
