@@ -343,9 +343,9 @@ And that's about it! Congratulations, if you've made it this far, you are well o
 <div class="lesson-content__panel" markdown="1">
 
 1. Review [Part 4 on Grid Properties](https://css-tricks.com/snippets/css/complete-guide-grid/#grid-properties) from CSS-Tricks.
-1. Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget that the instructions are in the README). Do the exercises in the 'grid' directory in the following order:
-   - `grid-layout-2`
-   - `grid-layout-3`
+1. Go back to our [CSS exercises repository and do the exercises within the `intermediate-html-css/advanced-grid` directory](https://github.com/TheOdinProject/css-exercises/tree/main/intermediate-html-css/advanced-grid) in the following order (remember that the instructions are in the README):
+   - `01-responsive-holy-grail`
+   - `02-holy-grail-mockup`
 
    Note: When doing these exercises, please use all the documentation and resources you need to accomplish them. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
 
