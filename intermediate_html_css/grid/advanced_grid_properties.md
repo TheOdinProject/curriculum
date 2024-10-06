@@ -343,7 +343,7 @@ And that's about it! Congratulations, if you've made it this far, you are well o
 <div class="lesson-content__panel" markdown="1">
 
 1. Review [Part 4 on Grid Properties](https://css-tricks.com/snippets/css/complete-guide-grid/#grid-properties) from CSS-Tricks.
-1. Go back to our [CSS exercises repository and do the exercises within the `intermediate-html-css/advanced-grid` directory](https://github.com/TheOdinProject/css-exercises/tree/main/intermediate-html-css/advanced-grid) in the following order (remember that the instructions are in the README):
+1. Do the exercises in our [CSS exercises repository's `intermediate-html-css/advanced-grid` directory](https://github.com/TheOdinProject/css-exercises/tree/main/intermediate-html-css/advanced-grid) (remember that the instructions are in the README) in the order:
    - `01-responsive-holy-grail`
    - `02-holy-grail-mockup`
 
