@@ -70,10 +70,7 @@ ruby: No such file or directory -- lib/event_manager.rb (LoadError)
 
 If this happens, make sure the correct directory exists and try creating the file again.
 
-For this project we are going to use the following sample data:
-
-- [Small Sample](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees.csv)
-- [Large Sample](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees_full.csv)
+For this project we are going to use the following [sample data](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees.csv).
 
 Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby/files_and_serialization/event_attendees.csv)* csv file and save it in the root of the project directory, `event_manager`. Using your CLI, confirm that you are in the right directory and enter the following command:
 
@@ -184,7 +181,7 @@ lines.each do |line|
 end
 ```
 
-### Skipping the header row
+#### Skipping the header row
 
 The header row was a great help to us in understanding the contents of the CSV file. However, the row itself does not represent an actual attendee. To ensure that we only output attendees, we could remove the header row from the file, but that would make it difficult if we later returned to the file and tried to understand the columns of data.
 
@@ -345,7 +342,7 @@ Before we are able to figure out our attendees' representatives, we need to solv
 
 - Some zip codes are represented with fewer than five digits
 
-If we looked at the [larger sample of data](https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby/files_and_serialization/event_attendees_full.csv), we would see that the majority of the shorter zip codes are from states in the north-eastern part of the United States. Many zip codes there start with 0. This data was likely stored in the database as an integer, and not as text, which caused the leading zeros to be removed.
+If we looked at the [sample data](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees.csv), we would see that the majority of the shorter zip codes are from states in the north-eastern part of the United States. Many zip codes there start with 0. This data was likely stored in the database as an integer, and not as text, which caused the leading zeros to be removed.
 
 So in the case of zip codes of fewer than five digits, we will assume that we can pad missing zeros to the front.
 
@@ -1307,7 +1304,11 @@ end
 
 The method `save_thank_you_letter` requires the id of the attendee and the form letter output.
 
-### Assignment: Clean phone numbers
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+#### Part 1: Clean phone numbers
 
 Similar to the zip codes, the phone numbers suffer from multiple formats and inconsistencies. If we wanted to allow individuals to sign up for mobile alerts with the phone numbers, we would need to make sure all of the numbers are valid and well-formed.
 
@@ -1317,7 +1318,7 @@ Similar to the zip codes, the phone numbers suffer from multiple formats and inc
 - If the phone number is 11 digits and the first number is not 1, then it is a bad number
 - If the phone number is more than 11 digits, assume that it is a bad number
 
-### Assignment: Time targeting
+#### Part 2: Time targeting
 
 The boss is already thinking about the next conference: "Next year I want to make better use of our Google and Facebook advertising. Find out which hours of the day the most people registered, so we can run more ads during those hours." Interesting!
 
@@ -1329,8 +1330,10 @@ Using the registration date and time we want to find out what the peak registrat
 
 - Explore the documentation to become familiar with the available methods, especially `#strptime`, `#strftime`, and `#hour`.
 
-### Assignment: Day of the week targeting
+#### Part 3: Day of the week targeting
 
 The big boss gets excited about the results from your hourly tabulations. It looks like there are some hours that are clearly more important than others. But now, tantalized, she wants to know "What days of the week did most people register?"
 
 - Use [Date#wday](https://docs.ruby-lang.org/en/3.3/Date.html#method-i-wday) to find out the day of the week.
+
+</div>
