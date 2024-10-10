@@ -1,6 +1,6 @@
 ### Introduction
 
-Please note this tutorial has been adapted from The Turing School's and Jump Start Lab's [Event Manager](http://tutorials.jumpstartlab.com/projects/eventmanager.html) and updated to use GoogleCivic API
+Please note this tutorial has been adapted from The Turing School's and Jump Start Lab's [Event Manager]( https://web.archive.org/web/20240908085655/https://tutorials.jumpstartlab.com/projects/eventmanager.html) and updated to use GoogleCivic API
 
 <div class="lesson-note" markdown="1">
 
