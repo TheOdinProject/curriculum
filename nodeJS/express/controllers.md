@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 When it comes to sending responses from your controllers, you have several methods at your disposal. Let's explore some of the commonly used methods and their use cases.
 
-- [res.send](https://expressjs.com/en/api.html#res.send) - A general-purpose method for sending a response, it is flexible with what data you can send since it will automatically set the `Content-Type` header based on what data you pass it. For example, if you pass in an object, it will stringify it as JSON and set the `Content-Type` header to `application/json`.
+- [res.send](https://expressjs.com/en/api.html#res.send) - A general-purpose method for sending a response, it is flexible with the data you can send, as it automatically sets the Content-Type header based on the type of data passed. For example, if you pass in an object, it will stringify it as JSON and set the `Content-Type` header to `application/json`.
 - [res.json](https://expressjs.com/en/api.html#res.json) - This is a more explicit way to respond to a request with JSON. This always sets the `Content-Type` header to `application/json` and sends the data as JSON.
 - [res.redirect](https://expressjs.com/en/api.html#res.redirect) - When you want to redirect the client to a different URL, this method allows for that capability.
 - [res.render](https://expressjs.com/en/api.html#res.render) - If you're using a template engine (covered in a later lesson), `res.render` allows you to render a view template and send the rendered HTML as the response.
@@ -224,13 +224,13 @@ app.use((err, req, res, next) => {
 });
 ```
 
-However, take note that this is a middleware function that requires *four parameters* that you will need to provide even if they are not used. If you for example exclude one of the parameters, it will not be recognized as an error middleware function. You can try it out yourself ;)
+However, take note that this is a middleware function that requires *four parameters* that you will need to provide even if they are not used. If you for example exclude one of the parameters, it will not be recognized as an error middleware function. You can try it out yourself :)
 
 It is the same as the previous middleware functions with three parameters but with one new parameter in a different order which is the error object. This is an odd one but the error object *must* be the first parameter in the callback.
 
 This middleware function handles the *errors thrown* in other middleware functions or something that is sent by a previous middleware function using the `next` function (e.g. `next(err)`).
 
-So the way Express distinguishes this middleware function is again through adding *four parameters* not a single one missing. A route middleware function or a middleware function with *less than four parameters* will always be considered as a request middleware function instead of this error middleware function even if you place it last.
+So, Express distinguishes this middleware function by requiring all *four parameters*, with none missing. A route middleware function or a middleware function with *less than four parameters* will always be considered as a request middleware function instead of this error middleware function even if you place it last.
 
 ```javascript
 app.use((req, res, next) => {
