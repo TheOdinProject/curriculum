@@ -899,7 +899,8 @@ We have our attendees and their respective representatives. We can now generate 
 For each attendee we want to include a customized letter that thanks them for attending the conference and provides a list of their representatives. Something that looks like:
 
 ```html
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
   <meta charset='UTF-8'>
   <title>Thank You!</title>
@@ -927,7 +928,8 @@ We could define this template as a large string within our current application.
 
 ```ruby
 form_letter = %{
-  <html>
+  <!DOCTYPE html>
+  <html lang="en-US">
   <head>
     <title>Thank You!</title>
   </head>
@@ -1066,7 +1068,8 @@ The convention is to save ERB template files with the extension **erb**. This is
 - Update our existing keywords with the ERB escape sequences
 
 ```erb
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
   <meta charset='UTF-8'>
   <title>Thank You!</title>
@@ -1082,7 +1085,7 @@ The convention is to save ERB template files with the extension **erb**. This is
 
   <table>
     <% if legislators.kind_of?(Array) %>
-      <th>Name</th><th>Website</th>
+      <tr><th>Name</th><th>Website</th></tr>
         <% legislators.each do |legislator| %>
         <tr>
           <td><%= "#{legislator.name}" %></td>
