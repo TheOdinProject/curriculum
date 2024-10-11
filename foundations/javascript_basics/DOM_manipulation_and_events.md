@@ -52,8 +52,8 @@ console.log(display);  // <div class="display"></div>
 const controls = document.querySelector(".controls");
 
 // selects the prior sibling => .display
-const previousSibling = controls.previousElementSibling;
-console.log(previousSibling);  // logs the selected previous sibling element
+const display = controls.previousElementSibling;
+console.log(display); // <div class="display"></div>
 ```
 
 So you're identifying a certain node based on its relationships to the nodes around it.
