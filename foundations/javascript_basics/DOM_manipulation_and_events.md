@@ -42,8 +42,10 @@ You can also use relational selectors (i.e., `firstElementChild` or `lastElement
 const container = document.querySelector("#container");
 
 // selects the first child of #container => .display
-const firstChild = container.firstElementChild;
-console.log(firstChild);  // logs the selected first child element
+const display = container.firstElementChild;
+console.log(display);  // <div class="display"></div>
+
+```
 
 // selects the .controls div
 const controls = document.querySelector(".controls");
