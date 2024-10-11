@@ -47,6 +47,7 @@ console.log(display);  // <div class="display"></div>
 
 ```
 
+```javascript
 // selects the .controls div
 const controls = document.querySelector(".controls");
 
