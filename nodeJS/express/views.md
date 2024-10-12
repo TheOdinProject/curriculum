@@ -240,7 +240,7 @@ To serve `styles.css` in `index.ejs`, set the following `link` tag like so in th
 
 ```ejs
 <head>
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 ```
 
