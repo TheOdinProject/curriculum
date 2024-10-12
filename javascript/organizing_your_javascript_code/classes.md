@@ -12,10 +12,10 @@ This section contains a general overview of topics that you will learn in this l
 
 - Explain the differences between an object constructor and a class.
 - Explain what "getters" and "setters" are.
-- Understand what computed names and class fields are.
-- Describe function binding.
-- Explain how to implement private class fields and methods.
+- Describe basic class syntax.
 - Use inheritance with classes.
+- Explain how to implement private class fields and methods.
+- Explain what static properties and methods are.
 
 ### Assignment
 
@@ -40,11 +40,9 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What differences are there between object constructors and classes?](https://javascript.info/class#not-just-a-syntactic-sugar)
 - [What are "getters" & "setters"?](https://javascript.info/property-accessors)
-- [What are computed names and class fields?](https://javascript.info/class)
-- [What is function binding?](https://javascript.info/class)
-- [What are static properties?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
-- [What are some private class features?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
 - [How is inheritance used with classes?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#inheritance)
+- [What are some private class features?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
+- [What are static properties?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
 
 ### Additional resources
 
