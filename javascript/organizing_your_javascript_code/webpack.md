@@ -259,7 +259,13 @@ There are three different ways you could be dealing with local image files:
 
 1. **Image files we reference in our HTML template, e.g. as the `src` of an `<img>`**
 
-   We need to install and tell Webpack to use something called `html-loader`, which will detect image file paths in our HTML template and load the right image files for us. Without this, `./odin.png` would just be a bit of text that will no longer reference the correct file once we run Webpack to build into `dist`. We can install it with `npm install --save-dev html-loader`, then add the following object to the `modules.rules` array within `webpack.config.js`:
+   We need to install and tell Webpack to use something called `html-loader`, which will detect image file paths in our HTML template and load the right image files for us. Without this, `./odin.png` would just be a bit of text that will no longer reference the correct file once we run Webpack to build into `dist`. Let's install it:
+
+   ```bash
+   npm install --save-dev html-loader
+   ```
+
+   Then, add the following object to the `modules.rules` array within `webpack.config.js`:
 
    ```javascript
    {
