@@ -306,7 +306,7 @@ Sometimes, you may want to create objects that embody complex concepts rather ac
 - An object that can listen for events that happen, and respond appropriately (think of `.addEventListener` on DOM elements)
 - A "Debt" object that keeps track of a debt owed, how much has been paid, and how much of the debt is remaining.
 
-You may have trouble figuring out what kinds of properties and methods one of these objects might contain at first. One way you might conceptualize these objects might be to imagine them as little 'machines' you're making out of code.
+You may have trouble figuring out what public interface of these objects might contain at first. These sorts of things come with experience, and concepts taught in later lessons can help as well. One way you might conceptualize these objects, though, might be to imagine them as little 'machines' you're making out of code.
 
 The properties of the machine could be thought of displays that might show information such as:
 
