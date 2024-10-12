@@ -2,16 +2,16 @@
 
 JavaScript does *not* have classes in the same sense as other object-oriented languages like Java or Ruby. ES6, however, *did* introduce a syntax for object creation that uses the `class` keyword. It is basically a new syntax that does the *exact* same thing as the object constructors and prototypes we learned about in the constructor lesson.
 
-There has been controversy about using the class syntax, however. Opponents have argued that `class` is basically just *syntactic sugar* over the existing prototype-based constructors and that it's misleading to obscure what's *really* going on with these objects. Because of this, it sometimes trips people up who are already familiar with classes in languages that utilise classical inheritance instead of prototypal inheritance, such as Java or C#. The syntax may look familiar but is still effectively just an alternative syntax for the object constructors and prototypes we've previously covered.
+Historically, especially when ES6 was released, there was some controversy with class syntax precisely because it looks like classes from languages like Java, but in reality is only syntactic sugar over constructors and prototypes. The underlying mechanisms have not changed despite the different syntax (no classical inheritance going on) but often trips people up since the syntax isn't as explicit about what's *really* going on with these objects.
 
-Despite the historical controversy, class syntax now exists in many code bases. There aren't many new mechanisms to learn here, as it's primarily just different syntax for what we've already been able to do with object constructors and prototypes.
+Plenty of time has passed though and class syntax now exists in many code bases. There aren't many new mechanisms to learn here, mainly just new syntax for mostly familiar concepts.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain the differences between an object constructor and a class.
-- Explain what "getters" and "setters" are.
+- Explain what getters and setters are.
 - Describe basic class syntax.
 - Use inheritance with classes.
 - Explain how to implement private class fields and methods.
@@ -39,7 +39,7 @@ Go back to your [Library project](https://www.theodinproject.com/lessons/node-pa
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What differences are there between object constructors and classes?](https://javascript.info/class#not-just-a-syntactic-sugar)
-- [What are "getters" & "setters"?](https://javascript.info/property-accessors)
+- [What are getters and setters?](https://javascript.info/property-accessors)
 - [How is inheritance used with classes?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#inheritance)
 - [What are some private class features?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
 - [What are static properties?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
