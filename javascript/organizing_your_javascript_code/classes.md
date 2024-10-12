@@ -2,9 +2,9 @@
 
 JavaScript does *not* have classes in the same sense as other object-oriented languages like Java or Ruby. ES6, however, *did* introduce a syntax for object creation that uses the `class` keyword. It is basically a new syntax that does the *exact* same thing as the object constructors and prototypes we learned about in the constructor lesson.
 
-There is a bit of controversy about using the class syntax, however. Opponents argue that `class` is basically just *syntactic sugar* over the existing prototype-based constructors and that it's dangerous and/or misleading to obscure what's *really* going on with these objects. Despite the controversy, classes are beginning to crop up in real code bases that you are almost certainly going to encounter such as frameworks like React (especially if you end up working with class-based React code).
+There has been controversy about using the class syntax, however. Opponents have argued that `class` is basically just *syntactic sugar* over the existing prototype-based constructors and that it's misleading to obscure what's *really* going on with these objects. Because of this, it sometimes trips people up who are already familiar with classes in languages that utilise classical inheritance instead of prototypal inheritance, such as Java or C#. The syntax may look familiar but is still effectively just an alternative syntax for the object constructors and prototypes we've previously covered.
 
-Since we've already gone fairly in-depth with Constructors, you don't have too much left to learn here beyond the new syntax. If you choose to use classes in your code (that's fine!) you can use them much the same way as object constructors.
+Despite the historical controversy, class syntax now exists in many code bases. There aren't many new mechanisms to learn here, as it's primarily just different syntax for what we've already been able to do with object constructors and prototypes.
 
 ### Lesson overview
 
