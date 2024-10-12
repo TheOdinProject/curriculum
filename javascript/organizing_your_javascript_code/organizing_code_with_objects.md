@@ -104,7 +104,7 @@ The introductory paragraph for Object Oriented Programming on Wikipedia says thi
 
 > Object-oriented programming (OOP) is a programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods). In OOP, computer programs are designed by making them out of objects that interact with one another.
 
-Essentially, what this means is that code can be organized into objects that contain not only data, but also **methods** (or functions on an object) that interact with that data.
+Essentially, what this means is that code can be organized into objects that contain not only data, but also **methods** (or functions in an object) that interact with that data.
 
 Nearly *anything* you can think about can be described as an object. To do so, all you have to do is ask yourself is "What properties (physical or conceptual) does my thing have?", and "How can I interact with it?". The properties or attributes of a *thing* are expressed as properties, and the ways you can interact with that thing are expressed as methods.
 
