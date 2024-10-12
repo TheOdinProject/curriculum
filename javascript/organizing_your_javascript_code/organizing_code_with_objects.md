@@ -49,7 +49,7 @@ myObject[variable];
 
 ### Objects as a data structure
 
-You've already been introduced to the basic use of a JavaScript object- storing related information with key/value pairs. This is one of the simplest ways you can begin to organize your code! Take these examples from a 'tic tac toe' game:
+You've already been introduced to the basic use of a JavaScript object - storing related information with key/value pairs. This is one of the simplest ways you can begin to organize your code! Take these examples from a 'tic tac toe' game:
 
 ```javascript
 // example one
@@ -98,7 +98,7 @@ Or, what if we aren't making a 2 player game, but something more complicated suc
 
 ### Objects as a design pattern
 
-The grouping power of objects isn't just useful for organizing data- it's useful for organizing *functionality* as well! Using objects for this purpose is one of the core tenants of Object Oriented Programming (OOP).
+The grouping power of objects isn't just useful for organizing data - it's useful for organizing *functionality* as well! Using objects for this purpose is one of the core tenants of Object Oriented Programming (OOP).
 
 The inroductory paragraph for Object Oriented Programming on Wikipedia says this:
 
@@ -108,7 +108,7 @@ Essentially, what this means is that code can be organized into objects that con
 
 Nearly *anything* you can think about can be described as an object. To do so, all you have to do is ask yourself is "What properties (physical or conceptual) does my thing have?", and "How can I interact with it?". The properties or attributes of a *thing* are expressed as properties, and the ways you can interact with that thing are expressed as methods.
 
-Let's take an example of some *thing*- we'll choose a lightbulb. A lightbulb can have a color, and it can be in either an 'on' state, or an 'off' state. These might be expressed as properties of a lightbulb object:
+Let's take an example of some *thing* - we'll choose a lightbulb. A lightbulb can have a color, and it can be in either an 'on' state, or an 'off' state. These might be expressed as properties of a lightbulb object:
 
 ```javascript
 const lightbulb = {
@@ -292,7 +292,7 @@ Another name for these might also be **private properties**/**private methods**,
 
 Private properties/methods aren't strictly required, but they can help make the intended use of the object more understandable, and when used thoughtfully, even protect certain properties (like the player's scores) from being modified in ways that you may not have intended. Back off, cheaters!
 
-The methods and properties you *do* intend for others to use on your objects might be considered your object's **public interface**, or **public properties**/**public methods**. Having a good, well thought out interface on your objects is important- not only because it makes your object pleasant to use by you and others, but also to keep objects flexible and extensible in the future.
+The methods and properties you *do* intend for others to use on your objects might be considered your object's **public interface**, or **public properties**/**public methods**. Having a good, well thought out interface on your objects is important - not only because it makes your object pleasant to use by you and others, but also to keep objects flexible and extensible in the future.
 
 This idea of grouping related functionality within an object is *extremely powerful*, and can often result in more organized, understandable code.
 
@@ -300,7 +300,7 @@ Furthermore, with the various object creation methods you'll learn throughout th
 
 ### Objects As Machines
 
-Sometimes, you may want to create objects that embody complex concepts rather actual, physical items- similar to the RPS game above. Objects can be used to represent almost anything you can think of, and it's impossible to give a comprehensive list of examples. However, a few examples might be:
+Sometimes, you may want to create objects that embody complex concepts rather actual, physical items - similar to the RPS game above. Objects can be used to represent almost anything you can think of, and it's impossible to give a comprehensive list of examples. However, a few examples might be:
 
 - An object that manages other objects, such as an "inventory" object that contains a list of items, and actions that can be done with those items.
 - An object that can listen for events that happen, and respond appropriately (think of `.addEventListener` on DOM elements)
