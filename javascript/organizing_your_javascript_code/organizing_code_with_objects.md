@@ -298,7 +298,7 @@ This idea of grouping related functionality within an object is *extremely power
 
 Furthermore, with the various object creation methods you'll learn throughout this section of the curriculum, you'll be able to easily duplicate and reuse objects like these! Imagine you have a website where users can create and play *multiple* rock-paper-scissor games at once. Managing the data and interacting with each of those games would be no sweat with objects!
 
-### Objects As Machines
+### Objects as machines
 
 Sometimes, you may want to create objects that embody complex concepts rather actual, physical items - similar to the RPS game above. Objects can be used to represent almost anything you can think of, and it's impossible to give a comprehensive list of examples. However, a few examples might be:
 
