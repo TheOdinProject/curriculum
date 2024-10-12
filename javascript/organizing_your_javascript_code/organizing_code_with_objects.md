@@ -157,7 +157,7 @@ And might also include a couple nice-to-haves
 - The ability to determine the current winning player
 - The ability to restart the game
 
-So, at it's most basic, an object that represents the game might look something like this (assuming we're playing against a computer player):
+So, at its most basic, an object that represents the game might look something like this (assuming we're playing against a computer player):
 
 ```javascript
 const rps = {
