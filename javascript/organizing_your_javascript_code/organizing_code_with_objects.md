@@ -100,7 +100,7 @@ Or, what if we aren't making a 2 player game, but something more complicated suc
 
 The grouping power of objects isn't just useful for organizing data - it's useful for organizing *functionality* as well! Using objects for this purpose is one of the core tenants of Object Oriented Programming (OOP).
 
-The inroductory paragraph for Object Oriented Programming on Wikipedia says this:
+The introductory paragraph for Object Oriented Programming on Wikipedia says this:
 
 > Object-oriented programming (OOP) is a programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods). In OOP, computer programs are designed by making them out of objects that interact with one another.
 
