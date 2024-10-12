@@ -1,6 +1,6 @@
 ### Introduction
 
-In the previous lesson, we introduced ES6 modules (ESM) and npm. While the introduction of ESM greatly mitigated some of the issues with managing individual script files and dependencies, there would still be performance issues to consider the more module files the browser would have to download individually (especially as more third-party libraries would be imported).
+In the previous lesson, we introduced ES6 modules (ESM) and npm. The introduction of ESM greatly mitigated some of the issues with managing individual script files and dependencies. However, downloading a large number of module files individually can reduce performance, especially as more third party files are imported.
 
 Fortunately, more recent web technologies have greatly improved these aspects, but bundlers still provide us with a lot of power to process and optimize our code in various ways. This power, however, does come with the small cost of needing to configure a bundler. For now, our needs are few and simple, and we can look at the basic things one at a time.
 
@@ -353,7 +353,7 @@ During this lesson, did you get a bit annoyed with having to run `npx webpack` t
 npm install --save-dev webpack-dev-server
 ```
 
-You may have used something like the Live Server VSCode extension before, where it automatically refreshes your web page whenever you save a change. `webpack-dev-server` is very similar, meaning we won't have to keep running `npx webpack` after each change we make.
+You may have used something like the Live Preview VSCode extension before, where it automatically refreshes your web page whenever you save a change. `webpack-dev-server` is very similar, meaning we won't have to keep running `npx webpack` after each change we make.
 
 It works by bundling your code behind the scenes (as if we ran `npx webpack`, but without saving the files to `dist`), and it does this every time you save a file that's used in the bundle. We can also use something called a **source map** so that any error messages reference files and lines from our development code and not the jumbled mess inside our single bundled `.js` file!
 

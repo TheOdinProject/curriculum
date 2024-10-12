@@ -47,7 +47,7 @@ Save and open this file up in a web browser and then open up the browser's conso
 1. Click on "Inspect" or "Inspect Element" to open the Developer Tools.
 1. Find and select the "Console" tab, where you should see the output of our `console.log` statement.
 
-**Tip:** You can use ["Live Server" extension in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to automatically update the browser when you save your file instead of having to manually refresh the page to see any changes when you edit your code. Try edit the text to say something different!
+**Tip:** You can use [Live Preview extension in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) to automatically update the browser when you save your file instead of having to manually refresh the page to see any changes when you edit your code. Try edit the text to say something different!
 
 `console.log()` is the command to print something to the developer console in your browser. You can use this to print the results from any of the following articles and exercises to the console. We encourage you to code along with all of the examples in this and future lessons.
 
@@ -132,7 +132,7 @@ Try the following exercises (and don't forget to use `console.log()`!):
     - Type this statement at the top of the script tag: `let a = 10`
     - In the console `console.log(a)` should print `10`
     - Try the following in the console: `9 * a`
-    - and this: `let b = 7 * a` (returns `undefined` \*) and then `console.log(b)`
+    - Now try typing this in the console: `let b = 7 * a` (returns `undefined` \*) and then `console.log(b)`
 1. Try this sequence:
     - Declare a constant variable `max` with the value `57`
     - Set another variable `actual` to `max - 13`
@@ -142,6 +142,7 @@ Try the following exercises (and don't forget to use `console.log()`!):
 
 Go through the following articles to deepen your knowledge.
 
+1. Read up on [variables in JavaScript](https://javascript.info/variables#variable-naming) from JavaScript.info.
 1. This W3Schools lesson on [JavaScript arithmetic](https://www.w3schools.com/js/js_arithmetic.asp) followed by this on [JavaScript numbers](https://www.w3schools.com/js/js_numbers.asp), are good introductions to what you can accomplish with numbers in JavaScript.
 1. This MDN article on [JavaScript math](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view, while also teaching you how to apply some basic math in JavaScript. There's much more that you can do with numbers, but this is all you need at the moment.
 1. Read through \(and code along with!\) this article on [JavaScript operators](http://javascript.info/operators).  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.

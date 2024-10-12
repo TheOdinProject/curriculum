@@ -58,7 +58,7 @@ A middleware function typically takes three arguments (however, there is one tha
 
 - `req` - The request object, which represents the incoming HTTP request.
 - `res` - The response object, which represents the HTTP response that will be sent back to the client.
-- `next` - The function that pass the control to the next middleware function in the chain (we'll get to this later). This is optional.
+- `next` - The function that passes the control to the next middleware function in the chain (we'll get to this later). This is optional.
 
 <div class="lesson-note" markdown="1">
 

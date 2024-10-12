@@ -129,7 +129,7 @@ The whole point of authentication is to make sure that the user is who they say 
 
 A related concept is authorization.  Yes, you may be signed in, but are you actually authorized to access what you're trying to access?  The typical example is the difference between a regular user and an admin user.  They both authenticate with the system but only the admin is authorized to make changes to certain things.
 
-Authentication and authorization go hand in hand -- you first authenticate someone so you know who they are and can check if they're authorized to view a page or perform an action.  When you build your app, you'll have a system of authentication to get the user signed in and to verify the user is who they says they are.  You authorize the user to do certain things (like delete stuff) based on which methods are protected by controller filters that require signin or elevated permissions (e.g. admin status).
+Authentication and authorization go hand in hand -- you first authenticate someone so you know who they are and can check if they're authorized to view a page or perform an action.  When you build your app, you'll have a system of authentication to get the user signed in and to verify the user is who they say they are.  You authorize the user to do certain things (like delete stuff) based on which methods are protected by controller filters that require signin or elevated permissions (e.g. admin status).
 
 ### Basic and digest authentication
 
