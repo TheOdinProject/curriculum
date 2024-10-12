@@ -1,6 +1,17 @@
 ### Introduction
 
-In our JavaScript fundamentals course, you should have learned the [basics of using objects](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/fundamentals-part-5) to store and retrieve data. Let's start with a little refresher.
+In our JavaScript fundamentals course, you should have learned the [basics of using objects](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/fundamentals-part-5) to store and retrieve data. In this lesson, we'll start with a little refresher, then explore using objects in more detail.
+
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Using objects to organize data.
+- Using objects to organize functionality.
+- Object methods and the `this` keyword.
+- Public and private interfaces.
+
+### Refresher
 
 There are multiple ways to define objects, but in many cases **object literal** syntax is used as follows:
 
@@ -27,23 +38,14 @@ myObject["obnoxious property"]; // [Function]
 Which method you use will depend on context. Dot notation is cleaner and is usually preferred, but there are plenty of circumstances when it is not possible to use it. For example, `myObject."obnoxious property"` won't work because that property is a string with a space in it. Likewise, you cannot use variables in dot notation:
 
 ```javascript
-const variable = 'property';
+const variable = "property";
 
-myObject.variable; // this gives us 'undefined' because it's looking for a property named 'variable' in our object
+// 'undefined' because it's looking for a property named 'variable' in our object
+myObject.variable; 
 
-myObject[variable]; // this is equivalent to myObject['property'] and returns 'Value!'
+// this is equivalent to myObject['property'] and returns 'Value!'
+myObject[variable]; 
 ```
-
-If you are feeling rusty on using objects, now might be a good time to go back and review the content in our [object basics lesson](https://www.theodinproject.com/lessons/foundations-object-basics) from our JavaScript Basics course.
-
-### Lesson overview
-
-This section contains a general overview of topics that you will learn in this lesson.
-
-- Using objects to organize data.
-- Using objects to organize functionality.
-- Object methods and the `this` keyword
-- Public and private interfaces
 
 ### Objects as a data structure
 
