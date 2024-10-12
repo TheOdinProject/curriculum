@@ -326,7 +326,7 @@ Again, objects can be used to represent almost anything you can think of, the li
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Check out this [video explanation](https://www.youtube.com/watch?v=cwChC4BQF0Q) on the `this` keyword from DevSage that gives a different perspective on how its context changes, as well as scenarios in which `this` behaves unexpectedly. Don't worry too much about the part on constructor functions at the end, as they will be covered in another lesson.
+1. Check out [DevSage's video explanation of the `this` keyword](https://www.youtube.com/watch?v=cwChC4BQF0Q) that gives a different perspective on how its context changes, as well as scenarios in which `this` behaves unexpectedly. Don't worry too much about the part on constructor functions at the end, as they will be covered in another lesson.
 
 1. Try modelling the behavior of a piggy bank as an object:
    1. You should be able to interact with the object via a method that allows you to deposit coins.
