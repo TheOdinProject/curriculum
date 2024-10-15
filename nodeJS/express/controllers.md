@@ -155,7 +155,7 @@ const db = require("../db");
 async function getAuthorById(req, res) {
   const { authorId } = req.params;
 
-  const author = await db.getAuthorById(authorId);
+  const author = await db.getAuthorById(Number(authorId));
 
   if (!author) {
     res.status(404).send("Author not found");
@@ -204,7 +204,7 @@ async function getAuthorById(req, res) {
   const { authorId } = req.params;
 
   try {
-    const author = await db.getAuthorById(authorId);
+    const author = await db.getAuthorById(Number(authorId));
 
     if (!author) {
       res.status(404).send("Author not found");
@@ -232,7 +232,7 @@ const asyncHandler = require("express-async-handler");
 const getAuthorById = asyncHandler(async (req, res) => {
   const { authorId } = req.params;
 
-  const author = await db.getAuthorById(authorId);
+  const author = await db.getAuthorById(Number(authorId));
 
   if (!author) {
     res.status(404).send("Author not found");
@@ -313,7 +313,7 @@ const CustomNotFoundError = require("../errors/CustomNotFoundError");
 const getAuthorById = asyncHandler(async (req, res) => {
   const { authorId } = req.params;
 
-  const author = await db.getAuthorById(authorId);
+  const author = await db.getAuthorById(Number(authorId));
 
   if (!author) {
     throw new CustomNotFoundError("Author not found");
