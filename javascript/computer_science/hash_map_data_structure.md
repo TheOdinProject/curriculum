@@ -154,7 +154,7 @@ You probably understand by this point why we must write a good hashing function 
 
 ### Growth of a hash table
 
-Let's talk about the growth of our buckets. We don't have infinite memory, so we can't have the infinite number of buckets. We need to start somewhere, but starting too big is also a waste of memory if we're only going to have a hash map with a single value in it. So to deal with this issue, we should start with a small array for our buckets. We'll use an array size `16`.
+Let's talk about the growth of our buckets. We don't have infinite memory, so we can't have infinite number of buckets. We need to start somewhere, but starting too big is also a waste of memory if we're only going to have a hash map with a single value in it. So to deal with this issue, we should start with a small array for our buckets. We'll use an array of size `16`.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
