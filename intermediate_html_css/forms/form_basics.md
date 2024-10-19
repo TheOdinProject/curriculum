@@ -23,15 +23,35 @@ Later in the curriculum, we will learn to hook backend systems up to frontend fo
 The second is the `method` attribute which tells the browser [which HTTP request method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) it should use to submit the form.
 The GET and POST request methods are the two you will find yourself using the most.
 
-We use GET when we want to retrieve something from a server. For example, Google uses a GET request when you search as it *gets* the search results.
+We use GET when we want to retrieve something from a server. In the **GET** method, form data is appended to the URL as query parameters. For example, if you search for "HTML forms" on a site using GET, the URL might look like this:
+```
+https://example.com/search?q=HTML+forms
+```
+Here, the form's input (`q=HTML+forms`) is visible in the URL. This is useful for bookmarking or sharing, but not secure for sensitive data like passwords or personal details. Additionally, the URL has a character limit, restricting how much data can be sent.
 
-POST is used when we want to change something on the server, for example, when a user makes an account or makes a payment on a website.
-
-The markup for creating a form element looks like this:
+POST is used when we want to change something on the server, for example, when a user makes an account or makes a payment on a website.In the **POST** method, form data is sent in the request body rather than the URL, so it is not visible in the address bar. For example, when submitting a login form:
 
 ```html
-<form action="example.com/path" method="post">
+<form action="https://example.com/login" method="post">
+  <input type="text" name="username">
+  <input type="password" name="password">
+  <input type="submit" value="Log In">
+</form>
+```
+The submitted data is sent in the request body like this:
+```
+POST /login HTTP/1.1
+Host: example.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 40
 
+username=JohnDoe&password=securePassword123
+```
+This makes POST more suitable for handling sensitive or large data, such as passwords or file uploads.
+The markup for creating a form element looks like this:
+
+```
+<form action="example.com/path" method="post">
 </form>
 ```
 
