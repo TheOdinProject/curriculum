@@ -10,6 +10,12 @@ This section contains a general overview of topics that you will learn in this l
 - Describe what you can use cookies for.
 - Explain some of the different properties of cookies.
 
+### Cookies
+
+Cookies are just little storage spaces for text. They can be used to store a whole variety of things, including (but not limited to) website choices/preferences, shopping cart info, user statistics, or data that allows you to stay logged in even when you refresh or close the browser.
+
+A server can create a cookie and send it along with its response to the client, where the client can then set that cookie. The client may then read that cookie to use that data and/or hold that cookie and attach it to any future requests to the server for it to use.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
