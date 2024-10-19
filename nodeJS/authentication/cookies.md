@@ -46,13 +46,19 @@ Determines whether or not the cookie is sent when dealing with cross-site reques
 
 <div class="lesson-content__panel" markdown="1">
 
+1. Read [MDN's docs on "Using HTTP cookies"](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies) to consolidate your understanding of cookies' use cases and attributes, as well as expand your awareness of cookie security and general practices. We will naturally explore more of these over the coming lessons.
+
 </div>
 
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
+- [What are cookies?](#introduction)
+- [What are cookies?](#introduction)
+- [Why might you need to set an expiry date on a cookie?](#expiresmaxage)
+- [How can you prevent cookies from being read via client-side JavaScript, and why might you want to prevent that?](#httponly)
+- [What does the "Secure" attribute do to a cookie?](#secure)
 
 ### Additional resources
 
