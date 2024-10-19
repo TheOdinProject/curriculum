@@ -65,7 +65,7 @@ module.exports = {
 
     Object.entries(noteBoxHeadings).forEach(([noteBoxType, headings]) => {
       headings.forEach(({ text, hashes, lineNumber }) => {
-        if (text.trim().startsWith(`#### ${capitalize(noteBoxType)}:`)) {
+        if (text.trim().startsWith(`#### ${capitalize(noteBoxType)}: `)) {
           return;
       }
 
@@ -80,7 +80,7 @@ module.exports = {
         if (firstWord !== noteBoxType) {
           onError({
             ...baseErrorInfo,
-            detail: `${noteBoxType} box heading text must start with "${noteBoxType}:"`,
+            detail: `${noteBoxType} box heading text must start with "${noteBoxType}: "`,
           });
         }
         if (hashes.length !== 4) {

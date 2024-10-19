@@ -44,7 +44,7 @@ Note box contents.
 
 <div class="lesson-note" markdown="1">
 
-#### Standard note box heading not starting with "Note:"
+#### Standard note box heading not starting with "Note: "
 
 Note box contents.
 
@@ -60,7 +60,7 @@ Note box contents.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Tip note box heading not starting with "Tip:"
+#### Tip note box heading not starting with "Tip: "
 
 Note box contents.
 
@@ -76,7 +76,7 @@ Note box contents.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-#### Warning note box heading not starting with "Warning:"
+#### Warning note box heading not starting with "Warning: "
 
 Note box contents.
 
@@ -92,7 +92,7 @@ Note box contents.
 
 <div class="lesson-note lesson-note--critical" markdown="1">
 
-#### Critical note box heading not starting with "Critical:"
+#### Critical note box heading not starting with "Critical: "
 
 Note box contents.
 
