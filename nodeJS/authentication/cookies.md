@@ -16,6 +16,18 @@ Cookies are just little storage spaces for text. They can be used to store a who
 
 A server can create a cookie and send it along with its response to the client, where the client can then set that cookie. The client may then read that cookie to use that data and/or hold that cookie and attach it to any future requests to the server for it to use.
 
+### Cookie attributes
+
+When creating cookies, various attributes can be set to customize them, such as preventing them from being accessible via JavaScript in the client, or setting an expiry date etc. There are many such attributes that you can look at in your own time but for now, let's go over some of the most important ones.
+
+#### Expires/MaxAge
+
+#### HttpOnly
+
+#### Secure
+
+#### SameSite
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
