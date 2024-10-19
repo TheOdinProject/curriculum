@@ -18,11 +18,21 @@ A server can create a cookie and send it along with its response to the client, 
 
 ### Cookie attributes
 
-When creating cookies, various attributes can be set to customize them, such as preventing them from being accessible via JavaScript in the client, or setting an expiry date etc. There are many such attributes that you can look at in your own time but for now, let's go over some of the most important ones.
+When creating cookies, various [cookie attributes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#attributes) can be set to customize them, such as preventing them from being accessible via JavaScript in the client, or setting an expiry date etc. There are many such attributes that you can look at in your own time but for now, let's go over some of the most important ones.
 
 #### Expires/MaxAge
 
+By default, cookies expire when the client shuts down (whether that's from fully leaving the website or closing the browser). Sometimes, this may be perfectly fine. In other cases, such as a cookie used for keeping you logged in, you want the cookie to stay valid even after leaving or closing the browser.
+
+Persistent cookies need to be given either an expiry date or a maximum age (if you give both then the maximum age is used and the expiry date is ignored). They will remain valid until expiry, after which they cannot be used.
+
 #### HttpOnly
+
+By default, cookies can be accessed via JavaScript in the browser via `document.cookie`. Again, this may be necessary in some cases but in others, this can be incredibly unsafe.
+
+Imagine a cookie used to keep you logged in even for when you leave and revisit a website. Now imagine you're the poor victim of a cross-site scripting (XSS) attack. All the attacker needs to do is access `document.cookie` in the malicious script and retrieve the cookie data. Now they can use that cookie data to pose as you and log into your account on their machine, even if they don't know your username or password!
+
+HttpOnly cookies will still be attached to requests sent with JavaScript on the client (e.g. `fetch()`) and you will still be able to see the cookie details in browser devtools, but they will not be accessible via client-side JavaScript like `document.cookie`, protecting against XSS atacks.
 
 #### Secure
 
