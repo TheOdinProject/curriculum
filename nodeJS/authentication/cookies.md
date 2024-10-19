@@ -9,6 +9,7 @@ This section contains a general overview of topics that you will learn in this l
 - Describe what cookies are.
 - Describe what you can use cookies for.
 - Explain some of the different attributes of cookies.
+- Explain when and why you might need to notify users for consent to use cookies.
 
 ### Cookies
 
@@ -42,6 +43,14 @@ If set, prevents the cookie from being sent with a request/response if not using
 
 Determines whether or not the cookie is sent when dealing with cross-site requests in various contexts. We will not dive into this option too much for now, as we will be using cookies in a same-site context first. Later on when we start building REST APIs and separating our server from the client, this attribute and some others will become more relevant.
 
+### Regulations and cookie consent
+
+Depending on where you live, you may have come across cookie consent banners when accessing some sites. There are some regulations, such as the [General Data Protection Regulation (GDPR)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation), that restrict the use of cookies unless certain conditions are met. Different regulations will affect different countries, such as [EU GDPR covering all European Union countries](https://thoropass.com/blog/compliance/gdpr-countries/).
+
+The exact requirements depend on the regulations for the region (if any). In the case of EU GDPR for example, restrictions apply only to cookies that are not deemed "strictly necessary" to the website's function. A cookie used solely to keep someone logged into a website is an example of a strictly necessary cookie and so will not require user consent. Cookies used as part of user data collection, such as with Google analytics, are not strictly necessary and so would require user consent alongside clear explanations of what data will be collected and how they'd be used. Such users should also be allowed to withdraw consent and opt out of those cookies.
+
+In this course, we will only be demonstrating the use of cookies for authentication purposes (strictly neccessary). Nonetheless, it's good to be generally aware of such regulations around cookies should you ever wish to use them for other purposes.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -59,6 +68,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Why might you need to set an expiry date on a cookie?](#expiresmaxage)
 - [How can you prevent cookies from being read via client-side JavaScript, and why might you want to prevent that?](#httponly)
 - [What does the "Secure" attribute do to a cookie?](#secure)
+- [Under some regulations, what kinds of cookies would require user consent before they can be used?](#regulations-and-cookie-consent)
 
 ### Additional resources
 
