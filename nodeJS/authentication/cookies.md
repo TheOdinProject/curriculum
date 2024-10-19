@@ -8,7 +8,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - Describe what cookies are.
 - Describe what you can use cookies for.
-- Explain some of the different properties of cookies.
+- Explain some of the different attributes of cookies.
 
 ### Cookies
 
@@ -18,7 +18,7 @@ A server can create a cookie and send it along with its response to the client, 
 
 ### Cookie attributes
 
-When creating cookies, various [cookie attributes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#attributes) can be set to customize them, such as preventing them from being accessible via JavaScript in the client, or setting an expiry date etc. There are many such attributes that you can look at in your own time but for now, let's go over some of the most important ones.
+When creating cookies, various optional [cookie attributes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#attributes) can be set to customize them, such as preventing them from being accessible via JavaScript in the client, or setting an expiry date etc. There are many such attributes that you can look at in your own time but for now, let's go over some of the most relevant ones for this curriculum.
 
 #### Expires/MaxAge
 
@@ -36,7 +36,11 @@ HttpOnly cookies will still be attached to requests sent with JavaScript on the 
 
 #### Secure
 
+If set, prevents the cookie from being sent with a request/response if not using HTTPS (localhost, which uses HTTP, is the only exception) which ensures the cookie won't be sent via unencrypted and insecure means.
+
 #### SameSite
+
+Determines whether or not the cookie is sent when dealing with cross-site requests in various contexts. We will not dive into this option too much for now, as we will be using cookies in a same-site context first. Later on when we start building REST APIs and separating our server from the client, this attribute and some others will become more relevant.
 
 ### Assignment
 
