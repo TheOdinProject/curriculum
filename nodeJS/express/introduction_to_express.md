@@ -32,7 +32,9 @@ const app = express();
 app.get("/", (req, res) => res.send("Hello, world!"));
 
 const PORT = 3000;
-app.listen(PORT, () => console.log(`My first Express app - listening on port ${PORT}!`));
+app.listen(PORT, () => {
+  console.log(`My first Express app - listening on port ${PORT}!`);
+});
 ```
 
 Let's break this down. We import `express` then call it to initialize the `app` variable. This is our server.

@@ -92,7 +92,7 @@ This [MDN article on combinators](https://developer.mozilla.org/en-US/docs/Learn
 
 ### Pseudo-selectors
 
-Before diving into pseudo-selectors, a quick note on the difference between [pseudo-elements and pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). <span id="syntax-exist-knowledge-check">Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that *don't* normally exist in the markup.</span> If that doesn't make sense straight away, don't worry - we'll explore some examples below.
+Before diving into pseudo-selectors, a quick note on the difference between [pseudo-classes and pseudo-elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). <span id="syntax-exist-knowledge-check">Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that *don't* normally exist in the markup.</span> If that doesn't make sense straight away, don't worry - we'll explore some examples below.
 
 ### Pseudo-classes
 
