@@ -103,7 +103,7 @@ GitHub allows you to publish web projects directly from a GitHub repository. Doi
 
 <div class="lesson-note">
 
-A GitHub paid account is required to publish a private repository.
+A GitHub paid account is required to publish web projects from a private repository. Free accounts can only publish from public repositories.
 
 </div>
 
