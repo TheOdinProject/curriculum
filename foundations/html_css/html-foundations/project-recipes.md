@@ -14,7 +14,7 @@ As mentioned in the [Introduction to Git lesson](https://www.theodinproject.com/
 
 GitHub allows us to make changes directly on its site. If you do this after you have cloned the repository to your machine, it will cause your local code to be a version behind the remote, creating extra challenges when you push your work. Most of the time, you should be creating files locally.
 
- As you progress in the course, you'll learn how to handle these situations, but for now, it's important to follow the instructions carefully to stay on the simple path.
+As you progress in the course, you'll learn how to handle these situations, but for now, it's important to follow the instructions carefully to stay on the simple path.
 
 </div>
 
@@ -57,14 +57,14 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 1. Within the `odin-recipes` directory, create an `index.html` file.
 1. Fill it out with the usual boilerplate HTML and add an `h1` heading "Odin Recipes" to the body.
 
-#### Iteration 2:  recipe page
+#### Iteration 2: recipe page
 
 1. Create a new directory within the `odin-recipes` directory and name it `recipes`.
-1. Create a new HTML file within the  `recipes` directory and name it after the recipe it will contain. For example `lasagna.html`. You can use the name of your favorite dish or, if you need some inspiration, you can find a recipe to use at [Allrecipes](https://www.allrecipes.com/). Be sure to include the usual boilerplate HTML. This boilerplate code should be in every `.html` file you create.
+1. Create a new HTML file within the `recipes` directory and name it after the recipe it will contain. For example `lasagna.html`. You can use the name of your favorite dish or, if you need some inspiration, you can find a recipe to use at [Allrecipes](https://www.allrecipes.com/). Be sure to include the usual boilerplate HTML. This boilerplate code should be in every `.html` file you create.
 1. For now, just include an `h1` heading with the recipe's name as its content.
 1. Back in the `index.html` file, add a link to the recipe page you just created. Example: Under the `<h1>Odin Recipes</h1>` heading, write out the link like so: `<a href="recipes/recipename.html">Recipe Title</a>`. The text of the link should again be the recipe name.
 
-#### Iteration 3:  recipe page content
+#### Iteration 3: recipe page content
 
 Your new recipe page should have the following content:
 
@@ -84,13 +84,13 @@ Your new recipe page should have the following content:
 Example:
 
 ```html
- <ul>
-    <li><a href="recipes/yourrecipe.html">Recipe Title 1</a></li>
-    <li><a href="recipes/yourrecipe.html">Recipe Title 2</a></li>
-    <li><a href="recipes/yourrecipe.html">Recipe Title 3</a></li>
-  </ul>
+<ul>
+	<li><a href="recipes/yourrecipe.html">Recipe Title 1</a></li>
+	<li><a href="recipes/yourrecipe.html">Recipe Title 2</a></li>
+	<li><a href="recipes/yourrecipe.html">Recipe Title 3</a></li>
+</ul>
 ```
-  
+
 Your links won't be flashy, but for now, just focus on building them out.
 
 </div>
@@ -101,21 +101,15 @@ If you want to show your work (the project) to others, or submit a solution belo
 
 GitHub allows you to publish web projects directly from a GitHub repository. Doing this will allow you to access your project from `your-github-username.github.io/your-github-repo-name`.
 
-<div class="lesson-note">
-
-A GitHub paid account is required to publish a private repository.
-
-</div>
-
 There are a couple of ways to go about doing this, but the simplest is this:
 
 - Make sure that the main HTML file of your project is called `index.html`. If it is not, you will need to rename it.
 - Go to your GitHub repo on the web and click the **Settings** button as shown in the screenshot below.
-    ![Screenshot pointing to the Settings located in an example repository](https://cdn.statically.io/gh/TheOdinProject/curriculum/90b1a362af0bb8635af9593cd8911c9aefb68569/foundations/html_css/html-foundations/imgs/01.png)
+  ![Screenshot pointing to the Settings located in an example repository](https://cdn.statically.io/gh/TheOdinProject/curriculum/90b1a362af0bb8635af9593cd8911c9aefb68569/foundations/html_css/html-foundations/imgs/01.png)
 - Click on **Pages** on the left side bar.
-- Change the **Branch** from *none* to *main branch* and click **Save**.
+- Change the **Branch** from _none_ to _main branch_ and click **Save**.
 - It may take a few minutes (The GitHub website says up to 10, but we've seen it take up to an hour. Do not add a "theme" to your project, or you may have git conflicts, instead, be patient.) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
-- If your project does not publish after 1 hour, ensure that you have a file called `index.html` in the root of your repository and all the settings have been set correctly.  Go to your repo on GitHub and click on Actions, if there are no entries, then go back to the settings, change the **Branch** from *main branch* to *none* and click **Save**, then change the **Branch** from *none* to *main branch* and click **Save**.
+- If your project does not publish after 1 hour, ensure that you have a file called `index.html` in the root of your repository and all the settings have been set correctly. Go to your repo on GitHub and click on Actions, if there are no entries, then go back to the settings, change the **Branch** from _main branch_ to _none_ and click **Save**, then change the **Branch** from _none_ to _main branch_ and click **Save**.
 
 <div class="lesson-note" markdown="1">
 
