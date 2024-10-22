@@ -101,7 +101,7 @@ Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which re
   SELECT users.id, users.name, COUNT(posts.id) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
-  GROUP BY users.id;
+  GROUP BY users.id, users.name;
 ```
 
 See [W3Schools' browser-based SQL playground](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) for an interactive visual.
@@ -112,7 +112,7 @@ The last nifty trick is if you want to only display a subset of your data.  In a
   SELECT users.id, users.name, COUNT(posts.id) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
-  GROUP BY users.id
+  GROUP BY users.id, users.name
   HAVING posts_written >= 10;
 ```
 
