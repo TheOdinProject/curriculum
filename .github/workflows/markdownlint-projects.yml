@@ -3,6 +3,7 @@ on:
   pull_request:
     paths:
         - '**/project_*.md'
+        - '**/project-*.md'
         - '!*'
         - '!archive/**'
         - '!templates/**'
@@ -20,6 +21,7 @@ jobs:
             with:
               files: |
                 **/project_*.md
+                **/project-*.md
                 !*
                 !archive/**
                 !templates/**
