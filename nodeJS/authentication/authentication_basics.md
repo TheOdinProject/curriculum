@@ -49,6 +49,7 @@ For the moment we are saving our users with just a plain text password. This is 
 ```javascript
 /////// app.js
 
+const path = require("path");
 const { Pool } = require("pg");
 const express = require("express");
 const session = require("express-session");
@@ -60,7 +61,7 @@ const pool = new Pool({
 });
 
 const app = express();
-app.set("views", __dirname);
+app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 app.use(session({ secret: "cats", resave: false, saveUninitialized: false }));
