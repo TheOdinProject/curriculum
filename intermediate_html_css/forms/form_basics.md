@@ -160,7 +160,7 @@ A password input can be created using an input element with a type of "password"
 <input type="password" id="user_password" name="password">
 ```
 
-The `number input` only accepts number values and ignores any other characters the user tries to enter.
+The `number` input only accepts number values and ignores any other characters the user tries to enter.
 
 We create a number input using the input element with a `type` attribute of "number":
 
