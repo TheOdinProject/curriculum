@@ -18,7 +18,7 @@ Nexus was the first of its kind, and allowed users to view basic style sheets, r
 
 The release of Nexus was just the beginning though, as in the next decade people witnessed the first releases of browsers such as Mosaic Browser, which quickly gained popularity and became the most popular browser on the globe. From there, the growth of the World Wide Web exploded with the releases of Opera and Netscape Navigator browsers.
 
-In 1995 the world got introduced to the first version of Microsoft Edge, which became the dominant player in the market. At some point, Microsoft Edge was used by more than 90% of all users. To counter this dominance, Netscape launched what would become Mozilla Foundation which develops and maintains Firefox. Soon after that, in 2003, Apple launched Safari, and in 2008, Google launched Chrome.
+In 1995 the world got introduced to the first version of Internet Explorer, which became the dominant player in the market. At some point, Microsoft Edge was used by more than 90% of all users. To counter this dominance, Netscape launched what would become Mozilla Foundation which develops and maintains Firefox. Soon after that, in 2003, Apple launched Safari, and in 2008, Google launched Chrome.
 
 You're most likely familiar with most, if not all these names.<span id="most-used-browser"> There is a lot of [competition among browsers](https://www.youtube.com/watch?v=W4wWdmfOibY) still to this day, even though Chrome (and [Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser))) is the dominant player in the market</span>.
 
@@ -30,7 +30,7 @@ As companies compete for market share, different browsers are using different en
 
 Because of these differences, your applications may behave differently in the browser. Due to Chrome dominance, the vast majority of applications are designed to work smoothly with Chromium, and providing as good a level of performance in other browsers is secondary.
 
-For your web development projects to have a broader reach, you must make sure that you're testing your web applications against browsers which are most likely to be used by users. Chrome, Safari, Firefox, and other Chromium-based browsers (Microsoft Edge, Brave, etc.) are more common among regular users. But you may find you need to support less common ones (like Microsoft Edge) as well depending on the user base or the company you work for. For Chromium browsers, if it works in Chrome, it should work in other related browsers as well.
+For your web development projects to have a broader reach, you must make sure that you're testing your web applications against browsers which are most likely to be used by users. Chrome, Safari, Firefox, and other Chromium-based browsers (Microsoft Edge, Brave, etc.) are more common among regular users. But you may find you need to support less common ones (like Internet Explorer) as well depending on the user base or the company you work for. For Chromium browsers, if it works in Chrome, it should work in other related browsers as well.
 
 ### Browser releases and new CSS features
 
