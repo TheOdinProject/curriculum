@@ -151,12 +151,6 @@ GitHub recently changed the default branch on new repositories from `master` to 
 git config --global init.defaultBranch main
 ```
 
-To enable colorful output with `git`, type
-
-```bash
-git config --global color.ui auto
-```
-
 You'll also likely want to set your default branch reconciliation behavior to merging. You'll learn what all those terms mean later in the curriculum, but for now just know that we suggest running the below command as part of the Git setup process when doing The Odin Project.
 
 ```bash
