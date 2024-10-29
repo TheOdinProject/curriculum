@@ -288,7 +288,7 @@ You should use an `unless` statement when you want to **not** do something if a 
 
 The ternary operator is a one-line `if...else` statement that can make your code much more concise.
 
-Its syntax is `conditional statement ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable.
+Its syntax is `logical statement ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable.
 
 ```ruby
 age = 19
