@@ -19,4 +19,4 @@ A quick web-search on the topic will be more useful than any explanations here, 
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Check out this article by Tobias Ahlin on [writing jQuery functions in vanilla JavaScript](https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/), that compares jQuery functions with new JavaScript ones.
