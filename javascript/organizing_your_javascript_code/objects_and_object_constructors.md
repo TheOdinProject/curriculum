@@ -201,7 +201,7 @@ Here, we defined the `.sayHello` function 'on' the `Player.prototype` object. It
 
 #### Object.getPrototypeOf() vs. .\_\_proto__ vs. [[Prototype]]
 
-Unlike what we have done so far using `Object.getPrototypeOf()` to access an object's `prototype`, the same thing can also be done using the `.__proto__` property of the object. However, this is a non-standard way of doing so, and [deprecated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto). Hence, it is not recommended to access an object's `prototype` by using this property. However, the same code can thus be rewritten to become:
+What we have done so far using `Object.getPrototypeOf()` to access an object's `prototype` can also be done using the `.__proto__` property of the object. However, this is a non-standard way of doing so, and [deprecated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto). Hence, it is not recommended to access an object's `prototype` by using this property. However, the same code can thus be rewritten to become:
 
 ```javascript
 // Don't do this!
