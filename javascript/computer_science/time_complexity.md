@@ -51,7 +51,7 @@ Let's go back to our `oddNumbersLessThanTen function`. How many steps does our a
 1. We have a loop. For each iteration of the loop, we do the following:
 
     1. Compare `currentNumber` to see if it is less than 10. That is 1 step.
-    1. We then check if currentNumber is odd. That is 1 step.
+    1. We then check if `currentNumber` is odd. That is 1 step.
     1. If it is then we output it to the terminal. That's 1 step every 2 iterations.
     1. We increase `currentNumber` by 1. That is 1 step.
 
