@@ -1,6 +1,6 @@
 ### Introduction
 
-You already know the magic behind hash maps; now it's time to write your own implementation!
+You already know the magic behind hash maps. Now it's time to write your own implementation!
 
 #### Limitation
 
