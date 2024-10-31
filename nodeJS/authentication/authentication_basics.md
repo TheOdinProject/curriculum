@@ -49,7 +49,7 @@ For the moment we are saving our users with just a plain text password. This is 
 ```javascript
 /////// app.js
 
-const path = require("path");
+const path = require("node:path");
 const { Pool } = require("pg");
 const express = require("express");
 const session = require("express-session");
