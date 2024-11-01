@@ -80,8 +80,8 @@
     // Disabled as it uses a different heading conversion algo to the TOP website
     "MD051": false
     },
-    // Custom rules specific to the project
-    // Docs for each rule can be found in `./markdownlint/docs`
+  //Custom rules specific to the project
+  //Docs for each rule can be found in `./markdownlint/docs`
   "customRules": [
     "./markdownlint/TOP001_descriptiveLinkText/TOP001_descriptiveLinkText.js",
     "./markdownlint/TOP002_noCodeInHeadings/TOP002_noCodeInHeadings.js",
