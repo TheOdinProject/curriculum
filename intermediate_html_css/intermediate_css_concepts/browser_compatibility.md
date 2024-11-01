@@ -82,4 +82,4 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Read more about the [history of web browsers](https://taskade.medium.com/history-of-web-browsers-the-evolution-of-digital-productivity-️-28fa2d4130fb).
-- Take a look at this [comprehensive primer on browsers and rendering engines](https://web.dev/articles/howbrowserswork).
+- Take a look at this article [How Web Works](https://github.com/vasanthk/how-web-works/blob/master/README.md).
