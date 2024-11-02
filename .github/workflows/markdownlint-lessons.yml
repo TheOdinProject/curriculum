@@ -5,6 +5,7 @@ on:
             - '**.md'
             - '!*'
             - '!**/project_*'
+            - '!**/project-*'
             - '!archive/**'
             - '!templates/**'
             - '!markdownlint/docs/**'
@@ -23,6 +24,7 @@ jobs:
                 **.md
                 !*
                 !**/project_*
+                !**/project-*
                 !archive/**
                 !templates/**
                 !markdownlint/docs/**
