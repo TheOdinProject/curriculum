@@ -261,7 +261,7 @@ To see what other things you can achieve with attribute selectors, such as searc
 
 1. Complete [CSS Diner](https://flukeout.github.io/). You should be familiar with most of the content in the first couple of exercises, but practice and review never hurt! Don't forget to read the examples and explanations on the right.
 1. Read [Shay Howe's article on Complex Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/). This covers most of the content of this lesson in a bit more detail. As stated in their article, they sometimes use a single colon instead of a double one for pseudo-elements. Please keep in mind that the double colon is now the standard.
-
+1. Complete [CSS Speedrun](https://css-speedrun.netlify.app/) as a review of everything you've learned.
 </div>
 
 ### Knowledge check
