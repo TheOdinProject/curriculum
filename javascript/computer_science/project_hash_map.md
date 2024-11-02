@@ -51,7 +51,7 @@ if (index < 0 || index >= buckets.length) {
 
       Recall that collisions occur when *TWO DIFFERENT* keys generate the same hash code and get assigned to the same bucket. (e.g. `Carlos` and `Carla` are both hashed to `3`, so `3` becomes a location for `Carlos` AND `Carla`. However, we know that this is not an update because the keys are different). Review the [dealing with collisions](https://www.theodinproject.com/lessons/javascript-hashmap-data-structure#collisions) section of the previous lesson to find a way to handle our collisions.
 
-      - Remember to grow your buckets when your hash map reaches the `load factor` by copying its contents to a new hash map with double the previous capacity. The methods mentioned later in this assignment can help you handle the growth logic, so you may want to implement this feature near the end. However, we mention this with `set()` because it's important to grow buckets exactly as they are being expanded.
+      - Remember to grow your buckets to double their capacity when your hash map reaches the `load factor`. The methods mentioned later in this assignment can help you handle the growth logic, so you may want to implement this feature near the end. However, we mention this with `set()` because it's important to grow buckets exactly as they are being expanded.
 
   1. `get(key)` takes one argument as a key and returns the value that is assigned to this key. If a key is not found, return `null`.
 
