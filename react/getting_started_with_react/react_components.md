@@ -6,9 +6,9 @@ In this lesson we'll be going over the basics of React components - what they do
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What are components?
-- How are components created?
-- Where do components live?
+- Learn about Reach components.
+- Understand how to create Components. 
+- Find where do components reside in a React project. 
 
 ### What are components?
 

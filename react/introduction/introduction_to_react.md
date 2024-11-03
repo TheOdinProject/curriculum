@@ -8,7 +8,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - Understand what React is
 
-### What is React?
+### Get familiar with React and its key features.
 
 According to the [React](https://react.dev/) website, React is "The library for web and native interfaces." However, let's break this down a bit further.
 

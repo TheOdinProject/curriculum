@@ -6,13 +6,12 @@ Up until this point in the curriculum, we have been building one-page applicatio
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is client-side routing?
-- How do you use React Router to do client-side routing?
-- How do you create nested and dynamic paths?
-- How do you add a "catch-all" route?
-- How do you pass data from a parent to any child components rendered via an outlet?
-- How do you add protected routes?
-
+- Understand what client-side routing is.
+- Learn how to use React Router for client-side routing.
+- Explore how to create nested and dynamic paths in React Router.
+- Discover how to add a 'catch-all' route in React Router.
+- Learn how to pass data from a parent component to any child components rendered via an outlet.
+- Understand how to implement protected routes in React Router.
 ### Client-side routing
 
 Client-side routing is the type of routing where JavaScript takes over the duty of handling the routes in an application. Client-side routing helps in building single-page applications (SPAs) without refreshing as the user navigates. For example, when a user clicks a navbar element, the URL changes and the view of the page is modified accordingly, within the client.
