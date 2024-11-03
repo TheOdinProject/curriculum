@@ -340,7 +340,7 @@ Again, objects can be used to represent almost anything you can think of, the li
       - Ensure you can still get the correct savings after removing coins!
    1. Lastly, create a way to remove all the money from the jar and start fresh.
 
-1. Try to model something else as an object! Try to keep it simple. When you're done, consider showing off what you've created on [The Odin Project's Discord Channel](https://discord.com/invite/fbFCkYabZB), and tell us how you're feeling about the idea of organizing code into objects.
+1. Try to model something else as an object! Try to keep it simple, but have fun with it!
 
 #### Extra credit
 
