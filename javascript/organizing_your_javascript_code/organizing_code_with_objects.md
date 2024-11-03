@@ -52,13 +52,13 @@ myObject[variable];
 You've already been introduced to the basic use of a JavaScript object - storing related information with key/value pairs. This is one of the simplest ways you can begin to organize your code! Take these examples from a 'tic tac toe' game:
 
 ```javascript
-// example one
+// without objects
 const playerOneName = "tim";
 const playerTwoName = "jenn";
 const playerOneMarker = "X";
 const playerTwoMarker = "O";
 
-// example two
+// with objects
 const playerOne = {
   name: "tim",
   marker: "X"
