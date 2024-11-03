@@ -258,7 +258,7 @@ This is just the most common among several options to specify for `:dependent`. 
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read the [Rails Guide on Associations](http://guides.rubyonrails.org/association_basics.html).  Start by skimming sections 1 to 2.7 (which you should have already done).
+  1. Read the [Rails Guide on Associations](https://guides.rubyonrails.org/v7.1/association_basics.html).  Start by skimming sections 1 to 2.7 (which you should have already done).
   1. Read from 2.8 to the end of chapter 3.
   1. Skim chapter 4.  It contains all the methods that you gain by using various associations.  You certainly don't need to memorize the whole list, but poke through it.  You'll end up using most of them.
 
