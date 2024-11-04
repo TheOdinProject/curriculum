@@ -8,7 +8,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - Learn about React components.
 - Understand how to create components.
-- Describe where components reside in a React projects.
+- Describe where components reside in a React project.
 
 ### What are components?
 
