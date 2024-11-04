@@ -140,7 +140,7 @@ We will need to manipulate data from form controls like this in projects later i
 
 #### The type attribute
 
-`Email inputs` are specialized text inputs just for email addresses. They are different from text inputs in that they will display a different keyboard which will include the @ symbol on mobile devices to make entering email addresses easier.
+`Email` inputs are specialized text inputs just for email addresses. They are different from text inputs in that they will display a different keyboard which will include the @ symbol on mobile devices to make entering email addresses easier.
 
 They also validate that the user has entered a correctly formatted email address, but there will be more on validations later.
 
@@ -151,7 +151,7 @@ To create an email input, we use an input element with `type` attribute of "emai
 <input type="email" id="user_email" name="email" placeholder="you@example.com">
 ```
 
-`Password inputs` are another specialized text input. They differ from regular text inputs in that they mask the inputted data with another character – usually an asterisk (*) or bullet point (•) – to prevent anyone from seeing what has been entered.
+`Password` inputs are another specialized text input. They differ from regular text inputs in that they mask the inputted data with another character – usually an asterisk (*) or bullet point (•) – to prevent anyone from seeing what has been entered.
 
 A password input can be created using an input element with a type of "password":
 
@@ -160,7 +160,7 @@ A password input can be created using an input element with a type of "password"
 <input type="password" id="user_password" name="password">
 ```
 
-The `number input` only accepts number values and ignores any other characters the user tries to enter.
+The `number` input only accepts number values and ignores any other characters the user tries to enter.
 
 We create a number input using the input element with a `type` attribute of "number":
 
@@ -169,7 +169,7 @@ We create a number input using the input element with a `type` attribute of "num
 <input type="number" id="amount" name="amount">
 ```
 
-To collect dates from a user, we can use a `date input`. This input is unique because it provides a better user experience for choosing dates by rendering a date picker calendar.
+To collect dates from a user, we can use a `date` input. This input is unique because it provides a better user experience for choosing dates by rendering a date picker calendar.
 
 To create a date input, we use the input element with a `type` attribute of "date":
 
