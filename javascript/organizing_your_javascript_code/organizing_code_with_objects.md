@@ -176,58 +176,46 @@ const rps = {
   playerScore: 0,
   computerScore: 0,
   playRound(playerChoice) {
-    const options = ['rock', 'paper', 'scissors']
-
-    // if an invalid choice is chosen, throw an error
-    if(!options.includes(playerChoice.toLowerCase())) {
-      throw new Error(`Expected 'rock', 'paper', or 'scissors', but got ${playerChoice}`)
-    }
-    
-    // get the computer's choice
-    const computerChoice = options[Math.floor(Math.random() * 3)]
-
-
-    // determine the winner, apply points if necessary, and return who won
-    if(playerChoice.toLowerCase() === computerChoice) {
-      return "tie"
-    } else if(
-      (playerChoice === 'rock' && computerChoice === 'scissors') ||
-      (playerChoice === 'paper' && computerChoice === 'rock') ||
-      (playerChoice === 'scissors' && computerChoice === 'paper')
-    ) {
-      this.playerScore++
-      return "player"
-    } else {
-      this.computerScore++
-      return 'computer'
-    }
+    /* 
+      1. if an invalid choice is chosen, throw an error
+      2. get the computer's choice
+      3. determine the winner using the player's choice and the computer's choice
+        - apply points if necessary to the playerScore/computerScore properties
+        - return who won ('player', 'computer', or 'tie')
+     */
   },
   getWinningPlayer() {
-    if(this.playerScore === this.computerScore) {
-      return 'tie'
-    } else if (this.playerScore > this.computerScore) {
-      return 'player'
-    } else {
-      return 'computer'
-    }
+    // return the player with the most points ('player', 'computer', or 'tie')
   },
   reset() {
-    this.playerScore = 0;
-    this.computerScore = 0;
+    // reset both player's scores to 0
   }
 }
 
 rps.playRound('rock') // returns 'player' if we win...
 rps.playerScore       // ...and our score would have increased
 
-// We also have the ability to check the winner and reset the game at any time
+// We also have the ability to check the winning player and reset the game at any time
 rps.getWinningPlayer() // 'player', if we won above round
 rps.reset()
 ```
 
-You may be looking at this code and thinking that you personally prefer to split your code between more functions than you see here, but also recognize that those functions may not really be a useful interaction point for anyone using your object.
+Take the time to fill in the blanks for the code above, in order to make it work as the comments describe. Use your new knowledge of the `this` keyword to update the player's scores! A working object may be useful for your understanding in the following paragraphs, and provide you with a space to experiement with the ideas in this lesson.
 
-But, there is no rule saying that you can't add those functions to your object as well! A common convention is to prefix methods and properties that you don't intend other people to use with an underscore (`_`). This convention conveys to others that "These things are meant to be used internally by this object, please interact with the other available methods and properties on this object's interface instead".
+### Private methods/properties
+
+Once you've got a working object that allows you to play rounds of Rock, Paper, Scissors, you may be look at this code and feel that you personally prefer to split your code between more functions/methods than you see here, but also recognize that those functions may not really be a useful interaction point for anyone using your object.
+
+But, there is no rule saying that you can't add those functions to your object as well! A common convention is to prefix methods and properties that you don't intend other people to use with an underscore (`_`). This convention conveys to others that "These things are meant to be used internally by this object, please interact with the other available methods and properties on this object's interface instead"
+
+Another name for properties like this might be **private properties**/**private methods**, and even though object literal syntax doesn't provide a way to truly *prevent* people from accessing them, you will learn in later lessons about other methods of creating objects that *can*.
+
+Some additional methods or properties one might add to *this* object may be:
+
+- A method that grabs a random computer choice
+- A method that determines if two choices are a tie
+- A method that determines if the player is the winner
+- A list containing all the valid choices
 
 Let's see what that looks like!
 
@@ -235,62 +223,27 @@ Let's see what that looks like!
 const rps = {
   _options: ['rock', 'paper', 'scissors'],
   _getRandomChoice() {
-    const randomIndex = Math.floor(Math.random() * 3)
-    return this._options[randomIndex]
+    // returns 'rock', 'paper', or 'scissors' randomly
   },
-  _isTie(playerChoice, computerChoice) {return playerChoice === computerChoice},
+  _isTie(playerChoice, computerChoice) {
+    // determines if two choices are a tie, and returns `true` or `false`
+  },
   _isPlayerWinner(playerChoice, computerChoice) {
-    if(
-      (playerChoice === 'rock' && computerChoice === 'scissors') ||
-      (playerChoice === 'paper' && computerChoice === 'rock') ||
-      (playerChoice === 'scissors' && computerChoice === 'paper')
-    ) {
-      return true
-    } else {
-      return false
-    }
+    // returns `true` if the player is the winner, and `false` if not
   },
   playerScore: 0,
   computerScore: 0,
-  playRound(playerChoice) {
-    // if an invalid choice is chosen, throw an error
-    if(!this._options.includes(playerChoice)) {
-      throw new Error(`Expected 'rock', 'paper', or 'scissors', but got ${playerChoice}`)
-    }
-    
-    // get the computer's choice
-    const computerChoice = this._getRandomChoice()
-
-    // determine the winner, apply points if necessary, and return who won
-    if(this._isTie(playerChoice, computerChoice)) {
-      return "tie"
-    } else if(this._isPlayerWinner(playerChoice, computerChoice)) {
-      this.playerScore++
-      return "player"
-    } else {
-      this.computerScore++
-      return 'computer'
-    }
-  },
-  getWinningPlayer() {
-    if(this.playerScore === this.computerScore) {
-      return 'tie'
-    } else if (this.playerScore > this.computerScore) {
-      return 'player'
-    } else {
-      return 'computer'
-    }
-  },
-  reset() {
-    this.playerScore = 0;
-    this.computerScore = 0;
-  }
+  playRound(playerChoice) {/* ... */},
+  getWinningPlayer() {/* ... */},
+  reset() {/* ... */}
 }
 ```
 
-Another name for these might also be **private properties**/**private methods**, and even though object literal syntax doesn't provide a way to truly prevent people from using them, you will later learn about other methods of creating objects that *can*.
-
 Private properties/methods aren't strictly required, but they can help make the intended use of the object more understandable, and when used thoughtfully, even protect certain properties (like the player's scores) from being modified in ways that you may not have intended. Back off, cheaters!
+
+If you feel inclined to create and use any of these new methods or properties in your previous `playRound`, `getWinningPlayer`, or `reset` methods, have at it! You may appreciate some readability gained from extracting logic out into private methods.
+
+### Public interfaces
 
 The methods and properties you *do* intend for others to use on your objects might be considered your object's **public interface**, or **public properties**/**public methods**. Having a good, well thought out interface on your objects is important - not only because it makes your object pleasant to use by you and others, but also to keep objects flexible and extensible in the future.
 
