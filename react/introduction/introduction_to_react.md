@@ -6,9 +6,9 @@ This lesson will provide you with information on what React is, its brief histor
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand what React is
+- Understand what React is.
 
-### Get familiar with React and its key features.
+### What is React?
 
 According to the [React](https://react.dev/) website, React is "The library for web and native interfaces." However, let's break this down a bit further.
 
@@ -50,13 +50,13 @@ To name a few reasons to learn React:
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the purpose of React?](#what-is-react)
 - [What are the benefits of using React?](#why-cover-react)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - If you are interested in learning more about React's history, check out this [documentary on React's origin story by Honeypot](https://www.youtube.com/watch?v=8pDqJVdNa44).

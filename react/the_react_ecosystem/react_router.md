@@ -12,6 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 - Discover how to add a 'catch-all' route in React Router.
 - Learn how to pass data from a parent component to any child components rendered via an outlet.
 - Understand how to implement protected routes in React Router.
+
 ### Client-side routing
 
 Client-side routing is the type of routing where JavaScript takes over the duty of handling the routes in an application. Client-side routing helps in building single-page applications (SPAs) without refreshing as the user navigates. For example, when a user clicks a navbar element, the URL changes and the view of the page is modified accordingly, within the client.
