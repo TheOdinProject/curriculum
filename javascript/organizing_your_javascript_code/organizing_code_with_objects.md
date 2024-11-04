@@ -298,6 +298,18 @@ This idea of grouping related functionality within an object is *extremely power
 
 Furthermore, with the various object creation methods you'll learn throughout this section of the curriculum, you'll be able to easily duplicate and reuse objects like these! Imagine you have a website where users can create and play *multiple* rock-paper-scissor games at once. Managing the data and interacting with each of those games would be no sweat with objects!
 
+<div class="lesson-note" markdown="1">
+
+#### Should I use methods to modify properties, or modify them directly?
+
+When using objects as a *data structure* to simply store related some related values together, it's probably just fine to manipulate the data within them directly.
+
+However, once you've grouped data and functionality together in an interactable object, it's best to provide dedicated methods for interacting with objects in pre-defined ways.
+
+Objects can become complicated little machines, and may rely on their properties containing particular values to act properly. Direct access can be like swapping out parts in a running computer, causing unexpected behavior. Methods can act as a safeguard that prevent incorrect values from being assigned.
+
+</div>
+
 ### Objects as machines
 
 Sometimes, you may want to create objects that embody complex concepts rather actual, physical items - similar to the RPS game above. Objects can be used to represent almost anything you can think of, and it's impossible to give a comprehensive list of examples. However, a few examples might be:
