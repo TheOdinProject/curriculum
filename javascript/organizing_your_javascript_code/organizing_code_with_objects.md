@@ -200,7 +200,7 @@ rps.getWinningPlayer() // 'player', if we won above round
 rps.reset()
 ```
 
-Take the time to fill in the blanks for the code above, in order to make it work as the comments describe. Use your new knowledge of the `this` keyword to update the player's scores! A working object may be useful for your understanding in the following paragraphs, and provide you with a space to experiement with the ideas in this lesson.
+Take the time to fill in the blanks for the code above, in order to make it work as the comments describe. Use your new knowledge of the `this` keyword to update the player's scores! A working object may be useful for your understanding in the following paragraphs, and provide you with a space to experiment with the ideas in this lesson.
 
 ### Private methods/properties
 
