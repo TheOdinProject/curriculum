@@ -8,7 +8,7 @@ We'll start with a short recap of what a components lifecycle is. There are thre
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to use lifecycle methods in a class component
+- Learn how to use lifecycle methods in a class component.
 
 ### render()
 
