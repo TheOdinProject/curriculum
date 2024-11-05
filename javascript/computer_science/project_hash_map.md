@@ -37,7 +37,7 @@ if (index < 0 || index >= buckets.length) {
 
       You are free to use that, or you can conduct your own research on hashing algorithms. Beware, this is a deep, deep rabbit hole.
 
-      However, there is one edge case our `hash` function still needs to address. For very long keys, our hash code will exceed the maximum integer value allowed by Javascript. Once that happens, calculations become inaccurate, and the chance of collisions significantly increases. One way to avoid this issue is to apply the modulo `%` operator on *each iteration* instead of outside the loop at the end. This ensures the output never becomes larger than our bucket's length.
+      However, there is one edge case our `hash` function still needs to address. For very long keys, our hash code will exceed the maximum integer value allowed by JavaScript. Once that happens, calculations become inaccurate, and the chance of collisions significantly increases. One way to avoid this issue is to apply the modulo `%` operator on *each iteration* instead of outside the loop at the end. This ensures the output never becomes larger than our bucket's length.
 
       You might find yourself confusing keys with hash codes while accessing key-value pairs later. We would like to stress that the key is what your `hash` function will take as an input. In a way, we could say that the key is important for us *only* inside the `hash` function, as we never access a bucket directly with the key. Instead, we always do so with the hash code.
 
