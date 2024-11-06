@@ -6,7 +6,7 @@ You already know the magic behind hash maps. Now it's time to write your own imp
 
   Before we get started, we need to lay down some ground rules. Ruby's dynamic nature of arrays allows us to insert and retrieve indexes that are outside our array size range. Example: if we create an array of size `16` to represent our buckets, nothing stops us from storing items at index `500`. This defeats the purpose of limiting storage size in hash maps, so we need to enforce some restrictions.
 
-  Use the following snippet whenever you access a bucket through an index. We want to throw an error if we try to access an out-of-bounds index:
+  Use the following snippet whenever you access a bucket through an index. We want to raise an error if we try to access an out-of-bounds index:
 
   ```ruby
   raise IndexError if index.negative? || index >= @buckets.length
