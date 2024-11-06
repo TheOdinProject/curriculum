@@ -94,7 +94,7 @@ You already know the magic behind hash maps. Now it's time to write your own imp
 
 1. After populating your hash map with the data above, your hash map's current load levels should now be at `0.75` (full capacity).
 
-1. Now with a full hash map, try overwriting a few nodes using `#set(key, value)`. This should only overwrite the existing `values` of your nodes and not add new ones, so `length()` should still return the same value and `capacity` should remain the same.
+1. Now with a full hash map, try overwriting a few nodes using `#set(key, value)`. This should only overwrite the existing `values` of your nodes and not add new ones, so `#length` should still return the same value and `capacity` should remain the same.
 
 1. After that, populate your hash map with the last node below. This will make your load levels exceed your `load factor`, triggering your hash map's growth functionality and doubling its `capacity`:
 
