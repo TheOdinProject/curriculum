@@ -21,7 +21,7 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read about [getters and setters](https://javascript.info/property-accessors). While the article doesn't show classes yet, classes can use getters and setters via the same syntax (without `Object.defineProperty`).
+1. Read about [getters and setters](https://javascript.info/property-accessors) (don't worry about the "accessor descriptors" section as we have not covered them before). While the article doesn't show classes yet, classes can use getters and setters via the same syntax (without `Object.defineProperty`).
 1. Read JavaScript.info's [primer on class syntax](https://javascript.info/class) for an overview of class syntax.
 1. [MDN's docs on classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great resource for going a little deeper. There are lots of individual syntax features but these can be explored over time. As usual, you're not required to memorize anything just from reading docs here and now. Some good features to have a little look at include:
    - [Extending classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends) (like having a Player class that extends a Person class and inherits from `Person.prototype`).
