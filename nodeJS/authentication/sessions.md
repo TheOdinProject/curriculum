@@ -110,7 +110,7 @@ For the sake of brevity, we're omitting the server-side validation step in this 
 We will need a way for a user to create an account, so let's create a sign up form view:
 
 ```ejs
-<!-- views/signUp.ejs -->
+<!-- views/signup.ejs -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -118,7 +118,7 @@ We will need a way for a user to create an account, so let's create a sign up fo
   <title>Sign up</title>
 </head>
 <body>
-  <h1>Sign Up</h1>
+  <h1>Sign up</h1>
   <form action="/sign-up" method="POST">
     <label for="username">Username</label>
     <input id="username" name="username" placeholder="username" type="text" />
@@ -133,12 +133,12 @@ We will need a way for a user to create an account, so let's create a sign up fo
 And corresponding `GET` and `POST` routes:
 
 ```javascript
-app.get("/sign-up", (req, res) => {
-  res.render("signUp");
+app.get("/signup", (req, res) => {
+  res.render("signup");
 });
 
 // or use express-async-handler to ditch the try/catch
-app.post("/sign-up", async (req, res, next) => {
+app.post("/signup", async (req, res, next) => {
   try {
     await pool.query(
       "INSERT INTO users (username, password) VALUES ($1, $2)",
@@ -152,6 +152,99 @@ app.post("/sign-up", async (req, res, next) => {
 ```
 
 Remember, we're omitting the validation step as well as storing the raw password - this is of course unsafe but is just for demonstration purposes. We have also not implemented a way to prevent duplicate usernames, so that's something for you to handle yourself in your projects. Password hashing will be introduced later in this lesson. For now, you should be able to serve your app and visit `/sign-up`, submit the form and be redirected to the home view. Open your database in `psql` and query the users table to see your first user!
+
+### Logging in
+
+Now we have the ability to put users in our database, let's allow them to log in to see a special greeting instead of the generic "Hello world!". We will need the following steps to occur:
+
+1. Check if the submitted username and password match a user in our users table in our database.
+1. If no match is found, end the request there, rejecting the login. Otherwise, serialize the user's ID to a new session.
+1. Set a cookie with that session's ID.
+1. Respond to the request with the cookie.
+
+We'll need to start with the login logic itself, so let's create login routes. Remember we're doing everything together for demonstration purposes only; organise and extract code as you see fit.
+
+```javascript
+app.get("/login", (req, res) => {
+  res.render("login");
+});
+
+app.post("/login", async (req, res, next) => {
+  try {
+    const { rows } = await pool.query(
+      "SELECT * FROM users WHERE username = $1",
+      [req.body.username],
+    );
+    const user = rows[0];
+
+    if (user?.password === req.body.password) {
+      req.session.userId = user.id;
+      res.redirect("/");
+    } else {
+      res.render("login", { error: "Incorrect username or password" });
+    }
+  } catch(err) {
+    next(err);
+  }
+});
+```
+
+What's going on here? First we have our route for rendering the login page. In our `POST` route, we query our db for the submitted ujername. If the username exists *and* the submitted password matches, we serialize the user ID to the session data then redirect to the homepage (if you've never seen `?.` before, check out [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)). Otherwise if no matching username/password combo, we rerender the login page with an error message. Note that we cannot serialize the user ID to `req.session.id` because [`req.session.id` is already used for the session's own ID](http://expressjs.com/en/resources/middleware/session.html#reqsessionid).
+
+We only need to serialize the user ID as that will never change for a user (unlike a username which could be changed by a user if that feature is implemented). It's the only user info we'll need as later we'll write a middleware that deserializes the user ID from a matching session then query the db with that ID to grab any other user info. This middleware can then be added to the start of any routes that need authenticating.
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Warning: Use generic login error messages
+
+While it may seem like better UX to inform which field is incorrect when logging in with incorrect credentials, it is better to be vague. If you misspell the username but it happens to match a different user's username, you may not realize if the error message implies only the password is incorrect. It also makes it less likely that malicious people realise a username exists and they only have to guess the password.
+
+</div>
+
+Let's create the login page:
+
+```ejs
+<!-- views/login.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+</head>
+<body>
+  <h1>Please log in</h1>
+  <form action="/login" method="POST">
+    <label for="username">Username</label>
+    <input id="username" name="username" placeholder="username" type="text">
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password">
+    <button>Log in</button>
+  </form>
+  <% if (locals.error) { %>
+    <p><%= error %></p>
+  <% } %>
+</body>
+</html>
+```
+
+And edit the homepage to show a personalized greeting with a logout button (which we will implement later):
+
+```ejs
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+</head>
+<body>
+  <h1>Hello, <%= username %>!</h1>
+  <form action="/logout" method="POST">
+    <button>Log out</button>
+  </form>
+</body>
+</html>
+```
 
 ### Assignment
 
