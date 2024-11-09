@@ -212,5 +212,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
+- [YouTube video explaining the concept of grid in brief](https://youtu.be/EiNiSFIPIQE?si=-toRIRBJOvTRmc_w)
 - The [MDN Basic Concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) reviews many of the basics and introduces some additional concepts.
 - Watch this short video on [grid terminology](https://www.youtube.com/watch?v=0m5qgfX2TVQ&ab_channel=PeterSommerhoff) from PeterSommerhoff.
