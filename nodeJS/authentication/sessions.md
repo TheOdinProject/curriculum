@@ -246,6 +246,47 @@ And edit the homepage to show a personalized greeting with a logout button (whic
 </html>
 ```
 
+### Handling post-login requests
+
+Express-session does some magic for us by automatically checking if an incoming request has a session cookie attached. If so, it will check if there is a valid session that matches the ID and populate `req.session` with any matching session info. If no session cookie or match, a fresh session will be loaded (which will only be saved at the end of the request cycle if it has been modified by us).
+
+As of now, our `GET /` route will always display the homepage and will crash if someone has not yet logged in! There would not be a cookie and therefore no session to deserialize. We can write a middleware that checks the current loaded session and if it has a user ID in it, we can use it to query the db and grab any user info we need, then continue to the homepage. Otherwise, the user is not authenticated and we can redirect to the login page.
+
+```javascript
+async function checkAuthenticated(req, res, next) {
+  try {
+    if (!req.session.userId) {
+      res.redirect("/login");
+    } else {
+      const { rows } = await pool.query(
+        "SELECT * FROM users WHERE id = $1",
+        [req.session.userId],
+      );
+      // add the user details we need to req so we can access it in the next middleware
+      req.user = {
+        id: rows[0].id,
+        username: rows[0].username,
+      };
+      next();
+    }
+  } catch (err) {
+    next(err);
+  }
+}
+```
+
+Plonk it in our `GET /` route as the first middleware and there we go!
+
+```javascript
+app.get("/", checkAuthenticated, (req, res) => {
+  res.render("index", { username: req.user.username });
+});
+```
+
+If you serve your app and go to the site on localhost, you should be redirected to `/login` straightaway since you won't yet have a session cookie. You should already have a user in your database, so log in with your credentials and see your personalized greeting!
+
+We can add our `checkAuthenticated` middleware to any routes that we need authenticate, or even as router-level middleware for example. You can of course customize this function however you wish - the code shown here is just for our example app.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
