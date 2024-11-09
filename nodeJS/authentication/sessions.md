@@ -24,6 +24,135 @@ The client now has that cookie with the session ID and can then attach it to any
 
 This is exactly like having a name badge or access pass at work or some event. The cookie is like an access pass which you (the client) give to a machine or security (the server) and it checks who you are and if you're allowed in or not. You can go home and come back the next day, reusing that pass as many times as you need so long as you still have it and your details are still in the system.
 
+### Implementing sessions
+
+Let's use [express-session](https://expressjs.com/en/resources/middleware/session.html) to implement a basic session authentication system. For the purpose of streamlining our example, we'll put all of the JavaScript in `app.js` and start with hardcoding a few things. When it comes to your own projects, separate different parts like routes, controllers etc. to their own files and folders as you'll have done before. The same can be done for any config for auth features.
+
+#### Setup
+
+First, make a new database within `psql`. We will start by setting up a `users` table:
+
+```sql
+CREATE TABLE users (
+  id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  username VARCHAR ( 255 ),
+  password VARCHAR ( 255 )
+);
+```
+
+Now we'll set up a minimal express app. We'll need the following dependencies installed first:
+
+```bash
+npm install express express-session pg ejs
+```
+
+Now our `app.js`:
+
+```javascript
+// app.js
+const path = require("node:path");
+const { Pool } = require("pg");
+const express = require("express");
+const session = require("express-session");
+
+const pool = new Pool({
+  // add your db configuration
+});
+
+const app = express();
+app.set("views", path.join(__dirname, "views"));
+app.set("view engine", "ejs");
+
+app.use(session({
+  secret: "we will explain and change this secret later",
+  resave: false,
+  saveUninitialized: false,
+  cookie: {
+    httpOnly: true,
+    maxAge: 2 * 24 * 60 * 60 * 1000, // 2 days
+  },
+}));
+app.use(express.urlencoded({ extended: false }));
+
+app.get("/", (req, res) => res.render("index"));
+
+app.listen(3000, () => {
+  console.log("App listening on port 3000!");
+});
+```
+
+And our initial `index.ejs` view:
+
+```ejs
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+</head>
+<body>
+  <h1>Hello world!</h1>
+</body>
+</html>
+```
+
+### Creating users
+
+<div class="lesson-note lesson-note--critical" markdown="1">
+
+#### Critical: Validate your user input
+
+For the sake of brevity, we're omitting the server-side validation step in this example. **Do not omit server-side validation in your projects.**
+
+</div>
+
+We will need a way for a user to create an account, so let's create a sign up form view:
+
+```ejs
+<!-- views/signUp.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign up</title>
+</head>
+<body>
+  <h1>Sign Up</h1>
+  <form action="/sign-up" method="POST">
+    <label for="username">Username</label>
+    <input id="username" name="username" placeholder="username" type="text" />
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" />
+    <button>Sign Up</button>
+  </form>
+</body>
+</html>
+```
+
+And corresponding `GET` and `POST` routes:
+
+```javascript
+app.get("/sign-up", (req, res) => {
+  res.render("signUp");
+});
+
+// or use express-async-handler to ditch the try/catch
+app.post("/sign-up", async (req, res, next) => {
+  try {
+    await pool.query(
+      "INSERT INTO users (username, password) VALUES ($1, $2)",
+      [req.body.username, req.body.password],
+    );
+    res.redirect("/");
+  } catch(err) {
+    return next(err);
+  }
+});
+```
+
+Remember, we're omitting the validation step as well as storing the raw password - this is of course unsafe but is just for demonstration purposes. We have also not implemented a way to prevent duplicate usernames, so that's something for you to handle yourself in your projects. Password hashing will be introduced later in this lesson. For now, you should be able to serve your app and visit `/sign-up`, submit the form and be redirected to the home view. Open your database in `psql` and query the users table to see your first user!
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
