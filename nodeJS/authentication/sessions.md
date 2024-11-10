@@ -43,45 +43,10 @@ CREATE TABLE users (
 Now we'll set up a minimal express app. We'll need the following dependencies installed first:
 
 ```bash
-npm install express express-session pg ejs
+npm install express express-session ejs dotenv pg connect-pg-simple
 ```
 
-Now our `app.js`:
-
-```javascript
-// app.js
-const path = require("node:path");
-const { Pool } = require("pg");
-const express = require("express");
-const session = require("express-session");
-
-const pool = new Pool({
-  // add your db configuration
-});
-
-const app = express();
-app.set("views", path.join(__dirname, "views"));
-app.set("view engine", "ejs");
-
-app.use(session({
-  secret: "we will explain and change this secret later",
-  resave: false,
-  saveUninitialized: false,
-  cookie: {
-    httpOnly: true,
-    maxAge: 2 * 24 * 60 * 60 * 1000, // 2 days
-  },
-}));
-app.use(express.urlencoded({ extended: false }));
-
-app.get("/", (req, res) => res.render("index"));
-
-app.listen(3000, () => {
-  console.log("App listening on port 3000!");
-});
-```
-
-And our initial `index.ejs` view:
+Now our initial `index.ejs` view:
 
 ```ejs
 <!-- views/index.ejs -->
@@ -96,6 +61,53 @@ And our initial `index.ejs` view:
 </body>
 </html>
 ```
+
+And our `app.js`:
+
+```javascript
+// app.js
+require("dotenv").config();
+const path = require("node:path");
+const { Pool } = require("pg");
+const express = require("express");
+const session = require("express-session");
+const pgSession = require("connect-pg-simple")(session);
+
+const pool = new Pool({
+  // add your db configuration
+});
+
+const app = express();
+app.set("views", path.join(__dirname, "views"));
+app.set("view engine", "ejs");
+
+app.use(session({
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: false,
+  cookie: {
+    httpOnly: true,
+    maxAge: 2 * 24 * 60 * 60 * 1000, // 2 days
+  },
+  store: new pgSession({ pool: pool }),
+}));
+app.use(express.urlencoded({ extended: false }));
+
+app.get("/", (req, res) => res.render("index"));
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`App listening on port ${PORT}!`);
+});
+```
+
+Let's talk about our `session` config, which we set for our whole app to use on every request. First, we set a **session secret**, which we set in our `.env` file since it's, well, a secret. This should be some string that's hard to guess - you can use a random key generator online for this - and is used by express-session alongside the session ID to generate a hash and sign the resulting session cookie. Then if an attacker tries to tamper with a session cookie, the signature would no longer match and the server can invalidate it.
+
+We also turn off `resave` and `saveUninitialized`, which means express-session will only save a session to our database or overwrite an existing one if it gets modified as part of the request. No need to save anything that hasn't been changed.
+
+We then pass in options for the session cookies that will be created. In the example, we make it inaccessible to JavaScript on the front-end and set a 2-day expiry. You can always use environment variables to set or conditionally set values (e.g. `httpOnly: process.env.NODE_ENV === "prod"` can allow you to access session cookies via front-end JavaScript in development but prevent it in production).
+
+Lastly, we use the [connect-pg-simple](https://www.npmjs.com/package/connect-pg-simple) library to make express-session store session data in our database inside a new table. Without this, sessions would be stored in memory by default which would not persist through any server restarts!
 
 ### Creating users
 
