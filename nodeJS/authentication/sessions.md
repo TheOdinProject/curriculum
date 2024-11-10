@@ -197,7 +197,7 @@ We only need to serialize the user ID as that will never change for a user (unli
 
 #### Warning: Use generic login error messages
 
-While it may seem like better UX to inform which field is incorrect when logging in with incorrect credentials, it is better to be vague. If you misspell the username but it happens to match a different user's username, you may not realize if the error message implies only the password is incorrect. It also makes it less likely that malicious people realise a username exists and they only have to guess the password.
+Don't specify which form fields are incorrect when providing validation feedback. Providing specific feedback can allow attackers to target accounts if they know a specific username exists, for example. It also means if you misspell your username but it happens to match someone else's username, you're less likely to be misled into thinking the you entered your username correctly.
 
 </div>
 
