@@ -40,7 +40,7 @@ The `importmap-rails` gem provides an API for mapping the "bare module specifier
 
 Example
 
-```Ruby
+```ruby
 # config/importmap.rb
 pin "react", to: "https://ga.jspm.io/npm:react@18.2.0/index.js"
 ```
@@ -68,7 +68,7 @@ Pinning "scheduler" to vendor/javascript/scheduler.js via download from https://
 
 This will produce pins in your `config/importmap.rb` like this:
 
-```Ruby
+```ruby
 pin "react" # @18.2.0
 pin "react-dom" # @18.2.0
 pin "scheduler" # @0.23.0
@@ -78,7 +78,7 @@ The packages are downloaded to `vendor/javascript`, which you can check into you
 
 Now you can import them in your JavaScript code.
 
-```JS
+```javascript
 import React from "react"
 import ReactDOM from "react-dom"
 ```
@@ -94,11 +94,13 @@ Unpinning and removing "react"
 
 To avoid having the browser load one file after another before it can get to the deepest nested import, `importmap-rails` uses [modulepreload](https://developers.google.com/web/updates/2017/12/modulepreload) by default. If you don't want to preload a dependency, add `preload: false` to the pin.
 
-```Ruby
+```ruby
 # config/importmap.rb
 pin "@github/hotkey", to: "@github--hotkey.js" # file lives in vendor/javascript/@github--hotkey.js
 pin "md5", preload: false # file lives in vendor/javascript/md5.js
+```
 
+```erb
 # app/views/layouts/application.html.erb
 <%= javascript_importmap_tags %>
 
