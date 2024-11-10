@@ -40,11 +40,12 @@ These are some of the basic tools you will use regularly. You may not know what 
 
 - **Computer**
 - **[Google](https://www.google.com/)**
-- **Text Editor**
-- **Command Line Interface (CLI)**
+- **[Text Editor](https://en.wikipedia.org/wiki/Text_editor)**
+- **[Command Line Interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface)**
 - **[Stack Overflow](http://stackoverflow.com/)**
 - **[Git](https://git-scm.com/)**
 - **[GitHub](https://github.com/)**
+- **[Large Language Models](https://en.wikipedia.org/wiki/Large_language_model)**
 
 ### Motivation
 
