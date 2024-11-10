@@ -40,7 +40,7 @@ The `importmap-rails` gem provides an API for mapping the "bare module specifier
 
 Example
 
-```Ruby
+```ruby
 # config/importmap.rb
 pin "react", to: "https://ga.jspm.io/npm:react@18.2.0/index.js"
 ```
@@ -68,7 +68,7 @@ Pinning "scheduler" to vendor/javascript/scheduler.js via download from https://
 
 This will produce pins in your `config/importmap.rb` like this:
 
-```Ruby
+```ruby
 pin "react" # @18.2.0
 pin "react-dom" # @18.2.0
 pin "scheduler" # @0.23.0
@@ -78,7 +78,7 @@ The packages are downloaded to `vendor/javascript`, which you can check into you
 
 Now you can import them in your JavaScript code.
 
-```JS
+```javascript
 import React from "react"
 import ReactDOM from "react-dom"
 ```
@@ -94,11 +94,13 @@ Unpinning and removing "react"
 
 To avoid having the browser load one file after another before it can get to the deepest nested import, `importmap-rails` uses [modulepreload](https://developers.google.com/web/updates/2017/12/modulepreload) by default. If you don't want to preload a dependency, add `preload: false` to the pin.
 
-```Ruby
+```ruby
 # config/importmap.rb
 pin "@github/hotkey", to: "@github--hotkey.js" # file lives in vendor/javascript/@github--hotkey.js
 pin "md5", preload: false # file lives in vendor/javascript/md5.js
+```
 
+```erb
 # app/views/layouts/application.html.erb
 <%= javascript_importmap_tags %>
 
@@ -121,6 +123,7 @@ All of the above may have you wondering why you'd use importmaps all things cons
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 Since Rails 7 is relatively new there aren't a ton of resources available yet. That being said here are some that are worth taking a look at:
 
 1. First things first. [Briefly look over the `importmap-rails` gem README on GitHub](https://github.com/rails/importmap-rails). This has A LOT of the information here plus more. Straight from the horse's mouth.
@@ -133,9 +136,9 @@ Since Rails 7 is relatively new there aren't a ton of resources available yet. T
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#import-maps-with-npm-packages">Can you use import maps with npm packages?</a>
-- <a class="knowledge-check-link" href="#downloading-vendor-files">How do you download vendor files using import maps?</a>
-- <a class="knowledge-check-link" href="#preloading-pinned-modules">How can you preload pinned modules?</a>
+- [Can you use import maps with npm packages?](#import-maps-with-npm-packages)
+- [How do you download vendor files using import maps?](#downloading-vendor-files)
+- [How can you preload pinned modules?](#preloading-pinned-modules)
 
 ### Additional resources
 
