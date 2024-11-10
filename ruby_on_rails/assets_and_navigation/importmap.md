@@ -123,6 +123,7 @@ All of the above may have you wondering why you'd use importmaps all things cons
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 Since Rails 7 is relatively new there aren't a ton of resources available yet. That being said here are some that are worth taking a look at:
 
 1. First things first. [Briefly look over the `importmap-rails` gem README on GitHub](https://github.com/rails/importmap-rails). This has A LOT of the information here plus more. Straight from the horse's mouth.
@@ -135,9 +136,9 @@ Since Rails 7 is relatively new there aren't a ton of resources available yet. T
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#import-maps-with-npm-packages">Can you use import maps with npm packages?</a>
-- <a class="knowledge-check-link" href="#downloading-vendor-files">How do you download vendor files using import maps?</a>
-- <a class="knowledge-check-link" href="#preloading-pinned-modules">How can you preload pinned modules?</a>
+- [Can you use import maps with npm packages?](#import-maps-with-npm-packages)
+- [How do you download vendor files using import maps?](#downloading-vendor-files)
+- [How can you preload pinned modules?](#preloading-pinned-modules)
 
 ### Additional resources
 
