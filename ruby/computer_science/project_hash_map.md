@@ -1,12 +1,12 @@
 ### Introduction
 
-You already know the magic behind hash maps, now it's time to write your own implementation!
+You already know the magic behind hash maps. Now it's time to write your own implementation!
 
 #### Limitation
 
-  Before we get started, we need to lay down some ground rules. Ruby's dynamic nature of array allows us to insert and retrieve indexes that are outside our array size range. Example: if we create an array of size `16` to be our buckets size, nothing is stopping us from storing items at index `500`. This defeats the purpose we are trying to demonstrate, so we need to put some self restriction to work around this.
+  Before we get started, we need to lay down some ground rules. Ruby's dynamic nature of arrays allows us to insert and retrieve indexes that are outside our array size range. Example: if we create an array of size `16` to represent our buckets, nothing stops us from storing items at index `500`. This defeats the purpose of limiting storage size in hash maps, so we need to enforce some restrictions.
 
-  Use the following snippet whenever you access a bucket through an index. We want to raise an error if we try to access an out of bound index:
+  Use the following snippet whenever you access a bucket through an index. We want to raise an error if we try to access an out-of-bounds index:
 
   ```ruby
   raise IndexError if index.negative? || index >= @buckets.length
@@ -16,9 +16,9 @@ You already know the magic behind hash maps, now it's time to write your own imp
 
 <div class="lesson-content__panel" markdown="1">
 
-  Start by creating a `HashMap` class. Proceed to create the following methods:
-
-  1. `#hash(key)` takes a key and produces a hash code with it. We did implement a fairly good `hash` method in the previous lesson. As a reminder:
+  Start by creating a `HashMap` class. It should have at least two variables for `load factor` and `capacity`. Then proceed to create the following methods:
+  
+  1. `#hash(key)` takes a key and produces a hash code with it. We already implemented a fairly good `hash` function in the previous lesson. As a reminder:
 
       ```ruby
       def hash(key)
@@ -31,13 +31,13 @@ You already know the magic behind hash maps, now it's time to write your own imp
       end
       ```
 
-     You are free to use that, or if you wish, you can conduct your own research. Beware this is a deep deep rabbit hole.
+     You are free to use that, or you can conduct your own research on hashing algorithms. Beware, this is a deep, deep rabbit hole.
 
-     You might find yourself confusing keys with hash codes while accessing key-value pairs later. We would like to stress that the key is what your `hash` function will take as an input. In a way, we could say that the key is important for us only inside the `hash` function. But we never access a bucket directly with the key. Instead we do so with the hash code.
+     You might find yourself confusing keys with hash codes while accessing key-value pairs later. We would like to stress that the key is what your `hash` function will take as an input. In a way, we could say that the key is important for us *only* inside the `hash` function, as we never access a bucket directly with the key. Instead, we always do so with the hash code.
 
       <div class="lesson-note lesson-note--tip" markdown="1">
 
-        Hash maps could accommodate various data types for keys like numbers, strings, and even other hashes. But for this project, only handle keys of type strings.
+        In the real world, hash maps can accommodate various data types as keys, including numbers, strings, or objects. However, for this project, we will only handle keys of type `string`.
 
       </div>
 
@@ -92,21 +92,21 @@ You already know the magic behind hash maps, now it's time to write your own imp
     test.set('lion', 'golden')
     ```
 
-1. After populating your hash map with the data above, your hash map's actual capacity should now be at `0.75` (full capacity).
+1. After populating your hash map with the data above, your hash map's current load levels should now be at `0.75` (full capacity).
 
-1. Now with a full hash map, try overwriting a few nodes using `#set(key, value)`. By right, this should only over-write the existing `values` of your nodes and not add new ones.
+1. Now with a full hash map, try overwriting a few nodes using `#set(key, value)`. This should only overwrite the existing `values` of your nodes and not add new ones, so `#length` should still return the same value and `capacity` should remain the same.
 
-1. After that, populate your hash map with the last node below (doing this will make your hash map exceed your current load factor, hence expanding your buckets and growing your hash map):
+1. After that, populate your hash map with the last node below. This will make your load levels exceed your `load factor`, triggering your hash map's growth functionality and doubling its `capacity`:
 
     ```ruby
     test.set('moon', 'silver')
     ```
 
-1. If you have implemented your hash map correctly, the capacity of your new hash map will drop well below your load factor and you will notice that the nodes in your hash map are spread much evenly among your buckets.
+1. If you have implemented your hash map correctly, the load levels of your expanded hash map should drop well below your load factor, and the entries should be spread evenly among the expanded buckets.
 
-1. With your new hash map, try overwriting a few nodes using `#set(key, value)`. Again, this should only over-write existing `values` of your nodes.
+1. With your new hash map, try overwriting a few nodes using `#set(key, value)`. Again, this should only overwrite existing `values` of your nodes.
 
-1. Test the other methods of your hash maps such as `#get(key)`, `#has?(key)`, `#remove(key)`, `#length`, `#clear`, `#keys`, `#values`, and `#entries` to check if they are still working as expected after expanding your hash map.
+1. Test the other methods of your hash map, such as `#get(key)`, `#has?(key)`, `#remove(key)`, `#length`, `#clear`, `#keys`, `#values`, and `#entries`, to check if they are still working as expected after expanding your hash map.
 
 #### Extra Credit
 
