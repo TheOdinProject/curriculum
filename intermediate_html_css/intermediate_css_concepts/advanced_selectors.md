@@ -52,12 +52,12 @@ main div {
 But what if we wanted to be more specific and <span id="childvdesc-knowledge-check">select *only* the `child` or `grand-child` divs?</span> That's where the child combinator `>` comes in handy. Unlike the descendant combinator, it will only select direct children.
 
 ```css
-/* This rule will only select the divs with the class child */
+/* The divs with the class "child" will get selected by this */
 main > div {
   /* Our cool CSS */
 }
 
-/* This rule will only select the divs with the class grand-child */
+/* The divs with the class "grand-child" will get selected by this */
 main > div > div {
   /* More cool CSS */
 }
@@ -66,12 +66,12 @@ main > div > div {
 Phrased another way, the child selector will select an element that is one level of indentation down. In order to select an element that is adjacent (immediately following) to our target, or on the same level of indentation, we can use the adjacent sibling combinator `+`.
 
 ```css
-/* This rule will only select the div with the class child group2 */
+/* Only the div with the classes "child group2" will get selected by this */
 .group1 + div {
   /* Our cool CSS */
 }
 
-/* This rule will only select the div with the class child group3 */
+/* Only the div with the classes "child group3" will get selected by this */
 .group1 + div + div {
   /* More cool CSS */
 }
@@ -80,7 +80,7 @@ Phrased another way, the child selector will select an element that is one level
 Finally, if we want to select all of the siblings following an element and not just the first one, we can use the general sibling combinator `~`.
 
 ```css
-/* This rule will select all of .group1's siblings - in this case the 2nd and 3rd .child divs */
+/* All of .group1's div siblings - in this case the 2nd and 3rd .child divs, will get selected by this */
 .group1 ~ div {
   /* Our cool CSS */
 }
@@ -92,7 +92,7 @@ This [MDN article on combinators](https://developer.mozilla.org/en-US/docs/Learn
 
 ### Pseudo-selectors
 
-Before diving into pseudo-selectors, a quick note on the difference between [pseudo-elements and pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). <span id="syntax-exist-knowledge-check">Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that *don't* normally exist in the markup.</span> If that doesn't make sense straight away, don't worry - we'll explore some examples below.
+Before diving into pseudo-selectors, a quick note on the difference between [pseudo-classes and pseudo-elements](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements). <span id="syntax-exist-knowledge-check">Pseudo-class selectors are prefixed with a single colon and are a different way to target elements that already exist in HTML. Pseudo-elements are prefixed with two colons and are used to target elements that *don't* normally exist in the markup.</span> If that doesn't make sense straight away, don't worry - we'll explore some examples below.
 
 ### Pseudo-classes
 
@@ -110,13 +110,13 @@ As always don't forget to check [MDN's docs on pseudo-classes](https://developer
 
 These types of useful pseudo-classes can make your page feel much more dynamic and interactive.
 
-[`:focus`](https://css-tricks.com/almanac/selectors/f/focus/) applies to an element that is currently selected by the user either through selecting it with their cursor or using their keyboard.
+[`:focus`](https://css-tricks.com/almanac/pseudo-selectors/f/focus/) applies to an element that is currently selected by the user either through selecting it with their cursor or using their keyboard.
 
-<span id="hover-active-knowledge-check">[`:hover`](https://css-tricks.com/almanac/selectors/h/hover/) will affect anything under the user's mouse pointer.</span> It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop-down menu.
+<span id="hover-active-knowledge-check">[`:hover`](https://css-tricks.com/almanac/pseudo-selectors/h/hover/) will affect anything under the user's mouse pointer.</span> It can be used to give extra oomph to buttons and links to highlight that they're interactable, or to trigger a drop-down menu.
 
-[`:active`](https://css-tricks.com/almanac/selectors/a/active/) applies to elements that are currently being clicked, and is especially useful for giving your user feedback that their action had an effect. This is a great one to give your buttons and other interactive elements more 'tactile' feedback.
+[`:active`](https://css-tricks.com/almanac/pseudo-selectors/a/active/) applies to elements that are currently being clicked, and is especially useful for giving your user feedback that their action had an effect. This is a great one to give your buttons and other interactive elements more 'tactile' feedback.
 
-Have you ever wondered why links are blue but turn purple when clicked in unstyled HTML? It's because browsers implement that styling by default. To implement your own custom styling for links, take advantage of the [`:link`](https://css-tricks.com/almanac/selectors/l/link/) and [`:visited`](https://css-tricks.com/almanac/selectors/v/visited/) pseudo-classes. A simplified version of default browser styling might look something like this:
+Have you ever wondered why links are blue but turn purple when clicked in unstyled HTML? It's because browsers implement that styling by default. To implement your own custom styling for links, take advantage of the [`:link`](https://css-tricks.com/almanac/pseudo-selectors/l/link/) and [`:visited`](https://css-tricks.com/almanac/pseudo-selectors/v/visited/) pseudo-classes. A simplified version of default browser styling might look something like this:
 
 ```css
   /* This rule will apply to all links */
@@ -139,15 +139,15 @@ Have you ever wondered why links are blue but turn purple when clicked in unstyl
 
 Structural pseudo-classes are a powerful way to select elements based on their position within the DOM.
 
-[`:root`](https://css-tricks.com/almanac/selectors/r/root/) is a special class that represents the very top level of your document - the one element that has no parents. Generally when working with the web, this is equivalent to the `html` element, but there are a [few subtle differences between `:root` and `html`](https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html).
+[`:root`](https://css-tricks.com/almanac/pseudo-selectors/r/root/) is a special class that represents the very top level of your document - the one element that has no parents. Generally when working with the web, this is equivalent to the `html` element, but there are a [few subtle differences between `:root` and `html`](https://stackoverflow.com/questions/15899615/whats-the-difference-between-css3s-root-pseudo-class-and-html).
 
 `:root` is generally the place where you will place your 'global' CSS rules that you want available everywhere - such as your custom properties and CSS variables, or rules such as `box-sizing: border-box;`.
 
-<span id="first-child-knowledge-check">[`:first-child`](https://css-tricks.com/almanac/selectors/f/first-child/)</span> and [`:last-child`](https://css-tricks.com/almanac/selectors/l/last-child/) will match elements that are the first or last sibling.
+<span id="first-child-knowledge-check">[`:first-child`](https://css-tricks.com/almanac/pseudo-selectors/f/first-child/)</span> and [`:last-child`](https://css-tricks.com/almanac/pseudo-selectors/l/last-child/) will match elements that are the first or last sibling.
 
-Similarly, [`:empty`](https://css-tricks.com/almanac/selectors/e/empty/) will match elements that have no children at all, and [`:only-child`](https://css-tricks.com/almanac/selectors/o/only-child/) will match elements that don't have any siblings.
+Similarly, [`:empty`](https://css-tricks.com/almanac/pseudo-selectors/e/empty/) will match elements that have no children at all, and [`:only-child`](https://css-tricks.com/almanac/pseudo-selectors/o/only-child/) will match elements that don't have any siblings.
 
-For a more dynamic approach we can use <span id="second-child-knowledge-check">[`:nth-child`](https://css-tricks.com/almanac/selectors/n/nth-child/).</span> This is a flexible pseudo-class with a few different uses.
+For a more dynamic approach we can use <span id="second-child-knowledge-check">[`:nth-child`](https://css-tricks.com/almanac/pseudo-selectors/n/nth-child/).</span> This is a flexible pseudo-class with a few different uses.
 
 ```css
   .myList:nth-child(5) {/* Selects the 5th element with class myList */}
@@ -163,13 +163,13 @@ For a more dynamic approach we can use <span id="second-child-knowledge-check">[
 
 While pseudo-classes give us an alternative way to interact with our HTML elements based on their state or structure, pseudo-elements are more abstract. They allow us to affect parts of our HTML that aren't elements at all. These special elements share the same specificity as regular elements (0, 0, 0, 1). There are a number of useful pseudo-elements that can be utilized in any number of creative ways.
 
-[`::marker`](https://css-tricks.com/almanac/selectors/m/marker/) allows you to customize the styling of your `<li>` elements' bullets or numbers.
+[`::marker`](https://css-tricks.com/almanac/pseudo-selectors/m/marker/) allows you to customize the styling of your `<li>` elements' bullets or numbers.
 
-[`::first-letter`](https://css-tricks.com/almanac/selectors/f/first-letter/) and [`::first-line`](https://css-tricks.com/almanac/selectors/f/first-line/) allow you to (you guessed it!) give special styling to the first letter or line of some text.
+[`::first-letter`](https://css-tricks.com/almanac/pseudo-selectors/f/first-letter/) and [`::first-line`](https://css-tricks.com/almanac/pseudo-selectors/f/first-line/) allow you to (you guessed it!) give special styling to the first letter or line of some text.
 
-[`::selection`](https://css-tricks.com/almanac/selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
+[`::selection`](https://css-tricks.com/almanac/pseudo-selectors/s/selection/) allows you to change the highlighting when a user selects text on the page.
 
-[`::before` and `::after`](https://css-tricks.com/almanac/selectors/a/after-and-before/) allow us to add extra elements onto the page with CSS, instead of HTML. Using it to decorate text in various ways is one common use case.
+[`::before` and `::after`](https://css-tricks.com/almanac/pseudo-selectors/b/after-and-before/) allow us to add extra elements onto the page with CSS, instead of HTML. Using it to decorate text in various ways is one common use case.
 
 ```html
 <style>

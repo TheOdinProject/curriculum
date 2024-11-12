@@ -10,10 +10,10 @@ Similar to how we have the `useState` hook, React offers us a handy `useEffect` 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What are effects?
-- How are effects used in React?
-- What are the different parts of a `useEffect` hook?
-- When should I use an effect?
+- Understand what effects are in React.
+- Learn how to use effects in React applications.
+- Explore different parts of the useEffect hook.
+- Identify when to use an effect in React.
 
 ### Using effect saves the day
 

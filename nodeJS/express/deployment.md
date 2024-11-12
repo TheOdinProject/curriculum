@@ -30,7 +30,7 @@ Dynamic websites, on the other hand, are websites that can change content based 
 
 This additional tech prohibits us from using GitHub Pages for hosting our Node apps. GitHub pages cannot run Node.js applications and doesn't have database services we can use. Similarly, host providers like Netlify and Vercel, which you may have used back in the React course, do not have the same capabilities to run our Node.js servers and databases. They're not the right tools for our back ends.
 
-Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Heroku](https://www.heroku.com/), [Railway](https://railway.app/), [Render](https://render.com/), and [Fly.io](https://fly.io/). We will be focusing on and utilizing these latter providers in this lesson.
+Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Railway](https://railway.app/), and [Render](https://render.com/). We will be focusing on and utilizing these latter providers in this lesson.
 
 ### What is a PaaS?
 
@@ -96,28 +96,6 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-#### Fly.io
-
-Can deploy both servers and databases.
-
-- Fly.io uses a CLI tool for deployment.
-- Paid plans include [free allowances](https://fly.io/docs/about/pricing/#free-allowances), additional resources are billed based on usage with very reasonable rates.
-- Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
-
-##### Fly.io: Free Plan
-
-- New customers get a one-time $5 free trial credit to test Fly.io at no cost. The free allowances are not applicable during the free trial. After the credit has been used, you will be be automatically placed on the $5/month Hobby plan subscription.
-- The longevity of your free trial credit depends on how many resources you consume. More complex apps with more traffic may consume the whole free trial credit within a month, whereas simpler apps may last longer.
-- Requires a credit card.
-
-##### Fly.io: Links
-
-- [Fly.io's homepage](https://fly.io/)
-- [Fly.io's documentation](https://fly.io/docs/)
-- [Guide: Official getting started with Node on Fly.io guide](https://web.archive.org/web/20230823151155/https://fly.io/docs/languages-and-frameworks/node/)
-
----
-
 #### Railway.app
 
 Can deploy both servers and databases.
@@ -135,29 +113,6 @@ Can deploy both servers and databases.
 
 - [Railway homepage](https://railway.app/)
 - [Railway documentation](https://docs.railway.app/)
-
----
-
-#### Adaptable.io
-
-Can deploy servers with or without a database attached (cannot deploy standalone databases).
-
-- Like Railway, has a convenient deployment process. You link to your project's GitHub repo.
-- Free plan does not limit the number of applications you can deploy.
-- Also has fixed and usage-based payment plans.
-
-##### Adaptable.io: Free Plan
-
-- No limits on the number of applications you can deploy on the free plan.
-- Monthly performance allowance is more than sufficient for course/personal projects (approximately 25,000 API requests per month).
-- Applications are put to sleep when inactive but wake up speed is quicker than Render.
-- Requires a credit card.
-
-##### Adaptable.io: Links
-
-- [Adaptable.io homepage](https://adaptable.io/)
-- [Adaptable.io documentation](https://adaptable.io/docs/what-is-adaptable)
-- [Guide: Official getting started with deploying an Express app on Adaptable guide](https://adaptable.io/docs/app-guides/deploy-express-app)
 
 ---
 

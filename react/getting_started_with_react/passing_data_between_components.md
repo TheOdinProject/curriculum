@@ -228,7 +228,7 @@ function Button({ text = "Click Me!", color = "blue", fontSize = 12, handleClick
   };
 
   return (
-    <button onClick={() => handleClick('https://www.theodinproject.com')} style={buttonStyle}>
+    <button onClick={handleClick} style={buttonStyle}>
       {text}
     </button>
   );
@@ -241,7 +241,7 @@ export default function App() {
 
   return (
     <div>
-      <Button handleClick={handleButtonClick} />
+      <Button handleClick={() => handleButtonClick('www.theodinproject.com')} />
     </div>
   );
 }

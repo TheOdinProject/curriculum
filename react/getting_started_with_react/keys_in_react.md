@@ -6,8 +6,8 @@ In this lesson, we will cover keys in React. Keys are special props for our comp
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What are keys and why does React need them?
-- What are good and bad examples of keys?
+- Learn what keys are in React and why it needs them.
+- Identify examples of good and bad key usage in React applications.
 
 ### Why does React need keys?
 

@@ -79,7 +79,7 @@ Once a screen reader reaches the above HTML, it would announce "Main navigation,
 
 #### aria-labelledby
 
-The `aria-labelledby` attribute overrides both the native label and the `aria-label` attribute. `aria-labelledby` changes an element's accessible name (created by `aria-labelledby`) to a concatenated string of the text contents or `alt` attributes of the labeling elements (the ones whose `id` are passed in).
+The `aria-labelledby` attribute overrides both the native label and the `aria-label` attribute. When you use `aria-labelledby`, the accessible name of the target element is created by concatenating the text contents or `alt` attributes of the elements whose `id` are referenced.
 
 The great thing about `aria-labelledby` is that not only can you pass in any number of `id` references, but you can also have an element reference itself. Keep in mind that you can't pass in the same reference multiple times, because any subsequent references after the first will be ignored.
 
@@ -159,7 +159,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [An in-depth guide to ARIA roles](https://www.a11yproject.com/posts/2020-08-20-an-indepth-guide-to-aria-roles/#landmark-roles) goes over an ARIA attribute that alters the semantics of elements, which can allow you to create custom inputs, buttons, and more. Just keep in mind rule number one of the ARIA rules!
 - [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) are another type of ARIA attribute that are incredibly useful for having dynamic updates made to a page announced by assistive technologies. A word of warning if you decide to dive into this topic: the `assertive` live region may not work in the JAWS and NVDA screen readers, but the `role="alert"` attribute, which has an implicit live region of assertive, should.
