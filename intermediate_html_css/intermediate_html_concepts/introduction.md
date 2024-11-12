@@ -10,7 +10,7 @@ There is also a _lot_ more that you can do with CSS that you'll learn throughout
 
 You'll learn about animations, accessibility, and responsive design in the second part of this course later in the curriculum.
 
-### Assignment
+### Assignment 
 
 <div class="lesson-content__panel" markdown="1">
 1. Read through this [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) to get an overview of what other HTML elements are available to you. No need to commit this to memory because you'll be learning the important parts as we go, but having a glance now will help the content stick later.
