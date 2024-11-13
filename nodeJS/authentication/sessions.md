@@ -133,7 +133,7 @@ We will need a way for a user to create an account, so let's create a sign up fo
   <h1>Sign up</h1>
   <form action="/sign-up" method="POST">
     <label for="username">Username</label>
-    <input id="username" name="username" placeholder="username" type="text" />
+    <input id="username" name="username" type="text" />
     <label for="password">Password</label>
     <input id="password" name="password" type="password" />
     <button>Sign Up</button>
@@ -193,7 +193,9 @@ app.post("/login", async (req, res, next) => {
       req.session.userId = user.id;
       res.redirect("/");
     } else {
-      res.render("login", { error: "Incorrect username or password" });
+      res.render("login", {
+        error: "Incorrect username or password",
+      });
     }
   } catch(err) {
     next(err);
@@ -227,7 +229,7 @@ Let's create the login page:
   <h1>Please log in</h1>
   <form action="/login" method="POST">
     <label for="username">Username</label>
-    <input id="username" name="username" placeholder="username" type="text">
+    <input id="username" name="username" type="text">
     <label for="password">Password</label>
     <input id="password" name="password" type="password">
     <button>Log in</button>
@@ -274,7 +276,8 @@ async function checkAuthenticated(req, res, next) {
         "SELECT * FROM users WHERE id = $1",
         [req.session.userId],
       );
-      // add the user details we need to req so we can access it in the next middleware
+      // add the user details we need to req
+      // so we can access it in the next middleware
       req.user = {
         id: rows[0].id,
         username: rows[0].username,
