@@ -87,7 +87,8 @@ app.use(session({
   saveUninitialized: false,
   secret: process.env.SESSION_SECRET,
   cookie: {
-    httpOnly: true,
+    httpOnly: process.env.NODE_ENV === 'prod',
+    secure: process.env.NODE_ENV === 'prod',
     maxAge: 2 * 24 * 60 * 60 * 1000, // 2 days
   },
 }));
@@ -117,7 +118,7 @@ We then set a **session secret** which we define in our `.env` file since it's, 
 
 #### Cookie options
 
-Lastly, we pass in options for the cookies that will be created by express-session. In our example, we make it inaccessible to JavaScript on the front-end and set a 2-day expiry. You can always use environment variables to set values or even conditionally set them (e.g. `httpOnly: process.env.NODE_ENV === "prod"` can allow you to access session cookies via front-end JavaScript in development but prevent it in production).
+Lastly, we pass in options for the cookies that will be created by express-session. In our example, we set a 2-day expiry and conditionally set the `httpOnly` and `secure` properties so that they're only true when in production. This is so that when we're developing locally with localhost, we can still access the cookie via `document.cookie` on the front end if necessary, and still allow the cookie to be set over HTTP (we only want to limit the cookie to HTTPS connections when deployed).
 
 ### Creating users
 
