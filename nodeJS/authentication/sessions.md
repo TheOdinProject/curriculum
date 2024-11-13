@@ -18,7 +18,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Sessions
 
-When a user successfully logs in, we can store (serialize) some information about that user, such as their user ID in a database table, somewhere server-side like another database table. That data will have its own ID and may also have an expiry time. We can then store that session's ID in a cookie (it doesn't need anything else stored in it) and send it back to the user in the server response.
+A session is just information about a user's interaction with the site in a given time period and can be used to store a whole variety of data. For persisting logins, we can store (serialize) some information about that user, such as their user ID, in a database table. That data will have its own ID and may also have an expiry time. We can then store that session's ID in a cookie (it doesn't need anything else stored in it) and send it back to the user in the server response.
 
 The client now has that cookie with the session ID and can then attach it to any future requests. The server can then check the database for a valid session with the same ID it found in the cookie. If there is a matching session, great - it can extract the serialized user information (deserialize) and continue with the request now it knows who made it. If there is no matching or valid session, like with logging in, we don't know who the user is so we can end the request there.
 
@@ -103,11 +103,19 @@ app.listen(PORT, () => {
 });
 ```
 
+#### Session store
+
 Let's talk about our session config which we apply to every incoming request (by mounting it on `app`). Firstly, we use the [connect-pg-simple](https://www.npmjs.com/package/connect-pg-simple) library to make express-session store session data in our database (creating a "session" table if it does not already exist). Without this, sessions would be stored in memory by default which would not persist through any server restarts!
+
+#### Prevent unnecessary session saving
 
 Then we turn off `resave` and `saveUninitialized`. For every request, express-session will automatically check if a valid session cookie is attached. If a valid session cookie is attached then it deserializes the session data, populating `req.session` with it - we will make use of this later. If no valid session cookie is attached to the request, it will instead create a brand new session object in `req.session`. At the end of the request-response cycle, if the session object has been modified in any way, the session will be saved to the database. Turning off `resave` and `saveUninitialized` makes sure we don't save any unmodified session objects to the database.
 
-We then set a **session secret**, which we define in our `.env` file since it's, well, a secret. This should be some string that's hard to guess - you can use a random key generator online for this - and is used by express-session alongside the session ID to generate a hash and sign the resulting session cookie. Then if an attacker tries to tamper with a session cookie, the signature would no longer match and the server can invalidate it.
+#### Session secret
+
+We then set a **session secret** which we define in our `.env` file since it's, well, a secret. This should be some string that's hard to guess - you can use a random key generator online for this - and is used by express-session alongside the session ID to generate a hash and sign the resulting session cookie. Then if an attacker tries to tamper with a session cookie, the signature would no longer match and the server can invalidate it.
+
+#### Cookie options
 
 Lastly, we pass in options for the cookies that will be created by express-session. In our example, we make it inaccessible to JavaScript on the front-end and set a 2-day expiry. You can always use environment variables to set values or even conditionally set them (e.g. `httpOnly: process.env.NODE_ENV === "prod"` can allow you to access session cookies via front-end JavaScript in development but prevent it in production).
 
@@ -205,9 +213,11 @@ app.post("/login", async (req, res, next) => {
 });
 ```
 
-What's going on here? First we have our route for rendering the login page. In our `POST` route, we query our db for the submitted ujername. If the username exists *and* the submitted password matches, we serialize the user ID to the session data then redirect to the homepage (if you've never seen `?.` before, check out [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)). Otherwise if no matching username/password combo, we rerender the login page with an error message. Note that we cannot serialize the user ID to `req.session.id` because [`req.session.id` is already used for the session's own ID](http://expressjs.com/en/resources/middleware/session.html#reqsessionid).
+What's going on here? First we have our route for rendering the login page. In our `POST` route, we query our db for the submitted username. If the username exists *and* the submitted password matches, we serialize the user ID to the session data then redirect to the homepage (if you've never seen `?.` before, check out [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)). Express-session automatically sets the cookie and attaches it to the response.
 
-We only need to serialize the user ID as that will never change for a user (unlike a username which could be changed by a user if that feature is implemented). It's the only user info we'll need as later we'll write a middleware that deserializes the user ID from a matching session then query the db with that ID to grab any other user info. This middleware can then be added to the start of any routes that need authenticating.
+If no matching username/password combo, we rerender the login page with an error message. Note that we cannot serialize the user ID to `req.session.id` because [`req.session.id` is already used for the session's own ID](http://expressjs.com/en/resources/middleware/session.html#reqsessionid).
+
+We only need to serialize the user ID as that will never change for a user (unlike a username which could be changed by a user if that feature is implemented). It's the only user info we'll need right now since later we'll write a middleware that uses the user ID to grab any other user info like the current username.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
@@ -330,6 +340,8 @@ By far the worst way we can store passwords is to just store them in plaintext l
 
 Remember [hash functions](https://www.theodinproject.com/lessons/javascript-hashmap-data-structure#what-is-a-hash-code) from the Hashmap lesson? We want to hash our passwords then store the hash since hashes are one-way functions. We also want to [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) the password when hashing to prevent identical passwords from being stored with identical hashes. On top of all that, we also want the hash function to be purposely slow - not so slow that a normal user will be waiting ages just to log in but certainly slow enough to minimize the number of attempts an attacker might be able to make in a given amount of time.
 
+#### Argon2
+
 All of this can be done for us via the [argon2 npm package](https://www.npmjs.com/package/argon2) (which uses the Argon2id function by default as recommended by the Open Worldwide Application Security Project (OWASP)). Fortunately for us, using it doesn't require that much extra work. Going back to our `POST /signup` middleware, let's hash our password before we store it:
 
 ```bash
@@ -396,13 +408,24 @@ Now when a user signs up, their password is salted and hashed before storage whi
 
 <div class="lesson-content__panel" markdown="1">
 
+1. Bookmark the [express-session] docs if you haven't yet.
+1. Watch this wonderful [video about password storage security](https://www.youtube.com/watch?v=qgpsIBLvrGY) from Studying With Alex.
+
 </div>
 
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [From inside to outside, what is the order of box-model properties?](#the-box-model)
+- [What is a session?](#sessions)
+- [What library can we use in Express to implement sessions?](#implementing-sessions)
+- [Why do we need to set a session secret?](#session-secret)
+- [How should the server respond if a user successfully logs in?](#logging-in)
+- [After a user has logged in, how can the server recognize them for future requests?](#handling-post-login-requests)
+- [What should the server do to "log a user out"?](#logging-out)
+- [If we are to store passwords in our database, how can we ensure secure storage?](#storing-passwords-securely)
+- [Should passwords be encrypted for storage and why/why not?](#storing-passwords-securely)
+- [What library can we use to help us securely store passwords?](#argon2)
 
 ### Additional resources
 
