@@ -160,7 +160,7 @@ app.post("/signup", async (req, res, next) => {
     );
     res.redirect("/");
   } catch(err) {
-    return next(err);
+    next(err);
   }
 });
 ```
@@ -302,15 +302,35 @@ If you serve your app and go to the site on localhost, you should be redirected 
 
 We can add our `checkAuthenticated` middleware to any routes that we need authenticate, or even as router-level middleware for example. You can of course customize this function however you wish - the code shown here is just for our example app.
 
+### Logging out
+
+A user is only "logged in" because their requests have a session cookie attached containing an ID matching a valid session in our db. So to "log out", we can just destroy the session in our database, which will automatically invalidate the client cookie since it will no longer match any sessions.
+
+To destroy the session, express-session gives us a lovely `req.session.destroy` function. We give it a callback run after the destruction occurs - if there was an error destroying the session, pass control to the error handler middleware, otherwise redirect to the login page. Since the session was destroyed, if a user tried to access the `GET /` route, they would not be authenticated and so will be redirected to the login page.
+
+```javascript
+app.post("/logout", (req, res, next) => {
+  req.session.destroy((err) => {
+    if (err) {
+      next(err);
+    } else {
+      res.redirect("/login");
+    }
+  });
+});
+```
+
+We should have a working app that allows new users to sign up, log in and log out. Try it out before we move on to talk about password security.
+
 ### Storing passwords securely
 
-The most secure way to store passwords? Don't. Offloading that responsibility to others by letting users log in with their Facebook or Google accounts means you won't need to store passwords on your side at all. That being said, that's very much out of scope right now and not particularly helpful with understanding what generally goes on behind the scenes.
+The most secure way to store passwords? Don't. Offloading that responsibility to other systems by letting users log in with their Facebook or Google accounts means you won't need to store passwords on your side at all. That being said, that's very much out of scope right now and doesn't really help us with learning these fundamental behind-the-scenes.
 
-By far the worst way we can store passwords is to just store them in plaintext, just as we've done in our example app earlier. Even if we encrypted the passwords, all an attacker would need is the key to decrypt all the passwords and let's face it. If someone has managed to gain access to your database, it probably won't be very hard for them to get the encryption key assuming they don't already have it.
+By far the worst way we can store passwords is to just store them in plaintext like we've done in our example app earlier. Even if we encrypted the passwords, all an attacker would need is the key to decrypt all the passwords. Let's face it, if someone managed to gain access to your database, it probably wouldn't be very hard for them to get the encryption key (assuming they don't already have it).
 
-Remember [hash functions](https://www.theodinproject.com/lessons/javascript-hashmap-data-structure#what-is-a-hash-code) from the Hashmap lesson? We want to hash our passwords since they're one-way processes, then store the hash. We also want to [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) the password when hashing to prevent identical passwords from being stored with identical hashes (after all, someone out there will use `Password123` as their password... tsk tsk). On top of all that, we also want the hash function to be purposely slow - not so slow that a normal user will be waiting ages just to log in but certainly slow enough to minimise the number of attempts an attacker might be able to do in a given amount of time.
+Remember [hash functions](https://www.theodinproject.com/lessons/javascript-hashmap-data-structure#what-is-a-hash-code) from the Hashmap lesson? We want to hash our passwords then store the hash since hashes are one-way functions. We also want to [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) the password when hashing to prevent identical passwords from being stored with identical hashes. On top of all that, we also want the hash function to be purposely slow - not so slow that a normal user will be waiting ages just to log in but certainly slow enough to minimize the number of attempts an attacker might be able to make in a given amount of time.
 
-All of this can be done for us via the [argon2 npm package](https://www.npmjs.com/package/argon2) (which uses the Argon2id function by default as recommended by the Open Worldwide Application Security Project (OWASP)). Fortunately for us, using it doesn't require that much extra. Going back to our `POST /signup` middleware, let's hash our password before we store it:
+All of this can be done for us via the [argon2 npm package](https://www.npmjs.com/package/argon2) (which uses the Argon2id function by default as recommended by the Open Worldwide Application Security Project (OWASP)). Fortunately for us, using it doesn't require that much extra work. Going back to our `POST /signup` middleware, let's hash our password before we store it:
 
 ```bash
 npm install argon2
@@ -328,7 +348,7 @@ app.post("/signup", async (req, res, next) => {
     );
     res.redirect("/");
   } catch(err) {
-    return next(err);
+    next(err);
   }
 });
 ```
@@ -354,7 +374,7 @@ app.post("/login", async (req, res, next) => {
 
     const isMatchingPassword = await argon2.verify(
       user.password,
-      req.body.password
+      req.body.password,
     );
     if (isMatchingPassword) {
       req.session.userId = user.id;
