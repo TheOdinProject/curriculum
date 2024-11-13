@@ -302,6 +302,76 @@ If you serve your app and go to the site on localhost, you should be redirected 
 
 We can add our `checkAuthenticated` middleware to any routes that we need authenticate, or even as router-level middleware for example. You can of course customize this function however you wish - the code shown here is just for our example app.
 
+### Storing passwords securely
+
+The most secure way to store passwords? Don't. Offloading that responsibility to others by letting users log in with their Facebook or Google accounts means you won't need to store passwords on your side at all. That being said, that's very much out of scope right now and not particularly helpful with understanding what generally goes on behind the scenes.
+
+By far the worst way we can store passwords is to just store them in plaintext, just as we've done in our example app earlier. Even if we encrypted the passwords, all an attacker would need is the key to decrypt all the passwords and let's face it. If someone has managed to gain access to your database, it probably won't be very hard for them to get the encryption key assuming they don't already have it.
+
+Remember [hash functions](https://www.theodinproject.com/lessons/javascript-hashmap-data-structure#what-is-a-hash-code) from the Hashmap lesson? We want to hash our passwords since they're one-way processes, then store the hash. We also want to [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) the password when hashing to prevent identical passwords from being stored with identical hashes (after all, someone out there will use `Password123` as their password... tsk tsk). On top of all that, we also want the hash function to be purposely slow - not so slow that a normal user will be waiting ages just to log in but certainly slow enough to minimise the number of attempts an attacker might be able to do in a given amount of time.
+
+All of this can be done for us via the [argon2 npm package](https://www.npmjs.com/package/argon2) (which uses the Argon2id function by default as recommended by the Open Worldwide Application Security Project (OWASP)). Fortunately for us, using it doesn't require that much extra. Going back to our `POST /signup` middleware, let's hash our password before we store it:
+
+```bash
+npm install argon2
+```
+
+```javascript
+const argon2 = require("argon2");
+
+app.post("/signup", async (req, res, next) => {
+  try {
+    const hashedPassword = await argon2.hash(req.body.password);
+    await pool.query(
+      "INSERT INTO users (username, password) VALUES ($1, $2)",
+      [req.body.username, hashedPassword],
+    );
+    res.redirect("/");
+  } catch(err) {
+    return next(err);
+  }
+});
+```
+
+We don't need to set modify any of its options as the defaults are all perfectly sufficient for our use case, including the salt. Now in our `POST /login` middleware, we can also use argon2 to verify the submitted password against the stored salted hash:
+
+```javascript
+app.post("/login", async (req, res, next) => {
+  try {
+    const { rows } = await pool.query(
+      "SELECT * FROM users WHERE username = $1",
+      [req.body.username],
+    );
+    const user = rows[0];
+
+    // argon2.verify requires an argon2 hash to compare
+    // so we must early return if there is no matching user
+    if (!user) {
+      return res.render("login", {
+        error: "Incorrect username or password",
+      });
+    }
+
+    const isMatchingPassword = await argon2.verify(
+      user.password,
+      req.body.password
+    );
+    if (isMatchingPassword) {
+      req.session.userId = user.id;
+      res.redirect("/");
+    } else {
+      res.render("login", {
+        error: "Incorrect username or password",
+      });
+    }
+  } catch(err) {
+    next(err);
+  }
+});
+```
+
+Now when a user signs up, their password is salted and hashed before storage which is then used to verify the password upon login.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
