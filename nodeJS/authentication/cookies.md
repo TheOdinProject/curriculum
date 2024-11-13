@@ -49,7 +49,7 @@ Depending on where you live, you may have come across cookie consent banners whe
 
 The exact requirements depend on the regulations for the region (if any). In the case of EU GDPR for example, restrictions apply only to cookies that are not deemed "strictly necessary" to the website's function. A cookie used solely to keep someone logged into a website is an example of a strictly necessary cookie and so will not require user consent. Cookies used as part of user data collection, such as with Google analytics, are not strictly necessary and so would require user consent alongside clear explanations of what data will be collected and how they'd be used. Such users should also be allowed to withdraw consent and opt out of those cookies.
 
-In this course, we will only be demonstrating the use of cookies for authentication purposes ("strictly neccessary"). Nonetheless, it's good to be generally aware of such regulations around cookies should you ever wish to use them for other purposes.
+In this course, we will only be demonstrating the use of cookies for authentication purposes ("strictly necessary"). Nonetheless, it's good to be generally aware of such regulations around cookies should you ever wish to use them for other purposes.
 
 ### Assignment
 
@@ -65,7 +65,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What are cookies?](#introduction)
 - [Why might you need to set an expiry date on a cookie?](#expiresmaxage)
-- [Why might you want to prevent client-side JavaScript from accessing a cookie and how would you implement this?](#httponly)
+- [Why might you want to prevent client-side JavaScript from accessing a cookie and how would you implement that?](#httponly)
 - [What does the "Secure" attribute do to a cookie?](#secure)
 - [Under some regulations, what kinds of cookies would require user consent before they can be used?](#regulations-and-cookie-consent)
 
