@@ -82,18 +82,20 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 app.use(session({
-  secret: process.env.SESSION_SECRET,
+  store: new pgSession({ pool: pool }),
   resave: false,
   saveUninitialized: false,
+  secret: process.env.SESSION_SECRET,
   cookie: {
     httpOnly: true,
     maxAge: 2 * 24 * 60 * 60 * 1000, // 2 days
   },
-  store: new pgSession({ pool: pool }),
 }));
 app.use(express.urlencoded({ extended: false }));
 
-app.get("/", (req, res) => res.render("index"));
+app.get("/", (req, res) => {
+  res.render("index");
+});
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
@@ -101,13 +103,13 @@ app.listen(PORT, () => {
 });
 ```
 
-Let's talk about our `session` config, which we set for our whole app to use on every request. First, we set a **session secret**, which we set in our `.env` file since it's, well, a secret. This should be some string that's hard to guess - you can use a random key generator online for this - and is used by express-session alongside the session ID to generate a hash and sign the resulting session cookie. Then if an attacker tries to tamper with a session cookie, the signature would no longer match and the server can invalidate it.
+Let's talk about our session config which we apply to every incoming request (by mounting it on `app`). Firstly, we use the [connect-pg-simple](https://www.npmjs.com/package/connect-pg-simple) library to make express-session store session data in our database (creating a "session" table if it does not already exist). Without this, sessions would be stored in memory by default which would not persist through any server restarts!
 
-We also turn off `resave` and `saveUninitialized`, which means express-session will only save a session to our database or overwrite an existing one if it gets modified as part of the request. No need to save anything that hasn't been changed.
+Then we turn off `resave` and `saveUninitialized`. For every request, express-session will automatically check if a valid session cookie is attached. If a valid session cookie is attached then it deserializes the session data, populating `req.session` with it - we will make use of this later. If no valid session cookie is attached to the request, it will instead create a brand new session object in `req.session`. At the end of the request-response cycle, if the session object has been modified in any way, the session will be saved to the database. Turning off `resave` and `saveUninitialized` makes sure we don't save any unmodified session objects to the database.
 
-We then pass in options for the session cookies that will be created. In the example, we make it inaccessible to JavaScript on the front-end and set a 2-day expiry. You can always use environment variables to set or conditionally set values (e.g. `httpOnly: process.env.NODE_ENV === "prod"` can allow you to access session cookies via front-end JavaScript in development but prevent it in production).
+We then set a **session secret**, which we define in our `.env` file since it's, well, a secret. This should be some string that's hard to guess - you can use a random key generator online for this - and is used by express-session alongside the session ID to generate a hash and sign the resulting session cookie. Then if an attacker tries to tamper with a session cookie, the signature would no longer match and the server can invalidate it.
 
-Lastly, we use the [connect-pg-simple](https://www.npmjs.com/package/connect-pg-simple) library to make express-session store session data in our database inside a new table. Without this, sessions would be stored in memory by default which would not persist through any server restarts!
+Lastly, we pass in options for the cookies that will be created by express-session. In our example, we make it inaccessible to JavaScript on the front-end and set a 2-day expiry. You can always use environment variables to set values or even conditionally set them (e.g. `httpOnly: process.env.NODE_ENV === "prod"` can allow you to access session cookies via front-end JavaScript in development but prevent it in production).
 
 ### Creating users
 
@@ -163,7 +165,7 @@ app.post("/signup", async (req, res, next) => {
 });
 ```
 
-Remember, we're omitting the validation step as well as storing the raw password - this is of course unsafe but is just for demonstration purposes. We have also not implemented a way to prevent duplicate usernames, so that's something for you to handle yourself in your projects. Password hashing will be introduced later in this lesson. For now, you should be able to serve your app and visit `/sign-up`, submit the form and be redirected to the home view. Open your database in `psql` and query the users table to see your first user!
+Remember, we're omitting the validation step as well as storing the raw password - this is of course unsafe and is solely for demonstration purposes. Password hashing will be introduced later in this lesson. We have also not done anything to prevent duplicate usernames, so that's something for you to handle yourself in your projects. For now, you should be able to serve your app and visit `/sign-up`, submit the form and be redirected to the home view. Open your database in `psql` and query the users table to see your first user!
 
 ### Logging in
 
@@ -262,9 +264,7 @@ And edit the homepage to show a personalized greeting with a logout button (whic
 
 ### Handling post-login requests
 
-Express-session does some magic for us by automatically checking if an incoming request has a session cookie attached. If so, it will check if there is a valid session that matches the ID and populate `req.session` with any matching session info. If no session cookie or match, a fresh session will be loaded (which will only be saved at the end of the request cycle if it has been modified by us).
-
-As of now, our `GET /` route will always display the homepage and will crash if someone has not yet logged in! There would not be a cookie and therefore no session to deserialize. We can write a middleware that checks the current loaded session and if it has a user ID in it, we can use it to query the db and grab any user info we need, then continue to the homepage. Otherwise, the user is not authenticated and we can redirect to the login page.
+As of now, our `GET /` route will always display the homepage and will crash if someone has not yet logged in! There would not be a cookie and therefore no session to deserialize, so `req.session` would contain a fresh session object without any user properties. We can write a middleware that checks `req.session` and if it has a user ID in it, we can use it to query the db and grab any user info we need, then continue to the homepage. Otherwise, the user is not authenticated and we can redirect to the login page.
 
 ```javascript
 async function checkAuthenticated(req, res, next) {
