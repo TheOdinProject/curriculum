@@ -1,8 +1,8 @@
 ### Introduction
 
-Now that we've been introduced to cookies and their various uses and properties, let's use them to help us implement something. We want to allow someone to log in once and let the server "remember" them, automatically recognising any future requests from them.
+Now that we've been introduced to cookies and their various uses and properties, let's use them to help us implement something. We want to allow someone to log in once and let the server "remember" them, automatically recognizing any future requests from them.
 
-The basic login process (with a username and password) is rather straightforward. The user submits a form with their username and password, then the server checks the database if that username/password combo exists. If it does, great - it knows who the requester is and can continue with the rest of the request. If it does not exist, it does not know who the requester is so it can end the request there and then.
+The basic login process (with a username and password) is rather straightforward. The user submits a form with their username and password, then the server checks the database to see if that username/password combo exists. If it does, great - it knows who the requester is and can continue with the rest of the request. If it does not exist, it does not know who the requester is, so it can end the request there and then.
 
 So if someone does successfully "log in", how does the server recognize that the next request that user sends is coming from them? Without a system to persist the login, it'd just be a plain ol' request like any other and could have come from anyone. To handle this, we will use **sessions**.
 
@@ -20,13 +20,13 @@ This section contains a general overview of topics that you will learn in this l
 
 A session is just information about a user's interaction with the site in a given time period and can be used to store a whole variety of data. For persisting logins, we can store (serialize) some information about that user, such as their user ID, in a database table. That data will have its own ID and may also have an expiry time. We can then store that session's ID in a cookie (it doesn't need anything else stored in it) and send it back to the user in the server response.
 
-The client now has that cookie with the session ID and can then attach it to any future requests. The server can then check the database for a valid session with the same ID it found in the cookie. If there is a matching session, great - it can extract the serialized user information (deserialize) and continue with the request now it knows who made it. If there is no matching or valid session, like with logging in, we don't know who the user is so we can end the request there.
+The client now has that cookie with the session ID and can then attach it to any future requests. The server can then check the database for a valid session with the same ID it found in the cookie. If there is a matching session, great - it can extract the serialized user information (deserialize) and continue with the request now it knows who made it. If there is no matching or valid session, like with logging in, we don't know who the user is, so we can end the request there.
 
 This is exactly like having a name badge or access pass at work or some event. The cookie is like an access pass which you (the client) give to a machine or security (the server) and it checks who you are and if you're allowed in or not. You can go home and come back the next day, reusing that pass as many times as you need so long as you still have it and your details are still in the system.
 
 ### Implementing sessions
 
-Let's use [express-session](https://expressjs.com/en/resources/middleware/session.html) to implement a basic session authentication system - code along! For the purpose of streamlining our example, we'll put all of the JavaScript in `app.js` and start with hardcoding a few things. When it comes to your own projects, separate different parts like routes, controllers etc. to their own files and folders as you'll have done before. The same can be done for any config for auth features.
+Let's use [express-session](https://expressjs.com/en/resources/middleware/session.html) to implement a basic session authentication system - code along! For the purpose of streamlining our example, we'll put all of the JavaScript in `app.js` and start with hardcoding a few things. When it comes to your own projects, separate different parts like routes, controllers etc. to their own files and folders as you'll have done before. The same can be done for any configuration for authentication features.
 
 #### Setup
 
@@ -40,7 +40,7 @@ CREATE TABLE users (
 );
 ```
 
-Now we'll set up a minimal express app. We'll need the following dependencies installed first:
+Now we'll set up a minimal Express app. We'll need the following dependencies installed first:
 
 ```bash
 npm install express express-session ejs dotenv pg connect-pg-simple
@@ -178,14 +178,14 @@ Remember, we're omitting the validation step as well as storing the raw password
 
 ### Logging in
 
-Now we have the ability to put users in our database, let's allow them to log in to see a special greeting instead of the generic "Hello world!". We will need the following steps to occur:
+Now that we have the ability to put users in our database, let's allow them to log in to see a special greeting instead of the generic "Hello world!". We will need the following steps to occur:
 
 1. Check if the submitted username and password match a user in our users table in our database.
 1. If no match is found, end the request there, rejecting the login. Otherwise, serialize the user's ID to a new session.
 1. Set a cookie with that session's ID.
 1. Respond to the request with the cookie.
 
-We'll need to start with the login logic itself, so let's create login routes. Remember we're doing everything together for demonstration purposes only; organise and extract code as you see fit.
+We'll need to start with the login logic itself, so let's create login routes. Remember we're doing everything together for demonstration purposes only; organize and extract code as you see fit.
 
 ```javascript
 app.get("/login", (req, res) => {
@@ -216,15 +216,15 @@ app.post("/login", async (req, res, next) => {
 
 What's going on here? First we have our route for rendering the login page. In our `POST` route, we query our db for the submitted username. If the username exists *and* the submitted password matches, we serialize the user ID to the session data then redirect to the homepage (if you've never seen `?.` before, check out [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)). Express-session automatically sets the cookie and attaches it to the response.
 
-If no matching username/password combo, we rerender the login page with an error message. Note that we cannot serialize the user ID to `req.session.id` because [`req.session.id` is already used for the session's own ID](http://expressjs.com/en/resources/middleware/session.html#reqsessionid).
+If there is no matching username/password combo, we render the login page again with an error message. Note that we cannot serialize the user ID to `req.session.id` because [`req.session.id` is already used for the session's own ID](http://expressjs.com/en/resources/middleware/session.html#reqsessionid).
 
-We only need to serialize the user ID as that will never change for a user (unlike a username which could be changed by a user if that feature is implemented). It's the only user info we'll need right now since later we'll write a middleware that uses the user ID to grab any other user info like the current username.
+We only need to serialize the user ID as that will never change for a user (unlike a username, which could be changed by a user if that feature is implemented). It's the only user info we'll need right now since later we'll write a middleware that uses the user ID to grab any other user info like the current username.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
 #### Warning: Use generic login error messages
 
-Don't specify which form fields are incorrect when providing validation feedback. Providing specific feedback can allow attackers to target accounts if they know a specific username exists, for example. It also means if you misspell your username but it happens to match someone else's username, you're less likely to be misled into thinking the you entered your username correctly.
+Don't specify which form fields are incorrect when providing validation feedback. Providing specific feedback can allow attackers to target accounts if they know a specific username exists, for example. It also means if you misspell your username but it happens to match someone else's username, you're less likely to be misled into thinking you entered your username correctly.
 
 </div>
 
@@ -318,7 +318,7 @@ We can add our `checkAuthenticated` middleware to any routes that we need authen
 
 A user is only "logged in" because their requests have a session cookie attached containing an ID matching a valid session in our db. So to "log out", we can just destroy the session in our database, which will automatically invalidate the client cookie since it will no longer match any sessions.
 
-To destroy the session, express-session gives us a lovely `req.session.destroy` function. We give it a callback run after the destruction occurs - if there was an error destroying the session, pass control to the error handler middleware, otherwise redirect to the login page. Since the session was destroyed, if a user tried to access the `GET /` route, they would not be authenticated and so will be redirected to the login page.
+To destroy the session, express-session gives us a lovely `req.session.destroy` function. We give it a callback run after the destruction occurs - if there was an error destroying the session, pass control to the error handler middleware, otherwise, redirect to the login page. Since the session was destroyed, if a user tried to access the `GET /` route, they would not be authenticated and so would be redirected to the login page.
 
 ```javascript
 app.post("/logout", (req, res, next) => {
@@ -336,11 +336,11 @@ We should have a working app that allows new users to sign up, log in and log ou
 
 ### Storing passwords securely
 
-The most secure way to store passwords? Don't. Offloading that responsibility to other systems by letting users log in with their Facebook or Google accounts means you won't need to store passwords on your side at all. That being said, that's very much out of scope right now and doesn't really help us with learning these fundamental behind-the-scenes.
+The most secure way to store passwords? Don't. Offloading that responsibility to other systems by letting users log in with their Facebook or Google accounts means you won't need to store passwords on your side at all. That being said, that's very much out of scope right now and doesn't really help us with learning these fundamentals behind the scenes.
 
 By far the worst way we can store passwords is to just store them in plaintext like we've done in our example app earlier. Even if we encrypted the passwords, all an attacker would need is the key to decrypt all the passwords. Let's face it, if someone managed to gain access to your database, it probably wouldn't be very hard for them to get the encryption key (assuming they don't already have it).
 
-Remember [hash functions](https://www.theodinproject.com/lessons/javascript-hashmap-data-structure#what-is-a-hash-code) from the Hashmap lesson? We want to hash our passwords then store the hash since hashes are one-way functions. We also want to [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) the password when hashing to prevent identical passwords from being stored with identical hashes. On top of all that, we also want the hash function to be purposely slow - not so slow that a normal user will be waiting ages just to log in but certainly slow enough to minimize the number of attempts an attacker might be able to make in a given amount of time.
+Remember [hash functions](https://www.theodinproject.com/lessons/javascript-hashmap-data-structure#what-is-a-hash-code) from the Hashmap lesson? We want to hash our passwords, then store the hash since hashes are one-way functions. We also want to [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) the password when hashing to prevent identical passwords from being stored with identical hashes. On top of all that, we also want the hash function to be purposely slow - not so slow that a normal user will be waiting ages just to log in but certainly slow enough to minimize the number of attempts an attacker might be able to make in a given amount of time.
 
 #### Argon2
 
@@ -367,7 +367,7 @@ app.post("/signup", async (req, res, next) => {
 });
 ```
 
-We don't need to set modify any of its options as the defaults all meet the [password storage recommendations set by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#introduction) (Open Worldwide Application Security Project). Now in our `POST /login` middleware, we can also use argon2 to verify the submitted password against the stored salted hash:
+We don't need to modify any of its options, as the defaults all meet the [password storage recommendations set by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#introduction) (Open Worldwide Application Security Project). Now in our `POST /login` middleware, we can also use argon2 to verify the submitted password against the stored salted hash:
 
 ```javascript
 app.post("/login", async (req, res, next) => {
@@ -404,7 +404,7 @@ app.post("/login", async (req, res, next) => {
 });
 ```
 
-Now when a user signs up, their password is salted and hashed before storage which is then used to verify the password upon login.
+Now, when a user signs up, their password is salted and hashed before storage, which is then used to verify the password upon login.
 
 ### Assignment
 
