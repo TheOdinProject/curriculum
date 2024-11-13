@@ -310,7 +310,7 @@ app.get("/", checkAuthenticated, (req, res) => {
 });
 ```
 
-If you serve your app and go to the site on localhost, you should be redirected to `/login` straightaway since you won't yet have a session cookie. You should already have a user in your database, so log in with your credentials and see your personalized greeting!
+If you serve your app and go to the site on localhost, you should be redirected to `/login` straight away since you won't yet have a session cookie. You should already have a user in your database, so log in with your credentials and see your personalized greeting!
 
 We can add our `checkAuthenticated` middleware to any routes that we need authenticate, or even as router-level middleware for example. You can of course customize this function however you wish - the code shown here is just for our example app.
 
