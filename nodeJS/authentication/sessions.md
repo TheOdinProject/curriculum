@@ -26,7 +26,7 @@ This is exactly like having a name badge or access pass at work or some event. T
 
 ### Implementing sessions
 
-Let's use [express-session](https://expressjs.com/en/resources/middleware/session.html) to implement a basic session authentication system. For the purpose of streamlining our example, we'll put all of the JavaScript in `app.js` and start with hardcoding a few things. When it comes to your own projects, separate different parts like routes, controllers etc. to their own files and folders as you'll have done before. The same can be done for any config for auth features.
+Let's use [express-session](https://expressjs.com/en/resources/middleware/session.html) to implement a basic session authentication system - code along! For the purpose of streamlining our example, we'll put all of the JavaScript in `app.js` and start with hardcoding a few things. When it comes to your own projects, separate different parts like routes, controllers etc. to their own files and folders as you'll have done before. The same can be done for any config for auth features.
 
 #### Setup
 
@@ -140,6 +140,7 @@ We will need a way for a user to create an account, so let's create a sign up fo
   <title>Sign up</title>
 </head>
 <body>
+  <a href="/login">Log in</a>
   <h1>Sign up</h1>
   <form action="/signup" method="POST">
     <label for="username">Username</label>
@@ -238,6 +239,7 @@ Let's create the login page:
   <title>Login</title>
 </head>
 <body>
+  <a href="/signup">Sign up</a>
   <h1>Please log in</h1>
   <form action="/login" method="POST">
     <label for="username">Username</label>
