@@ -133,7 +133,7 @@ We will need a way for a user to create an account, so let's create a sign up fo
 </head>
 <body>
   <h1>Sign up</h1>
-  <form action="/sign-up" method="POST">
+  <form action="/signup" method="POST">
     <label for="username">Username</label>
     <input id="username" name="username" type="text" />
     <label for="password">Password</label>
@@ -165,7 +165,7 @@ app.post("/signup", async (req, res, next) => {
 });
 ```
 
-Remember, we're omitting the validation step as well as storing the raw password - this is of course unsafe and is solely for demonstration purposes. Password hashing will be introduced later in this lesson. We have also not done anything to prevent duplicate usernames, so that's something for you to handle yourself in your projects. For now, you should be able to serve your app and visit `/sign-up`, submit the form and be redirected to the home view. Open your database in `psql` and query the users table to see your first user!
+Remember, we're omitting the validation step as well as storing the raw password - this is of course unsafe and is solely for demonstration purposes. Password hashing will be introduced later in this lesson. We have also not done anything to prevent duplicate usernames, so that's something for you to handle yourself in your projects. For now, you should be able to serve your app and visit `/signup`, submit the form and be redirected to the home view. Open your database in `psql` and query the users table to see your first user!
 
 ### Logging in
 
@@ -344,7 +344,7 @@ app.post("/login", async (req, res, next) => {
     );
     const user = rows[0];
 
-    // argon2.verify requires an argon2 hash to compare
+    // argon2.verify requires an argon2 hash as the first argument
     // so we must early return if there is no matching user
     if (!user) {
       return res.render("login", {
