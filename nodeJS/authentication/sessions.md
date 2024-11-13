@@ -342,7 +342,7 @@ Remember [hash functions](https://www.theodinproject.com/lessons/javascript-hash
 
 #### Argon2
 
-All of this can be done for us via the [argon2 npm package](https://www.npmjs.com/package/argon2) (which uses the Argon2id function by default as recommended by the Open Worldwide Application Security Project (OWASP)). Fortunately for us, using it doesn't require that much extra work. Going back to our `POST /signup` middleware, let's hash our password before we store it:
+All of this can be done for us via the [argon2 npm package](https://www.npmjs.com/package/argon2). Fortunately for us, using it doesn't require that much extra work. Going back to our `POST /signup` middleware, let's hash our password before we store it:
 
 ```bash
 npm install argon2
@@ -365,7 +365,7 @@ app.post("/signup", async (req, res, next) => {
 });
 ```
 
-We don't need to set modify any of its options as the defaults are all perfectly sufficient for our use case, including the salt. Now in our `POST /login` middleware, we can also use argon2 to verify the submitted password against the stored salted hash:
+We don't need to set modify any of its options as the defaults all meet the [password storage recommendations set by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#introduction) (Open Worldwide Application Security Project). Now in our `POST /login` middleware, we can also use argon2 to verify the submitted password against the stored salted hash:
 
 ```javascript
 app.post("/login", async (req, res, next) => {
