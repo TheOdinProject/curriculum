@@ -76,12 +76,11 @@ Your new recipe page should have the following content:
 
 #### Images you use should be free for your intended purpose
 
-There are many free images to be found and make sure to give credit to the creator of the image in your project.
+There are many free images available but make sure to give credit to the creator of the image in your project.
 
-An easy way to give credit is to include the creator's name and contact info in a README file in your repository, or give [attribution](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US).
-However, always follow the specific license requirements for each image you use.
+An easy way to provide credit is to include the creator's name and contact info in a README file in your repository, or give [attribution](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US).
 
-To find them - Google images with "Creative Commons License", in image results -> Tools -> Usage rights. Choose & click on a image and click license details.
+To find them - Google images and in image results -> Tools -> Usage rights -> "Creative Commons". Choose & click on a image and click license details.
 
 We recommend that you always review the license requirements of any images you want to use.
 
