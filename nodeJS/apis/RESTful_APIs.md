@@ -9,6 +9,7 @@ This section contains a general overview of topics that you will learn in this l
 - Understand what makes an API RESTful.
 - Detail the naming conventions for RESTful API endpoints.
 - Reinforcing what HTTP methods/verbs are.
+- Understand the different components of an URL.
 - Recognising RESTful APIs from examples.
 
 ### CUSTOM SECTION HEADING
