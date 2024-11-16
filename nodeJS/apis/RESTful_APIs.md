@@ -1,6 +1,8 @@
 ### Introduction
 
-A BRIEF INTRODUCTION.
+Up until now you have been creating a server to serve your assets like HTML, CSS and JavaScript. But you have also learnt about React and client-side navigation - here is where we come to understand why. In about the last decade, a specific pattern for developing websites has gained a lot of popularity. Instead of creating an app that hosts both the database and view templates, one can separate these concerns into separate projects, hosting their backend and database on a server (either on something like [Heroku](https://www.heroku.com/) or on a VPS like [Digital Ocean](https://www.digitalocean.com/)), then using a service such as [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/) to host their frontend.
+
+This technique is sometimes referred to as the [Jamstack](https://jamstack.org/what-is-jamstack/). The most glaring benefit to this architecture lies in its seperation of the business logic and view logic. This allows you to use a singular backend as a source of data for whichever form of frontend application(s) you want. You can send data to a website, a desktop app and a mobile app with the same backend.
 
 ### Lesson overview
 
@@ -15,10 +17,6 @@ This section contains a general overview of topics that you will learn in this l
 ### So what is an API?
 
 Simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learnt in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. When you write a program, you can programmatically open up a browser and try to access a website's data. But usually, you don't have to bother with that - you can ask for the data directly by using the website's API.
-
-Up until now you have been creating a server to serve your assets like HTML, CSS and JavaScript. But you have also learnt about React and client-side navigation - here is where we come to understand why. In about the last decade, a specific pattern for developing websites has gained a lot of popularity. Instead of creating an app that hosts both the database and view templates, one can separate these concerns into separate projects, hosting their backend and database on a server (either on something like [Heroku](https://www.heroku.com/) or on a VPS like [Digital Ocean](https://www.digitalocean.com/)), then using a service such as [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/) to host their frontend.
-
-This technique is sometimes referred to as the [Jamstack](https://jamstack.org/what-is-jamstack/). The most glaring benefit to this architecture lies in its seperation of the business logic and view logic. This allows you to use a singular backend as a source of data for whichever form of frontend application(s) you want. You can send data to a website, a desktop app and a mobile app with the same backend.
 
 As mentioned, generally, your backend application will need to send data to your frontend. The most popular way to do so by far is in JSON.
 
