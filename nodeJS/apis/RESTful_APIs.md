@@ -97,38 +97,6 @@ Since we have already talked about seperating the client and the server, it fufi
 
 As mentioned, usually your backend application will need to send data to your frontend. The most popular way to do so by far is with JSON, primarily due to the ease of parsing it with JavaScript. So all we need to do is to replace our HTML and serve JSON instead. All that you have to do, thus, is to pass your information to [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render).
 
-#### Note box variations
-
-<div class="lesson-note" markdown="1">
-
-#### A sample title
-
-A sample note box.
-
-</div>
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### level 4 heading for title is recommended
-
-A sample note box, variation: tip.
-
-</div>
-
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### But title is also optional
-
-A sample note box, variation: warning.
-
-</div>
-
-<div class="lesson-note lesson-note--critical" markdown="1">
-
-A sample note box, variation: critical.
-
-</div>
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
