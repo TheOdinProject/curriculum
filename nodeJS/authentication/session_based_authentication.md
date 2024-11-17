@@ -275,7 +275,7 @@ And edit the homepage to show a personalized greeting with a logout button (whic
 </html>
 ```
 
-### Handling post-login requests
+### Handling requests after login
 
 As of now, our `GET /` route will always display the homepage and will crash if someone has not yet logged in! There would not be a cookie and therefore no session to deserialize, so `req.session` would contain a fresh session object without any user properties. We can write a middleware that checks `req.session` and if it has a user ID in it, we can use it to query the db and grab any user info we need, then continue to the homepage. Otherwise, the user is not authenticated and we can redirect to the login page.
 
@@ -368,7 +368,7 @@ app.post("/signup", async (req, res, next) => {
 });
 ```
 
-We don't need to modify any of its options, as the defaults all meet the [password storage recommendations set by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#introduction) (Open Worldwide Application Security Project). Now in our `POST /login` middleware, we can also use argon2 to verify the submitted password against the stored salted hash.
+We don't need to modify any of its options, as the defaults all meet the [password storage recommendations set by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#introduction) (Open Worldwide Application Security Project). Now in our `POST /login` middleware, we can also use argon2 to verify the submitted password against the stored salted hash:
 
 ```javascript
 app.post("/login", async (req, res, next) => {
@@ -432,7 +432,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What library can we use in Express to implement sessions?](#implementing-sessions)
 - [Why do we need to set a session secret?](#session-secret)
 - [How should the server respond if a user successfully logs in?](#logging-in)
-- [After a user has logged in, how can the server recognize them for future requests?](#handling-post-login-requests)
+- [After a user has logged in, how can the server recognize them for future requests?](#handling-requests-after-login)
 - [What should the server do to "log a user out"?](#logging-out)
 - [If we are to store passwords in our database, how can we ensure secure storage?](#storing-passwords-securely)
 - [Should passwords be encrypted for storage and why/why not?](#storing-passwords-securely)
