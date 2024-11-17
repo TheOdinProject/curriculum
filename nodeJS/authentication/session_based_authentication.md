@@ -368,7 +368,7 @@ app.post("/signup", async (req, res, next) => {
 });
 ```
 
-We don't need to modify any of its options, as the defaults all meet the [password storage recommendations set by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#introduction) (Open Worldwide Application Security Project). Now in our `POST /login` middleware, we can also use argon2 to verify the submitted password against the stored salted hash:
+We don't need to modify any of its options, as the defaults all meet the [password storage recommendations set by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#introduction) (Open Worldwide Application Security Project). Now in our `POST /login` middleware, we can also use argon2 to verify the submitted password against the stored salted hash.
 
 ```javascript
 app.post("/login", async (req, res, next) => {
@@ -379,19 +379,15 @@ app.post("/login", async (req, res, next) => {
     );
     const user = rows[0];
 
-    // argon2.verify requires an argon2 hash as the first argument
-    // so we must early return if there is no matching user
-    if (!user) {
-      return res.render("login", {
-        error: "Incorrect username or password",
-      });
-    }
-
+    // argon2.verify requires an argon2 hash as its first arg
+    // so we can't just pass in `undefined` if no user exists.
+    // The hash itself doesn't matter as long as it's a valid argon2 hash
+    // since this is to prevent timing attacks if no user is found
     const isMatchingPassword = await argon2.verify(
-      user.password,
+      user?.password ?? process.env.FALLBACK_HASH,
       req.body.password,
     );
-    if (isMatchingPassword) {
+    if (user && isMatchingPassword) {
       req.session.userId = user.id;
       res.redirect("/");
     } else {
@@ -406,6 +402,18 @@ app.post("/login", async (req, res, next) => {
 ```
 
 Now, when a user signs up, their password is salted and hashed before storage, which is then used to verify the password upon login.
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Warning: Timing attacks
+
+Why does the `POST /login` middleware force `argon2.verify` to run even when no user is found in our database? Why can't we just early return if no user found?
+
+Just like with [using generic login error messages](#warning-use-generic-login-error-messages), we don't want to reveal that a username is valid and only the corresponding password is incorrect. If no user is found and we return early, then the server will respond quicker than if it had to verify the password against a hash (`argon2.verify` is already designed to account for timing attacks). Attackers could use this timing difference to determine whether a username exists or not, allowing them to focus their efforts on certain usernames - a timing attack.
+
+You don't need to know all the details of specific attack techniques but in this case, it doesn't take much to ensure that the same process always runs regardless of whether a user exists or not.
+
+</div>
 
 ### Assignment
 
