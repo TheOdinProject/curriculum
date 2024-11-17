@@ -133,8 +133,11 @@ A sample note box, variation: critical.
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [[Add the tutplus content as a refresher to HTTP stuff, and probably the request/response checker?]]
-1. [[Add further details on response codes. What do I cover as "important/common"?]]
+1. Check out the [list of HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) listed in the MDN documention. While you will never use some codes, you will notice a lot of useful ones.
+1. Read up on the following resources about REST and RESTful APIs.
+   - Go through the following [CodeAcademy article discussing REST](https://www.codecademy.com/article/what-is-rest). It discusses the definitions of REST and gives some good examples to explain important keywords.
+   - Check out this [StackOverflow article about RESTful API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design). If you want to code along, do remember that the `body-parser` middleware mentioned here is incorporated into the ExpressJS package itself since 4.16.x and is no longer necessary.
+1. Code along with this tutorial on [setting up a REST API with ExpressJS](https://www.robinwieruch.de/node-express-server-rest-api/). Go through this article as thoroughly as possible since it discusses some key details like organisation, middlewares and links some important resources at the end.
 
 </div>
 
@@ -154,4 +157,3 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [HTTP Request/Response Basics](http://justahelp.blogspot.com/2013/09/http-requestresponse-basics.html) from Pralay Roy goes into further detail about their lifecycle and anatomy with best practices.
-- This [CodeAcademy article discussing REST](https://www.codecademy.com/article/what-is-rest) strikes a healthy balance between relatability and strict definitions.
