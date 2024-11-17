@@ -35,6 +35,43 @@ Instead of having a naming convention like `/getPosts` or `/setPosts`, a request
 
 There are usually 2 URI's for a resource - one for the entire collection and one for a single object in the collection. One can `GET /posts` for all of the posts or `GET /posts/:postid` for one of them. Nesting URIs further is entirely possible, `GET /post/:postid/comments` can get all the comments for a post or `GET /post/:postid/comments/:commentid` can get a specific comment on a specific post.
 
+### HTTP response codes
+
+Every response from a server has a response code that provides quick and basic context regarding the response itself to the client. They are classified into five classes:
+
+#### Status codes 100 - 199: Informational responses
+
+Introduced by the HTTP/1.1 standard, these simply represent that a request was received and understood, mostly used on a provisional basis while the request processing continues. It simply alerts the client to wait on a final response.
+
+#### Status codes 200 - 299: Successful responses
+
+These tell the client that a request was successfully received and processed.
+
+- `200 OK`: It is the default to indicate a successful request. The result and response depends on the HTTP method, like sending the resource in the body for a `GET` request or describing the created entity for a `POST` request.
+- `202 Accepted`: Indicates that a request was accepted but is being processed. No further context is attached to the response, like if it will be acted on eventually or not.
+
+#### Status codes 300 - 399: Redirection messages
+
+Whenever additional action is needed to complete the request, it is indicated to the client with this class of status codes. A major use case for these is URL redirection.
+
+- `301 Moved Permanently`: Denotes the permanent relocation of any resource to a different URL, while adding the new URL to the response.
+
+#### Status codes 400 - 499: Client error responses
+
+These are used to report faults made by the client, like requesting for a non-existent resource or making a bad request, usually accompanied by an explanation about the fault itself and whether it is temporary or permanent.
+
+- `400 Bad Request`: The request is not processed due to a client error like malformed request syntax or invalid request messages.
+- `401 Unauthorised`: Slightly misleading, semantically it means that the response is "unauthenticated". The client must add the proper, non-malformed authentication credentials for a resource.
+- `403 Forbidden`: Indicates that the server refuses to act on the request due to a broad set of reasons from the user missing necessary permissions to attempts on a forbidden or impossible action. Unlike `401 Unauthorised`, the identity of the client is known to the server.
+- `404 Not Found`: The most popular status code, it indicates that a resource does not exist, even if the URL is valid.
+
+#### Status codes 500 - 599: Server error responses
+
+Indicates when the server fails to process a request.
+
+- `500 Internal Server Error`: A generic catch-all status code used to indicate that an internal error faced by the server while processing the request.
+- `501 Not Implemented`: The server lacks the capabilities to fulfill the request or is unable to recognise the request method.
+
 ### RESTful APIs
 
 Simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learnt in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. While you can structure your API in multiple ways, a popular and conventional methods to do so is to follow REST (**Re**presentational **S**tate **T**ransfer). The exact definition of REST might be a little complicated, but for us, it states that there is a set
@@ -78,8 +115,7 @@ A sample note box, variation: critical.
 <div class="lesson-content__panel" markdown="1">
 
 1. [[Add the tutplus content as a refresher to HTTP stuff, and probably the request/response checker?]]
-1. A PRACTICE ITEM
-   - A TASK ITEM
+1. [[Add further details on response codes. What do I cover as "important/common"?]]
 
 </div>
 
