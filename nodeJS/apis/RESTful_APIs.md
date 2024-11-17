@@ -72,6 +72,23 @@ Indicates when the server fails to process a request.
 - `500 Internal Server Error`: A generic catch-all status code used to indicate that an internal error faced by the server while processing the request.
 - `501 Not Implemented`: The server lacks the capabilities to fulfill the request or is unable to recognise the request method.
 
+### URL
+
+By now, I'm sure we know what URLs are, but as a quick refresher, let's check one out. It consists of a simple structure of a few components. Take the following as an example.
+
+```text
+http://sub.domain.com:1234/path/to/resource?query=something&param=something#anchor
+```
+
+- Here, `http` is the protocol. Some others that you might notice includes https, ftp and so on.
+- The host name is `subdomain.domain.com`
+- The subdomain here is `sub`
+- The domain name is `domain.com`
+- `1234` indicates the port. The browser usually hides this, since it defaults to `80`, which is the default port for web servers.
+- `/path/to/resource` denotes the resource path which refers to a resource location within the server.
+- There are some query parameters here: `?query=something&param=something`. Query string parameters start with a question mark (`?`), following a `key=value` format and seperated by an ampersand (`&`). There can be any number of parameters and they are generally used by the server to spot the right resource.
+- The `#anchor` is called a fragment or a named anchor. It is used to refer to an internal section within a web document.
+
 ### RESTful APIs
 
 Simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learnt in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. While you can structure your API in multiple ways, a popular and conventional methods to do so is to follow REST (**Re**presentational **S**tate **T**ransfer). The exact definition of REST might be a little complicated, but for us, it states that there is a set
