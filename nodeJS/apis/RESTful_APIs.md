@@ -20,6 +20,21 @@ HTTP can be roughly defined as the layer that acts as a protocol for a request-a
 
 Clicking on any one of these items will let you see further details about them. Notice that each of these requests and responses have a header and (usually) a body component. The header is responsible for information about the request/reponse itself, like the address to send/receive from, the kind of information being carried/asked for, and more. The body on the other hand contains the data added to the request/response, like the response to a form or authentication tokens in requests or the page itself in responses.
 
+### CRUD and HTTP methods
+
+By now you have probably heard about the word CRUD. Broadly, an API is responsible to provide four functions on any resource - **c**reating it, **r**eading about it, **u**pdating it and **d**eleting it. CRUD describes the actions that you can have on a resource, if your action cannot be described by any of these four, then it could probably be its own model. A key component of any request is to understand what kind of function it wants, amongst these four.
+
+Instead of having a naming convention like `/getPosts` or `/setPosts`, a request directly refers to the resource itself (here, `/posts`) and a corresponding HTTP method (colloquially called HTTP verbs, since they are verbs, grammatically). The methods are as follows:
+
+| Method | Action | Example                                         |
+| ------ | ------ | ----------------------------------------------- |
+| POST   | Create | `POST /posts` - Creates a new blog post         |
+| GET    | Read   | `GET /posts/:postid` - Fetches a single post    |
+| PUT    | Update | `PUT /posts/:postid` - Updates a single post    |
+| DELETE | Delete | `DELETE /posts/:postid` - Deletes a single post |
+
+There are usually 2 URI's for a resource - one for the entire collection and one for a single object in the collection. One can `GET /posts` for all of the posts or `GET /posts/:postid` for one of them. Nesting URIs further is entirely possible, `GET /post/:postid/comments` can get all the comments for a post or `GET /post/:postid/comments/:commentid` can get a specific comment on a specific post.
+
 ### RESTful APIs
 
 Simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learnt in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. While you can structure your API in multiple ways, a popular and conventional methods to do so is to follow REST (**Re**presentational **S**tate **T**ransfer). The exact definition of REST might be a little complicated, but for us, it states that there is a set
