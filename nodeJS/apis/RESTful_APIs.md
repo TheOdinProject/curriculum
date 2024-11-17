@@ -72,7 +72,7 @@ Indicates when the server fails to process a request.
 - `500 Internal Server Error`: A generic catch-all status code used to indicate that an internal error faced by the server while processing the request.
 - `501 Not Implemented`: The server lacks the capabilities to fulfill the request or is unable to recognise the request method.
 
-### URL
+### URLs
 
 By now, I'm sure we know what URLs are, but as a quick refresher, let's check one out. It consists of a simple structure of a few components. Take the following as an example.
 
@@ -91,9 +91,11 @@ http://sub.domain.com:1234/path/to/resource?query=something&param=something#anch
 
 ### RESTful APIs
 
-Simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learnt in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. While you can structure your API in multiple ways, a popular and conventional methods to do so is to follow REST (**Re**presentational **S**tate **T**ransfer). The exact definition of REST might be a little complicated, but for us, it states that there is a set
+Simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learnt in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. While you can structure your API in multiple ways, a popular and conventional method to do so is to follow REST (**Re**presentational **S**tate **T**ransfer). [The exact definition of REST](https://en.wikipedia.org/wiki/REST#Principle) might be a little complicated, but for us, it states that there is a set of standards to be followed to make our API, RESTful (adhere to the constraints set by REST).
 
-As mentioned, usually your backend application will need to send data to your frontend. The most popular way to do so by far is with JSON.
+Since we have already talked about seperating the client and the server, it fufills the first constraint of REST - the two are well defined as the frontend and the backend. Further constraints like stateless-ness and caching are covered by and ensured later with ExpressJS. Our key concern at this point is the organisation of endpoint URIs (Uniform Resource Identifiers) with respect to our resources.
+
+As mentioned, usually your backend application will need to send data to your frontend. The most popular way to do so by far is with JSON, primarily due to the ease of parsing it with JavaScript. So all we need to do is to replace our HTML and serve JSON instead. All that you have to do, thus, is to pass your information to [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render).
 
 #### Note box variations
 
