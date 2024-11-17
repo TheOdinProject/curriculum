@@ -142,7 +142,12 @@ A sample note box, variation: critical.
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
+- [What is CRUD?](https://www.codecademy.com/article/what-is-crud)
+- [What are the HTTP methods and where are they used?](#crud-and-http-methods)
+- [Which HTTP method does each letter in CRUD (Create, Read, Update, Delete) correspond to?](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths)
+- [What part of an URL is referred to as the query paramters?](#urls)
+- [Which HTTP response status code is used to indicate the permanent relocation of a resource?](#status-codes-300---399-redirection-messages)
+- [What is an API and how do you make it RESTful](#restful-apis)
 
 ### Additional resources
 
