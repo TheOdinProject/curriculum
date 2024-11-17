@@ -8,10 +8,10 @@ This technique is sometimes referred to as the [Jamstack](https://jamstack.org/w
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand what makes an API RESTful.
 - Detail the naming conventions for RESTful API endpoints.
-- Reinforcing what HTTP methods/verbs are.
+- Reinforcing what HTTP methods/verbs and status codes are.
 - Understand the different components of an URL.
+- Understand what makes an API RESTful.
 - Recognising RESTful APIs from examples.
 
 ### HTTP
@@ -35,7 +35,7 @@ Instead of having a naming convention like `/getPosts` or `/setPosts`, a request
 
 There are usually 2 URI's for a resource - one for the entire collection and one for a single object in the collection. One can `GET /posts` for all of the posts or `GET /posts/:postid` for one of them. Nesting URIs further is entirely possible, `GET /post/:postid/comments` can get all the comments for a post or `GET /post/:postid/comments/:commentid` can get a specific comment on a specific post.
 
-### HTTP response codes
+### HTTP response status codes
 
 Every response from a server has a response code that provides quick and basic context regarding the response itself to the client. They are classified into five classes:
 
@@ -153,4 +153,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [HTTP Request/Response Basics](http://justahelp.blogspot.com/2013/09/http-requestresponse-basics.html) from Pralay Roy goes into further detail about their lifecycle and anatomy with best practices.
+- This [CodeAcademy article discussing REST](https://www.codecademy.com/article/what-is-rest) strikes a healthy balance between relatability and strict definitions.
