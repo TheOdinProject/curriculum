@@ -14,11 +14,17 @@ This section contains a general overview of topics that you will learn in this l
 - Understand the different components of an URL.
 - Recognising RESTful APIs from examples.
 
-### So what is an API?
+### HTTP
 
-Simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learnt in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. When you write a program, you can programmatically open up a browser and try to access a website's data. But usually, you don't have to bother with that - you can ask for the data directly by using the website's API.
+HTTP can be roughly defined as the layer that acts as a protocol for a request-and-response mode of communication between a client (here, browser) and a server. If you open up the network tab in the developer tools of your browser and refresh the page, you will notice a long list of items. These are loosely referred to as "resources" - a thing in the database of your server, that the browser is asking for, as a request, and getting as a response.
 
-As mentioned, generally, your backend application will need to send data to your frontend. The most popular way to do so by far is in JSON.
+Clicking on any one of these items will let you see further details about them. Notice that each of these requests and responses have a header and (usually) a body component. The header is responsible for information about the request/reponse itself, like the address to send/receive from, the kind of information being carried/asked for, and more. The body on the other hand contains the data added to the request/response, like the response to a form or authentication tokens in requests or the page itself in responses.
+
+### RESTful APIs
+
+Simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learnt in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. While you can structure your API in multiple ways, a popular and conventional methods to do so is to follow REST (**Re**presentational **S**tate **T**ransfer). The exact definition of REST might be a little complicated, but for us, it states that there is a set
+
+As mentioned, usually your backend application will need to send data to your frontend. The most popular way to do so by far is with JSON.
 
 #### Note box variations
 
@@ -56,8 +62,7 @@ A sample note box, variation: critical.
 
 <div class="lesson-content__panel" markdown="1">
 
-1. A RESOURCE ITEM
-   - AN INSTRUCTION ITEM
+1. [[Add the tutplus content as a refresher to HTTP stuff, and probably the request/response checker?]]
 1. A PRACTICE ITEM
    - A TASK ITEM
 
