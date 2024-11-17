@@ -31,7 +31,7 @@ Persistent cookies need to be given either an expiry date or a maximum age (if y
 
 By default, cookies can be accessed via JavaScript in the browser via `document.cookie`. Again, this may be necessary in some cases but in others, this can be incredibly unsafe.
 
-Imagine a cookie used to keep you logged in even for when you leave and revisit a website. Now imagine you're the poor victim of a cross-site scripting (XSS) attack. All the attacker needs to do is access `document.cookie` in the malicious script and retrieve the cookie data. Now they can use that cookie data to pose as you and log into your account on their machine, even if they don't know your username or password!
+Imagine a cookie is being used to keep you logged in even when you leave and revisit a website. Now imagine you're the poor victim of a cross-site scripting (XSS) attack. All the attacker needs to do is access `document.cookie` in the malicious script and retrieve the cookie data. Now they can use that cookie data to pose as you and log into your account on their machine, even if they don't know your username or password!
 
 HttpOnly cookies will still be attached to requests sent with JavaScript on the client (e.g. `fetch()`) and you will still be able to see the cookie details in browser devtools, but they will not be accessible via client-side JavaScript like `document.cookie`, protecting against XSS atacks.
 
