@@ -2,7 +2,7 @@
 
 Up until now, you have been creating a server to serve your assets like HTML, CSS, and JavaScript. But you have also learned about React and client-side navigation - here is where we come to understand why. In the last decade, a specific pattern for developing websites has gained a lot of popularity. Instead of creating an app that hosts both the database and view templates, one can separate these concerns into separate projects, hosting their backend and database on a server (either on something like [Heroku](https://www.heroku.com/) or on a VPS like [Digital Ocean](https://www.digitalocean.com/)), then using a service such as [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/) to host their frontend.
 
-This technique is sometimes referred to as the [Jamstack](https://jamstack.org/what-is-jamstack/). The most glaring benefit of this architecture lies in its separation of the business logic and view logic. This allows you to use a singular backend as a source of data for whatever frontend application(s) you want. You can send data to a website, a desktop app, and a mobile app with the same backend.
+This technique is sometimes referred to as the [Jamstack](https://jamstack.org/what-is-jamstack/). The most obvious benefit of this architecture lies in its separation of the business logic and view logic. This allows you to use a singular backend as a source of data for whatever frontend application(s) you want. You can send data to a website, a desktop app, and a mobile app with the same backend.
 
 ### Lesson overview
 
@@ -16,9 +16,9 @@ This section contains a general overview of topics that you will learn in this l
 
 ### HTTP
 
-HTTP can be roughly defined as the layer that acts as a protocol for a request-and-response mode of communication between a client (here, browser) and a server. If you open up the network tab in the developer tools of your browser and refresh the page, you will notice a long list of items. These are loosely referred to as "resources" - a thing in the database of your server, that the browser is asking for, as a request, and getting as a response.
+HTTP can be roughly defined as the layer that acts as a protocol for a request-and-response mode of communication between a client (here, browser) and a server. If you open up the network tab in the developer tools of your browser and refresh the page, you will notice a long list of items. These are loosely referred to as "resources" - a thing in the database of your server that the browser is asking for as a request and getting as a response.
 
-Clicking on any one of these items will let you see further details about them. Notice that each of these requests and responses has a header and (usually) a body component. The header is responsible for information about the request/response itself, like the address to send/receive from, the kind of information being carried/asked for, and more. The body on the other hand contains the data added to the request/response, like the response to a form or authentication tokens in requests or the page itself in responses.
+Clicking on any of these items reveals further details about them. Notice that each request and response has a header and (usually) a body component. The header contains information about the request/response, like the address to send/receive from, the type of information being transmitted, and more. The body contains the data added to the request/response, like form submissions, authentication tokens for requests, or the page content for responses.
 
 ### CRUD and HTTP methods
 
@@ -47,7 +47,7 @@ Introduced by the HTTP/1.1 standard, these simply represent that a request was r
 
 These tell the client that a request was successfully received and processed.
 
-- `200 OK`: It is the default to indicate a successful request. The result and response depend on the HTTP method, like sending the resource in the body for a `GET` request or describing the created entity for a `POST` request.
+200 OK`: This is the default to indicate a successful request. The result and response depend on the HTTP method, like sending the resource in the body for a `GET` request or describing the created entity for a `POST` request.
 - `202 Accepted`: Indicates that a request was accepted but is being processed. No further context is attached to the response, like whether it will be acted on eventually or not.
 
 #### Status codes 300 - 399: Redirection messages
@@ -81,7 +81,7 @@ http://sub.domain.com:1234/path/to/resource?query=something&param=something#anch
 ```
 
 - Here, `http` is the protocol. Some others that you might notice include https, ftp, and so on.
-- The hostname is `subdomain.domain.com`
+- The hostname is `sub.domain.com`
 - The subdomain here is `sub`
 - The domain name is `domain.com`
 - `1234` indicates the port. The browser usually hides this, since it defaults to `80`, which is the default port for web servers.
@@ -118,7 +118,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Which HTTP method does each letter in CRUD (Create, Read, Update, Delete) correspond to?](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths)
 - [What part of a URL is referred to as the query parameters?](#urls)
 - [Which HTTP response status code is used to indicate the permanent relocation of a resource?](#status-codes-300---399-redirection-messages)
-- [What is an API and how do you make it RESTful](#restful-apis)
+- [What is an API and how do you make it RESTful?](#restful-apis)
 
 ### Additional resources
 
