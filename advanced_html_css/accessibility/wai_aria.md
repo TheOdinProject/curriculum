@@ -109,7 +109,7 @@ Although it may work somewhat similarly to the native `<label>` element, `aria-l
 
 #### aria-describedby
 
-The `aria-describedby` attribute modifies the description property in the accessibility tree. Similar to the `aria-labelledby` attribute, when you use this attribute you pass in the `id` values of other elements as the `aria-describedby` value, and the elements whose `id` value are passed in can also be visually hidden.
+The `aria-describedby` attribute modifies the description property in the accessibility tree. Similar to the `aria-labelledby` attribute, when you use this attribute, you pass in the `id` values of other elements as the `aria-describedby` value, and the elements whose `id` values are passed in can also be visually hidden.
 
 ```html
 <label>Password:
@@ -120,7 +120,7 @@ The `aria-describedby` attribute modifies the description property in the access
 <span id='password-requirements'>Password must be at least 10 characters long.</span>
 ```
 
-When the `<input>` element receives focus, a screen reader would announce, "Password, edit protected, password must be at least ten characters long." This immediately notifies a screen reader user of any requirements for the password they want to choose, any time the input receives focus.
+When the `<input>` element receives focus, a screen reader would announce, "Password, edit protected, password must be at least ten characters long." This immediately notifies a screen reader user of any requirements for the password they want to choose any time the input receives focus.
 
 ### Hiding content from the accessibility tree
 
