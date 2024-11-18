@@ -22,7 +22,7 @@ Clicking on any of these items reveals further details about them. Notice that e
 
 ### CRUD and HTTP methods
 
-By now you have probably heard about the word CRUD. Broadly, an API is responsible for providing four functions on any resource - **c**reating it, **r**eading about it, **u**pdating it, and **d**eleting it. CRUD describes the actions that you can have on a resource, if your action cannot be described by any of these four, then it could probably be its own model. A key component of any request is to understand what kind of function it wants, amongst these four.
+By now, you have probably heard the term CRUD. Broadly, an API provides four functions on any resource - **c**reating it, **r**eading about it, **u**pdating it, and **d**eleting it. CRUD describes the actions you can perform on a resource. If an action doesn't fit into these four categories, it might mean that it should be treated as a separate resource. A key component of any request is understanding which of these four actions it represents.
 
 Instead of having a naming convention like `/getPosts` or `/setPosts`, a request directly refers to the resource itself (here, `/posts`) and a corresponding HTTP method (colloquially called HTTP verbs, since they are verbs, grammatically). The methods are as follows:
 
@@ -93,7 +93,7 @@ http://sub.domain.com:1234/path/to/resource?query=something&param=something#anch
 
 Simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learned in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. While you can structure your API in multiple ways, a popular and conventional method to do so is to follow REST (**Re**presentational **S**tate **T**ransfer). [The exact definition of REST](https://en.wikipedia.org/wiki/REST#Principle) might be a little complicated, but for us, it states that there is a set of standards to be followed to make our API, RESTful (adhere to the constraints set by REST).
 
-Since we have already talked about separating the client and the server, it fulfills the first constraint of REST - the two are well-defined as the frontend and the backend. Further constraints like statelessness and caching are covered by and ensured later with ExpressJS. Our key concern at this point is the organization of endpoint URLs (Uniform Resource Identifiers) with respect to our resources.
+Since we have already talked about separating the client and the server, it fulfills the first constraint of REST - the two are well-defined as the frontend and the backend. Further constraints like statelessness and caching are covered by and ensured later with ExpressJS. Our key concern at this point is the organization of endpoint URLs with respect to our resources.
 
 As mentioned, usually your backend application will need to send data to your frontend. The most popular way to do so by far is with JSON, primarily due to the ease of parsing it with JavaScript. So all we need to do is to replace our HTML and serve JSON instead. All that you have to do, thus, is to pass your information to [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render).
 
