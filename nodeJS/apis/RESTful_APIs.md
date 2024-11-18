@@ -86,7 +86,7 @@ http://sub.domain.com:1234/path/to/resource?query=something&param=something#anch
 - The domain name is `domain.com`
 - `1234` indicates the port. The browser usually hides this, since it defaults to `80`, which is the default port for web servers.
 - `/path/to/resource` denotes the resource path which refers to a resource location within the server.
-- There are some query parameters here: `?query=something&param=something`. Query string parameters start with a question mark (`?`), following a `key=value` format and separated by an ampersand (`&`). There can be any number of parameters and they are generally used by the server to spot the right resource.
+- There are some query parameters here: `?query=something&param=something`. Query string parameters start with a question mark (`?`), following a pattern of `key=value` pairs, which are separated by ampersands (`&`). There can be any number of parameters, and they are generally used by the server to identify the right resource.
 - The `#anchor` is called a fragment or a named anchor. It is used to refer to an internal section within a web document.
 
 ### RESTful APIs
