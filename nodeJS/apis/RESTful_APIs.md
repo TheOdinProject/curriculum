@@ -33,7 +33,7 @@ Instead of having a naming convention like `/getPosts` or `/setPosts`, a request
 | PUT    | Update | `PUT /posts/:postid` - Updates a single post    |
 | DELETE | Delete | `DELETE /posts/:postid` - Deletes a single post |
 
-There are usually 2 URIs for a resource - one for the entire collection and one for a single object in the collection. One can `GET /posts` for all of the posts or `GET /posts/:postid` for one of them. Nesting URIs further is entirely possible, `GET /post/:postid/comments` can get all the comments for a post, or `GET /post/:postid/comments/:commentid` can get a specific comment on a specific post.
+There are usually 2 URLs for a resource - one for the entire collection and one for a single object in the collection. One can `GET /posts` for all of the posts or `GET /posts/:postid` for one of them. Nesting URLs further is entirely possible, `GET /post/:postid/comments` can get all the comments for a post, or `GET /post/:postid/comments/:commentid` can get a specific comment on a specific post.
 
 ### HTTP response status codes
 
@@ -47,7 +47,7 @@ Introduced by the HTTP/1.1 standard, these simply represent that a request was r
 
 These tell the client that a request was successfully received and processed.
 
-200 OK`: This is the default to indicate a successful request. The result and response depend on the HTTP method, like sending the resource in the body for a `GET` request or describing the created entity for a `POST` request.
+- `200 OK`: This is the default to indicate a successful request. The result and response depend on the HTTP method, like sending the resource in the body for a `GET` request or describing the created entity for a `POST` request.
 - `202 Accepted`: Indicates that a request was accepted but is being processed. No further context is attached to the response, like whether it will be acted on eventually or not.
 
 #### Status codes 300 - 399: Redirection messages
@@ -93,7 +93,7 @@ http://sub.domain.com:1234/path/to/resource?query=something&param=something#anch
 
 Simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learned in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. While you can structure your API in multiple ways, a popular and conventional method to do so is to follow REST (**Re**presentational **S**tate **T**ransfer). [The exact definition of REST](https://en.wikipedia.org/wiki/REST#Principle) might be a little complicated, but for us, it states that there is a set of standards to be followed to make our API, RESTful (adhere to the constraints set by REST).
 
-Since we have already talked about separating the client and the server, it fulfills the first constraint of REST - the two are well-defined as the frontend and the backend. Further constraints like statelessness and caching are covered by and ensured later with ExpressJS. Our key concern at this point is the organization of endpoint URIs (Uniform Resource Identifiers) with respect to our resources.
+Since we have already talked about separating the client and the server, it fulfills the first constraint of REST - the two are well-defined as the frontend and the backend. Further constraints like statelessness and caching are covered by and ensured later with ExpressJS. Our key concern at this point is the organization of endpoint URLs (Uniform Resource Identifiers) with respect to our resources.
 
 As mentioned, usually your backend application will need to send data to your frontend. The most popular way to do so by far is with JSON, primarily due to the ease of parsing it with JavaScript. So all we need to do is to replace our HTML and serve JSON instead. All that you have to do, thus, is to pass your information to [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render).
 
