@@ -84,10 +84,10 @@ The `aria-labelledby` attribute overrides both the native label and the `aria-la
 The great thing about `aria-labelledby` is that not only can you pass in any number of `id` references, but you can also have an element reference itself. Keep in mind that you can't pass in the same reference multiple times, because any subsequent references after the first will be ignored.
 
 ```html
-<!-- Here's the labelling element -->
+<!-- Here's the labeling element -->
 <h2 id='label'>Shirts</h2>
 
-<!-- And here's the labelled element. Note the order of the ID references passed in -->
+<!-- And here's the labeled element. Note the order of the ID references passed in -->
 <button type='button' id='shop-btn' aria-labelledby='label shop-btn'>Shop Now</button>
 ```
 
