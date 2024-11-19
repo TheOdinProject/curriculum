@@ -10,11 +10,11 @@ function lacksHeading(token, index, tokens) {
   return isNoteBoxOpenTag(token) && tokens[index + 1]?.type !== "heading_open";
 }
 
-function categoriseHeadingsByNoteBoxType(
+function categorizeHeadingsByNoteBoxType(
   headings,
   currentToken,
   index,
-  tokens
+  tokens,
 ) {
   const previousToken = tokens[index - 1];
   if (
@@ -26,7 +26,7 @@ function categoriseHeadingsByNoteBoxType(
 
   // https://regexr.com/86jmp to test the regex below
   const noteBoxType = capitalize(
-    previousToken.content.match(/(?<=lesson-note--).+?(?=\W)/)?.[0] ?? "note"
+    previousToken.content.match(/(?<=lesson-note--).+?(?=\W)/)?.[0] ?? "note",
   );
 
   headings[noteBoxType].push({
@@ -41,14 +41,14 @@ module.exports = {
   names: ["TOP011", "note-box-headings"],
   description: "Note boxes have appropriate headings",
   information: new URL(
-    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md"
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md",
   ),
   tags: ["headings"],
   parser: "markdownit",
   function: function TOP011(params, onError) {
     const { tokens } = params.parsers.markdownit;
     const noteBoxesWithoutHeadings = tokens.filter(lacksHeading);
-    const noteBoxHeadings = tokens.reduce(categoriseHeadingsByNoteBoxType, {
+    const noteBoxHeadings = tokens.reduce(categorizeHeadingsByNoteBoxType, {
       Note: [],
       Tip: [],
       Warning: [],
@@ -67,7 +67,7 @@ module.exports = {
       headings.forEach(({ text, hashes, lineNumber }) => {
         if (text.trim().startsWith(`#### ${capitalize(noteBoxType)}: `)) {
           return;
-      }
+        }
 
         const leadingSpaces = text.indexOf(hashes);
         const firstWordIndex = leadingSpaces.length + hashes.length + 1;
