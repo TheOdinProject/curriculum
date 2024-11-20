@@ -59,7 +59,7 @@ This section contains helpful links to related content. It isn't required, so co
 
 - [How I Learned Ruby on Rails](https://medium.com/how-i-learned-ruby-rails/e08c94e2a51e) by Richardson Dackam
 - A [listing of Rails tutorials](https://tutorials.railsapps.org/rails-tutorial) from Daniel Kehoe of RailsApps
-- A list of some slightly [longer Rails Tutorials by Jumpstart Lab](http://tutorials.jumpstartlab.com/)
+- A list of some slightly [longer Rails Tutorials by Jumpstart Lab](https://web.archive.org/web/20240928083941/http://tutorials.jumpstartlab.com/)
 - The [University of Texas Rails Course Online](http://schneems.com/ut-rails) (incomplete/dated?)
 - [Rails Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html) by Tobias Pfeiffer
 - [Rails Best Practices list](http://rails-bestpractices.com/)
