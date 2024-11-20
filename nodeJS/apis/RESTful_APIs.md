@@ -33,7 +33,7 @@ Instead of having a naming convention like `/getPosts` or `/setPosts`, a request
 | PUT    | Update | `PUT /posts/:postid` - Updates a single post    |
 | DELETE | Delete | `DELETE /posts/:postid` - Deletes a single post |
 
-There are usually 2 URLs for a resource - one for the entire collection and one for a single object in the collection. One can `GET /posts` for all of the posts or `GET /posts/:postid` for one of them. Nesting URLs further is entirely possible, `GET /post/:postid/comments` can get all the comments for a post, or `GET /post/:postid/comments/:commentid` can get a specific comment on a specific post.
+There are usually 2 URLs for a resource - one for the entire collection and one for a single object in the collection. One can `GET /posts` for all of the posts or `GET /posts/:postid` for one of them. Nesting URLs further is entirely possible: `GET /posts/:postid/comments` can get all the comments for a post, while `GET /posts/:postid/comments/:commentid` can get a specific comment on a specific post.
 
 ### HTTP response status codes
 
@@ -41,7 +41,7 @@ Every response from a server has a response code that provides quick and basic c
 
 #### Status codes 100 - 199: Informational responses
 
-Introduced by the HTTP/1.1 standard, these simply represent that a request was received and understood, mostly used on a provisional basis while the request processing continues. It simply alerts the client to wait for a final response.
+Introduced by the HTTP/1.1 standard, these indicate that a request was received and understood. They're mostly used on a provisional basis while the request processing continues, alerting the client to wait for a final response.
 
 #### Status codes 200 - 299: Successful responses
 
@@ -52,7 +52,7 @@ These tell the client that a request was successfully received and processed.
 
 #### Status codes 300 - 399: Redirection messages
 
-Whenever additional action is needed to complete the request, it is indicated to the client with this class of status codes. A major use case for these is URL redirection.
+Whenever an additional action is needed to complete the request, it is indicated to the client with this class of status codes. A major use case for these is URL redirection.
 
 - `301 Moved Permanently`: Denotes the permanent relocation of any resource to a different URL, while adding the new URL to the response.
 
@@ -67,7 +67,7 @@ These are used to report faults made by the client, like requesting a non-existe
 
 #### Status codes 500 - 599: Server error responses
 
-Indicates when the server fails to process a request.
+They indicate when the server fails to process a request.
 
 - `500 Internal Server Error`: A generic catch-all status code used to indicate an internal error faced by the server while processing the request.
 - `501 Not Implemented`: The server lacks the capabilities to fulfill the request or is unable to recognize the request method.
@@ -91,9 +91,9 @@ http://sub.domain.com:1234/path/to/resource?query=something&param=something#anch
 
 ### RESTful APIs
 
-Simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learned in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. While you can structure your API in multiple ways, a popular and conventional method to do so is to follow REST (**Re**presentational **S**tate **T**ransfer). [The exact definition of REST](https://en.wikipedia.org/wiki/REST#Principle) might be a little complicated, but for us, it states that there is a set of standards to be followed to make our API, RESTful (adhere to the constraints set by REST).
+Simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learned in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. While you can structure your API in multiple ways, a popular and conventional method to do so is to follow REST (**Re**presentational **S**tate **T**ransfer). [The exact definition of REST](https://en.wikipedia.org/wiki/REST#Principle) might be a little complicated, but for us, it states that there is a set of standards to be followed to make our API RESTful (adhere to the constraints set by REST).
 
-Since we have already talked about separating the client and the server, it fulfills the first constraint of REST - the two are well-defined as the frontend and the backend. Further constraints like statelessness and caching are covered by and ensured later with ExpressJS. Our key concern at this point is the organization of endpoint URLs with respect to our resources.
+Earlier, we mentioned separating the client and the server, which fulfills the first constraint of REST: the frontend and backend are well-defined. Further constraints like statelessness and caching are covered by and ensured later with ExpressJS. Our key concern at this point is the organization of endpoint URLs with respect to our resources.
 
 As mentioned, usually your backend application will need to send data to your frontend. The most popular way to do so by far is with JSON, primarily due to the ease of parsing it with JavaScript. So all we need to do is to replace our HTML and serve JSON instead. All that you have to do, thus, is to pass your information to [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render).
 
@@ -102,10 +102,10 @@ As mentioned, usually your backend application will need to send data to your fr
 <div class="lesson-content__panel" markdown="1">
 
 1. Check out the [list of HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) listed in the MDN documentation. While you will never use some codes, you will notice a lot of useful ones.
-1. Read up on the following resources about REST and RESTful APIs.
+1. Read up on REST and RESTful APIs in the following resources.
    - Go through the following [CodeAcademy article discussing REST](https://www.codecademy.com/article/what-is-rest). It discusses the definitions of REST and gives some good examples to explain important keywords.
    - Check out this [StackOverflow article about RESTful API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design). If you want to code along, do remember that the `body-parser` middleware mentioned here has been incorporated into the ExpressJS package itself since 4.16.x and is no longer necessary.
-1. Code along with this tutorial on [setting up a REST API with ExpressJS](https://www.robinwieruch.de/node-express-server-rest-api/). Go through this article as thoroughly as possible since it discusses some key details like organization, middlewares, and links some important resources at the end.
+1. Code along with this tutorial on [setting up a REST API with ExpressJS](https://www.robinwieruch.de/node-express-server-rest-api/). Go through this article thoroughly, as it covers key details like organizing your code, dive into middlewares, and provides links to other important resources at the end.
 
 </div>
 
@@ -114,10 +114,10 @@ As mentioned, usually your backend application will need to send data to your fr
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is CRUD?](https://www.codecademy.com/article/what-is-crud)
-- [What are the HTTP methods and where are they used?](#crud-and-http-methods)
-- [Which HTTP method does each letter in CRUD (Create, Read, Update, Delete) correspond to?](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths)
-- [What part of a URL is referred to as the query parameters?](#urls)
-- [Which HTTP response status code is used to indicate the permanent relocation of a resource?](#status-codes-300---399-redirection-messages)
+- [What are the four main HTTP methods, and how are they used?](#crud-and-http-methods)
+- [Which HTTP method corresponds to each action in CRUD (Create, Read, Update, Delete)?](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths)
+- [Which part of a URL is referred to as query parameters?](#urls)
+- [Which HTTP response status code indicates the permanent relocation of a resource?](#status-codes-300-399-redirection-messages)
 - [What is an API and how do you make it RESTful?](#restful-apis)
 
 ### Additional resources
