@@ -22,7 +22,7 @@ Harvard's CS50 class has a [video about the Caesar cipher](https://www.youtube.c
 
 ```ruby
   > caesar_cipher("What a string!", 5)
-  => "Bmfy f xywnsl!"
+  => "Rcvo v nomdib!"
 ```
 
 **Quick Tips:**
