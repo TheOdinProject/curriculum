@@ -120,9 +120,11 @@ The important distinction between the "scalar" parameter values like strings and
 
 To explicitly allow parameters, you use the methods `require` and `permit`. Basically, you `require` the name of your array or hash to be in Params (otherwise it'll throw an error), and then you `permit` the individual attributes inside that hash to be used. For example:
 
+To explicitly allow parameters, you can call the `#expect` method on the `params`. Usually this method will be passed a key matching the name of the model you're working with (ie. a `post`) followed by an array of allowed attributes. For example:
+
 ~~~ruby
   def allowed_post_params
-    params.require(:post).permit(:title,:body,:author_id)
+    params.expect(post: [:title, :body, :author_id])
   end
 ~~~
 
@@ -155,10 +157,22 @@ So our `#create` action above can now be filled out a bit more:
     # gives us back just the hash containing the params we need to
     # to create or update a post
     def allowed_post_params
-      params.require(:post).permit(:title,:body,:author_id)
+      params.expect(post: [:title, :body, :author_id])
     end
   end
 ~~~
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+  Prior to Rails 8, strong parameters were handled differently. Instead of the `#expect` method, you had to call `#permit` on the top level key name followed by calling `#require` on the list of attributes. For example:
+
+  ```ruby
+  def allowed_post_params
+    params.permit(:post).require(:title, :body, :author_id)
+  end
+  ```
+
+  This way still works, but it has a couple of security flaws that motivated the development of `#expect`. But you will likely be exposed to this way of doing it through older projects, blog posts, and StackOverflow answers. Just know that this is serving the same function as the new `#expect` method.
+</div>
 
 ### Flash
 
@@ -197,7 +211,7 @@ Now the full controller code can be written out for our `#create` action:
     private
 
     def allowed_post_params
-      params.require(:post).permit(:title,:body,:author_id)
+      params.expect(post: [:title, :body, :author_id])
     end
   end
 ~~~
