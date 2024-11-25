@@ -102,7 +102,7 @@ In any case where the user is male, you'll get hit with a multiple render error 
 
 In the example above, we saw `... code here to set up a new @post based on form info ...`. Okay, how do we grab that info? We keep saying that the router packages up all the parameters that were sent with the original HTTP request, but how do we access them?
 
-With the `params` hash! It acts just like a normal Ruby hash and contains the parameters of the request, stored as `:key => value` pairs. So how do we get the ID of the post we're asking for? `params[:id]`. You can access any parameters this way which have "scalar values", e.g. strings, numbers, booleans, `nil`... anything that's "flat".
+With the `params` object! The `params` object is an instance of `ActionController::Parameters`, and it behaves similarly to a normal Ruby hash. It contains the parameters of the request stored as `:key => value` pairs. So how do we get the ID of the post we're asking for? `params[:id]`. You can access any parameters this way which have "scalar values", e.g. strings, numbers, booleans, `nil`... anything that's "flat".
 
 Some forms will submit every field as a top level scalar entry in the params hash, e.g. `params[:post_title]` might be "My Test Post Title" and `params[:post_body]` might be "Body of post!" etc and these you can access with no issues. You have control over this, as you'll learn in the lessons on forms.
 
