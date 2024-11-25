@@ -120,8 +120,6 @@ The important distinction between the "scalar" parameter values like strings and
 
 </div>
 
-To explicitly allow parameters, you use the methods `require` and `permit`. Basically, you `require` the name of your array or hash to be in Params (otherwise it'll throw an error), and then you `permit` the individual attributes inside that hash to be used. For example:
-
 To explicitly allow parameters, you can call the `#expect` method on the `params`. Usually this method will be passed a key matching the name of the model you're working with (ie. a `post`) followed by an array of allowed attributes. For example:
 
 ```ruby
