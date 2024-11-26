@@ -11,7 +11,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Why does React need keys?
 
-In the upcoming lessons as you learn more about the internal workings of React, more specifically the rerendering process, you will understand the importance of keys. For now, we will keep it short.
+In the upcoming lessons as you learn more about the internal workings of React, more specifically the re-rendering process, you will understand the importance of keys. For now, we will keep it short.
 
 In the previous lesson on rendering lists, we used the `.map()` method to iterate over an array of data and return a list of elements. Now imagine, if any of the items in the list were to change, how would React know which item to update?
 
@@ -20,9 +20,9 @@ If the list were to change, one of two things *should* happen:
 1. we completely re-render the entire list, or:
 1. we hunt down the specific items that were changed and only re-render those.
 
-Assuming we want to hunt down that one specific item that was changed and NOT re-render the entire list. We need something to track that specific item. We can track down a specific item by using a `key`.
+Assuming we want to hunt down that one specific item that was changed and NOT re-render the entire list, we need something to track that specific item. We can track down a specific item by using a `key`.
 
-When the list is updated for whatever reason, (either from a server or a user interaction), React matches the `keys` of each of the previous list items to the updated list. If there were any changes, React will only update the items that have changed.
+When the list is updated for whatever reason (either from a server or a user interaction), React matches the `keys` of each of the previous list items to the updated list. If there were any changes, React will only update the items that have changed.
 
 As long as `keys` remain consistent and unique, React can handle the DOM effectively and efficiently.
 
