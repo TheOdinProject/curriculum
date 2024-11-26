@@ -33,7 +33,7 @@ Yes, but it's *hard*. React is a complex beast and there are many moving parts. 
 - Compilation ([Babel](https://babeljs.io/))
 - React itself
 
-All of this, and sometimes *much more* is required to get a React project and development environment up and running.
+All of this, and sometimes *much more*, is required to get a React project and development environment up and running.
 
 <div class="lesson-note" markdown=1>
 
@@ -97,7 +97,7 @@ This will tell Vite to use the current directory for the project, instead of cre
 
 ### Delving deeper
 
-Let's take a closer look at our new project. Inside you will find some folders, as well as `package.json`, `package-lock.json`, `.gitignore`, and `README.md` files. The `README.md` contains some useful information that you should take the time to skim through now.
+Let's take a closer look at our new project. Inside, you will find some folders, as well as `package.json`, `package-lock.json`, `.gitignore`, and `README.md` files. The `README.md` contains some useful information that you should take the time to skim through now.
 
 The `public` folder is where all of the static assets related to your app will go. This could include images, icons, and information files for the browser.
 
@@ -122,7 +122,7 @@ Whoa! There's quite a lot here. You are not expected to recognize much of this (
 1. We import the `App` component from `App.jsx`, so that we may place (render) it within the DOM.
 1. We import some CSS styling (you may recognize this syntax from the Webpack material).
 1. We create a `root` object by invoking `createRoot` with an element from our `index.html`.
-1. We invoke the `render` method which is attached to our `root` object, with some very interesting-looking syntax inside the parentheses.
+1. We invoke the `render` method, which is attached to our `root` object, with some very interesting-looking syntax inside the parentheses.
 
 All of this may understandably look unlike anything you've seen up until now, but have no fear, once you've spent the time with this course, you'll know exactly what all of this does, and *much more*.
 
