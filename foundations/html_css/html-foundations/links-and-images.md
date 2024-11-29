@@ -40,7 +40,7 @@ You may have noticed that clicking this link doesn't do anything. This is becaus
 
 <span id="attribute"></span>An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a name, and a value; however, not all attributes require a value. <span id="where-to-go"></span>In our case, we need to add an `href` (hypertext reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
 
-Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
+Add the following `href` attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
 ```html
 <a href="https://www.theodinproject.com/about">About The Odin Project</a>
@@ -120,7 +120,7 @@ Back in the index page, add the following anchor element to create a link to the
 
 Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
 
-This works because the index and about page are in the same directory. That means we can use its name (`about.html`) as the link's href value.
+This works because the index and about page are in the same directory. That means we can use its name (`about.html`) as the link's `href` value.
 
 But we will usually want to organize our website directories a little better. Normally we would only have the `index.html` at the root directory and all other HTML files in their own directory.
 
@@ -128,7 +128,7 @@ Create a directory named `pages` within the `odin-links-and-images` directory an
 
 Refresh the index page in the browser and then click on the about link. It will now be broken. This is because the location of the about page file has changed.
 
-To fix this, we just need to update the about link href value to include the `pages/` directory since that is the new location of the about file *relative* to the index file.
+To fix this, we just need to update the about link `href` value to include the `pages/` directory since that is the new location of the about file *relative* to the index file.
 
 ```html
 <body>
@@ -160,7 +160,7 @@ Websites would be fairly boring if they could only display text. Luckily HTML pr
 
 To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered, the `<img>` element is a void element. As we have seen earlier in the course, void elements do not need a closing tag because they are naturally empty and do not contain any content.
 
-Instead of wrapping content with an opening and closing tag, it embeds an image into the page using a src attribute which tells the browser where the image file is located. The src attribute works much like the href attribute for anchor tags. It can embed an image using both absolute and relative paths.
+Instead of wrapping content with an opening and closing tag, it embeds an image into the page using a `src` attribute which tells the browser where the image file is located. The `src` attribute works much like the `href` attribute for anchor tags. It can embed an image using both absolute and relative paths.
 
 For example, using an absolute path we can display an image located on The Odin Project site:
 
@@ -255,11 +255,11 @@ Using the metaphor we used earlier, using `../` in a filepath is kind of like st
 
 ### Alt attribute
 
-<span id="two-attributes"></span>Besides the src attribute, every image element must also have an alt (alternative text) attribute.
+<span id="two-attributes"></span>Besides the `src` attribute, every image element must also have an `alt` (alternative text) attribute.
 
-The alt attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
+The `alt` attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
-This is how the The Odin Project logo example we used earlier looks with an alt attribute included:
+This is how the The Odin Project logo example we used earlier looks with an `alt` attribute included:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="ExXjoEp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -271,7 +271,7 @@ This is how the The Odin Project logo example we used earlier looks with an alt 
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-As a bit of practice, add an alt attribute to the dog image we added to the `odin-links-and-images` project.
+As a bit of practice, add an `alt` attribute to the dog image we added to the `odin-links-and-images` project.
 
 ### Image size attributes
 
