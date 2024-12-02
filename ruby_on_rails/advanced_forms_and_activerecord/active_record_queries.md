@@ -211,85 +211,72 @@ How much do you need to understand or care about scopes? In the early going, you
 
 ### Enums
 
-Enums (short for "enumerations") map symbolic names to integer constants. They
-make code more readable and maintainable, and they offer a performance boost
-since queries involving integers are faster than those involving strings.
+Enums (short for "enumerations") map a database column, typically an n integer, to a set of symbolic names. They make code more readable and maintainable, and they offer a performance boost since queries involving integers are faster than those involving strings.
 
-Enums are perfect for representing the state of an attribute that has a [discrete
-value](https://en.wikipedia.org/wiki/Continuous_or_discrete_variable). As an
-example, consider a light switch: it is either in an on or an off state. It is
-never between these two states, and it is never both on and off.
+Enums are perfect for representing the state of an attribute that has a discrete value. As an example, suppose an article on a blog can be in a `draft` or `published` state. It is never between these two states, and it is never in more than one at any time.
 
 #### How to use enums
 
-To implement `enum`s, we need to declare them in the model and add a column to
-store them in the database table that stores instances of the model.
+To implement `enum`s, we need to declare them in the model and add a column to store them in the database table that stores instances of the model.
 
-Enums are declared in the model's class as either an array or a hash. The hash flavor has a slight advantage
-in that the integer values mapped to the `enum` are independent of their
-position and the values stored in the database are explicitly stated.
+Since enums are stored as integers in the database and there is no native `enum` type available in most database schemas, we set their data type to `integer`:
+
+```bash
+# If building a new model, pass `column_name:integer` to the model generator
+bin/rails g model Article status:integer
+
+# If adding a column to an existing table:
+bin/rails g migration AddStatusToLightSwitch status:integer
+```
+
+Enums are declared in the model's class as either an array or a hash. The hash flavor has a slight advantage in that the integer values mapped to the `enum` are independent of their position and the values stored in the database are explicitly stated.
 
 ```ruby
-# Array declaration
-class LightSwitch < ApplicationRecord
-  belongs_to :room
-  enum :status, [:off, :on]           # Value depends on index of symbol
-end
-
 # Hash declaration (recommended)
-class LightSwitch < ApplicationRecord
-  belongs_to :room
-  enum :status, { off: 0, on: 1 }     # Value independent of position; explicit
+class Article < ApplicationRecord
+  belongs_to :author
+  enum :status, { draft: 0, published: 1 }
 end
+```
+
+Articles can now be passed a status during creation:
+
+```ruby
+article = Article.create(status: :draft)
+```
+
+Defining an enum on a model exposes a number of class methods that return collections:
+
+```ruby
+Article.draft
+Article.not_draft
+Article.published
+Article.not_published
 ```
 
 These are functionally equivalent to the following [scopes](#scopes):
 
 ```ruby
-scope :on, -> { where(status: "on") }
-scope :off, -> { where(status: "off") }
-```
-
-And, just like scopes, this exposes a number of class methods that return
-collections:
-
-```ruby
-LightSwitch.on
-LightSwitch.not_on
-LightSwitch.off
-LightSwitch.not_off
+scope :draft, -> { where(status: "draft") }
+scope :not_draft, -> { where.not(status: "draft")}
+scope :published, -> { where(status: "published") }
+scope :not_published, -> { where.not(status: "published") }
 ```
 
 A number of handy instance methods are also exposed:
 
 ```ruby
-switchy = LightSwitch.new(status: :off)
-
 # Predicates
-switchy.on?  #=> false
-switchy.off? #=> true
+article.draft?               #=> true
+article.published?           #=> false
 
 # Getters
-switchy.status #=> "off"
+article.status               #=> "draft"
 
 # Setters
-switchy.status = "on" #=> "on"
-switchy.off!          #=> "off"
+article.status = "published" #=> "published"
+article.draft!               #=> "draft"
 ```
-
-Since enums are stored as integers in the database and there is no native `enum` type available in most database schemas, we set their data type to `integer`:
-
-```bash
-# If building a new model, pass `column_name:integer`
-# to the model generator
-bin/rails g model LightSwitch status:integer
-
-# If adding a column to an existing table:
-bin/rails g migration AddToLightSwitch status:integer
-```
-
-Importantly, changing the model declaration **will not change** values that have
-already been stored in the database; you must update them yourself.
 
 ### Bare-metal SQL
 
@@ -314,14 +301,8 @@ This was a lot of material, but you should have a healthy appreciation for the b
 
 #### Advanced querying
 
-1. Read section 14 in the [Rails Guide on
-   Querying](https://guides.rubyonrails.org/active_record_querying.html#scopes)
-   for a look at scopes. Again, you don't necessarily need to memorize all the
-   details of scopes, but you should understand the concept and when it might be
-   useful.
-1. Read [How to Use Enums in
-   Rails](https://blog.saeloun.com/2022/01/05/how-to-use-enums-in-rails/).
-1. Read the [docs for ActiveRecord::Enum](https://api.rubyonrails.org/classes/ActiveRecord/Enum.html).
+1. Read section 14 in the [Rails Guide on Querying](https://guides.rubyonrails.org/active_record_querying.html#scopes) for a look at scopes. Again, you don't necessarily need to memorize all the details of scopes, but you should understand the concept and when it might be useful.
+1. Read [How to Use Enums in Rails](https://blog.saeloun.com/2022/01/05/how-to-use-enums-in-rails/).
 1. Read section 19 of the same Rails guide for a look at [using SQL directly to query](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql).
 
 </div>
@@ -351,5 +332,4 @@ This section contains helpful links to related content. It isn't required, so co
 - [N+1 Problem: Optimized Counts with Joins and Custom Select](https://www.youtube.com/watch?v=rJg3I-leoo4)
 - [Speed up ActiveRecord with a little tweaking](https://blog.codeship.com/speed-up-activerecord/)
 - [A useful gem that identifies N+1 queries](https://github.com/flyerhzm/bullet)
-- [ActiveRecord::Enum API
-  docs](https://api.rubyonrails.org/classes/ActiveRecord/Enum.html)
+- [ActiveRecord::Enum API docs](https://api.rubyonrails.org/classes/ActiveRecord/Enum.html)
