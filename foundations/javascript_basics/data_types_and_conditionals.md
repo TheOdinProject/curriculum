@@ -39,37 +39,18 @@ Now it's time for the fun stuff...  So far, we haven't done much with our progra
 
 <div class="lesson-content__panel" markdown="1">
 
-To give you a good bit of practice, we have created replit.com exercises for you to play with. We believe it's best to practice programming on your *own* computer rather than in an online environment, but we'll get to that soon enough.
+To give you a good bit of practice, we have created JavaScript exercises for you to play with.
 
-Be sure to do the lessons in the order presented here. Pressing "run" at the top will run the code. Read all directions, watch the terminal, and read all the errors. Don't forget to use 'console.log' extensively.
+Be sure to follow the order presented here. Read all the directions, watch the terminal, and read all the errors.
 
-To get started, you will need to create a free [Replit](https://replit.com/) account. After you have done that, you can do the exercises down below by opening their link and clicking "Fork" or "Remix" in their Replit page.
-Note: Feel free to browse the files on the left column to gain familiarity with it.
+1. Follow the [instructions in the README of our `javascript-exercises` repository](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) to set up your local environment. Once you have cloned the repository and installed Jest, review each README file prior to completing the following exercises in order:
+    - `01_helloWorld` (This exercise is intentionally very beginner-friendly to ensure that you have everything set up properly!)
+    - `02_addNumbers`
+    - `03_numberChecker`
+    - `04_mathEquations`
+    - `05_joinStrings`
 
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### Replit fork limit
-
-Replit now limits free accounts to having 3 repls at a time. If you reach the limit of 3 repls, you can delete one or more of the previous forks to create a room for the new one. To do so, go to [your repls](https://replit.com/repls) and delete what you no longer need.
-
-</div>
-
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### Replit and AI
-
-Replit recently introduced an AI assistant, which is on by default. Before trying any of the exercises, you should first disable it, in order to prevent it from spoiling the exercise. You can do so by clicking on the button labeled AI in the bottom left corner of the code view and then unchecking the "Enable" checkbox.
-
-</div>
-
-- [Exercise 1](https://replit.com/@OdinProject/troubleshooting#troubleshooting.js)
-  - In this exercise, you will be working out of the file called `troubleshooting.js`.
-- [Exercise 2](https://replit.com/@OdinProject/enter-a-number#script.js)
-  - You will be working out of `script.js`, and you will use the console in the 'webview' pane to check your work. To access the console, click the wrench icon, which is located on the right side of the address bar within the 'webview' pane.
-- [Exercise 3](https://replit.com/@OdinProject/lets-do-some-math#math.js)
-  - You will be working out of `math.js`.
-- [Exercise 4](https://replit.com/@OdinProject/direction-follow#follow.js)
-  - You will be working out of `follow.js`.
+Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
 </div>
 
