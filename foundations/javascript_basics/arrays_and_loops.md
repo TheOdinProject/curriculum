@@ -40,14 +40,13 @@ We will teach you the art of actually writing these tests later in the course. T
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go and review the [README of our `javascript-exercises` repository](https://github.com/TheOdinProject/javascript-exercises#readme) to set up your local environment. Once you have cloned the repository and installed Jest, review each README file prior to completing the following exercises in order:
-    - `01_helloWorld` (This exercise is intentionally very beginner friendly to ensure that you have set up everything properly!)
-    - `02_repeatString`
-    - `03_reverseString`
-    - `04_removeFromArray`
-    - `05_sumAll`
-    - `06_leapYears`
-    - `07_tempConversion`
+1. Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Data Types and Conditionals](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals) assignment. Review each README file prior to completing the following exercises in order:
+    - `06_repeatString`
+    - `07_reverseString`
+    - `08_removeFromArray`
+    - `09_sumAll`
+    - `10_leapYears`
+    - `11_tempConversion`
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
