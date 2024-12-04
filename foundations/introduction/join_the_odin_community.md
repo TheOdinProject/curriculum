@@ -186,6 +186,7 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
    - **Don't 'bomb' chats:** Don't send multiple messages in a row; type out your whole message, then push send.
    - **Don't exclude anyone:** These are public chats; if someone joins in on a conversation, include them!
    - **Don't disappear right after asking for help on code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
+   - **Take some time to observe the server before jumping in:** This helps you understand how our community interacts and communicates.
 
 </div>
 
