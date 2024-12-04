@@ -43,7 +43,7 @@ To give you a good bit of practice, we have created JavaScript exercises for you
 
 Be sure to follow the order presented here. Read all the directions, watch the terminal, and read all the errors.
 
-1. Follow the [instructions in the README of our `javascript-exercises` repository](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) to set up your local environment. Once you have cloned the repository and installed Jest, review each README file prior to completing the following exercises in order:
+1. Follow the [instructions in the README of our `javascript-exercises` repository](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) to set up your local environment. Once you have forked the repository, cloned it and installed Jest, review each README file prior to completing the following exercises in order:
     - `01_helloWorld` (This exercise is intentionally very beginner-friendly to ensure that you have everything set up properly!)
     - `02_addNumbers`
     - `03_numberChecker`
