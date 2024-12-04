@@ -184,7 +184,7 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
    - **If you wouldn't say it out loud don't type it:** Plain and simple.
    - **Ping (@user) with a purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.
    - **Don't 'bomb' chats:** Don't send multiple messages in a row; type out your whole message, then push send.
-   - **Don't exclude anyone:** These are public chats; if someone joins in on a conversation, include them!
+   - **Don't exclude anyone:** These are public chats; if someone joins in on a conversation, include them!  The exception to this is when someone is helping a learner. Those need to be 1:1 conversations to not confuse the learner.
    - **Don't disappear right after asking for help on code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
 
 </div>
