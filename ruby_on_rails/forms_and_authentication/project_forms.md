@@ -71,7 +71,7 @@ That looks a whole lot like what you normally see when Rails does it, right?
 
 1. You'll get some errors because now your controller will need to change.  But recall that we're no longer allowed to just directly call `params[:user]` because that would return a hash and Rails' security features prevent us from doing that without first validating it.
 1. Go into your controller and comment out the line in your `#create` action where you instantiated a `::new` User (we'll use it later).
-1. Implement a private method at the bottom called `user_params` which will `permit` and `require` the proper fields (see the [Controllers Lesson](/lessons/ruby-on-rails-controllers) for a refresher).
+1. Implement a private method at the bottom called `user_params` which will `expect` the proper fields (see the [Controllers Lesson](/lessons/ruby-on-rails-controllers) for a refresher).
 1. Add a new `::new` User line which makes use of that new allow params method.
 1. Submit your form now.  It should work marvelously (once you debug your typos)!
 

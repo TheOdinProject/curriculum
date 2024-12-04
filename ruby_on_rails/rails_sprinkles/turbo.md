@@ -250,7 +250,7 @@ class PostsController < ApplicationController
   private
 
   def post_params
-    params.require(:post).permit(:body)
+    params.expect(post: [:body])
   end
 end
 ```
