@@ -3,6 +3,7 @@
 So far you’ve been learning how to test code that you’ve written, but there’s a popular development process that flips that concept on its head. Rather than writing code, manually testing it until you get it working, then writing a test to make sure it stays working; you can write the test **before** the code, so that you don’t have to waste *any* time manually testing. Test Driven Development is the name of this inverted development process.
 
 ### Learning Outcomes
+
 Look through these now and use them to guide your learning. By the end of this lesson, expect to:
 
 - Learn what Test Driven Development is
@@ -30,6 +31,7 @@ This development cycle is known as red-green-refactor, and it’s at the heart o
 One key aspect of the red-green-refactor cycle that *isn’t* in the name, is that the code you write to go from `red` to `green` should be the **minimum** amount required to pass the test. If you find that the functionality you’re adding actually does *more* than is being tested, that is a sign that your method is likely doing too much, or possibly that your tests aren’t testing all of the right functionality.
 
 #### TDD Examples
+
 Let’s walk through a TDD approach to a basic class.
 
 Given the general problem:
@@ -210,6 +212,7 @@ TODO: Exercise: TDD a value object
 TODO: Exercise: TDD a class that has a collaborator which doesn't exist yet using mocks
 
 ### Additional Resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 Read ["TDD is Dead. Long Live Testing"](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html) by DHH for an anti-TDD viewpoint
