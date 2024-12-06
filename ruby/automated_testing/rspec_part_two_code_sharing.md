@@ -41,7 +41,7 @@ end
 
 Next, create a test file for the user class in the spec directory named `user_spec.rb` and write the following tests for the `User` class to exercise the name, email and age attributes:
 
-~~~ruby
+~~~~ruby
 # spec/user_spec.rb
 
 require "spec_helper"
