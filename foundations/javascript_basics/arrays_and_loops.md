@@ -34,7 +34,7 @@ Test Driven Development \(TDD\) is a phrase you often hear in the dev world. It 
 
 In many ways, TDD is much more productive than writing code without tests. If we didn't have the test for the adding function above, we would have to run the code ourselves over and over, plugging in different numbers until we were sure that it was working... not a big deal for a basic `add(2, 2)`, but imagine having to do that for more complicated functions, like checking whether or not someone has won a game of tic tac toe: \(`game_win(["o", null,"x",null,"x",null,"x", "o", "o"])`). If you didn't do TDD, then you might actually have to play multiple games against yourself just to test if the function was working correctly!
 
-We will teach you the art of actually writing these tests later in the course. For now, you will continue to work on the javascript exercises from before.
+We will teach you the art of actually writing these tests later in the course. For now, you will continue to work on the JavaScript exercises from before.
 
 ### Assignment
 
