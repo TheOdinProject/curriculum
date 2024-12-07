@@ -169,7 +169,7 @@ Can deploy both servers and databases.
 
 - [Koyeb homepage](https://www.koyeb.com/)
 - [Koyeb documentation](https://www.koyeb.com/docs)
-- [Guide: Official getting started with Node/Express on Koyeb guide](https://www.koyeb.com/docs/deploy/express)
+- [Guide: Official getting started with Node/Express on Koyeb guide](https://www.koyeb.com/docs/deploy/ruby-on-rails)
 
 ---
 
@@ -192,7 +192,7 @@ Can deploy databases only.
 
 - [Neon homepage](https://neon.tech/)
 - [Neon documentation](https://neon.tech/docs/introduction)
-- [Guide: Connect a Node.js application to Neon](https://neon.tech/docs/guides/node)
+- [Guide: Connect a Node.js application to Neon](https://neon.tech/docs/guides/ruby-on-rails)
 
 ---
 
