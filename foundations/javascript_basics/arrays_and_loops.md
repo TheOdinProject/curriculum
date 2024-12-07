@@ -40,11 +40,14 @@ We will teach you the art of actually writing these tests later in the course. F
 
 <div class="lesson-content__panel" markdown="1">
 
-1. If you already completed our [Installing Node.js lesson](https://www.theodinproject.com/lessons/foundations-installing-node-js), you may move on to the next step!<br />
-Otherwise, do the following in order:
+1. If you already completed our [Installing Node.js lesson](https://www.theodinproject.com/lessons/foundations-installing-node-js), you may move on to the next step!
+
+    Otherwise, do the following in order:
+
     - Complete the [Installing Node.js lesson](https://www.theodinproject.com/lessons/foundations-installing-node-js)
     - Follow the [instructions in the README of our `javascript-exercises` repository](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) to set up your local environment. You should have forked the repository, cloned it and installed Jest.
     - From the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises), review the README file prior to completing the exercise `01_helloWorld`
+
 1. Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Data Types and Conditionals](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals) assignment. Review each README file prior to completing the following exercises in order:
     - `06_repeatString`
     - `07_reverseString`
