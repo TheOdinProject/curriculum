@@ -39,7 +39,7 @@ Now it's time for the fun stuff...  So far, we haven't done much with our progra
 
 <div class="lesson-content__panel" markdown="1">
 
-To give you a good bit of practice, we have created JavaScript exercises for you to play with.
+To give you a good bit of practice, we have created JavaScript exercises for you to play with. They contain tests that are used to make sure that your code works like it is supposed to. Anywhere you see `return`, it just means that when the function finishes running, it will spit back whatever comes after `return`. In future lessons, we will go into much further detail regarding these concepts, so just hang in there for now!
 
 Be sure to follow the order presented here. Read all the directions, watch the terminal, and read all the errors.
 
