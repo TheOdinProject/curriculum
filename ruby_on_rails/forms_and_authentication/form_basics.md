@@ -47,28 +47,7 @@ The first line tells us which HTTP method was used and which route the form went
 
 You'll find yourself looking at this server output a lot when you start building forms. It'll keep you sane because it tells you exactly what the browser sent back to your application so you can see if there's been a... misunderstanding.
 
-### Railsifying your form
-
-The first thing you'll realize if you try to create a plain vanilla form in a Rails view is that it won't work. You'll either get an error or your user session will get zeroed out (depending on your Rails version). That's because Rails by default automatically protects you from [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) and it requires you to verify that the form was actually submitted from a page you generated. In order to do so, it generates an ["authenticity token"](http://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf) which looks like gibberish but helps Rails match the form with your session and the application.
-
-You'll notice the token in the server output from above:
-
-```bash
-  ...
-  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jJa87aK1OpXfjojryBk2Db6thv0K3bSZeYTuW8hF4Ns=", "email"=>"foo@bar.com", "commit"=>"Submit Form"}
-```
-
-So, if you want to create your own form that gets handled by Rails, you need to provide the token somehow as well. Luckily, Rails gives you a method called `form_authenticity_token` to do so, and we'll cover it in the project.
-
-```erb
-<input
-  type="hidden"
-  name="authenticity_token"
-  value="<%= form_authenticity_token %>"
->
-```
-
-### Making forms into params
+### Railsifying your form - Making forms input into params
 
 What about the other form inputs, the ones we actually care about?
 
