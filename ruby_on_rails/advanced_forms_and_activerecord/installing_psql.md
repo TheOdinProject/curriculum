@@ -198,6 +198,19 @@ If your terminal doesn't recognize `brew`, then you'll need to go and install ho
 
 Installing PostgreSQL via Postgres.app is simple. Visit [Postgres.app](https://postgresapp.com/) and follow the instructions outlined. Importantly, you'll want to configure your `$PATH` so you can access the tooling that comes along with PostgreSQL.
 
+You can run this command to update your path:
+```bash
+sudo mkdir -p /etc/paths.d &&
+echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+```
+
+After you've run this command and restarted your terminal, you can run `which psql` and we would expect this output:
+```bash
+/Applications/Postgres.app/Contents/Versions/latest/bin/psql
+```
+
+If you don't see a similar output, come visit [our Discord server](https://discord.gg/fbFCkYabZB) for some help!
+
 Please note that that Postgres.app installs servers without any security configured, and will accept all local connections without a password. This is fine for our development environment, but be aware that when you move things to production, this will not be a good strategy.
 
 Postgres.app defaults to creating a role and user database that matches your macOS user. You can confirm this by running this command after installing Postgres.app and updating the path:
@@ -211,7 +224,7 @@ You should see the PostgreSQL prompt come up like this:
 <your_user>=#
 ```
 
-Because Postgres.app has configured trusted authentication for all local connections, we don't need to set up any authentication for our local development environment. Just remember that your `role_name` is the user that appears in the `psql` prompt above.
+Because Postgres.app has configured trusted authentication for all local connections, we don't need to set up any password authentication for our local development environment. Just remember that your `role_name` is the user that appears in the `psql` prompt above.
 
 ### Creating a Rails application backed by PostgreSQL
 
