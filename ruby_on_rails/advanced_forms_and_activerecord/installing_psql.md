@@ -199,13 +199,15 @@ If your terminal doesn't recognize `brew`, then you'll need to go and install ho
 Installing PostgreSQL via Postgres.app is simple. Visit [Postgres.app](https://postgresapp.com/) and follow the instructions outlined. Importantly, you'll want to configure your `$PATH` so you can access the tooling that comes along with PostgreSQL.
 
 You can run this command to update your path:
-```bash
+
+  ```bash
 sudo mkdir -p /etc/paths.d &&
 echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
 ```
 
 After you've run this command and restarted your terminal, you can run `which psql` and we would expect this output:
-```bash
+
+  ```bash
 /Applications/Postgres.app/Contents/Versions/latest/bin/psql
 ```
 
@@ -220,6 +222,7 @@ psql
 ```
 
 You should see the PostgreSQL prompt come up like this:
+
 ```bash
 <your_user>=#
 ```
