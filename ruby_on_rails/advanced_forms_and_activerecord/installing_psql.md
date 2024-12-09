@@ -224,7 +224,7 @@ You should see the PostgreSQL prompt come up like this:
 <your_user>=#
 ```
 
-Because Postgres.app has configured trusted authentication for all local connections, we don't need to set up any password authentication for our local development environment. Just remember that your `role_name` is the user that appears in the `psql` prompt above.
+Because Postgres.app has configured trusted authentication for all local connections, we don't need to set up any password authentication for our local development environment. Just remember that your `role_name` is the user that appears in the `psql` prompt above. You can type `\q` to exit.
 
 </details>
 
