@@ -226,6 +226,8 @@ You should see the PostgreSQL prompt come up like this:
 
 Because Postgres.app has configured trusted authentication for all local connections, we don't need to set up any password authentication for our local development environment. Just remember that your `role_name` is the user that appears in the `psql` prompt above.
 
+</details>
+
 ### Creating a Rails application backed by PostgreSQL
 
 Now that we've installed and configured our local PostgreSQL server, let's generate a new Rails application to make sure everything is working.
