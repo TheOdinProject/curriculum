@@ -1,6 +1,6 @@
 ### Introduction
 
-You've learned how to build some cool stuff already and, frankly, you could probably make some decent websites without a crazy amount of additional formal education. However, just because you can write English at a grade school level doesn't mean you will be editing the New York Times anytime soon.
+Learning web development is like mastering a language - knowing the basics lets you communicate, but there's a substantial gap between writing simple sentences and crafting compelling articles. While you can create functional websites with foundational knowledge, developing professional, scalable applications requires a deeper understanding of advanced concepts and best practices.
 
 In the world of programming, there's a difference between solving a problem the brute force way and solving a problem WELL. We touched on the first layer of this when we covered basic programming and how you should break apart your code into well-organized chunks.  
 
@@ -21,7 +21,6 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Watch [Introduction to Algorithms by David Malan](https://www.youtube.com/watch?v=6hfOvs8pY1k) on TedEd to see how to think about algorithms.
   1. Watch [What is an Algorithm?](https://youtu.be/e_WfC8HwVB8) on YouTube for a more structured look at solving problems using algorithms.
   1. Read this Quora answer about the [importance of algorithms in web development](https://qr.ae/py3NAc) to get some context for why we're going over this stuff.
   1. Watch [What is pseudocode?](https://www.youtube.com/watch?v=Rg-fO7rDsds)
