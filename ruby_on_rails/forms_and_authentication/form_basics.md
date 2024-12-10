@@ -49,8 +49,6 @@ You'll find yourself looking at this server output a lot when you start building
 
 ### Railsifying your form - Making forms input into params
 
-What about the other form inputs, the ones we actually care about?
-
 Each one of these inputs is structured slightly differently, but there are some commonalities. One important thing to note is the `name` attribute that you can give to an input tag. In Rails, that's very important. The `name` attribute tells Rails what it should call the stuff you entered in that input field when it creates the `params` hash. For instance,
 
 ```html
