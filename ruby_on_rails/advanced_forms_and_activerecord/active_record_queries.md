@@ -294,8 +294,8 @@ This was a lot of material, but you should have a healthy appreciation for the b
 
 1. Read the first 6 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions. Don't worry too much about batching and `#find_each`.
 1. Read section 20 of the same Rails guide for a brief look at [using `exists?`, `any?` and `many?`](https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects).
-1. Read sections 7, 8 and 21 of the same Rails guide for an understanding of [aggregate functions and the calculations you can run on them](https://guides.rubyonrails.org/active_record_querying.html#grouping).
-1. Skim sections 9-12 of the same Rails guide on [overriding conditions](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions).
+1. Read sections 7 and 21 to learn about [grouping and aggregate functions](https://guides.rubyonrails.org/active_record_querying.html#grouping).
+1. Skim section 8 to learn about [overriding conditions](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions).
 1. Read section 12 of the same Rails guide to see how Rails lets you play with [joining tables together](https://guides.rubyonrails.org/active_record_querying.html#joining-tables).
 1. Read section 18 of the same Rails guide for a quick look at [the helpful `find_or_create_by` methods](https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object).
 
@@ -303,7 +303,7 @@ This was a lot of material, but you should have a healthy appreciation for the b
 
 1. Read section 14 in the [Rails Guide on Querying](https://guides.rubyonrails.org/active_record_querying.html#scopes) for a look at scopes. Again, you don't necessarily need to memorize all the details of scopes, but you should understand the concept and when it might be useful.
 1. Read [How to Use Enums in Rails](https://blog.saeloun.com/2022/01/05/how-to-use-enums-in-rails/).
-1. Read section 19 of the same Rails guide for a look at [using SQL directly to query](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql).
+1. Read section 19 “Finding by SQL” of the same Rails guide for a look at [using SQL directly to query](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql).
 
 </div>
 

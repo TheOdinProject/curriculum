@@ -93,14 +93,13 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 #### Fly.io
 
 - Fly.io uses a CLI tool for deployment.
-- Paid plans include [free allowances](https://fly.io/docs/about/pricing/#free-allowances), additional resources are billed based on usage with very reasonable rates.
+- Paid plans are available, with resource usage billed based on consumption at competitive rates. Free allowances are no longer offered.
 - Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
 
 ##### Fly.io: Hobby Plan
 
-- New customers get a one-time $5 free trial credit to test Fly.io at no cost. The free allowances are not applicable during the free trial. After the credit has been used, you will be be automatically placed on the $5/month Hobby plan subscription.
-- The longevity of your free trial credit depends on how many resources you consume. More complex apps with more traffic may consume the whole free trial credit within a month, whereas simpler apps may last longer.
-- Requires a credit card.
+- Fly.io no longer offers the $5 free trial credit or the $5/month Hobby plan. However, the free resources previously included in the Hobby (now deprecated), Launch, and Scale plans are still honored for organizations that were on these plans before they were sunset.
+- New users must sign up with a credit card, and charges will apply immediately based on resource consumption.
 
 ##### Fly.io: Links
 
