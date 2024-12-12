@@ -174,11 +174,11 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 ```html
 <style>
   .emojify::before {
-    content: '😎 🥸 🤓';
+    content: '😎 😄 🤓';
 }
 
   .emojify::after {
-    content: '🤓 🥸 😎';
+    content: '🤓 😄 😎';
 }
 </style>
 
@@ -189,7 +189,7 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 
 Using these pseudo-elements this way would give us this result:
 
-Let's 😎 🥸 🤓 emojify 🤓 🥸 😎 this span!
+Let's 😎 😄 🤓 emojify 🤓 😄 😎 this span!
 
  There are lots more! Have a quick browse through the [pseudo-element docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) to see a complete list of what's possible.
 
