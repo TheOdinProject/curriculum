@@ -345,6 +345,17 @@ Because WSL2 is a full-fledged Linux distribution, almost everything that the cu
   ```
 
 - After a few minutes you'll be prompted to reboot your computer; do so.
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Virtualization Error
+
+Since WSL2 uses virtualization technology to run a Linux kernel inside a lightweight utility virtual machine (VM), you may encounter an error stating: "Please enable the Virtual Machine Platform Windows feature and ensure virtualization is enabled in BIOS" after restarting.
+To resolve this, you will need to enable virtualization in your BIOS. Enter the BIOS by pressing the respective key or key combination during boot (this varies by manufacturer, so check your laptop or motherboard manufacturer's instructions). Alternatively, you can access BIOS settings through Windows. Hold Shift and click Restart from the Start menu. On the new screen, click the Troubleshoot tile, select Advanced Options, and then choose UEFI Firmware Settings. Click Restart, and your computer will reboot into the UEFI firmware/BIOS settings screen.
+In the BIOS, look for a setting such as SVM, Intel Virtualization Technology, or Virtualization Technology, depending on your CPU. Enable the respective setting, save the changes, and exit the BIOS.
+Back in Windows, search for "Turn Windows Features on or off", click on it, and enable Hyper-V in the window that appears. After enabling Hyper-V, you will be prompted to restart your computer.
+After restarting, open your default Linux distribution (e.g., Ubuntu) through the Start menu and follow the setup steps to configure your username and password.
+
+</div>
 - You should see an open Powershell window, prompting you to enter a username and a password. Your username should be lowercase, but can otherwise be whatever suits you. You'll also need to enter a new password.
 - When entering your password you might notice that you aren't seeing any visual feedback. This is a standard security feature in Linux, and will also happen in all future cases where you need to enter a password. Just type your password and hit <kbd>Enter</kbd>.
 
