@@ -150,6 +150,52 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
+#### Koyeb
+
+Can deploy both servers and databases.
+
+- Easily Git push to deploy.
+- Ability to run web apps, APIs, and workers easily.
+- SSL and 10 free custom domains
+
+##### Koyeb: Free Plan
+
+- One free Web service.
+- One free Postgres database (50 hours).
+- Doesn't require a credit card to start.
+- Pay-per-use by the second for more.
+
+##### Koyeb: Links
+
+- [Koyeb homepage](https://www.koyeb.com/)
+- [Koyeb documentation](https://www.koyeb.com/docs)
+- [Guide: Official getting started with Node/Express on Koyeb guide](https://www.koyeb.com/docs/deploy/ruby-on-rails)
+
+---
+
+#### Neon
+
+Can deploy databases only.
+
+- 24/7 for your main database.
+- 20 additional hours of database branching.
+- Point-in-time restore (24 Hours)
+- No credit card required.
+
+##### Neon: Free Plan
+
+- 0.5 GiB of storage
+- 24/7 for your main compute
+- No credit card required
+
+##### Neon: Links
+
+- [Neon homepage](https://neon.tech/)
+- [Neon documentation](https://neon.tech/docs/introduction)
+- [Guide: Connect a Node.js application to Neon](https://neon.tech/docs/guides/ruby-on-rails)
+
+---
+
 #### Heroku
 
 - Heroku has a straightforward deployment process using a combination of a well-documented CLI tool and Git.
