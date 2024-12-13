@@ -47,7 +47,7 @@ The first line tells us which HTTP method was used and which route the form went
 
 You'll find yourself looking at this server output a lot when you start building forms. It'll keep you sane because it tells you exactly what the browser sent back to your application so you can see if there's been a... misunderstanding.
 
-### Railsifying your form - Making forms input into params
+### Railsifying your form by making forms input into params
 
 Each one of these inputs is structured slightly differently, but there are some commonalities. One important thing to note is the `name` attribute that you can give to an input tag. In Rails, that's very important. The `name` attribute tells Rails what it should call the stuff you entered in that input field when it creates the `params` hash. For instance,
 
@@ -276,9 +276,8 @@ At this point, you should have a solid understanding of how forms work in genera
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is a CSRF Token and why is it necessary?](#railsifying-your-form)
-- [What is the `name` attribute of a form input element and what does it do?](#making-forms-into-params)
-- [How do you nest attributes under a single hash in `params`?](#making-forms-into-params)
+- [What is the `name` attribute of a form input element and what does it do?](#railsifying-your-form-by-making-forms-input-into-params)
+- [How do you nest attributes under a single hash in `params`?](#railsifying-your-form-by-making-forms-input-into-params)
 - [How do you pass `form_with` a model object?](#using-models-with-the-form_with-helper)
 - [How do you access errors for a failed-to-save model object?](#forms-and-validations)
 - [How do Rails forms make PATCH or DELETE requests?](#making-patch-and-delete-submissions)
