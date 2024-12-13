@@ -20,7 +20,8 @@ Thus, the problem of finding the shortest path for the knight’s movement becom
 #### Vertices and Edges
 
 The vertices in this graph are each of the possible positions on the chessboard, represented by a pair of coordinates like `[x, y]`, where x and y are between 0 and 7.
-The edges are the valid knight moves between vertices. For example, from `[0,0]`, a knight can move to `[2,1]`, `[1,2]`, and so on. Each of these moves represents a connection between the vertex `[0,0]` and the other reachable vertices.
+The edges are the valid knight moves between vertices. For example, from `[0,0]`, a knight can move to `[2,1]`, `[1,2]`, and so on. Each of these moves represents a connection between the vertex `[0,0]` and the other reachable vertices. Consider how you can use an adjacency list in
+order to return the shortest path.
 
 #### Graph Representation
 
