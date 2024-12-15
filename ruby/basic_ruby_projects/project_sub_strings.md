@@ -32,4 +32,7 @@ Next, make sure your method can handle multiple words:
 
 - Recall how to turn strings into arrays and arrays into strings.
 
+**Extra Credit**
+- Handle common contractions, e.g: "How's" => "How", "is"
+
 </div>
