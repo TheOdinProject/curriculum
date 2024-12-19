@@ -20,12 +20,3 @@ If you get stuck at anytime, feel free to go back to the [Getting Started lesson
     - [localhost:8080/contact-me](http://localhost:8080/contact-me) should take users to contact-me.html
     - 404.html should display any time the user tries to go to a page not listed above.
 </div>
-
-### Submitting a solution
-If you're planning to submit a live demo with your student solution, one of the easiest ways to do that is using Replit. To do this:
-
-1. Go to [replit.com](https://replit.com)
-2. Create a new repl
-3. Enter the url for your submission github repo and click "Import from GitHub"
-4. Change the language to Node.js
-5. Click the "Run" button and you should get the URL to your demo in the URL bar of the repl's web view.
