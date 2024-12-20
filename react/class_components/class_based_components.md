@@ -35,7 +35,7 @@ const FunctionalInput = ({ name }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setTodos((todo) => [...todo, inputVal]);
+    setTodos((prevTodos) => [...prevTodos, inputVal]);
     setInputVal("");
   };
 
