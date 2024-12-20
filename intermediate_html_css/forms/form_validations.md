@@ -70,7 +70,7 @@ With the maximum length validation, the browser will prevent users from entering
 
 #### Combining validations
 
-HTML allows us to apply as many validations as we wish to a form control. For example, we can give our post textarea both `minlength` and `maxlength` validations:
+HTML allows us to apply as many validations as we wish to a form control. For example, we can give our post `<textarea>` both `minlength` and `maxlength` validations:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="vYeZGVY" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
