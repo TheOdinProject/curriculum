@@ -96,7 +96,7 @@ export default ClassInput;
 
 A class is generally incomplete without a constructor, so let's add one.
 
-The props, that get passed into this component, gets passed into the class's `constructor`. This, along with the `super` method, allows you to use the props in context to `this`, which, in *this* case, refers to the component. If you’re really curious about what `super` actually does, check out the [MDN docs on the `super` keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super).
+The props passed into this component are passed to the class's `constructor`. This, along with the `super` method, allows you to use the props in the context of `this`, which, in *this* case, refers to the component. If you’re really curious about what `super` actually does, check out the [MDN docs on the `super` keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super).
 
 If your component doesn't have any props, it is fine to leave the `constructor` and the `super` with no arguments.
 
@@ -132,14 +132,14 @@ class ClassInput extends Component {
     return (
       <section>
         <h3>{this.props.name}</h3>
-        {/* The input field to enter To-Do's */}
+        {/* The input field to enter To-Dos */}
         <form>
           <label htmlFor="task-entry">Enter a task: </label>
           <input type="text" id="task-entry" name="task-entry" />
           <button type="submit">Submit</button>
         </form>
         <h4>All the tasks!</h4>
-        {/* The list of all the To-Do's, displayed */}
+        {/* The list of all the To-Dos, displayed */}
         <ul></ul>
       </section>
     );
