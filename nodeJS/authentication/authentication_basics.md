@@ -320,10 +320,17 @@ Password hashes are the result of passing the user's password through a one-way 
 Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:
 
 ```javascript
-bcrypt.hash(req.body.password, 10, async (err, hashedPassword) => {
-  // if err, do something
-  // otherwise, store hashedPassword in DB
-});
+app.post("/sign-up", async (req, res, next) => {
+	try {
+		const hashedPassword = await bcrypt.hash(req.body.password, 10)
+		await pool.query("insert into users (username, password) values ($1, $2)", [req.body.username, hashedPassword])
+		res.redirect("/")
+	}
+	catch (error) {
+		console.error(error)
+		next(error)
+	}
+})
 ```
 
 The second argument is the length of the "salt" to use in the hashing function; salting a password means adding extra random characters to it, the password plus the extra random characters are then fed into the hashing function. Salting is used to make a password hash output unique, even for users who use the same password, and to protect against [rainbow tables](https://en.wikipedia.org/wiki/Rainbow_table) and [dictionary attacks](https://en.wikipedia.org/wiki/Dictionary_attack).
