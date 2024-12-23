@@ -98,9 +98,21 @@ Your game will play 5 rounds. You will write a function named `playGame` that ca
 
 <div class="lesson-note" markdown="1">
 
+#### Extra credit
+
 When making interactive projects, like this one, you might be tempted to add more features, improve interactivity, user experience, design and styling of your website, and so on.
 
-We recommend not doing that, and saving this effort for your portfolio projects.
+Normally, we recommend not doing this and reserving this effort for your portfolio projects.
+
+But there is one exception: extra credits.
+
+When you find an extra credit in these lessons, it means that you will have the opportunity to test yourself and show the world that you are capable of putting in that extra effort. In other words: an extra credit is a voluntary exercise or assignment that you can do if you want to.
+
+And this is the first extra credit of the course: if you dare, try expanding the game, and turning it into **Rock, Paper, Scissors, Lizard and Spock.**
+
+If this variant of the game is unfamiliar to you, visit this page:
+
+https://www.samkass.com/theories/RPSSL.html
 
 For more information on learning mindset and portfolio pieces read [Part 5](https://dev.to/theodinproject/learning-code-f56) and [Part 7](https://dev.to/theodinproject/strategically-building-your-portfolio-1km4) of [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
 
