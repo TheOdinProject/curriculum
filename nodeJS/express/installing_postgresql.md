@@ -62,7 +62,7 @@ sudo systemctl start postgresql.service && systemctl status postgresql.service
 Systemctl is not supported on WSL2, and the above command won't work. Instead, run the following command:
 
 ```bash
-sudo service postgresql start
+sudo service postgresql start && sudo service postgresql status
 ```
 
 </div>
