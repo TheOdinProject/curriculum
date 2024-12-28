@@ -111,7 +111,7 @@ createRoot(document.getElementById("root")).render(
 );
 ```
 
-Once this is done, go ahead and run `npm run dev` and check out both routes: the home route `/` and the profile route `/profile` It works! But what is happening here?
+Once this is done, go ahead and run `npm run dev` and check out both routes: the home route `/` and the profile route `/profile`. It works! But what is happening here?
 
 1. We import `createBrowserRouter` and `RouterProvider` from React Router.
 1. `createBrowserRouter` is used to create the configuration for a router by passing arguments in the form of an array of routes.
