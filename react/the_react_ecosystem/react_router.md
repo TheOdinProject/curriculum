@@ -247,7 +247,7 @@ const DefaultProfile = () => {
 export default DefaultProfile;
 ```
 
-Now, add an index tag with the DefaultProfile as a child to the `/profile` route.
+Now, add an index property with the DefaultProfile as a child to the `/profile` route.
 
 ```jsx
 import { StrictMode } from "react";
