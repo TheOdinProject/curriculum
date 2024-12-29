@@ -18,7 +18,7 @@ Many great resources out there keep referring to HTML and CSS as *programming la
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read [HTML vs CSS vs JavaScript](https://brytdesigns.com/html-css-javascript-whats-the-difference/). It's a quick overview of the relationship between HTML, CSS, and JavaScript.
+1. Read [HTML vs CSS vs JavaScript](https://web.archive.org/web/20200924011754/https://brytdesigns.com/html-css-javascript-whats-the-difference/). It's a quick overview of the relationship between HTML, CSS, and JavaScript.
 
 </div>
 
@@ -26,10 +26,10 @@ Many great resources out there keep referring to HTML and CSS as *programming la
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What do HTML and CSS stand for?](https://brytdesigns.com/html-css-javascript-whats-the-difference/#What_is_HTML)
+- [What do HTML and CSS stand for?](https://web.archive.org/web/20200924011754/https://brytdesigns.com/html-css-javascript-whats-the-difference/#html)
 - [Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?](#html-and-css)
 - [Between HTML and CSS, which would you use for changing the font and background color of a button?](#html-and-css)
-- [What is the difference between HTML, CSS and JavaScript?](https://brytdesigns.com/html-css-javascript-whats-the-difference/)
+- [What is the difference between HTML, CSS and JavaScript?](https://web.archive.org/web/20200924011754/https://brytdesigns.com/html-css-javascript-whats-the-difference/)
 
 ### Additional resources
 
