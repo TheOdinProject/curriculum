@@ -64,10 +64,12 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 1. For now, just include an `h1` heading with the recipe's name as its content.
 1. Back in the `index.html` file, add a link to the recipe page you just created. Example: Under the `<h1>Odin Recipes</h1>` heading, write out the link like so: `<a href="recipes/recipename.html">Recipe Title</a>`. The text of the link should again be the recipe name.
 1. **Add a link back to the index page** on your recipe page for easier navigation. You can place this link at the top or bottom of your recipe page (e.g., 'lasagna.html'). Here's an example:
-    ```html
-    <a href="../index.html">Home</a>
-    ```
-    This allows users to quickly return to the home page after viewing the recipe.
+
+   ```html
+   <a href="../index.html">Home</a>
+   ```
+    
+   This allows users to quickly return to the home page after viewing the recipe.
 
 #### Iteration 3:  recipe page content
 
