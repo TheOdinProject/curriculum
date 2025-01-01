@@ -36,7 +36,13 @@ For a more thorough explanation, use these resources:
 
 <div class="lesson-content__panel" markdown="1">
 
-If you wish to use multiple ES6 modules, remember that Node uses CommonJS modules by default and so you must [tell Node to use ES6 modules](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/) instead.
+<div class="lesson-note" markdown="1">
+
+#### ES6 modules
+
+Node v22 (which became LTS in October 2024) can now automatically detect ES6 modules and run them without any further configuration. If you are using ES6 modules and run into errors due to Node not recognising the syntax, make sure you [update Node to the latest LTS version](https://www.theodinproject.com/lessons/foundations-installing-node-js#installing-node).
+
+</div>
 
 You will need two classes or factories:
 
