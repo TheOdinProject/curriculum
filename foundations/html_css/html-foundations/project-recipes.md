@@ -68,7 +68,7 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
    ```html
    <a href="../index.html">Home</a>
    ```
-    
+
    This allows users to quickly return to the home page after viewing the recipe.
 
 #### Iteration 3:  recipe page content
