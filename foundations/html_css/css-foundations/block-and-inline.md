@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Block vs inline
 
-Most of the elements that you have learned about so far are block elements.  In other words, their default style is `display: block`. <span id="block-inline-difference"></span>By default, block elements will appear on the page stacked atop each other, each new element starting on a new line.
+Most of the elements that you have learned about so far are block elements. In other words, their default style is `display: block`. <span id="block-inline-difference"></span>By default, block elements will appear on the page stacked atop each other, each new element starting on a new line.
 
 Inline elements, however, do not start on a new line. They appear in line with whatever elements they are placed beside. A clear example of an inline element is a link, or `<a>` tag. If you stick one of these in the middle of a paragraph of text, [the link will behave like a part of the paragraph](https://www.youtube.com/watch?v=dQw4w9WgXcQ). Additionally, padding and margin behave differently on inline elements. In general, you do not want to try to put extra padding or margin on inline elements.
 
@@ -31,9 +31,9 @@ Div is a block-level element by default. It is commonly used as a container elem
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="KKXXbwR" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/KKXXbwR">
-  block-inline-lesson-div-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/KKXXbwR">
+block-inline-lesson-div-example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
 
@@ -43,9 +43,9 @@ Span is an inline-level element by default. It can be used to group text content
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abLLPor" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
-  <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/abLLPor">
-  Untitled</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
+<span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/abLLPor">
+Untitled</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
 
@@ -59,6 +59,7 @@ Span is an inline-level element by default. It can be used to group text content
 1. W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
 1. The Digital Ocean tutorial ["Inline vs Inline-block Display in CSS"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) has a couple of great examples that clarify the difference between `inline` and `inline-block`.
 1. Do the exercises in our [CSS exercises repository's `foundations/block-and-inline` directory](https://github.com/TheOdinProject/css-exercises/tree/main/foundations/block-and-inline) (remember that the instructions are in the README) in the order:
+
    - `01-margin-and-padding-1`
    - `02-margin-and-padding-2`
 
@@ -86,3 +87,4 @@ This section contains helpful links to related content. It isn't required, so co
 - [Learn CSS Layout](https://learnlayout.com/no-layout.html) is a tutorial that is a little dated at this point, but its examples are clear. The first 6 slides cover the material we've seen so far.
 - Watch this short video on [what the term “Normal Flow” means](https://www.youtube.com/watch?v=nfXRw06FgK8) in CSS.
 - For a more interactive explanation and example, try this [Scrim on block and inline display](https://scrimba.com/scrim/co5024997a7e46c232d9abe55).
+- To practice your CSS skills, CSS Diner is a great gamified way to do so [CSS Diner](https://flukeout.github.io/).
