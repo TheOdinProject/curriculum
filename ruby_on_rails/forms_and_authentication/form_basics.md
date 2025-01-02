@@ -260,9 +260,9 @@ If you find yourself submitting a form and nothing is happening, chances are you
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read the [Rails Guide on Form Helpers](http://guides.rubyonrails.org/form_helpers.html), sections 1 to 3.2.
-  1. Skim 3.3 to 7 to see what kinds of things are out there.  One day you'll need them, and now you know where to look.
-  1. Read sections 8.1 and 8.2 for the official explanation of how parameters are created from the `name` attribute.
+  1. Read the [Rails Guide on Form Helpers](http://guides.rubyonrails.org/form_helpers.html), sections 1 through 2.4.
+  1. Skim 3.1 through 7 to see what kinds of things are out there.  One day you'll need them, and now you know where to look.
+  1. Read sections 8.1 through 8.3 for the official explanation of how parameters are created from the `name` attribute.
   1. Read the [Rails Guide on Validations](http://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views) section 8 for a quick look at displaying errors.
   1. Skim through the official Rails API section on the [form_with helper](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_with) to see various ways to use this helper tag.
 
