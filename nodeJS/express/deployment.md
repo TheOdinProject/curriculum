@@ -185,17 +185,23 @@ Can deploy databases only.
 ---
 
 #### Aiven
+
 Can deploy databases only.
+
 - 24/7 for all database services.
 - High availability and automatic backups.
 - Point-in-time recovery (varies by service).
 - No credit card required.
+
 ##### Aiven: Free Plan
+
 - 5 GiB of storage.
 - 24/7 for all database services.
 - One free database for every services including PostgreSQL, MySQL and Redis.
 - No credit card required.
+
 ##### Aiven: Links
+
 - [Aiven homepage](https://aiven.io/)
 - [Aiven documentation](https://aiven.io/docs/get-started)
 - [Guide: Connect a Node.js application to Aiven](https://aiven.io/docs/products/postgresql/howto/connect-node)
