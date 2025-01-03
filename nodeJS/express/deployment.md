@@ -184,6 +184,30 @@ Can deploy databases only.
 
 ---
 
+#### Aiven
+
+Can deploy databases only.
+
+- 24/7 for all database services.
+- High availability and automatic backups.
+- Point-in-time recovery (varies by service).
+- No credit card required.
+
+##### Aiven: Free Plan
+
+- 5 GiB of storage.
+- 24/7 for all database services.
+- One free database for every services including PostgreSQL, MySQL and Redis.
+- No credit card required.
+
+##### Aiven: Links
+
+- [Aiven homepage](https://aiven.io/)
+- [Aiven documentation](https://aiven.io/docs/get-started)
+- [Guide: Connect a Node.js application to Aiven](https://aiven.io/docs/products/postgresql/howto/connect-node)
+
+---
+
 ### Debugging and troubleshooting deployments
 
 Errors are an inevitable part of the software development process. They especially have a habit of popping up when deploying to a new environment like a hosting provider. When this happens, the key is not to panic and to follow a calm, step-by-step debugging process.
@@ -255,4 +279,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [free-for.dev](https://free-for.dev/). This is a huge repository for list of software such as SaaS, PaaS, IaaS, etc. and other offerings with free developer tiers.
