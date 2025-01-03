@@ -170,3 +170,4 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Using CSS custom properties](https://www.youtube.com/watch?v=_2LwjfYc1x8) by Kevin Powell is a great video showing neat ways to use custom properties.
+- [CSS variables in 100 seconds](https://youtu.be/NtRmIp4eMjs?si=yE-zYoqbdnHkyqz4) by Fireship is a concise and informative video that provides a quick overview of CSS variables.
