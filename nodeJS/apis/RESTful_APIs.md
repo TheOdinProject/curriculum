@@ -1,8 +1,10 @@
 ### Introduction
 
-Up until now, you have been creating a server to serve your assets like HTML, CSS, and JavaScript. But you have also learned about React and client-side navigation - here is where we come to understand why. In the last decade, a specific pattern for developing websites has gained a lot of popularity. Instead of creating an app that hosts both the database and view templates, one can separate these concerns into separate projects, hosting their backend and database on a server (either on something like [Heroku](https://www.heroku.com/) or on a VPS like [Digital Ocean](https://www.digitalocean.com/)), then using a service such as [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/) to host their frontend.
+When simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learned in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. Until now, you have been creating a server to serve your assets like HTML, CSS, and JavaScript. But you have also learned about React and client-side navigation - here is where we come to understand why.
 
-This technique is sometimes referred to as the [Jamstack](https://jamstack.org/what-is-jamstack/). The most obvious benefit of this architecture lies in its separation of the business logic and view logic. This allows you to use a singular backend as a source of data for whatever frontend application(s) you want. You can send data to a website, a desktop app, and a mobile app with the same backend.
+In the last decade, a specific pattern for developing websites has gained a lot of popularity. Instead of creating an app that hosts both the database and view templates, one can separate these concerns into separate projects, hosting their backend and database on a server (either on something like [Heroku](https://www.heroku.com/) or on a VPS like [Digital Ocean](https://www.digitalocean.com/)), then using a service such as [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/) to host their frontend.
+
+This pattern is sometimes referred to as the [Jamstack](https://jamstack.org/what-is-jamstack/). The most obvious benefit of this is its separation of the business logic and view logic. This allows you to use a singular backend as a source of data for whatever frontend application(s) you want. You can send data to a website, a desktop app, and a mobile app with the same backend. These two seperate entities interact with the help of APIs.
 
 ### Lesson overview
 
@@ -91,7 +93,7 @@ http://sub.domain.com:1234/path/to/resource?query=something&param=something#anch
 
 ### RESTful APIs
 
-Simply put, an API is an interface. When an application needs to interact with another, it sends a request to the respective API. As you've learned in previous lessons, in the context of the web, any server that is created to serve data for external use is called an API. While you can structure your API in multiple ways, a popular and conventional method to do so is to follow REST (**Re**presentational **S**tate **T**ransfer). [The exact definition of REST](https://en.wikipedia.org/wiki/REST#Principle) might be a little complicated, but for us, it states that there is a set of standards to be followed to make our API RESTful (adhere to the constraints set by REST).
+While you can structure your API in multiple ways, a popular and conventional method to do so is to follow REST (**Re**presentational **S**tate **T**ransfer). [The exact definition of REST](https://en.wikipedia.org/wiki/REST#Principle) might be a little complicated, but for us, it states that there is a set of standards to be followed to make our API RESTful (adhere to the constraints set by REST).
 
 Earlier, we mentioned separating the client and the server, which fulfills the first constraint of REST: the frontend and backend are well-defined. Further constraints like statelessness and caching are covered by and ensured later with ExpressJS. Our key concern at this point is the organization of endpoint URLs with respect to our resources.
 
