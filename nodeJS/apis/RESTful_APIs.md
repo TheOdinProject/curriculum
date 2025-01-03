@@ -4,7 +4,7 @@ When simply put, an API is an interface. When an application needs to interact w
 
 In the last decade, a specific pattern for developing websites has gained a lot of popularity. Instead of creating an app that hosts both the database and view templates, one can separate these concerns into separate projects, hosting their backend and database on a server (either on something like [Heroku](https://www.heroku.com/) or on a VPS like [Digital Ocean](https://www.digitalocean.com/)), then using a service such as [GitHub Pages](https://pages.github.com/) or [Netlify](https://www.netlify.com/) to host their frontend.
 
-This pattern is sometimes referred to as the [Jamstack](https://jamstack.org/what-is-jamstack/). The most obvious benefit of this is its separation of the business logic and view logic. This allows you to use a singular backend as a source of data for whatever frontend application(s) you want. You can send data to a website, a desktop app, and a mobile app with the same backend. These two seperate entities interact with the help of APIs.
+This pattern is sometimes referred to as the [Jamstack](https://jamstack.org/what-is-jamstack/). The most obvious benefit of this is its separation of the business logic and view logic. This allows you to use a singular backend as a source of data for whatever frontend application(s) you want. You can send data to a website, a desktop app, and a mobile app with the same backend. These two separate entities interact with the help of APIs.
 
 ### Lesson overview
 
