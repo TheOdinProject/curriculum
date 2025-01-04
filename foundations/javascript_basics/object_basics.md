@@ -174,7 +174,7 @@ console.log(mappedArr); // Outputs [2, 3, 4, 5, 6]
 console.log(arr); // Outputs [1, 2, 3, 4, 5]
 ```
 
-This is a much more elegant approach, what do you think? For simplicity, we could also define an inline function right inside of `map` like so:
+Using `map` in this way is much more elegant than writing a `for` loop and iterating over the array. But we can do even better. We can define an inline function right inside of `map` like so:
 
 ```javascript
 const arr = [1, 2, 3, 4, 5];
