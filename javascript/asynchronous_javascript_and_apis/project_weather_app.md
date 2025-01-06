@@ -20,7 +20,7 @@ When talking about API keys and security you'll often hear "Never trust the clie
 1. Set up a form that will let users input their location and will fetch the weather info (still just `console.log()` it).
 1. Display the information on your webpage!
 1. Add any styling you like!
-1. Optional: add a 'loading' component that displays from the time the form is submitted until the information comes back from the API. Use DevTools to test for low-end devices.
+1. Optional: add a 'loading' component that displays from the time the form is submitted until the information comes back from the API. Use DevTools to simulate network speeds.
 1. Push that baby to github and share your solution below!
 
 </div>
