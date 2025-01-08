@@ -206,6 +206,14 @@ Can deploy databases only.
 - [Aiven documentation](https://aiven.io/docs/get-started)
 - [Guide: Connect a Node.js application to Aiven](https://aiven.io/docs/products/postgresql/howto/connect-node)
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Keep your secrets safe!
+
+This guide provides a sample for configuring a database connection. Please do not store credentials directly in your code. Refer to the [Environment Variables](https://www.theodinproject.com/lessons/nodejs-environment-variables) section for best practices.
+
+</div>
+
 ---
 
 ### Debugging and troubleshooting deployments
