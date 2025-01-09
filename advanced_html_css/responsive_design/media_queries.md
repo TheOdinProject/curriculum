@@ -101,4 +101,3 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - This [Media Query Tutorial](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/) on FreeCodeCamp covers the same items we've touched on here.
-- If you want more hands-on practice, this [Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts) course by Kevin Powell might interest you. You'll have to sign up.
