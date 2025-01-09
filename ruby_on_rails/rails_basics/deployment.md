@@ -176,27 +176,6 @@ Can deploy databases only.
 
 ---
 
-#### Heroku
-
-- Heroku has a straightforward deployment process using a combination of a well-documented CLI tool and Git.
-- Heroku is a very mature platform which has been around for over a decade. Any problems you encounter are almost guaranteed to have a solution documented on Stack Overflow or elsewhere on the internet.
-- The $5 per month Eco plan will give you 1000 free hours each month for all your applications. Applications are automatically put to sleep after 30 minutes of inactivity, so the 1000-hour allowance should last the entire month for several of your portfolio projects.
-- Heroku's lowest-tier PostgreSQL databases cost $5 per month, effectively costing each application $5 to host.
-- $20 a month will be enough to host three applications. $5 Eco plan for 1000 server hours + an additional $5 for each app.
-
-##### Heroku: Free Plan
-
-- N/A
-
-##### Heroku: Links
-
-- [Heroku homepage](https://www.heroku.com/)
-- [Heroku documentation](https://devcenter.heroku.com/)
-- [Guide: Official Rails guide for Heroku](https://devcenter.heroku.com/articles/getting-started-with-rails7)
-- [Guide: GoRails video guide for deploying Rails applications to Heroku](https://www.youtube.com/watch?v=bQ2wXZf9irA)
-
----
-
 ### Debugging and troubleshooting deployments
 
 Errors are an inevitable part of the software development process. They especially have a habit of popping up when deploying to a new environment like a hosting provider. When this happens, the key is not to panic and to follow a calm, step-by-step debugging process.
