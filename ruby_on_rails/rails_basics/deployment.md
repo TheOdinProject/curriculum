@@ -149,7 +149,7 @@ Can deploy both servers and databases.
 
 - [Koyeb homepage](https://www.koyeb.com/)
 - [Koyeb documentation](https://www.koyeb.com/docs)
-- [Guide: Official getting started with Node/Express on Koyeb guide](https://www.koyeb.com/docs/deploy/ruby-on-rails)
+- [Guide: Official getting started with Ruby on Rails on Koyeb guide](https://www.koyeb.com/docs/deploy/ruby-on-rails)
 
 ---
 
@@ -247,4 +247,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [free-for.dev](https://free-for.dev/). This is a huge repository for list of software such as SaaS, PaaS, IaaS, etc. and other offerings with free developer tiers.
