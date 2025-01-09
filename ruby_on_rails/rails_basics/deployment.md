@@ -90,26 +90,6 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-#### Fly.io
-
-- Fly.io uses a CLI tool for deployment.
-- Paid plans are available, with resource usage billed based on consumption at competitive rates. Free allowances are no longer offered.
-- Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
-
-##### Fly.io: Hobby Plan
-
-- Fly.io no longer offers the $5 free trial credit or the $5/month Hobby plan. However, the free resources previously included in the Hobby (now deprecated), Launch, and Scale plans are still honored for organizations that were on these plans before they were sunset.
-- New users must sign up with a credit card, and charges will apply immediately based on resource consumption.
-
-##### Fly.io: Links
-
-- [Fly.io's homepage](https://fly.io/)
-- [Fly.io documentation](https://fly.io/docs/)
-- [Guide: Official getting started with Rails on Fly.io guide](https://fly.io/docs/rails/getting-started/)
-- [Guide: GoRails video guide for deploying Rails applications to Fly.io](https://www.youtube.com/watch?v=6Zp9y8nF5rE&)
-
----
-
 #### Railway.app
 
 - Railway has a straightforward deployment process. You link to your project's GitHub repo.
