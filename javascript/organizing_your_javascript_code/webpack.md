@@ -25,7 +25,7 @@ While it does this, we could also get it to do a whole bunch of other things, su
 
 Webpack is one of the most popular JavaScript bundlers, if not the most popular one, and has been for a long time. Let's get started with bundling!
 
-We'll first need to make a new directory for our practice app, then create a `package.json` file in it for npm to record information about packages we use (like Webpack). Run the following in your terminal:
+We'll first need to make a new directory for our practice app, so run the following in your terminal:
 
 ```bash
 mkdir webpack-practice && cd webpack-practice
