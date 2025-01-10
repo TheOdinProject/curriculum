@@ -28,9 +28,7 @@ Webpack is one of the most popular JavaScript bundlers, if not the most popular 
 We'll first need to make a new directory for our practice app, then create a `package.json` file in it for npm to record information about packages we use (like Webpack). Run the following in your terminal:
 
 ```bash
-mkdir webpack-practice &&
-cd webpack-practice &&
-npm init -y
+mkdir webpack-practice && cd webpack-practice
 ```
 
 Once inside your new directory, we can go ahead and install Webpack, which involves two packages.
@@ -39,9 +37,9 @@ Once inside your new directory, we can go ahead and install Webpack, which invol
 npm install --save-dev webpack webpack-cli
 ```
 
-Note that we included the `--save-dev` flag (you can also use `-D` as a shortcut), which tells npm to record our two packages as development dependencies. We will only be using Webpack during development. The actual code that makes Webpack run will not be part of the code that the browser will run.
+Note that we included the `--save-dev` flag (you can also use `-D` as a shortcut), which tells npm to record our two packages as development dependencies. You will see a `package.json` has been created for us with both packages marked as development dependencies. We will only be using Webpack during development. The actual code that makes Webpack run will not be part of the code that the browser will run.
 
-Also notice that when these finished installing, a `node_modules` directory and a `package-lock.json` got auto-generated. `node_modules` is where Webpack's actual code (and a whole bunch of other stuff) lives, and `package-lock.json` is just another file npm uses to track package information.
+Also notice that when these finished installing, a `node_modules` directory and a `package-lock.json` got auto-generated. `node_modules` is where Webpack's actual code (and a whole bunch of other stuff) lives, and `package-lock.json` is just another file npm uses to track more specific package information.
 
 <div class="lesson-note" markdown="1">
 
