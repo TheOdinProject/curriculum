@@ -90,6 +90,26 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
+#### Fly.io
+
+- Fly.io uses a CLI tool for deployment.
+- Paid plans are available, with resource usage billed based on consumption at competitive rates. Free allowances are no longer offered.
+- Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
+
+##### Fly.io: Hobby Plan
+
+- Fly.io no longer offers the $5 free trial credit or the $5/month Hobby plan. However, the free resources previously included in the Hobby (now deprecated), Launch, and Scale plans are still honored for organizations that were on these plans before they were sunset.
+- New users must sign up with a credit card, and charges will apply immediately based on resource consumption.
+
+##### Fly.io: Links
+
+- [Fly.io's homepage](https://fly.io/)
+- [Fly.io documentation](https://fly.io/docs/)
+- [Guide: Official getting started with Rails on Fly.io guide](https://fly.io/docs/rails/getting-started/)
+- [Guide: GoRails video guide for deploying Rails applications to Fly.io](https://www.youtube.com/watch?v=6Zp9y8nF5rE&)
+
+---
+
 #### Railway.app
 
 - Railway has a straightforward deployment process. You link to your project's GitHub repo.
@@ -173,6 +193,27 @@ Can deploy databases only.
 - [Neon homepage](https://neon.tech/)
 - [Neon documentation](https://neon.tech/docs/introduction)
 - [Guide: Connect a Ruby on Rails application to Neon](https://neon.tech/docs/guides/ruby-on-rails)
+
+---
+
+#### Heroku
+
+- Heroku has a straightforward deployment process using a combination of a well-documented CLI tool and Git.
+- Heroku is a very mature platform which has been around for over a decade. Any problems you encounter are almost guaranteed to have a solution documented on Stack Overflow or elsewhere on the internet.
+- The $5 per month Eco plan will give you 1000 free hours each month for all your applications. Applications are automatically put to sleep after 30 minutes of inactivity, so the 1000-hour allowance should last the entire month for several of your portfolio projects.
+- Heroku's lowest-tier PostgreSQL databases cost $5 per month, effectively costing each application $5 to host.
+- $20 a month will be enough to host three applications. $5 Eco plan for 1000 server hours + an additional $5 for each app.
+
+##### Heroku: Free Plan
+
+- N/A
+
+##### Heroku: Links
+
+- [Heroku homepage](https://www.heroku.com/)
+- [Heroku documentation](https://devcenter.heroku.com/)
+- [Guide: Official Rails guide for Heroku](https://devcenter.heroku.com/articles/getting-started-with-rails7)
+- [Guide: GoRails video guide for deploying Rails applications to Heroku](https://www.youtube.com/watch?v=bQ2wXZf9irA)
 
 ---
 
