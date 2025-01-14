@@ -211,6 +211,11 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 1. Read Silo Creativo's article [Improving UX in forms](https://www.silocreativo.com/en/css-rescue-improving-ux-forms/).
 
+1. If you are a visual or auditory learner watch this video from Web Dev Simplified [JavaScript Form Validation]([https://www.silocreativo.com/en/css-rescue-improving-ux-forms/](https://youtu.be/In0nB0ABaUk?si=bt5D83pkH5LzeAFN)).
+
+1.  After that, make sure to watch [10 Form Validation Tips Every Web Developer SHOULD KNOW!]([https://youtu.be/EQrUGEvnCzY?si=SHM7mRKSgu0PxItZ).
+By James Q. Quick, this is a great watch too!
+
 </div>
 
 ### Knowledge check
