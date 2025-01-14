@@ -28,7 +28,7 @@ As most of the projects are designed to push you to your limit, please remember 
 
 If you're feeling stuck, it's a good time to pause and take a breather. Break the problem down into little pieces and then decide what is really holding you back. We call this technique [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).
 
-You should also use Google to find relevant information for your problem. Read about [how to use Google to solve your programming questions](https://codinginflow.com/google-programming-questions). You can also look back at previous lessons for tools that you can apply to the current task.
+You should also use Google to find relevant information for your problem. Read about [how to use Google to solve your programming questions](https://old.codinginflow.com/google-programming-questions). You can also look back at previous lessons for tools that you can apply to the current task.
 
 If these methods don't yield a solution for you, then it's time to reach out to the Odin community and ask for help.
 

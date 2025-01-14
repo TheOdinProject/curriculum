@@ -51,7 +51,7 @@ Vite builds frontend tools for developers and it leverages the latest technologi
 
 ### Creating a React app
 
-Please make sure that you are using the *LTS version of Node*, otherwise errors may occur. Fire up a terminal instance, `cd` into the folder containing your projects, and enter the following command (you can replace `my-first-react-app` with any name you want):
+Please make sure that you are using the latest *LTS* version of Node, otherwise errors may occur. Open up the terminal and the folder containing your projects. Then enter the following command (you can replace `my-first-react-app` with any name you want):
 
 ```bash
 npm create vite@latest my-first-react-app -- --template react

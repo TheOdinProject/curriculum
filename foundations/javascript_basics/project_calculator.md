@@ -41,6 +41,7 @@ Here are some use cases (expectations about your project):
    - Pressing `=` before entering all of the numbers or an operator could cause problems!
    - Pressing "clear" should wipe out any existing data. Make sure the user is really starting fresh after pressing "clear".
    - Display a snarky error message if the user tries to divide by 0... and don't let it crash your calculator!
+   - Make sure that your calculator only runs an operation when supplied with two numbers and an operator by the user. Example: you enter a number (`2`), followed by an operator button (`+`). You press the operator button (`+`) a second consecutive time. Your calculator should not evaluate this as (`2 + 2`) and should not display the result (`4`). If consecutive operator buttons are pressed, your calculator should not run any evaluations, it should only take the last operator entered to be used for the next operation.
 
 #### Extra credit
 

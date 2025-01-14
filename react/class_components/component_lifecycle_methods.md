@@ -2,7 +2,7 @@
 
 In the previous section, you've learned about a component's lifecycle. In functional components, we've primarily used the `useEffect` hook to perform tasks throughout the lifecycle, but in class components we have to use specific lifecycle methods instead.
 
-We'll start with a short recap of what a components lifecycle is. There are three stages to a component's life: mounting, updating, and unmounting. Each of these have a method assigned to them within class components, which is what we are going to cover in this lesson.
+We'll start with a short recap of what a component's lifecycle is. There are three stages to a component's life: mounting, updating, and unmounting. Each of these have a method assigned to them within class components, which is what we are going to cover in this lesson.
 
 ### Lesson overview
 
@@ -52,7 +52,7 @@ In this snippet, the useEffect contains the functionality of `componentDidMount`
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Check out this [component lifecycle diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) to see a good visual representation of a components lifecycle methods.
+1. Check out this [component lifecycle diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) to see a good visual representation of a component's lifecycle methods.
 
 1. Read through [component documentation](https://react.dev/reference/react/Component) from 'constructor(props)' up to 'componentWillUnmount()' in the Reference section, being mindful of deprecated APIs. Consider other APIs as supplementary information.
 

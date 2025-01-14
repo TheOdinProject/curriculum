@@ -89,7 +89,7 @@ If you answered that the object counter would increase by 1, and the primitive c
 
 #### Reassigning object data type variables
 
-While mutating the object we have a reference to will affect all other variables that reference it, reassigning a variable won’t affect what the other variables refer to. For example:
+While mutating the object we have a reference to affects all other variables that reference it, reassigning a variable does not change what the other variables refer to. For example:
 
 ```javascript
 let animal = { species: "dog" };
@@ -174,7 +174,7 @@ console.log(mappedArr); // Outputs [2, 3, 4, 5, 6]
 console.log(arr); // Outputs [1, 2, 3, 4, 5]
 ```
 
-This is a much more elegant approach, what do you think? For simplicity, we could also define an inline function right inside of `map` like so:
+Using `map` in this way is much more elegant than writing a `for` loop and iterating over the array. But we can do even better. We can define an inline function right inside of `map` like so:
 
 ```javascript
 const arr = [1, 2, 3, 4, 5];
