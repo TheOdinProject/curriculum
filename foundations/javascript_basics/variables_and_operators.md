@@ -20,7 +20,7 @@ All JavaScript we will be writing in the majority of the Foundations course will
 
 Outside of these lessons, for now you should always default to running your JavaScript in the browser unless otherwise specified, otherwise you may run into unexpected errors.
 
-The simplest way to get started is to create an HTML file with the JavaScript code inside of it. Use the VS Code snippet <kbd>!</kbd> + <kbd>TAB</kbd> to create the basic HTML skeleton in a file on your computer somewhere. Be sure to include the `<script>` tag:
+The simplest way to get started is to create an HTML file with the JavaScript code inside of it. Use the VS Code snippet <kbd>SHIFT</kbd> + <kbd>!</kbd> , <kbd>TAB</kbd> to create the basic HTML skeleton in a file on your computer somewhere. Be sure to include the `<script>` tag:
 
 ```html
 <!DOCTYPE html>
