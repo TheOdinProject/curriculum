@@ -23,4 +23,5 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 
 - You need to buy before you can sell
 - Pay attention to edge cases like when the lowest day is the last day or the highest day is the first day.
+
 </div>
