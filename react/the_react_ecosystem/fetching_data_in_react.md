@@ -32,7 +32,7 @@ We're making a request to the JSONPlaceholder API to retrieve an image, and then
 
 ### Using fetch in React components
 
-Now, let's take a look at how we can incorporate `fetch` into a similar React component. One common use case is to fetch data from an API when a component mounts, so that the data can be displayed on screen.
+Now, let's take a look at how we can incorporate `fetch` into a React component, similar to our previous example. One common use case is to fetch data from an API when a component mounts, so that the data can be displayed on screen.
 
 Whenever a component needs to make a request as it renders, it's often best to wrap that `fetch` inside of an effect.
 
