@@ -14,6 +14,11 @@ const HEADINGS = {
   project: ["### Introduction", "*", "### Assignment", "*"],
 };
 
+function isProject(filePath) {
+  const fileName = basename(filePath);
+  // don't include names like "projections.md"
+  return fileName.startsWith("project_") || fileName.startsWith("project-");
+}
 function addError(onError, lineNumber, detail, context, range, fixInfo) {
   onError({
     lineNumber,
@@ -78,7 +83,7 @@ module.exports = {
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP004.md"
   ),
   function: function TOP004(params, onError) {
-    const requiredHeadings = basename(params.name).startsWith("project_")
+    const requiredHeadings = isProject(params.name)
       ? HEADINGS.project
       : HEADINGS.lesson;
     const levels = {};
