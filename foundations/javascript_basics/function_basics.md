@@ -19,9 +19,9 @@ Let's discuss parameters and arguments in the context of the following example f
 ```javascript
 function favoriteAnimal(animal) {
     return animal + " is my favorite animal!"
-}
+};
 
-console.log(favoriteAnimal('Goat'))
+console.log(favoriteAnimal('Goat'));
 ```
 
 In JavaScript, parameters are the items listed between the parentheses `()` in the function declaration. Function arguments are the actual values we decide to pass to the function.
