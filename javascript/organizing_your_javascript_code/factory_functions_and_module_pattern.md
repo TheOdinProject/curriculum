@@ -276,7 +276,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [How does scope work in JavaScript?](#scoopfuls-of-scopes)
 - [What are closures and how do they help in creating private variables?](#closures-arent-scary)
-- [What common issues can you can face when working with constructors?](#so-whats-wrong-with-constructors)
+- [What common issues can you face when working with constructors?](#so-whats-wrong-with-constructors)
 - [What are private variables in factory functions and how can they be useful?](#private-variables-and-functions)
 - [How can we implement prototypal inheritance with factory functions?](#prototypal-inheritance-with-factories)
 - [How does the module pattern work?](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)

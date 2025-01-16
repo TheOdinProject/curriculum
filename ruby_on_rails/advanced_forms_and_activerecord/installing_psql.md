@@ -45,7 +45,7 @@ Why are environment variables important? After all, the information could be add
 
 <span id="privacy">Environment variables allow us to set this information where the application will run without sharing it on git or Github. Because these variables can only be accessed locally, our application can access these sensitive values without making them public.</span>
 
-Rails uses the environment to set up its own internal environment variable. The framework will look for a `RAILS_ENV` variable in the environment and set its own env that way. If it can't find the variable, then [Rails will assume it is in a development environment](https://github.com/rails/rails/blob/main/railties/lib/rails.rb#L67). Isn't that cool?
+Rails uses the environment to set up its own internal environment variable. The framework will look for a `RAILS_ENV` variable in the environment and set its own env that way. If it can't find the variable, then [Rails will assume it is in a development environment](https://github.com/rails/rails/blob/main/railties/lib/rails.rb#L69-L77). Isn't that cool?
 
 We will use an environment variable to set up PostgreSQL credentials for our Rails apps.
 

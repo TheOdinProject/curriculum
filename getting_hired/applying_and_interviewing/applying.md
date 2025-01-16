@@ -30,7 +30,7 @@ The point here is really just to make sure you understand that it's a really ann
 
 ### Resume versions
 
-If you're applying to several different types of positions, tailor your resume for the specific type of opportunity.  Just remember that, if you're submitting it virtually, they can see the title.
+If you're applying to several different types of positions, tailor your resume for the specific type of opportunity.  Just remember that, if you're submitting it virtually, they can see the title. It's generally a good idea to set the file name of your resume to your name. This has the additional benefit of a recruiter seeing your name and remembering it.
 
 It's also important to note that if you're not gaining traction getting responses with a certain resume, don't be afraid to switch it up. Keep track of the changes and see which version performs better than the others.
 

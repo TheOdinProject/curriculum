@@ -20,7 +20,6 @@ This project will give you the chance to take a relatively high-level set of req
 
 1. Think about what you need to do. It's really helpful to write your plan down on paper or a whiteboard ahead of time! A few hours of thought now will save you days of coding. Try to lay it ALL out. An important part of planning is **scope**. You obviously can't build the entire website (which presumably took a full team of engineers years to produce), so you'll need to identify the site's core functionality and the "nice-to-have" stuff. **Make sure you finish the core functionality BEFORE working on the rest.** If you try to do everything at once, you'll get lost and frustrated. Trust us. Everything takes longer than you expect.
 1. Think through the data architecture required to make this work. There are lots of models and the relationship between them is more complicated than anything you've done before. Take some time to plan your approach before diving in.
-1. Start your app however you like, using the express-generator or from scratch.
 1. Work your way down the list below! Each step will involve a new challenge, but you've got the tools.
 1. You can populate data like users and posts with fake data using the [Faker](https://github.com/faker-js/faker) module from npm. To accomplish this create a new JavaScript file named `seeds.js` which imports your Prisma models and uses the faker module to generate and save a bunch of new users.
 

@@ -21,11 +21,10 @@ Your Inventory app should have categories and items, so when the user goes to th
 1. Create all the forms and build out the controllers you need for the create and update actions.
 1. Figure out the delete functionality. What happens if you try to delete a category with items in it? Should it delete all the items as well? Should it just remove the category from the items? Or something else? This specific behavior will depend on your app's requirements.
 1. Once you're confident with your project, add dummy data via a script to your local database. Do this again when you deploy.
-1. Make it pretty!
 1. Deploy it and show off what you've done!
 
 #### Extra credit
-
+1. Make it pretty!
 1. We will learn about creating users with secure passwords in a later lesson, but for now we don't want just *anyone* to be able to delete and edit items in our inventory! Figure out how to protect destructive actions (like deleting and updating) by making users enter a secret admin password to confirm the action.
 
 </div>

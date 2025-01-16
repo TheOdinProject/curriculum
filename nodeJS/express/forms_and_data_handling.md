@@ -521,7 +521,7 @@ We could go much deeper into working safely with forms, but we'll stop there. By
 
 To give you an overview of what this entire flow looks like visually, here's an example courtesy of MDN:
 
-![A diagram showing an outline of how a form interacts with a server using GET and POST requests.](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms/web_server_form_handling.png)
+![A diagram showing an outline of how a form interacts with a server using GET and POST requests.](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/web_server_form_handling.png)
 
 ### Assignment
 

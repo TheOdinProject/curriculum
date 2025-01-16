@@ -66,7 +66,7 @@ In *most* cases, you should avoid setting a height altogether. There are some ex
 
 #### When fixed widths are appropriate
 
-Obviously there are cases when a fixed width is appropriate. It's hard to make a universal rule, but in general the smaller your widths the more likely it's fine to make them fixed. For example, a `32px` icon on your page isn't going to benefit from using `max-width` because you probably *don't* want it to shrink. Likewise a `250px` sidebar probably needs to *always* be `250px`. As with anything you just need to consider your options and pick what seems to be the most appropriate.
+There are cases when a fixed width is appropriate. It's hard to make a universal rule, but, in general, the smaller your widths, the more acceptable it is to make them fixed. For example, a `32px` icon on your page isn't going to benefit from using `max-width` because you probably *don't* want it to shrink. Likewise, a `250px` sidebar probably needs to *always* be `250px`. As with anything, you need to consider your options and pick what seems to be the most appropriate.
 
 ### Use flex and grid
 

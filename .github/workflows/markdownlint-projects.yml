@@ -2,11 +2,13 @@ name: MarkDownLint
 on:
   pull_request:
     paths:
-        - '**/project*.md'
-        - '!./*.md'
-        - '!./archive/**.md'
-        - '!./templates/**.md'
-        - '!./markdownlint/docs/**.md'
+        - '**/project_*.md'
+        - '**/project-*.md'
+        - '!*'
+        - '!archive/**'
+        - '!templates/**'
+        - '!markdownlint/docs/**'
+        - '!.github/**'
 
 jobs:
     project_lint:
@@ -18,12 +20,13 @@ jobs:
             id: changed-files
             with:
               files: |
-                **/project*.md
-                !./*.md
-                !README.md
-                !./archive/**.md
-                !./templates/**.md
-                !./markdownlint/docs/**.md
+                **/project_*.md
+                **/project-*.md
+                !*
+                !archive/**
+                !templates/**
+                !markdownlint/docs/**
+                !.github/**
               separator: ','
           - uses: DavidAnson/markdownlint-cli2-action@v14
             with:

@@ -32,7 +32,9 @@ const app = express();
 app.get("/", (req, res) => res.send("Hello, world!"));
 
 const PORT = 3000;
-app.listen(PORT, () => console.log(`My first Express app - listening on port ${PORT}!`));
+app.listen(PORT, () => {
+  console.log(`My first Express app - listening on port ${PORT}!`);
+});
 ```
 
 Let's break this down. We import `express` then call it to initialize the `app` variable. This is our server.
@@ -77,7 +79,7 @@ We will discuss routes in more detail in a later lesson, but to summarize the ab
 
 If we had defined multiple routes, Express would pass the request through the first route that matched the requested HTTP verb (e.g. `GET`) and path (`/`). The order of the routes matters!
 
-Express takes the callback function we gave it and passes the request object into the first parameter (conventionally named `req`), and a [response object](https://expressjs.com/en/4x/api.html#res) into the second parameter (`res`). Our callback tells the response object to respond to the request by `.send`ing the string `"Hello, world!"`.
+Express takes the callback function we gave it and passes the request object into the first parameter (conventionally named `req`), and a [response object](https://expressjs.com/en/4x/api.html#res) into the second parameter (`res`). Our callback tells the response object to respond to the request by sending (via `res.send`) the string `"Hello, world!"`.
 
 There is no more code to run and the function returns. Since Express has been told to respond to the request, it ends the request-response cycle. Meanwhile, the browser receives our server's response and displays it on screen, which is our `"Hello, world!"` string. We could send nearly anything in our response. We could even [tell Express to send a file](https://expressjs.com/en/api.html#res.sendFile).
 

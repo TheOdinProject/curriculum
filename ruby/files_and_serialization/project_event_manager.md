@@ -1,6 +1,6 @@
 ### Introduction
 
-Please note this tutorial has been adapted from The Turing School's and Jump Start Lab's [Event Manager](http://tutorials.jumpstartlab.com/projects/eventmanager.html) and updated to use GoogleCivic API
+Please note this tutorial has been adapted from The Turing School's and Jump Start Lab's [Event Manager](https://web.archive.org/web/20240908085655/https://tutorials.jumpstartlab.com/projects/eventmanager.html) and updated to use GoogleCivic API
 
 <div class="lesson-note" markdown="1">
 
@@ -70,10 +70,7 @@ ruby: No such file or directory -- lib/event_manager.rb (LoadError)
 
 If this happens, make sure the correct directory exists and try creating the file again.
 
-For this project we are going to use the following sample data:
-
-- [Small Sample](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees.csv)
-- [Large Sample](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees_full.csv)
+For this project we are going to use the following [sample data](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees.csv).
 
 Download the *[small sample](https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby/files_and_serialization/event_attendees.csv)* csv file and save it in the root of the project directory, `event_manager`. Using your CLI, confirm that you are in the right directory and enter the following command:
 
@@ -184,7 +181,7 @@ lines.each do |line|
 end
 ```
 
-### Skipping the header row
+#### Skipping the header row
 
 The header row was a great help to us in understanding the contents of the CSV file. However, the row itself does not represent an actual attendee. To ensure that we only output attendees, we could remove the header row from the file, but that would make it difficult if we later returned to the file and tried to understand the columns of data.
 
@@ -345,7 +342,7 @@ Before we are able to figure out our attendees' representatives, we need to solv
 
 - Some zip codes are represented with fewer than five digits
 
-If we looked at the [larger sample of data](https://raw.githubusercontent.com/TheOdinProject/curriculum/main/ruby/files_and_serialization/event_attendees_full.csv), we would see that the majority of the shorter zip codes are from states in the north-eastern part of the United States. Many zip codes there start with 0. This data was likely stored in the database as an integer, and not as text, which caused the leading zeros to be removed.
+If we looked at the [sample data](https://github.com/TheOdinProject/curriculum/tree/main/ruby/files_and_serialization/event_attendees.csv), we would see that the majority of the shorter zip codes are from states in the north-eastern part of the United States. Many zip codes there start with 0. This data was likely stored in the database as an integer, and not as text, which caused the leading zeros to be removed.
 
 So in the case of zip codes of fewer than five digits, we will assume that we can pad missing zeros to the front.
 
@@ -618,15 +615,18 @@ Let's look for a solution before we attempt to build a solution.
 
 #### Installing the Google API Client
 
-Ruby comes packaged with the `gem` command. This tool allows you to download libraries by knowing the name of the library you want to install.
+In this section, we’ll use [Bundler](https://bundler.io) to manage and install our gem dependencies. Bundler ensures that the correct versions of gems are installed and works seamlessly with different Ruby versions and project requirements.
 
 ```bash
-$ gem install google-api-client
-Successfully installed google-api-client-0.15.0
-1 gem installed
+bundle init  # Initializes a Gemfile if one doesn't exist
+bundle add google-apis-civicinfo_v2  # Adds the gem to the Gemfile and installs it
 ```
 
-If you receive a signet error when installing the Google API gem, it is due to modern Ruby updates requiring an updated version of signet that is not compatible with the API. To fix, please [downgrade your version of signet](https://github.com/googleapis/google-api-ruby-client/issues/833) before installing the gem.
+Once you’ve set up your gems with Bundler, you should use the following command to run your project:
+
+```bash
+bundle exec ruby lib/event_manager.rb
+```
 
 #### Showing all legislators in a zip code
 
@@ -694,7 +694,7 @@ end
 Running our application, we find an error.
 
 ```bash
-$ ruby lib/event_manager.rb
+$ bundle exec ruby lib/event_manager.rb
 /ruby-2.4.0/gems/google-api-client-0.15.0/lib/google/apis/core/http_command.rb:218:in 'check_status': parseError: Failed to parse address (Google::Apis::ClientError)
 ```
 
@@ -784,7 +784,7 @@ legislator_names = legislators.map(&:name)
 If we were to replace `legislators` with `legislator_names` in our output, we would be presented with a *slightly* better output.
 
 ```bash
-$ ruby lib/event_manager.rb
+$ bundle exec ruby lib/event_manager.rb
 EventManager initialized.
 Allison 20010 ["Eleanor Norton"]
 SArah 20009 ["Eleanor Norton"]
@@ -826,7 +826,7 @@ end
 Running our application this time should give us a much more pleasant looking output:
 
 ```bash
-$ ruby lib/event_manager.rb
+$ bundle exec ruby lib/event_manager.rb
 EventManager initialized.
 Allison 20010 Eleanor Norton
 SArah 20009 Eleanor Norton
@@ -899,7 +899,8 @@ We have our attendees and their respective representatives. We can now generate 
 For each attendee we want to include a customized letter that thanks them for attending the conference and provides a list of their representatives. Something that looks like:
 
 ```html
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
   <meta charset='UTF-8'>
   <title>Thank You!</title>
@@ -927,7 +928,8 @@ We could define this template as a large string within our current application.
 
 ```ruby
 form_letter = %{
-  <html>
+  <!DOCTYPE html>
+  <html lang="en-US">
   <head>
     <title>Thank You!</title>
   </head>
@@ -1066,7 +1068,8 @@ The convention is to save ERB template files with the extension **erb**. This is
 - Update our existing keywords with the ERB escape sequences
 
 ```erb
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
   <meta charset='UTF-8'>
   <title>Thank You!</title>
@@ -1082,7 +1085,7 @@ The convention is to save ERB template files with the extension **erb**. This is
 
   <table>
     <% if legislators.kind_of?(Array) %>
-      <th>Name</th><th>Website</th>
+      <tr><th>Name</th><th>Website</th></tr>
         <% legislators.each do |legislator| %>
         <tr>
           <td><%= "#{legislator.name}" %></td>
@@ -1304,7 +1307,11 @@ end
 
 The method `save_thank_you_letter` requires the id of the attendee and the form letter output.
 
-### Assignment: Clean phone numbers
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+#### Part 1: Clean phone numbers
 
 Similar to the zip codes, the phone numbers suffer from multiple formats and inconsistencies. If we wanted to allow individuals to sign up for mobile alerts with the phone numbers, we would need to make sure all of the numbers are valid and well-formed.
 
@@ -1314,7 +1321,7 @@ Similar to the zip codes, the phone numbers suffer from multiple formats and inc
 - If the phone number is 11 digits and the first number is not 1, then it is a bad number
 - If the phone number is more than 11 digits, assume that it is a bad number
 
-### Assignment: Time targeting
+#### Part 2: Time targeting
 
 The boss is already thinking about the next conference: "Next year I want to make better use of our Google and Facebook advertising. Find out which hours of the day the most people registered, so we can run more ads during those hours." Interesting!
 
@@ -1326,8 +1333,10 @@ Using the registration date and time we want to find out what the peak registrat
 
 - Explore the documentation to become familiar with the available methods, especially `#strptime`, `#strftime`, and `#hour`.
 
-### Assignment: Day of the week targeting
+#### Part 3: Day of the week targeting
 
 The big boss gets excited about the results from your hourly tabulations. It looks like there are some hours that are clearly more important than others. But now, tantalized, she wants to know "What days of the week did most people register?"
 
 - Use [Date#wday](https://docs.ruby-lang.org/en/3.3/Date.html#method-i-wday) to find out the day of the week.
+
+</div>

@@ -45,10 +45,9 @@ The form doesn't need to actually submit, but you should give an error message i
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Explain the importance of validating HTML forms before submitting them to a server.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#what_is_form_validation)
-- [Describe the two types of client-side form validation.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#different_types_of_client-side_validation)
-- [Explain how JavaScript Constraint Validation API provides more control and customization of form validation.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript)
-- [Could forms also be validated without using Constraint Validation API?](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_without_a_built-in_api)
+- [What is the importance of validating HTML forms before submitting them to a server?](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#what_is_form_validation)
+- [What are the two types of client-side form validation?](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#different_types_of_client-side_validation)
+- [How does JavaScript Constraint Validation API provide more control and customization of form validation?](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript)
 
 ### Additional resources
 

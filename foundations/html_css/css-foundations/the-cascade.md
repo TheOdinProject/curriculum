@@ -206,8 +206,8 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `foundations` directory. Review the README and complete the final exercise:
-   - `06-cascade-fix`
+1. Complete the exercise in our [CSS exercises repository's `foundations/cascade` directory](https://github.com/TheOdinProject/css-exercises/tree/main/foundations/cascade) (remember that the instructions are in the README):
+   - `01-cascade-fix`
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 

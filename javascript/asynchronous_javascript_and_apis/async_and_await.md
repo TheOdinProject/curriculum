@@ -1,6 +1,6 @@
 ### Introduction
 
-Asynchronous code can become difficult to follow when it has a lot of things going on. `async` and `await` are two keywords that can help make asynchronous read more like synchronous code. This can help code look cleaner while keeping the benefits of asynchronous code.
+Asynchronous code can become difficult to follow when it has a lot of things going on. `async` and `await` are two keywords that can help make asynchronous code read more like synchronous code. This can help code look cleaner while keeping the benefits of asynchronous code.
 
 For example, the two code blocks below do the exact same thing. They both get information from a server, process it, and return a promise.
 
@@ -107,7 +107,7 @@ asyncFunctionCall().catch(err => {
 });
 ```
 
-But there is another way: the mighty `try/catch` block! If you want to handle the error directly inside the `async` function, you can use `try/catch` just like you would inside synchronous code.
+But there is another way: the mighty [try/catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) block! If you want to handle the error directly inside the async function, you can use `try/catch` with `async/await` syntax. If JavaScript throws an error in the `try` block, the `catch` block code will run instead (this can also be used for synchronous code).
 
 ```javascript
 async function getPersonsInfo(name) {

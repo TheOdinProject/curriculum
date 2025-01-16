@@ -75,6 +75,8 @@ Of course, there are many more occasions where one would want to use Promises be
 1. Read this [Promises article](https://davidwalsh.name/promises). It's a good starting place and it's short and to the point.
 1. Watch this [video about promises](https://youtu.be/DHvZLI7Db8E).  It's a good place to get a feel for how one might actually use promises in the wild.
 1. Watch this [video titled "What is Event Loop?"](https://www.youtube.com/watch?v=8aGhZQkoFbQ) to understand how asynchronous code works in JavaScript.
+1. Watch this [video visualizing the Event loop](https://www.youtube.com/watch?v=eiC58R16hb8) to further understand the Event Loop.
+1. Watch this [video visualizing promises](https://www.youtube.com/watch?v=Xs1EMmBLpn4) to understand Promise Execution in JavaScript.
 1. Read this [promise basics article](https://javascript.info/promise-basics), which is an excellent resource for beginners.
 
 </div>

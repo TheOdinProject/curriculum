@@ -70,7 +70,7 @@ With the maximum length validation, the browser will prevent users from entering
 
 #### Combining validations
 
-HTML allows us to apply as many validations as we wish to a form control. For example, we can give our post textarea both `minlength` and `maxlength` validations:
+HTML allows us to apply as many validations as we wish to a form control. For example, we can give our post `<textarea>` both `minlength` and `maxlength` validations:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="vYeZGVY" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -227,7 +227,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Check out [HTML5Pattern](https://www.html5pattern.com/) for a list of commonly used pattern regular expressions you may find helpful.
 - Look through this X thread of the [do’s and don’ts for form validation UX](https://threadreaderapp.com/thread/1400388896136040454.html).
 - Check out these [10 Guidelines for form validation design](https://www.nngroup.com/articles/errors-forms-design-guidelines/).
 - [Learn Regex: A Beginner’s Guide](https://www.sitepoint.com/learn-regex/) is a great resource for understanding how regex patterns are built and shows how to use a fantastic tool for creating them.
