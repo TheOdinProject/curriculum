@@ -1,6 +1,6 @@
 ### Introduction
 
-One of the most used data structures across programming languages is a hash table, aka hash map. If you've worked with Ruby hashes, then you have used structures based on hash tables. But how do they work internally? How can we save key value pairs and later retrieve them?
+One of the most used data structures across programming languages is a hash table, aka hash map. A hashmap is similar to a conventional array, except it uses "keys" as indices rather than meaningless sequential numbering of the values. With the data organized in this way, we get quick search speeds for keys in the structure. If you've worked with Ruby hashes, then you have used structures based on hash tables. But how do they work internally? How can we save key value pairs and later retrieve them?
 
 In this lesson, you will learn how it all works, and even implement your own hash map in the next project! To start, here is a brief description of a hash map: a hash map takes in a key value pair, produces a hash code, and stores the pair in a bucket. Hash codes? Buckets? What? Don't fret, we'll learn all about these concepts and more. Buckle up and let's dive in!
 
