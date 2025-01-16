@@ -21,4 +21,11 @@ You'll learn about animations, accessibility, and responsive design in the secon
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [W3Schools HTML Tutorial](https://www.w3schools.com/html/)  
+  Note: Online tutorial.
+- [W3Schools CSS Tutorial](https://www.w3schools.com/css/)  
+  Note: Online tutorial.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)  
+  Note: Online tutorial.
+- [Learning Web Design A Beginner's Guide to HTML, CSS, JavaScript, and Web Graphics](https://wtf.tw/ref/robbins.pdf)  
+  Note: Comprehensive book on web design (jump ahead to Part II: **HTML MARKUP FOR STRUCTURE**  and Part III: **CSS FOR PRESENTATION**).
