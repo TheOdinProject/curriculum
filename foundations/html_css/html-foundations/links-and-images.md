@@ -280,7 +280,7 @@ attributes in image tags helps the browser layout the page without causing the p
 
 It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it.
 
-Here is our Odin Project logo example with height and width tags included:
+Here is our Odin Project logo example with height and width attributes included:
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PogmYGp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -292,7 +292,7 @@ Here is our Odin Project logo example with height and width tags included:
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Go ahead and update the `odin-links-and-images` project with width and height tags on the dog image.
+Go ahead and update the `odin-links-and-images` project with width and height attributes on the dog image.
 
 ### Assignment
 
