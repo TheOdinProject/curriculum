@@ -59,13 +59,13 @@ Now that we learned the secret to creating a good commit message, let's try and 
 ```git
 Add missing link and alt text to the company's logo
 
-Screen readers won't read the images to users with disabilities without this information
+Screen readers won't read the images to users with disabilities without this information.
 ```
 
 Ahh, that's better! :) Now, developers can gain a better understanding of this commit message because it does the following:
 
 - Provides a subject that specifies your code's action (e.g., "Add missing link and alt text to the company's logo").
-- Contains a body that provides a concise yet clear description of why the commit needed to be made (e.g., "Screen readers won't read the images to users with disabilities without this information").
+- Contains a body that provides a concise yet clear description of why the commit needed to be made (e.g., "Screen readers won't read the images to users with disabilities without this information.").
 - Separates the subject from the body with a new/blank line. This is a best practice we highly recommend following. It makes commit messages easier for other developers to read.
 
 ### How to commit with a subject and body in the message
