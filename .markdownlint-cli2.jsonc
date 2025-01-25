@@ -1,0 +1,97 @@
+// https://github.com/DavidAnson/markdownlint
+{
+  "config": {
+    "default": true,
+    // heading-style
+    // Enforces ATX style headings, e.g. ### A level 3 heading
+    "MD003": {
+      "style": "atx"
+    },
+    // ul-style
+    // Enforces dash syntax for unordered lists
+    "MD004": {
+      "style": "dash"
+    },
+    // line-length
+    // Avoids errors related to line lengths in the MD files
+    "MD013": {
+      "code_blocks": false,
+      "headings": false,
+      "tables": false,
+      // Arbitrary length - Revisit to possibly set a standard
+      "line_length": 9999
+    },
+    // no-trailing-punctuation
+    // Prevents most punctuation in headings, except for exclamation and question marks
+    "MD026": {
+      "punctuation": ".:,;"
+    },
+    // ol-prefix
+    // Enforces lazy numbering for ordered lists
+    // MD029 Disabled and overridden by TOP010 rule
+    "MD029": false,
+    // no-inline-html
+    // Only allows specified HTML to be inline
+    "MD033": {
+      "allowed_elements": [
+        "p",
+        "a",
+        "div",
+        "span",
+        "kbd",
+        "script",
+        "iframe",
+        "details",
+        "summary",
+        "pre"
+      ]
+    },
+    // first-line-heading/first-line-h1
+    // Enforces the first heading on a lesson page to be an H3, since the page template renders an H1 and H2 automatically
+    "MD041": {
+      "level": 3
+    },
+    // proper-names
+    // Enforces proper spelling of the names array, except for code blocks and HTML elements
+    "MD044": {
+      "code_blocks": false,
+      "html_elements": false,
+      "names": ["CSS", "HTML", "JavaScript"]
+    },
+    // code-block-style
+    // Prevents indented code blocks from being used
+    "MD046": {
+      "style": "fenced"
+    },
+    // code-fence-style
+    // Disabled because the TOP008 custom rule covers this
+    "MD048": false,
+    // emphasis-style
+    // Enforces asterisk syntax instead of underscore syntax
+    "MD049": {
+      "style": "asterisk"
+    },
+    // strong-style
+    // Enforces asterisk syntax instead of underscore syntax
+    "MD050": {
+      "style": "asterisk"
+    },
+    // link-fragments
+    // Disabled as it uses a different heading conversion algo to the TOP website
+    "MD051": false
+  },
+  // Custom rules specific to the project
+  // Docs for each rule can be found in `./markdownlint/docs`
+  "customRules": [
+    "./markdownlint/TOP001_descriptiveLinkText/TOP001_descriptiveLinkText.js",
+    "./markdownlint/TOP002_noCodeInHeadings/TOP002_noCodeInHeadings.js",
+    "./markdownlint/TOP003_defaultSectionContent/TOP003_defaultSectionContent.js",
+    "./markdownlint/TOP004_lessonHeadings/TOP004_lessonHeadings.js",
+    "./markdownlint/TOP005_blanksAroundMultilineHtmlTags/TOP005_blanksAroundMultilineHtmlTags.js",
+    "./markdownlint/TOP006_fullFencedCodeLanguage/TOP006_fullFencedCodeLanguage.js",
+    "./markdownlint/TOP007_useMarkdownLinks/TOP007_useMarkdownLinks.js",
+    "./markdownlint/TOP008_useBackticksForFencedCodeBlocks/TOP008_useBackticksForFencedCodeBlocks.js",
+    "./markdownlint/TOP009_lessonOverviewItemsSentenceStructure/TOP009_lessonOverviewItemsSentenceStructure.js",
+    "./markdownlint/TOP010_useLazyNumbering/TOP010_useLazyNumbering.js"
+  ]
+}

@@ -1,9 +1,9 @@
-### Enumerable Exercises
+### Enumerable exercises
 #### 1. Write a program that prints **each** item in a array to the console.
 
 Here are some sample arrays to test your code:
 
-~~~ruby
+```ruby
 [1, 2, 3, 4, 5]
 
 #=> 1
@@ -11,9 +11,9 @@ Here are some sample arrays to test your code:
 #=> 3
 #=> 4
 #=> 5
-~~~
+```
 
-~~~ruby
+```ruby
 ['oh', 'no', 'pls', 'stahp', 'undo']
 
 #=> 'oh'
@@ -21,7 +21,7 @@ Here are some sample arrays to test your code:
 #=> 'pls'
 #=> 'stahp'
 #=> 'undo'
-~~~
+```
 
 #### 2. Write a program that multiplies each number in a array by 10 and returns a new array with the larger numbers.
 

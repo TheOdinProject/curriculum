@@ -1,6 +1,3 @@
-'Status: Needs Triage':
-  - '**/*'
-
 'Content: Advanced HTML/CSS':
   - 'advanced_html_css/**/*'
 
@@ -14,13 +11,16 @@
   - 'git/**/*'
 
 'Content: Intermediate HTML/CSS':
-  - 'html_css/**/*'
+  - 'intermediate_html_css/**/*'
 
 'Content: JavaScript':
   - 'javascript/**/*'
 
 'Content: NodeJS':
   - 'nodeJS/**/*'
+
+'Content: React':
+  - 'react/**/*'
 
 'Content: Ruby':
   - 'ruby/**/*'
@@ -30,6 +30,10 @@
 
 'Content: Foundations':
   - 'foundations/**/*'
+
+'Content: Markdownlint':
+  - 'markdownlint/**/*'
+  - '**/*.markdownlint-cli2.jsonc'
 
 'Type: Chore':
   - 'archive/**/*'

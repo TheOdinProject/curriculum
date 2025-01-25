@@ -1,4 +1,4 @@
-### Introduction 
+### Introduction
 
 A BRIEF INTRODUCTION.
 
@@ -10,11 +10,11 @@ PRE-ASSIGNMENT SECTION CONTENT.
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  A REQUIREMENT/USER STORY.
+1. A REQUIREMENT/USER STORY.
 
-#### Extra Credit
+#### Extra credit
 
-*   AN OPTIONAL ADD-ON/USER STORY.
+- AN OPTIONAL ADD-ON/USER STORY.
 
 </div>
 

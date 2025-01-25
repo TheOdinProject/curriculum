@@ -2,7 +2,7 @@
 
 Now that you've figured your own situation out, the fact is that you can't get hired by just thinking about why *you* need or deserve the job.  You have to think about things from the perspective of the company.  Why are they interested in hiring you?  What, therefore, will they look for?
 
-### Life Behind the Curtain
+### Life behind the curtain
 
 Hiring managers are busy people.  That's why they need someone new... to remove some of their workload and get their team working better or faster.   They also have to deal with potentially hundreds of unqualified applicants every week, which takes up too much of their valuable time.  They just want to get back to building stuff and not have to hire again anytime soon.  So they are looking for someone who can **add value as soon as possible** and who will be able to **grow with the organization.**
 
@@ -23,7 +23,7 @@ You can learn a bit about the perspective of hiring managers by reading blog pos
 1. [The Best Way to Hire Software Developers](http://insights.dice.com/2013/05/31/hiring-software-developers/)
 2. [How to Hire Talent](http://lifeofaprogrammanager.blogspot.com/2006/06/how-to-hire-talent.html)
 3. [Joel Spolsky has a lengthy diatribe on hiring developers](http://www.joelonsoftware.com/articles/FindingGreatDevelopers.html), which should give you an idea of the need and pain of hiring great engineers.
-4. [Joel Spolsky's Guerrilla Guide to Interviewing 3](http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html).  Look for "people who are 1. Smart, and 2. Get things done".
+4. [Joel Spolsky's Guerrilla Guide to Interviewing (version 3.0)](http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html).  Look for "people who are 1. Smart, and 2. Get things done".
 5. [Beyond a Resume: What Tech Recruiters Want](http://blog.udacity.com/2013/09/beyond-resume-what-tech-recruiters-want.html)
 
 ### Internships

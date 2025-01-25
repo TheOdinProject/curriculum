@@ -1,169 +1,249 @@
 ### Introduction
-Separate from the __module pattern__ that we discussed in an earlier lesson, "modules" is a feature that arrived with ES6. ES6 modules are starting to appear in many code bases around the net and getting them up and running will give us a chance to explore some new parts of the JavaScript ecosystem, so it's going to be a worthy excursion!
 
-Don't be fooled! We're going to cover much more than just the new module syntax in this lesson! Before we can really _use_ these modules, we're going to have to learn about __npm__ and __webpack__, which are both topics that will be _very_ useful to you even beyond this lesson. In the end, the modules themselves are simple to implement, so we're going to take this chance to learn about a few other things.
+We've learned about the **module pattern** in a previous lesson and played around with using them to help organize our variables and functions. At some point in the last few projects, you may have even wondered, "How would we manage more complex projects? Files would get too long! It would be great if we could split our code up into multiple files for organization!". Using multiple files would be extremely handy for this exact reason.
 
-### Learning Outcomes
-After completing this lesson, you will be able to:
+While the module pattern used to play a big part in helping us manage this, the release of ES6 (sometimes referred to as ES2015) gave us actual "modules" and thus they are often referred to as "ES6 modules" or "ESM".
 
-- Explain what npm is and where it was commonly used before being adopted on the frontend.
-- Describe what `npm init` does and what `package.json` is.
-- Know how to install packages using npm.
-- Describe what a JavaScript module bundler like webpack is.
-- Explain what the concepts "entry" and "output" mean as relates to webpack.
-- Briefly explain what a development dependency is.
-- Explain what "transpiling code" means and how it relates to front-end development.
-- Briefly describe what a task runner is and how it's used in front-end development.
-- Describe how to write an npm automation script.
-- Explain one of the main benefits of writing code in modules.
-- Explain "named" exports and "default" exports.
+### Lesson overview
 
-### The History of JavaScript
+This section contains a general overview of topics that you will learn in this lesson.
 
-Why do we even need or want this stuff? What do you gain from all of this added complexity? These are good questions.. with good answers.
+- Explain what ES6 modules are and how to import and export from them.
+- Describe the difference between default and named exports.
+- Explain the main differences between CommonJS modules and ES6 modules.
 
-- Read [this article](https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html) for a bit of a history lesson. It's long, but it puts what we're doing here in great perspective. This article is a bit older, and those who have coded along with the example have frequently run into issues, so we don't suggest that you code along (you'll be following along with the official Webpack documentation later). Nevertheless, this article is extremely important conceptually and really clarifies the 'WHY' of the rest of this lesson.
+### Before ES6 modules: The global scope problem
 
-### npm
+<div class="lesson-note" markdown="1">
 
-The __node package manager__ is a command-line tool that gives you access to a gigantic repository of plugins, libraries and tools. If you have done our Fundamentals course, you will probably have encountered it when you [installed the Jest testing framework](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) to do our exercises.
+Even though `let`/`const` and arrow functions were not around before ES6, we will still use them in our pre-ES6 examples. They won't change how things work regarding the global scope and the module pattern, which is the main focus of this section.
 
-Read through the npm links below but don't worry about running any of the commands on your computer. This section is about growing your awareness of npm. You will have an opportunity to use what you learn here in upcoming projects.
+</div>
 
-1. Take a couple minutes to read the [About npm](https://docs.npmjs.com/getting-started/what-is-npm) page - a great introduction to npm.
-2. [This tutorial](https://docs.npmjs.com/downloading-and-installing-packages-locally) teaches you how to install packages with npm.
-3. [This tutorial](https://docs.npmjs.com/creating-a-package-json-file) covers the `package.json` file, which you can use to manage your project's dependencies.
-4. Read [this article on development dependencies](https://dev.to/moimikey/demystifying-devdependencies-and-dependencies-5ege) to learn what they are and how to use them.
-5. If you run into trouble at any point you can check out [the official docs page](https://docs.npmjs.com/) for more tutorials and documentation.
+Let's say we have two scripts, `one.js` and `two.js`, and we link them in our HTML as separate scripts.
 
+```html
+<script src="one.js" defer></script>
+<script src="two.js" defer></script>
+```
 
-### Yarn?
+```javascript
+// one.js
+const greeting = "Hello, Odinite!";
+```
 
-At some point, you will probably run into [Yarn](https://yarnpkg.com/en/) - a replacement for the default `npm`. For the most part, it does the same things, though it _does_ have a few more features. Recent versions of `npm` have incorporated some of the best features of Yarn, so using it won't offer you any real advantages at this point in your career. It _is_ a fine project, however, and may be worth your consideration in the future.
+```javascript
+// two.js
+console.log(greeting);
+```
 
-### Webpack
+When we open the HTML, we see `"Hello, Odinite!"` getting logged to the console, even though `greeting` was never defined in `two.js`! That's because the two scripts were loaded one after the other into the same global scope, as if we wrote only one file with the two lines in that order. If we put the `two.js` script tag first, we would instead get an error that `greeting is not defined`, as it would try to do the console log before we define the variable.
 
-Webpack is simply a tool for bundling modules. There is a lot of talk across the net about how difficult and complex it is to set up and use, but at the moment our needs are few and the setup is simple enough. In fact, you can see an example of getting it up and running on the front page of [their website](https://webpack.js.org/).
+This means that even if we use multiple JavaScript files, they will still end up sharing the same global scope. Our top-level variables are not safe!
 
-Webpack _is_ a very powerful tool, and with that power comes a decent amount of complexity - just look at the sample config file on [this page](https://webpack.js.org/configuration/) 😱. Don't let it scare you off! The basic configuration is not difficult and proficiency with webpack looks _amazing_ on resumes.
+Before ESM, we could wrap some things in an IIFE, which would cause it to run just the same, but now any variables inside them are scoped to that function and not globally.
 
-To get us started, we are going to refer to the official documentation.
+```javascript
+// one.js
+(() => {
+  const greeting = "Hello, Odinite!";
+})();
+```
 
-1. Code along with all of the steps of [this tutorial](https://webpack.js.org/guides/getting-started/) ("Basic Setup" through "Conclusion").
+Now, we get an error in the console that `greeting is not defined`, because there is no global variable called `greeting` for us to log! But what if we wanted only *some* things to be exposed to other files? We can return those things from our IIFE into the global scope and keep the other things private!
 
-Let's discuss what's going on there. After installing webpack using npm, we set up a simple project that required an external library (lodash - check it out [here](https://lodash.com/) if it's new to you) using a simple `script` tag. The site lists a few reasons why this is probably _not_ ideal and then steps through using webpack to accomplish the same thing.
+```javascript
+// one.js
+const greeting = (() => {
+  const greetingString = "Hello, Odinite!";
+  const farewellString = "Bye bye, Odinite!";
+  return greetingString;
+})();
+```
 
-<span id="webpack-knowledge-check"></span> 
-There are a couple of key concepts to understanding how webpack works - __entry__ and __output__. In this example, we rearranged the files into a `src` and `dist` folder. Technically we could have called those folders anything, but those names are typical. `src` is our _source_ directory. In other words, `src` is where we write all of the code that webpack is going to bundle up for us. When webpack runs, it goes through all of our files looking for any `import` statements and then compiles _all_ of the code we need to run our site into a single file inside of the `dist` folder (short for _distribution_). Our __entry__ file, then is the main application file that links (either directly or indirectly) to all of the other modules in our project. In this example, it is `/src/index.js`. The __output__ file is the compiled version - `dist/main.js`.
+Now, the global variable `greeting` will contain `"Hello, Odinite!"` and so our code from `two.js` successfully logs this to the console. However, our private `farewellString` variable is not global, so that cannot be accessed anywhere in `two.js`. Through this, we are able to choose what to expose from one file to be made available to all files that follow it! This is why IIFEs were often called the "module pattern", because they allowed us to write modular code across multiple files before we were given "real modules".
 
-- Browse [this document](https://webpack.js.org/concepts/) for more details. We'll talk plugins and loaders in another lesson.
+But now, with ESM, we no longer need to use IIFEs for this specific purpose.
 
-### ES6 Modules (finally!)
+### ES6 modules
 
-Now that we (sorta) understand what webpack is doing it's time to discuss the module syntax. There are only 2 components to it - __import__ and __export__.
+With ESM, we have a little more control over things. Each file has its own private scope by default, and not only can we choose what things we export from that file, we can also choose what things we import into other files. So just because we export something, it doesn't mean it's automatically available elsewhere; it will only be available in another file if we explicitly import it there. Lots of control!
 
-- Take a moment to look at the docs for [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
+<div class="lesson-note" markdown="1">
 
-Of course, the import statement is the same thing that you used during the webpack tutorial! These things are simple to use.
+#### Module scope is not the global scope
 
-~~~javascript
-// a file called functionOne.js
-const functionOne = () => console.log('FUNCTION ONE!');
+When using ESM, each module has its own private scope, where we use import/export to communicate between files. A top-level variable in a module will not be accessible in the global scope.
 
-export { functionOne };
-~~~
+</div>
 
-~~~javascript
-// another JS file
-import { functionOne } from './functionOne';
+### Import and export
 
-functionOne(); // this should work as expected!
-~~~
+How do we actually import and export? In true JavaScript fashion, we don't have just one but two types of importing and exporting: `default` and `named`, and they essentially do the same kind of thing but very slightly differently. They can even be mixed and matched in the same file.
 
-<span id="module-knowledge-check"></span> 
-There are _many_ benefits to writing your code in modules. One of the most compelling is code reuse. If, for instance, you have written some functions that manipulate the DOM in a specific way, putting all of those into their own file as a 'module' means that you can copy that file and re-use it very easily!
+For now, we'll just show you the different import/export syntaxes. Afterwards, we'll show you how to link scripts as ES6 modules, as it's not quite the same as before.
 
-There are also the same benefits as when using factory functions or the module pattern (the module pattern and ES6 modules are not the same things; this naming convention is frustrating). With the introduction of ES6 Modules, the module pattern (IIFEs) is not needed anymore, though you might still encounter them in the wild. By using ES6 modules, you can keep different parts of your code cleanly separated, which makes writing and maintaining your code much easier and less error-prone. Keep in mind that you can _definitely_ export constructors, classes and factory functions from your modules.
+#### Named exports
 
-To pull it all together, let's write a simple module and then include it in our code. We are going to continue from where the webpack tutorial left off. Before beginning, your file directory should look something like this:
+Let's use our `one.js` and `two.js` examples from before. First, we'll need to export our greeting and farewell strings from `one.js`.
 
-~~~
-├── dist
-│   ├── main.js
-│   └── index.html
-├── src
-│   └── index.js
-├── package-lock.json
-├── package.json
-└── webpack.config.js
-~~~
+To export something as a **named export**, we can either stick the `export` keyword in front of its declaration, or add an `export { }` somewhere in the file (typically the end), where the curly braces contain a list of the names of the things to export. Either method is fine to use, and we can export as many things as we liked as named exports.
 
-In addition, you should be able to bundle and run webpack by simply typing `npx webpack` in the terminal, (or `npm run build` if you're using the example project created on the previous section.) .
+```javascript
+// one.js
+export const greeting = "Hello, Odinite!";
+export const farewell = "Bye bye, Odinite!";
+```
 
-Add a new file to the `src` directory called `myName.js` with the following contents:
+Or on a separate line:
 
-~~~ javascript
-const myName = (name) => 'Hi! My name is ' + name;
+```javascript
+// one.js
+const greeting = "Hello, Odinite!";
+const farewell = "Bye bye, Odinite!";
+export { greeting, farewell };
+```
 
-export default myName;
-~~~
+Now to import these variables in `two.js`! Remember that we can control what we import, so if we only need the `greeting` variable, we could just import that on its own. If another file needed the `farewell` variable (or both), then that file could import what it needs. Don't import it? Can't use it. To do named imports, we must specify the names of the things we want to import inside `{ }` and provide the path to the file we're importing from (when we deal with importing third-party libraries later, you can just use the name of the library instead of a full file path).
 
-Then, in `src/index.js`, import and use your new function:
+Note that [you cannot use template strings for the file path](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#module-name), only single or double-quoted strings.
 
-~~~javascript
-// import your function
-import myName from './myName';
+```javascript
+// two.js
+import { greeting, farewell } from "./one.js";
 
-function component() {
-  const element = document.createElement('div');
+console.log(greeting); // "Hello, Odinite!"
+console.log(farewell); // "Bye bye, Odinite!"
+```
 
-  // use your function!
-  element.textContent = myName('Cody');
-  return element;
-}
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-document.body.appendChild(component());
-~~~
+#### Named imports/exports aren't the same as object literals!
 
-Easy! Now, if you run `npx webpack` in your project directory, your page should show our new function being used.
+Using `{ }` with named imports/exports is special syntax and is not related in any way to declaring object literals or [destructuring objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring).
 
-<span id="exports-knowledge-check"></span> 
-There are 2 different ways to use exports in your code: named exports and default exports. Which option you use depends on what you're exporting. As a general rule if you want to export multiple functions use named exports with this pattern:
+```javascript
+export { greeting, farewell };
 
-~~~javascript
-// a file called myModule.js
-const functionOne = () => 'ONE';
-const functionTwo = () => 'TWO';
+import { greeting, farewell } from "./one.js";
+```
 
-export {
-  functionOne,
-  functionTwo
-};
-~~~
+In the above, we are not exporting an object containing `greeting` and `farewell` keys, nor are we destructuring an object with those keys when importing. We are just using named import/export syntax.
 
-And to import them:
+</div>
 
-~~~javascript
-// main js file in /src folder
-import {functionOne, functionTwo} from './myModule';
-~~~
+#### Default exports
 
-Using this pattern gives you the freedom to only import the functions you need in the various files of your program. So it's perfectly fine to only import `functionOne` if that's the only one you need.
+In contrast to named exports, a file can only default export a single thing. Something exported this way does not have a name attached to it, so when you import it somewhere, you can decide what name to give it.
 
-The various import/export methods are best explained in the docs that we linked earlier - [import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) and [export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export).
-Additionally, you can checkout this [video on JavaScript ES6 Modules](https://youtu.be/cRHQNNcYf6s) to understand import and export.
+To export something from a file as a default export, we can also do it inline by prepending `export default` to the appropriate declaration, or we can export it at the end of the file, this time *without* any curly braces. Again, either way is perfectly fine. Note that if you want to inline default export a variable, the `default` keyword *replaces* the variable declaration so you export the expression directly.
 
-### Knowledge Check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
+Let's default export our greeting string from `one.js`.
 
-- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Explain what npm is and where it was commonly used before being adopted on the frontend.</a>
-- <a class="knowledge-check-link" href="https://docs.npmjs.com/creating-a-package-json-file">Describe what `npm init` does and what `package.json` is.</a>
-- <a class="knowledge-check-link" href="https://docs.npmjs.com/downloading-and-installing-packages-locally">Know how to install packages using npm.</a>
-- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Describe what a JavaScript module bundler like webpack is.</a>
-- <a class="knowledge-check-link" href="#webpack-knowledge-check">Explain what the concepts "entry" and "output" mean as relates to webpack.</a>
-- <a class="knowledge-check-link" href="https://dev.to/moimikey/demystifying-devdependencies-and-dependencies-5ege">Briefly explain what a development dependency is.</a>
-- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Explain what "transpiling code" means and how it relates to frontend development.</a>
-- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Briefly describe what a task runner is and how it's used in frontend development.</a>
-- <a class="knowledge-check-link" href="https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html">Describe how to write an npm automation script.</a>
-- <a class="knowledge-check-link" href="#module-knowledge-check">Explain one of the main benefits of writing code in modules.</a>
-- <a class="knowledge-check-link" href="#exports-knowledge-check">Explain "named exports" and "default exports".</a>
+```javascript
+// one.js
+export default "Hello, Odinite!";
+```
+
+Or on a separate line:
+
+```javascript
+// one.js
+const greeting = "Hello, Odinite!";
+export default greeting;
+```
+
+Now in our `two.js`, we can default import that string. Remember, since we're importing something that was default exported, we can name it whatever we want. Even though the variable was called `greeting` in `one.js`, we don't have to call it that in `two.js` if we don't want to. When default importing, we don't use curly braces, which are for named importing.
+
+```javascript
+// two.js
+import helloOdinite from "./one.js";
+
+console.log(helloOdinite); // "Hello, Odinite!"
+```
+
+You can use both default and named exports in the same file. Confusingly enough, there isn't really a universally agreed-upon rule for when to use either, outside of the fact that a file can have multiple named exports but only one default export. When it comes to only needing to export a single thing from a module, some people prefer using a default export whereas some prefer using a single named export. Both work so use whatever you prefer, or if working in a team, whatever the team prefers.
+
+Let's default export the greeting string from `one.js`, and export the farewell string as a named export.
+
+```javascript
+// one.js
+export default "Hello, Odinite!";
+export const farewell = "Bye bye, Odinite!";
+```
+
+We can then import them both in `two.js`. We need to default import the greeting string (which also means we can name it whatever we want) and named import the farewell string.
+
+```javascript
+// two.js
+import greeting, { farewell } from "./one.js";
+
+console.log(greeting); // "Hello, Odinite!"
+console.log(farewell); // "Bye bye, Odinite!"
+```
+
+### Entry points
+
+When we use ESM, instead of adding every JavaScript file to our HTML in order, we only need to link a single file - the **entry point**.
+
+```html
+<script src="two.js" type="module"></script>
+```
+
+Why is `two.js` our entry point? Well, in our above examples, `two.js` imports variables from `one.js`, meaning `two.js` depends on `one.js`, so we have the following **dependency graph**:
+
+```text
+importer  depends on  exporter
+two.js <-------------- one.js
+```
+
+When we load `two.js` as a module, the browser will see that it depends on `one.js` and load the code from that file as well. If we instead used `one.js` as our entry point, the browser would see that it does not depend on any other files, and so would do nothing else. Our code from `two.js` would not be used, and nothing would get logged!
+
+If we had another file, `three.js`, that exported something and `two.js` imported from it, then `two.js` would still be our entry point, now depending on both `one.js` and `three.js`.
+
+```text
+two.js <-------------- one.js
+              └------- three.js
+```
+
+Or perhaps instead of `two.js`, `one.js` imports from `three.js`. In which case, `two.js` would still be our entry point and depend on `three.js` indirectly through `one.js`.
+
+```text
+two.js <-------------- one.js <-------------- three.js
+```
+
+Note that we only needed the one script tag, as the browser will handle the additional file dependencies for us. We also did not need to add the `defer` attribute, as `type="module"` will automatically defer script execution for us.
+
+If you had coded along with the IIFE example at the start of the lesson, try rewriting the JavaScript to use `import` and `export`, and link only the entry point as a module script. Due to browser security reasons, ES6 modules cannot be loaded if you open the HTML file directly in the browser, so make sure you use Visual Studio Code's [Live Preview extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) if you aren't already.
+
+### CommonJS
+
+Along the way, you may have bumped into something called CommonJS (CJS), which uses syntax like `require` and `module.exports` instead of `import` and `export`. You may remember seeing this in our JavaScript exercises in the Foundations course (you've come a long way)! This is a module system that was designed for use with Node.js that works a little differently than ESM, and is not something that browsers will be able to understand.
+
+CJS is still used quite a lot in Node.js code, though in recent years, ESM in Node.js has been gaining popularity. For the time being, we are focused on writing code to run in the browser, so we will be spending time with ESM. If you are taking the Full Stack JavaScript pathway, then we will cover CJS in more detail later in the Node.js course.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. As per usual, you can learn most about JavaScript keywords and concepts from the MDN docs, so check out the [docs on export](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) and [docs on import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import). There are little extras about them we have not covered in this lesson, such as aliases and namespace imports.
+
+</div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [Before ES6 modules, how would you privatize a variable from being accessible in other files?](#before-es6-modules-the-global-scope-problem)
+- [Before ES6 modules, how would you expose variables to be accessible in later files?](#before-es6-modules-the-global-scope-problem)
+- [What are some benefits of writing code in modules?](#introduction)
+- [What is the difference between default and named exports?](#default-exports)
+- [What is an entry point?](#entry-points)
+- [How do you link a module script in HTML?](#entry-points)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- This video on [ES6 Modules by Web Dev Simplified](https://youtu.be/cRHQNNcYf6s) summarizes much of the ESM topics discussed in this lesson. At the end, he mentions `nomodule` and support for older browsers that were unable to support ESM. Nowadays, this is not a concern as ESM is supported by basically every browser in common use.
+- Here is a [brief comparison of CommonJS modules and ES6 modules](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/).

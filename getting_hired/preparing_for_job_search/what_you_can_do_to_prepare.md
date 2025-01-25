@@ -2,35 +2,37 @@
 
 Taking a structured approach to getting hired means starting early and getting some important things out of the way first.
 
-### Get Good!
+### Get good!
 
 Navigating this process can be a beast but don't let it distract you from building your skills, which ultimately will determine if you get the job or not.  This course assumes you've already made it through the other courses and have accomplished enough in their completion to elevate you to competence.  If not, you've got to ruthlessly address your weak points (even if it's the tricky stuff like algorithms and data structures) in order to be qualified for the kinds of positions you're applying to.
 
-### Craft a Narrative
+### Craft a narrative
 
 You may be uncomfortable "selling yourself" but that's exactly what you'll have to do.  Luckily, that doesn't mean acting like a used car salesman; it's more subtle than you think.  It really means crafting a story about who you are, how you got to where you are, and why you'll keep growing.  Everyone can tell a story.  So put some effort into crafting a compelling narrative that stitches together your background (especially if you come from a non-traditional background) into a compelling and unavoidable wave of capability and drive.
 
-* [How to Explain Your Career Transition by Dorie Clark](http://dorieclark.com/how-to-explain-your-career-transition/)
+* [How to Explain Your Career Transition by Dorie Clark](https://hbr.org/2013/04/how-to-explain-your-career-tra)
 
-### Build a Portfolio
+### Build a portfolio
 
 All along the way, you should keep building things.  The work you've done will be crucial to demonstrating your technical skill and getting hired.  Employers want to see that you can build and ship code and that you make good decisions when confronted with engineering trade-offs.  All of this stems from conversations about your portfolio of work.
 
 The portfolio is also important for another thing that isn't mentioned much -- social proof.  If you've been a part of larger or group projects, that's almost like showing that you've worked somewhere before.  It makes the employer comfortable that other people have worked with you before so they can too.
 
+Speaking of group projects, participating in the open source community is a great way to showcase your skills and collaborate with other developers. If you're looking for your first open source project to contribute to, start with TOP! We're always looking for ways to improve our curriculum, main site, and odin-bot v2, so check out our [repositories on GitHub](https://github.com/TheOdinProject) to get started. While you're at it, check out this [Dev.to article](https://dev.to/opensauced/how-i-got-hired-contributing-to-open-source-projects-546i) to learn you can leverage open source contributions in your job search.
+
 Your portfolio as a developer is GitHub.  You may have a personal website but GitHub is still the authoritative repository of your technical ability.  Ignore it at your peril.
 
-* [A Programmer's Portfolio by Jeff Atwood](http://www.codinghorror.com/blog/2004/10/a-programmers-portfolio.html)
+* [A Programmer's Portfolio by Jeff Atwood](https://blog.codinghorror.com/a-programmers-portfolio/)
 * [The Power of a Programming Portfolio by GrokCode](http://grokcode.com/58/the-power-of-a-programming-portfolio/)
 * [Your GitHub Portfolio by Forbes](http://www.forbes.com/sites/anthonykosner/2012/10/20/software-engineers-are-in-demand-and-github-is-how-you-find-them/)
 
-### Clean up your Web Presence (and Have One)
+### Clean up your web presence (and have one)
 
 Google yourself in an incognito window (to avoid Google's smart algorithm).  What comes up? Do the links fit into your personal narrative?  Whoever is looking to hire you will certainly Google you.  Make sure that what they find matches what you want them to find.  If you've got a ridiculously common name, you may have a harder time building your web presence but it's also harder to have the *wrong* web presence.
 
 The most important part of your web presence to fix up is your GitHub profile.  Make sure your projects are organized and their README files contain a description and a link to where it is live so anyone looking at the project can quickly see your brilliance.
 
-Next, try to be discoverable.  If I'm trying to get in touch with you or find your work on the web, can I?  Do you have a personal website?  Are you on Twitter? You don't need to go crazy with social media, but sometimes just having enough of a profile to be a "real" person and give people the opportunity to get in touch with you can go a long way.  
+Next, try to be discoverable.  If we're trying to get in touch with you or find your work on the web, can I?  Do you have a personal website?  Are you on X (formerly known as Twitter)? You don't need to go crazy with social media, but sometimes just having enough of a profile to be a "real" person and give people the opportunity to get in touch with you can go a long way.  
 
 Use LinkedIn if you're not allergic to it.  Again, this is about getting your personal narrative out there in the way YOU choose and not relying on Google to get it right.  LinkedIn is fast replacing the resume anyway.  
 
@@ -41,7 +43,7 @@ Other sites, like Brand Yourself below, will describe a bit better how to take o
 * [How Important Is It for a Programmer to Have an Online Presence? on Stack Exchange](http://programmers.stackexchange.com/questions/143673/how-important-is-it-for-a-programmer-to-have-an-online-presence)
 * [How to Build Your Digital Presence as a Software Developer](https://blog.pramp.com/how-to-build-your-digital-presence-as-a-software-developer-cb61c4c1aab)
 
-### Get Out in the Community and Collect Information
+### Get out in the community and collect information
 
 Find and meet other developers.  That doesn't mean "power networking" but it does mean genuine human connection.  Your network of people DOES matter in a BIG way.  For now, it's probably just for answering questions and harvesting advice but your next job will probably be found through the people you know and some who you meet while you're gathering this advice.  People like giving advice and like investing themselves emotionally in other people with growth curves.
 

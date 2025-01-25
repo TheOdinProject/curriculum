@@ -1,0 +1,71 @@
+name: 📝 Suggest an Improvement to Curriculum Content
+description: Point out a broken link or a typo, suggest another resource or make a suggestion
+title: '<Course>: <Short description of your suggestion>'
+labels: ["Status: Needs Triage"]
+assignees:
+  - nil
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to make a suggestion! Please fill out these fields so your issue can be reviewed - giving the right amount of detail makes it much easier for maintainers to process.
+
+        If you have any questions or are unsure about anything, don't be afraid to ask! The maintainers are here to help.
+  - type: checkboxes
+    id: contributing
+    attributes:
+      label: Checks
+      description: Please fill out the following checkboxes
+      options:
+        - label: This is not a duplicate of an existing issue (please have a look through our [open issues list](https://github.com/TheOdinProject/curriculum/issues) to make sure)
+          required: true
+        - label: I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md)
+          required: true
+        - label: Would you like to work on this issue?
+          required: false
+  - type: textarea
+    id: suggested-changes
+    attributes:
+      label: Describe your suggestion
+      description: A description of your suggestion. You can provide screenshots or additional context if relevant
+      placeholder: ex 'There is a typo in the additional resource section - it should be wombat, not combat'
+    validations:
+      required: true
+  - type: dropdown
+    id: path
+    attributes:
+      label: Path
+      description: Which path does your suggestion affect?
+      multiple: true
+      options:
+        - Foundations
+        - Ruby / Rails
+        - Node / JS
+        - Other / NA
+    validations:
+      required: true
+  - type: input
+    id: lesson-link
+    attributes:
+      label: Lesson Url
+      description: A link to the relevant lesson, or the content that needs to be fixed. If not applicable, describe where to look for your suggestion
+      placeholder: ex. https://www.theodinproject.com/lessons/ruby-how-this-course-will-work
+    validations:
+      required: true
+ 
+  - type: input
+    id: contact
+    attributes:
+      label: (Optional) Discord Name
+      description: Optionally provide your discord name to help coordinate changes there if necessary
+      placeholder: ex. odinite
+    validations:
+      required: false
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: (Optional) Additional Comments
+      description: "Anything else you'd like to cover"
+      placeholder: We ❤️ open source
+    validations:
+      required: false

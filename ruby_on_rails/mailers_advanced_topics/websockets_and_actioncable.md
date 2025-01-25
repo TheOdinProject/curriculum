@@ -4,11 +4,13 @@ In a typical interaction between a client and website, a browser makes a request
 
 There are often times when you want to keep that connection open so that the server can update the client if there is something relevant for the user. For that we have WebSockets, and Action Cable brings WebSockets to Rails in an easy to use way.
 
-### Learning Outcomes
+### Lesson overview
 
-* What is a WebSocket?
-* What kinds of problems can WebSockets help you solve?
-* What is Action Cable?
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What a WebSocket is.
+- What kinds of problems WebSockets can help you solve.
+- What an Action Cable is.
 
 ### What is a WebSocket?
 
@@ -24,9 +26,9 @@ Let us imagine we've built an awesome new social media app, Chewbooka. A place t
 
 We'll be rich! But, in a time before WebSockets, how are we going to solve it?
 
-We could use Javascript to set an interval to reach out to the server at regular intervals to see if there are any updates. If there are, we could notify users of the new post and update their view, and if there aren't, we can just return an empty response. This still involves opening and closing a request on the server. This was a technique known as polling, and was one of the first ways websites tried to bring server updates to the client. The downside to this was that it was inefficient. If there were no updates for the client it would still request an update from the server. In an age of capped internet usage this was a big no.
+We could use JavaScript to set an interval to reach out to the server at regular intervals to see if there are any updates. If there are, we could notify users of the new post and update their view, and if there aren't, we can just return an empty response. This still involves opening and closing a request on the server. This was a technique known as polling, and was one of the first ways websites tried to bring server updates to the client. The downside to this was that it was inefficient. If there were no updates for the client it would still request an update from the server. In an age of capped internet usage this was a big no.
 
-Since we don't want the inefficiency of checking for an update when there isn't one, what if instead we did the following: Allow a client to send an http request and if there is no new information, instead of sending an empty response and closing the connection, we hold the request open on the server side. When we have a new post we can send that response to any open http requests being held, and that will complete the http request and close the connection. Then the client can simply send a new request to open the connection again. This is known as long-polling and is still in operation on many sites. The downside of this approach is that it's very server intensive to keep receiving requests and holding them open for an indefinite time, and if order is important in the response you may have issues if there are several updates between requests. You may have come across this in the past on some sites where the order of updates changed if you refreshed the page. Some old chat rooms did this.
+Since we don't want the inefficiency of checking for an update when there isn't one, what if instead we did the following: Allow a client to send an http request and if there is no new information, instead of sending an empty response and closing the connection, we hold the request open on the server side. When we have a new post we can send that response to any open http requests being held, and that will complete the http request and close the connection. Then the client can send a new request to open the connection again. This is known as long-polling and is still in operation on many sites. The downside of this approach is that it's very server intensive to keep receiving requests and holding them open for an indefinite time, and if order is important in the response you may have issues if there are several updates between requests. You may have come across this in the past on some sites where the order of updates changed if you refreshed the page. Some old chat rooms did this.
 
 There are some other approaches used, such as Java applets or Cross Frame Communication, but ultimately they all had some pretty big drawbacks. The internet was not initially designed for these kinds of requests.
 
@@ -58,18 +60,18 @@ Let's first look at the default files that come with a new Rails app for handlin
 
 ### Server side concerns
 
-#### Connections
+#### WebSocket connections
 
-As mentioned earlier, every WebSocket accepted by the server creates a connection which manages all the channels that a user subscribes to. The connection itself simply deals with authentication and authorization. The client of this connection object is called a consumer.
+As mentioned earlier, every WebSocket accepted by the server creates a connection which manages all the channels that a user subscribes to. The connection itself deals with authentication and authorization. The client of this connection object is called a consumer.
 
 If you have a Rails app handy open up `app/channels/application_cable/connection.rb`
 
-~~~ruby
+```ruby
 module ApplicationCable
   class Connection < ActionCable::Connection::Base
   end
 end
-~~~
+```
 
 You use the class above to authorize the incoming connection. You can use any logic you want to uniquely identify a user. If you use devise or a similar gem and only want logged in users to be authorized, then you can use that to verify the incoming connection.
 
@@ -77,15 +79,15 @@ You can see an example of how you would do that in the Rails Guides section on [
 
 So, if you are using devise, a neat way to verify a connection is to use the following in your `find_verified_user` method:
 
-~~~ruby
+```ruby
 def find_verified_user
-  if verified_user == env['warden'].user
+  if verified_user = env['warden'].user
     verified_user
   else
     reject_unauthorized_connection
   end
 end
-~~~
+```
 
 There are lots of ways to authorize a connection. You might want it to be available for all users, even those not logged in for example. There is a range of options so we'll leave it to you to investigate if you ever have a need for a different way.
 
@@ -97,22 +99,21 @@ A channel is a logical unit of work, not too different from what a controller do
 
 Each channel you create can be subscribed to by one or more clients. Messages can then be broadcast to that channel who will forward it to any subscribers.
 
-
 ### Client side concerns
 
-#### Connections
+#### Client-server connections
 
-Consumers of subscriptions require an instance of the connection on the client side also. This is so when the server broadcasts a message it can be picked up and handled by the browser. Rails generates this boilerplate for you by default and the files live in `app/javascript/channels`.
+Consumers of subscriptions require an instance of the connection on the client side also. This is so when the server broadcasts a message it can be picked up and handled by the browser. Rails generates this boilerplate for you when you create a channel and the files live in `app/javascript/channels`.
 
 #### Connect consumer
 
-This lives in `app/javascript/channels/consumer.js`
+This will be in `app/javascript/channels/consumer.js` when you create a channel
 
-~~~javascript
+```javascript
 import { createConsumer } from "@rails/actioncable"
 
 export default createConsumer()
-~~~
+```
 
 This code creates a consumer that will try to establish a connection to `/cable` on your server. All channels you create will import this file and use it to create a subscription to the server.
 
@@ -122,24 +123,35 @@ Now that we've learned the basics of how Rails handles creating a WebSocket conn
 
 #### Rails channel generator
 
-Unsurprisingly Rails gives us a generator we can use to create new channels. This creates all the boilerplate code we can use to make getting started simple.
+Unsurprisingly Rails gives us a generator we can use to create new channels. This creates all the boilerplate code we can use to make getting started simpler.
 
-The command is pretty simple. Imagine we wanted to create a WebSocket connection for a chatroom. We would write the following in the terminal
+The command is straightforward. Imagine we wanted to create a WebSocket connection for a chatroom. We would write the following in the terminal
 
-~~~bash
+```bash
 rails generate channel room
-~~~
+```
 
 This will create the following files
 
-~~~bash
+```bash
    create  app/channels/room_channel.rb
 identical  app/javascript/channels/index.js
 identical  app/javascript/channels/consumer.js
    create  app/javascript/channels/room_channel.js
-~~~
+```
 
 You can see here it does try to create all files we would need and if any exist, such as our consumer.js file, then it doesn't overwrite them.
+
+#### Possible Error
+
+You may get an error message such as "You have already activated error_highlight 0.6.0, but your Gemfile requires error_highlight 0.5.1. Prepending 'bundle exec' to your command may solve this. (Gem::LoadError)".
+In this case, delete your Gemfile.lock and run
+
+```bash
+bundle install
+```
+
+, which creates a new Gemfile.lock. Now the "rails generate channel room" command should create the files correctly as above.
 
 ### Client-server interactions
 
@@ -147,7 +159,7 @@ Let's take a closer look at the room_channel.rb and room_channel.js files that w
 
 As mentioned earlier the generator will create a channel in the `app/channels` directory. In our example it was `room_channel.rb` which produces some boilerplate code:
 
-~~~ruby
+```ruby
 class RoomChannel < ApplicationCable::Channel
   def subscribed
     # stream_from "some_channel"
@@ -157,7 +169,7 @@ class RoomChannel < ApplicationCable::Channel
     # Any cleanup needed when channel is unsubscribed
   end
 end
-~~~
+```
 
 #### Streams
 
@@ -167,7 +179,7 @@ Action Cable gives us two stream options. `stream_from` and `stream_for`.
 
 The difference is that `stream_from` expects a string to identify the stream whereas `stream_for` operates on a model. Ultimately they produce something similar.
 
-~~~ruby
+```ruby
 def subscribed
   stream_from "room"
 end
@@ -176,14 +188,13 @@ def subscribed
   room = Room.find_by(name: 'someroom')
   stream_for room
 end
-~~~
+```
 
 So you would reach for `stream_for` when you have a specific model you want to use for the stream. To give an example imagine our chat room scenario. You may want to subscribe to the chatroom and broadcast when a message is created in that room. Using `stream_for` means we can let Rails do the heavy lifting of setting up the stream so we can broadcast using the room object (this will make sense in a moment when we look at the broadcast options).
 
 You can also pass parameters from the client to the server and use those to generate a stream. We'll look at how to do that on the client side shortly. On the server side it's not that much different from how you'd handle it in a controller
 
-
-~~~ruby
+```ruby
 def subscribed
   stream_from "room_#{params[:room]}"
 end
@@ -192,7 +203,7 @@ def subscribed
   room = Room.find(params[:id])
   stream_for room
 end
-~~~
+```
 
 #### Broadcasting
 
@@ -204,7 +215,7 @@ If you used `stream_for` then you can call `broadcast_to` directly on the room c
 
 Following our earlier example of setting up a stream on a room, you may have a message controller where you create messages for an associated room. Your create method may look something like
 
-~~~ruby
+```ruby
 def create
   @room = Room.find(params[:id])
   @message = @room.messages.build(message_params)
@@ -213,35 +224,35 @@ def create
   # You can then broadcast to the room like follows
   RoomChannel.broadcast_to(@room, @message)
 end
-~~~
+```
 
 Rails automatically calls `to_json` on our message object. The alternative syntax would look something like
 
-~~~ruby
+```ruby
 RoomChannel.broadcast_to(@room, name: 'Kevin', dork_status: 'Ultimate')
-~~~
+```
 
 Here Rails calls `to_json` on the arguments as a Hash object.
 
 The other way to broadcast a stream is to broadcast it directly from the ApplicationCable server. Why might you want to do this? If you didn't set up the stream on an object, but instead used `stream_from`, then using `broadcast_to` on RoomChannel will look for a stream with a particular name format. Going back to our chat example,if you had set the stream up as
 
-~~~ruby
+```ruby
 stream_from "room"
-~~~
+```
 
 And then tried to call
 
-~~~ruby
+```ruby
 RoomChannel.broadcast_to("room" @message)
-~~~
+```
 
 Rails would look for a stream called `room:room`. This is just how Action Cable works. When you use `stream_for room` it actually creates the stream as `room:<some_room_id>` so the format is correct when you then later call `RoomChannel.broadcast_to(@room, @message)`. At that point it would look for the stream `room:<the_room_id>`.
 
 So if you just wanted to call broadcast on a stream set up as a string using `stream_from`, you could write in the controller
 
-~~~ruby
+```ruby
 ActionCable.server.broadcast 'message', @message
-~~~
+```
 
 This way we can just hit the server directly, looking for a stream with the relevant name. It might take a little getting used to but the approach you take really depends on how you set up the stream.
 
@@ -249,7 +260,7 @@ This way we can just hit the server directly, looking for a stream with the rele
 
 Going back to our earlier channel generator, the other file it generated for us was `app/javascript/channels/room_channel.js`. This is pretty straightforward with only a couple of things we need to concern ourselves with at this time. Let's take a look at the default file it generated for us:
 
-~~~javascript
+```javascript
 import consumer from "./consumer"
 
 consumer.subscriptions.create("RoomChannel", {
@@ -265,21 +276,21 @@ consumer.subscriptions.create("RoomChannel", {
     // Called when there's incoming data on the websocket for this channel
   }
 });
-~~~
+```
 
 Note that it imports our consumer from the consumer.js file we discussed earlier. Then it calls `subscriptions.create` on the consumer. We don't need to really dive into how this works under the hood; we just need to understand a couple of key points.
 
 The first is that the first argument is given as a string. This would try to connect to the `RoomChannel` channel on the server. It doesn't have to be a string though. Remember those parameters we discussed earlier? This is where you can pass them. Instead of a string you can instead pass an object. The first key-value pair must be in the format `channel: 'ChannelName'`, and then afterwards you can pass in any number of key-value pairs, which become the parameters sent to the server to establish a connection. Let's say we want to send the id of a room to our RoomChannel. We could write that first line as follows
 
-~~~javascript
+```javascript
 consumer.subscriptions.create({channel: 'RoomChannel', room: 1}, {
-~~~
+```
 
 We could then access the parameters in the RoomChannel on the server side as
 
-~~~ruby
+```ruby
 room = Room.find(params[:room])
-~~~
+```
 
 This allows you to set multiple streams to the same channel by providing different parameters. When might this be useful? A example is registering to different chatrooms using the same channel object. Or how about subscribing to different notifications for different programming languages? They'd have to go through the same NotificationChannel but you would want to send relevant data only to those who subscribed to the relevant notification. Params are the way to do it.
 
@@ -291,27 +302,37 @@ You can add additional functions to the object to help you process the data. The
 
 It is possible for a client to send a message to the server and for the server to rebroadcast that message to others. You can read the short section in the [Rails Guides](https://guides.rubyonrails.org/action_cable_overview.html#rebroadcasting-a-message) if you are interested.
 
-If you want to send dynamic parameters from the client when setting up the server, care needs to be taken. You can only get params once the DOM has rendered, and it's common therefore to wrap code in a `turbolinks:load` event listener. Because of this, if you aren't careful, you can end up subscribing the same stream multiple times as you navigate pages. Action Cable doesn't check if you are already subscribed to a stream before doing it again, because this might be intended behaviour for your app; they can't only allow one connection to a channel. This is connected with the way turbolinks works. You can read this [Stack Overflow](https://stackoverflow.com/questions/39541259/rails-actioncable-turbolinks-chat-issue-posting-duplicate-messages) post where others have experienced this behaviour.
+If you want to send dynamic parameters from the client when setting up the server, care needs to be taken. You can only get params once the DOM has rendered, and it's common therefore to wrap code in a `turbo:load` event listener. Because of this, if you aren't careful, you can end up subscribing the same stream multiple times as you navigate pages. Action Cable doesn't check if you are already subscribed to a stream before doing it again, because this might be intended behaviour for your app; they can't only allow one connection to a channel. This is connected with the way turbolinks works. You can read this Stack Overflow post where others have experienced [duplicate messages from duplicate stream subscriptions](https://stackoverflow.com/questions/39541259/rails-actioncable-turbolinks-chat-issue-posting-duplicate-messages).
 
 For testing and development Action Cable uses an async adapter to work, but in Production it defaults to looking for a redis server. You will need to ensure you have one working if you want to get it up and running on Heroku or another service.
 
 The connection only remains active while the http request remains unbroken. Refreshing the browser or navigating to a new page sever the connection and then will look to establish it again on reconnection.
 
+### Conclusion
+
+There is more to Action Cable but it's still quite a niche use case so it's not something you should seek to use on every app you build. Look to only introduce WebSockets when you see a real opportunity to add value to your site.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Make sure you've read through all of the [Rails Guides on Action Cable](https://guides.rubyonrails.org/action_cable_overview.html). They even have some full stack examples which you may find useful.
-  2. Follow along with this [Simple Messaging App](https://github.com/TheOdinProject/curriculum/blob/main/ruby_on_rails/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Action Cable to a project
+  1. Follow along with this [Basic Messaging App](https://github.com/TheOdinProject/curriculum/blob/main/ruby_on_rails/mailers_advanced_topics/actioncable_lesson.md) that we've written to give you a taste of introducing Action Cable to a project
+
 </div>
 
-### Knowledge Checks
+### Knowledge check
 
-* <a class='knowledge-check-link' href='#what-is-a-websocket'>What options did developers have before WebSockets to update a client without a user request?</a>
-* <a class='knowledge-check-link' href='#terminology'>How can you broadcast to a stream from the server?</a>
-* <a class='knowledge-check-link' href='#connections'>Where do you authorize incoming connections?</a>
-* <a class='knowledge-check-link' href='#streams'>What are Action Cable’s stream options?</a>
-* <a class='knowledge-check-link' href='#streams'>What is the difference between `stream_from` and `stream_for`?</a>
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-### Conclusion
+- [What options did developers have before WebSockets to update a client without a user request?](#what-is-a-websocket)
+- [How can you broadcast to a stream from the server?](#terminology)
+- [Where do you authorize incoming connections?](#websocket-connections)
+- [What are Action Cable’s stream options?](#streams)
+- [What is the difference between `stream_from` and `stream_for`?](#streams)
 
-There is more to Action Cable but it's still quite a niche use case so it's not something you should seek to use on every app you build. Look to keep it simple and only introduce WebSockets when you see a real opportunity to add value to your site.
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
