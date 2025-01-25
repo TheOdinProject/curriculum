@@ -170,7 +170,7 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 #### Focus on the concepts
 
-Even though some articles use Jest and the Enzyme testing library, the concepts should be transferrable.
+Even though some articles use Jest and the Enzyme testing library, the concepts should be transferable.
 
 </div>
 
