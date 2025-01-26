@@ -120,7 +120,7 @@ There is also a third way, `var`, which was the original way variables were decl
 
 ### Numbers
 
-Numbers are the building blocks of programming logic!  In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important.  Luckily, it's also fairly straightforward.
+Numbers are the building blocks of programming logic! In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important. Luckily, it's also fairly straightforward.
 
 If you went to school, you will likely not find the concept too difficult to grasp. For example, the mathematical expression `(3 + 2) - 76 * (1 + 1)` is also valid JavaScript. If you put that into a `console.log`, it'll evaluate the expression and output the correct number. Try it!
 
@@ -134,16 +134,16 @@ Try the following exercises by adding code to a script tag in your HTML file:
 1. Do the same thing but add 6 different numbers together.
 1. Now log the value of the following expression: `(4 + 6 + 9) / 77`. The console should log approximately `0.24675`.
 1. Let's use some variables!
-    1. Add this statement to the script tag: `let a = 10`.
-    1. Below it, add `console.log(a)`. When you run this, the browser console should log `10`.
-    1. Afterwards, re-assign `a` with a different number value. Log `a` again afterwards and it should show the updated value (the previous log should still show the old value of `10` since that was before `a` was re-assigned).
-    1. Now add to the bottom of the script `let b = 7 * a`.
-    1. Log what `b` is. It should log the result of 7 multiplied by whatever you re-assigned `a` with.
+   1. Add this statement to the script tag: `let a = 10`.
+   1. Below it, add `console.log(a)`. When you run this, the browser console should log `10`.
+   1. Afterwards, re-assign `a` with a different number value. Log `a` again afterwards and it should show the updated value (the previous log should still show the old value of `10` since that was before `a` was re-assigned).
+   1. Now add to the bottom of the script `let b = 7 * a`.
+   1. Log what `b` is. It should log the result of 7 multiplied by whatever you re-assigned `a` with.
 1. Try this sequence:
-    1. Declare a const variable `max` with the value `57`.
-    1. Declare another const variable `actual` and assign it `max - 13`.
-    1. Declare another const variable `percentage` and assign it `actual / max`.
-    1. Now if you log `percentage`, you should see a value in the console like `0.7719`.
+   1. Declare a const variable `max` with the value `57`.
+   1. Declare another const variable `actual` and assign it `max - 13`.
+   1. Declare another const variable `percentage` and assign it `actual / max`.
+   1. Now if you log `percentage`, you should see a value in the console like `0.7719`.
 1. Take a few minutes to keep playing around with various things in your script tag. Eventually, we will learn how to actually make these things show up on the webpage, but all of this logic will remain the same. Make sure you're comfortable with it before moving on.
 
 Go through the following articles to deepen your knowledge.
@@ -151,7 +151,7 @@ Go through the following articles to deepen your knowledge.
 1. Read up on [variables in JavaScript](https://javascript.info/variables#variable-naming) from JavaScript.info.
 1. This W3Schools lesson on [JavaScript arithmetic](https://www.w3schools.com/js/js_arithmetic.asp) followed by this on [JavaScript numbers](https://www.w3schools.com/js/js_numbers.asp), are good introductions to what you can accomplish with numbers in JavaScript.
 1. This MDN article on [JavaScript math](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view, while also teaching you how to apply some basic math in JavaScript. There's much more that you can do with numbers, but this is all you need at the moment.
-1. Read through \(and code along with!\) this article on [JavaScript operators](http://javascript.info/operators).  Don't forget to do the "Tasks" at the bottom of the page!  It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
+1. Read through (and code along with!) this article on [JavaScript operators](http://javascript.info/operators). Don't forget to do the "Tasks" at the bottom of the page! It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
 
 </div>
 
