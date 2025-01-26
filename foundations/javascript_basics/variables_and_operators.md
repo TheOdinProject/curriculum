@@ -10,9 +10,9 @@ This section contains a general overview of topics that you will learn in this l
 
 - Running JavaScript code using an HTML file and via the browser console.
 - Declaring variables with `let` and `const`.
-- Performing number operations
-- Performing string operations
-- Use of logical and mathematical operators
+- Performing number operations.
+- Performing string operations.
+- Using logical and mathematical operators.
 
 ### How to run JavaScript code
 
