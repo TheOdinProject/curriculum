@@ -134,16 +134,16 @@ Try the following exercises by adding code to a script tag in your HTML file:
 1. Do the same thing but add 6 different numbers together.
 1. Now log the value of the following expression: `(4 + 6 + 9) / 77`. The console should log approximately `0.24675`.
 1. Let's use some variables!
-    - Add this statement to the script tag: `let a = 10`.
-    - Below it, add `console.log(a)`. When you run this, the browser console should log `10`.
-    - Afterwards, re-assign `a` with a different number value. Log `a` again afterwards and it should show the updated value (the previous log should still show the old value of `10` since that was before `a` was re-assigned).
-    - Now add to the bottom of the script `let b = 7 * a`.
-    - Log what `b` is. It should log the result of 7 multiplied by whatever you re-assigned `a` with.
+    1. Add this statement to the script tag: `let a = 10`.
+    1. Below it, add `console.log(a)`. When you run this, the browser console should log `10`.
+    1. Afterwards, re-assign `a` with a different number value. Log `a` again afterwards and it should show the updated value (the previous log should still show the old value of `10` since that was before `a` was re-assigned).
+    1. Now add to the bottom of the script `let b = 7 * a`.
+    1. Log what `b` is. It should log the result of 7 multiplied by whatever you re-assigned `a` with.
 1. Try this sequence:
-    - Declare a const variable `max` with the value `57`.
-    - Declare another const variable `actual` and assign it `max - 13`.
-    - Declare another const variable `percentage` and assign it `actual / max`.
-    - Now if you log `percentage`, you should see a value in the console like `0.7719`.
+    1. Declare a const variable `max` with the value `57`.
+    1. Declare another const variable `actual` and assign it `max - 13`.
+    1. Declare another const variable `percentage` and assign it `actual / max`.
+    1. Now if you log `percentage`, you should see a value in the console like `0.7719`.
 1. Take a few minutes to keep playing around with various things in your script tag. Eventually, we will learn how to actually make these things show up on the webpage, but all of this logic will remain the same. Make sure you're comfortable with it before moving on.
 
 Go through the following articles to deepen your knowledge.
