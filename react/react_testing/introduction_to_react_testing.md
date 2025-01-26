@@ -133,7 +133,7 @@ It's also important to note that after every test, React Testing Library unmount
 
 ### What are snapshots?
 
-Snapshot testing is just comparing our rendered component with an associated snapshot file. For example, the snapshot file which was automatically generated after we ran the *"magnificent monkeys renders"* test was:
+Snapshot testing is just comparing our rendered component with an associated snapshot file. For example, the snapshot file which was automatically generated after we ran the *"renders magnificent monkeys"* test was:
 
 ```jsx
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
