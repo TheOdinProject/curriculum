@@ -159,15 +159,15 @@ Go through the following articles to deepen your knowledge.
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Name the three ways to declare a variable](#variables)
+- [What three keywords can you use to declare a new variable?](#variables)
 - [Which of the three variable declarations should you avoid and why?](#variables)
 - [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
 - [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
 - [How does the Modulo (%), or Remainder, operator work?](https://javascript.info/operators#remainder)
-- [Explain the difference between `==` and `===`.](https://www.w3schools.com/js/js_operators.asp)
+- [What's the difference between `==` and `===`?](https://www.w3schools.com/js/js_operators.asp)
 - [When would you receive a `NaN` result?](https://www.w3schools.com/js/js_numbers.asp)
 - [How do you increment and decrement a number?](https://javascript.info/operators#increment-decrement)
-- [Explain the difference between prefixing and postfixing increment/decrement operators.](https://javascript.info/operators#increment-decrement)
+- [What's the difference between prefixing and postfixing increment/decrement operators?](https://javascript.info/operators#increment-decrement)
 - [What is operator precedence and how is it handled in JS?](https://javascript.info/operators#operator-precedence)
 - [How do you access developer tools and the console?](#how-to-run-javascript-code)
 - [How do you log information to the console?](#how-to-run-javascript-code)
@@ -177,4 +177,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- This [MDN article on what is JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) explains a bit more about it on a high-level.
+- [MDN's "What is JavaScript?"](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) explains a bit more about it on a high-level.
