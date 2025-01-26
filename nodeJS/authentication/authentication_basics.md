@@ -216,7 +216,7 @@ Let's go ahead and add the log-in form directly to our index template. The form 
 </form>
 ```
 
-... and now for the magical part! Add this route to your app.js file:
+... and now for the magical part! Add this route to your `app.js` file:
 
 ```javascript
 app.post(
@@ -320,9 +320,15 @@ Password hashes are the result of passing the user's password through a one-way 
 Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:
 
 ```javascript
-bcrypt.hash(req.body.password, 10, async (err, hashedPassword) => {
-  // if err, do something
-  // otherwise, store hashedPassword in DB
+app.post("/sign-up", async (req, res, next) => {
+ try {
+  const hashedPassword = await bcrypt.hash(req.body.password, 10);
+  await pool.query("insert into users (username, password) values ($1, $2)", [req.body.username, hashedPassword]);
+  res.redirect("/");
+ } catch (error) {
+    console.error(error);
+    next(error);
+   }
 });
 ```
 

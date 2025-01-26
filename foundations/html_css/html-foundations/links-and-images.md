@@ -62,9 +62,27 @@ While `href` specifies the destination link, `target` specifies where the linked
 
 <span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document.
 
-The `noopener` value prevents the opened link from gaining access to the webpage from which it was opened.
+`noopener`: The `noopener` attribute ensures that a link opened in a new tab or window cannot interact with or access the original page. Without it, the new page can use JavaScript to manipulate the original page, which poses a security risk.
 
-The `noreferrer` value prevents the opened link from knowing which webpage or resource has a link (or 'reference') to it. The `noreferrer` value also includes the `noopener` behaviour and thus can be used by itself as well.
+For example:
+"<a href="https://example.com" target="_blank" rel="noopener">Open Example</a>"
+
+In this code:
+target="_blank": opens the link in a new tab.
+rel="noopener": prevents the new tab from accessing the original page, ensuring security.
+
+Without `noopener`, the new tab could use JavaScript to interact with the original page, which is unsafe.
+
+`noreferrer`: The `noreferrer` attribute provides both privacy and security. It prevents the new page from knowing where the user came from (hiding the referrer) and also includes the behavior of `noopener`, preventing the new page from accessing the original page.
+
+For example:
+"<a href="https://example.com" target="_blank" rel="noreferrer">Visit Example</a>"
+
+In this example:
+target="_blank": opens the link in a new tab.
+rel="noreferrer": ensures the new page cannot see the referring page’s address (privacy) and prevents it from accessing the original page (security).
+
+By using rel="noreferrer", you automatically get the benefits of both privacy and security.
 
 Why do we need this added behaviour for opening links in new tabs? Security reasons. The prevention of access that is caused by `noopener` prevents [phishing attacks](https://www.ibm.com/topics/phishing) where the opened link may change the original webpage to a different one to trick users. This is referred to as [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Adding the `noreferrer` value can be done if you wish to not let the opened link know that your webpage links to it.
 
@@ -280,7 +298,7 @@ attributes in image tags helps the browser layout the page without causing the p
 
 It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it.
 
-Here is our Odin Project logo example with height and width tags included:
+Here is our Odin Project logo example with height and width attributes included:
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PogmYGp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -292,7 +310,7 @@ Here is our Odin Project logo example with height and width tags included:
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Go ahead and update the `odin-links-and-images` project with width and height tags on the dog image.
+Go ahead and update the `odin-links-and-images` project with width and height attributes on the dog image.
 
 ### Assignment
 

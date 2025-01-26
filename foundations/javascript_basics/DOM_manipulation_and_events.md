@@ -360,7 +360,7 @@ When we pass in `alertFunction` or `function (e) {...}` as an argument to `addEv
 
 </div>
 
-The `e` parameter in that callback function contains an object that references the **event** itself. Within that object you have access to many useful properties and methods (functions that live inside an object) such as which mouse button or key was pressed, or information about the event's **target** - the DOM node that was clicked.
+The `e` parameter in that callback function contains an object that references the **event** itself. Within that object you have access to many useful properties and methods (functions that live inside an object) such as which mouse button or key was pressed, or information about the event's **target** - the DOM node that was clicked. There's nothing magical about `e` as a name or where it comes from. JavaScript knows the parameter is an event because an event listener callback takes an `Event` object by definition. When the callback is run, the event handler passes in its own reference to the event. You can read more about the event objects on [MDN's introduction to events](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events#event_objects).
 
 Try this:
 
