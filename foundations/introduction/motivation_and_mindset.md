@@ -123,7 +123,7 @@ Check out this article for [more information on breaks & productivity](https://s
 
 #### Digital distractions
 
-Digital distractions are email, Facebook notifications and time-wasting websites, such as social media. These distractions break your focus and make procrastination tempting. Therefore, they should be avoided during study time.
+Digital distractions are email, Facebook notifications, and time-wasting websites, such as social media. These distractions break your focus and make procrastination tempting. Therefore, they should be avoided during study time.
 
 **Solution:** Turn off notifications and add a blocker to your internet to limit your time on distracting sites.
 
