@@ -159,7 +159,7 @@ Go through the following articles to deepen your knowledge.
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What three keywords can you use to declare a new variable?](#variables)
+- [What three keywords can you use to declare new variables?](#variables)
 - [Which of the three variable declarations should you avoid and why?](#variables)
 - [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
 - [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
