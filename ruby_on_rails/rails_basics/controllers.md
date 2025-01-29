@@ -226,7 +226,7 @@ That's really just a taste of the Rails controller, but you should have a pretty
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.6.3 and 5.2. We'll cover sessions (section 5.1) more in the future so don't worry about them now.
+  1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.3 and section 6.2. We'll cover sessions (section 6.1) more in the future so don't worry about them now.
 
 </div>
 
