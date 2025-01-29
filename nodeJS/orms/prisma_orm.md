@@ -140,7 +140,7 @@ In the [Using PostgreSQL lesson](https://www.theodinproject.com/lessons/nodejs-u
    - [Raw SQL](https://www.prisma.io/docs/orm/prisma-client/using-raw-sql/typedsql)
    - [Prisma migrate getting started](https://www.prisma.io/docs/orm/prisma-migrate/getting-started)
    - [Prisma migrate mental model](https://www.prisma.io/docs/orm/prisma-migrate/understanding-prisma-migrate/mental-model)
-   - [Data migrations](https://www.prisma.io/docs/orm/prisma-migrate/workflows/data-migration)
+   - [Data migrations](https://www.prisma.io/docs/guides/data-migration-with-expand-and-contract)
 
 </div>
 
