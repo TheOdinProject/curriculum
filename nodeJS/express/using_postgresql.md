@@ -16,9 +16,9 @@ For brevity's sake, we'll refer to database as db from now on.
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Setting up a new db in PostgreSQL shell
-- Setting up and querying with node-postgres
-- Using a script to populate the db
+- Setting up a new db in PostgreSQL shell.
+- Setting up and querying with node-postgres.
+- Using a script to populate the db.
 
 ### Setting up an Express app
 
