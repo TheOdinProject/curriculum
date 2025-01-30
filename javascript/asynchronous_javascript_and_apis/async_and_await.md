@@ -125,7 +125,7 @@ Doing this can look messy, but it is a very easy way to handle errors without ap
 
 ### Practice
 
-Remember the Giphy API practice project? (If not, you should go back and complete the API lesson). We are going to convert the promise based code into `async/await` compatible code. Here's a refresher of the code we are starting with:
+Remember the Giphy API [practice project](https://www.theodinproject.com/lessons/node-path-javascript-working-with-apis#lets-do-this)? (If not, you should go back and complete the [API lesson](https://www.theodinproject.com/lessons/node-path-javascript-working-with-apis)). We are going to convert the promise based code into `async/await` compatible code. Here's a refresher of the code we are starting with:
 
 ```javascript
 <script>
