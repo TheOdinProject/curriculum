@@ -370,8 +370,8 @@ If you need to add a *unique* style for a *single* element, this method can work
 
     - `01-css-methods`
     - `02-class-id-selectors`
-    - `03-group-selectors`
-    - `04-chain-selectors`
+    - `03-grouping-selectors`
+    - `04-chaining-selectors`
     - `05-descendant-combinator`
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
