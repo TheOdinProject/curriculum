@@ -111,7 +111,7 @@ While this might work for outputs we know won't have special characters, like na
 
 ```ejs
 <div>
-  About Me: <%- description %>
+  About Me: <%- description %>!
 </div>
 
 // The client then inputs the following as their page's About Me:
