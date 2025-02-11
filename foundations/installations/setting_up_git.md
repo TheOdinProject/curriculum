@@ -203,7 +203,7 @@ ssh-keygen -t ed25519
 
 When it prompts you for a location to save the generated key, just push <kbd>Enter</kbd>.
 
-Next, it will ask you for a password. This password is used to encrypt the private SSH key that is stored on your computer and you will be required to enter this password everytime you use SSH with these keys. If you don't use a password, the private key will be readable by anyone who has access to your computer and will be able to modify all your GitHub repositories. Enter one if you wish, but it’s not required. If you choose not to use a password, just hit <kbd>Enter</kbd> without typing anything.
+Next, it will ask you for a password. This password is used to encrypt the private SSH key that is stored on your computer and you will be required to enter this password every time you use SSH with these keys. If you don't use a password, the private key will be readable by anyone who has access to your computer and will be able to modify all your GitHub repositories. Enter one if you wish, but it’s not required. If you choose not to use a password, just hit <kbd>Enter</kbd> without typing anything.
 
 #### Step 2.4: Link your SSH key with GitHub
 
