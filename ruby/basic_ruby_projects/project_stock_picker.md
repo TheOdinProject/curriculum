@@ -19,7 +19,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
   => [1,4]  # for a profit of $15 - $3 == $12
 ```
 
-**Quick Tips:**
+**Quick Tips:**c
 
 - You need to buy before you can sell
 - Pay attention to edge cases like when the lowest day is the last day or the highest day is the first day.
