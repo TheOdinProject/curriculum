@@ -66,7 +66,11 @@ This snippet is from the very first lesson in a tutorial that you'll be followin
 
 #### React frontends
 
-While you may have learned React (or any other frontend framework) before, either of your own volition or earlier in the path, it is not recommended to use it for this course right away. There are many topics that you must learn before you can combine these frameworks effectively. As you move forward through the Node course, you will learn more about how to integrate Node APIs with frontend frameworks. You should follow the course as it is written; deviating from the directions can make it more difficult than it needs to be. Your time spent learning those frameworks will not be wasted, don't worry!
+You will have previously been building frontends with React, handling things like routing and rendering client-side. For now, this course will focus on server-side concepts, so frontends will be handled with things like EJS templates.
+
+Later, after you've gotten more experience with these backend fundamentals, React will make a return as we combine the client-side things you've been doing before with the server-side things you'll be learning about here.
+
+You should follow the course as it is written; deviating from the directions can make it more difficult than it needs to be.
 
 </div>
 
