@@ -64,13 +64,9 @@ This snippet is from the very first lesson in a tutorial that you'll be followin
 
 <div class="lesson-note" markdown="1">
 
-#### React frontends
+#### Using React in the Node.js course
 
-You will have previously been building frontends with React, handling things like routing and rendering client-side. For now, this course will focus on server-side concepts, so frontends will be handled with things like EJS templates.
-
-Later, after you've gotten more experience with these backend fundamentals, React will make a return as we combine the client-side things you've been doing before with the server-side things you'll be learning about here.
-
-You should follow the course as it is written; deviating from the directions can make it more difficult than it needs to be.
+We will start by focusing on server-side concepts, so client-side things like React will be left for later when you start combining more complex frontends and backends together. You should follow the course as it is written; deviating from the directions can make it more difficult than it needs to be.
 
 </div>
 
