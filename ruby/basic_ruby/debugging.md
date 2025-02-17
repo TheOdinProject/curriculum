@@ -112,6 +112,7 @@ p []
 ```
 
 ### Debugging with binding.irb
+
 You're hopefully familiar with the IRB tool for running a Ruby [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) in your terminal. So far, you've probably just used it as a standalone tool to test simple code out, but you can also use it to get an interactive debugging experience with a running Ruby program. To do so, you just need to add a line with `binding.irb` in your script. Let's look at an example.
 
 To follow along with this, save the following code into a Ruby file (e.g., `script.rb`) and then run the file in your terminal (e.g., `ruby script.rb`)
@@ -197,8 +198,10 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1.  Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
-1.  Let's practice debugging by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
+
+1. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
+1. Let's practice debugging by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
+
 </div>
 
 ### Knowledge check
