@@ -11,7 +11,18 @@ body:
         Thanks for taking the time to make a suggestion! Please fill out these fields so your issue can be reviewed - giving the right amount of detail makes it much easier for maintainers to process.
 
         If you have any questions or are unsure about anything, don't be afraid to ask! The maintainers are here to help.
-
+  - type: checkboxes
+    id: contributing
+    attributes:
+      label: Checks
+      description: Please fill out the following checkboxes
+      options:
+        - label: This is not a duplicate of an existing issue (please have a look through our [open issues list](https://github.com/TheOdinProject/curriculum/issues) to make sure)
+          required: true
+        - label: I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md)
+          required: true
+        - label: Would you like to work on this issue?
+          required: false
   - type: textarea
     id: suggested-changes
     attributes:
@@ -25,6 +36,7 @@ body:
     attributes:
       label: Path
       description: Which path does your suggestion affect?
+      multiple: true
       options:
         - Foundations
         - Ruby / Rails
@@ -40,16 +52,7 @@ body:
       placeholder: ex. https://www.theodinproject.com/lessons/ruby-how-this-course-will-work
     validations:
       required: true
-  - type: checkboxes
-    id: contributing
-    attributes:
-      label: Checks
-      description: Please fill out the following checkboxes
-      options:
-        - label: I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md)
-          required: true
-        - label: Would you like to work on this issue?
-          required: false
+ 
   - type: input
     id: contact
     attributes:

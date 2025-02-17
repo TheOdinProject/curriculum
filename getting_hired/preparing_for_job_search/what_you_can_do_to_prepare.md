@@ -18,6 +18,8 @@ All along the way, you should keep building things.  The work you've done will b
 
 The portfolio is also important for another thing that isn't mentioned much -- social proof.  If you've been a part of larger or group projects, that's almost like showing that you've worked somewhere before.  It makes the employer comfortable that other people have worked with you before so they can too.
 
+Speaking of group projects, participating in the open source community is a great way to showcase your skills and collaborate with other developers. If you're looking for your first open source project to contribute to, start with TOP! We're always looking for ways to improve our curriculum, main site, and odin-bot v2, so check out our [repositories on GitHub](https://github.com/TheOdinProject) to get started. While you're at it, check out this [Dev.to article](https://dev.to/opensauced/how-i-got-hired-contributing-to-open-source-projects-546i) to learn you can leverage open source contributions in your job search.
+
 Your portfolio as a developer is GitHub.  You may have a personal website but GitHub is still the authoritative repository of your technical ability.  Ignore it at your peril.
 
 * [A Programmer's Portfolio by Jeff Atwood](https://blog.codinghorror.com/a-programmers-portfolio/)
@@ -30,7 +32,7 @@ Google yourself in an incognito window (to avoid Google's smart algorithm).  Wha
 
 The most important part of your web presence to fix up is your GitHub profile.  Make sure your projects are organized and their README files contain a description and a link to where it is live so anyone looking at the project can quickly see your brilliance.
 
-Next, try to be discoverable.  If we're trying to get in touch with you or find your work on the web, can I?  Do you have a personal website?  Are you on Twitter? You don't need to go crazy with social media, but sometimes just having enough of a profile to be a "real" person and give people the opportunity to get in touch with you can go a long way.  
+Next, try to be discoverable.  If we're trying to get in touch with you or find your work on the web, can I?  Do you have a personal website?  Are you on X (formerly known as Twitter)? You don't need to go crazy with social media, but sometimes just having enough of a profile to be a "real" person and give people the opportunity to get in touch with you can go a long way.  
 
 Use LinkedIn if you're not allergic to it.  Again, this is about getting your personal narrative out there in the way YOU choose and not relying on Google to get it right.  LinkedIn is fast replacing the resume anyway.  
 

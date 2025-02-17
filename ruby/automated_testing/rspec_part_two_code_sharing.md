@@ -302,7 +302,7 @@ Let variables on the other hand, can be used for any generic data that needs to 
 
 #### So when should you use let?
 
-The rule here is as simple as using `let` variables for anything other than creating the object under test since that should be reserved for `subject`.
+The rule here is to use `let` variables for anything other than creating the object under test since that should be reserved for `subject`.
 
 One common use case is using let variables for the arguments we pass to the instance created in the subject.
 
@@ -342,7 +342,7 @@ def retired?
 end
 ~~~
 
-This method looks simple enough, but there are 3 possible paths we need to cover with test cases:
+There are 3 possible paths we need to cover with test cases:
 
 1. When the users age is less than 65
 2. When the users age is equal to 65
@@ -389,7 +389,7 @@ The `context` method is just an alias for the `describe` method we have already 
 
 Whereas `describe` is used to represent example groups for *things* such as classes and methods. Context on the other hand, outlines and represents example groups around different states, For example the age state in our user class. Like when a user is 65, when a user is older than 65 and so on.
 
-In other words, It gives *context* about certain conditions in our test so we can test what happens when those conditions are in place. The simple rule of when to use context is when we want to test the outcomes our methods will produce under different conditions.
+In other words, It gives *context* about certain conditions in our test so we can test what happens when those conditions are in place. The rule of when to use context is when we want to test the outcomes our methods will produce under different conditions.
 
 Fill in the expectations for each of the test cases:
 

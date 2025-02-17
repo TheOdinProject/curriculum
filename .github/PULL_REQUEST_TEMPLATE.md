@@ -15,6 +15,8 @@ If this PR closes an open issue in this repo, replace the XXXXX below with the i
 If this PR closes an open issue in another TOP repo, replace the #XXXXX with the URL of the issue, e.g. Closes https://github.com/TheOdinProject/curriculum/issues/XXXXX
 
 If this PR does not close, but is related to another issue or PR, you can link it as above without the 'Closes' keyword, e.g. 'Related to #2013'.
+
+_Note:_ any pull request created for an issue that already has someone else assigned **will be closed without review**.
 -->
 Closes #XXXXX
 
@@ -24,7 +26,7 @@ Closes #XXXXX
 
 ## Pull Request Requirements
 <!-- Replace the whitespace between the square brackets with an 'x', e.g. [x]. After you create the PR, they will become checkboxes that you can click on. -->
--   [ ] I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md)
+-   [ ] I have thoroughly read and understand [The Odin Project curriculum contributing guide](https://github.com/TheOdinProject/curriculum/blob/main/CONTRIBUTING.md)
 -   [ ] The title of this PR follows the `location of change: brief description of change` format, e.g. `Intro to HTML and CSS lesson: Fix link text`
 -   [ ] The `Because` section summarizes the reason for this PR
 -   [ ] The `This PR` section has a bullet point list describing the changes in this PR

@@ -9,11 +9,15 @@ Put any job opening you find into your spreadsheet.
 
 #### Here's an example of how a spreadsheet to keep track of job openings might look like:
 
+<div style="overflow-x: auto;" markdown="block">
+
 | Job Title | Company | Website | Connections | Activity Log | Must Have 1 | Must Have 2 | Must Have 3 | Nice to Have 1 | Nice to Have 2 | Nice to Have 3 | Nice to Have 4 | Nice to Have 5 |
 |-----------|---------|---------|-------------|--------------|-------------|-------------|-------------|---------------|---------------|---------------|---------------|---------------|
 | Job 1     | Company A | www.companyA.com | John (LinkedIn) | Sent resume on 04/01/2023 | TRUE | TRUE | FALSE | 5 | 4 | 3 | 2 | 1 |
 | Job 2     | Company B | www.companyB.com | Jane (Referral) | Followed up on 04/02/2023 | TRUE | FALSE | TRUE | 3 | 5 | 2 | 4 | 1 |
 | Job 3     | Company C | www.companyC.com | N/A | Applied online on 04/03/2023 | FALSE | TRUE | TRUE | 4 | 2 | 5 | 1 | 3 |
+
+</div>
 
 
 

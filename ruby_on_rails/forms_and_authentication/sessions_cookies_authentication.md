@@ -4,7 +4,7 @@
 
 In this lesson you'll learn about sessions, browser cookies, and how authentication is built in Rails.  We'll cover both home-grown authentication and the most commonly used authentication gem, Devise.
 
-### Lesson Overview
+### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
@@ -21,13 +21,13 @@ This section contains a general overview of topics that you will learn in this l
 - Additional steps needed (on a high level) to actually "remember" a user after they've closed the browser.
 - The Devise gem and why it is useful.
 
-### Cookies, Sessions and Flashes
+### Cookies, sessions and flashes
 
-Cookies, Sessions and Flashes are three special objects that Rails gives you in which each behave a lot like hashes. They are used to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached.  In addition to different temporal concerns, they each solve slightly different use cases, covered below.
+Cookies, Sessions and Flashes are three special objects that Rails gives you in which each behave a lot like hashes. They are used to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached. In addition to different temporal concerns, they each solve slightly different use cases, covered below.
 
 ### Cookies
 
-Cookies are key-value data pairs that are stored in the user's browser until they reach their specified expiration date.  They can be used for pretty much anything, most commonly to "bookmark" the user's place in a web page if she gets disconnected or to store simple site display preferences.  You could also store shopping cart information or even passwords but that would be a bad idea -- you shouldn't store anything in regular browser cookies that needs to either be secure or persisted across browser sessions.  It's too easy for users to clear their cache and/or steal/manipulate unsecured cookies.
+Cookies are key-value data pairs that are stored in the user's browser until they reach their specified expiration date.  They can be used for pretty much anything, most commonly to "bookmark" the user's place in a web page if they get disconnected or to store simple site display preferences. You could also store shopping cart information or even passwords but that would be a bad idea -- you shouldn't store anything in regular browser cookies that needs to either be secure or persisted across browser sessions.  It's too easy for users to clear their cache and/or steal/manipulate unsecured cookies.
 
 <span id="using-cookies">To work with cookies, Rails gives you access to a special hash called `cookies`, where each key-value pair is stored as a separate cookie on the user's browser.  If you were to save `cookies[:hair-color] = "blonde"`, you'd be able to pull up your browser's developer tools and see a cookie on the user's browser that has a key of `hair-color` and a value of `blonde`.  Delete it using `cookies.delete(:hair-color)`.</span>
 
@@ -37,13 +37,13 @@ With each new request to your server, the browser will send along all the cookie
 
 Think about how websites keep track of how a user is logged in when the page reloads.  HTTP requests are stateless so how can you tell that a given request actually came from that particular user who is logged in?  This is why cookies are important -- they allow you to keep track of your user from one request to another until the cookie expires.
 
-A special case is when you want to keep track of data in the user's "session", which represents all the stuff your user does while you've chosen to "remember" her, typically until the browser window is closed.  In that case, every page she visits until the browser is closed will be part of the same session.
+A special case is when you want to keep track of data in the user's "session", which represents all the stuff your user does while you've chosen to "remember" them, typically until the browser window is closed.  In that case, every page they visit until the browser is closed will be part of the same session.
 
-To identify a user's session information, Rails stores a special secure and tamper-proof cookie on the user's browser that contains their entire session hash (look for it in your developer tools, usually under the “Application” section) and it expires when the browser is closed.  Whenever the user makes a request to your application, that request will also automatically include that session cookie (along with the other cookies) and you can use it to keep track of her logged-in state. This may all seem abstract now, but you'll get a chance to see it in action shortly.
+To identify a user's session information, Rails stores a special secure and tamper-proof cookie on the user's browser that contains their entire session hash (look for it in your developer tools, usually under the “Application” section) and it expires when the browser is closed.  Whenever the user makes a request to your application, that request will also automatically include that session cookie (along with the other cookies) and you can use it to keep track of their logged-in state. This may all seem abstract now, but you'll get a chance to see it in action shortly.
 
 Rails gives you access to the `session` hash in an almost identical way to the above-mentioned `cookies` hash.  Use the `session` variable in your views or controllers like so:
 
-~~~ruby
+```ruby
   # app/controllers/users_controller.rb
   ...
   # Set a session value
@@ -58,13 +58,13 @@ Rails gives you access to the `session` hash in an almost identical way to the a
   # Reset the entire session
   reset_session
   ...
-~~~
+```
 
 Why would you need both cookies and sessions?  They are similar but not the same.  `session` is an entire hash that gets put in the secure session cookie that expires when the user closes the browser.  If you look in your developer tools, the "expiration" of that cookie is "session".  Each value in the `cookies` hash gets stored as an individual cookie.
 
 So cookies and sessions are sort of like temporary free database tables for you to use that are unique to a given user and will last until you either manually delete them, they have reached their expiration date, or the session is ended (depending on what you specified).
 
-#### A Few Additional Notes on Sessions and Cookies
+#### A few additional notes on sessions and cookies
 
 - `session` and `cookies` aren't really hashes, Rails just pretends they are so it's easy for you to work with them.  You can still consider them as hashes just because they act very similarly to hashes.
 - You are size-limited in terms of how much you can store inside a session hash or browser cookie (~4kb).  It is sufficient for any "normal" usage, but don't go pretending either of these are actually substitutes for a database.
@@ -81,32 +81,41 @@ The flash is there to save the day!  Just store `flash[:success]` (or whatever y
 
 You still have to write view code to display the flash messages.  It's common to write a short view helper that will pin any available flash message(s) to the top of the browser.  You might also add a class to the message which will allow you to write some custom CSS, for instance turning `:success` messages green and `:error` messages red.
 
-~~~html
+```erb
   # app/views/layouts/application.html.erb
   ...
   <% flash.each do |name, message| %>
     <div class="<%= name %>"><%= message %></div>
   <% end %>
-~~~
+```
 
-### Controller Filters
+### Controller filters
 
 Before we talk about authentication, we need to cover controller filters.  The idea of these filters is to run some code in your controller at very specific times, for instance before any other code has been run.  That's important because, if a user is requesting to run an action they haven't been authorized for, you need to nip that request in the bud and send back the appropriate error/redirect before they're able to do anything else.  You're basically "filtering out" unauthorized requests.
 
 <span id="login-check">We do this through the use of a "before filter", which takes the name of the method we want to run:</span>
 
-~~~ruby
+```ruby
   # app/controllers/users_controller
   before_action :require_login
+  before_action :do_something_cool
   ...
   private
 
   def require_login
-    # do stuff to check if user is logged in
+    if current_user.logged_in?
+    # allow the user to perform the action they wanted
+    else
+      redirect_to login_path
+    end
   end
-~~~
 
-The `before_action` method takes the symbol of the method to run before anything else gets run in the controller.  If it returns `false` or `nil`, the request will not succeed.
+  def do_something_cool
+    # do stuff here
+  end
+```
+
+The `before_action` method takes the symbol of the method to run before anything else gets run in the controller. In the case that this callback renders or redirects, the request, as well as any callbacks that are scheduled to run after that callback, are also cancelled. So in the case above, if the user was redirected to the login page, the `before_action :do_something_cool` callback wouldn't have been executed either.
 
 You can specify to only apply the filter for specific actions by specifying the `only` option, e.g. `before_action :require_login, only: [:edit, :update]`.  The opposite applies by using the `:except` option... it will run for all actions except those specified.
 
@@ -120,17 +129,17 @@ The whole point of authentication is to make sure that the user is who they say 
 
 A related concept is authorization.  Yes, you may be signed in, but are you actually authorized to access what you're trying to access?  The typical example is the difference between a regular user and an admin user.  They both authenticate with the system but only the admin is authorized to make changes to certain things.
 
-Authentication and authorization go hand in hand -- you first authenticate someone so you know who they are and can check if they're authorized to view a page or perform an action.  When you build your app, you'll have a system of authentication to get the user signed in and to verify the user is who he says he is.  You authorize the user to do certain things (like delete stuff) based on which methods are protected by controller filters that require signin or elevated permissions (e.g. admin status).
+Authentication and authorization go hand in hand -- you first authenticate someone so you know who they are and can check if they're authorized to view a page or perform an action.  When you build your app, you'll have a system of authentication to get the user signed in and to verify the user is who they say they are.  You authorize the user to do certain things (like delete stuff) based on which methods are protected by controller filters that require signin or elevated permissions (e.g. admin status).
 
-### Basic and Digest Authentication
+### Basic and digest authentication
 
-<span id="http-authentication">If you're looking for a very casual and insecure way of authenticating people, HTTP Basic authentication can be used.  We won't cover the details here, but it basically involves submitting a username and password to a simple form and sending it (unencrypted) across the network.  You use the `#http_basic_authenticate_with` method to do so (see the reading for examples) and to restrict access to certain controllers without it.</span>
+<span id="http-authentication">If you're looking for a very casual and insecure way of authenticating people, HTTP Basic authentication can be used.  We won't cover the details here, but it basically involves submitting a username and password to a form and sending it (unencrypted) across the network.  You use the `#http_basic_authenticate_with` method to do so (see the reading for examples) and to restrict access to certain controllers without it.</span>
 
 For a slightly more secure (over HTTP) authentication system, use HTTP Digest Authentication.  We'll again not cover it here.  It relies on a `#before_action` running a method which calls upon `#authenticate_or_request_with_http_digest`, which takes a block that should return the "correct" password that should have been provided.
 
 The problem with both of these is that they hard code user names and passwords in your controller (or somewhere), so it's really just a band-aid solution.
 
-### Rolling Your Own Auth
+### Rolling your own auth
 
 If you want user logins, you'll need to go through a few extra steps. It's worth mentioning that you should never roll your own authentication system as there are already well battle tested solutions out there that you can use in your projects. One of these is Devise which we will explore later. But a few principles are useful to know.
 
@@ -142,9 +151,9 @@ This is much better because digests are one-way encryption. You can easily creat
 
 Rails doesn't make you do everything yourself.  It has a method called `#has_secure_password` which you just drop into your User model and it will add a lot of the functionality you're looking for.  To work with that handy method, you basically set up your User model to handle accepting `password` and `password_confirmation` attributes but you won't actually persist those to the database.  `has_secure_password` intercepts those values and converts them into the password digest for you.
 
-To initialize a new user session (when your user signs in), you'll need to create a new controller (usually `sessions_controller.rb`) and the corresponding routes for `:new`, `:create` and `:destroy`.  If the user passes the correct credentials (which we can check using the `#authenticate` method), you'll use the `session` variable to store their ID, which you can use to validate that they are who they say they are.  This is a simple way of authenticating the user that uses Rails' existing session infrastructure, but only lasts as long as the session does.
+To initialize a new user session (when your user signs in), you'll need to create a new controller (usually `sessions_controller.rb`) and the corresponding routes for `:new`, `:create` and `:destroy`.  If the user passes the correct credentials (which we can check using the `#authenticate` method), you'll use the `session` variable to store their ID, which you can use to validate that they are who they say they are. This is a way of authenticating the user that uses Rails' existing session infrastructure, but only lasts as long as the session does.
 
-If your user wants to be "remembered" (you've probably seen the "remember me" checkbox plenty of times on login forms), you need a way to remember them for longer than just the length of the browser session.  To do this, you'll need to create another column in your Users table for an encrypted `remember_token` (or whatever you'd like to call it).  You'll use that to store a random string for that user that will be used in the future to identify him/her.
+If your user wants to be "remembered" (you've probably seen the "remember me" checkbox plenty of times on login forms), you need a way to remember them for longer than just the length of the browser session.  To do this, you'll need to create another column in your Users table for an encrypted `remember_token` (or whatever you'd like to call it).  You'll use that to store a random string for that user that will be used in the future to identify them.
 
 You will drop the unencrypted token as a permanent cookie (using `cookies.permanent[:remember_token]`) into the user's browser.  That cookie will be submitted with each new request, so you can check with the encrypted version in the database to see who that user is whenever they make a request.  This is basically a more explicit and permanent version of what Rails is doing with sessions.  It's best practice to reset the token on each new signin if the user signs out.
 
@@ -157,7 +166,7 @@ A generic step-by-step overview:
 1. Don't forget any necessary validations for password and password confirmation length.
 1. Build a sessions controller (and corresponding routes) and use the `#authenticate` method to sign in the user when the user has submitted the proper credentials using the signin form.
 1. Allow the user to be remembered by creating a `remember_token` column in the Users table and saving that token as a permanent cookie in the user's browser.  Reset on each new signin.
-1. On each page load that requires authentication (and using a `#before_action` in the appropriate controller(s)), first check the user's cookie `remember_token` against the database to see if he's already signed in.  If not, redirect to the signin page.
+1. On each page load that requires authentication (and using a `#before_action` in the appropriate controller(s)), first check the user's cookie `remember_token` against the database to see if they're already signed in.  If not, redirect to the signin page.
 1. Make helper methods as necessary to let you do things like easily determine if a user is signed in or compare another user to the currently signed in user.
 1. Profit.
 
@@ -167,40 +176,40 @@ A generic step-by-step overview:
 
 In a short word, Devise prepackages for you a bunch of signin and signup forms and methods to help implement them.  It's made up of 10 modules (and you can choose which ones you want to use).  You install the `devise` gem and run the installer to drop their files into your application.  You'll also need to run a database migration to add their additional fields to your Users table.
 
-Configuration will be dependent on your use case.  Do you want to make the user confirm their signup using an email (the `Confirmable` module)?  Do you want to allow the user to reset his password (the `Recoverable` module)?
+Configuration will be dependent on your use case.  Do you want to make the user confirm their signup using an email (the `Confirmable` module)?  Do you want to allow the user to reset their password (the `Recoverable` module)?
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  
-1. Read [this article about how Rails sessions work](https://www.justinweiss.com/articles/how-rails-sessions-work/).
-2. Watch [this video to dive deep into sessions](https://www.youtube.com/watch?v=mqUbnZIY3OQ).
-3. Read sections 5 and 6 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#session).  Don't worry too much about the details of `session_store` configurations in 5.1 right now.
-4. Read section 8 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#filters) to understand controller filters.
-5. Read section 11 of the [Rails guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#http-authentications) to understand more about authentication.
-6. Glance over the [Devise Documentation](https://github.com/plataformatec/devise). Read about how to install it in your Rails App and what the different modules do.  You'll be using it with upcoming projects.
+
+1. Read this article about [how Rails sessions work](https://www.justinweiss.com/articles/how-rails-sessions-work/).
+1. Watch this video to [dive deep into sessions](https://www.youtube.com/watch?v=mqUbnZIY3OQ).
+1. Read sections 5 and 6 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#session).  Don't worry too much about the details of `session_store` configurations in 5.1 right now.
+1. Read section 7 of the [Rails Guides on Controllers](https://guides.rubyonrails.org/action_controller_overview.html#controller-callbacks) to understand controller filters.
+1. Read section 11 of the [Rails Guides (v7.2) on Controllers](https://guides.rubyonrails.org/v7.2/action_controller_overview.html#http-authentications) to understand more about authentication.
+1. Glance over the [Devise Documentation](https://github.com/plataformatec/devise). Read about how to install it in your Rails App and what the different modules do.  You'll be using it with upcoming projects.
 
 </div>
 
-### Conclusion
+#### Conclusion
 
 Authentication can appear to be a fairly complicated topic -- there are a lot of moving parts.  At it's core, though, you're just checking whether the person making a request is actually a signed in user who has the permissions to do so, all by using browser cookies in some form or another.
 
 This lesson should have given you some appreciation for how complicated login systems can potentially get but it should also have removed the veil from the websites you've visited countless times.  Auth isn't rocket science and you'll shortly be building it into your own applications.
 
-### Knowledge Check
+### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#using-cookies">How would you set a cookie for hair color on a user's browser?</a>
-- <a class="knowledge-check-link" href="#login-check">How would you require a user is logged in _before_ running some code?</a>
-- <a class="knowledge-check-link" href="#http-authentication">Would you use Basic HTTP Authentication for authenticating users over alternatives such as the Devise gem?</a>
-- <a class="knowledge-check-link" href="#flash-message">How would you flash an error message on a user's browser if they put an invalid username?</a>
-- <a class="knowledge-check-link" href="#using-devise">What are some reasons you would want to use the Devise gem for user authentication over building your own authorization system?</a>
+- [How would you set a cookie for hair color on a user's browser?](#using-cookies)
+- [How would you require a user is logged in *before* running some code?](#login-check)
+- [Would you use Basic HTTP Authentication for authenticating users over alternatives such as the Devise gem?](#http-authentication)
+- [How would you flash an error message on a user's browser if they put an invalid username?](#flash-message)
+- [What are some reasons you would want to use the Devise gem for user authentication over building your own authorization system?](#using-devise)
 
-### Additional Resources
+### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Authentication in Rails 3.1 from [Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than we can explain it.
+- [Authentication in Rails 3.1 from Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than we can explain it.
 - [All About Cookies (.org)](http://www.allaboutcookies.org/)
