@@ -164,11 +164,11 @@ So our `#create` action above can now be filled out a bit more:
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-  Prior to Rails 8, strong parameters were handled differently. Instead of the `#expect` method, you had to call `#permit` on the top level key name followed by calling `#require` on the list of attributes. For example:
+  Prior to Rails 8, strong parameters were handled differently. Instead of the `#expect` method, you had to call `#require` on the top level key name followed by calling `#permit` on the list of attributes. For example:
 
   ```ruby
   def allowed_post_params
-    params.permit(:post).require(:title, :body, :author_id)
+    params.require(:post).permit(:title, :body, :author_id)
   end
   ```
 
