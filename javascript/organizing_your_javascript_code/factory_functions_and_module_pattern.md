@@ -202,6 +202,14 @@ Concerning factory functions, a private variable or function uses closures to cr
 
 In this case, we did not need control of the `reputation` variable itself. To avoid foot guns, like accidentally setting the reputation to `-18000`, we expose the necessary details in the form of `getReputation` and `giveReputation`.
 
+<div class="lesson-note" markdown="1" >
+
+#### Constructors and closure
+
+Note that you could technically also use closure in constructors, by defining the methods to access a "private property" inside the constructor, instead of on the prototype. But that would make them non-inheritable, which defies the purpose of constructors.
+
+</div>
+
 ### Prototypal inheritance with factories
 
 In the lesson with constructors, we looked deeply into the concept of prototype and inheritance, and how to give our objects access to the properties of another. With factory functions too, there are easy ways to do that. Take another hypothetical scenario into consideration. We need to extend the `User` factory into a `Player` factory that needs to control some more metrics - there are some ways to do that:
