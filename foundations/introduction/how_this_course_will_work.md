@@ -42,6 +42,30 @@ The skills you will gain from completing The Odin Project will be the foundation
 
 The skills you learn here are transferable to various contexts. Once you know the *idea* and that it is *possible* to do something, actually finding out how to do that thing becomes significantly easier and is simply a Google search away most of the times.
 
+### A note about AI tools
+
+In today's rapidly evolving tech landscape, AI tools like ChatGPT, GitHub Copilot, and Claude have become powerful allies in the development process. While The Odin Project encourages embracing modern tools, it's crucial to understand how to use AI effectively in your learning journey.
+
+**Benefits of AI tools:**
+- Getting unstuck by having concepts explained in different ways
+- Understanding error messages and debugging approaches
+- Exploring alternative solutions to problems you've already solved
+- Learning best practices and code organization patterns
+
+**Guidelines for effective AI usage:**
+1. **Solve first, ask later**: Always attempt to solve problems on your own first. Use AI tools to understand or improve your solution *after* you've made a genuine attempt.
+2. **Understanding over copying**: When getting help from AI, focus on understanding the explanation rather than just copying code. Ask follow-up questions until you truly grasp the concept.
+3. **Use AI as a mentor**: Instead of asking for complete solutions, use AI to break down complex problems, understand error messages, or review your code for improvements.
+4. **Verify and validate**: Always verify AI-suggested solutions. AI can make mistakes or suggest outdated approaches. Cross-reference with documentation and test thoroughly.
+
+**What to avoid:**
+- Asking AI to solve project assignments without attempting them yourself
+- Blindly copying code without understanding how it works
+- Relying on AI as your primary learning resource
+- Using AI to skip fundamental learning steps
+
+Remember, AI tools are meant to enhance your learning, not replace it. The goal of The Odin Project remains the same: to build your problem-solving skills and understanding of core programming concepts. AI should complement your learning journey, not shortcut it.
+
 ### A note about human language
 
 The Odin Project attracts people from all over the world who aspire to learn how to become developers. Please be aware that this curriculum is written in English and maintained by English speakers who are not able or expected to translate it for you. As you develop into a programmer, you will find that the world you are entering into is firmly rooted in the English language. This means that the syntax of your programming language, the documentation that teaches you how to use it, and the majority of the people in the community are all expecting to communicate with you in English.
