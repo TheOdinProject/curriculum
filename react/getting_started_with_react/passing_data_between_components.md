@@ -241,13 +241,13 @@ export default function App() {
 
   return (
     <div>
-      <Button handleClick={() => handleButtonClick('www.theodinproject.com')} />
+      <Button handleClick={() => handleButtonClick('https://www.theodinproject.com')} />
     </div>
   );
 }
 ```
 
-When supplying an argument to the function we can't just write `onClick={handleClick('www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the argument. Like the previous example, this is to prevent the function being called during the render.
+When supplying an argument to the function we can't just write `onClick={handleClick('https://www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the argument. Like the previous example, this is to prevent the function being called during the render.
 
 <div class="lesson-note" markdown="1" >
 
