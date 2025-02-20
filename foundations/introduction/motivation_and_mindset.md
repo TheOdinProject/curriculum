@@ -180,13 +180,9 @@ Learning any new skill is a journey full of speed bumps and obstacles to overcom
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is the key difference between a fixed mindset and a growth mindset when encountering programming challenges?](#growth-mindset)
-
 - [What are the two modes your mind switches between during the learning process, and how do they differ?](#the-learning-process)
-
 - [When you're stuck on a programming problem, what three main strategies does the curriculum recommend trying?](#what-to-do-when-youre-stuck)
-
 - [Why does the curriculum recommend against setting strict deadlines for completing The Odin Project?](#managing-your-study-time)
-
 - [How does Angela Duckworth define "grit" in her TED talk, and why is it important for learning to code?](#assignment)
 
 ### Additional resources
