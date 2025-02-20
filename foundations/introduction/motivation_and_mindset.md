@@ -194,7 +194,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [How does Angela Duckworth define "grit" in her TED talk, and why is it important for learning to code?](#assignment)
 
-### Additional resources
+#### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
