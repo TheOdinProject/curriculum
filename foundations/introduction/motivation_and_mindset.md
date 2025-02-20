@@ -8,7 +8,7 @@ So before we get into the meat of the curriculum, we'll cover the following aspe
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Recognise sensible mindsets that promote healthy learning.
+- Recognize sensible mindsets that promote healthy learning.
 - Understand helpful ways to approach learning and struggling.
 - Things to avoid along your learning journey with TOP.
 
