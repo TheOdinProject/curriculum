@@ -4,7 +4,9 @@ Learning to code is incredibly rewarding but can also be difficult and frustrati
 
 So before we get into the meat of the curriculum, we'll cover the following aspects to help you get the most out of The Odin Project: factors that will help you succeed in learning to code and the pitfalls that you should try to avoid.
 
-### Lesson Overview
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Recognise sensible mindsets that promote healthy learning.
 - Understand helpful ways to approach learning and struggling.
