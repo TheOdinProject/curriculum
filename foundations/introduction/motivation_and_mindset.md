@@ -166,8 +166,7 @@ Learning any new skill is a journey full of speed bumps and obstacles to overcom
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Once you join the TOP Discord server, give your motivation a bit of a boost! Read about the success of others in the
-   [TOP Discord server's Success Stories forum](https://discord.com/channels/505093832157691914/1089990025162260570).
+1. Once you join the TOP Discord server, give your motivation a bit of a boost! Read about the success of others in the [TOP Discord server's Success Stories forum](https://discord.com/channels/505093832157691914/1089990025162260570).
 1. To learn more about the growth mindset, go through the following resources:
 
    - [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
