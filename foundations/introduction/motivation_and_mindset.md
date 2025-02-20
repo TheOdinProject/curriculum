@@ -180,7 +180,7 @@ Learning any new skill is a journey full of speed bumps and obstacles to overcom
 
 </div>
 
-### Knowledge Check
+#### Knowledge Check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
