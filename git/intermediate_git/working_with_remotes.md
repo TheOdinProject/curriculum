@@ -11,6 +11,20 @@ This section contains a general overview of topics that you will learn in this l
 - Dangers of history-changing operations.
 - Best practices of history-changing operations.
 
+### Workflow Diagram
+
+Here is a visual representation of the workflow with Git and GitHub and illustrates how changes flow between repositories during collaboration.
+
+```mermaid
+graph TD;
+    A[Upstream Repository: TheOdinProject/curriculum] -->|git fetch upstream/main| B[Local Repository: main];
+    B -->|git checkout your_branch_name| C[Local Repository: your_branch_name];
+    C -->|git push origin your_branch_name| D[Your Fork on GitHub];
+    D -->|Create Pull Request to Upstream| E[Pull Request on GitHub];
+    E -->|Maintainers Merge PR to Upstream| A[Upstream Repository: TheOdinProject/curriculum];
+
+```
+
 #### git push -\-force
 
 Let's say you're no longer working on a project all by yourself, but with someone else. You want to push a branch you've made changes on to a remote repository. Normally, Git will only let you push your changes if you've already updated your local branch with the latest commits from this remote.
