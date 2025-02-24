@@ -11,7 +11,7 @@ This section contains a general overview of topics that you will learn in this l
 - Dangers of history-changing operations.
 - Best practices of history-changing operations.
 
-### Workflow Diagram
+### Workflow diagram
 
 Here is a visual representation of the workflow with Git and GitHub and illustrates how changes flow between repositories during collaboration.
 
