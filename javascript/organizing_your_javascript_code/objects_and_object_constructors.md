@@ -262,9 +262,7 @@ Note:
 
 #### Recommended method for prototypal inheritance
 
-Now, how do you utilize Prototypal Inheritance? What do you need to do to use it? Just as we use `Object.getPrototypeOf()` to 'get' or view the `prototype` of an object,
-we can use `Object.setPrototypeOf()` to 'set' or mutate it. Basically, using `Object.setPrototypeOf()` to set a prototype is same as setting the prototype using objects's `[[Prototype]]` or `__proto__` property.
-Let's see how it works by adding a `Person` Object Constructor to the `Player` example, and making `Player` inherit from `Person`!
+Now, how do you utilize Prototypal Inheritance? What do you need to do to use it? Just as we use `Object.getPrototypeOf()` to 'get' or view the `prototype` of an object, we can use `Object.setPrototypeOf()` to 'set' or mutate it. Basically, using `Object.setPrototypeOf()` to set a prototype is same as setting the prototype using objects's `[[Prototype]]` or `__proto__` property. Let's see how it works by adding a `Person` Object Constructor to the `Player` example, and making `Player` inherit from `Person`!
 
 ```javascript
 function Person(name) {
@@ -300,8 +298,7 @@ player1.getMarker(); // My marker is 'X'
 player2.getMarker(); // My marker is 'O'
 ```
 
-From the code, we can see that we've defined a `Person` from whom a `Player` inherits properties and functions, and that the created `Player` objects are able to access both the `.sayName` and the `.getMarker` functions, in spite of them being defined on two separate `prototype` objects! This is enabled by the use of the `Object.setPrototypeOf()` function. It takes two arguments - the first is the one which inherits and the second argument is the one which you want the first argument to inherit from. This ensures that the created `Player` objects are able to access the `.sayName` and `.getMarker` functions through their prototype chain.
-The same can also be achieved using:
+From the code, we can see that we've defined a `Person` from whom a `Player` inherits properties and functions, and that the created `Player` objects are able to access both the `.sayName` and the `.getMarker` functions, in spite of them being defined on two separate `prototype` objects! This is enabled by the use of the `Object.setPrototypeOf()` function. It takes two arguments - the first is the one which inherits and the second argument is the one which you want the first argument to inherit from. This ensures that the created `Player` objects are able to access the `.sayName` and `.getMarker` functions through their prototype chain. The same can also be achieved using:
 
 ```javascript
 Player.prototype.__proto__ = Person.prototype
@@ -317,9 +314,7 @@ A warning... this doesn't work:
 Player.prototype = Person.prototype;
 ```
 
-because both `Player.prototype` and `Person.prototype` become the exact same object in memory. This means any changes made to `Player.prototype` will also affect `Person.prototype`, which is not the intended behavior.
-Instead, we should set `Player.prototype` to inherit from `Person.prototype`, rather than making them the same object.
-Consider one more example:
+because both `Player.prototype` and `Person.prototype` become the exact same object in memory. This means any changes made to `Player.prototype` will also affect `Person.prototype`, which is not the intended behavior. Instead, we should set `Player.prototype` to inherit from `Person.prototype`, rather than making them the same object. Consider one more example:
 
 ```javascript
 function Person(name) {
@@ -368,7 +363,7 @@ If we had used `Object.setPrototypeOf()` in this example, then we could safely e
 1. You might have noticed us using the `this` keyword in object constructors and prototype methods in the examples above.
 
    1. [JavaScript Tutorial's article on the `this` keyword](https://www.javascripttutorial.net/javascript-this/) covers how `this` changes in various situations. Pay special attention to the pitfalls mentioned in each section.
-1. Read the article [[[Prototype]] vs **proto** vs .prototype in JavaScript](https://medium.com/@eamonocallaghan/prototype-vs-proto-vs-prototype-in-javascript-6758cadcbae8)
+1. Read the article [`[[Prototype]]` vs `__proto__` vs `.prototype` in JavaScript](https://medium.com/@eamonocallaghan/prototype-vs-proto-vs-prototype-in-javascript-6758cadcbae8)
 
 </div>
 
