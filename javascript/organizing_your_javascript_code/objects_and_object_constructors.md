@@ -262,7 +262,9 @@ Note:
 
 #### Recommended method for prototypal inheritance
 
-Now, how do you utilize Prototypal Inheritance? What do you need to do to use it? Just as we use `Object.getPrototypeOf()` to 'get' or view the `prototype` of an object, we can use `Object.setPrototypeOf()` to 'set' or mutate it. Let's see how it works by adding a `Person` Object Constructor to the `Player` example, and making `Player` inherit from `Person`!
+Now, how do you utilize Prototypal Inheritance? What do you need to do to use it? Just as we use `Object.getPrototypeOf()` to 'get' or view the `prototype` of an object, 
+we can use `Object.setPrototypeOf()` to 'set' or mutate it. Basically, using `Object.setPrototypeOf()` to set a prototype is same as setting the prototype using objects's `[[Prototype]]` or `__proto__` property.
+Let's see how it works by adding a `Person` Object Constructor to the `Player` example, and making `Player` inherit from `Person`!
 
 ```javascript
 function Person(name) {
@@ -299,6 +301,10 @@ player2.getMarker(); // My marker is 'O'
 ```
 
 From the code, we can see that we've defined a `Person` from whom a `Player` inherits properties and functions, and that the created `Player` objects are able to access both the `.sayName` and the `.getMarker` functions, in spite of them being defined on two separate `prototype` objects! This is enabled by the use of the `Object.setPrototypeOf()` function. It takes two arguments - the first is the one which inherits and the second argument is the one which you want the first argument to inherit from. This ensures that the created `Player` objects are able to access the `.sayName` and `.getMarker` functions through their prototype chain.
+The same can also be achieved using: 
+```javascript
+Player.prototype.__proto__ = Person.prototype
+```
 
 Note:
 
@@ -310,7 +316,9 @@ A warning... this doesn't work:
 Player.prototype = Person.prototype;
 ```
 
-because it will set `Player.prototype` to directly refer to `Person.prototype` (i.e. not a copy), which could cause problems if you want to edit something in the future. Consider one more example:
+because both `Player.prototype` and `Person.prototype` become the exact same object in memory. This means any changes made to `Player.prototype` will also affect `Person.prototype`, which is not the intended behavior.
+Instead, we should set `Player.prototype` to inherit from `Person.prototype`, rather than making them the same object.
+Consider one more example:
 
 ```javascript
 function Person(name) {
