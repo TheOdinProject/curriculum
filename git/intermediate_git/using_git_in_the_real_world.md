@@ -78,4 +78,4 @@ This section contains helpful links to related content. It isn't required, so co
 - Seth Robertson's [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/)
 - Learn about [Git Branching from Peter Cottle](http://pcottle.github.io/learnGitBranching/) using his interactive branching tutorial.
 - [Dangit, Git!?!](https://dangitgit.com/) is a quick reference to get you out of common Git problems.
-- This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of many options Git provides for undoing various mistakes.
+- This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of the many options Git provides for undoing various mistakes.
