@@ -185,17 +185,13 @@ Even though some articles use Jest and the Enzyme testing library, the concepts 
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Introduction](#introduction)
-- [Lesson overview](#lesson-overview)
-- [Setting up a React testing environment](#setting-up-a-react-testing-environment)
-- [Our first query](#our-first-query)
-  - [Vitest globals and ESLint](#vitest-globals-and-eslint)
-- [Simulating user events](#simulating-user-events)
-- [What are snapshots?](#what-are-snapshots)
-- [Assignment](#assignment)
-  - [Focus on the concepts](#focus-on-the-concepts)
-- [Knowledge check](#knowledge-check)
-- [Additional resources](#additional-resources)
+- [What packages are required for React testing?](#setting-up-a-react-testing-environment)
+- [What is the significance of the user-event package?](#user-event)
+- [What does the `render` method do?](https://testing-library.com/docs/react-testing-library/api/#render)
+- [What is the most preferred method for querying?](#by-role-methods)
+- [How would you test for a click event with `userEvent`?](#simulating-user-events)
+- [What is the advantage of snapshot tests?](#advantage-snapshot-tests)
+- [What are the disadvantages of snapshot tests?](#disadvantage-snapshot-tests)
 
 ### Additional resources
 
