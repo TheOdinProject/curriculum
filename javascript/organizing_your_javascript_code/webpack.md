@@ -410,7 +410,13 @@ Firstly, we add a [source map](https://webpack.js.org/configuration/devtool/) by
 
 Secondly, by default, `webpack-dev-server` will only auto-restart when it detects any changes to files we import into our JavaScript bundle, so our HTML template will be ignored! All we need to do is add it to the dev server's array of watched files - nice and simple!
 
-Once set up, `npx webpack serve` will host our web page on `http://localhost:8080/`, which we can open in our browser and start working!
+Once set up, we can start up the dev server using the following command:
+
+```bash
+npx webpack serve
+```
+
+Our site will then be available via [http://localhost:8080/](http://localhost:8080/) by default.
 
 <div class="lesson-note" markdown="1">
 
