@@ -70,7 +70,7 @@ Similar to Netlify, Vercel also offers a few ways to deploy, but we will be impo
 
 1. Yes, push your React application to GitHub.
 1. Create a new Cloudflare account and log into it.
-1. At the top of the page click "+ Add" > "Pages".
+1. At the top of the page click the blue button "+" or "Add" and navigate to "Pages" in the dropdown.
 1. On the "Pages" tab click "Connect to Git".
 1. Connect to GitHub and select your GitHub repository.
 1. Under "Set up builds and deployments", set `npm run build` as the build command, and `dist` as the build output directory.
