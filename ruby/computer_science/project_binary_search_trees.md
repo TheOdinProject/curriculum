@@ -38,7 +38,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 1. Write a `#level_order` method which accepts a block. This method should traverse the tree in breadth-first level order and yield each node to the provided block. This method can be implemented using either iteration or recursion (try implementing both!). The method should return an array of values if no block is given. **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to traverse, and to add new ones to the list ([video on level order traversal](https://www.youtube.com/watch?v=86g8jAQug04)).
 
-1. Write `#inorder`, `#preorder`, and `#postorder` methods that accepts a block. Each method should traverse the tree in their respective depth-first order and yield each node to the provided block. The methods should return an array of values if no block is given.
+1. Write `#inorder`, `#preorder`, and `#postorder` methods that accepts a block. Each method should traverse the tree in their respective depth-first order and yield each node to the provided block. The methods should return an array of values if no block is given. The video [Binary Tree Traversal: Preorder, Inorder, Postorder](https://www.youtube.com/watch?v=gm8DUJJhmY4) explains the topic clearly.
 
 1. Write a `#height` method that accepts a node and returns its height. Height is defined as the number of edges in longest path from a given node to a leaf node.
 
