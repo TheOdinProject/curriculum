@@ -263,7 +263,7 @@ There are three different ways you could be dealing with local image files:
    npm install --save-dev html-loader
    ```
 
-   Then, add the following object to the `modules.rules` array within `webpack.config.js`:
+   Then, add the following object to the `module.rules` array within `webpack.config.js`:
 
    ```javascript
    {
@@ -274,7 +274,7 @@ There are three different ways you could be dealing with local image files:
 
 1. **Images we use in our JavaScript, where we will need to import the files**
 
-   If we need to use a local image file in our JavaScript (such as when manipulating the DOM to create or edit `img` elements and set their `src` attribute), we need to import the images into our JavaScript module. Since images aren't JavaScript, we need to tell Webpack that these files will be assets by adding an `asset/resource` rule. No need to install anything here. Just add the following object to the `modules.rules` array within `webpack.config.js`:
+   If we need to use a local image file in our JavaScript (such as when manipulating the DOM to create or edit `img` elements and set their `src` attribute), we need to import the images into our JavaScript module. Since images aren't JavaScript, we need to tell Webpack that these files will be assets by adding an `asset/resource` rule. No need to install anything here. Just add the following object to the `module.rules` array within `webpack.config.js`:
 
    ```javascript
    {
