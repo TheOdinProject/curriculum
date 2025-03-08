@@ -19,6 +19,7 @@ When talking about API keys and security you'll often hear "Never trust the clie
 1. Write the functions that *process* the JSON data you're getting from the API and return an object with only the data you require for your app.
 1. Set up a form that will let users input their location and will fetch the weather info (still just `console.log()` it).
 1. Display the information on your webpage!
+   - While you don't have to, if you wish to display weather icons then there can be a lot of them to import, so have a look at the [dynamic import() function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import). Unlike plain template strings without an import, [Webpack can read dynamic imports](https://webpack.js.org/api/module-methods/#dynamic-expressions-in-import) and still bundle all the relevant assets.
 1. Add any styling you like!
 1. Optional: add a 'loading' component that displays from the time the form is submitted until the information comes back from the API. Use DevTools to simulate network speeds.
 1. Push that baby to github and share your solution below!
