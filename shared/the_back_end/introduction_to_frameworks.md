@@ -27,8 +27,8 @@ This section contains a general overview of topics that you will learn in this l
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What problems do frameworks solve?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks#what_can_a_web_framework_do_for_you)
-- [Name some popular front-end and back-end frameworks.](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0)
-- [Describe the process of choosing a framework.](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks#how_to_select_a_web_framework)
+- [What are some popular web frameworks?](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0)
+- [How might someone choose what framework to use?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks#how_to_select_a_web_framework)
 
 ### Additional resources
 
