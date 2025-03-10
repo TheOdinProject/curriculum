@@ -12,7 +12,7 @@ Some of the most popular server-side languages are PHP, C#, Ruby, Python and Jav
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is the difference between front-end and back-end development?
+- The difference between front-end and back-end development.
 
 ### Assignment
 
@@ -30,7 +30,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is back-end development?](https://techterms.com/definition/backend)
 - [How many parts does the backend consist of?](https://www.codecademy.com/articles/back-end-architecture/)
-- [Name each part of the backend.](https://www.codecademy.com/articles/back-end-architecture)
+- [What are each of the parts of the backend?](https://www.codecademy.com/articles/back-end-architecture)
 - [Where does the backend store its data?](https://www.codecademy.com/articles/back-end-architecture)
 
 ### Additional resources
