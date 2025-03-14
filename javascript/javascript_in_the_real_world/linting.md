@@ -19,13 +19,9 @@ Code style is important! Having a consistent set of style rules for things such 
 
 ### Linting
 
-The style guides we mentioned above are full of really helpful advice for formatting, organizing and composing your code. But there are a *lot* of rules - it can be difficult to internalize them all. **Linters** are tools that will scan your code with a set of style rules and will report any errors to you that they find. In some cases, they can even auto-fix the errors!
+The style guides we mentioned above are full of really helpful advice for formatting, organizing and composing your code. But there are a *lot* of rules - it can be difficult to internalize them all. **Linters** are tools that will scan your code with a set of style rules and will report any errors to you that they find. In some cases, they can even auto-fix the errors! There are many linters that exist for JavaScript but by far the most common one is [ESLint](https://eslint.org/).
 
-There are multiple options for linting your JavaScript, but the most popular (and most common in the industry) is [ESLint](https://eslint.org/). Getting it installed and the initial set-up is straightforward.
-
-1. [ESLint's official 'Getting Started' page](https://eslint.org/docs/user-guide/getting-started) is a good place to start. It covers installation and basic setup. The basic way to use this tool is to run the `eslint` command in your terminal with a specific file.
-    - You may also want to look at the [docs on configuring ESLint](https://eslint.org/docs/latest/use/configure/) for a list of options that you can change.
-1. There is an [ESLint extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) with which you can get automatic lint highlighting for your files as you write, without you needing to rerun the `eslint` command every time. If your open workspace also contains an ESLint configuration file at the top level, the extension will automatically use those rules for that project.
+ESLint is installed as a dev dependency in your project which will allow you to run checks on any of your files via the command line. [ESLint's official "Getting Started" page](https://eslint.org/docs/user-guide/getting-started) is a good place to start which covers installation and basic configuration. You will also want to look at the [docs on configuring ESLint](https://eslint.org/docs/latest/use/configure/) for a list of options that you can change, such as including or excluding certain folders or files, and details about specific rules.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
@@ -45,10 +41,9 @@ Formatters are *awesome*. They are similar to linters, but serve a slightly diff
 
 As usual, there are multiple formatters out there. [Prettier](https://prettier.io/) is a very popular choice that is highly opinionated. Besides a few options, most of its formatting decisions are not customizable. Since many of these decisions have been made for you, this reduces the time spent deciding on things like indentation size or spacing, and more time on the problems that actually matter.
 
-1. Read [Prettier's installation guide](https://prettier.io/docs/en/install.html) for installing it as a dependency in your projects.
-1. Prettier also has [instructions for setting up and configuring the VSCode Prettier extension](https://github.com/prettier/prettier-vscode). This extension allows you to format with Prettier via Visual Studio Code commands or keybinds instead of commands in the terminal.
+Like with ESLint, Prettier is installed as a dev dependency in your project, so read [Prettier's installation guide](https://prettier.io/docs/en/install.html) for instructions on how to do this. While it normally runs with its default rules, you can also change any of its settings in a [Prettier configuration file](https://prettier.io/docs/configuration).
 
-Using Prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because prettier will take care of those details for you.
+Using Prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because it will take care of those details for you.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -62,7 +57,7 @@ Editor extensions can then be used to make linting and formatting more convenien
 
 </div>
 
-### Using ESLint and Prettier
+### Using ESLint and Prettier together
 
 We **highly** recommend that you install ESlint and Prettier and use them for all future projects. It will make your code easier to read, both for yourself and for anyone else looking at it.
 
