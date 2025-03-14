@@ -45,7 +45,7 @@ Like with ESLint, Prettier is installed as a dev dependency in your project, so 
 
 Using Prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because it will take care of those details for you.
 
-#### IDE extensions for linting and formatting
+### IDE extensions for linting and formatting
 
 Linters and formatters are typically packages you install in a project and use via the command line. However, many popular tools also have IDE extensions, and ESLint and Prettier both have extensions for Visual Studio Code that can make linting and formatting much more convenient on your machine.
 
