@@ -45,17 +45,15 @@ Like with ESLint, Prettier is installed as a dev dependency in your project, so 
 
 Using Prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because it will take care of those details for you.
 
-<div class="lesson-note lesson-note--tip" markdown="1">
+#### IDE extensions for linting and formatting
 
-#### Extensions and project dependencies
+Linters and formatters are typically packages you install in a project and use via the command line. However, many popular tools also have IDE extensions, and ESLint and Prettier both have extensions for Visual Studio Code that can make linting and formatting much more convenient on your machine.
 
-While the Visual Studio Code extensions for ESLint and Prettier are really convenient, they are local to your machine only. It's good practice to install any linters and formatters as dev dependencies in your projects as well.
+For example, when installed, the [ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) can provide linter warnings and errors as colour-coded squiggly lines directly in the open file and even give you details about the specific rule(s) broken, all without you having to run ESLint in the command line. The [Prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) allows you to format a file with an IDE command or custom keyboard shortcut, again without having to run a command in the terminal.
 
-At some point, you may need to work on code with multiple people, and others may not use all of the same tools as you. Therefore, including linters and formatters as dependencies in your project, as well as any rule configuration files, allows everyone access to the same linting and formatting tools and rules.
+It is important that you still have the packages installed as dependencies in your project along any configuration files. The extensions can have fallback rules set, but if they detect the respective package and configuration file in your project, they will use those rules and the package version installed. That way, projects always hold the source of truth for what linting and formatting rules should be applied, and should you ever work on other projects, you're less likely to introduce unwanted style changes from your local settings.
 
-Editor extensions can then be used to make linting and formatting more convenient for you. The ESLint and Prettier extensions will recognise and use any rule files in your project. If your open workspace has ESLint installed as a dependency, then the ESLint extension can automatically detect this to apply the right setting for whether to use the flat config or legacy eslintrc format.
-
-</div>
+In summary, the extensions are great tools for convenience but they should not be used as the source of truth for a project's linting or formatting setup.
 
 ### Using ESLint and Prettier together
 
@@ -91,7 +89,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Which problems can linting prevent?](https://hackernoon.com/how-linting-and-eslint-improve-code-quality-fa83d2469efe)
 - [What are some of the benefits of using a formatter?](#formatters)
 - [What is Prettier?](https://www.youtube.com/watch?v=hkfBvpEfWdA)
-- [Why should you install linters and/or formatters as dev dependencies in your project?](#extensions-and-project-dependencies)
+- [Why should you install linters and/or formatters as dev dependencies in your project?](#ide-extensions-for-linting-and-formatting)
 
 ### Additional resources
 
