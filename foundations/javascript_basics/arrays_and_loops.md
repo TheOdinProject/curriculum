@@ -17,13 +17,14 @@ This section contains a general overview of topics that you will learn in this l
 
 Strings and numbers may be our building blocks, but as your scripts get more complex, you're going to need a way to deal with large quantities of them. Luckily, JavaScript has a couple of data types that are used for just that. An Array is an ordered collection of items (Strings, numbers, or other things).
 
-1. Go through [JavaScript Arrays from W3Schools](https://www.w3schools.com/js/js_arrays.asp).
-1. [JavaScript Array Methods](https://www.w3schools.com/js/js_array_methods.asp) covers some of the most useful built-in array methods. These fundamentals are something you'll use every day, so don't rush too much and miss out!
 1. This [JavaScript Arrays crash course](https://www.youtube.com/watch?v=7W4pQQ20nJg) explains an overview of arrays in JavaScript in about 6 minutes.
+1. Read through this [intro to arrays](https://javascript.info/array) from JavaScript.info. It briefly mentions loops like `for` and `for..of`; we will come back to these later in this lesson. You do not need to do the exercises at the end of the page.
+1. Read through JavaScript.info's [array method guide](https://javascript.info/array-methods) for a deeper look at some further array methods in JavaScript. Again, you do not need to do the exercises at the end of the page; we will come back to these later.
+1. Bookmark [MDN's Array documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). You do not need to memorize anything here. This is where you'll find all built-in array properties and methods and their documentation. This will likely be something you regularly revisit as you code and solve problems.
 
 ### Loops
 
-Computers don't get tired, and they're really, *really* fast! For that reason, they are well suited to solving problems that involve doing calculations multiple times. In some cases, a computer will be able to repeat a task *thousands* or even *millions* of times in just a few short seconds where it might take a human many hours. \(Obviously, speed here depends on the complexity of the calculation and the speed of the computer itself\). One way to make a computer do a repetitive task is using a **loop**.
+Computers don't get tired, and they're really, *really* fast! For that reason, they are well suited to solving problems that involve doing calculations multiple times. In some cases, a computer will be able to repeat a task *thousands* or even *millions* of times in just a few short seconds where it might take a human many hours. (Obviously, speed here depends on the complexity of the calculation and the speed of the computer itself). One way to make a computer do a repetitive task is using a **loop**.
 
 1. Read [MDN's Looping Code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code). It's a longer one, but make sure you tackle the 'Active Learning' sections at the bottom of the page.
 1. Once again, same info, slightly different context from [JavaScript.info's "Loops: While and For"](http://javascript.info/while-for). Be sure to do the exercises at the end of the page. You learn best by doing.
@@ -183,9 +184,8 @@ function sumOfTripledEvens(array) {
 
 ### Test Driven Development
 
-Test Driven Development \(TDD\) is a phrase you often hear in the dev world. It refers to the practice of writing automated tests that describe how your code should work before you actually write the code. For example, if you want to write a function that adds a couple of numbers, you would first write a test that uses the function and supplies the expected output. The test will fail before you write your code, and you should be able to know that your code works correctly when the test passes.
-
-In many ways, TDD is much more productive than writing code without tests. If we didn't have the test for the adding function above, we would have to run the code ourselves over and over, plugging in different numbers until we were sure that it was working... not a big deal for a basic `add(2, 2)`, but imagine having to do that for more complicated functions, like checking whether or not someone has won a game of tic tac toe: \(`game_win(["o", null,"x",null,"x",null,"x", "o", "o"])`). If you didn't do TDD, then you might actually have to play multiple games against yourself just to test if the function was working correctly!
+Test Driven Development (TDD) is a phrase you often hear in the dev world. It refers to the practice of writing automated tests that describe how your code should work before you actually write the code. For example, if you want to write a function that adds a couple of numbers, you would first write a test that uses the function and supplies the expected output. The test will fail before you write your code, and you should be able to know that your code works correctly when the test passes.these later
+In many ways, TDD is much more productive than writing code without tests. If we didn't have the test for the adding function above, we would have to run the code ourselves over and over, plugging in different numbers until we were sure that it was working... not a big deal for a basic `add(2, 2)`, but imagine having to do that for more complicated functions, like checking whether or not someone has won a game of tic tac toe: (`game_win(["o", null,"x",null,"x",null,"x", "o", "o"])`). If you didn't do TDD, then you might actually have to play multiple games against yourself just to test if the function was working correctly!
 
 We will teach you the art of actually writing these tests later in the course. The following practice has the tests already written out for you. All you have to do is set up the testing environment, read the specs, and write the code that makes them pass!
 
@@ -193,9 +193,9 @@ We will teach you the art of actually writing these tests later in the course. T
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read through the [array method guide](https://javascript.info/array-methods) for a comprehensive overview of array methods in JavaScript. Complete the exercises at the end, except for "Create an extendable calculator," as it involves more advanced concepts that we have not yet covered.
-1. Follow up by watching [JavaScript Array Cardio Practice - Day 1](https://www.youtube.com/watch?v=HB1ZC7czKRs) by Wes Bos. To follow along, fork and clone the [JavaScript30 repository](https://github.com/wesbos/JavaScript30).
-1. Watch and code along with [Array Cardio Day 2](https://www.youtube.com/watch?v=QNmRfyNg1lw).
+1. Complete the [array methods exercises](https://javascript.info/array-methods#tasks) at the end of the JavaScript.info array methods article. Do not do "Create an extendable calculator" as it involves more advanced concepts that we have not yet covered.
+1. Follow up by coding along to [JavaScript Array Cardio Practice - Day 1](https://www.youtube.com/watch?v=HB1ZC7czKRs) by Wes Bos. You will need to fork and clone the [JavaScript30 repository](https://github.com/wesbos/JavaScript30) for this.
+1. Watch and code along with [Wes Bos' Array Cardio Day 2](https://www.youtube.com/watch?v=QNmRfyNg1lw).
 1. Go and review the [README of our `javascript-exercises` repository](https://github.com/TheOdinProject/javascript-exercises#readme) to set up your local environment. Once you have cloned the repository and installed Jest, review each README file prior to completing the following exercises in order:
     - `01_helloWorld` (This exercise is intentionally very beginner friendly to ensure that you have set up everything properly!)
     - `02_repeatString`
@@ -215,15 +215,11 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is an array?](https://www.w3schools.com/js/js_arrays.asp)
 - [What are arrays useful for?](https://www.w3schools.com/js/js_arrays.asp)
-- [How do you access an array element?](https://www.w3schools.com/js/js_arrays.asp)
-- [How do you change an array element?](https://www.w3schools.com/js/js_arrays.asp)
-- [What are some useful array properties?](https://www.w3schools.com/js/js_arrays.asp)
+- [How do you access or change an array element?](https://javascript.info/array)
+- [What are some useful array methods?](https://javascript.info/array-methods)
 - [What are loops useful for?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#why_bother)
 - [What is the break statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break)
 - [What is the continue statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue)
-- [What is `Array.prototype.map()` useful for?](https://www.youtube.com/watch?v=HB1ZC7czKRs&t=233s)
-- [What is `Array.prototype.filter()` useful for?](https://www.youtube.com/watch?v=HB1ZC7czKRs&t=84s)
-- [What is `Array.prototype.reduce()` useful for?](https://youtu.be/HB1ZC7czKRs?t=467)
 - [What is the advantage of writing automated tests?](#test-driven-development)
 
 ### Additional resources
