@@ -1,10 +1,10 @@
 ### Introduction
 
-Now that we've been introduced to cookies and their various uses and properties, let's use them to help us implement something. We want to allow someone to log in once and let the server "remember" them, automatically recognizing any future requests from them.
+Now that we've been introduced to cookies and their various uses and properties, let's use them to help us implement authentication. We want to allow someone to log in once and let the server "remember" them, automatically recognizing any future requests from them.
 
-The basic login process (with a username and password) is rather straightforward. The user submits a form with their username and password, then the server checks the database to see if that username/password combo exists. If it does, great - it knows who the requester is and can continue with the rest of the request. If it does not exist, it does not know who the requester is, so it can end the request there and then.
+The basic login process (with a username and password) is rather straightforward. The user submits a form with their username and password, then the server checks the database to see if that username/password combo exists. If it does, great - it knows who the requester is and can continue with the rest of the request. If it does not exist, it does not know who the requester is, so it can unauthorize the request.
 
-So if someone does successfully "log in", how does the server recognize that the next request that user sends is coming from them? Without a system to persist the login, it'd just be a plain ol' request like any other and could have come from anyone. To handle this, we will use **sessions**.
+So if someone does successfully "log in", how does the server recognize that the next request that user sends is coming from them? Without a system to persist the login, it'd just be a plain ol' request like any other and could have come from anyone. We *could* send the username and password with every request and authenticate that every time, but as you can imagine, this can be quite cumbersome. To handle this better, we will use **sessions**.
 
 ### Lesson overview
 
@@ -20,7 +20,7 @@ This section contains a general overview of topics that you will learn in this l
 
 A session is just information about a user's interaction with the site in a given time period and can be used to store a whole variety of data. For persisting logins, we can store (serialize) some information about that user, such as their user ID, in a database table. That data will have its own ID and may also have an expiry time. We can then store that session's ID in a cookie (it doesn't need anything else stored in it) and send it back to the user in the server response.
 
-The client now has that cookie with the session ID and can then attach it to any future requests. The server can then check the database for a valid session with the same ID it found in the cookie. If there is a matching session, great - it can extract the serialized user information (deserialize) and continue with the request now it knows who made it. If there is no matching or valid session, like with logging in, we don't know who the user is, so we can end the request there.
+The client now has that cookie with the session ID and can then attach it to any future requests. The server can then check the database for a valid session with the same ID it found in the cookie. If there is a matching session, great - it can extract the serialized user information (deserialize) and continue with the request now it knows who made it. If there is no matching or valid session, like with logging in, we don't know who the user is, so we can unauthorize the request.
 
 This is exactly like having a name badge or access pass at work or some event. The cookie is like an access pass which you (the client) give to a machine or security (the server) and it checks who you are and if you're allowed in or not. You can go home and come back the next day, reusing that pass as many times as you need so long as you still have it and your details are still in the system.
 
@@ -106,7 +106,7 @@ app.listen(PORT, () => {
 
 #### Session store
 
-Let's talk about our session config which we apply to every incoming request (by mounting it on `app`). Firstly, we use the [connect-pg-simple](https://www.npmjs.com/package/connect-pg-simple) library to make express-session store session data in our database (creating a "session" table if it does not already exist). Without this, sessions would be stored in memory by default which would not persist through any server restarts!
+Let's talk about our session config which we apply to every incoming request (by mounting it on `app`). Firstly, we use the [connect-pg-simple](https://www.npmjs.com/package/connect-pg-simple) library to make express-session store session data in our database (creating a "session" table if it does not already exist).
 
 #### Prevent unnecessary session saving
 
@@ -419,7 +419,7 @@ You don't need to know all the details of specific attack techniques but in this
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Bookmark the [express-session] docs if you haven't yet.
+1. Bookmark the [express-session](https://expressjs.com/en/resources/middleware/session.html) docs if you haven't yet.
 1. Watch this wonderful [video about password storage security](https://www.youtube.com/watch?v=qgpsIBLvrGY) from Studying With Alex.
 
 </div>
