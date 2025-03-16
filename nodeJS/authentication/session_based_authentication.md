@@ -127,7 +127,7 @@ Lastly, we pass in options for the cookies that will be created by express-sessi
 
 <div class="lesson-note lesson-note--critical" markdown="1">
 
-#### Critical: Validate your user input
+#### Validate your user input
 
 For the sake of brevity, we're omitting the server-side validation step in this example. **Do not omit server-side validation in your projects.**
 
@@ -235,7 +235,7 @@ We only need to serialize the user ID as that will never change for a user (unli
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-#### Warning: Use generic login error messages
+#### Use generic login error messages
 
 Don't specify which form fields are incorrect when providing validation feedback. Providing specific feedback can allow attackers to target accounts if they know a specific username exists, for example. It also means if you misspell your username but it happens to match someone else's username, you're less likely to be misled into thinking you entered your username correctly.
 
@@ -423,11 +423,11 @@ Now, when a user signs up, their password is salted and hashed before storage, w
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-#### Warning: Timing attacks
+#### Timing attacks
 
 Why does the `POST /login` middleware force `argon2.verify` to run even when no user is found in our database? Why can't we just early return if no user found?
 
-Just like with [using generic login error messages](#warning-use-generic-login-error-messages), we don't want to reveal that a username is valid and only the corresponding password is incorrect. If no user is found and we return early, then the server will respond quicker than if it had to verify the password against a hash (`argon2.verify` is already designed to account for timing attacks). Attackers could use this timing difference to determine whether a username exists or not, allowing them to focus their efforts on certain usernames - a timing attack.
+Just like with [using generic login error messages](#use-generic-login-error-messages), we don't want to reveal that a username is valid and only the corresponding password is incorrect. If no user is found and we return early, then the server will respond quicker than if it had to verify the password against a hash (`argon2.verify` is already designed to account for timing attacks). Attackers could use this timing difference to determine whether a username exists or not, allowing them to focus their efforts on certain usernames - a timing attack.
 
 You don't need to know all the details of specific attack techniques but in this case, it doesn't take much to ensure that the same process always runs regardless of whether a user exists or not.
 
