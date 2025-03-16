@@ -198,15 +198,24 @@ app.get("/login", (req, res) => {
 
 app.post("/login", async (req, res, next) => {
   try {
+    // query for a matching username
     const { rows } = await pool.query(
       "SELECT * FROM users WHERE username = $1",
       [req.body.username],
     );
     const user = rows[0];
 
+    // if the user exists and the password matches...
     if (user?.password === req.body.password) {
+      // serialize the user ID in the session object
       req.session.userId = user.id;
-      res.redirect("/");
+      req.session.save((err) => {
+        if (err) {
+          next(err);
+        } else {
+          res.redirect("/");
+        }
+      });
     } else {
       res.render("login", {
         error: "Incorrect username or password",
@@ -218,7 +227,7 @@ app.post("/login", async (req, res, next) => {
 });
 ```
 
-What's going on here? First we have our route for rendering the login page. In our `POST` route, we query our db for the submitted username. If the username exists *and* the submitted password matches, we serialize the user ID to the session data then redirect to the homepage (if you've never seen `?.` before, check out [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)). Express-session automatically sets the cookie and attaches it to the response.
+What's going on here? First we have our route for rendering the login page. In our `POST` route, we query our db for the submitted username. If the username exists *and* the submitted password matches, we serialize the user ID to the session data, save the session, then redirect to the homepage (if you've never seen `?.` before, check out [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)). Express-session automatically sets the cookie and attaches it to the response.
 
 If there is no matching username/password combo, we render the login page again with an error message. Note that we cannot serialize the user ID to `req.session.id` because [`req.session.id` is already used for the session's own ID](http://expressjs.com/en/resources/middleware/session.html#reqsessionid).
 
@@ -392,7 +401,13 @@ app.post("/login", async (req, res, next) => {
     );
     if (user && isMatchingPassword) {
       req.session.userId = user.id;
-      res.redirect("/");
+      req.session.save((err) => {
+        if (err) {
+          next(err);
+        } else {
+          res.redirect("/");
+        }
+      });
     } else {
       res.render("login", {
         error: "Incorrect username or password",
