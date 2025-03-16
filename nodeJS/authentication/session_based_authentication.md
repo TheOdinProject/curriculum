@@ -82,7 +82,10 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 app.use(session({
-  store: new pgSession({ pool: pool }),
+  store: new pgSession({
+    pool: pool,
+    createTableIfMissing: true,
+  }),
   resave: false,
   saveUninitialized: false,
   secret: process.env.SESSION_SECRET,
@@ -106,7 +109,7 @@ app.listen(PORT, () => {
 
 #### Session store
 
-Let's talk about our session config which we apply to every incoming request (by mounting it on `app`). Firstly, we use the [connect-pg-simple](https://www.npmjs.com/package/connect-pg-simple) library to make express-session store session data in our database (creating a "session" table if it does not already exist).
+Let's talk about our session config which we apply to every incoming request (by mounting it on `app`). Firstly, we use the [connect-pg-simple](https://www.npmjs.com/package/connect-pg-simple) library to make express-session store session data in a "session" table in our database, creating the table if it does not already exist. If you look inside your database in psql, you'll be able to see what the session table looks like. You can also have a look at the [SQL queries for creating the session table](https://github.com/voxpelli/node-connect-pg-simple/blob/HEAD/table.sql).
 
 #### Prevent unnecessary session saving
 
