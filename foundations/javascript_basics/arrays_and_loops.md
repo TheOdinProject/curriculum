@@ -24,14 +24,16 @@ Strings and numbers may be our building blocks, but as your scripts get more com
 
 ### Loops
 
-Computers don't get tired, and they're really, *really* fast! For that reason, they are well suited to solving problems that involve doing calculations multiple times. In some cases, a computer will be able to repeat a task *thousands* or even *millions* of times in just a few short seconds where it might take a human many hours. (Obviously, speed here depends on the complexity of the calculation and the speed of the computer itself). One way to make a computer do a repetitive task is using a **loop**.
+Computers don't get tired, and they're really, *really* fast! For that reason, they are well suited to solving problems that involve doing calculations multiple times. In some cases, a computer will be able to repeat a task *thousands* or even *millions* of times in just a few short seconds where it might take a human many hours (obviously, speed here depends on the complexity of the calculation and the speed of the computer itself).
+
+Some of the array methods shown earlier will involve iterating over an array, but sometimes we need more control over how we we repeat tasks. In such cases, we can use a **loop**.
 
 1. Read [MDN's Looping Code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code). It's a longer one, but make sure you tackle the 'Active Learning' sections at the bottom of the page.
 1. Once again, same info, slightly different context from [JavaScript.info's "Loops: While and For"](http://javascript.info/while-for). Be sure to do the exercises at the end of the page. You learn best by doing.
 
-### Intermediate array magic
+### Some examples of array magic
 
-Besides being a quick and handy way to store data, arrays also have a set of functions for manipulating that data in very powerful ways. Once you begin to master these functions you will start to see ways to use them all over the place! There are really only a handful of these functions, but as you'll soon see, the possibilities of what you can do with them are near endless.
+Besides being a quick and handy way to store data, arrays also have a set of functions for manipulating that data in very powerful ways. Once you get more experience with these functions, you will start to see ways to use them all over the place! There are really only a handful of these functions, but as you'll soon see, the possibilities of what you can do with them are near endless.
 
 As an example of what we mean, let's consider a `sumOfTripledEvens` function. It will:
 
@@ -39,7 +41,7 @@ As an example of what we mean, let's consider a `sumOfTripledEvens` function. It
 1. For every even number, it will triple it.
 1. Then it will sum all those even numbers.
 
-Can you try thinking of how you could implement a function like that using pseudocode?
+Can you think of how you could implement a function like that using pseudocode?
 
 1. We need to perform an operation only on the even numbers.
 1. We need to transform *those* numbers by multiplying them by 3.
@@ -67,21 +69,18 @@ function sumOfTripledEvens(array) {
 In the above code, there are 3 important snippets to consider:
 
 - `if (array[i] % 2 === 0)`: checks if a given number is even.
-- `array[i] * 3;`: multiply this number by three.
-- `sum += tripleEvenNumber`: add that number to the total.
+- `const tripleEvenNumber = array[i] * 3`: gets triple that number.
+- `sum += tripleEvenNumber`: increments the sum by that number.
 
-Every single piece solves a crucial problem with our code.
-But it is possible to make the function more concise and readable by using some built-in array methods.
-These methods are slightly more complicated than you've been used to, so let's take a moment to understand how to use them.
+Every single piece solves a crucial problem with our code. However, we can do the same thing with some array methods and sometimes, the result is a little easier to read and understand. Let's take a moment to see how we might be able to use some.
 
 #### The map method
 
 `map` is one such function. It expects a `callback` as an argument, which is a fancy way to say "I want you to pass another function as an argument to my function".
 
-Let's say we had a function `addOne`, which takes in `num` as an argument and outputs that `num` increased by 1.
-And let's say we had an array of numbers, `[1, 2, 3, 4, 5]` and we'd like to increment all of these numbers by 1 using our `addOne` function.
-Instead of making a `for` loop and iterating over the above array, we could use our `map` array method instead, which **automatically** iterates over an array for us.
-We don't need to do any extra work aside from simply passing the function we want to use in:
+Let's say we had a function `addOne`, which takes in `num` as an argument and outputs that `num` increased by 1, and an array of numbers, `[1, 2, 3, 4, 5]`. Let's say we'd like to increment all of these numbers by 1 using our `addOne` function.
+
+Instead of making a `for` loop and iterating over the above array, we could use our `map` array method instead, which **automatically** iterates over an array for us. We don't need to do any extra work aside from simply passing the function we want to use in:
 
 ```javascript
 function addOne(num) {
@@ -99,7 +98,7 @@ console.log(mappedArr); // Outputs [2, 3, 4, 5, 6]
 console.log(arr); // Outputs [1, 2, 3, 4, 5]
 ```
 
-Using `map` in this way is much more elegant than writing a `for` loop and iterating over the array. But we can do even better. We can define an inline function right inside of `map` like so:
+Using `map` in this way can be more elegant than writing a `for` loop and iterating over the array. But we can do even better. Since we're not using `addOne` anywhere else and it's a simple function, we can define it inline using an arrow function, right inside of `map` like so:
 
 ```javascript
 const arr = [1, 2, 3, 4, 5];
@@ -109,12 +108,11 @@ console.log(mappedArr); // Outputs [2, 3, 4, 5, 6]
 
 #### The filter method
 
-`filter` is somewhat similar to `map`. It still iterates through the array and applies the callback function on every item. However, instead of transforming the values in the array, it returns the original values of the array, but only IF the callback function returns `true`.
+`filter` is somewhat similar to `map`. It still iterates over the array and applies the callback function on every item. However, instead of transforming the values in the array, it returns a new array where each item is only included *if* the callback function returns `true` for it.
+
 Let's say we had a function, `isOdd` that returns either `true` if a number is odd or `false` if it isn't.
 
-The `filter` method expects the `callback` to return either `true` or `false`. If it returns `true`, the value is included in the output. Otherwise, it isn't.
-Consider the array from our previous example, `[1, 2, 3, 4, 5]`.
-If we wanted to remove all even numbers from this array, we could use `.filter()` like this:
+The `filter` method expects the `callback` to return either `true` or `false`. If it returns `true`, the value is included in the output. Otherwise, it isn't. Consider the array from our previous example, `[1, 2, 3, 4, 5]`. If we wanted to remove all even numbers from this array, we could use `.filter()` like this:
 
 ```javascript
 function isOdd(num) {
@@ -132,14 +130,12 @@ console.log(arr); // Outputs [1, 2, 3, 4, 5], original array is not affected
 
 #### The reduce method
 
-Finally, let's say that we wanted to multiply all of the numbers in our `arr` together like this: `1 * 2 * 3 * 4 * 5`.
-First, we'd have to declare a variable `total` and initialize it to 1. Then, we'd iterate through the array with a `for` loop and multiply the `total` by the current number.
+Finally, let's say that we wanted to multiply all of the numbers in our `arr` together like this: `1 * 2 * 3 * 4 * 5`. First, we'd have to declare a variable `total` and initialize it to 1. Then, we'd iterate through the array with a `for` loop and multiply the `total` by the current number.
 
-But we don't actually need to do all of that, we have our `reduce` method that will do the job for us. Just like `.map()` and `.filter()` it expects a callback function.
-However, there are two key differences with this array method:
+But we don't actually need to do all of that; we have our `reduce` method that will do the job for us. Just like `.map()` and `.filter()`, it expects a callback function. However, there are two key differences with this array method:
 
 - The callback function takes two arguments instead of one. The first argument is the `accumulator`, which is the current value of the result *at that point in the loop*. The first time through, this value will either be set to the `initialValue` (described in the next bullet point), or the first element in the array if no `initialValue` is provided. The second argument for the callback is the `current` value, which is the item currently being iterated on.
-- It also takes in an `initialValue` as a second argument (after the callback), which helps when we don't want our initial value to be the first element in the array. For instance, if we wanted to sum all numbers in an array, we could call reduce without an `initialValue`, but if we wanted to sum all numbers in an array and add 10, we could use 10 as our `initialValue`.
+- `reduce` itself also takes in an `initialValue` as an optional second argument (after the callback), which helps when we don't want our initial value to be the first element in the array. For instance, if we wanted to sum all numbers in an array, we could call reduce without an `initialValue`, but if we wanted to sum all numbers in an array and add 10, we could use 10 as our `initialValue`.
 
 ```javascript
 const arr = [1, 2, 3, 4, 5];
@@ -159,17 +155,17 @@ So what `.reduce()` will do, is it will once again go through every element in `
 
 #### Summary
 
-You've learnt about the three powerful array methods which are `map`, `filter` and `reduce`. They allow us to write shorter code that is more readable and less prone to bugs.
+You've learnt about three powerful array methods which are `map`, `filter` and `reduce`. They can allow us to write potentially more readable code which in turn may be less prone to bugs.
 
 For a quick recap of these array methods, consider this picture which should visually explain them in terms of sandwiches:
 
 ![example of filter, map and reduce methods being used to visually represent making a sandwich](https://static.observableusercontent.com/thumbnail/bea194824f0d5842addcb7910bb488795c6f80f143ab5332b28a317ebcecd603.jpg)
 
-Let's do some quick practice before your assignment! Rewrite the `sumOfTripledEvens(array)` function using these three methods.
+Let's do some quick practice before your assignment! Rewrite the `sumOfTripledEvens(array)` function using these three methods. Once you are finished and you've tested that your function works correctly, check out the solution below.
 
-Once you are finished and you've tested that your function works correctly, check out the solution below.
+<details markdown="block">
 
-<details markdown="block"><summary>Solution</summary>
+<summary>Solution</summary>
 
 ```javascript
 function sumOfTripledEvens(array) {
@@ -185,6 +181,7 @@ function sumOfTripledEvens(array) {
 ### Test-driven development
 
 Test Driven Development (TDD) is a phrase you often hear in the dev world. It refers to the practice of writing automated tests that describe how your code should work before you actually write the code. For example, if you want to write a function that adds a couple of numbers, you would first write a test that uses the function and supplies the expected output. The test will fail before you write your code, and you should be able to know that your code works correctly when the test passes.these later
+
 In many ways, TDD is much more productive than writing code without tests. If we didn't have the test for the adding function above, we would have to run the code ourselves over and over, plugging in different numbers until we were sure that it was working... not a big deal for a basic `add(2, 2)`, but imagine having to do that for more complicated functions, like checking whether or not someone has won a game of tic tac toe: (`game_win(["o", null,"x",null,"x",null,"x", "o", "o"])`). If you didn't do TDD, then you might actually have to play multiple games against yourself just to test if the function was working correctly!
 
 We will teach you the art of actually writing these tests later in the course. The following practice has the tests already written out for you. All you have to do is set up the testing environment, read the specs, and write the code that makes them pass!
