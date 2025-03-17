@@ -82,7 +82,7 @@ Our view engine is set up to just look in the project directory, and it's lookin
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>Home</title>
 </head>
 <body>
   <h1>hello world!</h1>
@@ -101,16 +101,16 @@ Create a new template called `sign-up-form`, and a route for `/sign-up` that poi
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>Sign Up</title>
 </head>
 <body>
   <h1>Sign Up</h1>
-  <form action="" method="POST">
+  <form action="/sign-up" method="POST">
     <label for="username">Username</label>
     <input id="username" name="username" placeholder="username" type="text" />
     <label for="password">Password</label>
     <input id="password" name="password" type="password" />
-    <button>Sign Up</button>
+    <button type="submit">Sign Up</button>
   </form>
 </body>
 </html>
@@ -212,7 +212,7 @@ Let's go ahead and add the log-in form directly to our index template. The form 
   <input id="username" name="username" placeholder="username" type="text" />
   <label for="password">Password</label>
   <input id="password" name="password" type="password" />
-  <button>Log In</button>
+  <button type="submit">Log In</button>
 </form>
 ```
 
@@ -249,7 +249,7 @@ and then edit your view to make use of that object like this:
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>Log In</title>
 </head>
 <body>
   <% if (locals.user) {%>
@@ -262,7 +262,7 @@ and then edit your view to make use of that object like this:
       <input id="username" name="username" placeholder="username" type="text" />
       <label for="password">Password</label>
       <input id="password" name="password" type="password" />
-      <button>Log In</button>
+      <button type="submit">Log In</button>
     </form>
   <%}%>
 </body>
