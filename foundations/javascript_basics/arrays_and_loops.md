@@ -190,19 +190,26 @@ We will teach you the art of actually writing these tests later in the course. T
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Complete the [array methods exercises](https://javascript.info/array-methods#tasks) at the end of the JavaScript.info array methods article. Do not do "Create an extendable calculator" as it involves more advanced concepts that we have not yet covered.
+1. Go to the [array methods exercises](https://javascript.info/array-methods#tasks) at the end of the JavaScript.info array methods article and do the following exercises only:
+   - `Translate border-left-width to borderLeftWidth`
+   - `Filter range`
+   - `Filter range "in place"`
+   - `Sort in decreasing order`
+   - `Copy and sort array`
+   - `Shuffle an array`
+   - `Filter unique array members`
 1. Follow up by coding along to [JavaScript Array Cardio Practice - Day 1](https://www.youtube.com/watch?v=HB1ZC7czKRs) by Wes Bos. You will need to fork and clone the [JavaScript30 repository](https://github.com/wesbos/JavaScript30) for this.
 1. Watch and code along with [Wes Bos' Array Cardio Day 2](https://www.youtube.com/watch?v=QNmRfyNg1lw).
 1. Go and review the [README of our `javascript-exercises` repository](https://github.com/TheOdinProject/javascript-exercises#readme) to set up your local environment. Once you have cloned the repository and installed Jest, review each README file prior to completing the following exercises in order:
-    - `01_helloWorld` (This exercise is intentionally very beginner friendly to ensure that you have set up everything properly!)
-    - `02_repeatString`
-    - `03_reverseString`
-    - `04_removeFromArray`
-    - `05_sumAll`
-    - `06_leapYears`
-    - `07_tempConversion`
+   - `01_helloWorld` (This exercise is intentionally very beginner friendly to ensure that you have set up everything properly!)
+   - `02_repeatString`
+   - `03_reverseString`
+   - `04_removeFromArray`
+   - `05_sumAll`
+   - `06_leapYears`
+   - `07_tempConversion`
 
-    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
+   Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
 </div>
 

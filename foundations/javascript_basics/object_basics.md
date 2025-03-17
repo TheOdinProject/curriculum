@@ -107,14 +107,20 @@ console.log(dog); // { species: "dog" }
 
 <div class="lesson-content__panel" markdown="1">
 
-1. At this point you just need a little more practice! Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Arrays and Loops](https://www.theodinproject.com/lessons/foundations-arrays-and-loops) assignment. Review each README file prior to completing the following exercises in order:
+1. Now that you've been exposed to objects, go back to the [array methods exercises](https://javascript.info/array-methods#tasks) at the end of the JavaScript.info array methods article from a few lessons ago. Do only the following exercises:
+   - `Map to names`
+   - `Map to objects`
+   - `Sort users by age`
+   - `Get average age`
+   - `Create keyed object from array`
+1. Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Arrays and Loops](https://www.theodinproject.com/lessons/foundations-arrays-and-loops) assignment. Review each README file prior to completing the following exercises in order:
    - `08_calculator`
    - `09_palindromes`
    - `10_fibonacci`
    - `11_getTheTitles`
    - `12_findTheOldest`
 
-Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
+   Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
 If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help in the [TOP Discord server](https://discord.com/invite/theodinproject)!
 
@@ -132,4 +138,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Learn about the `arguments` object on this [page about function parameters](https://www.w3schools.com/js/js_function_parameters.asp).
