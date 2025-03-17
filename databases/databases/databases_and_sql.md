@@ -52,7 +52,7 @@ Once your database is set up and you've got empty tables to work with, you use S
 
 <span id='command-parts'>Every CRUDdy command in SQL contains a few parts -- the action ("statement"), the table it should run on, and the conditions ("clauses")</span>.  If you just do an action on a table without specifying conditions, it will apply to the whole database and you'll probably break something.
 
-For "Destroy" queries, the classic mistake is typing `DELETE FROM users` without a `WHERE` clause, which removes all your users from the table.  You probably needed to delete just one user, who you would specify based on some (hopefully unique) attribute like "name" or "id" as part of your condition clause, e.g. `DELETE FROM users WHERE users.id = 1`.  You can do all kinds of common sense things like using `>`, `<`, `<=` etc. comparison operators to specify groups of rows to run commands on or logical operators like `AND`, `OR`, `NOT` etc to chain multiple clauses together, e.g. `DELETE FROM users WHERE id > 12 AND name = 'foo'`.
+For "Destroy" queries, the classic mistake is typing `DELETE FROM users` without a `WHERE` clause, which removes all your users from the table.  You probably needed to delete just one user, who you would specify based on some (hopefully unique) attribute like "name" or "id" as part of your condition clause, e.g. `DELETE FROM users WHERE users.id = 1`.  You can do all kinds of common sense things, such as using comparison operators (`>`, `<`, `<=` etc.) to specify groups of rows to run commands on, or logical operators (`AND`, `OR`, `NOT` etc.) to chain multiple clauses together, e.g. `DELETE FROM users WHERE id > 12 AND name = 'foo'`.
 
 "Create" queries use `INSERT INTO` and you'll need to specify which columns to insert stuff into and then which values to put in those columns, which looks something like `INSERT INTO users (name, email) VALUES ('foobar','foo@bar.com');`.  This is one of the few queries that you don't need to be careful about which rows you've selected since you're actually just adding new ones into the table.
 
@@ -101,9 +101,10 @@ Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which re
   SELECT users.id, users.name, COUNT(posts.id) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
-  GROUP BY users.id;
+  GROUP BY users.id, users.name;
 ```
 
+Note that grouping by `users.name` in addition to `users.id` improves clarity and aligns with best practices by explicitly including all selected non-aggregated columns in the `GROUP BY` clause, though it might not be strictly necessary for most databases.
 See [W3Schools' browser-based SQL playground](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) for an interactive visual.
 
 The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  <span id='having-function'>So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates</span>.  So say you only want to display users who have written more than 10 posts:
@@ -112,8 +113,8 @@ The last nifty trick is if you want to only display a subset of your data.  In a
   SELECT users.id, users.name, COUNT(posts.id) AS posts_written
   FROM users
   JOIN posts ON users.id = posts.user_id
-  GROUP BY users.id
-  HAVING posts_written >= 10;
+  GROUP BY users.id, users.name
+  HAVING COUNT(posts.id) >= 10;
 ```
 
 Try going back to [W3Schools' browser-based SQL playground](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and joining the `Customers` and the `Orders` tables to get the number of orders in each country and adding the line `HAVING COUNT(*) > 10;` after `GROUP BY` (and delete the extra semicolon in the previous line).
@@ -132,7 +133,6 @@ SQL is built to be fast.  It has a special query optimizer which takes a look at
 
   1. Go through this [interactive SQL tutorial from SQL Teaching](https://www.sqlteaching.com/).
   1. Go through this more in-depth [interactive SQL tutorial from SQL Bolt](http://sqlbolt.com/).
-  1. Go through [SQLCourse's beginner course](https://www.sqlcourse.com/beginner-course/) then [SQLCourse's advanced course](https://www.sqlcourse.com/advanced-course/).
 
 </div>
 
@@ -161,6 +161,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
+- SQLCourse's [beginner course](https://www.sqlcourse.com/beginner-course/) and [advanced course](https://www.sqlcourse.com/advanced-course/) are great resources if you need more practice.
 - Odinite Hunter D made his excellent notes into a [Git Book on SQL](https://hunter-ducharme.gitbook.io/sql-basics) which you should totally check out if you want a decent resource.
 - [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
 - [A Beginners Guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.

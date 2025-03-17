@@ -45,8 +45,8 @@ And if you don't know something, it's better to say so and work with your interv
 You'll need to read up on a variety of things that weren't focused on in the previous few courses, including data structures and algorithms, just because they're favorite targets of interviewers.  They may not be great indicators of coding skill, but the world is stuck in its ways and you'll be asked those more "Computer Science-y" questions.
 
 ### Links
-
-* [Pramp.com](https://www.pramp.com/ref/odin1) allows you to prepare for coding interviews and practice your coding skills with peers.
+* [Peerfect.net](https://peerfect.net/) free online practice for behavioral, technical, and coding mock interviews with peers.
+* [Exponent.com](https://www.tryexponent.com/practice?ref=pramp&utm_source=pramp&utm_campaign=pramp_banner) allows you to prepare for coding interviews and practice your coding skills with peers.
 * [Interviewing.io](http://interviewing.io/) gives you a chance to practice tech screens anonymously online.
 * [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
 * [How to Ace Your Technical Interview](http://insights.dice.com/2014/10/12/ace-technical-interview/)

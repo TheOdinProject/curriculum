@@ -6,7 +6,7 @@ In the previous courses, you'll have learned a lot of CSS and all of those skill
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Know about ways to style React applications
+- Know about ways to style React applications.
 
 ### CSS modules
 

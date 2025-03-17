@@ -40,8 +40,8 @@ These are some of the basic tools you will use regularly. You may not know what 
 
 - **Computer**
 - **[Google](https://www.google.com/)**
-- **Text Editor**
-- **Command Line Interface (CLI)**
+- **[Text Editor](https://en.wikipedia.org/wiki/Text_editor)**
+- **[Command Line Interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface)**
 - **[Stack Overflow](http://stackoverflow.com/)**
 - **[Git](https://git-scm.com/)**
 - **[GitHub](https://github.com/)**
@@ -55,7 +55,7 @@ The web development industry has a long history of successful developers with va
 
 ### Why Odin?
 
-I want you to know that this will not be easy.
+We want you to know that this will not be easy.
 
 There are plenty of other online curriculums for beginners, but they are often taught in an extremely isolated and controlled environment and cover only a specific topic.
 

@@ -11,6 +11,21 @@ This section contains a general overview of topics that you will learn in this l
 - Dangers of history-changing operations.
 - Best practices of history-changing operations.
 
+### Workflow diagram
+
+Here is a visual representation of the workflow with Git and GitHub and illustrates how changes flow between repositories during collaboration.
+
+<pre class="mermaid">
+
+graph TD;
+    A[Upstream Repository: TheOdinProject/curriculum] -->|git fetch upstream/main| B[Local Repository: main];
+    B -->|git checkout your_branch_name| C[Local Repository: your_branch_name];
+    C -->|git push origin your_branch_name| D[Your Fork on GitHub];
+    D -->|Create Pull Request to Upstream| E[Pull Request on GitHub];
+    E -->|Maintainers Merge PR to Upstream| A[Upstream Repository: TheOdinProject/curriculum];
+
+</pre>
+
 #### git push -\-force
 
 Let's say you're no longer working on a project all by yourself, but with someone else. You want to push a branch you've made changes on to a remote repository. Normally, Git will only let you push your changes if you've already updated your local branch with the latest commits from this remote.
@@ -20,33 +35,28 @@ If you haven't updated your local branch, and you're attempting to `git push` a 
 You might perform a brief query and find the command `git push --force`. This command overwrites the remote repository with your own local history. So what would happen if we used this while working with others? Well, let's see what would happen when we're working with ourselves. Type the following commands into your terminal, and when the interactive rebase tool pops up remove our commit for `Create fourth file`:
 
 ```bash
-
 git push origin main
 git rebase -i --root
 git push --force
 git log
-
 ```
 
-Huh, that's interesting. We don't see our fourth file on our local system. Let's check our GitHub repository to see if it's there.
+Huh, that's interesting. We can’t find our fourth file on our local system. Let's check our GitHub repository to see if it's there.
 
 Oh no, we just destroyed it!  In this scenario, the danger - you could potentially destroy the work of those you're collaborating with! `git push --force` is a **very dangerous command, and it should be used with caution when collaborating with others**. Instead, you can fix your outdated history error by updating your local history using `fetch`, `merge`, and then attempting to `push` again.
 
 Let's consider a different scenario:
 
 ```bash
-
 touch test4.md
 git add test4.md && git commit -m "Create fifth file"
 git push origin main
 git log
-
 ```
 
 We look at our commit message and realize *oops*, we made a mistake. We want to undo this commit and are once again tempted to just force the push. But wait, remember, this is a **very dangerous command**. If we're ever considering using it, always check if it's appropriate and if we can use a safer command instead. If we're collaborating with others and want to *undo* a commit we just made, we can instead use `git revert`!
 
 ```bash
-
 git revert HEAD
 git push origin main
 ```
@@ -80,8 +90,8 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 1. Read through [GitHub's documentation on merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts)
     - It's only a matter of time until you run into one (if you haven't already)! While merge conflicts might seem intimidating, they're actually very simple. Take your time with this resource and make sure you look at the two different ways the documentation suggests resolving merge conflicts - on GitHub itself, and on your command line. While you might not need this right now, keeping the source of this documentation in the back of your mind will prove invaluable for when you eventually run into a merge conflict and aren't sure where to find a solution.
 
-1. Read [think-like-a-git](http://think-like-a-git.net/)
-    - Take your time with this resource as well, it's very well written and will be very helpful in solidifying your understanding of Git.
+1. Read the entirety of [Think Like (a) Git](https://think-like-a-git.net/sections/about-this-site.html)
+    - Take your time with this resource as well, it's very well written and will be very helpful in solidifying your understanding of Git. Make sure to read all the sections.
 
 </div>
 
@@ -89,7 +99,7 @@ Let's review the dangers we've addressed so far. I know, I know, it's scary stuf
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is a safe way to push history changes to a remote repository?](#force-with-lease)
+- [What is a safe way to forcefully push history changes to a remote repository?](#force-with-lease)
 - [What are the dangers of history-changing operations?](#dangers)
 - [What are best practices of history-changing operations?](#best-practices)
 

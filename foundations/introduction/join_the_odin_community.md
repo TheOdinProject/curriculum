@@ -28,7 +28,7 @@ As most of the projects are designed to push you to your limit, please remember 
 
 If you're feeling stuck, it's a good time to pause and take a breather. Break the problem down into little pieces and then decide what is really holding you back. We call this technique [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).
 
-You should also use Google to find relevant information for your problem. Read about [how to use Google to solve your programming questions](https://codinginflow.com/google-programming-questions). You can also look back at previous lessons for tools that you can apply to the current task.
+You should also use Google to find relevant information for your problem. Read about [how to use Google to solve your programming questions](https://old.codinginflow.com/google-programming-questions). You can also look back at previous lessons for tools that you can apply to the current task.
 
 If these methods don't yield a solution for you, then it's time to reach out to the Odin community and ask for help.
 
@@ -83,7 +83,7 @@ Your Multiple Lines of Colorful Code
 ### Chat features
 
 - Have fun with giphys: type `/gif hi` to say hi to everyone.
-- Type `/help` for more information on chat commands.
+- Type `/` to see all chat commands.
 - Show your appreciation to those who help you with `@username ++`.
 - Don't forget to visit all the available rooms!
 
@@ -123,11 +123,11 @@ If the question seems confusing or ambiguous, ask for more clarity, or politely 
 
 If the question needs to have live code to fully understand or debug, ask them to use [replit](https://replit.com) to provide it. If the problem is difficult to isolate, they should recreate the problem with isolated code.
 
-#### 8. Do not answer googleable questions
+#### 8. Do not answer Googleable questions
 
 Learning how to research these questions is a very important skill for developers, so we need to empower them to find their own answer. When we answer these questions, it hinders their personal growth and makes them codependent on our community.
 
-Instead of answering these questions, politely ask them to google their question or use our bot command `/search google` with the search terms.
+Instead of answering these questions, politely ask them to Google their question or use our bot command `/search google` with the search terms.
 
 #### 9. Do not answer questions covered in our curriculum
 
@@ -184,8 +184,9 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
    - **If you wouldn't say it out loud don't type it:** Plain and simple.
    - **Ping (@user) with a purpose:** Only @ another user when it is necessary. Include your question or comment in the message. Wait until they reply before pinging again.
    - **Don't 'bomb' chats:** Don't send multiple messages in a row; type out your whole message, then push send.
-   - **Don't exclude anyone:** These are public chats; if someone joins in on a conversation, include them!
+   - **Don't exclude anyone:** These are public chats; if someone joins in on a conversation, include them!  The exception to this is when someone is helping a learner. Those need to be 1:1 conversations to not confuse the learner.
    - **Don't disappear right after asking for help on code:** If you're posting a question, make sure you have time to stick around and discuss it with those trying to help!
+   - **Take some time to observe the server before jumping in:** This helps you understand how our community interacts and communicates.
 
 </div>
 

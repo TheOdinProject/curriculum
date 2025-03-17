@@ -1,5 +1,4 @@
 // https://github.com/DavidAnson/markdownlint
-
 {
   "config": {
     "default": true,
@@ -76,8 +75,13 @@
     // Enforces asterisk syntax instead of underscore syntax
     "MD050": {
       "style": "asterisk"
-    }
+    },
+    // link-fragments
+    // Disabled as it uses a different heading conversion algo to the TOP website
+    "MD051": false
   },
+  // Custom rules specific to the project
+  // Docs for each rule can be found in `./markdownlint/docs`
   "customRules": [
     "./markdownlint/TOP001_descriptiveLinkText/TOP001_descriptiveLinkText.js",
     "./markdownlint/TOP002_noCodeInHeadings/TOP002_noCodeInHeadings.js",
@@ -87,6 +91,7 @@
     "./markdownlint/TOP006_fullFencedCodeLanguage/TOP006_fullFencedCodeLanguage.js",
     "./markdownlint/TOP007_useMarkdownLinks/TOP007_useMarkdownLinks.js",
     "./markdownlint/TOP008_useBackticksForFencedCodeBlocks/TOP008_useBackticksForFencedCodeBlocks.js",
+    "./markdownlint/TOP009_lessonOverviewItemsSentenceStructure/TOP009_lessonOverviewItemsSentenceStructure.js",
     "./markdownlint/TOP010_useLazyNumbering/TOP010_useLazyNumbering.js"
   ]
 }

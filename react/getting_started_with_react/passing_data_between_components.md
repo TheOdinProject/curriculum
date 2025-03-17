@@ -123,27 +123,27 @@ export default function App() {
 
 ### Default props
 
-You may have noticed in the above examples that there is some repetition when defining props on the `Button` components within `App`. In order to stop repeating ourselves re-defining these common values, and to protect our application from undefined values, we can define default parameters to set default values for props.
+You may have noticed in the above examples that there is some repetition when defining props on the `Button` components within `App`. In order to stop repeating ourselves by re-defining these common values, and to protect our application from undefined values, we can define default parameters to set default values for props.
 
 ```jsx
-  function Button({ text = "Click Me!", color = "blue", fontSize = 12 }) {
-    const buttonStyle = {
-      color: color,
-      fontSize: fontSize + "px"
-    };
+function Button({ text = "Click Me!", color = "blue", fontSize = 12 }) {
+  const buttonStyle = {
+    color: color,
+    fontSize: fontSize + "px"
+  };
 
-    return <button style={buttonStyle}>{text}</button>;
-  }
+  return <button style={buttonStyle}>{text}</button>;
+}
 
-  export default function App() {
-    return (
-      <div>
-        <Button />
-        <Button text="Don't Click Me!" color="red" />
-        <Button fontSize={20} />
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <div>
+      <Button />
+      <Button text="Don't Click Me!" color="red" />
+      <Button fontSize={20} />
+    </div>
+  );
+}
 ```
 
 As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined in the function parameters.
@@ -228,7 +228,7 @@ function Button({ text = "Click Me!", color = "blue", fontSize = 12, handleClick
   };
 
   return (
-    <button onClick={() => handleClick('https://www.theodinproject.com')} style={buttonStyle}>
+    <button onClick={handleClick} style={buttonStyle}>
       {text}
     </button>
   );
@@ -241,13 +241,13 @@ export default function App() {
 
   return (
     <div>
-      <Button handleClick={handleButtonClick} />
+      <Button handleClick={() => handleButtonClick('https://www.theodinproject.com')} />
     </div>
   );
 }
 ```
 
-When supplying an argument to the function we can't just write `onClick={handleClick('www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the argument. Like the previous example, this is to prevent the function being called during the render.
+When supplying an argument to the function, we can't just write `onClick={handleClick('https://www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the argument. Like the previous example, this is to prevent the function being called during the render.
 
 <div class="lesson-note" markdown="1" >
 

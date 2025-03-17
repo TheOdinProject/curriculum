@@ -83,13 +83,13 @@ increaseCounterPrimitive(primitive);
 
 Take a moment and guess what will happen to `object` and what will happen to `primitive` after we make the function calls.
 
-If you answered that the object counter would increase by 1, and the primitive counter wouldn't change, you're correct. Remember that the parameter `objectCounter` contains a *reference* to the same object as the `object` variable we gave it, while `primitiveCounter` contains only a copy of the primitive value only.
+If you answered that the object counter would increase by 1, and the primitive counter wouldn't change, you're correct. Remember that the parameter `objectCounter` contains a *reference* to the same object as the `object` variable we gave it, while `primitiveCounter` only contains a copy of the primitive value.
 
 <div class="lesson-note" markdown="1">
 
 #### Reassigning object data type variables
 
-While mutating the object we have a reference to will affect all other variables that reference it, reassigning a variable won’t affect what the other variables refer to. For example:
+While mutating the object we have a reference to affects all other variables that reference it, reassigning a variable does not change what the other variables refer to. For example:
 
 ```javascript
 let animal = { species: "dog" };
@@ -174,7 +174,7 @@ console.log(mappedArr); // Outputs [2, 3, 4, 5, 6]
 console.log(arr); // Outputs [1, 2, 3, 4, 5]
 ```
 
-This is a much more elegant approach, what do you think? For simplicity, we could also define an inline function right inside of `map` like so:
+Using `map` in this way is much more elegant than writing a `for` loop and iterating over the array. But we can do even better. We can define an inline function right inside of `map` like so:
 
 ```javascript
 const arr = [1, 2, 3, 4, 5];
@@ -261,10 +261,10 @@ function sumOfTripledEvens(array) {
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Start out by watching [JavaScript Array Cardio Practice - Day 1](https://www.youtube.com/watch?v=HB1ZC7czKRs) from Wes Bos. To follow along, fork and clone the [JavaScript30 repository](https://github.com/wesbos/JavaScript30).
+1. Read through the [array method guide](https://javascript.info/array-methods) for a comprehensive overview of array methods in JavaScript. Complete the exercises at the end, except for "Create an extendable calculator," as it involves more advanced concepts that we have not yet covered.
+1. Follow up by watching [JavaScript Array Cardio Practice - Day 1](https://www.youtube.com/watch?v=HB1ZC7czKRs) by Wes Bos. To follow along, fork and clone the [JavaScript30 repository](https://github.com/wesbos/JavaScript30).
 1. Watch and code along with [Array Cardio Day 2](https://www.youtube.com/watch?v=QNmRfyNg1lw).
-1. Read through the [array method guide](https://javascript.info/array-methods) for a more comprehensive and in-depth guide to array methods in JavaScript. Complete the exercises at the end except for "Create an extendable calculator", as that involves more advanced concepts we have not yet covered.
-1. At this point you just need a little more practice! Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Fundamentals Part 4](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4) assignment. Review each README file prior to completing the following exercises in order:
+1. At this point you just need a little more practice! Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Arrays and Loops](https://www.theodinproject.com/lessons/foundations-arrays-and-loops) assignment. Review each README file prior to completing the following exercises in order:
    - `08_calculator`
    - `09_palindromes`
    - `10_fibonacci`

@@ -19,7 +19,7 @@ Let's create a simple HTML form, with a single text field for collecting a full 
 The HTML structure would look something like this:
 
 ```html
-<form action="/create" method="POST" >
+<form action="/create" method="POST">
   <label for="fullName">Full Name:</label>
   <input placeholder="John Doe" type="text" name="fullName" id="fullName">
   <button type="submit">Submit</button>
@@ -39,7 +39,7 @@ The `form` attributes define how to communicate with the server:
 - `action`: The resource/URL where data is sent for processing when the form is submitted. If this is not set, or is an empty string, the form will be submitted back to the current page URL
 - `method`: Defines the HTTP method to use (`POST` or `GET`).
 
-`POST` is generally more secure because it keeps sensitive information out of the URL, which means they won't show up in server logs, and is the standard choice for creating or updating data on the server side. `GET` is for forms that don't modify data, such as search forms, or when you want the form submission to be bookmarkable or shareable via URL.
+`POST` is generally more secure because it keeps sensitive information out of the URL, which means they won't show up in server logs, and is the standard choice for creating or updating data on the server side. `GET` is for forms that don't modify data, such as search forms, or when you want the form submission to be bookmarkable or shareable via URL. The form data here is sent as a query string as part of the request url.
 
 #### Form handling process
 
@@ -111,7 +111,7 @@ While this might work for outputs we know won't have special characters, like na
 
 ```ejs
 <div>
-  About Me: <%- description %>
+  About Me: <%- description %>!
 </div>
 
 // The client then inputs the following as their page's About Me:
@@ -143,11 +143,10 @@ Also, if we have data with HTML entities after escaping them, if we used escaped
 
 ### Validation results
 
-Once the validation rules are applied, you can use `validationResult` to handle any validation errors. We use `asyncHandler` to automatically catch these errors in our async route handlers and pass them to the middleware:
+Once the validation rules are applied, you can use `validationResult` to handle any validation errors:
 
 ```javascript
-// asyncHandler lets us wrap async express routes to handle errors.
-asyncHandler(async (req, res, next) => {
+const controller = (req, res, next) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     return res.status(400).render("index", {
@@ -155,8 +154,9 @@ asyncHandler(async (req, res, next) => {
     });
   }
 
+  // do stuff if successful
   res.redirect("/success");
-});
+};
 ```
 
 This setup checks for any failed validation checks, and if there are any (the errors array is NOT empty), then the server sends a [400 status code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400), along with any errors that may be present, to our `index` view. Otherwise, we're redirected to the `/success` route in our router.
@@ -166,10 +166,8 @@ This setup checks for any failed validation checks, and if there are any (the er
 One final thing to cover is how to handle routes in Express. After all, our form needs somewhere to send the data to.
 
 ```javascript
-const asyncHandler = require("express-async-handler");
-
-exports.userUpdateGet = asyncHandler(async (req, res, next) => {});
-exports.userUpdatePost = asyncHandler(async (req, res, next) => {});
+exports.userUpdateGet = (req, res, next) => {};
+exports.userUpdatePost = (req, res, next) => {};
 ```
 
 Inside our router, we can then assign routes which correspond to the controller's functions:
@@ -203,7 +201,7 @@ Set up a new Express app with EJS templating:
 
 ```bash
 npm init -y
-npm install express ejs express-async-handler express-validator
+npm install express ejs express-validator
 ```
 
 Create folders for `routes`, `views`, `controllers`, `storages`, and an `app.js` file:
@@ -292,27 +290,26 @@ The logic for this router will go inside of our controller:
 
 ```javascript
 // controllers/usersController.js
-const asyncHandler = require("express-async-handler");
 const usersStorage = require("../storages/usersStorage");
 
-exports.usersListGet = asyncHandler(async (req, res) => {
+exports.usersListGet = (req, res) => {
   res.render("index", {
     title: "User list",
     users: usersStorage.getUsers(),
   });
-});
+};
 
-exports.usersCreateGet = asyncHandler(async (req, res) => {
+exports.usersCreateGet = (req, res) => {
   res.render("createUser", {
     title: "Create user",
   });
-});
+};
 
-exports.usersCreatePost = asyncHandler(async (req, res) => {
+exports.usersCreatePost = (req, res) => {
   const { firstName, lastName } = req.body;
   usersStorage.addUser({ firstName, lastName });
   res.redirect("/");
-});
+};
 ```
 
 And we'll use a storage class to hold the users we create. In real-world scenarios, you would almost certainly be using a database for this, which you'll explore further in upcoming lessons. This class is just for demonstration purposes before we get there.
@@ -378,7 +375,7 @@ const validateUser = [
 // We can pass an entire array of middleware validations to our controller.
 exports.usersCreatePost = [
   validateUser,
-  asyncHandler(async (req, res) => {
+  (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       return res.status(400).render("createUser", {
@@ -389,7 +386,7 @@ exports.usersCreatePost = [
     const { firstName, lastName } = req.body;
     usersStorage.addUser({ firstName, lastName });
     res.redirect("/");
-  })
+  }
 ];
 ```
 
@@ -455,17 +452,17 @@ usersRouter.post("/:id/update", usersController.usersUpdatePost);
 Then we'll add the logic for the requests into our controller:
 
 ```javascript
-exports.usersUpdateGet = asyncHandler(async (req, res) => {
+exports.usersUpdateGet = (req, res) => {
   const user = usersStorage.getUser(req.params.id);
   res.render("updateUser", {
     title: "Update user",
     user: user,
   });
-});
+};
 
 exports.usersUpdatePost = [
   validateUser,
-  asyncHandler(async (req, res) => {
+  (req, res) => {
     const user = usersStorage.getUser(req.params.id);
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
@@ -478,7 +475,7 @@ exports.usersUpdatePost = [
     const { firstName, lastName } = req.body;
     usersStorage.updateUser(req.params.id, { firstName, lastName });
     res.redirect("/");
-  })
+  }
 ];
 ```
 
@@ -506,10 +503,10 @@ Then we add the logic to handle the request into our controller:
 
 ```javascript
 // Tell the server to delete a matching user, if any. Otherwise, respond with an error.
-exports.usersDeletePost = asyncHandler(async (req, res) => {
+exports.usersDeletePost = (req, res) => {
   usersStorage.deleteUser(req.params.id);
   res.redirect("/");
-});
+};
 ```
 
 Don't forget to add the new route to your router!
@@ -524,7 +521,7 @@ We could go much deeper into working safely with forms, but we'll stop there. By
 
 To give you an overview of what this entire flow looks like visually, here's an example courtesy of MDN:
 
-![A diagram showing an outline of how a form interacts with a server using GET and POST requests.](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms/web_server_form_handling.png)
+![A diagram showing an outline of how a form interacts with a server using GET and POST requests.](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/web_server_form_handling.png)
 
 ### Assignment
 
@@ -544,11 +541,10 @@ Don't forget to update the view to display these new fields!
 
 What if we want to search for a specific user in a list of thousands? We'll need a new route and view that lets clients search our list of users.
 
-1. Add a form (in `createUser.ejs` or another view) which accepts a `name` or `email` (or both!)
-1. Create a new route `/search` which accepts `GET` and `POST` requests.
-1. Add the search logic to your controller which searches your list for a matching user.
-   - Your `POST` request should handle searching for the user.
-   - Your `GET` request should then render the search result.
+1. Add a form with a `GET` method (in `createUser.ejs` or another view) which accepts a `name` or `email` (or both!)
+1. Create a new route `/search` which accepts a `GET` request.
+1. Add the search logic to your controller which searches your list for a matching user. Form data that has been sent via a `GET` request will not be available via `req.body`. You will need to use `req.query` instead.
+   - Your `GET` request should handle searching for the user and then render the search result.
 1. Display the search results in a new view: `search.ejs`.
 
 #### Further Reading

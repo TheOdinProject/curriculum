@@ -3,7 +3,7 @@
 
 ### Introduction
 
-If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system and have **Google Chrome** as an installed browser, you can skip this lesson. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
+If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system and have **Google Chrome** as an installed browser, you can skip this lesson. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
@@ -106,7 +106,7 @@ You want to tick the **Guest Additions** and **Install in Background** options a
 
 In the **Hardware** section of the installation you want to set your **Base Memory** to at least 2048 MB or more if possible - the upper limit is half of your total RAM but 4096 MB with the settings we recommend should give you a smooth experience.
 
-> For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. You can google how to find out how much RAM you have available if you do not know this already. If the VM runs a bit slow, try allocating more memory!
+> For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. You can Google how to find out how much RAM you have available if you do not know this already. If the VM runs a bit slow, try allocating more memory!
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -218,7 +218,7 @@ Here are some tips to help you get started in a virtual environment:
 
 #### Frequent issues/questions
 
-- If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
+- If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** in VirtualBox and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
 - Running out of space? Look at these [instructions for increasing VM disk space from the TOP Discord server](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
 - Are you using a touchscreen? [Watch a video on how to enable touchscreen controls for VirtualBox](https://www.youtube.com/watch?v=hW-iyHHoDy4).
 
@@ -502,6 +502,8 @@ Chrome is going to use this terminal to output various messages and won't let yo
 
 <summary class="dropDown-header">WSL2</summary>
 
+WSL does not have a graphical user interface (GUI) like Windows, so this step will guide you through installing Google Chrome for Windows instead. Later on, we'll cover how you can use the Windows installed Chrome to preview your work that lives within WSL.
+
 #### Step 1: Download Google Chrome
 
 - Visit [Google Chrome download page](https://www.google.com/chrome/).
@@ -510,17 +512,17 @@ Chrome is going to use this terminal to output various messages and won't let yo
 #### Step 2: Install Google Chrome
 
 - Open the **Downloads** folder.
-- Double click the file **ChromeSetup.exe**.
+- Double click the file **ChromeSetup.exe** to start the install.
 
-#### Step 3: Delete the installer file
+#### Step 3: Using Google Chrome
+
+- Search for **Google Chrome** in your Start Menu.
+- Click **Google Chrome** to start the application.
+
+#### Optional: Delete the installer file
 
 - Open the **Downloads** folder.
-- Drag **ChromeSetup.exe** to the trash.
-
-#### Step 4: Using Google Chrome
-
-- Search for **Google Chrome** in your applications.
-- Double click **Google Chrome**.
+- Select the **ChromeSetup.exe** file and hit the Delete key, or drag it the Recycling Bin.
 
 </details>
 
