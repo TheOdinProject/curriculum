@@ -207,7 +207,7 @@ app.post("/login", async (req, res, next) => {
 
     // if the user exists and the password matches...
     if (user?.password === req.body.password) {
-      // serialize the user ID in the session object
+      // serialize the user ID in the session object so it can be retrieved later
       req.session.userId = user.id;
       req.session.save((err) => {
         if (err) {
@@ -227,7 +227,7 @@ app.post("/login", async (req, res, next) => {
 });
 ```
 
-What's going on here? First we have our route for rendering the login page. In our `POST` route, we query our db for the submitted username. If the username exists *and* the submitted password matches, we serialize the user ID to the session data, save the session, then redirect to the homepage (if you've never seen `?.` before, check out [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)). Express-session automatically sets the cookie and attaches it to the response.
+What's going on here? First we have our route for rendering the login page. In our `POST` route, we query our db for the submitted username. If the username exists *and* the submitted password matches, we serialize the user ID to the session data, save the session, then redirect to the homepage (if you've never seen `?.` before, check out [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)). We do this so we can retrieve the user ID from the session at a later point, such as in a new request. Express-session will then automatically set the cookie and attaches it to the response.
 
 If there is no matching username/password combo, we render the login page again with an error message. Note that we cannot serialize the user ID to `req.session.id` because [`req.session.id` is already used for the session's own ID](http://expressjs.com/en/resources/middleware/session.html#reqsessionid).
 
@@ -353,7 +353,7 @@ The most secure way to store passwords? Don't. Offloading that responsibility to
 
 By far the worst way we can store passwords is to just store them in plaintext like we've done in our example app earlier. Even if we encrypted the passwords, all an attacker would need is the key to decrypt all the passwords. Let's face it, if someone managed to gain access to your database, it probably wouldn't be very hard for them to get the encryption key (assuming they don't already have it).
 
-Remember [hash functions](https://www.theodinproject.com/lessons/javascript-hashmap-data-structure#what-is-a-hash-code) from the Hashmap lesson? We want to hash our passwords, then store the hash since hashes are one-way functions. We also want to [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) the password when hashing so that the identical passwords will produce a different hash each time, preventing attackers from comparing hashes against precomputed hashes of common passwords (often referred to as "rainbow tables"). On top of all that, we also want the hash function to be purposely slow - not so slow that a normal user will be waiting ages just to log in but certainly slow enough to minimize the number of attempts an attacker might be able to make in a given amount of time.
+Remember [hash functions](https://www.theodinproject.com/lessons/javascript-hashmap-data-structure#what-is-a-hash-code) from the Hashmap lesson? We want to hash our passwords, then store the hash since hashes are one-way functions. We also want to [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) the password when hashing so that the identical passwords will produce a different hash each time, preventing attackers from comparing hashes against precomputed hashes of common passwords (often referred to as "rainbow tables"). There are many more things to account for and that's why we have purpose-built algorithms for hashing passwords, such as argon2.
 
 #### Argon2
 
