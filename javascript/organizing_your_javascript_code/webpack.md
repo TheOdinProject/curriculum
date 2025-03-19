@@ -280,6 +280,10 @@ There are three different ways you could be dealing with local image files:
    {
      test: /\.(png|svg|jpg|jpeg|gif)$/i,
      type: "asset/resource",
+     generator: {
+        // Exports (png, svg, etc.) with their original names
+        filename: "[name][ext]",
+      },
    }
    ```
 
@@ -331,13 +335,16 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
+        generator: {
+          filename: "[name][ext]",
+        },
       },
     ],
   },
 };
 ```
 
-You might notice that when images are included when bundling, the output image file in `dist` has a different file name (it will likely be some jumble of numbers and letters). By default, Webpack gives your bundled image files a new name by hashing their contents. You do not need to know how this works, nor do you need to dig into the details of why, nor how to change it. You just need to be aware that this is expected behavior (it's to do with preventing issues with the browser cache and matching file names).
+You might notice that when images are included when bundling, the output image file in `dist` has a different file name (it will likely be some jumble of numbers and letters). By default, Webpack gives your bundled image files a new name by hashing their contents. You just need to be aware that this is expected behavior (it's to do with preventing issues with the browser cache and matching file names).
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -398,6 +405,9 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
+        generator: {
+          filename: "[name][ext]",
+        },
       },
     ],
   },
@@ -435,7 +445,8 @@ In a later lesson, we will introduce some extra things that can make setting up 
 <div class="lesson-content__panel" markdown="1">
 
 1. Start by reading the [Webpack concepts](https://webpack.js.org/concepts/) page to get a general understanding of some of the main terms.
-1. [Webpack's Asset Management guide](https://webpack.js.org/guides/asset-management/) goes through some examples of how to handle various kinds of assets, like CSS, images, and fonts. You'll see that its examples use `npm run build` to bundle the files; in these examples, that's the equivalent of `npx webpack`. We will go through npm scripts in a later lesson.
+2. [Webpack's Asset Management guide](https://webpack.js.org/guides/asset-management/) goes through some examples of how to handle various kinds of assets, like CSS, images, and fonts. You'll see that its examples use `npm run build` to bundle the files; in these examples, that's the equivalent of `npx webpack`. We will go through npm scripts in a later lesson.
+3. Read about [Webpack's Custom output filenames](https://webpack.js.org/guides/asset-modules/#custom-output-filename) to learn how to bundle assets with their original filenames.
 
 </div>
 
