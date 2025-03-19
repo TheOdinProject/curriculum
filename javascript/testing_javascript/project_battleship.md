@@ -10,7 +10,7 @@ We have not yet discussed testing the appearance of a webpage, which requires a 
 
 <div class="lesson-content__panel" markdown="1">
 
-Remember that Jest does not have built-in stable support for ESM. Refer back to [Jest's instructions for "Using Babel"](https://jestjs.io/docs/getting-started#using-babel) from the Testing Practice project to make it compatible with your ESM src code. You do not need to do the steps in "Making your Babel config jest-aware", nor do you need to do the steps in the "Using webpack" section, as we are not testing bundled code or assets/CSS etc.
+Remember that Jest does not have built-in stable support for ESM. Refer back to [Jest's instructions for "Using Babel"](https://jestjs.io/docs/getting-started#using-babel) from the Testing Practice project to make it compatible with your ESM source code. You do not need to do the steps in "Making your Babel config jest-aware", nor do you need to do the steps in the "Using webpack" section, as we are not testing bundled code or assets/CSS etc.
 
 1. Begin your app by creating the `Ship` class/factory (your choice).
    1. Your 'ships' will be objects that include their length, the number of times they've been hit and whether or not they've been sunk.
