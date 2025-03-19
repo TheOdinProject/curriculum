@@ -264,12 +264,12 @@ function sumOfTripledEvens(array) {
 1. Read through the [array method guide](https://javascript.info/array-methods) for a comprehensive overview of array methods in JavaScript. Complete the exercises at the end, except for "Create an extendable calculator," as it involves more advanced concepts that we have not yet covered.
 1. Follow up by watching [JavaScript Array Cardio Practice - Day 1](https://www.youtube.com/watch?v=HB1ZC7czKRs) by Wes Bos. To follow along, fork and clone the [JavaScript30 repository](https://github.com/wesbos/JavaScript30).
 1. Watch and code along with [Array Cardio Day 2](https://www.youtube.com/watch?v=QNmRfyNg1lw).
-1. At this point you just need a little more practice! Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Arrays and Loops](https://www.theodinproject.com/lessons/foundations-arrays-and-loops) assignment. Review each README file prior to completing the following exercises in order:
-   - `08_calculator`
-   - `09_palindromes`
-   - `10_fibonacci`
-   - `11_getTheTitles`
-   - `12_findTheOldest`
+1. At this point you just need a little more practice! Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Data Types and Conditionals](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals) assignment. Review each README file prior to completing the following exercises in order:
+   - `12_calculator`
+   - `13_palindromes`
+   - `14_fibonacci`
+   - `15_getTheTitles`
+   - `16_findTheOldest`
 
 Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
