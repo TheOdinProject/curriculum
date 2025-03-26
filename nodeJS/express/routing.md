@@ -84,10 +84,10 @@ To denote a route parameter, we start a segment with a `:` followed by the name 
 ```javascript
 /**
  * GET /odin/messages will have this log
- * { username: 'odin' }
+ * { username: "odin" }
  *
  * GET /theodinproject79687378/messages would instead log
- * { username: 'theodinproject79687378' }
+ * { username: "theodinproject79687378" }
  */
 app.get("/:username/messages", (req, res) => {
   console.log(req.params);
