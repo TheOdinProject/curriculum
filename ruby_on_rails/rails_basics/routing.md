@@ -92,7 +92,7 @@ With that above line in our routes file, what do our routes look like?  If you t
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Viewing Rails Routes
+#### Viewing Rails routes
 
 The output of the `rails routes` command might be formatted incorrectly if your terminal is zoomed in or if your screen is not wide enough to display the route information. If this is the case, you can try zooming out in the terminal using the <kbd>Ctrl</kbd> + <kbd>-</kbd> keyboard shortcut. You can also use the following command to view a longer, expanded list of each route:
 
