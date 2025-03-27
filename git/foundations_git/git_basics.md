@@ -47,10 +47,10 @@ This section contains a general overview of topics that you will learn in this l
 
 1. <span id="origin-push"></span>That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this, `cd` into the new **git_test** folder that was downloaded and then enter `git remote -v` on your command line. You should see an output similar to the following, where `USER-NAME` is your GitHub username:
 
-  ```bash
-  origin  git@github.com:USER-NAME:git_test.git (fetch)
-  origin  git@github.com:USER-NAME:git_test.git (push) 
-  ```
+   ```bash
+   origin  git@github.com:USER-NAME:git_test.git (fetch)
+   origin  git@github.com:USER-NAME:git_test.git (push) 
+   ```
   
 This displays the URL of the repository you created on GitHub, which is the remote for your local copy. <span id="default-remote"></span>You may have also noticed the word *origin* at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository, but it could have just as easily been named "party-parrot" or "dancing-banana". (Don't worry about the details of origin for now; it will come up again near the end of this tutorial.)
 
