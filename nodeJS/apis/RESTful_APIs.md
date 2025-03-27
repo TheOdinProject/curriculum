@@ -95,7 +95,7 @@ http://sub.domain.com:1234/path/to/resource?query=something&param=something#anch
 
 While you can structure your API in multiple ways, a popular and conventional method to do so is to follow REST (**Re**presentational **S**tate **T**ransfer). [The exact definition of REST](https://en.wikipedia.org/wiki/REST#Principle) might be a little complicated, but for us, it states that there is a set of standards to be followed to make our API RESTful (adhere to the constraints set by REST).
 
-Earlier, we mentioned separating the client and the server, which fulfills the first constraint of REST: the frontend and backend are well-defined. Further constraints like statelessness and caching are covered by and ensured later with ExpressJS. Our key concern at this point is the organization of endpoint URLs with respect to our resources.
+Earlier, we mentioned separating the client and the server, which fulfills the first constraint of REST: the frontend and backend are well-defined. Further constraints like statelessness and caching are covered by and ensured later with Express. Our key concern at this point is the organization of endpoint URLs with respect to our resources.
 
 As mentioned, usually your backend application will need to send data to your frontend. The most popular way to do so by far is with JSON, primarily due to the ease of parsing it with JavaScript. So all we need to do is to replace our HTML and serve JSON instead. All that you have to do, thus, is to pass your information to [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) instead of [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) or [`res.render()`](https://expressjs.com/en/4x/api.html#res.render).
 
@@ -106,8 +106,8 @@ As mentioned, usually your backend application will need to send data to your fr
 1. Check out the [list of HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) listed in the MDN documentation. While you will never use some codes, you will notice a lot of useful ones.
 1. Read up on REST and RESTful APIs in the following resources.
    - Go through the following [CodeAcademy article discussing REST](https://www.codecademy.com/article/what-is-rest). It discusses the definitions of REST and gives some good examples to explain important keywords.
-   - Check out this [StackOverflow article about RESTful API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design). If you want to code along, do remember that the `body-parser` middleware mentioned here has been incorporated into the ExpressJS package itself since 4.16.x and is no longer necessary.
-1. Code along with this tutorial on [setting up a REST API with ExpressJS](https://www.robinwieruch.de/node-express-server-rest-api/). Go through this article thoroughly, as it covers key details like organizing your code, dive into middlewares, and provides links to other important resources at the end.
+   - Check out this [StackOverflow article about RESTful API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design). If you want to code along, do remember that the `body-parser` middleware mentioned here has been incorporated into the Express package itself since 4.16.x and is no longer necessary.
+1. Code along with this tutorial on [setting up a REST API with Express](https://www.robinwieruch.de/node-express-server-rest-api/). Go through this article thoroughly, as it covers key details like organizing your code, dive into middlewares, and provides links to other important resources at the end.
 
 </div>
 
