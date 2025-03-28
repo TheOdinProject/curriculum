@@ -58,7 +58,7 @@ If you don't have an Apple computer, you are likely using Windows. Don't worry! 
 
 Modifying or dual-booting a computer to work with the tools you'll need will make it much easier to start programming, help create a distraction-free environment, and look good on your resume. Take a deep breath, and let's look at your options.
 
-Still not convinced? Here are a few great reasons to install Linux:
+Are you still not convinced? Here are a few great reasons to install Linux:
 
 - **Tested** - We've tested our directions with macOS, Ubuntu (and official Ubuntu flavors) and WSL2. We did the research so that you can get tools installed with as few issues as possible, getting you to coding sooner. Time spent wrestling with your operating system is time taken from learning how to code.
 - **Community Support** - Using the tools we recommend makes it easier for us to help when you run into trouble.
