@@ -69,7 +69,7 @@ We named our file `javascript.js` but we could have chosen any name like `my-scr
 
 ### Variables
 
-These are the building blocks of any program, you can think of variables as "storage containers" for data in your code.
+These are the building blocks of any program. You can think of variables as "storage containers" for data in your code.
 
 ![Variable Box Illustration](https://cdn.statically.io/gh/TheOdinProject/curriculum/d39eaf2ca95e80705f703bb218216c10508f5047/foundations/javascript_basics/fundamentals-1/imgs/00.png)
 
