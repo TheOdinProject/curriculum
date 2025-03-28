@@ -207,7 +207,7 @@ To test these routes, use [Postman](https://www.postman.com/downloads/) which wi
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read through the Express' [primer on Routing](https://expressjs.com/en/guide/routing.html) for an overview of this lesson's topics. Remember to reference the [Express documentation](https://expressjs.com/en/4x/api.html) for more information on specific methods.
+1. Read through the Express' [primer on Routing](https://expressjs.com/en/guide/routing.html) for an overview of this lesson's topics. Remember to reference the [Express documentation](https://expressjs.com/en/api.html) for more information on specific methods.
 
 </div>
 

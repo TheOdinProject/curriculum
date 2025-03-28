@@ -87,7 +87,7 @@ And it might even be life-changing.
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Check out the post ["Why Learning to Code is **So Damn Hard**"](https://web.archive.org/web/20230630111131/https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) so you have a good idea of what the journey ahead is like.
+1. Check out the post ["Why Learning to Code is **So Damn Hard**"](https://dev.to/theodinproject/why-learning-to-code-is-so-damn-hard-11nn), which was written by the founder of The Odin Project. This article gives a realistic view of what the journey ahead is like.
 1. Read the [Wikipedia entry on web design](https://en.wikipedia.org/wiki/Web_design) that describes the breadth of the web development profession.
 1. Read Udacity's blog post on [front-end, back-end and full stack developers.](https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 

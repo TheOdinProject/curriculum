@@ -6,7 +6,7 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Head over to the [Flickr API Documentation Page](http://www.flickr.com/services/api/). You can just google `XYZ API docs` to locate these pages, which is usually much faster and easier than trying to find them by navigating the websites themselves.
+1. Head over to the [Flickr API Documentation Page](http://www.flickr.com/services/api/). You can just Google `XYZ API docs` to locate these pages, which is usually much faster and easier than trying to find them by navigating the websites themselves.
 1. Look around at the different methods available. They have a couple of different request formats, but check out the RESTful API format by clicking on the link on the left under "Request Formats" called [REST](http://www.flickr.com/services/api/request.rest.html).
 1. This shows you the format that a typical API call would take -- you will make your request to the endpoint at `https://www.flickr.com/services/rest/` and include any required data in the GET query string or the POST body.
 1. Look around at the various methods. How would you upload a photo? How about getting your contacts list? Lots of these methods will require you to authenticate your application or user account first.

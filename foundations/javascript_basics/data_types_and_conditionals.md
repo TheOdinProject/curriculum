@@ -68,7 +68,7 @@ Replit recently introduced an AI assistant, which is on by default. Before tryin
   - You will be working out of `script.js`, and you will use the console in the 'webview' pane to check your work. To access the console, click the wrench icon, which is located on the right side of the address bar within the 'webview' pane.
 - [Exercise 3](https://replit.com/@OdinProject/lets-do-some-math#math.js)
   - You will be working out of `math.js`.
-- [Exercise 4](https://replit.com/@OdinProject/direction-follow#follow.js)
+- [Exercise 4](https://replit.com/@replit2520/direction-follow#follow.js)
   - You will be working out of `follow.js`.
 
 </div>

@@ -114,7 +114,7 @@ Changing the value of the first element in the first nested array does not cause
 
 ### Adding and removing elements
 
-You can add another element to the end of nested array using the `#push` method or the shovel operator `<<`. If you want to add an element to a specific nested array, you will need to specify the index of the nested array.
+You can add another element to the end of a nested array using the `#push` method or the shovel operator `<<`. If you want to add an element to a specific nested array, you will need to specify the index of the nested array.
 
 ```ruby
 test_scores << [100, 99, 98, 97]

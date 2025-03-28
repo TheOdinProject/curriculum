@@ -263,7 +263,7 @@ There are three different ways you could be dealing with local image files:
    npm install --save-dev html-loader
    ```
 
-   Then, add the following object to the `modules.rules` array within `webpack.config.js`:
+   Then, add the following object to the `module.rules` array within `webpack.config.js`:
 
    ```javascript
    {
@@ -274,7 +274,7 @@ There are three different ways you could be dealing with local image files:
 
 1. **Images we use in our JavaScript, where we will need to import the files**
 
-   If we need to use a local image file in our JavaScript (such as when manipulating the DOM to create or edit `img` elements and set their `src` attribute), we need to import the images into our JavaScript module. Since images aren't JavaScript, we need to tell Webpack that these files will be assets by adding an `asset/resource` rule. No need to install anything here. Just add the following object to the `modules.rules` array within `webpack.config.js`:
+   If we need to use a local image file in our JavaScript (such as when manipulating the DOM to create or edit `img` elements and set their `src` attribute), we need to import the images into our JavaScript module. Since images aren't JavaScript, we need to tell Webpack that these files will be assets by adding an `asset/resource` rule. No need to install anything here. Just add the following object to the `module.rules` array within `webpack.config.js`:
 
    ```javascript
    {
@@ -410,7 +410,13 @@ Firstly, we add a [source map](https://webpack.js.org/configuration/devtool/) by
 
 Secondly, by default, `webpack-dev-server` will only auto-restart when it detects any changes to files we import into our JavaScript bundle, so our HTML template will be ignored! All we need to do is add it to the dev server's array of watched files - nice and simple!
 
-Once set up, `npx webpack serve` will host our web page on `http://localhost:8080/`, which we can open in our browser and start working!
+Once set up, we can start up the dev server using the following command:
+
+```bash
+npx webpack serve
+```
+
+Our site will then be available via [http://localhost:8080/](http://localhost:8080/) by default.
 
 <div class="lesson-note" markdown="1">
 

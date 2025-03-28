@@ -71,7 +71,7 @@ This one is related pretty strongly to 'Single Responsibility' but takes a diffe
 1. The following article and videos mention the acronym **SOLID** before going on to talk about Single Responsibility. Single Responsibility is definitely the most relevant of the 5, but feel free to dig into the rest of the SOLID principles, if you like.
     1. Read this article about [SOLID principle #1: Single responsibility (JavaScript)](https://duncan-mcardle.medium.com/solid-principle-1-single-responsibility-javascript-5d9ce2c6f4a5). It simplifies that which is covered in more detail in the SOLID videos below.
     1. Watch [The SOLID Design Principles by WDS](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9) to see code examples for each principle.
-1. [How to Write Highly Scalable and Maintainable JavaScript: Coupling](https://web.archive.org/web/20200810210808/https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4) explains loosely coupled objects pretty well.
+1. [How to Write Highly Scalable and Maintainable JavaScript: Coupling](https://web.archive.org/web/20170215102316/http://www.innoarchitech.com:80/scalable-maintainable-javascript-coupling) explains loosely coupled objects pretty well.
 1. FunFunFunction has a great video on [favoring composition over inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA).
 
 </div>
@@ -82,7 +82,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is the "Single Responsibility Principle"?](#single-responsibility)
 - [What are the additional SOLID principles?](https://duncan-mcardle.medium.com/solid-principle-1-single-responsibility-javascript-5d9ce2c6f4a5)
-- [What are "tightly coupled" objects and why do we want to avoid them?](https://web.archive.org/web/20200810210808/https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4)
+- [What are "tightly coupled" objects and why do we want to avoid them?](https://web.archive.org/web/20170215102316/http://www.innoarchitech.com:80/scalable-maintainable-javascript-coupling)
 - [Why is favoring composition over inheritance suggested?](https://www.youtube.com/watch?v=wfMtDGfHWpA)
 
 ### Additional resources
