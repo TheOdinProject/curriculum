@@ -33,6 +33,5 @@ jobs:
       - uses: DavidAnson/markdownlint-cli2-action@v14
         if: steps.changed-files.outputs.all_changed_files
         with:
-          config: './lesson.markdownlint-cli2.jsonc'
           globs: ${{ steps.changed-files.outputs.all_changed_files }}
           separator: ','
