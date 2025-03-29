@@ -1,4 +1,4 @@
-name: MarkDownLint
+name: MarkdownLint
 on:
   pull_request:
     paths:
