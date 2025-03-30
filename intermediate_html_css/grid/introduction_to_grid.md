@@ -45,11 +45,12 @@ For one-dimensional layouts, Flex offers a convenient tool without having to rel
 
 For two-dimensional layouts, you learned a little bit about `flex-wrap`, which allows you to take your flex items and wrap them to the next line. This can be done with either a row that wraps to another row, or a column that wraps to another column.
 
-Remember how much fun you had solving the card layout in this exercise?
+<!-- This project comes after this lesson -->
+<!-- Remember how much fun you had solving the card layout in this exercise?
 
 [![flex-exercise-desired-outcome.png](https://i.postimg.cc/vZ81HMkB/flex-exercise-desired-outcome.png)](https://github.com/TheOdinProject/css-exercises/tree/main/foundations/flex/07-flex-layout-2)
 
-We know that was a frustrating one, but it's part of the point. While Flexbox allows you to build a layout of rows and columns together, it isn’t always easy.
+We know that was a frustrating one, but it's part of the point. While Flexbox allows you to build a layout of rows and columns together, it isn’t always easy. -->
 
 But setting up a two-dimensional layout of cards would be much easier using CSS Grid:
 
