@@ -1,6 +1,6 @@
 ### Introduction
 
-Remember the warm-up in the previous project when you played with the Flickr API?  Now it's time for you to actually use it.  Huzzah!  You'll create a basic photo widget that allows you to display photos from your Flickr feed (or someone else's). We'll rely on a tutorial for much of the heavy lifting but the principles of what you do here will be repeatable for use with other APIs.
+Remember the warm-up in the previous project when you played with the Flickr API? Now it's time for you to actually use it. Huzzah! You'll create a basic photo widget that allows you to display photos from your Flickr feed (or someone else's). We'll rely on a tutorial for much of the heavy lifting but the principles of what you do here will be repeatable for use with other APIs.
 
 ### Assignment
 
@@ -16,4 +16,5 @@ Remember the warm-up in the previous project when you played with the Flickr API
 </div>
 
 ### Additional resources
+
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
