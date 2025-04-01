@@ -15,7 +15,7 @@ To demonstrate an HTML boilerplate, we first need an HTML file to work with.
 
 Create a new folder on your computer and name it `html-boilerplate`. Within that folder create a new file and name it `index.html`.
 
-You're probably already familiar with a lot of different types of files, for example doc, pdf, and image files.
+You're probably already familiar with a lot of different types of files, for example doc, pdf and image files.
 
 To let the computer know we want to create an HTML file, we need to append the filename with the `.html` extension, as we have done when creating the `index.html` file.
 
