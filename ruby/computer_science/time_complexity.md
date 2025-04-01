@@ -48,14 +48,14 @@ Let's go back to our `odd_numbers_less_than_ten method`. How many steps does our
 
 1. We assign the number 1 to a variable. That's one step.
 
-2. We have a loop. For each iteration of the loop, we do the following:
+1. We have a loop. For each iteration of the loop, we do the following:
 
     1. Compare `current_number` to see if it is less than 10. That is 1 step.
-    2. We then check if current_number is odd. That is 1 step.
-    3. If it is then we output it to the terminal. That's 1 step every 2 iterations.
-    4. We increase `current_number` by 1. That is 1 step.
+    1. We then check if `current_number` is odd. That is 1 step.
+    1. If it is then we output it to the terminal. That's 1 step every 2 iterations.
+    1. We increase `current_number` by 1. That is 1 step.
 
-3. To exit the loop, we need to compare `current_number` one last time to see that it is not less than ten any more. That is one last step.
+1. To exit the loop, we need to compare `current_number` one last time to see that it is not less than ten any more. That is one last step.
 
 So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `current_number` and checking the exit condition of the loop is one step each. 27 + 5 + 1 + 1 = 34 steps.
 
@@ -142,27 +142,37 @@ Do the number of steps matter? Yes, they might. We'll touch on when this may be 
 
 #### O(log N) - logarithmic complexity
 
-Logarithmic Complexity tells us that the numbers of steps an algorithm takes increases by 1 as the data doubles. That's still pretty efficient when you think about it. Going from 5,000 to 10,000 data elements and only taking one additional step can scale really well.
+Logarithmic Complexity tells us that the number of steps an algorithm takes increases by 1 as the data doubles. That's still pretty efficient when you think about it. Going from 5,000 to 10,000 data elements and only taking one additional step can scale really well.
 
-One such algorithm that does this is Binary Search. It only works on sorted arrays, but if you have an array of 10 items in sorted order
+One such algorithm that does this is Binary Search. It only works on sorted arrays, but if you have an array of 10 items in sorted order:
 
 ```ruby
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
-and wanted to know if it had the number `7`, Binary Search would guess the middle item of the array and see what is there. Because the array is sorted, if the number at the middle index was `6`, then we know anything to the left of that index cannot be the number 7, as those items must be lower than 6 in a sorted array.
+To find out if the array contains the number `7`, Binary Search calculates the middle index using the formula:
+
+```ruby
+middle_index = (start_index + end_index) / 2
+```
+
+Here, `start_index` is the beginning of the array (initially `0`), and `end_index` is the last element of the array (initially `9` for a 10-element array). The middle element at index `4` would be `5`.
+
+Because the array is sorted and `7` is greater than `5`, we can eliminate `5` and everything to its left, as those numbers are all less than `7`.
 
 ```ruby
 arr = [-, -, -, -, -, 6, 7, 8, 9, 10]
 ```
 
-Therefore in just one step, we've eliminated half of the array. We can do the same with the remaining half. We can guess the middle index and see if it's 7. Half of that (half of an array) array eliminated again. In this case, the middle index would be 8, and we know that 7 is less than 8 so we can eliminate anything to the right of the number 8.
+In just one step, we've eliminated half of the array. Now, we recalculate the middle index with the new `start_index` and `end_index` values. The middle index would now be `7`, and the number at this index is `8`.
+
+Since `7` is less than `8`, we can eliminate `8` and everything to its right.
 
 ```ruby
-arr = [6, 7, 8, -, -]
+arr = [6, 7, -, -, -]
 ```
 
-We can keep doing this until we have an array of just one item. If it matches the number we're looking for, we've found it. If not, then it isn't in the array.
+We repeat this process until we have an array of just one item. If that item matches the number we're looking for, we've found it. If not, the number isn't in the array.
 
 The below table summarises the size of an array doubling and how many steps in Big O terms we would need to arrive at one element to see if it matches what we're looking for:
 
@@ -185,7 +195,7 @@ This one is pretty easy to wrap your head around. Linear Complexity just tells u
 
 You can't say this one isn't appropriately named. This notation means we have an algorithm which initially is `O(log N)` such as our example earlier of Binary Search where it repeatedly breaks an array in half, but with `O(N log N)` each of those array halves is processed by another algorithm with a complexity of `O(N)`.
 
-One such algorithm is merge sort, and it just so happens you tackle this project in our course :)
+One such algorithm is the merge sort algorithm from our previous lesson. :)
 
 #### O(n&#178;) - quadratic complexity
 
@@ -219,11 +229,11 @@ You want to avoid this if at all possible, otherwise you won't be processing muc
 
 #### O(N!) - factorial complexity
 
-A factorial is the product of the sequence of _n_ integers. For example, the factorial of 4 (written as 4!) is 4 * 3 * 2 * 1.
+The factorial of a number is the product of all numbers between 1 and that number. For example, the factorial of 4 (written as 4!) is 4 \* 3 \* 2 \* 1.
 
 You will come across Factorial Complexity if you ever need to calculate permutations or combinations. If you have an array and have to work out all the combinations you can make from the array, that is a Factorial complexity. It's manageable for a small number of items, but the leap with each new item in a dataset can be huge.
 
-The factorial of 3 is 6 (3 * 2 * 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
+The factorial of 3 is 6 (3 \* 2 \* 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
 
 ### Alternatives to big O
 
@@ -231,7 +241,7 @@ If Big O gives us the worst-case scenario of how our algorithm will scale, what 
 
 #### Big &#937; (omega notation)
 
-Omega Notations gives us the best-case scenario for an algorithm. To understand where this might be, let's look at a method and discuss how we can measure its complexity.
+Omega Notation gives us the best-case scenario for an algorithm. To understand where this might be, let's look at a method and discuss how we can measure its complexity.
 
 ```ruby
 def find_value(arr)
@@ -241,7 +251,7 @@ def find_value(arr)
 end
 ```
 
-In the worst case (Big O), which would happen if the item is not in the array, we would say it had linear complexity `O(N)`. This is because the `item` we are looking for is not in the array, so our code must iterate on every value. If the array input doubles in size then the worst case also means our method must double the number of iterations looking for the `item`.
+In the worst case (Big O), which occurs if the item is not in the array or is the last item in the array, the algorithm has linear complexity `O(N)`. This happens because, in both cases, the code must iterate through every element. As the input size doubles, the number of iterations required in the worst case also doubles.
 
 However, in the best-case scenario the value we are looking for will be the first item in the array. In this case our algorithm takes just one step. This has a complexity of `Ω(1)`. This is its Omega Complexity.
 
@@ -307,25 +317,25 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through [A Rubyists Guide to Big-O Notation](https://www.honeybadger.io/blog/a-rubyist-s-guide-to-big-o-notation/). The last section talks about how this applies to database queries in a web app, which you won't have covered yet, but it's something to keep in mind as you move forward into the Rails materials.
-2.  The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
-3.  This [Guide to Time Complexity for Ruby Developers](https://www.rubyguides.com/2018/03/time-complexity-for-ruby-developers/) gives some more insight into applying a Big-O notation to your own code.
+1. Read through [A Rubyists Guide to Big-O Notation](https://www.honeybadger.io/blog/a-rubyist-s-guide-to-big-o-notation/). The last section talks about how this applies to database queries in a web app, which you won't have covered yet, but it's something to keep in mind as you move forward into the Rails materials.
+1. The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
+1. This [Guide to Time Complexity for Ruby Developers](https://www.rubyguides.com/2018/03/time-complexity-for-ruby-developers/) gives some more insight into applying a Big-O notation to your own code.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is Big O?](#what-is-big-o)
 - [What are the Big O Notations?](#big-o-notation)
 - [Why use Big O?](#why-big-o)
-- [What is Big Omega and why isn't it as useful?](#big--omega-notation)
+- [What is Big Omega and why isn't it as useful?](#big-omega-notation)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-1.  It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
+- It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
 
-2. In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.
+- In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.

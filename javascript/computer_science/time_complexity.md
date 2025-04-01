@@ -1,6 +1,6 @@
 ### Introduction
 
-You've written a lot of code up to this point, and you've hopefully moved on from just trying to write code that works, to now considering code readability and maintainability. You might spend some time considering how you can create the necessary abstractions so that your code stays easy to work with even as the requirements for it grows.
+You've written a lot of code up to this point, and you've hopefully moved on from just trying to write code that works, to now considering code readability and maintainability. You might spend some time considering how you can create the necessary abstractions so that your code stays easy to work with even as the requirements for it grow.
 
 Code readability and maintainability are super important. After all, you will likely spend as much, if not more, time reading code than writing it. You need to make sure new features are integrated with ease.
 
@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The very first step in mastering efficient code is to understand how to measure it. Let's take a look at a little program that prints out all odd numbers between 1 and 10.
 
-```js
+```javascript
 function oddNumbersLessThanTen() {
   let currentNumber = 1;
 
@@ -48,14 +48,14 @@ Let's go back to our `oddNumbersLessThanTen function`. How many steps does our a
 
 1. We assign the number 1 to a variable. That's one step.
 
-2. We have a loop. For each iteration of the loop, we do the following:
+1. We have a loop. For each iteration of the loop, we do the following:
 
     1. Compare `currentNumber` to see if it is less than 10. That is 1 step.
-    2. We then check if currentNumber is odd. That is 1 step.
-    3. If it is then we output it to the terminal. That's 1 step every 2 iterations.
-    4. We increase `currentNumber` by 1. That is 1 step.
+    1. We then check if `currentNumber` is odd. That is 1 step.
+    1. If it is then we output it to the terminal. That's 1 step every 2 iterations.
+    1. We increase `currentNumber` by 1. That is 1 step.
 
-3. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
+1. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
 
 So there are 3 steps for every loop iteration and it iterates 9 times which is 27 steps. Then we have one step which iterates for only half the loop iteration which is 5 steps. Assigning an initial value to `currentNumber` and checking the exit condition of the loop is one step each. 27 + 5 + 1 + 1 = 34 steps.
 
@@ -63,7 +63,7 @@ Therefore, we can say our algorithm takes 34 steps to complete.
 
 While this is useful to know, it isn't actually helpful for comparing algorithms. To see why, let's slightly modify our initial algorithm to take in a number instead of setting a hard default of 10.
 
-```js
+```javascript
 function oddNumbers(maxNumber) {
   let currentNumber = 1;
 
@@ -122,13 +122,13 @@ The Big O Notations in the order of speed from fastest to slowest are:
 
 To understand Constant Complexity, let's use an array.
 
-```js
+```javascript
 arr = [1, 2, 3, 4, 5];
 ```
 
 If we want to look up what is at index 2, we can get to the element using `arr[2]` which would give us back `3`. This takes just one step. If we double our array...
 
-```js
+```javascript
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 ```
 
@@ -142,27 +142,37 @@ Do the number of steps matter? Yes, they might. We'll touch on when this may be 
 
 #### O(log N) - Logarithmic complexity
 
-Logarithmic Complexity tells us that the numbers of steps an algorithm takes increases by 1 as the data doubles. That's still pretty efficient when you think about it. Going from 5,000 to 10,000 data elements and only taking one additional step can scale really well.
+Logarithmic Complexity tells us that the number of steps an algorithm takes increases by 1 as the data doubles. That's still pretty efficient when you think about it. Going from 5,000 to 10,000 data elements and only taking one additional step can scale really well.
 
-One such algorithm that does this is Binary Search. It only works on sorted arrays, but if you have an array of 10 items in sorted order
+One such algorithm that does this is Binary Search. It only works on sorted arrays, but if you have an array of 10 items in sorted order:
 
-```js
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+```javascript
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
-and wanted to know if it had the number `7`, Binary Search would guess the middle item of the array and see what is there. Because the array is sorted, if the number at the middle index was `6`, then we know anything to the left of that index cannot be the number 7, as those items must be lower than 6 in a sorted array.
+To find out if the array contains the number `7`, Binary Search calculates the middle index using the formula:
 
-```js
+```javascript
+let middleIndex = Math.floor((startIndex + endIndex) / 2)
+```
+
+Here, `startIndex` is the beginning of the array (initially `0`), and `endIndex` is the last element of the array (initially `9` for a 10-element array). The middle element at index `4` would be `5`.
+
+Because the array is sorted and `7` is greater than `5`, we can eliminate `5` and everything to its left, as those numbers are all less than `7`.
+
+```javascript
 arr = [-, -, -, -, -, 6, 7, 8, 9, 10]
 ```
 
-Therefore in just one step, we've eliminated half of the array. We can do the same with the remaining half. We can guess the middle index and see if it's 7. Half of that (half of an array) array eliminated again. In this case, the middle index would be 8, and we know that 7 is less than 8 so we can eliminate anything to the right of the number 8.
+In just one step, we've eliminated half of the array. Now, we recalculate the middle index with the new `startIndex` and `endIndex` values. The middle index would now be `7`, and the number at this index is `8`.
 
-```js
-arr = [6, 7, 8, -, -]
+Since `7` is less than `8`, we can eliminate `8` and everything to its right.
+
+```javascript
+arr = [6, 7, -, -, -]
 ```
 
-We can keep doing this until we have an array of just one item. If it matches the number we're looking for, we've found it. If not, then it isn't in the array.
+We repeat this process until we have an array of just one item. If that item matches the number we're looking for, we've found it. If not, the number isn't in the array.
 
 The below table summarises the size of an array doubling and how many steps in Big O terms we would need to arrive at one element to see if it matches what we're looking for:
 
@@ -185,7 +195,7 @@ This one is pretty easy to wrap your head around. Linear Complexity just tells u
 
 You can't say this one isn't appropriately named. This notation usually implies we have an algorithm which initially is `O(log N)` such as our example earlier of Binary Search where it repeatedly breaks an array in half, but with `O(N log N)` each of those array halves is processed by another algorithm with a complexity of `O(N)`.
 
-One such algorithm is merge sort, and it just so happens you tackle this project in our course :)
+One such algorithm is the merge sort algorithm from our previous lesson. :)
 
 However, not all `O(N log N)` situations are built this way. There are special cases, like constructing a [Cartesian tree](https://www.geeksforgeeks.org/cartesian-tree/), where the algorithm naturally behaves like `O(N log N)` without using smaller parts with `O(N)` or `O(log N)` complexities inside. The keen amongst you may wish to have a peek at how this algorithm works. This shows that while nested complexities can be common, they're not the only way an algorithm can achieve a particular time complexity.
 
@@ -221,11 +231,11 @@ You want to avoid this if at all possible, otherwise you won't be processing muc
 
 #### O(N!) - Factorial complexity
 
-A factorial is the product of the sequence of _n_ integers. The factorial of 4(4!) is 4 * 3 * 2 * 1.
+The factorial of a number is the product of all numbers between 1 and that number. The factorial of 4(4!) is 4 \* 3 \* 2 \* 1.
 
 You will come across Factorial Complexity if you ever need to calculate permutations or combinations. If you have an array and have to work out all the combinations you can make from the array, that is a Factorial complexity. It's manageable for a small number of items, but the leap with each new item in a dataset can be huge.
 
-The factorial of 3 is 6 (3 * 2 * 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
+The factorial of 3 is 6 (3 \* 2 \* 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
 
 ### Alternatives to Big O
 
@@ -233,9 +243,9 @@ If Big O gives us the worst-case scenario of how our algorithm will scale, what 
 
 #### Big &#937; (Omega notation)
 
-Omega Notations gives us the best-case scenario for an algorithm. To understand where this might be, let's look at a method and discuss how we can measure its complexity.
+Omega Notation gives us the best-case scenario for an algorithm. To understand where this might be, let's look at a method and discuss how we can measure its complexity.
 
-```js
+```javascript
 function findValue(arr) {
   for (let i = 0; i < arr.length; i++) {
     let item = arr[i];
@@ -246,7 +256,7 @@ function findValue(arr) {
 }
 ```
 
-In the worst case (Big O), which would happen if the item is not in the array, we would say it had linear complexity `O(N)`. This is because the `item` we are looking for is not in the array, so our code must iterate on every value. If the array input doubles in size then the worst case also means our method must double the number of iterations looking for the `item`.
+In the worst case (Big O), which occurs if the item is not in the array or is the last item in the array, the algorithm has linear complexity `O(N)`. This happens because, in both cases, the code must iterate through every element. As the input size doubles, the number of iterations required in the worst case also doubles.
 
 However, in the best-case scenario the value we are looking for will be the first item in the array. In this case our algorithm takes just one step. This has a complexity of `O(1)`. This is its Omega Complexity.
 
@@ -256,7 +266,7 @@ Omega Notation isn't considered as useful because it is unlikely our item will o
 
 While Omega Notation measures the best-case scenario for an algorithm's efficiency, and Big O measures the worst case, Theta looks to give the exact value or a useful range between narrow upper and lower bounds.
 
-If we had some code that looped every item in an array, then it doesn't matter the size of the array. Our algorithm will always run in `O(N)` time in its best-case and worst-case scenarios. In that case we know it's exact performance in all scenarios is `O(N)`, and that is the Theta performance of our algorithm. For other algorithms, Theta may represent both the lower and upper bound of an algorithm that has different complexities. We won't get into this more here because Big O is the primary notation used for general algorithm time complexity.
+If we had some code that looped every item in an array, then it doesn't matter the size of the array. Our algorithm will always run in `O(N)` time in its best-case and worst-case scenarios. In that case we know its exact performance in all scenarios is `O(N)`, and that is the Theta performance of our algorithm. For other algorithms, Theta may represent both the lower and upper bound of an algorithm that has different complexities. We won't get into this more here because Big O is the primary notation used for general algorithm time complexity.
 
 This is just a simplistic explanation to try to make the topic approachable. If you do happen to be mathematically minded, then you'll find more detailed explanations with a quick search online.
 
@@ -272,7 +282,7 @@ If we write two algorithms with the same complexity, does that mean they're equa
 
 The first example is some code we've seen already, our `oddNumbers` function.
 
-```js
+```javascript
 function oddNumbers(maxNumber) {
   let currentNumber = 1;
 
@@ -290,7 +300,7 @@ The time complexity of this algorithm is `O(N)`. As the data size increases, the
 
 Let's look at another version:
 
-```js
+```javascript
 function oddNumbers(maxNumber) {
   let currentNumber = 1;
 
@@ -312,25 +322,25 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 
 <div class="lesson-content__panel" markdown="1">
 
-1.  Read through [Big O Notation in JavaScript by Doable Danny](https://www.doabledanny.com/big-o-notation-in-javascript). It covers the common complexities with graphs and examples.
-2.  The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
-3. Read the [Step-by-step Big O Complexity Analysis Guide, using JavaScript](https://www.sahinarslan.tech/posts/step-by-step-big-o-complexity-analysis-guide-using-javascript). It has a section on Space Complexity at the end which you can skip for now.
+1. Read through [Big O Notation in JavaScript by Doable Danny](https://www.doabledanny.com/big-o-notation-in-javascript). It covers the common complexities with graphs and examples.
+1. The [Big-O cheat sheet](https://www.bigocheatsheet.com/) is an amazing resource. It gives a complexity chart where you can see how the different algorithms perform as the data size increases and also gives the time complexity for common data structure operations along with those for common sorting algorithms.
+1. Read the [Step-by-step Big O Complexity Analysis Guide, using JavaScript](https://www.sahinarslan.tech/posts/step-by-step-big-o-complexity-analysis-guide-using-javascript). It has a section on Space Complexity at the end which you can skip for now.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is Big O?](#what-is-big-o)
 - [What are the Big O Notations?](#big-o-notation)
 - [Why use Big O?](#why-big-o)
-- [What is Big Omega and why isn't it as useful?](#big--omega-notation)
+- [What is Big Omega and why isn't it as useful?](#big-omega-notation)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-1.  It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwdsal2/a-common-sense-guide-to-data-structures-and-algorithms-second-edition/) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
+- It's not a free resource but [A common sense guide to data structures and algorithms](https://pragprog.com/titles/jwjavascript/a-common-sense-guide-to-data-structures-and-algorithms-in-javascript-volume-1) does a great job making these topics approachable to people not familiar with some of the mathematical terminology used.
 
-2.  In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.
+- In this video, [Introduction to Big O Notation and Time Complexity](https://www.youtube.com/watch?v=D6xkbGLQesk), the author provides a step-by-step process for how to analyze and understand time complexity for various algorithms.

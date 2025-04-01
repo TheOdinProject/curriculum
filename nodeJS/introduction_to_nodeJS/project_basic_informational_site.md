@@ -1,8 +1,8 @@
-### A simple Node website!
+### A Node website!
 
 By now you should know enough to be dangerous. There's *definitely* more to learn but you already know enough about Node to actually make something! So let's do it! You will be creating a very basic informational site that contains 4 pages: index, about, contact-me and 404. Keep in mind that the content of these pages isn't really all that important. So there's no need to spend a lot of time filling them up or trying to make them look pretty.
 
-If you get stuck at anytime, feel free to go back to the tutorial from the previous lesson.
+If you get stuck at anytime, feel free to go back to the [Getting Started lesson](https://www.theodinproject.com/lessons/nodejs-getting-started), especially the W3 schools tutorial at the end.
 
 ### Assignment
 
@@ -26,6 +26,6 @@ If you're planning to submit a live demo with your student solution, one of the 
 
 1. Go to [replit.com](https://replit.com)
 2. Create a new repl
-3. Select Node.js as the language
-4. Enter the url for your submission github repo and click "Import from GitHub"
+3. Enter the url for your submission github repo and click "Import from GitHub"
+4. Change the language to Node.js
 5. Click the "Run" button and you should get the URL to your demo in the URL bar of the repl's web view.

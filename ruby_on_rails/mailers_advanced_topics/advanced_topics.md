@@ -27,45 +27,45 @@ In this case, it doesn't make a whole lot of sense to display an "index" of dash
 
 The routes file line for a singular resource would look like:
 
-~~~ruby
+```ruby
   # in config/routes.rb
   resource :dashboard
-~~~
+```
 
 Just note that the word "resource" is singular and so is `dashboard`.  That trips up a lot of people who make the typo of writing "resource" instead of "resources" when they really want plural resources (which are more common).
 
 The `$ rails routes` for a singular resource would only contain 6 routes (since we don't use `#index` anymore), and you would no longer see any of the `:id` portions of the routes, e.g.
 
-~~~bash
+```bash
   edit_dashboard  GET /dashboard/edit(.:format)  dashboards#edit
-~~~
+```
 
 ...compared with the plural version of the same route:
 
-~~~bash
+```bash
   edit_dashboard  GET /dashboards/:id/edit(.:format)  dashboards#edit
-~~~
+```
 
 ### Nested routes
 
 Sometimes it just makes sense for one resource to be nested inside of another.  For instance, a listing of lessons like this logically falls within a listing of courses -- so you'd expect a URL sort of like `http://example.com/courses/1/lessons/3`. The way to achieve this nesting is in the routes file by literally nesting one resource inside a block given to another, which might look something like:
 
-~~~ruby
+```ruby
   # config/routes.rb
   TestApp::Application.routes.draw do
     resources :courses do
       resources :lessons
     end
   end
-~~~
+```
 
 Note that the `#resources` method now takes a block which will consist of a set of routes.
 
 When you visit the URL, you'll have to specify the `:id` parameter for BOTH objects.  The `$ rails routes` for the above would include something like:
 
-~~~ruby
+```ruby
   course_lesson  GET  /courses/:course_id/lessons/:id(.:format)  lessons#show
-~~~
+```
 
 It should also be noted that you're being taken to the controller of the deepest nested resource, and that's also the `:id` parameter which will be called `:id` (any parent resource parameters, as in the above, will be specifically called something like `:course_id`).
 
@@ -73,14 +73,14 @@ View helpers are also automatically generated in a logical way (as you can see i
 
 Don't nest routes too deeply! If you're more than a layer or two deep, something should be different.  In fact, oftentimes you'll see only some of the controller actions nested -- only the ones that actually *need* the parent's ID to uniquely specify it.  For instance, you can grab a specific Lesson by knowing only its ID.  But to get all the lessons that are listed beneath a specific Course, you need the Course ID so it will have to be nested.  Same is true for creating lessons, since they will need a parent specified:
 
-~~~ruby
+```ruby
   # config/routes.rb
   TestApp::Application.routes.draw do
     resources :courses do
       resources :lessons, :only => [:index, :create]
     end
   end
-~~~
+```
 
 If this seems a bit confusing at first, you'll pick it up quickly when you actually run into it in your own coding.  If you find yourself working inside your controller and needing the parent's ID, the route should have been nested.  If you find that you don't need the parent's ID, it doesn't need to be nested.  Easy enough.
 
@@ -88,7 +88,7 @@ If this seems a bit confusing at first, you'll pick it up quickly when you actua
 
 Sometimes you want to add another non-RESTful route to a resource. If you'd like to add a route to just a single member of that resource, use the `#member` method:
 
-~~~ruby
+```ruby
   # config/routes.rb
   TestApp::Application.routes.draw do
     resources :courses do
@@ -97,13 +97,13 @@ Sometimes you want to add another non-RESTful route to a resource. If you'd like
       end
     end
   end
-~~~
+```
 
 That route would map to the `courses#preview` action.  You can add as many as you'd like.
 
 If you'd like to add a non-RESTful route to the whole collection of your resource (so you don't need to specify the `:id` attribute, like with the `index` action), you instead use the `#collection` method:
 
-~~~ruby
+```ruby
   # config/routes.rb
   TestApp::Application.routes.draw do
     resources :courses do
@@ -115,7 +115,7 @@ If you'd like to add a non-RESTful route to the whole collection of your resourc
       end
     end
   end
-~~~
+```
 
 The `upcoming` route will map to the `courses#upcoming` action but will not take an `:id` parameter.
 
@@ -125,12 +125,12 @@ If any of this seems confusing, just play around with them and run `$ rails rout
 
 You might want to provide a URL out of convenience for your user but map it directly to another one you're already using.  Use a redirect:
 
-~~~ruby
+```ruby
   # config/routes.rb
   TestApp::Application.routes.draw do
     get 'courses/:course_name' => redirect('/courses/%{course_name}/lessons'), :as => "course"
   end
-~~~
+```
 
 Well, that got interesting fast.  The basic principle here is to just use the `#redirect` method to send one route to another route.  If your route is basic, it's a really straightforward method. But if you want to also send the original parameters, you need to do a bit of gymnastics by capturing the parameter inside `%{here}`.  Note the single quotes around everything.
 
@@ -140,17 +140,17 @@ In the example above, we've also renamed the route for convenience by using an a
 
 Along with the advanced routing topics covered, it can also be helpful to think about controllers in Rails that don't necessarily have their own ActiveRecord model to work with. Consider that we have a request for the application so that a `lesson` can have accompanying `images`. That seems easy enough, so we can update our model:
 
-~~~ruby
+```ruby
 # app/models/lesson.rb
 class Lesson < ApplicationRecord
   # other stuff
   has_many_attached :images
 end
-~~~
+```
 
 Then, we think about how we might want to manage these images from the route and controller side. We might think of something like this at first:
 
-~~~ruby
+```ruby
 # config/routes.rb
 resources :lessons do
   member do
@@ -158,20 +158,20 @@ resources :lessons do
     delete :remove_image
   end
 end
-~~~
+```
 
 Then we have accompanying methods in the `LessonsController` to process the images. This would work well enough, but when we think about Rails controllers as standalone concepts, we might choose to implement this feature differently. Consider this second approach to the implementation:
 
-~~~ruby
+```ruby
 # config/routes.rb
 resources :lessons do
   resources :images, only: [:create, :delete]
 end
-~~~
+```
 
 Along with a new controller `Lessons::ImagesController` which looks like this:
 
-~~~ruby
+```ruby
 # app/controllers/lessons/images_controller.rb
 module Lessons
   class ImagesController < ApplicationController
@@ -184,7 +184,7 @@ module Lessons
     end
   end
 end
-~~~
+```
 
 What we've done is made the implementation more RESTful, because we no longer have any custom non-RESTful actions. Instead, we have a whole new (RESTful) controller. This controller doesn't relate to its own model to handle these actions, but works on the `Lesson` model. Not only that, by using a new controller we are able to stick to the REST actions to describe what we are doing: *creating* a new image attachment, or *destroying* an image for a lesson.
 
@@ -206,18 +206,18 @@ For instance, you might have a specific layout file for your static pages called
 
 In this case, you would tell your `static_pages.html.erb` layout to call the `application.html.erb` layout but also pass it some special CSS by using the `#content_for` method, e.g.
 
-~~~ruby
+```erb
   # app/views/layouts/static_pages.html.erb
 
   <% content_for :stylesheets do %>
     #navbar {display: none}
   <% end %>
   <%= render :template => "layouts/application" %>
-~~~
+```
 
 Then your `application.html.erb` layout needs to be set up to catch that content and use it, for instance by adding this `#yield` line:
 
-~~~ruby
+```erb
   # app/views/layouts/application.html.erb
   ...
   <head>
@@ -227,11 +227,11 @@ Then your `application.html.erb` layout needs to be set up to catch that content
   ...
   render :template => "static_pages.html.erb"
   ...
-~~~
+```
 
 When you `#yield` to a particular content block, in this case `:stylesheets`, it will essentially drop the code from inside of that `content_for`'s block to where the `#yield` method was.  So in the above example, we effectively added some CSS styling to the application layout by first rendering a special `static_pages.html.erb` layout and then passing the styles to the main `application.html.erb` layout using `#content_for`.  The result would look like:
 
-~~~html
+```erb
   # app/views/layouts/application.html.erb
   ...
   <head>
@@ -239,7 +239,7 @@ When you `#yield` to a particular content block, in this case `:stylesheets`, it
     <style> #navbar {display: none} </style>
   </head>
   ...
-~~~
+```
 
 This trick is useful for more than just passing stylesheet information... any time you find yourself wanting to make a section of your site look different but without totally redesigning it with a fully new layout, you might consider nesting your layouts and passing information from one to another.
 
@@ -253,18 +253,18 @@ The routes example almost isn't fair, though, because you wrote your `routes.rb`
 
 Ruby provides the `#send` method to save the day.  If you want to run a method on an object, just *send* that object the method and any arguments you want. A basic example you can do on your command line is `1+2`:
 
-~~~bash
+```bash
   > 1 + 2
   => 3
   > 1.send(:+, 2)
   => 3
-~~~
+```
 
 In an ordinary situation, there's no reason to use the `#send` method but if you don't know which method you're going to need to call, it's a lifesaver.  Just pass it the symbolized name of the method you want to run on that object and Ruby will go looking for it.
 
-But how do you define a new method on the fly anyway?  In this case, you can use the `#define_method` method, which takes the symbol of what you'd like to define and a block representing the method itself.  The following examples were taken from [this metaprogramming guide from ruby-metaprogramming.rubylearning.com](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html):
+But how do you define a new method on the fly anyway?  In this case, you can use the `#define_method` method, which takes the symbol of what you'd like to define and a block representing the method itself. The following examples were taken from this [metaprogramming guide from ruby-metaprogramming.rubylearning.com](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html):
 
-~~~ruby
+```ruby
   class Rubyist
 
     define_method :hello do |my_arg|
@@ -274,13 +274,13 @@ But how do you define a new method on the fly anyway?  In this case, you can use
 
   obj = Rubyist.new
   puts(obj.hello('Matz')) # => Matz
-~~~
+```
 
 Another very powerful tool is the `#method_missing` method.  You've certainly seen errors that say something to the effect of "Hey you, you tried to call a method that doesn't exist!" and the stack trace will probably run through something called `method_missing`.  Most likely, you had a typo and spelled your method incorrectly.
 
 Basically, `#method_missing` is a method of Ruby's `BasicObject` class which gets inherited by every single object in Ruby and it is called whenever you try to run a method that doesn't actually exist.  It also gets passed all the arguments you tried to send and any blocks that went with it.  That means that you can override `#method_missing` yourself for a given object and use whatever was previously called, for example printing out a message saying the name of the method you tried to call and its arguments:
 
-~~~ruby
+```ruby
   class Rubyist
 
     def method_missing(m, *args, &block)
@@ -293,9 +293,9 @@ Basically, `#method_missing` is a method of Ruby's `BasicObject` class which get
       end
     end
   end
-~~~
+```
 
-~~~ruby
+```ruby
   > Rubyist.new.anything
   "Called anything with []"
   => nil
@@ -303,7 +303,7 @@ Basically, `#method_missing` is a method of Ruby's `BasicObject` class which get
   > Rubyist.new.anything(3, 4) { "something" }
   "Called anything with [3, 4] and also a block: #<Proc:0x007fa0261d2ae0@(irb):38>"
   => nil
-~~~
+```
 
 Metaprogramming is really nifty stuff and there are tons of interesting uses for it.  You don't need to master it to learn Rails, so only dive into it once you're comfortable with Rails, but it will certainly be useful to you in the real world.  There are all kinds of metaprogramming tricks and patterns and tips out there but it's beyond the scope of this course to dive into them.
 
@@ -317,34 +317,32 @@ Design patterns have a mixed reputation among software developers.  On the one h
 
 The [Wikipedia article on SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) provides a good overview and good links related to SOLID software design.  If you're looking to write great code, you'll need to know each of the principles the letters represent (paraphrasing):
 
-* [**S**ingle Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle) (A class should only have a single responsibility)
-* [**O**pen/Closed Principle](http://en.wikipedia.org/wiki/Open/closed_principle) (your code entities should be open for extension but closed to modification)
-* [**L**iskov Substitution Principle](http://en.wikipedia.org/wiki/Liskov_substitution_principle) (replacing an object with one of its sub-types shouldn't break anything)
-* [**I**nterface Segregation Principle](http://en.wikipedia.org/wiki/Interface_segregation_principle) (writing many client-specific interfaces is better than one behemoth general-use interface... think APIs)
-* [**D**ependency Inversion Principle](http://en.wikipedia.org/wiki/Dependency_inversion_principle) (instead of high level constructs depending on lower level ones, make them rely on abstractions instead)
+- [Single Responsibility Principle](http://en.wikipedia.org/wiki/Single_responsibility_principle) (A class should only have a single responsibility)
+- [Open/Closed Principle](http://en.wikipedia.org/wiki/Open/closed_principle) (your code entities should be open for extension but closed to modification)
+- [Liskov Substitution Principle](http://en.wikipedia.org/wiki/Liskov_substitution_principle) (replacing an object with one of its sub-types shouldn't break anything)
+- [Interface Segregation Principle](http://en.wikipedia.org/wiki/Interface_segregation_principle) (writing many client-specific interfaces is better than one behemoth general-use interface... think APIs)
+- [Dependency Inversion Principle](http://en.wikipedia.org/wiki/Dependency_inversion_principle) (instead of high level constructs depending on lower level ones, make them rely on abstractions instead)
 
 Luckily, Rails has done a pretty good job of following these, so you should have absorbed some good habits just through using it. But you'll want to take a minute and read up on each of them (including the odd-sounding ones) because they're fairly central to all software engineering (and a ripe interview question).
 
-If you're particularly interested in pursuing design patterns, check out the "Gang of Four" (GoF) Patterns laid out in [this blog post from blackwasp.co.uk](http://www.blackwasp.co.uk/GofPatterns.aspx).
-
 There's a useful book written on anti-patterns, which can help you clean up your code by identifying bad smells, called [Rails Antipatterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814/) by Tammer Saleh and Chad Pytel.
-
 
 ### I18n: Internationalization
 
-[Internationalization and Localization](http://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adapting your application to fit specific geographies and/or languages.  It's outside our scope to cover, but for those who are interested, check out [this Sitepoint tutorial on it](http://www.sitepoint.com/go-global-rails-i18n/), as suggested by K. Bates.
-
+[Internationalization and Localization](http://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adapting your application to fit specific geographies and/or languages. It's outside our scope to cover, but for those who are interested, check out this [Sitepoint tutorial on internationalization](http://www.sitepoint.com/go-global-rails-i18n/), as suggested by K. Bates.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Skim the [Rails Guide on Routing](http://guides.rubyonrails.org/routing.html#controller-namespaces-and-routing) section 2.6 about namespacing.
-  2. Read the same guide sections 2.7-3.7 to learn about nested, member and collection routes and more.
-  3. Read the same guide, sections 3.8-3.15 for a variety of different advanced routing topics including constraining the inputs to your routes and redirection.
-  4. Skim the same guide, chapter 4.  Some stuff we've seen but most is just to give you a sense for what's possible.  When you need it, you'll probably Google your way back there.
-  5. Read the [Rails Guide on Layouts](http://guides.rubyonrails.org/layouts_and_rendering.html#using-nested-layouts) section 3.5 to see how to pass information between your view file and your layout file, including CSS styles.  Really take a minute to understand what's going on in the example there.
-  6. If you're interested in peeking at metaprogramming, read through [this resource](https://web.archive.org/web/20210514184321/http://ruby-metaprogramming.rubylearning.com/).  It's not essential to building early Rails apps but you'll definitely start running into it more in "the wild".
-  7. Glance through [this Slideshare Presentation on SOLID](http://www.slideshare.net/jcfischer/solid-ruby-solid-rails) principles.
+  1. Read the same guide sections 2.7-3.7 to learn about nested, member and collection routes and more.
+  1. Read the same guide, sections 3.8-3.15 for a variety of different advanced routing topics including constraining the inputs to your routes and redirection.
+  1. Skim the same guide, chapter 4.  Some stuff we've seen but most is just to give you a sense for what's possible.  When you need it, you'll probably Google your way back there.
+  1. Read the [Rails Guide on Layouts](http://guides.rubyonrails.org/layouts_and_rendering.html#using-nested-layouts) section 3.5 to see how to pass information between your view file and your layout file, including CSS styles.  Really take a minute to understand what's going on in the example there.
+  1. If you're interested, take a peek at [Ruby metaprogramming](https://web.archive.org/web/20210514184321/http://ruby-metaprogramming.rubylearning.com/). It's not essential to building early Rails apps but you'll definitely start running into it more in "the wild".
+  1. Glance through this [Slideshare Presentation on SOLID principles](http://www.slideshare.net/jcfischer/solid-ruby-solid-rails).
+
 </div>
 
 ### Conclusion
@@ -353,24 +351,26 @@ In this lesson we covered some fairly random and intricate concepts but useful s
 
 The more general principles like SOLID design and metaprogramming will be useful to you regardless of whether you stick with Ruby and Rails or move on to better and brighter things.
 
-### Additional resources
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
-
-* [Stack Overflow question on the topic](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
-* [In Relentless Pursuit of REST by Derek Prior](https://www.youtube.com/watch?v=HctYHe-YjnE)
-* [A video from Yehuda Katz on Rails Security](http://youtu.be/2Ex8EEv-WPs)
-* See the first solution to [this SO question](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting) for a nice way to work with multiple layouts that use classes to trigger different CSS styling.
-* [Ruby Metaprogramming](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
-* [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)
-* [A longer explanation of SOLID principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)
-
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href="#singular-resources">What would the routes file line for a singular resource look like?</a>
-* <a class="knowledge-check-link" href="#nested-routes">How do you nest one resource inside another in the routes file?</a>
-* <a class="knowledge-check-link" href="#member-and-collection-routes">When do you use the `#member` method?</a>
-* <a class="knowledge-check-link" href="#redirects-and-wildcard-routes">When do you use a redirect?</a>
-* <a class="knowledge-check-link" href="#advanced-layouts-nesting-layouts-and-passing-information">What are some techniques for rendering multiple layouts for one page?</a>
-* <a class="knowledge-check-link" href="#metaprogramming-rails">What does the `#send` method do?</a>
-* <a class="knowledge-check-link" href="#design-patterns">What are the five design principles represented by the SOLID acronym?</a>
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What would the routes file line for a singular resource look like?](#singular-resources)
+- [How do you nest one resource inside another in the routes file?](#nested-routes)
+- [When do you use the `#member` method?](#member-and-collection-routes)
+- [When do you use a redirect?](#redirects-and-wildcard-routes)
+- [What are some techniques for rendering multiple layouts for one page?](#advanced-layouts-nesting-layouts-and-passing-information)
+- [What does the `#send` method do?](#metaprogramming-rails)
+- [What are the five design principles represented by the SOLID acronym?](#design-patterns)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- A Stack Overflow question on [understanding singular resource in Rails](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
+- [In Relentless Pursuit of REST by Derek Prior](https://www.youtube.com/watch?v=HctYHe-YjnE)
+- [A video from Yehuda Katz on Rails Security](http://youtu.be/2Ex8EEv-WPs)
+- The first solution in this Stack Overflow question demonstrates a nice way to [work with multiple layouts that uses classes to trigger different CSS styling](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting).
+- [Ruby Metaprogramming](https://web.archive.org/web/20200801134147/http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
+- [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)
+- [A longer explanation of SOLID principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)

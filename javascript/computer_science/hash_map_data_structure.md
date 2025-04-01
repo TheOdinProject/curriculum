@@ -1,12 +1,12 @@
 ### Introduction
 
-One of the most used data structures across programming languages is a hash table, aka hash map. If you've worked with JavaScript Object Literals (`{}`), [`Set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), or [`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), then you have used structures based on hash tables. But how do they work internally? How can we save key value pairs and later retrieve them?
+One of the most used data structures across programming languages is a hash table, aka hash map. A hash map is similar to a conventional array, except it uses "keys" as indices rather than meaningless sequential numbering of the values. With the data organized in this way, we get quick search speeds for keys in the structure. If you've worked with JavaScript Object Literals (`{}`), [`Set`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set), or [`Map`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), then you have used structures based on hash tables. But how do they work internally? How can we save key value pairs and later retrieve them?
 
 In this lesson, you will learn how it all works, and even implement your own hash map in the next project! To start, here is a brief description of a hash map: a hash map takes in a key value pair, produces a hash code, and stores the pair in a bucket. Hash codes? Buckets? What? Don't fret, we'll learn all about these concepts and more. Buckle up and let's dive in!
 
 ### Lesson overview
 
-By the end of this lesson, you will learn about:
+This section contains a general overview of topics that you will learn in this lesson.
 
 - Hash codes and how to generate them.
 - Hash maps and how they work internally.
@@ -27,14 +27,16 @@ There is a key difference between hashing and ciphering (encryption): reversibil
 Hashing is a one-way process. Using the above example, you can make a hash code from a name, but you cannot take a hash code and revert it back to a name. If you have a name `"Carlos"`, we can hash it to `"C"`. But it's impossible to reverse it from `"C"` back to its original form. You cannot know if it's `"Carlos"`, maybe it's `"Carla"` or `"Carrot"`. We don't know.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
 Hashing is very good for security. Given a password, you can save the hash of that password rather than the password's plain text. If someone steals your hashes, they cannot know the original passwords since they are unable to reverse the hash back to the password.
+
 </div>
 
 #### Use cases
 
 What can we do with those hashes? You have probably seen it in school where a folder is organized into smaller folders, and each folder holds information about people with the same first letter:
 
-```
+```text
 C:
   carlos.txt
   carla.txt
@@ -80,31 +82,36 @@ function hash(name, surname) {
 
 We not only consider the first letters with this technique. Instead, we take the entire name and convert it into numbers.
 
-You might be thinking, wouldn't it be just better to save the whole name as a hash code? That is true. This would make it unique for each name, but in the context of hash maps, we need the hash code to be a number. This number will serve as the index to the bucket that will store the key value pair. More on buckets in the next section.
+You might be thinking, wouldn't it just be better to save the whole name as a hash code? That is true. This would make it unique for each name, but in the context of hash maps, we need the hash code to be a number. This number will serve as the index to the bucket that will store the key value pair. More on buckets in the next section.
 
 ### Buckets
 
-Buckets are storage that we need to store our elements. Simply, it's an array. For a specific key, we decide which bucket to use for storage through our hash function. The hash function returns a number that serves as the index of the array at which we store this specific key value pair. Let's say we need to store a key "Fred":
+Buckets are storage that we need to store our elements. We can consider each index of an array to have a bucket. For a specific key, we decide which bucket to use for storage through our hash function. The hash function returns a number that serves as the index of the array at which we store this specific key value pair. Let's say we wanted to store a person's full name as a key "Fred" with a value of "Smith":
 
-1. Pass "Fred" into the hash function to get the hash code which is `508`.
-1. Find the bucket at index `508`.
-1. Store the key value pair in that bucket.
+1. Pass "Fred" into the hash function to get the hash code which is `385`.
+1. Find the bucket at index `385`.
+1. Store the key value pair in that bucket. In this case, the key would be "Fred" and the value would be "Smith".
+
+What if the bucket at index `385` already contains an item with the same key "Fred"? We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`. A `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have nodes with only keys and no values.
 
 This is an oversimplified explanation; we'll discuss more internal mechanics later in the lesson.
 
-To get a value using a key, we put each entry inside a bucket as a `Node` item, which holds both the key and the value. To retrieve the value, we hash the key and calculate its bucket number. If the bucket is not empty, then we go to that bucket and compare if the Node's key is the same key that is already in the bucket. If it is, then we can return the Node's value. Otherwise, we return `null`.
+Now if we wanted to get a value using a key:
+
+1. To retrieve the value, we hash the key and calculate the index of its bucket.
+1. If the bucket is not empty, then we go to that bucket.
+1. Now we compare if the node's key is the same key that was used for the retrieval.
+1. If it is, then we can return the node's value. Otherwise, we return `null`.
 
 Maybe you are wondering, why are we comparing the keys if we already found the index of that bucket? Remember, a hash code is just the location. Different keys might generate the same hash code. We need to make sure the key is the same by comparing both keys that are inside the bucket.
 
-This is it, making this will result in a hash table with `has`, `set` and `get`.
-
-What if we found the hash code, but also the key value is the same as what we already have in the bucket? We check if it's the same item by comparing the keys, then we overwrite the value with our new value. This is how we can only have unique values inside a `Set`. A `Set` is similar to a hash map but the key difference (pun intended) is that a `Set` will have Nodes with only keys and no values.
+This is it, making this will result in a hash map with `has`, `set` and `get`.
 
 #### Insertion order is not maintained
 
 A hash map does not guarantee insertion order when you iterate over it. The translation of hash codes to indexes does not follow a linear progression from the first to the last index. Instead, it is more unpredictable, irrespective of the order in which items are inserted. That means if you are to retrieve the array of keys and values to iterate over them, then they will not be in order of when you inserted them.
 
-Some libraries implement hash tables with insertion order in mind such as JavaScript's own `Map`. For the coming project however we will be implementing an unordered hash table.
+Some libraries implement hash maps with insertion order in mind such as JavaScript's own `Map`. For the coming project however we will be implementing an unordered hash map.
 Example: if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]` when we call an iterator.
 
 If iterating over a hash map frequently is your goal, then this data structure is not the right choice for the job, a simple array would be better.
@@ -132,7 +139,9 @@ function stringToNumber(string) {
 With our new function we will have different hash codes for the names `"Sara"` and `"raSa"`. This is because even if both names have the same letters, some of the letters appear in different locations. The hash code started to change because we are multiplying the old hash with every new iteration and then adding the letter code.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
   Notice the usage of a prime number. We could have chosen any number we wanted, but prime numbers are preferable. Multiplying by a prime number will reduce the likelihood of hash codes being evenly divisible by the bucket length, which helps minimize the occurrence of collisions.
+
 </div>
 
 Even though we reworked our hash function to avoid the `"Sara"/"raSa"` collision, there is always the possibility for collisions. Since we have a finite number of buckets, there is no way to eliminate collisions entirely. Let's try to minimize them.
@@ -143,12 +152,14 @@ Up until now, our hash map is a one-dimensional data structure. What if each `No
 
 You probably understand by this point why we must write a good hashing function which eliminates as many collisions as possible. Most likely you will not be writing your own hash functions, as most languages have it built in, but understanding how hash functions work is important.
 
-### Growth of a hash table
+### Growth of a hash map
 
-Let's talk about the growth of our buckets. We don't have infinite memory, so we can't have the infinite number of buckets. We need to start somewhere, but starting too big is also a waste of memory if we're only going to have a hash map with a single value in it. So to deal with this issue, we should start with a small array for our buckets. We'll use an array size `16`.
+Let's talk about our number of buckets. We don't have infinite memory, so we can't have an infinite amount of them. We need to start somewhere, but starting too big is also a waste of memory if we're only going to have a hash map with a single value in it. So to deal with this issue, we should start with a small array for our buckets. We'll use an array of size `16`.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
   Most programming languages start with the default size of `16` because it's a power of 2, which helps with some techniques for performance that require bit manipulation for indexes.
+
 </div>
 
 How are we going to insert into those buckets when our hash function generates big numbers like `20353924`? We make use of the modulo `%` operation `given any number modulo by 16 we will get a number between 0 and 15`.
@@ -157,15 +168,17 @@ For example, if we are to find the bucket where the value `"Manon"` will land, t
 
 As we continue to add nodes into our buckets, collisions get more and more likely. Eventually, however, there will be more nodes than there are buckets, which guarantees a collision (check the additional resources section for an explanation of this fact if you're curious).
 
-Remember we don't want collisions. In a perfect world each bucket will either have 0 or 1 Node only, so we grow our buckets to have more chance that our Nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new buckets list that is double the size of the old buckets list, then we copy all nodes over to the new buckets.
+Remember we don't want collisions. In a perfect world, each bucket will either have 0 or 1 node only, so we grow our buckets array to have more chance that our nodes will spread and not stack up in the same buckets. To grow our array, we create a new one that is double its size and then copy all existing nodes over to the buckets of this new array, hashing their keys again.
 
-#### When do we know that it's time to grow our buckets size?
+#### When do we know that it's time to grow our buckets array?
 
 To deal with this, our hash map class needs to keep track of two new fields, the `capacity` and the `load factor`.
 
-- The `capacity` is the total number of buckets we currently have. Keeping track of this will let us know if our map has reached a certain threshold aka `load factor`,
+- The `capacity` is the total number of buckets we currently have.
 
-- The `load factor` is a number that we can assign our hash map to at the start. It's the factor that will determine when it is a good time to grow our buckets. For example, a load factor of `0.75` means our hash map will need to grow its buckets when the capacity reaches 75% full. Setting it too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have many collisions before we grow them. Hash map implementations across various languages use a load factor between `0.75` and `1`.
+- The `load factor` is a number that we assign our hash map to at the start. It's the factor that will determine when it is a good time to grow our buckets array. Hash map implementations across various languages use a load factor between `0.75` and `1`.
+
+The product of these two numbers gives us a number, and we know it's time to grow when there are more entries in the hash map than that number. For example, if there are `16` buckets, and the load factor is `0.8`, then we need to grow the buckets array when there are more than `16 * 0.8 = 12.8` entries - which happens on the 13th entry. Setting it too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have many collisions before we resize the array.
 
 ### Computation complexity
 
@@ -175,7 +188,7 @@ A hash map is very efficient in its insertion, retrieval and removal operations.
 - Retrieval
 - Removal
 
-Assuming we have a good hash map written. The worst case of those operations would be `O(n)` and that happens when we have all our data hashes to the same exact bucket. The complexity itself surfaces because of the linked list, and `O(n)` is because we are traversing the linked list to insert yet again another Node into the same bucket, which happens specifically because of collisions.
+Assuming we have a good hash map written. The worst case of those operations would be `O(n)` and that happens when we have all our data hashes to the same exact bucket. The complexity itself surfaces because of the linked list, and `O(n)` is because we are traversing the linked list to insert yet again another node into the same bucket, which happens specifically because of collisions.
 
 The growth of our hash map has the complexity of `O(n)` at all times.
 
@@ -184,22 +197,23 @@ The growth of our hash map has the complexity of `O(n)` at all times.
 <div class="lesson-content__panel" markdown="1">
 
 - Read [What are Hash Functions and How to choose a good Hash Function](https://www.geeksforgeeks.org/what-are-hash-functions-and-how-to-choose-a-good-hash-function) for a more technical overview of a hash function.
+- Watch this video from CS50 that explains the concept of [hash maps using buckets](https://www.youtube.com/watch?v=btT4bCOvqjs).
 
-- Watch [This Video](https://www.youtube.com/watch?v=btT4bCOvqjs) from CS50 that explains the concept of hash maps using buckets.
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What does it mean to hash?](#what-is-a-hash-code)
 - [What are buckets?](#buckets)
 - [What is a collision?](#collisions)
-- [When is it a good time to grow our table?](#when-do-we-know-that-its-time-to-grow-our-buckets-size)
+- [When is it a good time to grow our buckets array?](#when-do-we-know-that-its-time-to-grow-our-buckets-array)
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [This discussion goes through the usages of prime numbers](https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier/299748)
+- This discussion goes through the [usages of prime numbers in hash functions](https://stackoverflow.com/questions/299304/why-does-javas-hashcode-in-string-use-31-as-a-multiplier/299748).
 - The [pigeonhole principle](https://en.wikipedia.org/wiki/Pigeonhole_principle) mathematically guarantees collisions when there are more nodes than boxes.
+- Check out [Hashing](https://samwho.dev/hashing/) if you want to get a better fundamental understanding of hash functions.

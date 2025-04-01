@@ -13,3 +13,9 @@ Fortunately, there isn't much to learn here. We're only including a lesson on it
 3. Mis-formatted JSON is a common cause of errors. This [JSON formatter website](https://jsonformatter.curiousconcept.com/) lets you paste in JSON code and will search it for formatting errors.
 
 </div>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

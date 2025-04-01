@@ -19,6 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 - Commonly used Rails query methods.
 - N+1 queries and why they are a concern.
 - What scopes are.
+- What enums are.
 
 ### Relations and lazy evaluation
 
@@ -86,10 +87,10 @@ The new concept is how to check whether an object actually exists yet or not, wh
 There are multiple ways to submit arguments for most Rails query methods. You can typically use either symbols or strings or both. We prefer to stick with symbols and hashes wherever possible. You can also use `?` parameters like in normal SQL. When it's not ambiguous (e.g. if you aren't working with multiple tables) you can also choose to specify the table name or not (see #5 below). All of the following are the same:
 
 1. `User.where(email: "foo@bar.com")`
-2. `User.where("email" => "foo@bar.com")`
-3. `User.where("email = 'foo@bar.com'")`
-4. `User.where("email = ?", "foo@bar.com")`
-5. `User.where("users.email" => "foo@bar.com")`
+1. `User.where("email" => "foo@bar.com")`
+1. `User.where("email = 'foo@bar.com'")`
+1. `User.where("email = ?", "foo@bar.com")`
+1. `User.where("users.email" => "foo@bar.com")`
 
 #### More assorted querying knowledge
 
@@ -204,40 +205,111 @@ You might be thinking, Why use a scope when you can write a class method to do t
   ...
 ```
 
-See the Additional Resources section for links to some posts that dig a bit deeper into the use cases for these two.
+See the [Additional Resources section](#additional-resources) for links to some posts that dig a bit deeper into the use cases for these two.
 
 How much do you need to understand or care about scopes? In the early going, you probably won't run into them or see why to use them. Keep them in the back of your mind for when you start working on some slightly more complicated projects that might need them.
+
+### Enums
+
+Enums (short for "enumerations") map a database column, typically an n integer, to a set of symbolic names. They make code more readable and maintainable, and they offer a performance boost since queries involving integers are faster than those involving strings.
+
+Enums are perfect for representing the state of an attribute that has a discrete value. As an example, suppose an article on a blog can be in a `draft` or `published` state. It is never between these two states, and it is never in more than one at any time.
+
+#### How to use enums
+
+To implement `enum`s, we need to declare them in the model and add a column to store them in the database table that stores instances of the model.
+
+Since enums are stored as integers in the database and there is no native `enum` type available in most database schemas, we set their data type to `integer`:
+
+```bash
+# If building a new model, pass `column_name:integer` to the model generator
+bin/rails g model Article status:integer
+
+# If adding a column to an existing table:
+bin/rails g migration AddStatusToLightSwitch status:integer
+```
+
+Enums are declared in the model's class as either an array or a hash. The hash flavor has a slight advantage in that the integer values mapped to the `enum` are independent of their position and the values stored in the database are explicitly stated.
+
+```ruby
+# Hash declaration (recommended)
+class Article < ApplicationRecord
+  belongs_to :author
+  enum :status, { draft: 0, published: 1 }
+end
+```
+
+Articles can now be passed a status during creation:
+
+```ruby
+article = Article.create(status: :draft)
+```
+
+Defining an enum on a model exposes a number of class methods that return collections:
+
+```ruby
+Article.draft
+Article.not_draft
+Article.published
+Article.not_published
+```
+
+These are functionally equivalent to the following [scopes](#scopes):
+
+```ruby
+scope :draft, -> { where(status: "draft") }
+scope :not_draft, -> { where.not(status: "draft")}
+scope :published, -> { where(status: "published") }
+scope :not_published, -> { where.not(status: "published") }
+```
+
+A number of handy instance methods are also exposed:
+
+```ruby
+# Predicates
+article.draft?               #=> true
+article.published?           #=> false
+
+# Getters
+article.status               #=> "draft"
+
+# Setters
+article.status = "published" #=> "published"
+article.draft!               #=> "draft"
+```
 
 ### Bare-metal SQL
 
 Sometimes, you just can't get ActiveRecord to do what you want it to. In that case, it gives you an interface to the bare metal SQL so you can just type in your query as desired. This should really be a last resort -- it's basically hard-coding your application code. Use the `#find_by_sql` method for this.
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
-
-### Querying basics
-
-1. Read the first 6 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions. Don't worry too much about batching and `#find_each`.
-2. Read section 20 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects) for a brief look at using `exists?`, `any?` and `many?`.
-3. Read sections 7, 8 and 21 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#group) for an understanding of aggregate functions and the calculations you can run on them.
-4. Skim sections 9-12 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions). 
-5. Read section 12 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#joining-tables) to see how Rails lets you play with joining tables together.
-6. Read section 18 of the [same Rails Guide](https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object) for a quick look at the helpful `find_or_create_by` methods.
-
-### Advanced querying
-
-1. Read section 14 in the [Rails Guide on Querying](https://guides.rubyonrails.org/active_record_querying.html#scopes) for a look at scopes. Again, you don't necessarily need to memorize all the details of scopes, but you should understand the concept and when it might be useful.
-2. Read section 19 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql) for a look at using SQL directly.
-</div>
-
 ### Conclusion
 
 This was a lot of material, but you should have a healthy appreciation for the breadth of things that you can do with Active Record. At the most basic level, though, you can do pretty much anything you can in SQL by using Active Record query methods. You'll get a chance to use some of these newfound query methods in future projects and others will come up when you're building things on your own.
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+#### Querying basics
+
+1. Read the first 6 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions. Don't worry too much about batching and `#find_each`.
+1. Read section 20 of the same Rails guide for a brief look at [using `exists?`, `any?` and `many?`](https://guides.rubyonrails.org/active_record_querying.html#existence-of-objects).
+1. Read sections 7 and 21 to learn about [grouping and aggregate functions](https://guides.rubyonrails.org/active_record_querying.html#grouping).
+1. Skim section 8 to learn about [overriding conditions](https://guides.rubyonrails.org/active_record_querying.html#overriding-conditions).
+1. Read section 12 of the same Rails guide to see how Rails lets you play with [joining tables together](https://guides.rubyonrails.org/active_record_querying.html#joining-tables).
+1. Read section 18 of the same Rails guide for a quick look at [the helpful `find_or_create_by` methods](https://guides.rubyonrails.org/active_record_querying.html#find-or-build-a-new-object).
+
+#### Advanced querying
+
+1. Read section 14 in the [Rails Guide on Querying](https://guides.rubyonrails.org/active_record_querying.html#scopes) for a look at scopes. Again, you don't necessarily need to memorize all the details of scopes, but you should understand the concept and when it might be useful.
+1. Read [How to Use Enums in Rails](https://blog.saeloun.com/2022/01/05/how-to-use-enums-in-rails/).
+1. Read section 19 “Finding by SQL” of the same Rails guide for a look at [using SQL directly to query](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql).
+
+</div>
+
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How does lazy evaluation help make Active Record more efficient?](#relations-and-lazy-evaluation)
 - [How do you check whether a database already contains a record?](#checking-for-existence)
@@ -246,10 +318,11 @@ This section contains questions for you to check your understanding of this less
 - [What is an example of an N+1 query?](#n1-queries-and-eager-loading)
 - [What method is used to deal with an N+1 query?](#n1-queries-and-eager-loading)
 - [When would you use a class method in place of a scope?](#scopes)
+- [When should you consider using enums?](#why-use-enums)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [SO post on Using Scopes vs Class Methods](http://stackoverflow.com/questions/5899765/activerecord-rails-3-scope-vs-class-method)
 - [Platformatec diving more into the use case of scopes vs class methods](http://blog.plataformatec.com.br/2013/02/active-record-scopes-vs-class-methods/)
@@ -259,3 +332,4 @@ This section contains helpful links to related content. It isn’t required, so 
 - [N+1 Problem: Optimized Counts with Joins and Custom Select](https://www.youtube.com/watch?v=rJg3I-leoo4)
 - [Speed up ActiveRecord with a little tweaking](https://blog.codeship.com/speed-up-activerecord/)
 - [A useful gem that identifies N+1 queries](https://github.com/flyerhzm/bullet)
+- [ActiveRecord::Enum API docs](https://api.rubyonrails.org/classes/ActiveRecord/Enum.html)

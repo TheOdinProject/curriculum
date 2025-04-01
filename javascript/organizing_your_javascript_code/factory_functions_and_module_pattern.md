@@ -1,4 +1,4 @@
-### Why not constructors?
+### Introduction
 
 We have discussed object constructors in the previous lesson. However, they are one of the many ways to organize your code. While they are fairly common and a fundamental building block of the JavaScript language, they have their flaws.
 
@@ -76,21 +76,23 @@ console.log(add5(2)) // logs 7
 A lot going on, so let's break it down:
 
 1. The `makeAdding` function takes an argument, `firstNumber`, declares a constant `first` with the value of `firstNumber`, and returns another **function**.
-2. When an argument is passed to the returned function, which we have assigned to **add5**, it returns the result of adding up the number passed earlier to the number passed now (`first` to `second`).
+1. When an argument is passed to the returned function, which we have assigned to **add5**, it returns the result of adding up the number passed earlier to the number passed now (`first` to `second`).
 
 Now, while it may sound good at first glance, you may already be raising your eyebrows at the second statement. As we've learned, the `first` variable is scoped within the `makeAdding` function. When we declare and use `add5`, however, we're **outside** the `makeAdding` function. How does the `first` variable still exist, ready to be added when we pass an argument to the `add5` function? This is where we encounter the concept of closures.
 
 Functions in JavaScript form closures. A closure refers to the combination of a function and the **surrounding state** in which the function was declared. This surrounding state, also called its **lexical environment**, consists of any local variables that were in scope at the time the closure was made. Here, `add5` is a reference to the `resulting` function, created when the `makeAdding` function is executed, thus it has access to the lexical environment of the `resulting` function, which contains the `first` variable, making it available for use.
 
-This is a **crucial** behavior of functions - allowing us to associate data with functions and manipulate that data anywhere outside of the enclosing function. If you're still confused, take a small detour to examine the [second question under the Knowledge check section](#knowledge-check) - no need to read the entire thing for now, anything from "Emulating private methods with closures" onward will be discussed later in this lesson.
+This is a **crucial** behavior of functions - allowing us to associate data with functions and manipulate that data anywhere outside of the enclosing function. If you're still confused, read the [MDN documentation on Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#closure), but only the sections "Lexical scoping", "Closure" and "Practical closures". The other sections refer to concepts that will be discussed later in this lesson.
 
 ### So, what's wrong with constructors?
 
-One of the key arguments against constructors, in fact, the biggest argument is how they *look* like regular JavaScript functions, even though they do not *behave* like regular functions. If you try to use a constructor function without the `new` keyword, not only does your program fail to work, but it also produces error messages that are hard to track down and understand.
+The biggest problem with constructors is that they don't provide automatic safeguards that prevent from using them wrong.
 
-Yet another issue stems from the way the `instanceof` works. It checks the presence of a constructor's prototype in an object's *entire* prototype chain - which does nothing to confirm if an object was made with that constructor since the constructor's prototype can even be reassigned after the creation of an object.
+One of the key arguments is how they *look* like regular JavaScript functions, even though they do not *behave* like regular functions. As we warned in the object constructors lesson, if you try to use a constructor function without the `new` keyword, and you didn't include additional safeguards in the constructor not only does your program fail to work, but it also produces error messages that are hard to track down and understand.
 
-While still seen in code, these problems led to the use of a pattern that was similar to constructors but addressed a ton of these problems: Factory Functions.
+Yet another issue stems from misusing `instanceof`. In other programming languages, the keyword is a reliable way to know the code with which an object was made; but in JavaScript, it checks the presence of a constructor's prototype in an object's *entire* prototype chain - which does nothing to confirm if an object was made with that constructor since the constructor's prototype can even be reassigned after the creation of an object.
+
+Because of that, constructors have become unpopular in favor of a pattern that is similar but addresses a ton of these problems by not relying on those troublesome features: Factory Functions.
 
 ### Factory functions 🏭
 
@@ -116,7 +118,7 @@ function createUser (name) {
 
 ### The object shorthand notation
 
-Some may get confused by the way the returned object is written in the factory function example. In 2015, a shortcut to creating objects was added to JavaScript. Say we wanted to make an object with a name, age, and color. We'd write it as the following:
+Some may get confused by the way the returned object is written in the factory function example. In 2015, a shortcut to creating objects was added to JavaScript. Say we wanted to create an object with a name, age, and color, we would write it as follows:
 
 ```javascript
 const name = "Bob";
@@ -164,7 +166,7 @@ const [ zerothEle, firstEle ] = array;
 // to the elements in the 0th and 1st indices of the array
 ```
 
-[The MDN article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) on destructuring has some great examples and should be a good read for this concept.
+The [MDN documentation on destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) has some great examples and should be a good read for this concept.
 
 </div>
 
@@ -200,16 +202,24 @@ Concerning factory functions, a private variable or function uses closures to cr
 
 In this case, we did not need control of the `reputation` variable itself. To avoid foot guns, like accidentally setting the reputation to `-18000`, we expose the necessary details in the form of `getReputation` and `giveReputation`.
 
+<div class="lesson-note" markdown="1" >
+
+#### Constructors and closure
+
+Note that you could technically also use closure in constructors, by defining the methods to access a "private property" inside the constructor, instead of on the prototype. But that would make them non-inheritable, which defies the purpose of constructors.
+
+</div>
+
 ### Prototypal inheritance with factories
 
 In the lesson with constructors, we looked deeply into the concept of prototype and inheritance, and how to give our objects access to the properties of another. With factory functions too, there are easy ways to do that. Take another hypothetical scenario into consideration. We need to extend the `User` factory into a `Player` factory that needs to control some more metrics - there are some ways to do that:
 
 ```javascript
 function createPlayer (name, level) {
-  const { discordName, getReputation } = createUser(name);
+  const { getReputation, giveReputation } = createUser(name);
 
   const increaseLevel = () => level++;
-  return { name, discordName, getReputation, increaseLevel };
+  return { name, getReputation, giveReputation, increaseLevel };
 }
 ```
 
@@ -224,7 +234,7 @@ function createPlayer (name, level) {
 }
 ```
 
-### The module pattern - IIFEs
+### The module pattern: IIFEs
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
 
@@ -263,32 +273,31 @@ Take the calculator example into consideration. It's very easy to imagine a scen
 <div class="lesson-content__panel" markdown="1">
 
 1. WesBos has a beautiful and in-depth section on scopes and closures. Please check out these sections under "Module 3 - The Tricky Bits":
-  - [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
-  - [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
-1. [Tarek Sherif's article discussing the problems with constructors](https://tsherif.wordpress.com/2013/08/04/constructors-are-bad-for-javascript/) goes into depth while suggesting factories as a solution.
+   - [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
+   - [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
 1. Read this article on [module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm) by Tomek Buszewski.
-1. In case you prefer video lessons, [this YouTube series on module pattern](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f) covers most of the content that we have discussed.
+1. As an optional alternative, in case you prefer video lessons, this [YouTube series on module pattern](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f) covers most of the content that we have discussed. Note that the videos include jQuery, but you don't need to understand the jQuery syntax since the focus is on the module pattern concept.
 
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Explain how scope works in JavaScript.](https://wesbos.com/javascript-scoping)
-- [Explain what closures are and how they help in creating private variables.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#closure)
-- [Describe the common issues that you can face when working with constructors.](#so-whats-wrong-with-constructors)
-- [Describe private variables in factory functions and how they can be useful.](#private-variables-and-functions)
-- [Describe how we can implement prototypal inheritance with factory functions.](#prototypal-inheritance-with-factories)
-- [Explain how the module pattern works.](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
-- [Describe IIFEs and what they stand for.](http://adripofjavascript.com/blog/drips/an-introduction-to-iffes-immediately-invoked-function-expressions.html)
-- [Explain the concept of namespacing and how factory functions help with encapsulation.](#encapsulating-with-the-module-pattern)
+- [How does scope work in JavaScript?](#scoopfuls-of-scopes)
+- [What are closures and how do they help in creating private variables?](#closures-arent-scary)
+- [What common issues can you face when working with constructors?](#so-whats-wrong-with-constructors)
+- [What are private variables in factory functions and how can they be useful?](#private-variables-and-functions)
+- [How can we implement prototypal inheritance with factory functions?](#prototypal-inheritance-with-factories)
+- [How does the module pattern work?](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
+- [What does IIFE stand for and what are they?](#the-module-pattern-iifes)
+- [What is the concept of namespacing and how do factory functions help with encapsulation?](#encapsulating-with-the-module-pattern)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [This video explains closures with a good example.](https://www.youtube.com/watch?v=80O6L2Ez3GM)
-- [Here is an interactive scrim on factory functions.](https://scrimba.com/scrim/c2aaKzcV)
-- [This article discusses three different kinds of prototypal inheritance with some good examples](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9)
+- This video explains [a good example of closures](https://www.youtube.com/watch?v=80O6L2Ez3GM).
+- Here is an [interactive scrim on factory functions](https://v1.scrimba.com/scrim/c2aaKzcV).
+- This article discusses [three different kinds of prototypal inheritance](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9) with some good examples.
 - [Learning JavaScript Design Patterns by Addy Osmani and Lydia Hallie](https://www.patterns.dev/)

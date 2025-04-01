@@ -1,8 +1,10 @@
+<!-- markdownlint-disable MD024 MD043 -->
+
 ### Introduction
 
 Node.js is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser. We will need this for some exercises in the upcoming lessons. To get started, there are some required tools we need before we can install Node on your system.
 
-We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change Node versions and upgrade Node. There is another tool called `npm` (Node Package Manager) that you will use later to install the various libraries and tools used in JavaScript environments. It can be easy to confuse these two, so read carefully!
+We're going to install it using `nvm` (Node Version Manager), because it makes it easy to change Node versions and upgrade Node. There is another tool called `npm` that we will later use to install the various libraries and tools used in JavaScript environments. It can be easy to confuse these two, so read carefully!
 
 Node is also very easy to install using nvm, so this should go quickly :)
 
@@ -10,12 +12,13 @@ Node is also very easy to install using nvm, so this should go quickly :)
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Learn how to Install Node Version Manager and Node Package Manager
-- Learn how to run Node console
+- Learn how to Install `nvm` (Node Version Manager) and `npm`.
+- Learn how to run Node console.
 
 ### Installing NVM
 
 <details markdown="block">
+  
   <summary class="dropDown-header">Installation on Linux</summary>
 
 #### Step 0: Prerequisites
@@ -32,12 +35,12 @@ Note: You may need to update the Ubuntu package lists to the latest version for 
 sudo apt update && sudo apt upgrade
 ```
 
-#### Step 1: Downloading and installing NVM
+#### Step 1: Downloading and Installing NVM
 
 Run this command to install `nvm`:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
 
 #### Step 2: Initializing NVM
@@ -55,11 +58,12 @@ You can verify `nvm` is installed by running the command:
 command -v nvm
 ```
 
-if this returns `nvm: command not found`, close the terminal and re-open it.
+If this returns `nvm: command not found`, close the terminal and re-open it.
 
 </details>
 
 <details markdown="block">
+  
   <summary class="dropDown-header">Installation on macOS</summary>
   
 On macOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it.
@@ -71,7 +75,7 @@ touch ~/.zshrc
 ```
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
 
 Restart your terminal, or copy and paste the following into your terminal and press <kbd>Enter</kbd>:
@@ -88,7 +92,7 @@ Test your nvm installation by running:
 nvm --version
 ```
 
-For more information, view [NVM's github documentation](https://github.com/nvm-sh/nvm#installation-and-update).
+For more information, read about [installing and updating from NVM's GitHub](https://github.com/nvm-sh/nvm#installation-and-update).
 
 </details>
 
@@ -128,12 +132,12 @@ If you see that, you have successfully installed Node!
 
 ### Using Node console
 
-For convenience, Node provides an interactive console which lets you run and edit your javascript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.
+For convenience, Node provides an interactive console which lets you run and edit your JavaScript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.
 
 To run the Node console, open up your terminal and type `node`. Type `.exit` to quit the console.
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Check out this 4 minute video by Programming with Mosh [What is NodeJS?](https://www.youtube.com/watch?v=uVwtVBpw7RQ)

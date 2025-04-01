@@ -82,3 +82,9 @@ There isn't much more to what we've covered above but there are a couple of idea
   1. Read the [cssbundling-rails gem's README](https://github.com/rails/cssbundling-rails) as the FAQ has some information about using the gem and it gets updated from time to time with new information.
   2. If you are interested in using any of the tools it offers, go to the relevant website and see how you can get started using it in your own applications.
 </div>
+
+### Additional resources
+
+This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

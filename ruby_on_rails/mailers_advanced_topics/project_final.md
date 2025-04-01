@@ -2,7 +2,7 @@
 
 You've come a long way, congratulations! At this point, you should feel comfortable with building new Rails applications, modelling data, and working with forms. This project will require you to put all your newfound knowledge to the test. It should serve as a great portfolio piece for what you're capable of. It'll take some thought and time but it's certainly within reach of your skills.
 
-You'll be building a clone of a social media site, such as Facebook, Twitter, Myspace, or Threads. As with our previous lessons, how much effort you want to put into the styling and front end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, following, and "liking".
+You'll be building a clone of a social media site, such as Facebook, X, Myspace, or Threads. As with our previous lessons, how much effort you want to put into the styling and front end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, following, and "liking".
 
 You'll also implement some form of authentication. Ideally, you'll want to use OmniAuth to support authenticating via the social media site you're cloning, but some sites (such as Facebook), have recently made this process impossible. If this is the case for your site, you can use Devise to support authenticating via username and password (using Devise) or via Github with `omniauth-github`.
 
@@ -22,7 +22,7 @@ Keep the following requirements in mind. We'll cover specific steps to get start
 
 1. Use PostgreSQL for your database from the beginning (not SQLite3), that way your deployment will go much more smoothly.
 1. Users must sign in to see anything except the sign in page.
-1. User sign-in should use the [Devise](https://github.com/plataformatec/devise) gem. Devise gives you all sorts of helpful methods so you no longer have to write your own user passwords, sessions, and `#current_user` methods. See the [Railscast](http://railscasts.com/episodes/209-introducing-devise?view=asciicast) (which uses Rails 3) for a step-by-step introduction. The docs will be fully current.
+1. User sign-in should use the [Devise](https://github.com/plataformatec/devise) gem. Devise gives you all sorts of helpful methods so you no longer have to write your own user passwords, sessions, and `#current_user` methods. See the [Railscast on Devise](http://railscasts.com/episodes/209-introducing-devise?view=asciicast) (which uses Rails 3) for a step-by-step introduction. The docs will be fully current.
 1. Users can send follow requests to other users.
 1. Users can create posts (begin with text only).
 1. Users can like posts.
@@ -32,7 +32,7 @@ Keep the following requirements in mind. We'll cover specific steps to get start
 1. Users can create a profile with a profile picture. You may be able to get the profile picture when users sign in using OmniAuth. If this isn't the case you can use [Gravatar](https://en.gravatar.com/) to generate the photo.
 1. A user's profile page should contain their profile information, profile photo, and posts.
 1. There should be an index page for users, which shows all users and buttons for sending follow requests to users the user is not already following or have a pending request.
-1. Set up a [mailer](http://guides.rubyonrails.org/action_mailer_basics.html) to send a welcome email when a new user signs up. Use the `letter_opener` gem ([see docs here](https://github.com/ryanb/letter_opener)) to test it in development mode.
+1. Set up a [mailer](http://guides.rubyonrails.org/action_mailer_basics.html) to send a welcome email when a new user signs up. Use the [Letter Opener gem](https://github.com/ryanb/letter_opener) to test it in development mode.
 1. Deploy your App to a hosting provider.
 1. Set up an email provider and start sending real emails.
 
@@ -52,12 +52,12 @@ Keep the following requirements in mind. We'll cover specific steps to get start
 
 #### Final step
 
-1. Before you move on, we would like your feedback [here](https://docs.google.com/forms/d/e/1FAIpQLScrIWkh4Bm3Qv7FH7PuWjLRCryevoJGgpA4tTis4R7CpXp9oQ/viewform?usp=sf_link). Getting user(you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
+1. Before you move on, we would love it if you could [send us your feedback on the Ruby on Rails course](https://docs.google.com/forms/d/e/1FAIpQLScrIWkh4Bm3Qv7FH7PuWjLRCryevoJGgpA4tTis4R7CpXp9oQ/viewform?usp=sf_link). Getting user(you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
 
 </div>
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-* For an alternative to using AWS S3 for image storage take a look at this [cloudinary](https://github.com/GoGoCarl/paperclip-cloudinary)
+- For an alternative to using AWS S3 for image storage take a look at this [cloudinary](https://cloudinary.com/documentation/rails_integration)
