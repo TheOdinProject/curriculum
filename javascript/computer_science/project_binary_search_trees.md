@@ -47,9 +47,15 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 1. Write `inOrder(callback)`, `preOrder(callback)`, and `postOrder(callback)` functions that also accept a callback as a parameter. Each of these functions should traverse the tree in their respective depth-first order and pass each node to the provided callback. The functions should throw an Error if no callback is given as an argument, like with `levelOrder`. The video [Binary Tree Traversal: Preorder, Inorder, Postorder](https://www.youtube.com/watch?v=gm8DUJJhmY4) explains the topic clearly.
 
-1. Write a `height(node)` function that returns the given node's height. Height is defined as the number of edges in the longest path from a given node to a leaf node.
+1. Write a height(value) function that returns the height of the node containing the given value. Height is defined as the number of edges in the longest path from that node to a leaf node. If the value is not found in the tree, the function should return null.
 
-1. Write a `depth(node)` function that returns the given node's depth. Depth is defined as the number of edges in the path from a given node to the tree's root node.
+1. Write a depth(value) function that returns the depth of the node containing the given value. Depth is defined as the number of edges in the path from that node to the root node. If the value is not found in the tree, the function should return null.
+
+    <div class="lesson-note" markdown="1">
+
+    **Tip:** Use your `find(value)` function inside `height()` and `depth()` to locate the node before performing your calculations.
+
+    </div>
 
 1. Write an `isBalanced` function that checks if the tree is balanced. A balanced tree is one where the difference between heights of the left subtree and the right subtree of every node is not more than 1.
 
