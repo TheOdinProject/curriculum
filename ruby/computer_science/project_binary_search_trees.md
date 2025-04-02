@@ -40,7 +40,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 1. Write `#inorder`, `#preorder`, and `#postorder` methods that accepts a block. Each method should traverse the tree in their respective depth-first order and yield each node to the provided block. The methods should return an array of values if no block is given. The video [Binary Tree Traversal: Preorder, Inorder, Postorder](https://www.youtube.com/watch?v=gm8DUJJhmY4) explains the topic clearly.
 
-8. Write a `#height(value)` method that returns the height of the node containing the given value. Height is defined as the number of edges in the longest path from that node to a leaf node. If the value is not found in the tree, the method should return `nil`.
+1. Write a `#height` method that accepts a value and returns the height of the node containing that value. Height is defined as the number of edges in the longest path from that node to a leaf node. If the value is not found in the tree, the method should return `nil`.
 
 9. Write a `#depth(value)` method that returns the depth of the node containing the given value. Depth is defined as the number of edges in the path from that node to the tree's root node. If the value is not found in the tree, the method should return `nil`.
 
