@@ -42,7 +42,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 1. Write a `#height` method that accepts a value and returns the height of the node containing that value. Height is defined as the number of edges in the longest path from that node to a leaf node. If the value is not found in the tree, the method should return `nil`.
 
-9. Write a `#depth(value)` method that returns the depth of the node containing the given value. Depth is defined as the number of edges in the path from that node to the tree's root node. If the value is not found in the tree, the method should return `nil`.
+1. Write a `#depth` method that accepts a value and returns the depth of the node containing that value. Depth is defined as the number of edges in the path from that node to the tree's root node. If the value is not found in the tree, the method should return `nil`.
 
     <div class="lesson-note" markdown="1">
 
