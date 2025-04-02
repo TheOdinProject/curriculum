@@ -44,11 +44,11 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 1. Write a `#depth` method that accepts a value and returns the depth of the node containing that value. Depth is defined as the number of edges in the path from that node to the tree's root node. If the value is not found in the tree, the method should return `nil`.
 
-    <div class="lesson-note" markdown="1">
+   <div class="lesson-note lesson-note--tip" markdown="1">
 
-    **Tip:** Use your `#find(value)` method inside `#height` and `#depth` to locate the node before performing your calculations.
+   Use your `#find` method inside `#height` and `#depth` to locate the node before performing your calculations.
 
-    </div>
+   </div>
 
 1. Write a `#balanced?` method that checks if the tree is balanced. A balanced tree is one where the difference between heights of left subtree and right subtree of every node is not more than 1.
 
