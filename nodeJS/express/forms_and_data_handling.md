@@ -565,7 +565,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you validate and sanitize form input using express-validator?](#understanding-the-body-function)
 - [What is the difference between validation and sanitization?](#validation-and-sanitization)
 - [How do you handle validation errors in Express routes?](#validation-results)
-- [What is the importance of escaping HTML characters in a form?](https://owasp.org/www-community/attacks/SQL_Injection)
+- [What is the importance of escaping HTML characters in a form?](https://www.theodinproject.com/lessons/nodejs-forms-and-data-handling#escaping-user-input)
 
 ### Additional resources
 
