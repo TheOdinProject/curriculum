@@ -32,7 +32,7 @@ CREATE TABLE users (
 );
 ```
 
-Next, let's set up a very minimal express app. Create a new directory and use `npm init` to start the package.json file then run the following to install all the dependencies we need:
+Next, let's set up a very minimal express app. Create a new directory and use `npm init -y` to start the package.json file then run the following to install all the dependencies we need:
 
 ```bash
 npm install express express-session pg passport passport-local ejs
