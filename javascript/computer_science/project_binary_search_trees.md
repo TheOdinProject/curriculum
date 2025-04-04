@@ -51,7 +51,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 1. Write a `depth(node)` function that returns the given node's depth. Depth is defined as the number of edges in the path from a given node to the tree's root node.
 
-1. Write a `#balanced?` method that checks if the tree is balanced. A binary tree is considered balanced if, for every node in the tree, the height difference between its left and right subtrees is no more than 1, and both the left and right subtrees are also balanced.
+1. Write a `isBalanced` method that checks if the tree is balanced. A binary tree is considered balanced if, for every node in the tree, the height difference between its left and right subtrees is no more than 1, and both the left and right subtrees are also balanced.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
