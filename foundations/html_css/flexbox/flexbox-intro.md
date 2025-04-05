@@ -88,3 +88,4 @@ This section contains helpful links to related content. It isn't required, so co
 - Interneting Is Hard has a tutorial on [modern CSS layouts with flexbox](https://internetingishard.netlify.app/html-and-css/flexbox/index.html).
 - Slaying the dragon tutorial on [Flexbox in 8 minutes](https://youtu.be/phWxA89Dy94?si=UOXlsTa0BMfQYG3q).
 - For a more interactive explanation and example, try this [Scrim on Flexbox](https://scrimba.com/learn/flexbox/your-first-flexbox-layout-flexbox-tutorial-canLGCw). Note that this Scrim requires logging into Scrimba in order to view.
+- Cheat sheet styled comprehensive guide to flexbox [CSS Flexbox Layout Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
