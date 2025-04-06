@@ -57,5 +57,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Asking for help is hard — but people want to help more than we realize](https://news.stanford.edu/stories/2022/09/asking-help-hard-people-want-help-realize) — Stanford article on why asking for help feels difficult, and how others are often more willing to help than we assume.
+- An encouraging article from Stanford on [Asking for help is hard — but people want to help more than we realize](https://news.stanford.edu/stories/2022/09/asking-help-hard-people-want-help-realize).
 - [The Mental Battle behind Asking for Help](https://hbr.org/2023/07/why-its-so-hard-to-ask-for-help) — Harvard Business Review article exploring the psychological barriers to asking for assistance.
