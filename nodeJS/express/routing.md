@@ -62,7 +62,7 @@ A common use case for a splat would be as a catch-all for all otherwise unmatche
 "/{*splat}"
 ```
 
-<div id="order-matters" class="lesson-note lesson-note--warning" markdown="1">
+<div class="lesson-note lesson-note--warning" markdown="1">
 
 #### Order matters!
 
