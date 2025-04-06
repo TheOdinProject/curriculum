@@ -40,20 +40,17 @@ That would tell us the route matches any POST requests to the `/messages` path o
 
 The first argument we pass a route is the path to match, which can either be a string or a regular expression. `/messages` matches that exactly, while `/messages/all` only matches if the path is `/messages/all` (not `/messages`, nor `/messages/new`).
 
-With string paths, we can also use certain symbols like `?`, `+`, `*` and `()` to provide some pattern-matching functionality, similar to regular expressions. For example:
+With string paths, we can also use `{}` to make characters optional. For example:
 
 ```javascript
-// ? makes a character optional
-// The following path matches both /message and /messages
-"/messages?"
+// Matches both /message and /messages
+"/message{s}"
 
-// () groups characters together, allowing symbols to act on the group
-// The following path matches both / and /messages
-"/(messages)?"
+// Matches both / and /messages
+"/{messages}"
 
-// * is a wildcard matching any number of any characters
-// The following path can match /foo/barbar and even /foo-FOO/bar3sdjsdfbar
-"/foo*/bar*bar"
+// Matches both /foo/baz and /foo/bar/baz
+"/foo{/bar}/baz"
 ```
 
 <div id="order-matters" class="lesson-note lesson-note--warning" markdown="1">
@@ -63,15 +60,15 @@ With string paths, we can also use certain symbols like `?`, `+`, `*` and `()` t
 Your routes will be set up in your server in the order they are defined.
 
 ```javascript
-app.get("*", (req, res) => {
-  res.send("* is a great way to catch all otherwise unmatched paths, e.g. for custom 404 error handling.");
+app.get("/{*splat}", (req, res) => {
+  res.send("/{*splat} is a great way to catch all otherwise unmatched paths, e.g. for custom 404 error handling.");
 });
 app.get("/messages", (req, res) => {
   res.send("This route will not be reached because the previous route's path matches first.");
 });
 ```
 
-In order for our `GET /messages` request to match the `/messages` route, we will need to reverse the order our routes are defined. Doing so will prevent it from reaching the `*` route, as it will match the `/messages` route first.
+In order for our `GET /messages` request to match the `/messages` route, we will need to reverse the order our routes are defined. Doing so will prevent it from reaching the `/{*splat}` route, as it will match the `/messages` route first.
 
 </div>
 
