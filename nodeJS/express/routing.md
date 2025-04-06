@@ -204,6 +204,16 @@ To test these routes, use [Postman](https://www.postman.com/downloads/) which wi
 
 <div class="lesson-content__panel" markdown="1">
 
+<div class="lesson-note" markdown="1">
+
+#### Express v5 changes
+
+We are currently using Express v5 and as of writing this, some of the sections in the article below will not work in v5, though they are clearly marked and links provided to more relevant documentation.
+
+This resource will be updated once a v5-only routing primer exists.
+
+</div>
+
 1. Read through the Express' [primer on Routing](https://expressjs.com/en/guide/routing.html) for an overview of this lesson's topics. Remember to reference the [Express documentation](https://expressjs.com/en/api.html) for more information on specific methods.
 
 </div>
