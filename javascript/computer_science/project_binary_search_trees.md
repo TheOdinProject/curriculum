@@ -57,7 +57,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 #### Pitfall with checking balance
 
-A common mistake is only checking the height difference between the root's left and right children. That is not enough — you must check the balance condition recursively at every node.
+A common mistake is only checking the height difference between the root's left and right children. That is not enough — you must check the balance condition for every node.
 
 </div>
 
