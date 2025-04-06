@@ -53,6 +53,15 @@ With string paths, we can also use `{}` to make characters optional. For example
 "/foo{/bar}/baz"
 ```
 
+With `*` (a "splat" or "wildcard"), we can match any number of any characters. [Splats in Express paths must always be followed by a name](https://expressjs.com/en/guide/migrating-5.html#path-syntax).
+
+A common use case for a splat would be as a catch-all for all otherwise unmatched paths, e.g. for custom 404 error handling.
+
+```javascript
+// Matches / and /odin as well as /sdds8fjsdifhj98sdfh
+"/{*splat}"
+```
+
 <div id="order-matters" class="lesson-note lesson-note--warning" markdown="1">
 
 #### Order matters!
