@@ -30,7 +30,7 @@ Dynamic websites, on the other hand, are websites that can change content based 
 
 This additional tech prohibits us from using GitHub Pages for hosting our Node apps. GitHub pages cannot run Node.js applications and doesn't have database services we can use. Similarly, host providers like Netlify and Vercel, which you may have used back in the React course, do not have the same capabilities to run our Node.js servers and databases. They're not the right tools for our back ends.
 
-Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Railway](https://railway.app/), and [Render](https://render.com/). We will be focusing on and utilizing these latter providers in this lesson.
+Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/), and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Railway](https://railway.app/) and [Render](https://render.com/). We will be focusing on and utilizing these latter providers in this lesson.
 
 ### What is a PaaS?
 
