@@ -23,6 +23,7 @@ By default, the `flex` shorthand property is set to: `flex-grow: 0`, `flex-shrin
 ![flex shorthand](https://cdn.statically.io/gh/TheOdinProject/curriculum/0cc6b26bb0c4b94524369d327c97a8fb11e83b6b/foundations/html_css/flexbox/imgs/10.png)
 
 In the above screenshot, `flex: 1` is shorthand for: `flex-grow: 1`, `flex-shrink: 1`, `flex-basis: 0`.
+
 Note: The default `flex-basis: auto` is overwritten to `flex-basis: 0`
 
 Very often you see the flex shorthand defined with only *one* value. In that case, that value is applied to `flex-grow`. So when we put `flex: 1` on our divs, we were actually specifying a shorthand of `flex: 1 1 0`.
