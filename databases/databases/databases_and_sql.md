@@ -55,13 +55,17 @@ Once your database is set up and you've got empty tables to work with, you use S
 For "Destroy" queries, the classic mistake is typing `DELETE FROM users` without a `WHERE` clause, which removes all your users from the table.  You probably needed to delete just one user, who you would specify based on some (hopefully unique) attribute like "name" or "id" as part of your condition clause, e.g., `DELETE FROM users WHERE users.id = 1`.  You can do all kinds of common sense things, such as using comparison operators (`>`, `<`, `<=` etc.) to specify groups of rows to run commands on, or logical operators (`AND`, `OR`, `NOT` etc.) to chain multiple clauses together, e.g., `DELETE FROM users WHERE id > 12 AND name = 'foo'`.
 
 "Create" queries use `INSERT INTO` and you'll need to specify which columns to insert stuff into if you're not inserting values for every column or not inserting them in the correct order, followed by the values to insert into those columns. For example, if all columns are filled in the correct order, you can omit the column names:
+
 ```sql
 INSERT INTO users VALUES ('foobar', 'foo@bar.com');
 ```
+
 However, if you're inserting values for only some columns or if you're not following the column order, you'll need to specify the columns and then provide the corresponding values:
+
 ```sql
 INSERT INTO users (name, email) VALUES ('foobar','foo@bar.com');
 ```
+
 This is one of the few queries that you don't need to be careful about which rows you've selected since you're actually just adding new ones into the table.
 
 "Update" queries use `UPDATE` and you'll need to tell it what data to `SET` (using key="value" pairs) and which rows to do those updates for.  Be careful because if your `WHERE` clause finds multiple rows (e.g., if you've searched based on a common first name), they'll all get updated. A standard query for updating a user's email may look something like the following (though in the real world you'd search on ID because it's always unique):
