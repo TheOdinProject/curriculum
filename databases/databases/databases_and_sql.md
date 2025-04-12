@@ -50,7 +50,7 @@ SQL likes semicolons at the end of lines and using single quotes (') instead of 
 
 Once your database is set up and you've got empty tables to work with, you use SQL's statements to start populating it.  The main actions you want to do are CRUD (which we've seen before) -- Create, Read, Update, and Destroy.  Most of the commands you run will fall under the "Read" category, since you'll spend lots of time asking questions of your data and trying to display it.
 
-<span id='command-parts'>Every CRUDdy command in SQL contains a few parts -- the action ("statement"), the table it should run on, and the conditions ("clauses")</span>.  If you just do an action on a table without specifying conditions, it will apply to the whole database and you'll probably break something.
+<span id='command-parts'>Every CRUDdy command in SQL contains a few parts -- the action ("statement"), the table it should run on, and the conditions ("clauses")</span>.  If you just do an action on a table without specifying conditions, it will apply to the whole table and you'll probably break something.
 
 For "Destroy" queries, the classic mistake is typing `DELETE FROM users` without a `WHERE` clause, which removes all your users from the table.  You probably needed to delete just one user, who you would specify based on some (hopefully unique) attribute like "name" or "id" as part of your condition clause, e.g., `DELETE FROM users WHERE users.id = 1`.  You can do all kinds of common sense things, such as using comparison operators (`>`, `<`, `<=` etc.) to specify groups of rows to run commands on, or logical operators (`AND`, `OR`, `NOT` etc.) to chain multiple clauses together, e.g., `DELETE FROM users WHERE id > 12 AND name = 'foo'`.
 
