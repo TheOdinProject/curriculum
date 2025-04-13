@@ -86,7 +86,7 @@ Here's a statement so obvious that it sounds like a joke: flexbox was *created* 
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is natural responsiveness](#natural-responsiveness)
+- [What is natural responsiveness?](#natural-responsiveness)
 - [Why should you avoid fixed width?](#fixed-width)
 - [Why should you avoid fixed height?](#fixed-height)
 - [In what situations might it be appropriate to use a fixed height or width?](#when-fixed-widths-are-appropriate)
