@@ -1,3 +1,4 @@
+
 ### Introduction
 
 SVGs are a very common image format on the web. They can be a little confusing at first, but once you know how to use them, they are an incredibly powerful tool for creating high-quality, dynamic images for your website.
@@ -101,5 +102,7 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - There are lots of great free SVG icon libraries, such as [Material icons](https://fonts.google.com/icons) and [Feather icons](https://feathericons.com/).
+
+- Another great SVG icon library to use is [unDraw] (https://undraw.co/), created by Katerina Limpitsouni, which lets you customize your SVGs to match your site's color space and aesthetic.
 
 - If you want to get started making your own or editing SVGs, you'll want some sort of visual editor like [Yann Armelin's SVG path editor](https://yqnn.github.io/svg-path-editor). It's great for tinkering around with simpler SVGs but not designed for complex graphics.
