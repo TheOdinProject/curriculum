@@ -75,7 +75,21 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 
 Your new recipe page should have the following content:
 
-1. An image of the finished dish under the h1 heading that you added earlier. You can find images of the dish on Google or [Allrecipes](https://www.allrecipes.com/).
+1. A free image of the finished dish under the h1 heading that you added earlier.
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Images you use should be free for your intended purpose
+
+There are many free images available but make sure to give credit to the creator of the image in your project.
+
+An easy way to provide credit is to include the creator's name and contact info in a README file in your repository, or give [attribution](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US).
+
+To find them - Google images and in image results -> Tools -> Usage rights -> "Creative Commons". Choose & click on a image and click license details.
+
+We recommend that you always review the license requirements of any images you want to use.
+
+</div>
 
 1. Under the image, it should have an appropriately sized "Description" heading followed by a paragraph or two describing the recipe.
 
