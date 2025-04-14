@@ -166,7 +166,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Which SQL statement is associated with "Read" from the CRUD acronym?](#sql-read)
 - [Which `JOIN` statement keeps only the rows from both tables where they match up?](#inner-join)
 - [How do you use an aggregate function?](#aggregate-function)
-- [In which situation would you use the `HAVING` function?](#having-function)
+- [In which situation would you use the `HAVING` clause?](#having-function)
 - [Why can't I just use code to process my database data?](#sql-is-faster-than-your-code)
 
 ### Additional resources
