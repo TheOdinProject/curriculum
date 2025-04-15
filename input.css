@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.jubair p{
+    color: orange;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+.manrope-font {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+  }
+  p {
+    color: gray;
+  }
+  .freshly h4 , .freshly h1{
+    font-weight:  bold;
+  }
+  .freshly h1
+  {
+    margin-bottom: 2rem;
+  }
+  .freshly h4{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+  }
+  .freshly p
+  {
+    font-size: 1.5rem;
+  }
