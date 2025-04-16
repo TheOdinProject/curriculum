@@ -83,17 +83,17 @@ In order for our `GET /messages` request to match the `/messages` route, we will
 
 #### Route parameters
 
-What if we wanted to have a route for all messages for any username, for example, `/odin/messages` or `/thor/messages`, or even `/theodinproject79687378/messages`? We could technically use `/*/messages`, but what if we wanted to extract and use the username in our middleware functions? Just like with React Router, we can use `route parameters`, and a path can contain as many of these parameters as we need.
+What if we wanted to have a route for all messages for any username, for example, `/odin/messages` or `/thor/messages`, or even `/theodinproject79687378/messages`? Just like with React Router, we can use `route parameters`, and a path can contain as many of these parameters as we need.
 
 To denote a route parameter, we start a segment with a `:` followed by the name of the parameter (which can only consist of case-sensitive alphanumeric characters, or `_`). Whatever we name that route parameter, Express will automatically populate the `req.params` object in any of the following middleware functions with whatever value the path passed into the parameter, using the parameter name as its key.
 
 ```javascript
 /**
  * GET /odin/messages will have this log
- * { username: 'odin' }
+ * { username: "odin" }
  *
  * GET /theodinproject79687378/messages would instead log
- * { username: 'theodinproject79687378' }
+ * { username: "theodinproject79687378" }
  */
 app.get("/:username/messages", (req, res) => {
   console.log(req.params);
