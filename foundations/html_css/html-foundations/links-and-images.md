@@ -319,7 +319,7 @@ Go ahead and update the `odin-links-and-images` project with width and height at
 1. Watch Kevin Powell's [HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM).
 1. Watch Kevin Powell's [HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ).
 1. Watch Kevin Powell's [File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo).
-1. Follow and Code Along [HTML links and images with Interneting is Hard](https://internetingishard.netlify.app/html-and-css/links-and-images) 
+1. Read and code along with Interneting is Hard's article on [Links and Images](https://internetingishard.netlify.app/html-and-css/links-and-images). Pay close attention to the section that covers the four main image formats.
 
 </div>
 
