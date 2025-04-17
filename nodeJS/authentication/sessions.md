@@ -13,7 +13,6 @@ This section contains a general overview of topics that you will learn in this l
 - Describe what sessions are.
 - Explain how sessions and cookies can be used together to persist logins.
 - Implement authentication with sessions.
-- Use a database as a session store.
 - Explain how and why passwords are hashed before being stored.
 
 ### Sessions
@@ -77,6 +76,7 @@ const pool = new Pool({
   // add your db configuration
 });
 
+const isProduction = process.env.NODE_ENV === "production";
 const app = express();
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
@@ -90,8 +90,8 @@ app.use(session({
   saveUninitialized: false,
   secret: process.env.SESSION_SECRET,
   cookie: {
-    httpOnly: process.env.NODE_ENV === 'prod',
-    secure: process.env.NODE_ENV === 'prod',
+    httpOnly: isProduction,
+    secure: isProduction,
     maxAge: 2 * 24 * 60 * 60 * 1000, // 2 days
   },
 }));
