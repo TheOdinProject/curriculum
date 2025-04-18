@@ -37,4 +37,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Watch this [TDD introduction](https://www.youtube.com/watch?v=Jv2uxzhPFl4) for an additional explanation of Test Driven Development as well as some useful examples.
