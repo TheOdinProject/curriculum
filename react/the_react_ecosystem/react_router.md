@@ -477,7 +477,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What should be used in place of "a" tags to enable client-side routing?](#the-link-element)
 - [How do you create nested routes?](#nested-routes-outlets-and-dynamic-segments)
 - [What do you mean by dynamic segments or URL params?](#nested-routes-outlets-and-dynamic-segments)
-- [How do you add a "catch-all" route?](#handling-bad-urls)
+- [How do you handle errors from bad URLs?](#handling-bad-urls)
 - [How do you pass data from parent to child through an `<Outlet />` component?](#outlets-and-state)
 - [How do you create protected routes?](#protected-routes-and-navigation)
 
