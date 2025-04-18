@@ -8,7 +8,7 @@ All of those examples involve you engaging with your database.  Luckily, many da
 
 You will start with the questions like the ones above and then have to figure out how to ask them properly of your database, which likely has a bunch of different tables in it.  Everyone probably visualizes it a bit differently, but finding a way to visualize what's going on when you do SQL queries is pretty important. We actually think of Excel tables moving in our heads and combining with each other and reshuffling as necessary. To each their own.
 
-We'll move beyond just the `SELECT "users".* FROM "users" LIMIT 1` queries and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
+We'll move beyond just the `SELECT users.* FROM users LIMIT 1` queries and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
 
 <!-- markdownlint-disable-next-line TOP004 -->
 #### A note on resources
@@ -34,9 +34,9 @@ This section contains a general overview of topics that you will learn in this l
 
 This is a very brief soup-to-nuts explanation of SQL.  It won't do a particularly good job teaching you specific new tactics but should present a general overview to have going into the reading assignment.  Here we go...
 
-SQL is the language used to talk to many relational databases.  These databases use lots of tables to store different types of data (e.g., "users" and "posts" tables).  Tables are long lists like spreadsheets where each row is a different record (or object, e.g., a single user) and each column is one of that record's attributes (like name, email, etc.).  The one column that all tables include is an "ID" column, which gives the unique row numbers, and is called the record's "primary key."
+SQL is the language used to talk to many relational databases.  These databases use lots of tables to store different types of data (e.g., `users` and `posts` tables).  Tables are long lists like spreadsheets where each row is a different record (or object, e.g., a single user) and each column is one of that record's attributes (like name, email, etc.).  The one column that all tables include is an `ID` column, which gives the unique row numbers, and is called the record's "primary key."
 
-You can "link" tables together by making one of the columns in one table point to the ID of another table. For instance, a row in the "posts" table might include the author's ID under the column called "user_id."  <span id='foreign-key'>Because the "posts" table has the ID of another table in it, that column is called a "foreign key."</span>
+You can "link" tables together by making one of the columns in one table point to the ID of another table. For instance, a row in the `posts` table might include the author's ID under the column called `user_id`.  <span id='foreign-key'>Because the `posts` table has the ID of another table in it, that column is called a "foreign key."</span>
 
 #### Setting stuff up
 
@@ -52,7 +52,7 @@ Once your database is set up and you've got empty tables to work with, you use S
 
 <span id='command-parts'>Every CRUDdy command in SQL contains a few parts -- the action ("statement"), the table it should run on, and the conditions ("clauses")</span>.  If you just do an action on a table without specifying conditions, it will apply to the whole table and you'll probably break something.
 
-For "Destroy" queries, the classic mistake is typing `DELETE FROM users` without a `WHERE` clause, which removes all your users from the table.  You probably needed to delete just one user, who you would specify based on some (hopefully unique) attribute like "name" or "id" as part of your condition clause, e.g., `DELETE FROM users WHERE users.id = 1`.  You can do all kinds of common sense things, such as using comparison operators (`>`, `<`, `<=` etc.) to specify groups of rows to run commands on, or logical operators (`AND`, `OR`, `NOT` etc.) to chain multiple clauses together, e.g., `DELETE FROM users WHERE id > 12 AND name = 'foo'`.
+For "Destroy" queries, the classic mistake is typing `DELETE FROM users` without a `WHERE` clause, which removes all your users from the table.  You probably needed to delete just one user, who you would specify based on some (hopefully unique) attribute like `name` or `id` as part of your condition clause, e.g., `DELETE FROM users WHERE users.id = 1`.  You can do all kinds of common sense things, such as using comparison operators (`>`, `<`, `<=` etc.) to specify groups of rows to run commands on, or logical operators (`AND`, `OR`, `NOT` etc.) to chain multiple clauses together, e.g., `DELETE FROM users WHERE id > 12 AND name = 'foo'`.
 
 "Create" queries use `INSERT INTO` and you'll need to specify which columns to insert stuff into if you're not inserting values for every column or not inserting them in the correct order, followed by the values to insert into those columns. For example, if all columns are filled in the correct order, you can omit the column names:
 
@@ -86,12 +86,12 @@ If you want to get all the posts created by a given user, you need to tell SQL w
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-The "left" table is the original table (the one that the `FROM` clause was `ON`), e.g., "users" in examples below.
+The "left" table is the original table (the one that the `FROM` clause was `ON`), e.g., `users` in examples below.
 
 </div>
 
 1. `INNER JOIN`, aka `JOIN` -- Your best friend and 95% of what you'll use.  <span id='inner-join'>Keeps only the rows from both tables where they match up</span>.  If you asked for all the posts for all users (`SELECT * FROM users JOIN posts ON users.id = posts.user_id`), it would return only the users who have actually written posts and only posts which have specified their author in the `user_id` column.  If an author has written multiple posts, there will be multiple rows returned (but the columns containing the user data will just be repeated).
-1. `LEFT OUTER JOIN` -- Keep all the rows from the left table and add on any rows from the right table which match up to the left table's.  Set any empty cells this produces to `NULL`.  E.g., return all the users whether they have written posts or not.  If they do have posts, list those posts as above.  If not, set the columns we asked for from the "posts" table to `NULL`.
+1. `LEFT OUTER JOIN` -- Keep all the rows from the left table and add on any rows from the right table which match up to the left table's.  Set any empty cells this produces to `NULL`.  E.g., return all the users whether they have written posts or not.  If they do have posts, list those posts as above.  If not, set the columns we asked for from the `posts` table to `NULL`.
 1. `RIGHT OUTER JOIN` -- The opposite... keep all rows in the right table.
 1. `FULL OUTER JOIN` -- Keep all rows from all tables, even if there are mismatches between them.  Set any mismatched cells to `NULL`.
 
