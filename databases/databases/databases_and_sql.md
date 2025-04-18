@@ -115,7 +115,7 @@ Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which re
 Note that grouping by `users.name` in addition to `users.id` improves clarity and aligns with best practices by explicitly including all selected non-aggregated columns in the `GROUP BY` clause, though it might not be strictly necessary for most databases.
 See [W3Schools' browser-based SQL playground](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) for an interactive visual.
 
-The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  <span id='having-function'>So to conditionally retrieve records based on aggregate functions, you use the `HAVING` clause, which is essentially the `WHERE` for aggregates</span>.  So say you only want to display users who have written more than 10 posts:
+The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  <span id='having-clause'>So to conditionally retrieve records based on aggregate functions, you use the `HAVING` clause, which is essentially the `WHERE` for aggregates</span>.  So say you only want to display users who have written more than 10 posts:
 
 ```sql
   SELECT users.id, users.name, COUNT(posts.id) AS posts_written
@@ -162,7 +162,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Which SQL statement is associated with "Read" from the CRUD acronym?](#sql-read)
 - [Which `JOIN` statement keeps only the rows from both tables where they match up?](#inner-join)
 - [How do you use an aggregate function?](#aggregate-function)
-- [In which situation would you use the `HAVING` clause?](#having-function)
+- [In which situation would you use the `HAVING` clause?](#having-clause)
 - [Why can't I just use code to process my database data?](#sql-is-faster-than-your-code)
 
 ### Additional resources
