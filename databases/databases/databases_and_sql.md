@@ -36,7 +36,7 @@ This is a very brief soup-to-nuts explanation of SQL.  It won't do a particularl
 
 SQL is the language used to talk to many relational databases.  These databases use lots of tables to store different types of data (e.g., "users" and "posts" tables).  Tables are long lists like spreadsheets where each row is a different record (or object, e.g., a single user) and each column is one of that record's attributes (like name, email, etc.).  The one column that all tables include is an "ID" column, which gives the unique row numbers, and is called the record's "primary key."
 
-You can "link" tables together by making one of the columns in one table point to the ID of another table; for instance, a row in the "posts" table might include the author's ID under the column called "user_id."  <span id='foreign-key'>Because the "posts" table has the ID of another table in it, that column is called a "foreign key."</span>
+You can "link" tables together by making one of the columns in one table point to the ID of another table. For instance, a row in the "posts" table might include the author's ID under the column called "user_id."  <span id='foreign-key'>Because the "posts" table has the ID of another table in it, that column is called a "foreign key."</span>
 
 #### Setting stuff up
 
