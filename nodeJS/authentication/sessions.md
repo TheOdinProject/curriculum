@@ -166,17 +166,12 @@ app.get("/signup", (req, res) => {
   res.render("signup");
 });
 
-// or use express-async-handler to ditch the try/catch
 app.post("/signup", async (req, res, next) => {
-  try {
-    await pool.query(
-      "INSERT INTO users (username, password) VALUES ($1, $2)",
-      [req.body.username, req.body.password],
-    );
-    res.redirect("/");
-  } catch(err) {
-    next(err);
-  }
+  await pool.query(
+    "INSERT INTO users (username, password) VALUES ($1, $2)",
+    [req.body.username, req.body.password],
+  );
+  res.redirect("/");
 });
 ```
 
@@ -199,32 +194,28 @@ app.get("/login", (req, res) => {
 });
 
 app.post("/login", async (req, res, next) => {
-  try {
-    // query for a matching username
-    const { rows } = await pool.query(
-      "SELECT * FROM users WHERE username = $1",
-      [req.body.username],
-    );
-    const user = rows[0];
+  // query for a matching username
+  const { rows } = await pool.query(
+    "SELECT * FROM users WHERE username = $1",
+    [req.body.username],
+  );
+  const user = rows[0];
 
-    // if the user exists and the password matches...
-    if (user?.password === req.body.password) {
-      // serialize the user ID in the session object so it can be retrieved later
-      req.session.userId = user.id;
-      req.session.save((err) => {
-        if (err) {
-          next(err);
-        } else {
-          res.redirect("/");
-        }
-      });
-    } else {
-      res.render("login", {
-        error: "Incorrect username or password",
-      });
-    }
-  } catch(err) {
-    next(err);
+  // if the user exists and the password matches...
+  if (user?.password === req.body.password) {
+    // serialize the user ID in the session object so it can be retrieved later
+    req.session.userId = user.id;
+    req.session.save((err) => {
+      if (err) {
+        next(err);
+      } else {
+        res.redirect("/");
+      }
+    });
+  } else {
+    res.render("login", {
+      error: "Incorrect username or password",
+    });
   }
 });
 ```
@@ -295,27 +286,23 @@ As of now, our `GET /` route will always display the homepage and will crash if 
 
 ```javascript
 async function checkAuthenticated(req, res, next) {
-  try {
-    if (!req.session.userId) {
-      res.redirect("/login");
-      return;
-    }
-
-    // if there is a user ID in the session, grab that matching user
-    const { rows } = await pool.query(
-      "SELECT * FROM users WHERE id = $1",
-      [req.session.userId],
-    );
-    // add the user details we need to req
-    // so we can access it in the next middleware
-    req.user = {
-      id: rows[0].id,
-      username: rows[0].username,
-    };
-    next();
-  } catch (err) {
-    next(err);
+  if (!req.session.userId) {
+    res.redirect("/login");
+    return;
   }
+
+  // if there is a user ID in the session, grab that matching user
+  const { rows } = await pool.query(
+    "SELECT * FROM users WHERE id = $1",
+    [req.session.userId],
+  );
+  // add the user details we need to req
+  // so we can access it in the next middleware
+  req.user = {
+    id: rows[0].id,
+    username: rows[0].username,
+  };
+  next();
 }
 ```
 
@@ -371,16 +358,12 @@ npm install argon2
 const argon2 = require("argon2");
 
 app.post("/signup", async (req, res, next) => {
-  try {
-    const hashedPassword = await argon2.hash(req.body.password);
-    await pool.query(
-      "INSERT INTO users (username, password) VALUES ($1, $2)",
-      [req.body.username, hashedPassword],
-    );
-    res.redirect("/");
-  } catch(err) {
-    next(err);
-  }
+  const hashedPassword = await argon2.hash(req.body.password);
+  await pool.query(
+    "INSERT INTO users (username, password) VALUES ($1, $2)",
+    [req.body.username, hashedPassword],
+  );
+  res.redirect("/");
 });
 ```
 
@@ -388,37 +371,33 @@ We don't need to modify any of its options, as the defaults all meet the [passwo
 
 ```javascript
 app.post("/login", async (req, res, next) => {
-  try {
-    const { rows } = await pool.query(
-      "SELECT * FROM users WHERE username = $1",
-      [req.body.username],
-    );
-    const user = rows[0];
+  const { rows } = await pool.query(
+    "SELECT * FROM users WHERE username = $1",
+    [req.body.username],
+  );
+  const user = rows[0];
 
-    // argon2.verify requires an argon2 hash as its first arg
-    // so we can't just pass in `undefined` if no user exists.
-    // The hash itself doesn't matter as long as it's a valid argon2 hash
-    // since this is to prevent timing attacks if no user is found
-    const isMatchingPassword = await argon2.verify(
-      user?.password ?? process.env.FALLBACK_HASH,
-      req.body.password,
-    );
-    if (user && isMatchingPassword) {
-      req.session.userId = user.id;
-      req.session.save((err) => {
-        if (err) {
-          next(err);
-        } else {
-          res.redirect("/");
-        }
-      });
-    } else {
-      res.render("login", {
-        error: "Incorrect username or password",
-      });
-    }
-  } catch(err) {
-    next(err);
+  // argon2.verify requires an argon2 hash as its first arg
+  // so we can't just pass in `undefined` if no user exists.
+  // The hash itself doesn't matter as long as it's a valid argon2 hash
+  // since this is to prevent timing attacks if no user is found
+  const isMatchingPassword = await argon2.verify(
+    user?.password ?? process.env.FALLBACK_HASH,
+    req.body.password,
+  );
+  if (user && isMatchingPassword) {
+    req.session.userId = user.id;
+    req.session.save((err) => {
+      if (err) {
+        next(err);
+      } else {
+        res.redirect("/");
+      }
+    });
+  } else {
+    res.render("login", {
+      error: "Incorrect username or password",
+    });
   }
 });
 ```
