@@ -227,7 +227,7 @@ app.post("/login", async (req, res, next) => {
 });
 ```
 
-What's going on here? First we have our route for rendering the login page. In our `POST` route, we query our db for the submitted username. If the username exists *and* the submitted password matches, we serialize the user ID to the session data, save the session, then redirect to the homepage (if you've never seen `?.` before, check out [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)). We do this so we can retrieve the user ID from the session at a later point, such as in a new request. Express-session will then automatically set the cookie and attaches it to the response.
+What's going on here? First we have our route for rendering the login page. In our `POST` route, we query our db for the submitted username. If the username exists *and* the submitted password matches, we serialize the user ID to the session data, save the session to the database, then redirect to the homepage (if you've never seen `?.` before, check out [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)). Express-session will then automatically set the cookie and attach it to the response. For subsequent requests, this session (which will be retrieved from the session ID in the cookie) will contain the user ID, which we can use to authenticate.
 
 If there is no matching username/password combo, we render the login page again with an error message. Note that we cannot serialize the user ID to `req.session.id` because [`req.session.id` is already used for the session's own ID](http://expressjs.com/en/resources/middleware/session.html#reqsessionid).
 
