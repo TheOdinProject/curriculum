@@ -298,19 +298,21 @@ async function checkAuthenticated(req, res, next) {
   try {
     if (!req.session.userId) {
       res.redirect("/login");
-    } else {
-      const { rows } = await pool.query(
-        "SELECT * FROM users WHERE id = $1",
-        [req.session.userId],
-      );
-      // add the user details we need to req
-      // so we can access it in the next middleware
-      req.user = {
-        id: rows[0].id,
-        username: rows[0].username,
-      };
-      next();
+      return;
     }
+
+    // if there is a user ID in the session, grab that matching user
+    const { rows } = await pool.query(
+      "SELECT * FROM users WHERE id = $1",
+      [req.session.userId],
+    );
+    // add the user details we need to req
+    // so we can access it in the next middleware
+    req.user = {
+      id: rows[0].id,
+      username: rows[0].username,
+    };
+    next();
   } catch (err) {
     next(err);
   }
