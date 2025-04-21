@@ -109,7 +109,9 @@ app.listen(PORT, () => {
 
 #### Session store
 
-Let's talk about our session config which we apply to every incoming request (by mounting it on `app`). Firstly, we use the [connect-pg-simple](https://www.npmjs.com/package/connect-pg-simple) library to make express-session store session data in a "session" table in our database, creating the table if it does not already exist. If you look inside your database in psql, you'll be able to see what the session table looks like. You can also have a look at the [SQL queries for creating the session table](https://github.com/voxpelli/node-connect-pg-simple/blob/HEAD/table.sql).
+Let's talk about our session config which we apply to every incoming request (by mounting it on `app`). Firstly, we use the [connect-pg-simple](https://www.npmjs.com/package/connect-pg-simple) library to make express-session store session data in a "session" table in our database, creating the table if it does not already exist. Have a look at the [SQL queries for creating the session table](https://github.com/voxpelli/node-connect-pg-simple/blob/HEAD/table.sql), then go and look inside your database in psql to see what the session table looks like.
+
+Inside the session table, you should see three columns: "sid", "sess" and "expire". These contain the session's ID, the data stored in the session, and its expiry time respectively.
 
 #### Prevent unnecessary session saving
 
