@@ -136,13 +136,13 @@ The commands below will configure Git. Be sure to enter your own information ins
 
 ```bash
 git config --global user.name "Your Name"
-git config --global user.email "yourname@example.com"
+git config --global user.email yourname@example.com
 ```
 
 For example, if you set your email as private on GitHub, the second command will look something like this:
 
 ```bash
-git config --global user.email "123456789+odin@users.noreply.github.com" # Remember to use your own private GitHub email here.
+git config --global user.email 123456789+odin@users.noreply.github.com # Remember to use your own private GitHub email here.
 ```
 
 GitHub recently changed the default branch on new repositories from `master` to `main`. Change the default branch for Git using this command:
