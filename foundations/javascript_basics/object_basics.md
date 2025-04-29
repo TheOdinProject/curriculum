@@ -227,10 +227,10 @@ console.log(arr); // Outputs [1, 2, 3, 4, 5]
 
 In the above function, we:
 
-- Pass in a callback function, which is `(total, currentItem) => total * currentItem`.
+- Pass in a callback function, which is `(total, currentItem) => { return total * currentItem }`.
 - Initialize total to `1` in the second argument.
 
-So what `.reduce()` will do, is it will once again go through every element in `arr` and apply the `callback` function to it. It then changes `total`, without actually changing the array itself. After it's done, it returns `total`.
+So what `.reduce()` will do is go through every element in `arr` and apply the `callback` function to it. It updates `total` without actually changing the array itself. After it’s done, it returns `total`.
 
 #### Summary
 

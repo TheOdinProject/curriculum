@@ -25,7 +25,7 @@ Organizing your projects into different files has many practical benefits. Chief
 
 Remember that old saying about how to keep your physical environment organized - "A place for everything and everything in its place". The same principle applies to software projects.
 
-For Ruby projects, the rule of thumbs are:
+For Ruby projects, the rules of thumb are:
 
 - One class per file. Every time you create a new class, you should create a new file for it to live in.
 - It is convention to put all your Ruby files into a lib directory. For example:
@@ -186,7 +186,7 @@ So instead of defining both the `Flight` and `Hotel` classes inside `airport.rb`
 
 Another thing to keep in mind is that local variables do not get loaded, so if your `airport.rb` had a local variable `coolest_airports`, trying to access it in `main.rb` would raise an error. Constants do get loaded however, so you can access those.
 
-<span id="namespace">Something important to keep in mind is that all required code is put into the same namespace. This means that if you have the same names for methods, modules, classes and so on they will be added together in order they were required.</span> For example, let's say you and your friend have used the same method name and you're trying to use their code and yours:
+<span id="namespace">Something important to keep in mind is that all required code is put into the same namespace. This means that if you have the same names for methods, modules, classes and so on they will be added together in the order they were required.</span> For example, let's say you and your friend have used the same method name and you're trying to use their code and yours:
 
 ```ruby
 # all files are in the same directory for simplicity's sake
