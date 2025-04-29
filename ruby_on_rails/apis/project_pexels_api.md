@@ -5,6 +5,7 @@ Remember the warm-up in the previous project when you played with an API? Now it
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Start by creating an account on [Pexels](https://www.pexels.com/). Click the "Join" button.
 2. Log in and click on the three dots top-right, select ["Image & Video API"](https://www.pexels.com/api/). Next, click the ["Your API Key"](https://www.pexels.com/api/key/) button.
 3. You'll have to give them some basic information about your app. Fill the form and let them know how awesome your photo gallery app will be. Click "Generate API Key" to get a key generated for you. Copy it somewhere you can get to it later. You can find it again however, while logged in, by re-visiting ["Your API Key"](https://www.pexels.com/api/key/).
@@ -17,4 +18,6 @@ Remember the warm-up in the previous project when you played with an API? Now it
 
 ### Additional resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
