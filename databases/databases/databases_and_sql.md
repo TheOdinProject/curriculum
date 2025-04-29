@@ -11,6 +11,27 @@ You will start with the questions like the ones above and then have to figure ou
 We'll move beyond just the `SELECT "users".* FROM "users" LIMIT 1` queries and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
 
 <!-- markdownlint-disable-next-line TOP004 -->
+### Choosing the Right SQL Database
+
+Before diving into how to write SQL queries, it’s helpful to know which SQL database to choose for your project. All SQL databases speak a similar language, but they each come with trade-offs in performance, features, and ease of use.
+
+Here’s a quick guide to the most common ones:
+
+#### SQLite
+- **Best for:** Lightweight apps, mobile development, and quick prototypes.
+- **Why:** Requires no setup—just a single file. Ideal for solo projects or embedded apps.
+- **Limitations:** Not great for high-concurrency or large-scale applications.
+
+#### PostgreSQL
+- **Best for:** Most modern web apps.
+- **Why:** Fully open-source, robust, and feature-rich. Great support for complex queries, extensions, and analytics.
+- **Limitations:** Slightly more overhead to set up than SQLite, but well worth it.
+
+#### MySQL / MariaDB
+- **Best for:** CMS-based sites and legacy apps.
+- **Why:** Popular in LAMP stacks, widely supported, and optimized for read-heavy workloads. MariaDB is its fully open-source alternative.
+- **Limitations:** Some edge-case quirks with SQL standards and consistency.
+  
 #### A note on resources
 
 SQL is one of those topics that's been stored away in dusty old technical manuals and 90's style websites. Even the best books out there can make it seem oddly complicated because they tend to write for the database engineer who actually does need to know all the nitty gritty details.
