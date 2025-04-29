@@ -59,7 +59,7 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 
 - Google it: You can be certain someone else out there has encountered the same problem as you at some point. A quick Google search can often lead to a solution.
 - Take a break: Allow your diffuse learning state to work on the problem.
-- Ask for help in the [TOP Discord server](https://discord.gg/theodinproject); come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
+- Ask for help in the [TOP Discord server](https://discord.gg/fbFCkYabZB); come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
 Additionally, feel free to follow the diagram below to help you navigate problems that you may come across:
 
