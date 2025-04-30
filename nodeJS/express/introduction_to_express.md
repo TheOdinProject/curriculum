@@ -14,6 +14,8 @@ This section contains a general overview of topics that you will learn in this l
 - Describe how an incoming request is processed and ultimately responded to by the server.
 - Describe what a middleware function is.
 - Describe how to automatically restart your application when a change is made.
+- Understand the difference between res.send() and res.json()
+- Use browser dev tools (Network tab) to inspect HTTP headers and response types.
 
 ### Setting up Express
 
@@ -89,6 +91,22 @@ When you run your server with `node app.js`, any changes to any JavaScript and J
 
 You may also come across [Nodemon](https://www.npmjs.com/package//nodemon), a highly configurable package that can also watch for changes and restart your server for you. Node didn't always have a stable built-in watch mode, so you're likely to see Nodemon around the place. Our recommendation would be to stick with Node's built in watch mode via the `--watch` flag, as this would be by far the simplest method.
 
+### Returning JSON in Express & Inspecting Content-Type
+
+Express.js provides multiple ways to send responses to the client. Two commonly used methods are:
+1. res.send() – Sends a response of various types (HTML, string, buffer, etc.)
+2. res.json() – Sends a JSON response and sets the Content-Type header to application/json.
+Setup a Basic Express Server![Screenshot From 2025-04-30 10-02-18](https://github.com/user-attachments/assets/37457aa0-c166-48a3-a08d-ac715d62bc07) to test it- Navigate to http://localhost:3000/about , You should see a rendered heading: About Page.
+
+Inspect in Dev Tools: 
+1.Open Chrome Dev Tools (F12)
+2.Go to the Network tab.
+3.Refresh the page.
+4.Click on the /about request.
+5.Under the Headers tab, note that Content-Type is text/html.
+
+Convert HTML to JSON String Using res.json() update your code to![Screenshot From 2025-04-30 10-31-24](https://github.com/user-attachments/assets/4dd21aa8-85d6-4f00-bffe-9adf11a65230) Refresh http://localhost:3000/about , You’ll now see the HTML string inside double quotes like this![Screenshot From 2025-04-30 10-34-52](https://github.com/user-attachments/assets/9df523a3-1194-46f6-9747-f0c12d44baa4) now, inspect in dev tools again , You will see![Screenshot From 2025-04-30 10-37-49](https://github.com/user-attachments/assets/49b93204-f78a-433d-bd69-83e5d77c38e5) Content-Type: application/json.
+ 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
