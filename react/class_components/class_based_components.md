@@ -1,289 +1,218 @@
-### Introduction
+### React Class Components Interactive Guide 🚀
 
-All the components so far have been functional in style and syntax. This is common now, but you will see a different `class` based syntax too. In this lesson, we explore how a class-based component is written and how concepts like props and state are used in one.
+Welcome to this interactive guide on **React Class Components**! In this guide, you'll learn all about class components, their features, and how to build interactive applications using React. This guide is designed to be engaging, hands-on, and easy to follow. 😎
 
-### Lesson overview
+---
 
-This section contains a general overview of topics that you will learn in this lesson.
+### What are React Class Components? 🤔
 
-- Learn the structure of a class component and how they are written.
-- How to use props and state in class components.
-- Highlight the uses of `this` in class components.
+In React, there are **two types of components**:
 
-### Historical React component patterns
+- **Functional Components**: Simpler, but have less power.
+- **Class Components**: More powerful, allow state and lifecycle methods.
 
-In your previous lessons, you have already been introduced to functional components, and the basic patterns in which components get written nowadays. However, React components did not look this way when React was introduced.
+Class components are a fundamental part of React, and knowing them well is key to mastering React.
 
-If you look into any older React codebase, you'll notice a lot of classes. These are known as class-based components. Prior to February 2019, functional components were also called state-less, as there was no way to manage state in them. This was changed when hooks were introduced, leading to less verbose and 'neater' components.
+### Why Use Class Components?
+- They allow you to maintain **state**.
+- They provide access to **lifecycle methods**.
+- They help in creating **more complex UI logic**.
 
-In your career, chances are, you will be dealing with legacy code, so there will be days where you would be dealing with class components. Let's peek into the intricacies of a class-based component, and how they work.
+---
 
-### Building a class component
+### Basic Structure of Class Component ✨
 
-As we already know about functional components, let us build a class-based component from a functional one. Usually, you will want to divide the contents of a component, like the one we use, into smaller, reusable components, but for the purposes of this exercise, we stick to one component. Below, we have a sample functional component:
-
-```jsx
-import { useState } from "react";
-
-const FunctionalInput = ({ name }) => {
-  const [todos, setTodos] = useState(["Just some demo tasks", "As an example"]);
-  const [inputVal, setInputVal] = useState("");
-
-  const handleInputChange = (e) => {
-    setInputVal(e.target.value);
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setTodos((todo) => [...todo, inputVal]);
-    setInputVal("");
-  };
-
-  return (
-    <section>
-      <h3>{name}</h3>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="task-entry">Enter a task: </label>
-        <input
-          type="text"
-          name="task-entry"
-          value={inputVal}
-          onChange={handleInputChange}
-        />
-        <button type="submit">Submit</button>
-      </form>
-      <h4>All the tasks!</h4>
-      <ul>
-        {todos.map((todo) => (
-          <li key={todo}>{todo}</li>
-        ))}
-      </ul>
-    </section>
-  );
-};
-
-export default FunctionalInput;
-```
-
-That was a solid chunk of code. Take a while, sip some water and read it a couple of times.
-
-#### The start of a class-based component
-
-Now, let's try to recreate it as a class-based component. The first thing it should have is, *drumroll*, a class! But it cannot be just another class, it will need to have certain properties that qualifies it as a React component. React provides us with all those properties on a class called `Component`, and we can write our components by extending the given class, as shown below:
+A **Class Component** in React looks like this:
 
 ```jsx
-import { Component } from "react";
+import React, { Component } from 'react';
 
-class ClassInput extends Component {
-  // Some code goes here
-}
-
-/*
-  This can also be written as:
-
-  import React from 'react';
-  class ClassInput extends React.Component {}
-  export default ClassInput;
-
-  instead of destructuring the `Component` during import
-*/
-
-export default ClassInput;
-```
-
-#### The use of a constructor and props
-
-A class is generally incomplete without a constructor, so let's add one.
-
-The props, that get passed into this component, gets passed into the class's `constructor`. This, along with the `super` method, allows you to use the props in context to `this`, which, in *this* case, refers to the component. If you’re really curious about what `super` actually does, check out the [MDN docs on the `super` keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super).
-
-If your component doesn't have any props, it is fine to leave the `constructor` and the `super` with no arguments.
-
-```jsx
-import { Component } from "react";
-
-class ClassInput extends Component {
-  constructor(props) {
-    super(props);
-  }
-  // Some more code goes here
-}
-
-export default ClassInput;
-```
-
-#### How you can render JSX
-
-Now that the props can be accessed inside of the class component, the next issue is to find a way to render the JSX.
-
-Well, you can do that by returning your JSX from a `render` method! You can use the props that you declared in the constructor too!
-
-```jsx
-import { Component } from "react";
-
-class ClassInput extends Component {
-  constructor(props) {
-    super(props);
-  }
-  // Some more code goes here
-
+class MyComponent extends Component {
   render() {
-    return (
-      <section>
-        <h3>{this.props.name}</h3>
-        {/* The input field to enter To-Do's */}
-        <form>
-          <label htmlFor="task-entry">Enter a task: </label>
-          <input type="text" name="task-entry" />
-          <button type="submit">Submit</button>
-        </form>
-        <h4>All the tasks!</h4>
-        {/* The list of all the To-Do's, displayed */}
-        <ul></ul>
-      </section>
-    );
+    return <h1>Hello, World!</h1>;
   }
 }
 
-export default ClassInput;
+export default MyComponent;
 ```
 
-Notice how the props get provided by `this`, unlike the functional component that we saw, initially?
+Key Concepts:
+- **`class MyComponent extends Component`**: Creates a class-based component.
+- **`render()`**: This method returns the JSX (UI) that is displayed on the screen.
 
-#### How to use state and manage context
+---
 
-Next comes the state. In a class-based component, the state gets initialized as a part of the constructor.
+### State in Class Components ⚙️
+
+### What is State?
+
+State is a way to store and manage data that changes over time (like a counter). In class components, **state** is initialized in the constructor and updated with `this.setState()`.
+
+### Example: A Simple Counter
 
 ```jsx
-import { Component } from "react";
-
-class ClassInput extends Component {
+class Counter extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
-      todos: [],
-      inputVal: "",
+      count: 0
     };
   }
-  // Some more code goes here
+
+  increment() {
+    this.setState({ count: this.state.count + 1 });
+  }
 
   render() {
     return (
-      <section>
-        <h3>{this.props.name}</h3>
-        <form>
-          <label htmlFor="task-entry">Enter a task: </label>
-          <input type="text" name="task-entry" />
-          <button type="submit">Submit</button>
-        </form>
-        <h4>All the tasks!</h4>
-        <ul></ul>
-      </section>
+      <div>
+        <h1>{this.state.count}</h1>
+        <button onClick={this.increment}>Increment</button>
+      </div>
     );
   }
 }
-
-export default ClassInput;
 ```
 
-The pre-defined `setState` method can be used to set it again! Remember, state must not be mutated, so a new state must be set, every time.
+Key Points:
+- **Constructor**: Initializes state in the constructor.
+- **`this.setState()`**: Used to update the state.
 
-<span id="the-importance-of-bind">Now, it is time to finish it off by adding all the functionality! It is nearly the same, except for a single difference. Whenever a method is declared, you must `bind` the `this` of the method to that of the class in order to work with it, as by default, the methods in a class are not bound to it. Usually, you do this inside the constructor and not at runtime [in the render method].</span>
+---
+
+### Props in Class Components 💡
+
+**Props** are used to pass data from a parent component to a child component. Props are **read-only** and cannot be modified within the child component.
+
+### Example: Passing Props to Child Component
 
 ```jsx
-import { Component } from "react";
-
-class ClassInput extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      todos: [],
-      inputVal: "",
-    };
-
-    this.handleInputChange = this.handleInputChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+class Greeting extends Component {
+  render() {
+    return <h1>Hello, {this.props.name}!</h1>;
   }
+}
 
-  handleInputChange(e) {
-    this.setState((state) => ({
-      ...state,
-      inputVal: e.target.value,
-    }));
+class App extends Component {
+  render() {
+    return <Greeting name="Hassan" />;
   }
+}
+```
 
-  handleSubmit(e) {
-    e.preventDefault();
-    this.setState((state) => ({
-      todos: state.todos.concat(state.inputVal),
-      inputVal: "",
-    }));
+Here, `"Hassan"` is passed as a prop from the parent `App` component to the child `Greeting` component.
+
+---
+
+### Managing Events in Class Components 🎤
+
+In class components, you can manage events such as button clicks or form submissions using **methods**.
+
+### Example: Button Click Event
+
+```jsx
+class MyComponent extends Component {
+  handleClick() {
+    alert("Button clicked!");
   }
 
   render() {
     return (
-      <section>
-        <h3>{this.props.name}</h3>
-        <form onSubmit={this.handleSubmit}>
-          <label htmlFor="task-entry">Enter a task: </label>
-          <input
-            type="text"
-            name="task-entry"
-            value={this.state.inputVal}
-            onChange={this.handleInputChange}
-          />
-          <button type="submit">Submit</button>
-        </form>
-        <h4>All the tasks!</h4>
-        <ul>
-          {this.state.todos.map((todo) => (
-            <li key={todo}>{todo}</li>
-          ))}
-        </ul>
-      </section>
+      <div>
+        <button onClick={this.handleClick}>Click Me!</button>
+      </div>
+    );
+  }
+}
+```
+
+In the above example, `handleClick()` is an event handler that gets triggered when the button is clicked.
+
+---
+
+### Complete Counter Example 🎉
+
+Here’s a complete counter application using React class components that integrates state and events.
+
+```jsx
+class CounterApp extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0
+    };
+  }
+
+  increment = () => {
+    this.setState(prevState => ({ count: prevState.count + 1 }));
+  };
+
+  decrement = () => {
+    this.setState(prevState => ({ count: prevState.count - 1 }));
+  };
+
+  render() {
+    return (
+      <div>
+        <h1>Counter: {this.state.count}</h1>
+        <button onClick={this.increment}>Increment</button>
+        <button onClick={this.decrement}>Decrement</button>
+      </div>
     );
   }
 }
 
-export default ClassInput;
+export default CounterApp;
 ```
 
-And there we go, we have successfully made our first class-based component, as easy as that!
+---
 
-### Assignment
+### Lifecycle Methods in Class Components 🕰️
 
-<div class="lesson-content__panel" markdown="1">
+Lifecycle methods allow you to run code at specific points in a component's lifecycle, such as before it mounts, after it updates, or before it unmounts.
 
-For the purposes of this assignment, we take the class-based component that we built and add additional functionality. There is an interactive example provided at the end to build upon.
+### Common Lifecycle Methods:
+- **`componentDidMount()`**: Called once the component has been rendered.
+- **`shouldComponentUpdate()`**: Determines whether the component should update.
+- **`componentWillUnmount()`**: Called just before the component is removed from the DOM.
 
-1. Implement a delete button for each task. The delete button should remove that specific task from the state array, thus deleting the task itself! Styling isn't a priority at this moment, but the button tag should be styled by default.
+### Example: Using `componentDidMount`
 
-1. Implement a new class component, `Count` that displays the count of the number of todos, at any given time.
+```jsx
+class LifecycleExample extends Component {
+  componentDidMount() {
+    console.log("Component has mounted!");
+  }
 
-1. Implement an edit button for each task. It should replace the todo with an input field, and change the button itself to 'Resubmit', so the edits can be saved. This is a comparatively harder task, kudos for when you finish it!
+  render() {
+    return <h1>Check the console for a message when this component mounts!</h1>;
+  }
+}
+```
 
-<iframe src="https://codesandbox.io/embed/github/TheOdinProject/react-examples/tree/main/class-component-example?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="react-example"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe>
+---
 
-</div>
+### Interactive Challenges 🏆
 
-### Knowledge check
+Let’s test your knowledge! Try the following challenges to reinforce your learning:
 
-The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+1. **Challenge 1**: Create a class component that accepts a user's name as a prop and displays it.
+2. **Challenge 2**: Create a counter with a reset button that sets the count back to 0.
+3. **Challenge 3**: Use lifecycle methods to fetch data from an API when the component mounts and display it.
 
-- [How do props get used in a class-based component?](#the-use-of-a-constructor-and-props)
-- [How does JSX get displayed?](#how-you-can-render-jsx)
-- [How do we deal with state in a class-based component?](#how-to-use-state-and-manage-context)
-- [How do you restore the context of `this` in a method?](#the-importance-of-bind)
+You can work on these challenges directly in **CodeSandbox** (Link to interactive coding sandbox).
 
-### Additional resources
+---
 
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+### Conclusion 🎉
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+Congrats! You've now learned the basics of React Class Components. From state and props to managing events and lifecycle methods, you have the building blocks for creating dynamic, interactive UIs. Continue experimenting with class components and start building your own applications!
+
+---
+
+### Feel free to explore more on React and become a **React master**! 😎✨
+
+For further reading and resources:
+- Official React Documentation (https://react.dev/learn)
+
+
