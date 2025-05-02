@@ -16,7 +16,7 @@ CUSTOM SECTION CONTENT.
 
 <div class="lesson-note" markdown="1">
 
-#### A sample title
+#### Note: A sample title
 
 A sample note box.
 
@@ -24,7 +24,7 @@ A sample note box.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### level 4 heading for title is recommended
+#### Tip: A level 4 heading as a title is required
 
 A sample note box, variation: tip.
 
@@ -32,13 +32,15 @@ A sample note box, variation: tip.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-#### But title is also optional
+#### Warning: And must start with the note box type
 
 A sample note box, variation: warning.
 
 </div>
 
 <div class="lesson-note lesson-note--critical" markdown="1">
+
+#### Critical: Otherwise you'll get a lint error
 
 A sample note box, variation: critical.
 
