@@ -164,11 +164,11 @@ So our `#create` action above can now be filled out a bit more:
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-  Prior to Rails 8, strong parameters were handled differently. Instead of the `#expect` method, you had to call `#permit` on the top level key name followed by calling `#require` on the list of attributes. For example:
+  Prior to Rails 8, strong parameters were handled differently. Instead of the `#expect` method, you had to call `#require` on the top level key name followed by calling `#permit` on the list of attributes. For example:
 
   ```ruby
   def allowed_post_params
-    params.permit(:post).require(:title, :body, :author_id)
+    params.require(:post).permit(:title, :body, :author_id)
   end
   ```
 
@@ -226,7 +226,7 @@ That's really just a taste of the Rails controller, but you should have a pretty
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.6.3 and 5.2. We'll cover sessions (section 5.1) more in the future so don't worry about them now.
+  1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.3 and section 6.2. We'll cover sessions (section 6.1) more in the future so don't worry about them now.
 
 </div>
 

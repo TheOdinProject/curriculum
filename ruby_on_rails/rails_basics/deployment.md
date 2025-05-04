@@ -150,6 +150,52 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
+#### Koyeb
+
+Can deploy both servers and databases.
+
+- Easily Git push to deploy.
+- Ability to run web apps, APIs, and workers easily.
+- SSL and 10 free custom domains
+
+##### Koyeb: Free Plan
+
+- One free Web service.
+- One free Postgres database (50 hours).
+- Doesn't require a credit card to start.
+- Pay-per-use by the second for more.
+
+##### Koyeb: Links
+
+- [Koyeb homepage](https://www.koyeb.com/)
+- [Koyeb documentation](https://www.koyeb.com/docs)
+- [Guide: Official getting started with Ruby on Rails on Koyeb guide](https://www.koyeb.com/docs/deploy/ruby-on-rails)
+
+---
+
+#### Neon
+
+Can deploy databases only.
+
+- 24/7 for your main database.
+- 20 additional hours of database branching.
+- Point-in-time restore (24 Hours)
+- No credit card required.
+
+##### Neon: Free Plan
+
+- 0.5 GiB of storage
+- 24/7 for your main compute
+- No credit card required
+
+##### Neon: Links
+
+- [Neon homepage](https://neon.tech/)
+- [Neon documentation](https://neon.tech/docs/introduction)
+- [Guide: Connect a Ruby on Rails application to Neon](https://neon.tech/docs/guides/ruby-on-rails)
+
+---
+
 #### Heroku
 
 - Heroku has a straightforward deployment process using a combination of a well-documented CLI tool and Git.
@@ -168,6 +214,29 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - [Heroku documentation](https://devcenter.heroku.com/)
 - [Guide: Official Rails guide for Heroku](https://devcenter.heroku.com/articles/getting-started-with-rails7)
 - [Guide: GoRails video guide for deploying Rails applications to Heroku](https://www.youtube.com/watch?v=bQ2wXZf9irA)
+
+---
+
+#### Aiven
+
+Can deploy databases only.
+
+- 24/7 for all database services.
+- High availability and automatic backups.
+- Point-in-time recovery (varies by service).
+- No credit card required.
+
+##### Aiven: Free Plan
+
+- 5 GiB of storage.
+- 24/7 for all database services.
+- One free database for every services including PostgreSQL, MySQL and Redis.
+- No credit card required.
+
+##### Aiven: Links
+
+- [Aiven homepage](https://aiven.io/)
+- [Aiven documentation](https://aiven.io/docs/get-started)
 
 ---
 
@@ -242,4 +311,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [free-for.dev](https://free-for.dev/). This is a huge repository for list of software such as SaaS, PaaS, IaaS, etc. and other offerings with free developer tiers.
