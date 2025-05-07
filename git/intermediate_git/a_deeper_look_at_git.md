@@ -144,6 +144,8 @@ You might be feeling overwhelmed at this point, so let's recap what we've learne
 1. Read the chapter on [Rebasing covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
 1. Read the chapter on [Reset covered by git-scm](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
 
+**Reminder**: In modern Git setups, the default branch is typically called `main` instead of `master`.
+
 </div>
 
 ### Knowledge check
