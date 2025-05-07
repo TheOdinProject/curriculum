@@ -32,6 +32,8 @@ The actual technical [definition of REST](https://en.wikipedia.org/wiki/Represen
 REST APIs are resource based, which basically means that instead of having names like `/getPostComments` or `/savePostInDatabase` we refer **directly to the resource** (in this case, the blog post) and use HTTP verbs such as GET, POST, PUT, and DELETE to determine the action.
 Typically this takes the form of 2 URI's per resource, one for the whole collection and one for a single object in that collection, for example, you might get a list of blog-posts from `/posts` and then get a specific post from `/posts/:postid`. You can also nest collections in this way. To get the list of comments on a single post you would access `/posts/:postid/comments` and then to get a single comment: `/posts/:postid/comments/:commentid`. Below are some other basic examples of endpoints you could have.
 
+### HTTP Verbs Table
+
 | Verb   | Action | Example                                       |
 | ------ | ------ | --------------------------------------------- |
 | POST   | Create | `POST /posts` Creates a new blog post         |
@@ -66,7 +68,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are HTTP verbs and why are they important to an API?](#rest)
 - [What is the Same-Origin Policy?](#cors)
 - [How do you enable CORS in your Express app?](https://expressjs.com/en/resources/middleware/cors.html)
-- [Which HTTP verb does each letter in CRUD (Create, Read, Update, Delete) correspond to?](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/#h-use-nouns-instead-of-verbs-in-endpoint-paths)
+- [Which HTTP verb does each letter in CRUD (Create, Read, Update, Delete) correspond to?](#http-verbs-table)
 
 ### Additional resources
 
