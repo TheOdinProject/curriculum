@@ -184,7 +184,7 @@ Test-driven development (TDD) is a phrase you often hear in the dev world. It re
 
 In many ways, TDD is much more productive than writing code without tests. If we didn't have the test for the adding function above, we would have to run the code ourselves over and over, plugging in different numbers until we were sure that it was working... not a big deal for a basic `add(2, 2)`, but imagine having to do that for more complicated functions, like checking whether or not someone has won a game of tic tac toe: (`game_win(["o", null,"x",null,"x",null,"x", "o", "o"])`). If you didn't do TDD, then you might actually have to play multiple games against yourself just to test if the function was working correctly!
 
-We will teach you the art of actually writing these tests later in the course. The following practice has the tests already written out for you. All you have to do is set up the testing environment, read the specs, and write the code that makes them pass!
+We will teach you the art of actually writing these tests later in the course. For now, you will continue to work on the JavaScript exercises from before.
 
 ### Assignment
 
@@ -200,14 +200,13 @@ We will teach you the art of actually writing these tests later in the course. T
    - `Filter unique array members`
 1. Follow up by coding along to [JavaScript Array Cardio Practice - Day 1](https://www.youtube.com/watch?v=HB1ZC7czKRs) by Wes Bos. You will need to fork and clone the [JavaScript30 repository](https://github.com/wesbos/JavaScript30) for this.
 1. Watch and code along with [Wes Bos' Array Cardio Day 2](https://www.youtube.com/watch?v=QNmRfyNg1lw).
-1. Go and review the [README of our `javascript-exercises` repository](https://github.com/TheOdinProject/javascript-exercises#readme) to set up your local environment. Once you have cloned the repository and installed Jest, review each README file prior to completing the following exercises in order:
-   - `01_helloWorld` (This exercise is intentionally very beginner friendly to ensure that you have set up everything properly!)
-   - `02_repeatString`
-   - `03_reverseString`
-   - `04_removeFromArray`
-   - `05_sumAll`
-   - `06_leapYears`
-   - `07_tempConversion`
+1. Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Data Types and Conditionals](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals) assignment. Review each README file prior to completing the following exercises in order:
+    - `06_repeatString`
+    - `07_reverseString`
+    - `08_removeFromArray`
+    - `09_sumAll`
+    - `10_leapYears`
+    - `11_tempConversion`
 
    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 

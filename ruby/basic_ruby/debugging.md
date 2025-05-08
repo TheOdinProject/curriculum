@@ -231,7 +231,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Read through [HOWTO debug your Ruby code](https://readysteadycode.com/howto-debug-your-ruby-code), especially the first section on `puts` debugging, by ReadySteadyCode.
 - Read the article on [Debugging without doom and gloom](https://practicingruby.com/articles/debugging-without-doom-and-gloom) by Practicing Ruby.
 - Poke around [Debug's repo and its README](https://github.com/ruby/debug) that will help you master this invaluable gem.
 - Watch [debug.gem: Ruby's new debug functionality talk by Koichi Sasada](https://www.youtube.com/watch?v=XeWHrsp6nwo), one of debug's maintainers to learn about its history and functionality.

@@ -68,7 +68,7 @@ The peace of mind this affords you can't be overstated. You never want to be in 
 
 Many PaaS services come with SQL databases included.
 
-Either choice isn't too difficult to setup, but it's always nice to have a fallback option! For now, we encourage you to try and figure out how to deploy your mini-message board project with just what you learn in this lesson.
+Either choice isn't too difficult to set up, but it's always nice to have a fallback option! For now, we encourage you to try and figure out how to deploy your mini-message board project with just what you learn in this lesson.
 
 #### Domain names
 
