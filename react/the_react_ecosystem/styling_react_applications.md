@@ -12,6 +12,14 @@ This section contains a general overview of topics that you will learn in this l
 
 Regular CSS is the simplest way to style. CSS Modules let you write CSS style declarations that are scoped locally, which means that we finally no longer have to worry about our class names potentially conflicting with other classes in the global scope.
 
+```jsx
+import styles from './styles.module.css';
+
+function Button() {
+    return <button className={styles.success_btn}>Success</button>
+}
+```
+
 ### CSS in JS
 
 Why even write CSS in CSS when you can write it in JavaScript? Just kidding, of course!
