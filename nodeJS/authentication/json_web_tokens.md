@@ -28,6 +28,12 @@ You don't need to understand the inner workings of JWTs but let's peek at what's
 
 This is how a server can verify if it did indeed issue an incoming JWT as well as verify if it had been tampered with, as a different payload would generate a different signature, even with the same secret. Unless you also know the secret, you would not be able to create the correct signature for the changed payload.
 
+### Stateless authentication
+
+We can use JWTs to authenticate our APIs in a stateless manner, that is the server side does not need to store any of the authentication data itself. It only needs to store a secret so it can generate tokens signed with that secret and send them to the client. Then for incoming requests, it needs only verify that it made the incoming JWT and it has not been tampered with, and can deserialize the payload if verified. Else, it can unauthorize the request. All this occurs without needing to make a database call to grab the authentication data (like with sessions, a stateful solution). Neat, no?
+
+This is not all sunshine and roses, however. There are always tradeoffs, especially when security is concerned, and we will discuss these in more detail in a later lesson where we compare stateful authentication with sessions and stateless authentication with JWTs. Nonetheless, you're likely to encounter this sort of authentication at some point out in the wild, so it's good to get some experience with the concept (even if a basic implementation).
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
