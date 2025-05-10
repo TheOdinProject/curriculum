@@ -34,6 +34,50 @@ We can use JWTs to authenticate our APIs in a stateless manner, that is the serv
 
 This is not all sunshine and roses, however. There are always tradeoffs, especially when security is concerned, and we will discuss these in more detail in a later lesson where we compare stateful authentication with sessions and stateless authentication with JWTs. Nonetheless, you're likely to encounter this sort of authentication at some point out in the wild, so it's good to get some experience with the concept (even if a basic implementation).
 
+#### Setup
+
+Like with the Sessions lesson, make a new database within `psql` with a `users` table:
+
+```sql
+CREATE TABLE users (
+  id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  username VARCHAR ( 255 ),
+  password VARCHAR ( 255 )
+);
+```
+
+Again, we will make a very minimal Express app. Since we've just been learning about REST APIs, we won't be using EJS views but responding with JSON from our endpoints. Since we won't be making a website for this, you should [download Postman](https://www.postman.com/downloads/) and use that to send requests to the API.
+
+```bash
+npm install express dotenv pg jsonwebtoken
+```
+
+```javascript
+// app.js
+require("dotenv").config();
+const { Pool } = require("pg");
+const express = require("express");
+
+const pool = new Pool({
+  // add your db configuration
+});
+
+const app = express();
+
+app.use(express.urlencoded({ extended: false }));
+
+app.get("/me", (req, res) => {
+  res.status(401).json("You are not logged in!");
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`App listening on port ${PORT}!`);
+});
+```
+
+Since we're going to use stateless authentication, the server does not need to store the authentication data itself and so our setup code is a little simpler this time round. Run your server with `node app.js` and test it works by using Postman to send a GET request to `/me` at the appropriate localhost port, e.g. `http://localhost:3000/me`. You should get back a 401 with the string `"You are not logged in!"`.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
