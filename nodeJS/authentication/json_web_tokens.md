@@ -14,9 +14,19 @@ This section contains a general overview of topics that you will learn in this l
 - Implement basic stateless authentication with JWTs.
 - Describe potential security issues with stateless authentication.
 
-### CUSTOM SECTION HEADING
+### JWTs
 
-CUSTOM SECTION CONTENT.
+JWTs are tokens that allow us to send information between various clients and servers, or even between servers. Like with session cookies, they are signed which involves hashing the rest of the JWT (including the payload) with a secret known only to the issuing server.
+
+JWTs are often not encrypted, only encoded in base64. You can use any JWT decoder such as [jwt.io](https://jwt.io/), paste a JWT in and see the contents; the important part is the signature. For example, here is an example JWT:
+
+```text
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiT2RpbiJ9.FtLFoA9kG8B_gvKz0nEzx4uDYAlsgWhxTGEUfinYcf8
+```
+
+You don't need to understand the inner workings of JWTs but let's peek at what's going on. Paste that into [jwt.io](https://jwt.io/) and you'll see a payload of `{ "name": "Odin" }` along with an "invalid signature" warning. If you change the secret in the "verify signature" box to `theodinproject` then paste the JWT back in, it'll say "signature verified". If you change any part of the JWT contents, such as the payload or secret, you'll see the JWT value change. In particular, the signature section changes *dramatically*.
+
+This is how a server can verify if it did indeed issue an incoming JWT as well as verify if it had been tampered with, as a different payload would generate a different signature, even with the same secret. Unless you also know the secret, you would not be able to create the correct signature for the changed payload.
 
 ### Assignment
 
