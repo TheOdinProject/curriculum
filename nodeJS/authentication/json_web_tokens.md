@@ -2,7 +2,7 @@
 
 Previously, we learned about using sessions to persist logins and authenticate users. Session data would be stored server-side and the client issued their session's ID via a cookie. When authenticating, the session store would be checked for a matching session. This kind of authentication is "stateful".
 
-An alternative approach to authentication, and one that is common with REST APIs, is to use "stateless" authentication with JSON web tokens (JWTs). The main difference between using stateful and stateless authentication is where the authentication data is stored: client-side or server-side. In this lesson, you will be introduced to stateless authentication using JWTs.
+An alternative approach to authentication, and one that is common with REST APIs, is to use "stateless" authentication with JSON web tokens (JWTs). The main difference between using stateful and stateless authentication is where the authentication data is stored: server-side or client-side. In this lesson, you will be introduced to stateless authentication using JWTs.
 
 ### Lesson overview
 
@@ -34,49 +34,35 @@ We can use JWTs to authenticate our APIs in a stateless manner, that is the serv
 
 This is not all sunshine and roses, however. There are always tradeoffs, especially when security is concerned, and we will discuss these in more detail in a later lesson where we compare stateful authentication with sessions and stateless authentication with JWTs. Nonetheless, you're likely to encounter this sort of authentication at some point out in the wild, so it's good to get some experience with the concept (even if a basic implementation).
 
-#### Setup
+### Generating JWTs
 
-Like with the Sessions lesson, make a new database within `psql` with a `users` table:
-
-```sql
-CREATE TABLE users (
-  id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-  username VARCHAR ( 255 ),
-  password VARCHAR ( 255 )
-);
-```
-
-Again, we will make a very minimal Express app. Since we've just been learning about REST APIs, we won't be using EJS views but responding with JSON from our endpoints. Since we won't be making a website for this, you should [download Postman](https://www.postman.com/downloads/) and use that to send requests to the API.
-
-```bash
-npm install express dotenv pg jsonwebtoken
-```
+Back in the sessions lesson, when a user successfully logged in, their ID was serialised to a session which was saved to the database, and a cookie sent back to the client with the signed session ID. With JWTs, a very similar process occurs, just a JWT is created and sent instead, and nothing gets saved to the database. You can generate JWTs using the [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) library. For example, in a login route middleware:
 
 ```javascript
-// app.js
-require("dotenv").config();
-const { Pool } = require("pg");
-const express = require("express");
+// importing the jsonwebtoken library somewhere appropriate
+const jwt = require("jsonwebtoken");
 
-const pool = new Pool({
-  // add your db configuration
-});
+// somewhere in a login route middleware
+if (user?.password === req.body.password) {
+  const token = jwt.sign({
+    id: user.id
+  }, process.env.SECRET, { expiresIn: "1d" });
 
-const app = express();
-
-app.use(express.urlencoded({ extended: false }));
-
-app.get("/me", (req, res) => {
-  res.status(401).json("You are not logged in!");
-});
-
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}!`);
-});
+  res.set({Authorization: `Bearer ${token}`}).json("Login successful");
+} else {
+  res.status(401).json("Incorrect username or password");
+}
 ```
 
-Since we're going to use stateless authentication, the server does not need to store the authentication data itself and so our setup code is a little simpler this time round. Run your server with `node app.js` and test it works by using Postman to send a GET request to `/me` at the appropriate localhost port, e.g. `http://localhost:3000/me`. You should get back a 401 with the string `"You are not logged in!"`.
+There are many ways JWTs can be sent to and from servers, such as in the response's "Authorization" header via the [Bearer scheme](https://security.stackexchange.com/questions/108662) or via httpOnly cookies. Since we have not yet covered how to handle cross-site cookies, the example above sends the JWT as a bearer token in the response's Authorization header.
+
+<div class="lesson-note lesson-note--critical" markdown="1">
+
+#### JWT payloads and sensitive data
+
+Remember that JWTs are sent to and stored on the client. If a malicious party is able to access the token at any point, they can read its contents. While you should not need to do so anyway, **do not store sensitive data in a JWT.**
+
+</div>
 
 ### Assignment
 
