@@ -2,7 +2,7 @@
 
 Previously, we learned about using sessions to persist logins and authenticate users. Session data would be stored server-side and the client issued their session's ID via a cookie. When authenticating, the session store would be checked for a matching session. This kind of authentication is "stateful".
 
-An alternative approach to authentication, and one that is common with REST APIs, is to use "stateless" authentication with JSON web tokens (JWTs). The main difference between using stateful and stateless authentication is where the authentication data is stored: server-side or client-side. In this lesson, you will be introduced to stateless authentication using JWTs.
+An alternative approach to authentication, and one that is common with REST APIs, is to use "stateless" authentication with JSON web tokens (JWTs). While many of the overarching auth concepts and processes remain the same, the main difference between using stateful and stateless authentication is where the authentication data is stored: server-side or client-side. In this lesson, you will be introduced to stateless authentication using JWTs.
 
 ### Lesson overview
 
@@ -36,7 +36,7 @@ This is not all sunshine and roses, however. There are always tradeoffs, especia
 
 ### Generating JWTs
 
-Back in the sessions lesson, when a user successfully logged in, their ID was serialised to a session which was saved to the database, and a cookie sent back to the client with the signed session ID. With JWTs, a very similar process occurs, just a JWT is created and sent instead, and nothing gets saved to the database. You can generate JWTs using the [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) library. For example, in a login route middleware:
+Back in the Sessions lesson, when a user successfully logged in, their ID was serialised to a session which was saved to the database, and a cookie sent back to the client with the signed session ID. With JWTs, a very similar process occurs, just a JWT is created and sent instead, and nothing gets saved to the database. You can generate JWTs using the [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) library. For example, in a login route middleware:
 
 ```javascript
 // importing the jsonwebtoken library somewhere appropriate
@@ -63,6 +63,25 @@ There are many ways JWTs can be sent to and from servers, such as in the respons
 Remember that JWTs are sent to and stored on the client. If a malicious party is able to access the token at any point, they can read its contents. While you should not need to do so anyway, **do not store sensitive data in a JWT.**
 
 </div>
+
+### Verifying JWTs
+
+So when a user successfully logs in, the server generates and sends a signed JWT in response. What about for incoming requests to routes we want to protect?
+
+The client must attach the JWT to any such requests, whether that's through `fetch` in a script or when using something like Postman. In our case, we'll do the same as earlier and write to the "Authorization" header using the format `Bearer: <JWT>`. Just like with the Sessions lesson, any routes we want to protect will need a middleware to authenticate the request first. However, instead of doing session stuff like before, we need to extract the JWT and verify its signature. For example:
+
+```javascript
+// in an authentication middleware
+const token = req.headers.authorization?.split(" ")[1];
+try {
+  req.user = jwt.verify(token, process.env.SECRET);
+  next();
+} catch (err) {
+  res.status(401).json("Could not authenticate user");
+}
+```
+
+Upon successful verification, the payload is returned and can be handled however necessary; in the example above, it gets attached to `req` and the next middleware is called. If the token is not valid, whether that's from it having expired or not valid or even non-existant, an error is thrown which we can catch and unauthorize the request, responding to the client with a 401 since we do not know who they are.
 
 ### Assignment
 
