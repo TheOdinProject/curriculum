@@ -31,7 +31,7 @@ Your task is to build a function `knight_moves` that shows the shortest possible
 
 You can think of the board as having 2-dimensional coordinates. Calling your function would therefore look like:
 
-`knight_moves([0,0],[1,2]) // returns [[0,0],[1,2]]`
+`knight_moves([0,0],[1,2]) # returns [[0,0],[1,2]]`
 
 <div class="lesson-note" markdown="1">
 
