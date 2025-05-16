@@ -8,28 +8,28 @@ Luckily, there is a better way to handle this problem. In this lesson, you’ll 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Using arrays.
 - Using loops.
+- Using arrays.
 - Using array methods such as `map`, `filter` and `reduce`.
 - Getting your hands dirty with TDD exercises.
-
-### Arrays
-
-Strings and numbers may be our building blocks, but as your scripts get more complex, you're going to need a way to deal with large quantities of them. Luckily, JavaScript has a couple of data types that are used for just that. An Array is an ordered collection of items (Strings, numbers, or other things).
-
-1. This [JavaScript Arrays crash course](https://www.youtube.com/watch?v=7W4pQQ20nJg) explains an overview of arrays in JavaScript in about 6 minutes.
-1. Read through this [intro to arrays](https://javascript.info/array) from JavaScript.info. It briefly mentions loops like `for` and `for..of`; we will come back to these later in this lesson. You do not need to do the exercises at the end of the page.
-1. Read through JavaScript.info's [array method guide](https://javascript.info/array-methods) for a deeper look at some further array methods in JavaScript. Again, you do not need to do the exercises at the end of the page; we will come back to these later.
-1. Bookmark [MDN's Array documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). You do not need to memorize anything here. This is where you'll find all built-in array properties and methods and their documentation. This will likely be something you regularly revisit as you code and solve problems.
 
 ### Loops
 
 Computers don't get tired, and they're really, *really* fast! For that reason, they are well suited to solving problems that involve doing calculations multiple times. In some cases, a computer will be able to repeat a task *thousands* or even *millions* of times in just a few short seconds where it might take a human many hours (obviously, speed here depends on the complexity of the calculation and the speed of the computer itself).
 
-Some of the array methods shown earlier will involve iterating over an array, but sometimes we need more control over how we we repeat tasks. In such cases, we can use a **loop**.
+To repeat a set of instructions multiple times, we can use a **loop**. Go through the following resources on loops. Some of them will contain examples that use arrays, which we will go through in more detail in the next section, but for now it will suffice to know that arrays are just lists of items.
 
 1. Read [MDN's Looping Code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code). It's a longer one, but make sure you tackle the 'Active Learning' sections at the bottom of the page.
 1. Once again, same info, slightly different context from [JavaScript.info's "Loops: While and For"](http://javascript.info/while-for). Be sure to do the exercises at the end of the page. You learn best by doing.
+
+### Arrays
+
+Strings and numbers may be our building blocks, but as your scripts get more complex, you're going to need a way to deal with large quantities of them. Luckily, JavaScript has a couple of data types that are used for just that. An Array is an ordered collection of items (strings, numbers, or other things). You may recognize that some of the array methods demonstrated in some of the following resources do similar things to loops. Sometimes you may need more control via an actual loop but sometimes the appropriate array method does the job just fine and you prefer the way it reads.
+
+1. This [JavaScript Arrays crash course](https://www.youtube.com/watch?v=7W4pQQ20nJg) explains an overview of arrays in JavaScript in about 6 minutes.
+1. Read through this [intro to arrays](https://javascript.info/array) from JavaScript.info. It briefly mentions loops like `for` and `for..of`; we will come back to these later in this lesson. You do not need to do the exercises at the end of the page.
+1. Read through JavaScript.info's [array method guide](https://javascript.info/array-methods) for a deeper look at some further array methods in JavaScript. Again, you do not need to do the exercises at the end of the page; we will come back to these later.
+1. Bookmark [MDN's Array documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array). You do not need to memorize anything here. This is where you'll find all built-in array properties and methods and their documentation. This will likely be something you regularly revisit as you code and solve problems.
 
 ### Some examples of array magic
 
@@ -216,13 +216,13 @@ We will teach you the art of actually writing these tests later in the course. F
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
+- [What are loops useful for?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#why_bother)
+- [What is the break statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break)
+- [What is the continue statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue)
 - [What is an array?](https://www.w3schools.com/js/js_arrays.asp)
 - [What are arrays useful for?](https://www.w3schools.com/js/js_arrays.asp)
 - [How do you access or change an array element?](https://javascript.info/array)
 - [What are some useful array methods?](https://javascript.info/array-methods)
-- [What are loops useful for?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#why_bother)
-- [What is the break statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break)
-- [What is the continue statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue)
 - [What is the advantage of writing automated tests?](#test-driven-development)
 
 ### Additional resources
