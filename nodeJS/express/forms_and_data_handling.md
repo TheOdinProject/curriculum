@@ -86,7 +86,7 @@ The `body()` function allows you to specify which fields in the request body sho
 ];
 ```
 
-This example marks `birthdate` field as optional, but still enforces the ISO8601 date format on inputs. This is because `{ values: "falsy" }` means values that aren't `undefined`, `null`, `false`, or `0` will still be validated.
+This example marks `birthdate` field as optional, but still enforces the ISO8601 date format on inputs. This is because `{ values: "falsy" }` means values that aren't `undefined`, `null`, `false`, `0` or empty strings `""` will still be validated.
 
 ### Chaining validations
 

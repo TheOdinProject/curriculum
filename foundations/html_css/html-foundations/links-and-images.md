@@ -222,17 +222,19 @@ When you download a file from the internet, Windows has a security feature that 
 
 1. Drag the file from your downloads folder to VSCode's file browser into your new `images` directory.
 
-    1. Alternatively, using your Ubuntu terminal, navigate to the folder you want to copy the image to (`cd ~/odin-links-and-images` for example)
+   1. Alternatively, using your Ubuntu terminal, navigate to the folder you want to copy the image to (`cd ~/odin-links-and-images` for example)
 
-    1. Type `cp <space>`
+   1. Type `cp <space>`
 
-    1. Drag the `dog.jpg` image from a Windows Explorer window and drop it onto the terminal window, it should appear as `"/mnt/c/users/username/Downloads/dog.jpg"`
+   1. Drag the `dog.jpg` image from a Windows Explorer window and drop it onto the terminal window, it should appear as `"/mnt/c/users/username/Downloads/dog.jpg"`
 
-    1. Type `<space> .` to tell cp that you want to copy the file to your current working directory.
+   1. Type `<space> .` to tell cp that you want to copy the file to your current working directory. The full command will look something like:
 
-        1. The full command will look something like `cp "/mnt/c/users/username/Downloads/dog.jpg" .`
+   ```bash
+   cp "/mnt/c/users/username/Downloads/dog.jpg" .
+   ```
 
-    1. Hit <kbd>Enter</kbd> to complete the command, and use ls to confirm the file now exists.
+   1. Hit <kbd>Enter</kbd> to complete the command, and use `ls` to confirm the file now exists.
 
 Dragging files from Windows into the VSCode file browser prevents the `Zone.Identifier` files from being copied over. From now on, any time you need to copy pictures or other downloaded files like this into WSL2, you can do it in this way. If you ever accidentally copy these `Zone.Identifier` files into WSL2, you can safely delete them without any issue.
 

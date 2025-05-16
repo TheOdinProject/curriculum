@@ -30,7 +30,7 @@ Selectors refer to the HTML elements to which CSS rules apply; they're what is a
 
 #### Universal selector
 
-The universal selector will select elements of any type, hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style applied to it.
+The universal selector will select elements of every type (as in the whole document), hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style applied to it.
 
 ```css
 * {

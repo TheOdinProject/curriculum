@@ -58,7 +58,16 @@ Note that a `git fetch upstream` followed by a `git merge upstream/some_branch` 
 
 1. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `main`, the hard part is all over. All that's left is to make the Pull Request (often abbreviated as PR) against our `upstream` repo on GitHub!
 1. Now you want to send your feature branch back up to your `origin` (your fork of the `upstream` repository). You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request. Use `git push origin your_feature_name` to ship your feature branch up to your fork on GitHub.
-1. If you have been following along with the above steps to get familiar with this workflow, you should **stop at this point**. If you have completed an assigned issue, the final step is to submit a pull request to merge your feature branch into the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
+
+   <div class="lesson-note lesson-note--critical" markdown="1">
+
+   **If you have not been assigned an issue to work on, stop here.** Do not open a test/practice PR, and any such PRs will be treated as spam and closed by a maintainer without review.
+
+   If you have been assigned to work on an issue by a maintainer, feel free to continue with the next step.
+
+   </div>
+
+1. **If you have completed an assigned issue**, the final step is to submit a pull request to merge your feature branch into the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
 1. Shake your moneymaker, you're an OSS contributor!
 
 </div>

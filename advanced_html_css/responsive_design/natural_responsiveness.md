@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Not everything needs CSS
 
-Plain HTML, with no CSS is responsive. Visit this [HTML-only page with no CSS](https://codyloyd.github.io/responsive-html/) and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
+<span id='natural-responsiveness'>Plain HTML, with no CSS is responsive</span>. Visit this [HTML-only page with no CSS](https://codyloyd.github.io/responsive-html/) and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
 
 It's not realistic for every website you create to be as basic as plain text on a page, but it is important to keep in mind that most of the elements you're using to build your project are responsive until **you** change that with CSS. If you approach your project with this mindset and do your best to maintain that natural responsiveness, you might find that there isn't *that* much extra you need to do to make your sites properly responsive.
 
@@ -86,6 +86,7 @@ Here's a statement so obvious that it sounds like a joke: flexbox was *created* 
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
+- [What is natural responsiveness?](#natural-responsiveness)
 - [Why should you avoid fixed width?](#fixed-width)
 - [Why should you avoid fixed height?](#fixed-height)
 - [In what situations might it be appropriate to use a fixed height or width?](#when-fixed-widths-are-appropriate)

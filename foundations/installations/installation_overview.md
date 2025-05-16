@@ -78,4 +78,4 @@ With that out of the way, we need to set up an appropriate development environme
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Read the OSSPH blog on [why developers should use linux for development](https://blog.ossph.org/reasons-why-developers-should-use-linux).

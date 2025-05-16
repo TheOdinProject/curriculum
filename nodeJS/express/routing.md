@@ -222,7 +222,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What object gets populated with route parameters?](#route-parameters)
 - [How do you access query parameters within routes?](#query-parameters)
 - [How do you extract routes to an individual router?](#routers)
-- [We have a router for paths starting with `/users`. Inside that router, what path should a GET route have to match a GET request to the `/users/delete` path?](#extend-router-paths)
+- [We have a router for paths starting with `/users`. Inside that router, what path should a GET route have to match a GET request to the `/users/delete` path?](#routers)
 
 ### Additional resources
 
