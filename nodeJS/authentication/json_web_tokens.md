@@ -16,27 +16,27 @@ This section contains a general overview of topics that you will learn in this l
 
 ### JWTs
 
-JWTs are tokens that allow us to send information between various clients and servers, or even between servers. Like with session cookies, they are signed which involves hashing the rest of the JWT (including the payload) with a secret known only to the issuing server.
+JWTs are tokens that allow us to send information between various clients and servers, or even between servers. Like with session cookies, they are signed, which involves hashing the rest of the JWT (including the payload) with a secret known only to the issuing server.
 
-JWTs are often not encrypted, only encoded in base64. You can use any JWT decoder such as [jwt.io](https://jwt.io/), paste a JWT in and see the contents; the important part is the signature. For example, here is an example JWT:
+JWTs are often not encrypted, only encoded in base64. You can use any JWT decoder, such as [jwt.io](https://jwt.io/), paste a JWT in, and see the contents; the important part is the signature. For example, here is an example JWT:
 
 ```text
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiT2RpbiJ9.FtLFoA9kG8B_gvKz0nEzx4uDYAlsgWhxTGEUfinYcf8
 ```
 
-<span id="jwt-signature">You don't need to understand the inner workings of JWTs but let's peek at what's going on. Paste that into [jwt.io](https://jwt.io/) and you'll see a payload of `{ "name": "Odin" }` along with an "invalid signature" warning. If you change the secret in the "verify signature" box to `theodinproject` then paste the JWT back in, it'll say "signature verified". If you change any part of the JWT contents, such as the payload or secret, you'll see the JWT value change. In particular, the signature section changes *dramatically*.</span>
+<span id="jwt-signature">You don't need to understand the inner workings of JWTs, but let's peek at what's going on. Paste that into [jwt.io](https://jwt.io/) and you'll see a payload of `{ "name": "Odin" }` along with an "invalid signature" warning. If you change the secret in the "verify signature" box to `theodinproject` then paste the JWT back in, it'll say "signature verified". If you change any part of the JWT contents, such as the payload or secret, you'll see the JWT value change. In particular, the signature section changes *dramatically*.</span>
 
 This is how a server can verify if it did indeed issue an incoming JWT as well as verify if it had been tampered with, as a different payload would generate a different signature, even with the same secret. Unless you also know the secret, you would not be able to create the correct signature for the changed payload.
 
 ### Stateless authentication
 
-We can use JWTs to authenticate our APIs in a stateless manner, that is the server side does not need to store any of the authentication data itself. It only needs to store a secret so it can generate tokens signed with that secret and send them to the client. Then for incoming requests, it needs only verify that it made the incoming JWT and it has not been tampered with, and can deserialize the payload if verified. Else, it can unauthorize the request. All this occurs without needing to make a database call to grab the authentication data (like with sessions, a stateful solution). Neat, no?
+We can use JWTs to authenticate our APIs in a stateless manner; the server side does not need to store any of the authentication data itself. It only needs to store a secret so it can generate tokens signed with that secret and send them to the client. Then, for incoming requests, it needs only verify that it made the incoming JWT and it has not been tampered with and can deserialize the payload if verified. Else, it can unauthorize the request. All this occurs without needing to make a database call to grab the authentication data (like with sessions, a stateful solution). Neat, no?
 
-This is not all sunshine and roses, however. There are always tradeoffs, especially when security is concerned, and we will discuss these in more detail in a later lesson where we compare stateful authentication with sessions and stateless authentication with JWTs. Nonetheless, you're likely to encounter this sort of authentication at some point out in the wild, so it's good to get some experience with the concept (even if a basic implementation).
+This is not all sunshine and roses, however. There are always tradeoffs, especially when security is concerned, and we will discuss these in more detail in a later lesson where we compare stateful authentication with sessions and stateless authentication with JWTs. Nonetheless, you're likely to encounter this sort of authentication at some point out in the wild, so it's good to get some experience with the concept (even if it's a basic implementation).
 
 ### Generating JWTs
 
-Back in the Sessions lesson, when a user successfully logged in, their ID was serialised to a session which was saved to the database, and a cookie sent back to the client with the signed session ID. With JWTs, a very similar process occurs, just a JWT is created and sent instead, and nothing gets saved to the database. You can generate JWTs using the [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) library. For example, in a login route middleware:
+Back in the Sessions lesson, when a user successfully logged in, their ID was serialized to a session which was saved to the database, and a cookie sent back to the client with the signed session ID. With JWTs, a very similar process occurs, only a JWT is created and sent instead, and nothing gets saved to the database. You can generate JWTs using the [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) library. For example, in a login route middleware:
 
 ```javascript
 // importing the jsonwebtoken library somewhere appropriate
@@ -68,7 +68,7 @@ Remember that JWTs are sent to and stored on the client. If a malicious party is
 
 So when a user successfully logs in, the server generates and sends a signed JWT in response. What about for incoming requests to routes we want to protect?
 
-The client must attach the JWT to any such requests, whether that's through `fetch` in a script or when using something like Postman. In our case, we'll do the same as earlier and write to the "Authorization" header using the format `Bearer: <JWT>`. Just like with the Sessions lesson, any routes we want to protect will need a middleware to authenticate the request first. However, instead of doing session stuff like before, we need to extract the JWT and verify its signature. For example:
+The client must attach the JWT to any such requests, whether that's through `fetch` in a script or when using something like Postman. In our case, we'll do the same as earlier and write to the "Authorization" header using the format `Bearer: <JWT>`. Just like with the Sessions lesson, any routes we want to protect will need a middleware to authenticate the request first. However, instead of doing session stuff like before, we need to extract the JWT and verify its signature, which can also be done with the `jsonwebtoken` library. For example:
 
 ```javascript
 // in an authentication middleware
