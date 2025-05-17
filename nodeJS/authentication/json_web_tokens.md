@@ -81,7 +81,7 @@ try {
 }
 ```
 
-Upon successful verification, the payload is returned and can be handled however necessary; in the example above, it gets attached to `req` and the next middleware is called. If the token is not valid, whether that's from it having expired or not valid or even non-existant, an error is thrown which we can catch and unauthorize the request, responding to the client with a 401 since we do not know who they are.
+Upon successful verification, the payload is returned and can be handled however necessary; in the example above, it gets attached to `req` and the next middleware is called. If the token is not valid, whether that's from it having expired or not valid or even non-existent, an error is thrown which we can catch and unauthorize the request, responding to the client with a 401 since we do not know who they are.
 
 ### Caveats
 
