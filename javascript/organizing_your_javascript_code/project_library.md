@@ -31,7 +31,7 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 
 <div class="lesson-note" markdown="1">
 
-You're not required to add any type of storage right now to save the information between page reloads. You will have the option to come back to this project later on in the course.
+You're not required to add any type of storage to save the information between page reloads.
 
 </div>
 
