@@ -24,7 +24,7 @@ JWTs are often not encrypted, only encoded in base64. You can use any JWT decode
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiT2RpbiJ9.FtLFoA9kG8B_gvKz0nEzx4uDYAlsgWhxTGEUfinYcf8
 ```
 
-You don't need to understand the inner workings of JWTs but let's peek at what's going on. Paste that into [jwt.io](https://jwt.io/) and you'll see a payload of `{ "name": "Odin" }` along with an "invalid signature" warning. If you change the secret in the "verify signature" box to `theodinproject` then paste the JWT back in, it'll say "signature verified". If you change any part of the JWT contents, such as the payload or secret, you'll see the JWT value change. In particular, the signature section changes *dramatically*.
+<span id="jwt-signature">You don't need to understand the inner workings of JWTs but let's peek at what's going on. Paste that into [jwt.io](https://jwt.io/) and you'll see a payload of `{ "name": "Odin" }` along with an "invalid signature" warning. If you change the secret in the "verify signature" box to `theodinproject` then paste the JWT back in, it'll say "signature verified". If you change any part of the JWT contents, such as the payload or secret, you'll see the JWT value change. In particular, the signature section changes *dramatically*.</span>
 
 This is how a server can verify if it did indeed issue an incoming JWT as well as verify if it had been tampered with, as a different payload would generate a different signature, even with the same secret. Unless you also know the secret, you would not be able to create the correct signature for the changed payload.
 
@@ -54,7 +54,7 @@ if (user?.password === req.body.password) {
 }
 ```
 
-There are many ways JWTs can be sent to and from servers, such as in the response's "Authorization" header via the [Bearer scheme](https://security.stackexchange.com/questions/108662) or via httpOnly cookies. Since we have not yet covered how to handle cross-site cookies, the example above sends the JWT as a bearer token in the response's Authorization header.
+<span id="sending-jwts">There are many ways JWTs can be sent to and from servers, such as in the response's "Authorization" header via the [Bearer scheme](https://security.stackexchange.com/questions/108662) or via httpOnly cookies. Since we have not yet covered how to handle cross-site cookies, the example above sends the JWT as a bearer token in the response's Authorization header.</span>
 
 <div class="lesson-note lesson-note--critical" markdown="1">
 
@@ -97,13 +97,19 @@ We will compare stateful authentication with sessions and stateless with JWTs in
 
 <div class="lesson-content__panel" markdown="1">
 
+1. Read through [Postman's article "What is JWT?"](https://blog.postman.com/what-is-jwt/) for a little more on JWTs themselves.
+
 </div>
 
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
+- [How does stateless authentication differ from stateful authentication?](#introduction)
+- [What is a JSON web token?](#jwts)
+- [How does a JWT protect against tampering?](#jwt-signature)
+- [What are some ways that JWTs can be sent between client and server?](#sending-jwts)
+- [What are some of the pros and cons of stateless authentication when compared to stateful?](#caveats)
 
 ### Additional resources
 
