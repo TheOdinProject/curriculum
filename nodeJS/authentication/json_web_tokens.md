@@ -72,7 +72,7 @@ The client must attach the JWT to any such requests, whether that's through `fet
 
 ```javascript
 // in an authentication middleware
-const token = req.headers.authorization?.split(" ")[1];
+const token = req.get("authorization")?.split(" ")[1];
 try {
   req.user = jwt.verify(token, process.env.SECRET);
   next();
