@@ -96,12 +96,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-<div class="lesson-note" markdown="1">
-
-#### Note
-
-Please note the length of the course and feel free to complete it as per your convenience.
-
-</div>
-
-- This [free course on Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts) by Kevin Powell provides great practice to work on your responsive layout chops.  
+- This [21-day free course on Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts) by Kevin Powell provides great practice to work on your responsive layout chop
