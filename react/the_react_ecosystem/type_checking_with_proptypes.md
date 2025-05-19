@@ -11,7 +11,6 @@ This section contains a general overview of topics that you will learn in this l
 - Setting up PropTypes.
 - Using common PropTypes features.
 
-
 ### Getting started
 
 <div class="lesson-note lesson-note--critical" markdown="1">
@@ -20,16 +19,15 @@ This section contains a general overview of topics that you will learn in this l
 
 propTypes and defaultProps are discontinued from React version 19. Please use React versions lesser than 19 to follow this lesson:
 
-
 1. Set up React with Vite as usual. It does not matter whether you run `npm install` here or not.
 
-2. Change the versions for the following four packages in `package.json` to `"^18"`:
-   - `react`
-   - `react-dom`
-   - `@types/react`
-   - `@types/react-dom` 
+1. Change the versions for the following four packages in `package.json` to `"^18"`:
+    - `react`
+    - `react-dom`
+    - `@types/react`
+    - `@types/react-dom`
 
-3. Run `npm install`.
+1. Run `npm install`.
 
 </div>
 
