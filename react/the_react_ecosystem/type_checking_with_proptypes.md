@@ -11,33 +11,27 @@ This section contains a general overview of topics that you will learn in this l
 - Setting up PropTypes.
 - Using common PropTypes features.
 
-### Important Note on React Version
+
+### Getting started
 
 <div class="lesson-note lesson-note--critical" markdown="1">
 
-propTypes and defaultProps are discontinued from React version 19. Please use React versions lesser than 19 to follow this lesson.
+#### Important Note on React Version
 
-This can be done by:
+propTypes and defaultProps are discontinued from React version 19. Please use React versions lesser than 19 to follow this lesson:
 
-- Setting up Vite as usual
 
-- Changing the react version in package.json file before running 'npm install
+1. Set up React with Vite as usual. It does not matter whether you run `npm install` here or not.
 
-- Changing React version:  
-  "dependencies": {  
-  "react": "^18.0.0", // Changed to React 18  
-  "react-dom": "^18.0.0" // Changed to ReactDOM 18  
-  }  
-  "devDependencies": {  
-  "@types/react": "^18.0.10", // Updated to React 18 types  
-  "@types/react-dom": "^18.0.5", // Updated to ReactDOM 18 types  
-  }  
+2. Change the versions for the following four packages in `package.json` to `"^18"`:
+   - `react`
+   - `react-dom`
+   - `@types/react`
+   - `@types/react-dom` 
 
-- Leaving the rest in package.json file untouched
+3. Run `npm install`.
 
 </div>
-
-### Getting started
 
 To start using PropTypes in our React projects, we first need to install the corresponding library. We can do that with `npm`. In your React project run the following command:
 
