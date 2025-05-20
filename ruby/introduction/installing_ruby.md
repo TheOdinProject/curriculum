@@ -81,6 +81,13 @@ mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 ```
 
+<div class="lesson-note">
+After running this command, you may see a warning like
+"permission denied, can't write to <user>directory"
+
+If this error shows up, try restarting your computer, then running the command again. 
+</div>
+
 Finally, run
 
 ```bash
