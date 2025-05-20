@@ -82,9 +82,9 @@ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-b
 ```
 
 <div class="lesson-note">
- 
- You may see an error, like "permission denied, can not write to this directory"
-If so, try restarting your computer and running the same command again. 
+
+You may see an error, like "permission denied, can not write to this directory"
+If so, try restarting your computer and running the same command again.
 
 </div>
 
