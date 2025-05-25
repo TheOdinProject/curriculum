@@ -254,6 +254,20 @@ Finally add the image to the `index.html` file:
 
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Images you use should be free for your intended purpose
+
+There are many free images available but make sure to give credit to the creator of the image in your project.
+
+An easy way to provide credit is to include the creator's name and contact info in a README file in your repository, or give [attribution](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US).
+
+To find them - Google images and in image results -> Tools -> Usage rights -> "Creative Commons". Choose & click on a image and click license details.
+
+We recommend that you always review the license requirements of any images you want to use.
+
+</div>
+
 ### Parent directories
 
 What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
