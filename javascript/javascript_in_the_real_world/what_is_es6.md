@@ -2,6 +2,17 @@
 
 We've been throwing around the term **ES6** since our very first lessons, but we haven't taken the time to properly explain what it means or to investigate the implications of it in our code.
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Describe what ES6 is.
+- Describe the current ECMAScript release system.
+- Explain some potential issues with browser support for newer JavaScript features.
+- Explain what Babel is.
+
+### ECMAScript
+
 ES6 is a version of JavaScript that was officially released in the summer of 2015. It included *many* new features that make writing JavaScript much easier and cleaner. If you have been following our lessons you have already been learning these new features because, well, ES6 is *just JavaScript*.
 
 You have probably also come across articles talking about features in ES7 or ES8 or ES2015 or ES2017 etc. Part of the confusion here is that right after the release of ES6, the committee that makes these decisions changed the naming scheme from 'version numbers' (ES5, ES6, ES7 etc.) to 'release years' (ES2015, ES2016, ES2017 etc.)
@@ -19,6 +30,18 @@ In all honesty, this is not something that you are going to *need* to worry abou
 
 - Here are some instructions for [installing `babel-loader` for use with webpack](https://github.com/babel/babel-loader) if you wanted to try it out. If you've already got webpack up and running in a project, adding babel is a cinch!
 - Read about [presets and plugins in Babel](https://blog.jakoblind.no/babel-preset-env/). It will also show you how to target specific browser versions you want to support.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+</div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- []()
 
 ### Additional resources
 
