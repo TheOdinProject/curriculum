@@ -13,27 +13,28 @@ This section contains a general overview of topics that you will learn in this l
 
 ### ECMAScript
 
-ES6 is a version of JavaScript that was officially released in the summer of 2015. It included *many* new features that make writing JavaScript much easier and cleaner. If you have been following our lessons you have already been learning these new features because, well, ES6 is *just JavaScript*.
+JavaScript is just a programming language that conforms to the ECMAScript standard, made by Ecma International, and ES6 is a version of JavaScript that was officially released in the summer of 2015. It included *many* new features that make writing JavaScript much easier and cleaner. In this curriculum, you have already been learning many of these new features because, well, ES6 is *just JavaScript*.
 
-You have probably also come across articles talking about features in ES7 or ES8 or ES2015 or ES2017 etc. Part of the confusion here is that right after the release of ES6, the committee that makes these decisions changed the naming scheme from 'version numbers' (ES5, ES6, ES7 etc.) to 'release years' (ES2015, ES2016, ES2017 etc.)
+You have probably also come across articles talking about features in ES7 or ES8 or ES2015 or ES2017 etc. Part of the confusion here is that right after the release of ES6, the committee that makes these decisions (TC39) changed the naming scheme from version numbers (ES5, ES6, ES7 etc.) to release years. ES6 is also known as ES2015, what some articles refer to as ES7 is also known as ES2016 etc. Instead of a single new version containing a huge number of new features (as was the case with ES6 and before), versions are released annually with a smaller set of additions per version.
 
-- The following article provides a nice [timeline of the various ECMAScript releases](https://codeburst.io/javascript-wtf-is-es6-es8-es-2017-ecmascript-dca859e4821c).
-- Read about all the [new features that showed up in ES6 (a.k.a. ES2015)](https://github.com/lukehoban/es6features). You've already been using many of these, although there are a few we haven't specifically covered yet.
+### Browser support
 
-The *problem* with JavaScript constantly updating and adding features is that it sometimes takes web-browsers a while to catch up and implement new features once they've been released. At the current time all modern browsers (Chrome, Firefox, Safari and Edge) support *all* of ES6, and *most* of ES7, but older browsers (various versions of Internet Explorer for instance) do not. This means, unfortunately, that if you write code that uses these new features it **will not run** in browsers that do not support it.
+The *problem* with JavaScript constantly updating and adding features is that it sometimes takes web browsers a while to catch up and implement new features once they've been released. It often takes a couple of years for a new feature to become "widely available" (supported across the majority of modern browsers and browser versions in use). This means, unfortunately, that if you write code using brand new features, it **will not run** in browsers that do not support it.
 
-For most of us, this has not been an issue because you are almost definitely using a new browser that automatically updates itself when a new version is released. But in the real world, if you're selling products to customers you can't control which browsers people will use to connect to your site.
+For most of us, this has not been an issue because you are almost definitely using a new browser that automatically updates itself when a new version is released. But in the real world, if you're selling products to customers, you can't control which browsers people will use to connect to your site.
 
-Fortunately there *is* a solution to this problem. [Babel](http://babeljs.io/) is a tool that takes your modern JavaScript code and **transpiles** it to code that older browsers can understand. It can be used from the command line with a single command, and can also easily be added to your webpack configuration with the babel-loader.
+#### Babel
 
-In all honesty, this is not something that you are going to *need* to worry about on every project you're starting. All the ES6 features are present in the large majority of browsers used worldwide. But JavaScript is constantly changing, and as new features are announced and released, you can use Babel to try them out, often before they're available in *any* browser!
+Fortunately there *is* a solution to this problem. [Babel](http://babeljs.io/) is a tool that takes your modern JavaScript code and **transpiles** it to code that older browsers can understand. It can be set to transpile to meet any number of targets (e.g. minimum browser versions across various browsers), where the necessary targets depend on things like the product's purpose, its target audience etc. Some products may be fine with more recent browser support only whereas others may need to be much stricter and ensure support for much older browsers.
 
-- Here are some instructions for [installing `babel-loader` for use with webpack](https://github.com/babel/babel-loader) if you wanted to try it out. If you've already got webpack up and running in a project, adding babel is a cinch!
-- Read about [presets and plugins in Babel](https://blog.jakoblind.no/babel-preset-env/). It will also show you how to target specific browser versions you want to support.
+In all honesty, this is *not* something that you are going to need to worry about on every project you're starting, since the point of curriculum projects is to get practical experience with things and not delivering production-level products to customers. Still, it helps to be aware of the situation and what things may be necessary in the real world.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
+1. The following article provides a nice [timeline of the various ECMAScript releases](https://codeburst.io/javascript-wtf-is-es6-es8-es-2017-ecmascript-dca859e4821c).
+1. Read about all the [new features that showed up in ES6 (a.k.a. ES2015)](https://github.com/lukehoban/es6features). You've already been using many of these, although there are a few we haven't specifically covered yet.
 
 </div>
 
