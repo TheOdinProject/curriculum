@@ -225,5 +225,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [The semantic difference between &lt;strong> and &lt;b> or &lt;em> and &lt;i> tags and when to use them.](https://medium.com/@zac_heisey/when-to-use-strong-b-em-and-i-tags-in-your-markup-fa4d0af8affb)
+- [The semantic difference between &lt;strong> and &lt;b> or &lt;em> and &lt;i> tags and when to use them.](https://scribe.rip/@zac_heisey/when-to-use-strong-b-em-and-i-tags-in-your-markup-fa4d0af8affb)
 - [An interactive HTML text formatting article](https://www.w3schools.com/html/html_formatting.asp)

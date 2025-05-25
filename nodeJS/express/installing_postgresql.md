@@ -55,18 +55,6 @@ After installation is complete, let's start the server using this command:
 sudo systemctl start postgresql.service && systemctl status postgresql.service
 ```
 
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### Systemctl and WSL2
-
-Systemctl is not supported on WSL2, and the above command won't work. Instead, run the following command:
-
-```bash
-sudo service postgresql start
-```
-
-</div>
-
 Got an error, or don't see an active service? Come visit [our Discord server](https://discord.gg/V75WSQG) for some help!
 
 If `postgresql` is active, you can press `Q` to quit the status screen and move on to the next step.
@@ -95,7 +83,7 @@ Remember that we want the role name to be the same as our Linux user name and be
 
 One other important step in setting up PostgreSQL is that each role must have its own database of the same name. Without it, the role we just created will not be able to log in or interact with PostgreSQL.
 
-You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to resolve fix this:
+You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to fix this:
 
 <div class="lesson-note" markdown="1">
 
@@ -129,13 +117,13 @@ If you don't see a similar prompt, then reach out in [our Discord server](https:
 \password <role_name>
 ```
 
-You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role:
+You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role (note the semicolon at the end):
 
 ```sql
-grant all privileges on database <role_database_name> to <role_name>;
+GRANT ALL PRIVILEGES ON DATABASE <role_database_name> TO <role_name>;
 ```
 
-Remember that you should change the `<role_database_name>` and `<role_name>` (they should be both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
+Remember that you should change the `<role_database_name>` and `<role_name>` (they should both be the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
 
 #### 3.5 Saving access information in the environment
 
@@ -253,13 +241,13 @@ If you don't see a similar prompt, then reach out on [Discord](https://discord.g
 \password <role_name>
 ```
 
-You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role:
+You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role (note the semicolon at the end):
 
 ```sql
-grant all privileges on database <role_database_name> to <role_name>;
+GRANT ALL PRIVILEGES ON DATABASE <role_database_name> TO <role_name>;
 ```
 
-Remember that you should change the `<role_database_name>` and `<role_name>` (they should both the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
+Remember that you should change the `<role_database_name>` and `<role_name>` (they should both be the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
 
 #### 3.4 Saving access information in the environment
 

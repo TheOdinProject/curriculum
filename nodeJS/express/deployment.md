@@ -20,7 +20,7 @@ This section contains a general overview of topics that you will learn in this l
 
 Hosting providers are like server landlords. They own servers and rent space on them to customers, who can then use the space to store their websites and make them accessible to anyone on the web.
 
-You've already had some experience using a hosting provider when you deployed projects to Github pages earlier in the curriculum. GitHub pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** NodeJS apps. We're going to need something more powerful.
+You've already had some experience using a hosting provider when you deployed projects to Github pages earlier in the curriculum. GitHub pages is great for hosting **static** web pages for free, but we won't be able to use it for hosting our **dynamic** Node apps. We're going to need something more powerful.
 
 ### Static vs dynamic sites
 
@@ -28,9 +28,9 @@ Static websites consist of pre-written HTML pages. They are "static" because eve
 
 Dynamic websites, on the other hand, are websites that can change content based on the user who is visiting them. X (formerly known as Twitter) is a good example; every user sees different content on their homepage feed based on who they follow. To build dynamic sites, you still need HTML, CSS and JS. But additionally, you need a server-side application and a database.
 
-This additional tech prohibits us from using GitHub Pages for hosting our NodeJS apps. GitHub pages cannot run Node.js applications and doesn't have database services we can use. Similarly, host providers like Netlify and Vercel, which you may have used back in the React course, do not have the same capabilities to run our Node.js servers and databases. They're not the right tools for our back ends.
+This additional tech prohibits us from using GitHub Pages for hosting our Node apps. GitHub pages cannot run Node.js applications and doesn't have database services we can use. Similarly, host providers like Netlify and Vercel, which you may have used back in the React course, do not have the same capabilities to run our Node.js servers and databases. They're not the right tools for our back ends.
 
-Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Heroku](https://www.heroku.com/), [Railway](https://railway.app/), [Render](https://render.com/), and [Fly.io](https://fly.io/). We will be focusing on and utilizing these latter providers in this lesson.
+Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/), and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Railway](https://railway.app/) and [Render](https://render.com/). We will be focusing on and utilizing these latter providers in this lesson.
 
 ### What is a PaaS?
 
@@ -38,13 +38,13 @@ Platform as a Service is a specific kind of hosting provider. The most important
 
 Taking the landlord metaphor we used earlier a little further, a PaaS platform is like having a landlord who takes care of all the utilities, building maintenance and security. Meanwhile, you, the developer, focus on furnishing, decorating and living in the space.
 
-It's an incredibly powerful model and perfect for us right now. Using a PaaS provider for deployment, we can focus on learning and mastering NodeJS without taking a significant diversion to learn the specialized knowledge needed to manage and maintain servers ourselves.
+It's an incredibly powerful model and perfect for us right now. Using a PaaS provider for deployment, we can focus on learning and mastering Node without taking a significant diversion to learn the specialized knowledge needed to manage and maintain servers ourselves.
 
 We will provide a list of our recommended PaaS providers later in the lesson. First, let us explore from a high level how PaaS providers work.
 
 ### How do PaaS services work?
 
-PaaS providers work by giving you easy access to a few resources that any NodeJS app can't live without to function on the web.
+PaaS providers work by giving you easy access to a few resources that any Node app can't live without to function on the web.
 
 #### Instances
 
@@ -68,7 +68,7 @@ The peace of mind this affords you can't be overstated. You never want to be in 
 
 Many PaaS services come with SQL databases included.
 
-Either choice isn't too difficult to setup, but it's always nice to have a fallback option! For now, we encourage you to try and figure out how to deploy your mini-message board project with just what you learn in this lesson.
+Either choice isn't too difficult to set up, but it's always nice to have a fallback option! For now, we encourage you to try and figure out how to deploy your mini-message board project with just what you learn in this lesson.
 
 #### Domain names
 
@@ -96,28 +96,6 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-#### Fly.io
-
-Can deploy both servers and databases.
-
-- Fly.io uses a CLI tool for deployment.
-- Paid plans include [free allowances](https://fly.io/docs/about/pricing/#free-allowances), additional resources are billed based on usage with very reasonable rates.
-- Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
-
-##### Fly.io: Free Plan
-
-- New customers get a one-time $5 free trial credit to test Fly.io at no cost. The free allowances are not applicable during the free trial. After the credit has been used, you will be be automatically placed on the $5/month Hobby plan subscription.
-- The longevity of your free trial credit depends on how many resources you consume. More complex apps with more traffic may consume the whole free trial credit within a month, whereas simpler apps may last longer.
-- Requires a credit card.
-
-##### Fly.io: Links
-
-- [Fly.io's homepage](https://fly.io/)
-- [Fly.io's documentation](https://fly.io/docs/)
-- [Guide: Official getting started with NodeJS on Fly.io guide](https://web.archive.org/web/20230823151155/https://fly.io/docs/languages-and-frameworks/node/)
-
----
-
 #### Railway.app
 
 Can deploy both servers and databases.
@@ -138,29 +116,6 @@ Can deploy both servers and databases.
 
 ---
 
-#### Adaptable.io
-
-Can deploy servers with or without a database attached (cannot deploy standalone databases).
-
-- Like Railway, has a convenient deployment process. You link to your project's GitHub repo.
-- Free plan does not limit the number of applications you can deploy.
-- Also has fixed and usage-based payment plans.
-
-##### Adaptable.io: Free Plan
-
-- No limits on the number of applications you can deploy on the free plan.
-- Monthly performance allowance is more than sufficient for course/personal projects (approximately 25,000 API requests per month).
-- Applications are put to sleep when inactive but wake up speed is quicker than Render.
-- Requires a credit card.
-
-##### Adaptable.io: Links
-
-- [Adaptable.io homepage](https://adaptable.io/)
-- [Adaptable.io documentation](https://adaptable.io/docs/what-is-adaptable)
-- [Guide: Official getting started with deploying an Express app on Adaptable guide](https://adaptable.io/docs/app-guides/deploy-express-app)
-
----
-
 #### Render
 
 Can deploy both servers and databases.
@@ -173,14 +128,13 @@ Can deploy both servers and databases.
 
 - 750 hours of free usage per month.
 - Applications are put to sleep automatically after 15 minutes of inactivity, so the 750 free hours should be enough to host a few apps for the entire month.
-- Requires a credit card.
 
 ##### Render: Links
 
 - [Render homepage](https://render.com/)
 - [Render documentation](https://render.com/docs/)
 - [Guide: Official getting started with Node/Express on Render guide](https://render.com/docs/deploy-node-express-app)
-- [Guide: CodeBrah video guide for deploying NodeJS applications to Render](https://www.youtube.com/watch?v=bnCOyGaSe84&ab_channel=CodeBrah)
+- [Guide: CodeBrah video guide for deploying Node applications to Render](https://www.youtube.com/watch?v=bnCOyGaSe84&ab_channel=CodeBrah)
 
 ---
 
@@ -230,6 +184,38 @@ Can deploy databases only.
 
 ---
 
+#### Aiven
+
+Can deploy databases only.
+
+- 24/7 for all database services.
+- High availability and automatic backups.
+- Point-in-time recovery (varies by service).
+- No credit card required.
+
+##### Aiven: Free Plan
+
+- 5 GiB of storage.
+- 24/7 for all database services.
+- One free database for every services including PostgreSQL, MySQL and Redis.
+- No credit card required.
+
+##### Aiven: Links
+
+- [Aiven homepage](https://aiven.io/)
+- [Aiven documentation](https://aiven.io/docs/get-started)
+- [Guide: Connect a Node.js application to Aiven](https://aiven.io/docs/products/postgresql/howto/connect-node)
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Keep your secrets safe!
+
+This guide provides a sample for configuring a database connection. Please do not store credentials directly in your code. Refer to the [Environment Variables](https://www.theodinproject.com/lessons/nodejs-environment-variables) section for best practices.
+
+</div>
+
+---
+
 ### Debugging and troubleshooting deployments
 
 Errors are an inevitable part of the software development process. They especially have a habit of popping up when deploying to a new environment like a hosting provider. When this happens, the key is not to panic and to follow a calm, step-by-step debugging process.
@@ -238,11 +224,15 @@ In most cases, you'll be running into errors that thousands of developers have e
 
 There are two stages of the deployment process where you are most likely to encounter problems. These are during deployment and right after.
 
+#### Node version compatibility
+
+Depending on the host provider you use, the supported Node versions and default selected version may differ. You can refer to the providers' documentation for more information on what is supported and selected, and depending on what features you use in your code, you may need to [specify what Node versions your project is compatible with in your `package.json`](https://docs.npmjs.com/cli/v10/configuring-npm/package-json#engines).
+
 #### On deployment
 
 If you run into an error while deploying, the first thing to do is to check the build logs. Finding the build logs should be easy; it's the stream of output you'll see after kicking off a new deployment.
 
-Scroll through these logs and find the point where the deployment encountered the error. It should stand out from the rest of the output and will often look like the stack traces you've already seen with JavaScript/NodeJS. The error output will tell you exactly what went wrong.
+Scroll through these logs and find the point where the deployment encountered the error. It should stand out from the rest of the output and will often look like the stack traces you've already seen with JavaScript/Node. The error output will tell you exactly what went wrong.
 
 If you don't recognize the error or what might cause it, your next step will be to copy and paste it into your favorite online search engine. You'll likely find a Stack Overflow post with a solution. You can get support in our Discord server if searching doesn't lead to anything conclusive.
 
@@ -297,4 +287,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [free-for.dev](https://free-for.dev/). This is a huge repository for list of software such as SaaS, PaaS, IaaS, etc. and other offerings with free developer tiers.

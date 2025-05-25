@@ -7,7 +7,7 @@ This lesson will explain the importance of good commit messages, how to write th
 This section contains a general overview of topics that you will learn in this lesson.
 
 - How to write a meaningful commit message.
-- Why meaningful commit messages are important
+- Why meaningful commit messages are important.
 - When to commit.
 
 ### Are commit messages so important they deserve their own lesson?
@@ -37,12 +37,12 @@ Effective commits consist of two separate parts: a subject, and a body:
 A brief summary of the change you made to the project.
 
 ```text
-This is the change I made to the codebase.
+This is the change I made to the codebase
 ```
 
 <div class="lesson-note lesson-note--tip" markdown=1>
 
-GitHub has a 72-character limit so we recommend keeping your commits' subject to within this amount.
+GitHub has a 72-character limit, so we recommend keeping your commits' subjects within this amount.
 
 </div>
 
@@ -59,14 +59,20 @@ Now that we learned the secret to creating a good commit message, let's try and 
 ```git
 Add missing link and alt text to the company's logo
 
-Screen readers won't read the images to users with disabilities without this information
+Screen readers won't read the images to users with disabilities without this information.
 ```
 
 Ahh, that's better! :) Now, developers can gain a better understanding of this commit message because it does the following:
 
 - Provides a subject that specifies your code's action (e.g., "Add missing link and alt text to the company's logo").
-- Contains a body that provides a concise yet clear description of why the commit needed to be made (e.g., "Screen readers won't read the images to users with disabilities without this information").
+- Contains a body that provides a concise yet clear description of why the commit needed to be made (e.g., "Screen readers won't read the images to users with disabilities without this information.").
 - Separates the subject from the body with a new/blank line. This is a best practice we highly recommend following. It makes commit messages easier for other developers to read.
+
+### How to commit with a subject and body in the message
+
+Up until now, you've been told to commit with `git commit -m <message>`. To make a commit with subject and body in message, the simplest way is to type `git commit` without the `-m` flag and message argument.
+
+Doing so will open a new Visual Studio Code tab if you had [set Visual Studio Code as the Git editor](https://www.theodinproject.com/lessons/foundations-git-basics#changing-the-git-commit-message-editor). You can remove any comments and enter your multi-line messages. When you save and close the tab, your commit will be created.
 
 ### When to commit
 
@@ -88,7 +94,7 @@ There will come a time when you are working on a project and you FINALLY get som
 
 #### Tips and things to remember
 
-- Using VSCode as your text editor (you should have set this up in the Git Basics section) will allow you to easily make multi-line commit messages, easily see the character length of each line, and will allow you to use [VSCode spell check extensions](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to make sure your spelling is correct
+- Using VSCode as your text editor (you should have set this up in the Git Basics section) will allow you to easily make multi-line commit messages, easily see the character length of each line, and will allow you to use [VSCode spell check extensions](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to make sure your spelling is correct.
 - Use an active voice: "Fix card generator".
 - Avoid using vague commit messages such as "saved" or "updated".
 - Commit early and often!

@@ -94,7 +94,7 @@ irb(main):013:0> isogram?("Odin")
 => false
 ```
 
-Indeed, we didn't use `#split` correctly, as this particular creates an array with the given string rather than creating an array of characters of the given string. Why? By default, if we didn’t provide arguments, [the #split method](https://docs.ruby-lang.org/en/3.3/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference.
+Indeed, we didn't use `#split` correctly, as it creates an array with the given string rather than an array of the string's characters. Why? By default, if we didn’t provide arguments, [the #split method](https://docs.ruby-lang.org/en/3.3/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference.
 
 Hostage situation resolved! That wasn't so bad, was it?
 
@@ -211,7 +211,7 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 1. Now that you're familiar with the basics, we're going to have some fun with VSCode! Check the [VSCode rdbg Ruby Debugger documentation](https://github.com/ruby/vscode-rdbg) and generate the configuration inside your VSCode by going to `Run and Debug` and clicking on `create a launch.json file` then picking `Ruby (rdbg)`. Now, the configuration you want to use is `Debug current file with rdbg` that you can see at the top of the Debug sidebar. You can also invoke the last used debugging configuration with `F5`. `launch.json` files need to be created on a per project basis. If you're having a hard time figuring out how to navigate to your `launch.json` file in order to change the configuration, peek into [Debugging with VScode launch configurations portion](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations). We encourage you to go through the entire article, though!
 1. Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the [Debugging with pry-byebug](#debugging-with-pry-byebug) Section. Get rid of the `require pry-byebug` line and change `binding.pry` to `debugger`. Save the file.
 1. Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the [JavaScript Developer Tools lesson](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools). But *whoa*, once we hit the `debugger` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode documentation](https://code.visualstudio.com/docs/editor/debugging) if you get stuck.
-1. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`,`debug`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
+1. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`,`debug`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics#readme) that you previously cloned.
 
 </div>
 
@@ -231,7 +231,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Read through [HOWTO debug your Ruby code](https://readysteadycode.com/howto-debug-your-ruby-code), especially the first section on `puts` debugging, by ReadySteadyCode.
 - Read the article on [Debugging without doom and gloom](https://practicingruby.com/articles/debugging-without-doom-and-gloom) by Practicing Ruby.
 - Poke around [Debug's repo and its README](https://github.com/ruby/debug) that will help you master this invaluable gem.
 - Watch [debug.gem: Ruby's new debug functionality talk by Koichi Sasada](https://www.youtube.com/watch?v=XeWHrsp6nwo), one of debug's maintainers to learn about its history and functionality.

@@ -112,14 +112,16 @@ my_hash = { "one" => 1, "two" => 2 }
 
 my_hash.each { |key, value| puts "#{key} is #{value}" }
 
-one is 1
-two is 2
+#=> one is 1
+#=> two is 2
 #=> { "one" => 1, "two" => 2}
+```
 
+```ruby
 my_hash.each { |pair| puts "the pair is #{pair}" }
 
-the pair is ["one", 1]
-the pair is ["two", 2]
+#=> the pair is ["one", 1]
+#=> the pair is ["two", 2]
 #=> { "one" => 1, "two" => 2}
 ```
 
@@ -441,7 +443,7 @@ invited_friends(friends)
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What does the `#each` method do? What does it return?](#the-each-method)
-- [What does the `#each_with_index` method do?](#the-each_with_index-method)
+- [What does the `#each_with_index` method do?](#the-eachwithindex-method)
 - [What does the `#map` method do?](#the-map-method)
 - [What does the `#select` method do?](#the-select-method)
 - [What does the `#reduce` method do?](#the-reduce-method)

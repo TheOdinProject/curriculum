@@ -1,6 +1,6 @@
 ### Introduction
 
-In the previous lesson, we discovered that different display types have unique box models, and we can modify the box calculation by changing the `display` property. CSS has two box types: `block` and `inline` boxes, which determine element behavior and interaction. The `display` property controls how HTML elements appear on the webpage. We will explore its various options further in this lesson.
+In the previous lesson, we discovered that different display types have unique box models, and we can modify the box calculation by changing the `box-sizing` property. CSS has two box types: `block` and `inline` boxes, which determine element behavior and interaction. The `display` property controls how HTML elements appear on the webpage. We will explore its various options further in this lesson.
 
 ### Lesson overview
 
@@ -58,13 +58,14 @@ Span is an inline-level element by default. It can be used to group text content
 1. The concept of "Normal flow" is implied in the box-model resources, but isn't laid out very specifically. Read ["Normal Flow" from MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow) to make sure you understand how elements lay themselves out by default.
 1. W3 schools' ["HTML Block and Inline Elements"](https://www.w3schools.com/html/html_blocks.asp) has a description and a list of all the default block and inline elements.
 1. The Digital Ocean tutorial ["Inline vs Inline-block Display in CSS"](https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block) has a couple of great examples that clarify the difference between `inline` and `inline-block`.
-1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and navigate to the `margin-and-padding` directory. Review each README file prior to completing the following exercises in order:
+1. Do the exercises in our [CSS exercises repository's `foundations/block-and-inline` directory](https://github.com/TheOdinProject/css-exercises/tree/main/foundations/block-and-inline) (remember that the instructions are in the README) in the order:
    - `01-margin-and-padding-1`
    - `02-margin-and-padding-2`
 
    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
-
-1. Apply what you learned about the box model to improve the look of your Recipe page's `index.html` homepage. Currently, it's just a plain list, so get creative with layouts, colors, and styles to make your page uniquely captivating.
+1. Remember the Recipe page you created as practice from the HTML Foundations section? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
+   - How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the previous lesson (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
+   - We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
 
 </div>
 

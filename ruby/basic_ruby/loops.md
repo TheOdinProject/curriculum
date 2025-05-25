@@ -156,7 +156,7 @@ If you need to step through a series of numbers (or even letters) within a speci
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is a loop and why it is useful?](#introduction)
+- [What is a loop and why is it useful?](#introduction)
 - [What is a `loop` loop, and how would you use it?](#loop)
 - [What is a `while` loop, and how would you use it?](#while-loop)
 - [What is a `for` loop, and how would you use it?](#for-loop)

@@ -6,12 +6,12 @@ Up until this point in the curriculum, we have been building one-page applicatio
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is client-side routing?
-- How do you use React Router to do client-side routing?
-- How do you create nested and dynamic paths?
-- How do you add a "catch-all" route?
-- How do you pass data from a parent to any child components rendered via an outlet?
-- How do you add protected routes?
+- Understand what client-side routing is.
+- Learn how to use React Router for client-side routing.
+- Explore how to create nested and dynamic paths in React Router.
+- Discover how to add a 'catch-all' route in React Router.
+- Learn how to pass data from a parent component to any child components rendered via an outlet.
+- Understand how to implement protected routes in React Router.
 
 ### Client-side routing
 
@@ -87,8 +87,8 @@ Let us install the React Router package:
 Add the following to `main.jsx`, we will talk about what is happening in a little bit.
 
 ```jsx
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import Profile from "./Profile";
@@ -104,14 +104,14 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </StrictMode>
 );
 ```
 
-Once this is done, go ahead and run `npm run dev` and check out both routes: the home route `/` and the profile route `/profile` It works! But what is happening here?
+Once this is done, go ahead and run `npm run dev` and check out both routes: the home route `/` and the profile route `/profile`. It works! But what is happening here?
 
 1. We import `createBrowserRouter` and `RouterProvider` from React Router.
 1. `createBrowserRouter` is used to create the configuration for a router by passing arguments in the form of an array of routes.
@@ -183,8 +183,8 @@ export default Spinach;
 Now, we can rewrite the routes as given:
 
 ```jsx
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { StrictMode } from "react"
+import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import Profile from "./Profile";
@@ -206,10 +206,10 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </StrictMode>,
 );
 ```
 
@@ -233,7 +233,7 @@ const Profile = () => {
 export default Profile;
 ```
 
-Check out the `/profile`, `/profile/popeye` and `/profile/spinach` pages. The `<Outlet />` component gets replaced with the children component when their paths are visited.
+Check out the `/profile` page. To visit `/profile/popeye` or `/profile/spinach` pages, manually add `/popeye` or `/spinach` to the end of the current URL. The `<Outlet />` component gets replaced with the children component when their paths are visited.
 
 If you want to render something as a default component when no path is added to Profile, you can add an index route to the children!
 
@@ -247,11 +247,11 @@ const DefaultProfile = () => {
 export default DefaultProfile;
 ```
 
-Now, add an index tag with the DefaultProfile as a child to the `/profile` route.
+Now, add an index property with the DefaultProfile as a child to the `/profile` route.
 
 ```jsx
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import Profile from "./Profile";
@@ -275,10 +275,10 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </StrictMode>,
 );
 ```
 
@@ -287,8 +287,8 @@ If you visit the `/profile` path now, you should be able to see some default con
 But this example brings another dilemma. Sometimes, we want to render content according to the URLs. That, here, would mean that we should be able to render content dynamically, from the component itself. Thankfully, you can do so with dynamic segments! Change the routes to be the following:
 
 ```jsx
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import Profile from "./Profile";
@@ -304,10 +304,10 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </StrictMode>,
 );
 ```
 
@@ -366,8 +366,8 @@ export default ErrorPage;
 Add the `errorElement` to the configuration, and verify that it renders an error page by going to the `/profile` path or any unmentioned paths. We'll wire this back up in the assignment.
 
 ```jsx
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import Profile from "./Profile";
@@ -385,10 +385,10 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </StrictMode>,
 );
 ```
 
@@ -421,17 +421,17 @@ export default routes;
 Import the routes to your `main.jsx` file:
 
 ```jsx
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import React from "react";
-import ReactDOM from "react-dom/client";
 import routes from "./routes";
 
 const router = createBrowserRouter(routes);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </StrictMode>,
 );
 ```
 
@@ -477,7 +477,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What should be used in place of "a" tags to enable client-side routing?](#the-link-element)
 - [How do you create nested routes?](#nested-routes-outlets-and-dynamic-segments)
 - [What do you mean by dynamic segments or URL params?](#nested-routes-outlets-and-dynamic-segments)
-- [How do you add a "catch-all" route?](#handling-bad-urls)
+- [How do you handle errors from bad URLs?](#handling-bad-urls)
 - [How do you pass data from parent to child through an `<Outlet />` component?](#outlets-and-state)
 - [How do you create protected routes?](#protected-routes-and-navigation)
 

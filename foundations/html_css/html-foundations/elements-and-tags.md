@@ -45,7 +45,7 @@ You might also see these referred to as self-closing tags. But those are just vo
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Watch Kevin Powell's [Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA).
+1. Watch Kevin Powell's [HTML & CSS for Absolute Beginners: What is HTML?](https://www.youtube.com/watch?v=X4sClFRMJ00).
 
 </div>
 

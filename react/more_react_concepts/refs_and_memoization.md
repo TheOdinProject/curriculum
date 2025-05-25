@@ -68,7 +68,7 @@ We can also see that it's similar to the `useState` hook in that it can store so
 
 ### The useMemo hook
 
-In all of the examples, we would advise you to use the [Profiler component](https://react.dev/reference/react/Profiler) that is provided in the `react` module. If you want a more interactive alternative, use the `Profiler` in the [React Developer Tools](https://react.dev/learn/react-developer-tools). To measure rendering performance. Note that sometimes you don't need to optimize anything because of how fast things are already. As the famous saying goes in software development:
+In all of the examples, we would advise you to use the [Profiler component](https://react.dev/reference/react/Profiler) that is provided in the `react` module. If you want a more interactive alternative, use the `Profiler` in the [React Developer Tools](https://react.dev/learn/react-developer-tools) to measure rendering performance. Note that sometimes you don't need to optimize anything because of how fast things are already. As the famous saying goes in software development:
 
 > Premature optimization is the root of all evil -- The Art of Computer Programming by Donald Knuth
 
@@ -135,7 +135,7 @@ function Cart({ products }) {
 
 In the example above, we can easily memoize the calculated value by wrapping it in a `useMemo`, as the syntax is pretty much the same as `useEffect` and almost works the same. Where `useMemo` will also *execute* the callback on mount, and on subsequent re-renders, it will only *re-execute* the callback whenever one of the dependencies *changes*. In our case, whenever the `products` prop changes.
 
-This way, whenever a user opens/closes the cart multiple times, it will not recalculate the `totalPrice` and use the cached value as long as`products` did not change.
+This way, whenever a user opens/closes the cart multiple times, it will not recalculate the `totalPrice` and use the cached value as long as `products` did not change.
 
 #### Referential equality checks
 
@@ -143,10 +143,10 @@ For this example, we will use the `Profiler` component in the `react` module to 
 
 You do not need to start a React application for this. We've already got you covered a bit later, we will be sharing an interactive example, but for now, think through the code on what you think will happen, what could happen, and so on. This could also be a great exercise in reading code and visualizing how it works.
 
-Do note that this is just a very basic example. You will encounter a lot of passing of values to other components as prop, components that are very heavy to render.
+Do note that this is just a very basic example. You will encounter a lot of passing of values to other components as props, components that are very heavy to render.
 
 ```jsx
-import React, { useState } from "react";
+import { useState } from "react";
 
 const ButtonComponent = ({ children, onClick }) => {
   let i = 0;
@@ -213,7 +213,7 @@ const handleClick = useMemo(
 Great, `useMemo` should help us here right? It shouldn't possibly re-render the `ButtonComponent` again correct? Nope, it will still re-render because whenever a component's `state` changes, it will also re-render its children, which could also be said differently - a component will re-render itself if its parent re-renders. Is there a way to fix this? Yes, there is! React in one of its APIs provides the [memo wrapper function](https://react.dev/reference/react/memo) that lets you skip re-rendering a component when its props are unchanged (yes, even if the parent re-renders). We can use this `memo` and wrap the `ButtonComponent` in it.
 
 ```jsx
-import React, { useState, memo } from "react";
+import { useState, memo } from "react";
 
 const ButtonComponent = memo(({ children, onClick }) => {
   let i = 0;

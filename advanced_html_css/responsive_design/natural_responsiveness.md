@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Not everything needs CSS
 
-Plain HTML, with no CSS is responsive. Visit this [HTML-only page with no CSS](https://codyloyd.github.io/responsive-html/) and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
+<span id='natural-responsiveness'>Plain HTML, with no CSS is responsive</span>. Visit this [HTML-only page with no CSS](https://codyloyd.github.io/responsive-html/) and shrink your browser down to the size of a phone. It works perfectly! You could read that site on an apple watch.
 
 It's not realistic for every website you create to be as basic as plain text on a page, but it is important to keep in mind that most of the elements you're using to build your project are responsive until **you** change that with CSS. If you approach your project with this mindset and do your best to maintain that natural responsiveness, you might find that there isn't *that* much extra you need to do to make your sites properly responsive.
 
@@ -66,7 +66,7 @@ In *most* cases, you should avoid setting a height altogether. There are some ex
 
 #### When fixed widths are appropriate
 
-Obviously there are cases when a fixed width is appropriate. It's hard to make a universal rule, but in general the smaller your widths the more likely it's fine to make them fixed. For example, a `32px` icon on your page isn't going to benefit from using `max-width` because you probably *don't* want it to shrink. Likewise a `250px` sidebar probably needs to *always* be `250px`. As with anything you just need to consider your options and pick what seems to be the most appropriate.
+There are cases when a fixed width is appropriate. It's hard to make a universal rule, but, in general, the smaller your widths, the more acceptable it is to make them fixed. For example, a `32px` icon on your page isn't going to benefit from using `max-width` because you probably *don't* want it to shrink. Likewise, a `250px` sidebar probably needs to *always* be `250px`. As with anything, you need to consider your options and pick what seems to be the most appropriate.
 
 ### Use flex and grid
 
@@ -86,6 +86,7 @@ Here's a statement so obvious that it sounds like a joke: flexbox was *created* 
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
+- [What is natural responsiveness?](#natural-responsiveness)
 - [Why should you avoid fixed width?](#fixed-width)
 - [Why should you avoid fixed height?](#fixed-height)
 - [In what situations might it be appropriate to use a fixed height or width?](#when-fixed-widths-are-appropriate)
@@ -95,4 +96,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- This [free course on Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts) by Kevin Powell provides great practice to work on your responsive layout chops.  
+- This [21-day free course on Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts) by Kevin Powell provides great practice to work on your responsive layout chops.

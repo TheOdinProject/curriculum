@@ -2,7 +2,7 @@
 
 Do you know what you need? You need a blog. Or maybe you don't, or maybe you already have one, in any case, this project will be a great way to practice and see the benefits of creating an API only backend. We're actually going to create the backend and *two* different front-ends for accessing and editing your blog posts. One of the front-end sites will be for people that want to read and comment on your posts, while the other one will be just for you to write, edit and publish your posts.
 
-Why are we setting it up like this? Because we can! If you already have a portfolio site and you want to add your blog posts to that site feel free to do that instead of creating a new site just for that. The important exercise here is setting up the API and then accessing it from the outside. There are some security benefits to setting up separate websites for blog consumption and blog editing, but really we're just doing it like this to demonstrate the power and flexibility of separating your backend code from your frontend code.
+Why are we setting it up like this? Because we can! The important exercise here is setting up the API and then accessing it from the outside. There are some security benefits to setting up separate websites for blog consumption and blog editing, but really we're just doing it like this to demonstrate the power and flexibility of separating your backend code from your frontend code.
 
 ### Assignment
 
@@ -34,9 +34,3 @@ Why are we setting it up like this? Because we can! If you already have a portfo
 1. Deploying your separate apps isn't anything fancy. Deploy your API like with your previous projects using a PaaS from the [Deployment lesson](https://www.theodinproject.com/lessons/node-path-nodejs-deployment), and deploy your front-ends like you would have deployed your front-ends before. If you used React, recall several hosting options from the [CV Application project](https://www.theodinproject.com/lessons/node-path-react-new-cv-application).
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- As mentioned earlier, the cli-tool `curl` and [Postman](https://www.postman.com/downloads) are popular choices for testing your routes.

@@ -10,12 +10,12 @@ It is **very important** to take a look at all of this before progressing any fu
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- History-changing Git commands
-- Different ways of changing history
-- Using remotes to change history
-- Dangers of history-changing operations
-- Best practices of history-changing operations
-- Pointers
+- History-changing Git commands.
+- Different ways of changing history.
+- Using remotes to change history.
+- Dangers of history-changing operations.
+- Best practices of history-changing operations.
+- Pointers.
 
 ### Changing history
 
@@ -93,7 +93,7 @@ So let's edit our commit by typing `git commit --amend`, fixing the typo in the 
 
 #### Squashing commits
 
-Using `squash` for our commits is a very handy way of keeping our Git history tidy. It's important to know how to `squash`, because this process may be the standard on some development teams. Squashing makes it easier for others to understand the history of your project. What often happens when a feature is merged, is we end up with some visually complex logs of all the changes a feature branch had on a main branch. These commits are important while the feature is in development, but aren't really necessary when looking through the entire history of your main branch.
+Using `squash` for our commits is a very handy way of keeping our Git history tidier by combining multiple commits into one. It's important to know how to `squash`, because this process may be the standard on some development teams. Squashing makes it easier for others to understand the history of your project. What often happens when a feature is merged, is we end up with some visually complex logs of all the changes a feature branch had on a main branch. These commits are important while the feature is in development, but aren't really necessary when looking through the entire history of your main branch.
 
 Let's say we want to `squash` the second commit into the first commit on the list, which is `Create first file`. First let's rebase all the way back to our root commit by typing `git rebase -i --root`. Now what we'll do is `pick` that first commit, as the one which the second commit is being `squash`ed into:
 
@@ -142,8 +142,15 @@ You might be feeling overwhelmed at this point, so let's recap what we've learne
 <div class="lesson-content__panel" markdown="1">
 
 1. Read the chapter on [Rebasing covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
-
 1. Read the chapter on [Reset covered by git-scm](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Reminder: Default Git Branch Name Change
+
+In modern Git setups, the default branch is typically called `main` instead of `master`.
+
+</div>
 
 </div>
 
@@ -151,9 +158,9 @@ You might be feeling overwhelmed at this point, so let's recap what we've learne
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Explain what it means for branches to be pointers.](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
-- [How can you amend your last commit?](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
-- [What are some different ways to rewrite history?](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
+- [How can you amend your last commit?](#changing-the-last-commit)
+- [What are some different ways to rewrite history?](#changing-multiple-commits)
+- [What does it mean for branches to be pointers?](#branches-are-pointers)
 
 ### Additional resources
 

@@ -18,7 +18,7 @@ So there are probably a few companies that you'd *really* like to work for.  You
 
 Get to know the company and its needs and see if you can reach out to address them somehow.  Do they have local events you can visit?  What do they sponsor? This stuff takes creativity.  You need to walk the line where you're not a stalker but you do care enough to push hard.  If you're wrong, they may say no.  It happens, you'll live and move on.  But you'd better try!  You'll probably figure things out that will help you with other companies anyway.
 
-- [Getting noticed by a startup you want to work for](http://www.thedailymuse.com/job-search/want-to-work-for-a-start-up-heres-how-to-get-noticed/)
+- [Getting noticed by a startup you want to work for](https://www.themuse.com/advice/want-to-work-for-a-startup-heres-how-to-get-noticed)
 
 ### Perseverance through the process
 
@@ -30,7 +30,7 @@ The point here is really just to make sure you understand that it's a really ann
 
 ### Resume versions
 
-If you're applying to several different types of positions, tailor your resume for the specific type of opportunity.  Just remember that, if you're submitting it virtually, they can see the title.
+If you're applying to several different types of positions, tailor your resume for the specific type of opportunity.  Just remember that, if you're submitting it virtually, they can see the title. It's generally a good idea to set the file name of your resume to your name. This has the additional benefit of a recruiter seeing your name and remembering it.
 
 It's also important to note that if you're not gaining traction getting responses with a certain resume, don't be afraid to switch it up. Keep track of the changes and see which version performs better than the others.
 

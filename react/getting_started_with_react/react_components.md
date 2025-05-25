@@ -6,9 +6,9 @@ In this lesson we'll be going over the basics of React components - what they do
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What are components?
-- How are components created?
-- Where do components live?
+- Learn about React components.
+- Understand how to create components.
+- Describe where components reside in a React project.
 
 ### What are components?
 
@@ -66,17 +66,17 @@ export default Greeting;
 Are we done? Well let's think about this - we've declared our component, and exported it, but does `main.jsx` know about it yet? Nope! Let's fix that. Let's look at `main.jsx`, we can see that `render()` is rendering the `App` component. Let's replace that `App` component with our newly created greeting, which we'll have to make sure is first imported properly. The end result should look something like this:
 
 ```jsx
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import Greeting from './Greeting.jsx'
-import './index.css'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App.jsx";
+import Greeting from "./Greeting.jsx";
+import "./index.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
     <Greeting />
-  </React.StrictMode>,
-)
+  </StrictMode>,
+);
 ```
 
 Remember that `<Greeting />` should be capitalized! Try using lower case for the import, function name and component and see what happens! When the JSX is parsed, React uses the capitalization to tell the difference between an HTML tag and an instance of a React component. `<greeting />` would be interpreted as a normal HTML element with no special meaning, instead of your shiny new React component.
@@ -96,9 +96,9 @@ Otherwise, just like that, you've successfully imported and used your first cust
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#what-are-components">What does a React element look like?</a>
-- <a class="knowledge-check-link" href="#how-to-create-components">How would you create a functional component?</a>
-- <a class="knowledge-check-link" href="#where-do-components-live">How do you export and then import a component?</a>
+- [What does a React element look like?](#what-are-components)
+- [How would you create a functional component?](#how-to-create-components)
+- [How do you export and then import a component?](#where-do-components-live)
 
 ### Additional resources
 

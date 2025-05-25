@@ -235,20 +235,31 @@ module.exports = {
           tokenIndexValue,
           tokenIndicesArr[arrIndex + 1]
         );
+        const isSectionEmpty =
+          tokensBetweenHeadings.at(-1).type === "heading_close";
 
-        switch (headingContent) {
-          case sectionsWithDefaultContent.lessonOverview:
-          case sectionsWithDefaultContent.knowledgeCheck:
-          case sectionsWithDefaultContent.additionalResources:
-            totalErrors.push(
-              ...getListSectionErrors(tokensBetweenHeadings, headingContent)
-            );
-            break;
-          case sectionsWithDefaultContent.assignment:
-            totalErrors.push(
-              ...getAssignmentSectionErrors(tokensBetweenHeadings)
-            );
-            break;
+        if (isSectionEmpty) {
+          totalErrors.push(
+            createErrorObject(
+              tokensBetweenHeadings[0].lineNumber,
+              `The ${headingContent} section cannot be empty`,
+            )
+          );
+        } else {
+          switch (headingContent) {
+            case sectionsWithDefaultContent.lessonOverview:
+            case sectionsWithDefaultContent.knowledgeCheck:
+            case sectionsWithDefaultContent.additionalResources:
+              totalErrors.push(
+                ...getListSectionErrors(tokensBetweenHeadings, headingContent)
+              );
+              break;
+            case sectionsWithDefaultContent.assignment:
+              totalErrors.push(
+                ...getAssignmentSectionErrors(tokensBetweenHeadings)
+              );
+              break;
+          }
         }
       }
     );
