@@ -17,7 +17,7 @@ JavaScript is just a programming language that conforms to the ECMAScript standa
 
 #### Release schedule
 
-You have probably also come across articles talking about features in ES7 or ES8 or ES2015 or ES2017 etc. Part of the confusion here is that right after the release of ES6, the committee that makes these decisions (TC39) changed the naming scheme from version numbers (ES5, ES6, ES7 etc.) to release years. ES6 is also known as ES2015, what some articles refer to as ES7 is also known as ES2016 etc. Instead of a single new version containing a huge number of new features (as was the case with ES6 and before), versions are released annually with a smaller set of additions per version.
+You have probably also come across articles talking about features in ES7 or ES8 or ES2015 or ES2017 etc. Part of the confusion here is that right after the release of ES6, the committee that makes these decisions (known as TC39) changed the naming scheme from version numbers (ES5, ES6, ES7 etc.) to release years. ES6 is also known as ES2015, and what some articles refer to as ES7 is also known as ES2016 etc. Instead of a single new version containing a huge number of new features (as was the case with ES6 and before), versions are now released annually with a smaller set of additions per version.
 
 ### Browser support
 
