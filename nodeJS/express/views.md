@@ -98,7 +98,7 @@ EJS will store these properties in an object called `locals`, which you can acce
 
 #### Undefined variables in locals
 
-If we try to access a variable in a rendered template file that was not defined in the `locals` argument of `res.render` or `res.locals`, this can cause a reference error. For instance if we try to access an undefined `foo` variable, `locals.foo` will return undefined, while `foo` will result in an reference error. Verify this by outputting `locals.foo` in `index.ejs`, then replacing it with`foo`:
+If we try to access a variable in a rendered template file that was not defined in the `locals` argument of `res.render` or `res.locals`, this can cause a reference error. For instance if we try to access an undefined `foo` variable, `locals.foo` will return undefined, while `foo` will result in a reference error. Verify this by outputting `locals.foo` in `index.ejs`, then replacing it with`foo`:
 
 ```ejs
 <html>
