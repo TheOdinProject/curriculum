@@ -62,9 +62,26 @@ While `href` specifies the destination link, `target` specifies where the linked
 
 <span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document.
 
-The `noopener` value prevents the opened link from gaining access to the webpage from which it was opened.
+`noopener`: The `noopener` value of the `rel` attribute ensures that a link opened in a new tab or window cannot interact with or access the original page. Without it, the new page can use JavaScript to manipulate the original page, which poses a security risk.
 
-The `noreferrer` value prevents the opened link from knowing which webpage or resource has a link (or 'reference') to it. The `noreferrer` value also includes the `noopener` behaviour and thus can be used by itself as well.
+For example:
+"<a href="https://example.com" target="_blank" rel="noopener">Open Example</a>"
+
+In this code:
+target="_blank": opens the link in a new tab.
+rel="noopener": prevents the new tab from accessing the original page, ensuring security.
+
+Without `noopener`, the new tab could use JavaScript to interact with the original page, which is unsafe.
+`noreferrer`: The `noreferrer` value of the `rel` attribute provides both privacy and security. It prevents the new page from knowing where the user came from (hiding the referrer) and also includes the behavior of `noopener`, preventing the new page from accessing the original page.
+
+For example:
+"<a href="https://example.com" target="_blank" rel="noreferrer">Visit Example</a>"
+
+In this example:
+target="_blank": opens the link in a new tab.
+rel="noreferrer": ensures the new page cannot see the referring page’s address (privacy) and prevents it from accessing the original page (security).
+
+By using rel="noreferrer", you automatically get the benefits of both privacy and security.
 
 Why do we need this added behaviour for opening links in new tabs? Security reasons. The prevention of access that is caused by `noopener` prevents [phishing attacks](https://www.ibm.com/topics/phishing) where the opened link may change the original webpage to a different one to trick users. This is referred to as [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Adding the `noreferrer` value can be done if you wish to not let the opened link know that your webpage links to it.
 
@@ -204,17 +221,19 @@ When you download a file from the internet, Windows has a security feature that 
 
 1. Drag the file from your downloads folder to VSCode's file browser into your new `images` directory.
 
-    1. Alternatively, using your Ubuntu terminal, navigate to the folder you want to copy the image to (`cd ~/odin-links-and-images` for example)
+   1. Alternatively, using your Ubuntu terminal, navigate to the folder you want to copy the image to (`cd ~/odin-links-and-images` for example)
 
-    1. Type `cp <space>`
+   1. Type `cp <space>`
 
-    1. Drag the `dog.jpg` image from a Windows Explorer window and drop it onto the terminal window, it should appear as `"/mnt/c/users/username/Downloads/dog.jpg"`
+   1. Drag the `dog.jpg` image from a Windows Explorer window and drop it onto the terminal window, it should appear as `"/mnt/c/users/username/Downloads/dog.jpg"`
 
-    1. Type `<space> .` to tell cp that you want to copy the file to your current working directory.
+   1. Type `<space> .` to tell cp that you want to copy the file to your current working directory. The full command will look something like:
 
-        1. The full command will look something like `cp "/mnt/c/users/username/Downloads/dog.jpg" .`
+   ```bash
+   cp "/mnt/c/users/username/Downloads/dog.jpg" .
+   ```
 
-    1. Hit <kbd>Enter</kbd> to complete the command, and use ls to confirm the file now exists.
+   1. Hit <kbd>Enter</kbd> to complete the command, and use `ls` to confirm the file now exists.
 
 Dragging files from Windows into the VSCode file browser prevents the `Zone.Identifier` files from being copied over. From now on, any time you need to copy pictures or other downloaded files like this into WSL2, you can do it in this way. If you ever accidentally copy these `Zone.Identifier` files into WSL2, you can safely delete them without any issue.
 
@@ -234,6 +253,20 @@ Finally add the image to the `index.html` file:
 ```
 
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
+
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Images you use should be free for your intended purpose
+
+There are many free images available but make sure to give credit to the creator of the image in your project.
+
+An easy way to provide credit is to include the creator's name and contact info in a README file in your repository, or give [attribution](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US).
+
+To find them - Google images and in image results -> Tools -> Usage rights -> "Creative Commons". Choose & click on a image and click license details.
+
+We recommend that you always review the license requirements of any images you want to use.
+
+</div>
 
 ### Parent directories
 
@@ -255,7 +288,7 @@ Using the metaphor we used earlier, using `../` in a filepath is kind of like st
 
 ### Alt attribute
 
-<span id="two-attributes"></span>Besides the `src` attribute, every image element must also have an `alt` (alternative text) attribute.
+<span id="two-attributes"></span>Besides the `src` attribute, every image element should also have an `alt` (alternative text) attribute.
 
 The `alt` attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
@@ -280,7 +313,7 @@ attributes in image tags helps the browser layout the page without causing the p
 
 It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it.
 
-Here is our Odin Project logo example with height and width tags included:
+Here is our Odin Project logo example with height and width attributes included:
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PogmYGp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -292,7 +325,7 @@ Here is our Odin Project logo example with height and width tags included:
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Go ahead and update the `odin-links-and-images` project with width and height tags on the dog image.
+Go ahead and update the `odin-links-and-images` project with width and height attributes on the dog image.
 
 ### Assignment
 
@@ -301,7 +334,7 @@ Go ahead and update the `odin-links-and-images` project with width and height ta
 1. Watch Kevin Powell's [HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM).
 1. Watch Kevin Powell's [HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ).
 1. Watch Kevin Powell's [File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo).
-1. [Read about the four main image formats that can be used on the web](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
+1. Read and code along with Interneting is Hard's article on [Links and Images](https://internetingishard.netlify.app/html-and-css/links-and-images). Pay close attention to the section that covers the four main image formats.
 
 </div>
 
@@ -323,7 +356,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
 - [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
 - [Chris Coyier's When to use target="_blank" on CSS-Tricks](https://css-tricks.com/use-target_blank/)
-- If you're looking to deepen your understanding of the various image formats used on the web, [the following article which is titled: Which is the Best Image Format for Your Website?](https://imagekit.io/blog/best-image-format-for-web/) from imagekit.io is a great resource. It offers a detailed comparison of JPEG, PNG, GIF, and WebP formats, helping you choose the right one for your needs. Note that the article doesn't cover SVG, but it's still an excellent guide for the other common formats.

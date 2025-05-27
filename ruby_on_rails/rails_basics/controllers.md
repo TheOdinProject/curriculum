@@ -40,7 +40,7 @@ The other end of the process is what the controller does when it's done. Once Ra
 
 Although Rails will implicitly render a view file that is named the same thing as your controller action, there are plenty of situations when you might want to override it. A main case for this is when you actually want to completely redirect the user to a new page instead of rendering the result of your controller action.
 
-Redirects typically occur after controller actions where you've submitted information like to create a new Post. There's no reason to have a `create.html.erb` view file that gets displayed once a post has been created... we usually just want to see the post we created and so we'll redirect over to the Show page for that post. The distinction here is that your application treats a redirect as *a completely new HTTP request*... so it would enter through the router again, look for the Show page corresponding to that post, and render it normally. That also means that any instance variables you set in your original `#create` controller action are wiped out along the way.
+Redirects typically occur after controller actions where you've submitted information, such as when creating a new Post. There's no reason to have a `create.html.erb` view file that gets displayed once a post has been created... we usually just want to see the post we created and so we'll redirect over to the Show page for that post. The distinction here is that your application treats a redirect as *a completely new HTTP request*... so it would enter through the router again, look for the Show page corresponding to that post, and render it normally. That also means that any instance variables you set in your original `#create` controller action are wiped out along the way.
 
 If that's the common way to deal with successfully creating an object, how about when it fails for some reason (like the user entered a too-short post title)? In that case, you can just render the view for another controller action, often the same action that created the form you just submitted (so the `#new` action).
 
@@ -164,11 +164,11 @@ So our `#create` action above can now be filled out a bit more:
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-  Prior to Rails 8, strong parameters were handled differently. Instead of the `#expect` method, you had to call `#permit` on the top level key name followed by calling `#require` on the list of attributes. For example:
+  Prior to Rails 8, strong parameters were handled differently. Instead of the `#expect` method, you had to call `#require` on the top level key name followed by calling `#permit` on the list of attributes. For example:
 
   ```ruby
   def allowed_post_params
-    params.permit(:post).require(:title, :body, :author_id)
+    params.require(:post).permit(:title, :body, :author_id)
   end
   ```
 
@@ -226,7 +226,7 @@ That's really just a taste of the Rails controller, but you should have a pretty
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.6.3 and 5.2. We'll cover sessions (section 5.1) more in the future so don't worry about them now.
+  1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.3 and section 6.2. We'll cover sessions (section 6.1) more in the future so don't worry about them now.
 
 </div>
 

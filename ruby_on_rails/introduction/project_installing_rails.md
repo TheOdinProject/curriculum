@@ -123,6 +123,8 @@ If you're using a VM, you will need to open the browser inside of your VM in ord
 
 Go ahead and create a new car, and then refresh the page to verify it is working. Add as many cars as you'd like! When you're satisfied, go back to the terminal where the Rails server is running, and type <kbd>Ctrl</kbd> + <kbd>C</kbd> to close the server.
 
+In the same terminal window, type `rails console --sandbox` to open an IRB session loaded with the project code. This command is useful for exploring your project and testing out quick ideas. The `--sandbox` flag ensures that any changes you make to the application's database do not persist once you leave the session. Try typing `Car.all` to see a list of the car objects that you've created on the website. When you are done with the session, type `exit` to go back to the terminal window.
+
 ### Step 2: Git groundwork
 
 Like all of the projects you've done so far we need to use Git for our version control and to push our app to different remotes.

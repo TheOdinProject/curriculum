@@ -75,7 +75,7 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 
 Your new recipe page should have the following content:
 
-1. An image of the finished dish under the h1 heading that you added earlier. You can find images of the dish on Google or [Allrecipes](https://www.allrecipes.com/).
+1. A free image of the finished dish under the h1 heading that you added earlier.
 
 1. Under the image, it should have an appropriately sized "Description" heading followed by a paragraph or two describing the recipe.
 

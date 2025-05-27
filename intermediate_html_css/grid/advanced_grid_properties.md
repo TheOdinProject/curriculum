@@ -347,7 +347,7 @@ And that's about it! Congratulations, if you've made it this far, you are well o
    - `01-responsive-holy-grail`
    - `02-holy-grail-mockup`
 
-   Note: When doing these exercises, please use all the documentation and resources you need to accomplish them. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
+   Note: When doing these exercises, please use all the documentation and resources you need to accomplish them. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use Google, do what you need to do (besides checking the solutions) to get them done.
 
 </div>
 
