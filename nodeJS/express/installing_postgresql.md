@@ -55,18 +55,6 @@ After installation is complete, let's start the server using this command:
 sudo systemctl start postgresql.service && systemctl status postgresql.service
 ```
 
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### Systemctl and WSL2
-
-Systemctl is not supported on WSL2, and the above command won't work. Instead, run the following command:
-
-```bash
-sudo service postgresql start
-```
-
-</div>
-
 Got an error, or don't see an active service? Come visit [our Discord server](https://discord.gg/V75WSQG) for some help!
 
 If `postgresql` is active, you can press `Q` to quit the status screen and move on to the next step.
@@ -95,7 +83,7 @@ Remember that we want the role name to be the same as our Linux user name and be
 
 One other important step in setting up PostgreSQL is that each role must have its own database of the same name. Without it, the role we just created will not be able to log in or interact with PostgreSQL.
 
-You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to resolve fix this:
+You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to fix this:
 
 <div class="lesson-note" markdown="1">
 

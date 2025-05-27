@@ -165,7 +165,7 @@ yarn add @hotwired/stimulus
 
 Now when we run `yarn run build` we should get the proper outcome! You should also be able to run `bin/dev` and see the Rails splash page at `http://localhost:3000`.
 
-Now that we have walked through how to install a Rails app with import maps let's make our life a little bit easier and set it up with jsbundling-rails! Go ahead and enter the below command.
+Now that we have walked through how to install the jsbundling-rails gem in a Rails app that was created with import maps let's make our life a little bit easier and set it up right from the beginning! Go ahead and enter the below command.
 
 ```bash
 rails new myapp -j <replace the text and <> with your bundler choice>

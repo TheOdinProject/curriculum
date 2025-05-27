@@ -30,7 +30,7 @@ Selectors refer to the HTML elements to which CSS rules apply; they're what is a
 
 #### Universal selector
 
-The universal selector will select elements of any type, hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style applied to it.
+The universal selector will select elements of every type (as in the whole document), hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style applied to it.
 
 ```css
 * {
@@ -365,12 +365,13 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README. Then, once you know how to use the exercises, navigate to the `foundations` directory. Review each README file prior to completing the following exercises in order:
+1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README file.
+1. Then, once you know how to use the exercises, navigate to the [CSS exercises repository's `foundations/intro-to-css` directory](https://github.com/TheOdinProject/css-exercises/tree/main/foundations/intro-to-css). Review each README file prior to completing the following exercises in order:
 
     - `01-css-methods`
     - `02-class-id-selectors`
-    - `03-group-selectors`
-    - `04-chain-selectors`
+    - `03-grouping-selectors`
+    - `04-chaining-selectors`
     - `05-descendant-combinator`
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.

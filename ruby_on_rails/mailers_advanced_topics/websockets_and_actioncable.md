@@ -243,7 +243,7 @@ stream_from "room"
 And then tried to call
 
 ```ruby
-RoomChannel.broadcast_to("room" @message)
+RoomChannel.broadcast_to("room", @message)
 ```
 
 Rails would look for a stream called `room:room`. This is just how Action Cable works. When you use `stream_for room` it actually creates the stream as `room:<some_room_id>` so the format is correct when you then later call `RoomChannel.broadcast_to(@room, @message)`. At that point it would look for the stream `room:<the_room_id>`.

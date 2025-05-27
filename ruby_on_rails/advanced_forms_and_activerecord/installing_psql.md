@@ -45,7 +45,7 @@ Why are environment variables important? After all, the information could be add
 
 <span id="privacy">Environment variables allow us to set this information where the application will run without sharing it on git or Github. Because these variables can only be accessed locally, our application can access these sensitive values without making them public.</span>
 
-Rails uses the environment to set up its own internal environment variable. The framework will look for a `RAILS_ENV` variable in the environment and set its own env that way. If it can't find the variable, then [Rails will assume it is in a development environment](https://github.com/rails/rails/blob/main/railties/lib/rails.rb#L67). Isn't that cool?
+Rails uses the environment to set up its own internal environment variable. The framework will look for a `RAILS_ENV` variable in the environment and set its own env that way. If it can't find the variable, then [Rails will assume it is in a development environment](https://github.com/rails/rails/blob/main/railties/lib/rails.rb#L69-L77). Isn't that cool?
 
 We will use an environment variable to set up PostgreSQL credentials for our Rails apps.
 
@@ -78,18 +78,6 @@ After installation is complete, let's start the server using this command:
 ```bash
 sudo systemctl start postgresql.service && systemctl status postgresql.service
 ```
-
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### Systemctl and WSL2
-
-Systemctl is not supported on WSL2, and the above command won't work. Instead, run the following command:
-
-```bash
-sudo service postgresql start
-```
-
-</div>
 
 Got an error, or don't see an active service? Come visit [our Discord server](https://discord.gg/fbFCkYabZB) for some help!
 

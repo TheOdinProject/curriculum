@@ -30,7 +30,7 @@ To help enforce the layout specified in our layout style guide, we use [markdown
     - Autofix a file: `npm run fix -- "./path/to/file"`
 
 > [!IMPORTANT]
-> You *must* run these npm scripts in the root of the curriculum repo (the same location as this file and `package.json`). If you navigate to a different directory and run a script on files there, it will not pick up the right configuration files and rules.
+> npm scripts always run from the root of the curriculum repo (the same location as this file and `package.json`). Therefore, you *must* provide the full lesson/project file path relative to the repo root, even if your terminal is inside a subdirectory (such as the same directory as the lesson file).
 
 > [!TIP]
 > In some cases, you may need to run a fix script more than once to catch and fix all fixable errors. This typically occurs when a line has multiple errors affecting the same parts and fix actions collide, so Markdownlint only applies some of the fixes.

@@ -325,8 +325,6 @@ The [Wikipedia article on SOLID](http://en.wikipedia.org/wiki/SOLID_(object-orie
 
 Luckily, Rails has done a pretty good job of following these, so you should have absorbed some good habits just through using it. But you'll want to take a minute and read up on each of them (including the odd-sounding ones) because they're fairly central to all software engineering (and a ripe interview question).
 
-If you're particularly interested in pursuing design patterns, check out the ["Gang of Four" (GoF) Patterns](http://www.blackwasp.co.uk/GofPatterns.aspx).
-
 There's a useful book written on anti-patterns, which can help you clean up your code by identifying bad smells, called [Rails Antipatterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814/) by Tammer Saleh and Chad Pytel.
 
 ### I18n: Internationalization

@@ -1,16 +1,16 @@
 ### Introduction
 
-You already know the magic behind hash maps, now it's time to write your own implementation!
+You already know the magic behind hash maps. Now it's time to write your own implementation!
 
 #### Limitation
 
-  Before we get started, we need to lay down some ground rules. JavaScript's dynamic nature of array allows us to insert and retrieve indexes that are outside our array size range. Example: if we create an array of size `16` to be our buckets size, nothing stopping us from storing items at index `500`. This defeats the purpose we are trying to demonstrate, so we need to put some self restriction to work around this.
+  Before we get started, we need to lay down some ground rules. JavaScript's dynamic nature of arrays allows us to insert and retrieve indexes that are outside our array size range. Example: if we create an array of size `16` to represent our buckets, nothing stops us from storing items at index `500`. This defeats the purpose of limiting storage size in hash maps, so we need to enforce some restrictions.
 
-  Use the following snippet whenever you access a bucket through an index. We want to throw an error if we try to access an out of bound index:
+  Use the following snippet whenever you access a bucket through an index. We want to throw an error if we try to access an out-of-bounds index:
 
 ```javascript
 if (index < 0 || index >= buckets.length) {
-  throw new Error("Trying to access index out of bound");
+  throw new Error("Trying to access index out of bounds");
 }
 ```
 
@@ -18,9 +18,9 @@ if (index < 0 || index >= buckets.length) {
 
 <div class="lesson-content__panel" markdown="1">
 
-  Start by creating a `HashMap` class or factory function. It's up to you which you want to use. Then proceed to create the following methods:
+  Start by creating a `HashMap` class or factory function. It's up to you which you want to use. It should have at least two variables for `load factor` and `capacity`. Then proceed to create the following methods:
 
-  1. `hash(key)` takes a key and produces a hash code with it. We did implement a fairly good `hash` function in the previous lesson. As a reminder:
+  1. `hash(key)` takes a key and produces a hash code with it. We already implemented a fairly good `hash` function in the previous lesson. As a reminder:
 
       ```javascript
       function hash(key) {
@@ -35,23 +35,23 @@ if (index < 0 || index >= buckets.length) {
       } 
       ```
 
-      You are free to use that, or if you wish, you can conduct your own research. Beware, this is a deep deep rabbit hole.
+      You are free to use that, or you can conduct your own research on hashing algorithms. Beware, this is a deep, deep rabbit hole.
 
-      Also, there is one edge case with long keys that was not taken into consideration in the function or rather how we applied a modulo `%` operator. JavaScript is unable to hold large numbers precisely. At some point, calculations are going to be inaccurate, which significantly increases the chances of collisions. There are a few ways how we could handle it but we recommend that you apply the modulo operator on *each iteration* instead of outside the loop at the end. In that case, we prevent the output from becoming larger than our bucket's length.
+      However, there is one edge case our `hash` function still needs to address. For very long keys, our hash code will exceed the maximum integer value allowed by JavaScript. Once that happens, calculations become inaccurate, and the chance of collisions significantly increases. One way to avoid this issue is to apply the modulo `%` operator on *each iteration* instead of outside the loop at the end. This ensures the output never becomes larger than our bucket's length.
 
-      You might find yourself confusing keys with hash codes while accessing key-value pairs later. We would like to stress that the key is what your `hash` function will take as an input. In a way, we could say that the key is important for us only inside the `hash` function. But we never access a bucket directly with the key. Instead we do so with the hash code.
+      You might find yourself confusing keys with hash codes while accessing key-value pairs later. We would like to stress that the key is what your `hash` function will take as an input. In a way, we could say that the key is important for us *only* inside the `hash` function, as we never access a bucket directly with the key. Instead, we always do so with the hash code.
 
       <div class="lesson-note lesson-note--tip" markdown="1">
 
-      Hash maps could accommodate various data types for keys like numbers, strings, objects. But for this project, only handle keys of type strings.
+      In the real world, hash maps can accommodate various data types as keys, including numbers, strings, or objects. However, for this project, we will only handle keys of type `string`.
 
       </div>
 
-  1. `set(key, value)` takes two arguments, the first is a key and the second is a value that is assigned to this key. If a key already exists, then the old value is overwritten or we can say that we *update* the key's value (e.g. `Carlos` is our key but it is called twice: once with value `I am the old value.`, and once with value `I am the new value.`. From the logic stated above, `Carlos` should contain only the latter value).
+  1. `set(key, value)` takes two arguments: the first is a key, and the second is a value that is assigned to this key. If a key already exists, then the old value is overwritten, and we can say that we *update* the key's value (e.g. `Carlos` is our key but it is called twice: once with value `I am the old value.`, and once with value `I am the new value.`. Following this logic, `Carlos` should contain only the latter value).
 
-      In the meantime, a collision is when *TWO DIFFERENT* keys sit inside the same bucket, because they generate the same hash code (e.g. `Carlos` and `Carla` are both hashed to `3`, so `3` becomes a location for `Carlos` AND `Carla`. However, we know that it is the collision. It means we should find a way how to resolve it — how to *deal with collisions*, which was mentioned in the previous lesson).
+      Recall that collisions occur when *TWO DIFFERENT* keys generate the same hash code and get assigned to the same bucket. (e.g. `Rama` and `Sita` are both hashed to `3`, so `3` becomes a location for `Rama` AND `Sita`. However, we know that this is not an update because the keys are different). Review the [dealing with collisions](https://www.theodinproject.com/lessons/javascript-hashmap-data-structure#collisions) section of the previous lesson to find a way to handle our collisions.
 
-      - Remember to grow your buckets size when it needs to, by calculating if your bucket has reached the `load factor`. Some of the methods in this assignment that are mentioned later could be reused to help you handle that growth logic more easily. So you may want to hold onto implementing your growing functionality just for now. However, the reason why we mention it with `set()` is because it's important to grow buckets exactly when they are being expanded.
+      - Remember to grow your buckets to double their capacity when your hash map reaches the `load factor`. The methods mentioned later in this assignment can help you handle the growth logic, so you may want to implement this feature near the end. However, we mention this with `set()` because it's important to grow buckets exactly as they are being expanded.
 
   1. `get(key)` takes one argument as a key and returns the value that is assigned to this key. If a key is not found, return `null`.
 
@@ -98,21 +98,21 @@ Remember that a hash map does not preserve insertion order when you are retrievi
     test.set('lion', 'golden')
     ```
 
-1. After populating your hash map with the data above, your hash map's actual capacity should now be at `0.75` (full capacity).
+1. After populating your hash map with the data above, your hash map's current load levels should now be at `0.75` (full capacity).
 
-1. Now with a full hash map, try overwriting a few nodes using `set(key, value)`. By right, this should only over-write the existing `values` of your nodes and not add new ones.
+1. Now with a full hash map, try overwriting a few nodes using `set(key, value)`. This should only overwrite the existing `values` of your nodes and not add new ones, so `length()` should still return the same value and `capacity` should remain the same.
 
-1. After that, populate your hash map with the last node below (doing this will make your hash map exceed your current load factor, hence expanding your buckets and growing your hash map):
+1. After that, populate your hash map with the last node below. This will make your load levels exceed your `load factor`, triggering your hash map's growth functionality and doubling its `capacity`:
 
     ```javascript
     test.set('moon', 'silver')
     ```
 
-1. If you have implemented your hash map correctly, the capacity of your new hash map will drop well below your load factor and you will notice that the nodes in your hash map are spread much evenly among your buckets.
+1. If you have implemented your hash map correctly, the load levels of your expanded hash map should drop well below your load factor, and the entries should be spread evenly among the expanded buckets.
 
-1. With your new hash map, try overwriting a few nodes using `set(key, value)`. Again, this should only over-write existing `values` of your nodes.
+1. With your new hash map, try overwriting a few nodes using `set(key, value)`. Again, this should only overwrite existing `values` of your nodes.
 
-1. Test the other methods of your hash maps such as `get(key)`, `has(key)`, `remove(key)`, `length()`, `clear()`, `keys()`, `values()`, and `entries()` to check if they are still working as expected after expanding your hash map.
+1. Test the other methods of your hash map, such as `get(key)`, `has(key)`, `remove(key)`, `length()`, `clear()`, `keys()`, `values()`, and `entries()`, to check if they are still working as expected after expanding your hash map.
 
 #### Extra Credit
 

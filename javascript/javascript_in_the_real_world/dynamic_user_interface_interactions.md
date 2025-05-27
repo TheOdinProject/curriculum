@@ -68,4 +68,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Explore [W3Schools' tutorial](https://www.w3schools.com/howto/howto_js_slideshow.asp) on image carousels for a better understanding of how to create and customize them using JavaScript.
