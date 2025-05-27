@@ -2,7 +2,7 @@
 
 Ruby is very object-oriented, which means that absolutely everything in Ruby is an object, even the most basic data types. We'll start here with four of Ruby's basic data types: numbers (integers and floats), strings, symbols, and Booleans (`true`, `false`, and `nil`).
 
-For all of the examples throughout this lesson, feel free to follow along in irb or any appropriate online REPL to get a better feel for how they work.
+For all of the examples throughout this lesson, feel free to follow along in irb or any appropriate online [REPL](https://www.rubyguides.com/2018/12/what-is-a-repl-in-ruby/) to get a better feel for how they work.
 
 ### Lesson overview
 
