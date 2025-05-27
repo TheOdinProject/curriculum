@@ -8,8 +8,8 @@ Now that you understand the basic syntax of HTML and CSS, we’re going to get s
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What the box model is
-- Margins, padding, and borders
+- What the box model is.
+- Margins, padding, and borders.
 
 ### The box model
 
@@ -17,7 +17,7 @@ The first important concept that you need to understand to be successful in CSS 
 
 <div class="lesson-note" markdown="1">
 
-#### Everything is a box
+#### Note: Everything is a box
 
 Every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another.
 
