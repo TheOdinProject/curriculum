@@ -366,7 +366,7 @@ a_proc.call
 # => localJumpError (unexpected return)
 ```
 
-Note that if you try the above example on an online REPL, you may not get an error. This just has to do with how they manage the context of code. If you try it in irb then you'll get the expected error.
+Note that if you try the above example on an appropriate online REPL, you may not get an error. This just has to do with how they manage the context of code. If you try it in irb then you'll get the expected error.
 
 If you return from a proc inside a method, the method is the context in which it was called and therefore it returns from the method before any of the other code below it is executed.
 

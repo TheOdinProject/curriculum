@@ -4,7 +4,7 @@ By now you should feel pretty good working with strings, arrays and hashes. We'l
 
 <div class="lesson-note" markdown="1">
 
-If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use any other type of REPL.
+If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use any other appropriate REPL.
 
 </div>
 

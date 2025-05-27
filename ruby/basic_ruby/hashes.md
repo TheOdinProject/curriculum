@@ -171,7 +171,7 @@ japanese_cars[:honda]   #=> "Accord"
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read [Launch School’s chapter on Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using irb or any other REPL.
+1. Read [Launch School’s chapter on Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using irb or any other appropriate REPL.
 1. Complete the hash exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 
 </div>
