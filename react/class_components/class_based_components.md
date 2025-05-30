@@ -132,14 +132,14 @@ class ClassInput extends Component {
     return (
       <section>
         <h3>{this.props.name}</h3>
-        {/* The input field to enter To-Dos */}
+       {/* The input field to enter Todos */}
         <form>
           <label htmlFor="task-entry">Enter a task: </label>
           <input type="text" id="task-entry" name="task-entry" />
           <button type="submit">Submit</button>
         </form>
         <h4>All the tasks!</h4>
-        {/* The list of all the To-Dos, displayed */}
+        {/* The list of all the Todos, displayed */}
         <ul></ul>
       </section>
     );
