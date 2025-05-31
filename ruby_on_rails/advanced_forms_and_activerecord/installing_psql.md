@@ -184,9 +184,9 @@ If your terminal doesn't recognize `brew`, then you'll need to go and install ho
 
 ### Step 2: Install PostgreSQL via PostgresApp
 
-Installing PostgreSQL via Postgres.app is simple. Visit [Postgres.app](https://postgresapp.com/) and follow the instructions outlined. Importantly, you'll want to configure your `$PATH` so you can access the tooling that comes along with PostgreSQL. We will always want to install the latest available version of PostgreSQL.
+Installing PostgreSQL via Postgres.app is simple. Visit [Postgres.app](https://postgresapp.com/) and follow the instructions outlined. Importantly, you'll want to configure your `$PATH` so you can access the tooling that comes along with PostgreSQL. After installing Postgres.app, we can then install a PostgreSQL server. We want to install the latest available version of PostgreSQL.
 
-You can run this command to update your path:
+After installing PSQL via Postgres.app, you can run this command to update your path to access all the tooling:
 
   ```bash
 sudo mkdir -p /etc/paths.d &&
