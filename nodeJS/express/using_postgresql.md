@@ -16,9 +16,9 @@ For brevity's sake, we'll refer to database as db from now on.
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Setting up a new db in PostgreSQL shell
-- Setting up and querying with node-postgres
-- Using a script to populate the db
+- Setting up a new db in PostgreSQL shell.
+- Setting up and querying with node-postgres.
+- Using a script to populate the db.
 
 ### Setting up an Express app
 
@@ -114,6 +114,8 @@ module.exports = new Pool({
   port: 5432 // The default port
 });
 ```
+
+Remember that you should change the `<role_name>` and `<role_password>` (We have already set them in the previous lesson)!
 
 An alternative to defining the connection information is through a [Connection URI](https://node-postgres.com/features/connecting#connection-uri). You'll likely be using connection URIs when connecting with a hosted database service. Here's what it would look like based on the above properties:
 
@@ -255,6 +257,12 @@ DROP TABLE usernames;
 You can then run this script via `node db/populatedb.js`, or add it as a [script in package.json](https://stackoverflow.com/a/36433748).
 
 Do note that the script is designed to be ran only once.
+
+#### Local vs production dbs
+
+Great! You've just learned how to set up and use a local db with PostgreSQL. Local databases are ideal for development because they offer faster interactions, easier modifications, and don't require an internet connection. This makes them especially useful when prototyping or testing new features.
+
+When you're ready to make your project public, you'll need to transition to a production database hosted on an external server independent of your local machine. A production database allows for global accessibility, scalability and more robust security. Most of the hosting providers introduced in the [deployment lesson](https://www.theodinproject.com/lessons/node-path-nodejs-deployment) also offer database services. Now that we know the difference, lets see how we can populate a production database.
 
 #### Populating production dbs
 

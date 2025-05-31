@@ -52,8 +52,8 @@ So the only way to truly enforce constraints is on the database level, since you
 
 1. Read the [Rails Guides Validations chapter](http://guides.rubyonrails.org/active_record_validations.html)
    - Section 2 on helpers can be skimmed -- these help you get more specific with your validations and you'll run into them later
-   - You can skim section 6 about custom validators
-   - Section 8 will likely only be interesting if you've seen ERB in Rails views before... we'll get there.
+   - You can skim section 7 about custom validators
+   - Section 9 will likely only be interesting if you've seen ERB in Rails views before... we'll get there.
 
 </div>
 
