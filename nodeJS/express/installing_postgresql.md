@@ -160,7 +160,7 @@ If your terminal doesn't recognize `brew`, then you'll need to go and install ho
 
 ### Step 2: Install the PostgreSQL packages
 
-Installing PostgreSQL via Postgres.app is simple. Visit [Postgres.app](https://postgresapp.com/) and follow the instructions outlined. Importantly, you'll want to configure your `$PATH` so you can access the tooling that comes along with PostgreSQL.
+Installing PostgreSQL via Postgres.app is simple. Visit [Postgres.app](https://postgresapp.com/) and follow the instructions outlined. Importantly, you'll want to configure your `$PATH` so you can access the tooling that comes along with PostgreSQL. We will always want to install the latest available version of PostgreSQL.
 
 You can run this command to update your path:
 
@@ -177,7 +177,9 @@ After you've run this command and restarted your terminal, you can run `which ps
 
 If you don't see a similar output, come visit [our Discord server](https://discord.gg/fbFCkYabZB) for some help!
 
-Please note that that Postgres.app installs servers without any security configured, and will accept all local connections without a password. This is fine for our development environment, but be aware that when you move things to production, this will not be a good strategy.
+<div class="lesson-note lesson-note--warning" markdown="1">
+    Please note that that Postgres.app installs servers without any security configured, and will accept all local connections without a password. This is fine for our development environment, but be aware that when you move things to production, this will not be a good strategy.
+</div>
 
 Postgres.app defaults to creating a role and user database that matches your macOS user. You can confirm this by running this command after installing Postgres.app and updating the path:
 
