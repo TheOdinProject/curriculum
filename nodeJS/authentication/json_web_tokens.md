@@ -73,14 +73,24 @@ The client must attach the JWT to any such requests, whether that's through `fet
 // in an authentication middleware
 const token = req.get("authorization")?.split(" ")[1];
 try {
-  req.user = jwt.verify(token, process.env.SECRET);
+  const { id } = jwt.verify(token, process.env.SECRET);
+  const { rows } = await pool.query(
+    "SELECT * FROM users WHERE id = $1",
+    [id],
+  );
+  const user = rows[0];
+  req.user = {
+    // whatever user details may be needed for any requests
+  }
   next();
 } catch (err) {
   res.status(401).json("Could not authenticate user");
 }
 ```
 
-Upon successful verification, the payload is returned and can be handled however necessary; in the example above, it gets attached to `req` and the next middleware is called. If the token is not valid, whether that's from it having expired or not valid or even non-existent, an error is thrown which we can catch and unauthorize the request, responding to the client with a 401 since we do not know who they are.
+Upon successful verification, the payload is returned and can be handled however necessary; in the example above, we query our database for the right user details, assign what we need to `req.user`, then the next middleware is called. If the token is not valid, whether that's from it having expired or not valid or even non-existent, or if the user no longer exists, an error is thrown which we can then catch and unauthorize the request, responding to the client with a 401 since we do not know who they are. The authentication and database query can also be handled in separate middleware functions if you wish.
+
+Essentially, this is a similar process to our previous session-based authentication system only since the authentication data came with the JWT payload, we did not need to make an additional database call to grab that data from a session.
 
 ### Assignment
 
