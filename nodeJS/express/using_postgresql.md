@@ -115,7 +115,7 @@ module.exports = new Pool({
 });
 ```
 
-Remember that you should change the &lt;role_name&gt; and &lt;role_password&gt; (We have already set them in the previous lesson)!
+Remember that you should change the `<role_name>` and `<role_password>` (We have already set them in the previous lesson)!
 
 An alternative to defining the connection information is through a [Connection URI](https://node-postgres.com/features/connecting#connection-uri). You'll likely be using connection URIs when connecting with a hosted database service. Here's what it would look like based on the above properties:
 
