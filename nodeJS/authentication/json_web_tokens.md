@@ -53,7 +53,7 @@ if (user?.password === req.body.password) {
 }
 ```
 
-<span id="sending-jwts">There are many ways JWTs can be sent to and from servers, such as in the response's "Authorization" header via the [Bearer scheme](https://security.stackexchange.com/questions/108662) or via httpOnly cookies. Since we have not yet covered how to handle cross-site cookies, the example above sends the JWT as a bearer token in the response's Authorization header.</span>
+<span id="sending-jwts">There are many ways JWTs can be sent to and from servers, such as in the response's "Authorization" header via the [Bearer scheme](https://security.stackexchange.com/questions/108662) or via httpOnly cookies. Since we have not yet covered how to handle cookies when the client and server are deployed on different domains, the example above sends the JWT as a bearer token in the response's Authorization header. When received, the client can store the JWT in a number of ways, such as in the same httpOnly cookie it came in, as well as extracting the token from the Authorization header then storing it in localStorage.</span>
 
 <div class="lesson-note lesson-note--critical" markdown="1">
 
@@ -107,7 +107,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How does stateless authentication differ from stateful authentication?](#introduction)
 - [What is a JSON web token?](#jwts)
 - [How does a JWT protect against tampering?](#jwt-signature)
-- [What are some ways that JWTs can be sent between client and server?](#sending-jwts)
+- [What are some ways that JWTs can be sent and stored between client and server?](#sending-jwts)
 
 ### Additional resources
 
