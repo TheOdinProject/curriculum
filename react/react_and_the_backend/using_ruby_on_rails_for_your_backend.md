@@ -8,8 +8,8 @@ While Local Storage is great, it's not ideal: it only stores data on the compute
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand the manifold ways to include JavaScript in our Rails application.
-- Explain how to pass data from your Rails application to your JavaScript.
+- Understand the various ways to use React in our Rails application.
+- Explain how to pass data from your Rails application to React.
 - Learn how to integrate React with Rails and handle the CSRF token.
 
 ### Building your own backend with Ruby on Rails
