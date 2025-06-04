@@ -31,7 +31,7 @@ In this project, we will be using the simplest type of graph, an undirected, unw
 
 In our code, there are several ways we could represent a graph. Two of the most common representations include *adjacency lists* and *adjacency matrices*. Read this article about [graphs and their representations](https://www.geeksforgeeks.org/graph-and-its-representations/) from GeeksforGeeks to familiarise yourself with these ideas. They have some example code, but don't pay too much attention to this, as it's a little different to the code we'll be writing in this project.
 
-In this project, we'll be using an adjacency matrix to represent the graph.
+In this project, we'll be using an adjacency matrix to represent the graph. We've picked this style of graph because it gives you great practice at adding and removing vertices, and making sure everything stays in sync. However, in future projects (like Knight Travails) you may wish to go for an adjacency list approach, since you have a bit less manual work to do keeping the state in check.
 
 ### Assignment
 
