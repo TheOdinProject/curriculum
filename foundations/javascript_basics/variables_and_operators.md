@@ -132,7 +132,7 @@ Try the following exercises by adding code to a script tag in your HTML file:
 
 1. Add 2 numbers together! In your script, type in `console.log(23 + 97)`. Running this should log `120`.
 1. Do the same thing but add 6 different numbers together.
-1. Now log the value of the following expression: `(4 + 6 + 9) / 77`. The console should log approximately `0.24675`.
+1. Now log the value of the following expression: `(4 + 6 + 9) / 77`. The console should log approximately `19`.
 1. Let's use some variables!
    1. Add this statement to the script tag: `let a = 10`.
    1. Below it, add `console.log(a)`. When you run this, the browser console should log `10`.
