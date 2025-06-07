@@ -26,7 +26,7 @@ Are you done? Good. Next, it's time to practice allowing your front end JavaScri
 
 2. Read thoughtbot's article on ["How to integrate React with Rails 7"](https://thoughtbot.com/blog/how-to-integrate-react-rails) to get an overview of different possibilities.
 
-3. Follow the tutorial in ["How to Build a fullstack Rails 7 backend with React Frontend"](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-v7-project-with-a-react-frontend-on-ubuntu-20-04). It demonstrates how to serve React through the Rails asset pipeline, retrieve data from the API layer through an AJAX request using the Fetch API (remember what you learned in the JavaScript lesson ["Working with APIs"](https://www.theodinproject.com/lessons/javascript-working-with-apis)), and handle the CSRF token in non-GET requests.
+3. Follow the tutorial in ["How to Build a fullstack Rails 7 backend with React Frontend"](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-v7-project-with-a-react-frontend-on-ubuntu-20-04). It demonstrates how to integrate React with Rails via esbuild, retrieve data from the API layer through an AJAX request using the Fetch API (remember what you learned in the JavaScript lesson ["Working with APIs"](https://www.theodinproject.com/lessons/javascript-working-with-apis)), and handle the CSRF token in non-GET requests.
 
 4. Read [Bootstrapping JSON data into a Rails View](https://web.archive.org/web/20221230234727/https://jfire.io/blog/2012/04/30/how-to-securely-bootstrap-json-in-a-rails-view/) to learn about passing data to your front end.
 
@@ -45,4 +45,4 @@ This section contains helpful links to other content. It isn't required, so cons
 - <a class="knowledge-check-link" href="https://railsapps.github.io/rails-javascript-include-external.html#locations" > How do you load custom JavaScript in a given Rails view page? </a>
 - <a class="knowledge-check-link" href="https://railsapps.github.io/rails-javascript-include-external.html#parameters" >How can you pass data from your Rails app to your JavaScript?</a>
 - <a class="knowledge-check-link" href="https://thoughtbot.com/blog/how-to-integrate-react-rails" >What possibilities exist to connect a React frontend with a Rails backend?</a>
-- <a class="knowledge-check-link" href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-v7-project-with-a-react-frontend-on-ubuntu-20-04#step-3-installing-frontend-dependencies" >How do you integrate React with Rails using the asset pipeline?</a>
+- <a class="knowledge-check-link" href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-v7-project-with-a-react-frontend-on-ubuntu-20-04#step-3-installing-frontend-dependencies" >How do you integrate React with Rails using esbuild?</a>
