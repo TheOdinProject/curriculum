@@ -28,6 +28,7 @@ Next, we need to let our app know that we intend to use `EJS` as a template engi
 In your `app.js` file, set the following application properties:
 
 ```javascript
+// app.js
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 ```
@@ -35,6 +36,7 @@ app.set("view engine", "ejs");
 And import the Path CommonJS module from Node near the top:
 
 ```javascript
+// app.js
 const path = require("node:path");
 ```
 
@@ -63,6 +65,7 @@ Here's a quick example that includes arrays and loop logic.
 Let's use EJS with Express. First, create an EJS template file called `index.ejs` in the `views` subdirectory, and add the following:
 
 ```ejs
+<!-- index.ejs -->
 <html>
   <body>
     <%= message %>
@@ -70,9 +73,10 @@ Let's use EJS with Express. First, create an EJS template file called `index.ejs
 </html>
 ```
 
-And in app.js, render this template file in one of your routes:
+And in `app.js`, render this template file in one of your routes:
 
 ```javascript
+// app.js
 app.get("/", (req, res) => {
   res.render("index", { message: "EJS rocks!" });
 });
@@ -101,6 +105,7 @@ EJS will store these properties in an object called `locals`, which you can acce
 If we try to access a variable in a rendered template file that was not defined in the `locals` argument of `res.render` or `res.locals`, this can cause a reference error. For instance if we try to access an undefined `foo` variable, `locals.foo` will return undefined, while `foo` will result in a reference error. Verify this by outputting `locals.foo` in `index.ejs`, then replacing it with`foo`:
 
 ```ejs
+<!-- index.ejs -->
 <html>
   <body>
     <%= message %>
@@ -185,12 +190,14 @@ app.get("/", (req, res) => {
 Then create a new view called `user.ejs` in the `views` directory:
 
 ```ejs
+<!-- views/user.ejs -->
 <li><%= user %></li>
 ```
 
 Then add the following block to `index.ejs`:
 
 ```ejs
+<!-- index.ejs -->
 <ul>
   <% users.forEach((user) => { %>
     <%- include('user', {user: user}); %>
@@ -222,6 +229,7 @@ Let's create nested directories of EJS template files within the views. Change t
 Serving static assets with EJS is similar to how we served assets previously when working directly with HTML, in that we can add external files to the head of the template file using the `link` tag. The main thing to point out is that the app needs to know where to serve assets from. Assuming `express` is installed, set the following lines in `app.js`:
 
 ```javascript
+// app.js
 const assetsPath = path.join(__dirname, "public");
 app.use(express.static(assetsPath));
 ```
@@ -231,6 +239,7 @@ app.use(express.static(assetsPath));
 Create the following `styles.css` file in the root of the `public` directory:
 
 ```css
+/* public/styles.css */
 body {
   color: red;
 }
@@ -239,6 +248,7 @@ body {
 To serve `styles.css` in `index.ejs`, set the following `link` tag like so in the head:
 
 ```ejs
+<!-- index.ejs -->
 <head>
   <link rel="stylesheet" href="/styles.css">
 </head>
