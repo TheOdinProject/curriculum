@@ -16,6 +16,12 @@ Click the Operating System you have chosen below:
 
 <summary class="dropDown-header">Linux</summary>
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+#### For ChromeOS users
+Make sure Linux Development Environment is enabled on your Chromebook. You should skip the <code>add-apt-repository</code> command in Step 1.2: Install Git.
+See the [Installation on ChromeOS](#installation-on-chromeos) at the end of this section for more information.
+</div>
+
 #### Step 1.1: Update the system
 
 Run these commands in the terminal to update the Linux system:
@@ -56,6 +62,20 @@ git --version
 ```
 
 If the version number is less than 2.28, follow the instructions again.
+
+### Installation on ChromeOS
+
+#### Option 1: Using Linux Development Environment (Crostini) - Recommended
+
+Modern Chromebooks support Linux applications through the Linux Development Environment (Crostini):
+
+1. Enable Linux by following the Turn On Linux section from [Set up Linux on your Chromebook](https://support.google.com/chromebook/answer/9145439?hl=en)
+2. Once the Linux terminal opens, follow the Linux installation instructions above. Skip the <code>add-apt-repository<code> command in Step 1.2.
+
+#### Option 2: Installing Git from Source (Legacy option for older Chromebooks)
+
+If your Chromebook doesn't support the Linux Development Environment, you can install Git from source. Follow the instructions on [installing Git from Source](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-10#installing-git-from-source) from Digital Ocean.
+
 
 </details>
 
@@ -108,13 +128,6 @@ If the version number is less than 2.28, follow the instructions again. If you a
 
 </details>
 
-<details markdown="block">
-
-<summary class="dropDown-header">ChromeOS</summary>
-
-Follow the instructions on [installing Git from Source](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-10#installing-git-from-source) from Digital Ocean.
-
-</details>
 
 ### Step 2: Configure Git and GitHub
 
