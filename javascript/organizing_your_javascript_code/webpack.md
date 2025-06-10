@@ -235,6 +235,7 @@ body {
 You can now import your CSS file into one of your JavaScript files. `src/index.js` makes sense. We don't need anything from the imported CSS file itself. Since our CSS and style loaders will handle all of that for us, we can just use a [side effect import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#import_a_module_for_its_side_effects_only).
 
 ```javascript
+// src/index.js
 import "./styles.css";
 import { greeting } from "./greeting.js";
 
@@ -270,6 +271,7 @@ There are three different ways you could be dealing with local image files:
    Then, add the following object to the `module.rules` array within `webpack.config.js`:
 
    ```javascript
+   // webpack.config.js
    {
      test: /\.html$/i,
      loader: "html-loader",
@@ -281,6 +283,7 @@ There are three different ways you could be dealing with local image files:
    If we need to use a local image file in our JavaScript (such as when manipulating the DOM to create or edit `img` elements and set their `src` attribute), we need to import the images into our JavaScript module. Since images aren't JavaScript, we need to tell Webpack that these files will be assets by adding an `asset/resource` rule. No need to install anything here. Just add the following object to the `module.rules` array within `webpack.config.js`:
 
    ```javascript
+   // webpack.config.js
    {
      test: /\.(png|svg|jpg|jpeg|gif)$/i,
      type: "asset/resource",
@@ -292,6 +295,7 @@ There are three different ways you could be dealing with local image files:
    Then, in whatever JavaScript module we want to use that image in, we just have to default import it.
 
    ```javascript
+   // src/index.js
    import odinImage from "./odin.png";
    
    const image = document.createElement("img");
