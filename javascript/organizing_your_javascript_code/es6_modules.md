@@ -81,7 +81,7 @@ When using ESM, each module has its own private scope, where we use import/expor
 
 How do we actually import and export? In true JavaScript fashion, we don't have just one but two types of importing and exporting: `default` and `named`, and they essentially do the same kind of thing but very slightly differently. They can even be mixed and matched in the same file.
 
-Firstly, we'll just show you the different import/export syntaxes but the code won't work yet, as you'll need to link the scripts as ES6 modules. We will cover that after this section.
+Firstly, we'll just show you the different import/export syntaxes but the code won't work yet, as you'll also need to link the scripts as ES6 modules. We will cover that after this section.
 
 #### Named exports
 
