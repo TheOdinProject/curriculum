@@ -43,6 +43,7 @@ These are some of the basic tools you will use regularly. You may not know what 
 - **[Text Editor](https://en.wikipedia.org/wiki/Text_editor)**
 - **[Command Line Interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface)**
 - **[Stack Overflow](http://stackoverflow.com/)**
+- **[ChatGPT](https://chatgpt.com/)**
 - **[Git](https://git-scm.com/)**
 - **[GitHub](https://github.com/)**
 
