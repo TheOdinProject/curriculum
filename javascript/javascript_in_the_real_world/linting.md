@@ -23,7 +23,9 @@ Here are a few examples of style guides, including ones used by specific compani
 
 The style guides we mentioned above are full of really helpful advice for formatting, organizing and composing your code. But there are a *lot* of rules - it can be difficult to internalize them all. **Linters** are tools that will scan your code with a set of style rules and will report any errors to you that they find. In some cases, they can even auto-fix the errors! There are many linters that exist for JavaScript but by far the most common one is [ESLint](https://eslint.org/).
 
-ESLint is installed as a dev dependency in your project which will allow you to run checks on any of your files via the command line. [ESLint's official "Getting Started" page](https://eslint.org/docs/user-guide/getting-started) is a good place to start which covers installation and basic configuration. You will also want to look at the [docs on configuring ESLint](https://eslint.org/docs/latest/use/configure/) for a list of options that you can change, such as including or excluding certain folders or files, and details about specific rules.
+ESLint is installed as a dev dependency in your project which will allow you to run checks on any of your files via the command line. [ESLint's official "Getting Started" page](https://eslint.org/docs/user-guide/getting-started) is a good place to start which covers installation and basic configuration. The default rule set covers many of the most common scenarios with sensible default settings.
+
+You will also want to look at the [docs on configuring ESLint](https://eslint.org/docs/latest/use/configure/) for a list of options that you can change, such as including or excluding certain folders or files, and details about specific rules.
 
 ### Formatters
 
