@@ -11,9 +11,11 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Style guides
 
-Code style is important! Having a consistent set of style rules for things such as indentation or preferred quote style makes your code more maintainable and easier to read. There are several popular JavaScript style guides on the net that set standards for these types of things, and a little time spent looking through them *will* make you a better developer. Have a little look at some popular style guides for an idea of what sort of things can be done to improve consistency:
+Code style is important! Having a consistent set of style rules for things such as indentation, preferred quote style or general code structure practices, makes your code more maintainable and easier to read. There are several popular JavaScript style guides on the net that set standards for these types of things and you'll find they often differ in what they enforce. None are "right" or "wrong", only that they enforce *something* to promote consistency across a codebase.
 
-1. The [Airbnb Style Guide](https://github.com/airbnb/javascript) is one of the most popular. It is also very well formatted and easy to read.
+Here are a few examples of style guides, including ones used by specific companies:
+
+1. The [Airbnb Style Guide](https://github.com/airbnb/javascript) is one of the most popular.
 1. There is also a [JavaScript style guide used at Google](https://google.github.io/styleguide/jsguide.html).
 1. The [JavaScript Standard Style](https://standardjs.com/rules.html).
 
