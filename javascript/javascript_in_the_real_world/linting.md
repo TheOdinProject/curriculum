@@ -23,18 +23,6 @@ The style guides we mentioned above are full of really helpful advice for format
 
 ESLint is installed as a dev dependency in your project which will allow you to run checks on any of your files via the command line. [ESLint's official "Getting Started" page](https://eslint.org/docs/user-guide/getting-started) is a good place to start which covers installation and basic configuration. You will also want to look at the [docs on configuring ESLint](https://eslint.org/docs/latest/use/configure/) for a list of options that you can change, such as including or excluding certain folders or files, and details about specific rules.
 
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### ESLint v9 and flat config support
-
-The above ESLint doc links take you to the docs for v9, which was released in April 2024. v9 came with a lot of big changes, including forcing all ESLint config files to use the "flat config" format (`eslint.config.(m|c)js`).
-
-Because of these changes, some community plugins like [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) (which makes ESLint use Airbnb's ruleset) have not yet been able to release a version that supports v9 or flat config.
-
-For the time being, if you wish to use airbnb's style guide with ESLint, you will need to use [ESLint's v8.57 version of the docs](https://eslint.org/docs/v8.x/use/getting-started) and make sure you use one of the older [eslintrc configuration file formats](https://eslint.org/docs/v8.x/use/configure/configuration-files), **not** the newer flat config format.
-
-</div>
-
 ### Formatters
 
 Formatters are *awesome*. They are similar to linters, but serve a slightly different function. Formatters take your JavaScript code and then automatically format it according to a set of rules. Unlike linters, they do not look for style errors, but specifically target the layout of your code, making intelligent decisions about things like spaces, indentation levels and line-breaks.
@@ -54,14 +42,6 @@ For example, when installed, the [ESLint extension](https://marketplace.visualst
 It is important that you still have the packages installed as dependencies in your project along any configuration files. The extensions can have fallback rules set, but if they detect the respective package and configuration file in your project, they will use those rules and the package version installed. That way, projects always hold the source of truth for what linting and formatting rules should be applied, and should you ever work on other projects, you're less likely to introduce unwanted style changes from your local settings.
 
 In summary, the extensions are great tools for convenience but they should not be used as the source of truth for a project's linting or formatting setup.
-
-### Using ESLint and Prettier together
-
-We **highly** recommend that you install ESlint and Prettier and use them for all future projects. It will make your code easier to read, both for yourself and for anyone else looking at it.
-
-For most people using the default ESLint ruleset, there will be no special setup needed apart from installing both of them.
-
-Some community plugins, such as [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base), turn on some stylistic rules that may clash with what Prettier formats. If you wish to use a plugin like `eslint-config-airbnb-base` and Prettier together, you will also need to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) which will turn off any of the ESLint rules that clash with Prettier. If you are using the default ESLint ruleset, you will not need this.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
