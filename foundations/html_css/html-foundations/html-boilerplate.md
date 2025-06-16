@@ -190,7 +190,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Another option for opening your HTML pages in the browser is using the [Live Preview extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) for VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend not using this extension and instead doing it the old-fashioned way, by opening the page and refreshing the page manually in the browser for your first few HTML projects. This way, you can get used to that process and won't become reliant on extensions right away.
-
+- Another option for opening your HTML pages in the browser is using the [Live Preview extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) for VSCode. This will open your HTML document and automatically refresh it every time you save the document. However, we recommend avoiding this extension at first. Instead, open and refresh your HTML page manually in the browser. This helps you build a solid understanding of the basic development workflow before relying on tools and extensions.
 - If you wish, you can add [the `lang` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang) to individual elements throughout the webpage.
 - If you are curious about charset encodings, [W3C's article on character encoding](https://www.w3.org/International/articles/definitions-characters/) does a great job explaining it.
