@@ -11,9 +11,11 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Style guides
 
-Code style is important! Having a consistent set of style rules for things such as indentation or preferred quote style makes your code more maintainable and easier to read. There are several popular JavaScript style guides on the net that set standards for these types of things, and a little time spent looking through them *will* make you a better developer. Have a little look at some popular style guides for an idea of what sort of things can be done to improve consistency:
+Code style is important! Having a consistent set of style rules for things such as indentation, preferred quote style or general code structure practices, makes your code more maintainable and easier to read. There are several popular JavaScript style guides on the net that set standards for these types of things and you'll find they often differ in what they enforce. None are "right" or "wrong", only that they enforce *something* to promote consistency across a codebase.
 
-1. The [Airbnb Style Guide](https://github.com/airbnb/javascript) is one of the most popular. It is also very well formatted and easy to read.
+Here are a few examples of style guides, including ones used by specific companies:
+
+1. The [Airbnb Style Guide](https://github.com/airbnb/javascript) is one of the most popular.
 1. There is also a [JavaScript style guide used at Google](https://google.github.io/styleguide/jsguide.html).
 1. The [JavaScript Standard Style](https://standardjs.com/rules.html).
 
@@ -21,19 +23,9 @@ Code style is important! Having a consistent set of style rules for things such 
 
 The style guides we mentioned above are full of really helpful advice for formatting, organizing and composing your code. But there are a *lot* of rules - it can be difficult to internalize them all. **Linters** are tools that will scan your code with a set of style rules and will report any errors to you that they find. In some cases, they can even auto-fix the errors! There are many linters that exist for JavaScript but by far the most common one is [ESLint](https://eslint.org/).
 
-ESLint is installed as a dev dependency in your project which will allow you to run checks on any of your files via the command line. [ESLint's official "Getting Started" page](https://eslint.org/docs/user-guide/getting-started) is a good place to start which covers installation and basic configuration. You will also want to look at the [docs on configuring ESLint](https://eslint.org/docs/latest/use/configure/) for a list of options that you can change, such as including or excluding certain folders or files, and details about specific rules.
+ESLint is installed as a dev dependency in your project which will allow you to run checks on any of your files via the command line. [ESLint's official "Getting Started" page](https://eslint.org/docs/user-guide/getting-started) is a good place to start which covers installation and basic configuration. The default rule set covers many of the most common scenarios with sensible default settings.
 
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### ESLint v9 and flat config support
-
-The above ESLint doc links take you to the docs for v9, which was released in April 2024. v9 came with a lot of big changes, including forcing all ESLint config files to use the "flat config" format (`eslint.config.(m|c)js`).
-
-Because of these changes, some community plugins like [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base) (which makes ESLint use Airbnb's ruleset) have not yet been able to release a version that supports v9 or flat config.
-
-For the time being, if you wish to use airbnb's style guide with ESLint, you will need to use [ESLint's v8.57 version of the docs](https://eslint.org/docs/v8.x/use/getting-started) and make sure you use one of the older [eslintrc configuration file formats](https://eslint.org/docs/v8.x/use/configure/configuration-files), **not** the newer flat config format.
-
-</div>
+You will also want to look at the [docs on configuring ESLint](https://eslint.org/docs/latest/use/configure/) for a list of options that you can change, such as including or excluding certain folders or files, and details about specific rules.
 
 ### Formatters
 
@@ -54,14 +46,6 @@ For example, when installed, the [ESLint extension](https://marketplace.visualst
 It is important that you still have the packages installed as dependencies in your project along any configuration files. The extensions can have fallback rules set, but if they detect the respective package and configuration file in your project, they will use those rules and the package version installed. That way, projects always hold the source of truth for what linting and formatting rules should be applied, and should you ever work on other projects, you're less likely to introduce unwanted style changes from your local settings.
 
 In summary, the extensions are great tools for convenience but they should not be used as the source of truth for a project's linting or formatting setup.
-
-### Using ESLint and Prettier together
-
-We **highly** recommend that you install ESlint and Prettier and use them for all future projects. It will make your code easier to read, both for yourself and for anyone else looking at it.
-
-For most people using the default ESLint ruleset, there will be no special setup needed apart from installing both of them.
-
-Some community plugins, such as [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base), turn on some stylistic rules that may clash with what Prettier formats. If you wish to use a plugin like `eslint-config-airbnb-base` and Prettier together, you will also need to install [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) which will turn off any of the ESLint rules that clash with Prettier. If you are using the default ESLint ruleset, you will not need this.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
