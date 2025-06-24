@@ -62,7 +62,7 @@ So the only way to truly enforce constraints is on the database level, since you
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What does the validation helper `presence: true` enforce?](https://guides.rubyonrails.org/active_record_validations.html#presence)
-- [How can you see why an instance of a model class has failed validation?](https://guides.rubyonrails.org/active_record_validations.html#validations-overview-errors)
+- [How can you see why an instance of a model class has failed validation?](https://guides.rubyonrails.org/active_record_validations.html#inspecting-and-handling-errors)
 
 ### Additional resources
 
