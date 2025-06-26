@@ -44,7 +44,7 @@ So how do we measure it?
 
 The way to measure code efficiency is to evaluate how many 'steps' it takes to complete. If you know that one algorithm you write takes 5 steps and another one takes 20 steps to accomplish the same task, then you can say that the 5-step algorithm will always run faster than the 20-step algorithm on the same computer.
 
-Let's go back to our `odd_numbers_less_than_ten method`. How many steps does our algorithm take?
+Let's go back to our `odd_numbers_less_than_ten` method. How many steps does our algorithm take?
 
 1. We assign the number 1 to a variable. That's one step.
 
