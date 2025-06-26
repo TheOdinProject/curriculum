@@ -65,7 +65,7 @@ While `href` specifies the destination link, `target` specifies where the linked
 `noopener`: The `noopener` value of the `rel` attribute ensures that a link opened in a new tab or window cannot interact with or access the original page. Without it, the new page can use JavaScript to manipulate the original page, which poses a security risk.
 
 For example:
-"<a href="https://example.com" target="_blank" rel="noopener">Open Example</a>"
+`<a href="https://example.com" target="_blank" rel="noopener">Open Example</a>`
 
 In this code:
 target="_blank": opens the link in a new tab.
@@ -75,7 +75,7 @@ Without `noopener`, the new tab could use JavaScript to interact with the origin
 `noreferrer`: The `noreferrer` value of the `rel` attribute provides both privacy and security. It prevents the new page from knowing where the user came from (hiding the referrer) and also includes the behavior of `noopener`, preventing the new page from accessing the original page.
 
 For example:
-"<a href="https://example.com" target="_blank" rel="noreferrer">Visit Example</a>"
+`<a href="https://example.com" target="_blank" rel="noreferrer">Visit Example</a>`
 
 In this example:
 target="_blank": opens the link in a new tab.
@@ -280,7 +280,7 @@ What if we want to use the dog image in the about page? We would first have to g
 
 To break this down:
 
-1. First, we are going to the parent directory of the pages directory which is `odin-links-and-images`.
+1. First, we are going to the parent directory of the `pages` directory which is `odin-links-and-images`.
 1. Then, from the parent directory, we can go into the `images` directory.
 1. Finally, we can access the `dog.jpg` file.
 
