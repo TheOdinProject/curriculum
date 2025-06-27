@@ -225,9 +225,9 @@ async function getAuthorById(req, res) {
 
 What if we have many async middleware functions and a lot of them respond the same way just with things like different status codes and response messages? Instead of `try/catch` in each middleware, Express automatically catches any thrown errors and calls `next(error)`, which will pass control over to a special "error middleware function", meaning we wouldn't need to catch and handle in the original controller itself.
 
-#### With a middleware
+#### Error handler middleware
 
-An error middleware function handles all errors in our application that come down from other middleware functions. We want to place this error middleware function at the very end of the application code to ensure it's the last middleware function executed and only handles errors bubbling down from preceding middleware functions.
+An error handler middleware function handles all errors in our application that come down from other middleware functions. We want to place this error middleware function at the very end of the application code to ensure it's the last middleware function executed and only handles errors bubbling down from preceding middleware functions.
 
 Add the following code in `app.js` at the end of all middleware functions in our application:
 
@@ -390,7 +390,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are the other arguments you can pass to the next function?](#what-is-the-next-function)
 - [What is a controller?](#controllers)
 - [What is the difference between a controller and a middleware?](#controllers)
-- [What happens if you define a middleware function with four parameters?](#with-a-middleware)
+- [What happens if you define a middleware function with four parameters?](#error-handler-middleware)
 - [What would you do to create a custom error?](#creating-custom-errors)
 
 ### Additional resources
