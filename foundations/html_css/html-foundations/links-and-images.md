@@ -65,9 +65,11 @@ While `href` specifies the destination link, `target` specifies where the linked
 `noopener`: The `noopener` value of the `rel` attribute ensures that a link opened in a new tab or window cannot interact with or access the original page. Without it, the new page can use JavaScript to manipulate the original page, which poses a security risk.
 
 For example:
+
 ```html
 <a href="https://example.com" target="_blank" rel="noopener">Open Example</a>
 ```
+
 In this code:
 target="_blank": opens the link in a new tab.
 rel="noopener": prevents the new tab from accessing the original page, ensuring security.
