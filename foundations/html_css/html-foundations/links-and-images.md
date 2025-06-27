@@ -78,9 +78,11 @@ Without `noopener`, the new tab could use JavaScript to interact with the origin
 `noreferrer`: The `noreferrer` value of the `rel` attribute provides both privacy and security. It prevents the new page from knowing where the user came from (hiding the referrer) and also includes the behavior of `noopener`, preventing the new page from accessing the original page.
 
 For example:
+
 ```html
 `<a href="https://example.com" target="_blank" rel="noreferrer">Visit Example</a>`
 ```
+
 In this example:
 target="_blank": opens the link in a new tab.
 rel="noreferrer": ensures the new page cannot see the referring page’s address (privacy) and prevents it from accessing the original page (security).
