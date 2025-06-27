@@ -49,6 +49,7 @@ For the moment we are saving our users with just a plain text password. This is 
 ```javascript
 /////// app.js
 
+const path = require("node:path");
 const { Pool } = require("pg");
 const express = require("express");
 const session = require("express-session");
@@ -60,7 +61,7 @@ const pool = new Pool({
 });
 
 const app = express();
-app.set("views", __dirname);
+app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 app.use(session({ secret: "cats", resave: false, saveUninitialized: false }));
@@ -81,7 +82,7 @@ Our view engine is set up to just look in the project directory, and it's lookin
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>Home</title>
 </head>
 <body>
   <h1>hello world!</h1>
@@ -100,16 +101,16 @@ Create a new template called `sign-up-form`, and a route for `/sign-up` that poi
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>Sign Up</title>
 </head>
 <body>
   <h1>Sign Up</h1>
-  <form action="" method="POST">
+  <form action="/sign-up" method="POST">
     <label for="username">Username</label>
     <input id="username" name="username" placeholder="username" type="text" />
     <label for="password">Password</label>
     <input id="password" name="password" type="password" />
-    <button>Sign Up</button>
+    <button type="submit">Sign Up</button>
   </form>
 </body>
 </html>
@@ -211,11 +212,11 @@ Let's go ahead and add the log-in form directly to our index template. The form 
   <input id="username" name="username" placeholder="username" type="text" />
   <label for="password">Password</label>
   <input id="password" name="password" type="password" />
-  <button>Log In</button>
+  <button type="submit">Log In</button>
 </form>
 ```
 
-... and now for the magical part! Add this route to your app.js file:
+... and now for the magical part! Add this route to your `app.js` file:
 
 ```javascript
 app.post(
@@ -248,7 +249,7 @@ and then edit your view to make use of that object like this:
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>Log In</title>
 </head>
 <body>
   <% if (locals.user) {%>
@@ -261,7 +262,7 @@ and then edit your view to make use of that object like this:
       <input id="username" name="username" placeholder="username" type="text" />
       <label for="password">Password</label>
       <input id="password" name="password" type="password" />
-      <button>Log In</button>
+      <button type="submit">Log In</button>
     </form>
   <%}%>
 </body>
@@ -319,9 +320,15 @@ Password hashes are the result of passing the user's password through a one-way 
 Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:
 
 ```javascript
-bcrypt.hash(req.body.password, 10, async (err, hashedPassword) => {
-  // if err, do something
-  // otherwise, store hashedPassword in DB
+app.post("/sign-up", async (req, res, next) => {
+ try {
+  const hashedPassword = await bcrypt.hash(req.body.password, 10);
+  await pool.query("insert into users (username, password) values ($1, $2)", [req.body.username, hashedPassword]);
+  res.redirect("/");
+ } catch (error) {
+    console.error(error);
+    next(error);
+   }
 });
 ```
 

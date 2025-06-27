@@ -86,11 +86,13 @@ This is a **crucial** behavior of functions - allowing us to associate data with
 
 ### So, what's wrong with constructors?
 
-One of the key arguments against constructors, in fact, the biggest argument is how they *look* like regular JavaScript functions, even though they do not *behave* like regular functions. If you try to use a constructor function without the `new` keyword, not only does your program fail to work, but it also produces error messages that are hard to track down and understand.
+The biggest problem with constructors is that they don't provide automatic safeguards that prevent from using them wrong.
 
-Yet another issue stems from the way the `instanceof` works. It checks the presence of a constructor's prototype in an object's *entire* prototype chain - which does nothing to confirm if an object was made with that constructor since the constructor's prototype can even be reassigned after the creation of an object.
+One of the key arguments is how they *look* like regular JavaScript functions, even though they do not *behave* like regular functions. As we warned in the object constructors lesson, if you try to use a constructor function without the `new` keyword, and you didn't include additional safeguards in the constructor not only does your program fail to work, but it also produces error messages that are hard to track down and understand.
 
-While still seen in code, these problems led to the use of a pattern that was similar to constructors but addressed a ton of these problems: Factory Functions.
+Yet another issue stems from misusing `instanceof`. In other programming languages, the keyword is a reliable way to know the code with which an object was made; but in JavaScript, it checks the presence of a constructor's prototype in an object's *entire* prototype chain - which does nothing to confirm if an object was made with that constructor since the constructor's prototype can even be reassigned after the creation of an object.
+
+Because of that, constructors have become unpopular in favor of a pattern that is similar but addresses a ton of these problems by not relying on those troublesome features: Factory Functions.
 
 ### Factory functions 🏭
 
@@ -200,6 +202,14 @@ Concerning factory functions, a private variable or function uses closures to cr
 
 In this case, we did not need control of the `reputation` variable itself. To avoid foot guns, like accidentally setting the reputation to `-18000`, we expose the necessary details in the form of `getReputation` and `giveReputation`.
 
+<div class="lesson-note" markdown="1" >
+
+#### Constructors and closure
+
+Note that you could technically also use closure in constructors, by defining the methods to access a "private property" inside the constructor, instead of on the prototype. But that would make them non-inheritable, which defies the purpose of constructors.
+
+</div>
+
 ### Prototypal inheritance with factories
 
 In the lesson with constructors, we looked deeply into the concept of prototype and inheritance, and how to give our objects access to the properties of another. With factory functions too, there are easy ways to do that. Take another hypothetical scenario into consideration. We need to extend the `User` factory into a `Player` factory that needs to control some more metrics - there are some ways to do that:
@@ -276,7 +286,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [How does scope work in JavaScript?](#scoopfuls-of-scopes)
 - [What are closures and how do they help in creating private variables?](#closures-arent-scary)
-- [What common issues can you can face when working with constructors?](#so-whats-wrong-with-constructors)
+- [What common issues can you face when working with constructors?](#so-whats-wrong-with-constructors)
 - [What are private variables in factory functions and how can they be useful?](#private-variables-and-functions)
 - [How can we implement prototypal inheritance with factory functions?](#prototypal-inheritance-with-factories)
 - [How does the module pattern work?](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)

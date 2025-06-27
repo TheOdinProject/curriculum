@@ -42,13 +42,17 @@ You can also use relational selectors (i.e., `firstElementChild` or `lastElement
 const container = document.querySelector("#container");
 
 // selects the first child of #container => .display
-console.dir(container.firstElementChild);
+const display = container.firstElementChild;
+console.log(display);  // <div class="display"></div>
+```
 
+```javascript
 // selects the .controls div
 const controls = document.querySelector(".controls");
 
 // selects the prior sibling => .display
-console.dir(controls.previousElementSibling);
+const display = controls.previousElementSibling;
+console.log(display); // <div class="display"></div>
 ```
 
 So you're identifying a certain node based on its relationships to the nodes around it.
@@ -356,7 +360,7 @@ When we pass in `alertFunction` or `function (e) {...}` as an argument to `addEv
 
 </div>
 
-The `e` parameter in that callback function contains an object that references the **event** itself. Within that object you have access to many useful properties and methods (functions that live inside an object) such as which mouse button or key was pressed, or information about the event's **target** - the DOM node that was clicked.
+The `e` parameter in that callback function contains an object that references the **event** itself. Within that object you have access to many useful properties and methods (functions that live inside an object) such as which mouse button or key was pressed, or information about the event's **target** - the DOM node that was clicked. There's nothing magical about `e` as a name or where it comes from. JavaScript knows the parameter is an event because an event listener callback takes an `Event` object by definition. When the callback is run, the event handler passes in its own reference to the event. You can read more about the event objects on [MDN's introduction to events](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events#event_objects).
 
 Try this:
 
@@ -418,7 +422,7 @@ You can find a more complete list with explanations of each event on [W3Schools 
 
 Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with *every day* as a front-end developer, so let's practice!
 
-1. Complete [MDN's Active Learning sections on DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_a_dynamic_shopping_list) to test your skills!
+1. Complete [MDN's Active Learning sections on DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_basic_dom_manipulation) to test your skills!
 1. Read the following sections from JavaScript Tutorial's series on the DOM to get a broader idea of how events can be used in your pages. Note that some of the methods like `getElementById` are older and see less use today.
 
    As you read, remember that the general ideas can be applied to any event, not only the ones used in examples - but information specific to a certain event type can always be found by checking documentation.
@@ -460,7 +464,6 @@ This section contains helpful links to related content. It isn't required, so co
 
 - [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
 - [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
-- [DOM Enlightenment](http://domenlightenment.com/)
 - [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.
 - This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers easy-to-understand lessons on the DOM.
 - [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.

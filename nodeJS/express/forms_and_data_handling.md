@@ -86,7 +86,7 @@ The `body()` function allows you to specify which fields in the request body sho
 ];
 ```
 
-This example marks `birthdate` field as optional, but still enforces the ISO8601 date format on inputs. This is because `{ values: "falsy" }` means values that aren't `undefined`, `null`, `false`, or `0` will still be validated.
+This example marks `birthdate` field as optional, but still enforces the ISO8601 date format on inputs. This is because `{ values: "falsy" }` means values that aren't `undefined`, `null`, `false`, `0` or empty strings `""` will still be validated.
 
 ### Chaining validations
 
@@ -111,7 +111,7 @@ While this might work for outputs we know won't have special characters, like na
 
 ```ejs
 <div>
-  About Me: <%- description %>
+  About Me: <%- description %>!
 </div>
 
 // The client then inputs the following as their page's About Me:
@@ -521,7 +521,7 @@ We could go much deeper into working safely with forms, but we'll stop there. By
 
 To give you an overview of what this entire flow looks like visually, here's an example courtesy of MDN:
 
-![A diagram showing an outline of how a form interacts with a server using GET and POST requests.](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms/web_server_form_handling.png)
+![A diagram showing an outline of how a form interacts with a server using GET and POST requests.](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/web_server_form_handling.png)
 
 ### Assignment
 
@@ -565,7 +565,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you validate and sanitize form input using express-validator?](#understanding-the-body-function)
 - [What is the difference between validation and sanitization?](#validation-and-sanitization)
 - [How do you handle validation errors in Express routes?](#validation-results)
-- [What is the importance of escaping HTML characters in a form?](https://owasp.org/www-community/attacks/SQL_Injection)
+- [What is the importance of escaping HTML characters in a form?](https://www.theodinproject.com/lessons/nodejs-forms-and-data-handling#escaping-user-input)
 
 ### Additional resources
 

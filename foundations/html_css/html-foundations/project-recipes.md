@@ -60,15 +60,22 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 #### Iteration 2:  recipe page
 
 1. Create a new directory within the `odin-recipes` directory and name it `recipes`.
-1. Create a new HTML file within the  `recipes` directory and name it after the recipe it will contain. For example `lasagna.html`. You can use the name of your favorite dish or, if you need some inspiration, you can find a recipe to use at [Allrecipes](https://www.allrecipes.com/).
+1. Create a new HTML file within the  `recipes` directory and name it after the recipe it will contain. For example `lasagna.html`. You can use the name of your favorite dish or, if you need some inspiration, you can find a recipe to use at [Allrecipes](https://www.allrecipes.com/). Be sure to include the usual boilerplate HTML. This boilerplate code should be in every `.html` file you create.
 1. For now, just include an `h1` heading with the recipe's name as its content.
 1. Back in the `index.html` file, add a link to the recipe page you just created. Example: Under the `<h1>Odin Recipes</h1>` heading, write out the link like so: `<a href="recipes/recipename.html">Recipe Title</a>`. The text of the link should again be the recipe name.
+1. **Add a link back to the index page** on your recipe page for easier navigation. You can place this link at the top or bottom of your recipe page (e.g., `lasagna.html`). Here's an example:
+
+   ```html
+   <a href="../index.html">Home</a>
+   ```
+
+   This allows users to quickly return to the home page after viewing the recipe.
 
 #### Iteration 3:  recipe page content
 
 Your new recipe page should have the following content:
 
-1. An image of the finished dish under the h1 heading that you added earlier. You can find images of the dish on Google or [Allrecipes](https://www.allrecipes.com/).
+1. A free image of the finished dish under the h1 heading that you added earlier.
 
 1. Under the image, it should have an appropriately sized "Description" heading followed by a paragraph or two describing the recipe.
 
@@ -103,7 +110,7 @@ GitHub allows you to publish web projects directly from a GitHub repository. Doi
 
 <div class="lesson-note">
 
-A GitHub paid account is required to publish a private repository.
+A GitHub paid account is required to publish web projects from a private repository. Free accounts can only publish from public repositories.
 
 </div>
 

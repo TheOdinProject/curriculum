@@ -115,7 +115,7 @@ Now it's time to introduce the shorthand notation for our animation properties a
 }
 ```
 
-Here we added another keyframe for when the `animation-duration` is at 50%, or 1 second. This means as well as the `background-color` changing to an additional value, we have also specified that the ball double in size. Just be aware that additional keyframes are always defined in percentages. Only the `0%/100%` values may use the `from/to` alias.
+Here we added another keyframe for when the `animation-duration` is at 50%, or 1 second. This means as well as the `background-color` changing to an additional value, we have also specified that the ball doubles in size. Just be aware that additional keyframes are always defined in percentages. Only the `0%/100%` values may use the `from/to` alias.
 
 Hopefully, this gives you a glimpse into the power the `@keyframes` syntax provides to you when it comes to controlling the animation of an element's properties. You can add keyframes whenever you want, control whatever CSS-animatable properties you want, and have the control to add some real creative flair to your website elements.
 
@@ -126,7 +126,7 @@ Hopefully, this gives you a glimpse into the power the `@keyframes` syntax provi
 1. Code along with this [MDN article for using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
 1. Read the [@keyframes reference](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) to gain a deeper understanding of how keyframes are implemented.
 1. Read this [interactive guide to keyframes](https://www.joshwcomeau.com/animation/keyframe-animations/).
-1. Now let's make some cool animations! Go to the `animation` folder in the [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and review each README file prior to completing the following exercises in order:
+1. Now let's make some cool animations! Complete the exercises in our [CSS exercises repository's `advanced-html-css/animation` directory](https://github.com/TheOdinProject/css-exercises/tree/main/advanced-html-css/animation) (remember that the instructions are in the README) in the order:
    - `01-button-hover`
    - `02-pop-up`
    - `03-dropdown-menu`

@@ -169,7 +169,7 @@ Sometimes, for a record that already exists, you want to either deselect a dropd
 
 Try making a hidden field in your form (or nested form) that has the same name as your checkboxes or dropdown but only contains the value `""`.  Now you'll get that attribute to show up in your `params` hash no matter what and you can handle deleting the records however you'd like appropriate.
 
-Sometimes Rails helper methods will do it for you, but make sure you know what your form is actually submitting (if anything) if you deselect all options!
+Sometimes [Rails helper methods will insert hidden fields for you](https://api.rubyonrails.org/v8.0.0/classes/ActionView/Helpers/FormHelper.html#method-i-checkbox-label-Gotcha), but make sure you know what your form is actually submitting (if anything) if you deselect all options!
 
 ### Assignment
 
@@ -186,7 +186,7 @@ Sometimes Rails helper methods will do it for you, but make sure you know what y
 
 We've covered two of the more common use cases for complex forms -- pre-populating a form with objects and creating multiple objects with a single form.  At this point, even if you're uncomfortable, you should have all the tools you need to work through creating a form.  We'll get your hands dirty in the project, have no fear.
 
-The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferrable to every form you'll ever make.
+The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferable to every form you'll ever make.
 
 ### Knowledge check
 

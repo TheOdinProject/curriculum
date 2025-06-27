@@ -6,12 +6,12 @@ Up until this point in the curriculum, we have been building one-page applicatio
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is client-side routing?
-- How do you use React Router to do client-side routing?
-- How do you create nested and dynamic paths?
-- How do you add a "catch-all" route?
-- How do you pass data from a parent to any child components rendered via an outlet?
-- How do you add protected routes?
+- Understand what client-side routing is.
+- Learn how to use React Router for client-side routing.
+- Explore how to create nested and dynamic paths in React Router.
+- Discover how to add a 'catch-all' route in React Router.
+- Learn how to pass data from a parent component to any child components rendered via an outlet.
+- Understand how to implement protected routes in React Router.
 
 ### Client-side routing
 
@@ -111,7 +111,7 @@ createRoot(document.getElementById("root")).render(
 );
 ```
 
-Once this is done, go ahead and run `npm run dev` and check out both routes: the home route `/` and the profile route `/profile` It works! But what is happening here?
+Once this is done, go ahead and run `npm run dev` and check out both routes: the home route `/` and the profile route `/profile`. It works! But what is happening here?
 
 1. We import `createBrowserRouter` and `RouterProvider` from React Router.
 1. `createBrowserRouter` is used to create the configuration for a router by passing arguments in the form of an array of routes.
@@ -233,7 +233,7 @@ const Profile = () => {
 export default Profile;
 ```
 
-Check out the `/profile`, `/profile/popeye` and `/profile/spinach` pages. The `<Outlet />` component gets replaced with the children component when their paths are visited.
+Check out the `/profile` page. To visit `/profile/popeye` or `/profile/spinach` pages, manually add `/popeye` or `/spinach` to the end of the current URL. The `<Outlet />` component gets replaced with the children component when their paths are visited.
 
 If you want to render something as a default component when no path is added to Profile, you can add an index route to the children!
 
@@ -247,7 +247,7 @@ const DefaultProfile = () => {
 export default DefaultProfile;
 ```
 
-Now, add an index tag with the DefaultProfile as a child to the `/profile` route.
+Now, add an index property with the DefaultProfile as a child to the `/profile` route.
 
 ```jsx
 import { StrictMode } from "react";
@@ -477,7 +477,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What should be used in place of "a" tags to enable client-side routing?](#the-link-element)
 - [How do you create nested routes?](#nested-routes-outlets-and-dynamic-segments)
 - [What do you mean by dynamic segments or URL params?](#nested-routes-outlets-and-dynamic-segments)
-- [How do you add a "catch-all" route?](#handling-bad-urls)
+- [How do you handle errors from bad URLs?](#handling-bad-urls)
 - [How do you pass data from parent to child through an `<Outlet />` component?](#outlets-and-state)
 - [How do you create protected routes?](#protected-routes-and-navigation)
 
@@ -487,4 +487,4 @@ This section contains helpful links to related content. It isn't required, so co
 
 - This Stack Overflow answer uses a [function to generate the route config object](https://stackoverflow.com/a/64347082/19051112) passed to createBrowserRouter. The function conditionally generates the different paths.
 - This demonstration project creates a [special Protected Route component that conditionally displays elements as necessary](https://github.com/iammanishshrma/react-protected-routes/blob/master/src/routes/ProtectedRoute.jsx).
-- Loaders are a very useful concept in React but are out of scope of this lesson. You can learn more about them from the [React Router documentation on Loaders](https://reactrouter.com/en/main/route/loader) and reading this [Medium article on loaders](https://medium.com/@younusraza909/loaders-in-react-router-71558c2988eb). If you're more into video content, you may find this [video on loaders](https://www.youtube.com/watch?v=K-bxVELldCc) from Net Ninja helpful.
+- Loaders are a very useful concept in React but are out of scope of this lesson. You can learn more about them from the [React Router documentation on Loaders](https://reactrouter.com/en/main/route/loader) and reading this [DEV Community article on loaders](https://dev.to/vikram-boominathan/react-router-routes-loaders-and-errors-1nee). If you're more into video content, you may find this [video on loaders](https://www.youtube.com/watch?v=K-bxVELldCc) from Net Ninja helpful.
