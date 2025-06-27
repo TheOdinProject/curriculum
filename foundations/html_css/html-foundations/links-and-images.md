@@ -80,7 +80,7 @@ Without `noopener`, the new tab could use JavaScript to interact with the origin
 For example:
 
 ```html
-`<a href="https://example.com" target="_blank" rel="noreferrer">Visit Example</a>`
+<a href="https://example.com" target="_blank" rel="noreferrer">Visit Example</a>
 ```
 
 In this example:
