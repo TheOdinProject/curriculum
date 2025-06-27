@@ -218,7 +218,7 @@ async function getAuthorById(req, res) {
 
     // or we can call next(error) instead of sending a response here
     // Using `next(error)` however will only render an error page in the express' default view and respond with the whole html to the client.
-    // So we will need to create a special type of middleware function if we want a different response and we will get to that...next.
+    // So we will need to create a special type of middleware function if we want a different response and we will get to that... next.
   }
 };
 ```
