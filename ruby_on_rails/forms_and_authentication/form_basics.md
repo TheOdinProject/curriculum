@@ -278,10 +278,10 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is the `name` attribute of a form input element and what does it do?](#railsifying-your-form-by-making-forms-input-into-params)
 - [How do you nest attributes under a single hash in `params`?](#railsifying-your-form-by-making-forms-input-into-params)
-- [How do you pass `form_with` a model object?](#using-models-with-the-form_with-helper)
+- [How do you pass `form_with` a model object?](#using-models-with-the-formwith-helper)
 - [How do you access errors for a failed-to-save model object?](#forms-and-validations)
 - [How do Rails forms make PATCH or DELETE requests?](#making-patch-and-delete-submissions)
-- [What is one case where you may need an array of hashes within the `params` hash?](https://guides.rubyonrails.org/form_helpers.html#combining-them)
+- [What is one case where you may need an array of hashes within the `params` hash?](https://guides.rubyonrails.org/form_helpers.html#combining-arrays-and-hashes)
 
 ### Additional resources
 
