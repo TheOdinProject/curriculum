@@ -60,7 +60,7 @@ describe("App component", () => {
 
 #### Vitest globals and ESLint
 
-Even if you set `globals: true` in `vite.config.js` like in the setup tutorial, ESLint will still yell at you, as it will not recognize these globals without some extra configuration in your `.eslintrc.cjs` file. The most straightforward resolution would be to explicitly import the globals you'd need. You can omit `globals: true` from `vite.config.js` in this case.
+Even if you set `globals: true` in `vite.config.js` like in the setup tutorial, ESLint will still yell at you, as it will not recognize these globals without some extra configuration in your `eslint.config.js` file. The most straightforward resolution would be to explicitly import the globals you'd need instead. You can omit `globals: true` from `vite.config.js` in this case.
 
 </div>
 
