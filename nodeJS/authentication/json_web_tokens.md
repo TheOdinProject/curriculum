@@ -92,6 +92,12 @@ Upon successful verification, the payload is returned and can be handled however
 
 Essentially, this is a similar process to our previous session-based authentication system only since the authentication data came with the JWT payload, we did not need to make an additional database call to grab that data from a session.
 
+### Logging out with JWTs
+
+When we were using sessions, we logged users out by destroying the session itself. You could delete the session cookie at the same time but the main thing is that the session no longer exists. But since we're using JWTs with stateless authentication, the server doesn't store any of this authentication data. Therefore, the only way we can "log out" a user would be to get rid of the JWT on the client, whether that's having the client delete the JWT from local storage or unsetting a cookie if cookies are used etc.
+
+This change of mechanism does come with some caveats but they will be discussed in more detail in a later lesson. For now, it's more important to get an idea for how stateless authentication and JWTs work as a whole.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
