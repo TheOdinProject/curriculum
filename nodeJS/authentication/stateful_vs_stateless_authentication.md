@@ -46,13 +46,18 @@ There are plenty of good and bad implementations of authentication out in the wi
 
 <div class="lesson-content__panel" markdown="1">
 
+1. Read ["Stop using JWT for sessions"](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/) for a breakdown of why the proposed benefits of JWTs (for essentially the same thing as sessions) may not be worth the complexities and potential vulnerabilities.
+1. Read another take on [avoiding JWTs to implement browser sessions](https://ianlondon.github.io/posts/dont-use-jwts-for-sessions/).
+
 </div>
 
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- []()
+- [Why might a product want to use stateless authentication instead of stateful?](#stateful-vs-stateless)
+- [What issues might one face with stale data in authentication tokens?](#authentication-and-authorization)
+- [What issues might stateless authentication have regarding invalidation?](#invalidation)
 
 ### Additional resources
 
