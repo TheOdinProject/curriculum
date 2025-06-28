@@ -16,6 +16,26 @@ Stateless solutions reduce the amount of database calls needed per authenticated
 
 But is there actually a negative to using something like JWTs for stateless authentication? Potentially: **authorization** and **invalidation**.
 
+### Authentication and authorization
+
+Back in the JWT lesson, we demonstrated authenticating a request by verifying the JWT then using the ID from the payload to query the databasse for user data. This was intentional in order to avoid using the JWT for authorization, that is, the JWT only told us who was making the request but did not contain any personal information or things like roles and permissions.
+
+Imagine if Odin was demoted from "god" to "demigod". meaning he's no longer allowed to access the god-only section of Valhalla. If the JWT stored role information, that information is now **stale** yet it still exists. As long as Odin (or anyone) still has that JWT, they could fool anyone into thinking they were still a god and not a demigod! Ideally the database holds the source of truth for these things, and we query it only once we have verified who is making the request. While this is still a possibility when using sessions (e.g. storing permissions in the sessions themselves), at the very least session data is not stored client-side for anyone to see or take for themselves. This leads us straight into the next issue to address.
+
+### Invalidation
+
+How do you invalidate a session, such as when a user logs out? You just delete the session from the database. Now no matter who has the old session ID, there won't be a matching session and so it's now invalid. Now how do you do it with something like a JWT? As per the JWT lesson, you'd delete the JWT from the client. But does that actually mean the JWT is no longer valid?
+
+JWTs are much harder to invalidate. Say you generate one with a 2-day expiry and the client then logs out, deleting it from whatever storage medium was used. The client no longer has the token but since it's just text, anyone else who has that text could continue to use it and it will still be valid until expiry. This could have been obtained via any number of malicious attack methods, including [cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) and [cross-site request forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery). At the most basic level, your pesky sibling could have went on your computer, opened devtools, then copied down the JWT value to use on their machine.
+
+Since the server does not store the tokens, it cannot directly invalidate them without changing the secret used to sign them, but then that will invalidate *every* users' tokens. Keeping a server-side list of revoked tokens would just make things stateful, since every authenticated request must query that revocation list before verifying any tokens. Setting a super-short expiry time like a few minutes would definitely reduce how long a malicious actor could use a stolen JWT to wreak havoc, but then that'd ruin the user experience for everyone else if they could only stay logged in for a few minutes at a time (though of course this is sometimes an intended security feature, like with many banking websites).
+
+#### A hybrid approach
+
+As a result, some services implement a hybrid stateful+stateless approach, such as using two tokens: "access" and "refresh". The main JWT is the "access token" and has a very short expiry. The client also receives a second "refresh token", and *that* token is stored server-side (making it the stateful part). If the access token is still valid, it's used as normal. If it has expired, the server checks if the refresh token is valid. If it is, the server can generate a fresh access token for use, but if not, it can unauthorize the request.
+
+This comes with the benefit of not needing the additional database call for authentication data for any requests made with a valid access token, while retaining the ability to invalidate refresh tokens by deleting them from the database. The short-expiry access token then reduces the duration of potential vulnerability.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
