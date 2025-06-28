@@ -8,6 +8,14 @@ This section contains a general overview of topics that you will learn in this l
 
 - Compare pros and cons of stateful and stateless approaches to authentication.
 
+### Stateful vs stateless
+
+Stateful authentication involves authentication data being stored server-side, such as in a session, while stateless authentication stores the data client-side, such as in a JWT. Why might one pick a stateless solution over a stateful one or vice versa?
+
+Stateless solutions reduce the amount of database calls needed per authenticated request, as a call is not needed to check the database for a matching session - the data is already there in the request and need only be verified. But is this actually a problem? At what point does this additional database call become a performance bottleneck in a stateful solution? While much larger products built with more complex architectures may well need to consider this, in all honesty, this is almost certainly not going to be an issue for many small projects, certainly not curriculum projects (and if it genuinely does, congratulations on the successful site!).
+
+But is there actually a negative to using something like JWTs for stateless authentication? Potentially: **authorization** and **invalidation**.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
