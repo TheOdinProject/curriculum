@@ -18,7 +18,7 @@ But is there actually a negative to using something like JWTs for stateless auth
 
 ### Authentication and authorization
 
-Back in the JWT lesson, we demonstrated authenticating a request by verifying the JWT then using the ID from the payload to query the databasse for user data. This was intentional in order to avoid using the JWT for authorization, that is, the JWT only told us who was making the request but did not contain any personal information or things like roles and permissions.
+Back in the JWT lesson, we demonstrated authenticating a request by verifying the JWT then using the ID from the payload to query the database for user data. This was intentional in order to avoid using the JWT for authorization, that is, the JWT only told us who was making the request but did not contain any personal information or things like roles and permissions.
 
 Imagine if Odin was demoted from "god" to "demigod". meaning he's no longer allowed to access the god-only section of Valhalla. If the JWT stored role information, that information is now **stale** yet it still exists. As long as Odin (or anyone) still has that JWT, they could fool anyone into thinking they were still a god and not a demigod! Ideally the database holds the source of truth for these things, and we query it only once we have verified who is making the request. While this is still a possibility when using sessions (e.g. storing permissions in the sessions themselves), at the very least session data is not stored client-side for anyone to see or take for themselves. This leads us straight into the next issue to address.
 
@@ -48,6 +48,7 @@ There are plenty of good and bad implementations of authentication out in the wi
 
 <div class="lesson-content__panel" markdown="1">
 
+<!-- codespell:ignore cryto -->
 1. Read ["Stop using JWT for sessions"](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/) for a breakdown of why the proposed benefits of JWTs (for essentially the same thing as sessions) may not be worth the complexities and potential vulnerabilities.
 1. Read another take on [avoiding JWTs to implement browser sessions](https://ianlondon.github.io/posts/dont-use-jwts-for-sessions/).
 
