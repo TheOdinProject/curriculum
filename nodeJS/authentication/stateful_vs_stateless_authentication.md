@@ -48,7 +48,6 @@ There are plenty of good and bad implementations of authentication out in the wi
 
 <div class="lesson-content__panel" markdown="1">
 
-<!-- codespell:ignore cryto -->
 1. Read ["Stop using JWT for sessions"](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/) for a breakdown of why the proposed benefits of JWTs (for essentially the same thing as sessions) may not be worth the complexities and potential vulnerabilities.
 1. Read another take on [avoiding JWTs to implement browser sessions](https://ianlondon.github.io/posts/dont-use-jwts-for-sessions/).
 
