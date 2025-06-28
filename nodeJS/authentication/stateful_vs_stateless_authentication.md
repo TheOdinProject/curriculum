@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Stateful vs stateless
 
-Stateful authentication involves authentication data being stored server-side, such as in a session, while stateless authentication stores the data client-side, such as in a JWT. Why might one pick a stateless solution over a stateful one or vice versa?
+Stateful authentication involves authentication data being stored server-side, such as in a session, while stateless authentication stores the data client-side, such as in a JWT. Why might one pick a stateless solution over a stateful one or vice versa, especially when you'll find many JWT tutorials online and various contrasting opinions across online forums?
 
 Stateless solutions reduce the amount of database calls needed per authenticated request, as a call is not needed to check the database for a matching session - the data is already there in the request and need only be verified. But is this actually a problem? At what point does this additional database call become a performance bottleneck in a stateful solution? While much larger products built with more complex architectures may well need to consider this, in all honesty, this is almost certainly not going to be an issue for many small projects, certainly not curriculum projects (and if it genuinely does, congratulations on the successful site!).
 
@@ -28,6 +28,8 @@ How do you invalidate a session, such as when a user logs out? You just delete t
 
 JWTs are much harder to invalidate. Say you generate one with a 2-day expiry and the client then logs out, deleting it from whatever storage medium was used. The client no longer has the token but since it's just text, anyone else who has that text could continue to use it and it will still be valid until expiry. This could have been obtained via any number of malicious attack methods, including [cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) and [cross-site request forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery), especially if the token is stored somewhere like in local storage. At the most basic level, a pesky sibling/roommate could have gone on your computer, opened devtools, then copied down the JWT value to use on their machine.
 
+The same applies to now-demigod Odin. His father Borr took away his "god" token but luckily, his brother Vili had a copy so now Odin can go around pretending to be a full-blown god again. Hence the lack of invalidation becomes a particular issue for stale data in tokens that may contain things like authorization data.
+
 Since the server does not store the tokens, it cannot directly invalidate them without changing the secret used to sign them, but then that will invalidate *every* users' tokens. Keeping a server-side list of revoked tokens would just make things stateful (almost like a more complex version of sessions), since every authenticated request must query that revocation list before verifying any tokens. Setting a super-short expiry time like a few minutes would definitely reduce how long a malicious actor could use a stolen JWT to wreak havoc, but then that'd ruin the user experience for everyone else if they could only stay logged in for a few minutes at a time (though of course this is sometimes an intended security feature, like with many banking websites).
 
 #### A hybrid approach
@@ -40,7 +42,7 @@ This comes with the benefit of not needing the additional database call for auth
 
 For the purposes of TOP projects going forward, stick to stateful authentication using sessions. None of this means stateless authentication or JWTs are inherently bad, only that for the purposes of projects in this curriculum, it's not really worth the additional complexity trying to implement a more secure stateless solution when you can use a stateful one instead. "Scaling" is only relevant in context, and curriculum projects or even many small personal projects are seldom going to get to the point where stateful solutions will be a genuine performance bottleneck that requires a stateless solution instead.
 
-There are plenty of good and bad implementations of authentication out in the wild, both stateful and stateless, hence it's good to be aware of the concepts and mechanisms. You may end up working with things in the future where stateless authentication (whether with JWTs or other types of tokens) makes perfect sense. As far as TOP projects are concerned though, that isn't so necessary.
+There are plenty of good and bad implementations of authentication out in the wild, both stateful and stateless, hence it's good to be aware of the concepts and mechanisms. You may end up working with things in the future where stateless authentication (whether with JWTs or other types of tokens) makes perfect sense. As far as TOP projects are concerned though, that isn't quite the case; simply put, our use case for authenticating requests from an SPA and separate server is one where stateful sessions are a very appropriate solution, more so than stateless JWTs.
 
 ### Assignment
 
