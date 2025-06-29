@@ -34,9 +34,9 @@ Since the server does not store the tokens, it cannot directly invalidate them w
 
 #### A hybrid approach
 
-As a result, some services implement a hybrid stateful+stateless approach, such as using two tokens: "access" and "refresh". The main JWT is the "access token" and has a very short expiry. The client also receives a second "refresh token", and *that* token is stored server-side (making it the stateful part). If the access token is still valid, it's used as normal. If it has expired, the server checks if the refresh token is valid. If it is, the server can generate a fresh access token for use, but if not, it can unauthorize the request.
+As a result, some services implement a hybrid stateful+stateless approach, such as using two tokens: "access" and "refresh". The main JWT is the "access token" and has a very short expiry. The client also receives a second "refresh token" with a much longer expiry, and *that* token is stored server-side (making it the stateful part). If the access token is still valid, it's used as normal. If it has expired, the server checks if the refresh token is valid. If it is, the server can generate a fresh access token for use, but if not, it can unauthorize the request.
 
-This comes with the benefit of not needing the additional database call for authentication data for any requests made with a valid access token, while retaining the ability to invalidate refresh tokens by deleting them from the database. The short-expiry access token then reduces the duration of potential vulnerability.
+This comes with the benefit of not needing the additional database call for authentication data for any requests made with a valid access token, and the long-expiry refresh token retains the longer login persistence for a better user experience. Since the refresh tokens can be invalidated by deleting them from the database, the short-expiry access token reduces the duration of potential vulnerability.
 
 ### Authentication and TOP projects
 
