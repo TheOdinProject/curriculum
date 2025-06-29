@@ -16,13 +16,13 @@ Stateless solutions reduce the amount of database calls needed per authenticated
 
 But is there actually a negative to using something like JWTs for stateless authentication? Potentially: **authorization** and **invalidation**.
 
-### Authentication and authorization
+#### Authentication and authorization
 
 Back in the JWT lesson, we demonstrated authenticating a request by verifying the JWT then using the ID from the payload to query the database for user data. This was intentional in order to avoid using the JWT for authorization, that is, the JWT only told us who was making the request but did not contain any personal information or things like roles and permissions.
 
 Imagine if Odin was demoted from "god" to "demigod". meaning he's no longer allowed to access the god-only section of Valhalla. If the JWT stored role information, that information is now **stale** yet it still exists. As long as Odin (or anyone) still has that JWT, they could fool anyone into thinking they were still a god and not a demigod! Ideally the database holds the source of truth for these things, and we query it only once we have verified who is making the request. While this is still a possibility when using sessions (e.g. storing permissions in the sessions themselves), at the very least session data is not stored client-side for anyone to see or take for themselves. This leads us straight into the next issue to address.
 
-### Invalidation
+#### Invalidation
 
 How do you invalidate a session, such as when a user logs out? You just delete the session from the database. Now no matter who has the old session ID, there won't be a matching session and so it's now invalid. Now how do you do it with something like a JWT? As per the JWT lesson, you'd delete the JWT from the client. But does that actually mean the JWT is no longer valid?
 
