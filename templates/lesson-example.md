@@ -17,7 +17,7 @@ The first important concept that you need to understand to be successful in CSS 
 
 <div class="lesson-note" markdown="1">
 
-#### Everything is a box
+#### Note: Everything is a box
 
 Every single thing on a webpage is a rectangular box. These boxes can have other boxes in them and can sit alongside one another.
 
