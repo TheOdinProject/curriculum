@@ -404,7 +404,9 @@ puts "This line won't run."
 ```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
   If you run a proc with a top level return in IRB, it will raise a `LocalJumpError`. This behavior is specific to the way the IRB process works though, and running it from a file will work as described above.
+
 </div>
 
 ### Similarities
