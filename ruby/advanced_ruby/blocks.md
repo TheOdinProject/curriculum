@@ -357,18 +357,7 @@ a_lambda.call
 # => 1
 ```
 
-A proc object, however, returns from the context in which it is called. If you are in the top level context (outside of a class or method), then you'll get an error because you can't return out of the very top level context, as there is no caller to return to.
-
-```ruby
-a_proc = Proc.new { return }
-
-a_proc.call
-# => localJumpError (unexpected return)
-```
-
-Note that if you try the above example on replit.com you won't get an error. This just has to do with how replit.com manages the context of code. If you try it in irb then you'll get the expected error.
-
-If you return from a proc inside a method, the method is the context in which it was called and therefore it returns from the method before any of the other code below it is executed.
+A proc object, however, returns from the "embracing method" (the method that *defines* the proc).
 
 ```ruby
 def my_method
@@ -381,6 +370,44 @@ end
 my_method
 #=> this line will be printed
 ```
+
+In this example, the proc is called inside the method that defines it. The result is to return from the method itself.
+
+Taking a look at a more complex example:
+
+```ruby
+def outer_method
+  a_proc = Proc.new { return }
+  puts "this line will be printed"
+
+  inner_method(a_proc)
+  puts "this line is never reached"
+end
+
+def inner_method(proc)
+  proc.call
+  puts "this line is also never reached"
+end
+
+outer_method
+#=> this line will be printed
+```
+
+Here the proc is passed to another method and that method calls it. When the `inner_method` calls the proc, it will return from the `outer_method`. This can potentially create confusing behavior where the code path is mysteriously jumping across different contexts, so if you want to define a block that uses `return` and pass it around to other methods, a lambda is likely a better choice.
+
+Note that defining a proc that uses `return` at the top level will just exit the program altogether:
+
+```ruby
+a_proc = Proc.new { return }
+
+a_proc.call
+
+puts "This line won't run."
+```
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+  If you run a proc with a top level return in IRB, it will raise a `LocalJumpError`. This behavior is specific to the way the IRB process works though, and running it from a file will work as described above.
+</div>
 
 ### Similarities
 
