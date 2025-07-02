@@ -22,18 +22,16 @@ Although you are familiar with how to write blocks in the context of enumerable 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is a block?
-- How is a block like a method?
-- What are the two ways to declare a block?
-- Why would you use a block instead of just creating a method?
-- What does `yield` do?
-- How do you pass arguments to a block from within a method?
-- How do you check whether a block was actually passed in?
-- What is a proc?
-- What is a lambda?
-- What's the difference between a proc and a block?
-- When would you use a proc instead of a block?
-- What's different between a lambda and a proc?
+- Explain what a block is.
+- Describe the similarities between blocks and methods.
+- Describe the two ways to declare a block.
+- Explain why you would decide to use a block instead of a method.
+- Explain `yield`.
+- Explain how arguments are passed to a block from within a method.
+- Explain how to check whether a block has been passed to a method.
+- Describe procs.
+- Describe lambdas.
+- Explain the differences and similarities between blocks, procs, and lambdas.
 
 ### Yield
 
