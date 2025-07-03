@@ -26,6 +26,18 @@ The edges are the valid knight moves between vertices. For example, from `[0,0]`
 
 While solving this problem, you don’t need to explicitly create a graph object with vertices and edges. Instead, you can think of the graph as implicit. The knight starts on a specific vertex, and the algorithm will dynamically explore all possible moves (edges) to other vertices (positions on the board) as it traverses the board.
 
+#### Helpful Concepts Before You Begin
+
+You’ve worked with BFS on binary trees in the previous lesson, but applying it on a chessboard (a grid) can feel like a big leap — and that’s totally normal!
+
+Here are some core ideas to keep in mind:
+
+- **Represent positions as coordinates**: Each square can be written as `[x, y]`, where both values range from 0 to 7.
+- **Use a queue**: Like in tree BFS, you’ll use a queue to keep track of the next positions to explore.
+- **Track visited positions**: Unlike trees, graphs can revisit the same position through different paths — so be sure to track visited positions to avoid loops or unnecessary repeats.
+
+Thinking of the board as a grid-based graph instead of a tree will help you apply BFS much more effectively here.
+
 ### Assignment
 
 Your task is to build a function `knightMoves` that shows the shortest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
