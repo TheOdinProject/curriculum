@@ -90,45 +90,6 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
-#### Fly.io
-
-- Fly.io uses a CLI tool for deployment.
-- Paid plans are available, with resource usage billed based on consumption at competitive rates. Free allowances are no longer offered.
-- Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
-
-##### Fly.io: Hobby Plan
-
-- Fly.io no longer offers the $5 free trial credit or the $5/month Hobby plan. However, the free resources previously included in the Hobby (now deprecated), Launch, and Scale plans are still honored for organizations that were on these plans before they were sunset.
-- New users must sign up with a credit card, and charges will apply immediately based on resource consumption.
-
-##### Fly.io: Links
-
-- [Fly.io's homepage](https://fly.io/)
-- [Fly.io documentation](https://fly.io/docs/)
-- [Guide: Official getting started with Rails on Fly.io guide](https://fly.io/docs/rails/getting-started/)
-- [Guide: GoRails video guide for deploying Rails applications to Fly.io](https://www.youtube.com/watch?v=6Zp9y8nF5rE&)
-
----
-
-#### Railway.app
-
-- Railway has a straightforward deployment process. You link to your project's GitHub repo.
-- Pay for what you use model.
-- $5 a month should be enough to host four applications.
-
-##### Railway.app: Free Plan
-
-- You get a free one-time grant of 5$ on their free trial, and the applications are never put to sleep when inactive.
-- However, the longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
-
-##### Railway.app: Links
-
-- [Railway homepage](https://railway.app/)
-- [Railway documentation](https://docs.railway.app/)
-- [Guide: Video guide for deploying Rails applications to Railway](https://www.youtube.com/watch?v=__1TadBZZUg)
-
----
-
 #### Render
 
 - Render allows you to deploy using "Blueprints", which link to your project's GitHub repo.
@@ -173,26 +134,42 @@ Can deploy both servers and databases.
 
 ---
 
-#### Neon
+#### Fly.io
 
-Can deploy databases only.
+- Fly.io uses a CLI tool for deployment.
+- Paid plans are available, with resource usage billed based on consumption at competitive rates. Free allowances are no longer offered.
+- Fly.io charges $0.15/GB of RootFS for machines stopped for 30 days.
 
-- 24/7 for your main database.
-- 20 additional hours of database branching.
-- Point-in-time restore (24 Hours)
-- No credit card required.
+##### Fly.io: Hobby Plan
 
-##### Neon: Free Plan
+- Fly.io no longer offers the $5 free trial credit or the $5/month Hobby plan. However, the free resources previously included in the Hobby (now deprecated), Launch, and Scale plans are still honored for organizations that were on these plans before they were sunset.
+- New users must sign up with a credit card, and charges will apply immediately based on resource consumption.
 
-- 0.5 GiB of storage
-- 24/7 for your main compute
-- No credit card required
+##### Fly.io: Links
 
-##### Neon: Links
+- [Fly.io's homepage](https://fly.io/)
+- [Fly.io documentation](https://fly.io/docs/)
+- [Guide: Official getting started with Rails on Fly.io guide](https://fly.io/docs/rails/getting-started/)
+- [Guide: GoRails video guide for deploying Rails applications to Fly.io](https://www.youtube.com/watch?v=6Zp9y8nF5rE&)
 
-- [Neon homepage](https://neon.tech/)
-- [Neon documentation](https://neon.tech/docs/introduction)
-- [Guide: Connect a Ruby on Rails application to Neon](https://neon.tech/docs/guides/ruby-on-rails)
+---
+
+#### Railway.app
+
+- Railway has a straightforward deployment process. You link to your project's GitHub repo.
+- Pay for what you use model.
+- $5 a month should be enough to host four applications.
+
+##### Railway.app: Free Plan
+
+- You get a free one-time grant of 5$ on their free trial, and the applications are never put to sleep when inactive.
+- However, the longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
+
+##### Railway.app: Links
+
+- [Railway homepage](https://railway.app/)
+- [Railway documentation](https://docs.railway.app/)
+- [Guide: Video guide for deploying Rails applications to Railway](https://www.youtube.com/watch?v=__1TadBZZUg)
 
 ---
 
@@ -237,6 +214,29 @@ Can deploy databases only.
 
 - [Aiven homepage](https://aiven.io/)
 - [Aiven documentation](https://aiven.io/docs/get-started)
+
+---
+
+#### Neon
+
+Can deploy databases only.
+
+- 24/7 for your main database.
+- 20 additional hours of database branching.
+- Point-in-time restore (24 Hours)
+- No credit card required.
+
+##### Neon: Free Plan
+
+- 0.5 GiB of storage
+- 24/7 for your main compute
+- No credit card required
+
+##### Neon: Links
+
+- [Neon homepage](https://neon.tech/)
+- [Neon documentation](https://neon.tech/docs/introduction)
+- [Guide: Connect a Ruby on Rails application to Neon](https://neon.tech/docs/guides/ruby-on-rails)
 
 ---
 
