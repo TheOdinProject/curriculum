@@ -160,10 +160,12 @@ Can deploy both servers and databases.
 - Pay for what you use model.
 - $5 a month should be enough to host four applications.
 
-##### Railway.app: Free Plan
+##### Railway.app: Free Trial
 
-- You get a free one-time grant of 5$ on their free trial, and the applications are never put to sleep when inactive.
-- However, the longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
+- One-time grant of $5 in credits that expire in 30 days.
+- The remaining balance carries over to a plan, if you decide to upgrade.
+- More complex apps with more traffic may consume all free credits before the 30 days.
+- Applications are never put to sleep when inactive.
 
 ##### Railway.app: Links
 
