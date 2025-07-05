@@ -161,6 +161,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is page navigation defined by Turbo Drive?](https://www.theodinproject.com/lessons/ruby-on-rails-turbo-drive#page-navigation)
 - [What is the default visit action that adds a new entry to the browser history?](#visit-action)
 - [How do you change the action of a Turbo Drive link?](#change-turbo-action)
+- [How do you disable Turbo Drive?](https://www.theodinproject.com/lessons/ruby-on-rails-turbo-drive#disable-turbo-drive)
 
 ### Additional resources
 
