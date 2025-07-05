@@ -329,5 +329,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
+- For a comprehensive guide to all types of method arguments in Ruby (including variable arguments, keyword arguments and block arguments), read [Ruby's Method Arguments](https://www.rubyguides.com/2018/06/rubys-method-arguments/) from Ruby Guides.
 - For a deeper look at methods, read the [Methods chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards Book of Ruby. Try to complete the exercises throughout the chapter.
 - Read this explanation on Stack Overflow about the [subtle differences between methods and functions, and how they can differ between programming languages](https://stackoverflow.com/questions/155609/difference-between-a-method-and-a-function).
