@@ -48,7 +48,7 @@ The application visit lifecycle can be summarized as:
 1.  Application visits begin when a user clicks a Turbo Drive enabled link (remember, Turbo Drive is enabled on links by default!).
 1.  An HTTP network request is issued. Turbo Drive receives it and will render the HTML.
 1.  If possible, Turbo Drive will use the browser's cache to render a preview of the page immediately after the visit begins, using the HTML for the previous visit of the same URL.
-1.  The browser history is updated to reflect this page navigation. The way it is changed is determined by the visit action.
+1.  <span id="visit-action">The browser history is updated to reflect this page navigation. The way it is changed is determined by the visit action.</span>
     * **Advance**: This is the default action and will result in a new entry being added to the browser history.
     * **Replace**: This action replaces the most recent browser history entry with the new location.
 
@@ -159,6 +159,7 @@ To reiterate, Turbolinks is the **predecessor** of Turbo, and **Turbo is not sho
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is page navigation defined by Turbo Drive?](https://www.theodinproject.com/lessons/ruby-on-rails-turbo-drive#page-navigation)
+- [What is the default visit action that adds a new entry to the browser history?](#visit-action)
 
 ### Additional resources
 
