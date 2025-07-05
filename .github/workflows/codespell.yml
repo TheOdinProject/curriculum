@@ -15,3 +15,4 @@ jobs:
             check_hidden: true
             skip: ./.git,*.png,*.csv,./archive,./legacy_submissions
             ignore_words_file: './.codespellignore'
+            uri_ignore_words_list: '*'
