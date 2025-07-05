@@ -167,7 +167,7 @@ class ClassInput extends Component {
       inputVal: "",
     };
   }
-  // Some more code goes here
+  // Some more beautiful code goes here
 
   render() {
     return (
