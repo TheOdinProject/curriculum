@@ -164,6 +164,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you disable Turbo Drive?](https://www.theodinproject.com/lessons/ruby-on-rails-turbo-drive#disable-turbo-drive)
 - [What is the HTTP status code that Turbo cannot handle?](#http-200)
 - [How do you require confirmation for a visit?](https://turbo.hotwired.dev/handbook/drive#requiring-confirmation-for-a-visit)
+- [How does Turbo speeds up perceived link navigation latency?](https://turbo.hotwired.dev/handbook/drive#prefetching-links-on-hover)
 
 ### Additional resources
 
