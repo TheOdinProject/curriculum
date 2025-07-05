@@ -52,7 +52,7 @@ The application visit lifecycle can be summarized as:
     * **Advance**: This is the default action and will result in a new entry being added to the browser history.
     * **Replace**: This action replaces the most recent browser history entry with the new location.
 
-To change the action of a Turbo Drive link, you can use data attributes inside of your Rails link tags
+<span id="change-turbo-action">To change the action of a Turbo Drive link, you can use data attributes inside of your Rails link tags</span>
 
 ~~~erb
 <%= link_to "Edit Article", edit_article_path(@article), data: { turbo_action: "replace" } %>
@@ -160,6 +160,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is page navigation defined by Turbo Drive?](https://www.theodinproject.com/lessons/ruby-on-rails-turbo-drive#page-navigation)
 - [What is the default visit action that adds a new entry to the browser history?](#visit-action)
+- [How do you change the action of a Turbo Drive link?](#change-turbo-action)
 
 ### Additional resources
 
