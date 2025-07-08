@@ -88,7 +88,7 @@ There is so much more to building a professional network, but this lesson should
 
 ### Additional Resources
 
-This section contains helpful links to other content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [How to use LinkedIn as a developer to get a job in tech](https://www.youtube.com/watch?v=SG5Sb5WTV_g)
 - [How to Network: a Guide for Remote Software Developers & Engineers](https://arc.dev/developer-blog/how-to-network-as-remote-developer/)
