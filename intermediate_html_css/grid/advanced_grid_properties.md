@@ -373,3 +373,4 @@ This section contains helpful links to related content. It isn't required, so co
 - If videos are more your speed, check out this video on [auto-fit and auto-fill](https://www.youtube.com/watch?v=qjJR3qYCd54) by Kevin Powell.
 - This video provides a [summary of CSS grid](https://www.youtube.com/watch?v=EiNiSFIPIQE) in a concise format.
 - Check out this beautiful [interactive guide to grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid).
+read through this also
