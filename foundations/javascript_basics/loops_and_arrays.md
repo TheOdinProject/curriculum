@@ -198,8 +198,9 @@ We will teach you the art of actually writing these tests later in the course. F
    - `Copy and sort array`
    - `Shuffle an array`
    - `Filter unique array members`
-1. Follow up by coding along to [JavaScript Array Cardio Practice - Day 1](https://www.youtube.com/watch?v=HB1ZC7czKRs) by Wes Bos. You will need to fork and clone the [JavaScript30 repository](https://github.com/wesbos/JavaScript30) for this. The code for this lesson is in the `04 - Array Cardio Day 1` folder inside the repo. Open the `index-START.html` file and follow along.
-1. Watch and code along with [Wes Bos' Array Cardio Day 2](https://www.youtube.com/watch?v=QNmRfyNg1lw). The code for this lesson is in the `07 - Array Cardio Day 2` folder. Again, open the `index-START.html` file and follow along.
+1. Fork and clone Wes Bos' [JavaScript30 repository](https://github.com/wesbos/JavaScript30). To follow along with these two video exercises, you'll want to open the `index-START.html` file.
+    - [04 - Array Cardio Day 1](https://www.youtube.com/watch?v=HB1ZC7czKRs)
+    - [07 - Array Cardio Day 2](https://www.youtube.com/watch?v=QNmRfyNg1lw)
 1. Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Data Types and Conditionals](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals) assignment. Review each README file prior to completing the following exercises in order:
     - `06_repeatString`
     - `07_reverseString`
