@@ -86,20 +86,26 @@ If you answered that the object counter would increase by 1, and the primitive c
 
 <div class="lesson-note" markdown="1">
 
-#### Reassigning object data type variables
-
-While mutating the object we have a reference to affects all other variables that reference it, reassigning a variable does not change what the other variables refer to. For example:
+#### Mutating the properties of an object vs. reassigning the object variables
+When you have multiple variables that reference the same object, mutating the properties of that object will affect all the variables that reference it. However, reassigning the object variable to a new object will only change the value of that specific variable, and will not affect the other variables that previously referenced the original object. For example:
 
 ```javascript
 let animal = { species: "dog" };
 let dog = animal;
 
-// reassigning animal variable with a completely new object
-animal = { species: "cat" };
+// Mutating the properties of the object that both 'animal' and 'dog' reference
+animal.species = "cat";
 
 console.log(animal); // { species: "cat" }
-console.log(dog); // { species: "dog" }
+console.log(dog); // { species: "cat" }
+
+// Reassigning the 'animal' variable to a new object
+animal = { species: "bird" };
+
+console.log(animal); // { species: "bird" }
+console.log(dog); // { species: "cat" }
 ```
+In the first part, when we modify the species property of the object that both `animal` and `dog` reference, the change is reflected in both variables. In the second part, when we reassign the `animal` variable to a new object, the `dog` variable still references the original object, while `animal` now points to the new object.
 
 </div>
 
