@@ -445,7 +445,7 @@ If we had data in the parent element, such as a state, that we wanted to pass to
 
 Outlets have a `context` prop built in. We can pass any value we want into this prop, even an array or object. Inside *any* component that would be rendered within that outlet (even "grandchild" components), we can call the `useOutletContext()` hook which will return whatever we passed into that context prop. If we passed in an array or object, we could even destructure it!
 
-Take a look at React Router's [documentation on `useOutletContext`](https://reactrouter.com/en/main/hooks/use-outlet-context) to learn more about how to pass context through an outlet and access that context in child components.
+Take a look at React Router's [documentation on `useOutletContext`](https://reactrouter.com/6.30.1/hooks/use-outlet-context) to learn more about how to pass context through an outlet and access that context in child components.
 
 ### Protected routes and navigation
 
