@@ -160,8 +160,7 @@ git config --global pull.rebase false
 To verify that things are working properly, enter these commands and verify whether the output matches your name and email address.
 
 ```bash
-git config --get user.name
-git config --get user.email
+git config --list
 ```
 
 <div class="lesson-note" markdown="1">
