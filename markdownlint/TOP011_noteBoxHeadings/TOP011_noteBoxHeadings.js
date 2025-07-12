@@ -1,33 +1,62 @@
+function isNoteBoxOpenTag(token) {
+  return token?.type === "html_block" && token?.content.includes("lesson-note");
+}
+
+function lacksHeading(token, index, tokens) {
+  return isNoteBoxOpenTag(token) && tokens[index + 1]?.type !== "heading_open";
+}
+
+function getNoteBoxHeadings(headings, currentToken, index, tokens) {
+  const previousToken = tokens[index - 1];
+  if (
+    currentToken.type !== "heading_open" ||
+    !isNoteBoxOpenTag(previousToken)
+  ) {
+    return headings;
+  }
+
+  headings.push({
+    text: currentToken.line,
+    hashes: currentToken.markup,
+    lineNumber: currentToken.lineNumber,
+  });
+  return headings;
+}
+
 module.exports = {
   names: ["TOP011", "note-box-headings"],
   description: "Note boxes have appropriate headings",
   information: new URL(
-    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md"
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md",
   ),
   tags: ["headings"],
   parser: "markdownit",
   function: function TOP011(params, onError) {
-    const noteBoxHeadings = params.parsers.markdownit.tokens.filter((token, index, tokens) => {
-      const previousToken = tokens[index - 1];
+    const { tokens } = params.parsers.markdownit;
+    const noteBoxesWithoutHeadings = tokens.filter(lacksHeading);
+    const noteBoxHeadings = tokens.reduce(getNoteBoxHeadings, []);
 
-      const isFollowingNoteBoxOpening =
-        previousToken?.line?.startsWith("<div ") && previousToken.line.includes("lesson-note");
-      return token.type === "heading_open" && isFollowingNoteBoxOpening;
+    noteBoxesWithoutHeadings.forEach((noteBox) => {
+      onError({
+        lineNumber: noteBox.lineNumber,
+        detail:
+          "Note box is missing a heading. Note boxes must start with a level 4 heading (####).",
+      });
     });
 
     noteBoxHeadings.forEach((heading) => {
-      const headingHashes = heading.markup;
-      if (headingHashes.length === 4) {
+      if (heading.hashes.length === 4) {
         return;
       }
 
-      const headingText = heading.line.slice(headingHashes.length + 1);
+      const hashesStartColumn = heading.text.indexOf(heading.hashes) + 1;
+
       onError({
         lineNumber: heading.lineNumber,
-        detail: `\n  Expected: #### ${headingText}\n  Actual: ${headingHashes} ${headingText}\n`,
+        detail: `Expected a level 4 heading (####) but got a level ${heading.hashes.length} heading (${heading.hashes}) instead.`,
         fixInfo: {
-          editColumn: 1,
-          deleteCount: headingHashes.length,
+          editColumn: hashesStartColumn,
+          deleteCount: heading.hashes.length,
           insertText: "####",
         },
       });
