@@ -31,6 +31,11 @@ To help enforce the layout specified in our layout style guide, we use [markdown
     - Lint projects: `npm run lint:project -- "./path/to/project"`
     - Autofix projects: `npm run fix:project -- "./path/to/project"`
 
-In some cases, you may need to run a fix script more than once to catch and fix all fixable errors. This typically occurs when a line has multiple errors affecting the same parts and fix actions collide, so Markdownlint only applies some of the fixes.
+> [!IMPORTANT]
+> npm scripts always run from the root of the curriculum repo (the same location as this file and `package.json`). Therefore, you *must* provide the full lesson/project file path relative to the repo root, even if your terminal is inside a subdirectory (such as the same directory as the lesson file).
 
-With either of these two methods, keep in mind that not all issues that get flagged will have an autofix available. Some rules require fixes that are more dependent on context and cannot - and should not - be automatically fixed, such as our custom rule `TOP001` for descriptive link text.
+> [!TIP]
+> In some cases, you may need to run a fix script more than once to catch and fix all fixable errors. This typically occurs when a line has multiple errors affecting the same parts and fix actions collide, so Markdownlint only applies some of the fixes.
+
+> [!NOTE]
+> With either of these two methods, keep in mind that not all issues that get flagged will have an autofix available. Some rules require fixes that are more dependent on context and cannot - and should not - be automatically fixed, such as our custom rule `TOP001` for descriptive link text.

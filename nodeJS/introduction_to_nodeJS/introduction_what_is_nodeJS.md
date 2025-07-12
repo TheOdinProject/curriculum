@@ -19,7 +19,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The [Node.js website](https://nodejs.org/en/about/) declares:
 
-> <span id="what-is-node">As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.</span>
+> As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications.
 
 This is a definition that requires a little unpacking.
 
@@ -62,15 +62,19 @@ http.createServer(function (req, res) {
 
 This snippet is from the very first lesson in a tutorial that you'll be following very soon. Basically this code is creating a server and saying, "any time we get a network request, run this callback function". This function happens to respond with the text 'Hello World!'. So if you go to a browser and navigate to the correct address and port, you would see that text on your screen.
 
-### A word of advice
+<div class="lesson-note" markdown="1">
 
-While you may have learned React (or any other frontend framework) before, either of your own volition or earlier in the path, it is not recommended to use it for this course right away. There are many topics that you must learn before you can combine these frameworks effectively. As you move forward through the Node course, you will learn more about how to integrate Node APIs with frontend frameworks. You should follow the course as it is written; deviating from the directions can make it more difficult than it needs to be. Your time spent learning those frameworks will not be wasted, don't worry!
+#### Using React in the Node.js course
+
+We will start by focusing on server-side concepts, so client-side things like React will be left for later when you start combining more complex frontends and backends together. You should follow the course as it is written; deviating from the directions can make it more difficult than it needs to be.
+
+</div>
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. This [short module on "The Server Side" from MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps) is a great source for the background knowledge you need. Read through at least the first two articles posted under the 'Guides' section: Introduction to the server side and Client-Server Overview. The other two are interesting and worth reviewing, but less relevant to our immediate concerns.
+1. This [short module on "The Server Side" from MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps) is a great source for the background knowledge you need. Read through at least the first two articles posted under the 'Tutorials' section: Introduction to the server side and Client-Server Overview. The other two are interesting and worth reviewing, but less relevant to our immediate concerns.
 1. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read this [article about NodeJS](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5).
 1. What is the Node Event Loop? You may remember about this long, but *really* [fantastic video about event loops](https://www.youtube.com/watch?v=8aGhZQkoFbQ) from an earlier part of the course... don't skip it!
 1. Take a few minutes to go through the "Getting Started" section of the new official [Node.js website](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs). Read up until, but not including, the TypeScript module.

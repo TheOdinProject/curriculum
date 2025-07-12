@@ -1,8 +1,9 @@
-<!-- markdownlint-disable MD024 MD043 -->
+<!-- TODO: Revisit lesson/heading structure to remove need to disable rules -->
+<!-- markdownlint-disable MD024 TOP004 -->
 
 ### Introduction
 
-If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system and have **Google Chrome** as an installed browser, you can skip this lesson. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
+If you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system and have **Google Chrome** as an installed browser, you can skip this lesson. Otherwise, click on the small arrow to the left of the method you would like to use below to expand that section, and then follow the installation instructions.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
@@ -34,7 +35,7 @@ This section contains a general overview of topics that you will learn in this l
 
 #### IMPORTANT
 
-This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device. You only need to follow one of these sets of instructions or none of them if you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system.
+This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device. You only need to follow one of these sets of instructions or none of them if you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system.
 
 Pick your method of installation below:
 
@@ -66,7 +67,7 @@ There are thousands of distributions of Linux out there, but Xubuntu is undoubte
 
 #### Step 2.1: Install VirtualBox
 
-Installing VirtualBox is very straightforward. It doesn’t require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded VirtualBox file will start the installation process. If you receive an error about needing Microsoft Visual C++ 2019 Redistributable Package, you can find it on [official Microsoft Learn page](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). You most likely want the version with `X64` Architecture (that means 64-bit) - download and install it then try installing VirtualBox again.
+Installing VirtualBox is very straightforward. It doesn’t require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded VirtualBox file will start the installation process. If you receive an error about needing Microsoft Visual C++ 2019 Redistributable Package, you can find it on the [official Microsoft Learn page](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). You most likely want the version with `X64` Architecture (that means 64-bit) - download and install it then try installing VirtualBox again.
 
 During the installation, you’ll be presented with various options. We suggest dropping the Python Support as you don't need it by clicking on the drive icon with an arrow and choosing **Entire feature will be unavailable**:
 
@@ -105,7 +106,7 @@ You want to tick the **Guest Additions** and **Install in Background** options a
 
 In the **Hardware** section of the installation you want to set your **Base Memory** to at least 2048 MB or more if possible - the upper limit is half of your total RAM but 4096 MB with the settings we recommend should give you a smooth experience.
 
-> For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. You can google how to find out how much RAM you have available if you do not know this already. If the VM runs a bit slow, try allocating more memory!
+> For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. You can Google how to find out how much RAM you have available if you do not know this already. If the VM runs a bit slow, try allocating more memory!
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -196,10 +197,16 @@ After `sudo apt upgrade` runs for a while you will be asked whether you want to 
 
 ### Step 4: Understand your new VM
 
+#### Step 4.1: Close TOP in the Windows browser and open the website in your VM
+
+From now on, stick with The Odin Project (TOP) website within your VM and follow the Linux instructions provided. The curriculum will often require you to copy and paste code between the lesson and your coding space, as well as the terminal. This won't work smoothly if you switch between the VM and Windows because they are entirely separate environments.
+
+**Remember:** For the remainder of the TOP curriculum, refer to the Linux instructions only.
+
 Here are some tips to help you get started in a virtual environment:
 
 - Enable the toolbar in your VM settings - there are useful options there that you might want to play around with, especially the ones concerning full screen or multiple displays. To do so, click on **Settings** and then navigate to **User Interface** and finally tick **Show at Top of Screen**.
-    ![It's a good idea to look around the settings overall to get a feel of what's possible.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/16_toolbar.png)
+  ![It's a good idea to look around the settings overall to get a feel of what's possible.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/16_toolbar.png)
 - All your work should happen in the VM. You will install everything you need for coding, including your text editor, language environments and various tools inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed but we'll be installing Chrome shortly.
 - To install software on your VM, you will follow the Linux (Ubuntu) installation instructions from inside the Xubuntu VM.
 - You might need to take screenshots when asking for help on our Discord, here's how depending on where you use it:
@@ -211,7 +218,7 @@ Here are some tips to help you get started in a virtual environment:
 
 #### Frequent issues/questions
 
-- If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
+- If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** in VirtualBox and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
 - Running out of space? Look at these [instructions for increasing VM disk space from the TOP Discord server](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
 - Are you using a touchscreen? [Watch a video on how to enable touchscreen controls for VirtualBox](https://www.youtube.com/watch?v=hW-iyHHoDy4).
 
@@ -314,7 +321,7 @@ Once you have successfully met both of these requirements, you should be able to
 
 <summary class="dropDown-header">WSL2 (Advanced)</summary>
 
-Using WSL2 is an quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
+Using WSL2 is a quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
 
 To make it clear: you are going to be using a different OS, this is not a way to avoid using Linux. Due to how WSL2 is integrated with Windows it often causes significant confusion to new learners. Use the Virtual Machine if you want a clear separation between your Windows and Linux so the curriculum is easier to follow.
 
@@ -403,9 +410,9 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 <div class="lesson-note" markdown="1">
 
-### Copy and paste keyboard shortcuts
+#### Copy and paste keyboard shortcuts
 
-You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste something doesn't work in the terminal. In order to paste your text input into your terminal you can use: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> keyboard shortcut combination, instead. It is also  very handy to know that the: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd>  keyboard combination will copy any highlighted text from your terminal, which can then be pasted later.
+You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <kbd>V</kbd> to paste something doesn't work in the terminal. In order to paste your text input into your terminal you can use: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> keyboard shortcut combination, instead. It is also very handy to know that the: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> keyboard combination will copy any highlighted text from your terminal, which can then be pasted later.
 
 </div>
 
@@ -413,9 +420,9 @@ You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <
 
 - Enter the following command in your terminal to install **Google Chrome** `.deb` package
 
-    ```bash
-    sudo apt install ./google-chrome-stable_current_amd64.deb
-    ```
+  ```bash
+  sudo apt install ./google-chrome-stable_current_amd64.deb
+  ```
 
 - Enter your password, if needed
 
@@ -423,11 +430,11 @@ You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <
 
 #### A note on typing passwords in the terminal
 
-  When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
 
-  This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
+This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
-  You can still enter your password as normal and press Enter to submit it.
+You can still enter your password as normal and press Enter to submit it.
 
 </div>
 
@@ -495,6 +502,8 @@ Chrome is going to use this terminal to output various messages and won't let yo
 
 <summary class="dropDown-header">WSL2</summary>
 
+WSL does not have a graphical user interface (GUI) like Windows, so this step will guide you through installing Google Chrome for Windows instead. Later on, we'll cover how you can use the Windows installed Chrome to preview your work that lives within WSL.
+
 #### Step 1: Download Google Chrome
 
 - Visit [Google Chrome download page](https://www.google.com/chrome/).
@@ -503,17 +512,17 @@ Chrome is going to use this terminal to output various messages and won't let yo
 #### Step 2: Install Google Chrome
 
 - Open the **Downloads** folder.
-- Double click the file **ChromeSetup.exe**.
+- Double click the file **ChromeSetup.exe** to start the install.
 
-#### Step 3: Delete the installer file
+#### Step 3: Using Google Chrome
+
+- Search for **Google Chrome** in your Start Menu.
+- Click **Google Chrome** to start the application.
+
+#### Optional: Delete the installer file
 
 - Open the **Downloads** folder.
-- Drag **ChromeSetup.exe** to the trash.
-
-#### Step 4: Using Google Chrome
-
-- Search for **Google Chrome** in your applications.
-- Double click **Google Chrome**.
+- Select the **ChromeSetup.exe** file and hit the Delete key, or drag it the Recycling Bin.
 
 </details>
 

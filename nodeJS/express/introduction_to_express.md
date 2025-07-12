@@ -32,14 +32,16 @@ const app = express();
 app.get("/", (req, res) => res.send("Hello, world!"));
 
 const PORT = 3000;
-app.listen(PORT, () => console.log(`My first Express app - listening on port ${PORT}!`));
+app.listen(PORT, () => {
+  console.log(`My first Express app - listening on port ${PORT}!`);
+});
 ```
 
 Let's break this down. We import `express` then call it to initialize the `app` variable. This is our server.
 
 We then have a `route` - the line beginning with `app.get`. We will come back to this in a moment.
 
-Finally, we tell our server to listen for incoming requests requests on whatever port we specify in our  of our [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged.
+Finally, we tell our server to listen for incoming requests on whatever port we specify, via [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged.
 
 Congratulations! Your first Express server is now running.
 
@@ -65,7 +67,7 @@ Whenever you navigate to any web URL this way, this is essentially what you are 
 
 Once you navigate to `http://localhost:3000/`, you should see `Hello, world!` appear in the window. Magic, right?
 
-When our server receives our `GET` request, Express stores the request in a [request object](https://expressjs.com/en/4x/api.html#req). This request gets passed through a chain of functions we call `middleware functions` until eventually, a middleware function tells Express to respond to the request.
+When our server receives our `GET` request, Express stores the request in a [request object](https://expressjs.com/en/api.html#req). This request gets passed through a chain of functions we call `middleware functions` until eventually, a middleware function tells Express to respond to the request.
 
 In our example, the request comes through as a `GET` request to the `/` path. This matches the route we have in our `app.js` file.
 
@@ -73,25 +75,25 @@ In our example, the request comes through as a `GET` request to the `/` path. Th
 app.get("/", (req, res) => res.send("Hello, world!"));
 ```
 
-We will discuss routes in more detail in a later lesson, but to summarise the above line, it tells Express: "if a `GET` request comes through to the `/` path, pass the request through the following chain of middleware functions". Here, we only have a single function.
+We will discuss routes in more detail in a later lesson, but to summarize the above line, it tells Express: "if a `GET` request comes through to the `/` path, pass the request through the following chain of middleware functions". Here, we only have a single function.
 
 If we had defined multiple routes, Express would pass the request through the first route that matched the requested HTTP verb (e.g. `GET`) and path (`/`). The order of the routes matters!
 
-Express takes the callback function we gave it and passes the request object into the first parameter (conventionally named `req`), and a [response object](https://expressjs.com/en/4x/api.html#res) into the second parameter (`res`). Our callback tells the response object to respond to the request by `.send`ing the string `"Hello, world!"`.
+Express takes the callback function we gave it and passes the request object into the first parameter (conventionally named `req`), and a [response object](https://expressjs.com/en/api.html#res) into the second parameter (`res`). Our callback tells the response object to respond to the request by sending (via `res.send`) the string `"Hello, world!"`.
 
 There is no more code to run and the function returns. Since Express has been told to respond to the request, it ends the request-response cycle. Meanwhile, the browser receives our server's response and displays it on screen, which is our `"Hello, world!"` string. We could send nearly anything in our response. We could even [tell Express to send a file](https://expressjs.com/en/api.html#res.sendFile).
 
 ### Auto-restarting your server upon file changes
 
-When you run your server with `node app.js`, any changes to any JavaScript and JSON files in your project directory won't be reflected automatically unless you manually interrupt and rerun `node app.js`. To avoid this manual process, you can use [Node's watch mode](https://nodejs.org/docs/latest-v20.x/api/cli.html#--watch) by adding the `--watch` flag, e.g. `node --watch app.js`. Node will watch `app.js` for changes, as well as any of the files it depends on. When it detects a change, it will automatically restart the server just like with Webpack and Vite's dev servers.
+When you run your server with `node app.js`, any changes to any JavaScript and JSON files in your project directory won't be reflected automatically unless you manually interrupt and rerun `node app.js`. To avoid this manual process, you can use [Node's watch mode](https://nodejs.org/docs/latest-v20.x/api/cli.html#--watch) by adding the `--watch` flag, e.g. `node --watch app.js`. Node will watch `app.js` for changes, as well as any of the files it ultimately depends on. When it detects a change, it will automatically restart the server just like with Webpack and Vite's dev servers.
 
-You may also come across [Nodemon](https://www.npmjs.com/package//nodemon), a highly configurable package that could also watch for changes and restart your server for you. Node didn't always have a stable built-in watch mode, so you're likely to see Nodemon around the place. Our recommendation would be to stick with Node's built in watch mode via the `--watch` flag, as this would be by far the simplest method.
+You may also come across [Nodemon](https://www.npmjs.com/package//nodemon), a highly configurable package that can also watch for changes and restart your server for you. Node didn't always have a stable built-in watch mode, so you're likely to see Nodemon around the place. Our recommendation would be to stick with Node's built in watch mode via the `--watch` flag, as this would be by far the simplest method.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Spend a few minutes exploring the [Express documentation](https://expressjs.com/en/4x/api.html) to get a feel for things. We will be referencing a lot of content from the docs in the coming lessons.
+1. Spend a few minutes exploring the [Express documentation](https://expressjs.com/en/api.html) to get a feel for things. We will be referencing a lot of content from the docs in the coming lessons.
 1. Go back to your [Basic Informational Site project](https://www.theodinproject.com/lessons/nodejs-basic-informational-site), install Express and rewrite the project using it! You should be able to do most of this with just a few `app.get()`s.
 
 </div>

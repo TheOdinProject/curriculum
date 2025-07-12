@@ -6,7 +6,7 @@ HTML (HyperText Markup Language) defines the structure and content of webpages. 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Explain what HTML Tags are.
+- Explain what HTML tags are.
 - Explain what HTML elements are.
 
 ### Elements and tags
@@ -45,7 +45,7 @@ You might also see these referred to as self-closing tags. But those are just vo
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Watch Kevin Powell's [Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA).
+1. Watch Kevin Powell's [HTML & CSS for Absolute Beginners: What is HTML?](https://www.youtube.com/watch?v=X4sClFRMJ00).
 
 </div>
 
@@ -60,4 +60,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Don't Fear the Internet's video about HTML](http://www.dontfeartheinternet.com/02-html)
+- [Don't Fear the Internet's video about HTML](https://player.vimeo.com/video/24549728)

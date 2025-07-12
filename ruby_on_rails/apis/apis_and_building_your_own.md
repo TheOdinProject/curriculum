@@ -2,7 +2,7 @@
 
 Working with APIs is awesome and frustrating at the same time.  On the one hand, interfacing with other applications out there can greatly improve the reach and "cool factor" of your own app.  On the other, it involves lots of reading through documentation, figuring out authentication strategies, and parsing bad (or nonexistent) error messages.
 
-Backing up, if you're still unclear on what an API (Application Programming Interface) basically is, [read this FCC explanation](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/) and then [read the first bit of this article](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) to catch up.
+Backing up, if you're still unclear on what an API (Application Programming Interface) basically is, [FreeCodeCamp explains what APIs are](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/). [Dave Roos' summary of APIs](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) is also a good way to catch up.
 
 "API" is an incredibly broad concept -- any time your application talks to another application, that's via some sort of API.  The components within your own application, e.g. the different pieces of Rails, also talk to each other via APIs... they are more or less independent sub-applications that pass along the data they each need to complete their particular task.  Everything's an API in application-land!
 
@@ -39,17 +39,17 @@ If you want your Rails app to return JSON instead of HTML, you need to tell your
 
 You can see which file type Rails thinks you want by checking your server log:
 
-~~~bash
+```bash
   Started GET "/posts/new" for 127.0.0.1 at 2013-12-02 15:21:08 -0800
   Processing by PostsController#new as HTML
-~~~
+```
 
 The first line tells you which URL was requested and the second tells you where it's going and how Rails is processing it.  If you use a `.json` extension, it looks like:
 
-~~~bash
+```bash
   Started GET "/posts.json" for 127.0.0.1 at 2013-12-04 12:02:01 -0800
   Processing by PostsController#index as JSON
-~~~
+```
 
 If you've got a sample application running, try going to different URLs.  If your controller isn't ready for them, you may get an error, but you should be able to see what Rails thinks you're asking for.
 
@@ -57,7 +57,7 @@ If you've got a sample application running, try going to different URLs.  If you
 
 Once you've decided that you want to respond to a request for JSON or XML, you need to tell your controller to render JSON or XML instead of HTML.  The way to do so is by using the `#respond_to` method:
 
-~~~ruby
+```ruby
   class UsersController < ApplicationController
 
     def index
@@ -71,7 +71,7 @@ Once you've decided that you want to respond to a request for JSON or XML, you n
     end
 
   end
-~~~
+```
 
 In this case, `#respond_to` passes the block a format object, to which you can attach the appropriate rendering call.  If you do nothing, HTML will render using the default Rails template as normal (in this case, `app/views/index.html.erb`).
 
@@ -89,7 +89,7 @@ In the old days, you'd just overwrite your own version of `#to_json` but these d
 
 In our case, we'll do this by modifying `#as_json` in our model to return only the attributes we want:
 
-~~~ruby
+```ruby
   # app/models/user.rb
   class User < ActiveRecord::Base
 
@@ -104,11 +104,11 @@ In our case, we'll do this by modifying `#as_json` in our model to return only t
     end
     
   end
-~~~
+```
 
 In our controller, we then just need to render JSON as normal (in the example below, it will just always return JSON, whether it's an HTML request or not):
 
-~~~ruby
+```ruby
   # app/controllers/users_controller.rb
   class UsersController < ApplicationController
 
@@ -117,7 +117,7 @@ In our controller, we then just need to render JSON as normal (in the example be
     end
     
   end
-~~~
+```
 
 Note that you don't need to call `#to_json` yourself when using `#render`... it will do it for you.
 
@@ -125,10 +125,10 @@ See the [as_json documentation](https://api.rubyonrails.org/classes/ActiveModel/
 
 #### Rendering nothing or errors
 
-Sometimes you just want to send out an HTTP error code without any response body. [Rails guides](https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses) once again comes in really handy with an elegant solution for this problem. 
+Sometimes you just want to send out an HTTP error code without any response body. [Rails guides](https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses) once again comes in really handy with an elegant solution for this problem.
 Here's an example (again we are just rendering the error in all cases):
 
-~~~ruby
+```ruby
   # app/controllers/users_controller.rb
   class UsersController < ApplicationController
  
@@ -137,14 +137,13 @@ Here's an example (again we are just rendering the error in all cases):
     end
     
   end
-~~~
-
+```
 
 #### Creating dynamic error pages
 
-You can create your own error pages. See [this post](https://web-crunch.com/posts/custom-error-page-ruby-on-rails).
+You can [create your own error pages](https://web-crunch.com/posts/custom-error-page-ruby-on-rails).
 
-Sometimes Heroku can require additional steps to properly display your error pages.  See [their error page docs here](https://devcenter.heroku.com/articles/error-pages).  You might need to delete the static pages in the `app/public` directory first.
+Sometimes Heroku can require additional steps to properly display your error pages, as per the [Heroku error page docs](https://devcenter.heroku.com/articles/error-pages).  You might need to delete the static pages in the `app/public` directory first.
 
 #### External facing security
 
@@ -168,7 +167,7 @@ It's usually a good idea to strive to keep independent pieces of your applicatio
 
 Using an SOA architecture for your whole application is sort of like breaking up a giant and complicated Ruby script into nice neat classes and methods, just on a broader scale.
 
-One of the best known cases of switching to a service-oriented architecture was Amazon.com.  Sometime in 2002, Jeff Bezos basically dictated that every group would switch to SOA or be fired.  An [infamous blog post](https://gist.github.com/chitchcock/1281611) from a Google Employee, accidentally released to the public instead of staying internal to the company, talked about Amazon's strength with SOA.  It's a great read so check it out, but the basics of Bezos' email are, as quoted from the post:
+One of the best known cases of switching to a service-oriented architecture was Amazon.com.  Sometime in 2002, Jeff Bezos basically dictated that every group would switch to SOA or be fired. An infamous blog post from a Google Employee, accidentally released to the public instead of staying internal to the company, talked about [Amazon's strength with SOA](https://gist.github.com/chitchcock/1281611).  It's a great read so check it out, but the basics of Bezos' email are, as quoted from the post:
 
 1. All teams will henceforth expose their data and functionality through service interfaces.
 1. Teams must communicate with each other through these interfaces.
@@ -177,7 +176,7 @@ One of the best known cases of switching to a service-oriented architecture was 
 1. All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.
 1. Anyone who doesn't do this will be fired.
 
-SOA is a big deal.  There are certainly a lot of issues that crop up when you're using it -- see [this post on Amazon's "lessons learned"](http://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/) -- but it ultimately has a lot of benefit.
+SOA is a big deal.  There are certainly a lot of issues that crop up when you're using it -- see this post on [Amazon's “lessons learned”](http://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/) -- but it ultimately has a lot of benefit.
 
 You probably won't be worrying too much about SOA while building "toy" applications for yourself but it will certainly come up if you find yourself working at a tech company and it's a good principle to become familiar with.
 
@@ -192,31 +191,32 @@ In the next lesson, we'll cover working with other people's APIs, which can add 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Read the [Rails Guide on Controllers](https://guides.rubyonrails.org/action_controller_overview.html#rendering-xml-and-json-data) section 7 to learn about rendering JSON and XML.
-  2. They are not required viewing (because they get a bit deeper than we're scoped for), but if you're interested, go check out the Railscasts in the Additional Resources section at the bottom of this lesson for more API goodness.
+
+  1. Read the [Rails Guide on Controllers](https://guides.rubyonrails.org/v7.2/action_controller_overview.html#rendering) section 7 to learn about rendering JSON and XML.
+  1. They are not required viewing (because they get a bit deeper than we're scoped for), but if you're interested, go check out the Railscasts in the Additional Resources section at the bottom of this lesson for more API goodness.
+
 </div>
 
 ### Knowledge check
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#http-request-format">How does Rails know which type of file you are expecting back when you make an HTTP request?</a>
-- <a class="knowledge-check-link" href="#rendering-json-or-xml">What is the purpose of the `#respond_to` method?</a>
-- <a class="knowledge-check-link" href="#specifying-attributes-to-return">How do you return a User object but specify that you don't want to include certain attributes (i.e. you can't just return `User.first`)?</a>
-- <a class="knowledge-check-link" href="#to-json-steps">What are the two steps performed behind the scenes by the `#to_json` method?</a>
-- <a class="knowledge-check-link" href="https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses">How do you tell a controller action to render nothing but an error message?</a>
-- <a class="knowledge-check-link" href="https://web-crunch.com/posts/custom-error-page-ruby-on-rails">How do you build your own custom error messages?</a>
-- <a class="knowledge-check-link" href="#api-tokens">Why can't you use session-based controller authentication methods if you want people to access your API programmatically?</a>
-- <a class="knowledge-check-link" href="#service-oriented-architecture-soa">What is "Service Oriented Architecture?</a>
+- [How does Rails know which type of file you are expecting back when you make an HTTP request?](#http-request-format)
+- [What is the purpose of the `#respond_to` method?](#rendering-json-or-xml)
+- [How do you return a User object but specify that you don't want to include certain attributes (i.e. you can't just return `User.first`)?](#specifying-attributes-to-return)
+- [What are the two steps performed behind the scenes by the `#to_json` method?](#to-json-steps)
+- [How do you tell a controller action to render nothing but an error message?](https://guides.rubyonrails.org/layouts_and_rendering.html#using-head-to-build-header-only-responses)
+- [How do you build your own custom error messages?](https://web-crunch.com/posts/custom-error-page-ruby-on-rails)
+- [Why can't you use session-based controller authentication methods if you want people to access your API programmatically?](#api-tokens)
+- [What is "Service Oriented Architecture?](#service-oriented-architecture-soa)
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Watch [this free Railscast on making your App into an API](http://railscasts.com/episodes/348-the-rails-api-gem)
-- Watch [this free Railscast on securing your API](http://railscasts.com/episodes/352-securing-an-api)
-- Watch [this free Railscast on versioning your API](http://railscasts.com/episodes/350-rest-api-versioning)
+- Watch this free [Railscast on making your App into an API](http://railscasts.com/episodes/348-the-rails-api-gem)
+- Watch this free [Railscast on securing your API](http://railscasts.com/episodes/352-securing-an-api)
+- Watch this free [Railscast on versioning your API](http://railscasts.com/episodes/350-rest-api-versioning)
 - [GoRails #162 Our First API](https://www.gorails.com/episodes/our-first-api)
-- [Building a public-facing API using view templates instead of `#to_json`](http://blog.codepath.com/2011/05/16/if-youre-using-to_json-youre-doing-it-wrong/)
 - [`to_json` or `as_json` by Jonathan Julian](http://jonathanjulian.com/2010/04/rails-to_json-or-as_json/) gives specific examples of digging into the `as_json` method.
 - [Service Oriented Architecture Explained](https://www.youtube.com/watch?v=7s_S5Hkm7z0)

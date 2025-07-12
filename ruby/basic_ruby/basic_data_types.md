@@ -1,6 +1,6 @@
 ### Introduction
 
-Ruby is a strongly object-oriented language, which means that absolutely everything in Ruby is an object, even the most basic data types. We'll start here with four of Ruby's basic data types: numbers (integers and floats), strings, symbols, and Booleans (`true`, `false`, and `nil`).
+Ruby is very object-oriented, which means that absolutely everything in Ruby is an object, even the most basic data types. We'll start here with four of Ruby's basic data types: numbers (integers and floats), strings, symbols, and Booleans (`true`, `false`, and `nil`).
 
 For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
 
@@ -316,7 +316,7 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [Basics chapter of LaunchSchool's *Introduction to Programming With Ruby*](https://launchschool.com/books/ruby/read/basics) for a different explanation of Ruby's data types.
+1. Read the [Basics chapter of LaunchSchool's *Introduction to Programming With Ruby*](https://launchschool.com/books/ruby/read/basics) for a different explanation of Ruby's data types. Be sure to also complete the exercises.
 1. [Read Alex Chaffee’s brief writeup on Objects](https://codelikethis.com/lessons/learn-to-code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
 1. Now it is time to complete some test-driven exercises to practice what you have learned in this lesson.
 
@@ -331,25 +331,25 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class="knowledge-check-link" href="#numbers">What are the basic arithmetic operators you can use on numbers? </a>
-- <a class="knowledge-check-link" href="#integers-and-floats">What's the difference between an integer and a float?</a>
-- <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert a float to an integer?</a>
-- <a class="knowledge-check-link" href="#converting-number-types">What method would you use to convert an integer to a float?</a>
-- <a class="knowledge-check-link" href="#strings">What is a string?</a>
-- <a class="knowledge-check-link" href="#double-and-single-quotation-marks">What are the differences between single and double quotes?</a>
-- <a class="knowledge-check-link" href="#interpolation">What is string interpolation?</a>
-- <a class="knowledge-check-link" href="#concatenation">How do you concatenate strings?</a>
-- <a class="knowledge-check-link" href="#upcase">What method would you use to change all the characters in your string to upper case?</a>
-- <a class="knowledge-check-link" href="#split">What method would you use to split up strings into arrays?</a>
-- <a class="knowledge-check-link" href="#escape-characters">What are escape characters?</a>
-- <a class="knowledge-check-link" href="#substrings">How do you access a specific character or substring?</a>
-- <a class="knowledge-check-link" href="#converting-other-objects-to-strings">How do you convert other data types into strings?</a>
-- <a class="knowledge-check-link" href="#symbols">What is a symbol?</a>
-- <a class="knowledge-check-link" href="#create-a-symbol">How do you create a symbol?</a>
-- <a class="knowledge-check-link" href="#symbols-vs-strings">What's the difference between a symbol and a string?</a>
-- <a class="knowledge-check-link" href="#true-and-false">What does `true` represent?</a>
-- <a class="knowledge-check-link" href="#true-and-false">What does `false` represent?</a>
-- <a class="knowledge-check-link" href="#nil">What does `nil` represent?</a>
+- [What are the basic arithmetic operators you can use on numbers? ](#numbers)
+- [What's the difference between an integer and a float?](#integers-and-floats)
+- [What method would you use to convert a float to an integer?](#converting-number-types)
+- [What method would you use to convert an integer to a float?](#converting-number-types)
+- [What is a string?](#strings)
+- [What are the differences between single and double quotes?](#double-and-single-quotation-marks)
+- [What is string interpolation?](#interpolation)
+- [How do you concatenate strings?](#concatenation)
+- [What method would you use to change all the characters in your string to upper case?](#upcase)
+- [What method would you use to split up strings into arrays?](#split)
+- [What are escape characters?](#escape-characters)
+- [How do you access a specific character or substring?](#substrings)
+- [How do you convert other data types into strings?](#converting-other-objects-to-strings)
+- [What is a symbol?](#symbols)
+- [How do you create a symbol?](#create-a-symbol)
+- [What's the difference between a symbol and a string?](#symbols-vs-strings)
+- [What does `true` represent?](#true-and-false)
+- [What does `false` represent?](#true-and-false)
+- [What does `nil` represent?](#nil)
 
 ### Additional resources
 

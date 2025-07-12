@@ -38,9 +38,9 @@ Add the following to the body of the `index.html` page we created and open it in
 
 You may have noticed that clicking this link doesn't do anything. This is because an anchor tag on its own won't know where we want to link to. We have to tell it a destination to go to. We do this by using an HTML attribute.
 
-<span id="attribute"></span>An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a name, and a value; however, not all attributes require a value. <span id="where-to-go"></span>In our case, we need to add an href (hypertext reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
+<span id="attribute"></span>An HTML attribute gives additional information to an HTML element and always goes in the element's opening tag. An attribute is usually made up of two parts: a name, and a value; however, not all attributes require a value. <span id="where-to-go"></span>In our case, we need to add an `href` (hypertext reference) attribute to the opening anchor tag. The value of the href attribute is the destination we want our link to go to.
 
-Add the following href attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
+Add the following `href` attribute to the anchor element we created previously and try clicking it again, don't forget to refresh the browser so the new changes can be applied.
 
 ```html
 <a href="https://www.theodinproject.com/about">About The Odin Project</a>
@@ -62,7 +62,32 @@ While `href` specifies the destination link, `target` specifies where the linked
 
 <span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document.
 
-The `noopener` value prevents the opened link from gaining access to the webpage from which it was opened. The `noreferrer` value prevents the opened link from knowing which webpage or resource has a link (or 'reference') to it. It also includes the `noopener` behaviour and thus can be used by itself as well.
+`noopener`: The `noopener` value of the `rel` attribute ensures that a link opened in a new tab or window cannot interact with or access the original page. Without it, the new page can use JavaScript to manipulate the original page, which poses a security risk.
+
+For example:
+
+```html
+<a href="https://example.com" target="_blank" rel="noopener">Open Example</a>
+```
+
+In this code:
+target="_blank": opens the link in a new tab.
+rel="noopener": prevents the new tab from accessing the original page, ensuring security.
+
+Without `noopener`, the new tab could use JavaScript to interact with the original page, which is unsafe.
+`noreferrer`: The `noreferrer` value of the `rel` attribute provides both privacy and security. It prevents the new page from knowing where the user came from (hiding the referrer) and also includes the behavior of `noopener`, preventing the new page from accessing the original page.
+
+For example:
+
+```html
+<a href="https://example.com" target="_blank" rel="noreferrer">Visit Example</a>
+```
+
+In this example:
+target="_blank": opens the link in a new tab.
+rel="noreferrer": ensures the new page cannot see the referring page’s address (privacy) and prevents it from accessing the original page (security).
+
+By using rel="noreferrer", you automatically get the benefits of both privacy and security.
 
 Why do we need this added behaviour for opening links in new tabs? Security reasons. The prevention of access that is caused by `noopener` prevents [phishing attacks](https://www.ibm.com/topics/phishing) where the opened link may change the original webpage to a different one to trick users. This is referred to as [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Adding the `noreferrer` value can be done if you wish to not let the opened link know that your webpage links to it.
 
@@ -77,9 +102,9 @@ Generally, there are two kinds of links we will create:
 
 #### Absolute links
 
-Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `protocol://domain/path`. An absolute link will always contain the protocol and domain of the destination.
+Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: `scheme://domain/path`. An absolute link will always contain the [scheme and domain](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL#basics_anatomy_of_a_url) of the destination.
 
-We've already seen an absolute link in action. The link we created to The Odin Project's About page earlier was an absolute link as it contains the protocol and domain.
+We've already seen an absolute link in action. The link we created to The Odin Project's About page earlier was an absolute link as it contains the scheme and domain.
 
 `https://www.theodinproject.com/about`
 
@@ -118,7 +143,7 @@ Back in the index page, add the following anchor element to create a link to the
 
 Open the index file in a browser and click on the about link to make sure it is all wired together correctly. Clicking the link should go to the about page we just created.
 
-This works because the index and about page are in the same directory. That means we can use its name (`about.html`) as the link's href value.
+This works because the index and about page are in the same directory. That means we can use its name (`about.html`) as the link's `href` value.
 
 But we will usually want to organize our website directories a little better. Normally we would only have the `index.html` at the root directory and all other HTML files in their own directory.
 
@@ -126,7 +151,7 @@ Create a directory named `pages` within the `odin-links-and-images` directory an
 
 Refresh the index page in the browser and then click on the about link. It will now be broken. This is because the location of the about page file has changed.
 
-To fix this, we just need to update the about link href value to include the `pages/` directory since that is the new location of the about file *relative* to the index file.
+To fix this, we just need to update the about link `href` value to include the `pages/` directory since that is the new location of the about file *relative* to the index file.
 
 ```html
 <body>
@@ -156,9 +181,9 @@ Think of your domain name (`town.com`) as a town, the directory in which your we
 
 Websites would be fairly boring if they could only display text. Luckily HTML provides a wide variety of elements for displaying all sorts of different media. The most widely used of these is the image element.
 
-To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered, the `<img>` element is self-closing. Empty, self-closing HTML elements do not need a closing tag.
+To display an image in HTML we use the `<img>` element. Unlike the other elements we have encountered, the `<img>` element is a void element. As we have seen earlier in the course, void elements do not need a closing tag because they are naturally empty and do not contain any content.
 
-Instead of wrapping content with an opening and closing tag, it embeds an image into the page using a src attribute which tells the browser where the image file is located. The src attribute works much like the href attribute for anchor tags. It can embed an image using both absolute and relative paths.
+Instead of wrapping content with an opening and closing tag, it embeds an image into the page using a `src` attribute which tells the browser where the image file is located. The `src` attribute works much like the `href` attribute for anchor tags. It can embed an image using both absolute and relative paths.
 
 For example, using an absolute path we can display an image located on The Odin Project site:
 
@@ -172,7 +197,7 @@ For example, using an absolute path we can display an image located on The Odin 
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-To use images that we have on our own websites, we can use a relative path.
+To display images on your website that are hosted on your own web server, you can use a relative path.
 
 <details markdown="block">
 
@@ -198,19 +223,23 @@ When you download a file from the internet, Windows has a security feature that 
 
    1. Alternatively, if you do not see anything at the bottom of the chrome window, open the "Customize and control Google Chrome kebab menu and select the "Downloads" item. This will show all of your downloads, each with its own "Show in folder" button.
 
+1. Rename the image to `dog.jpg`.
+
 1. Drag the file from your downloads folder to VSCode's file browser into your new `images` directory.
 
-    1. Alternatively, using your Ubuntu terminal, navigate to the folder you want to copy the image to (`cd ~/odin-links-and-images` for example)
+   1. Alternatively, using your Ubuntu terminal, navigate to the folder you want to copy the image to (`cd ~/odin-links-and-images` for example)
 
-    1. Type `cp <space>`
+   1. Type `cp <space>`
 
-    1. Drag the `dog.jpg` image from a Windows Explorer window and drop it onto the terminal window, it should appear as `"/mnt/c/users/username/Downloads/dog.jpg"`
+   1. Drag the `dog.jpg` image from a Windows Explorer window and drop it onto the terminal window, it should appear as `"/mnt/c/users/username/Downloads/dog.jpg"`
 
-    1. Type `<space> .` to tell cp that you want to copy the file to your current working directory.
+   1. Type `<space> .` to tell cp that you want to copy the file to your current working directory. The full command will look something like:
 
-        1. The full command will look something like `cp "/mnt/c/users/username/Downloads/dog.jpg" .`
+   ```bash
+   cp "/mnt/c/users/username/Downloads/dog.jpg" .
+   ```
 
-    1. Hit <kbd>Enter</kbd> to complete the command, and use ls to confirm the file now exists.
+   1. Hit <kbd>Enter</kbd> to complete the command, and use `ls` to confirm the file now exists.
 
 Dragging files from Windows into the VSCode file browser prevents the `Zone.Identifier` files from being copied over. From now on, any time you need to copy pictures or other downloaded files like this into WSL2, you can do it in this way. If you ever accidentally copy these `Zone.Identifier` files into WSL2, you can safely delete them without any issue.
 
@@ -231,6 +260,20 @@ Finally add the image to the `index.html` file:
 
 Save the `index.html` file and open it in a browser to view Charles in all his glory.
 
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Images you use should be free for your intended purpose
+
+There are many free images available but make sure to give credit to the creator of the image in your project.
+
+An easy way to provide credit is to include the creator's name and contact info in a README file in your repository, or give [attribution](https://support.freepik.com/s/article/Attribution-How-when-and-where?language=en_US).
+
+To find them - Google images and in image results -> Tools -> Usage rights -> "Creative Commons". Choose & click on a image and click license details.
+
+We recommend that you always review the license requirements of any images you want to use.
+
+</div>
+
 ### Parent directories
 
 What if we want to use the dog image in the about page? We would first have to go up one level out of the pages directory into its parent directory so we could then access the images directory.
@@ -243,7 +286,7 @@ What if we want to use the dog image in the about page? We would first have to g
 
 To break this down:
 
-1. First, we are going to the parent directory of the pages directory which is `odin-links-and-images`.
+1. First, we are going to the parent directory of the `pages` directory which is `odin-links-and-images`.
 1. Then, from the parent directory, we can go into the `images` directory.
 1. Finally, we can access the `dog.jpg` file.
 
@@ -251,11 +294,11 @@ Using the metaphor we used earlier, using `../` in a filepath is kind of like st
 
 ### Alt attribute
 
-<span id="two-attributes"></span>Besides the src attribute, every image element must also have an alt (alternative text) attribute.
+<span id="two-attributes"></span>Besides the `src` attribute, every image element should also have an `alt` (alternative text) attribute.
 
-The alt attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
+The `alt` attribute is used to describe an image. It will be used in place of the image if it cannot be loaded. It is also used with screen readers to describe what the image is to visually impaired users.
 
-This is how the The Odin Project logo example we used earlier looks with an alt attribute included:
+This is how the The Odin Project logo example we used earlier looks with an `alt` attribute included:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="ExXjoEp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -267,7 +310,7 @@ This is how the The Odin Project logo example we used earlier looks with an alt 
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-As a bit of practice, add an alt attribute to the dog image we added to the `odin-links-and-images` project.
+As a bit of practice, add an `alt` attribute to the dog image we added to the `odin-links-and-images` project.
 
 ### Image size attributes
 
@@ -276,7 +319,7 @@ attributes in image tags helps the browser layout the page without causing the p
 
 It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it.
 
-Here is our Odin Project logo example with height and width tags included:
+Here is our Odin Project logo example with height and width attributes included:
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PogmYGp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -288,7 +331,7 @@ Here is our Odin Project logo example with height and width tags included:
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Go ahead and update the `odin-links-and-images` project with width and height tags on the dog image.
+Go ahead and update the `odin-links-and-images` project with width and height attributes on the dog image.
 
 ### Assignment
 
@@ -297,7 +340,7 @@ Go ahead and update the `odin-links-and-images` project with width and height ta
 1. Watch Kevin Powell's [HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM).
 1. Watch Kevin Powell's [HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ).
 1. Watch Kevin Powell's [File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo).
-1. [Read about the four main image formats that can be used on the web](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats).
+1. Read and code along with Interneting is Hard's article on [Links and Images](https://internetingishard.netlify.app/html-and-css/links-and-images). Pay close attention to the section that covers the four main image formats.
 
 </div>
 
@@ -319,6 +362,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Interneting is hard's treatment on HTML links and images](https://internetingishard.netlify.app/html-and-css/links-and-images)
 - [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
 - [Chris Coyier's When to use target="_blank" on CSS-Tricks](https://css-tricks.com/use-target_blank/)

@@ -60,7 +60,7 @@ describe("App component", () => {
 
 #### Vitest globals and ESLint
 
-Even if you set `globals: true` in `vite.config.js` like in the setup tutorial, ESLint will still yell at you, as it will not recognize these globals without some extra configuration in your `.eslintrc.cjs` file. The most straightforward resolution would be to explicitly import the globals you'd need. You can omit `globals: true` from `vite.config.js` in this case.
+Even if you set `globals: true` in `vite.config.js` like in the setup tutorial, ESLint will still yell at you, as it will not recognize these globals without some extra configuration in your `eslint.config.js` file. The most straightforward resolution would be to explicitly import the globals you'd need instead. You can omit `globals: true` from `vite.config.js` in this case.
 
 </div>
 
@@ -75,7 +75,7 @@ There are numerous ways a user can interact with a webpage. Even though live use
 ```jsx
 // App.jsx
 
-import React, { useState } from "react";
+import { useState } from "react";
 
 const App = () => {
   const [heading, setHeading] = useState("Magnificent Monkeys");
@@ -129,11 +129,11 @@ describe("App component", () => {
 
 The tests speak for themselves. In the first test, we utilize snapshots to check whether all the nodes render as we expect them to. In the second test, we simulate a click event. Then we check if the heading changed. `toMatch` is one of the various assertions we could have made. Notice that the callback function for the second test is an `async` one, as we need this in order to `await user.click()`.
 
-It's also important to note that after every test, React Testing Library unmounts the rendered components. That's why we render for each test. For a lot of tests for a component, the `beforeEach` Vitest function could prove handy.
+It's also important to note that after every test, React Testing Library unmounts the rendered components. That's why we render for each test. For a lot of tests for a component, a custom `setup` function could prove handy.
 
 ### What are snapshots?
 
-Snapshot testing is just comparing our rendered component with an associated snapshot file. For example, the snapshot file which was automatically generated after we ran the *"magnificent monkeys renders"* test was:
+Snapshot testing is just comparing our rendered component with an associated snapshot file. For example, the snapshot file which was automatically generated after we ran the *"renders magnificent monkeys"* test was:
 
 ```jsx
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
@@ -166,10 +166,18 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 <div class="lesson-content__panel" markdown="1">
 
-1. [Testing Implementation Details](https://kentcdodds.com/blog/testing-implementation-details) by Kent C. Dodds shows us how we can reduce false test results and inflexible tests by avoiding testing the implementation of things. Note that while it starts with examples using the Enzyme testing library, the concepts are the primary focus.
+<div class="lesson-note" markdown="1">
+
+#### Focus on the concepts
+
+Even though some articles use Jest and the Enzyme testing library, the concepts should be transferable.
+
+</div>
+
+1. [Testing Implementation Details](https://kentcdodds.com/blog/testing-implementation-details) by Kent C. Dodds shows us how we can reduce false test results and inflexible tests by avoiding testing the implementation of things.
 1. Take a glance at all of the available query methods on [the React Testing Library's cheatsheet page](https://testing-library.com/docs/dom-testing-library/cheatsheet/). There's no need to use them all, but it's optimal to employ a specific method for a specific query. If none of the query methods suffice, there's an option to use test ids. Learn about test ids on [the React Testing Library's test id docs](https://testing-library.com/docs/queries/bytestid/).
 1. Read [the userEvent API docs](https://testing-library.com/docs/user-event/intro) to get a feel of how to achieve user simulation.
-1. This article on the [Pros and Cons of Snapshot Tests](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the advantages and disadvantages of snapshot testing. Even though the articles use Jest, the concepts should be transferrable. And this one, [Snapshot Testing: Benefits and Drawbacks](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks), does an excellent job of explaining what snapshot testing is for programming in general.
+1. This article on the [Pros and Cons of Snapshot Tests](https://tsh.io/blog/pros-and-cons-of-jest-snapshot-tests/) goes in depth regarding the advantages and disadvantages of snapshot testing. And this one, [Snapshot Testing: Benefits and Drawbacks](https://www.sitepen.com/blog/snapshot-testing-benefits-and-drawbacks), does an excellent job of explaining what snapshot testing is for programming in general.
 
 </div>
 

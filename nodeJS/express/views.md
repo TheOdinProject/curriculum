@@ -10,8 +10,8 @@ In this course, we will use [EJS](https://ejs.co/). EJS's syntax is very similar
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to setup EJS in an Express project
-- How to use EJS
+- How to setup EJS in an Express project.
+- How to use EJS.
 
 ### Setting up EJS
 
@@ -28,8 +28,16 @@ Next, we need to let our app know that we intend to use `EJS` as a template engi
 In your `app.js` file, set the following application properties:
 
 ```javascript
+// app.js
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
+```
+
+And import the Path CommonJS module from Node near the top:
+
+```javascript
+// app.js
+const path = require("node:path");
 ```
 
 This enables EJS as the view engine, and that our app should look for templates in the `/views` subdirectory.
@@ -57,6 +65,7 @@ Here's a quick example that includes arrays and loop logic.
 Let's use EJS with Express. First, create an EJS template file called `index.ejs` in the `views` subdirectory, and add the following:
 
 ```ejs
+<!-- index.ejs -->
 <html>
   <body>
     <%= message %>
@@ -64,9 +73,10 @@ Let's use EJS with Express. First, create an EJS template file called `index.ejs
 </html>
 ```
 
-And in app.js, render this template file in one of your routes:
+And in `app.js`, render this template file in one of your routes:
 
 ```javascript
+// app.js
 app.get("/", (req, res) => {
   res.render("index", { message: "EJS rocks!" });
 });
@@ -78,15 +88,40 @@ Start the server and go to the `/` route in the browser. You should see:
 EJS rocks!
 ```
 
-If you inspect the HTML in the browser's dev tools, you can see HTML is structures exactly like how we wrote the EJS template with the `message` variable replaced with its value.
+If you inspect the HTML in the browser's dev tools, you can see the HTML is structured exactly like how we wrote the EJS template with the `message` variable replaced with its value.
 
 When you hit the `/` route, `res.render("index", { message: "EJS rocks!" });` is the line that sends back the response. Since we've already defined the `views` and `view engine` app properties, the first argument of `res.render` is programmed to look for "a template called index in the specified folder", while the second argument is an object of variables that are to be made available to that specific template.
+
+### The locals variable in EJS
+
+In the example above, how did the template file know about the `message` variable? When we render the view, EJS has access to any properties from the object we pass into `res.render`, as well as any properties on [Express's res.locals object](https://expressjs.com/en/api.html#res.locals) (`res.locals` can be useful if you need to pass values to the view in one middleware function, but won't call `res.render` until later in the middleware chain).
+
+EJS will store these properties in an object called `locals`, which you can access in the view. Similarly to the global `window` object in browsers, this allows you to access the `message` variable in the view via `locals.message`, or simply just `message`.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Undefined variables in locals
+
+If we try to access a variable in a rendered template file that was not defined in the `locals` argument of `res.render` or `res.locals`, this can cause a reference error. For instance if we try to access an undefined `foo` variable, `locals.foo` will return undefined, while `foo` will result in a reference error. Verify this by outputting `locals.foo` in `index.ejs`, then replacing it with`foo`:
+
+```ejs
+<!-- index.ejs -->
+<html>
+  <body>
+    <%= message %>
+    <!-- replace the below with the output of just foo -->
+    <%= locals.foo %>
+  </body>
+</html>
+```
+
+</div>
 
 ### Reusable templates
 
 You may want to include webpage components that are shared across different pages, such as a sidebar or a header. To insert such components into your pages, we make use of the `include` command. This requires the name of the file to be inserted, and optionally an object of data you wish to pass.
 
-Say you have the following navbar component called `"navbar.ejs"`:
+Create the following navbar component called `"navbar.ejs"`:
 
 ```ejs
 <!-- navbar.ejs -->
@@ -103,23 +138,7 @@ Say you have the following navbar component called `"navbar.ejs"`:
 </nav>
 ```
 
-You can insert this component into another EJS file like so:
-
-```ejs
-<!-- index.ejs -->
-<html>
-  <head>
-    <title>Homepage</title>
-    <body>
-      <%- include('navbar', {links: links}) %>
-    </body>
-  </head>
-</html>
-```
-
-This can be used to include headers and footers in all of your pages, for example.
-
-Note that the navbar expects a `links` value. To pass this data into the navbar, you can pass it when rendering `index.ejs` which contains the navbar. Modify `app.js` such that a `links` object is defined and passed into the `render` function in the `"/"` route handler:
+Note that the navbar expects a `links` variable. To pass this data into the navbar, pass it as a `locals` variable when rendering the template file at `res.render()`. We will render `index.ejs` to include the navbar. To do this, modify `app.js` such that a `links` object is defined and passed into the `render` function rendering `index.ejs` in the `"/"` route handler:
 
 ```javascript
 // app.js
@@ -133,31 +152,75 @@ app.get("/", (req, res) => {
 });
 ```
 
-Here's another example of how to use `includes` to dynamically render a list of variables:
+Then, modify the previously created `index.ejs` to remove the `<%= message %>` line and instead `include` the `navbar` with the `links` variable like so:
 
 ```ejs
+<!-- index.ejs -->
+<html>
+  <head>
+    <title>Homepage</title>
+  </head>
+  <body>
+    <%- include('navbar', {links: links}) %>
+  </body>
+</html>
+```
+
+This will include the navbar with links in `index.ejs`. Run your server and see! Reusable templates can be used to include headers and footers in all of your pages.
+
+Note the use of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
+
+Let's use `include` to dynamically render a list of variables a different way. In `app.js`, add the following `users` array just below the `links` variable, and pass it to the `render` function when rendering `index`:
+
+```javascript
+// app.js
+
+const links = [
+  { href: "/", text: "Home" },
+  { href: "about", text: "About" },
+];
+
+const users = ["Rose", "Cake", "Biff"];
+
+app.get("/", (req, res) => {
+  res.render("index", { links: links, users: users });
+});
+```
+
+Then create a new view called `user.ejs` in the `views` directory:
+
+```ejs
+<!-- views/user.ejs -->
+<li><%= user %></li>
+```
+
+Then add the following block to `index.ejs`:
+
+```ejs
+<!-- index.ejs -->
 <ul>
   <% users.forEach((user) => { %>
-    <%- include('user/show', {user: user}); %>
+    <%- include('user', {user: user}); %>
   <% }); %>
 </ul>
 ```
+
+If successful, Rose, Cake and Biff will be visible when rendering `index.ejs`.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
 #### Directories within the views folder
 
-We can have nested directories of EJS template files within the views. For example, to render the template file `./views/user/show.ejs`, we'll need to provide the relative path like so:
+Let's create nested directories of EJS template files within the views. Change the `user.ejs` in the `views` directory to `users/user.ejs`, and in `index.ejs` change the path from `user` to `users/user` in the `users.forEach` block:
 
-```javascript
-// in res.render
-res.render("user/show");
-
-// in include
-include("user/show");
+```ejs
+<!-- index.ejs -->
+<ul>
+  <% users.forEach((user) => { %>
+    <%- include('users/user', {user: user}); %>
+  <% }); %>
+</ul>
 ```
-
-Note the use of the raw output tag `<%-` with the `include` which is used to avoid double-escaping the HTML output.
 
 </div>
 
@@ -166,14 +229,17 @@ Note the use of the raw output tag `<%-` with the `include` which is used to avo
 Serving static assets with EJS is similar to how we served assets previously when working directly with HTML, in that we can add external files to the head of the template file using the `link` tag. The main thing to point out is that the app needs to know where to serve assets from. Assuming `express` is installed, set the following lines in `app.js`:
 
 ```javascript
-app.use(express.static(path.join(__dirname, "public")));
+// app.js
+const assetsPath = path.join(__dirname, "public");
+app.use(express.static(assetsPath));
 ```
 
 `express.static()` is a middleware function that enables the use of static assets, and we tell it to look for assets with the `public` directory as the root.
 
-Say we have the following `styles.css` file in the root of the `public` directory:
+Create the following `styles.css` file in the root of the `public` directory:
 
 ```css
+/* public/styles.css */
 body {
   color: red;
 }
@@ -182,8 +248,9 @@ body {
 To serve `styles.css` in `index.ejs`, set the following `link` tag like so in the head:
 
 ```ejs
+<!-- index.ejs -->
 <head>
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 ```
 

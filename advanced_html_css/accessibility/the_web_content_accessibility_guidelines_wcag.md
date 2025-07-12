@@ -48,8 +48,10 @@ The second thing to keep in mind is that just taking those first few steps towar
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Read through the [WCAG Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) page. Don't worry about all of the other links for now. The goal of reading this page is to understand more of the included overview and to get familiar with the site itself for when you *do* need to visit other pages on it.
-2. Skim through [WebAIM's WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist), keeping in mind to read the important disclaimer. For now the goal is just to get an idea of common accessibility issues, some of which you'll be ready to fix by the time you finish this set of lessons, rather than read through every issue listed on the page. Keep this resource bookmarked, though, as using it as your checklist when you start actively implementing accessibility will be really handy.
+1. Skim through [WebAIM's WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist), keeping in mind to read the important disclaimer. For now the goal is just to get an idea of common accessibility issues, some of which you'll be ready to fix by the time you finish this set of lessons, rather than read through every issue listed on the page. Keep this resource bookmarked, though, as using it as your checklist when you start actively implementing accessibility will be really handy.
+
 </div>
 
 ### Knowledge check
@@ -63,4 +65,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [The A11Y Project](https://www.a11yproject.com/): An open-source resource that provides information on how to make your web content more accessible. The A11Y Project includes checklists, guidelines, and tools that can help you implement WCAG standards effectively.

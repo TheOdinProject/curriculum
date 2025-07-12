@@ -8,9 +8,9 @@ Read  [What is State? by Academind](https://academind.com/tutorials/what-is-stat
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is state?
+- What state in React is.
 - How to use state in React.
-- What happens when the state changes in React?
+- What happens in React when state is changed.
 
 ### What is state in React?
 
@@ -60,7 +60,7 @@ The process of rerendering generates a new virtual DOM (Document Object Model) t
 
 #### Explaining rerendering with the example above
 
-Whenever `setBackgroundColor` is called, our `App` component is rerendered. Essentially, the component is recreated which means the `onButtonClick` function and our `div` and `button`'s are recreated as well. You might wonder, shouldn't the `backgroundColor` state be recreated as well? Well, React takes the responsibility of keeping track of the latest state and providing it to the component. The initial state value is only used for the component's first render and is ignored on subsequent renders.
+Whenever `setBackgroundColor` is called, our `App` component is rerendered. Essentially, the component is recreated which means the `onButtonClick` function and our `div` and `button`s are recreated as well. You might wonder, shouldn't the `backgroundColor` state be recreated as well? Well, React takes the responsibility of keeping track of the latest state and providing it to the component. The initial state value is only used for the component's first render and is ignored on subsequent renders.
 
 ![code illustration of rerendering](https://cdn.statically.io/gh/TheOdinProject/curriculum/abf5962ab36c951bab907a9952d09400651eab10/react/states_and_effects/introduction_to_state/imgs/00.png)
 

@@ -1,6 +1,6 @@
 ### Introduction
 
-One of the most used data structures across programming languages is a hash table, aka hash map. If you've worked with Ruby hashes, then you have used structures based on hash tables. But how do they work internally? How can we save key value pairs and later retrieve them?
+One of the most used data structures across programming languages is a hash table, aka hash map. A hash map is similar to a conventional array, except it uses "keys" as indices rather than meaningless sequential numbering of the values. With the data organized in this way, we get quick search speeds for keys in the structure. If you've worked with Ruby hashes, then you have used structures based on hash tables. But how do they work internally? How can we save key value pairs and later retrieve them?
 
 In this lesson, you will learn how it all works, and even implement your own hash map in the next project! To start, here is a brief description of a hash map: a hash map takes in a key value pair, produces a hash code, and stores the pair in a bucket. Hash codes? Buckets? What? Don't fret, we'll learn all about these concepts and more. Buckle up and let's dive in!
 
@@ -150,7 +150,7 @@ You probably understand by this point why we must write a good hashing method wh
 
 ### Growth of a hash table
 
-Let's talk about the growth of our buckets. We don't have infinite memory, so we can't have the infinite number of buckets. We need to start somewhere, but starting too big is also a waste of memory if we're only going to have a hash map with a single value in it. So to deal with this issue, we should start with a small array for our buckets. We'll use an array size `16`.
+Let's talk about the growth of our buckets. We don't have infinite memory, so we can't have an infinite number of buckets. We need to start somewhere, but starting too big is also a waste of memory if we're only going to have a hash map with a single value in it. So to deal with this issue, we should start with a small array for our buckets. We'll use an array of size `16`.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 

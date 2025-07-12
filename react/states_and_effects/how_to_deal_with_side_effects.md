@@ -10,10 +10,10 @@ Similar to how we have the `useState` hook, React offers us a handy `useEffect` 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What are effects?
-- How are effects used in React?
-- What are the different parts of a `useEffect` hook?
-- When should I use an effect?
+- Understand what effects are in React.
+- Learn how to use effects in React applications.
+- Explore different parts of the useEffect hook.
+- Identify when to use an effect in React.
 
 ### Using effect saves the day
 
@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 Let us take a component in question. We want to make a `Clock` component that shows how many seconds have passed since the user has loaded the webpage. To update it every second, we can use our nifty `setInterval` function to add one to the `counter` state variable, every second. Let's try putting it in the body of our component.
 
 ```jsx
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function Clock() {
   const [counter, setCounter] = useState(0);
@@ -44,7 +44,7 @@ When our component first renders, it calls our initial `setInterval` function. T
 This is where the `useEffect` hook swoops in to save us. We can wrap this calculation inside a `useEffect` hook to move it outside the rendering calculation. It accepts a callback function with all the calculations.
 
 ```jsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Clock() {
   const [counter, setCounter] = useState(0);
@@ -72,7 +72,7 @@ Fortunately, the second argument accepts an array of dependencies allowing the h
 We pass an empty array in this example because we do not want the `useEffect` hook to run anytime other than the initial component render.
 
 ```jsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Clock() {
   const [counter, setCounter] = useState(0);
@@ -113,12 +113,12 @@ useEffect(() => {
 
 Oh, it's not going berserk anymore! We still have an issue with the counter updating twice every second though. That can be understood as a [behavior caused by the React StrictMode](https://react.dev/reference/react/StrictMode#strictmode). It is supposed to help us catch bugs, so what is that bug here?
 
-Notice that every time the `useEffect` hook runs, a new `setInterval` is used.  When the component is unmounted, `setInterval` is not stopped, it keeps incrementing. This unnecessary behavior can be prevented by clearing the interval when the component is unmounted and that is where the third part of our `useEffect` hook comes in - the cleanup function.
+With `StrictMode`, the `App` component is mounted, unmounted, then mounted again. This behaviour of `StrictMode` is only in the development environment. Notice that every time the `useEffect` hook runs, a new `setInterval` is used.  When the component is unmounted the first time, `setInterval` is not stopped, it keeps incrementing. This unnecessary behavior can be prevented by clearing the interval when the component is unmounted and that is where the third part of our `useEffect` hook comes in - the cleanup function.
 
 You can return a function from the callback in the `useEffect` hook, which will be executed each time before the next effect is run, and one final time when the component is unmounted. In this case, let us clean up the interval with a cleanup function.
 
 ```jsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Clock() {
   const [counter, setCounter] = useState(0);
@@ -163,7 +163,7 @@ Let us address a few cases where `useEffect` does not need to be used.
 - You do not need to use an effect if you are only calculating something based on the state during rendering. For a change in a component, due to a change in the props, you can calculate and set it during rendering.
 
     ```jsx
-    import React, { useState } from "react";
+    import { useState } from "react";
 
     export default function AdditionDisplay() {
       const [number1, setNumber1] = useState(0);
@@ -187,7 +187,7 @@ Let us address a few cases where `useEffect` does not need to be used.
 - You do not need effects for events. Code that runs when a component is **displayed** should be in effects, the rest should be in events.
 
     ```jsx
-    import React, { useState } from "react";
+    import { useState } from "react";
 
     export default function App() {
       const [input, setInput] = useState("");

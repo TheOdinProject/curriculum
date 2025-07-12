@@ -56,17 +56,25 @@ A frame is designated by wrapping a region inside of a `<turbo-frame>` element. 
 A basic Turbo Frame, using Rails helpers, may look like so:
 
 ```erb
+# with a block
 <%= turbo_frame_tag "article" do %>
   Some content
 <% end %>
+
+# without a block (typically this is used as a placeholder element to be filled later)
+<%= turbo_frame_tag "article" %>
 ```
 
 which will generate:
 
 ```html
+# with a block
 <turbo-frame id="article">
   Some content
 </turbo-frame>
+
+# without a block
+<turbo-frame id="article"></turbo-frame>
 ```
 
 Note that the frames have an ID. The ID is how Turbo is able to identify a frame to find out which one is which.
@@ -130,7 +138,7 @@ We can also do the opposite. We can make a link that exists outside of our Turbo
 <%= link_to "Show Posts", posts_path, data: { turbo_frame: "list-region" } %>
 <%= link_to "Show Images", images_path, data: { turbo_frame: "list-region" } %>
 
-<%= turbo_frame_tag id="list-region" %>
+<%= turbo_frame_tag "list-region" %>
 ```
 
 Clicking either of the above links will send a request to the respective path and return the content inside of our `"list-region"` frame.
@@ -143,7 +151,7 @@ For example:
 
 ```erb
 ...
-<%= turbo_frame_tag id="Articles", src: articles_path do %>
+<%= turbo_frame_tag "Articles", src: articles_path do %>
   <div>
     I am a placeholder! After the request to articles_path is finished,
     I will be replaced with the content inside of that page's turbo frame
@@ -156,7 +164,7 @@ We can also make our frames **lazy loaded**. A lazy loaded frame will only fetch
 
 ```erb
 ...
-<%= turbo_frame_tag id="Articles", src: articles_path, loading: "lazy" do %>
+<%= turbo_frame_tag "Articles", src: articles_path, loading: "lazy" do %>
   <div>
     I am a placeholder! I will be replaced when a user scrolls down to see me on the page!
   </div>
@@ -186,7 +194,7 @@ Our `index` view:
 ```erb
 # views/posts/index.html.erb
 
-<%= turbo_frame_tag id="new_post", src:new_post_path %>
+<%= turbo_frame_tag "new_post", src: new_post_path %>
 <div id="posts">
   <%= render @posts %>
 </div>
@@ -197,7 +205,7 @@ Our `new` page with it's form:
 ```erb
 # views/posts/new.html.erb
 
-<%= turbo_frame_tag id="new_post" do %>
+<%= turbo_frame_tag "new_post" do %>
   <%= form_with model: @post do |form| %>
     <%= form.label :body %>
     <%= form.text_area :body %>
@@ -242,7 +250,7 @@ class PostsController < ApplicationController
   private
 
   def post_params
-    params.require(:post).permit(:body)
+    params.expect(post: [:body])
   end
 end
 ```
@@ -305,7 +313,7 @@ if you would like to learn more:
     format.turbo_stream { render turbo_stream: turbo_stream.append('posts', @post) }
     ```
 
-    However, you shouldn't do this for anything complex or chained, as explained in this [comment by one of the maintainers of Hotwire](https://github.com/hotwired/turbo-rails/issues/77#issuecomment-757349251).
+    However, you shouldn't do this for anything complex or chained.
 
 1. You may have noticed that when you submit a new Post, the text box doesn't clear out. You need to reset the submission element in order for it to be empty again. Hotwire has a remedy for this problem by including Stimulus, a light JavaScript framework. Don't worry about Stimulus for this example though, the next lesson will cover how to write and make use of Stimulus Controllers.
 
@@ -317,7 +325,7 @@ The final piece of Turbo is something that you don't need to know much about for
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read sections 1, 2, and 3 of Bloomreach's [What Are Single Page Applications and Why Do People Like Them So Much?](https://www.bloomreach.com/en/blog/2018/07/what-is-a-single-page-application.html#whatssingle-page-application) article
+1. Read sections 1, 2, and 3 of Bloomreach's [What Are Single Page Applications and Why Do People Like Them So Much?](https://www.bloomreach.com/en/blog/what-is-a-single-page-application) article
 1. Watch the [Hotwire Demo Video](https://www.youtube.com/watch?v=eKY-QES1XQQ)
     - We have only covered content up until the 5:40 mark, but you may continue watching past that point to become more familiar with other aspects of Hotwire that we will be covering in upcoming lessons.
     - The video is edited to be a very quick showcase. Don't worry about trying to pause and use this video as a tutorial. Just sit back and use this demo to watch how Turbo Drive, Frames, & Streams come together visually.
@@ -332,10 +340,10 @@ The final piece of Turbo is something that you don't need to know much about for
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- <a class='knowledge-check-link' href='#single-page-applications-spas'>What does SPA stand for and what is it?</a>
-- <a class='knowledge-check-link' href='#hotwire'>What is Hotwire?</a>
-- <a class='knowledge-check-link' href='#turbo-frames'>How do we use a Turbo Frame?</a>
-- <a class='knowledge-check-link' href='#turbo-stream'>How do we set up Turbo Streams?</a>
+- [What does SPA stand for and what is it?](#single-page-applications-spas)
+- [What is Hotwire?](#hotwire)
+- [How do we use a Turbo Frame?](#turbo-frames)
+- [How do we set up Turbo Streams?](#turbo-stream)
 
 ### Additional resources
 

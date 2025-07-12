@@ -54,3 +54,4 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Watch [are you using the right CSS unit?](https://www.youtube.com/watch?v=N5wpD9Ov_To) if you'd like to learn Kevin Powells general rules of thumb when it comes to choosing the correct CSS units for different situations.
+- Watch [Learn CSS Units & When To Use Them](https://www.youtube.com/watch?v=fzZTvLmmTzM) from Slaying The Dragon if you would like to learn best practices of basic units mentioned in this lesson.

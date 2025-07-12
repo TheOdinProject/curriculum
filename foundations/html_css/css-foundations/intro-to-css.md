@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Basic syntax
 
-At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on this in a bit) and a semicolon-separated list of declarations, with each of those declarations being made up of a property–value pair.
+At the most basic level, CSS is made up of various rules. Each rule is made up of a selector (more on this in a bit) and a semicolon-separated list of declarations, with each of those declarations being made up of a property–value pair.
 
 ![Basic CSS syntax](https://cdn.statically.io/gh/TheOdinProject/curriculum/05ce472eabf8e04eeb2cc9139e66db884074fd7d/foundations/html_css/css-foundations/imgs/00.jpg)
 
@@ -30,7 +30,7 @@ Selectors refer to the HTML elements to which CSS rules apply; they're what is a
 
 #### Universal selector
 
-The universal selector will select elements of any type, hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style applied to it.
+The universal selector will select elements of every type (as in the whole document), hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style applied to it.
 
 ```css
 * {
@@ -283,7 +283,7 @@ Now that we've learned some basic syntax, you might be wondering *how* to add al
 
 #### External CSS
 
-External CSS is the most common method you will come across, and it involves creating a separate file for the CSS and linking it inside of an HTML's opening and closing `<head>` tags with a self-closing `<link>` element:
+External CSS is the most common method you will come across, and it involves creating a separate file for the CSS and linking it inside of an HTML's opening and closing `<head>` tags with a void `<link>` element:
 
 ```html
 <!-- index.html -->
@@ -306,7 +306,7 @@ p {
 }
 ```
 
-First, we add a self-closing `<link>` element inside of the opening and closing `<head>` tags of the HTML file. The `href` attribute is the location of the CSS file, either an absolute URL or, what you'll be utilizing, a URL relative to the location of the HTML file. In our example above, we are assuming both files are located in the same directory. The `rel` attribute is required, and it specifies the relationship between the HTML file and the linked file.
+First, we add a void `<link>` element inside of the opening and closing `<head>` tags of the HTML file. The `href` attribute is the location of the CSS file, either an absolute URL or, what you'll be utilizing, a URL relative to the location of the HTML file. In our example above, we are assuming both files are located in the same directory. The `rel` attribute is required, and it specifies the relationship between the HTML file and the linked file.
 
 Then inside of the newly created `styles.css` file, we have the selector (the `div` and `p`), followed by a pair of opening and closing curly braces, which create a "declaration block". Finally, we place any declarations inside of the declaration block. `color: white;` is one declaration, with `color` being the property and `white` being the value, and `background-color: black;` is another declaration.
 
@@ -365,12 +365,13 @@ If you need to add a *unique* style for a *single* element, this method can work
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README. Then, once you know how to use the exercises, navigate to the `foundations` directory. Review each README file prior to completing the following exercises in order:
+1. Go to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) and read the README file.
+1. Then, once you know how to use the exercises, navigate to the [CSS exercises repository's `foundations/intro-to-css` directory](https://github.com/TheOdinProject/css-exercises/tree/main/foundations/intro-to-css). Review each README file prior to completing the following exercises in order:
 
     - `01-css-methods`
     - `02-class-id-selectors`
-    - `03-group-selectors`
-    - `04-chain-selectors`
+    - `03-grouping-selectors`
+    - `04-chaining-selectors`
     - `05-descendant-combinator`
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.

@@ -28,7 +28,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Truthy and falsy in Ruby
 
-You already know that conditional statements check expressions for a true or false value, so it follows that you need to understand what Ruby considers to be true or false. In typical Ruby fashion, it's very simple. The only false values in Ruby are the values `nil` and `false` themselves. That's it! Everything else is considered true. Even the string `"false"` is true in conditional expressions! If you have experience with other programming languages, you might be familiar with the number 0 or an empty string ("") being equivalent to false. This isn't the case with Ruby, so be careful when writing those expressions, or you'll have more bugs than a decomposing body.
+You already know that conditional statements check expressions for a true or false value, so it follows that you need to understand what Ruby considers to be true or false. In typical Ruby fashion, it's very simple. The only false values in Ruby are the values `nil` and `false` themselves. That's it! Everything else is considered true. Even the string `"false"` is true in conditional expressions! If you have experience with other programming languages, you might be familiar with the number 0 or an empty string ("") being equivalent to false. This isn't the case with Ruby, so be careful when writing those expressions. Otherwise, you might end up with more bugs on your screen than if you were using light mode at midnight.
 
 ### Basic conditional statement
 
@@ -180,7 +180,7 @@ All of the above operators also work on data types other than numbers, such as s
 
 Sometimes you'll want to write an expression that contains more than one condition. In Ruby, this is accomplished with logical operators, which are `&&` (and), `||` (or) and `!` (not).
 
-There are some differences between the word versions and their symbolic equivalents, particularly in the way they evaluate code. We recommend you read this article that explains the [differences between symbolic logical operators and their word versions](https://avdi.codes/how-to-use-rubys-english-andor-operators-without-going-nuts/).
+There are some differences between the word versions and their symbolic equivalents, particularly in the way they evaluate code. We recommend you watch this video that explains the [differences between symbolic logical operators and their word versions](https://avdi.codes/how-to-use-rubys-english-andor-operators-without-going-nuts/).
 
 The `&&` operator returns `true` if **both** the left and right expressions return `true`.
 
@@ -288,7 +288,7 @@ You should use an `unless` statement when you want to **not** do something if a 
 
 The ternary operator is a one-line `if...else` statement that can make your code much more concise.
 
-Its syntax is `conditional statement ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable.
+Its syntax is `condition ? <execute if true> : <execute if false>`. You can assign the return value of the expression to a variable.
 
 ```ruby
 age = 19
@@ -343,4 +343,3 @@ This section contains helpful links to related content. It isn't required, so co
 
 - See this [Stack Overflow post for more on the spaceship operator](https://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator).
 - For more depth on flow control, read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/).
-- If you want some in-depth practice with these concepts, go through [Learn Ruby the Hard Way](https://learnrubythehardway.org/book/) from Exercise 27 through Exercise 31.
