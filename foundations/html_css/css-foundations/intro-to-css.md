@@ -80,7 +80,7 @@ Class selectors will select all elements with the given class, which is just an 
 ```
 
 Note the syntax for class selectors: a period immediately followed by the case-sensitive value of the class attribute. Classes aren't required to be specific to a particular element, so you can use the same class on as many elements as you want.
->The selector will not work if the class name begins with a digit, e.g. `.4lert-text` will not select an element even if it has the class >`4lert-text` - for now, just avoid leading digits in class selector names
+>The selector will not work if the class name begins with a digit, e.g. `.4lert-text` will not select an element even if it has the class `4lert-text` - for now, just avoid leading digits in class selector names
 
 
 Another thing you can do with the class attribute is to add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`. Since whitespace is used to separate class names like this, you should never use spaces for multi-worded names and should use a hyphen instead.
@@ -104,7 +104,7 @@ ID selectors are similar to class selectors. They select an element with the giv
 ```
 
 For IDs, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
->Like with class selectors, you cannot begin your ID selectors with a digit, e.g. if you give an element the ID `7itle`, the selector >`#7itle` will not select it
+>Like with class selectors, you cannot begin your ID selectors with a digit, e.g. if you give an element the ID `7itle`, the selector  `#7itle` will not select it
 
 #### The grouping selector
 
