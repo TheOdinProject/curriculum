@@ -126,15 +126,15 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 <div class="lesson-note" markdown="1">
 
-When you look at project submissions below, you might be asking:
-"Why do they look so good, should my project look like this?".
+#### Project submissions and reasonable expectations
+
+When you look at project submissions below, you might be asking: "Why do they look so good, should my project look like this?"
 
 Here is the answer:
 
 1. The main reason they look that good is that they are not done by beginners. They were likely submitted by people who had some experience with programming, or who have completed The Odin Project before and are coming back to make better websites.
 1. Your project should not look like that. Focus mainly on the requirements of the project.
 
-This applies for future projects too.
-For more information read ["Learning Code" from "Becoming a TOP Success Story"](https://dev.to/theodinproject/learning-code-f56).
+This applies for future projects too. For more information read ["Learning Code" from "Becoming a TOP Success Story"](https://dev.to/theodinproject/learning-code-f56).
 
 </div>
