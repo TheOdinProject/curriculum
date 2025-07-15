@@ -107,7 +107,8 @@ ID selectors are similar to class selectors. They select an element with the giv
 
 For IDs, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
 
-<div class="lesson-note" markdown="1">Just like class selectors, ID selectors can’t start with a number. For example, if you give an element the ID `7itle`, the selector `#7itle` won’t work - it’s not a valid CSS selector.
+<div class="lesson-note" markdown="1">
+Just like class selectors, ID selectors can’t start with a number. For example, if you give an element the ID `7itle`, the selector `#7itle` won’t work - it’s not a valid CSS selector.
 </div>
 
 #### The grouping selector
