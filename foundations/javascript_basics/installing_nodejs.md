@@ -40,7 +40,7 @@ sudo apt update && sudo apt upgrade
 Run this command to install `nvm`:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 ```
 
 #### Step 2: Initializing NVM
