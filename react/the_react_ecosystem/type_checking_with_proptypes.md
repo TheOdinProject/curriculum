@@ -53,14 +53,17 @@ RenderName.propTypes = {
 
 ### Using defaultProps
 
-Another cool thing we can do in combination with PropTypes is passing in default props:
+Another cool thing we can do in combination with PropTypes is passing in default props when using Class-based components:
 
 ```jsx
+import React from 'react';
 import PropTypes from 'prop-types';
 
-const RenderName = (props) => {
-  return <div>{props.name}</div>;
-};
+class RenderName extends React.Component {
+  render() {
+    return <div>{this.props.name}</div>;
+  }
+}
 
 RenderName.propTypes = {
   name: PropTypes.string,
