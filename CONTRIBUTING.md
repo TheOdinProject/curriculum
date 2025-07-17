@@ -39,3 +39,39 @@ To help enforce the layout specified in our layout style guide, we use [markdown
 
 > [!NOTE]
 > With either of these two methods, keep in mind that not all issues that get flagged will have an autofix available. Some rules require fixes that are more dependent on context and cannot - and should not - be automatically fixed, such as our custom rule `TOP001` for descriptive link text.
+>
+> The following markdownlint rules are at least partially fixable via the appropriate `fix:*` script:
+>
+> - [MD004](https://github.com/DavidAnson/markdownlint/blob/main/doc/md004.md) ul-style
+> - [MD005](https://github.com/DavidAnson/markdownlint/blob/main/doc/md005.md) list-indent
+> - [MD007](https://github.com/DavidAnson/markdownlint/blob/main/doc/md007.md) ul-indent
+> - [MD009](https://github.com/DavidAnson/markdownlint/blob/main/doc/md009.md) no-trailing-spaces
+> - [MD010](https://github.com/DavidAnson/markdownlint/blob/main/doc/md010.md) no-hard-tabs
+> - [MD011](https://github.com/DavidAnson/markdownlint/blob/main/doc/md011.md) no-reversed-links
+> - [MD012](https://github.com/DavidAnson/markdownlint/blob/main/doc/md012.md) no-multiple-blanks
+> - [MD014](https://github.com/DavidAnson/markdownlint/blob/main/doc/md014.md) commands-show-output
+> - [MD018](https://github.com/DavidAnson/markdownlint/blob/main/doc/md018.md) no-missing-space-atx
+> - [MD019](https://github.com/DavidAnson/markdownlint/blob/main/doc/md019.md) no-multiple-space-atx
+> - [MD022](https://github.com/DavidAnson/markdownlint/blob/main/doc/md022.md) blanks-around-headings
+> - [MD023](https://github.com/DavidAnson/markdownlint/blob/main/doc/md023.md) headings-start-left
+> - [MD026](https://github.com/DavidAnson/markdownlint/blob/main/doc/md026.md) no-trailing-punctuation
+> - [MD027](https://github.com/DavidAnson/markdownlint/blob/main/doc/md027.md) no-multiple-space-blockquote
+> - [MD028](https://github.com/DavidAnson/markdownlint/blob/main/doc/md028.md) no-blanks-blockquote
+> - [MD030](https://github.com/DavidAnson/markdownlint/blob/main/doc/md030.md) list-marker-space
+> - [MD031](https://github.com/DavidAnson/markdownlint/blob/main/doc/md031.md) blanks-around-fences
+> - [MD032](https://github.com/DavidAnson/markdownlint/blob/main/doc/md032.md) blanks-around-lists
+> - [MD037](https://github.com/DavidAnson/markdownlint/blob/main/doc/md037.md) no-space-in-emphasis
+> - [MD038](https://github.com/DavidAnson/markdownlint/blob/main/doc/md038.md) no-space-in-code
+> - [MD039](https://github.com/DavidAnson/markdownlint/blob/main/doc/md039.md) no-space-in-links
+> - [MD044](https://github.com/DavidAnson/markdownlint/blob/main/doc/md044.md) proper-names
+> - [MD047](https://github.com/DavidAnson/markdownlint/blob/main/doc/md047.md) single-trailing-newline
+> - [MD049](https://github.com/DavidAnson/markdownlint/blob/main/doc/md049.md) emphasis-style
+> - [MD050](https://github.com/DavidAnson/markdownlint/blob/main/doc/md050.md) strong-style
+> - [MD053](https://github.com/DavidAnson/markdownlint/blob/main/doc/md053.md) link-image-reference-definitions
+> - [TOP002](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP002.md) no-code-in-headings
+> - [TOP003](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP003.md) default-section-content
+> - [TOP005](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md) blanks-around-multiline-html-tags
+> - [TOP006](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP006.md) full-fenced-code-language
+> - [TOP007](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP007.md) use-markdown-links
+> - [TOP008](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP008.md) use-backticks-for-fenced-code-blocks
+> - [TOP010](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP010.md) use-lazy-numbering

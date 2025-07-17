@@ -51,7 +51,7 @@ To view all environment variables in the current shell, you can run `printenv`. 
 
 #### dotenv
 
-[dotenv](https://www.npmjs.com/package/dotenv) is one of the most common ways to load environment variables. After installing the npm package, you can create a file called `.env` in the root of your project that will contain all of your environment variables in the format `NAME="VALUE"`. For example:
+[dotenv](https://www.npmjs.com/package/dotenv) is one of the most common ways to load environment variables. After installing the npm package, you can create a file called `.env` in the root of your project that will contain all of your environment variables in the format `NAME="VALUE"`. Note that **you cannot have spaces around the `=` in this file**, else the values will be read incorrectly. For example:
 
 ```properties
 NODE_ENV=prod
