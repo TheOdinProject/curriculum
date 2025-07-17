@@ -8,7 +8,7 @@ This is NOT an excuse to procrastinate or only send out one application a day.  
 
 </div>
 
-Over time, you will work your way through your excel list.  It's usually good to start at the bottom with the companies that you would barely work at.  Once you feel comfortable with your application-sending and hopefully interviewing abilities, you can start tackling the companies at the top that you *really* want to work for.
+Over time, you will work your way through your Excel list.  It's usually good to start at the bottom with the companies that you would barely work at.  Once you feel comfortable with your application-sending and hopefully interviewing abilities, you can start tackling the companies at the top that you *really* want to work for.
 
 ### Go in the side door
 
