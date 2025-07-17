@@ -24,14 +24,14 @@ function getNoteBoxHeadings(headings, currentToken, index, tokens) {
 }
 
 module.exports = {
-  names: ["TOP011", "note-box-headings"],
+  names: ["TOP012", "note-box-headings"],
   description: "Note boxes have appropriate headings",
   information: new URL(
-    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md",
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP012.md",
   ),
   tags: ["headings"],
   parser: "markdownit",
-  function: function TOP011(params, onError) {
+  function: function TOP012(params, onError) {
     const { tokens } = params.parsers.markdownit;
     const noteBoxesWithoutHeadings = tokens.filter(lacksHeading);
     const noteBoxHeadings = tokens.reduce(getNoteBoxHeadings, []);

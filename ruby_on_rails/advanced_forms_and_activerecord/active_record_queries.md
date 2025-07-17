@@ -113,7 +113,6 @@ Just like with SQL, you often want to group fields together (or "roll up" the va
   # => {"tag1" => 4, "tag2" => 2, "tag3" => 5}
 ```
 
-`#having` is sort of like a `#where` clause for grouped queries.
 
 ### Joins
 

@@ -1,6 +1,6 @@
 ### Introduction
 
-This file should flag with TOP011 errors, and no other linting errors.
+This file should flag with TOP012 errors, and no other linting errors.
 
 ### Lesson overview
 

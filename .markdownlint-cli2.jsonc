@@ -21,6 +21,10 @@
       // Arbitrary length - Revisit to possibly set a standard
       "line_length": 9999
     },
+    // heading-start-left
+    // Enforces 0 heading indentation
+    // Overwritten by custom TOP011 rule as certain headings need to be indented
+    "MD023": false,
     // no-trailing-punctuation
     // Prevents most punctuation in headings, except for exclamation and question marks
     "MD026": {
@@ -93,6 +97,7 @@
     "./markdownlint/TOP008_useBackticksForFencedCodeBlocks/TOP008_useBackticksForFencedCodeBlocks.js",
     "./markdownlint/TOP009_lessonOverviewItemsSentenceStructure/TOP009_lessonOverviewItemsSentenceStructure.js",
     "./markdownlint/TOP010_useLazyNumbering/TOP010_useLazyNumbering.js",
-    "./markdownlint/TOP011_noteBoxHeadings/TOP011_noteBoxHeadings.js"
+    "./markdownlint/TOP011_headingIndentation/TOP011_headingIndentation.js",
+    "./markdownlint/TOP012_noteBoxHeadings/TOP012_noteBoxHeadings.js"
   ]
 }
