@@ -16,9 +16,9 @@ For brevity's sake, we'll refer to database as db from now on.
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Setting up a new db in PostgreSQL shell
-- Setting up and querying with node-postgres
-- Using a script to populate the db
+- Setting up a new db in PostgreSQL shell.
+- Setting up and querying with node-postgres.
+- Using a script to populate the db.
 
 ### Setting up an Express app
 
@@ -114,6 +114,8 @@ module.exports = new Pool({
   port: 5432 // The default port
 });
 ```
+
+Remember that you should change the `<role_name>` and `<role_password>` (We have already set them in the previous lesson)!
 
 An alternative to defining the connection information is through a [Connection URI](https://node-postgres.com/features/connecting#connection-uri). You'll likely be using connection URIs when connecting with a hosted database service. Here's what it would look like based on the above properties:
 

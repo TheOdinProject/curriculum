@@ -2,7 +2,7 @@
 
 It's time to practice all of the HTML knowledge you have acquired. In this project, you are going to build a basic recipe website.
 
-The website will consist of a main index page which will have links to a few recipes. The website won't look very pretty by the time you've finished but it's important to keep in mind that this project is just to build your HTML chops; we will revisit this project in the future to style it up with CSS.
+The website will consist of a main index page which will have links to a few recipes. The website won't look very pretty by the time you've finished but it's important to keep in mind that the purpose of this project is to build your HTML chops; we will revisit this project in the future to style it up with CSS.
 
 ### Setting up your project's GitHub repository
 
@@ -75,7 +75,7 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 
 Your new recipe page should have the following content:
 
-1. An image of the finished dish under the h1 heading that you added earlier. You can find images of the dish on Google or [Allrecipes](https://www.allrecipes.com/).
+1. A free image of the finished dish under the h1 heading that you added earlier.
 
 1. Under the image, it should have an appropriately sized "Description" heading followed by a paragraph or two describing the recipe.
 
@@ -126,15 +126,15 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 <div class="lesson-note" markdown="1">
 
-When you look at project submissions below, you might be asking:
-"Why do they look so good, should my project look like this?".
+#### Project submissions and reasonable expectations
+
+When you look at project submissions below, you might be asking: "Why do they look so good, should my project look like this?"
 
 Here is the answer:
 
 1. The main reason they look that good is that they are not done by beginners. They were likely submitted by people who had some experience with programming, or who have completed The Odin Project before and are coming back to make better websites.
 1. Your project should not look like that. Focus mainly on the requirements of the project.
 
-This applies for future projects too.
-For more information read ["Learning Code" from "Becoming a TOP Success Story"](https://dev.to/theodinproject/learning-code-f56).
+This applies for future projects too. For more information read ["Learning Code" from "Becoming a TOP Success Story"](https://dev.to/theodinproject/learning-code-f56).
 
 </div>

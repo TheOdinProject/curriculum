@@ -25,21 +25,25 @@ While it does this, we could also get it to do a whole bunch of other things, su
 
 Webpack is one of the most popular JavaScript bundlers, if not the most popular one, and has been for a long time. Let's get started with bundling!
 
-We'll first need to make a new directory for our practice app, so run the following in your terminal:
+We'll first need to make a new directory for our practice app, then create a `package.json` file in it for npm to record information about packages we use (like Webpack). Run the following in your terminal:
 
 ```bash
-mkdir webpack-practice && cd webpack-practice
+mkdir webpack-practice &&
+cd webpack-practice &&
+npm init -y
 ```
 
-Once inside your new directory, we can go ahead and install Webpack, which involves two packages.
+Inside your new directory, before we install anything, open `package.json`. If you see `"type": "commonjs"` or `"type": "module"` inside, **remove it**, otherwise Webpack will start throwing errors at us due to clashing module issues.
+
+Once we've made sure `package.json` does not contain a `"type"` property, we can go ahead and install Webpack, which involves two packages.
 
 ```bash
 npm install --save-dev webpack webpack-cli
 ```
 
-Note that we included the `--save-dev` flag (you can also use `-D` as a shortcut), which tells npm to record our two packages as development dependencies. You will see a `package.json` has been created for us with both packages marked as development dependencies. We will only be using Webpack during development. The actual code that makes Webpack run will not be part of the code that the browser will run.
+Note that we included the `--save-dev` flag (you can also use `-D` as a shortcut), which tells npm to record our two packages as development dependencies. We will only be using Webpack during development. The actual code that makes Webpack run will not be part of the code that the browser will run.
 
-Also notice that when these finished installing, a `node_modules` directory and a `package-lock.json` got auto-generated. `node_modules` is where Webpack's actual code (and a whole bunch of other stuff) lives, and `package-lock.json` is just another file npm uses to track more specific package information.
+Also notice that when these finished installing, npm created a `node_modules` directory and a `package-lock.json` file for us. `node_modules` is where Webpack's actual code (and a whole bunch of other stuff) lives, and `package-lock.json` is just another file npm uses to track more specific package information.
 
 <div class="lesson-note" markdown="1">
 
@@ -231,6 +235,7 @@ body {
 You can now import your CSS file into one of your JavaScript files. `src/index.js` makes sense. We don't need anything from the imported CSS file itself. Since our CSS and style loaders will handle all of that for us, we can just use a [side effect import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#import_a_module_for_its_side_effects_only).
 
 ```javascript
+// src/index.js
 import "./styles.css";
 import { greeting } from "./greeting.js";
 
@@ -266,6 +271,7 @@ There are three different ways you could be dealing with local image files:
    Then, add the following object to the `module.rules` array within `webpack.config.js`:
 
    ```javascript
+   // webpack.config.js
    {
      test: /\.html$/i,
      loader: "html-loader",
@@ -277,6 +283,7 @@ There are three different ways you could be dealing with local image files:
    If we need to use a local image file in our JavaScript (such as when manipulating the DOM to create or edit `img` elements and set their `src` attribute), we need to import the images into our JavaScript module. Since images aren't JavaScript, we need to tell Webpack that these files will be assets by adding an `asset/resource` rule. No need to install anything here. Just add the following object to the `module.rules` array within `webpack.config.js`:
 
    ```javascript
+   // webpack.config.js
    {
      test: /\.(png|svg|jpg|jpeg|gif)$/i,
      type: "asset/resource",
@@ -288,6 +295,7 @@ There are three different ways you could be dealing with local image files:
    Then, in whatever JavaScript module we want to use that image in, we just have to default import it.
 
    ```javascript
+   // src/index.js
    import odinImage from "./odin.png";
    
    const image = document.createElement("img");

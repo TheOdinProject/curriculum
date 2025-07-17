@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### How to run JavaScript code
 
-All JavaScript we will be writing in the majority of the Foundations course will be run via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment.
+All JavaScript we will be writing in the majority of the Foundations course will be run via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment. This means that we will let the browser execute our code, even if it comes from a file we created.
 
 Outside of these lessons, for now you should always default to running your JavaScript in the browser unless otherwise specified, otherwise you may run into unexpected errors.
 
@@ -69,7 +69,7 @@ We named our file `javascript.js` but we could have chosen any name like `my-scr
 
 ### Variables
 
-These are the building blocks of any program, you can think of variables as "storage containers" for data in your code.
+These are the building blocks of any program. You can think of variables as "storage containers" for data in your code.
 
 ![Variable Box Illustration](https://cdn.statically.io/gh/TheOdinProject/curriculum/d39eaf2ca95e80705f703bb218216c10508f5047/foundations/javascript_basics/fundamentals-1/imgs/00.png)
 

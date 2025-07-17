@@ -8,8 +8,8 @@ Now that you understand the basic syntax of HTML and CSS, we’re going to get s
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What the box model is
-- Margins, padding, and borders
+- What the box model is.
+- Margins, padding, and borders.
 
 ### The box model
 

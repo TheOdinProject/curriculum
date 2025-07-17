@@ -86,7 +86,7 @@ The `body()` function allows you to specify which fields in the request body sho
 ];
 ```
 
-This example marks `birthdate` field as optional, but still enforces the ISO8601 date format on inputs. This is because `{ values: "falsy" }` means values that aren't `undefined`, `null`, `false`, or `0` will still be validated.
+This example marks `birthdate` field as optional, but still enforces the ISO8601 date format on inputs. This is because `{ values: "falsy" }` means values that aren't `undefined`, `null`, `false`, `0` or empty strings `""` will still be validated.
 
 ### Chaining validations
 
@@ -565,7 +565,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you validate and sanitize form input using express-validator?](#understanding-the-body-function)
 - [What is the difference between validation and sanitization?](#validation-and-sanitization)
 - [How do you handle validation errors in Express routes?](#validation-results)
-- [What is the importance of escaping HTML characters in a form?](https://owasp.org/www-community/attacks/SQL_Injection)
+- [What is the importance of escaping HTML characters in a form?](https://www.theodinproject.com/lessons/nodejs-forms-and-data-handling#escaping-user-input)
 
 ### Additional resources
 

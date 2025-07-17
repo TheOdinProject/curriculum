@@ -212,7 +212,7 @@ The same applies to code that is no longer used. If you need it again in the fut
 theFunctionInUse();
 // oldFunction();
 // evenOlderUselessFunction();
-// whyAmIEvenHereImAncient():
+// whyAmIEvenHereImAncient();
 ```
 
 #### Tell why, not how

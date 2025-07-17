@@ -4,7 +4,7 @@ Test Driven Development, or TDD for short, is a *big* deal in the modern develop
 
 There are many test-running systems available in JavaScript: [Mocha](https://mochajs.org/), [Jasmine](https://jasmine.github.io/), [Tape](https://github.com/substack/tape) and [Jest](https://jestjs.io/) to name a few. Fortunately, the syntax for each one is very similar. They all have their own set of special features, but the basic syntax is almost identical, so in the end it doesn't matter which one you use. In fact, picking which library to use for this curriculum has been quite tricky!  
 
-This lesson is going to center around **Jest**. The biggest reasons for this decision are that one of the best resources we've found for explaining JavaScript testing uses it and they have fantastic documentation. In the end, writing tests is less about the syntax and more about the TDD philosophy.  The most important issues are knowing **why** we write tests and **what** we test rather than how.
+This lesson is going to center around **Jest**. We have found that it has one of the best resources for explaining JavaScript testing, as well as fantastic documentation. In the end, writing tests is less about the syntax and more about the TDD philosophy.  The most important issues are knowing **why** we write tests and **what** we test rather than how.
 
 ### Lesson overview
 
@@ -37,4 +37,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Watch this [TDD introduction](https://www.youtube.com/watch?v=Jv2uxzhPFl4) for an additional explanation of Test Driven Development as well as some useful examples.
