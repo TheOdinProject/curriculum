@@ -20,6 +20,7 @@ function categoriseHeadings(headingTypes, currentToken, index, tokens) {
 }
 
 function countLeadingSpaces(str) {
+  // https://regexr.com/8g1j2 to test this regex
   return str.search(/[^ ]/);
 }
 
