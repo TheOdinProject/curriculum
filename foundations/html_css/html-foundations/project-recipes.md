@@ -48,6 +48,21 @@ After you have entered `git push origin main`, switch over to your browser and o
 
 Okay, that's enough Git for the moment -- time to actually build stuff!
 
+### Warning about looking at other people's finished project code before you have completed your own
+
+But before we move on: all of our projects have a "Student Solutions" section at the bottom for people to post their completed code and live websites for the projects. These are here for you both to compare your completed code with and see what other routes people have chosen to take with their project code and designs.
+
+We know it may be tempting to look at the solutions when you get stuck or don't know where to start, but **don't** do it! Here are some reasons why:
+
+- All of the submitted projects are *other learners'* solutions. This means they are written by other people who are also still learning and may not necessarily be representative of "best practice" or high quality code.
+- Looking at solutions robs you of the chance to develop your problem solving and researching skills. In the real world, there will not always be "solutions" for you to look at, and you will have to come up with your own.
+- There are many different ways to achieve the same end result - it is not "one size fits all."
+- An analogy: "Learning how to code from looking at completed code is like learning how to make pizza dough from looking at a baked pizza."  There is a lot more that goes into it than you might assume from only seeing the final product and not the process that led to it.
+
+Once you have completed your project, feel free to look at the other solutions to see alternative ways the project was completed.
+
+**DO NOT PEEK. Come ask for help in our [Discord server!](https://discord.com/channels/505093832157691914/516751477306294273) *(You need to [join the Discord server](https://discord.gg/fbFCkYabZB) first in order to see the channel).***
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
