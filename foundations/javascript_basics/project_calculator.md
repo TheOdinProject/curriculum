@@ -44,7 +44,7 @@ Here are some use cases (expectations about your project):
      1. Enter another number (`1`).
      1. Enter another operator or equals sign (`=`). At this point, it should use the previous result (`19`) as the first number, the operator (`-`), and the new number (`1`) to calculate the new equation `19 - 1`. You should see the result (`18`) on the display.
 
-     - To see what this looks like in action, feel free to input the equation we just explained `12 + 7 - 1 =` into [this online calculator](https://www.online-calculator.com/simple-full-screen-calculator/).
+     - To see what this looks like in action, feel free to input the equation we just explained `12 + 7 - 1 =` into this [online calculator](https://www.online-calculator.com/simple-full-screen-calculator/).
    - You should round answers with long decimals so that they don't overflow the display.
    - Pressing `=` before entering all of the numbers or an operator could cause problems!
    - Pressing "clear" should wipe out any existing data. Make sure the user is really starting fresh after pressing "clear".
