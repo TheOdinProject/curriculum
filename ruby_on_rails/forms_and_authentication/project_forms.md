@@ -118,7 +118,7 @@ Above, we asked to disable Turbo for the sake of the exercise.
 
    No more CSRF error?!
 
-1. The from is now submitted with Turbo, yet Rails still protects you by verifying a CSRF token. Where does this token comes from? Check your inspector and your `application.html.erb` template. Can you find a CSRF token that is always available? Remove this one too from `application.html.erb`, and verify that the server hits back with a CSRF error.
+1. The form is now submitted with Turbo, yet Rails still protects you by verifying a CSRF token. Where does this token comes from? Check your inspector and your `application.html.erb` template. Can you find a CSRF token that is always available? Remove this one too from `application.html.erb`, and verify that the server hits back with a CSRF error.
 
 1. Reinstate the CSRF token tag in both places and carry on.
 

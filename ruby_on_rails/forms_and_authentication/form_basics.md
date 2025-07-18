@@ -263,7 +263,7 @@ If you find yourself submitting a form and nothing is happening, chances are you
   1. Read the [Rails Guide on Form Helpers](http://guides.rubyonrails.org/form_helpers.html), sections 1 through 2.4.
   1. Skim 3.1 through 7 to see what kinds of things are out there.  One day you'll need them, and now you know where to look.
   1. Read sections 8.1 through 8.3 for the official explanation of how parameters are created from the `name` attribute.
-  1. Read the [Rails Guide on Validations](http://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views) section 8 for a quick look at displaying errors.
+  1. Read the [Rails Guide on Validations](http://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views) section 9 for a quick look at displaying errors.
   1. Skim through the official Rails API section on the [form_with helper](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_with) to see various ways to use this helper tag.
 
 </div>
@@ -278,10 +278,10 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is the `name` attribute of a form input element and what does it do?](#railsifying-your-form-by-making-forms-input-into-params)
 - [How do you nest attributes under a single hash in `params`?](#railsifying-your-form-by-making-forms-input-into-params)
-- [How do you pass `form_with` a model object?](#using-models-with-the-form_with-helper)
+- [How do you pass `form_with` a model object?](#using-models-with-the-formwith-helper)
 - [How do you access errors for a failed-to-save model object?](#forms-and-validations)
 - [How do Rails forms make PATCH or DELETE requests?](#making-patch-and-delete-submissions)
-- [What is one case where you may need an array of hashes within the `params` hash?](https://guides.rubyonrails.org/form_helpers.html#combining-them)
+- [What is one case where you may need an array of hashes within the `params` hash?](https://guides.rubyonrails.org/form_helpers.html#combining-arrays-and-hashes)
 
 ### Additional resources
 
