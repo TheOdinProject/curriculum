@@ -36,7 +36,15 @@ Here are some use cases (expectations about your project):
    - You should already have the code that can populate the display, so once `operate` has been called, update the display with the result of the operation.
    - This is the hardest part of the project. You need to figure out how to store all the values and call the `operate` function with them. Don't feel bad if it takes you a while to figure out the logic.
 1. Gotchas: watch out for and fix these bugs if they show up in your code:
-   - **Your calculator should not evaluate more than a single pair of numbers at a time.** Example: you enter a number (`12`), followed by an operator button (`+`), a second number button (`7`), and a second operator button (`-`). Your calculator should then do the following: first, evaluate the initial pair of numbers (`12 + 7`), then display the result of that calculation (`19`). Finally, use that result (`19`) as the first number in a new calculation, along with the next operator (`-`). An example of the behavior we're looking for can be seen in [this online calculator](https://www.online-calculator.com/simple-full-screen-calculator/).
+   - **Your calculator should not evaluate more than a single pair of numbers at a time.** For example, this is how your calculator should function:
+     1. Enter a number (`12`).
+     1. Enter an operator (`+`).
+     1. Enter a second number (`7`).
+     1. Enter a second operator (`-`). At this point, it should evaluate the initial pair of numbers (`12 + 7`), then display the result (`19`).
+     1. Enter another number (`1`).
+     1. Enter another operator or equals sign (`=`). At this point, it should use the previous result (`19`) as the first number, the operator (`-`), and the new number (`1`) to calculate the new equation `19 - 1`. You should see the result (`18`) on the display.
+
+     - To see what this looks like in action, feel free to input the equation we just explained `12 + 7 - 1 =` into [this online calculator](https://www.online-calculator.com/simple-full-screen-calculator/).
    - You should round answers with long decimals so that they don't overflow the display.
    - Pressing `=` before entering all of the numbers or an operator could cause problems!
    - Pressing "clear" should wipe out any existing data. Make sure the user is really starting fresh after pressing "clear".
