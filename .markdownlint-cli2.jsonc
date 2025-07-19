@@ -97,6 +97,7 @@
     "./markdownlint/TOP008_useBackticksForFencedCodeBlocks/TOP008_useBackticksForFencedCodeBlocks.js",
     "./markdownlint/TOP009_lessonOverviewItemsSentenceStructure/TOP009_lessonOverviewItemsSentenceStructure.js",
     "./markdownlint/TOP010_useLazyNumbering/TOP010_useLazyNumbering.js",
-    "./markdownlint/TOP011_headingIndentation/TOP011_headingIndentation.js"
+    "./markdownlint/TOP011_headingIndentation/TOP011_headingIndentation.js",
+    "./markdownlint/TOP012_noteBoxHeadings/TOP012_noteBoxHeadings.js"
   ]
 }
