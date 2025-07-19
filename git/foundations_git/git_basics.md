@@ -52,7 +52,7 @@ This section contains a general overview of topics that you will learn in this l
    origin  git@github.com:USER-NAME/git_test.git (push)
    ```
 
-This displays the URL of the repository you created on GitHub, which is the remote for your local copy. <span id="default-remote"></span>You may have also noticed the word *origin* at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository, but it could have just as easily been named "party-parrot" or "dancing-banana". (Don't worry about the details of origin for now; it will come up again near the end of this tutorial.)
+   This displays the URL of the repository you created on GitHub, which is the remote for your local copy. <span id="default-remote"></span>You may have also noticed the word *origin* at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository, but it could have just as easily been named "party-parrot" or "dancing-banana" (don't worry about the details of origin for now; it will come up again near the end of this tutorial).
 
 #### Use the Git workflow
 
