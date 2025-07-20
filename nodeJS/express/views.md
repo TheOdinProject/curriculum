@@ -82,7 +82,7 @@ app.get("/", (req, res) => {
 });
 ```
 
-#### Ideally we would define the route in a separate router file, but for the purposes of this lesson we'll be defining it in `app.js`
+Ideally we would define the route in a separate router file, but for the purposes of this lesson we'll be defining it in `app.js`
 
 Start the server and go to the `/` route in the browser. You should see:
 
