@@ -331,7 +331,7 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What are the basic arithmetic operators you can use on numbers? ](#numbers)
+- [What are the basic arithmetic operators you can use on numbers?](#numbers)
 - [What's the difference between an integer and a float?](#integers-and-floats)
 - [What method would you use to convert a float to an integer?](#converting-number-types)
 - [What method would you use to convert an integer to a float?](#converting-number-types)
