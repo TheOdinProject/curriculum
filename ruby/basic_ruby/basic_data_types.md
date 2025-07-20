@@ -76,14 +76,14 @@ As shown in the last example above, when Ruby converts a float to an integer, th
 
 There are many useful methods for numbers built into Ruby. For example,
 
-**#even?**
+##### #even?
 
 ```ruby
 6.even? #=> true
 7.even? #=> false
 ```
 
-**#odd?**
+##### #odd?
 
 ```ruby
 6.odd? #=> false
@@ -182,13 +182,13 @@ Just remember, strings have loads of methods provided to you for free, and you c
 
 Below is a quick recap of the more common string methods you might find yourself using:
 
-**#capitalize**
+##### #capitalize
 
 ```ruby
 "hello".capitalize #=> "Hello"
 ```
 
-**#include?**
+##### #include?
 
 ```ruby
 "hello".include?("lo")  #=> true
@@ -196,19 +196,19 @@ Below is a quick recap of the more common string methods you might find yourself
 "hello".include?("z")   #=> false
 ```
 
-<span id="upcase">**#upcase**</span>
+##### <span id="upcase">#upcase</span>
 
 ```ruby
 "hello".upcase  #=> "HELLO"
 ```
 
-**#downcase**
+##### #downcase
 
 ```ruby
 "Hello".downcase  #=> "hello"
 ```
 
-**#empty?**
+##### #empty?
 
 ```ruby
 "hello".empty?  #=> false
@@ -216,19 +216,19 @@ Below is a quick recap of the more common string methods you might find yourself
 "".empty?       #=> true
 ```
 
-**#length**
+##### #length
 
 ```ruby
 "hello".length  #=> 5
 ```
 
-**#reverse**
+##### #reverse
 
 ```ruby
 "hello".reverse  #=> "olleh"
 ```
 
-<span id="split">**#split**</span>
+##### <span id="split">#split</span>
 
 ```ruby
 "hello world".split  #=> ["hello", "world"]
@@ -236,7 +236,7 @@ Below is a quick recap of the more common string methods you might find yourself
 "hello".split("")    #=> ["h", "e", "l", "l", "o"]
 ```
 
-**#strip**
+##### #strip
 
 ```ruby
 " hello, world   ".strip  #=> "hello, world"
