@@ -316,14 +316,14 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 
 <div class="lesson-content__panel" markdown="1">
 
+Remember, if you get stuck, ask questions in the #ruby-help channel of our Discord server!
+
 1. Read the [Basics chapter of LaunchSchool's *Introduction to Programming With Ruby*](https://launchschool.com/books/ruby/read/basics) for a different explanation of Ruby's data types. Be sure to also complete the exercises.
 1. Read [Alex Chaffee’s brief writeup on Objects](https://codelikethis.com/lessons/learn-to-code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
 1. Now it is time to complete some test-driven exercises to practice what you have learned in this lesson.
-
-    - Follow the cloning and installation instructions in the main README to set up our [ruby-exercise repo](https://github.com/TheOdinProject/ruby-exercises).
-    - Then follow the instructions in the [ruby-basics README](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) to complete the `1_data_types` exercises.
-    - If you get stuck, ask questions in the #ruby-help channel in our Discord server.
-    - After you have completed the exercises, check out the solutions branch on GitHub to compare solutions.
+   - Follow the [cloning and installation instructions in the main README of our ruby-exercise repo](https://github.com/TheOdinProject/ruby-exercises?tab=readme-ov-file#cloning-and-installation) to set up the exercises.
+   - Then, follow the [usage instructions in the ruby-basics README](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics#usage) to complete the exercises in the `1_data_types` folder.
+   - After completing the exercises, check out the solutions branch on GitHub to compare solutions.
 
 </div>
 
