@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 - Dangers of history-changing operations.
 - Best practices of history-changing operations.
 
-### Git push -\-force
+### Force-pushing with Git
 
 Let's say you're no longer working on a project all by yourself, but with someone else. You want to push a branch you've made changes on to a remote repository. Normally, Git will only let you push your changes if you've already updated your local branch with the latest commits from this remote.
 
