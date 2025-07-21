@@ -355,5 +355,9 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- If you want to go deeper into Ruby's numbers and string data types, read the [Numbers](http://ruby.bastardsbook.com/chapters/numbers/) and [Strings](http://ruby.bastardsbook.com/chapters/strings/) chapters from the *Bastards Book of Ruby*.
-- Read through the following sections about data types from Ruby Monstas: [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html), [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html), [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html), then [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html).
+- [The Bastards Book of Ruby's "Numbers" chapter](http://ruby.bastardsbook.com/chapters/numbers/)
+- [The Bastards Book of Ruby's "Strings" chapter](http://ruby.bastardsbook.com/chapters/strings/)
+- [Ruby Monstas "Numbers" section](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
+- [Ruby Monstas "Strings" section](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
+- [Ruby Monstas "Symbols" section](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
+- [Ruby Monstas "True, False, and Nil" section](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
