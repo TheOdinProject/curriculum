@@ -114,7 +114,7 @@ A hash map does not guarantee insertion order when you iterate over it. The tran
 Some libraries implement hash maps with insertion order in mind such as JavaScript's own `Map`. For the coming project however we will be implementing an unordered hash map.
 Example: if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]` when we call an iterator.
 
-If iterating over a hash map frequently is your goal, then this data structure is not the right choice for the job, a simple array would be better.
+If iterating over a hash map frequently is your goal, then this data structure is not the right choice for the job ; a simple array would be better.
 
 ### Collisions
 
