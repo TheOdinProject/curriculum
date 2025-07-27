@@ -1,12 +1,13 @@
 ### Introduction
 
-In previous lessons we covered both stateful authentication (demonstrated using sessions) and stateless authentication (using JWTs). You will often see both approaches out in the wild, which may not necessarily be implemented with sessions or JWTs specifically, but why the options? What are the pros and cons of each? How should I authenticate my applications? We will explore and compare our options in this lesson specifically in the context of projects for the rest of this course, where we implement authentication for the purpose of login persistence (session management).
+In previous lessons, we covered both stateful authentication (demonstrated using server-side sessions) and stateless authentication (using JWTs) for the purpose of session management (persisting logins). You will often see both approaches out in the wild, although not necessarily implemented using sessions or JWTs specifically, but still, why the options? What are the pros and cons of each? How should you authenticate your applications? In this lesson, we will explore and compare our options specifically in the context of projects for the rest of this course, where authentication is used for session management. We will also touch on challenges you may face when it comes to authentication and deployment.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Compare pros and cons of stateful and stateless approaches to authentication.
+- Compare pros and cons of stateful and stateless approaches to authentication and session management.
+- Explore ways to handle authentication when the client and server are not hosted on the same domain.
 
 ### Stateful vs stateless
 
