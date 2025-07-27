@@ -45,6 +45,16 @@ For the purposes of TOP projects going forward, stick to stateful authentication
 
 There are plenty of good and bad implementations of authentication out in the wild, both stateful and stateless, hence it's good to be aware of the concepts and mechanisms. You may end up working with things in the future where stateless authentication (whether with JWTs or other types of tokens) makes perfect sense. As far as TOP projects are concerned though, that isn't quite the case; simply put, our use case for authenticating requests from an SPA and separate server is one where stateful sessions are a very appropriate solution, more so than stateless JWTs.
 
+### Cross-site authentication
+
+Given that we're recommending to stick with stateful sessions and the use of httpOnly cookies to send and store the session ID, there's a little more we have to do now that we're starting to make single page applications (SPAs) and hosting them separately from our servers.
+
+Earlier in the course, we made monolithic applications; the servers we made were also the ones serving the front end, meaning both ends would have been on the same domain when deployed. Any requests between client and server would have been "first party" (or "same site"). Browsers are very happy to set first-party cookies.
+
+The problem comes when each end is hosted on separate domains, where requests are "third party" (or "cross site"). Nowadays, browsers are not very happy to set third-party cookies, and you may have already heard about [restrictions or even blockages on third-party cookies across browsers](https://developer.mozilla.org/en-US/docs/Web/Privacy/Guides/Third-party_cookies#how_do_browsers_handle_third-party_cookies) over the last few years. This will pose a problem with our third-party session cookies! We'd send them from the server but the client won't set them, so no login persistence!
+
+We *could* handle this by purchasing a custom domain and setting things up so our separate client and server are both on that domain, meaning our session cookies would be first-party cookies, but that's out of the scope of this curriculum. So what can we do?
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
