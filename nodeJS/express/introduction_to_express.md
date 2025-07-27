@@ -32,7 +32,10 @@ const app = express();
 app.get("/", (req, res) => res.send("Hello, world!"));
 
 const PORT = 3000;
-app.listen(PORT, () => {
+app.listen(PORT, (error) => {
+  if (error) {
+    throw error;
+  }
   console.log(`My first Express app - listening on port ${PORT}!`);
 });
 ```
@@ -41,7 +44,7 @@ Let's break this down. We import `express` then call it to initialize the `app` 
 
 We then have a `route` - the line beginning with `app.get`. We will come back to this in a moment.
 
-Finally, we tell our server to listen for incoming requests on whatever port we specify, via [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged.
+Finally, we tell our server to listen for incoming requests on whatever port we specify, via [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged. If something goes wrong, such as the port is already in use, it will throw an error instead.
 
 Congratulations! Your first Express server is now running.
 
