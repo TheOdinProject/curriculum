@@ -107,7 +107,7 @@ To begin, we have to import the module we're testing, in this case it's the file
 const index = require("../index");
 ```
 
-Next, we include both `supertest` and `express`.  We're setting up a new Express app and then using the index router that we imported previously. The reason we have to do this setup here is because we are not actually touching our original `app.js` file. The main reason that we're doing it this way is so that we can avoid calling the app.listen command and starting our server, but it's also useful because, in larger apps, we can skip some of the optional configuration steps and only include the bits that we need for our testing purposes.  In a larger test suite, it would probably be useful to abstract this part out to its own file that gets imported into each test file.
+Next, we include both `supertest` and `express`.  We're setting up a new Express app and then using the index router that we imported previously. The reason we have to do this setup here is because we are not actually touching our original `app.js` file. The main reason that we're doing it this way is so that we can avoid calling the `app.listen` command and starting our server, but it's also useful because, in larger apps, we can skip some of the optional configuration steps and only include the bits that we need for our testing purposes.  In a larger test suite, it would probably be useful to abstract this part out to its own file that gets imported into each test file.
 
 ```javascript
 const request = require("supertest");
