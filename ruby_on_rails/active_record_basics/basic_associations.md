@@ -68,7 +68,7 @@ If you're a normal human, you're probably somewhere between "huh?" and "I hate y
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the beginning of the [Rails Guides Associations Chapter](http://guides.rubyonrails.org/association_basics.html), just up until section 2.6.1.5. Everything after that we can save for later... the important thing is that you've seen the relationships and how they're set up.
+1. Read the beginning of the [Rails Guides Associations Chapter](http://guides.rubyonrails.org/association_basics.html), just up until section 3.2. Everything after that we can save for later... the important thing is that you've seen the relationships and how they're set up.
 
 </div>
 
