@@ -55,6 +55,34 @@ The problem comes when each end is hosted on separate domains, where requests ar
 
 We *could* handle this by purchasing a custom domain and setting things up so our separate client and server are both on that domain, meaning our session cookies would be first-party cookies, but that's out of the scope of this curriculum. So what can we do?
 
+#### Reverse proxies
+
+A reverse proxy is a server that takes requests from a client then forwards that request to another server, like a middleman, and is very versatile. This is one option for our third-party session cookie dilemma and the simplest to implement in terms of this curriculum's scope.
+
+The idea is that instead of sending requests directly to the main server, the client sends a request to the reverse proxy, which would be hosted on the same domain as the client. The reverse proxy would then forward that request to our main server. Our main server would then respond to the reverse proxy, which would then get forwarded back to the client. The important thing here is that the reverse proxy and client are hosted on the same domain, which would mean as far as the client is concerned, all cookie stuff is first party, not third party, and we know browsers are very happy setting first-party cookies.
+
+Fortunately for us, at the time of writing, both Netlify and Vercel allow us to set up reverse proxies on the same domain as the client without much work (unfortunately Cloudflare Pages does not support proxying to a different domain). Remember how with SPAs hosted on Netlify or Vercel, you'd need a "rewrite rule" to ensure all routes would still work if you refreshed the page or accessed them directly via the address bar? For example, Netlify would have required a `_redirects` file containing something like:
+
+```text
+/* /index.html 200
+```
+
+This would tell Netlify to "serve `index.html` for any route (not just `/`)", then React Router would take over as necessary once loaded. We can do something very similar to set up a reverse proxy. For example, using the same Netlify `_redirects` format, we can add another rewrite rule:
+
+```text
+/api/* https://super-awesome-main-server-wow.com/:splat  200
+```
+
+This would redirect any requests for a client-side endpoint beginning with `/api` (just an example - can be anything you want) to the equivalent endpoint on `https://super-awesome-main-server-wow.com`.
+
+So if your front end is hosted on `https://super-awesome-client-wow.netlify.app`. Instead of POSTing directly to `https://super-awesome-main-server-wow.com/sessions`, you would POST to `https://super-awesome-client-wow.netlify.app/api/sessions`. Since Netlify and Vercel both support reverse proxying to another domain, they would forward that request to `https://super-awesome-main-server-wow.com/sessions`. You would also need to [make sure your Express server can trust reverse proxies](https://expressjs.com/en/guide/behind-proxies.html) by adding something like this to your server setup:
+
+```javascript
+app.set('trust proxy', 1);
+```
+
+In most cases, a value of 1 should suffice, though it's entirely possible that depending on where your server is hosted, a larger number is needed. Together, you can ensure a simpler and more secure stateful solution for session management while still having your client hosted on Netlify or Vercel, and your server hosted separately on one the [PaaS options from the Deployment lesson](https://www.theodinproject.com/lessons/node-path-nodejs-deployment#our-recommended-paas-services).
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
