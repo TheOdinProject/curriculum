@@ -31,7 +31,12 @@ app.use(express.urlencoded({ extended: false }));
 const indexRouter = require("./index");
 app.use("/", indexRouter);
 
-app.listen(3000, () => console.log("running"));
+app.listen(3000, (error) => {
+  if (error) {
+    throw error;
+  }
+  console.log("running");
+});
 ```
 
 ```javascript
