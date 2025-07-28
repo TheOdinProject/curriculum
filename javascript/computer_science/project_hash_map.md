@@ -37,7 +37,7 @@ if (index < 0 || index >= buckets.length) {
 
       You are free to use that, or you can conduct your own research on hashing algorithms. Beware, this is a deep, deep rabbit hole.
 
-However, there is one edge case our `hash` function still needs to address. For very long keys, our hash code will exceed the maximum integer value allowed by JavaScript. Once that happens, calculations become inaccurate, and the chance of collisions significantly increases. One way to avoid this issue is to apply the modulo `%` operator on *each iteration* instead of outside the loop at the end.
+      However, there is one edge case our `hash` function still needs to address. For very long keys, our hash code will exceed the maximum integer value allowed by JavaScript. Once that happens, calculations become inaccurate, and the chance of collisions significantly increases. One way to avoid this issue is to apply the modulo `%` operator on *each iteration* instead of outside the loop at the end.
 
 You may remember from the [previous lesson](https://www.theodinproject.com/lessons/javascript-hashmap-data-structure#growth-of-a-hash-map) that we used modulo % operator at the end of the hash function to fit the final hash into the bucket array. This approach still works for sizing, but placing modulo % operator inside the loop helps avoid integer overflow for long keys while still keeping the result within bucket range.
 
