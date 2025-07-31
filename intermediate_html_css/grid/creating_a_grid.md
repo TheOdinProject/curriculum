@@ -84,7 +84,7 @@ If we want to add more columns or rows to our grid, we can define these values t
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-CSS Grid also includes a shorthand property for defining rows and columns. In our previous example we can replace the properties for `grid-template-rows` and `grid-template-columns` with the shorthand `grid-template` property. Here we can define our rows and columns all at once. For this property, rows are defined before the slash and columns are defined after the slash. Let’s keep the same column and row values, but use the shorthand property instead:
+CSS Grid also includes a shorthand property for defining rows and columns. In our previous example, we can replace the properties `grid-template-rows` and `grid-template-columns` with the shorthand `grid-template` property. Here we can define our rows and columns all at once. For this property, rows are defined before the slash and columns are defined after the slash. Let’s keep the same column and row values, but use the shorthand property instead:
 
 ```css
 /* styles.css */
@@ -146,7 +146,7 @@ By default, CSS Grid will add additional content with implicit rows. This means 
 
 The gap between grid rows and columns is known as the gutter or alley. Gap sizes can be adjusted separately for rows and columns using the `column-gap` and `row-gap` properties. Furthermore, we can use a shorthand property called `gap` to set both `row-gap` and `column-gap`.
 
-Before adding our grid gap properties let’s make things a little easier to see without relying on developer tools. We’ll go ahead and add a border around our grid items so we can get a better sense of their placement around each other:
+Before adding our grid gap properties, let’s make things a little easier to see without relying on developer tools. We’ll go ahead and add a border around our grid items so we can get a better sense of their placement around each other:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="eYGmNzj" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -186,7 +186,7 @@ You can also try playing with the shorthand `gap` to set both the `row-gap` and 
 
 ### Wrapping up our first grid
 
-Now that you’ve made a grid you can start to see how easy it is to control the layout of your elements with CSS Grid. You may also realize how CSS Grid can solve common layout problems. In the next couple lessons we will cover positioning elements and advanced grid attributes. But first, check out the links below that cover making the basics of a grid in more detail.
+Now that you’ve made a grid, you can start to see how easy it is to control the layout of your elements with CSS Grid. You may also realize how CSS Grid can solve common layout problems. In the next couple of lessons, we will cover positioning elements and advanced grid attributes. Before moving on, check out the links below that cover making the basics of a grid in more detail.
 
 ### Assignment
 
