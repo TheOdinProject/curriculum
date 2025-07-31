@@ -125,7 +125,7 @@ You’ll notice our fifth item was placed on the grid and it’s been slotted in
 
 When we use the `grid-template-columns` and `grid-template-rows` properties, we are explicitly defining grid tracks to lay out our grid items. But when the grid needs more tracks for extra content, it will implicitly define new grid tracks. Additionally, the size values established from our `grid-template-columns` or `grid-template-rows` properties are not carried over into these implicit grid tracks. But we can define values for the implicit grid tracks.
 
-We can set the implicit grid track sizes using the `grid-auto-rows` and `grid-auto-columns` properties. In this way we can ensure any new tracks the implicit grid makes for extra content are set at values that we defined.
+We can set the implicit grid track sizes using the `grid-auto-rows` and `grid-auto-columns` properties, ensuring that any new tracks the implicit grid creates for extra content are set to values we define.
 
 Let’s say we want any new rows to stay the same value as our explicit row track sizes:
 
