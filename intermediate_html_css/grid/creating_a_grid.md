@@ -50,7 +50,7 @@ But just as you learned in the flexbox lessons, grid items can *also* be grid co
 
 #### Lines and tracks in grids, oh my!
 
-Since you’re coding along with our example (right?) you will notice it doesn’t look very grid-ish yet. A lot of resources on CSS Grid like to show you boxes and outlined grid tables right from the start. But if your grid container and grid items don’t have any borders you won't actually see these lines on the page. So don’t worry, they’re still there!
+Since you’re coding along with our example (right?) you will notice it doesn’t look very grid-ish yet. Although many CSS Grid resources often show boxes and outlined grid tables right from the start, if your grid container and grid items don’t have any borders, you won't actually see these lines on the page. So don’t worry, they’re still there!
 
 If you inspect these elements on a webpage using developer tools, you will notice grid badges on the grid elements in the code. The Layout options of the dev tools allows you to select an overlay that can show these invisible lines, tracks and areas of the grid. You will read about using a browser’s developer tools in the assignment below and learn more about lines, tracks, and areas in the next lesson.
 
