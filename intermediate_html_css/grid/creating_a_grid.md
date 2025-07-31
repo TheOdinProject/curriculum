@@ -186,7 +186,7 @@ You can also try playing with the shorthand `gap` to set both the `row-gap` and 
 
 ### Wrapping up our first grid
 
-Now that you’ve made a grid, you can start to see how easy it is to control the layout of your elements with CSS Grid. You may also realize how CSS Grid can solve common layout problems. In the next couple of lessons, we will cover positioning elements and advanced grid attributes. Before moving on, check out the links below that cover making the basics of a grid in more detail.
+Now that you’ve made a grid, you can start to see how easy it is to control the layout of your elements with CSS Grid. You may also realize how CSS Grid can solve common layout problems. In the next couple of lessons, we will cover positioning elements and advanced grid attributes. To help you prepare, check out the links below for more detailed explanation of the basics of a grid.
 
 ### Assignment
 
