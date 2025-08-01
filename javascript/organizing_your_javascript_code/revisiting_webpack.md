@@ -81,4 +81,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- For better understanding and visualization, check out this [YouTube playlist](https://youtube.com/playlist?list=PLblA84xge2_zwxh3XJqy6UVxS60YdusY8&si=O_jDyMnTKbfWu72e) made by Colt Steele. It covers everything from installing Webpack, to understanding how it works, using `loaders` and `plugins` and setting up the modes for `"development"` and `"production"` 
