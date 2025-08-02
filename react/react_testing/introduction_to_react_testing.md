@@ -60,7 +60,7 @@ describe("App component", () => {
 
 #### Vitest globals and ESLint
 
-Even if you set `globals: true` in `vite.config.js` like in the setup tutorial, ESLint will still yell at you, as it will not recognize these globals without some extra configuration in your `.eslintrc.cjs` file. The most straightforward resolution would be to explicitly import the globals you'd need. You can omit `globals: true` from `vite.config.js` in this case.
+Even if you set `globals: true` in `vite.config.js` like in the setup tutorial, ESLint will still yell at you, as it will not recognize these globals without some extra configuration in your `eslint.config.js` file. The most straightforward resolution would be to explicitly import the globals you'd need instead. You can omit `globals: true` from `vite.config.js` in this case.
 
 </div>
 
@@ -129,11 +129,11 @@ describe("App component", () => {
 
 The tests speak for themselves. In the first test, we utilize snapshots to check whether all the nodes render as we expect them to. In the second test, we simulate a click event. Then we check if the heading changed. `toMatch` is one of the various assertions we could have made. Notice that the callback function for the second test is an `async` one, as we need this in order to `await user.click()`.
 
-It's also important to note that after every test, React Testing Library unmounts the rendered components. That's why we render for each test. For a lot of tests for a component, the `beforeEach` Vitest function could prove handy.
+It's also important to note that after every test, React Testing Library unmounts the rendered components. That's why we render for each test. For a lot of tests for a component, a custom `setup` function could prove handy.
 
 ### What are snapshots?
 
-Snapshot testing is just comparing our rendered component with an associated snapshot file. For example, the snapshot file which was automatically generated after we ran the *"magnificent monkeys renders"* test was:
+Snapshot testing is just comparing our rendered component with an associated snapshot file. For example, the snapshot file which was automatically generated after we ran the *"renders magnificent monkeys"* test was:
 
 ```jsx
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
@@ -170,7 +170,7 @@ The other issue with snapshots is false negatives. Even the most insignificant o
 
 #### Focus on the concepts
 
-Even though some articles use Jest and the Enzyme testing library, the concepts should be transferrable.
+Even though some articles use Jest and the Enzyme testing library, the concepts should be transferable.
 
 </div>
 

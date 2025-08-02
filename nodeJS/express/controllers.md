@@ -218,40 +218,16 @@ async function getAuthorById(req, res) {
 
     // or we can call next(error) instead of sending a response here
     // Using `next(error)` however will only render an error page in the express' default view and respond with the whole html to the client.
-    // So we will need to create a special type of middleware function if we want a different response and we will get to that in a bit.
+    // So we will need to create a special type of middleware function if we want a different response and we will get to that... next.
   }
 };
 ```
 
-However, this is not exactly a clean solution since eventually, we will have to add the same try/catch block to *all* controllers. We can install a package called [express-async-handler](https://www.npmjs.com/package/express-async-handler) to hide this bit of code.
+What if we have many async middleware functions and a lot of them respond the same way just with things like different status codes and response messages? Instead of `try/catch` in each middleware, Express automatically catches any thrown errors and calls `next(error)`, which will pass control over to a special "error middleware function", meaning we wouldn't need to catch and handle in the original controller itself.
 
-```javascript
-const asyncHandler = require("express-async-handler");
+#### Error handler middleware
 
-// The function will automatically catch any errors thrown and call the next function
-const getAuthorById = asyncHandler(async (req, res) => {
-  const { authorId } = req.params;
-
-  const author = await db.getAuthorById(Number(authorId));
-
-  if (!author) {
-    res.status(404).send("Author not found");
-    return;
-  }
-
-  res.send(`Author Name: ${author.name}`);
-});
-```
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-The asyncHandler function in the `express-async-handler` library is just 6 lines of code. Try to take a guess on how it's implemented and then do [check out the asyncHandler source code](https://github.com/Abazhenov/express-async-handler/blob/master/index.js) for yourself.
-
-</div>
-
-#### With a middleware
-
-Remember our earlier discussion about a "special type of middleware"? Let's dive into that now. An error middleware function handles all errors in our application that come down from other middleware functions. We want to place this error middleware function at the very end of the application code to ensure it's the last middleware function executed and only handles errors bubbling down from preceding middleware functions.
+An error handler middleware function handles all errors in our application that come down from other middleware functions. We want to place this error middleware function at the very end of the application code to ensure it's the last middleware function executed and only handles errors bubbling down from preceding middleware functions.
 
 Add the following code in `app.js` at the end of all middleware functions in our application:
 
@@ -269,7 +245,7 @@ This is an odd one where the error object *must* be the first parameter in the c
 
 This middleware function handles the *errors thrown* in other middleware functions or something that is sent by a previous middleware function using the `next` function (e.g. `next(err)`).
 
-So the way Express distinguishes this middleware function is again through adding *four parameters*, not a single one missing. A route middleware function or a middleware function with *less than four parameters* will always be considered as a request middleware function instead of this error middleware function, even if we place it last.
+So the way Express distinguishes this middleware function is again through adding *four parameters*, not a single one missing. A route middleware function or a middleware function with *fewer than four parameters* will always be considered as a request middleware function instead of this error middleware function, even if we place it last.
 
 ```javascript
 app.use((req, res, next) => {
@@ -310,7 +286,7 @@ We can then use this custom error class and refactor the earlier version of `get
 ```javascript
 const CustomNotFoundError = require("../errors/CustomNotFoundError");
 
-const getAuthorById = asyncHandler(async (req, res) => {
+const getAuthorById = async (req, res) => {
   const { authorId } = req.params;
 
   const author = await db.getAuthorById(Number(authorId));
@@ -320,10 +296,10 @@ const getAuthorById = asyncHandler(async (req, res) => {
   }
 
   res.send(`Author Name: ${author.name}`);
-});
+};
 ```
 
-Since we are using `express-async-handler`, we don't need to send an error response inside of this function but instead just throw an error. `asyncHandler` automatically catches the thrown error and calls `next()`, passing in the caught error as an argument, which passes control to our custom error handler!
+Since Express will auto-catch any thrown errors in the async middleware function, we don't need to send an error response inside of this function but instead just throw an error. Express calls `next()`, passing in the caught error as an argument, which passes control to our custom error handler!
 
 It will eventually end up in the error middleware function where we can also modify:
 
@@ -414,7 +390,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are the other arguments you can pass to the next function?](#what-is-the-next-function)
 - [What is a controller?](#controllers)
 - [What is the difference between a controller and a middleware?](#controllers)
-- [What happens if you define a middleware function with four parameters?](#with-a-middleware)
+- [What happens if you define a middleware function with four parameters?](#error-handler-middleware)
 - [What would you do to create a custom error?](#creating-custom-errors)
 
 ### Additional resources

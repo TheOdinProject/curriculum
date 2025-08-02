@@ -25,11 +25,11 @@ myDiv.addEventListener("click", function () {
 });
 ```
 
-Here, the function `addEventListener()` takes a callback (the "do something" function) and then calls it when `myDiv` gets clicked.
+Here, the function `addEventListener()` takes a callback (the "do something" function) and then calls it when `myDiv` 
 
-You will likely recognize this pattern as something that happens _all the time_ in JavaScript code. Unfortunately, though they are useful in situations like the above example, using callbacks can get out of hand, especially when you need to chain several of them together in a specific order. The rest of this lesson discusses patterns and functions that will help keep you out of [Callback hell](http://callbackhell.com/).
+You will likely recognize this pattern as something that happens *all the time* in JavaScript code.  Unfortunately, though they are useful in situations like the above example, using callbacks can get out of hand, especially when you need to chain several of them together in a specific order.  The rest of this lesson discusses patterns and functions that will help keep you out of Callback hell.
 
-Take a moment to skim through this [article on callbacks](https://github.com/maxogden/art-of-node#callbacks) before moving on. Or, if you prefer to watch a video of [Callback functions](https://www.youtube.com/watch?v=QRq2zMHlBz4).
+Take a moment to read the section on callbacks in [this article](https://github.com/maxogden/art-of-node#callbacks) before moving on.  Or, if you prefer to watch a video of [Callback functions](https://www.youtube.com/watch?v=QRq2zMHlBz4).
 
 ### Promises
 

@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Basic syntax
 
-At the most basic level, CSS is made up of various rules. These rules are made up of a selector (more on this in a bit) and a semicolon-separated list of declarations, with each of those declarations being made up of a property–value pair.
+At the most basic level, CSS is made up of various rules. Each rule is made up of a selector (more on this in a bit) and a semicolon-separated list of declarations, with each of those declarations being made up of a property–value pair.
 
 ![Basic CSS syntax](https://cdn.statically.io/gh/TheOdinProject/curriculum/05ce472eabf8e04eeb2cc9139e66db884074fd7d/foundations/html_css/css-foundations/imgs/00.jpg)
 
@@ -30,7 +30,7 @@ Selectors refer to the HTML elements to which CSS rules apply; they're what is a
 
 #### Universal selector
 
-The universal selector will select elements of any type, hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style applied to it.
+The universal selector will select elements of every type (as in the whole document), hence the name "universal", and the syntax for it is a simple asterisk. In the example below, every element would have the `color: purple;` style applied to it.
 
 ```css
 * {
@@ -81,6 +81,10 @@ Class selectors will select all elements with the given class, which is just an 
 
 Note the syntax for class selectors: a period immediately followed by the case-sensitive value of the class attribute. Classes aren't required to be specific to a particular element, so you can use the same class on as many elements as you want.
 
+<div class="lesson-note" markdown="1">
+Class selectors won’t work if the class name begins with a number. For example, if you give an element the class name `.4lert-text`, using `.4lert-text` as a selector won’t match it.
+</div>
+
 Another thing you can do with the class attribute is to add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`. Since whitespace is used to separate class names like this, you should never use spaces for multi-worded names and should use a hyphen instead.
 
 #### ID selectors
@@ -102,6 +106,10 @@ ID selectors are similar to class selectors. They select an element with the giv
 ```
 
 For IDs, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
+
+<div class="lesson-note" markdown="1">
+Just like class selectors, ID selectors can’t start with a number. For example, if you give an element the ID `7itle`, the selector `#7itle` won’t work - it’s not a valid CSS selector.
+</div>
 
 #### The grouping selector
 
@@ -370,8 +378,8 @@ If you need to add a *unique* style for a *single* element, this method can work
 
     - `01-css-methods`
     - `02-class-id-selectors`
-    - `03-group-selectors`
-    - `04-chain-selectors`
+    - `03-grouping-selectors`
+    - `04-chaining-selectors`
     - `05-descendant-combinator`
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.

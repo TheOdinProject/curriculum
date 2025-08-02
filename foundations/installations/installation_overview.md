@@ -12,10 +12,7 @@ We won't lie to you: installing packages, editors, and even entire operating sys
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Installing a supported operating system (OS).
-- Installing Google Chrome web browser.
-- Installing a code editor.
-- Creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using).
+- What operating systems (OS) are supported by The Odin Project.
 
 ### OS options
 
@@ -81,4 +78,4 @@ With that out of the way, we need to set up an appropriate development environme
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Read the OSSPH blog on [why developers should use linux for development](https://blog.ossph.org/reasons-why-developers-should-use-linux).

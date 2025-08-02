@@ -55,6 +55,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
+- [Short History for Git and Github](https://www.youtube.com/watch?v=1h9_cB9mPT8&list=PLqGj3iMvMa4LFz8DZ0t-89twnelpT4Ilw&index=1)
 - [What is Git and GitHub?](https://content.red-badger.com/resources/what-is-git-and-github)
 - [What is version control?](https://www.atlassian.com/git/tutorials/what-is-version-control)
 - [What is Git?](https://www.atlassian.com/git/tutorials/what-is-git)

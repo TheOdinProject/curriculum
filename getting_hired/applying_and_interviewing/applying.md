@@ -8,7 +8,7 @@ This is NOT an excuse to procrastinate or only send out one application a day.  
 
 </div>
 
-Over time, you will work your way through your excel list.  It's usually good to start at the bottom with the companies that you would barely work at.  Once you feel comfortable with your application-sending and hopefully interviewing abilities, you can start tackling the companies at the top that you *really* want to work for.
+Over time, you will work your way through your Excel list.  It's usually good to start at the bottom with the companies that you would barely work at.  Once you feel comfortable with your application-sending and hopefully interviewing abilities, you can start tackling the companies at the top that you *really* want to work for.
 
 ### Go in the side door
 
@@ -18,7 +18,7 @@ So there are probably a few companies that you'd *really* like to work for.  You
 
 Get to know the company and its needs and see if you can reach out to address them somehow.  Do they have local events you can visit?  What do they sponsor? This stuff takes creativity.  You need to walk the line where you're not a stalker but you do care enough to push hard.  If you're wrong, they may say no.  It happens, you'll live and move on.  But you'd better try!  You'll probably figure things out that will help you with other companies anyway.
 
-- [Getting noticed by a startup you want to work for](http://www.thedailymuse.com/job-search/want-to-work-for-a-start-up-heres-how-to-get-noticed/)
+- [Getting noticed by a startup you want to work for](https://www.themuse.com/advice/want-to-work-for-a-startup-heres-how-to-get-noticed)
 
 ### Perseverance through the process
 

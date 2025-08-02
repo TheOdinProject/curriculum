@@ -503,7 +503,7 @@ Certain aspects of other elements are downright impossible to style, for example
 
 #### Styling forms
 
-1. Read and follow along with [MDN's Form Styling Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_guides)
+1. Read and follow along with [MDN's Form Styling Tutorials](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_tutorials)
 1. Read and follow along with [the internetingishard guide to forms](https://internetingishard.netlify.app/html-and-css/forms/index.html)
 
 </div>

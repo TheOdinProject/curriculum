@@ -2,7 +2,7 @@
 
 It's time to practice all of the HTML knowledge you have acquired. In this project, you are going to build a basic recipe website.
 
-The website will consist of a main index page which will have links to a few recipes. The website won't look very pretty by the time you've finished but it's important to keep in mind that this project is just to build your HTML chops; we will revisit this project in the future to style it up with CSS.
+The website will consist of a main index page which will have links to a few recipes. The website won't look very pretty by the time you've finished but it's important to keep in mind that the purpose of this project is to build your HTML chops; we will revisit this project in the future to style it up with CSS.
 
 ### Setting up your project's GitHub repository
 
@@ -48,6 +48,21 @@ After you have entered `git push origin main`, switch over to your browser and o
 
 Okay, that's enough Git for the moment -- time to actually build stuff!
 
+### Warning about looking at other people's finished project code before you have completed your own
+
+But before we move on: all of our projects have a "Student Solutions" section at the bottom for people to post their completed code and live websites for the projects. These are here for you both to compare your completed code with and see what other routes people have chosen to take with their project code and designs.
+
+We know it may be tempting to look at the solutions when you get stuck or don't know where to start, but **don't** do it! Here are some reasons why:
+
+- All of the submitted projects are *other learners'* solutions. This means they are written by other people who are also still learning and may not necessarily be representative of "best practice" or high quality code.
+- Looking at solutions robs you of the chance to develop your problem solving and researching skills. In the real world, there will not always be "solutions" for you to look at, and you will have to come up with your own.
+- There are many different ways to achieve the same end result - it is not "one size fits all."
+- An analogy: "Learning how to code from looking at completed code is like learning how to make pizza dough from looking at a baked pizza."  There is a lot more that goes into it than you might assume from only seeing the final product and not the process that led to it.
+
+Once you have completed your project, feel free to look at the other solutions to see alternative ways the project was completed.
+
+**DO NOT PEEK. Come ask for help in our [Discord server!](https://discord.com/channels/505093832157691914/516751477306294273) *(You need to [join the Discord server](https://discord.gg/fbFCkYabZB) first in order to see the channel).***
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -63,12 +78,19 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 1. Create a new HTML file within the  `recipes` directory and name it after the recipe it will contain. For example `lasagna.html`. You can use the name of your favorite dish or, if you need some inspiration, you can find a recipe to use at [Allrecipes](https://www.allrecipes.com/). Be sure to include the usual boilerplate HTML. This boilerplate code should be in every `.html` file you create.
 1. For now, just include an `h1` heading with the recipe's name as its content.
 1. Back in the `index.html` file, add a link to the recipe page you just created. Example: Under the `<h1>Odin Recipes</h1>` heading, write out the link like so: `<a href="recipes/recipename.html">Recipe Title</a>`. The text of the link should again be the recipe name.
+1. **Add a link back to the index page** on your recipe page for easier navigation. You can place this link at the top or bottom of your recipe page (e.g., `lasagna.html`). Here's an example:
+
+   ```html
+   <a href="../index.html">Home</a>
+   ```
+
+   This allows users to quickly return to the home page after viewing the recipe.
 
 #### Iteration 3:  recipe page content
 
 Your new recipe page should have the following content:
 
-1. An image of the finished dish under the h1 heading that you added earlier. You can find images of the dish on Google or [Allrecipes](https://www.allrecipes.com/).
+1. A free image of the finished dish under the h1 heading that you added earlier.
 
 1. Under the image, it should have an appropriately sized "Description" heading followed by a paragraph or two describing the recipe.
 
@@ -119,15 +141,15 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 <div class="lesson-note" markdown="1">
 
-When you look at project submissions below, you might be asking:
-"Why do they look so good, should my project look like this?".
+#### Project submissions and reasonable expectations
+
+When you look at project submissions below, you might be asking: "Why do they look so good, should my project look like this?"
 
 Here is the answer:
 
 1. The main reason they look that good is that they are not done by beginners. They were likely submitted by people who had some experience with programming, or who have completed The Odin Project before and are coming back to make better websites.
 1. Your project should not look like that. Focus mainly on the requirements of the project.
 
-This applies for future projects too.
-For more information read ["Learning Code" from "Becoming a TOP Success Story"](https://dev.to/theodinproject/learning-code-f56).
+This applies for future projects too. For more information read ["Learning Code" from "Becoming a TOP Success Story"](https://dev.to/theodinproject/learning-code-f56).
 
 </div>
