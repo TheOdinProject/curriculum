@@ -244,7 +244,7 @@ function App() {
 
 In our `<List />` component, we have two `if` statements acting as a guard that immediately returns an element based on the condition.
 
-One is to check if the property `animals` exists, and the other is to check if the length of the list is greater than 0. In this case, our list is empty, so the second if statement executes, it will immediately return the `<div>` element that contains the text "There are no animals in the list".
+One is to check if the property `animals` exists, and the other is to check if the length of the list is greater than 0. In this case, our list is empty, so the second if statement executes, which immediately returns the `<div>` element that contains the text "There are no animals in the list".
 
 If we remove the `animals` property:
 
