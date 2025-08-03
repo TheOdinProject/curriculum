@@ -37,7 +37,7 @@ There are multiple ways that you can handle asynchronous code in JavaScript, and
 
 Essentially, a promise is an object that might produce a value at some point in the future.  Here's an example:
 
-Lets say `getData()` is a function that fetches some data from a server and returns it as an object that we can use in our code:
+Let's say `getData()` is a function that fetches some data from a server and returns it as an object that we can use in our code:
 
 ```javascript
 const getData = function() {
