@@ -13,6 +13,8 @@ This section contains a general overview of topics that you will learn in this l
 
 Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.
 
+HTML tags are essential building blocks that define the structure and content of a webpage.
+
 Opening tags tell the browser that this is the start of an HTML element. They are comprised of a keyword enclosed in angle brackets `<>`. For example, an opening paragraph tag looks like this: `<p>`.
 
 Closing tags tell the browser where an element ends. They are almost the same as opening tags; the only difference is that they have a forward slash before the keyword. For example, a closing paragraph tag looks like this: `</p>`.
@@ -45,7 +47,7 @@ You might also see these referred to as self-closing tags. But those are just vo
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Watch Kevin Powell's [Introduction to HTML Video](https://www.youtube.com/watch?v=LGQuIIv2RVA).
+1. Watch Kevin Powell's [HTML & CSS for Absolute Beginners: What is HTML?](https://www.youtube.com/watch?v=X4sClFRMJ00).
 
 </div>
 
@@ -55,6 +57,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is an HTML tag?](#elements-and-tags)
 - [What are the three parts of an HTML element?](#elements-and-tags)
+- [What are void elements, and how are they different from regular HTML elements?](#void-elements)
 
 ### Additional resources
 

@@ -30,7 +30,7 @@ As companies compete for market share, different browsers are using different en
 
 Because of these differences, your applications may behave differently in the browser. Due to Chrome dominance, the vast majority of applications are designed to work smoothly with Chromium, and providing as good a level of performance in other browsers is secondary.
 
-For your web development projects to have a broader reach, you must make sure that you're testing your web applications against browsers which are most likely to be used by users. Chrome, Safari, Firefox, and other Chromium-based browsers (Microsoft Edge, Brave, etc.) are more common among regular users. But you may find you need to support less common ones (like Internet Explorer) as well depending on the user base or the company you work for. For Chromium browsers, if it works in Chrome, it should work in other related browsers as well.
+For your web development projects to have a broader reach, you must make sure that you're testing your web applications against browsers which are most likely to be used by users. Chrome, Safari, Firefox, and other Chromium-based browsers (Microsoft Edge, Brave, etc.) are more common among regular users. But you may find you need to support less common ones as well depending on the user base or the company you work for. For Chromium browsers, if it works in Chrome, it should work in other related browsers as well.
 
 ### Browser releases and new CSS features
 

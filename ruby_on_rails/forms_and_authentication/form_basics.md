@@ -47,30 +47,7 @@ The first line tells us which HTTP method was used and which route the form went
 
 You'll find yourself looking at this server output a lot when you start building forms. It'll keep you sane because it tells you exactly what the browser sent back to your application so you can see if there's been a... misunderstanding.
 
-### Railsifying your form
-
-The first thing you'll realize if you try to create a plain vanilla form in a Rails view is that it won't work. You'll either get an error or your user session will get zeroed out (depending on your Rails version). That's because Rails by default automatically protects you from [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) and it requires you to verify that the form was actually submitted from a page you generated. In order to do so, it generates an ["authenticity token"](http://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf) which looks like gibberish but helps Rails match the form with your session and the application.
-
-You'll notice the token in the server output from above:
-
-```bash
-  ...
-  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jJa87aK1OpXfjojryBk2Db6thv0K3bSZeYTuW8hF4Ns=", "email"=>"foo@bar.com", "commit"=>"Submit Form"}
-```
-
-So, if you want to create your own form that gets handled by Rails, you need to provide the token somehow as well. Luckily, Rails gives you a method called `form_authenticity_token` to do so, and we'll cover it in the project.
-
-```erb
-<input
-  type="hidden"
-  name="authenticity_token"
-  value="<%= form_authenticity_token %>"
->
-```
-
-### Making forms into params
-
-What about the other form inputs, the ones we actually care about?
+### Railsifying your form by making forms input into params
 
 Each one of these inputs is structured slightly differently, but there are some commonalities. One important thing to note is the `name` attribute that you can give to an input tag. In Rails, that's very important. The `name` attribute tells Rails what it should call the stuff you entered in that input field when it creates the `params` hash. For instance,
 
@@ -283,10 +260,10 @@ If you find yourself submitting a form and nothing is happening, chances are you
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read the [Rails Guide on Form Helpers](http://guides.rubyonrails.org/form_helpers.html), sections 1 to 3.2.
-  1. Skim 3.3 to 7 to see what kinds of things are out there.  One day you'll need them, and now you know where to look.
-  1. Read sections 8.1 and 8.2 for the official explanation of how parameters are created from the `name` attribute.
-  1. Read the [Rails Guide on Validations](http://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views) section 8 for a quick look at displaying errors.
+  1. Read the [Rails Guide on Form Helpers](http://guides.rubyonrails.org/form_helpers.html), sections 1 through 2.4.
+  1. Skim 3.1 through 7 to see what kinds of things are out there.  One day you'll need them, and now you know where to look.
+  1. Read sections 8.1 through 8.3 for the official explanation of how parameters are created from the `name` attribute.
+  1. Read the [Rails Guide on Validations](http://guides.rubyonrails.org/active_record_validations.html#displaying-validation-errors-in-views) section 9 for a quick look at displaying errors.
   1. Skim through the official Rails API section on the [form_with helper](https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_with) to see various ways to use this helper tag.
 
 </div>
@@ -299,13 +276,12 @@ At this point, you should have a solid understanding of how forms work in genera
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is a CSRF Token and why is it necessary?](#railsifying-your-form)
-- [What is the `name` attribute of a form input element and what does it do?](#making-forms-into-params)
-- [How do you nest attributes under a single hash in `params`?](#making-forms-into-params)
-- [How do you pass `form_with` a model object?](#using-models-with-the-form_with-helper)
+- [What is the `name` attribute of a form input element and what does it do?](#railsifying-your-form-by-making-forms-input-into-params)
+- [How do you nest attributes under a single hash in `params`?](#railsifying-your-form-by-making-forms-input-into-params)
+- [How do you pass `form_with` a model object?](#using-models-with-the-formwith-helper)
 - [How do you access errors for a failed-to-save model object?](#forms-and-validations)
 - [How do Rails forms make PATCH or DELETE requests?](#making-patch-and-delete-submissions)
-- [What is one case where you may need an array of hashes within the `params` hash?](https://guides.rubyonrails.org/form_helpers.html#combining-them)
+- [What is one case where you may need an array of hashes within the `params` hash?](https://guides.rubyonrails.org/form_helpers.html#combining-arrays-and-hashes)
 
 ### Additional resources
 

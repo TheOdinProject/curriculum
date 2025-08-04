@@ -90,6 +90,50 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 
 ---
 
+#### Render
+
+- Render allows you to deploy using "Blueprints", which link to your project's GitHub repo.
+- The free 750-hour allowance is enough to host a few apps without paying anything. However, databases are separate on Render, and the lowest spec databases cost $7 each.
+- $21 a month is enough to host three applications as each app's database will cost $7.
+
+##### Render: Free Plan
+
+- 750 hours of free usage per month.
+- Applications are put to sleep automatically after 15 minutes of inactivity, so the 750 free hours should be enough to host a few apps for the entire month.
+- You only get one free database at a time which lasts 90 days before being deleted. With this strict database allowance, the free tier is enough to host one free app for 90 days.
+
+##### Render: Links
+
+- [Render homepage](https://render.com/)
+- [Render documentation](https://render.com/docs/)
+- [Guide: Official getting started with Rails on Render guide](https://render.com/docs/deploy-rails)
+- [Guide: GoRails video guide for deploying Rails applications to Render](https://www.youtube.com/watch?v=QJ4BcTQlKC0)
+
+---
+
+#### Koyeb
+
+Can deploy both servers and databases.
+
+- Easily Git push to deploy.
+- Ability to run web apps, APIs, and workers easily.
+- SSL and 10 free custom domains
+
+##### Koyeb: Free Plan
+
+- One free Web service.
+- One free Postgres database (50 hours).
+- Doesn't require a credit card to start.
+- Pay-per-use by the second for more.
+
+##### Koyeb: Links
+
+- [Koyeb homepage](https://www.koyeb.com/)
+- [Koyeb documentation](https://www.koyeb.com/docs)
+- [Guide: Official getting started with Ruby on Rails on Koyeb guide](https://www.koyeb.com/docs/deploy/ruby-on-rails)
+
+---
+
 #### Fly.io
 
 - Fly.io uses a CLI tool for deployment.
@@ -116,37 +160,18 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - Pay for what you use model.
 - $5 a month should be enough to host four applications.
 
-##### Railway.app: Free Plan
+##### Railway.app: Free Trial
 
-- You get a free one-time grant of 5$ on their free trial, and the applications are never put to sleep when inactive.
-- However, the longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
+- One-time grant of $5 in credits that expire in 30 days.
+- The remaining balance carries over to a plan, if you decide to upgrade.
+- More complex apps with more traffic may consume all free credits before the 30 days.
+- Applications are never put to sleep when inactive.
 
 ##### Railway.app: Links
 
 - [Railway homepage](https://railway.app/)
 - [Railway documentation](https://docs.railway.app/)
 - [Guide: Video guide for deploying Rails applications to Railway](https://www.youtube.com/watch?v=__1TadBZZUg)
-
----
-
-#### Render
-
-- Render allows you to deploy using "Blueprints", which link to your project's GitHub repo.
-- The free 750-hour allowance is enough to host a few apps without paying anything. However, databases are separate on Render, and the lowest spec databases cost $7 each.
-- $21 a month is enough to host three applications as each app's database will cost $7.
-
-##### Render: Free Plan
-
-- 750 hours of free usage per month.
-- Applications are put to sleep automatically after 15 minutes of inactivity, so the 750 free hours should be enough to host a few apps for the entire month.
-- You only get one free database at a time which lasts 90 days before being deleted. With this strict database allowance, the free tier is enough to host one free app for 90 days.
-
-##### Render: Links
-
-- [Render homepage](https://render.com/)
-- [Render documentation](https://render.com/docs/)
-- [Guide: Official getting started with Rails on Render guide](https://render.com/docs/deploy-rails)
-- [Guide: GoRails video guide for deploying Rails applications to Render](https://www.youtube.com/watch?v=QJ4BcTQlKC0)
 
 ---
 
@@ -168,6 +193,52 @@ Whatever your circumstances, we've got you covered. Here are the PaaS providers 
 - [Heroku documentation](https://devcenter.heroku.com/)
 - [Guide: Official Rails guide for Heroku](https://devcenter.heroku.com/articles/getting-started-with-rails7)
 - [Guide: GoRails video guide for deploying Rails applications to Heroku](https://www.youtube.com/watch?v=bQ2wXZf9irA)
+
+---
+
+#### Aiven
+
+Can deploy databases only.
+
+- 24/7 for all database services.
+- High availability and automatic backups.
+- Point-in-time recovery (varies by service).
+- No credit card required.
+
+##### Aiven: Free Plan
+
+- 5 GiB of storage.
+- 24/7 for all database services.
+- One free database for every services including PostgreSQL, MySQL and Redis.
+- No credit card required.
+
+##### Aiven: Links
+
+- [Aiven homepage](https://aiven.io/)
+- [Aiven documentation](https://aiven.io/docs/get-started)
+
+---
+
+#### Neon
+
+Can deploy databases only.
+
+- 24/7 for your main database.
+- 20 additional hours of database branching.
+- Point-in-time restore (24 Hours)
+- No credit card required.
+
+##### Neon: Free Plan
+
+- 0.5 GiB of storage
+- 24/7 for your main compute
+- No credit card required
+
+##### Neon: Links
+
+- [Neon homepage](https://neon.tech/)
+- [Neon documentation](https://neon.tech/docs/introduction)
+- [Guide: Connect a Ruby on Rails application to Neon](https://neon.tech/docs/guides/ruby-on-rails)
 
 ---
 
@@ -242,4 +313,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [free-for.dev](https://free-for.dev/). This is a huge repository for list of software such as SaaS, PaaS, IaaS, etc. and other offerings with free developer tiers.

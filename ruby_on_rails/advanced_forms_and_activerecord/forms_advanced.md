@@ -175,7 +175,7 @@ Sometimes [Rails helper methods will insert hidden fields for you](https://api.r
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read the Rails Guide on Forms section 5, which covers [populating a form with a collection of objects](https://guides.rubyonrails.org/form_helpers.html#choices-from-a-collection-of-arbitrary-objects).
+  1. Read the Rails Guide on Forms section 5, which covers [populating a form with a collection of objects](https://guides.rubyonrails.org/form_helpers.html#collection-related-helpers).
   1. Read the Same Rails Guide on Forms section 9, which covers [accepting nested form data](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms).
   1. Read the Same Rails Guide on Forms section 8, which covers the [parameter conventions for nested forms](https://guides.rubyonrails.org/form_helpers.html#form-input-naming-conventions-and-params-hash).
   1. Read this blog post from [Peter Rhoades on working with nested forms](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html). The example covers a lot of the things we've gone over so far, so follow along. Also note how he does the allowing of nested attributes in Rails 4.
@@ -186,7 +186,7 @@ Sometimes [Rails helper methods will insert hidden fields for you](https://api.r
 
 We've covered two of the more common use cases for complex forms -- pre-populating a form with objects and creating multiple objects with a single form.  At this point, even if you're uncomfortable, you should have all the tools you need to work through creating a form.  We'll get your hands dirty in the project, have no fear.
 
-The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferrable to every form you'll ever make.
+The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferable to every form you'll ever make.
 
 ### Knowledge check
 

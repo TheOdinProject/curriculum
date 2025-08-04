@@ -115,7 +115,7 @@ puts greet("John") #=> Hello, John!
 
 In this example, `name` is a parameter that the `greet` method uses to return a more specific greeting. The method was called with the argument `"John"`, which returns the string "Hello John!"
 
-If you're wondering what the differences are between an argument and a parameter, **parameters** act as placeholder variables in the template of your method, whereas **arguments** are the actual variables that get passed to the method when it is called. Thus, in the example above, `name` is a parameter and `"John"` is an argument. The two terms are commonly used interchangeably, though, so don't worry too much about this distinction.
+If you're wondering what the differences are between an argument and a parameter, **parameters** act as placeholder variables in the template of your method, whereas **arguments** are the actual values that get passed to the method when it is called. Thus, in the example above, `name` is a parameter and `"John"` is an argument. The two terms are commonly used interchangeably, though, so don't worry too much about this distinction.
 
 #### Default parameters
 
@@ -329,5 +329,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
+- Check out the [Ruby's Method Arguments](https://www.rubyguides.com/2018/06/rubys-method-arguments/) article from Ruby Guides to learn about advanced types of method arguments such as variable, keyword and optional.
 - For a deeper look at methods, read the [Methods chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards Book of Ruby. Try to complete the exercises throughout the chapter.
 - Read this explanation on Stack Overflow about the [subtle differences between methods and functions, and how they can differ between programming languages](https://stackoverflow.com/questions/155609/difference-between-a-method-and-a-function).

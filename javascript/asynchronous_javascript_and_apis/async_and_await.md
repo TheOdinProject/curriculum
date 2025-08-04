@@ -140,7 +140,7 @@ Remember the Giphy API practice project? (If not, you should go back and complet
 </script>
 ```
 
-Since `await` does not work on the global scope, we will have to create an `async` function that wraps our API call to Giphy.
+Since `await` does not work in the top level of a non-module script, we will have to create an `async` function that wraps our API call to Giphy.
 
 ```javascript
 <script>

@@ -28,7 +28,7 @@ Go back to your 'Library' project and add validation to that form! Don't let you
 
 #### A little more practice
 
-Build a browser form which collects Email, Country, Zip Code, Password and Password Confirmation fields.  It should use live inline validation to inform the user whether a field is properly filled in or not.  That means highlighting a field red and providing a helpful error message until it has been filled in properly.
+Build a browser form which collects Email, Country, Postal Code, Password and Password Confirmation fields. It should use live inline validation to inform the user whether a field is properly filled in or not. That means validating as you type, not only upon form submission. When a field is invalid, it should be highlighted in red and show an error message to guide the user.
 
 The form doesn't need to actually submit, but you should give an error message if the button is pushed with any active errors or unfilled required fields. For the sake of this lesson, make sure the `<form>` element has the [`novalidate` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#novalidate) which will allow you to do **all** of your validation in your JavaScript files. You can still use different `<input>` types, but you will need to use JavaScript to check and report their validity. If all is well and the form is "submitted", give the user a high five.
 

@@ -137,10 +137,10 @@ In the [Using PostgreSQL lesson](https://www.theodinproject.com/lessons/nodejs-u
    - [Data models](https://www.prisma.io/docs/orm/prisma-schema/data-model/models)
    - [Relations](https://www.prisma.io/docs/orm/prisma-schema/data-model/relations)
    - [Prisma client CRUD](https://www.prisma.io/docs/orm/prisma-client/queries/crud)
-   - [Raw queries](https://www.prisma.io/docs/orm/prisma-client/queries/raw-database-access/raw-queries)
+   - [Raw SQL](https://www.prisma.io/docs/orm/prisma-client/using-raw-sql/typedsql)
    - [Prisma migrate getting started](https://www.prisma.io/docs/orm/prisma-migrate/getting-started)
    - [Prisma migrate mental model](https://www.prisma.io/docs/orm/prisma-migrate/understanding-prisma-migrate/mental-model)
-   - [Data migrations](https://www.prisma.io/docs/orm/prisma-migrate/workflows/data-migration)
+   - [Data migrations](https://www.prisma.io/docs/guides/data-migration)
 
 </div>
 
