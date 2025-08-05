@@ -163,7 +163,7 @@ Then, modify the previously created `index.ejs` to remove the `<%= message %>` l
     <title>Homepage</title>
   </head>
   <body>
-    <%- include('navbar', {links: links}) %>
+    <%- include('navbar', {links: links}) -%>
   </body>
 </html>
 ```
