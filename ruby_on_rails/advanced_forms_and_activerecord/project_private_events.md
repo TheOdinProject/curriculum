@@ -58,6 +58,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 1. Make each event private and add the functionality for the event creator to invite specific users to an event.
 1. Extra Credit: Allow users to edit and delete the events they created.
 1. Extra Credit: Allow users to remove themselves as an attendee to their "attended_events".
+1. Extra Credit: Allow creators to toggle events' visibility between public and private.
 
 </div>
 
