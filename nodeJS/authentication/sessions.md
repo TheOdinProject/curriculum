@@ -11,13 +11,21 @@ So if someone does successfully "log in", how does the server recognize that the
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Describe what sessions are.
-- Explain how sessions and cookies can be used together to persist logins.
+- Explain how sessions and cookies can be used together to for session management to persit logins.
 - Implement authentication with sessions.
 - Explain how and why passwords are hashed before being stored.
 
 ### Sessions
 
-A session is just information about a user's interaction with the site in a given time period and can be used to store a whole variety of data. For persisting logins, we can store (serialize) some information about that user, such as their user ID, in a database table. That data will have its own ID and may also have an expiry time. We can then store that session's ID in a cookie (it doesn't need anything else stored in it) and send it back to the user in the server response.
+<div class="lesson-note" markdown="1">
+
+#### "Session management" and "sessions"
+
+Note that from this lesson onwards, "session management" will refer to the general concept of persisting user interaction data between requests (like persisting a login), while "sessions" will refer specifically to the stateful solution discussed in this lesson. Later in the course, we will discuss other ways to handle session management that don't use stateful sessions.
+
+</div>
+
+A session is just information about a user's interaction with the site in a given time period and can be used to store a whole variety of data. To persist logins, we can store (serialize) some information about that user, such as their user ID, in a database table. That data will have its own ID and may also have an expiry time. We can then store that session's ID in a cookie (it doesn't need anything else stored in it) and send it back to the user in the server response.
 
 The client now has that cookie with the session ID and can then attach it to any future requests. The server can then check the database for a valid session with the same ID it found in the cookie. If there is a matching session, great - it can extract the serialized user information (deserialize) and continue with the request now it knows who made it. If there is no matching or valid session, like with logging in, we don't know who the user is, so we can unauthorize the request.
 
