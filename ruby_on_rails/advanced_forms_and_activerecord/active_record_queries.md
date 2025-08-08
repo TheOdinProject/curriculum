@@ -113,7 +113,6 @@ Just like with SQL, you often want to group fields together (or "roll up" the va
   # => {"tag1" => 4, "tag2" => 2, "tag3" => 5}
 ```
 
-
 ### Joins
 
 When working with multiple tables, you'll often want to join them together. Rails associations often do the heavy lifting of setting up the joins for you if you're working with instances of an object, so you may not need to explicitly use a `#join` right away.
@@ -210,7 +209,7 @@ How much do you need to understand or care about scopes? In the early going, you
 
 ### Enums
 
-Enums (short for "enumerations") map a database column, typically an n integer, to a set of symbolic names. They make code more readable and maintainable, and they offer a performance boost since queries involving integers are faster than those involving strings.
+Enums (short for "enumerations") map database column values, typically stored as integers, to a set of symbolic names. They make code more readable and maintainable, and they offer a performance boost since queries involving integers are faster than those involving strings.
 
 Enums are perfect for representing the state of an attribute that has a discrete value. As an example, suppose an article on a blog can be in a `draft` or `published` state. It is never between these two states, and it is never in more than one at any time.
 
