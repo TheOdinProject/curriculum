@@ -4,7 +4,7 @@ You made it! By now you should have a *really* firm grasp on the fundamentals of
 
 As usual with these things, there are elements of this project that are not going to be trivial for you, but if you've been following the course so far, you definitely have everything you need to finish it. We're going to walk you through the various steps you can take, but again, how you actually implement them is up to you!
 
-<div class="lesson-note" markdown="1">
+<div class="lesson-note lesson-note--warning" markdown="1">
 
 #### Warning about eval() and new Function()
 
