@@ -19,7 +19,7 @@ Before we dive into workflows, take a minute to remind yourself about good commi
 
 ### Workflow diagram
 
-Here is a visual representation of the workflow with Git and GitHub and illustrates how changes flow between repositories during collaboration.
+Here is a visual representation of the workflow with Git and GitHub that illustrates how changes flow between repositories during collaboration.
 
 <pre class="mermaid">
 
