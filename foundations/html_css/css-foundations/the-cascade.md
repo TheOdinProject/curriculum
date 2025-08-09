@@ -106,7 +106,7 @@ While the `color: red` declaration would take precedence, the `background-color:
 
 <div class="lesson-note" markdown="1">
 
-##### Not everything adds to specificity
+#### Not everything adds to specificity
 
 When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
 
