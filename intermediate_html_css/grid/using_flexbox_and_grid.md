@@ -78,3 +78,4 @@ This section contains helpful links to related content. It isn't required, so co
 
 - MDN wrote an in-depth article on the [relationship between Grid and other layout methods](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout).
 - If you are a visual learner, [Flexbox30](https://www.samanthaming.com/flexbox30/) is a great resource for quick visual reference.
+- This [visual CSS grid cheatsheet](https://grid.malven.co/) provides a quick reference for all the essential grid properties and values.
