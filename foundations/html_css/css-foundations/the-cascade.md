@@ -156,7 +156,7 @@ In this example, rule 2 would have higher specificity and the `orange` value wou
 
 #### Inheritance
 
-Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't.
+Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't. You can find out if a property is inherited or not by going to its docs on MDN and heading to the **Formal Definition** section. For example, the [CSS `color` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) indicates that `color` is an inherited property, while the [`display` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/display#formal_definition) indicates that `display` is not.
 
 The exception to this is when directly targeting an element, as this always beats inheritance:
 
@@ -226,5 +226,4 @@ This section contains helpful links to related content. It isn't required, so co
 - [The CSS Cascade](https://2019.wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied.
 - [CSS Specificity Explained](https://www.youtube.com/watch?v=c0kfcP_nD9E) from Kevin Powell goes through various specificity examples and gives some advice on avoiding wrestling with specificity.
 - [CSS Specificity Calculator](https://specificity.keegan.st/) allows you to fill in your own selectors and have their specificity calculated and visualized.
-- [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) can be used to learn if a particular CSS property is inherited or not; look for the **Inherited** field inside the **Formal Definition** section. Here's an example for [the CSS `color` property](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition).
 - [Interactive Scrim on the CSS Cascade.](https://v1.scrimba.com/scrim/c9gwmnAR)
