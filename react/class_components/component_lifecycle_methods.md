@@ -30,7 +30,7 @@ This is the last lifecycle method, which is called before a component is unmount
 
 ### How useEffect() combines the lifecycle methods
 
-Now that we've learnt about class lifecycle methods, it's useful to understand that the `useEffect` hook used in functional components is essentially a combination of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`. Which method/methods it relates to varies based on it's dependency array, and if it returns anything.
+Now that we've learnt about class lifecycle methods, it's useful to understand that the `useEffect` hook used in functional components is essentially a combination of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`. Which method/methods it relates to varies based on its dependency array, and if it returns anything.
 
 - An empty dependency array would be equivalent to `componentDidMount`.
 - A dependency array with a value/values in it would be a combination of `componentDidMount` and `componentDidUpdate`, but only updating when dependencies change.
