@@ -48,7 +48,8 @@ Great, you can now use state! But, what's going on under the hood?
 
 Let's hit you with some theory.
 
-In React, when a component's state or props change, the component is destroyed and recreated from scratch. Yes, you heard that right: *destroyed*. This includes the variables, functions, and React nodes. The entire component is recreated but this time the latest state value will be returned from `useState`. This process is called rerendering. Rerendering is a key feature of React that enables it to efficiently update the user interface in response to changes in the underlying data.
+In React, when a component's state or props change, React runs your component function again from the beginning to figure out what should be displayed based on the freshly-set state and props. All the calculated changes are then applied to the DOM (committed).
+That is, the entire component is recreated, in a sense, but this time the latest state value will be returned from `useState`. This process is called rerendering. Rerendering is a key feature of React that enables it to efficiently update the user interface in response to changes in the underlying data.
 
 <div class="lesson-note" markdown="1">
 

@@ -31,7 +31,12 @@ app.use(express.urlencoded({ extended: false }));
 const indexRouter = require("./index");
 app.use("/", indexRouter);
 
-app.listen(3000, () => console.log("running"));
+app.listen(3000, (error) => {
+  if (error) {
+    throw error;
+  }
+  console.log("running");
+});
 ```
 
 ```javascript
@@ -102,7 +107,7 @@ To begin, we have to import the module we're testing, in this case it's the file
 const index = require("../index");
 ```
 
-Next, we include both `supertest` and `express`.  We're setting up a new Express app and then using the index router that we imported previously. The reason we have to do this setup here is because we are not actually touching our original `app.js` file. The main reason that we're doing it this way is so that we can avoid calling the app.listen command and starting our server, but it's also useful because, in larger apps, we can skip some of the optional configuration steps and only include the bits that we need for our testing purposes.  In a larger test suite, it would probably be useful to abstract this part out to its own file that gets imported into each test file.
+Next, we include both `supertest` and `express`.  We're setting up a new Express app and then using the index router that we imported previously. The reason we have to do this setup here is because we are not actually touching our original `app.js` file. The main reason that we're doing it this way is so that we can avoid calling the `app.listen` command and starting our server, but it's also useful because, in larger apps, we can skip some of the optional configuration steps and only include the bits that we need for our testing purposes.  In a larger test suite, it would probably be useful to abstract this part out to its own file that gets imported into each test file.
 
 ```javascript
 const request = require("supertest");
@@ -149,8 +154,8 @@ If we were using a real database here, then we would want to do something simila
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Make sure that you read through the [SuperTest docs](https://github.com/visionmedia/supertest)
-1. SuperTest actually pulls from another related project called SuperAgent.  Any method that you can call in SuperAgent you can also call from SuperTest, so you'll need to take a look through the [SuperAgent docs](https://ladjs.github.io/superagent/) as well.
+1. Make sure that you read through the [SuperTest docs](https://github.com/forwardemail/supertest)
+1. SuperTest actually pulls from another related project called SuperAgent.  Any method that you can call in SuperAgent you can also call from SuperTest, so you'll need to take a look through the [SuperAgent docs](https://forwardemail.github.io/superagent/) as well.
 
 </div>
 
@@ -158,10 +163,10 @@ If we were using a real database here, then we would want to do something simila
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is the motivation behind SuperTest?](https://github.com/visionmedia/supertest#about)
+- [What is the motivation behind SuperTest?](https://github.com/forwardemail/supertest#about)
 - [What is the purpose of `done`? What convenience does SuperTest provide concerning it?](#done)
-- [What is the difference in handling errors when using .end() method in conjunction with .expect() provided by SuperTest?](https://github.com/visionmedia/supertest#example)
-- [What are the methods provided by SuperAgent to handle multipart requests and how to use them?](https://ladjs.github.io/superagent/#multipart-requests)
+- [What is the difference in handling errors when using .end() method in conjunction with .expect() provided by SuperTest?](https://github.com/forwardemail/supertest#example)
+- [What are the methods provided by SuperAgent to handle multipart requests and how to use them?](https://forwardemail.github.io/superagent/#multipart-requests)
 
 ### Additional resources
 

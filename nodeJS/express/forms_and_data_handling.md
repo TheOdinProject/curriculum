@@ -217,7 +217,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/", usersRouter);
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Express app listening on port ${PORT}!`));
+app.listen(PORT, (error) => {
+  if (error) {
+    throw error;
+  }
+  console.log(`Express app listening on port ${PORT}!`);
+});
 ```
 
 Most simple forms will use the `Content-Type: application/x-www-form-urlencoded` HTTP header when sending data to the server. Express, however, can't natively parse that data. We can use the `express.urlencoded()` middleware to handle this for us and automatically set form's data to the `req.body` field. When `extended` is `false`,  our server will only accept a `string` or an array of data, so we set it to `true` for some added flexibility. Note that if the `Content-Type` doesn't match `application/x-www-form-urlencoded`, then your server will show the data as an empty object `{}`.
@@ -565,7 +570,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you validate and sanitize form input using express-validator?](#understanding-the-body-function)
 - [What is the difference between validation and sanitization?](#validation-and-sanitization)
 - [How do you handle validation errors in Express routes?](#validation-results)
-- [What is the importance of escaping HTML characters in a form?](https://www.theodinproject.com/lessons/nodejs-forms-and-data-handling#escaping-user-input)
+- [What is the importance of escaping HTML characters in a form?](#escaping-user-input)
 
 ### Additional resources
 

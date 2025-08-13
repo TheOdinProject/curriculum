@@ -70,7 +70,12 @@ app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => res.render("index"));
 
-app.listen(3000, () => console.log("app listening on port 3000!"));
+app.listen(3000, (error) => {
+  if (error) {
+    throw error;
+  }
+  console.log("app listening on port 3000!");
+});
 ```
 
 Most of this should look familiar to you by now, except for the newly required modules `express-session` and `passport`. We are not actually going to be using `express-session` directly, it is a dependency that is used in the background by `passport.js`. You can [take a look at what the express-session package does in the Express docs](https://github.com/expressjs/session).
@@ -125,7 +130,6 @@ app.get("/sign-up", (req, res) => res.render("sign-up-form"));
 Next, create an `app.post` for the sign up form so that we can add users to our database (remember our notes about sanitization, and using plain text to store passwords...).
 
 ```javascript
-
 app.post("/sign-up", async (req, res, next) => {
   try {
     await pool.query("INSERT INTO users (username, password) VALUES ($1, $2)", [
@@ -320,10 +324,15 @@ Password hashes are the result of passing the user's password through a one-way 
 Edit your `app.post("/sign-up")` to use the bcrypt.hash function which works like this:
 
 ```javascript
+//Don't forget to import bcrypt!
+const bcrypt = require("bcryptjs");
+
+//...
+
 app.post("/sign-up", async (req, res, next) => {
  try {
   const hashedPassword = await bcrypt.hash(req.body.password, 10);
-  await pool.query("insert into users (username, password) values ($1, $2)", [req.body.username, hashedPassword]);
+  await pool.query("INSERT INTO users (username, password) VALUES ($1, $2)", [req.body.username, hashedPassword]);
   res.redirect("/");
  } catch (error) {
     console.error(error);

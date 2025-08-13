@@ -88,7 +88,7 @@ If you answered that the object counter would increase by 1, and the primitive c
 
 #### Reassigning object data type variables
 
-While mutating the object we have a reference to affects all other variables that reference it, reassigning a variable does not change what the other variables refer to. For example:
+While mutating the object we have a reference to affect all other variables that reference it, reassigning a variable does not change what the other variables refer to. For example:
 
 ```javascript
 let animal = { species: "dog" };
@@ -138,4 +138,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Learn about the `arguments` object on this [page about function parameters](https://www.w3schools.com/js/js_function_parameters.asp).
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
