@@ -4,8 +4,6 @@ on:
     paths:
       - '**.md'
       - '!*'
-      - '!**/project_*'
-      - '!**/project-*'
       - '!archive/**'
       - '!templates/**'
       - '!markdownlint/docs/**'
@@ -13,7 +11,7 @@ on:
 
 jobs:
   lesson_lint:
-    name: Lint lesson files
+    name: Lint lesson/project files
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,8 +21,6 @@ jobs:
           files: |
             **.md
             !*
-            !**/project_*
-            !**/project-*
             !archive/**
             !templates/**
             !markdownlint/docs/**
