@@ -228,7 +228,7 @@ fruits.none? { |fruit| fruit.length > 6 }
 
 ### The one? method
 
-Ruby has methods to check if there are all, any, or no elements in an array that match a condition, but what if we only need to **exactly one** and no more match? Ruby has this use case covered as well by the `#one?` method. This method returns true if the condition in the block returns true exactly once.
+Ruby has methods to check whether all, any, or none of the elements in an array match a condition. But what if you need exactly one match - no more, no less? Ruby has you covered with the `#one?` method, which returns true if the block evaluates to true for exactly one element.
 
 ```ruby
 fruits = ["apple", "banana", "strawberry", "pineapple"]
