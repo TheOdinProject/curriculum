@@ -4,9 +4,9 @@ You made it! By now you should have a *really* firm grasp on the fundamentals of
 
 As usual with these things, there are elements of this project that are not going to be trivial for you, but if you've been following the course so far, you definitely have everything you need to finish it. We're going to walk you through the various steps you can take, but again, how you actually implement them is up to you!
 
-### Warning
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-<div class="lesson-note" markdown="1">
+#### Warning about eval() and new Function()
 
 Before you get started with the project, we need to cover a word of warning. As you look into how to evaluate complex mathematical statements in JavaScript, you will likely come across the tantalizing [`eval()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) function. However, this function can be very dangerous and MDN does a good job documenting why you should [never use eval](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval#never_use_direct_eval!)! You'll need to build your own functions to evaluate expressions as part of this project. On the same note, when researching how to calculate expressions, you may encounter solutions that suggest that you return a `new Function()` that evaluates a string. Similarly to `eval()`, this should not be used [due to potential pitfalls of evaluating insecure data](https://stackoverflow.com/questions/4599857/are-eval-and-new-function-the-same-thing). Besides, where's the fun in solutions that do all the work for you? Let's get to it!
 
@@ -36,7 +36,15 @@ Here are some use cases (expectations about your project):
    - You should already have the code that can populate the display, so once `operate` has been called, update the display with the result of the operation.
    - This is the hardest part of the project. You need to figure out how to store all the values and call the `operate` function with them. Don't feel bad if it takes you a while to figure out the logic.
 1. Gotchas: watch out for and fix these bugs if they show up in your code:
-   - **Your calculator should not evaluate more than a single pair of numbers at a time.** Example: you enter a number (`12`), followed by an operator button (`+`), a second number button (`7`), and a second operator button (`-`). Your calculator should then do the following: first, evaluate the initial pair of numbers (`12 + 7`), then display the result of that calculation (`19`). Finally, use that result (`19`) as the first number in a new calculation, along with the next operator (`-`). An example of the behavior we're looking for can be seen in this [student's calculator live preview](https://G-O-T-W.github.io/calculator-app/).
+   - **Your calculator should not evaluate more than a single pair of numbers at a time.** For example, this is how your calculator should function:
+     1. Enter a number (`12`).
+     1. Enter an operator (`+`).
+     1. Enter a second number (`7`).
+     1. Enter a second operator (`-`). At this point, it should evaluate the initial pair of numbers (`12 + 7`), then display the result (`19`).
+     1. Enter another number (`1`).
+     1. Enter another operator or equals sign (`=`). At this point, it should use the previous result (`19`) as the first number, the operator (`-`), and the new number (`1`) to calculate the new equation `19 - 1`. You should see the result (`18`) on the display.
+
+     - To see what this looks like in action, feel free to input the equation we just explained `12 + 7 - 1 =` into this [online calculator](https://www.calculatorsoup.com/calculators/math/basic.php).
    - You should round answers with long decimals so that they don't overflow the display.
    - Pressing `=` before entering all of the numbers or an operator could cause problems!
    - Pressing "clear" should wipe out any existing data. Make sure the user is really starting fresh after pressing "clear".

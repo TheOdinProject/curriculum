@@ -425,7 +425,7 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
 1. Complete [MDN's Active Learning sections on DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_basic_dom_manipulation) to test your skills!
 1. Read the following sections from JavaScript Tutorial's series on the DOM to get a broader idea of how events can be used in your pages. Note that some of the methods like `getElementById` are older and see less use today.
 
-   As you read, remember that the general ideas can be applied to any event, not only the ones used in examples - but information specific to a certain event type can always be found by checking documentation.
+   As you read, remember that the general ideas can be applied to any event, not only the ones used in examples - but information specific to a certain event type can always be found by checking documentation. Remember that the goal here isn't to deeply understand these concepts and be able to immediately apply them. Instead, you should be building awareness of the various tools at your disposal related to events.
 
    - [JavaScript events](https://www.javascripttutorial.net/javascript-dom/javascript-events/)
    - [Page load events](https://www.javascripttutorial.net/javascript-dom/javascript-page-load-events/)

@@ -193,12 +193,12 @@ Another thing to keep in mind is that local variables do not get loaded, so if y
 
 # not_so_green.rb
 def food_opinion(food)
-  `#{food} is awesome!`
+  "#{food} is awesome!"
 end
 
 # scheals.rb
 def food_opinion(food)
-  `#{food} is awful!`
+  "#{food} is awful!"
 end
 
 # main.rb
@@ -218,13 +218,13 @@ To make sure code doesn't get overwritten, Rubyists wrap their code in modules w
 # not_so_green.rb
 module NotSoGreen
   def self.food_opinion(food)
-    `#{food} is awesome!`
+    "#{food} is awesome!"
   end
 end
 # scheals.rb
 module Scheals
   def self.food_opinion(food)
-    `#{food} is awful!`
+    "#{food} is awful!"
   end
 end
 # main.rb

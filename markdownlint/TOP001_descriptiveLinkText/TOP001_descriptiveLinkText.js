@@ -23,7 +23,7 @@ const BLACKLISTED_LINK_TEXT = [
 ];
 
 module.exports = {
-  names: ["TOP001", "descriptive-link-text"],
+  names: ["TOP001", "descriptive-link-text-labels"],
   description: "Links must have descriptive text labels",
   tags: ["accessibility", "links"],
   parser: "markdownit",
