@@ -18,7 +18,9 @@ Many great resources out there keep referring to HTML and CSS as *programming la
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read [HTML vs CSS vs JavaScript](https://brytdesigns.com/html-css-javascript-whats-the-difference/). It's a quick overview of the relationship between HTML, CSS, and JavaScript.
+1. Watch [HTML, CSS, JavaScript Explained (in 4 minutes for beginners)](https://www.youtube.com/watch?v=gT0Lh1eYk78).  
+   This short video covers the same scope as the original article and includes captions and a full transcript for accessibility.  
+   It will give you a quick overview of how these three technologies work together before you dive deeper into each one.
 
 </div>
 
