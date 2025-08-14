@@ -116,6 +116,8 @@ In the **Hardware** section of the installation you want to set your **Base Memo
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Converting gigabytes to megabytes
+
 Difficulty converting your Gigabytes (GB) into Megabytes (MB)? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**
 
 </div>
@@ -380,11 +382,15 @@ On Windows there are three primary ways to open WSL2.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Terminal color scheme
+
 You might notice when you open WSL2 via Windows Terminal, you'll see a window with a different color scheme and a different icon compared to opening a terminal through Ubuntu in your applications. This is because Windows Terminal comes with a default color scheme for Ubuntu meant to emulate how a real Ubuntu terminal looks. This difference is purely cosmetic, and there is no practical difference between the two.
 
 </div>
 
 <div class="lesson-note lesson-note--warning" markdown="1">
+
+#### /mnt/c is not Linux!
 
 When opening your WSL2 terminal ensure that you do not see `/mnt/c` at the start of the line. `/mnt/c` is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences.
 
@@ -446,6 +452,8 @@ You can still enter your password as normal and press Enter to submit it.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Download is performed unsandboxed
+
 You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [You can read a Reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
 
 </div>
@@ -468,6 +476,8 @@ google-chrome
 ```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Google Chrome as a background process
 
 Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &` instead.
 
