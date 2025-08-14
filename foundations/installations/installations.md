@@ -33,9 +33,15 @@ This section contains a general overview of topics that you will learn in this l
 
 ### OS installation
 
-#### IMPORTANT
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device. You only need to follow one of these sets of instructions or none of them if you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system.
+#### Unsupported hardware and software
+
+This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device. You only need to follow one of these sets of instructions if you are **not** already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system.
+
+If you are already using supported hardware and software, you can skip straight to Google Chrome installation below.
+
+</div>
 
 Pick your method of installation below:
 
