@@ -76,14 +76,14 @@ As shown in the last example above, when Ruby converts a float to an integer, th
 
 There are many useful methods for numbers built into Ruby. For example,
 
-**#even?**
+##### #even?
 
 ```ruby
 6.even? #=> true
 7.even? #=> false
 ```
 
-**#odd?**
+##### #odd?
 
 ```ruby
 6.odd? #=> false
@@ -182,13 +182,13 @@ Just remember, strings have loads of methods provided to you for free, and you c
 
 Below is a quick recap of the more common string methods you might find yourself using:
 
-**#capitalize**
+##### #capitalize
 
 ```ruby
 "hello".capitalize #=> "Hello"
 ```
 
-**#include?**
+##### #include?
 
 ```ruby
 "hello".include?("lo")  #=> true
@@ -196,19 +196,19 @@ Below is a quick recap of the more common string methods you might find yourself
 "hello".include?("z")   #=> false
 ```
 
-<span id="upcase">**#upcase**</span>
+##### <span id="upcase">#upcase</span>
 
 ```ruby
 "hello".upcase  #=> "HELLO"
 ```
 
-**#downcase**
+##### #downcase
 
 ```ruby
 "Hello".downcase  #=> "hello"
 ```
 
-**#empty?**
+##### #empty?
 
 ```ruby
 "hello".empty?  #=> false
@@ -216,19 +216,19 @@ Below is a quick recap of the more common string methods you might find yourself
 "".empty?       #=> true
 ```
 
-**#length**
+##### #length
 
 ```ruby
 "hello".length  #=> 5
 ```
 
-**#reverse**
+##### #reverse
 
 ```ruby
 "hello".reverse  #=> "olleh"
 ```
 
-<span id="split">**#split**</span>
+##### <span id="split">#split</span>
 
 ```ruby
 "hello world".split  #=> ["hello", "world"]
@@ -236,7 +236,7 @@ Below is a quick recap of the more common string methods you might find yourself
 "hello".split("")    #=> ["h", "e", "l", "l", "o"]
 ```
 
-**#strip**
+##### #strip
 
 ```ruby
 " hello, world   ".strip  #=> "hello, world"
@@ -316,14 +316,14 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [Basics chapter of LaunchSchool's *Introduction to Programming With Ruby*](https://launchschool.com/books/ruby/read/basics) for a different explanation of Ruby's data types. Be sure to also complete the exercises.
-1. [Read Alex Chaffee’s brief writeup on Objects](https://codelikethis.com/lessons/learn-to-code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
-1. Now it is time to complete some test-driven exercises to practice what you have learned in this lesson.
+Remember, if you get stuck, ask questions in the #ruby-help channel of our Discord server!
 
-    - Follow the cloning and installation instructions in the main README to set up our [ruby-exercise repo](https://github.com/TheOdinProject/ruby-exercises).
-    - Then follow the instructions in the [ruby-basics README](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics) to complete the `1_data_types` exercises.
-    - If you get stuck, ask questions in the #ruby-help channel in our Discord server.
-    - After you have completed the exercises, check out the solutions branch on GitHub to compare solutions.
+1. Read the [Basics chapter of LaunchSchool's *Introduction to Programming With Ruby*](https://launchschool.com/books/ruby/read/basics) for a different explanation of Ruby's data types. Be sure to also complete the exercises.
+1. Read [Alex Chaffee’s brief writeup on Objects](https://codelikethis.com/lessons/learn-to-code/objects), for a basic understanding of what objects are in programming. We will explore this topic much deeper later in the course.
+1. Now it is time to complete some test-driven exercises to practice what you have learned in this lesson.
+   - Follow the [cloning and installation instructions in the main README of our ruby-exercise repo](https://github.com/TheOdinProject/ruby-exercises?tab=readme-ov-file#cloning-and-installation) to set up the exercises.
+   - Then, follow the [usage instructions in the ruby-basics README](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics#usage) to complete the exercises in the `1_data_types` folder.
+   - After completing the exercises, check out the solutions branch on GitHub to compare solutions.
 
 </div>
 
@@ -331,7 +331,7 @@ In Ruby, `nil` represents "nothing". Everything in Ruby has a return value. When
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What are the basic arithmetic operators you can use on numbers? ](#numbers)
+- [What are the basic arithmetic operators you can use on numbers?](#numbers)
 - [What's the difference between an integer and a float?](#integers-and-floats)
 - [What method would you use to convert a float to an integer?](#converting-number-types)
 - [What method would you use to convert an integer to a float?](#converting-number-types)
@@ -355,11 +355,9 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- If you want to go deeper into Ruby's numbers and string data types, read these chapters from the *Bastards Book of Ruby*:
-  - [Numbers](http://ruby.bastardsbook.com/chapters/numbers/)
-  - [Strings](http://ruby.bastardsbook.com/chapters/strings/)
-- Read through these Ruby Monstas sections about data types:
-  - [Numbers](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
-  - [Strings](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
-  - [Symbols](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
-  - [True, False, and Nil](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)
+- [The Bastards Book of Ruby's "Numbers" chapter](http://ruby.bastardsbook.com/chapters/numbers/)
+- [The Bastards Book of Ruby's "Strings" chapter](http://ruby.bastardsbook.com/chapters/strings/)
+- [Ruby Monstas "Numbers" section](http://ruby-for-beginners.rubymonstas.org/built_in_classes/numbers.html)
+- [Ruby Monstas "Strings" section](http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html)
+- [Ruby Monstas "Symbols" section](http://ruby-for-beginners.rubymonstas.org/built_in_classes/symbols.html)
+- [Ruby Monstas "True, False, and Nil" section](http://ruby-for-beginners.rubymonstas.org/built_in_classes/true_false_nil.html)

@@ -31,10 +31,8 @@ For example, here is the `package.json` file for The Odin Project's curriculum r
   "version": "1.0.0",
   "description": "[The Odin Project](https://www.theodinproject.com/) (TOP) is an open-source curriculum for learning full-stack web development. Our curriculum is divided into distinct courses, each covering the subject language in depth. Each course contains a listing of lessons interspersed with multiple projects. These projects give users the opportunity to practice what they are learning, thereby reinforcing and solidifying the theoretical knowledge learned in the lessons. Completed projects may then be included in the user's portfolio.",
   "scripts": {
-    "lint:lesson": "markdownlint-cli2 --config lesson.markdownlint-cli2.jsonc",
-    "lint:project": "markdownlint-cli2 --config project.markdownlint-cli2.jsonc",
-    "fix:lesson": "markdownlint-cli2 --fix --config lesson.markdownlint-cli2.jsonc",
-    "fix:project": "markdownlint-cli2 --fix --config project.markdownlint-cli2.jsonc"
+    "lint": "markdownlint-cli2",
+    "fix": "markdownlint-cli2 --fix"
   },
   "license": "CC BY-NC-SA 4.0",
   "devDependencies": {
@@ -43,7 +41,7 @@ For example, here is the `package.json` file for The Odin Project's curriculum r
 }
 ```
 
-There's a lot of stuff here and we don't need to understand it all yet. The point is that if you were to clone the curriculum repo, if you ran `npm install`, npm would read this `package.json` file and see that it needs to install the `markdownlint-cli2` package. Once this package is installed, you'll be able to run any of the four npm scripts that use that package. The curriculum repo itself does not actually contain the code for the `markdownlint-cli2` package, as anyone cloning the repo can just run `npm install` to let npm grab the code for them.
+There's a lot of stuff here and we don't need to understand it all yet. The point is that if you were to clone the curriculum repo, if you ran `npm install`, npm would read this `package.json` file and see that it needs to install the `markdownlint-cli2` package. Once this package is installed, you'll be able to run either of the scripts that use that package. The curriculum repo itself does not actually contain the code for the `markdownlint-cli2` package, as anyone cloning the repo can just run `npm install` to let npm grab the code for them.
 
 In our own projects, as we use npm to install new packages (or uninstall any!), it will automatically update our `package.json` with any new details. We will see this in action in the next lesson when we introduce module bundling using a package called Webpack.
 

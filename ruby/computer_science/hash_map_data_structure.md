@@ -162,9 +162,9 @@ How are we going to insert into those buckets when our hash method generates big
 For example, if we are to find the bucket where the value `"Manon"` will land, then we do the following:
 ![hashing using hash code and modular operation example](https://cdn.statically.io/gh/TheOdinProject/curriculum/7ea463cfb7c05c330d72f5977cc5fe3b0c640b86/javascript/computer_science/hash_map_data_structure/imgs/01.png)
 
-As we continue to add nodes into our buckets, collisions get more and more likely. Eventually, however, there will be more nodes than there are buckets, which guarantees a collision (check the additional resources section for an explanation of this fact if you're curious).
+As we continue to add nodes into our buckets, collisions become more and more likely. Eventually, however, there will be more nodes than there are buckets, which guarantees a collision (check the additional resources section for an explanation of this fact if you're curious).
 
-Remember we don't want collisions. In a perfect world each bucket will either have 0 or 1 node only, so we grow our buckets to have more chance that our nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new buckets list that is double the size of the old buckets list, then we copy all nodes over to the new buckets.
+Remember we don't want collisions. In a perfect world, each bucket will either have 0 or 1 node only, so we grow our buckets array to have more chance that our nodes will spread and not stack up in the same buckets. To grow our array, we create a new one that is double its size and then copy all existing nodes over to the buckets of this new array, hashing their keys again.
 
 #### When do we know that it's time to grow our buckets size?
 

@@ -1,6 +1,6 @@
-name: 📝 Suggest an Improvement to Curriculum Content
-description: Suggest a resource or make a specific suggestion
-title: '<Course>: <Short description of your suggestion>'
+name: ⛓️‍💥 Broken Link
+description: Point out a broken or dead link in our curriculum
+title: '<Course>: <Short description of the broken link>'
 labels: ["Status: Needs Triage"]
 assignees:
   - nil
@@ -8,15 +8,20 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to make a suggestion! Please fill out these fields so your issue can be reviewed - giving the right amount of detail makes it much easier for maintainers to process.
+        Before opening a suggestion for a broken link, please check the link again in 3-24 hours. More often than not, the website is down temporarily.
 
-        If you have any questions or are unsure about anything, don't be afraid to ask! The maintainers are here to help.
+        If the website is still down, ask other people in our Discord community to confirm that the link is also broken for them.
+
   - type: checkboxes
     id: contributing
     attributes:
       label: Checks
       description: Please fill out the following checkboxes
       options:
+        - label: I have confirmed that the link is still broken after 3-24 hours of my initial discovery.
+          required: true
+        - label: I have confirmed in the Discord community that others are having the same issue with this link.
+          required: false
         - label: This is not a duplicate of an existing issue (please have a look through our [open issues list](https://github.com/TheOdinProject/curriculum/issues) to make sure)
           required: true
         - label: I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md)
@@ -26,9 +31,9 @@ body:
   - type: textarea
     id: suggested-changes
     attributes:
-      label: Describe your suggestion
-      description: A description of your suggestion. You can provide screenshots or additional context if relevant
-      placeholder: ex 'I found a great resource that shows different ways that dev tools can be useful. I think it would be a great addition to the Developer Tools lesson.
+      label: Description of the broken link
+      description: Please describe where the link is in the lesson
+      placeholder: ex 'The link to the blog in the first assignment is broken.'
     validations:
       required: true
   - type: dropdown
@@ -48,11 +53,11 @@ body:
     id: lesson-link
     attributes:
       label: Lesson Url
-      description: A link to the relevant lesson, or the content that needs to be fixed. If not applicable, describe where to look for your suggestion
+      description: A link to the relevant lesson or page
       placeholder: ex. https://www.theodinproject.com/lessons/ruby-how-this-course-will-work
     validations:
       required: true
- 
+
   - type: input
     id: contact
     attributes:

@@ -70,7 +70,12 @@ app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => res.render("index"));
 
-app.listen(3000, () => console.log("app listening on port 3000!"));
+app.listen(3000, (error) => {
+  if (error) {
+    throw error;
+  }
+  console.log("app listening on port 3000!");
+});
 ```
 
 Most of this should look familiar to you by now, except for the newly required modules `express-session` and `passport`. We are not actually going to be using `express-session` directly, it is a dependency that is used in the background by `passport.js`. You can [take a look at what the express-session package does in the Express docs](https://github.com/expressjs/session).

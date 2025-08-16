@@ -24,12 +24,10 @@ Before submitting a PR for any lesson, you must also use our [Lesson Preview Too
 
 To help enforce the layout specified in our layout style guide, we use [markdownlint](https://github.com/DavidAnson/markdownlint). Whenever a PR is opened or has updates made to it, a workflow will run to check any files changed in the PR against common rules as well as custom rules specific to TOP. To make the workflow easier, we also strongly suggest that users who have a local clone run this linter locally before committing any changes. There are 2 ways you can do so:
 
-1. Install the [Markdownlint VSCode Plugin](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint). This plugin will automatically pick up our main configuration and flag issues with a squiggly underline. Note that the plugin will not currently flag issues with the structure of lessons or projects.
-1. Install the `markdownlint-cli2` dependency. This will require you to have installed Node, which we cover in our Foundations path. Simply run `npm install` within the directory of your curriculum clone and you can run one of our 4 scripts to easily lint or fix files. Note that running these scripts without a supplied file path will result in help documentation being output to the terminal.
-    - Lint lessons: `npm run lint:lesson -- "./path/to/lesson"`
-    - Autofix lessons: `npm run fix:lesson -- "./path/to/lesson"`
-    - Lint projects: `npm run lint:project -- "./path/to/project"`
-    - Autofix projects: `npm run fix:project -- "./path/to/project"`
+1. Install the [Markdownlint VSCode Plugin](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint). This plugin will automatically pick up our markdownlint configuration and flag issues with a squiggly underline.
+1. Install the `markdownlint-cli2` dependency. This will require you to have installed Node, which we cover in our Foundations path. Simply run `npm install` within the directory of your curriculum clone and you can run one of our npm scripts to easily lint or fix files. Note that running these scripts without a supplied file path will result in help documentation being output to the terminal.
+    - Lint a file: `npm run lint -- "./path/to/file"`
+    - Autofix a file: `npm run fix -- "./path/to/file"`
 
 > [!IMPORTANT]
 > npm scripts always run from the root of the curriculum repo (the same location as this file and `package.json`). Therefore, you *must* provide the full lesson/project file path relative to the repo root, even if your terminal is inside a subdirectory (such as the same directory as the lesson file).
@@ -76,3 +74,4 @@ To help enforce the layout specified in our layout style guide, we use [markdown
 > - [TOP008](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP008.md) use-backticks-for-fenced-code-blocks
 > - [TOP010](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP010.md) use-lazy-numbering
 > - [TOP011](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md) heading-indentation
+> - [TOP012](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP012.md) note-box-headings
