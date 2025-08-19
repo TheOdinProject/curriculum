@@ -54,6 +54,8 @@ For most of your apps, one instance is plenty enough. You can support a lot of t
 
 <div class="lesson-note" markdown="1">
 
+#### Server instance and database instance
+
 Learners can keep their server instance and database instance on one PaaS or use separate PaaSes if necessary. When you deal with paid plans, it might even reduce hosting costs!
 
 </div>
@@ -172,7 +174,8 @@ Can deploy databases only.
 
 ##### Neon: Free Plan
 
-- 0.5 GiB of storage
+- 10 projects
+- 0.5 GiB of storage per project
 - 24/7 for your main compute
 - No credit card required
 
