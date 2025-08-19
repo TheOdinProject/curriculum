@@ -153,6 +153,10 @@ OPTIONAL POST-ASSIGNMENT SECTION CONTENT.
 
 ## Headings
 
+### Indentation
+
+Headings must not be indented, regardless of level and even if they are inside an assignment `div`. The only exception is when the heading is for a [note box](#note-boxes).
+
 ### Case
 
 Headings should always use sentence case:
@@ -409,6 +413,8 @@ Will result in the following output:
 Note boxes can be added by wrapping the content in a `div` with the class `lesson-note`. This will add styling to make the note stand out visually to users.
 
 All note boxes must open with a level 4 heading (`####`), which will also require the note box div to have the `markdown="1"` attribute so the heading renders correctly. Headings must describe the note box's contents, rather than just "Note" or "Warning".
+
+Note box headings must match the note box's indentation level, such as if the note box is indented as a child of a list item.
 
 The opening and closing tags must each be wrapped with a single blank line on either side, or a codeblock delimiter (triple backticks). This applies to any line that contains only a single HTML tag. The only exceptions to this rule are HTML tags inside `html`, `jsx`, `erb`, `ejs`, `javascript` or `ruby` codeblocks.
 
