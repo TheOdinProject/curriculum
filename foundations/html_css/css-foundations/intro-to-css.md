@@ -18,7 +18,7 @@ At the most basic level, CSS is made up of various rules. Each rule is made up o
 
 <div class="lesson-note" markdown="1">
 
-#### Note
+#### Semantic HTML
 
 A `<div>` is one of the basic HTML elements. It is an empty container. In general, it is best to use other tags such as `<h1>` or `<p>` for content in your projects, but as we learn more about CSS you'll find that there are many cases where the thing you need is just a container for other elements. Many of our exercises use plain`<div>`s for simplicity. Later lessons will go into much more depth about when it is appropriate to use the various HTML elements.
 
@@ -83,6 +83,8 @@ Note the syntax for class selectors: a period immediately followed by the case-s
 
 <div class="lesson-note" markdown="1">
 
+#### Leading digits and classes
+
 Class selectors won’t work if the class name begins with a number. For example, if you give an element the class name `4lert-text`, using `.4lert-text` as a selector won’t match it.
 
 </div>
@@ -110,6 +112,8 @@ ID selectors are similar to class selectors. They select an element with the giv
 For IDs, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
 
 <div class="lesson-note" markdown="1">
+
+#### Leading digits and IDs
 
 Just like class selectors, ID selectors can’t start with a number. For example, if you give an element the ID `7itle`, the selector `#7itle` won’t work - it’s not a valid CSS selector.
 
