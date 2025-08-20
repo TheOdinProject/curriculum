@@ -82,7 +82,9 @@ Class selectors will select all elements with the given class, which is just an 
 Note the syntax for class selectors: a period immediately followed by the case-sensitive value of the class attribute. Classes aren't required to be specific to a particular element, so you can use the same class on as many elements as you want.
 
 <div class="lesson-note" markdown="1">
+
 Class selectors won’t work if the class name begins with a number. For example, if you give an element the class name `4lert-text`, using `.4lert-text` as a selector won’t match it.
+
 </div>
 
 Another thing you can do with the class attribute is to add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`. Since whitespace is used to separate class names like this, you should never use spaces for multi-worded names and should use a hyphen instead.
@@ -108,7 +110,9 @@ ID selectors are similar to class selectors. They select an element with the giv
 For IDs, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute. A common pitfall is people overusing the ID attribute when they don't necessarily need to, and when classes will suffice. While there are cases where using an ID makes sense or is needed, such as taking advantage of specificity or having links redirect to a section on the current page, you should use IDs **sparingly** (if at all).
 
 <div class="lesson-note" markdown="1">
+
 Just like class selectors, ID selectors can’t start with a number. For example, if you give an element the ID `7itle`, the selector `#7itle` won’t work - it’s not a valid CSS selector.
+
 </div>
 
 #### The grouping selector
@@ -205,14 +209,12 @@ So something like `.ancestor .child` would select an element with the class `chi
 <!-- index.html -->
 
 <div class="ancestor">
-  <!-- A -->
   <div class="contents">
-    <!-- B -->
-    <div class="contents"><!-- C --></div>
+    <div class="contents"></div>
   </div>
 </div>
 
-<div class="contents"><!-- D --></div>
+<div class="contents"></div>
 ```
 
 ```css
@@ -223,7 +225,7 @@ So something like `.ancestor .child` would select an element with the class `chi
 }
 ```
 
-In the above example, the first two elements with the `contents` class (B and C) would be selected, but that last element (D) wouldn't be. Was your guess correct?
+In the above example, the first two elements with the `contents` class (on lines 4 and 5) would be selected, but the last element (on line 9) wouldn't be. Was your guess correct?
 
 There's really no limit to how many combinators you can add to a rule, so `.one .two .three .four` would be totally valid. This would just select an element that has a class of `four` if it has an ancestor with a class of `three`, and if that ancestor has its own ancestor with a class of `two`, and so on. You generally want to avoid trying to select elements that need this level of nesting, though, as it can get pretty confusing and long, and it can cause issues when it comes to specificity.
 
