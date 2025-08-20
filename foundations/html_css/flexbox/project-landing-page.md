@@ -42,4 +42,4 @@ Don't forget to commit early & often! You can [reference the Commit Message less
 
 ### Viewing your project on the web
 
-To share your website with others, you'll need to **deploy it using GitHub Pages**. The full instructions for this process can be found in the [Recipes project](https://www.theodinproject.com/lessons/foundations-recipes#viewing-your-project-on-the-web) lesson. 
+To share your website with others, you'll need to **deploy it using GitHub Pages**. The full instructions for this process can be found in the [Recipes project](https://www.theodinproject.com/lessons/foundations-recipes#viewing-your-project-on-the-web) lesson.
