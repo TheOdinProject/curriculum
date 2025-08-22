@@ -153,6 +153,10 @@ OPTIONAL POST-ASSIGNMENT SECTION CONTENT.
 
 ## Headings
 
+### Indentation
+
+Headings must not be indented, regardless of level and even if they are inside an assignment `div`. The only exception is when the heading is for a [note box](#note-boxes).
+
 ### Case
 
 Headings should always use sentence case:
@@ -408,9 +412,9 @@ Will result in the following output:
 
 Note boxes can be added by wrapping the content in a `div` with the class `lesson-note`. This will add styling to make the note stand out visually to users.
 
-For nested markdown inside note boxes to be displayed properly additional `markdown="1" attribute` is needed.
+All note boxes must open with a level 4 heading (`####`), which will also require the note box div to have the `markdown="1"` attribute so the heading renders correctly. Headings must describe the note box's contents, rather than just "Note" or "Warning".
 
-A heading can be added to a note by using a `####` heading. When adding a heading, be sure to provide text that helps describe the note rather than "A note" or "Warning".
+Note box headings must match the note box's indentation level, such as if the note box is indented as a child of a list item.
 
 The opening and closing tags must each be wrapped with a single blank line on either side, or a codeblock delimiter (triple backticks). This applies to any line that contains only a single HTML tag. The only exceptions to this rule are HTML tags inside `html`, `jsx`, `erb`, `ejs`, `javascript` or `ruby` codeblocks.
 
@@ -418,7 +422,7 @@ The opening and closing tags must each be wrapped with a single blank line on ei
 
 Different types of note boxes can be set by adding an extra class together with `lesson-note`:
 
-- `lesson-note--tip` for tips or general information
+- `lesson-note--tip` for tips
 - `lesson-note--warning` for warnings about potential issues/pitfalls, and are more severe than a tip
 - `lesson-note--critical` for the most important warnings, such as critical information about handling sensitive data
 
@@ -427,7 +431,7 @@ Different types of note boxes can be set by adding an extra class together with 
 ```markdown
 <div class="lesson-note" markdown="1">
 
-#### An optional title
+#### A descriptive title
 
 A sample note box.
 
@@ -437,7 +441,7 @@ A sample note box.
 ```markdown
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### An optional title
+#### A descriptive title
 
 A sample note box, variation: tip.
 
