@@ -169,6 +169,17 @@ console.log(theHobbit.info());
 
 ### The prototype
 
+<div class="lesson-note lesson-note--warning" markdown="1" >
+
+#### Class Syntax
+
+For developers coming from other languages, JavaScript's prototypal inheritance can be a confusing concept. While it serves a similar purpose to classes in other languages, the implementation is very different. To bridge this gap, modern JavaScript introduced a more familiar class syntax.
+
+We will cover the class syntax in detail later. For now, it's important to learn how prototypes work so you can understand what's happening "under the hood." Don't be concerned if you are confused; since classes are built directly on top of prototypes, this knowledge will make you a much stronger developer.
+
+</div>
+
+
 Before we go much further, there's something important you need to understand about JavaScript objects. All objects in JavaScript have a `prototype`. The `prototype` is another object that the original object *inherits* from, which is to say, the original object has access to all of its `prototype`'s methods and properties.
 
 Let's break it down.
