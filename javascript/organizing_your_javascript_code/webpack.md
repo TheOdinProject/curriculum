@@ -464,4 +464,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- This [course by Peter Jang](https://actualize.teachable.com/p/modern-javascript-explained-for-dinosaurs/) shows how JavaScript tools evolved by starting with plain HTML/JS, then incrementally adding tools to see what problems each solves. This historical context helps you learn and adapt to the ever-changing JavaScript landscape. This course is free to attend but you may have to sign up for their website.
