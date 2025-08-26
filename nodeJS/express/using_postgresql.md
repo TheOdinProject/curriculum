@@ -294,6 +294,7 @@ node db/populatedb.js <production-db-url>
    - Deploy a new db on a hosting service you choose, and obtain its connection information.
    - Create a `messages` table, populate it with data if you wish. This should be done via a script.
    - Add the necessary environment variables, create a pool, and implement the required db functions.
+   - While you're at it, add appropriate server-side validation for user input as well.
 
 </div>
 
