@@ -35,7 +35,7 @@ npm init -y
 
 Inside your new directory, before we install anything, open `package.json`. If you see `"type": "commonjs"` or `"type": "module"` inside, **remove it**, otherwise Webpack will start throwing errors at us due to clashing module issues.
 
-Once we've made sure `package.json` does not contain a `"type"` property, we can go ahead and install Webpack, which involves two packages.
+Once we've made sure `package.json` does not contain a top-level `"type"` property, we can go ahead and install Webpack, which involves two packages.
 
 ```bash
 npm install --save-dev webpack webpack-cli
