@@ -428,6 +428,8 @@ Our site will then be available via [http://localhost:8080/](http://localhost:80
 
 <div class="lesson-note" markdown="1">
 
+#### Restart the dev server upon config changes
+
 Note that the webpack-dev-server only reads your webpack configuration when you start it. If you change the webpack config file while the dev server is running, it will not reflect those config changes. Use <kbd>Ctrl</kbd> + <kbd>C</kbd> in the terminal to kill it then rerun `npx webpack serve` to apply the new config.  
 
 </div>
