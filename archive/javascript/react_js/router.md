@@ -53,7 +53,7 @@ Once the package is finished installing, you can add this code to your RouteSwit
 
 ~~~javascript
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router";
 import App from "./App";
 import Profile from "./Profile";
 
