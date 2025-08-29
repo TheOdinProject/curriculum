@@ -34,9 +34,9 @@ This section contains a general overview of topics that you will learn in this l
 
 This is a very brief soup-to-nuts explanation of SQL.  It won't do a particularly good job teaching you specific new tactics but should present a general overview to have going into the reading assignment.  Here we go...
 
-SQL is the language used to talk to many relational databases.  These databases use lots of tables to store different types of data (e.g., `users` and `posts` tables).  Tables are long lists like spreadsheets where each row is a different record (or object, e.g., a single user) and each column is one of that record's attributes (like name, email, etc.).  The one column that all tables include is an `ID` column, which gives the unique row numbers, and is called the record's "primary key."
+SQL is the language used to talk to many relational databases.  These databases use lots of tables to store different types of data (e.g., `users` and `posts` tables).  Tables are long lists like spreadsheets where each row is a different record (or object, e.g., a single user) and each column is one of that record's attributes (like name, email, etc.).  <span id='primary-key'>The one column that all tables include is an `ID` column, which gives the unique row numbers, and is called the record's "primary key."</span>
 
-You can "link" tables together by making one of the columns in one table point to the ID of another table. For instance, a row in the `posts` table might include the author's ID under the column called `user_id`.  <span id='foreign-key'>Because the `posts` table has the ID of another table in it, that column is called a "foreign key."</span>
+You can "link" tables together by making one of the columns in one table point to the ID of another table. For instance, a row in the `posts` table might include the author's ID under the column called `user_id`. Because the `posts` table has the ID of another table in it, that column is called a "foreign key."
 
 #### Setting stuff up
 
@@ -81,6 +81,8 @@ A close cousin of `SELECT`, for when you only want unique values of a column, is
 If you want to get all the posts created by a given user, you need to tell SQL which columns it should use to zip the tables together with the `ON` clause. Perform the "zipping" with the `JOIN` command.  But wait, if you mash two tables together where the data doesn't perfectly match up (e.g., there are multiple posts for one user), which rows do you actually keep?  There are four different possibilities:
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Clarifying what `LEFT` is in a `JOIN`
 
 The "left" table is the original table (the one that the `FROM` clause was `ON`), e.g., `users` in examples below.
 
@@ -156,7 +158,7 @@ The next step, once you've had a chance to practice this all in the project, is 
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is the difference between a foreign key and a primary key?](#foreign-key)
+- [What is the difference between a foreign key and a primary key?](#primary-key)
 - [Where is the setup information for your database stored?](#schema)
 - [What are the important parts of a SQL command?](#command-parts)
 - [Which SQL statement is associated with "Read" from the CRUD acronym?](#sql-read)
