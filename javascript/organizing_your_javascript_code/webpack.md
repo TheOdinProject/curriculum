@@ -33,9 +33,7 @@ cd webpack-practice &&
 npm init -y
 ```
 
-Inside your new directory, before we install anything, open `package.json`. If you see `"type": "commonjs"` or `"type": "module"` inside, **remove it**, otherwise Webpack will start throwing errors at us due to clashing module issues.
-
-Once we've made sure `package.json` does not contain a `"type"` property, we can go ahead and install Webpack, which involves two packages.
+Inside your new directory, before we install anything, open `package.json` and remove the top-level `"type": "commonjs"` or `"type": "module"` property if it exists, otherwise Webpack will start throwing errors at us due to clashing module issues. Once that's done, we can go ahead and install Webpack, which involves two packages.
 
 ```bash
 npm install --save-dev webpack webpack-cli
@@ -427,6 +425,8 @@ npx webpack serve
 Our site will then be available via [http://localhost:8080/](http://localhost:8080/) by default.
 
 <div class="lesson-note" markdown="1">
+
+#### Restart the dev server upon config changes
 
 Note that the webpack-dev-server only reads your webpack configuration when you start it. If you change the webpack config file while the dev server is running, it will not reflect those config changes. Use <kbd>Ctrl</kbd> + <kbd>C</kbd> in the terminal to kill it then rerun `npx webpack serve` to apply the new config.  
 
