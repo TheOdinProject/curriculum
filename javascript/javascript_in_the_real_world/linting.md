@@ -33,7 +33,7 @@ Formatters are *awesome*. They are similar to linters, but serve a slightly diff
 
 As usual, there are multiple formatters out there. [Prettier](https://prettier.io/) is a very popular choice that is highly opinionated. Besides a few options, most of its formatting decisions are not customizable. Since many of these decisions have been made for you, this reduces the time spent deciding on things like indentation size or spacing, and more time on the problems that actually matter.
 
-Like with ESLint, Prettier is installed as a dev dependency in your project, so read [Prettier's installation guide](https://prettier.io/docs/en/install.html) for instructions on how to do this. While it normally runs with its default rules, you can also change any of its settings in a [Prettier configuration file](https://prettier.io/docs/configuration).
+Like with ESLint, Prettier is installed as a dev dependency in your project, so read [Prettier's installation guide](https://prettier.io/docs/en/install.html) for instructions on how to do this. While it normally runs with its default rules, you can also change any of its settings in a [Prettier configuration file](https://prettier.io/docs/configuration). If you are using the default ESLint recommended rule set, there will not be any clashing lint/format rules, meaning you can just install Prettier as is without configuring `eslint-config-prettier`.
 
 Using Prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because it will take care of those details for you.
 
