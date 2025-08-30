@@ -6,12 +6,12 @@ Up until this point in the curriculum, we have been building one-page applicatio
 
 This section contains a general overview of topics that you will learn in this lesson.
 
--   Understand what client-side routing is.
--   Learn how to use React Router for client-side routing.
--   Explore how to create nested and dynamic paths in React Router.
--   Discover how to add a 'catch-all' route in React Router.
--   Learn how to pass data from a parent component to any child components rendered via an outlet.
--   Understand how to implement protected routes in React Router.
+- Understand what client-side routing is.
+- Learn how to use React Router for client-side routing.
+- Explore how to create nested and dynamic paths in React Router.
+- Discover how to add a 'catch-all' route in React Router.
+- Learn how to pass data from a parent component to any child components rendered via an outlet.
+- Understand how to implement protected routes in React Router.
 
 ### Client-side routing
 
@@ -431,7 +431,7 @@ const router = createBrowserRouter(routes);
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
+  </StrictMode>
 );
 ```
 
@@ -443,7 +443,7 @@ As we learned earlier, you can nest routes as children of a parent route, allowi
 
 If we had data in the parent element, such as a state, that we wanted to pass to any components rendered by that outlet, we would have to use something called `context`. For now, we will focus on context with outlets, but in a later lesson, we will learn more about how to use context without outlets.
 
-Outlets have a `context` prop built in. We can pass any value we want into this prop, even an array or object. Inside _any_ component that would be rendered within that outlet (even "grandchild" components), we can call the `useOutletContext()` hook which will return whatever we passed into that context prop. If we passed in an array or object, we could even destructure it!
+Outlets have a `context` prop built in. We can pass any value we want into this prop, even an array or object. Inside *any* component that would be rendered within that outlet (even "grandchild" components), we can call the `useOutletContext()` hook which will return whatever we passed into that context prop. If we passed in an array or object, we could even destructure it!
 
 Take a look at React Router's [documentation on `useOutletContext`](https://reactrouter.com/6.30.1/hooks/use-outlet-context) to learn more about how to pass context through an outlet and access that context in child components.
 
@@ -472,19 +472,19 @@ You should now have enough basics to get started with React routing. There are a
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
--   [What does client-side routing mean?](#client-side-routing)
--   [How do you set up a basic router?](#adding-a-router)
--   [What should be used in place of "a" tags to enable client-side routing?](#the-link-element)
--   [How do you create nested routes?](#nested-routes-outlets-and-dynamic-segments)
--   [What do you mean by dynamic segments or URL params?](#nested-routes-outlets-and-dynamic-segments)
--   [How do you handle errors from bad URLs?](#handling-bad-urls)
--   [How do you pass data from parent to child through an `<Outlet />` component?](#outlets-and-state)
--   [How do you create protected routes?](#protected-routes-and-navigation)
+- [What does client-side routing mean?](#client-side-routing)
+- [How do you set up a basic router?](#adding-a-router)
+- [What should be used in place of "a" tags to enable client-side routing?](#the-link-element)
+- [How do you create nested routes?](#nested-routes-outlets-and-dynamic-segments)
+- [What do you mean by dynamic segments or URL params?](#nested-routes-outlets-and-dynamic-segments)
+- [How do you handle errors from bad URLs?](#handling-bad-urls)
+- [How do you pass data from parent to child through an `<Outlet />` component?](#outlets-and-state)
+- [How do you create protected routes?](#protected-routes-and-navigation)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
--   This Stack Overflow answer uses a [function to generate the route config object](https://stackoverflow.com/a/64347082/19051112) passed to createBrowserRouter. The function conditionally generates the different paths.
--   This demonstration project creates a [special Protected Route component that conditionally displays elements as necessary](https://github.com/iammanishshrma/react-protected-routes/blob/master/src/routes/ProtectedRoute.jsx).
--   Loaders are a very useful concept in React but are out of scope of this lesson. You can learn more about them from the [React Router documentation on Loaders](https://reactrouter.com/en/main/route/loader) and reading this [DEV Community article on loaders](https://dev.to/vikram-boominathan/react-router-routes-loaders-and-errors-1nee). If you're more into video content, you may find this [video on loaders](https://www.youtube.com/watch?v=K-bxVELldCc) from Net Ninja helpful.
+- This Stack Overflow answer uses a [function to generate the route config object](https://stackoverflow.com/a/64347082/19051112) passed to createBrowserRouter. The function conditionally generates the different paths.
+- This demonstration project creates a [special Protected Route component that conditionally displays elements as necessary](https://github.com/iammanishshrma/react-protected-routes/blob/master/src/routes/ProtectedRoute.jsx).
+- Loaders are a very useful concept in React but are out of scope of this lesson. You can learn more about them from the [React Router documentation on Loaders](https://reactrouter.com/en/main/route/loader) and reading this [DEV Community article on loaders](https://dev.to/vikram-boominathan/react-router-routes-loaders-and-errors-1nee). If you're more into video content, you may find this [video on loaders](https://www.youtube.com/watch?v=K-bxVELldCc) from Net Ninja helpful.
