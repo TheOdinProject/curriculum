@@ -68,7 +68,7 @@ To help enforce the layout specified in our layout style guide, we use [markdown
 > - [MD053](https://github.com/DavidAnson/markdownlint/blob/main/doc/md053.md) link-image-reference-definitions
 > - [TOP002](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP002.md) no-code-in-headings
 > - [TOP003](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP003.md) default-section-content
-> - [TOP005](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md) blanks-around-multiline-HTML-tags
+> - [TOP005](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md) blanks-around-multiline-html-tags
 > - [TOP006](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP006.md) full-fenced-code-language
 > - [TOP007](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP007.md) use-markdown-links
 > - [TOP008](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP008.md) use-backticks-for-fenced-code-blocks
