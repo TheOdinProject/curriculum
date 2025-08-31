@@ -78,18 +78,18 @@ const App = () => {
 export default App;
 ```
 
-Now it's time to add the router! There's a couple of ways of defining our app's routes, but in **React Router v6.7.0 or higher**, it is recommended to add routes as objects.
+Now it's time to add the router! There's a couple of ways of defining our app's routes, we will follow the object-based approach.
 
 Let us install the React Router package:
 
-`npm install react-router-dom`
+`npm install react-router`
 
 Add the following to `main.jsx`, we will talk about what is happening in a little bit.
 
 ```jsx
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 import App from "./App";
 import Profile from "./Profile";
 
@@ -123,7 +123,7 @@ Once this is done, go ahead and run `npm run dev` and check out both routes: the
 But you may notice, when we click the links in the navbar, the browser is reloading for the next URL instead of using React Router. This isn't what was promised! To help with this, [React Router exports a custom `Link` element](https://reactrouter.com/en/main/components/link) to be used instead of the regular `a` tag. We can replace the `a` tag in our navbar with the `Link` element.
 
 ```jsx
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const App = () => {
   return (
@@ -151,7 +151,7 @@ And now, we don't get the browser reloading every time we click the link on the 
 Now, what if you want to render a section of a page differently, based on different URLs? This is where nested routes come into play! We can add routes nested as the children of one another to ensure that the child gets rendered alongside the parent. Create a couple of components, `Popeye.jsx` and `Spinach.jsx`.
 
 ```jsx
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const Popeye = () => {
   return (
@@ -166,7 +166,7 @@ export default Popeye;
 ```
 
 ```jsx
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const Spinach = () => {
   return (
@@ -185,7 +185,7 @@ Now, we can rewrite the routes as given:
 ```jsx
 import { StrictMode } from "react"
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 import App from "./App";
 import Profile from "./Profile";
 import Spinach from "./Spinach";
@@ -216,7 +216,7 @@ createRoot(document.getElementById("root")).render(
 This allows us to render the child component alongside the parent, through an [Outlet component](https://reactrouter.com/en/main/components/outlet)! We can rewrite the Profile component to add an `Outlet` which will get replaced by the various profiles when that route is visited!
 
 ```jsx
-import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router";
 
 const Profile = () => {
   return (
@@ -252,7 +252,7 @@ Now, add an index property with the DefaultProfile as a child to the `/profile` 
 ```jsx
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 import App from "./App";
 import Profile from "./Profile";
 import DefaultProfile from "./DefaultProfile";
@@ -289,7 +289,7 @@ But this example brings another dilemma. Sometimes, we want to render content ac
 ```jsx
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 import App from "./App";
 import Profile from "./Profile";
 
@@ -314,7 +314,7 @@ createRoot(document.getElementById("root")).render(
 The colon (:) turns the path section after it into a <span id="dynamic-segments">"dynamic segment"</span>. Dynamic segments will match dynamic (changing) values in that position of the URL, like the `name`. These can also be called "URL params" or "params" in short. These can be used with the help of the `useParams` hook. We can thus rewrite the Profile component as the following:
 
 ```jsx
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router";
 import DefaultProfile from "./DefaultProfile";
 import Spinach from "./Spinach";
 import Popeye from "./Popeye";
@@ -347,7 +347,7 @@ export default Profile;
 But alas, the index path doesn't work with this anymore, as in the `/profile` path, no params are actually passed. Actually, the `/profile` path doesn't make much sense without an actual name, else whose profile is it supposed to show, right? So, the application shows an error! This can't be good, so how do you show a default page in case the user visits a wrong or unused path? You can pass in an `errorElement` argument here! Create a basic "Not Found" page:
 
 ```jsx
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const ErrorPage = () => {
   return (
@@ -368,7 +368,7 @@ Add the `errorElement` to the configuration, and verify that it renders an error
 ```jsx
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 import App from "./App";
 import Profile from "./Profile";
 import ErrorPage from "./ErrorPage";
@@ -423,7 +423,7 @@ Import the routes to your `main.jsx` file:
 ```jsx
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router";
 import routes from "./routes";
 
 const router = createBrowserRouter(routes);
@@ -431,7 +431,7 @@ const router = createBrowserRouter(routes);
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
+  </StrictMode>
 );
 ```
 
@@ -455,7 +455,7 @@ You will often come across the need to reroute the user to a different URL progr
 
 ### Conclusion
 
-You should now have enough basics to get started with React routing. There are a lot more features to react-router-dom which are extremely useful, but out of the scope of this lesson. We're confident that the concepts covered above should be enough to get you through the React course. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
+You should now have enough basics to get started with React routing. There are a lot more features to react-router which are extremely useful, but out of the scope of this lesson. We're confident that the concepts covered above should be enough to get you through the React course. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
 
 ### Assignment
 
