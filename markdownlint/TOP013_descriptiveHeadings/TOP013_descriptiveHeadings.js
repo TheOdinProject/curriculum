@@ -32,21 +32,24 @@ module.exports = {
   ),
   tags: ["accessibility", "headings"],
   parser: "markdownit",
-  function: function TOP012(params, onError) {
+  function: function TOP013(params, onError) {
     const { tokens } = params.parsers.markdownit;
-    const headings = tokens.filter((token) => token.type === "heading_open");
 
-    headings.forEach((heading) => {
-      const headingTextStartIndex = heading.markup.length + 1;
+    tokens.forEach((token) => {
+      if (token.type !== "heading_open") {
+        return;
+      }
+
+      const headingTextStartIndex = token.markup.length + 1;
       const headingText = removeTrailingPunctuation(
-        heading.line.slice(headingTextStartIndex),
+        token.line.slice(headingTextStartIndex),
       );
 
       if (BLACKLISTED_HEADINGS.includes(headingText.toLowerCase())) {
         onError({
-          lineNumber: heading.lineNumber,
+          lineNumber: token.lineNumber,
           detail: `"${headingText}" is not sufficiently descriptive by itself. Use a more descriptive heading that briefly but clearly summarises the content of the section.`,
-          context: heading.line,
+          context: token.line,
         });
       }
     });
