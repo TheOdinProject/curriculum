@@ -290,7 +290,7 @@ btn.onclick = () => alert("Hello World");
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Reviewing Arrow Function Syntax
+#### Reviewing arrow function syntax
 
 If you need to review the arrow syntax `() =>`, check this [article about arrow functions](http://javascript.info/arrow-functions-basics).
 
