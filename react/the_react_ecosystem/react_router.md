@@ -77,8 +77,7 @@ const App = () => {
 
 export default App;
 ```
-
-Now it's time to add the router! There's a couple of ways of defining our app's routes, but in **React Router v7.8.0 or higher**, it is recommended to add routes as objects.
+Now it's time to add the router! There's a couple of ways of defining our app's routes, we will follow the object-based approach.
 
 Let us install the React Router package:
 
