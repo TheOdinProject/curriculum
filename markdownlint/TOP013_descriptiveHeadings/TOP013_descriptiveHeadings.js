@@ -19,6 +19,11 @@ const BLACKLISTED_HEADINGS = [
   "remember",
 ];
 
+function removeTrailingPunctuation(text) {
+  // https://regexr.com/8grso to test this regex
+  return text.replaceAll(/\W+$/g, "");
+}
+
 module.exports = {
   names: ["TOP013", "descriptive-headings"],
   description: "Headings must have descriptive text",
@@ -33,7 +38,9 @@ module.exports = {
 
     headings.forEach((heading) => {
       const headingTextStartIndex = heading.markup.length + 1;
-      const headingText = heading.line.slice(headingTextStartIndex);
+      const headingText = removeTrailingPunctuation(
+        heading.line.slice(headingTextStartIndex),
+      );
 
       if (BLACKLISTED_HEADINGS.includes(headingText.toLowerCase())) {
         onError({
