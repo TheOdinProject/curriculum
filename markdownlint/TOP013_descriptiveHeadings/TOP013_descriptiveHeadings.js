@@ -48,7 +48,7 @@ module.exports = {
       if (BLACKLISTED_HEADINGS.includes(headingText.toLowerCase())) {
         onError({
           lineNumber: token.lineNumber,
-          detail: `"${headingText}" is not sufficiently descriptive by itself. Use a more descriptive heading that briefly but clearly summarises the content of the section.`,
+          detail: `"${headingText}" is not sufficiently descriptive by itself. Use a more descriptive heading that briefly but clearly summarizes the content of the section.`,
           context: token.line,
         });
       }
