@@ -1,6 +1,6 @@
 ### Introduction
 
-Meaningful text is pretty straight forward: when a user reads text or has it announced to them, they should be able to immediately understand what it means even without any surrounding context. A lack of meaningful text can affect all users, but especially those who rely on assistive technologies. In this lesson we'll be going over a few instances where you should start making sure you provide meaningful text to users.
+Meaningful text is pretty straightforward: when a user reads text or has it announced to them, they should be able to immediately understand what it means even without any surrounding context. A lack of meaningful text can affect all users, but especially those who rely on assistive technologies. In this lesson we'll be going over a few instances where you should start making sure you provide meaningful text to users.
 
 ### Lesson overview
 
