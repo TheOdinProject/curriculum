@@ -10,6 +10,38 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Custom section
 
+<div class="lesson-note" markdown="1">
+
+#### Note
+
+Note boxes with a blacklisted heading will flag an error.
+
+</div>
+
+<div class="lesson-note" markdown="1">
+
+#### Important warning
+
+Note boxes with a blacklisted heading will flag an error.
+
+</div>
+
+<div class="lesson-note" markdown="1">
+
+#### Tip
+
+Note boxes with a blacklisted heading will flag an error.
+
+</div>
+
+<div class="lesson-note" markdown="1">
+
+#### Tip of the iceberg
+
+Blacklisted headings must match exactly (case insensitive). This heading is not an exact match so will not flag a TOP012 error.
+
+</div>
+
 #### Non-note box level 4 headings will not flag this error
 
 Custom subsection contents.
@@ -40,7 +72,7 @@ Note box contents.
 
 <div class="lesson-note" markdown="1">
 
-Note boxes without a heading will flag a missing heading error
+Note boxes without a heading will flag a missing heading error.
 
 </div>
 

@@ -1,3 +1,24 @@
+const BLACKLISTED_HEADINGS = [
+  "note",
+  "notes",
+  "a note",
+  "tip",
+  "tips",
+  "a tip",
+  "warning",
+  "warnings",
+  "a warning",
+  "important",
+  "important note",
+  "important tip",
+  "important warning",
+  "info",
+  "information",
+  "critical",
+  "danger",
+  "remember",
+];
+
 function isNoteBoxOpenTag(token) {
   return token?.type === "html_block" && token?.content.includes("lesson-note");
 }
@@ -45,21 +66,28 @@ module.exports = {
     });
 
     noteBoxHeadings.forEach((heading) => {
-      if (heading.hashes.length === 4) {
-        return;
+      const hashlessHeading = heading.text.slice(heading.hashes.length + 1);
+
+      if (BLACKLISTED_HEADINGS.includes(hashlessHeading.toLowerCase())) {
+        onError({
+          lineNumber: heading.lineNumber,
+          detail: `"${hashlessHeading}" is not sufficiently descriptive by itself. Use a heading that briefly describes the actual contents of the note box.`,
+        });
       }
 
-      const hashesStartColumn = heading.text.indexOf(heading.hashes) + 1;
+      if (heading.hashes.length !== 4) {
+        const hashesStartColumn = heading.text.indexOf(heading.hashes) + 1;
 
-      onError({
-        lineNumber: heading.lineNumber,
-        detail: `Expected a level 4 heading (####) but got a level ${heading.hashes.length} heading (${heading.hashes}) instead.`,
-        fixInfo: {
-          editColumn: hashesStartColumn,
-          deleteCount: heading.hashes.length,
-          insertText: "####",
-        },
-      });
+        onError({
+          lineNumber: heading.lineNumber,
+          detail: `Expected a level 4 heading (####) but got a level ${heading.hashes.length} heading (${heading.hashes}) instead.`,
+          fixInfo: {
+            editColumn: hashesStartColumn,
+            deleteCount: heading.hashes.length,
+            insertText: "####",
+          },
+        });
+      }
     });
   },
 };
