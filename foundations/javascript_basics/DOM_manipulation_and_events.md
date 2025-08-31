@@ -180,9 +180,9 @@ div.innerHTML = "<span>Hello World!</span>";
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Tip
+#### Note
 
-Note that using textContent is preferred over innerHTML for adding text, as innerHTML should be used sparingly to avoid potential security risks.
+Using textContent is preferred over innerHTML for adding text, as innerHTML should be used sparingly to avoid potential security risks.
 To understand the dangers of using innerHTML, watch this [video about preventing the most common cross-site scripting attack](https://youtube.com/watch?v=ns1LX6mEvyM).
 
 </div>
@@ -290,7 +290,7 @@ btn.onclick = () => alert("Hello World");
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Tip
+#### Note
 
 If you need to review the arrow syntax `() =>`, check this [article about arrow functions](http://javascript.info/arrow-functions-basics).
 
@@ -364,7 +364,7 @@ btn.addEventListener("click", function (e) {
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Tip
+#### Note
 
 When we pass in `alertFunction` or `function (e) {...}` as an argument to `addEventListener`, we call this a `callback`. A callback is simply a function that is passed into another function as an argument.
 
