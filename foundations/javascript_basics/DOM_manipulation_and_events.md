@@ -68,7 +68,7 @@ When your HTML code is parsed by a web browser, it is converted to the DOM, as w
 
 <div class="lesson-note">
 
-#### Performance Consideration
+#### Performance consideration
 
 There are several other, more specific queries, that offer potential (marginal) performance benefits, but we won't be going over them now.
 
@@ -180,7 +180,7 @@ div.innerHTML = "<span>Hello World!</span>";
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Security Risks of innerHTML
+#### Security risks of innerHTML
 
 Using textContent is preferred over innerHTML for adding text, as innerHTML should be used sparingly to avoid potential security risks.
 To understand the dangers of using innerHTML, watch this [video about preventing the most common cross-site scripting attack](https://youtube.com/watch?v=ns1LX6mEvyM).
@@ -224,7 +224,7 @@ Keep in mind that the JavaScript does *not* alter your HTML, but the DOM - your 
 
 <div id="important-note" class="lesson-note" markdown="1">
 
-#### Important
+#### Timing of JavaScript
 
 Your JavaScript, for the most part, is run whenever the JS file is run or when the script tag is encountered in the HTML. If you are including your JavaScript at the top of your file, many of these DOM manipulation methods will not work because the JS code is being run *before* the nodes are created in the DOM. The simplest way to fix this is to include your JavaScript at the bottom of your HTML file so that it gets run after the DOM nodes are parsed and created.
 
@@ -364,7 +364,7 @@ btn.addEventListener("click", function (e) {
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Understanding Callbacks
+#### Understanding callbacks
 
 When we pass in `alertFunction` or `function (e) {...}` as an argument to `addEventListener`, we call this a `callback`. A callback is simply a function that is passed into another function as an argument.
 
