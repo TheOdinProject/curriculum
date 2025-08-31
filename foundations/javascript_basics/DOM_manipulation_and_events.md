@@ -68,6 +68,8 @@ When your HTML code is parsed by a web browser, it is converted to the DOM, as w
 
 <div class="lesson-note">
 
+#### Performance Consideration
+
 There are several other, more specific queries, that offer potential (marginal) performance benefits, but we won't be going over them now.
 
 </div>
@@ -178,6 +180,8 @@ div.innerHTML = "<span>Hello World!</span>";
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Tip
+
 Note that using textContent is preferred over innerHTML for adding text, as innerHTML should be used sparingly to avoid potential security risks.
 To understand the dangers of using innerHTML, watch this [video about preventing the most common cross-site scripting attack](https://youtube.com/watch?v=ns1LX6mEvyM).
 
@@ -219,6 +223,8 @@ In the JavaScript file, first we get a reference to the `container` div that alr
 Keep in mind that the JavaScript does *not* alter your HTML, but the DOM - your HTML file will look the same, but the JavaScript changes what the browser renders.
 
 <div id="important-note" class="lesson-note" markdown="1">
+
+#### Important
 
 Your JavaScript, for the most part, is run whenever the JS file is run or when the script tag is encountered in the HTML. If you are including your JavaScript at the top of your file, many of these DOM manipulation methods will not work because the JS code is being run *before* the nodes are created in the DOM. The simplest way to fix this is to include your JavaScript at the bottom of your HTML file so that it gets run after the DOM nodes are parsed and created.
 
@@ -283,6 +289,8 @@ btn.onclick = () => alert("Hello World");
 ```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Tip
 
 If you need to review the arrow syntax `() =>`, check this [article about arrow functions](http://javascript.info/arrow-functions-basics).
 
@@ -355,6 +363,8 @@ btn.addEventListener("click", function (e) {
 ```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Tip
 
 When we pass in `alertFunction` or `function (e) {...}` as an argument to `addEventListener`, we call this a `callback`. A callback is simply a function that is passed into another function as an argument.
 
@@ -435,6 +445,7 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
    - [Custom events](https://www.javascripttutorial.net/javascript-dom/javascript-custom-events/)
 
 1. Complete [MDN's Active Learning sections on DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_basic_dom_manipulation) to test your skills!
+
 </div>
 
 ### Knowledge check
