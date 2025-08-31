@@ -77,6 +77,7 @@ const App = () => {
 
 export default App;
 ```
+
 Now it's time to add the router! There's a couple of ways of defining our app's routes, we will follow the object-based approach.
 
 Let us install the React Router package:
@@ -454,7 +455,7 @@ You will often come across the need to reroute the user to a different URL progr
 
 ### Conclusion
 
-You should now have enough basics to get started with React routing. There are a lot more features to react-router-dom which are extremely useful, but out of the scope of this lesson. We're confident that the concepts covered above should be enough to get you through the React course. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
+You should now have enough basics to get started with React routing. There are a lot more features to react-router which are extremely useful, but out of the scope of this lesson. We're confident that the concepts covered above should be enough to get you through the React course. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
 
 ### Assignment
 
