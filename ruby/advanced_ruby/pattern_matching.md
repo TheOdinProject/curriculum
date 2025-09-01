@@ -669,7 +669,7 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [Ruby docs on pattern matching](https://docs.ruby-lang.org/en/3.3/syntax/pattern_matching_rdoc.html). They cover quite a lot of ground.
+1. Read the [Ruby docs on pattern matching](https://docs.ruby-lang.org/en/3.4/syntax/pattern_matching_rdoc.html). They cover quite a lot of ground.
 
 </div>
 
@@ -677,8 +677,8 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is pattern matching?](https://docs.ruby-lang.org/en/3.3/syntax/pattern_matching_rdoc.html)
-- [What is the difference between array patterns and hash patterns?](https://docs.ruby-lang.org/en/3.3/syntax/pattern_matching_rdoc.html#label-Patterns)
+- [What is pattern matching?](https://docs.ruby-lang.org/en/3.4/syntax/pattern_matching_rdoc.html)
+- [What is the difference between array patterns and hash patterns?](https://docs.ruby-lang.org/en/3.4/syntax/pattern_matching_rdoc.html#label-Patterns)
 - [What is the variable pattern match?](#variable-pattern)
 - [What are the different ways of pattern matching on an array?](#array-pattern-match)
 - [Explain the find pattern.](#find-pattern)
