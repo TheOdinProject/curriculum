@@ -45,7 +45,7 @@ And if you don't know something, it's better to say so and work with your interv
 You'll need to read up on a variety of things that weren't focused on in the previous few courses, including data structures and algorithms, just because they're favorite targets of interviewers.  They may not be great indicators of coding skill, but the world is stuck in its ways and you'll be asked those more "Computer Science-y" questions.
 
 ### Links
-
+* [Peerfect.net](https://peerfect.net/) free online practice for behavioral, technical, and coding mock interviews with peers.
 * [Exponent.com](https://www.tryexponent.com/practice?ref=pramp&utm_source=pramp&utm_campaign=pramp_banner) allows you to prepare for coding interviews and practice your coding skills with peers.
 * [Interviewing.io](http://interviewing.io/) gives you a chance to practice tech screens anonymously online.
 * [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
@@ -64,6 +64,7 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.
 * [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms & data structures.
 * [LeetCode](https://leetcode.com/explore/) also has some great resources, with problems, explanations, and challenges. Best of all, you don't have to create an account to view the questions.
+* [NeetCode](https://neetcode.io/) similar to LeetCode, but fewer, more focused questions. Each problem also has video explanations that walk through the problem solution
 
 <div class="lesson-note" markdown="1">
 The real value of the sites mentioned above comes from engaging with them productively. A popular recommendation around the internet is to just "go grind Leetcode." As you're aware of by now, common algorithms typically have a "trick" or a specific set of steps in order to get to a solution. When you are preparing to interview, the value and utility of wrestling with a problem for hours/days is little. It is more productive to search for the algorithm/pseudocode, then practice problems that require awareness of that algorithm.

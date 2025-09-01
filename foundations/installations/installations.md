@@ -33,9 +33,15 @@ This section contains a general overview of topics that you will learn in this l
 
 ### OS installation
 
-#### IMPORTANT
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device. You only need to follow one of these sets of instructions or none of them if you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system.
+#### Unsupported hardware and software
+
+This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device. You only need to follow one of these sets of instructions if you are **not** already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system.
+
+If you are already using supported hardware and software, you can skip straight to Google Chrome installation below.
+
+</div>
 
 Pick your method of installation below:
 
@@ -106,9 +112,11 @@ You want to tick the **Guest Additions** and **Install in Background** options a
 
 In the **Hardware** section of the installation you want to set your **Base Memory** to at least 2048 MB or more if possible - the upper limit is half of your total RAM but 4096 MB with the settings we recommend should give you a smooth experience.
 
-> For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. You can google how to find out how much RAM you have available if you do not know this already. If the VM runs a bit slow, try allocating more memory!
+> For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. You can Google how to find out how much RAM you have available if you do not know this already. If the VM runs a bit slow, try allocating more memory!
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Converting gigabytes to megabytes
 
 Difficulty converting your Gigabytes (GB) into Megabytes (MB)? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**
 
@@ -218,7 +226,7 @@ Here are some tips to help you get started in a virtual environment:
 
 #### Frequent issues/questions
 
-- If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
+- If upon trying to start the VM you only get a black screen, close and `power off` the VM, click **Settings -> Display** in VirtualBox and make sure **Enable 3D Acceleration** is UNCHECKED, and Video memory is set to **AT LEAST 128MB**.
 - Running out of space? Look at these [instructions for increasing VM disk space from the TOP Discord server](https://discord.com/channels/505093832157691914/690588860085960734/1015965403572351047).
 - Are you using a touchscreen? [Watch a video on how to enable touchscreen controls for VirtualBox](https://www.youtube.com/watch?v=hW-iyHHoDy4).
 
@@ -321,7 +329,7 @@ Once you have successfully met both of these requirements, you should be able to
 
 <summary class="dropDown-header">WSL2 (Advanced)</summary>
 
-Using WSL2 is an quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
+Using WSL2 is a quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
 
 To make it clear: you are going to be using a different OS, this is not a way to avoid using Linux. Due to how WSL2 is integrated with Windows it often causes significant confusion to new learners. Use the Virtual Machine if you want a clear separation between your Windows and Linux so the curriculum is easier to follow.
 
@@ -374,11 +382,15 @@ On Windows there are three primary ways to open WSL2.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Terminal color scheme
+
 You might notice when you open WSL2 via Windows Terminal, you'll see a window with a different color scheme and a different icon compared to opening a terminal through Ubuntu in your applications. This is because Windows Terminal comes with a default color scheme for Ubuntu meant to emulate how a real Ubuntu terminal looks. This difference is purely cosmetic, and there is no practical difference between the two.
 
 </div>
 
 <div class="lesson-note lesson-note--warning" markdown="1">
+
+#### /mnt/c is not Linux!
 
 When opening your WSL2 terminal ensure that you do not see `/mnt/c` at the start of the line. `/mnt/c` is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences.
 
@@ -440,6 +452,8 @@ You can still enter your password as normal and press Enter to submit it.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Download is performed unsandboxed
+
 You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [You can read a Reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
 
 </div>
@@ -462,6 +476,8 @@ google-chrome
 ```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Google Chrome as a background process
 
 Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &` instead.
 
@@ -502,6 +518,8 @@ Chrome is going to use this terminal to output various messages and won't let yo
 
 <summary class="dropDown-header">WSL2</summary>
 
+WSL does not have a graphical user interface (GUI) like Windows, so this step will guide you through installing Google Chrome for Windows instead. Later on, we'll cover how you can use the Windows installed Chrome to preview your work that lives within WSL.
+
 #### Step 1: Download Google Chrome
 
 - Visit [Google Chrome download page](https://www.google.com/chrome/).
@@ -510,17 +528,17 @@ Chrome is going to use this terminal to output various messages and won't let yo
 #### Step 2: Install Google Chrome
 
 - Open the **Downloads** folder.
-- Double click the file **ChromeSetup.exe**.
+- Double click the file **ChromeSetup.exe** to start the install.
 
-#### Step 3: Delete the installer file
+#### Step 3: Using Google Chrome
+
+- Search for **Google Chrome** in your Start Menu.
+- Click **Google Chrome** to start the application.
+
+#### Optional: Delete the installer file
 
 - Open the **Downloads** folder.
-- Drag **ChromeSetup.exe** to the trash.
-
-#### Step 4: Using Google Chrome
-
-- Search for **Google Chrome** in your applications.
-- Double click **Google Chrome**.
+- Select the **ChromeSetup.exe** file and hit the Delete key, or drag it the Recycling Bin.
 
 </details>
 

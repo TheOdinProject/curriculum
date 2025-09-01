@@ -97,7 +97,7 @@ Or, what if we aren't making a 2 player game, but something more complicated suc
 
 ### Object constructors
 
-When you have a specific type of object that you need to duplicate like our player or inventory items, a better way to create them is using an object constructor, which is a function that looks like this:
+When you have a specific type of object that you need to duplicate like our player or inventory items, a better way to create them is using an object constructor, which is just a regular function that by convention is named with an uppercase initial letter. It looks like this:
 
 ```javascript
 function Player(name, marker) {
@@ -106,7 +106,7 @@ function Player(name, marker) {
 }
 ```
 
-and which you use by calling the function with the keyword `new`.
+and you can use it by calling the function with the keyword `new`.
 
 ```javascript
 const player = new Player('steve', 'X');
@@ -130,9 +130,30 @@ player1.sayName(); // logs 'steve'
 player2.sayName(); // logs 'also steve'
 ```
 
+<div class="lesson-note lesson-note--warning" markdown="1" >
+
+#### Safeguarding constructors
+
+Note that, as constructors are just regular functions, they could be called without using `new` by mistake, which would cause hard-to-track errors. To prevent that, you can use the `new.target` meta-property like this:
+
+```javascript
+function Player(name, marker) {
+  if (!new.target) {
+    throw Error("You must use the 'new' operator to call the constructor");
+  }
+  this.name = name;
+  this.marker = marker;
+  this.sayName = function() {
+    console.log(this.name)
+  };
+}
+```
+
+</div>
+
 ### Exercise
 
-Write a constructor for making "Book" objects. We will revisit this in the project at the end of this lesson. Your book objects should have the book's `title`, `author`, the number of `pages`, and whether or not you have `read` the book.
+Write a constructor for making "Book" objects. We will revisit this in the next project. Your book objects should have the book's `title`, `author`, the number of `pages`, and whether or not you have `read` the book.
 
 Put a function into the constructor that can report the book info like so:
 
@@ -359,7 +380,7 @@ If we had used `Object.setPrototypeOf()` in this example, then we could safely e
 1. You might have noticed us using the `this` keyword in object constructors and prototype methods in the examples above.
 
    1. [JavaScript Tutorial's article on the `this` keyword](https://www.javascripttutorial.net/javascript-this/) covers how `this` changes in various situations. Pay special attention to the pitfalls mentioned in each section.
-1. Read the article [[[Prototype]] vs __proto__ vs .prototype in Javascript](https://medium.com/@eamonocallaghan/prototype-vs-proto-vs-prototype-in-javascript-6758cadcbae8)
+1. Read the article [`[[Prototype]]` vs `__proto__` vs `.prototype` in JavaScript](https://medium.com/@eamonocallaghan/prototype-vs-proto-vs-prototype-in-javascript-6758cadcbae8)
 
 </div>
 
@@ -368,6 +389,7 @@ If we had used `Object.setPrototypeOf()` in this example, then we could safely e
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How do you write an object constructor and instantiate the object?](#object-constructors)
+- [How can you prevent that an object constructor is called without using the keyword `new`?](#safeguarding-constructors)
 - [What is a prototype and how can it be used?](#the-prototype)
 - [What is prototypal inheritance?](https://javascript.info/prototype-inheritance)
 - [What are the basic do's and don't's of prototypal inheritance?](#recommended-method-for-prototypal-inheritance)

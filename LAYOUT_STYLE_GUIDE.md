@@ -1,6 +1,6 @@
 # Layout style guide
 
-Inspired by [Google's styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md)
+Inspired by [Google's styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md).
 
 TOP uses Markdown for the layout and formatting of lesson and project files to get properly formatted HTML for the TOP website.
 
@@ -41,7 +41,6 @@ The [lesson example](./templates/lesson-example.md) and [project example](./temp
 ### Lesson layout
 
 ```markdown
-
 ### Introduction
 
 A BRIEF INTRODUCTION.
@@ -78,7 +77,6 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
-
 ```
 
 1. `### Introduction`: A brief summary on what the lesson is about and/or why the topics or concepts it covers are important. Replace the `A BRIEF INTRODUCTION.` text with your own lesson introduction.
@@ -116,7 +114,6 @@ This section contains helpful links to related content. It isn't required, so co
 ### Project layout
 
 ```markdown
-
 ### Introduction
 
 A BRIEF INTRODUCTION.
@@ -142,7 +139,6 @@ OPTIONAL PRE-ASSIGNMENT SECTION CONTENT.
 ### OPTIONAL POST-ASSIGNMENT SECTION HEADING
 
 OPTIONAL POST-ASSIGNMENT SECTION CONTENT.
-
 ```
 
 1. `### Introduction`: A brief summary on what the project is and an overview of what the user will be building. Replace the `A BRIEF INTRODUCTION.` text with your own project introduction.
@@ -156,6 +152,10 @@ OPTIONAL POST-ASSIGNMENT SECTION CONTENT.
 1. `### OPTIONAL POST-ASSIGNMENT SECTION HEADING`: A section that contains content that should come after the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `OPTIONAL POST-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `OPTIONAL POST-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional post-assignment sections. **If the project does not have a post-assignment section, remove this entire section from the project.**
 
 ## Headings
+
+### Indentation
+
+Headings must not be indented, regardless of level and even if they are inside an assignment `div`. The only exception is when the heading is for a [note box](#note-boxes).
 
 ### Case
 
@@ -350,15 +350,14 @@ Create a new file named `styles.css` first.
 
 For code quotations longer than a single line, use a codeblock with 3 opening and closing backticks:
 
-<pre>
-
+````markdown
 ```javascript
 const obj = {
   name: "object",
   marker: "X"
 }
 ```
-</pre>
+````
 
 #### Declare the language
 
@@ -383,8 +382,7 @@ cd Documents
 
 If you need a codeblock within a list, you should follow the same indenting rules for [multi-line list items](#multi-line-list-items), with the codeblock being indented with 2 spaces for a bulleted list item and 3 spaces for a numbered list item. The following Markdown:
 
-<pre>
-
+````markdown
 - Bullet.
 
   ```javascript
@@ -395,8 +393,7 @@ If you need a codeblock within a list, you should follow the same indenting rule
   ```
 
 - Next bullet.
-
-</pre>
+````
 
 Will result in the following output:
 
@@ -415,25 +412,26 @@ Will result in the following output:
 
 Note boxes can be added by wrapping the content in a `div` with the class `lesson-note`. This will add styling to make the note stand out visually to users.
 
-For nested markdown inside note boxes to be displayed properly additional `markdown="1" attribute` is needed.
+All note boxes must open with a level 4 heading (`####`), which will also require the note box div to have the `markdown="1"` attribute so the heading renders correctly. Headings must describe the note box's contents, rather than just "Note" or "Warning".
 
-A heading can be added to a note by using a `####` heading. When adding a heading, be sure to provide text that helps describe the note rather than "A note" or "Warning".
+Note box headings must match the note box's indentation level, such as if the note box is indented as a child of a list item.
 
-The opening and closing tags must each be wrapped with a single blank line on either side, or a codeblock delimiter (triple backticks). This applies to any line that contains only a single HTML tag. The only exceptions to this rule are HTML tags inside `html`, `jsx`, `erb` or `ejs` codeblocks.
+The opening and closing tags must each be wrapped with a single blank line on either side, or a codeblock delimiter (triple backticks). This applies to any line that contains only a single HTML tag. The only exceptions to this rule are HTML tags inside `html`, `jsx`, `erb`, `ejs`, `javascript` or `ruby` codeblocks.
 
 ### Variations
 
-Note boxes come in two variations, which can be set by adding an extra class together with `lesson-note`:
+Different types of note boxes can be set by adding an extra class together with `lesson-note`:
 
-- `lesson-note--tip` for tips or general information
+- `lesson-note--tip` for tips
 - `lesson-note--warning` for warnings about potential issues/pitfalls, and are more severe than a tip
+- `lesson-note--critical` for the most important warnings, such as critical information about handling sensitive data
 
-### Example
+#### Example
 
 ```markdown
 <div class="lesson-note" markdown="1">
 
-#### An optional title
+#### A descriptive title
 
 A sample note box.
 
@@ -443,7 +441,7 @@ A sample note box.
 ```markdown
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### An optional title
+#### A descriptive title
 
 A sample note box, variation: tip.
 
@@ -459,10 +457,10 @@ Long links make source Markdown difficult to read and break the 80 character wra
 Instead of using HTML anchor tags for links, use Markdown links instead.
 
 ```markdown
-// Don't use HTML links
+<!-- Don't use HTML links -->
 See the <a href="./templates/lesson-template.md" target="_blank" rel="noreferrer">lesson template</a> for a more easily copyable lesson file.
 
-// Use Markdown links
+<!-- Use Markdown links -->
 See the [lesson template](./templates/lesson-template.md) for a more easily copyable lesson file.
 ```
 
@@ -480,11 +478,11 @@ Or, check out the [project template](./templates/project-template.md) for a more
 Typically you want to ensure the link text describes the purpose of the link or where the link will redirect a user, and can often be the title of a blog article or video. You should also do your best to avoid including "this" and "here" in the link text to avoid our linter from flagging it as an error, even if the link text is descriptive. Often times "this" or "here" aren't necessary as part of the link text, and may cause some confusion despite a descriptive text ("Where's here??").
 
 ```markdown
-// Sufficient, but could be tweaked further
+<!-- Sufficient, but could be tweaked further -->
 Check out [this video on flex-grow from CoolYoutuber](...url)
 Go look at our [installations guide here](...url)
 
-// After a slight change
+<!-- After a slight change -->
 Check out this [video on flex-grow from CoolYoutuber](...url)
 Go look at our [installations guide](...url)
 ```
@@ -492,12 +490,12 @@ Go look at our [installations guide](...url)
 Additionally, if there are multiple links in a lesson that redirect to the same `href`, the link text for each link must be the same. For example:
 
 ```markdown
-// Not great :(
+<!-- Not great :( -->
 Go to [Google](www.google.com)
 Try [searching on Google](www.google.com)
 First go to the [Google homepage](www.google.com)
 
-// Better! :)
+<!-- Better! :) -->
 Go to [Google](www.google.com)
 Try searching on [Google](www.google.com)
 First go to the [Google](www.google.com) homepage

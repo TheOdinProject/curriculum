@@ -17,7 +17,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The `transform` property takes in one or more CSS transform functions as its values, with those functions taking in their own value, usually an angle or a number.
 
-Almost all elements can have the `transform` property applied to it, with the exceptions being `<col>`, `<colgroup>`, and non-replaced inline elements. "Non-replaced" refers to elements whose content is contained within the HTML document (`<span>`, `<b>`, and `<em>`, for example), as opposed to a "replaced" element's content being contained outside of the document (`<a>`, `<iframe>`, and `<img>`, for example). You do not need to memorize every element that is non-replaced, but rather keep this knowledge in mind should you try to apply the `transform` property to an element and aren't sure why it isn't working.
+Almost all elements can have the `transform` property applied to them, with the exceptions being `<col>`, `<colgroup>`, and non-replaced inline elements. "Non-replaced" refers to elements whose content is contained within the HTML document (`<span>`, `<b>`, and `<em>`, for example), as opposed to a "replaced" element's content being contained outside of the document, the element itself being "replaced" by the external content (`<a>`, `<iframe>`, and `<img>`, for example). You do not need to memorize every element that is non-replaced, but rather keep this knowledge in mind should you try to apply the `transform` property to an element and aren't sure why it isn't working.
 
 ### Two-dimensional transforms
 
@@ -271,8 +271,8 @@ Another benefit of `transform` is that it can be hardware-accelerated via a devi
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Take a look at this [MDN demonstration of `rotate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) then read more about the property in this [Quackit article on `rotate3d`](https://www.qhmit.com/css/functions/css_rotate3d_function.cfm).
-1. Learn more about [the `perspective` property on CSS Tricks](https://css-tricks.com/how-css-perspective-works/).
+1. Take a look at this [MDN demonstration of `rotate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d()) then read more about the property in this [QHMIT article on `rotate3d`](https://www.qhmit.com/css/functions/css_rotate3d_function.cfm).
+1. Learn more about [perspective in CSS](https://3dtransforms.desandro.com/perspective).
 1. MDN has another great [demonstration using `translate3d`](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d()).
 1. Go through [The World of CSS Transforms](https://www.joshwcomeau.com/css/transforms/) by Josh Comeau.
 

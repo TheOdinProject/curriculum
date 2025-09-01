@@ -17,10 +17,13 @@ Before we dive straight into positioning, let's establish some terminology to be
 To give an example, if we wanted to create a 3x3 grid with 100 pixel rows and 100 pixel columns, we need to define 3 horizontal tracks with a height of 100 pixels and 3 vertical tracks with a width of 100 pixels:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="poWvJXQ" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/poWvJXQ">
   3x3 Layout | CSS Grid</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 You will notice two CSS lines have been commented out in this CodePen. Uncomment the property in the `.first-row` class selector to see the grid track between the first and second-row grid lines.
@@ -52,19 +55,25 @@ But what happens if we wanted to change the order of our grid items? Or if we wa
 To get a feel for how items can be positioned we will create a mock floor plan for an apartment. Let's start with a total area of our apartment (the grid container) divided into a 5x5 grid. To make this example a little clearer, we'll use a background color to distinguish our container space. Note that we're also using `display: inline-grid` here so that our container does not stretch to take up space the way a block-level box would. This will just help us better visualize the space.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="rNGaOxB" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/rNGaOxB">
   Positioning 1 | CSS Grid</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 As it stands this is a pretty sad unit. To make it less of an empty box and more of a home we are going to add some items to our grid container that will represent different rooms.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="poWvjgY" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/poWvjgY">
   Positioning 2 | CSS Grid</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Most of our rooms represent a single grid cell. But we have given ourselves a large living room. (Yay!) We positioned this item using `grid-column-start` and `grid-column-end`. Their property values represent the column grid lines we wish it to start and end with.
@@ -76,10 +85,13 @@ These properties allow us to use our existing grid lines to tell items how many 
 Next, we need to use our space more efficiently. We will make the rest of our rooms span multiple grid cells and fill out the rest of our apartment.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="jOGEbrX" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/jOGEbrX">
   Positioning 3 | CSS Grid</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Now we have the blueprints for our full apartment. If you take a look at the `#kitchen` selector you will see we used shorthand properties here. `grid-column` is just a combination of `grid-column-start` and `grid-column-end` with a slash between the two values. And `grid-row` is the shorthand version for setting an item's row positioning.
@@ -119,10 +131,13 @@ So our living room can be written just like this:
 We could do this to all of our grid items and give each room a `grid-area` value as a name. Then we can map out the whole structure with the grid container using `grid-template-areas`.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="dyVPYpv" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/dyVPYpv">
   grid-template-areas 1 | CSS Grid</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Wow! You might want to open up the CodePen browser and make it large enough to really read the `grid-template-areas` layout line by line. But this tool gives us a completely different way to position items.
@@ -130,10 +145,13 @@ Wow! You might want to open up the CodePen browser and make it large enough to r
 We can even use `.` to indicate empty cells. Say our apartment might be getting a water heater and washer/dryer. We might not be sure of the exact layout but we can visualize some space easily by removing more room in the bathroom and kitchen:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="ZEXYbpg" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/ZEXYbpg">
   grid-template-areas 2 | CSS Grid</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 So now you know two very different ways of using `grid-area` on a grid item. You might even see the term "grid area" refer to a group of cells. For example, all the grid cells of the living room together is a grid area. The apartment analogy should help. A grid item can take up multiple cells forming an area of the grid much like a room with four walls in an apartment.
@@ -147,10 +165,10 @@ As you go through the assignments you will come across more terminology like `sp
 <div class="lesson-content__panel" markdown="1">
 
 1. Read MDN's [Line-based Placement with CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Line-based_Placement_with_CSS_Grid).
-1. Go back to our [CSS exercises repository](https://github.com/TheOdinProject/css-exercises) (you've done these previously, but don't forget that the instructions are in the README). Do the first exercise in the 'grid' directory:
-   - `grid-layout-1`
+1. Do the exercise in our [CSS exercises repository's `intermediate-html-css/positioning-grid` directory](https://github.com/TheOdinProject/css-exercises/tree/main/intermediate-html-css/positioning-grid) (don't forget that the instructions are in the README):
+   - `01-basic-holy-grail`
 
-   Note: When doing this exercise, please use all the documentation and resources you need to accomplish it. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
+   Note: When doing this exercise, please use all the documentation and resources you need to accomplish it. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use Google, do what you need to do (besides checking the solutions) to get them done.
 
 </div>
 
@@ -171,3 +189,4 @@ This section contains helpful links to related content. It isn't required, so co
 - Play through levels 1 - 17 of [CSS Grid Garden](https://cssgridgarden.com/) to practice positioning items. Note the rest of the levels go beyond the scope of this lesson.
 - If you want to know more about using `grid-template-areas` check out this [Smashing Magazine article from Rachel Andrew.](https://www.smashingmagazine.com/understanding-css-grid-template-areas)
 - To learn more about alignment and centering items read through these MDN Docs on [Box Alignment in CSS Grid Layout.](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout)
+- This [visual CSS grid cheatsheet](https://grid.malven.co/) provides a quick reference for all the essential grid properties and values.

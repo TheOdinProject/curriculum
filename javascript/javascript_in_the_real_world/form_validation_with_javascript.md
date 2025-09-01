@@ -28,7 +28,7 @@ Go back to your 'Library' project and add validation to that form! Don't let you
 
 #### A little more practice
 
-Build a browser form which collects Email, Country, Zip Code, Password and Password Confirmation fields.  It should use live inline validation to inform the user whether a field is properly filled in or not.  That means highlighting a field red and providing a helpful error message until it has been filled in properly.
+Build a browser form which collects Email, Country, Postal Code, Password and Password Confirmation fields. It should use live inline validation to inform the user whether a field is properly filled in or not. That means validating as you type, not only upon form submission. When a field is invalid, it should be highlighted in red and show an error message to guide the user.
 
 The form doesn't need to actually submit, but you should give an error message if the button is pushed with any active errors or unfilled required fields. For the sake of this lesson, make sure the `<form>` element has the [`novalidate` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#novalidate) which will allow you to do **all** of your validation in your JavaScript files. You can still use different `<input>` types, but you will need to use JavaScript to check and report their validity. If all is well and the form is "submitted", give the user a high five.
 
@@ -45,10 +45,9 @@ The form doesn't need to actually submit, but you should give an error message i
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Explain the importance of validating HTML forms before submitting them to a server.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#what_is_form_validation)
-- [Describe the two types of client-side form validation.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#different_types_of_client-side_validation)
-- [Explain how JavaScript Constraint Validation API provides more control and customization of form validation.](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript)
-- [Could forms also be validated without using Constraint Validation API?](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_without_a_built-in_api)
+- [What is the importance of validating HTML forms before submitting them to a server?](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#what_is_form_validation)
+- [What are the two types of client-side form validation?](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#different_types_of_client-side_validation)
+- [How does JavaScript Constraint Validation API provide more control and customization of form validation?](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript)
 
 ### Additional resources
 

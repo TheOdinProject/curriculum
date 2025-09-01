@@ -21,7 +21,7 @@ This section contains a general overview of topics that you will learn in this l
 <div class="lesson-content__panel" markdown="1">
 
 1. Read the [Object Oriented Programming with Ruby](https://launchschool.com/books/oo_ruby) online book, by Launch School.
-1. Read through these reinforcing posts by Erik Trautman to help you answer the questions in the "Learning Outcomes" section:
+1. Read through these reinforcing posts by Erik Trautman to help you answer the questions in the "Knowledge check" section:
     - [Ruby Explained: Classes](http://www.eriktrautman.com/posts/ruby-explained-classes)
     - [Ruby Explained: Inheritance and Scope](http://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
 1. Read the article [Object Relationships in Basic Ruby](https://medium.com/@marcellamaki/object-relationships-in-basic-ruby-1af5773fff48) to see an example of how two classes can interact.

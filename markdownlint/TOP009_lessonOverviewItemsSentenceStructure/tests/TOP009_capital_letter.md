@@ -1,36 +1,27 @@
 ### Introduction
 
-Text content
+This file should be marked with an error because one of the lesson overview items is not properly capitalized.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- LO item
+- Lesson overview item 1.
+- lesson overview item 2.
+- Lesson overview item 3.
+- Lesson overview item 4.
 
-### The following links should NOT be flagged
+### Custom section
 
-[Some descriptive link text](someURL1)
-[He replied](someURL2)
-[With is](someURL3)
-[Where](someURL4)
-[Heresy](someURL5)
-
-### The following links SHOULD be flagged
-
-[this](someURL6)
-[This video](someURL7)
-[here](someURL8)
-[Click here](someURL9)
-[This other thing](someURL10)
-[This blog post about flex-grow will be flagged as a false positive, but could still be updated](someURL11)
-[This will get caught](someURL12) and so will [this as separate matches](someURL13)
+Text content
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 Assignment content
+
+#### Extra credit
 
 </div>
 

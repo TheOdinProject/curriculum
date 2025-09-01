@@ -4,7 +4,7 @@ In the previous lesson, you learned about some really handy enumerable methods l
 
 This time, we're focusing on a particular subset of enumerable methods: the **predicate enumerable methods**. You should recall from the Methods lesson that a predicate method is indicated by a question mark (`?`) at the end of the method name and returns either `true` or `false`. Again, we won't be going through all of the predicate enumerable methods, so be sure to have a look at the [Ruby docs](https://docs.ruby-lang.org/en/3.3/) to see what else [Enumerable](https://docs.ruby-lang.org/en/3.3/Enumerable.html) offers.
 
-For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
+For all of the examples throughout this lesson, feel free to follow along in irb or any appropriate online REPL environment to get a better feel for how they work.
 
 ### Lesson overview
 
@@ -223,6 +223,20 @@ fruits.none? { |fruit| fruit.length > 10 }
 #=> true
 
 fruits.none? { |fruit| fruit.length > 6 }
+#=> false
+```
+
+### The one? method
+
+Ruby has methods to check whether all, any, or none of the elements in an array match a condition. But what if you need exactly one match - no more, no less? Ruby has you covered with the `#one?` method, which returns true if the block evaluates to true for exactly one element.
+
+```ruby
+fruits = ["apple", "banana", "strawberry", "pineapple"]
+
+fruits.one? { |fruit| fruit.length > 9 }
+#=> true
+
+fruits.one? { |fruit| fruit.length > 2 }
 #=> false
 ```
 

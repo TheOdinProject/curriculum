@@ -38,56 +38,62 @@ That would tell us the route matches any POST requests to the `/messages` path o
 
 ### Paths
 
-The first argument we pass a route is the path to match, which can either be a string or a regular expression. `/messages` matches that exactly, while `/message/all` only matches if the path is `/messages/all` (not `/messages`, nor `/messages/new`).
+The first argument we pass a route is the path to match, which can either be a string or a regular expression. `/messages` matches that exactly, while `/messages/all` only matches if the path is `/messages/all` (not `/messages`, nor `/messages/new`).
 
-With string paths, we can also use certain symbols like `?`, `+`, `*` and `()` to provide some pattern-matching functionality, similar to regular expressions. For example:
+With string paths, we can also use `{}` to make characters optional. For example:
 
 ```javascript
-// ? makes a character optional
-// The following path matches both /message and /messages
-"/messages?"
+// Matches both /message and /messages
+"/message{s}"
 
-// () groups characters together, allowing symbols to act on the group
-// The following path matches both / and /messages
-"/(messages)?"
+// Matches both / and /messages
+"/{messages}"
 
-// * is a wildcard matching any number of any characters
-// The following path can match /foo/barbar and even /foo-FOO/bar3sdjsdfbar
-"/foo*/bar*bar"
+// Matches both /foo/baz and /foo/bar/baz
+"/foo{/bar}/baz"
 ```
 
-<div id="order-matters" class="lesson-note lesson-note--warning" markdown="1">
+With `*` (a "splat" or "wildcard"), we can match any number of any characters. [Splats in Express paths must always be followed by a name](https://expressjs.com/en/guide/migrating-5.html#path-syntax).
+
+A common use case for a splat would be as a catch-all for all otherwise unmatched paths, e.g. for custom 404 error handling.
+
+```javascript
+// Matches / and /odin as well as /sdds8fjsdifhj98sdfh
+"/{*splat}"
+```
+
+<div class="lesson-note lesson-note--warning" markdown="1">
 
 #### Order matters!
 
 Your routes will be set up in your server in the order they are defined.
 
 ```javascript
-app.get("*", (req, res) => {
-  res.send("* is a great way to catch all otherwise unmatched paths, e.g. for custom 404 error handling.");
+app.get("/{*splat}", (req, res) => {
+  res.send("/{*splat} is a great way to catch all otherwise unmatched paths, e.g. for custom 404 error handling.");
 });
 app.get("/messages", (req, res) => {
   res.send("This route will not be reached because the previous route's path matches first.");
 });
 ```
 
-In order for our `GET /messages` request to match the `/messages` route, we will need to reverse the order our routes are defined. Doing so will prevent it from reaching the `*` route, as it will match the `/messages` route first.
+In order for our `GET /messages` request to match the `/messages` route, we will need to reverse the order our routes are defined. Doing so will prevent it from reaching the `/{*splat}` route, as it will match the `/messages` route first.
 
 </div>
 
 #### Route parameters
 
-What if we wanted to have a route for all messages for any username, for example, `/odin/messages` or `/thor/messages`, or even `/theodinproject79687378/messages`? We could technically use `/*/messages`, but what if we wanted to extract and use the username in our middleware functions? Just like with React Router, we can use `route parameters`, and a path can contain as many of these parameters as we need.
+What if we wanted to have a route for all messages for any username, for example, `/odin/messages` or `/thor/messages`, or even `/theodinproject79687378/messages`? Just like with React Router, we can use `route parameters`, and a path can contain as many of these parameters as we need.
 
 To denote a route parameter, we start a segment with a `:` followed by the name of the parameter (which can only consist of case-sensitive alphanumeric characters, or `_`). Whatever we name that route parameter, Express will automatically populate the `req.params` object in any of the following middleware functions with whatever value the path passed into the parameter, using the parameter name as its key.
 
 ```javascript
 /**
  * GET /odin/messages will have this log
- * { username: 'odin' }
+ * { username: "odin" }
  *
  * GET /theodinproject79687378/messages would instead log
- * { username: 'theodinproject79687378' }
+ * { username: "theodinproject79687378" }
  */
 app.get("/:username/messages", (req, res) => {
   console.log(req.params);
@@ -108,7 +114,9 @@ Now we can easily extract values from the request path for use within our middle
 
 #### Query parameters
 
-Query parameters are a unique and optional part of a URL that appear at the end. A `?` denotes the start of the query parameters, with each query being a key-value pair with the format `key=value`, and each query separated by an `&`. They are special as they are not actually considered part of the path itself, but are essentially more like arguments we can pass in to a given path. For example, `/odin/messages?sort=date&direction=ascending` will still match the route with the `/:username/messages` path, but we can access the `sort=date` and `direction=ascending` key-value pairs inside the middleware chain.
+Query parameters are a unique and optional part of a URL that appear at the end. A `?` denotes the start of the query parameters, with each query being a key-value pair with the format `key=value`, and each query separated by an `&`. They are special as they are not actually considered part of the path itself, but are essentially more like arguments we can pass in to a given path.
+
+For example, `/odin/messages?sort=date&direction=ascending` will still match the route with the `/:username/messages` path, but we can access the `sort=date` and `direction=ascending` key-value pairs inside the middleware chain.
 
 Express automatically parses any query parameters in a request and will populate the `req.query` object with any key-value pairs it finds. If any keys are repeated, Express will put all values for that key into an array.
 
@@ -154,70 +162,71 @@ GET /authors
 GET /authors/:authorId
 ```
 
-It'd be nice if we could extract the route groups to their own files, and we can do that using routers!
+It'd be nice if we could extract the route groups to their own files, and we can do that using routers! Going back to our basic Express app from before, let's add some routers to handle each of our route groups.
+
+We'll need a router first, which we can place in a new `routes` folder. For example, `routes/authorRouter.js`:
+
+```javascript
+// routes/authorRouter.js
+const { Router } = require("express");
+
+const authorRouter = Router();
+
+authorRouter.get("/", (req, res) => res.send("All authors"));
+authorRouter.get("/:authorId", (req, res) => {
+  const { authorId } = req.params;
+  res.send(`Author ID: ${authorId}`);
+});
+
+module.exports = authorRouter;
+```
+
+In the above, we destructure the Express object to get a Router function and use it to create our `authorRouter`. We can use the same `.get` or `.post` methods on this router instead of on the whole server object, meaning we can write routes and middleware scoped to this router (we will dive deeper into these in the next lesson). Since we'll make this router usable only for paths that start with `/authors`, our route paths here don't need to include it. Instead, they *extend* the parent path (we wouldn't want our route to match `/authors/authors/:authorId`).
+
+Create the other two routers for the other route groups - `routes/bookRouter.js` and `routes/indexRouter.js`! Their middleware functions don't need to do much, just send something unique to each route so you know which route is being matched.
+
+Once you've made the other two routers, let's add them to our server in `app.js`:
 
 ```javascript
 // app.js
 const express = require("express");
 const app = express();
-const booksRouter = require("routes/booksRouter");
-const authorsRouter = require("routes/authorsRouter");
-const indexRouter = require("routes/indexRouter");
+const authorRouter = require("./routes/authorRouter");
+const bookRouter = require("./routes/bookRouter");
+const indexRouter = require("./routes/indexRouter");
 
-app.use("/books", booksRouter);
-app.use("/authors", authorsRouter);
+app.use("/authors", authorRouter);
+app.use("/books", bookRouter);
 app.use("/", indexRouter);
 
 const PORT = 3000;
-app.listen(PORT, () => {
+app.listen(PORT, (error) => {
+  if (error) {
+    throw error;
+  }
   console.log(`My first Express app - listening on port ${PORT}!`);
 });
 ```
 
-And what a router might look like:
+We specify that any requests with paths starting with `/authors` will be passed through `authorRouter` for route matching. If our request starts with `/books`, it will skip these author routes and then check the routes in `bookRouter` instead. Any other requests that don't start with either of these will run through `indexRouter`.
 
-```javascript
-// routes/authorsRouter.js
-const { Router } = require("express");
-
-const authorsRouter = Router();
-
-authorsRouter.get("/", (req, res) => res.send("All authors"));
-authorsRouter.get("/:authorId", (req, res) => {
-  const { authorId } = req.params;
-  res.send(`Author ID: ${authorId}`);
-});
-
-module.exports = authorsRouter;
-```
-
-Now we can avoid having `app.js` littered with a million different routes! We can create individual files for routers, and place them neatly in their own `routes` directory.
-
-In `routes/authorsRouter.js`, we destructure the Express object to get a Router function and use it to create our `authorsRouter`. We can use the same `.get` or `.post` methods on this router instead of on the whole server object, meaning we can write routes and router-level middleware (we will dive deeper into these in the next lesson)!
-
-Back in `app.js`, we specify that any requests with paths starting with `/books` will be passed through `booksRouter` for route matching. If our request starts with `/authors`, it will skip these book routes and then check the routes in `authorsRouter` instead. Any other requests that don't start with either of these will run through `indexRouter`.
-
-<div id="extend-router-paths" class="lesson-note lesson-note--tip" markdown="1">
-
-#### Paths in routers extend the parent path!
-
-Note that because our routes are now tied to a specific router, the route paths we use *extend* the parent path, that is they all implicitly start with the specified parent path.
-
-Inside `authorsRouter.js`, which extends the `/authors` path:
-
-- `/` will match requests with the path `/authors`
-- `/:authorId` will match requests with the path `/authors/:authorId`
-- `/authors/:authorId` will match requests with the path `/authors/authors/:authorId`
-
-Don't double up on the parent path!
-
-</div>
+To test these routes, use [Postman](https://www.postman.com/downloads/) which will allow you to send `GET` and `POST` requests without the browser (we can't send `POST` requests from the browser address bar).
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read through the Express' [primer on Routing](https://expressjs.com/en/guide/routing.html) for an overview of this lesson's topics. Remember to reference the [Express documentation](https://expressjs.com/en/4x/api.html) for more information on specific methods.
+<div class="lesson-note" markdown="1">
+
+#### Express v5 changes
+
+We are currently using Express v5 and as of writing this, some of the sections in the article below will not work in v5, though they are clearly marked and links provided to more relevant documentation.
+
+This resource will be updated once a v5-only routing primer exists.
+
+</div>
+
+1. Read through the Express' [primer on Routing](https://expressjs.com/en/guide/routing.html) for an overview of this lesson's topics. Remember to reference the [Express documentation](https://expressjs.com/en/api.html) for more information on specific methods.
 
 </div>
 
@@ -232,7 +241,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What object gets populated with route parameters?](#route-parameters)
 - [How do you access query parameters within routes?](#query-parameters)
 - [How do you extract routes to an individual router?](#routers)
-- [We have a router for paths starting with `/users`. Inside that router, what path should a GET route have to match a GET request to the `/users/delete` path?](#extend-router-paths)
+- [We have a router for paths starting with `/users`. Inside that router, what path should a GET route have to match a GET request to the `/users/delete` path?](#routers)
 
 ### Additional resources
 

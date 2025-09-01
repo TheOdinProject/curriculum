@@ -43,14 +43,6 @@ Recently the NodeJS.dev team removed a large amount of content from their websit
     - Follow along the [Event Emitter](https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter) section.
     - Look into the [Node events module](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-events.en.md).
 
-- Although a bit outdated, the W3 Schools introduction to Node.js is super useful! Go to the [W3 Schools node tutorial](https://www.w3schools.com/nodejs/default.asp) and code along with the following lessons (which should be listed on the sidebar of their site). Specifically, work from the **Node.js Intro** through to **Node.js Events**. You can look at the **File Uploads** and **Email** sections if you're feeling particularly ambitious!
-
-   <div class="lesson-note lesson-note--warning" markdown=1>
-
-  The URL module is very outdated. Refer to the earlier link if you run into issues in the Node.js URL Module from W3.
-
-  </div>
-
 </div>
 
 ### Knowledge check
@@ -58,9 +50,6 @@ Recently the NodeJS.dev team removed a large amount of content from their websit
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is a File System Module? How and why would you use it?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-modules/node-module-fs.en.md)
-- [What is the command for installing a package locally with npm?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md)
-- [What is the command for installing a package globally with npm?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md)
-- [What is the difference between a global and local package install with npm?](https://github.com/nodejs/nodejs.dev/blob/aa4239e87a5adc992fdb709c20aebb5f6da77f86/content/learn/node-js-package-manager/npm-packages-local-global.en.md)
 
 ### Additional resources
 

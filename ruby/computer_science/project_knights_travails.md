@@ -10,28 +10,55 @@ All the possible places you can end up after one move look like this:
 
 ![Knights Travails board](https://cdn.statically.io/gh/TheOdinProject/curriculum/d30038e0aaca1f35e58e205e37a21b2c9d31053d/ruby/computer_science/project_knights_travails/imgs/01.png)
 
+In this problem, the chessboard can be represented as a graph:
+
+Each square on the board is a node (or vertex).
+A knight’s valid moves from any square represent the edges (or connections) between the vertices.
+Thus, the problem of finding the shortest path for the knight’s movement becomes a graph traversal problem. The goal is to traverse the graph (the chessboard) to find the shortest route between two nodes (the start and end positions).
+
+#### Vertices and Edges
+
+The vertices in this graph are each of the possible positions on the chessboard, represented by a pair of coordinates like `[x, y]`, where x and y are between 0 and 7.
+The edges are the valid knight moves between vertices. For example, from `[0,0]`, a knight can move to `[2,1]`, `[1,2]`, and so on. Each of these moves represents a connection between the vertex `[0,0]` and the other reachable vertices.
+
+#### Graph Representation
+
+While solving this problem, you don’t need to explicitly create a graph object with vertices and edges. Instead, you can think of the graph as implicit. The knight starts on a specific vertex, and the algorithm will dynamically explore all possible moves (edges) to other vertices (positions on the board) as it traverses the board.
+
+#### Helpful Concepts Before You Begin
+
+You’ve worked with BFS on binary trees in the previous lesson, but applying it on a chessboard (a grid) can feel like a big leap — and that’s totally normal!
+
+Here are some core ideas to keep in mind:
+
+- **Represent positions as coordinates**: Each square can be written as `[x, y]`, where both values range from 0 to 7.
+- **Use a queue**: Like in tree BFS, you’ll use a queue to keep track of the next positions to explore.
+- **Track visited positions**: Unlike trees, graphs can revisit the same position through different paths — so be sure to track visited positions to avoid loops or unnecessary repeats.
+
+Thinking of the board as a grid-based graph instead of a tree will help you apply BFS much more effectively here.
+
 ### Assignment
 
 Your task is to build a function `knight_moves` that shows the shortest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
 
-You can think of the board as having 2-dimensional coordinates.  Your function would therefore look like:
+You can think of the board as having 2-dimensional coordinates. Calling your function would therefore look like:
 
-- `knight_moves([0,0],[1,2]) == [[0,0],[1,2]]`
+`knight_moves([0,0],[1,2]) # returns [[0,0],[1,2]]`
 
 <div class="lesson-note" markdown="1">
 
 Sometimes *there is more than one fastest path*. Examples of this are shown below. Any answer is correct as long as it follows the rules and gives the shortest possible path.
 
-- `knight_moves([0,0],[3,3]) == [[0,0],[2,1],[3,3]]` or `knight_moves([0,0],[3,3]) == [[0,0],[1,2],[3,3]]`
-- `knight_moves([3,3],[0,0]) == [[3,3],[2,1],[0,0]]` or `knight_moves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]`
-- `knight_moves([0,0],[7,7]) == [[0,0],[2,1],[4,2],[6,3],[4,4],[6,5],[7,7]]` or `knight_moves([0,0],[7,7]) == [[0,0],[2,1],[4,2],[6,3],[7,5],[5,6],[7,7]]`
+- `knight_moves([0,0],[3,3])` may return `[[0,0],[2,1],[3,3]]` or `[[0,0],[1,2],[3,3]]`.
+- `knight_moves([3,3],[0,0])` may return `[[3,3],[2,1],[0,0]]` or `[[3,3],[1,2],[0,0]]`.
+- `knight_moves([0,0],[7,7])` may return `[[0,0],[2,1],[4,2],[6,3],[4,4],[6,5],[7,7]]` or `[[0,0],[2,1],[4,2],[6,3],[7,5],[5,6],[7,7]]`.
 
 </div>
 
 <div class="lesson-content__panel" markdown="1">
 
 1. Think about the rules of the board and knight, make sure to follow them.
-1. For every square there is a number of possible moves, choose a data structure that will allow you to work with them.  Don't allow any moves to go off the board.
+1. From every square, multiple moves are possible. Choose a data structure that will allow you to work with them.  Don't allow any moves to go off the board.
 1. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
 1. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
 

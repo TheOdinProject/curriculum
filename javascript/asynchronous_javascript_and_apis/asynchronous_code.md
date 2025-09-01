@@ -27,9 +27,9 @@ myDiv.addEventListener("click", function(){
 
 Here, the function `addEventListener()` takes a callback (the "do something" function) and then calls it when `myDiv` gets clicked.
 
-You will likely recognize this pattern as something that happens *all the time* in JavaScript code.  Unfortunately, though they are useful in situations like the above example, using callbacks can get out of hand, especially when you need to chain several of them together in a specific order.  The rest of this lesson discusses patterns and functions that will help keep you out of [Callback hell](http://callbackhell.com/).
+You will likely recognize this pattern as something that happens *all the time* in JavaScript code.  Unfortunately, though they are useful in situations like the above example, using callbacks can get out of hand, especially when you need to chain several of them together in a specific order.  The rest of this lesson discusses patterns and functions that will help keep you out of Callback hell.
 
-Take a moment to skim through this [article on callbacks](https://github.com/maxogden/art-of-node#callbacks) before moving on.  Or, if you prefer to watch a video of [Callback functions](https://www.youtube.com/watch?v=QRq2zMHlBz4).
+Take a moment to read the section on callbacks in [this article](https://github.com/maxogden/art-of-node#callbacks) before moving on.  Or, if you prefer to watch a video of [Callback functions](https://www.youtube.com/watch?v=QRq2zMHlBz4).
 
 ### Promises
 
@@ -37,7 +37,7 @@ There are multiple ways that you can handle asynchronous code in JavaScript, and
 
 Essentially, a promise is an object that might produce a value at some point in the future.  Here's an example:
 
-Lets say `getData()` is a function that fetches some data from a server and returns it as an object that we can use in our code:
+Let's say `getData()` is a function that fetches some data from a server and returns it as an object that we can use in our code:
 
 ```javascript
 const getData = function() {
@@ -75,6 +75,8 @@ Of course, there are many more occasions where one would want to use Promises be
 1. Read this [Promises article](https://davidwalsh.name/promises). It's a good starting place and it's short and to the point.
 1. Watch this [video about promises](https://youtu.be/DHvZLI7Db8E).  It's a good place to get a feel for how one might actually use promises in the wild.
 1. Watch this [video titled "What is Event Loop?"](https://www.youtube.com/watch?v=8aGhZQkoFbQ) to understand how asynchronous code works in JavaScript.
+1. Watch this [video visualizing the Event loop](https://www.youtube.com/watch?v=eiC58R16hb8) to further understand the Event Loop.
+1. Watch this [video visualizing promises](https://www.youtube.com/watch?v=Xs1EMmBLpn4) to understand Promise Execution in JavaScript.
 1. Read this [promise basics article](https://javascript.info/promise-basics), which is an excellent resource for beginners.
 
 </div>

@@ -35,8 +35,8 @@ Next, setup appropriate npm scripts in your `package.json` file:
 {
   // other stuff
   "scripts": {
-    "dev": "NODE_ENV=development && node app.js",
-    "test": "NODE_ENV=test && jest"
+    "dev": "NODE_ENV=development node app.js",
+    "test": "NODE_ENV=test jest"
   },
   // even more stuff
 }

@@ -2,25 +2,27 @@
 
 Now that we have PostgreSQL up and running on our machine, it's time to work with it.
 
-<div class="lesson-note lesson-note--critical" markdown="1">
-
-Make sure you've completed the [SQL course](https://www.theodinproject.com/paths/full-stack-javascript/courses/databases).
-
-This lesson and all subsequent lessons will assume you understand SQL syntax and concepts.
-
-</div>
-
 For brevity's sake, we'll refer to database as db from now on.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Setting up a new db in PostgreSQL shell
-- Setting up and querying with node-postgres
-- Using a script to populate the db
+- Setting up a new db in PostgreSQL shell.
+- Setting up and querying with node-postgres.
+- Using a script to populate the db.
 
 ### Setting up an Express app
+
+<div class="lesson-note lesson-note--critical" markdown="1">
+
+#### Lesson prerequisite
+
+Make sure you've completed the [SQL course](https://www.theodinproject.com/paths/full-stack-javascript/courses/databases).
+
+This lesson and all subsequent lessons will assume you understand SQL syntax and concepts.
+
+</div>
 
 Let's start by creating an Express application. It will just have one feature - add usernames provided by the user to the db. Here are the expected routes and their functionalities:
 
@@ -114,6 +116,8 @@ module.exports = new Pool({
   port: 5432 // The default port
 });
 ```
+
+Remember that you should change the `<role_name>` and `<role_password>` (We have already set them in the previous lesson)!
 
 An alternative to defining the connection information is through a [Connection URI](https://node-postgres.com/features/connecting#connection-uri). You'll likely be using connection URIs when connecting with a hosted database service. Here's what it would look like based on the above properties:
 
@@ -256,6 +260,12 @@ You can then run this script via `node db/populatedb.js`, or add it as a [script
 
 Do note that the script is designed to be ran only once.
 
+#### Local vs production dbs
+
+Great! You've just learned how to set up and use a local db with PostgreSQL. Local databases are ideal for development because they offer faster interactions, easier modifications, and don't require an internet connection. This makes them especially useful when prototyping or testing new features.
+
+When you're ready to make your project public, you'll need to transition to a production database hosted on an external server independent of your local machine. A production database allows for global accessibility, scalability and more robust security. Most of the hosting providers introduced in the [deployment lesson](https://www.theodinproject.com/lessons/node-path-nodejs-deployment) also offer database services. Now that we know the difference, lets see how we can populate a production database.
+
 #### Populating production dbs
 
 We've hardcoded our local db connection information in the script. Hence, the script only populates our local db. We need a way to populate our production db as well. One way to do this is by using environment variables, though this leads to unnecessary hassle. Why? Because now, the script can only populate the production db on the production server i.e. we'll need to access the production server's cli to run the script. Or, we could sneakily edit our environment file to point to the production db and run the script on our machine, and revert it.
@@ -286,6 +296,7 @@ node db/populatedb.js <production-db-url>
    - Deploy a new db on a hosting service you choose, and obtain its connection information.
    - Create a `messages` table, populate it with data if you wish. This should be done via a script.
    - Add the necessary environment variables, create a pool, and implement the required db functions.
+   - While you're at it, add appropriate server-side validation for user input as well.
 
 </div>
 

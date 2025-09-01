@@ -4,7 +4,7 @@ By now you should feel pretty good working with strings, arrays and hashes. We'l
 
 <div class="lesson-note" markdown="1">
 
-If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), or run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use the online editor at [replit.com](http://replit.com/languages/Ruby).
+If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use any other appropriate REPL.
 
 </div>
 
@@ -28,9 +28,8 @@ Next, make sure your method can handle multiple words:
   => { "down" => 1, "go" => 1, "going" => 1, "how" => 2, "howdy" => 1, "it" => 2, "i" => 3, "own" => 1, "part" => 1, "partner" => 1, "sit" => 1 }
 ```
 
-Please note the order of your keys might be different.
-
 **Quick Tips:**
 
 - Recall how to turn strings into arrays and arrays into strings.
+
 </div>

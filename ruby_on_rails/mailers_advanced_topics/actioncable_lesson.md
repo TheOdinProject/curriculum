@@ -23,7 +23,7 @@ bundle add devise
 Run the devise installer
 
 ```bash
-bundle exec rails generate devise:install
+rails generate devise:install
 ```
 
 Open `config/environments/development.rb` and add the following line
@@ -35,7 +35,7 @@ config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 Generate our user model and migrate
 
 ```bash
-bundle exec rails generate devise user && bundle exec rails db:migrate
+rails generate devise user && rails db:migrate
 ```
 
 To get things started we'll just create a couple of users in `db/seeds.rb`
@@ -48,13 +48,13 @@ User.create(email: 'fitnessgrampacer@test.com', password: 'pacertest')
 You can set the user info to whatever you want. Then run the seed file
 
 ```bash
-bundle exec rails db:seed
+rails db:seed
 ```
 
 Let's create a basic one page app, users will land on our homepage, get redirected to log in, and then directed back to the homepage. First let's create a controller. We'll just call it `hangouts` as our users will hangout there doing absolutely nothing.
 
 ```bash
-bundle exec rails generate controller hangouts index
+rails generate controller hangouts index
 ```
 
 Set the root to our index page in `routes.rb`
@@ -82,7 +82,7 @@ Next, and just to save some time you need to go to the `app/assets/stylesheets/`
 Now open the `application.scss` file and right at the bottom add
 
 ```css
-@import "bulma";
+@use "bulma";
 ```
 
 Lastly, to add the navbar functionality we can just add it straight into the main layout file. Open `app/views/layouts/application.html.erb` add the following code right below the opening `<body>` tag and above the `<%= yield %>` line.
@@ -117,11 +117,11 @@ If you open up `app/channels/application_cable/connection.rb` we can authorise a
 module ApplicationCable
   class Connection < ActionCable::Connection::Base
     identified_by :current_user
- 
+
     def connect
       self.current_user = find_verified_user
     end
- 
+
     private
 
     def find_verified_user
@@ -140,7 +140,7 @@ This is used to establish a connection between client and server but it won't do
 We can create a channel for messages. In the terminal we can write
 
 ```bash
-bundle exec rails generate channel message
+rails generate channel message
 ```
 
 You can see from the output it creates some files for us
@@ -206,9 +206,23 @@ I'm not going to stress about the page looking amazing. But just to make the mes
 }
 ```
 
+Import this into `app/assets/stylesheets/application.scss` by adding the
+following at the bottom of that file:
+
+```scss
+@import "./hangouts.scss"
+```
+
+The [Asset Pipeline](https://guides.rubyonrails.org/asset_pipeline.html) should
+pick up on these changes, but if not:
+
+1. run `./bin/dev` to recompile the stylesheet assets
+1. If the changes are not being picked up, run `rails assets:precompile`.
+
 Now when the form is submitted, we need to intercept and handle it. Open up our `app/javascript/channels/message_channel.js` and take a look at the code as it stands.
 
 ```javascript
+
 import consumer from "./consumer"
 
 const messageChannel = consumer.subscriptions.create("MessageChannel", {
@@ -333,19 +347,19 @@ First things first. We're going to need a message model. We know from our templa
 In the terminal type
 
 ```bash
-bundle exec rails generate model message body:string user:references
+rails generate model message body:string user:references
 ```
 
 And then
 
 ```bash
-bundle exec rails db:migrate
+rails db:migrate
 ```
 
 Next we need a controller for our messages. We only need a create action since we aren't doing anything else with them
 
 ```bash
-bundle exec rails generate controller messages
+rails generate controller messages
 ```
 
 Then in your `routes.rb` create the resource
@@ -445,7 +459,7 @@ end
 private
 
 def message_params
-  params.require(:message).permit(:body)
+  params.expect(message: [:body])
 end
 ```
 
