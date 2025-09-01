@@ -18,9 +18,7 @@ Before we dive into the specifics of fetching data in React, let's briefly revis
 
 ```javascript
 const image = document.querySelector("img");
-fetch("https://jsonplaceholder.typicode.com/photos", {
-  mode: "cors",
-})
+fetch("https://jsonplaceholder.typicode.com/photos")
   .then((response) => response.json())
   .then((response) => {
     image.src = response[0].url;
@@ -43,7 +41,7 @@ const Image = () => {
   const [imageURL, setImageURL] = useState(null);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+    fetch("https://jsonplaceholder.typicode.com/photos")
       .then((response) => response.json())
       .then((response) => setImageURL(response[0].url))
       .catch((error) => console.error(error));
