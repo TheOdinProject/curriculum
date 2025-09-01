@@ -19,6 +19,11 @@ const BLACKLISTED_HEADINGS = [
   "remember",
 ];
 
+function getHeadingTextStartIndex(text) {
+  // https://regexr.com/8gs8i to test this regex
+  return text.search(/[^ #]/);
+}
+
 function removeTrailingPunctuation(text) {
   // https://regexr.com/8grso to test this regex
   return text.replaceAll(/\W+$/g, "");
@@ -40,7 +45,7 @@ module.exports = {
         return;
       }
 
-      const headingTextStartIndex = token.markup.length + 1;
+      const headingTextStartIndex = getHeadingTextStartIndex(token.line);
       const headingText = removeTrailingPunctuation(
         token.line.slice(headingTextStartIndex),
       );
