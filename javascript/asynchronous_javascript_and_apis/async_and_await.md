@@ -130,7 +130,7 @@ Remember the Giphy API practice project? (If not, you should go back and complet
 ```javascript
 <script>
   const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
+  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats')
     .then(function(response) {
       return response.json();
     })
@@ -147,7 +147,7 @@ Since `await` does not work in the top level of a non-module script, we will hav
   const img = document.querySelector('img');
 
   async function getCats() {
-    fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
+    fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats')
       .then(function(response) {
         return response.json();
       })
@@ -165,7 +165,7 @@ Now that we have a function that is asynchronous, we can then start refactoring 
   const img = document.querySelector('img');
 
   async function getCats() {
-    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'});
+    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats');
     response.json().then(function(response) {
       img.src = response.data.images.original.url;
     });
@@ -180,7 +180,7 @@ Since `response` is still the same object we have passed to the `.then()` block 
   const img = document.querySelector('img');
 
   async function getCats() {
-    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'});
+    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats');
     const catData = await response.json();
     img.src = catData.data.images.original.url;
   }
@@ -194,7 +194,7 @@ To use this function, we just need to call it with `getCats()` in our code.
   const img = document.querySelector('img');
 
   async function getCats() {
-    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'});
+    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats');
     const catData = await response.json();
     img.src = catData.data.images.original.url;
   }
