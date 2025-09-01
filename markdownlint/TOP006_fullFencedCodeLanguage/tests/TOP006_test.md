@@ -22,9 +22,11 @@ Valid div due to each tag being surrounded by blank lines.
 console.log("This code block should flag an error as it uses "js" instead of "javascript".");
 ```
 
+<!-- markdownlint-disable TOP008 -->
 ~~~js
 console.log("The rule will still flag even if tilde delimiters are used");
 ~~~
+<!-- markdownlint-enable TOP008 -->
 
 ```javascript
 console.log("This code block is valid as it uses the appropriate full name.");
