@@ -6,7 +6,7 @@ Text content
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- LO item
+- LO item.
 
 ### The following links should NOT be flagged
 

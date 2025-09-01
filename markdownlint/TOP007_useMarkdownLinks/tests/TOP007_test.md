@@ -6,7 +6,7 @@ This file should flag with TOP007 errors, and no other linting errors.
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- LO item
+- LO item.
 
 ### Assignment
 
