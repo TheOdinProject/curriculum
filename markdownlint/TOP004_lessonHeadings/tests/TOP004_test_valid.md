@@ -6,7 +6,7 @@ This file should not be flagged with any errors.
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- LO item
+- LO item.
 
 ### Custom section
 
