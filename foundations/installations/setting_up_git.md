@@ -181,9 +181,9 @@ git config --global core.excludesfile ~/.gitignore_global
 
 #### Step 2.3: Create an SSH key
 
-#### A note on multiple SSH keys 
-
 <div class="lesson-note" markdown="1">
+
+#### A note on multiple SSH keys
 
 If you have already setup an ssh key pair with GitHub on a different machine prior to starting The Odin Project, GitHub allows you to have multiple key pairs associated with your account. You can just follow these instructions again to set up another key pair and register it with GitHub.
 
