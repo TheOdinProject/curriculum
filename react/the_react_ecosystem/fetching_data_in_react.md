@@ -18,9 +18,7 @@ Before we dive into the specifics of fetching data in React, let's briefly revis
 
 ```javascript
 const image = document.querySelector("img");
-fetch("https://jsonplaceholder.typicode.com/photos", {
-  mode: "cors",
-})
+fetch("https://jsonplaceholder.typicode.com/photos")
   .then((response) => response.json())
   .then((response) => {
     image.src = response[0].url;
@@ -43,7 +41,7 @@ const Image = () => {
   const [imageURL, setImageURL] = useState(null);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+    fetch("https://jsonplaceholder.typicode.com/photos")
       .then((response) => response.json())
       .then((response) => setImageURL(response[0].url))
       .catch((error) => console.error(error));
@@ -109,6 +107,8 @@ useEffect(() => {
 ```
 
 <div class="lesson-note" markdown="1" >
+
+#### Handling response errors
 
 Notice how we also handle errors in the `then` block? This is because the `fetch` request itself might not fail, but rather complete successfully and yield a response. However, the response received may not be what our app expected. To handle this case, we check the response status codes.
 
@@ -217,6 +217,8 @@ To see this in action, go back to that embedded CodeSandbox and comment out the 
 Now we have both requests firing as soon as `Profile` renders. The request for `imageURL` resolves 2 seconds before the `bioText` request, and our div containing `<Bio />` renders. When `bioText` resolves, an update will be made in state which will trigger a rerender in `<Bio />`, adding that text description to the page.
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
+
+#### Using an artificial delay
 
 In all of the code examples above, we added an artificial `delay` with the `setTimeout` function. As you've likely guessed by now, this is to help you walk through the data fetching basics in the lesson. We recommend removing these `delay`s and playing around with the code examples to further cement the concepts.
 
