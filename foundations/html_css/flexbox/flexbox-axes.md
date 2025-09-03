@@ -43,7 +43,7 @@ Another detail to notice: when we changed the <span id='column-flex-basis'>flex-
 
 We've strayed from the point slightly... We were talking about flex-direction and axes. To bring it back home, the default behavior is `flex-direction: row` which arranges things horizontally. The reason this often works well without changing other details in the CSS is because block-level elements default to the full width of their parent. Changing things to vertical using `flex-direction: column` adds complexity because block-level elements default to the height of their content, and in this case there *is* no content.
 
-There are situations where the behavior of `flex-direction` could change if you are using a language that is written right-to-left or even vertically, but you should stop worrying about that until you are ready to start making a website in Arabic or Manchu.
+There are situations where the behavior of `flex-direction` could change if you are using a language that is written right-to-left or even vertically, but you should not worry about that until you are ready to start making a website in Arabic or Manchu.
 
 ### Knowledge check
 
