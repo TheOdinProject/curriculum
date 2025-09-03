@@ -359,7 +359,7 @@ To create a button, we use the `<button>` element. The content or text we want t
 
 The button element also accepts a `type` attribute that tells the browser which kind of button it is dealing with. There are three types of buttons available to us.
 
-#### Submit button
+#### Submit buttons
 
 Once a user is finished filling in a form, they will need a way to submit it. There is a specialized button for this; the submit button. When a submit button is clicked, it will submit the form it is contained within. The `type` attribute has a value of submit by default, i.e. if the `type` is not specified or the value provided is invalid.
 
@@ -369,7 +369,7 @@ To create a submit button, we use the button element with a `type` attribute of 
 <button type="submit">Submit</button>
 ```
 
-#### Reset button
+#### Reset buttons
 
 A reset button clears all the data the user has entered into the form and sets all the inputs in the form back to what they were initially.
 
@@ -379,7 +379,7 @@ To create a reset button, we use the button element with a `type` attribute of "
 <button type="reset">Reset</button>
 ```
 
-#### Generic button
+#### Generic buttons
 
 The third and final button type is a generic button that can be used for anything. It's commonly used with JS for creating interactive UI's.
 
