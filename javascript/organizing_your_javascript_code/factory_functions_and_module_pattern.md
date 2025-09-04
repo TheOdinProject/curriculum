@@ -250,9 +250,11 @@ function createPlayer(name, level) {
 
 ### The module pattern: IIFEs
 
-<div class="lesson-note lesson-note--warning" markdown="1" >
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-ECMAScript 6 introduced a new JavaScript feature called "modules" - which are a set of syntax for importing and exporting code between different JavaScript files. While they are important and powerful, they are covered a bit later in the curriculum. We are not talking about them in this section.
+#### ES6 modules
+
+ECMAScript 6 (released in 2015) introduced a new JavaScript feature called "modules", which are a set of syntax for importing and exporting code between different JavaScript files. For now, we will be talking more generally about the module pattern using IIFEs, which you will still see out in the wild. In a later lesson, we will cover using ES6 modules for similar purposes.
 
 </div>
 
