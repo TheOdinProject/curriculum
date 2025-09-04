@@ -28,7 +28,7 @@ In ECMAScript 6, the keywords `let` and `const` were introduced. While `var` var
 let globalAge = 23;
 
 // This is a function - and hey, a curly brace indicating a block
-function printAge (age) {
+function printAge(age) {
   // This is a function scoped variable
   var varAge = 34;
 
@@ -59,11 +59,11 @@ Take a while to brew on that example. In the end, it's not some mind-blowing con
 The best way to approach this would be to start with an example - take a look at this piece of code below.
 
 ```javascript
-function makeAdding (firstNumber) {
+function makeAdding(firstNumber) {
   // "first" is scoped within the makeAdding function
   const first = firstNumber;
 
-  return function resulting (secondNumber) {
+  return function resulting(secondNumber) {
     // "second" is scoped within the resulting function
     const second = secondNumber;
     return first + second;
@@ -75,7 +75,7 @@ But we've not seen an example of a "function" being returned thus far - how do w
 
 ```javascript
 const add5 = makeAdding(5);
-console.log(add5(2)) // logs 7
+console.log(add5(2)); // logs 7
 ```
 
 A lot going on, so let's break it down:
@@ -104,7 +104,7 @@ Because of that, constructors have become unpopular in favor of a pattern that i
 These fancy-sounding functions work very similar to how constructors did, but with one key difference - they levy the power of closures. Instead of using the `new` keyword to create an object, factory functions set up and return the new object when you call the function. They do not use the prototype, which incurs a performance penalty - but as a general rule, this penalty isn’t significant unless you’re creating thousands of objects. Let's take a basic example to compare them to constructor functions.
 
 ```javascript
-const User = function (name) {
+function User(name) {
   this.name = name;
   this.discordName = "@" + name;
 }
@@ -113,7 +113,7 @@ const User = function (name) {
 Hey, this is a constructor... then this can be refactored into a factory!
 
 ```javascript
-function createUser (name) {
+function createUser(name) {
   const discordName = "@" + name;
   return { name, discordName };
 }
@@ -189,12 +189,12 @@ The [MDN documentation on destructuring assignment](https://developer.mozilla.or
 Now you may be thinking - where does closure come into all of this? Factories seem to be returning an object. This is where we can extend our `User` factory to add a few more variables and introduce "private" ones. Take a look at this, now:
 
 ```javascript
-function createUser (name) {
+function createUser(name) {
   const discordName = "@" + name;
 
   let reputation = 0;
   const getReputation = () => reputation;
-  const giveReputation = () => reputation++;
+  const giveReputation = () => { reputation++; };
 
   return { name, discordName, getReputation, giveReputation };
 }
@@ -229,10 +229,10 @@ Note that you could technically also use closure in constructors, by defining th
 In the lesson with constructors, we looked deeply into the concept of prototype and inheritance, and how to give our objects access to the properties of another. With factory functions too, there are easy ways to do that. Take another hypothetical scenario into consideration. We need to extend the `User` factory into a `Player` factory that needs to control some more metrics - there are some ways to do that:
 
 ```javascript
-function createPlayer (name, level) {
+function createPlayer(name, level) {
   const { getReputation, giveReputation } = createUser(name);
 
-  const increaseLevel = () => level++;
+  const increaseLevel = () => { level++; };
   return { name, getReputation, giveReputation, increaseLevel };
 }
 ```
@@ -240,10 +240,10 @@ function createPlayer (name, level) {
 And there you go! You can create your User, extract what you need from it, and re-return whatever you want to - hiding the rest as some private variables or functions! In case you want to extend it, you can also use the [`Object.assign` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) to add on the properties you want!
 
 ```javascript
-function createPlayer (name, level) {
+function createPlayer(name, level) {
   const user = createUser(name);
 
-  const increaseLevel = () => level++;
+  const increaseLevel = () => { level++; };
   return Object.assign({}, user, { increaseLevel });
 }
 ```
