@@ -216,7 +216,7 @@ Take your app for a spin, hopefully it works as expected.
 
 ### Populate the db via a script
 
-You might have noticed how cumbersome it is to create a table and populate it with data. Luckily, we have the power of c(n)ode by our side, let's automate it via a script. Create a new file `db/populatedb.js`.
+You might have noticed how cumbersome it is to create a table and populate it with data. Luckily, we have the power of (c\|n)ode by our side, let's automate it via a script. Create a new file `db/populatedb.js`.
 
 ```javascript
 #! /usr/bin/env node
