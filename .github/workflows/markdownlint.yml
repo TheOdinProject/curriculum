@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: tj-actions/changed-files@v41
+      - uses: tj-actions/changed-files@v46
         id: changed-files
         with:
           files: |
