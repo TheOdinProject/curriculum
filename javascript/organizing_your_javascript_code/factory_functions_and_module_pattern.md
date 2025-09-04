@@ -266,6 +266,7 @@ const calculator = (function () {
   const sub = (a, b) => a - b;
   const mul = (a, b) => a * b;
   const div = (a, b) => a / b;
+
   return { add, sub, mul, div };
 })();
 
@@ -283,6 +284,10 @@ At first glance, this does not seem particularly useful. If we have some code th
 This is where we encounter the word **encapsulation** - bundling data, code, or something into a single unit, with selective access to the things inside that unit itself. While it sounds general, this is what happens when we wrap, or encapsulate our code into modules - we don't expose everything to the body of our program itself. This encapsulation leads to an effect called **namespacing**. Namespacing is a technique that is used to avoid naming collisions in our programs.
 
 Take the calculator example into consideration. It's very easy to imagine a scenario where you can accidentally create multiple functions with the name `add`. What does `add` do - does it add two numbers? Strings? Does it take its input directly from the DOM and display the result? What would you name the functions that do these things? Instead, we can easily encapsulate them inside a module called `calculator` which generates an object with that name, allowing us to explicitly call `calculator.add(a, b)` or `calculator.sub(a, b)`.
+
+#### Why the IIFE?
+
+But then why not just write the factory function then call it once? Why bother with the IIFE? Well without the IIFE, we'd have to give the function a name so we can call it afterwards. Now it has a name, it's both taken a name up in that scope and also means it's reusable in that scope. That may not be desirable - we may purposely want a **singleton**. By wrapping the factory in an IIFE, we achieve the same code flow, except we no longer need to name the function, which also means it can't be referenced later. We are packing the code that creates a calculator into what's effectively a module, then exposing only what needs to be used later in the code: the `calculator` object.
 
 ### Assignment
 
