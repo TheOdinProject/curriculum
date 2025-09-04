@@ -265,7 +265,7 @@ Oftentimes, you do not need a factory to produce multiple objects - instead, you
 (() => console.log('foo'))();
 ```
 
-A more helpful use of IIFEs is the pattern of wrapping a "private" code inside an IIFE: the module pattern. This is often done with factory functions:
+A more helpful use of IIFEs is the pattern of wrapping "private" code inside an IIFE: the module pattern. This is often done with factory functions:
 
 ```javascript
 const calculator = (function () {
