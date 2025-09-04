@@ -10,8 +10,8 @@ There are often several different popular frameworks for a given language.  They
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is a framework?
-- What's the difference between a programming language and a framework?
+- The definition of a framework.
+- The difference between a programming language and a framework.
 
 ### Assignment
 
