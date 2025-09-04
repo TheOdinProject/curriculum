@@ -258,7 +258,14 @@ ECMAScript 6 (released in 2015) introduced a new JavaScript feature called "modu
 
 </div>
 
-Oftentimes, you do not need a factory to produce multiple objects - instead, you are using it to wrap sections of code together, hiding the variables and functions that you do not need elsewhere as private. This is easily achievable by wrapping your factory function in parentheses and immediately calling (invoking) it. This immediate function call is commonly referred to as an Immediately Invoked Function Expression (duh) or IIFE in short. This pattern of wrapping a factory function inside an IIFE is called the module pattern.
+Oftentimes, you do not need a factory to produce multiple objects - instead, you are using it to wrap sections of code together, hiding the variables and functions that you do not need elsewhere as private. This is easily achievable by wrapping your factory function in parentheses and immediately calling (invoking) it. This immediate function call is commonly referred to as an Immediately Invoked Function Expression (duh) or IIFE in short. IIFEs are quite literally just function expressions that are called immediately:
+
+```javascript
+// This is an IIFE! Though not particularly useful, of course.
+(() => console.log('foo'))();
+```
+
+A more helpful use of IIFEs is the pattern of wrapping a "private" code inside an IIFE: the module pattern. This is often done with factory functions:
 
 ```javascript
 const calculator = (function () {
