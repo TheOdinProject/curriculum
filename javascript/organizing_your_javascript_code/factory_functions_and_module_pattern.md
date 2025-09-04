@@ -24,22 +24,24 @@ Before ECMAScript 6, JavaScript had a single keyword to declare a variable, `var
 In ECMAScript 6, the keywords `let` and `const` were introduced. While `var` variables were function scoped, these allow you to define variables that are **block scoped** - basically, scoping the variable to only be available within the closest set of `{ curly braces }` in which it was defined. These braces can be those of a `for` loop, `if-else` condition, or any other similar construct, and are called, a block. Let's see an example to sum this all up.
 
 ```javascript
-let globalAge = 23; // This is a global variable
+// This is a global variable
+let globalAge = 23;
 
 // This is a function - and hey, a curly brace indicating a block
 function printAge (age) {
-  var varAge = 34; // This is a function scoped variable
+  // This is a function scoped variable
+  var varAge = 34;
 
   // This is yet another curly brace, and thus a block
   if (age > 0) {
     // This is a block-scoped variable that exists
-    // within its nearest enclosing block, the if's block
+    // within its nearest enclosing block: the if's block
     const constAge = age * 2;
     console.log(constAge);
   }
 
   // ERROR! We tried to access a block scoped variable
-  // not within its scope
+  // outside its scope
   console.log(constAge);
 }
 
@@ -60,15 +62,18 @@ The best way to approach this would be to start with an example - take a look at
 function makeAdding (firstNumber) {
   // "first" is scoped within the makeAdding function
   const first = firstNumber;
+
   return function resulting (secondNumber) {
     // "second" is scoped within the resulting function
     const second = secondNumber;
     return first + second;
   }
 }
-// but we've not seen an example of a "function"
-// being returned, thus far - how do we use it?
+```
 
+But we've not seen an example of a "function" being returned thus far - how do we use it?
+
+```javascript
 const add5 = makeAdding(5);
 console.log(add5(2)) // logs 7
 ```
@@ -103,20 +108,22 @@ const User = function (name) {
   this.name = name;
   this.discordName = "@" + name;
 }
-// hey, this is a constructor - 
-// then this can be refactored into a factory!
+```
 
+Hey, this is a constructor... then this can be refactored into a factory!
+
+```javascript
 function createUser (name) {
   const discordName = "@" + name;
   return { name, discordName };
 }
-// and that's very similar, except since it's just a function,
-// we don't need a new keyword
 ```
+
+This is all very similar to the constructor, except this is just a normal function, meaning we do not need to call it with the `new` keyword.
 
 <div class="lesson-note" markdown="1">
 
-### The object shorthand notation
+#### The object shorthand notation
 
 Some may get confused by the way the returned object is written in the factory function example. In 2015, a shortcut to creating objects was added to JavaScript. Say we wanted to create an object with a name, age, and color, we would write it as follows:
 
@@ -134,19 +141,20 @@ However, now, if we have a variable with the same name as that of the property t
 const nowFancyObject = { name, age, color };
 ```
 
-An added advantage to this is that it's now possible to console.log values neatly!
+An added advantage to this is that it's now possible to console.log values neatly! If you wanted to log the name, age and color variables together earlier, you would have done something like:
 
 ```javascript
-// If you wanted to log these values, earlier,
-// you would have done the following
 console.log(name, age, color);
-// which would have resulted in a mess - Bob 28 red
-
-// Try wrapping it in some { curly braces } now,
-// which makes it an object!
-console.log({ name, age, color });
-// now it logs as - { name: "Bob", age: 28, color: "red" }
 ```
+
+This would log something like `Bob 28 red`. Not *bad*, just not the clearest as to what's what. Instead, try wrapping it in some curly braces now, which makes it an object:
+
+```javascript
+// shorthand for console.log({ name: name, age: age, color: color })
+console.log({ name, age, color });
+```
+
+Now it'll log as `{ name: "Bob", age: 28, color: "red" }` which is much clearer, and we didn't need to manually add labels!
 
 ### Destructuring
 
@@ -154,16 +162,22 @@ Yet another expression allows you to "unpack" or "extract" values from an object
 
 ```javascript
 const obj = { a: 1, b: 2 };
-const { a, b } = obj;
-// This creates two variables, a and b,
-// which are equivalent to
+
+// equivalent of doing
 // const a = obj.a;
 // const b = obj.b;
+const { a, b } = obj;
+```
 
+And with arrays:
+
+```javascript
 const array = [1, 2, 3, 4, 5];
-const [ zerothEle, firstEle ] = array;
-// This creates zerothEle and firstEle, both of which point
-// to the elements in the 0th and 1st indices of the array
+
+// equivalent of doing
+// const zerothEle = array[0];
+// const firstEle = array[1];
+const [zerothEle, firstEle] = array;
 ```
 
 The [MDN documentation on destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) has some great examples and should be a good read for this concept.
@@ -189,11 +203,11 @@ const josh = createUser("josh");
 josh.giveReputation();
 josh.giveReputation();
 
+// logs { discordName: "@josh", reputation: 2 }
 console.log({
   discordName: josh.discordName,
   reputation: josh.getReputation()
 });
-// logs { discordName: "@josh", reputation: 2 }
 ```
 
 We’ve introduced a new metric for a new user - a reputation. Notice that the object we return in the factory function does not contain the `reputation` variable itself, nor any copy of its value. Instead, the returned object contains two functions - one that reads the value of the `reputation` variable, and another that increases its value by one. The `reputation` variable is what we call a "private" variable, since we cannot access the variable directly in the object instance - it can only be accessed via the closures we defined.
