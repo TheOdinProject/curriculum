@@ -369,7 +369,7 @@ To create a submit button, we use the button element with a `type` attribute of 
 <button type="submit">Submit</button>
 ```
 
-#### Reset button
+#### Reset buttons
 
 A reset button clears all the data the user has entered into the form and sets all the inputs in the form back to what they were initially.
 
@@ -379,7 +379,7 @@ To create a reset button, we use the button element with a `type` attribute of "
 <button type="reset">Reset</button>
 ```
 
-#### Generic button
+#### Generic buttons
 
 The third and final button type is a generic button that can be used for anything. It's commonly used with JS for creating interactive UI's.
 
@@ -390,6 +390,8 @@ To create a generic button, we use the button element with a `type` attribute of
 ```
 
 <div class="lesson-note lesson-note--tip" markdown=1>
+
+#### Button type defaults in forms
 
 It is important to remember that a button within a form with the `type` value of submit (which happens to be the default value) will always try to make a new request and submit data back to the server. Hence, for buttons that are used within a form for different purposes other than submitting the data, the `type` attribute should always be specified to avoid unwanted effects of submitting a form.
 
