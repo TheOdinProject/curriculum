@@ -128,7 +128,7 @@ We have told `nvm` to use the most recent LTS version of Node installed on our c
 
 Now when you run `node -v`, you should see `vXX.xx.x` or something similar (with the X's replaced with actual numbers).
 
-Installing Node also installs npm alongside it. Run `npm -v` and like above you should see `XX.xx.x` or something similar .
+Installing Node also installs npm alongside it. Run `npm -v` and like above you should see `XX.xx.x` or something similar.
 
 If you see those messages, you have successfully installed Node and npm!
 
