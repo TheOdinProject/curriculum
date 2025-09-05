@@ -75,7 +75,7 @@ We will start by focusing on server-side concepts, so client-side things like Re
 <div class="lesson-content__panel" markdown="1">
 
 1. This [short module on "The Server Side" from MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps) is a great source for the background knowledge you need. Read through the first two articles posted under the 'Tutorials' section: Introduction to the server side and Client-Server Overview.
-1. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read this [article about NodeJS](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5). Make sure to rewatch the *really* [good video about event loops](https://www.youtube.com/watch?v=8aGhZQkoFbQ) at the end, which you may remember from an earlier part of the course!
+1. To gain a little more insight into the nature of Node, and to unpack the rest of the above definition, read this [article about NodeJS](https://medium.freecodecamp.org/what-exactly-is-node-js-ae36e97449f5). Make sure to rewatch the *really* good video about event loops at the end, which you may remember from an earlier part of the course!
 1. Take a few minutes to go through the "Getting Started" section of the new official [Node.js website](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs). Read up until, but not including, the TypeScript module.
 1. This [short video about NodeJS](https://www.youtube.com/watch?v=uVwtVBpw7RQ) is a great introduction as well!
 
