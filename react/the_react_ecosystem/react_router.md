@@ -453,6 +453,14 @@ Often, you will need to decide whether a certain route should be rendered or not
 
 You will often come across the need to reroute the user to a different URL programmatically. This is where we use [the `<Navigate />`component](https://reactrouter.com/en/main/components/navigate). The `<Navigate />` component reroutes the user to the desired URL when it is rendered. It is a wrapper around [the useNavigate hook](https://reactrouter.com/en/main/hooks/use-navigate) that lets you navigate programmatically, to URLs, or even go back down the user's history.
 
+### React Router Testing
+
+When testing components that use React Router, it’s important to remember that your app never renders those components directly. Instead, it renders them through a router (for example, via `<RouterProvider>`). Because of this, tests also need to run inside a routing context - otherwise hooks like `useNavigate` or `useParams`, or a  `<Link>` component, will throw errors.
+
+The solution is to provide that routing context in your tests. React Router provides tools like `createMemoryRouter`, which simulates routing entirely in memory, or a lightweight `<MemoryRouter>` wrapper. Which one you use depends on your test: if you’re testing navigation across routes you’ll want `createMemoryRouter`, but if you’re just rendering a component that happens to include a `<Link>`, wrapping that component in `<MemoryRouter>` is enough.
+
+See the React Router docs on [createMemoryRouter](https://reactrouter.com/6.30.1/routers/create-memory-router) and [MemoryRouter](https://v5.reactrouter.com/web/api/MemoryRouter) for more details.
+
 ### Conclusion
 
 You should now have enough basics to get started with React routing. There are a lot more features to react-router which are extremely useful, but out of the scope of this lesson. We're confident that the concepts covered above should be enough to get you through the React course. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
@@ -480,6 +488,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you handle errors from bad URLs?](#handling-bad-urls)
 - [How do you pass data from parent to child through an `<Outlet />` component?](#outlets-and-state)
 - [How do you create protected routes?](#protected-routes-and-navigation)
+- [How do you test components that use React Router?](#react-router-testing)
 
 ### Additional resources
 
