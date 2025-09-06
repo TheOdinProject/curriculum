@@ -56,6 +56,22 @@ sudo apt install ./code-latest.deb
   You can still enter your password as normal and press Enter to submit it.
 
 </div>
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### A note on the Microsoft repository prompt
+
+During installation, you might see a prompt that says:
+
+*"The installer would like to add the Microsoft repository and signing key to update VS Code through apt."*
+
+When asked:
+
+ *"Add Microsoft apt repository for Visual Studio Code?"*
+
+Select **"Yes"** to enable automatic updates in the future.
+
+</div>
+
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
