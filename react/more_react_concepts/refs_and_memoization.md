@@ -254,7 +254,7 @@ const value = useMemo(
   [someState, someFunction]
 );
 
-return <Context.Provider value={value}>{children}</Context.Provider>;
+return <Context value={value}>{children}</Context>;
 ```
 
 ### The useCallback hook
