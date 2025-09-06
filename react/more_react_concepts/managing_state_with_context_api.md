@@ -274,9 +274,10 @@ Although the Context API can be a powerful tool for managing state in larger Rea
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
+- [What problems can prop drilling cause?](https://kentcdodds.com/blog/prop-drilling#what-problems-can-prop-drillingcause)
+- [How can we avoid problems with prop drilling?](https://kentcdodds.com/blog/prop-drilling#how-can-we-avoid-problems-with-prop-drilling)
 - [What are the benefits of using the Context API over passing props down through multiple levels of components?](#context-api-benefits)
 - [What are the drawbacks in using the Context API?](#drawbacks-of-using-context-api)
-- [What are the ways you can avoid prop drilling?](https://kentcdodds.com/blog/prop-drilling#how-can-we-avoid-problems-with-prop-drilling)
 
 ### Additional resources
 
