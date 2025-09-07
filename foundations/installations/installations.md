@@ -454,7 +454,7 @@ You can still enter your password as normal and press Enter to submit it.
 
 #### Download is performed unsandboxed
 
-You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [You can read a Reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
+You can [ignore any notes saying `N: Download is performed unsandboxed (...)`](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/).
 
 </div>
 
