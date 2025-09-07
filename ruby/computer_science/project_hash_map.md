@@ -16,7 +16,7 @@ You already know the magic behind hash maps. Now it's time to write your own imp
 
 <div class="lesson-content__panel" markdown="1">
 
-  Start by creating a `HashMap` class. It should have at least two variables for `load factor` and `capacity`. Then proceed to create the following methods:
+  Start by creating a `HashMap` class. It should have at least two variables for `load factor` and `capacity`. For a `load factor` of `0.75` you should have an initial `capacity` of size `16`. Then proceed to create the following methods:
   
   1. `#hash(key)` takes a key and produces a hash code with it. We already implemented a fairly good `hash` function in the previous lesson. As a reminder:
 
