@@ -123,7 +123,7 @@ With these files all in place, let's run Webpack and see what happens!
 npx webpack
 ```
 
-You should see that Webpack has created a `dist` directory for us containing a `main.js` file! Inside this file is...a lot of stuff... Don't worry, most of this stuff is just for development tools we will use later. If you go ahead and run this file with `node dist/main.js`, you should see `Hello, Odinite!` logged in the terminal.
+You should see that Webpack has created a `dist` directory for us containing a `main.js` file! Inside this file is...a lot of stuff... Don't worry, most of this stuff is just for development tools we will use later. Open your terminal, type node dist/main.js, and press Enter. After that, you should see the message Hello, Odinite! appear in the terminal.
 
 Congratulations! You've just made your first bundle with Webpack!
 
