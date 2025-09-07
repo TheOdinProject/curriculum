@@ -453,7 +453,7 @@ Often, you will need to decide whether a certain route should be rendered or not
 
 You will often come across the need to reroute the user to a different URL programmatically. This is where we use [the `<Navigate />`component](https://reactrouter.com/en/main/components/navigate). The `<Navigate />` component reroutes the user to the desired URL when it is rendered. It is a wrapper around [the useNavigate hook](https://reactrouter.com/en/main/hooks/use-navigate) that lets you navigate programmatically, to URLs, or even go back down the user's history.
 
-### React Router Testing
+### React Router testing
 
 When testing components that use React Router, it’s important to remember that your app never renders those components directly. Instead, it renders them through a router (for example, via `<RouterProvider>`). Because of this, tests also need to run inside a routing context - otherwise hooks like `useNavigate` or `useParams`, or a `<Link>` component, will throw errors.
 
