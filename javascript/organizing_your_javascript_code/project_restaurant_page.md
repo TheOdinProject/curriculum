@@ -21,6 +21,7 @@ When creating a new repo on GitHub, there is an option to specify a `.gitignore`
 <div class="lesson-content__panel" markdown="1">
 
 1. Start the project the same way you began the webpack tutorial project, by creating the `package.json` file and setting up Webpack.
+    - Don't forget to remove `"type": "commonjs"` or `"type": "module"` property if it exists.
     - Remember, you only need to install and configure the things you need for your project. For example, if you do not plan to have local image files linked in your HTML template, you will not need to install and configure `html-loader`.
 1. Create a `.gitignore` file in the root of your project. It should contain the text `node_modules` and `dist` on separate lines.
 
