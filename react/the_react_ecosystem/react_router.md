@@ -12,6 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 - Discover how to add a 'catch-all' route in React Router.
 - Learn how to pass data from a parent component to any child components rendered via an outlet.
 - Understand how to implement protected routes in React Router.
+- Get an introduction to testing components that use React Router.
 
 ### Client-side routing
 
