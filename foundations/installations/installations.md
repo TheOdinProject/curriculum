@@ -57,9 +57,13 @@ Installing a Virtual Machine (VM) is the easiest and most reliable way to get st
 
 Installing a VM is a straightforward process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and easy to use. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
 
-#### IMPORTANT
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Use only your VM for The Odin Project
 
 Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** ![The blue-white rodent Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png){: .inline-img} on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
+
+</div>
 
 #### Step 1.1: Download VirtualBox
 
@@ -454,7 +458,7 @@ You can still enter your password as normal and press Enter to submit it.
 
 #### Download is performed unsandboxed
 
-You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [You can read a Reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
+You can [ignore any notes saying `N: Download is performed unsandboxed (...)`](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/).
 
 </div>
 
