@@ -66,7 +66,7 @@ When your HTML code is parsed by a web browser, it is converted to the DOM, as w
 - `element.querySelector(selector)` - returns a reference to the first match of *selector*.
 - `element.querySelectorAll(selectors)` - returns a "NodeList" containing references to all of the matches of the *selectors*.
 
-<div class="lesson-note">
+<div class="lesson-note" markdown="1">
 
 #### Performance consideration
 
