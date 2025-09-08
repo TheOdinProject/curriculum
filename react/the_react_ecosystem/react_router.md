@@ -455,7 +455,7 @@ You will often come across the need to reroute the user to a different URL progr
 
 ### React Router testing
 
-When testing components that use React Router, it’s important to remember that your app never renders those components directly. Instead, it renders them through a router (for example, via `<RouterProvider>`). Because of this, tests also need to run inside a routing context - otherwise hooks like `useNavigate` or `useParams`, or a `<Link>` component, will throw errors.
+When testing components that use React Router, it’s important to remember that your app never renders those components directly. Instead, it renders them through a router (for example, via `<RouterProvider>`). Because of this, tests that render these components also need to render them inside a routing context - otherwise hooks like `useNavigate` or `useParams`, or a `<Link>` component, will throw errors.
 
 The solution is to provide that routing context in your tests. React Router provides tools like `createMemoryRouter`, which simulates routing entirely in memory, or a lightweight `<MemoryRouter>` wrapper. Which one you use depends on your test: if you’re testing navigation across routes you’ll want `createMemoryRouter`, but if you’re just rendering a component that happens to include a `<Link>`, wrapping that component in `<MemoryRouter>` is enough.
 
