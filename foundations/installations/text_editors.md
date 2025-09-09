@@ -47,6 +47,14 @@ sudo apt install ./code-latest.deb
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Adding Microsoft's VSCode repository (optional)
+
+If you prefer to have VSCode update automatically alongside your other system updates, you can add Microsoft's official VSCode repository to your apt sources. This is completely fine and safe to do. The repository will allow VSCode to be updated whenever you run `sudo apt update && sudo apt upgrade` with your other system packages.
+
+</div>
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
 #### A note on typing passwords in the terminal
 
   When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
