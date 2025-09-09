@@ -437,7 +437,6 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
    As you read, remember that the general ideas can be applied to any event, not only the ones used in examples - but information specific to a certain event type can always be found by checking documentation. Remember that the goal here isn't to deeply understand these concepts and be able to immediately apply them. Instead, you should be building awareness of the various tools at your disposal related to events.
 
    - [JavaScript events](https://www.javascripttutorial.net/javascript-dom/javascript-events/)
-   - [Page load events](https://www.javascripttutorial.net/javascript-dom/javascript-page-load-events/)
    - [Mouse events](https://www.javascripttutorial.net/javascript-dom/javascript-mouse-events/)
    - [Keyboard events](https://www.javascripttutorial.net/javascript-dom/javascript-keyboard-events/)
    - [Event delegation](https://www.javascripttutorial.net/javascript-dom/javascript-event-delegation/)
