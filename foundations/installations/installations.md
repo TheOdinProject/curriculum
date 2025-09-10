@@ -344,10 +344,16 @@ To make it clear: you are going to be using a different OS, this is not a way to
 Because WSL2 is a full-fledged Linux distribution, almost everything that the curriculum teaches about Linux is also applicable to WSL2. In future lessons, whenever there are instructions that differ by OS, you should follow the Linux instructions, unless the lesson includes WSL2-specific instructions.
 
 </div>
+### Step 1: Enabling Virtualization:
+If you already enabled CPU Virtualization jump to step 2, else follow this steps: 
+-To enable virtualization restart your computer, enter the bios by pressing the BIOS access key (commonly Delete, F2, F10, Esc) check your pc/motherboard exact key in the internet 
+-In the BIOS menu look for virtualization settings like Advanced, CPU Configuration, System Configuration, or Security, the option might be called Intel Virtualization Technology (VT-x), AMD-V, SVM Mode, Virtualization Extensions and enable it, then save and exit bios. 
+If you're on windows you can check if you enabled virtualization by opening the task manager, then looking at performance, under CPU on the right side (above L cache info) you'll see if virtualization was enabled.
 
-### Step 1: Installations
 
-#### Step 1.1: Installing WSL2
+### Step 2: Installations
+
+#### Step 2.1: Installing WSL2
 
 - Open PowerShell in administrator mode by searching for it in your applications, right clicking the top option, and then selecting run as administrator. You might get a prompt asking if you want to allow Windows Powershell to make changes to your device: click yes.
 - Enter the following command
@@ -360,13 +366,13 @@ Because WSL2 is a full-fledged Linux distribution, almost everything that the cu
 - You should see an open Powershell window, prompting you to enter a username and a password. Your username should be lowercase, but can otherwise be whatever suits you. You'll also need to enter a new password.
 - When entering your password you might notice that you aren't seeing any visual feedback. This is a standard security feature in Linux, and will also happen in all future cases where you need to enter a password. Just type your password and hit <kbd>Enter</kbd>.
 
-#### Step 1.2.1: Install Windows Terminal (Windows 10 only)
+#### Step 2.2.1: Install Windows Terminal (Windows 10 only)
 
 Windows Terminal is a terminal application that lets you more easily customize and run terminals, as well as supporting multiple tabs which can each run their own different terminals.
 
 - [Install Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install) by using the direct install option.
 
-#### Step 1.2.2: Setting WSL2 as default (Optional)
+#### Step 2.2.2: Setting WSL2 as default (Optional)
 
 Unless you are regularly using other terminals on your computer we recommend that you set WSL2 as the default terminal program when you open Windows Terminal.
 
@@ -376,7 +382,7 @@ Unless you are regularly using other terminals on your computer we recommend tha
 - In the dropdown select Ubuntu.
 - Click save at the bottom of the page.
 
-### Step 2 Opening WSL2
+### Step 3 Opening WSL2
 
 On Windows there are three primary ways to open WSL2.
 
