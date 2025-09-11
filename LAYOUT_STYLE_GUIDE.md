@@ -22,6 +22,7 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1. [Newlines](#newlines)
 1. [Lists](#lists)
 1. [Code](#code)
+1. [HTML tags](#html-tags)
 1. [Note boxes](#note-boxes)
 1. [Links](#links)
 1. [Images](#images)
@@ -412,6 +413,14 @@ Will result in the following output:
 
 - Next bullet.
 
+## HTML tags
+
+Our lesson files sometimes use HTML tags for more complex markup. Currently, we use block-level HTML tags for things like note boxes, assignment panels, mermaid diagrams, CodePen embeds, and collapsible content.
+
+All block-level HTML tags used for markup **must** be surrounded by a single blank line on each side. HTML tags used in code blocks (such as for HTML, JSX and ERB code) are exempt, as they are not to do with markup for the page.
+
+Inline HTML tags used for markup, such as `<span>` to provide an ID for a specific paragraph or sentence, do not need any special whitespace.
+
 ## Note boxes
 
 Note boxes can be added by wrapping the content in a `div` with the class `lesson-note`. This will add styling to make the note stand out visually to users.
@@ -419,8 +428,6 @@ Note boxes can be added by wrapping the content in a `div` with the class `lesso
 All note boxes must open with a level 4 heading (`####`), which will also require the note box div to have the `markdown="1"` attribute so the heading renders correctly. Note box [headings must be sufficiently descriptive](#accessible-headings) for accessibility.
 
 Note box headings must match the note box's indentation level, such as if the note box is indented as a child of a list item.
-
-The opening and closing tags must each be wrapped with a single blank line on either side, or a codeblock delimiter (triple backticks). This applies to any line that contains only a single HTML tag. The only exceptions to this rule are HTML tags inside `html`, `jsx`, `erb`, `ejs`, `javascript` or `ruby` codeblocks.
 
 ### Variations
 
