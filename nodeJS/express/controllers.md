@@ -376,17 +376,17 @@ As an exercise, feel free to create more sample data in our `db.js` file and con
 
 1. This article [Express Middlewares, Demystified](https://medium.com/@viral_shah/express-middlewares-demystified-f0c2c37ea6a1) Written by Viral Shah will help understand how middlewares work in a deeper way. The article also encourages you to read the source code of Express which you can likely do by now.
 
-<div class="lesson-note" markdown="1">
+   <div class="lesson-note" markdown="1">
 
-#### Asynchronous Handlers
+   #### Asynchronous Handlers
 
-While reading the article attached above, you might notice this paragraph:
+   While reading the article attached above, you might notice this paragraph:
 
->— Express was not built to await on handlers or handle returned promises. Hence, when a handler function is an async function, it will return a promise. When we throw an error, we are simply rejecting that promise. So, the only way to pass an error is via ‘next(err)’ function
+   >— Express was not built to await on handlers or handle returned promises. Hence, when a handler function is an async function, it will return a promise. When we throw an error, we are simply rejecting that promise. So, the only way to pass an error is via ‘next(err)’ function
 
-As of the current version of Express (v5), async route handlers are now natively supported. Please note that this article is outdated in this regard.
+   As of the current version of Express (v5), async route handlers are now natively supported. Please note that this article is outdated in this regard.
 
-</div>
+   </div>
 
 1. Watch this short 10 minutes [video tutorial of the MVC pattern](https://www.youtube.com/watch?v=Cgvopu9zg8Y). There is not much to this other than consolidating what you already know.
 
