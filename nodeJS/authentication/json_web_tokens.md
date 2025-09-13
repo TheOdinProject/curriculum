@@ -23,7 +23,7 @@ JWTs are often not encrypted, only encoded in base64. You can use any JWT decode
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiT2RpbiJ9.FtLFoA9kG8B_gvKz0nEzx4uDYAlsgWhxTGEUfinYcf8
 ```
 
-<span id="jwt-signature">You don't need to understand the inner workings of JWTs, but let's peek at what's going on. Paste that into [jwt.io](https://jwt.io/) and you'll see a payload of `{ "name": "Odin" }` along with an "invalid signature" warning. Change the secret in the "verify signature" box to `theodinproject` then paste the JWT back in. You'll see it says "signature verified". Now try changing any part of the JWT contents, such as the payload or secret, and you'll see the JWT value change. In particular, the signature section changes *dramatically*.</span>
+<span id="jwt-signature">You don't need to understand the inner workings of JWTs, but let's peek at what's going on. Paste that into [jwt.io](https://jwt.io/) and you'll see a payload of `{ "name": "Odin" }` along with an "invalid signature" warning. Change the secret in the "verify signature" box to `theodinproject` and you'll see it now says "signature verified". Now switch to the JWT Encoder tab, then try changing any part of the JWT contents, such as the payload or secret. You'll see the JWT value change. In particular, the signature section changes *dramatically*.</span>
 
 This is how a server can verify if it did indeed issue an incoming JWT as well as verify if it had been tampered with, as a different payload would generate a different signature, even with the same secret. Unless you also know the secret, you would not be able to create the correct signature for the changed payload.
 
