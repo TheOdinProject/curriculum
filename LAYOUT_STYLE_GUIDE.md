@@ -33,6 +33,8 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 
 ## Layouts
 
+Markdownlint: [`lesson-headings`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP004.md), [`default-section-content`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP003.md)
+
 In general, the following layouts should be used for all lessons and projects. Text that should be replaced with the author's own content will be in all CAPS, with any additional information regarding a section listed at the end of the layout code block.
 
 When adding new lessons or projects, make a copy of either the [lesson template](./templates/lesson-template.md) or the [project template](./templates/project-template.md) in the appropriate folder where the new lesson/project should be placed. Then begin editing the template copy.
@@ -40,6 +42,8 @@ When adding new lessons or projects, make a copy of either the [lesson template]
 The [lesson example](./templates/lesson-example.md) and [project example](./templates/project-example.md) files both show how this style guide can be put to use in an actual lesson/project. They don't cover every situation (the lesson example doesn't show a lesson with an assignment and one without, for example), but they should give you a better representation of how lessons/projects should look after this style guide is applied.
 
 ### Lesson layout
+
+Markdownlint: [`lesson-overview-items-sentence-structure`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP009.md)
 
 ```markdown
 ### Introduction
@@ -156,9 +160,13 @@ OPTIONAL POST-ASSIGNMENT SECTION CONTENT.
 
 ### Accessible headings
 
+Markdownlint: [`descriptive-headings`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP013.md)
+
 For accessibility, headings must briefly summarize their section's contents, rather than just saying something overly generic like "Note", "Remember" or "Warning".
 
 ### Indentation
+
+Markdownlint: [`heading-indentation`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md)
 
 Headings must not be indented, regardless of level and even if they are inside an assignment `div`. The only exception is when the heading is for a [note box](#note-boxes).
 
@@ -178,6 +186,8 @@ Headings should always use sentence case:
 ```
 
 ### No code snippets
+
+Markdownlint: [`no-code-headings`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP002.md)
 
 Headings should never contain any code snippets.
 
@@ -251,6 +261,8 @@ Do not use end punctuation in the following cases:
 For more detailed examples of the exceptions, refer to [Google's style guide on lists](https://developers.google.com/style/lists#capitalization-and-end-punctuation)
 
 ### Lazy numbering
+
+Markdownlint: [`lazy-numbering-for-ordered-lists`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP010.md)
 
 Markdown is smart enough to let the resulting HTML render your numbered lists correctly. For longer lists that may change, especially long nested lists, use "lazy" numbering. The following Markdown:
 
@@ -353,6 +365,8 @@ Create a new file named `styles.css` first.
 
 ### Codeblocks
 
+Markdownlint: [`use-backticks-for-fenced-code-blocks`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP008.md)
+
 For code quotations longer than a single line, use a codeblock with 3 opening and closing backticks:
 
 ````markdown
@@ -365,6 +379,8 @@ const obj = {
 ````
 
 #### Declare the language
+
+Markdownlint: [`full-fenced-code-language`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP006.md)
 
 It is best practice to explicitly declare the language immediately after the opening backticks, so that neither the
 syntax highlighter nor the next editor must guess.
@@ -415,6 +431,8 @@ Will result in the following output:
 
 ## HTML tags
 
+Markdownlint: [`blanks-around-multiline-html-tags`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md)
+
 Our lesson files sometimes use HTML tags for more complex markup. Currently, we use block-level HTML tags for things like note boxes, assignment panels, mermaid diagrams, CodePen embeds, and collapsible content.
 
 All block-level HTML tags used for markup **must** be surrounded by a single blank line on each side. HTML tags used in code blocks (such as for HTML, JSX and ERB code) are exempt, as they are not to do with markup for the page.
@@ -422,6 +440,8 @@ All block-level HTML tags used for markup **must** be surrounded by a single bla
 Inline HTML tags used for markup, such as `<span>` to provide an ID for a specific paragraph or sentence, do not need any special whitespace.
 
 ## Note boxes
+
+Markdownlint: [`note-box-headings`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP012.md)
 
 Note boxes can be added by wrapping the content in a `div` with the class `lesson-note`. This will add styling to make the note stand out visually to users.
 
@@ -465,6 +485,8 @@ Long links make source Markdown difficult to read and break the 80 character wra
 
 ### Use Markdown links
 
+Markdownlint: [`use-markdown-links`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP007.md)
+
 Instead of using HTML anchor tags for links, use Markdown links instead.
 
 ```markdown
@@ -476,6 +498,8 @@ See the [lesson template](./templates/lesson-template.md) for a more easily copy
 ```
 
 ### Use informative titles
+
+Markdownlint: [`descriptive-link-text-labels`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP001.md)
 
 Markdown link syntax allows you to set a link title, just as HTML does. Use it wisely.
 
