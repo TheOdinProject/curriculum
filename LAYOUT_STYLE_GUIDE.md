@@ -230,7 +230,7 @@ Text after...
 
 ## Newlines
 
-Markdownlint: [no-multiple-blanks](https://github.com/DavidAnson/markdownlint/blob/main/doc/md012.md), [`blanks-around-multiline-html-tags`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md), [`blanks-around-headings`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md022.md), [`blanks-around-fences`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md031.md), [`blanks-around-lists`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md032.md), [`single-trailing-newline`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md047.md)
+Markdownlint: [`no-multiple-blanks`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md012.md), [`blanks-around-multiline-html-tags`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md), [`blanks-around-headings`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md022.md), [`blanks-around-fences`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md031.md), [`blanks-around-lists`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md032.md), [`single-trailing-newline`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md047.md)
 
 Each Markdown file should have an empty newline at the very end, after all of the file's contents.
 
@@ -516,7 +516,7 @@ See the [lesson template](./templates/lesson-template.md) for a more easily copy
 
 ### Use informative titles
 
-Markdownlint: [`descriptive-link-text-labels`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP001.md), [no-empty-links](https://github.com/DavidAnson/markdownlint/blob/main/doc/md042.md)
+Markdownlint: [`descriptive-link-text-labels`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP001.md), [`no-empty-links`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md042.md)
 
 Markdown link syntax allows you to set a link title, just as HTML does. Use it wisely.
 
