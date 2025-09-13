@@ -90,8 +90,7 @@ In most cases, a value of 1 should suffice, though it's entirely possible that, 
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read ["Stop using JWT for sessions"](http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/) for a breakdown of why the proposed benefits of JWTs (for essentially the same thing as sessions) may not be worth the complexities and potential vulnerabilities.
-1. Read another take on [avoiding JWTs to implement browser sessions](https://ianlondon.github.io/posts/dont-use-jwts-for-sessions/).
+1. Read about [avoiding JWTs to implement browser sessions](https://ianlondon.github.io/posts/dont-use-jwts-for-sessions/).
 1. Check out [Netlify's docs for proxying to another service](https://docs.netlify.com/manage/routing/redirects/rewrites-proxies/#proxy-to-another-service) as well as [Vercel's docs for proxying to another service](https://vercel.com/docs/rewrites#external-rewrites).
 
 </div>
