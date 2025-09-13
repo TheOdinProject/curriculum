@@ -22,7 +22,6 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1. [Newlines](#newlines)
 1. [Lists](#lists)
 1. [Code](#code)
-1. [HTML tags](#html-tags)
 1. [Note boxes](#note-boxes)
 1. [Links](#links)
 1. [Images](#images)
@@ -231,11 +230,11 @@ Text after...
 
 ## Newlines
 
-Markdownlint: [no-multiple-blanks](https://github.com/DavidAnson/markdownlint/blob/main/doc/md012.md), [`blanks-around-headings`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md022.md), [`blanks-around-fences`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md031.md), [`blanks-around-lists`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md032.md), [`single-trailing-newline`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md047.md)
+Markdownlint: [no-multiple-blanks](https://github.com/DavidAnson/markdownlint/blob/main/doc/md012.md), [`blanks-around-multiline-html-tags`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md), [`blanks-around-headings`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md022.md), [`blanks-around-fences`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md031.md), [`blanks-around-lists`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md032.md), [`single-trailing-newline`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md047.md)
 
 Each Markdown file should have an empty newline at the very end, after all of the file's contents.
 
-Always add a newline before and after a heading, a list, an Assignment panel, or any other content that is not strictly text:
+Always add a newline before and after a heading, a list, an Assignment panel, HTML tags used for page markup, or any other content that is not strictly text:
 
 ```markdown
 Content before...
@@ -245,6 +244,14 @@ Content before...
 1. A list item
 
 ...content after.
+
+<div class="lesson-note" markdown="1">
+
+#### Note box heading
+
+Note box contents.
+
+</div>
 ```
 
 ## Lists
@@ -448,16 +455,6 @@ Will result in the following output:
   ```
 
 - Next bullet.
-
-## HTML tags
-
-Markdownlint: [`blanks-around-multiline-html-tags`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md)
-
-Our lesson files sometimes use HTML tags for more complex markup. Currently, we use block-level HTML tags for things like note boxes, assignment panels, mermaid diagrams, CodePen embeds, and collapsible content.
-
-All block-level HTML tags used for markup **must** be surrounded by a single blank line on each side. HTML tags used in code blocks (such as for HTML, JSX and ERB code) are exempt, as they are not to do with markup for the page.
-
-Inline HTML tags used for markup, such as `<span>` to provide an ID for a specific paragraph or sentence, do not need any special whitespace.
 
 ## Note boxes
 
