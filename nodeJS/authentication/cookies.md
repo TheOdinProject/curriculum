@@ -39,10 +39,6 @@ HttpOnly cookies will still be attached to requests sent with JavaScript on the 
 
 If set, prevents the cookie from being sent with a request/response if not using HTTPS (localhost, which uses HTTP, is the only exception) which ensures the cookie won't be sent via unencrypted and insecure means.
 
-#### SameSite
-
-Determines whether or not the cookie is sent when dealing with cross-site requests in various contexts. We will not dive into this option too much for now, as we will be using cookies in a same-site context first. Later on when we start building REST APIs and separating our server from the client, this attribute and some others will become more relevant.
-
 ### Regulations and cookie consent
 
 Depending on where you live, you may have come across cookie consent banners when accessing some sites. There are some regulations, such as the [General Data Protection Regulation (GDPR)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation), that restrict the use of cookies unless certain conditions are met. Different regulations will affect different countries, such as [EU GDPR covering all European Union countries](https://thoropass.com/blog/compliance/gdpr-countries/).
