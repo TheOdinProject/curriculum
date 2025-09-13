@@ -43,9 +43,11 @@ const jwt = require("jsonwebtoken");
 
 // somewhere in a login route middleware
 if (user?.password === req.body.password) {
-  const token = jwt.sign({
-    id: user.id
-  }, process.env.SECRET, { expiresIn: "1d" });
+  const token = jwt.sign(
+    { id: user.id },
+    process.env.SECRET,
+    { expiresIn: "1d" },
+  );
 
   res.set({Authorization: `Bearer ${token}`}).json("Login successful");
 } else {
