@@ -18,8 +18,8 @@ This section contains a general overview of topics that you will learn in this l
 ### Installing NVM
 
 <details markdown="block">
-  
-  <summary class="dropDown-header">Installation on Linux</summary>
+
+<summary class="dropDown-header">Installation on Linux</summary>
 
 #### Step 0: Prerequisites
 
@@ -63,8 +63,8 @@ If this returns `nvm: command not found`, close the terminal and re-open it.
 </details>
 
 <details markdown="block">
-  
-  <summary class="dropDown-header">Installation on macOS</summary>
+
+<summary class="dropDown-header">Installation on macOS</summary>
   
 On macOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it.
 
@@ -128,7 +128,9 @@ We have told `nvm` to use the most recent LTS version of Node installed on our c
 
 Now when you run `node -v`, you should see `vXX.xx.x` or something similar (with the X's replaced with actual numbers).
 
-If you see that, you have successfully installed Node!
+Installing Node also installs npm alongside it. Run `npm -v` and like above you should see `XX.xx.x` or something similar.
+
+If you see those messages, you have successfully installed Node and npm!
 
 ### Using Node console
 

@@ -131,7 +131,7 @@ In the [Using PostgreSQL lesson](https://www.theodinproject.com/lessons/nodejs-u
 <div class="lesson-content__panel" markdown="1">
 
 1. Go through the [get started guide for relational databases](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-node-postgresql), which covers migrations, schema, and the Prisma client.
-1. Read the following articles from Prisma's documentation. Try to code along with the examples. Don't worry if things don't stick yet, we'll be practising *a lot* of Prisma in the coming projects.
+1. Read the following articles from Prisma's documentation. Try to code along with the examples. Don't worry if things don't stick yet, we'll be practicing *a lot* of Prisma in the coming projects.
    - [What is Prisma ORM?](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma)
    - [Prisma schema overview](https://www.prisma.io/docs/orm/prisma-schema/overview)
    - [Data models](https://www.prisma.io/docs/orm/prisma-schema/data-model/models)

@@ -4,7 +4,7 @@ In the previous lesson, we introduced ES6 modules (ESM) and npm. The introductio
 
 Fortunately, more recent web technologies have greatly improved these aspects, but bundlers still provide us with a lot of power to process and optimize our code in various ways. This power, however, does come with the small cost of needing to configure a bundler. For now, our needs are few and simple, and we can look at the basic things one at a time.
 
-Awareness of bundlers and basic experience with them is valuable. While in recent years, new build tools have come out that handle a lot of basic configuration for us, in the real world, you may not always get a chance to use these shiny new tools. It's very reasonable to end up working with codebases that use tools that require more manual configuration. Even if you did get to work with tools that handle more things for you, it's useful to understand what those tools are actually doing for you.
+Awareness of bundlers and basic experience with them is valuable. While in recent years, new build tools have come out that handle a lot of basic configuration for us, in the real world, you may not always get a chance to use these shiny new tools. It's very reasonable to end up working with codebases that use tools that require more manual configuration. Even when you work with tools that handle more things for you, it's useful to understand what those tools are actually doing for you.
 
 ### Lesson overview
 

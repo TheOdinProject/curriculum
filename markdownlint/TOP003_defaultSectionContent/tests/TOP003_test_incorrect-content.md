@@ -6,7 +6,7 @@ Text content
 
 This section has the wrong text following the heading that should flag an error.
 
-- LO item
+- LO item.
 
 ### Custom section
 

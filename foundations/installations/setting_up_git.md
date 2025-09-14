@@ -73,6 +73,8 @@ First, you'll need to install Homebrew. To install it, you’ll first need to ma
 
 <div class="lesson-note lesson-note--warning" markdown=1>
 
+#### Additional step for Apple Silicon Mac users
+
 On an Apple Silicon Mac, you will have an extra step to take.
 If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal, there will be a section called "Next steps".
 Reading the terminal may seem a bit intimidating, but this is a great chance to overcome those feelings. Follow the next steps as stated in your terminal (copy and paste the commands given) to add Homebrew to your PATH, which allows you to use the `brew` command prefix.
@@ -181,6 +183,8 @@ git config --global core.excludesfile ~/.gitignore_global
 
 <div class="lesson-note" markdown="1">
 
+#### A note on multiple SSH keys
+
 If you have already setup an ssh key pair with GitHub on a different machine prior to starting The Odin Project, GitHub allows you to have multiple key pairs associated with your account. You can just follow these instructions again to set up another key pair and register it with GitHub.
 
 </div>
@@ -225,7 +229,7 @@ Now, go back to GitHub in your browser window and paste the key you copied into 
 
 #### Step 2.5 Testing your key
 
-Follow the [GitHub directions for testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux). Make sure the fingerprint output in the terminal matches [one of the four GitHub's public fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints).
+Follow the [GitHub directions for testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux). Make sure the fingerprint output in the terminal matches [one of GitHub's four public fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints).
 
 You should see this response in your terminal: **Hi username! You've successfully authenticated, but GitHub does not provide shell access.** Don't let GitHub's lack of providing shell access trouble you. If you see this message, you've successfully added your SSH key and you can move on. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/fbFCkYabZB) to ask for help.
 

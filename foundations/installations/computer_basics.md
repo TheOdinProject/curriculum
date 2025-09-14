@@ -20,7 +20,7 @@ Goodwill Community Foundation (GCF) resources are excellent to get you acquainte
 1. [What is an operating system?](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
 1. [What is an application?](https://edu.gcfglobal.org/en/computerbasics/understanding-applications/1/)
 1. [Open source vs closed source software.](https://edu.gcfglobal.org/en/basic-computer-skills/open-source-vs-closed-source-software/1/)
-1. [Taking screenshots](https://edu.gcfglobal.org/en/techsavvy/taking-screenshots/1/).
+1. [Taking screenshots](https://edu.gcfglobal.org/en/techsavvy/taking-screenshots/1/). For Linux, you can go to your system settings and search for or set your own keyboard shortcuts related to screenshots.
 1. [Creating strong passwords](https://edu.gcfglobal.org/en/techsavvy/password-tips/1/).
 
 </div>

@@ -89,7 +89,7 @@ Much more readable! And who doesn't like Pizza.
 
 ### Ranges
 
-What if we know exactly how many times we want our loop to run? Ruby lets us use something called a [range](https://docs.ruby-lang.org/en/3.3/Range.html) to define an interval. All we need to do is give Ruby the starting value, the ending value, and whether we want the range to be inclusive or exclusive.
+What if we know exactly how many times we want our loop to run? Ruby lets us use something called a [range](https://docs.ruby-lang.org/en/3.4/Range.html) to define an interval. All we need to do is give Ruby the starting value, the ending value, and whether we want the range to be inclusive or exclusive.
 
 ```ruby
 (1..5)      # inclusive range: 1, 2, 3, 4, 5

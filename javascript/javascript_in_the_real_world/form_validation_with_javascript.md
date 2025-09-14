@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Warmup
 
-Go back to your 'Library' project and add validation to that form! Don't let your users submit without filling in all the fields! Don’t forget to use the git branch workflow you learned in [Revisiting Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) from Foundations to work on a new feature.
+Go back to your 'Library' project and add validation to that form! Display a custom error message when the user tries to submit an empty form field (e.g. "The author name must be filled!"). Don’t forget to use the git branch workflow you learned in [Revisiting Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) from Foundations to work on a new feature.
 
 #### A little more practice
 

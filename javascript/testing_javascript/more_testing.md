@@ -26,6 +26,8 @@ function guessingGame() {
     alert('YOUR GUESS IS TOO SMALL');
   } else if (guess == magicNumber) {
     alert('YOU DID IT! 🎉');
+  } else {
+    return 'INVALID INPUT';
   }
 }
 ```
@@ -40,6 +42,8 @@ function evaluateGuess(magicNumber, guess) {
     return 'YOUR GUESS IS TOO SMALL';
   } else if (guess == magicNumber) {
     return 'YOU DID IT! 🎉';
+  } else {
+    return 'INVALID INPUT';
   }
 }
 
