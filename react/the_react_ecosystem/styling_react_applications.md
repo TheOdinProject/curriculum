@@ -30,9 +30,11 @@ What if everything's already done for you? Styling, behavior, and accessibility 
 
 There are also icon component libraries like [lucide react](https://lucide.dev/guide/packages/lucide-react), which let you include icons in your project as components.
 
-<div class="lesson-note lesson-note--warning" markdown="1" >
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-For learning purposes throughout this course, we strongly recommend that you avoid using CSS frameworks or component libraries (using icon component libraries is fine), and instead implement your component's styling from scratch i.e. use [CSS Modules](#css-modules) or a [CSS-in-JS](#css-in-js) option.
+#### Recommended styling approach
+
+For learning purposes throughout this course, we strongly recommend that you avoid using CSS frameworks or component libraries (using icon component libraries is fine), and instead implement your components' styling from scratch using CSS Modules.
 
 </div>
 
