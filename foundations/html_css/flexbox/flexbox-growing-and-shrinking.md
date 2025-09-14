@@ -28,12 +28,12 @@ In the above screenshot, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`,
 
 In the following example the `flex` shorthand has values for `flex-shrink` and `flex-basis` specified with their default values.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YzQqvgK" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"> 
-  
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YzQqvgK" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/YzQqvgK">
   flex-grow example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span> 
-  
+  on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -47,7 +47,7 @@ The default shrink factor is `flex-shrink: 1`, which means all items will shrink
 Here's an example. Note that we've also changed the `flex-basis` for reasons that will be explained shortly. If you shrink your browser window you'll notice that `.two` never gets smaller than the given width of 250px, even though the `flex-grow` rule would otherwise specify that each element should be equally sized.
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JjJXZVz" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/JjJXZVz">
   flex-shrink example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
