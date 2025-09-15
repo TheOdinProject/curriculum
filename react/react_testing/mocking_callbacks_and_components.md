@@ -149,7 +149,6 @@ The other important thing to note is almost all the tests follow a certain patte
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read about the [secrets of act(...) api](https://github.com/mrdulin/react-act-examples/blob/master/sync.md). Especially pay attention to the last bit about testing asynchronous code. You won't be using it everyday, but it's nice to be familiar. Please note that in the article, the React components are written within the tests.
 1. Read this article about [mocking child components](https://medium.com/@taylormclean15/jest-testing-mocking-child-components-to-make-your-unit-tests-more-concise-18691ef6a0c2). It extensively covers the "how" of mocking child components. (You might need to sign up to read)
 1. This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. It goes into testing async code and callbacks which we haven't covered yet. Though you should be able to follow along using your previous knowledge.
 
@@ -166,4 +165,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Dive deeper into [act()](https://codilime.com/blog/why-should-you-be-grateful-for-act-warnings-in-react-tests/) and understand its most common warning and when act() is not necessary.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
