@@ -25,7 +25,7 @@ This is a definition that requires a little unpacking.
 
 The important bit to understand right up front is that Node is a "JavaScript runtime". When JavaScript was first created, it was designed to run *in the browser*. This means that it was impossible to use JavaScript to write any kind of program that was not a website. Node brings JavaScript *out* of browser-land. This allows developers to use JavaScript to accomplish pretty much anything that other popular server-side languages such as Ruby, PHP, C# and Python can do. So, at its most basic level, Node allows you to run JavaScript code on a machine such as your local computer or a server without having to go through a web browser.
 
-To facilitate this, Node has some added functionality that is not found in browser-based JavaScript, such as the ability to read and write local files, create http connections and listen to network requests.
+To facilitate this, Node has some added functionality that is not found in browser-based JavaScript, such as the ability to read and write local files, create HTTP connections and listen to network requests.
 
 ### Event driven
 
