@@ -39,7 +39,7 @@ Now that we have everything we need, let's briefly go over what some of those pa
 
 ### Our first query
 
-First, we'll render the component using `render`. The API will return an object and we'll use destructuring syntax to obtain a subset of the methods required. You can read all about what `render` can do in [the React Testing Library API docs about render](https://testing-library.com/docs/react-testing-library/api/#render).
+First, we'll render the component using `render` (you can read all about what the function can do in [the React Testing Library API docs about `render`](https://testing-library.com/docs/react-testing-library/api/#render)). We say "render", but you won't see any screen. Back in the RTL setup article just now, one of the packages installed is `jsdom`, which simulates the DOM (including events) in memory without actually laying anything out visually like in a browser, and that allows us to parse its contents for our tests. This is different to and much less complex than other libraries that actually run a real browser environment for more complex end-to-end tests - that's out of scope here.
 
 ```jsx
 // App.jsx
@@ -62,7 +62,6 @@ describe("App component", () => {
     expect(screen.getByRole("heading").textContent).toMatch(/our first test/i);
   });
 });
-
 ```
 
 <div class="lesson-note" markdown="1">
