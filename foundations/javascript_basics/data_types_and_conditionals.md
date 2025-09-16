@@ -81,5 +81,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions), commonly known as regex, is a tool that matches or locates patterns in strings for string validation. However, it's important to know [when you shouldn't use regular expressions](https://softwareengineering.stackexchange.com/questions/113237/when-you-should-not-use-regular-expressions). There are other various methods to process strings, and regex can be slower in comparison.
-- [Web Dev Simplified's Regular Expressions In 20 Minutes](https://www.youtube.com/watch?v=rhzKDrUiJVk)
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
