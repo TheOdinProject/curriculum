@@ -126,6 +126,14 @@ In the [Using PostgreSQL lesson](https://www.theodinproject.com/lessons/nodejs-u
 
 </div>
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Official Prisma extension on Visual Studio Code
+
+If you use VS Code, you may want to install the [official Prisma VS Code extension](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma) to get features like syntax highlighting, IntelliSense / auto-completion, schema linting, and easier navigation between models. It makes working with Prisma schema files much more pleasant.
+
+</div>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
