@@ -103,7 +103,25 @@ squash 92aa6f3 Create second file
 pick 05e5413 Create third file and create fourth file
 ```
 
-Rename the commit to `Create first and second file`, then finish the rebase. That's it! Run `git log` and see how the first two commits got squashed together.
+Save and close the editor : After saving, Git will combine the two commits. Another editor will open, allowing you to edit the commit message for the new squashed commit. You will see something like this:
+
+```bash
+# This is a combination of 2 commits.
+# The first commit's message is:
+Create first file
+
+# This is the 2nd commit message:
+
+Create second file
+```
+
+You can edit this to create a single, cohesive commit message:
+
+```bash
+Create first and second file
+```
+
+Rename the commit to `Create first and second file`, then finish the rebase by saving exiting the editor. That's it! Run `git log` and see how the first two commits got squashed together.
 
 #### Splitting up a commit
 
