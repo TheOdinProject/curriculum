@@ -121,7 +121,7 @@ You can edit this to create a single, cohesive commit message:
 Create first and second file
 ```
 
-Rename the commit to `Create first and second file`, then finish the rebase by saving exiting the editor. That's it! Run `git log` and see how the first two commits got squashed together.
+Rename the commit to `Create first and second file`, then finish the rebase by saving and exiting the editor. That's it! Run `git log` and see how the first two commits got squashed together.
 
 #### Splitting up a commit
 
