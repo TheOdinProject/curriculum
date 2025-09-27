@@ -284,3 +284,6 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - For some extra practice/review, check out the [React docs lesson on passing data with Context](https://react.dev/learn/passing-data-deeply-with-context).
+
+- [This video](https://www.youtube.com/watch?v=3XaXKiXtNjw) gives a great explanation on using composition instead of useContext, but if you find yourself prop drilling down 2-4 "dumb" components, composition should be used.
+
