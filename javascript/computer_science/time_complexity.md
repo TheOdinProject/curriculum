@@ -314,9 +314,23 @@ function oddNumbers(maxNumber) {
 }
 ```
 
-Not much of a change, but this time we increase `currentNumber` by 2. How does this affect our algorithm runtime? Well, for an input of `n`, the number of steps is approximately half as we iterate by 2 each time. This is an algorithm of `O(N/2)` but as I've mentioned earlier, Big O doesn't concern itself with constants because they aren't relative to how an algorithm scales as the input changes and it wouldn't be fun or easy to have to compare an algorithm of `O(N/2 + 5 N)` against `O(N + 5 / 2N)`. Therefore, the Big O efficiency of both algorithms is `O(N)`. They scale at the same rate as the input grows.
+Not much of a change, but this time we increase `currentNumber` by 2. How does this affect our algorithm runtime? Well, for an input of `n`, the number of steps is approximately half as we iterate by 2 each time. This is an algorithm of `O(N/2)` but as I've mentioned earlier, we are not trying to get the exact time, but rather how does it grow. Big O doesn't concern itself with constants because they aren't relative to how an algorithm scales as the input changes and it wouldn't be fun or easy to have to compare an algorithm of `O(N/2 + 5 N)` against `O(N + 5 / 2N)`. Therefore, the Big O efficiency of both algorithms is `O(N)`. They scale at the same rate as the input grows. 
 
-Therefore, you also need to ensure the code you write is as efficient as it can be within its time complexity.
+Another way to look at it is that constant eventually becomes irrelevant. Take the following:
+
+N=1, O(10N) = 10, O(n&#178;) = 1
+
+N = 5, O(10N) = 50, O(n&#178;) = 25
+
+N = 100, O(10N) = 1,000, O(n&#178;) = 10,000 _10x bigger_
+
+N = 1000, O(10N) = 10,000, O(n&#178;) = 1,000,000 _100x bigger_
+
+N = 10000, O(10N) = 100,000, O(n&#178;) = 100,000,000 _1000x bigger_
+
+Therefore, O(100N) is faster than O(n&#178;) but practically speaking, sometimes things that are n&#178; are faster than N for some small set of input as you can see in first two examples. 
+
+Remember to ensure the code you write is as efficient as it can be within its time complexity.
 
 ### Assignment
 
