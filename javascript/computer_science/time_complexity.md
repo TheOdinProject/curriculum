@@ -107,7 +107,7 @@ Firstly, we'll summarise the Big O Notations and then provide a little more cont
 
 #### Big O notation
 
-The Big O Notations in the order of speed from fastest to slowest are:
+The most common Big O Notations in the order of speed from fastest to slowest are:
 
 - O(1) - Constant Complexity
 - O(log N) - Logarithmic Complexity
