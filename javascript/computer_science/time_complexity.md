@@ -333,7 +333,7 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is Big O?](#what-is-big-o)
-- [What are the Big O Notations?](#big-o-notation)
+- [What are the most common Big O Notations?](#big-o-notation)
 - [Why use Big O?](#why-big-o)
 - [What is Big Omega and why isn't it as useful?](#big-omega-notation)
 
