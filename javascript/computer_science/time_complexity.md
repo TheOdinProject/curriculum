@@ -350,6 +350,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are the Big O Notations?](#big-o-notation)
 - [Why use Big O?](#why-big-o)
 - [What is Big Omega and why isn't it as useful?](#big-omega-notation)
+- [Why doesn't constants make a difference in Big O?](#algorithms-with-the-same-complexity)
 
 ### Additional resources
 
