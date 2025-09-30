@@ -74,6 +74,6 @@ To showcase the recursive effect implemented in your Fibonacci function, do the 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - An extensive written JavaScript solution for [recursive Fibonacci](https://www.scaler.com/topics/fibonacci-series-in-javascript/)
-- Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
+- Another look at [merge sort](https://www.toptal.com/developers/sorting-algorithms/merge-sort)
 - Visualize and understand the [memory allocation for recursive functions](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK).
 - For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)
