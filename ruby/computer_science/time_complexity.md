@@ -309,9 +309,23 @@ def odd_numbers(max_number)
 end
 ```
 
-Not much of a change, but this time we increase `current_number` by 2. How does this affect our algorithm runtime? Well, for an input of `n`, the number of steps is approximately half as we iterate by 2 each time. This is an algorithm of `O(N/2)` but as mentioned earlier, Big O doesn't concern itself with constants because they aren't relative to how an algorithm scales as the input changes and it wouldn't be fun or easy to have to compare an algorithm of `O(N/2 + 5 N)` against `O(N + 5 / 2N)`. Therefore, the Big O efficiency of both algorithms is `O(N)`. They scale at the same rate as the input grows.
+Not much of a change, but this time we increase `currentNumber` by 2. How does this affect our algorithm runtime? Well, for an input of `n`, the number of steps is approximately half as we iterate by 2 each time. This is an algorithm of `O(N/2)` but as I've mentioned earlier, we are not trying to get the exact time, but rather how the time grows relative to the size of the input. Big O doesn't concern itself with constants because they aren't relative to how an algorithm scales as the input changes and it wouldn't be fun or easy to have to compare an algorithm of `O(N/2 + 5 N)` against `O(N + 5 / 2N)`. Therefore, the Big O efficiency of both algorithms is `O(N)`. They scale at the same rate as the input grows.
 
-Therefore, you also need to ensure the code you write is as efficient as it can be within its time complexity.
+Another way to look at it is that constants eventually become irrelevant. Take the following:
+
+N=1, O(10N) = 10, O(n&#178;) = 1
+
+N = 5, O(10N) = 50, O(n&#178;) = 25
+
+N = 100, O(10N) = 1,000, O(n&#178;) = 10,000 *10x bigger*
+
+N = 1000, O(10N) = 10,000, O(n&#178;) = 1,000,000 *100x bigger*
+
+N = 10000, O(10N) = 100,000, O(n&#178;) = 100,000,000 *1000x bigger*
+
+Therefore, O(10N) is faster than O(n²) with an N of 100. Practically speaking, sometimes an n² algorithm is faster than an N algorithm for some small set of inputs, which can be seen in the first two examples above.
+
+Remember to ensure the code you write is as efficient as it can be within its time complexity.
 
 ### Assignment
 
@@ -331,6 +345,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are the Big O Notations?](#big-o-notation)
 - [Why use Big O?](#why-big-o)
 - [What is Big Omega and why isn't it as useful?](#big-omega-notation)
+- [Why don't constants make a difference in Big O?](#algorithms-with-the-same-complexity)
 
 ### Additional resources
 
