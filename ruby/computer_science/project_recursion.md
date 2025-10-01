@@ -37,7 +37,15 @@ Hopefully you were able to solve the problem with recursion! If you need some he
 
 Once you have a firm grasp on solving Fibonacci with recursion, create a new file and work on a merge sort:
 
-1. Build a method `#merge_sort` that takes in an array and returns a sorted array, using a recursive merge sort methodology. An input of `[3, 2, 1, 13, 8, 5, 0, 1]` should return `[0, 1, 1, 2, 3, 5, 8, 13]`, and an input of `[105, 79, 100, 110]` should return `[79, 100, 105, 110]`.
+1. Build a function `mergeSort` that takes in an array and returns a sorted array, using a recursive merge sort methodology.
+
+Test Examples:
+
+- `merge_sort([])` → `[]`
+- `merge_sort([73])` → `[73]`
+- `merge_sort([1, 2, 3, 4, 5])` → `[1, 2, 3, 4, 5]`
+- `merge_sort([3, 2, 1, 13, 8, 5, 0, 1])` → `[0, 1, 1, 2, 3, 5, 8, 13]`
+- `merge_sort([105, 79, 100, 110]` → `[79, 100, 105, 110]`
 
 Tips:
 
