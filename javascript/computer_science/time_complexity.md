@@ -328,7 +328,7 @@ N = 1000, O(10N) = 10,000, O(n&#178;) = 1,000,000 *100x bigger*
 
 N = 10000, O(10N) = 100,000, O(n&#178;) = 100,000,000 *1000x bigger*
 
-Therefore, O(100N) is faster than O(n&#178;) but practically speaking, sometimes things that are n&#178; are faster than N for some small set of input as you can see in first two examples.
+Therefore, O(10N) is faster than O(n²) with an N of 100. Practically speaking, sometimes an n² algorithm is faster than an N algorithm for some small set of inputs, which can be seen in the first two examples above.
 
 Remember to ensure the code you write is as efficient as it can be within its time complexity.
 
