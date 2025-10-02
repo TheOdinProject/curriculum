@@ -20,7 +20,7 @@ So keep the link to homepage opened in another tab, also you have to do all the 
 #### Check the result output for undisclosed requirements
 
 The site have tasks which does not tell all the requirements e.g how it's expected of you to sort the results in a way.
-scroll down the output window you should see "Show what the answer should be..." use that to see how the output of your sql queries should look like.
+scroll down the output window you should see "Show what the answer should be..." use that to see how the output of your sql queries should look like. It won't give you SQL code just how your output should look like so don't worry about spoiling anything.
 
 </div>
 
