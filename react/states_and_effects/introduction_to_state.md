@@ -82,7 +82,7 @@ Hooks are functions that let you use React features. All hooks are recognizable 
     1. [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
     1. [Render and Commit](https://react.dev/learn/render-and-commit)
 1. Read this [article on React Reconciliation Algorithm](https://medium.com/javarevisited/react-reconciliation-algorithm-86e3e22c1b40) for a great explanation.
-1. Head back to the colour changing background example from earlier in the lesson, and add a new state variable to keep track of the number of times the background color has been changed. Display the number of times the background color has been changed on the page. You will need to fork the codesandbox to do this, which requires a codesandbox account. Click "Open Editor" in the top right of the codesandbox embed, then "Fork" in the top right of the editor.
+1. Head back to the color changing background example from earlier in the lesson, and add a new state variable to keep track of the number of times the background color has been changed. Display the number of times the background color has been changed on the page. You will need to fork the codesandbox to do this, which requires a codesandbox account. Click "Open Editor" in the top right of the codesandbox embed, then "Fork" in the top right of the editor.
 
 </div>
 
