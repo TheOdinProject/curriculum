@@ -172,10 +172,10 @@ export default function App() {
   return (
     /* We are going to pass the things that we want to inject to these components using the value prop */
     /* This value prop will overwrite the default value */
-    <ShopContext value={{ cartItems, products, addToCart }}>
+    <ShopContext.Provider value={{ cartItems, products, addToCart }}>
       <Header />
       <ProductDetail />
-    </ShopContext>
+    </ShopContext.Provider>
   );
 }
 ```
