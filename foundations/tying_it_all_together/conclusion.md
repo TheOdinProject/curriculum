@@ -35,7 +35,7 @@ To help you make a decision, here are some perks of each technology:
 - Un-opinionated
   - There is no standard way of doing things. You are going to have to decide the structure of projects yourself, for better or worse.
 - Very fast
-  - Because JavaScript utilises JIT (Just-In-Time) compilation, it can do calculations very quickly.
+  - Because JavaScript utilizes JIT (Just-In-Time) compilation, it can do calculations very quickly.
 - Verbose
   - There is no magic involved with these technologies. You will have to understand everything to make sense of it.
   - Helps you get closer to how the computer is actually reading your code.
