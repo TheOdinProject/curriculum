@@ -37,7 +37,7 @@ Hopefully you were able to solve the problem with recursion! If you need some he
 
 Once you have a firm grasp on solving Fibonacci with recursion, create a new file and work on a merge sort:
 
-1. Build a function `mergeSort` that takes in an array and returns a sorted array, using a recursive merge sort methodology.
+1. Build a function `#merge_sort` that takes in an array and returns a sorted array, using a recursive merge sort methodology.
 
 Test Examples:
 
