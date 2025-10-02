@@ -5,7 +5,7 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  
+
 <div class="lesson-note lesson-note--warning" markdown="1">
 
 #### Don't use the sidebar to navigate to next tutorial
@@ -17,7 +17,7 @@ So keep the link to homepage opened in another tab, also you have to do all the 
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Check the result output for undisclosed requirements.
+#### Check the result output for undisclosed requirements
 
 The site have tasks which does not tell all the requirements e.g how it's expected of you to sort the results in a way.
 scroll down the output window you should see "Show what the answer should be..." use that to see how the output of your sql queries should look like.
