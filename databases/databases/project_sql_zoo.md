@@ -5,6 +5,24 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+  
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Don't use the sidebar to navigate to next tutorial
+
+The sidebar on the left does not include some of the tutorials in 0-9, which are 1 SELECT name, 8+ Numeric Examples, 9- Window function, 9+ COVID 19.
+So keep the link to homepage opened in another tab, also you have to do all the quizzes.
+
+</div>
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Check the result output for undisclosed requirements.
+
+The site have tasks which does not tell all the requirements e.g how it's expected of you to sort the results in a way.
+scroll down the output window you should see "Show what the answer should be..." use that to see how the output of your sql queries should look like.
+
+</div>
 
   1. Go to [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial) and do Tutorials 0-9 listed under the "Tutorial Section" and the quizzes listed at the end of each.  The first tutorial is called "SELECT basics".
       - Make sure the dropdown on the upper right of the main page for "Engine" says "MySQL" (the default).  Large results will be cut off and not all rows or columns shown, so the "answers" may not look 100% correct.
