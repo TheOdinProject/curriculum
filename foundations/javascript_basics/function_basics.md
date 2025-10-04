@@ -48,7 +48,9 @@ Feel free to experiment with the code on your own and replace `'Goat'` with your
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-#### Note that articles #1 and #2 also have their own exercises attached, which you should **not** do, as they involve knowledge we haven't touched yet.
+#### MDN exercises
+
+Note that the assigned MDN articles also have their own exercises attached, which you should **not** do, as they involve knowledge we haven't touched yet.
 
 </div>
 
