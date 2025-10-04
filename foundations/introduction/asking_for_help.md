@@ -57,4 +57,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Harvard Business Review article exploring [The Mental Battle behind Asking for Help](https://hbr.org/2023/07/why-its-so-hard-to-ask-for-help).
+- Harvard Business Review article exploring [The Mental Battle behind Asking for Help](https://web.archive.org/web/20230616210023/https://hbr.org/2023/07/why-its-so-hard-to-ask-for-help).
