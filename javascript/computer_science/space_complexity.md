@@ -148,7 +148,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is space complexity?](#what-do-we-mean-by-space-complexity)
 - [How do we measure space complexity?](#measuring-space-complexity)
-- [What are the main considerations we should take into account when optimising code?](#other-considerations)
+- [What are the main considerations we should take into account when optimizing code?](#other-considerations)
 
 ### Additional resources
 

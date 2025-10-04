@@ -40,7 +40,7 @@ For a more thorough explanation, use these resources:
 
 #### Running ES6 modules in Node
 
-Node v22 (which became LTS in October 2024) can now automatically detect ES6 modules and run them without any further configuration. If you are using ES6 modules and run into errors due to Node not recognising the syntax, make sure you [update Node to the latest LTS version](https://www.theodinproject.com/lessons/foundations-installing-node-js#installing-node).
+Node v22 (which became LTS in October 2024) can now automatically detect ES6 modules and run them without any further configuration. If you are using ES6 modules and run into errors due to Node not recognizing the syntax, make sure you [update Node to the latest LTS version](https://www.theodinproject.com/lessons/foundations-installing-node-js#installing-node).
 
 </div>
 
