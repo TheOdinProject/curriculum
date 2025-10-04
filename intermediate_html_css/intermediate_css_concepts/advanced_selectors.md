@@ -100,7 +100,7 @@ Pseudo-classes offer us different ways to target elements in our HTML. There are
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Calculating CSS Specificity notation
+#### Calculating CSS specificity notation
 
 The (0,0,1,0) above is the notation for calculating specificity. To find out more about how it works, glance over the "Calculating CSS Specificity Value" section from this [article on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/#aa-calculating-css-specificity-value).
 
