@@ -88,7 +88,7 @@ Finally, if we want to select all of the siblings following an element and not j
 
 Just like the descendant combinator, these selectors don't have any special specificity rules - their specificity score will just be made up of their component parts.
 
-This [MDN article on combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators) provides a good overview if you want to learn more about them. You don't have to do the "Test your skills!" at the bottom of the article as it covers concepts not yet discussed. Don't worry, more on those later in the lesson!
+This [MDN article on combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators) provides a good overview if you want to learn more about them.
 
 ### Pseudo-selectors
 
