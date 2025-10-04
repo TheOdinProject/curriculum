@@ -1,5 +1,5 @@
-<!-- TOP004 disabled due to unique and intended lesson structure  -->
-<!-- markdownlint-disable MD024 MD043 TOP004 -->
+<!-- TODO: Revisit lesson/heading structure to remove need to disable rules -->
+<!-- markdownlint-disable MD024 TOP004 -->
 ### Introduction
 
 Node.js is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser. We will need this for some exercises in the upcoming lessons. To get started, there are some required tools we need before we can install Node on your system.
