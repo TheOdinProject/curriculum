@@ -116,7 +116,7 @@ puts result
 When we `puts` something inside a case statement, we'll use `#=>` to show what `puts` will print.
 In your terminal, however, you'll see the value printed followed by `=> nil`, since `puts` returns `nil`.
 We'll omit that because it's not relevant to what we're trying to show you.
-Just be aware that the `nil` you see is just the return value of `puts`. Standard Ruby behaviour.
+Just be aware that the `nil` you see is just the return value of `puts`. Standard Ruby behavior.
 
 As you'll see, though, the point of a pattern match usually is to not only match against a pattern, but also bind all or part of the match to one or more variables that you can then use outside of the pattern match expression.
 
@@ -472,7 +472,7 @@ end
 # => banana
 ```
 
-Because of Ruby syntactic sugar for hashes, we could rewrite the above as below. Note how we don't have to provide names for the variables. This isn't pattern matching behaviour but normal Ruby hash behaviour.
+Because of Ruby syntactic sugar for hashes, we could rewrite the above as below. Note how we don't have to provide names for the variables. This isn't pattern matching behavior but normal Ruby hash behavior.
 
 ```ruby
 case { a: 'apple', b: 'banana' }
@@ -509,7 +509,7 @@ end
 # => { :b => "ball", :c => "cat" }
 ```
 
-Something to be mindful of with hashes is that because a hash will match with only a subset of keys matching, you need to guard against situations where you don't want that behaviour.
+Something to be mindful of with hashes is that because a hash will match with only a subset of keys matching, you need to guard against situations where you don't want that behavior.
 
 ```ruby
 case { a: 'ant', b: 'ball' }

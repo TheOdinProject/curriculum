@@ -12,7 +12,7 @@ As you read more about Ruby methods, you'll notice that the terms "methods" and 
 
 Basically, because everything in Ruby is an object, Ruby only has methods, not functions. With that established, we know that when we're talking about Ruby, "methods" and "functions" refer to the same thing.
 
-In this lesson, we're going to deconstruct what methods are, examine their behaviour, and learn how to use them.
+In this lesson, we're going to deconstruct what methods are, examine their behavior, and learn how to use them.
 
 ### Lesson overview
 
