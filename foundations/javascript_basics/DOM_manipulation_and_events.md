@@ -446,7 +446,7 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
 1. Complete the following sections from MDN to test your skills:
    - [Doing some basic DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting#doing_some_basic_dom_manipulation)
    - [Creating a dynamic shopping list](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting#creating_a_dynamic_shopping_list)
-     
+
 </div>
 
 ### Knowledge check
