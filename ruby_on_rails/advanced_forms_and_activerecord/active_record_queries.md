@@ -154,7 +154,9 @@ Rails is well aware of your distress and has provided a solution -- "eager loadi
 
 <div class="lesson-note" markdown="1">
 
-#### Note: One thing which can be a bit annoying from a development standpoint is that we haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server. So don't be alarmed if they don't show up in the server output
+#### Note: 
+
+One thing which can be a bit annoying from a development standpoint is that we haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server. So don't be alarmed if they don't show up in the server output
 
 </div>
 
