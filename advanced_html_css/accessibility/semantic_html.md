@@ -87,8 +87,11 @@ If you were to use only `<div>` elements to act as these landmarks and headings,
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read [How screen readers navigate data tables](https://tink.uk/how-screen-readers-navigate-data-tables/) to see a great example of just how much context a proper `<table>` element provides. There is also a video at the end of the blog post if you want to *hear* how a table is announced.
-2. Watch [Why headings and landmarks are so important](https://www.youtube.com/watch?v=vAAzdi1xuUY&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=19) to see how a screen reader interacts with the heading and landmark elements.
+
+1. Read [How screen readers navigate data tables](https://tink.uk/how-screen-readers-navigate-data-tables/) to see a great example of just how much context a proper `<table>` element provides.
+1. Watch [Introduction to accessible tables and a screen reader demo](https://youtu.be/ACmYzyN0b3U?si=o5PptrjVGJGj2OT7&t=83) to see how a screen reader announces a table.
+1. Watch [Why headings and landmarks are so important](https://www.youtube.com/watch?v=vAAzdi1xuUY&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=19) to see how a screen reader interacts with the heading and landmark elements.
+
 </div>
 
 ### Knowledge check

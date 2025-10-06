@@ -8,6 +8,7 @@ This contributing guide assumes you have followed the instructions in our genera
 
 - [How to Contribute](#how-to-contribute)
 - [Curriculum Linting](#curriculum-linting)
+- [Adding Images to the Curriculum](#adding-images-to-the-curriculum)
 
 ## How to Contribute
 
@@ -75,3 +76,31 @@ To help enforce the layout specified in our layout style guide, we use [markdown
 > - [TOP010](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP010.md) use-lazy-numbering
 > - [TOP011](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md) heading-indentation
 > - [TOP012](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP012.md) note-box-headings
+
+## Adding Images to the Curriculum
+
+Adding images to the curriculum is a two-step process, involving two PRs. For a general overview, you need to:
+
+1. Upload the image(s) to the repository.
+1. Create `statically.io` links to the images and add those links to the appropriate lesson(s).
+
+### Uploading Images to the Repository
+
+1. Have a copy of the image you want to upload on your local machine.
+1. If it doesn’t already exist, create a directory with the same name in the same directory as the lesson you want to add an image to.
+1. If it doesn’t already exist, create an `imgs` directory inside of the directory you made in the previous step.
+1. Add your image to the directory you made in step 3, naming it the order it appears on the page starting from 00 (i.e. the second image in a lesson will be `01.png` (or whatever extension)). If replacing an image, just replace the appropriate image file.
+1. PR the addition of the image(s). Here is an [example PR](https://github.com/TheOdinProject/curriculum/pull/22421) where this process was followed.
+
+### Creating Statically Links
+
+1. Go to the PR that added the image(s) to the repo.
+1. Right-click the commit ID where it was merged and select `copy link`.
+
+   ![The commit ID is a random looking seven digit string that will appear like a message in the PR when your PR is merged.](https://cdn.statically.io/gh/wise-king-sullyman/curriculum/81577535181eae1bbaac066c37e304475af22855/images/Add-Images-Instructions/Click-Commit-ID.png)
+1. Go to https://wise-king-sullyman.github.io/better-statically-converter-react/
+1. Paste the URL you copied into the text box on the main screen of that site, then hit Enter.
+1. The site will generate the statically CDN link to each image that was merged into the curriculum with that PR. You can click each link to auto-copy that link to your clipboard.
+1. Use each of these links to link to your desired images in the curriculum content you’re editing/adding.
+1. PR the addition of the image links (and any other content you’ve added/changed in the lesson).
+

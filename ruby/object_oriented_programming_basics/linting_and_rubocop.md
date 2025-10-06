@@ -22,8 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 ### Convention time again
 
 You have already been exposed to some of the conventions in HTML, CSS, JS and Ruby.
-This is why JS has its variables written `likeThis` while Ruby's are `like_this`, why functions are verbs and variables are things like `do_something(with_thing, another_thing)`. Why there exists
-a preference for getting rid of `if` statements, why some languages prefer loops while other prefer iterative approaches. Why some features
+This is why JS has its variables written `likeThis` while Ruby's are `like_this`, why function names are verbs and variable names are nouns. Why some languages prefer loops while others prefer iterative methods. Why some features
 present in languages are strongly discouraged - remember `var`, `eval()` or `$global_variable`s?
 
 There's *a lot* more of these relating to features of Ruby (or a different language!) that you might never even have heard of. <span id='style-guide'>The good news is that there exist style guides:</span>
