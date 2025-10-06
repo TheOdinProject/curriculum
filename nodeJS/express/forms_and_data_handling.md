@@ -398,7 +398,7 @@ exports.usersCreatePost = [
 ];
 ```
 
-You might notice that we are using the `matchedData()`[https://express-validator.github.io/docs/api/matched-data] function to access our validated data. While it is a little verbose and `req.body` is mutable, `req.query`, in particular, is not in the current version of Express (v5). You might still need to change these data once validated and/or sanitized. Therefore, you should access them through `matchedData()` for consistency.
+You might notice that we are using the [`matchedData()`](https://express-validator.github.io/docs/api/matched-data) function to access our validated data. While it is a little verbose and `req.body` is mutable, `req.query`, in particular, is not in the current version of Express (v5). You might still need to change these data once validated and/or sanitized. Therefore, you should access them through `matchedData()` for consistency.
 
 And now, we need to update our `createUser.ejs` view to render these errors. Let's create a new partial. Inside the `views` folder, create a new folder called `partials` and inside it, create `errors.ejs`:
 
