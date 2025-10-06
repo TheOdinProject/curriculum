@@ -481,8 +481,7 @@ exports.usersUpdatePost = [
         errors: errors.array(),
       });
     }
-    const validatedData = matchedData(req);
-    const { firstName, lastName } = validatedData;
+    const { firstName, lastName } = matchedData(req);
     usersStorage.updateUser(req.params.id, { firstName, lastName });
     res.redirect("/");
   }
