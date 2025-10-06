@@ -110,6 +110,8 @@ immutable
 #=> [[1000, nil], [nil, nil], [nil, nil]]
 ```
 
+Each `{ Array.new(2) }` block creates a new inner array. This means all three inner arrays are **independent objects**. When you modify one, the others stay the same.
+
 Changing the value of the first element in the first nested array does not cause the value to change in any other nested array.
 
 ### Adding and removing elements
