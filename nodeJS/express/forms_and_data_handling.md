@@ -365,7 +365,7 @@ Let's add a few methods to our `usersController.js` for validating and sanitizin
 
 ```javascript
 // This just shows the new stuff we're adding to the existing contents
-const { body, validationResult, validatedData } = require("express-validator");
+const { body, validationResult, matchedData } = require("express-validator");
 
 const alphaErr = "must only contain letters.";
 const lengthErr = "must be between 1 and 10 characters.";
