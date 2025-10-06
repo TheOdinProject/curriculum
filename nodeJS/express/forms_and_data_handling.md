@@ -390,8 +390,7 @@ exports.usersCreatePost = [
         errors: errors.array(),
       });
     }
-    const validatedData = matchedData(req);
-    const { firstName, lastName } = validatedData;
+    const { firstName, lastName } = matchedData(req);
     usersStorage.addUser({ firstName, lastName });
     res.redirect("/");
   }
