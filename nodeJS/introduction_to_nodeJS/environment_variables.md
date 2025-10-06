@@ -31,6 +31,38 @@ There are multiple ways you can load environment variables, though some are more
 NODE_ENV=prod VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0" node index.js
 ```
 
+#### Cross-platform considerations
+
+The inline syntax above works on macOS and Linux but **not on Windows Command Prompt**. Here are the alternatives:
+
+**Windows Command Prompt:**
+```bat
+set NODE_ENV=prod && set VIDEO_URL=https://www.youtube.com/watch?v=X2CYWg9-2N0 && node index.js
+```
+
+**Windows PowerShell:**
+```powershell
+$env:NODE_ENV="prod"; $env:VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0"; node index.js
+```
+
+**Cross-platform solution (recommended):**
+
+Use the `cross-env` package in your npm scripts to ensure compatibility across all operating systems:
+
+```bash
+npm install --save-dev cross-env
+```
+
+Then in your `package.json`:
+```json
+{
+  "scripts": {
+    "start": "cross-env NODE_ENV=prod VIDEO_URL=https://www.youtube.com/watch?v=X2CYWg9-2N0 node index.js",
+    "dev": "cross-env NODE_ENV=development node index.js"
+  }
+}
+```
+
 In the above, we define environment variables called `NODE_ENV` and `VIDEO_URL`, and assign them their respective values. Now any part of our code that uses those variables will have those values, just like function parameters! The convention for naming environment variables is to use `UPPER_SNAKE_CASE` (sometimes endearingly referred to as `SCREAMING_SNAKE_CASE` or `SHOUTY_CASE`).
 
 You might see that this could quickly get quite cumbersome though, especially if you had lots of environment variables. If you had sensitive data like database credentials, that's even worse since you wouldn't want to push your `package.json` if it contained those values in an npm script!
@@ -66,6 +98,52 @@ require("dotenv").config();
 
 You can now just run your code with `node index.js` and dotenv will handle all the loading for you. Note that dotenv isn't the only way to handle environment variables and security. Projects where a whole team needs synced access to the same environment variables, or otherwise more complex applications, may benefit from more robust and flexible options. For this course, dotenv should serve our needs more than well.
 
+#### Multiple environment files
+
+For larger projects, you might want separate environment files for different stages of development:
+
+```
+.env.development
+.env.test
+.env.production
+.env.local          # Personal overrides (highest priority)
+```
+
+You can load environment-specific files by modifying your dotenv configuration:
+
+```javascript
+const environment = process.env.NODE_ENV || 'development';
+
+// Load environment-specific file first
+require('dotenv').config({ 
+    path: `.env.${environment}` 
+});
+
+// Then load base .env as fallback
+require('dotenv').config();
+```
+
+#### .env.example pattern
+
+Create a `.env.example` file that you **commit to version control** (unlike `.env` which should be in `.gitignore`). This shows team members what environment variables are needed:
+
+```properties
+# .env.example
+NODE_ENV=development
+PORT=3000
+VIDEO_URL=
+DATABASE_URL=
+API_KEY=
+SECRET_KEY=
+```
+
+New team members can then run:
+```bash
+cp .env.example .env
+```
+
+And fill in their own values. This pattern ensures everyone knows what variables are required without exposing actual secrets.
+
 <div class="lesson-note lesson-note--tip" markdown="1">
 
 #### Environment variables and deployment
@@ -91,6 +169,61 @@ redirectUserToSuperSecretVideo(process.env.VIDEO_URL);
 ```
 
 No hardcoding of those values into the source code! If you want to change the value of an environment variable, you can just change it in your `.env` file then rerun the program. Do also note that environment variables will always be strings, so you must convert if you want to use any as a number or boolean, for example.
+
+### Validating and parsing environment variables
+
+Since environment variables are always strings and can be undefined, it's crucial to validate and parse them properly to avoid runtime errors:
+
+#### Basic validation
+
+```javascript
+// Check for required variables
+const requiredVars = ['NODE_ENV', 'DATABASE_URL', 'API_KEY'];
+for (const varName of requiredVars) {
+    if (!process.env[varName]) {
+        throw new Error(`Missing required environment variable: ${varName}`);
+    }
+}
+```
+
+#### Type conversion with validation
+
+```javascript
+// Number conversion with fallback
+const PORT = parseInt(process.env.PORT || '3000', 10);
+if (isNaN(PORT) || PORT <= 0) {
+    throw new Error('PORT must be a positive number');
+}
+
+// Boolean conversion helper
+function parseBoolean(value, defaultValue = false) {
+    if (value === undefined || value === null) return defaultValue;
+    return ['true', '1', 'yes', 'on'].includes(value.toLowerCase());
+}
+
+const DEBUG_MODE = parseBoolean(process.env.DEBUG_MODE);
+const ENABLE_CACHE = parseBoolean(process.env.ENABLE_CACHE, true);
+```
+
+#### Using validation libraries
+
+For more complex validation, consider using libraries like `envalid`:
+
+```javascript
+const { cleanEnv, str, num, bool } = require('envalid');
+
+const env = cleanEnv(process.env, {
+    NODE_ENV: str({ choices: ['development', 'test', 'production'] }),
+    PORT: num({ default: 3000 }),
+    DATABASE_URL: str(),
+    DEBUG_MODE: bool({ default: false }),
+});
+
+// Now env.PORT is guaranteed to be a number
+console.log(`Server running on port ${env.PORT}`);
+```
+
+This approach provides automatic validation, type conversion, and helpful error messages if variables are missing or invalid.
 
 ### Assignment
 
@@ -118,9 +251,19 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you access environment variables in a Node app?](#accessing-environment-variables)
 - [What data type will an environment variable always be?](#accessing-environment-variables)
 - [Should you push your `.env` file to GitHub?](#keep-your-secrets-safe)
+- [How would you set environment variables on Windows Command Prompt vs PowerShell?](#cross-platform-considerations)
+- [What is the purpose of a `.env.example` file?](#envexample-pattern)
+- [Why is it important to validate environment variables?](#validating-and-parsing-environment-variables)
+- [How can you convert environment variables to numbers or booleans safely?](#type-conversion-with-validation)
+- [What are the benefits of using multiple environment files?](#multiple-environment-files)
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [The Twelve-Factor App: Config](https://12factor.net/config) - Industry standard methodology for building modern applications
+- [cross-env npm package](https://www.npmjs.com/package/cross-env) - Cross-platform environment variable setting
+- [envalid npm package](https://www.npmjs.com/package/envalid) - Environment variable validation library
+- [dotenv-safe npm package](https://www.npmjs.com/package/dotenv-safe) - Dotenv with required variable checking
+- [Node.js process.env documentation](https://nodejs.org/api/process.html#processenv) - Official Node.js documentation
+- [Environment Variables in Node.js: Best Practices](https://blog.bitsrc.io/a-comprehensive-guide-to-environment-variables-in-node-js-36a53543c0e6) - Comprehensive guide with advanced patterns
