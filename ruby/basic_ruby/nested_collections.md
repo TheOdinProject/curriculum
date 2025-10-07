@@ -102,11 +102,11 @@ Changing the value of the first element in the first nested array, causes the fi
 <span id='create-immutable-nested-arrays'>Now, let's take a look at an example that omits the second optional argument and instead passes in the mutable value in a block.</span>
 
 ```ruby
-immutable = Array.new(3) { Array.new(2) }
+nested_arrays = Array.new(3) { Array.new(2) }
 #=> [[nil, nil], [nil, nil], [nil, nil]]
-immutable[0][0] = 1000
+nested_arrays[0][0] = 1000
 #=> 1000
-immutable
+nested_arrays
 #=> [[1000, nil], [nil, nil], [nil, nil]]
 ```
 
