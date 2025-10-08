@@ -316,7 +316,8 @@ As a bit of practice, add an `alt` attribute to the dog image we added to the `o
 While not strictly required, specifying height and width
 attributes in image tags helps the browser layout the page without causing the page to jump and flash.
 
-It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it.
+It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it. This is to
+prevent content jumping as images load. Use the image's actual dimensions when specifying size. 
 
 Here is our Odin Project logo example with height and width attributes included:
 
