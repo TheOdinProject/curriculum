@@ -4,7 +4,7 @@ For this project, you will create the game [Rock Paper Scissors](https://www.wik
 
 <div class="lesson-note" markdown="1">
 
-#### Important Reminder
+#### No GUI yet
 
 Some of the student solutions below contain buttons, text, and other elements. These elements are part of what is called a graphical user interface (GUI). You'll create the GUI in a later lesson. In the meantime, remember to commit your code to GitHub.
 
@@ -101,7 +101,7 @@ Your game will play 5 rounds. You will write a function named `playGame` that ca
 
 <div class="lesson-note" markdown="1">
 
-#### Focus on task at hand
+#### Focus on the task at hand
 
 When making interactive projects, like this one, you might be tempted to add more features, improve interactivity, user experience, design and styling of your website, and so on.
 
