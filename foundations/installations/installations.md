@@ -98,6 +98,10 @@ Now that you have VirtualBox installed, launch the program. Once open, you shoul
 
 Click on the **New** button to create a virtual operating system. Give it a name of **Xubuntu**, if you want the VM installed somewhere else than default `C:` location, change that accordingly in the **Folder** option. This is the place where your virtual disk will reside, so make sure that you've got at least 30GB for that. In **ISO Image** choose **Other** - you'll see a window open for you to find the `.iso` file on your PC. It most likely is in the `Downloads` folder. Leave **Skip Unattended Installation** as it is.
 
+**Note:** In the latest version of VirtualBox, setup screens that previously appeared as multiple pages (Next/Back) are now collapsed into **dropdown menus** for sections like Memory and Storage. When following this guide, interpret “pages” as “dropdowns.”
+
+**Update:** The “Skip Unattended Installation” option is now **ticked by default**. You no longer need to manually check this box.
+
 ![Half of the options being greyed out is normal. Don't worry about it.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/04_install_start.png)
 
 Continue by pressing **Next** and follow the next steps:
@@ -128,6 +132,8 @@ Difficulty converting your Gigabytes (GB) into Megabytes (MB)? 1 GB of RAM is eq
 
 As for **Processors** you want this to be at 2 and no more. Leave **Enable EFI (special OSes only)** as it is - that is **unchecked** - and click **Next** to continue.
 
+**Update:** In recent versions of VirtualBox, the default **Video Memory** under **Settings → Display → Screen** is now only **16 MB**. To ensure Xubuntu displays correctly (especially in fullscreen mode), increase this value manually to **128 MB** before starting the VM.
+
 #### Step 2.2.3: Virtual hard disk
 
 ![Don't Pre-allocate Full Size.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/07_virtual_hard_disk.png)
@@ -141,6 +147,8 @@ Click **Next** to be taken to a **Summary** page, on which you can click **Finis
 ![The Preview section is in the top right of VirtualBox window.](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/08_preview_login.png)
 
 Just click the green arrow called **Show** and you'll be presented with a VM window and the login screen. Log in with the password you've set up during the installation process and we'll have one bit of configuration left to do.
+
+**Troubleshooting:** After installing Chrome inside Xubuntu, you may find it can’t open websites even though search suggestions appear. To fix this, open Xubuntu Settings → Network → Adapter 1, ensure “Enable Network Adapter” is ticked, and change “Attached to” from **NAT (default)** to **Bridged Adapter**.
 
 It is possible that you'll receive an error like this one after clicking **Finish**:
 
