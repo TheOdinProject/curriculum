@@ -99,7 +99,7 @@ mutable
 
 Changing the value of the first element in the first nested array, causes the first element to change in all three nested arrays! This same behavior will happen with strings, hashes, or any other mutable objects.
 
-<span id='create-immutable-nested-arrays'>Now, let's take a look at an example that omits the second optional argument and instead passes in the mutable value in a block.</span>
+<span id='create-nested-arrays'>Now, let's take a look at an example that omits the second optional argument and instead passes in the mutable value in a block.</span>
 
 ```ruby
 nested_arrays = Array.new(3) { Array.new(2) }
@@ -354,7 +354,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you add data to a nested hash?](#adding-and-removing-data)
 - [How do you delete elements from a nested array?](#remove-elements-nested-array)
 - [How do you delete data in a nested hash?](#deleting-data-nested-hash)
-- [How do you create a new nested array that is not mutable?](#create-immutable-nested-arrays)
+- [How do you create a new nested array that is not mutable?](#create-nested-arrays)
 - [How do you iterate over a nested array?](#iterating-over-a-nested-array)
 - [How do you iterate over a nested hash?](#methods)
 
