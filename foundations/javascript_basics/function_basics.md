@@ -38,7 +38,7 @@ Here is a diagram to help you visualize how parameters are passed to a function,
 
 ![how parameters are passed to a function and how values are returned from it](https://cdn.statically.io/gh/TheOdinProject/curriculum/c53dd9a12f0c9afde0d9229f82a176170f12e120/foundations/javascript_basics/function_basics/imgs/00.png)
 
-Make note that, while we are storing the outcome of the `favoriteAnimal('Goat')` function call inside the `message` variable, and later passing `message` as an argument for `log()`, we could just as easily have called `favoriteAnimal()` inside of `console.log()` directly with the argument `'Goat'`. In that case, we get the return value of the function, string of `"Goat is my favorite animal!"`, printed to the console, without the need to store it in a separate variable. We're passing in a function call `favoriteAnimal('Goat')` as an argument in a different function call - `log()`.
+Make note that, while we are storing the outcome of `favoriteAnimal('Goat')` inside the `message` variable, and later passing `message` as an argument for `log()`, it is also possible to pass in a function call as an argument in a different function call.
 
 ```javascript
 function favoriteAnimal(animal) {
@@ -47,6 +47,8 @@ function favoriteAnimal(animal) {
 
 console.log(favoriteAnimal('Goat'))
 ```
+
+In the example above, we pass in `favoriteAnimal('Goat')` as an argument in `log()`. When doing so, the return value of the `favoriteAnimal('Goat')` function call (the string `"Goat is my favorite animal!"`) is used as the argument for `log()`, without the need to store it in a separate variable.
 
 Keep this possibility in mind because you'll be passing in function calls as arguments somewhat often. If we just called the function without using `console.log` to print it's return value, nothing would appear in the console **but** nonetheless the function would return that string.
 
