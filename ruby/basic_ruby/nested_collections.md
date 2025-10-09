@@ -354,7 +354,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you add data to a nested hash?](#adding-and-removing-data)
 - [How do you delete elements from a nested array?](#remove-elements-nested-array)
 - [How do you delete data in a nested hash?](#deleting-data-nested-hash)
-- [How do you create a new nested array that is not mutable?](#create-nested-arrays)
+- [How do you create a new nested array that can’t be changed through references to the original one?](#create-nested-arrays)
 - [How do you iterate over a nested array?](#iterating-over-a-nested-array)
 - [How do you iterate over a nested hash?](#methods)
 
