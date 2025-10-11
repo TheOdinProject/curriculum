@@ -40,6 +40,7 @@ Try checking out these links for job boards.  The more technically-focused, the 
 * [Join-Startups](https://underdog.io/) - open startup jobs in a dozen cities
 * [Work-At-A-Startup](https://www.workatastartup.com/) - Y-Combinator Startups
 * [Hubstaff-Talent](https://talent.hubstaff.com/) - for freelancers and remote
+* [Wellfound (formerly AngelList Talent)](https://wellfound.com/jobs) - transparent startup hiring
 
 ### On recruiters
 
