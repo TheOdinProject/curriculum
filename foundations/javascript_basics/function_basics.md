@@ -47,7 +47,7 @@ function favoriteAnimal(animal) {
 console.log(favoriteAnimal('Goat'))
 ```
 
-In the example above, we pass in `favoriteAnimal('Goat')` as an argument in `log()`. When doing so, the return value of the `favoriteAnimal('Goat')` function call (the string `"Goat is my favorite animal!"`) is used as the argument for `log()`, without the need to store it in a separate variable.
+In the example above, we pass in `favoriteAnimal('Goat')` as an argument in `log()`. When doing so, the return value of the `favoriteAnimal('Goat')` function call (the string `"Goat is my favorite animal!"`) is used as the argument for `log()`, without first storing it in a separate variable.
 
 Keep this possibility in mind because you'll be passing in function calls as arguments somewhat often. If we just called the function without using `console.log` to print it's return value, nothing would appear in the console **but** nonetheless the function would return that string.
 
