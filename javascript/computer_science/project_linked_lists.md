@@ -11,7 +11,7 @@ to overcome that problem and allow dynamically allocated data is using linked li
 Luckily in **JavaScript**, arrays aren't limited to a certain size, and both insertion and deletion can be done trivially at any index using the appropriate built in array method, so you don't have to think about overcoming those limitations.
 
 So if array size, array insertion and array deletion are not limitations in JavaScript, are linked lists really necessary?
-The short answer to that is *no*; however, it's the simplest of the dynamic data
+The short answer to that is *it depends*; however, it's the simplest of the dynamic data
 structures and it will give you a solid foundation, so you can understand more
 complex data structures like graphs and binary trees with more ease.
 
@@ -31,6 +31,7 @@ For a more thorough explanation, use these resources:
 1. [Linked Lists in Plain English](https://www.youtube.com/watch?v=oiW79L8VYXk)
 1. [What's a Linked List, Anyway?](https://dev.to/vaidehijoshi/whats-a-linked-list-anyway)
 1. [A more verbose explanation with plenty of diagrams](https://web.archive.org/web/20200217010131/http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
+1. [Are Linked Lists necessary?](https://dev.to/karimdevelops/are-linked-lists-necessary-2ckl)
 
 ### Assignment
 
