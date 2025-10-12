@@ -63,7 +63,7 @@ So you're identifying a certain node based on its relationships to the nodes aro
 
 You might be wondering to yourself why there is a dot (`.`) notation following our variables. For example, `container.firstElementChild`.
 
-This is how we access objects in JavaScript. An object in JavaScript is a data type that optionally holds properties. A property is a "key: value" pair. For example, our `container` contains many properties and we can access its first child by accessing the `firstElementChild` key, to retrieve its value. In this case, a `<div>` element with the class `display`.
+This is how we access objects in JavaScript. An object in JavaScript is a data type that holds properties. A property is a "key: value" pair. For example, our `container` contains many properties and we can access its first element child by accessing the `firstElementChild` key, to retrieve its value. In this case, its value is a `<div>` element with the class `display`.
 
 This is all you need to know about JavaScript objects for now. Look forward to the Objects Basics lesson to learn more!
 
