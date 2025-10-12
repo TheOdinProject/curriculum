@@ -455,7 +455,9 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
    - [The dispatchEvent method](https://www.javascripttutorial.net/javascript-dom/javascript-dispatchevent/)
    - [Custom events](https://www.javascripttutorial.net/javascript-dom/javascript-custom-events/)
 
-1. Complete [MDN's Active Learning sections on DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_basic_dom_manipulation) to test your skills!
+1. Complete the following sections from MDN to test your skills:
+   - [Doing some basic DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting#doing_some_basic_dom_manipulation)
+   - [Creating a dynamic shopping list](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting#creating_a_dynamic_shopping_list)
 
 </div>
 

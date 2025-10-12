@@ -258,7 +258,7 @@ DROP TABLE usernames;
 
 You can then run this script via `node db/populatedb.js`, or add it as a [script in package.json](https://stackoverflow.com/a/36433748).
 
-Do note that the script is designed to be ran only once.
+Do note that the script is designed to be run only once.
 
 #### Local vs production dbs
 
