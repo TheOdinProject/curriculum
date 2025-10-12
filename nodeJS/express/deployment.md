@@ -109,7 +109,7 @@ Can deploy both servers and databases.
 ##### Railway.app: Free Plan
 
 - You get a free one-time grant of $5 on their free trial, and the applications are never put to sleep when inactive.
-- However, the longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
+- After 30 days has passed or you have used up $5 grant, Railway rolls you back to their limited trial, which you can only deploy database.
 
 ##### Railway.app: Links
 
