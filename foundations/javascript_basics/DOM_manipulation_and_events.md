@@ -57,6 +57,18 @@ console.log(display); // <div class="display"></div>
 
 So you're identifying a certain node based on its relationships to the nodes around it.
 
+<div class="lesson-note" markdown="1">
+
+#### JavaScript objects
+
+You might be wondering to yourself why there is a dot (`.`) notation following our variables. For example, `container.firstElementChild`.
+
+This is how we access objects in JavaScript. An object in JavaScript is a data type that holds properties. A property is a "key: value" pair. For example, our `container` contains many properties and we can access its first element child by accessing the `firstElementChild` key, to retrieve its value. In this case, its value is a `<div>` element with the class `display`.
+
+This is all you need to know about JavaScript objects for now. Look forward to the Objects Basics lesson to learn more!
+
+</div>
+
 ### DOM methods
 
 When your HTML code is parsed by a web browser, it is converted to the DOM, as was mentioned above. One of the primary differences is that these nodes are JavaScript objects that have many properties and methods attached to them. These properties and methods are the primary tools we are going to use to manipulate our webpage with JavaScript.
