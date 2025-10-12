@@ -59,7 +59,7 @@ So you're identifying a certain node based on its relationships to the nodes aro
 
 <div class="lesson-note" markdown="1">
 
-#### JavaScript Objects
+#### JavaScript objects
 
 You might be wondering to yourself why there is a dot (`.`) notation following our variables. For example, `container.firstElementChild`.
 
