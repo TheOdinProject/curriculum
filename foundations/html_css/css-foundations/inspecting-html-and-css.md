@@ -18,11 +18,11 @@ Don't get overwhelmed with all the tools you're now seeing! For this lesson, we 
 
 ### Inspecting elements
 
-In the Elements panel, you can see the entire HTML structure of your page. You can click on any of the elements in this panel to select that specific element. Alternatively, you can click the blue-highlighted icon shown below on the left, and hover over any element on the page.
+In the Elements panel, you can see the entire HTML structure of your page. You can click on any of the elements in this panel to select that specific element. Alternatively, you can click on the upper-left "element select" icon (shown in the image below), then hover over any element on the page.
 
 ![Inspector Icon](https://cdn.statically.io/gh/henrylin03/curriculum/e7ab90e044fba9f8ef9b5915c62221e2822b102b/foundations/html_css/css-foundations/inspecting-html-and-css/imgs/00.jpg)
 
-<span id="strikethrough">When an element is selected, the Styles tab will show all the currently applied styles, as well as any styles that are being overwritten (indicated by a strikethrough of the text).</span> For example, if you use the inspector to click on the "Your Career in Web Development Starts Here" header on the [TOP homepage](https://www.theodinproject.com/home), on the right-hand side you'll see all the styles that are currently affecting the element, as seen below:
+<span id="strikethrough">When an element is selected, the Styles tab will show all the currently applied styles, as well as any styles that are being overwritten (indicated by a strikethrough of the text).</span> For example, if you use the inspector to click on the "Your" in the "Your Career in Web Development Starts Here" header on the [TOP homepage](https://www.theodinproject.com/home), on the right-hand side you’ll see all the styles that are currently affecting the element, as seen below (don't worry about the var() syntax as that's irrelevant to this point):
 
 ![Overwritten style](https://cdn.statically.io/gh/henrylin03/curriculum/e7ab90e044fba9f8ef9b5915c62221e2822b102b/foundations/html_css/css-foundations/inspecting-html-and-css/imgs/01.jpg)
 
