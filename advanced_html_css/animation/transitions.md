@@ -63,7 +63,7 @@ The above transition will occur when the user hovers their mouse over the button
 
 Generally, keeping your CSS transitions performant will not be an issue. However there are a couple of things you need to keep in mind.
 
-The first is the "stacking context". Basically, a stacking context is formed when certain element scenarios are in place. A relevant scenario for us would be to transition a `transform` property like below:
+The first is the "stacking context". The "stacking context" refers to the stacking, or layering, of HTML elements in a parent container along the z axis (the depth dimension). The position of an element within a stacking context is relative only to the other elements within the same stacking context. The `z-index` property controls how far back or how far forward an element should appear on the web page when elements overlap. In addition to setting an elements' `z-index`, several CSS properties can also trigger the creation of new stacking contexts e.g. `transform`, `opacity`, `filter`, etc. A relevant scenario for us would be to transition a `transform` property like below:
 
 ```css
 div {
@@ -101,7 +101,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [Are all CSS properties animatable?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
 - [What are the long and short-hand notations for transitions?](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
-- [What is the stacking context?](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
+- [What is the stacking context?](https://www.joshwcomeau.com/css/stacking-contexts/)
 - [Why do you need to keep an eye on repaints?](https://dzhavat.github.io/2021/02/18/debugging-layout-repaint-issues-triggered-by-css-transition.html)
 
 ### Additional resources
