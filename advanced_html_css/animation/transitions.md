@@ -57,7 +57,11 @@ button:hover {
 }
 ```
 
-The above transition will occur when the user hovers their mouse over the button as indicated by the `:hover` pseudo-class. In addition to `:hover`, or any of the other pseudo-classes, you can also trigger transitions by adding or removing classes with JavaScript. For example, clicking a button could append the "open" class to a dropdown menu, which would trigger the opening transition.
+With the code above, you're instructing the browser as follows:
+
+*Whenever `background-color` changes, animate it over `1 second` using `ease-out` timing, but wait `0.25 seconds` before starting the animation.*
+
+When the user hovers their mouse over the button (as indicated by the `:hover` pseudo-class), the computed `background-color` changes from white to black. This change triggers the transition, causing the background color to animate smoothly based on the declared rules. In addition to `:hover`, or any of the other pseudo-classes, you can also trigger transitions by adding or removing classes with JavaScript. For example, clicking a button could append the "open" class to a dropdown menu, which would trigger the opening transition.
 
 ### Performance
 
