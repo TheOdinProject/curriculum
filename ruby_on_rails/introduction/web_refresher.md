@@ -25,6 +25,8 @@ Check out these resources:
 1. This [sniffer tool](http://testuri.org/sniffer) - try retrieving a couple of websites (like `https://www.theodinproject.com/`) on your own.
 1. This great video on [communications between http requests and the web server](https://code.tutsplus.com/how-to-become-a-web-developer--CRS-200371c/http-and-the-web-server).
 
+**Note:** The original video is no longer available. You can still click the "Transcript" button on the video page to read the full content.
+
 One key component to pay attention to is the fact that the request and response both have header and (usually) body components. The header contains information about the request or response itself (meta data), including which website to send or return to and what the status of the response is. The body of the request can contain things like data submitted by a form or cookies or authentication tokens while the response will usually contain the HTML page you're trying to access.
 
 The other key component is that each request uses one of four main "verbs" -- GET, POST, PUT, and DELETE. These days, you almost only see GET and POST requests (even if you're trying to do a delete of something they usually fake it using a POST request), but it's important to understand the difference between the verbs.
