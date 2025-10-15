@@ -100,6 +100,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- A [video exploring how flexbox works and why](https://www.youtube.com/watch?v=u044iM9xsWU).
-- A video explaining [the flex-basis property](https://www.youtube.com/watch?v=qdf9Qa0xJe4) by Front End Beginners
+- A video exploring [how flexbox works and why](https://www.youtube.com/watch?v=u044iM9xsWU) by Kevin Powell.
+- A video explaining [the flex-basis property](https://www.youtube.com/watch?v=qdf9Qa0xJe4) by Front End Beginners.
 - For an interactive explanation and demo, check out the [Scrim on the flex shorthand](https://scrimba.com/learn/flexbox/the-flex-property-flexbox-tutorial-cGNKJTv). For an alternative explanation you can view the [Scrim on using flex-grow, flex-shrink, and flex-basis](https://scrimba.com/learn/flexbox/flex-grow-shrink-basis-flexbox-tutorial-ck6L7fv). Note that these Scrims require logging into Scrimba in order to view.
