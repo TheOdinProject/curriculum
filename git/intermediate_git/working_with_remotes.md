@@ -1,6 +1,6 @@
 ### Introduction  
 
-So far, you've been working with remote repositories each time you've pushed or pulled from your own GitHub repository while working on the curriculum's various projects. In this section, we're going to cover  slightly more advanced topics, which you might not have yet encountered or had to use.
+Up to this point, you’ve been using remote repositories every time you pushed or pulled changes from your GitHub projects. Now, we’re going to take things a step further and explore some slightly more advanced Git topics — ones you might not have come across or needed to use until now!
 
 ### Lesson overview
 
