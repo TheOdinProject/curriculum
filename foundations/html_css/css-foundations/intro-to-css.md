@@ -409,3 +409,16 @@ This section contains helpful links to related content. It isn't required, so co
 
 - [Mozilla CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) can be used to learn the various types of values possible in absolute or relative terms.
 - [An interactive Scrim](https://scrimba.com/scrim/co12d4cf99cf2776f19e84a9d) which covers much of the material in the lesson in an interactive form.
+- ### CSS Initial Values
+
+Every CSS property has an **initial value**, which is the default value used by the browser if no other value is specified and it isn’t inherited.
+
+**Examples:**
+- `color` → default is **black**
+- `display` → default is **inline**
+- `margin` and `padding` → default is **0**
+
+Understanding initial values helps you predict how elements will appear before you apply your own styles.
+
+You can check the initial value of any CSS property on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference).
+
