@@ -420,5 +420,5 @@ Every CSS property has an **initial value**, which is the default value used by 
 
 Understanding initial values helps you predict how elements will appear before you apply your own styles.
 
-You can check the initial value of any CSS property on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+You can check the initial value of any CSS property on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference).
 
