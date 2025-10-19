@@ -227,7 +227,30 @@ So something like `.ancestor .child` would select an element with the class `chi
 .ancestor .contents {
   /* some declarations */
 }
-```
+
+***************************************************************************** NOTE ****************************************************************************************************
+The difference between a descendant combinator and chaining selectors in CSS syntax is literally the presence or absence of a space between them.
+
+Examples:
+
+• Descendant Combinator (have space):
+
+.ancestor .contents {
+  /* targets elements with class "contents" inside any element with class "ancestor" */
+}
+
+
+• Chaining Selectors (no space):
+
+.subsection.header {
+  color: red;
+}
+
+.subsection#preview {
+  color: blue;
+}
+
+
 
 In the above example, the first two elements with the `contents` class (on lines 4 and 5) would be selected, but the last element (on line 9) wouldn't be. Was your guess correct?
 
