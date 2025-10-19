@@ -191,6 +191,89 @@ As you can see, using Pry-byebug for debugging achieves the same outcome as `put
 
 There is far, far more that you can do with Pry-byebug, but that's beyond the scope of this lesson. Check out the Assignments and Additional Resources to find out where you can learn more about this useful gem.
 
+### Debugging with vscode-rdbg
+
+#### Step 1: Installation
+
+1. Go to your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and install the [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) extension. This is a LSP(Language Server Protocol) which gives you autocompletion as you type ruby code in editor and many more amazing stuff.
+
+1. Before installing `vscode-rdbg` extensions let's fulfill it's requirements first.
+You need to install latest `debug` gem and `rdbg` command should be in `$PATH`. A command in `$PATH` can be called in any directory.
+
+    ```shell
+    gem install debug
+    ```
+
+    ```shell
+    which rdbg
+    # /home/yourusernamehere/.rbenv/shims/rdbg
+    ```
+
+    If you don't see path output like the comment above ask for help in our [discord community](https://discord.gg/fbFCkYabZB).
+
+1. Now install the [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) extension.
+
+#### Step 2: Setup
+
+1. Set version manager.
+
+    1. Open VScode.
+    1. Press <kbd>Ctrl</kbd> + <kbd>,</kbd> to open settings.
+    1. Search "rdbg version manager"
+    1. set it to `rbenv` which we made you install in [installing ruby lesson](https://www.theodinproject.com/lessons/ruby-installing-ruby#step-21-install-rbenv) , it's your version manager for ruby : [rbenv documentation](https://github.com/rbenv/rbenv)
+
+1. Some Buggy Code
+
+    1. create a folder and name it anything `mkdir dummy_name`
+    1. copy the following code containing some bugs into a `main.rb` inside `dummy_name/`:
+
+        ```ruby
+
+        # count words in a given sentence
+        def word_count(sentence)
+          words = sentence.split(" ")
+          words.count
+        end
+
+        def start_word_count_input
+          puts "Enter a sentence:"
+          sentence = gets.chomp
+          puts "Word count: #{word_count(sentence)}"
+        end
+
+        # give day name of the given day number
+        def day_name(num)
+          days = %w[Sunday Monday Tuesday Wednesday Thursday Friday Saturday]
+          if num >= 1 && num <= 7
+            days[num]
+          else
+            "Invalid"
+          end
+        end
+
+        def start_day_name_input
+          puts "Enter day number (1–7):"
+          n = gets.to_i
+          puts "Day is #{day_name(n)}"
+        end
+        ```
+
+    1. copy the following code into `another_file.rb` inside `dummy_name/`:
+
+        ```ruby
+        print "Sup Odin Student"
+        ```
+
+Redacted start
+
+Now that you're familiar with the basics, we're going to have some fun with VSCode! Check the [VSCode rdbg Ruby Debugger documentation](https://github.com/ruby/vscode-rdbg) and generate the configuration inside your VSCode by going to `Run and Debug` and clicking on `create a launch.json file` then picking `Ruby (rdbg)`. Now, the configuration you want to use is `Debug current file with rdbg` that you can see at the top of the Debug sidebar. You can also invoke the last used debugging configuration with `F5`. `launch.json` files need to be created on a per project basis. If you're having a hard time figuring out how to navigate to your `launch.json` file in order to change the configuration, peek into [Debugging with VScode launch configurations portion](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations). We encourage you to go through the entire article, though!
+
+Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the [Debugging with pry-byebug](#debugging-with-pry-byebug) Section. Get rid of the `require pry-byebug` line and change `binding.pry` to `debugger`. Save the file.
+
+Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the [JavaScript Developer Tools lesson](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools). But *whoa*, once we hit the `debugger` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode documentation](https://code.visualstudio.com/docs/editor/debugging) if you get stuck.
+
+Redacted End
+
 ### How to start debugging
 
 Programs generally go wrong due to two main reasons:
@@ -207,10 +290,6 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 
 1. Go through the Ruby Guides [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers the same topics we went over, but in more depth.
 1. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
-1. Check your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and make sure the [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) and the [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) extensions are installed.
-1. Now that you're familiar with the basics, we're going to have some fun with VSCode! Check the [VSCode rdbg Ruby Debugger documentation](https://github.com/ruby/vscode-rdbg) and generate the configuration inside your VSCode by going to `Run and Debug` and clicking on `create a launch.json file` then picking `Ruby (rdbg)`. Now, the configuration you want to use is `Debug current file with rdbg` that you can see at the top of the Debug sidebar. You can also invoke the last used debugging configuration with `F5`. `launch.json` files need to be created on a per project basis. If you're having a hard time figuring out how to navigate to your `launch.json` file in order to change the configuration, peek into [Debugging with VScode launch configurations portion](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations). We encourage you to go through the entire article, though!
-1. Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the [Debugging with pry-byebug](#debugging-with-pry-byebug) Section. Get rid of the `require pry-byebug` line and change `binding.pry` to `debugger`. Save the file.
-1. Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the [JavaScript Developer Tools lesson](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools). But *whoa*, once we hit the `debugger` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode documentation](https://code.visualstudio.com/docs/editor/debugging) if you get stuck.
 1. Although VSCode's debugger is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`,`debug`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics#readme) that you previously cloned.
 
 </div>
