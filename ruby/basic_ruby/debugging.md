@@ -361,7 +361,7 @@ Let's Add Some code files for demo:
 1. Run the debugger and on user input enter "7".
 1. Notice output is only "Days is" and no name after it.
 1. put a breakpoint on the method call if there isn't.
-1. Run the debuggger and on user input enter "7" again
+1. Run the debugger and on user input enter "7" again
 1. Keep Stepping into till the `if` condition and press `Step Into` one more time.
 1. Notice how the condition passes so it's not invalid input to enter 7, so problem is `days[num]`
 1. In WATCH window of `Run And Debug` inside vscode click add expression(the plus icon) and add  `days[num]`.
