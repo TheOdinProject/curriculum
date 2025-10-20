@@ -128,14 +128,6 @@ Once you have an offer, you can check it against fair market rate by asking othe
 
 Finally, if a recruiter has reached out to you, it can also be helpful to ask what the budget for the role is up front. However, this must be done tactfully. If you have not been asked your compensation expectations and have not been told the budget up front in the initial message, it can be a great way to understand if both parties are wasting each other's time, but do keep in mind that asking must be done in a respectful manner. It can be helpful to phrase this ask by saying, "Is there an allocated salary range for the role?". Sometimes they may reply that the salary is based on experience, so do keep in mind your range as you move through the interview process!  
 
-### Assignment
-
-<div class="lesson-content__panel" markdown="1">
-
-- It looks like this lesson doesn't have any assignments.
-
-</div>
-
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
