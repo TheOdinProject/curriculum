@@ -197,7 +197,7 @@ There is far, far more that you can do with Pry-byebug, but that's beyond the sc
 
 1. Go to your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and install the [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) extension. This is a LSP(Language Server Protocol) which gives you autocompletion as you type ruby code in editor and much more amazing stuff.
 
-1. Before installing `vscode-rdbg` extensions let's fulfill it's requirements first.
+1. Before installing `vscode-rdbg` extension let's fulfill it's requirements first.
 You need to install latest `debug` gem and `rdbg` command should be in `$PATH` environment variable. A command in `$PATH` can be called from any directory.
 
    ```shell
@@ -245,16 +245,20 @@ Let's Add Some code files for demo:
 1. Create new file `main.rb` inside `dummy_name/` and copy the following code containing some bugs:
 
    ```ruby
-   # count words in a given sentence
-   def word_count(sentence)
-     words = sentence.split(" ")
-     words.count
+   # check if password is correct
+   def check_password(input)
+     password = 'xajxwashere'
+     if input = password
+       puts "Access granted!"
+     else
+       puts "Wrong password."
+     end
    end
 
-   def start_word_count_input
-     puts "Enter a sentence:"
-     sentence = gets.chomp
-     puts "Word count: #{word_count(sentence)}"
+   def start_password_input
+     puts "Enter a password:"
+     input = gets.chomp
+     puts "result : #{check_password(input)}"
    end
 
    # give day name of the given day number
@@ -292,23 +296,78 @@ Let's Add Some code files for demo:
 #### Step 4: Create launch.json
 
 1. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd> to go to `Run And Debug` inside vscode.
-1. Click 'create a launch.json file.' This file opened is used to configure our debugger.
+1. Click 'create a launch.json file.' This file is used to configure our debugger.
 1. Select `Ruby (rdbg)` option on the pop-up menu.
-1. Close the 'launch.json' file tab and confirm that it's saved at this place `dummy_name/.vscode/launch.json`.
+1. Close the 'launch.json' file tab and confirm that it's saved at this place `dummy_name/.vscode/launch.json`:
+   ![Sample stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/00.png)
 
 #### Step 5: Run Debugger
 
-1. Open `not_main.rb` file and press <kbd>F5</kbd> OR on the menu bar click `Run` and inside it `Start Debugging`
+1. Open `not_main.rb` file and press <kbd>F5</kbd> OR on the menu bar click `Run` and inside it `Start Debugging`. By default the file currently opened will be ran.
+1. You can toggle the `Debug Console Output` using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Y</kbd>.
+1. Confirm the code outputs inside `Debug Console Output` like this:
+   ![Sample stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/00.png)
+1. Move your mouse pointer to the left side of line number 7 and then left click to add a breakpoint:
+   ![Sample stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/00.png)
+1. Run Debugger again by pressing <kbd>F5</kbd>, the debugger will stop program on our breakpoint and give us some debugging actions to use.
+   ![Sample stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/00.png)
+1. Read details of the commonly used debugging actions:
 
-Redacted start
+     | Action | Description |
+     |:--|:--|
+     | Continue / Pause <kbd>F5</kbd> | **Continue**: Resume normal program/script execution (up to the next breakpoint). **Pause**: Inspect code executing at the current line and debug line-by-line. (for short and fast programs you might not get the chance to pause quickly and code will execute fully) |
+     | Step Over <kbd>F10</kbd> | Execute the next method as a single command without inspecting or following its component steps. |
+     | Step Into <kbd>F11</kbd> | Enter the next method to follow its execution line-by-line. |
+     | Step Out <kbd>Shift</kbd> + <kbd>F11</kbd> | When inside a method or subroutine, return to the earlier execution context by completing remaining lines of the current method as though it were a single command. |
+     | Restart <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F5</kbd> | Terminate the current program execution and start debugging again using the current run configuration. |
+     | Stop <kbd>Shift</kbd> + <kbd>F5</kbd> | Terminate the current program execution. |
 
-Now that you're familiar with the basics, we're going to have some fun with VSCode! Check the [VSCode rdbg Ruby Debugger documentation](https://github.com/ruby/vscode-rdbg) and generate the configuration inside your VSCode by going to `Run and Debug` and clicking on `create a launch.json file` then picking `Ruby (rdbg)`. Now, the configuration you want to use is `Debug current file with rdbg` that you can see at the top of the Debug sidebar. You can also invoke the last used debugging configuration with `F5`. `launch.json` files need to be created on a per project basis. If you're having a hard time figuring out how to navigate to your `launch.json` file in order to change the configuration, peek into [Debugging with VScode launch configurations portion](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations). We encourage you to go through the entire article, though!
+1. Keep pressing <kbd>F11</kbd> OR `Step Into` button and follow the code execution line-by-line, while watching local variables in the `VARIABLES` window of `Run And Debug` which is by default on the left side and also keeping `Debug Console Output` opened, this file was only for introduction there are no bugs in it, move to next when you are done with `Step Into`.
 
-Now that everything is installed, configured, let's create a new file which you can call `script.rb`. Next copy and paste the very first example in the [Debugging with pry-byebug](#debugging-with-pry-byebug) Section. Get rid of the `require pry-byebug` line and change `binding.pry` to `debugger`. Save the file.
+#### Step 6: Debug some code
 
-Click the `Run and Debug` button, open up the folder your script is located in, set a VSCode breakpoint somewhere within the function, and Run the debugger! This should all look very familiar to you, when you hit the VSCode breakpoint it should look similar to the breakpoints you used in the [JavaScript Developer Tools lesson](https://www.theodinproject.com/lessons/foundations-javascript-developer-tools). But *whoa*, once we hit the `debugger` breakpoint we got an interactive REPL to play around with! The best of both worlds! Play around with this, and feel free to reference [Debugging with VScode documentation](https://code.visualstudio.com/docs/editor/debugging) if you get stuck.
+1. Open `main.rb` and press <kbd>F5</kbd> to start debugger, notice the debugger disconnected immediately without running any code.
+1. This is because currently the `main.rb` file is only defining methods using the `def method_name ... end` syntax but no method is being called in this file, so let's call a method:
 
-Redacted End
+   Add this at the end of file to call `start_password_input` method:
+
+   ```ruby
+   # calling the method
+   start_password_input
+   ```
+
+1. Press <kbd>F5</kbd> to start debugger and put a breakpoint on method call, in the `Debug Console Output` program will you for input, but notice there's a problem you can't enter any input here.
+1. If your program needs user input we have to use `Terminal` instead of `Debug Console Output` so we can enter input while debugging, for that we have to configure our debugger so open `launch.json` at `dummy_name/.vscode/launch.json` and add `"useTerminal": true` at end of config named `Debug current file with rdbg` like this:
+
+   ```json
+   {
+     "type": "rdbg",
+     "name": "Debug current file with rdbg",
+     "request": "launch",
+     "script": "${file}",
+     "args": [],
+     "askParameters": true,
+     "useTerminal": true
+   },
+   ```
+
+1. Open `main.rb` and press <kbd>F5</kbd> to start debugging.
+1. Keep Stepping Into till you hit the user input line `Step Into` one more time if you see still yellow background, open `Terminal` (if it's not opened) using <kbd>Ctrl</kbd> + <kbd>`</kbd> and enter any input inside the "Ruby Debug Terminal".
+1. You can now debug while giving user input in between, keep stepping into till you reach the `if` condition, `Step Into` one time and notice the flow. It passed the condition and went inside if condition and in local variables we see that `input` variable got the value of `password` variable assigned to it, instead of comparing it with that value. Can you guess the fix? Drop your answer in TOP Discord's #ruby-rails-general channel.
+
+#### Step 7: Debug some more code
+
+1. Open `main.rb` and replace `start_password_input` with `start_day_name_input`.
+1. Run the debugger and on user input enter "7".
+1. Notice output is only "Days is" and no name after it.
+1. put a breakpoint on the method call.
+1. Run the debuggger and on user input enter "7" again
+1. Keep Stepping into till the `if` condition and press `Step Into` one more time.
+1. Notice how the condition passes so it's not invalid input to enter 7, so only culprit left is `days[num]`
+1. In WATCH window of `Run And Debug` inside vscode click add expression(the plus icon) and add  `days[num]`.
+1. Watch the value returned by `days[num]` is nil.
+1. Add `days` and `num` to WATCH too, notice the `days` array index starts with 0 and ends at 6.
+1. The WATCH section is powerful cause it can evaluate expressions and it's also helpful when the local variable you want to check is deeply nested when checking inside local variable of VARIABLES window, let's try some expressions inside WATCH to figure out some working code for the `days[num]` bug. Add `days[num+1]` and `days[num-1]` to WATCH , local variables will show you just the current value of a variable and using WATCH expressions you can play with your variables check the value of conditions like `num >= 1 && num <= 7` which will show true in WATCH if `num` is greater than 0 and smaller than 8.
 
 ### How to start debugging
 
