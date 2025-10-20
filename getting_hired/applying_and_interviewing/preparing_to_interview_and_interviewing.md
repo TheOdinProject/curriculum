@@ -57,7 +57,6 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 ### Links
 
 - [Peerfect.net](https://peerfect.net/) free online practice for behavioral, technical, and coding mock interviews with peers.
-
 - [Exponent.com](https://www.tryexponent.com/practice?ref=pramp&utm_source=pramp&utm_campaign=pramp_banner) allows you to prepare for coding interviews and practice your coding skills with peers.
 - [Interviewing.io](http://interviewing.io/) gives you a chance to practice tech screens anonymously online.
 - [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
@@ -72,7 +71,6 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 ### Coding test questions
 
 - [8 Queens](https://www.interviewbit.com/blog/8-queens-problem/#:~:text=Given%20a%208%20X%208,for%20the%208%20queens%20problem.) is a classic problem.
-
 - [Coding for Interviews: Know Thy Standard Libraries](http://web.archive.org/web/20210617041720/http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
 - [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently (they can be very computationally intensive).
 - [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.
