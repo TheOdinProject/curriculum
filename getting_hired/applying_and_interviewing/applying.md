@@ -12,8 +12,8 @@ This section contains a general overview of topics that you will learn in this l
 
 - Explain how to apply for jobs effectively without becoming overwhelmed.
 - Describe strategies to get noticed by companies you want to work for.
-- Explain how to tailor your resume and cover letters for different positions.
 - Describe how to maintain perseverance and follow up professionally during the job search.
+- Explain how to tailor your resume and cover letters for different positions.
 
 ### Go in the side door
 
