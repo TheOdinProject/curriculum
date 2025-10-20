@@ -61,7 +61,7 @@ This actually applies to the whole process, not just applications.  Follow up yo
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [how to get noticed by a startup you want to work for](https://www.themuse.com/advice/want-to-work-for-a-startup-heres-how-to-get-noticed) article.
+1. Read about [how to get noticed by a startup you want to work for](https://www.themuse.com/advice/want-to-work-for-a-startup-heres-how-to-get-noticed).
 
 </div>
 
