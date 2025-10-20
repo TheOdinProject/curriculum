@@ -195,21 +195,21 @@ There is far, far more that you can do with Pry-byebug, but that's beyond the sc
 
 #### Step 1: Installation
 
-1. Go to your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and install the [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) extension. This is a LSP(Language Server Protocol) which gives you autocompletion as you type ruby code in editor and many more amazing stuff.
+1. Go to your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and install the [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) extension. This is a LSP(Language Server Protocol) which gives you autocompletion as you type ruby code in editor and much more amazing stuff.
 
 1. Before installing `vscode-rdbg` extensions let's fulfill it's requirements first.
-You need to install latest `debug` gem and `rdbg` command should be in `$PATH`. A command in `$PATH` can be called in any directory.
+You need to install latest `debug` gem and `rdbg` command should be in `$PATH` environment variable. A command in `$PATH` can be called from any directory.
 
-    ```shell
-    gem install debug
-    ```
+   ```shell
+   gem install debug
+   ```
 
-    ```shell
-    which rdbg
-    # /home/yourusernamehere/.rbenv/shims/rdbg
-    ```
+   ```shell
+   which rdbg
+   # /home/yourusernamehere/.rbenv/shims/rdbg
+   ```
 
-    If you don't see path output like the comment above ask for help in our [discord community](https://discord.gg/fbFCkYabZB).
+   If you don't see path output like the comment above ask for help in our [Discord community](https://discord.gg/fbFCkYabZB).
 
 1. Now install the [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) extension.
 
@@ -217,52 +217,88 @@ You need to install latest `debug` gem and `rdbg` command should be in `$PATH`. 
 
 1. Set version manager.
 
-    1. Open VScode.
-    1. Press <kbd>Ctrl</kbd> + <kbd>,</kbd> to open settings.
-    1. Search "rdbg version manager"
-    1. set it to `rbenv` which we made you install in [installing ruby lesson](https://www.theodinproject.com/lessons/ruby-installing-ruby#step-21-install-rbenv) , it's your version manager for ruby : [rbenv documentation](https://github.com/rbenv/rbenv)
+   1. Open VScode.
+   1. Press <kbd>Ctrl</kbd> + <kbd>,</kbd> to open settings.
+   1. Search "rdbg ruby version manager".
+   1. Set it to `rbenv` which we made you install in [installing ruby lesson](https://www.theodinproject.com/lessons/ruby-installing-ruby#step-21-install-rbenv) , it's your version manager for ruby : [rbenv documentation](https://github.com/rbenv/rbenv).
+   1. Search "ruby lsp version manager"
+   1. Click on the 'Edit in settings.json' link
+   1. Edit the identifier which is by default "auto" to "rbenv"
 
-1. Some Buggy Code
+   1. Confirm settings.json have these two configurations set correctly:
 
-    1. create a folder and name it anything `mkdir dummy_name`
-    1. copy the following code containing some bugs into a `main.rb` inside `dummy_name/`:
+      ```json
+      {
+        "rdbg.rubyVersionManager": "rbenv",
+        "rubyLsp.rubyVersionManager": {
+            "identifier": "rbenv"
+        },
+      }
+      ```
 
-        ```ruby
+#### Step 3: Get some bugs
 
-        # count words in a given sentence
-        def word_count(sentence)
-          words = sentence.split(" ")
-          words.count
-        end
+Let's Add Some code files for demo:
 
-        def start_word_count_input
-          puts "Enter a sentence:"
-          sentence = gets.chomp
-          puts "Word count: #{word_count(sentence)}"
-        end
+1. Go to Desktop `cd ~/Desktop/` and create a new folder `mkdir dummy_name`.
+1. Open the folder in vscode `code dummy_name/`
+1. Create new file `main.rb` inside `dummy_name/` and copy the following code containing some bugs:
 
-        # give day name of the given day number
-        def day_name(num)
-          days = %w[Sunday Monday Tuesday Wednesday Thursday Friday Saturday]
-          if num >= 1 && num <= 7
-            days[num]
-          else
-            "Invalid"
-          end
-        end
+   ```ruby
+   # count words in a given sentence
+   def word_count(sentence)
+     words = sentence.split(" ")
+     words.count
+   end
 
-        def start_day_name_input
-          puts "Enter day number (1–7):"
-          n = gets.to_i
-          puts "Day is #{day_name(n)}"
-        end
-        ```
+   def start_word_count_input
+     puts "Enter a sentence:"
+     sentence = gets.chomp
+     puts "Word count: #{word_count(sentence)}"
+   end
 
-    1. copy the following code into `another_file.rb` inside `dummy_name/`:
+   # give day name of the given day number
+   def day_name(num)
+     days = %w[Sunday Monday Tuesday Wednesday Thursday Friday Saturday]
+     if num >= 1 && num <= 7
+       days[num]
+     else
+       "Invalid"
+     end
+   end
 
-        ```ruby
-        print "Sup Odin Student"
-        ```
+   def start_day_name_input
+     puts "Enter day number (1–7):"
+     n = gets.to_i
+     puts "Day is #{day_name(n)}"
+   end
+   ```
+
+1. Create another file `not_main.rb` inside `dummy_name/` and copy the following code into `not_main.rb` :
+
+   ```ruby
+   puts "Sup Odin Student"
+
+   def message_number(index)
+     index + 1
+   end
+
+   5.times do |index|
+     num = message_number(index)
+     puts "message number: #{num}"
+   end
+   ```
+
+#### Step 4: Create launch.json
+
+1. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd> to go to `Run And Debug` inside vscode.
+1. Click 'create a launch.json file.' This file opened is used to configure our debugger.
+1. Select `Ruby (rdbg)` option on the pop-up menu.
+1. Close the 'launch.json' file tab and confirm that it's saved at this place `dummy_name/.vscode/launch.json`.
+
+#### Step 5: Run Debugger
+
+1. Open `not_main.rb` file and press <kbd>F5</kbd> OR on the menu bar click `Run` and inside it `Start Debugging`
 
 Redacted start
 
