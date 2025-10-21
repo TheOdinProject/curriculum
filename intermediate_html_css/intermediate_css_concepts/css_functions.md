@@ -66,6 +66,8 @@ You should be able to grasp how `calc()` is used in the above CodePen embed. We 
 
 <div class="lesson-note lesson-note--tip" markdown=1>
 
+#### calc() example
+
 The above is just an example of how `calc()` can affect a layout, but keep in mind that `calc()` is likely not the best way to go about it. We will talk more about layouts in future lessons.
 
 </div>
