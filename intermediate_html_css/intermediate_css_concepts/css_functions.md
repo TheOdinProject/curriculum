@@ -109,9 +109,7 @@ Consider the following property of a given element:
 width: max(100px, 4em, 50%);
 ```
 
-The `max()` function takes a list of values separated by commas and returns the largest one. For example, `max(100px, 4em, 50%)` compares all three values and sets the element’s width to whichever is largest. If `50%`of the parent container is bigger than `100px` and `4em`, the width will be `50%`. If `4em` is larger than the others, it will use `4em`. This ensures that the element’s width never goes below the largest value specified, which is useful for setting a minimum size in responsive designs.
-
-This behavior is similar to JavaScript’s `Math.max()` function or Ruby’s `Array#max` method.
+The above compares all three values and sets the element's width to whichever is largest. If `50%` of the parent container is bigger than `100px` and `4em`, the width will be `50%`. If `4em` is larger than the others, it will use `4em`.
 
 The max function is most useful when the viewing window is either exceptionally small, or the user increases the content size by using the browser’s zoom feature.
 You may not find a lot of use for max at first, but it is a good tool to be aware of for projects where accessibility is important.
