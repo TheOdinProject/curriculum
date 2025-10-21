@@ -322,7 +322,7 @@ Let's Add Some code files for demo:
      | Restart <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F5</kbd> | Terminate the current program execution and start debugging again using the current run configuration. |
      | Stop <kbd>Shift</kbd> + <kbd>F5</kbd> | Terminate the current program execution. |
 
-1. Keep pressing <kbd>F11</kbd> OR `Step Into` button and follow the code execution line-by-line, while watching local variables in the `VARIABLES` window of `Run And Debug` which is by default on the left side and also keeping `Debug Console Output` opened, this file was only for introduction there are no bugs in it, move to next when you are done with `Step Into`.
+1. While watching local variables in the `VARIABLES` window of `Run And Debug` which is by default on the left side and also keeping `Debug Console Output` opened, keep pressing <kbd>F11</kbd> OR `Step Into` button and follow the code execution line-by-line, this file was only for introduction there are no bugs in it so start reading next step.
 
 #### Step 6: Debug some code
 
@@ -336,7 +336,7 @@ Let's Add Some code files for demo:
    start_password_input
    ```
 
-1. Press <kbd>F5</kbd> to start debugger and put a breakpoint on method call, in the `Debug Console Output` program will you for input, but notice there's a problem you can't enter any input here.
+1. Put a breakpoint on method call and press <kbd>F5</kbd> to start debugger, When you keep stepping into you will notice in the `Debug Console Output` the program will ask you for user input, but there's a problem you can't enter any input here.
 1. If your program needs user input we have to use `Terminal` instead of `Debug Console Output` so we can enter input while debugging, for that we have to configure our debugger so open `launch.json` at `dummy_name/.vscode/launch.json` and add `"useTerminal": true` at end of config named `Debug current file with rdbg` like this:
 
    ```json
@@ -351,23 +351,27 @@ Let's Add Some code files for demo:
    },
    ```
 
-1. Open `main.rb` and press <kbd>F5</kbd> to start debugging.
-1. Keep Stepping Into till you hit the user input line `Step Into` one more time if you see still yellow background, open `Terminal` (if it's not opened) using <kbd>Ctrl</kbd> + <kbd>`</kbd> and enter any input inside the "Ruby Debug Terminal".
-1. You can now debug while giving user input in between, keep stepping into till you reach the `if` condition, `Step Into` one time and notice the flow. It passed the condition and went inside if condition and in local variables we see that `input` variable got the value of `password` variable assigned to it, instead of comparing it with that value. Can you guess the fix? Drop your answer in [TOP Discord's #ruby-rails-general channel](https://discord.com/channels/505093832157691914/690591236922409012).
+1. Open `main.rb` and put a breakpoint on method call (if there isn't already), press <kbd>F5</kbd> to start debugging.
+1. Keep Stepping Into till you hit the user input line (`Step Into` one more time if you see still yellow background on the gets.chomp line), open `Terminal` (if it's not opened already) using <kbd>Ctrl</kbd> + <kbd>`</kbd> and enter any input inside the "Ruby Debug Terminal".
+1. You can now debug while giving user input in between, keep stepping into till you reach the `if` condition, `Step Into` one time and notice the flow. It passed the condition and went inside if condition and in local variables we see that `input` variable got assigned the value of `password` variable, instead of comparing it with that value. Can you guess the fix? Drop your answer in [TOP Discord's #ruby-rails-general channel](https://discord.com/channels/505093832157691914/690591236922409012).
 
 #### Step 7: Debug some more code
 
-1. Open `main.rb` and replace `start_password_input` with `start_day_name_input`.
+1. Open `main.rb` and comment out `start_password_input` method call and add `start_day_name_input` at end of file :
+
+   ```ruby
+   # start_password_input
+   start_day_name_input
+   ```
+
 1. Run the debugger and on user input enter "7".
-1. Notice output is only "Days is" and no name after it.
-1. put a breakpoint on the method call if there isn't.
-1. Run the debugger and on user input enter "7" again
-1. Keep Stepping into till the `if` condition and press `Step Into` one more time.
-1. Notice how the condition passes so it's not invalid input to enter 7, so problem is `days[num]`
-1. In WATCH window of `Run And Debug` inside vscode click add expression(the plus icon) and add  `days[num]`.
-1. Watch the value returned by `days[num]` is nil.
-1. Add `days` and `num` to WATCH too, notice the `days` array index starts with 0 and ends at 6.
-1. The WATCH section is powerful cause it can evaluate expressions and it's also helpful when the local variable you want to check is deeply nested when checking inside local variable of VARIABLES window, let's try some expressions inside WATCH to figure out some working code for the `days[num]` bug. Add `days[num+1]` and `days[num-1]` to WATCH , local variables will show you just the current value of a variable and using WATCH expressions you can play with your variables check the value of conditions like `num >= 1 && num <= 7` which will show true in WATCH if `num` is greater than 0 and smaller than 8 else false. The fix for this bug is `days[num-1]` since allowed inputs are  1-7 and array index are 0-6.
+1. Notice the output is only "Days is" and no name after it.
+1. Put a breakpoint on the method call if there isn't already, run the debugger and on user input enter "7" again.
+1. Keep Stepping into till the `if` condition line and press `Step Into` one more time.
+1. Notice how the condition passes meaning 7 is valid input, so problem is `days[num]`.
+1. On WATCH window of `Run And Debug` inside vscode click add expression(the plus icon) and add  `days[num]`, and you will see the value returned by `days[num]` is nil. (use mouse to hover over WATCH to get "add expression" button)
+1. Add `days` and `num` to WATCH too, click on `days` to expand it and notice the array index starts with 0 and ends at 6 and currently the `num` 7 is out of range.
+1. The WATCH section can evaluate expressions and it's helpful when the local variable you want to check is deeply nested when checking inside local variable of VARIABLES window, let's try some expressions inside WATCH to figure out some working code for the `days[num]` bug. Add `days[num+1]` and `days[num-1]` to WATCH , local variables will show you just the current value of a variable and using WATCH expressions you can play with your variables and check the value of conditions like `num >= 1 && num <= 7`, add this condition to WATCH and it will show `true` if `num` is greater than 0 and smaller than 8 else false. Notice the fix for this bug is using `days[num-1]` since allowed inputs are  1-7 and array index are 0-6.
 
 ### How to start debugging
 
