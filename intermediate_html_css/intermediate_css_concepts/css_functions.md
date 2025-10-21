@@ -93,18 +93,11 @@ The above is just an example of how `calc()` can affect a layout, but keep in mi
 }
 ```
 
-The min() function takes a list of values separated by commas and returns the smallest one.
-For example: 
+The `min()` function works just like JavaScript's `Math.min()` and Ruby's `Array#min` methods. It takes a list of values separated by commas and returns the smallest one.
 
-```css
-width: min(150px, 100%);
-```
+This checks whether `100%` of the parent element’s width is smaller than `150px`. If `100%` would be narrower than `150px`, the element will take up the full width of the container (`100%`). Otherwise, it will be `150px` wide.
 
-This checks whether `100%` of the parent element’s width is smaller than `150px`. If the container is narrower than `150px`, the element will take up the full width of the container `(100%)`. Otherwise, it will be `150px` wide.
-
-You are able to do basic math inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`
-
-This is similar to JavaScript’s `Math.min()` function or Ruby’s `Array#min` method — it simply chooses the smallest value from the given options.
+You are able to do basic math inside a `min()`. For example, `width: min(80ch, 100vw - 2rem);` (you don't even need `calc()` in this case).
 
 ### max()
 
