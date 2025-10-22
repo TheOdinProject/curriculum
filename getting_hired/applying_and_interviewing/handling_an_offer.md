@@ -6,7 +6,7 @@ If you kicked butt, you'll get an offer.  That means there's a pretty good chanc
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Learn how to handle an offer.
+- Learn how to handle an offer and negotiate.
 
 ### Handling an Offer
 
