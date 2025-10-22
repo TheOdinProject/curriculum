@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What is a hash code?
 
-Let's start by learning what it means to hash a value. Hashing involves taking an input in and generating a corresponding output. A hash function should be a pure function. Hashing the same input should always return the same hash code, and there should be no random generation component. For example, let's look at a hashing function that takes a name and gives us the first letter of that name:
+Let's start by learning what it means to hash a value. Hashing involves taking an input in and generating a corresponding output. A hash function should be a [pure function](https://en.wikipedia.org/wiki/Pure_function). Hashing the same input should always return the same hash code, and there should be no random generation component. For example, let's look at a hashing function that takes a name and gives us the first letter of that name:
 
 ```javascript
 function hash(name) {
