@@ -9,7 +9,7 @@ Before continuing, let's review a few best practices to keep in mind:
 
 - Copy and paste the commands to avoid typos.
 - Follow the directions closely, and don't skip over any sections.
-- **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this can cause a lot of headaches, and never run as the `root` user. In some instances, you might see a message in the terminal telling you to use sudo and install something with `apt`. Ignore that and follow *our* instructions for now.
+- **Do NOT use `sudo` unless The Odin Project specifically says to do so.** Failing to follow this can cause a lot of headaches, and never run as the `root` user. In some instances, you might see a message in the terminal telling you to use `sudo` and install something with `apt`. Ignore that and follow *our* instructions for now.
 
 Now, let's get started!
 
@@ -284,3 +284,4 @@ If you are using Visual Studio Code as your IDE, you can install the "Ruby LSP" 
 Using the extension is optional, but it is a quick install; go to the "Extensions" tab in VSC (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>X</kbd>), search "Ruby LSP", and click install on the first one. Congratulations, the extension is now installed.
 
 The most important features Ruby LSP provides will work out of the box. But it may bug you about using a monorepo setup, missing lockfiles or rubocop - you can choose "Don't show again" for now. We will introduce these later.
+
