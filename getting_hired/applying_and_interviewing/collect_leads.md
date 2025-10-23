@@ -67,7 +67,7 @@ Try checking out some of these links for job boards.  The more technically-focus
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [How to organize your job search effectively?](#organizing-your-job-search)
+- [How can you organize your job search effectively?](#organizing-your-job-search)
 - [What are high-probability sources for finding job openings?](#the-best-places-to-look)
 
 ### Additional resources
