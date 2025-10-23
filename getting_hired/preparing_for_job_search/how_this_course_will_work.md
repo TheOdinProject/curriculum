@@ -26,7 +26,7 @@ This course is structured a bit differently than the others because it's much mo
 1. You'll often be asked to do specific tasks, for instance keeping track of the applications you've submitted.  This is purely to help you along the way.
 1. Finally, we'll include additional helpful resources and other potentially useful tidbits at the end of each lesson.
 
-Enough talk, go get hired!
+**Enough talk, go get hired!**
 
 ### Knowledge check
 
