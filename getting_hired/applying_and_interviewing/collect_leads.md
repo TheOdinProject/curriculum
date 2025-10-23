@@ -16,7 +16,7 @@ Organization is key here and a spreadsheet is highly recommended.  Keep track of
 
 Put any job opening you find into your spreadsheet.
 
-#### Here's an example of how a spreadsheet to keep track of job openings might look like
+Here's an example of how a spreadsheet to keep track of job openings might look like:
 
 <div style="overflow-x: auto;" markdown="block">
 
