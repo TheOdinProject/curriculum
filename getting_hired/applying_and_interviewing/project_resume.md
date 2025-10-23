@@ -12,19 +12,11 @@ Knowing that perspective, how can you play to it?  It's difficult if you're brea
 
 Remember: ONE PAGE.
 
-### Assignment
+- This Career Tool Belt article lists [6 free resume builder websites](https://web.archive.org/web/20230930114027/https://www.careertoolbelt.com/5-best-free-resume-builder-websites/)
+- [Novorésumé also has a free tier with templates available, as an alternate resource](https://novoresume.com/)
+- Formatting could use some work, but here’s an [example resume from CareerCup.com](https://www.gayle.com/resume)
+- [Another great (totally free) resume builder](https://flowcv.io/)
 
-<div class="lesson-content__panel" markdown="1">
-
-1. Read through Career Tool Belt article listing [6 free resume builder websites](https://web.archive.org/web/20230930114027/https://www.careertoolbelt.com/5-best-free-resume-builder-websites/).
-1. As an alternate resource, [Novorésumé](https://novoresume.com/) also has a free tier with templates available.
-1. Formatting could use some work, but here’s an [example resume from CareerCup.com](https://www.gayle.com/resume).
-1. Another great (totally free) resume builder from [FlowCV](https://flowcv.io/).
-
-</div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+### Optional reading
 
 - [Getting Your Résumé Read, by Joel Spolsky](http://www.joelonsoftware.com/articles/ResumeRead.html)
