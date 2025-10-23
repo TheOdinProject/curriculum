@@ -30,7 +30,7 @@ Some other criteria to think about in the "nice-to-have" column:
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read this [Hire Beware blog post about some warning signs for less-than-ideal opportunities](https://github.com/TheOdinProject/blog/blob/main/hire-beware.md)
+1. Read this [Hire Beware blog post about some warning signs for less-than-ideal opportunities](https://github.com/TheOdinProject/blog/blob/main/hire-beware.md).
 
 <div>
 
