@@ -49,17 +49,16 @@ As you become more senior and your work is more unique, recruiters can add a lot
 
 <div class="lesson-content__panel" markdown="1">
 
-Try checking out some of these links for job boards.  The more technically-focused, the better:
-
-1. [Authentic Jobs](http://www.authenticjobs.com) - a place to find developer jobs from various companies.
-1. [CWJobs](http://cwjobs.co.uk) - check out this site for tech roles, especially if you’re based in the UK.
-1. [White Truffle](http://www.whitetruffle.com) - weighted towards startups right now.
-1. [Dice.com](http://www.dice.com) - one of the biggest tech job boards with tons of software listings.
-1. [Coderwall.com](http://coderwall.com) - lets you display your engineering prowess and they can come to you.
-1. [Join-Startups](https://underdog.io/) - open startup jobs in a dozen cities.
-1. [Work-At-A-Startup](https://www.workatastartup.com/) - Y-Combinator Startups.
-1. [Hubstaff-Talent](https://talent.hubstaff.com/) - for freelancers and remote.
-1. [Wellfound (formerly AngelList Talent)](https://wellfound.com/jobs) - transparent startup hiring.
+1. Try checking out some of these links for job boards.  The more technically-focused, the better:
+   - [Authentic Jobs](http://www.authenticjobs.com) - a place to find developer jobs from various companies.
+   - [CWJobs](http://cwjobs.co.uk) - check out this site for tech roles, especially if you’re based in the UK.
+   - [White Truffle](http://www.whitetruffle.com) - weighted towards startups right now.
+   - [Dice.com](http://www.dice.com) - one of the biggest tech job boards with tons of software listings.
+   - [Coderwall.com](http://coderwall.com) - lets you display your engineering prowess and they can come to you.
+   - [Join-Startups](https://underdog.io/) - open startup jobs in a dozen cities.
+   - [Work-At-A-Startup](https://www.workatastartup.com/) - Y-Combinator Startups.
+   - [Hubstaff-Talent](https://talent.hubstaff.com/) - for freelancers and remote.
+   - [Wellfound (formerly AngelList Talent)](https://wellfound.com/jobs) - transparent startup hiring.
 
 </div>
 
