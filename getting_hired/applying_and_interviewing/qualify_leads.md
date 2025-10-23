@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 To start of, make a column for the percentage likelihood of getting the job with a reasonable effort. Multiply this with the value of the job based on the previous step, sort by this new "expected value", and you should have an indication of which jobs are most worth your time.
 
- Part of the reason for qualifying the leads is to make sure you don't get sucked into a process and waste a bunch of time applying to jobs that you wouldn't actually take anyway. That's surprisingly easy. You'll still be able to send out "practice" applications, but at least now you know which companies are worth sending those out to.
+Part of the reason for qualifying the leads is to make sure you don't get sucked into a process and waste a bunch of time applying to jobs that you wouldn't actually take anyway. That's surprisingly easy. You'll still be able to send out "practice" applications, but at least now you know which companies are worth sending those out to.
 
 Some other criteria to think about in the "nice-to-have" column:
 
