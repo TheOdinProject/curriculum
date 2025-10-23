@@ -8,7 +8,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - Learn how to handle an offer and negotiate.
 
-### Handling an Offer
+### Handling an offer
 
 If it's just a verbal offer, ask them to email you the details. DO NOT ACCEPT RIGHT AWAY! This is doubly true if you don't think it's a good offer.  This is an important point for you -- they've been totally in control of the process until now and they've probably dragged their feet because they can (who knows, an even better developer might show up, right?).  Now it's your turn.  They've put in a lot of effort so far and any reasonable company isn't going to let you walk away over a few days or a few thousand dollars.  They should give you at least a week to decide.
 
