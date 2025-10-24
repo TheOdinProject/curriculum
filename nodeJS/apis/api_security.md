@@ -11,8 +11,8 @@ This strategy, while particularly useful with APIs can be used with a traditiona
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain how token authentication differs from session based authentication.
-- What are JSON Web Tokens?
-- What is an authorization header? How do we use it?
+- Learn what JSON Web Tokens are.
+- Read about an authorization header and how to use it.
 - Identify and explain the methods used to sign and verify tokens.
 - Write custom middleware to verify tokens on a given route.
 - Have familiarity with token expiration with JWT.
