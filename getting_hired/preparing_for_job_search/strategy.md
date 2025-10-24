@@ -32,7 +32,7 @@ Now get your head out of the clouds, stop dreaming about how you'll get hired, a
 
 <div class="lesson-content__panel" markdown="1">
 
-1. A fantastic place to start your "getting hired" journey is this **[very thorough article from Happy Bear Software on How to Get A Programmer Job](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html)**.
+1. A fantastic place to start your "getting hired" journey is this very thorough article from [Happy Bear Software on How to Get A Programmer Job](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html).
 
 </div>
 
