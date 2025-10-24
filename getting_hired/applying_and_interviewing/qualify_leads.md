@@ -32,7 +32,7 @@ Some other criteria to think about in the "nice-to-have" column:
 
 1. Read this [Hire Beware blog post about some warning signs for less-than-ideal opportunities](https://github.com/TheOdinProject/blog/blob/main/hire-beware.md).
 
-<div>
+</div>
 
 ### Knowledge check
 
