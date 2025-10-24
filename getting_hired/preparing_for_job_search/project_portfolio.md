@@ -42,7 +42,7 @@ A list of portfolios of professional developers. Students should analyze these s
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read this Forbes article [Why Every Job Seeker Should Have a Personal Website](http://www.forbes.com/sites/jacquelynsmith/2013/04/26/why-every-job-seeker-should-have-a-personal-website-and-what-it-should-include/) to understand why having a personal website can boost your job search.
+1. Read about [Why Every Job Seeker Should Have a Personal Website](http://www.forbes.com/sites/jacquelynsmith/2013/04/26/why-every-job-seeker-should-have-a-personal-website-and-what-it-should-include/) to understand why having a personal website can boost your job search.
 
 1. Read the [Beginner’s Guide to Writing Documentation](http://www.writethedocs.org/guide/writing/beginners-guide-to-docs/) to learn best practices for writing well structured documentation.
 
