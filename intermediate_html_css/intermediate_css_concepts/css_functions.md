@@ -103,7 +103,7 @@ You are able to do basic math inside a `min()`. For example, `width: min(80ch, 1
 
 ### max()
 
-`max()` works the same way as `min()`, only in reverse, and is like JavaScript's `Math.max()` and Ruby's `Array#max` methods. It will select the largest possible value from within the parentheses. You can think of `max()` as ensuring a *minimum* allowed value for a property.
+`max()` works the same way as `min()`, only in reverse, and is like JavaScript's `Math.max()` and Ruby's `Array#max` methods. It will select the largest possible value from within the parentheses.
 
 ```css
 width: max(100px, 4em, 50%);
