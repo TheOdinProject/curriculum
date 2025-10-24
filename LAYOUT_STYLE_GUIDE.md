@@ -283,7 +283,7 @@ For more detailed examples of the exceptions, refer to [Google's style guide on 
 
 Markdownlint: [`lazy-numbering-for-ordered-lists`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP010.md)
 
-Markdown is smart enough to let the resulting HTML render your numbered lists correctly. For longer lists that may change, especially long nested lists, use "lazy" numbering. The following Markdown:
+Markdown is smart enough to let the resulting HTML render your numbered lists correctly. Since the order may change when editing, use "lazy" numbering. This saves having to manually amend prefixes when editing such lists. The following Markdown:
 
 ```markdown
 1. Foo
