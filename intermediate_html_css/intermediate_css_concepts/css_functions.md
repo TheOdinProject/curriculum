@@ -121,15 +121,17 @@ You may not find a lot of use for max at first, but it is a good tool to be awar
 
 ```css
 h1 {
-  font-size: clamp(320px, 80vw, 60rem);
+  font-size: clamp(1.5rem, 5vw, 3rem);
 }
 ```
 
-1. the smallest value (320px)
-1. the ideal value (80vw)
-1. the largest value (60rem)
+1. the minimum value `1.5rem`
+1. the scaling value `5vw`
+1. the maximum value `3rem`
 
-The `clamp()` CSS function uses these values to set the smallest value, ideal value and largest value. In the above example, this would mean the smallest acceptable font-size would be 320px and the largest would be 60rem. The ideal font-size would be 80vw.
+The `clamp()` CSS function uses these values to set the minimum value, scaling value and maximum value. In the above example, this would mean the minimum acceptable font-size would be `1.5rem` and the maximum would be `3rem`.
+
+A font-size of `5vw` is set in-between. The value `5vw` allows the font-size to scale according to the viewport's width, but the size is restricted by the minimum and maximum values we've set.
 
 ### Assignment
 
