@@ -29,9 +29,8 @@ Depending on what kind of work you're doing, you might end up working more with 
 Now it's time for the fun stuff...  So far, we haven't done much with our programming that you couldn't do with basic math skills. Sure, we've told our computer how to do the math, which makes it quicker, but the essence of programming is teaching the computer how to make decisions to do more involved things. Conditionals are how we do that.
 
 1. Step one in learning about conditionals is making sure you have a good grasp on [comparisons](http://javascript.info/comparison).
-1. W3Schools also has a [lesson on conditionals in JavaScript](https://www.w3schools.com/js/js_conditionals.asp).
 1. JavaScript.info has a [good tutorial on logical operators](http://javascript.info/logical-operators). A little heads up regarding this reading's tasks: there will be questions where you see `alert()` with a number or string inside the parenthesis. What's happening here will be discussed later in the curriculum. Some of the answers may not make sense now, but they are accurate, and you will understand them as you progress in the curriculum. Don't worry too much about it now!
-1. The [MDN article on conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) reinforces the concept and provides several interesting examples of how you could use it building websites.
+ 1. The [MDN article on conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) is a great introduction to various ways to write conditional code.
 1. JavaScript.info's [lesson on `if/else`](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) and - more importantly - offers the usual 'tasks' at the bottom of the page!
 1. [Learn about the `switch` statement](https://javascript.info/switch), which is handy when you have multiple conditions.
 
@@ -71,7 +70,6 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are the comparison operators?](https://javascript.info/comparison)
 - [What are truthy and falsy values?](https://javascript.info/ifelse#boolean-conversion)
 - [What are the falsy values in JavaScript?](https://javascript.info/ifelse#boolean-conversion)
-- [What are conditionals?](https://www.w3schools.com/js/js_if_else.asp)
 - [What is the syntax for an if/else conditional?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#basic_if...else_syntax)
 - [What is the syntax for a switch statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#switch_statements)
 - [What is the syntax for a ternary operator?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#ternary_operator)
