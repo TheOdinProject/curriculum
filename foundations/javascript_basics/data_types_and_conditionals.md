@@ -30,7 +30,7 @@ Now it's time for the fun stuff...  So far, we haven't done much with our progra
 
 1. Step one in learning about conditionals is making sure you have a good grasp on [comparisons](http://javascript.info/comparison).
 1. JavaScript.info has a [good tutorial on logical operators](http://javascript.info/logical-operators). A little heads up regarding this reading's tasks: there will be questions where you see `alert()` with a number or string inside the parenthesis. What's happening here will be discussed later in the curriculum. Some of the answers may not make sense now, but they are accurate, and you will understand them as you progress in the curriculum. Don't worry too much about it now!
- 1. The [MDN article on conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) is a great introduction to various ways to write conditional code.
+1. The [MDN article on conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) is a great introduction to various ways to write conditional code.
 1. JavaScript.info's [lesson on `if/else`](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) and - more importantly - offers the usual 'tasks' at the bottom of the page!
 1. [Learn about the `switch` statement](https://javascript.info/switch), which is handy when you have multiple conditions.
 
