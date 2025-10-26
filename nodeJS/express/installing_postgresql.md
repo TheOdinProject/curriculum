@@ -183,7 +183,7 @@ If you don't see a similar output, come visit [our Discord server](https://disco
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-#### Security concerns
+#### No security configured
 
 Please note that that Postgres.app installs servers without any security configured, and will accept all local connections without a password. This is fine for our development environment, but be aware that when you move things to production, this will not be a good strategy.
 
