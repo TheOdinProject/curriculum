@@ -48,7 +48,8 @@ Be sure to study the diagrams carefully.
 1. [Learn CSS Box Model In 8 Minutes](https://www.youtube.com/watch?v=rIO5326FgPE) is a straightforward overview of the box model, padding and margin. Go ahead and watch this now; it informs everything else.
 1. [box-sizing: border-box (EASY!)](https://www.youtube.com/watch?v=HdZHcFWcAd8) is an add-on to the above resource with a better explanation of 'box-sizing'.
 1. Because the box model concept is so incredibly fundamental, let's dig a bit deeper with  [MDN's lesson on the box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model). It covers the same material as the video(s) above and will introduce you to inline boxes that we will explore in the next lesson. The article also mentions inner and outer display types when explaining how elements are rendered.
-You don’t need to fully understand or memorize those details yet. Pay close attention to the examples and take the time to experiment with their in-browser editor!
+
+   You don’t need to fully understand or memorize those details yet. Pay close attention to the examples and take the time to experiment with their in-browser editor!
 1. The [CSS Tricks page on margins](https://css-tricks.com/almanac/properties/m/margin/) has some further information about the `margin` property that you'll find useful. Specifically, the sections about `auto` and margin collapsing contain things you'll want to know.
 
 </div>
