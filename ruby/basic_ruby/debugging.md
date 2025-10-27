@@ -303,7 +303,7 @@ Let's Add Some code files for demo:
 
 #### Step 5: Run Debugger
 
-1. Open `not_main.rb` file and press <kbd>F5</kbd> OR on the menu bar click `Run` and inside it `Start Debugging`. By default the file currently opened will be ran.
+1. Open `not_main.rb` file and press <kbd>F5</kbd> OR on the menu bar click `Run` and inside it `Start Debugging`. By default the file currently opened will be used to start debugging, you will see a pop-up with command running the current file since we don't wanna pass any parameter to `rdbg` just press enter. (You can also set `askParameters` inside the `launch.json` to `false` which will skip this pop-up.)
 1. You can toggle the `Debug Console Output` using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Y</kbd>.
 1. Confirm the code outputs inside `Debug Console Output` like this:
    ![Sample stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/00.png)
