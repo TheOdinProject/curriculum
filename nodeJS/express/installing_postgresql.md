@@ -11,6 +11,8 @@ We've chosen [PostgreSQL](https://www.postgresql.org/) as our database of choice
 
 <div class="lesson-note lesson-note--critical" markdown="1">
 
+#### Complete the SQL course
+
 Make sure you've completed the [SQL course](https://www.theodinproject.com/paths/full-stack-javascript/courses/databases).
 
 This lesson and all subsequent lessons will assume you understand SQL syntax and concepts.
@@ -86,6 +88,8 @@ One other important step in setting up PostgreSQL is that each role must have it
 You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to fix this:
 
 <div class="lesson-note" markdown="1">
+
+#### Use quotes for capitalized words
 
 If your username has any capital letters, you must surround it in quotes when running the below command.
 
@@ -178,6 +182,8 @@ After you've run this command and restarted your terminal, you can run `which ps
 If you don't see a similar output, come visit [our Discord server](https://discord.gg/fbFCkYabZB) for some help!
 
 <div class="lesson-note lesson-note--warning" markdown="1">
+
+#### No security configured
 
 Please note that that Postgres.app installs servers without any security configured, and will accept all local connections without a password. This is fine for our development environment, but be aware that when you move things to production, this will not be a good strategy.
 
