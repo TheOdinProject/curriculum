@@ -251,6 +251,8 @@ When supplying an argument to the function, we can't just write `onClick={handle
 
 <div class="lesson-note" markdown="1" >
 
+#### Alternative implementation with curried functions
+
 There are also other ways to implement this behavior. Hint: [curried functions!](https://javascript.info/currying-partials)
 
 </div>
