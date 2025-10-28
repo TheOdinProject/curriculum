@@ -50,7 +50,7 @@ You can also put any number of style definitions inside a media query:
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Other queries
+#### Other queries
 
 In all of the above examples, our queries specify a `max-width` which will apply styles to any screen resolution *below* or equal to the specified value. Said another way: a `max-width` query will apply on any screen up to the defined `max-width`. It is also possible to define a `min-width`, which applies to any screen resolution *above* or equal to the given value. `max-height` and `min-height` are also valid.
 
