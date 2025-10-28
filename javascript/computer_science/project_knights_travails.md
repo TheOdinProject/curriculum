@@ -73,3 +73,9 @@ Sometimes *there is more than one fastest path*. Examples of this are shown belo
 ```
 
 </div>
+
+## Additional Resources
+ knight Moves interview question By JS
+ 
+ [Watch the video here](https://youtu.be/lKwvVsI9r94?si=mqpvrc8_gZ_j6Jnp)
+
