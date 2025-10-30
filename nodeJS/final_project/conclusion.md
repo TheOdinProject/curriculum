@@ -11,8 +11,6 @@ Still, at this point you've got the NodeJS and Express building blocks. When you
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Explore next steps in your NodeJS journey.
-- Learn about topics like security, caching, DevOps, and non-relational databases.
-- Find out how to keep learning and contribute to the developer community.
 
 ### Next steps
 
