@@ -2,7 +2,7 @@
 
 Things are about to get *really* exciting. So far you have been writing an impressive amount of code to solve various problems, but that code has not been as useful as it could be.
 
-Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code. That's the power of functions, and they're used *constantly* in JavaScript.
+Imagine bundling one of your scripts into a reusable package — so you can use it repeatedly without rewriting the code. That's the power of functions, and they're used *constantly* in JavaScript.
 
 ### Lesson overview
 
@@ -17,12 +17,9 @@ This section contains a general overview of topics that you will learn in this l
 Let's discuss parameters and arguments in the context of the following example function:
 
 ```javascript
-function favoriteAnimal(animal) {
-    return animal + " is my favorite animal!"
-}
-
-const message = favoriteAnimal('Goat')
-console.log(message)
+const favoriteAnimal = animal => `${animal} is my favorite animal!`;
+const message = favoriteAnimal('Goat');
+console.log(message);
 ```
 
 In JavaScript, parameters are the items listed between the parentheses `()` in the function declaration. Function arguments are the actual values we decide to pass to the function.
@@ -99,6 +96,8 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are return values?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values#what_are_return_values)
 - [What are arrow functions?](https://javascript.info/arrow-functions-basics)
 - [What is the difference between a function declaration and a function expression?](https://javascript.info/function-expressions#function-expression-vs-function-declaration)
+- [Read this MDN article on JavaScript Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+
 
 ### Additional resources
 
