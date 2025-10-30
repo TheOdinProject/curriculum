@@ -54,7 +54,7 @@ We want to emphasize again that the learning never really stops but also that yo
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Check out this information about caching on the [ExpressJS docs](https://expressjs.com/en/advanced/best-practice-performance.html#cache-request-results).
+1. Check out [Express docs on caching](https://expressjs.com/en/advanced/best-practice-performance.html#cache-request-results).
 1. Visit The Odin Project [Discord](https://discordapp.com/channels/505093832157691914/505093832157691916) server to see what we're up to. We'd love to have you get involved!
 
 </div>
