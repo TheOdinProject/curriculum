@@ -19,4 +19,5 @@ Going through these will give us a chance to learn about a few other important c
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [Chapter 4: Organizing Your Code – Human JavaScript](https://read.humanjavascript.com/ch04-organizing-your-code.html)
+
