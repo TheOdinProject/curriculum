@@ -66,7 +66,7 @@ Still not convinced? Here are a few great reasons to install Linux:
 - **Work Like The Pros** - Many developers use a Unix-based operating system.
 - **Performance** - Are you worried about installing Linux because your machine is slow or older and has limited space? When performance is a priority, Linux is a great choice. It uses fewer system resources than Windows and occupies less hard drive space.
 
-Many learners come to our Discord channel to ask if the directions on this page need to be followed. The moderators of our Discord server wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
+Many learners come to our Discord channel to ask if the directions on this page need to be followed. The team, which also runs our Discord server, wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
 
 Before we can continue, we must first stress one detail of importance:
 
