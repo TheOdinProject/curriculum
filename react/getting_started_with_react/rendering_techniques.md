@@ -72,6 +72,8 @@ You may be curious as to what the `key` is in our `<li>` element. We will dive i
 
 <div class="lesson-note" markdown="1">
 
+#### Passing data into components
+
 We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are just like function arguments that are passed into components, but to pass them we use a syntax similar to how we pass attributes to HTML elements. As you can see in the following short implementation.
 
 </div>
