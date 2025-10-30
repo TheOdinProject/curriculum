@@ -38,6 +38,20 @@ A platform we highly encourage you to begin looking into either way is [Amazon W
 
 Now that you have exposure to relational databases with PostgreSQL, you might be considering what other types of databases exist; namely non-relational databases. Understanding both types of databases and when to use them can set you up for success down the road. After all, not every problem requires a hammer. MongoDB is a popular choice for non-relational databases. Resources like the [Learn MongoDB website](https://learn.mongodb.com) offer tutorials and documentation to get you started.
 
+### Other resources
+
+Here are a few extra resources that will take you a bit deeper into software architecture, JavaScript and Node:
+
+- Explore additional [frameworks built on Express](https://web.archive.org/web/20240328030121/https://expressjs.com/en/resources/frameworks.html) that might be more suited to building certain types of applications.
+- Watch [more about APIs](https://www.youtube.com/watch?v=oBW_VNg4qD0) to learn a bit more about how APIs work.
+- [90 Days of DevOps](https://github.com/MichaelCade/90DaysOfDevOps) is a great repo if you wish to explore more about DevOps.
+- [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8) is a classic book on object-oriented design patterns.
+- Read [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_1?dchild=1&keywords=Clean+Code&qid=1602168590&s=digital-text&sr=1-1) to learn principles for writing readable and maintainable code.
+- Check out [syntax.fm Podcast](https://syntax.fm), a podcast covering web development.
+- [NodeJS Blog](https://nodejs.org/en/blog/) - the official NodeJS blog.
+
+If you find anything you think could go on this list, feel free to improve to this lesson in the [TOP curriculum repository on GitHub](https://github.com/TheOdinProject/curriculum)!
+
 ### Contributing
 
 You know more than you think. Remember when we just said that you should keep building stuff? This curriculum is completely open source and needs your help to improve. We have a dedicated group of current and former students who help add features and proofread the curriculum. The best part is that it's completely public and free so you can watch or participate at whatever level you're comfortable.
@@ -68,10 +82,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Explore additional [frameworks built on Express](https://web.archive.org/web/20240328030121/https://expressjs.com/en/resources/frameworks.html) that might be more suited to building certain types of applications.
-- Watch [more about APIs](https://www.youtube.com/watch?v=oBW_VNg4qD0) to learn a bit more about how APIs work.
-- [90 Days of DevOps](https://github.com/MichaelCade/90DaysOfDevOps) is a great repo if you wish to explore more about DevOps.
-- [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8) is a classic book on object-oriented design patterns.
-- Read [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_1?dchild=1&keywords=Clean+Code&qid=1602168590&s=digital-text&sr=1-1) to learn principles for writing readable and maintainable code.
-- Check out [syntax.fm Podcast](https://syntax.fm), a podcast covering web development.
-- [NodeJS Blog](https://nodejs.org/en/blog/) - the official NodeJS blog.
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
