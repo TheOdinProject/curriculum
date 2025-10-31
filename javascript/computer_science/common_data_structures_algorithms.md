@@ -15,7 +15,8 @@ Luckily for you, these complex algorithmic problems have all been solved many ti
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Get an introduction to data structures.
-- Learn about algorithms.
+- Learn about stack and queues.
+- Find out why you should learn algorithms.
 - Explore different search algorithms.
 
 ### Assignment
