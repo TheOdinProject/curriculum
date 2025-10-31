@@ -37,6 +37,7 @@ This section contains a general overview of topics that you will learn in this l
 <div class="lesson-content__panel" markdown="1">
 
   1. Solve each of the questions from this [Code Quiz](https://www.codingame.com/playgrounds/5422/js-interview-prep-recursion) on Recursion. It is not important to have recursive algorithms committed to memory at this point; just understand how to create and use them.
+      - **Note**: There are multiple valid ways to solve each question.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
