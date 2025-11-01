@@ -300,6 +300,10 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
+    path: "profile",
+    element: <Profile />,
+  },
+  {
     path: "profile/:name",
     element: <Profile />,
   },
