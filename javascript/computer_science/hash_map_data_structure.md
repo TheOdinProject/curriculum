@@ -178,7 +178,7 @@ To deal with this, our hash map class needs to keep track of two new fields, the
 
 - The `load factor` is a number that we assign our hash map to at the start. It's the factor that will determine when it is a good time to grow our buckets array. Hash map implementations across various languages use a load factor between `0.75` and `1`.
 
-The product of these two numbers gives us a number, and we know it's time to grow when there are more entries in the hash map than that number. For example, if there are `16` buckets, and the load factor is `0.8`, then we need to grow the buckets array when there are more than `16 * 0.8 = 12.8` entries - which happens on the 13th entry. Setting it too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have many collisions before we resize the array.
+The product of these two numbers gives us a number, and we know it's time to grow when there are more entries in the hash map than that number. For example, if there are `16` buckets, and the load factor is `0.8`, then we need to grow the buckets array when there are more than `16 * 0.8 = 12.8` entries - which happens on the 13th entry. Setting the `load factor` too low will consume too much memory by having too many empty buckets, while setting it too high will allow our buckets to have many collisions before we resize the array.
 
 ### Computation complexity
 
