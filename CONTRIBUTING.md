@@ -12,10 +12,12 @@ This contributing guide assumes you have followed the instructions in our genera
 
 ## How to Contribute
 
-There are 2 main ways you can contribute to our curriculum:
+Please refer to our [general contributing guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md) for details on the difference between simple and significant changes, and the expected process for handling each.
 
-1. If you're new to contributing to open-source, only need to edit 1 file, or if you just want to make a really quick pull request (PR), you can click the "Improve this lesson on GitHub" link found at the end of each lesson. This will open the lesson file in its "edit" mode, allowing you to make any edits and submit a PR all through GitHub.
-1. If you're more experienced with contributing or need to edit more than 1 file, you can follow our instructions on [setting up a local clone](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md) from our general contributing guide. You should also read the sections that follow on how to open a PR.
+When it comes to opening a pull request (PR) to our curriculum, there are 2 main ways you can do so:
+
+1. Click the "Improve on GitHub" link found at the end of each lesson. This will open the lesson file in its "edit" mode, allowing you to make any edits and submit a PR all through GitHub. This can be useful if you're new to contributions and want to make a simple change.
+1. Follow the instructions from the general contributing guide to fork and clone this repo locally, and work from there. This is necessary if you need to edit multiple files as part of a single PR.
 
 Regardless of the way you choose to open a PR, while working on an existing or a new lesson you **must** follow our [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md) to ensure the layout and formatting is consistent across our curriculum.
 
