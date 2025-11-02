@@ -2,6 +2,12 @@
 
 Taking a structured approach to getting hired means starting early and getting some important things out of the way first.
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- You'll learn what you can do to prepare for the job search.
+
 ### Get good!
 
 Navigating this process can be a beast but don't let it distract you from building your skills, which ultimately will determine if you get the job or not.  This course assumes you've already made it through the other courses and have accomplished enough in their completion to elevate you to competence.  If not, you've got to ruthlessly address your weak points (even if it's the tricky stuff like algorithms and data structures) in order to be qualified for the kinds of positions you're applying to.
@@ -9,8 +15,6 @@ Navigating this process can be a beast but don't let it distract you from buildi
 ### Craft a narrative
 
 You may be uncomfortable "selling yourself" but that's exactly what you'll have to do.  Luckily, that doesn't mean acting like a used car salesman; it's more subtle than you think.  It really means crafting a story about who you are, how you got to where you are, and why you'll keep growing.  Everyone can tell a story.  So put some effort into crafting a compelling narrative that stitches together your background (especially if you come from a non-traditional background) into a compelling and unavoidable wave of capability and drive.
-
-* [How to Explain Your Career Transition by Dorie Clark](https://hbr.org/2013/04/how-to-explain-your-career-tra)
 
 ### Build a portfolio
 
@@ -22,10 +26,6 @@ Speaking of group projects, participating in the open source community is a grea
 
 Your portfolio as a developer is GitHub.  You may have a personal website but GitHub is still the authoritative repository of your technical ability.  Ignore it at your peril.
 
-* [A Programmer's Portfolio by Jeff Atwood](https://blog.codinghorror.com/a-programmers-portfolio/)
-* [The Power of a Programming Portfolio by GrokCode](http://grokcode.com/58/the-power-of-a-programming-portfolio/)
-* [Your GitHub Portfolio by Forbes](http://www.forbes.com/sites/anthonykosner/2012/10/20/software-engineers-are-in-demand-and-github-is-how-you-find-them/)
-
 ### Clean up your web presence (and have one)
 
 Google yourself in an incognito window (to avoid Google's smart algorithm).  What comes up? Do the links fit into your personal narrative?  Whoever is looking to hire you will certainly Google you.  Make sure that what they find matches what you want them to find.  If you've got a ridiculously common name, you may have a harder time building your web presence but it's also harder to have the *wrong* web presence.
@@ -36,12 +36,7 @@ Next, try to be discoverable.  If we're trying to get in touch with you or find 
 
 Use LinkedIn if you're not allergic to it.  Again, this is about getting your personal narrative out there in the way YOU choose and not relying on Google to get it right.  LinkedIn is fast replacing the resume anyway.  
 
-Other sites, like Brand Yourself below, will describe a bit better how to take on your web presence, but just make sure your narrative is being told the way you want it to.
-
-* [Brand Yourself helps you... brand... yourself.  Basic services are free.](http://brandyourself.com)
-* [Control Your Online Reputation from Monster](https://web.archive.org/web/20201123201302/https://www.monster.com/career-advice/article/control-your-online-reputation)
-* [How Important Is It for a Programmer to Have an Online Presence? on Stack Exchange](http://programmers.stackexchange.com/questions/143673/how-important-is-it-for-a-programmer-to-have-an-online-presence)
-* [How to Build Your Digital Presence as a Software Developer](https://blog.pramp.com/how-to-build-your-digital-presence-as-a-software-developer-cb61c4c1aab)
+Other sites, like Brand Yourself, will describe a bit better how to take on your web presence, but just make sure your narrative is being told the way you want it to.
 
 ### Get out in the community and collect information
 
@@ -55,4 +50,38 @@ Another way to get this information is to check out a whole bunch of job posting
 
 Another facet of this is related to your web presence -- don't be afraid to produce content like blogging or answering questions on Quora.  They don't need to be explicitly technical, but should showcase your ability to think critically and write well.  Both of these play well with future employers.  
 
-* [How to Win Friends and Influence People](http://erudition.mohit.tripod.com/_Influence_People.pdf) is an essential classic that relates to business and networking but is applicable to all facets of the social world around you.  It's a must-read for everyone (and it's an easy read).
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. If you are changing careers, read about [How to Explain Your Career Transition by Dorie Clark](https://hbr.org/2013/04/how-to-explain-your-career-tra).
+
+1. Learn why GitHub is so important:  
+
+   - Read [**A Programmer's Portfolio**](https://blog.codinghorror.com/a-programmers-portfolio/), to understand how showing your actual code is more powerful than relying on a resume to prove your skills.  
+   - The article [**The Power of a Programming Portfolio**](http://grokcode.com/58/the-power-of-a-programming-portfolio/) describes how a portfolio can help you stand out.  
+   - According to [**Your GitHub Portfolio**](http://www.forbes.com/sites/anthonykosner/2012/10/20/software-engineers-are-in-demand-and-github-is-how-you-find-them/) from Forbes, GitHub is a central hiring tool that lets employers see your code.  
+
+1. Read articles on how to brand yourself:
+
+    - [Brand Yourself](http://brandyourself.com) helps you... brand... yourself.  Basic services are free.
+    - [Control Your Online Reputation from Monster](https://web.archive.org/web/20201123201302/https://www.monster.com/career-advice/article/control-your-online-reputation) is another good article.
+    - Read about [How Important Is It for a Programmer to Have an Online Presence? on Stack Exchange](http://programmers.stackexchange.com/questions/143673/how-important-is-it-for-a-programmer-to-have-an-online-presence).
+    - Learn [How to Build Your Digital Presence as a Software Developer](https://blog.pramp.com/how-to-build-your-digital-presence-as-a-software-developer-cb61c4c1aab).
+
+1. [How to Win Friends and Influence People](http://erudition.mohit.tripod.com/_Influence_People.pdf) is an essential classic that relates to business and networking but is applicable to all facets of the social world around you.  It's a must-read for everyone (and it's an easy read).
+
+</div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [Why is it important to build a portfolio of work as you prepare for your job search?](#build-a-portfolio)
+- [What steps can you take to improve your web presence before potential employers search for you online?](#clean-up-your-web-presence-and-have-one)
+
+### Additional resources
+
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
+
+- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
