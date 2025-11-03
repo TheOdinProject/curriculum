@@ -113,6 +113,9 @@ console.log(dog); // { species: "dog" }
    - `Sort users by age`
    - `Get average age`
    - `Create keyed object from array`
+1. More practice with objects (inside arrays!). Fork and clone Wes Bos' [JavaScript30 repository](https://github.com/wesbos/JavaScript30). To follow along with these two video exercises, you'll want to open the `index-START.html` file.
+    - [04 - Array Cardio Day 1](https://www.youtube.com/watch?v=HB1ZC7czKRs)
+    - [07 - Array Cardio Day 2](https://www.youtube.com/watch?v=QNmRfyNg1lw)
 1. Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises). Review each README file prior to completing the following exercises in order:
    - `12_calculator`
    - `13_palindromes`
