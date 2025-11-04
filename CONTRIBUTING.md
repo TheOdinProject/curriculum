@@ -110,7 +110,9 @@ Adding images to the curriculum is a two-step process, involving two PRs. For a 
 
 If you want to update the Ruby language version installed in the [Ruby Installation lesson](https://github.com/TheOdinProject/curriculum/blob/main/ruby/introduction/installing_ruby.md), there are a few additional changes that may need to happen:
 
-1. The Ruby version also needs to be bumped in two other places: the [custom_enumerable_project](https://github.com/TheOdinProject/custom_enumerable_project) and the [ruby_testing](https://github.com/TheOdinProject/ruby_testing) repos. To do this, you need to change the `.ruby-version` files in the root of those projects to use the version you're bumping to.
+1. Update the version number in the `.ruby-version` file in the following repos:
+   - [custom_enumerable_project](https://github.com/TheOdinProject/custom_enumerable_project)
+   - [ruby_testing](https://github.com/TheOdinProject/ruby_testing)
 1. Ruby uses [semver](https://en.wikipedia.org/wiki/Software_versioning#Semantic_versioning) for its versioning, where the first digit is a 'major' version, the second digit is a 'minor' version, and the third digit is a 'patch' version. If you're updating the installation to a Ruby version that bumps the major or minor digits, then the documentation links throughout the Ruby course will need to be updated. They use a URL like `https://docs.ruby-lang.org/en/x.y` where `x` and `y` digits denote the major and minor versions respectively. You'll need to find all the existing documentation links and replace them to reference the new version. You can do this through using your editor's global find and replace utility or through the command line. An example command that would update the docs from 3.3 to 3.4 if run from the curriculum root:
    ```sh
    find . -type f -exec sed -i 's+docs.ruby-lang.org/en/3.3+docs.ruby-lang.org/en/3.4+g' {} +
