@@ -57,20 +57,17 @@ Please make sure that you are using the latest *LTS* version of Node, otherwise 
 npm create vite@latest my-first-react-app -- --template react
 ```
 
-If you see the following output, enter `y` and then press <kbd>enter</kbd>:
+You will be asked if you want to `Use rolldown-vite (Experimental)?` and to `Install with npm and start now?`.
+You can confirm the default choice for both options, by pressing <kbd>enter</kbd> for each of those questions.
+
+Once the command has executed, it should output the following:
 
 ```bash
-Need to install the following packages:
-  create-vite@5.X.X
-Ok to proceed? (y)
-```
+VITE v7.1.12  ready in 257 ms
 
-Once the command has executed, it should output the next steps for you to follow:
-
-```bash
-cd my-first-react-app
-npm install
-npm run dev
+➜  Local:   http://localhost:5173/
+➜  Network: use --host to expose
+➜  press h + enter to show help
 ```
 
 Provided everything has gone according to plan, head over to `localhost:5173`, where you'll be greeted with the following page:
