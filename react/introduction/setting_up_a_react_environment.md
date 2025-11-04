@@ -63,8 +63,6 @@ You can confirm the default choice for both options, by pressing <kbd>enter</kbd
 Once the command has executed, it should output the following:
 
 ```bash
-VITE v7.1.12  ready in 257 ms
-
 ➜  Local:   http://localhost:5173/
 ➜  Network: use --host to expose
 ➜  press h + enter to show help
