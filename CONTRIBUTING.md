@@ -106,7 +106,7 @@ Adding images to the curriculum is a two-step process, involving two PRs. For a 
 1. Use each of these links to link to your desired images in the curriculum content you’re editing/adding.
 1. PR the addition of the image links (and any other content you’ve added/changed in the lesson).
 
-### Updating Ruby Version
+## Updating Ruby Version
 
 If you want to update the Ruby language version installed in the [Ruby Installation lesson](https://github.com/TheOdinProject/curriculum/blob/main/ruby/introduction/installing_ruby.md), there are a few additional changes that may need to happen:
 1. The Ruby version also needs to be bumped in two other places: the [custom_enumerable_project](https://github.com/TheOdinProject/custom_enumerable_project) and the [ruby_testing](https://github.com/TheOdinProject/ruby_testing) repos. To do this, you need to change the `.ruby-version` files in the root of those projects to use the version you're bumping to.
