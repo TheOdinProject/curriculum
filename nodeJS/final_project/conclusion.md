@@ -28,12 +28,6 @@ As you start working on more public-facing applications, security will become mo
 
 Caching makes your application faster by reducing database calls. You may want to introduce yourself to [Redis](https://redis.io/) if you see it in a lot of job postings in your area or resources you encounter on caching.
 
-#### DevOps
-
-Sometimes, having a little exposure to DevOps can help set you apart as a robust developer. There are various platforms out there you can start to learn from, Azure to Amazon Web Services, Heroku to Digital Ocean. While some of these offer free services, many of their services are unfortunately paid. That being said, this doesn't prevent you from reading documentation or leveraging their free services to start getting some exposure. [Heroku](https://devcenter.heroku.com/categories/reference#deployment) has extensive resources for you to dive into. Another popular provider, Digital Ocean, offers competing [Droplets](https://docs.digitalocean.com/products/droplets/getting-started/quickstart/) and their new [App Platform](https://www.digitalocean.com/docs/app-platform/) services.
-
-A platform we highly encourage you to begin looking into either way is [Amazon Web Services](https://aws.amazon.com/). This is a platform you will likely see on job postings and on the job itself, and can be an invaluable skill to have in your arsenal.
-
 #### Non-relational data
 
 Now that you have exposure to relational databases with PostgreSQL, you might be considering what other types of databases exist; namely non-relational databases. Understanding both types of databases and when to use them can set you up for success down the road. After all, not every problem requires a hammer. MongoDB is a popular choice for non-relational databases. Resources like the [Learn MongoDB website](https://learn.mongodb.com) offer tutorials and documentation to get you started.
