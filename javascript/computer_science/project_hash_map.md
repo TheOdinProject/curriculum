@@ -45,6 +45,8 @@ if (index < 0 || index >= buckets.length) {
 
       <div class="lesson-note lesson-note--tip" markdown="1">
 
+      #### Limiting key types to strings
+
       In the real world, hash maps can accommodate various data types as keys, including numbers, strings, or objects. However, for this project, we will only handle keys of type `string`.
 
       </div>
