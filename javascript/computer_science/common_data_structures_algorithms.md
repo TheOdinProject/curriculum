@@ -14,13 +14,10 @@ Luckily for you, these complex algorithmic problems have all been solved many ti
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is a data structure?
-- What are stacks and queues?
-- What's the best way to implement stacks and queues in JavaScript?
-- Why bother having many different search algorithms?
-- What are breadth-first-search (BFS) and depth-first-search (DFS)?
-- What situations would you want to use BFS?
-- What situations would you want to use DFS instead?
+- Get an introduction to data structures.
+- Learn about stack and queues.
+- Find out why you should learn algorithms.
+- Explore different search algorithms.
 
 ### Assignment
 
@@ -29,7 +26,7 @@ This section contains a general overview of topics that you will learn in this l
   1. Glance over the [Wikipedia entry on Data Structures](http://en.wikipedia.org/wiki/Data_structure) for a high level overview of things.
   1. Watch the first 10 minutes of [Why Study Algorithms](https://www.youtube.com/watch?v=u2TwK3fED8A). The rest is more mathematical if you're interested.
   1. Read [What is an Algorithm and How Does it Make You a Better Programmer](https://web.archive.org/web/20231223233808/http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/) for another basic look at what algorithms are.
-  1. Learn about [how binary search works](https://www.youtube.com/watch?v=T98PIp4omUA) from Harvard’s CS50 on YouTube.
+  1. Learn about [how binary search works](https://www.youtube.com/watch?v=DSffdCT5Cx4) from Harvard’s CS50 on YouTube.
   1. Now, we're going to focus on learning about binary search trees.  Start by watching this video to learn [how a binary search tree is constructed from an unordered array](https://www.youtube.com/watch?v=FvdPo8PBQtc).
   1. Next, learn about the [principles of queues and stacks](https://www.youtube.com/watch?v=6QS_Cup1YoI), which are concepts used in breadth-first search and depth-first search respectively.
   1. Finally, learn about breadth-first search and depth-first search of binary search trees from this series of videos on YouTube:

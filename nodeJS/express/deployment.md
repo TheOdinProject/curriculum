@@ -30,7 +30,7 @@ Dynamic websites, on the other hand, are websites that can change content based 
 
 This additional tech prohibits us from using GitHub Pages for hosting our Node apps. GitHub pages cannot run Node.js applications and doesn't have database services we can use. Similarly, host providers like Netlify and Vercel, which you may have used back in the React course, do not have the same capabilities to run our Node.js servers and databases. They're not the right tools for our back ends.
 
-Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/) and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Railway](https://railway.app/), and [Render](https://render.com/). We will be focusing on and utilizing these latter providers in this lesson.
+Luckily, many hosting providers do offer everything we need. They range from the big and complex cloud providers like [AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/), and [Microsoft Azure](https://azure.microsoft.com/) to the more beginner-friendly platform as a service (PaaS) providers like [Railway](https://railway.app/) and [Render](https://render.com/). We will be focusing on and utilizing these latter providers in this lesson.
 
 ### What is a PaaS?
 
@@ -54,6 +54,8 @@ For most of your apps, one instance is plenty enough. You can support a lot of t
 
 <div class="lesson-note" markdown="1">
 
+#### Server instance and database instance
+
 Learners can keep their server instance and database instance on one PaaS or use separate PaaSes if necessary. When you deal with paid plans, it might even reduce hosting costs!
 
 </div>
@@ -68,7 +70,7 @@ The peace of mind this affords you can't be overstated. You never want to be in 
 
 Many PaaS services come with SQL databases included.
 
-Either choice isn't too difficult to setup, but it's always nice to have a fallback option! For now, we encourage you to try and figure out how to deploy your mini-message board project with just what you learn in this lesson.
+For now, we encourage you to try and figure out how to deploy your mini-message board project with just what you learn in this lesson.
 
 #### Domain names
 
@@ -107,7 +109,7 @@ Can deploy both servers and databases.
 ##### Railway.app: Free Plan
 
 - You get a free one-time grant of $5 on their free trial, and the applications are never put to sleep when inactive.
-- However, the longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
+- After 30 days has passed or you have used up $5 grant, Railway rolls you back to their limited trial, which you can only deploy database.
 
 ##### Railway.app: Links
 
@@ -172,7 +174,8 @@ Can deploy databases only.
 
 ##### Neon: Free Plan
 
-- 0.5 GiB of storage
+- 10 projects
+- 0.5 GiB of storage per project
 - 24/7 for your main compute
 - No credit card required
 
@@ -181,6 +184,38 @@ Can deploy databases only.
 - [Neon homepage](https://neon.tech/)
 - [Neon documentation](https://neon.tech/docs/introduction)
 - [Guide: Connect a Node.js application to Neon](https://neon.tech/docs/guides/node)
+
+---
+
+#### Aiven
+
+Can deploy databases only.
+
+- 24/7 for all database services.
+- High availability and automatic backups.
+- Point-in-time recovery (varies by service).
+- No credit card required.
+
+##### Aiven: Free Plan
+
+- 5 GiB of storage.
+- 24/7 for all database services.
+- One free database for every services including PostgreSQL, MySQL and Redis.
+- No credit card required.
+
+##### Aiven: Links
+
+- [Aiven homepage](https://aiven.io/)
+- [Aiven documentation](https://aiven.io/docs/get-started)
+- [Guide: Connect a Node.js application to Aiven](https://aiven.io/docs/products/postgresql/howto/connect-node)
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Keep your secrets safe!
+
+This guide provides a sample for configuring a database connection. Please do not store credentials directly in your code. Refer to the [Environment Variables](https://www.theodinproject.com/lessons/nodejs-environment-variables) section for best practices.
+
+</div>
 
 ---
 
@@ -255,4 +290,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [free-for.dev](https://free-for.dev/). This is a huge repository for list of software such as SaaS, PaaS, IaaS, etc. and other offerings with free developer tiers.

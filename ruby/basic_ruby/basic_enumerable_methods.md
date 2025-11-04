@@ -4,9 +4,9 @@ In previous lessons, you learned about loops as well as arrays and hashes. You w
 
 **Enumerables** are a set of convenient built-in methods in Ruby that are included as part of both arrays and hashes. There are some iteration patterns that you'll find yourself doing again and again, such as transforming, searching for, and selecting subsets of elements in your collections. Enumerables were designed to make implementing these iteration patterns (and therefore your life as a developer) much, much easier.
 
-We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://docs.ruby-lang.org/en/3.3/) to see what else the [Enumerable module](https://docs.ruby-lang.org/en/3.3/Enumerable.html) offers.
+We will run through the enumerable methods that you will most commonly use and see out in the wild. This is certainly not an exhaustive list, so be sure to have a look at the [Ruby docs](https://docs.ruby-lang.org/en/3.4/) to see what else the [Enumerable module](https://docs.ruby-lang.org/en/3.4/Enumerable.html) offers.
 
-For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
+For all of the examples throughout this lesson, feel free to follow along in irb or any appropriate online REPL environment to get a better feel for how they work.
 
 ### Lesson overview
 
@@ -200,7 +200,7 @@ friends.map { |friend| friend.upcase }
 
 We're back down to two lines of code, baby! Isn't it beautiful?
 
-Maybe now you're getting hungry from all this intense learning and you want to change your McDonald's order from medium to extra large. With `#map` and [`#gsub`](https://docs.ruby-lang.org/en/3.3/String.html#method-i-gsub), that's easy peasy:
+Maybe now you're getting hungry from all this intense learning and you want to change your McDonald's order from medium to extra large. With `#map` and [`#gsub`](https://docs.ruby-lang.org/en/3.4/String.html#method-i-gsub), that's easy peasy:
 
 ```ruby
 my_order = ['medium Big Mac', 'medium fries', 'medium milkshake']
@@ -456,4 +456,4 @@ This section contains helpful links to related content. It isn't required, so co
 
 - The Bastards Book of Ruby has a good section on [Enumerables](http://ruby.bastardsbook.com/chapters/enumerables/).
 - This tutorial on codementor is another good discussion of [the versatility of enumerable methods](https://www.codementor.io/ruby-on-rails/tutorial/rubys-swiss-army-knife-the-enumerable-module).
-- There are many more enumerable methods than are covered in this lesson (e.g., `#reject`, `#drop`, `#uniq`). For a full listing, you can check out the [Ruby Docs](https://docs.ruby-lang.org/en/3.3/Enumerable.html).
+- There are many more enumerable methods than are covered in this lesson (e.g., `#reject`, `#drop`, `#uniq`). For a full listing, you can check out the [Ruby Docs](https://docs.ruby-lang.org/en/3.4/Enumerable.html).

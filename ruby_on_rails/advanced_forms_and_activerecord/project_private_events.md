@@ -37,7 +37,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 1. Set up [devise](https://github.com/heartcombo/devise) to handle authentication and create your User model. Set the `root_path` to be the Event's Index page.
 1. Add the association between the event creator (a User) and the event. Call this user the "creator". Add the foreign key to the Event model as necessary. You'll need to specify your association properties carefully (e.g. `:foreign_key`, `:class_name`).
 1. Have the User's Show page list all the events a user has created.
-1. Update the EventsController and corresponding routes to allow you to create a new event. The `#create` action should use the `#build` association reference method to create the new event with the user's ID prepopulated. Find the right `#build` [association reference method](https://guides.rubyonrails.org/association_basics.html#detailed-association-reference) for the type of association you set up between your models. You could use Event's `::new` method and manually enter the ID but... don't.
+1. Update the EventsController and corresponding routes to allow you to create a new event. The `#create` action should use the `#build` association reference method to create the new event with the user's ID prepopulated. Find the right `#build` [association reference method](https://guides.rubyonrails.org/v7.1/association_basics.html#detailed-association-reference) for the type of association you set up between your models. You could use Event's `::new` method and manually enter the ID but... don't.
 1. Make the form for creating an event.
 1. Have the Event's Show page display the details of the event.
 
@@ -55,9 +55,10 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 1. Separate the past and upcoming events on the Event's Index page by creating two class methods on the Event model (e.g. `Event.past`).
 1. Refactor the past and upcoming class methods into [scopes](https://guides.rubyonrails.org/active_record_querying.html#scopes).
 1. Put navigation links across the top to help you jump around.
+1. Make each event private and add the functionality for the event creator to invite specific users to an event.
 1. Extra Credit: Allow users to edit and delete the events they created.
 1. Extra Credit: Allow users to remove themselves as an attendee to their "attended_events".
-1. Extra Credit: Make each event private and add the functionality for the event creator to invite specific users to an event.
+1. Extra Credit: Allow creators to toggle events' visibility between public and private.
 
 </div>
 

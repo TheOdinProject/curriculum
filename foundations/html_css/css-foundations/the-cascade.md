@@ -106,7 +106,7 @@ While the `color: red` declaration would take precedence, the `background-color:
 
 <div class="lesson-note" markdown="1">
 
-##### Not everything adds to specificity
+#### Not everything adds to specificity
 
 When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
 
@@ -156,7 +156,7 @@ In this example, rule 2 would have higher specificity and the `orange` value wou
 
 #### Inheritance
 
-Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't.
+Inheritance refers to certain CSS properties that, when applied to an element, are inherited by that element's descendants, even if we don't explicitly write a rule for those descendants. Typography-based properties (`color`, `font-size`, `font-family`, etc.) are usually inherited, while most other properties aren't. You can find out if a property is inherited or not by going to its docs on MDN and heading to the **Formal Definition** section. For example, the [CSS `color` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition) indicates that `color` is an inherited property, while the [`display` property formal definition](https://developer.mozilla.org/en-US/docs/Web/CSS/display#formal_definition) indicates that `display` is not.
 
 The exception to this is when directly targeting an element, as this always beats inheritance:
 
@@ -211,10 +211,6 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
-1. Remember the Recipe page you created as practice from the HTML Foundations section? Well, it's rather *plain* looking, isn't it? Let's fix that by adding some CSS to it!
-   - How you actually style it is completely open, but you should use the external CSS method (for this practice and moving forward). You should also try to use several of the properties mentioned in the previous lesson (color, background color, typography properties, etc). Take some time to play around with the various properties to get a feel for what they do. For now, don't worry at all about making it look *good*. This is just to practice and get used to writing CSS, not to make something to show off on your resume.
-   - We haven't covered how to use a custom font for the `font-family` property yet, so for now take a look at [CSS Fonts](https://www.w3schools.com/Css/css_font.asp) for a list of generic font families to use, and [CSS Web Safe Fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp) for a list of fonts that are web safe. Web safe means that these are fonts that are installed on basically every computer or device (but be sure to still include a generic font family as a fallback).
-
 </div>
 
 ### Knowledge check
@@ -230,5 +226,4 @@ This section contains helpful links to related content. It isn't required, so co
 - [The CSS Cascade](https://2019.wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied.
 - [CSS Specificity Explained](https://www.youtube.com/watch?v=c0kfcP_nD9E) from Kevin Powell goes through various specificity examples and gives some advice on avoiding wrestling with specificity.
 - [CSS Specificity Calculator](https://specificity.keegan.st/) allows you to fill in your own selectors and have their specificity calculated and visualized.
-- [Mozilla CSS Properties Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) can be used to learn if a particular CSS property is inherited or not; look for the **Inherited** field inside the **Formal Definition** section. Here's an example for [the CSS `color` property](https://developer.mozilla.org/en-US/docs/Web/CSS/color#formal_definition).
 - [Interactive Scrim on the CSS Cascade.](https://v1.scrimba.com/scrim/c9gwmnAR)

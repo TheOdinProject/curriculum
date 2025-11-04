@@ -68,7 +68,7 @@ function handleClick() {
 }
 ```
 
-Similarly to the `set` function in `useState`, React *only updates the state in the next render* after calling the `dispatch` function.
+Similarly to how React updates state with the `set` function in `useState`, React *only updates the state in the next render* after calling the `dispatch` function.
 Keep in mind that these functions use [`Object.is()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is) to determine if the state has changed, if it hasn't, then the component won't re-render.
 
 Whether you use `useState` or `useReducer` is up to you, they're both equivalent and you might use them both in the same component.
@@ -96,4 +96,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Web Dev Simplified's [Learn useReducer In 20 Minutes](https://www.youtube.com/watch?v=kK_Wqx3RnHk) video explains the `useReducer` hook with an excellent example.

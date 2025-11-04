@@ -10,12 +10,12 @@ It is **very important** to take a look at all of this before progressing any fu
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- History-changing Git commands
-- Different ways of changing history
-- Using remotes to change history
-- Dangers of history-changing operations
-- Best practices of history-changing operations
-- Pointers
+- History-changing Git commands.
+- Different ways of changing history.
+- Using remotes to change history.
+- Dangers of history-changing operations.
+- Best practices of history-changing operations.
+- Pointers.
 
 ### Changing history
 
@@ -142,8 +142,15 @@ You might be feeling overwhelmed at this point, so let's recap what we've learne
 <div class="lesson-content__panel" markdown="1">
 
 1. Read the chapter on [Rebasing covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
-
 1. Read the chapter on [Reset covered by git-scm](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Reminder: Default Git Branch Name Change
+
+In modern Git setups, the default branch is typically called `main` instead of `master`.
+
+</div>
 
 </div>
 
@@ -151,9 +158,9 @@ You might be feeling overwhelmed at this point, so let's recap what we've learne
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Explain what it means for branches to be pointers.](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
-- [How can you amend your last commit?](https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
-- [What are some different ways to rewrite history?](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
+- [How can you amend your last commit?](#changing-the-last-commit)
+- [What are some different ways to rewrite history?](#changing-multiple-commits)
+- [What does it mean for branches to be pointers?](#branches-are-pointers)
 
 ### Additional resources
 

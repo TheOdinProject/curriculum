@@ -86,7 +86,7 @@ The `body()` function allows you to specify which fields in the request body sho
 ];
 ```
 
-This example marks `birthdate` field as optional, but still enforces the ISO8601 date format on inputs. This is because `{ values: "falsy" }` means values that aren't `undefined`, `null`, `false`, or `0` will still be validated.
+This example marks `birthdate` field as optional, but still enforces the ISO8601 date format on inputs. This is because `{ values: "falsy" }` means values that aren't `undefined`, `null`, `false`, `0` or empty strings `""` will still be validated.
 
 ### Chaining validations
 
@@ -111,7 +111,7 @@ While this might work for outputs we know won't have special characters, like na
 
 ```ejs
 <div>
-  About Me: <%- description %>
+  About Me: <%- description %>!
 </div>
 
 // The client then inputs the following as their page's About Me:
@@ -210,14 +210,21 @@ Create folders for `routes`, `views`, `controllers`, `storages`, and an `app.js`
 // app.js
 const express = require("express");
 const app = express();
+const path = require("node:path");
 const usersRouter = require("./routes/usersRouter");
 
+app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
 app.use("/", usersRouter);
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Express app listening on port ${PORT}!`));
+app.listen(PORT, (error) => {
+  if (error) {
+    throw error;
+  }
+  console.log(`Express app listening on port ${PORT}!`);
+});
 ```
 
 Most simple forms will use the `Content-Type: application/x-www-form-urlencoded` HTTP header when sending data to the server. Express, however, can't natively parse that data. We can use the `express.urlencoded()` middleware to handle this for us and automatically set form's data to the `req.body` field. When `extended` is `false`,  our server will only accept a `string` or an array of data, so we set it to `true` for some added flexibility. Note that if the `Content-Type` doesn't match `application/x-www-form-urlencoded`, then your server will show the data as an empty object `{}`.
@@ -358,7 +365,7 @@ Let's add a few methods to our `usersController.js` for validating and sanitizin
 
 ```javascript
 // This just shows the new stuff we're adding to the existing contents
-const { body, validationResult } = require("express-validator");
+const { body, validationResult, matchedData } = require("express-validator");
 
 const alphaErr = "must only contain letters.";
 const lengthErr = "must be between 1 and 10 characters.";
@@ -383,14 +390,16 @@ exports.usersCreatePost = [
         errors: errors.array(),
       });
     }
-    const { firstName, lastName } = req.body;
+    const { firstName, lastName } = matchedData(req);
     usersStorage.addUser({ firstName, lastName });
     res.redirect("/");
   }
 ];
 ```
 
-And we need to update our `createUser.ejs` view to render these errors. Let's create a new partial. Inside the `views` folder, create a new folder called `partials` and inside it, create `errors.ejs`:
+We retrieve all validated data via the [`matchedData()`](https://express-validator.github.io/docs/api/matched-data) function to ensure all the data we get will include any sanitization done (such as trimmed data).
+
+And now, we need to update our `createUser.ejs` view to render these errors. Let's create a new partial. Inside the `views` folder, create a new folder called `partials` and inside it, create `errors.ejs`:
 
 ```ejs
 <!-- views/partials/errors.ejs -->
@@ -472,7 +481,7 @@ exports.usersUpdatePost = [
         errors: errors.array(),
       });
     }
-    const { firstName, lastName } = req.body;
+    const { firstName, lastName } = matchedData(req);
     usersStorage.updateUser(req.params.id, { firstName, lastName });
     res.redirect("/");
   }
@@ -521,7 +530,7 @@ We could go much deeper into working safely with forms, but we'll stop there. By
 
 To give you an overview of what this entire flow looks like visually, here's an example courtesy of MDN:
 
-![A diagram showing an outline of how a form interacts with a server using GET and POST requests.](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms/web_server_form_handling.png)
+![A diagram showing an outline of how a form interacts with a server using GET and POST requests.](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/web_server_form_handling.png)
 
 ### Assignment
 
@@ -565,7 +574,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you validate and sanitize form input using express-validator?](#understanding-the-body-function)
 - [What is the difference between validation and sanitization?](#validation-and-sanitization)
 - [How do you handle validation errors in Express routes?](#validation-results)
-- [What is the importance of escaping HTML characters in a form?](https://owasp.org/www-community/attacks/SQL_Injection)
+- [What is the importance of escaping HTML characters in a form?](#escaping-user-input)
 
 ### Additional resources
 

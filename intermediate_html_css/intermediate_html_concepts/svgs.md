@@ -103,3 +103,5 @@ This section contains helpful links to related content. It isn't required, so co
 - There are lots of great free SVG icon libraries, such as [Material icons](https://fonts.google.com/icons) and [Feather icons](https://feathericons.com/).
 
 - If you want to get started making your own or editing SVGs, you'll want some sort of visual editor like [Yann Armelin's SVG path editor](https://yqnn.github.io/svg-path-editor). It's great for tinkering around with simpler SVGs but not designed for complex graphics.
+
+- Josh Comeau's [A Friendly Introduction to SVG](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/) is a beginner-friendly guide with interactive demos covering shapes, scaling, and animations with SVGs.

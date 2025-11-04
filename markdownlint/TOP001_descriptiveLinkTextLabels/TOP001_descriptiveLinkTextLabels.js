@@ -1,6 +1,30 @@
+const BLACKLISTED_LINK_TEXT = [
+  "video",
+  "videos",
+  "a video",
+  "playlist",
+  "a playlist",
+  "article",
+  "articles",
+  "an article",
+  "doc",
+  "docs",
+  "the docs",
+  "their docs",
+  "documentation",
+  "the documentation",
+  "their documentation",
+  "resource",
+  "library",
+  "page",
+  "homepage",
+  "the homepage",
+  "their homepage",
+];
+
 module.exports = {
-  names: ["TOP001", "descriptive-link-text"],
-  description: "Links have descriptive text labels",
+  names: ["TOP001", "descriptive-link-text-labels"],
+  description: "Links must have descriptive text labels",
   tags: ["accessibility", "links"],
   parser: "markdownit",
   information: new URL(
@@ -18,27 +42,26 @@ module.exports = {
       .map((linkToken) => childrenOfTokensWithLinks.indexOf(linkToken));
 
     linkOpenTokenIndices.forEach((linkOpenIndex) => {
-      const tokensAfterLinkOpen =
-        childrenOfTokensWithLinks.slice(linkOpenIndex);
+      const tokensAfterLinkOpen = childrenOfTokensWithLinks.slice(linkOpenIndex);
       const linkContentTokens = tokensAfterLinkOpen.slice(
         1,
         tokensAfterLinkOpen.findIndex((token) => token.type === "link_close")
       );
       const linkContentString = linkContentTokens
-        .map((token) =>
-          token.type === "code_inline" ? `\`${token.content}\`` : token.content
-        )
+        .map((token) => (token.type === "code_inline" ? `\`${token.content}\`` : token.content))
         .join("");
 
       // https://regexr.com/7sdtj to test the following regex against the link text itself
-      const isInvalid = /.*?(?<!(\w|`))(this|here)(?!(\w|`)).*?/i.test(
-        linkContentString
-      );
-      if (isInvalid) {
+      const containsThisOrHere = /.*?(?<!(\w|`))(this|here)(?!(\w|`)).*?/i.test(linkContentString);
+      const isBlacklistedLinkText = BLACKLISTED_LINK_TEXT.includes(linkContentString.toLowerCase());
+
+      if (containsThisOrHere || isBlacklistedLinkText) {
         const linkUrl = tokensAfterLinkOpen[0].attrs[0][1];
         onError({
           lineNumber: tokensAfterLinkOpen[0].lineNumber,
-					detail: `Expected text to not include the words "this" or "here". Use a more descriptive text that clearly conveys the purpose or content of the link.`,
+          detail: containsThisOrHere
+            ? `Expected text to not include the words "this" or "here". Use a more descriptive text that clearly conveys the purpose or content of the link.`
+            : `"${linkContentString}" is not sufficiently descriptive by itself. Use a more descriptive label that clearly conveys the purpose or content of the link.`,
           context: `[${linkContentString}](${linkUrl})`,
         });
       }

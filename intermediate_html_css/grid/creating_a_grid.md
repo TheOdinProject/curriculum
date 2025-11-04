@@ -31,7 +31,7 @@ We can think about CSS Grid in terms of a container and items. When you make an 
 
 In this example, the parent element marked `class="container"` becomes a grid container and each of the direct child elements below it automatically become grid items. What’s easy about CSS Grid is that you don’t have to assign each child element a property.
 
-Note that only the direct child elements will become grid items here. If we had another element as a child under one of *these* child elements it would not be a grid item. In the example below, the paragraph element is not a grid item:
+Note that only the direct child elements will become grid items here. If we had another element as a child under one of *these* child elements, it would not be a grid item. In the example below, the paragraph element is not a grid item:
 
 ```html
 <!-- index.html -->
@@ -213,4 +213,4 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - The [MDN Basic Concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) reviews many of the basics and introduces some additional concepts.
-- Watch this short video on [grid terminology](https://www.youtube.com/watch?v=0m5qgfX2TVQ&ab_channel=PeterSommerhoff) from PeterSommerhoff.
+- Watch this short video on [grid terminology](https://www.youtube.com/watch?v=0m5qgfX2TVQ&ab_channel=PeterSommerhoff) from Peter Sommerhoff.

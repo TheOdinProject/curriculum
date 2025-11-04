@@ -61,7 +61,7 @@ const greeting = (() => {
 })();
 ```
 
-Now, the global variable `greeting` will contain `"Hello, Odinite!"` and so our code from `two.js` successfully logs this to the console. However, our private `farewellString` variable is not global, so that cannot be accessed anywhere in `two.js`. Through this, we are able to choose what to expose from one file to be made available to all files that follow it! This is why IIFEs were often called the "module pattern", because they allowed us to write modular code across multiple files before we were given "real modules".
+Now, the global variable `greeting` will contain `"Hello, Odinite!"` and so our code from `two.js` successfully logs this to the console. However, both `greetingString` and `farewellString` are local to the IIFE and not global. The difference is that `greetingString` is explicitly returned from the IIFE and assigned to `greeting`, making it accessible outside the function, while `farewellString` is not returned, so it remains completely inaccessible in `two.js`. Through this, we are able to choose what to expose from one file to be made available to all files that follow it! This is why IIFEs were often called the "module pattern", because they allowed us to write modular code across multiple files before we were given "real modules".
 
 But now, with ESM, we no longer need to use IIFEs for this specific purpose.
 
@@ -81,7 +81,7 @@ When using ESM, each module has its own private scope, where we use import/expor
 
 How do we actually import and export? In true JavaScript fashion, we don't have just one but two types of importing and exporting: `default` and `named`, and they essentially do the same kind of thing but very slightly differently. They can even be mixed and matched in the same file.
 
-For now, we'll just show you the different import/export syntaxes. Afterwards, we'll show you how to link scripts as ES6 modules, as it's not quite the same as before.
+Firstly, we'll just show you the different import/export syntaxes but the code won't work yet, as you'll also need to link the scripts as ES6 modules. We will cover that after this section.
 
 #### Named exports
 

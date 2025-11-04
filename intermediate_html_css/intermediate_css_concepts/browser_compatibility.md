@@ -1,6 +1,6 @@
 ### Introduction
 
-As you continue your web development journey, it is important to keep in mind that the end users of your work might be using a variety of browsers: Chrome, Internet Explorer, Firefox, and Safari to name a few. At the same time, the number of users using mobile operating systems is growing rapidly, therefore you should also consider mobile versions of different browsers.
+As you continue your web development journey, it is important to keep in mind that the end users of your work might be using a variety of browsers: Chrome, Microsoft Edge, Firefox, and Safari to name a few. At the same time, the number of users using mobile operating systems is growing rapidly, therefore you should also consider mobile versions of different browsers.
 
 ### Lesson overview
 
@@ -30,7 +30,7 @@ As companies compete for market share, different browsers are using different en
 
 Because of these differences, your applications may behave differently in the browser. Due to Chrome dominance, the vast majority of applications are designed to work smoothly with Chromium, and providing as good a level of performance in other browsers is secondary.
 
-For your web development projects to have a broader reach, you must make sure that you're testing your web applications against browsers which are most likely to be used by users. Chrome, Safari, Firefox, and other Chromium-based browsers (Microsoft Edge, Brave, etc.) are more common among regular users. But you may find you need to support less common ones (like Internet Explorer) as well depending on the user base or the company you work for. For Chromium browsers, if it works in Chrome, it should work in other related browsers as well.
+For your web development projects to have a broader reach, you must make sure that you're testing your web applications against browsers which are most likely to be used by users. Chrome, Safari, Firefox, and other Chromium-based browsers (Microsoft Edge, Brave, etc.) are more common among regular users. But you may find you need to support less common ones as well depending on the user base or the company you work for. For Chromium browsers, if it works in Chrome, it should work in other related browsers as well.
 
 ### Browser releases and new CSS features
 
@@ -82,4 +82,4 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - Read more about the [history of web browsers](https://taskade.medium.com/history-of-web-browsers-the-evolution-of-digital-productivity-️-28fa2d4130fb).
-- Take a look at this [comprehensive primer on browsers and rendering engines](https://web.dev/articles/howbrowserswork).
+- Take a look at ["How Web Works"](https://github.com/vasanthk/how-web-works/blob/master/README.md).

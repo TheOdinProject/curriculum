@@ -33,9 +33,15 @@ This section contains a general overview of topics that you will learn in this l
 
 ### OS installation
 
-#### IMPORTANT
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device. You only need to follow one of these sets of instructions or none of them if you are already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://wiki.ubuntu.com/UbuntuFlavors) as your operating system.
+#### Unsupported hardware and software
+
+This curriculum only supports using a laptop, desktop or supported Chromebook. We cannot help you set up a developer environment on a RaspberryPi or any other device. You only need to follow one of these sets of instructions if you are **not** already using **MacOS**, **Ubuntu**, or [an official flavor of Ubuntu](https://ubuntu.com/desktop/flavours) as your operating system.
+
+If you are already using supported hardware and software, you can skip straight to Google Chrome installation below.
+
+</div>
 
 Pick your method of installation below:
 
@@ -51,9 +57,13 @@ Installing a Virtual Machine (VM) is the easiest and most reliable way to get st
 
 Installing a VM is a straightforward process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and easy to use. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
 
-#### IMPORTANT
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Use only your VM for The Odin Project
 
 Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** ![The blue-white rodent Whisker Menu Icon](https://cdn.statically.io/gh/TheOdinProject/curriculum/96d534641514fe4d62aabe2919fac3c52cb286e7/foundations/installations/installations/imgs/00_whisker_icon.png){: .inline-img} on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
+
+</div>
 
 #### Step 1.1: Download VirtualBox
 
@@ -106,9 +116,11 @@ You want to tick the **Guest Additions** and **Install in Background** options a
 
 In the **Hardware** section of the installation you want to set your **Base Memory** to at least 2048 MB or more if possible - the upper limit is half of your total RAM but 4096 MB with the settings we recommend should give you a smooth experience.
 
-> For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. You can google how to find out how much RAM you have available if you do not know this already. If the VM runs a bit slow, try allocating more memory!
+> For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM’s operating system. You can Google how to find out how much RAM you have available if you do not know this already. If the VM runs a bit slow, try allocating more memory!
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Converting gigabytes to megabytes
 
 Difficulty converting your Gigabytes (GB) into Megabytes (MB)? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**
 
@@ -178,11 +190,11 @@ Now that you have access to `sudo`, we can use this to update our Xubuntu throug
 
 #### A note on typing passwords in the terminal
 
-When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+When using a command in the terminal that requires you to enter your password for authentication (such as `sudo`), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
 
 This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
-You can still enter your password as normal and press Enter to submit it.
+You can still enter your password as normal and press <kbd>Enter</kbd> to submit it.
 
 </div>
 
@@ -321,7 +333,7 @@ Once you have successfully met both of these requirements, you should be able to
 
 <summary class="dropDown-header">WSL2 (Advanced)</summary>
 
-Using WSL2 is an quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
+Using WSL2 is a quick and easy way to get started with using Linux, allowing you to run a Linux distribution from within Windows. WSL2 is available on Windows 10 version 2004 and higher (Build 19041 and higher) and Windows 11.
 
 To make it clear: you are going to be using a different OS, this is not a way to avoid using Linux. Due to how WSL2 is integrated with Windows it often causes significant confusion to new learners. Use the Virtual Machine if you want a clear separation between your Windows and Linux so the curriculum is easier to follow.
 
@@ -374,11 +386,15 @@ On Windows there are three primary ways to open WSL2.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Terminal color scheme
+
 You might notice when you open WSL2 via Windows Terminal, you'll see a window with a different color scheme and a different icon compared to opening a terminal through Ubuntu in your applications. This is because Windows Terminal comes with a default color scheme for Ubuntu meant to emulate how a real Ubuntu terminal looks. This difference is purely cosmetic, and there is no practical difference between the two.
 
 </div>
 
 <div class="lesson-note lesson-note--warning" markdown="1">
+
+#### /mnt/c is not Linux!
 
 When opening your WSL2 terminal ensure that you do not see `/mnt/c` at the start of the line. `/mnt/c` is where your Windows installation lives when working within WSL2, and messing around there can have unintended consequences.
 
@@ -430,17 +446,19 @@ You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <
 
 #### A note on typing passwords in the terminal
 
-When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+When using a command in the terminal that requires you to enter your password for authentication (such as `sudo`), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
 
 This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
-You can still enter your password as normal and press Enter to submit it.
+You can still enter your password as normal and press <kbd>Enter</kbd> to submit it.
 
 </div>
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [You can read a Reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
+#### Download is performed unsandboxed
+
+You can [ignore any notes saying `N: Download is performed unsandboxed (...)`](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/).
 
 </div>
 
@@ -462,6 +480,8 @@ google-chrome
 ```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Google Chrome as a background process
 
 Chrome is going to use this terminal to output various messages and won't let you run other commands. Don't worry about those messages. If you want to use the same terminal that you run Chrome in for other commands, use `google-chrome &` instead.
 

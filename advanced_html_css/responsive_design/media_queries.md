@@ -29,38 +29,42 @@ In the above example, the margin is changed based on screen size.  Specifically,
 Really, that's all there is to it. You can create some complex shifting layouts with just this knowledge alone. You can create an unlimited number of media queries in a single document (Click the 'Edit on CodePen' button so you can resize your screen and see the changes):
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="yLzYgZw" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/yLzYgZw">
   Media Queries 1 | CSS Responsiveness</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 You can also put any number of style definitions inside a media query:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="XWempGr" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/XWempGr">
   Media Queries 2 | CSS Responsiveness</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Tips
+</p>
+
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 #### Other queries
 
-In all of the above examples, our queries specify a `max-width` which will apply styles to any screen resolution *below* the given style. Said another way: a `max-width` query will apply on any screen up to the defined `max-width`. It is also possible to define a `min-width`, which applies to screens that are *larger* than the given value. `max-height` and `min-height` are also valid.
+In all of the above examples, our queries specify a `max-width` which will apply styles to any screen resolution *below* or equal to the specified value. Said another way: a `max-width` query will apply on any screen up to the defined `max-width`. It is also possible to define a `min-width`, which applies to any screen resolution *above* or equal to the given value. `max-height` and `min-height` are also valid.
 
-#### Limit media queries
+### Limit media queries
 
 As mentioned earlier, it is possible to create an unlimited number of media queries for every possible screen size. However, it is best to minimize your media-query usage and rely more on the natural flexibility of your layouts. Consider the second embedded example above ("my cool site"). It only *needs* one media query to accommodate all desktop and mobile sizes, and there's no real need to create more.
 
-#### Common breakpoints
+### Common breakpoints
 
 'Breakpoint' is the term for the screen size that triggers your media query. You will find quite a lot of differing opinions on what exactly your breakpoints should be. In general, it's helpful to think about the kinds of devices and screens that your users will be using. Mobile phones are usually under `500px`. Tablets are often between `500px` and `1000px`. Anything larger than `1000px` is likely to be a normal browser screen. Super wide screens are also becoming more common, which means that your site *could* end up being viewed on a screen wider than `2000px`!
 
 This does *not* mean that you should just start your project with media queries for each device. Each project is going to have different requirements based on the design you're trying to achieve. As mentioned above, try to limit your breakpoints to just what you *need*. With many relatively basic layouts, you can get by with only one mobile-centric breakpoint somewhere around `500`-`600px`. More complex layouts might benefit from doing a full-sized layout above `1200px`, an altered "tablet" layout between `600px` and `1200px` and mobile below `600px`. The real takeaway here is that it doesn't really matter exactly where you set your breakpoints, just do what makes sense for your project.
 
-#### Zooming!
+### Zooming!
 
 In most browsers, **zooming in on a webpage will change the effective resolution of that page**. If your browser window is exactly `1000px` wide, zooming in will cause the page to behave as if the screen is *smaller*, and will trigger media queries based on the simulated/zoomed screen resolution. Zooming *out* can be handy for debugging issues that arise on screens that are larger than your own computer screen. Forgetting that you've zoomed in or out on a webpage can cause some real confusion when breakpoints refuse to trigger at the correct points.
 
@@ -86,7 +90,9 @@ This is not something we're going to focus on in our curriculum, but it may be s
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Look through [Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) on MDN. There are a few additional things you can do with media queries that might be worth knowing about, though their usage is much less common.
+
 </div>
 
 ### Knowledge check
@@ -101,4 +107,3 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - This [Media Query Tutorial](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/) on FreeCodeCamp covers the same items we've touched on here.
-- If you want more hands-on practice, this [Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts) course by Kevin Powell might interest you. You'll have to sign up.

@@ -48,7 +48,8 @@ Great, you can now use state! But, what's going on under the hood?
 
 Let's hit you with some theory.
 
-In React, when a component's state or props change, the component is destroyed and recreated from scratch. Yes, you heard that right: *destroyed*. This includes the variables, functions, and React nodes. The entire component is recreated but this time the latest state value will be returned from `useState`. This process is called rerendering. Rerendering is a key feature of React that enables it to efficiently update the user interface in response to changes in the underlying data.
+In React, when a component's state or props change, React runs your component function again from the beginning to figure out what should be displayed based on the freshly-set state and props. All the calculated changes are then applied to the DOM (committed).
+That is, the entire component is recreated, in a sense, but this time the latest state value will be returned from `useState`. This process is called rerendering. Rerendering is a key feature of React that enables it to efficiently update the user interface in response to changes in the underlying data.
 
 <div class="lesson-note" markdown="1">
 
@@ -81,7 +82,7 @@ Hooks are functions that let you use React features. All hooks are recognizable 
     1. [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
     1. [Render and Commit](https://react.dev/learn/render-and-commit)
 1. Read this [article on React Reconciliation Algorithm](https://medium.com/javarevisited/react-reconciliation-algorithm-86e3e22c1b40) for a great explanation.
-1. Head back to the colour changing background example from earlier in the lesson, and add a new state variable to keep track of the number of times the background color has been changed. Display the number of times the background color has been changed on the page. You will need to fork the codesandbox to do this, which requires a codesandbox account. Click "Open Editor" in the top right of the codesandbox embed, then "Fork" in the top right of the editor.
+1. Head back to the color changing background example from earlier in the lesson, and add a new state variable to keep track of the number of times the background color has been changed. Display the number of times the background color has been changed on the page. You will need to fork the codesandbox to do this, which requires a codesandbox account. Click "Open Editor" in the top right of the codesandbox embed, then "Fork" in the top right of the editor.
 
 </div>
 

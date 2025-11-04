@@ -11,7 +11,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Unit tests - do you even need to?
 
-Before diving in, you might want to consider whether or not the database operations you're testing even need to be tested in the first place. If you are reading and writing straight from a database using `pg` or some other db module, you might not really need to test that code. [pg's GitHub repo's tests directory](https://github.com/brianc/node-postgres/tree/master/packages/pg/test) (and presumably all other popular db modules) already has plenty of tests for all of its actions, so if you are just serving up a JSON API and all you're doing is leveraging functions from another module then those operations are already covered.
+Before diving in, you might want to consider whether or not the database operations you're testing even need to be tested in the first place. If you are reading and writing straight from a database using `pg` or some other db module, you might not really need to test that code. `pg` (and presumably all other popular db modules) already has plenty of tests for all of its actions, so if you are just serving up a JSON API and all you're doing is leveraging functions from another module then those operations are already covered.
 
 If your queries are complicated, you might justify adding unit tests to make sure that you are using them correctly and that the code you have written is doing what you intend it to, and if you are using any of your own code to do some filtering, sorting, or other manipulations of the data you will want to test that as well.  In the case of your own code, however, it would be better if you could pull those things out into their own modules, separate from your database operations so you can test them without messing with the database.
 
@@ -35,8 +35,8 @@ Next, setup appropriate npm scripts in your `package.json` file:
 {
   // other stuff
   "scripts": {
-    "dev": "NODE_ENV=development && node app.js",
-    "test": "NODE_ENV=test && jest"
+    "dev": "NODE_ENV=development node app.js",
+    "test": "NODE_ENV=test jest"
   },
   // even more stuff
 }
@@ -59,6 +59,14 @@ const prisma = new PrismaClient({
 ```
 
 Voila, the setup is complete. Now shoo... go get testin'.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. No need for a deep dive, but take a look at [pg's GitHub repo's tests directory](https://github.com/brianc/node-postgres/tree/master/packages/pg/test) to see how well tested most of the popular libraries are.
+
+</div>
 
 ### Knowledge check
 

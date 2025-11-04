@@ -18,9 +18,7 @@ Before we dive into the specifics of fetching data in React, let's briefly revis
 
 ```javascript
 const image = document.querySelector("img");
-fetch("https://jsonplaceholder.typicode.com/photos", {
-  mode: "cors",
-})
+fetch("https://jsonplaceholder.typicode.com/photos")
   .then((response) => response.json())
   .then((response) => {
     image.src = response[0].url;
@@ -32,7 +30,7 @@ We're making a request to the JSONPlaceholder API to retrieve an image, and then
 
 ### Using fetch in React components
 
-Now, let's take a look at how we can incorporate `fetch` into a similar React component. One common use case is to fetch data from an API when a component mounts, so that the data can be displayed on screen.
+Now, let's take a look at how we can incorporate `fetch` into a React component, similar to our previous example. One common use case is to fetch data from an API when a component mounts, so that the data can be displayed on screen.
 
 Whenever a component needs to make a request as it renders, it's often best to wrap that `fetch` inside of an effect.
 
@@ -43,7 +41,7 @@ const Image = () => {
   const [imageURL, setImageURL] = useState(null);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+    fetch("https://jsonplaceholder.typicode.com/photos")
       .then((response) => response.json())
       .then((response) => setImageURL(response[0].url))
       .catch((error) => console.error(error));
@@ -109,6 +107,8 @@ useEffect(() => {
 ```
 
 <div class="lesson-note" markdown="1" >
+
+#### Handling response errors
 
 Notice how we also handle errors in the `then` block? This is because the `fetch` request itself might not fail, but rather complete successfully and yield a response. However, the response received may not be what our app expected. To handle this case, we check the response status codes.
 
@@ -218,7 +218,9 @@ Now we have both requests firing as soon as `Profile` renders. The request for `
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
 
-In all of the code examples above, we added an artificial `delay` with the `setTimeout` function. As you've likely guessed by now, this is to help you walk through the data fetching basics in the lesson. We recommend removing these `delay`s and play around with the code examples to further cement the concepts.
+#### Using an artificial delay
+
+In all of the code examples above, we added an artificial `delay` with the `setTimeout` function. As you've likely guessed by now, this is to help you walk through the data fetching basics in the lesson. We recommend removing these `delay`s and playing around with the code examples to further cement the concepts.
 
 </div>
 

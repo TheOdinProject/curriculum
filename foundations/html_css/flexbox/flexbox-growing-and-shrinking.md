@@ -22,20 +22,18 @@ In this case, `flex` is actually a shorthand for `flex-grow`, `flex-shrink` and 
 
 In the above screenshot, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`, `flex-basis: 0`.
 
-Very often you see the flex shorthand defined with only *one* value. In that case, that value is applied to `flex-grow`. So when we put `flex: 1` on our divs, we were actually specifying a shorthand of `flex: 1 1 0`.
-
 #### Flex-grow
 
 `flex-grow` expects a single number as its value, and that number is used as the flex-item's "growth factor". When we applied `flex: 1` to every div inside our container, we were telling every div to grow the same amount. The result of this is that every div ends up the exact same size. If we instead add `flex: 2` to just one of the divs, then that div would grow to 2x the size of the others.
 
 In the following example the `flex` shorthand has values for `flex-shrink` and `flex-basis` specified with their default values.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YzQqvgK" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"> 
-  
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="YzQqvgK" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/YzQqvgK">
   flex-grow example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span> 
-  
+  on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
@@ -49,7 +47,7 @@ The default shrink factor is `flex-shrink: 1`, which means all items will shrink
 Here's an example. Note that we've also changed the `flex-basis` for reasons that will be explained shortly. If you shrink your browser window you'll notice that `.two` never gets smaller than the given width of 250px, even though the `flex-grow` rule would otherwise specify that each element should be equally sized.
 
 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JjJXZVz" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/JjJXZVz">
   flex-shrink example</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -86,7 +84,7 @@ It *is* possible to get fancy, and set up layouts where some columns relate to e
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read [W3C's flex section](https://www.w3.org/TR/css-flexbox-1/#flex-common) to understand the basic values of common flex shorthand values.
+1. Read [W3C's "Basic Values of 'flex'"](https://www.w3.org/TR/css-flexbox-1/#flex-common) to understand the basic values of common flex shorthand values.
 1. [MDN's documentation on flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) summarizes the entire flex shorthand values, as well as introduces some new syntax that hasn't been covered in the previous article.
 
 </div>

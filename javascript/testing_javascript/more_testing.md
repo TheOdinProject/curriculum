@@ -26,6 +26,8 @@ function guessingGame() {
     alert('YOUR GUESS IS TOO SMALL');
   } else if (guess == magicNumber) {
     alert('YOU DID IT! 🎉');
+  } else {
+    return 'INVALID INPUT';
   }
 }
 ```
@@ -40,6 +42,8 @@ function evaluateGuess(magicNumber, guess) {
     return 'YOUR GUESS IS TOO SMALL';
   } else if (guess == magicNumber) {
     return 'YOU DID IT! 🎉';
+  } else {
+    return 'INVALID INPUT';
   }
 }
 
@@ -57,8 +61,6 @@ In this example, the only thing we really need to test is the `evaluateGuess` fu
 
 If we had written this program with TDD it is very likely that it would have looked more like the second example to begin with.  Test driven development encourages better program architecture because it encourages you to write *Pure Functions*.
 
-- Read this quick article about [the value of "pure functions"](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c).
-
 ### Mocking
 
 There are two solutions to the 'tightly coupled code' problem.  The first, and best option is to remove those dependencies from your code as we did above, but that is not always possible.  The second option is **mocking** - writing "fake" versions of a function that always behaves *exactly* how you want.  <span id='mock-function-example'>For example, if you're testing a function that gets information from a DOM input, you really don't want to have to set up a webpage and dynamically insert something into the input just to run your tests.  With a mock function, you could just create a fake version of the input-grabbing function that always returns a specific value and use THAT in your test</span>.
@@ -67,6 +69,7 @@ There are two solutions to the 'tightly coupled code' problem.  The first, and b
 
 <div class="lesson-content__panel" markdown="1">
 
+1. Read this quick article about [the value of "pure functions"](https://medium.com/@jamesjefferyuk/javascript-what-are-pure-functions-4d4d5392d49c).
 1. Watch this [video about mocks in testing](https://www.youtube.com/watch?v=ajiAl5UNzBU&t=3024s).
 1. Too much mocking can be a bad thing.  It *is* sometimes necessary, but if you have to set up an elaborate system of mocks to test any bit of your code, that means your code is too tightly coupled.  While it is quite in-depth, the following article contains several really good points about [program architecture and testing](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a).
 1. Now that you have some practice and context for TDD, the [Jest docs section on "Setup and Teardown"](https://jestjs.io/docs/setup-teardown) will probably make good sense to you.

@@ -29,11 +29,11 @@ sudo apt upgrade
 
 #### A note on typing passwords in the terminal
 
-  When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
+  When using a command in the terminal that requires you to enter your password for authentication (such as `sudo`), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
 
   This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
 
-  You can still enter your password as normal and press Enter to submit it.
+  You can still enter your password as normal and press <kbd>Enter</kbd> to submit it.
 
 </div>
 
@@ -72,6 +72,8 @@ First, you'll need to install Homebrew. To install it, you’ll first need to ma
 ```
 
 <div class="lesson-note lesson-note--warning" markdown=1>
+
+#### Additional step for Apple Silicon Mac users
 
 On an Apple Silicon Mac, you will have an extra step to take.
 If you look at the terminal output after installing Homebrew, you will see "Installation Successful!". Further down in the terminal, there will be a section called "Next steps".
@@ -136,25 +138,19 @@ The commands below will configure Git. Be sure to enter your own information ins
 
 ```bash
 git config --global user.name "Your Name"
-git config --global user.email "yourname@example.com"
+git config --global user.email yourname@example.com
 ```
 
 For example, if you set your email as private on GitHub, the second command will look something like this:
 
 ```bash
-git config --global user.email "123456789+odin@users.noreply.github.com" # Remember to use your own private GitHub email here.
+git config --global user.email 123456789+odin@users.noreply.github.com # Remember to use your own private GitHub email here.
 ```
 
 GitHub recently changed the default branch on new repositories from `master` to `main`. Change the default branch for Git using this command:
 
 ```bash
 git config --global init.defaultBranch main
-```
-
-To enable colorful output with `git`, type
-
-```bash
-git config --global color.ui auto
 ```
 
 You'll also likely want to set your default branch reconciliation behavior to merging. You'll learn what all those terms mean later in the curriculum, but for now just know that we suggest running the below command as part of the Git setup process when doing The Odin Project.
@@ -187,6 +183,8 @@ git config --global core.excludesfile ~/.gitignore_global
 
 <div class="lesson-note" markdown="1">
 
+#### A note on multiple SSH keys
+
 If you have already setup an ssh key pair with GitHub on a different machine prior to starting The Odin Project, GitHub allows you to have multiple key pairs associated with your account. You can just follow these instructions again to set up another key pair and register it with GitHub.
 
 </div>
@@ -207,8 +205,9 @@ To create a new SSH key, run the following command inside your terminal.
 ssh-keygen -t ed25519
 ```
 
-- When it prompts you for a location to save the generated key, just push <kbd>Enter</kbd>.
-- Next, it will ask you for a password; enter one if you wish, but it's not required.
+When it prompts you for a location to save the generated key, just push <kbd>Enter</kbd>.
+
+Next, it will ask you for a password. This password is used to encrypt the private SSH key that is stored on your computer and you will be required to enter this password every time you use SSH with these keys. If you don't use a password, the private key will be readable by anyone who has access to your computer and will be able to modify all your GitHub repositories. Enter one if you wish, but it’s not required. If you choose not to use a password, just hit <kbd>Enter</kbd> without typing anything.
 
 #### Step 2.4: Link your SSH key with GitHub
 
@@ -230,7 +229,7 @@ Now, go back to GitHub in your browser window and paste the key you copied into 
 
 #### Step 2.5 Testing your key
 
-Follow the [GitHub directions for testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux). Make sure the fingerprint output in the terminal matches [one of the four GitHub's public fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints). **(Don't forget to omit the `$` when you copy and paste the code!)**.
+Follow the [GitHub directions for testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux). Make sure the fingerprint output in the terminal matches [one of GitHub's four public fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints).
 
 You should see this response in your terminal: **Hi username! You've successfully authenticated, but GitHub does not provide shell access.** Don't let GitHub's lack of providing shell access trouble you. If you see this message, you've successfully added your SSH key and you can move on. If the output doesn't correctly match up, then try going through these steps again or come to [the Discord chat](https://discord.gg/fbFCkYabZB) to ask for help.
 

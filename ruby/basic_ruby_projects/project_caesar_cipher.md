@@ -4,7 +4,7 @@ By now you should feel pretty good working with strings, arrays and hashes. We'l
 
 <div class="lesson-note" markdown="1">
 
-If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), or run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use the online editor at [replit.com](http://replit.com/languages/Ruby).
+If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use any other appropriate REPL.
 
 </div>
 
@@ -18,7 +18,7 @@ Harvard's CS50 class has a [video about the Caesar cipher](https://www.youtube.c
 
 <div class="lesson-content__panel" markdown="1">
 
-  Implement a caesar cipher that takes in a string and the shift factor and then outputs the modified string:
+  Implement a Caesar cipher that takes in a string and the shift factor and then outputs the modified string using a right shift:
 
 ```ruby
   > caesar_cipher("What a string!", 5)
@@ -30,5 +30,6 @@ Harvard's CS50 class has a [video about the Caesar cipher](https://www.youtube.c
 - You will need to remember how to convert a string into a number.
 - Don't forget to wrap from `z` to `a`.
 - Don't forget to keep the same case.
+- The Wikipedia quote discusses a Caesar cipher using a left shift.
 
 </div>

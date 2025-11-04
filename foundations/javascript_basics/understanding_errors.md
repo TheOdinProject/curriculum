@@ -16,13 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 An error is a type of object built into the JS language, consisting of a name/type and a message. Errors contain crucial information that can assist you in locating the code responsible for the error, determining why you have this error, and resolving the error.
 
-<div class="lesson-note lesson-note--tip" markdown=1>
-
-For all examples in this lesson, you should run the code in the browser's console.
-
-</div>
-
-Let’s assume we have written the following code:
+Let’s assume we have written the following code in a `script.js` file linked to an HTML page:
 
 ```javascript
 const a = "Hello";

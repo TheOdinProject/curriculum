@@ -47,6 +47,14 @@ sudo apt install ./code-latest.deb
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Adding Microsoft's VSCode repository (optional)
+
+If you prefer to have VSCode update automatically alongside your other system updates, you can add Microsoft's official VSCode repository to your apt sources. This is completely fine and safe to do. The repository will allow VSCode to be updated whenever you run `sudo apt update && sudo apt upgrade` with your other system packages.
+
+</div>
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
 #### A note on typing passwords in the terminal
 
   When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
@@ -147,6 +155,7 @@ code
 <div class="lesson-content__panel" markdown="1">
 
 1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
+1. Disable the Copilot AI code completion feature which is enabled by default in Visual Studio Code. Do this by clicking the little robot face in the bottom right of your VSCode window and unchecking the code completions box. To understand why The Odin Project thinks you should disable this feature please revisit the Motivation and Mindset lesson section [A note on AI code generation](https://www.theodinproject.com/lessons/foundations-motivation-and-mindset#a-note-on-ai-code-generation).
 
 </div>
 
@@ -155,4 +164,4 @@ code
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [VSCode docs](https://code.visualstudio.com/docs) are a great place to refer to for any of your queries related to VSCode.
-- These handy little PDFs on VSCode's [shortcuts for linux](https://go.microsoft.com/fwlink/?linkid=832144) and [shortcuts for macOS](https://go.microsoft.com/fwlink/?linkid=832143) are a great resource to help make your VSCode experience smoother and more efficient.
+- These handy little PDFs on VSCode's shortcuts for [linux](https://go.microsoft.com/fwlink/?linkid=832144), [macOS](https://go.microsoft.com/fwlink/?linkid=832143) and [Windows/WSL2](https://go.microsoft.com/fwlink/?linkid=832145) are a great resource to help make your VSCode experience smoother and more efficient.

@@ -137,7 +137,7 @@ hash1.merge(hash2)      #=> { "a" => 100, "b" => 254, "c" => 300 }
 
 Notice that the values from the hash getting merged in (in this case, the values in `hash2`) overwrite the values of the hash getting... uh, merged *at* (`hash1` here) when the two hashes have a key that's the same.
 
-For a full list of the methods that work on hashes, check out the [Hash class documentation](https://docs.ruby-lang.org/en/3.3/Hash.html).
+For a full list of the methods that work on hashes, check out the [Hash class documentation](https://docs.ruby-lang.org/en/3.4/Hash.html).
 
 ### Symbols as hash keys
 
@@ -171,7 +171,7 @@ japanese_cars[:honda]   #=> "Accord"
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read [Launch School’s chapter on Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using irb or any other REPL, such as [replit.com](https://replit.com/languages/ruby).
+1. Read [Launch School’s chapter on Hashes](https://launchschool.com/books/ruby/read/hashes), and go through the exercises using irb or any other appropriate REPL.
 1. Complete the hash exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises) that you previously cloned.
 
 </div>

@@ -12,10 +12,7 @@ We won't lie to you: installing packages, editors, and even entire operating sys
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Installing a supported operating system (OS).
-- Installing Google Chrome web browser.
-- Installing a code editor.
-- Creating an SSH key (a personal "password" that will identify you to GitHub, Heroku, and many other sites you'll be using).
+- What operating systems (OS) are supported by The Odin Project.
 
 ### OS options
 
@@ -69,7 +66,7 @@ Still not convinced? Here are a few great reasons to install Linux:
 - **Work Like The Pros** - Many developers use a Unix-based operating system.
 - **Performance** - Are you worried about installing Linux because your machine is slow or older and has limited space? When performance is a priority, Linux is a great choice. It uses fewer system resources than Windows and occupies less hard drive space.
 
-Many learners come to our Discord channel to ask if the directions on this page need to be followed. The moderators of our Discord server wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
+Many learners come to our Discord channel to ask if the directions on this page need to be followed. The team, which also runs our Discord server, wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
 
 Before we can continue, we must first stress one detail of importance:
 
@@ -81,4 +78,4 @@ With that out of the way, we need to set up an appropriate development environme
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Read the OSSPH blog on [why developers should use linux for development](https://blog.ossph.org/reasons-why-developers-should-use-linux).

@@ -185,8 +185,8 @@ Configuration will be dependent on your use case.  Do you want to make the user 
 1. Read this article about [how Rails sessions work](https://www.justinweiss.com/articles/how-rails-sessions-work/).
 1. Watch this video to [dive deep into sessions](https://www.youtube.com/watch?v=mqUbnZIY3OQ).
 1. Read sections 5 and 6 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#session).  Don't worry too much about the details of `session_store` configurations in 5.1 right now.
-1. Read section 8 of the [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#filters) to understand controller filters.
-1. Read section 11 of the [Rails guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#http-authentications) to understand more about authentication.
+1. Read section 7 of the [Rails Guides on Controllers](https://guides.rubyonrails.org/action_controller_overview.html#controller-callbacks) to understand controller filters.
+1. Read section 4 of the [Rails Guides on Controller Advanced Topics](https://guides.rubyonrails.org/action_controller_advanced_topics.html#http-authentication) to understand more about authentication.
 1. Glance over the [Devise Documentation](https://github.com/plataformatec/devise). Read about how to install it in your Rails App and what the different modules do.  You'll be using it with upcoming projects.
 
 </div>

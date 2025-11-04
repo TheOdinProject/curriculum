@@ -1,5 +1,24 @@
 // Customized version of https://github.com/DavidAnson/markdownlint/blob/main/lib/md043.js
+const { basename } = require("node:path");
 
+const HEADINGS = {
+  lesson: [
+    "### Introduction",
+    "### Lesson overview",
+    "*",
+    "### Assignment",
+    "#### *",
+    "### Knowledge check",
+    "### Additional resources",
+  ],
+  project: ["### Introduction", "*", "### Assignment", "*"],
+};
+
+function isProject(filePath) {
+  const fileName = basename(filePath);
+  // don't include names like "projections.md"
+  return fileName.startsWith("project_") || fileName.startsWith("project-");
+}
 function addError(onError, lineNumber, detail, context, range, fixInfo) {
   onError({
     lineNumber,
@@ -9,17 +28,13 @@ function addError(onError, lineNumber, detail, context, range, fixInfo) {
     fixInfo,
   });
 }
-function addErrorContext(
-  onError,
-  lineNumber,
-  context,
-  left,
-  right,
-  range,
-  fixInfo
-) {
-  context = ellipsify(context, left, right);
-  addError(onError, lineNumber, undefined, context, range, fixInfo);
+function addErrorContext(onError, lineNumber, context) {
+  addError(
+    onError,
+    lineNumber,
+    `Missing heading (case sensitive): ${context}`,
+    context
+  );
 }
 function addErrorDetailIf(
   onError,
@@ -58,18 +73,6 @@ function forEachHeading(params, handler) {
     }
   }
 }
-function ellipsify(text, start, end) {
-  if (text.length <= 30) {
-    // Nothing to do
-  } else if (start && end) {
-    text = text.slice(0, 15) + "..." + text.slice(-15);
-  } else if (end) {
-    text = "..." + text.slice(-30);
-  } else {
-    text = text.slice(0, 30) + "...";
-  }
-  return text;
-}
 
 module.exports = {
   names: ["TOP004", "lesson-headings"],
@@ -80,12 +83,9 @@ module.exports = {
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP004.md"
   ),
   function: function TOP004(params, onError) {
-    const requiredHeadings = params.config.headings;
-    if (!Array.isArray(requiredHeadings)) {
-      // Nothing to check; avoid doing any work
-      return;
-    }
-    const matchCase = params.config.match_case || false;
+    const requiredHeadings = isProject(params.name)
+      ? HEADINGS.project
+      : HEADINGS.lesson;
     const levels = {};
     for (const level of [1, 2, 3, 4, 5, 6]) {
       levels["h" + level] = "######".substr(-level);
@@ -96,7 +96,6 @@ module.exports = {
     let hasError = false;
     let anyHeadings = false;
     const getExpected = () => requiredHeadings[i++] || "[None]";
-    const handleCase = (str) => (matchCase ? str : str.toLowerCase());
     // https://regexr.com/7rf1o to test the following regex:
     const wildcardRegex = new RegExp(/^(#*\s)?\*$/);
 
@@ -108,7 +107,7 @@ module.exports = {
 
         if (wildcardRegex.test(expected)) {
           const nextExpected = getExpected();
-          if (handleCase(nextExpected) !== handleCase(actual)) {
+          if (nextExpected !== actual) {
             if (expected.startsWith("#")) {
               headingToMatch = `h${
                 expected.slice(0, expected.indexOf(" ")).length
@@ -126,7 +125,7 @@ module.exports = {
             }
             i--;
           }
-        } else if (handleCase(expected) === handleCase(actual)) {
+        } else if (expected === actual) {
           matchAny = false;
           headingToMatch = undefined;
         } else if (matchAny) {

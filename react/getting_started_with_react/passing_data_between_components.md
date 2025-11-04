@@ -15,7 +15,7 @@ In React, data is transferred from parent components to child components via pro
 
 ### Using props in React
 
-Now that we know *how* data transfers between components, let's explore *why* this might be a useful feature in React. Consider the following `Button` component, which then gets rendered multiple times within our `App` component.
+Now that we know *how* data transfers between components, let's explore *why* this might be a useful feature in React. Consider the following `Button` component, which gets rendered multiple times within our `App` component.
 
 ```jsx
 function Button() {
@@ -63,7 +63,7 @@ export default function App() {
 }
 ```
 
-This may not seem like a huge deal right now, but what if we had 10 buttons, each one having different text, fonts, colors, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication.
+This may not seem like a huge deal right now, but what if we had 10 buttons? Each one having different text, fonts, colors, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication.
 
 Let's see how by using props, we can account for any number of variations with a *single* button component.
 
@@ -123,27 +123,27 @@ export default function App() {
 
 ### Default props
 
-You may have noticed in the above examples that there is some repetition when defining props on the `Button` components within `App`. In order to stop repeating ourselves re-defining these common values, and to protect our application from undefined values, we can define default parameters to set default values for props.
+You may have noticed in the above examples that there is some repetition when defining props on the `Button` components within `App`. In order to stop repeating ourselves by re-defining these common values, and to protect our application from undefined values, we can define default parameters to set default values for props.
 
 ```jsx
-  function Button({ text = "Click Me!", color = "blue", fontSize = 12 }) {
-    const buttonStyle = {
-      color: color,
-      fontSize: fontSize + "px"
-    };
+function Button({ text = "Click Me!", color = "blue", fontSize = 12 }) {
+  const buttonStyle = {
+    color: color,
+    fontSize: fontSize + "px"
+  };
 
-    return <button style={buttonStyle}>{text}</button>;
-  }
+  return <button style={buttonStyle}>{text}</button>;
+}
 
-  export default function App() {
-    return (
-      <div>
-        <Button />
-        <Button text="Don't Click Me!" color="red" />
-        <Button fontSize={20} />
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <div>
+      <Button />
+      <Button text="Don't Click Me!" color="red" />
+      <Button fontSize={20} />
+    </div>
+  );
+}
 ```
 
 As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined in the function parameters.
@@ -228,7 +228,7 @@ function Button({ text = "Click Me!", color = "blue", fontSize = 12, handleClick
   };
 
   return (
-    <button onClick={() => handleClick('https://www.theodinproject.com')} style={buttonStyle}>
+    <button onClick={handleClick} style={buttonStyle}>
       {text}
     </button>
   );
@@ -241,21 +241,23 @@ export default function App() {
 
   return (
     <div>
-      <Button handleClick={handleButtonClick} />
+      <Button handleClick={() => handleButtonClick('https://www.theodinproject.com')} />
     </div>
   );
 }
 ```
 
-When supplying an argument to the function we can't just write `onClick={handleClick('www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the argument. Like the previous example, this is to prevent the function being called during the render.
+When supplying an argument to the function, we can't just write `onClick={handleClick('https://www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the argument. Like the previous example, this is to prevent the function being called during the render.
 
 <div class="lesson-note" markdown="1" >
+
+#### Alternative implementation with curried functions
 
 There are also other ways to implement this behavior. Hint: [curried functions!](https://javascript.info/currying-partials)
 
 </div>
 
-Hopefully you can now understand from the examples in this lesson, just how incredibly useful props are for writing reusable and customizable React components. However, we are still only scratching the surface of what React can offer us. Continue on to the next section to learn even more!
+Hopefully, you can now understand from the examples in this lesson just how incredibly useful props are for writing reusable and customizable React components. However, we are still only scratching the surface of what React can offer us. Continue on to the next section to learn even more!
 
 ### Assignment
 
