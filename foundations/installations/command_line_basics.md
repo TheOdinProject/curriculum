@@ -139,3 +139,4 @@ This section contains helpful links to related content. It isn't required, so co
 
 - The online book, [Learn Enough Command Line to Be Dangerous](https://www.learnenough.com/command-line-tutorial), is a great resource for mastering the command line. Chapters 1 and 2 are free and provide a good introduction to command line tools. The rest of the book is not free and goes into more depth than you really need at this point, but feel free to buy and read the rest of the book if you like.
 - [Command Line Flashcards](https://flashcards.github.io/command_line/introduction.html) by flashcards.github.io.
+- If you want to explore more and learn additional command line commands, check out [MDN: Command line crash course](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line). Some topics go beyond the Foundations course, but it's still worth skimming to understand what's happening.
