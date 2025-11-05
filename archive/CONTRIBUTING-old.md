@@ -31,7 +31,7 @@ If you would like to propose a change that is not covered in an open issue, plea
 
 2. Before you start working on your issue, create a branch and name it like the following examples:
 
-	If it's a new feature
+	If it's a new  or not
 	```
 	$ git checkout -b feature/feature-name
 	```
@@ -62,4 +62,4 @@ If you would like to propose a change that is not covered in an open issue, plea
 	* If changes are requested, please make the changes in a timely manner. After you submit the changes, request another review from the maintainer (top right).
 
 ## Need Help with Anything Here?
-Please let us know if you require any help doing any of the steps in this guide in our [Discord's contribution-suggestions channel](https://discordapp.com/channels/505093832157691914/540903304046182425).
+Please let us know if you require any help doing any of the above steps in this guide in our [Discord's contribution-suggestions channel](https://discordapp.com/channels/505093832157691914/540903304046182425).
