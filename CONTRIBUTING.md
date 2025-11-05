@@ -9,6 +9,7 @@ This contributing guide assumes you have followed the instructions in our genera
 - [How to Contribute](#how-to-contribute)
 - [Curriculum Linting](#curriculum-linting)
 - [Adding Images to the Curriculum](#adding-images-to-the-curriculum)
+- [Updating Ruby Version](#updating-ruby-version)
 
 ## How to Contribute
 
