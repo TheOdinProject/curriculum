@@ -31,7 +31,6 @@ Now, the Asset Pipeline is handled through a library called `propshaft`, which h
 
 Knowing some of this history can be valuable as many apps that use Rails aren't necessarily going to be on the cutting edge. Many Rails apps will still be using `sprockets` to serve assets, and while this curriculum won't dive deep into it, it's good to at least be aware of it and how it's different from `propshaft`. However, if you ever work on legacy applications that use older versions of Rails, you may well find JavaScript is still handled by the Asset Pipeline.
 
-
 ### Fingerprinting
 
 Rails uses something called "fingerprinting" to add unique identifiers to asset filenames. When the browser goes to fetch `application.css` (for example), you may notice that it's called something like `application-1fc71ddbb281c144b2ee4af31cf0e308.css`. That big string of nonsense in the URL is the "fingerprint", and it's meant to assist with browser caching. Browsers automatically attempt to cache various assets based on their URL, which can speed up performance as the browser won't have to request an asset if it already has it stored. These fingerprints serve as a type of versioning for the browser. If you make a change to `application.css`, Rails will know it needs to change the fingerprint in the URL to that asset, and the browser, which won't find the new asset URL in its cache, will know that it has to fetch the new stylesheet.
@@ -49,23 +48,23 @@ This fingerprinting is automatically provided when using Rails's link helpers. S
 For images, the asset pipeline keeps them in the `/assets` directory unless you've made your own subdirectories.  Use `image_tag`'s to avoid confusion, e.g. `<%= image_tag "fuzzy_slippers.jpg" %>` will look for a file named `fuzzy_slippers.png` in the `/assets` folder. You can also organize images into subdirectories, which is helpful as applications grow and use more images and icons.
 
 ### Assignment
+
 Some necessary and straightforward reading on the Asset Pipeline:
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Read [Rails Guides on the Asset Pipeline](https://guides.rubyonrails.org/asset_pipeline.html) sections 1 to 3.
+
 </div>
 
-### Conclusion
-
-The Asset Pipeline isn't something that you often think about, especially when just building little toy apps, but it becomes important to understand as soon as you want to deploy your application (because you'll need to take it into account, which we'll talk about in that lesson later) or work with anything but the vanilla asset structure.
-
 ### Knowledge check
-This section contains questions for you to check your understanding of this lesson. If you’re having trouble answering the questions below on your own, review the material above to find the answer.
 
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#main-features">How does "asset concatenation" optimize loading of your app?</a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#coding-links-to-assets">How do you include an asset in your views or layout?</a>
-* <a class="knowledge-check-link" href="https://guides.rubyonrails.org/asset_pipeline.html#manifest-files-and-directives">What does the `require_tree` method do in a manifest-file?</a>
-* <a class="knowledge-check-link" href="#the-asset-pipeline">Why would you namespace your stylesheets?</a>
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [How does "asset concatenation" optimize loading of your app?](https://guides.rubyonrails.org/asset_pipeline.html#main-features)
+- [How do you include an asset in your views or layout?](https://guides.rubyonrails.org/asset_pipeline.html#coding-links-to-assets)
+- [What does the `require_tree` method do in a manifest-file?](https://guides.rubyonrails.org/asset_pipeline.html#manifest-files-and-directives)
+- [Why would you namespace your stylesheets?](#the-asset-pipeline)
 
 ### Additional resources
 
