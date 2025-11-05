@@ -45,7 +45,7 @@ This fingerprinting is automatically provided when using Rails's link helpers. S
 
 ### Images
 
-For images, the asset pipeline keeps them in the `/assets` directory unless you've made your own subdirectories.  Use `image_tag`'s to avoid confusion, e.g. `<%= image_tag "fuzzy_slippers.jpg" %>` will look for a file named `fuzzy_slippers.png` in the `/assets` folder. You can also organize images into subdirectories, which is helpful as applications grow and use more images and icons.
+For images, the asset pipeline keeps them in the `/assets` directory unless you've made your own subdirectories.  Use `image_tag`'s to avoid confusion, e.g. `<%= image_tag "fuzzy_slippers.jpg" %>` will look for a file named `fuzzy_slippers.png` in the `/assets/images` folder. You can also organize images into subdirectories, which is helpful as applications grow and use more images and icons.
 
 ### Assignment
 
