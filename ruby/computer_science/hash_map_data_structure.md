@@ -28,6 +28,8 @@ Hashing is a one-way process. Using the above example, you can make a hash code 
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Minimizing collisions
+
 Hashing is very good for security. Given a password, you can save the hash of that password rather than the password's plain text. If someone steals your hashes, they cannot know the original passwords since they are unable to reverse the hash back to the password.
 
 </div>
@@ -136,7 +138,9 @@ With our new method we will have different hash codes for the names `"Sara"` and
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-  Notice the usage of a prime number. We could have chosen any number we wanted, but prime numbers are preferable. Multiplying by a prime number will reduce the likelihood of hash codes being evenly divisible by the bucket length, which helps minimize the occurrence of collisions.
+#### Benefits of hashing
+
+Notice the usage of a prime number. We could have chosen any number we wanted, but prime numbers are preferable. Multiplying by a prime number will reduce the likelihood of hash codes being evenly divisible by the bucket length, which helps minimize the occurrence of collisions.
 
 </div>
 
@@ -154,7 +158,9 @@ Let's talk about the growth of our buckets. We don't have infinite memory, so we
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-  Most programming languages start with the default size of `16` because it's a power of 2, which helps with some techniques for performance that require bit manipulation for indexes.
+#### Setting the initial size of the array
+
+Most programming languages start with the default size of `16` because it's a power of 2, which helps with some techniques for performance that require bit manipulation for indexes.
 
 </div>
 
