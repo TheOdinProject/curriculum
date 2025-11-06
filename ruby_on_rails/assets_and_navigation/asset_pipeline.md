@@ -61,10 +61,8 @@ Some necessary and straightforward reading on the Asset Pipeline:
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [How does "asset concatenation" optimize loading of your app?](https://guides.rubyonrails.org/asset_pipeline.html#main-features)
-- [How do you include an asset in your views or layout?](https://guides.rubyonrails.org/asset_pipeline.html#coding-links-to-assets)
-- [What does the `require_tree` method do in a manifest-file?](https://guides.rubyonrails.org/asset_pipeline.html#manifest-files-and-directives)
-- [Why would you namespace your stylesheets?](#the-asset-pipeline)
+- [How does the Asset Pipeline help with browser caching of your assets?](#fingerprinting)
+- [How do you include an asset in your views or layout?](https://guides.rubyonrails.org/asset_pipeline.html#digested-assets-in-views)
 
 ### Additional resources
 
