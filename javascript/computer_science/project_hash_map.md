@@ -8,6 +8,8 @@ You already know the magic behind hash maps. Now it's time to write your own imp
 
   Use the following snippet whenever you access a bucket through an index. We want to throw an error if we try to access an out-of-bounds index:
 
+  Note: This code snippet is unnecessary when implementing the Multipication method in your hash function , as the method inherently guarantees that the computed index will always be within bounds.
+
 ```javascript
 if (index < 0 || index >= buckets.length) {
   throw new Error("Trying to access index out of bounds");
