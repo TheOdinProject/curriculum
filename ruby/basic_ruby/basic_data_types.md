@@ -74,21 +74,21 @@ As shown in the last example above, when Ruby converts a float to an integer, th
 
 #### Some useful number methods
 
-There are many useful methods for numbers built into Ruby. For example,
+There are many useful methods for numbers built into Ruby. For example:
 
-##### #even?
+- `#even?`
 
-```ruby
-6.even? #=> true
-7.even? #=> false
-```
+  ```ruby
+  6.even? #=> true
+  7.even? #=> false
+  ```
 
-##### #odd?
+- `#odd?`
 
-```ruby
-6.odd? #=> false
-7.odd? #=> true
-```
+  ```ruby
+  6.odd? #=> false
+  7.odd? #=> true
+  ```
 
 ### Strings
 
@@ -182,65 +182,65 @@ Just remember, strings have loads of methods provided to you for free, and you c
 
 Below is a quick recap of the more common string methods you might find yourself using:
 
-##### #capitalize
+- `#capitalize`
 
-```ruby
-"hello".capitalize #=> "Hello"
-```
+  ```ruby
+  "hello".capitalize #=> "Hello"
+  ```
 
-##### #include?
+- `#include?`
 
-```ruby
-"hello".include?("lo")  #=> true
+  ```ruby
+  "hello".include?("lo")  #=> true
 
-"hello".include?("z")   #=> false
-```
+  "hello".include?("z")   #=> false
+  ```
 
-##### <span id="upcase">#upcase</span>
+- <span id="upcase">`#upcase`</span>
 
-```ruby
-"hello".upcase  #=> "HELLO"
-```
+  ```ruby
+  "hello".upcase  #=> "HELLO"
+  ```
 
-##### #downcase
+- `#downcase`
 
-```ruby
-"Hello".downcase  #=> "hello"
-```
+  ```ruby
+  "Hello".downcase  #=> "hello"
+  ```
 
-##### #empty?
+- `#empty?`
 
-```ruby
-"hello".empty?  #=> false
+  ```ruby
+  "hello".empty?  #=> false
 
-"".empty?       #=> true
-```
+  "".empty?       #=> true
+  ```
 
-##### #length
+- `#length`
 
-```ruby
-"hello".length  #=> 5
-```
+  ```ruby
+  "hello".length  #=> 5
+  ```
 
-##### #reverse
+- `#reverse`
 
-```ruby
-"hello".reverse  #=> "olleh"
-```
+  ```ruby
+  "hello".reverse  #=> "olleh"
+  ```
 
-##### <span id="split">#split</span>
+- <span id="split">`#split`</span>
 
-```ruby
-"hello world".split  #=> ["hello", "world"]
+  ```ruby
+  "hello world".split  #=> ["hello", "world"]
 
-"hello".split("")    #=> ["h", "e", "l", "l", "o"]
-```
+  "hello".split("")    #=> ["h", "e", "l", "l", "o"]
+  ```
 
-##### #strip
+- `#strip`
 
-```ruby
-" hello, world   ".strip  #=> "hello, world"
-```
+  ```ruby
+  " hello, world   ".strip  #=> "hello, world"
+  ```
 
 You'll read more about these methods and others in the assignment. The examples below are just to get your creative juices flowing with some of the awesome ways you can modify strings.
 
