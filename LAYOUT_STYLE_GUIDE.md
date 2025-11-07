@@ -10,7 +10,8 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 - Editable by any contributor.
 - Consistent across the TOP website.
 
-**Using formatters**: Many projects have a standard in how their code is formatted which should always be followed when contributing. If you're using a formatter (such as Prettier), you should always be sure you aren't accidentally committing code that goes against that standard. This can be achieved by simply disabling the formatter, saving your files without formatting, or configuring your formatter to adhere to the project's standard.
+> [!WARNING]
+> **Using formatters**: Many projects have a standard in how their code is formatted which should always be followed when contributing; this one is no exception. If you're using a formatter (such as Prettier), you should always be sure you aren't accidentally committing code that goes against our style guide. This can be achieved by simply disabling the formatter, saving your files without formatting, or configuring your formatter to adhere to the project's standard.
 
 ## Table of Contents
 
