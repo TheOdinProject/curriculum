@@ -1,6 +1,6 @@
 # Layout style guide
 
-Inspired by [Google's styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md).
+Inspired by [Google's style guide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md).
 
 TOP uses Markdown for the layout and formatting of lesson and project files to get properly formatted HTML for the TOP website.
 
@@ -10,12 +10,11 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 - Editable by any contributor.
 - Consistent across the TOP website.
 
-**A note on language**: TOP follows American English and American style punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.
-
 **Using formatters**: Many projects have a standard in how their code is formatted which should always be followed when contributing. If you're using a formatter (such as Prettier), you should always be sure you aren't accidentally committing code that goes against that standard. This can be achieved by simply disabling the formatter, saving your files without formatting, or configuring your formatter to adhere to the project's standard.
 
 ## Table of Contents
 
+1. [Language](#language)
 1. [Lesson layout](#lesson-layout)
 1. [Project layout](#project-layout)
 1. [Headings](#headings)
@@ -29,6 +28,10 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1. [Codepen embeds](#codepen-embeds)
 1. [Mermaid diagrams](#mermaid-diagrams)
 1. [Markdown styling](#markdown-styling)
+
+## Language
+
+TOP's lessons use American English spelling and punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.
 
 ## Layouts
 
