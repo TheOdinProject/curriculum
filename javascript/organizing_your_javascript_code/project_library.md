@@ -31,6 +31,8 @@ Let's extend the 'Book' example from the previous lesson and turn it into a smal
 
 <div class="lesson-note" markdown="1">
 
+#### No need for persistent storage
+
 You're not required to add any type of storage to save the information between page reloads.
 
 </div>
