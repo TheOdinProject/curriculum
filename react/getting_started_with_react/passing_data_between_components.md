@@ -92,7 +92,7 @@ export default function App() {
 
 There are a few things going on here.
 
-- The `Button` functional component now receives `props` as a function argument. The individual properties are then referenced within the component via `props.propertyName`.
+- The `Button` functional component now receives `props` as a function parameter. The individual properties are then referenced within the component via `props.propertyName`.
 - When rendering the `Button` components within `App`, the `prop` values are defined on each component.
 - Inline styles are dynamically generated and then applied to the `button` element.
 
