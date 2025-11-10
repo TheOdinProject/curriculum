@@ -40,6 +40,8 @@ Thinking of the board as a grid-based graph instead of a tree will help you appl
 
 ### Assignment
 
+<div class="lesson-content__panel" markdown="1">
+
 Your task is to build a function `knightMoves` that shows the shortest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
 
 You can think of the board as having 2-dimensional coordinates. Calling your function would therefore look like:
@@ -47,6 +49,8 @@ You can think of the board as having 2-dimensional coordinates. Calling your fun
 `knightMoves([0,0],[1,2]) // returns [[0,0],[1,2]]`
 
 <div class="lesson-note" markdown="1">
+
+#### Multiple shortest paths
 
 Sometimes *there is more than one fastest path*. Examples of this are shown below. Any answer is correct as long as it follows the rules and gives the shortest possible path.
 
@@ -71,5 +75,7 @@ Sometimes *there is more than one fastest path*. Examples of this are shown belo
     [2,4]
     [4,3]
 ```
+
+</div>
 
 </div>
