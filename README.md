@@ -1,29 +1,30 @@
 # The Odin Project Curriculum
 
-[The Odin Project](https://www.theodinproject.com/) (TOP) is an open-source curriculum for learning full-stack web development. Our curriculum is divided into distinct courses, each covering the subject language in depth. Each course contains a listing of lessons interspersed with multiple projects. These projects give users the opportunity to practice what they are learning, thereby reinforcing and solidifying the theoretical knowledge learned in the lessons. Completed projects may then be included in the user's portfolio.
+[The Odin Project](https://www.theodinproject.com/) (TOP) Es un plan de estudios de código abierto para aprender desarrollo web completo. Nuestro plan de estudios está dividido en cursos distintos, cada uno de los cuales cubre el idioma de la materia en profundidad. Cada curso contiene una lista de lecciones intercaladas con múltiples proyectos. Estos proyectos brindan a los usuarios la oportunidad de practicar lo que están aprendiendo, reforzando y solidificando así los conocimientos teóricos aprendidos en las lecciones. Los proyectos completados pueden luego incluirse en la cartera del usuario.
 
-Lessons are structured through a combination of original written content and a compilation of carefully curated resources from the web. This is where the contributing happens!
+Las lecciones se estructuran mediante una combinación de contenido escrito original y una recopilación de recursos cuidadosamente seleccionados de la web. ¡Aquí es donde ocurre la contribución!
 
-This repo contains the actual lesson files used on our website. For the actual TOP app that pulls in this lesson content and contains our front-end and back-end code, please go to the [main TOP repo](https://github.com/TheOdinProject/theodinproject).
+Este repositorio contiene los archivos de lecciones reales utilizados en nuestro sitio web. Para ver la aplicación TOP real que incluye el contenido de esta lección y contiene nuestro código de front-end y back-end, vaya a [main TOP repo](https://github.com/TheOdinProject/theodinproject).
 
-Our community can be found on the [TOP Discord server](https://discord.gg/fbFCkYabZB).
+Nuestra comunidad se puede encontrar en el [TOP Discord server](https://discord.gg/fbFCkYabZB).
 
-## Contributing
+## Contribuyendo
 
-The Odin Project depends on open-source contributions to improve, grow, and thrive. We welcome contributors of all experience levels and backgrounds to help maintain this awesome curriculum and community. If you would like to contribute to our curriculum, be sure to thoroughly read our [contributing guide](https://github.com/TheOdinProject/curriculum/blob/main/CONTRIBUTING.md).
+El Proyecto Odin depende de contribuciones de código abierto para mejorar, crecer y prosperar. Damos la bienvenida a contribuyentes de todos los niveles de experiencia y procedencias para ayudar a mantener este increíble plan de estudios y comunidad. Si desea contribuir a nuestro plan de estudios, asegúrese de leer detenidamente nuestra [guía contribuyente](https://github.com/TheOdinProject/curriculum/blob/main/CONTRIBUTING.md).
 
-Some of the things you can do to contribute to our curriculum include:
+Algunas de las cosas que puede hacer para contribuir a nuestro plan de estudios incluyen:
 
-- Correct typos and other grammar errors.
-- Rewrite parts of existing lessons to make them clearer and easier to understand.
-- Fix broken links.
-- Add new resource links you think would make a lesson better.
-- Work on entirely new lessons after getting approval.
+- Corregir errores tipográficos y otros errores gramaticales.
+- Reescribir partes de lecciones existentes para hacerlas más claras y fáciles de entender.
+- Reparar enlaces rotos.
+- Agregue nuevos enlaces de recursos que crea que mejorarían la lección.
+- Trabaja en lecciones completamente nuevas después de obtener la aprobación.
 
-**Happy Coding!**
+**FELIZ CODIGO!**
 
-See [license.md](https://github.com/TheOdinProject/curriculum/blob/main/license.md) for usage details.
+Ver [license.md](https://github.com/TheOdinProject/curriculum/blob/main/license.md) for usage details.
 
 ___
 
-Created by [Erik Trautman](http://www.github.com/eriktrautman).
+Creado por [Erik Trautman](http://www.github.com/eriktrautman).
+Traducido por ¨[Francisco Torres](https://github.com/FtorresCodev).
