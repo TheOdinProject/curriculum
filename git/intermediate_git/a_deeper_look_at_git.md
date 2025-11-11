@@ -89,7 +89,18 @@ The command above will allow you to amend the commit. Once you're satisfied with
 git rebase --continue
 ```
 
-So let's edit our commit by typing `git commit --amend`, fixing the typo in the title, and then finishing the rebase by typing `git rebase --continue`. That's all there is to it! Have a look at your handiwork by typing `git log`, and seeing the changed history. It seems simple, but this is a very dangerous tool if misused, so be careful. Most importantly, remember that **if you have to rebase commits in a shared repository, make sure you're doing so for a very good reason that your coworkers are aware of.**
+So let's edit our commit by typing `git commit --amend`, fixing the typo in the title, and then finishing the rebase by typing `git rebase --continue`.
+
+You can also use 'reword' instead of 'edit':
+
+```bash
+reword eacf39d Create send file
+pick 92ad0af Create third file and create fourth file
+```
+
+While edit let you change the commit message and also the commit content and files, reword change only the commit message, without touching the content. When you use edit the rebase stops after applying that commit, and you can change your files and their content. And when you're done, you run `git commit --amend` to commit. But in the case of reword, the file automatically opens for you to change the commit message. After changing your message you can run `git rebase --continue`.
+
+That's all there is to it! Have a look at your handiwork by typing `git log`, and seeing the changed history. It seems simple, but this is a very dangerous tool if misused, so be careful. Most importantly, remember that **if you have to rebase commits in a shared repository, make sure you're doing so for a very good reason that your coworkers are aware of.**
 
 #### Squashing commits
 
