@@ -11,13 +11,13 @@ This section contains a general overview of topics that you will learn in this l
 
 ### The asset pipeline
 
-Assets in your application are additional files that get called by the browser at your initial gob of HTML is received. The word "assets" is used to mean things like CSS stylesheets, JavaScript files, images, videos, etc.—basically anything that requires an additional request to grab.
+Assets in your application are additional files that get called by the browser after your initial gob of HTML is received. The word "assets" is used to mean things like CSS stylesheets, JavaScript files, images, videos, etc.—basically anything that requires an additional request to grab.
 
-The Asset Pipeline is one of a few different ways to handle assets in Rails. You will learn about other ways to manage CSS and JS as you move through this course. It may well depend on where you end up working what convention they follow but as you learn more, you'll understand how the Asset Pipeline differs from alternatives as well as how to use any of the available methods to handle assets in your application. Here we will cover how the Asset Pipeline works, and in future lessons we will cover the alternatives. For your own projects we suggest using import maps for JavaScript code and the Asset Pipeline for other assets.
+The Asset Pipeline is one of a few different ways to handle assets in Rails. You will learn about other ways to manage CSS and JS as you move through this course. It may well depend on where you end up working what convention they follow, but as you learn more, you'll understand how the Asset Pipeline differs from alternatives as well as how to use any of the available methods to handle assets in your application. Here we will cover how the Asset Pipeline works, and in future lessons we will cover the alternatives. For your own projects we suggest using import maps for JavaScript code and the Asset Pipeline for other assets.
 
 Getting back to the Asset Pipeline, often times, it's easiest to organize your code for development purposes into many different files so you can keep track of them better. But if the browser has to grab a dozen different CSS files, each one of those requests is going to slow things down. Too many requests and you've harpooned your user's experience with your application.
 
-A similar organizational issue has to do with storing things like images. It's easier to keep them separated in your directory but you want them to be really easy to link to so your image tags are robust.
+A similar organizational issue has to do with storing things like images. It's easier to keep them separated in your directory, but you want them to be really easy to link to so your image tags are robust.
 
 The Asset Pipeline helps us tackle these issues.
 
@@ -27,9 +27,9 @@ Before diving into the specifics of the Asset Pipeline, it can be nice to unders
 
 Prior to Rails 8, the Asset Pipeline was handled through a library called `sprockets`. `sprockets` had more capabilities than the current Asset Pipeline, offering features like minification, concatenation, transpiling, etc. The Rails team decided that these features came with a lot of maintenance overhead and weren't entirely necessary in a world with broad support for ES6 (which brought JS modules to the browser) and HTTP/2.0 (which brought the ability to serve multiple requests over a single TCP connection).
 
-Now, the Asset Pipeline is handled through a library called `propshaft`, which has a more stripped down set of features but is also much simpler and requires less configuration. If developers have more complicated needs to serving CSS and/or JavaScript, they're encouraged to reach for solutions outside of the Asset Pipeline.
+Now, the Asset Pipeline is handled through a library called `propshaft`, which has a more stripped down set of features but is also much simpler and requires less configuration. If developers have more complicated needs with serving CSS and/or JavaScript, they're encouraged to reach for solutions outside of the Asset Pipeline.
 
-Knowing some of this history can be valuable as many apps that use Rails aren't necessarily going to be on the cutting edge. Many Rails apps will still be using `sprockets` to serve assets, and while this curriculum won't dive deep into it, it's good to at least be aware of it and how it's different from `propshaft`. However, if you ever work on legacy applications that use older versions of Rails, you may well find JavaScript is still handled by the Asset Pipeline.
+Knowing some of this history can be valuable as many apps that use Rails aren't necessarily going to be on the cutting edge. Many Rails apps will still be using `sprockets` to serve assets, and while this curriculum won't dive deep into it, it's good to at least be aware of it and how it's different from `propshaft`.
 
 ### Fingerprinting
 
