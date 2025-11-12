@@ -11,7 +11,7 @@ const HEADINGS = {
     "### Knowledge check",
     "?",
   ],
-  project: ["### Introduction", "*", "### Assignment", "*"],
+  project: ["### Introduction", "*", "### Assignment", "#### *"],
 };
 
 function isProject(filePath) {
