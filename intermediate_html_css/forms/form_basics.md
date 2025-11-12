@@ -83,7 +83,7 @@ This is done by adding a `placeholder` attribute to an input. The value will be 
 
 Use placeholder text to demonstrate how text should be entered and formatted.
 
-<span id="the-name-attribute">**The name attribute**</span>
+#### The name attribute
 
 We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend, where we send our data, know what each piece of data represents.
 
