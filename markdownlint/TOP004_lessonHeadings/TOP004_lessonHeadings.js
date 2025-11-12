@@ -9,7 +9,7 @@ const HEADINGS = {
     "### Assignment",
     "#### *",
     "### Knowledge check",
-    "### Additional resources",
+    "?",
   ],
   project: ["### Introduction", "*", "### Assignment", "*"],
 };
@@ -73,6 +73,11 @@ module.exports = {
       anyHeadings = true;
       const actual = levels[heading.tag] + " " + content;
       const expected = getExpected();
+
+      // Allow single wildcard heading (https://github.com/DavidAnson/markdownlint/issues/475)
+      if (expected === "?") {
+        return;
+      }
 
       if (wildcardRegex.test(expected)) {
         const nextExpected = getExpected();
