@@ -57,7 +57,7 @@ module.exports = {
     let matchAny = false;
     let headingToMatch = undefined;
     let hasError = false;
-    let anyHeadings = false;
+    let hasHeadingsInFile = false;
 
     const getExpected = () => requiredHeadings[i++] || "[None]";
     // https://regexr.com/7rf1o to test the following regex:
@@ -70,7 +70,7 @@ module.exports = {
         return;
       }
 
-      anyHeadings = true;
+      hasHeadingsInFile = true;
       const actual = levels[heading.tag] + " " + content;
       const expected = getExpected();
 
@@ -127,13 +127,19 @@ module.exports = {
       }
     });
 
-    const extraHeadings = requiredHeadings.length - i;
+    const missingExpectedHeadingCount = requiredHeadings.length - i;
+    const isWildcard =
+      wildcardRegex.test(requiredHeadings[i]) || requiredHeadings[i] === "?";
+    const isLastRequiredHeadingSpecific =
+      missingExpectedHeadingCount === 1 && !isWildcard;
+    const hasSpecificRequiredHeadings = requiredHeadings.some(
+      (heading) => !wildcardRegex.test(heading) && heading !== "?",
+    );
+
     if (
+      hasSpecificRequiredHeadings &&
       !hasError &&
-      (extraHeadings > 1 ||
-        (extraHeadings === 1 && !wildcardRegex.test(requiredHeadings[i]))) &&
-      (anyHeadings ||
-        !requiredHeadings.every((heading) => wildcardRegex.test(heading)))
+      (missingExpectedHeadingCount > 1 || isLastRequiredHeadingSpecific)
     ) {
       onError({
         lineNumber: params.lines.length,
