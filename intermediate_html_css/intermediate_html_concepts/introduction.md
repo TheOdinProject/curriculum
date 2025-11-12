@@ -29,7 +29,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is the purpose of Intermediate HTML and CSS Course?](#introduction)
+- [What is the purpose of the Intermediate HTML and CSS Course?](#introduction)
 
 ### Additional resources
 
