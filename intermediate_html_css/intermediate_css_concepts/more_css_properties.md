@@ -44,11 +44,13 @@ Opacity is another easy one that can be very useful in some circumstances. The `
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [MDN docs on `background`](https://developer.mozilla.org/en-US/docs/Web/CSS/background) to understand the different properties and values you can use.
-1. Read the MDN docs for [`border`](https://developer.mozilla.org/en-US/docs/Web/CSS/border) and [`border-radius`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius) to learn about their usage and syntax.
-1. Check out the [`box-shadow` docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) for more information.
-1. Read the [`overflow` docs](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow) to understand how to control overflow behavior.
-1. Check out the [`opacity` docs](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) for a definition and some examples.
+1. Check out the MDN docs for the following properties:
+   - [background](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+   - [border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+   - [border-radius](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
+   - [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+   - [overflow](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
+   - [opacity](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
 
 </div>
 
