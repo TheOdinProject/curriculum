@@ -77,10 +77,10 @@ You can declare variables using the `let` keyword. Let's try it! (No pun intende
 
 ```javascript
 let first_name = "John";
-let surname = "Doe";
+let last_name = "Doe";
 
 console.log(first_name);
-console.log(surname);
+console.log(last_name);
 ```
 
 What will the `console.log` output? Try it out!
