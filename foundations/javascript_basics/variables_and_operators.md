@@ -76,10 +76,10 @@ These are the building blocks of any program. You can think of variables as "sto
 You can declare variables using the `let` keyword. Let's try it! (No pun intended).
 
 ```javascript
-let name = "John";
+let first_name = "John";
 let surname = "Doe";
 
-console.log(name);
+console.log(first_name);
 console.log(surname);
 ```
 
