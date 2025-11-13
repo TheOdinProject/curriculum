@@ -41,37 +41,48 @@ Thinking of the board as a grid-based graph instead of a tree will help you appl
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+Your task is twofold:
 
-Your task is to build a function `knightMoves` that shows the shortest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
+Build a function knightMoves that shows the shortest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
+
+Create a simple graphical user interface (GUI) that visually represents an 8x8 chessboard and allows users to:
+
+Select starting and ending squares by clicking on the board.
+
+Display the shortest path found by your knightMoves function by highlighting the squares in sequence.
+
+Optionally animate the knight’s path step-by-step.
+
+Include controls to reset the board and select new positions.
 
 You can think of the board as having 2-dimensional coordinates. Calling your function would therefore look like:
 
-`knightMoves([0,0],[1,2]) // returns [[0,0],[1,2]]`
+knightMoves([0][0],[1][2]) // returns [[0][0],[1]]2]]
 
 <div class="lesson-note" markdown="1">
+Multiple shortest paths
+Sometimes there is more than one fastest path. Examples of this are shown below. Any answer is correct as long as it follows the rules and gives the shortest possible path.
 
-#### Multiple shortest paths
+knightMoves([0][0],[3][3]) may return [[0][0],[2][1],[3]] or [[0][0],[1][2],[3]].
 
-Sometimes *there is more than one fastest path*. Examples of this are shown below. Any answer is correct as long as it follows the rules and gives the shortest possible path.
+knightMoves([3][3],[0][0]) may return [[3][3],[2][1],[0]] or [[3][3],[1][2],[0]].
 
-- `knightMoves([0,0],[3,3])` may return `[[0,0],[2,1],[3,3]]` or `[[0,0],[1,2],[3,3]]`.
-- `knightMoves([3,3],[0,0])` may return `[[3,3],[2,1],[0,0]]` or `[[3,3],[1,2],[0,0]]`.
-- `knightMoves([0,0],[7,7])` may return `[[0,0],[2,1],[4,2],[6,3],[4,4],[6,5],[7,7]]` or `[[0,0],[2,1],[4,2],[6,3],[7,5],[5,6],[7,7]]`.
-
-</div>
-
-1. Think about the rules of the board and knight, and make sure to follow them.
-1. From every square, multiple moves are possible. Choose a data structure that will allow you to work with them. Don't allow any moves to go off the board.
-1. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
-1. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
-
-```bash
-  > knightMoves([3,3],[4,3])
-  => You made it in 3 moves!  Here's your path:
-    [3,3]
-    [4,5]
-    [2,4]
-    [4,3]
-```
+knightMoves([0][0],[7][7]) may return [[0][0],[2][1],[4][2],[6][3],[4][4],[6][5],]7][7]] or [[0][0],[2][1],[4][2],[6][3],[7][5],,].
 
 </div>
+Think about the rules of the board and knight, and make sure to follow them.
+
+From every square, multiple moves are possible. Choose a data structure that will allow you to work with them. Don't allow any moves to go off the board.
+
+Decide which search algorithm is best to use for this case. Hint: one of them could be a potentially infinite series.
+
+Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square. Output what that full path looks like, e.g.:
+
+bash
+ > knightMoves([3,3],[4,3])
+ => You made it in 3 moves! Here's your path:
+   [3,3]
+   [4,5]
+   [2,4]
+   [4,3]
+Build a GUI that enables users to interactively select start and end points, visualize the board, and see the knight’s shortest path through highlighting or animation.
