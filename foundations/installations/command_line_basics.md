@@ -85,14 +85,6 @@ Some of the following resources assume you have a Desktop folder located in your
 
 </div>
 
-<div class="lesson-note" markdown="1">
-
-#### Instructions for WSL2 users
-
-Use the `wget` command along with the link given in the `Download files` section to get the zip file in your WSL2 installation (`wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip`). You will also have to install unzip by using the command `sudo apt install unzip` and then `unzip shell-lesson-data.zip` to unzip the file. Keep in mind that throughout the course linked in the first step below, your terminal output may look slightly different from what is shown in the lessons. Anytime the course asks you to go to the Desktop, you will instead be going to the home directory which can be done by using the cd command (`cd ~`).
-
-</div>
-
 <div class="lesson-note lesson-note--warning" markdown=1>
 
 #### Using the correct OS
@@ -102,6 +94,14 @@ Many of these resources assume you're using a Mac or Linux environment. If you d
 </div>
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There, you will find a full complement of lessons on using the CLI, but for now, just focus on completing the following lessons:
+
+   <div class="lesson-note" markdown="1">
+
+   #### Doing the SWCarpentry course on WSL2
+
+   Use the `wget` command along with the link given in the `Download files` section to get the zip file in your WSL2 installation (`wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip`). You will also have to install unzip by using the command `sudo apt install unzip` and then `unzip shell-lesson-data.zip` to unzip the file. Keep in mind that throughout this course, your terminal output may look slightly different from what is shown in the lessons. Anytime the course asks you to go to the Desktop, you will instead be going to the home directory which can be done by using the cd command (`cd ~`).
+
+   </div>
 
    - [Download files](https://swcarpentry.github.io/shell-novice/#download-files) - only follow the instructions in this section. You don't need to install any software and can move onto the next bullet point in this list.
    - [Introducing the Shell](https://swcarpentry.github.io/shell-novice/01-intro.html)
