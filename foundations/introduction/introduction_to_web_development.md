@@ -108,7 +108,6 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What kind of web developer will The Odin Project teach you to be?](#types-of-web-developers)
 - [What are the different types of careers you could have?](#types-of-careers)
 - [What are some of the tools you'll be using regularly?](#tools-of-the-trade)
-- [Why choose The Odin Project?](#why-odin)
 
 ### Additional resources
 
