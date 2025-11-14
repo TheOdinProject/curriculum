@@ -70,7 +70,7 @@ If you prefer to have VSCode update automatically alongside your other system up
 
 #### Notice about unsandboxed download
 
-You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [You can read a Reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
+If you see a something like `N: Download is performed unsandboxed (...)`, you don't need to worry about it as the [`N:` just means it's a notice and not a warning](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/).
 
 </div>
 
