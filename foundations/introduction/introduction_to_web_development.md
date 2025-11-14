@@ -15,7 +15,6 @@ This section contains a general overview of topics that you will learn in this l
 - Learn about different types of web developers.
 - Recognize different types of clients and employers.
 - Learn about tools you'll be using regularly.
-- Find out why The Odin Project is so great.
 
 ### Types of web developers
 
