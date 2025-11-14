@@ -18,10 +18,10 @@ Before we dive into the specifics of fetching data in React, let's briefly revis
 
 ```javascript
 const image = document.querySelector("img");
-fetch("https://jsonplaceholder.typicode.com/photos")
+fetch("https://picsum.photos/v2/list")
   .then((response) => response.json())
   .then((response) => {
-    image.src = response[0].url;
+    image.src = response[0].download_url;
   })
   .catch((error) => console.error(error));
 ```
@@ -41,9 +41,9 @@ const Image = () => {
   const [imageURL, setImageURL] = useState(null);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos")
+    fetch("https://picsum.photos/v2/list")
       .then((response) => response.json())
-      .then((response) => setImageURL(response[0].url))
+      .then((response) => setImageURL(response[0].download_url))
       .catch((error) => console.error(error));
   }, []);
 
@@ -94,14 +94,14 @@ And finally, to assign `error` a value when a request fails, we'll add a conditi
 
 ```jsx
 useEffect(() => {
-  fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+  fetch("https://picsum.photos/v2/list", { mode: "cors" })
     .then((response) => {
       if (response.status >= 400) {
         throw new Error("server error");
       }
       return response.json();
     })
-    .then((response) => setImageURL(response[0].url))
+    .then((response) => setImageURL(response[0].download_url))
     .catch((error) => setError(error));
 }, []);
 ```
@@ -127,14 +127,14 @@ const Image = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+    fetch("https://picsum.photos/v2/list", { mode: "cors" })
       .then((response) => {
         if (response.status >= 400) {
           throw new Error("server error");
         }
         return response.json();
       })
-      .then((response) => setImageURL(response[0].url))
+      .then((response) => setImageURL(response[0].download_url))
       .catch((error) => setError(error))
       .finally(() => setLoading(false));
   }, []);
@@ -168,14 +168,14 @@ const useImageURL = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+    fetch("https://picsum.photos/v2/list", { mode: "cors" })
       .then((response) => {
         if (response.status >= 400) {
           throw new Error("server error");
         }
         return response.json();
       })
-      .then((response) => setImageURL(response[0].url))
+      .then((response) => setImageURL(response[0].download_url))
       .catch((error) => setError(error))
       .finally(() => setLoading(false));
   }, []);
