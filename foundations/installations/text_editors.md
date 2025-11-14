@@ -1,4 +1,5 @@
-<!-- markdownlint-disable MD024 MD043 -->
+<!-- TODO: Revisit lesson/heading structure to remove need to disable rules -->
+<!-- markdownlint-disable MD024 TOP004 -->
 
 ### Introduction
 
@@ -55,7 +56,7 @@ If you prefer to have VSCode update automatically alongside your other system up
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### A note on typing passwords in the terminal
+#### Typing passwords in the terminal
 
   When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
 
@@ -66,6 +67,8 @@ If you prefer to have VSCode update automatically alongside your other system up
 </div>
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
+#### In case you get a notice
 
 You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [You can read a Reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
 
