@@ -68,7 +68,7 @@ If you prefer to have VSCode update automatically alongside your other system up
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### In case you get a notice
+#### Notice about unsandboxed download
 
 You might see a notice starting with `N: Download is performed unsandboxed (...)`. You don't need to worry about it. [You can read a Reddit post for more information.](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/)
 
