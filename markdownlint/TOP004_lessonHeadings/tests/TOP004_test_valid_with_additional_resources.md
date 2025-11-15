@@ -18,7 +18,9 @@ Text content
 
 Assignment content
 
-#### Extra credit
+#### Assignment subsection
+
+Subsection content
 
 </div>
 
