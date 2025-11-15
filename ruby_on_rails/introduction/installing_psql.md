@@ -5,9 +5,7 @@
 
 One of the great things about the Rails' convention over configuration philosophy is it provides sensible defaults out of the box so that you can get started quickly. However, SQLite is typically not used for production. One major issue is that many hosting providers have ephemeral file systems which means your database can be deleted.
 
-For the apps written so far, it's probably not a big deal. As we progress to writing larger applications, though, it will become increasingly sensible to make sure that data persists even after a restart or hibernation.
-
-It is also safer to make sure the application development environment is as close to the production environment as possible. This helps to avoid problems that stem from using different tools in different environments.
+While Rails allows you to use different databases for different environments, it is safer to make sure the application development environment is as close to the production environment as possible. This helps to avoid problems that stem from using different tools in different environments.
 
 ### Lesson overview
 
@@ -111,6 +109,8 @@ You can try to run `psql` now, but you will get an error that the database does 
 
 <div class="lesson-note" markdown="1">
 
+#### Capital letters in usernames
+
 If your username has any capital letters, you must surround it in quotes when running the below command.
 
 </div>
@@ -202,6 +202,8 @@ After you've run this command and restarted your terminal, you can run `which ps
 If you don't see a similar output, come visit [our Discord server](https://discord.gg/fbFCkYabZB) for some help!
 
 <div class="lesson-note lesson-note--warning">
+
+#### Postgres.app security
 
 Please note that that Postgres.app installs servers without any security configured, and will accept all local connections without a password. This is fine for our development environment, but be aware that when you move things to production, this will not be a good strategy.
 

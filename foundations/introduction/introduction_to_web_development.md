@@ -8,6 +8,14 @@ The work is typically project-focused and involves collaborating with a team to 
 Web development could be a good profession for you if you like solving logical problems, building useful things, and experimenting with new technologies.
 Web developers are in high demand, generally have a good work-life balance, and command comfortable salaries. Google your specific location to get a better sense of your local web development job opportunities.
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Learn about different types of web developers.
+- Recognize different types of clients and employers.
+- Learn about tools you'll be using regularly.
+
 ### Types of web developers
 
 Earlier, we mentioned that web development work could be in the front end, the back end, or the full stack. What exactly do these terms mean?
@@ -92,6 +100,14 @@ And it might even be life-changing.
 1. Read Udacity's blog post on [front-end, back-end and full stack developers.](https://www.udacity.com/blog/2020/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
 </div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What kind of web developer will The Odin Project teach you to be?](#types-of-web-developers)
+- [What are the different types of careers you could have?](#types-of-careers)
+- [What are some of the tools you'll be using regularly?](#tools-of-the-trade)
 
 ### Additional resources
 
