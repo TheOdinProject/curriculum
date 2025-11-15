@@ -100,6 +100,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Read the chapter on [Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#_basic_merging) by Git-SCM to visualize and understand how branching and merging are used in real-world workflows, and discover why it’s such an amazing tool.
+- Read the chapter on [Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) by Git-SCM to visualize and understand how branching and merging are used in real-world workflows, and discover why it’s such an amazing tool.
 - Make pushing your local commits to remote branches **easier** with the command `git push -u origin <branch>`. It automatically links the local branch you push with the remote one. [Read Talha Ashar's educative.io article](https://www.educative.io/edpresso/what-is-the-git-push--u-remote-branch-name-command) and commit faster to a remote branch with a `git push` command.
 - Learn Git Branching by going through this [interactive visualizer](https://learngitbranching.js.org/) by Peter Cottle. You can learn the substantial commands about branching while seeing how the commands you write affect your visually presented branch tree.
