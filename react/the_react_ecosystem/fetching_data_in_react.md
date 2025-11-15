@@ -18,15 +18,33 @@ Before we dive into the specifics of fetching data in React, let's briefly revis
 
 ```javascript
 const image = document.querySelector("img");
-fetch("https://jsonplaceholder.typicode.com/photos")
+fetch("https://picsum.photos/v2/list")
   .then((response) => response.json())
   .then((response) => {
-    image.src = response[0].url;
+    image.src = response[0].download_url;
   })
   .catch((error) => console.error(error));
 ```
 
-We're making a request to the JSONPlaceholder API to retrieve an image, and then setting that URL to the src of an `<img>` element.
+We're making a request to the Picsum API to retrieve an image, and then setting that URL to the src of an `<img>` element.
+
+### Including an identification header
+
+Some APIs might require clients to identify their traffic. When this is the case, you can do it by including a custom identifier header, such as a User-Agent (or any other identifier the API owner specifies) inside the request options. The pattern is the same as adding any other header.
+
+```javascript
+const image = document.querySelector("img");
+fetch("https://picsum.photos/v2/list", {
+  headers: {
+    "User-Agent": "the-odin-project"
+  }
+})
+  .then((response) => response.json())
+  .then((response) => {
+    image.src = response[0].download_url;
+  })
+  .catch((error) => console.error(error));
+```
 
 ### Using fetch in React components
 
@@ -41,10 +59,14 @@ const Image = () => {
   const [imageURL, setImageURL] = useState(null);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos")
-      .then((response) => response.json())
-      .then((response) => setImageURL(response[0].url))
-      .catch((error) => console.error(error));
+    fetch("https://picsum.photos/v2/list", {
+    headers: {
+      "User-Agent": "the-odin-project"
+    }
+  })
+    .then((response) => response.json())
+    .then((response) => setImageURL(response[0].download_url))
+    .catch((error) => console.error(error));
   }, []);
 
   return (
@@ -94,14 +116,18 @@ And finally, to assign `error` a value when a request fails, we'll add a conditi
 
 ```jsx
 useEffect(() => {
-  fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+  fetch("https://picsum.photos/v2/list", { mode: "cors" }, {
+    headers: {
+      "User-Agent": "the-odin-project"
+    }
+  })
     .then((response) => {
       if (response.status >= 400) {
         throw new Error("server error");
       }
       return response.json();
     })
-    .then((response) => setImageURL(response[0].url))
+    .then((response) => setImageURL(response[0].download_url))
     .catch((error) => setError(error));
 }, []);
 ```
@@ -127,14 +153,18 @@ const Image = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
-      .then((response) => {
+    fetch("https://picsum.photos/v2/list", { mode: "cors" }, {
+    headers: {
+      "User-Agent": "the-odin-project"
+    }
+  })
+    .then((response) => {
         if (response.status >= 400) {
           throw new Error("server error");
         }
         return response.json();
       })
-      .then((response) => setImageURL(response[0].url))
+      .then((response) => setImageURL(response[0].download_url))
       .catch((error) => setError(error))
       .finally(() => setLoading(false));
   }, []);
@@ -168,14 +198,18 @@ const useImageURL = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
-      .then((response) => {
+    fetch("https://picsum.photos/v2/list", { mode: "cors" }, {
+    headers: {
+      "User-Agent": "the-odin-project"
+    }
+  })
+    .then((response) => {
         if (response.status >= 400) {
           throw new Error("server error");
         }
         return response.json();
       })
-      .then((response) => setImageURL(response[0].url))
+      .then((response) => setImageURL(response[0].download_url))
       .catch((error) => setError(error))
       .finally(() => setLoading(false));
   }, []);
