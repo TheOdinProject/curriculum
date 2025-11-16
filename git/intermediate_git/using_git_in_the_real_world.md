@@ -65,6 +65,8 @@ We've got one main branch -- `main`. `main` is for production-ready code. Any co
 
 <div class="lesson-note" markdown="1">
 
+#### Using fetch and merge to be explicit
+
 Note that a `git fetch upstream` followed by a `git merge upstream/some_branch` is the EXACT same thing as doing a `git pull upstream some_branch`. We prefer to split it up here so that we can explicitly walk through the steps.
 
 </div>
@@ -75,6 +77,8 @@ Note that a `git fetch upstream` followed by a `git merge upstream/some_branch` 
 1. Now you want to send your feature branch back up to your `origin` (your fork of the `upstream` repository). You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request. Use `git push origin your_feature_name` to ship your feature branch up to your fork on GitHub.
 
    <div class="lesson-note lesson-note--critical" markdown="1">
+
+   #### Don't open unnecessary PRs
 
    **If you have not been assigned an issue to work on, stop here.** Do not open a test/practice PR, and any such PRs will be treated as spam and closed by a maintainer without review.
 
