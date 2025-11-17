@@ -42,6 +42,8 @@ This is the change I made to the codebase
 
 <div class="lesson-note lesson-note--tip" markdown=1>
 
+#### Commit subject character limit
+
 GitHub has a 72-character limit, so we recommend keeping your commits' subjects within this amount.
 
 </div>
