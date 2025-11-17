@@ -10,10 +10,10 @@ So if someone does successfully "log in", how does the server recognize that the
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Describe what sessions are.
-- Explain how sessions and cookies can be used together to for session management to persit logins.
-- Implement authentication with sessions.
-- Explain how and why passwords are hashed before being stored.
+- Server-side sessions.
+- Using cookies and sessions for session management.
+- Implementing authentication with sessions.
+- Password hashing.
 
 ### Sessions
 
