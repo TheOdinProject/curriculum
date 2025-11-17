@@ -294,7 +294,7 @@ Take the calculator example into consideration. It's very easy to imagine a scen
 
 #### Why the IIFE?
 
-But then why not just write the factory function then call it once? Why bother with the IIFE? Well without the IIFE, we'd have to give the function a name so we can call it afterwards. Now it has a name, it's both taken a name up in that scope and also means it's reusable in that scope. That may not be desirable - we may purposely want a **singleton**. By wrapping the factory in an IIFE, we achieve the same code flow, except we no longer need to name the function, which also means it can't be referenced later. We are packing the code that creates a calculator into what's effectively a module, then exposing only what needs to be used later in the code: the `calculator` object.
+But then why not just write the factory function then call it once? Why bother with the IIFE? Well without the IIFE, we'd have to give the function a name so we can call it afterwards. Now it has a name, it's both taken a name up in that scope and also means it's reusable in that scope. That may not be desirable - we may purposely want to invoke it only once. By wrapping the factory in an IIFE, we achieve the same code flow, except we no longer need to name the function, which also means it can't be referenced later. We are packing the code that creates a calculator into what's effectively a module, then exposing only what needs to be used later in the code: the `calculator` object.
 
 ### Assignment
 
