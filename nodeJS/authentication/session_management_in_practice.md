@@ -8,8 +8,8 @@ In this lesson, we will explore and compare our options specifically in the cont
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Compare pros and cons of stateful and stateless approaches to authentication and session management.
-- Explore ways to handle authentication when the client and server are not hosted on the same domain.
+- Comparison of stateful and stateless approaches to authentication and session management.
+- Approaches to authentication when hosting on different domains.
 
 ### Stateful vs stateless
 
