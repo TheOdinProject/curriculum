@@ -8,10 +8,10 @@ An alternative approach to authentication, and one that is common with REST APIs
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Describe what JSON web tokens (JWTs) are.
-- Describe what stateless authentication is.
-- Explain some of the differences between authentication with sessions and JWTs.
-- Implement basic stateless authentication with JWTs.
+- JSON web tokens (JWTs).
+- Stateless authentication.
+- Differences between authentication with sessions and JWTs.
+- Implementing basic stateless authentication with JWTs.
 
 ### JWTs
 
