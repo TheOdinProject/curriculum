@@ -6,10 +6,10 @@ Before we dive into how to authenticate, let's first have a brief look at cookie
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Describe what cookies are.
-- Describe what you can use cookies for.
-- Explain some of the different attributes of cookies.
-- Explain when and why you might need to notify users for consent to use cookies.
+- What cookies are.
+- Uses for cookies.
+- Cookie attributes.
+- Cookie consent notifications.
 
 ### Cookies
 
