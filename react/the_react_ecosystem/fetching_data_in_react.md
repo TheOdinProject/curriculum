@@ -64,10 +64,10 @@ const Image = () => {
 
   useEffect(() => {
     fetch("https://picsum.photos/v2/list", {
-    headers: {
-      "User-Agent": "the-odin-project"
-    }
-  })
+      headers: {
+        "User-Agent": "the-odin-project"
+      }
+    })
     .then((response) => response.json())
     .then((response) => setImageURL(response[0].download_url))
     .catch((error) => console.error(error));
@@ -157,12 +157,12 @@ const Image = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://picsum.photos/v2/list", { mode: "cors" }, {
-    headers: {
-      "User-Agent": "the-odin-project"
-    }
-  })
-    .then((response) => {
+    fetch("https://picsum.photos/v2/list", {
+      headers: {
+        "User-Agent": "the-odin-project"
+      }
+    })
+      .then((response) => {
         if (response.status >= 400) {
           throw new Error("server error");
         }
