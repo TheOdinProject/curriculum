@@ -14,12 +14,12 @@ Luckily for you, these complex algorithmic problems have all been solved many ti
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Learn about data structures.
-- Find out about stacks and queues, and their differences.
-- Read about the best way to implement stacks and queues in Ruby.
-- Understand why we have so many different search algorithms.
-- Be able to explain what is breadth-first-search (BFS) and depth-first-search (DFS) algorithm, and their use cases.
-- Know when BFS would be impractical.
+- Data structures.
+- Stacks and queues, their usage, and their differences.
+- The best way to implement stacks and queues in Ruby.
+- Why we have so many different search algorithms.
+- Breadth-first-search (BFS) and depth-first-search (DFS) algorithms, and their use cases.
+- When BFS would be impractical.
 
 ### Assignment
 
