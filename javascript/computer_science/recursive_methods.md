@@ -14,12 +14,12 @@ In this brief lesson, you'll get a chance to learn more about when and how to us
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Why is recursion a useful technique for solving a big problem?
-- What are the limitations of using recursive solutions?
-- What types of problems are more suited for loops than recursion?
-- What is meant by "recursive depth"?
-- What is a "stack overflow" (the concept, not the website)?
-- Why is that relevant to a recursive problem?
+- Understand why recursion is a useful technique for solving large problems.
+- Recognize the limitations of using recursive solutions.
+- Identify which types of problems are better solved using loops instead of recursion.
+- Learn what is meant by the concept of "recursive depth".
+- Understand what a "stack overflow" is (the concept, not the website).
+- Learn why stack overflow is relevant to recursive problems.
 
 ### Assignment
 
@@ -39,6 +39,8 @@ This section contains a general overview of topics that you will learn in this l
   1. Solve each of the questions from this [Code Quiz](https://www.codingame.com/playgrounds/5422/js-interview-prep-recursion) on Recursion. It is not important to have recursive algorithms committed to memory at this point; just understand how to create and use them.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Incomplete solution for question 6
 
 The solution for "Question 6: Search JS object" is incomplete. See [a more accurate solution for `contains()`](https://gist.github.com/JoshDevHub/b00125f483d4a1ecc257eaa030916973) after you solve it.
 

@@ -82,7 +82,7 @@ If you want to get all the posts created by a given user, you need to tell SQL w
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Clarifying what `LEFT` is in a `JOIN`
+#### Clarifying what LEFT is in a JOIN
 
 The "left" table is the original table (the one that the `FROM` clause was `ON`), e.g., `users` in examples below.
 

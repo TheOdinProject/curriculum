@@ -92,13 +92,13 @@ export default function App() {
 
 There are a few things going on here.
 
-- The `Button` functional component now receives `props` as a function argument. The individual properties are then referenced within the component via `props.propertyName`.
+- The `Button` functional component now receives `props` as a function parameter. The individual properties are then referenced within the component via `props.propertyName`.
 - When rendering the `Button` components within `App`, the `prop` values are defined on each component.
 - Inline styles are dynamically generated and then applied to the `button` element.
 
 ### Prop destructuring
 
-A very common pattern you will come across in React is prop [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment). Unpacking your props in the component arguments allows for more concise and readable code. Check out prop destructuring in action in the example below.
+A very common pattern you will come across in React is prop [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment). Unpacking your props in the component parameters allows for more concise and readable code. Check out prop destructuring in action in the example below.
 
 ```jsx
 function Button({ text, color, fontSize }) {
@@ -250,6 +250,8 @@ export default function App() {
 When supplying an argument to the function, we can't just write `onClick={handleClick('https://www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the argument. Like the previous example, this is to prevent the function being called during the render.
 
 <div class="lesson-note" markdown="1" >
+
+#### Alternative implementation with curried functions
 
 There are also other ways to implement this behavior. Hint: [curried functions!](https://javascript.info/currying-partials)
 

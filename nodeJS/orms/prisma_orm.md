@@ -39,6 +39,8 @@ Now do this over and over for each entity, across multiple projects. You get the
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Refactor your previous projects
+
 If you haven't applied any of the above paradigms in your previous projects, we highly recommend going back and refactoring. You might end up with a very basic mini ORM for your project. This will help you appreciate a bit more how a proper ORM will make your life easier.
 
 </div>
@@ -168,5 +170,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Learn Prisma In 60 Minutes](https://www.youtube.com/watch?v=RebA5J-rlwg) by Web Dev Simplified.
 - [Prisma Crash Course](https://www.youtube.com/watch?v=CYH04BJzamo) by Traversy Media.

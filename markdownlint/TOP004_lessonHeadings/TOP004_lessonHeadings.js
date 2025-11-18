@@ -17,7 +17,7 @@ const HEADINGS = {
 function isProject(filePath) {
   const fileName = basename(filePath);
   // don't include names like "projections.md"
-  return fileName.startsWith("project_") || fileName.startsWith("project-");
+  return fileName.startsWith("project_");
 }
 function addError(onError, lineNumber, detail, context, range, fixInfo) {
   onError({

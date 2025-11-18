@@ -25,7 +25,16 @@ In this lesson, we'll install PostgreSQL and in the next lesson we'll learn how 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
+- Explain what the PostgreSQL shell is.
 - How to install PostgreSQL.
+
+### PostgreSQL shell
+
+The PostgreSQL shell, also known as psql, is a terminal-based front end to PostgreSQL that allows users to interactively execute SQL queries and manage the database.
+
+It is typically included with the PostgreSQL installation and can be accessed through the command line. Its scope includes running queries, creating and modifying database structures, and interacting with the database in a command-line environment, psql provides a number of meta-commands and various shell-like features to facilitate writing scripts and automating a wide variety of tasks.
+
+The database using the psql terminal is located inside the file system or local machine, as PostgreSQL stores databases in ordinary files within the filesystem. The default location of the data directory may vary between different operating systems.
 
 ### Installing PostgreSQL
 

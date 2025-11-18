@@ -42,7 +42,7 @@ buttons.forEach(button => {
 
 Of course, this example then makes it *less* understandable for screen reader users (remember, these "buttons" won't provide any context). Not only does using the `<button>` element provide the context screen reader users need, but they're focusable and have event handling for keyboards *by default*: pressing the <kbd>Space</kbd> or <kbd>Enter</kbd> keys on a keyboard when a `<button>` has focus will trigger the "click" event.
 
-<span id="interative-elements-keyboard">The point is that you need to make sure that any interactive elements are focusable by and have event handling for keyboards. Using the correct semantic HTML can make this a lot easier of a goal to accomplish, but if you ever need to use an element that isn't focusable or doesn't have any event handling by default, then you need to add both of those functionalities in manually.</span>
+<span id="interactive-elements-keyboard">The point is that you need to make sure that any interactive elements are focusable by and have event handling for keyboards. Using the correct semantic HTML can make this a lot easier of a goal to accomplish, but if you ever need to use an element that isn't focusable or doesn't have any event handling by default, then you need to add both of those functionalities in manually.</span>
 
 ### Focus styles
 
@@ -89,14 +89,16 @@ One way to prevent this frustrating behavior is to give each individual item in 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Watch [What is Focus?](https://www.youtube.com/watch?v=EFv9ubbZLKw&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=3) to see some issues that occur when trying to change the tab order, then watch [Controlling focus with tabindex](https://www.youtube.com/watch?v=Pe0Ce1WtnUM&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=4) to see how using the `tabindex` attribute can affect the tab order.
+
 </div>
 
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What are two things that interactive elements must have for keyboard users?](#interative-elements-keyboard)
+- [What are two things that interactive elements must have for keyboard users?](#interactive-elements-keyboard)
 - [What are focus styles?](#focus-styles)
 - [Why should you never completely remove focus styles from an element?](#focus-never-remove)
 - [What is the tab order?](#tab-order)
@@ -104,6 +106,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn’t required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Skip Links](https://webaim.org/techniques/skipnav/) are another form of accessibility for keyboard users and can be especially helpful for those who require more effort to tab through the contents of a page.

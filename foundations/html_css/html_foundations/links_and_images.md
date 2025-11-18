@@ -317,7 +317,7 @@ While not strictly required, specifying height and width
 attributes in image tags helps the browser layout the page without causing the page to jump and flash.
 
 It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it. This is to
-prevent content jumping as images load. Use the image's actual dimensions when specifying size. 
+prevent content jumping as images load. Use the image's actual dimensions when specifying size.
 
 Here is our Odin Project logo example with height and width attributes included:
 
@@ -337,9 +337,10 @@ Go ahead and update the `odin-links-and-images` project with width and height at
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Watch Kevin Powell's [HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM).
-1. Watch Kevin Powell's [HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ).
-1. Watch Kevin Powell's [File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo).
+1. Watch Kevin Powell's videos:
+   - [HTML Links](https://www.youtube.com/watch?v=tsEQgGjSmkM).
+   - [HTML Images](https://www.youtube.com/watch?v=0xoztJCHpbQ).
+   - [File Structure](https://www.youtube.com/watch?v=ta3Oxx7Yqbo).
 1. Read and code along with Interneting is Hard's article on [Links and Images](https://internetingishard.netlify.app/html-and-css/links-and-images). Pay close attention to the section that covers the four main image formats.
 
 </div>

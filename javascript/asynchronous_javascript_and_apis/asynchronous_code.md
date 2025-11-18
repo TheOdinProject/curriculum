@@ -29,8 +29,6 @@ Here, the function `addEventListener()` takes a callback (the "do something" fun
 
 You will likely recognize this pattern as something that happens *all the time* in JavaScript code.  Unfortunately, though they are useful in situations like the above example, using callbacks can get out of hand, especially when you need to chain several of them together in a specific order.  The rest of this lesson discusses patterns and functions that will help keep you out of [callback hell](https://www.geeksforgeeks.org/javascript/what-to-understand-callback-and-callback-hell-in-javascript/).
 
-Take a moment to read the section on callbacks in [this article](https://github.com/maxogden/art-of-node#callbacks) before moving on.  Or, if you prefer to watch a video of [Callback functions](https://www.youtube.com/watch?v=QRq2zMHlBz4).
-
 ### Promises
 
 There are multiple ways that you can handle asynchronous code in JavaScript, and they all have their use cases.  Promises are one such mechanism, and they're one you will see somewhat often when using other libraries or frameworks.  Knowing what they are and how to use them is quite useful.
@@ -72,6 +70,7 @@ Of course, there are many more occasions where one would want to use Promises be
 
 <div class="lesson-content__panel" markdown="1">
 
+1. Read the [section on callbacks in the Art of Node article](https://github.com/maxogden/art-of-node#callbacks), which explains how callbacks handle asynchronous operations.
 1. Read this [Promises article](https://davidwalsh.name/promises). It's a good starting place and it's short and to the point.
 1. Watch this [video about promises](https://youtu.be/DHvZLI7Db8E).  It's a good place to get a feel for how one might actually use promises in the wild.
 1. Watch this [video titled "What is Event Loop?"](https://www.youtube.com/watch?v=8aGhZQkoFbQ) to understand how asynchronous code works in JavaScript.

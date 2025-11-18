@@ -31,7 +31,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is a JSON web token?](https://dev.to/_arpy/learn-using-jwt-with-passport-authentication-22n8)
+- [What is a JSON web token?](https://www.youtube.com/watch?v=7Q17ubqLfaM)
 - [What are two things a secure token will do?](#secure-token)
 - [Where in the code is a secure token passed?](#pass-token)
 

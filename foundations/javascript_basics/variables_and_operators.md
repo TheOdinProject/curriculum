@@ -76,11 +76,11 @@ These are the building blocks of any program. You can think of variables as "sto
 You can declare variables using the `let` keyword. Let's try it! (No pun intended).
 
 ```javascript
-let name = "John";
-let surname = "Doe";
+let firstName = "John";
+let lastName = "Doe";
 
-console.log(name);
-console.log(surname);
+console.log(firstName);
+console.log(lastName);
 ```
 
 What will the `console.log` output? Try it out!
@@ -120,9 +120,15 @@ There is also a third way, `var`, which was the original way variables were decl
 
 ### Numbers
 
-Numbers are the building blocks of programming logic! In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important. Luckily, it's also fairly straightforward.
+Numbers are the building blocks of programming logic! In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math, so knowing how numbers work is obviously quite important. Luckily, in JavaScript, the way numbers behave is quite familiar.
 
-If you went to school, you will likely not find the concept too difficult to grasp. For example, the mathematical expression `(3 + 2) - 76 * (1 + 1)` is also valid JavaScript. If you put that into a `console.log`, it'll evaluate the expression and output the correct number. Try it!
+For instance, JavaScript follows the standard mathematical **Order of Operations** (often remembered by acronyms like **PEMDAS** or **BODMAS**). This means:
+
+1.  **Parentheses** (or Brackets) are evaluated first.
+2.  **Multiplication** and **Division** are done next, from left to right.
+3.  **Addition** and **Subtraction** are done last, from left to right.
+
+For example, the mathematical expression `(3 + 2) - 76 * (1 + 1)` is perfectly valid JavaScript and will evaluate exactly as you'd expect, if you put that expression into a `console.log`.
 
 ### Assignment
 
