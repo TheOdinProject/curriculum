@@ -202,12 +202,12 @@ const useImageURL = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://picsum.photos/v2/list", { mode: "cors" }, {
-    headers: {
-      "User-Agent": "the-odin-project"
-    }
-  })
-    .then((response) => {
+    fetch("https://picsum.photos/v2/list", {
+      headers: {
+        "User-Agent": "the-odin-project"
+      }
+    })
+      .then((response) => {
         if (response.status >= 400) {
           throw new Error("server error");
         }
