@@ -332,7 +332,7 @@ A warning... this doesn't work:
 Player.prototype = Person.prototype;
 ```
 
-because it will set `Player.prototype` to directly refer to `Person.prototype` (i.e. not a copy), which could cause problems if you want to edit something in the future. Consider one more example:
+Both `Player.prototype` and `Person.prototype` become the exact same object in memory. This means any changes made to `Player.prototype` will also affect `Person.prototype`, which is not the intended behavior. Instead, we should make `Player.prototype` inherit from `Person.prototype`, rather than making them the same object. Consider one more example:
 
 ```javascript
 function Person(name) {
