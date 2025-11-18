@@ -106,7 +106,7 @@ While the `color: red` declaration would take precedence, the `background-color:
 
 #### Not everything adds to specificity
 
-When comparing selectors, you may come across special symbols for the universal selector (*) as well as combinators (+, ~, >, and an empty space). We will cover these later in the curriculum, so there is no need to dive into them yet. The core concept is that these symbols do not inherently convey any additional specificity.
+When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). The ones you have not yet seen, we will cover these later in the curriculum, so there is no need to dive into them yet. The core concept is that these symbols do not inherently convey any additional specificity.
 
 ```css
 /* rule 1 */
