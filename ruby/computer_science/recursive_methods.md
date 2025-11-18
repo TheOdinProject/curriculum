@@ -14,12 +14,12 @@ In this brief lesson, you'll get a chance to learn more about when and how to us
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Understand why recursion is a useful technique for solving large problems.
-- Recognize the limitations of using recursive solutions.
-- Identify which types of problems are better solved using loops instead of recursion.
-- Learn what is meant by the concept of "recursive depth".
-- Understand what a "stack overflow" is (the concept, not the website).
-- Learn why stack overflow is relevant to recursive problems.
+- Why recursion is a useful technique for solving large problems.
+- The limitations of using recursive solutions.
+- Which types of problems are better solved using loops instead of recursion.
+- The concept of "recursive depth".
+- What a "stack overflow" is (the concept, not the website).
+- Why stack overflow is relevant to recursive problems.
 
 ### Assignment
 
