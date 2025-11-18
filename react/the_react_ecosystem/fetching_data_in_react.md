@@ -120,7 +120,7 @@ And finally, to assign `error` a value when a request fails, we'll add a conditi
 
 ```jsx
 useEffect(() => {
-  fetch("https://picsum.photos/v2/list", { mode: "cors" }, {
+  fetch("https://picsum.photos/v2/list", {
     headers: {
       "User-Agent": "the-odin-project"
     }
