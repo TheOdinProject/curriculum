@@ -116,7 +116,7 @@ Feel free to use whatever you feel more comfortable with. We'll still refer to t
       1. `> p1.comments.first` should return the comment `c1`.
       1. `> c1.post` should return the post `p1`.
 
- If any of those don't work, double check your associations.  Sometimes the error messages can be helpful in prompting you for how to set up those associations.
+If any of those don't work, double check your associations.  Sometimes the error messages can be helpful in prompting you for how to set up those associations.
 
 </div>
 
