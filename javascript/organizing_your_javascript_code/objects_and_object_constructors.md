@@ -198,13 +198,12 @@ Now, to understand this code, let's use the three points from earlier:
 
 1. **All objects in JavaScript have a `[[Prototype]]`**:
    - You can check the object's `[[Prototype]]` by using the [`Object.getPrototypeOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf) function on the object, like `Object.getPrototypeOf(player1)`.
-   - The return value (result) of this function refers to the `.prototype` property of the Object Constructor (i.e., `Player(name, marker)`) - `Object.getPrototypeOf(player1) === Player.prototype`.
+   - The return value (result) of this function refers to the `.prototype` property of the `Player` constructor (i.e., `Player(name, marker)`) - `Object.getPrototypeOf(player1) === Player.prototype`.
 1. **The [[Prototype]] is another object...**
-   - The *value* of the Object Constructor's `.prototype` property (i.e., `Player.prototype`) contains the `prototype` object.
-   - The *reference* to this value of `Player.prototype` is stored in every `Player` object, every time a `Player` object is created.
-   - Hence, you get a `true` value returned when you check the Objects [[Prototype]] - `Object.getPrototypeOf(player1) === Player.prototype`.
-1. **...that the original object *inherits* from, and has access to all of its [[Prototype]]'s methods and properties**:
-   - As said in the earlier point, every `Player` object has a value which refers to `Player.prototype`. So: `Object.getPrototypeOf(player1) === Object.getPrototypeOf(player2)` (returns `true`).
+   - The *value* of the `Player` constructor's `.prototype` property (`Player.prototype`) contains an object.
+   - The *reference* to the object at `Player.prototype` is stored in every instance of a `Player` object as its `[[Prototype]]`.
+   - Hence, `true` is returned when you get `player1`'s `[[Prototype]]` and check for referential equality against the object at `Player.prototype`.
+1. **...that the original object *inherits* from, and has access to all of its `[[Prototype]]`'s methods and properties**:
    - So, any properties or methods defined on `Player.prototype` will be available to the created `Player` objects!
 
 The last sub-item needs a little more explanation. What does defining 'on the prototype' mean? Consider the following code:
@@ -218,7 +217,7 @@ player1.sayHello(); // logs "Hello, I'm a player!"
 player2.sayHello(); // logs "Hello, I'm a player!"
 ```
 
-Here, we defined the `.sayHello` function 'on' the `Player.prototype` object. It then became available for the `player1` and the `player2` objects to use! Similarly, you can attach other properties or functions you want to use on all `Player` objects by defining them on the objects' prototype (`Player.prototype`).
+Here, we defined the `.sayHello` function 'on' the `Player.prototype` object. It then became available for the `player1` and the `player2` objects to use! Similarly, you can attach other properties or functions you want to use on all `Player` objects by defining them on the objects' `[[Prototype]]` (which is `Player.prototype`).
 
 <div class="lesson-note" markdown="1">
 
