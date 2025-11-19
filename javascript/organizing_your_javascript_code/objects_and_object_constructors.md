@@ -198,10 +198,10 @@ Now, to understand this code, let's use the three points from earlier:
 
 1. **All objects in JavaScript have a `[[Prototype]]`**:
    - You can check the object's `[[Prototype]]` by using the [`Object.getPrototypeOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf) function on the object, like `Object.getPrototypeOf(player1)`.
-   - The return value (result) of this function refers to the `.prototype` property of the `Player` constructor (i.e., `Player(name, marker)`) - `Object.getPrototypeOf(player1) === Player.prototype`.
-1. **The [[Prototype]] is another object...**
-   - The *value* of the `Player` constructor's `.prototype` property (`Player.prototype`) contains an object.
-   - The *reference* to the object at `Player.prototype` is stored in every instance of a `Player` object as its `[[Prototype]]`.
+   - `Object.getPrototypeOf(player1)` will return the object at the `.prototype` property of the `Player` constructor (i.e. `Player.prototype`).
+1. **The `[[Prototype]]` is another object...**
+   - The *value* of the `Player.prototype` contains an object.
+   - A *reference* to `Player.prototype` is stored in every instance of a `Player` object as its `[[Prototype]]`.
    - Hence, `true` is returned when you get `player1`'s `[[Prototype]]` and check for referential equality against the object at `Player.prototype`.
 1. **...that the original object *inherits* from, and has access to all of its `[[Prototype]]`'s methods and properties**:
    - So, any properties or methods defined on `Player.prototype` will be available to the created `Player` objects!
