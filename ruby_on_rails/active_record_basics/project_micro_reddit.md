@@ -18,7 +18,7 @@ Note: We'll include the `:id`, `:created_at` and `:updated_at` columns but you c
 
 - Authors
 
-```ruby
+```text
 username:string [unique, 4-12 chars, present]
 email:string [unique, present]
 password:string [6-16 chars, present]
