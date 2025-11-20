@@ -31,7 +31,7 @@ has_many posts
 
 - Posts
 
-```ruby
+```text
 title:string [unique, present]
 body:text [present]
 author_id:integer [present]
