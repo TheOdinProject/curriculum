@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - What a stack trace is.
 - Using a stack trace to debug your code.
-- Using `puts`, `p`, Pry and debug gem's VSCode integration to debug your code.
+- Using `puts`, `p`, `pry-byebug` to debug your code.
 - How you should decide to start with debugging.
 
 ### Reading the stack trace
@@ -207,7 +207,7 @@ Obviously, if available, <span id='debugging-with-stack-trace'>the stack trace i
 
 1. Go through the Ruby Guides [Ruby Debugging](https://www.rubyguides.com/2015/07/ruby-debugging/) tutorial, which covers the same topics we went over, but in more depth.
 1. Read through the [Exceptions and Stack Traces](https://launchschool.com/books/ruby/read/more_stuff#readingstacktraces) section of Launch School's online book *Introduction to Programming with Ruby*.
-1. Although VSCode's debugger(introduced in next lesson) is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`,`debug`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics#readme) that you previously cloned.
+1. Although VSCode's debugger(introduced in next lesson) is a helpful tool that can make debugging simpler, many companies won't be using it - and will want you to be familiar with debugging using the concepts this lesson focused on: the stack trace, `puts`, `pry-byebug`. Let's practice them by completing the debugging exercises from the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises/tree/main/ruby_basics#readme) that you previously cloned.
 
 </div>
 
