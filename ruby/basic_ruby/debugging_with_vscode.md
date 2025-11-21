@@ -8,8 +8,8 @@ In this lesson, we'll cover how to debug your ruby code using VSCode.
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Install vscode-rdbg extension.
-- Setup vscode debugger.
-- Configure vscode debugger.
+- Setup VSCode debugger.
+- Configure VSCode debugger.
 - Add breakpoints without editing source code.
 - Run and Debug code using VSCode.
 
@@ -63,7 +63,7 @@ You need to install the latest `debug` gem and `rdbg` command should be in `$PAT
 Let's Add Some code files for demo:
 
 1. Go to Desktop `cd ~/Desktop/` and create a new folder `mkdir dummy_name`.
-1. Open the folder in vscode `code dummy_name/`
+1. Open the folder in VSCode `code dummy_name/`
 1. Create new file `main.rb` inside `dummy_name/` and copy the following code containing some bugs:
 
    ```ruby
@@ -117,7 +117,7 @@ Let's Add Some code files for demo:
 
 #### Step 4: Create launch.json
 
-1. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd> to go to `Run And Debug` inside vscode.
+1. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd> to go to `Run And Debug` inside VSCode.
 1. Click 'create a launch.json file.' This file is used to configure our debugger.
 1. Select `Ruby (rdbg)` option on the pop-up menu.
 1. Close the 'launch.json' file tab and confirm that it's saved at this place `dummy_name/.vscode/launch.json`:
@@ -207,7 +207,7 @@ Let's Add Some code files for demo:
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Extension used for debugging ruby in vscode.](#step-1-installation)
+- [Extension used for debugging ruby in VSCode.](#step-1-installation)
 - [How to Run debugger.](#step-6-debug-some-code)
 - [Version managar.](#step-2-setup)
 - [Configuration file `launch.json`.](#step-4-create-launchjson)
