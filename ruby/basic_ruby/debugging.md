@@ -195,10 +195,10 @@ There is far, far more that you can do with Pry-byebug, but that's beyond the sc
 
 #### Step 1: Installation
 
-1. Go to your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and install the [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) extension. This is a LSP(Language Server Protocol) which gives you autocompletion as you type ruby code in editor and much more amazing stuff.
+1. Go to your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and install the [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) extension. This is an LSP (Language Server Protocol) which gives you autocompletion as you type ruby code in your editor along with some other useful features.
 
-1. Before installing `vscode-rdbg` extension let's fulfill it's requirements first.
-You need to install latest `debug` gem and `rdbg` command should be in `$PATH` environment variable. A command in `$PATH` can be called from any directory.
+1. Before installing `vscode-rdbg` extension let's fulfill its requirements first.
+You need to install the latest `debug` gem and `rdbg` command should be in `$PATH` environment variable. A command in `$PATH` can be called from any directory.
 
    ```shell
    gem install debug
@@ -220,10 +220,10 @@ You need to install latest `debug` gem and `rdbg` command should be in `$PATH` e
    1. Open VScode.
    1. Press <kbd>Ctrl</kbd> + <kbd>,</kbd> to open settings.
    1. Search "rdbg ruby version manager".
-   1. Set it to `rbenv` which we made you install in [installing ruby lesson](https://www.theodinproject.com/lessons/ruby-installing-ruby#step-21-install-rbenv) , it's your version manager for ruby : [rbenv documentation](https://github.com/rbenv/rbenv).
+   1. Set it to `rbenv` which we made you install in [installing ruby lesson](https://www.theodinproject.com/lessons/ruby-installing-ruby#step-21-install-rbenv). It's your version manager for ruby: [rbenv documentation](https://github.com/rbenv/rbenv).
    1. Search "ruby lsp version manager"
-   1. Click on the 'Edit in settings.json' link
-   1. Edit the identifier which is by default "auto" to "rbenv"
+   1. Click on the 'Edit in `settings.json`' link
+   1. Edit the identifier, which by default is set to "auto", to "rbenv"
 
    1. Confirm settings.json have these two configurations set correctly:
 
@@ -309,7 +309,7 @@ Let's Add Some code files for demo:
    ![Sample stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/00.png)
 1. Move your mouse pointer to the left side of line number 7 and then left click to add a breakpoint:
    ![Sample stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/00.png)
-1. Run Debugger again by pressing <kbd>F5</kbd>, the debugger will stop program on our breakpoint and give us some debugging actions to use.
+1. Run Debugger again by pressing <kbd>F5</kbd>, the debugger will stop the program on our breakpoint and give us some debugging actions to use.
    ![Sample stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/00.png)
 1. Read details of the commonly used debugging actions:
 
@@ -353,11 +353,11 @@ Let's Add Some code files for demo:
 
 1. Open `main.rb` and put a breakpoint on method call (if there isn't already), press <kbd>F5</kbd> to start debugging.
 1. Keep Stepping Into till you hit the user input line (`Step Into` one more time if you see still yellow background on the gets.chomp line), open `Terminal` (if it's not opened already) using <kbd>Ctrl</kbd> + <kbd>`</kbd> and enter any input inside the "Ruby Debug Terminal".
-1. You can now debug while giving user input in between, keep stepping into till you reach the `if` condition, `Step Into` one time and notice the flow. It passed the condition and went inside if condition and in local variables we see that `input` variable got assigned the value of `password` variable, instead of comparing it with that value. Can you guess the fix? Drop your answer in [TOP Discord's #ruby-rails-general channel](https://discord.com/channels/505093832157691914/690591236922409012).
+1. You can now debug while giving user input in between. Keep stepping into until you reach the `if` condition. `Step Into` one more time and notice the flow. It passed the condition and went the true/truthy branch of the `if` statement. In the local variables we see that instead of having compared the values of the `input` and `password` variables, the `input` variable got assigned the value of the `password` variable. Can you guess the fix? Drop your answer in [TOP Discord's #ruby-rails-general channel](https://discord.com/channels/505093832157691914/690591236922409012).
 
 #### Step 7: Debug some more code
 
-1. Open `main.rb` and comment out `start_password_input` method call and add `start_day_name_input` at end of file :
+1. Open `main.rb` and comment out `start_password_input` method call. Add `start_day_name_input` at end of file :
 
    ```ruby
    # start_password_input
@@ -366,12 +366,12 @@ Let's Add Some code files for demo:
 
 1. Run the debugger and on user input enter "7".
 1. Notice the output is only "Days is" and no name after it.
-1. Put a breakpoint on the method call if there isn't already, run the debugger and on user input enter "7" again.
+1. Put a breakpoint on the method call if there isn't one already. Run the debugger and on user input enter "7" again.
 1. Keep Stepping into till the `if` condition line and press `Step Into` one more time.
-1. Notice how the condition passes meaning 7 is valid input, so problem is `days[num]`.
-1. On `WATCH` window of `Run And Debug` inside vscode click add expression(the plus icon) and add  `days[num]`, and you will see the value returned by `days[num]` is nil. (use mouse to hover over `WATCH` to get "add expression" button)
-1. Add `days` and `num` to `WATCH` too, click on `days` to expand it and notice the array index starts with 0 and ends at 6 and currently the `num` 7 is out of range.
-1. The `WATCH` section can evaluate expressions and it's helpful when the local variable you want to check is deeply nested when checking inside local variable of `VARIABLES` window, let's try some expressions inside `WATCH` to figure out some working code for the `days[num]` bug. Add `days[num+1]` and `days[num-1]` to `WATCH` , local variables will show you just the current value of a variable and using `WATCH` expressions you can play with your variables and check the value of conditions like `num >= 1 && num <= 7`, add this condition to `WATCH` and it will show `true` if `num` is greater than 0 and smaller than 8 else false. Notice the fix for this bug is using `days[num-1]` since allowed inputs are  1-7 and array index are 0-6.
+1. Notice how the condition passes, meaning `"7"` is a valid input. So we've isolated the problem to `days[num]`.
+1. In the `WATCH` window of `Run And Debug` inside VSCode, click "add expression" (the plus icon) and add  `days[num]`, and you will see the value returned by `days[num]` is `nil`. (use mouse to hover over `WATCH` to get "add expression" button)
+1. Add `days` and `num` to `WATCH` too, click on `days` to expand it and notice the array index starts with 0 and ends at 6. Currently the `num` 7 is out of range.
+1. The `WATCH` section can evaluate expressions, and it's helpful when the local variable you want to check is deeply nested. When checking inside local variable of `VARIABLES` window, let's try some expressions inside `WATCH` to figure out some working code for the `days[num]` bug. Add `days[num+1]` and `days[num-1]` to `WATCH` , local variables will show you just the current value of a variable, and using `WATCH` expressions, you can play with your variables and check the value of conditions like `num >= 1 && num <= 7`. Add this condition to `WATCH` and it will show `true` if `num` is greater than 0 and smaller than 8 else `false`. Notice the fix for this bug is using `days[num-1]` since allowed inputs are  1-7 and array index are 0-6.
 
 ### How to start debugging
 
