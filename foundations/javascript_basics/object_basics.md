@@ -17,8 +17,8 @@ This section contains a general overview of topics that you will learn in this l
 
 Objects are a *very* important part of the JavaScript language, and while for the most part you can accomplish simple and even intermediate tasks without worrying about them, any real project that you're going to attempt is going to feature Objects. The uses of Objects in JavaScript can get deep relatively quickly, so for the moment we're only going to cover the basics. There'll be an in-depth dive later.
 
-1. This JavaScript.info [article on objects](https://javascript.info/object) is the best place to get started.
-1. The [MDN tutorial on objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
+1. This JavaScript.info [article on objects](https://javascript.info/object) is the best place to get started. You do not need to do the exercises at the end of the page.
+1. Follow along to [MDN tutorial on objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics). Skip the "Introducing constructors" section, as that's a more advanced topic we'll come to later in the curriculum.
 
 ### Differences between objects and primitives
 
