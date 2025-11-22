@@ -76,14 +76,14 @@ This is a fast and straightforward project where you'll set up a Rails app to be
 
    1. Open a new command line tab and fire up IRB.  We'll use `rest-client` gem to send requests to our app:
 
-      ```irb
+      ```ruby
       require 'rest-client' # If you get an error here, you most likely need to install the gem.
       response = RestClient.get("http://localhost:3000/kittens")
       ```
 
    1. Let's see what we got back:
 
-      ```irb
+      ```ruby
       response.body #=> Should return a sloppy mess of HTML.
       # alternatively, you can do this:
       response.to_s
@@ -92,7 +92,7 @@ This is a fast and straightforward project where you'll set up a Rails app to be
       If you check out your server output, it's probably processing as \*/\* (i.e. all media types), e.g. `Processing by KittensController#index as */*`
    1. Try asking specifically for a JSON response by adding the option `accept: :json`, e.g.:
 
-      ```irb
+      ```ruby
       json_response = RestClient.get("http://localhost:3000/kittens", accept: :json)
       ```
 
@@ -100,7 +100,7 @@ This is a fast and straightforward project where you'll set up a Rails app to be
    1. Now modify your KittenController's `#index` method to `#respond_to` JSON and render the proper variables.
    1. Test it out by making sure your RestClient calls return the proper JSON strings, e.g.:
 
-      ```irb
+      ```ruby
       json_response = RestClient.get("http://localhost:3000/kittens", accept: :json)
       puts json_response.body
       ```
