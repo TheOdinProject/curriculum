@@ -92,6 +92,14 @@ redirectUserToSuperSecretVideo(process.env.VIDEO_URL);
 
 No hardcoding of those values into the source code! If you want to change the value of an environment variable, you can just change it in your `.env` file then rerun the program. Do also note that environment variables will always be strings, so you must convert if you want to use any as a number or boolean, for example.
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Documenting your environment variables
+
+Now that your projects include environment variables, you should note that when asking for help, those that assist you will need their own environment variables to run your project as well. Therefore, we highly recommend that you document them in your `README.md` file, like which ones are required and what they should contain. Optionally but also recommended, is to include a sample `.env` file, such as `.env.example` or `.env.sample` that others can rename and fill in the values they need.
+
+</div>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
