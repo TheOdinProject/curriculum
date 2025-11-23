@@ -120,6 +120,8 @@ The above code should create a little popup box that asks the user for a number.
 
 <div class="lesson-note lesson-note--tip" markdown=1>
 
+#### Using the parseInt function
+
 We wrapped the prompt call in a `parseInt` function so that a number is returned from the user's input.
 
 </div>
@@ -138,7 +140,9 @@ If you haven't seen this before and it looks strange, it's actually straightforw
 
 <div class="lesson-note lesson-note--tip" markdown=1>
 
-Most of the time, programmers find themselves looping from 0. Due to the needs of our program, we're starting from 1
+#### Starting the loop from 1
+
+Most of the time, programmers find themselves looping from 0. Due to the needs of our program, we're starting from 1.
 
 </div>
 

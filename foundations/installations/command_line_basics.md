@@ -37,7 +37,7 @@ You will be making heavy use of the command line throughout this curriculum, and
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### A note on typing passwords in the terminal
+#### Typing passwords in the terminal
 
   When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
 
@@ -79,23 +79,29 @@ Third, there's a really handy shortcut for opening everything within a project d
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
+#### Creating a Desktop folder
+
 Some of the following resources assume you have a Desktop folder located in your system. If, however, you do not have one located anywhere in your system, then please do the  following: Open your terminal and make sure you're located in the home directory by typing `cd ~` into your command line. Then, type `mkdir Desktop` and press `enter`. To ensure  your command worked, type `ls` and check if your Desktop folder is shown amongst your other directories.  
 
 </div>
 
-<div class="lesson-note" markdown="1">
-
-**Note for WSL2 users**: Use the `wget` command along with the link given in the `Download files` section to get the zip file in your WSL2 installation (`wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip`). You will also have to install unzip by using the command `sudo apt install unzip` and then `unzip shell-lesson-data.zip` to unzip the file. Keep in mind that throughout the course linked in the first step below, your terminal output may look slightly different from what is shown in the lessons. Anytime the course asks you to go to the Desktop, you will instead be going to the home directory which can be done by using the cd command (`cd ~`).
-
-</div>
-
 <div class="lesson-note lesson-note--warning" markdown=1>
+
+#### Using the correct OS
 
 Many of these resources assume you're using a Mac or Linux environment. If you did our previous installation lesson, you should already have Linux installed in dual-boot or a virtual machine. Or, you might be using macOS. If you don't have macOS, or any official Ubuntu flavor installed, please return to the [Installations lesson](https://www.theodinproject.com/lessons/foundations-installations).
 
 </div>
 
 1. Visit [The Unix Shell](https://swcarpentry.github.io/shell-novice/) course designed by the Software Carpentry Foundation. There, you will find a full complement of lessons on using the CLI, but for now, just focus on completing the following lessons:
+
+   <div class="lesson-note" markdown="1">
+
+   #### Doing the SWCarpentry course on WSL2
+
+   Use the `wget` command along with the link given in the `Download files` section to get the zip file in your WSL2 installation (`wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip`). You will also have to install unzip by using the command `sudo apt install unzip` and then `unzip shell-lesson-data.zip` to unzip the file. Keep in mind that throughout this course, your terminal output may look slightly different from what is shown in the lessons. Anytime the course asks you to go to the Desktop, you will instead be going to the home directory which can be done by using the cd command (`cd ~`).
+
+   </div>
 
    - [Download files](https://swcarpentry.github.io/shell-novice/#download-files) - only follow the instructions in this section. You don't need to install any software and can move onto the next bullet point in this list.
    - [Introducing the Shell](https://swcarpentry.github.io/shell-novice/01-intro.html)

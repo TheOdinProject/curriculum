@@ -51,7 +51,9 @@ result
 #=> false
 ```
 
-<div class="lesson-note">
+<div class="lesson-note" markdown="1">
+
+#### Breaking out of the loop
 
 If you notice, there is a `break` statement in the `if` condition so that loop stops executing once the number is found. Otherwise it would still run over all numbers in the array which is not needed as we have already found the element.
 

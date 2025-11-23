@@ -124,7 +124,7 @@ Follow the instructions on [installing Git from Source](https://www.digitalocean
 
 Go to [GitHub.com](https://github.com/) and create an account! During the account setup, it will ask you for an email address. This needs to be a real email, and will be used by default to identify your contributions. If you are privacy conscious, or just don't want your email address to be publicly available, make sure you tick the following two boxes on the [Email Settings](https://github.com/settings/emails) page after you have signed in:
 
-![GitHub Email Settings](https://cdn.statically.io/gh/TheOdinProject/curriculum/770be14190139683dbe9933ca5e9393c797c63f2/foundations/installations/setting_up_git/imgs/01.png)
+![GitHub Email Settings](https://cdn.statically.io/gh/TheOdinProject/curriculum/725b80d126105d2f717697f97e7eaefb5f886c7b/foundations/installations/setting_up_git/imgs/01.png)
 
 Having these two options enabled will prevent accidentally exposing your personal email address when working with Git and GitHub.
 
