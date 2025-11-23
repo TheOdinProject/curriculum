@@ -464,4 +464,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [Webpack 5 Crash Course](https://www.youtube.com/watch?v=IZGNcSuwBZs&t=607s) covers the same core ideas introduced in this lesson: how bundlers work, setting up a basic `webpack.config.js`, defining entry and output, using `HtmlWebpackPlugin`, handling CSS with loaders, importing images, and running a development server with live reloading. The last ~10 minutes mention some extra tools not required here.
+
+
