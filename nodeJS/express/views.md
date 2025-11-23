@@ -17,6 +17,14 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Setting up EJS
 
+<div class="lesson-note" markdown="1">
+
+#### Why not React?
+
+We have not taught how to use React Server Components which are quite different to what you'll know about React so far. Setting these up on their own is not trivial unlike a template engine like EJS, and it would be hard to focus on learning back end fundamentals if using a preconfigured but highly abstracted full stack framework (which blurs the lines between both ends for more streamlined development).
+
+</div>
+
 Let's get started with EJS! Install EJS into your application by typing the following into your terminal:
 
 ```bash
