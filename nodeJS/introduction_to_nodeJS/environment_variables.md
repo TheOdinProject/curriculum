@@ -96,7 +96,7 @@ No hardcoding of those values into the source code! If you want to change the va
 
 #### Documenting your environment variables
 
-Now that your projects include environment variables, you should note that when asking for help, those that assist you will need their own environment variables to run your project as well. Therefore, we highly recommend that you document them in your `README.md` file, like which ones are required and what they should contain. Optionally but also recommended, is to include a sample `.env` file, such as `.env.example` or `.env.sample` that others can rename and fill in the values they need.
+When your projects include environment variables, those that assist you will need to know what environment variables are needed to run your them. Therefore, we highly recommend that you document them in your `README.md` file, like which ones are required and what they should contain. You could also include a dummy example `.env` file, such as an `.env.sample`, that others can rename then edit with the values they need.
 
 </div>
 
