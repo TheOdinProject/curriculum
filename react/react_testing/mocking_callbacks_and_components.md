@@ -63,7 +63,7 @@ describe("CustomButton", () => {
     expect(onClick).toHaveBeenCalled();
   });
 
-  it("should not call the onClick function when it isn't clicked", async () => {
+  it("should not call the onClick function when it isn't clicked", () => {
     const onClick = vi.fn();
     render(<CustomButton onClick={onClick} />);
 
