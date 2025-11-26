@@ -112,9 +112,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What happens when a server receives a request?](#a-requests-journey)
 - [What can we use to tell Express to send a file in response to a request?](https://expressjs.com/en/api.html#res.sendFile)
 - [What can you use to automatically restart your server when you make changes to a file?](#auto-restarting-your-server-upon-file-changes)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

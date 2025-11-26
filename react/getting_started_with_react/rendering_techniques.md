@@ -335,9 +335,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you render a list of elements/components in JSX?](#rendering-a-list-of-elements-in-jsx)
 - [What are the ways you could render UI conditionally?](#conditionally-rendering-ui)
 - [How would you conditionally return JSX?](https://beta.reactjs.org/learn/conditional-rendering#conditionally-returning-jsx)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
