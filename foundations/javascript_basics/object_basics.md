@@ -17,8 +17,8 @@ This section contains a general overview of topics that you will learn in this l
 
 Objects are a *very* important part of the JavaScript language, and while for the most part you can accomplish simple and even intermediate tasks without worrying about them, any real project that you're going to attempt is going to feature Objects. The uses of Objects in JavaScript can get deep relatively quickly, so for the moment we're only going to cover the basics. There'll be an in-depth dive later.
 
-1. This JavaScript.info [article on objects](https://javascript.info/object) is the best place to get started.
-1. The [MDN tutorial on objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
+1. This JavaScript.info [article on objects](https://javascript.info/object) is the best place to get started. You do not need to do the exercises at the end of the page.
+1. Follow along to [MDN's "JavaScript object basics"](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics). Skip the "Introducing constructors" section, as that's a more advanced topic we'll come to later in the curriculum.
 
 ### Differences between objects and primitives
 
@@ -113,6 +113,9 @@ console.log(dog); // { species: "dog" }
    - `Sort users by age`
    - `Get average age`
    - `Create keyed object from array`
+1. More practice with objects (inside arrays!). Fork and clone Wes Bos' [JavaScript30 repository](https://github.com/wesbos/JavaScript30). To follow along with these two video exercises, you'll want to open the `index-START.html` file.
+    - [04 - Array Cardio Day 1](https://www.youtube.com/watch?v=HB1ZC7czKRs)
+    - [07 - Array Cardio Day 2](https://www.youtube.com/watch?v=QNmRfyNg1lw)
 1. Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises). Review each README file prior to completing the following exercises in order:
    - `12_calculator`
    - `13_palindromes`

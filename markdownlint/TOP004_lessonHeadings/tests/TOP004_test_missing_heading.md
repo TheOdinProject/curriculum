@@ -4,7 +4,7 @@ Text content
 
 ### Custom section
 
-Text content
+Missing lesson overview should flag a TOP004 error.
 
 ### Assignment
 
@@ -13,10 +13,6 @@ Text content
 Assignment content
 
 </div>
-
-#### An invalid wildcard heading
-
-The heading for this section must be a level 4 heading.
 
 ### Knowledge check
 

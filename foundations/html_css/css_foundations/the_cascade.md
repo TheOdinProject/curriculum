@@ -104,13 +104,9 @@ In this final example, the first rule uses an ID selector, while the second rule
 
 While the `color: red` declaration would take precedence, the `background-color: yellow` declaration would still be applied since there's no conflicting declaration for it.
 
-<div class="lesson-note" markdown="1">
-
 #### Not everything adds to specificity
 
-When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). These symbols do not add any specificity in and of themselves.
-
-</div>
+When comparing selectors, you may come across special symbols for the universal selector (`*`) as well as combinators (`+`, `~`, `>`, and an empty space). The ones you have not yet seen, we will cover these later in the curriculum, so there is no need to dive into them yet. The core concept is that these symbols do not inherently convey any additional specificity.
 
 ```css
 /* rule 1 */

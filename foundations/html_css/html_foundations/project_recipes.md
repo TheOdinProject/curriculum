@@ -123,7 +123,9 @@ If you want to show your work (the project) to others, or submit a solution belo
 
 GitHub allows you to publish web projects directly from a GitHub repository. Doing this will allow you to access your project from `your-github-username.github.io/your-github-repo-name`.
 
-<div class="lesson-note">
+<div class="lesson-note" markdown="1">
+
+#### Publishing from private repositories
 
 A GitHub paid account is required to publish web projects from a private repository. Free accounts can only publish from public repositories.
 

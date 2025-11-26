@@ -18,6 +18,8 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-note" markdown="1">
 
+#### No need to install anything
+
 Specifics about distros/versions and OS installation instructions are all in the next lesson. You do not need to go and install anything just yet.
 
 </div>

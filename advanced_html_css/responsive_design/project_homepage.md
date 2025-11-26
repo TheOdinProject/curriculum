@@ -2,7 +2,7 @@
 
 For your final HTML/CSS project, you're going to create a responsive homepage, something you might find on a portfolio site of sorts. When you get to the point that you want to start sharing your work, or applying for jobs, it's useful to have a well-designed portfolio to share. While we won't be making one yet, you'll want practice with these more advanced HTML and CSS concepts first, so take this as an opportunity to practice them!
 
-Similarly to landing page and admin dashboard from previous projects, you are tasked to build a given design brief. We're providing a full design in 3 different sizes, full desktop, tablet and mobile, and this is the first real project where you should take your time and make sure that it looks acceptable at *any* screen size.
+Similarly to landing page and admin dashboard from previous projects, you are tasked to build a given design brief. We're providing a full design in 3 different sizes: desktop, tablet, and mobile. Match each design as closely as possible for its respective viewport, and ensure that your layout looks good at any screen size between 320 to 1,920 pixels wide.
 
 Feel free to pick your own fonts and colors and use something other than a stock-photo for your header. The main focus is on achieving the specified layouts and responsive behaviour rather than a complete portfolio.
 
@@ -26,7 +26,7 @@ Feel free to pick your own fonts and colors and use something other than a stock
 
 1. As you might expect, you can organize your work on this project however you please. We've given you many tips over the past several lessons, and you are likely already comfortable starting from a blank page.
 1. If you like being told what to do: The author of this lesson feels most comfortable starting out with the larger sections of the layout, and then working from the top of the page to the bottom. In other words, get the various sections in more or less the right place (header, projects, contact etc.) while ignoring a lot of specific style and content details, then go back through from the top-to-bottom filling-in, styling and cleaning up everything.
-1. It doesn't matter when or how you accomplish the responsiveness of this project. There are people who will tell you that you should always start with the mobile experience and then use media-queries to tell your layout how to expand. The 'mobile-first' crew *does* have some good points (Google it!) but in the end, how you accomplish it doesn't matter as long as it works. Good luck!
+1. It doesn't matter when or how you accomplish the responsiveness of this project, as long as your layout doesn't break for viewports between 320 to 1,920 pixels wide. There are people who will tell you that you should always start with the mobile experience and then use media-queries to tell your layout how to expand. The 'mobile-first' crew *does* have some good points (Google it!) but in the end, how you accomplish it doesn't matter as long as it works. Good luck!
 1. When you're done, don't forget to push it to GitHub, and use GitHub Pages to publish it to the world! You should be proud of what you've accomplished here!
 
 #### Step 4: Give your feedback

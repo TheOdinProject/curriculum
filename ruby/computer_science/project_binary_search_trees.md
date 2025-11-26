@@ -30,6 +30,8 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
    <div class="lesson-note" markdown="1">
 
+   #### Avoid using the original input array
+
    You may be tempted to implement these methods using the original input array, but it's important for the efficiency of these operations that you don't do this. If we refer back to the [Big O Cheatsheet](https://www.bigocheatsheet.com/), we'll see that binary search trees can insert/delete in `O(log n)` time, which is a significant performance boost over arrays for the same operations. To get this added efficiency, your implementation of these methods should traverse the tree and manipulate the nodes and their connections.
 
    </div>
