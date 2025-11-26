@@ -47,9 +47,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What are some of the topics you can explore next?](#whats-next)
 - [How to prevent your app "forgetting" changes made on a page reload?](#using-a-backend)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

@@ -283,9 +283,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How does JSX get displayed?](#how-you-can-render-jsx)
 - [How do we deal with state in a class-based component?](#how-to-use-state-and-manage-context)
 - [How do you restore the context of `this` in a method?](#the-importance-of-bind)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
