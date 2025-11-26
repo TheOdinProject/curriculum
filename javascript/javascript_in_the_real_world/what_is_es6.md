@@ -48,9 +48,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Since ES6, what release schedule has been used for new ECMAScript versions?](#release-schedule)
 - [Why might someone need to be careful about using brand new JavaScript features?](#browser-support)
 - [What tool can be used to transpile newer JavaScript for older browser support?](#babel)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

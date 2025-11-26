@@ -167,9 +167,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the purpose of `done`? What convenience does SuperTest provide concerning it?](#done)
 - [What is the difference in handling errors when using .end() method in conjunction with .expect() provided by SuperTest?](https://github.com/forwardemail/supertest#example)
 - [What are the methods provided by SuperAgent to handle multipart requests and how to use them?](https://forwardemail.github.io/superagent/#multipart-requests)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

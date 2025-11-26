@@ -110,9 +110,3 @@ This is a fast and straightforward project where you'll set up a Rails app to be
 Now you've got a website that is both a normal HTML-producing back end AND an API that can be used to pull data from it. You could use JavaScript calls from the front end to dynamically refresh your data now or even to load the whole page in the first place. Or maybe you'll be hooking up a Kittens app to your iPhone and need a back end. It doesn't matter, since now you've got a RESTful API.
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

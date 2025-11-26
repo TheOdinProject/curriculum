@@ -28,9 +28,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is JSON?]( https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
 - [How do you convert a JSON string into a JavaScript object?](https://www.w3schools.com/js/js_json_parse.asp)
 - [How do you convert a JavaScript object into a JSON string?](https://www.w3schools.com/js/js_json_stringify.asp)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

@@ -63,9 +63,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is npm?](#npm)
 - [What file does npm use that contains all information about dependencies?](https://docs.npmjs.com/creating-a-package-json-file)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

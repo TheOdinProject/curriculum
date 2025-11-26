@@ -157,9 +157,3 @@ Like all of the projects you've done so far we need to use Git for our version c
    This marks the start of your Rails journey! Later on, you'll be able to look back at this repository and marvel over how far you've come!
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

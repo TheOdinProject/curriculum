@@ -208,9 +208,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Why do we use JSX?](#why-do-we-use-jsx)
 - [What are the three rules of JSX?](#rules-of-jsx)
 - [How do you reference a dynamic value inside of your JSX?](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces#using-curly-braces-a-window-into-the-javascript-world)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

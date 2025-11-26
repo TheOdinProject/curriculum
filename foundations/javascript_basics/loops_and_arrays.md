@@ -222,9 +222,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you access or change an array element?](https://javascript.info/array)
 - [What are some useful array methods?](https://javascript.info/array-methods)
 - [What is the advantage of writing automated tests?](#test-driven-development)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

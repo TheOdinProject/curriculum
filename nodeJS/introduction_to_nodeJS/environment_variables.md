@@ -126,9 +126,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you access environment variables in a Node app?](#accessing-environment-variables)
 - [What data type will an environment variable always be?](#accessing-environment-variables)
 - [Should you push your `.env` file to GitHub?](#keep-your-secrets-safe)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

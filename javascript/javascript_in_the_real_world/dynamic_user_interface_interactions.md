@@ -63,9 +63,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are the two main parts that a dropdown menu consists of?](#drop-down-menus)
 - [When might you want to use dropdown menus in a website?](#drop-down-menus)
 - [What are the benefits of using image carousels?](#image-carousel)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
