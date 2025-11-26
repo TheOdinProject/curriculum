@@ -76,14 +76,14 @@ This is a fast and straightforward project where you'll set up a Rails app to be
 
    1. Open a new command line tab and fire up IRB.  We'll use `rest-client` gem to send requests to our app:
 
-      ```irb
+      ```ruby
       require 'rest-client' # If you get an error here, you most likely need to install the gem.
       response = RestClient.get("http://localhost:3000/kittens")
       ```
 
    1. Let's see what we got back:
 
-      ```irb
+      ```ruby
       response.body #=> Should return a sloppy mess of HTML.
       # alternatively, you can do this:
       response.to_s
@@ -92,7 +92,7 @@ This is a fast and straightforward project where you'll set up a Rails app to be
       If you check out your server output, it's probably processing as \*/\* (i.e. all media types), e.g. `Processing by KittensController#index as */*`
    1. Try asking specifically for a JSON response by adding the option `accept: :json`, e.g.:
 
-      ```irb
+      ```ruby
       json_response = RestClient.get("http://localhost:3000/kittens", accept: :json)
       ```
 
@@ -100,7 +100,7 @@ This is a fast and straightforward project where you'll set up a Rails app to be
    1. Now modify your KittenController's `#index` method to `#respond_to` JSON and render the proper variables.
    1. Test it out by making sure your RestClient calls return the proper JSON strings, e.g.:
 
-      ```irb
+      ```ruby
       json_response = RestClient.get("http://localhost:3000/kittens", accept: :json)
       puts json_response.body
       ```
@@ -110,9 +110,3 @@ This is a fast and straightforward project where you'll set up a Rails app to be
 Now you've got a website that is both a normal HTML-producing back end AND an API that can be used to pull data from it. You could use JavaScript calls from the front end to dynamically refresh your data now or even to load the whole page in the first place. Or maybe you'll be hooking up a Kittens app to your iPhone and need a back end. It doesn't matter, since now you've got a RESTful API.
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

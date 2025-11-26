@@ -130,7 +130,21 @@ Having these two options enabled will prevent accidentally exposing your persona
 
 You may also notice an email address under the **Keep my email addresses private** option. This is your private GitHub email address. **If you plan to use this, make note of it now as you will need it when setting up Git in the next step.**
 
-#### Step 2.2: Setup Git
+#### Step 2.2: (Optional) Enable GitHub two-factor authentication
+
+Two-factor authentication (2FA) is an extra layer of security used when logging into websites or apps. With 2FA, you have to log in with your username and password and provide another form of authentication that only you know or have access to.
+
+Go to [GitHub Docs](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-totp-app), then follow the configuration instructions. For step 1, we recommend Google Authenticator, which is a time-based one-time password (TOTP) app. Go to [Google Account Help](https://support.google.com/accounts/answer/1066447), click `Android` or `iPhone & iPad`, then follow the download and set up instructions.
+
+<div class="lesson-note lesson-note--warning" markdown=1>
+
+#### If you lose your two-factor authentication credentials or lose access to your account recovery methods
+
+For security reasons, GitHub Support will not be able to restore access to accounts with two-factor authentication enabled if you lose your two-factor authentication credentials or lose access to your account recovery methods.
+
+</div>
+
+#### Step 2.3: Setup Git
 
 For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed each line of code.
 
@@ -179,7 +193,7 @@ git config --global core.excludesfile ~/.gitignore_global
 
 </div>
 
-#### Step 2.3: Create an SSH key
+#### Step 2.4: Create an SSH key
 
 <div class="lesson-note" markdown="1">
 
@@ -209,7 +223,7 @@ When it prompts you for a location to save the generated key, just push <kbd>Ent
 
 Next, it will ask you for a password. This password is used to encrypt the private SSH key that is stored on your computer and you will be required to enter this password every time you use SSH with these keys. If you don't use a password, the private key will be readable by anyone who has access to your computer and will be able to modify all your GitHub repositories. Enter one if you wish, but it’s not required. If you choose not to use a password, just hit <kbd>Enter</kbd> without typing anything.
 
-#### Step 2.4: Link your SSH key with GitHub
+#### Step 2.5: Link your SSH key with GitHub
 
 Now, you need to tell GitHub what your SSH key is so that you can push your code without typing in a password every time.
 
@@ -227,7 +241,7 @@ Highlight and copy the entire output from the command. If you followed the instr
 
 Now, go back to GitHub in your browser window and paste the key you copied into the key field. Keep the key type as `Authentication Key` and then, click `Add SSH key`. You're done! You've successfully added your SSH key!
 
-#### Step 2.5 Testing your key
+#### Step 2.6 Testing your key
 
 Follow the [GitHub directions for testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux). Make sure the fingerprint output in the terminal matches [one of GitHub's four public fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints).
 
