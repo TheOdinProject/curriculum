@@ -160,9 +160,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [How can you mock a callback handler?](#testing-callback-handlers)
 - [How can you mock a child component?](#mock-child-component)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

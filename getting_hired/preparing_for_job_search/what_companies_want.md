@@ -56,9 +56,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What are the 3 main things hiring managers look for?](#life-behind-the-curtain)
 - [What are the advantages to getting an internship?](#internships)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

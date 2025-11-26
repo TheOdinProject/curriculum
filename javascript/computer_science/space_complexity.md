@@ -149,9 +149,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is space complexity?](#what-do-we-mean-by-space-complexity)
 - [How do we measure space complexity?](#measuring-space-complexity)
 - [What are the main considerations we should take into account when optimizing code?](#other-considerations)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

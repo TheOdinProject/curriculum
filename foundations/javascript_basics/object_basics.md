@@ -136,9 +136,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the difference between objects and arrays?](https://javascript.info/object#summary)
 - [How do you access object properties?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics#bracket_notation)
 - [How do primitives and object types differ when you assign them to other variables, or pass them into functions?](https://www.theodinproject.com/lessons/foundations-object-basics#differences-between-objects-and-primitives)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

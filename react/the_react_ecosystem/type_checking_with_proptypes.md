@@ -117,9 +117,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How would we set up a basic implementation of PropTypes?](#using-proptypes)
 - [If we pass in a prop to a component that has a defaultProp defined, what would happen?](#using-defaultprops)
 - [What is the difference between PropTypes and TypeScript?](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

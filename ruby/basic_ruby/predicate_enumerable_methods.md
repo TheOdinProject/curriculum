@@ -260,9 +260,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What does the `#any?` method do?](#the-any-method)
 - [What does the `#all?` method do?](#the-all-method)
 - [What does the `#none?` method do?](#the-none-method)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

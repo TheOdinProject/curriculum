@@ -91,9 +91,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Why should you avoid fixed height?](#fixed-height)
 - [In what situations might it be appropriate to use a fixed height or width?](#when-fixed-widths-are-appropriate)
 - [Why should you avoid percentages?](https://codyloyd.com/2021/percentages/)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
