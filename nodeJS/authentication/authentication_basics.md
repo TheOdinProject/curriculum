@@ -64,9 +64,16 @@ const app = express();
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
-app.use(session({ secret: "cats", resave: false, saveUninitialized: false }));
-app.use(passport.session());
 app.use(express.urlencoded({ extended: false }));
+app.use(
+  session({
+    secret: "cats",
+    resave: false,
+    saveUninitialized: false,
+  })
+);
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.get("/", (req, res) => res.render("index"));
 
@@ -370,7 +377,7 @@ You should now be able to log in using the new user you've created (the one with
 <div class="lesson-content__panel" markdown="1">
 
 1. Watch videos 1, 2, 3, 5 and 6 of this [Youtube Playlist on sessions in Express and local strategy authentication with Passport.js](https://www.youtube.com/playlist?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK).
-   - You may notice at some points in the videos, the Express app contains the line `app.use(passport.initialize())`. This line is no longer required to include in current versions of Passport.
+   - Note: Many older tutorials mention omitting passport.initialize(), but in most Express apps, you must include it. passport.initialize() sets up Passport’s internal request state so that strategies, passport.authenticate(), req.login(), and req.logout() work correctly. It must be added before passport.session().
    - They are using MongoDB and you can replace any instance of it with PostgreSQL.
    - In [video 3: "Your complete guide to understanding the express-session library"](https://youtu.be/J1qXK66k1y4?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK) and [video 5: "Passport Local Configuration (Node + Passport + Express)"](https://youtu.be/xMEOT9J0IvI?list=PLYQSCk-qyTW2ewJ05f_GKHtTIzjynDgjK), it shows using the `connect-mongo` library to use your MongoDB connection to store sessions, as opposed to storing them in memory. However, since we are using PostgreSQL, we need to replace it with a library called `connect-pg-simple` instead. You can view the implementation for doing this on the [npm page for connect-pg-simple](https://www.npmjs.com/package/connect-pg-simple).
    - Do note that the table needed to be used for the session store is not automatically created by default, be sure to check the available options in their npm page.
