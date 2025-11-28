@@ -62,9 +62,7 @@ module.exports = index;
 
 These two files, `app.js` and `index.js` define a couple of routes and then set up and start our express app. For the moment we do *not* need to test `app.js` because it only contains code that starts and runs an express app! It doesn't include any of our own logic so we don't need to test it. `index.js` however *does* include some things that we want to test.
 
-To facilitate actually testing these routes we're going to use a library called [SuperTest](https://github.com/visionmedia/supertest), so go ahead and `npm install supertest --save-dev` and while it's installing take a few minutes to look through the readme on their git repo (linked above).
-
-In the examples below we're going to use SuperTest inside of a Jest style describe/test block, but the syntax and use of these are common among most testing libraries, so the concepts should be easily replicated in Mocha with Chai or Jasmine or Tape or whatever testing library you prefer.
+To facilitate actually testing these routes we're going to use a library called [SuperTest](https://github.com/visionmedia/supertest), and for familiarity of test syntax, we'll use it in conjunction with Jest in this lesson's examples. Go ahead and `npm install jest supertest --save-dev` and while it's installing, take a few minutes to look through the README on SuperTest's Git repo (linked above).
 
 Here's our test file:
 
