@@ -139,7 +139,7 @@ Here we have two functions that take in an array of numbers and return an array 
 
 As we've stated, many data structures share O(N) space complexity, and therefore you won't write many algorithms with a space complexity that differs.
 
-You do find some recursive functions that may have a different space complexity and some sorting algorithms. You normally won't have much reason to consider anything else though.
+You do find some recursive functions and sorting algorithms with a different space complexity, though you normally won't have much reason to consider anything else.
 
 In the last lesson one of the assignments was a link to the [Big-O cheat sheet](https://www.bigocheatsheet.com/). If you take another look at it now, you may have a better appreciation for just how amazing it is as a reference for space and time complexity. If you scroll down to the data structures and then the sorting algorithms section, you'll see it gives you the time and space complexities. Notice just how many are O(N), especially for data structures. Many sorting algorithms have just O(1) space complexity, something to keep in mind as you come across different sorting algorithms during your learning.
 
