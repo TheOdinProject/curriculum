@@ -110,7 +110,9 @@ function sumArr(arr) {
 }
 ```
 
-When a data structure is passed in as the argument, especially for languages that pass arrays by reference rather than value, it can be a bit unclear if that method considers the space used by that data structure when calculating its space complexity. We could still say this algorithm requires O(N) space, factoring in the size of the input. Or we could say that the creation of the input array belongs to whatever external routine allocated it before calling this function. This would mean that this algorithm takes up O(1) space, as all other variables are constant. This latter approach is known an "auxiliary space analysis." Using this approach, we only regard the *extra* space that an algorithm takes up, meaning the input isn't factored in. This can be situationally useful for describing algorithms that use extra space differently. Let's look at a quick example:
+When a data structure is passed in as the argument, especially for languages that pass arrays by reference rather than value, it can be a bit unclear if that method considers the space used by that data structure when calculating its space complexity. We could still say this algorithm requires O(N) space, factoring in the size of the input. Or we could say that the creation of the input array belongs to whatever external routine allocated it before calling this function. This would mean that this algorithm takes up O(1) space, as all other variables are constant. This latter approach is known an "auxiliary space analysis."
+
+Using this approach, we only regard the *extra* space that an algorithm takes up, meaning the input isn't factored in. This can be situationally useful for describing algorithms that use extra space differently. Let's look at a quick example:
 
 ```javascript
 function squareNumsInPlace(arr) {
