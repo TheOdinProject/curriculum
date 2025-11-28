@@ -7,7 +7,11 @@ In this project-lesson we will use CSS animation and transition to build animate
 Our [solar system](https://en.wikipedia.org/wiki/Solar_System) consist of the sun and 8 planets. All those cosmic bodies have unique properties (e.g. size, orbit radius, orbital speed, etc). There is little to no value in projecting those properties with 100% accuracy. In fact it can make model unusable in some cases. Thus go with whatever is beautiful as long as it makes sense: Saturn still should be bigger than mercury and mars shouldn't be blue, also don't add Pluto.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Orbital speeds
+
 If you are nerd who craves accuracy, you can still make orbital speed of planets proportionally realistic. Set Earth's year to whatever time you want and then work out how long other planets' years are using [planets' year length table](https://spaceplace.nasa.gov/years-on-other-planets/en). This is **completely optional** and you can just use common sense. It's still recommend to take a look at [planets' year length table](https://spaceplace.nasa.gov/years-on-other-planets/en)  though.
+
 </div>
 
 ### Assignment
