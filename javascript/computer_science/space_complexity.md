@@ -127,7 +127,7 @@ function squareNumsNewArr(arr) {
   const squaredNums = [];
   arr.forEach((number) => {
     squaredNums.push(number * number);
-  })
+  });
 
   return squaredNums;
 }
