@@ -116,7 +116,9 @@ The important distinction between the "scalar" parameter values like strings and
 
 <div class="lesson-note" markdown="1">
 
-  This used to be done in Rails 3 by setting `attr_accessible` in the model to allow attributes, so you will probably see that in a lot of Stack Overflow posts and earlier applications.
+#### Whitelisting "safe" attributes in Rails 3
+
+This used to be done in Rails 3 by setting `attr_accessible` in the model to allow attributes, so you will probably see that in a lot of Stack Overflow posts and earlier applications.
 
 </div>
 
@@ -164,15 +166,17 @@ So our `#create` action above can now be filled out a bit more:
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-  Prior to Rails 8, strong parameters were handled differently. Instead of the `#expect` method, you had to call `#require` on the top level key name followed by calling `#permit` on the list of attributes. For example:
+#### Handling strong parameters before Rails 8
 
-  ```ruby
-  def allowed_post_params
-    params.require(:post).permit(:title, :body, :author_id)
-  end
-  ```
+Prior to Rails 8, strong parameters were handled differently. Instead of the `#expect` method, you had to call `#require` on the top level key name followed by calling `#permit` on the list of attributes. For example:
 
-  This way still works, but it has a couple of security flaws that motivated the development of `#expect`. But you will likely be exposed to this way of doing it through older projects, blog posts, and StackOverflow answers. Just know that this is serving the same function as the new `#expect` method.
+```ruby
+def allowed_post_params
+  params.require(:post).permit(:title, :body, :author_id)
+end
+```
+
+This way still works, but it has a couple of security flaws that motivated the development of `#expect`. But you will likely be exposed to this way of doing it through older projects, blog posts, and StackOverflow answers. Just know that this is serving the same function as the new `#expect` method.
 
 </div>
 
