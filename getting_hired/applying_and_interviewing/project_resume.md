@@ -29,10 +29,10 @@ Knowing that perspective, how can you play to it?  It's difficult if you're brea
 <div class="lesson-content__panel" markdown="1">
 
 1. This Resume Guide [Resume Creation Guide](https://static1.squarespace.com/static/655d4d0eee15a6053d4345f2/t/68598b9ff8194a1adc980c45/1750698912277/_How+to+Get+a+Job+by+Lee+the+Headless+Headhunter.pdf) was created by an active recruiter with the intention of avoiding common resume mistakes made in today's market.
-2. This Career Tool Belt article lists [6 free resume builder websites](https://web.archive.org/web/20230930114027/https://www.careertoolbelt.com/5-best-free-resume-builder-websites/)
-3. [Novorésumé also has a free tier with templates available, as an alternate resource](https://novoresume.com/)
-4. Formatting could use some work, but here’s an [example resume from CareerCup.com](https://www.gayle.com/resume)
-5. [Another great (totally free) resume builder](https://flowcv.io/)
+1. This Career Tool Belt article lists [6 free resume builder websites](https://web.archive.org/web/20230930114027/https://www.careertoolbelt.com/5-best-free-resume-builder-websites/)
+1. [Novorésumé also has a free tier with templates available, as an alternate resource](https://novoresume.com/)
+1. Formatting could use some work, but here’s an [example resume from CareerCup.com](https://www.gayle.com/resume)
+1. [Another great (totally free) resume builder](https://flowcv.io/)
 
 </div>
 
