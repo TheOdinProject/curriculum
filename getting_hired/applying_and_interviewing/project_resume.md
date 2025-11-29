@@ -8,7 +8,7 @@ Before you begin writing all of your achievements and projects down, we strongly
 
 As an example if you are applying for a frontend developer position you will likely see keywords like `HTML, CSS, JavaScript, React, APIs etc.`. So when writing out your bullet points you should keep this in mind. Having something that reads like: `Crafted a responsive Weather App using HTML and CSS that connected to external RESTful APIs using JavaScript to give real time weather information to the end user.` When the recruiter/hiring manager is looking over your resume they will be able to pick out those keywords quickly, then if they come back to make sure you didn't just put down some keywords they will see the what, why, and how you were able to build something with that technology.
 
-Recently a trend has emerged where skill sections are used everywhere, either on GitHub pages, Resumes, portfolios, etc. While these may seem useful in the moment, they are anything but. From a hiring manager or a recruiters perspective they are all but useless, they want to know wheter you actually understand the technologies listed.
+Recently a trend has emerged where skill sections are used everywhere, either on GitHub pages, Resumes, portfolios, etc. While these may seem useful in the moment, they are anything but. From a hiring manager or a recruiters perspective they are all but useless, they want to know whether you actually understand the technologies listed.
 
 ### Resume Building Tips
 
