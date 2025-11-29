@@ -36,6 +36,6 @@ Knowing that perspective, how can you play to it?  It's difficult if you're brea
 
 </div>
 
-### Optional reading
+#### Optional reading
 
 - [Getting Your Résumé Read, by Joel Spolsky](http://www.joelonsoftware.com/articles/ResumeRead.html)
