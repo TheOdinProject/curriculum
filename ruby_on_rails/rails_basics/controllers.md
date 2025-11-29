@@ -116,7 +116,7 @@ The important distinction between the "scalar" parameter values like strings and
 
 <div class="lesson-note" markdown="1">
 
-#### Handling strong parameters in Rails 3
+#### Whitelisting "safe" attributes in Rails 3
 
 This used to be done in Rails 3 by setting `attr_accessible` in the model to allow attributes, so you will probably see that in a lot of Stack Overflow posts and earlier applications.
 
