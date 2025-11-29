@@ -206,6 +206,8 @@ You should have a good sense of what's going on in the routes file by now but pr
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Don't use the Postman Chrome Extension
+
 The Postman Chrome Extension shown in the video is deprecated. Use the native [Postman App](https://www.postman.com/downloads/) or use the web version.
 
 </div>
