@@ -17,7 +17,7 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
 
 </div>
 
-### Additional resources
+#### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
