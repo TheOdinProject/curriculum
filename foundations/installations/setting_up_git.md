@@ -211,7 +211,7 @@ First, we need to see if you have an Ed25519 algorithm SSH key already installed
 ls ~/.ssh/id_ed25519.pub
 ```
 
-If a message appears in the console containing the text "No such file or directory", then you do not yet have an Ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.4.
+If a message appears in the console containing the text "No such file or directory", then you do not yet have an Ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.5.
 
 To create a new SSH key, run the following command inside your terminal.
 
