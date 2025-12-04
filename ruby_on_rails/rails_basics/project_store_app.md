@@ -8,7 +8,7 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Do the [The Ruby on Rails Guides: Getting Started](https://guides.rubyonrails.org/v7.2/getting_started.html) project up to section 9.2. It ties together the Model-View-Controller and gives a pretty good overview of the common commands you'll use when using Rails. The remainder of the tutorial covers topics that have not been introduced, like concerns and authentication, so it is hard to understand the big picture. In addition, these sections can be confusing because the instructions do not follow the same copy/paste pattern.
+  1. Do the [The Ruby on Rails Guides: Getting Started](https://guides.rubyonrails.org/v8.0/getting_started.html) project up to section 10.7. It ties together the Model-View-Controller and gives a pretty good overview of the common commands you'll use when using Rails. The remainder of the tutorial covers topics that have not been introduced, like concerns and authentication, so it is hard to understand the big picture. In addition, these sections can be confusing because the instructions do not follow the same copy/paste pattern.
   1. You should have Rails installed already so section 3.1 might not be relevant. It might still be prudent to run the `--version` commands to check you have everything you need though.
   1. Make sure you commit to Git regularly so if you run into any issues you can revert to an earlier commit without having to start over from scratch. As a rough guide look to commit at the end of each section.
   1. Pay attention to any error messages you get as you build the app, even though they'll be unplanned.  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
@@ -17,7 +17,7 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
 
 </div>
 
-### Additional resources
+#### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
