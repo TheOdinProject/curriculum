@@ -1,6 +1,7 @@
 # The Odin Project Curriculum
 
-[The Odin Project](https://www.theodinproject.com/) (TOP) is an open-source curriculum for learning full-stack web development. Our curriculum is divided into distinct courses, each covering the subject language in depth. Each course contains a list of lessons interspersed with multiple projects. These projects give users the opportunity to practice what they are learning, thereby reinforcing and solidifying the theoretical knowledge learned in the lessons. Completed projects may then be included in the user's portfolio.
+[The Odin Project](https://www.theodinproject.com/) 
+The Odin Project (TOP) is an open-source curriculum designed for learning full-stack web development. It offers a series of courses, each focusing deeply on a specific language or technology. Every course includes lessons and hands-on projects that allow learners to practice their skills and reinforce their understanding. Completed projects can be added to the learner’s portfolio, helping showcase their work.
 
 Lessons are structured through a combination of original written content and a compilation of carefully curated resources from the web. This is where the contributing happens!
 
