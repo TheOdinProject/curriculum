@@ -277,6 +277,92 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 
 </details>
 
+### Update Ruby
+
+Step by step instructions on how to update your ruby version.
+
+1. Go to .rbenv/ folder at home.
+
+   ```bash
+     cd ~/.rbenv
+   ```
+
+1. Pull latest changes for your ruby version manager(`rbenv`).
+
+   ```bash
+     git pull
+   ```
+
+1. Run this command.
+
+   ```bash
+     ~/.rbenv/bin/rbenv init
+   ```
+
+1. Go to `ruby-build` plugin directory, it is what `rbenv` uses to compile ruby from source code(which is written in C).
+
+   ```bash
+     cd ~/.rbenv/plugins/ruby-build
+   ```
+
+1. Pull latest changes for `ruby-build`.
+
+   ```bash
+     git pull
+   ```
+
+1. Now you can check list of all the latest versions available for you to install.
+
+   ```bash
+     rbenv install --list-all
+   ```
+
+1. Now you can install the version of ruby you like by running
+
+   ```bash
+     rbenv install x.y.z
+   ```
+
+   where in `x.y.z` - `x` is major version, `y` is minor version and `z` is patch version, this is called [semantic versioning](https://semver.org/#summary)
+
+   for e.g -
+
+   ```bash
+     rbenv install 3.4.6
+   ```
+
+### Set local and global Ruby version
+
+- Local Ruby version per project.
+
+  - To set local ruby version run:
+
+    ```bash
+      rbenv local x.y.z
+    ```
+
+    This creates a `.ruby-version` file for storing the local version.
+
+  - To check current project/directory local ruby version run:
+
+    ```bash
+      rbenv local
+    ```
+
+- Global default Ruby version.
+
+  - To set global default Ruby version run:
+
+    ```bash
+      rbenv global x.y.z
+    ```
+
+  - To check current global ruby version run:
+
+    ```bash
+      rbenv global
+    ```
+
 #### Extras
 
 If you are using Visual Studio Code as your IDE, you can install the "Ruby LSP" extension, which will provide you with semantic highlighting and formatting support.
