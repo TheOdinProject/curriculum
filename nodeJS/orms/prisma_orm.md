@@ -140,15 +140,15 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go through the [get started guide for relational databases](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-node-postgresql), which covers migrations, schema, and the Prisma client.
+1. Go through the [Quickstart with Prisma ORM and PostgreSQL](https://www.prisma.io/docs/getting-started/prisma-orm/quickstart/postgresql), which covers migrations, schema, and the Prisma client.
 
    <div class="lesson-note" markdown="1">
 
    #### Getting Prisma to work with JavaScript
 
-   Recently, Prisma has decided to only continue supporting Typescript. This means we will need to modify their Getting Started guide to have it work with JavaScript.
+   Recently, Prisma has decided to only continue supporting Typescript. This means we will need to modify their Quickstart guide to have it work with JavaScript.
 
-   While following these tutorial steps, modify them in the following ways:
+   While following the steps in the guide, modify them in the following ways:
 
    **Step 1:** Skip these two commands:
 
@@ -163,15 +163,15 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    npm install prisma --save-dev.
    ```
 
-   **Step 3:** We're not using Typescript, so we can completely skip this step.
+   **Step 3:** We're not using Typescript, so we will completely skip this step.
 
-   **Step 4:** We want to be using the `prisma-client-js` generator, so instead of `npx prisma init --datasource-provider postgresql --output ../generated/prisma` command, we will use:
+   **Step 4:** We want to be using the `prisma-client-js` generator, so instead of creating `prisma.schema` using `npx prisma init --datasource-provider postgresql --output ../generated/prisma` command, we will use:
 
    ```bash
    npx prisma init --datasource-provider postgresql --output ../generated/prisma --generator-provider prisma-client-js
    ```
 
-   **Step 7:**  Make sure to name the file in the `lib` folder as `prisma.js`, and similarly, add `.js` file extension when importing `PrismaClient` so the line is:
+   **Step 7:**  Make sure to name the file in the `lib` folder as `prisma.js`, and similarly, add `.js` file extension when importing `PrismaClient` in the file:
 
    ```javascript
    import { PrismaClient } from '../generated/prisma/client.js'
