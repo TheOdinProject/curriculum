@@ -148,7 +148,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 
    Recently, Prisma has decided to only continue supporting Typescript. This means we will need to modify their Quickstart guide to have it work with JavaScript.
 
-   While following the steps in the guide, modify them in the following ways:
+   When you reach the following steps in the guide, modify them as described below.
 
    **Step 1:** Skip these two commands:
 
@@ -171,7 +171,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    npx prisma init --datasource-provider postgresql --output ../generated/prisma --generator-provider prisma-client-js
    ```
 
-   **Step 7:**  Make sure to name the file in the `lib` folder as `prisma.js`, and similarly, add `.js` file extension when importing `PrismaClient` in the file:
+   **Step 7:**  Make sure to name the file you create in the `lib` folder as `prisma.js`, and add `.js` file extension when importing `PrismaClient` in that file:
 
    ```javascript
    import { PrismaClient } from '../generated/prisma/client.js'
