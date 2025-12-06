@@ -148,7 +148,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 
    Recently, Prisma has decided to only continue supporting Typescript. This means we will need to modify their Quickstart guide to have it work with JavaScript.
 
-   When you reach the following steps in the guide, modify them as described below.
+   As you follow along the Prisma Quickstart guide, modify the following steps as described below.
 
    **Step 1:** Skip these two commands:
 
