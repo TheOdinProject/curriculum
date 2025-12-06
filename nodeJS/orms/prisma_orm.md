@@ -141,6 +141,52 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 <div class="lesson-content__panel" markdown="1">
 
 1. Go through the [get started guide for relational databases](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-node-postgresql), which covers migrations, schema, and the Prisma client.
+
+   <div class="lesson-note" markdown="1">
+
+   #### Getting Prisma to work with JavaScript
+
+   Recently, Prisma has decided to only continue supporting Typescript. This means we will need to modify their Getting Started guide to have it work with JavaScript.
+
+   While following these tutorial steps, modify them in the following ways:
+
+   **Step 1:** Skip these two commands:
+
+   ```bash
+   npm install typescript tsx @types/node --save-dev
+   npx tsc --init
+   ```
+
+   **Step 2:** Modify the `npm install prisma @types/node @types/pg --save-dev` command to be:
+
+   ```bash
+   npm install prisma --save-dev.
+   ```
+
+   **Step 3:** We're not using Typescript, so we can completely skip this step.
+
+   **Step 4:** We want to be using the `prisma-client-js` generator, so instead of `npx prisma init --datasource-provider postgresql --output ../generated/prisma` command, we will use:
+
+   ```bash
+   npx prisma init --datasource-provider postgresql --output ../generated/prisma --generator-provider prisma-client-js
+   ```
+
+   **Step 7:**  Make sure to name the file in the `lib` folder as `prisma.js`, and similarly, add `.js` file extension when importing `PrismaClient` so the line is:
+
+   ```javascript
+   import { PrismaClient } from '../generated/prisma/client.js'
+   ```
+
+   **Step 8:** File created should be `script.js`, and when importing `prisma` in that file, add the `.js` file extension, so the first line is:
+
+   ```javascript
+   import { prisma } from './lib/prisma.js';
+   ```
+
+   Finally, to run the script, use `node script.js`.
+
+   </div>
+
 1. Read the following articles from Prisma's documentation. Try to code along with the examples. Don't worry if things don't stick yet, we'll be practicing *a lot* of Prisma in the coming projects.
    - [What is Prisma ORM?](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma)
    - [Prisma schema overview](https://www.prisma.io/docs/orm/prisma-schema/overview)
