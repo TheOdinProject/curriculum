@@ -174,7 +174,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    **Step 7:**  Make sure to name the file you create in the `lib` folder as `prisma.js`, and add `.js` file extension when importing `PrismaClient` in that file, like shown below:
 
    ```javascript
-   import { PrismaClient } from '../generated/prisma/client.js'
+   import { PrismaClient } from '../generated/prisma/client.js';
    ```
 
    **Step 8:** File created should be named `script.js`, and when importing `prisma` in that file, add the `.js` file extension, so the first line is:
