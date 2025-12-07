@@ -168,6 +168,8 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    npx prisma init --datasource-provider postgresql --output ../generated/prisma --generator-provider prisma-client-js
    ```
 
+   ** Steps 5 and 6:** No changes necessary.
+
    **Step 7:**  Make sure to name the file you create in the `lib` folder as `prisma.js`, and add `.js` file extension when importing `PrismaClient` in that file, as shown below:
 
    ```javascript
