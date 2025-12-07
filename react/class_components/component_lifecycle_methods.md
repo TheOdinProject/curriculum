@@ -16,7 +16,7 @@ The render function is the most used lifecycle method, and one that you've come 
 
 ### componentDidMount()
 
-This method is run after the component is mounted (inserted in the DOM tree). You should make any calls to fetch data that is needed for the component here. It is also a good place to perform any operations that depend on the component being mounted in the DOM, such as fetching from an API.
+This method is run after the component is mounted (inserted in the DOM tree). You should make any calls to fetch data that is needed for the component here. It is also a good place to perform any operations that depend on the component being mounted in the DOM.
 
 ### componentDidUpdate()
 
