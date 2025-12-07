@@ -168,6 +168,8 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    npx prisma init --datasource-provider postgresql --output ../generated/prisma --generator-provider prisma-client-js
    ```
 
+   We will also rename `prisma.config.ts` to `prisma.config.js`.
+
    **Steps 5 and 6:** No changes necessary.
 
    **Step 7:**  Instead of `lib/prisma.ts`, create `lib/prisma.js`. You must also add the `.js` file extension when importing `PrismaClient` in that file:
@@ -183,6 +185,12 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    ```
 
    To run the script, run `node script.js`.
+
+   **Step 9:** Since we changed the file extension of prisma config, we should modify the command to be:
+
+   ```bash
+   npx prisma studio --config ./prisma.config.js
+   ```
 
    </div>
 
