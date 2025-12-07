@@ -182,7 +182,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    import { prisma } from './lib/prisma.js';
    ```
 
-   Finally, to run the script, use `node script.js`.
+   To run the script, run `node script.js`.
 
    </div>
 
