@@ -158,11 +158,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    npx tsc --init
    ```
 
-   **Step 2:** Modify the `npm install prisma @types/node @types/pg --save-dev` command to be:
-
-   ```bash
-   npm install prisma --save-dev
-   ```
+   **Step 2:** You do not need to install `@types/node` nor `@types/pg`.
 
    **Step 3:** We're not using Typescript, so we will completely skip this step.
 
