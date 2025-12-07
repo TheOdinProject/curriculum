@@ -162,7 +162,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 
    **Step 3:** We're not using Typescript, so we will completely skip this step.
 
-   **Step 4:** We want to be using the `prisma-client-js` generator, so instead of creating `prisma.schema` using `npx prisma init --datasource-provider postgresql --output ../generated/prisma` command, we will use:
+   **Step 4:** We want to be using the `prisma-client-js` generator instead of the default, so add `--generator-provider prisma-client-js` to the Prisma init command:
 
    ```bash
    npx prisma init --datasource-provider postgresql --output ../generated/prisma --generator-provider prisma-client-js
