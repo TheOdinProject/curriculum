@@ -150,9 +150,10 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
 
    As you follow along the Prisma Quickstart guide, modify the following steps as described below.
 
-   **Step 1:** Skip these two commands:
+   **Step 1:** Skip the second set of commands:
 
    ```bash
+   npm init -y
    npm install typescript tsx @types/node --save-dev
    npx tsc --init
    ```
