@@ -547,3 +547,4 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What's different between a lambda and a proc?](#procs-vs-lambdas)
 - [How do you convert a proc to a block?](#proc-to-block)
 - [How do you convert a block to a proc?](#capturing-blocks)
+- [Adding a comment to c]

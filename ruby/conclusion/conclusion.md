@@ -10,7 +10,7 @@ Before you move on, we would love it if you could [send us your feedback on the 
 
 ### Additional resources
 
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+This section contains helpful links to related content. It isn't required, so consider it supplemental. 
 
 - [Why Ruby and Python are different](http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa?rq=1)
-- [Exercism](http://exercism.org/), a site where you can grow and improve your ability to **write code** by **reading others' code** and **commenting** on it.
+- [Exercism](http://exercism.org/), a site where you can grow and improve your ability to **write code** by **reading others' code** and **commenting** on it. 
