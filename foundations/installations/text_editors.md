@@ -153,6 +153,8 @@ code
 
 </details>
 
+Going forward, if you have any issues with VSCode or want to know more about certain features, check the [VSCode docs](https://code.visualstudio.com/docs). There will also be many keyboard shortcuts you can use within VSCode, some of which may be specific to your OS and you can look up when you need.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -161,10 +163,3 @@ code
 1. Disable the Copilot AI code completion feature which is enabled by default in Visual Studio Code. Do this by clicking the little robot face in the bottom right of your VSCode window and unchecking the code completions box. To understand why The Odin Project thinks you should disable this feature please revisit the Motivation and Mindset lesson section [A note on AI code generation](https://www.theodinproject.com/lessons/foundations-motivation-and-mindset#a-note-on-ai-code-generation).
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [VSCode docs](https://code.visualstudio.com/docs) are a great place to refer to for any of your queries related to VSCode.
-- These handy little PDFs on VSCode's shortcuts for [linux](https://go.microsoft.com/fwlink/?linkid=832144), [macOS](https://go.microsoft.com/fwlink/?linkid=832143) and [Windows/WSL2](https://go.microsoft.com/fwlink/?linkid=832145) are a great resource to help make your VSCode experience smoother and more efficient.
