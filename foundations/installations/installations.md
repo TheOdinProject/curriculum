@@ -554,4 +554,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What operating systems does The Odin Project support?](#os-installation)
 - [What browser does The Odin Project support?](#google-chrome-installation)
-
