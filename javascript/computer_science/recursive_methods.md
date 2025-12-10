@@ -36,13 +36,11 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Solve each of the questions from this [Code Quiz](https://www.codingame.com/playgrounds/5422/js-interview-prep-recursion) on Recursion. It is not important to have recursive algorithms committed to memory at this point; just understand how to create and use them.
+  1. Go to [the recursion directory of The Odin Project's JavaScript exercises repo](https://github.com/TheOdinProject/javascript-exercises/tree/main/foundations). Complete each of the exercises in order. Be sure to review the README for each exercise prior to completing it.
 
-<div class="lesson-note lesson-note--warning" markdown="1">
+<div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Incomplete solution for question 6
-
-The solution for "Question 6: Search JS object" is incomplete. See [a more accurate solution for `contains()`](https://gist.github.com/JoshDevHub/b00125f483d4a1ecc257eaa030916973) after you solve it.
+If you remember, you forked, cloned, and set everything up to run the tests in these exercises all the way back in the [Data Types and Conditionals lesson of Foundations](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals). You've come a long way! If for whatever reason, you don't have this repo setup, you can review the [setup instructions located in the top-level README of the exercises repo](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises).
 
 </div>
 
