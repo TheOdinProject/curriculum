@@ -36,13 +36,7 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Go to [the recursion directory of The Odin Project's JavaScript exercises repo](https://github.com/TheOdinProject/javascript-exercises/tree/main/foundations). Complete each of the exercises in order. Be sure to review the README for each exercise prior to completing it.
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-If you remember, you forked, cloned, and set everything up to run the tests in these exercises all the way back in the [Data Types and Conditionals lesson of Foundations](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals). You've come a long way! If for whatever reason, you don't have this repo setup, you can review the [setup instructions located in the top-level README of the exercises repo](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises).
-
-</div>
+  1. Go to [the `computer_science/recursion/` directory of The Odin Project's JavaScript exercises repo](https://github.com/TheOdinProject/javascript-exercises/tree/main/computer_sience/recursion) and complete each of the exercises in order. Be sure to review the README for each exercise prior to completing it. If you need to, revisit the repo's README for general instructions on forking, cloning, and using the exercises.
 
 </div>
 
