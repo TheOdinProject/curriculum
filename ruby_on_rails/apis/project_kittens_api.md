@@ -74,11 +74,17 @@ This is a fast and straightforward project where you'll set up a Rails app to be
 
 1. Now it's time to make the Kittens resource available via API.
 
-   1. Open a new command line tab and fire up IRB.  We'll use `rest-client` gem to send requests to our app:
+   1. Add the HTTParty gem to your project and open a Rails console. We'll use the `HTTParty` gem to send requests to our app:
+
+      ```bash
+      bundle add httparty
+      rails console
+      ```
+
+      Then in the console:
 
       ```ruby
-      require 'rest-client' # If you get an error here, you most likely need to install the gem.
-      response = RestClient.get("http://localhost:3000/kittens")
+      response = HTTParty.get("http://localhost:3000/kittens")
       ```
 
    1. Let's see what we got back:
@@ -90,18 +96,18 @@ This is a fast and straightforward project where you'll set up a Rails app to be
       ```
 
       If you check out your server output, it's probably processing as \*/\* (i.e. all media types), e.g. `Processing by KittensController#index as */*`
-   1. Try asking specifically for a JSON response by adding the option `accept: :json`, e.g.:
+   1. Try asking specifically for a JSON response by adding the headers option:
 
       ```ruby
-      json_response = RestClient.get("http://localhost:3000/kittens", accept: :json)
+      json_response = HTTParty.get("http://localhost:3000/kittens", headers: { 'Accept' => 'application/json' })
       ```
 
       You most likely will get a 406 Not Acceptable error - check your server console and you will see ActionController talking about UnknownFormat for your controller.
    1. Now modify your KittenController's `#index` method to `#respond_to` JSON and render the proper variables.
-   1. Test it out by making sure your RestClient calls return the proper JSON strings, e.g.:
+   1. Test it out by making sure your HTTParty calls return the proper JSON strings, e.g.:
 
       ```ruby
-      json_response = RestClient.get("http://localhost:3000/kittens", accept: :json)
+      json_response = HTTParty.get("http://localhost:3000/kittens", headers: { 'Accept' => 'application/json' })
       puts json_response.body
       ```
 
