@@ -6,7 +6,8 @@ With media queries, it is possible to completely restyle your web projects based
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- You'll learn how to implement media queries to create fully responsive websites that look great on any device.
+- Conditionally applying styles via media queries.
+- Container queries.
 
 ### Media query syntax
 
@@ -105,6 +106,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [How do you define a media query to create a mobile layout for your site?](#media-query-syntax)
 - [What is the difference between `max-width` and `min-width` in a media query definition?](#tips)
+- [What is the difference between a media query and a container query?](#container-queries)
 
 ### Additional resources
 
