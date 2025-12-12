@@ -546,15 +546,11 @@ WSL does not have a graphical user interface (GUI) like Windows, so this step wi
 
 </details>
 
+Google Chrome is one of the most important tools that you will be using throughout the curriculum. This reference has many [common shortcuts that you may find useful when using Chrome](https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ctab-window-shortcuts).
+
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What operating systems does The Odin Project support?](#os-installation)
 - [What browser does The Odin Project support?](#google-chrome-installation)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Google Chrome is one of the most important tools that you will be using throughout the curriculum. This reference has many [common shortcuts that you may find useful when using Chrome](https://support.google.com/chrome/answer/157179?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Ctab-window-shortcuts).

@@ -197,9 +197,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you join The Odin Project's Discord server?](https://discord.gg/fbFCkYabZB)
 - [What makes a good question that's easier for others to help with?](#asking-for-help)
 - [How can you more effectively help others with their coding problems?](#how-to-help-others-solve-coding-problems)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- For more information on formatting, check out [Discord Markdown 101](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-).
