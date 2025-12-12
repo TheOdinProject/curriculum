@@ -87,6 +87,10 @@ This is not necessary, but it *does* point toward another very useful capability
 
 This is not something we're going to focus on in our curriculum, but it may be something you want to consider taking advantage of in some cases. It's fairly common to change some colors (i.e. make things black/white), and add `display: none` to hide elements that are useless in a printed environment (buttons, nav links, etc).
 
+### Container queries
+
+While media queries allow you to conditionally apply styles based on characteristics of things like the viewport or device etc., you can do the same thing but based on characteristics of a "container" element instead via container queries (`@container`); Depending on the exact styles you're trying to conditionally apply, one or the other may make more sense to base your conditions on. There are subtle differences in the syntax of course, but ultimately the concept is the same and plenty of documentation exists as usual.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
