@@ -6,7 +6,8 @@ With media queries, it is possible to completely restyle your web projects based
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- You'll learn how to implement media queries to create fully responsive websites that look great on any device.
+- Conditionally applying styles via media queries.
+- Container queries.
 
 ### Media query syntax
 
@@ -87,6 +88,10 @@ This is not necessary, but it *does* point toward another very useful capability
 
 This is not something we're going to focus on in our curriculum, but it may be something you want to consider taking advantage of in some cases. It's fairly common to change some colors (i.e. make things black/white), and add `display: none` to hide elements that are useless in a printed environment (buttons, nav links, etc).
 
+### Container queries
+
+While media queries allow you to conditionally apply styles based on characteristics of things like the viewport or device etc., you can do the same thing but based on characteristics of a "container" element instead via container queries (`@container`); Depending on the exact styles you're trying to conditionally apply, one or the other may make more sense to base your conditions on. There are subtle differences in the syntax of course, but ultimately the concept is the same and plenty of documentation exists as usual.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -101,6 +106,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [How do you define a media query to create a mobile layout for your site?](#media-query-syntax)
 - [What is the difference between `max-width` and `min-width` in a media query definition?](#tips)
+- [What is the difference between a media query and a container query?](#container-queries)
 
 ### Additional resources
 
