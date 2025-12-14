@@ -177,7 +177,7 @@ export default function App() {
 }
 ```
 
-While React now prefers the default parameter approach for function components, understanding `defaultProps` is still useful, especially when working with class components or older codebases.
+While React no longer accepts the latter approach for function components, understanding `defaultProps` is still useful, especially when working with class components or older codebases.
 
 ### Functions as props
 
