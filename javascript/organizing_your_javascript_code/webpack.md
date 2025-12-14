@@ -244,7 +244,7 @@ Once again, bundle with Webpack using `npx webpack`, then open `dist/index.html`
 
 #### What about link tags?
 
-Notice how we don't link our CSS file in our HTML template like we would've done before. While you could do this with one of the loaders from the next section, in the real world, projects often contain many moving parts and many modules. Eventually, it becomes easier to work with multiple smaller CSS files that you import in the modules they're needed. There are even ways those files can be scoped only to those modules and not globally!
+Notice how we don't link our CSS file in our HTML template like we would've done before. While you could do this with one of the loaders from the next section, in the real world, projects often contain many moving parts and many modules. Eventually, it becomes easier to work with multiple smaller CSS files that you import in the modules where they're needed. There are even ways those files can be scoped only to those modules and not globally!
 
 We're only introducing the minimum to allow you to import your CSS into your JavaScript, but many build tools and more sophisticated bundler configurations will do a lot more to imported CSS than what we're showing here.
 
@@ -459,9 +459,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How would you handle assets like local image files?](#loading-images)
 - [What Webpack tool could you use during development to view changes to your website live?](#webpack-dev-server)
 - [How does using a source map help with development?](#source-maps)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

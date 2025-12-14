@@ -2,13 +2,18 @@
 
 The next step is to actually apply.  Don't send all your applications out at once! You'll get totally overwhelmed if you start hearing back from people and need to complete tasks all at once.  Treat it like an iterative process where you'll send out several applications each day, learn from any mistakes you can identify based on feedback from the process, and try again the next day.  
 
-<div class="lesson-note" markdown="1">
-
 This is NOT an excuse to procrastinate or only send out one application a day.  You should have a definite goal for number of applications per day.  3? 5? 10?
 
-</div>
-
 Over time, you will work your way through your Excel list.  It's usually good to start at the bottom with the companies that you would barely work at.  Once you feel comfortable with your application-sending and hopefully interviewing abilities, you can start tackling the companies at the top that you *really* want to work for.
+
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Explain how to apply for jobs effectively without becoming overwhelmed.
+- Describe strategies to get noticed by companies you want to work for.
+- Describe how to maintain perseverance and follow up professionally during the job search.
+- Explain how to tailor your resume and cover letters for different positions.
 
 ### Go in the side door
 
@@ -17,8 +22,6 @@ Where do you start?  Do two things at once -- send applications to a few compani
 So there are probably a few companies that you'd *really* like to work for.  You'll want to spend a lot more time on them than you would for the ones at the bottom (which are hopefully good for interview practice).  Not only should you try to find a real human being at the company, but you can also potentially get noticed by tailoring your project work to them.  You'll be building projects (I hope) to stay in practice anyway, so make one of those a clone of the top company's website with a new feature you'd like to see, then use that to display your interest.  
 
 Get to know the company and its needs and see if you can reach out to address them somehow.  Do they have local events you can visit?  What do they sponsor? This stuff takes creativity.  You need to walk the line where you're not a stalker but you do care enough to push hard.  If you're wrong, they may say no.  It happens, you'll live and move on.  But you'd better try!  You'll probably figure things out that will help you with other companies anyway.
-
-- [Getting noticed by a startup you want to work for](https://www.themuse.com/advice/want-to-work-for-a-startup-heres-how-to-get-noticed)
 
 ### Perseverance through the process
 
@@ -53,3 +56,19 @@ Track every application you send out in your spreadsheet by the date you sent it
 ### Following up
 
 This actually applies to the whole process, not just applications.  Follow up your interviews (with a thank you to your interviewer on day 1 too).  Follow up your tech screens.  The goal here isn't to be naggy and annoying/desperate, and it's certainly not to be a robot sending auto-generated emails all the time. Just be human and honest in your language.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Read about [how to get noticed by a startup you want to work for](https://www.themuse.com/advice/want-to-work-for-a-startup-heres-how-to-get-noticed).
+
+</div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What are some strategies to get noticed by companies you want to work for?](#go-in-the-side-door)
+- [How can you maintain perseverance during the job search?](#perseverance-through-the-process)
+- [How can you tailor your resume for different positions?](#resume-versions)

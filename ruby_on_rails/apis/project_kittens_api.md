@@ -1,8 +1,10 @@
-### Warmup: Exploring the Flickr API
+### Introduction
 
-In this warmup, you'll get a chance to poke around with an existing API from Flickr. You'll need to read the documentation to understand which calls to make but they have a nice API explorer tool which submits API calls on your behalf.
+In this lesson, you'll first get a chance to poke around with an existing API from Flickr. You'll need to read the documentation to understand which calls to make but they have a nice API explorer tool which submits API calls on your behalf.
 
-### Assignment 1
+After that, you'll build your own simple Rails application that serves as a RESTful API.
+
+### Exploring the Flickr API
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -54,67 +56,63 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
 
 This is a fast and straightforward project where you'll set up a Rails app to be a data-producing API... which is just a fancy way of saying that all your controller methods will render data instead of HTML.  Consider this a drill in quickly building a pure vanilla RESTful resource. We won't be working with an external API until the next project.
 
-### Assignment 2
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-#### HTML
+1. We'll start by building our Kitten application to work normally in the browser with HTML.
 
-We'll start by building our Kitten application to work normally in the browser with HTML.
+   1. Set up a new Rails application (`odin-kittens`) and Git repo.
+   1. Update the README to describe the application and link back to this project.
+   1. Build a Kitten model with attributes of `:name`, `:age`, `:cuteness`, and `:softness`.
+   1. Build a KittensController and `:kittens` routes for all 7 RESTful actions.
+   1. Set your default route to `kittens#index`.
+   1. Fill out each of your controller actions and their corresponding views to display a very basic HTML page -- `#index` should just list all Kittens, `#show` should display a single Kitten, `#new` should render a Kitten creation form, `#edit` should use the same form (which should be a partial used by both the New and Edit views) to Edit the Kitten, `#create` and `#update` should do their jobs.
+   1. Make a `delete` link on the Kitten's Show and Edit pages, as well as next to each Kitten listed in the Index page.
+   1. Implement a display of the `flash` hash which congratulates you on adding or editing or deleting kittens and makes fun of you for errors in your form.
+   1. Test out your Kitten creation machine to make sure all your controller actions are running properly.
 
-1. Set up a new Rails application (`odin-kittens`) and Git repo.
-1. Update the README to describe the application and link back to this project.
-1. Build a Kitten model with attributes of `:name`, `:age`, `:cuteness`, and `:softness`.
-1. Build a KittensController and `:kittens` routes for all 7 RESTful actions.
-1. Set your default route to `kittens#index`.
-1. Fill out each of your controller actions and their corresponding views to display a very basic HTML page -- `#index` should just list all Kittens, `#show` should display a single Kitten, `#new` should render a Kitten creation form, `#edit` should use the same form (which should be a partial used by both the New and Edit views) to Edit the Kitten, `#create` and `#update` should do their jobs.
-1. Make a `delete` link on the Kitten's Show and Edit pages, as well as next to each Kitten listed in the Index page.
-1. Implement a display of the `flash` hash which congratulates you on adding or editing or deleting kittens and makes fun of you for errors in your form.
-1. Test out your Kitten creation machine to make sure all your controller actions are running properly.
+1. Now it's time to make the Kittens resource available via API.
 
-#### JSON API
+   1. Add the HTTParty gem to your project and open a Rails console. We'll use the `HTTParty` gem to send requests to our app:
 
-Now it's time to make the Kittens resource available via API.
+      ```bash
+      bundle add httparty
+      rails console
+      ```
 
-1. Open a new command line tab and fire up IRB.  We'll use `rest-client` gem to send requests to our app:
+      Then in the console:
 
-    ```irb
-    require 'rest-client' # If you get an error here, you most likely need to install the gem.
-    response = RestClient.get("http://localhost:3000/kittens")
-    ```
+      ```ruby
+      response = HTTParty.get("http://localhost:3000/kittens")
+      ```
 
-1. Let's see what we got back:
+   1. Let's see what we got back:
 
-    ```irb
-    response.body #=> Should return a sloppy mess of HTML.
-    # alternatively, you can do this:
-    response.to_s
-    ```
+      ```ruby
+      response.body #=> Should return a sloppy mess of HTML.
+      # alternatively, you can do this:
+      response.to_s
+      ```
 
-    If you check out your server output, it's probably processing as \*/\* (i.e. all media types), e.g. `Processing by KittensController#index as */*`
-1. Try asking specifically for a JSON response by adding the option `accept: :json`, e.g.:
+      If you check out your server output, it's probably processing as \*/\* (i.e. all media types), e.g. `Processing by KittensController#index as */*`
+   1. Try asking specifically for a JSON response by adding the headers option:
 
-    ```irb
-    json_response = RestClient.get("http://localhost:3000/kittens", accept: :json)
-    ```
+      ```ruby
+      json_response = HTTParty.get("http://localhost:3000/kittens", headers: { 'Accept' => 'application/json' })
+      ```
 
-    You most likely will get a 406 Not Acceptable error - check your server console and you will see ActionController talking about UnknownFormat for your controller.
-1. Now modify your KittenController's `#index` method to `#respond_to` JSON and render the proper variables.
-1. Test it out by making sure your RestClient calls return the proper JSON strings, e.g.:
+      You most likely will get a 406 Not Acceptable error - check your server console and you will see ActionController talking about UnknownFormat for your controller.
+   1. Now modify your KittenController's `#index` method to `#respond_to` JSON and render the proper variables.
+   1. Test it out by making sure your HTTParty calls return the proper JSON strings, e.g.:
 
-    ```irb
-    json_response = RestClient.get("http://localhost:3000/kittens", accept: :json)
-    puts json_response.body
-    ```
+      ```ruby
+      json_response = HTTParty.get("http://localhost:3000/kittens", headers: { 'Accept' => 'application/json' })
+      puts json_response.body
+      ```
 
-1. Do the same for your `#show` method, which will require you to provide an ID when making your request.  Your CSRF protection will prevent you from creating, updating or deleting kittens via the API, so it's not necessary to implement those.
+   1. Do the same for your `#show` method, which will require you to provide an ID when making your request.  Your CSRF protection will prevent you from creating, updating or deleting kittens via the API, so it's not necessary to implement those.
 
 Now you've got a website that is both a normal HTML-producing back end AND an API that can be used to pull data from it. You could use JavaScript calls from the front end to dynamically refresh your data now or even to load the whole page in the first place. Or maybe you'll be hooking up a Kittens app to your iPhone and need a back end. It doesn't matter, since now you've got a RESTful API.
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

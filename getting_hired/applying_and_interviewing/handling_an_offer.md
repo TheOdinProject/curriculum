@@ -1,8 +1,16 @@
 ### Introduction
 
-If you kicked butt, you'll get an offer.  That means there's a pretty good chance you'll get to work there, but just remember that not all "offers" (especially verbal-only ones) are actually real.  It's a good time to be happy because you did well but don't expect that it's a done deal.  We've seen companies pull offers for internal reasons or external reasons -- the point is that it happens, so don't go buying a house until you've signed the documents.  If it's just a verbal offer, ask them to email you the details.
+If you kicked butt, you'll get an offer.  That means there's a pretty good chance you'll get to work there, but just remember that not all "offers" (especially verbal-only ones) are actually real.  It's a good time to be happy because you did well but don't expect that it's a done deal.  We've seen companies pull offers for internal reasons or external reasons -- the point is that it happens, so don't go buying a house until you've signed the documents.
 
-DO NOT ACCEPT RIGHT AWAY! This is doubly true if you don't think it's a good offer.  This is an important point for you -- they've been totally in control of the process until now and they've probably dragged their feet because they can (who knows, an even better developer might show up, right?).  Now it's your turn.  They've put in a lot of effort so far and any reasonable company isn't going to let you walk away over a few days or a few thousand dollars.  They should give you at least a week to decide.
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Learn how to handle an offer and negotiate.
+
+### Handling an offer
+
+If it's just a verbal offer, ask them to email you the details. DO NOT ACCEPT RIGHT AWAY! This is doubly true if you don't think it's a good offer.  This is an important point for you -- they've been totally in control of the process until now and they've probably dragged their feet because they can (who knows, an even better developer might show up, right?).  Now it's your turn.  They've put in a lot of effort so far and any reasonable company isn't going to let you walk away over a few days or a few thousand dollars.  They should give you at least a week to decide.
 
 One big factor is compensation.  The person making the offer usually has discretion to bump it up a bit (maybe $5k in Silicon Valley, probably less elsewhere) without asking their manager, so it's often a good idea to negotiate the first offer.  Maybe you're negotiating salary, vacation, relocation bonuses, or personal project status.  It doesn't matter, your position is a whole lot better while you're holding that offer.
 
@@ -12,7 +20,17 @@ Not only that, but remember all those companies that dragged their feet and you 
 
 Once you've worked through your negotiation and hopefully had the chance to rank multiple offers, the decision must be made.  That's a good choice to have to make.  Congratulations!  Now you get paid to keep learning.
 
-### Links
+### Assignment
 
-* [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/) - Long blog but worth the read to get in the right mindset.
-* [Negotiating your Startup Offer from Rob.by](https://web.archive.org/web/20180626035838/http://rob.by/2013/negotiating-your-startup-job-offer/) gets into the equity component of some offers.
+<div class="lesson-content__panel" and markdown="1" attributes>
+
+1. [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/) - Long blog but worth the read to get in the right mindset.
+1. [Negotiating your Startup Offer from Rob.by](https://web.archive.org/web/20180626035838/http://rob.by/2013/negotiating-your-startup-job-offer/) gets into the equity component of some offers.
+
+</div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [How should you handle an offer?](#handling-an-offer)

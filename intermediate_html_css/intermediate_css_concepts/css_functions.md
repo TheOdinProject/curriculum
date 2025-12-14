@@ -66,6 +66,8 @@ You should be able to grasp how `calc()` is used in the above CodePen embed. We 
 
 <div class="lesson-note lesson-note--tip" markdown=1>
 
+#### calc() example
+
 The above is just an example of how `calc()` can affect a layout, but keep in mind that `calc()` is likely not the best way to go about it. We will talk more about layouts in future lessons.
 
 </div>
@@ -93,24 +95,21 @@ The above is just an example of how `calc()` can affect a layout, but keep in mi
 }
 ```
 
-Focus on this line `width: min(150px, 100%);` we can make several observations:
-If there are `150px` available to the image, it will take up all `150px`.
-If there are not `150px` available, the image will switch to `100%` of the parent's width.
-In the first case `min()` selects `150px`, since `150px` is the smaller (the minimum) between `150px` and `100%` of the parent's width; in the second, it chooses `100%`. `min()` behaves as a boundary for the *maximum* allowed value, which in this example is `150px`.
+The `min()` function works just like JavaScript's `Math.min()` and Ruby's `Array#min` methods. It takes a list of values separated by commas and returns the smallest one.
 
-You are able to do basic math inside a `min ( )` => for example: `width: min(80ch, 100vw - 2rem);`
+This checks whether `100%` of the parent element’s width is smaller than `150px`. If `100%` would be narrower than `150px`, the element will take up the full width of the container (`100%`). Otherwise, it will be `150px` wide.
+
+You are able to do basic math inside a `min()`. For example, `width: min(80ch, 100vw - 2rem);` (you don't even need `calc()` in this case).
 
 ### max()
 
-Max works the same way as min, only in reverse. It will select the largest possible value from within the parentheses. You can think of `max()` as ensuring a *minimum* allowed value for a property.
-
-Consider the following property of a given element:
+`max()` works the same way as `min()`, only in reverse, and is like JavaScript's `Math.max()` and Ruby's `Array#max` methods. It will select the largest possible value from within the parentheses.
 
 ```css
 width: max(100px, 4em, 50%);
 ```
 
-From this list of given sizes, `max()` will select the largest one. As long as `4em` or `50%` result in lengths longer than `100px`, `max()` will select (the bigger) one of them. If they are smaller than `100px` (maybe as a cause of user's font size preferences, or their browser's window size or zoom level), then `100px` will win out as the largest. You can think of `100px` in this example as a guard value: `width` here won't ever be set to less than `100px`.
+The above compares all three values and sets the element's width to whichever is largest. If `50%` of the parent container is bigger than `100px` and `4em`, the width will be `50%`. If `4em` is larger than the others, it will use `4em`.
 
 The max function is most useful when the viewing window is either exceptionally small, or the user increases the content size by using the browser’s zoom feature.
 You may not find a lot of use for max at first, but it is a good tool to be aware of for projects where accessibility is important.
@@ -122,15 +121,17 @@ You may not find a lot of use for max at first, but it is a good tool to be awar
 
 ```css
 h1 {
-  font-size: clamp(320px, 80vw, 60rem);
+  font-size: clamp(1.5rem, 5vw, 3rem);
 }
 ```
 
-1. the smallest value (320px)
-1. the ideal value (80vw)
-1. the largest value (60rem)
+1. the minimum value `1.5rem`
+1. the scaling value `5vw`
+1. the maximum value `3rem`
 
-The `clamp()` CSS function uses these values to set the smallest value, ideal value and largest value. In the above example, this would mean the smallest acceptable font-size would be 320px and the largest would be 60rem. The ideal font-size would be 80vw.
+The `clamp()` CSS function uses these values to set the minimum value, scaling value and maximum value. In the above example, this would mean the minimum acceptable font-size would be `1.5rem` and the maximum would be `3rem`.
+
+A font-size of `5vw` is set in-between. The value `5vw` allows the font-size to scale according to the viewport's width, but the size is restricted by the minimum and maximum values we've set.
 
 ### Assignment
 

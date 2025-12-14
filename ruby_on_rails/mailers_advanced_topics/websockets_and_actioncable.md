@@ -302,7 +302,7 @@ You can add additional functions to the object to help you process the data. The
 
 It is possible for a client to send a message to the server and for the server to rebroadcast that message to others. You can read the short section in the [Rails Guides](https://guides.rubyonrails.org/action_cable_overview.html#rebroadcasting-a-message) if you are interested.
 
-If you want to send dynamic parameters from the client when setting up the server, care needs to be taken. You can only get params once the DOM has rendered, and it's common therefore to wrap code in a `turbo:load` event listener. Because of this, if you aren't careful, you can end up subscribing the same stream multiple times as you navigate pages. Action Cable doesn't check if you are already subscribed to a stream before doing it again, because this might be intended behaviour for your app; they can't only allow one connection to a channel. This is connected with the way turbolinks works. You can read this Stack Overflow post where others have experienced [duplicate messages from duplicate stream subscriptions](https://stackoverflow.com/questions/39541259/rails-actioncable-turbolinks-chat-issue-posting-duplicate-messages).
+If you want to send dynamic parameters from the client when setting up the server, care needs to be taken. You can only get params once the DOM has rendered, and it's common therefore to wrap code in a `turbo:load` event listener. Because of this, if you aren't careful, you can end up subscribing the same stream multiple times as you navigate pages. Action Cable doesn't check if you are already subscribed to a stream before doing it again, because this might be intended behavior for your app; they can't only allow one connection to a channel. This is connected with the way turbolinks works. You can read this Stack Overflow post where others have experienced [duplicate messages from duplicate stream subscriptions](https://stackoverflow.com/questions/39541259/rails-actioncable-turbolinks-chat-issue-posting-duplicate-messages).
 
 For testing and development Action Cable uses an async adapter to work, but in Production it defaults to looking for a redis server. You will need to ensure you have one working if you want to get it up and running on Heroku or another service.
 
@@ -330,9 +330,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Where do you authorize incoming connections?](#websocket-connections)
 - [What are Action Cable’s stream options?](#streams)
 - [What is the difference between `stream_from` and `stream_for`?](#streams)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

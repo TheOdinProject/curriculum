@@ -22,7 +22,7 @@ Each list item in an unordered list begins with a bullet point:
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="powjajd" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/powjajd">
-  html-unordred-list</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  HTML-unordered-list</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
@@ -38,7 +38,7 @@ Ordered lists are created using the `<ol>` element. Each individual item in them
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="yLXYvYp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/yLXYvYp">
-  html-ordered-list</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
+  HTML-ordered-list</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 
 </p>
@@ -73,4 +73,3 @@ This section contains helpful links to related content. It isn't required, so co
 - [MDN documentation on the unordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
 - [MDN documentation on the ordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
 - [Shay Howe's HTML lists tutorial](https://learn.shayhowe.com/html-css/creating-lists/)
-

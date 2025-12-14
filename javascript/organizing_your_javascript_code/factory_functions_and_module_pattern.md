@@ -82,7 +82,7 @@ Now, while it may sound good at first glance, you may already be raising your ey
 
 Functions in JavaScript form closures. A closure refers to the combination of a function and the **surrounding state** in which the function was declared. This surrounding state, also called its **lexical environment**, consists of any local variables that were in scope at the time the closure was made. Here, `add5` is a reference to the `resulting` function, created when the `makeAdding` function is executed, thus it has access to the lexical environment of the `resulting` function, which contains the `first` variable, making it available for use.
 
-This is a **crucial** behavior of functions - allowing us to associate data with functions and manipulate that data anywhere outside of the enclosing function. If you're still confused, read the [MDN documentation on Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#closure), but only the sections "Lexical scoping", "Closure" and "Practical closures". The other sections refer to concepts that will be discussed later in this lesson.
+This is a **crucial** behavior of functions - allowing us to associate data with functions and manipulate that data anywhere outside of the enclosing function. If you're still confused, read the [MDN documentation on Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures), but only the sections "Lexical scoping", "Closure" and "Practical closures". The other sections refer to concepts that will be discussed later in this lesson.
 
 ### So, what's wrong with constructors?
 
@@ -276,7 +276,7 @@ Take the calculator example into consideration. It's very easy to imagine a scen
    - [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
    - [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
 1. Read this article on [module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm) by Tomek Buszewski.
-1. In case you prefer video lessons, this [YouTube series on module pattern](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f) covers most of the content that we have discussed. Note that the videos include jQuery, but you don't need to understand the jQuery syntax since the focus is on the module pattern concept.
+1. This [YouTube series on module pattern](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f) covers most of the content that we have discussed. Note that the videos include jQuery, but you don't need to understand the jQuery syntax since the focus is on the module pattern concept.
 
 </div>
 

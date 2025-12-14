@@ -50,23 +50,21 @@ You can also put any number of style definitions inside a media query:
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-### Tips
-
 #### Other queries
 
 In all of the above examples, our queries specify a `max-width` which will apply styles to any screen resolution *below* or equal to the specified value. Said another way: a `max-width` query will apply on any screen up to the defined `max-width`. It is also possible to define a `min-width`, which applies to any screen resolution *above* or equal to the given value. `max-height` and `min-height` are also valid.
 
-#### Limit media queries
+### Limit media queries
 
 As mentioned earlier, it is possible to create an unlimited number of media queries for every possible screen size. However, it is best to minimize your media-query usage and rely more on the natural flexibility of your layouts. Consider the second embedded example above ("my cool site"). It only *needs* one media query to accommodate all desktop and mobile sizes, and there's no real need to create more.
 
-#### Common breakpoints
+### Common breakpoints
 
 'Breakpoint' is the term for the screen size that triggers your media query. You will find quite a lot of differing opinions on what exactly your breakpoints should be. In general, it's helpful to think about the kinds of devices and screens that your users will be using. Mobile phones are usually under `500px`. Tablets are often between `500px` and `1000px`. Anything larger than `1000px` is likely to be a normal browser screen. Super wide screens are also becoming more common, which means that your site *could* end up being viewed on a screen wider than `2000px`!
 
 This does *not* mean that you should just start your project with media queries for each device. Each project is going to have different requirements based on the design you're trying to achieve. As mentioned above, try to limit your breakpoints to just what you *need*. With many relatively basic layouts, you can get by with only one mobile-centric breakpoint somewhere around `500`-`600px`. More complex layouts might benefit from doing a full-sized layout above `1200px`, an altered "tablet" layout between `600px` and `1200px` and mobile below `600px`. The real takeaway here is that it doesn't really matter exactly where you set your breakpoints, just do what makes sense for your project.
 
-#### Zooming!
+### Zooming!
 
 In most browsers, **zooming in on a webpage will change the effective resolution of that page**. If your browser window is exactly `1000px` wide, zooming in will cause the page to behave as if the screen is *smaller*, and will trigger media queries based on the simulated/zoomed screen resolution. Zooming *out* can be handy for debugging issues that arise on screens that are larger than your own computer screen. Forgetting that you've zoomed in or out on a webpage can cause some real confusion when breakpoints refuse to trigger at the correct points.
 

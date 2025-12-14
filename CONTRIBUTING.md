@@ -9,13 +9,16 @@ This contributing guide assumes you have followed the instructions in our genera
 - [How to Contribute](#how-to-contribute)
 - [Curriculum Linting](#curriculum-linting)
 - [Adding Images to the Curriculum](#adding-images-to-the-curriculum)
+- [Updating Ruby Version](#updating-ruby-version)
 
 ## How to Contribute
 
-There are 2 main ways you can contribute to our curriculum:
+Please refer to our [general contributing guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md) for details on the difference between simple and significant changes, and the expected process for handling each.
 
-1. If you're new to contributing to open-source, only need to edit 1 file, or if you just want to make a really quick pull request (PR), you can click the "Improve this lesson on GitHub" link found at the end of each lesson. This will open the lesson file in its "edit" mode, allowing you to make any edits and submit a PR all through GitHub.
-1. If you're more experienced with contributing or need to edit more than 1 file, you can follow our instructions on [setting up a local clone](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md) from our general contributing guide. You should also read the sections that follow on how to open a PR.
+When it comes to opening a pull request (PR) to our curriculum, there are 2 main ways you can do so:
+
+1. Click the "Improve on GitHub" link found at the end of each lesson. This will open the lesson file in its "edit" mode, allowing you to make any edits and submit a PR all through GitHub. This can be useful if you're new to contributions and want to make a simple change.
+1. Follow the instructions from the general contributing guide to fork and clone this repo locally, and work from there. This is necessary if you need to edit multiple files as part of a single PR.
 
 Regardless of the way you choose to open a PR, while working on an existing or a new lesson you **must** follow our [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md) to ensure the layout and formatting is consistent across our curriculum.
 
@@ -104,3 +107,17 @@ Adding images to the curriculum is a two-step process, involving two PRs. For a 
 1. Use each of these links to link to your desired images in the curriculum content you’re editing/adding.
 1. PR the addition of the image links (and any other content you’ve added/changed in the lesson).
 
+## Updating Ruby Version
+
+If you want to update the Ruby language version installed in the [Ruby Installation lesson](https://github.com/TheOdinProject/curriculum/blob/main/ruby/introduction/installing_ruby.md), there are a few additional changes that may need to happen:
+
+1. Update the version number in the `.ruby-version` file in the following repos:
+   - [custom_enumerable_project](https://github.com/TheOdinProject/custom_enumerable_project)
+   - [ruby_testing](https://github.com/TheOdinProject/ruby_testing)
+1. Ruby uses [semver](https://en.wikipedia.org/wiki/Software_versioning#Semantic_versioning) for its versioning, where the first digit is a 'major' version, the second digit is a 'minor' version, and the third digit is a 'patch' version. **If you're updating the installation to a Ruby version that bumps the major or minor digits, then the documentation links throughout the Ruby course will need to be updated.** They use a URL like `https://docs.ruby-lang.org/en/x.y` where `x` and `y` digits denote the major and minor versions respectively. You'll need to find all the existing documentation links and replace them to reference the new version. You can do this through using your editor's global find and replace utility or through the command line. An example command that would update the docs from 3.3 to 3.4 if run from the curriculum root:
+
+   ```bash
+   find . -type f -exec sed -i 's+docs.ruby-lang.org/en/3.3+docs.ruby-lang.org/en/3.4+g' {} +
+   ```
+
+1. Although not strictly required, we do like to have the version of Ruby used on the main site match the version that's used in the curriculum. If they don't match and you're comfortable working in a Rails app, feel free to put in a PR to the [main site repo](https://github.com/TheOdinProject/theodinproject) that bumps the Ruby version to what you're changing it to. If you're not experienced with Rails, you can open an issue instead and another contributor will pick it up.

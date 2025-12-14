@@ -190,7 +190,7 @@ export default ClassInput;
 
 The pre-defined `setState` method can be used to set it again! Remember, state must not be mutated, so a new state must be set, every time.
 
-<span id="the-importance-of-bind">Now, it is time to finish it off by adding all the functionality! It is nearly the same, except for a single difference. Whenever a method is declared, you must `bind` the `this` of the method to that of the class in order to work with it, as by default, the methods in a class are not bound to it. Usually, you do this inside the constructor and not at runtime [in the render method].</span>
+<span id="the-importance-of-bind">Now, it is time to finish it off by adding all the functionality! It is nearly the same, except for a single difference. Whenever a method is declared, you must `bind` the `this` of the method to that of the class in order to work with it, as by default, the methods in a class are not bound to it. Usually, you do this inside the constructor and not at runtime [in the render method]. Alternatively, if you define your methods using the arrow function syntax, `this` is automatically bound to the class instance, and you can skip binding it in the constructor.</span>
 
 ```jsx
 import { Component } from "react";
@@ -283,9 +283,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How does JSX get displayed?](#how-you-can-render-jsx)
 - [How do we deal with state in a class-based component?](#how-to-use-state-and-manage-context)
 - [How do you restore the context of `this` in a method?](#the-importance-of-bind)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

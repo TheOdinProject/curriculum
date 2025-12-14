@@ -194,7 +194,12 @@ Next, you need to tell RuboCop to load your new extension. You can do this by ed
 bundle exec rubocop --init
 ```
 
-It won't have anything in it besides a comment describing what it is for. Now, all you have to do is add the line `require: rubocop-performance` to this file and RuboCop will know to use the extension whenever you run `bundle exec rubocop`.
+It won't have anything in it besides a comment describing what it is for. Now, all you have to do is copy/paste the following lines in your `.rubocop.yml` file so that `rubocop` will know to use the extension whenever you run `bundle exec rubocop`:
+
+```yaml
+plugins:
+  - rubocop-performance
+```
 
 RuboCop is still under development, so changes and additions happen. New Cops join the precinct and they're not enabled by default - if you'd like them to be enabled by default instead of going through all of them and deciding on your own, you can use:
 

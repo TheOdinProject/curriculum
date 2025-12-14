@@ -14,29 +14,22 @@ In this brief lesson, you'll get a chance to learn more about when and how to us
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Why is recursion a useful technique for solving a big problem?
-- What are the limitations of using recursive solutions?
-- What types of problems are more suited for simple loops than recursion?
-- What is meant by "recursive depth"?
-- What is a "stack overflow" (the concept, not the website)?
-- Why is that relevant to a recursive problem?
+- Why recursion is a useful technique for solving large problems.
+- The limitations of using recursive solutions.
+- Which types of problems are better solved using loops instead of recursion.
+- The concept of "recursive depth".
+- What a "stack overflow" is (the concept, not the website).
+- Why stack overflow is relevant to recursive problems.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read the [Chapter on Recursion](http://ruby.bastardsbook.com/chapters/recursion/) in the Bastards Book of Ruby by Dan Nguyen.
-  1. Watch this [explanation of recursion by Web Dev Simplified](https://www.youtube.com/watch?v=6oDQaB2one8).
-  1. Watch this [Video on Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM) from CS50.
-  1. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
-
-</div>
-
-#### Test yourself
-
-<div class="lesson-content__panel" markdown="1">
-
-  1. Solve each of the questions from this [Code Quiz on recursion](http://www.codequizzes.com/computer-science/beginner/recursion).
+1. Read the [Chapter on Recursion](http://ruby.bastardsbook.com/chapters/recursion/) in the Bastards Book of Ruby by Dan Nguyen.
+1. Watch this [explanation of recursion by Web Dev Simplified](https://www.youtube.com/watch?v=6oDQaB2one8).
+1. Watch this [Video on Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM) from CS50.
+1. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
+1. If you haven't already, fork and clone the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises/) (you likely already did this while doing the `/ruby_basics/` exercises earlier in the Ruby course). `cd` into the `/recursion` directory and follow the instructions in the README there. Complete each of the recursion exercises in order, and pass the tests.
 
 </div>
 

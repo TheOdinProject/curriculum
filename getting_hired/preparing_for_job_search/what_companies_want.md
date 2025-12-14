@@ -2,6 +2,13 @@
 
 Now that you've figured your own situation out, the fact is that you can't get hired by just thinking about why *you* need or deserve the job.  You have to think about things from the perspective of the company.  Why are they interested in hiring you?  What, therefore, will they look for?
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Find out what hiring managers look for.
+- Learn about the advantages of internships.
+
 ### Life behind the curtain
 
 Hiring managers are busy people.  That's why they need someone new... to remove some of their workload and get their team working better or faster.   They also have to deal with potentially hundreds of unqualified applicants every week, which takes up too much of their valuable time.  They just want to get back to building stuff and not have to hire again anytime soon.  So they are looking for someone who can **add value as soon as possible** and who will be able to **grow with the organization.**
@@ -15,16 +22,8 @@ Aside from those two characteristics, there is another major factor -- fit.  The
 So to summarize, hiring managers are usually looking for 3 main things:
 
 1. Capability
-2. Motivation
-3. Fit
-
-You can learn a bit about the perspective of hiring managers by reading blog posts about how to hire developers.  No need to go crazy, but try to get a picture of why they're hiring you:
-
-1. [The Best Way to Hire Software Developers](http://insights.dice.com/2013/05/31/hiring-software-developers/)
-2. [How to Hire Talent](http://lifeofaprogrammanager.blogspot.com/2006/06/how-to-hire-talent.html)
-3. [Joel Spolsky has a lengthy diatribe on hiring developers](http://www.joelonsoftware.com/articles/FindingGreatDevelopers.html), which should give you an idea of the need and pain of hiring great engineers.
-4. [Joel Spolsky's Guerrilla Guide to Interviewing (version 3.0)](http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html).  Look for "people who are 1. Smart, and 2. Get things done".
-5. [Beyond a Resume: What Tech Recruiters Want](http://blog.udacity.com/2013/09/beyond-resume-what-tech-recruiters-want.html)
+1. Motivation
+1. Fit
 
 ### Internships
 
@@ -32,7 +31,28 @@ A good way to start getting experience and show others that you're employable is
 
 The hiring process for internships is usually similar to but not quite as rigorous as full-time positions.  Internships are basically just long interviews by that company to see if they want to bring you on full-time.
 
-These should be useful links for you:
+### Assignment
 
-* [Thread on "How do I get a Software Internship" from MetaFilter](http://ask.metafilter.com/226621/How-do-I-get-a-software-internship)
-* [InternMatch](https://www.wayup.com/s/internships/it/)
+<div class="lesson-content__panel" markdown="1">
+
+1. You can learn a bit about the perspective of hiring managers by reading blog posts about how to hire developers.  No need to go crazy, but try to get a picture of why they're hiring you:
+
+    - Read about [The Best Way to Hire Software Developers](http://insights.dice.com/2013/05/31/hiring-software-developers/).
+    - Read this blog post about [How to Hire Talent](http://lifeofaprogrammanager.blogspot.com/2006/06/how-to-hire-talent.html).
+    - [Joel Spolsky has a lengthy diatribe on hiring developers](http://www.joelonsoftware.com/articles/FindingGreatDevelopers.html), which should give you an idea of the need and pain of hiring great engineers.
+    - [Joel Spolsky's Guerrilla Guide to Interviewing (version 3.0)](http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html).  Look for "people who are 1. Smart, and 2. Get things done".
+    - Learn what recruiters look for in [Beyond a Resume: What Tech Recruiters Want](http://blog.udacity.com/2013/09/beyond-resume-what-tech-recruiters-want.html).
+
+1. Find out more about internships from these articles:
+
+    - Read through this thread on ["How do I get a Software Internship"](http://ask.metafilter.com/226621/How-do-I-get-a-software-internship) from MetaFilter.
+    - Use [InternMatch](https://www.wayup.com/s/internships/it/) to explore available internships.
+
+</div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What are the 3 main things hiring managers look for?](#life-behind-the-curtain)
+- [What are the advantages to getting an internship?](#internships)

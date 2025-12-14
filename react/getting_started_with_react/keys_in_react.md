@@ -30,6 +30,8 @@ As long as `keys` remain consistent and unique, React can handle the DOM effecti
 
 <div class="lesson-note" markdown="1">
 
+#### Arguments passed into components
+
 We will be using `props` here, and you will learn more about them in the next lesson. For now, you just need to know that `props` are arguments that are passed into components.
 
 </div>

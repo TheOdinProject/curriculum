@@ -331,6 +331,12 @@ There's a useful book written on anti-patterns, which can help you clean up your
 
 [Internationalization and Localization](http://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adapting your application to fit specific geographies and/or languages. It's outside our scope to cover, but for those who are interested, check out this [Sitepoint tutorial on internationalization](http://www.sitepoint.com/go-global-rails-i18n/), as suggested by K. Bates.
 
+### Conclusion
+
+In this lesson we covered some fairly random and intricate concepts but useful stuff to at least get familiar with, even if you're not going to use it every day.  Experience is the real key here -- in the course of building awesome stuff you'll run into the need for all of the things you just learned and it might just save you a lot of time and complexity in your code.
+
+The more general principles like SOLID design and metaprogramming will be useful to you regardless of whether you stick with Ruby and Rails or move on to better and brighter things.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -344,12 +350,6 @@ There's a useful book written on anti-patterns, which can help you clean up your
   1. Glance through this [Slideshare Presentation on SOLID principles](http://www.slideshare.net/jcfischer/solid-ruby-solid-rails).
 
 </div>
-
-### Conclusion
-
-In this lesson we covered some fairly random and intricate concepts but useful stuff to at least get familiar with, even if you're not going to use it every day.  Experience is the real key here -- in the course of building awesome stuff you'll run into the need for all of the things you just learned and it might just save you a lot of time and complexity in your code.
-
-The more general principles like SOLID design and metaprogramming will be useful to you regardless of whether you stick with Ruby and Rails or move on to better and brighter things.
 
 ### Knowledge check
 

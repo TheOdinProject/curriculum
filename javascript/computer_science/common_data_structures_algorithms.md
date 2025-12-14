@@ -14,13 +14,10 @@ Luckily for you, these complex algorithmic problems have all been solved many ti
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is a data structure?
-- What are stacks and queues?
-- What's the best way to implement stacks and queues in JavaScript?
-- Why bother having many different search algorithms?
-- What are breadth-first-search (BFS) and depth-first-search (DFS)?
-- What situations would you want to use BFS?
-- What situations would you want to use DFS instead?
+- Get an introduction to data structures.
+- Learn about stack and queues.
+- Find out why you should learn algorithms.
+- Explore different search algorithms.
 
 ### Assignment
 

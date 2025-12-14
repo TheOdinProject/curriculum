@@ -10,7 +10,7 @@ Hotwire is actually an umbrella term for three different frameworks. These frame
 
 Stimulus is something we'll cover later and you don't need to worry about Strada for the scope of this course, just be familiar with the name as you will see it mentioned from time to time.
 
-Turbo itself is also an umbrella term for several different techniques for creating fast and modern web applications. The technique we're going to focus on here is the one whose behaviour is part of Rails' core behaviour, Turbo Drive. The other techniques we'll cover in the Advanced Turbo lesson later.
+Turbo itself is also an umbrella term for several different techniques for creating fast and modern web applications. The technique we're going to focus on here is the one whose behavior is part of Rails' core functionality, Turbo Drive. The other techniques we'll cover in the Advanced Turbo lesson later.
 
 Links and Forms are the bedrock of most web applications. You need links to navigate around your site and forms to allow users to submit information to you. Turbo Drive is how Rails handles these in your applications.
 
@@ -130,7 +130,7 @@ Think of it like this, after you submit a form usually you want to be directed s
 
 If the server responds with any other status, Turbo won't be able to handle it and it will appear as though nothing has happened as the page won't update. <span id="http-200">The one thing to keep in mind with this is the HTTP 200 status. This is returned when a request has succeeded so it might seem strange at first that Turbo can't handle this type of request.</span>
 
-The reason is that if you've ever submitted a form and refreshed the page before the POST action completed you get a popup from your browser asking if you want to submit the form again. Your browser does this because when you refresh you've actually issued a new request and the server has responded with a 200 status because the request was ok and handled without an error or redirect. Browsers handle this case by offering to submit the form again as a POST request for you. Because Turbo has intercepted the request you won't get that default browser behaviour and Turbo cannot replicate this and it has two options:
+The reason is that if you've ever submitted a form and refreshed the page before the POST action completed you get a popup from your browser asking if you want to submit the form again. Your browser does this because when you refresh you've actually issued a new request and the server has responded with a 200 status because the request was ok and handled without an error or redirect. Browsers handle this case by offering to submit the form again as a POST request for you. Because Turbo has intercepted the request you won't get that default browser behavior and Turbo cannot replicate this and it has two options:
 
 1. It can either stay on the current URL in your browser; or
 1. It could try and navigate to the action that the form submits to.
@@ -164,9 +164,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the HTTP status code that Turbo cannot handle?](#http-200)
 - [How do you require confirmation for a visit?](https://turbo.hotwired.dev/handbook/drive#requiring-confirmation-for-a-visit)
 - [How does Turbo speeds up perceived link navigation latency?](https://turbo.hotwired.dev/handbook/drive#prefetching-links-on-hover)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

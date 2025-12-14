@@ -28,7 +28,7 @@ As most of the projects are designed to push you to your limit, please remember 
 
 If you're feeling stuck, it's a good time to pause and take a breather. Break the problem down into little pieces and then decide what is really holding you back. We call this technique [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).
 
-You should also use Google to find relevant information for your problem. Read about [how to use Google to solve your programming questions](https://old.codinginflow.com/google-programming-questions). You can also look back at previous lessons for tools that you can apply to the current task.
+You should also use Google to find relevant information for your problem. Read about [how to use Google to solve your programming questions](https://web.archive.org/web/20250918082145/https://old.codinginflow.com/google-programming-questions). You can also look back at previous lessons for tools that you can apply to the current task.
 
 If these methods don't yield a solution for you, then it's time to reach out to the Odin community and ask for help.
 
@@ -197,9 +197,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you join The Odin Project's Discord server?](https://discord.gg/fbFCkYabZB)
 - [What makes a good question that's easier for others to help with?](#asking-for-help)
 - [How can you more effectively help others with their coding problems?](#how-to-help-others-solve-coding-problems)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- For more information on formatting, check out [Discord Markdown 101](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-).
