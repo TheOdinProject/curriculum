@@ -41,10 +41,10 @@ If you are feeling rusty on using objects, now might be a good time to go back a
 This section contains a general overview of topics that you will learn in this lesson.
 
 - How to write an object constructor and instantiate the object.
-- Describe what a prototype is and how it can be used.
-- Explain prototypal inheritance.
-- Understand the basic do's and don'ts of prototypal inheritance.
-- Explain what the `this` keyword is.
+- What a prototype is and how it can be used.
+- Prototypal inheritance.
+- Basic do's and don'ts of prototypal inheritance.
+- The `this` keyword.
 
 ### Objects as a design pattern
 
