@@ -6,15 +6,15 @@ You may remember testing from the Ruby section and the emphasis on the importanc
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What are unit tests?
-- Why are unit tests important?
+- What unit tests are and what they do.
+- Why unit tests are so important.
 - Unit tests in the context of Ruby on Rails.
 
 ### What are unit tests?
 
-A unit test is testing a single unit of code to ensure that method/unit works as it is supposed to! In Ruby on Rails your models are one of the areas that should be covered with unit tests. These model tests specifically are used to test the logic behind your model objects. This can include validating user inputs from form submissions and other logic between models. Such as if you need to ensure your object method for generating discounts work properly. It's important as you scale your projects to ensure that the logic behind your models works as your project consistently expands. This helps make the project more maintainable as the tests provide a safety net to ensure existing functionality continues working as expected when models need to be expanded or modified. 
+A unit test is testing a single unit of code to ensure that method/unit works as it is supposed to! In Ruby on Rails your models are one of the areas that should be covered with unit tests. These model tests specifically are used to test the logic behind your model objects. This can include validating user inputs from form submissions and other logic between models. Such as if you need to ensure your object method for generating discounts work properly. It's important as you scale your projects to ensure that the logic behind your models works as your project consistently expands. This helps make the project more maintainable as the tests provide a safety net to ensure existing functionality continues working as expected when models need to be expanded or modified.
 
-Earlier you used RSpec for testing projects in the Ruby section. While Ruby on Rails comes with it's own testing framework. RSpec is a very popular framework for testing even in Ruby on Rail's. As such we will be using RSpec for the Ruby on Rails testing section. 
+Earlier you used RSpec for testing projects in the Ruby section. While Ruby on Rails comes with it's own testing framework. RSpec is a very popular framework for testing even in Ruby on Rail's. As such we will be using RSpec for the Ruby on Rails testing section.
 
 ### Setting up RSpec
 
@@ -22,13 +22,11 @@ Installing RSpec for rails is a relatively straightforward task.
 
 First we add it the development and test group of the gemfile. Navigate to the gemfile and add this to the development/test section.
 
-~~~
-
+```ruby
 group :development, :test do
   gem 'rspec-rails'
 end
-
-~~~
+```
 
 Next visit the [rspec-rails installation guide](https://github.com/rspec/rspec-rails#installation) to finish the rest of the steps. Afterwards you will see an additional spec folder on the top level of your project.
 
@@ -38,36 +36,40 @@ There you will find different folders for different areas of your application su
 
 Each model should have it's own spec file within the spec/models folder. This will be created when you use the following command.
 
-~~~
-
+```bash
 rails generate model <model_name>
+```
 
-~~~
+Here is an example of what a test should look like.
 
-Here is an example of what a test should look like. You can find an additional example and other helpful information on the [rspec-rails gem repository](https://github.com/rspec/rspec-rails/tree/6-0-maintenance#rspec-dsl-basics-or-how-do-i-write-a-spec).
-
-~~~
-
+```ruby
 RSpec.describe 'Post' do           
   context 'before publication' do  # Explains the context.
-    it 'cannot have comments' do   # This is the outome we expect.
+    it 'cannot have comments' do   # This is the outcome we expect.
       expect { Post.create.comments.create! }.to raise_error(ActiveRecord::RecordInvalid)  
       # Now we should expect RSpec to notify us that the test passed.
     end
   end
 end
+```
 
-~~~
+### Assignment
 
-### Knowledge Check
+<div class="lesson-content__panel" markdown="1">
 
-This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
+1. For an additional example of a unit test and other helpful information, read through the [rspec-rails gem repository](https://github.com/rspec/rspec-rails/tree/6-0-maintenance#rspec-dsl-basics-or-how-do-i-write-a-spec).
 
-*   <a class="knowledge-check-link" href="#what-are-unit-tests">What are unit tests?</a>
-*   <a class="knowledge-check-link" href="#what-are-unit-tests">Why utilize unit tests?</a>
-*   <a class="knowledge-check-link" href="#example-test">How would I test if a post doesn't accept comments?</a>
+</div>
 
-### Additional Resources
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What are unit tests?](#what-are-unit-tests)
+- [Why utilize unit tests?](#what-are-unit-tests)
+- [How would I test if a post doesn't accept comments?](#example-test)
+
+### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
