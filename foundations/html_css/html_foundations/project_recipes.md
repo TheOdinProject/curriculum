@@ -20,7 +20,7 @@ GitHub allows us to make changes directly on its site. If you do this after you 
 
 If you do not know how to set up a repository, follow instruction steps 1 and 2 found in [Git Basics](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/git-basics) to learn how, before carrying on with these steps:
 
-1. Create a new repo for this project on GitHub.com and call it `odin-recipes` and choose the `public` option instead of the default private.
+1. Create a new repo for this project on GitHub.com and call it `odin-recipes`.
 
 1. Clone that repository onto your local machine, inside the `repos` folder that you previously created in the Git Basics lesson. The command should look like `git clone git@github.com:username/odin-recipes.git` (use SSH).
 
