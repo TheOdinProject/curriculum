@@ -221,15 +221,9 @@ Here, we defined the `.sayHello` function 'on' the `Player.prototype` object. It
 
 <div class="lesson-note" markdown="1">
 
-#### Object.getPrototypeOf() vs. .\_\_proto__
+#### .\_\_proto__
 
-Unlike what we have done so far using `Object.getPrototypeOf()` to access an object's `[[Prototype]]`, the same thing can also be done using the `.__proto__` property of the object. However, [`.__proto__` is a non-standard and deprecated approach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto), hence it is not recommended to access an object's `[[Prototype]]` by using this property. However, the same code can thus be rewritten to become:
-
-```javascript
-// Don't do this!
-player1.__proto__ === Player.prototype; // returns true
-player2.__proto__ === Player.prototype; // returns true
-```
+In some docs or codebases, you may see `.__proto__` being used on an object to get or set its `[[Prototype]]` instead of using `Object.getPrototypeOf()` or `Object.setPrototypeOf()`. This is due to historical reasons; [`.__proto__` is a non-standard and deprecated approach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto), so it is not recommended to use it to access an object's `[[Prototype]]`.
 
 </div>
 
