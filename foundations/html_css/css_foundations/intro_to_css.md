@@ -235,7 +235,7 @@ There's really no limit to how many combinators you can add to a rule, so `.one 
 
 ### Properties to get started with
 
-There are some CSS properties that you're going to be using all the time, or at the very least more often than not. We're going to introduce you to several of these properties, though this is by no means a complete list. Learning the following properties will be enough to help get you started.
+There are some CSS properties that you’re going to be using all the time, or at the very least more often than not. We’re going to introduce you to several of these properties, though this is by no means a complete list. Learning the following properties will be enough to help get you started. Note that all properties will have a default initial value, which will be used if neither you nor the browser has set a different value (MDN docs for each CSS property will detail these).
 
 #### Color and background-color
 
