@@ -10,10 +10,10 @@ When we talk about memory, we mean primary memory, which is the working memory a
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What do we mean by space complexity.
-- Why is it important to consider how our algorithm uses memory space.
-- How do we measure space complexity.
-- What is a situation where auxiliary space analysis is useful.
+- What space complexity is.
+- The importance of space complexity.
+- How to measure space complexity.
+- Auxiliary space analysis.
 
 ### What do we mean by space complexity?
 
@@ -110,7 +110,9 @@ def sum_arr(arr)
 end
 ```
 
-When a data structure is passed in as the argument, especially for languages that pass arrays by reference rather than value, it can be a bit unclear if that method considers the space used by the data structure when calculating its space complexity. We could still say this algorithm requires O(N) space, factoring in the size of the input. Or we could say that the creation of the input array belongs to whatever external routine allocated it before calling this function. This would mean that this algorithm takes up O(1) space, as all other variables are constant. This latter approach is known as "auxiliary space analysis." Using this approach, we only regard the *extra* space that an algorithm takes up, meaning the input isn't factored in. This can be situationally useful for describing algorithms that use extra space differently. Let's look at a quick example:
+When a data structure is passed in as the argument, especially for languages that pass arrays by reference rather than value, it can be a bit unclear if that method considers the space used by the data structure when calculating its space complexity. We could still say this algorithm requires O(N) space, factoring in the size of the input. Or we could say that the creation of the input array belongs to whatever external routine allocated it before calling this function. This would mean that this algorithm takes up O(1) space, as all other variables are constant. This latter approach is known as "auxiliary space analysis."
+
+Using this approach, we only regard the *extra* space that an algorithm takes up, meaning the input isn't factored in. This can be situationally useful for describing algorithms that use extra space differently. Let's look at a quick example:
 
 ```ruby
 def square_nums_in_place(arr)
@@ -137,11 +139,11 @@ Here we have two methods that take in an array of numbers and return an array wh
 
 As we've stated, many data structures share O(N) space complexity, and therefore you won't write many algorithms with a space complexity that differs.
 
-You do find some recursive functions that may have a different space complexity and some sorting algorithms. You normally won't have much reason to consider anything else though.
+You do find some recursive functions and sorting algorithms with a different space complexity, though you normally won't have much reason to consider anything else.
 
-In the last lesson one of the assignments was a link to the [Big-O cheat sheet](https://www.bigocheatsheet.com/). If you take another look at it now, you may have a better appreciation for just how amazing it is as a reference for space and time complexity. If you scroll down to the data structures and then the sorting algorithms section, you'll see it gives you the time and space complexities. Notice just how many are O(N), especially for data structures. Many sorting algorithms have just O(1) space complexity, something to keep in mind as you come across different sorting algorithms during your learning.
+In the last lesson, one of the assignments was a link to the [Big-O cheat sheet](https://www.bigocheatsheet.com/). If you take another look at it now, you may have a better appreciation for just how amazing it is as a reference for space and time complexity. If you scroll down to the data structures and then the sorting algorithms section, you'll see it gives you the time and space complexities. Notice just how many are O(N), especially for data structures. Many sorting algorithms have just O(1) space complexity, something to keep in mind as you come across different sorting algorithms during your learning.
 
-That's why we won't be diving into examples for other Big O notations with space complexity. We'd have to come up with convoluted examples that wouldn't represent most code you'll write. If you do come across a good real world example in your own code, then do let us know and we may consider adding it here for others to consider.
+This is why we won't be diving into examples for other Big O notations with space complexity. We'd have to come up with convoluted examples that wouldn't represent most code you'll write. If you do come across a good real world example in your own code, then do let us know and we may consider adding it here for others to consider.
 
 ### Wrapping up
 
