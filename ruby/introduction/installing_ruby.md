@@ -279,15 +279,15 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 
 ### Update Ruby
 
-Step by step instructions on how to update your ruby version.
+If you've just installed Ruby, congratulations! Your version is probably completely up to date, and you can safely skip this section. However, if you stick with this long enough, the need to update your version of Ruby will eventually arise. Fortunately, having `rbenv` installed makes this quite straightforward. Here are step by step instructions on how to update your ruby version:
 
-1. Go to .rbenv/ folder at home.
+1. Go to `.rbenv/` folder in your home directory.
 
    ```bash
      cd ~/.rbenv
    ```
 
-1. Pull latest changes for your ruby version manager(`rbenv`).
+1. Pull latest changes for your ruby version manager (`rbenv`).
 
    ```bash
      git pull
@@ -299,7 +299,7 @@ Step by step instructions on how to update your ruby version.
      ~/.rbenv/bin/rbenv init
    ```
 
-1. Go to `ruby-build` plugin directory, it is what `rbenv` uses to compile ruby from source code(which is written in C).
+1. Go to `ruby-build` plugin directory. This is what `rbenv` uses to compile ruby from source code (which is written in C).
 
    ```bash
      cd ~/.rbenv/plugins/ruby-build
@@ -317,15 +317,15 @@ Step by step instructions on how to update your ruby version.
      rbenv install --list-all
    ```
 
-1. Now you can install the version of ruby you like by running
+1. Now you can install the version of Ruby you like by running:
 
    ```bash
      rbenv install x.y.z
    ```
 
-   where in `x.y.z` - `x` is major version, `y` is minor version and `z` is patch version, this is called [semantic versioning](https://semver.org/#summary)
+   where in `x.y.z` - `x` is the major version, `y` is the minor version and `z` is the patch version. This is called [semantic versioning](https://semver.org/#summary)
 
-   for e.g -
+   For example:
 
    ```bash
      rbenv install 3.4.6
@@ -333,35 +333,31 @@ Step by step instructions on how to update your ruby version.
 
 ### Set local and global Ruby version
 
-- Local Ruby version per project.
+`rbenv` makes it easy to have multiple different versions of Ruby installed and switch between them. You may have one project that runs with Ruby 3.4 and another that runs with Ruby 3.3, and `rbenv` will coordinate this for you. The version of Ruby set at the project level is called the "local" version.
 
-  - To set local ruby version run:
+To set the local Ruby version, run:
 
-    ```bash
-      rbenv local x.y.z
-    ```
+```bash
+rbenv local x.y.z
+```
 
-    This creates a `.ruby-version` file for storing the local version.
+This creates a `.ruby-version` file for storing the local version. To check the current project/directory's local Ruby version, run:
 
-  - To check current project/directory local ruby version run:
+```bash
+rbenv local
+```
 
-    ```bash
-      rbenv local
-    ```
+You can also configure your default Ruby version. This is called the "global" version. To set the global default Ruby version run:
 
-- Global default Ruby version.
+```bash
+rbenv global x.y.z
+```
 
-  - To set global default Ruby version run:
+To check current global ruby version run:
 
-    ```bash
-      rbenv global x.y.z
-    ```
-
-  - To check current global ruby version run:
-
-    ```bash
-      rbenv global
-    ```
+```bash
+rbenv global
+```
 
 #### Extras
 
