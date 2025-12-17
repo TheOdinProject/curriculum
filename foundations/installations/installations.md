@@ -304,7 +304,7 @@ If you would like to test out the version of Ubuntu on the flash drive, click 'T
 
 Installing Ubuntu is where the real changes start happening on your computer. The default settings are mostly perfect, but be sure to **"Install Ubuntu alongside Windows"** and change the allocated disk space allowed for Ubuntu to 30 GB (or more if you can).
 
-For step-by-step instructions, please follow [how to install Ubuntu 24.04 and dual boot alongside Windows](https://www.tecmint.com/install-ubuntu-alongside-with-windows-dual-boot/).
+For step-by-step instructions, please follow [how to install Ubuntu and dual boot alongside Windows](https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-dual-boot-alongside-windows-10-323a85271a73). These instructions are are 22.04 and for Windows 10, but they will get you through the process until we get dedicated dual booting instructions in place.
 
 ### Intel RST (Rapid Storage Technology)
 
