@@ -70,6 +70,8 @@ Ahh, that's better! :) Now, developers can gain a better understanding of this c
 - Contains a body that provides a concise yet clear description of why the commit needed to be made (e.g., "Screen readers won't read the images to users with disabilities without this information.").
 - Separates the subject from the body with a new/blank line. This is a best practice we highly recommend following. It makes commit messages easier for other developers to read.
 
+Some teams of developers might have their own convention for commit messages in specific formats. However, they still follow the same principles as this lesson outlined.
+
 ### How to commit with a subject and body in the message
 
 Up until now, you've been told to commit with `git commit -m <message>`. To make a commit with subject and body in message, the simplest way is to type `git commit` without the `-m` flag and message argument.
