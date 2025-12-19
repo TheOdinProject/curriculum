@@ -1,6 +1,6 @@
 ### Introduction
 
-An important basic concept in testing is isolation.  You should only test one method at a time, and your tests for one function should not depend upon an external function behaving correctly - especially if that function is being tested elsewhere.  The main reason for this is that when your tests fail, you want to be able to narrow down the cause of this failure as quickly as possible.  If you have a test that depends on several functions, it can be hard to tell exactly what is going wrong.
+An important basic concept in testing is isolation. You should only test one method at a time, and your tests for one function ideally would not depend upon an external function behaving correctly - especially if that function is being tested elsewhere (though as with any ideal, this is not always possible or practical). The main reason for this is that when your tests fail, you want to be able to narrow down the cause of this failure as quickly as possible.  If you have a test that depends on several functions, it can be hard to tell exactly what is going wrong.
 
 ### Lesson overview
 

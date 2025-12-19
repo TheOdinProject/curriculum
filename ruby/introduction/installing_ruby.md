@@ -277,6 +277,88 @@ Well done! Pat yourself on the back! The hard part is done, and it's time to mov
 
 </details>
 
+### Update Ruby
+
+If you've just installed Ruby, congratulations! Your version is probably completely up to date, and you can safely skip this section. However, if you stick with this long enough, the need to update your version of Ruby will eventually arise. Fortunately, having `rbenv` installed makes this quite straightforward. Here are step by step instructions on how to update your ruby version:
+
+1. Go to `.rbenv/` folder in your home directory.
+
+   ```bash
+     cd ~/.rbenv
+   ```
+
+1. Pull latest changes for your ruby version manager (`rbenv`).
+
+   ```bash
+     git pull
+   ```
+
+1. Run this command.
+
+   ```bash
+     ~/.rbenv/bin/rbenv init
+   ```
+
+1. Go to `ruby-build` plugin directory. This is what `rbenv` uses to compile ruby from source code (which is written in C).
+
+   ```bash
+     cd ~/.rbenv/plugins/ruby-build
+   ```
+
+1. Pull latest changes for `ruby-build`.
+
+   ```bash
+     git pull
+   ```
+
+1. Now you can check list of all the latest versions available for you to install.
+
+   ```bash
+     rbenv install --list-all
+   ```
+
+1. Now you can install the version of Ruby you like by running:
+
+   ```bash
+     rbenv install x.y.z
+   ```
+
+   where in `x.y.z` - `x` is the major version, `y` is the minor version and `z` is the patch version. This is called [semantic versioning](https://semver.org/#summary)
+
+   For example:
+
+   ```bash
+     rbenv install 3.4.6
+   ```
+
+### Set local and global Ruby version
+
+`rbenv` makes it easy to have multiple different versions of Ruby installed and switch between them. You may have one project that runs with Ruby 3.4 and another that runs with Ruby 3.3, and `rbenv` will coordinate this for you. The version of Ruby set at the project level is called the "local" version.
+
+To set the local Ruby version, run:
+
+```bash
+rbenv local x.y.z
+```
+
+This creates a `.ruby-version` file for storing the local version. To check the current project/directory's local Ruby version, run:
+
+```bash
+rbenv local
+```
+
+You can also configure your default Ruby version. This is called the "global" version. To set the global default Ruby version run:
+
+```bash
+rbenv global x.y.z
+```
+
+To check current global ruby version run:
+
+```bash
+rbenv global
+```
+
 #### Extras
 
 If you are using Visual Studio Code as your IDE, you can install the "Ruby LSP" extension, which will provide you with semantic highlighting and formatting support.
