@@ -70,6 +70,8 @@ Ahh, that's better! :) Now, developers can gain a better understanding of this c
 - Contains a body that provides a concise yet clear description of why the commit needed to be made (e.g., "Screen readers won't read the images to users with disabilities without this information.").
 - Separates the subject from the body with a new/blank line. This is a best practice we highly recommend following. It makes commit messages easier for other developers to read.
 
+Some teams of developers might have their own convention for commit messages in specific formats. However, they still follow the same principles as this lesson outlined.
+
 ### How to commit with a subject and body in the message
 
 Up until now, you've been told to commit with `git commit -m <message>`. To make a commit with subject and body in message, the simplest way is to type `git commit` without the `-m` flag and message argument.
@@ -107,10 +109,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What are two benefits of having well-written commit messages and a good commit history?](https://cbea.ms/git-commit/#intro)
 - [How many characters should the subject line of your commit message be?](https://cbea.ms/git-commit/#limit-50)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- One way to formulate high-information commit messages is to follow a template. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) is one of many commit message templates that you can explore.
-- Explore this amazing tutorial video on Conventional Commits ➔ [Full Video Link](https://www.youtube.com/watch?v=OJqUWvmf4gg). The video showcases the Conventional Commits template from the resource above. It also mentions creating releases and shows using something called "Yarn". These two parts are out of scope for this part of the course, so don't worry about them and instead focus on the commit template.
