@@ -109,10 +109,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What are two benefits of having well-written commit messages and a good commit history?](https://cbea.ms/git-commit/#intro)
 - [How many characters should the subject line of your commit message be?](https://cbea.ms/git-commit/#limit-50)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- One way to formulate high-information commit messages is to follow a template. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) is one of many commit message templates that you can explore.
-- Explore this amazing tutorial video on Conventional Commits ➔ [Full Video Link](https://www.youtube.com/watch?v=OJqUWvmf4gg). The video showcases the Conventional Commits template from the resource above. It also mentions creating releases and shows using something called "Yarn". These two parts are out of scope for this part of the course, so don't worry about them and instead focus on the commit template.
