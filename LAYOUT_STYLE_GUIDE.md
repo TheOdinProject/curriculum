@@ -16,8 +16,7 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 ## Table of Contents
 
 1. [Language](#language)
-1. [Lesson layout](#lesson-layout)
-1. [Project layout](#project-layout)
+1. [Layouts](#layouts)
 1. [Headings](#headings)
 1. [Newlines](#newlines)
 1. [Lists](#lists)
