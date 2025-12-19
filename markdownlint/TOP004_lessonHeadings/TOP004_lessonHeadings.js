@@ -1,6 +1,14 @@
 // Customized version of https://github.com/DavidAnson/markdownlint/blob/main/lib/md043.mjs
 const { basename } = require("node:path");
 
+// No sensible heading structure we can enforce for lessons with these file names
+const exceptedLessons = [
+  "how_this_course_will_work.md",
+  "conclusion.md",
+  "conclusion_full_stack_javascript.md",
+  "conclusion_ruby_on_rails.md",
+];
+
 const HEADINGS = {
   lesson: [
     "### Introduction",
@@ -14,11 +22,6 @@ const HEADINGS = {
   project: ["### Introduction", "*", "### Assignment", "#### *"],
 };
 
-function isProject(filePath) {
-  const fileName = basename(filePath);
-  // don't include names like "projections.md"
-  return fileName.startsWith("project_");
-}
 function forEachHeading(params, handler) {
   let heading = null;
   for (const token of params.parsers.markdownit.tokens) {
@@ -41,7 +44,13 @@ module.exports = {
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP004.md",
   ),
   function: function TOP004(params, onError) {
-    const requiredHeadings = isProject(params.name)
+    const fileName = basename(params.name);
+    if (exceptedLessons.includes(fileName)) {
+      return;
+    }
+
+    // don't include names like "projections.md"
+    const requiredHeadings = fileName.startsWith("project_")
       ? HEADINGS.project
       : HEADINGS.lesson;
     const levels = {
