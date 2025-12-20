@@ -1,5 +1,5 @@
-name: 📝 Suggest an Improvement to Curriculum Content
-description: Suggest a resource or make a specific suggestion
+name: 📝 Suggest a fix or improvement to curriculum content
+description: Share your ideas for improving the curriculum
 title: '<Course>: <Short description of your suggestion>'
 labels: ["Status: Needs Triage"]
 assignees:

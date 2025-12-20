@@ -6,9 +6,18 @@ We've learned how to test our vanilla JavaScript applications in a previous sect
 
 This section contains a general overview of topics that you will learn in this lesson.
 
+- Why UI testing is valuable.
 - How to set up a React testing environment.
 - How to test UI elements.
 - Understanding snapshot tests.
+
+### UI testing
+
+By now, you'll have had some experience already with TDD and the idea of testing in general. You may remember in the Battleship project, you will have written tests limited to the underlying Battleship game, but without involving the DOM at all. You may have made non-UI changes, caused tests to fail, then resolved whatever was needed so you had tests that were relevant and passed.
+
+Despite this, you may have run into bugs in the UI because your tests only involved the underlying logic. You may have a working Battleship game, but that does not mean the UI actually displays what you intend nor lets users interact with the game as intended. And let's be honest, every time you make a change to any part of your code (whether related to UI or not), you're not going to remember to recheck every related UI aspect to make sure everything still works as you expect. i.e., this is no different to before, we're just involving the UI now.
+
+UI tests give us more confidence that our websites contain the intended contents and behave as we want, and notify us when something no longer satisfies our requirements. Perhaps you decide to change the exact structure of a state, such as changing from a plain object to an array, but now a list does not contain the text you intend. Or maybe you add a condition somewhere in a component and now suddenly, only the last three drop targets for your drag and drop cards are no longer valid targets. As your websites get more complex, the value of good tests (both UI and non-UI) will only increase.
 
 ### Setting up a React testing environment
 
@@ -30,7 +39,7 @@ Now that we have everything we need, let's briefly go over what some of those pa
 
 ### Our first query
 
-First, we'll render the component using `render`. The API will return an object and we'll use destructuring syntax to obtain a subset of the methods required. You can read all about what `render` can do in [the React Testing Library API docs about render](https://testing-library.com/docs/react-testing-library/api/#render).
+First, we'll render the component using `render` (you can read all about what the function can do in [the React Testing Library API docs about `render`](https://testing-library.com/docs/react-testing-library/api/#render)). We say "render", but you won't see any screen. Back in the RTL setup article just now, one of the packages installed is `jsdom`, which simulates the DOM (including events) in memory without actually laying anything out visually like in a browser, and that allows us to parse its contents for our tests. This is different to and much less complex than other libraries that actually run a real browser environment for more complex end-to-end tests - that's out of scope here.
 
 ```jsx
 // App.jsx
@@ -50,10 +59,10 @@ import App from "./App";
 describe("App component", () => {
   it("renders correct heading", () => {
     render(<App />);
+    // using regex with the i flag allows simpler case-insensitive comparison
     expect(screen.getByRole("heading").textContent).toMatch(/our first test/i);
   });
 });
-
 ```
 
 <div class="lesson-note" markdown="1">
@@ -185,6 +194,7 @@ Even though some articles use Jest and the Enzyme testing library, the concepts 
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
+- [Why might you want to test your UI?](#ui-testing)
 - [What packages are required for React testing?](#setting-up-a-react-testing-environment)
 - [What is the significance of the user-event package?](#user-event)
 - [What does the `render` method do?](https://testing-library.com/docs/react-testing-library/api/#render)
@@ -197,5 +207,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. It goes into testing async code and callbacks which we haven't covered yet. Though you should be able to follow along using your previous knowledge.
 - This [Intro to React Testing Library video](https://www.youtube.com/watch?v=YQLn7ycfzEo) for a hands-on tutorial.

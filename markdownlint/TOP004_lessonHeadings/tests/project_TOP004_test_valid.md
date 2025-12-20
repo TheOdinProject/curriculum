@@ -14,8 +14,6 @@ Assignment content
 
 #### Extra credit
 
+Extra credit details
+
 </div>
-
-### Custom post-assignment section
-
-Text content

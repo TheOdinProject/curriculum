@@ -6,7 +6,7 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Go to [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial) and do Tutorials 0-9 listed under the "Tutorial Section" and the quizzes listed at the end of each.  The first tutorial is called "SELECT basics".
+  1. Go to [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial) and do Tutorials 0-9 (including the ones marked with +/-) listed under the "Tutorial Section" and the quizzes listed at the end of each.  The first tutorial is called "SELECT basics".
       - Make sure the dropdown on the upper right of the main page for "Engine" says "MySQL" (the default).  Large results will be cut off and not all rows or columns shown, so the "answers" may not look 100% correct.
   1. Before you move on, we would like your feedback - please fill out this [feedback form for the SQL course](https://docs.google.com/forms/d/e/1FAIpQLSenvMG6WFbOOEap_biQOwqfbH-j-xsf5Eyv4ir2Rx5FsYSecQ/viewform?usp=sf_link). Getting user (you) feedback is important so we can continue to improve the curriculum and get an idea of your experience.
 

@@ -41,13 +41,13 @@ Active Record queries return relations to be lazy. There's basically no reason t
 
 Relations only get executed when it becomes absolutely necessary to know what's inside them. So if your controller grabs 5 blog posts using `@posts = Post.limit(5)`, that is really passing your view a relation. It's only when the code in the view actually calls a method on `@posts` (like `@posts.first.title`) that the query will be run and the relation will get stored as a real Ruby object in memory.
 
-This behaviour can be a bit tricky to observe if you use something like the Rails Console (`$ rails console`) to test them out, because the queries will actually be run right away in the console since it implicitly runs something like the `.inspect` method on the relation, which requires the query to be run. But try playing with building a query like we did above and checking out its `#class`... you'll usually get back `ActiveRecord::Relation`.
+This behavior can be a bit tricky to observe if you use something like the Rails Console (`$ rails console`) to test them out, because the queries will actually be run right away in the console since it implicitly runs something like the `.inspect` method on the relation, which requires the query to be run. But try playing with building a query like we did above and checking out its `#class`... you'll usually get back `ActiveRecord::Relation`.
 
 #### Chaining queries
 
 Relations aren't just built for speed... they're also built for flexibility. Let's say you want to grab the first 5 posts listed in descending order (`Post.limit(5).order(created_at: :desc)`). Because `#limit` returns a Relation, `#order` takes that relation and adds its own criteria to it. You can chain together a dozen methods this way, and, when it's finally time to execute, ActiveRecord and SQL (if that's what you're using for the DB) will figure out the optimal way to structure the query to achieve the desired result.
 
-This is the sort of behaviour that you just sort of expect to work, and Relations are what enables it to do so.
+This is the sort of behavior that you just sort of expect to work, and Relations are what enables it to do so.
 
 #### Why care?
 
@@ -154,7 +154,9 @@ Rails is well aware of your distress and has provided a solution -- "eager loadi
 
 <div class="lesson-note" markdown="1">
 
-Note: One thing which can be a bit annoying from a development standpoint is that we haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server. So don't be alarmed if they don't show up in the server output.
+#### Output of eager-Loaded fields
+
+One thing which can be a bit annoying from a development standpoint is that we haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server. So don't be alarmed if they don't show up in the server output
 
 </div>
 

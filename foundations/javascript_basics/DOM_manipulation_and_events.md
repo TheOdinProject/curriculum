@@ -57,6 +57,18 @@ console.log(display); // <div class="display"></div>
 
 So you're identifying a certain node based on its relationships to the nodes around it.
 
+<div class="lesson-note" markdown="1">
+
+#### JavaScript objects
+
+You might be wondering to yourself why there is a dot (`.`) notation following our variables. For example, `container.firstElementChild`.
+
+This is how we access objects in JavaScript. An object in JavaScript is a data type that holds properties. A property is a "key: value" pair. For example, our `container` contains many properties and we can access its first element child by accessing the `firstElementChild` key, to retrieve its value. In this case, its value is a `<div>` element with the class `display`.
+
+This is all you need to know about JavaScript objects for now. Look forward to the Objects Basics lesson to learn more!
+
+</div>
+
 ### DOM methods
 
 When your HTML code is parsed by a web browser, it is converted to the DOM, as was mentioned above. One of the primary differences is that these nodes are JavaScript objects that have many properties and methods attached to them. These properties and methods are the primary tools we are going to use to manipulate our webpage with JavaScript.
@@ -66,7 +78,7 @@ When your HTML code is parsed by a web browser, it is converted to the DOM, as w
 - `element.querySelector(selector)` - returns a reference to the first match of *selector*.
 - `element.querySelectorAll(selectors)` - returns a "NodeList" containing references to all of the matches of the *selectors*.
 
-<div class="lesson-note">
+<div class="lesson-note" markdown="1">
 
 #### Performance consideration
 
@@ -432,19 +444,20 @@ You can find a more complete list with explanations of each event on [W3Schools 
 
 Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with *every day* as a front-end developer, so let's practice!
 
-1. Read the following sections from JavaScript Tutorial's series on the DOM to get a broader idea of how events can be used in your pages. Note that some of the methods like `getElementById` are older and see less use today.
+1. Read the following sections from JavaScript Tutorial's series on the DOM to get a broader idea of how events can be used in your pages.
 
    As you read, remember that the general ideas can be applied to any event, not only the ones used in examples - but information specific to a certain event type can always be found by checking documentation. Remember that the goal here isn't to deeply understand these concepts and be able to immediately apply them. Instead, you should be building awareness of the various tools at your disposal related to events.
 
    - [JavaScript events](https://www.javascripttutorial.net/javascript-dom/javascript-events/)
-   - [Page load events](https://www.javascripttutorial.net/javascript-dom/javascript-page-load-events/)
    - [Mouse events](https://www.javascripttutorial.net/javascript-dom/javascript-mouse-events/)
    - [Keyboard events](https://www.javascripttutorial.net/javascript-dom/javascript-keyboard-events/)
    - [Event delegation](https://www.javascripttutorial.net/javascript-dom/javascript-event-delegation/)
    - [The dispatchEvent method](https://www.javascripttutorial.net/javascript-dom/javascript-dispatchevent/)
    - [Custom events](https://www.javascripttutorial.net/javascript-dom/javascript-custom-events/)
 
-1. Complete [MDN's Active Learning sections on DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_basic_dom_manipulation) to test your skills!
+1. Complete the following sections from MDN to test your skills:
+   - [Doing some basic DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting#doing_some_basic_dom_manipulation)
+   - [Creating a dynamic shopping list](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting#creating_a_dynamic_shopping_list)
 
 </div>
 

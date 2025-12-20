@@ -20,7 +20,7 @@ Goodwill Community Foundation (GCF) resources are excellent to get you acquainte
 1. [What is an operating system?](https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
 1. [What is an application?](https://edu.gcfglobal.org/en/computerbasics/understanding-applications/1/)
 1. [Open source vs closed source software.](https://edu.gcfglobal.org/en/basic-computer-skills/open-source-vs-closed-source-software/1/)
-1. [Taking screenshots](https://edu.gcfglobal.org/en/techsavvy/taking-screenshots/1/).
+1. [Taking screenshots](https://edu.gcfglobal.org/en/techsavvy/taking-screenshots/1/). For Linux, you can go to your system settings and search for or set your own keyboard shortcuts related to screenshots.
 1. [Creating strong passwords](https://edu.gcfglobal.org/en/techsavvy/password-tips/1/).
 
 </div>
@@ -33,10 +33,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What's the difference between open source and closed source software?](https://edu.gcfglobal.org/en/basic-computer-skills/open-source-vs-closed-source-software/1/)
 - [What are some use cases of a screenshot?](https://edu.gcfglobal.org/en/techsavvy/taking-screenshots/1/)
 - [Give an example of a weak and a strong password.](https://edu.gcfglobal.org/en/techsavvy/password-tips/1/)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Check out [GCF's page on "What are accessibility features"](https://edu.gcfglobal.org/en/computerbasics/using-accessibility-features/1/) to learn how you can leverage these features to use your computer efficiently.
-- If you feel like spending more time learning about this topic, check out [FreeCodeCamp's excellent course on computer basics](https://youtu.be/y2kg3MOk1sY).

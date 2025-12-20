@@ -133,6 +133,8 @@ grid-template-columns: repeat(2, 2fr) repeat(3, 1fr);
 
 <div class="lesson-note" markdown="1">
 
+#### Different ways to define grid tracks
+
 We continue to use the `repeat()` function here, but this could be written the old-fashioned way too!
 
 </div>
@@ -153,7 +155,7 @@ You can also mix static units (like `px`) and dynamic units (like `fr`):
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-You may have noticed at this point that when you resize the grid as large as possible, there is no limit to how large the grid items will become. However, when you resize it as small as possible, there is a distinct "smallest" size the grid will allow its items to go. In this case, it's the smallest size either the `<p>` or `<img>` element can be without overflowing. This breakpoint is the item's `min-content` value. This CSS keyword is **very** useful, but it is beyond the scope of this lesson. For more info, check out the [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/min-content).
+You may have noticed at this point that when you resize the grid as large as possible, there is no limit to how large the grid items will become. However, when you resize it as small as possible, there is a distinct "smallest" size the grid will allow its items to go. In this case, it's the smallest size either the `<p>` or `<img>` element can be without overflowing. This breakpoint is the item's `min-content` value. This CSS keyword is **very** useful, but it is beyond the scope of this lesson. For more info, check out the [MDN docs on min-content](https://developer.mozilla.org/en-US/docs/Web/CSS/min-content).
 
 ### Minimum and maximum track sizes: min() and max()
 

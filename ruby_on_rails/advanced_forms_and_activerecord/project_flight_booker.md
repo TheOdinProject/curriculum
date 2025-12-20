@@ -62,9 +62,3 @@ Once the user has submitted their chosen flight, it's time to take their booking
 1. Make sure your ticketing flow is working properly. Good work!
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

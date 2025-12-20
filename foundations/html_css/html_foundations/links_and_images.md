@@ -52,7 +52,7 @@ It's worth noting you can use anchor tags to link to any kind of resource on the
 
 ### Opening links in a new tab
 
-The method shown above opens links in the same tab as the webpage containing them. This is the default behaviour of most browsers and it can be changed relatively easily. All we need is another attribute: the `target` attribute.
+The method shown above opens links in the same tab as the webpage containing them. This is the default behavior of most browsers and it can be changed relatively easily. All we need is another attribute: the `target` attribute.
 
 While `href` specifies the destination link, `target` specifies where the linked resource will be opened. If it is not present, then, by default, it will take on the `_self` value which opens the link in the current tab. To open the link in a new tab or window (depends on browser settings) you can set it to `_blank` as follows:
 
@@ -88,9 +88,9 @@ rel="noreferrer": ensures the new page cannot see the referring page’s address
 
 By using rel="noreferrer", you automatically get the benefits of both privacy and security.
 
-Why do we need this added behaviour for opening links in new tabs? Security reasons. The prevention of access that is caused by `noopener` prevents [phishing attacks](https://www.ibm.com/topics/phishing) where the opened link may change the original webpage to a different one to trick users. This is referred to as [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Adding the `noreferrer` value can be done if you wish to not let the opened link know that your webpage links to it.
+Why do we need this added behavior for opening links in new tabs? Security reasons. The prevention of access that is caused by `noopener` prevents [phishing attacks](https://www.ibm.com/topics/phishing) where the opened link may change the original webpage to a different one to trick users. This is referred to as [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Adding the `noreferrer` value can be done if you wish to not let the opened link know that your webpage links to it.
 
-Note that you may be fine if you forget to add `rel="noopener noreferrer"` since more recent versions of browsers [provide security](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy) if only `target="_blank"` is present. Nevertheless, in line with good coding practices and to err on the side of caution, it is recommended to always pair a `target="_blank"` with a `rel="noopener noreferrer"`.
+Note that you may be fine if you forget to add `rel="noopener noreferrer"` since more recent versions of browsers [provide security](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy) if only `target="_blank"` is present. Nevertheless, in line with good coding practices and to err on the side of caution, it is recommended to always pair a `target="_blank"` with a `rel="noreferrer"` (which also includes `noopener`).
 
 ### Absolute and relative links
 
@@ -316,7 +316,8 @@ As a bit of practice, add an `alt` attribute to the dog image we added to the `o
 While not strictly required, specifying height and width
 attributes in image tags helps the browser layout the page without causing the page to jump and flash.
 
-It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it.
+It is a good habit to always specify these attributes on every image, even when the image is the correct size or you are using CSS to modify it. This is to
+prevent content jumping as images load. Use the image's actual dimensions when specifying size.
 
 Here is our Odin Project logo example with height and width attributes included:
 
@@ -336,9 +337,10 @@ Go ahead and update the `odin-links-and-images` project with width and height at
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Watch Kevin Powell's [HTML Links Video](https://www.youtube.com/watch?v=tsEQgGjSmkM).
-1. Watch Kevin Powell's [HTML Images Video](https://www.youtube.com/watch?v=0xoztJCHpbQ).
-1. Watch Kevin Powell's [File Structure Video](https://www.youtube.com/watch?v=ta3Oxx7Yqbo).
+1. Watch Kevin Powell's videos:
+   - [HTML Links](https://www.youtube.com/watch?v=tsEQgGjSmkM).
+   - [HTML Images](https://www.youtube.com/watch?v=0xoztJCHpbQ).
+   - [File Structure](https://www.youtube.com/watch?v=ta3Oxx7Yqbo).
 1. Read and code along with Interneting is Hard's article on [Links and Images](https://internetingishard.netlify.app/html-and-css/links-and-images). Pay close attention to the section that covers the four main image formats.
 
 </div>
@@ -356,10 +358,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What two attributes do images always need to have?](#two-attributes)
 - [How do you access a parent directory in a filepath?](#parent-filepath)
 - [What are the four main image formats that you can use for images on the web?](https://internetingishard.netlify.app/html-and-css/links-and-images/#image-formats)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [What happened the day Google decided links including (`/`) were malware](https://www.itpro.co.uk/609724/google-apologises-after-blacklisting-entire-internet)
-- [Chris Coyier's When to use target="_blank" on CSS-Tricks](https://css-tricks.com/use-target_blank/)

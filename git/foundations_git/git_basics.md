@@ -28,7 +28,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. From the GitHub homepage, create a new repository by clicking the "+" button in the top-right corner and selecting "New repository". *If you are using a smaller viewport, that button may be hidden. In that case click on your profile picture in the top-right corner and the button will appear next to your profile name.*
 
-1. Give your repository the name "git_test" in the repository name input field. Check "Add a README file". Then create the repository by clicking the "Create repository" button at the bottom of the page.
+1. Give your repository the name "git_test" in the repository name input field. Switch on the "Add README" option (this automatically creates a `README.md` file in your new repository). Then create the repository by clicking the "Create repository" button at the bottom of the page.
 
 1. This will redirect you to your new repository on GitHub. To get ready to copy (clone) this repository onto your local machine, click the green "Code" button, which should be to the right of the button displaying the current branch (typically it will display the *main* branch). Then select the SSH option in the "Clone" section, and copy the line below it. **NOTE: You MUST click the SSH option to get the correct URL.**
 
@@ -171,9 +171,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you commit the files in the staging area and add a descriptive message?](#git-commit)
 - [How do you push your changes to your repository on GitHub?](#git-push)
 - [How do you look at the history of your previous commits?](#git-log)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

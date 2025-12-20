@@ -6,17 +6,27 @@ Far be it from us to try and get you over that psychological hurdle but it's def
 
 The first step before everything is to prepare.  You'll want to figure out the questions you might expect to be asked (and the general responses you'll have for each which demonstrate your brilliance) and you'll want to research the company too.  Your knowledge of the company will help you tailor your pitch to their needs and also allow you to ask intelligent questions about their product and technology when the time comes.  Again, refer to the [Happy Bear article for some great general job hunting tips](https://web.archive.org/web/20160925155912/http://www.happybearsoftware.com/how-to-get-a-programmer-job.html).
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Describe the overall interview process.
+- Describe the purpose of the phone screen.
+- Explain what to expect during the technical interview.
+- Explain how to approach the take-home tech challenge.
+- Describe what happens during the final "fit" interviews.
+
 ### How the process works once you're in the funnel
 
 Just a quick overview of the process a typical tech company will go through when hiring developers:
 
 1. Phone Screen
-2. Technical Interview
-3. Technical Challenge
-4. Fit Interviews
-5. Job Offer
-6. Offer Negotiation
-7. Offer Acceptance
+1. Technical Interview
+1. Technical Challenge
+1. Fit Interviews
+1. Job Offer
+1. Offer Negotiation
+1. Offer Acceptance
 
 ### The phone screen
 
@@ -26,9 +36,9 @@ You'll probably be asked about some of the technical things you've listed on you
 
 FINAL NOTE -- this is not one-size-fits-all and many companies skip the light stuff and dive right into a technical screen so you've got to be prepared just in case!  The Coding Horror link below is more descriptive about that case.
 
-* [Mastering the phone screen by Monster](http://career-advice.monster.com/job-interview/interview-preparation/mastering-the-phone-interview/article.aspx)
-* [7 Steps for Mastering the Telephone Interview](http://dorigan.com/how-to-interview/mastering-telephone-interview/)
-* [A much more technical phone screen from Coding Horror](https://blog.codinghorror.com/getting-the-interview-phone-screen-right/)
+- [Mastering the phone screen by Monster](http://career-advice.monster.com/job-interview/interview-preparation/mastering-the-phone-interview/article.aspx)
+- [7 Steps for Mastering the Telephone Interview](http://dorigan.com/how-to-interview/mastering-telephone-interview/)
+- [A much more technical phone screen from Coding Horror](https://blog.codinghorror.com/getting-the-interview-phone-screen-right/)
 
 ### The tech interview
 
@@ -45,28 +55,33 @@ And if you don't know something, it's better to say so and work with your interv
 You'll need to read up on a variety of things that weren't focused on in the previous few courses, including data structures and algorithms, just because they're favorite targets of interviewers.  They may not be great indicators of coding skill, but the world is stuck in its ways and you'll be asked those more "Computer Science-y" questions.
 
 ### Links
-* [Peerfect.net](https://peerfect.net/) free online practice for behavioral, technical, and coding mock interviews with peers.
-* [Exponent.com](https://www.tryexponent.com/practice?ref=pramp&utm_source=pramp&utm_campaign=pramp_banner) allows you to prepare for coding interviews and practice your coding skills with peers.
-* [Interviewing.io](http://interviewing.io/) gives you a chance to practice tech screens anonymously online.
-* [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
-* [How to Ace Your Technical Interview](http://insights.dice.com/2014/10/12/ace-technical-interview/)
-* [How You Can Stand Out in Your Next Web Developer Interview](http://blog.udacity.com/2015/01/how-to-stand-out-in-your-web-developer-interview.html)
-* [Post on The Interview](https://martincmartin.com/2010/01/08/finding-a-job-youll-love-the-interview/)
-* Read [40 Key Computer Science Concepts Explained In Layman’s Terms](https://web.archive.org/web/20220901190653/http://carlcheo.com/compsci)
-* [Google's Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html) (advanced)
-* [Ruby on Rails Popular Job Interview Questions](https://www.nopio.com/blog/ruby-rails-popular-job-interview-questions/)
-* [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/) is **OPTIONAL READING** and it has the potential to be your best friend. It comprehensively covers all the kinds of challenges you might face in a coding interview. It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.
 
-### Coding test questions:
-* [8 Queens](https://www.interviewbit.com/blog/8-queens-problem/#:~:text=Given%20a%208%20X%208,for%20the%208%20queens%20problem.) is a classic problem.
-* [Coding for Interviews: Know Thy Standard Libraries](http://web.archive.org/web/20210617041720/http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
-* [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently (they can be very computationally intensive).
-* [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.
-* [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms & data structures.
-* [LeetCode](https://leetcode.com/explore/) also has some great resources, with problems, explanations, and challenges. Best of all, you don't have to create an account to view the questions.
-* [NeetCode](https://neetcode.io/) similar to LeetCode, but fewer, more focused questions. Each problem also has video explanations that walk through the problem solution
+- [Peerfect.net](https://peerfect.net/) free online practice for behavioral, technical, and coding mock interviews with peers.
+- [Exponent.com](https://www.tryexponent.com/practice?ref=pramp&utm_source=pramp&utm_campaign=pramp_banner) allows you to prepare for coding interviews and practice your coding skills with peers.
+- [Interviewing.io](http://interviewing.io/) gives you a chance to practice tech screens anonymously online.
+- [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
+- [How to Ace Your Technical Interview](http://insights.dice.com/2014/10/12/ace-technical-interview/)
+- [How You Can Stand Out in Your Next Web Developer Interview](http://blog.udacity.com/2015/01/how-to-stand-out-in-your-web-developer-interview.html)
+- [Post on The Interview](https://martincmartin.com/2010/01/08/finding-a-job-youll-love-the-interview/)
+- Read [40 Key Computer Science Concepts Explained In Layman’s Terms](https://web.archive.org/web/20220901190653/http://carlcheo.com/compsci)
+- [Google's Guide for Technical Development](https://www.google.com/about/careers/students/guide-to-technical-development.html) (advanced)
+- [Ruby on Rails Popular Job Interview Questions](https://www.nopio.com/blog/ruby-rails-popular-job-interview-questions/)
+- [Cracking the Coding Interview](https://www.crackingthecodinginterview.com/) is **OPTIONAL READING** and it has the potential to be your best friend. It comprehensively covers all the kinds of challenges you might face in a coding interview. It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.
+
+### Coding test questions
+
+- [8 Queens](https://www.interviewbit.com/blog/8-queens-problem/#:~:text=Given%20a%208%20X%208,for%20the%208%20queens%20problem.) is a classic problem.
+- [Coding for Interviews: Know Thy Standard Libraries](http://web.archive.org/web/20210617041720/http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
+- [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently (they can be very computationally intensive).
+- [Code Wars](https://www.codewars.com) has programming problems and examples of best practice. Join 'The Odin Project' clan for allies.
+- [HackerRank](https://www.hackerrank.com/) provides challenges, drills, and competitions on algorithms & data structures.
+- [LeetCode](https://leetcode.com/explore/) also has some great resources, with problems, explanations, and challenges. Best of all, you don't have to create an account to view the questions.
+- [NeetCode](https://neetcode.io/) similar to LeetCode, but fewer, more focused questions. Each problem also has video explanations that walk through the problem solution
 
 <div class="lesson-note" markdown="1">
+
+#### A note on problem solving sites
+
 The real value of the sites mentioned above comes from engaging with them productively. A popular recommendation around the internet is to just "go grind Leetcode." As you're aware of by now, common algorithms typically have a "trick" or a specific set of steps in order to get to a solution. When you are preparing to interview, the value and utility of wrestling with a problem for hours/days is little. It is more productive to search for the algorithm/pseudocode, then practice problems that require awareness of that algorithm.
 
 This would be like being tasked with getting the length of a Hypotenuse in a triangle but having no awareness of the Pythagorean theorem. Without awareness of that theorem, that calculation can feel impossible. But just knowing the "trick" makes getting the result easy.
@@ -74,17 +89,18 @@ This would be like being tasked with getting the length of a Hypotenuse in a tri
 A more practical programming example:
 
 If you arrived at a problem that required awareness of a Depth First Search of a Tree, but you had zero awareness of what a Depth First Search is, sitting there for days trying to arrive at a solution will yield little benefit. In that situation, it is more productive to just search common tree algorithms then return to the problem that was giving you difficulty.
+
 </div>
 
-### Algorithms training:
+### Algorithms training
 
-* [Udacity course on Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215) (asynchronous)
-* [Coursera course on Algorithms](https://www.coursera.org/course/algo) (semi-synchronous)
-* [Visualgo](https://visualgo.net/) visualizes many common algorithms to help students better understand data structures and algorithms.
+- [Udacity course on Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215) (asynchronous)
+- [Coursera course on Algorithms](https://www.coursera.org/course/algo) (semi-synchronous)
+- [Visualgo](https://visualgo.net/) visualizes many common algorithms to help students better understand data structures and algorithms.
 
-### Architecture:
+### Architecture
 
-* [Teaching Software Architecture with GitHub](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
+- [Teaching Software Architecture with GitHub](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
 
 ### The tech challenge
 
@@ -100,7 +116,7 @@ It's also a chance for you to test them out.  If you've gotten this far in the p
 
 ### A note on compensation
 
-Be mindful when providing your salary expectations. Companies will always ask you "how much do you expect to get paid", often in the initial phone screen. Providing a single concrete number can be the opposite of beneficial, because you may offer a number higher than their range and thus be deemed too expensive, or you may have come in too low and they now know they may be able to cap your offered compensation at a lower number than they might have. It's safest to provide a range (e.g. "I am looking for something between $80,000 - $90,000.") in order to better meet their budget and also allow some wiggle room for negotiations. 
+Be mindful when providing your salary expectations. Companies will always ask you "how much do you expect to get paid", often in the initial phone screen. Providing a single concrete number can be the opposite of beneficial, because you may offer a number higher than their range and thus be deemed too expensive, or you may have come in too low and they now know they may be able to cap your offered compensation at a lower number than they might have. It's safest to provide a range (e.g. "I am looking for something between $80,000 - $90,000.") in order to better meet their budget and also allow some wiggle room for negotiations.
 
 Once you have an offer, you can check it against fair market rate by asking other people (hopefully you've got some people by now who you might ask) or going to the below resources to compare. While "junior" doesn't equate to being underpaid, do be mindful to adjust for years of experience (0-1) as to get the most accurate picture.
 
@@ -111,3 +127,12 @@ Once you have an offer, you can check it against fair market rate by asking othe
 - [Talent](https://www.talent.com/salary)
 
 Finally, if a recruiter has reached out to you, it can also be helpful to ask what the budget for the role is up front. However, this must be done tactfully. If you have not been asked your compensation expectations and have not been told the budget up front in the initial message, it can be a great way to understand if both parties are wasting each other's time, but do keep in mind that asking must be done in a respectful manner. It can be helpful to phrase this ask by saying, "Is there an allocated salary range for the role?". Sometimes they may reply that the salary is based on experience, so do keep in mind your range as you move through the interview process!  
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What is the purpose of a phone screen?](#the-phone-screen)
+- [What strategies can you use to succeed in a technical interview?](#the-tech-interview)
+- [How should you approach a take-home technical challenge?](#the-tech-challenge)
+- [How to approach compensation discussions?](#a-note-on-compensation)

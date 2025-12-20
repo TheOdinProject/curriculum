@@ -23,7 +23,7 @@ Recall how the projects you worked on in Foundations were structured. The HTML, 
 
 Organizing your projects into different files has many practical benefits. Chief among them is making your code more modular, making it easier to adjust and understand the code as it gets more complex.
 
-Remember that old saying about how to keep your physical environment organized - "A place for everything and everything in its place". The same principle applies to software projects.
+Remember that old saying about how to keep your physical environment organized—"A place for everything and everything in its place". The same principle applies to software projects.
 
 For Ruby projects, the rules of thumb are:
 
@@ -101,7 +101,7 @@ require 'sort/merge_sort'
 
 ```
 
-Ah. Of course - an error - it can't find `lib/sort`! Those are not relative paths... Fancy schmancy `require_relative` and its implicitly assuming the paths are relative!
+Ah. Of course—an error—it can't find `lib/sort`! Those are not relative paths... Fancy schmancy `require_relative` and its implicitly assuming the paths are relative!
 
 ```ruby
 # You're in the root of the project, the directory that holds main.rb
@@ -128,7 +128,7 @@ require 'csv'
 require_relative 'lib/sort'
 ```
 
-`require 'csv'` is going to look for a `csv.rb` in the Ruby's `$LOAD_PATH` global variable which by default contains the Ruby standard library. There are other file extensions it might look for, but this is not important at this point - just remember that the `require`s look for some extensions like `.rb` without the need to declare them explicitly. In addition to that, if it doesn't find that file in `$LOAD_PATH` it is going to look through installed gems (more on those later) to see if the file is there.
+`require 'csv'` is going to look for a `csv.rb` in the Ruby's `$LOAD_PATH` global variable which by default contains the Ruby standard library. There are other file extensions it might look for, but this is not important at this point—just remember that the `require`s look for some extensions like `.rb` without the need to declare them explicitly. In addition to that, if it doesn't find that file in `$LOAD_PATH` it is going to look through installed gems (more on those later) to see if the file is there.
 
 Both of those approaches (`require` and `require_relative`) are going to execute the file, allowing you to use their contents. If you try to require something for the second time, nothing will happen, and the requires will return `false`.
 
@@ -236,16 +236,16 @@ puts NotSoGreen.food_opinion('Cereal')
 puts Scheals.food_opinion('Marmite')
 #=> Marmite is awful!
 puts food_opinion('Cereal')
-#=> Errors out - there's no longer a free floating food_opinion method to use.
+#=> Errors out—there's no longer a free floating food_opinion method to use.
 ```
 
 ### Gems and you
 
 Now that you know how to work with your own files, it is time to learn how to work with the files of others.
 
-Gems are packages containing Ruby utility libraries that someone wrote - basically, some code. Some of those gems are part of the Ruby standard library, but most require installing independently.
+Gems are packages containing Ruby utility libraries that someone wrote—basically, some code. Some of those gems are part of the Ruby standard library, but most require installing independently.
 
-If you use a gem then you call such a gem a dependency - your code depends on that gem to function properly. Some dependencies are only used in particular contexts; for example, you can have a set of gems used only in a development or test environment.
+If you use a gem then you call such a gem a dependency—your code depends on that gem to function properly. Some dependencies are only used in particular contexts; for example, you can have a set of gems used only in a development or test environment.
 
 Many gems depend upon other gems, and sometimes, the versions they depend on differ. You *could* manage gems and their dependencies on your own, going through the process of installing, updating them and resolving whatever conflicts might arise, but Rubyists have tools for that!
 
@@ -263,15 +263,15 @@ puts "I'm blue da ba dee da ba di!".colorize(:blue)
 puts "It ain't easy bein' green...".colorize(:green)
 ```
 
-You're probably itching to see all those colours, so run your file with `ruby main.rb` to see them... or rather, a LoadError. Right - you need to <span id="install-gem">install that gem first!</span> Do that with `gem install colorize` and you'll see RubyGems in action. Your system now has access to the `Colorize` gem!
+You're probably itching to see all those colours, so run your file with `ruby main.rb` to see them... or rather, a LoadError. Right—you need to <span id="install-gem">install that gem first!</span> Do that with `gem install colorize` and you'll see RubyGems in action. Your system now has access to the `Colorize` gem!
 
-Wait, *your system* - what about others who would like to use your code? Yeah, they would also need to `gem install` it - no big deal.
+Wait, *your system*—what about others who would like to use your code? Yeah, they would also need to `gem install` it—no big deal.
 
 But what if you have dozens of gems? How do you ensure that the versions you use are the same version others download? This sounds rather tedious. Enter: Bundler. It's another gem, part of RubyGems, but released independently.
 
-<span id="bundler">Bundler allows you to declare what gems your project needs - down to their version.</span> As for others, Bundler allows them to take that declaration, a simple file called `Gemfile`, and use it to install those gems in a quick `bundle install`.
+<span id="bundler">Bundler allows you to declare what gems your project needs—down to their version.</span> As for others, Bundler allows them to take that declaration, a simple file called `Gemfile`, and use it to install those gems in a quick `bundle install`.
 
-Since gem installs are global, <span id="bundle-exec">you need a way to run only those particular gem versions that are declared in the `Gemfile`.</span> You can do that by using `bundle exec` followed by a command you want to execute - most likely `bundle exec ruby foo.rb`.
+Since gem installs are global, <span id="bundle-exec">you need a way to run only those particular gem versions that are declared in the `Gemfile`.</span> You can do that by using `bundle exec` followed by a command you want to execute—most likely `bundle exec ruby foo.rb`.
 
 Let's make sure whoever wants to use our script can do so:
 
@@ -318,21 +318,21 @@ The `"~> 1.1"` is a version constraint, particularly a pessimistic constraint. I
 - The second is the **minor** version
 - the third, if it exists, is the **patch** number
 
-Major versions can break things from previous versions - for example, changing method names. Minor versions can add and change things but can't break anything. Patches happen when you introduce bug fixes that don't break anything.
+Major versions can break things from previous versions—for example, changing method names. Minor versions can add and change things but can't break anything. Patches happen when you introduce bug fixes that don't break anything.
 
-So, if people behind a gem maintain it in line with semantic versioning, you can rely on this pessimistic constraint never letting your project have a gem version that could potentially break your app - it is equivalent to `gem "colorize", ">= 1.1", "<2.0"`.
+So, if people behind a gem maintain it in line with semantic versioning, you can rely on this pessimistic constraint never letting your project have a gem version that could potentially break your app—it is equivalent to `gem "colorize", ">= 1.1", "<2.0"`.
 
 `Gemfile.lock` has information on what was the last environment that should be able to run your app. Bundler will use it to install the same versions of gems even if `Gemfile` could potentially allow for newer versions to be installed.
 
 ### .ruby-version
 
-There's another important thing to give to folks that will run your code: the target Ruby version of your project. You can do it easily by running `rbenv local 3.2.2` as it creates a `.ruby-version` file with the version declared - 3.2.2. Test the command out by using one of your rbenv installed Ruby versions. Run `rbenv versions` to see the list of Ruby versions you have installed.
+There's another important thing to give to folks that will run your code: the target Ruby version of your project. You can do it easily by running `rbenv local 3.2.2` as it creates a `.ruby-version` file with the version declared—3.2.2. Test the command out by using one of your rbenv installed Ruby versions. Run `rbenv versions` to see the list of Ruby versions you have installed.
 
-Many other tools recognize this to figure out what Ruby version your project is running - for example, `rbenv` will no longer use the `global` Ruby version and the `Ruby LSP` VSCode extension will also change its behavior.
+Many other tools recognize this to figure out what Ruby version your project is running—for example, `rbenv` will no longer use the `global` Ruby version and the `Ruby LSP` VSCode extension will also change its behavior.
 
 ### Ruby LSP in VSCode
 
-Earlier in the curriculum, you were instructed to choose the `Don't show again` option when `Ruby LSP` told you about not finding a lock file - you might've also seen errors concerning `RuboCop`. In the next lesson, we will review `RuboCop` and how it should land in your project's `Gemfile`.
+Earlier in the curriculum, you were instructed to choose the `Don't show again` option when `Ruby LSP` told you about not finding a lock file—you might've also seen errors concerning `RuboCop`. In the next lesson, we will review `RuboCop` and how it should land in your project's `Gemfile`.
 
 After that, you will enjoy all the benefits of using `Ruby LSP` and its `RuboCop` integration, and your projects will be set up like a real pro.
 
@@ -366,5 +366,5 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Listen to one of Bundler's maintainers talk about managing dependencies in Ruby](https://www.youtube.com/watch?v=j2V-A8vvLP0) or alternatively, [read the talk](https://andre.arko.net/2015/04/28/how-does-bundler-work-anyway/).
-- [More on semantic versioning - perhaps conventional commits will make more sense to you now!](https://semver.org)
+- [More on semantic versioning—perhaps conventional commits will make more sense to you now!](https://semver.org)
 - [If you'd like an alternative take on the lesson, Connor Stack's article might be of help](https://medium.com/@connorstack/understanding-ruby-load-require-gems-bundler-and-rails-autoloading-from-the-bottom-up-3b422902ca0).

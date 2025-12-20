@@ -101,9 +101,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is different between these two output methods?](#output-commands)
 - [What is the method you can use to get input from the user?](#input-commands)
 - [What is at least one difference between the output and input methods?](#input-commands)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

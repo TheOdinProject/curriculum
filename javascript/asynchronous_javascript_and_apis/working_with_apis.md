@@ -139,7 +139,7 @@ For now, we're going to keep all of this in a single HTML file. So go ahead and 
 </html>
 ```
 
-In the script tag, let's start by selecting the image and assigning it to a variable so that we can change the URL once we've received it from the Giphy API.
+In the script tag, let's start by selecting the image element and assigning it to a variable so that we can change the URL once we've received it from the Giphy API.
 
 ```html
 <script>
@@ -221,7 +221,9 @@ While we are pushing this API key to the frontend, this isn't something you shou
 1. Read the [Fetch documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). It's not all that complicated to use, but we've only really scratched the surface at this point.
 1. Check out this [list of Public APIs](https://github.com/n0shake/Public-APIs) and let your imagination go wild.
 1. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
-1. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to manage some errors (i.e. invalid URL). Keep in mind that Giphy responds with a status code of 200 with an empty data array when it doesn't find any gifs with the searched keyword, in other words the `.catch()` won't be executed. Adjust your code to effectively handle such scenarios, displaying a default image or an error message if the search fails.
+1. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to manage some errors (e.g. invalid URL). Keep in mind that if the API responds, even with something like a `404 Not Found` or some other non-2XX status response, that is still a valid response and `fetch` will therefore not throw an error, meaning the `.catch()` will not run. It may still end up running if your following JavaScript code throws an error, such as trying to access a property of `undefined`, or even if you manually throw an error yourself.
+
+   If you want to conditionally handle any situations where the API does not give you the desired response (e.g. a `404 Not Found` or similar), you will need to do this manually in your `.then()`. Check out [MDN's docs for the Response object](https://developer.mozilla.org/en-US/docs/Web/API/Response) for some useful properties.
 
 </div>
 

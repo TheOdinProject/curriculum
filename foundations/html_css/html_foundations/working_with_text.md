@@ -109,7 +109,7 @@ Sometimes you will want to make text bold without giving it an important meaning
 
 ### Em element
 
-The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element, wrap the text content in an `<em>` tag.
+The `<em>` element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasized element, wrap the text content in an `<em>` tag.
 
 To use `<em>` on its own:
 
@@ -220,10 +220,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What relationship does an element have with any nested elements within it?](#nested-relationship)
 - [What relationship do two elements have if they are at the same level of nesting?](#elements-same-level)
 - [How do you create HTML comments?](#html-comments)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [The semantic difference between &lt;strong> and &lt;b> or &lt;em> and &lt;i> tags and when to use them.](https://scribe.rip/@zac_heisey/when-to-use-strong-b-em-and-i-tags-in-your-markup-fa4d0af8affb)
-- [An interactive HTML text formatting article](https://www.w3schools.com/html/html_formatting.asp)

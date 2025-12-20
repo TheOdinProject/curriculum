@@ -365,7 +365,7 @@ Let's add a few methods to our `usersController.js` for validating and sanitizin
 
 ```javascript
 // This just shows the new stuff we're adding to the existing contents
-const { body, validationResult } = require("express-validator");
+const { body, validationResult, matchedData } = require("express-validator");
 
 const alphaErr = "must only contain letters.";
 const lengthErr = "must be between 1 and 10 characters.";
@@ -390,14 +390,16 @@ exports.usersCreatePost = [
         errors: errors.array(),
       });
     }
-    const { firstName, lastName } = req.body;
+    const { firstName, lastName } = matchedData(req);
     usersStorage.addUser({ firstName, lastName });
     res.redirect("/");
   }
 ];
 ```
 
-And we need to update our `createUser.ejs` view to render these errors. Let's create a new partial. Inside the `views` folder, create a new folder called `partials` and inside it, create `errors.ejs`:
+We retrieve all validated data via the [`matchedData()`](https://express-validator.github.io/docs/api/matched-data) function to ensure all the data we get will include any sanitization done (such as trimmed data).
+
+And now, we need to update our `createUser.ejs` view to render these errors. Let's create a new partial. Inside the `views` folder, create a new folder called `partials` and inside it, create `errors.ejs`:
 
 ```ejs
 <!-- views/partials/errors.ejs -->
@@ -479,7 +481,7 @@ exports.usersUpdatePost = [
         errors: errors.array(),
       });
     }
-    const { firstName, lastName } = req.body;
+    const { firstName, lastName } = matchedData(req);
     usersStorage.updateUser(req.params.id, { firstName, lastName });
     res.redirect("/");
   }

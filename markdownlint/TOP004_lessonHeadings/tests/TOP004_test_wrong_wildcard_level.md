@@ -6,7 +6,7 @@ Text content
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- LO item
+- LO item.
 
 ### Custom section
 
@@ -18,11 +18,11 @@ Text content
 
 Assignment content
 
-</div>
-
 ### An invalid wildcard heading
 
-The heading for this section must be a level 4 heading.
+The heading for this section must be a level 4 heading - level 3 will flag a TOP004 error.
+
+</div>
 
 ### Knowledge check
 

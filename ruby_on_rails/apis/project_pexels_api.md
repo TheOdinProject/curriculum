@@ -16,9 +16,3 @@ Remember the warm-up in the previous project when you played with an API? Now it
 1. Read [Pexel API docs](https://www.pexels.com/api/documentation/) for more information on how the API works.
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

@@ -47,7 +47,7 @@ Create an image carousel. It should contain arrows on each side to advance the i
 Don't spend too much time worrying about getting your images to display at the correct size -- it's more important to get the carousel rotating.
 
 1. This one is a little more involved than the previous task, so think about how you would set up the different elements within the site.
-1. Set up a very wide `div` which will contain the individual "slides" of each image. By appropriately positioning that `div` inside a container `div` (which acts like a picture frame), you can choose which slide is visible at any given time.
+1. Set up a very wide `div` which will contain the individual "slides" of each image. By appropriately positioning that `div` inside a container `div` (which acts like a picture frame), you can choose which slide is visible at any given time. How you approach this is up to you.
 1. Once you have the slider positioned properly, build functions for "next" and "previous" which will advance to the next or previous slide accordingly. The transition *doesn't* need to be smooth or animated. Only make it switch to the correct slide.
 1. Set up arrow buttons which activate those functions and play with cycling through the images.
 1. Add in some navigation dots at the bottom of the slides. Make a horizontal series of empty circles with CSS immediately below the slideshow. Each circle represents a slide, so whenever a new slide is activated, its corresponding circle gets filled in so you can tell where in the show you are. Make each circle link to that particular slide, so you can click on the circle and it will jump to that slide.
@@ -63,9 +63,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are the two main parts that a dropdown menu consists of?](#drop-down-menus)
 - [When might you want to use dropdown menus in a website?](#drop-down-menus)
 - [What are the benefits of using image carousels?](#image-carousel)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

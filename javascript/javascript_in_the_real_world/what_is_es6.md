@@ -36,7 +36,7 @@ In all honesty, this is *not* something that you are going to need to worry abou
 <div class="lesson-content__panel" markdown="1">
 
 1. To satisfy your curiosity, have a look at all the new [features that showed up in ES6 (a.k.a. ES2015)](https://github.com/lukehoban/es6features). Though you'll already have been using many of these, there are a few we haven't specifically covered yet (you do not need to explore these yet).
-1. Have a brief look at the [timeline of the various ECMAScript releases](https://en.wikipedia.org/wiki/ECMAScript_version_history#14th_Edition_%E2%80%93_ECMAScript_2023) which includes small summaries of the annual versions since ES6. Again, some things you may have already used and others you will not recognise nor need to explore yet.
+1. Have a brief look at the [timeline of the various ECMAScript releases](https://en.wikipedia.org/wiki/ECMAScript_version_history#14th_Edition_%E2%80%93_ECMAScript_2023) which includes small summaries of the annual versions since ES6. Again, some things you may have already used and others you will not recognize nor need to explore yet.
 
 </div>
 
@@ -48,9 +48,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Since ES6, what release schedule has been used for new ECMAScript versions?](#release-schedule)
 - [Why might someone need to be careful about using brand new JavaScript features?](#browser-support)
 - [What tool can be used to transpile newer JavaScript for older browser support?](#babel)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

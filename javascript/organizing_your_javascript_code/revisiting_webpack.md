@@ -76,9 +76,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are the two Webpack modes?](#webpack-modes)
 - [What tool allows you to split your Webpack configuration file with minimal duplication?](https://webpack.js.org/guides/production/)
 - [What is a template repository, and how would you create one?](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

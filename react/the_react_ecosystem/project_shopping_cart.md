@@ -38,6 +38,6 @@ By now you've come far from your React-baby days. You have tools like routers an
      }
      ```
 
-   - **Cloudflare Pages**: As of the time of writing, unlike Netlify and Vercel, no additional steps are required as the default behaviour will allow `react-router-dom` to correctly handle redirects for SPAs. You can learn more about this at the [Cloudflare documentation on serving pages](https://developers.cloudflare.com/pages/platform/serving-pages/).
+   - **Cloudflare Pages**: As of the time of writing, unlike Netlify and Vercel, no additional steps are required as the default behavior will allow `react-router-dom` to correctly handle redirects for SPAs. You can learn more about this at the [Cloudflare documentation on serving pages](https://developers.cloudflare.com/pages/platform/serving-pages/).
 
 </div>

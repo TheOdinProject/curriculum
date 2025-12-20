@@ -12,6 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 - Discover how to add a 'catch-all' route in React Router.
 - Learn how to pass data from a parent component to any child components rendered via an outlet.
 - Understand how to implement protected routes in React Router.
+- Get an introduction to testing components that use React Router.
 
 ### Client-side routing
 
@@ -363,7 +364,7 @@ const ErrorPage = () => {
 export default ErrorPage;
 ```
 
-Add the `errorElement` to the configuration, and verify that it renders an error page by going to the `/profile` path or any unmentioned paths. We'll wire this back up in the assignment.
+Add the `errorElement` to the configuration, and verify that it renders an error page by going to the `/profile` path or any unmentioned paths.
 
 ```jsx
 import { StrictMode } from "react";
@@ -453,6 +454,12 @@ Often, you will need to decide whether a certain route should be rendered or not
 
 You will often come across the need to reroute the user to a different URL programmatically. This is where we use [the `<Navigate />`component](https://reactrouter.com/en/main/components/navigate). The `<Navigate />` component reroutes the user to the desired URL when it is rendered. It is a wrapper around [the useNavigate hook](https://reactrouter.com/en/main/hooks/use-navigate) that lets you navigate programmatically, to URLs, or even go back down the user's history.
 
+### React Router testing
+
+When testing components that use React Router, it’s important to remember that your app never renders those components directly. Instead, it renders them through a router (for example, via `<RouterProvider>`). Because of this, tests that render these components also need to render them inside a routing context - otherwise hooks like `useNavigate` or `useParams`, or a `<Link>` component, will throw errors.
+
+If you’re just rendering a component that happens to include something like a `<Link>` (and you’re not testing navigation or relying on other router features), wrapping it in a lightweight [MemoryRouter](https://reactrouter.com/api/declarative-routers/MemoryRouter) may be enough. But if the component depends on **router behavior**, like using outlet context, matching params, error elements, or redirects, it would make more sense to render a `<RouterProvider>` like your app does. Since your tests don't run in a browser, you can use [createMemoryRouter](https://reactrouter.com/api/data-routers/createMemoryRouter) to create routers in your tests with the same route configuration from `routes.jsx`.
+
 ### Conclusion
 
 You should now have enough basics to get started with React routing. There are a lot more features to react-router which are extremely useful, but out of the scope of this lesson. We're confident that the concepts covered above should be enough to get you through the React course. If you are interested in learning some more, we recommend you look into the history or match object. Definitely go and check out more advanced concepts once you are familiar with the basics.
@@ -462,7 +469,7 @@ You should now have enough basics to get started with React routing. There are a
 <div class="lesson-content__panel" markdown="1">
 
 1. This article on [SPAs and client-side routing by Ben Holmes](https://bholmes.dev/blog/spas-clientside-routing/) goes through a lot of the routing concepts concisely.
-1. Go and fix the `/profile` page to display something more useful than an error page. Then, add a few new routes to the application we created above; This was a dense lesson, so take some time to play with the new tools you've learned. Consider deleting it completely and rewriting it using what you know.
+1. Add a few new routes to the application we created above. This was a dense lesson, so take some time to play with the new tools you've learned. Consider deleting it completely and rewriting it using what you know.
 1. The [React Router tutorial](https://reactrouter.com/en/main/start/tutorial) goes through a lot of the stuff discussed in this lesson and much more. Have a read through the sections up to "Nested Routes".
 1. Browse through the [React Router documentation](https://reactrouter.com/en/main). Again, you don't need to read through all of it, nor understand all of it. Just browse through the concepts we discussed here and re-read them. Look into the other features that React Router offers. This is a great resource to refer back to.
 
@@ -480,6 +487,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you handle errors from bad URLs?](#handling-bad-urls)
 - [How do you pass data from parent to child through an `<Outlet />` component?](#outlets-and-state)
 - [How do you create protected routes?](#protected-routes-and-navigation)
+- [How do you test components that use React Router?](#react-router-testing)
 
 ### Additional resources
 

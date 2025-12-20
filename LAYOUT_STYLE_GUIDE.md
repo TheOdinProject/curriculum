@@ -1,6 +1,6 @@
 # Layout style guide
 
-Inspired by [Google's styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md).
+Inspired by [Google's style guide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md).
 
 TOP uses Markdown for the layout and formatting of lesson and project files to get properly formatted HTML for the TOP website.
 
@@ -10,12 +10,12 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 - Editable by any contributor.
 - Consistent across the TOP website.
 
-**A note on language**: TOP follows American English and American style punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.
-
-**Using formatters**: Many projects have a standard in how their code is formatted which should always be followed when contributing. If you're using a formatter (such as Prettier), you should always be sure you aren't accidentally committing code that goes against that standard. This can be achieved by simply disabling the formatter, saving your files without formatting, or configuring your formatter to adhere to the project's standard.
+> [!WARNING]
+> **Using formatters**: Many projects have a standard in how their code is formatted which should always be followed when contributing; this one is no exception. If you're using a formatter (such as Prettier), you should always be sure you aren't accidentally committing code that goes against our style guide. This can be achieved by simply disabling the formatter, saving your files without formatting, or configuring your formatter to adhere to the project's standard.
 
 ## Table of Contents
 
+1. [Language](#language)
 1. [Lesson layout](#lesson-layout)
 1. [Project layout](#project-layout)
 1. [Headings](#headings)
@@ -30,7 +30,13 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1. [Mermaid diagrams](#mermaid-diagrams)
 1. [Markdown styling](#markdown-styling)
 
+## Language
+
+TOP's lessons use American English spelling and punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.
+
 ## Layouts
+
+Markdownlint: [`lesson-headings`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP004.md), [`default-section-content`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP003.md)
 
 In general, the following layouts should be used for all lessons and projects. Text that should be replaced with the author's own content will be in all CAPS, with any additional information regarding a section listed at the end of the layout code block.
 
@@ -39,6 +45,8 @@ When adding new lessons or projects, make a copy of either the [lesson template]
 The [lesson example](./templates/lesson-example.md) and [project example](./templates/project-example.md) files both show how this style guide can be put to use in an actual lesson/project. They don't cover every situation (the lesson example doesn't show a lesson with an assignment and one without, for example), but they should give you a better representation of how lessons/projects should look after this style guide is applied.
 
 ### Lesson layout
+
+Markdownlint: [`lesson-overview-items-sentence-structure`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP009.md)
 
 ```markdown
 ### Introduction
@@ -76,7 +84,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Check out this [lecture on independent research](https://www.youtube.com/watch?v=dQw4w9WgXcQ) for a deeper dive.
 ```
 
 1. `### Introduction`: A brief summary on what the lesson is about and/or why the topics or concepts it covers are important. Replace the `A BRIEF INTRODUCTION.` text with your own lesson introduction.
@@ -107,9 +115,9 @@ This section contains helpful links to related content. It isn't required, so co
 
    In order to link to a `<span>` element within the lesson, replace the value within the parenthesis with the exact `id` attribute of the `<span>` element (this will be case sensitive). For example, a `<span id="Knowledge-Check-3">` element would be linked to with `(#Knowledge-Check-3)`.
 
-1. `### Additional resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. An additional resource should include brief text that further informs the user on why it is included or what purpose it serves, and generally should stand out in some way from the lesson content and other additional resources. A good rule of thumb is to try and answer, "what purpose does this resource serve?"
+1. `### Additional resources`: An **optional** bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. An additional resource should include brief text that further informs the user on why it is included or what purpose it serves, and generally should stand out in some way from the lesson content and other additional resources. A good rule of thumb is to try and answer, "what purpose does this resource serve?"
 
-   **If the lesson doesn't include any additional resources, leave this section as-is**. Otherwise, replace the default bulleted resource item with your own resource, then add any additional bulleted resource items. The lesson should ideally have no more than 3-5 additional resources.
+   **This section must only be present if there are additional resources. If there are none, the section should not be included at all.**.
 
 ### Project layout
 
@@ -135,10 +143,6 @@ OPTIONAL PRE-ASSIGNMENT SECTION CONTENT.
 - AN OPTIONAL ADD-ON/USER STORY.
 
 </div>
-
-### OPTIONAL POST-ASSIGNMENT SECTION HEADING
-
-OPTIONAL POST-ASSIGNMENT SECTION CONTENT.
 ```
 
 1. `### Introduction`: A brief summary on what the project is and an overview of what the user will be building. Replace the `A BRIEF INTRODUCTION.` text with your own project introduction.
@@ -149,15 +153,17 @@ OPTIONAL POST-ASSIGNMENT SECTION CONTENT.
 
 1. `#### Extra credit`: A bulleted list of items that describe any optional add-ons or user stories that might make a user's project stand out. Replace the `AN OPTIONAL ADD-ON/USER STORY.` text with your own add-on, then add any additional bulleted add-on items. **If the project does not have any extra credit items, remove the extra credit section from the assignment.**
 
-1. `### OPTIONAL POST-ASSIGNMENT SECTION HEADING`: A section that contains content that should come after the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `OPTIONAL POST-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `OPTIONAL POST-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional post-assignment sections. **If the project does not have a post-assignment section, remove this entire section from the project.**
-
 ## Headings
 
 ### Accessible headings
 
+Markdownlint: [`descriptive-headings`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP013.md)
+
 For accessibility, headings must briefly summarize their section's contents, rather than just saying something overly generic like "Note", "Remember" or "Warning".
 
 ### Indentation
+
+Markdownlint: [`heading-indentation`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md)
 
 Headings must not be indented, regardless of level and even if they are inside an assignment `div`. The only exception is when the heading is for a [note box](#note-boxes).
 
@@ -178,6 +184,8 @@ Headings should always use sentence case:
 
 ### No code snippets
 
+Markdownlint: [`no-code-headings`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP002.md)
+
 Headings should never contain any code snippets.
 
 ```markdown
@@ -188,7 +196,15 @@ Headings should never contain any code snippets.
 ### The id property
 ```
 
+### Trailing punctuation
+
+Markdownlint: [`no-trailing-punctuation`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md026.md)
+
+Headings must not end with `.`, `,`, `:` or `;`.
+
 ### ATX-style headings
+
+Markdownlint: [`heading-style`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md003.md), [`no-missing-space-atx`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md018.md), [`no-multiple-space-atx`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md019.md), [`no-emphasis-as-heading`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md036.md)
 
 Use Heading 3 `###` for main section titles ("Lesson overview", "Assignment", custom sections, etc):
 
@@ -212,9 +228,11 @@ Text after...
 
 ## Newlines
 
+Markdownlint: [`no-multiple-blanks`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md012.md), [`blanks-around-multiline-html-tags`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP005.md), [`blanks-around-headings`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md022.md), [`blanks-around-fences`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md031.md), [`blanks-around-lists`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md032.md), [`single-trailing-newline`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md047.md)
+
 Each Markdown file should have an empty newline at the very end, after all of the file's contents.
 
-Always add a newline before and after a heading, a list, an Assignment panel, or any other content that is not strictly text:
+Always add a newline before and after a heading, a list, an Assignment panel, HTML tags used for page markup, or any other content that is not strictly text:
 
 ```markdown
 Content before...
@@ -224,9 +242,19 @@ Content before...
 1. A list item
 
 ...content after.
+
+<div class="lesson-note" markdown="1">
+
+#### Note box heading
+
+Note box contents.
+
+</div>
 ```
 
 ## Lists
+
+Markdownlint: [`list-marker-space`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md030.md)
 
 The Odin Project follows [Google's documentation style guide on lists](https://developers.google.com/style/lists#numbered-lettered-bulleted-lists).
 
@@ -251,7 +279,9 @@ For more detailed examples of the exceptions, refer to [Google's style guide on 
 
 ### Lazy numbering
 
-Markdown is smart enough to let the resulting HTML render your numbered lists correctly. For longer lists that may change, especially long nested lists, use "lazy" numbering. The following Markdown:
+Markdownlint: [`lazy-numbering-for-ordered-lists`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP010.md)
+
+Markdown is smart enough to let the resulting HTML render your numbered lists correctly. Since the order may change when editing, use "lazy" numbering. This saves having to manually amend prefixes when editing such lists. The following Markdown:
 
 ```markdown
 1. Foo
@@ -270,6 +300,8 @@ Will result in the following output:
 1. Baz
 
 ### Nested lists
+
+Markdownlint: [`list-indent`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md005.md), [`ul-indent`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md007.md)
 
 When nesting lists, use a 2 space indent when nesting inside a bulleted list and a 3 space indent when nesting inside a numbered list. The following Markdown:
 
@@ -327,6 +359,8 @@ Will result in the following output:
 
 ### Unordered lists
 
+Markdownlint: [`ul-style`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md004.md)
+
 The preferred way to create unordered lists for The Odin Project is by using hyphens `-`. Both hyphens and asterisks give the same results, but sticking to one way keeps the source markdown consistent.
 
 ```markdown
@@ -338,6 +372,8 @@ The preferred way to create unordered lists for The Odin Project is by using hyp
 ## Code
 
 ### Inline
+
+Markdownlint: [`no-space-in-code`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md038.md)
 
 &#96;Backticks&#96; designate `inline code`, and will render all wrapped content
 literally. Use them for short code quotations, math formulas/calculations, field names, or file names:
@@ -352,6 +388,8 @@ Create a new file named `styles.css` first.
 
 ### Codeblocks
 
+Markdownlint: [`code-block-style`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md046.md), [`use-backticks-for-fenced-code-blocks`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP008.md)
+
 For code quotations longer than a single line, use a codeblock with 3 opening and closing backticks:
 
 ````markdown
@@ -365,12 +403,16 @@ const obj = {
 
 #### Declare the language
 
+Markdownlint: [fenced-code-language](https://github.com/DavidAnson/markdownlint/blob/main/doc/md040.md), [`full-fenced-code-language`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP006.md)
+
 It is best practice to explicitly declare the language immediately after the opening backticks, so that neither the
 syntax highlighter nor the next editor must guess.
 
 If a language has both a long and short form that markdown will accept, for example `javascript` will also be accepted as `js`, and `text` will also be accepted as `txt`, the long form must be used.
 
 #### No extraneous characters
+
+Markdownlint: [`commands-show-output`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md014.md)
 
 Codeblocks should only contain actual code snippets, terminal commands, or commented out text. Never include leading terminal content, such as the dollar sign `$` you might see preceding any commands you type in.
 
@@ -414,13 +456,13 @@ Will result in the following output:
 
 ## Note boxes
 
+Markdownlint: [`note-box-headings`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP012.md)
+
 Note boxes can be added by wrapping the content in a `div` with the class `lesson-note`. This will add styling to make the note stand out visually to users.
 
 All note boxes must open with a level 4 heading (`####`), which will also require the note box div to have the `markdown="1"` attribute so the heading renders correctly. Note box [headings must be sufficiently descriptive](#accessible-headings) for accessibility.
 
 Note box headings must match the note box's indentation level, such as if the note box is indented as a child of a list item.
-
-The opening and closing tags must each be wrapped with a single blank line on either side, or a codeblock delimiter (triple backticks). This applies to any line that contains only a single HTML tag. The only exceptions to this rule are HTML tags inside `html`, `jsx`, `erb`, `ejs`, `javascript` or `ruby` codeblocks.
 
 ### Variations
 
@@ -458,6 +500,8 @@ Long links make source Markdown difficult to read and break the 80 character wra
 
 ### Use Markdown links
 
+Markdownlint: [`use-markdown-links`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP007.md), [`no-bare-urls`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md034.md)
+
 Instead of using HTML anchor tags for links, use Markdown links instead.
 
 ```markdown
@@ -469,6 +513,8 @@ See the [lesson template](./templates/lesson-template.md) for a more easily copy
 ```
 
 ### Use informative titles
+
+Markdownlint: [`descriptive-link-text-labels`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP001.md), [`no-empty-links`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md042.md)
 
 Markdown link syntax allows you to set a link title, just as HTML does. Use it wisely.
 
@@ -510,6 +556,8 @@ First go to the [Google](www.google.com) homepage
 Links to required reading should not be scattered throughout a lesson, and should instead be placed in either the `### Assignment` or `### Additional resources` section. Links that refer a user to a previous lesson as a refresher, or a link to a Wikipedia page that offers a definition/explanation of a term are fine to place outside of these two sections.
 
 ## Images
+
+Markdownlint: [`no-alt-text`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md045.md)
 
 Images in Markdown follow the same syntax as links, except they begin with an exclamation point `!`:
 
@@ -590,6 +638,8 @@ mermaid diagram content here
 This has full support in the [Lesson Preview tool](https://www.theodinproject.com/lessons/preview), so be sure to check that the diagram renders correctly with the lesson content before contributing.
 
 ## Markdown styling
+
+Markdownlint: [`no-space-in-emphasis`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md037.md), [`emphasis-style`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md049.md), [`strong-style`](https://github.com/DavidAnson/markdownlint/blob/main/doc/md050.md)
 
 While Markdown supports the use of both asterisks `*` and underscores `_` to make text bold or italic, asterisks should always be used.
 

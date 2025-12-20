@@ -83,7 +83,7 @@ This is done by adding a `placeholder` attribute to an input. The value will be 
 
 Use placeholder text to demonstrate how text should be entered and formatted.
 
-<span id="the-name-attribute">**The name attribute**</span>
+#### The name attribute
 
 We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend, where we send our data, know what each piece of data represents.
 
@@ -124,7 +124,7 @@ Try changing the `name` attributes of some of the input fields in the form and r
 
 It's worth mentioning that you can use any of the form controls HTML provides outside of the `<form>` element, even when you don't have a backend server where you can send data.
 
-For example you might want to have an input that gets some data from a user and display that somewhere else on the page with JavaScript:
+For example, you might want to have an input that gets some data from a user and display that somewhere else on the page with JavaScript:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="PoJjNYr" data-preview="true" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -399,7 +399,7 @@ It is important to remember that a button within a form with the `type` value of
 
 ### Organizing form elements
 
-Using the correct inputs for the data we want users to enter goes a long way towards making our forms user friendly. However, in larger forms, users can easily get overwhelmed and discouraged if there are many inputs to fill in.
+Using the correct inputs for the data we want users to enter goes a long way towards making our forms user-friendly. However, in larger forms, users can easily get overwhelmed and discouraged if there are many inputs to fill in.
 
 Luckily, HTML provides a couple of elements that make it easy to organize forms into sections that are visually distinct and manageable to digest.
 

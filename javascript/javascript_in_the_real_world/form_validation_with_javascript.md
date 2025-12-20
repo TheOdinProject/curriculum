@@ -24,7 +24,7 @@ This section contains a general overview of topics that you will learn in this l
 
 #### Warmup
 
-Go back to your 'Library' project and add validation to that form! Don't let your users submit without filling in all the fields! Don’t forget to use the git branch workflow you learned in [Revisiting Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) from Foundations to work on a new feature.
+Go back to your 'Library' project and add validation to that form! Display a custom error message when the user tries to submit an empty form field (e.g. "The author name must be filled!"). Don’t forget to use the git branch workflow you learned in [Revisiting Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) from Foundations to work on a new feature.
 
 #### A little more practice
 
@@ -48,9 +48,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the importance of validating HTML forms before submitting them to a server?](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#what_is_form_validation)
 - [What are the two types of client-side form validation?](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#different_types_of_client-side_validation)
 - [How does JavaScript Constraint Validation API provide more control and customization of form validation?](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

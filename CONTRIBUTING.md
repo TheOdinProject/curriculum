@@ -8,13 +8,17 @@ This contributing guide assumes you have followed the instructions in our genera
 
 - [How to Contribute](#how-to-contribute)
 - [Curriculum Linting](#curriculum-linting)
+- [Adding Images to the Curriculum](#adding-images-to-the-curriculum)
+- [Updating Ruby Version](#updating-ruby-version)
 
 ## How to Contribute
 
-There are 2 main ways you can contribute to our curriculum:
+Please refer to our [general contributing guide](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md) for details on the difference between simple and significant changes, and the expected process for handling each.
 
-1. If you're new to contributing to open-source, only need to edit 1 file, or if you just want to make a really quick pull request (PR), you can click the "Improve this lesson on GitHub" link found at the end of each lesson. This will open the lesson file in its "edit" mode, allowing you to make any edits and submit a PR all through GitHub.
-1. If you're more experienced with contributing or need to edit more than 1 file, you can follow our instructions on [setting up a local clone](https://github.com/TheOdinProject/.github/blob/main/CONTRIBUTING.md) from our general contributing guide. You should also read the sections that follow on how to open a PR.
+When it comes to opening a pull request (PR) to our curriculum, there are 2 main ways you can do so:
+
+1. Click the "Improve on GitHub" link found at the end of each lesson. This will open the lesson file in its "edit" mode, allowing you to make any edits and submit a PR all through GitHub. This can be useful if you're new to contributions and want to make a simple change.
+1. Follow the instructions from the general contributing guide to fork and clone this repo locally, and work from there. This is necessary if you need to edit multiple files as part of a single PR.
 
 Regardless of the way you choose to open a PR, while working on an existing or a new lesson you **must** follow our [Layout Style Guide](https://github.com/TheOdinProject/curriculum/blob/main/LAYOUT_STYLE_GUIDE.md) to ensure the layout and formatting is consistent across our curriculum.
 
@@ -38,7 +42,7 @@ To help enforce the layout specified in our layout style guide, we use [markdown
 > [!NOTE]
 > With either of these two methods, keep in mind that not all issues that get flagged will have an autofix available. Some rules require fixes that are more dependent on context and cannot - and should not - be automatically fixed, such as our custom rule `TOP001` for descriptive link text.
 >
-> The following markdownlint rules are at least partially fixable via the appropriate `fix:*` script:
+> The following markdownlint rules are at least partially fixable via the `fix` script:
 >
 > - [MD004](https://github.com/DavidAnson/markdownlint/blob/main/doc/md004.md) ul-style
 > - [MD005](https://github.com/DavidAnson/markdownlint/blob/main/doc/md005.md) list-indent
@@ -75,3 +79,45 @@ To help enforce the layout specified in our layout style guide, we use [markdown
 > - [TOP010](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP010.md) use-lazy-numbering
 > - [TOP011](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md) heading-indentation
 > - [TOP012](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP012.md) note-box-headings
+
+## Adding Images to the Curriculum
+
+Adding images to the curriculum is a two-step process, involving two PRs. For a general overview, you need to:
+
+1. Upload the image(s) to the repository.
+1. Create `statically.io` links to the images and add those links to the appropriate lesson(s).
+
+### Uploading Images to the Repository
+
+1. Have a copy of the image you want to upload on your local machine.
+1. If it doesn’t already exist, create a directory with the same name in the same directory as the lesson you want to add an image to.
+1. If it doesn’t already exist, create an `imgs` directory inside of the directory you made in the previous step.
+1. Add your image to the directory you made in step 3, naming it the order it appears on the page starting from 00 (i.e. the second image in a lesson will be `01.png` (or whatever extension)). If replacing an image, just replace the appropriate image file.
+1. PR the addition of the image(s). Here is an [example PR](https://github.com/TheOdinProject/curriculum/pull/22421) where this process was followed.
+
+### Creating Statically Links
+
+1. Go to the PR that added the image(s) to the repo.
+1. Right-click the commit ID where it was merged and select `copy link`.
+
+   ![The commit ID is a random looking seven digit string that will appear like a message in the PR when your PR is merged.](https://cdn.statically.io/gh/wise-king-sullyman/curriculum/81577535181eae1bbaac066c37e304475af22855/images/Add-Images-Instructions/Click-Commit-ID.png)
+1. Go to https://wise-king-sullyman.github.io/better-statically-converter-react/
+1. Paste the URL you copied into the text box on the main screen of that site, then hit Enter.
+1. The site will generate the statically CDN link to each image that was merged into the curriculum with that PR. You can click each link to auto-copy that link to your clipboard.
+1. Use each of these links to link to your desired images in the curriculum content you’re editing/adding.
+1. PR the addition of the image links (and any other content you’ve added/changed in the lesson).
+
+## Updating Ruby Version
+
+If you want to update the Ruby language version installed in the [Ruby Installation lesson](https://github.com/TheOdinProject/curriculum/blob/main/ruby/introduction/installing_ruby.md), there are a few additional changes that may need to happen:
+
+1. Update the version number in the `.ruby-version` file in the following repos:
+   - [custom_enumerable_project](https://github.com/TheOdinProject/custom_enumerable_project)
+   - [ruby_testing](https://github.com/TheOdinProject/ruby_testing)
+1. Ruby uses [semver](https://en.wikipedia.org/wiki/Software_versioning#Semantic_versioning) for its versioning, where the first digit is a 'major' version, the second digit is a 'minor' version, and the third digit is a 'patch' version. **If you're updating the installation to a Ruby version that bumps the major or minor digits, then the documentation links throughout the Ruby course will need to be updated.** They use a URL like `https://docs.ruby-lang.org/en/x.y` where `x` and `y` digits denote the major and minor versions respectively. You'll need to find all the existing documentation links and replace them to reference the new version. You can do this through using your editor's global find and replace utility or through the command line. An example command that would update the docs from 3.3 to 3.4 if run from the curriculum root:
+
+   ```bash
+   find . -type f -exec sed -i 's+docs.ruby-lang.org/en/3.3+docs.ruby-lang.org/en/3.4+g' {} +
+   ```
+
+1. Although not strictly required, we do like to have the version of Ruby used on the main site match the version that's used in the curriculum. If they don't match and you're comfortable working in a Rails app, feel free to put in a PR to the [main site repo](https://github.com/TheOdinProject/theodinproject) that bumps the Ruby version to what you're changing it to. If you're not experienced with Rails, you can open an issue instead and another contributor will pick it up.

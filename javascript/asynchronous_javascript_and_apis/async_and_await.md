@@ -217,7 +217,6 @@ This code will behave exactly like the code from the last lesson; it just looks 
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [How do you declare an `async` function?](#the-async-keyword)
 - [What does the `async` keyword do?](#the-async-keyword)
 - [What does the `await` keyword do?](#the-await-keyword)
 - [What is returned from an `async` function?](https://javascript.info/async-await#summary)

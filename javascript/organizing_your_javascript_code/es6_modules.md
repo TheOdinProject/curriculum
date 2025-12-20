@@ -16,6 +16,8 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-note" markdown="1">
 
+#### Using modern syntax in pre-ES6 examples
+
 Even though `let`/`const` and arrow functions were not around before ES6, we will still use them in our pre-ES6 examples. They won't change how things work regarding the global scope and the module pattern, which is the main focus of this section.
 
 </div>
@@ -61,7 +63,7 @@ const greeting = (() => {
 })();
 ```
 
-Now, the global variable `greeting` will contain `"Hello, Odinite!"` and so our code from `two.js` successfully logs this to the console. However, our private `farewellString` variable is not global, so that cannot be accessed anywhere in `two.js`. Through this, we are able to choose what to expose from one file to be made available to all files that follow it! This is why IIFEs were often called the "module pattern", because they allowed us to write modular code across multiple files before we were given "real modules".
+Now, the global variable `greeting` will contain `"Hello, Odinite!"` and so our code from `two.js` successfully logs this to the console. However, both `greetingString` and `farewellString` are local to the IIFE and not global. The difference is that `greetingString` is explicitly returned from the IIFE and assigned to `greeting`, making it accessible outside the function, while `farewellString` is not returned, so it remains completely inaccessible in `two.js`. Through this, we are able to choose what to expose from one file to be made available to all files that follow it! This is why IIFEs were often called the "module pattern", because they allowed us to write modular code across multiple files before we were given "real modules".
 
 But now, with ESM, we no longer need to use IIFEs for this specific purpose.
 
