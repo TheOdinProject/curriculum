@@ -56,38 +56,41 @@ Take a while to brew on that example. In the end, it's not some mind-blowing con
 
 ### Closures aren't scary
 
+You know how if you needed to repeatedly needed to get or create some value based on some kind of input, you'd use a function with parameters? For example, you could write a function that takes arguments and returns an array or string or number as a result of using those arguments. Functions are no different. You can use a function to create another function.
+
 The best way to approach this would be to start with an example - take a look at this piece of code below.
 
 ```javascript
-function makeAdding(firstNumber) {
-  // "first" is scoped within the makeAdding function
-  const first = firstNumber;
+function makeAddingFunction(firstNumber) {
+  // firstNumber is scoped anywhere within makeAddingFunction,
+  // including returnedFunction
+  // any variables declared here will also be accessible within returnedFunction
 
-  return function resulting(secondNumber) {
-    // "second" is scoped within the resulting function
-    const second = secondNumber;
-    return first + second;
+  return function returnedFunction(secondNumber) {
+    // secondNumber is scoped only within returnedFunction
+    return firstNumber + secondNumber;
   }
 }
 ```
 
-But we've not seen an example of a "function" being returned thus far - how do we use it?
+We can then create our function by calling `makeAddingFunction`:
 
 ```javascript
-const add5 = makeAdding(5);
-console.log(add5(2)); // logs 7
+const add5 = makeAddingFunction(5);
+console.log(add5(2)); // 7
+
+const add8 = makeAddingFunction(8);
+console.log(add8(2)); // 10
+
+const add79100105110 = makeAddingFunction(79100105110);
+console.log(add79100105110(111687378)); // 79211792488
 ```
 
-A lot going on, so let's break it down:
+Instead of writing a new function every time, we just use a function to create a function for us - the same way we might write a `toFormattedDateString(date)` function and call it several times with different dates, rather than hardcoding the logic and resulting string every single time.
 
-1. The `makeAdding` function takes an argument, `firstNumber`, declares a constant `first` with the value of `firstNumber`, and returns another **function**.
-1. When an argument is passed to the returned function, which we have assigned to **add5**, it returns the result of adding up the number passed earlier to the number passed now (`first` to `second`).
+`returnedFunction` forms a closure around the `firstNumber` parameter. A closure refers to the combination of a function and the **surrounding state** in which the function was declared. This surrounding state, also called its **lexical environment**, consists of any local variables that were in scope at the time the closure was made. Here, `add5` is a reference to the function returned by the `makeAddingFunction(5)` call. After `makeAddingFunction(5)` finishes executing, the 5 is not cleaned up in memory because the returned function still needs it: the returned function has access its lexical environment (which in this case, contains the `firstNumber` parameter).
 
-Now, while it may sound good at first glance, you may already be raising your eyebrows at the second statement. As we've learned, the `first` variable is scoped within the `makeAdding` function. When we declare and use `add5`, however, we're **outside** the `makeAdding` function. How does the `first` variable still exist, ready to be added when we pass an argument to the `add5` function? This is where we encounter the concept of closures.
-
-Functions in JavaScript form closures. A closure refers to the combination of a function and the **surrounding state** in which the function was declared. This surrounding state, also called its **lexical environment**, consists of any local variables that were in scope at the time the closure was made. Here, `add5` is a reference to the `resulting` function, created when the `makeAdding` function is executed, thus it has access to the lexical environment of the `resulting` function, which contains the `first` variable, making it available for use.
-
-This is a **crucial** behavior of functions - allowing us to associate data with functions and manipulate that data anywhere outside of the enclosing function. If you're still confused, read the [MDN documentation on Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#closure), but only the sections "Lexical scoping", "Closure" and "Practical closures". The other sections refer to concepts that will be discussed later in this lesson.
+This is a **crucial** behavior of functions; it allows us to associate data with functions and manipulate that data anywhere outside of the enclosing function. We can make use of this in factory functions, coming up shortly.
 
 ### So, what's wrong with constructors?
 
