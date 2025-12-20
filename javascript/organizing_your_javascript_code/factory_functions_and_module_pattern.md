@@ -317,7 +317,7 @@ But then why not just write the factory function then call it once? Why bother w
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How does scope work in JavaScript?](#scoopfuls-of-scopes)
-- [What are closures and how do they help in creating private variables?](#closures-arent-scary)
+- [What are closures?](#closures-arent-scary)
 - [What common issues can you face when working with constructors?](#so-whats-wrong-with-constructors)
 - [What are private variables in factory functions and how can they be useful?](#private-variables-and-functions)
 - [How can we implement prototypal inheritance with factory functions?](#prototypal-inheritance-with-factories)
