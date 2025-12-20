@@ -149,7 +149,7 @@ The other important thing to note is almost all the tests follow a certain patte
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read this article about [mocking child components](https://medium.com/@taylormclean15/jest-testing-mocking-child-components-to-make-your-unit-tests-more-concise-18691ef6a0c2). It extensively covers the "how" of mocking child components. (You might need to sign up to read)
+1. Read this article about [mocking react components]([https://medium.com/@taylormclean15/jest-testing-mocking-child-components-to-make-your-unit-tests-more-concise-18691ef6a0c2](https://dev.to/peterlidee/mocking-react-components-jest-mocking-react-part-2-2l8j)). It covers the "how" of mocking child components. (You might need to sign up to read)
 1. This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. It goes into testing async code and callbacks which we haven't covered yet. Though you should be able to follow along using your previous knowledge.
 
 </div>
