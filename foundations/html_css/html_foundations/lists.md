@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 If you want to have a list of items where the order doesn't matter, like a shopping list of items that can be bought in any order, then you can use an unordered list.
 
-Unordered lists are created using the `<ul>` element, and <span id="li"></span>each item within the list is created using the list item element `<li>`.
+Unordered lists are created using [the `<ul>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ul), and <span id="li"></span>each item within the list is created using the list item element `<li>`.
 
 Each list item in an unordered list begins with a bullet point:
 
@@ -33,7 +33,7 @@ Each list item in an unordered list begins with a bullet point:
 
 If you instead want to create a list of items where the order *does* matter, like step-by-step instructions for a recipe, or your top 10 favorite TV shows, then you can use an ordered list.
 
-Ordered lists are created using the `<ol>` element. Each individual item in them is again created using the list item element `<li>`. However, each list item in an ordered list begins with a number instead:
+Ordered lists are created using [the `<ol>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ol). Each individual item in them is again created using the list item element `<li>`. However, each list item in an ordered list begins with a number instead:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="yLXYvYp" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -65,11 +65,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What HTML element is used to create an unordered list?](#unordered-lists)
 - [What HTML element is used to create an ordered list?](#ordered-lists)
 - [What HTML element is used to create list items within both unordered and ordered lists?](#li)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [MDN documentation on the unordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)
-- [MDN documentation on the ordered list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol)
-- [Shay Howe's HTML lists tutorial](https://learn.shayhowe.com/html-css/creating-lists/)

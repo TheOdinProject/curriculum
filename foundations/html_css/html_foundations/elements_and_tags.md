@@ -58,9 +58,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is an HTML tag?](#elements-and-tags)
 - [What are the three parts of an HTML element?](#elements-and-tags)
 - [What are void elements, and how are they different from regular HTML elements?](#void-elements)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Don't Fear the Internet's video about HTML](https://player.vimeo.com/video/24549728)
