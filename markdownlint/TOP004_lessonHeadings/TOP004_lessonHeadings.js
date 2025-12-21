@@ -7,6 +7,7 @@ const exceptedLessons = [
   "conclusion.md",
   "conclusion_full_stack_javascript.md",
   "conclusion_ruby_on_rails.md",
+  "LAYOUT_STYLE_GUIDE.md",
 ];
 
 const HEADINGS = {
@@ -20,6 +21,7 @@ const HEADINGS = {
     "?",
   ],
   project: ["### Introduction", "*", "### Assignment", "#### *"],
+  guide: ["### Guide: *", "*"],
 };
 
 function forEachHeading(params, handler) {
@@ -52,7 +54,9 @@ module.exports = {
     // don't include names like "projections.md"
     const requiredHeadings = fileName.startsWith("project_")
       ? HEADINGS.project
-      : HEADINGS.lesson;
+      : params.name.includes("_guides/")
+        ? HEADINGS.guide
+        : HEADINGS.lesson;
     const levels = {
       h1: "#",
       h2: "##",
@@ -71,6 +75,7 @@ module.exports = {
     const getExpected = () => requiredHeadings[i++] || "[None]";
     // https://regexr.com/7rf1o to test the following regex:
     const wildcardRegex = new RegExp(/^(#*\s)?\*$/);
+    const prefixWildcardRegex = new RegExp(/^(###\s)(.+):\s\*$/);
 
     forEachHeading(params, (heading, content) => {
       // Report only first instance of TOP004 error
@@ -85,6 +90,21 @@ module.exports = {
 
       // Allow single wildcard heading (https://github.com/DavidAnson/markdownlint/issues/475)
       if (expected === "?") {
+        return;
+      }
+
+      // Handle prefix wildcards like "### Guide: *"
+      const prefixMatch = expected.match(prefixWildcardRegex);
+      if (prefixMatch) {
+        const prefix = prefixMatch[1] + prefixMatch[2] + ": ";
+        if (actual.startsWith(prefix)) {
+          return;
+        }
+        onError({
+          lineNumber: heading.lineNumber,
+          detail: `Expected: heading starting with "${prefix}"; Actual: ${actual}`,
+        });
+        hasError = true;
         return;
       }
 

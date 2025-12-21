@@ -1,3 +1,6 @@
+<!-- markdownlint-disable MD041 -->
+<!-- This file is documentation, not a lesson, so it uses standard markdown heading levels (H1) instead of lesson heading levels (H3) -->
+
 # Layout style guide
 
 Inspired by [Google's style guide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md).
@@ -160,6 +163,24 @@ There are a few lessons where it does not make sense to enforce any particular h
 - `conclusion.md`
 - `conclusion_full_stack_javascript.md`
 - `conclusion_ruby_on_rails.md`
+
+### Guide layout
+
+Guide files are reference content that provide detailed instructions for specific tasks (like OS installations or software setup). They are stored in folders ending with `_guides` (e.g., `installation_guides/`) and are linked from lessons rather than being standalone lessons themselves.
+
+```markdown
+### Guide: DESCRIPTIVE TITLE
+
+GUIDE CONTENT WITH ANY HEADING STRUCTURE.
+```
+
+1. `### Guide: DESCRIPTIVE TITLE`: The first heading must start with `### Guide:` followed by a descriptive title that clearly indicates what the guide covers (e.g., "Virtual Machine installation", "Install Chrome on Linux").
+
+1. After the initial guide heading, any heading structure is allowed. Guide files are flexible and should be structured in whatever way best serves their instructional purpose.
+
+1. Guide files should include a link back to the lesson they're referenced from at the end of the file.
+
+Guide files in `*_guides/` folders are automatically excluded from the standard lesson/project heading structure requirements but still follow all other markdown linting rules.
 
 ## Headings
 
