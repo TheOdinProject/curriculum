@@ -52,18 +52,16 @@ You will need two classes or factories:
 
 Build the following functions in your linked list class / factory:
 
-1. `append(value)` adds a new node containing `value` to the end of the list
-1. `prepend(value)` adds a new node containing `value` to the start of the list
-1. `size()` returns the total number of nodes in the list
-1. `head()` should return the value of the first node in the list. If the list is empty, it should return `undefined`
-1. `tail()` should return the value of the final node in the list. If the list is empty, it should return `undefined`
-1. `at(index)` should return the value of the node at the given index. If there's no node at the given index, it should return `undefined`
-1. `pop()` should remove the head node from the list and return its value. If it's used on an empty list, it should just return `undefined`
+1. `append(value)` adds a new node containing `value` to the end of the list.
+1. `prepend(value)` adds a new node containing `value` to the start of the list.
+1. `size()` returns the total number of nodes in the list.
+1. `head()` should return the value of the first node in the list. If the list is empty, it should return `undefined`.
+1. `tail()` should return the value of the final node in the list. If the list is empty, it should return `undefined`.
+1. `at(index)` should return the value of the node at the given index. If there's no node at the given index, it should return `undefined`.
+1. `pop()` should remove the head node from the list and return its value. If it's used on an empty list, it should just return `undefined`.
 1. `contains(value)` returns true if the passed in value is in the list and otherwise returns false.
 1. `findIndex(value)` returns the index of the node containing the given value. If the value can't be found in the list, it should return `-1`. If more than one node has a value matching the given `value`, it should return the index of the first node with the matching value.
-1. `toString()` represents your LinkedList objects as strings, so you can print them out and preview them in the console.
-    The format should be: `( value ) -> ( value ) -> ( value ) -> null`
-   If the list is empty, it should return an empty string
+1. `toString()` represents your LinkedList objects as strings, so you can print them out and preview them in the console. If the list is empty, it should return an empty string. The format should be: `( value ) -> ( value ) -> ( value ) -> null`.
 
 #### Extra credit
 

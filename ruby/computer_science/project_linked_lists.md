@@ -45,17 +45,16 @@ You will need two classes:
 
 Build the following methods in your linked list class:
 
-1. `#append(value)` adds a new node containing `value` to the end of the list
-1. `#prepend(value)` adds a new node containing `value` to the start of the list
-1. `#size` returns the total number of nodes in the list
-1. `#head` should return the value of the first node in the list. If the list is empty, it should return nil
-1. `#tail` should return the value of the final node in the list. If the list is empty, it should return nil
-1. `#at(index)` should return the value of the node at the given index. If there's no node at the given index, it should return nil
-1. `#pop` should remove the head node from the list and return that node's value. If called on an empty list, it should just return nil
-1. `#contains?(value)` returns true if the passed in value is in the list and otherwise returns false
-1. `#index(value)` returns the index of the node containing the value. If the value isn't found, it should return nil. If more than one node has a value matching the given value, it should return the index of the first node with the matching value
-1. `#to_s` represent your LinkedList objects as strings, so you can print them out and preview them in the console. If the list is empty, it should return an empty string
-    The format should be: `( value ) -> ( value ) -> ( value ) -> nil`
+1. `#append(value)` adds a new node containing `value` to the end of the list.
+1. `#prepend(value)` adds a new node containing `value` to the start of the list.
+1. `#size` returns the total number of nodes in the list.
+1. `#head` should return the value of the first node in the list. If the list is empty, it should return nil.
+1. `#tail` should return the value of the final node in the list. If the list is empty, it should return nil.
+1. `#at(index)` should return the value of the node at the given index. If there's no node at the given index, it should return nil.
+1. `#pop` should remove the head node from the list and return that node's value. If called on an empty list, it should just return nil.
+1. `#contains?(value)` returns true if the passed in value is in the list and otherwise returns false.
+1. `#index(value)` returns the index of the node containing the value. If the value isn't found, it should return nil. If more than one node has a value matching the given value, it should return the index of the first node with the matching value.
+1. `#to_s` represent your LinkedList objects as strings, so you can print them out and preview them in the console. If the list is empty, it should return an empty string. The format should be: `( value ) -> ( value ) -> ( value ) -> nil`.
 
 #### Extra credit
 
@@ -63,7 +62,6 @@ Build the following methods in your linked list class:
 
     ```ruby
     # list that's already set up
-
     puts list
     # => "( 1 ) -> ( 2 ) -> ( 3 ) -> null"
 
