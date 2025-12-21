@@ -65,7 +65,7 @@ Build the following functions in your linked list class / factory:
 
 #### Extra credit
 
-1. `insertAt(value, index)` should insert new nodes with the given values at the given `index`. For example:
+1. `insertAt(index, ...values)` should insert new nodes with the given values at the given `index`. For example:
 
    ```javascript
    // list that's already set up
