@@ -6,10 +6,9 @@ We've been throwing around the term **ES6** since our very first lessons, but we
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Describe what ES6 is.
-- Describe the current ECMAScript release system.
-- Explain some potential issues with browser support for newer JavaScript features.
-- Explain what Babel is.
+- The ECMAScript release system.
+- Some potential issues with browser support for newer JavaScript features.
+- Babel.
 
 ### ECMAScript
 
