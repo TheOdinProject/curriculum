@@ -10,7 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 - Some potential issues with browser support for newer JavaScript features.
 - Babel.
 
-### ECMAScript
+### What is ECMAScript?
 
 JavaScript is just a programming language that conforms to the ECMAScript standard, made by Ecma International, and ES6 is a version of JavaScript that was officially released in the summer of 2015. It included *many* new features that make writing JavaScript much easier and cleaner. In this curriculum, you have already been learning many of these new features because, well, ES6 is *just JavaScript*.
 
@@ -43,7 +43,7 @@ In all honesty, this is *not* something that you are going to need to worry abou
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is ES6?](#ecmascript)
+- [What is ES6?](#what-is-ecmascript)
 - [Since ES6, what release schedule has been used for new ECMAScript versions?](#release-schedule)
 - [Why might someone need to be careful about using brand new JavaScript features?](#browser-support)
 - [What tool can be used to transpile newer JavaScript for older browser support?](#babel)
