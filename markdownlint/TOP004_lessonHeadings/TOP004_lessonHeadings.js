@@ -51,12 +51,15 @@ module.exports = {
       return;
     }
 
-    // don't include names like "projections.md"
-    const requiredHeadings = fileName.startsWith("project_")
-      ? HEADINGS.project
-      : params.name.includes("_guides/")
-        ? HEADINGS.guide
-        : HEADINGS.lesson;
+    const requiredHeadings = (() => {
+      // don't include names like "projections.md"
+      if (fileName.startsWith("project_")) {
+        return HEADINGS.project;
+      } else if (params.name.includes("_guides/")) {
+        return HEADINGS.guide;
+      }
+      return HEADINGS.lesson;
+    })();
     const levels = {
       h1: "#",
       h2: "##",
@@ -75,6 +78,7 @@ module.exports = {
     const getExpected = () => requiredHeadings[i++] || "[None]";
     // https://regexr.com/7rf1o to test the following regex:
     const wildcardRegex = new RegExp(/^(#*\s)?\*$/);
+    // https://regexr.com/8j19m to test the following regex:
     const prefixWildcardRegex = new RegExp(/^(###\s)(.+):\s\*$/);
 
     forEachHeading(params, (heading, content) => {

@@ -2,12 +2,12 @@
 
 #### Step 1: Download Google Chrome
 
-- Open your **Terminal**
-- Run the following command to download latest **Google Chrome** `.deb` package
+1. Open your **Terminal**
+1. Run the following command to download latest **Google Chrome** `.deb` package
 
-```bash
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-```
+   ```bash
+   wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   ```
 
 <div class="lesson-note" markdown="1">
 
@@ -19,13 +19,13 @@ You have probably noticed that the common keyboard shortcut: <kbd>Ctrl</kbd> + <
 
 #### Step 2: Install Google Chrome
 
-- Enter the following command in your terminal to install **Google Chrome** `.deb` package
+1. Enter the following command in your terminal to install **Google Chrome** `.deb` package
 
-  ```bash
-  sudo apt install ./google-chrome-stable_current_amd64.deb
-  ```
+   ```bash
+   sudo apt install ./google-chrome-stable_current_amd64.deb
+   ```
 
-- Enter your password, if needed
+1. Enter your password, if needed
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -60,9 +60,9 @@ You can start chrome in two ways:
 - Click **Google Chrome** from the Applications menu
 - **Or**, use the `google-chrome` command from the terminal
 
-```bash
-google-chrome
-```
+  ```bash
+  google-chrome
+  ```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 

@@ -1,6 +1,3 @@
-<!-- markdownlint-disable MD041 -->
-<!-- This file is documentation, not a lesson, so it uses standard markdown heading levels (H1) instead of lesson heading levels (H3) -->
-
 # Layout style guide
 
 Inspired by [Google's style guide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md).
@@ -155,15 +152,6 @@ OPTIONAL PRE-ASSIGNMENT SECTION CONTENT.
 
 1. `#### Extra credit`: A bulleted list of items that describe any optional add-ons or user stories that might make a user's project stand out. Replace the `AN OPTIONAL ADD-ON/USER STORY.` text with your own add-on, then add any additional bulleted add-on items. **If the project does not have any extra credit items, remove the extra credit section from the assignment.**
 
-### Layout exceptions
-
-There are a few lessons where it does not make sense to enforce any particular heading structure, such as course intro lessons or course conclusions. Lessons with the following exact file names are not required to follow either of the layouts described above:
-
-- `how_this_course_will_work.md`
-- `conclusion.md`
-- `conclusion_full_stack_javascript.md`
-- `conclusion_ruby_on_rails.md`
-
 ### Guide layout
 
 Guide files are reference content that provide detailed instructions for specific tasks (like OS installations or software setup). They are stored in folders ending with `_guides` (e.g., `installation_guides/`) and are linked from lessons rather than being standalone lessons themselves.
@@ -181,6 +169,15 @@ GUIDE CONTENT WITH ANY HEADING STRUCTURE.
 1. Guide files should include a link back to the lesson they're referenced from at the end of the file.
 
 Guide files in `*_guides/` folders are automatically excluded from the standard lesson/project heading structure requirements but still follow all other markdown linting rules.
+
+### Layout exceptions
+
+There are a few lessons where it does not make sense to enforce any particular heading structure, such as course intro lessons or course conclusions. Lessons with the following exact file names are not required to follow either of the layouts described above:
+
+- `how_this_course_will_work.md`
+- `conclusion.md`
+- `conclusion_full_stack_javascript.md`
+- `conclusion_ruby_on_rails.md`
 
 ## Headings
 

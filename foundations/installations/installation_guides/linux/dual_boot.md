@@ -1,7 +1,5 @@
 ### Guide: Dual-boot Ubuntu and Windows
 
-### Read this entire section before starting
-
 Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. Before you continue, be sure to back up any important data and to have a way to ask for help. If you get lost, scared, or stuck, we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi"!
 
 ### Step 1: Download Ubuntu
@@ -20,9 +18,9 @@ Note: You can use this method to try out [different flavors of Ubuntu](https://w
 
 First, you need to boot Ubuntu from your flash drive. The exact steps may vary, but in general, you will need to do the following:
 
-- Insert the flash drive into the computer.
-- Reboot the computer.
-- Select the flash drive as the bootable device instead of the hard drive.
+1. Insert the flash drive into the computer.
+1. Reboot the computer.
+1. Select the flash drive as the bootable device instead of the hard drive.
 
 For example, on a Dell computer, you would need to plug in the flash drive, reboot the computer, and press the F12 key while the computer is first booting up to bring up the boot menu. From there, you can select to boot from the flash drive. Your computer may not be exactly the same, but Google can help you figure it out.
 

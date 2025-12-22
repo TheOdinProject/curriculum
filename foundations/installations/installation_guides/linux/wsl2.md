@@ -16,39 +16,37 @@ Because WSL2 is a full-fledged Linux distribution, almost everything that the cu
 
 #### Step 1.1: Installing WSL2
 
-- Open PowerShell in administrator mode by searching for it in your applications, right clicking the top option, and then selecting run as administrator. You might get a prompt asking if you want to allow Windows Powershell to make changes to your device: click yes.
-- Enter the following command
+1. Open PowerShell in administrator mode by searching for it in your applications, right clicking the top option, and then selecting run as administrator. You might get a prompt asking if you want to allow Windows Powershell to make changes to your device: click yes.
+1. Enter the following command
 
-  ```powershell
-  wsl --install
-  ```
+    ```powershell
+    wsl --install
+    ```
 
-- After a few minutes you'll be prompted to reboot your computer; do so.
-- You should see an open Powershell window, prompting you to enter a username and a password. Your username should be lowercase, but can otherwise be whatever suits you. You'll also need to enter a new password.
-- When entering your password you might notice that you aren't seeing any visual feedback. This is a standard security feature in Linux, and will also happen in all future cases where you need to enter a password. Just type your password and hit <kbd>Enter</kbd>.
+1. After a few minutes you'll be prompted to reboot your computer; do so.
+1. You should see an open Powershell window, prompting you to enter a username and a password. Your username should be lowercase, but can otherwise be whatever suits you. You'll also need to enter a new password.
+1. When entering your password you might notice that you aren't seeing any visual feedback. This is a standard security feature in Linux, and will also happen in all future cases where you need to enter a password. Just type your password and hit <kbd>Enter</kbd>.
 
 #### Step 1.2.1: Install Windows Terminal (Windows 10 only)
 
-Windows Terminal is a terminal application that lets you more easily customize and run terminals, as well as supporting multiple tabs which can each run their own different terminals.
-
-- [Install Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install) by using the direct install option.
+Windows Terminal is a terminal application that lets you more easily customize and run terminals, as well as supporting multiple tabs which can each run their own different terminals. [Install Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install) by using the direct install option.
 
 #### Step 1.2.2: Setting WSL2 as default (Optional)
 
 Unless you are regularly using other terminals on your computer we recommend that you set WSL2 as the default terminal program when you open Windows Terminal.
 
-- Open Windows Terminal by searching for terminal in your applications.
-- Click the dropdown next to the new tab button (at the top of the windows), and select Settings.
-- You should see a Default Profile option with a dropdown next to it.
-- In the dropdown select Ubuntu.
-- Click save at the bottom of the page.
+1. Open Windows Terminal by searching for terminal in your applications.
+1. Click the dropdown next to the new tab button (at the top of the windows), and select Settings.
+1. You should see a Default Profile option with a dropdown next to it.
+1. In the dropdown select Ubuntu.
+1. Click save at the bottom of the page.
 
 ### Step 2 Opening WSL2
 
 On Windows there are three primary ways to open WSL2.
 
 - If you set Windows Terminal to open a Ubuntu terminal by default you can start a new WSL2 session by opening the terminal app.
-- Otherwise you can open Windows Terminal, click the dropdown next to the new tab button (at the top of the windows), and select Ubuntu.
+- You can open Windows Terminal, click the dropdown next to the new tab button (at the top of the windows), and select Ubuntu.
 - If you search for Ubuntu in the application search bar you should see a application titled Ubuntu; open it to start a new terminal session.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
