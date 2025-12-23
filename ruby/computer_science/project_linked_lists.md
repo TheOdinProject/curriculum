@@ -58,7 +58,7 @@ Build the following methods in your linked list class:
 
 #### Extra credit
 
-1. `#insert_at(value, index)` should insert new nodes with the given values at the given index. For example:
+1. `#insert_at(index, *values)` should insert new nodes with the given values at the given index. For example:
 
     ```ruby
     # list that's already set up
