@@ -1,6 +1,6 @@
 ### Introduction
 
-This lesson will explain the importance of good commit messages, how to write them, when to commit, and why having a history of good commits is so important!
+This lesson is about Git and while could have been placed in the Git Basics section you finished earlier, learning about good commit messages practices is paramount to not only future projects, but also as you work professionally as a web developer. This lesson will explain the importance of good commit messages, how to write them, when to commit, and why having a history of good commits is so important!
 
 ### Lesson overview
 
