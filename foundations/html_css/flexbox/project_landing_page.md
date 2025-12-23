@@ -38,8 +38,8 @@ Don't forget to commit early & often! You can [reference the Commit Message less
 1. You do **not** need to make this project responsive. That means you don't have to adjust your design for different screen sizes, zoom levels, or mobile devices. For now, just focus on making it look good on a regular computer screen. You'll learn how to handle different screen sizes later.
 1. When you finish, don't forget to push it up to GitHub!
 
-</div>
-
-### Viewing your project on the web
+#### Viewing your project on the web
 
 To share your website with others, you'll need to **deploy it using GitHub Pages**. The full instructions for this process can be found in the [Recipes project](https://www.theodinproject.com/lessons/foundations-recipes#viewing-your-project-on-the-web) lesson.
+
+</div>
