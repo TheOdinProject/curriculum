@@ -15,40 +15,31 @@ This section contains a general overview of topics that you will learn in this l
 
 Cssbundling-rails currently comes with installation support for five different tools for bundling and processing your CSS.
 
-1. [Bootstrap](https://getbootstrap.com/)
-This is probably one of the most famous libraries used to get going with the look and feel of a new application when you need a proof of concept.
-
-2. [Bulma](https://bulma.io/)
-An alternative to Bootstrap. Has opinionated styling to get you up and running when you don't have good CSS knowledge to design your own sites.
-
-3. [Dart Sass](https://sass-lang.com/dart-sass)
-The current hot flavour of processing sass files. A way to add additional CSS features to extend what you can do.
-
-4. [PostCSS](https://postcss.org/)
-A tool for transforming CSS by using Javascript. It allows you to do things like use future CSS features not supported in all browsers or use one of the many PostCSS plugins to enhance your CSS.
-
-5. [Tailwind CSS](https://tailwindcss.com/)
-A utility-first CSS framework. It works similarly to Bootstrap in that you add CSS to your application by adding classes to your HTML. Where it differs is Tailwind is not a way to avoid understanding CSS but instead allows you to build up your design by using reusable classes that do only one thing. It's moving the CSS to the markup instead of under a class name in your CSS files. You'll either love it or hate it.
+1. [Bootstrap](https://getbootstrap.com/): This is probably one of the most famous libraries used to get going with the look and feel of a new application when you need a proof of concept.
+1. [Bulma](https://bulma.io/): An alternative to Bootstrap. Has opinionated styling to get you up and running when you don't have good CSS knowledge to design your own sites.
+1. [Dart Sass](https://sass-lang.com/dart-sass): The current hot flavour of processing sass files. A way to add additional CSS features to extend what you can do.
+1. [PostCSS](https://postcss.org/): A tool for transforming CSS by using JavaScript. It allows you to do things like use future CSS features not supported in all browsers or use one of the many PostCSS plugins to enhance your CSS.
+1. [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework. It works similarly to Bootstrap in that you add CSS to your application by adding classes to your HTML. Where it differs is Tailwind is not a way to avoid understanding CSS but instead allows you to build up your design by using reusable classes that do only one thing. It's moving the CSS to the markup instead of under a class name in your CSS files. You'll either love it or hate it.
 
 ### Installation
 
 For a new Rails 7 app installation is as straightforward as a command line argument when creating the app
 
-~~~bash
+```bash
 rails new myapp --css [tailwind|bootstrap|bulma|postcss|sass]
-~~~
+```
 
 So if you wanted to use Bootstrap you'd run
 
-~~~bash
+```bash
 rails new myapp --css bootstrap
-~~~
+```
 
-For an existing application you just need to follow the following steps
+For an existing application you just need to follow the following steps:
 
-* Add `gem 'cssbundling-rails'` to your Gemfile
-* Run `bundle install` in the command line
-* Use the generator provided by the gem to install the tooling you need `./bin/rails css:install:[tailwind|bootstrap|bulma|postcss|sass]`, so again using Bootstrap as an example you'd write `./bin/rails css:install:bootstrap`.
+1. Add `gem 'cssbundling-rails'` to your Gemfile
+1. Run `bundle install` in the command line
+1. Use the generator provided by the gem to install the tooling you need `./bin/rails css:install:[tailwind|bootstrap|bulma|postcss|sass]`, so again using Bootstrap as an example you'd write `./bin/rails css:install:bootstrap`.
 
 That's all there is to it.
 
@@ -76,9 +67,19 @@ If you find yourself wanting more than the standard Rails way of producing style
 
 ### Assignment
 
-There isn't much more to what we've covered above but there are a couple of ideas below
+There isn't much more to what we've covered above, but there are a couple of ideas below.
 
 <div class="lesson-content__panel" markdown="1">
+
   1. Read the [cssbundling-rails gem's README](https://github.com/rails/cssbundling-rails) as the FAQ has some information about using the gem and it gets updated from time to time with new information.
-  2. If you are interested in using any of the tools it offers, go to the relevant website and see how you can get started using it in your own applications.
+  1. If you are interested in using any of the tools it offers, go to the relevant website and see how you can get started using it in your own applications.
+
 </div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What tools can you choose with cssbundling-rails gem?](#cssbundling-tooling-options)
+- [How does cssbundling-rails gem work?](#build-script)
+- [Why should you use CSS bundling gem?](#why-use-css-bundling)
