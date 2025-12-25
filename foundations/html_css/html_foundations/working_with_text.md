@@ -155,7 +155,7 @@ In the following example, the body element is the parent and the paragraph is th
 
 Just as in human relationships, HTML parent elements can have many children.  <span id='elements-same-level'>Elements at the same level of nesting are considered to be siblings.</span>
 
-For example, the two paragraphs in the following code are siblings, since they are both children of the body tag and are at the same level of nesting as each other:
+For example, the two paragraphs in the following code are siblings, since they are both children of the body element and are at the same level of nesting as each other:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="ZEybrYx" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
