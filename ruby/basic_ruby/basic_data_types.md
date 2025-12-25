@@ -265,6 +265,14 @@ nil.to_s #=> ""
 :symbol.to_s #=> "symbol"
 ```
 
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Mutating operations with string literals
+
+Be careful of performing any operations that mutate string literals, as Ruby will soon not allow this anymore.
+
+</div>
+
 ### Symbols
 
 Symbols are an interesting twist on the idea of a string. The full explanation can be a bit long, but here's the short version:
