@@ -60,7 +60,7 @@ module.exports = {
         onError({
           lineNumber: tokensAfterLinkOpen[0].lineNumber,
           detail: containsThisOrHere
-            ? `Expected text to not include the words "this" or "here". Use a more descriptive text that clearly conveys the purpose or content of the link.`
+            ? `Expected text to not include the words "this" or "here". Use a more descriptive label that clearly conveys the purpose or content of the link.`
             : `"${linkContentString}" is not sufficiently descriptive by itself. Use a more descriptive label that clearly conveys the purpose or content of the link.`,
           context: `[${linkContentString}](${linkUrl})`,
         });
