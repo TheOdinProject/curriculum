@@ -119,7 +119,7 @@ The HTML boilerplate in the `index.html` file is complete at this point, but how
 - You can use the terminal to open the file in your browser:
   - Ubuntu: Navigate to the directory containing the file and type `google-chrome index.html`
   - macOS: Navigate to the directory containing the file and type `open ./index.html`
-  - WSL: Navigate to the directory containing the file and type `explorer.exe index.html`. Note, this will open up the file in the default browser your system uses.
+  - WSL: Navigate to the directory containing the file and type `explorer.exe index.html`. This will open the file in your system's default browser. Note, You must use the filename only. Using a path (e.g., `./index.html` or an absolute path) will open the Windows File Explorer instead.
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
