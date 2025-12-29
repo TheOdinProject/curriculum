@@ -43,7 +43,7 @@ Google Chrome includes powerful developer tools that you'll use throughout this 
    - [Virtual Machine (Recommended)](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/virtual_machine.md) - The easiest and most reliable way to get started. A VM runs inside your current OS like Windows.
    - [Ubuntu/Windows Dual-Boot](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/dual_boot.md) - Install Ubuntu alongside Windows on your computer.
    - [ChromeOS/ChromeOS Flex](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/chromeos.md) - Instructions for Chromebook users.
-   - [WSL2 (Advanced)](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/wsl2.md) - Run Linux from within Windows. Can cause confusion for new learners.
+   - [WSL2 (Advanced)](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/linux/wsl2.md) - Run Linux from within Windows. Can cause confusion for new learners due to less clear separation between operating systems.
 
    <div class="lesson-note lesson-note--warning" markdown="1">
 
