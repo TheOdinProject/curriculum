@@ -7,7 +7,6 @@ const exceptedLessons = [
   "conclusion.md",
   "conclusion_full_stack_javascript.md",
   "conclusion_ruby_on_rails.md",
-  "LAYOUT_STYLE_GUIDE.md",
 ];
 
 const HEADINGS = {
