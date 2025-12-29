@@ -19,9 +19,9 @@ Because WSL2 is a full-fledged Linux distribution, almost everything that the cu
 1. Open PowerShell in administrator mode by searching for it in your applications, right clicking the top option, and then selecting run as administrator. You might get a prompt asking if you want to allow Windows Powershell to make changes to your device: click yes.
 1. Enter the following command
 
-    ```powershell
-    wsl --install
-    ```
+   ```powershell
+   wsl --install
+   ```
 
 1. After a few minutes you'll be prompted to reboot your computer; do so.
 1. You should see an open Powershell window, prompting you to enter a username and a password. Your username should be lowercase, but can otherwise be whatever suits you. You'll also need to enter a new password.
