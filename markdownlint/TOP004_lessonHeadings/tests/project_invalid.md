@@ -1,6 +1,6 @@
 ### Introduction
 
-This file should not be flagged with any errors.
+This file should flag a TOP004 error due to a missing assignment assignment section.
 
 ### Custom section
 
