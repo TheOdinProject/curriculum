@@ -54,6 +54,7 @@ module.exports = {
       onError({
         lineNumber: heading.lineNumber,
         detail: `Expected a level 4 heading (####) but got a level ${heading.hashes.length} heading (${heading.hashes}) instead.`,
+        context: heading.text,
         fixInfo: {
           editColumn: hashesStartColumn,
           deleteCount: heading.hashes.length,
