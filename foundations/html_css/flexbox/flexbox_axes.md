@@ -45,6 +45,14 @@ We've strayed from the point slightly... We were talking about flex-direction an
 
 There are situations where the behavior of `flex-direction` could change if you are using a language that is written right-to-left or even vertically, but you should not worry about that until you are ready to start making a website in Arabic or Manchu.
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. As always, MDN docs will be your go-to, so have a look at the [MDN docs for `flex-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-direction) and their examples.
+
+</div>
+
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
