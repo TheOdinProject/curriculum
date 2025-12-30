@@ -76,11 +76,9 @@ Because of this, you may want to add a separate npm script that doesn't use the 
 
 #### dotenv
 
-[dotenv](https://www.npmjs.com/package/dotenv) is one of the most common ways to load environment variables.
+Node did not always have built-in support for environment variable files. You will likely see libraries like [dotenv](https://www.npmjs.com/package/dotenv) used out in the wild. The principle will be the same as the built-in feature, just with whatever library-specific instructions are required. Such libraries may also offer more sophisticated features that Node does not have built-in, which may be of benefit to teams working on more complex projects, but as far as TOP goes, they won't be necessary.
 
-You can now just run your code with `node index.js` and dotenv will handle all the loading for you. Note that dotenv isn't the only way to handle environment variables and security. Projects where a whole team needs synced access to the same environment variables, or otherwise more complex applications, may benefit from more robust and flexible options. For this course, dotenv should serve our needs more than well.
-
-Awesome! You can load environment variables now, but how do you actually access them in your code?
+Anyway, awesome! You can load environment variables now, but how do you actually access them in your code?
 
 ### Accessing environment variables
 
