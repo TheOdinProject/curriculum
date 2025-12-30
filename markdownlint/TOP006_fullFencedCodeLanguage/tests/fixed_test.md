@@ -12,18 +12,18 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
-Valid div due to each tag being surrounded by blank lines.
+Assignment
 
 </div>
 
 #### Custom section
 
-```js
+```javascript
 console.log("This code block should flag an error as it uses "js" instead of "javascript".");
 ```
 
 <!-- markdownlint-disable TOP008 -->
-~~~js
+~~~javascript
 console.log("The rule will still flag even if tilde delimiters are used");
 ~~~
 <!-- markdownlint-enable TOP008 -->
@@ -42,7 +42,7 @@ sh => bash
 yml => yaml
 ```
 
-```rb
+```ruby
 puts "Example of rb flagging."
 ```
 
@@ -50,11 +50,11 @@ puts "Example of rb flagging."
 puts "Use the full name!"
 ```
 
-```txt
+```text
 As does txt.
 ```
 
-```yml
+```yaml
 description: This will flag
 ```
 
@@ -62,7 +62,7 @@ description: This will flag
 description: Unless you use the full name
 ```
 
-```sh
+```bash
 prefer --bash-over-sh
 ```
 
@@ -85,15 +85,15 @@ like --this
 {isExempt && <p>No error here!</p>}
 ```
 
-````md
-```js
+````markdown
+```javascript
 console.log("Flags abbreviated names even with nested code blocks.");
 ```
 ````
 
 1. List item
 
-   ```js
+   ```javascript
    console.log("Flags abbreviated names even with indented code blocks.");
    ```
 

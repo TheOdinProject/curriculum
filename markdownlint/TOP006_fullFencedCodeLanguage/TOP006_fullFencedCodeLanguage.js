@@ -42,7 +42,7 @@ module.exports = {
     fencesWithAbbreviatedName.forEach((fence) => {
       onError({
         lineNumber: fence.lineNumber,
-        detail: `Expected: ${fence.fullName}; Actual: ${fence.abbreviatedName} `,
+        detail: `Expected: ${fence.fullName}; Actual: ${fence.abbreviatedName}`,
         context: fence.text,
         fixInfo: {
           editColumn: fence.languageStartingColumn,
