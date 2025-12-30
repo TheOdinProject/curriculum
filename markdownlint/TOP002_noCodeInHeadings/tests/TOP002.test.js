@@ -35,6 +35,16 @@ describe("TOP002", () => {
   });
 
   describe("Fix", () => {
+    it("Does not flag TOP002 in the fixed test md file", async () => {
+      const file = "./fixed_test.md";
+      const lintErrors = await getLintErrors(file);
+
+      assert(
+        lintErrors.every((error) => !error.includes(expected.name)),
+        `"${file}" contains TOP002 errors`,
+      );
+    });
+
     it("Strips inline code blocks in headings", async () => {
       const fixedFileContents = await fixLintErrors("./test.md");
       const correctFile = await readFile(join(__dirname, "./fixed_test.md"));

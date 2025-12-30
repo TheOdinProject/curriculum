@@ -36,6 +36,16 @@ describe("TOP010", () => {
   });
 
   describe("Fix", () => {
+    it("Does not flag TOP010 in the fixed test md file", async () => {
+      const file = "./fixed_test.md";
+      const lintErrors = await getLintErrors(file);
+
+      assert(
+        lintErrors.every((error) => !error.includes(expected.name)),
+        `"${file}" contains TOP010 errors`,
+      );
+    });
+
     it("Replaces non-1 ordered list prefixes with 1", async () => {
       const fixedFileContents = await fixLintErrors("./test.md");
       const correctFile = await readFile(join(__dirname, "./fixed_test.md"));
