@@ -80,6 +80,14 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 
 ![complex example](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png)
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Surprise! No assignment! You'll be learning a lot more throughout the coming lessons so keep going.
+
+</div>
+
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
