@@ -10,34 +10,6 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Custom section
 
-#### Non-note box level 4 headings will not flag this error
-
-Custom subsection contents.
-
-<div class="lesson-note" markdown="1">
-
-#### Level 4 note box heading: Correct and will not flag error
-
-Note box contents.
-
-</div>
-
-<div class="lesson-note" markdown="1">
-
-### Level 3 note box heading: Will flag error as it should be level 4
-
-Note box contents.
-
-</div>
-
-<div class="lesson-note" markdown="1">
-
-## Level 2 note box heading: Will flag error as it should be level 4
-
-Note box contents.
-
-</div>
-
 <div class="lesson-note" markdown="1">
 
 Note boxes without a heading will flag a missing heading error

@@ -38,12 +38,6 @@ Note box contents.
 
 </div>
 
-<div class="lesson-note" markdown="1">
-
-Note boxes without a heading will flag a missing heading error
-
-</div>
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
