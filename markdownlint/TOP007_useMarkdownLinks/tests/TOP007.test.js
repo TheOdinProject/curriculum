@@ -45,6 +45,16 @@ describe("TOP007", () => {
   });
 
   describe("Fix", () => {
+    it("Does not flag TOP007 in the fixed test md file", async () => {
+      const file = "./fixed_anchors_in_markdown.md";
+      const lintErrors = await getLintErrors(file);
+
+      assert(
+        lintErrors.every((error) => !error.includes(expected.name)),
+        `"${file}" contains TOP007 errors`,
+      );
+    });
+
     it("Converts flagged anchors to markdown links", async () => {
       const fixedFileContents = await fixLintErrors("./anchors_in_markdown.md");
       const correctFile = await readFile(

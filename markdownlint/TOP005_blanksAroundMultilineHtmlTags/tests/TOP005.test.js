@@ -53,6 +53,16 @@ describe("TOP005", () => {
   });
 
   describe("Fix", () => {
+    it("Does not flag TOP005 in the fixed test md file", async () => {
+      const file = "./fixed_flagged_tags.md";
+      const lintErrors = await getLintErrors(file);
+
+      assert(
+        lintErrors.every((error) => !error.includes(expected.name)),
+        `"${file}" contains TOP005 errors`,
+      );
+    });
+
     it("Wraps flagged multiline HTML tags with missing blank lines", async () => {
       const fixedFileContents = await fixLintErrors("./flagged_tags.md");
       const correctFile = await readFile(

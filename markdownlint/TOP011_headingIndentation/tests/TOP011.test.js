@@ -35,6 +35,16 @@ describe("TOP011", () => {
   });
 
   describe("Fix", () => {
+    it("Does not flag TOP011 in the fixed test md file", async () => {
+      const file = "./fixed_test.md";
+      const lintErrors = await getLintErrors(file);
+
+      assert(
+        lintErrors.every((error) => !error.includes(expected.name)),
+        `"${file}" contains TOP011 errors`,
+      );
+    });
+
     it("Fixes incorrect heading indentation", async () => {
       const fixedFileContents = await fixLintErrors("./test.md");
       const correctFile = await readFile(join(__dirname, "./fixed_test.md"));

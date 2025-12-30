@@ -42,6 +42,16 @@ describe("TOP006", () => {
   });
 
   describe("Fix", () => {
+    it("Does not flag TOP006 in the fixed test md file", async () => {
+      const file = "./fixed_test.md";
+      const lintErrors = await getLintErrors(file);
+
+      assert(
+        lintErrors.every((error) => !error.includes(expected.name)),
+        `"${file}" contains TOP006 errors`,
+      );
+    });
+
     it("Replaces abbreviated code block languages with full name", async () => {
       const fixedFileContents = await fixLintErrors("./test.md");
       const correctFile = await readFile(join(__dirname, "./fixed_test.md"));
