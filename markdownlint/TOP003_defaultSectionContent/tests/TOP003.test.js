@@ -77,16 +77,26 @@ describe("TOP003", () => {
       ]);
     });
 
-    it("Flags when ordered or nested lists are used for unordered list sections", async () => {
-      const filePath = "./nested_and_ordered_list.md";
+    it("Flags when ordered list used instead of unordered list", async () => {
+      const filePath = "./ordered_list.md";
+      const errorPath = join(pathInRepo, filePath);
+      const lintErrors = await getLintErrors(filePath);
+
+      assert.deepEqual(lintErrors, [
+        `${errorPath}:27 error ${expected.name} ${expected.description} [The knowledge check section must not include any ordered lists.]`,
+        `${errorPath}:27 error ${expected.name} ${expected.description} [Must include an unordered list of knowledge checks in the "knowledge check" section]`,
+        `${errorPath}:28 error ${expected.name} ${expected.description} [The knowledge check section must not include any ordered lists.]`,
+      ]);
+    });
+
+    it("Flags when list section contains a nested list", async () => {
+      const filePath = "./nested_list.md";
       const errorPath = join(pathInRepo, filePath);
       const lintErrors = await getLintErrors(filePath);
 
       assert.deepEqual(lintErrors, [
         `${errorPath}:10 error ${expected.name} ${expected.description} [The lesson overview section must not contain nested lists.]`,
-        `${errorPath}:29 error ${expected.name} ${expected.description} [The knowledge check section must not include any ordered lists.]`,
-        `${errorPath}:29 error ${expected.name} ${expected.description} [Must include an unordered list of knowledge checks in the "knowledge check" section]`,
-        `${errorPath}:30 error ${expected.name} ${expected.description} [The knowledge check section must not include any ordered lists.]`,
+        `${errorPath}:36 error ${expected.name} ${expected.description} [The additional resources section must not contain nested lists.]`,
       ]);
     });
 
@@ -99,12 +109,27 @@ describe("TOP003", () => {
   });
 
   describe("Fix", () => {
+    it("Does not flag any TOP003 errors in any fixed test md file", async () => {
+      const fixedTestMarkdownFiles = [
+        "./fixed_ordered_list.md",
+        "./fixed_incorrect_content.md",
+        "./fixed_content_around_list.md",
+      ];
+
+      for (const file of fixedTestMarkdownFiles) {
+        const lintErrors = await getLintErrors(file);
+
+        assert(
+          lintErrors.every((error) => !error.includes(expected.name)),
+          `"${file}" contains TOP003 errors`,
+        );
+      }
+    });
+
     it("Converts ordered lists to unordered lists", async () => {
-      const fixedFileContents = await fixLintErrors(
-        "./nested_and_ordered_list.md",
-      );
+      const fixedFileContents = await fixLintErrors("./ordered_list.md");
       const correctFile = await readFile(
-        join(__dirname, "./fixed_nested_and_ordered_list.md"),
+        join(__dirname, "./fixed_ordered_list.md"),
       );
 
       assert.equal(fixedFileContents, correctFile.toString());

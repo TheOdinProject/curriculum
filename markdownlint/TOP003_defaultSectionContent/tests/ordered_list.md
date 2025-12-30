@@ -7,8 +7,6 @@ Text content
 This section contains a general overview of topics that you will learn in this lesson.
 
 - An item.
-  - A nested item that should flag an error.
-- Unnested list item.
 
 ### Custom section
 
