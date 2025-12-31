@@ -62,7 +62,7 @@ VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0"
 
 **This file must be added to your `.gitignore` file** to keep secrets safe from being published!
 
-You can now run your app in Node and just tell if where your environment variable file is, like `node --env-file=.env index.js`, allowing Node to load the values before running (and throw an error if it can't find the file).
+You can now run your app in Node and just tell it where your environment variable file is: `node --env-file=.env index.js`, allowing Node to load the values before running your app (and throw an error if it can't find the environment variable file).
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
