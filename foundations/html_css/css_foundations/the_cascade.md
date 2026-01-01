@@ -202,6 +202,7 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 
 <div class="lesson-content__panel" markdown="1">
 
+1. [The CSS Cascade](https://2019.wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied.
 1. Complete the exercise in our [CSS exercises repository's `foundations/cascade` directory](https://github.com/TheOdinProject/css-exercises/tree/main/foundations/cascade) (remember that the instructions are in the README):
    - `01-cascade-fix`
 
@@ -214,12 +215,3 @@ For an element that has both the `alert` and `warning` classes, the cascade woul
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?](#high-specificity-class-type)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [The CSS Cascade](https://2019.wattenberger.com/blog/css-cascade) is a great, interactive read that goes a little more in detail about other factors that affect what CSS rules actually end up being applied.
-- [CSS Specificity Explained](https://www.youtube.com/watch?v=c0kfcP_nD9E) from Kevin Powell goes through various specificity examples and gives some advice on avoiding wrestling with specificity.
-- [CSS Specificity Calculator](https://specificity.keegan.st/) allows you to fill in your own selectors and have their specificity calculated and visualized.
-- [Interactive Scrim on the CSS Cascade.](https://v1.scrimba.com/scrim/c9gwmnAR)
