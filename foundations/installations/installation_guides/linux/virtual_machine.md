@@ -38,7 +38,7 @@ This is how your installation window should look like after turning it off:
 
 ![You want the Python option to have a scarlet "X" on it](../../installations/imgs/02_c_install.png)
 
-Make sure you install the application on `C:` drive, as it has tendency to error out otherwise. The virtual machine itself can be installed anywhere but we'll get to that soon.
+Make sure you install the application on `C:` drive, as it has a tendency to error out otherwise. The virtual machine itself can be installed anywhere but we'll get to that soon.
 As the software installs, the progress bar might appear to be stuck; just wait for it to finish.
 
 #### Step 2.2: Prepare VirtualBox for Xubuntu
