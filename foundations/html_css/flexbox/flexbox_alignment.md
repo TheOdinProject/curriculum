@@ -62,6 +62,7 @@ Take your time going through the reading. There will be some review of the items
 
 1. This beautiful [Interactive Guide to Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/) covers everything you need to know. It will help reinforce concepts we've already touched on with some really fun and creative examples. Spend some time here, some of it should be review at this point, but the foundations here are important!
 1. The [CSS Tricks "Guide to Flexbox"](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) is a classic. The images and examples are super helpful. It would be a good idea to review parts 1-3 and part 5 (don't worry about the media query parts, we will cover them later in the course) and then bookmark it as a great cheat sheet for future reference (keep it handy for the practice exercises).
+1. Complete [Flexbox Froggy](https://flexboxfroggy.com/), which is a funny little game to practice moving things around with flexbox.
 1. Do the exercises in our [CSS exercises repository's `foundations/flex` directory](https://github.com/TheOdinProject/css-exercises/tree/main/foundations/flex) (remember that the instructions are in the README) in the order:
     - `01-flex-center`
     - `02-flex-header`
@@ -72,7 +73,7 @@ Take your time going through the reading. There will be some review of the items
     - `07-flex-layout-2`
 
     Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
-1. [Flexbox Froggy](https://flexboxfroggy.com/) is a funny little game for practicing moving things around with flexbox.
+
 </div>
 
 ### Knowledge check
