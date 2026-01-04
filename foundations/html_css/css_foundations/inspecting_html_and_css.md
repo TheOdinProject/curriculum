@@ -50,9 +50,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you select a specific element on your page with your browser’s developer tools?](#inspecting-elements)
 - [What does a strikethrough in a CSS declaration mean in your browser’s developer tools?](#strikethrough)
 - [How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?](#testing-styles-in-the-inspector)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This article about how we can [utilize CSS overview in the developer tools](https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/) to check the colors, font styles, media-queries, etc. used on a particular webpage.

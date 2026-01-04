@@ -168,7 +168,7 @@ As you go through the assignments you will come across more terminology like `sp
 1. Do the exercise in our [CSS exercises repository's `intermediate-html-css/positioning-grid` directory](https://github.com/TheOdinProject/css-exercises/tree/main/intermediate-html-css/positioning-grid) (don't forget that the instructions are in the README):
    - `01-basic-holy-grail`
 
-   Note: When doing this exercise, please use all the documentation and resources you need to accomplish it. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use Google, do what you need to do (besides checking the solutions) to get them done.
+   Note: When doing this exercise, please use all the documentation and resources you need to accomplish it. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use Google, do what you need to do (besides checking the solutions) to get it done.
 
 </div>
 

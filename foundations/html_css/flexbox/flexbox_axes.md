@@ -45,6 +45,14 @@ We've strayed from the point slightly... We were talking about flex-direction an
 
 There are situations where the behavior of `flex-direction` could change if you are using a language that is written right-to-left or even vertically, but you should not worry about that until you are ready to start making a website in Arabic or Manchu.
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. As always, MDN docs will be your go-to, so have a look at the [MDN docs for `flex-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-direction) and their examples.
+
+</div>
+
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
@@ -53,11 +61,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [In a `column` flex-container, what does `flex-basis` refer to?](#column-flex-basis)
 - [In a `row` flex-container, what does `flex-basis` refer to?](#row-flex-basis)
 - [Why do the previous two questions have different answers?](#flex-axes)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This [flexbox visual cheatsheet](https://flexbox.malven.co/) has some useful references to flex and its properties.
-
-- For an interactive demo, check out this [Scrim on Flexbox axes](https://scrimba.com/learn/flexbox/main-axis-and-cross-axis-flexbox-tutorial-cz94MT8). Note that this Scrim requires logging into Scrimba in order to view.

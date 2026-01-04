@@ -26,6 +26,8 @@ Flexbox is a way to arrange items into rows or columns. These items will flex (i
 
 <div class="lesson-note" markdown="1">
 
+#### Interactive CodePens
+
 We've embedded a lot of interactive examples in these lessons. Take your time to experiment with them as you go to cement the concepts in your mind!
 
 </div>
@@ -44,6 +46,8 @@ We'll get into exactly what's going on here soon enough. But for now, let's unco
 
 <div class="lesson-note" markdown="1">
 
+#### Comments
+
 Comments prevent the browser from interpreting lines as code, and are wrapped between specific tags. CSS uses `/*`as an opening comment tag and `*/` as a closing comment tag, while HTML and JavaScript have their own syntax. Commented out lines of code can be 're-enabled' by removing the comment tags surrounding the code.
 
 </div>
@@ -53,6 +57,8 @@ All 3 divs should now be arranged horizontally. If you resize the results frame 
 If you add another div to the HTML, inside of `.flex-container`, it will show up alongside the others, and everything will flex to fit within the available area.
 
 <div class="lesson-note" markdown="1">
+
+#### Opening CodePens externally
 
 If it's hard to see what's going on in the small embedded CodePen, feel free to click the "Edit on CodePen" or "Fork on CodePen" button. This will bring the example into a full-sized environment. Some of the later examples might especially benefit from doing this.
 
@@ -74,17 +80,17 @@ Creating and nesting multiple flex containers and items is the primary way we wi
 
 ![complex example](https://cdn.statically.io/gh/TheOdinProject/curriculum/495704c6eb6bf33bc927534f231533a82b27b2ac/html_css/v2/foundations/flexbox/imgs/05.png)
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Surprise! No assignment! You'll be learning a lot more throughout the coming lessons so keep going.
+
+</div>
+
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What's the difference between a flex container and a flex item?](#flex-container-item-knowledge-check)
 - [How do you create a flex item?](#how-to-create-flex-item-knowledge-check)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Interneting Is Hard has a tutorial on [modern CSS layouts with flexbox](https://internetingishard.netlify.app/html-and-css/flexbox/index.html).
-- Slaying the dragon tutorial on [Flexbox in 8 minutes](https://youtu.be/phWxA89Dy94?si=UOXlsTa0BMfQYG3q).
-- For a more interactive explanation and example, try this [Scrim on Flexbox](https://scrimba.com/learn/flexbox/your-first-flexbox-layout-flexbox-tutorial-canLGCw). Note that this Scrim requires logging into Scrimba in order to view.
