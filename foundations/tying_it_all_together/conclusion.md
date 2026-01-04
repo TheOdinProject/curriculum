@@ -54,9 +54,3 @@ Feel free to share the results in chat!
 Get ready, because this is only the beginning. Now it's time to delve deeper into the areas covered by Foundations. There are some fantastic projects in the courses that follow which will challenge you to the limit, but you'll come out the other side ready to go and make your mark in the programming world.
 
 The journey has just begun!
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- If you are still confused, check out this article to get more facts, pros and cons about both languages [Ruby on Rails vs JavaScript](https://cloudinfrastructureservices.co.uk/ruby-on-rails-vs-javascript-whats-the-difference/).
