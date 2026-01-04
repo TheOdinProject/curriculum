@@ -116,7 +116,7 @@ function createUser (name) {
 
 <div class="lesson-note" markdown="1">
 
-### The object shorthand notation
+#### The object shorthand notation
 
 Some may get confused by the way the returned object is written in the factory function example. In 2015, a shortcut to creating objects was added to JavaScript. Say we wanted to create an object with a name, age, and color, we would write it as follows:
 
@@ -238,6 +238,8 @@ function createPlayer (name, level) {
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
 
+#### ECMAScript 6 modules
+
 ECMAScript 6 introduced a new JavaScript feature called "modules" - which are a set of syntax for importing and exporting code between different JavaScript files. While they are important and powerful, they are covered a bit later in the curriculum. We are not talking about them in this section.
 
 </div>
@@ -276,7 +278,6 @@ Take the calculator example into consideration. It's very easy to imagine a scen
    - [The article on scope](https://wesbos.com/javascript/03-the-tricky-bits/scope)
    - [The article on closures](https://wesbos.com/javascript/03-the-tricky-bits/closures)
 1. Read this article on [module pattern in JavaScript](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm) by Tomek Buszewski.
-1. This [YouTube series on module pattern](https://www.youtube.com/playlist?list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f) covers most of the content that we have discussed. Note that the videos include jQuery, but you don't need to understand the jQuery syntax since the focus is on the module pattern concept.
 
 </div>
 
