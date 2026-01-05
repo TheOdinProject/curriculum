@@ -84,7 +84,7 @@ If we want to add more columns or rows to our grid, we can define these values t
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-CSS Grid also includes a shorthand property for defining rows and columns. In our previous example we can replace the properties for `grid-template-rows` and `grid-template-columns` with the shorthand `grid-template` property. Here we can define our rows and columns all at once. For this property, rows are defined before the slash and columns are defined after the slash. Let’s keep the same column and row values, but use the shorthand property instead:
+CSS Grid also includes a shorthand property for defining rows and columns. In our previous example, we can replace the properties for `grid-template-rows` and `grid-template-columns` with the shorthand `grid-template` property. Here we can define our rows and columns all at once. For this property, rows are defined before the slash and columns are defined after the slash. Let’s keep the same column and row values, but use the shorthand property instead:
 
 ```css
 /* styles.css */
