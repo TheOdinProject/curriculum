@@ -203,6 +203,45 @@ You can take the two elements above and combine them with the following:
 
 In general, you can't chain more than one type selector since an element can’t be two different types at once. For example, chaining two type selectors like `div` and `p` would give us the selector `divp`, which wouldn't work since the selector would try to find a literal `<divp>` element, which doesn’t exist.
 
+For example, this will not work:
+
+```css
+.subsection.headerdiv {
+  color: red;
+}
+
+.subsection#previewp {
+  color:blue;
+}
+```
+
+Nor will this if your intention is to chain selectors which include a type (element) selector (as mentioned above, the chaining selector syntax *does not* include white/empty spaces between selectors):
+
+```css
+.subsection.header div {
+  color: red;
+}
+
+.subsection#preview p {
+  color:blue;
+}
+```
+
+A proper example of including a type (element) selector with other kinds of CSS selectors in a chain would be this:
+
+```css
+div.subsection.header {
+  color: red;
+}
+
+p.subsection#preview {
+  color:blue;
+}
+```
+
+Notice how the type selector name goes first: `div.subsection.header`
+This ensures that the browser correctly applies the CSS to the HTML elements the chained selector refers to.
+
 #### Descendant combinator
 
 Combinators allow us to combine multiple selectors differently than either grouping or chaining them, as they show a relationship between the selectors. There are four types of combinators in total, but for right now we're going to only show you the **descendant combinator**, which is represented in CSS by a single space between selectors. <span id="descendant-combinator-description">A descendant combinator will only cause elements that match the last selector to be selected if they also have an ancestor (parent, grandparent, etc.) that matches the previous selector.</span>
