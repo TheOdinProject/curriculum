@@ -124,9 +124,9 @@ Numbers are the building blocks of programming logic! In fact, it's hard to thin
 
 For instance, JavaScript follows the standard mathematical **Order of Operations** (often remembered by acronyms like **PEMDAS** or **BODMAS**). This means:
 
-1.**Parentheses** (or Brackets) are evaluated first.
-1.**Multiplication** and **Division** are done next, from left to right.
-1.**Addition** and **Subtraction** are done last, from left to right.
+1. **Parentheses** (or Brackets) are evaluated first.
+1. **Multiplication** and **Division** are done next, from left to right.
+1. **Addition** and **Subtraction** are done last, from left to right.
 
 For example, the mathematical expression `(3 + 2) - 76 * (1 + 1)` is perfectly valid JavaScript and will evaluate exactly as you'd expect, if you put that expression into a `console.log`.
 
