@@ -52,6 +52,14 @@ To add the minimum length validation, we give the form control a `minlength` att
 
 Try entering less than three characters into the text area and clicking the post button to see the validation in action.
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### minlength doesn't imply required
+
+You can try it yourself in the above example by not entering anything in the input and it will still submit. This is because, as mentioned in [MDN's docs on minlength](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/minlength), "Constraint validation is only applied when the value is changed by the user."
+
+</div>
+
 #### Maximum length validation
 
 To add a maximum length validation, we give the form control a `maxlength` attribute with an integer value which represents the maximum number of characters we want to allow in the form control:
