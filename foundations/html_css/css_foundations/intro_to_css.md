@@ -215,7 +215,7 @@ For example, this will not work:
 }
 ```
 
-Nor will this if your intention is to chain selectors which include a type (element) selector (as mentioned above, the chaining selector syntax *does not* include white/empty spaces between selectors):
+Nor will the code below if your intention is to chain selectors which include a type (element) selector (as mentioned above, the chaining selector syntax *does not* include white/empty spaces between selectors):
 
 ```css
 .subsection.header div {
