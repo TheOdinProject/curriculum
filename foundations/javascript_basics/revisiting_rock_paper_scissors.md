@@ -61,6 +61,12 @@ For example: if you have a bug in a new feature you’re working on that you can
 
 <div class="lesson-content__panel" markdown="1">
 
+#### Warm up
+
+1. Let's practice a little bit of branching first. This [interactive Git branching visualizer](https://learngitbranching.js.org/) by Peter Cottle is brilliant. Complete only levels 1-3 of the "Introduction Sequence".
+
+#### Adding a UI to Rock Paper Scissors
+
 1. Set up a new branch on your previous Rock Paper Scissors repo
 
    1. Since we'll be making a UI for our Rock Paper Scissors game, make a new branch and change to it with the command `git checkout -b rps-ui`.
