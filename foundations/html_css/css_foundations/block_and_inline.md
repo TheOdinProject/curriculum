@@ -23,11 +23,11 @@ Inline-block elements behave like inline elements, but with block-style padding 
 
 ### Divs and spans
 
-We can't talk about block and inline elements without discussing divs and spans. All the other HTML elements we have encountered so far give meaning to their content. For example, paragraph elements tell the browser to display the text it contains as a paragraph. Strong elements tell the browser which texts within are important and so on. Yet, divs and spans give no particular meaning to their content. They are just generic boxes that can contain anything.
+When building a web page, not every piece of content has a specific semantic tag. Sometimes, you just need a container you can style or position! That's where `div` and `span` come in.
 
-Having elements like this available to us is a lot more useful than it may first appear. We will often need elements that serve no other purpose than to be "hook" elements. We can give an id or class to target them for styling with CSS. Another use case we will face regularly is grouping related elements under one parent element to correctly position them on the page. Divs and spans provide us with the ability to do this.
+A `div` is a generic **block-level** container. It behaves like a rectangular section that stretches across the full width of its parent and starts on a new line. Typically, developers use `div` to group related elements into larger chunks of the page, things like *cards*, *sections*, *sidebars*, or *navigation bars*.
 
-Div is a block-level element by default. It is commonly used as a container element to group other elements. Divs allow us to *divide* the page into different blocks and apply styling to those blocks.
+In this case, wrapping content in a `div` and giving it a `class` or `id`, you create a convenient hook for CSS layout and styling!
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="KKXXbwR" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -39,7 +39,9 @@ Div is a block-level element by default. It is commonly used as a container elem
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Span is an inline-level element by default. It can be used to group text content and inline HTML elements for styling and should only be used when no other semantic HTML element is appropriate.
+A `span` is a generic **inline** container. It sits inside a line of text and only takes up as much space as its content. Unlike `div`, it does **not** start on a new line. You use `span` when you want to style or target just part of a sentence.
+
+For example, highlighting a single word or attaching a tooltip to a phrase. Again, you add a `class` or `id` so CSS can find and manipulate it.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abLLPor" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -50,6 +52,10 @@ Span is an inline-level element by default. It can be used to group text content
 </p>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+Neither `div` nor `span` adds meaning to the content the way semantic tags do, as they exist to give you flexible **building blocks**. The key difference is **how they behave in the layout**: `div` participates in the flow as a **block-level** element, while `span` behaves as an **inline** element.
+
+Once you understand that, choosing between them becomes simple! You can use `div` when you're grouping and positioning **bigger blocks of content**, and use `span` when **you're styling or scripting small pieces** inside a line.
 
 ### Assignment
 
