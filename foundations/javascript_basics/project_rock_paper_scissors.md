@@ -53,7 +53,7 @@ Your game will be played by a human player. You will write a function that takes
 1. Create a new function named `getHumanChoice`.
 1. Write the code so that `getHumanChoice` will return one of the valid choices depending on what the user inputs.
    - **Hint**: Use the [prompt](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt) method to get the user's input.
-   - You do not need to handle reprompting if the user enters an invalid input, as that would require things we will teach later. For now, just assume the user will always enter a valid choice.
+   - You do not need to handle re-prompting if the user enters an invalid input, as that would require things we will teach later. For now, just assume the user will always enter a valid choice.
 1. Test what your function returns by using `console.log`.
 
 #### Step 4: Declare the players score variables
