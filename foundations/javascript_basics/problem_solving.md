@@ -22,7 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 
 - Explain the three steps in the problem solving process.
 - Explain what pseudocode is and be able to use it to solve problems.
-- Be able to break a problem down into subproblems.
+- Be able to break a problem down into sub-problems.
 
 ### Understand the problem
 
@@ -61,11 +61,11 @@ This is a basic program to demonstrate how pseudocode looks. There will be more 
 
 ### Divide and conquer
 
-From your planning, you should have identified some subproblems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are subproblems. Pick the smallest or simplest one and start there with coding.
+From your planning, you should have identified some sub-problems of the big problem you’re solving. Each of the steps in the algorithm we wrote out in the last section are sub-problems. Pick the smallest or simplest one and start there with coding.
 
-It's important to remember that you might not know all the steps that you might need up front, so your algorithm may be incomplete -— this is fine. Getting started with and solving one of the subproblems you have identified in the planning stage often reveals the next subproblem you can work on. Or, if you already know the next subproblem, it’s often simpler with the first subproblem solved.
+It's important to remember that you might not know all the steps that you might need up front, so your algorithm may be incomplete -— this is fine. Getting started with and solving one of the sub-problems you have identified in the planning stage often reveals the next subproblem you can work on. Or, if you already know the next subproblem, it’s often simpler with the first subproblem solved.
 
-Many beginners try to solve the big problem in one go. **Don’t do this**. <span id="breaking-problem">If the problem is sufficiently complex, you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller and easier to solve subproblems is a much better approach. Decomposition is the main way to deal with complexity, making problems easier and more approachable to solve and understand.</span>
+Many beginners try to solve the big problem in one go. **Don’t do this**. <span id="breaking-problem">If the problem is sufficiently complex, you’ll get yourself tied in knots and make life a lot harder for yourself. Decomposing problems into smaller and easier to solve sub-problems is a much better approach. Decomposition is the main way to deal with complexity, making problems easier and more approachable to solve and understand.</span>
 
 In short, break the big problem down and solve each of the smaller problems until you've solved the big problem.
 
@@ -177,7 +177,7 @@ Fizz
 10
 ```
 
-The program is starting to take shape. The final few subproblems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Let's tackle the next one: If the current number is divisible by 5 then print `Buzz`.
+The program is starting to take shape. The final few sub-problems should be easy to solve as the basic structure is in place and they are just different variations of the condition we've already got in place. Let's tackle the next one: If the current number is divisible by 5 then print `Buzz`.
 
 ```javascript
 let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
