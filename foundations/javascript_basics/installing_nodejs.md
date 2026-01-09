@@ -137,9 +137,3 @@ If you see those messages, you have successfully installed Node and npm!
 For convenience, Node provides an interactive console which lets you run and edit your JavaScript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.
 
 To run the Node console, open up your terminal and type `node`. Type `.exit` to quit the console.
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Check out this 4 minute video by Programming with Mosh [What is NodeJS?](https://www.youtube.com/watch?v=uVwtVBpw7RQ)

@@ -16,7 +16,7 @@ A way to decide between Grid and Flexbox is to consider if your design starts fr
 
 In Content First Design, you begin with clarity of how the content should be, and the layout follows. This is a great opportunity to use Flexbox. Its flexible nature gives you control of the *behavior* of items through logical rules. How they grow, shrink, their ideal size and position in relation to each other, all make the layout dynamic. While Flexbox gives you control over its content, the final layout is only a consequence. Depending on the dimensions of the flex container, the general layout can change a lot.
 
-In Layout First Design, you decide how you want the pieces arranged, then fill in the content. That is when Grid shines. Defining grid row and column tracks gives you full control of layout. Content in a grid can only fill the spaces of explicit or implicit tracks. So, when you have an idea of how the big picture of a container should look like, Grid is the clear choice.
+In Layout First Design, you decide how you want the pieces arranged, then fill in the content. That is when Grid shines. Defining grid row and column tracks gives you full control of layout. Content in a grid can only fill the spaces of explicit or implicit tracks. So, when you have an idea of what the big picture of a container should look like, Grid is the clear choice.
 
 Content or Layout First Design do not force us to use either Flexbox or Grid! Let's try laying out a one dimensional set of items – a task many reserve for Flexbox – using Grid.
 

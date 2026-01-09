@@ -80,7 +80,7 @@ app.listen(3000, (error) => {
 
 Most of this should look familiar to you by now, except for the newly required modules `express-session` and `passport`. We are not actually going to be using `express-session` directly, it is a dependency that is used in the background by `passport.js`. You can [take a look at what the express-session package does in the Express docs](https://github.com/expressjs/session).
 
-Our view engine is set up to just look in the project directory, and it's looking for a template called `index.ejs` so go ahead and create that:
+Our view engine is looking for `index.ejs` inside the `views`, so go ahead and create that:
 
 ```html
 <!DOCTYPE html>

@@ -1,6 +1,14 @@
 // Customized version of https://github.com/DavidAnson/markdownlint/blob/main/lib/md043.mjs
 const { basename } = require("node:path");
 
+// No sensible heading structure we can enforce for lessons with these file names
+const exceptedLessons = [
+  "how_this_course_will_work.md",
+  "conclusion.md",
+  "conclusion_full_stack_javascript.md",
+  "conclusion_ruby_on_rails.md",
+];
+
 const HEADINGS = {
   lesson: [
     "### Introduction",
@@ -12,13 +20,9 @@ const HEADINGS = {
     "?",
   ],
   project: ["### Introduction", "*", "### Assignment", "#### *"],
+  guide: ["### Guide: *", "*"],
 };
 
-function isProject(filePath) {
-  const fileName = basename(filePath);
-  // don't include names like "projections.md"
-  return fileName.startsWith("project_");
-}
 function forEachHeading(params, handler) {
   let heading = null;
   for (const token of params.parsers.markdownit.tokens) {
@@ -41,9 +45,20 @@ module.exports = {
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP004.md",
   ),
   function: function TOP004(params, onError) {
-    const requiredHeadings = isProject(params.name)
-      ? HEADINGS.project
-      : HEADINGS.lesson;
+    const fileName = basename(params.name);
+    if (exceptedLessons.includes(fileName)) {
+      return;
+    }
+
+    const requiredHeadings = (() => {
+      // don't include names like "projections.md"
+      if (fileName.startsWith("project_")) {
+        return HEADINGS.project;
+      } else if (params.name.includes("_guides/")) {
+        return HEADINGS.guide;
+      }
+      return HEADINGS.lesson;
+    })();
     const levels = {
       h1: "#",
       h2: "##",
@@ -62,6 +77,8 @@ module.exports = {
     const getExpected = () => requiredHeadings[i++] || "[None]";
     // https://regexr.com/7rf1o to test the following regex:
     const wildcardRegex = new RegExp(/^(#*\s)?\*$/);
+    // https://regexr.com/8j19m to test the following regex:
+    const prefixWildcardRegex = new RegExp(/^(###\s)(.+):\s\*$/);
 
     forEachHeading(params, (heading, content) => {
       // Report only first instance of TOP004 error
@@ -76,6 +93,21 @@ module.exports = {
 
       // Allow single wildcard heading (https://github.com/DavidAnson/markdownlint/issues/475)
       if (expected === "?") {
+        return;
+      }
+
+      // Handle prefix wildcards like "### Guide: *"
+      const prefixMatch = expected.match(prefixWildcardRegex);
+      if (prefixMatch) {
+        const prefix = prefixMatch[1] + prefixMatch[2] + ": ";
+        if (actual.startsWith(prefix)) {
+          return;
+        }
+        onError({
+          lineNumber: heading.lineNumber,
+          detail: `Expected: heading starting with "${prefix}"; Actual: ${actual}`,
+        });
+        hasError = true;
         return;
       }
 

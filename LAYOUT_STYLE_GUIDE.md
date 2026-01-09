@@ -16,8 +16,7 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 ## Table of Contents
 
 1. [Language](#language)
-1. [Lesson layout](#lesson-layout)
-1. [Project layout](#project-layout)
+1. [Layouts](#layouts)
 1. [Headings](#headings)
 1. [Newlines](#newlines)
 1. [Lists](#lists)
@@ -38,7 +37,7 @@ TOP's lessons use American English spelling and punctuation. When adding content
 
 Markdownlint: [`lesson-headings`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP004.md), [`default-section-content`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP003.md)
 
-In general, the following layouts should be used for all lessons and projects. Text that should be replaced with the author's own content will be in all CAPS, with any additional information regarding a section listed at the end of the layout code block.
+In general, the following layouts should be used for all lessons and projects (see [lesson layout exceptions](#layout-exceptions)). Text that should be replaced with the author's own content will be in all CAPS, with any additional information regarding a section listed at the end of the layout code block.
 
 When adding new lessons or projects, make a copy of either the [lesson template](./templates/lesson-template.md) or the [project template](./templates/project-template.md) in the appropriate folder where the new lesson/project should be placed. Then begin editing the template copy.
 
@@ -152,6 +151,33 @@ OPTIONAL PRE-ASSIGNMENT SECTION CONTENT.
 1. `### Assignment`: A numbered list of items that describe detailed requirements or user stories that must be followed in order to complete the project. Replace the `A REQUIREMENT/USER STORY.` with your own requirement, then add any additional numbered requirement items. If an assignment is intended to have multiple lists, each list should include a level 4 heading by replacing the `#### OPTIONAL CUSTOM ASSIGNMENT HEADING` with a proper level 4 heading, otherwise this custom heading can be omitted.
 
 1. `#### Extra credit`: A bulleted list of items that describe any optional add-ons or user stories that might make a user's project stand out. Replace the `AN OPTIONAL ADD-ON/USER STORY.` text with your own add-on, then add any additional bulleted add-on items. **If the project does not have any extra credit items, remove the extra credit section from the assignment.**
+
+### Guide layout
+
+Guide files are reference content that provide detailed instructions for specific tasks (like OS installations or software setup). They are stored in folders ending with `_guides` (e.g., `installation_guides/`) and are linked from lessons rather than being standalone lessons themselves.
+
+```markdown
+### Guide: DESCRIPTIVE TITLE
+
+GUIDE CONTENT WITH ANY HEADING STRUCTURE.
+```
+
+1. `### Guide: DESCRIPTIVE TITLE`: The first heading must start with `### Guide:` followed by a descriptive title that clearly indicates what the guide covers (e.g., "Virtual Machine installation", "Install Chrome on Linux").
+
+1. After the initial guide heading, any heading structure is allowed. Guide files are flexible and should be structured in whatever way best serves their instructional purpose.
+
+1. Guide files should include a link back to the lesson they're referenced from at the end of the file.
+
+Guide files in `*_guides/` folders are automatically excluded from the standard lesson/project heading structure requirements but still follow all other markdown linting rules.
+
+### Layout exceptions
+
+There are a few lessons where it does not make sense to enforce any particular heading structure, such as course intro lessons or course conclusions. Lessons with the following exact file names are not required to follow either of the layouts described above:
+
+- `how_this_course_will_work.md`
+- `conclusion.md`
+- `conclusion_full_stack_javascript.md`
+- `conclusion_ruby_on_rails.md`
 
 ## Headings
 
