@@ -35,7 +35,34 @@ First of all, we're doing something you've maybe not seen before here: manipulat
 
 With `self.each`, we're calling the `#each` method on the object instance that's invoking this method. In the example, this will end up being an array. So `self` will refer to the array that's calling `#my_find`. We can then use the `#each` method to iterate through its elements. Now this is where `yield` becomes extremely useful. When called inside of the `#my_find` method, `yield` will give control to the block that has been provided for `#my_find`. In the usage example just below the definition, we can see the `{ |n| n == 2 }` block is passed to the `#my_find` method. Inside of `#my_find`, each element in the array gets yielded to that block as an argument.
 
-If the block returns `true`/truthy for an element, we immediately `return` that element. If nothing is found, we'll iterate all the way through the array and end up executing the `nil` return at the very end. Pretty cool, huh? Now it's time for you to practice:
+If the block returns `true`/truthy for an element, we immediately `return` that element. If nothing is found, we'll iterate all the way through the array and end up executing the `nil` return at the very end. Pretty cool, huh?
+
+Another thing you may not be familiar with: the [`Enumerator` class](https://docs.ruby-lang.org/en/3.4/Enumerator.html). A lot of Enumerable methods return an `Enumerator` instance if a block isn't passed in. We can see from the documentation that [`Enumerable#find`](https://docs.ruby-lang.org/en/3.4/Enumerable.html#method-i-find) is no different. This allows Enumerable methods to be chained in a clean and performant way. Fortunately, creating an `Enumerator` is quite straightforward. You can just make use of the `to_enum` method.
+
+```ruby
+module Enumerable
+  def my_find
+    # returns an `Enumerator` bound to this method if a block isn't given
+    return to_enum(:my_find) unless block_given?
+
+    self.each do |elem|
+      return elem if yield(elem)
+    end
+
+    nil
+  end
+end
+
+a = [2, 3, 4, 5, 6, 7, 9]
+
+# find the first element that's odd at an even index
+a.my_find.with_index { |num, idx| num.even? && idx.odd? }
+#=> 9
+```
+
+This is the power of Enumerators. If `#find` could only ever return a result, we would have no way to combine it with other methods through chaining like that.
+
+Now it's time for you to practice:
 
 ### Assignment
 
