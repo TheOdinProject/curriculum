@@ -1,51 +1,28 @@
-// Customized version of https://github.com/DavidAnson/markdownlint/blob/main/lib/md043.js
+// Customized version of https://github.com/DavidAnson/markdownlint/blob/main/lib/md043.mjs
+const { basename } = require("node:path");
 
-function addError(onError, lineNumber, detail, context, range, fixInfo) {
-  onError({
-    lineNumber,
-    detail,
-    context,
-    range,
-    fixInfo,
-  });
-}
-function addErrorContext(
-  onError,
-  lineNumber,
-  context,
-  left,
-  right,
-  range,
-  fixInfo
-) {
-  context = ellipsify(context, left, right);
-  addError(onError, lineNumber, undefined, context, range, fixInfo);
-}
-function addErrorDetailIf(
-  onError,
-  lineNumber,
-  expected,
-  actual,
-  detail,
-  context,
-  range,
-  fixInfo
-) {
-  if (expected !== actual) {
-    addError(
-      onError,
-      lineNumber,
-      "Expected: " +
-        expected +
-        "; Actual: " +
-        actual +
-        (detail ? "; " + detail : ""),
-      context,
-      range,
-      fixInfo
-    );
-  }
-}
+// No sensible heading structure we can enforce for lessons with these file names
+const exceptedLessons = [
+  "how_this_course_will_work.md",
+  "conclusion.md",
+  "conclusion_full_stack_javascript.md",
+  "conclusion_ruby_on_rails.md",
+];
+
+const HEADINGS = {
+  lesson: [
+    "### Introduction",
+    "### Lesson overview",
+    "*",
+    "### Assignment",
+    "#### *",
+    "### Knowledge check",
+    "?",
+  ],
+  project: ["### Introduction", "*", "### Assignment", "#### *"],
+  guide: ["### Guide: *", "*"],
+};
+
 function forEachHeading(params, handler) {
   let heading = null;
   for (const token of params.parsers.markdownit.tokens) {
@@ -58,18 +35,6 @@ function forEachHeading(params, handler) {
     }
   }
 }
-function ellipsify(text, start, end) {
-  if (text.length <= 30) {
-    // Nothing to do
-  } else if (start && end) {
-    text = text.slice(0, 15) + "..." + text.slice(-15);
-  } else if (end) {
-    text = "..." + text.slice(-30);
-  } else {
-    text = text.slice(0, 30) + "...";
-  }
-  return text;
-}
 
 module.exports = {
   names: ["TOP004", "lesson-headings"],
@@ -77,87 +42,142 @@ module.exports = {
   tags: ["headings"],
   parser: "markdownit",
   information: new URL(
-    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP004.md"
+    "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP004.md",
   ),
   function: function TOP004(params, onError) {
-    const requiredHeadings = params.config.headings;
-    if (!Array.isArray(requiredHeadings)) {
-      // Nothing to check; avoid doing any work
+    const fileName = basename(params.name);
+    if (exceptedLessons.includes(fileName)) {
       return;
     }
-    const matchCase = params.config.match_case || false;
-    const levels = {};
-    for (const level of [1, 2, 3, 4, 5, 6]) {
-      levels["h" + level] = "######".substr(-level);
-    }
+
+    const requiredHeadings = (() => {
+      // don't include names like "projections.md"
+      if (fileName.startsWith("project_")) {
+        return HEADINGS.project;
+      } else if (params.name.includes("_guides/")) {
+        return HEADINGS.guide;
+      }
+      return HEADINGS.lesson;
+    })();
+    const levels = {
+      h1: "#",
+      h2: "##",
+      h3: "###",
+      h4: "####",
+      h5: "#####",
+      h6: "######",
+    };
+
     let i = 0;
     let matchAny = false;
     let headingToMatch = undefined;
     let hasError = false;
-    let anyHeadings = false;
+    let hasHeadingsInFile = false;
+
     const getExpected = () => requiredHeadings[i++] || "[None]";
-    const handleCase = (str) => (matchCase ? str : str.toLowerCase());
     // https://regexr.com/7rf1o to test the following regex:
     const wildcardRegex = new RegExp(/^(#*\s)?\*$/);
+    // https://regexr.com/8j19m to test the following regex:
+    const prefixWildcardRegex = new RegExp(/^(###\s)(.+):\s\*$/);
 
     forEachHeading(params, (heading, content) => {
-      if (!hasError) {
-        anyHeadings = true;
-        const actual = levels[heading.tag] + " " + content;
-        const expected = getExpected();
+      // Report only first instance of TOP004 error
+      // If one's wrong, it may directly cause later headings to flag
+      if (hasError) {
+        return;
+      }
 
-        if (wildcardRegex.test(expected)) {
-          const nextExpected = getExpected();
-          if (handleCase(nextExpected) !== handleCase(actual)) {
-            if (expected.startsWith("#")) {
-              headingToMatch = `h${
-                expected.slice(0, expected.indexOf(" ")).length
-              }`;
+      hasHeadingsInFile = true;
+      const actual = levels[heading.tag] + " " + content;
+      const expected = getExpected();
 
-              addErrorDetailIf(
-                onError,
-                heading.lineNumber,
-                `${headingToMatch} heading`,
-                `${heading.tag} heading`
-              );
-              hasError = headingToMatch !== heading.tag;
-            } else {
-              matchAny = true;
-            }
-            i--;
-          }
-        } else if (handleCase(expected) === handleCase(actual)) {
-          matchAny = false;
-          headingToMatch = undefined;
-        } else if (matchAny) {
-          i--;
-        } else if (headingToMatch) {
+      // Allow single wildcard heading (https://github.com/DavidAnson/markdownlint/issues/475)
+      if (expected === "?") {
+        return;
+      }
+
+      // Handle prefix wildcards like "### Guide: *"
+      const prefixMatch = expected.match(prefixWildcardRegex);
+      if (prefixMatch) {
+        const prefix = prefixMatch[1] + prefixMatch[2] + ": ";
+        if (actual.startsWith(prefix)) {
+          return;
+        }
+        onError({
+          lineNumber: heading.lineNumber,
+          detail: `Expected: heading starting with "${prefix}"; Actual: ${actual}`,
+        });
+        hasError = true;
+        return;
+      }
+
+      if (wildcardRegex.test(expected)) {
+        const nextExpected = getExpected();
+        if (nextExpected === actual) {
+          return;
+        }
+
+        // For level-specific wildcards
+        if (expected.startsWith("#")) {
+          headingToMatch = `h${
+            expected.slice(0, expected.indexOf(" ")).length
+          }`;
+
           if (headingToMatch !== heading.tag) {
-            addError(
-              onError,
-              heading.lineNumber,
-              `Expected: ${headingToMatch} heading; Actual: ${heading.tag} heading`
-            );
-            hasError = true;
-          } else {
-            i--;
+            onError({
+              lineNumber: heading.lineNumber,
+              detail: `Expected: ${headingToMatch} heading; Actual: ${heading.tag} heading`,
+              context: actual,
+            });
+            hasError = headingToMatch !== heading.tag;
           }
         } else {
-          addErrorDetailIf(onError, heading.lineNumber, expected, actual);
-          hasError = true;
+          matchAny = true;
         }
+        i--;
+      } else if (expected === actual) {
+        matchAny = false;
+        headingToMatch = undefined;
+      } else if (matchAny) {
+        i--;
+      } else if (headingToMatch) {
+        if (headingToMatch !== heading.tag) {
+          onError({
+            lineNumber: heading.lineNumber,
+            detail: `Expected: ${headingToMatch} heading; Actual: ${heading.tag} heading`,
+          });
+          hasError = true;
+        } else {
+          i--;
+        }
+      } else {
+        onError({
+          lineNumber: heading.lineNumber,
+          detail: `Expected: ${expected}; Actual: ${actual}`,
+        });
+        hasError = true;
       }
     });
 
-    const extraHeadings = requiredHeadings.length - i;
+    const missingExpectedHeadingCount = requiredHeadings.length - i;
+    const isWildcard =
+      wildcardRegex.test(requiredHeadings[i]) || requiredHeadings[i] === "?";
+    const isLastRequiredHeadingSpecific =
+      missingExpectedHeadingCount === 1 && !isWildcard;
+    const hasSpecificRequiredHeadings = requiredHeadings.some(
+      (heading) => !wildcardRegex.test(heading) && heading !== "?",
+    );
+
     if (
+      hasSpecificRequiredHeadings &&
       !hasError &&
-      (extraHeadings > 1 ||
-        (extraHeadings === 1 && !wildcardRegex.test(requiredHeadings[i]))) &&
-      (anyHeadings ||
-        !requiredHeadings.every((heading) => wildcardRegex.test(heading)))
+      (missingExpectedHeadingCount > 1 || isLastRequiredHeadingSpecific)
     ) {
-      addErrorContext(onError, params.lines.length, requiredHeadings[i]);
+      onError({
+        lineNumber: params.lines.length,
+        detail: `Missing heading (case sensitive): ${requiredHeadings[i]}`,
+        context: requiredHeadings[i],
+      });
     }
   },
 };

@@ -22,8 +22,7 @@ This section contains a general overview of topics that you will learn in this l
 ### Convention time again
 
 You have already been exposed to some of the conventions in HTML, CSS, JS and Ruby.
-This is why JS has its variables written `likeThis` while Ruby's are `like_this`, why functions are verbs and variables are things like `do_something(with_thing, another_thing)`. Why there exists
-a preference for getting rid of `if` statements, why some languages prefer loops while other prefer iterative approaches. Why some features
+This is why JS has its variables written `likeThis` while Ruby's are `like_this`, why function names are verbs and variable names are nouns. Why some languages prefer loops while others prefer iterative methods. Why some features
 present in languages are strongly discouraged - remember `var`, `eval()` or `$global_variable`s?
 
 There's *a lot* more of these relating to features of Ruby (or a different language!) that you might never even have heard of. <span id='style-guide'>The good news is that there exist style guides:</span>
@@ -195,7 +194,12 @@ Next, you need to tell RuboCop to load your new extension. You can do this by ed
 bundle exec rubocop --init
 ```
 
-It won't have anything in it besides a comment describing what it is for. Now, all you have to do is add the line `require: rubocop-performance` to this file and RuboCop will know to use the extension whenever you run `bundle exec rubocop`.
+It won't have anything in it besides a comment describing what it is for. Now, all you have to do is copy/paste the following lines in your `.rubocop.yml` file so that `rubocop` will know to use the extension whenever you run `bundle exec rubocop`:
+
+```yaml
+plugins:
+  - rubocop-performance
+```
 
 RuboCop is still under development, so changes and additions happen. New Cops join the precinct and they're not enabled by default - if you'd like them to be enabled by default instead of going through all of them and deciding on your own, you can use:
 
@@ -226,7 +230,7 @@ This will disable the `AbcSize` Cop from `Metrics` department between those comm
 
 Some rules are a lot more arbitrary - the Style department is going to be the prime ground for strong arguments about things that don't really matter - like double-quoting all strings vs making a distinction between plain strings and string interpolation. Perhaps you have strong feelings about quotes, so let's help you out by showing you how to show them to RuboCop.
 
-Start by creating a `.rubocop.yml` file using the command touch or nano(nano will open the text editor right away). Don't forget that it must be a dotfile, meaning it needs to have a dot before its name. Now, you need to find out what rule you want to change or disable. For the possible options always consult the documentation - not every Cop is just a simple on/off, there might be more options. As an example, we'll be changing the rules regarding strings, frozen string literals and we'll enable NewCops.
+Start by creating a `.rubocop.yml` file using the command `bundle exec rubocop --init` or manually using touch or nano (nano will open the text editor right away). Don't forget that it must be a dotfile, meaning it needs to have a dot before its name. Now, you need to find out what rule you want to change or disable. For the possible options always consult the documentation - not every Cop is just a simple on/off, there might be more options. As an example, we'll be changing the rules regarding strings, frozen string literals and we'll enable NewCops.
 
 ```yaml
 # This is .rubocop.yml in ~/
@@ -280,9 +284,9 @@ In this case, there is one assignment, eighteen branches and zero conditionals, 
 
 One way to interpret this particular score is to say that this method heavily relies on other methods to do something with data. Perhaps this process could be broken down into steps or there exists some design flaw that requires us to manipulate the data so much in this one place.
 
-<span id="cyclomatic">Cyclomatic complexity is similar to the conditional measure in ABC. It aims at providing insight into how complex a program based on how many possible paths can the program (method) can go through. As you can imagine, this refers to control flow statements like if statements, loops and logical operators like `&&` or `||`.</span>
+<span id="cyclomatic">Cyclomatic complexity is similar to the conditional measure in ABC. It aims at providing insight into program complexity based on how many possible paths the program (method) can go through. As you can imagine, this refers to control flow statements like if statements, loops and logical operators like `&&` or `||`.</span>
 
-Of course in the Ruby context, instead of loops you are most likely going to use methods like `#each` to iterate over your collections - that counts, too. Every time code execution and follow one or the other path, one gets added to the score.
+In the Ruby context, instead of loops, you are most likely going to use methods like `#each` to iterate over your collections - that counts, too. Every time code execution can follow one or the other path, one gets added to the score.
 
 <span id="perceived">Perceived complexity is very similar to cyclomatic complexity. It attempts to measure how hard it is for a human to read the code and where it diverges from cyclomatic complexity is that it uses weights for some control flow statements and counts both `if` and `else` instead of just the if statement as one branching path.
 
@@ -294,7 +298,7 @@ Of course in the Ruby context, instead of loops you are most likely going to use
 
 You've got the underlines and neatly formatted list of issues listed in the `Problems` tab. Remember that `Problems` tab is interactive - make sure to play with it!
 
-When you hover over an underlined piece of code, you will be informed of the offense and be given links to RuboCop documentation *not* the Ruby Style guide and also given shortcuts to `View Problems` and `Quickfix`:
+When you hover over an underlined piece of code, you will be informed of the offense and be given links to RuboCop documentation - *not* the Ruby Style guide - and also given shortcuts to `View Problems` and `Quickfix`:
 
 ![VSC pop-up after you hover on an offense](https://cdn.statically.io/gh/TheOdinProject/curriculum/270b3d2430621d1d768234d53588054dc4bdda13/ruby/object_oriented_programming_basics/linting_and_rubocop/imgs/rubohover.png)
 

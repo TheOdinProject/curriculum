@@ -4,7 +4,7 @@ In the previous lesson, we introduced ES6 modules (ESM) and npm. The introductio
 
 Fortunately, more recent web technologies have greatly improved these aspects, but bundlers still provide us with a lot of power to process and optimize our code in various ways. This power, however, does come with the small cost of needing to configure a bundler. For now, our needs are few and simple, and we can look at the basic things one at a time.
 
-Awareness of bundlers and basic experience with them is valuable. While in recent years, new build tools have come out that handle a lot of basic configuration for us, in the real world, you may not always get a chance to use these shiny new tools. It's very reasonable to end up working with codebases that use tools that require more manual configuration. Even if you did get to work with tools that handle more things for you, it's useful to understand what those tools are actually doing for you.
+Awareness of bundlers and basic experience with them is valuable. While in recent years, new build tools have come out that handle a lot of basic configuration for us, in the real world, you may not always get a chance to use these shiny new tools. It's very reasonable to end up working with codebases that use tools that require more manual configuration. Even when you work with tools that handle more things for you, it's useful to understand what those tools are actually doing for you.
 
 ### Lesson overview
 
@@ -25,21 +25,23 @@ While it does this, we could also get it to do a whole bunch of other things, su
 
 Webpack is one of the most popular JavaScript bundlers, if not the most popular one, and has been for a long time. Let's get started with bundling!
 
-We'll first need to make a new directory for our practice app, so run the following in your terminal:
+We'll first need to make a new directory for our practice app, then create a `package.json` file in it for npm to record information about packages we use (like Webpack). Run the following in your terminal:
 
 ```bash
-mkdir webpack-practice && cd webpack-practice
+mkdir webpack-practice &&
+cd webpack-practice &&
+npm init -y
 ```
 
-Once inside your new directory, we can go ahead and install Webpack, which involves two packages.
+Inside your new directory, before we install anything, open `package.json` and remove the top-level `"type": "commonjs"` or `"type": "module"` property if it exists, otherwise Webpack will start throwing errors at us due to clashing module issues. Once that's done, we can go ahead and install Webpack, which involves two packages.
 
 ```bash
 npm install --save-dev webpack webpack-cli
 ```
 
-Note that we included the `--save-dev` flag (you can also use `-D` as a shortcut), which tells npm to record our two packages as development dependencies. You will see a `package.json` has been created for us with both packages marked as development dependencies. We will only be using Webpack during development. The actual code that makes Webpack run will not be part of the code that the browser will run.
+Note that we included the `--save-dev` flag (you can also use `-D` as a shortcut), which tells npm to record our two packages as development dependencies. We will only be using Webpack during development. The actual code that makes Webpack run will not be part of the code that the browser will run.
 
-Also notice that when these finished installing, a `node_modules` directory and a `package-lock.json` got auto-generated. `node_modules` is where Webpack's actual code (and a whole bunch of other stuff) lives, and `package-lock.json` is just another file npm uses to track more specific package information.
+Also notice that when these finished installing, npm created a `node_modules` directory and a `package-lock.json` file for us. `node_modules` is where Webpack's actual code (and a whole bunch of other stuff) lives, and `package-lock.json` is just another file npm uses to track more specific package information.
 
 <div class="lesson-note" markdown="1">
 
@@ -231,6 +233,7 @@ body {
 You can now import your CSS file into one of your JavaScript files. `src/index.js` makes sense. We don't need anything from the imported CSS file itself. Since our CSS and style loaders will handle all of that for us, we can just use a [side effect import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#import_a_module_for_its_side_effects_only).
 
 ```javascript
+// src/index.js
 import "./styles.css";
 import { greeting } from "./greeting.js";
 
@@ -241,7 +244,7 @@ Once again, bundle with Webpack using `npx webpack`, then open `dist/index.html`
 
 #### What about link tags?
 
-Notice how we don't link our CSS file in our HTML template like we would've done before. While you could do this with one of the loaders from the next section, in the real world, projects often contain many moving parts and many modules. Eventually, it becomes easier to work with multiple smaller CSS files that you import in the modules they're needed. There are even ways those files can be scoped only to those modules and not globally!
+Notice how we don't link our CSS file in our HTML template like we would've done before. While you could do this with one of the loaders from the next section, in the real world, projects often contain many moving parts and many modules. Eventually, it becomes easier to work with multiple smaller CSS files that you import in the modules where they're needed. There are even ways those files can be scoped only to those modules and not globally!
 
 We're only introducing the minimum to allow you to import your CSS into your JavaScript, but many build tools and more sophisticated bundler configurations will do a lot more to imported CSS than what we're showing here.
 
@@ -263,9 +266,10 @@ There are three different ways you could be dealing with local image files:
    npm install --save-dev html-loader
    ```
 
-   Then, add the following object to the `modules.rules` array within `webpack.config.js`:
+   Then, add the following object to the `module.rules` array within `webpack.config.js`:
 
    ```javascript
+   // webpack.config.js
    {
      test: /\.html$/i,
      loader: "html-loader",
@@ -274,9 +278,10 @@ There are three different ways you could be dealing with local image files:
 
 1. **Images we use in our JavaScript, where we will need to import the files**
 
-   If we need to use a local image file in our JavaScript (such as when manipulating the DOM to create or edit `img` elements and set their `src` attribute), we need to import the images into our JavaScript module. Since images aren't JavaScript, we need to tell Webpack that these files will be assets by adding an `asset/resource` rule. No need to install anything here. Just add the following object to the `modules.rules` array within `webpack.config.js`:
+   If we need to use a local image file in our JavaScript (such as when manipulating the DOM to create or edit `img` elements and set their `src` attribute), we need to import the images into our JavaScript module. Since images aren't JavaScript, we need to tell Webpack that these files will be assets by adding an `asset/resource` rule. No need to install anything here. Just add the following object to the `module.rules` array within `webpack.config.js`:
 
    ```javascript
+   // webpack.config.js
    {
      test: /\.(png|svg|jpg|jpeg|gif)$/i,
      type: "asset/resource",
@@ -288,6 +293,7 @@ There are three different ways you could be dealing with local image files:
    Then, in whatever JavaScript module we want to use that image in, we just have to default import it.
 
    ```javascript
+   // src/index.js
    import odinImage from "./odin.png";
    
    const image = document.createElement("img");
@@ -410,9 +416,17 @@ Firstly, we add a [source map](https://webpack.js.org/configuration/devtool/) by
 
 Secondly, by default, `webpack-dev-server` will only auto-restart when it detects any changes to files we import into our JavaScript bundle, so our HTML template will be ignored! All we need to do is add it to the dev server's array of watched files - nice and simple!
 
-Once set up, `npx webpack serve` will host our web page on `http://localhost:8080/`, which we can open in our browser and start working!
+Once set up, we can start up the dev server using the following command:
+
+```bash
+npx webpack serve
+```
+
+Our site will then be available via [http://localhost:8080/](http://localhost:8080/) by default.
 
 <div class="lesson-note" markdown="1">
+
+#### Restart the dev server upon config changes
 
 Note that the webpack-dev-server only reads your webpack configuration when you start it. If you change the webpack config file while the dev server is running, it will not reflect those config changes. Use <kbd>Ctrl</kbd> + <kbd>C</kbd> in the terminal to kill it then rerun `npx webpack serve` to apply the new config.  
 
@@ -445,9 +459,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How would you handle assets like local image files?](#loading-images)
 - [What Webpack tool could you use during development to view changes to your website live?](#webpack-dev-server)
 - [How does using a source map help with development?](#source-maps)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

@@ -87,8 +87,11 @@ If you were to use only `<div>` elements to act as these landmarks and headings,
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read [How screen readers navigate data tables](https://tink.uk/how-screen-readers-navigate-data-tables/) to see a great example of just how much context a proper `<table>` element provides. There is also a video at the end of the blog post if you want to *hear* how a table is announced.
-2. Watch [Why headings and landmarks are so important](https://www.youtube.com/watch?v=vAAzdi1xuUY&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=19) to see how a screen reader interacts with the heading and landmark elements.
+
+1. Read [How screen readers navigate data tables](https://tink.uk/how-screen-readers-navigate-data-tables/) to see a great example of just how much context a proper `<table>` element provides.
+1. Watch [Introduction to accessible tables and a screen reader demo](https://youtu.be/ACmYzyN0b3U?si=o5PptrjVGJGj2OT7&t=83) to see how a screen reader announces a table.
+1. Watch [Why headings and landmarks are so important](https://www.youtube.com/watch?v=vAAzdi1xuUY&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=19) to see how a screen reader interacts with the heading and landmark elements.
+
 </div>
 
 ### Knowledge check
@@ -104,6 +107,6 @@ This section contains helpful links to related content. It isn't required, so co
 
 - [NVAccess](https://www.nvaccess.org/download/) provides a download of the NVDA screen reader, one of the more popular (and free!) screen readers available, though it's only available for the Windows OS. If you're using a macOS device, you should have the VoiceOver screen reader available to you by default. While the lessons in this section will provide you with what a screen reader will generally announce, it can be invaluable to start using a screen reader yourself to test out your projects and see how they might be perceived.
 - [Screen Reader Basics: VoiceOver](https://www.youtube.com/watch?v=5R-6WvAihms&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=8) and [Screen Reader Basics: NVDA](https://www.youtube.com/watch?v=Jao3s_CwdRU&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=9) go over some basics for getting started with both brands of screen readers. Both videos are worth watching regardless of which screen reader you choose/is available to you, as they contain some universal information as well.
-- [Screen reader basics: Orca](https://www.youtube.com/watch?v=UI76P-KPZec) is a good video to get you started using Orca, the Linux GUI screen reader.
+- [Screen reader basics: Orca](https://techblog.wikimedia.org/2020/07/02/an-orca-screen-reader-tutorial/) is a good article to get you started using Orca, the Linux GUI screen reader.
 - [Screen reader basics: ChromeVox](https://www.youtube.com/watch?v=fpbIsN31hLM) is a starting place for learning to use ChromeVox, the screen reader on ChromeBooks.
 - [ARIA Landmarks Example](https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/HTML5.html) lists the native HTML elements that define landmark regions as well as what their role is. If you check this resource out, be sure to enable the button toggles at the top of the page to see how the page is sectioned by landmarks and how it uses headings.

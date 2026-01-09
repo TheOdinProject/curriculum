@@ -90,6 +90,20 @@ With that above line in our routes file, what do our routes look like?  If you t
   edit_post  GET  /posts/:id/edit(.:format)  posts#edit
 ```
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Viewing Rails routes
+
+The output of the `rails routes` command might be formatted incorrectly if your terminal is zoomed in or if your screen is not wide enough to display the route information. If this is the case, you can try zooming out in the terminal using the <kbd>Ctrl</kbd> + <kbd>-</kbd> keyboard shortcut. You can also use the following command to view a longer, expanded list of each route:
+
+```bash
+rails routes --expanded
+```
+
+Alternatively, if you have your server running, you can view your routes in the browser by navigating to `localhost:3000/rails/info/routes`. One of the nice things about this is that you get a search bar to search over the routes in your project.
+
+</div>
+
 You can see the incoming HTTP verb and URL in the middle columns, then the controller action they map to on the right, which should all be quite familiar because you just wrote it in the routes file.  The `(.:format)` just means that it's okay but not required to specify a file extension like `.doc` at the end of the route... it will just get saved in the `params` hash for later anyway.  But what's on the leftmost column?  That's the "name" of the route.
 
 There are a lot of situations where you want to be able to retrieve the URL for a particular route, like when you want to show navigation links on your webpage (do NOT hard code the URLS, because you'll be out of luck when you decide to change the URLs and have to manually go in and change them yourself).  Rails gives you a helper method that lets you create links called `link_to`, but you'll need to supply it with the text that you want to show and the URL to link it to.
@@ -190,11 +204,13 @@ You should have a good sense of what's going on in the routes file by now but pr
 1. Read the [Rails Guides chapter on Routing](http://guides.rubyonrails.org/routing.html), sections 1-2.5, 3.1-3.4, 4.6, and 6.1
 1. Watch this [Wonderful explanation of how REST and HTTP works](https://www.youtube.com/watch?v=Q-BpqyOT3a8). You can follow the tutorial using `curl https://api.github.com`.
 
-<div class="lesson-note lesson-note--tip" markdown="1">
+   <div class="lesson-note lesson-note--tip" markdown="1">
 
-The Postman Chrome Extension shown in the video is deprecated. Use the native [Postman App](https://www.postman.com/downloads/) or use the web version.
+   #### Don't use the Postman Chrome Extension
 
-</div>
+   The Postman Chrome Extension shown in the video is deprecated. Use the native [Postman App](https://www.postman.com/downloads/) or use the web version.
+
+   </div>
 
 </div>
 

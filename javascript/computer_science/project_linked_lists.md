@@ -11,7 +11,7 @@ to overcome that problem and allow dynamically allocated data is using linked li
 Luckily in **JavaScript**, arrays aren't limited to a certain size, and both insertion and deletion can be done trivially at any index using the appropriate built in array method, so you don't have to think about overcoming those limitations.
 
 So if array size, array insertion and array deletion are not limitations in JavaScript, are linked lists really necessary?
-The short answer to that is *no*; however, it's the simplest of the dynamic data
+The short answer to that is *it depends*; however, it's the simplest of the dynamic data
 structures and it will give you a solid foundation, so you can understand more
 complex data structures like graphs and binary trees with more ease.
 
@@ -31,6 +31,7 @@ For a more thorough explanation, use these resources:
 1. [Linked Lists in Plain English](https://www.youtube.com/watch?v=oiW79L8VYXk)
 1. [What's a Linked List, Anyway?](https://dev.to/vaidehijoshi/whats-a-linked-list-anyway)
 1. [A more verbose explanation with plenty of diagrams](https://web.archive.org/web/20200217010131/http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
+1. [Are Linked Lists necessary?](https://dev.to/karimdevelops/are-linked-lists-necessary-2ckl)
 
 ### Assignment
 
@@ -40,7 +41,7 @@ For a more thorough explanation, use these resources:
 
 #### Running ES6 modules in Node
 
-Node v22 (which became LTS in October 2024) can now automatically detect ES6 modules and run them without any further configuration. If you are using ES6 modules and run into errors due to Node not recognising the syntax, make sure you [update Node to the latest LTS version](https://www.theodinproject.com/lessons/foundations-installing-node-js#installing-node).
+Node v22 (which became LTS in October 2024) can now automatically detect ES6 modules and run them without any further configuration. If you are using ES6 modules and run into errors due to Node not recognizing the syntax, make sure you [update Node to the latest LTS version](https://www.theodinproject.com/lessons/foundations-installing-node-js#installing-node).
 
 </div>
 
@@ -51,22 +52,34 @@ You will need two classes or factories:
 
 Build the following functions in your linked list class / factory:
 
-1. `append(value)` adds a new node containing `value` to the end of the list
-1. `prepend(value)` adds a new node containing `value` to the start of the list
-1. `size` returns the total number of nodes in the list
-1. `head` returns the first node in the list
-1. `tail` returns the last node in the list
-1. `at(index)` returns the node at the given `index`
-1. `pop` removes the last element from the list
+1. `append(value)` adds a new node containing `value` to the end of the list.
+1. `prepend(value)` adds a new node containing `value` to the start of the list.
+1. `size()` returns the total number of nodes in the list.
+1. `head()` should return the value of the first node in the list. If the list is empty, it should return `undefined`.
+1. `tail()` should return the value of the final node in the list. If the list is empty, it should return `undefined`.
+1. `at(index)` should return the value of the node at the given index. If there's no node at the given index, it should return `undefined`.
+1. `pop()` should remove the head node from the list and return its value. If it's used on an empty list, it should just return `undefined`.
 1. `contains(value)` returns true if the passed in value is in the list and otherwise returns false.
-1. `find(value)` returns the index of the node containing value, or null if not found.
-1. `toString` represents your LinkedList objects as strings, so you can print them out and preview them in the console.
-    The format should be: `( value ) -> ( value ) -> ( value ) -> null`
+1. `findIndex(value)` returns the index of the node containing the given value. If the value can't be found in the list, it should return `-1`. If more than one node has a value matching the given `value`, it should return the index of the first node with the matching value.
+1. `toString()` represents your LinkedList objects as strings, so you can print them out and preview them in the console. If the list is empty, it should return an empty string. The format should be: `( value ) -> ( value ) -> ( value ) -> null`.
 
 #### Extra credit
 
-1. `insertAt(value, index)` that inserts a new node with the provided `value` at the given `index`.
-1. `removeAt(index)` that removes the node at the given `index`.
+1. `insertAt(index, ...values)` should insert new nodes with the given values at the given `index`. For example:
+
+   ```javascript
+   // list that's already set up
+   console.log(list.toString());
+   //=> "( 1 ) -> ( 2 ) -> ( 3 ) -> null"
+
+   list.insertAt(1, 10, 11)
+   console.log(list.toString());
+   //=> "( 1 ) -> ( 10 ) -> ( 11 ) -> ( 2 ) -> ( 3 ) -> null"
+   ```
+
+   If the method is called with an index that is out of bounds (below 0 or above the list's size), throw a `RangeError`.
+
+1. `removeAt(index)` that removes the node at the given `index`. If the given index is out of bounds (below 0 or greater than or equal to the list's size), throw a `RangeError`
 
 **Extra Credit Tip:** When you insert or remove a node, consider how it will affect the existing nodes. Some of the nodes will need their `nextNode` link updated.
 

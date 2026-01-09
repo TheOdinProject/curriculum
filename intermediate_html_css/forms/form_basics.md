@@ -83,7 +83,7 @@ This is done by adding a `placeholder` attribute to an input. The value will be 
 
 Use placeholder text to demonstrate how text should be entered and formatted.
 
-<span id="the-name-attribute">**The name attribute**</span>
+#### The name attribute
 
 We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend, where we send our data, know what each piece of data represents.
 
@@ -124,7 +124,7 @@ Try changing the `name` attributes of some of the input fields in the form and r
 
 It's worth mentioning that you can use any of the form controls HTML provides outside of the `<form>` element, even when you don't have a backend server where you can send data.
 
-For example you might want to have an input that gets some data from a user and display that somewhere else on the page with JavaScript:
+For example, you might want to have an input that gets some data from a user and display that somewhere else on the page with JavaScript:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="result" data-slug-hash="PoJjNYr" data-preview="true" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -369,7 +369,7 @@ To create a submit button, we use the button element with a `type` attribute of 
 <button type="submit">Submit</button>
 ```
 
-#### Reset button
+#### Reset buttons
 
 A reset button clears all the data the user has entered into the form and sets all the inputs in the form back to what they were initially.
 
@@ -379,7 +379,7 @@ To create a reset button, we use the button element with a `type` attribute of "
 <button type="reset">Reset</button>
 ```
 
-#### Generic button
+#### Generic buttons
 
 The third and final button type is a generic button that can be used for anything. It's commonly used with JS for creating interactive UI's.
 
@@ -391,13 +391,15 @@ To create a generic button, we use the button element with a `type` attribute of
 
 <div class="lesson-note lesson-note--tip" markdown=1>
 
+#### Button type defaults in forms
+
 It is important to remember that a button within a form with the `type` value of submit (which happens to be the default value) will always try to make a new request and submit data back to the server. Hence, for buttons that are used within a form for different purposes other than submitting the data, the `type` attribute should always be specified to avoid unwanted effects of submitting a form.
 
 </div>
 
 ### Organizing form elements
 
-Using the correct inputs for the data we want users to enter goes a long way towards making our forms user friendly. However, in larger forms, users can easily get overwhelmed and discouraged if there are many inputs to fill in.
+Using the correct inputs for the data we want users to enter goes a long way towards making our forms user-friendly. However, in larger forms, users can easily get overwhelmed and discouraged if there are many inputs to fill in.
 
 Luckily, HTML provides a couple of elements that make it easy to organize forms into sections that are visually distinct and manageable to digest.
 
@@ -503,7 +505,7 @@ Certain aspects of other elements are downright impossible to style, for example
 
 #### Styling forms
 
-1. Read and follow along with [MDN's Form Styling Guides](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_tutorials)
+1. Read and follow along with [MDN's Form Styling Tutorials](https://developer.mozilla.org/en-US/docs/Learn/Forms#form_styling_tutorials)
 1. Read and follow along with [the internetingishard guide to forms](https://internetingishard.netlify.app/html-and-css/forms/index.html)
 
 </div>

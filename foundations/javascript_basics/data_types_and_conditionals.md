@@ -21,17 +21,16 @@ This section contains a general overview of topics that you will learn in this l
 Depending on what kind of work you're doing, you might end up working more with pieces of text rather than numbers. A **string** is a piece of text... and is a fundamental building block of the language.
 
 1. Read and code along with this [MDN tutorial on strings in JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings). Skip the `Concatenation in context` section, as it covers concepts we will cover in a later lesson on DOM Manipulation.
-1. Go through [the W3Schools lesson on string methods](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings. Also, be sure to take a peek at [the String Reference page](https://www.w3schools.com/jsref/jsref_obj_string.asp) near the bottom, and do the exercises in the assignment section [below](#assignment)!
-1. Vocabulary time: a **method** is a bit of functionality built into the language or specific data types. In [the W3Schools lesson on string methods](https://www.w3schools.com/js/js_string_methods.asp), you've learned about a few methods that can be used on strings, such as `replace` and `slice`. There are still many more built-in string methods which [the MDN documentation for strings provides an exhaustive reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String). You are not expected to memorize these but the documentation will be a very useful reference to revisit, so bookmark it!
+1. Go through [the W3Schools lesson on string methods](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings.
+1. Vocabulary time: a **method** is a bit of functionality built into the language or specific data types. In [the W3Schools lesson on string methods](https://www.w3schools.com/js/js_string_methods.asp), you've learned about a few methods that can be used on strings, such as `replace` and `slice`. The [MDN documentation for strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) provides an exhaustive reference for many more built-in string methods. You are not expected to memorize these but the documentation will be a very useful reference to revisit, so bookmark it!
 
 ### Conditionals
 
 Now it's time for the fun stuff...  So far, we haven't done much with our programming that you couldn't do with basic math skills. Sure, we've told our computer how to do the math, which makes it quicker, but the essence of programming is teaching the computer how to make decisions to do more involved things. Conditionals are how we do that.
 
 1. Step one in learning about conditionals is making sure you have a good grasp on [comparisons](http://javascript.info/comparison).
-1. W3Schools also has a [lesson on conditionals in JavaScript](https://www.w3schools.com/js/js_if_else.asp).
 1. JavaScript.info has a [good tutorial on logical operators](http://javascript.info/logical-operators). A little heads up regarding this reading's tasks: there will be questions where you see `alert()` with a number or string inside the parenthesis. What's happening here will be discussed later in the curriculum. Some of the answers may not make sense now, but they are accurate, and you will understand them as you progress in the curriculum. Don't worry too much about it now!
-1. The [MDN article on conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) reinforces the concept and provides several interesting examples of how you could use it building websites.
+1. The [MDN article on conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) is a great introduction to various ways to write conditional code.
 1. JavaScript.info's [lesson on `if/else`](http://javascript.info/ifelse) covers the same basic concept \(read through it as a review!\) and - more importantly - offers the usual 'tasks' at the bottom of the page!
 1. [Learn about the `switch` statement](https://javascript.info/switch), which is handy when you have multiple conditions.
 
@@ -39,37 +38,18 @@ Now it's time for the fun stuff...  So far, we haven't done much with our progra
 
 <div class="lesson-content__panel" markdown="1">
 
-To give you a good bit of practice, we have created replit.com exercises for you to play with. We believe it's best to practice programming on your *own* computer rather than in an online environment, but we'll get to that soon enough.
+To give you a good bit of practice, we have created JavaScript exercises for you to play with. They contain tests that are used to make sure that your code works like it is supposed to. Anywhere you see `return`, it just means that when the function finishes running, it will spit back whatever comes after `return`. In future lessons, we will go into much further detail regarding these concepts, so just hang in there for now!
 
-Be sure to do the lessons in the order presented here. Pressing "run" at the top will run the code. Read all directions, watch the terminal, and read all the errors. Don't forget to use 'console.log' extensively.
+Be sure to follow the order presented here. Read all the directions, watch the terminal, and read all the errors.
 
-To get started, you will need to create a free [Replit](https://replit.com/) account. After you have done that, you can do the exercises down below by opening their link and clicking "Fork" or "Remix" in their Replit page.
-Note: Feel free to browse the files on the left column to gain familiarity with it.
+1. Follow the [instructions in the README of our `javascript-exercises` repository](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) to set up your local environment. Once you have forked the repository, cloned it and installed Jest, review each README file prior to completing the following exercises in order (which are all in the `foundations/` directory):
+    - `01_helloWorld` (This exercise is intentionally very beginner-friendly to ensure that you have everything set up properly!)
+    - `02_addNumbers`
+    - `03_numberChecker`
+    - `04_mathEquations`
+    - `05_joinStrings`
 
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### Replit fork limit
-
-Replit now limits free accounts to having 3 repls at a time. If you reach the limit of 3 repls, you can delete one or more of the previous forks to create a room for the new one. To do so, go to [your repls](https://replit.com/repls) and delete what you no longer need.
-
-</div>
-
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### Replit and AI
-
-Replit recently introduced an AI assistant, which is on by default. Before trying any of the exercises, you should first disable it, in order to prevent it from spoiling the exercise. You can do so by clicking on the button labeled AI in the bottom left corner of the code view and then unchecking the "Enable" checkbox.
-
-</div>
-
-- [Exercise 1](https://replit.com/@OdinProject/troubleshooting#troubleshooting.js)
-  - In this exercise, you will be working out of the file called `troubleshooting.js`.
-- [Exercise 2](https://replit.com/@OdinProject/enter-a-number#script.js)
-  - You will be working out of `script.js`, and you will use the console in the 'webview' pane to check your work. To access the console, click the wrench icon, which is located on the right side of the address bar within the 'webview' pane.
-- [Exercise 3](https://replit.com/@OdinProject/lets-do-some-math#math.js)
-  - You will be working out of `math.js`.
-- [Exercise 4](https://replit.com/@OdinProject/direction-follow#follow.js)
-  - You will be working out of `follow.js`.
+Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
 </div>
 
@@ -90,15 +70,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are the comparison operators?](https://javascript.info/comparison)
 - [What are truthy and falsy values?](https://javascript.info/ifelse#boolean-conversion)
 - [What are the falsy values in JavaScript?](https://javascript.info/ifelse#boolean-conversion)
-- [What are conditionals?](https://www.w3schools.com/js/js_if_else.asp)
 - [What is the syntax for an if/else conditional?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#basic_if...else_syntax)
 - [What is the syntax for a switch statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#switch_statements)
 - [What is the syntax for a ternary operator?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#ternary_operator)
 - [What is nesting?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#nesting_if...else)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions), commonly known as regex, is a tool that matches or locates patterns in strings for string validation. However, it's important to know [when you shouldn't use regular expressions](https://softwareengineering.stackexchange.com/questions/113237/when-you-should-not-use-regular-expressions). There are other various methods to process strings, and regex can be slower in comparison.
-- [Web Dev Simplified's Regular Expressions In 20 Minutes](https://www.youtube.com/watch?v=rhzKDrUiJVk)

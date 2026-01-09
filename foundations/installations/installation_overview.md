@@ -18,6 +18,8 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-note" markdown="1">
 
+#### No need to install anything
+
 Specifics about distros/versions and OS installation instructions are all in the next lesson. You do not need to go and install anything just yet.
 
 </div>
@@ -66,16 +68,10 @@ Still not convinced? Here are a few great reasons to install Linux:
 - **Work Like The Pros** - Many developers use a Unix-based operating system.
 - **Performance** - Are you worried about installing Linux because your machine is slow or older and has limited space? When performance is a priority, Linux is a great choice. It uses fewer system resources than Windows and occupies less hard drive space.
 
-Many learners come to our Discord channel to ask if the directions on this page need to be followed. The moderators of our Discord server wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
+Many learners come to our Discord channel to ask if the directions on this page need to be followed. The team, which also runs our Discord server, wrote everything you just read about the installation plan. Those supporting learners on our Discord server agree with the guidance on this page and will make the same recommendations you have read here.
 
 Before we can continue, we must first stress one detail of importance:
 
 **We can only support what is provided within the scope of our curriculum. We do not support native Windows as a development environment.** Using Windows has been discussed many times and it is not feasible to do so at this time. Please do not ask us to support Windows, and **do not bring it up in the Discord**. We are constantly evaluating our curriculum to keep content as fresh and accessible as possible, and Windows has not proven to be a path of low resistance. For more information on The Odin Project and Windows, we have a [list of reasons why Windows is not a supported OS in The Odin Project](https://github.com/TheOdinProject/blog/wiki/Why-We-Do-Not-Support-Windows).
 
 With that out of the way, we need to set up an appropriate development environment!
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

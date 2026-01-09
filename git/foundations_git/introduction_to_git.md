@@ -49,12 +49,4 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Does Git work at a local or remote level?](#git-local)
 - [Does GitHub work at a local or remote level?](#github-remote)
 - [Why is Git useful for developers?](https://www.youtube.com/watch?v=2ReR1YJrNOM)
-- [Why are Git and GitHub useful for a team of developers?](https://youtu.be/1h9_cB9mPT8?t=162)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [What is Git and GitHub?](https://content.red-badger.com/resources/what-is-git-and-github)
-- [What is version control?](https://www.atlassian.com/git/tutorials/what-is-version-control)
-- [What is Git?](https://www.atlassian.com/git/tutorials/what-is-git)
+- [Why are Git and GitHub useful for a team of developers?](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)

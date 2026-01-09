@@ -16,7 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### How to run JavaScript code
 
-All JavaScript we will be writing in the majority of the Foundations course will be run via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment.
+All JavaScript we will be writing in the majority of the Foundations course will be run via the browser. Later lessons in Foundations and the NodeJS path will show you how to run JavaScript outside of the browser environment. This means that we will let the browser execute our code, even if it comes from a file we created.
 
 Outside of these lessons, for now you should always default to running your JavaScript in the browser unless otherwise specified, otherwise you may run into unexpected errors.
 
@@ -69,18 +69,18 @@ We named our file `javascript.js` but we could have chosen any name like `my-scr
 
 ### Variables
 
-These are the building blocks of any program, you can think of variables as "storage containers" for data in your code.
+These are the building blocks of any program. You can think of variables as "storage containers" for data in your code.
 
 ![Variable Box Illustration](https://cdn.statically.io/gh/TheOdinProject/curriculum/d39eaf2ca95e80705f703bb218216c10508f5047/foundations/javascript_basics/fundamentals-1/imgs/00.png)
 
 You can declare variables using the `let` keyword. Let's try it! (No pun intended).
 
 ```javascript
-let name = "John";
-let surname = "Doe";
+let firstName = "John";
+let lastName = "Doe";
 
-console.log(name);
-console.log(surname);
+console.log(firstName);
+console.log(lastName);
 ```
 
 What will the `console.log` output? Try it out!
@@ -120,9 +120,15 @@ There is also a third way, `var`, which was the original way variables were decl
 
 ### Numbers
 
-Numbers are the building blocks of programming logic! In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math... so knowing how numbers work is obviously quite important. Luckily, it's also fairly straightforward.
+Numbers are the building blocks of programming logic! In fact, it's hard to think of any useful programming task that doesn't involve at least a little basic math, so knowing how numbers work is obviously quite important. Luckily, in JavaScript, the way numbers behave is quite familiar.
 
-If you went to school, you will likely not find the concept too difficult to grasp. For example, the mathematical expression `(3 + 2) - 76 * (1 + 1)` is also valid JavaScript. If you put that into a `console.log`, it'll evaluate the expression and output the correct number. Try it!
+For instance, JavaScript follows the standard mathematical **Order of Operations** (often remembered by acronyms like **PEMDAS** or **BODMAS**). This means:
+
+1. **Parentheses** (or Brackets) are evaluated first.
+1. **Multiplication** and **Division** are done next, from left to right.
+1. **Addition** and **Subtraction** are done last, from left to right.
+
+For example, the mathematical expression `(3 + 2) - 76 * (1 + 1)` is perfectly valid JavaScript and will evaluate exactly as you'd expect, if you put that expression into a `console.log`.
 
 ### Assignment
 
@@ -148,8 +154,8 @@ Try the following exercises by adding code to a script tag in your HTML file:
 
 Go through the following articles to deepen your knowledge.
 
-1. Read up on [variables in JavaScript](https://javascript.info/variables#variable-naming) from JavaScript.info.
-1. This W3Schools lesson on [JavaScript arithmetic](https://www.w3schools.com/js/js_arithmetic.asp) followed by this on [JavaScript numbers](https://www.w3schools.com/js/js_numbers.asp), are good introductions to what you can accomplish with numbers in JavaScript.
+1. Have a look at [MDN's "What is JavaScript?"](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) to understand the role of JavaScript on a webpage.
+1. Read up on [variables in JavaScript](https://javascript.info/variables) from JavaScript.info.
 1. This MDN article on [JavaScript math](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view, while also teaching you how to apply some basic math in JavaScript. There's much more that you can do with numbers, but this is all you need at the moment.
 1. Read through (and code along with!) this article on [JavaScript operators](http://javascript.info/operators). Don't forget to do the "Tasks" at the bottom of the page! It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
 
@@ -164,7 +170,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What rules should you follow when naming variables?](https://javascript.info/variables#variable-naming)
 - [What happens when you add numbers and strings together?](https://javascript.info/operators#string-concatenation-with-binary)
 - [How does the Modulo (%), or Remainder, operator work?](https://javascript.info/operators#remainder)
-- [What's the difference between `==` and `===`?](https://www.w3schools.com/js/js_operators.asp)
+- [What's the difference between `==` and `===`?](https://www.w3schools.com/js/js_comparisons.asp)
 - [When would you receive a `NaN` result?](https://www.w3schools.com/js/js_numbers.asp)
 - [How do you increment and decrement a number?](https://javascript.info/operators#increment-decrement)
 - [What's the difference between prefixing and postfixing increment/decrement operators?](https://javascript.info/operators#increment-decrement)
@@ -172,9 +178,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you access developer tools and the console?](#how-to-run-javascript-code)
 - [How do you log information to the console?](#how-to-run-javascript-code)
 - [What does unary plus operator do to string representations of integers? eg. +"10"](https://javascript.info/operators#numeric-conversion-unary)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [MDN's "What is JavaScript?"](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) explains a bit more about it on a high-level.

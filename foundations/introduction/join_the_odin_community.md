@@ -28,7 +28,7 @@ As most of the projects are designed to push you to your limit, please remember 
 
 If you're feeling stuck, it's a good time to pause and take a breather. Break the problem down into little pieces and then decide what is really holding you back. We call this technique [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging).
 
-You should also use Google to find relevant information for your problem. Read about [how to use Google to solve your programming questions](https://old.codinginflow.com/google-programming-questions). You can also look back at previous lessons for tools that you can apply to the current task.
+You should also use Google to find relevant information for your problem. Read about [how to use Google to solve your programming questions](https://web.archive.org/web/20250918082145/https://old.codinginflow.com/google-programming-questions). You can also look back at previous lessons for tools that you can apply to the current task.
 
 If these methods don't yield a solution for you, then it's time to reach out to the Odin community and ask for help.
 
@@ -48,7 +48,7 @@ When asking your question, please remember to include the context:
 
 If you can't pinpoint the problem, you can share a **screenshot**. This is especially useful for showing the output of commands in the command line. In Discord, drag and drop your screenshot image file into the chat box to upload it, or use the PrtScn and paste keyboard shortcuts. If you don’t know how to take a screenshot on your computer, this is a good time to ask Google.
 
-Screenshots are great for showing the output of commands or error messages in the command line. Screenshots are also great for showing the output from your code such as how the output looks visually on a webpage or console outputs in the browser. However, you should always include the corresponding files containing the error. Even if it is a short amount of code, providing it in the discord server in the proper format along with a screenshot of the output is helpful to those debugging it rather than just a screenshot. When you do share a screenshot of the output or how it looks visually make sure to push your project to GitHub or put your corresponding code in a [Replit](https://replit.com) so that others can comb through and debug the code. The screenshot of the output and the correlating code that can recreate the problem will help make it easier to understand the problem for people helping you. You'll learn all about GitHub very soon.
+Screenshots are great for showing the output of commands or error messages in the command line. Screenshots are also great for showing the output from your code such as how the output looks visually on a webpage or console outputs in the browser. However, you should always include the corresponding files containing the error. Even if it is a short amount of code, providing it in the discord server in the proper format along with a screenshot of the output is helpful to those debugging it rather than just a screenshot. When you do share a screenshot of the output or how it looks visually make sure to push your project to GitHub or share your corresponding code using an appropriate online REPL (such as [CodePen](https://codepen.io)) so that others can comb through and debug the code. The screenshot of the output and the correlating code that can recreate the problem will help make it easier to understand the problem for people helping you. You'll learn all about GitHub very soon.
 
 Sometimes there might be no one around to help you with your issue. That is the ideal time to get familiar with the [Discord search function](https://support.discordapp.com/hc/en-us/articles/115000468588-Using-Search). Search for specific keywords or error messages to see if anyone else had a similar issue before and how they solved it!
 
@@ -121,7 +121,7 @@ If the question seems confusing or ambiguous, ask for more clarity, or politely 
 
 #### 7. Ask for live code
 
-If the question needs to have live code to fully understand or debug, ask them to use [replit](https://replit.com) to provide it. If the problem is difficult to isolate, they should recreate the problem with isolated code.
+If the question needs to have live code to fully understand or debug, ask them to use an appropriate online REPL (such as [CodePen](https://codepen.io)) to provide it. If the problem is difficult to isolate, they should recreate the problem with isolated code.
 
 #### 8. Do not answer Googleable questions
 
@@ -175,7 +175,7 @@ Sometimes there are misunderstandings and interactions go poorly. You are a volu
 
 1. Now, sign in to [our Discord server](https://discord.gg/fbFCkYabZB). Pop in and say hello! We've created an introductions room which is a great place to introduce yourself and we're always happy to welcome new community members. We have chat rooms for every development topic covered in our curriculum. Log into the chat and start exploring!
 
-   - **Link your GitHub to your Discord profile:** Go to `Discord Settings > Connections`, then click the GitHub icon. In the new tab that opens click "Allow Access", then back in Discord make sure "Display on profile" is toggled on. This will allow others to see what you're working on and vice versa!
+   - **(Optional) Link your GitHub to your Discord profile:** Click the gear icon to the right of your username to open `User Settings`. Go to `Connections`, then click the GitHub icon. In the new tab that opens click "Allow Access", then back in Discord make sure "Display on profile" is toggled on. This will allow others to see what you're working on and vice versa!
 
 1. Here are some guidelines before you dive in:
 
@@ -197,9 +197,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you join The Odin Project's Discord server?](https://discord.gg/fbFCkYabZB)
 - [What makes a good question that's easier for others to help with?](#asking-for-help)
 - [How can you more effectively help others with their coding problems?](#how-to-help-others-solve-coding-problems)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- For more information on formatting, check out [Discord Markdown 101](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-).

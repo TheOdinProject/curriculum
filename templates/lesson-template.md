@@ -24,21 +24,15 @@ A sample note box.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### level 4 heading for title is recommended
+#### Level 4 heading for title is required
 
 A sample note box, variation: tip.
 
 </div>
 
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### But title is also optional
-
-A sample note box, variation: warning.
-
-</div>
-
 <div class="lesson-note lesson-note--critical" markdown="1">
+
+#### Note boxes can have variations
 
 A sample note box, variation: critical.
 
@@ -60,9 +54,3 @@ A sample note box, variation: critical.
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [A KNOWLEDGE CHECK QUESTION](A-KNOWLEDGE-CHECK-URL)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

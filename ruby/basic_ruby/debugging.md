@@ -25,7 +25,7 @@ The stack trace prints each line of code in your program that was executed befor
 
 ![First line of stack trace](https://cdn.statically.io/gh/TheOdinProject/curriculum/a2cfa47e944fa8127ccf5faa6e1c7c328de42428/ruby/basic_ruby/debugging/imgs/01.png)
 
-<span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 31 of the file `bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://docs.ruby-lang.org/en/3.3/NameError.html)). And yes, in Ruby, [errors (Exceptions) are also objects](https://docs.ruby-lang.org/en/3.3/Exception.html).</span>
+<span id='stack-trace-first-line-info'>First, this line of the stack trace will tell you what specific line caused the runtime error. In the above example, the error was encountered in line 31 of the file `bottles.rb`. This line also provides a brief explanation of the error and the name of the error. (In this case, it's a [`NameError`](https://docs.ruby-lang.org/en/3.4/NameError.html)). And yes, in Ruby, [errors (Exceptions) are also objects](https://docs.ruby-lang.org/en/3.4/Exception.html).</span>
 
 There you have it. At this point, you know where in your code the exception is being raised, and you know the type of error you're dealing with. You might even know what fixes need to be implemented in your code.
 
@@ -94,7 +94,7 @@ irb(main):013:0> isogram?("Odin")
 => false
 ```
 
-Indeed, we didn't use `#split` correctly, as it creates an array with the given string rather than an array of the string's characters. Why? By default, if we didn’t provide arguments, [the #split method](https://docs.ruby-lang.org/en/3.3/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in a REPL or IRB using `#split('')` instead, and you'll see the difference.
+Indeed, we didn't use `#split` correctly, as it creates an array with the given string rather than an array of the string's characters. Why? By default, if we didn’t provide arguments, [the #split method](https://docs.ruby-lang.org/en/3.4/String.html#method-i-split) will divide the string using `whitespace` as the delimiter. Try running the above code in IRB using `#split('')` or an appropriate online REPL instead, and you'll see the difference.
 
 Hostage situation resolved! That wasn't so bad, was it?
 
@@ -102,7 +102,7 @@ Hostage situation resolved! That wasn't so bad, was it?
 
 Using `puts` is a great way to debug, but there's a **HUGE** caveat with using it: calling `puts` on anything that is `nil` or an empty string or collection will just print a blank line to your terminal.
 
-This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of puts and [the #inspect method](https://docs.ruby-lang.org/en/3.3/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:
+This is one instance where using `p` will yield more information. As mentioned above, `p` is a combination of puts and [the #inspect method](https://docs.ruby-lang.org/en/3.4/Object.html#method-i-inspect), the latter of which essentially prints a string representation of whatever it's called on. To illustrate this, try the following in a REPL:
 
 ```ruby
 puts "Using puts:"

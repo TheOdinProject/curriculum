@@ -1,5 +1,5 @@
-<!-- markdownlint-disable MD024 MD043 -->
-
+<!-- TODO: Revisit lesson/heading structure to remove need to disable rules -->
+<!-- markdownlint-disable MD024 TOP004 -->
 ### Introduction
 
 Node.js is a JavaScript runtime environment that allows you to run JavaScript outside of your web browser. We will need this for some exercises in the upcoming lessons. To get started, there are some required tools we need before we can install Node on your system.
@@ -18,8 +18,8 @@ This section contains a general overview of topics that you will learn in this l
 ### Installing NVM
 
 <details markdown="block">
-  
-  <summary class="dropDown-header">Installation on Linux</summary>
+
+<summary class="dropDown-header">Installation on Linux</summary>
 
 #### Step 0: Prerequisites
 
@@ -40,7 +40,7 @@ sudo apt update && sudo apt upgrade
 Run this command to install `nvm`:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 ```
 
 #### Step 2: Initializing NVM
@@ -63,8 +63,8 @@ If this returns `nvm: command not found`, close the terminal and re-open it.
 </details>
 
 <details markdown="block">
-  
-  <summary class="dropDown-header">Installation on macOS</summary>
+
+<summary class="dropDown-header">Installation on macOS</summary>
   
 On macOS 10.15 and above, the default shell is now zsh. During installation, nvm will look for a `.zshrc` file in your user home directory. By default, this file does not exist so we need to create it.
 
@@ -75,7 +75,7 @@ touch ~/.zshrc
 ```
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 ```
 
 Restart your terminal, or copy and paste the following into your terminal and press <kbd>Enter</kbd>:
@@ -128,16 +128,12 @@ We have told `nvm` to use the most recent LTS version of Node installed on our c
 
 Now when you run `node -v`, you should see `vXX.xx.x` or something similar (with the X's replaced with actual numbers).
 
-If you see that, you have successfully installed Node!
+Installing Node also installs npm alongside it. Run `npm -v` and like above you should see `XX.xx.x` or something similar.
+
+If you see those messages, you have successfully installed Node and npm!
 
 ### Using Node console
 
 For convenience, Node provides an interactive console which lets you run and edit your JavaScript code right in your terminal, similar to IRB for ruby. This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time.
 
 To run the Node console, open up your terminal and type `node`. Type `.exit` to quit the console.
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Check out this 4 minute video by Programming with Mosh [What is NodeJS?](https://www.youtube.com/watch?v=uVwtVBpw7RQ)

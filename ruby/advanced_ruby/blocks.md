@@ -22,18 +22,16 @@ Although you are familiar with how to write blocks in the context of enumerable 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is a block?
-- How is a block like a method?
-- What are the two ways to declare a block?
-- Why would you use a block instead of just creating a method?
-- What does `yield` do?
-- How do you pass arguments to a block from within a method?
-- How do you check whether a block was actually passed in?
-- What is a proc?
-- What is a lambda?
-- What's the difference between a proc and a block?
-- When would you use a proc instead of a block?
-- What's different between a lambda and a proc?
+- Explain what a block is.
+- Describe the similarities between blocks and methods.
+- Describe the two ways to declare a block.
+- Explain why you would decide to use a block instead of a method.
+- Explain `yield`.
+- Explain how arguments are passed to a block from within a method.
+- Explain how to check whether a block has been passed to a method.
+- Describe procs.
+- Describe lambdas.
+- Explain the differences and similarities between blocks, procs, and lambdas.
 
 ### Yield
 
@@ -225,7 +223,7 @@ maybe_block {} # {} is just an empty block
 # => executed regardless
 ```
 
-You may have already come across this in some of the enumerables. [#count](https://docs.ruby-lang.org/en/3.3/Enumerable.html#method-i-count) is a method that can be called with or without a block. If called without an argument, it just returns the size of whatever it was called on. When called with an argument, it counts how many times that argument appears in the object it was called on. And with a block, it yields to the block and provides a count of how many times the block returns a truthy response. If you toggle to view the source code of `#count` on the Ruby Documentation site, you'll see it's written in C, but even glancing over the unfamiliar C syntax, you should be able to tell that it checks if a block has been given. With Ruby we just have a more elegant syntax.
+You may have already come across this in some of the enumerables. [#count](https://docs.ruby-lang.org/en/3.4/Enumerable.html#method-i-count) is a method that can be called with or without a block. If called without an argument, it just returns the size of whatever it was called on. When called with an argument, it counts how many times that argument appears in the object it was called on. And with a block, it yields to the block and provides a count of how many times the block returns a truthy response. If you toggle to view the source code of `#count` on the Ruby Documentation site, you'll see it's written in C, but even glancing over the unfamiliar C syntax, you should be able to tell that it checks if a block has been given. With Ruby we just have a more elegant syntax.
 
 ### Lambdas
 
@@ -332,7 +330,7 @@ nested_array.select {|a, b| a + b > 10 }
 As you can see, `#select` has two arguments specified `|a, b|`, on each iteration we pass a single element of nested_array into the block. On the first iteration this is: `[1, 2]`, this array now, is deconstructed automatically (into a = 1, b = 2) and its values compared as specified. So on to the next rounds of iteration in which we pass `[3, 4]` and `[5, 6]` one by one.
 This happens because the block `{|a, b| if a + b > 10 }` is treated as a non-lambda proc.
 This property is not limited to `#select` but also applies to other `enum` methods like `#map`, `#each` etc.
-You can read more about this in the [Proc class documentation](https://docs.ruby-lang.org/en/3.3/Proc.html).
+You can read more about this in the [Proc class documentation](https://docs.ruby-lang.org/en/3.4/Proc.html).
 
 A lambda, on the other hand, DOES care and will raise an error if you don't honor the number of parameters expected.
 
@@ -357,18 +355,7 @@ a_lambda.call
 # => 1
 ```
 
-A proc object, however, returns from the context in which it is called. If you are in the top level context (outside of a class or method), then you'll get an error because you can't return out of the very top level context, as there is no caller to return to.
-
-```ruby
-a_proc = Proc.new { return }
-
-a_proc.call
-# => localJumpError (unexpected return)
-```
-
-Note that if you try the above example on replit.com you won't get an error. This just has to do with how replit.com manages the context of code. If you try it in irb then you'll get the expected error.
-
-If you return from a proc inside a method, the method is the context in which it was called and therefore it returns from the method before any of the other code below it is executed.
+A proc object, however, returns from the "embracing method" (the method that *defines* the proc).
 
 ```ruby
 def my_method
@@ -381,6 +368,48 @@ end
 my_method
 #=> this line will be printed
 ```
+
+In this example, the proc is called inside the method that defines it. The result is to return from the method itself.
+
+Taking a look at a more complex example:
+
+```ruby
+def outer_method
+  a_proc = Proc.new { return }
+  puts "this line will be printed"
+
+  inner_method(a_proc)
+  puts "this line is never reached"
+end
+
+def inner_method(proc)
+  proc.call
+  puts "this line is also never reached"
+end
+
+outer_method
+#=> this line will be printed
+```
+
+Here the proc is passed to another method and that method calls it. When the `inner_method` calls the proc, it will return from the `outer_method`. This can potentially create confusing behavior where the code path is mysteriously jumping across different contexts, so if you want to define a block that uses `return` and pass it around to other methods, a lambda is likely a better choice.
+
+Note that defining a proc that uses `return` at the top level will just exit the program altogether:
+
+```ruby
+a_proc = Proc.new { return }
+
+a_proc.call
+
+puts "This line won't run."
+```
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Avoiding LocalJumpError in IRB
+
+If you run a proc with a top level return in IRB, it will raise a `LocalJumpError`. This behavior is specific to the way the IRB process works though, and running it from a file will work as described above.
+
+</div>
 
 ### Similarities
 
@@ -452,9 +481,9 @@ arr.map(&:to_i)
 # => [1, 2, 3]
 ```
 
-What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. You can see [what #to_proc does](https://docs.ruby-lang.org/en/3.3/Symbol.html#method-i-to_proc) in the Ruby docs. It returns a proc object which responds to the given method indicated by the symbol. So here, `#map` yields each value in the array to the proc object, which calls `#to_i` on it.
+What happens under the hood is that `#to_proc` is called on the symbol `:to_i`. You can see [what #to_proc does](https://docs.ruby-lang.org/en/3.4/Symbol.html#method-i-to_proc) in the Ruby docs. It returns a proc object which responds to the given method indicated by the symbol. So here, `#map` yields each value in the array to the proc object, which calls `#to_i` on it.
 
-(Yes, names of methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation for #send](https://docs.ruby-lang.org/en/3.3/Object.html#method-i-send) if you're interested, and this Stack Overflow article on [how #send and #to_i are used together](https://stackoverflow.com/questions/14881125/what-does-to-proc-method-mean) for `arr.map(&:to_i)` to work.)
+(Yes, names of methods like `#to_i` can be passed around using symbols. It's outside the scope of this lesson, but check out the [documentation for #send](https://docs.ruby-lang.org/en/3.4/Object.html#method-i-send) if you're interested, and this Stack Overflow article on [how #send and #to_i are used together](https://stackoverflow.com/questions/14881125/what-does-to-proc-method-mean) for `arr.map(&:to_i)` to work.)
 
 <span id="proc-to-block">The `&` also works the other way. You can prepend it to a proc object and it converts it to a block, and passes the block to the method being called.</span>
 
@@ -518,9 +547,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What's different between a lambda and a proc?](#procs-vs-lambdas)
 - [How do you convert a proc to a block?](#proc-to-block)
 - [How do you convert a block to a proc?](#capturing-blocks)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

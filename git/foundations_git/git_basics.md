@@ -28,7 +28,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. From the GitHub homepage, create a new repository by clicking the "+" button in the top-right corner and selecting "New repository". *If you are using a smaller viewport, that button may be hidden. In that case click on your profile picture in the top-right corner and the button will appear next to your profile name.*
 
-1. Give your repository the name "git_test" in the repository name input field. Check "Add a README file". Then create the repository by clicking the "Create repository" button at the bottom of the page.
+1. Give your repository the name "git_test" in the repository name input field. Switch on the "Add README" option (this automatically creates a `README.md` file in your new repository). Then create the repository by clicking the "Create repository" button at the bottom of the page.
 
 1. This will redirect you to your new repository on GitHub. To get ready to copy (clone) this repository onto your local machine, click the green "Code" button, which should be to the right of the button displaying the current branch (typically it will display the *main* branch). Then select the SSH option in the "Clone" section, and copy the line below it. **NOTE: You MUST click the SSH option to get the correct URL.**
 
@@ -45,14 +45,14 @@ This section contains a general overview of topics that you will learn in this l
    git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
    ```
 
-1. <span id="origin-push"></span>That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this, `cd` into the new **git_test** folder that was downloaded and then enter `git remote -v` on your command line. You should see an output similar to the following, where `USER-NAME` is your GitHub username:
+1. <span id="origin-push"></span>That's it! You have successfully connected the repository you created on GitHub to your local machine. To test this, run `cd git_test` to move into the new **git_test** folder that was downloaded, then enter `git remote -v` in your command line. You should see an output similar to the following, where `USER-NAME` is your GitHub username:
 
-  ```bash
-  origin  git@github.com:USER-NAME:git_test.git (fetch)
-  origin  git@github.com:USER-NAME:git_test.git (push) 
-  ```
-  
-This displays the URL of the repository you created on GitHub, which is the remote for your local copy. <span id="default-remote"></span>You may have also noticed the word *origin* at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository, but it could have just as easily been named "party-parrot" or "dancing-banana". (Don't worry about the details of origin for now; it will come up again near the end of this tutorial.)
+   ```bash
+   origin  git@github.com:USER-NAME/git_test.git (fetch)
+   origin  git@github.com:USER-NAME/git_test.git (push)
+   ```
+
+   This displays the URL of the repository you created on GitHub, which is the remote for your local copy. <span id="default-remote"></span>You may have also noticed the word *origin* at the start of the `git remote -v` output, which is the name of your remote connection. The name "origin" is both the default and the convention for the remote repository, but it could have just as easily been named "party-parrot" or "dancing-banana" (don't worry about the details of "origin" for now; it will come up again near the end of this tutorial).
 
 #### Use the Git workflow
 
@@ -74,7 +74,7 @@ This displays the URL of the repository you created on GitHub, which is the remo
 
    MacOS users: If your terminal reads *"command not found: code"*, you must head back to [Command Line Basics](https://www.theodinproject.com/lessons/foundations-command-line-basics#opening-files-in-vscode-from-the-command-line) and follow the instructions provided to allow this command to work.
 
-1. Add "Hello Odin!" to a new line in `README.md` and save the file with <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>).
+1. Add "Hello Odin!" to a new line in `README.md` and save the file with <kbd>Ctrl</kbd> + <kbd>S</kbd> (Mac: <kbd>Cmd</kbd> + <kbd>S</kbd>) if your vs code is not auto saving changes.
 
 1. Go back to your terminal, or if you're using Visual Studio Code, open the built-in terminal by pressing <kbd>Ctrl</kbd> + <kbd>&#96;</kbd> (backtick). Then type `git status`. Notice how the output is similar to when we created our `hello_world.txt` file before adding it to the staging area, except the `README.md` file is listed in a section titled "Changes not staged for commit". The meaning is similar to the "Untracked files" section in that the file is not yet added to the staging area.
 
@@ -92,7 +92,7 @@ This displays the URL of the repository you created on GitHub, which is the remo
 
 Finally, let's upload your work to the GitHub repository you created at the start of this tutorial.
 
-1. <span id="git-push"></span>Type `git push`. To be more specific, type `git push origin main`. Since you are not dealing with another branch (other than *main*) or a different remote (as mentioned above), you can leave it as `git push` to save a few keystrokes. **NOTE: If at this point you receive a message that says "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.", you have followed the steps incorrectly and cloned with HTTPS, not SSH. Please follow the steps for [switching remote URLs from HTTPS to SSH](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh) to change your remote to SSH, then attempt to push to Github.**
+1. <span id="git-push"></span>Type `git push`. To be more specific, type `git push origin main`. Since you are not dealing with another branch (other than *main*) or a different remote (as mentioned above), you can leave it as `git push` to save a few keystrokes. **NOTE: If at this point you receive a message that says "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.", you have followed the steps incorrectly and cloned with HTTPS, not SSH. Please follow the steps for [switching remote URLs from HTTPS to SSH](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories?platform=linux#switching-remote-urls-from-https-to-ssh) to change your remote to SSH, then attempt to push to Github.**
 
 1. Type `git status` one final time. It should output "*Your branch is up to date with 'origin/main'. nothing to commit, working tree clean*".
 
@@ -171,9 +171,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you commit the files in the staging area and add a descriptive message?](#git-commit)
 - [How do you push your changes to your repository on GitHub?](#git-push)
 - [How do you look at the history of your previous commits?](#git-log)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

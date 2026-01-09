@@ -30,7 +30,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-To ensure a good user experience and to meet accessibility guidelines, we should always indicate which fields are required. This will often be done by adding an asterisk(\*) to the required field label like we have done in the example.
+To ensure a good user experience and to meet accessibility guidelines, we should always indicate which fields are required. This will often be done by adding an asterisk(\*) to the required field label like we have done in the example. You could also add a message that makes the meaning of the asterisk(\*) clear to the user.
 
 ### Text length validations
 
@@ -51,6 +51,14 @@ To add the minimum length validation, we give the form control a `minlength` att
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Try entering less than three characters into the text area and clicking the post button to see the validation in action.
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### minlength doesn't imply required
+
+You can try it yourself in the above example by not entering anything in the input and it will still submit. This is because, as mentioned in [MDN's docs on minlength](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/minlength), "Constraint validation is only applied when the value is changed by the user."
+
+</div>
 
 #### Maximum length validation
 

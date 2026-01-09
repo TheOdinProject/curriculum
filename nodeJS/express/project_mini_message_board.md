@@ -35,7 +35,7 @@ At this point you should know enough to use Express to make some fun interactive
    ```
 
 1. With your form set up like this, when you click on the submit button it should send a POST request to the url specified by the action attribute, so go back to your index router and add a `router.post()` for `"/new"`.
-1. In order to get and use the data from your form, you will need to access the contents of your form inside `router.post()` as an object called `req.body`. The individual fields inside the body object are named according to the `name` attribute on your inputs (the value of `<input name="messageText">` will show up as `req.body.messageText` inside the `router.post` function). For this to work as intended, you'll need to use a app level Express middleware called `express.urlencoded()` to parse the form data into `req.body`. You can set this up by adding the following line to your app setup:
+1. In order to get and use the data from your form, you will need to access the contents of your form inside `router.post()` as an object called `req.body`. The individual fields inside the body object are named according to the `name` attribute on your inputs (the value of `<input name="messageText">` will show up as `req.body.messageText` inside the `router.post` function). For this to work as intended, you'll need to use an app level Express middleware called `express.urlencoded()` to parse the form data into `req.body`. You can set this up by adding the following line to your app setup:
 
    ```javascript
    app.use(express.urlencoded({ extended: true }));

@@ -39,6 +39,8 @@ Now do this over and over for each entity, across multiple projects. You get the
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Refactor your previous projects
+
 If you haven't applied any of the above paradigms in your previous projects, we highly recommend going back and refactoring. You might end up with a very basic mini ORM for your project. This will help you appreciate a bit more how a proper ORM will make your life easier.
 
 </div>
@@ -126,12 +128,73 @@ In the [Using PostgreSQL lesson](https://www.theodinproject.com/lessons/nodejs-u
 
 </div>
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Official Prisma extension on Visual Studio Code
+
+If you use VS Code, you may want to install the [official Prisma VS Code extension](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma) to get features like syntax highlighting, IntelliSense / auto-completion, schema linting, and easier navigation between models. It makes working with Prisma schema files much more pleasant.
+
+</div>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Go through the [get started guide for relational databases](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-node-postgresql), which covers migrations, schema, and the Prisma client.
-1. Read the following articles from Prisma's documentation. Try to code along with the examples. Don't worry if things don't stick yet, we'll be practising *a lot* of Prisma in the coming projects.
+1. Go through the [Quickstart with Prisma ORM and PostgreSQL](https://www.prisma.io/docs/getting-started/prisma-orm/quickstart/postgresql), which covers migrations, schema, and the Prisma client.
+
+   <div class="lesson-note" markdown="1">
+
+   #### Getting Prisma to work with JavaScript
+
+   Recently, Prisma has decided to only continue supporting Typescript. This means we will need to modify their Quickstart guide to have it work with JavaScript.
+
+   As you follow along the Prisma Quickstart guide, modify the following steps as described below.
+
+   **Step 1:** Skip the second set of commands:
+
+   ```bash
+   npm init -y
+   npm install typescript tsx @types/node --save-dev
+   npx tsc --init
+   ```
+
+   **Step 2:** You do not need to install `@types/node` nor `@types/pg`.
+
+   **Step 3:** We're not using Typescript, so we will completely skip this step.
+
+   **Step 4:** We want to be using the `prisma-client-js` generator instead of the default, so add `--generator-provider prisma-client-js` to the Prisma init command:
+
+   ```bash
+   npx prisma init --datasource-provider postgresql --output ../generated/prisma --generator-provider prisma-client-js
+   ```
+
+   We will also rename `prisma.config.ts` to `prisma.config.js`.
+
+   **Steps 5 and 6:** No changes necessary.
+
+   **Step 7:**  Instead of `lib/prisma.ts`, create `lib/prisma.js`. You must also add the `.js` file extension when importing `PrismaClient` in that file:
+
+   ```javascript
+   import { PrismaClient } from '../generated/prisma/client.js';
+   ```
+
+   **Step 8:** File created should be named `script.js`, and when importing `prisma` in that file, add the `.js` file extension, so the first line is:
+
+   ```javascript
+   import { prisma } from './lib/prisma.js';
+   ```
+
+   To run the script, run `node script.js`.
+
+   **Step 9:** Since we changed the file extension of prisma config, we should modify the command to be:
+
+   ```bash
+   npx prisma studio --config ./prisma.config.js
+   ```
+
+   </div>
+
+1. Read the following articles from Prisma's documentation. Try to code along with the examples. Don't worry if things don't stick yet, we'll be practicing *a lot* of Prisma in the coming projects.
    - [What is Prisma ORM?](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma)
    - [Prisma schema overview](https://www.prisma.io/docs/orm/prisma-schema/overview)
    - [Data models](https://www.prisma.io/docs/orm/prisma-schema/data-model/models)
@@ -160,5 +223,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Learn Prisma In 60 Minutes](https://www.youtube.com/watch?v=RebA5J-rlwg) by Web Dev Simplified.
 - [Prisma Crash Course](https://www.youtube.com/watch?v=CYH04BJzamo) by Traversy Media.

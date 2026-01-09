@@ -2,25 +2,27 @@
 
 Now that we have PostgreSQL up and running on our machine, it's time to work with it.
 
-<div class="lesson-note lesson-note--critical" markdown="1">
-
-Make sure you've completed the [SQL course](https://www.theodinproject.com/paths/full-stack-javascript/courses/databases).
-
-This lesson and all subsequent lessons will assume you understand SQL syntax and concepts.
-
-</div>
-
 For brevity's sake, we'll refer to database as db from now on.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Setting up a new db in PostgreSQL shell
-- Setting up and querying with node-postgres
-- Using a script to populate the db
+- Setting up a new db in PostgreSQL shell.
+- Setting up and querying with node-postgres.
+- Using a script to populate the db.
 
 ### Setting up an Express app
+
+<div class="lesson-note lesson-note--critical" markdown="1">
+
+#### Lesson prerequisite
+
+Make sure you've completed the [SQL course](https://www.theodinproject.com/paths/full-stack-javascript/courses/databases).
+
+This lesson and all subsequent lessons will assume you understand SQL syntax and concepts.
+
+</div>
 
 Let's start by creating an Express application. It will just have one feature - add usernames provided by the user to the db. Here are the expected routes and their functionalities:
 
@@ -114,6 +116,8 @@ module.exports = new Pool({
   port: 5432 // The default port
 });
 ```
+
+Remember that you should change the `<role_name>` and `<role_password>` (We have already set them in the previous lesson)!
 
 An alternative to defining the connection information is through a [Connection URI](https://node-postgres.com/features/connecting#connection-uri). You'll likely be using connection URIs when connecting with a hosted database service. Here's what it would look like based on the above properties:
 
@@ -212,7 +216,7 @@ Take your app for a spin, hopefully it works as expected.
 
 ### Populate the db via a script
 
-You might have noticed how cumbersome it is to create a table and populate it with data. Luckily, we have the power of c(n)ode by our side, let's automate it via a script. Create a new file `db/populatedb.js`.
+You might have noticed how cumbersome it is to create a table and populate it with data. Luckily, we have the power of (c\|n)ode by our side, let's automate it via a script. Create a new file `db/populatedb.js`.
 
 ```javascript
 #! /usr/bin/env node
@@ -254,7 +258,7 @@ DROP TABLE usernames;
 
 You can then run this script via `node db/populatedb.js`, or add it as a [script in package.json](https://stackoverflow.com/a/36433748).
 
-Do note that the script is designed to be ran only once.
+Do note that the script is designed to be run only once.
 
 #### Local vs production dbs
 
@@ -292,6 +296,7 @@ node db/populatedb.js <production-db-url>
    - Deploy a new db on a hosting service you choose, and obtain its connection information.
    - Create a `messages` table, populate it with data if you wish. This should be done via a script.
    - Add the necessary environment variables, create a pool, and implement the required db functions.
+   - While you're at it, add appropriate server-side validation for user input as well.
 
 </div>
 
@@ -304,9 +309,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [When should you use a client or a pool in pg?](#querying-with-pg)
 - [How would you integrate db query functions in your Express app?](#querying-with-pg)
 - [How would you populate the db via a script?](#populate-the-db-via-a-script)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

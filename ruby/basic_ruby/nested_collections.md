@@ -82,7 +82,7 @@ teacher_mailboxes.dig(0, 4)
 
 ### Creating a new nested array
 
-Now that you have seen how to access values inside a nested array, we need to take a step back to look at creating a new nested array. In a previous lesson you were taught to create a new array, by calling the Array.new method with up to 2 optional arguments (initial size and default value), like `Array.new(3)` or `Array.new(3, 7)`. However, there is one major "gotcha" that is important to point out. According to the [Array class documentation](https://docs.ruby-lang.org/en/3.3/Array.html), the second optional argument for `Array.new` (the default value), should only be used with an immutable (unable to be changed) object such as a number, boolean value, or symbol. Using a string, array, hash, or other mutable object may result in confusing behavior because each default value in the array will actually be a *reference to* the same default value. Therefore, any change to **one** of the elements will change **all** of the elements in the array.
+Now that you have seen how to access values inside a nested array, we need to take a step back to look at creating a new nested array. In a previous lesson you were taught to create a new array, by calling the Array.new method with up to 2 optional arguments (initial size and default value), like `Array.new(3)` or `Array.new(3, 7)`. However, there is one major "gotcha" that is important to point out. According to the [Array class documentation](https://docs.ruby-lang.org/en/3.4/Array.html), the second optional argument for `Array.new` (the default value), should only be used with an immutable (unable to be changed) object such as a number, boolean value, or symbol. Using a string, array, hash, or other mutable object may result in confusing behavior because each default value in the array will actually be a *reference to* the same default value. Therefore, any change to **one** of the elements will change **all** of the elements in the array.
 
 To create an immutable array of mutable objects (string, array, hash, etc), you will need to pass the default value for `Array.new` via a block, using curly braces, instead of the second optional argument. The code in the block gets evaluated for every slot in the array, creating multiple objects to initialize the array with, rather than references to the same object.
 
@@ -99,16 +99,18 @@ mutable
 
 Changing the value of the first element in the first nested array, causes the first element to change in all three nested arrays! This same behavior will happen with strings, hashes, or any other mutable objects.
 
-<span id='create-immutable-nested-arrays'>Now, let's take a look at an example that omits the second optional argument and instead passes in the mutable value in a block.</span>
+<span id='create-nested-arrays'>Now, let's take a look at an example that omits the second optional argument and instead passes in the mutable value in a block.</span>
 
 ```ruby
-immutable = Array.new(3) { Array.new(2) }
+nested_arrays = Array.new(3) { Array.new(2) }
 #=> [[nil, nil], [nil, nil], [nil, nil]]
-immutable[0][0] = 1000
+nested_arrays[0][0] = 1000
 #=> 1000
-immutable
+nested_arrays
 #=> [[1000, nil], [nil, nil], [nil, nil]]
 ```
+
+Each `{ Array.new(2) }` block creates a new inner array. This means all three inner arrays are **independent objects**. When you modify one, the others stay the same.
 
 Changing the value of the first element in the first nested array does not cause the value to change in any other nested array.
 
@@ -352,12 +354,6 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you add data to a nested hash?](#adding-and-removing-data)
 - [How do you delete elements from a nested array?](#remove-elements-nested-array)
 - [How do you delete data in a nested hash?](#deleting-data-nested-hash)
-- [How do you create a new nested array that is not mutable?](#create-immutable-nested-arrays)
+- [How do you create a new nested array that can’t be changed through references to the original one?](#create-nested-arrays)
 - [How do you iterate over a nested array?](#iterating-over-a-nested-array)
 - [How do you iterate over a nested hash?](#methods)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

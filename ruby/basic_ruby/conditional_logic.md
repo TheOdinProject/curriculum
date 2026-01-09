@@ -79,7 +79,7 @@ if attack_by_land == true
 elsif attack_by_sea == true
   puts "release the shark"
 else
-  puts "release Kevin the octopus"
+  puts "release Kevin the flying octopus "
 end
 ```
 

@@ -50,11 +50,5 @@ People who volunteer in coding communities are here to help! A question you may 
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Describe the “XY Problem”.](https://xyproblem.info/)
-- [Name the 5 things your question should include.](https://www.theodinproject.com/guides/community/how_to_ask)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [What is the “XY Problem”?](https://xyproblem.info/)
+- [What 5 things should your questions include?](https://www.theodinproject.com/guides/community/how_to_ask)

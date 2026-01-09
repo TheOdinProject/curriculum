@@ -36,7 +36,7 @@ The good news is that we measure space complexity in exactly the same way as tim
 
 The first thing to know is that, like time complexity, we measure space complexity by considering all steps including any constants, and then we drop the constants when applying a Big O Notation to the algorithm. So we may have an algorithm that uses memory in Linear Complexity as the input changes, and in doing so creates 3 temporary variables. So we can think of the complexity of our algorithm as O(N) + 3 auxiliary variables using memory. Because those 3 variables are the same no matter our input size, we don't concern ourselves with them when considering the space complexity of our algorithm. So we'd say the space complexity is O(N). This should be familiar to you from the time complexity lesson.
 
-As a reminder the Big O Notations are:
+As a reminder the most common Big O Notations are:
 
 - O(1) - Constant Complexity
 - O(log N) - Logarithmic Complexity
@@ -148,10 +148,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is space complexity?](#what-do-we-mean-by-space-complexity)
 - [How do we measure space complexity?](#measuring-space-complexity)
-- [What are the main considerations we should take into account when optimising code?](#other-considerations)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [What are the main considerations we should take into account when optimizing code?](#other-considerations)

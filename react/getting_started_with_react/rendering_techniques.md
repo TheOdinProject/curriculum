@@ -72,7 +72,9 @@ You may be curious as to what the `key` is in our `<li>` element. We will dive i
 
 <div class="lesson-note" markdown="1">
 
-We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are arguments that are passed into components. We will just be writing a short implementation.
+#### Passing data into components
+
+We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are just like function arguments that are passed into components, but to pass them we use a syntax similar to how we pass attributes to HTML elements. As you can see in the following short implementation.
 
 </div>
 
@@ -244,7 +246,7 @@ function App() {
 
 In our `<List />` component, we have two `if` statements acting as a guard that immediately returns an element based on the condition.
 
-One is to check if the property `animals` exists, and the other is to check if the length of the list is greater than 0. In this case, our list is empty, so the second if statement executes, it will immediately return the `<div>` element that contains the text "There are no animals in the list".
+One is to check if the property `animals` exists, and the other is to check if the length of the list is greater than 0. In this case, our list is empty, so the second if statement executes, which immediately returns the `<div>` element that contains the text "There are no animals in the list".
 
 If we remove the `animals` property:
 
@@ -333,9 +335,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you render a list of elements/components in JSX?](#rendering-a-list-of-elements-in-jsx)
 - [What are the ways you could render UI conditionally?](#conditionally-rendering-ui)
 - [How would you conditionally return JSX?](https://beta.reactjs.org/learn/conditional-rendering#conditionally-returning-jsx)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

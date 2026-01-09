@@ -103,10 +103,13 @@ We should use the `em` element if italics is required for emphasis.
 Letter spacing does what you would expect.... it changes the space between letters in a word. This can be useful for adjusting custom fonts that you feel have too much or too little space. It can also be aesthetically pleasing in some cases, like headers.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="MWomjGr" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/MWomjGr">
   Letter Spacing | CSS Text Styles</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 Obviously, use this sparingly and with care. Do not make your site hard to read!
@@ -116,10 +119,13 @@ Obviously, use this sparingly and with care. Do not make your site hard to read!
 Line height adjusts the space between lines in wrapped text. Adding a little line-height can increase readability.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="vYZmXzY" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+
   <span>See the Pen <a href="https://codepen.io/TheOdinProjectExamples/pen/vYZmXzY">
   Line Height | CSS Text Styles</a> by TheOdinProject (<a href="https://codepen.io/TheOdinProjectExamples">@TheOdinProjectExamples</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
+
 </p>
+
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 #### text-transform
@@ -153,9 +159,11 @@ You can see more detail and an example in this [CSS Tricks article on ellipsis o
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
+
 1. Read [MDN's article on web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) and do the exercises.
 1. Read [Font Best Practices](https://web.dev/articles/font-best-practices) to understand some of the performance considerations of imported fonts and how to mitigate issues with them.
 1. Read [web.dev Typography](https://web.dev/learn/design/typography) to understand some important considerations for developers with typography.
+
 </div>
 
 ### Knowledge check

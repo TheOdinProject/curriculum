@@ -40,54 +40,60 @@ That would tell us the route matches any POST requests to the `/messages` path o
 
 The first argument we pass a route is the path to match, which can either be a string or a regular expression. `/messages` matches that exactly, while `/messages/all` only matches if the path is `/messages/all` (not `/messages`, nor `/messages/new`).
 
-With string paths, we can also use certain symbols like `?`, `+`, `*` and `()` to provide some pattern-matching functionality, similar to regular expressions. For example:
+With string paths, we can also use `{}` to make characters optional. For example:
 
 ```javascript
-// ? makes a character optional
-// The following path matches both /message and /messages
-"/messages?"
+// Matches both /message and /messages
+"/message{s}"
 
-// () groups characters together, allowing symbols to act on the group
-// The following path matches both / and /messages
-"/(messages)?"
+// Matches both / and /messages
+"/{messages}"
 
-// * is a wildcard matching any number of any characters
-// The following path can match /foo/barbar and even /foo-FOO/bar3sdjsdfbar
-"/foo*/bar*bar"
+// Matches both /foo/baz and /foo/bar/baz
+"/foo{/bar}/baz"
 ```
 
-<div id="order-matters" class="lesson-note lesson-note--warning" markdown="1">
+With `*` (a "splat" or "wildcard"), we can match any number of any characters. [Splats in Express paths must always be followed by a name](https://expressjs.com/en/guide/migrating-5.html#path-syntax).
+
+A common use case for a splat would be as a catch-all for all otherwise unmatched paths, e.g. for custom 404 error handling.
+
+```javascript
+// Matches / and /odin as well as /sdds8fjsdifhj98sdfh
+"/{*splat}"
+```
+
+<div class="lesson-note lesson-note--warning" markdown="1">
 
 #### Order matters!
 
 Your routes will be set up in your server in the order they are defined.
 
 ```javascript
-app.get("*", (req, res) => {
-  res.send("* is a great way to catch all otherwise unmatched paths, e.g. for custom 404 error handling.");
+app.get("/{*splat}", (req, res) => {
+  res.send("/{*splat} is a great way to catch all otherwise unmatched paths, e.g. for custom 404 error handling.");
 });
 app.get("/messages", (req, res) => {
   res.send("This route will not be reached because the previous route's path matches first.");
 });
 ```
 
-In order for our `GET /messages` request to match the `/messages` route, we will need to reverse the order our routes are defined. Doing so will prevent it from reaching the `*` route, as it will match the `/messages` route first.
+In order for our `GET /messages` request to match the `/messages` route, we will need to reverse the order our routes are defined. Doing so will prevent it from reaching the `/{*splat}` route, as it will match the `/messages` route first.
 
 </div>
 
 #### Route parameters
 
-What if we wanted to have a route for all messages for any username, for example, `/odin/messages` or `/thor/messages`, or even `/theodinproject79687378/messages`? We could technically use `/*/messages`, but what if we wanted to extract and use the username in our middleware functions? Just like with React Router, we can use `route parameters`, and a path can contain as many of these parameters as we need.
+What if we wanted to have a route for all messages for any username, for example, `/odin/messages` or `/thor/messages`, or even `/theodinproject79687378/messages`? Just like with React Router, we can use `route parameters`, and a path can contain as many of these parameters as we need.
 
 To denote a route parameter, we start a segment with a `:` followed by the name of the parameter (which can only consist of case-sensitive alphanumeric characters, or `_`). Whatever we name that route parameter, Express will automatically populate the `req.params` object in any of the following middleware functions with whatever value the path passed into the parameter, using the parameter name as its key.
 
 ```javascript
 /**
  * GET /odin/messages will have this log
- * { username: 'odin' }
+ * { username: "odin" }
  *
  * GET /theodinproject79687378/messages would instead log
- * { username: 'theodinproject79687378' }
+ * { username: "theodinproject79687378" }
  */
 app.get("/:username/messages", (req, res) => {
   console.log(req.params);
@@ -194,7 +200,10 @@ app.use("/books", bookRouter);
 app.use("/", indexRouter);
 
 const PORT = 3000;
-app.listen(PORT, () => {
+app.listen(PORT, (error) => {
+  if (error) {
+    throw error;
+  }
   console.log(`My first Express app - listening on port ${PORT}!`);
 });
 ```
@@ -207,7 +216,17 @@ To test these routes, use [Postman](https://www.postman.com/downloads/) which wi
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read through the Express' [primer on Routing](https://expressjs.com/en/guide/routing.html) for an overview of this lesson's topics. Remember to reference the [Express documentation](https://expressjs.com/en/4x/api.html) for more information on specific methods.
+<div class="lesson-note" markdown="1">
+
+#### Express v5 changes
+
+We are currently using Express v5 and as of writing this, some of the sections in the article below will not work in v5, though they are clearly marked and links provided to more relevant documentation.
+
+This resource will be updated once a v5-only routing primer exists.
+
+</div>
+
+1. Read through the Express' [primer on Routing](https://expressjs.com/en/guide/routing.html) for an overview of this lesson's topics. Remember to reference the [Express documentation](https://expressjs.com/en/api.html) for more information on specific methods.
 
 </div>
 
@@ -222,7 +241,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What object gets populated with route parameters?](#route-parameters)
 - [How do you access query parameters within routes?](#query-parameters)
 - [How do you extract routes to an individual router?](#routers)
-- [We have a router for paths starting with `/users`. Inside that router, what path should a GET route have to match a GET request to the `/users/delete` path?](#extend-router-paths)
+- [We have a router for paths starting with `/users`. Inside that router, what path should a GET route have to match a GET request to the `/users/delete` path?](#routers)
 
 ### Additional resources
 

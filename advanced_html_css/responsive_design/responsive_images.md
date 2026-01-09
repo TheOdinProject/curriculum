@@ -75,3 +75,8 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - [Responsive Images 101](https://cloudfour.com/thinks/responsive-images-101-definitions/) is a good series of articles if you need another source.
+- [Responsive Images Done Right](https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/) gives some more insight into the inner workings of the picture element and responsive images.
+- [The anatomy of responsive images](https://jakearchibald.com/2015/anatomy-of-responsive-images/) by Jake Archibald has some great visuals that can help to grasp the srcset and sizes properties of responsive images.
+- The [Responsive Image Breakpoints Generator](https://www.responsivebreakpoints.com/) is a nice way to automate responsive images so you don't have to hand write them.
+- This article about [Automating Art Direction With The Responsive Image Breakpoints Generator](https://www.smashingmagazine.com/2016/09/automating-art-direction-with-the-responsive-image-breakpoints-generator/) explains how the responsive image breakpoints generator works.
+- This article on [Descriptive Syntaxes](https://web.dev/learn/images/descriptive) explains *device pixel ratio* (DPR) in detail and how to serve higher resolution images to devices with sharper displays.

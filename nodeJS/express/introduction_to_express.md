@@ -4,7 +4,7 @@ In the previous section, you got up and running with Node. You learned how to re
 
 In this course, we will be using a backend framework called [Express](https://expressjs.com/), which will handle many of the implementation details for us. Express itself is an intentionally barebones and unopinionated framework; it allows us to do many things how we want, and to extend it with only the features we need. However, while this gives us great flexibility in how we do things, it can be a little tricky deciding between multiple viable options at times.
 
-Going forward, we will be diving into how we can use Express in various ways, such as to create a full-stack application using the Model View Controller (MVC) pattern, as well as to create a REST API just like ones you will have used before for things such as the Weather App or the React Shopping Cart projects. There is a lot to take in, so take it steady, and do not be afraid to ask our community for help in the [TOP Discord server](https://discord.gg/theodinproject)!
+Going forward, we will be diving into how we can use Express in various ways, such as to create a full-stack application using the Model View Controller (MVC) pattern, as well as to create a REST API just like ones you will have used before for things such as the Weather App or the React Shopping Cart projects. There is a lot to take in, so take it steady, and do not be afraid to ask our community for help in the [TOP Discord server](https://discord.gg/fbFCkYabZB)!
 
 ### Lesson overview
 
@@ -32,7 +32,13 @@ const app = express();
 app.get("/", (req, res) => res.send("Hello, world!"));
 
 const PORT = 3000;
-app.listen(PORT, () => {
+app.listen(PORT, (error) => {
+  // This is important!
+  // Without this, any startup errors will silently fail
+  // instead of giving you a helpful error message.
+  if (error) {
+    throw error;
+  }
   console.log(`My first Express app - listening on port ${PORT}!`);
 });
 ```
@@ -41,7 +47,7 @@ Let's break this down. We import `express` then call it to initialize the `app` 
 
 We then have a `route` - the line beginning with `app.get`. We will come back to this in a moment.
 
-Finally, we tell our server to listen for incoming requests on whatever port we specify, via [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged.
+Finally, we tell our server to listen for incoming requests on whatever port we specify, via [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged. If something goes wrong, such as the port is already in use, it will throw an error instead.
 
 Congratulations! Your first Express server is now running.
 
@@ -55,7 +61,7 @@ For demonstration purposes, we hardcoded a fixed port number above. Usually, the
 const PORT = process.env.PORT || 3000;
 ```
 
-If the specified port is already in use, we can change the environment variable value without editing the source code. Also, some hosting services configure their own ports which may differ from a fix value hardcoded in.
+If the specified port is already in use, we can change the environment variable value without editing the source code. Also, some hosting services configure their own ports which may differ from a fixed value hardcoded in.
 
 </div>
 
@@ -67,7 +73,7 @@ Whenever you navigate to any web URL this way, this is essentially what you are 
 
 Once you navigate to `http://localhost:3000/`, you should see `Hello, world!` appear in the window. Magic, right?
 
-When our server receives our `GET` request, Express stores the request in a [request object](https://expressjs.com/en/4x/api.html#req). This request gets passed through a chain of functions we call `middleware functions` until eventually, a middleware function tells Express to respond to the request.
+When our server receives our `GET` request, Express stores the request in a [request object](https://expressjs.com/en/api.html#req). This request gets passed through a chain of functions we call `middleware functions` until eventually, a middleware function tells Express to respond to the request.
 
 In our example, the request comes through as a `GET` request to the `/` path. This matches the route we have in our `app.js` file.
 
@@ -79,7 +85,7 @@ We will discuss routes in more detail in a later lesson, but to summarize the ab
 
 If we had defined multiple routes, Express would pass the request through the first route that matched the requested HTTP verb (e.g. `GET`) and path (`/`). The order of the routes matters!
 
-Express takes the callback function we gave it and passes the request object into the first parameter (conventionally named `req`), and a [response object](https://expressjs.com/en/4x/api.html#res) into the second parameter (`res`). Our callback tells the response object to respond to the request by sending (via `res.send`) the string `"Hello, world!"`.
+Express takes the callback function we gave it and passes the request object into the first parameter (conventionally named `req`), and a [response object](https://expressjs.com/en/api.html#res) into the second parameter (`res`). Our callback tells the response object to respond to the request by sending (via `res.send`) the string `"Hello, world!"`.
 
 There is no more code to run and the function returns. Since Express has been told to respond to the request, it ends the request-response cycle. Meanwhile, the browser receives our server's response and displays it on screen, which is our `"Hello, world!"` string. We could send nearly anything in our response. We could even [tell Express to send a file](https://expressjs.com/en/api.html#res.sendFile).
 
@@ -93,7 +99,7 @@ You may also come across [Nodemon](https://www.npmjs.com/package//nodemon), a hi
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Spend a few minutes exploring the [Express documentation](https://expressjs.com/en/4x/api.html) to get a feel for things. We will be referencing a lot of content from the docs in the coming lessons.
+1. Spend a few minutes exploring the [Express documentation](https://expressjs.com/en/api.html) to get a feel for things. We will be referencing a lot of content from the docs in the coming lessons.
 1. Go back to your [Basic Informational Site project](https://www.theodinproject.com/lessons/nodejs-basic-informational-site), install Express and rewrite the project using it! You should be able to do most of this with just a few `app.get()`s.
 
 </div>
@@ -106,9 +112,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What happens when a server receives a request?](#a-requests-journey)
 - [What can we use to tell Express to send a file in response to a request?](https://expressjs.com/en/api.html#res.sendFile)
 - [What can you use to automatically restart your server when you make changes to a file?](#auto-restarting-your-server-upon-file-changes)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

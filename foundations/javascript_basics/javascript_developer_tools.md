@@ -56,9 +56,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you change screen size of a website using developer tools?](https://developer.chrome.com/docs/devtools/device-mode/)
 - [What is a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
 - [How do you set a breakpoint?](https://developer.chrome.com/docs/devtools/javascript/breakpoints/#loc)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos

@@ -16,7 +16,7 @@ The render function is the most used lifecycle method, and one that you've come 
 
 ### componentDidMount()
 
-This method is run after the component is mounted (inserted in the DOM tree). You should make any calls to fetch data that is needed for the component here. It is also a good place to do anything that is reliant on the component, such as fetching from an API.
+This method is run after the component is mounted (inserted in the DOM tree). You should make any calls to fetch data that is needed for the component here. It is also a good place to perform any operations that depend on the component being mounted in the DOM.
 
 ### componentDidUpdate()
 
@@ -30,7 +30,7 @@ This is the last lifecycle method, which is called before a component is unmount
 
 ### How useEffect() combines the lifecycle methods
 
-Now that we've learnt about class lifecycle methods, it's useful to understand that the `useEffect` hook used in functional components is essentially a combination of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`. Which method/methods it relates to varies based on it's dependency array, and if it returns anything.
+Now that we've learnt about class lifecycle methods, it's useful to understand that the `useEffect` hook used in functional components is essentially a combination of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`. Which method/methods it relates to varies based on its dependency array, and if it returns anything.
 
 - An empty dependency array would be equivalent to `componentDidMount`.
 - A dependency array with a value/values in it would be a combination of `componentDidMount` and `componentDidUpdate`, but only updating when dependencies change.
@@ -67,9 +67,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [When you want to act upon change of the DOM, or of state, what lifecycle method would you use?](#componentdidupdate)
 - [When performing cleanup actions, what lifecycle method should be used?](#componentwillunmount)
 - [How does the useEffect hook combine some of the lifecycle methods?](#how-useeffect-combines-the-lifecycle-methods)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

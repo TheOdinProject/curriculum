@@ -72,7 +72,7 @@ You can also use conditional logic options `:if` and `:unless` to try a method b
 
 Sometimes your Rails app will need to interact with an external application (which is inherently imperfect) as a part of the save process.  Other times your save will involve juggling several balls at once and, if one fails, they all need to be rolled back.  Typically these cases will involve wrapping your database save operation in a "transaction," which means that either all the steps work or they all fail and are rolled back.
 
-The `commit`ting of a transaction and its potential `rollback` if it fails are both lifecycle events that you can latch onto with callbacks, e.g. `after_commit` and `before_rollback`.  This is uncommon, so consider it another one of those "just remember that it's an option" type things.
+The `commit`ting of a transaction and its potential `rollback` if it fails are both lifecycle events that you can latch onto with callbacks, e.g. `after_commit` and `after_rollback`.  This is uncommon, so consider it another one of those "just remember that it's an option" type things.
 
 ### Conclusion
 

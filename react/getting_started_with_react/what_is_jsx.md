@@ -138,7 +138,7 @@ Now that we've covered the Rules of JSX, we'll go through the conversion of a ch
 
 If you try to return this from a React component, you would get many errors, so we are going to fix that!
 
- Make sure to follow along this example in your local environment. Alternatively, you can go to [react.new](https://react.new/) to have a quick React environment up and going in your web browser.
+ Make sure to follow along with this example in your local environment. Alternatively, you can go to [react.new](https://react.new/) to have a quick React environment up and going in your web browser.
 
 The first issue we get is that this would not return a single root element, so let's give it a container.
 
@@ -208,9 +208,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Why do we use JSX?](#why-do-we-use-jsx)
 - [What are the three rules of JSX?](#rules-of-jsx)
 - [How do you reference a dynamic value inside of your JSX?](https://beta.reactjs.org/learn/javascript-in-jsx-with-curly-braces#using-curly-braces-a-window-into-the-javascript-world)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

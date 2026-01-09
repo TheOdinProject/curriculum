@@ -13,6 +13,24 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Getting started
 
+<div class="lesson-note lesson-note--critical" markdown="1">
+
+#### Important Note on React Version
+
+propTypes and defaultProps are discontinued from React version 19. Please use React versions lesser than 19 to follow this lesson:
+
+1. Set up React with Vite as usual. It does not matter whether you run `npm install` here or not.
+
+1. Change the versions for the following four packages in `package.json` to `"^18"`:
+    - `react`
+    - `react-dom`
+    - `@types/react`
+    - `@types/react-dom`
+
+1. Run `npm install`.
+
+</div>
+
 To start using PropTypes in our React projects, we first need to install the corresponding library. We can do that with `npm`. In your React project run the following command:
 
 ```bash
@@ -85,7 +103,7 @@ Learning TypeScript can be a lot of overhead when you’re already learning Reac
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read through the [PropTypes documentation](https://reactjs.org/docs/typechecking-with-proptypes.html). It shows all of the types you can specify and some other useful things that can be done with it!
+1. Read through the [PropTypes documentation](https://legacy.reactjs.org/docs/typechecking-with-proptypes.html). It shows all of the types you can specify and some other useful things that can be done with it!
    - You may notice this resource suggests using TypeScript over PropTypes in modern React. This may well be true for production apps but for our purposes, we are solely interested in the concept of type checking within React, where TypeScript is out of scope.
 1. You can even set up custom validators in PropTypes. For a more in-depth look into the benefits and use cases of PropTypes, read this comprehensive guide [Validating React Props with PropTypes on LogRocket](https://blog.logrocket.com/validate-react-props-proptypes/).
 1. Dive into the nuanced comparison between PropTypes and TypeScript for type safety in React with this [StackOverflow post on differences between PropTypes and TypeScript](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application).
@@ -99,9 +117,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How would we set up a basic implementation of PropTypes?](#using-proptypes)
 - [If we pass in a prop to a component that has a defaultProp defined, what would happen?](#using-defaultprops)
 - [What is the difference between PropTypes and TypeScript?](https://stackoverflow.com/questions/41746028/proptypes-in-a-typescript-react-application)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

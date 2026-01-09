@@ -4,6 +4,14 @@ Learning to code is incredibly rewarding but can also be difficult and frustrati
 
 So before we get into the meat of the curriculum, we'll cover the following aspects to help you get the most out of The Odin Project: factors that will help you succeed in learning to code and the pitfalls that you should try to avoid.
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Recognize sensible mindsets that promote healthy learning.
+- Understand helpful ways to approach learning and struggling.
+- Things to avoid along your learning journey with TOP.
+
 ### Motivation
 
 Take a moment to think about why you have decided to learn programming.
@@ -25,8 +33,7 @@ However, there is a wide body of research showing that intelligence is not fixed
 
 What does this mean for you? It means you can learn new skills and develop new talents with **persistence and grit**.
 
-There will be many times throughout The Odin Project that you will get stuck on a concept or a programming problem and may find yourself questioning your ability to learn programming. When you find yourself in this position, remind yourself that you may not get it *yet* but that with persistence and grit you will. Struggling with something is growth. It doesn't matter how long you struggle with a concept or project; all that matters is that you have the grit and tenacity to see it through. That's how
-real learning happens.
+There will be many times throughout The Odin Project that you will get stuck on a concept or a programming problem and may find yourself questioning your ability to learn programming. When you find yourself in this position, remind yourself that you may not get it *yet* but that with persistence and grit you will. Struggling with something is growth. It doesn't matter how long you struggle with a concept or project; all that matters is that you have the grit and tenacity to see it through. That's how real learning happens.
 
 While you're working through the curriculum, embrace the struggles you encounter with difficult concepts and complex projects. Be sure to celebrate your persistence in overcoming those struggles!
 
@@ -52,7 +59,7 @@ You will inevitably get stuck at some point in the curriculum, perhaps due to a 
 
 - Google it: You can be certain someone else out there has encountered the same problem as you at some point. A quick Google search can often lead to a solution.
 - Take a break: Allow your diffuse learning state to work on the problem.
-- Ask for help in the [TOP Discord server](https://discord.gg/theodinproject); come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
+- Ask for help in the [TOP Discord server](https://discord.gg/fbFCkYabZB); come prepared with your research. People will be more willing to help you when they can see you have already put effort into trying to figure out the solution on your own.
 
 Additionally, feel free to follow the diagram below to help you navigate problems that you may come across:
 
@@ -159,24 +166,21 @@ Learning any new skill is a journey full of speed bumps and obstacles to overcom
 
 <div class="lesson-content__panel" markdown="1">
 
-1. To give your motivation a bit of a boost, read about the success of others in the [TOP Discord server's Success Stories forum](https://discord.com/channels/505093832157691914/1089990025162260570).
+1. Have a look at how to [become a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)!
+1. Once you join the TOP Discord server, give your motivation a bit of a boost! Read about the success of others in the [TOP Discord server's Success Stories forum](https://discord.com/channels/505093832157691914/1089990025162260570).
 1. To learn more about the growth mindset, go through the following resources:
-   - [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
-   - [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
    - [You can learn anything](https://www.khanacademy.org/college-careers-more/talks-and-interviews/talks-and-interviews-unit/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
-
-1. To learn more about the best ways to learn, watch this summary of [Coursera's learning how to learn course](https://www.youtube.com/watch?v=O96fE1E-rf8). The full course is linked in the additional resources.
+   - [Grit](https://ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)
+   - [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
 
 </div>
 
-### Additional resources
+### Knowledge check
 
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [Becoming a TOP Success Story](https://dev.to/theodinproject/becoming-a-top-success-story-mindset-3dp2)
-- [Managing inspiration and motivation](https://markmanson.net/do-something)
-- [Learning to code when it gets dark](https://medium.freecodecamp.org/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
-- While thinking and research time is a bigger bottleneck than raw typing speed, if you'd like to improve your typing skills then some excellent options include [typing.com](https://www.typing.com/), [Keybr](https://www.keybr.com), and [Monkeytype](https://monkeytype.com/).
-- [Why Procrastinators Procrastinate](https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html) Learn about the Instant Gratification Monkey, Rational Decision Maker, Panic Monster, and how to navigate the Dark Playground. [Short video introduction from the same author](https://youtu.be/arj7oStGLkU)
-- [100 Days of Code](https://www.100daysofcode.com/) is a challenge that new developers often use to track their coding journey and showcase their work. Consider checking out their website if you are looking for a way to stay motivated and inspire other developers.
-- Check out the [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) course from Coursera.
+- [What is the key difference between a fixed mindset and a growth mindset when encountering programming challenges?](#growth-mindset)
+- [What are the two modes your mind switches between during the learning process, and how do they differ?](#the-learning-process)
+- [When you're stuck on a programming problem, what three main strategies does the curriculum recommend trying?](#what-to-do-when-youre-stuck)
+- [Why does the curriculum recommend against setting strict deadlines for completing The Odin Project?](#managing-your-study-time)
+- [How does Angela Duckworth define "grit" in her TED talk, and why is it important for learning to code?](#assignment)

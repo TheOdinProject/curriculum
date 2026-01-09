@@ -36,7 +36,7 @@ The units `vh` and `vw` relate to the size of the viewport. Specifically, `1vh` 
 <div class="lesson-content__panel" markdown="1">
 
 1. [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units) covers all the available units.
-1. The article [CSS units](https://codyloyd.com/2021/css-units/) goes in depth on how and when you might want to use `em`, `rem`, or `px`.
+1. The article [CSS units](https://web.archive.org/web/20251130034321/https://codyloyd.com/2021/css-units/) goes in depth on how and when you might want to use `em`, `rem`, or `px`.
 1. [Fun with Viewport Units](https://css-tricks.com/fun-viewport-units/) demonstrates some interesting things you can do with `vh` and `vw`.
 
 </div>
@@ -53,5 +53,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- Watch [are you using the right CSS unit?](https://www.youtube.com/watch?v=N5wpD9Ov_To) if you'd like to learn Kevin Powells general rules of thumb when it comes to choosing the correct CSS units for different situations.
+- Watch [are you using the right CSS unit?](https://www.youtube.com/watch?v=N5wpD9Ov_To) if you'd like to learn Kevin Powell's general rules of thumb when it comes to choosing the correct CSS units for different situations.
 - Watch [Learn CSS Units & When To Use Them](https://www.youtube.com/watch?v=fzZTvLmmTzM) from Slaying The Dragon if you would like to learn best practices of basic units mentioned in this lesson.

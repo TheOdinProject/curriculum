@@ -40,7 +40,7 @@ The other end of the process is what the controller does when it's done. Once Ra
 
 Although Rails will implicitly render a view file that is named the same thing as your controller action, there are plenty of situations when you might want to override it. A main case for this is when you actually want to completely redirect the user to a new page instead of rendering the result of your controller action.
 
-Redirects typically occur after controller actions where you've submitted information like to create a new Post. There's no reason to have a `create.html.erb` view file that gets displayed once a post has been created... we usually just want to see the post we created and so we'll redirect over to the Show page for that post. The distinction here is that your application treats a redirect as *a completely new HTTP request*... so it would enter through the router again, look for the Show page corresponding to that post, and render it normally. That also means that any instance variables you set in your original `#create` controller action are wiped out along the way.
+Redirects typically occur after controller actions where you've submitted information, such as when creating a new Post. There's no reason to have a `create.html.erb` view file that gets displayed once a post has been created... we usually just want to see the post we created and so we'll redirect over to the Show page for that post. The distinction here is that your application treats a redirect as *a completely new HTTP request*... so it would enter through the router again, look for the Show page corresponding to that post, and render it normally. That also means that any instance variables you set in your original `#create` controller action are wiped out along the way.
 
 If that's the common way to deal with successfully creating an object, how about when it fails for some reason (like the user entered a too-short post title)? In that case, you can just render the view for another controller action, often the same action that created the form you just submitted (so the `#new` action).
 
@@ -116,7 +116,9 @@ The important distinction between the "scalar" parameter values like strings and
 
 <div class="lesson-note" markdown="1">
 
-  This used to be done in Rails 3 by setting `attr_accessible` in the model to allow attributes, so you will probably see that in a lot of Stack Overflow posts and earlier applications.
+#### Whitelisting "safe" attributes in Rails 3
+
+This used to be done in Rails 3 by setting `attr_accessible` in the model to allow attributes, so you will probably see that in a lot of Stack Overflow posts and earlier applications.
 
 </div>
 
@@ -164,15 +166,17 @@ So our `#create` action above can now be filled out a bit more:
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
-  Prior to Rails 8, strong parameters were handled differently. Instead of the `#expect` method, you had to call `#permit` on the top level key name followed by calling `#require` on the list of attributes. For example:
+#### Handling strong parameters before Rails 8
 
-  ```ruby
-  def allowed_post_params
-    params.permit(:post).require(:title, :body, :author_id)
-  end
-  ```
+Prior to Rails 8, strong parameters were handled differently. Instead of the `#expect` method, you had to call `#require` on the top level key name followed by calling `#permit` on the list of attributes. For example:
 
-  This way still works, but it has a couple of security flaws that motivated the development of `#expect`. But you will likely be exposed to this way of doing it through older projects, blog posts, and StackOverflow answers. Just know that this is serving the same function as the new `#expect` method.
+```ruby
+def allowed_post_params
+  params.require(:post).permit(:title, :body, :author_id)
+end
+```
+
+This way still works, but it has a couple of security flaws that motivated the development of `#expect`. But you will likely be exposed to this way of doing it through older projects, blog posts, and StackOverflow answers. Just know that this is serving the same function as the new `#expect` method.
 
 </div>
 
