@@ -56,7 +56,7 @@ Take a while to brew on that example. In the end, it's not some mind-blowing con
 
 ### Closures aren't scary
 
-You know how if you needed to repeatedly needed to get or create some value based on some kind of input, you'd use a function with parameters? For example, you could write a function that takes arguments and returns an array or string or number as a result of using those arguments. Functions are no different. You can use a function to create another function.
+You know how if you needed to repeatedly get or create some value based on some kind of input, you'd use a function with parameters? For example, you could write a function that takes arguments and returns an array or string or number as a result of using those arguments. Functions are no different. You can use a function to create another function.
 
 The best way to approach this would be to start with an example - take a look at this piece of code below.
 
