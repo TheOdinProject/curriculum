@@ -452,7 +452,7 @@ Take a look at React Router's [documentation on `useOutletContext`](https://reac
 
 Often, you will need to decide whether a certain route should be rendered or not. One example is authentication, where you render certain routes based on if the user is logged in or not. If they are logged in, you show some information about the user like here at [The Odin Project dashboard page](https://www.theodinproject.com/dashboard). Otherwise, they are redirected to the sign-in page (this could be any page). While there are many ways to do so, one of the easiest ways is to conditionally create a config for the router.
 
-You will often come across the need to reroute the user to a different URL programmatically. This is where we use [the `<Navigate />`component](https://reactrouter.com/en/main/components/navigate). The `<Navigate />` component reroutes the user to the desired URL when it is rendered. It is a wrapper around [the useNavigate hook](https://reactrouter.com/en/main/hooks/use-navigate) that lets you navigate programmatically, to URLs, or even go back down the user's history.
+You will often come across the need to reroute the user to a different URL programmatically. This is where we can use [the useNavigate hook](https://reactrouter.com/en/main/hooks/use-navigate) which lets you navigate to URLs or even go back down the user's history.
 
 ### React Router testing
 
