@@ -6,7 +6,7 @@ on:
       - '!*'
       - '!archive/**'
       - '!templates/**'
-      - '!markdownlint/docs/**'
+      - '!markdownlint/**'
       - '!.github/**'
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
             !*
             !archive/**
             !templates/**
-            !markdownlint/docs/**
+            !markdownlint/**
             !.github/**
           separator: ','
       - uses: DavidAnson/markdownlint-cli2-action@v14
