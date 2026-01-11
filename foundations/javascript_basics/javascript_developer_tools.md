@@ -33,7 +33,8 @@ There are three ways to open the Chrome DevTools menu:
 
 Google has updated some of the required sections in the below tutorials and some elements have changed or no longer exist, but you can still follow along using the same functionality and tools that they cover. For example, you may be asked to inspect a button that is no longer on the page—you can still follow along and inspect existing elements without issue.
 
-1. Head to the [Chrome DevTools Documentation](https://developer.chrome.com/docs/devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time.  Feel free to skip the elements you are already familiar with, and only read these:
+1. Learn how to debug on the browser with this [JavaScript.info](https://javascript.info/debugging-chrome) article.
+1. Head to the [Chrome DevTools Documentation](https://developer.chrome.com/docs/devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time. You do not need to memorize these as this is just to gain awareness of how to debug on the browser. Feel free to revisit whenever you need to look up something:
    - CSS
       1. [View and change CSS](https://developer.chrome.com/docs/devtools/css/)
       1. [CSS features reference](https://developer.chrome.com/docs/devtools/css/reference/)
@@ -41,8 +42,7 @@ Google has updated some of the required sections in the below tutorials and some
    - Mobile Simulation
       1. [Simulate mobile devices with Device Mode](https://developer.chrome.com/docs/devtools/device-mode/)
    - JavaScript
-      1. [Debug JavaScript](https://developer.chrome.com/docs/devtools/javascript/) - Warning: In point 4 of step 3 of the tutorial, devtools will pause on the second line (`if (inputsAreEmpty()) {`) rather than at the declaration of the function. Don’t worry, this is expected.
-      1. [Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
+      1. [Different types of breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
 
 1. Go through the [Chrome DevTools console overview](https://developer.chrome.com/docs/devtools/console/) to familiarize yourself with the console and its usage.
 
