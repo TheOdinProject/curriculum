@@ -38,8 +38,6 @@ Google has updated some of the required sections in the below tutorials and some
       1. [View and change CSS](https://developer.chrome.com/docs/devtools/css/)
       1. [CSS features reference](https://developer.chrome.com/docs/devtools/css/reference/)
    - [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/)
-   - Mobile Simulation
-      1. [Simulate mobile devices with Device Mode](https://developer.chrome.com/docs/devtools/device-mode/)
    - JavaScript
       1. [Debug JavaScript](https://developer.chrome.com/docs/devtools/javascript/) - Warning: In point 4 of step 3 of the tutorial, devtools will pause on the second line (`if (inputsAreEmpty()) {`) rather than at the declaration of the function. Don’t worry, this is expected.
       1. [Pause your code with breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
