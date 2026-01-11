@@ -61,7 +61,7 @@ For demonstration purposes, we hardcoded a fixed port number above. Usually, the
 const PORT = process.env.PORT || 3000;
 ```
 
-If the specified port is already in use, we can change the environment variable value without editing the source code. Also, some hosting services configure their own ports which may differ from a fix value hardcoded in.
+If the specified port is already in use, we can change the environment variable value without editing the source code. Also, some hosting services configure their own ports which may differ from a fixed value hardcoded in.
 
 </div>
 

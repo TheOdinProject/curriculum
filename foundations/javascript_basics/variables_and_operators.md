@@ -124,9 +124,9 @@ Numbers are the building blocks of programming logic! In fact, it's hard to thin
 
 For instance, JavaScript follows the standard mathematical **Order of Operations** (often remembered by acronyms like **PEMDAS** or **BODMAS**). This means:
 
-1.**Parentheses** (or Brackets) are evaluated first.
-1.**Multiplication** and **Division** are done next, from left to right.
-1.**Addition** and **Subtraction** are done last, from left to right.
+1. **Parentheses** (or Brackets) are evaluated first.
+1. **Multiplication** and **Division** are done next, from left to right.
+1. **Addition** and **Subtraction** are done last, from left to right.
 
 For example, the mathematical expression `(3 + 2) - 76 * (1 + 1)` is perfectly valid JavaScript and will evaluate exactly as you'd expect, if you put that expression into a `console.log`.
 
@@ -154,8 +154,8 @@ Try the following exercises by adding code to a script tag in your HTML file:
 
 Go through the following articles to deepen your knowledge.
 
+1. Have a look at [MDN's "What is JavaScript?"](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) to understand the role of JavaScript on a webpage.
 1. Read up on [variables in JavaScript](https://javascript.info/variables) from JavaScript.info.
-1. This W3Schools lesson on [JavaScript arithmetic](https://www.w3schools.com/js/js_arithmetic.asp) followed by this on [JavaScript numbers](https://www.w3schools.com/js/js_numbers.asp), are good introductions to what you can accomplish with numbers in JavaScript.
 1. This MDN article on [JavaScript math](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view, while also teaching you how to apply some basic math in JavaScript. There's much more that you can do with numbers, but this is all you need at the moment.
 1. Read through (and code along with!) this article on [JavaScript operators](http://javascript.info/operators). Don't forget to do the "Tasks" at the bottom of the page! It will give you a pretty good idea of what you can accomplish with numbers (among other things!) in JavaScript.
 
@@ -178,9 +178,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you access developer tools and the console?](#how-to-run-javascript-code)
 - [How do you log information to the console?](#how-to-run-javascript-code)
 - [What does unary plus operator do to string representations of integers? eg. +"10"](https://javascript.info/operators#numeric-conversion-unary)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [MDN's "What is JavaScript?"](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) explains a bit more about it on a high-level.
