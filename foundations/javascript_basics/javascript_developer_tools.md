@@ -33,7 +33,7 @@ There are three ways to open the Chrome DevTools menu:
 
 Google has updated some of the required sections in the below tutorials and some elements have changed or no longer exist, but you can still follow along using the same functionality and tools that they cover. For example, you may be asked to inspect a button that is no longer on the page—you can still follow along and inspect existing elements without issue.
 
-1. Learn how to debug on the browser with this [JavaScript.info](https://javascript.info/debugging-chrome) article.
+1. Complete this [tutorial on debugging in Chrome](https://javascript.info/debugging-chrome) from JavaScript.info.
 1. Head to the [Chrome DevTools Documentation](https://developer.chrome.com/docs/devtools/) by Google. The following subsections cover what you'll be using the Developer Tools for 95% of the time. You do not need to memorize these as this is just to gain awareness of how to debug on the browser. Feel free to revisit whenever you need to look up something:
    - CSS
       1. [View and change CSS](https://developer.chrome.com/docs/devtools/css/)
