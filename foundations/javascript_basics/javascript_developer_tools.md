@@ -39,8 +39,6 @@ Google has updated some of the required sections in the below tutorials and some
       1. [View and change CSS](https://developer.chrome.com/docs/devtools/css/)
       1. [CSS features reference](https://developer.chrome.com/docs/devtools/css/reference/)
    - [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/)
-   - Mobile Simulation
-      1. [Simulate mobile devices with Device Mode](https://developer.chrome.com/docs/devtools/device-mode/)
    - JavaScript
       1. [Different types of breakpoints](https://developer.chrome.com/docs/devtools/javascript/breakpoints/)
 
