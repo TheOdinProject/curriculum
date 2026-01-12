@@ -30,7 +30,7 @@ The smallest phones in common circulation rarely get smaller than `320px`, so th
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read this Google Chrome DevTools' guide on [how to simulate mobile devices' display](https://developer.chrome.com/docs/devtools/device-mode/)
+1. Read this Google Chrome DevTools guide on [how to simulate mobile device displays](https://developer.chrome.com/docs/devtools/device-mode/).
 
 </div>
 
