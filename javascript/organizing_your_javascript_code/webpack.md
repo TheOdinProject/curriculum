@@ -72,7 +72,7 @@ Now that we've installed Webpack in our project directory, let's create a `src` 
 ```bash
 mkdir src && touch src/index.js src/greeting.js
 ```
-
+// Requesting grammar fix: Change "we'll have the following" to "we'll add the following"
 Inside our two JavaScript files, we'll have the following:
 
 ```javascript
