@@ -56,7 +56,7 @@ end
 a = [2, 3, 4, 5, 6, 7, 9]
 
 # find the first element that's odd at an even index
-a.my_find.with_index { |num, idx| num.even? && idx.odd? }
+a.my_find.with_index { |num, idx| num.odd? && idx.even? }
 #=> 9
 ```
 
