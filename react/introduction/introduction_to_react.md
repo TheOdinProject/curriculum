@@ -29,10 +29,13 @@ Once you start diving deeper into a framework, you'll begin to love it. It makes
 
 To name a few reasons to learn React:
 
-- Components are reusable.
-- It's well-supported due to its popularity and large community.
-- It's not opinionated, which means it won't force you to follow any specific design patterns, project organizational structure, or logic. It's all up to you.
-- There's a smaller learning curve, especially if you already have a good grasp of JavaScript, HTML, and CSS from our previous lessons.
+- Performance optimization through the Virtual DOM.
+
+- Strong ecosystem: Tools like React Router (for navigation) and state-management libraries enhance what React can do.
+
+- Large community & job demand: Because React is widely used, it’s easier to find help, tutorials, and jobs.
+
+- Reusable skills: Skills you learn in React transfer to React Native for mobile apps.
 
 ### Assignment
 
