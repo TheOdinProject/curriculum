@@ -53,11 +53,11 @@ As the software installs, the progress bar might appear to be stuck; just wait f
 
 #### Step 2.2: New Virtual Machine
 
-Now that you have VirtualBox installed, launch the program. Once open, you should see the start screen.
+Now that you have VirtualBox installed, launch the program. Once open, you should see the start screen. Click on the **New** button to create a virtual operating system.
 
 ![The VirtualBox start screen](../../installations/imgs/03_start_screen_new.png)
 
-Click on the **New** button to create a virtual operating system. Give it a name of **Xubuntu-TOP**. If you want the VM installed somewhere else than default `C:` location, change that accordingly in the **Folder** option. This is the place where your virtual disk will reside, so make sure that you've got at least 30GB for that. In **ISO Image** choose **Other** - you'll see a window open for you to find the `.iso` file on your PC. It most likely is in the `Downloads` folder.
+Give it a name of **Xubuntu-TOP**. If you want the VM installed somewhere else than default `C:` location, change that accordingly in the **Folder** option. This is the place where your virtual disk will reside, so make sure that you've got at least 30GB for that. In **ISO Image** choose **Other** - you'll see a window open for you to find the `.iso` file on your PC. It most likely is in the `Downloads` folder.
 
 **Uncheck "Proceed with Unattended Installation".** This feature does not work and you will not be able to control your installation. If you do enable it accidentally before installing just delete your VM and try again.
 
@@ -91,10 +91,30 @@ We're still not ready for the Finish button yet. Click the **Specify virtual har
 
 #### Step 2.4: Specify Virtual Hard Disk
 
-![The Specifcy virtual hard disk screen](../../installations/imgs/06_specify_virtual_hard_disk.png)
-
 Now, you want to leave all the settings as they are besides the **Disk Size**, we recommend giving the VM **at least 30GB** of space. Reminder that this disk will be created in the folder that you've specified on the very first step of the VM creation process but nonetheless, the disk can be moved and resized in the future if needed.
+
+![The Specify virtual hard disk screen](../../installations/imgs/06_specify_virtual_hard_disk.png)
 
 We are now ready to hit **Finish**. Please do so.
 
+#### Step 2.5: Virtual Video RAM
+
+One last step is required before we start up the Virtual Machine and start the installation process. Please click on the **Settings** button.
+
+![The start screen but with settings highlighted](../../installations/imgs/07_start_screen_settings.png)
+
+The Settings page for your Virtual Machine will open and look like the image below.
+
+![The settings screen](../../installations/imgs/08_settings_screen.png)
+
+Please click on the **Display** button. You will then be on the Display settings screen. What you must do here is increase the **Video Memory** to maximum. You can also increase the number of Virtual Monitors if you have multiple physical monitors. We recommend to do this later once you are comfortable in your VM.
+
+![The display setitngs screen](../../installations/imgs/09_display_settings_screen.png)
+
+Click **OK**. Now we're ready to begin the installation.
+
 ### Step 3: Begin Xubuntu installation
+
+You should find yourself back on the start screen. Click the **Start** button with your VM selected. If you accidentally open the dropdown for the Start button you can click **Start with GUI**, or click the Start button again. Another way to start your VM is by double-clicking the VM itself!
+
+![The start screen with the start button highlighted](../../installations/imgs/10_start_screen_start_button.png)
