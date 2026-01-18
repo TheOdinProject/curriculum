@@ -53,7 +53,7 @@ So, clearly SVGs are awesome! Time to go convert all of our images to SVG, right
 
 ### Anatomy of an SVG
 
-Typically, you will not want to create SVGs from scratch in your code. Most often, you will download the file or copy the code either from a website or from an image editor that can create them (Adobe Illustrator and Figma are two popular apps that can create SVGs). However, it's pretty common to download an SVG and want to tweak or adjust it just a little bit, so knowing what all the bits and pieces are, and how they work is very useful.
+Typically, you will not want to create SVGs from scratch in your code. Most often, you will download the file or copy the code either from a website or from an image editor that can create them ([Material icons](https://fonts.google.com/icons) and [Feather icons](https://feathericons.com/) are examples of popular SVG icon libraries). However, it's pretty common to download an SVG and want to tweak or adjust it just a little bit, so knowing what all the bits and pieces are, and how they work is very useful.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="NWaGdmL" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -107,7 +107,5 @@ The following questions are an opportunity to reflect on key topics in this less
 ### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- There are lots of great free SVG icon libraries, such as [Material icons](https://fonts.google.com/icons) and [Feather icons](https://feathericons.com/).
 
 - If you want to get started making your own or editing SVGs, you'll want some sort of visual editor like [Yann Armelin's SVG path editor](https://yqnn.github.io/svg-path-editor). It's great for tinkering around with simpler SVGs but not designed for complex graphics.
