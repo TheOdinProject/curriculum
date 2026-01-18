@@ -103,9 +103,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the `xmlns` attribute?](#anatomy-of-an-svg)
 - [What are some situations where you *wouldn't* want to use SVG?](#drawbacks)
 - [What are the benefits of "inlining" your SVGs? What are the drawbacks?](#embedding-svgs)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- If you want to get started making your own or editing SVGs, you'll want some sort of visual editor like [Yann Armelin's SVG path editor](https://yqnn.github.io/svg-path-editor). It's great for tinkering around with simpler SVGs but not designed for complex graphics.
