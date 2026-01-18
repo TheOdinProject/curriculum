@@ -88,6 +88,14 @@ Some of the drawbacks of inlining SVG code can be avoided once you've learned a 
 
 For now, just do whichever works best for your use-case. Linking is generally cleaner and simpler, so prefer that unless you need to tweak the SVG code alongside your HTML.
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Read Josh Comeau's [A Friendly Introduction to SVG](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/), a great guide with interactive demos covering shapes and scaling. Stop when you get to the section on animations (animations are covered later in the curriculum).
+
+</div>
+
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
@@ -103,5 +111,3 @@ This section contains helpful links to related content. It isn't required, so co
 - There are lots of great free SVG icon libraries, such as [Material icons](https://fonts.google.com/icons) and [Feather icons](https://feathericons.com/).
 
 - If you want to get started making your own or editing SVGs, you'll want some sort of visual editor like [Yann Armelin's SVG path editor](https://yqnn.github.io/svg-path-editor). It's great for tinkering around with simpler SVGs but not designed for complex graphics.
-
-- Josh Comeau's [A Friendly Introduction to SVG](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/) is a beginner-friendly guide with interactive demos covering shapes, scaling, and animations with SVGs.
