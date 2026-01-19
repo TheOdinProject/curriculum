@@ -53,7 +53,9 @@ To use a font from one of these libraries, go to the website, select a font and 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 ```
 
-An important consideration when using a font library is the library's privacy policies and any regulations you may need to comply with. For example, using the Google Fonts API [violates the European GDPR](https://thehackernews.com/2022/01/german-court-rules-websites-embedding.html). If you are concerned about complying with such regulations, you can download the font from the library and host it yourself. Common online font libraries are [Font Library](https://fontlibrary.org/), [Google Fonts](https://fonts.google.com/), [Font Bunny](https://fonts.bunny.net/) - a GDPR compliant drop-in replacement for Google Fonts, and [Adobe Fonts](https://fonts.adobe.com/) - a premium font library.
+Common online font libraries include (but are not limited to) [Font Library](https://fontlibrary.org/), [Font Bunny](https://fonts.bunny.net/) and [Google Fonts](https://fonts.google.com/).
+
+However, an important consideration when using a font library is the library's privacy policies and any regulations you may need to comply with. For example, [using the Google Fonts API violates the European GDPR](https://thehackernews.com/2022/01/german-court-rules-websites-embedding.html). If you are concerned about complying with such regulations, you can download the font from the library and host it yourself.
 
 #### Self hosted fonts
 
