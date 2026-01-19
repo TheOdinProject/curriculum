@@ -196,6 +196,8 @@ If you find typing out the comments syntax tiring, the following shortcut will h
 - Mac Users: <kbd>Cmd</kbd> + <kbd>/</kbd>
 - Windows and Linux Users: <kbd>Ctrl</kbd> + <kbd>/</kbd>
 
+It’s important to know that these shortcuts are for English keyboard layout and will not necessarily work with other non-English layouts. We’re confident you will be able to find the equivalents of these shortcuts to your keyboard layout.
+
 </div>
 
 ### Assignment
