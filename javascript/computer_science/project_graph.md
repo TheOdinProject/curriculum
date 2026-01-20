@@ -28,41 +28,37 @@ The computer network graph at the beginning of this project is an example of a s
 
 ### Representing a Graph
 
-In our code, there are several ways we could represent a graph. Two of the most common representations include *adjacency lists* and *adjacency matrices*. Read this article about [graphs and their representations](https://www.geeksforgeeks.org/graph-and-its-representations/) from GeeksforGeeks to familiarise yourself with these ideas. They have some example code, but don't pay too much attention to this, as it's a little different to the code we'll be writing in this project.
+In our code, there are several ways we could represent a graph. Two of the most common representations include *adjacency lists* and *adjacency matrices*. Read this article about [graphs and their representations](https://www.w3schools.com/dsa/dsa_theory_graphs.php) from w3schools to familiarise yourself with these ideas.
 
-In this project, we'll be using an adjacency matrix to represent the graph. We've picked this style of graph because it gives you great practice at adding and removing vertices, and making sure everything stays in sync. However, in future projects (like Knight Travails) you may wish to go for an adjacency list approach, since you have a bit less manual work to do keeping the state in check.
+In this project, we'll be using an adjacency list to represent the graph. We've picked this style of graph because they are usually a bit easier to work with, they use less space for many real-world graphs, and they are often a better fit for modeling the kinds of relationships you'll encounter in practice. If you would like, you can read this GeeksforGeeks article about [the differences between adjacency lists and adjacency matrices](https://www.geeksforgeeks.org/dsa/comparison-between-adjacency-list-and-adjacency-matrix-representation-of-graph/)
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-You'll build an undirected, unweighted graph implementation using an adjacency matrix. The focus is on understanding how to store and manipulate graph relationships. For simplicity, you may assume that the values of each vertex are unique in the graph.
+You'll build a simple, undirected, unweighted graph implementation using an adjacency list. The focus is on understanding how to store and manipulate graph relationships. For simplicity, you may assume that the values of each vertex are unique in the graph.
 
-Build a `Graph` class (or factory) to represent your graph. For now it should only include storage for a list of `vertices` and a `matrix` (or 2D array) to serve as the adjacency matrix. Then proceed to create the following methods:
+Build a `Graph` class (or factory) to represent your graph. For now, it should only include storage for an `adjacencyList`. There are several ways you can represent this list. Some common ones are an `Object` or a 2D `Array`. Then proceed to create the following methods:
 
-1. `addVertex(value)`: Adds a new value to the list of vertices and expands the matrix
+1. `addVertex(value)`: Adds a new value to the adjacency list.
 
-   **Hint:** The adjacency matrix should always be of size `n × n` where `n` is the number of vertices.
+   **Hint:** The number of entries in the adjacency list should always be the same as the number of vertices in the graph.
 
-1. `addEdge(value1, value2)`: Creates an edge between two vertices
+1. `addEdge(value1, value2)`: Creates an edge between two vertices. Remember that we are building a *simple, undirected* graph.
 
-    **Tip:** If you would like to visualize your graph, here is a `printMatrix()` function that will `console.log` your graph's adjacency matrix in a structured format. This function will expect to receive the graph instance as a parameter.
+1. `toString()`: Returns a string representation of the underlying adjacency list. You can use this to print the graph and inspect its state. The string representation should look something like this:
 
-    ```javascript
-   function printMatrix(graph) {
-   const row0 = `  ${graph.vertices.join(" ")}`;
-   const otherRows = graph.vertices.map(
-      (_, i) => `${graph.vertices[i]} ${graph.matrix[i].join(" ")}`
-   );
-   console.log([row0, ...otherRows].join("\n"));
-   }
+    ```text
+    X -> ( Y, Z )
+    Y -> ( X )
+    Z -> ( X )
     ```
 
 1. `hasVertex(value)`: Checks if a vertex exists.
 
 1. `areAdjacent(value1, value2)`: Checks if two given vertices are adjacent. This means that they are connected by an edge.
 
-1. `removeVertex(value)`: Removes a vertex and shrinks the matrix. Any edges that were connected to that vertex are now gone.
+1. `removeVertex(value)`: Removes a vertex from the adjacency list. Any edges that were connected to that vertex should be removed as well.
 
 1. `removeEdge(value1, value2)`: Removes an edge between two vertices, if one exists.
 
@@ -72,13 +68,13 @@ Build a `Graph` class (or factory) to represent your graph. For now it should on
 
 1. `getDegree(value)`: Gets the degree of a given vertex. This is the number of edges that are connected to that vertex.
 
-1. `getNeighbors(value)`: Lists all vertices that are adjacent to a given vertex.
+1. `getNeighbors(value)`: Returns an array of all the vertices that are adjacent to the given vertex.
 
-1. `getCommonNeighbors(value1, value2)`: Lists all vertices that are adjacent to both given vertices.
+1. `getCommonNeighbors(value1, value2)`: Returns an array of all vertices that are adjacent to both given vertices.
 
 #### Test Your Graph
 
-1. Create a new JavaScript file. Import both your `Graph` class or factory and the `printMatrix` function.
+1. Create a new JavaScript file. Import your `Graph` class or factory.
 
 1. Create a new instance of your graph.
 
@@ -107,13 +103,12 @@ Build a `Graph` class (or factory) to represent your graph. For now it should on
 1. Now you have your graph populated, try out a few of the methods by copying the following:
 
    ```javascript
-   printMatrix(graph)
-   // The matrix should now look like this:
-   //   A B C D
-   // A 0 1 1 0
-   // B 1 0 1 0
-   // C 1 1 0 1
-   // D 0 0 1 0
+   console.log(graph.toString())
+   // The list should now look like this:
+   // A -> ( B, C )
+   // B -> ( A, C )
+   // C -> ( A, B, D )
+   // D -> ( C )
 
    console.log(graph.getOrder()) // Should log 4
    console.log(graph.getSize()) // Should log 4
@@ -130,7 +125,7 @@ Build a `Graph` class (or factory) to represent your graph. For now it should on
 
 </div>
 
-### Additional resources
+#### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
