@@ -6,7 +6,7 @@ A graph is a way to represent connections between things. Think of it like drawi
 - In a road map, cities are vertices, and roads between them are edges
 - In a computer network, devices are vertices, and connections between computers are edges
 
-![Basic Graph Visualization](example-image.png)
+![Basic Graph Visualization](./project_graph/00.png)
 
 ### Why Use Graphs?
 
@@ -18,14 +18,13 @@ Graphs are incredibly useful for modeling relationships and connections. They he
 1. Analysing and managing dependencies when bundling code.
 1. Ranking pages based on connections to similar pages by search engines.
 
-There are a handful of types of graphs used to solve this wide variety of problems. Graphs can be either *directed* or *undirected*, and can be either *weighted* or *unweighted*. A quick explanation of these terms:
+There are a handful of types of graphs used to solve this wide variety of problems. For a more thorough introduction on what graphs are, read [Khan Academy's "Describing Graphs"](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs) lesson. The following types of graphs will be of particular importance for this project:
 
-- Directed: Connections go only one way (if A connects to B, B doesn't necessarily connect to A). Dependencies in our code are directed, since module A importing B means that module B cannot import module A without introducing circular dependencies.
-- Undirected: Connections go both ways (if A connects to B, B connects to A). A computer network is likely to be undirected, since connections between any two computers are mutual.
-- Weighted: Connections have some numeric weight that specifies something about them. A road map is likely to be weighted, where the weights are the distances between the cities. This allows you to calculate the distance of your journey by adding the weights of the roads along the way.
-- Unweighted: All connections are equal - no one connection is more important than any other. A social network is likely to be unweighted, since connections signify only that a friendship exists.
+- **Simple vs. Non-simple**: A simple graph is one that has no self-loops (an edge connecting a vertex to itself) and no multi-edges (multiple edges connecting the same pair of vertices). A non-simple graph is permitted to have these properties.
+- **Directed vs. Undirected** : In a directed graph, edges have a direction that can go only one way (if A connects to B, B doesn't necessarily connect to A). In an undirected graph, connections go both ways (if A connects to B, B connects to A).
+- **Weighted vs. Unweighted**: In a weighted graph, edges have a numeric weight that specifies something about them. In an unweighted graph, edges do not encode this information — no one connection is more important than any other.
 
-In this project, we will be using the simplest type of graph, an undirected, unweighted graph.
+The computer network graph at the beginning of this project is an example of a simple, undirected, unweighted graph. This is the type of graph we will be building in this project.
 
 ### Representing a Graph
 
