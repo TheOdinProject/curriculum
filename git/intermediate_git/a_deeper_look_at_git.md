@@ -103,22 +103,7 @@ squash 92aa6f3 Create second file
 pick 05e5413 Create third file and create fourth file
 ```
 
-When your editor opens, change the first line (if it exists) or add it (if it doesn’t) to `Create first and second file`.
-Delete the old commit messages below it (except lines starting with #), then save and close the file to finish the rebase.
-That's it! Run `git log` and see how the first two commits got squashed together.
-
-**Note:** By “old commit messages below it” we mean the messages from the original commits you’re squashing — e.g., `Create first file` and `Create second file`.
-
-**Don’t panic:** If you don’t delete them, your `git log` will still show:
-
-```bash
-Create first and second file
-
-Create first file
-Create second file
-```
-
-This is normal. The squash worked correctly.
+When your editor opens, you’ll see the commit messages from the commits being squashed. Edit this so the first line reads: `Create first and second file`. Then save and close the editor to finish the squash. That's it! Run `git log` and see how the first two commits got squashed together.
 
 #### Splitting up a commit
 
