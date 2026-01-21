@@ -124,9 +124,3 @@ Build a `Graph` class (or factory) to represent your graph. For now, it should o
 1. Lastly, experiment with different combinations of all the methods you have in your graph! Make sure everything is working as you expect it to.
 
 </div>
-
-#### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
