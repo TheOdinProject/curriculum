@@ -117,6 +117,7 @@ Create first and second file
 Create first file
 Create second file
 ```
+
 This is normal. The squash worked correctly.
 
 #### Splitting up a commit
