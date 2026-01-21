@@ -161,15 +161,11 @@ You may notice that the boilerplate produced by this shortcut includes a line we
 
 This is not something we need to know about until we discuss responsive design, an advanced topic involving different screen sizes which we will cover much later in the curriculum. For now, you can leave that line as it is.
 
-It's still good to know how to write the boilerplate yourself in case you find yourself using a text editor like notepad (heaven forbid), which doesn't have this shortcut. Try not to use the shortcut in your first few HTML projects, so you can build some muscle memory for writing the boilerplate code.
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
 1. Watch and follow along to Kevin Powell's brilliant [Building Your First Web Page video](https://www.youtube.com/watch?v=V8UAEoOvqFg&t=93s).
-
-1. Build some muscle memory by deleting the contents of the `index.html` file and trying to write out all the boilerplate again from memory. Don't worry if you have to peek at the lesson content the first few times if you get stuck. Just keep going until you can do it a couple of times from memory.
 
 1. Run your boilerplate through the W3 [HTML validator](https://validator.w3.org/#validate_by_input). Validators ensure your markup is correct and are an excellent learning tool, as they provide feedback on syntax errors you may be making often and aren't aware of, such as missing closing tags and extra spaces in your HTML.
 

@@ -53,7 +53,7 @@ So, clearly SVGs are awesome! Time to go convert all of our images to SVG, right
 
 ### Anatomy of an SVG
 
-Typically, you will not want to create SVGs from scratch in your code. Most often, you will download the file or copy the code either from a website or from an image editor that can create them (Adobe Illustrator and Figma are two popular apps that can create SVGs). However, it's pretty common to download an SVG and want to tweak or adjust it just a little bit, so knowing what all the bits and pieces are, and how they work is very useful.
+Typically, you will not want to create SVGs from scratch in your code. Most often, you will download the file or copy the code either from a website or from an image editor that can create them ([Material icons](https://fonts.google.com/icons) and [Feather icons](https://feathericons.com/) are examples of popular SVG icon libraries). However, it's pretty common to download an SVG and want to tweak or adjust it just a little bit, so knowing what all the bits and pieces are, and how they work is very useful.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css,result" data-slug-hash="NWaGdmL" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -88,6 +88,14 @@ Some of the drawbacks of inlining SVG code can be avoided once you've learned a 
 
 For now, just do whichever works best for your use-case. Linking is generally cleaner and simpler, so prefer that unless you need to tweak the SVG code alongside your HTML.
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Read Josh Comeau's [A Friendly Introduction to SVG](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/), a great guide with interactive demos covering shapes and scaling. Stop when you get to the section on animations (animations are covered later in the curriculum).
+
+</div>
+
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
@@ -95,13 +103,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the `xmlns` attribute?](#anatomy-of-an-svg)
 - [What are some situations where you *wouldn't* want to use SVG?](#drawbacks)
 - [What are the benefits of "inlining" your SVGs? What are the drawbacks?](#embedding-svgs)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- There are lots of great free SVG icon libraries, such as [Material icons](https://fonts.google.com/icons) and [Feather icons](https://feathericons.com/).
-
-- If you want to get started making your own or editing SVGs, you'll want some sort of visual editor like [Yann Armelin's SVG path editor](https://yqnn.github.io/svg-path-editor). It's great for tinkering around with simpler SVGs but not designed for complex graphics.
-
-- Josh Comeau's [A Friendly Introduction to SVG](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/) is a beginner-friendly guide with interactive demos covering shapes, scaling, and animations with SVGs.

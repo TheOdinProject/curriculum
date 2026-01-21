@@ -53,7 +53,9 @@ To use a font from one of these libraries, go to the website, select a font and 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 ```
 
-An important consideration when using a font library is the library's privacy policies and any regulations you may need to comply with. For example, using the Google Fonts API [violates the European GDPR](https://thehackernews.com/2022/01/german-court-rules-websites-embedding.html). If you are concerned about complying with such regulations, you can download the font from the library and host it yourself.
+Common online font libraries include (but are not limited to) [Font Library](https://fontlibrary.org/), [Font Bunny](https://fonts.bunny.net/) and [Google Fonts](https://fonts.google.com/).
+
+However, an important consideration when using a font library is the library's privacy policies and any regulations you may need to comply with. For example, [using the Google Fonts API violates the European GDPR](https://thehackernews.com/2022/01/german-court-rules-websites-embedding.html). If you are concerned about complying with such regulations, you can download the font from the library and host it yourself.
 
 #### Self hosted fonts
 
@@ -174,11 +176,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the 'system font stack' and why would you want to use it?](#the-system-font-stack)
 - [Which property would you use to increase or decrease the space between letters in a word?](#letter-spacing)
 - [Which property would you use to increase or decrease the space between lines in a paragraph?](#line-height)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Modern CSS Techniques To Improve Legibility](https://www.smashingmagazine.com/2020/07/css-techniques-legibility/) by [Edoardo Cavazza](https://www.smashingmagazine.com/author/edoardo-cavazza/) is a great article that covers some additional text styles and techniques that can be utilized to improve websites legibility.
-- [Modern Font Stacks](https://modernfontstacks.com/) lists common font stacks and provides demonstrations of them.
-- There are many online font libraries; some of the most common are: [Font Library](https://fontlibrary.org/), [Google Fonts](https://fonts.google.com/), [Font Bunny](https://fonts.bunny.net/) - a GDPR compliant drop-in replacement for Google Fonts, and [Adobe Fonts](https://fonts.adobe.com/) - a premium font library.
