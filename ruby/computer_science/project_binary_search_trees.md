@@ -65,7 +65,7 @@ Write a driver script that does the following:
 1. Create a binary search tree from an array of random numbers `(Array.new(15) { rand(1..100) })`
 1. Confirm that the tree is balanced by calling `#balanced?`
 1. Print out all elements in level, pre, post, and in order
-1. Unbalance the tree by adding several numbers > 100
+1. Unbalance the tree by adding several numbers whose value is more than 100
 1. Confirm that the tree is unbalanced by calling `#balanced?`
 1. Balance the tree by calling `#rebalance`
 1. Confirm that the tree is balanced by calling `#balanced?`
