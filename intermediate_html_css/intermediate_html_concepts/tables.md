@@ -44,9 +44,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Why is it a bad idea to use HTML Tables for page layout?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics#when_should_you_not_use_html_tables)
 - [What are caption elements useful for?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#adding_a_caption_to_your_table_with_caption)
 - [What is the scope attribute?](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#the_scope_attribute)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Pencil & Paper published a great [article about things you can achieve with tables](https://pencilandpaper.io/articles/ux-pattern-analysis-enterprise-data-tables) if you dare to spend some time giving them some love. They suggest some good habits on how you should format your data which makes a huge difference. These are not a list of must dos to a table, but ideas worth keeping in mind for the next time a table is bothering you with how it looks.
