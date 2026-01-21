@@ -18,9 +18,6 @@ This section contains a general overview of topics that you will learn in this l
 
 - Github recently updated the way it names the default branch. This means you need to make sure you are using a recent version of git (2.28 or later). You can check your version by running:
   `git --version`
-- If you haven't already, set your <span id="main-push"></span>local default Git branch to `main`. You can do so by running:
-  `git config --global init.defaultBranch main`
-- For more information on the change from `master` to `main` see [GitHub's Renaming Repository](https://github.com/github/renaming).
 
 #### Create the repository
 
