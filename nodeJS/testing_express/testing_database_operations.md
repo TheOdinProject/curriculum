@@ -35,8 +35,8 @@ Next, setup appropriate npm scripts in your `package.json` file:
 {
   // other stuff
   "scripts": {
-    "dev": "NODE_ENV=development node app.js",
-    "test": "NODE_ENV=test jest"
+    "dev": "NODE_ENV=development --env-file-if-exists=.env node app.js",
+    "test": "NODE_ENV=test --env-file-if-exists=.env jest"
   },
   // even more stuff
 }
@@ -45,17 +45,11 @@ Next, setup appropriate npm scripts in your `package.json` file:
 Based on the `NODE_ENV`, you can programmatically switch out database urls:
 
 ```javascript
-const databaseUrl = process.env.NODE_ENV === 'test'
-  ? process.env.TEST_DATABASE_URL
-  : process.env.DATABASE_URL;
+const connectionString = process.env.NODE_ENV === 'test' ? process.env.TEST_DATABASE_URL : process.env.DATABASE_URL;
 
-const prisma = new PrismaClient({
-  datasources: {
-    db: {
-      url: databaseUrl,
-    },
-  },
-});
+const adapter = new PrismaPg({ connectionString });
+const prisma = new PrismaClient({ adapter });
+
 ```
 
 Voila, the setup is complete. Now shoo... go get testin'.
