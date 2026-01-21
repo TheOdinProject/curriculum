@@ -69,10 +69,10 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 Write a driver script that does the following:
 
-1. Create a binary search tree from an array of random numbers < 100. You can create a function that returns an array of random numbers every time you call it if you wish.
+1. Create a binary search tree from an array of random numbers with each element having a value less than 100. You can create a function that returns an array of random numbers every time you call it if you wish.
 1. Confirm that the tree is balanced by calling `isBalanced`.
 1. Print out all elements in level, pre, post, and in order.
-1. Unbalance the tree by adding several numbers > 100.
+1. Unbalance the tree by adding several numbers whose value is more than 100.
 1. Confirm that the tree is unbalanced by calling `isBalanced`.
 1. Balance the tree by calling `rebalance`.
 1. Confirm that the tree is balanced by calling `isBalanced`.
