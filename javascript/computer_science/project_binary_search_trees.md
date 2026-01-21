@@ -80,7 +80,7 @@ Write a driver script that does the following:
 
 </div>
 
-### Additional resources
+#### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
