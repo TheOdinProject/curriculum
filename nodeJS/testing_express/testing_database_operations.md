@@ -42,6 +42,8 @@ Next, setup appropriate npm scripts in your `package.json` file:
 }
 ```
 
+This is one time we do need to make sure we install [dotenv](https://www.npmjs.com/package/dotenv). To run Jest, we don't run Node directly and so we cannot use `--env-file-if-exists` to load our `.env`. Here, we make sure dotenv runs as a setup file before the actual tests to load our environment variables. [Jest sets `NODE_ENV` to `'test'` by default](https://jestjs.io/docs/environment-variables#node_env). We could also use dotenv in our `app.js` or of course use `--env-file-if-exists`. Either works fine.
+
 Based on the `NODE_ENV`, you can programmatically switch out database urls:
 
 ```javascript
