@@ -51,7 +51,6 @@ const connectionString = process.env.NODE_ENV === 'test'
 
 const adapter = new PrismaPg({ connectionString });
 const prisma = new PrismaClient({ adapter });
-
 ```
 
 Voila, the setup is complete. Now shoo... go get testin'.
