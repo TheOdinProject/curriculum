@@ -35,8 +35,8 @@ Next, setup appropriate npm scripts in your `package.json` file:
 {
   // other stuff
   "scripts": {
-    "dev": "NODE_ENV=development --env-file-if-exists=.env node app.js",
-    "test": "NODE_ENV=test --env-file-if-exists=.env jest"
+    "dev": "node app.js",
+    "test": "jest --setupFiles dotenv/config"
   },
   // even more stuff
 }
