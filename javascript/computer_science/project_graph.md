@@ -38,15 +38,15 @@ In this project, we'll be using an adjacency list to represent the graph. We've 
 
 You'll build a simple, undirected, unweighted graph implementation using an adjacency list. The focus is on understanding how to store and manipulate graph relationships. For simplicity, you may assume that the values of each vertex are unique in the graph.
 
-Build a `Graph` class (or factory) to represent your graph. For now, it should only include storage for an `adjacencyList`. There are several ways you can represent this list. Some common ones are an `Object` or a 2D `Array`. Then proceed to create the following methods:
+Build a `Graph` class (or factory) to represent your graph. For now, it should only include storage for an `adjacencyList`. Then proceed to create the following methods:
 
-1. `addVertex(value)`: Adds a new value to the adjacency list.
+1. `addVertex(value)`: Adds `value` to the adjacency list. Does nothing if `value` is already in the graph.
 
    **Hint:** The number of entries in the adjacency list should always be the same as the number of vertices in the graph.
 
-1. `addEdge(value1, value2)`: Creates an edge between two vertices. Remember that we are building a *simple, undirected* graph.
+1. `addEdge(value1, value2)`: Creates an edge between the two vertices `value1` and `value2`. If either `value1` or `value2` are not in the graph, creates a vertex for them before creating the edge. Remember that our graph is *simple*, *undirected*, and *unweighted*, so you must take this into consideration.
 
-1. `toString()`: Returns a string representation of the underlying adjacency list. You can use this to print the graph and inspect its state. The string representation should look something like this:
+1. `toString()`: Returns a string that represents the underlying adjacency list. You can use this to print the graph and inspect its state. The string representation should look something like this:
 
     ```text
     X -> ( Y, Z )
@@ -54,23 +54,23 @@ Build a `Graph` class (or factory) to represent your graph. For now, it should o
     Z -> ( X )
     ```
 
-1. `hasVertex(value)`: Checks if a vertex exists.
+1. `hasVertex(value)`: Returns `true` if the graph contains the vertex `value`, returns `false` otherwise.
 
-1. `areAdjacent(value1, value2)`: Checks if two given vertices are adjacent. This means that they are connected by an edge.
+1. `areAdjacent(value1, value2)`: Returns `true` if the vertices `value1` and `value2` are adjacent, returns `false` otherwise. Recall that two vertices are adjacent if they are connected by an edge.
 
-1. `removeVertex(value)`: Removes a vertex from the adjacency list. Any edges that were connected to that vertex should be removed as well.
+1. `removeVertex(value)`: Removes the vertex `value` from the adjacency list. Any edges that were connected to this vertex should be removed as well. Does nothing if `value` is not in the graph.
 
-1. `removeEdge(value1, value2)`: Removes an edge between two vertices, if one exists.
+1. `removeEdge(value1, value2)`: Removes an edge between the vertices `value1` and `value2`. Does nothing if either `value1` or `value2` are not in the graph.
 
-1. `getOrder()`: Gets the order of the graph. This is the number of vertices in the graph.
+1. `getOrder()`: Returns a number that represents the order of the graph. This is the number of vertices in the graph.
 
-1. `getSize()`: Gets the size of the graph. This is the number of edges in the graph.
+1. `getSize()`: Returns a number that represents the size of the graph. This is the number of edges in the graph.
 
-1. `getDegree(value)`: Gets the degree of a given vertex. This is the number of edges that are connected to that vertex.
+1. `getDegree(value)`: Returns a number that represents the degree of the vertex `value`, or `undefined` if `value` is not in the graph. The degree of a vertex is the number of edges that are connected to that vertex.
 
-1. `getNeighbors(value)`: Returns an array of all the vertices that are adjacent to the given vertex.
+1. `getNeighbors(value)`: Returns an array of all the vertices that are adjacent to the vertex `value`, or `undefined` if `value` is not in the graph.
 
-1. `getCommonNeighbors(value1, value2)`: Returns an array of all vertices that are adjacent to both given vertices.
+1. `getCommonNeighbors(value1, value2)`: Returns an array of all the vertices that are adjacent to both of the vertices `value1` and `value2`, or `undefined` if either `value1` or `value2` are not in the graph.
 
 #### Test Your Graph
 
