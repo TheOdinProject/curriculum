@@ -10,23 +10,33 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Build a `Node` class. It should have an attribute for the data it stores as well as its left and right children. As a bonus, try including the `Comparable` module and compare nodes using their data attribute.
+1. Build a `Node` class. It should have an attribute for the data it stores as well as its left and right children.
 
 1. Build a `Tree` class which accepts an array when initialized. The `Tree` class should have a `root` attribute, which uses the return value of `#build_tree` which you'll write next.
 
 1. Write a `#build_tree` method which takes an array of data (e.g., `[1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]`) and turns it into a balanced binary tree full of `Node` objects appropriately placed (don't forget to sort and remove duplicates!). The `#build_tree` method should return the level-0 root node.
 
-   **Tip:** If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
+   <div class="lesson-note lesson-note--tip" markdown="1">
+
+   #### Visually representing your tree
+
+   If you would like to visualize your binary search tree, here is a `#pretty_print` method that a student wrote and shared on Discord:
 
    ```ruby
-   def pretty_print(node = @root, prefix = '', is_left = true)
-     pretty_print(node.right, "#{prefix}#{is_left ? '│   ' : '    '}", false) if node.right
+   def pretty_print(node = @root, prefix = '', is_left: true)
+     return unless node
+
+     pretty_print(node.right, "#{prefix}#{is_left ? '│   ' : '    '}", is_left: false)
      puts "#{prefix}#{is_left ? '└── ' : '┌── '}#{node.data}"
-     pretty_print(node.left, "#{prefix}#{is_left ? '    ' : '│   '}", true) if node.left
+     pretty_print(node.left, "#{prefix}#{is_left ? '    ' : '│   '}", is_left: true)
    end
    ```
 
-1. Write an `#insert` and `#delete` method which accepts a value to insert/delete. You'll have to deal with several cases for delete, such as when a node has children or not. If you need additional resources, check out these two articles on [inserting](https://www.geeksforgeeks.org/insertion-in-binary-search-tree/?ref=lbp) and [deleting](https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/?ref=lbp), or this [video on BST inserting/removing](https://youtu.be/wcIRPqTR3Kc) with several visual examples.
+   </div>
+
+1. Write an `#include?(value)` method that accepts a value and returns `true` if the given value is in the tree. If the value isn't in the tree, it should return `false`.
+
+1. Write an `#insert(value)` method which accepts a value and inserts a new node with that value into the tree. Be sure to insert in a way that preserves the "binary search" property: for each node, every node to its left must have a lower value, and every node to its right must have a greater value. If the method is called with a value that already exists in the tree, the method should do nothing. If you need additional resources, check out the [Geeks for Geeks article on binary search tree insertion](https://wwww.geeksforgeeks.org/insertion-in-binary-search-tree/?ref=lbp).
 
    <div class="lesson-note" markdown="1">
 
@@ -36,11 +46,19 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
    </div>
 
-1. Write a `#find` method which accepts a value and returns the node with the given value.
+1. Write a `#delete(value)` method that accepts a value and removes it from the tree. You'll have to deal with multiple cases for this based on how many children the targeted node has. If the given values doesn't exist in the tree, the method should do nothing. If you need additional resources, check out the [Geeks for Geeks article on deleting in a binary search tree](https://wwww.geeksforgeeks.org/binary-search-tree-set-2-delete/?ref=lbp).
 
-1. Write a `#level_order` method which accepts a block. This method should traverse the tree in breadth-first level order and yield each node to the provided block. This method can be implemented using either iteration or recursion (try implementing both!). The method should return an array of values if no block is given. **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to traverse, and to add new ones to the list ([video on level order traversal](https://www.youtube.com/watch?v=86g8jAQug04)).
+1. Write a `#level_order` method which accepts a block. This method should traverse the tree in breadth-first level order and yield each value to the provided block. With a block, it should return `self`. This method can be implemented using either iteration or recursion (try implementing both!). If a block isn't given, the method should return an `Enumerator`.
 
-1. Write `#inorder`, `#preorder`, and `#postorder` methods that accepts a block. Each method should traverse the tree in their respective depth-first order and yield each node to the provided block. The methods should return an array of values if no block is given. The video [Binary Tree Traversal: Preorder, Inorder, Postorder](https://www.youtube.com/watch?v=gm8DUJJhmY4) explains the topic clearly.
+   <div class="lesson-note lesson-note--tip" markdown="1">
+
+   #### Using a queue
+
+   You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to traverse and to add new ones to the list. If you need a visualization, watch [mycodeschool's video on level order traversal](https://www.youtube.com/watch?v=86g8jAQug04).
+
+   </div>
+
+1. Write `#inorder`, `#preorder`, and `#postorder` methods that also accept a block. Each of these methods should traverse the tree in their respective depth-first order and yield each value to the provided block. With a block, they should return `self`, and without a block, they should return an `Enumerator`. If you need a resource for how the different traversals work, watch [mycodeschool's video on Binary Tree Traversal: Preorder, Inorder, Postorder](https://www.youtube.com/watch?v=gm8DUJJhmY4).
 
 1. Write a `#height` method that accepts a value and returns the height of the node containing that value. Height is defined as the number of edges in the longest path from that node to a leaf node. If the value is not found in the tree, the method should return `nil`.
 
