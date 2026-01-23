@@ -74,7 +74,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
    </div>
 
-1. Write a `#rebalance` method which rebalances an unbalanced tree. **Tip:** You'll want to use a traversal method to provide a new array to the `#build_tree` method.
+1. Write a `#rebalance` method which rebalances an unbalanced tree. You'll want to use a traversal method to provide a new array to the `#build_tree` method.
 
 #### Tie it all together
 

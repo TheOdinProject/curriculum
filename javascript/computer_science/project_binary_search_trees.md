@@ -76,7 +76,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
    </div>
 
-1. Write a `rebalance()` function that rebalances an unbalanced tree. **Tip:** You'll want to use a traversal method to provide a new array to the `buildTree()` function.
+1. Write a `rebalance()` function that rebalances an unbalanced tree. You'll want to use a traversal method to provide a new array to the `buildTree()` function.
 
 #### Tie it all together
 
