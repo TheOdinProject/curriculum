@@ -50,7 +50,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 1. Write a `deleteItem(value)` function that accepts a value and removes it from the tree. You'll have to deal with multiple cases for this based on how many children the targeted node has. If the given value doesn't exist in the tree, the function should do nothing. If you need additional resources, check out the [Geeks for Geeks article on deleting in a binary search tree](https://wwww.geeksforgeeks.org/binary-search-tree-set-2-delete/?ref=lbp).
 
-1. Write a `levelOrderForEach(callback)` function that accepts a callback function as its parameter. `levelOrderForEach()` should traverse the tree in breadth-first level order and call the callback on each node as it traverses, passing the whole node as an argument, similarly to how `Array.prototype.forEach()` might work for arrays. `levelOrderForEach()` may be implemented using either iteration or recursion (try implementing both!). If no callback function is provided, [throw an Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw) reporting that a callback is required.
+1. Write a `levelOrderForEach(callback)` function that accepts a callback function as its parameter. `levelOrderForEach()` should traverse the tree in breadth-first level order and call the callback on each value as it traverses, passing each value (*not* the nodes) as an argument, similarly to how `Array.prototype.forEach()` might work for arrays. `levelOrderForEach()` may be implemented using either iteration or recursion (try implementing both!). If no callback function is provided, [throw an Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw) reporting that a callback is required.
 
    <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -60,7 +60,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
    </div>
 
-1. Write `inOrderForEach(callback)`, `preOrderForEach(callback)`, and `postOrderForEach(callback)` functions that also accept a callback as a parameter. Each of these functions should traverse the tree in their respective depth-first order and pass each node to the provided callback. The functions should throw an Error if no callback is given as an argument, like with `levelOrderForEach()`. If you need a resource for how the different traversals work, watch [mycodeschool's video on Binary Tree Traversal: Preorder, Inorder, Postorder](https://www.youtube.com/watch?v=gm8DUJJhmY4).
+1. Write `inOrderForEach(callback)`, `preOrderForEach(callback)`, and `postOrderForEach(callback)` functions that also accept a callback as a parameter. Each of these functions should traverse the tree in their respective depth-first order and pass each value to the provided callback. The functions should throw an Error if no callback is given as an argument, like with `levelOrderForEach()`. If you need a resource for how the different traversals work, watch [mycodeschool's video on Binary Tree Traversal: Preorder, Inorder, Postorder](https://www.youtube.com/watch?v=gm8DUJJhmY4).
 
 1. Write a `height(value)` function that returns the height of the node containing the given value. Height is defined as the number of edges in the longest path from that node to a leaf node. If the value is not found in the tree, the function should return `undefined`.
 
