@@ -71,7 +71,7 @@ Provided everything has gone according to plan, head over to `localhost:5173`, w
 
 ![Vite React template homepage](https://cdn.statically.io/gh/TheOdinProject/curriculum/73199c4e9e43e8d87f8759e026c13b63fcfe73c7/react/introduction/setting_up_a_react_environment/imgs/vite_react_homepage.png)
 
-Congratulations! You've created your first React app. You can now exit out of the dev server (<kbd>Ctrl</kbd> + <kbd>C</kbd>) and `cd` into your project directory. You can start the dev server any time within the project directory by running npm run dev.
+Congratulations! You've created your first React app. You can now exit out of the dev server (<kbd>Ctrl</kbd> + <kbd>C</kbd>) and `cd` into your project directory. You can start the dev server any time within the project directory by running `npm run dev`.
 
 To link your local project directory to a GitHub repo, create a new **empty** repo on GitHub then follow the instructions in the new repo's page to connect it to your local project directory.
 
