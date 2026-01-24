@@ -66,11 +66,11 @@ Build a `Graph` class to represent your graph. For now, it should only include s
 
 1. `size`: Returns a number that represents the size of the graph. This is the number of edges in the graph.
 
-1. `degree(value)`: Returns a number that represents the degree of the vertex `value`, or `undefined` if `value` is not in the graph. The degree of a vertex is the number of edges that are connected to that vertex.
+1. `degree(value)`: Returns a number that represents the degree of the vertex `value`, or `nil` if `value` is not in the graph. The degree of a vertex is the number of edges that are connected to that vertex.
 
-1. `neighbors(value)`: Returns an array of all the vertices that are adjacent to the vertex `value`, or `undefined` if `value` is not in the graph.
+1. `neighbors(value)`: Returns an array of all the vertices that are adjacent to the vertex `value`, or `nil` if `value` is not in the graph.
 
-1. `common_neighbors(value1, value2)`: Returns an array of all the vertices that are adjacent to both of the vertices `value1` and `value2`, or `undefined` if either `value1` or `value2` are not in the graph.
+1. `common_neighbors(value1, value2)`: Returns an array of all the vertices that are adjacent to both of the vertices `value1` and `value2`, or `nil` if either `value1` or `value2` are not in the graph.
 
 #### Test Your Graph
 
@@ -85,13 +85,13 @@ Build a `Graph` class to represent your graph. For now, it should only include s
 1. Populate your graph using the `add_vertex(value)` and `add_edge(value1, value2)` methods by copying the following:
 
    ```ruby
-   // Add some vertices
+   # Add some vertices
    graph.add_vertex("A")
    graph.add_vertex("B")
    graph.add_vertex("C")
    graph.add_vertex("D")
 
-   // Add some edges
+   # Add some edges
    graph.add_edge("A", "B")
    graph.add_edge("B", "C")
    graph.add_edge("A", "C")
@@ -116,9 +116,9 @@ Build a `Graph` class to represent your graph. For now, it should only include s
    graph.remove_edge('C', 'B')
    puts graph.size # Should print 3
 
-   puts graph.neighbors('A')) # Should print ['B', 'C']
-   puts graph.common_neighbors('A', 'D')) # Should print ['C']
-   puts graph.common_neighbors('A', 'B')) # Should print []
+   p graph.neighbors('A') # Should print ['B', 'C']
+   p graph.common_neighbors('A', 'D') # Should print ['C']
+   p graph.common_neighbors('A', 'B') # Should print []
    ```
 
 1. Lastly, experiment with different combinations of all the methods you have in your graph! Make sure everything is working as you expect it to.
