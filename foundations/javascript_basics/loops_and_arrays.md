@@ -198,7 +198,7 @@ We will teach you the art of actually writing these tests later in the course. F
    - `Copy and sort array`
    - `Shuffle an array`
    - `Filter unique array members`
-1. Go back to the [JavaScript exercises repository's `foundations/` directory](https://github.com/TheOdinProject/javascript-exercises/tree/main/foundations) that we introduced in the [Data Types and Conditionals](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals) assignment. Review each README file prior to completing the following exercises in order:
+1. Go back to the [JavaScript exercises repository's `foundations/` directory](https://github.com/TheOdinProject/javascript-exercises/tree/main/foundations) that we introduced in the [Data Types and Conditionals](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals) assignment. Review each README file prior to completing the following exercises in order (it may have been a while, so take a moment to remind yourself of the repo's own README for general instructions):
     - `06_repeatString`
     - `07_reverseString`
     - `08_removeFromArray`
