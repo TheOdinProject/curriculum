@@ -30,10 +30,10 @@ We'll first need to make a new directory for our practice app, then create a `pa
 ```bash
 mkdir webpack-practice &&
 cd webpack-practice &&
-npm init -y
+npm init -y --init-type=module
 ```
 
-Inside your new directory, before we install anything, open `package.json` and remove the top-level `"type": "commonjs"` or `"type": "module"` property if it exists, otherwise Webpack will start throwing errors at us due to clashing module issues. Once that's done, we can go ahead and install Webpack, which involves two packages.
+This should create a `package.json` file inside the `webpack-practice` directory you just made and entered. Now we can install Webpack:
 
 ```bash
 npm install --save-dev webpack webpack-cli
@@ -93,20 +93,28 @@ Back in your project root (so outside of `src`), create a `webpack.config.js` fi
 
 ```javascript
 // webpack.config.js
-const path = require("path");
+import path from "node:path";
 
-module.exports = {
+export default {
   mode: "development",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(import.meta.dirname, "dist"),
     clean: true,
   },
 };
 ```
 
-Yes, you may have noticed this file uses CommonJS (CJS) syntax instead of ESM. That's because this file (and Webpack itself) runs in NodeJS and not the browser. By default, NodeJS uses CJS syntax, and the configuration file also contains some CJS-specific things. We need not worry about this - this is just stuff we need for Webpack to do its thing.
+<div class="lesson-note" markdown="1">
+
+#### ESM, CommonJS and Webpack docs
+
+If you look at Webpack's documentation, you will find many of its code snippets written with CommonJS (CJS) syntax instead of ESM syntax. While there are some key differences between how both module systems work, the only relevant differences to us here are the different import/export syntaxes and one or two global variables under a different name. You shouldn't need to do much "translating" when reading Webpack docs.
+
+It's important to note here that CJS is purely a Node thing and not a browser thing. While our code in src will eventually run in a browser, the actual bundling is done by Webpack which runs in Node.
+
+</div>
 
 You'll notice the exported object contains a few key sections:
 
@@ -141,15 +149,15 @@ We should also create a `template.html` inside `src` (you can name this file wha
 
 ```javascript
 // webpack.config.js
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+import path from "node:path";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
-module.exports = {
+export default {
   mode: "development",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(import.meta.dirname, "dist"),
     clean: true,
   },
   plugins: [
@@ -182,15 +190,15 @@ Back in our `webpack.config.js`, we need to add these loaders so Webpack knows w
 
 ```javascript
 // webpack.config.js
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+import path from "node:path";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
-module.exports = {
+export default {
   mode: "development",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(import.meta.dirname, "dist"),
     clean: true,
   },
   plugins: [
@@ -308,15 +316,15 @@ After all that, if we added both `html-loader` and the image `asset/resource` ru
 
 ```javascript
 // webpack.config.js
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+import path from "node:path";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
-module.exports = {
+export default {
   mode: "development",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(import.meta.dirname, "dist"),
     clean: true,
   },
   plugins: [
@@ -371,15 +379,15 @@ Once installed, in our `webpack.config.js`, we only need to add a couple more pr
 
 ```javascript
 // webpack.config.js
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+import path from "node:path";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
-module.exports = {
+export default {
   mode: "development",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(import.meta.dirname, "dist"),
     clean: true,
   },
   devtool: "eval-source-map",
