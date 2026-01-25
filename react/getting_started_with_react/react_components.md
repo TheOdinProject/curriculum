@@ -31,21 +31,13 @@ To get the feel of working with components, we're going to practice creating fun
 
 ```jsx
 function Greeting() {
-  return <h1>&quot;I swear by my pretty floral bonnet, I will end you.&quot;</h1>;
+  return <h1>"I swear by my pretty floral bonnet, I will end you."</h1>;
 }
 ```
 
 This might look mostly familiar to you - it's a JavaScript function, which returns JSX. Open up the project you were working on, create a new file named `Greeting.jsx`, and in that file write your own handmade functional component. Name it whatever you wish, and have it return whatever JSX you wish.
 
 Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind. **React components must be capitalized** or they will not function as expected, which is why we capitalized `Greeting()`. More about that later.
-
-<div class="lesson-note" markdown="1">
-
-#### HTML escape code
-
-In the above example, `&quot;` is an escape code we use to render `"`. Your linter will greet you with an error if you use regular quotes. You can use this [LambdaTest tool for escaping HTML characters](https://www.lambdatest.com/free-online-tools/html-escape) if you run into such errors, or you can read more about [HTML escape codes](https://www.w3.org/wiki/Common_HTML_entities_used_for_typography).
-
-</div>
 
 #### What is HTML doing in my JavaScript?
 
@@ -57,7 +49,7 @@ So remember how our component is just hanging out in its own dedicated file? Thi
 
 ```jsx
 function Greeting() {
-  return <h1>&quot;I swear by my pretty floral bonnet, I will end you.&quot;</h1>;
+  return <h1>"I swear by my pretty floral bonnet, I will end you."</h1>;
 }
 
 export default Greeting;
