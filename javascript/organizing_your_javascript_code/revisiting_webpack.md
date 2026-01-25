@@ -64,6 +64,11 @@ You may not know for sure what you might want or need in a template, but when yo
 1. Read [a little more about npm scripts](https://dyte.io/blog/package-json-scripts/). This article goes a little further than what you might find yourself needing to use for a while, such as pre/post, lifecycle and sh scripts, but it's good to be aware of what things are possible with the tools you have.
 1. Read through [Webpack's "Production" guide](https://webpack.js.org/guides/production/) where they walk you through how to use `webpack-merge` and split your configuration file. The exact code examples they've used in that guide follow on from a previous part of a longer tutorial they have, but the main parts about `webpack-merge` and splitting the configuration file should still be followable with a new project, or you can even try converting your Restaurant Page project to do things this way!
    - You can ignore the "Specify the Mode" section and its examples.
+   - The guide uses CJS syntax but like in the Webpack lesson, we only need to tweak a little syntax, mainly for import/export:
+     - `__dirname` can be replaced with `import.meta.dirname`
+     - `module.exports =` can be replaced with `export default`
+     - `const { merge } = require('webpack-merge')` can be treated as a named import i.e. `import { merge } from 'webpack-merge'`
+     - All other `require` lines don't destructure anything so can be treated as default imports
 
 </div>
 
