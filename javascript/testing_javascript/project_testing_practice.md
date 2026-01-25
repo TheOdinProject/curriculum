@@ -4,7 +4,23 @@ Let's practice!  This testing thing really is not that difficult, but it *is* qu
 
 ### Using ES6 import statements with Jest
 
-By default, the current version of Jest will not recognize ES6 import statements. In order for you to be able to use ES6 modules for this project you may follow the two steps in [Jest's instructions for "Using Babel"](https://jestjs.io/docs/en/getting-started#using-babel) (ignore the "Making your Babel config jest-aware" section).
+By default, the current version of Jest will not recognize ES6 import statements. In order for you to be able to use ES6 modules for this project, you will need to do following:
+
+1. Install `@babel/preset-env`:
+
+   ```bash
+   npm install --save-dev @babel/preset-env
+   ```
+
+1. Create a `babel.config.js` in the project root with the following contents:
+
+   ```javascript
+   export default {
+     presets: [["@babel/preset-env", { targets: { node: "current" } }]],
+   };
+   ```
+
+This will allow you to run Jest as normal. Behind the scenes, Babel will convert your ESM to CJS before running Jest (it won't overwrite your actual files as this all happens in memory).
 
 ### Assignment
 
