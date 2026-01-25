@@ -268,7 +268,7 @@ There are three different ways you could be dealing with local image files:
 
 1. **Image files we reference in our HTML template, e.g. as the `src` of an `<img>`**
 
-   We need to install and tell Webpack to use something called `html-loader`, which will detect image file paths in our HTML template and load the right image files for us. Without this, `./odin.png` would just be a bit of text that will no longer reference the correct file once we run Webpack to build into `dist`. Let's install it:
+   We need to install and tell Webpack to use something called `html-loader`, which will detect image file paths in our HTML template and load the right image files for us. Without this, a `src` like `./odin.png` would just be a bit of text that will no longer reference the correct file once we run Webpack to build into `dist`. Let's install it:
 
    ```bash
    npm install --save-dev html-loader
@@ -280,7 +280,7 @@ There are three different ways you could be dealing with local image files:
    // webpack.config.js
    {
      test: /\.html$/i,
-     loader: "html-loader",
+     use: ["html-loader"],
    }
    ```
 
@@ -303,10 +303,10 @@ There are three different ways you could be dealing with local image files:
    ```javascript
    // src/index.js
    import odinImage from "./odin.png";
-   
+
    const image = document.createElement("img");
    image.src = odinImage;
-   
+
    document.body.appendChild(image);
    ```
 
@@ -340,7 +340,7 @@ export default {
       },
       {
         test: /\.html$/i,
-        loader: "html-loader",
+        use: ["html-loader"],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -407,7 +407,7 @@ export default {
       },
       {
         test: /\.html$/i,
-        loader: "html-loader",
+        use: ["html-loader"],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
