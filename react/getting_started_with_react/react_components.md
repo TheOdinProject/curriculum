@@ -31,7 +31,7 @@ To get the feel of working with components, we're going to practice creating fun
 
 ```jsx
 function Greeting() {
-  return <h1>&quot;I swear by my pretty floral bonnet, I will end you.&quot;</h1>;
+  return <h1>"I swear by my pretty floral bonnet, I will end you."</h1>;
 }
 ```
 
@@ -39,25 +39,17 @@ This might look mostly familiar to you - it's a JavaScript function, which retur
 
 Are you done? Check the naming of your function! Is it capitalized? Keep this key difference in mind. **React components must be capitalized** or they will not function as expected, which is why we capitalized `Greeting()`. More about that later.
 
-<div class="lesson-note" markdown="1">
-
-#### HTML escape code
-
-In the above example, `&quot;` is an escape code we use to render `"`. Your linter will greet you with an error if you use regular quotes. You can use this [LambdaTest tool for escaping HTML characters](https://www.lambdatest.com/free-online-tools/html-escape) if you run into such errors, or you can read more about [HTML escape codes](https://www.w3.org/wiki/Common_HTML_entities_used_for_typography).
-
-</div>
-
 #### What is HTML doing in my JavaScript?
 
 It's JSX. It looks jarring at first, but soon we'll realize how cool it is. We'll learn all about it in the upcoming lessons!
 
-### Where do components live
+### Where do components live?
 
 So remember how our component is just hanging out in its own dedicated file? This makes it independent from the rest of the codebase! That said, while independence is great, we do want the component to use functionality created elsewhere, and to share itself with other components. How can we do this? `import`ing and `export`ing! For a very long time in React development, it was necessary to `import` React in your JavaScript files that used React components, but since React v17.0 it is no longer required. Let's `export` our newly created component so that parent components can use it as a child throughout your project.
 
 ```jsx
 function Greeting() {
-  return <h1>&quot;I swear by my pretty floral bonnet, I will end you.&quot;</h1>;
+  return <h1>"I swear by my pretty floral bonnet, I will end you."</h1>;
 }
 
 export default Greeting;

@@ -159,7 +159,7 @@ You've learnt about three powerful array methods which are `map`, `filter` and `
 
 For a quick recap of these array methods, consider this picture which should visually explain them in terms of sandwiches:
 
-![example of filter, map and reduce methods being used to visually represent making a sandwich](https://static.observableusercontent.com/thumbnail/bea194824f0d5842addcb7910bb488795c6f80f143ab5332b28a317ebcecd603.jpg)
+![example of filter, map and reduce methods being used to visually represent making a sandwich](https://cdn.statically.io/gh/TheOdinProject/curriculum/335ab97a10d66d0f07e81d01fc6b1c63d31dc5ae/foundations/javascript_basics/loops_and_arrays/imgs/00.jpg)
 
 Let's do some quick practice before your assignment! Rewrite the `sumOfTripledEvens(array)` function using these three methods. Once you are finished and you've tested that your function works correctly, check out the solution below.
 
@@ -198,7 +198,7 @@ We will teach you the art of actually writing these tests later in the course. F
    - `Copy and sort array`
    - `Shuffle an array`
    - `Filter unique array members`
-1. Go back to the [JavaScript exercises repository's `foundations/` directory](https://github.com/TheOdinProject/javascript-exercises/tree/main/foundations) that we introduced in the [Data Types and Conditionals](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals) assignment. Review each README file prior to completing the following exercises in order:
+1. Go back to the [JavaScript exercises repository's `foundations/` directory](https://github.com/TheOdinProject/javascript-exercises/tree/main/foundations) that we introduced in the [Data Types and Conditionals](https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals) assignment. Review each README file prior to completing the following exercises in order (it may have been a while, so take a moment to remind yourself of the repo's own README for general instructions):
     - `06_repeatString`
     - `07_reverseString`
     - `08_removeFromArray`
