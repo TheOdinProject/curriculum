@@ -13,6 +13,7 @@ Most forms won't be that long or complicated for you, but it's useful to appreci
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Form creation in Rails.
+- How Rails protects against CSRF attacks.
 - How to handle forms that fail validations.
 - Linking forms and models with the `form_with` helper.
 - How to access and use values submitted in a form.
@@ -82,6 +83,12 @@ Specific parameters of the `params` hash are accessed like any other nested hash
 Don't forget that you have to allow the params now in your controller using `#expect` because they are a hash instead of just a flat string. See the Controller section below for a refresher on the controller side of things.
 
 This is cool stuff that you'll get a chance to play with in the project.
+
+#### The authenticity token
+
+You may have noticed in the above examples that Rails is always sending a parameter to your backend called the `"authenticity_token"`, and it has a value set to a seemingly random jumble of numbers and letters. This token is a unique, random string that Rails includes in forms to protect against Cross-Site Request Forgery (CSRF) attacks. This is basically a way for Rails to guarantee that any form inputs it receives are coming from *your site*. Without this, malicious users could potentially set up links or buttons in a place they control (such as their own website or in an email) and trick users of your site into clicking on them in order to take actions on those users' behalf.
+
+If Rails processes form input and the parameters lack the `authenticity_token` or its value doesn't match what Rails expects, Rails will raise an error rather than continue with processing the request. This keeps your site secure against these types of attacks.
 
 ### Form helpers: form_with
 
@@ -278,6 +285,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is the `name` attribute of a form input element and what does it do?](#railsifying-your-form-by-making-forms-input-into-params)
 - [How do you nest attributes under a single hash in `params`?](#railsifying-your-form-by-making-forms-input-into-params)
+- [How does Rails protect against Cross-Site Request Forgery attacks?](#the-authenticity-token)
 - [How do you pass `form_with` a model object?](#using-models-with-the-formwith-helper)
 - [How do you access errors for a failed-to-save model object?](#forms-and-validations)
 - [How do Rails forms make PATCH or DELETE requests?](#making-patch-and-delete-submissions)
