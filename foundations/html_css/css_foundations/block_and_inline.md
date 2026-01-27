@@ -39,7 +39,7 @@ In this case, wrapping content in a `div` and giving it a `class` or `id`, you c
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-A `span` is a generic **inline** container. It sits inside a line of text and only takes up as much space as its content. Unlike `div`, it does **not** start on a new line. You use `span` when you want to style or target just part of a sentence.
+A `span` is a generic inline container. It sits inside a line of text and only takes up as much space as its content. Unlike `div`, it does not start on a new line. You use `span` when you want to style or target just part of a sentence.
 
 For example, highlighting a single word or attaching a tooltip to a phrase. Again, you add a `class` or `id` so CSS can find and manipulate it.
 
