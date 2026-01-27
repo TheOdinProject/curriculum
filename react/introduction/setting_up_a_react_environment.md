@@ -79,7 +79,7 @@ To link your local project directory to a GitHub repo, create a new **empty** re
 
 #### Using an existing repo
 
-Alternatively, if you created a GitHub repo already and cloned it, you can `cd` into your cloned repo then run the above Vite command, using `.` as the project name:
+Alternatively, if you created a GitHub repo already and cloned it, you can `cd` into your cloned repo then run the below Vite command, using `.` as the project name:
 
 ```bash
 npm create vite@latest . -- --template react
