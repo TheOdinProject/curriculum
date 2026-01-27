@@ -103,7 +103,7 @@ Many of these resources assume you're using a Mac or Linux environment. If you d
 
    </div>
 
-   - [Download files](https://swcarpentry.github.io/shell-novice/#download-files) - only follow the instructions in this section. You don't need to install any software and can move onto the next bullet point in this list.
+   - [Download files](https://swcarpentry.github.io/shell-novice/#download-files) - only follow the instructions in this section. For Linux, after the `Callout` section, type `echo $SHELL` in your terminal window to check if your machine is set up to use Bash. You don't need to install any software and can move onto the next bullet point in this list.
    - [Introducing the Shell](https://swcarpentry.github.io/shell-novice/01-intro.html)
    - [Navigating Files and Directories](https://swcarpentry.github.io/shell-novice/02-filedir.html)
    - [Working With Files and Directories](https://swcarpentry.github.io/shell-novice/03-create.html)
