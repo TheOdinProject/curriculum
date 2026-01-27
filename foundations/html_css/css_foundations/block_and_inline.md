@@ -27,7 +27,7 @@ When building a web page, not every piece of content has a specific semantic tag
 
 A `div` is a generic **block-level** container. It behaves like a rectangular section that stretches across the full width of its parent and starts on a new line. Typically, developers use `div` to group related elements into larger chunks of the page, things like *cards*, *sections*, *sidebars*, or *navigation bars*.
 
-In this case, wrapping content in a `div` and giving it a `class` or `id`, you create a convenient hook for CSS layout and styling!
+In this case, when you wrap content in a `div` and give it a `class` or `id`, you create a convenient hook for CSS layout and styling!
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="KKXXbwR" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
