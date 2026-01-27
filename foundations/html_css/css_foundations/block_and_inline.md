@@ -25,7 +25,7 @@ Inline-block elements behave like inline elements, but with block-style padding 
 
 When building a web page, not every piece of content has a specific semantic tag. Sometimes, you just need a container you can style or position! That's where `div` and `span` come in.
 
-A `div` is a generic **block-level** container. It behaves like a rectangular section that stretches across the full width of its parent and starts on a new line. Typically, developers use `div` to group related elements into larger chunks of the page, things like *cards*, *sections*, *sidebars*, or *navigation bars*.
+A `div` is a generic block-level container. It behaves like a rectangular section that stretches across the full width of its parent and starts on a new line. Typically, you would use a `div` to group related elements inside page components like for example cards, sections, sidebars, or navigation bars.
 
 In this case, when you wrap content in a `div` and give it a `class` or `id`, you create a convenient hook for CSS layout and styling!
 
