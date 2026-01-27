@@ -55,7 +55,7 @@ For example, highlighting a single word or attaching a tooltip to a phrase. Agai
 
 Neither `div` nor `span` adds meaning to the content the way semantic tags do, as they exist to give you flexible **building blocks**. The key difference is **how they behave in the layout**: `div` participates in the flow as a **block-level** element, while `span` behaves as an **inline** element.
 
-Once you understand that, choosing between them becomes simple! You can use `div` when you're grouping and positioning **bigger blocks of content**, and use `span` when **you're styling or scripting small pieces** inside a line.
+Once you understand that, choosing between them becomes simple! You can use `div` when you're grouping and positioning bigger blocks of content, and `span` when you're styling or scripting small pieces inside a line.
 
 ### Assignment
 
