@@ -63,11 +63,11 @@ Build the following methods in your linked list class:
     ```ruby
     # list that's already set up
     puts list
-    # => "( 1 ) -> ( 2 ) -> ( 3 ) -> null"
+    # => "( 1 ) -> ( 2 ) -> ( 3 ) -> nil"
 
     list.insert_at(1, 10, 11)
     puts list
-    # => "( 1 ) -> ( 10 ) -> ( 11 ) -> ( 2 ) -> ( 3 ) -> null"
+    # => "( 1 ) -> ( 10 ) -> ( 11 ) -> ( 2 ) -> ( 3 ) -> nil"
     ```
 
     If the method is called with an index that is out of bounds (below 0 or above the list's size), raise an `IndexError`.
