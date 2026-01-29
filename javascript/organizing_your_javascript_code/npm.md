@@ -17,7 +17,7 @@ You may recall installing npm in the Foundations course in order to install the 
 
 If you are in the Full Stack Ruby on Rails pathway, you will have already been introduced to Yarn, another JavaScript package manager. For this course, we will be using npm.
 
-As our applications get more complex and more and more files are needed (whether they are our own files or files from packages we've installed and imported), managing many of these dependencies can become rather troublesome, especially when packages get updated. This can get even more troublesome when we consider that we may end up sending *many* JavaScript files to the browser to download. In the next lesson, we will introduce bundlers, tools that lets us write multiple files that are better for us to work with, then bundle them together into fewer smaller files which will ultimately be sent to the browser instead.
+As our applications get more complex and more and more files are needed (whether they are our own files or files from packages we've installed and imported), managing many of these dependencies can become rather troublesome, especially when packages get updated. This can get even more troublesome when we consider that we may end up sending *many* JavaScript files to the browser to download. In the next lesson, we will introduce bundlers, tools that let us write multiple files that are better for us to work with, then bundle them together into fewer smaller files which will ultimately be sent to the browser instead.
 
 ### package.json
 
@@ -63,9 +63,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is npm?](#npm)
 - [What file does npm use that contains all information about dependencies?](https://docs.npmjs.com/creating-a-package-json-file)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

@@ -136,9 +136,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What strategies can you use to succeed in a technical interview?](#the-tech-interview)
 - [How should you approach a take-home technical challenge?](#the-tech-challenge)
 - [How to approach compensation discussions?](#a-note-on-compensation)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

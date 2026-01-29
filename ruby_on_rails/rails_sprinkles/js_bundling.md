@@ -22,17 +22,13 @@ Before we install the jsbundling-rails gem let's go over a few of the options. <
 
 Esbuild is a fast lightweight bundler written in [Go](https://go.dev/doc/). Whereas other bundlers may be slower, but have more features which can make the bundler take longer to run. Esbuild manages to be fast with variety of methods such as utilizing parallelism to use all available CPU cores.
 
-If you're interested in reading more, check out the [esbuild documentation](https://esbuild.github.io/).
-
 #### Rollup
 
 Rollup is another bundler that allows you to utilize a JavaScript syntax for importing and exporting functions and data so they can be shared between separate scripts then changing them to existing supported formats.
 
-If you want to take a deeper dive, look into [Rollup's documentation](https://rollupjs.org/guide/en/#introduction).
-
 #### Webpack
 
-The final bundler provided through jsbundling-rails is webpack which is a static module bundler that uses an entry point within your application to create a dependency graph that then combines every module your project needs into one or more bundles to be used by your application. Take a deeper dive into [Webpack's concepts](https://webpack.js.org/concepts/).
+The final bundler provided through jsbundling-rails is webpack which is a static module bundler that uses an entry point within your application to create a dependency graph that then combines every module your project needs into one or more bundles to be used by your application.
 
 Now that you have been introduced into the bundlers provided through jsbundling-rails let's go into setting it up.
 
@@ -242,6 +238,17 @@ yarn add bootstrap
 You would then be able to reference it within your pack file and now be able to use it!
 
 While you may come across this in the wild it is important to note that Rails 7 does not use it any longer and replaces it with jsbundling-rails. If you want to use bundling make sure to use one of the bundlers listed earlier in the lesson.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. If you want to take a deep dive into any of the JS bundlers, have a quick look through their documentation.
+   - [Esbuild](https://esbuild.github.io/).
+   - [Rollup](https://rollupjs.org/guide/en/#introduction).
+   - [Webpack](https://webpack.js.org/concepts/).
+
+</div>
 
 ### Knowledge check
 

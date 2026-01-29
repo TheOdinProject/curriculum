@@ -84,7 +84,7 @@ If we want to add more columns or rows to our grid, we can define these values t
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-CSS Grid also includes a shorthand property for defining rows and columns. In our previous example we can replace the properties for `grid-template-rows` and `grid-template-columns` with the shorthand `grid-template` property. Here we can define our rows and columns all at once. For this property, rows are defined before the slash and columns are defined after the slash. Let’s keep the same column and row values, but use the shorthand property instead:
+CSS Grid also includes a shorthand property for defining rows and columns. In our previous example, we can replace the properties for `grid-template-rows` and `grid-template-columns` with the shorthand `grid-template` property. Here we can define our rows and columns all at once. For this property, rows are defined before the slash and columns are defined after the slash. Let’s keep the same column and row values, but use the shorthand property instead:
 
 ```css
 /* styles.css */
@@ -192,7 +192,7 @@ Now that you’ve made a grid you can start to see how easy it is to control the
 
 <div class="lesson-content__panel" markdown="1">
 
-- Read Parts I, II and III from [CSS-Tricks Complete Guide to Grid.](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- Read the sections "Introduction" and "Key Terms" from [CSS-Tricks Grid Layout Guide.](https://css-tricks.com/css-grid-layout-guide/)
 - Watch this short [video on implicit vs explicit tracks](https://www.youtube.com/watch?v=8_153Zz4YI8&ab_channel=WesBos) from the Wes Bos CSS Grid course.
 - Look through the developer tools docs on [inspecting CSS Grid in Chrome DevTools](https://developer.chrome.com/docs/devtools/css/grid/).
 

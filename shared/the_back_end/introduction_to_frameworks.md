@@ -29,9 +29,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What problems do frameworks solve?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks#what_can_a_web_framework_do_for_you)
 - [What are some popular front-end and back-end frameworks?](https://dev.to/aspittel/what-is-a-web-framework-and-why-should-i-use-one-38c0)
 - [How can you describe the process of choosing a framework?](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks#how_to_select_a_web_framework)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

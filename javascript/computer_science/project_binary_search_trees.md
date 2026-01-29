@@ -37,6 +37,8 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
    <div class="lesson-note" markdown="1">
 
+   #### Avoid using the original input array
+
    You may be tempted to implement these methods using the original input array used to build the tree, but it's important for the efficiency of these operations that you don't do this. If we refer back to the [Big O Cheatsheet](https://www.bigocheatsheet.com/), we'll see that binary search trees can insert/delete in `O(log n)` time, which is a significant performance boost over arrays for the same operations. To get this added efficiency, your implementation of these methods should traverse the tree and manipulate the nodes and their connections.
 
    </div>
@@ -67,10 +69,10 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 Write a driver script that does the following:
 
-1. Create a binary search tree from an array of random numbers < 100. You can create a function that returns an array of random numbers every time you call it if you wish.
+1. Create a binary search tree from an array of random numbers with each element having a value less than 100. You can create a function that returns an array of random numbers every time you call it if you wish.
 1. Confirm that the tree is balanced by calling `isBalanced`.
 1. Print out all elements in level, pre, post, and in order.
-1. Unbalance the tree by adding several numbers > 100.
+1. Unbalance the tree by adding several numbers whose value is more than 100.
 1. Confirm that the tree is unbalanced by calling `isBalanced`.
 1. Balance the tree by calling `rebalance`.
 1. Confirm that the tree is balanced by calling `isBalanced`.
@@ -78,7 +80,7 @@ Write a driver script that does the following:
 
 </div>
 
-### Additional resources
+#### Additional resources
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 

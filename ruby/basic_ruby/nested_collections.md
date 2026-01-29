@@ -357,9 +357,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you create a new nested array that can’t be changed through references to the original one?](#create-nested-arrays)
 - [How do you iterate over a nested array?](#iterating-over-a-nested-array)
 - [How do you iterate over a nested hash?](#methods)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

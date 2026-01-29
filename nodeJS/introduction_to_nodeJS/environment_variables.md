@@ -49,22 +49,20 @@ This is definitely nicer than the previous directly-in-the-command method, and m
 
 To view all environment variables in the current shell, you can run `printenv`. Hang on, it's showing *a lot* of stuff we never set ourselves! That's because the shell itself has a lot of environment variables already set and loaded when it first loads. That's a bit annoying, we just want to deal with our app's environment variables! Also, our environment variables will be lost when we terminate the shell. What if we had lots of variables? It'd be a nightmare to try and remember them all and export them again in the new shell. Well...
 
-#### dotenv
+#### Node env files
 
-[dotenv](https://www.npmjs.com/package/dotenv) is one of the most common ways to load environment variables. After installing the npm package, you can create a file called `.env` in the root of your project that will contain all of your environment variables in the format `NAME="VALUE"`. Note that **you cannot have spaces around the `=` in this file**, else the values will be read incorrectly. For example:
+Node (as of v24.10) has built-in stable support for files containing environment variables. You can create a file called `.env` (by convention) in the root of your project, and it will contain all of your environment variables in the format `NAME=VALUE`. For example:
 
 ```properties
+# .env
+
 NODE_ENV=prod
 VIDEO_URL="https://www.youtube.com/watch?v=X2CYWg9-2N0"
 ```
 
-**This file must be added to your `.gitignore` file** to keep secrets safe from being published! All you'd need to do now is import dotenv into your app (as early as possible in the code) so it can load your variables.
+**This file must be added to your `.gitignore` file** to keep secrets safe from being published!
 
-```javascript
-require("dotenv").config();
-```
-
-You can now just run your code with `node index.js` and dotenv will handle all the loading for you. Note that dotenv isn't the only way to handle environment variables and security. Projects where a whole team needs synced access to the same environment variables, or otherwise more complex applications, may benefit from more robust and flexible options. For this course, dotenv should serve our needs more than well.
+You can now run your app in Node and just tell it where your environment variable file is: `node --env-file=.env index.js`, allowing Node to load the values before running your app (and throw an error if it can't find the environment variable file).
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -72,9 +70,15 @@ You can now just run your code with `node index.js` and dotenv will handle all t
 
 When you deploy an app that uses environment variables, your repo will not contain your `.env` file, so you will have to research how your chosen deployment service handles setting environment variable values. Typically, there will be a way via their website interface, but otherwise, always check their documentation!
 
+Because of this, you may want to add a separate npm script that doesn't use the `--env-file` CLI option (i.e. just running something like `node index.js`). `--env-file` is useful during development but since the deployment service won't be using a `.env` file, we don't want it to look for it and throw an error when it can't find it! Alternatively, there is also the `--env-file-if-exists` option.
+
 </div>
 
-Awesome! You can load environment variables now, but how do you actually access them in your code?
+#### dotenv
+
+Node did not always have built-in support for environment variable files. You will likely see libraries like [dotenv](https://www.npmjs.com/package/dotenv) used out in the wild. The principle will be the same as the built-in feature, just with whatever library-specific instructions are required. Such libraries may also offer more sophisticated features that Node does not have built-in, which may be of benefit to teams working on more complex projects, but as far as TOP goes, they won't be necessary.
+
+Anyway, awesome! You can load environment variables now, but how do you actually access them in your code?
 
 ### Accessing environment variables
 
@@ -92,6 +96,14 @@ redirectUserToSuperSecretVideo(process.env.VIDEO_URL);
 
 No hardcoding of those values into the source code! If you want to change the value of an environment variable, you can just change it in your `.env` file then rerun the program. Do also note that environment variables will always be strings, so you must convert if you want to use any as a number or boolean, for example.
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Documenting your environment variables
+
+When your projects include environment variables, those that assist you will need to know what environment variables are needed to run your project. Therefore, we highly recommend that you document them in your `README.md` file, like which ones are required and what they should contain. You could also include a dummy example `.env` file, such as an `.env.sample`, that others can rename then edit with the values they need.
+
+</div>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -104,7 +116,7 @@ Environment variables aren't only for sensitive data, but you will often need th
 
 </div>
 
-1. Check out [dotenv's documentation](https://www.npmjs.com/package/dotenv#-documentation). While you may not need many of their other features in this curriculum, like dotenvx or dotenv-vault, it's good to be aware that they exist.
+1. Check out [Node's documentation on environment variables](https://nodejs.org/docs/latest-v24.x/api/environment_variables.html) for more information about file syntax and CLI usage.
 
 </div>
 
@@ -114,13 +126,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What are environment variables?](#environment-variables)
 - [What might you want to use environment variables for?](#environment-variables)
-- [What npm package could you use to load environment variables from a `.env` file?](https://www.npmjs.com/package/dotenv)
+- [How can you load environment variables from a `.env` file?](#node-env-files)
 - [How do you access environment variables in a Node app?](#accessing-environment-variables)
 - [What data type will an environment variable always be?](#accessing-environment-variables)
 - [Should you push your `.env` file to GitHub?](#keep-your-secrets-safe)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

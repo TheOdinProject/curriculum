@@ -114,7 +114,58 @@ If the version number is less than 2.28, follow the instructions again. If you a
 
 <summary class="dropDown-header">ChromeOS</summary>
 
-Follow the instructions on [installing Git from Source](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-debian-10#installing-git-from-source) from Digital Ocean.
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Prerequisites for ChromeOS
+
+Before installing Git, you'll need to have the Linux Development Environment enabled on your Chromebook. If you haven't set this up yet, follow [Google's guide to turn on Linux on ChromeOS](https://support.google.com/chromebook/answer/9145439).
+
+</div>
+
+#### Step 1.1: Update the system
+
+Run these commands in the terminal to update the Linux system:
+
+```bash
+sudo apt update
+sudo apt upgrade
+```
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### A note on typing passwords in the terminal
+
+When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn't responding, don't worry!
+
+This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
+
+You can still enter your password as normal and press Enter to submit it.
+
+</div>
+
+#### Step 1.2: Install Git
+
+Now you can install Git using the standard package manager:
+
+```bash
+sudo apt install git
+```
+
+#### Step 1.3: Verify version
+
+Make sure your Git version is **at least** 2.28 by running this command:
+
+```bash
+git --version
+```
+
+If the version number is less than 2.28, you may need to add the Git PPA for a more recent version:
+
+```bash
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt update
+sudo apt install git
+```
 
 </details>
 
@@ -124,13 +175,27 @@ Follow the instructions on [installing Git from Source](https://www.digitalocean
 
 Go to [GitHub.com](https://github.com/) and create an account! During the account setup, it will ask you for an email address. This needs to be a real email, and will be used by default to identify your contributions. If you are privacy conscious, or just don't want your email address to be publicly available, make sure you tick the following two boxes on the [Email Settings](https://github.com/settings/emails) page after you have signed in:
 
-![GitHub Email Settings](https://cdn.statically.io/gh/TheOdinProject/curriculum/770be14190139683dbe9933ca5e9393c797c63f2/foundations/installations/setting_up_git/imgs/01.png)
+![GitHub Email Settings](https://cdn.statically.io/gh/TheOdinProject/curriculum/725b80d126105d2f717697f97e7eaefb5f886c7b/foundations/installations/setting_up_git/imgs/01.png)
 
 Having these two options enabled will prevent accidentally exposing your personal email address when working with Git and GitHub.
 
 You may also notice an email address under the **Keep my email addresses private** option. This is your private GitHub email address. **If you plan to use this, make note of it now as you will need it when setting up Git in the next step.**
 
-#### Step 2.2: Setup Git
+#### Step 2.2: (Optional) Enable GitHub two-factor authentication
+
+Two-factor authentication (2FA) is an extra layer of security used when logging into websites or apps. With 2FA, you have to log in with your username and password and provide another form of authentication that only you know or have access to.
+
+Go to [GitHub Docs](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication#configuring-two-factor-authentication-using-a-totp-app), then follow the configuration instructions. For step 1, we recommend Google Authenticator, which is a time-based one-time password (TOTP) app. Go to [Google Account Help](https://support.google.com/accounts/answer/1066447), click `Android` or `iPhone & iPad`, then follow the download and set up instructions.
+
+<div class="lesson-note lesson-note--warning" markdown=1>
+
+#### If you lose your two-factor authentication credentials or lose access to your account recovery methods
+
+For security reasons, GitHub Support will not be able to restore access to accounts with two-factor authentication enabled if you lose your two-factor authentication credentials or lose access to your account recovery methods.
+
+</div>
+
+#### Step 2.3: Setup Git
 
 For Git to work properly, we need to let it know who we are so that it can link a local Git user (you) to GitHub. When working on a team, this allows people to see what you have committed and who committed each line of code.
 
@@ -179,7 +244,7 @@ git config --global core.excludesfile ~/.gitignore_global
 
 </div>
 
-#### Step 2.3: Create an SSH key
+#### Step 2.4: Create an SSH key
 
 <div class="lesson-note" markdown="1">
 
@@ -197,7 +262,7 @@ First, we need to see if you have an Ed25519 algorithm SSH key already installed
 ls ~/.ssh/id_ed25519.pub
 ```
 
-If a message appears in the console containing the text "No such file or directory", then you do not yet have an Ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.4.
+If a message appears in the console containing the text "No such file or directory", then you do not yet have an Ed25519 SSH key, and you will need to create one. If no such message has appeared in the console output, you can proceed to step 2.5.
 
 To create a new SSH key, run the following command inside your terminal.
 
@@ -209,7 +274,7 @@ When it prompts you for a location to save the generated key, just push <kbd>Ent
 
 Next, it will ask you for a password. This password is used to encrypt the private SSH key that is stored on your computer and you will be required to enter this password every time you use SSH with these keys. If you don't use a password, the private key will be readable by anyone who has access to your computer and will be able to modify all your GitHub repositories. Enter one if you wish, but it’s not required. If you choose not to use a password, just hit <kbd>Enter</kbd> without typing anything.
 
-#### Step 2.4: Link your SSH key with GitHub
+#### Step 2.5: Link your SSH key with GitHub
 
 Now, you need to tell GitHub what your SSH key is so that you can push your code without typing in a password every time.
 
@@ -227,7 +292,7 @@ Highlight and copy the entire output from the command. If you followed the instr
 
 Now, go back to GitHub in your browser window and paste the key you copied into the key field. Keep the key type as `Authentication Key` and then, click `Add SSH key`. You're done! You've successfully added your SSH key!
 
-#### Step 2.5 Testing your key
+#### Step 2.6 Testing your key
 
 Follow the [GitHub directions for testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection?platform=linux). Make sure the fingerprint output in the terminal matches [one of GitHub's four public fingerprints](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints).
 
@@ -238,10 +303,3 @@ You should see this response in your terminal: **Hi username! You've successfull
 You've completed the basic installations section, good job! As you progress through the Paths there will be other tools to install, so keep an eye out!
 
 You probably felt like you were way in over your head, and you probably didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Understanding SSH Key Pairs](https://winscp.net/eng/docs/ssh_keys) SSH is a secure network protocol that uses an implementation of public-key cryptography, also known as asymmetric cryptography. Having a basic understanding of how it works can help you understand what an SSH key is all about.
-- [Asymmetric Encryption - Simply explained](https://www.youtube.com/watch?v=AQDCe585Lnc) a short video explaining Asymmetric Encryption.

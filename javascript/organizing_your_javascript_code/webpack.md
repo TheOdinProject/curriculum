@@ -30,10 +30,10 @@ We'll first need to make a new directory for our practice app, then create a `pa
 ```bash
 mkdir webpack-practice &&
 cd webpack-practice &&
-npm init -y
+npm init -y --init-type=module
 ```
 
-Inside your new directory, before we install anything, open `package.json` and remove the top-level `"type": "commonjs"` or `"type": "module"` property if it exists, otherwise Webpack will start throwing errors at us due to clashing module issues. Once that's done, we can go ahead and install Webpack, which involves two packages.
+This should create a `package.json` file inside the `webpack-practice` directory you just made and entered. Now we can install Webpack:
 
 ```bash
 npm install --save-dev webpack webpack-cli
@@ -93,20 +93,28 @@ Back in your project root (so outside of `src`), create a `webpack.config.js` fi
 
 ```javascript
 // webpack.config.js
-const path = require("path");
+import path from "node:path";
 
-module.exports = {
+export default {
   mode: "development",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(import.meta.dirname, "dist"),
     clean: true,
   },
 };
 ```
 
-Yes, you may have noticed this file uses CommonJS (CJS) syntax instead of ESM. That's because this file (and Webpack itself) runs in NodeJS and not the browser. By default, NodeJS uses CJS syntax, and the configuration file also contains some CJS-specific things. We need not worry about this - this is just stuff we need for Webpack to do its thing.
+<div class="lesson-note" markdown="1">
+
+#### ESM, CommonJS and Webpack docs
+
+If you look at Webpack's documentation, you will find many of its code snippets written with CommonJS (CJS) syntax instead of ESM syntax. While there are some key differences between how both module systems work, the only relevant differences to us here are the different import/export syntaxes and one or two global variables under a different name. You shouldn't need to do much "translating" when reading Webpack docs.
+
+It's important to note here that CJS is purely a Node thing and not a browser thing. While our code in src will eventually run in a browser, the actual bundling is done by Webpack which runs in Node.
+
+</div>
 
 You'll notice the exported object contains a few key sections:
 
@@ -141,15 +149,15 @@ We should also create a `template.html` inside `src` (you can name this file wha
 
 ```javascript
 // webpack.config.js
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+import path from "node:path";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
-module.exports = {
+export default {
   mode: "development",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(import.meta.dirname, "dist"),
     clean: true,
   },
   plugins: [
@@ -182,15 +190,15 @@ Back in our `webpack.config.js`, we need to add these loaders so Webpack knows w
 
 ```javascript
 // webpack.config.js
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+import path from "node:path";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
-module.exports = {
+export default {
   mode: "development",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(import.meta.dirname, "dist"),
     clean: true,
   },
   plugins: [
@@ -244,7 +252,7 @@ Once again, bundle with Webpack using `npx webpack`, then open `dist/index.html`
 
 #### What about link tags?
 
-Notice how we don't link our CSS file in our HTML template like we would've done before. While you could do this with one of the loaders from the next section, in the real world, projects often contain many moving parts and many modules. Eventually, it becomes easier to work with multiple smaller CSS files that you import in the modules they're needed. There are even ways those files can be scoped only to those modules and not globally!
+Notice how we don't link our CSS file in our HTML template like we would've done before. While you could do this with one of the loaders from the next section, in the real world, projects often contain many moving parts and many modules. Eventually, it becomes easier to work with multiple smaller CSS files that you import in the modules where they're needed. There are even ways those files can be scoped only to those modules and not globally!
 
 We're only introducing the minimum to allow you to import your CSS into your JavaScript, but many build tools and more sophisticated bundler configurations will do a lot more to imported CSS than what we're showing here.
 
@@ -260,7 +268,7 @@ There are three different ways you could be dealing with local image files:
 
 1. **Image files we reference in our HTML template, e.g. as the `src` of an `<img>`**
 
-   We need to install and tell Webpack to use something called `html-loader`, which will detect image file paths in our HTML template and load the right image files for us. Without this, `./odin.png` would just be a bit of text that will no longer reference the correct file once we run Webpack to build into `dist`. Let's install it:
+   We need to install and tell Webpack to use something called `html-loader`, which will detect image file paths in our HTML template and load the right image files for us. Without this, a `src` like `./odin.png` would just be a bit of text that will no longer reference the correct file once we run Webpack to build into `dist`. Let's install it:
 
    ```bash
    npm install --save-dev html-loader
@@ -272,7 +280,7 @@ There are three different ways you could be dealing with local image files:
    // webpack.config.js
    {
      test: /\.html$/i,
-     loader: "html-loader",
+     use: ["html-loader"],
    }
    ```
 
@@ -295,10 +303,10 @@ There are three different ways you could be dealing with local image files:
    ```javascript
    // src/index.js
    import odinImage from "./odin.png";
-   
+
    const image = document.createElement("img");
    image.src = odinImage;
-   
+
    document.body.appendChild(image);
    ```
 
@@ -308,15 +316,15 @@ After all that, if we added both `html-loader` and the image `asset/resource` ru
 
 ```javascript
 // webpack.config.js
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+import path from "node:path";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
-module.exports = {
+export default {
   mode: "development",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(import.meta.dirname, "dist"),
     clean: true,
   },
   plugins: [
@@ -332,7 +340,7 @@ module.exports = {
       },
       {
         test: /\.html$/i,
-        loader: "html-loader",
+        use: ["html-loader"],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -371,15 +379,15 @@ Once installed, in our `webpack.config.js`, we only need to add a couple more pr
 
 ```javascript
 // webpack.config.js
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+import path from "node:path";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
-module.exports = {
+export default {
   mode: "development",
   entry: "./src/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(import.meta.dirname, "dist"),
     clean: true,
   },
   devtool: "eval-source-map",
@@ -399,7 +407,7 @@ module.exports = {
       },
       {
         test: /\.html$/i,
-        loader: "html-loader",
+        use: ["html-loader"],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -459,9 +467,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How would you handle assets like local image files?](#loading-images)
 - [What Webpack tool could you use during development to view changes to your website live?](#webpack-dev-server)
 - [How does using a source map help with development?](#source-maps)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

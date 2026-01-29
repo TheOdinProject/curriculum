@@ -164,9 +164,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the HTTP status code that Turbo cannot handle?](#http-200)
 - [How do you require confirmation for a visit?](https://turbo.hotwired.dev/handbook/drive#requiring-confirmation-for-a-visit)
 - [How does Turbo speeds up perceived link navigation latency?](https://turbo.hotwired.dev/handbook/drive#prefetching-links-on-hover)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

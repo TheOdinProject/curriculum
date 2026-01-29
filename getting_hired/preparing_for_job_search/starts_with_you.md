@@ -74,9 +74,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Why is it important to assess your current situation before starting a job search?](#where-you-are-now)
 - [What questions can help you define your career goals and priorities?](#where-you-want-to-be)
 - [What questions can help you identify your strengths and weaknesses as a job candidate?](#what-are-your-assets-and-liabilities)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

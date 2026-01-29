@@ -65,9 +65,9 @@ Note that the assigned MDN articles also have their own exercises attached, whic
 
 </div>
 
-1. This [MDN article on functions](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) is a good place to start. Don't worry as there may be some functions that can be beyond the reach of this particular lesson, but do pay special attention to the sections on 'Function Scope'. Scope is a topic that commonly trips up both beginner and intermediate coders, so it pays to spend some time with it upfront.  
+1. Read the [function basics](http://javascript.info/function-basics) article from JavaScript.info. We've mentioned this before, but JavaScript has changed a bit over the years and functions have recently received some innovation. This article covers one of the more useful new abilities: 'default parameters'. \(NOTE: The "Functions == Comments" section, as well as the last "task" at the end of this lesson uses loops, which you will learn about in the next lesson.  Don't worry about them.\)
+1. Read this [MDN article on functions](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions). Don't worry as there may be some functions that can be beyond the reach of this particular lesson, but do pay special attention to the sections on 'Function Scope'. Scope is a topic that commonly trips up both beginner and intermediate coders, so it pays to spend some time with it upfront.  
 1. Read this article about [return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values).
-1. Next, read the [function basics](http://javascript.info/function-basics) article from JavaScript.info. We've mentioned this before, but JavaScript has changed a bit over the years and functions have recently received some innovation. This article covers one of the more useful new abilities: 'default parameters'. \(NOTE: The "Functions == Comments" section, as well as the last "task" at the end of this lesson uses loops, which you will learn about in the next lesson.  Don't worry about them.\)
 1. Now, read the [function expressions](http://javascript.info/function-expressions) article about functions in JavaScript to give you a little more context, and read the article on [arrow functions](http://javascript.info/arrow-functions-basics) for an introduction to arrow functions. Arrow functions are useful but not crucial, so don't worry about them too much just yet. We include them here because you are likely to encounter them as you move forward, and it's better that you have at least *some* idea of what you're looking at whenever they crop up.
 1. Finally, learn about the [JavaScript Call Stack](https://www.javascripttutorial.net/javascript-call-stack/). The article goes in-depth about call stacks and how `return` works in the context of chained function calls. Don't worry if you don't fully understand this yet, but it's important to keep in mind where your `return`ed values are going. This doubles as a bit of early computer science as well.
 
@@ -99,10 +99,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are return values?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values#what_are_return_values)
 - [What are arrow functions?](https://javascript.info/arrow-functions-basics)
 - [What is the difference between a function declaration and a function expression?](https://javascript.info/function-expressions#function-expression-vs-function-declaration)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [What's the difference between using "let" and "var"? - stackoverflow](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var#:~:text=The%20main%20difference%20is%20scoping,(hence%20the%20block%20scope))
-- [How JavaScript Code is executed?](https://youtu.be/iLWTnMzWtj4)

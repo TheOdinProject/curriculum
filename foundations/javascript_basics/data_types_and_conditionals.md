@@ -42,7 +42,7 @@ To give you a good bit of practice, we have created JavaScript exercises for you
 
 Be sure to follow the order presented here. Read all the directions, watch the terminal, and read all the errors.
 
-1. Follow the [instructions in the README of our `javascript-exercises` repository](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) to set up your local environment. Once you have forked the repository, cloned it and installed Jest, review each README file prior to completing the following exercises in order:
+1. Follow the [instructions in the README of our `javascript-exercises` repository](https://github.com/TheOdinProject/javascript-exercises#how-to-use-these-exercises) to set up your local environment. Once you have forked the repository, cloned it and installed Jest, review each README file prior to completing the following exercises in order (which are all in the `foundations/` directory):
     - `01_helloWorld` (This exercise is intentionally very beginner-friendly to ensure that you have everything set up properly!)
     - `02_addNumbers`
     - `03_numberChecker`
@@ -74,9 +74,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the syntax for a switch statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#switch_statements)
 - [What is the syntax for a ternary operator?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#ternary_operator)
 - [What is nesting?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#nesting_if...else)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

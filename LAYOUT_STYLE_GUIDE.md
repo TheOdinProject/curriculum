@@ -1,6 +1,6 @@
 # Layout style guide
 
-Inspired by [Google's styleguide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md).
+Inspired by [Google's style guide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md).
 
 TOP uses Markdown for the layout and formatting of lesson and project files to get properly formatted HTML for the TOP website.
 
@@ -10,14 +10,13 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 - Editable by any contributor.
 - Consistent across the TOP website.
 
-**A note on language**: TOP follows American English and American style punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.
-
-**Using formatters**: Many projects have a standard in how their code is formatted which should always be followed when contributing. If you're using a formatter (such as Prettier), you should always be sure you aren't accidentally committing code that goes against that standard. This can be achieved by simply disabling the formatter, saving your files without formatting, or configuring your formatter to adhere to the project's standard.
+> [!WARNING]
+> **Using formatters**: Many projects have a standard in how their code is formatted which should always be followed when contributing; this one is no exception. If you're using a formatter (such as Prettier), you should always be sure you aren't accidentally committing code that goes against our style guide. This can be achieved by simply disabling the formatter, saving your files without formatting, or configuring your formatter to adhere to the project's standard.
 
 ## Table of Contents
 
-1. [Lesson layout](#lesson-layout)
-1. [Project layout](#project-layout)
+1. [Language](#language)
+1. [Layouts](#layouts)
 1. [Headings](#headings)
 1. [Newlines](#newlines)
 1. [Lists](#lists)
@@ -30,11 +29,15 @@ TOP uses Markdown for the layout and formatting of lesson and project files to g
 1. [Mermaid diagrams](#mermaid-diagrams)
 1. [Markdown styling](#markdown-styling)
 
+## Language
+
+TOP's lessons use American English spelling and punctuation. When adding content to the curriculum, be sure to follow this practice for consistency across lessons.
+
 ## Layouts
 
 Markdownlint: [`lesson-headings`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP004.md), [`default-section-content`](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP003.md)
 
-In general, the following layouts should be used for all lessons and projects. Text that should be replaced with the author's own content will be in all CAPS, with any additional information regarding a section listed at the end of the layout code block.
+In general, the following layouts should be used for all lessons and projects (see [lesson layout exceptions](#layout-exceptions)). Text that should be replaced with the author's own content will be in all CAPS, with any additional information regarding a section listed at the end of the layout code block.
 
 When adding new lessons or projects, make a copy of either the [lesson template](./templates/lesson-template.md) or the [project template](./templates/project-template.md) in the appropriate folder where the new lesson/project should be placed. Then begin editing the template copy.
 
@@ -80,7 +83,7 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- Check out this [lecture on independent research](https://www.youtube.com/watch?v=dQw4w9WgXcQ) for a deeper dive.
 ```
 
 1. `### Introduction`: A brief summary on what the lesson is about and/or why the topics or concepts it covers are important. Replace the `A BRIEF INTRODUCTION.` text with your own lesson introduction.
@@ -111,9 +114,9 @@ This section contains helpful links to related content. It isn't required, so co
 
    In order to link to a `<span>` element within the lesson, replace the value within the parenthesis with the exact `id` attribute of the `<span>` element (this will be case sensitive). For example, a `<span id="Knowledge-Check-3">` element would be linked to with `(#Knowledge-Check-3)`.
 
-1. `### Additional resources`: A bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. An additional resource should include brief text that further informs the user on why it is included or what purpose it serves, and generally should stand out in some way from the lesson content and other additional resources. A good rule of thumb is to try and answer, "what purpose does this resource serve?"
+1. `### Additional resources`: An **optional** bulleted list of optional resources for the user to read. Additional resources should be related to the content of the lesson in some way, without being necessary to gain an understanding of the lesson content. An additional resource should include brief text that further informs the user on why it is included or what purpose it serves, and generally should stand out in some way from the lesson content and other additional resources. A good rule of thumb is to try and answer, "what purpose does this resource serve?"
 
-   **If the lesson doesn't include any additional resources, leave this section as-is**. Otherwise, replace the default bulleted resource item with your own resource, then add any additional bulleted resource items. The lesson should ideally have no more than 3-5 additional resources.
+   **This section must only be present if there are additional resources. If there are none, the section should not be included at all.**.
 
 ### Project layout
 
@@ -139,10 +142,6 @@ OPTIONAL PRE-ASSIGNMENT SECTION CONTENT.
 - AN OPTIONAL ADD-ON/USER STORY.
 
 </div>
-
-### OPTIONAL POST-ASSIGNMENT SECTION HEADING
-
-OPTIONAL POST-ASSIGNMENT SECTION CONTENT.
 ```
 
 1. `### Introduction`: A brief summary on what the project is and an overview of what the user will be building. Replace the `A BRIEF INTRODUCTION.` text with your own project introduction.
@@ -153,7 +152,32 @@ OPTIONAL POST-ASSIGNMENT SECTION CONTENT.
 
 1. `#### Extra credit`: A bulleted list of items that describe any optional add-ons or user stories that might make a user's project stand out. Replace the `AN OPTIONAL ADD-ON/USER STORY.` text with your own add-on, then add any additional bulleted add-on items. **If the project does not have any extra credit items, remove the extra credit section from the assignment.**
 
-1. `### OPTIONAL POST-ASSIGNMENT SECTION HEADING`: A section that contains content that should come after the actual project assignment. This section will most likely not be needed for most projects, but when it is needed simply replace the `OPTIONAL POST-ASSIGNMENT SECTION HEADING` text with a proper section heading and the `OPTIONAL POST-ASSIGNMENT SECTION CONTENT.` text with your own content. Then add any additional post-assignment sections. **If the project does not have a post-assignment section, remove this entire section from the project.**
+### Guide layout
+
+Guide files are reference content that provide detailed instructions for specific tasks (like OS installations or software setup). They are stored in folders ending with `_guides` (e.g., `installation_guides/`) and are linked from lessons rather than being standalone lessons themselves.
+
+```markdown
+### Guide: DESCRIPTIVE TITLE
+
+GUIDE CONTENT WITH ANY HEADING STRUCTURE.
+```
+
+1. `### Guide: DESCRIPTIVE TITLE`: The first heading must start with `### Guide:` followed by a descriptive title that clearly indicates what the guide covers (e.g., "Virtual Machine installation", "Install Chrome on Linux").
+
+1. After the initial guide heading, any heading structure is allowed. Guide files are flexible and should be structured in whatever way best serves their instructional purpose.
+
+1. Guide files should include a link back to the lesson they're referenced from at the end of the file.
+
+Guide files in `*_guides/` folders are automatically excluded from the standard lesson/project heading structure requirements but still follow all other markdown linting rules.
+
+### Layout exceptions
+
+There are a few lessons where it does not make sense to enforce any particular heading structure, such as course intro lessons or course conclusions. Lessons with the following exact file names are not required to follow either of the layouts described above:
+
+- `how_this_course_will_work.md`
+- `conclusion.md`
+- `conclusion_full_stack_javascript.md`
+- `conclusion_ruby_on_rails.md`
 
 ## Headings
 

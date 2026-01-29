@@ -1,8 +1,10 @@
 ### Introduction
 
-Views are the user-facing part of the application, in this case, HTML files. We've dealt with views in an earlier project where the server would send HTML files to the user. These files are static, but many of our use cases require views to be dynamic w.r.t. data.
+Previously, a lot of projects you'll have made would have been SPAs: the served HTML file would essentially be empty with a script tag that lets the client render the page using JavaScript. Now we're focusing on rendering HTML on the server, i.e. using the server to create HTML files that actually contain contents of the page.
 
-Hence, we use template engines to create our views. As the name suggests, we write template files in our codebase that get transformed into HTML when we respond to a server request. Any variables defined in our template files are replaced with actual data. Additionally, we can insert conditional and/or loop logic into our template file, e.g. render the user's username once they have logged in. This would not be possible with plain HTML.
+Views are the user-facing part of the application, in this case, HTML files. We've dealt with views in an earlier project where the server would send HTML files to the user, but these files were static and many of our use cases require views to be dynamic with regards to data.
+
+Hence, we will use template engines to create our views. As the name suggests, we write template files in our codebase that get transformed into HTML when we respond to a server request. Any variables defined in our template files are replaced with actual data. Additionally, we can insert conditional and/or loop logic into our template file, e.g. render the user's username once they have logged in. This would not be possible with plain HTML. Any client-side JavaScript can still be added via a script tag (though we won't be doing much fancy with the client side for now).
 
 In this course, we will use [EJS](https://ejs.co/). EJS's syntax is very similar to that of HTML, meaning that the learning curve is relatively low compared to other template engines.
 
@@ -14,6 +16,14 @@ This section contains a general overview of topics that you will learn in this l
 - How to use EJS.
 
 ### Setting up EJS
+
+<div class="lesson-note" markdown="1">
+
+#### Why not React?
+
+We have not taught how to use React Server Components which are quite different to what you'll know about React so far. Setting these up on their own is not trivial unlike a template engine like EJS, and it would be hard to focus on learning back end fundamentals if using a preconfigured but highly abstracted full stack framework (which blurs the lines between both ends for more streamlined development).
+
+</div>
 
 Let's get started with EJS! Install EJS into your application by typing the following into your terminal:
 
@@ -273,6 +283,7 @@ Your `index.ejs` file should now display red text!
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
+- [What are template engines for that differs from rendering an SPA on the client?](#introduction)
 - [How do you configure EJS for Express projects?](#setting-up-ejs)
 - [What is the difference between "<%" and "<%=" tags?](#ejs-syntax)
 - [How do you render a view in a controller callback?](#using-ejs-with-express)

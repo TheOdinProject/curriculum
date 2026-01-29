@@ -309,7 +309,7 @@ def odd_numbers(max_number)
 end
 ```
 
-Not much of a change, but this time we increase `current_number` by 2. How does this affect our algorithm runtime? Well, for an input of `n`, the number of steps is approximately half as we iterate by 2 each time. This is an algorithm of `O(N/2)` but as I've mentioned earlier, we are not trying to get the exact time, but rather how the time grows relative to the size of the input. Big O doesn't concern itself with constants because they aren't relative to how an algorithm scales as the input changes and it wouldn't be fun or easy to have to compare an algorithm of `O(N/2 + 5 N)` against `O(N + 5 / 2N)`. Therefore, the Big O efficiency of both algorithms is `O(N)`. They scale at the same rate as the input grows.
+Not much of a change, but this time we increase `current_number` by 2. How does this affect our algorithm runtime? Well, for an input of `n`, the number of steps is approximately half as we iterate by 2 each time. This is an algorithm of `O(N/2)` but as mentioned earlier, we are not trying to get the exact time, but rather how the time grows relative to the size of the input. Big O doesn't concern itself with constants because they aren't relative to how an algorithm scales as the input changes and it wouldn't be fun or easy to have to compare an algorithm of `O(N/2 + 5 N)` against `O(N + 5 / 2N)`. Therefore, the Big O efficiency of both algorithms is `O(N)`. They scale at the same rate as the input grows.
 
 Another way to look at it is that constants eventually become irrelevant. Take the following:
 

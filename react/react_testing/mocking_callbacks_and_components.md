@@ -63,7 +63,7 @@ describe("CustomButton", () => {
     expect(onClick).toHaveBeenCalled();
   });
 
-  it("should not call the onClick function when it isn't clicked", async () => {
+  it("should not call the onClick function when it isn't clicked", () => {
     const onClick = vi.fn();
     render(<CustomButton onClick={onClick} />);
 
@@ -150,7 +150,7 @@ The other important thing to note is almost all the tests follow a certain patte
 <div class="lesson-content__panel" markdown="1">
 
 1. Read this article about [mocking child components](https://medium.com/@taylormclean15/jest-testing-mocking-child-components-to-make-your-unit-tests-more-concise-18691ef6a0c2). It extensively covers the "how" of mocking child components. (You might need to sign up to read)
-1. This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. It goes into testing async code and callbacks which we haven't covered yet. Though you should be able to follow along using your previous knowledge.
+1. This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. The `userEvent` API in this tutorial is synchronous, unlike our current asynchronous one. However, you should be able to follow along using your previous knowledge.
 
 </div>
 
@@ -160,9 +160,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [How can you mock a callback handler?](#testing-callback-handlers)
 - [How can you mock a child component?](#mock-child-component)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

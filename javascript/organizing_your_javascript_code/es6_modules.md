@@ -16,6 +16,8 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-note" markdown="1">
 
+#### Using modern syntax in pre-ES6 examples
+
 Even though `let`/`const` and arrow functions were not around before ES6, we will still use them in our pre-ES6 examples. They won't change how things work regarding the global scope and the module pattern, which is the main focus of this section.
 
 </div>

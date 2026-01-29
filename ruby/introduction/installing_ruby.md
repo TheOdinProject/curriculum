@@ -102,7 +102,7 @@ It's finally time to install Ruby using `rbenv`!
 Inside the terminal, run this command:
 
 ```bash
-rbenv install 3.4.2 --verbose
+rbenv install 3.4.6 --verbose
 ```
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [funny jumping goats video](https://youtu.be/X2CYWg9-2N0) or to get a glass of water.
@@ -128,7 +128,7 @@ git -C "$(rbenv root)"/plugins/ruby-build pull
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ```bash
-rbenv global 3.4.2
+rbenv global 3.4.6
 ```
 
 Then,
@@ -140,7 +140,7 @@ ruby -v
 The above command should return something similar to this:
 
 ```bash
-ruby 3.4.2pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
+ruby 3.4.6pxx (20xx-xx-xx revision xxxxx) [x86_64-linux]
 ```
 
 where x represents the version available at the time you installed Ruby.
@@ -237,7 +237,7 @@ If you do not get a version number at all (anything not starting with `rbenv 1..
 
 #### Step 2.3: Install Ruby
 
-We can now (finally) install Ruby! Our curriculum currently uses version 3.4.2, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
+We can now (finally) install Ruby! Our curriculum currently uses version 3.4.6, which will allow you to complete this path's materials and content without error. We upgrade the material to accommodate newer versions as necessary. Without further ado, let's get going!
 
 First, let's upgrade `ruby-build`:
 
@@ -248,7 +248,7 @@ brew upgrade ruby-build
 Now we're ready to install our desired version of Ruby:
 
 ```bash
-rbenv install 3.4.2 --verbose
+rbenv install 3.4.6 --verbose
 ```
 
 This command will take 10-15 minutes to complete. The `--verbose` flag will show you what's going on so you can be sure it hasn't gotten stuck. While it installs, take this time to watch [funny jumping goats video](https://www.youtube.com/watch?v=X2CYWg9-2N0) or to get a glass of water.
@@ -256,10 +256,10 @@ This command will take 10-15 minutes to complete. The `--verbose` flag will show
 Once Ruby is installed, you need to tell rbenv which version to use by default. Inside the terminal, type:
 
 ```bash
-rbenv global 3.4.2
+rbenv global 3.4.6
 ```
 
-You can double check that this worked by typing `ruby -v` and checking that the output says version 3.4.2:
+You can double check that this worked by typing `ruby -v` and checking that the output says version 3.4.6:
 
 ```bash
 ruby -v
@@ -268,7 +268,7 @@ ruby -v
 You should get an output with a version number **similar** to this:
 
 ```bash
-ruby 3.4.2pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
+ruby 3.4.6pxx (20xx-xx-xx revision xxxxx) [x86_64-darwin18]
 ```
 
 If you don't see the output above, close and reopen the terminal window and then run the command again.
@@ -276,6 +276,88 @@ If you don't see the output above, close and reopen the terminal window and then
 Well done! Pat yourself on the back! The hard part is done, and it's time to move on to the next lesson!
 
 </details>
+
+### Update Ruby
+
+If you've just installed Ruby, congratulations! Your version is probably completely up to date, and you can safely skip this section. However, if you stick with this long enough, the need to update your version of Ruby will eventually arise. Fortunately, having `rbenv` installed makes this quite straightforward. Here are step by step instructions on how to update your ruby version:
+
+1. Go to `.rbenv/` folder in your home directory.
+
+   ```bash
+     cd ~/.rbenv
+   ```
+
+1. Pull latest changes for your ruby version manager (`rbenv`).
+
+   ```bash
+     git pull
+   ```
+
+1. Run this command.
+
+   ```bash
+     ~/.rbenv/bin/rbenv init
+   ```
+
+1. Go to `ruby-build` plugin directory. This is what `rbenv` uses to compile ruby from source code (which is written in C).
+
+   ```bash
+     cd ~/.rbenv/plugins/ruby-build
+   ```
+
+1. Pull latest changes for `ruby-build`.
+
+   ```bash
+     git pull
+   ```
+
+1. Now you can check list of all the latest versions available for you to install.
+
+   ```bash
+     rbenv install --list-all
+   ```
+
+1. Now you can install the version of Ruby you like by running:
+
+   ```bash
+     rbenv install x.y.z
+   ```
+
+   where in `x.y.z` - `x` is the major version, `y` is the minor version and `z` is the patch version. This is called [semantic versioning](https://semver.org/#summary)
+
+   For example:
+
+   ```bash
+     rbenv install 3.4.6
+   ```
+
+### Set local and global Ruby version
+
+`rbenv` makes it easy to have multiple different versions of Ruby installed and switch between them. You may have one project that runs with Ruby 3.4 and another that runs with Ruby 3.3, and `rbenv` will coordinate this for you. The version of Ruby set at the project level is called the "local" version.
+
+To set the local Ruby version, run:
+
+```bash
+rbenv local x.y.z
+```
+
+This creates a `.ruby-version` file for storing the local version. To check the current project/directory's local Ruby version, run:
+
+```bash
+rbenv local
+```
+
+You can also configure your default Ruby version. This is called the "global" version. To set the global default Ruby version run:
+
+```bash
+rbenv global x.y.z
+```
+
+To check current global ruby version run:
+
+```bash
+rbenv global
+```
 
 #### Extras
 

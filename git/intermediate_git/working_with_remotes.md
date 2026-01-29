@@ -91,5 +91,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- If you're looking for an interactive way to deepen your knowledge of working with Git, check out this game, [Learn Git Branching](https://learngitbranching.js.org/)
 - To understand how `revert` fits into a collaborative workflow and why it’s preferred over `reset` for shared repositories, watch this - [Git Revert and why](https://www.youtube.com/watch?v=iIaM7j3tMuk).

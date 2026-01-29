@@ -72,9 +72,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are some strategies to get noticed by companies you want to work for?](#go-in-the-side-door)
 - [How can you maintain perseverance during the job search?](#perseverance-through-the-process)
 - [How can you tailor your resume for different positions?](#resume-versions)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

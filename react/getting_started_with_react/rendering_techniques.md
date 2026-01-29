@@ -72,6 +72,8 @@ You may be curious as to what the `key` is in our `<li>` element. We will dive i
 
 <div class="lesson-note" markdown="1">
 
+#### Passing data into components
+
 We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are just like function arguments that are passed into components, but to pass them we use a syntax similar to how we pass attributes to HTML elements. As you can see in the following short implementation.
 
 </div>
@@ -333,9 +335,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you render a list of elements/components in JSX?](#rendering-a-list-of-elements-in-jsx)
 - [What are the ways you could render UI conditionally?](#conditionally-rendering-ui)
 - [How would you conditionally return JSX?](https://beta.reactjs.org/learn/conditional-rendering#conditionally-returning-jsx)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

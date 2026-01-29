@@ -32,9 +32,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How many parts does the back end consist of?](https://www.codecademy.com/articles/back-end-architecture/)
 - [What do we name each part of the back end?](https://www.codecademy.com/articles/back-end-architecture)
 - [Where does the back end store its data?](https://www.codecademy.com/articles/back-end-architecture)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

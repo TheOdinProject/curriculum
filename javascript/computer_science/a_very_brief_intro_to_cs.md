@@ -14,8 +14,8 @@ If that doesn't get you interested, remember that this curriculum is meant to pr
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is an algorithm?
-- What is pseudo-code?
+- Learn about algorithms.
+- Find out what pseudocode is.
 
 ### Assignment
 

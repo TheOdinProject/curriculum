@@ -139,7 +139,7 @@ For now, we're going to keep all of this in a single HTML file. So go ahead and 
 </html>
 ```
 
-In the script tag, let's start by selecting the image and assigning it to a variable so that we can change the URL once we've received it from the Giphy API.
+In the script tag, let's start by selecting the image element and assigning it to a variable so that we can change the URL once we've received it from the Giphy API.
 
 ```html
 <script>

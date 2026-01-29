@@ -309,9 +309,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [When should you use a client or a pool in pg?](#querying-with-pg)
 - [How would you integrate db query functions in your Express app?](#querying-with-pg)
 - [How would you populate the db via a script?](#populate-the-db-via-a-script)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

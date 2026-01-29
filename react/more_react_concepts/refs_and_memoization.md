@@ -38,7 +38,7 @@ function ButtonComponent() {
 The implementation is straightforward:
 
 1. We imported `useRef` and `useEffect` in the `react` module.
-1. We created a ref object `buttonRef` with a `current` property initially set to `null`. Yes, passing an argument to `useRef` sets the value of `current` to `null` just like `useState`. This argument is ignored in subsequent renders.
+1. We call `useRef` with an argument of `null`, which returns an object with a property called `current` whose initial value is set to the passed argument (which in this case, is `null`). This argument—like the passed argument for `useState`—is ignored in subsequent renders.
 1. Created a `useEffect` to be executed once on the mount of the component that will try to call the `focus` method of the button element.
 1. We've attached `buttonRef` to the `ref` attribute of the button element. This establishes the connection between the `buttonRef` and the button in the DOM.
 
@@ -315,9 +315,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the difference between useMemo and useCallback?](#usememo-or-usecallback)
 - [How do useMemo and useCallback help optimize the performance of React components?](#optimization-description)
 - [When should you memoize a value?](https://kentcdodds.com/blog/usememo-and-usecallback)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

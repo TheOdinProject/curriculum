@@ -169,4 +169,4 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - If you'd like another overview of loops, read this [Ruby Explained: Iteration](https://www.eriktrautman.com/posts/ruby-explained-iteration) article. (Don't worry about the `#each` method described here; we'll get to that in an upcoming lesson!)
-- If you want yet another take, read [Skork's article on loops](https://skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/). (Again, don't worry about the `#each` and `#each_with_index` methods here; they're coming up soon.)
+- If you want yet another take, read [Skork's article on loops](https://skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/). (Again, don't worry about the `#each` and `#each_index` methods here; they're coming up soon.)
