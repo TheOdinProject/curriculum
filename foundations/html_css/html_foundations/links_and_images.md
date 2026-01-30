@@ -57,40 +57,13 @@ The method shown above opens links in the same tab as the webpage containing the
 While `href` specifies the destination link, `target` specifies where the linked resource will be opened. If it is not present, then, by default, it will take on the `_self` value which opens the link in the current tab. To open the link in a new tab or window (depends on browser settings) you can set it to `_blank` as follows:
 
 ```html
-<a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
+<a href="https://www.theodinproject.com/about" target="_blank" rel="noreferrer">About The Odin Project</a>
 ```
 
-<span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document.
+<span id="target-security"></span>You may have noticed that we snuck in the `rel` attribute above. This attribute is used to describe the relation between the current page and the linked document and can take multiple values. The most relevant ones to discuss right now are:
 
-`noopener`: The `noopener` value of the `rel` attribute ensures that a link opened in a new tab or window cannot interact with or access the original page. Without it, the new page can use JavaScript to manipulate the original page, which poses a security risk.
-
-For example:
-
-```html
-<a href="https://example.com" target="_blank" rel="noopener">Open Example</a>
-```
-
-In this code:
-target="_blank": opens the link in a new tab.
-rel="noopener": prevents the new tab from accessing the original page, ensuring security. Without `noopener`, the new tab could use JavaScript to interact with the original page, which is unsafe.
-
-`noreferrer`: The `noreferrer` value of the `rel` attribute provides both privacy and security. It prevents the new page from knowing where the user came from (hiding the referrer) and also includes the behavior of `noopener`, preventing the new page from accessing the original page.
-
-For example:
-
-```html
-<a href="https://example.com" target="_blank" rel="noreferrer">Visit Example</a>
-```
-
-In this example:
-target="_blank": opens the link in a new tab.
-rel="noreferrer": ensures the new page cannot see the referring page’s address (privacy) and prevents it from accessing the original page (security).
-
-By using rel="noreferrer", you automatically get the benefits of both privacy and security.
-
-Why do we need this added behavior for opening links in new tabs? Security reasons. The prevention of access that is caused by `noopener` prevents [phishing attacks](https://www.ibm.com/topics/phishing) where the opened link may change the original webpage to a different one to trick users. This is referred to as [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Adding the `noreferrer` value can be done if you wish to not let the opened link know that your webpage links to it.
-
-Note that you may be fine if you forget to add `rel="noopener noreferrer"` since more recent versions of browsers [provide security](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy) if only `target="_blank"` is present. Nevertheless, in line with good coding practices and to err on the side of caution, it is recommended to always pair a `target="_blank"` with a `rel="noreferrer"` (which also includes `noopener`).
+- `noopener`: Prevents the new tab from accessing the original page, which would have opened the possibility of phishing attacks like [tabnabbing](https://owasp.org/www-community/attacks/Reverse_Tabnabbing). Modern browsers all set this automatically for any links that have `target="_blank"`, but you will often still see this manually set for historic browser compatibility.
+- `noreferrer`: The same as `noopener` but also prevents certain details about the original page from being passed to the new page; [referrer information is not always desirable to share](https://developer.mozilla.org/en-US/docs/Web/Privacy/Guides/Referer_header:_privacy_and_security_concerns#the_referrer_problem).
 
 ### Absolute and relative links
 
