@@ -68,17 +68,13 @@ Similar to Netlify, Vercel also offers a few ways to deploy, but we will be impo
 
 ### Cloudflare pages
 
+Very similar process and benefits to the other two options: import your GitHub repository and set the right build command and output directory.
+
 1. Yes, push your React application to GitHub.
-1. Create a new Cloudflare account and log into it.
-1. At the top of the page click the blue button "+" or "Add" and navigate to "Pages" in the dropdown.
-1. On the "Pages" tab click "Connect to Git".
-1. Connect to GitHub and select your GitHub repository.
-1. Under "Set up builds and deployments", set `npm run build` as the build command, and `dist` as the build output directory.
-1. Under "Environment variables (advanced)" > "Add variable", add a variable named `NODE_VERSION` and set its value to be the version number of Node that you are using. You can find this by executing `node -v` in your terminal.
+1. [Import your project to Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/#:~:text=To%20deploy%20your%20site%20to%20Pages). Make sure when creating an application that you create with Pages instead of creating a Worker.
 1. Hit "Save and Deploy" and watch it come to life!
 
 #### Cloudflare Links
 
 - [Cloudflare Pages Homepage](https://pages.cloudflare.com/)
 - [Cloudflare Pages documentation website](https://developers.cloudflare.com/pages)
-- [Vite deployment to Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/) discusses these very steps
