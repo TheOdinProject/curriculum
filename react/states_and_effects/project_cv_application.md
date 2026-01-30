@@ -43,7 +43,7 @@ While there are many ways to deploy to Netlify, like uploading your `dist` direc
 1. Select the branch to deploy from (the default setting, from `main`, works) and hit "Deploy site"!
 1. You can access more settings here if you need to!
 
-#### Netlify Links
+#### Netlify links
 
 - [Netlify Homepage](https://www.netlify.com/)
 - [Netlify Documentation Website](https://docs.netlify.com/)
@@ -59,14 +59,14 @@ Similar to Netlify, Vercel also offers a few ways to deploy, but we will be impo
 1. [Import your project to Vercel](https://vercel.com/new).
 1. Vercel will automatically detect that you are using Vite. Set your name as you like, and hit "Deploy"!
 
-#### Vercel Links
+#### Vercel links
 
 - [Vercel Homepage](https://www.vercel.com/)
 - [Vercel Documentation Website](https://www.vercel.com/docs)
 
 ---
 
-### Cloudflare pages
+### Cloudflare Pages
 
 Very similar process and benefits to the other two options: import your GitHub repository and set the right build command and output directory.
 
@@ -74,7 +74,7 @@ Very similar process and benefits to the other two options: import your GitHub r
 1. [Import your project to Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/#:~:text=To%20deploy%20your%20site%20to%20Pages). Make sure when creating an application that you create with Pages instead of creating a Worker.
 1. Hit "Save and Deploy" and watch it come to life!
 
-#### Cloudflare Links
+#### Cloudflare links
 
 - [Cloudflare Pages Homepage](https://pages.cloudflare.com/)
 - [Cloudflare Pages documentation website](https://developers.cloudflare.com/pages)
