@@ -345,6 +345,7 @@ And that's about it! Congratulations, if you've made it this far, you are well o
 <div class="lesson-content__panel" markdown="1">
 
 1. Read the sections "CSS Grid Properties", "Special Units, Values, & Functions" and "Subgrid" from [CSS-Tricks Grid Layout Guide](https://css-tricks.com/css-grid-layout-guide).
+1. Play through levels 18 - 28 of [CSS Grid Garden](https://cssgridgarden.com/) to practice positioning items.
 1. Do the exercises in our [CSS exercises repository's `intermediate-html-css/advanced-grid` directory](https://github.com/TheOdinProject/css-exercises/tree/main/intermediate-html-css/advanced-grid) (remember that the instructions are in the README) in the order:
    - `01-responsive-holy-grail`
    - `02-holy-grail-mockup`
