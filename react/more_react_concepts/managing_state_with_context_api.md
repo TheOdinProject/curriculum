@@ -36,7 +36,7 @@ export default function App() {
   ]);
   const products = /* some custom hook that fetches products and returns the fetched products */
 
-  const addToCart = () => {
+  const addToCart = (product) => {
     // add to cart logic (this adds to cartItems)
   };
 
@@ -165,7 +165,7 @@ export default function App() {
   ]);
   const products = /* some custom hook that fetches products and returns the fetched products */
 
-  const addToCart = () => {
+  const addToCart = (product) => {
     // add to cart logic (this adds to cartItems)
   };
 
