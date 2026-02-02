@@ -8,7 +8,7 @@ You have probably realized by now that there are many more HTML elements than we
 
 There is also a *lot* more that you can do with CSS that you'll learn throughout this course, such as variables, functions, shadows and of course grid layouts! So buckle up! By the time you finish this course, you'll be able to recreate just about any web design you can find on the internet... which is an important skill to carry forward. Even if you are not shooting for a front-end specific job, being able to make your portfolio pieces look nice is important when it comes to making yourself stand out.
 
-You'll learn about animations, accessibility, and responsive design in the second part of this course later in the curriculum.
+You’ll learn about animations, accessibility, and responsive design later in the curriculum, in the Advanced HTML and CSS course.
 
 ### Lesson overview
 
