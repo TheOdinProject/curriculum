@@ -109,7 +109,7 @@ The Settings page for your Virtual Machine will open and look like the image bel
 
 Please click on the **Display** button. You will then be on the Display settings screen. What you must do here is increase the **Video Memory** to maximum. You can also increase the number of Virtual Monitors if you have multiple physical monitors. We recommend to do this later once you are comfortable in your VM.
 
-![Display setitngs screen](../../installations/imgs/09_display_settings_screen.png)
+![Display settings screen](../../installations/imgs/09_display_settings_screen.png)
 
 Click **OK**. Now we're ready to begin the installation.
 
@@ -211,7 +211,7 @@ Enter your password and hit enter, and you'll pull down the latest available upd
 
 ![sudo apt update](../../installations/imgs/27_sudo_apt_update.png)
 
-You will know when the process is done because the terminal will be availble to take your input again. You'll get a print-out of how many packages can be upgraded.
+You will know when the process is done because the terminal will be available to take your input again. You'll get a print-out of how many packages can be upgraded.
 
 Now that we have ran the update command, we still need to run the command to *upgrade* our packages. With Ubuntu flavored operating systems the process is two steps. Your mileage may vary in other systems.
 
@@ -245,7 +245,7 @@ This next step is something that is difficult to take a screenshot of, so the hi
 
 The easiest way to install the Guest Additions from the contents of the image is to drag and drop the icon into the terminal. You are looking specifically for `VBoxLinuxAdditions.run`, and you want to click and hold and drag the icon onto your open terminal.
 
-First let us clear our terminal output to make it cleaner by typing `clear` and pressing enter. Once it has been cleared type `sudo ` with a space after it because we need it for administrative privileges. Then drag and drop the icon into the terminal.
+First let us clear our terminal output to make it cleaner by typing `clear` and pressing enter. Once it has been cleared type `sudo` with a space after it because we need it for administrative privileges. Then drag and drop the icon into the terminal.
 
 Behold the mystical three-part instructional images.
 
@@ -259,7 +259,7 @@ Press enter and type your password if it is required to continue.
 
 Your window may change size during this process. To complete the installation of the Guest Additions you need to reboot your VM. New shortcut unlocked: `sudo reboot`
 
-Upon logging in you may not notice anything different, but try to maximize your VM now. Look at all of this room for activites!
+Upon logging in you may not notice anything different, but try to maximize your VM now. Look at all of this room for activities!
 
 ![Maxmimized VM](../../installations/imgs/34_room_for_activities.png)
 
@@ -278,7 +278,7 @@ Here are some tips to help you get started in a virtual environment:
 - If the toolbar is not showing for you: Enable the toolbar in your VM settings - there are useful options there that you might want to play around with, especially the ones concerning full screen or multiple displays. To do so, click on **Settings** and then navigate to **User Interface** and finally tick **Show at Top of Screen**.
   ![It's a good idea to look around the settings overall to get a feel of what's possible.](../../installations/imgs/16_toolbar.png)
 - All your work should happen in the VM. You will install everything you need for coding, including your text editor, language environments and various tools inside the VM. The Xubuntu installation inside of your VM also comes with a web browser pre-installed but we'll be installing Chrome shortly.
-- Enable Shared Clipboard - On the aformentioned toolbar, under devices, you can enable Bidirectional under **Shared Clipboard**. Now you can copy and paste if you need to from your Host to Guest and Guest to Host. Please do remember you should be working fully within your VM if you can help it. Extra tip: `ctrl+shift+v` to paste in your terminal.
+- Enable Shared Clipboard - On the aforementioned toolbar, under devices, you can enable Bidirectional under **Shared Clipboard**. Now you can copy and paste if you need to from your Host to Guest and Guest to Host. Please do remember you should be working fully within your VM if you can help it. Extra tip: `ctrl+shift+v` to paste in your terminal.
 - To install software on your VM, you will follow the Linux (Ubuntu) installation instructions from inside the Xubuntu VM.
 - You might need to take screenshots when asking for help on our Discord, here's how depending on where you use it:
   - **Inside the VM:** you can use <kbd>Shift</kbd> + <kbd>PrtSrc</kbd> to take screenshots of portion of your screen. Alternatively, you can click the **Whisker Menu** and type in **Screenshot**, in which you can choose to take a screenshot of your entire screen, the current window you are on or to select a certain area to capture.
