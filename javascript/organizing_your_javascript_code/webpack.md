@@ -446,6 +446,24 @@ Yes, yes, this all might seem like a lot. You've gone from just having some basi
 
 In a later lesson, we will introduce some extra things that can make setting up and working with Webpack much quicker and more straightforward. For now, however, it's good to get a little manual practice in.
 
+<div class=lesson-note markdown="1">
+
+#### Webpack and Vite
+While this lesson focuses on manually configuring Webpack, many modern projects today use newer build tools such as Vite.
+
+Vite takes a different approach to development bundling. Instead of bundling all modules upfront, it leverages native ES modules in the browser during development, which results in :-
+
+- Faster startup times
+
+- Near-instant hot module replacement (HMR)
+
+- Minimal configuration out of the box
+
+Under the hood, Vite still uses a bundler (Rollup) for production builds, where code is fully bundled and optimized in a way similar to Webpack.
+Even if you use Vite or other modern tools in real projects, understanding Webpack remains valuable. Many existing codebases still rely on Webpack, and concepts such as entry points, dependency graphs, loaders, and plugins apply across most bundlers.
+
+</div>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -454,6 +472,7 @@ In a later lesson, we will introduce some extra things that can make setting up 
 1. [Webpack's Asset Management guide](https://webpack.js.org/guides/asset-management/) goes through some examples of how to handle various kinds of assets, like CSS, images, and fonts. You'll see that its examples use `npm run build` to bundle the files; in these examples, that's the equivalent of `npx webpack`. We will go through npm scripts in a later lesson.
 
 </div>
+
 
 ### Knowledge check
 
