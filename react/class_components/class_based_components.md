@@ -79,16 +79,6 @@ class ClassInput extends Component {
   // Some code goes here
 }
 
-/*
-  This can also be written as:
-
-  import React from 'react';
-  class ClassInput extends React.Component {}
-  export default ClassInput;
-
-  instead of destructuring the `Component` during import
-*/
-
 export default ClassInput;
 ```
 
