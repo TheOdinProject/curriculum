@@ -119,7 +119,7 @@ You should find yourself back on the start screen. Click the **Start** button wi
 
 ![Start screen with the start button highlighted](../../installations/imgs/10_start_screen_start_button.png)
 
-A new window should appear that shows some images to indicate that you are loading an Oracle Virtual Machine. It will then transition to a start screen for Xubuntu called the GRUB Boot Menu. By default you have 30 seconds to choose an option by using the arrow keys and selecting via Enter. Typically the default option selected is the one you want, and in this case it's **Try or Install Xubuntu**. If you choose the wrong option just end the VM by clicking File and Close, or hitting the X button, and choosing **Power off the machine**. You are encouraged to do your research on saving the machine state, should you so choose.
+A new window should appear that shows some images to indicate that you are loading an Oracle Virtual Machine. It will then transition to a start screen for Xubuntu called the GRUB Boot Menu. By default you have 30 seconds to choose an option by using the arrow keys and selecting via Enter. Typically the default option selected is the one you want, and in this case it's **Try or Install Xubuntu**. If you choose the wrong option just end the VM by clicking File and Close, or hitting the X button, and choosing **Power off the machine**.
 
 And yes, the screen will be small at this point. We will fix that later.
 
