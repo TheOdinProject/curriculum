@@ -35,6 +35,8 @@ TOPXXX_ruleName/
 
 It must also have a corresponding `TOPXXX.md` documentation file inside `/markdownlint/docs` (same directory as this file) that explains how the rule works, whether it includes auto-fix behaviour (and in what way), and the rationale behind the rule.
 
+A path to the `TOPXXX_ruleName.js` file must also be added to the `customRules` array in the `.markdownlint-cli2.jsonc` configuration file in the root of this repo.
+
 ### Rule Code
 
 Refer to [markdonwlint custom rule documentation](https://github.com/DavidAnson/markdownlint/blob/main/doc/CustomRules.md) for general information about how to write a custom rule.
