@@ -20,7 +20,7 @@ Why are we setting it up like this? Because we can! The important exercise here 
 1. Set up your routes and controllers!  Think about RESTful organization for this one.
 1. Certain routes will need to be protected via authentication. You wouldn't want any random stranger online to edit your articles! If you also implement normal user accounts then you may also want to protect some routes behind being logged in.
    - Stick with server-side sessions and cookies for this.
-1. Once your API is working, you can focus on your frontend code. Time to bring back React! All you should have to do to get your posts into a website is to `fetch` the correct API endpoint and then display the results, like you would have done in past projects from the JavaScript and React courses (revist the [Working with APIs lesson](https://www.theodinproject.com/lessons/javascript-working-with-apis) if you need a refresher).
+1. Once your API is working, you can focus on your frontend code. Time to bring back React! All you should have to do to get your posts into a website is to `fetch` the correct API endpoint and then display the results, like you would have done in past projects from the JavaScript and React courses (revisit the [Working with APIs lesson](https://www.theodinproject.com/lessons/javascript-working-with-apis) if you need a refresher).
 1. Create a second website for authoring and editing your posts. You can set this up however you like but the following features might be useful:
    - A list of all posts that shows whether or not they have been published.
    - A button to publish unpublished posts, or to unpublish published ones!
