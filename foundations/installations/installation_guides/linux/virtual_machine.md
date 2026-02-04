@@ -193,7 +193,7 @@ Before you can start using your Virtual Machine you might have noticed that it i
 
 We're going to learn a neat shortcut right now to open one of the most helpful tools available to you in a Linux based OS: The Virtual Terminal, or Terminal for short. The Terminal is actually virtual whether you're running in a VM or not, but that is out of scope for the curriculum. If you'd like to learn more about Linux in general check out the free book [The Linux Command Line](https://linuxcommand.org/tlcl.php).
 
-When you press `Windows + T` a new window should open up that provides you with some information and prompts you for input. This is your terminal. You can have many terminals open at a time, but for now stick to one.
+When you press <kbd>win</kbd> + <kbd>T</kbd> a new window should open up that provides you with some information and prompts you for input. This is your terminal. You can have many terminals open at a time, but for now stick to one.
 
 ![The Terminal](../../installations/imgs/26_new_terminal.png)
 
