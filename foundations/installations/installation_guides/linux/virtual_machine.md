@@ -157,7 +157,7 @@ The next screen will ask you *What apps would you like to install to start with?
 
 The next screen will ask you if you want to *Install recommended proprietary software?*, to which we answer: yes. Click both checkboxes and **Next** to move on.
 
-![Optmise your computer](../../installations/imgs/18_optimise_your_computer.png)
+![Optimize your computer](../../installations/imgs/18_optimize_your_computer.png)
 
 The next screen will ask you *How do you want to install Xubuntu?* In this case, we will once again select the default option to **Erase disk and install Xubuntu**. This action is safe and does not touch your host hard drive/disk because it is virtualized. As for Manual installation this is out of scope for the curriculum but if you'd like to dive deeper in the future it is recommended. Click **Next** when you're ready to move on.
 
