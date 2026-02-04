@@ -20,7 +20,7 @@ Once you have completed these instructions, **you are expected to work entirely 
 
 #### Step 1.2: Download Xubuntu
 
-There are thousands of distributions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend downloading [Xubuntu](https://xubuntu.org/release/24.04/), which is a lightweight flavor of Ubuntu. Click on the `Direct Downloads` button, find your nearest server location and click on it. There are a few files listed here, download the one ending in `.iso`, which will also be the largest one (around 4 gigabytes). Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. If you find the download speed slow, you can download the [Xubuntu `.iso` directly from the official Ubuntu image server](https://cdimage.ubuntu.com/xubuntu/releases/noble/release/), as the previous link points to a US-based server.
+There are thousands of distributions of Linux out there, but Ubuntu is undoubtedly one of the most popular and user friendly. When installing Linux on a VM, we recommend downloading Xubuntu, which is a lightweight flavor of Ubuntu. Xubuntu uses the same base software as Ubuntu but has a desktop environment that requires fewer computer resources and is therefore ideal for virtual machines. Click on the `Direct Downloads` button on the [24.04 release page for Xubuntu](https://xubuntu.org/release/24.04/), find your nearest server location and click on it. There are a few files listed here, download the one ending in `.iso`, which will also be the largest one (around 4 gigabytes). If you find the download speed slow, you can download the [Xubuntu `.iso` directly from the official Ubuntu image server](https://cdimage.ubuntu.com/xubuntu/releases/noble/release/), as the previous link points to a US-based server.
 
 If you reach the download page and are unsure about what version to choose, it is recommended that you pick the Long-Term Support (LTS) version 24.04 (Noble Numbat). You may be tempted to choose a more recent release, but this version is tried and tested by the Odin Project community and therefore the most reliable option for the purposes of this curriculum.
 
@@ -85,7 +85,7 @@ Difficulty converting your Gigabytes (GB) into Megabytes (MB)? 1 GB of RAM is eq
 
 </div>
 
-As for **Processors** you want this to be at 2 and no more. Leave **Use EFI** uncheck.
+As for **Processors** you want this to be at 2 and no more. Leave **Use EFI** unchecked.
 
 We're still not ready for the Finish button yet. Click the **Specify virtual hard disk accordion** to continue.
 
