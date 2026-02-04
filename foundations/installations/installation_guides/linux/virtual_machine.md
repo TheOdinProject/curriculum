@@ -6,13 +6,9 @@ Installing a Virtual Machine (VM) is the easiest and most reliable way to get st
 
 Installing a VM is a straightforward process. This guide uses Oracle's VirtualBox program to create and run the VM. This program is open-source, free, and easy to use. What more can you ask for? Now, let's make sure we have everything downloaded and ready for installation.
 
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### Use only your VM for The Odin Project
+[!WARNING] Use only your VM for The Odin Project
 
 Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** ![The blue-white rodent Whisker Menu Icon](../../installations/imgs/00_whisker_icon.png) on the top left of the desktop. You should not be using anything outside of the VM while working on The Odin Project. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
-
-</div>
 
 #### Step 1.1: Download VirtualBox
 
@@ -30,13 +26,10 @@ If you reach the download page and are unsure about what version to choose, it i
 
 Installing VirtualBox is very straightforward. It doesn't require much technical knowledge and is the same process as installing any other program on your Windows computer. Double clicking the downloaded VirtualBox file will start the installation process.
 
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### Microsoft Visual C++ 2019
+[!TIP]
+Microsoft Visual C++ 2019
 
 If you receive an error about needing Microsoft Visual C++ 2019 Redistributable Package, you can find it on the [official Microsoft Learn page](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). You most likely want the version with `X64` Architecture (that means 64-bit) - download and install it then try installing VirtualBox again.
-
-</div>
 
 During the installation, you'll be presented with various options. We suggest dropping the Python Support as you don't need it by clicking on the drive icon with an arrow and choosing **Entire feature will be unavailable**:
 
@@ -77,13 +70,10 @@ In the **Hardware** section of the installation you want to set your **Base Memo
 
 > For example, if you have 8 GB (8192 MB respectively) of RAM, you could allocate up to 4096 MB (1024 MB to 1 GB) to your VM's operating system. You can Google how to find out how much RAM you have available if you do not know this already. If the VM runs a bit slow, try allocating more memory!
 
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### Converting gigabytes to megabytes
+[!TIP]
+Converting gigabytes to megabytes
 
 Difficulty converting your Gigabytes (GB) into Megabytes (MB)? 1 GB of RAM is equal to 1024 MB. Therefore, you can say that **8 GB = 8 x 1024 = 8192 MB.**
-
-</div>
 
 As for **Processors** you want this to be at 2 and no more. Leave **Use EFI** uncheck.
 
