@@ -10,6 +10,7 @@ Installing a VM is a straightforward process. This guide uses Oracle's VirtualBo
 
 #### Use only your VM for The Odin Project
 
+Once you have completed these instructions, **you are expected to work entirely in the VM.** Maximize the window, add more virtual monitors if you have them, fire up the Internet Browser in the **Whisker Menu** ![The blue-white rodent Whisker Menu Icon](../../installations/imgs/00_whisker_icon.png) on the top left of the desktop. Any task you are working on for The Odin Project should take place within your VM. If you feel like you have a good understanding after using the VM for a while, and or want to improve your experience, we recommend dual-booting Ubuntu, which there are instructions for below.
 
 </div>
 
