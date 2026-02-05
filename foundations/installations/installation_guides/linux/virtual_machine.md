@@ -171,7 +171,7 @@ The next screen will ask you to *Select your timezone*. Insert either your locat
 
 ![Select your timezone](../../installations/imgs/21_select_your_timezone.png)
 
-The next screen will ask you to *Review your choices* and finalize the installation. The information shown in the, while a bit confusing to understand right now, should reflect the decisions we have made along the way during this process. Once you're ready to wait for a while click the **Install** button and go grab some more coffee.
+The next screen will ask you to *Review your choices* and finalize the installation. The information shown in the window, while a bit confusing to understand right now, should reflect the decisions we have made along the way during this process. Once you're ready to wait for a while click the **Install** button and go grab some more coffee.
 
 ![Ready to Install](../../installations/imgs/22_ready_to_install.png)
 
