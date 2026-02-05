@@ -59,15 +59,15 @@ Build a `Graph` class (or factory) to represent your graph. For now, it should o
    Z -> ( X )
    ```
 
-1. `hasVertex(value)`: Returns `true` if the graph contains the vertex `value`, returns `false` otherwise.
-1. `areAdjacent(value1, value2)`: Returns `true` if the vertices `value1` and `value2` are adjacent, returns `false` otherwise. Recall that two vertices are adjacent if they are connected by an edge.
+1. `hasVertex(value)`: Returns `true` if the graph contains the vertex `value`. Returns `false` if the graph does not contain `value`.
+1. `areAdjacent(value1, value2)`: Returns `true` if the vertices `value1` and `value2` are adjacent. Returns `false` if they are not adjacent. Recall that two vertices are adjacent if they are connected by an edge.
 1. `removeVertex(value)`: Removes the vertex `value` from the adjacency list. Any edges that were connected to this vertex should be removed as well. Does nothing if `value` is not in the graph.
 1. `removeEdge(value1, value2)`: Removes an edge between the vertices `value1` and `value2`. Does nothing if either `value1` or `value2` are not in the graph.
 1. `getOrder()`: Returns a number that represents the order of the graph. This is the number of vertices in the graph.
 1. `getSize()`: Returns a number that represents the size of the graph. This is the number of edges in the graph.
-1. `getDegree(value)`: Returns a number that represents the degree of the vertex `value`, or `undefined` if `value` is not in the graph. The degree of a vertex is the number of edges that are connected to that vertex.
-1. `getNeighbors(value)`: Returns an array of all the vertices that are adjacent to the vertex `value`, or `undefined` if `value` is not in the graph.
-1. `getCommonNeighbors(value1, value2)`: Returns an array of all the vertices that are adjacent to both of the vertices `value1` and `value2`, or `undefined` if either `value1` or `value2` are not in the graph.
+1. `getDegree(value)`: Returns a number that represents the degree of the vertex `value`. If `value` is not in the graph, return `undefined`. The degree of a vertex is the number of edges that are connected to that vertex.
+1. `getNeighbors(value)`: Returns an array of all the vertices that are adjacent to the vertex `value`. If `value` is not in the graph, return `undefined`.
+1. `getCommonNeighbors(value1, value2)`: Returns an array of all the vertices that are adjacent to both of the vertices `value1` and `value2`. If either `value1` or `value2` are not in the graph, return `undefined`.
 
 #### Test Your Graph
 

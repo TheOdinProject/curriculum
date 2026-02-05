@@ -59,15 +59,15 @@ Build a `Graph` class to represent your graph. For now, it should only include s
    Z -> ( X )
    ```
 
-1. `vertex?(value)`: Returns `true` if the graph contains the vertex `value`, returns `false` otherwise.
-1. `adjacent?(value1, value2)`: Returns `true` if the vertices `value1` and `value2` are adjacent, returns `false` otherwise. Recall that two vertices are adjacent if they are connected by an edge.
+1. `vertex?(value)`: Returns `true` if the graph contains the vertex `value`. Returns `false` if the graph does not contain `value`.
+1. `adjacent?(value1, value2)`: Returns `true` if the vertices `value1` and `value2` are adjacent. Returns `false` if they are not adjacent. Recall that two vertices are adjacent if they are connected by an edge.
 1. `remove_vertex(value)`: Removes the vertex `value` from the adjacency list. Any edges that were connected to this vertex should be removed as well. Does nothing if `value` is not in the graph.
 1. `remove_edge(value1, value2)`: Removes an edge between the vertices `value1` and `value2`. Does nothing if either `value1` or `value2` are not in the graph.
 1. `order`: Returns a number that represents the order of the graph. This is the number of vertices in the graph.
 1. `size`: Returns a number that represents the size of the graph. This is the number of edges in the graph.
-1. `degree(value)`: Returns a number that represents the degree of the vertex `value`, or `nil` if `value` is not in the graph. The degree of a vertex is the number of edges that are connected to that vertex.
-1. `neighbors(value)`: Returns an array of all the vertices that are adjacent to the vertex `value`, or `nil` if `value` is not in the graph.
-1. `common_neighbors(value1, value2)`: Returns an array of all the vertices that are adjacent to both of the vertices `value1` and `value2`, or `nil` if either `value1` or `value2` are not in the graph.
+1. `degree(value)`: Returns a number that represents the degree of the vertex `value`. If `value` is not in the graph, return `nil`. The degree of a vertex is the number of edges that are connected to that vertex.
+1. `neighbors(value)`: Returns an array of all the vertices that are adjacent to the vertex `value`. If `value` is not in the graph, return `nil`.
+1. `common_neighbors(value1, value2)`: Returns an array of all the vertices that are adjacent to both of the vertices `value1` and `value2`. If either `value1` or `value2` are not in the graph, return `nil`.
 
 #### Test Your Graph
 
