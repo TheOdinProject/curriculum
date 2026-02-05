@@ -345,6 +345,7 @@ And that's about it! Congratulations, if you've made it this far, you are well o
 <div class="lesson-content__panel" markdown="1">
 
 1. Read the sections "CSS Grid Properties", "Special Units, Values, & Functions" and "Subgrid" from [CSS-Tricks Grid Layout Guide](https://css-tricks.com/css-grid-layout-guide).
+1. Play through levels 18 - 28 of [CSS Grid Garden](https://cssgridgarden.com/) to practice positioning items.
 1. Do the exercises in our [CSS exercises repository's `intermediate-html-css/advanced-grid` directory](https://github.com/TheOdinProject/css-exercises/tree/main/intermediate-html-css/advanced-grid) (remember that the instructions are in the README) in the order:
    - `01-responsive-holy-grail`
    - `02-holy-grail-mockup`
@@ -366,12 +367,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Which global CSS function allows you to supply a minimum, ideal, and maximum value that is calculated in realtime?](#dynamic-minimum-and-maximum-sizes)
 - [What attribute of `repeat()` can be used to fill in as many grid tracks as possible, given certain constraints?](#auto-fit-and-auto-fill)
 - [What is the difference between `auto-fit` and `auto-fill`?](#auto-fit-and-auto-fill)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Learn more about the [differences between `auto-fit` and `auto-fill`](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
-- If videos are more your speed, check out this video on [auto-fit and auto-fill](https://www.youtube.com/watch?v=qjJR3qYCd54) by Kevin Powell.
-- This video provides a [summary of CSS grid](https://www.youtube.com/watch?v=EiNiSFIPIQE) in a concise format.
-- Check out this beautiful [interactive guide to grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid).

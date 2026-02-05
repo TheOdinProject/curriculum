@@ -14,7 +14,7 @@ We have not yet discussed testing the appearance of a webpage, which requires a 
 
 #### Jest and ESM
 
-Remember that Jest does not have built-in stable support for ESM, so you will need to [set up Babel for Jest ESM/CJS conversion](https://www.theodinproject.com/lessons/node-path-javascript-testing-practice#using-es6-import-statements-with-jest).
+Remember that Jest does not have built-in stable support for ESM, so you will need to [set up Babel for Jest ESM/CJS conversion](https://www.theodinproject.com/lessons/node-path-javascript-testing-basics#using-es6-import-statements-with-jest).
 
 </div>
 
