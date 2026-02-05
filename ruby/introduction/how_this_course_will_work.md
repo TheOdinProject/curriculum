@@ -33,7 +33,7 @@ Ruby is a big language with lots of syntax, so we've broken the concepts up into
 
 #### LaunchSchool's AI chatbot
 
-This course will frequently link resources from LaunchSchool and they recently incorporated a chatbot for learing support into their platform. We do not recommend using it for your learning in this curriculum for the reasons that we have outlined in our [Motivation and Mindset lesson](https://www.theodinproject.com/lessons/foundations-motivation-and-mindset#a-note-on-ai-code-generation).
+This course will frequently link resources from LaunchSchool and they recently incorporated a chatbot for learing support into their platform. We do not recommend using it for your learning in this curriculum for the reasons that we have outlined in our [Motivation and Mindset lesson](https://www.theodinproject.com/lessons/foundations-motivation-and-mindset#a-note-on-ai-code-generation). If you are ever stuck on a problem or confused about any of the content you are reading, you should reach out to us in [our Discord server](https://discord.com/invite/fbFCkYabZB) instead.
 
 </div>
 
