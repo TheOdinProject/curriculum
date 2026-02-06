@@ -141,7 +141,9 @@ The next screen will ask you to *Select your keyboard layout*. You can optionall
 
 ![Select your keyboard layout](../../installations/imgs/14_select_keyboard_layout.png)
 
-The next screen will ask you to configure your settings so you can *Connect to the internet*. This is not necessary to change because VirtualBox is configured to use your host machines network device, so whether the VM knows you're wired or wireless it **does not matter**, to it you are essentially hard wired to the internet.
+The next screen will ask you to configure your settings so you can *Connect to the internet*. If it is not selected you should choose **Use wired connection**. VirtualBox is configured to use your host machines network device, so whether the VM knows you're wired or wireless it **does not matter**, to it you are essentially hard wired to the internet.
+
+If you cannot select **Use wired connection** then you should run the VirtualBox installer again and select **repair**.
 
 > **Note for VPN Users**: If you are unable to continue with the installation or run updates because your VM seemingly cannot connect to the internet **and** you're using a VPN, consider whitelisting your VM, use a reverse split tunnel, or temporarily disable it all together. If split tunnel does not work try setting the VM Network Adapter to *Bridged Adapter* and try again.
 
