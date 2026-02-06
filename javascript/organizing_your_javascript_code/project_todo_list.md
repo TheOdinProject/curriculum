@@ -35,9 +35,3 @@ Before diving into the code, take a minute to think about how you are going to w
    - localStorage uses [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) to send and store data, and when you retrieve the data, it will also be in JSON format. Keep in mind you *cannot store functions in JSON*, so you'll have to figure out how to add methods back to your object properties once you fetch them. Good luck!
 
 </div>
-
-### Additional Resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Using local storage in modern applications](https://www.freecodecamp.org/news/use-local-storage-in-modern-applications/) provides more details on using localStorage if you want to learn more.
