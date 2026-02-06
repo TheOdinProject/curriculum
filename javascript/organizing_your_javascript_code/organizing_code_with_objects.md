@@ -9,7 +9,6 @@ This section contains a general overview of topics that you will learn in this l
 - Using objects to organize data.
 - Using objects to organize functionality.
 - Object methods and the `this` keyword.
-- Public and private interfaces.
 
 ### Refresher
 
@@ -106,7 +105,7 @@ const lightbulb = {
 
 You may want to have the ability to switch a lightbulb from its unlit state to its lit state, or vice-versa. To do that, you might add a method.
 
-The easiest way to get started creating methods to interact with your objects might be combining object literal syntax with JavaScript's `this` keyword. The `this` keyword is used to refer to the object a particular method is called from.
+<span id="this-keyword"></span>The easiest way to get started creating methods to interact with your objects might be combining object literal syntax with JavaScript's `this` keyword. The `this` keyword is used to refer to the object a particular method is called from.
 
 ```javascript
 const lightbulb = {
@@ -203,64 +202,13 @@ console.log(rps.playerScore); // 0
 console.log(rps.computerScore); // 0
 ```
 
-### Private methods/properties
-
-Once you've got a working object that allows you to play rounds of Rock, Paper, Scissors, you may be look at this code and feel that you personally prefer to split your code between more functions/methods than you see here, but also recognize that those functions may not really be a useful interaction point for anyone using your object.
-
-But, there is no rule saying that you can't add those functions to your object as well! A common convention is to prefix methods and properties that you don't intend other people to use with an underscore (`_`). This convention conveys to others that "These things are meant to be used internally by this object, please interact with the other available methods and properties on this object's interface instead"
-
-Another name for properties like this might be **private properties**/**private methods**, and even though object literal syntax doesn't provide a way to truly *prevent* people from accessing them, you will learn in later lessons about other methods of creating objects that *can*.
-
-Some additional methods or properties one might add to *this* object may be:
-
-- A method that grabs a random computer choice
-- A method that determines if two choices are a tie
-- A method that determines if the player is the winner
-- A list containing all the valid choices
-
-Let's see what that looks like!
-
-```javascript
-const rps = {
-  _options: ['rock', 'paper', 'scissors'],
-  _getRandomChoice() {
-    // returns 'rock', 'paper', or 'scissors' randomly
-  },
-  _isTie(playerChoice, computerChoice) {
-    // determines if two choices are a tie, and returns `true` or `false`
-  },
-  _isPlayerWinner(playerChoice, computerChoice) {
-    // returns `true` if the player is the winner, and `false` if not
-  },
-  playerScore: 0,
-  computerScore: 0,
-  playRound(playerChoice) {/* ... */},
-  getWinningPlayer() {/* ... */},
-  reset() {/* ... */},
-};
-```
-
-Private properties/methods aren't strictly required, but they can help make the intended use of the object more understandable, and when used thoughtfully, even protect certain properties (like the player's scores) from being modified in ways that you may not have intended. Back off, cheaters!
-
-If you feel inclined to create and use any of these new methods or properties in your previous `playRound`, `getWinningPlayer`, or `reset` methods, have at it! You may appreciate some readability gained from extracting logic out into private methods.
-
-### Public interfaces
-
-The methods and properties you *do* intend for others to use on your objects might be considered your object's **public interface**, or **public properties**/**public methods**. Having a good, well thought out interface on your objects is important - not only because it makes your object pleasant to use by you and others, but also to keep objects flexible and extensible in the future.
-
-This idea of grouping related functionality within an object is *extremely powerful*, and can often result in more organized, understandable code.
-
-Furthermore, with the various object creation methods you'll learn throughout this section of the curriculum, you'll be able to easily duplicate and reuse objects like these! Imagine you have an app where users can create and play *multiple* rock-paper-scissor games at once. Managing the data and interacting with each of those games would be no sweat with objects!
-
 <div class="lesson-note" markdown="1">
 
-#### Should I use methods to modify properties, or modify them directly?
+#### Underscore properties
 
-When using objects as a *data structure* to simply store related some related values together, it's probably just fine to manipulate the data within them directly.
+Out in the wild, you may see code with object properties that start with `_` e.g. `_someProperty`. This is purely a developer convention that indicates the property is intended to be "private". A private property is one that's only meant for internal use and not meant to be read or called outside of the object itself (such as helper methods).
 
-However, once you've grouped data and functionality together in an interactable object, it's best to provide dedicated methods for interacting with objects in pre-defined ways.
-
-Objects can become complicated little machines, and may rely on their properties containing particular values to act properly. Direct access can be like swapping out parts in a running computer, causing unexpected behavior. Methods can act as a safeguard that prevent incorrect values from being assigned.
+JavaScript does not actually have the concept of real private properties for objects, at least not for object literals. Developers historically would add a leading `_` to indicate a property should be treated as if it was private, even if technically they'd still be accessible outside of the object internals ("public"). There are ways to implement actual privacy (which would actually prevent accessing something outside of the object itself) but they involve more advanced things and will be covered in later lessons.
 
 </div>
 
@@ -329,9 +277,8 @@ Again, objects can be used to represent almost anything you can think of, the li
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What are two ways you can use objects to organize code?](#objects-as-a-data-structure)
-- [What is a 'method'?](#objects-as-a-design-pattern)
-- [What is the `this` keyword used for?](#objects-as-a-design-pattern)
-- [What methods should exist as part of an object's public interface?](#objects-as-a-design-pattern)
+- [What is a method?](#objects-as-a-design-pattern)
+- [What is the `this` keyword used for?](#this-keyword)
 
 ### Additional resources
 
