@@ -72,17 +72,19 @@ function Player(name, marker) {
 
 Write a constructor for making "Book" objects. We will revisit this in the next project. Your book objects should have the book's `title`, `author`, the number of `pages`, and whether or not you have `read` the book.
 
-Put a function into the constructor that can report the book info like so:
+Put a function `info()` into the constructor that can report the book info like so:
 
 ```javascript
-theHobbit.info(); // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
+console.log(theHobbit.info()); // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
 ```
 
-Note: It is almost *always* best to `return` things rather than putting `console.log()` directly into the function. In this case, return the `info` string and log it after the function has been called:
+<div class="lesson-note lesson-note--tip" markdown="1">
 
-```javascript
-console.log(theHobbit.info());
-```
+#### console.log vs return
+
+We use examples of functions that call `console.log()` for demonstration, but instead of making functions directly log things, it's generally more sensible to make them `return` values. That way, you can pass the values wherever you wish without being tied to whatever that function does; you may not always want to log the value.
+
+</div>
 
 ### The prototype
 
