@@ -6,11 +6,11 @@ Now that you've got a basic understanding of *why* and *how* you might use objec
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How the `this` keyword behaves in different situations.
 - How to write an object constructor and instantiate the object.
 - What a prototype is and how it can be used.
 - Prototypal inheritance.
 - Basic do's and don'ts of prototypal inheritance.
+- How the `this` keyword behaves in different situations.
 
 ### Object constructors
 
@@ -26,8 +26,8 @@ function Player(name, marker) {
 and you can use it by calling the function with the keyword `new`.
 
 ```javascript
-const player = new Player('steve', 'X');
-console.log(player.name); // 'steve'
+const player = new Player("steve", "X");
+console.log(player.name); // "steve"
 ```
 
 Just like with objects created using the Object Literal method, you can add functions to the object:
@@ -41,10 +41,10 @@ function Player(name, marker) {
   };
 }
 
-const player1 = new Player('steve', 'X');
-const player2 = new Player('also steve', 'O');
-player1.sayName(); // logs 'steve'
-player2.sayName(); // logs 'also steve'
+const player1 = new Player("steve", "X");
+const player2 = new Player("also steve", "O");
+player1.sayName(); // logs "steve"
+player2.sayName(); // logs "also steve"
 ```
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
@@ -178,14 +178,14 @@ What's this `.valueOf` function, and where did it come from if we did not define
 How do we know that this `.valueOf` function is defined on `Object.prototype`? We make use of another function called `.hasOwnProperty`:
 
 ```javascript
-player1.hasOwnProperty('valueOf'); // false
-Object.prototype.hasOwnProperty('valueOf'); // true
+player1.hasOwnProperty("valueOf"); // false
+Object.prototype.hasOwnProperty("valueOf"); // true
 ```
 
 Now where did this [`.hasOwnProperty` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty) come from? A quick check helps:
 
 ```javascript
-Object.prototype.hasOwnProperty('hasOwnProperty'); // true
+Object.prototype.hasOwnProperty("hasOwnProperty"); // true
 ```
 
 Essentially, this is how JavaScript makes use of prototypes. An object inherits from its `[[Prototype]]` object which in turn inherits from its own `[[Prototype]]` etc., thus forming a chain. This kind of inheritance using prototypes is hence named as Prototypal inheritance. JavaScript figures out which properties exist (or do not exist) on the object and starts traversing the chain to find the property or function, like so:
@@ -220,7 +220,7 @@ function Player(name, marker) {
 }
 
 Player.prototype.getMarker = function() {
-  console.log(`My marker is '${this.marker}'`);
+  console.log(`My marker is "${this.marker}"`);
 };
 
 Object.getPrototypeOf(Player.prototype); // returns Object.prototype
@@ -229,14 +229,14 @@ Object.getPrototypeOf(Player.prototype); // returns Object.prototype
 Object.setPrototypeOf(Player.prototype, Person.prototype);
 Object.getPrototypeOf(Player.prototype); // returns Person.prototype
 
-const player1 = new Player('steve', 'X');
-const player2 = new Player('also steve', 'O');
+const player1 = new Player("steve", "X");
+const player2 = new Player("also steve", "O");
 
 player1.sayName(); // Hello, I'm steve!
 player2.sayName(); // Hello, I'm also steve!
 
-player1.getMarker(); // My marker is 'X'
-player2.getMarker(); // My marker is 'O'
+player1.getMarker(); // My marker is "X"
+player2.getMarker(); // My marker is "O"
 ```
 
 From the code, we can see that we've defined a `Person` from whom a `Player` inherits properties and functions, and that the created `Player` objects are able to access both the `.sayName` and the `.getMarker` functions, in spite of them being defined on two separate `.prototype` objects! This is enabled by the use of the `Object.setPrototypeOf()` function. It takes two arguments - the first is the one which inherits and the second argument is the one which you want the first argument to inherit from. This ensures that the created `Player` objects are able to access the `.sayName` and `.getMarker` functions through their prototype chain.
@@ -273,7 +273,7 @@ Player.prototype = Person.prototype;
 
 function Enemy(name) {
   this.name = name;
-  this.marker = '^';
+  this.marker = "^";
 }
 
 // Not again!
@@ -281,10 +281,10 @@ function Enemy(name) {
 Enemy.prototype = Person.prototype;
 
 Enemy.prototype.sayName = function() {
-  console.log('HAHAHAHAHAHA');
+  console.log("HAHAHAHAHAHA");
 };
 
-const carl = new Player('carl', 'X');
+const carl = new Player("carl", "X");
 carl.sayName(); // Uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName function!
 ```
 
