@@ -23,14 +23,16 @@ function Player(name, marker) {
 }
 ```
 
-and you can use it by calling the function with the keyword `new`.
+The only difference is that you use it by calling the function with the keyword `new`:
 
 ```javascript
 const player = new Player("steve", "X");
 console.log(player.name); // "steve"
 ```
 
-Just like with objects created using the Object Literal method, you can add functions to the object:
+This is not the same as calling `Player("steve", "X")` (without the `new` keyword). <span id="new-keyword">When we call a function with `new`, it creates a new object, makes `this` inside the function refer to that object, and makes that object inherit from the function's `.prototype` property (more on that later). The new object is then returned (even though we don't specify a `return` value in the constructor function).</span>
+
+Just like with objects created using the object literal method, you can add functions to the object:
 
 ```javascript
 function Player(name, marker) {
@@ -51,7 +53,7 @@ player2.sayName(); // logs "also steve"
 
 #### Safeguarding constructors
 
-Note that, as constructors are just regular functions, they could be called without using `new` by mistake, which would cause hard-to-track errors. To prevent that, you can use the `new.target` meta-property like this:
+Since constructors can be called without using `new` by mistake, which would cause hard-to-track errors as it won't do all the new object and `this` binding stuff, we should safeguard them. You can use the `new.target` meta-property like this, which will throw an error if `Player` is called without `new`:
 
 ```javascript
 function Player(name, marker) {
