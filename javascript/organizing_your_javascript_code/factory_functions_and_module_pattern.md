@@ -325,4 +325,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How does the module pattern work?](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
 - [What does IIFE stand for and what are they?](#the-module-pattern-iifes)
 - [What is the concept of namespacing and how do factory functions help with encapsulation?](#encapsulating-with-the-module-pattern)
-
