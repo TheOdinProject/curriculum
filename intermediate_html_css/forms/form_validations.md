@@ -212,11 +212,8 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read and follow along to [MDN's Client-Side Form Validation Guide](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
-   - Skip the section on "Validating forms using JavaScript". This will be covered in a future lesson.
-
+1. Read and follow along to [MDN's Client-Side Form Validation Guide](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation). Skip the section on "Validating forms using JavaScript". This will be covered in a future lesson.
 1. Go through SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/). You can skip the section on "JavaScript and the Constraint Validation API" and "Creating a Custom Form Validator".
-
 1. Look through this X thread of the [do’s and don’ts for form validation UX](https://threadreaderapp.com/thread/1400388896136040454.html).
 
 </div>
