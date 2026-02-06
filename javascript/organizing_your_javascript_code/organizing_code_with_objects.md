@@ -283,9 +283,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are two ways you can use objects to organize code?](#objects-as-a-data-structure)
 - [What is a method?](#objects-as-a-design-pattern)
 - [What is the `this` keyword used for?](#this-keyword)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [JavaScript Tutorial's article on the `this` keyword](https://www.javascripttutorial.net/javascript-this/) covers how `this` changes in various situations.
