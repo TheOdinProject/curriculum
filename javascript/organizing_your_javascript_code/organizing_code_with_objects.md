@@ -74,31 +74,18 @@ const playerTwo = {
 };
 ```
 
-At first glance, the first doesn't seem so bad.. and it actually takes fewer lines to write than the example using objects, but the benefits of the second approach are huge! Grouping related data together into objects allows you to pass the data around easily. Let me demonstrate:
+At first glance, the first doesn't seem so bad... but the benefits of the second approach are huge! Grouping related data together into objects allows you to pass the data around easily. For example:
 
 ```javascript
-function printName(player) {
-  console.log(player.name);
-}
-```
-
-This is something that you just could NOT do with the example one setup. Instead, every time you wanted to print a specific player's name, you would have to remember the correct variable name and then manually console.log it:
-
-```javascript
-console.log(playerOneName);
-console.log(playerTwoName);
-```
-
-Again, this isn't *that* bad... but what if you *don't know* which player's name you want to print?
-
-```javascript
-function gameOver(winningPlayer){
+function gameOver(winningPlayer) {
   console.log("Congratulations!");
-  console.log(`${winningPlayer.name} is the winner!`);
+  console.log(`${winningPlayer.name} (${winningPlayer.marker}) is the winner!`);
 }
 ```
 
-Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of each particular item's name, price, description and other things is the only way to go. You will continue to use and see objects used in this way throughout the curriculum.
+Instead of having to have separate parameters for the name and the marker, we have just the one for the entire object and now we have access to all the properties within. If we end up adding more properties to the player objects and needing them in the `gameOver` function, again, we have access to that already since we passed the whole object in, rather than into individual parameters.
+
+But what if we aren't making a simple 2-player game? Something more complicated such as an online shopping site with a large inventory? Using objects to group together each particular item's name, price, description and other things is the only way to go. You will continue to use and see objects used in this way throughout the curriculum.
 
 ### Objects as a design pattern
 
