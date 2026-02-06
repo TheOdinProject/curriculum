@@ -89,13 +89,9 @@ But what if we aren't making a simple 2-player game? Something more complicated 
 
 ### Objects as a design pattern
 
-The grouping power of objects isn't just useful for organizing data - it's useful for organizing *functionality* as well! Using objects for this purpose is one of the core tenants of Object Oriented Programming (OOP).
+The grouping power of objects isn't just useful for organizing data, it's useful for organizing *functionality* as well! Using objects for this purpose is one of the core tenants of Object Oriented Programming (OOP), which is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods). In OOP, computer programs are designed by making them out of objects that interact with one another.
 
-The introductory paragraph for Object Oriented Programming on Wikipedia says this:
-
-> Object-oriented programming (OOP) is a programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods). In OOP, computer programs are designed by making them out of objects that interact with one another.
-
-Essentially, what this means is that code can be organized into objects that contain not only data, but also **methods** (or functions in an object) that interact with that data.
+This means we're not limited to storing data in objects, we can store logic as well via **methods** (which are just functions that are part of an object), then use those methods to interact with the data.
 
 Nearly *anything* you can think about can be described as an object. To do so, all you have to do is ask yourself is "What properties (physical or conceptual) does my thing have?", and "How can I interact with it?". The properties or attributes of a *thing* are expressed as properties, and the ways you can interact with that thing are expressed as methods.
 
@@ -108,21 +104,20 @@ const lightbulb = {
 };
 ```
 
-You may want to have the ability to switch a lightbulb from it's unlit state to it's lit state, or vice-versa. To do that, you might add a *method*.
+You may want to have the ability to switch a lightbulb from its unlit state to its lit state, or vice-versa. To do that, you might add a method.
 
-The easiest way to get started creating methods to interact with your objects might be combining Object Literal syntax with JavaScript's `this` keyword. The `this` keyword is used to refer to the object a particular method is called from.
-
-The following is an example of using the `this` keyword to add two methods to our object, `switchOn`, and `switchOff`:
+The easiest way to get started creating methods to interact with your objects might be combining object literal syntax with JavaScript's `this` keyword. The `this` keyword is used to refer to the object a particular method is called from.
 
 ```javascript
 const lightbulb = {
   color: "cool white",
   isLit: false,
 
-  // shorthand syntax for adding methods to objects
-  switchOn() {
+  // a method is simply a function assigned to a property
+  switchOn: function() {
     this.isLit = true;
   },
+  // shorthand for adding a method to an object literal
   switchOff() {
     this.isLit = false;
   },
@@ -132,18 +127,26 @@ lightbulb.switchOn();
 console.log(lightbulb.isLit); // true - we switched it on
 ```
 
-These methods use the `this` keyword to refer to the object they get called from (`lightbulb`). The `this` keyword can be used to access and modify properties of an object in exactly the same way you would for any other variable that points to an object.
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-Feel free to copy this code in the console and experiment with it! If you're inclined, perhaps you could create a method to change the color of the light, as if it's one of those fancy RGB LEDs those gamer nerds and keyboard enthusiasts seem to like so much.
+#### Arrow functions and "this"
+
+The `this` keyword behaves differently inside arrow functions compared to traditional function expressions (which includes the shorthand syntax). We don't need to dive into how or why it differs yet, just know that if you used arrow functions in the above example, they would not behave as you expect.
+
+</div>
+
+These methods use the `this` keyword to refer to the object they get called from (`lightbulb`). The `this` keyword can be used to read and assign properties of an object in exactly the same way you would for any other variable that points to an object.
+
+#### Objects for more abstract concepts
 
 Moving past physical items, we could also try to describe something a little bit more abstract like a game as an object. Since we've already explored Rock Paper Scissors in Foundations, let's use that as an example.
 
-A rock paper scissors game might involve a couple basic things:
+A rock paper scissors game might involve a couple of basic things:
 
 - Players' scores
 - The ability to play a round (and playing a round should update a player's score)
 
-And might also include a couple nice-to-haves
+And might also include a couple nice-to-haves:
 
 - The ability to determine the current winning player
 - The ability to restart the game
@@ -155,7 +158,7 @@ const rps = {
   playerScore: 0,
   computerScore: 0,
   playRound(playerChoice) {
-    // code to play the round... (and update the scores when a player wins)
+    // code to play the round, update score if needed, then return the result
   },
 };
 ```
@@ -167,31 +170,38 @@ const rps = {
   playerScore: 0,
   computerScore: 0,
   playRound(playerChoice) {
-    /*
-      1. if an invalid choice is chosen, throw an error
-      2. get the computer's choice
-      3. determine the winner using the player's choice and the computer's choice
-        - apply points if necessary to the playerScore/computerScore properties
-        - return who won ('player', 'computer', or 'tie')
-     */
+    // code to play the round, update score if needed, then return the result
   },
   getWinningPlayer() {
     // return the player with the most points ("player", "computer", or "tie")
   },
   reset() {
-    // reset both player's scores to 0
+    // reset both players' scores to 0
   },
 };
-
-rps.playRound('rock'); // returns 'player' if we win...
-console.log(rps.playerScore); // ...and our score would have increased
-
-// We also have the ability to check the winning player and reset the game at any time
-console.log(rps.getWinningPlayer()); // "player", if we won above round
-rps.reset();
 ```
 
-Take the time to fill in the blanks for the code above, in order to make it work as the comments describe. Use your new knowledge of the `this` keyword to update the player's scores! A working object may be useful for your understanding in the following paragraphs, and provide you with a space to experiment with the ideas in this lesson.
+Let's play a bit and see who's in the lead!
+
+```javascript
+rps.playRound("rock"); // returns "player" because we're awesome at RPS
+console.log(rps.playerScore); // 1 - we won and so our score increased
+
+rps.playRound("rock"); // returns "computer" because... luck...
+console.log(rps.computerScore); // 1
+
+rps.playRound("scissors"); // returns "player" because we're awesome at RPS (again)
+console.log(rps.playerScore); // 2
+console.log(rps.getWinningPlayer()); // "player" since we're 2-1 up
+```
+
+We've had enough fun for a day so let's reset everything for the next person.
+
+```javascript
+rps.reset();
+console.log(rps.playerScore); // 0
+console.log(rps.computerScore); // 0
+```
 
 ### Private methods/properties
 
