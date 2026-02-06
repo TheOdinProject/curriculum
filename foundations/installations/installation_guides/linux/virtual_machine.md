@@ -179,7 +179,7 @@ The next few screens will go by automatically during the installation process. T
 
 ![Installer progress](../../installations/imgs/23_installation_in_progress.png)
 
-Once you have reached this screen that signals the installation has been successfully completed. You are now being prompted to exit your live desktop environment so you can boot your newly installed Xubuntu OS on your VM. Click **Restart now** to continue the process. If you end up clicking Continue testing and wish to continue, just click the ![Whisker Icon](../../installations/imgs/00_whisker_icon.png), click Log Out, and then click Restart.
+Once you have reached this screen that signals the installation has been successfully completed. You are now being prompted to exit your live desktop environment so you can boot your newly installed Xubuntu OS on your VM. Click **Restart now** to continue the process. If you end up clicking Continue testing and wish to continue, just click the ![Whisker Icon](../../installations/imgs/00_whisker_icon.png), click Log Out, and then click Restart. After restarting and you end up sitting on a black screen for a long time please have some patience. If it goes longer than 10 minutes then please close the VM and start again manually.
 
 ![Installation complete](../../installations/imgs/24_installation_complete.png)
 
@@ -239,17 +239,17 @@ Be sure to enter `Y` to allow these packages to install. These are two separate 
 
 ![sudo apt install helper packages](../../installations/imgs/29_sudo_apt_install_helper_packages.png)
 
-This next step is something that is difficult to take a screenshot of, so the highlight here will be the menu that you must click on to find it. On the top VM toolbar click **Devices** and navigate to the bottom of the dropdown where you see **Insert Guest Additions CD image...** and click on that. It might take a few seconds but a notification will appear that the CD has been mounted and a file window will open showing you the contents of the image.
+This next step is something that is difficult to take a screenshot of, so the highlight here will be the menu that you must click on to find it. On the top VM toolbar click **Devices** and navigate to the bottom of the dropdown where you see **Insert Guest Additions CD image...** and click on that. It might take a few seconds but a notification will appear that the CD has been mounted and a file explorer will open showing you the contents of the image.
 
 ![Devices](../../installations/imgs/30_devices.png)
 
 The easiest way to install the Guest Additions from the contents of the image is to drag and drop the icon into the terminal. You are looking specifically for `VBoxLinuxAdditions.run`, and you want to click and hold and drag the icon onto your open terminal.
 
-First let us clear our terminal output to make it cleaner by typing `clear` and pressing enter. Once it has been cleared type `sudo` with a space after it because we need it for administrative privileges. Then drag and drop the icon into the terminal.
+First let us clear our terminal output to make it cleaner by typing `clear` and pressing enter. Once it has been cleared type `sudo` with a space after it because we need it for administrative privileges. Do *not* hit enter yet. Then drag and drop the icon into the terminal. Once your terminal has the path to the file, click back to your terminal, away from the file explorer.
 
 Behold the mystical three-part instructional images.
 
-Press enter and type your password if it is required to continue.
+Press enter on your terminal and type your password if it is required to continue.
 
 ![Guest Additions Drag and Drop Part 1](../../installations/imgs/31_drag_and_drop_part_1.png)
 
