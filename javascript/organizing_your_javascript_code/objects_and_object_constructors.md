@@ -1,108 +1,25 @@
 ### Introduction
 
-In our JavaScript fundamentals course, you should have learned the [basics of using objects](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/fundamentals-part-5) to store and retrieve data. Let's start with a little refresher.
-
-There are multiple ways to define objects but in most cases, it is best to use the **object literal** syntax as follows:
-
-```javascript
-const myObject = {
-  property: 'Value!',
-  otherProperty: 77,
-  "obnoxious property": function() {
-    // do stuff!
-  }
-};
-```
-
-There are also 2 ways to get information out of an object: dot notation and bracket notation.
-
-```javascript
-// dot notation
-myObject.property; // 'Value!'
-
-// bracket notation
-myObject["obnoxious property"]; // [Function]
-```
-
-Which method you use will depend on context. Dot notation is cleaner and is usually preferred, but there are plenty of circumstances when it is not possible to use it. For example, `myObject."obnoxious property"` won't work because that property is a string with a space in it. Likewise, you cannot use variables in dot notation:
-
-```javascript
-const variable = 'property';
-
-myObject.variable; // this gives us 'undefined' because it's looking for a property named 'variable' in our object
-
-myObject[variable]; // this is equivalent to myObject['property'] and returns 'Value!'
-```
-
-If you are feeling rusty on using objects, now might be a good time to go back and review the content in our [object basics lesson](https://www.theodinproject.com/lessons/foundations-object-basics) from our JavaScript Basics course.
+Now that you've got a basic understanding of *why* and *how* you might use objects to organize data and functionality, it's important to learn some basic strategies for creating duplicates (often called **instances**) of objects, and using existing types of objects as a base for creating new ones through **inheritance**.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
+- How the `this` keyword behaves in different situations.
 - How to write an object constructor and instantiate the object.
 - What a prototype is and how it can be used.
 - Prototypal inheritance.
 - Basic do's and don'ts of prototypal inheritance.
-- The `this` keyword.
-
-### Objects as a design pattern
-
-One of the simplest ways you can begin to organize your code is by grouping things into objects. Take these examples from a 'tic tac toe' game:
-
-```javascript
-// example one
-const playerOneName = "tim";
-const playerTwoName = "jenn";
-const playerOneMarker = "X";
-const playerTwoMarker = "O";
-
-// example two
-const playerOne = {
-  name: "tim",
-  marker: "X"
-};
-
-const playerTwo = {
-  name: "jenn",
-  marker: "O"
-};
-```
-
-At first glance, the first doesn't seem so bad... and it actually takes fewer lines to write than the example using objects, but the benefits of the second approach are huge! Let me demonstrate:
-
-```javascript
-function printName(player) {
-  console.log(player.name);
-}
-```
-
-This is something that you just could NOT do with the example one setup. Instead, every time you wanted to print a specific player's name, you would have to remember the correct variable name and then manually `console.log` it:
-
-```javascript
-console.log(playerOneName);
-console.log(playerTwoName);
-```
-
-Again, this isn't *that* bad... but what if you *don't know* which player's name you want to print?
-
-```javascript
-function gameOver(winningPlayer){
-  console.log("Congratulations!");
-  console.log(winningPlayer.name + " is the winner!");
-}
-```
-
-Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of an item's name, price, description and other things is the only way to go. Unfortunately, in that type of situation, manually typing out the contents of our objects is not feasible either. We need a cleaner way to create our objects, which brings us to...
 
 ### Object constructors
 
-When you have a specific type of object that you need to duplicate like our player or inventory items, a better way to create them is using an object constructor, which is just a regular function that by convention is named with an uppercase initial letter. It looks like this:
+Manually typing out the contents of all of our objects with object literals is not always feasible. When you have a specific type of object that you need to make multiple of, a better way to create them is using an object constructor, which is really just a function:
 
 ```javascript
 function Player(name, marker) {
-  this.name = name;
-  this.marker = marker;
+  this.name = name;
+  this.marker = marker;
 }
 ```
 
@@ -117,11 +34,11 @@ Just like with objects created using the Object Literal method, you can add func
 
 ```javascript
 function Player(name, marker) {
-  this.name = name;
-  this.marker = marker;
-  this.sayName = function() {
-    console.log(this.name)
-  };
+  this.name = name;
+  this.marker = marker;
+  this.sayName = function() {
+    console.log(this.name);
+  };
 }
 
 const player1 = new Player('steve', 'X');
@@ -141,11 +58,11 @@ function Player(name, marker) {
   if (!new.target) {
     throw Error("You must use the 'new' operator to call the constructor");
   }
-  this.name = name;
-  this.marker = marker;
-  this.sayName = function() {
-    console.log(this.name)
-  };
+  this.name = name;
+  this.marker = marker;
+  this.sayName = function() {
+    console.log(this.name);
+  };
 }
 ```
 
@@ -210,7 +127,7 @@ The last sub-item needs a little more explanation. What does defining 'on the pr
 
 ```javascript
 Player.prototype.sayHello = function() {
-   console.log("Hello, I'm a player!");
+  console.log("Hello, I'm a player!");
 };
 
 player1.sayHello(); // logs "Hello, I'm a player!"
@@ -294,12 +211,12 @@ function Person(name) {
 }
 
 Person.prototype.sayName = function() {
-  console.log(`Hello, I'm ${this.name}!`);
+  console.log(`Hello, I'm ${this.name}!`);
 };
 
 function Player(name, marker) {
   this.name = name;
-  this.marker = marker;
+  this.marker = marker;
 }
 
 Player.prototype.getMarker = function() {
@@ -342,12 +259,12 @@ function Person(name) {
 }
 
 Person.prototype.sayName = function() {
-  console.log(`Hello, I'm ${this.name}!`);
+  console.log(`Hello, I'm ${this.name}!`);
 };
 
 function Player(name, marker) {
   this.name = name;
-  this.marker = marker;
+  this.marker = marker;
 }
 
 // Don't do this!
@@ -355,8 +272,8 @@ function Player(name, marker) {
 Player.prototype = Person.prototype;
 
 function Enemy(name) {
-  this.name = name;
-  this.marker = '^';
+  this.name = name;
+  this.marker = '^';
 }
 
 // Not again!
