@@ -214,27 +214,27 @@ JavaScript does not actually have the concept of real private properties for obj
 
 ### Objects as machines
 
-Sometimes, you may want to create objects that embody complex concepts rather actual, physical items - similar to the RPS game above. Objects can be used to represent almost anything you can think of, and it's impossible to give a comprehensive list of examples. However, a few examples might be:
+As we've just seen, we can use objects to represent not just physical things but conceptual things too, such as the game of Rock Paper Scissors. Objects can be used to represent almost anything you can think of. It'll be impossible to give a comprehensive list of examples, but some uses include:
 
-- An object that manages other objects, such as an "inventory" object that contains a list of items, and actions that can be done with those items.
-- An object that can listen for events that happen, and respond appropriately (think of `.addEventListener` on DOM elements)
-- A "Debt" object that keeps track of a debt owed, how much has been paid, and how much of the debt is remaining.
+- An object that manages other objects, such as an "inventory" object that contains item objects in an array, and methods that can be done to interact with that array of items
+- An object that can listen for events that happen and respond appropriately (think of `.addEventListener` on DOM elements)
+- An object that manages all things relating to the DOM, by setting event listeners that call other objects' methods, and displaying data from other objects on the web page.
 
-You may have trouble figuring out what public interface of these objects might contain at first. These sorts of things come with experience, and concepts taught in later lessons can help as well. One way you might conceptualize these objects, though, might be to imagine them as little 'machines' you're making out of code.
+You may have trouble figuring out what these kinds of objects might contain at first, but these things come with experience, especially with later learning. One way you might conceptualize these objects though, might be to imagine them as little "machines" you're making out of code.
 
-The properties of the machine could be thought of displays that might show information such as:
+The properties of the machine could be thought as if they were displays that might show information such as:
 
-- A list of the items you've collected, the total amount of items you can carry, and how much you're currently carrying
+- A list of the items you've collected and the maximum number of items you can carry
 - A list of functions that are listening for an event
-- The person who owes a particular debt, and the original amount owed.
+- The DOM elements for the buttons for interaction, and elements for displaying data
 
 The methods of your machine might be akin to buttons and such that make the machinde *do* a specific thing, such as:
 
-- Remove an item you own from a list, add a new item, upgrade an item, craft a new item
-- Fire all the functions that are listening to a 'click' event, or add a new function to listen to the 'click' event
-- Pay an amount of money towards a debt, and determine how much more money is owed on a debt
+- Remove an item you own from a list and add new items
+- Fire all the functions that are listening to a "click" event, or add a new function to listen to the "click" event
+- Read data from somewhere else and set the `.textContent` of certain DOM elements
 
-Again, objects can be used to represent almost anything you can think of, the limit is your imagination!
+Again, objects can be used to represent almost anything you can think of. The limit is your imagination!
 
 ### Assignment
 
