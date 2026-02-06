@@ -94,36 +94,40 @@ This means we're not limited to storing data in objects, we can store logic as w
 
 Nearly *anything* you can think about can be described as an object. To do so, all you have to do is ask yourself is "What properties (physical or conceptual) does my thing have?", and "How can I interact with it?". The properties or attributes of a *thing* are expressed as properties, and the ways you can interact with that thing are expressed as methods.
 
-Let's take an example of some *thing* - we'll choose a lightbulb. A lightbulb can have a color, and it can be in either an "on" state, or an "off" state. These might be expressed as properties of a lightbulb object:
+Let's take an example of some *thing* - we'll choose a car. A car can have a make, model, registration year, color and price. These might be expressed as properties of an object:
 
 ```javascript
-const lightbulb = {
-  color: "cool white", // this lightbulb is white
-  isLit: false, // and is currently "off"
+const car = {
+  make: "Volkswagen",
+  model: "Golf",
+  year: 2026,
+  color: "blue",
+  priceUSD: 40000,
 };
 ```
 
-You may want to have the ability to switch a lightbulb from its unlit state to its lit state, or vice-versa. To do that, you might add a method.
-
-<span id="this-keyword"></span>The easiest way to get started creating methods to interact with your objects might be combining object literal syntax with JavaScript's `this` keyword. The `this` keyword is used to refer to the object a particular method is called from.
+You may want to have the ability to apply a discount to the car, or get a summary of all of the details in one go. For this, may want to use methods. <span id="this-keyword"></span>The easiest way to get started creating methods to interact with your objects might be combining object literal syntax with JavaScript's `this` keyword. The `this` keyword is used to refer to the object a particular method is called from.
 
 ```javascript
-const lightbulb = {
-  color: "cool white",
-  isLit: false,
+const car = {
+  make: "Volkswagen",
+  model: "Golf",
+  year: 2026,
+  color: "blue",
+  priceUSD: 40000,
 
-  // a method is simply a function assigned to a property
-  switchOn: function() {
-    this.isLit = true;
+  // a method is just a function assigned to a property
+  applyDiscount: function(discountPercentage) {
+    const multiplier = 1 - discountPercentage / 100;
+    this.priceUSD *= multipler;
   },
-  // shorthand for adding a method to an object literal
-  switchOff() {
-    this.isLit = false;
+  // shorthand way to add a method to an object literal
+  getSummary() {
+    return `${this.year} ${this.make} ${this.model} in ${this.color}, priced at $${priceUSD} (USD).`;
   },
+
+  // ...any other methods...
 };
-
-lightbulb.switchOn();
-console.log(lightbulb.isLit); // true - we switched it on
 ```
 
 <div class="lesson-note lesson-note--warning" markdown="1">
@@ -134,7 +138,7 @@ The `this` keyword behaves differently inside arrow functions compared to tradit
 
 </div>
 
-These methods use the `this` keyword to refer to the object they get called from (`lightbulb`). The `this` keyword can be used to read and assign properties of an object in exactly the same way you would for any other variable that points to an object.
+These methods use the `this` keyword to refer to the object they get called from (`car`). The `this` keyword can be used to read and assign properties of an object in exactly the same way you would for any other variable that points to an object, and we use methods just the same as we might use a function - creating reusable code under an intuitive name. Much nicer than manually writing the logic out each and every time we want to do some of those things.
 
 #### Objects for more abstract concepts
 
