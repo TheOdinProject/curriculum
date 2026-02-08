@@ -263,7 +263,8 @@ Oftentimes, you do not need a factory to produce multiple objects - instead, you
 // This is a function expression
 () => console.log("foo");
 
-// This is now an IIFE! Though not particularly useful, of course...
+// The function expression is now an IIFE!
+// Although this one is not particularly useful of course
 (() => console.log("foo"))();
 ```
 
@@ -280,29 +281,41 @@ ECMAScript 6 (released in 2015) introduced a new JavaScript feature called "modu
 A more helpful use of IIFEs is the pattern of wrapping "private" code inside an IIFE: the module pattern. This is often done with factory functions:
 
 ```javascript
-const calculator = (function () {
-  const add = (a, b) => a + b;
-  const sub = (a, b) => a - b;
-  const mul = (a, b) => a * b;
-  const div = (a, b) => a / b;
+const calculator = (() => {
+  let lastResult;
 
-  return { add, sub, mul, div };
+  const add = (a, b) => {
+    lastResult = a + b;
+    return lastResult;
+  };
+  const subtract = (a, b) => {
+    lastResult = a - b;
+    return lastResult;
+  };
+  const multiply = (a, b) => {
+    lastResult = a * b;
+    return lastResult;
+  };
+  const divide = (a, b) => {
+    lastResult = a / b;
+    return lastResult;
+  };
+  const getLastResult = () => lastResult;
+
+  return { add, subtract, multiply, divide, getLastResult };
 })();
 
-calculator.add(3, 5); // 8
-calculator.sub(6, 2); // 4
-calculator.mul(14, 5534); // 77476
+console.log(calculator.add(3, 5)); // 8
+console.log(calculator.subtract(6, 2)); // 4
+console.log(calculator.getLastResult()); // 4
+console.log(calculator.multiply(14, 5534)); // 77476
 ```
 
-In this example, we have a factory function creating some basic operations that we need only once. We can wrap it in parentheses and immediately call it by adding `()` - returning the result object that we store in `calculator`. In this way we can write code, wrapping away things that we do not need as private variables and functions inside our factory function and while they are tucked inside of our module, we can use the returned variables and functions outside the factory, as necessary.
+Here, we have a calculator with four basic arithmetic methods and a method to read the most recent calculation's result. We only want the one calculator object but we still use a factory function! Why not just use an object literal directly?
 
-#### Encapsulating with the module pattern
+All object properties are public whether we like it or not. If we just made a calculator object literal, we'd have a `.lastResult` property that's public, meaning it allows the possibility of reassigning it directly (e.g. `calculator.lastResult = 111100105110`). We want to keep `lastResult` private and expose the value publicly for reading only. Reassignment should only happen internally on our terms. The only way we can truly hide the `lastResult` variable from anything that doesn't actually need it would be to put it inside a function, away from the outside scope, then create the object within the same scope and return it. A factory function... that we only need to call once!
 
-At first glance, this does not seem particularly useful. If we have some code that we use only once, why not write it in the main section of our JavaScript file itself? After all, the power of factory functions lies in being, well, a factory to make multiple objects, right?
-
-This is where we encounter the word **encapsulation** - bundling data, code, or something into a single unit, with selective access to the things inside that unit itself. While it sounds general, this is what happens when we wrap, or encapsulate our code into modules - we don't expose everything to the body of our program itself. This encapsulation leads to an effect called **namespacing**. Namespacing is a technique that is used to avoid naming collisions in our programs.
-
-Take the calculator example into consideration. It's very easy to imagine a scenario where you can accidentally create multiple functions with the name `add`. What does `add` do - does it add two numbers? Strings? Does it take its input directly from the DOM and display the result? What would you name the functions that do these things? Instead, we can easily encapsulate them inside a module called `calculator` which generates an object with that name, allowing us to explicitly call `calculator.add(a, b)` or `calculator.sub(a, b)`.
+This is where we encounter the word **encapsulation**: bundling data, code, or something into a single unit, with selective access to the things inside that unit itself. While it sounds general, this is what happens when we wrap (or encapsulate) our code into modules. We don't expose everything to the body of our program itself, only what is needed for other things to interact with whatever's inside the "module".
 
 #### Why the IIFE?
 
@@ -331,7 +344,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How can we implement prototypal inheritance with factory functions?](#prototypal-inheritance-with-factories)
 - [How does the module pattern work?](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
 - [What does IIFE stand for and what are they?](#iifes)
-- [What is the concept of namespacing and how do factory functions help with encapsulation?](#encapsulating-with-the-module-pattern)
+- [How do factory functions help with encapsulation?](#using-iifes-to-implement-the-module-pattern)
 
 ### Additional resources
 
