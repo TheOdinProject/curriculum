@@ -15,12 +15,11 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Debugging with vscode-rdbg
 
-#### Step 1: Installation
+#### Installing the VS Code debugger
 
-1. Go to your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace) and install the [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) extension. This is an LSP (Language Server Protocol) which gives you autocompletion as you type ruby code in your editor along with some other useful features.
+1. Go to your [VSCode Extensions](https://code.visualstudio.com/docs/editor/extension-marketplace), and install the [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp) extension. This is an LSP (Language Server Protocol) that gives you autocompletion as you type ruby code in your editor along with some other useful features.
 
-1. Before installing `vscode-rdbg` extension let's fulfill its requirements first.
-You need to install the latest `debug` gem and `rdbg` command should be in `$PATH` environment variable. A command in `$PATH` can be called from any directory.
+1. Before installing the `vscode-rdbg` extension, we need to fulfill a couple of requirements. You need to install the latest `debug` gem, and the `rdbg` command should be in your `$PATH` environment variable. A command that is in `$PATH` can be called from any directory.
 
    ```shell
    gem install debug
@@ -35,29 +34,26 @@ You need to install the latest `debug` gem and `rdbg` command should be in `$PAT
 
 1. Now install the [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) extension.
 
-#### Step 2: Setup
+#### Configuring VS Code settings for debugging
 
-1. Set version manager.
+We need to tell VS Code what version manager we're using so it runs our new tools in the correct way.
 
-   1. Open VScode.
-   1. Press <kbd>Ctrl</kbd> + <kbd>,</kbd> to open settings.
-   1. Search "rdbg ruby version manager".
-   1. Set it to `rbenv` which we made you install in [installing ruby lesson](https://www.theodinproject.com/lessons/ruby-installing-ruby#step-21-install-rbenv). It's your version manager for ruby: [rbenv documentation](https://github.com/rbenv/rbenv).
-   1. Search "ruby lsp version manager"
-   1. Click on the 'Edit in `settings.json`' link
-   1. Edit the identifier, which by default is set to "auto", to "rbenv"
+1. Open VSCode.
+1. Press <kbd>Ctrl</kbd> + <kbd>,</kbd> to open settings.
+1. Search "rdbg ruby version manager".
+1. Set it to `rbenv`, which we made you install in the [installing ruby lesson](https://www.theodinproject.com/lessons/ruby-installing-ruby#step-21-install-rbenv). It's your version manager for Ruby: [rbenv documentation](https://github.com/rbenv/rbenv).
+1. Search "ruby lsp version manager".
+1. Click on the 'Edit in `settings.json`' link.
+1. Change the identifier to `"rbenv"`. It should be set to `"auto"` by default.
+1. Confirm settings.json have these two configurations set correctly:
 
-   1. Confirm settings.json have these two configurations set correctly:
-
-      ```json
-      {
-        "rdbg.rubyVersionManager": "rbenv",
-        "rubyLsp.rubyVersionManager": {
-            "identifier": "rbenv"
-        },
-      }
-      ```
-
+   ```json
+   {
+     "rdbg.rubyVersionManager": "rbenv",
+     "rubyLsp.rubyVersionManager": {
+         "identifier": "rbenv"
+     },
+   }
 #### Step 3: Get some bugs
 
 Let's Add Some code files for demo:
