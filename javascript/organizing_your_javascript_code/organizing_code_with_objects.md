@@ -258,4 +258,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What are two ways you can use objects to organize code?](#objects-as-a-data-structure)
 - [What is a method?](#objects-as-a-design-pattern)
-- [What is the `this` keyword used for?](#this-keyword)
+- [In object methods, what is the `this` keyword used for?](#this-keyword)
