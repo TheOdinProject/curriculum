@@ -73,7 +73,9 @@ const playerTwo = {
 };
 ```
 
-At first glance, the first doesn't seem so bad... but the benefits of the second approach are huge! Grouping related data together into objects allows you to pass the data around easily. For example:
+At first glance, the first doesn't seem so bad... but the benefits of the second approach are huge! Since the values are assigned to keys in objects, instead of a bunch of long and isolated variable names, we can use briefer variable names that are arguably easier to read at a glance, where the object name helps give context. Normally, `name` and `marker` would not be reusable in the same scope, but via "namespacing", we can still use them as part of `playerOne.name` or `playerTwo.marker` etc. Folks on the Ruby track may be familiar with doing something similar via Ruby's modules; in JavaScript, it's very normal to use objects for this purpose.
+
+But naming isn't the only benefit. Grouping related data together into objects allows you to pass all the data around more easily. For example:
 
 ```javascript
 function gameOver(winningPlayer) {
