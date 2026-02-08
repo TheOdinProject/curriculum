@@ -100,11 +100,11 @@ One of the key arguments is how they *look* like regular JavaScript functions, e
 
 Yet another issue stems from misusing `instanceof`. In other programming languages, the keyword is a reliable way to know the code with which an object was made; but in JavaScript, it checks the presence of a constructor's prototype in an object's *entire* prototype chain - which does nothing to confirm if an object was made with that constructor since the constructor's prototype can even be reassigned after the creation of an object.
 
-Because of that, constructors have become unpopular in favor of a pattern that is similar but addresses a ton of these problems by not relying on those troublesome features: Factory Functions.
+Because of that, some people (not all) disliked using constructors in favor of a pattern that is similar but addresses a ton of these problems by not relying on those troublesome features: Factory Functions.
 
 ### Factory functions 🏭
 
-These fancy-sounding functions work very similar to how constructors did, but with one key difference - they levy the power of closures. Instead of using the `new` keyword to create an object, factory functions set up and return the new object when you call the function. They do not use the prototype, which incurs a performance penalty - but as a general rule, this penalty isn’t significant unless you’re creating thousands of objects. Let's take a basic example to compare them to constructor functions.
+These fancy-sounding functions work very similar to how constructors did, but with one key difference - they levy the power of closures. Instead of using the `new` keyword to create an object, factory functions set up and return the new object when you call the function. They do not use the prototype, which does incur a performance penalty, but as a general rule, this penalty isn’t significant unless you’re creating thousands of objects. Let's take a basic example to compare them to constructor functions.
 
 ```javascript
 function User(name) {
