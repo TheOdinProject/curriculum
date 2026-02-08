@@ -260,8 +260,11 @@ function createPlayer(name, level) {
 Oftentimes, you do not need a factory to produce multiple objects - instead, you are using it to wrap sections of code together, hiding the variables and functions that you do not need elsewhere as private. This is easily achievable by wrapping your factory function in parentheses and immediately calling (invoking) it. This immediate function call is commonly referred to as an Immediately Invoked Function Expression (duh) or IIFE in short. IIFEs are quite literally just function expressions that are called immediately:
 
 ```javascript
-// This is an IIFE! Though not particularly useful, of course.
-(() => console.log('foo'))();
+// This is a function expression
+() => console.log("foo");
+
+// This is now an IIFE! Though not particularly useful, of course...
+(() => console.log("foo"))();
 ```
 
 #### Using IIFEs to implement the module pattern
