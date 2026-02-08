@@ -253,7 +253,18 @@ function createPlayer(name, level) {
 }
 ```
 
-### The module pattern: IIFEs
+### The module pattern
+
+#### IIFEs
+
+Oftentimes, you do not need a factory to produce multiple objects - instead, you are using it to wrap sections of code together, hiding the variables and functions that you do not need elsewhere as private. This is easily achievable by wrapping your factory function in parentheses and immediately calling (invoking) it. This immediate function call is commonly referred to as an Immediately Invoked Function Expression (duh) or IIFE in short. IIFEs are quite literally just function expressions that are called immediately:
+
+```javascript
+// This is an IIFE! Though not particularly useful, of course.
+(() => console.log('foo'))();
+```
+
+#### Using IIFEs to implement the module pattern
 
 <div class="lesson-note lesson-note--warning" markdown="1">
 
@@ -262,13 +273,6 @@ function createPlayer(name, level) {
 ECMAScript 6 (released in 2015) introduced a new JavaScript feature called "modules", which are a set of syntax for importing and exporting code between different JavaScript files. For now, we will be talking more generally about the module pattern using IIFEs, which you will still see out in the wild. In a later lesson, we will cover using ES6 modules for similar purposes.
 
 </div>
-
-Oftentimes, you do not need a factory to produce multiple objects - instead, you are using it to wrap sections of code together, hiding the variables and functions that you do not need elsewhere as private. This is easily achievable by wrapping your factory function in parentheses and immediately calling (invoking) it. This immediate function call is commonly referred to as an Immediately Invoked Function Expression (duh) or IIFE in short. IIFEs are quite literally just function expressions that are called immediately:
-
-```javascript
-// This is an IIFE! Though not particularly useful, of course.
-(() => console.log('foo'))();
-```
 
 A more helpful use of IIFEs is the pattern of wrapping "private" code inside an IIFE: the module pattern. This is often done with factory functions:
 
@@ -282,9 +286,9 @@ const calculator = (function () {
   return { add, sub, mul, div };
 })();
 
-calculator.add(3,5); // 8
-calculator.sub(6,2); // 4
-calculator.mul(14,5534); // 77476
+calculator.add(3, 5); // 8
+calculator.sub(6, 2); // 4
+calculator.mul(14, 5534); // 77476
 ```
 
 In this example, we have a factory function creating some basic operations that we need only once. We can wrap it in parentheses and immediately call it by adding `()` - returning the result object that we store in `calculator`. In this way we can write code, wrapping away things that we do not need as private variables and functions inside our factory function and while they are tucked inside of our module, we can use the returned variables and functions outside the factory, as necessary.
@@ -323,7 +327,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are private variables in factory functions and how can they be useful?](#private-variables-and-functions)
 - [How can we implement prototypal inheritance with factory functions?](#prototypal-inheritance-with-factories)
 - [How does the module pattern work?](https://dev.to/tomekbuszewski/module-pattern-in-javascript-56jm)
-- [What does IIFE stand for and what are they?](#the-module-pattern-iifes)
+- [What does IIFE stand for and what are they?](#iifes)
 - [What is the concept of namespacing and how do factory functions help with encapsulation?](#encapsulating-with-the-module-pattern)
 
 ### Additional resources
