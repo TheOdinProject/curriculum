@@ -246,35 +246,9 @@ Again, objects can be used to represent almost anything you can think of. The li
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Check out [DevSage's video explanation of the `this` keyword](https://www.youtube.com/watch?v=cwChC4BQF0Q) that gives a different perspective on how its context changes, as well as scenarios in which `this` behaves unexpectedly. Don't worry too much about the part on constructor functions at the end, as they will be covered in another lesson.
+No assignment for this particular lesson! While JavaScript is a very flexible language that involves concepts from many different programming paradigms, a lot of it is built around "Object-oriented programming" (OOP).
 
-1. Try modelling the behavior of a piggy bank as an object:
-   1. You should be able to interact with the object via a method that allows you to deposit coins.
-      - For now, use a string to represent the name of a coin. Ex. `piggyBank.deposit('penny')`
-      - You should keep the coin around by storing it in some kind of list.
-   1. The object should also have a property or method that tells you how much money you have saved as a number.
-      - For simplicity, using only the smallest subunit of a given currency is acceptable.
-      - Ex: If there are 5 US quarters in the piggy bank, then the number `125` for '125 cents' is acceptable.
-   1. You should be able to read the list of all coins that are currently in the piggy bank.
-   1. Add a method to the piggy bank object to remove a specific type of coin from the piggy bank if it's available.
-      - Ensure you can still get the correct savings after removing coins!
-   1. Lastly, create a way to remove all the money from the jar and start fresh.
-
-1. Try to model something else as an object! Try to keep it simple, but have fun with it!
-
-#### Extra credit
-
-1. You may have exposed the list that the piggy bank uses to track coins as a public property. Depending on how you implemented the piggy bank, modifying this list without using something like a `deposit` or `withdraw` method on the object could throw some of it's properties out of wack, like the one that tells you the amount of savings you've accrued.
-
-   Additionally, adding an unexpected value to this list by modifying it directly could cause errors within your piggy bank methods. Let's try to ensure that doesn't happen!
-   - Indicate that the list of coins the piggy bank uses is a **private property** of the object.
-   - Create a **public method** that gives the user a *copy* of the list that they can manipulate to their hearts content without breaking the piggy bank object.
-
-1. Try creating a couple 'coin' objects to deposit into the piggy bank instead of using a string.
-   - A coin object might contain properties like the name of the coin, and it's value (preferably in the same unit the piggy bank measures it's savings).
-   - Make sure that your piggy bank object is still able to keep track of savings and remove coins correctly after this change!
-   - After making this change, consider how you are calculating savings for the piggy bank compared to before. Do you prefer working with the objects or the strings more?
-   - Consider how the piggy bank might check for a correct string vs checking for an object with the correct properties when depositing. Which seems easier? Does one seem more flexible than the other?
+While this lesson has touched on the basic ideas behind why we might use objects in the first place, we will explore these concepts much more practically in the coming lessons via a multitude of techniques for creating and using objects.
 
 </div>
 
