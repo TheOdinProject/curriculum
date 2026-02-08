@@ -6,7 +6,7 @@ Now that you've got a basic understanding of *why* and *how* you might use objec
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to write an object constructor and instantiate the object.
+- Instantiating objects using constructors.
 - What a prototype is and how it can be used.
 - Prototypal inheritance.
 - Basic do's and don'ts of prototypal inheritance.

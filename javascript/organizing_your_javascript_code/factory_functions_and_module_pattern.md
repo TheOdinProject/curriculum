@@ -6,14 +6,12 @@ We have discussed object constructors in the previous lesson. However, they are 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Describe the scope of a variable.
-- Explore what closures are.
-- Briefly consider the disadvantages of using constructors.
-- Discuss Factory functions with examples.
-- Discuss Private variables and functions concerning factory functions.
-- Showcase object inheritance with the help of factory functions.
-- Describe what module pattern and IIFEs are.
-- Discuss encapsulation and how the module pattern helps with namespacing.
+- Variable scope.
+- Closures.
+- Factory functions.
+- Private variables.
+- IIFEs and the module pattern.
+- Encapsulation.
 
 ### Scoopfuls of scopes
 
