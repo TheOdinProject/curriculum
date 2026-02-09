@@ -265,7 +265,9 @@ Upon logging in you may not notice anything different, but try to maximize your 
 
 ![Maxmimized VM](../../installations/imgs/34_room_for_activities.png)
 
-You should also have less performance issues overall and should now be ready to move on with the curriculum.
+You should also have less performance issues overall and should now be ready to move on with the curriculum. Don't forget to eject the Guest Additions image by clicking this button here. It doesn't hurt to leave mounted but it's far more tidy to remove it as we do not need it anymore.
+
+![ISO Eject Button](../../installations/imgs/35_iso_eject_button.png)
 
 ### Step 4: Understand your new VM
 
