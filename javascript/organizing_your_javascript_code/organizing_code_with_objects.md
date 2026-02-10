@@ -90,7 +90,7 @@ But what if we aren't making a simple 2-player game? Something more complicated 
 
 ### Objects as a design pattern
 
-The grouping power of objects isn't just useful for organizing data, it's useful for organizing *functionality* as well! Using objects for this purpose is one of the core tenants of Object Oriented Programming (OOP), which is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods). In OOP, computer programs are designed by making them out of objects that interact with one another.
+The grouping power of objects isn't just useful for organizing data, it's useful for organizing *functionality* as well! Using objects for this purpose is one of the core tenets of Object Oriented Programming (OOP), which is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods). In OOP, computer programs are designed by making them out of objects that interact with one another.
 
 This means we're not limited to storing data in objects, we can store logic as well via **methods** (which are just functions that are part of an object), then use those methods to interact with the data.
 
@@ -125,7 +125,7 @@ const car = {
   },
   // shorthand way to add a method to an object literal
   getSummary() {
-    return `${this.year} ${this.make} ${this.model} in ${this.color}, priced at $${priceUSD} (USD).`;
+    return `${this.year} ${this.make} ${this.model} in ${this.color}, priced at $${this.priceUSD} (USD).`;
   },
 
   // ...any other methods...
@@ -234,7 +234,7 @@ The properties of the machine could be thought as if they were displays that mig
 - A list of functions that are listening for an event
 - The DOM elements for the buttons for interaction, and elements for displaying data
 
-The methods of your machine might be akin to buttons and such that make the machinde *do* a specific thing, such as:
+The methods of your machine might be akin to buttons and such that make the machine *do* a specific thing, such as:
 
 - Remove an item you own from a list and add new items
 - Fire all the functions that are listening to a "click" event, or add a new function to listen to the "click" event
