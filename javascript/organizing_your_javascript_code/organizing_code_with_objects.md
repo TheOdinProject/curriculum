@@ -90,11 +90,11 @@ But what if we aren't making a simple 2-player game? Something more complicated 
 
 ### Objects as a design pattern
 
-The grouping power of objects isn't just useful for organizing data, it's useful for organizing *functionality* as well! Using objects for this purpose is one of the core tenants of Object Oriented Programming (OOP), which is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods). In OOP, computer programs are designed by making them out of objects that interact with one another.
+The grouping power of objects isn't just useful for organizing data, it's useful for organizing *functionality* as well! Using objects for this purpose is one of the core tenets of Object Oriented Programming (OOP), which is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods). In OOP, computer programs are designed by making them out of objects that interact with one another.
 
 This means we're not limited to storing data in objects, we can store logic as well via **methods** (which are just functions that are part of an object), then use those methods to interact with the data.
 
-Nearly *anything* you can think about can be described as an object. To do so, all you have to do is ask yourself is "What properties (physical or conceptual) does my thing have?", and "How can I interact with it?". The properties or attributes of a *thing* are expressed as properties, and the ways you can interact with that thing are expressed as methods.
+Nearly *anything* you can think about can be described as an object. To do so, all you have to ask yourself is "What properties (physical or conceptual) does my thing have?", and "How can I interact with it?". The properties or attributes of a *thing* are expressed as properties, and the ways you can interact with that thing are expressed as methods.
 
 Let's take an example of some *thing* - we'll choose a car. A car can have a make, model, registration year, color and price. These might be expressed as properties of an object:
 
@@ -108,7 +108,7 @@ const car = {
 };
 ```
 
-You may want to have the ability to apply a discount to the car, or get a summary of all of the details in one go. For this, may want to use methods. <span id="this-keyword"></span>The easiest way to get started creating methods to interact with your objects might be combining object literal syntax with JavaScript's `this` keyword. The `this` keyword is used to refer to the object a particular method is called from.
+You may want to have the ability to apply a discount to the car, or get a summary of all of the details in one go. For this, you may want to use methods. <span id="this-keyword"></span>The easiest way to get started creating methods to interact with your objects might be combining object literal syntax with JavaScript's `this` keyword. The `this` keyword is used to refer to the object a particular method is called from.
 
 ```javascript
 const car = {
@@ -125,7 +125,7 @@ const car = {
   },
   // shorthand way to add a method to an object literal
   getSummary() {
-    return `${this.year} ${this.make} ${this.model} in ${this.color}, priced at $${priceUSD} (USD).`;
+    return `${this.year} ${this.make} ${this.model} in ${this.color}, priced at $${this.priceUSD} (USD).`;
   },
 
   // ...any other methods...
@@ -234,7 +234,7 @@ The properties of the machine could be thought as if they were displays that mig
 - A list of functions that are listening for an event
 - The DOM elements for the buttons for interaction, and elements for displaying data
 
-The methods of your machine might be akin to buttons and such that make the machinde *do* a specific thing, such as:
+The methods of your machine might be akin to buttons and such that make the machine *do* a specific thing, such as:
 
 - Remove an item you own from a list and add new items
 - Fire all the functions that are listening to a "click" event, or add a new function to listen to the "click" event
