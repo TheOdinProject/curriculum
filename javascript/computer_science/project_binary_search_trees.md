@@ -22,7 +22,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
    If you would like to visualize your binary search tree, here is a `prettyPrint()` function that will `console.log` your tree in a structured format. This function will expect to receive the root of your tree as the value for the node parameter:
 
-  ```javascript
+   ```javascript
    const prettyPrint = (node, prefix = '', isLeft = true) => {
      if (node === null || node === undefined) {
        return;
@@ -32,7 +32,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
      console.log(`${prefix}${isLeft ? '└── ' : '┌── '}${node.data}`);
      prettyPrint(node.left, `${prefix}${isLeft ? '    ' : '│   '}`, true);
    }
-  ```
+   ```
 
    </div>
 
