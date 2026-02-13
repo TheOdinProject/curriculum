@@ -141,17 +141,17 @@ You might be feeling overwhelmed at this point, so let's recap what we've learne
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Hopefully you'll have made use of branches in your workflow since Revisiting Rock Paper Scissors, but whether you have or have not, refresh on [Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
-1. Read the chapter on [Rebasing covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
-1. Read the chapter on [Reset covered by git-scm](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
-
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Reminder: Default Git Branch Name Change
+#### Default Git branch name change
 
 In modern Git setups, the default branch is typically called `main` instead of `master`.
 
 </div>
+
+1. Hopefully you'll have made use of branches in your workflow since Revisiting Rock Paper Scissors, but whether you have or have not, refresh on [Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging).
+1. Read the chapter on [Rebasing covered by git-scm](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) for an even deeper dive into Rebasing.
+1. Read the chapter on [Reset covered by git-scm](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) for a deeper dive into `git reset`.
 
 </div>
 
