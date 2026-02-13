@@ -1,6 +1,6 @@
 ### Introduction
 
-In our JavaScript fundamentals course, you should have learned the [basics of using objects](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/fundamentals-part-5) to store and retrieve data. In this lesson, we'll start with a little refresher, then explore using objects in more detail. Folks on the Ruby track, you'll have a little more experience with some of these concepts already, but this lesson will still be good to go through as JavaScript is a little more flexible with its use of objects.
+In our JavaScript fundamentals course, you should have learned the [basics of using objects](https://www.theodinproject.com/lessons/foundations-object-basics) to store and retrieve data. In this lesson, we'll start with a little refresher, then explore using objects in more detail. Folks on the Ruby track, you'll have a little more experience with some of these concepts already, but this lesson will still be good to go through as JavaScript is a little more flexible with its use of objects.
 
 ### Lesson overview
 
