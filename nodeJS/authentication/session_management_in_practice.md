@@ -104,9 +104,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What issues might stateless authentication have regarding invalidation?](#invalidation)
 - [What issue can we face with session cookies when our client and server are hosted on separate domains?](#cross-site-authentication)
 - [What is one way we can solve our third-party session cookie dilemma?](#reverse-proxies)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
