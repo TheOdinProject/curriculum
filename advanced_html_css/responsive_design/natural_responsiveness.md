@@ -89,4 +89,4 @@ The following questions are an opportunity to reflect on key topics in this less
 - [When should you avoid using fixed width?](#fixed-width)
 - [When should you avoid using fixed height?](#fixed-height)
 - [In what situations might it be appropriate to use a fixed height or width?](#when-fixed-widths-are-appropriate)
-- [When might avoiding percentages help with responsiveness?](https://web.archive.org/web/20251116005914/https://codyloyd.com/2021/percentages/)
+- [When might percentages interfere with responsiveness?](https://web.archive.org/web/20251116005914/https://codyloyd.com/2021/percentages/)
