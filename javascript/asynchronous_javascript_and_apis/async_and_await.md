@@ -195,7 +195,7 @@ Since `response` is still the same object we have passed to the `.then()` block 
 </script>
 ```
 
-We also need to add a `try/catch` block so that if any errors are thrown, they are caught properly and we would be able to know what exactly is wrong with our function call.
+For error handling, instead of chaining a `.catch()` method, we would need a `try...catch` statement. We wrap the normal code in a `try` block then use a `catch` block for the error handling part.
 
 ```javascript
 <script>
