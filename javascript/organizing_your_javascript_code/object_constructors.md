@@ -1,151 +1,70 @@
 ### Introduction
 
-In our JavaScript fundamentals course, you should have learned the [basics of using objects](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/fundamentals-part-5) to store and retrieve data. Let's start with a little refresher.
-
-There are multiple ways to define objects but in most cases, it is best to use the **object literal** syntax as follows:
-
-```javascript
-const myObject = {
-  property: 'Value!',
-  otherProperty: 77,
-  "obnoxious property": function() {
-    // do stuff!
-  }
-};
-```
-
-There are also 2 ways to get information out of an object: dot notation and bracket notation.
-
-```javascript
-// dot notation
-myObject.property; // 'Value!'
-
-// bracket notation
-myObject["obnoxious property"]; // [Function]
-```
-
-Which method you use will depend on context. Dot notation is cleaner and is usually preferred, but there are plenty of circumstances when it is not possible to use it. For example, `myObject."obnoxious property"` won't work because that property is a string with a space in it. Likewise, you cannot use variables in dot notation:
-
-```javascript
-const variable = 'property';
-
-myObject.variable; // this gives us 'undefined' because it's looking for a property named 'variable' in our object
-
-myObject[variable]; // this is equivalent to myObject['property'] and returns 'Value!'
-```
-
-If you are feeling rusty on using objects, now might be a good time to go back and review the content in our [object basics lesson](https://www.theodinproject.com/lessons/foundations-object-basics) from our JavaScript Basics course.
+Now that you've got a basic understanding of *why* and *how* you might use objects to organize data and functionality, it's important to learn some basic strategies for creating duplicates (often called **instances**) of objects, and using existing types of objects as a base for creating new ones through **inheritance**.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- How to write an object constructor and instantiate the object.
+- Instantiating objects using constructors.
 - What a prototype is and how it can be used.
 - Prototypal inheritance.
 - Basic do's and don'ts of prototypal inheritance.
-- The `this` keyword.
-
-### Objects as a design pattern
-
-One of the simplest ways you can begin to organize your code is by grouping things into objects. Take these examples from a 'tic tac toe' game:
-
-```javascript
-// example one
-const playerOneName = "tim";
-const playerTwoName = "jenn";
-const playerOneMarker = "X";
-const playerTwoMarker = "O";
-
-// example two
-const playerOne = {
-  name: "tim",
-  marker: "X"
-};
-
-const playerTwo = {
-  name: "jenn",
-  marker: "O"
-};
-```
-
-At first glance, the first doesn't seem so bad... and it actually takes fewer lines to write than the example using objects, but the benefits of the second approach are huge! Let me demonstrate:
-
-```javascript
-function printName(player) {
-  console.log(player.name);
-}
-```
-
-This is something that you just could NOT do with the example one setup. Instead, every time you wanted to print a specific player's name, you would have to remember the correct variable name and then manually `console.log` it:
-
-```javascript
-console.log(playerOneName);
-console.log(playerTwoName);
-```
-
-Again, this isn't *that* bad... but what if you *don't know* which player's name you want to print?
-
-```javascript
-function gameOver(winningPlayer){
-  console.log("Congratulations!");
-  console.log(winningPlayer.name + " is the winner!");
-}
-```
-
-Or, what if we aren't making a 2 player game, but something more complicated such as an online shopping site with a large inventory? In that case, using objects to keep track of an item's name, price, description and other things is the only way to go. Unfortunately, in that type of situation, manually typing out the contents of our objects is not feasible either. We need a cleaner way to create our objects, which brings us to...
+- How the `this` keyword behaves in different situations.
 
 ### Object constructors
 
-When you have a specific type of object that you need to duplicate like our player or inventory items, a better way to create them is using an object constructor, which is just a regular function that by convention is named with an uppercase initial letter. It looks like this:
+Manually typing out the contents of all of our objects with object literals is not always feasible. When you have a specific type of object that you need to make multiple of, a better way to create them is using an object constructor, which is really just a function:
 
 ```javascript
 function Player(name, marker) {
-  this.name = name;
-  this.marker = marker;
+  this.name = name;
+  this.marker = marker;
 }
 ```
 
-and you can use it by calling the function with the keyword `new`.
+The only difference is that you use it by calling the function with the keyword `new`:
 
 ```javascript
-const player = new Player('steve', 'X');
-console.log(player.name); // 'steve'
+const player = new Player("steve", "X");
+console.log(player.name); // "steve"
 ```
 
-Just like with objects created using the Object Literal method, you can add functions to the object:
+This is not the same as calling `Player("steve", "X")` (without the `new` keyword). <span id="new-keyword">When we call a function with `new`, it creates a new object, makes `this` inside the function refer to that object, and makes that object inherit from the function's `.prototype` property (more on that later). The new object is then returned (even though we don't specify a `return` value in the constructor function).</span>
+
+Just like with objects created using the object literal method, you can add functions to the object:
 
 ```javascript
 function Player(name, marker) {
-  this.name = name;
-  this.marker = marker;
-  this.sayName = function() {
-    console.log(this.name)
-  };
+  this.name = name;
+  this.marker = marker;
+  this.sayName = function() {
+    console.log(this.name);
+  };
 }
 
-const player1 = new Player('steve', 'X');
-const player2 = new Player('also steve', 'O');
-player1.sayName(); // logs 'steve'
-player2.sayName(); // logs 'also steve'
+const player1 = new Player("steve", "X");
+const player2 = new Player("also steve", "O");
+player1.sayName(); // logs "steve"
+player2.sayName(); // logs "also steve"
 ```
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
 
 #### Safeguarding constructors
 
-Note that, as constructors are just regular functions, they could be called without using `new` by mistake, which would cause hard-to-track errors. To prevent that, you can use the `new.target` meta-property like this:
+Since constructors can be called without using `new` by mistake, which would cause hard-to-track errors as it won't do all the new object and `this` binding stuff, we should safeguard them. You can use the `new.target` meta-property like this, which will throw an error if `Player` is called without `new`:
 
 ```javascript
 function Player(name, marker) {
   if (!new.target) {
     throw Error("You must use the 'new' operator to call the constructor");
   }
-  this.name = name;
-  this.marker = marker;
-  this.sayName = function() {
-    console.log(this.name)
-  };
+  this.name = name;
+  this.marker = marker;
+  this.sayName = function() {
+    console.log(this.name);
+  };
 }
 ```
 
@@ -155,17 +74,19 @@ function Player(name, marker) {
 
 Write a constructor for making "Book" objects. We will revisit this in the next project. Your book objects should have the book's `title`, `author`, the number of `pages`, and whether or not you have `read` the book.
 
-Put a function into the constructor that can report the book info like so:
+Put a function `info()` into the constructor that can report the book info like so:
 
 ```javascript
-theHobbit.info(); // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
+console.log(theHobbit.info()); // "The Hobbit by J.R.R. Tolkien, 295 pages, not read yet"
 ```
 
-Note: It is almost *always* best to `return` things rather than putting `console.log()` directly into the function. In this case, return the `info` string and log it after the function has been called:
+<div class="lesson-note lesson-note--tip" markdown="1">
 
-```javascript
-console.log(theHobbit.info());
-```
+#### console.log vs return
+
+We use examples of functions that call `console.log()` for demonstration, but instead of making functions directly log things, it's generally more sensible to make them `return` values. That way, you can pass the values wherever you wish without being tied to whatever that function does; you may not always want to log the value.
+
+</div>
 
 ### The prototype
 
@@ -210,7 +131,7 @@ The last sub-item needs a little more explanation. What does defining 'on the pr
 
 ```javascript
 Player.prototype.sayHello = function() {
-   console.log("Hello, I'm a player!");
+  console.log("Hello, I'm a player!");
 };
 
 player1.sayHello(); // logs "Hello, I'm a player!"
@@ -261,14 +182,14 @@ What's this `.valueOf` function, and where did it come from if we did not define
 How do we know that this `.valueOf` function is defined on `Object.prototype`? We make use of another function called `.hasOwnProperty`:
 
 ```javascript
-player1.hasOwnProperty('valueOf'); // false
-Object.prototype.hasOwnProperty('valueOf'); // true
+player1.hasOwnProperty("valueOf"); // false
+Object.prototype.hasOwnProperty("valueOf"); // true
 ```
 
 Now where did this [`.hasOwnProperty` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty) come from? A quick check helps:
 
 ```javascript
-Object.prototype.hasOwnProperty('hasOwnProperty'); // true
+Object.prototype.hasOwnProperty("hasOwnProperty"); // true
 ```
 
 Essentially, this is how JavaScript makes use of prototypes. An object inherits from its `[[Prototype]]` object which in turn inherits from its own `[[Prototype]]` etc., thus forming a chain. This kind of inheritance using prototypes is hence named as Prototypal inheritance. JavaScript figures out which properties exist (or do not exist) on the object and starts traversing the chain to find the property or function, like so:
@@ -294,16 +215,16 @@ function Person(name) {
 }
 
 Person.prototype.sayName = function() {
-  console.log(`Hello, I'm ${this.name}!`);
+  console.log(`Hello, I'm ${this.name}!`);
 };
 
 function Player(name, marker) {
   this.name = name;
-  this.marker = marker;
+  this.marker = marker;
 }
 
 Player.prototype.getMarker = function() {
-  console.log(`My marker is '${this.marker}'`);
+  console.log(`My marker is "${this.marker}"`);
 };
 
 Object.getPrototypeOf(Player.prototype); // returns Object.prototype
@@ -312,14 +233,14 @@ Object.getPrototypeOf(Player.prototype); // returns Object.prototype
 Object.setPrototypeOf(Player.prototype, Person.prototype);
 Object.getPrototypeOf(Player.prototype); // returns Person.prototype
 
-const player1 = new Player('steve', 'X');
-const player2 = new Player('also steve', 'O');
+const player1 = new Player("steve", "X");
+const player2 = new Player("also steve", "O");
 
 player1.sayName(); // Hello, I'm steve!
 player2.sayName(); // Hello, I'm also steve!
 
-player1.getMarker(); // My marker is 'X'
-player2.getMarker(); // My marker is 'O'
+player1.getMarker(); // My marker is "X"
+player2.getMarker(); // My marker is "O"
 ```
 
 From the code, we can see that we've defined a `Person` from whom a `Player` inherits properties and functions, and that the created `Player` objects are able to access both the `.sayName` and the `.getMarker` functions, in spite of them being defined on two separate `.prototype` objects! This is enabled by the use of the `Object.setPrototypeOf()` function. It takes two arguments - the first is the one which inherits and the second argument is the one which you want the first argument to inherit from. This ensures that the created `Player` objects are able to access the `.sayName` and `.getMarker` functions through their prototype chain.
@@ -342,12 +263,12 @@ function Person(name) {
 }
 
 Person.prototype.sayName = function() {
-  console.log(`Hello, I'm ${this.name}!`);
+  console.log(`Hello, I'm ${this.name}!`);
 };
 
 function Player(name, marker) {
   this.name = name;
-  this.marker = marker;
+  this.marker = marker;
 }
 
 // Don't do this!
@@ -355,8 +276,8 @@ function Player(name, marker) {
 Player.prototype = Person.prototype;
 
 function Enemy(name) {
-  this.name = name;
-  this.marker = '^';
+  this.name = name;
+  this.marker = "^";
 }
 
 // Not again!
@@ -364,10 +285,10 @@ function Enemy(name) {
 Enemy.prototype = Person.prototype;
 
 Enemy.prototype.sayName = function() {
-  console.log('HAHAHAHAHAHA');
+  console.log("HAHAHAHAHAHA");
 };
 
-const carl = new Player('carl', 'X');
+const carl = new Player("carl", "X");
 carl.sayName(); // Uh oh! this logs "HAHAHAHAHAHA" because we edited the sayName function!
 ```
 
@@ -394,12 +315,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is prototypal inheritance?](https://javascript.info/prototype-inheritance)
 - [What are the basic do's and don't's of prototypal inheritance?](#recommended-method-for-prototypal-inheritance)
 - [How does `this` behave in different situations?](https://www.javascripttutorial.net/javascript-this/)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This [`Object.create` method video by techsith](https://www.youtube.com/watch?v=MACDGu96wrA) provides another point of view on how to use `Object.create` to extend objects by setting the prototype.
-- The first answer on this StackOverflow question regarding [defining methods via the prototype vs in the constructor](https://stackoverflow.com/questions/9772307/declaring-javascript-object-method-in-constructor-function-vs-in-prototype/9772864#9772864) helps explain when you might want to use one over the other.
-- [Interactive Scrim on objects and object constructors.](https://scrimba.com/scrim/co2624f87981575448091d5a2)
-- Check out this video explanation on the  [`this` keyword from DevSage](https://www.youtube.com/watch?v=cwChC4BQF0Q) that gives a different perspective on how its context changes, as well as scenarios in which `this` behaves unexpectedly.

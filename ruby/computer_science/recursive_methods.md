@@ -31,6 +31,14 @@ This section contains a general overview of topics that you will learn in this l
 1. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
 1. If you haven't already, fork and clone the [ruby-exercises repo](https://github.com/TheOdinProject/ruby-exercises/) (you likely already did this while doing the `/ruby_basics/` exercises earlier in the Ruby course). `cd` into the `/recursion` directory and follow the instructions in the README there. Complete each of the recursion exercises in order, and pass the tests.
 
+   <div class="lesson-note lesson-note--tip" markdown="1">
+
+   #### Use a debugger!
+
+   It can be rather difficult trying to track what's going on in a recursive function layer by layer, don't put yourself through that! If you haven't already been making use of a debugger when solving some problems (you'll have been missing out on a lot if not!), now is as good a time as any to get familiar with it as it can help make navigating the code flow so much easier.
+
+   </div>
+
 </div>
 
 ### Knowledge check

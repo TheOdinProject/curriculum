@@ -520,9 +520,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are the three most common form controls you can use for allowing users to select predefined options?](#selection-elements)
 - [What are the three types of buttons in HTML?](#buttons)
 - [What are the two most challenging aspects of styling forms?](#a-note-on-styling-forms)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Web.dev's Form Course](https://web.dev/learn/forms/)

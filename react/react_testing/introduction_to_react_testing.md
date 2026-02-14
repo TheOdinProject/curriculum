@@ -23,6 +23,14 @@ UI tests give us more confidence that our websites contain the intended contents
 
 Follow along [Robin Wieruch's guide on setting up Vitest with RTL](https://www.robinwieruch.de/vitest-react-testing-library/). Once you've completed the setup, let's meet back here.
 
+<div class="lesson-note" markdown="1">
+
+#### Vitest globals and ESLint
+
+Even if you set `globals: true` in `vite.config.js` like in the setup tutorial, ESLint will still yell at you, as it will not recognize these globals without some extra configuration in your `eslint.config.js` file. The most straightforward resolution would be to explicitly import the globals you'd need instead. You can omit `globals: true` from `vite.config.js` in this case.
+
+</div>
+
 Phew, that was a lot of setup. But there's one more tiny package to install before we can begin:
 
 ```bash
@@ -64,14 +72,6 @@ describe("App component", () => {
   });
 });
 ```
-
-<div class="lesson-note" markdown="1">
-
-#### Vitest globals and ESLint
-
-Even if you set `globals: true` in `vite.config.js` like in the setup tutorial, ESLint will still yell at you, as it will not recognize these globals without some extra configuration in your `eslint.config.js` file. The most straightforward resolution would be to explicitly import the globals you'd need instead. You can omit `globals: true` from `vite.config.js` in this case.
-
-</div>
 
 Execute `npm test App.test.jsx` on the terminal and see the test pass. `getByRole` is just one of the dozen query methods that we could've used. Essentially, queries are classified into three types: `getBy`, `queryBy` and `findBy`. Go through [the React Testing Library docs page about queries](https://testing-library.com/docs/queries/about/). Pay extra attention to the "Types of Queries" and "Priority" sections.
 

@@ -71,9 +71,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [When might you use Flexbox over Grid?](#content-first-vs-layout-first-design)
 - [When might you use Grid over Flexbox?](#content-first-vs-layout-first-design)
 - [When might you use the two of these tools together?](#combining-flexbox-and-grid)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- MDN wrote an in-depth article on the [relationship between Grid and other layout methods](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout).
