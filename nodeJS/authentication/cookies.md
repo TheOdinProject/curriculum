@@ -64,9 +64,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Why might you want to prevent client-side JavaScript from accessing a cookie and how would you implement that?](#httponly)
 - [What does the "Secure" attribute do to a cookie?](#secure)
 - [Under some regulations, what kinds of cookies would require user consent before they can be used?](#regulations-and-cookie-consent)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
