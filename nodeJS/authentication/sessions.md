@@ -449,9 +449,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [If we are to store passwords in our database, how can we ensure secure storage?](#storing-passwords-securely)
 - [Should passwords be encrypted for storage and why/why not?](#storing-passwords-securely)
 - [What library can we use to help us securely store passwords?](#argon2)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
