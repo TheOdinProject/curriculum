@@ -27,13 +27,14 @@ Choose your Operating System:
 
 <summary class="dropDown-header">Linux</summary>
 
-#### Step 1: Download VSCode
+#### Step 1: Download VSCode via Snap Store 
 
 - Open your **Terminal**.
 - Run the following command to download the latest **VSCode** `.deb` package:
 
 ```bash
-wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
+sudo apt update
+sudo apt install snapd
 ```
 
 #### Step 2: Install VSCode
@@ -41,7 +42,7 @@ wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable
 - Enter the following command in your terminal to install the **VSCode** `.deb` package:
 
 ```bash
-sudo apt install ./code-latest.deb
+sudo snap install code --classic
 ```
 
 - If prompted, enter your password.
@@ -74,10 +75,8 @@ If you see a something like `N: Download is performed unsandboxed (...)`, you do
 
 </div>
 
-#### Step 3: Delete the installer file
+#### Step 3: You don't need to delete anything as , it directly installs from Snap
 
-```bash
-rm code-latest.deb
 ```
 
 #### Step 4: Using VSCode
