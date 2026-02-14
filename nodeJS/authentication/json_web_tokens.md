@@ -116,9 +116,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is a JSON web token?](#jwts)
 - [How does a JWT protect against tampering?](#jwt-signature)
 - [What are some ways that JWTs can be sent and stored between client and server?](#sending-jwts)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
