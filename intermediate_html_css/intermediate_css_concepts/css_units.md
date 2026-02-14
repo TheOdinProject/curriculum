@@ -55,4 +55,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [Why would you want to use `em` or `rem` for font-size instead of `px`?](#em-and-rem)
 - [What are some instances where you might want to use `vh` and `vw`?](#viewport-units)
-- [What are some instances where you might want to use `px` instead of a relative unit?](https://codyloyd.com/2021/css-units/)
+- [What are some instances where you might want to use `px` instead of a relative unit?](https://web.archive.org/web/20251130034321/https://codyloyd.com/2021/css-units/)
