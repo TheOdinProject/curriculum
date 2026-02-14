@@ -26,6 +26,9 @@ Before submitting a PR for any lesson, you must also use our [Lesson Preview Too
 
 ## Curriculum Linting
 
+> [!NOTE]
+> For information about contributing to our custom linting rules, please read the [custom markdown linting contributing guide](./markdownlint/docs/README.md).
+
 To help enforce the layout specified in our layout style guide, we use [markdownlint](https://github.com/DavidAnson/markdownlint). Whenever a PR is opened or has updates made to it, a workflow will run to check any files changed in the PR against common rules as well as custom rules specific to TOP. To make the workflow easier, we also strongly suggest that users who have a local clone run this linter locally before committing any changes. There are 2 ways you can do so:
 
 1. Install the [Markdownlint VSCode Plugin](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint). This plugin will automatically pick up our markdownlint configuration and flag issues with a squiggly underline.
