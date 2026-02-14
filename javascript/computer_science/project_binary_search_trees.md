@@ -92,9 +92,3 @@ Write a driver script that does the following:
 1. Print out all elements in level, pre, post, and in order.
 
 </div>
-
-#### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Yicheng Gong has some excellent videos that help visualize the call stack when traversing binary search trees: [In-order](https://www.youtube.com/watch?v=4_UDUj1j1KQ&t=1s), [Post-order](https://www.youtube.com/watch?v=4Xo-GtBiQN0), and [Pre-order](https://www.youtube.com/watch?v=8xue-ZBlTKQ&ab_channel=ygongcode) Traversal Algorithms.
