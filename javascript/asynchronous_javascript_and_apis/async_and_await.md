@@ -107,7 +107,7 @@ asyncFunctionCall().catch(err => {
 });
 ```
 
-But there is another way: the mighty [try/catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) block! If you want to handle the error directly inside the async function, you can use `try/catch` with `async/await` syntax. If JavaScript throws an error in the `try` block, the `catch` block code will run instead (this can also be used for synchronous code).
+But there is another way: the mighty [try/catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) statement! If you want to handle the error directly inside the async function, you can use `try/catch` with `async/await` syntax. If JavaScript throws an error in the `try` block, the `catch` block code will run instead (this can also be used for synchronous code).
 
 ```javascript
 async function getPersonsInfo(name) {
