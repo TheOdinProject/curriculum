@@ -15,6 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 - Explain the "Single Responsibility Principle".
 - Briefly explain the additional SOLID principles.
 - Explain what "tightly coupled" objects are and why we want to avoid them.
+- Understand why composition is generally preferred to inheritance.
 
 ### Single responsibility
 
@@ -70,7 +71,8 @@ This one is related pretty strongly to 'Single Responsibility' but takes a diffe
 1. The following article and videos mention the acronym **SOLID** before going on to talk about Single Responsibility. Single Responsibility is definitely the most relevant of the 5, but feel free to dig into the rest of the SOLID principles, if you like.
     1. Read this article about [SOLID principle #1: Single responsibility (JavaScript)](https://duncan-mcardle.medium.com/solid-principle-1-single-responsibility-javascript-5d9ce2c6f4a5). It simplifies that which is covered in more detail in the SOLID videos below.
     1. Watch [The SOLID Design Principles by WDS](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9) to see code examples for each principle.
-1. [How to Write Highly Scalable and Maintainable JavaScript: Coupling](https://web.archive.org/web/20200810210808/https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4) explains loosely coupled objects pretty well.
+1. [How to Write Highly Scalable and Maintainable JavaScript: Coupling](https://web.archive.org/web/20170215102316/http://www.innoarchitech.com:80/scalable-maintainable-javascript-coupling) explains loosely coupled objects pretty well.
+1. FunFunFunction has a great video on [favoring composition over inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA).
 
 </div>
 
@@ -80,12 +82,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is the "Single Responsibility Principle"?](#single-responsibility)
 - [What are the additional SOLID principles?](https://duncan-mcardle.medium.com/solid-principle-1-single-responsibility-javascript-5d9ce2c6f4a5)
-- [What are "tightly coupled" objects and why do we want to avoid them?](https://web.archive.org/web/20200810210808/https://medium.com/@alexcastrounis/how-to-write-highly-scalable-and-maintainable-javascript-coupling-c860787dbdd4)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- The best book we've ever read on the subject of loose coupling is [Practical Object-Oriented Design In Ruby](http://www.poodr.com/). Unfortunately, it is not free... and not JavaScript. We feel confident in recommending it anyway. If you don't know Ruby, it is a clear enough language that you don't really need to learn it to follow the examples and the content of the book is sincerely fantastic. Alternatively, [99 Bottles of OOP](https://sandimetz.com/products) is written in both JavaScript and Ruby. It is written by the same author and may be a better option if you are brand new to OOP (it is not free either).
-- [Building a house from the inside out](https://www.ayweb.dev/blog/building-a-house-from-the-inside-out) will walk you through the process of separating your core logic and DOM logic.
-- This [brief video by Coderized](https://www.youtube.com/watch?v=q1qKv5TBaOA) covers the SOLID programming principles and more, within the context of embracing clean coding practices and establishing a maintainable code structure. You may find it helpful if you are still confused about why these principles exist and how they can work together to improve your code, code architecture, and your skills as a programmer!
+- [What are "tightly coupled" objects and why do we want to avoid them?](https://web.archive.org/web/20170215102316/http://www.innoarchitech.com:80/scalable-maintainable-javascript-coupling)
+- [Why is favoring composition over inheritance suggested?](https://www.youtube.com/watch?v=wfMtDGfHWpA)

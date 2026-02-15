@@ -15,7 +15,7 @@ In React, data is transferred from parent components to child components via pro
 
 ### Using props in React
 
-Now that we know *how* data transfers between components, let's explore *why* this might be a useful feature in React. Consider the following `Button` component, which then gets rendered multiple times within our `App` component.
+Now that we know *how* data transfers between components, let's explore *why* this might be a useful feature in React. Consider the following `Button` component, which gets rendered multiple times within our `App` component.
 
 ```jsx
 function Button() {
@@ -63,7 +63,7 @@ export default function App() {
 }
 ```
 
-This may not seem like a huge deal right now, but what if we had 10 buttons, each one having different text, fonts, colors, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication.
+This may not seem like a huge deal right now, but what if we had 10 buttons? Each one having different text, fonts, colors, sizes, and any other variation you can think of. Creating a new component for each of these button variations would very quickly lead to a LOT of code duplication.
 
 Let's see how by using props, we can account for any number of variations with a *single* button component.
 
@@ -92,13 +92,13 @@ export default function App() {
 
 There are a few things going on here.
 
-- The `Button` functional component now receives `props` as a function argument. The individual properties are then referenced within the component via `props.propertyName`.
+- The `Button` functional component now receives `props` as a function parameter. The individual properties are then referenced within the component via `props.propertyName`.
 - When rendering the `Button` components within `App`, the `prop` values are defined on each component.
 - Inline styles are dynamically generated and then applied to the `button` element.
 
 ### Prop destructuring
 
-A very common pattern you will come across in React is prop [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment). Unpacking your props in the component arguments allows for more concise and readable code. Check out prop destructuring in action in the example below.
+A very common pattern you will come across in React is prop [destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment). Unpacking your props in the component parameters allows for more concise and readable code. Check out prop destructuring in action in the example below.
 
 ```jsx
 function Button({ text, color, fontSize }) {
@@ -123,27 +123,27 @@ export default function App() {
 
 ### Default props
 
-You may have noticed in the above examples that there is some repetition when defining props on the `Button` components within `App`. In order to stop repeating ourselves re-defining these common values, and to protect our application from undefined values, we can define default parameters to set default values for props.
+You may have noticed in the above examples that there is some repetition when defining props on the `Button` components within `App`. In order to stop repeating ourselves by re-defining these common values, and to protect our application from undefined values, we can define default parameters to set default values for props.
 
 ```jsx
-  function Button({ text = "Click Me!", color = "blue", fontSize = 12 }) {
-    const buttonStyle = {
-      color: color,
-      fontSize: fontSize + "px"
-    };
+function Button({ text = "Click Me!", color = "blue", fontSize = 12 }) {
+  const buttonStyle = {
+    color: color,
+    fontSize: fontSize + "px"
+  };
 
-    return <button style={buttonStyle}>{text}</button>;
-  }
+  return <button style={buttonStyle}>{text}</button>;
+}
 
-  export default function App() {
-    return (
-      <div>
-        <Button />
-        <Button text="Don't Click Me!" color="red" />
-        <Button fontSize={20} />
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <div>
+      <Button />
+      <Button text="Don't Click Me!" color="red" />
+      <Button fontSize={20} />
+    </div>
+  );
+}
 ```
 
 As you can see, we now only need to supply prop values to `Button` when rendering within `App` if they differ from the default values defined in the function parameters.
@@ -177,7 +177,7 @@ export default function App() {
 }
 ```
 
-While React now prefers the default parameter approach for function components, understanding `defaultProps` is still useful, especially when working with class components or older codebases.
+While React no longer accepts the latter approach for function components, understanding `defaultProps` is still useful, especially when working with class components or older codebases.
 
 ### Functions as props
 
@@ -241,21 +241,23 @@ export default function App() {
 
   return (
     <div>
-      <Button handleClick={() => handleButtonClick('www.theodinproject.com')} />
+      <Button handleClick={() => handleButtonClick('https://www.theodinproject.com')} />
     </div>
   );
 }
 ```
 
-When supplying an argument to the function we can't just write `onClick={handleClick('www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the argument. Like the previous example, this is to prevent the function being called during the render.
+When supplying an argument to the function, we can't just write `onClick={handleClick('https://www.theodinproject.com')}`, and instead must attach a reference to an anonymous function which then calls the function with the argument. Like the previous example, this is to prevent the function being called during the render.
 
 <div class="lesson-note" markdown="1" >
+
+#### Alternative implementation with curried functions
 
 There are also other ways to implement this behavior. Hint: [curried functions!](https://javascript.info/currying-partials)
 
 </div>
 
-Hopefully you can now understand from the examples in this lesson, just how incredibly useful props are for writing reusable and customizable React components. However, we are still only scratching the surface of what React can offer us. Continue on to the next section to learn even more!
+Hopefully, you can now understand from the examples in this lesson just how incredibly useful props are for writing reusable and customizable React components. However, we are still only scratching the surface of what React can offer us. Continue on to the next section to learn even more!
 
 ### Assignment
 
@@ -273,9 +275,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Why do we use props in React?](#using-props-in-react)
 - [How do we define default properties on a React component? What are some benefits in doing so?](#default-props)
 - [How can we pass functions as props?](#functions-as-props)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

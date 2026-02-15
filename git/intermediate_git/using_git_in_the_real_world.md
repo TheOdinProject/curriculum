@@ -17,6 +17,21 @@ This section contains a general overview of topics that you will learn in this l
 
 Before we dive into workflows, take a minute to remind yourself about good commit messages. You can check the [Commit Messages lesson](https://www.theodinproject.com/lessons/foundations-commit-messages) for a reminder. This is a good time to draw particular attention to [Conventional Commits](https://www.conventionalcommits.org), a standard for commits that is gaining more and more popularity for collaborative projects. It helps to make sure your commit message gives a clear description of its purpose to anyone reading. Going forward, you may like to implement these (if you aren't already!), or at least be aware of them for when you read other repos.
 
+### Workflow diagram
+
+Here is a visual representation of the workflow with Git and GitHub that illustrates how changes flow between repositories during collaboration.
+
+<pre class="mermaid">
+
+graph TD;
+    A[Upstream Repository: TheOdinProject/curriculum] -->|git fetch upstream/main| B[Local Repository: main];
+    B -->|git checkout your_branch_name| C[Local Repository: your_branch_name];
+    C -->|git push origin your_branch_name| D[Your Fork on GitHub];
+    D -->|Create Pull Request to Upstream| E[Pull Request on GitHub];
+    E -->|Maintainers Merge PR to Upstream| A[Upstream Repository: TheOdinProject/curriculum];
+
+</pre>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -25,12 +40,12 @@ Let's say you want to contribute to [our curriculum repo](https://github.com/The
 
 How do you contribute when you do not have write access to the repository? Below is a production-ready workflow that is actually used by contributors to this website. We'll assume here that you have commented on an [open issue on our repo](https://github.com/TheOdinProject/curriculum/issues) and that it has been assigned to you. If you don't have an issue assigned to you, you can still follow along with some arbitrary updates, just stop before step 3 in the **Sending your pull request** section since your changes aren't legitimate.
 
-The key players in this story will be the `upstream` (the original GitHub repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`). Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push.
+The key players in this story will be the `upstream` (the original GitHub repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`). Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push, as illustrated in the workflow diagram above.
 
 #### Initial setup
 
 1. Read [the TOP contributing guide](https://github.com/TheOdinProject/curriculum/blob/main/CONTRIBUTING.md) for the project.
-1. Navigate to the [curriculum repository](https://github.com/TheOdinProject/curriculum/tree/main) and fork the original ("upstream") repository into your own GitHub account by using the "fork" button at the top of that repo's page on GitHub.
+1. Open the [curriculum repository](https://github.com/TheOdinProject/curriculum/tree/main) in your browser. Use the "Fork" button at the top-right of the repository's page to create a copy of the entire repository (not just one file) in your own GitHub account.
 1. Clone your forked repository onto your local machine using something like `git clone git@github.com:your_user_name_here/curriculum.git` (you can get the url from the little widget on the sidebar on the right of that repo's page on GitHub).
 1. Because you cloned the repository, you've already got a remote that points to `origin`, which is your fork on GitHub. You will use this to push changes back up to GitHub. You'll also want to be able to pull directly from the original repository on GitHub, which we'll call `upstream`, by setting it up as another remote. Do this by using the git command below inside the project folder `curriculum`:
 
@@ -50,6 +65,8 @@ We've got one main branch -- `main`. `main` is for production-ready code. Any co
 
 <div class="lesson-note" markdown="1">
 
+#### Using fetch and merge to be explicit
+
 Note that a `git fetch upstream` followed by a `git merge upstream/some_branch` is the EXACT same thing as doing a `git pull upstream some_branch`. We prefer to split it up here so that we can explicitly walk through the steps.
 
 </div>
@@ -58,7 +75,18 @@ Note that a `git fetch upstream` followed by a `git merge upstream/some_branch` 
 
 1. Now that your feature branch is squeaky clean and you know it'll merge cleanly into `main`, the hard part is all over. All that's left is to make the Pull Request (often abbreviated as PR) against our `upstream` repo on GitHub!
 1. Now you want to send your feature branch back up to your `origin` (your fork of the `upstream` repository). You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request. Use `git push origin your_feature_name` to ship your feature branch up to your fork on GitHub.
-1. If you have been following along with the above steps to get familiar with this workflow, you should **stop at this point**. If you have completed an assigned issue, the final step is to submit a pull request to merge your feature branch into the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
+
+   <div class="lesson-note lesson-note--critical" markdown="1">
+
+   #### Don't open unnecessary PRs
+
+   **If you have not been assigned an issue to work on, stop here.** Do not open a test/practice PR, and any such PRs will be treated as spam and closed by a maintainer without review.
+
+   If you have been assigned to work on an issue by a maintainer, feel free to continue with the next step.
+
+   </div>
+
+1. **If you have completed an assigned issue**, the final step is to submit a pull request to merge your feature branch into the original `upstream` repository's `main` branch. This can be done using GitHub's interface.
 1. Shake your moneymaker, you're an OSS contributor!
 
 </div>
@@ -78,4 +106,4 @@ This section contains helpful links to related content. It isn't required, so co
 - Seth Robertson's [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/)
 - Learn about [Git Branching from Peter Cottle](http://pcottle.github.io/learnGitBranching/) using his interactive branching tutorial.
 - [Dangit, Git!?!](https://dangitgit.com/) is a quick reference to get you out of common Git problems.
-- This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of many options Git provides for undoing various mistakes.
+- This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of the many options Git provides for undoing various mistakes.

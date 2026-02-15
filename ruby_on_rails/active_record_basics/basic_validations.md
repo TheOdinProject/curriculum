@@ -52,8 +52,8 @@ So the only way to truly enforce constraints is on the database level, since you
 
 1. Read the [Rails Guides Validations chapter](http://guides.rubyonrails.org/active_record_validations.html)
    - Section 2 on helpers can be skimmed -- these help you get more specific with your validations and you'll run into them later
-   - You can skim section 6 about custom validators
-   - Section 8 will likely only be interesting if you've seen ERB in Rails views before... we'll get there.
+   - You can skim section 7 about custom validators
+   - Section 9 will likely only be interesting if you've seen ERB in Rails views before... we'll get there.
 
 </div>
 
@@ -62,10 +62,4 @@ So the only way to truly enforce constraints is on the database level, since you
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What does the validation helper `presence: true` enforce?](https://guides.rubyonrails.org/active_record_validations.html#presence)
-- [How can you see why an instance of a model class has failed validation?](https://guides.rubyonrails.org/active_record_validations.html#validations-overview-errors)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
+- [How can you see why an instance of a model class has failed validation?](https://guides.rubyonrails.org/active_record_validations.html#inspecting-and-handling-errors)

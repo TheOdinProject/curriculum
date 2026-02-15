@@ -1,6 +1,6 @@
 ### Introduction
 
-By now you should be comfortable with basic CSS selectors and have no trouble grabbing things by their type, class or ID. But to be a real CSS surgeon, sometimes you need more specialized tools. In this lesson we'll look at advanced CSS selectors and show you how to target elements in a more specific and finely grained way.
+By now you should be comfortable with basic CSS selectors and have no trouble grabbing things by their type, class or ID. But to be a real CSS surgeon, sometimes you need more specialized tools. In this lesson we'll look at advanced CSS selectors and show you how to target elements in a more fine-grained way.
 
 These selectors can be especially useful when you can't (or don't want to) change your HTML markup.
 
@@ -98,9 +98,11 @@ Before diving into pseudo-selectors, a quick note on the difference between [pse
 
 Pseudo-classes offer us different ways to target elements in our HTML. There are quite a lot of them, and they come in a couple of different flavors. Some are based on their position or structure within the HTML. Others are based on the state of a particular element, or how the user is currently interacting with it. There are too many to cover in detail here but we'll have a look at some of the most useful ones. Pseudo-classes share the same specificity as regular classes (0, 0, 1, 0). Just like regular classes, most can be chained together.
 
-<div class="lesson-note lesson-note--tip" markdown=1>
+<div class="lesson-note lesson-note--tip" markdown="1">
 
-The (0,0,1,0) above is the notation for calculating specificity. To find out more about how it works, glance over the "Calculating CSS Specificity Value" section from this [article on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/).
+#### Calculating CSS specificity notation
+
+The (0,0,1,0) above is the notation for calculating specificity. To find out more about how it works, glance over the "Calculating CSS Specificity Value" section from this [article on CSS Specificity](https://css-tricks.com/specifics-on-css-specificity/#aa-calculating-css-specificity-value).
 
 </div>
 
@@ -174,11 +176,11 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 ```html
 <style>
   .emojify::before {
-    content: '😎 🥸 🤓';
+    content: '😎 😄 🤓';
 }
 
   .emojify::after {
-    content: '🤓 🥸 😎';
+    content: '🤓 😄 😎';
 }
 </style>
 
@@ -189,7 +191,7 @@ While pseudo-classes give us an alternative way to interact with our HTML elemen
 
 Using these pseudo-elements this way would give us this result:
 
-Let's 😎 🥸 🤓 emojify 🤓 🥸 😎 this span!
+Let's 😎 😄 🤓 emojify 🤓 😄 😎 this span!
 
  There are lots more! Have a quick browse through the [pseudo-element docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) to see a complete list of what's possible.
 
@@ -261,6 +263,7 @@ To see what other things you can achieve with attribute selectors, such as searc
 
 1. Complete [CSS Diner](https://flukeout.github.io/). You should be familiar with most of the content in the first couple of exercises, but practice and review never hurt! Don't forget to read the examples and explanations on the right.
 1. Read [Shay Howe's article on Complex Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/). This covers most of the content of this lesson in a bit more detail. As stated in their article, they sometimes use a single colon instead of a double one for pseudo-elements. Please keep in mind that the double colon is now the standard.
+1. Do this [Selectors Assessment](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors/Selectors_Tasks) from MDN. It'd help you put your newly learned knowledge of selectors to practice!
 
 </div>
 
@@ -276,15 +279,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?](#hover-active-knowledge-check)
 - [How could you select all input elements with a type of text?](#type-text-knowledge-check)
 - [How could you select all classes that begin with `thunder`?](#thunder-knowledge-check)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Kevin Powell](https://www.youtube.com/kepowob/search?query=pseudo) has a variety of videos on several of these topics if you'd like a deeper dive.
-- [The CSS Tricks Almanac](https://css-tricks.com/almanac/selectors/) has a great reference for all pseudo-elements and selectors. It includes examples, extra resources and browser support charts.
-- [W3 Schools](https://www.w3schools.com/cssref/css_selectors.asp) also has a solid, more concise reference list. Includes an interactive selector tool if you'd like to play around with some hands-on examples.
-- [The Free Code Camp Selector Cheat Sheet](https://www.freecodecamp.org/news/css-selectors-cheat-sheet/) has a solid summary of some of the most common selectors.
-- A nice concise article on the [differences between pseudo-classes and pseudo-elements](https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html). Also provides a solid summary of the different kinds of selectors.
-- [Smashing Magazine on Taming Advanced CSS Selectors](http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/)
-- [CSS Tricks on Attribute Selectors](https://css-tricks.com/attribute-selectors/) will help if you need a deeper look at attributes.

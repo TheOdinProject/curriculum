@@ -212,7 +212,7 @@ The same applies to code that is no longer used. If you need it again in the fut
 theFunctionInUse();
 // oldFunction();
 // evenOlderUselessFunction();
-// whyAmIEvenHereImAncient():
+// whyAmIEvenHereImAncient();
 ```
 
 #### Tell why, not how
@@ -293,12 +293,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Why is it important to write clean code?](#introduction)
 - [What are some good principles for keeping code clean?](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/)
 - [What is the difference between good comments and bad comments?](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [A nice op-ed on code as documentation](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
-- [Airbnb style guide](https://github.com/airbnb/javascript)
-- [Chaining methods to write sentences](https://web.archive.org/web/20190211152543/https://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)
-- [Clean code in JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)

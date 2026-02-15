@@ -19,7 +19,7 @@ Merge sort is one such sorting algorithm, and can be much faster than other algo
 To understand what the merge sort algorithm is doing check out these resources:
 
 1. Watch this introductory video on [merge sort from Harvard's CS50x course](https://youtu.be/Ns7tGNbtvV4).
-1. Watch another explanation of [how merge sort works](https://youtu.be/4oqjcKenCH8?t=6248) (watch only until 1:58:33), this time from a part of a Harvard CS50x lecture.
+1. Watch another explanation of [how merge sort works](https://www.youtube.com/live/iCx3zwK8Ms8?si=t7z6bEv_ZXIJDoHU&t=6550) (watch only until 2:04:05), this time from a part of a Harvard CS50x lecture.
 1. [The concept of merging](https://youtu.be/6pV2IF0fgKY) and [Merge Sort -- How it Works part](https://youtu.be/mB5HXBb_HY8) on YouTube give you a more formal look at this problem if you're still unclear.
 1. (Optional) Play with this [Merge Sort Visualizer](https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/visualize/) to get a better feel for exactly what is happening during a Merge Sort.
 
@@ -47,7 +47,15 @@ Hopefully you were able to solve the problem with recursion! If you need some he
 
 Once you have a firm grasp on solving Fibonacci with recursion, create a new file and work on a merge sort:
 
-1. Build a function `mergeSort` that takes in an array and returns a sorted array, using a recursive merge sort methodology. An input of `[3, 2, 1, 13, 8, 5, 0, 1]` should return `[0, 1, 1, 2, 3, 5, 8, 13]`, and an input of `[105, 79, 100, 110]` should return `[79, 100, 105, 110]`.
+1. Build a function `mergeSort` that takes in an array and returns a sorted array, using a recursive merge sort methodology.
+
+Test Examples:
+
+- `mergeSort([])` → `[]`
+- `mergeSort([73])` → `[73]`
+- `mergeSort([1, 2, 3, 4, 5])` → `[1, 2, 3, 4, 5]`
+- `mergeSort([3, 2, 1, 13, 8, 5, 0, 1])` → `[0, 1, 1, 2, 3, 5, 8, 13]`
+- `mergeSort([105, 79, 100, 110])` → `[79, 100, 105, 110]`
 
 Tips:
 
@@ -68,12 +76,3 @@ To showcase the recursive effect implemented in your Fibonacci function, do the 
 1. If the function is implemented correctly, you should see that sentence printed around 8 times (keep in mind that, depending on the way you implemented the function, you may see 7 instead of 8. This isn't a bug! It simply depends on how many times the function is *actually* repeated).
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- An extensive written JavaScript solution for [recursive Fibonacci](https://www.scaler.com/topics/fibonacci-series-in-javascript/)
-- Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
-- Visualize and understand the [memory allocation for recursive functions](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK).
-- For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)

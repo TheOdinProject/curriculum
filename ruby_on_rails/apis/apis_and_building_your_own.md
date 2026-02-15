@@ -192,8 +192,7 @@ In the next lesson, we'll cover working with other people's APIs, which can add 
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read the [Rails Guide on Controllers](https://guides.rubyonrails.org/action_controller_overview.html#rendering-xml-and-json-data) section 7 to learn about rendering JSON and XML.
-  1. They are not required viewing (because they get a bit deeper than we're scoped for), but if you're interested, go check out the Railscasts in the Additional Resources section at the bottom of this lesson for more API goodness.
+  1. Read the [Rails Guide on Controllers](https://guides.rubyonrails.org/v7.2/action_controller_overview.html#rendering) section 7 to learn about rendering JSON and XML.
 
 </div>
 
@@ -218,6 +217,5 @@ This section contains helpful links to related content. It isn't required, so co
 - Watch this free [Railscast on securing your API](http://railscasts.com/episodes/352-securing-an-api)
 - Watch this free [Railscast on versioning your API](http://railscasts.com/episodes/350-rest-api-versioning)
 - [GoRails #162 Our First API](https://www.gorails.com/episodes/our-first-api)
-- [Building a public-facing API using view templates instead of `#to_json`](http://blog.codepath.com/2011/05/16/if-youre-using-to_json-youre-doing-it-wrong/)
 - [`to_json` or `as_json` by Jonathan Julian](http://jonathanjulian.com/2010/04/rails-to_json-or-as_json/) gives specific examples of digging into the `as_json` method.
 - [Service Oriented Architecture Explained](https://www.youtube.com/watch?v=7s_S5Hkm7z0)

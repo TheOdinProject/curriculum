@@ -23,7 +23,7 @@ Check out these resources:
 
 1. This [tutsplus post on HTTP](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177) describes what's going on with HTTP.
 1. This [sniffer tool](http://testuri.org/sniffer) - try retrieving a couple of websites (like `https://www.theodinproject.com/`) on your own.
-1. This great video on [communications between http requests and the web server](https://code.tutsplus.com/how-to-become-a-web-developer--CRS-200371c/http-and-the-web-server).
+1. This video on how to [inspect network activity with Chrome DevTools](https://www.youtube.com/watch?v=e1gAyQuIFQo) helps you understand how to inspect web resources delivered over HTTP. Note that the Chrome DevTools UI has changed since this video was made, but you can still follow along for the most part as the core features remain the same. Use `https://www.theodinproject.com` to follow along instead of the `devtools.glitch.me` site they use in the video, which is no longer available.
 
 One key component to pay attention to is the fact that the request and response both have header and (usually) body components. The header contains information about the request or response itself (meta data), including which website to send or return to and what the status of the response is. The body of the request can contain things like data submitted by a form or cookies or authentication tokens while the response will usually contain the HTML page you're trying to access.
 

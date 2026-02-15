@@ -55,11 +55,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What are CSS frameworks?](#frameworks-overview)
 - [What are CSS preprocessors?](#preprocessors-overview)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-- [Tailwind documentation](https://tailwindcss.com/docs)
-- [SASS documentation](https://sass-lang.com/documentation)

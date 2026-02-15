@@ -1,62 +1,45 @@
 ### Introduction
 
-JavaScript does *not* have classes in the same sense as other object-oriented languages like Java or Ruby. ES6, however, *did* introduce a syntax for object creation that uses the `class` keyword. It is basically a new syntax that does the *exact* same thing as the object constructors and prototypes we learned about in the constructor lesson.
+JavaScript does *not* have classes in the same sense as other object-oriented languages like Java or Ruby. ES6, however, *did* introduce a syntax for object creation that uses the `class` keyword. It is basically a new syntax that *mostly* resembles object constructors and prototypes we learned about in the constructor lesson.
 
-There is a bit of controversy about using the class syntax, however. Opponents argue that `class` is basically just *syntactic sugar* over the existing prototype-based constructors and that it's dangerous and/or misleading to obscure what's *really* going on with these objects. Despite the controversy, classes are beginning to crop up in real code bases that you are almost certainly going to encounter such as frameworks like React (especially if you end up working with class-based React code).
+Historically, especially when ES6 was released, there was some controversy with class syntax precisely because it looks like classes from languages like Java. While JavaScript's class syntax appears to be a syntactic sugar, it has some unique properties that differentiate itself from object constructors and prototypes. Still, the underlying mechanisms have not changed despite the different syntax (no classical inheritance going on) but often trips people up since the syntax isn't as explicit about what's *really* going on with these objects.
 
-Since we've already gone fairly in-depth with Constructors, you don't have too much left to learn here beyond the new syntax. If you choose to use classes in your code (that's fine!) you can use them much the same way as object constructors.
+Plenty of time has passed though and class syntax now exists in many code bases. There aren't many new mechanisms to learn here, mainly just new syntax for mostly familiar concepts.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Describe the pros and cons of using classes in JavaScript.
-- Briefly discuss how JavaScript's object creation differs from other object-oriented programming languages.
 - Explain the differences between an object constructor and a class.
-- Explain what "getters" and "setters" are.
-- Understand what computed names and class fields are.
-- Describe function binding.
-- Explain how to implement private class fields and methods.
+- Explain what getters and setters are.
+- Describe basic class syntax.
 - Use inheritance with classes.
-- Understand why composition is generally preferred to inheritance.
+- Explain how to implement private class fields and methods.
+- Explain what static properties and methods are.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read this article covering [opinions regarding the pros and cons of classes](https://medium.com/@rajaraodv/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65).
-1. [JavaScript.info's article on Getters and Setters](https://javascript.info/property-accessors) should get you up to speed on "Getters and Setters", and [JavaScript.info's primer on class syntax](https://javascript.info/class) is probably just about all you need to start using `class` syntax confidently.
-1. [MDN's docs on classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great resource for going a little deeper.
-   - Take a look at the ['extends' documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends), including the ['Mixins' section](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends#mix-ins). In some frameworks like React, you can use classes to create your components and make them `extend` the core React component which gives you access to all their built-in functionality (though this is not the only way to create components. This will all be covered later in the React section of the course).
-   - Classes can also have [private class properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields) that allow you to implement privacy similarly to factory functions.
-   - Classes can have [static properties and methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static) which are properties and methods that are accessed on the class itself and not on the instance of a class. This is similar to how some string methods are accessed on the instance of a string itself e.g. `someString.slice(0, 5)` whereas some methods are called on the String constructor directly e.g. `String.fromCharCode(79, 100, 105, 110)`.
-1. [FunFunFunction's video on Composition over Inheritance](https://www.youtube.com/watch?v=wfMtDGfHWpA) gives a great overview of the topic.
-
-</div>
+1. Read about [getters and setters](https://javascript.info/property-accessors) (don't worry about the "accessor descriptors" section as we have not covered them before). While the article doesn't show classes yet, classes can use getters and setters via the same syntax (without `Object.defineProperty`).
+1. Read JavaScript.info's [primer on class syntax](https://javascript.info/class) for an overview of class syntax.
+1. [MDN's docs on classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) are, as usual, a great resource for going a little deeper. There are lots of individual syntax features but these can be explored over time. As usual, you're not required to memorize anything just from reading docs here and now. Some good features to have a little look at include:
+   - [Extending classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends) (like having a Player class that extends a Person class, adding `Person.prototype` to the prototype chain).
+   - [Private properties](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields), allowing you to have properties or methods that are not accessible outside of the class, like with private variables in factory functions.
+   - [Static properties and methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static) which are properties and methods (public or private) that are accessed on the class itself and not on the instance of a class. This is similar to how some string methods are accessed on the instance of a string itself e.g. `someString.slice(0, 5)` whereas some methods are called on the String constructor directly e.g. `String.fromCharCode(79, 100, 105, 110)`.
 
 #### Practice
 
-Go back to your [Library project](https://www.theodinproject.com/lessons/node-path-javascript-library) project and refactor it to use `class` instead of plain constructors.  Don't forget to use the git branch workflow you learned in [Revisiting Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) to work on a new feature. You should get used to working like this!
+Go back to your [Library project](https://www.theodinproject.com/lessons/node-path-javascript-library) and refactor it to use `class` instead of plain constructors.  Don't forget to use the git branch workflow you learned in [Revisiting Rock Paper Scissors](https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors) to work on a new feature. You should get used to working like this!
+
+</div>
 
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What are some of the pros and cons of using classes in JavaScript?](https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65)
-- [How does JavaScript's object creation differ from other object-oriented programming languages?](https://rajaraodv.medium.com/is-class-in-es6-the-new-bad-part-6c4e6fe1ee65#e6b3)
 - [What differences are there between object constructors and classes?](https://javascript.info/class#not-just-a-syntactic-sugar)
-- [What are "getters" & "setters"?](https://javascript.info/property-accessors)
-- [What are computed names and class fields?](https://javascript.info/class)
-- [What is function binding?](https://javascript.info/class)
-- [What are static properties?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
-- [What are some private class features?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
+- [What are getters and setters?](https://javascript.info/property-accessors)
 - [How is inheritance used with classes?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#inheritance)
-- [Why is favoring Composition over Inheritance suggested?](https://www.youtube.com/watch?v=wfMtDGfHWpA)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Stephen Mayeux has a [Youtube playlist on ES6 classes](https://www.youtube.com/playlist?list=PLtwj5TTsiP7uTKfTQbcmb59mWXosLP_7S) and some of their methods with easy to follow examples.
-- Here are some more examples that try to illustrate the [benefits of composition over inheritance](https://blog.beezwax.net/composition-over-inheritance-with-javascript-examples).
-- [w3resource](https://www.w3resource.com/javascript-exercises/oop/index.php) provides a comprehensive collection of exercises on classes.
+- [What are some private class features?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
+- [What are static properties?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)

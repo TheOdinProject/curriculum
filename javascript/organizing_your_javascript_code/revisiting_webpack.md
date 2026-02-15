@@ -61,9 +61,14 @@ You may not know for sure what you might want or need in a template, but when yo
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read [a little more about npm scripts](https://www.knowledgehut.com/blog/web-development/package-json-scripts-node-js). This article goes a little further than what you might find yourself needing to use for a while, such as pre/post and lifecycle scripts, but it's good to be aware of what things are possible with the tools you have.
+1. Read [a little more about npm scripts](https://dyte.io/blog/package-json-scripts/). This article goes a little further than what you might find yourself needing to use for a while, such as pre/post, lifecycle and sh scripts, but it's good to be aware of what things are possible with the tools you have.
 1. Read through [Webpack's "Production" guide](https://webpack.js.org/guides/production/) where they walk you through how to use `webpack-merge` and split your configuration file. The exact code examples they've used in that guide follow on from a previous part of a longer tutorial they have, but the main parts about `webpack-merge` and splitting the configuration file should still be followable with a new project, or you can even try converting your Restaurant Page project to do things this way!
    - You can ignore the "Specify the Mode" section and its examples.
+   - The guide uses CJS syntax but like in the Webpack lesson, we only need to tweak a little syntax, mainly for import/export:
+     - `__dirname` can be replaced with `import.meta.dirname`
+     - `module.exports =` can be replaced with `export default`
+     - `const { merge } = require('webpack-merge')` can be treated as a named import i.e. `import { merge } from 'webpack-merge'`
+     - All other `require` lines don't destructure anything so can be treated as default imports
 
 </div>
 
@@ -76,9 +81,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are the two Webpack modes?](#webpack-modes)
 - [What tool allows you to split your Webpack configuration file with minimal duplication?](https://webpack.js.org/guides/production/)
 - [What is a template repository, and how would you create one?](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

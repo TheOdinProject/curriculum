@@ -1,12 +1,12 @@
 ### Introduction
 
-Not to be confused with Fruit Loops, the addictive cereal that causes symptoms similar to ADHD in kids, loops in Ruby are blocks of code that are continually repeated until a certain condition is met.
+Not to be confused with Froot Loops, the addictive cereal that causes symptoms similar to ADHD in kids, loops in Ruby are blocks of code that are continually repeated until a certain condition is met.
 
 Like me, you've probably experienced real-life loops when you were given detention in school and forced to repeatedly write the same line about not drawing small phallic shapes on your desk. Writing the same thing over and over and over is not only boring but also potentially error prone. You might have made a spelling mistake on one line and forgotten to dot an "i" on another line. It's the same with programming: the less code you have to write, the less chance you have of introducing bugs that can cause your program to crash and burn.
 
 If you find yourself needing to repeat an action more than once in your code, you probably need loops in your life.
 
-For all of the examples in this lesson, you should code along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
+For all of the examples in this lesson, you should code along in irb or any appropriate online REPL environment to get a better feel for how they work.
 
 ### Lesson overview
 
@@ -89,7 +89,7 @@ Much more readable! And who doesn't like Pizza.
 
 ### Ranges
 
-What if we know exactly how many times we want our loop to run? Ruby lets us use something called a [range](https://docs.ruby-lang.org/en/3.3/Range.html) to define an interval. All we need to do is give Ruby the starting value, the ending value, and whether we want the range to be inclusive or exclusive.
+What if we know exactly how many times we want our loop to run? Ruby lets us use something called a [range](https://docs.ruby-lang.org/en/3.4/Range.html) to define an interval. All we need to do is give Ruby the starting value, the ending value, and whether we want the range to be inclusive or exclusive.
 
 ```ruby
 (1..5)      # inclusive range: 1, 2, 3, 4, 5
@@ -156,7 +156,7 @@ If you need to step through a series of numbers (or even letters) within a speci
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is a loop and why it is useful?](#introduction)
+- [What is a loop and why is it useful?](#introduction)
 - [What is a `loop` loop, and how would you use it?](#loop)
 - [What is a `while` loop, and how would you use it?](#while-loop)
 - [What is a `for` loop, and how would you use it?](#for-loop)
@@ -169,4 +169,4 @@ The following questions are an opportunity to reflect on key topics in this less
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
 - If you'd like another overview of loops, read this [Ruby Explained: Iteration](https://www.eriktrautman.com/posts/ruby-explained-iteration) article. (Don't worry about the `#each` method described here; we'll get to that in an upcoming lesson!)
-- If you want yet another take, read [Skork's article on loops](https://skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/). (Again, don't worry about the `#each` and `#each_with_index` methods here; they're coming up soon.)
+- If you want yet another take, read [Skork's article on loops](https://skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/). (Again, don't worry about the `#each` and `#each_index` methods here; they're coming up soon.)

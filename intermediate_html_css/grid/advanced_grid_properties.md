@@ -133,6 +133,8 @@ grid-template-columns: repeat(2, 2fr) repeat(3, 1fr);
 
 <div class="lesson-note" markdown="1">
 
+#### Different ways to define grid tracks
+
 We continue to use the `repeat()` function here, but this could be written the old-fashioned way too!
 
 </div>
@@ -153,7 +155,7 @@ You can also mix static units (like `px`) and dynamic units (like `fr`):
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-You may have noticed at this point that when you resize the grid as large as possible, there is no limit to how large the grid items will become. However, when you resize it as small as possible, there is a distinct "smallest" size the grid will allow its items to go. In this case, it's the smallest size either the `<p>` or `<img>` element can be without overflowing. This breakpoint is the item's `min-content` value. This CSS keyword is **very** useful, but it is beyond the scope of this lesson. For more info, check out the [docs](https://developer.mozilla.org/en-US/docs/Web/CSS/min-content).
+You may have noticed at this point that when you resize the grid as large as possible, there is no limit to how large the grid items will become. However, when you resize it as small as possible, there is a distinct "smallest" size the grid will allow its items to go. In this case, it's the smallest size either the `<p>` or `<img>` element can be without overflowing. This breakpoint is the item's `min-content` value. This CSS keyword is **very** useful, but it is beyond the scope of this lesson. For more info, check out the [MDN docs on min-content](https://developer.mozilla.org/en-US/docs/Web/CSS/min-content).
 
 ### Minimum and maximum track sizes: min() and max()
 
@@ -342,12 +344,13 @@ And that's about it! Congratulations, if you've made it this far, you are well o
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Review [Part 4 on Grid Properties](https://css-tricks.com/snippets/css/complete-guide-grid/#grid-properties) from CSS-Tricks.
+1. Read the sections "CSS Grid Properties", "Special Units, Values, & Functions" and "Subgrid" from [CSS-Tricks Grid Layout Guide](https://css-tricks.com/css-grid-layout-guide).
+1. Play through levels 18 - 28 of [CSS Grid Garden](https://cssgridgarden.com/) to practice positioning items.
 1. Do the exercises in our [CSS exercises repository's `intermediate-html-css/advanced-grid` directory](https://github.com/TheOdinProject/css-exercises/tree/main/intermediate-html-css/advanced-grid) (remember that the instructions are in the README) in the order:
    - `01-responsive-holy-grail`
    - `02-holy-grail-mockup`
 
-   Note: When doing these exercises, please use all the documentation and resources you need to accomplish them. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use google, do what you need to do (besides checking the solutions) to get them done.
+   Note: When doing these exercises, please use all the documentation and resources you need to accomplish them. You are *not* intended to have any of this stuff memorized at this point. Check the docs, use Google, do what you need to do (besides checking the solutions) to get them done.
 
 </div>
 
@@ -364,12 +367,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Which global CSS function allows you to supply a minimum, ideal, and maximum value that is calculated in realtime?](#dynamic-minimum-and-maximum-sizes)
 - [What attribute of `repeat()` can be used to fill in as many grid tracks as possible, given certain constraints?](#auto-fit-and-auto-fill)
 - [What is the difference between `auto-fit` and `auto-fill`?](#auto-fit-and-auto-fill)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Learn more about the [differences between `auto-fit` and `auto-fill`](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/).
-- If videos are more your speed, check out this video on [auto-fit and auto-fill](https://www.youtube.com/watch?v=qjJR3qYCd54) by Kevin Powell.
-- This video provides a [summary of CSS grid](https://www.youtube.com/watch?v=EiNiSFIPIQE) in a concise format.
-- Check out this beautiful [interactive guide to grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid).

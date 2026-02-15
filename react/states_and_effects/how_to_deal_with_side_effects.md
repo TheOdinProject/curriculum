@@ -91,7 +91,9 @@ export default function Clock() {
 
 <div class="lesson-note" markdown="1">
 
-Usually, you do not need to add dependencies to your `useEffect`hook manually. Your linter should let you know about the dependencies it expects. Letting the linter show errors and fixing them instead of suppressing them is usually the best idea. On a general note, the following block does a good job of summing this point up.
+#### Managing useEffect dependencies
+
+Usually, you do not need to add dependencies to your `useEffect` hook manually. Your linter should let you know about the dependencies it expects. Letting the linter show errors and fixing them instead of suppressing them is usually the best idea. On a general note, the following block does a good job of summing this point up.
 
 ```jsx
 useEffect(() => {
@@ -113,7 +115,7 @@ useEffect(() => {
 
 Oh, it's not going berserk anymore! We still have an issue with the counter updating twice every second though. That can be understood as a [behavior caused by the React StrictMode](https://react.dev/reference/react/StrictMode#strictmode). It is supposed to help us catch bugs, so what is that bug here?
 
-Notice that every time the `useEffect` hook runs, a new `setInterval` is used.  When the component is unmounted, `setInterval` is not stopped, it keeps incrementing. This unnecessary behavior can be prevented by clearing the interval when the component is unmounted and that is where the third part of our `useEffect` hook comes in - the cleanup function.
+With `StrictMode`, the `App` component is mounted, unmounted, then mounted again. This behavior of `StrictMode` is only in the development environment. Notice that every time the `useEffect` hook runs, a new `setInterval` is used.  When the component is unmounted the first time, `setInterval` is not stopped, it keeps incrementing. This unnecessary behavior can be prevented by clearing the interval when the component is unmounted and that is where the third part of our `useEffect` hook comes in - the cleanup function.
 
 You can return a function from the callback in the `useEffect` hook, which will be executed each time before the next effect is run, and one final time when the component is unmounted. In this case, let us clean up the interval with a cleanup function.
 

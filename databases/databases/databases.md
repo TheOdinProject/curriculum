@@ -47,5 +47,5 @@ This section contains helpful links to related content. It isn't required, so co
 
 - [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
 - A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)
-- [David J. Malan’s excellent SQL lecture](https://cs50.harvard.edu/x/2024/weeks/7/) and resources in Harvard’s CS50x.
+- [David J. Malan’s excellent SQL lecture](https://cs50.harvard.edu/x/weeks/7/) and resources in Harvard’s CS50x.
 - Relational databases aren't the only way to store data. Non-relational (aka NoSQL) databases have emerged over the last couple decades. Check out this article to learn the [difference between SQL and NoSQL](https://circleci.com/blog/SQL-vs-NoSQL-databases/).

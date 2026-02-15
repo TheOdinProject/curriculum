@@ -55,7 +55,7 @@ ARIA labels help users of assistive technologies better understand the content o
 
 You may remember being warned against using the `id` attribute earlier in the curriculum. To briefly recap, normally you want to avoid overusing `id` attributes or even using it when it isn't necessary (which more often than not, it isn't, and you should stick with using classes). There are several ARIA attributes, however, that actually *require* another element to have an `id`.
 
-When using such ARIA attributes, you would provide an `id` to one element, and you would then pass in that `id` value as another element's ARIA attribute value. This creates a link between the elements, similar to how a `<label>` element's `for` attribute creates a link to an input's `id`. Of the three types of ARIA labels mentioned below, both `aria-labelledby` and `aria-describedby` are two of the ARIA attributes that require another element to be given an `id`.
+When using such ARIA attributes, you would provide an `id` to one element, and you would then pass in that `id` value as another element's ARIA attribute value. This creates a link between the elements, similar to how a `<label>` element's `for` attribute creates a link to an input's `id`. Of the three types of ARIA labels mentioned below, `aria-labelledby` and `aria-describedby` are ARIA attributes that require another element to have an `id`.
 
 #### aria-label
 
@@ -84,10 +84,10 @@ The `aria-labelledby` attribute overrides both the native label and the `aria-la
 The great thing about `aria-labelledby` is that not only can you pass in any number of `id` references, but you can also have an element reference itself. Keep in mind that you can't pass in the same reference multiple times, because any subsequent references after the first will be ignored.
 
 ```html
-<!-- Here's the labelling element -->
+<!-- Here's the labeling element -->
 <h2 id='label'>Shirts</h2>
 
-<!-- And here's the labelled element. Note the order of the ID references passed in -->
+<!-- And here's the labeled element. Note the order of the ID references passed in -->
 <button type='button' id='shop-btn' aria-labelledby='label shop-btn'>Shop Now</button>
 ```
 
@@ -109,7 +109,7 @@ Although it may work somewhat similarly to the native `<label>` element, `aria-l
 
 #### aria-describedby
 
-The `aria-describedby` attribute modifies the description property in the accessibility tree. Similar to the `aria-labelledby` attribute, when you use this attribute you pass in the `id` values of other elements as the `aria-describedby` value, and the elements whose `id` value are passed in can also be visually hidden.
+The `aria-describedby` attribute modifies the description property in the accessibility tree. Similar to the `aria-labelledby` attribute, when you use this attribute, you pass in the `id` values of other elements as the `aria-describedby` value, and the elements whose `id` values are passed in can also be visually hidden.
 
 ```html
 <label>Password:
@@ -120,7 +120,7 @@ The `aria-describedby` attribute modifies the description property in the access
 <span id='password-requirements'>Password must be at least 10 characters long.</span>
 ```
 
-When the `<input>` element receives focus, a screen reader would announce, "Password, edit protected, password must be at least ten characters long." This immediately notifies a screen reader user of any requirements for the password they want to choose, any time the input receives focus.
+When the `<input>` element receives focus, a screen reader would announce, "Password, edit protected, password must be at least ten characters long." This immediately notifies a screen reader user of any requirements for the password they want to choose any time the input receives focus.
 
 ### Hiding content from the accessibility tree
 

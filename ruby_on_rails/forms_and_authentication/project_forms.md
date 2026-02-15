@@ -32,10 +32,33 @@ The first form you build will be mostly HTML (remember that stuff at all?).  Bui
 
 1. Build a form for creating a new user. See the [W3Schools page for forms](https://www.w3schools.com/tags/tag_form.asp) if you’ve totally forgotten how they work. Specify the `method` and the `action` attributes in your `<form>` tag (use `$ rails routes` to see which HTTP method and path are being expected based on the resource you created).  Include the attribute `accept-charset="UTF-8"` as well, which Rails naturally adds to its forms to specify Unicode character encoding.
 
-   You don't want to forget about safety, so make sure you provide the form with an authenticity token. If you don't remember how to do so, go back to the [Form Basics lesson](https://www.theodinproject.com/lessons/ruby-on-rails-form-basics#railsifying-your-form) and refresh your memory.
-
 1. Create the proper input tags for your user's fields (email, username and password).  Use the proper password input for "password".  Be sure to specify the `name` attribute for these inputs.  Make label tags which correspond to each field.
-1. Submit your form and view the server output. You will see nothing happening, no error message, nothing. If you look at the network tab in your inspector or at your server log, you can see that a request was issued, but a response of `204 No Content` is returned.
+
+1. For CSRF safety with Rails 7, Turbo is enabled by default in new apps. Turbo intercepts form submission and makes a partial XHR request instead of a standard HTTP request with full page reload. To get a better grasp of Rails protection against [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery), let's take a short detour and disable Turbo for this form by setting the data attribute `data-turbo=false`.
+In the dev tools network tab, compare the request type with and without the `data-turbo=false` attribute to confirm it works as expected.
+
+1. Submit your form and view the server output. The request should be intercepted before reaching your controller and the server will throw a CSRF error `ActionController::InvalidAuthenticityToken  (Can't verify CSRF token authenticity.)`.
+
+    That's because Rails by default automatically protects you from [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) and it requires you to verify that the form was actually submitted from a page you generated. In order to do so, it generates an ["authenticity token"](http://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf) which looks like gibberish but helps Rails match the form with your session and the application.
+
+   So, if you want to create your own form that gets handled by Rails, you need to provide the token somehow as well. Luckily, Rails gives you a method called `form_authenticity_token` to do so
+
+   ```erb
+   <input
+   type="hidden"
+   name="authenticity_token"
+   value="<%= form_authenticity_token %>"
+   >
+   ```
+
+   You'll now notice the token in the server output:
+
+   ```bash
+   ...
+   Parameters: {"utf8"=>"✓", "authenticity_token"=>"jJa87aK1OpXfjojryBk2Db6thv0K3bSZeYTuW8hF4Ns=", "email"=>"foo@bar.com", "commit"=>"Submit Form"}
+   ```
+
+1. However, if you look at the server output, you will see nothing much happening after the log of parameters received. The log should indicate a completed response with status 204 (no content). And indeed, if you look at the network tab in your inspector, you can see that a request was issued, but a response of `204 No Content` is returned.
 1. That's A-OK because it means that we've successfully gotten through our blank `#create` action in the controller (and didn't specify what should happen next).  Look at the server output.  It should include the parameters that were submitted, looking something like:
 
    ```bash
@@ -45,6 +68,8 @@ The first form you build will be mostly HTML (remember that stuff at all?).  Bui
    ```
 
 That looks a whole lot like what you normally see when Rails does it, right?
+
+#### Controller setup
 
 1. Go into your UsersController and build out the `#create` action to take those parameters and create a new User from them.  If you successfully save the user, you should redirect back to the New User form (which will be blank) and if you don't, it should render the `:new` form again (but it will still have the existing information entered in it).  You should be able to use something like:
 
@@ -71,7 +96,7 @@ That looks a whole lot like what you normally see when Rails does it, right?
 
 1. You'll get some errors because now your controller will need to change.  But recall that we're no longer allowed to just directly call `params[:user]` because that would return a hash and Rails' security features prevent us from doing that without first validating it.
 1. Go into your controller and comment out the line in your `#create` action where you instantiated a `::new` User (we'll use it later).
-1. Implement a private method at the bottom called `user_params` which will `permit` and `require` the proper fields (see the [Controllers Lesson](/lessons/ruby-on-rails-controllers) for a refresher).
+1. Implement a private method at the bottom called `user_params` which will `expect` the proper fields (see the [Controllers Lesson](/lessons/ruby-on-rails-controllers) for a refresher).
 1. Add a new `::new` User line which makes use of that new allow params method.
 1. Submit your form now.  It should work marvelously (once you debug your typos)!
 
@@ -84,6 +109,18 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 1. See the [Form Tag API Documentation](http://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag) for a list and usage of all the input methods you can use with `#form_tag`.
 1. Test out your form.  You'll need to change your `#create` method in the controller to once again accept normal top level User attributes, so uncomment the old `User.new` line and comment out the newer one.
 1. You've just finished the first step.
+
+#### Turn Turbo back ON
+
+Above, we asked to disable Turbo for the sake of the exercise.
+
+1. Re-enable form submission with Turbo by removing the `data-turbo=false` attribute on the form tag, then also remove the hidden input with CSRF token tag and submit.
+
+   No more CSRF error?!
+
+1. The form is now submitted with Turbo, yet Rails still protects you by verifying a CSRF token. Where does this token comes from? Check your inspector and your `application.html.erb` template. Can you find a CSRF token that is always available? Remove this one too from `application.html.erb`, and verify that the server hits back with a CSRF error.
+
+1. Reinstate the CSRF token tag in both places and carry on.
 
 #### Railsy-er forms with #form_with
 

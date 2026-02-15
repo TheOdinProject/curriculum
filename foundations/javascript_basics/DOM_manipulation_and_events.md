@@ -57,6 +57,18 @@ console.log(display); // <div class="display"></div>
 
 So you're identifying a certain node based on its relationships to the nodes around it.
 
+<div class="lesson-note" markdown="1">
+
+#### JavaScript objects
+
+You might be wondering to yourself why there is a dot (`.`) notation following our variables. For example, `container.firstElementChild`.
+
+This is how we access objects in JavaScript. An object in JavaScript is a data type that holds properties. A property is a "key: value" pair. For example, our `container` contains many properties and we can access its first element child by accessing the `firstElementChild` key, to retrieve its value. In this case, its value is a `<div>` element with the class `display`.
+
+This is all you need to know about JavaScript objects for now. Look forward to the Objects Basics lesson to learn more!
+
+</div>
+
 ### DOM methods
 
 When your HTML code is parsed by a web browser, it is converted to the DOM, as was mentioned above. One of the primary differences is that these nodes are JavaScript objects that have many properties and methods attached to them. These properties and methods are the primary tools we are going to use to manipulate our webpage with JavaScript.
@@ -66,7 +78,9 @@ When your HTML code is parsed by a web browser, it is converted to the DOM, as w
 - `element.querySelector(selector)` - returns a reference to the first match of *selector*.
 - `element.querySelectorAll(selectors)` - returns a "NodeList" containing references to all of the matches of the *selectors*.
 
-<div class="lesson-note">
+<div class="lesson-note" markdown="1">
+
+#### Performance consideration
 
 There are several other, more specific queries, that offer potential (marginal) performance benefits, but we won't be going over them now.
 
@@ -178,7 +192,9 @@ div.innerHTML = "<span>Hello World!</span>";
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-Note that using textContent is preferred over innerHTML for adding text, as innerHTML should be used sparingly to avoid potential security risks.
+#### Security risks of innerHTML
+
+Using textContent is preferred over innerHTML for adding text, as innerHTML should be used sparingly to avoid potential security risks.
 To understand the dangers of using innerHTML, watch this [video about preventing the most common cross-site scripting attack](https://youtube.com/watch?v=ns1LX6mEvyM).
 
 </div>
@@ -219,6 +235,8 @@ In the JavaScript file, first we get a reference to the `container` div that alr
 Keep in mind that the JavaScript does *not* alter your HTML, but the DOM - your HTML file will look the same, but the JavaScript changes what the browser renders.
 
 <div id="important-note" class="lesson-note" markdown="1">
+
+#### Timing of JavaScript
 
 Your JavaScript, for the most part, is run whenever the JS file is run or when the script tag is encountered in the HTML. If you are including your JavaScript at the top of your file, many of these DOM manipulation methods will not work because the JS code is being run *before* the nodes are created in the DOM. The simplest way to fix this is to include your JavaScript at the bottom of your HTML file so that it gets run after the DOM nodes are parsed and created.
 
@@ -283,6 +301,8 @@ btn.onclick = () => alert("Hello World");
 ```
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Reviewing arrow function syntax
 
 If you need to review the arrow syntax `() =>`, check this [article about arrow functions](http://javascript.info/arrow-functions-basics).
 
@@ -356,11 +376,13 @@ btn.addEventListener("click", function (e) {
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Understanding callbacks
+
 When we pass in `alertFunction` or `function (e) {...}` as an argument to `addEventListener`, we call this a `callback`. A callback is simply a function that is passed into another function as an argument.
 
 </div>
 
-The `e` parameter in that callback function contains an object that references the **event** itself. Within that object you have access to many useful properties and methods (functions that live inside an object) such as which mouse button or key was pressed, or information about the event's **target** - the DOM node that was clicked.
+The `e` parameter in that callback function contains an object that references the **event** itself. Within that object you have access to many useful properties and methods (functions that live inside an object) such as which mouse button or key was pressed, or information about the event's **target** - the DOM node that was clicked. There's nothing magical about `e` as a name or where it comes from. JavaScript knows the parameter is an event because an event listener callback takes an `Event` object by definition. When the callback is run, the event handler passes in its own reference to the event. You can read more about the event objects on [MDN's introduction to events](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events#event_objects).
 
 Try this:
 
@@ -422,18 +444,22 @@ You can find a more complete list with explanations of each event on [W3Schools 
 
 Manipulating web pages is the primary benefit of the JavaScript language! These techniques are things that you are likely to be messing with *every day* as a front-end developer, so let's practice!
 
-1. Complete [MDN's Active Learning sections on DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents#active_learning_a_dynamic_shopping_list) to test your skills!
-1. Read the following sections from JavaScript Tutorial's series on the DOM to get a broader idea of how events can be used in your pages. Note that some of the methods like `getElementById` are older and see less use today.
+1. Read the following sections from JavaScript Tutorial's series on the DOM to get a broader idea of how events can be used in your pages.
 
-   As you read, remember that the general ideas can be applied to any event, not only the ones used in examples - but information specific to a certain event type can always be found by checking documentation.
+   As you read, remember that the general ideas can be applied to any event, not only the ones used in examples - but information specific to a certain event type can always be found by checking documentation. Remember that the goal here isn't to deeply understand these concepts and be able to immediately apply them. Instead, you should be building awareness of the various tools at your disposal related to events.
 
    - [JavaScript events](https://www.javascripttutorial.net/javascript-dom/javascript-events/)
-   - [Page load events](https://www.javascripttutorial.net/javascript-dom/javascript-page-load-events/)
    - [Mouse events](https://www.javascripttutorial.net/javascript-dom/javascript-mouse-events/)
    - [Keyboard events](https://www.javascripttutorial.net/javascript-dom/javascript-keyboard-events/)
    - [Event delegation](https://www.javascripttutorial.net/javascript-dom/javascript-event-delegation/)
    - [The dispatchEvent method](https://www.javascripttutorial.net/javascript-dom/javascript-dispatchevent/)
    - [Custom events](https://www.javascripttutorial.net/javascript-dom/javascript-custom-events/)
+
+1. Read through [Understanding Callbacks in JavaScript](https://dev.to/i3uckwheat/understanding-callbacks-2o9e) for a more in-depth understanding of callbacks.
+
+1. Complete the following sections from MDN to test your skills:
+   - [Doing some basic DOM manipulation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting#doing_some_basic_dom_manipulation)
+   - [Creating a dynamic shopping list](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting#creating_a_dynamic_shopping_list)
 
 </div>
 
@@ -457,18 +483,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the difference between the return values of `querySelector` and `querySelectorAll`?](#query-selectors)
 - [What does a "NodeList" contain?](#query-selectors)
 - [Explain the difference between "capture" and "bubbling".](https://www.youtube.com/watch?v=F1anRyL37lE)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Eloquent JS - DOM](http://eloquentjavascript.net/13_dom.html)
-- [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
-- [Plain JavaScript](https://plainjs.com/javascript/) is a reference of JavaScript code snippets and explanations involving the DOM, as well as other aspects of JS. If you've already learned jQuery, it will help you figure out how to do things without it.
-- This [W3Schools](https://www.w3schools.com/js/js_htmldom.asp) article offers easy-to-understand lessons on the DOM.
-- [JS DOM Crash Course](https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbYE6Ik_EuXA2iZFcE082B3s) is an extensive and well explained 4 part video series on the DOM by Traversy Media.
-- [Understanding The Dom](https://www.digitalocean.com/community/tutorial_series/understanding-the-dom-document-object-model) is an aptly named article-based tutorial series by DigitalOcean.
-- [Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events) by MDN covers the same topics you learned in this lesson on events.
-- [Wes Bos's Drumkit](https://www.youtube.com/watch?v=VuN8qwZoego) JavaScript30 program reinforces the content covered in the assignment. In the video you will notice that a deprecated [keycode](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode) keyboard event is used, replace it with the recommended [code](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code) keyboard event and replace the `data-key` tags accordingly.
-- [Event Capture, Propagation and Bubbling video](https://www.youtube.com/watch?v=F1anRyL37lE) from Wes Bos's JavaScript30 program.
-- [Understanding Callbacks in JavaScript](https://dev.to/i3uckwheat/understanding-callbacks-2o9e) for a more in-depth understanding of callbacks.

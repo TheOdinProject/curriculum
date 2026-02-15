@@ -29,10 +29,19 @@ Ruby is a big language with lots of syntax, so we've broken the concepts up into
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read the Introduction of [Launch School's *Introduction to Programming with Ruby*](https://launchschool.com/books/ruby/read/introduction) book to learn a bit more about the history of Ruby.
-  1. To understand how you'll be interacting with Ruby throughout this course, read through the [Your Tools chapter of The *Ruby for Beginners* book](http://ruby-for-beginners.rubymonstas.org/your_tools.html) from Ruby Monstas. (Note that even though they recommend using Sublime as your text editor, any code editor will work. For the record, we still tend to prefer VS Code around here!)
-  1. Skip the installation instructions and read through the ["Preparations" chapter of Launch School's *Introduction to Programming with Ruby* book](https://launchschool.com/books/ruby/read/preparations#usingacodeeditor) for some helpful advice about using and learning Ruby effectively. Also, you won't be able to install Pry until you have installed Ruby in the next lesson.
-  1. Now that you've learned a few ways to interact with your Ruby code, read about [how to use code files inside IRB](https://stackoverflow.com/questions/13112245/ruby-how-to-load-a-file-into-interactive-ruby-console-irb/38533339), which will be helpful for quick troubleshooting and experimenting.
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### LaunchSchool's AI chatbot
+
+This course will frequently link resources from LaunchSchool and they recently incorporated a chatbot for learing support into their platform. We do not recommend using it for your learning in this curriculum for the reasons that we have outlined in our [Motivation and Mindset lesson](https://www.theodinproject.com/lessons/foundations-motivation-and-mindset#a-note-on-ai-code-generation). If you are ever stuck on a problem or confused about any of the content you are reading, you should reach out to us in [our Discord server](https://discord.com/invite/fbFCkYabZB) instead.
+
+</div>
+
+1. Read the Introduction of [Launch School's *Introduction to Programming with Ruby*](https://launchschool.com/books/ruby/read/introduction) book to learn a bit more about the history of Ruby.
+
+1. To understand how you'll be interacting with Ruby throughout this course, read through the [Your Tools chapter of The *Ruby for Beginners* book](http://ruby-for-beginners.rubymonstas.org/your_tools.html) from Ruby Monstas. (Note that even though they recommend using Sublime as your text editor, any code editor will work. For the record, we still tend to prefer VS Code around here!)
+1. Skip the installation instructions and read through the ["Preparations" chapter of Launch School's *Introduction to Programming with Ruby* book](https://launchschool.com/books/ruby/read/preparations#usingacodeeditor) for some helpful advice about using and learning Ruby effectively. Also, you won't be able to install Pry until you have installed Ruby in the next lesson.
+1. Now that you've learned a few ways to interact with your Ruby code, read about [how to use code files inside IRB](https://stackoverflow.com/questions/13112245/ruby-how-to-load-a-file-into-interactive-ruby-console-irb/38533339), which will be helpful for quick troubleshooting and experimenting.
 
 </div>
 

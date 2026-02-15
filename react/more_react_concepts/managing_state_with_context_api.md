@@ -36,7 +36,7 @@ export default function App() {
   ]);
   const products = /* some custom hook that fetches products and returns the fetched products */
 
-  const addToCart = () => {
+  const addToCart = (product) => {
     // add to cart logic (this adds to cartItems)
   };
 
@@ -117,7 +117,7 @@ To simplify our application and reduce complexity, we can implement the Context 
 
 1. `createContext` - This "creates the context" Duh... But yes, it's how we can create the context. It takes in any value, be it a number, string, or object, which can be referred to as the *default value* of the context, and returns a context object that can be used to pass down data to components
 1. `useContext` - This hook is used to consume data from a context object created by `createContext`. We can use this hook inside our component to retrieve the data that we need. This hook accepts the context object as an argument
-1. `ContextObject.Provider` - The context object comes with the `Provider` component that accepts a prop called `value`, which is the context value that's going to be passed down to the components no matter how deeply they're nested. In other words, a way to "provide" the context value to these components
+1. `ContextObject` - The context object is a component that accepts a prop called `value`, which is the context value that's going to be passed down to the components no matter how deeply they're nested. In other words, a way to "provide" the context value to these components. Prior to React 19, `ContextObject.Provider` was used instead of `ContextObject`, so wherever you see `Provider` we mean `ContextObject`
 
 We can start by using the `createContext` function that can be imported from the `react` module.
 
@@ -147,7 +147,7 @@ const ShopContext = createContext(null);
 
 However, the reason why we're adding the object, is so that even if we somehow use the context inside a component that is not nested inside a Provider, because we have set a *default value*, our application will not break (This is also good for testing since we don't need to wrap a component in a Provider to get a value) and also take advantage of IDE features like auto-completion when we have an object as the value. When we use this context in our components, we will be able to access the properties directly from the context. It's basically a bonus! It's up to you if you want to set the default value to the object or just `null` because we're going to overwrite this default value anyway.
 
-So how do we use this context? And that is by using the `Provider` component of the Context object and nesting the children components inside it. In this example, we will remove the props altogether.
+So how do we use this context? And that is by using the Context object as a component and nesting the children components inside it. In this example, we will remove the props altogether.
 
 ```jsx
 import { useState, createContext } from "react";
@@ -165,17 +165,17 @@ export default function App() {
   ]);
   const products = /* some custom hook that fetches products and returns the fetched products */
 
-  const addToCart = () => {
+  const addToCart = (product) => {
     // add to cart logic (this adds to cartItems)
   };
 
   return (
     /* We are going to pass the things that we want to inject to these components using the value prop */
     /* This value prop will overwrite the default value */
-    <ShopContext.Provider value={{ cartItems, products, addToCart }}>
+    <ShopContext value={{ cartItems, products, addToCart }}>
       <Header />
       <ProductDetail />
-    </ShopContext.Provider>
+    </ShopContext>
   );
 }
 ```
@@ -274,9 +274,10 @@ Although the Context API can be a powerful tool for managing state in larger Rea
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
+- [What problems can prop drilling cause?](https://kentcdodds.com/blog/prop-drilling#what-problems-can-prop-drillingcause)
+- [How can we avoid problems with prop drilling?](https://kentcdodds.com/blog/prop-drilling#how-can-we-avoid-problems-with-prop-drilling)
 - [What are the benefits of using the Context API over passing props down through multiple levels of components?](#context-api-benefits)
 - [What are the drawbacks in using the Context API?](#drawbacks-of-using-context-api)
-- [What are the ways you can avoid prop drilling?](https://kentcdodds.com/blog/prop-drilling#how-can-we-avoid-problems-with-prop-drilling)
 
 ### Additional resources
 

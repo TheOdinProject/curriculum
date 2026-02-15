@@ -331,6 +331,12 @@ There's a useful book written on anti-patterns, which can help you clean up your
 
 [Internationalization and Localization](http://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adapting your application to fit specific geographies and/or languages. It's outside our scope to cover, but for those who are interested, check out this [Sitepoint tutorial on internationalization](http://www.sitepoint.com/go-global-rails-i18n/), as suggested by K. Bates.
 
+### Conclusion
+
+In this lesson we covered some fairly random and intricate concepts but useful stuff to at least get familiar with, even if you're not going to use it every day.  Experience is the real key here -- in the course of building awesome stuff you'll run into the need for all of the things you just learned and it might just save you a lot of time and complexity in your code.
+
+The more general principles like SOLID design and metaprogramming will be useful to you regardless of whether you stick with Ruby and Rails or move on to better and brighter things.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -341,15 +347,9 @@ There's a useful book written on anti-patterns, which can help you clean up your
   1. Skim the same guide, chapter 4.  Some stuff we've seen but most is just to give you a sense for what's possible.  When you need it, you'll probably Google your way back there.
   1. Read the [Rails Guide on Layouts](http://guides.rubyonrails.org/layouts_and_rendering.html#using-nested-layouts) section 3.5 to see how to pass information between your view file and your layout file, including CSS styles.  Really take a minute to understand what's going on in the example there.
   1. If you're interested, take a peek at [Ruby metaprogramming](https://web.archive.org/web/20210514184321/http://ruby-metaprogramming.rubylearning.com/). It's not essential to building early Rails apps but you'll definitely start running into it more in "the wild".
-  1. Glance through this [Slideshare Presentation on SOLID principles](http://www.slideshare.net/jcfischer/solid-ruby-solid-rails).
+  1. Glance through this [Slideshare Presentation on SOLID principles](http://www.slideshare.net/jcfischer/solid-ruby-solid-rails) or [download the PDF directly](https://github.com/MichaelMahlberg/RailsWayCon2010/blob/master/railswaycon10_SOLID_ruby.pdf) if you prefer.
 
 </div>
-
-### Conclusion
-
-In this lesson we covered some fairly random and intricate concepts but useful stuff to at least get familiar with, even if you're not going to use it every day.  Experience is the real key here -- in the course of building awesome stuff you'll run into the need for all of the things you just learned and it might just save you a lot of time and complexity in your code.
-
-The more general principles like SOLID design and metaprogramming will be useful to you regardless of whether you stick with Ruby and Rails or move on to better and brighter things.
 
 ### Knowledge check
 

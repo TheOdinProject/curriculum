@@ -30,7 +30,7 @@ on <a href="https://codepen.io">CodePen</a>.</span>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-To ensure a good user experience and to meet accessibility guidelines, we should always indicate which fields are required. This will often be done by adding an asterisk(\*) to the required field label like we have done in the example.
+To ensure a good user experience and to meet accessibility guidelines, we should always indicate which fields are required. This will often be done by adding an asterisk(\*) to the required field label like we have done in the example. You could also add a message that makes the meaning of the asterisk(\*) clear to the user.
 
 ### Text length validations
 
@@ -52,6 +52,14 @@ To add the minimum length validation, we give the form control a `minlength` att
 
 Try entering less than three characters into the text area and clicking the post button to see the validation in action.
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### minlength doesn't imply required
+
+You can try it yourself in the above example by not entering anything in the input and it will still submit. This is because, as mentioned in [MDN's docs on minlength](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/minlength), "Constraint validation is only applied when the value is changed by the user."
+
+</div>
+
 #### Maximum length validation
 
 To add a maximum length validation, we give the form control a `maxlength` attribute with an integer value which represents the maximum number of characters we want to allow in the form control:
@@ -70,7 +78,7 @@ With the maximum length validation, the browser will prevent users from entering
 
 #### Combining validations
 
-HTML allows us to apply as many validations as we wish to a form control. For example, we can give our post textarea both `minlength` and `maxlength` validations:
+HTML allows us to apply as many validations as we wish to a form control. For example, we can give our post `<textarea>` both `minlength` and `maxlength` validations:
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="vYeZGVY" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -204,12 +212,9 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read and follow along to [MDN's Client-Side Form Validation Guide](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
-   - Skip the section on "Validating forms using JavaScript". This will be covered in a future lesson.
-
+1. Read and follow along to [MDN's Client-Side Form Validation Guide](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation). Skip the section on "Validating forms using JavaScript". This will be covered in a future lesson.
 1. Go through SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/). You can skip the section on "JavaScript and the Constraint Validation API" and "Creating a Custom Form Validator".
-
-1. Read Silo Creativo's article [Improving UX in forms](https://www.silocreativo.com/en/css-rescue-improving-ux-forms/).
+1. Look through this X thread of the [do’s and don’ts for form validation UX](https://threadreaderapp.com/thread/1400388896136040454.html).
 
 </div>
 
@@ -222,13 +227,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How can you validate the minimum and maximum of numeric inputs?](#number-range-validations)
 - [What can you use the pattern validation for?](#pattern-validations)
 - [What pseudo CSS selectors are available for styling valid and invalid inputs?](#styling-validations)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Look through this X thread of the [do’s and don’ts for form validation UX](https://threadreaderapp.com/thread/1400388896136040454.html).
-- Check out these [10 Guidelines for form validation design](https://www.nngroup.com/articles/errors-forms-design-guidelines/).
-- [Learn Regex: A Beginner’s Guide](https://www.sitepoint.com/learn-regex/) is a great resource for understanding how regex patterns are built and shows how to use a fantastic tool for creating them.
-- [Demystifying Regex with Practical Examples](https://www.sitepoint.com/demystifying-regex-with-practical-examples/) contains some practical examples in detail so you can understand how they work rather than copying and pasting.
-- One last resource on regular expressions that can be helpful is MDN's [regular expression syntax cheatsheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet). This cheatsheet does a great job explaining the syntax of regular expressions in more detail.

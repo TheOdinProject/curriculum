@@ -119,7 +119,7 @@ We'll do a broad overview of the process here:
 1. Make sure you've allowed your `params` to include the nested attributes by appropriately including them in your Strong Parameters controller method.  See the reading for examples of how to do this.
 1. Build the form in the view.  Use the `#fields_for` method to effectively create a `#form_with` inside your existing `#form_with` form.
 
-There are a couple new aspects to this process.  You saw `#fields_for` in the [Basic Forms lesson](/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/form-basics) but it probably has new meaning to you now.  It's basically how you create a form within a form (which should make sense since it's actually used behind the scenes by `#form_with`).  In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
+There are a couple new aspects to this process.  With `#fields_for`, you basically create a form within a form (which should make sense since it's actually used behind the scenes by `#form_with`).  In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
 
 ```erb
 <%= form_with model: @user do |f| %>
@@ -169,16 +169,15 @@ Sometimes, for a record that already exists, you want to either deselect a dropd
 
 Try making a hidden field in your form (or nested form) that has the same name as your checkboxes or dropdown but only contains the value `""`.  Now you'll get that attribute to show up in your `params` hash no matter what and you can handle deleting the records however you'd like appropriate.
 
-Sometimes Rails helper methods will do it for you, but make sure you know what your form is actually submitting (if anything) if you deselect all options!
+Sometimes [Rails helper methods will insert hidden fields for you](https://api.rubyonrails.org/v8.0.0/classes/ActionView/Helpers/FormHelper.html#method-i-checkbox-label-Gotcha), but make sure you know what your form is actually submitting (if anything) if you deselect all options!
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read the Rails Guide on Forms section 5, which covers [populating a form with a collection of objects](https://guides.rubyonrails.org/form_helpers.html#choices-from-a-collection-of-arbitrary-objects).
+  1. Read the Rails Guide on Forms section 5, which covers [populating a form with a collection of objects](https://guides.rubyonrails.org/form_helpers.html#collection-related-helpers).
   1. Read the Same Rails Guide on Forms section 9, which covers [accepting nested form data](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms).
   1. Read the Same Rails Guide on Forms section 8, which covers the [parameter conventions for nested forms](https://guides.rubyonrails.org/form_helpers.html#form-input-naming-conventions-and-params-hash).
-  1. Read this blog post from [Peter Rhoades on working with nested forms](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html). The example covers a lot of the things we've gone over so far, so follow along. Also note how he does the allowing of nested attributes in Rails 4.
 
 </div>
 
@@ -186,7 +185,7 @@ Sometimes Rails helper methods will do it for you, but make sure you know what y
 
 We've covered two of the more common use cases for complex forms -- pre-populating a form with objects and creating multiple objects with a single form.  At this point, even if you're uncomfortable, you should have all the tools you need to work through creating a form.  We'll get your hands dirty in the project, have no fear.
 
-The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferrable to every form you'll ever make.
+The best part?  This is more or less the most complicated conceptual stuff with learning Rails.  Actually, it's not even really Rails-specific... once you're comfortable with the HTML that forms require and how the parameters get submitted to your controller, mapping that to the correct Rails conventions or helpers is the easy part.  So everything you've learned may just be transferable to every form you'll ever make.
 
 ### Knowledge check
 

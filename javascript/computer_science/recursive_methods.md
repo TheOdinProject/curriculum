@@ -14,35 +14,30 @@ In this brief lesson, you'll get a chance to learn more about when and how to us
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Why is recursion a useful technique for solving a big problem?
-- What are the limitations of using recursive solutions?
-- What types of problems are more suited for loops than recursion?
-- What is meant by "recursive depth"?
-- What is a "stack overflow" (the concept, not the website)?
-- Why is that relevant to a recursive problem?
+- Understand why recursion is a useful technique for solving large problems.
+- Recognize the limitations of using recursive solutions.
+- Identify which types of problems are better solved using loops instead of recursion.
+- Learn what is meant by the concept of "recursive depth".
+- Understand what a "stack overflow" is (the concept, not the website).
+- Learn why stack overflow is relevant to recursive problems.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read this [intro to recursion](https://javascript.info/recursion). You do *not* need to complete the exercises at the end of the article.
-  1. Watch this [explanation of recursion by Web Dev Simplified](https://www.youtube.com/watch?v=6oDQaB2one8) and this additional [example of recursion by DevSage](https://youtu.be/LteNqj4DFD8?t=340).
-  1. Watch this [Video on Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM) from CS50.
-  1. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
+1. Read this [intro to recursion](https://javascript.info/recursion). You do *not* need to complete the exercises at the end of the article.
+1. Watch this [explanation of recursion by Web Dev Simplified](https://www.youtube.com/watch?v=6oDQaB2one8) and this additional [example of recursion by DevSage](https://youtu.be/LteNqj4DFD8?t=340).
+1. Watch this [Video on Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM) from CS50.
+1. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
+1. Go to [the `computer_science/recursion/` directory of The Odin Project's JavaScript exercises repo](https://github.com/TheOdinProject/javascript-exercises/tree/main/computer_science/recursion) and complete each of the exercises in order. Be sure to review the README for each exercise prior to completing it. If you need to, revisit the repo's README for general instructions on forking, cloning, and using the exercises.
 
-</div>
+   <div class="lesson-note lesson-note--tip" markdown="1">
 
-#### Test yourself
+   #### Use a debugger!
 
-<div class="lesson-content__panel" markdown="1">
+   It can be rather difficult trying to track what's going on in a recursive function layer by layer, don't put yourself through that! If you haven't already been making use of a debugger when solving some problems (you'll have been missing out on a lot if not!), now is as good a time as any to get familiar with it as it can help make navigating the code flow so much easier.
 
-  1. Solve each of the questions from this [Code Quiz](https://www.codingame.com/playgrounds/5422/js-interview-prep-recursion) on Recursion. It is not important to have recursive algorithms committed to memory at this point; just understand how to create and use them.
-
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-The solution for "Question 6: Search JS object" is incomplete. See [a more accurate solution for `contains()`](https://gist.github.com/JoshDevHub/b00125f483d4a1ecc257eaa030916973) after you solve it.
-
-</div>
+   </div>
 
 </div>
 

@@ -107,7 +107,7 @@ asyncFunctionCall().catch(err => {
 });
 ```
 
-But there is another way: the mighty [try/catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) block! If you want to handle the error directly inside the async function, you can use `try/catch` with `async/await` syntax. If JavaScript throws an error in the `try` block, the `catch` block code will run instead (this can also be used for synchronous code).
+But there is another way: the mighty [try...catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) statement! If you want to handle the error directly inside the async function, you can use `try...catch` with `async/await` syntax. If JavaScript throws an error in the `try` block, the `catch` block code will run instead (this can also be used for synchronous code).
 
 ```javascript
 async function getPersonsInfo(name) {
@@ -130,30 +130,36 @@ Remember the Giphy API practice project? (If not, you should go back and complet
 ```javascript
 <script>
   const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
+  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats')
     .then(function(response) {
       return response.json();
     })
     .then(function(response) {
       img.src = response.data.images.original.url;
+    })
+    .catch(function (error) {
+      console.error(error);
     });
 </script>
 ```
 
-Since `await` does not work on the global scope, we will have to create an `async` function that wraps our API call to Giphy.
+Since `await` does not work in the top level of a non-module script, we will have to create an `async` function that wraps our API call to Giphy.
 
 ```javascript
 <script>
   const img = document.querySelector('img');
 
   async function getCats() {
-    fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
+    fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats')
       .then(function(response) {
         return response.json();
       })
       .then(function(response) {
         img.src = response.data.images.original.url;
       })
+      .catch(function(error) {
+        console.error(error);
+      });
   }
 </script>
 ```
@@ -165,9 +171,11 @@ Now that we have a function that is asynchronous, we can then start refactoring 
   const img = document.querySelector('img');
 
   async function getCats() {
-    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'});
+    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats');
     response.json().then(function(response) {
       img.src = response.data.images.original.url;
+    }).catch(function(error) {
+      console.error(error);
     });
   }
 </script>
@@ -180,9 +188,27 @@ Since `response` is still the same object we have passed to the `.then()` block 
   const img = document.querySelector('img');
 
   async function getCats() {
-    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'});
+    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats');
     const catData = await response.json();
     img.src = catData.data.images.original.url;
+  }
+</script>
+```
+
+For error handling, instead of chaining a `.catch()` method, we would need a `try...catch` statement. We wrap the normal code in a `try` block then use a `catch` block for the error handling part.
+
+```javascript
+<script>
+  const img = document.querySelector('img');
+
+  async function getCats() {
+    try {
+      const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats');
+      const catData = await response.json();
+      img.src = catData.data.images.original.url;
+    } catch (error) {
+      console.error(error);
+    }
   }
 </script>
 ```
@@ -194,9 +220,13 @@ To use this function, we just need to call it with `getCats()` in our code.
   const img = document.querySelector('img');
 
   async function getCats() {
-    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'});
-    const catData = await response.json();
-    img.src = catData.data.images.original.url;
+    try {
+      const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats');
+      const catData = await response.json();
+      img.src = catData.data.images.original.url;
+    } catch (error) {
+      console.error(error);
+    }
   }
   getCats();
 </script>
@@ -217,18 +247,8 @@ This code will behave exactly like the code from the last lesson; it just looks 
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [How do you declare an `async` function?](#the-async-keyword)
 - [What does the `async` keyword do?](#the-async-keyword)
 - [What does the `await` keyword do?](#the-await-keyword)
 - [What is returned from an `async` function?](https://javascript.info/async-await#summary)
 - [What happens when an error is thrown inside an `async` function?](https://javascript.info/async-await#error-handling)
 - [How can you handle errors inside an `async` function?](https://javascript.info/async-await#error-handling)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This [Change promises to async/await video](https://www.youtube.com/watch?v=COKdtOgopWQ) is an example of how you can change callbacks, to promises, to async/await.
-- This [Promises, Async and Await video](https://www.youtube.com/watch?v=vn3tm0quoqE) gives a comprehensive view of Promises, async, and await.
-- For a more interactive explanation and example, try a [Scrim on async and await](https://scrimba.com/scrim/crd4eMc6?embed=odin,mini-header,no-next-up).
-- This [blog post about Promises From The Ground Up](https://www.joshwcomeau.com/javascript/promises/#why-would-they-design-it-this-way-1) delves into how Promises work.

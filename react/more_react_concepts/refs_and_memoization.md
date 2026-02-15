@@ -38,7 +38,7 @@ function ButtonComponent() {
 The implementation is straightforward:
 
 1. We imported `useRef` and `useEffect` in the `react` module.
-1. We created a ref object `buttonRef` with a `current` property initially set to `null`. Yes, passing an argument to `useRef` sets the value of `current` to `null` just like `useState`. This argument is ignored in subsequent renders.
+1. We call `useRef` with an argument of `null`, which returns an object with a property called `current` whose initial value is set to the passed argument (which in this case, is `null`). This argument—like the passed argument for `useState`—is ignored in subsequent renders.
 1. Created a `useEffect` to be executed once on the mount of the component that will try to call the `focus` method of the button element.
 1. We've attached `buttonRef` to the `ref` attribute of the button element. This establishes the connection between the `buttonRef` and the button in the DOM.
 
@@ -68,7 +68,7 @@ We can also see that it's similar to the `useState` hook in that it can store so
 
 ### The useMemo hook
 
-In all of the examples, we would advise you to use the [Profiler component](https://react.dev/reference/react/Profiler) that is provided in the `react` module. If you want a more interactive alternative, use the `Profiler` in the [React Developer Tools](https://react.dev/learn/react-developer-tools). To measure rendering performance. Note that sometimes you don't need to optimize anything because of how fast things are already. As the famous saying goes in software development:
+In all of the examples, we would advise you to use the [Profiler component](https://react.dev/reference/react/Profiler) that is provided in the `react` module. If you want a more interactive alternative, use the `Profiler` in the [React Developer Tools](https://react.dev/learn/react-developer-tools) to measure rendering performance. Note that sometimes you don't need to optimize anything because of how fast things are already. As the famous saying goes in software development:
 
 > Premature optimization is the root of all evil -- The Art of Computer Programming by Donald Knuth
 
@@ -135,7 +135,7 @@ function Cart({ products }) {
 
 In the example above, we can easily memoize the calculated value by wrapping it in a `useMemo`, as the syntax is pretty much the same as `useEffect` and almost works the same. Where `useMemo` will also *execute* the callback on mount, and on subsequent re-renders, it will only *re-execute* the callback whenever one of the dependencies *changes*. In our case, whenever the `products` prop changes.
 
-This way, whenever a user opens/closes the cart multiple times, it will not recalculate the `totalPrice` and use the cached value as long as`products` did not change.
+This way, whenever a user opens/closes the cart multiple times, it will not recalculate the `totalPrice` and use the cached value as long as `products` did not change.
 
 #### Referential equality checks
 
@@ -143,7 +143,7 @@ For this example, we will use the `Profiler` component in the `react` module to 
 
 You do not need to start a React application for this. We've already got you covered a bit later, we will be sharing an interactive example, but for now, think through the code on what you think will happen, what could happen, and so on. This could also be a great exercise in reading code and visualizing how it works.
 
-Do note that this is just a very basic example. You will encounter a lot of passing of values to other components as prop, components that are very heavy to render.
+Do note that this is just a very basic example. You will encounter a lot of passing of values to other components as props, components that are very heavy to render.
 
 ```jsx
 import { useState } from "react";
@@ -254,7 +254,7 @@ const value = useMemo(
   [someState, someFunction]
 );
 
-return <Context.Provider value={value}>{children}</Context.Provider>;
+return <Context value={value}>{children}</Context>;
 ```
 
 ### The useCallback hook
@@ -315,9 +315,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the difference between useMemo and useCallback?](#usememo-or-usecallback)
 - [How do useMemo and useCallback help optimize the performance of React components?](#optimization-description)
 - [When should you memoize a value?](https://kentcdodds.com/blog/usememo-and-usecallback)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

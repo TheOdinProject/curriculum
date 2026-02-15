@@ -120,20 +120,6 @@ Giphy has several methods for searching and finding GIFs which you can read abou
 
 Go ahead and try that URL (with YOUR API key) in a browser. If everything goes well you should get a relatively long string of data and no errors.
 
-### CORS
-
-A side note before we start putting this into our code. For security reasons, by default, browsers restrict HTTP requests to outside sources (which is exactly what we're trying to do here). There's a very small amount of setup that we need to do to make fetching work. Learning about this is outside our scope right now, but if you want to learn a bit about it this [Wikipedia article about CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) and this [JavaScript.info article on CORS](https://javascript.info/fetch-crossorigin) are good starting points.
-
-Whether or not you took the detour to learn all about Cross Origin Resource Sharing (CORS) the fix is straightforward. With fetch, you are able to easily supply a JavaScript object for options. It comes right after the URL as a second parameter to the fetch function:
-
-```javascript
-fetch('url.url.com/api', {
-  mode: 'cors'
-});
-```
-
-Adding the `{mode: 'cors'}` after the URL, as shown above, will solve our problems for now. In the future, however, you may want to look further into the implications of this restriction.
-
 ### Let's do this
 
 For now, we're going to keep all of this in a single HTML file. So go ahead and create one with a single blank image tag and an empty script tag in the body.
@@ -153,7 +139,7 @@ For now, we're going to keep all of this in a single HTML file. So go ahead and 
 </html>
 ```
 
-In the script tag, let's start by selecting the image and assigning it to a variable so that we can change the URL once we've received it from the Giphy API.
+In the script tag, let's start by selecting the image element and assigning it to a variable so that we can change the URL once we've received it from the Giphy API.
 
 ```html
 <script>
@@ -166,7 +152,7 @@ Adding fetch with our URL from above is also relatively easy:
 ```html
 <script>
   const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
+  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats')
     .then(function(response) {
       console.log(response.json());
     });
@@ -178,7 +164,7 @@ You should now be able to open the HTML file in your browser, and while you won'
 ```html
 <script>
   const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
+  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats')
     .then(function(response) {
       return response.json();
     })
@@ -197,7 +183,7 @@ To get to the data we need to drill down through the layers of the object until 
 ```html
 <script>
   const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
+  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats')
     .then(function(response) {
       return response.json();
     })
@@ -212,7 +198,7 @@ Running the file should now log the URL of the image. All that's left to do is s
 ```html
 <script>
   const img = document.querySelector('img');
-  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats', {mode: 'cors'})
+  fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats')
     .then(function(response) {
       return response.json();
     })
@@ -235,7 +221,9 @@ While we are pushing this API key to the frontend, this isn't something you shou
 1. Read the [Fetch documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch). It's not all that complicated to use, but we've only really scratched the surface at this point.
 1. Check out this [list of Public APIs](https://github.com/n0shake/Public-APIs) and let your imagination go wild.
 1. Expand on our little project here by adding a button that fetches a new image without refreshing the page.
-1. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to manage most errors (i.e. invalid API key). Keep in mind that Giphy responds with a status code of 200 with an empty data array when it doesn't find any gifs with the searched keyword, in other words the `.catch()` won't be executed. Adjust your code to effectively handle such scenarios, displaying a default image or an error message if the search fails.
+1. Add a search box so users can search for specific gifs. You should also investigate adding a `.catch()` to manage some errors (e.g. invalid URL). Keep in mind that if the API responds, even with something like a `404 Not Found` or some other non-2XX status response, that is still a valid response and `fetch` will therefore not throw an error, meaning the `.catch()` will not run. It may still end up running if your following JavaScript code throws an error, such as trying to access a property of `undefined`, or even if you manually throw an error yourself.
+
+   If you want to conditionally handle any situations where the API does not give you the desired response (e.g. a `404 Not Found` or similar), you will need to do this manually in your `.then()`. Check out [MDN's docs for the Response object](https://developer.mozilla.org/en-US/docs/Web/API/Response) for some useful properties.
 
 </div>
 
@@ -246,10 +234,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is an API?](#apis)
 - [How is access to an API restricted?](#apis)
 - [How do you fetch and extract data from an API?](#fetching-data)
-- [Why might your API request be blocked by the browser, and how might you fix it?](#cors)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This [article on APIs by Ryan Thelin](https://www.educative.io/blog/what-is-an-api) covers some extra topics like API release policies, API protocols and API architectural styles.

@@ -24,7 +24,7 @@ Why are we setting it up like this? Because we can! The important exercise here 
    - You can use [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) to create and verify JWTs. You may wish to use [Passport's JWT strategy](https://github.com/mikenicholson/passport-jwt) for verifying JWTs, especially if you already have Passport set up with a local strategy to handle logging in.
    - A successful login will grant the user a JWT. That user can then attach their JWT to any future requests, where your API can verify the JWT in order to allow or deny access to the rest of the protected route. When the user logs out, you can have the client remove the JWT from storage.
    - There are many ways to send and store JWTs, such as via cookies, storing in localStorage, using access/refresh tokens etc. Some of these methods are more complicated (though with the right implementation, potentially more secure), especially once you deploy both ends. For example, cross-site cookies can be a real headache if you aren't aware of certain extra details. You may wish to explore some of these alternatives in the future. For now, keep it simple and send your JWTs via an "Authorization" header with "Bearer" schema, and have the client store a JWT in localStorage.
-1. Once your API is working you can focus on your front-end code. Really, how you go about this is up to you. If you are comfortable with a front-end framework then go for it! If you're happier using plain HTML and CSS that's fine too. All you should have to do to get your posts into a website is to `fetch` the correct API endpoint and then display the results. Working with fetch and APIs from a front-end perspective is covered in the [Working with APIs lesson](https://www.theodinproject.com/lessons/javascript-working-with-apis).
+1. Once your API is working you can focus on your front-end code. Really, how you go about this is up to you. If you are comfortable with React, then go for it! If you're happier using plain HTML, CSS and vanilla JavaScript, that's fine too. All you should have to do to get your posts into a website is to `fetch` the correct API endpoint and then display the results. Working with fetch and APIs from a front-end perspective is covered in the [Working with APIs lesson](https://www.theodinproject.com/lessons/javascript-working-with-apis).
 1. Create a second website for authoring and editing your posts. You can set this up however you like but the following features might be useful:
    - A list of all posts that shows whether or not they have been published.
    - A button to publish unpublished posts, or to unpublish published ones!
@@ -34,9 +34,3 @@ Why are we setting it up like this? Because we can! The important exercise here 
 1. Deploying your separate apps isn't anything fancy. Deploy your API like with your previous projects using a PaaS from the [Deployment lesson](https://www.theodinproject.com/lessons/node-path-nodejs-deployment), and deploy your front-ends like you would have deployed your front-ends before. If you used React, recall several hosting options from the [CV Application project](https://www.theodinproject.com/lessons/node-path-react-new-cv-application).
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- As mentioned earlier, the cli-tool `curl` and [Postman](https://www.postman.com/downloads) are popular choices for testing your routes.

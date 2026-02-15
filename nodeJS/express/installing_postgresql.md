@@ -11,6 +11,8 @@ We've chosen [PostgreSQL](https://www.postgresql.org/) as our database of choice
 
 <div class="lesson-note lesson-note--critical" markdown="1">
 
+#### Complete the SQL course
+
 Make sure you've completed the [SQL course](https://www.theodinproject.com/paths/full-stack-javascript/courses/databases).
 
 This lesson and all subsequent lessons will assume you understand SQL syntax and concepts.
@@ -23,7 +25,16 @@ In this lesson, we'll install PostgreSQL and in the next lesson we'll learn how 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
+- Explain what the PostgreSQL shell is.
 - How to install PostgreSQL.
+
+### PostgreSQL shell
+
+The PostgreSQL shell, also known as psql, is a terminal-based front end to PostgreSQL that allows users to interactively execute SQL queries and manage the database.
+
+It is typically included with the PostgreSQL installation and can be accessed through the command line. Its scope includes running queries, creating and modifying database structures, and interacting with the database in a command-line environment, psql provides a number of meta-commands and various shell-like features to facilitate writing scripts and automating a wide variety of tasks.
+
+The database using the psql terminal is located inside the file system or local machine, as PostgreSQL stores databases in ordinary files within the filesystem. The default location of the data directory may vary between different operating systems.
 
 ### Installing PostgreSQL
 
@@ -54,18 +65,6 @@ After installation is complete, let's start the server using this command:
 ```bash
 sudo systemctl start postgresql.service && systemctl status postgresql.service
 ```
-
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### Systemctl and WSL2
-
-Systemctl is not supported on WSL2, and the above command won't work. Instead, run the following command:
-
-```bash
-sudo service postgresql start
-```
-
-</div>
 
 Got an error, or don't see an active service? Come visit [our Discord server](https://discord.gg/V75WSQG) for some help!
 
@@ -98,6 +97,8 @@ One other important step in setting up PostgreSQL is that each role must have it
 You can try to run `psql` now, but you will get an error that the database does not exist. Not to worry, let's create one to fix this:
 
 <div class="lesson-note" markdown="1">
+
+#### Use quotes for capitalized words
 
 If your username has any capital letters, you must surround it in quotes when running the below command.
 
@@ -170,112 +171,46 @@ brew upgrade
 
 If your terminal doesn't recognize `brew`, then you'll need to go and install homebrew. You can find it and other installs in the [installation appendix](https://www.theodinproject.com/guides/installations).
 
-### Step 2: Install the PostgreSQL packages
+### Step 2: Install PostgreSQL via PostgresApp
 
-Now that we've ensured our packages are up to date, we will use brew to install PostgreSQL.
+Installing PostgreSQL via Postgres.app is simple. Visit [Postgres.app](https://postgresapp.com/) and follow the instructions outlined. Importantly, you'll want to configure your `$PATH` so you can access the tooling that comes along with PostgreSQL. After installing Postgres.app, we can then install a PostgreSQL server. We want to install the latest available version of PostgreSQL.
+
+After installing PSQL via Postgres.app, you can run this command to update your path to access all the tooling:
+
+  ```bash
+sudo mkdir -p /etc/paths.d &&
+echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+```
+
+After you've run this command and restarted your terminal, you can run `which psql` and we would expect this output:
 
 ```bash
-brew install postgresql@14
+/Applications/Postgres.app/Contents/Versions/latest/bin/psql
 ```
 
-After installation is complete, let's start the server using this command:
+If you don't see a similar output, come visit [our Discord server](https://discord.gg/fbFCkYabZB) for some help!
 
-```bash
-brew services start postgresql@14
-```
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-If you are unsure about whether `postgresql` is active, it's possible to check with this command:
+#### No security configured
 
-```bash
-brew services info postgresql@14
-```
-
-Got an error, or don't see an active service? Come visit the [Discord](https://discord.gg/V75WSQG) for some help!
-
-If the `postgresql` service is active, move on to the next step.
-
-### Step 3: Setting up PostgreSQL
-
-PostgreSQL is now running, but we have to configure it in order to be able to use it with our local Express applications.
-
-#### 3.1 PostgreSQL roles
-
-PostgreSQL authenticates via roles. A role is like a user, and by default, the install on MacOS should have a role set up with your MacOS username. If you're not sure of your username, you can run the command `whoami` in your terminal to get it. To verify that you have a role in PostgreSQL matching your username, enter the following command:
-
-```bash
-psql postgres
-```
-
-And you should see a prompt like this
-
-```sql
-psql (14.x (Homebrew))
-Type "help" for help.
-
-postgres=#
-```
-
-Input `\du`, hit Return, and check that your MacOS username is the listed role name.
-
-#### 3.2 Creating the role database
-
-One other important step in setting up PostgreSQL is that each role must have its own database of the same name. We need this to login as the role matching our username. While still in the PostgreSQL session prompt, type the following command to create the new database. Make sure you include the semicolon.
-
-<div class="lesson-note" markdown="1">
-
-If your username has any capital letters, you must surround it in quotes when running the below command.
+Please note that that Postgres.app installs servers without any security configured, and will accept all local connections without a password. This is fine for our development environment, but be aware that when you move things to production, this will not be a good strategy.
 
 </div>
 
-```sql
-CREATE DATABASE <username>;
-```
-
-Now our role is fully set up: we've got `<role_name>` and that role has a database. Enter the command `\q` to exit the interactive terminal for `postgres`.
-
-#### 3.3 Securing Our new role
-
-One important thing we have to do is set up a password for our new role to protect the data. Now that we have our role, we can use it to administer PostgreSQL. All you have to do is enter this command to get into the PostgreSQL prompt for the database matching your user:
+Postgres.app defaults to creating a role and user database that matches your macOS user. You can confirm this by running this command after installing Postgres.app and updating the path:
 
 ```bash
 psql
 ```
 
-You should now see the PostgreSQL prompt come up like this:
-
-```sql
-role_name=#
-```
-
-If you don't see a similar prompt, then reach out on [Discord](https://discord.gg/V75WSQG) for some help. If you **do** see a similar prompt, then we can create a password for the role like so:
-
-```sql
-\password <role_name>
-```
-
-You'll be prompted to enter a password and to verify it. Once you are done, the prompt will return to normal. Now, we will configure the permissions for our new role (note the semicolon at the end):
-
-```sql
-GRANT ALL PRIVILEGES ON DATABASE <role_database_name> TO <role_name>;
-```
-
-Remember that you should change the `<role_database_name>` and `<role_name>` (they should both be the same)! If you see `GRANT` in response to the command, then you can type `\q` to exit the prompt.
-
-#### 3.4 Saving access information in the environment
-
-After finishing our configuration, the last step is save it into the environment to access later.
-
-In order to save our password to the environment, we can run this command:
+You should see the PostgreSQL prompt come up like this:
 
 ```bash
-echo 'export DATABASE_PASSWORD="<role_password>"' >> ~/.zshrc
+<your_user>=#
 ```
 
-Note here the name we've chosen for our environment variable: `DATABASE_PASSWORD`. Also, remember to update `<role_password>` in the command to what was set above!
-
-Now, this variable lives in our environment for us to use. As the variable is new, we'll want to reload the environment so that we can access it. To reload the environment, you can close and re-open your terminal.
-
-Once that's done, we can move to testing it out!
+Because Postgres.app has configured trusted authentication for all local connections, we don't need to set up any password authentication for our local development environment. Just remember that your `role_name` is the user that appears in the `psql` prompt above. You can type `\q` to exit.
 
 </details>
 
@@ -284,9 +219,3 @@ Once that's done, we can move to testing it out!
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Why is data persistence important in web applications?](#introduction)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

@@ -35,7 +35,7 @@ const FunctionalInput = ({ name }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setTodos((todo) => [...todo, inputVal]);
+    setTodos((prevTodos) => [...prevTodos, inputVal]);
     setInputVal("");
   };
 
@@ -46,6 +46,7 @@ const FunctionalInput = ({ name }) => {
         <label htmlFor="task-entry">Enter a task: </label>
         <input
           type="text"
+          id="task-entry"
           name="task-entry"
           value={inputVal}
           onChange={handleInputChange}
@@ -78,16 +79,6 @@ class ClassInput extends Component {
   // Some code goes here
 }
 
-/*
-  This can also be written as:
-
-  import React from 'react';
-  class ClassInput extends React.Component {}
-  export default ClassInput;
-
-  instead of destructuring the `Component` during import
-*/
-
 export default ClassInput;
 ```
 
@@ -95,7 +86,7 @@ export default ClassInput;
 
 A class is generally incomplete without a constructor, so let's add one.
 
-The props, that get passed into this component, gets passed into the class's `constructor`. This, along with the `super` method, allows you to use the props in context to `this`, which, in *this* case, refers to the component. If you’re really curious about what `super` actually does, check out the [MDN docs on the `super` keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super).
+The props passed into this component are passed to the class's `constructor`. This, along with the `super` method, allows you to use the props in the context of `this`, which, in *this* case, refers to the component. If you’re really curious about what `super` actually does, check out the [MDN docs on the `super` keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super).
 
 If your component doesn't have any props, it is fine to leave the `constructor` and the `super` with no arguments.
 
@@ -131,14 +122,14 @@ class ClassInput extends Component {
     return (
       <section>
         <h3>{this.props.name}</h3>
-        {/* The input field to enter To-Do's */}
+       {/* The input field to enter Todos */}
         <form>
           <label htmlFor="task-entry">Enter a task: </label>
-          <input type="text" name="task-entry" />
+          <input type="text" id="task-entry" name="task-entry" />
           <button type="submit">Submit</button>
         </form>
         <h4>All the tasks!</h4>
-        {/* The list of all the To-Do's, displayed */}
+        {/* The list of all the Todos, displayed */}
         <ul></ul>
       </section>
     );
@@ -174,7 +165,7 @@ class ClassInput extends Component {
         <h3>{this.props.name}</h3>
         <form>
           <label htmlFor="task-entry">Enter a task: </label>
-          <input type="text" name="task-entry" />
+          <input type="text" id="task-entry" name="task-entry" />
           <button type="submit">Submit</button>
         </form>
         <h4>All the tasks!</h4>
@@ -189,7 +180,7 @@ export default ClassInput;
 
 The pre-defined `setState` method can be used to set it again! Remember, state must not be mutated, so a new state must be set, every time.
 
-<span id="the-importance-of-bind">Now, it is time to finish it off by adding all the functionality! It is nearly the same, except for a single difference. Whenever a method is declared, you must `bind` the `this` of the method to that of the class in order to work with it, as by default, the methods in a class are not bound to it. Usually, you do this inside the constructor and not at runtime [in the render method].</span>
+<span id="the-importance-of-bind">Now, it is time to finish it off by adding all the functionality! It is nearly the same, except for a single difference. Whenever a method is declared, you must `bind` the `this` of the method to that of the class in order to work with it, as by default, the methods in a class are not bound to it. Usually, you do this inside the constructor and not at runtime [in the render method]. Alternatively, if you define your methods using the arrow function syntax, `this` is automatically bound to the class instance, and you can skip binding it in the constructor.</span>
 
 ```jsx
 import { Component } from "react";
@@ -230,6 +221,7 @@ class ClassInput extends Component {
           <label htmlFor="task-entry">Enter a task: </label>
           <input
             type="text"
+            id="task-entry"
             name="task-entry"
             value={this.state.inputVal}
             onChange={this.handleInputChange}
@@ -260,7 +252,7 @@ For the purposes of this assignment, we take the class-based component that we b
 
 1. Implement a delete button for each task. The delete button should remove that specific task from the state array, thus deleting the task itself! Styling isn't a priority at this moment, but the button tag should be styled by default.
 
-1. Implement a new class component, `Count` that displays the count of the number of todos, at any given time.
+1. Implement a new class component, `Count` that displays the number of todos, at any given time.
 
 1. Implement an edit button for each task. It should replace the todo with an input field, and change the button itself to 'Resubmit', so the edits can be saved. This is a comparatively harder task, kudos for when you finish it!
 
@@ -281,9 +273,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How does JSX get displayed?](#how-you-can-render-jsx)
 - [How do we deal with state in a class-based component?](#how-to-use-state-and-manage-context)
 - [How do you restore the context of `this` in a method?](#the-importance-of-bind)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- In general, the React documentation on [thinking in react](https://legacy.reactjs.org/docs/thinking-in-react.html) is a really good place to look into, if you want more practice with class-based components, from scratch.

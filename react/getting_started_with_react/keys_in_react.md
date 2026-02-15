@@ -11,7 +11,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Why does React need keys?
 
-In the upcoming lessons as you learn more about the internal workings of React, more specifically the rerendering process, you will understand the importance of keys. For now, we will keep it short.
+In the upcoming lessons as you learn more about the internal workings of React, more specifically the re-rendering process, you will understand the importance of keys. For now, we will keep it short.
 
 In the previous lesson on rendering lists, we used the `.map()` method to iterate over an array of data and return a list of elements. Now imagine, if any of the items in the list were to change, how would React know which item to update?
 
@@ -20,15 +20,17 @@ If the list were to change, one of two things *should* happen:
 1. we completely re-render the entire list, or:
 1. we hunt down the specific items that were changed and only re-render those.
 
-Assuming we want to hunt down that one specific item that was changed and NOT re-render the entire list. We need something to track that specific item. We can track down a specific item by using a `key`.
+Assuming we want to hunt down that one specific item that was changed and NOT re-render the entire list, we need something to track that specific item. We can track down a specific item by using a `key`.
 
-When the list is updated for whatever reason, (either from a server or a user interaction), React matches the `keys` of each of the previous list items to the updated list. If there were any changes, React will only update the items that have changed.
+When the list is updated for whatever reason (either from a server or a user interaction), React matches the `keys` of each of the previous list items to the updated list. If there were any changes, React will only update the items that have changed.
 
 As long as `keys` remain consistent and unique, React can handle the DOM effectively and efficiently.
 
 ### Using keys
 
 <div class="lesson-note" markdown="1">
+
+#### Arguments passed into components
 
 We will be using `props` here, and you will learn more about them in the next lesson. For now, you just need to know that `props` are arguments that are passed into components.
 
@@ -42,7 +44,7 @@ Keys are passed into the component or a DOM element as a prop. You should alread
 <div key={keyValue} />
 ```
 
-<span id="keys-from-data">Now that we know the syntax, the next question is: what should be used as a key? Ideally, they should be some identifier that is unique to each item in the list. Most databases assign a unique id to each entry, so you shouldn't have to worry about assigning an id yourself. If you are defining data yourself, it is good practice to assign a unique `id` to each item. You can use the [crypto.randomUUID() function](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID) to generate a unique id. Let's look at an example:</span>
+<span id="keys-from-data">Now that we know the syntax, the next question is: what should be used as a key? Ideally, there should be some identifier that is unique to each item in the list. Most databases assign a unique id to each entry, so you shouldn't have to worry about assigning an id yourself. If you are defining data yourself, it is good practice to assign a unique `id` to each item. You can use the [crypto.randomUUID() function](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID) to generate a unique id. Let's look at an example:</span>
 
 ```jsx
 // a list of todos, each todo object has a task and an id

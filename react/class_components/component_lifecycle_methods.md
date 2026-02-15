@@ -2,7 +2,7 @@
 
 In the previous section, you've learned about a component's lifecycle. In functional components, we've primarily used the `useEffect` hook to perform tasks throughout the lifecycle, but in class components we have to use specific lifecycle methods instead.
 
-We'll start with a short recap of what a components lifecycle is. There are three stages to a component's life: mounting, updating, and unmounting. Each of these have a method assigned to them within class components, which is what we are going to cover in this lesson.
+We'll start with a short recap of what a component's lifecycle is. There are three stages to a component's life: mounting, updating, and unmounting. Each of these have a method assigned to them within class components, which is what we are going to cover in this lesson.
 
 ### Lesson overview
 
@@ -16,7 +16,7 @@ The render function is the most used lifecycle method, and one that you've come 
 
 ### componentDidMount()
 
-This method is run after the component is mounted (inserted in the DOM tree). You should make any calls to fetch data that is needed for the component here. It is also a good place to do anything that is reliant on the component, such as fetching from an API.
+This method is run after the component is mounted (inserted in the DOM tree). You should make any calls to fetch data that is needed for the component here. It is also a good place to perform any operations that depend on the component being mounted in the DOM.
 
 ### componentDidUpdate()
 
@@ -30,7 +30,7 @@ This is the last lifecycle method, which is called before a component is unmount
 
 ### How useEffect() combines the lifecycle methods
 
-Now that we've learnt about class lifecycle methods, it's useful to understand that the `useEffect` hook used in functional components is essentially a combination of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`. Which method/methods it relates to varies based on it's dependency array, and if it returns anything.
+Now that we've learnt about class lifecycle methods, it's useful to understand that the `useEffect` hook used in functional components is essentially a combination of `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`. Which method/methods it relates to varies based on its dependency array, and if it returns anything.
 
 - An empty dependency array would be equivalent to `componentDidMount`.
 - A dependency array with a value/values in it would be a combination of `componentDidMount` and `componentDidUpdate`, but only updating when dependencies change.
@@ -52,7 +52,7 @@ In this snippet, the useEffect contains the functionality of `componentDidMount`
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Check out this [component lifecycle diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) to see a good visual representation of a components lifecycle methods.
+1. Check out this [component lifecycle diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/) to see a good visual representation of a component's lifecycle methods.
 
 1. Read through [component documentation](https://react.dev/reference/react/Component) from 'constructor(props)' up to 'componentWillUnmount()' in the Reference section, being mindful of deprecated APIs. Consider other APIs as supplementary information.
 
@@ -67,9 +67,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [When you want to act upon change of the DOM, or of state, what lifecycle method would you use?](#componentdidupdate)
 - [When performing cleanup actions, what lifecycle method should be used?](#componentwillunmount)
 - [How does the useEffect hook combine some of the lifecycle methods?](#how-useeffect-combines-the-lifecycle-methods)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.
