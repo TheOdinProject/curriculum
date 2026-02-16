@@ -180,7 +180,7 @@ The pattern attribute can only be used on `<input>` elements. Some input element
 
 ### Styling validations
 
-The `:user-valid` and `:user-invalid` pseudo-classes allow targeting form controls that have passed or failed validation, ensuring input fields remain neutral until user interaction. This is presented as an upgrade from `:valid` and `:invalid` pseudo-classes, which often trigger [premature validation](article link) before a user has even finished typing. 
+The `:user-valid` and `:user-invalid` pseudo-classes allow targeting form controls that have passed or failed validation, ensuring input fields remain neutral until user interaction. This is presented as an upgrade from `:valid` and `:invalid` pseudo-classes, which often trigger [premature validation](https://0xdezman.hashnode.dev/how-to-fix-form-validation-ux-switching-from-invalid-to-user-invalid) before a user has even finished typing. 
 
 To see this in action, we will be using our email and website example that we looked at previously:
 
