@@ -180,7 +180,7 @@ The pattern attribute can only be used on `<input>` elements. Some input element
 
 ### Styling validations
 
-We can target form controls that have passed or failed validations using the `:valid` and `:invalid` pseudo-classes.
+The `:user-valid` and `:user-invalid` pseudo-classes allow targeting form controls that have passed or failed validation, ensuring input fields remain neutral until user interaction. This is presented as an upgrade from `:valid` and `:invalid` pseudo-classes, which often trigger [premature validation](article link) before a user has even finished typing. 
 
 To see this in action, we will be using our email and website example that we looked at previously:
 
@@ -194,9 +194,9 @@ To see this in action, we will be using our email and website example that we lo
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-First of all, we target any valid inputs and give them a green border. Our email and URL inputs initially have a green border since they are not required fields and are valid.
+First, we target valid inputs with a green border. Initially, our email and URL fields maintain their default browser styling, representing a neutral state because the user hasn't interacted with them yet. 
 
-When a field is invalid, we give it a red border instead. Try entering an invalid email address and URL to see how this looks.
+Once a user enters an invalid value, the border switches to red. You can test this by entering an incorrectly formatted email or URL to see the validation in action.
 
 ### Conclusion
 
