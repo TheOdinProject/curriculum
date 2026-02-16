@@ -27,6 +27,7 @@ This section contains a general overview of topics that you will learn in this l
 
 1. Read this [intro to recursion](https://javascript.info/recursion). You do *not* need to complete the exercises at the end of the article.
 1. Watch this [explanation of recursion by Web Dev Simplified](https://www.youtube.com/watch?v=6oDQaB2one8) and this additional [example of recursion by DevSage](https://youtu.be/LteNqj4DFD8?t=340).
+1. Watch [5 Simple Steps for Solving Any Recursive Problem](https://www.youtube.com/watch?v=ngCos392W4w).
 1. Watch this [Video on Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM) from CS50.
 1. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
 1. Go to [the `computer_science/recursion/` directory of The Odin Project's JavaScript exercises repo](https://github.com/TheOdinProject/javascript-exercises/tree/main/computer_science/recursion) and complete each of the exercises in order. Be sure to review the README for each exercise prior to completing it. If you need to, revisit the repo's README for general instructions on forking, cloning, and using the exercises.
@@ -58,4 +59,3 @@ This section contains helpful links to related content. It isn't required, so co
 - [A good resource of recursion by example](https://www.javascripttutorial.net/javascript-recursive-function/)
 - [Visualize how recursion works on factorials](https://pythontutor.com/render.html#code=function%20calcFactorial%28num%29%20%7B%0A%20%20%20%20if%20%28num%20%3D%3D%3D%201%29%20%7B%0A%20%20%20%20%20%20%20%20return%201%3B%0A%20%20%20%20%7D%0A%20%20%20%20return%20num%20*%20calcFactorial%28num%20-%201%29%3B%0A%7D%0A%0AcalcFactorial%285%29%3B&cumulative=false&curInstr=2&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D&textReferences=false)
 - You may want to watch this nice [FreeCodeCamp course on recursion](https://www.youtube.com/watch?v=IJDJ0kBx2LM&t=2333s).
-- [5 Simple Steps for Solving Any Recursive Problem](https://www.youtube.com/watch?v=ngCos392W4w)
