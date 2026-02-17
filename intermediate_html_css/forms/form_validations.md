@@ -96,9 +96,7 @@ This gives us much more scope to control what users input.
 
 Just like we often need to control the length of text-based form controls, there will be many situations where we will want to control the range of values users can enter into number based form controls.
 
-We can do this with the min and max attributes, which allows us to set the lower and upper bounds of the value entered into the form control.
-The min and max attributes only work with number-based form controls such as the number, dates and time inputs.
-You can view the complete list of supported elements on [MDN's documentation on the `max` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max#syntax).
+We can do this with the min and max attributes, which allows us to set the lower and upper bounds of the value entered into the form control. The min and max attributes only work with number-based form controls such as the number, dates and time inputs. You can view the complete list of supported elements on [MDN's documentation on the `max` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max#syntax).
 
 Some real-world use cases for using these validations would be limiting the quantity on a product order form or choosing the number of passengers on a flight booking form.
 
@@ -136,10 +134,9 @@ Try submitting the form with seven passengers to see the validation in action.
 
 ### Pattern validations
 
-To ensure we get the correct information from users, we will often want to ensure data matches a particular pattern.
-Real-world applications would be checking if a credit card number or a zipcode is in the correct format.
+To ensure we get the correct information from users, we will often want to ensure data matches a particular pattern. Real-world applications include checking if a password, credit card number or a zipcode is in the correct format.
 
-To add a pattern validation, we give the form control a `pattern` attribute with a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) as the value. In our example we are using the pattern validation to ensure a US zip code is in the correct format (5 numbers followed by an optional dash and 4 more numbers):
+To add a pattern validation, we give the form control a `pattern` attribute with a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) (regex) as the value. In our example we are using the pattern validation to ensure a US zip code is in the correct format (5 numbers followed by an optional dash and 4 more numbers):
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="YzrQqRK" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -151,8 +148,15 @@ To add a pattern validation, we give the form control a `pattern` attribute with
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Entering an incorrect zip code and submitting the form will display the following validation error in the browser "Please match the requested format".
-This isn't very useful since it doesn't communicate how to fix the issue.
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Regex for pattern validation
+
+You don't really need to deep dive into regex for this. With how complex regex can get, especially when the exact syntax can differ when you're writing them for HTML attributes, JavaScript strings, JavaScript regex literals etc., in practice you're better off searching for an established regex for your needs rather than trying to construct one yourself.
+
+</div>
+
+Entering an incorrect zip code and submitting the form will display the following validation error in the browser "Please match the requested format". This isn't very useful since it doesn't communicate how to fix the issue.
 
 It is good practice to use a `placeholder` attribute to show users an example of the expected pattern they need to enter:
 
