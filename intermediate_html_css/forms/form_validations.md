@@ -136,7 +136,7 @@ Try submitting the form with seven passengers to see the validation in action.
 
 To ensure we get the correct information from users, we will often want to ensure data matches a particular pattern. Real-world applications include checking if a password, credit card number or a zipcode is in the correct format.
 
-To add a pattern validation, we give the form control a `pattern` attribute with a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) as the value. In our example we are using the pattern validation to ensure a US zip code is in the correct format (5 numbers followed by an optional dash and 4 more numbers):
+To add a pattern validation, we give the form control a `pattern` attribute with a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) (regex) as the value. In our example we are using the pattern validation to ensure a US zip code is in the correct format (5 numbers followed by an optional dash and 4 more numbers):
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="YzrQqRK" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -147,6 +147,14 @@ To add a pattern validation, we give the form control a `pattern` attribute with
 </p>
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Regex for pattern validation
+
+You don't really need to deep dive into regex for this. With how complex regex can get, especially when the exact syntax can differ when you're writing them for HTML attributes, JavaScript strings, JavaScript regex literals etc., in practice you're better off searching for an established regex for your needs rather than trying to construct one yourself.
+
+</div>
 
 Entering an incorrect zip code and submitting the form will display the following validation error in the browser "Please match the requested format". This isn't very useful since it doesn't communicate how to fix the issue.
 
