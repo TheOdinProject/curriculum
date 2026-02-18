@@ -125,7 +125,7 @@ console.log(dog); // { species: "dog" }
 
    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
-If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help in the [TOP Discord server](https://discord.com/invite/theodinproject)!
+If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help in the [TOP Discord server](https://discord.gg/fbFCkYabZB)!
 
 </div>
 
