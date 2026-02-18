@@ -42,6 +42,7 @@ wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable
 
 ```bash
 sudo apt update
+sudo apt upgrade
 sudo apt install ./code-latest.deb
 ```
 
