@@ -107,7 +107,7 @@ The Settings page for your Virtual Machine will open and look like the image bel
 
 ![Settings screen](../../installations/imgs/08_settings_screen.png)
 
-Please click on the **Display** button. You will then be on the Display settings screen. What you must do here is increase the **Video Memory** to maximum. You can also increase the number of Virtual Monitors if you have multiple physical monitors. We recommend to do this later once you are comfortable in your VM.
+Please click on the **Display** button. You will then be on the Display settings screen. What you must do here is first enable **3D Acceleration** and then increase the **Video Memory** to maximum. You can also increase the number of Virtual Monitors if you have multiple physical monitors. We recommend to do this later once you are comfortable in your VM.
 
 ![Display settings screen](../../installations/imgs/09_display_settings_screen.png)
 
