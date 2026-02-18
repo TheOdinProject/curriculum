@@ -97,6 +97,8 @@ Adding images to the curriculum is a two-step process, involving two PRs. For a 
 
 ### Creating Statically Links
 
+Only do this bit once the PR to add the image file(s) to the repository has been merged.
+
 1. Go to the PR that added the image(s) to the repo.
 1. Right-click the commit ID where it was merged and select `copy link`.
 
