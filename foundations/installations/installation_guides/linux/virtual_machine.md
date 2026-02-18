@@ -265,7 +265,7 @@ Upon logging in you may not notice anything different, but try to maximize your 
 
 ![Maximized VM](../../installations/imgs/34_room_for_activities.png)
 
-You should also have less performance issues overall and should now be ready to move on with the curriculum. Don't forget to eject the Guest Additions image by clicking this button here. It doesn't hurt to leave mounted but it's far more tidy to remove it as we do not need it anymore.
+You should also have less performance issues overall and should now be ready to move on with the curriculum. Don't forget to eject the Guest Additions image. You can do so by either entering `sudo eject /dev/sr0` in the Terminal or by clicking the triangular eject button next to the mounted image (pictured below) in the file explorer. It doesn't hurt to leave mounted but it's far more tidy to remove it as we do not need it anymore.
 
 ![ISO Eject Button](../../installations/imgs/35_iso_eject_button.png)
 
