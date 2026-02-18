@@ -34,7 +34,7 @@ Installing VirtualBox is very straightforward. It doesn't require much technical
 
 #### Microsoft Visual C++ 2019
 
-If you receive an error about needing Microsoft Visual C++ 2019 Redistributable Package, you can find it on the [official Microsoft Learn page](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). You most likely want the version with `X64` Architecture (that means 64-bit) - download and install it then try installing VirtualBox again.
+If you receive an error about needing the Microsoft Visual C++ 2019 Redistributable Package, you can find it on the [official Microsoft Learn page](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022). You most likely want the version with `X64` Architecture (that means 64-bit) - download and install it then try installing VirtualBox again.
 
 </div>
 
@@ -48,7 +48,7 @@ This is how your installation window should look like after turning it off:
 
 You do not have to exclude Python Support. It is an optional package to allow for automation Virtual Machines with VirtualBox, which is out of scope for this curriculum, and we simply do not want you to install more than what you have to.
 
-Make sure you install the application on `C:` drive, as it has tendency to error out otherwise. The virtual machine itself can be installed anywhere but we'll get to that soon.
+Make sure you install the application on `C:` drive, as it has a tendency to error out otherwise. The virtual machine itself can be installed anywhere but we'll get to that soon.
 As the software installs, the progress bar might appear to be stuck; just wait for it to finish.
 
 #### Step 2.2: New Virtual Machine
@@ -61,7 +61,7 @@ Give it a name of **Xubuntu-TOP**. If you want the VM installed somewhere else t
 
 **Uncheck "Proceed with Unattended Installation".** This feature does not work and you will not be able to control your installation. If you do enable it accidentally before installing just delete your VM and try again.
 
-The fields should auto populate once you enter the VM Name.
+The fields should auto-populate once you enter the VM Name.
 
 ![New Virtual Machine screen](../../installations/imgs/04_install_start.png)
 
@@ -125,7 +125,7 @@ And yes, the screen will be small at this point. We will fix that later.
 
 ![GRUB Boot Screen](../../installations/imgs/11_grub.png)
 
-You should then see some console text show on the screen show up and disappear, and eventually make it to the Xubuntu desktop screen.
+You should then see some console text show up on the screen and disappear, and eventually make it to the Xubuntu desktop screen.
 
 This is a temporary environment called a Live Desktop. Any changes you make here (besides installing the operating system on the VM) are not permanent.
 
@@ -141,7 +141,7 @@ The next screen will ask you to *Select your keyboard layout*. You can optionall
 
 ![Select your keyboard layout](../../installations/imgs/14_select_keyboard_layout.png)
 
-The next screen will ask you to configure your settings so you can *Connect to the internet*. If it is not selected you should choose **Use wired connection**. VirtualBox is configured to use your host machines network device, so whether the VM knows you're wired or wireless it **does not matter**, to it you are essentially hard wired to the internet.
+The next screen will ask you to configure your settings so you can *Connect to the internet*. If it is not selected you should choose **Use wired connection**. VirtualBox is configured to use your host machine's network device, so whether the VM knows you're wired or wireless it **does not matter**, to it you are essentially hard wired to the internet.
 
 If you cannot select **Use wired connection** then you should run the VirtualBox installer again and select **repair**.
 
@@ -263,7 +263,7 @@ Your window may change size during this process. To complete the installation of
 
 Upon logging in you may not notice anything different, but try to maximize your VM now. Look at all of this room for activities!
 
-![Maxmimized VM](../../installations/imgs/34_room_for_activities.png)
+![Maximized VM](../../installations/imgs/34_room_for_activities.png)
 
 You should also have less performance issues overall and should now be ready to move on with the curriculum. Don't forget to eject the Guest Additions image by clicking this button here. It doesn't hurt to leave mounted but it's far more tidy to remove it as we do not need it anymore.
 
