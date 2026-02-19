@@ -38,7 +38,7 @@ wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable
 
 #### Step 2: Install VSCode
 
-- Enter the following command in your terminal to install the **VSCode** `.deb` package:
+- Enter the following commands in your terminal to install the **VSCode** `.deb` package:
 
 ```bash
 sudo apt update
