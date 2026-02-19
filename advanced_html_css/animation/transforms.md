@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Basics of transforms
 
-The `transform` property takes in one or more CSS transform functions as its values, with those functions taking in their own value, usually an angle or a number.
+The `transform` property takes in one or more [CSS transform functions](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/transform-function) as its values, with those functions taking in their own value, usually an angle or a number.
 
 Almost all elements can have the `transform` property applied to them, with the exceptions being `<col>`, `<colgroup>`, and non-replaced inline elements. "Non-replaced" refers to elements whose content is contained within the HTML document (`<span>`, `<b>`, and `<em>`, for example), as opposed to a "replaced" element's content being contained outside of the document, the element itself being "replaced" by the external content (`<video>`, `<iframe>`, and `<img>`, for example). You do not need to memorize every element that is non-replaced, but rather keep this knowledge in mind should you try to apply the `transform` property to an element and aren't sure why it isn't working.
 
@@ -286,11 +286,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Which function can be used to move an object through space on the X, Y, or Z axis?](#translate)
 - [Which function can be used to make an object larger or smaller on the X, Y, or Z axis?](#scale)
 - [What additional function is required for 3D transforms?](#three-dimensional-transforms)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Learn more about `matrix` by checking Quackit's article on the [matrix function](https://www.quackit.com/css/functions/css_matrix_function.cfm).
-- For a full reference, there’s always [MDN's documentation on CSS transform functions](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function).
-- For more on the 3D transform functions, [W3Schools' page on CSS transforms](https://www.w3schools.com/css/css3_3dtransforms.asp) is a good article demonstrating how they work.
