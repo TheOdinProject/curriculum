@@ -58,6 +58,14 @@ We don't always have to sanitize data right when we get it - sometimes it makes 
 
 We'll be using a library called `express-validator` to help us out with both of these. While it makes these processes much simpler, it's important to understand the underlying concepts of these two operations.
 
+<div class="lesson-note" markdown="1">
+
+#### Sanitization definition
+
+You will sometimes see "sanitization" used in a much stricter sense, involving only the removal of characters from incoming data, distinguishing it from "encoding" which is replacing certain characters. It is sometimes also used more loosely to refer to the entire process of changing the incoming data in some way, which includes both removing and encoding characters. This is how we will use the term in our own content in this lesson.
+
+</div>
+
 #### Installing express-validator
 
 We start as usual by installing the correct package in the *root* folder of our project.
