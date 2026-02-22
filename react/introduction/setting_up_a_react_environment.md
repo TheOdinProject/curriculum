@@ -57,7 +57,7 @@ Please make sure that you are using the latest *LTS* version of Node, otherwise 
 npm create vite@latest my-first-react-app -- --template react
 ```
 
-You may be asked if you want to install the `create-vite` package, in which case you should accept by typing `y` then hitting <kbd>Enter</kbd>. Next, you will be asked if you want to `Use rolldown-vite (Experimental)?` and to `Install with npm and start now?`. You can confirm the default choice for both options, by pressing <kbd>Enter</kbd> for each of those questions.
+You may be asked if you want to install the `create-vite` package, in which case you should accept by typing `y` then hitting <kbd>Enter</kbd>. If it asks you any questions about using experimental features, you can answer no to them. Finally, answer yes to `Install with npm and start now?`.
 
 Once the command has executed, it should output the following:
 
