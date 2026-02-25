@@ -45,7 +45,7 @@ Create React App, or CRA, was the official way to scaffold new React projects si
 
 ### Simplifying the process
 
-Now that you understand what is involved with starting a React project from scratch, you can breathe a sigh of relief to learn that we can get started with a *single terminal command*.
+Now that you understand what is involved with starting a React project from scratch, you can breathe a sigh of relief to learn that we can get started with a *single terminal command*. We'll be using Vite's own React template to scaffold our project, just like if we made and used our own template repo.
 
 Vite builds frontend tools for developers and it leverages the latest technologies under the hood to provide a great developer experience. Fortunately, it also caters to the React ecosystem. We will use Vite's CLI to quickly create a template React project. It requires minimal configuration and provides extremely useful tools right out of the box, allowing us to get straight to the learning. Let's get started!
 
@@ -57,7 +57,7 @@ Please make sure that you are using the latest *LTS* version of Node, otherwise 
 npm create vite@latest my-first-react-app -- --template react
 ```
 
-You may be asked if you want to install the `create-vite` package, in which case you should accept by typing `y` then hitting <kbd>Enter</kbd>. Next, you will be asked if you want to `Use rolldown-vite (Experimental)?` and to `Install with npm and start now?`. You can confirm the default choice for both options, by pressing <kbd>Enter</kbd> for each of those questions.
+You may be asked if you want to install the `create-vite` package, in which case you should accept by typing `y` then hitting <kbd>Enter</kbd>. If it asks you any questions about using experimental features, you can answer no to them. Finally, answer yes to `Install with npm and start now?`.
 
 Once the command has executed, it should output the following:
 
