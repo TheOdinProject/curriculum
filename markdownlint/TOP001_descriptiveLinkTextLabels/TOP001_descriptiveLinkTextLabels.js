@@ -21,7 +21,7 @@ const BLACKLISTED_LINK_TEXT = [
   "the homepage",
   "their homepage",
 ];
-
+//this is a new comment
 module.exports = {
   names: ["TOP001", "descriptive-link-text-labels"],
   description: "Links must have descriptive text labels",
