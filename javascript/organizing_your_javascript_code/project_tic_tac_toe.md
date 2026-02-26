@@ -7,7 +7,7 @@ We're making a Tic Tac Toe game you can play in your browser!
 <div class="lesson-content__panel" markdown="1">
 
 1. Set up your project with HTML, CSS and JavaScript files and get the Git repo all set up.
-1. You’re going to store the gameboard as an array inside of a Gameboard object, so start there! Your players are also going to be stored in objects, and you’re probably going to want an object to control the flow of the game itself.
+1. You’re going to store the gameboard as an array inside of a Gameboard factory function, so start there! Your players are also going to be stored in objects, and you’re probably going to want an object to control the flow of the game itself.
    1. Your main goal here is to have as little global code as possible. Try tucking as much as you can inside factories. If you only need a single instance of something (e.g. the gameboard, the displayController etc.) then wrap the factory inside an IIFE (module pattern) so it cannot be reused to create additional instances.
    1. In this project, think carefully about where each bit of logic should reside. Each little piece of functionality should be able to fit in the game, player or gameboard objects. Take care to put them in “logical” places. Spending a little time brainstorming here can make your life much easier later!
    1. If you’re having trouble, [Building a house from the inside out](https://www.ayweb.dev/blog/building-a-house-from-the-inside-out) is a great article that lays out a highly applicable example both of how you might approach tackling this project as well as how you might organize and structure your code.
