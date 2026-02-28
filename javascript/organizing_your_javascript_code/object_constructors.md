@@ -156,6 +156,8 @@ A common cause of confusion comes from dealing with the `.prototype` property of
 
 `.prototype` is a property of functions that determines what a new object instance's `[[Prototype]]` will be set to when the function is called with `new`. `.prototype` is *not* for accessing an object's `[[Prototype]]` - that's what `Object.getPrototypeOf()` is for.
 
+![prototypal inheritance diagram](https://cdn.statically.io/gh/TheOdinProject/curriculum/cffc199a8cfbfcd61160b00c4cf61e1d6bb6ff2e/javascript/organizing_your_javascript_code/object_constructors/imgs/00.png)
+
 </div>
 
 #### Prototypal inheritance

@@ -43,5 +43,5 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are the enqueue and dequeue properties?](https://web.archive.org/web/20231223233808/http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/)
 - [What is a linked list? What is a node?](https://en.wikipedia.org/wiki/Data_structure#Examples)
 - [Which recursive problem-solving method/algorithm design principle does binary search implement?](https://youtu.be/T98PIp4omUA?t=20)
-- [What abstract data type would you use to defer/store nodes in a breadth-first tree traversal?](https://youtu.be/86g8jAQug04?t=103)
-- [What abstract data type would you use to defer/store nodes in a depth-first tree traversal?](https://youtu.be/gm8DUJJhmY4?t=499)
+- [What data structure would you use to defer/store nodes in a breadth-first tree traversal?](https://youtu.be/86g8jAQug04?t=103)
+- [What data structure would you use to defer/store nodes in a depth-first tree traversal?](https://youtu.be/gm8DUJJhmY4?t=499)

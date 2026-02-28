@@ -11,13 +11,13 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Life behind the curtain
 
-Hiring managers are busy people.  That's why they need someone new... to remove some of their workload and get their team working better or faster.   They also have to deal with potentially hundreds of unqualified applicants every week, which takes up too much of their valuable time.  They just want to get back to building stuff and not have to hire again anytime soon.  So they are looking for someone who can **add value as soon as possible** and who will be able to **grow with the organization.**
+Hiring managers are busy people.  That's why they need someone new... to remove some of their workload and get their team working better or faster. They also have to deal with potentially hundreds of unqualified applicants every week, which takes up too much of their valuable time.  They just want to get back to building stuff and not have to hire again anytime soon.  So they are looking for someone who can **add value as soon as possible** and who will be able to **grow with the organization.**
 
-The second characteristic, growth, is something you shouldn't have much trouble selling if you've come this far and learned web development on your own.  The key is to present yourself as a growth curve, not just a static line (i.e. you'll continue learning and improving very rapidly and not stop).  You have real career goals and you've learned incredibly fast so far to get to where you are (right?).
+The second characteristic, growth, is something you shouldn't have much trouble selling if you've come this far and learned web development on your own. The key is to present yourself as a growth curve, not just a static line (i.e. you'll continue learning and improving very rapidly and not stop).  You have real career goals and you've learned incredibly fast so far to get to where you are (right?).
 
-The first part, adding value immediately, is more difficult -- that's where they want to see that you've had relevant experience before and can meet their technical bar.  There's a bit of a catch-22 with getting hired -- the easiest way to show you are employable is to have been employed before.  It's a check mark next to you.  So to cater to this; do whatever you can to show that other people have believed in you enough to use your work and skills.
+The first part, adding value immediately, is more difficult -- that's where they want to see that you've had relevant experience before and can meet their technical bar.  There's a bit of a catch-22 with getting hired -- the easiest way to show you are employable is to have been employed before. It's a check mark next to you. So to cater to this; do whatever you can to show that other people have believed in you enough to use your work and skills.
 
-Aside from those two characteristics, there is another major factor -- fit.  The hiring manager wants someone they and their team can work well with.  All the other stuff represents minimum hurdles for being considered.  But you often make or break your chances by being someone the team members want to know better and work with all day long.  Almost all hiring processes ask the full team to evaluate a late-stage candidate.
+Aside from those two characteristics, there is another major factor -- fit.  The hiring manager wants someone they and their team can work well with.  All the other stuff represents minimum hurdles for being considered. But you often make or break your chances by being someone the team members want to know better and work with all day long. Almost all hiring processes ask the full team to evaluate a late-stage candidate.
 
 So to summarize, hiring managers are usually looking for 3 main things:
 
@@ -27,7 +27,7 @@ So to summarize, hiring managers are usually looking for 3 main things:
 
 ### Internships
 
-A good way to start getting experience and show others that you're employable is to get an internship.  Just make sure it's a paid internship because no one values things they get for free.  You want the people you work with to value your contributions and feel like they have a stake in helping you succeed.  The good part is that internships tend to focus more on your growth potential than what you've done before, so you can start to avoid that chicken-and-egg problem described above.
+A good way to start getting experience and show others that you're employable is to get an internship. Just make sure it's a paid internship because no one values things they get for free. You want the people you work with to value your contributions and feel like they have a stake in helping you succeed. The good part is that internships tend to focus more on your growth potential than what you've done before, so you can start to avoid that chicken-and-egg problem described above.
 
 The hiring process for internships is usually similar to but not quite as rigorous as full-time positions.  Internships are basically just long interviews by that company to see if they want to bring you on full-time.
 
