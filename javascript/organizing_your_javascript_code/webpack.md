@@ -39,19 +39,25 @@ This should create a `package.json` file inside the `webpack-practice` directory
 npm install --save-dev webpack webpack-cli
 ```
 
+<div class="lesson-note" markdown="1">
+
+#### npm audit vulnerabilities
+
+After installing a package with npm, the output may mention something about some vulnerabilities and running `npm audit fix`. Even though these are technically vulnerabilities, they are very likely to be extremely specific niche things and as far as TOP is concerned, highly unlikely to be of any actual danger to anything you do in the curriculum, so you can ignore these if you see them.
+
+These are more relevant if you're making production apps with higher stakes, where you'd need to examine the vulnerabilities themselves to see if they can tangibly hurt you.
+
+</div>
+
 Note that we included the `--save-dev` flag (you can also use `-D` as a shortcut), which tells npm to record our two packages as development dependencies. We will only be using Webpack during development. The actual code that makes Webpack run will not be part of the code that the browser will run.
 
 Also notice that when these finished installing, npm created a `node_modules` directory and a `package-lock.json` file for us. `node_modules` is where Webpack's actual code (and a whole bunch of other stuff) lives, and `package-lock.json` is just another file npm uses to track more specific package information.
 
-<div class="lesson-note" markdown="1">
-
-#### src and dist
+### src and dist
 
 When dealing with Webpack (and often with any other bundler or build tool), we have two very important directories: `src` (short for "source") and `dist` (short for "distribution"). We could technically call these directories whatever we want, but these names are conventions.
 
 `src` is where we keep all of our website's source code, essentially where all of our work will be done (with an exception being altering any configuration files in the root of the project). When we run Webpack to bundle our code, it will output the bundled files into the `dist` directory. The idea is that if someone were to fork or clone the project, they would not need the `dist` directory, as they'd just be able to run Webpack to build from `src` into their own `dist`. Similarly, to deploy our website, we would only need the `dist` code and nothing else. Keep that in mind! Work inside `src`, build into `dist`, then deploy from there!
-
-</div>
 
 ### Bundling JavaScript
 
