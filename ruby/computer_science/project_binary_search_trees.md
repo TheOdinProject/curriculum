@@ -8,13 +8,15 @@ Now, let's take a look at balanced binary search trees (BST). A BST allows fast 
 
 You'll build a balanced BST in this assignment. Do not use duplicate values because they make it more complicated and result in trees that are much harder to balance. Therefore, be sure to always remove duplicate values or check for an existing value before inserting.
 
+Your tree should be working with Numerics, do not worry about other types of data for this project.
+
 <div class="lesson-content__panel" markdown="1">
 
 1. Build a `Node` class. It should have an attribute for the data it stores as well as its left and right children.
 
 1. Build a `Tree` class which accepts an array when initialized. The `Tree` class should have a `root` attribute, which uses the return value of `#build_tree` which you'll write next.
 
-1. Write a `#build_tree` method which takes an array of data (e.g., `[1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]`) and turns it into a balanced binary tree full of `Node` objects appropriately placed (don't forget to sort and remove duplicates!). The `#build_tree` method should return the level-0 root node. You can make this method `private` and call it in the initializer to set the value of `@root`.
+1. Write a `#build_tree` method which takes an array of numerics (e.g., `[1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]`) and turns it into a balanced binary tree full of `Node` objects appropriately placed (don't forget to sort and remove duplicates!). The `#build_tree` method should return the level-0 root node. You can make this method `private` and call it in the initializer to set the value of `@root`.
 
    <div class="lesson-note lesson-note--tip" markdown="1">
 
