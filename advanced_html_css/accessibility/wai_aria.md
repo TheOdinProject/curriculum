@@ -19,10 +19,10 @@ WAI-ARIA stands for - *deep breath* - the Web Accessibility Initiative's Accessi
 
 <span id="aria-limitations">It's important to note that ARIA can only modify the semantics or context of an element. ARIA *can't*:</span>
 
-- modify an element's appearance,
-- modify an element's behavior,
-- add focusability, or
-- add keyboard event handling.
+- Modify an element's appearance
+- Modify an element's behavior
+- Add focusability
+- Add keyboard event handling
 
 When you use ARIA, you will usually have to take additional steps to add in any missing semantics or functionality. Remember the Keyboard Navigation lesson and how we had to add in functionality to `<div>` "buttons"?
 
