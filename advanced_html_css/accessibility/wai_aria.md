@@ -31,13 +31,9 @@ When you use ARIA, you will usually have to take additional steps to add in any 
 ARIA can be extremely powerful when used correctly, but it can be equally as dangerous when used incorrectly. Because of this, you should keep in mind that **no ARIA is better than bad ARIA**, even when you have the best intentions. The WCAG has something called "The five rules of ARIA," which as you may have guessed are rules you should follow when using ARIA. Although we don't cover all of the terms mentioned below, it's still important to understand the rules themselves, especially if you decide to dive deeper into ARIA on your own.
 
 1. Always use native HTML elements and attributes over ARIA when possible.
-
 1. Never change native semantics, unless you have no other choice.
-
 1. All interactive ARIA controls must be usable with a keyboard.
-
 1. Never use `role='presentation'` or `aria-hidden='true'` on focusable elements.
-
 1. All interactive elements must have an accessible name.
 
 ### The accessibility tree
