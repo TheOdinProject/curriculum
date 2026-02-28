@@ -18,10 +18,8 @@ This section contains a general overview of topics that you will learn in this l
 [Some text with the word video](someURL)
 [Some text with the words documentation, an article, docs, the docs, page, a video, articles, resource, their docs](someURL)
 
-### The following links SHOULD be flagged
+### The following links SHOULD be flagged as blacklisted text labels
 
-[this](someURL)
-[This video](someURL)
 [video](someURL)
 [videos](someURL)
 [a video](someURL)
@@ -32,11 +30,6 @@ This section contains a general overview of topics that you will learn in this l
 [their homepage](someURL)
 [playlist](someURL)
 [a playlist](someURL)
-[here](someURL)
-[Click here](someURL)
-[This other thing](someURL)
-[This blog post about flex-grow will be flagged as a false positive, but could still be updated](someURL)
-[This will get caught](someURL) and so will [this as separate matches](someURL)
 
 ### Assignment
 

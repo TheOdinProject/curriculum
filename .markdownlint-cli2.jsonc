@@ -82,7 +82,10 @@
     },
     // link-fragments
     // Disabled as it uses a different heading conversion algo to the TOP website
-    "MD051": false
+    "MD051": false,
+    // descriptive-link-text
+    // Disabled and overridden by TOP001 custom rule
+    "MD059": false
   },
   // Custom rules specific to the project
   // Docs for each rule can be found in `./markdownlint/docs`
