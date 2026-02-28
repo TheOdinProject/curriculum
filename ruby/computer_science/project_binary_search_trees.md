@@ -8,8 +8,6 @@ Now, let's take a look at balanced binary search trees (BST). A BST allows fast 
 
 You'll build a balanced BST in this assignment. Do not use duplicate values because they make it more complicated and result in trees that are much harder to balance. Therefore, be sure to always remove duplicate values or check for an existing value before inserting.
 
-Your tree should be working with Numerics, do not worry about other types of data for this project.
-
 <div class="lesson-content__panel" markdown="1">
 
 1. Build a `Node` class. It should have an attribute for the data it stores as well as its left and right children.
