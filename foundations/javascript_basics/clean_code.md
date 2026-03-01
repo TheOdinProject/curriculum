@@ -49,7 +49,7 @@ In the first example, single-letter variables are used and the indentation and s
 
 Imagine you're collaborating on a project with someone who has written the first function. How long will it take you to decipher what's going on so you can continue with your work? Or perhaps you've written it yourself some time ago and completely forgotten that it even existed. In both situations, you will eventually understand what is happening, but it's not going to be fun.
 
-Example B represents cleaner code. While you may not know what each part does, it's much easier to guess what's happening because the functions and variables are named clearly. The indentation and spacing follow a consistent and logical pattern.
+Example B represents cleaner code. While you may not know what each part does, it's much easier to guess what's happening because the functions and variables are named clear. The indentation and spacing follow a consistent and logical pattern.
 
 Single characters can be used as variable names in the context of a loop or a callback function, but avoid them elsewhere.
 
