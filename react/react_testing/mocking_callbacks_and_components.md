@@ -150,10 +150,7 @@ The other important thing to note is almost all the tests follow a certain patte
 <div class="lesson-content__panel" markdown="1">
 
 1. Read this article about [mocking child components](https://medium.com/@taylormclean15/jest-testing-mocking-child-components-to-make-your-unit-tests-more-concise-18691ef6a0c2). It extensively covers the "how" of mocking child components. (You might need to sign up to read)
-1. This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. A few things to note while following this tutorial:
-    - `create-react-app` is now a deprecated option. Stick to Vite as introduced in the [Setting Up A React Environment](https://www.theodinproject.com/lessons/node-path-react-new-setting-up-a-react-environment) lesson
-    - This tutorial uses Jest as its testing framework, but remember to use Vitest as this integrate more nicely with Vite, as mentioned in the previous lesson
-    - The `userEvent` API in this tutorial is synchronous, unlike our current asynchronous one. However, you should be able to follow along using your previous knowledge.
+1. This [tutorial on Testing React Apps by Academind](https://academind.com/tutorials/testing-react-apps) is a great overview of what you've learned. The `userEvent` API in this tutorial is synchronous, unlike our current asynchronous one. However, you should be able to follow along using your previous knowledge and you can still use Vite and Vitest as before..
 
 </div>
 
