@@ -278,7 +278,7 @@ If a browser cannot find or does not support the first font in a list, it will u
 
 Images aren't the only elements that we can adjust the height and width on, but we want to focus on them specifically in this case.
 
-By default, an `<img>` element's `height` and `width` values will be the same as the actual image file's height and width. If you wanted to adjust the size of the image without causing it to lose its proportions, you would use a value of "auto" for the `height` property and adjust the `width` value:
+By default, an <img> element's height and width values will be the same as the actual image file's height and width. If you wanted to adjust the size of the image without causing it to lose its proportions, you would set either the height or width property to a specific value and set the other property to auto.
 
 ```css
 img {
@@ -287,6 +287,14 @@ img {
 }
 ```
 
+or
+
+```css
+img {
+  height: 500px;
+  width: auto;
+}
+```
 For example, if an image's original size was 500px height and 1000px width, using the above CSS would result in a height of 250px.
 
 These properties work in conjunction with the height and width attributes in the HTML. It’s best to include both of these properties and the HTML attributes for image elements, even if you don’t plan on adjusting the values from the image file’s original ones. When these values aren’t included, if an image takes longer to load than the rest of the page contents, it won’t take up any space on the page at first but will suddenly cause a drastic shift of the other page contents once it does load in. Explicitly stating a `height` and `width` prevents this from happening, as space will be “reserved” on the page and appear blank until the image loads.
