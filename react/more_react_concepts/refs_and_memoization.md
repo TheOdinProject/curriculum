@@ -6,8 +6,9 @@ How can we do DOM manipulations that we usually do in vanilla JavaScript? Is it 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Explore `useRef` hook and its use cases.
-- Explain memoization and how `useCallback` and `useMemo` can be used.
+- `useRef` hook and its use cases.
+- Memoization and how `useCallback` and `useMemo` can be used.
+- Automatic memoization with React Compiler.
 
 ### The useRef hook
 
@@ -291,6 +292,8 @@ const memoizedHandleClick = useCallback(handleClick, []);
 Yay, there's only one arrow function, and it's simpler to read. There's nothing extra to `useCallback` other than it only memoizes functions. So the main difference between `useMemo` and `useCallback` is just the type of value it returns.
 
 Which one should we use, then? Use `useMemo` for *any* value types, and use `useCallback` specifically for functions. At the end of the day, they both do similar things with a tiny difference, so use whatever you prefer.
+
+### React compiler
 
 ### Conclusion
 
