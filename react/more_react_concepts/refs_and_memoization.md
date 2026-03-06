@@ -295,7 +295,7 @@ Which one should we use, then? Use `useMemo` for *any* value types, and use `use
 
 ### React Compiler
 
-React Compiler is a build-time tool that can automatically optimize our React app. It will analize our code at build-time and memoize components and hooks, primarily focusing on improving update performance (re-rendering existing components). This means that in most cases, we *don't have to* manually memoize components or hooks.
+React Compiler is a build-time tool that can automatically optimize our React app. It will analize our code at build-time and memoize appropriate components and hooks, primarily focusing on improving update performance (re-rendering existing components). This means that in most cases, we *don't have to* manually memoize components or hooks.
 
 So if React Compiler memoizes our hooks and components automatically, do we need to know about `React.memo`, or hooks like `useMemo` and `useCallback`? Short answer - yes. It helps us understand what React Compiler does under the hood, and given that React Compiler is a relatively new tool, you will almost certainly run into manual memoization techniques in the existing code bases. Lastly, there will be cases where we will want to manually memoize an expensive function, or make sure a `useEffect` dependency is memoized to ensure it doesn't change unnecessarily and fire the effect.
 
