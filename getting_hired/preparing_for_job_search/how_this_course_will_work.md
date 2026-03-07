@@ -1,4 +1,5 @@
 ### Introduction
+
 You've been figuring out this web development stuff and building apps for a long time now and it's finally time to get paid to keep learning by working for someone else.
 
 You're absolutely capable of getting a job but it's rarely easy to find one.  You'll have to be honest with yourself about what you want and what you can offer and tackle the challenge of getting hired with the same rigor and structure that has gotten you this far.
@@ -11,7 +12,7 @@ This course will lay out a structured path to follow which should help you avoid
 
 This course is structured a bit differently than the others because it's much more about you getting out there than it is about learning a specific skill or building a specific project.  There are a couple projects which you'll be asked to do but most of the structure here exists to scaffold your job search process.
 
-### In each lesson:
+### In each lesson
 
 1. We'll introduce the topic and provide you with its context in your overall search.
 1. You'll be asked to do readings, watch videos, do online courses or otherwise consume content to help you out.
