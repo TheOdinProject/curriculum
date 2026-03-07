@@ -278,7 +278,7 @@ If a browser cannot find or does not support the first font in a list, it will u
 
 Images aren't the only elements that we can adjust the height and width on, but we want to focus on them specifically in this case.
 
-By default, an <img> element's height and width values will be the same as the actual image file's height and width. If you wanted to adjust the size of the image without causing it to lose its proportions, you would set either the height or width property to a specific value and set the other property to auto.
+By default, an `<img>` element's `height` and `width` values will be the same as the actual image file's height and width. If you wanted to adjust the size of the image without causing it to lose its proportions, you would set either the `height` or `width` property to a specific value and set the other property to `auto`. For example:
 
 ```css
 img {
