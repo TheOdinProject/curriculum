@@ -112,16 +112,6 @@ export default {
 };
 ```
 
-<div class="lesson-note" markdown="1">
-
-#### ESM, CommonJS and Webpack docs
-
-If you look at Webpack's documentation, you will find many of its code snippets written with CommonJS (CJS) syntax instead of ESM syntax. While there are some key differences between how both module systems work, the only relevant differences to us here are the different import/export syntaxes and one or two global variables under a different name. You shouldn't need to do much "translating" when reading Webpack docs.
-
-It's important to note here that CJS is purely a Node thing and not a browser thing. While our code in src will eventually run in a browser, the actual bundling is done by Webpack which runs in Node.
-
-</div>
-
 You'll notice the exported object contains a few key sections:
 
 - `mode`: For now, we will just leave this in development mode, as it will be more useful to us. We will revisit this and production mode in a later lesson.
