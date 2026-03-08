@@ -86,6 +86,7 @@ For Example 2, the screen reader would announce, "Odin, graphic", making the use
 <div class="lesson-content__panel" markdown="1">
 
   1. Read [Alternative Text - WebAIM](https://webaim.org/techniques/alttext) to learn about when and how you should be adding alternative text for images based on the function of the image and the context surrounding it.
+  1. Read [Usable and Accessible Form Validation and Error Recovery](https://webaim.org/techniques/formvalidation/) to learn about different ways to provide errors to users (using the `alert` in JavaScript, providing all errors at the top of the page, and using inline errors), as well as the pros and cons of each.
 
 </div>
 
@@ -96,10 +97,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are three rules you should follow in order to provide meaningful links?](#meaningful-links-rules)
 - [What information should you inform users of in order to provide meaningful error messages in forms?](#meaningful-error-msg)
 - [When should you use the empty string/null value for the `alt` attribute?](#empty-alt-attribute)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Making Accessible Links: 15 Golden Rules For Developers](https://www.sitepoint.com/15-rules-making-accessible-links/) is a little old, but is still a great list of 15 rules for creating, well, accessible links. Some of the rules the article goes over were mentioned in this lesson, but there are some other rules that can help make sure you're creating a11y friendly links.
-- [Usable and Accessible Form Validation and Error Recovery](https://webaim.org/techniques/formvalidation/) goes over a few different ways you can provide errors to users (using the `alert` in JavaScript, providing all errors at the top of the page, and using inline errors), as well as the pros and cons of each.
