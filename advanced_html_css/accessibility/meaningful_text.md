@@ -86,7 +86,7 @@ For Example 2, the screen reader would announce, "Odin, graphic", making the use
 <div class="lesson-content__panel" markdown="1">
 
   1. Read [Alternative Text - WebAIM](https://webaim.org/techniques/alttext) to learn about when and how you should be adding alternative text for images based on the function of the image and the context surrounding it.
-  1. Read [Usable and Accessible Form Validation and Error Recovery](https://webaim.org/techniques/formvalidation/) to learn about different ways to provide errors to users (using the `alert` in JavaScript, providing all errors at the top of the page, and using inline errors), as well as the pros and cons of each.
+  1. Read [Usable and Accessible Form Validation and Error Recovery](https://webaim.org/techniques/formvalidation/) to learn about different ways to provide errors to users, as well as the pros and cons of each.
 
 </div>
 
