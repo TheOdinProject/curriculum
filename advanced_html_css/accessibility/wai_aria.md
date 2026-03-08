@@ -33,7 +33,7 @@ ARIA can be extremely powerful when used correctly, but it can be equally as dan
 1. Always use native HTML elements and attributes over ARIA when possible.
 1. Never change native semantics, unless you have no other choice.
 1. All interactive ARIA controls must be usable with a keyboard.
-1. Never use `role='presentation'` or `aria-hidden='true'` on focusable elements.
+1. Never use `role="presentation"` or `aria-hidden="true"` on focusable elements.
 1. All interactive elements must have an accessible name.
 
 ### The accessibility tree
@@ -60,13 +60,13 @@ The `aria-label` attribute overrides any native label of an element and modifies
 A common use for `aria-label` can be found in the "close" buttons of menus or modals:
 
 ```html
-<button type='button' aria-label='Close menu'>X</button>
+<button type="button" aria-label="Close menu">X</button>
 ```
 
 Instead of a screen reader announcing, "X, button", which makes little sense to the user, it would announce, "Close menu, button". Another way you could use `aria-label` is on landmark elements (our [Semantic HTML](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-semantic-html) lesson gets another shoutout... again!):
 
 ```html
-<nav aria-label='main navigation'>...</nav>
+<nav aria-label="main navigation">...</nav>
 ```
 
 Once a screen reader reaches the above HTML, it would announce "Main navigation, navigation landmark". If you had multiple navigation elements on a page, you could give each a different `aria-label` value in order to separate them from one another, making them more understandable for screen reader users. Pretty neat, huh?
@@ -81,10 +81,10 @@ The great thing about `aria-labelledby` is that not only can you pass in any num
 
 ```html
 <!-- Here's the labeling element -->
-<h2 id='label'>Shirts</h2>
+<h2 id="label">Shirts</h2>
 
 <!-- And here's the labeled element. Note the order of the ID references passed in -->
-<button type='button' id='shop-btn' aria-labelledby='label shop-btn'>Shop Now</button>
+<button type="button" id="shop-btn" aria-labelledby="label shop-btn">Shop Now</button>
 ```
 
 The HTML above would be announced by a screen reader as, "Shirts, shop now, button". This can make multiple "shop now" buttons on a page unique from one another and thus provide additional context, making the page more understandable.
@@ -95,12 +95,12 @@ Although it may work somewhat similarly to the native `<label>` element, `aria-l
 
 ```html
 <!-- Clicking the <label> element gives focus to the input element -->
-<label for='name'>Name:</label>
-<input id='name' type='text' />
+<label for="name">Name:</label>
+<input id="name" type="text">
 
 <!-- Clicking the <div> element won't give focus to the input element -->
-<div id='label'>Name:</div>
-<input type='text' aria-labelledby='label' />
+<div id="label">Name:</div>
+<input type="text" aria-labelledby="label">
 ```
 
 #### aria-describedby
@@ -108,12 +108,13 @@ Although it may work somewhat similarly to the native `<label>` element, `aria-l
 The `aria-describedby` attribute modifies the description property in the accessibility tree. Similar to the `aria-labelledby` attribute, when you use this attribute, you pass in the `id` values of other elements as the `aria-describedby` value, and the elements whose `id` values are passed in can also be visually hidden.
 
 ```html
-<label>Password:
-  <input type='password' aria-describedby='password-requirements' />
+<label>
+  Password:
+  <input type="password" aria-describedby="password-requirements">
 </label>
 
 <!-- Meaningful text + ARIA! -->
-<span id='password-requirements'>Password must be at least 10 characters long.</span>
+<span id="password-requirements">Password must be at least 10 characters long.</span>
 ```
 
 When the `<input>` element receives focus, a screen reader would announce, "Password, edit protected, password must be at least ten characters long." This immediately notifies a screen reader user of any requirements for the password they want to choose any time the input receives focus.
@@ -124,23 +125,23 @@ Similar to how you can visually hide elements with the `hidden` HTML attribute o
 
 ```html
 <!-- Example 1 -->
-<button type='button'>
-  <span class='material-icons'>add</span>
+<button type="button">
+  <span class="material-icons">add</span>
   Add Book
 </button>
 
 <!-- Example 2 -->
-<button type='button'>
-  <span class='material-icons' aria-hidden='true'>add</span>
+<button type="button">
+  <span class="material-icons" aria-hidden="true">add</span>
   Add Book
 </button>
 ```
 
 While both of the above examples would look visually identical, the button in Example 1 would be announced by a screen reader as, "Add add book, button". The text content of the `<span>` and the text content of the button itself are concatenated as the accessible name of the button. The button in Example 2, however, hides the `<span>` from the accessibility tree so its text content *isn't* added to the button's accessible name, meaning a screen reader would correctly announce "Add book, button".
 
-Be careful when using this attribute, though. When you give an element `aria-hidden='true'`, all children of that element will also become hidden to the accessibility tree. Adding `aria-hidden='false'` to a child element won't have any effect if one of its parents still has `aria-hidden='true'`, either.
+Be careful when using this attribute, though. When you give an element `aria-hidden="true"`, all children of that element will also become hidden to the accessibility tree. Adding `aria-hidden="false"` to a child element won"t have any effect if one of its parents still has `aria-hidden="true'`, either.
 
-You should also be careful not to give an element `aria-hidden='true'` if it is focusable. Doing so would cause nothing to be announced when the element receives focus, which would confuse users that use a screen reader and navigate the page via a keyboard.
+You should also be careful not to give an element `aria-hidden="true"` if it is focusable. Doing so would cause nothing to be announced when the element receives focus, which would confuse users that use a screen reader and navigate the page via a keyboard.
 
 ### Knowledge check
 
