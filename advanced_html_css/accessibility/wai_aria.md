@@ -143,6 +143,14 @@ Be careful when using this attribute, though. When you give an element `aria-hid
 
 You should also be careful not to give an element `aria-hidden="true"` if it is focusable. Doing so would cause nothing to be announced when the element receives focus, which would confuse users that use a screen reader and navigate the page via a keyboard.
 
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) are another type of ARIA attribute that are incredibly useful for having dynamic updates made to a page announced by assistive technologies.
+
+</div>
+
 ### Knowledge check
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
@@ -153,12 +161,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the accessibility tree?](#the-accessibility-tree)
 - [What are the differences between the three ARIA labels?](#aria-labels)
 - [What does the `aria-hidden` attribute do?](#hiding-content-from-the-accessibility-tree)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [An in-depth guide to ARIA roles](https://www.a11yproject.com/posts/2020-08-20-an-indepth-guide-to-aria-roles/#landmark-roles) goes over an ARIA attribute that alters the semantics of elements, which can allow you to create custom inputs, buttons, and more. Just keep in mind rule number one of the ARIA rules!
-- [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) are another type of ARIA attribute that are incredibly useful for having dynamic updates made to a page announced by assistive technologies. A word of warning if you decide to dive into this topic: the `assertive` live region may not work in the JAWS and NVDA screen readers, but the `role="alert"` attribute, which has an implicit live region of assertive, should.
-- [ARIA, Accessibility APIs and coding like you give a damn](https://www.youtube.com/watch?v=qdB8SRhqvFc) is a 30-minute video that covers some concepts introduced in the previous lesson, the importance of ARIA attributes, and an example of how to add functionality to a custom ARIA button.
-- [Accessibility Fundamentals with Rob Dodson](https://www.youtube.com/watch?v=z8xUCzToff8&list=PLOKfJQCx03akpT6vQQCd6o3_iWWVDIjLK&index=6) is another 30-minute video that covers some things mentioned in the previous lessons, but it also covers the accessibility tree, ARIA, and if you still need to be convinced, why using semantic HTML is important.
