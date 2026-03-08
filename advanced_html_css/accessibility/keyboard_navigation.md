@@ -91,7 +91,7 @@ One way to prevent this frustrating behavior is to give each individual item in 
 <div class="lesson-content__panel" markdown="1">
 
 1. Watch [What is Focus?](https://www.youtube.com/watch?v=EFv9ubbZLKw&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=3) to see some issues that occur when trying to change the tab order, then watch [Controlling focus with tabindex](https://www.youtube.com/watch?v=Pe0Ce1WtnUM&list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g&index=4) to see how using the `tabindex` attribute can affect the tab order.
-1. Read [Skip Links](https://webaim.org/techniques/skipnav/) to learn how they are another form of accessibility for keyboard users and can be especially helpful for those who require more effort to tab through the contents of a page.
+1. Read about [Skip Links](https://webaim.org/techniques/skipnav/), another form of accessibility for keyboard users and can be especially helpful for those who require more effort to tab through the contents of a page.
 
 </div>
 
