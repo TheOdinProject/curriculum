@@ -1,6 +1,6 @@
 ### Introduction
 
-To create programs that are user friendly and interactive, you'll need to know how to **output** data to a screen and how to get **input** from a user. In this lesson, we'll cover the most common ways to achieve these tasks in Ruby. As with other lessons, and this one in particular, following along in irb or a REPL will be helpful.
+To create programs that are user friendly and interactive, you'll need to know how to **output** data to a screen and how to get **input** from a user. In this lesson, we'll cover the most common ways to achieve these tasks in Ruby. As with other lessons, and this one in particular, following along in irb or an appropriate online REPL will be helpful.
 
 ### Lesson overview
 
@@ -42,7 +42,7 @@ My name is ALEX! :)
 
 As you can see, the `puts` and `print` commands are quite similar, but you should have already noticed the small difference between the two: `puts` appends a new line to the argument passed in, whereas `print` keeps things all on one line. A very important thing to notice for both commands is that after printing whatever argument they are passed, `puts` and `print` both return `nil`.
 
-To highlight the difference between `puts` and `print`, we're going to pull out a piece of rarely used Ruby syntax: [the semicolon](https://stackoverflow.com/questions/3953846/can-you-use-semicolons-in-ruby). In short, semicolons are never required in Ruby, but they allow you to run multiple Ruby commands all on one line. This type of [code golf](https://en.wikipedia.org/wiki/Code_golf) is not generally recommended, but it's helpful for this example. In a REPL, such as replit.com, the two statements can be written on separate lines without the semicolon and still produce the desired output. However, irb can read only one statement at a time, making the semicolons necessary for this code to work as intended.
+To highlight the difference between `puts` and `print`, we're going to pull out a piece of rarely used Ruby syntax: [the semicolon](https://stackoverflow.com/questions/3953846/can-you-use-semicolons-in-ruby). In short, semicolons are never required in Ruby, but they allow you to run multiple Ruby commands all on one line. This type of [code golf](https://en.wikipedia.org/wiki/Code_golf) is not generally recommended, but it's helpful for this example. In a REPL, the two statements can be written on separate lines without the semicolon and still produce the desired output. However, irb can read only one statement at a time, making the semicolons necessary for this code to work as intended.
 
 ```ruby
 irb(main):001:0> print "Hello World"; print "I love drinking coffee"
@@ -101,9 +101,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is different between these two output methods?](#output-commands)
 - [What is the method you can use to get input from the user?](#input-commands)
 - [What is at least one difference between the output and input methods?](#input-commands)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

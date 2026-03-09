@@ -204,11 +204,13 @@ You should have a good sense of what's going on in the routes file by now but pr
 1. Read the [Rails Guides chapter on Routing](http://guides.rubyonrails.org/routing.html), sections 1-2.5, 3.1-3.4, 4.6, and 6.1
 1. Watch this [Wonderful explanation of how REST and HTTP works](https://www.youtube.com/watch?v=Q-BpqyOT3a8). You can follow the tutorial using `curl https://api.github.com`.
 
-<div class="lesson-note lesson-note--tip" markdown="1">
+   <div class="lesson-note lesson-note--tip" markdown="1">
 
-The Postman Chrome Extension shown in the video is deprecated. Use the native [Postman App](https://www.postman.com/downloads/) or use the web version.
+   #### Don't use the Postman Chrome Extension
 
-</div>
+   The Postman Chrome Extension shown in the video is deprecated. Use the native [Postman App](https://www.postman.com/downloads/) or use the web version.
+
+   </div>
 
 </div>
 

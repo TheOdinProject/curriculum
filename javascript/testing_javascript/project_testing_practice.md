@@ -2,15 +2,11 @@
 
 Let's practice!  This testing thing really is not that difficult, but it *is* quite new.  The only way to get comfortable with it is to spend some time doing it.
 
-### Using ES6 import statements with Jest
-
-By default, the current version of Jest will not recognize ES6 import statements. In order for you to be able to use ES6 modules for this project you may follow the two steps in [Jest's instructions for "Using Babel"](https://jestjs.io/docs/en/getting-started#using-babel) (ignore the "Making your Babel config jest-aware" section).
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-Write tests for the following, and then make the tests pass!
+Write tests for the following, and then make the tests pass! Remember that Jest does not have built-in stable support for ESM, so you will need to [set up Babel for Jest ESM/CJS conversion](https://www.theodinproject.com/lessons/node-path-javascript-testing-basics#using-es6-import-statements-with-jest).
 
 1. A `capitalize` function that takes a string and returns it with the first character capitalized.
 1. A `reverseString` function that takes a string and returns it reversed.

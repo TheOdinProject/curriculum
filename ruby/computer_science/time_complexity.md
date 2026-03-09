@@ -79,7 +79,7 @@ end
 
 How many steps does this algorithm take?
 
-You've probably realised the answer is it depends. If you set `max_number` to be 10, like we did before, the number of steps is 34, but if you enter another number then the number of steps changes. There is no concrete number we can use to measure the efficiency of our code because it changes based on an external input.
+You've probably realized the answer is it depends. If you set `max_number` to be 10, like we did before, the number of steps is 34, but if you enter another number then the number of steps changes. There is no concrete number we can use to measure the efficiency of our code because it changes based on an external input.
 
 So what we really want to be able to measure is how the number of steps of our algorithm changes when the data changes. This helps us answer the question of whether the code we write will scale.
 
@@ -103,11 +103,11 @@ Big O gives us a consistent way to measure the efficiency of an algorithm. It gi
 
 Big O is not a piece of code you can put your algorithm into that tells you how efficient it is. You will need to measure how the number of steps changes as the data grows, and using this you can apply a Big O Notation to it and measure it against other algorithms. In many cases you'll be using a data structure in which the ways you interact with it are well known, and in that case it's easier to judge how it will scale as the input changes.
 
-Firstly, we'll summarise the Big O Notations and then provide a little more context for each one. The reading materials will dive into greater detail.
+Firstly, we'll summarize the Big O Notations and then provide a little more context for each one. The reading materials will dive into greater detail.
 
 #### Big O notation
 
-The Big O Notations in the order of speed from fastest to slowest are:
+The most common Big O Notations in the order of speed from fastest to slowest are:
 
 - O(1) - Constant Complexity
 - O(log N) - Logarithmic Complexity
@@ -174,7 +174,7 @@ arr = [6, 7, -, -, -]
 
 We repeat this process until we have an array of just one item. If that item matches the number we're looking for, we've found it. If not, the number isn't in the array.
 
-The below table summarises the size of an array doubling and how many steps in Big O terms we would need to arrive at one element to see if it matches what we're looking for:
+The below table summarizes the size of an array doubling and how many steps in Big O terms we would need to arrive at one element to see if it matches what we're looking for:
 
 | Size | Steps |
 | ---- | ----- |
@@ -309,9 +309,23 @@ def odd_numbers(max_number)
 end
 ```
 
-Not much of a change, but this time we increase `current_number` by 2. How does this affect our algorithm runtime? Well, for an input of `n`, the number of steps is approximately half as we iterate by 2 each time. This is an algorithm of `O(N/2)` but as mentioned earlier, Big O doesn't concern itself with constants because they aren't relative to how an algorithm scales as the input changes and it wouldn't be fun or easy to have to compare an algorithm of `O(N/2 + 5 N)` against `O(N + 5 / 2N)`. Therefore, the Big O efficiency of both algorithms is `O(N)`. They scale at the same rate as the input grows.
+Not much of a change, but this time we increase `current_number` by 2. How does this affect our algorithm runtime? Well, for an input of `n`, the number of steps is approximately half as we iterate by 2 each time. This is an algorithm of `O(N/2)` but as mentioned earlier, we are not trying to get the exact time, but rather how the time grows relative to the size of the input. Big O doesn't concern itself with constants because they aren't relative to how an algorithm scales as the input changes and it wouldn't be fun or easy to have to compare an algorithm of `O(N/2 + 5 N)` against `O(N + 5 / 2N)`. Therefore, the Big O efficiency of both algorithms is `O(N)`. They scale at the same rate as the input grows.
 
-Therefore, you also need to ensure the code you write is as efficient as it can be within its time complexity.
+Another way to look at it is that constants eventually become irrelevant. Take the following:
+
+N=1, O(10N) = 10, O(n&#178;) = 1
+
+N = 5, O(10N) = 50, O(n&#178;) = 25
+
+N = 100, O(10N) = 1,000, O(n&#178;) = 10,000 *10x bigger*
+
+N = 1000, O(10N) = 10,000, O(n&#178;) = 1,000,000 *100x bigger*
+
+N = 10000, O(10N) = 100,000, O(n&#178;) = 100,000,000 *1000x bigger*
+
+Therefore, O(10N) is faster than O(n²) with an N of 100. Practically speaking, sometimes an n² algorithm is faster than an N algorithm for some small set of inputs, which can be seen in the first two examples above.
+
+Remember to ensure the code you write is as efficient as it can be within its time complexity.
 
 ### Assignment
 
@@ -328,9 +342,10 @@ Therefore, you also need to ensure the code you write is as efficient as it can 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What is Big O?](#what-is-big-o)
-- [What are the Big O Notations?](#big-o-notation)
+- [What are the most common Big O Notations?](#big-o-notation)
 - [Why use Big O?](#why-big-o)
 - [What is Big Omega and why isn't it as useful?](#big-omega-notation)
+- [Why don't constants make a difference in Big O?](#algorithms-with-the-same-complexity)
 
 ### Additional resources
 

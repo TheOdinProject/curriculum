@@ -33,7 +33,7 @@ Formatters are *awesome*. They are similar to linters, but serve a slightly diff
 
 As usual, there are multiple formatters out there. [Prettier](https://prettier.io/) is a very popular choice that is highly opinionated. Besides a few options, most of its formatting decisions are not customizable. Since many of these decisions have been made for you, this reduces the time spent deciding on things like indentation size or spacing, and more time on the problems that actually matter.
 
-Like with ESLint, Prettier is installed as a dev dependency in your project, so read [Prettier's installation guide](https://prettier.io/docs/en/install.html) for instructions on how to do this. While it normally runs with its default rules, you can also change any of its settings in a [Prettier configuration file](https://prettier.io/docs/configuration).
+Like with ESLint, Prettier is installed as a dev dependency in your project, so read [Prettier's installation guide](https://prettier.io/docs/en/install.html) for instructions on how to do this. While it normally runs with its default rules, you can also change any of its settings in a [Prettier configuration file](https://prettier.io/docs/configuration). If you are using the default ESLint recommended rule set, there will not be any clashing lint/format rules, meaning you can just install Prettier as is without configuring `eslint-config-prettier`.
 
 Using Prettier makes coding faster and easier! You don't have to worry about nailing things like indentation, or remembering every semi-colon because it will take care of those details for you.
 
@@ -74,9 +74,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are some of the benefits of using a formatter?](#formatters)
 - [What is Prettier?](https://www.youtube.com/watch?v=hkfBvpEfWdA)
 - [Why should you install linters and/or formatters as dev dependencies in your project?](#ide-extensions-for-linting-and-formatting)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

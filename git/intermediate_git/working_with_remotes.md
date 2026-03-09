@@ -1,4 +1,3 @@
-
 ### Introduction  
 
 So far, you've been working with remote repositories each time you've pushed or pulled from your own GitHub repository while working on the curriculum's various projects. In this section, we're going to cover  slightly more advanced topics, which you might not have yet encountered or had to use.
@@ -11,22 +10,7 @@ This section contains a general overview of topics that you will learn in this l
 - Dangers of history-changing operations.
 - Best practices of history-changing operations.
 
-### Workflow diagram
-
-Here is a visual representation of the workflow with Git and GitHub and illustrates how changes flow between repositories during collaboration.
-
-<pre class="mermaid">
-
-graph TD;
-    A[Upstream Repository: TheOdinProject/curriculum] -->|git fetch upstream/main| B[Local Repository: main];
-    B -->|git checkout your_branch_name| C[Local Repository: your_branch_name];
-    C -->|git push origin your_branch_name| D[Your Fork on GitHub];
-    D -->|Create Pull Request to Upstream| E[Pull Request on GitHub];
-    E -->|Maintainers Merge PR to Upstream| A[Upstream Repository: TheOdinProject/curriculum];
-
-</pre>
-
-#### git push -\-force
+### Force-pushing with Git
 
 Let's say you're no longer working on a project all by yourself, but with someone else. You want to push a branch you've made changes on to a remote repository. Normally, Git will only let you push your changes if you've already updated your local branch with the latest commits from this remote.
 
@@ -54,7 +38,7 @@ git push origin main
 git log
 ```
 
-We look at our commit message and realize *oops*, we made a mistake. We want to undo this commit and are once again tempted to just force the push. But wait, remember, this is a **very dangerous command**. If we're ever considering using it, always check if it's appropriate and if we can use a safer command instead. If we're collaborating with others and want to *undo* a commit we just made, we can instead use `git revert`!
+We look at our commit message and realize *oops*, we made a mistake. We would be tempted to undo this commit with `git reset` and just force the push. But wait! Remember, force pushing is a **very dangerous command**. If we're ever considering using it, always check if it's appropriate and if we can use a safer command instead. If we're collaborating with others and want to *undo* a commit we just made, we can instead use `git revert` which would not require forcing a push! For more information, especially about a collaborative context, watch ["Git Revert vs Git Reset"](https://www.youtube.com/watch?v=iIaM7j3tMuk).
 
 ```bash
 git revert HEAD
@@ -102,10 +86,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is a safe way to forcefully push history changes to a remote repository?](#force-with-lease)
 - [What are the dangers of history-changing operations?](#dangers)
 - [What are best practices of history-changing operations?](#best-practices)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- If you're looking for an interactive way to deepen your knowledge of working with Git, check out this game, [Learn Git Branching](https://learngitbranching.js.org/)
-- To understand how `revert` fits into a collaborative workflow and why it’s preferred over `reset` for shared repositories, watch this - [Git Revert and why](https://www.youtube.com/watch?v=iIaM7j3tMuk).

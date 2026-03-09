@@ -61,15 +61,19 @@ For example: if you have a bug in a new feature you’re working on that you can
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Set up a new branch on your previous Rock Paper Scissors repo
+#### Warm up
 
+1. Let's practice a little bit of branching first. This [interactive Git branching visualizer](https://learngitbranching.js.org/) by Peter Cottle is brilliant. Complete only levels 1-3 of the "Introduction Sequence".
+
+#### Adding a UI to Rock Paper Scissors
+
+1. Set up a new branch on your previous Rock Paper Scissors repo
    1. Since we'll be making a UI for our Rock Paper Scissors game, make a new branch and change to it with the command `git checkout -b rps-ui`.
    1. You are now working in the `rps-ui` branch, locally. However, this branch does not exist in your remote repo yet. If you go to your github repo page, you'll see that you only have 1 branch, which would be `main`. Let's push this new branch to your remote repo with the command `git push origin rps-ui`. Now, you'll see two branches in your GitHub repository! You can select the new branch on GitHub using the dropdown branch selector shown in the screenshot below.
 
       ![Dropdown menu of branches on GitHub](https://cdn.statically.io/gh/TheOdinProject/curriculum/46c18d8445051e016b1e415fe0227a0fa33cc825/foundations/javascript_basics/revisiting_rock_paper_scissors/imgs/00.png)
 
    1. Make sure you are on the `rps-ui` branch. You can check this, with the `git branch` command. The branch you are currently on will have an (\*)asterisk next to it. If you're in another branch for some reason, change to `rps-ui` with the command `git checkout rps-ui`. Now you're all set to work on your new feature! Note: You can add files, commit to this branch, and push changes to your repo, just like you would with the main branch. Everything is the same except when you push the changes, you'd use `git push origin rps-ui` instead of `git push origin main`, since we're pushing to our new branch.
-
 1. In our UI, the player should be able to play the game by clicking on buttons rather than typing their answer in a prompt.
    1. For now, remove the logic that plays exactly five rounds.
    1. Create three buttons, one for each selection. Add an event listener to the buttons that call your `playRound` function with the correct `playerSelection` every time a button is clicked. (you can keep the `console.log`s for this step)
@@ -95,11 +99,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you create a new branch?](#using-branches)
 - [How do you merge a branch back into main?](#using-branches)
 - [What is one use case for branches?](#sharing-code)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Read the chapter on [Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#_basic_merging) by Git-SCM to visualize and understand how branching and merging are used in real-world workflows, and discover why it’s such an amazing tool.
-- Make pushing your local commits to remote branches **easier** with the command `git push -u origin <branch>`. It automatically links the local branch you push with the remote one. [Read Talha Ashar's educative.io article](https://www.educative.io/edpresso/what-is-the-git-push--u-remote-branch-name-command) and commit faster to a remote branch with a `git push` command.
-- Learn Git Branching by going through this [interactive visualizer](https://learngitbranching.js.org/) by Peter Cottle. You can learn the substantial commands about branching while seeing how the commands you write affect your visually presented branch tree.

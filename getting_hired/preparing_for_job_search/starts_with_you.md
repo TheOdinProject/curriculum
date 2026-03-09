@@ -2,6 +2,14 @@
 
 This lesson is all about self-assessment and goal-setting. If you don't understand yourself, you won't be happy with where you end up.  Taking some time to introspect can make the process of getting hired a more manageable and strategic process.
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Explain how to assess your current situation and needs.
+- Describe how to define your career goals and priorities.
+- Learn how to identify your strengths and weaknesses as a job candidate.
+
 ### Where you are now
 
 Without defining what your own needs are, you will have no way of determining the right path forward so hunker down until you've got an idea of what your key needs are right now (from a job).  The questions below should help you think about what is actually essential for you versus nice-to-have.  Ask yourself:
@@ -39,22 +47,30 @@ It's time to be honest with yourself... what do you bring to the table?  If you'
 
 Some questions to ask (which you'll probably hear again in your early interviews):
 
-1. How hungry am I?
-1. How good am I at building back end code?
-1. How good am I at putting together front ends?
-1. Can I solve really technical problems like brain teasers and algorithms?
-1. Have I built projects that display a good range of skills?
-1. Do I know people who can recommend me?
-1. Am I a good people person who builds relationships easily?
-1. Do I portray an aura of confidence or act shy?
-1. Do I tend to undersell myself and my capabilities?
-1. Do I have a broad level of general tech knowledge?
-1. Am I very familiar with a particular technical or industry vertical? (Usually career switchers have one)
-1. Do I tend to procrastinate or do I just get shit done?
-1. Do I wait to ask for help or do I go out and find the answer on my own?
-1. Do I lean in to challenges or avoid them?
-1. What are some really difficult problems I've solved before?
+- How hungry am I?
+- How good am I at building back end code?
+- How good am I at putting together front ends?
+- Can I solve really technical problems like brain teasers and algorithms?
+- Have I built projects that display a good range of skills?
+- Do I know people who can recommend me?
+- Am I a good people person who builds relationships easily?
+- Do I portray an aura of confidence or act shy?
+- Do I tend to undersell myself and my capabilities?
+- Do I have a broad level of general tech knowledge?
+- Am I very familiar with a particular technical or industry vertical? (Usually career switchers have one)
+- Do I tend to procrastinate or do I just get shit done?
+- Do I wait to ask for help or do I go out and find the answer on my own?
+- Do I lean in to challenges or avoid them?
+- What are some really difficult problems I've solved before?
 
 Applying without much experience means you need to fill in your weak spots and emphasize your strengths.  For almost everyone, your biggest strength will be hunger and ability to learn.  But companies have heard that story before, so you'll have to tie in other strengths that you can use to make your story compelling.
 
 A quick note -- there is a difference between hunger for opportunity and desperation.  Hunger is about seeking reward (which you can do when you're in a comfortable situation and optimizing opportunities) and desperation is about avoiding failure (which occurs when you absolutely MUST have that job).  Do whatever it takes to not sound desperate, even if you are.
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [Why is it important to assess your current situation before starting a job search?](#where-you-are-now)
+- [What questions can help you define your career goals and priorities?](#where-you-want-to-be)
+- [What questions can help you identify your strengths and weaknesses as a job candidate?](#what-are-your-assets-and-liabilities)

@@ -107,7 +107,7 @@ The `person` state stays the same throughout the current render of the component
 
 #### The unexpected infinite loop
 
-The following is an infinite loop; can you guess why? Drop by in the [TOP Discord server](https://discord.gg/fbFCkYabZB), tell us why, and score a brownie point!
+The following would cause an infinite loop, but React can, under certain circumstances, detect infinite re-renders and throw an error. Can you guess why React will throw an error here, warning you about too many re-renders? Drop by in the [TOP Discord server](https://discord.gg/fbFCkYabZB), tell us why, and score a brownie point!
 
 ```jsx
 function Component() {

@@ -4,7 +4,7 @@ Introduced in Ruby 2.7, pattern matching uses specified patterns to match agains
 
 With Ruby 3.1, most parts of the pattern matching syntax are no longer considered experimental, so it is now worth ensuring you are familiar with the basics. The syntax can feel a little clunky at first, but there are times it can definitely simplify Ruby code. There are a couple of new patterns with Ruby 3 which we'll introduce at the end.
 
-If you want to play with the examples, make sure you're on at least Ruby 2.7 or use replit.com.
+If you want to play with the examples, make sure you're on at least Ruby 2.7 or try an appropriate online REPL.
 
 ### Lesson overview
 
@@ -116,7 +116,7 @@ puts result
 When we `puts` something inside a case statement, we'll use `#=>` to show what `puts` will print.
 In your terminal, however, you'll see the value printed followed by `=> nil`, since `puts` returns `nil`.
 We'll omit that because it's not relevant to what we're trying to show you.
-Just be aware that the `nil` you see is just the return value of `puts`. Standard Ruby behaviour.
+Just be aware that the `nil` you see is just the return value of `puts`. Standard Ruby behavior.
 
 As you'll see, though, the point of a pattern match usually is to not only match against a pattern, but also bind all or part of the match to one or more variables that you can then use outside of the pattern match expression.
 
@@ -472,7 +472,7 @@ end
 # => banana
 ```
 
-Because of Ruby syntactic sugar for hashes, we could rewrite the above as below. Note how we don't have to provide names for the variables. This isn't pattern matching behaviour but normal Ruby hash behaviour.
+Because of Ruby syntactic sugar for hashes, we could rewrite the above as below. Note how we don't have to provide names for the variables. This isn't pattern matching behavior but normal Ruby hash behavior.
 
 ```ruby
 case { a: 'apple', b: 'banana' }
@@ -509,7 +509,7 @@ end
 # => { :b => "ball", :c => "cat" }
 ```
 
-Something to be mindful of with hashes is that because a hash will match with only a subset of keys matching, you need to guard against situations where you don't want that behaviour.
+Something to be mindful of with hashes is that because a hash will match with only a subset of keys matching, you need to guard against situations where you don't want that behavior.
 
 ```ruby
 case { a: 'ant', b: 'ball' }
@@ -568,7 +568,9 @@ The case/in format is best used when there are multiple conditionals you could p
 
 ### Find pattern
 
-As we saw earlier, we can match against part of a hash using the array pattern match. So what do you do if you need to match against part of an array? The as pattern would capture all of the array and the variable pattern captures individual parts of it. To address this, Ruby added the find pattern.
+An array pattern matches elements by position, starting from the beginning of the array. This makes it unsuitable when you want to match a value that may appear anywhere inside the array.
+
+While the as pattern can capture the entire array and variable patterns can capture individual elements, they still rely on positional matching. To allow matching a subsequence regardless of its position, Ruby introduced the find pattern.
 
 It works by placing a `*` either side of the part you want to match. You can even use the variable pattern to give each `*` a variable name to reference later. Let's look at some examples.
 
@@ -669,7 +671,7 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read the [Ruby docs on pattern matching](https://docs.ruby-lang.org/en/3.3/syntax/pattern_matching_rdoc.html). They cover quite a lot of ground.
+1. Read the [Ruby docs on pattern matching](https://docs.ruby-lang.org/en/3.4/syntax/pattern_matching_rdoc.html). They cover quite a lot of ground.
 
 </div>
 
@@ -677,8 +679,8 @@ Pattern Matching provides a powerful way to get at the data you need in a way th
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is pattern matching?](https://docs.ruby-lang.org/en/3.3/syntax/pattern_matching_rdoc.html)
-- [What is the difference between array patterns and hash patterns?](https://docs.ruby-lang.org/en/3.3/syntax/pattern_matching_rdoc.html#label-Patterns)
+- [What is pattern matching?](https://docs.ruby-lang.org/en/3.4/syntax/pattern_matching_rdoc.html)
+- [What is the difference between array patterns and hash patterns?](https://docs.ruby-lang.org/en/3.4/syntax/pattern_matching_rdoc.html#label-Patterns)
 - [What is the variable pattern match?](#variable-pattern)
 - [What are the different ways of pattern matching on an array?](#array-pattern-match)
 - [Explain the find pattern.](#find-pattern)

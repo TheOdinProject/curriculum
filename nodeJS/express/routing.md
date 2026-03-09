@@ -200,7 +200,10 @@ app.use("/books", bookRouter);
 app.use("/", indexRouter);
 
 const PORT = 3000;
-app.listen(PORT, () => {
+app.listen(PORT, (error) => {
+  if (error) {
+    throw error;
+  }
   console.log(`My first Express app - listening on port ${PORT}!`);
 });
 ```

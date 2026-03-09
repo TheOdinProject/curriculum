@@ -8,7 +8,7 @@ There are a *lot* of CSS properties. Luckily, you don't have to memorize them al
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- You'll learn about a lot of useful CSS properties!
+- You'll learn about a lot of useful CSS properties.
 
 #### Background
 
@@ -18,7 +18,7 @@ One thing to note is that it *is* possible to use these properties individually,
 
 There's a lot of information in the docs on this shorthand and all the associated properties. As we've mentioned before, you do NOT need to *memorize* the exact order and syntax of each property. It's enough to know that they exist and have a general idea of what they do.
 
-One more note, the **Formal Syntax** section here is *crazy*. Don't let it deter you. The basic syntax is somewhat hard to define because many of the properties that make up the shorthand are optional, or can come in different places in the definition. Read the [MDN docs on `background`.](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+One more note, the **Formal Syntax** section here is *crazy*. Don't let it deter you. The basic syntax is somewhat hard to define because many of the properties that make up the shorthand are optional, or can come in different places in the definition.
 
 #### Borders
 
@@ -26,27 +26,33 @@ At this point, you've probably already encountered `border` and `border-radius`.
 
 `border-radius` is the property that is used to create rounded corners on things. As you'll see in the docs, it's possible to get fancy and define different radii for each corner of an element, but this is rarely useful. Store that information in the category of "things I'll look up if I ever need it".
 
-Read the MDN docs for [`border`](https://developer.mozilla.org/en-US/docs/Web/CSS/border) and [`border-radius`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius).
-
-#### box-shadow
+#### Box-shadow
 
 As you might expect from the property name, `box-shadow` adds a shadow effect around an element. This is useful to create a sense of depth on your page and to add subtle separation between elements.
 
 In usage it's straightforward, but keep in mind that it's best used sparingly, and subtly. Prefer lighter, barely visible shadows to darker or brighter colors.
 
-Read the [`box-shadow` docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow).
-
 #### Overflow
 
 It is possible, using `overflow`, to define what happens to an element when its content is too big to fit. The most common usage is likely to add scrollbars to an element inside a webpage, for example a `card` style element with scrollable content.
 
-Check out the [`overflow` docs](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow).
-
 #### Opacity
 
-Opacity is another easy one that can be very useful in some circumstances.
+Opacity is another easy one that can be very useful in some circumstances. The `opacity` property allows you to make an element more or less transparent. This can be useful for creating hover effects, or for layering elements on top of each other.
 
-Check out [`opacity`](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity) for a definition and some examples.
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Check out the MDN docs for the following properties:
+   - [background](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+   - [border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+   - [border-radius](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
+   - [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+   - [overflow](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
+   - [opacity](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
+
+</div>
 
 ### Knowledge check
 
@@ -58,10 +64,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Which property would you use to add a shadow behind an element?](#box-shadow)
 - [Which property would you use to create rounded corners on an element?](#borders)
 - [How would you use border-radius to make a circular element?](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [CSS Tricks](https://css-tricks.com/almanac/properties) has some really great content. Some of it feels less formal and official than the MDN docs, but that means they can be easier to digest.  Sometimes their examples can be more useful. For example, check out their pages on the [background shorthand](https://css-tricks.com/almanac/properties/b/background/), or [overflow](https://css-tricks.com/almanac/properties/o/overflow).
-- [W3 Schools](https://www.w3schools.com/cssref/) is another fine resource. We (the Odin authors) tend to prefer MDN, but there is nothing wrong with W3.

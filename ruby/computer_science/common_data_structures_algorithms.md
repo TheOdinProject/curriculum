@@ -14,34 +14,27 @@ Luckily for you, these complex algorithmic problems have all been solved many ti
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- What is a data structure?
-- What is a stack?
-- What is a queue?
-- What's the difference between a stack and a queue?
-- What is a stack useful for?
-- What is a queue useful for?
-- What's the best way to implement stacks and queues in Ruby?
-- Why bother having many different search algorithms?
-- What is breadth-first-search (BFS)?
-- What is depth-first-search (DFS)?
-- What situations would you want to use BFS?
-- What situations would you want to use DFS instead?
-- When would BFS be impractical?
+- Data structures.
+- Stacks and queues, their usage, and their differences.
+- The best way to implement stacks and queues in Ruby.
+- Why we have so many different search algorithms.
+- Breadth-first-search (BFS) and depth-first-search (DFS) algorithms, and their use cases.
+- When BFS would be impractical.
 
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Glance over the [Wikipedia entry on Data Structures](http://en.wikipedia.org/wiki/Data_structure) for a high level overview of things.
-  1. Watch the first 10 minutes of [Why Study Algorithms](https://www.youtube.com/watch?v=u2TwK3fED8A). The rest is more mathematical if you're interested.
-  1. Read [What is an Algorithm and How Does it Make You a Better Programmer](https://web.archive.org/web/20231223233808/http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/) for another basic look at what algorithms are.
-  1. Learn about [how binary search works](https://www.youtube.com/watch?v=DSffdCT5Cx4) from Harvard’s CS50 on YouTube.
-  1. Now, we're going to focus on learning about binary search trees. Start by watching this video to learn [how a binary search tree is constructed from an unordered array](https://www.youtube.com/watch?v=FvdPo8PBQtc).
-  1. Next, learn about the [principles of queues and stacks](https://www.youtube.com/watch?v=6QS_Cup1YoI), which are concepts used in breadth-first search and depth-first search respectively.
-  1. Finally, learn about breadth-first search and depth-first search of binary search trees from this series of videos on YouTube:
-      - [Binary tree traversal](https://www.youtube.com/watch?v=9RHO6jU--GU)
-      - [Breadth-first traversal](https://www.youtube.com/watch?v=86g8jAQug04)
-      - [Depth-first traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4)
+1. Glance over the [Wikipedia entry on Data Structures](http://en.wikipedia.org/wiki/Data_structure) for a high level overview of things.
+1. Watch the first 10 minutes of [Why Study Algorithms](https://www.youtube.com/watch?v=u2TwK3fED8A). The rest is more mathematical if you're interested.
+1. Read [What is an Algorithm and How Does it Make You a Better Programmer](https://web.archive.org/web/20231223233808/http://blog.thefirehoseproject.com/posts/what-is-an-algorithm/) for another basic look at what algorithms are.
+1. Learn about [how binary search works](https://www.youtube.com/watch?v=DSffdCT5Cx4) from Harvard’s CS50 on YouTube.
+1. Now, we're going to focus on learning about binary search trees. Start by watching this video to learn [how a binary search tree is constructed from an unordered array](https://www.youtube.com/watch?v=FvdPo8PBQtc).
+1. Next, learn about the [principles of queues and stacks](https://www.youtube.com/watch?v=6QS_Cup1YoI), which are concepts used in breadth-first search and depth-first search respectively.
+1. Finally, learn about breadth-first search and depth-first search of binary search trees from this series of videos on YouTube:
+   - [Binary tree traversal](https://www.youtube.com/watch?v=9RHO6jU--GU)
+   - [Breadth-first traversal](https://www.youtube.com/watch?v=86g8jAQug04)
+   - [Depth-first traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4)
 
 </div>
 

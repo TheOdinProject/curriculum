@@ -1,5 +1,5 @@
-name: 📝 Suggest an Improvement to Curriculum Content
-description: Point out a broken link or a typo, suggest another resource or make a suggestion
+name: 📝 Suggest a fix or improvement to curriculum content
+description: Share your ideas for improving the curriculum
 title: '<Course>: <Short description of your suggestion>'
 labels: ["Status: Needs Triage"]
 assignees:
@@ -28,7 +28,7 @@ body:
     attributes:
       label: Describe your suggestion
       description: A description of your suggestion. You can provide screenshots or additional context if relevant
-      placeholder: ex 'There is a typo in the additional resource section - it should be wombat, not combat'
+      placeholder: ex 'I found a great resource that shows different ways that dev tools can be useful. I think it would be a great addition to the Developer Tools lesson.
     validations:
       required: true
   - type: dropdown

@@ -1,13 +1,25 @@
 ### Introduction
 
-You've moved beyond the preparation and knowledge gathering phase.  Now it's time to hit the pavement and approach the actual jobs.  
+You've moved beyond the preparation and knowledge gathering phase.  Now it's time to hit the pavement and approach the actual jobs.
+
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Explain how to organize your job search.
+- Identify the best places to look for job openings.
+- Describe how to work with recruiters effectively.
+
+### Organizing your job search
 
 Organization is key here and a spreadsheet is highly recommended.  Keep track of not just the jobs themselves, but also their websites, any connections you have to the company, and a log of your activity.  Have a separate column for each "Must Have" criteria you identified in the earlier section (use a binary `true`/`false`) and each of the top 5 "Nice To Have" criteria (use a 3- or 5-point system) so you can quickly check off where the jobs rank.
 
 Put any job opening you find into your spreadsheet.
 
+Here's an example of how a spreadsheet to keep track of job openings might look like:
 
-#### Here's an example of how a spreadsheet to keep track of job openings might look like:
+<!-- overflow div required as table would render wider than content width -->
+<!-- markdownlint-disable MD034 bare URL required for table purposes (angle bracket URLs not rendered on site) -->
 
 <div style="overflow-x: auto;" markdown="block">
 
@@ -19,27 +31,16 @@ Put any job opening you find into your spreadsheet.
 
 </div>
 
-
+<!-- markdownlint-enable MD034 -->
 
 ### The best places to look
 
 Start with your network, even if it's small.  Reach out to your Facebook friends and friends-of-friends to see if anyone's hiring.  You should start your search with the highest probability / highest quality sources first:
 
 1. Your network (including people you've met in the community)
-2. Direct postings that go to a human (like when developers [not recruiters] send emails about job opening at their company to the local Ruby list).  It's important to have another human being on the other end of the emails.
-2. Direct postings (like on a company website for a specific position).  These will also usually go to a specific human being.
-3. Job boards (pretty much awful, you're in the herd now)
-
-Try checking out these links for job boards.  The more technically-focused, the better:
-
-* [Authentic Jobs](http://www.authenticjobs.com)
-* [CWJobs](http://cwjobs.co.uk)
-* [White Truffle -- Weighted towards startups right now](http://www.whitetruffle.com)
-* [Dice.com](http://www.dice.com)
-* [Coderwall.com](http://coderwall.com) lets you display your engineering prowess and they can come to you.
-* [Join-Startups](https://underdog.io/) - open startup jobs in a dozen cities
-* [Work-At-A-Startup](https://www.workatastartup.com/) - Y-Combinator Startups
-* [Hubstaff-Talent](https://talent.hubstaff.com/) - for freelancers and remote
+1. Direct postings that go to a human (like when developers [not recruiters] send emails about job opening at their company to the local Ruby list).  It's important to have another human being on the other end of the emails.
+1. Direct postings (like on a company website for a specific position).  These will also usually go to a specific human being.
+1. Job boards (pretty much awful, you're in the herd now)
 
 ### On recruiters
 
@@ -48,3 +49,27 @@ There are a lot of recruiters out there whose job it is to get you hired, but yo
 If you're approached out of the cold as a junior developer by a recruiter, chances are that they won't be going out of their way to learn your story and find you the right fit -- you're more likely to get put in the pile of resumes they send out to everyone. You probably don't yet have work experience that is salable enough for them to go out of their way to find you the right position.  In that case, you may find them sending out your resume to everyone just in hopes that they get their 20-30%.  Remember -- if they approached you in a spammy way (e.g. through LinkedIn), they probably do the same to companies, so it's doubtful they'll add value to you.  
 
 As you become more senior and your work is more unique, recruiters can add a lot of value to your career by understanding the potential market for you and opening doors you may not otherwise have found (so don't get down on them yet!).  As a junior, you're unfortunately more of a commodity, so you probably won't find value in working with recruiters yet.  Rely on your own ability to hustle and sell yourself.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Try checking out some of these links for job boards.  The more technically-focused, the better:
+   - [Authentic Jobs](http://www.authenticjobs.com) - a place to find developer jobs from various companies.
+   - [CWJobs](http://cwjobs.co.uk) - check out this site for tech roles, especially if you’re based in the UK.
+   - [White Truffle](http://www.whitetruffle.com) - weighted towards startups right now.
+   - [Dice.com](http://www.dice.com) - one of the biggest tech job boards with tons of software listings.
+   - [Coderwall.com](http://coderwall.com) - lets you display your engineering prowess and they can come to you.
+   - [Join-Startups](https://underdog.io/) - open startup jobs in a dozen cities.
+   - [Work-At-A-Startup](https://www.workatastartup.com/) - Y-Combinator Startups.
+   - [Hubstaff-Talent](https://talent.hubstaff.com/) - for freelancers and remote.
+   - [Wellfound (formerly AngelList Talent)](https://wellfound.com/jobs) - transparent startup hiring.
+
+</div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [How can you organize your job search effectively?](#organizing-your-job-search)
+- [What are high-probability sources for finding job openings?](#the-best-places-to-look)

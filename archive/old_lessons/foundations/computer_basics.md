@@ -1,0 +1,35 @@
+### Introduction
+
+Needless to say, while learning to code, you'll be spending most of your time on a computer. Hence, understanding how to work with your computer is crucial. In this lesson, we'll introduce a resource which will quickly get you up to speed with some computer basics.
+
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Computer software and hardware.
+- How to take screenshots.
+- The importance of strong passwords.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+Goodwill Community Foundation (GCF) resources are excellent to get you acquainted with the basics. They have accompanying videos and illustrations and are easy to read. The following readings should be sufficient, although you are welcome to explore more of GCF's resources.
+
+1. [What is a computer?](https://web.archive.org/web/20260102045128/https://edu.gcfglobal.org/en/computerbasics/what-is-a-computer/1/)
+1. [What is an operating system?](https://web.archive.org/web/20260113212651/https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
+1. [What is an application?](https://web.archive.org/web/20260102045128/https://edu.gcfglobal.org/en/computerbasics/understanding-applications/1/)
+1. [Open source vs closed source software.](https://web.archive.org/web/20251103184437/https://edu.gcfglobal.org/en/basic-computer-skills/open-source-vs-closed-source-software/1/)
+1. [Taking screenshots](https://web.archive.org/web/20251122162453/https://edu.gcfglobal.org/en/techsavvy/taking-screenshots/1/). For Linux, you can go to your system settings and search for or set your own keyboard shortcuts related to screenshots.
+1. [Creating strong passwords](https://web.archive.org/web/20251218010059/https://edu.gcfglobal.org/en/techsavvy/password-tips/1/).
+
+</div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [Is Windows an operating system or an application?](https://web.archive.org/web/20260113212651/https://edu.gcfglobal.org/en/computerbasics/understanding-operating-systems/1/)
+- [What's the difference between open source and closed source software?](https://web.archive.org/web/20251103184437/https://edu.gcfglobal.org/en/basic-computer-skills/open-source-vs-closed-source-software/1/)
+- [What are some use cases of a screenshot?](https://web.archive.org/web/20251122162453/https://edu.gcfglobal.org/en/techsavvy/taking-screenshots/1/)
+- [Give an example of a weak and a strong password.](https://web.archive.org/web/20251218010059/https://edu.gcfglobal.org/en/techsavvy/password-tips/1/)

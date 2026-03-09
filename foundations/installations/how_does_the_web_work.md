@@ -23,7 +23,7 @@ This section contains a general overview of topics that you will learn in this l
   1. Watch [How the Internet Works in 5 Minutes](https://youtu.be/7_LPdttKXPc?t=46s).
   1. Read up on the [differences between a web page, a web server, and a search engine](https://developer.mozilla.org/en-US/Learn/Common_questions/Pages_sites_servers_and_search_engines).
   1. Watch this [Google short explaining what a web browser is](https://youtu.be/BrXPcaRlBqo). Then, use this site to [find out your current web browser and version](https://www.whatsmybrowser.org/).
-  1. Read about [how different parts of the web interact with each other](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/How_the_Web_works#Clients_and_servers) and read this [MDN article about how a DNS request works](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name#how_does_a_dns_request_work). Alternatively, here is a [video about how a DNS request works](https://www.youtube.com/watch?v=72snZctFFtA&t=45s).
+  1. Read about [how different parts of the web interact with each other](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/How_the_Web_works#clients_and_servers) and read this [MDN article about how a DNS request works](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name#how_does_a_dns_request_work). Alternatively, here is a [video about how a DNS request works](https://www.youtube.com/watch?v=72snZctFFtA&t=45s).
 
 </div>
 
@@ -46,15 +46,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is a DNS request?](https://www.youtube.com/watch?v=72snZctFFtA&t=45s)
 - [Which browser are you currently using?](https://www.whatsmybrowser.org/)
 - [In your own words, describe the process that takes place when you initiate a search on google.com in terms of what we discussed.](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Listen to [part 1 of the podcast "How the web works"](https://twit.tv/shows/security-now/episodes/25?autostart=false) (starts around 8:30) and [part 2 of "How the web works"](https://twit.tv/shows/security-now/episodes/26?autostart=false) by Security Now.
-- Watch ["A Packet's Tale" - a video about how data travels across the internet](https://www.youtube.com/watch?v=ewrBalT_eBM).
-- Consider buying the book [Tubes: Behind the Scenes at the Internet](https://www.amazon.co.uk/dp/B007TB5SKA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1).
-- If you're in for a bit more reading, you can check out the [Introduction to HTTP](https://launchschool.com/books/http) online book at LaunchSchool. This book also touches on some topics covered later in the curriculum, such as developer tools and security. Additionally, you can learn about HTTP tools, which you may find helpful in the future.
-- Explore how fiber optics uses light to transmit data over long distances, and with integrated photonics, expands our virtual world beyond the internet. [The hidden network that makes the internet possible](https://youtu.be/er3v4PVNQqE).
-- Some advice on reading: We recommend that you only review the immediate links posted in our curriculum. You can always go deeper on any subject if you wish, but be careful not to overload yourself on information!
-- Watch [How the Web Brings You Websites](https://www.youtube.com/watch?v=gDUEgYrAv2c&t=1s) with nice comparison to real life examples 

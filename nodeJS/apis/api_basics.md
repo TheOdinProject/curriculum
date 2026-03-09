@@ -45,9 +45,9 @@ Each part of an API URI specifies the resource. For example, `GET /posts` would 
 
 ### CORS
 
-The [Same Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy) is an important security measure that basically says "Only requests from the same origin (the same IP address or URL) should be allowed to access this API". (Look at the link above for a couple of examples of what counts as the 'same origin'.) This is a big problem for us because we are specifically trying to set up our API so that we can access it from different origins, so to enable that we need to set up Cross-origin resource sharing, or CORS.
+The [Same Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy) is an important security measure for browsers that restricts web pages from making requests to a different origin than the one that served the page (look at the link above for a couple of examples of what counts as the 'same origin').
 
-[Setting up CORS in Express](https://expressjs.com/en/resources/middleware/cors.html#enabling-cors-pre-flight) is very easy, there’s a middleware that does the work for us.
+In the next project, we will be deploying our REST API and front end separately (different domains), meaning we need to enable **Cross-Origin Resource Sharing (CORS)** on the server to allow our separate front end to access its resources. Express has a [CORS middleware package](https://expressjs.com/en/resources/middleware/cors.html) that lets us set everything up.
 
 For now, it is acceptable to just allow access from any origin. This makes development quite a bit easier but for any *real* project, once you deploy to a production environment you will probably want to specifically block access from any origin *except* your frontend website. The documentation above explains how to do this.
 

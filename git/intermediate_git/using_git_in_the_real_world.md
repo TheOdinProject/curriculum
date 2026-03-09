@@ -4,7 +4,7 @@ Git basics are very straightforward, but it sometimes feels like a bottomless pi
 
 The thing about Git is that, unless you've got a seriously impressive memory, you can't just master it by reading about it; you need hands-on practice! For example, find a problem you want to fix, run into a merge error, and then dive into Google to learn a new Git technique along the way to help you fix that problem.
 
-To help you out, come back and refer to this lesson again when you're in trouble. We'll first cover a real-world example of a GitHub workflow used on this very project. The Additional Resources section below should also help you find high quality resources for when you need them later on.
+To help you out, come back and refer to this lesson again when you're in trouble. We'll first have a reminder about commit messages, then cover a real-world example of a GitHub workflow used on this very project.
 
 ### Lesson overview
 
@@ -17,6 +17,21 @@ This section contains a general overview of topics that you will learn in this l
 
 Before we dive into workflows, take a minute to remind yourself about good commit messages. You can check the [Commit Messages lesson](https://www.theodinproject.com/lessons/foundations-commit-messages) for a reminder. This is a good time to draw particular attention to [Conventional Commits](https://www.conventionalcommits.org), a standard for commits that is gaining more and more popularity for collaborative projects. It helps to make sure your commit message gives a clear description of its purpose to anyone reading. Going forward, you may like to implement these (if you aren't already!), or at least be aware of them for when you read other repos.
 
+### Workflow diagram
+
+Here is a visual representation of the workflow with Git and GitHub that illustrates how changes flow between repositories during collaboration.
+
+<pre class="mermaid">
+
+graph TD;
+    A[Upstream Repository: TheOdinProject/curriculum] -->|git fetch upstream/main| B[Local Repository: main];
+    B -->|git checkout your_branch_name| C[Local Repository: your_branch_name];
+    C -->|git push origin your_branch_name| D[Your Fork on GitHub];
+    D -->|Create Pull Request to Upstream| E[Pull Request on GitHub];
+    E -->|Maintainers Merge PR to Upstream| A[Upstream Repository: TheOdinProject/curriculum];
+
+</pre>
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -25,7 +40,7 @@ Let's say you want to contribute to [our curriculum repo](https://github.com/The
 
 How do you contribute when you do not have write access to the repository? Below is a production-ready workflow that is actually used by contributors to this website. We'll assume here that you have commented on an [open issue on our repo](https://github.com/TheOdinProject/curriculum/issues) and that it has been assigned to you. If you don't have an issue assigned to you, you can still follow along with some arbitrary updates, just stop before step 3 in the **Sending your pull request** section since your changes aren't legitimate.
 
-The key players in this story will be the `upstream` (the original GitHub repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`). Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push.
+The key players in this story will be the `upstream` (the original GitHub repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`). Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push, as illustrated in the workflow diagram above.
 
 #### Initial setup
 
@@ -50,6 +65,8 @@ We've got one main branch -- `main`. `main` is for production-ready code. Any co
 
 <div class="lesson-note" markdown="1">
 
+#### Using fetch and merge to be explicit
+
 Note that a `git fetch upstream` followed by a `git merge upstream/some_branch` is the EXACT same thing as doing a `git pull upstream some_branch`. We prefer to split it up here so that we can explicitly walk through the steps.
 
 </div>
@@ -60,6 +77,8 @@ Note that a `git fetch upstream` followed by a `git merge upstream/some_branch` 
 1. Now you want to send your feature branch back up to your `origin` (your fork of the `upstream` repository). You can't send directly to `upstream` because you don't have access, so you'll need to make a pull request. Use `git push origin your_feature_name` to ship your feature branch up to your fork on GitHub.
 
    <div class="lesson-note lesson-note--critical" markdown="1">
+
+   #### Don't open unnecessary PRs
 
    **If you have not been assigned an issue to work on, stop here.** Do not open a test/practice PR, and any such PRs will be treated as spam and closed by a maintainer without review.
 
@@ -79,12 +98,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What name is typically given for a Git remote that points to a repo that's been forked?](#initial-setup)
 - [Can you directly send your changes to a repository that you don't own/have write access to?](#sending-your-pull-request)
 - [What should you do immediately before merging main into your feature branch?](#ongoing-workflow)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Seth Robertson's [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/)
-- Learn about [Git Branching from Peter Cottle](http://pcottle.github.io/learnGitBranching/) using his interactive branching tutorial.
-- [Dangit, Git!?!](https://dangitgit.com/) is a quick reference to get you out of common Git problems.
-- This article on [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/) will walk you through some of the many options Git provides for undoing various mistakes.

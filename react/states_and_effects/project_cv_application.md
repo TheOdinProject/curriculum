@@ -26,59 +26,33 @@ While working on this project, you might notice that some parts of your code exe
 
 </div>
 
-### Deploying a React app
+#### Deploying a React app
 
 While we have been using GitHub Pages to deploy our **static webpages** till now, and we can definitely continue to do so with hacky ways, it's far easier to let a PaaS (Platform as a Service) do the same for us! There are a lot of options to host such sites, and the [Vite hosting docs](https://vitejs.dev/guide/static-deploy.html) go over the most popular ones among them.
 
 Not only do some of these get rid of additional steps after pushing our code to GitHub as these services have tools that automatically *deploy on push*, but you also don't have to worry about other issues further down the curriculum, like routers and build steps. We shall use a few selected options for now. Once you are done with the assignment, choose one of the following options, and deploy!
 
----
+#### Netlify
 
-### Netlify
-
-While there are many ways to deploy to Netlify, like uploading your `dist` directly or using [Netlify's `netlify-cli`](https://docs.netlify.com/cli/get-started/) CLI, the most convenient way would be to directly import your GitHub repository to Netlify.
+While there are many ways to deploy to [Netlify](https://www.netlify.com/) ([Netlify documentation](https://docs.netlify.com/)), like uploading your `dist` directly or using `netlify-cli`, the most convenient way would be to directly import your GitHub repository to Netlify.
 
 1. Push your React application to GitHub.
 1. [Import your project to Netlify](https://app.netlify.com/start) by logging in, and selecting your repository.
 1. Select the branch to deploy from (the default setting, from `main`, works) and hit "Deploy site"!
 1. You can access more settings here if you need to!
 
-#### Netlify Links
+#### Vercel
 
-- [Netlify Homepage](https://www.netlify.com/)
-- [Netlify Documentation Website](https://docs.netlify.com/)
-- [Vite deployment to Netlify with Git](https://vitejs.dev/guide/static-deploy.html#netlify-with-git) section has a similar brief guide
-
----
-
-### Vercel
-
-Similar to Netlify, Vercel also offers a few ways to deploy, but we will be importing our GitHub repository to get benefits like deploy-on-push.
+Similar to Netlify, [Vercel](https://www.vercel.com/) ([Vercel documentation](https://www.vercel.com/docs)) also offers a few ways to deploy, and we will also be importing our GitHub repository to get benefits like deploy-on-push.
 
 1. Again, push your React application to GitHub.
 1. [Import your project to Vercel](https://vercel.com/new).
 1. Vercel will automatically detect that you are using Vite. Set your name as you like, and hit "Deploy"!
 
-#### Vercel Links
+#### Cloudflare Pages
 
-- [Vercel Homepage](https://www.vercel.com/)
-- [Vercel Documentation Website](https://www.vercel.com/docs)
-
----
-
-### Cloudflare pages
+[Cloudflare Pages](https://pages.cloudflare.com/) ([Cloudflare Pages documentation](https://developers.cloudflare.com/pages)) has a similar process and benefits to the other two options: import your GitHub repository and set the right build command and output directory.
 
 1. Yes, push your React application to GitHub.
-1. Create a new Cloudflare account and log into it.
-1. At the top of the page click the blue button "+" or "Add" and navigate to "Pages" in the dropdown.
-1. On the "Pages" tab click "Connect to Git".
-1. Connect to GitHub and select your GitHub repository.
-1. Under "Set up builds and deployments", set `npm run build` as the build command, and `dist` as the build output directory.
-1. Under "Environment variables (advanced)" > "Add variable", add a variable named `NODE_VERSION` and set its value to be the version number of Node that you are using. You can find this by executing `node -v` in your terminal.
+1. [Import your project to Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/#:~:text=To%20deploy%20your%20site%20to%20Pages). Make sure when creating an application that you create with Pages instead of creating a Worker.
 1. Hit "Save and Deploy" and watch it come to life!
-
-#### Cloudflare Links
-
-- [Cloudflare Pages Homepage](https://pages.cloudflare.com/)
-- [Cloudflare Pages documentation website](https://developers.cloudflare.com/pages)
-- [Vite deployment to Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-vite3-project/) discusses these very steps

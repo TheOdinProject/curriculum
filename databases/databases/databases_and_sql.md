@@ -1,6 +1,6 @@
 ### Introduction
 
-Data is the core of any good web app and a good working knowledge of SQL will take you a long way.  That knowledge lets you not just understand what's going on behind the scenes with your ORM tool (e.g., Active Record in Rails, or Prisma in NodeJS) but also to feel comfortable asking more complicated questions of your data.  And that's really what SQL is all about -- asking questions of your database and occasionally also adding or changing things in it.  Querying can be incredibly useful for you.
+Data is the core of any good web app and a good working knowledge of SQL will take you a long way.  That knowledge lets you not just understand what’s going on behind the scenes when you use an Object-Relational Mapper (ORM; e.g. Active Record in Rails, or Prisma in Node.js), but also to feel comfortable asking more complicated questions of your data.  And that's really what SQL is all about -- asking questions of your database and occasionally also adding or changing things in it.  Querying can be incredibly useful for you.
 
 In more straightforward cases, you might want to display all users who signed up in December via the promotion code "FREESTUFF."  You might want to display all comments created by the current user and sorted by topic and creation date.  In more complex cases, you may want to show a list of all the orders shipped to states with more than 1,000 users by quantity and total order value.  Or, for internal reasons, you might ask marketing analysis questions like which promotion channels produce users who meet your specified engagement criteria of reading five articles per work week.
 
@@ -34,9 +34,9 @@ This section contains a general overview of topics that you will learn in this l
 
 This is a very brief soup-to-nuts explanation of SQL.  It won't do a particularly good job teaching you specific new tactics but should present a general overview to have going into the reading assignment.  Here we go...
 
-SQL is the language used to talk to many relational databases.  These databases use lots of tables to store different types of data (e.g., `users` and `posts` tables).  Tables are long lists like spreadsheets where each row is a different record (or object, e.g., a single user) and each column is one of that record's attributes (like name, email, etc.).  The one column that all tables include is an `ID` column, which gives the unique row numbers, and is called the record's "primary key."
+SQL is the language used to talk to many relational databases.  These databases use lots of tables to store different types of data (e.g., `users` and `posts` tables).  Tables are long lists like spreadsheets where each row is a different record (or object, e.g., a single user) and each column is one of that record's attributes (like name, email, etc.).  <span id='primary-key'>The one column that all tables include is an `ID` column, which gives the unique row numbers, and is called the record's "primary key."</span>
 
-You can "link" tables together by making one of the columns in one table point to the ID of another table. For instance, a row in the `posts` table might include the author's ID under the column called `user_id`.  <span id='foreign-key'>Because the `posts` table has the ID of another table in it, that column is called a "foreign key."</span>
+You can "link" tables together by making one of the columns in one table point to the ID of another table. For instance, a row in the `posts` table might include the author's ID under the column called `user_id`. Because the `posts` table has the ID of another table in it, that column is called a "foreign key."
 
 #### Setting stuff up
 
@@ -81,6 +81,8 @@ A close cousin of `SELECT`, for when you only want unique values of a column, is
 If you want to get all the posts created by a given user, you need to tell SQL which columns it should use to zip the tables together with the `ON` clause. Perform the "zipping" with the `JOIN` command.  But wait, if you mash two tables together where the data doesn't perfectly match up (e.g., there are multiple posts for one user), which rows do you actually keep?  There are four different possibilities:
 
 <div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Clarifying what LEFT is in a JOIN
 
 The "left" table is the original table (the one that the `FROM` clause was `ON`), e.g., `users` in examples below.
 
@@ -156,7 +158,7 @@ The next step, once you've had a chance to practice this all in the project, is 
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is the difference between a foreign key and a primary key?](#foreign-key)
+- [What is the difference between a foreign key and a primary key?](#primary-key)
 - [Where is the setup information for your database stored?](#schema)
 - [What are the important parts of a SQL command?](#command-parts)
 - [Which SQL statement is associated with "Read" from the CRUD acronym?](#sql-read)

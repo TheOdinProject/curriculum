@@ -63,9 +63,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What does the validation helper `presence: true` enforce?](https://guides.rubyonrails.org/active_record_validations.html#presence)
 - [How can you see why an instance of a model class has failed validation?](https://guides.rubyonrails.org/active_record_validations.html#inspecting-and-handling-errors)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

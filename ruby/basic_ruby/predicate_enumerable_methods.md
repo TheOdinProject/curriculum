@@ -2,9 +2,9 @@
 
 In the previous lesson, you learned about some really handy enumerable methods like `#each`, `#map`, and `#select`. In this lesson, we're going to learn about *even more* enumerable methods! Woohoo! The party never ends here at The Odin Project!
 
-This time, we're focusing on a particular subset of enumerable methods: the **predicate enumerable methods**. You should recall from the Methods lesson that a predicate method is indicated by a question mark (`?`) at the end of the method name and returns either `true` or `false`. Again, we won't be going through all of the predicate enumerable methods, so be sure to have a look at the [Ruby docs](https://docs.ruby-lang.org/en/3.3/) to see what else [Enumerable](https://docs.ruby-lang.org/en/3.3/Enumerable.html) offers.
+This time, we're focusing on a particular subset of enumerable methods: the **predicate enumerable methods**. You should recall from the Methods lesson that a predicate method is indicated by a question mark (`?`) at the end of the method name and returns either `true` or `false`. Again, we won't be going through all of the predicate enumerable methods, so be sure to have a look at the [Ruby docs](https://docs.ruby-lang.org/en/3.4/) to see what else [Enumerable](https://docs.ruby-lang.org/en/3.4/Enumerable.html) offers.
 
-For all of the examples throughout this lesson, feel free to follow along in irb or [replit.com](https://replit.com/languages/ruby) (an online REPL environment) to get a better feel for how they work.
+For all of the examples throughout this lesson, feel free to follow along in irb or any appropriate online REPL environment to get a better feel for how they work.
 
 ### Lesson overview
 
@@ -51,7 +51,9 @@ result
 #=> false
 ```
 
-<div class="lesson-note">
+<div class="lesson-note" markdown="1">
+
+#### Breaking out of the loop
 
 If you notice, there is a `break` statement in the `if` condition so that loop stops executing once the number is found. Otherwise it would still run over all numbers in the array which is not needed as we have already found the element.
 
@@ -226,6 +228,20 @@ fruits.none? { |fruit| fruit.length > 6 }
 #=> false
 ```
 
+### The one? method
+
+Ruby has methods to check whether all, any, or none of the elements in an array match a condition. But what if you need exactly one match - no more, no less? Ruby has you covered with the `#one?` method, which returns true if the block evaluates to true for exactly one element.
+
+```ruby
+fruits = ["apple", "banana", "strawberry", "pineapple"]
+
+fruits.one? { |fruit| fruit.length > 9 }
+#=> true
+
+fruits.one? { |fruit| fruit.length > 2 }
+#=> false
+```
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -244,9 +260,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What does the `#any?` method do?](#the-any-method)
 - [What does the `#all?` method do?](#the-all-method)
 - [What does the `#none?` method do?](#the-none-method)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

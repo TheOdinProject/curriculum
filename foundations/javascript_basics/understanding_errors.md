@@ -16,13 +16,7 @@ This section contains a general overview of topics that you will learn in this l
 
 An error is a type of object built into the JS language, consisting of a name/type and a message. Errors contain crucial information that can assist you in locating the code responsible for the error, determining why you have this error, and resolving the error.
 
-<div class="lesson-note lesson-note--tip" markdown=1>
-
-For all examples in this lesson, you should run the code in the browser's console.
-
-</div>
-
-Let’s assume we have written the following code:
+Let’s assume we have written the following code in a `script.js` file linked to an HTML page:
 
 ```javascript
 const a = "Hello";
@@ -156,11 +150,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What are three reasons why you may see a TypeError?](#type-error)
 - [What is the key difference between an error and a warning?](#errors-vs-warnings)
 - [What is one method you can use to resolve an error?](#tips-for-resolving-errors)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [MDN JavaScript Errors Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors).
-- Read the W3schools article to find additional [window console object methods](https://www.w3schools.com/jsref/obj_console.asp).
-- Additionally, watch Steve Griffith's brief [video explanation on the Chrome devtools Console](https://www.youtube.com/watch?v=TqPrpglfE9c).

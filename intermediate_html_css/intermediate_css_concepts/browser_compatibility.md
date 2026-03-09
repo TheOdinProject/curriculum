@@ -56,7 +56,7 @@ Mobile devices mostly consist of smartphones and tablets. The most popular mobil
 
 As you're developing your applications, you must also consider whether your application should be fully mobile compatible. There are a couple of specifics about mobile browsers that you need to keep in mind.
 
-1. <span id="apple-browsers">On iOS and iPadOS, Safari is technically the only supported browser. Yes, you can install Chrome or Firefox, and you can even set them as a default, but they are not full browsers. They are still using the Safari rendering engine (WebKit). Therefore, for your web application to work for Apple users, you have to ensure support for WebKit and other technologies used in Safari.
+1. <span id="apple-browsers">On iOS and iPadOS, Safari is the only supported browser in most regions. Yes, you can install Chrome or Firefox, and you can even set them as a default, but they are not full browsers. They are still using the Safari rendering engine (WebKit). Therefore, for your web application to work for Apple users, you have to ensure support for WebKit and other technologies used in Safari.
 It's important to remember that mobile browsers are not one-to-one with their desktop counterparts. A project that works in the desktop version of Safari might still need adjustments to work properly on the mobile version of the same browser.</span>
 1. Another consideration for mobile browsers is the magnitude of different screen sizes. It is virtually impossible to have every physical device available to test, and thankfully browsers provide a way to emulate other devices. The important piece to remember is that when, for example, you emulate an iPhone in Chrome, all that you're emulating is the screen size. Keep in mind that any specific considerations of the operating system will not be reproducible. Which means that even though everything functions well in Chrome when emulating a device, it could behave differently on the actual phone or tablet device.
 
@@ -76,10 +76,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the most used browser currently?](#most-used-browser)
 - [What was the original name of the first web browser?](#first-web-browser)
 - [How are mobile browsers different on Apple mobile operating systems from Android?](#apple-browsers)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Read more about the [history of web browsers](https://taskade.medium.com/history-of-web-browsers-the-evolution-of-digital-productivity-️-28fa2d4130fb).
-- Take a look at ["How Web Works"](https://github.com/vasanthk/how-web-works/blob/master/README.md).

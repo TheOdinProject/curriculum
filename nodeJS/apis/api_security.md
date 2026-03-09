@@ -11,8 +11,8 @@ This strategy, while particularly useful with APIs can be used with a traditiona
 This section contains a general overview of topics that you will learn in this lesson.
 
 - Explain how token authentication differs from session based authentication.
-- What are JSON Web Tokens?
-- What is an authorization header? How do we use it?
+- Learn about JSON Web Tokens.
+- Read about an authorization header and how to use it.
 - Identify and explain the methods used to sign and verify tokens.
 - Write custom middleware to verify tokens on a given route.
 - Have familiarity with token expiration with JWT.
@@ -31,7 +31,7 @@ This section contains a general overview of topics that you will learn in this l
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What is a JSON web token?](https://dev.to/_arpy/learn-using-jwt-with-passport-authentication-22n8)
+- [What is a JSON web token?](https://www.youtube.com/watch?v=7Q17ubqLfaM)
 - [What are two things a secure token will do?](#secure-token)
 - [Where in the code is a secure token passed?](#pass-token)
 

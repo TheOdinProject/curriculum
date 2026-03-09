@@ -28,6 +28,8 @@ Hashing is a one-way process. Using the above example, you can make a hash code 
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Benefits of hashing
+
 Hashing is very good for security. Given a password, you can save the hash of that password rather than the password's plain text. If someone steals your hashes, they cannot know the original passwords since they are unable to reverse the hash back to the password.
 
 </div>
@@ -114,7 +116,7 @@ A hash map does not guarantee insertion order when you iterate over it. The tran
 Some libraries implement hash maps with insertion order in mind such as JavaScript's own `Map`. For the coming project however we will be implementing an unordered hash map.
 Example: if we insert the values `Mao`, `Zach`, `Xari` in this order, we may get back `["Zach", "Mao", "Xari"]` when we call an iterator.
 
-If iterating over a hash map frequently is your goal, then this data structure is not the right choice for the job, a simple array would be better.
+If iterating over a hash map frequently is your goal, then this data structure is not the right choice for the job. A simple array would be better.
 
 ### Collisions
 
@@ -140,7 +142,9 @@ With our new function we will have different hash codes for the names `"Sara"` a
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-  Notice the usage of a prime number. We could have chosen any number we wanted, but prime numbers are preferable. Multiplying by a prime number will reduce the likelihood of hash codes being evenly divisible by the bucket length, which helps minimize the occurrence of collisions.
+#### Minimizing collisions
+
+Notice the usage of a prime number. We could have chosen any number we wanted, but prime numbers are preferable. Multiplying by a prime number will reduce the likelihood of hash codes being evenly divisible by the bucket length, which helps minimize the occurrence of collisions.
 
 </div>
 
@@ -158,7 +162,9 @@ Let's talk about our number of buckets. We don't have infinite memory, so we can
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-  Most programming languages start with the default size of `16` because it's a power of 2, which helps with some techniques for performance that require bit manipulation for indexes.
+#### Setting the initial size of the array
+
+Most programming languages start with the default size of `16` because it's a power of 2, which helps with some techniques for performance that require bit manipulation for indexes.
 
 </div>
 

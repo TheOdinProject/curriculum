@@ -52,6 +52,14 @@ To add the minimum length validation, we give the form control a `minlength` att
 
 Try entering less than three characters into the text area and clicking the post button to see the validation in action.
 
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### minlength doesn't imply required
+
+You can try it yourself in the above example by not entering anything in the input and it will still submit. This is because, as mentioned in [MDN's docs on minlength](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/minlength), "Constraint validation is only applied when the value is changed by the user."
+
+</div>
+
 #### Maximum length validation
 
 To add a maximum length validation, we give the form control a `maxlength` attribute with an integer value which represents the maximum number of characters we want to allow in the form control:
@@ -88,9 +96,7 @@ This gives us much more scope to control what users input.
 
 Just like we often need to control the length of text-based form controls, there will be many situations where we will want to control the range of values users can enter into number based form controls.
 
-We can do this with the min and max attributes, which allows us to set the lower and upper bounds of the value entered into the form control.
-The min and max attributes only work with number-based form controls such as the number, dates and time inputs.
-You can view the complete list of supported elements on [MDN's documentation on the `max` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max#syntax).
+We can do this with the min and max attributes, which allows us to set the lower and upper bounds of the value entered into the form control. The min and max attributes only work with number-based form controls such as the number, dates and time inputs. You can view the complete list of supported elements on [MDN's documentation on the `max` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max#syntax).
 
 Some real-world use cases for using these validations would be limiting the quantity on a product order form or choosing the number of passengers on a flight booking form.
 
@@ -128,10 +134,9 @@ Try submitting the form with seven passengers to see the validation in action.
 
 ### Pattern validations
 
-To ensure we get the correct information from users, we will often want to ensure data matches a particular pattern.
-Real-world applications would be checking if a credit card number or a zipcode is in the correct format.
+To ensure we get the correct information from users, we will often want to ensure data matches a particular pattern. Real-world applications include checking if a password, credit card number or a zipcode is in the correct format.
 
-To add a pattern validation, we give the form control a `pattern` attribute with a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) as the value. In our example we are using the pattern validation to ensure a US zip code is in the correct format (5 numbers followed by an optional dash and 4 more numbers):
+To add a pattern validation, we give the form control a `pattern` attribute with a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) (regex) as the value. In our example we are using the pattern validation to ensure a US zip code is in the correct format (5 numbers followed by an optional dash and 4 more numbers):
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="YzrQqRK" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
@@ -143,8 +148,15 @@ To add a pattern validation, we give the form control a `pattern` attribute with
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-Entering an incorrect zip code and submitting the form will display the following validation error in the browser "Please match the requested format".
-This isn't very useful since it doesn't communicate how to fix the issue.
+<div class="lesson-note lesson-note--tip" markdown="1">
+
+#### Regex for pattern validation
+
+You don't really need to deep dive into regex for this. With how complex regex can get, especially when the exact syntax can differ when you're writing them for HTML attributes, JavaScript strings, JavaScript regex literals etc., in practice you're better off searching for an established regex for your needs rather than trying to construct one yourself.
+
+</div>
+
+Entering an incorrect zip code and submitting the form will display the following validation error in the browser "Please match the requested format". This isn't very useful since it doesn't communicate how to fix the issue.
 
 It is good practice to use a `placeholder` attribute to show users an example of the expected pattern they need to enter:
 
@@ -172,7 +184,7 @@ The pattern attribute can only be used on `<input>` elements. Some input element
 
 ### Styling validations
 
-We can target form controls that have passed or failed validations using the `:valid` and `:invalid` pseudo-classes.
+The `:user-valid` and `:user-invalid` pseudo-classes allow targeting form controls that have passed or failed validation, ensuring input fields remain neutral until user interaction.
 
 To see this in action, we will be using our email and website example that we looked at previously:
 
@@ -186,9 +198,9 @@ To see this in action, we will be using our email and website example that we lo
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-First of all, we target any valid inputs and give them a green border. Our email and URL inputs initially have a green border since they are not required fields and are valid.
+First, we target valid inputs with a green border. Initially, our email and URL fields maintain their default browser styling, representing a neutral state because the user hasn't interacted with them yet.
 
-When a field is invalid, we give it a red border instead. Try entering an invalid email address and URL to see how this looks.
+Once a user enters an invalid value, the border switches to red. You can test this by entering an incorrectly formatted email or URL to see the validation in action.
 
 ### Conclusion
 
@@ -204,12 +216,9 @@ It's also worth noting client-side validations are not a silver bullet for ensur
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read and follow along to [MDN's Client-Side Form Validation Guide](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
-   - Skip the section on "Validating forms using JavaScript". This will be covered in a future lesson.
-
+1. Read and follow along to [MDN's Client-Side Form Validation Guide](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation). Skip the section on "Validating forms using JavaScript". This will be covered in a future lesson.
 1. Go through SitePoint's [Complete Guide to HTML Forms and Constraint Validation Guide](https://www.sitepoint.com/html-forms-constraint-validation-complete-guide/). You can skip the section on "JavaScript and the Constraint Validation API" and "Creating a Custom Form Validator".
-
-1. Read Silo Creativo's article [Improving UX in forms](https://www.silocreativo.com/en/css-rescue-improving-ux-forms/).
+1. Look through this X thread of the [do’s and don’ts for form validation UX](https://threadreaderapp.com/thread/1400388896136040454.html).
 
 </div>
 
@@ -222,13 +231,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How can you validate the minimum and maximum of numeric inputs?](#number-range-validations)
 - [What can you use the pattern validation for?](#pattern-validations)
 - [What pseudo CSS selectors are available for styling valid and invalid inputs?](#styling-validations)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- Look through this X thread of the [do’s and don’ts for form validation UX](https://threadreaderapp.com/thread/1400388896136040454.html).
-- Check out these [10 Guidelines for form validation design](https://www.nngroup.com/articles/errors-forms-design-guidelines/).
-- [Learn Regex: A Beginner’s Guide](https://www.sitepoint.com/learn-regex/) is a great resource for understanding how regex patterns are built and shows how to use a fantastic tool for creating them.
-- [Demystifying Regex with Practical Examples](https://www.sitepoint.com/demystifying-regex-with-practical-examples/) contains some practical examples in detail so you can understand how they work rather than copying and pasting.
-- One last resource on regular expressions that can be helpful is MDN's [regular expression syntax cheatsheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet). This cheatsheet does a great job explaining the syntax of regular expressions in more detail.

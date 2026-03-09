@@ -28,6 +28,8 @@ Hashing is a one-way process. Using the above example, you can make a hash code 
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
+#### Minimizing collisions
+
 Hashing is very good for security. Given a password, you can save the hash of that password rather than the password's plain text. If someone steals your hashes, they cannot know the original passwords since they are unable to reverse the hash back to the password.
 
 </div>
@@ -136,7 +138,9 @@ With our new method we will have different hash codes for the names `"Sara"` and
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-  Notice the usage of a prime number. We could have chosen any number we wanted, but prime numbers are preferable. Multiplying by a prime number will reduce the likelihood of hash codes being evenly divisible by the bucket length, which helps minimize the occurrence of collisions.
+#### Benefits of hashing
+
+Notice the usage of a prime number. We could have chosen any number we wanted, but prime numbers are preferable. Multiplying by a prime number will reduce the likelihood of hash codes being evenly divisible by the bucket length, which helps minimize the occurrence of collisions.
 
 </div>
 
@@ -150,11 +154,13 @@ You probably understand by this point why we must write a good hashing method wh
 
 ### Growth of a hash table
 
-Let's talk about the growth of our buckets. We don't have infinite memory, so we can't have infinite number of buckets. We need to start somewhere, but starting too big is also a waste of memory if we're only going to have a hash map with a single value in it. So to deal with this issue, we should start with a small array for our buckets. We'll use an array of size `16`.
+Let's talk about the growth of our buckets. We don't have infinite memory, so we can't have an infinite number of buckets. We need to start somewhere, but starting too big is also a waste of memory if we're only going to have a hash map with a single value in it. So to deal with this issue, we should start with a small array for our buckets. We'll use an array of size `16`.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
-  Most programming languages start with the default size of `16` because it's a power of 2, which helps with some techniques for performance that require bit manipulation for indexes.
+#### Setting the initial size of the array
+
+Most programming languages start with the default size of `16` because it's a power of 2, which helps with some techniques for performance that require bit manipulation for indexes.
 
 </div>
 
@@ -162,9 +168,9 @@ How are we going to insert into those buckets when our hash method generates big
 For example, if we are to find the bucket where the value `"Manon"` will land, then we do the following:
 ![hashing using hash code and modular operation example](https://cdn.statically.io/gh/TheOdinProject/curriculum/7ea463cfb7c05c330d72f5977cc5fe3b0c640b86/javascript/computer_science/hash_map_data_structure/imgs/01.png)
 
-As we continue to add nodes into our buckets, collisions get more and more likely. Eventually, however, there will be more nodes than there are buckets, which guarantees a collision (check the additional resources section for an explanation of this fact if you're curious).
+As we continue to add nodes into our buckets, collisions become more and more likely. Eventually, however, there will be more nodes than there are buckets, which guarantees a collision (check the additional resources section for an explanation of this fact if you're curious).
 
-Remember we don't want collisions. In a perfect world each bucket will either have 0 or 1 node only, so we grow our buckets to have more chance that our nodes will spread and not stack up in the same buckets. To grow our buckets, we create a new buckets list that is double the size of the old buckets list, then we copy all nodes over to the new buckets.
+Remember we don't want collisions. In a perfect world, each bucket will either have 0 or 1 node only, so we grow our buckets array to have more chance that our nodes will spread and not stack up in the same buckets. To grow our array, we create a new one that is double its size and then copy all existing nodes over to the buckets of this new array, hashing their keys again.
 
 #### When do we know that it's time to grow our buckets size?
 

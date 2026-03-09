@@ -38,7 +38,7 @@ function ButtonComponent() {
 The implementation is straightforward:
 
 1. We imported `useRef` and `useEffect` in the `react` module.
-1. We created a ref object `buttonRef` with a `current` property initially set to `null`. Yes, passing an argument to `useRef` sets the value of `current` to `null` just like `useState`. This argument is ignored in subsequent renders.
+1. We call `useRef` with an argument of `null`, which returns an object with a property called `current` whose initial value is set to the passed argument (which in this case, is `null`). This argument—like the passed argument for `useState`—is ignored in subsequent renders.
 1. Created a `useEffect` to be executed once on the mount of the component that will try to call the `focus` method of the button element.
 1. We've attached `buttonRef` to the `ref` attribute of the button element. This establishes the connection between the `buttonRef` and the button in the DOM.
 
@@ -141,7 +141,7 @@ This way, whenever a user opens/closes the cart multiple times, it will not reca
 
 For this example, we will use the `Profiler` component in the `react` module to measure the component's performance. We will also introduce `memo`.
 
-You do not need to start a React application for this. We've already got you covered a bit later, we will be sharing an interactive example, but for now, think through the code on what you think will happen, what could happen, and so on. This could also be a great exercise in reading code and visualizing how it works.
+You do not need to start a React application for this as we've already got you covered. A bit later, we will be sharing an interactive example, but for now, think through the code about what you think will happen, what could happen, and so on. This could also be a great exercise in reading code and visualizing how it works.
 
 Do note that this is just a very basic example. You will encounter a lot of passing of values to other components as props, components that are very heavy to render.
 
@@ -254,7 +254,7 @@ const value = useMemo(
   [someState, someFunction]
 );
 
-return <Context.Provider value={value}>{children}</Context.Provider>;
+return <Context value={value}>{children}</Context>;
 ```
 
 ### The useCallback hook
@@ -315,9 +315,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the difference between useMemo and useCallback?](#usememo-or-usecallback)
 - [How do useMemo and useCallback help optimize the performance of React components?](#optimization-description)
 - [When should you memoize a value?](https://kentcdodds.com/blog/usememo-and-usecallback)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

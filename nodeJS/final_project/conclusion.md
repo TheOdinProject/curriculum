@@ -6,6 +6,12 @@ This isn't the last course in the curriculum, as there is a Getting Hired course
 
 Still, at this point you've got the NodeJS and Express building blocks. When you work your first six months on the job as a full stack JavaScript dev, you will learn as much information as you just did. Because the point of this course has been to instill these building blocks in you, you're in a place to actually get that first job and build on what you know.
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Explore next steps in your NodeJS journey.
+
 ### Next steps
 
 This final lesson isn't designed to explicitly teach new material, just point you in the right direction if you'd like to dig a bit deeper before moving on. Or maybe you'll bookmark it and come back when you want to see where to head next in your NodeJS journey.
@@ -20,13 +26,7 @@ As you start working on more public-facing applications, security will become mo
 
 #### Caching
 
-Caching makes your application faster by reducing database calls. Check out this information on the [ExpressJS documentation](https://expressjs.com/en/advanced/best-practice-performance.html#cache-request-results) for more information. You may want to also introduce yourself to [Redis](https://redis.io/) if you see it in a lot of job postings in your area or resources you encounter on caching.
-
-#### DevOps
-
-Sometimes, having a little exposure to DevOps can help set you apart as a robust developer. There are various platforms out there you can start to learn from, Azure to Amazon Web Services, Heroku to Digital Ocean. While some of these offer free services, many of their services are unfortunately paid. That being said, this doesn't prevent you from reading documentation or leveraging their free services to start getting some exposure. [Heroku](https://devcenter.heroku.com/categories/reference#deployment) has extensive resources for you to dive into. Another popular provider, Digital Ocean, offers competing [Droplets](https://docs.digitalocean.com/products/droplets/getting-started/quickstart/) and their new [App Platform](https://www.digitalocean.com/docs/app-platform/) services.
-
-A platform we highly encourage you to begin looking into either way is [Amazon Web Services](https://aws.amazon.com/). This is a platform you will likely see on job postings and on the job itself, and can be an invaluable skill to have in your arsenal.
+Caching makes your application faster by reducing database calls. You may want to introduce yourself to [Redis](https://redis.io/) if you see it in a lot of job postings in your area or resources you encounter on caching.
 
 #### Non-relational data
 
@@ -36,10 +36,13 @@ Now that you have exposure to relational databases with PostgreSQL, you might be
 
 Here are a few extra resources that will take you a bit deeper into software architecture, JavaScript and Node:
 
-- [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
-- [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_1?dchild=1&keywords=Clean+Code&qid=1602168590&s=digital-text&sr=1-1)
-- [syntax.fm Podcast](https://syntax.fm)
-- [NodeJS Blog](https://nodejs.org/en/blog/)
+- Explore additional [frameworks built on Express](https://web.archive.org/web/20240328030121/https://expressjs.com/en/resources/frameworks.html) that might be more suited to building certain types of applications.
+- Watch [more about APIs](https://www.youtube.com/watch?v=oBW_VNg4qD0) to learn a bit more about how APIs work.
+- [90 Days of DevOps](https://github.com/MichaelCade/90DaysOfDevOps) is a great repo if you wish to explore more about DevOps.
+- [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8) is a classic book on object-oriented design patterns.
+- Read [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=sr_1_1?dchild=1&keywords=Clean+Code&qid=1602168590&s=digital-text&sr=1-1) to learn principles for writing readable and maintainable code.
+- Check out [syntax.fm Podcast](https://syntax.fm), a podcast covering web development.
+- [NodeJS Blog](https://nodejs.org/en/blog/) - the official NodeJS blog.
 
 If you find anything you think could go on this list, feel free to improve to this lesson in the [TOP curriculum repository on GitHub](https://github.com/TheOdinProject/curriculum)!
 
@@ -47,16 +50,24 @@ If you find anything you think could go on this list, feel free to improve to th
 
 You know more than you think. Remember when we just said that you should keep building stuff? This curriculum is completely open source and needs your help to improve. We have a dedicated group of current and former students who help add features and proofread the curriculum. The best part is that it's completely public and free so you can watch or participate at whatever level you're comfortable.
 
-It's a great way to start learning about agile development methodologies and to start doing meaningful development work in a friendly and supportive environment. So check out the channel on our [Discord](https://discordapp.com/channels/505093832157691914/505093832157691916) to see what we're up to. We'd love to have you get involved!
+It's a great way to start learning about agile development methodologies and to start doing meaningful development work in a friendly and supportive environment.
 
 ### Conclusion
 
 We want to emphasize again that the learning never really stops but also that you've come a long way. Keep up the good work, burn through the Getting Hired course, and get ready to start job hunting!
 
-### Additional resources
+### Assignment
 
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
+<div class="lesson-content__panel" markdown="1">
 
-- Additional [frameworks built on Express](https://web.archive.org/web/20240328030121/https://expressjs.com/en/resources/frameworks.html) that might be more suited to building certain types of applications.
-- Explore [more about APIs](https://www.youtube.com/watch?v=oBW_VNg4qD0).
-- [90 Days of DevOps](https://github.com/MichaelCade/90DaysOfDevOps) is a great repo if you wish to explore more about DevOps.
+1. Check out [Express docs on caching](https://expressjs.com/en/advanced/best-practice-performance.html#cache-request-results).
+1. Visit [our Discord server](https://discordapp.com/channels/505093832157691914/505093832157691916) to see what we're up to. We'd love to have you get involved!
+
+</div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What is a great first step after finishing the curriculum?](#next-steps)
+- [How can you get involved with contributing to The Odin Project curriculum?](#contributing)

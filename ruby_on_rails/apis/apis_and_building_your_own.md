@@ -193,7 +193,6 @@ In the next lesson, we'll cover working with other people's APIs, which can add 
 <div class="lesson-content__panel" markdown="1">
 
   1. Read the [Rails Guide on Controllers](https://guides.rubyonrails.org/v7.2/action_controller_overview.html#rendering) section 7 to learn about rendering JSON and XML.
-  1. They are not required viewing (because they get a bit deeper than we're scoped for), but if you're interested, go check out the Railscasts in the Additional Resources section at the bottom of this lesson for more API goodness.
 
 </div>
 

@@ -1,40 +1,21 @@
 ### Introduction
 
-JavaScript is the future of the web. More and more of the logic is making its way to the client side in order to facilitate lightning-fast user experiences. JavaScript is even moving to the server side with Node.js. That's why in this course we'll be diving deep into it to make sure you come out with a good understanding of how it works.
+JavaScript! Love it or hate it, working in web means you'll have to deal with it at some point. In this course, we will dive deeper into the JavaScript language itself and explore many ways JavaScript gets used on the front end, including topics such as prototypal inheritance, modularization, bundling, asynchronous code, and JavaScript testing.
 
-You've already completed the [Foundations course](https://www.theodinproject.com/paths/foundations/courses/foundations), right? Good, because now we'll be moving at warp speed into new frontiers. This section will cover a lot of ground and your brain may melt down a few times, but don't worry, that's just a flesh wound. Patch 'er up and keep going! When in doubt, build something.
+It's important that we get practical experience with these fundamentals in more vanilla contexts before we dive into making more complex front ends with tools like React. Those kinds of tools often have very specific ways of doing things that may seem like magic or even counter-intuitive, but if you approach them with a good foundation of JavaScript and frontend development, you will have a much better time understanding what they're really doing under the hood.
 
-### The path
+<div class="lesson-note lesson-note--warning" markdown="1">
 
-How is this course set up? It depends a bit on the path you have selected:
+#### For the Ruby folk
 
-<details markdown="block">
-  <summary class="dropDown-header">Ruby Track</summary>
+This course comes a little later in the Ruby path than in the JavaScript path; you will have the benefit of some prior exposure to some of these concepts **but** be wary that just because something looks the same or even has the same name as something in Ruby, doesn't mean it works in exactly the same way. As long as you stay aware of that, you'll be sure to do great!
 
-It starts with a deeper look at the basics, just like the [Ruby Programming course](/paths/full-stack-ruby-on-rails/courses/ruby-programming) did with Ruby. You don't need to have completed the Ruby Programming course or [the Ruby on Rails course](/paths/full-stack-ruby-on-rails/courses/ruby-on-rails) to understand these basics.
+</div>
 
-</details>
+### The journey
 
-<details markdown="block">
-  <summary class="dropDown-header">JavaScript Track</summary>
+The way these lessons will work will be very similar to what you've done so far, so keep at it. You're going to have forgotten things from previous courses. You're going to forget things you learn in this course as you go along, and again in later courses. Remind yourself that [you do not need to memorize everything you learn](https://dev.to/theodinproject/memorization-and-learning-to-code-1b6h).
 
-It starts with a deep look at JavaScript code organization and basic computer science concepts, finishing with a primer on creating and using a test suite for your project.
+We will cover a lot of ground and your brain may melt down a few times, but don't worry, it's just a flesh wound! The learning journey *is* hard, so rest well, patch 'er up and keep going!
 
-</details>
-
-We won't be focusing deeply on the really basic coding items, so it will move quickly. You should, however, already have completed the [Foundations course](https://www.theodinproject.com/paths/foundations/courses/foundations) -- specifically, the [JavaScript Basics section](https://www.theodinproject.com/paths/foundations/courses/foundations#javascript-basics) -- before starting this course.
-
-The last thing you'll do is a project which integrates everything you've learned so far in all the courses of this curriculum. This is the kind of project that you'll consider including in your portfolio as an example to demonstrate your web-development skills to prospective employers.
-
-### Format
-
-There is a lot to cover, but this course has been broken up into bite-sized lessons and their accompanying projects. These projects will give you a chance to apply what you have learned and to show what you are capable of. After a few of them, you'll really start getting the hang of things.
-
-### In each lesson
-
-1. We will introduce the topic briefly and provide you with a list of things you should pay attention to ("Points to Ponder").
-1. You will be asked to do readings, watch videos, do online courses or otherwise consume content to initially learn the material.
-1. Every few lessons you will be asked to build a larger project.
-1. Finally, we will include supplemental resources and other potentially useful tidbits at the end of each lesson.
-
-### Enough talk - get learning!
+**Enough talk - get learning!**

@@ -54,6 +54,8 @@ For most of your apps, one instance is plenty enough. You can support a lot of t
 
 <div class="lesson-note" markdown="1">
 
+#### Server instance and database instance
+
 Learners can keep their server instance and database instance on one PaaS or use separate PaaSes if necessary. When you deal with paid plans, it might even reduce hosting costs!
 
 </div>
@@ -68,7 +70,7 @@ The peace of mind this affords you can't be overstated. You never want to be in 
 
 Many PaaS services come with SQL databases included.
 
-Either choice isn't too difficult to set up, but it's always nice to have a fallback option! For now, we encourage you to try and figure out how to deploy your mini-message board project with just what you learn in this lesson.
+For now, we encourage you to try and figure out how to deploy your mini-message board project with just what you learn in this lesson.
 
 #### Domain names
 
@@ -107,7 +109,7 @@ Can deploy both servers and databases.
 ##### Railway.app: Free Plan
 
 - You get a free one-time grant of $5 on their free trial, and the applications are never put to sleep when inactive.
-- However, the longevity of your free allowance depends on how many resources you consume. More complex apps with more traffic may consume all free resources within a month, whereas simpler apps may last longer.
+- After 30 days has passed or you have used up $5 grant, Railway rolls you back to their limited trial, which you can only deploy database.
 
 ##### Railway.app: Links
 
@@ -172,7 +174,8 @@ Can deploy databases only.
 
 ##### Neon: Free Plan
 
-- 0.5 GiB of storage
+- 10 projects
+- 0.5 GiB of storage per project
 - 24/7 for your main compute
 - No credit card required
 

@@ -1,6 +1,6 @@
 ### Introduction
 
-This lesson will explain the importance of good commit messages, how to write them, when to commit, and why having a history of good commits is so important!
+This lesson will explain the importance of good commit messages, how to write them, when to commit, and why having a history of good commits is so important! We're learning this now because you're about to start your first project where you'll get to use Git as part of your workflow.
 
 ### Lesson overview
 
@@ -12,7 +12,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Are commit messages so important they deserve their own lesson?
 
-Yes! Let me give you a quick list of reasons why:
+Yes! Let us give you a quick list of reasons why:
 
 - When you are applying for jobs, employers will look through your projects on GitHub and they will look through your commit history. Having good commits as a novice developer will help you stand out.
 
@@ -42,6 +42,8 @@ This is the change I made to the codebase
 
 <div class="lesson-note lesson-note--tip" markdown=1>
 
+#### Commit subject character limit
+
 GitHub has a 72-character limit, so we recommend keeping your commits' subjects within this amount.
 
 </div>
@@ -67,6 +69,8 @@ Ahh, that's better! :) Now, developers can gain a better understanding of this c
 - Provides a subject that specifies your code's action (e.g., "Add missing link and alt text to the company's logo").
 - Contains a body that provides a concise yet clear description of why the commit needed to be made (e.g., "Screen readers won't read the images to users with disabilities without this information.").
 - Separates the subject from the body with a new/blank line. This is a best practice we highly recommend following. It makes commit messages easier for other developers to read.
+
+Some teams of developers might have their own convention for commit messages in specific formats. However, they still follow the same principles as this lesson outlined.
 
 ### How to commit with a subject and body in the message
 
@@ -105,10 +109,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What are two benefits of having well-written commit messages and a good commit history?](https://cbea.ms/git-commit/#intro)
 - [How many characters should the subject line of your commit message be?](https://cbea.ms/git-commit/#limit-50)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- One way to formulate high-information commit messages is to follow a template. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) is one of many commit message templates that you can explore.
-- Explore this amazing tutorial video on Conventional Commits ➔ [Full Video Link](https://www.youtube.com/watch?v=OJqUWvmf4gg). The video showcases the Conventional Commits template from the resource above. It also mentions creating releases and shows using something called "Yarn". These two parts are out of scope for this part of the course, so don't worry about them and instead focus on the commit template.

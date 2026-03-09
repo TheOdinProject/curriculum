@@ -4,7 +4,7 @@ In the previous section, you got up and running with Node. You learned how to re
 
 In this course, we will be using a backend framework called [Express](https://expressjs.com/), which will handle many of the implementation details for us. Express itself is an intentionally barebones and unopinionated framework; it allows us to do many things how we want, and to extend it with only the features we need. However, while this gives us great flexibility in how we do things, it can be a little tricky deciding between multiple viable options at times.
 
-Going forward, we will be diving into how we can use Express in various ways, such as to create a full-stack application using the Model View Controller (MVC) pattern, as well as to create a REST API just like ones you will have used before for things such as the Weather App or the React Shopping Cart projects. There is a lot to take in, so take it steady, and do not be afraid to ask our community for help in the [TOP Discord server](https://discord.gg/theodinproject)!
+Going forward, we will be diving into how we can use Express in various ways, such as to create a full-stack application using the Model View Controller (MVC) pattern, as well as to create a REST API just like ones you will have used before for things such as the Weather App or the React Shopping Cart projects. There is a lot to take in, so take it steady, and do not be afraid to ask our community for help in the [TOP Discord server](https://discord.gg/fbFCkYabZB)!
 
 ### Lesson overview
 
@@ -32,7 +32,13 @@ const app = express();
 app.get("/", (req, res) => res.send("Hello, world!"));
 
 const PORT = 3000;
-app.listen(PORT, () => {
+app.listen(PORT, (error) => {
+  // This is important!
+  // Without this, any startup errors will silently fail
+  // instead of giving you a helpful error message.
+  if (error) {
+    throw error;
+  }
   console.log(`My first Express app - listening on port ${PORT}!`);
 });
 ```
@@ -41,7 +47,7 @@ Let's break this down. We import `express` then call it to initialize the `app` 
 
 We then have a `route` - the line beginning with `app.get`. We will come back to this in a moment.
 
-Finally, we tell our server to listen for incoming requests on whatever port we specify, via [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged.
+Finally, we tell our server to listen for incoming requests on whatever port we specify, via [localhost](https://simple.wikipedia.org/wiki/Localhost) (which is basically just the computer's local connection). While port 3000 is the default choice, you can use any unused port (for example, Vite's dev server uses port 5173 by default). Back in your terminal, if you run `node app.js` then all being well, you should see `My first Express app - listening on port 3000!` logged. If something goes wrong, such as the port is already in use, it will throw an error instead.
 
 Congratulations! Your first Express server is now running.
 
@@ -55,7 +61,7 @@ For demonstration purposes, we hardcoded a fixed port number above. Usually, the
 const PORT = process.env.PORT || 3000;
 ```
 
-If the specified port is already in use, we can change the environment variable value without editing the source code. Also, some hosting services configure their own ports which may differ from a fix value hardcoded in.
+If the specified port is already in use, we can change the environment variable value without editing the source code. Also, some hosting services configure their own ports which may differ from a fixed value hardcoded in.
 
 </div>
 
@@ -106,9 +112,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What happens when a server receives a request?](#a-requests-journey)
 - [What can we use to tell Express to send a file in response to a request?](https://expressjs.com/en/api.html#res.sendFile)
 - [What can you use to automatically restart your server when you make changes to a file?](#auto-restarting-your-server-upon-file-changes)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- It looks like this lesson doesn't have any additional resources yet. Help us expand this section by contributing to our curriculum.

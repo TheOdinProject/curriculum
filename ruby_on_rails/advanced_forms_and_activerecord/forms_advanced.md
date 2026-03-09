@@ -119,7 +119,7 @@ We'll do a broad overview of the process here:
 1. Make sure you've allowed your `params` to include the nested attributes by appropriately including them in your Strong Parameters controller method.  See the reading for examples of how to do this.
 1. Build the form in the view.  Use the `#fields_for` method to effectively create a `#form_with` inside your existing `#form_with` form.
 
-There are a couple new aspects to this process.  You saw `#fields_for` in the [Basic Forms lesson](/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/form-basics) but it probably has new meaning to you now.  It's basically how you create a form within a form (which should make sense since it's actually used behind the scenes by `#form_with`).  In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
+There are a couple new aspects to this process.  With `#fields_for`, you basically create a form within a form (which should make sense since it's actually used behind the scenes by `#form_with`).  In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
 
 ```erb
 <%= form_with model: @user do |f| %>
@@ -175,10 +175,9 @@ Sometimes [Rails helper methods will insert hidden fields for you](https://api.r
 
 <div class="lesson-content__panel" markdown="1">
 
-  1. Read the Rails Guide on Forms section 5, which covers [populating a form with a collection of objects](https://guides.rubyonrails.org/form_helpers.html#choices-from-a-collection-of-arbitrary-objects).
+  1. Read the Rails Guide on Forms section 5, which covers [populating a form with a collection of objects](https://guides.rubyonrails.org/form_helpers.html#collection-related-helpers).
   1. Read the Same Rails Guide on Forms section 9, which covers [accepting nested form data](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms).
   1. Read the Same Rails Guide on Forms section 8, which covers the [parameter conventions for nested forms](https://guides.rubyonrails.org/form_helpers.html#form-input-naming-conventions-and-params-hash).
-  1. Read this blog post from [Peter Rhoades on working with nested forms](https://www.createdbypete.com/2014/04/04/working-with-nested-forms-and-a-many-to-many-association-in-rails-4.html). The example covers a lot of the things we've gone over so far, so follow along. Also note how he does the allowing of nested attributes in Rails 4.
 
 </div>
 

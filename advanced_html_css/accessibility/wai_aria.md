@@ -19,10 +19,10 @@ WAI-ARIA stands for - *deep breath* - the Web Accessibility Initiative's Accessi
 
 <span id="aria-limitations">It's important to note that ARIA can only modify the semantics or context of an element. ARIA *can't*:</span>
 
-- modify an element's appearance,
-- modify an element's behavior,
-- add focusability, or
-- add keyboard event handling.
+- Modify an element's appearance
+- Modify an element's behavior
+- Add focusability
+- Add keyboard event handling
 
 When you use ARIA, you will usually have to take additional steps to add in any missing semantics or functionality. Remember the Keyboard Navigation lesson and how we had to add in functionality to `<div>` "buttons"?
 
@@ -31,13 +31,9 @@ When you use ARIA, you will usually have to take additional steps to add in any 
 ARIA can be extremely powerful when used correctly, but it can be equally as dangerous when used incorrectly. Because of this, you should keep in mind that **no ARIA is better than bad ARIA**, even when you have the best intentions. The WCAG has something called "The five rules of ARIA," which as you may have guessed are rules you should follow when using ARIA. Although we don't cover all of the terms mentioned below, it's still important to understand the rules themselves, especially if you decide to dive deeper into ARIA on your own.
 
 1. Always use native HTML elements and attributes over ARIA when possible.
-
 1. Never change native semantics, unless you have no other choice.
-
 1. All interactive ARIA controls must be usable with a keyboard.
-
-1. Never use `role='presentation'` or `aria-hidden='true'` on focusable elements.
-
+1. Never use `role="presentation"` or `aria-hidden="true"` on focusable elements.
 1. All interactive elements must have an accessible name.
 
 ### The accessibility tree
@@ -64,13 +60,13 @@ The `aria-label` attribute overrides any native label of an element and modifies
 A common use for `aria-label` can be found in the "close" buttons of menus or modals:
 
 ```html
-<button type='button' aria-label='Close menu'>X</button>
+<button type="button" aria-label="Close menu">X</button>
 ```
 
 Instead of a screen reader announcing, "X, button", which makes little sense to the user, it would announce, "Close menu, button". Another way you could use `aria-label` is on landmark elements (our [Semantic HTML](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-semantic-html) lesson gets another shoutout... again!):
 
 ```html
-<nav aria-label='main navigation'>...</nav>
+<nav aria-label="main navigation">...</nav>
 ```
 
 Once a screen reader reaches the above HTML, it would announce "Main navigation, navigation landmark". If you had multiple navigation elements on a page, you could give each a different `aria-label` value in order to separate them from one another, making them more understandable for screen reader users. Pretty neat, huh?
@@ -85,10 +81,10 @@ The great thing about `aria-labelledby` is that not only can you pass in any num
 
 ```html
 <!-- Here's the labeling element -->
-<h2 id='label'>Shirts</h2>
+<h2 id="label">Shirts</h2>
 
 <!-- And here's the labeled element. Note the order of the ID references passed in -->
-<button type='button' id='shop-btn' aria-labelledby='label shop-btn'>Shop Now</button>
+<button type="button" id="shop-btn" aria-labelledby="label shop-btn">Shop Now</button>
 ```
 
 The HTML above would be announced by a screen reader as, "Shirts, shop now, button". This can make multiple "shop now" buttons on a page unique from one another and thus provide additional context, making the page more understandable.
@@ -99,12 +95,12 @@ Although it may work somewhat similarly to the native `<label>` element, `aria-l
 
 ```html
 <!-- Clicking the <label> element gives focus to the input element -->
-<label for='name'>Name:</label>
-<input id='name' type='text' />
+<label for="name">Name:</label>
+<input id="name" type="text">
 
 <!-- Clicking the <div> element won't give focus to the input element -->
-<div id='label'>Name:</div>
-<input type='text' aria-labelledby='label' />
+<div id="label">Name:</div>
+<input type="text" aria-labelledby="label">
 ```
 
 #### aria-describedby
@@ -112,12 +108,13 @@ Although it may work somewhat similarly to the native `<label>` element, `aria-l
 The `aria-describedby` attribute modifies the description property in the accessibility tree. Similar to the `aria-labelledby` attribute, when you use this attribute, you pass in the `id` values of other elements as the `aria-describedby` value, and the elements whose `id` values are passed in can also be visually hidden.
 
 ```html
-<label>Password:
-  <input type='password' aria-describedby='password-requirements' />
+<label>
+  Password:
+  <input type="password" aria-describedby="password-requirements">
 </label>
 
 <!-- Meaningful text + ARIA! -->
-<span id='password-requirements'>Password must be at least 10 characters long.</span>
+<span id="password-requirements">Password must be at least 10 characters long.</span>
 ```
 
 When the `<input>` element receives focus, a screen reader would announce, "Password, edit protected, password must be at least ten characters long." This immediately notifies a screen reader user of any requirements for the password they want to choose any time the input receives focus.
@@ -128,23 +125,32 @@ Similar to how you can visually hide elements with the `hidden` HTML attribute o
 
 ```html
 <!-- Example 1 -->
-<button type='button'>
-  <span class='material-icons'>add</span>
+<button type="button">
+  <span class="material-icons">add</span>
   Add Book
 </button>
 
 <!-- Example 2 -->
-<button type='button'>
-  <span class='material-icons' aria-hidden='true'>add</span>
+<button type="button">
+  <span class="material-icons" aria-hidden="true">add</span>
   Add Book
 </button>
 ```
 
 While both of the above examples would look visually identical, the button in Example 1 would be announced by a screen reader as, "Add add book, button". The text content of the `<span>` and the text content of the button itself are concatenated as the accessible name of the button. The button in Example 2, however, hides the `<span>` from the accessibility tree so its text content *isn't* added to the button's accessible name, meaning a screen reader would correctly announce "Add book, button".
 
-Be careful when using this attribute, though. When you give an element `aria-hidden='true'`, all children of that element will also become hidden to the accessibility tree. Adding `aria-hidden='false'` to a child element won't have any effect if one of its parents still has `aria-hidden='true'`, either.
+Be careful when using this attribute, though. When you give an element `aria-hidden="true"`, all children of that element will also become hidden to the accessibility tree. Adding `aria-hidden="false"` to a child element won"t have any effect if one of its parents still has `aria-hidden="true'`, either.
 
-You should also be careful not to give an element `aria-hidden='true'` if it is focusable. Doing so would cause nothing to be announced when the element receives focus, which would confuse users that use a screen reader and navigate the page via a keyboard.
+You should also be careful not to give an element `aria-hidden="true"` if it is focusable. Doing so would cause nothing to be announced when the element receives focus, which would confuse users that use a screen reader and navigate the page via a keyboard.
+
+### Assignment
+
+<div class="lesson-content__panel" markdown="1">
+
+1. Read through sections 1-5 of [W3's "ARIA in HTML"](https://www.w3.org/TR/html-aria/). It's a very thorough document but as usual, you're not expected to memorize anything; it's sufficient to get the gist of the contents. In later lessons, particularly when you come to front end testing, many tools use ARIA roles to encourage building with accessibility in mind from the get go. You'll likely find yourself coming back to this document or researching similar resources.
+1. [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) are another type of ARIA attribute that are incredibly useful for having dynamic updates made to a page announced by assistive technologies.
+
+</div>
 
 ### Knowledge check
 
@@ -156,12 +162,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the accessibility tree?](#the-accessibility-tree)
 - [What are the differences between the three ARIA labels?](#aria-labels)
 - [What does the `aria-hidden` attribute do?](#hiding-content-from-the-accessibility-tree)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [An in-depth guide to ARIA roles](https://www.a11yproject.com/posts/2020-08-20-an-indepth-guide-to-aria-roles/#landmark-roles) goes over an ARIA attribute that alters the semantics of elements, which can allow you to create custom inputs, buttons, and more. Just keep in mind rule number one of the ARIA rules!
-- [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) are another type of ARIA attribute that are incredibly useful for having dynamic updates made to a page announced by assistive technologies. A word of warning if you decide to dive into this topic: the `assertive` live region may not work in the JAWS and NVDA screen readers, but the `role="alert"` attribute, which has an implicit live region of assertive, should.
-- [ARIA, Accessibility APIs and coding like you give a damn](https://www.youtube.com/watch?v=qdB8SRhqvFc) is a 30-minute video that covers some concepts introduced in the previous lesson, the importance of ARIA attributes, and an example of how to add functionality to a custom ARIA button.
-- [Accessibility Fundamentals with Rob Dodson](https://www.youtube.com/watch?v=z8xUCzToff8&list=PLOKfJQCx03akpT6vQQCd6o3_iWWVDIjLK&index=6) is another 30-minute video that covers some things mentioned in the previous lessons, but it also covers the accessibility tree, ARIA, and if you still need to be convinced, why using semantic HTML is important.

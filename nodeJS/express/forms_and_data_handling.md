@@ -58,6 +58,14 @@ We don't always have to sanitize data right when we get it - sometimes it makes 
 
 We'll be using a library called `express-validator` to help us out with both of these. While it makes these processes much simpler, it's important to understand the underlying concepts of these two operations.
 
+<div class="lesson-note" markdown="1">
+
+#### Sanitization definition
+
+You will sometimes see "sanitization" used in a much stricter sense, involving only the removal of characters from incoming data, distinguishing it from "encoding" which is replacing certain characters. It is sometimes also used more loosely to refer to the entire process of changing the incoming data in some way, which includes both removing and encoding characters. This is how we will use the term in our own content in this lesson.
+
+</div>
+
 #### Installing express-validator
 
 We start as usual by installing the correct package in the *root* folder of our project.
@@ -210,14 +218,21 @@ Create folders for `routes`, `views`, `controllers`, `storages`, and an `app.js`
 // app.js
 const express = require("express");
 const app = express();
+const path = require("node:path");
 const usersRouter = require("./routes/usersRouter");
 
+app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: true }));
 app.use("/", usersRouter);
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Express app listening on port ${PORT}!`));
+app.listen(PORT, (error) => {
+  if (error) {
+    throw error;
+  }
+  console.log(`Express app listening on port ${PORT}!`);
+});
 ```
 
 Most simple forms will use the `Content-Type: application/x-www-form-urlencoded` HTTP header when sending data to the server. Express, however, can't natively parse that data. We can use the `express.urlencoded()` middleware to handle this for us and automatically set form's data to the `req.body` field. When `extended` is `false`,  our server will only accept a `string` or an array of data, so we set it to `true` for some added flexibility. Note that if the `Content-Type` doesn't match `application/x-www-form-urlencoded`, then your server will show the data as an empty object `{}`.
@@ -358,7 +373,7 @@ Let's add a few methods to our `usersController.js` for validating and sanitizin
 
 ```javascript
 // This just shows the new stuff we're adding to the existing contents
-const { body, validationResult } = require("express-validator");
+const { body, validationResult, matchedData } = require("express-validator");
 
 const alphaErr = "must only contain letters.";
 const lengthErr = "must be between 1 and 10 characters.";
@@ -383,14 +398,16 @@ exports.usersCreatePost = [
         errors: errors.array(),
       });
     }
-    const { firstName, lastName } = req.body;
+    const { firstName, lastName } = matchedData(req);
     usersStorage.addUser({ firstName, lastName });
     res.redirect("/");
   }
 ];
 ```
 
-And we need to update our `createUser.ejs` view to render these errors. Let's create a new partial. Inside the `views` folder, create a new folder called `partials` and inside it, create `errors.ejs`:
+We retrieve all validated data via the [`matchedData()`](https://express-validator.github.io/docs/api/matched-data) function to ensure all the data we get will include any sanitization done (such as trimmed data).
+
+And now, we need to update our `createUser.ejs` view to render these errors. Let's create a new partial. Inside the `views` folder, create a new folder called `partials` and inside it, create `errors.ejs`:
 
 ```ejs
 <!-- views/partials/errors.ejs -->
@@ -472,7 +489,7 @@ exports.usersUpdatePost = [
         errors: errors.array(),
       });
     }
-    const { firstName, lastName } = req.body;
+    const { firstName, lastName } = matchedData(req);
     usersStorage.updateUser(req.params.id, { firstName, lastName });
     res.redirect("/");
   }
@@ -565,7 +582,7 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you validate and sanitize form input using express-validator?](#understanding-the-body-function)
 - [What is the difference between validation and sanitization?](#validation-and-sanitization)
 - [How do you handle validation errors in Express routes?](#validation-results)
-- [What is the importance of escaping HTML characters in a form?](https://www.theodinproject.com/lessons/nodejs-forms-and-data-handling#escaping-user-input)
+- [What is the importance of escaping HTML characters in a form?](#escaping-user-input)
 
 ### Additional resources
 

@@ -37,10 +37,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [Why would you want to use a CSS reset?](#what-are-default-styles-and-where-do-they-come-from)
 - [Are resets required?](#resets-optional)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Browser Default Styles](https://browserdefaultstyles.com/) allows you to view the user-agent applied rules for each element.
-- [The Fabulous Styleboard](https://fabulousgk.github.io/fabulous-styleboard/) contains a few resets you can select and deselect to see how they affect various HTML elements.

@@ -12,7 +12,7 @@ As you read more about Ruby methods, you'll notice that the terms "methods" and 
 
 Basically, because everything in Ruby is an object, Ruby only has methods, not functions. With that established, we know that when we're talking about Ruby, "methods" and "functions" refer to the same thing.
 
-In this lesson, we're going to deconstruct what methods are, examine their behaviour, and learn how to use them.
+In this lesson, we're going to deconstruct what methods are, examine their behavior, and learn how to use them.
 
 ### Lesson overview
 
@@ -27,7 +27,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Ruby's built-in methods
 
-One of Ruby's great advantages for new programmers is its large number of built-in methods. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. For example, the [#times loop](https://docs.ruby-lang.org/en/3.3/Integer.html#method-i-times) and [#upto loop](https://docs.ruby-lang.org/en/3.3/Integer.html#method-i-upto) that you learned about in the Loops lesson are both methods that are included as part of Ruby's [Integer class](https://docs.ruby-lang.org/en/3.3/Integer.html).
+One of Ruby's great advantages for new programmers is its large number of built-in methods. You've been using many of them already, probably without even realizing it. Over the course of your learning so far, you have modified strings and other objects in various ways. For example, the [#times loop](https://docs.ruby-lang.org/en/3.4/Integer.html#method-i-times) and [#upto loop](https://docs.ruby-lang.org/en/3.4/Integer.html#method-i-upto) that you learned about in the Loops lesson are both methods that are included as part of Ruby's [Integer class](https://docs.ruby-lang.org/en/3.4/Integer.html).
 
 If you're wondering about all of the pound signs (`#`), they’re just [the convention for writing out Ruby instance methods](https://stackoverflow.com/questions/736120/why-are-methods-in-ruby-documentation-preceded-by-a-hash-sign). We can use them to write out the full name of an instance method, e.g., `Integer#upto`, or just the method name, e.g., `#upto`, depending on the context. Note that in the development world, you shouldn't call these hashtags. If you want to be super awesome, though, you can call them ["octothorpes"](https://en.wiktionary.org/wiki/octothorpe). That word is totally trending.
 
@@ -37,9 +37,9 @@ Methods are typically called by adding `.method_name` after an instance of the o
 "anything".reverse
 ```
 
-In this case, [`#reverse`](https://docs.ruby-lang.org/en/3.3/String.html#method-i-reverse) is a built-in method for [String](https://docs.ruby-lang.org/en/3.3/String.html) objects.
+In this case, [`#reverse`](https://docs.ruby-lang.org/en/3.4/String.html#method-i-reverse) is a built-in method for [String](https://docs.ruby-lang.org/en/3.4/String.html) objects.
 
-However, there are also some built-in methods that Ruby makes globally accessible, such as `print` and `puts`. These methods are called with just their name and any arguments. (If you're super curious, these methods are made globally available by the [Kernel module](https://docs.ruby-lang.org/en/3.3/Kernel.html) through the [Object class](https://docs.ruby-lang.org/en/3.3/Object.html), but that's far more than you need to know right now.)
+However, there are also some built-in methods that Ruby makes globally accessible, such as `print` and `puts`. These methods are called with just their name and any arguments. (If you're super curious, these methods are made globally available by the [Kernel module](https://docs.ruby-lang.org/en/3.4/Kernel.html) through the [Object class](https://docs.ruby-lang.org/en/3.4/Object.html), but that's far more than you need to know right now.)
 
 ```ruby
 puts "anything" #=> anything
@@ -77,7 +77,7 @@ It's good practice to start the method name with a lower-case character, because
 
 Here are some things you are not allowed to do with your method names:
 
-- <span id="reserved-words">You cannot name your method one of [Ruby’s approximately 40 reserved words](https://docs.ruby-lang.org/en/3.3/keywords_rdoc.html), such as `end`, `while`, or `for`.</span>
+- <span id="reserved-words">You cannot name your method one of [Ruby’s approximately 40 reserved words](https://docs.ruby-lang.org/en/3.4/syntax/keywords_rdoc.html), such as `end`, `while`, or `for`.</span>
 - You cannot use any symbols other than `_`, `?`, `!`, and `=`.
 - You cannot use `?`, `!`, or `=` anywhere other than at the end of the name.
 - You cannot begin a method name with a number.
@@ -329,5 +329,6 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
+- Check out the [Ruby's Method Arguments](https://www.rubyguides.com/2018/06/rubys-method-arguments/) article from Ruby Guides to learn about advanced types of method arguments such as variable, keyword and optional.
 - For a deeper look at methods, read the [Methods chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards Book of Ruby. Try to complete the exercises throughout the chapter.
 - Read this explanation on Stack Overflow about the [subtle differences between methods and functions, and how they can differ between programming languages](https://stackoverflow.com/questions/155609/difference-between-a-method-and-a-function).

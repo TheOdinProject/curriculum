@@ -18,17 +18,37 @@ Before we dive into the specifics of fetching data in React, let's briefly revis
 
 ```javascript
 const image = document.querySelector("img");
-fetch("https://jsonplaceholder.typicode.com/photos", {
-  mode: "cors",
-})
+fetch("https://picsum.photos/v2/list")
   .then((response) => response.json())
   .then((response) => {
-    image.src = response[0].url;
+    image.src = response[0].download_url;
   })
   .catch((error) => console.error(error));
 ```
 
-We're making a request to the JSONPlaceholder API to retrieve an image, and then setting that URL to the src of an `<img>` element.
+We're making a request to the Picsum API to retrieve an image, and then setting that URL to the src of an `<img>` element.
+
+<div class="lesson-note" markdown="1">
+
+#### Including an identification header
+
+Some APIs might require clients to identify their traffic. When this is the case, you can do it by including a custom identifier header, such as a `User-Agent` or any other identifier the API owner specifies inside the request options. This is the same process for adding any other header.
+
+```javascript
+const image = document.querySelector("img");
+fetch("https://picsum.photos/v2/list", {
+  headers: {
+    "User-Agent": "the-odin-project"
+  }
+})
+  .then((response) => response.json())
+  .then((response) => {
+    image.src = response[0].download_url;
+  })
+  .catch((error) => console.error(error));
+```
+
+</div>
 
 ### Using fetch in React components
 
@@ -43,10 +63,14 @@ const Image = () => {
   const [imageURL, setImageURL] = useState(null);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
-      .then((response) => response.json())
-      .then((response) => setImageURL(response[0].url))
-      .catch((error) => console.error(error));
+    fetch("https://picsum.photos/v2/list", {
+      headers: {
+        "User-Agent": "the-odin-project"
+      }
+    })
+    .then((response) => response.json())
+    .then((response) => setImageURL(response[0].download_url))
+    .catch((error) => console.error(error));
   }, []);
 
   return (
@@ -96,19 +120,25 @@ And finally, to assign `error` a value when a request fails, we'll add a conditi
 
 ```jsx
 useEffect(() => {
-  fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+  fetch("https://picsum.photos/v2/list", {
+    headers: {
+      "User-Agent": "the-odin-project"
+    }
+  })
     .then((response) => {
       if (response.status >= 400) {
         throw new Error("server error");
       }
       return response.json();
     })
-    .then((response) => setImageURL(response[0].url))
+    .then((response) => setImageURL(response[0].download_url))
     .catch((error) => setError(error));
 }, []);
 ```
 
 <div class="lesson-note" markdown="1" >
+
+#### Handling response errors
 
 Notice how we also handle errors in the `then` block? This is because the `fetch` request itself might not fail, but rather complete successfully and yield a response. However, the response received may not be what our app expected. To handle this case, we check the response status codes.
 
@@ -127,14 +157,18 @@ const Image = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+    fetch("https://picsum.photos/v2/list", {
+      headers: {
+        "User-Agent": "the-odin-project"
+      }
+    })
       .then((response) => {
         if (response.status >= 400) {
           throw new Error("server error");
         }
         return response.json();
       })
-      .then((response) => setImageURL(response[0].url))
+      .then((response) => setImageURL(response[0].download_url))
       .catch((error) => setError(error))
       .finally(() => setLoading(false));
   }, []);
@@ -168,14 +202,18 @@ const useImageURL = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/photos", { mode: "cors" })
+    fetch("https://picsum.photos/v2/list", {
+      headers: {
+        "User-Agent": "the-odin-project"
+      }
+    })
       .then((response) => {
         if (response.status >= 400) {
           throw new Error("server error");
         }
         return response.json();
       })
-      .then((response) => setImageURL(response[0].url))
+      .then((response) => setImageURL(response[0].download_url))
       .catch((error) => setError(error))
       .finally(() => setLoading(false));
   }, []);
@@ -218,6 +256,8 @@ Now we have both requests firing as soon as `Profile` renders. The request for `
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
 
+#### Using an artificial delay
+
 In all of the code examples above, we added an artificial `delay` with the `setTimeout` function. As you've likely guessed by now, this is to help you walk through the data fetching basics in the lesson. We recommend removing these `delay`s and playing around with the code examples to further cement the concepts.
 
 </div>
@@ -249,5 +289,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [TanStack Query](https://tanstack.com/query/latest/docs/react/overview) is a library that handles all the necessary states and offers built-in support for major features, such as caching.
 - This article by Nadia Makarevich provides additional information and examples on [how to deal with race conditions](https://www.developerway.com/posts/fetching-in-react-lost-promises). Do not worry about the `useRef` hook, as it will be covered later on in the course.

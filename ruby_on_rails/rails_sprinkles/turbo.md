@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 - Turbo and the four components of it.
 - When to use a Turbo Frame.
 - How to use Turbo Streams to update your pages.
-- What Turbo Native is used for.
+- What Hotwire Native is used for.
 
 ### Single-page applications (SPAs)
 
@@ -30,9 +30,9 @@ In Rails 7, all new applications include Hotwire by default. Hotwire is actually
 
 1. Turbo
 1. Stimulus
-1. Strada
+1. Hotwire Native
 
-The lesson you are reading now is all about Turbo. We will cover Stimulus in another lesson. Strada is a currently unreleased framework that aims to work alongside Turbo to deliver responsive mobile applications. You don't need to worry about Strada for the scope of this course, just be familiar with the name as you will see it mentioned from time-to-time.
+The lesson you are reading now is all about Turbo. We will cover Stimulus in another lesson. You don't need to worry about Hotwire Native for the scope of this course, just be familiar with the name as you will see it mentioned from time-to-time.
 
 ### Turbo
 
@@ -43,7 +43,7 @@ Here is a quick summary of the four Turbo techniques together. As you continue t
 1. **Turbo Drive**: We already covered this in an earlier lesson.
 1. **Turbo Frames**: Turbo Frames, like Turbo Drive, also help with fast navigation, but for predefined portions of a page. Rather than requesting an entire page, you can define a region of your HTML as a Turbo Frame and replace only the content inside of that region.
 1. **Turbo Streams**: Turbo Stream delivers web page changes to instantly insert, update, or remove a region of the webpage. An example of this could be a user creating a new post and that post immediately inserts itself at the top of the post index feed without any refresh or redirection.
-1. **Turbo Native**: Turbo Native is a technique that allows developers to achieve the same Turbo style transitions on a mobile app for iOS or Android.
+1. **Hotwire Native**: Hotwire Native is a technique that allows developers to achieve the same Turbo style transitions on a mobile app for iOS or Android.
 
 ### Turbo Frames
 
@@ -317,9 +317,9 @@ if you would like to learn more:
 
 1. You may have noticed that when you submit a new Post, the text box doesn't clear out. You need to reset the submission element in order for it to be empty again. Hotwire has a remedy for this problem by including Stimulus, a light JavaScript framework. Don't worry about Stimulus for this example though, the next lesson will cover how to write and make use of Stimulus Controllers.
 
-### Turbo Native
+### Hotwire Native
 
-The final piece of Turbo is something that you don't need to know much about for this course, other than it exists. Turbo Native is useful for wrapping your application inside of a mobile-friendly shell. If you are interested in mobile development and how you can use Turbo with it, you may enjoy looking at the demos for [iOS](https://github.com/hotwired/turbo-ios/blob/main/Demo/README.md) and [Android](https://github.com/hotwired/turbo-android/blob/main/demo/README.md) phones.
+The final piece of Turbo is something that you don't need to know much about for this course, other than it exists. Hotwire Native is useful for wrapping your application inside of a mobile-friendly shell. If you are interested in mobile development and how you can use Turbo with it, you may enjoy looking at the demos for [iOS](https://github.com/hotwired/turbo-ios/blob/main/Demo/README.md) and [Android](https://github.com/hotwired/turbo-android/blob/main/demo/README.md) phones.
 
 ### Assignment
 
@@ -331,7 +331,7 @@ The final piece of Turbo is something that you don't need to know much about for
     - The video is edited to be a very quick showcase. Don't worry about trying to pause and use this video as a tutorial. Just sit back and use this demo to watch how Turbo Drive, Frames, & Streams come together visually.
 1. Skim through sections 1-4 of the [Turbo Handbook](https://turbo.hotwired.dev/handbook/introduction)
     - This Handbook is written to be backend-agnostic, meaning that the code you will see is pure HTML and not Rails tags, but it still is a useful resource for referencing how Turbo works.
-1. Take a quick glance at the Turbo-Rails gem [RubyDoc info page](https://www.rubydoc.info/gems/turbo-rails/1.0.0)
+1. Take a quick glance at the Turbo-Rails gem [RubyDoc info page](https://www.rubydoc.info/gems/turbo-rails/)
     - This resource covers the Rails-specific syntaxes and tags you can use for Turbo. You don't need to read anything now, just know that it exists so you can come back to it when you need to figure out how to use a specific piece of Turbo in your applications.
 
 </div>
