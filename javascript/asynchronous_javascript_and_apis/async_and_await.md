@@ -16,11 +16,10 @@ function getPersonsInfo(name) {
 async function getPersonsInfo(name) {
   const people = await server.getPeople();
   const person = people.find(person => { return person.name === name });
+  console.log('hi mom')
   return person;
 }
 ```
-
-The second example looks much more like the kind of functions you are used to writing. However, did you notice the `async` keyword before the function declaration? How about the `await` keyword before `server.getPeople()`?
 
 If you'd like to try running these functions on your own, paste the following code block representing a server before the function definitions. How this "server" works is not important and is just an abstraction. The goal here is so that you can see that both functions behave exactly the same and return a promise.
 
