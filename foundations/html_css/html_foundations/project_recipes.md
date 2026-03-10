@@ -90,7 +90,7 @@ Once you have completed your project, feel free to look at the other solutions t
 
 Your new recipe page should have the following content:
 
-1. A free image of the finished dish under the h1 heading that you added earlier.
+1. A free image of the finished dish under the `h1` heading that you added earlier.
 
 1. Under the image, it should have an appropriately sized "Description" heading followed by a paragraph or two describing the recipe.
 
@@ -133,7 +133,7 @@ A GitHub paid account is required to publish web projects from a private reposit
 
 There are a couple of ways to go about doing this, but the simplest is this:
 
-1. Make sure that the main HTML file of your project is called `index.html`. If it is not, you will need to rename it.
+1. Ensure your main HTML file is named `index.html` **and** is located in the root (top-level) directory of your repository.
 1. Go to your GitHub repo on the web and click the **Settings** button as shown in the screenshot below.
     ![Screenshot pointing to the Settings located in an example repository](https://cdn.statically.io/gh/TheOdinProject/curriculum/90b1a362af0bb8635af9593cd8911c9aefb68569/foundations/html_css/html-foundations/imgs/01.png)
 1. Click on **Pages** on the left side bar.
