@@ -28,20 +28,11 @@ As long as `keys` remain consistent and unique, React can handle the DOM effecti
 
 ### Using keys
 
-<div class="lesson-note" markdown="1">
-
-#### Arguments passed into components
-
-We will be using `props` here, and you will learn more about them in the next lesson. For now, you just need to know that `props` are arguments that are passed into components.
-
-</div>
-
 Keys are passed into the component or a DOM element as a prop. You should already be familiar with the syntax.
 
 ```jsx
 <Component key={keyValue} />
-//or
-<div key={keyValue} />
+<div key={keyValue}></div>
 ```
 
 <span id="keys-from-data">Now that we know the syntax, the next question is: what should be used as a key? Ideally, there should be some identifier that is unique to each item in the list. Most databases assign a unique id to each entry, so you shouldn't have to worry about assigning an id yourself. If you are defining data yourself, it is good practice to assign a unique `id` to each item. You can use the [crypto.randomUUID() function](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/randomUUID) to generate a unique id. Let's look at an example:</span>
