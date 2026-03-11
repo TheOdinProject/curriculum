@@ -54,9 +54,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is a contrast ratio?](#contrast-ratio)
 - [What are two ways you can check a contrast ratio using your dev tools?](#dev-tools)
 - [What should you avoid when conveying information to users?](#color-information)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [A Complete Guide to Dark Mode on the Web](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web) from CSS-Tricks can be a great starting point for implementing a dark theme for your website. It covers different ways you can toggle a theme, how to take into account a user's preferred theme on their OS, and even saving a user's preference. Although providing a light and dark theme can be a great accessibility feature for users (not just an aesthetic preference), it can take a *lot* of work to implement, hence why it is considered an additional resource.
