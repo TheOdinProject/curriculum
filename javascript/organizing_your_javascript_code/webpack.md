@@ -126,6 +126,21 @@ With these files all in place, let's run Webpack and see what happens!
 ```bash
 npx webpack
 ```
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Node.js Version Requirement
+
+`import.meta.dirname` was introduced in **Node.js v20.11.0** and **v21.2.0**. On older versions, it returns `undefined`, which causes `path.resolve` to throw a `TypeError [ERR_INVALID_ARG_TYPE]`.
+
+Update your version:
+
+```bash
+# Update to the latest stable version using nvm
+nvm install --lts
+nvm use --lts
+```
+Verify your current version by running `node -v` in your terminal.
+</div>
 
 You should see that Webpack has created a `dist` directory for us containing a `main.js` file! Inside this file is...a lot of stuff... Don't worry, most of this stuff is just for development tools we will use later. If you go ahead and run this file with `node dist/main.js`, you should see `Hello, Odinite!` logged in the terminal.
 
