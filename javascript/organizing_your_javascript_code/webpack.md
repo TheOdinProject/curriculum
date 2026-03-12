@@ -6,6 +6,14 @@ Fortunately, more recent web technologies have greatly improved these aspects, b
 
 Awareness of bundlers and basic experience with them is valuable. While in recent years, new build tools have come out that handle a lot of basic configuration for us, in the real world, you may not always get a chance to use these shiny new tools. It's very reasonable to end up working with codebases that use tools that require more manual configuration. Even when you work with tools that handle more things for you, it's useful to understand what those tools are actually doing for you.
 
+<div class="lesson-note lesson-note--warning" markdown="1">
+
+#### Node.js Version Requirement
+
+Ensure you are running **Node.js v20.11.0+** or **v21.2.0+** before proceeding. Check your version with `node -v`. If you need to update, follow this [installation guide.](https://www.theodinproject.com/lessons/foundations-installing-node-js).
+
+</div>
+
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
@@ -126,24 +134,6 @@ With these files all in place, let's run Webpack and see what happens!
 ```bash
 npx webpack
 ```
-
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### Node.js Version Requirement
-
-`import.meta.dirname` was introduced in **Node.js v20.11.0** and **v21.2.0**. On older versions, it returns `undefined`, which causes `path.resolve` to throw a `TypeError [ERR_INVALID_ARG_TYPE]`.
-
-Update your version:
-
-```bash
-# Update to the latest stable version using nvm
-nvm install --lts
-nvm use --lts
-```
-
-Verify your current version by running `node -v` in your terminal.
-
-</div>
 
 You should see that Webpack has created a `dist` directory for us containing a `main.js` file! Inside this file is...a lot of stuff... Don't worry, most of this stuff is just for development tools we will use later. If you go ahead and run this file with `node dist/main.js`, you should see `Hello, Odinite!` logged in the terminal.
 
