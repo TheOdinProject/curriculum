@@ -6,13 +6,7 @@ Fortunately, more recent web technologies have greatly improved these aspects, b
 
 Awareness of bundlers and basic experience with them is valuable. While in recent years, new build tools have come out that handle a lot of basic configuration for us, in the real world, you may not always get a chance to use these shiny new tools. It's very reasonable to end up working with codebases that use tools that require more manual configuration. Even when you work with tools that handle more things for you, it's useful to understand what those tools are actually doing for you.
 
-<div class="lesson-note lesson-note--warning" markdown="1">
-
-#### Node.js Version Requirement
-
-Ensure you are running **Node.js v20.11.0+** or **v21.2.0+** before proceeding. Check your version with `node -v`. If you need to update, follow this [installation guide.](https://www.theodinproject.com/lessons/foundations-installing-node-js).
-
-</div>
+Ensure you are running recent stable version of **Node LTS** before proceeding. Check your version with `node -v`. If you need to update,  Instruction can be found in this [installation Node.js](https://www.theodinproject.com/lessons/foundations-installing-node-js) lesson.
 
 ### Lesson overview
 
