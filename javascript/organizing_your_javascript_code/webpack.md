@@ -139,6 +139,7 @@ Update your version:
 nvm install --lts
 nvm use --lts
 ```
+
 Verify your current version by running `node -v` in your terminal.
 </div>
 
