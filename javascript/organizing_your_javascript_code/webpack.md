@@ -6,7 +6,7 @@ Fortunately, more recent web technologies have greatly improved these aspects, b
 
 Awareness of bundlers and basic experience with them is valuable. While in recent years, new build tools have come out that handle a lot of basic configuration for us, in the real world, you may not always get a chance to use these shiny new tools. It's very reasonable to end up working with codebases that use tools that require more manual configuration. Even when you work with tools that handle more things for you, it's useful to understand what those tools are actually doing for you.
 
-Ensure you are running recent stable version of **Node LTS** before proceeding. Check your version with `node -v`. If you need to update,  Instruction can be found in this [installation Node.js](https://www.theodinproject.com/lessons/foundations-installing-node-js) lesson.
+Ensure you are running the latest LTS version of Node.js before proceeding. If necessary, you can use NVM to install the latest LTS version as per the [Installing Node.js](https://www.theodinproject.com/lessons/foundations-installing-node-js#installing-node) lesson.
 
 ### Lesson overview
 
