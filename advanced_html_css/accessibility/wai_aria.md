@@ -147,7 +147,7 @@ You should also be careful not to give an element `aria-hidden="true"` if it is 
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Read through sections 1-5 of [W3's "ARIA in HTML"](https://www.w3.org/TR/html-aria/). It's a very thorough document but as usual, you're not expected to memorize anything; it's sufficient to get the gist of the contents. In later lessons, particularly when you come to front-end testing, many tools use ARIA roles to encourage building with accessibility in mind from the get go. You'll likely find yourself coming back to this document or researching similar resources.
+1. Read through sections 1-5 of [W3's "ARIA in HTML"](https://www.w3.org/TR/html-aria/). It's a very thorough document but as usual, you're not expected to memorize anything; it's sufficient to get the gist of the contents. In later lessons, particularly when you come to front end testing, many tools use ARIA roles to encourage building with accessibility in mind from the get go. You'll likely find yourself coming back to this document or researching similar resources.
 1. [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) are another type of ARIA attribute that are incredibly useful for having dynamic updates made to a page announced by assistive technologies.
 
 </div>
