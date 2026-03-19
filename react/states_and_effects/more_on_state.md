@@ -205,4 +205,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What's the difference between passing a value vs a callback to the `setState` function?](#state-updater-functions)
 - [Why should we always provide a new Object to `setState`?](#objects-and-arrays-in-state)
 - [Why would you want to control a component?](#controlled-components)
-

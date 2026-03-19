@@ -240,4 +240,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What constitutes a `useEffect` hook?](#body-of-an-useEffect)
 - [What is the one question we can ask to know when to use an effect?](#but-do-we-need-the-effect)
 - [What do we mean by lifting up the state?](#lifting-the-state)
-

@@ -94,4 +94,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is the `useState` hook and how would you use it?](#useState-hook)
 - [What happens to a component when one of its states is changed?](#how-does-state-work-in-react)
 - [What are some of the rules of hooks?](#hooks)
-
