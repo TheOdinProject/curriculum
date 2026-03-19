@@ -34,11 +34,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What possibilities exist to connect a React frontend with a Rails backend?](https://thoughtbot.com/blog/how-to-integrate-react-rails)
 - [How do you integrate React with Rails using esbuild?](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-v7-project-with-a-react-frontend-on-ubuntu-20-04#step-3-installing-frontend-dependencies)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Broaden your knowledge about AJAX requests by skimming working with JavaScript in rails article from RailsGuides](https://guides.rubyonrails.org/v6.1/working_with_javascript_in_rails.html)
-- [Grabbing your Rails form CSRF token with JavaScript so Rails doesn't yell at you with "Warning, can't verify CSRF token authenticity", via SO](http://stackoverflow.com/questions/7203304/warning-cant-verify-csrf-token-authenticity-rails)
-- [... and another SO post on the CSRF token](http://stackoverflow.com/questions/8503447/rails-how-to-add-csrf-protection-to-forms-created-in-javascript)
