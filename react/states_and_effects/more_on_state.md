@@ -205,9 +205,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What's the difference between passing a value vs a callback to the `setState` function?](#state-updater-functions)
 - [Why should we always provide a new Object to `setState`?](#objects-and-arrays-in-state)
 - [Why would you want to control a component?](#controlled-components)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- We intentionally skipped some of the articles pertaining to state from the React documentation. We are confident that the concepts covered thus far will equip you with enough knowledge to tackle the projects to come in the course. Though if you want to delve into the topic further, you can read all of the articles in the [Adding Interactivity](https://react.dev/learn/adding-interactivity) and the [Managing State](https://react.dev/learn/managing-state) section.
