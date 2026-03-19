@@ -149,9 +149,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is in the `public` folder?](#delving-deeper)
 - [What is in the `src` folder?](#delving-deeper)
 - [Why are the React Developer Tools useful?](#developer-tools)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- [Intro to React Dev Tools](https://www.youtube.com/watch?v=rb1GWqCJid4) gets you up to speed with a quick overview of the basic features of React Dev tools in Chrome.
