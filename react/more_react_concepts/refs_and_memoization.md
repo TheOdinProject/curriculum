@@ -301,7 +301,7 @@ So if React Compiler memoizes our hooks and components automatically, do we need
 
 ### Conclusion
 
-Phew, this was a long lesson. Refs and memoization are difficult concepts to grasp, but we're sure you'll understand them with practice. Refs particularly are really useful for some use-cases, as for automatic memoization, it can help optimize our app without needing to write any additional code. Manual memoization is also useful in certain cases. These topics also make for great interview questions, so make sure you know the difference between `useMemo` and `useCallback`!
+Phew, this was a long lesson. Refs and memoization are difficult concepts to grasp, but we're sure you'll understand them with practice. Refs particularly are really useful for some use-cases. As for automatic memoization, it can help optimize our app without needing to write any additional code. Manual memoization may also be necessary in certain cases, but you should only reach out for it when you absolutely need it. These topics also make for great interview questions, so make sure you know the difference between `useMemo` and `useCallback`!
 
 ### Assignment
 
