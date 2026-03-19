@@ -452,6 +452,8 @@ Manipulating web pages is the primary benefit of the JavaScript language! These 
    - [The dispatchEvent method](https://www.javascripttutorial.net/javascript-dom/javascript-dispatchevent/)
    - [Custom events](https://www.javascripttutorial.net/javascript-dom/javascript-custom-events/)
 
+1. [Difference between "capture" and "bubbling".](https://www.youtube.com/watch?v=F1anRyL37lE)
+
 1. Read through [Understanding Callbacks in JavaScript](https://dev.to/i3uckwheat/understanding-callbacks-2o9e) for a more in-depth understanding of callbacks.
 
 1. Complete the following sections from MDN to test your skills:
