@@ -91,4 +91,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What does a React element look like?](#what-are-components)
 - [How would you create a functional component?](#how-to-create-components)
 - [How do you export and then import a component?](#where-do-components-live)
-

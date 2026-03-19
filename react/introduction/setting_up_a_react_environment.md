@@ -149,4 +149,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [What is in the `public` folder?](#delving-deeper)
 - [What is in the `src` folder?](#delving-deeper)
 - [Why are the React Developer Tools useful?](#developer-tools)
-

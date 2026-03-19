@@ -54,4 +54,3 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [What is the purpose of React?](#what-is-react)
 - [What are the benefits of using React?](#why-cover-react)
-
