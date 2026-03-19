@@ -284,9 +284,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How can you fetch data from an API in React?](#using-fetch-in-react-components)
 - [Why should you manually throw errors in fetch requests?](#handling-errors)
 - [How can you avoid waterfalling requests?](#managing-multiple-fetch-requests)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This article by Nadia Makarevich provides additional information and examples on [how to deal with race conditions](https://www.developerway.com/posts/fetching-in-react-lost-promises). Do not worry about the `useRef` hook, as it will be covered later on in the course.
