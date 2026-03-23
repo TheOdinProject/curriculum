@@ -7,6 +7,7 @@ const exceptedLessons = [
   "conclusion.md",
   "conclusion_full_stack_javascript.md",
   "conclusion_ruby_on_rails.md",
+  "actioncable_lesson.md",
 ];
 
 const HEADINGS = {
