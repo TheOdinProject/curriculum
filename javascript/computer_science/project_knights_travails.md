@@ -30,6 +30,8 @@ While solving this problem, you don’t need to explicitly create a graph object
 
 You’ve worked with BFS on binary trees in the previous lesson, but applying it on a chessboard (a grid) can feel like a big leap — and that’s totally normal!
 
+A tutorial about how BFS work in graph, reference [5.1 Graph Traversals - BFS & DFS -Breadth First Search and Depth First Search](https://youtu.be/pcKY4hjDrxk). Continue implementing BFS in graph [Breadth-first search](https://www.khanacademy.org/computing/computer-science/algorithms/breadth-first-search/a/breadth-first-search-and-its-uses), as it should give you some good ideas on how to actually implement graphs in your code.
+
 Here are some core ideas to keep in mind:
 
 - **Represent positions as coordinates**: Each square can be written as `[x, y]`, where both values range from 0 to 7.
