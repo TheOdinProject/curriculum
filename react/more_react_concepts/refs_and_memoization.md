@@ -134,7 +134,7 @@ function Cart({ products }) {
 }
 ```
 
-In the example above, we can easily memoize the calculated value by wrapping it in a `useMemo`, as the syntax is pretty much the same as `useEffect` and almost works the same. Where `useMemo` will also *execute* the callback on mount, and on subsequent re-renders, it will only *re-execute* the callback whenever one of the dependencies *changes*. In our case, whenever the `products` prop changes.
+In the example above, we can easily memoize the calculated value by wrapping it in a `useMemo`, as the syntax is pretty much the same as `useEffect` and almost works the same. `useMemo` will run the callback on mount. On subsequent re-renders, it will only re-run the callback if a dependency changes, otherwise it will return the cached value from whenever it was last run. In our case, whenever the `products` prop changes.
 
 This way, whenever a user opens/closes the cart multiple times, it will not recalculate the `totalPrice` and use the cached value as long as `products` did not change.
 
