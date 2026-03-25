@@ -119,13 +119,10 @@ const div = document.createElement("div");
 #### Adding inline style
 
 ```javascript
-// adds the indicated style rule to the element in the div variable
+// sets the indicated style rule to the element in the div variable
 div.style.color = "blue";
 
-// adds several style rules
-div.style.cssText = "color: blue; background: white;";
-
-// adds several style rules
+// set the entire inline style
 div.setAttribute("style", "color: blue; background: white;");
 ```
 
