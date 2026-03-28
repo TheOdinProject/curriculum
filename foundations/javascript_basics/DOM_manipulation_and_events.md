@@ -479,4 +479,4 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you attach listeners to groups of nodes?](#attaching-listeners-to-groups-of-nodes)
 - [What is the difference between the return values of `querySelector` and `querySelectorAll`?](#query-selectors)
 - [What does a "NodeList" contain?](#query-selectors)
-- [Explain the difference between "capture" and "bubbling".](https://www.javascripttutorial.net/javascript-dom/javascript-events/#:~:text=DOM%20Level%202%20Event%20flow)
+- [What is the difference between the "capturing phase" and "bubbling phase"?](https://www.javascripttutorial.net/javascript-dom/javascript-events/#:~:text=DOM%20Level%202%20Event%20flow)
