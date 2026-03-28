@@ -218,12 +218,6 @@ GitHub recently changed the default branch on new repositories from `master` to 
 git config --global init.defaultBranch main
 ```
 
-You'll also likely want to set your default branch reconciliation behavior to merging. You'll learn what all those terms mean later in the curriculum, but for now just know that we suggest running the below command as part of the Git setup process when doing The Odin Project.
-
-```bash
-git config --global pull.rebase false
-```
-
 To verify that things are working properly, enter these commands and verify whether the output matches your name and email address.
 
 ```bash
