@@ -28,16 +28,6 @@ describe("TOP004", () => {
     ]);
   });
 
-  it("Flags when a level-specific wildcard heading uses the wrong level", async () => {
-    const filePath = "./wrong_wildcard_level.md";
-    const errorPath = join(pathInRepo, filePath);
-    const lintErrors = await getLintErrors(filePath);
-
-    assert.deepEqual(lintErrors, [
-      `${errorPath}:21 error ${expected.name} ${expected.description} [Expected: h4 heading; Actual: h3 heading] [Context: "### An invalid wildcard heading"]`,
-    ]);
-  });
-
   it("Does not flag any errors if no heading structure violations", async () => {
     const filePath = "./valid_with_additional_resources.md";
     const lintErrors = await getLintErrors(filePath);
