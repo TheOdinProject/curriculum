@@ -16,11 +16,39 @@ function getNoteBoxHeadings(headings, currentToken, index, tokens) {
   }
 
   headings.push({
-    text: currentToken.line,
-    hashes: currentToken.markup,
+    line: currentToken.line,
+    markup: currentToken.markup,
     lineNumber: currentToken.lineNumber,
   });
   return headings;
+}
+
+function getAssignmentPanelLineRange(lines) {
+  // line numbers in file are 1-indexed
+  const assignmentStart =
+    lines.findIndex((line) => line.includes("lesson-content__panel")) + 1;
+  if (!assignmentStart) {
+    return [0, 0];
+  }
+
+  let assignmentEnd;
+
+  let additionalDivTags = 0;
+  for (let i = assignmentStart - 1; i < lines.length; i++) {
+    if (lines[i].trim().startsWith("<div")) {
+      additionalDivTags++;
+    } else if (lines[i].endsWith("</div>")) {
+      additionalDivTags--;
+    }
+
+    if (!additionalDivTags) {
+      // line numbers in file are 1-indexed
+      assignmentEnd = i + 1;
+      break;
+    }
+  }
+
+  return [assignmentStart, assignmentEnd];
 }
 
 module.exports = {
@@ -33,8 +61,23 @@ module.exports = {
   parser: "markdownit",
   function: function TOP012(params, onError) {
     const { tokens } = params.parsers.markdownit;
+    const [assignmentStart, assignmentEnd] = getAssignmentPanelLineRange(
+      params.lines,
+    );
+
     const noteBoxesWithoutHeadings = tokens.filter(lacksHeading);
     const noteBoxHeadings = tokens.reduce(getNoteBoxHeadings, []);
+    const assignmentHeadings = tokens
+      .filter(
+        ({ type, lineNumber }) =>
+          type === "heading_open" &&
+          lineNumber > assignmentStart &&
+          lineNumber < assignmentEnd,
+      )
+      .filter(
+        ({ lineNumber }) =>
+          !noteBoxHeadings.find((heading) => lineNumber === heading.lineNumber),
+      );
 
     noteBoxesWithoutHeadings.forEach((noteBox) => {
       onError({
@@ -44,20 +87,20 @@ module.exports = {
       });
     });
 
-    noteBoxHeadings.forEach((heading) => {
-      if (heading.hashes.length === 4) {
+    [...noteBoxHeadings, ...assignmentHeadings].forEach((heading) => {
+      if (heading.markup.length === 4) {
         return;
       }
 
-      const hashesStartColumn = heading.text.indexOf(heading.hashes) + 1;
+      const hashesStartColumn = heading.line.indexOf(heading.markup) + 1;
 
       onError({
         lineNumber: heading.lineNumber,
-        detail: `Expected a level 4 heading (####) but got a level ${heading.hashes.length} heading (${heading.hashes}) instead.`,
-        context: heading.text,
+        detail: `Expected a level 4 heading (####) but got a level ${heading.markup.length} heading (${heading.markup}) instead.`,
+        context: heading.line,
         fixInfo: {
           editColumn: hashesStartColumn,
-          deleteCount: heading.hashes.length,
+          deleteCount: heading.markup.length,
           insertText: "####",
         },
       });
