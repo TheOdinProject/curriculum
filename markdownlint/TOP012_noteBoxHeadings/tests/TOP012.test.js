@@ -31,7 +31,7 @@ describe("TOP012", () => {
       ]);
     });
 
-    it("Flags note boxes with incorrectly levelled headings", async () => {
+    it("Flags incorrectly levelled headings", async () => {
       const filePath = "./incorrect_heading_level.md";
       const errorPath = join(pathInRepo, filePath);
       const lintErrors = await getLintErrors(filePath);
@@ -39,6 +39,9 @@ describe("TOP012", () => {
       assert.deepEqual(lintErrors, [
         `${errorPath}:27 error ${expected.name} ${expected.description} [Expected a level 4 heading (####) but got a level 3 heading (###) instead.] [Context: "### Level 3 note box heading: Will flag error as it should be level 4"]`,
         `${errorPath}:35 error ${expected.name} ${expected.description} [Expected a level 4 heading (####) but got a level 2 heading (##) instead.] [Context: "## Level 2 note box heading: Will flag error as it should be level 4"]`,
+        `${errorPath}:45 error ${expected.name} ${expected.description} [Expected a level 4 heading (####) but got a level 2 heading (##) instead.] [Context: "## Assignment subheading 1"]`,
+        `${errorPath}:49 error ${expected.name} ${expected.description} [Expected a level 4 heading (####) but got a level 3 heading (###) instead.] [Context: "### Assignment subheading 2"]`,
+        `${errorPath}:55 error ${expected.name} ${expected.description} [Expected a level 4 heading (####) but got a level 3 heading (###) instead.] [Context: "### Level 3 note box heading in assignment: Will only flag error once"]`,
       ]);
     });
   });
