@@ -52,8 +52,8 @@ function getAssignmentPanelLineRange(lines) {
 }
 
 module.exports = {
-  names: ["TOP012", "note-box-headings"],
-  description: "Note boxes have appropriate headings",
+  names: ["TOP012", "heading-levels"],
+  description: "Note boxes and assignments have appropriate headings",
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP012.md",
   ),
