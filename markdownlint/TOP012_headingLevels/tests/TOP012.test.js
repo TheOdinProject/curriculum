@@ -4,12 +4,12 @@ const { describe, it } = require("node:test");
 const assert = require("node:assert/strict");
 const getLintErrors = require("../../test_utils/lint")(__dirname);
 const fixLintErrors = require("../../test_utils/fix")(__dirname);
-const rule = require("../TOP012_noteBoxHeadings");
+const rule = require("../TOP012_headingLevels");
 
-const pathInRepo = "markdownlint/TOP012_noteBoxHeadings/tests";
+const pathInRepo = "markdownlint/TOP012_headingLevels/tests";
 const expected = {
-  name: "TOP012/note-box-headings",
-  description: "Note boxes have appropriate headings",
+  name: "TOP012/heading-levels",
+  description: "Note boxes and assignments have appropriate headings",
   information: new URL(
     "https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP012.md",
   ),
@@ -57,7 +57,7 @@ describe("TOP012", () => {
       );
     });
 
-    it("Converts incorrectly levelled note box headings to level 4", async () => {
+    it("Converts incorrectly levelled headings to level 4", async () => {
       const fixedFileContents = await fixLintErrors(
         "./incorrect_heading_level.md",
       );
