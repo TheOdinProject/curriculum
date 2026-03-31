@@ -11,7 +11,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Why does React need keys?
 
-You may recall that React uses a "virtual DOM" under the hood to decide what things in the real DOM to update, minimising unnecessary actions. When a re-render occurs, it firset recreates this virtual DOM, diffs (compares changes) the new and previous virtual DOMs, then makes real DOM updates only to the things that actually did change.
+You may recall that React uses a "virtual DOM" under the hood to decide what things in the real DOM to update, minimising unnecessary actions. When a re-render occurs, it first recreates this virtual DOM, diffs (compares changes) the new and previous virtual DOMs, then makes real DOM updates only to the things that actually did change.
 
 React needs to be able to tell the difference between each of these components, as they'll each have their own props and states. Therefore, every component will be given an ID under the hood - a **key**. For example, if you update state, it's still the same instance of the component and React will know this because the component's key hasn't changed, and it can avoid unnecessary action. If the key changes, however, React knows this is now a brand new instance of that component and can build a new one with fresh states.
 
