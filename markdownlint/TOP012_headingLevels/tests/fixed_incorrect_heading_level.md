@@ -42,6 +42,22 @@ Note box contents.
 
 <div class="lesson-content__panel" markdown="1">
 
+#### Assignment subheading 1
+
+Sentence.
+
+#### Assignment subheading 2
+
+Sentence.
+
+<div class="lesson-note" markdown="1">
+
+#### Level 3 note box heading in assignment: Will only flag error once
+
+Note box contents.
+
+</div>
+
 </div>
 
 ### Knowledge check
