@@ -28,6 +28,8 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Turbo drive
 
+Before we dive into Turbo Drive, let's talk about Turbo as a whole. It is a JavaScript library that ships with Rails by default and runs on the browser. Traditionally, full pages reload are slow, lose JavaScript states and re-downloading assets are time-consuming. Enter Turbo: it makes creating fast, modern web application easier by allowing the server to serve HTML directly to the browser. Tubo has a few techniques that that defines it: Turbo Drive is used for make navigation faster without a full page reload. Turbo Frames helps define specific contents of a page that you want replaced without requesting an entire page. Turbo Streams respond to real time changes on client side over Websocket. Finally, Turbo Native allow fast navigation over mobile apps.
+
 Turbo Drive is the portion of Turbo that accelerates overall page navigation. Turbo Drive watches for when a user clicks a link or submits a form, handles the request being made by the user, and then updates the page for the user without a full reload! This is the default behavior without any set up required. However, it is still important to understand what exactly Turbo Drive is doing in case you need to manually modify or disable its behavior in some portions of your web page.
 
 #### Page navigation
