@@ -69,7 +69,7 @@ Once the command has executed, it should output the following:
 
 Provided everything has gone according to plan, head over to `localhost:5173`, where you'll be greeted with the following page:
 
-![Vite React template homepage](https://cdn.statically.io/gh/TheOdinProject/curriculum/73199c4e9e43e8d87f8759e026c13b63fcfe73c7/react/introduction/setting_up_a_react_environment/imgs/vite_react_homepage.png)
+![Vite React template homepage](https://cdn.statically.io/gh/TheOdinProject/curriculum/9200680864d044390aeb1baa838f213addd65cbe/react/introduction/setting_up_a_react_environment/imgs/vite_react_homepage.png)
 
 Congratulations! You've created your first React app. You can now exit out of the dev server (<kbd>Ctrl</kbd> + <kbd>C</kbd>) and `cd` into your project directory. You can start the dev server any time within the project directory by running `npm run dev`.
 
