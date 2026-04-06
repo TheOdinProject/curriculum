@@ -101,7 +101,7 @@ code
 
 #### Step 1: Download VSCode
 
-- [Download the latest VSCode installer .zip file.](https://code.visualstudio.com/sha/download?build=stable&os=darwin-universal)
+- [Download the latest VSCode installer .zip file.](https://update.code.visualstudio.com/latest/darwin-universal/stable)
 
 #### Step 2: Install VSCode
 
