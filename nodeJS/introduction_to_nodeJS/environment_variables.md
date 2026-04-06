@@ -130,3 +130,12 @@ The following questions are an opportunity to reflect on key topics in this less
 - [How do you access environment variables in a Node app?](#accessing-environment-variables)
 - [What data type will an environment variable always be?](#accessing-environment-variables)
 - [Should you push your `.env` file to GitHub?](#keep-your-secrets-safe)
+### Looking Ahead: Environment Variables in Rails
+
+While the principles of environment variables remain the same across languages, the tools you use will evolve. As you move into the Ruby on Rails curriculum, you will encounter:
+
+* **Figaro:** A popular Gem that uses an `application.yml` file to manage variables. It is very beginner-friendly because it automatically adds your secrets file to `.gitignore`, preventing accidental leaks.
+* **Rails Credentials:** The built-in Rails way to manage secrets using an encrypted file (`credentials.yml.enc`). This is more "production-ready" but requires learning how to manage master keys.
+
+> [!TIP]
+> No matter the tool, the goal is always **Separation of Concerns**: keeping your sensitive configuration data out of your version control.
