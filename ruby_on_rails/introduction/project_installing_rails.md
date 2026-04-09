@@ -37,13 +37,13 @@ Don't worry if you don't totally understand what you are doing in these next ste
 
 1. #### Install Yarn
 
-   You may be wondering why we are installing Yarn when Rails 7 provides import maps that allows you to import JavaScript Modules directly from the browser. We will go over import maps in a later lesson but, it is important to note that import maps handles libraries without transpiling or bundling and uses the asset pipeline. We still need to install Yarn to ensure frameworks that require compiling or bundling can still be used. This is due to the way some JavaScript is bundled requiring the usage of Yarn.
+   You may be wondering why we are installing Yarn when Rails 7+ provides import maps that allows you to import JavaScript Modules directly from the browser. We will go over import maps in a later lesson but, it is important to note that import maps handles libraries without transpiling or bundling and uses the asset pipeline. We still need to install Yarn to ensure frameworks that require compiling or bundling can still be used. This is due to the way some JavaScript is bundled requiring the usage of Yarn.
 
    JavaScript libraries used to be managed through the asset pipeline in previous Rails versions but as JavaScript progressed it became a little dated and made it hard to integrate the latest JavaScript libraries and frameworks.
 
    Yarn is a JavaScript package manager, much like Bundler for Ruby, and allows you to easily manage your JavaScript libraries for the frameworks that do require bundling and compiling.
 
-   Visit [The Yarn Download Page](https://classic.yarnpkg.com/en/docs/install#windows-stable). The easiest way to install Yarn is to run the `npm` command shown on the page. This will install Yarn Classic, which is the version we want.
+   Visit [The Yarn Download Page](https://classic.yarnpkg.com/en/docs/install#windows-stable) and run the `npm` command shown on the page. This will install **Yarn Classic (version 1.x)**, which is the version we want. Don't be concerned that the page mentions "maintenance mode" - Yarn Classic is stable, widely used, and fully compatible with Rails. We use Yarn Classic rather than modern Yarn (2+) because it has better compatibility with the Rails ecosystem and most tutorials and documentation assume Yarn 1.x.
 
    You can verify the install by running the following command:
 
