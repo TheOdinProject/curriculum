@@ -141,16 +141,23 @@ There are a couple of ways to go about doing this, but the simplest is this:
 1. It may take a few minutes (The GitHub website says up to 10, but we've seen it take up to an hour. Do not add a "theme" to your project, or you may have git conflicts, instead, be patient.) but your project should be accessible over the web from `your-github-username.github.io/your-github-repo-name` (obviously substituting your own details in the link).
 1. If your project does not publish after 1 hour, ensure that you have a file called `index.html` in the root of your repository and all the settings have been set correctly.  Go to your repo on GitHub and click on Actions, if there are no entries, then go back to the settings, change the **Branch** from *main branch* to *none* and click **Save**, then change the **Branch** from *none* to *main branch* and click **Save**.
 
+### Community submissions
+
 <div class="lesson-note" markdown="1">
 
-#### Project submissions and reasonable expectations
+#### Many community submissions will have styling
 
-When you look at project submissions below, you might be asking: "Why do they look so good, should my project look like this?"
+In future lessons, you will learn CSS and add styling to this project. When viewing community submissions, you'll notice many have already added this styling.
 
-Here is the answer:
+</div>
 
-1. The main reason they look that good is that they are not done by beginners. They were likely submitted by people who had some experience with programming, or who have completed The Odin Project before and are coming back to make better websites.
-1. Your project should not look like that. Focus mainly on the requirements of the project.
+When viewing community solutions (after you've completed your project), keep a few things in mind:
+
+- Learners often revisit older projects to improve them for their portfolios
+- Some people start the curriculum with previous programming experience
+- Project requirements sometimes change over time
+
+**Focus on meeting the project requirements rather than comparing yourself to others.** Community submissions are helpful for seeing different approaches, but they don't represent what your project "should" look like at this stage.
 
 This applies for future projects too. For more information read ["Learning Code" from "Becoming a TOP Success Story"](https://dev.to/theodinproject/learning-code-f56).
 
