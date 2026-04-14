@@ -160,5 +160,3 @@ When viewing community solutions (after you've completed your project), keep a f
 **Focus on meeting the project requirements rather than comparing yourself to others.** Community submissions are helpful for seeing different approaches, but they don't represent what your project "should" look like at this stage.
 
 This applies for future projects too. For more information read ["Learning Code" from "Becoming a TOP Success Story"](https://dev.to/theodinproject/learning-code-f56).
-
-</div>
