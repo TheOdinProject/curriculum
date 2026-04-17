@@ -214,7 +214,7 @@ We will teach you the art of actually writing these tests later in the course. F
 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
-- [What are loops useful for?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#why_bother)
+- [What are loops useful for?](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Loops#why_are_loops_useful)
 - [What is the break statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break)
 - [What is the continue statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue)
 - [What is an array?](https://www.w3schools.com/js/js_arrays.asp)
