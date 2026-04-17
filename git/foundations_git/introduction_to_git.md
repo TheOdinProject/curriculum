@@ -32,6 +32,7 @@ This section contains a general overview of topics that you will learn in this l
 
 <div class="lesson-content__panel" markdown="1">
 
+  1. Learn [Why Version Control? (An Introduction)](https://inter-git.com/lessons/introduction) to see how the need for a tool like Git arises naturally.
   1. Read chapters 1.1 through 1.4 from the [Getting Started section of Pro Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) to learn the differences between local, centralized, and distributed version control systems.
   1. Watch ["What is Git?" explained in 2 minutes](https://www.youtube.com/watch?v=2ReR1YJrNOM) - a video about what Git is and how it can improve the workflow of both an individual and a team of developers.
   1. Read ["About GitHub and Git"](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) for a brief introduction of what GitHub is and how Git and GitHub work together. You can skip the "Where do I start?" section at the end.
