@@ -100,16 +100,6 @@ That looks a whole lot like what you normally see when Rails does it, right?
 1. Add a new `::new` User line which makes use of that new allow params method.
 1. Submit your form now.  It should work marvelously (once you debug your typos)!
 
-#### Railsy forms with #form_tag
-
-Now we'll start morphing our form into a full Rails form using the `#form_tag` and `#*_tag` helpers.  There's actually very little additional help that's going on and you'll find that you're mostly just renaming HTML tags into Rails tags.
-
-1. Comment out your entire HTML form.  It may be helpful to save it for later on if you get stuck.
-1. Convert your `<form>` tag to use a `#form_tag` helper and all of your inputs into the proper helper tags via `#*_tag` methods.  The good thing is that you no longer need the authentication token because Rails will insert that for you automatically. `#form_tag` is soft-deprecated as stated in the current Rails Guide. Have a look at the older documentation for [Action View Form Helpers](https://guides.rubyonrails.org/v5.2/form_helpers.html).
-1. See the [Form Tag API Documentation](http://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag) for a list and usage of all the input methods you can use with `#form_tag`.
-1. Test out your form.  You'll need to change your `#create` method in the controller to once again accept normal top level User attributes, so uncomment the old `User.new` line and comment out the newer one.
-1. You've just finished the first step.
-
 #### Turn Turbo back ON
 
 Above, we asked to disable Turbo for the sake of the exercise.
@@ -122,12 +112,13 @@ Above, we asked to disable Turbo for the sake of the exercise.
 
 1. Reinstate the CSRF token tag in both places and carry on.
 
-#### Railsy-er forms with #form_with
+#### Railsy forms with #form_with
 
-`#form_tag` probably didn't feel that useful -- it's about the same amount of work as using `<form>`, though it does take care of the authenticity token stuff for you.  Now we'll convert that into `#form_with`, which will make use of our model objects to build the form.
+Now we'll start morphing our form into a full Rails form using `#form-with`, which will make use of our model objects to build the form.
 
 1. Modify your `#new` action in the controller to instantiate a blank User object and store it in an instance variable called `@user`.
-1. Comment out your `#form_tag` form in the `app/views/users/new.html.erb` view (so now you should have TWO commented out form examples).
+1. Comment out your entire HTML form.  It may be helpful to save it for later on if you get stuck.
+1. Convert your `<form>` tag to use a `#form-with` helper.  The good thing is that you no longer need the authentication token because Rails will insert that for you automatically.
 1. Rebuild the form using `#form_with` and the `@user` from your controller.  You'll need to switch your controller's `#create` method again to accept the nested `:user` hash from `params`.
 1. Play with the `#input` method options -- add a default placeholder (like "<example@example.com>" for the email field), make it generate a different label than the default one (like "Your user name here"), and try starting with a value already populated.  Some of these things you may need to Google for, but check out the [`#form_with` Rails API docs](https://api.rubyonrails.org/v6.1.1/classes/ActionView/Helpers/FormHelper.html#method-i-form_with)
 1. Test it out.
