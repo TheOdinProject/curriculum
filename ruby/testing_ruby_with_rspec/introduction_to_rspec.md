@@ -82,17 +82,9 @@ end
 
 Let's go line by line.
 
-<span id='keyword-describe'>First, `Rspec.describe` is an RSpec keyword that defines an "Example Group", or a collection of tests</span>. It takes a class or a string as an argument and is passed a block (`do/end`). `describe` blocks can be nested inside `Rspec.describe`, such as on the second line of our test above. When describing a class, the following syntax is also valid:
+<span id='keyword-describe'>First, `Rspec.describe` is an RSpec keyword that defines an "Example Group", or a collection of tests</span>. It takes a class or a string as an argument and is passed a block (`do/end`). `describe` blocks can be nested inside `Rspec.describe`, such as on the second line of our test above.
 
-```ruby
-#spec/calculator_spec.rb
-
-describe Calculator do
-  #...
-end
-```
-
-While both syntax are valid, stick to `Rspec.describe` for now. Anyway, <span id='keyword-it'>the `it` keyword defines an individual example (aka, test)</span>. `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of [RSpec's equality matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/), `eql`:
+<span id='keyword-it'>The `it` keyword defines an individual example (aka, test)</span>. `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of [RSpec's equality matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/), `eql`:
 
 ```ruby
   expect(calculator.add(5, 2)).to eql(7)
@@ -175,6 +167,7 @@ Finished in 0.28565 seconds (files took 0.6273 seconds to load)
 Failed examples:
 
 rspec ./spec/calculator_spec.rb:5 # Calculator#add returns the sum of two numbers
+
 ```
 
 Our first failure is denoted by the `F` at the top of the output. Congratulations! You've made it to the "red" portion of the "red-green-refactor" cycle of TDD. RSpec provides a list of all the failures, with the expected vs. actual output of the method being tested. At the bottom of your output, RSpec also points to the line of the failing test, which in this case is where our `it` block started.
