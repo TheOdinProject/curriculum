@@ -41,7 +41,7 @@ In this case, when you wrap content in a `div` and give it a `class` or `id`, yo
 
 A `span` is a generic inline container. It sits inside a line of text and only takes up as much space as its content. Unlike `div`, it does not start on a new line. You use `span` when you want to style or target just part of a sentence.
 
-For example, highlighting a single word or attaching a tooltip to a phrase. Again, you add a `class` or `id` so CSS can find and manipulate it.
+For example, when you want to highlight a single word or attaching a tooltip to a phrase you can add a `class` or `id` so CSS can find and manipulate it.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result" data-slug-hash="abLLPor" data-preview="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 
