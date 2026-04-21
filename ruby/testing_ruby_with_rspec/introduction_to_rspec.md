@@ -29,7 +29,7 @@ Finally, `cd` into a project directory that you wish to configure for use with R
 ```bash
 project
   |__lib
-  |   |__script.rb
+  |   |__calculator.rb
   |
   |__spec
   |   |__spec_helper.rb
@@ -41,7 +41,7 @@ That's it. Within two steps, you're up and running with RSpec. That wasn't so ha
 
 #### Basic syntax
 
-How 'bout a test to see the syntax? Let's create a brand new "project" to get going. Create a new directory called "ruby_testing", change into it, and initiate RSpec.
+How 'bout a test to see the syntax? Let's create a brand new "project" to get going. Create a new directory called `ruby_testing`, change into it, and initiate RSpec.
 
 ```bash
 mkdir ruby_testing && cd ruby_testing
@@ -70,7 +70,7 @@ Let's add our first test. Let's say we want to create a calculator with a few me
 ```ruby
 #spec/calculator_spec.rb
 
-describe Calculator do
+Rspec.describe Calculator do
   describe "#add" do
     it "returns the sum of two numbers" do
       calculator = Calculator.new
@@ -82,15 +82,7 @@ end
 
 Let's go line by line.
 
-<span id='keyword-describe'>First, `describe` is an RSpec keyword that defines an "Example Group", or a collection of tests</span>. It takes a class or a string as an argument and is passed a block (`do/end`). `describe` blocks can be nested, such as on the second line of our test above. When describing a class, the following syntax is also valid:
-
-```ruby
-#spec/calculator_spec.rb
-
-describe Calculator do
-  #...
-end
-```
+<span id='keyword-describe'>First, `Rspec.describe` is an RSpec keyword that defines an "Example Group", or a collection of tests</span>. It takes a class or a string as an argument and is passed a block (`do/end`). `describe` blocks can be nested inside `Rspec.describe`, such as on the second line of our test above.
 
 <span id='keyword-it'>The `it` keyword defines an individual example (aka, test)</span>. `it` takes a string argument and is also passed a block. This block is where our expectations of a method are expressed. In this particular case, when we pass 5 and 2 to the `#add` method, we expect it to return 7. This is concisely expressed in our expectation clause, which uses one of [RSpec's equality matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/), `eql`:
 
@@ -100,8 +92,8 @@ end
 
 That's basically it. One more time, from the top:
 
-1. `describe` the class
-1. `describe` the method example group. Conventionally, the string argument for instance methods are written as "#method", while string arguments for class methods are written as ".method".
+1. `Rspec.describe` the class
+1. `describe` the method example group. Conventionally, the string argument for instance methods are written as `#method`, while string arguments for class methods are written as `.method`.
 1. Write your test case/example with `it`.
 1. Write your expectation using `expect`. The `expect` method is also chained with `.to` for positive expectations, or `.to_not`/`.not_to` for negative expectations. We prefer `.not_to`. <span id='expect-clauses'>Also, limit one expect clause per test case</span>.
 
@@ -112,7 +104,7 @@ Let's move on. Run `rspec` from the directory root, and watch the output.
 ```bash
 An error occurred while loading ./spec/calculator_spec.rb.
 Failure/Error:
-  describe Calculator do
+  Rspec.describe Calculator do
     describe "#add" do
       it "returns the sum of two numbers" do
         calculator = Calculator.new
@@ -148,7 +140,7 @@ Finally, we must also tell the spec where the `Calculator` class is being define
 #spec/calculator_spec.rb
 require './lib/calculator'  #=> add this
 
-describe Calculator do
+Rspec.describe Calculator do
   #...
 end
 ```
@@ -175,6 +167,7 @@ Finished in 0.28565 seconds (files took 0.6273 seconds to load)
 Failed examples:
 
 rspec ./spec/calculator_spec.rb:5 # Calculator#add returns the sum of two numbers
+
 ```
 
 Our first failure is denoted by the `F` at the top of the output. Congratulations! You've made it to the "red" portion of the "red-green-refactor" cycle of TDD. RSpec provides a list of all the failures, with the expected vs. actual output of the method being tested. At the bottom of your output, RSpec also points to the line of the failing test, which in this case is where our `it` block started.
@@ -213,7 +206,7 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
    ```ruby
    #spec/calculator_spec.rb
    
-   describe Calculator do
+   Rspec.describe Calculator do
      describe "#add" do
        it "returns the sum of two numbers" do
          # removed for brevity
@@ -239,7 +232,7 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [What do you name the folder that contains your test files?](#tests-folder)
-- [What does the keyword `describe` define?](#keyword-describe)
+- [What does the keyword `Rspec.describe` define?](#keyword-describe)
 - [What does the keyword `it` define?](#keyword-it)
 - [How many expect clauses can you write for one test case?](#expect-clauses)
 - [What are some of RSpec's equality matchers?](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/equality/)
