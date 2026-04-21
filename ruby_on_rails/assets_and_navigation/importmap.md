@@ -142,6 +142,5 @@ The following questions are an opportunity to reflect on key topics in this less
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- [Additional reading on Rails 7 `importmap`](https://noelrappin.com/blog/2021/09/rails-7-and-javascript/)
 - [Blog post on using `importmap`](https://blog.kiprosh.com/rails-7-brings-import-maps-into-the-limelight/)
 - [The import map specification](https://github.com/WICG/import-maps) should cover any other questions you may have on the subject.
