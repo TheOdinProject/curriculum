@@ -153,7 +153,7 @@ If you use VS Code, you may want to install the [official Prisma VS Code extensi
    **Step 1:** Skip these commands:
 
    ```bash
-   npm init -y
+   npm init
    npm install typescript tsx @types/node --save-dev
    npx tsc --init
    ```
