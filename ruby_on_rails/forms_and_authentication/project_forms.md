@@ -104,11 +104,11 @@ That looks a whole lot like what you normally see when Rails does it, right?
 
 Now we'll start morphing our form into a full Rails form using `#form-with`, which will make use of our model objects to build the form.
 
-1. Modify your `#new` action in the controller to instantiate a blank User object and store it in an instance variable called `@user`.
+1. Modify your `#new` action in the controller to instantiate a blank `User` object and store it in an instance variable called `@user`.
 1. Comment out your entire HTML form.  It may be helpful to save it for later on if you get stuck.
-1. Convert your `<form>` tag to use a `#form_with` helper and the `@user` from your controller. The good thing is that you no longer need the authentication token because `form_with` method will insert that for you automatically.  
+1. Convert your `<form>` tag to use a `#form_with` helper and the `@user` from your controller. The good thing is that you no longer need the authentication token because `form_with` method will insert that for you automatically.
 1. Generate your input fields by calling their methods on your new form object.  See the [Action View Form Builder Documentation](https://api.rubyonrails.org/v8.0.1/classes/ActionView/Helpers/FormBuilder.html) for a list of all input methods you can use with `#form_with`.
-1. Play with the `#input` method options -- add a default placeholder (like "<example@example.com>" for the email field), make it generate a different label than the default one (like "Your user name here"), and try starting with a value already populated.  Some of these things you may need to Google for, but check out the [`#form_with` Rails API docs](https://api.rubyonrails.org/v6.1.1/classes/ActionView/Helpers/FormHelper.html#method-i-form_with)
+1. Play with the `#input` method options -- add a default placeholder (like "<example@example.com>" for the email field), make it generate a different label than the default one (like "Your user name here"), and try starting with a value already populated. Some of these things you may need to Google for, but check out the [`#form_with` Rails API docs](https://api.rubyonrails.org/v6.1.1/classes/ActionView/Helpers/FormHelper.html#method-i-form_with)
 1. Test it out.
 
 #### Turn Turbo back ON
