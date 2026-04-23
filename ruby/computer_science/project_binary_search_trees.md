@@ -14,7 +14,7 @@ You'll build a balanced BST in this assignment. Do not use duplicate values beca
 
 1. Build a `Tree` class which accepts an array when initialized. The `Tree` class should have a `root` attribute, which uses the return value of `#build_tree` which you'll write next.
 
-1. Write a `#build_tree` method which takes an array of data (e.g., `[1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]`) and turns it into a balanced binary tree full of `Node` objects appropriately placed (don't forget to sort and remove duplicates!). The `#build_tree` method should return the level-0 root node. You can make this method `private` and call it in the initializer to set the value of `@root`.
+1. Write a `#build_tree` method which takes an array of numerics (e.g., `[1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]`) and turns it into a balanced binary tree full of `Node` objects appropriately placed (don't forget to sort and remove duplicates!). The `#build_tree` method should return the level-0 root node. You can make this method `private` and call it in the initializer to set the value of `@root`.
 
    <div class="lesson-note lesson-note--tip" markdown="1">
 

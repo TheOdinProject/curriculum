@@ -29,7 +29,7 @@ Using a relative size like `rem` to define font sizes across your website *is* r
 
 #### Viewport units
 
-The units `vh` and `vw` relate to the size of the viewport. Specifically, `1vh` is equal to `1%` of the viewport height and `1vw` is equal to `1%` of the viewport width. These can be useful any time you want something to be sized relative to the viewport, examples including full-height heroes, full-screen app-like interfaces.
+The units `vh` and `vw` relate to the size of the viewport. Specifically, `1vh` is equal to `1%` of the viewport height and `1vw` is equal to `1%` of the viewport width. These can be useful any time you want something to be sized relative to the viewport, examples including full-height heroes and full-screen app-like interfaces.
 
 ### So many units!
 
@@ -55,4 +55,4 @@ The following questions are an opportunity to reflect on key topics in this less
 
 - [Why would you want to use `em` or `rem` for font-size instead of `px`?](#em-and-rem)
 - [What are some instances where you might want to use `vh` and `vw`?](#viewport-units)
-- [What are some instances where you might want to use `px` instead of a relative unit?](https://codyloyd.com/2021/css-units/)
+- [What are some instances where you might want to use `px` instead of a relative unit?](https://web.archive.org/web/20251130034321/https://codyloyd.com/2021/css-units/)

@@ -92,9 +92,3 @@ The following questions are an opportunity to reflect on key topics in this less
 - [Why should you not test implementation?](https://youtu.be/URSWYvyc42M?t=792)
 - [Should you test private methods?](https://youtu.be/URSWYvyc42M?t=1102)
 - [Why should you not test outgoing messages with no side effects?](https://youtu.be/URSWYvyc42M?t=1370)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This [jest cheat sheet](https://github.com/sapegin/jest-cheat-sheet) walks you quickly through all the frequently used methods.

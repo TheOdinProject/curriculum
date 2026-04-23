@@ -347,7 +347,7 @@ The more general principles like SOLID design and metaprogramming will be useful
   1. Skim the same guide, chapter 4.  Some stuff we've seen but most is just to give you a sense for what's possible.  When you need it, you'll probably Google your way back there.
   1. Read the [Rails Guide on Layouts](http://guides.rubyonrails.org/layouts_and_rendering.html#using-nested-layouts) section 3.5 to see how to pass information between your view file and your layout file, including CSS styles.  Really take a minute to understand what's going on in the example there.
   1. If you're interested, take a peek at [Ruby metaprogramming](https://web.archive.org/web/20210514184321/http://ruby-metaprogramming.rubylearning.com/). It's not essential to building early Rails apps but you'll definitely start running into it more in "the wild".
-  1. Glance through this [Slideshare Presentation on SOLID principles](http://www.slideshare.net/jcfischer/solid-ruby-solid-rails).
+  1. Glance through this [Slideshare Presentation on SOLID principles](http://www.slideshare.net/jcfischer/solid-ruby-solid-rails) or [download the PDF directly](https://github.com/MichaelMahlberg/RailsWayCon2010/blob/master/railswaycon10_SOLID_ruby.pdf) if you prefer.
 
 </div>
 

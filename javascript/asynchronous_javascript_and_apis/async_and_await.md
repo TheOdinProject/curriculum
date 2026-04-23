@@ -107,7 +107,7 @@ asyncFunctionCall().catch(err => {
 });
 ```
 
-But there is another way: the mighty [try/catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) block! If you want to handle the error directly inside the async function, you can use `try/catch` with `async/await` syntax. If JavaScript throws an error in the `try` block, the `catch` block code will run instead (this can also be used for synchronous code).
+But there is another way: the mighty [try...catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) statement! If you want to handle the error directly inside the async function, you can use `try...catch` with `async/await` syntax. If JavaScript throws an error in the `try` block, the `catch` block code will run instead (this can also be used for synchronous code).
 
 ```javascript
 async function getPersonsInfo(name) {
@@ -136,6 +136,9 @@ Remember the Giphy API practice project? (If not, you should go back and complet
     })
     .then(function(response) {
       img.src = response.data.images.original.url;
+    })
+    .catch(function (error) {
+      console.error(error);
     });
 </script>
 ```
@@ -154,6 +157,9 @@ Since `await` does not work in the top level of a non-module script, we will hav
       .then(function(response) {
         img.src = response.data.images.original.url;
       })
+      .catch(function(error) {
+        console.error(error);
+      });
   }
 </script>
 ```
@@ -168,6 +174,8 @@ Now that we have a function that is asynchronous, we can then start refactoring 
     const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats');
     response.json().then(function(response) {
       img.src = response.data.images.original.url;
+    }).catch(function(error) {
+      console.error(error);
     });
   }
 </script>
@@ -187,6 +195,24 @@ Since `response` is still the same object we have passed to the `.then()` block 
 </script>
 ```
 
+For error handling, instead of chaining a `.catch()` method, we would need a `try...catch` statement. We wrap the normal code in a `try` block then use a `catch` block for the error handling part.
+
+```javascript
+<script>
+  const img = document.querySelector('img');
+
+  async function getCats() {
+    try {
+      const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats');
+      const catData = await response.json();
+      img.src = catData.data.images.original.url;
+    } catch (error) {
+      console.error(error);
+    }
+  }
+</script>
+```
+
 To use this function, we just need to call it with `getCats()` in our code.
 
 ```javascript
@@ -194,9 +220,13 @@ To use this function, we just need to call it with `getCats()` in our code.
   const img = document.querySelector('img');
 
   async function getCats() {
-    const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats');
-    const catData = await response.json();
-    img.src = catData.data.images.original.url;
+    try {
+      const response = await fetch('https://api.giphy.com/v1/gifs/translate?api_key=YOUR_KEY_HERE&s=cats');
+      const catData = await response.json();
+      img.src = catData.data.images.original.url;
+    } catch (error) {
+      console.error(error);
+    }
   }
   getCats();
 </script>

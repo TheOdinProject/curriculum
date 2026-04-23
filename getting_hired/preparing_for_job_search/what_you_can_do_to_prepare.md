@@ -54,7 +54,7 @@ Another facet of this is related to your web presence -- don't be afraid to prod
 
 <div class="lesson-content__panel" markdown="1">
 
-1. If you are changing careers, read about [How to Explain Your Career Transition by Dorie Clark](https://hbr.org/2013/04/how-to-explain-your-career-tra).
+1. If you are changing careers, read about [How to Explain Your Career Transition by Dorie Clark](https://web.archive.org/web/20190822194330/https://hbr.org/2013/04/how-to-explain-your-career-tra).
 
 1. Learn why GitHub is so important:  
 

@@ -18,6 +18,15 @@ This is a great project to have as a part of your portfolio going forward becaus
   1. The game should be properly constrained -- it should prevent players from making illegal moves and declare check or check mate in the correct situations.
   1. Make it so you can save the board at any time (remember how to serialize?)
   1. Write tests for the important parts.  You don't need to TDD it (unless you want to), but be sure to use RSpec tests for anything that you find yourself typing into the command line repeatedly.
+
+     <div class="lesson-note lesson-note--tip" markdown="1">
+
+     #### Online board editor tools to help with testing
+
+     Various online chess services offer tools that provide an easy way to set up and visualize chess positions. They also allow for the convenient import and export of positions by [FEN](https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation) and other means. For example, here are the [Board editor](https://lichess.org/editor) and [Analysis board](https://lichess.org/analysis) tools offered by Lichess. These tools can come in handy when preparing some test cases in the advanced stages of the project, particularly if you decide to design your project to leverage FEN.
+
+     </div>  
+
   1. Do your best to keep your classes modular and clean and your methods doing only one thing each.  This is the largest program that you've written, so you'll definitely start to see the benefits of good organization (and testing) when you start running into bugs.
   1. Unfamiliar with Chess? Check out some of the additional resources to help you get your bearings.
   1. Have fun!  Check out Wikipedia's [unicode chess characters](http://en.wikipedia.org/wiki/Chess_symbols_in_Unicode) for a little spice for your gameboard.

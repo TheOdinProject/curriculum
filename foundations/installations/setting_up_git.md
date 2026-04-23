@@ -218,12 +218,6 @@ GitHub recently changed the default branch on new repositories from `master` to 
 git config --global init.defaultBranch main
 ```
 
-You'll also likely want to set your default branch reconciliation behavior to merging. You'll learn what all those terms mean later in the curriculum, but for now just know that we suggest running the below command as part of the Git setup process when doing The Odin Project.
-
-```bash
-git config --global pull.rebase false
-```
-
 To verify that things are working properly, enter these commands and verify whether the output matches your name and email address.
 
 ```bash
@@ -272,7 +266,7 @@ ssh-keygen -t ed25519
 
 When it prompts you for a location to save the generated key, just push <kbd>Enter</kbd>.
 
-Next, it will ask you for a password. This password is used to encrypt the private SSH key that is stored on your computer and you will be required to enter this password every time you use SSH with these keys. If you don't use a password, the private key will be readable by anyone who has access to your computer and will be able to modify all your GitHub repositories. Enter one if you wish, but it’s not required. If you choose not to use a password, just hit <kbd>Enter</kbd> without typing anything.
+Next, it will ask you for a passphrase. This passphrase is used to encrypt the private SSH key that is stored on your computer and you will be required to enter this passphrase every time you use SSH with these keys. If you don't use a passphrase, the private key will be readable by anyone who has access to your computer and will be able to modify all your GitHub repositories. Enter one if you wish, but it’s not required. If you choose not to use a passphrase, just hit <kbd>Enter</kbd> without typing anything.
 
 #### Step 2.5: Link your SSH key with GitHub
 

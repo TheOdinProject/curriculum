@@ -26,6 +26,9 @@ Before submitting a PR for any lesson, you must also use our [Lesson Preview Too
 
 ## Curriculum Linting
 
+> [!NOTE]
+> For information about contributing to our custom linting rules, please read the [custom markdown linting contributing guide](./markdownlint/docs/README.md).
+
 To help enforce the layout specified in our layout style guide, we use [markdownlint](https://github.com/DavidAnson/markdownlint). Whenever a PR is opened or has updates made to it, a workflow will run to check any files changed in the PR against common rules as well as custom rules specific to TOP. To make the workflow easier, we also strongly suggest that users who have a local clone run this linter locally before committing any changes. There are 2 ways you can do so:
 
 1. Install the [Markdownlint VSCode Plugin](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint). This plugin will automatically pick up our markdownlint configuration and flag issues with a squiggly underline.
@@ -78,7 +81,7 @@ To help enforce the layout specified in our layout style guide, we use [markdown
 > - [TOP008](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP008.md) use-backticks-for-fenced-code-blocks
 > - [TOP010](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP010.md) use-lazy-numbering
 > - [TOP011](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP011.md) heading-indentation
-> - [TOP012](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP012.md) note-box-headings
+> - [TOP012](https://github.com/TheOdinProject/curriculum/blob/main/markdownlint/docs/TOP012.md) heading-levels
 
 ## Adding Images to the Curriculum
 
@@ -96,6 +99,8 @@ Adding images to the curriculum is a two-step process, involving two PRs. For a 
 1. PR the addition of the image(s). Here is an [example PR](https://github.com/TheOdinProject/curriculum/pull/22421) where this process was followed.
 
 ### Creating Statically Links
+
+Only do this bit once the PR to add the image file(s) to the repository has been merged.
 
 1. Go to the PR that added the image(s) to the repo.
 1. Right-click the commit ID where it was merged and select `copy link`.

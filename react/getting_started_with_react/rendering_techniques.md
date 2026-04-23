@@ -1,13 +1,13 @@
 ### Introduction
 
-Now that we have learned how JSX works and how to write it, this lesson will cover how we can render multiple elements and conditionally render UI in JSX.
+Now that we have learned about components, props and JSX, this lesson will cover how we can render multiple elements and conditionally render UI in JSX.
 
 ### Lesson overview
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Render a list of elements/components in JSX.
-- Conditionally render UI.
+- Rendering list of components in JSX.
+- Conditionally rendering UI.
 
 ### Rendering a list of elements in JSX
 
@@ -29,7 +29,7 @@ function App() {
 }
 ```
 
-It is perfectly acceptable, but what if we want to render more than just four? It can be tedious and long, and most of the time, we will be dealing with a data structure (like a list) rather than hard-coding each animal. You have previously learned that we can embed expressions inside JSX with curly braces. So let us do just that:
+It is perfectly acceptable, but what if we want to render more than just four? It can be tedious and long, and most of the time, we will be dealing with a data structure (like an array) rather than hard-coding each animal. You have previously learned that we can embed expressions inside JSX with curly braces. So let us do just that:
 
 ```jsx
 function App() {
@@ -66,17 +66,9 @@ function App() {
 }
 ```
 
-You may be curious as to what the `key` is in our `<li>` element. We will dive into how keys work in the next lesson. But, to explain briefly, it is to let React know the identity of each element in the list. React must know this information if you are dealing with a dynamic list where you add or remove elements. Since we are only dealing with a static list, it does not matter for now.
+You may be curious as to what the `key` prop is in our `<li>` element. When we dynamically render lists of components, we must give the top-level component a key, which you can think of for now as an ID for the component. For this lesson, you do not need to know why we need this key or how it works, as we will explore keys in the next lesson.
 
 ### Rendering a list of components in JSX
-
-<div class="lesson-note" markdown="1">
-
-#### Passing data into components
-
-We will use `props` here, and you will learn more about them in a future lesson. For now, you just need to know that `props` are just like function arguments that are passed into components, but to pass them we use a syntax similar to how we pass attributes to HTML elements. As you can see in the following short implementation.
-
-</div>
 
 ```jsx
 function ListItem(props) {
@@ -105,11 +97,9 @@ function App() {
 }
 ```
 
-We have moved our `<ul>` element to a different component called `<List />`. It still returns the `<ul>` element, but we can do a lot more with it as a component.
+We have moved our `<ul>` element to a different component called `List`. It still returns the `<ul>` element, but we can do a lot more with it as its own component. `List` accepts the array of animals as a prop, and passes each individual animal as a prop to a `ListItem` component.
 
-This component accepts a `props` which is an object containing the `animals` that we defined as a property when we wrote `<List animals={animals} />`. Do note that you can name it anything, for example, `<List animalList={animals} />`. You will still need to pass the animals to the property, but now you will use `props.animalList` instead of `props.animals`.
-
-We have also created a different component for the `<li>` element called `<ListItem />`, which also accepts `props`, and uses `props.animal` to render the text. It should now render the same thing.
+We're of course not restricted to just `<li>`. When we say "list", we mean that very generally. You could dynamically render multiple `<option>` elements within a `<select>`, or multiple `<div>` as part of a grid.
 
 <div class="lesson-note lesson-note--tip" markdown="1">
 
@@ -192,7 +182,7 @@ function App() {
 }
 ```
 
-We will leverage the return value of `startsWith` with the `&&` operator. If the result of the `startsWith` function is `true`, then it returns the second operand, which is the `<li>` element, and renders it. Otherwise, if the condition is `false` it just gets ignored.
+We will leverage the return value of `startsWith` with the `&&` operator. If the result of the `startsWith` function is `true`, then it returns the second operand, which is the `<li>` element, and renders it. Otherwise, if the condition is `false`, then `false` gets returned and JSX will render nothing in its place.
 
 <div class="lesson-note lesson-note--warning" markdown="1" >
 

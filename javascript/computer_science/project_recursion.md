@@ -76,12 +76,3 @@ To showcase the recursive effect implemented in your Fibonacci function, do the 
 1. If the function is implemented correctly, you should see that sentence printed around 8 times (keep in mind that, depending on the way you implemented the function, you may see 7 instead of 8. This isn't a bug! It simply depends on how many times the function is *actually* repeated).
 
 </div>
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- An extensive written JavaScript solution for [recursive Fibonacci](https://www.scaler.com/topics/fibonacci-series-in-javascript/)
-- Another look at [merge sort](https://www.toptal.com/developers/sorting-algorithms/merge-sort)
-- Visualize and understand the [memory allocation for recursive functions](https://www.educative.io/courses/recursion-for-coding-interviews-in-javascript/NEZ7kKgMJKK).
-- For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)

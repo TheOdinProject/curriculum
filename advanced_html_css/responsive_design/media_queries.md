@@ -105,11 +105,5 @@ While media queries allow you to conditionally apply styles based on characteris
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [How do you define a media query to create a mobile layout for your site?](#media-query-syntax)
-- [What is the difference between `max-width` and `min-width` in a media query definition?](#tips)
+- [What is the difference between `max-width` and `min-width` in a media query definition?](#other-queries)
 - [What is the difference between a media query and a container query?](#container-queries)
-
-### Additional resources
-
-This section contains helpful links to related content. It isn't required, so consider it supplemental.
-
-- This [Media Query Tutorial](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/) on FreeCodeCamp covers the same items we've touched on here.
