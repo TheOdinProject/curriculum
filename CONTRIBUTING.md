@@ -88,7 +88,7 @@ To help enforce the layout specified in our layout style guide, we use [markdown
 Adding images to the curriculum is a two-step process, involving two PRs. For a general overview, you need to:
 
 1. Upload the image(s) to the repository.
-1. Create `statically.io` links to the images and add those links to the appropriate lesson(s).
+1. Create `statically.io` links to the images and add them to the appropriate lesson(s).
 
 ### Uploading Images to the Repository
 
