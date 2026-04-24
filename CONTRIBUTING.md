@@ -40,7 +40,7 @@ To help enforce the layout specified in our layout style guide, we use [markdown
 > npm scripts always run from the root of the curriculum repo (the same location as this file and `package.json`). Therefore, you *must* provide the full lesson/project file path relative to the repo root, even if your terminal is inside a subdirectory (such as the same directory as the lesson file).
 
 > [!TIP]
-> In some cases, you may need to run a fix script more than once to catch and fix all fixable errors. This typically occurs when a line has multiple errors affecting the same parts and fix actions collide, so Markdownlint only applies some of the fixes.
+> In some cases, you may need to run a fix script more than once to catch and fix all fixable errors. This typically occurs when a line has multiple errors affecting the same parts and the fix actions collide, so Markdownlint applies only some of the fixes.
 
 > [!NOTE]
 > With either of these two methods, keep in mind that not all issues that get flagged will have an autofix available. Some rules require fixes that are more dependent on context and cannot - and should not - be automatically fixed, such as our custom rule `TOP001` for descriptive link text.
@@ -95,7 +95,7 @@ Adding images to the curriculum is a two-step process, involving two PRs. For a 
 1. Have a copy of the image you want to upload on your local machine.
 1. If it doesn’t already exist, create a directory with the same name in the same directory as the lesson you want to add an image to.
 1. If it doesn’t already exist, create an `imgs` directory inside of the directory you made in the previous step.
-1. Add your image to the directory you made in step 3, naming it the order it appears on the page starting from 00 (i.e. the second image in a lesson will be `01.png` (or whatever extension)). If replacing an image, just replace the appropriate image file.
+1. Add your image to the directory you made in step 3, naming it the order it appears on the page, starting from 00 (i.e. the second image in a lesson will be `01.png` (or whatever extension)). If replacing an image, just replace the appropriate image file.
 1. PR the addition of the image(s). Here is an [example PR](https://github.com/TheOdinProject/curriculum/pull/22421) where this process was followed.
 
 ### Creating Statically Links
@@ -108,7 +108,7 @@ Only do this bit once the PR to add the image file(s) to the repository has been
    ![The commit ID is a random looking seven digit string that will appear like a message in the PR when your PR is merged.](https://cdn.statically.io/gh/wise-king-sullyman/curriculum/81577535181eae1bbaac066c37e304475af22855/images/Add-Images-Instructions/Click-Commit-ID.png)
 1. Go to https://wise-king-sullyman.github.io/better-statically-converter-react/
 1. Paste the URL you copied into the text box on the main screen of that site, then hit Enter.
-1. The site will generate the statically CDN link to each image that was merged into the curriculum with that PR. You can click each link to auto-copy that link to your clipboard.
+1. The site will generate the statically CDN link for each image that was merged into the curriculum with that PR. You can click each link to auto-copy that link to your clipboard.
 1. Use each of these links to link to your desired images in the curriculum content you’re editing/adding.
 1. PR the addition of the image links (and any other content you’ve added/changed in the lesson).
 
