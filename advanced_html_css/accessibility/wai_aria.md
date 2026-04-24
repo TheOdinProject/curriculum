@@ -139,7 +139,7 @@ Similar to how you can visually hide elements with the `hidden` HTML attribute o
 
 While both of the above examples would look visually identical, the button in Example 1 would be announced by a screen reader as, "Add add book, button". The text content of the `<span>` and the text content of the button itself are concatenated as the accessible name of the button. The button in Example 2, however, hides the `<span>` from the accessibility tree so its text content *isn't* added to the button's accessible name, meaning a screen reader would correctly announce "Add book, button".
 
-Be careful when using this attribute, though. When you give an element `aria-hidden="true"`, all children of that element will also become hidden to the accessibility tree. Adding `aria-hidden="false"` to a child element won"t have any effect if one of its parents still has `aria-hidden="true'`, either.
+Be careful when using this attribute, though. When you give an element `aria-hidden="true"`, all children of that element will also become hidden to the accessibility tree. Adding `aria-hidden="false"` to a child element won't have any effect if one of its parents still has `aria-hidden="true'`, either.
 
 You should also be careful not to give an element `aria-hidden="true"` if it is focusable. Doing so would cause nothing to be announced when the element receives focus, which would confuse users that use a screen reader and navigate the page via a keyboard.
 
