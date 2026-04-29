@@ -2,6 +2,14 @@
 
 A text editor is by far the most used developer tool regardless of what type of developer you are. A good text editor can help you write better code with real-time code checking, syntax highlighting, and automatic formatting.
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What code editors are.
+- Why code editors are so useful for development.
+- Installing Visual Studio Code (VSCode).
+
 ### Why can't I use Microsoft Word?
 
 Rich text editors, such as Microsoft Word and LibreOffice Writer, are great for writing a paper, but the features that make them good at creating nicely formatted documents make them unsuitable for writing code. A document created with these rich text editors has more than just text embedded in the file. These files also contain information on how to display the text on the screen and data on how to display graphics embedded into the document. In contrast, plain text editors, such as VSCode and Sublime, don't save any additional information. Saving only the text allows other programs, like Ruby's interpreter, to read and execute the file as code.
@@ -31,3 +39,10 @@ As a reminder, if you're using a **virtual machine**, you should install VSCode 
 1. Disable the Copilot AI code completion feature which is enabled by default in Visual Studio Code. Do this by clicking the little robot face in the bottom right of your VSCode window and unchecking the code completions box. To understand why The Odin Project thinks you should disable this feature please revisit the Motivation and Mindset lesson section [A note on AI code generation](https://www.theodinproject.com/lessons/foundations-motivation-and-mindset#a-note-on-ai-code-generation).
 
 </div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What is a code editor?](#code-editors)
+- [Which code editor does The Odin Project support?](#code-editors)
