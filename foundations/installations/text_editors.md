@@ -1,6 +1,3 @@
-<!-- TODO: Revisit lesson/heading structure to remove need to disable rules -->
-<!-- markdownlint-disable MD024 TOP004 -->
-
 ### Introduction
 
 A text editor is by far the most used developer tool regardless of what type of developer you are. A good text editor can help you write better code with real-time code checking, syntax highlighting, and automatic formatting.
@@ -19,149 +16,18 @@ Which editor you use is generally a matter of preference, but for the purposes o
 
 As a reminder, if you're using a **virtual machine**, you should install VSCode **on your VM**. You're welcome to also install it on your host (i.e., your Windows main OS), but ensure you have this critical tool inside your VM.
 
-### VSCode installation
-
-Choose your Operating System:
-
-<details markdown="block">
-
-<summary class="dropDown-header">Linux</summary>
-
-#### Step 1: Download VSCode
-
-- Open your **Terminal**.
-- Run the following command to download the latest **VSCode** `.deb` package:
-
-```bash
-wget -O code-latest.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
-```
-
-#### Step 2: Install VSCode
-
-- Enter the following commands in your terminal to install the **VSCode** `.deb` package:
-
-```bash
-sudo apt update
-sudo apt upgrade
-sudo apt install ./code-latest.deb
-```
-
-- If prompted, enter your password.
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### Adding Microsoft's VSCode repository (optional)
-
-If you prefer to have VSCode update automatically alongside your other system updates, you can add Microsoft's official VSCode repository to your apt sources. This is completely fine and safe to do. The repository will allow VSCode to be updated whenever you run `sudo apt update && sudo apt upgrade` with your other system packages.
-
-</div>
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### Typing passwords in the terminal
-
-  When using a command in the terminal that requires you to enter your password for authentication (such as sudo), you will notice that the characters aren't visible as you type them. While it might seem like the terminal isn’t responding, don’t worry!
-
-  This is a security feature to protect confidential information, like how password fields on websites use asterisks or dots. By not displaying the characters you write, the terminal keeps your password secure.
-
-  You can still enter your password as normal and press Enter to submit it.
-
-</div>
-
-<div class="lesson-note lesson-note--tip" markdown="1">
-
-#### Notice about unsandboxed download
-
-If you see a something like `N: Download is performed unsandboxed (...)`, you don't need to worry about it as the [`N:` just means it's a notice and not a warning](https://www.reddit.com/r/linux4noobs/comments/ux6cwx/comment/i9x2twx/).
-
-</div>
-
-#### Step 3: Delete the installer file
-
-```bash
-rm code-latest.deb
-```
-
-#### Step 4: Using VSCode
-
-You can start VSCode in two ways,
-
-- Click **Visual Studio Code** from the Applications menu.
-- **Or**, use the `code` command from the terminal.
-
-```bash
-code
-```
-
-</details>
-
-<details markdown="block">
-
-<summary class="dropDown-header">MacOS</summary>
-
-#### Step 1: Download VSCode
-
-- [Download the latest VSCode installer .zip file.](https://update.code.visualstudio.com/latest/darwin-universal/stable)
-
-#### Step 2: Install VSCode
-
-- Open the **Downloads** folder.
-- Double click the file **VSCode-darwin-universal.zip**.
-- Drag the **Visual Studio Code.app** icon to the **Applications** folder icon.
-
-#### Step 3: Delete the installer file
-
-- Open **Finder**.
-- Go to the **Downloads** folder.
-- Drag **VSCode-darwin-universal.zip** to the trash.
-
-#### Step 4: Using VSCode
-
-- Go to your **Applications** folder.
-- Double click **Visual Studio Code**.
-
-</details>
-
-<details markdown="block">
-
-<summary class="dropDown-header">WSL2</summary>
-
-#### Step 1: Install VSCode
-
-- Follow the instructions for [Visual Studio Code on Windows](https://code.visualstudio.com/docs/setup/windows) to install VSCode.
-
-#### Step 2: Delete the installer file
-
-- Open **File Explorer**.
-- Go to the **Downloads** folder.
-- Drag **VSCodeUserSetup-{version}.exe** to the trash.
-
-#### Step 3: Install WSL Extension
-
-- Open Visual Studio Code.
-- Navigate to the extensions tab.
-- Find and install the [WSL extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl).
-
-#### Step 4: Ensure that WSL2 can correctly open VSCode
-
-- Open a new WSL2 terminal.
-- Run the following command to open a new VSCode window.
-
-  ```bash
-  code
-  ```
-
-- After a few moments a new VSCode window should open, and VSCode should provide a notification that its opening in WSL2.
-
-</details>
-
-Going forward, if you have any issues with VSCode or want to know more about certain features, check the [VSCode docs](https://code.visualstudio.com/docs). There will also be many keyboard shortcuts you can use within VSCode, some of which may be specific to your OS and you can look up when you need.
-
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
-1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners](https://youtu.be/ORrELERGIHs?t=103) video, you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
+1. Depending on the OS you are running, follow the appropriate VSCode installation guide below:
+
+   - [Linux](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/text_editors/linux.md "VSCode installation for Linux")
+   - [MacOS](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/text_editors/macos.md "VSCode installation for MacOS")
+   - [WSL2](https://github.com/TheOdinProject/curriculum/blob/main/foundations/installations/installation_guides/text_editors/wsl2.md "VSCode installation for WSL2")
+
+   Going forward, if you have any issues with VSCode or want to know more about certain features, check the [VSCode docs](https://code.visualstudio.com/docs). There will also be many keyboard shortcuts you can use within VSCode, some of which may be specific to your OS and you can look up when you need.
+1. Familiarizing yourself with VSCode will allow you to save time and become more productive. By watching this [VSCode Tutorial for Beginners video](https://youtu.be/ORrELERGIHs?t=103), you'll get an idea of all the features VSCode has to offer. Don't worry about actually coding along, just watch for the way that VSCode is used throughout the video.
 1. Disable the Copilot AI code completion feature which is enabled by default in Visual Studio Code. Do this by clicking the little robot face in the bottom right of your VSCode window and unchecking the code completions box. To understand why The Odin Project thinks you should disable this feature please revisit the Motivation and Mindset lesson section [A note on AI code generation](https://www.theodinproject.com/lessons/foundations-motivation-and-mindset#a-note-on-ai-code-generation).
 
 </div>
