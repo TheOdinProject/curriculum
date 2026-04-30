@@ -6,6 +6,16 @@
 
 Even though GitHub and Git sound similar, they are not the same or even created by the same company.
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- What Git is.
+- What GitHub is.
+- Installing and configuring Git.
+- Creating a GitHub account.
+- Connecting Git to your GitHub account.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -80,7 +90,7 @@ Even though GitHub and Git sound similar, they are not the same or even created 
 
    </div>
 
-1. Create an SSH key, which is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
+1. <span id="ssh-key"></span>Create an SSH key, which is a cryptographically secure identifier. It's like a really long password used to identify your machine. GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
 
    <div class="lesson-note" markdown="1">
 
@@ -135,3 +145,11 @@ Let us know how it went! You've completed the basic installations section, good 
 You probably felt like you were way in over your head, and you probably didn't understand much of what you were doing. That's 100% normal. Hang in there. You can do this! And we've got your back.
 
 </div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What is Git?](#introduction)
+- [What is GitHub?](#introduction)
+- [What authentication method are we setting up with Git: SSH or HTTPS?](#ssh-key)
