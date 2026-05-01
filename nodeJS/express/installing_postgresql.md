@@ -6,16 +6,6 @@ For example, consider The Odin Project. Where is your username stored? Where are
 
 We've chosen [PostgreSQL](https://www.postgresql.org/) as our database of choice for the curriculum. All SQL knowledge that you've learned in the earlier course should be transferable to PostgreSQL. We'll also learn new PostgreSQL specific things. Watch through this [fun and short introduction video to PostgreSQL by Fireship](https://www.youtube.com/watch?v=n2Fluyr3lbc).
 
-<div class="lesson-note lesson-note--critical" markdown="1">
-
-#### Complete the SQL course
-
-Make sure you've completed the [SQL course](https://www.theodinproject.com/paths/full-stack-javascript/courses/databases).
-
-This lesson and all subsequent lessons will assume you understand SQL syntax and concepts.
-
-</div>
-
 In this lesson, we'll install PostgreSQL and in the next lesson we'll learn how to use it in our Express application.
 
 ### Lesson overview
@@ -26,6 +16,16 @@ This section contains a general overview of topics that you will learn in this l
 - How to install PostgreSQL.
 
 ### PostgreSQL shell
+
+<div class="lesson-note lesson-note--critical" markdown="1">
+
+#### Complete the SQL course
+
+Make sure you've completed the [SQL course](https://www.theodinproject.com/paths/full-stack-javascript/courses/databases).
+
+This lesson and all subsequent lessons will assume you understand SQL syntax and concepts.
+
+</div>
 
 The PostgreSQL shell, also known as psql, is a terminal-based front end to PostgreSQL that allows users to interactively execute SQL queries and manage the database.
 
