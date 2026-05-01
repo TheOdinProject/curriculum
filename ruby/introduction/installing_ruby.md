@@ -10,6 +10,13 @@ Before continuing, let's review a few best practices to keep in mind:
 
 Now, let's get started!
 
+### Lesson overview
+
+This section contains a general overview of topics that you will learn in this lesson.
+
+- Installing and updating Ruby.
+- Setting local and global Ruby versions.
+
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
@@ -74,7 +81,7 @@ If you've just installed Ruby, congratulations! Your version is probably complet
      rbenv install 3.4.6
    ```
 
-#### Setting local and global Ruby version
+#### Setting local and global Ruby versions
 
 `rbenv` makes it easy to have multiple different versions of Ruby installed and switch between them. You may have one project that runs with Ruby 3.4 and another that runs with Ruby 3.3, and `rbenv` will coordinate this for you. The version of Ruby set at the project level is called the "local" version.
 
@@ -111,3 +118,10 @@ Using the extension is optional, but it is a quick install; go to the "Extension
 The most important features Ruby LSP provides will work out of the box. But it may bug you about using a monorepo setup, missing lockfiles or rubocop - you can choose "Don't show again" for now. We will introduce these later.
 
 </div>
+
+### Knowledge check
+
+The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
+
+- [What program do we use to install and manage Ruby versions?](#install-ruby)
+- [How does a "local" version of Ruby differ from the "global" version?](#setting-local-and-global-ruby-versions)
