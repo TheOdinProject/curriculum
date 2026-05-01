@@ -69,7 +69,7 @@ Another facet of this is related to your web presence -- don't be afraid to prod
     - Read about [How Important Is It for a Programmer to Have an Online Presence? on Stack Exchange](http://programmers.stackexchange.com/questions/143673/how-important-is-it-for-a-programmer-to-have-an-online-presence).
     - Learn [How to Build Your Digital Presence as a Software Developer](https://blog.pramp.com/how-to-build-your-digital-presence-as-a-software-developer-cb61c4c1aab).
 
-1. [How to Win Friends and Influence People](http://erudition.mohit.tripod.com/_Influence_People.pdf) is an essential classic that relates to business and networking but is applicable to all facets of the social world around you.  It's a must-read for everyone (and it's an easy read).
+1. [How to Win Friends and Influence People](https://dn720004.ca.archive.org/0/items/english-collections-1/How%20To%20Win%20Friends%20And%20Influence%20People%20-%20Carnegie%2C%20Dale.pdf) is an essential classic that relates to business and networking but is applicable to all facets of the social world around you.  It's a must-read for everyone (and it's an easy read).
 
 </div>
 
