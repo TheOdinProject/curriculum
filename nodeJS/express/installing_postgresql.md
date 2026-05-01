@@ -22,7 +22,7 @@ In this lesson, we'll install PostgreSQL and in the next lesson we'll learn how 
 
 This section contains a general overview of topics that you will learn in this lesson.
 
-- Explain what the PostgreSQL shell is.
+- The PostgreSQL shell.
 - How to install PostgreSQL.
 
 ### PostgreSQL shell
@@ -48,3 +48,4 @@ The database using the psql terminal is located inside the file system or local 
 The following questions are an opportunity to reflect on key topics in this lesson. If you can't answer a question, click on it to review the material, but keep in mind you are not expected to memorize or master this knowledge.
 
 - [Why is data persistence important in web applications?](#introduction)
+- [What is the PostgreSQL shell?](#postgresql-shell)
