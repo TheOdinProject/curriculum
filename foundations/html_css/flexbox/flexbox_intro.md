@@ -78,7 +78,7 @@ Somewhat confusingly, any element can be both a flex container *and* a flex item
 
 Creating and nesting multiple flex containers and items is the primary way we will be building up complex layouts. The following image was achieved using *only* flexbox to arrange, size, and place the various elements. Flexbox is a *very* powerful tool.
 
-![complex example](STATICAL_LINK_TBD_AFTER_31045_MERGES)
+![complex example](https://cdn.statically.io/gh/TheOdinProject/curriculum/1c08f76bfc94871a3e01bcc2488c82519335b5cd/foundations/html_css/flexbox/imgs/05.png)
 
 ### Assignment
 
