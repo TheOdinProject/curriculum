@@ -544,7 +544,7 @@ Markdownlint: [`descriptive-link-text-labels`](https://github.com/TheOdinProject
 
 Markdown link syntax allows you to set a link title, just as HTML does. Use it wisely.
 
-Titling your links as "link" or "here" tells the reader precisely nothing when quickly scanning your doc and is a waste of space. Instead, write the sentence naturally, then go back and wrap the most appropriate phrase with the link:
+Titling your links as "link" or "here" tells the reader precisely nothing when quickly scanning your doc and is a waste of space. Users of screen readers will also not get any surrounding context when listing or reading out links, which will only list or read out the link's text/accessible name. Instead, write the sentence naturally, then go back and wrap the most appropriate phrase with the link:
 
 ```markdown
 See the [lesson template](./templates/lesson-template.md) for a more easily copyable lesson file.
@@ -562,6 +562,27 @@ Go look at our [installations guide here](...url)
 Check out this [video on flex-grow from CoolYoutuber](...url)
 Go look at our [installations guide](...url)
 ```
+
+On the rare occasion, it may be awkward and undesirable to have the link text stand by itself. An example is a list of links to OS-specific instructions for the same specific installation step, where it may look visually awkward with repeated long links. In such cases, you can explicitly provide an accessible name for the link within the URL parentheses, after the URL and in double quotes. Our markdown converter will add this text as both a [`title` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/title) and [`aria-label` attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label). The link text should still provide context for sighted users, so would still be subject to rules about "this" or "here".
+
+> [!CAUTION]
+> This feature should ideally be avoided unless there is strong justification against the link text being sufficiently informative by itself. In most cases, it would be more desirable for the link text to be the accessible name and thus sufficiently descriptive.
+
+```markdown
+<!-- Acceptable but can be visually noisy and trickier to read -->
+1. Depending on the OS you are running, follow the appropriate VSCode installation guide below:
+   - [Linux VSCode installation instructions](https://link.com/0)
+   - [MacOS VSCode installation instructions](https://link.com/1)
+   - [WSL2 VSCode installation instructions](https://link.com/2)
+
+<!-- Also accessible while visually cleaner -->
+1. Depending on the OS you are running, follow the appropriate VSCode installation guide below:
+   - [Linux](https://link.com/0 "Linux VSCode installation instructions")
+   - [MacOS](https://link.com/1 "MacOS VSCode installation instructions")
+   - [WSL2](https://link.com/2 "WSL2 VSCode installation instructions")
+```
+
+### Use the same label for the same href
 
 Additionally, if there are multiple links in a lesson that redirect to the same `href`, the link text for each link must be the same. For example:
 
